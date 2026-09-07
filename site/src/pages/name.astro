@@ -1,0 +1,137 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+const rows = [
+  ["Spain", "888", "1:52,649", "4,882"],
+  ["Uruguay", "431", "1:7,962", "896"],
+  ["Argentina", "293", "1:145,882", "12,355"],
+  ["Mexico", "223", "1:556,620", "9,555"],
+  ["United States", "107", "1:3,387,467", "192,132"],
+  ["South Africa", "61", "1:888,159", "57,770"],
+  ["Haiti", "49", "1:218,039", "8,036"],
+  ["Chile", "14", "1:1,258,320", "22,898"],
+  ["France", "11", "1:6,038,429", "280,838"],
+];
+---
+<Base title="The name">
+  <h1>The name</h1>
+  <p class="lede">
+    <em>Lerena</em> is a rare surname — rare enough that rarity itself becomes a research tool. It may also
+    be two separate names sharing one spelling. Both facts shape everything else in this archive.
+  </p>
+
+  <h2>How rare</h2>
+  <p>
+    Forebears, accessed 8 September 2026: <strong>2,124 bearers worldwide</strong>, the
+    <strong>197,177th</strong> commonest surname on earth, an incidence of <strong>1 in 3,431,048</strong>.
+  </p>
+  <p>
+    Set that beside the other families in this group of archives. <em>Falco</em> has
+    <strong>46,749</strong> bearers and two independent origins, so no two Falco lines can be assumed
+    related. <em>Lerena</em> is <strong>twenty-two times scarcer</strong>. The methodological consequence
+    runs the other way:
+  </p>
+  <blockquote>
+    With a surname this rare, a cluster of Lerenas in one town is far more likely to be one family than to
+    be coincidence. Connections may be <em>proposed</em> on distribution alone — but they must still be
+    <em>proved</em> in the registers.
+  </blockquote>
+
+  <h2>Where they are</h2>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Country</th><th>Bearers</th><th>Incidence</th><th>Rank in country</th></tr></thead>
+      <tbody>
+        {rows.map(([c, b, i, r]) => (
+          <tr><td>{c}</td><td>{b}</td><td class="mono">{i}</td><td class="mono">{r}</td></tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  <p class="small">
+    Smaller presences are also recorded in Cuba, Brazil, Peru, Ecuador, Venezuela, England, Ireland,
+    Canada, Switzerland, Belgium and the Philippines. Source: Forebears.
+  </p>
+
+  <h3>Read the table by density, not by total</h3>
+  <p>
+    Spain has the largest absolute number, and that is what one would expect of the country of origin.
+    But <strong>Uruguay's density is the highest in the world</strong> — 1 in 7,962, against Spain's
+    1 in 52,649. A small population carrying a name at six times the homeland's density is the classic
+    signature of <strong>founder emigration</strong>: a few people arrived, and their descendants are now a
+    measurable fraction of the country.
+  </p>
+  <p>
+    Uruguay and Argentina together make the <strong>River Plate</strong> the true modern heartland of the
+    name. The family's own account — Rosario, on the Paraná — sits squarely inside it.
+  </p>
+  <p>
+    <strong>South Africa's 61</strong> deserve the same reading. For a surname of 2,124 people worldwide,
+    61 in one country far from Iberia and the Americas is not background scatter. It looks like one
+    family that arrived and multiplied. <a href={u("/south-africa")}>South Africa &rarr;</a>
+  </p>
+
+  <h2>What the name means — the unresolved fork</h2>
+  <p>There are two candidate origins, and the archive does not yet know which applies here.</p>
+
+  <div class="grid two">
+    <div class="card">
+      <h3 style="margin-top:0">1. Basque: a house-name</h3>
+      <p>
+        The suffix <strong>-ena</strong> is the Basque possessive, "the house of" or "belonging to" — the
+        formative behind <em>Perurena</em>, <em>Marinelarena</em>, <em>Arruabarrena</em> and hundreds more.
+        On this reading <em>Lerena</em> is a <strong>house-name</strong>, and in Basque practice the house
+        names the family, not the reverse.
+      </p>
+      <p style="margin-bottom:0">
+        A Basque origin would also fit the destination. Basque emigration to the River Plate began in the
+        1820s and ran for a century; it is estimated that up to a tenth of Uruguay's population has at
+        least one Basque surname. <span class="chip dis">Plausible, unproven</span>
+      </p>
+    </div>
+    <div class="card">
+      <h3 style="margin-top:0">2. Castilian: a town in Extremadura</h3>
+      <p>
+        <strong>Llerena</strong>, in Badajoz, is a real and significant town — seat of the Order of
+        Santiago and of an Inquisitorial tribunal, with a large medieval Jewish and <em>converso</em>
+        population. It has given its name to <strong>36,828</strong> bearers of <em>Llerena</em>.
+      </p>
+      <p style="margin-bottom:0">
+        Forebears lists <em>Llerena</em> as the closest variant of <em>Lerena</em> at 92% similarity. The
+        Castilian <em>Ll-</em> reduces to <em>L-</em> easily in Spanish-American registers and at ports of
+        arrival, so a <em>Lerena</em> may simply be a <em>Llerena</em> written down by someone in a hurry.
+        <span class="chip dis">Plausible, unproven</span>
+      </p>
+    </div>
+  </div>
+
+  <h3>Why the fork matters, and how it gets closed</h3>
+  <p>
+    It matters because the two answers send the research to opposite ends of Spain — the Basque provinces
+    and Navarre, or Badajoz in Extremadura — and to different record systems. It is the same shape of
+    problem the Falco archive met in <em>Falco</em> versus <em>De Falco</em>, where clerks moved between
+    forms freely and one line could appear under both.
+  </p>
+  <p>It is closed the same way, and only this way:</p>
+  <ul>
+    <li>Find the family's <strong>earliest River Plate records</strong> and see which spelling they use, and
+      whether the two forms alternate for the same person.</li>
+    <li>Read the <strong>Spanish provincial distribution</strong> properly. Forebears places the Spanish
+      Lerenas chiefly in <strong>La Rioja, Andalusia and Madrid</strong> — which is awkward for both
+      theories, being neither Basque nor Extremaduran, though La Rioja borders the Basque country and
+      Andalusia is where Extremadurans went. This needs the INE provincial figures, not a summary.</li>
+    <li>Find the <strong>emigration record</strong>. A ship's list or a consular registration usually names
+      the town of origin outright, and settles it in one line.</li>
+  </ul>
+  <p class="small">
+    Note also <em>Lerena Lenguas</em>, the double surname of the Argentine Stud Book's co-founder. Both
+    halves are River Plate names, and <em>Lenguas</em> is Uruguayan. <a href={u("/horses")}>The horses &rarr;</a>
+  </p>
+
+  <h2>Sources for this page</h2>
+  <p class="small">
+    Forebears (worldwide and per-country figures, accessed 8 September 2026) · Wikipedia, <em>Basque
+    surnames</em> and <em>Llerena, Badajoz</em> · NameCensus. The Basque and Castilian readings are
+    standard onomastics, not a claim about this family.
+  </p>
+</Base>

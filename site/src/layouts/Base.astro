@@ -1,0 +1,40 @@
+---
+import "../styles/global.css";
+import { u } from "../lib/url.js";
+const { title, description = "An evidence-first archive of the Lerena family — Rosario and the River Plate, the Karoo and Johannesburg, and Brisbane." } = Astro.props;
+const path = Astro.url.pathname.replace(/\/$/, "");
+const nav = [
+  ["/", "Home"], ["/direct-line", "The line"], ["/name", "The name"],
+  ["/argentina", "Argentina"], ["/south-africa", "South Africa"],
+  ["/horses", "The horses"], ["/method", "Method"],
+  ["/open-questions", "Open questions"], ["/sources", "Sources"],
+];
+const here = (p) => (u(p).replace(/\/$/, "") === path ? "page" : undefined);
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title} · The Lerena Archive</title>
+    <meta name="description" content={description} />
+  </head>
+  <body>
+    <header class="site">
+      <div class="wrap">
+        <a class="brand" href={u("/")}>The Lerena Archive</a>
+        <nav>
+          {nav.map(([p, label]) => <a href={u(p)} aria-current={here(p)}>{label}</a>)}
+        </nav>
+      </div>
+    </header>
+    <main class="wrap"><slot /></main>
+    <footer class="site">
+      <div class="wrap">
+        <p>The Lerena family — of Rosario and the River Plate, of the Cape and Johannesburg, and of Brisbane.
+        Every claim on this site carries a source or is labelled as unproven.</p>
+        <p class="small">Living people are omitted from this build. Corrections are welcome and are the most
+        valuable thing you can send.</p>
+      </div>
+    </footer>
+  </body>
+</html>

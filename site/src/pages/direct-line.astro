@@ -1,0 +1,86 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+---
+<Base title="The line">
+  <h1>The line</h1>
+  <p class="lede">
+    Three generations are known to exist. One of them has a name. This page will grow, and its present
+    emptiness is the most accurate thing on the site.
+  </p>
+
+  <div class="card" style="margin:1.4rem 0">
+    <p style="margin:0">
+      Two constraints shape this page. <strong>Living people are omitted from the build</strong>, which
+      removes the most recent generations; and the generations above them are <strong>not yet
+      documented</strong>. What remains publishable today is a skeleton.
+      <a href={u("/method")}>Method &rarr;</a>
+    </p>
+  </div>
+
+  <h2>As it stands</h2>
+  <div class="scroll">
+    <table>
+      <thead>
+        <tr><th>Gen</th><th>Person</th><th>Where</th><th>Status</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="mono">1</td>
+          <td><strong>[Name unknown]</strong> Lerena<br /><span class="small">Great-grandfather of David
+            Defranceski; grandfather of Cheryl Anne Lerena</span></td>
+          <td>Argentina — <strong>Rosario</strong>; later South Africa</td>
+          <td><span class="chip lore">Family lore</span><br /><span class="small">Consul General; horse
+            breeding; ostrich farm. No name, no dates, no document.</span></td>
+        </tr>
+        <tr>
+          <td class="mono">2</td>
+          <td><strong>[Name unknown]</strong> Lerena<br /><span class="small">Father of Cheryl Anne Lerena</span></td>
+          <td>South Africa</td>
+          <td><span class="chip">Inferred</span><br /><span class="small">Must exist to link generations 1
+            and 3. Nothing further known.</span></td>
+        </tr>
+        <tr>
+          <td class="mono">3</td>
+          <td><strong>Cheryl Anne Lerena</strong></td>
+          <td>South Africa; later Brisbane</td>
+          <td><span class="chip">Omitted</span><br /><span class="small">Married Ivan Defranceski. Details
+            withheld under the rule on living people.</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="small">
+    Generation 1 is numbered from the earliest ancestor presently identified, and <strong>will be
+    renumbered</strong> as the line extends upward — which it is expected to do, through Argentina and then
+    into Spain or Uruguay.
+  </p>
+
+  <h2>Where it joins the other archives</h2>
+  <p>
+    <strong>Cheryl Anne Lerena married Ivan Defranceski.</strong> That marriage is the hinge between this
+    archive and the <em>Defranceski</em> archive, whose line runs back through Johannesburg to Gračišće and
+    the Istrian peninsula. Their son married into the <em>Falco</em> line of Arienzo in Campania.
+  </p>
+  <p>
+    Three archives, three continents of origin, meeting in Brisbane: <strong>Lerena</strong> from the River
+    Plate by way of South Africa, <strong>Defranceski</strong> from Istria, <strong>Falco</strong> from
+    Campania.
+  </p>
+
+  <h2>The first task</h2>
+  <p>
+    <strong>Name generation 1.</strong> Every other question on this site is downstream of it — the consular
+    lists cannot be searched, the stud books cannot be checked, and the Argentine registers cannot be opened
+    without a name. The likeliest places it is already written down:
+  </p>
+  <ul>
+    <li>David Defranceski's <strong>MyHeritage tree</strong>, which carries stored facts and citations and
+      has not yet been read into this archive.</li>
+    <li><strong>Cheryl's birth record</strong>, naming her father; and her father's birth or marriage
+      record, naming his.</li>
+    <li>A <strong>South African deceased estate file</strong> under the surname — these name spouse and
+      children outright, and with a surname this rare the index can simply be swept.</li>
+  </ul>
+  <p><a href={u("/open-questions")}>Open questions &rarr;</a></p>
+</Base>

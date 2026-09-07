@@ -1,0 +1,114 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+---
+<Base title="Home">
+  <h1>The Lerena Archive</h1>
+  <p class="lede">
+    An evidence-first archive of the <strong>Lerena</strong> family — carried, by family account,
+    from <strong>Rosario</strong> in Argentina to <strong>South Africa</strong>, and from there to
+    <strong>Brisbane</strong>. This archive begins almost empty, and says so.
+  </p>
+
+  <div class="card" style="margin:1.6rem 0">
+    <p style="margin-top:0"><span class="chip">Day one</span></p>
+    <p style="margin-bottom:0">
+      The Falco and Defranceski archives were built on registers already read. This one is not. What
+      follows is the <em>baseline</em>: what the surname is, where in the world it sits, what the family
+      remembers, and what must now be proved. Almost every line below is a question rather than an answer.
+      That is the honest state of it, and it will be kept honest as the answers arrive.
+    </p>
+  </div>
+
+  <h2>What the family remembers</h2>
+  <p>
+    Recorded from <strong>David Defranceski</strong>, 8 September 2026. This is testimony, not
+    documentation — it is the map for the research, not its result.
+  </p>
+  <ul>
+    <li><strong>Cheryl Anne Lerena</strong> married <strong>Ivan Defranceski</strong>. Their son David was
+      born at Johannesburg; the family later moved to Brisbane.</li>
+    <li>Cheryl's <strong>grandfather came from Argentina</strong>, and <strong>Rosario</strong> is the
+      place named for him.</li>
+    <li>He served as <strong>Consul General</strong> between Argentina and South Africa.</li>
+    <li>He is said to have <strong>brought horse breeding and racing to South Africa from Argentina</strong>.</li>
+    <li>He is believed to have kept an <strong>ostrich farm</strong>.</li>
+  </ul>
+  <p class="small">
+    Each of these is testable against public record — diplomatic lists, stud books, gazettes, the
+    Oudtshoorn feather archives. None of them is yet proved here. See
+    <a href={u("/open-questions")}>Open questions</a>.
+  </p>
+
+  <h2>What is already established</h2>
+  <div class="grid two">
+    <div class="card">
+      <p><span class="chip doc">Documented</span></p>
+      <h3 style="margin-top:.4rem">The name is rare</h3>
+      <p style="margin-bottom:0">
+        <strong>2,124 bearers worldwide</strong> — the 197,177th commonest surname on earth, one person
+        in 3.43 million. Compare <em>Falco</em>, with 46,749. Rarity is the single most useful fact in this
+        archive: with a name this scarce, two clusters of Lerenas are far more likely to be one family
+        than to be coincidence. <a href={u("/name")}>The name &rarr;</a>
+      </p>
+    </div>
+    <div class="card">
+      <p><span class="chip doc">Documented</span></p>
+      <h3 style="margin-top:.4rem">The River Plate is the heartland</h3>
+      <p style="margin-bottom:0">
+        Spain has the most Lerenas in absolute terms (888), but <strong>Uruguay</strong> has them at
+        <strong>1 in 7,962</strong> — over six times Spain's density and the highest on earth. Argentina
+        holds 293. The name's centre of gravity is the River Plate, exactly where the family story starts.
+        <a href={u("/argentina")}>Argentina &rarr;</a>
+      </p>
+    </div>
+    <div class="card">
+      <p><span class="chip doc">Documented</span></p>
+      <h3 style="margin-top:.4rem">There are Lerenas in the stud book</h3>
+      <p style="margin-bottom:0">
+        <strong>Gilberto Justiniano Lerena Lenguas</strong> co-founded the <strong>Argentine Stud
+        Book</strong> and bred a Quadruple Crown winner; a Group race still carries his name. In South
+        Africa, <strong>Gavin Lerena</strong> is a leading jockey. The horse thread is real on both
+        continents — what is unproven is whether it runs through this family.
+        <a href={u("/horses")}>The horses &rarr;</a>
+      </p>
+    </div>
+    <div class="card">
+      <p><span class="chip doc">Documented</span></p>
+      <h3 style="margin-top:.4rem">The South African branch is a founder cluster</h3>
+      <p style="margin-bottom:0">
+        <strong>61 Lerenas in South Africa</strong>. For a surname of 2,124 people worldwide that is a
+        striking concentration, and it has the signature of a single family arriving and multiplying —
+        which is precisely what the family story describes.
+        <a href={u("/south-africa")}>South Africa &rarr;</a>
+      </p>
+    </div>
+  </div>
+
+  <h2>The two origins problem</h2>
+  <p>
+    <em>Lerena</em> may be two different names wearing one spelling, and the archive cannot yet say which
+    one belongs to this family:
+  </p>
+  <ul>
+    <li><strong>Basque.</strong> The ending <em>-ena</em> is the Basque possessive — "the house of". This
+      would make Lerena a house-name, and the family Basque or Navarrese.</li>
+    <li><strong>Castilian toponymic.</strong> <strong>Llerena</strong> in Badajoz, Extremadura, is a real
+      town with 36,828 name-bearers descended from it. <em>Ll-</em> reduces to <em>L-</em> readily in
+      Spanish-American registers and at ports of arrival.</li>
+  </ul>
+  <p>
+    This is the same problem the Falco archive met as <em>Falco</em> versus <em>De Falco</em>, and it is
+    settled the same way: in the registers, not by the look of the name.
+    <a href={u("/name")}>The full baseline &rarr;</a>
+  </p>
+
+  <h2>How this archive works</h2>
+  <p>
+    Every statement is tiered — <strong>documented</strong>, <strong>inferred</strong>,
+    <strong>disputed</strong>, or <strong>family lore</strong> — and the tier is shown. Family lore is kept
+    because it is precious and labelled because pretending otherwise is how family myths become family
+    history. <strong>Living people are omitted from the build entirely.</strong>
+    <a href={u("/method")}>Method &rarr;</a>
+  </p>
+</Base>
