@@ -1,0 +1,155 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+const cape = [
+  ["1931", "3/CT B796", "Plans of proposed STABLES, Koeberg Road, Rugby. RP Lerena.", true],
+  ["1932", "3/CT B352", "Unauthorised wood and iron structure, Madeira Road, Rugby. RP Lerena.", false],
+  ["1947-48", "3/CT B3099", "Completion of house and garage, Lot 1202, Hove Road, Camps Bay. Mr R Lerena.", false],
+  ["1948-50", "3/CT B2892", "Completion of additions, Madeira Street, Rugby. Mr R Lerena.", false],
+  ["1950", "MOOC 6/9/17017, ref 1847/50", "LERENA, ROBERT PAUL. Estate papers.", true],
+];
+const tvl = [
+  ["1971", "MHG 6746/71", "LERENA, NUNO FERNANDO. Surviving spouse Catherine Mary Sophia Lerena."],
+  ["1973", "MHG 1518/73", "LERENA, ROGUE [Roque] LUIS ARMANDO. Surviving spouse Rheena May Lerena; predeceased spouse Rosina Wilhelmina Lerena."],
+  ["1977", "WLD 8043/77", "Stadium Timber and Hardware Co. Ltd versus Anton Lerena."],
+  ["1979", "TPD 1248/1979, M680/1979, 2769/1979", "Divorce. Ricardo Paul Lerena versus Anne Margaret Lerena (born Corbett)."],
+  ["1980", "TPD 1367/1980", "Divorce. Glynnis Margaret Lerena (born Bolton) versus Anton Armando Lerena."],
+];
+---
+<Base title="NAAIRS">
+  <h1>The archives answer</h1>
+  <p class="lede">
+    On 8 September 2026 the South African National Archives index was searched for the surname. It returned
+    <strong>thirteen documents</strong> — and with them the first real names this archive has ever had.
+  </p>
+
+  <div class="card" style="margin:1.4rem 0">
+    <p style="margin:0">
+      <span class="chip doc">Documented</span> <strong>NAAIRS</strong>, the National Automated Archival
+      Information Retrieval System, database <strong>RSA</strong> (all repositories and national registers),
+      searched for <span class="mono">LERENA</span>, 8 September 2026. Thirteen hits, of which
+      <strong>twelve are genuine</strong>; the thirteenth is a false positive where <em>Lerena</em> is a
+      woman's given name. All thirteen records are preserved in this project.
+    </p>
+  </div>
+
+  <h2>The Cape: Robert Paul Lerena</h2>
+  <p>
+    Five of the twelve are one man in Cape Town, and they run from 1931 to his death.
+  </p>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Date</th><th>Reference</th><th>Description</th></tr></thead>
+      <tbody>
+        {cape.map(([d, r, desc, key]) => (
+          <tr>
+            <td class="mono">{d}</td>
+            <td class="mono small">{r}</td>
+            <td>{key ? <strong>{desc}</strong> : desc}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  <p class="small">Depot KAB — Cape Town Archives Repository.</p>
+
+  <h3>The stables</h3>
+  <blockquote>
+    RE: PLANS OF PROPOSED <strong>STABLES</strong> KOEBERG ROAD, RUGBY. RP LERENA. &mdash; 1931
+  </blockquote>
+  <p>
+    <span class="chip doc">Documented</span> This is the first hard corroboration of the family's horse
+    tradition. A Lerena submitted plans to build <strong>stables</strong> in Cape Town in 1931 — not a
+    remembered claim but a municipal building file. <a href={u("/horses")}>The horses &rarr;</a>
+  </p>
+  <p>
+    <strong>Rugby</strong> is a suburb on the northern edge of Cape Town, beside <strong>Milnerton</strong> —
+    and Milnerton had a racecourse. Whether the stables were racing stables is
+    <span class="chip">not yet established</span>, but the location does nothing to discourage the idea, and
+    the building file itself should say what was proposed.
+  </p>
+
+  <h3>The estate file</h3>
+  <p>
+    <strong>MOOC 6/9/17017, reference 1847/50.</strong> MOOC is the Master of the Orphan Chamber, the Cape's
+    deceased-estate series, so <strong>Robert Paul Lerena died in 1950</strong> — and he was still
+    improving the Rugby property that year. A Cape estate file of this period ordinarily contains the death
+    notice, which names the deceased's <strong>parents, birthplace, spouse and children</strong>.
+  </p>
+  <p>
+    <strong>If he was born in Argentina, that death notice is where it will say so.</strong> It is now the
+    single highest-value document in the project. <a href={u("/open-questions")}>Open questions &rarr;</a>
+  </p>
+
+  <h2>The Transvaal: the Johannesburg generation</h2>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Date</th><th>Reference</th><th>Description</th></tr></thead>
+      <tbody>
+        {tvl.map(([d, r, desc]) => (
+          <tr><td class="mono">{d}</td><td class="mono small">{r}</td><td>{desc}</td></tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  <p class="small">
+    Depot TAB — National Archives Repository, former Transvaal. MHG is the Transvaal Master's
+    deceased-estate series; TPD and WLD are the Transvaal Provincial and Witwatersrand Local Divisions of
+    the Supreme Court.
+  </p>
+  <p>
+    <span class="chip">Inferred</span> The record shifts from the Cape to the Transvaal between Robert
+    Paul's death in <strong>1950</strong> and Nuno Fernando's in <strong>1971</strong>. That is the
+    family moving to the Rand — which is where David Defranceski was later born.
+    <a href={u("/south-africa")}>South Africa &rarr;</a>
+  </p>
+  <p>
+    Two further deceased estates give three more names and two widows: <strong>Nuno Fernando Lerena</strong>
+    (d. 1971), whose widow was <strong>Catherine Mary Sophia</strong>; and <strong>Roque Luis Armando
+    Lerena</strong> (d. 1973), who had married twice — <strong>Rosina Wilhelmina</strong>, who predeceased
+    him, and <strong>Rheena May</strong>, who survived him. Both estate files should name their children.
+  </p>
+
+  <h2>The given names settle something</h2>
+  <p>
+    <strong>Nuno Fernando. Roque Luis Armando. Ricardo Paul. Anton Armando.</strong>
+  </p>
+  <p>
+    <span class="chip">Inferred</span> These are <strong>Iberian and Latin American</strong> given names.
+    <em>Nuno</em> is distinctly Portuguese; <em>Roque</em>, <em>Luis</em>, <em>Armando</em> and
+    <em>Ricardo</em> are Spanish or Portuguese. They are being borne by men living in South Africa and
+    marrying women named Corbett, Bolton and Catherine Mary Sophia.
+  </p>
+  <p>
+    A family that keeps giving its sons Iberian names two and three generations after arriving is a family
+    that <strong>knows exactly where it came from</strong>. This is independent support for the
+    <a href={u("/argentina")}>River Plate origin</a> the family remembers — arrived at from a government
+    index, not from the family's own account.
+  </p>
+  <p class="small">
+    Note also that <strong>Paul</strong> recurs across the two clusters — Robert <em>Paul</em> in the Cape,
+    Ricardo <em>Paul</em> in the Transvaal — and <strong>Armando</strong> twice within the Transvaal group.
+    Repeating names across generations is the ordinary evidence of descent, and it suggests these are one
+    family. It does not yet prove the links, and no line is drawn here that a document has not drawn.
+  </p>
+
+  <h2>Two useful negatives</h2>
+  <ul>
+    <li><strong><span class="mono">LLERENA</span> returns nothing at all</strong> in South Africa. The
+      family spells the name with one <em>L</em>, consistently, across seventy years and two provinces.
+      That does not by itself settle the <a href={u("/name")}>Basque-or-Extremaduran question</a> — any
+      reduction would have happened long before South Africa — but it does mean there is no spelling
+      variation to chase here.</li>
+    <li><strong>No Lerena gravestones</strong> are indexed in the South African Genealogical Society's
+      database. Burial places will have to be found another way.</li>
+  </ul>
+
+  <h2>What this does to the archive</h2>
+  <p>
+    The line still has no proven link to David Defranceski, and nothing here has yet been tied to
+    <a href={u("/direct-line")}>his mother's family</a>. What has changed is that the archive has moved from
+    having <strong>no names at all</strong> to having <strong>six</strong>, two deceased-estate files that
+    should name parents and children, and a building file for a set of stables. Every one of them is
+    orderable.
+  </p>
+</Base>

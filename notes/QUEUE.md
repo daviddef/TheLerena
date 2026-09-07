@@ -8,8 +8,20 @@ unsearchable without a name.
 - [ ] **Read David's MyHeritage tree**, Lerena branch — stored facts, citations, media.
       *Blocked 8 Sep 2026: Chrome extension not connected. Needs a logged-in session; not public.*
 - [ ] **Cheryl Anne Lerena's birth record** — names her father.
-- [ ] **NAAIRS sweep: every Lerena estate file in South Africa.** Only 61 bearers in the country, so this
-      is a small finite search, and estate files name spouse, children, farm and assets.
+- [x] **NAAIRS sweep — DONE 8 Sep 2026.** 13 documents, 12 genuine. Six names recovered. See
+      `notes/findings.md`, `data/naairs-lerena.tsv`, `sources/naairs/`. Tool: `tools/naairs.py`.
+- [ ] **ORDER KAB MOOC 6/9/17017, ref 1847/50 — estate of ROBERT PAUL LERENA, d. 1950.**
+      ***HIGHEST-VALUE DOCUMENT IN THE PROJECT.*** A Cape estate file of this period holds the **death
+      notice**, naming parents, birthplace, spouse and children. If he was born in Argentina it says so
+      here. Cape Town Archives Repository.
+- [ ] **Order TAB MHG 6746/71** — estate of **Nuno Fernando Lerena**, d. 1971 (widow Catherine Mary Sophia).
+- [ ] **Order TAB MHG 1518/73** — estate of **Roque Luis Armando Lerena**, d. 1973 (widow Rheena May;
+      predeceased spouse Rosina Wilhelmina). Both should name children.
+- [ ] **Order KAB 3/CT 4/2/1/3/474, B796 (1931)** — the **STABLES** file, Koeberg Rd, Rugby. Should say
+      what was proposed, and whether they were racing stables.
+- [ ] **Connect these people to Cheryl Anne Lerena.** Six names now exist; the link to David's own line
+      does not. Ricardo Paul and Anton Armando are of roughly the right generation to be her father or
+      uncles - **untested**.
 
 ## 1. The consul
 - [ ] **Government Gazette** (Union of SA from 1910; Cape Colony before) for the **exequatur** — the host

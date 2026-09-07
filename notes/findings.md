@@ -60,3 +60,63 @@ tested.**
 ## The blocking problem
 **Generation 1 has no name.** Consular lists, stud books and Argentine registers are all unsearchable
 without it. Everything else is downstream.
+
+---
+
+# 8 September 2026 — NAAIRS: the first real names
+
+Searched NAAIRS (SA National Archives index), database **RSA** (all repositories), for `LERENA`.
+**13 documents; 12 genuine.** Tool: `tools/naairs.py`. Raw HTML: `sources/naairs/`. Table: `data/naairs-lerena.tsv`.
+
+## The Cape cluster — ROBERT PAUL LERENA
+| Date | Ref | What |
+|---|---|---|
+| 1931 | KAB 3/CT 4/2/1/3/474 B796 | **PLANS OF PROPOSED STABLES, Koeberg Road, RUGBY. RP Lerena.** |
+| 1932 | KAB 3/CT 4/2/1/3/515 B352 | Unauthorised wood and iron structure, Madeira Rd, Rugby |
+| 1947-48 | KAB 3/CT 4/2/1/3/1674 B3099 | House + garage, Lot 1202, Hove Rd, **Camps Bay** |
+| 1948-50 | KAB 3/CT 4/2/1/3/1793 B2892 | Additions, Madeira St, Rugby |
+| 1950 | **KAB MOOC 6/9/17017 ref 1847/50** | **ESTATE PAPERS — he died 1950** |
+
+**THE STABLES (1931) are the first hard corroboration of the horse tradition.** A municipal building file,
+not a memory. Rugby is beside **Milnerton** (racecourse). Whether they were *racing* stables is untested —
+the building file itself should say.
+
+**MOOC 6/9/17017 is now the single highest-value document in the project.** A Cape estate file of this
+period contains the **death notice**, which names parents, birthplace, spouse and children. *If he was born
+in Argentina, that is where it will say so.*
+
+## The Transvaal cluster — the Johannesburg generation
+| Date | Ref | Who |
+|---|---|---|
+| 1971 | TAB MHG 6746/71 | **NUNO FERNANDO LERENA** d. — widow **Catherine Mary Sophia** |
+| 1973 | TAB MHG 1518/73 | **ROGUE [=ROQUE] LUIS ARMANDO LERENA** d. — widow **Rheena May**; predeceased spouse **Rosina Wilhelmina** |
+| 1977 | TAB WLD 8043/77 | Anton Lerena, payment case |
+| 1979 | TAB TPD 1248/1979, M680/1979, 2769/1979 | Divorce: **RICARDO PAUL LERENA** v **Anne Margaret (born CORBETT)** |
+| 1980 | TAB TPD 1367/1980 | Divorce: **Glynnis Margaret (born BOLTON)** v **ANTON ARMANDO LERENA** |
+
+Record shifts Cape -> Transvaal between **1950** and **1971**: the family moving to the Rand, which is
+where David was later born.
+
+## THE GIVEN NAMES ARE THE FINDING
+**Nuno Fernando · Roque Luis Armando · Ricardo Paul · Anton Armando.**
+Iberian/Latin-American given names, borne by men in South Africa marrying Corbetts and Boltons. *Nuno* is
+distinctly **Portuguese**; Roque/Luis/Armando/Ricardo Spanish or Portuguese.
+
+A family still naming sons this way two or three generations after arrival **knows where it came from**.
+This is independent support for the River Plate origin — reached from a government index, not from the
+family's own account.
+
+Recurring names across clusters: **Paul** (Robert Paul, Cape / Ricardo Paul, Transvaal); **Armando**
+(Roque Luis Armando, Anton Armando). Ordinary evidence of descent. Suggestive, **not proof**; no link drawn
+that a document has not drawn.
+
+## Useful negatives
+- **LLERENA = 0 documents.** SA family spells it with one L, consistently, 1931-1980, both provinces.
+  Does not settle the Basque/Extremaduran fork (any reduction predates SA) but there is no variant to chase.
+- **GENE (SA Genealogical Society gravestones) = 0.** No indexed Lerena gravestones.
+- Doc 6 (KAB HAEC 77/1921, East London marriage) is a **FALSE POSITIVE** — "Lerena Catherine Buys" is a
+  given name. Excluded.
+
+## Still unproven
+Nothing here is yet tied to **Cheryl Anne Lerena**. Six names and two estate files are now orderable; the
+link to David's own line is not made.
