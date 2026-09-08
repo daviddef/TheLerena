@@ -377,3 +377,55 @@ This is the strongest independent corroboration yet of the passport's *"Profesi�
 ## Still needed from David
 - **Forebears Spain provincial page** — he opened it in the browser but the tab returned no text to the
   reader. Still outstanding.
+
+---
+
+# 8 September 2026 — the three land records. No farm; and a correction.
+
+FamilySearch full-text, "Land Records: South Africa. Farm Records" (a generic FS label — these are
+**Deeds Office transfer registers**, not farm registers). Table: `data/land-records.tsv`.
+
+## 1 & 2 — both NUNO FERNANDO LERENA, and both suburban erven
+- `3QHK-F7NW-L7PV` (img 251/260): "Huno Fernando Lerena", **6.10.1924**, lot 245, Cologne Road area,
+  **6,600 sq ft (~613 m2)**.
+- `3QHK-N7NW-G375` (img 216/260): "Nuno Fernando Lerena", **6.10.24**, lot 210, transfer **2257739**,
+  dated **8/53**, **14,560 sq ft (~1,353 m2)**.
+- Both identify him by his **birth date**, as SA deeds records do. Both are register G.P.-S. 7282-1937.
+- Aug 1953 is suggestive: his father's estate capital fell due when he turned 30 on **6 Oct 1954**.
+
+**These are house plots — 613 and 1,353 square metres. NOT farms.**
+
+## 3 — NOT THIS FAMILY
+`3QHK-G7F2-6WJT` (img 73/259): deceased estate of the **late LUCAS LERENA**, spouse
+**RACHEL LERENIA (born MALEKA)**, B. Eaton Township, lot 570, 283 Roods.
+**Maleka is a Sotho/Tswana surname.** Compare the other full-text hit: *Pretoria, Transvaal, Religious
+Membership Records 1939* — **"Hanson Seko Lerena"**.
+
+## *** CORRECTION: the 61 South African Lerenas are NOT all one kindred ***
+This archive stated on day one that 61 bearers in a country with no Spanish colonial past "looks like one
+family that arrived and multiplied". **That was too strong.** There are **at least two unconnected Lerena
+populations in South Africa**: this Argentine-descended family, and one or more **Black South African
+families** of the same or near-identical name. Nothing links them and no link is asserted.
+
+The founder-cluster reading still holds *for this family* — the descent from Pablo Armando is documented
+and the racing dynasty is public record — but the raw 61 can no longer be used as the argument.
+**Corrected on the site rather than quietly removed.**
+
+## *** THE OSTRICH FARM IS NOW DOUBTFUL ***
+A deeds sweep returns **no land whatsoever** for Pablo Armando / Robert Paul Lerena. The only Lerena
+property found in this family is his son's two suburban plots in the 1950s.
+
+Everything else points the same way: stables at **Rugby**, a **training yard taking apprentices**, a
+**Newlands** address, "**Race Horse Owner**" at death. A Cape Town racing man, not a Karoo farmer.
+
+**Not disproof** — deeds coverage is partial, a farm could have been leased, and **Oudtshoorn's own records
+remain unsearched**. But it is now the only one of the four family traditions with evidence pointing
+against it and none for it.
+
+**Scorecard on the family's four claims:**
+| Claim | Status |
+|---|---|
+| Argentine, from Rosario | **CONFIRMED** — his own passport |
+| Brought horses | **CONFIRMED** — passport, death certificate, stables file, the press, and a carrot bill |
+| Consul General | **DISPUTED** — he was the bearer; A. B. Bayne signed |
+| Ostrich farm | **DOUBTFUL** — no land held; wrong district; wrong trade |

@@ -37,8 +37,14 @@ Roberto Paul Lerena → Nuno Fernando Lerena → Cheryl Anne Lerena.** The work 
       "Ricardo Paul Lerena" of the 1979 TPD divorce or that man's father.
 - [ ] **Rose Lilian Theys** — spinster, lived at 7 Forth Road, executrix, took a quarter of the estate,
       "no relation". Who was she? Housekeeper, companion, or something the family did not record.
-- [ ] **The ostrich farm** — still wholly untested. Now less likely: he was a Cape Town racing man, not a
-      Karoo farmer. But Oudtshoorn records remain unchecked.
+- [x] **Deeds sweep done 8 Sep 2026 — NO LAND AT ALL for Pablo Armando.** The only Lerena property found
+      is Nuno Fernando's two suburban erven (613 and 1,353 sq m, 1950s). See `data/land-records.tsv`.
+      **The ostrich farm is now DOUBTFUL**, not merely untested.
+- [ ] **Last chance for the ostrich farm: Oudtshoorn.** C.P. Nel Museum, Cape archives feather-trade
+      holdings, and the Oudtshoorn deeds/lease records. A farm could have been **leased**, which leaves no
+      transfer record. If nothing there, retire the claim.
+- [ ] **Read the two Nuno Fernando deeds entries by eye** — the OCR is garbled and the transferors
+      ("Gough Cooper", "Ship Owners") make no sense as transcribed.
 - [ ] **The consulship** — nothing supports it. Note that the *family held an Argentine consular passport*,
       which is the kind of thing that becomes "he was the consul" in family memory. Record that as the
       probable origin of the tradition unless evidence appears.
