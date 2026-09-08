@@ -66,6 +66,32 @@ returns **730 records**; with `f.recordCountry=Argentina`, **6,017**.
       MONTEVIDEO family.** Test whether David's line joins it.
 - [ ] **TRAP: there is a Rosario in URUGUAY (Colonia) too.** Do not assume "Rosario" means Santa Fe.
 
+## *** STRUCTURAL FACT: THERE IS NO CIVIL FALLBACK FOR 1882 ***
+**Argentine civil registration began c.1886.** For a Feb 1882 Rosario birth the **parish register is the
+only possible record** - and 1882-1895 has been read line by line. So either he was **baptised elsewhere**
+or he was **not born at Rosario**. Stop looking for a Santa Fe civil birth act for 1882; it cannot exist.
+
+## *** DAVID TO RUN: CEMLA (5 minutes) ***
+- [ ] `cemla.com/buscador/` is **CAPTCHA-gated**, so it must be run by hand. Five searches, forename blank:
+      **LERENA** 1860-1885 (*his parents arriving*), **LERENA** 1882-1930, **LLERENA**, **LARENA**,
+      **LERINA**, each 1860-1930. Full instructions: `requests/cemla-ship-search.md`.
+
+## *** THE BIGGEST UNTRIED IDEA: HE CAME WITH THE HORSES ***
+- [ ] The South African War shipped **~360,000 horses** in, **Argentina among the main sources**. He was
+      **17 when it began, 20 when it ended**, a horseman, a horse-dealer at the Cape by 1911. Transports
+      carried **conductors, grooms and muleteers** engaged at the loading port - written down in
+      **military remount paperwork, NOT civilian passenger lists**. *That would explain why he is invisible
+      in the passenger indexes.*
+      - **The National Archives, Kew — WO 108** and related Remount Department series.
+      - The Cape remount depots, chiefly **Stellenbosch**.
+      - British purchasing-commission papers at Buenos Aires.
+      See `requests/ships-and-the-remount-trade.md`. **Nobody has looked at any of this.**
+
+## *** ARMY ENROLMENT: EMAIL, NOT SEARCH ***
+- [x] Checked - FamilySearch **indexed military records return ZERO for Lerena**. Not a search job.
+- [ ] **Send the Spanish letter** to the Archivo General del Ejercito: `requests/argentina-army-enrolment.md`.
+      Clase 1882. An enrolment record **names the parents and birthplace**.
+
 ## *** WHERE TO GO NEXT IN ARGENTINA (researched 8 Sep 2026) ***
 Three independent bodies of evidence now refuse to place this family at Rosario: fourteen years of
 cathedral baptisms, the whole FamilySearch index, and the 1895 national census (no Lerena in Santa Fe at

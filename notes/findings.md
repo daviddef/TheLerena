@@ -1251,3 +1251,49 @@ David's family named a son **Gilberto Lerena (1957-2020)**. The stud-book Gilber
 with a documented household. **A South African family of Argentine horsemen naming a son Gilberto is a
 thread worth pulling** — either they were kin, or they knew perfectly well who he was.
 <span>Recorded as a question, not a claim.</span>
+
+---
+
+# 8 September 2026 — why Rosario has no second source, and where the ships come in
+
+## *** THE STRUCTURAL FACT ***
+**Argentine civil registration only began around 1886** (provinces vary, 1886–1900). Before that,
+*"los registros parroquiales constituyen la fuente principal y, en muchos casos, la única disponible."*
+
+→ **For a birth at Rosario in February 1882 the parish register is the ONLY possible record.**
+→ This archive has read that parish's baptism index **line by line for 1882–1895** and he is not in it.
+→ **There is no civil fallback to go to.** That is not a gap in our searching; it is the shape of the
+   Argentine record system.
+
+So the choice narrows hard: either he was **baptised somewhere other than Rosario**, or he was **not born
+at Rosario**.
+
+## Military records are NOT the easy route
+Checked: a FamilySearch search of **indexed military records for the surname Lerena returns ZERO**. The
+Argentine army collection is not indexed for this name. The *libreta de enrolamiento* — still the single
+document most likely to name his parents — has to be requested by **email from the Archivo General del
+Ejército**. Draft letter (in Spanish) written: `requests/argentina-army-enrolment.md`.
+
+## CEMLA is gated
+The immigrant-arrivals database at `cemla.com/buscador/` is free and would find **his parents arriving**,
+but the form is behind a **CAPTCHA**, which this archive's researcher will not complete. **David must run
+it**; the exact five searches and the fields to record are set out in `requests/cemla-ship-search.md`.
+
+## *** SHIPS: the assumption worth dropping ***
+We have been looking for a **passenger**. He may never have been one.
+
+The South African War shipped ~**360,000 horses** into the country, **Argentina among the main sources**.
+Pablo Armando was **17 when it began and 20 when it ended**, a horseman, and a *horse-dealer* at the Cape
+by 1911. Horses travel with **conductors, grooms and muleteers**, engaged at the port of loading — and
+those men are written down in **military remount paperwork, not civilian passenger lists**.
+
+**That would explain why he is invisible in the passenger indexes.**
+
+Where to look — none of it tried:
+- **The National Archives, Kew** — Remount Department, **WO 108** and related WO series: overseas
+  purchasing commissions, shipping returns, depot registers.
+- The Cape remount depots, chiefly **Stellenbosch**.
+- British purchasing-commission correspondence at Buenos Aires.
+
+Written up as `requests/ships-and-the-remount-trade.md`. **This is the largest untried idea in the project
+and it fits every fact held about him.**
