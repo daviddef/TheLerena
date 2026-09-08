@@ -57,7 +57,9 @@ Roberto Paul Lerena → Nuno Fernando Lerena → Cheryl Anne Lerena.** The work 
   **FALCO** burials. Belongs to the Falco archive.
 - **LLERENA** returns 0 documents in NAAIRS; no spelling variant to chase in South Africa. But note the
   registrar wrote **LERINA** on the 1950 death certificate — search that form too.
-- **Forebears' Spain sub-page** returns empty to automated fetch; provincial split still outstanding.
+- **Forebears' Spain sub-page** returns empty to automated fetch. Resolved another way: the main
+  surname page carries the regional summary in prose, and David supplied it as a PDF.
+- **"Lerena" is also a forename** (284 worldwide). Cause of the NAAIRS false positive. Filter for it.
 - Web search for a Lerena consul in South Africa: nothing.
 
 ## 1. The consul
@@ -86,8 +88,12 @@ Roberto Paul Lerena → Nuno Fernando Lerena → Cheryl Anne Lerena.** The work 
 - [ ] Date-test against the **1914** collapse of the feather boom.
 
 ## 4. Basque or Extremaduran?
-- [ ] **INE provincial distribution** for Spain — test La Rioja against Badajoz.
-      *Forebears' Spain sub-page returned empty to automated fetch; needs another route.*
+- [x] **Spanish regional split — DONE 8 Sep 2026** (Forebears PDF from David). **La Rioja is the only real
+      cluster: 39.6x the national density.** Andalusia and Madrid are merely populous (1.4x).
+      **Extremadura does not feature at all**, which undercuts the Llerena/Badajoz theory.
+      → **INFERRED: a Basque-formed house-name of the upper Ebro.** See `notes/baseline-surname.md`.
+- [ ] **La Rioja parish registers** — now the specific Spanish target, rather than "Spain".
+- [ ] Confirm the Riojan cluster against **INE** figures rather than Forebears' percentages.
 - [ ] Look for **Lerena / Llerena alternating for the same individual** in River Plate records. That settles
       it better than any etymology.
 - [ ] The emigration record — normally names the town of origin outright.

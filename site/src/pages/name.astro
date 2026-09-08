@@ -71,6 +71,44 @@ const rows = [
     family that arrived and multiplied. <a href={u("/south-africa")}>South Africa &rarr;</a>
   </p>
 
+  <h2>Spain: one cluster, and it is not where you would guess</h2>
+  <p>
+    <span class="chip doc">Documented</span> Forebears gives the Spanish distribution as
+    <strong>La Rioja 27%</strong>, <strong>Andalusia 25%</strong> and <strong>Madrid 19%</strong> of the
+    Spanish total. Read as raw percentages those look like three comparable strongholds. They are nothing
+    of the sort. Andalusia and Madrid are simply <em>enormous</em>; La Rioja is tiny.
+  </p>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Region</th><th>Share</th><th>Bearers</th><th>Population</th><th>Incidence</th><th>vs. national</th></tr></thead>
+      <tbody>
+        <tr><td><strong>La Rioja</strong></td><td class="mono">27%</td><td class="mono">~240</td>
+          <td class="mono">319,000</td><td class="mono"><strong>1:1,331</strong></td>
+          <td class="mono"><strong>39.6&times;</strong></td></tr>
+        <tr><td>Andalusia</td><td class="mono">25%</td><td class="mono">~222</td>
+          <td class="mono">8,402,000</td><td class="mono">1:37,848</td><td class="mono">1.4&times;</td></tr>
+        <tr><td>Madrid</td><td class="mono">19%</td><td class="mono">~169</td>
+          <td class="mono">6,454,000</td><td class="mono">1:38,255</td><td class="mono">1.4&times;</td></tr>
+        <tr><td class="small">Spain overall</td><td class="mono small">100%</td><td class="mono small">888</td>
+          <td class="mono small">46,771,000</td><td class="mono small">1:52,670</td><td class="mono small">1.0&times;</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>
+    <strong>La Rioja carries the name at forty times the Spanish average.</strong> Andalusia and Madrid
+    carry it at 1.4 times — which is to say, at about the rate you would expect if Lerenas were sprinkled
+    evenly across Spain and those two regions simply held a lot of people. They are not strongholds. They
+    are big.
+  </p>
+  <blockquote>
+    There is exactly one real Lerena cluster in Spain, and it is in <strong>La Rioja</strong>.
+  </blockquote>
+  <p class="small">
+    Densities calculated by this archive from Forebears' regional percentages and 2014 population figures;
+    the arithmetic is in <span class="mono">data/spain-regional.tsv</span>. Forebears leaves the remaining
+    29% of the Spanish total unallocated.
+  </p>
+
   <h2>What the name means — the unresolved fork</h2>
   <p>There are two candidate origins, and the archive does not yet know which applies here.</p>
 
@@ -105,28 +143,43 @@ const rows = [
     </div>
   </div>
 
-  <h3>Why the fork matters, and how it gets closed</h3>
+  <h3>The Riojan cluster settles it, or very nearly</h3>
   <p>
-    It matters because the two answers send the research to opposite ends of Spain — the Basque provinces
-    and Navarre, or Badajoz in Extremadura — and to different record systems. It is the same shape of
-    problem the Falco archive met in <em>Falco</em> versus <em>De Falco</em>, where clerks moved between
-    forms freely and one line could appear under both.
+    The two readings above were written before the Spanish regional figures were in hand. Those figures
+    now discriminate between them, and they do not favour the town.
   </p>
-  <p>It is closed the same way, and only this way:</p>
   <ul>
-    <li>Find the family's <strong>earliest River Plate records</strong> and see which spelling they use, and
-      whether the two forms alternate for the same person.</li>
-    <li>Read the <strong>Spanish provincial distribution</strong> properly. Forebears places the Spanish
-      Lerenas chiefly in <strong>La Rioja, Andalusia and Madrid</strong> — which is awkward for both
-      theories, being neither Basque nor Extremaduran, though La Rioja borders the Basque country and
-      Andalusia is where Extremadurans went. This needs the INE provincial figures, not a summary.</li>
-    <li>Find the <strong>emigration record</strong>. A ship's list or a consular registration usually names
-      the town of origin outright, and settles it in one line.</li>
+    <li><strong>Against Llerena in Badajoz:</strong> if <em>Lerena</em> were a worn-down
+      <em>Llerena</em>, the name should be thickest in and around <strong>Extremadura</strong>.
+      <strong>Extremadura does not appear in the Spanish distribution at all.</strong> The 36,828
+      <em>Llerena</em> bearers are a real and separate family of names; the evidence that ours reduced out of
+      theirs is now weak.</li>
+    <li><strong>For a Basque or upper-Ebro origin:</strong> the one genuine cluster is
+      <strong>La Rioja</strong>, on the upper Ebro, immediately south of the Basque provinces and Navarre —
+      exactly the country where the Basque possessive <strong>-ena</strong>, "the house of", is at home and
+      where Basque house-names spill over into Castilian-speaking territory.</li>
   </ul>
-  <p class="small">
-    Note also <em>Lerena Lenguas</em>, the double surname of the Argentine Stud Book's co-founder. Both
-    halves are River Plate names, and <em>Lenguas</em> is Uruguayan. <a href={u("/horses")}>The horses &rarr;</a>
+  <p>
+    <span class="chip">Inferred</span> On the evidence now held, <em>Lerena</em> looks like a
+    <strong>Basque-formed house-name of the upper Ebro</strong>, carried from La Rioja or its Basque
+    borderlands to the River Plate, and not a reduction of the Extremaduran toponymic.
   </p>
+  <p>
+    This is <strong>inference from distribution, not proof from a register</strong>, and this archive has
+    said throughout that rarity may propose but only documents dispose. It also does not yet touch
+    <a href={u("/direct-line")}>David's own line</a>, whose earliest certain member was born at
+    <strong>Rosario in 1882</strong> and was Argentine by birth. What it does is tell the Spanish end of the
+    search where to look first.
+  </p>
+  <h3>What would actually close it</h3>
+  <ul>
+    <li>The <strong>Rosario baptism of 22 February 1882</strong>, which names Pablo Armando's parents —
+      and, with luck, where they came from. <a href={u("/passport")}>The passport &rarr;</a></li>
+    <li>The family's <strong>earliest River Plate records</strong>: which spelling, and do
+      <em>Lerena</em> and <em>Llerena</em> ever alternate for one person?</li>
+    <li>An <strong>emigration record</strong> naming the town of origin outright.</li>
+    <li>The <strong>La Rioja parish registers</strong> — now a specific place to look rather than a country.</li>
+  </ul>
 
   <h2>Sources for this page</h2>
   <p class="small">
