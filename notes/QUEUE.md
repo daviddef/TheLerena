@@ -17,8 +17,11 @@ what he has already sourced.**
       Coverage table: `data/rosario-index-searched.tsv`.
 - [x] **1884 and 1885 ALSO READ (images 373-376) — still NO LERENA.** The clean negative now covers
       **1882, 1883, 1884, 1885** end to end.
-- [ ] **"Ler / Maria / 1884 / folio 13"** (Libro 27, image 374) — a bare "Ler" surname. Could be a clipped
-      LERENA, and could be a SISTER. **Cheap to check: open Libro 27 folio 13.**
+- [x] **"Ler / Maria / 1884 / folio 13" — CHECKED 8 Sep 2026, does not resolve.** Libro 27 is DGS
+      **4098790**, cover at image 4. Stamped folios 11, 13 and 14 (images 10, 12, 13) all read: no "Ler",
+      no matching Maria. The index's folios run ~2 ahead of the stamped foliation (Luzardi is indexed at
+      folio 15 but sits on stamped folio 13), but applying that offset did not find it either.
+      **Weak lead; dropped.**
 - [ ] (still open) read the SAME index for 1886-1895. This family delays baptisms — Roque was
       born 1905 and baptised **1911, six years late**. If the father was treated likewise his entry is in
       those years. Images **~373-396** of DGS 4530325. **Method: Chrome; triple-click the Image box and type
@@ -39,8 +42,11 @@ what he has already sourced.**
         ~395-402.**
       - Read off the **Libro + FOLIO**, then open that register volume. **The entry names his parents.**
       - *Blocked for me only by the deep-zoom viewer misbehaving in this browser pane - not by access.*
-- [ ] ***BETTER STILL: DGS 4531036, Indice de Matrimonios 1860-1921.*** His parents' marriage names
-      **both fathers and both mothers** - four names against a baptism's two.
+- [ ] ***NOW THE BEST TARGET: PABLO ARMANDO'S PARENTS' MARRIAGE.*** Four years of baptisms are clean, so
+      stop chasing his baptism and find the marriage instead - it names **all four grandparents**.
+      1. **Indice de Matrimonios, DGS 4531036** (1731-1761, 1860-1921) - look up LERENA.
+      2. Then the register: **DGS 4531040 (Matrimonios 1868-1884)** or **4531039 (1853-1867)**.
+      Same method as the baptism index: Chrome, type the image number, region-zoom.
 - [ ] **DGS 4530324, Indice de Bautismos L-Z 1731-1879** - Pablo Armando's **older siblings**, and possibly
       his parents' own baptisms. Take the family back another generation.
 - [ ] ***THE URUGUAYAN CONSULATE, not the Argentine one.*** David records an occupation

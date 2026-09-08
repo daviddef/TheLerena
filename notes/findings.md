@@ -819,3 +819,38 @@ already open, and because the family's own habit points at it.
 ## Note on the register volume
 David's original film, **DGS 4098791**, is a register volume, not an index. Reading it page by page is
 **not** the way in — and now that 1882-83 are excluded at this parish, it may be the wrong volume entirely.
+
+## The "Ler / María / 1884 / folio 13" lead — checked, and it does not resolve
+
+Followed it into the register. **Libro 27 is on DGS 4098790 ("Bautismos 1884-1886"); its printed cover,
+*"BAUTISMOS 27 · PARROQUIA DE NTRA. SRA. DEL ROSARIO"*, is at image 4.**
+
+Checked, reading the marginal entry-number/name columns:
+
+| Image | Stamped folio | Entries found |
+|---|---|---|
+| 10 | 11 | 491 Máxima Villa · 492 (Coran?) Vaz · 493 (Rufina?) · 494 Bernardo Castilla |
+| 12 | 13 | **502 Juan Eugenio Lugardi** · 505 Rosa Natalia A. Zurbicki · 509 Francisco Javier Navarro · 510 Juan Bustos |
+| 13 | 13v / 14 | 515 Manuel Iglesias · 516 Manuel (Guiscardo?) · 517 María (Cadolat?) · 518 Ludovina Pierra |
+
+**No "Ler" and no matching María on any of them.**
+
+### Why the folios do not line up
+The index gives **"Luzardi · Juan Eugenio · 1884 · folio 15"**, and that man is physically
+**entry 502 on stamped folio 13**. So the index's folio numbers run roughly **two ahead** of the folios
+stamped in the book — but that offset was inferred from a single name and is not reliable, and applying it
+(index 13 → stamped 11) did not produce the entry either.
+
+### Verdict
+**A weak lead, not resolved.** Either my reading of the index line as "Ler" is wrong, or the index folio
+numbering diverges from the stamped foliation more than a constant offset. It is not worth more time
+against the far stronger options below.
+
+## The register films, now mapped
+`data/rosario-films.tsv` carries the full 71-roll list. Two things stand out:
+- ***David's film 4098791 is "Bautismos 1882-1884"*** — precisely the years the index has now cleared.
+  Reading its 543 pages would have found nothing. **The index saved that work.**
+- **DGS 4531040, Matrimonios 1868-1884** (and 4531039, 1853-1867) would hold **Pablo Armando's parents'
+  marriage**, which names **all four of his grandparents**. With four years of baptisms clean, this is now
+  the better target than any baptism — and there is a **marriage index, DGS 4531036 (1731-1761,
+  1860-1921)**, to find it with.
