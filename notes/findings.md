@@ -182,3 +182,73 @@ Pablo's estate, closes it.
 `Photos/Rosaline Wilhelmina Forbes Lerena.jpg` (**FORBES** = maiden name of the "Rosina Wilhelmina" in
 NAAIRS MHG 1518/73) · `Photos/Mary Septima Burial.jpg` · nine FamilySearch `record-image_*.jpg` in
 "Roberto Paul Lerena Documents".
+
+---
+
+# 8 September 2026 (later still) — THE FAMILY PAPERS. The line is closed.
+
+Worked through `Documents/Genealogy & Family History/Lerena`. Everything below is documented.
+
+## GENERATION 1: ROBERTO PAUL LERENA (also Robert Paul; "LERINA" on the death certificate)
+**Union of SA death certificate A 214036**, district Wynberg, entry W612/50:
+- **76 years** (so b. c.1874) · **birthplace SOUTH AMERICA** · **Widower** · **RACE HORSE OWNER**
+- d. **19 March 1950**, 7 Forth Road, Newlands · coronary thrombosis, angina pectoris · Dr J. R. E. Lee
+- buried **Maitland Cemetery no 1**
+
+**Wife: MARY SEPTIMA LERENA.** Maitland Road Cemetery interment register p.3215 entry 163, **Nov 1935**,
+aged **51** (b. c.1884), of 34 Florence Rd, **Observatory**. Roman Catholic, Cemetery 1, **grave 7719A**,
+Father Graham, undertaker L. Pitt. Certified by **J. R. E. Lee — the same doctor as her husband 15 years
+later.** Family chart gives her as **Mary Taylor, b. England?** — the source of "Taylor" in the tree title.
+
+## THE DOCUMENT THAT NAMES GEN 1
+**Death notice of ROQUE LUIS ARMANDO LERENA** (typed "ROGUE"), estate 1518/73:
+- b. **6 Dec 1905, CAPE TOWN**; d. 29 Jan 1973 Johannesburg; ID 331 402089; **retired railwayman**,
+  20 Park Lane, Florida, Transvaal
+- m.1 **Rosina Wilhelmina** (predeceased) → daughters **Juanita Ramond Hutson (born Lerena)** and
+  **Panola Maria Lerena**; m.2 **Rhena May**
+- **Q19 PARENTS: Father ROBERTO LERENA · Mother MARY SEPTIMA LERENA** *** THIS IS THE KEYSTONE ***
+
+So the family was at the Cape by **1905**.
+
+## THE 1950 ESTATE — Letters of Administration 1847/50 (= NAAIRS KAB MOOC 6/9/17017)
+David already holds this file. Will dated **6 Feb 1942**. Gross **£15,527 15s**; distributable
+**£14,450 3s 7d** in four shares of £3,612 5s 11d.
+- **LOUIS LERENA, major son** — half a share (= Roque Luis Armando)
+- **ROSE LILIAN THEYS, "no relation"** — half a share; spinster, **same address (7 Forth Rd)**, and
+  **Executrix Testamentary**
+- Residue £10,837 17s 8d on trust for **NUNO FERNANDO LERENA** and **RICHARDO JUAN CARLOS LERENA**,
+  major sons, capital payable when **Nuno attains 30 (6 Oct 1954)**
+- Succession duty addendum gives exact births: **Ricardo Juan Carlos 6 Jan 1920**, **Nuno Fernando 6 Oct 1924**
+- Assets incl. 300 United Fish Canners Ordinary + 300 "A"; SA Permanent Mutual B&I Society deposit
+- **Claim paid: W. C. Blake, "claim for CARROTS", £26.** Advertised in Government Gazette and Cape Argus.
+
+## GENERATION 2 CONFIRMED — Nuno Fernando's own death notice (estate 6746/71)
+b. **6.10.1924 CAPE TOWN**, d. 1.7.1971 **Germiston**; ID 331 406051W; **Salesman**, 24 Leiden Rd,
+Gerdview, Germiston. Married at **Johannesburg**; spouse **Catherine Mary Sophia Lerena**.
+Children: **Jeannette Marie Riekstins (born Lerena)**, Paul Raymond, Catherine Tertia, **Cheryl Ann**,
+Patricia Carmen. Parents: recorded only as "Deceased" — **names not given** (frustrating).
+
+**THE LINE IS NOW CONTINUOUS AND DOCUMENTED: Roberto Paul → Nuno Fernando → Cheryl Anne.**
+
+## The family descendant chart (`Lerena 2.pdf`)
+Root **Roberto Paul Lerena (b. Argentina?) m. Taylor Mary (b. England?)**. Three sons: **Luis**, **Ricardo**,
+**Nuno Fernando**. Confirms Luis's children as Juanita and "Pam" (= Panola).
+**GAVIN LERENA the jockey appears**: Roberto Paul → Ricardo → **Carlos "Tex"** → **Gavin**. So Gavin is
+Cheryl's first cousin once removed and David's second cousin. *Per the family chart; not independently
+verified.* This vindicates the day-one prediction that the 61 SA Lerenas are one founder cluster.
+Also: Cheryl m.1 **Derrick Luwinski**, m.2 Ivan Defranceski; David's other names recorded as
+**David Leonard Luwinski / Luwinski Defranceski**.
+
+## PABLO ARMANDO — DEMOTED, not discarded
+The passport man (b. 22 Feb 1882 Rosario, Trainer, Rugby, widower) **is not** Roberto Paul (b. c.1874,
+Race Horse Owner, Rugby, widower). Pablo ≠ Roberto/Armando ≠ Paul, and 8 years is too wide.
+**Best reading: BROTHERS** — two Argentine horsemen at the Cape. Would explain why one's passport sits in
+the other's papers, and why Roberto Paul's eldest son is Roque Luis **ARMANDO**.
+Either way **Rosario is the family's town**.
+
+## UNPROVEN / REJECTED
+- **San Miguel 1872 baptisms (Llorens)** — David states these are unproven. Surname is LLORENS not Lerena;
+  streets and parish point to **Buenos Aires** not Rosario. Filed to `sources/unproven/` with a README.
+  Do not chase again without new reason.
+- `31843_233558__0002-00065.jpg` is **misfiled** — a Brisbane cemetery index of FALCO burials. Belongs to
+  the Falco archive.
