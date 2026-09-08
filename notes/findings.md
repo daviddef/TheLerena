@@ -300,3 +300,80 @@ Either way **Rosario is the family's town**.
 ## Caution on the circulated translation
 The English caption under the circulated image is a machine rendering and **garbles the Latin** — it makes
 Pablo Armando the *son* of Roque and turns *Septima* into "seventh". The reading above is this archive's own.
+
+## The racing dynasty — independent public corroboration
+
+South African racing press (Sporting Post, The Citizen, Gold Circle, Sky Sports), searched 8 Sep 2026:
+
+- **"Gavin Lerena's GREAT-GRANDFATHER and GRANDFATHER were trainers."** On the family chart the
+  great-grandfather is **Pablo Armando Lerena** and the grandfather **Ricardo Juan Carlos Lerena**.
+  → **Independent corroboration of the passport's "Profesión: Trainer".** The racing press and an Argentine
+  consular document, with no connection to each other, say the same thing about the same man.
+- Gavin's father **Carlos "Tex" Lerena** — top jockey 22 years, also rode in Mauritius. Chart: Tex is
+  Ricardo's son, Gavin's father. ✓
+- Gavin's uncle **Spike Lerena** — ex-jockey, leading Gauteng trainer (Jungle Rock). Chart: Spike is
+  Ricardo's son, so Tex's brother. ✓
+- **Stephen Lerena** (Randjesfontein) is Spike's son; **Brandon** a cousin, with the Ricky Maingard stable.
+- **"Great Uncle Frederick CHAPELL was also a jockey and trained the winner of the 1957 Durban July —
+  the filly MIGRAINE."**
+  → ***CROSS-CONFIRMATION.*** The Corpus Christi register records Roque Luis Armando Lerena marrying
+  **Rosalina Wilhelmina CHAPPELL** on 21 Sep 1936. A Catholic parish register in Wynberg and the South
+  African racing press, neither aware of the other, place a **Chappell/Chapell** beside this family.
+- **Kevin Lerena**, the boxer, is publicly associated with the same family (Green Street Bloodstock).
+
+**Note:** sportingpost.co.za and pressreader return 403 / bot-verification to automated fetching. These
+facts come from search result summaries and need reading by hand for exact wording and dates.
+
+---
+
+# 8 September 2026 — "BOB LERENA", and the hunt for the death notice
+
+## *** BOB LERENA — the racing press names him directly ***
+**Sporting Post, 13 August 2014**, obituary of trainer **Alan Higgins (1929–2014)**
+(PDF supplied by David; `sources/press/`):
+
+> "Higgins started out in horseracing as a jockey, first riding in amateur races as a schoolboy … **before
+> being apprenticed to Bob Lerena, who was the grandfather of Spike.**"
+
+> "**Peter Kannemeyer was an apprentice to Bob Lerena at the same time as Higgins** and the pair became
+> life long friends."
+
+**"Bob" is Robert. Spike's grandfather is Ricardo's father = PABLO ARMANDO / ROBERT PAUL LERENA.**
+Higgins was born 1929, so he was apprenticed in roughly **1944–47**, and Pablo Armando died in **1950**.
+
+→ **A third name form: Pablo Armando (Argentine) · Robert/Roberto Paul (civil) · "Bob" (the yard).**
+→ **He ran a training yard at Cape Town that took apprentices** — published, and wholly independent of any
+document in this archive. Two of his apprentices are named. Higgins later founded the Philippi training
+centre; Kannemeyer is a known Cape racing figure.
+
+This is the strongest independent corroboration yet of the passport's *"Profesión: Trainer"*.
+
+## FamilySearch — the death notice is BLOCKED
+- The estate images David holds are from **"South Africa, Cape, Probate Records of the Master of the High
+  Court, 1822–1990"** (collection `2517051`, waypoint `WV44-9P8`).
+- Signed in, the ark `3:1:3Q9M-C913-K9H3-D` returns **"Image Restricted — Image access is typically
+  determined by local laws or the custodian who has the original document."**
+- **So this collection is viewable only at a FamilySearch affiliate library / Family History Centre.**
+  David presumably obtained his pages that way. **DO NOT retry from home.**
+- Full-text search does **not** surface this collection's death notices.
+- → Routes remaining: (a) an affiliate library visit, then browse the film around the pages held;
+  (b) order from the **Western Cape Archives** — request drafted at `requests/wcars-mooc-6-9-17017.md`.
+
+## New from FamilySearch full-text (these ARE readable)
+- **Voter Records: South Africa, 1925–1931** — *"1399 **Lerena, Roque Luis Armando**"*, polling district
+  (stemdistrik) **No. 770**, in a run of addresses around **Scott Rd / Eden Rd**.
+  His full name exactly as the Corpus Christi register has it. He turned 21 in Nov 1926.
+  `ark:/61903/3:1:3QHV-GQVF-S7YR-K`
+- **Land Records: South Africa, Farm Records 1895–1955** — a deeds entry naming
+  *"Huno [Nuno] Fernando Lerena"* with **6.10.1924** (his birth date, as SA deeds records identify people),
+  property around **Cologne Road**, 6,600 sq ft, transferor/transferee incl. "Gough Cooper".
+  **OCR is badly garbled — needs reading by eye.** `ark:/61903/3:1:3QHK-F7NW-L7PV`
+  Two further farm-record hits: `3QHK-N7NW-G375`, `3QHK-G7F2-6WJT`. **Unexamined — and the ostrich-farm
+  claim is still open, so these deserve a proper look.**
+- Full-text "Lerena" worldwide returns **43,216** matches, concentrated in **Arequipa (Peru)**,
+  **Valladolid & Galicia (Spain)**, and **Flores / Trinidad / Montevideo (Uruguay)**. Note again how strong
+  **Uruguay** is. No Rosario hits surfaced in the first pages.
+
+## Still needed from David
+- **Forebears Spain provincial page** — he opened it in the browser but the tab returned no text to the
+  reader. Still outstanding.
