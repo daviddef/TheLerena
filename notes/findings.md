@@ -252,3 +252,51 @@ Either way **Rosario is the family's town**.
   Do not chase again without new reason.
 - `31843_233558__0002-00065.jpg` is **misfiled** — a Brisbane cemetery index of FALCO burials. Belongs to
   the Falco archive.
+
+---
+
+# 8 September 2026 — CORRECTION: Pablo Armando IS Roberto Paul. One man.
+
+**Source:** baptism register, **Corpus Christi Catholic Church, 2 Clare Road, Wynberg 7800**, sourced by
+**Cheryl Defranceski** direct from the parish archives. Transcription: `sources/corpus-christi-wynberg/`.
+
+> Anno **1905** die **25** mensis **Nov.** natus est, et anno **1911** die **12** mensis **Junii**
+> baptizatus est **Roque Lois Armando**, filius **PABLO ARMANDO LERENA** et **MARY SEPTIMA LERENA
+> (olim TAYLOR)** conjugum: a me **Bertram W. Glynn**.
+> Patrinus fuit **José Breton** (proxy), Matrina fuit **Maria Louisa Breton** (proxy).
+
+## The proof
+- Roque Luis Armando's **1973 death notice**: parents = **"Roberto Lerena"** and **"Mary Septima Lerena"**.
+- Roque's **1911 baptism**: parents = **"Pablo Armando Lerena"** and **"Mary Septima (olim Taylor)"**.
+- Same son, same mother → **the father is one man under two forms of his name.** Spanish at the altar,
+  English at the registry. *Pablo = Paul.*
+
+**My earlier "brothers" inference was WRONG and is retracted on the site.**
+
+## Consequences
+1. **GENERATION 1 = PABLO ARMANDO LERENA, b. Rosario de Santa Fe 22 Feb 1882, d. Newlands 19 Mar 1950.**
+   The family's Rosario tradition is confirmed *for the head of the line himself*.
+2. **The "76 years" on the 1950 death certificate is WRONG — he was 68.** Informant W. Fraser was the man
+   "causing burial", not kin. A passport the deceased carried beats an age reported at second hand.
+3. **"Roberto" on the 1973 death notice is explained**: it was signed **R. M. Lerena = Rhena May**, Roque's
+   *second* wife, married 1966 — sixteen years after her father-in-law died. She never met him.
+4. **Mary Septima's maiden name TAYLOR is now DOCUMENTED** ("olim Taylor"), not just family chart. This is
+   the Taylor of the MyHeritage tree title.
+5. The family was **Roman Catholic** and at **Wynberg** by 1911. Mary Septima was buried in the Roman
+   Catholic allotment at Maitland in 1935.
+
+## New detail from the same entry
+- **Baptism delayed six years** (b. 1905, bapt. 1911) — worth a thought; possibly the family arrived in
+  South Africa between those dates, and the child was baptised on arrival. **TESTABLE: if so, the crossing
+  falls 1905-1911.** Ricardo Juan Carlos b. 1920 and Nuno b. 1924 were Cape-born.
+- Godparents **José Breton** and **Maria Louisa Breton**, both *by proxy* — Spanish names, and proxies
+  suggest they were **not in South Africa**, i.e. standing in absentia, plausibly from Argentina.
+  **A lead: who were the Bretons?**
+- Roque m.1 **Rosalina Wilhelmina CHAPPELL**, 21 Sep 1936, St Joseph's, Johannesburg (Rev. P. McCarthy).
+  Note: the 1973 death notice calls her **"Rosina Wilhelmina"**, and a family photo is filed as
+  **"Rosaline Wilhelmina FORBES Lerena"**. CHAPPELL vs FORBES unresolved — possibly a prior marriage.
+- Roque m.2, **as a widower**, 12 Mar 1966, **St Charles Chapel, Victory Park, Johannesburg** (= Rhena May).
+
+## Caution on the circulated translation
+The English caption under the circulated image is a machine rendering and **garbles the Latin** — it makes
+Pablo Armando the *son* of Roque and turns *Septima* into "seventh". The reading above is this archive's own.
