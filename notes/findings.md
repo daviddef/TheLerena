@@ -695,3 +695,61 @@ So **Rosaline Wilhelmina (Rose) Forbes** had first been married to a **Chappell*
 
 → **The family is of NORTHAM and BIDEFORD, north Devon** — which is exactly where **Brayley** comes from
 (Bray, north Devon). This archive's inference from the surname alone was right, and is now documented.
+
+---
+
+# 8 September 2026 — THE ROSARIO FILM: an index David did not have
+
+Followed David's own note (`familysearch.org/en/search/film/004098791?cat=208788&i=4`).
+
+## What the film is
+Catalog **koha:208788** — ***"Registros parroquiales, 1722-1961", Archidiócesis de Rosario, Iglesia
+Católica, NUESTRA SEÑORA DEL ROSARIO (Rosario, Santa Fe)*** — the cathedral parish of Rosario. Filmed by
+the Genealogical Society of Utah, 1974. **71 rolls.** Note in the catalog: *"Algunos tomos incluyen su
+propio índice."* **Images are NOT restricted** — fully viewable from home.
+
+## *** THE FIND: there are ALPHABETICAL BAPTISM INDEXES ***
+David's note pointed at the register volume itself (DGS **4098791**, 543 images) and said *"still need to
+look through the rosario records here"*. **He does not need to read it page by page.** The catalog carries
+separate index films:
+
+| Index | Film | **DGS** | Images |
+|---|---|---|---|
+| Bautismos A-K **1731-1879** | 1093077 | 4530323 | |
+| Bautismos L-Z **1731-1879** | 1093078 | **4530324** | |
+| **Bautismos A-Z 1879-1900** | 1093079 | **4530325** | **718** |
+| Bautismos A-Z 1901-1919 | 1093080 | 4530326 | |
+| **Matrimonios 1731-1761, 1860-1921** | 1091466 | **4531036** | |
+
+**DGS 4530325 covers 1882.** Full data: `data/rosario-films.tsv`.
+
+## Structure of the index, decoded
+Columns: ***APELLIDOS | NOMBRES | AÑO | FOLIO***, in blocks headed **"Libro NN"**.
+**It is alphabetical by letter, but WITHIN each letter it runs CHRONOLOGICALLY** — not alphabetically by
+given name. So the L section is a run of pages ordered by year.
+
+## Where LERENA will be
+- **The L section of DGS 4530325 sits at roughly images 395-406.**
+- **Image 403 shows AÑO 1900-1901** — i.e. the **END** of the L run. Read clearly:
+  *Lirgua, Lacorte, Luque, Lavena, Lopez, Lescano, Lacurado, Leal, Las Heras, Lejarza, Leonar, Laborante,
+  Longo, Leguizamón, Liendo, Leandrini…*
+- **Image 406 is already into "Ll-"** (Llanos, Llorens, Lloret…) — Spanish indexes place **Ll after L**.
+- → ***1882 entries lie a few pages BEFORE image 403, in the same L run — try images 395-402.***
+
+## Why I did not finish it
+The FamilySearch deep-zoom viewer renders unreliably in this browser pane: it needs a click to render, but
+a click in the image area hits the filmstrip and jumps pages, and it kept flipping into thumbnail-grid
+mode. **This is a tooling limitation, not a record problem.** The images are open and the target is narrow.
+
+## What to do next — a five-minute job by hand
+1. Open **`familysearch.org/search/film/004530325`** and go to **image ~397**.
+2. Read the **APELLIDOS** column for **LERENA** with **AÑO 1882**. (Watch also **LERENA/LLERENA/LARENA**,
+   and remember *Lerena* can be a forename.)
+3. Note the **Libro** and **FOLIO**, then open that register volume and photograph the entry.
+4. **The entry names his parents** — which is the whole object.
+
+## And an arguably better target
+**DGS 4531036, Indice de Matrimonios 1860-1921.** Pablo Armando's parents married before 1882; a Catholic
+marriage entry names **both fathers and both mothers** — four names in one line, against two from a
+baptism. And **DGS 4530324 (Bautismos L-Z 1731-1879)** would carry his **older siblings**, and possibly his
+parents' own baptisms.

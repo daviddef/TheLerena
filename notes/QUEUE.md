@@ -10,10 +10,21 @@ of "BIOGRAPHY" in `document.body.innerText`. The tree cards carry only names and
 what he has already sourced.**
 
 ## *** NEW TOP TARGETS from David's own notes ***
-- [ ] **THE ROSARIO BAPTISM — David has already located the film.**
-      `https://www.familysearch.org/en/search/film/004098791?cat=208788&i=4`
-      His note: *"still need to look through the rosario records here"*. Pablo Armando b. 22 Feb 1882.
-      **This names his parents and is the single biggest remaining prize.**
+- [ ] ***THE ROSARIO BAPTISM — NARROWED TO A FEW PAGES, 8 Sep 2026.***
+      Parish = **Nuestra Senora del Rosario** (the cathedral), catalog koha:208788, 71 rolls, images NOT
+      restricted. **David does not need to read the 543-image register**: there are alphabetical indexes.
+      - **GO TO: `familysearch.org/search/film/004530325` (Indice de Bautismos A-Z 1879-1900, 718 images),
+        IMAGE ~397.**
+      - Columns **APELLIDOS | NOMBRES | ANO | FOLIO**, in "Libro NN" blocks. Alphabetical by letter but
+        **CHRONOLOGICAL within the letter**.
+      - **Image 403 = ANO 1900-1901 (end of L); image 406 is already "Ll-".** So **1882 is at images
+        ~395-402.**
+      - Read off the **Libro + FOLIO**, then open that register volume. **The entry names his parents.**
+      - *Blocked for me only by the deep-zoom viewer misbehaving in this browser pane - not by access.*
+- [ ] ***BETTER STILL: DGS 4531036, Indice de Matrimonios 1860-1921.*** His parents' marriage names
+      **both fathers and both mothers** - four names against a baptism's two.
+- [ ] **DGS 4530324, Indice de Bautismos L-Z 1731-1879** - Pablo Armando's **older siblings**, and possibly
+      his parents' own baptisms. Take the family back another generation.
 - [ ] ***THE URUGUAYAN CONSULATE, not the Argentine one.*** David records an occupation
       **"Uruguay consulate, Cape Town"**, and *"was the ambassador for Argentina for a while — although
       YVONNE LERENA claims it was URUGUAY."* This archive has searched Argentina and found nothing, and on
