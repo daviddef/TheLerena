@@ -1,0 +1,190 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+---
+<Base title="Searched"
+      eyebrow="Everything looked at, including everything that led nowhere"
+      dek="An archive that publishes only its finds is advertising. This page lists every search made, what it returned, and what it cost — so that no one repeats a dead end, and so a null result can be read as evidence rather than silence.">
+
+<section class="blk">
+  <h2>Why a page of failures</h2>
+  <div class="prose">
+    <p>Most genealogical work is negative. Knowing that a register has been read line by line and does
+      <em>not</em> contain a name is worth as much as finding one — provided somebody wrote it down. Nobody
+      ever does, which is why the same fruitless afternoon gets spent again a decade later.</p>
+    <p>So: everything below was actually looked at. Where a search failed, the reason is given — not there,
+      not indexed, not digitised, restricted, or blocked. The distinction matters. A record that does not
+      exist and a record nobody has scanned are different problems with different solutions.</p>
+  </div>
+</section>
+
+<section class="blk">
+  <h2>Rosario — the baptism registers</h2>
+  <p class="dek">Nuestra Señora del Rosario, the cathedral parish. Alphabetical index, DGS 4530325,
+    read by eye at the film.</p>
+  <div class="scroll" style="margin-top:22px">
+    <table>
+      <thead><tr><th>What</th><th>Covered</th><th>Result</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Surname LERENA</strong>, every year</td><td class="m">1882–1895</td>
+          <td>Nothing. Fourteen consecutive years, line by line.</td></tr>
+        <tr><td>Surname <strong>LLERENA</strong> (the <em>Ll</em> section)</td><td class="m">1880–1884</td>
+          <td>Nothing. The whole Ll section for those five years is seven entries.</td></tr>
+        <tr><td colspan="3" style="padding-top:18px"><strong>The 1882 sweep — every surname, looking for the
+          given name <em>Pablo Armando</em></strong>, on the theory that a child born outside marriage was
+          registered under his mother's name</td></tr>
+        <tr><td>Letters <strong>A B C D E F G H</strong>, plus <strong>L</strong> and <strong>Ll</strong></td>
+          <td class="m">1882</td><td><strong>Twelve letters complete. Nothing.</strong></td></tr>
+        <tr><td>Letters <strong>I J K M N O P Q R S T U V W X Y Z</strong></td><td class="m">1882</td>
+          <td><span class="chip inf">Outstanding</span> Positions mapped; roughly 15–25 image-reads remain.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="note" style="margin-top:22px"><strong>Six near misses, all excluded.</strong>
+    <em>Chaparro · Pablo H.</em> (1882 f.67) · <em>Funes · Armando</em> (1882 f.163) ·
+    <em>Eduardo · Paul (N.)</em> (1882 f.505) · <em>Gorosito · Pablo</em> (1881 f.71) · a <em>Pablo J.</em>
+    among the G's · a <em>Pablo</em> among the I's (1884). None is him — but six near hits show the sweep
+    catches the name when it is there, which is what makes the null result mean something.</div>
+  <p class="cap" style="margin-top:16px">Useful incidental discovery: the index marks illegitimate births
+    <strong>(N.)</strong>, for <em>natural</em>. And <strong>Expósito</strong> — the surname given to
+    foundlings — is itself a heading in the E section, which was read.</p>
+</section>
+
+<section class="blk">
+  <h2>Rosario — everything else</h2>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Search</th><th>Result</th><th>Meaning</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Marriage index</strong> 1860–1904, L section, image 51</td>
+          <td>A line reading <em>"Larena V · Sarmiento A · 20"</em> under Libro 9, 1884</td>
+          <td><span class="chip inf">Unresolved</span> Cannot be distinguished from <em>Lavena</em>, a real
+            Rosario surname. Needs the register at folio 20.</td></tr>
+        <tr><td><strong>Other Rosario parishes</strong> for 1882</td>
+          <td>There were none</td>
+          <td><span class="chip doc">Closed</span> Santa Rosa de Lima became a parish on 19 February 1888
+            and performed its first baptism that day. Until then the city had only the cathedral.</td></tr>
+        <tr><td><strong>Santa Fe provincial civil registration</strong>, 1882</td>
+          <td>Did not exist</td>
+          <td><span class="chip doc">Closed</span> Argentine civil registration began around 1886. For an
+            1882 birth the parish register is the only record that could ever have existed.</td></tr>
+        <tr><td>Control search: <strong>surname López at Rosario, births 1888–92</strong></td>
+          <td>Zero results</td>
+          <td>Proves the cathedral's 19th-century baptisms are <strong>not indexed</strong> — they can only
+            be read, never searched.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="blk">
+  <h2>Indexes and databases searched</h2>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Where</th><th>Searched for</th><th>Result</th></tr></thead>
+      <tbody>
+        <tr><td><strong>FamilySearch</strong>, worldwide</td><td>Pablo Armando Lerena, fuzzy, births 1878–86</td>
+          <td><strong>Two records exist on earth</strong>: his 1911 Cape marriage and a modern Find a Grave
+            memorial. Nothing from South America at all.</td></tr>
+        <tr><td>FamilySearch</td><td>Given name <em>Pablo Armando</em>, any surname, Argentina</td>
+          <td>Nothing born 1880–84.</td></tr>
+        <tr><td>FamilySearch</td><td>Surname Lerena, filtered to <strong>Uruguay</strong></td>
+          <td>Nothing in the birth window.</td></tr>
+        <tr><td>FamilySearch</td><td>Surname Lerena, <strong>military records</strong></td>
+          <td><strong>Zero.</strong> The Argentine army collection is not indexed for this name — so the
+            <em>libreta de enrolamiento</em> must be requested by letter, not searched.</td></tr>
+        <tr><td><strong>Argentine National Census 1895</strong></td><td>Surname Lerena</td>
+          <td>A Uruguayan-born household in Buenos Aires — <strong>not his</strong> — and
+            <strong>not one Lerena in Santa Fe</strong>. He is absent though he would have been thirteen.</td></tr>
+        <tr><td><strong>NAAIRS</strong> (South African National Archives)</td><td>LERENA, all repositories</td>
+          <td>13 documents, 12 genuine. <a href={u("/naairs/")}>The archives answer →</a></td></tr>
+        <tr><td>NAAIRS</td><td><strong>LLERENA</strong></td><td><strong>Zero.</strong> No spelling variant to chase in South Africa.</td></tr>
+        <tr><td>NAAIRS</td><td>Gravestones database (GEN)</td><td><strong>Zero</strong> Lerena gravestones indexed.</td></tr>
+        <tr><td>FamilySearch</td><td>Cape <strong>birth registrations</strong> for the three sons</td>
+          <td>Not indexed. Would have given the father's birthplace three times over.</td></tr>
+        <tr><td><strong>Deeds registers</strong>, South Africa</td><td>Lerena land</td>
+          <td>No land for Pablo Armando; two suburban plots for his son Nuno. The family says he held land
+            at Blouberg — so the search, not the claim, is probably at fault.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="blk">
+  <h2>Blocked, restricted, or otherwise unreachable</h2>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>What</th><th>Why</th></tr></thead>
+      <tbody>
+        <tr><td><strong>CEMLA</strong> — Argentine immigrant arrivals from 1882</td>
+          <td>The search form is behind a <strong>CAPTCHA</strong>. Not attempted: defeating that check is
+            not this archive's business. It needs five minutes of a person's time.</td></tr>
+        <tr><td><strong>South Africa, Cape probate records</strong> on FamilySearch</td>
+          <td><em>"Image Restricted"</em> — viewable only at an affiliate library. This is how the estate
+            pages already held were presumably obtained.</td></tr>
+        <tr><td><strong>LDS South African Mission census, 1935</strong></td>
+          <td>Both younger sons are indexed as <em>"Son"</em> — so a head of household stands on that page,
+            giving his own birthplace five years before the passport. <strong>The image is not
+            published.</strong></td></tr>
+        <tr><td><strong>UK outward passenger lists (BT 27)</strong></td>
+          <td>Subscription only (FindMyPast, Ancestry). Not reachable from here.</td></tr>
+        <tr><td><strong>Sporting Post</strong> and <strong>PressReader</strong></td>
+          <td>Return 403 / bot-verification to automated access. The Alan Higgins obituary naming
+            <em>"Bob Lerena"</em> was supplied as a PDF instead.</td></tr>
+        <tr><td><strong>Forebears</strong>, Spain sub-page</td>
+          <td>Returns empty to automated fetch. Resolved another way — the main surname page carries the
+            regional split in prose.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="blk">
+  <h2>Chased and abandoned</h2>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Lead</th><th>Outcome</th></tr></thead>
+      <tbody>
+        <tr><td><strong>The San Miguel baptisms of 1872</strong> — Roberto Juan Roque <em>Llorens</em>, son
+          of Roberto Llorens and Francisca Fernández</td>
+          <td><span class="chip lore">Unproven</span> David Defranceski states plainly these are not
+            established as this family's. The surname is <em>Llorens</em>, a Catalan name; the streets and
+            parish point to <strong>Buenos Aires</strong>, not Rosario. Kept in the project's
+            <span class="mono">sources/unproven/</span> so it is not chased twice.</td></tr>
+        <tr><td>The <strong>Fernández</strong> hypothesis that grew from it</td>
+          <td><span class="chip dis">Failed</span> The F section of 1882 is read in full. No Pablo Armando.</td></tr>
+        <tr><td><strong>"Ler · María · 1884 · folio 13"</strong>, an odd truncated surname in the index</td>
+          <td><span class="chip dis">Does not resolve</span> Stamped folios 11, 13 and 14 of Libro 27 all
+            read; no <em>Ler</em>, no matching María. The index's foliation runs about two ahead of the
+            book's, and applying that offset did not find it either. Dropped.</td></tr>
+        <tr><td><strong>"Larena/Lavena V × Sarmiento A"</strong>, marriage index 1884</td>
+          <td><span class="chip inf">Open</span> Cannot be read with confidence at the best resolution
+            available. Settle at DGS 4531041, Libro 9 folio 20.</td></tr>
+        <tr><td>A <strong>second Rosario parish</strong> holding the baptism</td>
+          <td><span class="chip dis">Closed</span> Reasonable for a day; wrong. There was no second parish
+            until 1888.</td></tr>
+        <tr><td>Find a Grave memorial for Pablo Armando</td>
+          <td>User-created in April 2025, <em>burial details unknown</em>, and its Rosario derives from the
+            same passport. <strong>Not independent corroboration.</strong> It does compute his age at death
+            as 68, confirming the death certificate's "76" is wrong.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="cap" style="margin-top:18px">One file in the family's Lerena folder — a Brisbane cemetery index
+    listing FALCO burials — is <strong>misfiled</strong> and belongs to the sibling Falco archive.</p>
+</section>
+
+<section class="blk">
+  <h2>What the failures add up to</h2>
+  <div class="prose">
+    <p>Three independent bodies of evidence decline to place this family at Rosario: fourteen years of
+      cathedral baptisms, the whole FamilySearch index, and the 1895 national census. And there is no civil
+      fallback, because provincial registration did not yet exist.</p>
+    <p>That is not nothing. It means <strong>his South American origin rests entirely on his own
+      passport</strong> — a document he swore at a consulate, naming a city, a province and a day. The
+      record has not contradicted him. It has simply, so far, refused to agree.</p>
+  </div>
+  <div class="note" style="margin-top:22px">If you have looked somewhere this page does not list, that is
+    worth knowing too. Corrections and additions are the most valuable thing anyone can send.</div>
+</section>
+</Base>
