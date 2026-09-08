@@ -1297,3 +1297,63 @@ Where to look — none of it tried:
 
 Written up as `requests/ships-and-the-remount-trade.md`. **This is the largest untried idea in the project
 and it fits every fact held about him.**
+
+---
+
+# 8 September 2026 (night) — four new records, and a theory worth testing
+
+## New, from a South-Africa-filtered surname search (412 hits)
+1. ***LDS Church Census, South African Mission, 1935.*** Two entries:
+   **Nuno Fernando Lerena**, b. 1924 *"Wyneberg C.P."*, and **Ricardo Juan Carlos Lerena**, b. 1920
+   *"Cleremont C.P."* — **both indexed as "Son", so a HEAD OF HOUSEHOLD exists on that page.**
+   That head should be **Pablo Armando**, stating his own birthplace in **1935 — five years before the
+   passport, and independent of it.**
+   **The image is not available** ("Check Image Availability" yields nothing). Neither Pablo Armando,
+   Mary Septima nor Roque is separately indexed. *Why two Catholic boys of 11 and 15 appear in a Mormon
+   mission census in the year their mother died is itself a question.*
+   Arks: `1:1:ZYWT-S8N2` (Nuno), `1:1:ZYWT-S86Z` (Ricardo).
+2. ***"Luis Roque Armando Lerena" m. "Rosaline Wilhermina FORBES CHAPPELL", 21 September 1936,
+   Potchefstroom*** (South Africa, Civil Marriage Records). **Both surnames in one entry** — a third
+   independent confirmation that Forbes and Chappell are the same woman, exactly as inferred.
+   *(Note: the civil entry says Potchefstroom; the Corpus Christi annotation said St Joseph's,
+   Johannesburg. Registration district vs church, presumably.)*
+3. ***An infant Lerena died at BLOEMFONTEIN, 22 May 1932***, father **Louis Lerena** (Orange Free State
+   Civil Death Registration). This is the "Unknown Lerena, 17–22 May 1932" of David's tree — and it puts
+   Roque in the **Orange Free State** in 1932, a place this archive had not placed him.
+4. **Careen Maria Lerena**, burial Cape, d. 27 June 1947; **Doreen May Lerena** b.1921; **Rhena May
+   Lerena** b.1913 d. 1 Apr 1998 — all consistent with the tree.
+
+## Tested and negative
+- **No "Pablo Armando" born 1880–1884 anywhere in indexed Argentine records, under ANY surname.**
+  (The 1880s Rosario registers are unindexed, so this is not decisive — but it is worth knowing.)
+- **No Cape birth registrations** for the three sons are indexed.
+- **FamilySearch indexed military records: zero Lerena.**
+
+## *** THE THEORY THAT DESERVES TESTING: he may not be indexed under Lerena at all ***
+This family's documented practice was to have children first and marry later. **Roque was born in November
+1905 and his parents did not marry until September 1911** — the register calls them bachelor and spinster.
+The child was baptised in June 1911, three months before the wedding, and the mother received into the
+church that December. The whole family was regularised in one year.
+
+**In Spanish civil and parish practice a child born outside marriage is commonly registered under the
+MOTHER'S surname.** If Pablo Armando was himself born that way — and the habit evidently ran in the
+family — then:
+
+- he would be **born at Rosario exactly as his passport says**, and
+- he would **not appear in the baptism index under Lerena**,
+
+which is precisely the pattern the evidence shows. Note too that his passport gives **one** surname where
+Spanish practice normally gives two.
+
+**And David's own tree already gestures at this.** It carries **Roberto Llorens** (b. 1850) and
+**Francisca Fernández *Lerena*** (b. c.1850) as Pablo Armando's presumed parents — i.e. a **Lerena
+mother** and a **Llorens father**. David flags the San Miguel 1872 baptism behind it as unproven, and it
+stays in `sources/unproven/`. But the *shape* of his hypothesis — mother Lerena, father something else —
+is exactly what an illegitimate birth would produce, and it would also explain why **Roberto** and
+**Roque** recur in this family (a **Roberto Juan Roque Lerena** was born in 1944).
+
+**Recorded as a hypothesis, not a finding.** What would test it:
+- the **F section** of the Rosario baptism index for 1882, for a *Fernández*;
+- any Rosario baptism of a **"Pablo Armando"** in 1882 under any surname (the index is by surname, so this
+  means reading 1882 across every letter — expensive but finite);
+- and, decisively, **his enrolment record or the consular file**, which would name the parents outright.
