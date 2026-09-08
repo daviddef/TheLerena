@@ -1,131 +1,132 @@
 ---
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
+const stats = [
+  ["1882", "born at Rosario de Santa Fe on 22 February — from his own passport", "/passport/"],
+  ["1911", "married at St Dominic's, Wynberg, six years after their first son was born", "/taylor/"],
+  ["1931", "plans lodged for stables at Koeberg Road, Rugby", "/naairs/"],
+  ["£15,527", "the gross value of his estate in 1950 — including £26 owed for carrots", "/estate/"],
+  ["2,124", "people bear this surname in the whole world", "/name/"],
+  ["14", "consecutive years of Rosario baptisms read, and he is in none of them", "/argentina/"],
+];
 ---
 <Base title="The Lerena Archive"
-      eyebrow="A family history, kept honestly"
-      dek="An evidence-first archive of the Lerena family — from Rosario on the Paraná to the Cape, the Rand and Brisbane. Four family traditions, tested against the record rather than repeated.">
-<section class="blk">
+      eyebrow="Rosario · the Cape · the Rand · Brisbane"
+      dek="A horse-dealer out of Argentina, a stable under Table Mountain, and four family traditions tested against the record rather than repeated."
+      bare={true}>
 
-<div class="panel" style="margin:1.6rem 0">
-    <p style="margin-top:0"><span class="chip doc">8 September 2026 — the line is documented</span></p>
-    <p style="margin-bottom:0">
-      The head of the family is <strong>Pablo Armando Lerena</strong>, born at
-      <strong>Rosario de Santa Fe on 22 February 1882</strong> and known in South Africa as
-      <strong>Robert Paul Lerena</strong>. He died at Newlands, Cape Town on <strong>19 March 1950</strong>;
-      the state recorded his occupation as <strong>Race Horse Owner</strong>. From him the descent runs
-      unbroken and documented at every step to David Defranceski's mother.
-      <a href={u("/direct-line")}>The line &rarr;</a>
-    </p>
+<section class="hero">
+  <img src={u("/art/banner.webp")}
+       alt="A painted impression of a stable yard on the sand flats north of Cape Town, Table Mountain in the distance, two horses standing in the open."
+       loading="eager" decoding="async" />
+  <div class="cap">
+    <div class="kick">A family history, kept honestly</div>
+    <h1>Three generations back, a horseman out of Rosario.</h1>
+    <p class="sub">Rosario · the Cape · the Rand · Brisbane — a family that kept Spanish names for eighty years in a country that had no use for them.</p>
   </div>
 </section>
+<p class="cap" style="margin-top:10px">A modern painted impression, not a photograph, and not a picture of any building this family is known to have owned — it stands for the yard at Rugby recorded in the 1931 building file. The signature in its corner is the image generator's invention.</p>
+
+<section class="opener">
+  <p class="lede">
+    This archive was built for <b>David Defranceski</b>, born in Johannesburg, living in Brisbane — and it
+    runs backwards from his mother: to <b>Germiston</b>, where her father died; to <b>Wynberg</b>, where her
+    grandparents married in 1911 and their sons were baptised; to <b>Newlands</b>, where the horseman died
+    in 1950; and to <b>Rosario de Santa Fe</b>, where his own passport says he was born and where the
+    registers do not yet agree.
+  </p>
+  <p class="lede" style="margin-top:14px">
+    It is a public archive with one rule: <b>the living are left out</b> — omitted, not hidden. And a
+    second rule, which is harder: every claim says how well it is known.
+    <span class="chip doc" style="padding:2px 8px;font-size:10px">Documented</span>
+    <span class="chip inf" style="padding:2px 8px;font-size:10px">Inferred</span>
+    <span class="chip lore" style="padding:2px 8px;font-size:10px">Family lore</span>
+  </p>
+
+  <div class="doors">
+    <a class="door" href={u("/direct-line/")}>
+      <div class="dn">Follow the line</div>
+      <div class="dd">Three generations from <b>Pablo Armando Lerena</b> to David's mother, with a record
+        behind every step and no inferred link left in the descent.</div>
+      <div class="go">Start at Rosario →</div>
+    </a>
+    <a class="door" href={u("/passport/")}>
+      <div class="dn">Read the passport</div>
+      <div class="dd">Série A No. 07962, issued at Cape Town on Christmas Eve 1940. A birthplace, a
+        birthday, and a profession in one word: <b>Trainer</b>.</div>
+      <div class="go">See what it settles →</div>
+    </a>
+    <a class="door" href={u("/hypotheses/")}>
+      <div class="dn">See what is unproved</div>
+      <div class="dd">Every proposition the archive is entertaining but has not proved — what suggests it,
+        what would settle it, and the two already retired as wrong.</div>
+      <div class="go">Open questions →</div>
+    </a>
+  </div>
+</section>
+
 <section class="blk">
-<h2>What the family remembered, and how it has held up</h2>
-  <div class="scroll">
+  <h2>What the family remembered, and how it has held up</h2>
+  <p class="dek">Four traditions were handed down. Three now have documents; one has evidence against it.</p>
+  <div class="scroll" style="margin-top:22px">
     <table>
-      <thead><tr><th style="width:14rem">The claim</th><th>Where it stands</th></tr></thead>
+      <thead><tr><th style="width:15rem">The claim</th><th>Where it stands</th></tr></thead>
       <tbody>
         <tr><td><strong>An Argentine great-grandfather, from Rosario</strong></td>
-          <td><span class="chip doc">Confirmed</span> His own Argentine passport gives
-            <strong>Rosario de Santa Fe, 22 February 1882</strong>, and records him as Argentine
-            <em>by birth</em>. The tradition was exactly right.
-            <a href={u("/passport")}>The passport &rarr;</a></td></tr>
+          <td><span class="chip doc">Confirmed</span> His own passport gives <strong>Rosario de Santa Fe,
+            22 February 1882</strong>, and records him as Argentine <em>by birth</em>. The tradition was
+            exactly right. <a href={u("/passport/")}>The passport →</a></td></tr>
         <tr><td><strong>He brought horses</strong></td>
-          <td><span class="chip doc">Confirmed</span> <strong>Trainer</strong> on his passport; service in
-            the Argentine <strong>6th Cavalry</strong> in 1915; <strong>Race Horse Owner</strong> on his
-            death certificate; a 1931 municipal file for <strong>stables</strong> at Rugby; and, among the
-            debts of his estate, a claim for <strong>&pound;26 of carrots</strong>.</td></tr>
+          <td><span class="chip doc">Confirmed</span> <strong>Trainer</strong> on his passport;
+            <strong>horse-dealer</strong> at his marriage; the Argentine <strong>6th Cavalry</strong> in
+            1915; <strong>Race Horse Owner</strong> at his death; a 1931 file for <strong>stables</strong>
+            at Rugby; a yard that took apprentices; and, among his debts, a claim for
+            <strong>£26 of carrots</strong>. <a href={u("/horses/")}>The horses →</a></td></tr>
         <tr><td><strong>He was Consul General</strong></td>
-          <td><span class="chip inf">Disputed</span> Nothing supports it. On his 1940 passport the consular
-            signature belongs to A. B. Bayne. The family <em>did</em> hold an Argentine consular passport,
-            which may be how the tradition began.</td></tr>
+          <td><span class="chip inf">Disputed</span> Nothing supports it. On the 1940 passport the consular
+            signature belongs to A. B. Bayne; Pablo Armando is the bearer. The family <em>did</em> hold an
+            Argentine consular passport, which may be how the story began — and the family's own note says
+            the post may have been <strong>Uruguayan</strong>.</td></tr>
         <tr><td><strong>He had an ostrich farm</strong></td>
-          <td><span class="chip inf">Doubtful</span> The deeds registers show him owning
-            <strong>no land at all</strong>, and everything found puts him in Cape Town racing rather than
-            the Karoo. Not disproved — Oudtshoorn's own records are unsearched — but nothing supports it.
-            <a href={u("/south-africa")}>South Africa &rarr;</a></td></tr>
+          <td><span class="chip lore">Doubtful</span> The deeds registers show him holding no land at all,
+            and every document places him in Cape Town racing rather than the Karoo. Not disproved —
+            Oudtshoorn is unsearched, and a farm could have been leased.
+            <a href={u("/south-africa/")}>South Africa →</a></td></tr>
       </tbody>
     </table>
   </div>
-  <p class="cap">
-    Recorded from David Defranceski on 8 September 2026 and tested the same day against the South African
-    National Archives, the family's own papers, a Cape cemetery register, and the baptism register of
-    Corpus Christi, Wynberg. <a href={u("/direct-line")}>The line &rarr;</a>
-  </p>
 </section>
+
 <section class="blk">
-<h2>What is already established</h2>
-  <div class="grid g2">
-    <div class="panel">
-      <p><span class="chip doc">Documented</span></p>
-      <h3 style="margin-top:.4rem">The name is rare</h3>
-      <p style="margin-bottom:0">
-        <strong>2,124 bearers worldwide</strong> — the 197,177th commonest surname on earth, one person
-        in 3.43 million. Compare <em>Falco</em>, with 46,749. Rarity is the single most useful fact in this
-        archive: with a name this scarce, two clusters of Lerenas are far more likely to be one family
-        than to be coincidence. <a href={u("/name")}>The name &rarr;</a>
-      </p>
-    </div>
-    <div class="panel">
-      <p><span class="chip doc">Documented</span></p>
-      <h3 style="margin-top:.4rem">The River Plate is the heartland</h3>
-      <p style="margin-bottom:0">
-        Spain has the most Lerenas in absolute terms (888), but <strong>Uruguay</strong> has them at
-        <strong>1 in 7,962</strong> — over six times Spain's density and the highest on earth. Argentina
-        holds 293. The name's centre of gravity is the River Plate, exactly where the family story starts.
-        <a href={u("/argentina")}>Argentina &rarr;</a>
-      </p>
-    </div>
-    <div class="panel">
-      <p><span class="chip doc">Documented</span></p>
-      <h3 style="margin-top:.4rem">There are Lerenas in the stud book</h3>
-      <p style="margin-bottom:0">
-        <strong>Gilberto Justiniano Lerena Lenguas</strong> co-founded the <strong>Argentine Stud
-        Book</strong> and bred a Quadruple Crown winner; a Group race still carries his name. In South
-        Africa, <strong>Gavin Lerena</strong> is a leading jockey. The horse thread is real on both
-        continents — what is unproven is whether it runs through this family.
-        <a href={u("/horses")}>The horses &rarr;</a>
-      </p>
-    </div>
-    <div class="panel">
-      <p><span class="chip doc">Documented</span></p>
-      <h3 style="margin-top:.4rem">The South African branch is a founder cluster</h3>
-      <p style="margin-bottom:0">
-        <strong>61 Lerenas in South Africa</strong>. For a surname of 2,124 people worldwide that is a
-        striking concentration, and it has the signature of a single family arriving and multiplying —
-        which is precisely what the family story describes.
-        <a href={u("/south-africa")}>South Africa &rarr;</a>
-      </p>
-    </div>
+  <h2>Six numbers</h2>
+  <div class="grid g3" style="margin-top:24px">
+    {stats.map(([n, l, h]) => (
+      <a class="cardlink" href={u(h)}>
+        <div class="nm" style="font-variant-numeric:tabular-nums">{n}</div>
+        <div class="txt">{l}</div>
+      </a>
+    ))}
   </div>
 </section>
+
 <section class="blk">
-<h2>The two origins problem</h2>
-  <p>
-    <em>Lerena</em> may be two different names wearing one spelling, and the archive cannot yet say which
-    one belongs to this family:
-  </p>
-  <ul>
-    <li><strong>Basque.</strong> The ending <em>-ena</em> is the Basque possessive — "the house of". This
-      would make Lerena a house-name, and the family Basque or Navarrese.</li>
-    <li><strong>Castilian toponymic.</strong> <strong>Llerena</strong> in Badajoz, Extremadura, is a real
-      town with 36,828 name-bearers descended from it. <em>Ll-</em> reduces to <em>L-</em> readily in
-      Spanish-American registers and at ports of arrival.</li>
-  </ul>
-  <p>
-    This is the same problem the Falco archive met as <em>Falco</em> versus <em>De Falco</em>, and it is
-    settled the same way: in the registers, not by the look of the name.
-    <a href={u("/name")}>The full baseline &rarr;</a>
-  </p>
-</section>
-<section class="blk">
-<h2>How this archive works</h2>
-  <p>
-    Every statement is tiered — <strong>documented</strong>, <strong>inferred</strong>,
-    <strong>disputed</strong>, or <strong>family lore</strong> — and the tier is shown. Family lore is kept
-    because it is precious and labelled because pretending otherwise is how family myths become family
-    history. <strong>Living people are omitted from the build entirely.</strong>
-    <a href={u("/method")}>Method &rarr;</a>
-  </p>
+  <h2>Where it stands, and where it stops</h2>
+  <div class="prose">
+    <p>The line is closed and documented from <b>Pablo Armando Lerena</b> — born 1882, died at Newlands in
+      1950 — through <b>Nuno Fernando Lerena</b> to David's mother. His wife <b>Mary Septima Taylor</b> can
+      be traced four generations further, to a <b>James Taylor born about 1796</b> in Suffolk, and a family
+      settled at Bideford and Northam in north Devon.</p>
+    <p>What stops is the crossing. Fourteen consecutive years of Rosario baptisms have been read line by
+      line, and he is in none of them — and until 1888 the cathedral was the only parish in the city, so
+      there was nowhere else in Rosario for him to be baptised. Nor does any South American record of him
+      exist in the largest genealogical index in the world. <b>His origin rests entirely on his own
+      passport.</b></p>
+    <p>That is not a reason to doubt the passport. It is a reason to say plainly that the corroborating
+      record has not been found, and may never have been filmed.
+      <a href={u("/argentina/")}>Argentina →</a></p>
+  </div>
+  <div class="note" style="margin-top:26px">Corrections are the most valuable thing anyone can send. A
+    family member with a date, a photograph of a document, or a flat contradiction of something written
+    here will change this archive, and the change will be recorded rather than quietly made.</div>
 </section>
 </Base>
