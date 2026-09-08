@@ -48,11 +48,16 @@ what he has already sourced.**
       in one line.
       **J is at image 72; P is at image 90. So L is at roughly images 76-84.** Read those for LERENA.
       Then the register: **DGS 4531040 (Matrimonios 1868-1884)** or **4531039 (1853-1867)**.
-      **VIEWER METHOD (learned the hard way):** the `+` button is at the FAR RIGHT of the toolbar
-      (~x 1443 of 1462); the icon near x 1297 is the GRID toggle - clicking it throws you back to
-      thumbnails. Sequence: type image number, Return, wait 10s, click **+ three times**, then region-zoom.
-      This index needs more magnification than the baptism one, and at that zoom the groom's surname column
-      can sit off-screen left - **drag right first**.
+      **VIEWER METHOD - CORRECTED after a second attempt:**
+      - **DO NOT zoom the viewer in for this film.** Read at **FIT** zoom and use the `computer` **region
+        zoom** instead: `[385,110,660,330]` and `[385,320,660,535]` render the handwriting perfectly.
+        Zooming in pushes the groom's surname column off-screen left.
+      - **The viewer gets stuck on this film:** URL `?i=n` lands in grid mode; the single-page toggle snaps
+        back to the last single-page image rather than the requested one; and once stuck the number box and
+        the arrows both stop responding. **Only a fresh page load / new tab clears it.**
+      - **So: open the film in a NEW TAB, switch to single-page view FIRST, then use the image-number box
+        before touching anything else.**
+      Letters confirmed at fit zoom: **D=49, F=59, J=72, P=90**, so **L = images ~76-84**.
 - [ ] **DGS 4530324, Indice de Bautismos L-Z 1731-1879** - Pablo Armando's **older siblings**, and possibly
       his parents' own baptisms. Take the family back another generation.
 - [ ] ***THE URUGUAYAN CONSULATE, not the Argentine one.*** David records an occupation

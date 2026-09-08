@@ -890,6 +890,35 @@ between; image 78 already shows the right kind of content.
   wider than the viewport, so the groom's surname column can sit off-screen to the left. **Drag right to
   bring it in before cropping.** That is where this session ran out of road.
 
+## Second attempt, same day — legibility solved, navigation broke
+**The legibility problem is SOLVED.** At the viewer's **fit** zoom (not zoomed in), a `computer` **region
+zoom** on the left page — roughly `[385,110,660,330]` and `[385,320,660,535]` — renders this handwriting
+perfectly. Zooming the *viewer* in was the mistake: it makes the page wider than the viewport and pushes
+the groom's surname column off-screen.
+
+Confirmed letter positions on the second pass, read cleanly at fit zoom:
+
+| Image | Letter | Sample |
+|---|---|---|
+| 49 | **D** | Duarte · Durand · Delavega · Diaz · Dominguez · Duran |
+| 59 | **F** | Franco · Fernandez · Fonseca · Fresco · Faya |
+| 72 | **J** | Jurgens · Juary · Juriol · Junguets |
+| 90 | **P** | Pacheco · Palma · Paz · Perez · Peralta · Pereira |
+
+→ ***L remains bracketed to images ~76-84.***
+
+### The viewer's failure mode, so it is not rediscovered
+The Chrome image viewer gets into a stuck state on this film:
+1. **URL navigation** (`?i=n`) lands in **thumbnail-grid** mode, and the thumbnails sometimes never load.
+2. The **single-page toggle** (icon at ~x 1257) does not open the requested image — it **snaps back to the
+   last single-page image viewed** (here, 49).
+3. Once stuck, **the "Image [n]" number box stops accepting input** and **the forward/back arrows stop
+   advancing**. Only image 49 would render.
+4. A **fresh page load / new tab** is what clears it. That is where this session ran out of road.
+
+**Next attempt: open the film in a NEW TAB, go to single-page view FIRST, then use the image-number box
+before touching anything else, and read at FIT zoom with region crops.**
+
 ## Status
-**Not found yet — the L pages were located but not read.** This is a mechanical stopping point, not an
-evidential one: the images are open, unrestricted and legible at the right zoom.
+**Not found — the L pages are located but were never rendered.** A viewer bug, not a records problem: the
+images are open, unrestricted, and legible at fit zoom with region cropping.
