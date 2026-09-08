@@ -1096,3 +1096,50 @@ is wrong for these years.
   **Relevant to the unproven Llorens hypothesis**: Llorens are demonstrably a Rosario family, which is
   presumably why the 1872 San Miguel baptism looked plausible. It remains unproven and Buenos Aires-based.
 - The search is heavily fuzzy — *Lorena, Loroña, Llorens, Lorens, Llerena, Loranse* all return. Filter hard.
+
+---
+
+# 8 September 2026 — 1886-1895 read. Still nothing.
+
+First checked whether these years were already indexed and could be searched instead: a control search
+(`Lopez`, Rosario, births 1888-1892) returned **0 results**. **The cathedral's 19th-century baptisms are NOT
+indexed** — only the 1910s material is. So they had to be read.
+
+## Coverage now
+Read at fit zoom with region crops in Chrome, images **377-393** of DGS 4530325 (plus 369-376 earlier):
+
+**LIBROS 24 THROUGH 38. YEARS 1882, 1883, 1884, 1885, 1886, 1887, 1888, 1889, 1890, 1891, 1892, 1893,
+1894 and 1895.** Full table in `data/rosario-index-searched.tsv`.
+
+### *** NO LERENA. FOURTEEN CONSECUTIVE YEARS. ***
+Nor any Llerena — that section was read separately for 1880-84.
+
+The L pages are dense with Rosario's actual L families, the same names recurring year on year: López,
+Lucero, Ludueña, Leguizamón, Luraschi, Lencina, Ledesma, Leiva, Lescano, Lujan, Luque, Lanfranconi,
+Lombardo, Lavena, Larrechea. **Lerena is simply not among them.**
+
+## Two small gaps, stated
+- **Image 392** (part of 1894) was not opened.
+- On **images 387 and 389** the lower half of each page rendered blurred — the deep-zoom tiles did not
+  load. Those portions were not read.
+- **1896-1900 (images ~394-403) remains unread.**
+
+Neither gap is likely to matter: a baptism at age 12-18 is improbable, and the run is otherwise unbroken.
+
+## What this now means
+Combined with the parish finding — that **the cathedral was Rosario's ONLY parish until 1888** — the
+position is:
+
+> **From his birth in February 1882 until he was thirteen, Pablo Armando Lerena does not appear in the
+> baptismal index of the only church in Rosario that could have baptised him for the first six of those
+> years, nor in any of the seven years after Santa Rosa de Lima opened.**
+
+**The Rosario baptism should now be treated as unlikely to exist**, and effort moved to:
+1. ***Whether he was born at Rosario at all.*** His passport says so, and it is his own document — but the
+   record does not corroborate it. **Remember there is a Rosario in Uruguay (Colonia)**, in the country
+   with the world's densest Lerena population.
+2. **The Uruguayan records.** Montevideo's Lerenas are numerous, documented, and already surfacing in
+   searches (the Lerena Lenguas; Pedro A. Lerena; Alberto Lerena; Gilberto Lerena).
+3. **Argentine civil registration** rather than church records.
+4. **His marriage or death papers in South Africa** for a stated birthplace — the 1950 death certificate
+   says only "South America".

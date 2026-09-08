@@ -23,8 +23,20 @@ returns **730 records**; with `f.recordCountry=Argentina`, **6,017**.
       San Jose and Inmaculada Concepcion are later still.
       → **In Feb 1882 the CATHEDRAL WAS ROSARIO'S ONLY PARISH.** Its index is clean for 1882-85.
       → ***THEREFORE PABLO ARMANDO WAS NOT BAPTISED IN ROSARIO IN 1882-1885 AT ALL.***
-- [ ] ***NOW THE CHEAPEST TEST: read the cathedral index for 1886-1900.*** A late baptism fits this
-      family - Roque was born 1905 and baptised 1911. Same index, DGS 4530325, images ~377-403.
+- [x] ***DONE 8 Sep 2026: 1886-1895 READ. STILL NO LERENA.*** Images 377-393 of DGS 4530325, Libros 24-38.
+      With the earlier work that is **FOURTEEN CONSECUTIVE YEARS, 1882-1895, clean** - plus the whole Ll-
+      section for 1880-84. Table: `data/rosario-index-searched.tsv`.
+      *(Gaps stated: image 392 unopened; lower halves of 387 and 389 blurred; 1896-1900 unread.)*
+      *(Also confirmed: the cathedral's 19th-c. baptisms are NOT indexed - a control search for Lopez at
+      Rosario 1888-92 returned 0 - so they cannot be searched, only read.)*
+- [ ] ***THE ROSARIO BAPTISM SHOULD NOW BE TREATED AS UNLIKELY TO EXIST.*** Move the effort:
+      1. **Was he born at Rosario at all?** His own passport says Rosario de Santa Fe, but nothing
+         corroborates it. **There is a Rosario in URUGUAY (Colonia).**
+      2. **URUGUAY.** Montevideo Lerenas are numerous and already surfacing - Lerena Lenguas, Pedro A.
+         Lerena, Alberto Lerena, Gilberto Lerena.
+      3. **Argentine CIVIL registration**, not church records.
+      4. **South African papers for a stated birthplace** - the 1950 death certificate says only
+         "South America".
 - [ ] **If that fails: he was baptised in another town, or was not born at Rosario.** Note the trap - there
       is a **Rosario in URUGUAY (Colonia)**, in the country with the world's densest Lerena population.
       His passport says "Rosario de Santa Fe" explicitly, which argues against it but is not conclusive.
