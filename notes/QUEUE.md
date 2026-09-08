@@ -17,9 +17,19 @@ Opening DGS 4531041 showed an **"Image Index" panel** under the viewer giving, f
 returns **730 records**; with `f.recordCountry=Argentina`, **6,017**.
 
 ## *** NEXT TARGETS ***
-- [ ] ***SANTA ROSA DE LIMA, ROSARIO - a SECOND Rosario parish, and it has Lerenas.***
-      Confirmed: *Carmen Roman Lerena, baptism 1918, Santa Rosa de Lima, Rosario*, mother **Manuela
-      Lerena**. This is the parish hypothesis, evidenced. **Find its baptism registers for 1882.**
+- [x] ***CLOSED, 8 Sep 2026: THE "OTHER ROSARIO PARISH" HYPOTHESIS IS DEAD.***
+      **Santa Rosa de Lima did not become a parish until 19 FEBRUARY 1888**, and its **first baptism was
+      performed that day**. Until then *"la ciudad de Rosario contaba solamente con la Iglesia Catedral"*.
+      San Jose and Inmaculada Concepcion are later still.
+      → **In Feb 1882 the CATHEDRAL WAS ROSARIO'S ONLY PARISH.** Its index is clean for 1882-85.
+      → ***THEREFORE PABLO ARMANDO WAS NOT BAPTISED IN ROSARIO IN 1882-1885 AT ALL.***
+- [ ] ***NOW THE CHEAPEST TEST: read the cathedral index for 1886-1900.*** A late baptism fits this
+      family - Roque was born 1905 and baptised 1911. Same index, DGS 4530325, images ~377-403.
+- [ ] **If that fails: he was baptised in another town, or was not born at Rosario.** Note the trap - there
+      is a **Rosario in URUGUAY (Colonia)**, in the country with the world's densest Lerena population.
+      His passport says "Rosario de Santa Fe" explicitly, which argues against it but is not conclusive.
+- [ ] **Bartolome LLERENA, 1869 National Census, Rosario, b. 1824 Cordoba** - a Llerena household at
+      Rosario a decade before Pablo Armando. Worth a look.
 - [ ] **"ARMANDO LERENA", baptism 1917, Ntra. Sra. del Carmen, Santa Fe city** - parents **Casimiro
       Lerena** and **Amelia Lepiani**; same Casimiro at Colon, **Entre Rios**, 1911. The given name
       **Armando** in a Santa Fe Lerena family. Work this family out.

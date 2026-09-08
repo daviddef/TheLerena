@@ -1037,3 +1037,62 @@ and it is now evidenced.
 *Alexandro Lerena, born "Rosario"*, parents Ramon Lerena and Maria Josefa Gonsales. **Do not assume every
 "Rosario" in a Lerena record is Rosario, Santa Fe.** Given Uruguay has the world's densest Lerena
 population, this is a live trap.
+
+---
+
+# 8 September 2026 — *** THE CATHEDRAL WAS ROSARIO'S ONLY PARISH IN 1882 ***
+
+Searched the indexed church records for a Lerena baptism at **Santa Rosa de Lima, Rosario**. Then checked
+when that parish began — and the answer reverses this archive's working assumption.
+
+## The parish history
+Published parish and diocesan sources (parroquiasantarosa.com.ar; Conclusión, Aug 2021; Wikipedia
+*Iglesia de Santa Rosa (Rosario)*):
+
+> *"Hasta ese momento, en materia eclesiástica, la ciudad de Rosario contaba **solamente con la Iglesia
+> Catedral**."*
+> A chapel stood on land given by Ramón Sánchez from **1863**, passing to the bishopric in 1866. But
+> *"recién el **19 de febrero de 1888** se obtiene el título oficial de parroquia. Se celebró ese día la
+> inauguración, **juntamente con el primer bautismo**."*
+
+**Santa Rosa de Lima became a parish on 19 February 1888, and its first baptism was performed that day.**
+Rosario's other parishes — San José, Inmaculada Concepción — are later still; they appear in the indexed
+records only from the 1910s.
+
+## *** WHAT THIS MEANS ***
+In **February 1882, Nuestra Señora del Rosario — the cathedral — was the ONLY parish in Rosario.**
+
+This archive has now read that cathedral's baptism index **line by line for 1882, 1883, 1884 and 1885**,
+plus the whole **Ll-** section for 1880-84, and found **no Lerena and no Llerena**.
+
+Those two facts together give a far stronger conclusion than "he was probably baptised at another parish":
+
+> ***PABLO ARMANDO LERENA WAS NOT BAPTISED IN ROSARIO IN 1882-1885 — because there was nowhere else in
+> Rosario to be baptised.***
+
+The "other Rosario parish" hypothesis, raised earlier today, is **closed**. It was a reasonable idea and it
+is wrong for these years.
+
+## Which leaves four live possibilities
+1. **A late baptism, after 1885.** Still open — the index runs to 1900 and only 1882-85 has been read.
+   The family's own habit supports it: his son Roque was born 1905 and baptised **1911**.
+2. **He was baptised in another town.** Born at Rosario but christened where the family had come from, or
+   where they moved to.
+3. ***He was not born at Rosario at all.*** The passport is his own document and says *"Rosario de Santa
+   Fe"* explicitly — but a man states where his family is from as readily as where he was delivered.
+   **And there is a Rosario in URUGUAY (Colonia)**, in the country with the world's densest Lerena
+   population. The passport's "de Santa Fe" argues against it; it is not conclusive.
+4. **The date is inexact.** Least likely — the passport gives a precise day, 22 February 1882.
+
+**Priority 1 is now the cheapest test**: read the same cathedral index for **1886-1900**.
+
+## Also found in the Rosario search
+- **Only ONE genuine Lerena** appears in the indexed Rosario church records at all:
+  **Carmen Román Lerena**, baptised **1918** at Santa Rosa de Lima, mother **Manuela Lerena**.
+- **Bartolomé LLERENA**, in the **1869 National Census at Rosario**, born **1824 in Córdoba**. A *Llerena*
+  household at Rosario a decade before Pablo Armando.
+- Several **LLORENS** families at Rosario parishes (Santa Rosa de Lima, San José, Inmaculada Concepción) —
+  Vicente Llorens m. Rosa Noce 1914; Antonio Llorens and María Roqué's daughters married 1917 and 1919.
+  **Relevant to the unproven Llorens hypothesis**: Llorens are demonstrably a Rosario family, which is
+  presumably why the 1872 San Miguel baptism looked plausible. It remains unproven and Buenos Aires-based.
+- The search is heavily fuzzy — *Lorena, Loroña, Llorens, Lorens, Llerena, Loranse* all return. Filter hard.
