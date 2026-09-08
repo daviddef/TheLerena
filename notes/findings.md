@@ -1439,3 +1439,28 @@ it is there.
 ### What remains
 **G (tail) · H · I/J/K · M · N/O · P · Q/R · S · T/U/V · W–Z.** Roughly **25–35 more image reads**.
 Rough positions: G runs to ~330, so **H starts ~331**; **L starts 369**; **M starts ~407**.
+
+## Sweep progress, second sitting — TWELVE letters complete
+
+**A · B · C · D · E · F · G · H · L · Ll** are now read in full for 1882. **No Pablo Armando in any of them.**
+**I** is located but its 1882 band (images ~346–347) is not yet read.
+
+### Letter positions now firmly established
+**A** 11–12 · **B** 56–57 · **C** 117–118 · **D** 190 · **E** 223 · **F** 239–240 · **G** 280–283 ·
+**H** 337 · **I** ~346–347 · **L** 369–371 · **Ll** 404 · **M** from ~407.
+(Useful bracketing samples: C at 120=1883 and 181=1898; D at 216=1901; E at 224=1884; G at 320=1894 and
+334=1900; H at 344=1895; I at 351=1888 and 353=1893.)
+
+### Near misses now numbering six — all excluded
+*Chaparro · Pablo H.* (1882 f.67) · *Funes · Armando* (1882 f.163) · *Eduardo · Paul (N.)* (1882 f.505) ·
+*Gorosito · Pablo* (1881 f.71) · a *Pablo J.* in G (1882 f.568) · a *Pablo* in I (1884 f.141).
+**None is Pablo Armando** — but six near hits confirm the method catches the name when it is present.
+
+### Remaining
+**I (finish) · J/K · M · N/O · P · Q/R · S · T/U/V · W–Z** — perhaps **15–25 more image reads**.
+**P** and **S** are the big ones and should be done first if the sweep is ever cut short.
+
+### A note on conditions
+Chrome dropped its connection twice during this sitting and the viewer sometimes renders one image behind
+the number requested. Neither loses data — it only costs re-reads — but it is why progress is recorded
+after each letter rather than at the end.
