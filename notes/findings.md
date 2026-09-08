@@ -974,3 +974,66 @@ surface that remained available.**
 4. Look for **LERENA** under the year blocks **1860-1881**. The line gives **groom's surname · bride's
    surname · page**, and the page number then opens the register:
    **DGS 4531040 (Matrimonios 1868-1884)** or **4531039 (1853-1867)**.
+
+---
+
+# 8 September 2026 — image 51 read, and a much better method found
+
+Chrome reconnected. **Image 51 of the 88-image "Índice de matrimonios 1860-1904" was read** at fit zoom
+with region crops.
+
+## What image 51 holds
+Pages **150 / 151**, "Libro 8º" and "Libro 9º", under year headings
+**1876 · 1877 · 1878 · 1879 · 1880 · 1881 · 1882 · 1883 · 1884 · 1885** — the whole window that matters.
+Dozens of L surnames: Luraschi, Lucero, Ludueña, López, Lucas, Lara, Laguna, Lorenzo, Leguizamón,
+Lanfranconi, Ledesma, Lavena, Llanari and many more.
+
+### One candidate, and it is NOT confirmed
+Under **Libro 9º, 1884**: ***"Larena V · Sarmiento A · 20"***.
+
+At maximum legible resolution I **cannot distinguish `Larena` from `Lavena` or `Lerena`** — and *Lavena*
+is a real Rosario surname (a Lavena appears in the baptism index for 1885). **Recorded as a candidate
+only.** If it is Lerena, note the date: **1884, two years after Pablo Armando's birth** — which is exactly
+the pattern his own son shows (Roque born 1905, parents married 1911).
+**To settle it: DGS 4531041 (Matrimonios 1884-1891), Libro 9, folio 20.**
+
+## *** THE METHOD FINDING: THE MARRIAGE REGISTERS ARE INDEXED ***
+Opening **DGS 4531041** revealed an **"Image Index" panel beneath the viewer**, tabulating each act with
+**Name · Sex · Age · Birth Year · Father's Name · Mother's Name**. Reading the handwriting is
+**not necessary** — these registers are searchable.
+
+**This changes the whole approach to Rosario. Search, do not read.**
+
+## What the search returns
+- **`surname=Lerena` + Argentina: 6,017 indexed records.**
+- **`surname=Lerena` + Santa Fe: 730.**
+
+### *** A SECOND ROSARIO PARISH, WITH LERENAS IN IT ***
+> **Carmen Román Lerena** — Baptism **1918**, ***Santa Rosa de Lima, ROSARIO***, Santa Fe.
+> Parents: Diego Román and **Manuela Lerena**.
+
+**This is the confirmation that the cathedral is not the only Rosario parish**, and that Lerenas appear at
+another one. It is the hypothesis this archive raised after four clean years at Nuestra Señora del Rosario,
+and it is now evidenced.
+
+### Other Santa Fe Lerenas
+- ***Armando Lerena*** — baptism **1917**, Nuestra Señora del Carmen, **Santa Fe city**. Parents
+  **Casimiro Lerena** and **Amelia Lepiani**. *(The same Casimiro also baptised a child at Colón,
+  **Entre Ríos**, in 1911 — so that family moved Entre Ríos → Santa Fe.)* **The given name ARMANDO in a
+  Santa Fe Lerena family is worth pursuing.**
+- **Leon José Lerena** — christening 1892, Cayastá, Garay, Santa Fe. Parents José Lerena, Rosa Eurietto.
+
+### The Montevideo Lerena Lenguas — now documented
+- **Ema Sixta Lerena**, christened 1881 at the **Catedral, Montevideo**; parents **Luís Serena Lenguas**
+  and **Julia Juanicó**; extended family **Justiniana Lenguas**.
+  → *Justiniana Lenguas* is plainly where **Gilberto ***Justiniano*** Lerena ***Lenguas*** of the Argentine
+  Stud Book gets his names. <a>The stud-book family is a **Montevideo** family.</a>
+- **Gilberto Lerena** m. **Julia Salvañach**, Montevideo — children **Carlos Augusto Federico** (1883) and
+  **Raul** (b. 1885, later married at Buenos Aires).
+  → And the family's own **Gilberto Lerena (1957-2020)** carries the same name.
+
+## A caution to carry
+***There is a Rosario in URUGUAY as well*** (Rosario, Colonia). An 1825 Uruguayan marriage index gives
+*Alexandro Lerena, born "Rosario"*, parents Ramon Lerena and Maria Josefa Gonsales. **Do not assume every
+"Rosario" in a Lerena record is Rosario, Santa Fe.** Given Uruguay has the world's densest Lerena
+population, this is a live trap.

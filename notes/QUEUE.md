@@ -9,6 +9,30 @@ anything, read them: re-root the tree with `?rootIndividualID=<id>` and read the
 of "BIOGRAPHY" in `document.body.innerText`. The tree cards carry only names and dates. **Do not re-derive
 what he has already sourced.**
 
+## *** METHOD BREAKTHROUGH, 8 Sep 2026: THE ROSARIO REGISTERS ARE INDEXED ***
+Opening DGS 4531041 showed an **"Image Index" panel** under the viewer giving, for every act,
+**Name · Sex · Age · Birth Year · FATHER'S NAME · MOTHER'S NAME**.
+**STOP READING HANDWRITING. SEARCH INSTEAD.**
+`familysearch.org/search/record/results?q.surname=Lerena&q.anyPlace=Santa%20Fe,%20Argentina`
+returns **730 records**; with `f.recordCountry=Argentina`, **6,017**.
+
+## *** NEXT TARGETS ***
+- [ ] ***SANTA ROSA DE LIMA, ROSARIO - a SECOND Rosario parish, and it has Lerenas.***
+      Confirmed: *Carmen Roman Lerena, baptism 1918, Santa Rosa de Lima, Rosario*, mother **Manuela
+      Lerena**. This is the parish hypothesis, evidenced. **Find its baptism registers for 1882.**
+- [ ] **"ARMANDO LERENA", baptism 1917, Ntra. Sra. del Carmen, Santa Fe city** - parents **Casimiro
+      Lerena** and **Amelia Lepiani**; same Casimiro at Colon, **Entre Rios**, 1911. The given name
+      **Armando** in a Santa Fe Lerena family. Work this family out.
+- [ ] **The candidate "Larena/Lavena V x Sarmiento A", Libro 9 folio 20, 1884** (marriage index image 51).
+      Cannot be read with confidence. **Settle it at DGS 4531041 (Matrimonios 1884-1891), folio 20** -
+      and that film is INDEXED, so try searching before reading.
+- [ ] **The Montevideo Lerena Lenguas are now documented** - Luis Serena Lenguas m. Julia Juanico
+      (dau. Ema Sixta, chr. 1881 Montevideo Cathedral, with **Justiniana Lenguas** in the extended family);
+      **Gilberto Lerena** m. **Julia Salvanach**, sons Carlos Augusto Federico (1883) and Raul (1885).
+      **That is where Gilberto JUSTINIANO Lerena LENGUAS of the Argentine Stud Book comes from - a
+      MONTEVIDEO family.** Test whether David's line joins it.
+- [ ] **TRAP: there is a Rosario in URUGUAY (Colonia) too.** Do not assume "Rosario" means Santa Fe.
+
 ## *** NEW TOP TARGETS from David's own notes ***
 - [x] ***ROSARIO INDEX READ, 8 Sep 2026 — CLEAN NEGATIVE.*** The whole **L** run for **1882 and 1883**
       (Libros 24, 25, 26; folios 402-574, 9-249, 457-540, 7-209) **and** the entire **Ll-** section for
