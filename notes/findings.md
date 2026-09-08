@@ -1143,3 +1143,62 @@ position is:
 3. **Argentine civil registration** rather than church records.
 4. **His marriage or death papers in South Africa** for a stated birthplace — the 1950 death certificate
    says only "South America".
+
+---
+
+# 8 September 2026 — Uruguay searched. He is not there either.
+
+## The search
+FamilySearch historical records, **fuzzy** on both names (`Pablo~ Lerena~`), **births 1878-1886**,
+**worldwide** (a Uruguay-only filter with a date range returned 0, so the filter was dropped and the whole
+index searched instead).
+
+### Result: only TWO records exist in the world for this man
+1. **South Africa, Civil Marriage Records** — the 1911 Wynberg marriage. *(known)*
+2. **Find a Grave Index** — b. 22 Feb 1882, d. 19 Mar 1950, burial place not stated. *(known; the memorial
+   itself is unopened and may carry a cemetery and a headstone photograph — worth a look)*
+
+**Nothing from Uruguay. Nothing from Argentina. Nothing from South America at all.**
+
+Every other Pablo Lerena in that window is demonstrably someone else — **Pablo Timoteo Lerena Muñoz** of
+Atienza, Guadalajara (Spain, b.1878, parents Pedro Lerena Pérez and Baltasara Muñoz Bermejos), and a scatter
+of Mexican, Colombian, Guatemalan and Philippine men.
+
+## Where that leaves it
+The largest genealogical index in the world holds **no South American record of Pablo Armando Lerena**.
+Taken with fourteen clean years of Rosario baptisms, the position is now:
+
+> **His South American origin rests entirely on his own passport.** No register, index or civil record on
+> that continent has yet been found to corroborate it.
+
+That is not a reason to doubt the passport — it is his own document, sworn at a consulate, giving a city, a
+province and a day. It is a reason to accept that **the corroborating record may simply not be digitised**:
+Uruguayan and Argentine coverage on FamilySearch is patchy, and Rosario's civil registration is not indexed
+at all for the 1880s.
+
+## *** THE CARMEN QUESTION *** (raised by David)
+> *"my aunt was Patricia Carmen Lerena. would Carmen not be related?"*
+
+A fair question, and it repays a careful answer rather than a quick one.
+
+**Against reading much into it:** *Carmen* is one of the commonest female names in the Spanish-speaking
+world — a devotional name from *Nuestra Señora del Carmen*, Our Lady of Mount Carmel. On its own it points
+at no particular ancestor, and this family was Catholic, so a devotional choice needs no explanation.
+
+**But there is something in it.** Look at the given names this family actually used in South Africa:
+
+| Male | Female |
+|---|---|
+| Pablo Armando · Roque Luis Armando · Ricardo Juan Carlos · Nuno Fernando · Roberto Juan Roque · Ricardo Paul · Anton Armando · Juan Carlos · Gilberto | Yvonne Paulette · **Patricia Carmen** · Panola Maria · Juanita Ramond · Catherine Tersia |
+
+The **male** Spanish names are abundant and persistent. The **female** ones are scarce — and *Carmen*, in
+1958, is the clearest survival among them.
+
+Spanish naming custom names children for grandparents. **Patricia Carmen's** grandmothers were
+**Mary Septima Taylor** (English, d. 1935) and the mother of **Catherine Mary Sophia Booyzen** (Afrikaner).
+**Neither was a Carmen.** So if the name descends rather than being freshly chosen, its likeliest source is
+**further back on the Lerena side — Pablo Armando's own mother or grandmother.**
+
+**HYPOTHESIS, recorded as such:** *a Carmen stands somewhere in Pablo Armando Lerena's own maternal line.*
+Weak on its own; useful as a filter. **When searching Argentine and Uruguayan Lerena records, give extra
+weight to any household containing a Carmen.**

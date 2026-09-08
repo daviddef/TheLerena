@@ -32,8 +32,19 @@ returns **730 records**; with `f.recordCountry=Argentina`, **6,017**.
 - [ ] ***THE ROSARIO BAPTISM SHOULD NOW BE TREATED AS UNLIKELY TO EXIST.*** Move the effort:
       1. **Was he born at Rosario at all?** His own passport says Rosario de Santa Fe, but nothing
          corroborates it. **There is a Rosario in URUGUAY (Colonia).**
-      2. **URUGUAY.** Montevideo Lerenas are numerous and already surfacing - Lerena Lenguas, Pedro A.
-         Lerena, Alberto Lerena, Gilberto Lerena.
+      2. [x] **URUGUAY SEARCHED 8 Sep 2026 - NOTHING.** Fuzzy `Pablo~ Lerena~`, births 1878-1886,
+         worldwide. **The only two records in the entire index for this man are his 1911 South African
+         marriage and a Find a Grave entry.** No South American record of him exists in FamilySearch.
+         → **His South American origin rests entirely on his own passport.** Likeliest explanation is
+         non-digitisation, not error: Uruguayan/Argentine coverage is patchy and Rosario civil
+         registration is unindexed for the 1880s.
+      2b. [ ] **Open the Find a Grave memorial** (b. 22 Feb 1882, d. 19 Mar 1950) - may give the cemetery
+         and a headstone photograph. Still unopened.
+      2c. [ ] **CARMEN AS A FILTER.** David asks whether Patricia Carmen Lerena's name is a clue. Carmen is
+         a very common devotional name, so weak alone - **but** the family's surviving *female* Spanish
+         names are scarce, and neither of Patricia's grandmothers (Mary Septima Taylor; the Booyzen line)
+         was a Carmen. If it descends, it descends from **Pablo Armando's own mother or grandmother**.
+         **When searching Argentine/Uruguayan Lerena households, weight any containing a Carmen.**
       3. **Argentine CIVIL registration**, not church records.
       4. **South African papers for a stated birthplace** - the 1950 death certificate says only
          "South America".
