@@ -1464,3 +1464,66 @@ Rough positions: G runs to ~330, so **H starts ~331**; **L starts 369**; **M sta
 Chrome dropped its connection twice during this sitting and the viewer sometimes renders one image behind
 the number requested. Neither loses data — it only costs re-reads — but it is why progress is recorded
 after each letter rather than at the end.
+
+## THE 1882 SWEEP IS COMPLETE — all 26 letter sections read
+
+**Every letter section of the Rosario cathedral baptism index (DGS 4530325) has now been read for the
+year 1882, looking for the given name *Pablo Armando* under any surname whatsoever.**
+
+**Result: he is not there.**
+
+A · B · C · D · E · F · G · H · I · J · K · L · Ll · M · N · O · P · Q · R · S · T · U · V · W · Y · Z —
+twenty-six headings, plus the finding that **there is no X section at all** in this index. Two sections
+turned out to contain no 1882 entries at all (**K**, which jumps from Libro 24/1881 straight to
+Libro 26/1883, and **Y**, whose entire section is a single line for 1900). Full image-by-image coverage
+in `data/rosario-index-map.tsv`.
+
+### The last eleven sections, for the record
+- **P** (images 503–505) — 1882 runs Libro 24 f.367 → Libro 25 f.257. Clear.
+- **Q** (548–549) — a short letter, both books read. Clear.
+- **R** (563–565) — Libro 24 f.363 → Libro 25 f.239. Clear.
+- **S** (612–614) — Libro 24 f.368 → Libro 25 f.248. Clear.
+- **T** (654) — the whole 1882 band on one opening. Clear.
+- **U** (678) — eight entries in total for 1882. Clear.
+- **V** (684–685) — Libro 24 f.371 → Libro 25 f.246. Clear.
+- **W** (705) — exactly one 1882 entry in the whole letter. Clear.
+- **X** — no section exists.
+- **Y** (707) — one entry, 1900. No 1882.
+- **Z** (708) — Libro 24 f.330 → Libro 25 f.246, one opening. Clear.
+
+### Near misses, now eleven, every one excluded
+*Chaparro · Pablo H.* (f.67) · *Funes · Armando* (f.163) · *Eduardo · Paul (N.)* (f.505) ·
+*Gorosito · Pablo* (1881 f.71) · *Pablo J.* in G (f.568) · *Pablo* in I (1884 f.141) ·
+*Pablo Eduardo* in O (f.555) · surname-only *Pablo · (N.)* in P (Libro 25 f.83) ·
+*Quevedo · Juan B. Pablo* (f.427) · **_Ronillon · Armando Juan_ (Libro 24 f.498)** ·
+*Villarreal · Pablo del R.* (f.559) · *Suárez? · Pedro Pablo* in S (Libro 25 f.237).
+
+*Ronillon · Armando Juan* is the closest the sweep came in 718 images. It is not him: wrong given name
+order, wrong surname, and nothing else about the family attaches to it.
+
+**Eleven near hits prove the method is sensitive.** If a *Pablo Armando* had been baptised at the
+cathedral in 1882 under any surname, this sweep would have caught it.
+
+### What this negative actually proves — and what it does not
+It **rules out one specific thing**: baptism at the **Iglesia Matriz / Catedral de Rosario in the calendar
+year 1882** under the given name *Pablo Armando*. Since the cathedral was the **only parish in Rosario
+until 1888**, and civil registration in Santa Fe did not begin until about 1886, this was the single most
+likely record of his birth. It is not there.
+
+It **does not** rule out:
+1. **A different given name at baptism.** He was "Robert Paul" in South Africa and "Pablo Armando" on the
+   passport. If he was baptised, say, *Juan Pablo* or *Pablo* alone, or under a name later dropped, the
+   sweep would not flag him — I searched for the pair. *(The near-miss list is the partial answer to this:
+   every 1882 entry containing "Pablo" or "Armando" is recorded above, and none fits.)*
+2. **A different year.** 22 Feb 1882 is the passport date; a baptism could sit in late 1881 or 1883 if the
+   birth date on the passport was wrong or approximate.
+3. **A different place.** Born elsewhere in Santa Fe province, or in Buenos Aires, Uruguay, or Spain, and
+   only later associated with Rosario.
+4. **Never baptised, or baptised privately** and never entered in this index.
+
+**Point 2 is now the cheapest next test** — the same index, the same method, one year either side. The
+letter positions are all mapped, so 1881 and 1883 would cost far less than 1882 did.
+
+### Method note
+Per image: set the image number, wait, then read the two page-halves. Coverage checkpointed to the grid
+after each letter. The sweep took three sittings and roughly 120 image reads across a 718-image film.
