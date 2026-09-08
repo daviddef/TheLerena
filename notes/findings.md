@@ -854,3 +854,42 @@ against the far stronger options below.
   marriage**, which names **all four of his grandparents**. With four years of baptisms clean, this is now
   the better target than any baptism — and there is a **marriage index, DGS 4531036 (1731-1761,
   1860-1921)**, to find it with.
+
+---
+
+# 8 September 2026 — the MARRIAGE index (DGS 4531036): structure decoded, L section located
+
+**Indice de Matrimonios, 1731-1761 and 1860-1921** — Nuestra Señora del Rosario. **180 images**, against
+the baptism index's 718.
+
+## How it is built — different from the baptism index
+- **HANDWRITTEN**, not typescript. Faint, and needs more magnification to read.
+- **Alphabetical by surname**, and within each surname group **sub-divided by YEAR** (headings seen: 1861,
+  1863, 1865, 1888, 1902). Some blocks also carry a **"Libro"** heading (e.g. *Libro X*, 1888).
+- Columns run: **[groom's surname + initial] · [bride's surname + initial] · [page number]**.
+  So one line gives **both families at once** — which is exactly why this index is worth more than the
+  baptism one.
+
+## Where L is
+| Image | Letter | Names read |
+|---|---|---|
+| 72 | **J** | Jurgens · Juary · Juriol · Junguets |
+| 78 | (in range) | spouse column: Gonzalez, Orlicho, Sigilio, Leonelo, Saile, Aldave, Ramos, Silva; years **1888**, **1902** |
+| 90 | **P** | Pacheco · Palma · Paz · Perez · Peralta · Pereira · Pedemonte · Pujol |
+
+→ ***The L section lies between images ~76 and ~84.*** J is at 72 and P at 90, so L, Ll and M fall in
+between; image 78 already shows the right kind of content.
+
+## Viewer mechanics — solved, and worth writing down
+- The **`+` zoom button is at the FAR RIGHT of the toolbar (~x 1443 at 1462px wide)**. The icon at ~1297 is
+  the **grid** toggle — clicking that is what kept throwing earlier sessions back into thumbnail view.
+- **Sequence that works:** type the image number → Return → wait ~10s → click **+ three times** → then
+  `computer` **`zoom` with a region**. At three clicks of +, the left page sits about x 400-780 and the
+  right page about x 750-1130.
+- This index needs **more** magnification than the baptism index, and at that magnification the page is
+  wider than the viewport, so the groom's surname column can sit off-screen to the left. **Drag right to
+  bring it in before cropping.** That is where this session ran out of road.
+
+## Status
+**Not found yet — the L pages were located but not read.** This is a mechanical stopping point, not an
+evidential one: the images are open, unrestricted and legible at the right zoom.

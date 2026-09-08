@@ -42,11 +42,17 @@ what he has already sourced.**
         ~395-402.**
       - Read off the **Libro + FOLIO**, then open that register volume. **The entry names his parents.**
       - *Blocked for me only by the deep-zoom viewer misbehaving in this browser pane - not by access.*
-- [ ] ***NOW THE BEST TARGET: PABLO ARMANDO'S PARENTS' MARRIAGE.*** Four years of baptisms are clean, so
-      stop chasing his baptism and find the marriage instead - it names **all four grandparents**.
-      1. **Indice de Matrimonios, DGS 4531036** (1731-1761, 1860-1921) - look up LERENA.
-      2. Then the register: **DGS 4531040 (Matrimonios 1868-1884)** or **4531039 (1853-1867)**.
-      Same method as the baptism index: Chrome, type the image number, region-zoom.
+- [ ] ***THE BEST TARGET: PABLO ARMANDO'S PARENTS' MARRIAGE - L SECTION NOW LOCATED.***
+      **Indice de Matrimonios, DGS 4531036**, 180 images. **Handwritten**, alphabetical by surname with
+      **year sub-headings**; each line gives **groom's surname, bride's surname and page** - both families
+      in one line.
+      **J is at image 72; P is at image 90. So L is at roughly images 76-84.** Read those for LERENA.
+      Then the register: **DGS 4531040 (Matrimonios 1868-1884)** or **4531039 (1853-1867)**.
+      **VIEWER METHOD (learned the hard way):** the `+` button is at the FAR RIGHT of the toolbar
+      (~x 1443 of 1462); the icon near x 1297 is the GRID toggle - clicking it throws you back to
+      thumbnails. Sequence: type image number, Return, wait 10s, click **+ three times**, then region-zoom.
+      This index needs more magnification than the baptism one, and at that zoom the groom's surname column
+      can sit off-screen left - **drag right first**.
 - [ ] **DGS 4530324, Indice de Bautismos L-Z 1731-1879** - Pablo Armando's **older siblings**, and possibly
       his parents' own baptisms. Take the family back another generation.
 - [ ] ***THE URUGUAYAN CONSULATE, not the Argentine one.*** David records an occupation
