@@ -1569,3 +1569,47 @@ each with the record that produced them and one of three marks: **Connected**, *
 Nothing is claimed as kin. Given that Forebears counts only ~2,124 Lerenas worldwide, most bearers probably
 *are* related at some depth — but "probably" is not evidence, and the page says so. When Pablo Armando's
 parents are finally named, this is the list that should snap into place.
+
+## Sweep of 1881 and 1883 — begun
+
+The 1882 year is closed. The passport's 22 February 1882 is the only authority for that year, and a birth
+date written on a document issued fifty-eight years after the fact is not sacred — so the same sweep is now
+running across the two neighbouring years. **A, B and C are complete for both 1881 and 1883. No Pablo
+Armando in any of the six bands.** Coverage in `data/rosario-index-1881-1883.tsv`.
+
+### A warning about image numbers, recorded so it does not bite anyone later
+Part-way through, the viewer switched from presenting the film as **718 images** ("Film # 004530325") to
+**655 images** (the waypoint "Índice de bautismos 1879-1900"). **The offset between the two numbering
+systems is not constant** — a page that is image 55 in the 718 view is image 52 in the 655 view, but near
+the end of the alphabet the two diverge by about 56. So image numbers in this project are **locators only,
+never evidence**. Every page is verified on arrival by its letter, year, Libro and folio range, and those
+are what the coverage files actually record. The 1882 grid is in 718-view numbers; the 1881/1883 grid is in
+655-view numbers, and each file says so.
+
+### Near misses so far in the new years
+*Alberdi · Adelino Pablo* (1881, Libro 23 f.649) · *Basualdo · Felix Pablo* (1881, Libro 24 f.355) ·
+*Carara · Pablo* (1881, Libro 24 f.146) · *Ahumada · Pedro Pablo* (1883, f.543). None is him.
+
+## *** A new lead from the family: he fled Argentina in political trouble ***
+
+David reports a story his mother repeated to him on 8 September 2026 — carried in the family, never proven
+— that **Pablo Armando "ran away from Argentina as he was a communist on the run."**
+
+Written up in full at `notes/communist-story.md` and published as hypothesis 6. The short of it:
+
+- It is the **only family story that explains a departure**. Every other thing the family remembers says
+  what he *was*; this alone says why he *left* — and a reason to leave is exactly what the record has
+  refused to give us.
+- **"Communist" is almost certainly a later relabel.** The Argentine Communist Party dates from 1918; he
+  left around **1903–05**, when the Argentine radical movement was **anarchist and anarcho-syndicalist**.
+- The mechanism that would make it true is **Ley 4144, the *Ley de Residencia*** (Nov 1902) — deportation
+  of foreign-born agitators without trial, used heavily in exactly those years. **Rosario**, a great river
+  port and rail head, was among the most militant anarchist cities in Argentina.
+- ***The Ley de Residencia applied to foreigners.*** An Argentine national could be prosecuted but not
+  deported under it. **So if he was expelled, he was not Argentine-born** — and the failure to find him in
+  the Rosario baptism index stops being a puzzle and becomes a consequence. That would sit with the
+  Uruguayan density of the surname, the Uruguayan-born Lerenas in the 1895 census, the Uruguayan Carlos
+  Lerena in the CEMLA arrivals, and the family note that the consulship may have been Uruguayan.
+- Untried archives it points at: **Ministerio del Interior expulsion files** at the Archivo General de la
+  Nación; **Santa Fe / Rosario police records 1902–05**; the anarchist press, chiefly ***La Protesta***,
+  much of it at the **International Institute of Social History**, Amsterdam.
