@@ -120,3 +120,65 @@ that a document has not drawn.
 ## Still unproven
 Nothing here is yet tied to **Cheryl Anne Lerena**. Six names and two estate files are now orderable; the
 link to David's own line is not made.
+
+---
+
+# 8 September 2026 (later) — THE PASSPORT. Generation 1 is named.
+
+## PABLO ARMANDO LERENA
+**Argentine passport, Série A No. 07962, no. 2/1940**, issued by the *Oficina Consular Argentina en Cape
+Town, Unión de Sud Africa*, **24 December 1940**. In the family's own papers. Scans:
+`sources/pablo-armando-lerena/`. Full transcription: `data/pablo-armando-passport.tsv`.
+
+- **Born Rosario de Santa Fe, República Argentina, 22 February 1882** *** ROSARIO CONFIRMED ***
+- Nationality **Argentina — nativo** (native-born, NOT naturalised)
+- Domiciled **Rugby, Cape Town**
+- **Profesión: TRAINER** *** THE HORSE CLAIM, DOCUMENTED ***
+- Military: **Guardia Nacional, 6º de Caballería** (6th Cavalry), 1915 — a horseman in Argentina first
+- **Viudo** (widower) by Dec 1940
+- Travelling to **Portuguese East Africa** (Mozambique)
+- 1m80, blue eyes, grey hair, straight nose, **scar on the forehead**
+- Signed **A. B. Bayne, Encargado, Consulado General Argentino**; photo, thumbprint, 16.50-peso stamp
+
+### Three claims tested
+1. **Rosario / Argentina — CONFIRMED.** Family tradition was exactly right.
+2. **Horses — CONFIRMED.** "Trainer" in his own passport, plus 6th Cavalry in Argentina.
+3. **Consul General — DISPUTED.** He is the *bearer*, not the issuer. The consular signature is
+   **A.B. Bayne**. Does not disprove an honorary post at another date (the hypothesis this archive recorded
+   *before* the document surfaced), but the claim is demoted until something supports it.
+
+### Rugby ties the passport to NAAIRS
+Passport domicile **Rugby, Cape Town** = the suburb in NAAIRS KAB 3/CT B796 (1931), *"plans of proposed
+**STABLES**, Koeberg Road, **Rugby**. RP Lerena."* Two independent archives, found on different days.
+
+### OPEN: is Pablo Armando the same man as "Robert Paul Lerena"?
+- NAAIRS: **LERENA, ROBERT PAUL**, estate 1950, KAB MOOC 6/9/17017; "RP Lerena" at Rugby 1931-1950 and
+  Camps Bay 1947-48. Pablo Armando b.1882 would be **68 in 1950**.
+- FOR one man: **Pablo = Paul**; same suburb; David's own filing puts the passport in a folder named
+  "Roberto Paul Lerena Documents".
+- AGAINST: **Robert ≠ Armando**.
+- **DECIDED BY MOOC 6/9/17017** — a Cape death notice names parents and birthplace. If it says Rosario,
+  one man.
+
+## Generation 2 CONFIRMED, and the MyHeritage link closed
+**Nuno Fernando Lerena, b. 6 Oct 1924, d. 1 Jul 1971**, m. **Catherine Mary Sophia BOOYZEN,
+b. 25 Mar 1929, d. 25 Dec 2013**.
+
+This is an **exact match** to NAAIRS TAB MHG 6746/71: *"LERENA, NUNO FERNANDO … SURVIVING SPOUSE CATHERINE
+MARY SOPHIA LERENA."* The estate file and the tree independently confirm each other, and **Booyzen** is the
+Afrikaans surname predicted from the MyHeritage tree title before either was read.
+
+Children (gen 3): Jeanette Marie 1949-2021 · Paul Raymond 1951-2000 · Catherine Tersia 1952-1999 ·
+**Cheryl Anne 1955 (living, omitted)** · Patricia Carmen 1958-2023.
+
+**Note "Paul Raymond"** — Paul recurs from gen 1. And **"Carmen"** survives as a given name into 1958.
+
+**NOT YET PROVEN: that Nuno Fernando is Pablo Armando's son.** It is the obvious reading (Pablo was 42 in
+1924, and the Iberian naming persists) but no document yet links them. Nuno's birth or death record, or
+Pablo's estate, closes it.
+
+## Other family documents seen but not yet read
+`Lerena 2.pdf` · estate covers `NUNO+FERNANDO_LERENA_(1971)_0.jpg`, `ROGUE+LUIS+ARMANDO_LERENA_(1973)_0.jpg` ·
+`Photos/Rosaline Wilhelmina Forbes Lerena.jpg` (**FORBES** = maiden name of the "Rosina Wilhelmina" in
+NAAIRS MHG 1518/73) · `Photos/Mary Septima Burial.jpg` · nine FamilySearch `record-image_*.jpg` in
+"Roberto Paul Lerena Documents".

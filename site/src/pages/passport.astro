@@ -1,0 +1,140 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+const rows = [
+  ["Document", "Pasaporte Argentino, Série A No. 07962; passport no. 2/1940"],
+  ["Issued by", "Oficina Consular Argentina en Cape Town, Unión de Sud Africa"],
+  ["Date", "24 DIC 1940"],
+  ["Bearer", "Lerena, Pablo Armando"],
+  ["Nationality", "Argentina — nativo (native-born, not naturalised)"],
+  ["Born", "Rosario de Santa Fe, República Argentina — día 22, mes Febrero, año 1882"],
+  ["Domiciled", "Rugby, Cape Town"],
+  ["Travelling to", "Portuguese East Africa"],
+  ["Profession", "Trainer"],
+  ["Marital status", "Viudo — widower"],
+  ["Description", "Skin blanco · eyes azules · hair gris · nose recta · height 1 m. 80"],
+  ["Distinguishing marks", "Cicatriz en la frente — a scar on the forehead"],
+  ["Military service", "Hizo su servicio militar en la Guardia Nacional, 6º de Caballería (1915)"],
+  ["Signed", "A. B. Bayne, Encargado, Consulado General Argentino"],
+  ["Also", "Photograph under an embossed consular seal; right thumbprint; 16.50-peso consular stamp"],
+];
+---
+<Base title="The passport">
+  <h1>The passport</h1>
+  <p class="lede">
+    An Argentine passport issued at Cape Town on Christmas Eve 1940 names the man this archive was looking
+    for, gives his birthplace as <strong>Rosario</strong>, and states his profession in one word:
+    <strong>Trainer</strong>.
+  </p>
+
+  <div class="card" style="margin:1.4rem 0">
+    <p style="margin:0">
+      <span class="chip doc">Documented</span> <strong>Pasaporte Argentino, Série A No. 07962</strong>,
+      held in the family's own papers. Photographed and read 8 September 2026; both scans are preserved in
+      this project at <span class="mono">sources/pablo-armando-lerena/</span>.
+    </p>
+  </div>
+
+  <h2>What it says</h2>
+  <div class="scroll">
+    <table>
+      <tbody>
+        {rows.map(([k, v]) => (
+          <tr><th style="width:11rem">{k}</th><td>{v}</td></tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <h2>What it settles</h2>
+
+  <h3>Rosario — exactly as the family said</h3>
+  <blockquote>Nacido en <strong>Rosario de Santa Fe, República Argentina</strong> · Día 22, Mes Febrero, Año <strong>1882</strong></blockquote>
+  <p>
+    <span class="chip doc">Documented</span> The family remembered an Argentine great-grandfather and named
+    <strong>Rosario</strong> for him. A passport in his own hands gives Rosario de Santa Fe and the date
+    <strong>22 February 1882</strong>. The tradition was accurate, and this archive's
+    <a href={u("/argentina")}>Argentina page</a> is no longer a page of method waiting for a subject.
+  </p>
+  <p>
+    He is recorded as <strong><em>nativo</em></strong> — Argentine by birth, not naturalised. Whatever
+    brought the family to the River Plate, it happened in an earlier generation than his.
+  </p>
+
+  <h3>The horses — no longer family lore</h3>
+  <blockquote>Profesión: <strong>Trainer</strong></blockquote>
+  <p>
+    <span class="chip doc">Documented</span> The word is written in English on a Spanish form, which is what
+    a Cape Town clerk would do with a profession that had no neat Spanish equivalent on the page. The family
+    said he brought horses; his own passport calls him a <strong>trainer</strong>.
+  </p>
+  <p>
+    And the horses reach back to Argentina. Under military service the passport records that he served in
+    the <strong>Guardia Nacional, 6º de Caballería</strong> — the <strong>6th Cavalry</strong> — in
+    <strong>1915</strong>. He was a horseman in Argentina before he was a trainer at the Cape.
+    <a href={u("/horses")}>The horses &rarr;</a>
+  </p>
+
+  <h3>Rugby — the same street as the stables</h3>
+  <p>
+    <span class="chip doc">Documented</span> He gives his address as <strong>Rugby, Cape Town</strong>. The
+    South African National Archives hold a 1931 Cape Town municipal file:
+    <em>plans of proposed <strong>stables</strong>, Koeberg Road, <strong>Rugby</strong> — RP Lerena</em>.
+  </p>
+  <p>
+    Two independent sources, found on different days from different archives, put a Lerena and a set of
+    stables in the same small suburb. <a href={u("/naairs")}>What the archives returned &rarr;</a>
+  </p>
+
+  <h2>What it does not settle</h2>
+
+  <h3>He was not the Consul General — at least not on this day</h3>
+  <p>
+    <span class="chip dis">Disputed</span> The family holds that he was <strong>Consul General</strong>
+    between Argentina and South Africa. This document does not support that, and it is the kind of document
+    that would.
+  </p>
+  <p>
+    He appears here as the <strong>bearer</strong> of a passport, not its issuer. The signature in the
+    consul's box is <strong>A. B. Bayne</strong>, <em>Encargado</em> — the officer in charge of the
+    Consulado General Argentino at Cape Town in December 1940. Pablo Armando Lerena is the private citizen
+    on the other side of the counter.
+  </p>
+  <p>
+    That does not disprove the tradition outright. He may have held an honorary post at another date, and an
+    Argentine national of standing resident in Cape Town is exactly the profile from which honorary consuls
+    were drawn — a hypothesis this archive
+    <a href={u("/argentina")}>recorded before the document was found</a>. But the claim now has a document
+    pointing the other way, and it is demoted accordingly until something else says otherwise.
+  </p>
+
+  <h3>Is he the same man as "Robert Paul Lerena"?</h3>
+  <p>
+    <span class="chip">Open</span> NAAIRS records the estate of <strong>LERENA, ROBERT PAUL</strong>, who
+    died in <strong>1950</strong>, and building files for <strong>RP Lerena</strong> at Rugby and Camps Bay
+    between 1931 and 1950. Pablo Armando Lerena lived at Rugby and would have been 68 in 1950.
+  </p>
+  <p>The two readings are:</p>
+  <ul>
+    <li><strong>One man.</strong> <em>Pablo</em> is simply <em>Paul</em>, and he used an English form of his
+      name in South Africa — which is ordinary, and which the family's own filing assumes. Against it:
+      <em>Robert</em> is not <em>Armando</em>.</li>
+    <li><strong>Two men</strong> — father and son, or brothers, both in the same suburb.</li>
+  </ul>
+  <p>
+    The <a href={u("/naairs")}>Cape estate file <strong>MOOC 6/9/17017</strong></a> decides it. A Cape death
+    notice names the deceased's parents and birthplace; if it says Rosario, they are one man.
+  </p>
+
+  <h2>The smaller things</h2>
+  <p>
+    He was a <strong>widower</strong> by December 1940, so his wife died before that date. He was travelling
+    to <strong>Portuguese East Africa</strong> — Mozambique — in the second winter of the war, presumably on
+    racing business. He stood 1.80 m, had blue eyes and grey hair, and carried a
+    <strong>scar on his forehead</strong> that nobody now living put there.
+  </p>
+  <p class="small">
+    The passport also carries his right thumbprint and his signature. It is the most personal document in
+    this archive.
+  </p>
+</Base>

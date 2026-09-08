@@ -2,12 +2,33 @@
 
 Started 8 September 2026. Day one. Ordered by value.
 
-## 0. BLOCKING: name generation 1
+## 0. SOLVED 8 Sep 2026 — generation 1 is named
+**PABLO ARMANDO LERENA, b. Rosario de Santa Fe, 22 Feb 1882.** Argentine passport in the family papers.
+Profession **Trainer**; Argentine **6th Cavalry** 1915; domiciled **Rugby, Cape Town**; widower by 1940.
+See `notes/findings.md` and `sources/pablo-armando-lerena/`.
+
+### The new top targets
+- [ ] **ORDER KAB MOOC 6/9/17017 (ref 1847/50) — estate of ROBERT PAUL LERENA, d. 1950.**
+      Decides whether **Pablo Armando and Robert Paul are one man**, and a Cape death notice names the
+      deceased's **parents and birthplace** — the route back into Argentina. *Highest value in the project.*
+- [ ] **Prove Nuno Fernando (b.1924) is Pablo Armando's son.** Currently the obvious reading, no document.
+      Nuno's birth or death record, or Pablo's estate.
+- [ ] **Pablo Armando's death** — date and place unknown. If he is not Robert Paul, he has his own estate file.
+- [ ] **Who was Pablo Armando's wife?** He was a **widower by Dec 1940**; she died before that.
+      If Nuno's mother, her name is on Nuno's birth record.
+- [ ] **Rosario, 22 Feb 1882** — now an exact target. Santa Fe civil registration had only just begun;
+      try the **Rosario parish baptism registers** for Feb/Mar 1882. This names his parents.
+- [ ] **Argentine 6th Cavalry / Guardia Nacional service record, 1915.** Would give his parents and address.
+- [ ] **Why Portuguese East Africa in Dec 1940?** Racing at Lourenço Marques? Also worth asking whether the
+      Portuguese connection explains the given name **Nuno** (b. 1924 — before this trip, so not caused by it).
+
+## 1. (former blocker, now closed) name generation 1
 Nothing else moves far without it — consular lists, stud books and Argentine registers are all
 unsearchable without a name.
-- [ ] **Read David's MyHeritage tree**, Lerena branch — stored facts, citations, media.
-      *Blocked 8 Sep 2026: Chrome extension not connected. Needs a logged-in session; not public.*
-- [ ] **Cheryl Anne Lerena's birth record** — names her father.
+- [x] **Read David's MyHeritage tree** — done 8 Sep 2026 once the Chrome extension connected.
+      Gen 2 and 3 recovered; Booyzen confirmed. Tree holds **17 Lerenas**; only the immediate family was
+      loaded in the viewport. **Still to do: read the other Lerenas in the tree, and their sources/media.**
+- [x] **Cheryl's father named** — Nuno Fernando Lerena (1924-1971).
 - [x] **NAAIRS sweep — DONE 8 Sep 2026.** 13 documents, 12 genuine. Six names recovered. See
       `notes/findings.md`, `data/naairs-lerena.tsv`, `sources/naairs/`. Tool: `tools/naairs.py`.
 - [ ] **ORDER KAB MOOC 6/9/17017, ref 1847/50 — estate of ROBERT PAUL LERENA, d. 1950.**
@@ -19,17 +40,24 @@ unsearchable without a name.
       predeceased spouse Rosina Wilhelmina). Both should name children.
 - [ ] **Order KAB 3/CT 4/2/1/3/474, B796 (1931)** — the **STABLES** file, Koeberg Rd, Rugby. Should say
       what was proposed, and whether they were racing stables.
-- [ ] **Connect these people to Cheryl Anne Lerena.** Six names now exist; the link to David's own line
-      does not. Ricardo Paul and Anton Armando are of roughly the right generation to be her father or
-      uncles - **untested**.
+- [x] **Connected.** Nuno Fernando Lerena (NAAIRS MHG 6746/71) **is Cheryl's father** — the estate file's
+      "surviving spouse Catherine Mary Sophia" matches the tree exactly.
+- [ ] Place **Ricardo Paul**, **Anton Armando** and **Roque Luis Armando** (d.1973) in the family. Probably
+      Nuno's brothers or cousins. Roque's estate MHG 1518/73 names two wives — and the family photo
+      "Rosaline Wilhelmina **Forbes** Lerena" supplies her maiden name.
+- [ ] **Read the remaining family documents** in `Documents/Genealogy & Family History/Lerena`:
+      `Lerena 2.pdf`, the two estate covers, `Mary Septima Burial.jpg`, and nine FamilySearch
+      `record-image_*.jpg` filed under "Roberto Paul Lerena Documents".
 
 ## 1. The consul
 - [ ] **Government Gazette** (Union of SA from 1910; Cape Colony before) for the **exequatur** — the host
       state's formal recognition of a foreign consul. Crispest single document, and dated.
 - [ ] Argentine **Boletín Oficial** — the appointment.
 - [ ] Argentine **MRE Memorias** / diplomatic lists.
-- [ ] **Test the honorary-consul hypothesis** — would explain gazette presence + absence from career lists,
-      and reconcile diplomat with horse-breeder/ostrich-farmer.
+- [ ] **Test the honorary-consul hypothesis.** NOW MORE IMPORTANT: the 1940 passport shows Pablo Armando as
+      the *bearer*, signed by **A. B. Bayne, Encargado**. So he was NOT Consul General in Dec 1940. Either
+      an honorary post at another date, a lesser consular role, or the tradition has inflated. Check the
+      Cape Town consulate's staff across 1900-1950, and look for **A. B. Bayne** to date the incumbency.
 - [ ] Establish WHICH post (Cape Town / Johannesburg / Pretoria / Durban) and which years.
 
 ## 2. The horses
