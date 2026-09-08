@@ -15,12 +15,19 @@ what he has already sourced.**
       1880-84 were read line by line in DGS 4530325. ***NO LERENA. NO LLERENA.***
       **Pablo Armando was NOT baptised at the cathedral parish of Rosario in 1882 or 1883.**
       Coverage table: `data/rosario-index-searched.tsv`.
-- [ ] ***NEXT, AND CHEAPEST: read the SAME index for 1884-1895.*** This family delays baptisms — Roque was
+- [x] **1884 and 1885 ALSO READ (images 373-376) — still NO LERENA.** The clean negative now covers
+      **1882, 1883, 1884, 1885** end to end.
+- [ ] **"Ler / Maria / 1884 / folio 13"** (Libro 27, image 374) — a bare "Ler" surname. Could be a clipped
+      LERENA, and could be a SISTER. **Cheap to check: open Libro 27 folio 13.**
+- [ ] (still open) read the SAME index for 1886-1895. This family delays baptisms — Roque was
       born 1905 and baptised **1911, six years late**. If the father was treated likewise his entry is in
       those years. Images **~373-396** of DGS 4530325. **Method: Chrome; triple-click the Image box and type
       the number; then use the `zoom` action with a region — never the +/- buttons.**
-- [ ] **The other Rosario parishes.** By 1882 the cathedral was not the only one. Search the FamilySearch
-      catalogue for Rosario, Santa Fe parishes and check their baptism indexes.
+- [ ] ***THE OTHER ROSARIO PARISHES — now the leading theory.*** Four years of the cathedral index are
+      clean, so he was probably baptised elsewhere. The catalogue entry koha:208788 is specifically
+      **Nuestra Senora del Rosario**; the locality subject "Argentina, Santa Fe, Rosario, Rosario - Church
+      records" should list other parishes. *(My catalogue place-searches returned 0 or errored; try the
+      subject link by hand, or the FamilySearch Wiki page for Rosario.)*
 - [ ] (superseded) The original narrowing note:
       Parish = **Nuestra Senora del Rosario** (the cathedral), catalog koha:208788, 71 rolls, images NOT
       restricted. **David does not need to read the 543-image register**: there are alphabetical indexes.

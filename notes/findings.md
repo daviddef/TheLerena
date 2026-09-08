@@ -783,9 +783,18 @@ letter, **chronological within the letter**.
 | 372 right | 26 | 1883 | 75-209 |
 | 404 right | 23-27 | 1880-84 | the entire **Ll-** section |
 
-## *** RESULT: NO LERENA. NO LLERENA. ***
-Not in 1882, not in 1883, and not in the separate **Ll-** section (whose whole 1880-84 content is seven
-entries: Llanos, Llorca ×3, Llanes, Llaurer, Llumar).
+## *** RESULT: NO LERENA. NO LLERENA. 1882-1885 read end to end. ***
+Not in 1882, 1883, 1884 or 1885, and not in the separate **Ll-** section (whose whole 1880-84 content is
+seven entries: Llanos, Llorca ×3, Llanes, Llaurer, Llumar).
+
+**Extended 8 Sep 2026** through images 373-376: Libro 25 f.210-299 (1883); Libro 26/27 f.305-453 and
+f.2-5 (1884); Libro 27 f.12-100, 112-259, 268-359 (1884); f.363-541, 542-656 (1885); Libro 28 f.2-17,
+26-127 (1885). Every line read. Coverage table: `data/rosario-index-searched.tsv`.
+
+### One oddity worth a look
+Image 374, left column: ***"Ler · María · 1884 · folio 13"*** (Libro 27). A surname given as bare
+**"Ler"** — which could be a clipped or abandoned **Lerena**. A girl, so not Pablo Armando, but
+**possibly a sister**. Cheap to check: Libro 27, folio 13, 1884.
 
 **Pablo Armando Lerena was not baptised at the cathedral parish of Rosario in 1882 or 1883.**
 
