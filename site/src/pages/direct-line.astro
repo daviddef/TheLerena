@@ -2,14 +2,12 @@
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 ---
-<Base title="The line">
-  <h1>The line</h1>
-  <p class="lede">
-    Three generations are known to exist. One of them has a name. This page will grow, and its present
-    emptiness is the most accurate thing on the site.
-  </p>
+<Base title="The line"
+      eyebrow="The spine, generation by generation"
+      dek="Three generations are known to exist. One of them has a name. This page will grow, and its present emptiness is the most accurate thing on the site.">
+<section class="blk">
 
-  <div class="card" style="margin:1.4rem 0">
+<div class="panel" style="margin:1.4rem 0">
     <p style="margin:0">
       Two constraints shape this page. <strong>Living people are omitted from the build</strong>, which
       removes the most recent generations; and the generations above them are <strong>not yet
@@ -17,8 +15,9 @@ import { u } from "../lib/url.js";
       <a href={u("/method")}>Method &rarr;</a>
     </p>
   </div>
-
-  <h2>The line</h2>
+</section>
+<section class="blk">
+<h2>The line</h2>
   <div class="scroll">
     <table>
       <thead><tr><th>Gen</th><th>Person</th><th>Dates</th><th>Where</th><th>Status</th></tr></thead>
@@ -26,11 +25,11 @@ import { u } from "../lib/url.js";
         <tr>
           <td class="mono">1</td>
           <td><strong>Pablo Armando Lerena</strong><br />
-            <span class="small">in South Africa <strong>Robert Paul Lerena</strong><br />
+            <span class="cap">in South Africa <strong>Robert Paul Lerena</strong><br />
             m. <strong>Mary Septima Taylor</strong>, d. Nov 1935 aged 51</span></td>
           <td class="mono">22 Feb 1882 &ndash; 19 Mar 1950</td>
           <td>Born <strong>Rosario de Santa Fe</strong>, Argentina; died at Newlands, Cape Town</td>
-          <td><span class="chip doc">Documented</span><br /><span class="small">Argentine passport, 1940:
+          <td><span class="chip doc">Documented</span><br /><span class="cap">Argentine passport, 1940:
             born Rosario, <strong>Trainer</strong>. Death certificate A 214036:
             <strong>Race Horse Owner</strong>. Named as father in the 1911 Corpus Christi baptism of his
             son Roque.</span></td>
@@ -38,11 +37,11 @@ import { u } from "../lib/url.js";
         <tr>
           <td class="mono">2</td>
           <td><strong>Nuno Fernando Lerena</strong><br />
-            <span class="small">m. Catherine Mary Sophia <strong>Booyzen</strong>, 1929&ndash;2013,
+            <span class="cap">m. Catherine Mary Sophia <strong>Booyzen</strong>, 1929&ndash;2013,
             at Johannesburg</span></td>
           <td class="mono">6 Oct 1924 &ndash; 1 Jul 1971</td>
           <td>Born <strong>Cape Town</strong>; died at Germiston, Transvaal</td>
-          <td><span class="chip doc">Documented</span><br /><span class="small">Named with this exact birth
+          <td><span class="chip doc">Documented</span><br /><span class="cap">Named with this exact birth
             date as a residuary heir in his father's 1950 estate; own death notice 6746/71. A
             salesman.</span></td>
         </tr>
@@ -51,7 +50,7 @@ import { u } from "../lib/url.js";
           <td><strong>Cheryl Anne Lerena</strong></td>
           <td class="mono">b. 14 Oct 1955</td>
           <td>Born Johannesburg; later Brisbane</td>
-          <td><span class="chip">Omitted</span><br /><span class="small">Named among her father's children
+          <td><span class="chip">Omitted</span><br /><span class="cap">Named among her father's children
             in his 1971 death notice. Details withheld under the rule on living people.</span></td>
         </tr>
       </tbody>
@@ -63,8 +62,9 @@ import { u } from "../lib/url.js";
     Cheryl is named in that death notice as his daughter. There is no inferred link left in the descent.
     <a href={u("/estate")}>The estate &rarr;</a>
   </p>
-
-  <h2>Her line goes back further than his</h2>
+</section>
+<section class="blk">
+<h2>Her line goes back further than his</h2>
   <p>
     <span class="chip doc">Documented</span> Pablo Armando's wife was <strong>Mary Septima Taylor</strong>
     (17 September 1884 &ndash; 15 November 1935), and her family can be traced <strong>three generations
@@ -75,8 +75,9 @@ import { u } from "../lib/url.js";
     Her name is a count: she was the <strong>seventh daughter</strong> of ten children, and
     <em>Septima</em> means seventh. <a href={u("/taylor")}>The Taylors &rarr;</a>
   </p>
-
-  <h2>Generation 1's other children</h2>
+</section>
+<section class="blk">
+<h2>Generation 1's other children</h2>
   <p>Pablo Armando Lerena and Mary Septima Taylor had at least three sons, all born at the Cape.</p>
   <div class="scroll">
     <table>
@@ -86,7 +87,7 @@ import { u } from "../lib/url.js";
           <td>Baptised at Corpus Christi, Wynberg, 12 June 1911. Retired railwayman; d. Johannesburg
             29 Jan 1973. The "Louis" of the 1950 will. <strong>His baptism and his death notice between
             them identify generation 1</strong> — and prove that Pablo Armando and Robert Paul are one man.
-            <span class="small">His death notice gives 6 Dec 1905; the register, 25 Nov.</span></td></tr>
+            <span class="cap">His death notice gives 6 Dec 1905; the register, 25 Nov.</span></td></tr>
         <tr><td><strong>Ricardo Juan Carlos Lerena</strong></td><td class="mono">6 Jan 1920</td>
           <td>Residuary heir with Nuno. His descendants are the largest branch on the family chart.</td></tr>
         <tr><td><strong>Nuno Fernando Lerena</strong></td><td class="mono">6 Oct 1924, Cape Town</td>
@@ -94,14 +95,15 @@ import { u } from "../lib/url.js";
       </tbody>
     </table>
   </div>
-  <p class="small">
+  <p class="cap">
     Cheryl's own brothers and sisters — Jeannette Marie, Paul Raymond, Catherine Tertia and Patricia
     Carmen — are named in their father's 1971 death notice and are all now deceased. Note
     <strong>Paul</strong> descending from generation 1, and <strong>Carmen</strong> surviving as a given
     name into 1958.
   </p>
-
-  <h2>Gavin Lerena</h2>
+</section>
+<section class="blk">
+<h2>Gavin Lerena</h2>
   <p>
     <span class="chip">Family chart</span> This archive earlier recorded the South African jockey
     <strong>Gavin Lerena</strong> as a public figure and expressly claimed no relationship. The family's own
@@ -109,14 +111,15 @@ import { u } from "../lib/url.js";
     <strong>Ricardo</strong>, son of <strong>Pablo Armando</strong> — which would make him Cheryl's first
     cousin once removed, and David's second cousin.
   </p>
-  <p class="small">
+  <p class="cap">
     Recorded as the family holds it, and not yet verified against a public record. It is, however, exactly
     what this archive predicted before any of it was known: that the
     <a href={u("/south-africa")}>sixty-one South African Lerenas are one kindred</a>, and that a rare
     surname plus a shared trade is a strong signal.
   </p>
-
-  <h2>Where it joins the other archives</h2>
+</section>
+<section class="blk">
+<h2>Where it joins the other archives</h2>
   <p>
     <strong>Cheryl Anne Lerena married Ivan Defranceski.</strong> That marriage is the hinge between this
     archive and the <em>Defranceski</em> archive, whose line runs back through Johannesburg to Gračišće and
@@ -127,8 +130,9 @@ import { u } from "../lib/url.js";
     Plate by way of South Africa, <strong>Defranceski</strong> from Istria, <strong>Falco</strong> from
     Campania.
   </p>
-
-  <h2>What is still missing</h2>
+</section>
+<section class="blk">
+<h2>What is still missing</h2>
   <p>
     The line is solid downward from Pablo Armando Lerena, and his own birth is now fixed to a city and a
     day — <strong>Rosario de Santa Fe, 22 February 1882</strong>. <strong>Above him there is
@@ -140,4 +144,5 @@ import { u } from "../lib/url.js";
     1882 — now an exact target rather than a region.
   </p>
   <p><a href={u("/open-questions")}>Open questions &rarr;</a></p>
+</section>
 </Base>

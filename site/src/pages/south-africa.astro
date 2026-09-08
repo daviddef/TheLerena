@@ -2,14 +2,11 @@
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 ---
-<Base title="South Africa">
-  <h1>South Africa</h1>
-  <p class="lede">
-    Sixty-one Lerenas in a country far from Iberia and the Americas, out of two thousand in the world.
-    That is not scatter. That is a family.
-  </p>
-
-  <h2>The founder cluster</h2>
+<Base title="South Africa"
+      eyebrow="The Cape, the Rand, and a founder cluster"
+      dek="Sixty-one Lerenas in a country far from Iberia and the Americas, out of two thousand in the world. That is not scatter. That is a family.">
+<section class="blk">
+<h2>The founder cluster</h2>
   <p>
     <span class="chip doc">Documented</span> Forebears records <strong>61 bearers of Lerena in South
     Africa</strong>, an incidence of 1 in 888,159. Against a worldwide total of only
@@ -22,12 +19,12 @@ import { u } from "../lib/url.js";
     family testimony describes. The distribution and the story corroborate each other, and neither was
     derived from the other.
   </p>
-  <p class="small">
+  <p class="cap">
     Stated carefully: this makes the South African Lerenas <em>likely</em> to include one large kindred. It
     does not prove that they are <em>all</em> one — see the correction below.
   </p>
 
-  <div class="card" style="margin:1.4rem 0">
+  <div class="panel" style="margin:1.4rem 0">
     <p style="margin-top:0"><span class="chip">Corrected, 8 September 2026</span></p>
     <p style="margin-bottom:0">
       This page originally read the 61 as, in effect, a single family. That was too strong. A deeds register
@@ -49,8 +46,9 @@ import { u } from "../lib/url.js";
     from him is public record. But the raw figure of 61 cannot be treated as one kindred, and the arithmetic
     that once did so is withdrawn.
   </p>
-
-  <h2>The family's own footing here</h2>
+</section>
+<section class="blk">
+<h2>The family's own footing here</h2>
   <p>
     <span class="chip doc">Documented — from the Defranceski archive</span> David Defranceski's MyHeritage
     tree is titled <em>My Family Tree (Defranceski, Lerena, Taylor, Barry, Blazevic, Booyzen)</em>. The
@@ -64,7 +62,7 @@ import { u } from "../lib/url.js";
       Cape and the Rand. <em>Barry</em> is worth a second look: the Barrys were a substantial
       nineteenth-century merchant house in the <strong>Swellendam and Overberg</strong> districts of the
       Cape, in the same world as the Karoo ostrich trade.
-      <span class="chip dis">Suggestive only — a common surname, and no link established</span></li>
+      <span class="chip inf">Suggestive only — a common surname, and no link established</span></li>
   </ul>
   <p>
     <span class="chip doc">Documented</span> The Defranceski family map records <strong>Johannesburg</strong>
@@ -72,8 +70,9 @@ import { u } from "../lib/url.js";
     move to Brisbane"</em>. The Lerena line therefore reaches Australia <strong>through
     Johannesburg</strong>, not directly from the Americas.
   </p>
-
-  <h2>The ostrich farm</h2>
+</section>
+<section class="blk">
+<h2>The ostrich farm</h2>
   <p>
     <span class="chip lore">Family testimony</span> The great-grandfather is believed to have kept an
     <strong>ostrich farm</strong>.
@@ -90,8 +89,8 @@ import { u } from "../lib/url.js";
     plausibly the Oudtshoorn district — and most likely <strong>before 1914</strong>. That is a testable
     proposition, and a narrow one.
   </p>
-  <div class="card" style="margin:1.2rem 0">
-    <p style="margin-top:0"><span class="chip dis">Now doubtful</span></p>
+  <div class="panel" style="margin:1.2rem 0">
+    <p style="margin-top:0"><span class="chip inf">Now doubtful</span></p>
     <p style="margin-bottom:0">
       Everything since found points away from it. He was a <strong>Cape Town racing man</strong> — stables
       at Rugby, a training yard taking apprentices, a Newlands address, and "Race Horse Owner" on his death
@@ -101,11 +100,11 @@ import { u } from "../lib/url.js";
       erven, not a farm.
     </p>
   </div>
-  <p class="small">
+  <p class="cap">
     That is not disproof. Deeds coverage is partial, an ostrich farm could have been leased rather than
     owned, and Oudtshoorn's records have still not been searched.
   </p>
-  <div class="card" style="margin:1.2rem 0">
+  <div class="panel" style="margin:1.2rem 0">
     <p style="margin-top:0"><span class="chip lore">And the family says he did hold land</span></p>
     <p style="margin-bottom:0">
       <em>"He owned a lot of land up around the <strong>Blouberg</strong> area. We do not know what he
@@ -116,15 +115,16 @@ import { u } from "../lib/url.js";
       spelling, for Blouberg and Milnerton.</strong> <a href={u("/hypotheses")}>Hypotheses &rarr;</a>
     </p>
   </div>
-  <p class="small">
+  <p class="cap">
     An ostrich farmer is also among the occupations the family records for him — <em>"unconfirmed, advised
     by Sue Taylor"</em>. So the tradition has a named source, which is more than it had this morning.
     <a href={u("/open-questions")}>Open questions &rarr;</a>
   </p>
-
-  <h2>Where the records are</h2>
-  <div class="grid two">
-    <div class="card">
+</section>
+<section class="blk">
+<h2>Where the records are</h2>
+  <div class="grid g2">
+    <div class="panel">
       <h3 style="margin-top:0">NAAIRS — the National Archives</h3>
       <p style="margin-bottom:0">
         South Africa's <strong>National Automated Archival Information Retrieval System</strong> indexes
@@ -133,28 +133,28 @@ import { u } from "../lib/url.js";
         the highest-value target</strong>: they name the widow, the children, the farm and the assets.
       </p>
     </div>
-    <div class="card">
+    <div class="panel">
       <h3 style="margin-top:0">Civil registration</h3>
       <p style="margin-bottom:0">
         Births, marriages and deaths held by the Department of Home Affairs, with older registers in the
         archives. Cheryl's father's and grandfather's records are the direct route up the line.
       </p>
     </div>
-    <div class="card">
+    <div class="panel">
       <h3 style="margin-top:0">Government gazettes</h3>
       <p style="margin-bottom:0">
         For the <em>exequatur</em> recognising a foreign consul — the crispest proof of the consular claim,
         and dated. Union of South Africa gazettes from 1910; Cape Colony gazettes before that.
       </p>
     </div>
-    <div class="card">
+    <div class="panel">
       <h3 style="margin-top:0">Newspapers</h3>
       <p style="margin-bottom:0">
         The Cape and Rand press reported consular appointments, race meetings and farm sales alike. A single
         social column could carry the name, the post and the farm in one paragraph.
       </p>
     </div>
-    <div class="card">
+    <div class="panel">
       <h3 style="margin-top:0">Oudtshoorn and the feather trade</h3>
       <p style="margin-bottom:0">
         The <strong>C.P. Nel Museum</strong> at Oudtshoorn and the Cape archives hold the records of the
@@ -162,19 +162,21 @@ import { u } from "../lib/url.js";
         where it is written down.
       </p>
     </div>
-    <div class="card">
+    <div class="panel">
       <h3 style="margin-top:0">The Jockey Club and the stud book</h3>
       <p style="margin-bottom:0">
         Registrations of owners, breeders and imported bloodstock. See <a href={u("/horses")}>The horses</a>.
       </p>
     </div>
   </div>
-
-  <h2>The emigration to Australia</h2>
+</section>
+<section class="blk">
+<h2>The emigration to Australia</h2>
   <p>
     The last leg — Johannesburg to Brisbane — is the best-documented part of the whole line and the easiest
     to close, because it is recent and Australian records are good. It is deliberately left until the living
     generations can be handled properly: <strong>living people are omitted from this build</strong>, and the
     Australian chapter mostly concerns them. <a href={u("/method")}>Method &rarr;</a>
   </p>
+</section>
 </Base>

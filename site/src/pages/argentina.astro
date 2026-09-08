@@ -2,14 +2,12 @@
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 ---
-<Base title="Argentina">
-  <h1>Argentina</h1>
-  <p class="lede">
-    Rosario is the place the family names. Nothing is yet proved there — but Rosario is a good place to be
-    sent, because its records survive and are largely reachable.
-  </p>
+<Base title="Argentina"
+      eyebrow="Rosario, Santa Fe — and the records that do not answer"
+      dek="Rosario is the place the family names. Nothing is yet proved there — but Rosario is a good place to be sent, because its records survive and are largely reachable.">
+<section class="blk">
 
-  <div class="card" style="margin:1.4rem 0">
+<div class="panel" style="margin:1.4rem 0">
     <p style="margin-top:0"><span class="chip doc">Confirmed, 8 September 2026</span></p>
     <p style="margin-bottom:0">
       <strong>Pablo Armando Lerena was born at Rosario de Santa Fe on 22 February 1882</strong>, and was
@@ -18,8 +16,9 @@ import { u } from "../lib/url.js";
       <a href={u("/passport")}>The passport &rarr;</a>
     </p>
   </div>
-
-  <h2>What was claimed</h2>
+</section>
+<section class="blk">
+<h2>What was claimed</h2>
   <p>
     <span class="chip lore">Family testimony</span> David Defranceski's great-grandfather — the grandfather
     of <strong>Cheryl Anne Lerena</strong> — came from Argentina, and <strong>Rosario</strong> is the city
@@ -29,8 +28,9 @@ import { u } from "../lib/url.js";
     No name, no dates and no document are attached to this yet. Establishing the name is the first task of
     the archive, and everything else waits on it.
   </p>
-
-  <h2>Why Rosario is plausible</h2>
+</section>
+<section class="blk">
+<h2>Why Rosario is plausible</h2>
   <p>
     <span class="chip doc">Documented</span> The name's distribution supports the story independently of
     the story. <strong>Argentina holds 293 Lerenas and Uruguay 431</strong> — and Uruguay's density,
@@ -44,8 +44,9 @@ import { u } from "../lib/url.js";
     trade — cattle, grain, and <strong>horses</strong>. A family with standing enough to produce a consul,
     and interests in bloodstock, is a recognisable Rosario type of that era.
   </p>
-
-  <h2>Uruguay is not a detour</h2>
+</section>
+<section class="blk">
+<h2>Uruguay is not a detour</h2>
   <p>
     The River Plate is one social world with a border through it, and families crossed it constantly.
     Given that <strong>Uruguay has the densest Lerena population on earth</strong>, and that the Argentine
@@ -53,16 +54,17 @@ import { u } from "../lib/url.js";
     archive treats <strong>Montevideo as a live possibility from the outset</strong>, not as a fallback
     after Argentina fails.
   </p>
-  <p class="small">
+  <p class="cap">
     Stated plainly so it is not forgotten later: if the Argentine search stalls, the correct next move is
     Uruguay, not a harder Argentine search.
   </p>
-
-  <h2>Where the records are</h2>
+</section>
+<section class="blk">
+<h2>Where the records are</h2>
   <p>These are the seams to work, in the order they are worth working.</p>
 
-  <div class="grid two">
-    <div class="card">
+  <div class="grid g2">
+    <div class="panel">
       <h3 style="margin-top:0">Civil registration, Santa Fe province</h3>
       <p style="margin-bottom:0">
         Argentina's civil registration begins in the 1880s. Rosario sits in <strong>Santa Fe</strong>
@@ -70,14 +72,14 @@ import { u } from "../lib/url.js";
         most efficient way up a generation.
       </p>
     </div>
-    <div class="card">
+    <div class="panel">
       <h3 style="margin-top:0">Catholic parish registers</h3>
       <p style="margin-bottom:0">
         Before civil registration, and alongside it, the parishes. Rosario's older parishes and the
         Archdiocese of Rosario hold baptisms, marriages and burials; many are filmed by FamilySearch.
       </p>
     </div>
-    <div class="card">
+    <div class="panel">
       <h3 style="margin-top:0">Immigration and passenger records</h3>
       <p style="margin-bottom:0">
         The <strong>CEMLA</strong> immigrant database and the Argentine <em>listas de pasajeros</em> record
@@ -85,7 +87,7 @@ import { u } from "../lib/url.js";
         arrived from Spain in the emigration century, this is where the Iberian origin is named.
       </p>
     </div>
-    <div class="card">
+    <div class="panel">
       <h3 style="margin-top:0">Outbound to South Africa</h3>
       <p style="margin-bottom:0">
         The departure matters as much as the arrival. A consular posting leaves a paper trail at both ends —
@@ -93,8 +95,9 @@ import { u } from "../lib/url.js";
       </p>
     </div>
   </div>
-
-  <h2>The consul: how it gets proved</h2>
+</section>
+<section class="blk">
+<h2>The consul: how it gets proved</h2>
   <p>
     A Consul General is a public officer, and public officers are published. This claim should be among the
     <em>easiest</em> in the archive to settle, once a name exists:
@@ -114,10 +117,11 @@ import { u } from "../lib/url.js";
     resident in the host country could hold the post. If the great-grandfather was an honorary consul
     rather than a career diplomat, he may appear in the gazettes but not in the Argentine foreign-service
     lists — and that would also explain a man who bred horses and farmed ostriches while holding a
-    diplomatic title. <span class="chip dis">A hypothesis, recorded early so it can be tested</span>
+    diplomatic title. <span class="chip inf">A hypothesis, recorded early so it can be tested</span>
   </p>
-
-  <h2>What this page needs next</h2>
+</section>
+<section class="blk">
+<h2>What this page needs next</h2>
   <p>
     <strong>His parents.</strong> The name, the city and the day are now known — Pablo Armando Lerena,
     Rosario, 22 February 1882. What is not known is who his father and mother were. His
@@ -125,4 +129,5 @@ import { u } from "../lib/url.js";
     target rather than a region.
     <a href={u("/open-questions")}>Open questions &rarr;</a>
   </p>
+</section>
 </Base>

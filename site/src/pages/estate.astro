@@ -2,15 +2,12 @@
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 ---
-<Base title="The estate">
-  <h1>The estate of Pablo Armando Lerena</h1>
-  <p class="lede">
-    A death certificate, a will, a liquidation account and a son's death notice — four documents that
-    between them name this family's head, his wife and his three sons, and close the gap to David
-    Defranceski's grandfather. He is buried in the Cape under the English form of his name.
-  </p>
+<Base title="The estate of Pablo Armando Lerena"
+      eyebrow="Newlands, Cape Town, 19 March 1950"
+      dek="A death certificate, a will, a liquidation account and a son's death notice — four documents that between them name this family's head, his wife and his three sons, and close the gap to David Defranceski's grandfather. He is buried in the Cape under the English form of his name.">
+<section class="blk">
 
-  <div class="card" style="margin:1.4rem 0">
+<div class="panel" style="margin:1.4rem 0">
     <p style="margin:0">
       <span class="chip doc">Documented</span> Estate of the late <strong>Robert Paul Lerena of Newlands,
       Cape</strong>, died <strong>19 March 1950</strong>. Letters of Administration
@@ -19,8 +16,9 @@ import { u } from "../lib/url.js";
       <span class="mono">sources/estate-robert-paul-lerena/</span>.
     </p>
   </div>
-
-  <h2>The death certificate</h2>
+</section>
+<section class="blk">
+<h2>The death certificate</h2>
   <p>
     Union of South Africa death certificate <strong>A 214036</strong>, registered in the district of
     <strong>Wynberg</strong>, Province of the Cape of Good Hope, entry <span class="mono">W612/50</span>:
@@ -28,7 +26,7 @@ import { u } from "../lib/url.js";
   <div class="scroll">
     <table>
       <tbody>
-        <tr><th style="width:12rem">Name</th><td><strong>Robert Paul LERINA</strong> <span class="small">— so
+        <tr><th style="width:12rem">Name</th><td><strong>Robert Paul LERINA</strong> <span class="cap">— so
           spelled by the registrar; every other document in the file says <strong>Lerena</strong></span></td></tr>
         <tr><th>Age</th><td>76 years</td></tr>
         <tr><th>Birthplace</th><td><strong>South America</strong></td></tr>
@@ -48,8 +46,9 @@ import { u } from "../lib/url.js";
     <a href={u("/naairs")}>stables at Koeberg Road</a>, the horses are now documented from three separate
     directions. <a href={u("/horses")}>The horses &rarr;</a>
   </p>
-
-  <h2>Mary Septima</h2>
+</section>
+<section class="blk">
+<h2>Mary Septima</h2>
   <p>
     <span class="chip doc">Documented</span> He was a widower because his wife had died fifteen years
     earlier. The <strong>Maitland Road Cemetery register of interments</strong>, page 3215, entry 163,
@@ -65,14 +64,15 @@ import { u } from "../lib/url.js";
     <strong>J. R. E. Lee</strong> — the same man who signed her husband's certificate fifteen years later.
     One household, one family doctor.
   </p>
-  <p class="small">
+  <p class="cap">
     Her maiden name is <strong>Taylor</strong> — documented, not merely charted: the 1911 baptism register
     records her as <em>Mary Septima Lerena <strong>olim Taylor</strong></em>, "formerly Taylor". That is
     where the <strong>Taylor</strong> in the MyHeritage tree's title comes from. <em>Septima</em>,
     "seventh", is an English Victorian name for a seventh child.
   </p>
-
-  <h2>The will, and the three sons</h2>
+</section>
+<section class="blk">
+<h2>The will, and the three sons</h2>
   <p>
     The will was dated <strong>6 February 1942</strong>. The estate came to <strong>&pound;15,527 15s</strong>
     gross — a considerable sum in 1950 — leaving <strong>&pound;14,450 3s 7d</strong> for distribution in
@@ -91,7 +91,7 @@ import { u } from "../lib/url.js";
     6 January 1920</strong>, and <strong>Nuno Fernando Lerena, born 6 October 1924</strong> — who would turn
     thirty on 6 October 1954.
   </p>
-  <div class="card" style="margin:1.2rem 0">
+  <div class="panel" style="margin:1.2rem 0">
     <p style="margin:0">
       <strong>That birth date is the join.</strong> Nuno Fernando Lerena, born 6 October 1924, is the man
       whose own death notice of 1971 names <strong>Cheryl Ann Lerena</strong> among his children. The line
@@ -99,9 +99,10 @@ import { u } from "../lib/url.js";
       <a href={u("/direct-line")}>The line &rarr;</a>
     </p>
   </div>
-
-  <h2>One man, two names</h2>
-  <div class="card" style="margin:1.2rem 0">
+</section>
+<section class="blk">
+<h2>One man, two names</h2>
+  <div class="panel" style="margin:1.2rem 0">
     <p style="margin-top:0"><span class="chip doc">Documented</span></p>
     <p style="margin-bottom:0">
       Every civil document in this estate calls him <strong>Robert Paul Lerena</strong>, and the registrar
@@ -112,8 +113,9 @@ import { u } from "../lib/url.js";
       <strong>76 years</strong> on his death certificate is wrong: he was <strong>68</strong>.
     </p>
   </div>
-
-  <h2>The document that links the names</h2>
+</section>
+<section class="blk">
+<h2>The document that links the names</h2>
   <p>
     The estate account gives the sons but never the father's own parentage or origin. What identifies him is
     a <strong>death notice filed twenty-three years later</strong> — that of
@@ -136,18 +138,20 @@ import { u } from "../lib/url.js";
     So the family was in Cape Town by <strong>1905</strong> at the latest, and had begun having children
     there.
   </p>
-
-  <h2>A detail worth keeping</h2>
+</section>
+<section class="blk">
+<h2>A detail worth keeping</h2>
   <p>
     Among the claims paid out of the estate, between the garage bill and the insurance premium, is one for
     <strong>&pound;26 to W. C. Blake — "claim for carrots"</strong>.
   </p>
-  <p class="small">
+  <p class="cap">
     A racehorse owner's last unpaid account. It is the smallest fact in this archive and one of the few that
     tells you what the yard smelled like.
   </p>
-
-  <h2>What the estate does not say</h2>
+</section>
+<section class="blk">
+<h2>What the estate does not say</h2>
   <p>
     <span class="chip">Open</span> Neither the estate nor Roque's death notice gives <strong>his own
     parents</strong>. His birth date and birthplace are now known from the
@@ -156,4 +160,5 @@ import { u } from "../lib/url.js";
     for, by the attorneys Dichmont &amp; Dichmont — would name them. It is not among the images held here.
     <a href={u("/open-questions")}>Open questions &rarr;</a>
   </p>
+</section>
 </Base>

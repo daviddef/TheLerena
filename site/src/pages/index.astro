@@ -2,15 +2,12 @@
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 ---
-<Base title="Home">
-  <h1>The Lerena Archive</h1>
-  <p class="lede">
-    An evidence-first archive of the <strong>Lerena</strong> family — carried, by family account,
-    from <strong>Rosario</strong> in Argentina to <strong>South Africa</strong>, and from there to
-    <strong>Brisbane</strong>. This archive begins almost empty, and says so.
-  </p>
+<Base title="The Lerena Archive"
+      eyebrow="A family history, kept honestly"
+      dek="An evidence-first archive of the Lerena family — from Rosario on the Paraná to the Cape, the Rand and Brisbane. Four family traditions, tested against the record rather than repeated.">
+<section class="blk">
 
-  <div class="card" style="margin:1.6rem 0">
+<div class="panel" style="margin:1.6rem 0">
     <p style="margin-top:0"><span class="chip doc">8 September 2026 — the line is documented</span></p>
     <p style="margin-bottom:0">
       The head of the family is <strong>Pablo Armando Lerena</strong>, born at
@@ -21,8 +18,9 @@ import { u } from "../lib/url.js";
       <a href={u("/direct-line")}>The line &rarr;</a>
     </p>
   </div>
-
-  <h2>What the family remembered, and how it has held up</h2>
+</section>
+<section class="blk">
+<h2>What the family remembered, and how it has held up</h2>
   <div class="scroll">
     <table>
       <thead><tr><th style="width:14rem">The claim</th><th>Where it stands</th></tr></thead>
@@ -38,26 +36,27 @@ import { u } from "../lib/url.js";
             death certificate; a 1931 municipal file for <strong>stables</strong> at Rugby; and, among the
             debts of his estate, a claim for <strong>&pound;26 of carrots</strong>.</td></tr>
         <tr><td><strong>He was Consul General</strong></td>
-          <td><span class="chip dis">Disputed</span> Nothing supports it. On his 1940 passport the consular
+          <td><span class="chip inf">Disputed</span> Nothing supports it. On his 1940 passport the consular
             signature belongs to A. B. Bayne. The family <em>did</em> hold an Argentine consular passport,
             which may be how the tradition began.</td></tr>
         <tr><td><strong>He had an ostrich farm</strong></td>
-          <td><span class="chip dis">Doubtful</span> The deeds registers show him owning
+          <td><span class="chip inf">Doubtful</span> The deeds registers show him owning
             <strong>no land at all</strong>, and everything found puts him in Cape Town racing rather than
             the Karoo. Not disproved — Oudtshoorn's own records are unsearched — but nothing supports it.
             <a href={u("/south-africa")}>South Africa &rarr;</a></td></tr>
       </tbody>
     </table>
   </div>
-  <p class="small">
+  <p class="cap">
     Recorded from David Defranceski on 8 September 2026 and tested the same day against the South African
     National Archives, the family's own papers, a Cape cemetery register, and the baptism register of
     Corpus Christi, Wynberg. <a href={u("/direct-line")}>The line &rarr;</a>
   </p>
-
-  <h2>What is already established</h2>
-  <div class="grid two">
-    <div class="card">
+</section>
+<section class="blk">
+<h2>What is already established</h2>
+  <div class="grid g2">
+    <div class="panel">
       <p><span class="chip doc">Documented</span></p>
       <h3 style="margin-top:.4rem">The name is rare</h3>
       <p style="margin-bottom:0">
@@ -67,7 +66,7 @@ import { u } from "../lib/url.js";
         than to be coincidence. <a href={u("/name")}>The name &rarr;</a>
       </p>
     </div>
-    <div class="card">
+    <div class="panel">
       <p><span class="chip doc">Documented</span></p>
       <h3 style="margin-top:.4rem">The River Plate is the heartland</h3>
       <p style="margin-bottom:0">
@@ -77,7 +76,7 @@ import { u } from "../lib/url.js";
         <a href={u("/argentina")}>Argentina &rarr;</a>
       </p>
     </div>
-    <div class="card">
+    <div class="panel">
       <p><span class="chip doc">Documented</span></p>
       <h3 style="margin-top:.4rem">There are Lerenas in the stud book</h3>
       <p style="margin-bottom:0">
@@ -88,7 +87,7 @@ import { u } from "../lib/url.js";
         <a href={u("/horses")}>The horses &rarr;</a>
       </p>
     </div>
-    <div class="card">
+    <div class="panel">
       <p><span class="chip doc">Documented</span></p>
       <h3 style="margin-top:.4rem">The South African branch is a founder cluster</h3>
       <p style="margin-bottom:0">
@@ -99,8 +98,9 @@ import { u } from "../lib/url.js";
       </p>
     </div>
   </div>
-
-  <h2>The two origins problem</h2>
+</section>
+<section class="blk">
+<h2>The two origins problem</h2>
   <p>
     <em>Lerena</em> may be two different names wearing one spelling, and the archive cannot yet say which
     one belongs to this family:
@@ -117,8 +117,9 @@ import { u } from "../lib/url.js";
     settled the same way: in the registers, not by the look of the name.
     <a href={u("/name")}>The full baseline &rarr;</a>
   </p>
-
-  <h2>How this archive works</h2>
+</section>
+<section class="blk">
+<h2>How this archive works</h2>
   <p>
     Every statement is tiered — <strong>documented</strong>, <strong>inferred</strong>,
     <strong>disputed</strong>, or <strong>family lore</strong> — and the tier is shown. Family lore is kept
@@ -126,4 +127,5 @@ import { u } from "../lib/url.js";
     history. <strong>Living people are omitted from the build entirely.</strong>
     <a href={u("/method")}>Method &rarr;</a>
   </p>
+</section>
 </Base>

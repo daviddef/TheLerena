@@ -1,14 +1,11 @@
 ---
 import Base from "../layouts/Base.astro";
 ---
-<Base title="Method">
-  <h1>Method</h1>
-  <p class="lede">
-    The same method as the Falco and Defranceski archives. Every claim is tiered, and the tier is shown.
-    An archive that cannot say what it does not know is not an archive.
-  </p>
-
-  <h2>The tiers</h2>
+<Base title="Method"
+      eyebrow="How this archive decides what it will say"
+      dek="The same method as the Falco and Defranceski archives. Every claim is tiered, and the tier is shown. An archive that cannot say what it does not know is not an archive.">
+<section class="blk">
+<h2>The tiers</h2>
   <div class="scroll">
     <table>
       <tbody>
@@ -20,7 +17,7 @@ import Base from "../layouts/Base.astro";
         <tr><td><span class="chip">Superseded</span></td>
           <td>Asserted in the family record, and now displaced by a document that says otherwise. The old
             claim is kept visible, not deleted.</td></tr>
-        <tr><td><span class="chip dis">Disputed</span></td>
+        <tr><td><span class="chip inf">Disputed</span></td>
           <td>Asserted in the family record but unsupported, or contradicted, by what can be seen.</td></tr>
         <tr><td><span class="chip lore">Family lore</span></td>
           <td>Told, remembered, not corroborated. Kept because it is precious; labelled because pretending
@@ -28,8 +25,9 @@ import Base from "../layouts/Base.astro";
       </tbody>
     </table>
   </div>
-
-  <h2>This archive starts at the bottom of the ladder</h2>
+</section>
+<section class="blk">
+<h2>This archive starts at the bottom of the ladder</h2>
   <p>
     Nearly everything specific to this family is presently <strong>family lore</strong>. The Argentine
     origin, Rosario, the consulship, the horses, the ostriches — all of it is testimony, and it is presented
@@ -41,8 +39,9 @@ import Base from "../layouts/Base.astro";
     and it is worth having early because it tells you which claims are likely, which are hard, and where to
     look. It is never allowed to stand in for a record.
   </p>
-
-  <h2>Rarity is evidence, and it has limits</h2>
+</section>
+<section class="blk">
+<h2>Rarity is evidence, and it has limits</h2>
   <p>
     With 2,124 bearers worldwide, <em>Lerena</em> is rare enough that clustering carries real information —
     the 61 in South Africa are very unlikely to be unrelated strangers. The archive will therefore let
@@ -52,8 +51,9 @@ import Base from "../layouts/Base.astro";
     It will not let distribution <strong>prove</strong> them. A proposal built on rarity is written down as
     inferred, with its reasoning exposed, and it stays inferred until a register says otherwise.
   </p>
-
-  <h2>Living people</h2>
+</section>
+<section class="blk">
+<h2>Living people</h2>
   <p>
     <strong>Living people are omitted from the build entirely</strong> — not hidden, not gated, not present
     in the output. Because this line reaches the present within three generations, that removes a
@@ -68,11 +68,13 @@ import Base from "../layouts/Base.astro";
   <p>
     A removal request is honoured within days, without argument and without requiring a reason.
   </p>
-
-  <h2>Corrections</h2>
+</section>
+<section class="blk">
+<h2>Corrections</h2>
   <p>
     Corrections are the most valuable thing anyone can send. A family member with a date, a photograph of a
     document, or a flat contradiction of something written here will change the archive, and the change will
     be recorded rather than quietly made.
   </p>
+</section>
 </Base>

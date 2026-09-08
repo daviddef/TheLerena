@@ -1,14 +1,11 @@
 ---
 import Base from "../layouts/Base.astro";
 ---
-<Base title="Sources">
-  <h1>Sources</h1>
-  <p class="lede">
-    Everything consulted so far, and everything identified as needing to be consulted. On day one the second
-    list is much the longer of the two, and that is the point of publishing it.
-  </p>
-
-  <h2>Consulted</h2>
+<Base title="Sources"
+      eyebrow="Consulted, and identified but not yet consulted"
+      dek="Everything consulted so far, and everything identified as needing to be consulted. The second list is still the longer of the two, and that is the point of publishing it.">
+<section class="blk">
+<h2>Consulted</h2>
   <div class="scroll">
     <table>
       <thead><tr><th>Source</th><th>Used for</th><th>Accessed</th></tr></thead>
@@ -37,8 +34,9 @@ import Base from "../layouts/Base.astro";
       </tbody>
     </table>
   </div>
-
-  <h2>Identified, not yet consulted</h2>
+</section>
+<section class="blk">
+<h2>Identified, not yet consulted</h2>
   <h3>Argentina and Uruguay</h3>
   <ul>
     <li>Civil registration, <strong>Santa Fe</strong> province (Rosario), from the 1880s.</li>
@@ -70,4 +68,5 @@ import Base from "../layouts/Base.astro";
       Not yet read into this archive.</li>
     <li>Australian records for the Johannesburg-to-Brisbane migration, subject to the rule on living people.</li>
   </ul>
+</section>
 </Base>

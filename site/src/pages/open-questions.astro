@@ -2,14 +2,11 @@
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 ---
-<Base title="Open questions">
-  <h1>Open questions</h1>
-  <p class="lede">
-    Published deliberately. An archive that lists only its answers is advertising; one that lists its
-    questions can be helped by strangers.
-  </p>
-
-  <h2>1. The name of the great-grandfather</h2>
+<Base title="Open questions"
+      eyebrow="Published so strangers can help"
+      dek="Published deliberately. An archive that lists only its answers is advertising; one that lists its questions can be helped by strangers.">
+<section class="blk">
+<h2>1. The name of the great-grandfather</h2>
   <p>
     <strong>The blocking question.</strong> Nothing else can proceed far without it — not the consular
     lists, not the stud books, not the Argentine registers.
@@ -21,8 +18,9 @@ import { u } from "../lib/url.js";
     <li>Sweep <strong>NAAIRS</strong> for every Lerena estate file in South Africa. With 61 bearers in the
       country this is a small, finite search, and estate files name the whole household.</li>
   </ul>
-
-  <h2>2. Was he really a Consul General?</h2>
+</section>
+<section class="blk">
+<h2>2. Was he really a Consul General?</h2>
   <ul>
     <li>Search the <strong>Government Gazette</strong> for the <em>exequatur</em> — the host state's formal
       recognition of a foreign consul. Crisp, dated, decisive.</li>
@@ -31,12 +29,13 @@ import { u } from "../lib/url.js";
     <li><strong>Test the honorary-consul hypothesis.</strong> A resident merchant holding an honorary post
       would appear in the gazettes but not in the career foreign-service lists — and would reconcile a
       diplomat with a man who bred horses and farmed ostriches.
-      <span class="chip dis">Hypothesis</span></li>
+      <span class="chip inf">Hypothesis</span></li>
     <li>Establish <strong>which post</strong>: Cape Town, Johannesburg, Pretoria or Durban, and in which
       years.</li>
   </ul>
-
-  <h2>3. The horses</h2>
+</section>
+<section class="blk">
+<h2>3. The horses</h2>
   <ul>
     <li>Search the <strong>South African Stud Book</strong> and Jockey Club registers for Lerena as owner,
       breeder or importer — particularly <strong>imports from Argentina</strong>, which would corroborate
@@ -47,8 +46,9 @@ import { u } from "../lib/url.js";
       <a href={u("/horses")}>The horses &rarr;</a></li>
     <li>Trace <strong>Haras El Viejo</strong>: its records, its sale or dispersal, and its succession.</li>
   </ul>
-
-  <h2>4. The ostrich farm</h2>
+</section>
+<section class="blk">
+<h2>4. The ostrich farm</h2>
   <ul>
     <li>Search the <strong>Oudtshoorn</strong> and Little Karoo farm records, and the C.P. Nel Museum's
       holdings on the feather trade.</li>
@@ -56,8 +56,9 @@ import { u } from "../lib/url.js";
       likely predates that, which in turn constrains when the family arrived.</li>
     <li>Search the deeds registry for land held under the surname.</li>
   </ul>
-
-  <h2>5. Basque or Extremaduran?</h2>
+</section>
+<section class="blk">
+<h2>5. Basque or Extremaduran?</h2>
   <ul>
     <li>Obtain the <strong>INE provincial distribution</strong> for Spain. Forebears summarises the Spanish
       Lerenas as chiefly <strong>La Rioja, Andalusia and Madrid</strong> — awkward for both theories, and it
@@ -67,8 +68,9 @@ import { u } from "../lib/url.js";
     <li>Find the emigration record, which normally names the town of origin outright.
       <a href={u("/name")}>The name &rarr;</a></li>
   </ul>
-
-  <h2>6. Rosario, and the crossing</h2>
+</section>
+<section class="blk">
+<h2>6. Rosario, and the crossing</h2>
   <ul>
     <li>Search <strong>Santa Fe</strong> civil registration and the Rosario parish registers for the family.</li>
     <li>Search <strong>CEMLA</strong> and the Buenos Aires passenger lists for the arrival from Europe.</li>
@@ -77,22 +79,25 @@ import { u } from "../lib/url.js";
       Argentina stalls it is the next move, not the last resort.
       <a href={u("/argentina")}>Argentina &rarr;</a></li>
   </ul>
-
-  <h2>7. The South African kindred</h2>
+</section>
+<section class="blk">
+<h2>7. The South African kindred</h2>
   <ul>
     <li>Establish whether the <strong>61 South African Lerenas</strong> are indeed one family, and whether
       this line founded it. <a href={u("/south-africa")}>South Africa &rarr;</a></li>
     <li>Work out the <strong>Booyzen</strong> marriage — an Afrikaner connection, and evidence of settlement
       rather than a posting.</li>
     <li>Test whether <strong>Taylor</strong> and <strong>Barry</strong> attach to this line or to another
-      branch of the tree. <span class="chip dis">Unexamined</span></li>
+      branch of the tree. <span class="chip inf">Unexamined</span></li>
   </ul>
-
-  <h2>Recorded so they are not repeated</h2>
+</section>
+<section class="blk">
+<h2>Recorded so they are not repeated</h2>
   <ul>
     <li>The <strong>Chrome extension was not connected</strong> on 8 September 2026, so the MyHeritage tree
       could not be read in this session. It requires a logged-in browser session; it is not a public source.</li>
     <li><strong>Forebears' Spain page</strong> for the surname returned no content to an automated fetch. The
       provincial breakdown will need another route — the INE, or a read by hand.</li>
   </ul>
+</section>
 </Base>
