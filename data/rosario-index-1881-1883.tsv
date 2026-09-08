@@ -1,18 +1,32 @@
 # Sweep of the Rosario cathedral baptism index for the given name PABLO ARMANDO under any surname,
 # in the years either side of 1882. The 1882 year is complete and recorded in rosario-index-map.tsv.
 #
-# *** ON IMAGE NUMBERS ***
-# The same film presents under two viewer states with DIFFERENT image numbering, and the offset is not
-# constant: a page that is image 55 in the 718-image "Film # 004530325" view is image 52 in the 655-image
-# "Indice de bautismos 1879-1900" waypoint view, but near the end of the alphabet the two diverge by
-# roughly 56. Image numbers here are therefore LOCATORS ONLY, not evidence, and every page was verified on
-# arrival by its letter, year, Libro and folio range - which are stable. The 1881/1883 numbers below are in
-# the 655-image waypoint view; the 1882 numbers in rosario-index-map.tsv are in the 718-image film view.
+# *** ON IMAGE NUMBERS - READ THIS BEFORE USING THEM ***
+# This film (DGS 4530325) presents under two viewer states with different image numbering, and the
+# difference is NOT a constant offset - the two sets hold different content.
 #
-letter	year	images_655view	span_verified	status	result_and_notes
-A	1881	7-10 (718 view)	Libro 23 f.609 -> Libro 24 f.358	COMPLETE	No Pablo Armando. Near miss 'Alberdi / Adelino Pablo / Libro 23 f.649'.
-A	1883	12-14 (718 view)	f.260 -> f.297, 1884 begins f.318	COMPLETE	No Pablo Armando. Near miss 'Ahumada / Pedro Pablo / f.543'.
-B	1881	50-52	Libro 23 f.604 -> Libro 24 f.359	COMPLETE	No Pablo Armando. Near miss 'Basualdo / Felix Pablo / Libro 24 f.355'.
-B	1883	54-56	Libro 25 f.253 -> Libro 26 f.302, 1884 begins f.304	COMPLETE	No Pablo Armando. No Pablo of any kind in the 1883 B band.
-C	1881	108-112	Libro 23 f.605 -> Libro 24 f.356, 1882 begins f.361	COMPLETE	No Pablo Armando. Near miss 'Carara / Pablo / Libro 24 f.146'.
-C	1883	115-118	Libro 25 f.251 -> Libro 26 f.300, 1884 begins f.304	COMPLETE	No Pablo Armando.
+#   718-image "Film # 004530325" view - the COMPLETE film. It carries TWO rolls. Roll 29 runs to image
+#     171, where a title card reads "Indice Bautismos, VOLUMEN: A-D, Anos 1879-1900" followed by
+#     "CONTINUA EN EL PROXIMO ROLLO". Images 172-178 are leader, density and title cards for Rollo 30,
+#     and the volume resumes at image 179 marked "CONTINUACION".
+#
+#   655-image "Indice de bautismos 1879-1900" waypoint - INCOMPLETE. It omits the roll-30 continuation
+#     of Volume 1, i.e. the tail of C (1897-1900) and THE WHOLE OF D. It runs C at 1897 straight into
+#     the "Volumen 2, Letras E-Ll" title card. 718 minus 655 is 63 images, which is that missing segment
+#     plus its cards.
+#
+# So: D exists ONLY in the 718-image view. Image numbers below say which view they were taken in.
+# They are LOCATORS ONLY, never evidence. Every page was verified on arrival by letter, year, Libro and
+# folio range, and those spans - which are stable across both views - are what this file actually records.
+#
+letter	year	images	view	span_verified	status	result_and_notes
+A	1881	7-10	718-image film	Libro 23 f.609 -> Libro 24 f.358	COMPLETE	No Pablo Armando. Near miss 'Alberdi / Adelino Pablo / Libro 23 f.649'.
+A	1883	12-14	718-image film	f.260 -> f.297, 1884 begins f.318	COMPLETE	No Pablo Armando. Near miss 'Ahumada / Pedro Pablo / f.543'.
+B	1881	50-52	655-image waypoint	Libro 23 f.604 -> Libro 24 f.359	COMPLETE	No Pablo Armando. Near miss 'Basualdo / Felix Pablo / Libro 24 f.355'.
+B	1883	54-56	655-image waypoint	Libro 25 f.253 -> Libro 26 f.302, 1884 begins f.304	COMPLETE	No Pablo Armando. No Pablo of any kind in the 1883 B band.
+C	1881	108-112	655-image waypoint	Libro 23 f.605 -> Libro 24 f.356, 1882 begins f.361	COMPLETE	No Pablo Armando. Near miss 'Carara / Pablo / Libro 24 f.146'.
+C	1883	115-118	655-image waypoint	Libro 25 f.251 -> Libro 26 f.300, 1884 begins f.304	COMPLETE	No Pablo Armando.
+D	1881	189-190	718-image film	Libro 23 f.637 -> Libro 24 f.350, 1882 begins f.380	COMPLETE	No Pablo Armando. D begins at image 188.
+D	1883	191	718-image film	Libro 25 f.251 -> Libro 26 f.295, 1884 begins f.325	COMPLETE	No Pablo Armando. Near miss 'Dias / Jose Pablo / Libro 26 f.92'.
+E	1881	169-170	655-image waypoint	Libro 23 f.661 -> Libro 24 f.347, 1882 begins f.370	COMPLETE	No Pablo Armando. E section title page is at 168.
+E	1883	170-171	655-image waypoint	Libro 25 f.278 -> Libro 26 f.279, 1884 begins f.308	COMPLETE	No Pablo Armando. EXPOSITO (foundlings) sits in this section and was read.
