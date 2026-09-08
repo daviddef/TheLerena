@@ -1527,3 +1527,45 @@ letter positions are all mapped, so 1881 and 1883 would cost far less than 1882 
 ### Method note
 Per image: set the image number, wait, then read the two page-halves. Coverage checkpointed to the grid
 after each letter. The sweep took three sittings and roughly 120 image reads across a 718-image film.
+
+## CEMLA run in full — 9 September 2026
+
+All four spellings searched at `cemla.com/buscador/`, forename blank, range left at the form's default of
+**1800/01/01 – 1960/12/31**. David completed the CAPTCHAs; the searches were otherwise driven from here.
+
+| Spelling | Results | Earliest arrival |
+|---|---|---|
+| LERENA | ~31 rows (with duplicates) | **1907** |
+| LLERENA | **27** | **1910** |
+| LARENA | **6** | **1905** |
+| LERINA | **4** | 1889 — one wholly Italian household, a different surname |
+
+### The decisive finding is negative
+**The earliest arrival of a Lerena, Llerena or Larena is 1905.** Pablo Armando was born at Rosario in
+February 1882. **His parents cannot be in this index.** They were in Argentina before the record becomes
+useful. Route closed, and closed cleanly rather than left hanging.
+
+### What it did give us
+1. ***Gilberto LERENA, ARGENTINE national, aged 49 on arrival 27 Feb 1928*** (ship CAP. NORTE), travelling
+   with **Gilberto Lerena, 12, student**, also Argentine. Born about **1879 — within three years of Pablo
+   Armando**, and carrying the given name of **Gilberto Justiniano Lerena Lenguas**, the Uruguayan-born
+   co-founder of the **Argentine Stud Book** who headed a Buenos Aires household at the 1895 census. He is
+   **not** among the children listed in that 1895 household. This is now the strongest lead in the
+   Argentine work: a Lerena of the right generation, the right nationality, and — through the name — the
+   right *trade*, given that the family story is about horses.
+2. **Carlos LERENA, Uruguayan, b. c.1885**, arriving from **Montevideo** on 27 May 1926 with **Rosa M. E.
+   Lerena, Argentine, b. c.1887** — evidently his wife. The Uruguay thread again, and again unresolved.
+3. **Josefina LLERENA**, Argentine *propietaria* born about 1868, crossing in 1918, 1926 and 1931, single
+   throughout.
+4. **Paolo LERENA**, Italian, b. c.1891 — the only Pablo/Paolo of the surname anywhere in the index, and
+   far too late to be ours.
+5. Spanish bearers cluster hard on **Logroño, La Rioja** — corroborating the Forebears distribution work
+   independently.
+
+### A register, at David's suggestion
+He asked whether all these variant Lerenas should be kept and marked unrelated-for-now, with their
+provenance. Yes — and it is now `data/lerena-register.tsv`, published at `/register/`. **Seventy people**,
+each with the record that produced them and one of three marks: **Connected**, **Excluded**, **Unplaced**.
+Nothing is claimed as kin. Given that Forebears counts only ~2,124 Lerenas worldwide, most bearers probably
+*are* related at some depth — but "probably" is not evidence, and the page says so. When Pablo Armando's
+parents are finally named, this is the list that should snap into place.
