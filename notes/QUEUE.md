@@ -57,7 +57,16 @@ what he has already sourced.**
         the arrows both stop responding. **Only a fresh page load / new tab clears it.**
       - **So: open the film in a NEW TAB, switch to single-page view FIRST, then use the image-number box
         before touching anything else.**
-      Letters confirmed at fit zoom: **D=49, F=59, J=72, P=90**, so **L = images ~76-84**.
+      *** SUPERSEDED - USE THE WAYPOINT, NOT THE FILM. ***
+      **`familysearch.org/ark:/61903/3:1:9Q97-Y3S9-MPHL`** resolves to a named waypoint,
+      ***"Indice de matrimonios 1860-1904"***, of only **88 images** - half the size and scoped to the
+      right period.
+      *** GO TO IMAGE 51. *** It carries **L surnames under the year headings 1878, 1880, 1881 and 1883**,
+      with the 1860s-70s on the pages just before (check 49, 50, 52).
+      Pablo Armando was born Feb 1882, so his parents married BEFORE that - image 51 is the page.
+      Read it in **CHROME** at **fit** zoom with `computer` **region zoom** on quarters of the page.
+      (The in-app Browser pane cannot region-crop and goes blurry before the script is legible - that is
+      what stopped the third attempt, together with Chrome disconnecting.)
 - [ ] **DGS 4530324, Indice de Bautismos L-Z 1731-1879** - Pablo Armando's **older siblings**, and possibly
       his parents' own baptisms. Take the family back another generation.
 - [ ] ***THE URUGUAYAN CONSULATE, not the Argentine one.*** David records an occupation

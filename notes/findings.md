@@ -922,3 +922,55 @@ before touching anything else, and read at FIT zoom with region crops.**
 ## Status
 **Not found — the L pages are located but were never rendered.** A viewer bug, not a records problem: the
 images are open, unrestricted, and legible at fit zoom with region cropping.
+
+---
+
+# 8 September 2026 — *** THE MARRIAGE INDEX NARROWS TO ONE PAGE ***
+
+Third pass, from a fresh tab. **A much better entry point turned up.**
+
+## The waypoint, not the film
+Navigating the ark directly — **`familysearch.org/ark:/61903/3:1:9Q97-Y3S9-MPHL`** — resolves not to the
+180-image film but to a **named waypoint**:
+
+> Argentina, Santa Fe, Catholic Church Records › **Rosario** › **Nuestra Señora del Rosario** ›
+> ***"Índice de matrimonios 1860-1904"*** — **88 images**
+
+Half the size, and scoped exactly to the period that matters. **Use this, not DGS 4531036's 180-image
+listing.**
+
+## *** IMAGE 51 IS THE PAGE ***
+Read at moderate zoom:
+
+| Image | Content |
+|---|---|
+| **51** | **L surnames under year headings 1878 · 1880 · 1881 · 1883** |
+| 53 | L surnames under 1898 · 1900 · 1901 · 1902 · 1903 |
+
+**Pablo Armando was born 22 February 1882, so his parents married before that** — and
+***image 51 already carries 1878, 1880 and 1881***, with the 1860s and 1870s on the pages just before it.
+
+**The target is image 51 and its immediate neighbours (roughly 49-52) of this 88-image index.**
+
+Surnames legible on image 51 include Luraschi, Lucero, Ludueña, Lopez, Lucas, Lara, Laguna, Lorenzo,
+Llanari and many more — the L section proper. **Lerena was not positively identified**, but the page was
+never rendered sharply enough to exclude it.
+
+## Why it stopped here — and it is now a tooling limit, plainly
+- **Chrome disconnected** mid-task and would not come back. Chrome was the only surface where the
+  `computer` **region zoom** works, and region zoom is what makes this handwriting legible.
+- The **in-app Browser pane does not support region crop at all** ("region crop not yet supported in the
+  Browser pane"), and at ~800px wide its deep-zoom tiles go blurry before the script is readable.
+
+So: **the page is identified, open and unrestricted. It simply could not be rendered sharply in the
+surface that remained available.**
+
+## For the next attempt
+1. Open **`familysearch.org/ark:/61903/3:1:9Q97-Y3S9-MPHL`** (the 88-image *Índice de matrimonios
+   1860-1904*).
+2. Go to **image 51**; check 49, 50 and 52 either side.
+3. In **Chrome**, read at **fit** zoom using `computer` **region zoom** on quarters of each page — that
+   combination rendered the baptism index perfectly.
+4. Look for **LERENA** under the year blocks **1860-1881**. The line gives **groom's surname · bride's
+   surname · page**, and the page number then opens the register:
+   **DGS 4531040 (Matrimonios 1868-1884)** or **4531039 (1853-1867)**.
