@@ -1,5 +1,23 @@
 # Request — Archivo General del Ejército, Buenos Aires
 
+> ## *** SENT — 8 September 2026 ***
+> **To:** `age@ejercito.mil.ar` (verified from argentina.gob.ar, the Ministry of Defence's own
+> archive directory)
+> **From:** David Defranceski's Gmail, at his explicit request
+> **Subject:** *Consulta genealógica — legajo / libreta de enrolamiento de PABLO ARMANDO LERENA,
+> clase 1882 (Rosario, Santa Fe)*
+> **Gmail message id:** `1a0811e9ee49a43e`
+> **Reply expected to:** david.defranceski@gmail.com
+>
+> The letter sent is the Spanish text below, expanded: it gives the passport reference in full, states
+> the four things asked for (survival of the legajo, **the names of his parents**, the Distrito Militar,
+> and the cost of a copy), and explains why the archive is being approached — that the parish index has
+> been read year by year from 1882 to 1895, that the cathedral was Rosario's only parish until 1888, that
+> he is absent from the 1895 census, and that no provincial civil registry existed in 1882.
+>
+> **Contact:** Defensa 628/630, Ciudad de Buenos Aires · +54 11 4342-0196 · Mon–Fri 08:00–13:00 (ART).
+> Closed 29 May. They offer *referencia a distancia* by email, which is what has been used.
+
 **Target:** the **libreta de enrolamiento / legajo de servicio militar** of **PABLO ARMANDO LERENA**,
 born Rosario de Santa Fe, 22 February 1882 — **clase 1882**.
 

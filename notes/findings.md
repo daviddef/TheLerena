@@ -1357,3 +1357,24 @@ is exactly what an illegitimate birth would produce, and it would also explain w
 - any Rosario baptism of a **"Pablo Armando"** in 1882 under any surname (the index is by surname, so this
   means reading 1882 across every letter — expensive but finite);
 - and, decisively, **his enrolment record or the consular file**, which would name the parents outright.
+
+## *** THE ARMY LETTER IS SENT — 8 September 2026 ***
+At David's explicit request, the Spanish letter went to the **Archivo General del Ejército**,
+**`age@ejercito.mil.ar`** — an address verified from **argentina.gob.ar**, the Ministry of Defence's own
+archive directory (Defensa 628/630, Buenos Aires; +54 11 4342-0196; Mon–Fri 08:00–13:00 ART; they offer
+*referencia a distancia* by email).
+
+Sent from David's own Gmail so the reply reaches him. Message id `1a0811e9ee49a43e`. It asks for four
+things — whether the legajo survives, **the names of his parents**, the Distrito Militar of enrolment, and
+the cost of a copy — and sets out why: the parish index read 1882–1895, the cathedral being Rosario's only
+parish until 1888, his absence from the 1895 census, and the non-existence of a provincial civil registry
+in 1882.
+
+**CEMLA was NOT run.** Its search form is behind a **CAPTCHA**, and this archive's researcher does not
+complete those. It remains a five-minute job for David; the five exact searches are in
+`requests/cemla-ship-search.md`.
+
+## Progress on route 5 (reading 1882 across the letters)
+Located the sections of the baptism index **DGS 4530325**: **D at image ~201** (1889–90),
+**F at image ~255** (1890), **L at 369–403**. So **F for 1882 lies earlier, around images 240–248** —
+that is where to start looking for a *Fernández* child called Pablo Armando. Not yet read.
