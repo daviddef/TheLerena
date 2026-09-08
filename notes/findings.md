@@ -753,3 +753,60 @@ mode. **This is a tooling limitation, not a record problem.** The images are ope
 marriage entry names **both fathers and both mothers** — four names in one line, against two from a
 baptism. And **DGS 4530324 (Bautismos L-Z 1731-1879)** would carry his **older siblings**, and possibly his
 parents' own baptisms.
+
+---
+
+# 8 September 2026 — THE ROSARIO INDEX, READ. A clean negative.
+
+Done in **Chrome** (the in-app pane could not drive the deep-zoom viewer). **Method that works:**
+> Open `familysearch.org/search/film/<DGS>`; if it opens in thumbnail-grid mode click the single-page icon;
+> then **triple-click the "Image [nnn]" box, type the number, press Return** to jump. **Do NOT click the
+> +/- zoom buttons** — they land on the filmstrip and jump pages. Instead use the
+> **`computer` tool's `zoom` action with a region** — in Chrome it crops properly and the typescript is
+> perfectly legible.
+
+## What was read
+**Indice de Bautismos A-Z 1879-1900, DGS 4530325** — Nuestra Señora del Rosario (the cathedral parish),
+Rosario, Santa Fe. Columns **APELLIDOS | NOMBRES | AÑO | FOLIO**, in **Libro** blocks; alphabetical by
+letter, **chronological within the letter**.
+
+**The whole L run for 1882 and 1883 has now been read, end to end** — see
+`data/rosario-index-searched.tsv`:
+
+| Image | Libro | Year | Folios |
+|---|---|---|---|
+| 369 right | 24 | 1882 | 402-467 |
+| 370 left | 24 | 1882 | 471-567 |
+| 370 right | 24 / **25** | 1882 | 574; then **9-137** |
+| 371 left | 25 | 1882 | 138-249 (1883 starts at f.268) |
+| 372 left | 25 / 26 | 1883 | 457-540; then 7-73 |
+| 372 right | 26 | 1883 | 75-209 |
+| 404 right | 23-27 | 1880-84 | the entire **Ll-** section |
+
+## *** RESULT: NO LERENA. NO LLERENA. ***
+Not in 1882, not in 1883, and not in the separate **Ll-** section (whose whole 1880-84 content is seven
+entries: Llanos, Llorca ×3, Llanes, Llaurer, Llumar).
+
+**Pablo Armando Lerena was not baptised at the cathedral parish of Rosario in 1882 or 1883.**
+
+This is a solid negative, not a failed search: the index is legible, complete for those years, and was read
+line by line.
+
+## What it means — five live possibilities
+1. **Another Rosario parish.** By 1882 Rosario was a city of ~50,000 and the cathedral was not its only
+   parish. **This is the most likely answer, and the catalogue lists other Rosario parishes.**
+2. ***A LATE BAPTISM — and this family demonstrably did that.*** Pablo Armando's own son **Roque was born
+   25 Nov 1905 and not baptised until 12 June 1911 — six years**. If the father was treated the same way,
+   his baptism could fall anywhere in **1884-1895**. The L runs for those years are images ~373-396 of the
+   same index and could be read the same way.
+3. **Born at Rosario, baptised elsewhere** — e.g. at the mother's family's parish.
+4. **Indexed under another name** — the mother's surname, or a variant. Remember *Lerena* also occurs as a
+   forename.
+5. **The passport is not exact** about the birth date, though it is his own document and gives a precise day.
+
+**Possibility 2 is the one to test first**, because it costs only a dozen more page-reads in an index
+already open, and because the family's own habit points at it.
+
+## Note on the register volume
+David's original film, **DGS 4098791**, is a register volume, not an index. Reading it page by page is
+**not** the way in — and now that 1882-83 are excluded at this parish, it may be the wrong volume entirely.

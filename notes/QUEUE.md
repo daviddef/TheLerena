@@ -10,7 +10,18 @@ of "BIOGRAPHY" in `document.body.innerText`. The tree cards carry only names and
 what he has already sourced.**
 
 ## *** NEW TOP TARGETS from David's own notes ***
-- [ ] ***THE ROSARIO BAPTISM — NARROWED TO A FEW PAGES, 8 Sep 2026.***
+- [x] ***ROSARIO INDEX READ, 8 Sep 2026 — CLEAN NEGATIVE.*** The whole **L** run for **1882 and 1883**
+      (Libros 24, 25, 26; folios 402-574, 9-249, 457-540, 7-209) **and** the entire **Ll-** section for
+      1880-84 were read line by line in DGS 4530325. ***NO LERENA. NO LLERENA.***
+      **Pablo Armando was NOT baptised at the cathedral parish of Rosario in 1882 or 1883.**
+      Coverage table: `data/rosario-index-searched.tsv`.
+- [ ] ***NEXT, AND CHEAPEST: read the SAME index for 1884-1895.*** This family delays baptisms — Roque was
+      born 1905 and baptised **1911, six years late**. If the father was treated likewise his entry is in
+      those years. Images **~373-396** of DGS 4530325. **Method: Chrome; triple-click the Image box and type
+      the number; then use the `zoom` action with a region — never the +/- buttons.**
+- [ ] **The other Rosario parishes.** By 1882 the cathedral was not the only one. Search the FamilySearch
+      catalogue for Rosario, Santa Fe parishes and check their baptism indexes.
+- [ ] (superseded) The original narrowing note:
       Parish = **Nuestra Senora del Rosario** (the cathedral), catalog koha:208788, 71 rolls, images NOT
       restricted. **David does not need to read the 543-image register**: there are alphabetical indexes.
       - **GO TO: `familysearch.org/search/film/004530325` (Indice de Bautismos A-Z 1879-1900, 718 images),
