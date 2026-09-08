@@ -526,3 +526,70 @@ Southampton for the Cape c.1903-05, **both names are on one list.** Roque was bo
   is unproven**, and this archive keeps it in `sources/unproven/`. Note the tree also holds a
   **Roberto Juan Roque Lerena (1944-2022)** — the same name string as the 1872 Llorens child, which is
   presumably why the link was drawn.
+
+---
+
+# 8 September 2026 — THE MARRIAGE, 3 SEPTEMBER 1911. And it reframes everything.
+
+Went looking for passenger lists; found the marriage instead. FamilySearch, *South Africa, Civil Marriage
+Records, 1801-1974*, index ark `1:1:88RY-GF3Z`; image film **#007729519**, item 5, image **40 of 638**,
+*Cape Province Marriage Certificates 1-15 Sep 1911*, **images supplied by the National Archives of South
+Africa** (and, unlike the probate collection, **NOT restricted**). Full transcription:
+`data/marriage-1911.tsv`.
+
+> Marriage solemnized at **WYNBERG**. No. **160**, 3rd September **1911**.
+> **Pablo Armando Lerena**, 29, E, **bachelor**, **horse-dealer**, of **Diep River**
+> × **Mary Septima Taylor**, 27, E, **spinster**, of **Diep River**
+> "Married in **St Dominic's** at **Wynberg** aforesaid, after **banns**."
+> Both **signed their own names in full**. Examined by "**Bert…**".
+
+## *** THEY MARRIED SIX YEARS AFTER THEIR FIRST SON WAS BORN ***
+- Roque born **25 Nov 1905**, Cape Town.
+- Roque baptised **12 June 1911**, Corpus Christi, Wynberg, by **Bertram W. Glynn**.
+- Parents married **3 Sept 1911**, St Dominic's, Wynberg — **both "bachelor" and "spinster"**, so
+  **neither had been married before**.
+
+**This explains the six-year baptism delay I flagged earlier.** The child was baptised in June and the
+parents married in September: **the family was regularised in the Catholic church in the course of 1911**,
+almost certainly by the same priest — the examining signature reads "Bert…", and Glynn is Bertram W.
+
+So Roque was born outside marriage and legitimated by it. Stated plainly because the archive states things
+plainly; it is also, on the record, a couple who stayed together fifty years and were still husband and
+widower at death.
+
+## Other things this record settles
+- **"HORSE-DEALER" in 1911** — a fourth occupational term, and they track a career:
+  **horse-dealer (1911) → trainer (1940, and "Bob Lerena's" yard in the 1940s) → race horse owner (1950)**.
+- **DIEP RIVER** — the earliest address yet known. The address sequence is now
+  **Diep River (1911) → Rugby (1931-32) → Observatory (Mary Septima's death, 1935) → Camps Bay (1947-48)
+  → Newlands (1950)**.
+- **Both literate** — they signed in full, in confident hands.
+- **Wynberg is the family's parish.** Marriage at St Dominic's Wynberg; son baptised at Corpus Christi
+  Wynberg; his death registered in the Wynberg district in 1950; her death registered at Wynberg in 1935.
+- **NO PARENTS NAMED.** Cape marriage registers of this era don't carry them. So this does **not** give
+  Pablo Armando's father.
+
+## Effect on the SHIP STORY
+It does **not** disprove it — they could still have met crossing in 1904-05. But it removes an assumption
+and sharpens the search:
+- They did **not** marry on arrival. She remained **Mary Septima TAYLOR until September 1911**, so any
+  passenger list before that date carries her under **Taylor**, not Lerena — and they may have travelled
+  **separately**.
+- Because they were unmarried in 1905, a shared cabin/berth entry should not be expected.
+
+## Her death, independently indexed
+*South Africa, Cape Province, Civil Records, 1840-1972*: **"Mary Septima Taylor Lerena", death
+15 November 1935, Wynberg, Cape Province** — matching the Maitland burial register exactly.
+
+## AND A CAUTION: no English record for her has been found
+A FamilySearch search on "Mary Septima Taylor" returns **only the two South African records**. No English
+birth, baptism or census entry has yet been found for a Mary Septima Taylor born 1884. **Her English birth
+is family knowledge, not documented.** She could equally have been born at the Cape to an English family —
+Victorian settlers named children exactly the same way. **Do not assert England.**
+Test: 1891 and 1901 England censuses; GRO birth index Sept quarter 1884; and, if those fail,
+Cape baptism registers.
+
+## Also seen
+**Find a Grave Index** carries **Pablo Armando Lerena, b. 22 Feb 1882, d. 19 Mar 1950** — a memorial
+exists. Not yet opened; may give the grave and a headstone photograph. Likely Maitland Cemetery no. 1,
+where his wife lies in grave 7719A.
