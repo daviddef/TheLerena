@@ -1,0 +1,170 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+const kids = [
+  ["Kathleen Georgina", "4 Nov 1870", "29 Feb 1940", "1st daughter", false],
+  ["William John", "Nov 1870", "11 May 1951", "m. Fanny Ellen Jefferey", false],
+  ["Horace A", "Apr 1872", "18 Jan 1934", "", false],
+  ["Isabella Temple “Edie”", "1874", "Dec 1953", "2nd daughter · m. Dalling", false],
+  ["Margaret Hellen Walker “Maggie”", "1876", "after 1953", "3rd daughter · m. Bell", false],
+  ["Irene “Rene”", "1879", "25 Mar 1969", "4th daughter · a twin · m. Burton", false],
+  ["(unknown twin)", "1879", "—", "5th daughter · Irene’s twin; her name is not recorded", false],
+  ["Lucy Elizabeth", "4 Aug 1881", "26 May 1957", "6th daughter · m. Sweet", false],
+  ["Mary Septima", "17 Sep 1884", "15 Nov 1935", "the SEVENTH daughter · m. Pablo Armando Lerena", true],
+  ["Agnes Walker “Aggie”", "3 Aug 1889", "29 Apr 1974", "8th daughter · m. Wood", false],
+];
+---
+<Base title="The Taylors">
+  <h1>Mary Septima Taylor</h1>
+  <p class="lede">
+    She is buried in the Roman Catholic ground at Maitland under a Spanish surname she took at about twenty.
+    Her own name is a piece of arithmetic, and it turns out to be exactly right.
+  </p>
+
+  <h2>The name is a count</h2>
+  <p>
+    <span class="chip doc">Documented</span> <strong>Mary Septima Taylor</strong> was born
+    <strong>17 September 1884</strong>, the ninth of ten children of <strong>William Taylor</strong>
+    (1826&ndash;1902) and <strong>Mary Ann Hellen Brayley</strong> (1843&ndash;1900).
+  </p>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Child</th><th>Born</th><th>Died</th><th>Note</th></tr></thead>
+      <tbody>
+        {kids.map(([n, b, d, note, hi]) => (
+          <tr>
+            <td>{hi ? <strong>{n}</strong> : n}</td>
+            <td class="mono">{b}</td><td class="mono">{d}</td>
+            <td class="small">{hi ? <strong>{note}</strong> : note}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  <p>
+    <em>Septima</em> is Latin for <strong>seventh</strong>, and Victorian parents used such names literally.
+    Count the daughters in order of birth &mdash; Kathleen, Isabella, Margaret, Irene, Irene's twin, Lucy
+    &mdash; and <strong>Mary Septima is the seventh</strong>.
+  </p>
+  <p>
+    <span class="chip">Inferred</span> Which incidentally settles something the tree leaves blank: the
+    unnamed twin of 1879 must have been a <strong>girl</strong>, or the arithmetic does not come out. The
+    name her parents gave her ninth child records a sister whose own name has been lost.
+  </p>
+  <p class="small">
+    Her granddaughter's generation kept it: an infant <strong>Antoinette Septima Lynette Lerena</strong> was
+    born on 3 January 1943 and died four days later.
+  </p>
+
+  <h2>The line behind her</h2>
+  <p>
+    <span class="chip doc">Documented</span> Above William Taylor stands <strong>James Taylor</strong>, born
+    about <strong>1796</strong>, and his wife <strong>Harriet Reynolds</strong> (1803&ndash;1827). Harriet
+    died on 12 November 1827, when her son William was twenty-one months old. A first
+    <strong>William Taylor</strong> had been born on 29 December 1824 and died the following September at
+    eight months; the William who lived was given the dead child's name, as families then did.
+  </p>
+  <p>
+    That reaches back <strong>four generations above Mary Septima</strong>, to a man born in the
+    1790s &mdash; further than this archive has yet got on the Lerena side, where
+    <a href={u("/direct-line")}>Pablo Armando's own parents are still unknown</a>.
+  </p>
+
+  <h2>Where were they? &mdash; not yet established</h2>
+  <p>
+    <span class="chip">Open</span> The tree carries names and dates but <strong>no birthplaces</strong>, and
+    this archive will not assert a country it has not seen written down. The surnames lean English, and one
+    leans hard: <strong>Brayley</strong> is a Devon name, from Bray in the north of the county.
+    <em>Temple</em>, <em>Walker</em>, <em>Reynolds</em>, <em>Sweet</em>, <em>Dalling</em>, <em>Burton</em>
+    and <em>Bell</em> are all of a piece with that.
+  </p>
+  <p>
+    This is the easiest gap in the archive to close, because the English records for it are excellent:
+  </p>
+  <ul>
+    <li>The <strong>1891 and 1901 England censuses</strong> would show William Taylor's whole household in
+      one line each &mdash; with Mary Septima aged 6 and then 16, and a birthplace for every person in it.</li>
+    <li><strong>GRO birth indexes</strong> for ten children between 1870 and 1889 give the registration
+      district, and so the town.</li>
+    <li>The <strong>Taylor&ndash;Brayley marriage</strong>, c. 1869, names both fathers.</li>
+  </ul>
+
+  <h2>The ship</h2>
+  <p>
+    <span class="chip lore">Family lore</span> The story is that Mary Septima and Pablo Armando
+    <strong>met aboard a ship bound for South Africa</strong>.
+  </p>
+  <p>
+    The objection is a fair one and was raised by the family itself: <em>she</em> was in England, but
+    <em>he</em> was an Argentine going from Argentina to South Africa &mdash; so what was he doing on a ship
+    out of England? Three things make the story work better than it first looks.
+  </p>
+
+  <h3>1. The River Plate reached the Cape through Europe</h3>
+  <p>
+    In the 1900s there was no dense direct passenger service between Buenos Aires and Cape Town. The
+    ordinary way to make that journey was to sail to <strong>Europe</strong> and change ships &mdash;
+    Southampton being the hub of the mail service to the Cape. On that reading he was never "in England" in
+    any meaningful sense: <strong>he changed ships there</strong>, and the leg on which they met was the
+    Southampton&ndash;Cape Town run. "He came from Argentina" and "they met on a ship from England" are not
+    in conflict at all. <span class="chip">Inferred</span>
+  </p>
+
+  <h3>2. The horses were already moving that way</h3>
+  <p>
+    <span class="chip doc">Documented</span> The South African War of 1899&ndash;1902 consumed horses on a
+    scale never seen before: of some 519,000 horses used, <strong>about 360,000 were shipped into South
+    Africa</strong>, drawn from England, Australia, Canada, New Zealand, Burma &mdash; and
+    <strong>Argentina</strong>. Contemporary British officers grumbled about the "mongrel Argentines" and
+    set Australian bushmen to breaking them.
+  </p>
+  <p>
+    Pablo Armando Lerena was born in February 1882. He was <strong>seventeen when that war began and twenty
+    when it ended</strong> &mdash; and he was a horseman, later an Argentine cavalryman and a Cape Town
+    trainer. A young man of exactly his age and trade moving from the River Plate to the Cape in those years
+    was moving <em>with</em> a trade, not against the current. <a href={u("/horses")}>The horses &rarr;</a>
+  </p>
+
+  <h3>3. She had a documented reason to be aboard</h3>
+  <p>
+    <span class="chip doc">Documented</span> Her mother died in <strong>April 1900</strong> and her father
+    in <strong>November 1902</strong>. She was fifteen and then eighteen.
+  </p>
+  <p>
+    And from <strong>1901</strong> the Colonial Office and the emigration societies ran an organised
+    programme to send <strong>single British women to South Africa</strong> &mdash; a scheme the war had
+    turned from charity into imperial policy, aimed at securing the new colonies by settling British women
+    in them. An orphaned Englishwoman of nineteen or twenty sailing for the Cape between 1903 and 1905 is
+    not an anomaly. <strong>She is the type the scheme existed to carry.</strong>
+  </p>
+
+  <h3>What would prove it</h3>
+  <p>
+    All three of those are context, not evidence about these two people. The story is testable, and by a
+    single class of record:
+  </p>
+  <blockquote>
+    <strong>UK outward passenger lists (BT 27)</strong> survive from 1890 and are indexed by name. If
+    Mary Septima Taylor and Pablo Armando Lerena sailed from Southampton for the Cape between about 1903
+    and 1905, <strong>both their names are on one list</strong>.
+  </blockquote>
+  <p>
+    Their first child <a href={u("/estate")}>Roque</a> was born at Cape Town on
+    <strong>25 November 1905</strong>, which brackets the crossing: they were both at the Cape, and married,
+    by early 1905. <a href={u("/open-questions")}>Open questions &rarr;</a>
+  </p>
+
+  <h2>Her end</h2>
+  <p>
+    <span class="chip doc">Documented</span> She died on <strong>15 November 1935</strong> at
+    <strong>34 Florence Road, Observatory</strong>, aged 51, and was buried in the <strong>Roman Catholic
+    allotment of Maitland Road Cemetery no. 1, grave 7719 A</strong>, six feet nine inches down, Father
+    Graham officiating. The doctor who certified her death, <strong>J. R. E. Lee</strong>, would sign her
+    husband's certificate fifteen years later.
+  </p>
+  <p>
+    She left three grown sons &mdash; Roque, Ricardo and Nuno &mdash; and her husband did not remarry.
+    He was still described as a widower on his Argentine passport in 1940 and on his death certificate in
+    1950. <a href={u("/estate")}>The estate &rarr;</a>
+  </p>
+</Base>

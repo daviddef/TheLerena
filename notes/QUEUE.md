@@ -11,6 +11,27 @@ Roberto Paul Lerena → Nuno Fernando Lerena → Cheryl Anne Lerena.** The work 
       **parents, exact birth date and birthplace**. This is the single document that takes the line into
       Argentina. Get the rest of MOOC 6/9/17017.
 
+## The TAYLOR side (opened 8 Sep 2026) — and the ship story
+- [ ] ***THE SHIP: UK outward passenger lists (BT 27)***, Southampton to the Cape, **c.1903-1905**.
+      If the family story is true, **Mary Septima Taylor and Pablo Armando Lerena are on ONE list**.
+      Bracketed tightly: Roque was born at Cape Town 25 Nov 1905, so both were at the Cape by early 1905.
+      **The single most attractive target in the project right now** - indexed, online, and decisive.
+- [ ] **Establish WHERE the Taylors were.** The tree has no birthplaces. Easiest gap in the archive:
+      - **1891 and 1901 England censuses** - William Taylor's household, Mary Septima aged 6 and 16, with a
+        birthplace for every person.
+      - **GRO birth indexes** for the ten children, 1870-1889 - gives registration district.
+      - **The Taylor-Brayley marriage**, c.1869 - names both fathers.
+      - Test **BRAYLEY = Devon** (from Bray, north Devon).
+- [ ] **Mary Septima's own emigration.** Orphaned 1900/1902. Test the **South African Colonisation
+      Society** / Colonial Office female emigration scheme (from 1901) - did she travel under it?
+      Their records name the women they placed.
+- [ ] **The Taylor-Lerena marriage**, c.1904-05. Where? Cape Town, England, or at sea? A marriage record
+      would name her father and settle the whole sequence.
+- [ ] Push above **James Taylor (b. c.1796)** and **Harriet Reynolds (1803-1827)**.
+- [ ] Work the eight Taylor siblings and their married surnames (Dalling, Bell, Burton, Sweet, Wood,
+      Jefferey, Bridge) - and find out **whether any of them also went to South Africa**. If a sister was
+      already at the Cape, that is a likelier reason for Mary Septima to sail than any scheme.
+
 ## Above generation 1
 - [ ] **Where in South America?** The death certificate says only "South America". The Pablo Armando
       passport says **Rosario de Santa Fe** — but that man is not certainly this one.

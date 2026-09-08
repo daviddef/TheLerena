@@ -429,3 +429,100 @@ against it and none for it.
 | Brought horses | **CONFIRMED** — passport, death certificate, stables file, the press, and a carrot bill |
 | Consul General | **DISPUTED** — he was the bearer; A. B. Bayne signed |
 | Ostrich farm | **DOUBTFUL** — no land held; wrong district; wrong trade |
+
+---
+
+# 8 September 2026 — MARY SEPTIMA TAYLOR, and her line
+
+MyHeritage read via the in-app browser. **Trick that works:** re-root the tree with
+`?rootIndividualID=<id>` on the tree URL, then read
+`window.newTree.genealogy._individualsCollection._allIndividuals`. The tree only loads the visible
+viewport, so re-rooting is how you reach any branch. Real site ID is **329786671** (leaked in thumbnail
+URLs); tree ID **4**. Person-profile URLs did NOT work; re-rooting did.
+
+## The woman
+**MARY SEPTIMA TAYLOR, b. 17 Sep 1884, d. 15 Nov 1935** — matches the Maitland burial register exactly
+(Nov 1935, aged 51). MyHeritage id **4000037**. Husband **4000036 "Pablo Armando / Robert Paul Lerena,
+Feb 22 1882 – Mar 19 1950"** — *David's tree already merges the two names, independently of this archive.*
+
+## *** SEPTIMA MEANS SEVENTH, AND IT IS LITERAL ***
+Parents **William Taylor (11 Feb 1826 – 30 Nov 1902)** and **Mary Ann Hellen BRAYLEY (20 May 1843 –
+21 Apr 1900)**. Ten children:
+
+| # | Child | Born | Died |
+|---|---|---|---|
+| 1 | Kathleen Georgina | 4 Nov 1870 | 29 Feb 1940 |
+| 2 | William John | Nov 1870 | 11 May 1951 |
+| 3 | Horace A | Apr 1872 | 18 Jan 1934 |
+| 4 | Isabella Temple "Edie" (m. Dalling) | 1874 | Dec 1953 |
+| 5 | Margaret Hellen Walker "Maggie" (m. Bell) | 1876 | after 1953 |
+| 6 | Irene "Rene" (m. Burton) | 1879 | 25 Mar 1969 |
+| 7 | **Unknown twin** | 1879 | — |
+| 8 | Lucy Elizabeth (m. Sweet) | 4 Aug 1881 | 26 May 1957 |
+| 9 | **MARY SEPTIMA** | **17 Sep 1884** | 15 Nov 1935 |
+| 10 | Agnes Walker "Aggie" (m. Wood) | 3 Aug 1889 | 29 Apr 1974 |
+
+**Daughters in order: Kathleen(1), Isabella(2), Margaret(3), Irene(4), the twin(5), Lucy(6),
+MARY SEPTIMA(7).** The name is a count, and it comes out.
+→ **INFERRED: the unnamed 1879 twin was a GIRL**, or the arithmetic fails. Her name is lost; her sister's
+name records her.
+→ The name persisted: infant **Antoinette SEPTIMA Lynette Lerena**, b. 3 Jan 1943, d. 7 Jan 1943.
+
+## Two generations further back
+**James Taylor, b. circa 1796**, m. **Harriet Reynolds (1803 – 12 Nov 1827)**; later **Laura Collins**
+(b. before 1827). An earlier **William Taylor b. 29 Dec 1824, d. 10 Sep 1825** (8 months) — our William
+(b. Feb 1826) carries the dead child's name.
+
+**So the Taylor line reaches the 1790s — further back than the Lerena line, where Pablo Armando's own
+parents are still unknown.**
+
+## PLACES ARE NOT ESTABLISHED
+The tree gives no birthplaces. Surnames lean English and **BRAYLEY is a Devon name** (from Bray, north
+Devon). *Temple, Walker, Reynolds, Sweet, Dalling, Burton, Bell* fit. **But nothing is written down yet.**
+Easiest gap in the archive to close: **1891 and 1901 England censuses** (Mary Septima aged 6 and 16, whole
+household with birthplaces); **GRO birth indexes** 1870-1889; the **Taylor–Brayley marriage** c.1869.
+
+## THE SHIP STORY — David's objection, and the answer
+David: *"they met on a ship travelling to South Africa, but I find it odd, as she was in England, and why
+would he be in England if he went from Argentina to South Africa."* Fair. Three things resolve it:
+
+1. **The River Plate reached the Cape VIA EUROPE.** In the 1900s there was no dense direct BA–Cape Town
+   passenger service; the normal route was to sail to Europe and change ships, Southampton being the hub of
+   the mail service to the Cape. **He need never have been "in England" in any real sense — he changed
+   ships.** "Came from Argentina" and "met on a ship from England" are not in conflict. *Inferred.*
+2. **The horses were already moving that way.** *Documented:* of ~519,000 horses used in the South African
+   War, **~360,000 were shipped in**, from England, Australia, Canada, NZ, Burma **and ARGENTINA** (British
+   officers complained about the "mongrel Argentines"; Australian bushmen broke them). Pablo Armando was
+   **17 when that war began and 20 when it ended**, and was a horseman. He was moving *with* a trade.
+3. **She had a documented reason to be aboard.** Mother d. Apr 1900, father d. Nov 1902 — orphaned at 15
+   and 18. *Documented:* **from 1901 the Colonial Office and emigration societies ran an organised
+   programme sending single British women to South Africa**, which the war had turned from charity into
+   imperial policy. An orphaned Englishwoman of 19-20 sailing for the Cape in 1903-05 is the type the
+   scheme existed to carry.
+
+### THE TEST
+**UK outward passenger lists (BT 27)**, surviving from 1890 and name-indexed. If they sailed from
+Southampton for the Cape c.1903-05, **both names are on one list.** Roque was born at Cape Town
+**25 Nov 1905**, so they were both at the Cape and married by early 1905. That brackets the crossing tightly.
+
+## Also recovered from the tree (large haul — not all worked yet)
+- **Rose Lilian Theys, 18 Jan 1896 – 13 Dec 1987** — the "no relation" executrix who lived at 7 Forth Road
+  and took a quarter of the estate. She IS in David's tree.
+- **CORRECTION to an earlier note:** Roque's first wife was **Rosaline Wilhelmina (Rose) FORBES,
+  5 May 1903 – 2 Jul 1950** — *not* Chappell. **Doreen May CHAPPELL (13 Apr 1921 – 17 Nov 1999)** is
+  **Ricardo's** wife. So the racing press's "great uncle Frederick Chapell" attaches through **Ricardo's
+  marriage**, not Roque's. The Corpus Christi annotation naming "Rosalina Wilhelmina Chappell" therefore
+  needs re-reading — possibly a prior married name, possibly an error.
+- Roque's 2nd wife: **Rhena May BARICHIEVY, 3 Sep 1913 – 1 Apr 1998**.
+- **Ricardo Juan Carlos Lerena, 6 Jan 1920 – 21 Dec 1994.** Children incl. Roberto Juan Roque (1944-2022),
+  **Ricardo Paul (b. 1945)**, Pierre Frederick (1948-1999), Yvonne Paulette (b. 1950), **Anton Armando
+  (1952-2003)**, Juan Carlos (b. 1955), **Gilberto (1957-2020)** — note *Gilberto*, echoing Gilberto Lerena
+  Lenguas of the Argentine Stud Book. Theresa (b. 1961).
+- Infant deaths: Unknown Lerena (17-22 May 1932); Rieta Maria Armando Lerena (Dec 1935 – 28 Aug 1937);
+  Ricardo Juan Carlos Lerena (May 1939 – 31 Jan 1940); Antoinette Septima Lynette (3-7 Jan 1943);
+  Careen Marie (Jun 1947 – 22 Jun 1947).
+- **Roberto Llorens (b.1850)** and **Francisca Fernandez Lerena (b. circa 1850)** ARE in David's tree —
+  i.e. the San Miguel 1872 baptism is his working hypothesis for Pablo Armando's parents. **David states it
+  is unproven**, and this archive keeps it in `sources/unproven/`. Note the tree also holds a
+  **Roberto Juan Roque Lerena (1944-2022)** — the same name string as the 1872 Llorens child, which is
+  presumably why the link was drawn.
