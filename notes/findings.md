@@ -1412,3 +1412,30 @@ Full grid: `data/rosario-index-map.tsv`.
 **Three letters of twenty-six.** Completing the sweep is a defined, finite job — roughly 40–60 more image
 reads, one call each — and it would answer conclusively whether he was baptised at Rosario in 1882 under
 *any* surname. It has not been done, and this note says so rather than implying more coverage than exists.
+
+## Sweep progress — 9 letters of ~26 done
+
+**A · B · C · D · E · F · L · Ll complete for 1882; G partial.** No Pablo Armando in any of them.
+Coverage grid: `data/rosario-index-map.tsv`.
+
+### Two things learned that make the rest faster
+1. ***The index flags illegitimacy.*** Entries carry **"(N.)"** — *natural*, i.e. born out of wedlock —
+   e.g. *"Eduardo · Paul (N.) · 1882 · f.505"*. **So if Pablo Armando was born outside marriage and
+   registered under his mother's surname, his entry should carry that mark.** That is a second thing to
+   scan for, not just the given name.
+2. ***"Expósito" is a surname in this index*** — the name given to foundlings. It sits in the E section and
+   there are many of them. **If he was abandoned or of unknown father he could be an Expósito**, and the E
+   section for 1882 has now been read with no Pablo Armando among them.
+
+### Near misses, recorded so they are not re-chased
+- **"Chaparro · Pablo H." 1882 f.67** — a Pablo, wrong second initial and surname.
+- **"Funes · Armando" 1882 f.163** — an Armando, wrong given name and surname.
+- **"Eduardo · Paul (N.)" 1882 f.505** — a Paul, flagged illegitimate, wrong surname.
+- **"Gorosito · Pablo" 1881 f.71** — a Pablo, wrong year and surname.
+
+**None is him.** But the fact that all four exist shows the sweep is sensitive enough to catch the name if
+it is there.
+
+### What remains
+**G (tail) · H · I/J/K · M · N/O · P · Q/R · S · T/U/V · W–Z.** Roughly **25–35 more image reads**.
+Rough positions: G runs to ~330, so **H starts ~331**; **L starts 369**; **M starts ~407**.

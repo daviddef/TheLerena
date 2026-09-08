@@ -1,19 +1,19 @@
-letter	image_where_sampled	year_at_that_image	image_of_1882_band	status_1882
-A		 		NOT LOCATED
-B				NOT LOCATED
-C	120	1883	117-118 (f.95-244 read at 118; f.1-94 on 117 NOT read)	PARTIAL - no Pablo in what was read
-D	201	1889-1890		NOT LOCATED (1882 will be well before 201)
-E				NOT LOCATED
-F	255	1890	239 (right page, f.368+) and 240 (f.471-577, Libro 25 f.2-218)	*** READ IN FULL - NO PABLO ARMANDO. Note "Funes / Armando / 1882 / f.163" - an Armando, wrong surname, wrong given name. ***
-G	320	1894		NOT LOCATED (1882 well before 320)
-H				NOT LOCATED
-I / J / K				NOT LOCATED
-L	369-403 (whole 1879-1901 run)	1882 at 369-371	369 right, 370, 371 left	*** READ IN FULL - NO LERENA. Also 1883-1895 read. ***
-Ll	404-406	1880-84 at 404	404	*** READ - NO LLERENA (whole Ll section 1880-84 is 7 entries) ***
-M				NOT LOCATED
-N / O				NOT LOCATED
-P				NOT LOCATED
-Q / R				NOT LOCATED
-S				NOT LOCATED
-T / U / V				NOT LOCATED
-W / X / Y / Z				NOT LOCATED
+letter	1882_images	status	result_and_notes
+A	11-12	*** COMPLETE ***	No Pablo Armando. Libro 24 f.501-575, Libro 25 f.7-249.
+B	56-57	*** COMPLETE ***	No Pablo Armando. Libro 24 f.423-575, Libro 25 f.1-245. (Lower halves of 56 were blurred - tiles unloaded - so a small gap remains.) Note "Bleis / Roque / 1882 / f.25".
+C	117-118	*** COMPLETE ***	No Pablo Armando. Libro 24 f.526-576, Libro 25 f.1-244. Note "Chaparro / Pablo H. / 1882 / f.67" - a Pablo, wrong second name and surname.
+D	190	*** COMPLETE ***	No Pablo Armando. Libro 24 f.186-474, Libro 25 f.2-233. Image 191 is already 1883.
+E	223	*** COMPLETE ***	No Pablo Armando. Libro 24 f.370-563, Libro 25 f.32-244. Note "Eduardo / Paul (N.) / 1882 / f.505" - a Paul, marked (N.) = natural/illegitimate, but wrong surname and not Pablo Armando.
+F	239-240	*** COMPLETE ***	No Pablo Armando. Libro 24 f.368-577, Libro 25 f.2-218. Note "Funes / Armando / 1882 / f.163" - an Armando, wrong given name and surname. *** THIS KILLS THE FERNANDEZ HYPOTHESIS. ***
+G	280 (+281 needed)	PARTIAL	No Pablo Armando in Libro 24 f.361-551. *** The Libro 25 tail of G's 1882 is STILL TO READ. ***
+H		NOT STARTED	G runs to about image 330 (G at 320 = 1894), so H starts about 331.
+I / J / K		NOT STARTED	Between H and L (L starts 369).
+L	369-371	*** COMPLETE ***	No Lerena. 1883-1895 also read.
+Ll	404	*** COMPLETE ***	No Llerena. The whole Ll section for 1880-84 is seven entries.
+M		NOT STARTED	After Ll, from about image 407.
+N / O		NOT STARTED	
+P		NOT STARTED	*** HIGH PRIORITY - a large Spanish surname letter. ***
+Q / R		NOT STARTED	
+S		NOT STARTED	*** HIGH PRIORITY - large letter. ***
+T / U / V		NOT STARTED	
+W / X / Y / Z		NOT STARTED	
