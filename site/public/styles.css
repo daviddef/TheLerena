@@ -788,3 +788,8 @@ body.is-home #onthispage{display:none}
   background:var(--panel);border:1px solid var(--rule)}
 .feat > h2{font-size:clamp(24px,3.4vw,34px)}
 .feat .dek{margin-top:8px}
+
+/* ---- wide plate: a full-width illustration inside a page ---- */
+.wideplate{margin:0 0 34px;background:var(--panel);border:1px solid var(--rule);border-radius:3px;overflow:hidden}
+.wideplate img{display:block;width:100%;height:auto;border-bottom:1px solid var(--rule)}
+.wideplate figcaption{padding:13px 16px 15px;margin-top:0}

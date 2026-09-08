@@ -66,6 +66,36 @@ returns **730 records**; with `f.recordCountry=Argentina`, **6,017**.
       MONTEVIDEO family.** Test whether David's line joins it.
 - [ ] **TRAP: there is a Rosario in URUGUAY (Colonia) too.** Do not assume "Rosario" means Santa Fe.
 
+## *** WHERE TO GO NEXT IN ARGENTINA (researched 8 Sep 2026) ***
+Three independent bodies of evidence now refuse to place this family at Rosario: fourteen years of
+cathedral baptisms, the whole FamilySearch index, and the 1895 national census (no Lerena in Santa Fe at
+all). Published on the Argentina page. Four routes, best first:
+
+- [ ] ***1. HIS MILITARY ENROLMENT - THE STRONGEST LEAD.*** The passport itself cites a **libreta de
+      enrolamiento** issued via the Consulado General Argentino, Cape Town, and service in the
+      **Guardia Nacional 6o de Caballeria, 1915**. Enrolment compulsory under **Ley 4031 (1901)**;
+      the libreta under **Ley 8129 (4 Jul 1911)**. Born 1882 = conscription **clase 1882**.
+      **An enrolment record NAMES THE PARENTS AND BIRTHPLACE.**
+      - **Archivo General del Ejercito**, Buenos Aires - takes email reference enquiries.
+      - **FamilySearch has an agreement with the Argentine army archive** - SEARCH THAT FIRST.
+      - Enrolment was at the *Distrito Militar* of declared domicile (Santa Fe's, if he was at Rosario).
+        Registers listed by province by the Centro de Estudios Genealogicos de San Luis.
+- [ ] ***2. THE CONSULATE THAT ISSUED THE PASSPORT.*** He had to prove nationality in 1940, so the Cape
+      Town consulate held a **matricula consular** file on him. Those went home to
+      **Archivo del Ministerio de Relaciones Exteriores y Culto**, Buenos Aires. Also the consulate's
+      correspondence on the South African side (NAAIRS).
+- [ ] **3. CIVIL REGISTRATION, WHICH IS NOT ONLINE.** Argentine civil registration is provincial and Santa
+      Fe's is unindexed for the 1880s (control search returns 0). Order direct from the **Registro Civil de
+      la Provincia de Santa Fe**; also **Archivo General de la Provincia de Santa Fe** and the Rosario
+      municipal archive.
+- [ ] **4. URUGUAY - not a fallback but the likelier answer.** Montevideo civil registration and parish
+      registers; the Lerena Lenguas kindred.
+- [ ] **THE GILBERTO QUESTION.** This family named a son **Gilberto Lerena** in 1957 in South Africa,
+      three generations after leaving. **Gilberto Justiniano Lerena Lenguas is now documented**: b. 1854
+      Uruguay, head of a household in the 1895 census at Buenos Aires Seccion 21 Subd. 15, wife Julia
+      Salvanach, sons Carlos Augusto Federico (1883) and Raul (1885), family crossed Montevideo -> Buenos
+      Aires between 1887 and 1889. **Either they were kin or they knew who he was.** Test it.
+
 ## *** NEW TOP TARGETS from David's own notes ***
 - [x] ***ROSARIO INDEX READ, 8 Sep 2026 — CLEAN NEGATIVE.*** The whole **L** run for **1882 and 1883**
       (Libros 24, 25, 26; folios 402-574, 9-249, 457-540, 7-209) **and** the entire **Ll-** section for

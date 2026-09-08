@@ -1,10 +1,29 @@
 ---
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+/* The plate appears the moment the file is dropped in; the page is fine without it. */
+const ART = "/art/rosario-parana.webp";
+const hasArt = fs.existsSync(
+  path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "..", "public", ART)
+);
 ---
 <Base title="Argentina"
       eyebrow="Rosario, Santa Fe — and the records that do not answer"
       dek="Rosario is the place the family names. Nothing is yet proved there — but Rosario is a good place to be sent, because its records survive and are largely reachable.">
+
+{hasArt && (
+  <figure class="wideplate">
+    <img src={u(ART)} loading="lazy" decoding="async"
+         alt="A painted impression of the high bank of the Paraná at Rosario in the 1880s: low whitewashed buildings along the bluff, a timber corral with criollo horses, and a small steamer far out on the water." />
+    <figcaption class="cap">A modern painted impression, not a photograph, and not a view of any place
+      this family is documented at. It stands for what the passport asserts and the registers have not yet
+      confirmed — Rosario on the Paraná, the horses, and a boat on the water.</figcaption>
+  </figure>
+)}
+
 <section class="blk">
 
 <div class="panel" style="margin:1.4rem 0">
@@ -130,4 +149,121 @@ import { u } from "../lib/url.js";
     <a href={u("/open-questions")}>Open questions &rarr;</a>
   </p>
 </section>
+<section class="blk">
+  <h2>The 1895 census: a Lerena household, and it is not his</h2>
+  <p class="dek">The Argentine national census of 1895 is indexed and searchable. It answers a different
+    question from the one it was asked.</p>
+  <p style="margin-top:18px"><span class="chip doc">Documented</span> One substantial Lerena household
+    appears, in <strong>Buenos Aires, Sección 21, Subdivisión 15</strong>:</p>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr><th>Name</th><th class="m">Age</th><th class="m">Born</th><th>Birthplace</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Gilberto Lerena</strong> <span class="cap">head, married</span></td><td class="m">41</td><td class="m">1854</td><td><strong>Uruguay</strong></td></tr>
+        <tr><td>Maria E. C.</td><td class="m">26</td><td class="m">1869</td><td>Uruguay</td></tr>
+        <tr><td>Maria Luisa</td><td class="m">15</td><td class="m">1880</td><td>Uruguay</td></tr>
+        <tr><td>Carlos A.</td><td class="m">11</td><td class="m">1884</td><td>Uruguay</td></tr>
+        <tr><td>Raul A.</td><td class="m">9</td><td class="m">1886</td><td>Uruguay</td></tr>
+        <tr><td>Maria A.</td><td class="m">8</td><td class="m">1887</td><td>Uruguay</td></tr>
+        <tr><td>Maria C.</td><td class="m">6</td><td class="m">1889</td><td><strong>Buenos Aires</strong></td></tr>
+        <tr><td>Maria E.</td><td class="m">5</td><td class="m">1890</td><td>Buenos Aires</td></tr>
+        <tr><td>Luis F.</td><td class="m">2</td><td class="m">1893</td><td>Buenos Aires</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p style="margin-top:20px">
+    Uruguayan records already give <strong>Gilberto Lerena</strong> married to <strong>Julia
+    Salvañach</strong>, with sons <strong>Carlos Augusto Federico</strong> (born Montevideo, 1883) and
+    <strong>Raul</strong> (1885). Here they are, in Buenos Aires, ten years on.
+  </p>
+  <p style="margin-top:14px">
+    <span class="chip inf">Inferred</span> So the co-founder of the <a href={u("/horses/")}>Argentine Stud
+    Book</a> was a <strong>Uruguayan</strong>, born 1854 — which fits a Group 1 race being renamed in his
+    honour in 1914, at or just after his death. And the children's birthplaces date the family's crossing
+    precisely: <strong>Uruguay through 1887, Buenos Aires from 1889</strong>.
+  </p>
+  <div class="note" style="margin-top:24px">
+    <strong>He is not Pablo Armando's household</strong>, and Pablo Armando is not in the 1895 census at
+    all, though he would have been thirteen. <strong>Nor is there a single Lerena recorded in Santa Fe or
+    Rosario.</strong> The census Lerenas are Uruguayan in Buenos Aires, Spanish-born in another quarter of
+    it, and scattered singles in Tucumán and Entre Ríos.
+  </div>
+</section>
+
+<section class="blk">
+  <h2>Three refusals, and one direction</h2>
+  <p>Three independent bodies of evidence have now declined to put this family at Rosario:</p>
+  <div class="grid g3" style="margin-top:22px">
+    <div class="panel"><span class="chip doc">Read</span>
+      <p class="ab"><strong>Fourteen years of cathedral baptisms</strong>, 1882&ndash;1895, line by line —
+        and until 1888 there was no other parish in the city.</p></div>
+    <div class="panel"><span class="chip doc">Searched</span>
+      <p class="ab"><strong>The whole FamilySearch index.</strong> Two records exist for him worldwide: a
+        Cape marriage and a modern grave memorial.</p></div>
+    <div class="panel"><span class="chip doc">Searched</span>
+      <p class="ab"><strong>The 1895 national census.</strong> No Lerena in Santa Fe; none anywhere
+        answering to him.</p></div>
+  </div>
+  <p style="margin-top:22px">
+    Meanwhile <strong>Uruguay keeps answering</strong>: the world's densest Lerena population, a documented
+    Montevideo kindred, and a household that crossed to Buenos Aires in the late 1880s.
+    <a href={u("/hypotheses/")}>The hypotheses &rarr;</a>
+  </p>
+  <p class="cap" style="margin-top:16px">None of that unseats the passport. It is his own document, sworn
+    at a consulate, naming a city, a province and a day. It does mean the corroboration has not been found
+    where it ought to be — and that Argentine coverage online is thin enough for that to be a fact about
+    the archives rather than about him.</p>
+</section>
+
+<section class="blk">
+  <h2>Where to go next</h2>
+  <p class="dek">Four routes, in the order they are worth trying. The first two are implied by the passport
+    itself.</p>
+
+  <h3 style="margin-top:26px">1 · His military enrolment — the strongest lead</h3>
+  <p>The passport records a <em>libreta de enrolamiento</em> issued through the
+    <strong>Consulado General Argentino</strong> at Cape Town, and gives his service as the
+    <strong>Guardia Nacional, 6º de Caballería, 1915</strong>. Argentine military enrolment was made
+    compulsory by <strong>Ley 4031 of 1901</strong>, and the <em>libreta</em> itself by
+    <strong>Ley 8129 of 4 July 1911</strong>. A man born in 1882 belongs to the conscription
+    <strong>clase 1882</strong>.</p>
+  <p style="margin-top:12px"><strong>An enrolment record names the man's parents and his birthplace.</strong>
+    Enrolment was done at the <em>Distrito Militar</em> of the declared domicile — so if he was at Rosario,
+    Santa Fe's district holds it.</p>
+  <ul>
+    <li><strong>Archivo General del Ejército</strong>, Buenos Aires — takes reference enquiries by email.</li>
+    <li><strong>FamilySearch has an agreement with the Argentine army archive</strong>; part of the
+      collection is already online and should be searched before writing to anyone.</li>
+    <li>The <em>Distritos Militares</em> registers are listed by province by the Centro de Estudios
+      Genealógicos de San Luis.</li>
+  </ul>
+
+  <h3 style="margin-top:26px">2 · The consulate that issued the passport</h3>
+  <p>To be issued an Argentine passport in 1940 he had to prove nationality — which means the
+    <strong>Consulado General at Cape Town held a file on him</strong>: a <em>matrícula consular</em>,
+    the registration every Argentine abroad made. Those files went home to the ministry.</p>
+  <ul><li><strong>Archivo del Ministerio de Relaciones Exteriores y Culto</strong>, Buenos Aires.</li>
+      <li>And on the South African side, the consulate's own correspondence in the
+        <a href={u("/naairs/")}>national archives</a>.</li></ul>
+
+  <h3 style="margin-top:26px">3 · Civil registration, which is not online</h3>
+  <p>Argentine civil registration is <strong>provincial</strong>, and Santa Fe's is not indexed on
+    FamilySearch for the 1880s at all — a control search for a common surname at Rosario in those years
+    returns nothing. It has to be ordered directly.</p>
+  <ul>
+    <li><strong>Registro Civil de la Provincia de Santa Fe</strong> — births, marriages, deaths.</li>
+    <li><strong>Archivo General de la Provincia de Santa Fe</strong>, and the Rosario municipal archive.</li>
+  </ul>
+
+  <h3 style="margin-top:26px">4 · Uruguay, which the evidence keeps indicating</h3>
+  <p>Montevideo civil registration and parish registers, and the <strong>Lerena Lenguas</strong> kindred
+    already surfacing there. If Rosario continues to refuse, this is not a fallback but the likelier
+    answer. <a href={u("/name/")}>The name &rarr;</a></p>
+
+  <div class="note" style="margin-top:26px"><strong>And one question of its own.</strong> This family named
+    a son <strong>Gilberto Lerena</strong> in 1957, in South Africa, three generations after leaving. The
+    stud-book Gilberto is now a documented man with a documented household. Either they were kin, or they
+    knew exactly who he was — and both are worth finding out.</div>
+</section>
+
 </Base>

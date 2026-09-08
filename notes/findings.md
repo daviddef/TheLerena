@@ -1202,3 +1202,52 @@ Spanish naming custom names children for grandparents. **Patricia Carmen's** gra
 **HYPOTHESIS, recorded as such:** *a Carmen stands somewhere in Pablo Armando Lerena's own maternal line.*
 Weak on its own; useful as a filter. **When searching Argentine and Uruguayan Lerena records, give extra
 weight to any household containing a Carmen.**
+
+---
+
+# 8 September 2026 — THE 1895 NATIONAL CENSUS: a Lerena household, and it is the stud-book family
+
+Searched the **Argentine National Census of 1895** (indexed and searchable) for the surname.
+Full table: `data/census-1895-lerena.tsv`.
+
+## A whole household in Buenos Aires — Sección 21, Subdivisión 15
+| Name | Age | Born | Where |
+|---|---:|---:|---|
+| **Gilberto Lerena** (head, married) | 41 | 1854 | **Uruguay** |
+| Maria E. C. | 26 | 1869 | Uruguay |
+| Maria Luisa | 15 | 1880 | Uruguay |
+| **Carlos A.** | 11 | 1884 | Uruguay |
+| **Raul A.** | 9 | 1886 | Uruguay |
+| Maria A. | 8 | 1887 | Uruguay |
+| Maria C. | 6 | 1889 | **Buenos Aires** |
+| Maria E. | 5 | 1890 | Buenos Aires |
+| Luis F. | 2 | 1893 | Buenos Aires |
+| *Josefa Lerena De L.* (widow, same subdivision) | 43 | 1852 | Uruguay |
+
+### This is Gilberto Justiniano Lerena Lenguas
+The Uruguayan records already found give **Gilberto Lerena m. Julia Salvañach**, with sons
+**Carlos Augusto Federico** (b. 9 Jul 1883, Montevideo) and **Raul** (b. 1885, Montevideo). Here they are
+in Buenos Aires in 1895 as *Carlos A., 11, b. Uruguay* and *Raul A., 9, b. Uruguay*.
+
+→ **The co-founder of the Argentine Stud Book was a Uruguayan**, born 1854 — which fits a Group 1 race
+being renamed in his honour in **1914**, at or just after his death, aged about sixty.
+→ **The birthplaces date the family's move.** Uruguay through 1887; Buenos Aires from 1889.
+**They crossed the Plate between 1887 and 1889.**
+
+## *** AND A THIRD NEGATIVE FOR ROSARIO ***
+- **No Lerena appears in Santa Fe or Rosario in the 1895 census at all.**
+- **No Pablo Armando Lerena appears anywhere in it**, though he would have been thirteen.
+
+The Lerenas the census does show are: this **Uruguayan** household in Buenos Aires; a separate
+**Spanish-born** family (Leandro, b.1857 Spain) in another Buenos Aires section; two in **Tucumán**; one in
+**Entre Ríos** (b. Uruguay); and an Italian-born Lola on Isla Martín García.
+
+So three independent bodies of evidence now decline to place this family at Rosario — fourteen years of
+cathedral baptisms, the whole FamilySearch index, and now the national census — while **Uruguay keeps
+answering**.
+
+## The Gilberto echo, and what it might mean
+David's family named a son **Gilberto Lerena (1957-2020)**. The stud-book Gilberto is now a documented man
+with a documented household. **A South African family of Argentine horsemen naming a son Gilberto is a
+thread worth pulling** — either they were kin, or they knew perfectly well who he was.
+<span>Recorded as a question, not a claim.</span>
