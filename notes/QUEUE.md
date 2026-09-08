@@ -3,6 +3,35 @@
 Updated 8 September 2026, after the family papers were read. **The descent is closed and documented:
 Roberto Paul Lerena → Nuno Fernando Lerena → Cheryl Anne Lerena.** The work is now all *above* generation 1.
 
+## METHOD NOTE — READ DAVID'S OWN FACTS FIRST
+**David records everything in the MyHeritage Biography / Facts / Notes panels.** Before researching
+anything, read them: re-root the tree with `?rootIndividualID=<id>` and read the LEFT PANEL from the index
+of "BIOGRAPHY" in `document.body.innerText`. The tree cards carry only names and dates. **Do not re-derive
+what he has already sourced.**
+
+## *** NEW TOP TARGETS from David's own notes ***
+- [ ] **THE ROSARIO BAPTISM — David has already located the film.**
+      `https://www.familysearch.org/en/search/film/004098791?cat=208788&i=4`
+      His note: *"still need to look through the rosario records here"*. Pablo Armando b. 22 Feb 1882.
+      **This names his parents and is the single biggest remaining prize.**
+- [ ] ***THE URUGUAYAN CONSULATE, not the Argentine one.*** David records an occupation
+      **"Uruguay consulate, Cape Town"**, and *"was the ambassador for Argentina for a while — although
+      YVONNE LERENA claims it was URUGUAY."* This archive has searched Argentina and found nothing, and on
+      the 1940 passport he is the *bearer*. **Search the Uruguayan consulate at Cape Town**, and the
+      exequatur in the Union Gazette. Uruguay also has the world's densest Lerena population.
+- [ ] **Government horse-import contracts.** David: *"Pablo used to import horses into SA from Argentina
+      FOR THE ZA GOVERNMENT."* Remount/bloodstock contracts, import registrations with country of origin.
+- [ ] **BLOUBERG land.** David: *"He owned a lot of land up around Blouberg area."* The deeds sweep found
+      none - so re-work the Cape deeds registry for **Blouberg and Milnerton** under **LERENA / LERINA /
+      LARENA**.
+- [ ] **GAVIN KNOTT** - "given the job of tying the horse business up after he died". Trace him; he may
+      have left records of the stables.
+- [ ] **The 1916 copy document** on which *"dates have been manipulated to show earlier year… but was
+      1911"*. Find it - it is the family concealing Roque's illegitimacy.
+- [ ] **Sue Taylor** - named as the source for the ostrich-farmer occupation. Ask her directly.
+- [ ] **Northam parish church, Devon** - William Taylor's grave **XB28-K8**; the Taylor baptisms and
+      marriages; St Mark's Bideford for the 1870 marriage.
+
 ## THE ONE TARGET
 - [ ] **The DEATH NOTICE from Roberto Paul Lerena's own 1950 estate file** (Letters of Administration
       **1847/50** = NAAIRS **KAB MOOC 6/9/17017**). The liquidation account shows Dichmont & Dichmont were
@@ -18,12 +47,15 @@ Roberto Paul Lerena → Nuno Fernando Lerena → Cheryl Anne Lerena.** The work 
       so she is **TAYLOR** on any list before that date, never Lerena, and **they may have travelled
       separately** - do not expect a shared entry. Search each name independently.
       Also try **LERINA** and **LARENA** (both attested spellings).
-- [ ] **Establish WHERE the Taylors were.** The tree has no birthplaces. Easiest gap in the archive:
-      - **1891 and 1901 England censuses** - William Taylor's household, Mary Septima aged 6 and 16, with a
-        birthplace for every person.
-      - **GRO birth indexes** for the ten children, 1870-1889 - gives registration district.
-      - **The Taylor-Brayley marriage**, c.1869 - names both fathers.
-      - Test **BRAYLEY = Devon** (from Bray, north Devon).
+- [x] **ANSWERED from David's own facts (I should have read them first).** The Taylors are of
+      **NORTHAM and BIDEFORD, north DEVON**. Mary Septima **b. Bideford 17 Sep 1884** (GRO, Bideford),
+      christened **St Margaret's Northam** 30 Oct 1884, Anglican. Father **William Taylor b. Worlingworth,
+      SUFFOLK, 11 Feb 1826**, a **COACHMAN**; m.2 **Mary Ann Hellen Brayley at St Mark's, Bideford,
+      26 Jan 1870**. **The Brayley=Devon inference was right.**
+- [ ] Push above **James Taylor (b. c.1796)** in **Suffolk** - Worlingworth/Stowmarket parish registers.
+- [ ] **1901 census** - where was Mary Septima at 16, and was she still a pupil teacher?
+- [ ] **Her emigration.** Between the Dec 1900 prize at Northam and Roque's birth at Cape Town in Nov 1905.
+      A four-year window. **BT 27 outward passenger lists** under **TAYLOR**.
 - [ ] **Mary Septima's own emigration.** Orphaned 1900/1902. Test the **South African Colonisation
       Society** / Colonial Office female emigration scheme (from 1901) - did she travel under it?
       Their records name the women they placed.

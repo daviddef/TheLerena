@@ -593,3 +593,105 @@ Cape baptism registers.
 **Find a Grave Index** carries **Pablo Armando Lerena, b. 22 Feb 1882, d. 19 Mar 1950** — a memorial
 exists. Not yet opened; may give the grave and a headstone photograph. Likely Maitland Cemetery no. 1,
 where his wife lies in grave 7719A.
+
+---
+
+# 8 September 2026 — READING DAVID'S OWN FACTS AND NOTES (a process correction)
+
+**I had not been reading the MyHeritage Biography/Facts/Notes panels — only the rendered tree cards.**
+David records everything there. Method, for every future session:
+
+> Re-root the tree with `?rootIndividualID=<id>`, then read the LEFT PANEL's **BIOGRAPHY** and **FACTS**
+> sections from `document.body.innerText` (slice from the index of "BIOGRAPHY"). The card data carries only
+> names and dates; **the research is in the panels.**
+
+Several things below correct this archive. They are corrections *to me*, from David's own sourced work.
+
+## MARY SEPTIMA TAYLOR — my caution was WRONG
+- **Birth: 17 September 1884, BIDEFORD, DEVON, ENGLAND.** Cited to *England and Wales Birth Registration
+  Index, 1837-2008* (FamilySearch ark `1:1:2XLQ-C29`), from findmypast, **citing Birth Registration,
+  Bideford, Devon, GRO Southport.**
+  → **RETIRE the hypothesis that she may have been Cape-born.** My FamilySearch search was simply badly
+  filtered. **Her English birth is documented.**
+- **Christening: 30 Oct 1884, ANGLICAN — St Margaret's Church, Northam, Devon.**
+- **Residence 5 Apr 1891 (the census): Barnes, Surrey** — "2 Crystal(?) Villas, Stanton Road. Living with
+  aunt…"
+- **Bishop Phillpotts' Prayer Book Prize, 1 Dec 1900, Northam** — Exeter Diocesan Board of Education,
+  religious knowledge exam for *monitors, candidates and pupil teachers*; Class III, monitors over 16 and
+  pupil teachers, **one of 43 out of 88 who passed**. David: *"Appears to have been a scholar."*
+  **She was a pupil teacher at 16.**
+- ***BAPTISM (her own): 16 December 1911, CATHOLIC, Corpus Christi, Wynberg.***
+  → **SHE CONVERTED.** Anglican at birth; received into the Catholic church **three months after the
+  marriage**. The 1911 regularisation is now complete and documented: **son baptised 12 June, parents
+  married 3 September, mother received 16 December.**
+- **Death 15 Nov 1935, 34 Florence Villas, Observatory. CAUSE: carcinoma of uterus and bladder, septic
+  nephritis.** Burial **16 Nov 1935, plot 7719A, Woltemade Cemetery, Maitland**.
+- **Her sons were born:** Roque — Cape Town; **Ricardo — CLAREMONT**; **Nuno — WYNBERG**.
+- **David's Fact 1 (family memory):** *"She had a difficult time, especially when she got ill, with Luis
+  being so challenging and at odds with his father Pablo… it broke her heart when Pablo cut Luis off from
+  the family and home… he had always been a difficult person, who also due to the fall out became very
+  embittered and unforgiving."*
+  → ***THIS EXPLAINS THE WILL.*** In the 1950 estate **Luis (Roque) received only half a share** — the same
+  as **Rose Lilian Theys, "no relation"** — while Nuno and Ricardo shared three-quarters. **A documented
+  estrangement, and the will is its receipt.**
+
+## PABLO ARMANDO LERENA — David's notes, several of which redirect this archive
+- Birth **Rosario, Rosario Department, Santa Fe** ✓. David's own note: *"still need to look through the
+  Rosario records here:"* **`familysearch.org/en/search/film/004098791?cat=208788&i=4`** — an actionable
+  film for the Rosario baptism. **TOP TARGET.**
+- Occupations recorded: **Horse Breeder · Horse dealer and trainer · Ostrich Farmer (unconfirmed, advised
+  by Sue Taylor) · Uruguay consulate, Cape Town.**
+- ***"Pablo used to import horses into South Africa from Argentina FOR THE ZA GOVERNMENT.* He then also
+  brought in some horses for his own stables from there."**
+  → **This is exactly "testable form 1" of the horse claim, which this archive framed on day one.** Family
+  testimony, not yet a document — but it names a searchable thing: **government remount/bloodstock
+  contracts.**
+- **"Pablo had big stables in Cape Town and GAVIN KNOTT was given the job of tying the horse business up
+  after he died."** A named person to trace.
+- ***"He owned a lot of land up around BLOUBERG area."*** → **QUALIFIES my "no land at all" finding.** The
+  deeds sweep found none, but the family says Blouberg (north of Cape Town, beyond Milnerton). **Search the
+  deeds under Blouberg, and under LERINA/LARENA.**
+- **"The 3 brothers left Cape Town for JOHANNESBURG in the 1940s. They all lived together in a house in
+  MAYFAIR."** → explains the Cape→Transvaal shift this archive inferred from NAAIRS.
+- ***"Friendly with political figures and was the ambassador for Argentina for a while. Although YVONNE
+  LERENA claims it was URUGUAY."*** plus an occupation entry **"Uruguay consulate, Cape Town"**.
+  → **MAJOR REDIRECT.** The consular tradition may be **URUGUAYAN, not Argentine** — which would explain
+  why nothing has been found on the Argentine side, and why he was a *bearer* on an Argentine passport.
+  **Search the Uruguayan consulate at Cape Town.** Note also Uruguay has the world's densest Lerena
+  population.
+- **"He ran from Argentina for a communism related reason"** — David flags it as unsubstantiated family
+  claim.
+- **Ricardo Juan Carlos was ALSO called "Bob".** So *two* Bob Lerenas. The Sporting Post's "Bob Lerena,
+  grandfather of Spike" is still **Pablo Armando** (Ricardo is Spike's *father*), but the ambiguity is a
+  real hazard in racing records.
+- **David's own open question, in his biography field: *"is roberto paul and pablo armando the same
+  person?"*** → **ANSWERED TODAY** by the Corpus Christi baptism register. One man.
+- ***"Dates have been manipulated to show earlier year on copy document from 1916. But was 1911."***
+  → Someone altered the marriage date on a 1916 copy — presumably to place the marriage before Roque's
+  1905 birth. **The family covered up the illegitimacy.** Worth finding that 1916 copy.
+
+## THE CHAPPELL / FORBES TANGLE — SOLVED
+David: **"He [Roque] was married to Doreen's mother Rose."**
+So **Rosaline Wilhelmina (Rose) Forbes** had first been married to a **Chappell**, bearing
+**Doreen May Chappell**; Rose then married **Roque** in 1936, while Doreen married Roque's brother
+**Ricardo** in 1941. **Roque married his brother's mother-in-law.**
+→ The Corpus Christi annotation "Rosalina Wilhelmina Chappell" is her **previous married name**.
+**My hypothesis was right.** And it explains the brothers' feud: *"Cardo and Luis never spoke again."*
+
+## WILLIAM TAYLOR (1826-1902) — her father
+- **Born 11 Feb 1826, Worlingworth ["Wollingworth"], SUFFOLK**; christened 12 Mar 1826.
+- ***Occupation: PENSIONER, COACHMAN, DOMESTIC SERVANT***, of **Northam, Devon**.
+  → **Horses on her side too.** A coachman's daughter married a horse-dealer.
+- m.1 **Laura Collins, 1 Jan 1848, Stowmarket ["Stonemarket"], Suffolk.** *(Correction: Laura was
+  WILLIAM's first wife, not James Taylor's second, as this archive earlier guessed.)*
+- m.2 **Mary Ann Hellen Brayley, 26 Jan 1870, St Mark's Parish Church, BIDEFORD, Devon** — he was 43,
+  she 26.
+- Children's addresses: **23 Geneva Place, Bideford** (1872) · **North Street, Northam** (1881) ·
+  **2 Fore Street, Northam** (1889).
+- Wife d. **21 Apr 1900, Home Sweet Terrace, Northam**.
+- **Died 30 Nov 1902, 2 Park Terrace, Northam. Cause: chronic bulbar paralysis and asphyxia.** Informant
+  was his son **Horace Archibald Taylor**, present at the death.
+- **Buried: old grave no. XB28-K8, Northam parish church.**
+
+→ **The family is of NORTHAM and BIDEFORD, north Devon** — which is exactly where **Brayley** comes from
+(Bray, north Devon). This archive's inference from the surname alone was right, and is now documented.
