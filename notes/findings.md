@@ -1378,3 +1378,37 @@ complete those. It remains a five-minute job for David; the five exact searches 
 Located the sections of the baptism index **DGS 4530325**: **D at image ~201** (1889–90),
 **F at image ~255** (1890), **L at 369–403**. So **F for 1882 lies earlier, around images 240–248** —
 that is where to start looking for a *Fernández* child called Pablo Armando. Not yet read.
+
+---
+
+# 8 September 2026 (late) — route 5 begun: reading 1882 across the letters
+
+**Purpose:** to test the theory that Pablo Armando is in the Rosario baptism index but **not under Lerena** —
+because a child born outside marriage was commonly registered under the **mother's surname**, and this
+family's documented habit was children first, marriage later.
+
+**Method (proven and fast):** in Chrome, `familysearch.org/search/film/004530325`, switch to single-image
+view, type the image number in the box, then `computer` **region zoom** on `[210,105,620,720]` (left page)
+and `[580,105,1025,720]` (right page). One call per image. Look down the **NOMBRES** column for
+*Pablo Armando* or *Pablo*.
+
+## Covered so far
+| Letter | 1882 images | Result |
+|---|---|---|
+| **F** | 239 (right), 240 | ***READ IN FULL — no Pablo Armando.*** One curiosity: **"Funes · Armando · 1882 · folio 163"** — an *Armando*, but the wrong surname and not *Pablo* Armando. |
+| **C** | 118 (folios 95–244) | Read — no Pablo. **Folios 1–94 on image 117 still to read.** |
+| **L** | 369–371 | Already read — no Lerena. (1883–1895 also read.) |
+| **Ll** | 404 | Already read — no Llerena; the whole 1880–84 Ll section is seven entries. |
+
+**→ The Fernández hypothesis fails.** There is no Pablo Armando under F in 1882.
+
+## The map, for resuming
+Sampled positions, so the 1882 band of each letter can be found quickly:
+**C ≈ 120 (1883) · D ≈ 201 (1889–90) · F ≈ 255 (1890) · G ≈ 320 (1894) · L 369–403 · Ll 404–406.**
+Because each letter's section runs chronologically, **1882 always sits early in its letter's band**.
+Full grid: `data/rosario-index-map.tsv`.
+
+## Honest status
+**Three letters of twenty-six.** Completing the sweep is a defined, finite job — roughly 40–60 more image
+reads, one call each — and it would answer conclusively whether he was baptised at Rosario in 1882 under
+*any* surname. It has not been done, and this note says so rather than implying more coverage than exists.
