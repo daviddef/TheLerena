@@ -1,0 +1,43 @@
+---
+import Base from "../../layouts/Base.astro";
+import { u } from "../../lib/url.js";
+import places from "../../data/places.json";
+import people from "../../data/people.json";
+export function getStaticPaths(){ return places.map(pl => ({ params:{ slug:pl.slug }, props:{ pl } })); }
+const { pl } = Astro.props;
+const here = people.filter(p => p.placeSlug === pl.slug)
+                   .sort((a,b) => (a.born||"").localeCompare(b.born||"") || a.name.localeCompare(b.name));
+const sources = [...new Set(here.map(p => p.source).filter(Boolean))];
+---
+<Base title={pl.name} eyebrow={`${pl.count} ${pl.count === 1 ? "person" : "people"} of this surname recorded here`}
+      dek="Everyone of the name this archive has found in this place, with the record that produced each of them.">
+
+<section class="blk">
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Person</th><th>Born</th><th>Nationality</th><th>Source</th></tr></thead>
+      <tbody>
+        {here.map(p => (
+          <tr>
+            <td><a href={u(`/people/${p.slug}/`)}><strong>{p.name}</strong></a>
+              {p.occupation && p.occupation !== "-" && <><br /><span class="cap">{p.occupation}</span></>}</td>
+            <td class="m">{p.born || "—"}</td>
+            <td>{p.nationality || "—"}</td>
+            <td>{p.source || "—"}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+{sources.length > 0 && <section class="blk">
+  <h2>Where these came from</h2>
+  <ul>{sources.map(s => <li>{s}</li>)}</ul>
+</section>}
+
+<section class="blk">
+  <p class="cap"><a href={u("/places/")}>All places &rarr;</a> &middot;
+    <a href={u("/register/")}>The full register &rarr;</a></p>
+</section>
+</Base>

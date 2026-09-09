@@ -1,0 +1,64 @@
+---
+import Base from "../../layouts/Base.astro";
+import Chip from "../../components/Chip.astro";
+import { u } from "../../lib/url.js";
+import people from "../../data/people.json";
+import places from "../../data/places.json";
+export function getStaticPaths(){ return people.map(p => ({ params:{ slug:p.slug }, props:{ p } })); }
+const { p } = Astro.props;
+const place = places.find(x => x.slug === p.placeSlug);
+const others = place ? people.filter(x => x.placeSlug === p.placeSlug && x.slug !== p.slug) : [];
+const rec = [
+  ["Name", p.name],
+  ["Born", p.born],
+  ["Birthplace", p.birthplace],
+  ["Nationality", p.nationality],
+  ["Occupation", p.occupation],
+  ["Where found", p.where],
+  ["Source", p.source],
+].filter(([,v]) => v && v !== "-");
+const eyebrow = [p.born && `b. ${p.born}`, p.place].filter(Boolean).join(" · ");
+---
+<Base title={p.name} eyebrow={eyebrow || "A person of this surname"}
+      dek={p.note || "Everything this archive holds on this person, and the record that produced them."}>
+
+<section class="blk">
+  <div class="lab">Status</div>
+  <div style="margin-top:8px"><Chip c={p.status} /></div>
+  <div class="rec" style="margin-top:22px">
+    {rec.map(([k,v]) => (<><div class="k">{k}</div><div class="v">{v}</div><div class="w"></div></>))}
+  </div>
+</section>
+
+{p.note && <section class="blk">
+  <h2>What is known</h2>
+  <p class="prose" style="margin-top:16px">{p.note}</p>
+</section>}
+
+{p.status === "connected" && <section class="blk">
+  <div class="note"><strong>This person is on the direct line.</strong> Their place in the descent, with the
+    documents behind it, is set out on <a href={u("/direct-line/")}>the line</a>.</div>
+</section>}
+
+{p.status === "excluded" && <section class="blk">
+  <div class="note"><strong>Checked and ruled out.</strong> This person carries the surname but has been
+    shown not to belong to our family. They are kept here rather than deleted, because knowing which
+    candidates were eliminated — and why — is worth as much as knowing which survived.</div>
+</section>}
+
+{place && <section class="blk">
+  <h2>Where they were found</h2>
+  <a class="cardlink" href={u(`/places/${place.slug}/`)} style="max-width:560px">
+    <div class="nm">{place.name}</div>
+    <div class="txt">{place.count} {place.count === 1 ? "person" : "people"} of this surname recorded here</div>
+  </a>
+  {others.length > 0 && <p class="dek" style="margin-top:18px">Others recorded in the same place:
+    {others.slice(0,12).map((o,i) => (<>{i ? " · " : " "}<a href={u(`/people/${o.slug}/`)}>{o.name}</a></>))}
+  </p>}
+</section>}
+
+<section class="blk">
+  <p class="cap">This page is generated from <span class="mono">data/lerena-register.tsv</span>, so it
+    cannot fall out of step with the register. <a href={u("/register/")}>All 104 people &rarr;</a></p>
+</section>
+</Base>

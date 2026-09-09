@@ -1,0 +1,12 @@
+---
+const { c } = Astro.props;
+const map = {
+  connected: ["doc", "Connected to the line"],
+  excluded:  ["", "Excluded"],
+  high:      ["lore", "Unplaced · high interest"],
+  interest:  ["inf", "Unplaced · of interest"],
+  unplaced:  ["inf", "Unplaced"],
+};
+const [cls, label] = map[c] || ["inf", c];
+---
+<span class={cls ? `chip ${cls}` : "chip"}>{label}</span>

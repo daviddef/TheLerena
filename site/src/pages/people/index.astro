@@ -1,0 +1,54 @@
+---
+import Base from "../../layouts/Base.astro";
+import { u } from "../../lib/url.js";
+import people from "../../data/people.json";
+const order = { connected:0, high:1, interest:2, unplaced:3, excluded:4 };
+const sorted = [...people].sort((a,b) => (order[a.status]-order[b.status]) || a.name.localeCompare(b.name));
+const n = people.length;
+const conn = people.filter(p=>p.status==="connected").length;
+---
+<Base title="Everyone" eyebrow={`${n} people of this surname, each with their own page`}
+      dek="Every Lerena this archive has met, anywhere, with the record that produced them. Search the list and follow any name through to what is known about that person.">
+
+<section class="blk">
+  <p class="prose">Five are <strong>connected</strong> to the direct line. Seven have been
+    <strong>excluded</strong> — checked and shown not to belong. The rest are <strong>unplaced</strong>:
+    found, recorded, and honestly unresolved. That majority is not a failure of the work; it is what a rare
+    surname looks like before the connecting document turns up.</p>
+  <input id="pq" type="search" placeholder={`Search all ${n} people…`} autocomplete="off"
+         style="width:100%;margin-top:22px;padding:14px 16px;font:inherit;font-size:1.05rem;
+                background:var(--panel);color:var(--ink);border:1px solid var(--rule);border-radius:2px" />
+  <p id="pcount" class="cap" style="margin-top:10px">Showing all {n} people.</p>
+</section>
+
+<section class="blk">
+  <div class="grid g3" id="plist">
+    {sorted.map(p => (
+      <a class="cardlink" href={u(`/people/${p.slug}/`)}
+         data-s={[p.name,p.born,p.place,p.source,p.nationality,p.occupation,p.status].join(" ").toLowerCase()}>
+        <div class="nm" style="font-size:1.05rem">{p.name}</div>
+        <div class="txt">{[p.born && `b. ${p.born}`, p.place].filter(Boolean).join(" · ")}</div>
+      </a>
+    ))}
+  </div>
+  <p id="pnone" class="note" style="margin-top:18px;display:none">Nothing matches that.</p>
+</section>
+
+<script is:inline>
+  (function(){
+    var q=document.getElementById('pq'); if(!q) return;
+    var cards=[].slice.call(document.querySelectorAll('#plist .cardlink'));
+    var c=document.getElementById('pcount'), none=document.getElementById('pnone');
+    q.addEventListener('input',function(){
+      var t=q.value.toLowerCase().split(/\s+/).filter(Boolean), n=0;
+      cards.forEach(function(el){
+        var h=el.getAttribute('data-s')||'';
+        var ok=t.every(function(x){return h.indexOf(x)!==-1});
+        el.hidden=!ok; if(ok)n++;
+      });
+      c.textContent = t.length ? ('Showing '+n+' of '+cards.length+' people.') : ('Showing all '+cards.length+' people.');
+      none.style.display = n ? 'none' : '';
+    });
+  })();
+</script>
+</Base>

@@ -1,0 +1,36 @@
+---
+import Base from "../../layouts/Base.astro";
+import { u } from "../../lib/url.js";
+import places from "../../data/places.json";
+import people from "../../data/people.json";
+const total = people.length;
+---
+<Base title="Places" eyebrow={`Every place this surname has been found — ${places.length} of them`}
+      dek="The same register, arranged by geography rather than by name. It is the quickest way to see where this family's evidence actually clusters — and where it does not.">
+
+<section class="blk">
+  <h2>What the geography says</h2>
+  <div class="prose">
+    <p>Read down this list and the shape of the problem appears. The surname clusters in the
+      <strong>River Plate</strong> — Buenos Aires, Montevideo, and a small inland town in Uruguay called
+      <strong>Trinidad</strong>, where six men of the name fathered children in the 1870s. That is very
+      probably the founding kindred.</p>
+    <p>And <strong>Rosario</strong>, the one place the family itself names, is thin. Everything found there
+      is either twentieth century or a lodger in a tenement. <strong>The place we were told to look is the
+      place with least in it.</strong></p>
+  </div>
+</section>
+
+<section class="blk">
+  <div class="grid g3">
+    {places.map(pl => (
+      <a class="cardlink" href={u(`/places/${pl.slug}/`)}>
+        <div class="nm" style="font-size:1.05rem">{pl.name}</div>
+        <div class="txt">{pl.count} {pl.count === 1 ? "person" : "people"}</div>
+      </a>
+    ))}
+  </div>
+  <p class="cap" style="margin-top:22px">{total} people in all, across {places.length} places.
+    <a href={u("/people/")}>Everyone &rarr;</a></p>
+</section>
+</Base>
