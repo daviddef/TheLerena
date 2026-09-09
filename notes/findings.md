@@ -2199,3 +2199,27 @@ Carlos, Raúl) the South African branch kept using.
 ### 3 and 4 — not advanced this round
 The rest of the **1869 Rosario census** (whether Bartolomé appears again with a household) and the
 **1901–1909 gap in Mary Septima's life** were not touched. They remain the two most tractable jobs left.
+
+## The eight-year gap, narrowed to two ships
+
+Pursuing point 4 of the five. **No Mary Taylor of her age left Britain for South Africa at all** — the
+outward lists 1890–1960, searched on forename, age and destination, return **zero**.
+
+**But the index often carries no forename.** Dropping it and filtering on surname, age and destination
+produces **two candidates in exactly the right window**:
+
+- ***MISS Taylor, 19, single, DOMESTIC*** — Southampton → **Cape, 9 September 1903**, ship
+  ***Harlech Castle*** — TNA **BT 27/0420**, p.68, image 0004F
+- ***MISS Taylor, 19, single*** — Southampton → **Cape, 9 April 1904**, ship ***Walmer Castle*** —
+  TNA **BT 27/0448**
+
+**Mary Septima was born 17 September 1884**, so on **9 September 1903 she was eight days short of
+nineteen** — and the manifest says nineteen. The occupation fits the life too: a pupil teacher at sixteen
+in a cab driver's household of ten children, at a moment when the Cape was **actively recruiting British
+domestic servants** with assisted passage. That would put her in Cape Town about two years before Roque
+was born there.
+
+***A candidate, not an identification.*** Taylor is among the commonest English surnames and "Miss Taylor,
+19" will have sailed for the Cape many times. **The original images would show the forename** — the
+transcripts read perfectly but findmypast's tile viewer would not render in this browser, so the images
+remain unopened. Two minutes' work in an ordinary browser. Written up in `notes/the-eight-year-gap.md`.
