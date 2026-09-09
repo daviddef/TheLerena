@@ -1977,3 +1977,28 @@ year of him.
 fuzzy noise. Four generations, and neither of our names in any of them. And Gualeguaychú is on the far side
 of the country from Rosario, which is the one thing about his origin the family has always been consistent
 about. **Recorded on the register as unplaced; a candidate for elimination, not a discovery.**
+
+## *** METHOD: the registers can be read as text — and a correction ***
+
+I twice told David that settling the 1884 marriage candidate required the **Chrome extension**, because the
+in-app browser cannot crop to a region and a nineteenth-century hand is illegible at full-page scale.
+**He challenged it, and he was right to.** The premise was wrong twice over: the viewer has **its own zoom**,
+so magnification never depended on the screenshot tool; and, far more importantly, **the handwriting does
+not need to be read at all.**
+
+**Every image carries an "Image Index" panel that is HTML text, not an image.** For a marriage act it gives
+**both parties, their ages, and BOTH SETS OF PARENTS**, plus date and parish — the entire genealogical
+content of the act — extractable with `document.querySelector('table').innerText`.
+
+**This turns the Rosario marriage registers into a database.** It applies to the whole series, and had it
+been understood earlier it would have saved much of the baptism sweep. Written up as
+`notes/reading-registers-without-handwriting.md`, with the practical notes: get into single-image mode by
+clicking a thumbnail, then step with the **arrows** — navigating by number or `?i=` URL bounces back to
+the grid.
+
+**Proved on 8 June – 8 July 1884** at the Cathedral: about fifteen marriages captured in full, all four
+parents each, tabulated in that note. **No Sarmiento and no L-surname of interest in that stretch.**
+
+**Still open:** the candidate at **Libro 9 folio 20** was not reached — the viewer kept resetting position
+and the index panel appears on some loads and not others. A mechanical obstacle, not a research one. About
+twenty images cover all of 1884, six marriages each.
