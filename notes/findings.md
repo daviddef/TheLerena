@@ -2099,3 +2099,26 @@ kill the idea outright. ***It is now the most valuable single unexamined documen
   Llerena in the province of the Gualeguaychú Larena kindred.
 
 Full write-up: `notes/the-1869-census-of-rosario.md`. All nine added to the register.
+
+### The 1869 image read — and I have to correct myself
+**Film #004331984, image 86, Sección 2ª.** The schedule was opened, panned and magnified until every field
+was legible.
+
+***My "household" reading last night was wrong.*** There is no Lerena family on that page. **Every line
+carries its own number**, and the twelve people are of a dozen different surnames — washerwomen, a
+laundress, day labourers, a peon, a carpenter, a Spanish shopkeeper. It is **a list of individuals at one
+address, a conventillo or lodgings**. The *Lorena*/*Loroña* entries I grouped with Bartolomé are elsewhere
+in the census entirely; the line I expected to be a Lorena is **Vachalo**.
+
+**So there is no Lerena family in Rosario in 1869. There is one man:**
+
+> ***Bartolomé LLERENA — 45, married, Argentine, born CÓRDOBA, JORNALERO — Rosario, Sección 2ª, 1869.***
+
+He is still **the only person of this surname found in Rosario before 1882**, which is worth having. But
+**he lodges among strangers** with no wife or children beside him though recorded married; **he is a day
+labourer**, not a horseman or a man of property; and the surname on the page reads ***Llerena***, with the
+Castilian double L.
+
+**Weaker than it looked last night, and still the best pre-1882 Rosario evidence there is.** The next step
+is the rest of the 344-image census: whether Bartolomé appears again with a household, and whether the
+Lorena/Loroña entries are a family or, as here, scattered lodgers.

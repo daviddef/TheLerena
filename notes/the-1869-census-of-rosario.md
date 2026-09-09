@@ -59,3 +59,60 @@ outright. **It is now the most valuable single unexamined document in the Argent
   the way this family's evidence keeps hinting at.
 - ***Camilo Llerena***, 1869 census at **Nogoyá, Entre Ríos**, **born 1842 in Santa Fe** — a Santa Fe-born
   Llerena living in Entre Ríos, which is where the large **Gualeguaychú Larena kindred** sits.
+
+---
+
+# *** THE IMAGE, READ — and a correction to the page above ***
+
+**Seen 9 September 2026.** Film **#004331984**, *Rosario. Census 1869*, **image 86 of 344**, Sección 2ª,
+urban. The schedule was opened, panned and magnified until the *Apellido* column and every field were
+legible.
+
+## What the page actually shows
+
+| # | Apellido | Nombre | Edad | Sexo | Est. civil | Nacionalidad | Provincia | Profesión |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Bustamante | Segunda | 32 | m | s | Argentina | Córdoba | lavandera |
+| 2 | Miranda | José | 20 | v | s | id. | — | jornalero |
+| 3 | Rodríguez | José | 22 | v | s | id. | Catamarca | peón |
+| **4** | ***Llerena*** | ***Bartolomé*** | **45** | **v** | **c** | **id.** | **Córdoba** | ***jornalero*** |
+| 5 | Barrionuevo | Rosa | 24 | m | c | id. | — | planchadora |
+| 6 | Flores | Eduviges | 12 | m | s | id. | — | — |
+| 7 | Ludueña | Pascuala | 24 | m | s | id. | — | lavandera |
+| 8 | Ludueña | Mercedes | 8 | m | s | id. | — | — |
+| 9 | Pérez | Ángela | 20 | m | s | id. | — | lavandera |
+| 10 | Vachalo | Agustín | 32 | v | c | **Español** | — | comerciante |
+| 11 | Echeveitia | José | 35 | v | c | id. | — | carpintero |
+| 12 | Echeveitia | Laureano | 24 | v | s | id. | — | — |
+
+## *** The correction ***
+**The page above proposed a "household" — Agustín with children born at Córdoba — and that reading was
+wrong.** There is no such household here. **Every line carries its own number**, and the twelve people are
+of a dozen different surnames: washerwomen, a laundress, day labourers, a peon, a carpenter, a Spanish
+shopkeeper. This is a **list of individuals at one address — a conventillo, or lodgings** — not a family.
+
+The *Lorena* and *Loroña* entries I grouped with him are **elsewhere in the census**, not on this page.
+Line 10 here, which the index led me to expect as a Lorena, is **Vachalo**.
+
+***So there is no Lerena family in Rosario in 1869.*** There is **one man**.
+
+## What does survive, and it is still worth having
+> ***Bartolomé LLERENA — 45 years old, married, Argentine, born in CÓRDOBA, working as a JORNALERO —
+> living in Rosario, Sección 2ª, at the national census of 1869.***
+
+He remains **the only person of this surname found in Rosario before 1882**, in any record this project has
+searched. He would be **58 in 1882**.
+
+**But three things temper it:**
+1. **He is lodging among strangers.** No wife appears beside him though he is recorded married, and no
+   children. Whatever family he had is not on this page.
+2. **He is a day labourer.** Not a horseman, not a breeder, not a man of property. If Pablo Armando
+   descends from him, the family's rise in one generation is far steeper than the family story implies.
+3. **The surname reads *Llerena*** on the page — with the Castilian double L, the Extremaduran toponymic
+   form — not *Lerena*.
+
+## Where that leaves it
+The lead is **weaker than it looked last night, and still the best pre-1882 Rosario evidence there is.**
+The next step is not this page but the rest of the census: **find whether Bartolomé appears again in 1869
+with a household**, and whether the *Lorena/Loroña* entries are a family or, as here, scattered lodgers.
+That is a search of the same 344-image set, and it is now a much more modest hope than it was.
