@@ -1613,3 +1613,54 @@ Written up in full at `notes/communist-story.md` and published as hypothesis 6. 
 - Untried archives it points at: **Ministerio del Interior expulsion files** at the Archivo General de la
   Nación; **Santa Fe / Rosario police records 1902–05**; the anarchist press, chiefly ***La Protesta***,
   much of it at the **International Institute of Social History**, Amsterdam.
+
+## findmypast, 9 September 2026 — the best day this project has had
+
+David took a trial subscription and opened it to the archive. Full transcripts read; nothing purchased
+beyond the trial. Four findings, in order of importance.
+
+### 1. *** Pablo Armando's Argentine nationality is now corroborated from outside the family ***
+Two British passenger manifests, twenty-six years apart, record **Mary Septima's** declared nationality:
+
+- **19 Feb 1909**, SS *Guelph*, Cape Town to Southampton — **English**
+- **20 May 1935**, RMS *Balmoral Castle*, Cape Town to Southampton — **"Agentine"** *(Argentine)*
+
+She was born and baptised at Northam, Devon. Under the law of the period **a British woman who married a
+foreign national took his nationality**. They married in **September 1911** — between the two voyages.
+English before, Argentine after. **The only thing that can have made a Devon woman Argentine is the
+nationality of the man she married**, and a ship's purser in 1935 wrote it down with no interest in this
+family. Full argument in `notes/nationality-chain.md`. It does not settle where he was *born*.
+
+### 2. *** She was "Mrs Lerena" in 1909, with a child, two years before the marriage ***
+The 1909 manifest lists on **consecutive lines**: line 17 **Mrs M T Lerena**, English; line 18
+**Mast. L Lerena**, male, British Colonial. *Mast.* is Master — a boy. **Roque Luis Armando was born at
+Cape Town on 25 Nov 1905**, so he was three, and his father's estate calls him "**LOUIS** Lerena, major
+son". So Mary Septima was travelling to England as Mrs Lerena with their small son in February 1909.
+The 1911 marriage regularised a household that already existed — **exactly the pattern already documented**
+for Roque himself, and the basis of the mother's-surname theory.
+
+### 3. She went home to her sister to die
+**Arrived Southampton 20 May 1935** on the *Balmoral Castle*, occupation *housewife*, age 50, address in
+Britain **"C/O DALLING, FORE ST, NORTHAM, DEVON"**. Her elder sister **Isabella Temple "Edie" Taylor
+married a DALLING** — already in David's tree, now joined to a document. She sailed home from Southampton
+on the **Armadale Castle on 28 June 1935**, a five-week visit, and **died on 15 November 1935**.
+
+### 4. An Argentine diplomat named Lerena
+**Carlos Gustavo Lerena**, b. 20 Jan 1915, **Argentine**, occupation **DIPLOMATIC**, arrived London
+17 Nov 1958 from La Plata en route to a posting in **Iran**, with his wife and children — one of whom is
+**Carlos Gilberto**. Does not prove the Consul General tradition and is not our man, but it establishes
+that Lerenas really did serve in Argentine diplomacy, and it is the **third** independent appearance of
+the Carlos-and-Gilberto pairing. Written up in `notes/an-argentine-diplomat-named-lerena.md`.
+
+### Also established
+- **Only eight Lerenas ever arrived in Britain**, and **only two ever left**. **Pablo Armando is not among
+  them** — he never entered Britain under that surname.
+- **Juanita Ramona Lerena**, b. **16 June 1937**, Roque's daughter, arrived Southampton 12 Apr 1957,
+  **ballet teacher**, to **"Vicosa, Westward Ho, N Devon"** — the village adjoining Northam. She went to
+  the Taylor country, and married at Portsmouth in 1961, becoming Hutson.
+- **Mary Septima's baptism**: 30 October 1884, Northam, father William, mother Mary Ann Ellen —
+  archive ref 1843A/PR/1/16, South West Heritage Trust. *A citation for what the tree already held, not a
+  new fact; recorded here because this archive cites its sources.*
+- **A newspaper trace**: the *Western Times* and *North Devon Herald* both print
+  "**Mary Septima Taylor, 16, Northam**" in what reads as a scholarship or pupil-teacher list, c.1900-01.
+  Not yet opened — the newspaper search path defeated me and should be retried.
