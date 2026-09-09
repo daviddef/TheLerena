@@ -2148,3 +2148,54 @@ Llarena.
 **Pedro Llerena, fathering a daughter in 1884, is exactly the generation that could have fathered a son in
 1882.** ***But there is still no Pablo Armando.*** Uruguay has now been searched across civil registration,
 church records and baptisms — Flores, Montevideo, San José, Colonia — and he is in none of it.
+
+## The five-point push — what each returned
+
+### 1 · FamilySearch full-text search — *live, and worth returning to*
+The instrument works, and the important question is answered: ***Argentine records ARE in the full-text
+corpus.*** A query surfaced **"Santa Fe, La Capital, Santa Fe. Religious Marriage Records 1879–1882"** and
+**"1882–1883"** as searchable, several showing matches. This is the first tool in the whole project that
+reads **handwriting nobody has indexed**.
+
+**Two caveats, stated plainly.** The coverage seen is **Santa Fe *La Capital*, not Rosario** — a different
+city 170 km away. And the search interface is **badly behaved under automation**: the React textarea drops
+programmatic input and swallows roughly half the submissions, so queries have to be typed and verified one
+at a time. **No Lerena hit yet — but nothing like a proper sweep has been run.** This stays open as a real
+lead rather than a closed door.
+
+### 2 · Argentine military records — nothing
+No **Pablo Armando** of any surname born 1880–84 appears in the Argentine records, and no military entry
+for the surname. The passport's *Guardia Nacional, 6º de Caballería, 1915* still has to come from the
+**Archivo General del Ejército** directly, and that letter is already with them.
+
+### 5 · *** The Gilberto thread — two independent sources just joined up ***
+This is the find of the round.
+
+> **Carlos LERENA**, groom, Nuestra Señora del Socorro, **Retiro, Buenos Aires** — **born 1884,
+> MONTEVIDEO** — parents ***Alberto\* Lerena*** and ***Julia SALVANACH*** — married
+> ***Rosa María EPPENS***.
+>
+> *\* almost certainly **Gilberto** mis-transcribed, or a brother: Julia Salvañach is Gilberto Lerena's
+> wife, already documented as the mother of Carlos Augusto Federico Lerena, b. 9 July 1883, Montevideo.*
+
+**And that identifies the CEMLA couple.** The immigrant arrivals recorded **"CARLOS LERENA, 41, Uruguayan"**
+and **"ROSA M. E. LERENA, 39, Argentine"** landing at Buenos Aires from **Montevideo on 27 May 1926**.
+***Rosa M. E. is Rosa María Eppens.*** Two entirely independent sources — a Buenos Aires marriage register
+and a shipping index — describing the same couple.
+
+**A second link, also new:** ***Avelino Carlos Lerena, baptised 12 March 1904 at San Nicolás de Tolentino,
+Mendoza***, parents **Carlos Lerena** and **Adela Camiglia** — which gives a birth and a parentage to the
+Avelino Carlos who crossed to New York in 1940 and Rio in 1949 and 1953.
+
+So the Stud Book family now runs: **Gilberto Lerena m. Julia Salvañach** (Montevideo, moving to Buenos
+Aires between 1887 and 1889) → **Carlos Augusto Federico** (1883), **Raúl** (1885), **María Angélica Julia**
+(1885) and others → **Carlos m. Rosa María Eppens** → and a **Carlos m. Adela Camiglia** whose son
+**Avelino Carlos** was born at Mendoza in 1904.
+
+***Still no connection to Pablo Armando.*** But this is now a real, documented, multi-generation Argentine
+family rather than a name recurring in indexes — and it is the family whose forename stock (Gilberto,
+Carlos, Raúl) the South African branch kept using.
+
+### 3 and 4 — not advanced this round
+The rest of the **1869 Rosario census** (whether Bartolomé appears again with a household) and the
+**1901–1909 gap in Mary Septima's life** were not touched. They remain the two most tractable jobs left.
