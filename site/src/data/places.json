@@ -123,6 +123,17 @@
   "count": 7
  },
  {
+  "slug": "sa-records",
+  "name": "SA records",
+  "people": [
+   "roque-luis-armando-lerena",
+   "ricardo-juan-carlos-lerena",
+   "nuno-fernando-lerena",
+   "anton-lerena"
+  ],
+  "count": 4
+ },
+ {
   "slug": "cayasta-garay-santa-fe",
   "name": "Cayasta, Garay, Santa Fe",
   "people": [
@@ -132,16 +143,6 @@
    "leon-jose-lerena"
   ],
   "count": 4
- },
- {
-  "slug": "sa-records",
-  "name": "SA records",
-  "people": [
-   "roque-luis-armando-lerena",
-   "ricardo-juan-carlos-lerena",
-   "nuno-fernando-lerena"
-  ],
-  "count": 3
  },
  {
   "slug": "colonia-uruguay",
@@ -177,6 +178,24 @@
   "people": [
    "gabino-l-llerena",
    "ramon-llerena"
+  ],
+  "count": 2
+ },
+ {
+  "slug": "cape-town-johannesburg",
+  "name": "Cape Town / Johannesburg",
+  "people": [
+   "roseline-wilhelmina-forbes",
+   "doreen-may-chappell"
+  ],
+  "count": 2
+ },
+ {
+  "slug": "transvaal",
+  "name": "Transvaal",
+  "people": [
+   "rieta-maria-lerena",
+   "antoinette-septima-lynette-lerena"
   ],
   "count": 2
  },
@@ -289,6 +308,22 @@
   "name": "Argentina",
   "people": [
    "armand-o-lorena-pablo-armando-lerena"
+  ],
+  "count": 1
+ },
+ {
+  "slug": "cape-colony",
+  "name": "Cape Colony",
+  "people": [
+   "careen-maria-lerena"
+  ],
+  "count": 1
+ },
+ {
+  "slug": "braamfontein-johannesburg",
+  "name": "Braamfontein, Johannesburg",
+  "people": [
+   "rhena-may-lerena"
   ],
   "count": 1
  }

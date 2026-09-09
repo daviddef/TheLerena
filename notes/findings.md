@@ -2325,3 +2325,36 @@ reach, or under a spelling the sweep did not catch, or not baptised as an infant
 - Confirmations of **Luis Roque Armando m. Rosaline Chappell**, 21 Sep 1936, Potchefstroom, and of the
   two infant deaths, **Rieta Maria** (1937) and **Antoinette Septima Lynette** (1943) — the second
   carrying her grandmother's name.
+
+## Same day, later — the Chappell–Forbes knot, and a correction to our own record
+
+Chasing the LDS Church Census entry that turned up beside the enrolment card led to the
+**FamilySearch Family Tree**, where a small branch for this family already exists. **Nobody has
+attached parents to Pablo Armando** — the enrolment card is genuinely new — but the branch carried
+something else.
+
+This archive had Roque's first wife as **"Rosalina Wilhelmina CHAPPELL"** and Ricardo's wife as
+**"Doreen ?"**. Both wrong in the same way:
+
+> **Roseline Wilhelmina FORBES** m. **Frederick Christian Chappell**, 1 Nov 1920, Woodstock, Cape Town.
+> Chappell died 1933. His widow married **Roque Luis Armando Lerena** in 1936.
+> Her daughter **Doreen May Chappell**, b.1921, married Roque's brother **Ricardo Juan Carlos Lerena**.
+
+**Chappell was her married name. Her maiden name was FORBES.** The 1936 register calls her *Rosaline
+Wilhermina Forbes Chappell* because that is what a remarrying widow is called — and this archive read it
+as a maiden name.
+
+**Two brothers married a mother and her daughter.** Verified before writing: the 1920 marriage exists in
+*both* the SA civil registers and the Anglican parish registers, and Frederick Christian Chappell has his
+own Western Cape estate file naming *Rose Forbes Chappell*. What is **not** proved is that this Doreen is
+that Doreen — that rests on the tree plus the surname, and is marked inferred.
+
+Also picked up: **Careen Maria Lerena** (d. 27 Jun 1947, Cape), **Rhena May** (b.1913, d. 1998 — Roque's
+second wife, and the "R. M. Lerena" who signed his 1973 death notice), **Anton Lerena** (1952–2003, son
+of Ricardo), and the two infant daughters of Roque and Roseline. Register: **125 people, 14 connected.**
+
+**And the naming discipline is now visible as a rule rather than a coincidence.** Roque and Roseline
+named a son **Ricardo Juan Carlos** — his uncle's name and his Argentine grandfather's — and a daughter
+**Antoinette Septima Lynette**, carrying Mary Septima's. This family gave the grandparents' names back,
+every generation. That is precisely why *Ricardo Juan Carlos*, b.1920, is good corroboration of a card
+naming **Juan Carlos Lerena**.
