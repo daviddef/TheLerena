@@ -1683,3 +1683,29 @@ crossing from Cape Town to Southampton with a three-year-old son, by **February 
 the whole distance between a Devon parish school and an Argentine horseman's household at the Cape.
 **How she got from one to the other is now the largest single hole in this family's story** — larger, and
 more likely to be answerable, than the question of where Pablo Armando was born.
+
+### The censuses — and a correction worth having
+1891 and 1901, Northam, Devon. Full households in `data/taylor-censuses.tsv`.
+
+***William Taylor was a retired cavalry sergeant.*** The 1891 enumerator writes his occupation as
+**"Cab driver retired sergt p cavaloy"** — cab driver, retired sergeant, cavalry. By 1901, a widower at
+North Street, Northam, he is an **army pensioner**. This archive had him as a *coachman*, from the tree;
+the censuses are sharper and more interesting. His eldest son drove a cab beside him and his second son
+was a footman.
+
+**So horses stand behind both sides of the marriage.** Pablo Armando's whole story is horses — trainer,
+breeder, stables, four generations of jockeys after him. Mary Septima's father spent his working life in
+the saddle and on the box. That proves nothing and explains nothing, but this archive had been treating
+her as the ordinary English half of the story, and that was wrong. Written up in
+`notes/the-taylors-had-horses-too.md` and on the Taylors page.
+
+**The pupil-teacher finding is independently corroborated.** The 1901 census was taken 31 March; the
+*Western Times* printed the diocesan results on 4 April. Two unrelated sources four days apart, the same
+fact: **"Mary Taylor, daughter, 16, School teacher, born Northam."**
+
+**Her mother was a Londoner.** The 1891 census gives *Mary A H Taylor*, 47, as born **London, Middlesex** —
+though Brayley is a north Devon surname. Unresolved.
+
+**And an anomaly, recorded not explained: Mary Septima is absent from the 1891 census.** She should be six
+years old in that household. She is not there, and no Mary Taylor born 1883-85 anywhere in Devon fits.
+Most likely she was away that night or the index has mangled her. It needs checking against the image.
