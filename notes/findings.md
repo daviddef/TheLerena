@@ -1864,3 +1864,30 @@ baptism, a **birth never registered**, or a record in a parish or department tha
 The strongest untried leads are no longer birth records at all — they are the **1940 consular file** that
 proves his nationality, and the **Ley 4144 expulsion files** that the family's own political-refugee story
 points to.
+
+## Two letters — one sent, one blocked
+
+**Sent 9 September 2026 — Archivo Histórico de Cancillería**, `archivo@cancilleria.gob.ar`, Gmail msg
+`1a084cbef3384599`. Address **verified from the Cancillería's own contact page**, which carries it as text
+and as a live `mailto:` link. Asks for the **matrícula consular** of the Cape Town consulate 1930–50, the
+**1940 passport file** and above all **what he produced to prove Argentine nationality and whether it names
+his parents**, the consular correspondence, and — flagged as minor and explicitly not worth staff time —
+whether he ever held a **consular appointment**, which puts the Consul General tradition to the one body
+that could settle it. Details in `requests/cancilleria-matricula-consular.md`.
+
+**Not sent — Ley 4144 expulsion files, Archivo General de la Nación.** Two things to record honestly:
+
+1. ***A correction to the brief.*** These are **not army records**. The letter already with the Archivo
+   General del Ejército asks for his *libreta de enrolamiento* — military **enrolment**, a different thing.
+   **Ley 4144 expulsions were run by the Ministerio del Interior and the police**, and the files sit with
+   the AGN. The two requests are complementary, not duplicates.
+2. ***The AGN has closed its email channel.*** Its only remote route is a "Canal único de contacto" portal
+   at `agnbicentenario.mininterior.gob.ar` requiring a **registered account**. No AGN email is published
+   anywhere on argentina.gob.ar. **None has been invented.** The Spanish text is written out in full in
+   `requests/agn-ley-4144-expulsiones.md`, ready to paste, and the account is David's to make.
+
+Two alternatives noted there if the portal leads nowhere: the **Archivo Histórico de la Provincia de Santa
+Fe** and provincial police holdings (a Rosario arrest would be recorded provincially before it reached
+Buenos Aires), and the **International Institute of Social History, Amsterdam**, which holds the major
+Argentine anarchist collections including *La Protesta* — the anarchist press **named** militants who were
+arrested and deported, and the IISH answers email.
