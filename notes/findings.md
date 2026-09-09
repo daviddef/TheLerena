@@ -2405,3 +2405,60 @@ baptised outside the cathedral's books — **or the index itself is incomplete**
 compiled from the registers rather than the registers. That last is why an *act-by-act* reading of the
 1882 register is still worth doing one day. Written up in `notes/the-L-section-closed.md` and
 `data/rosario-index-L-complete.tsv`.
+
+## The five, and how far they got
+
+### ✅ 2. The marriage index, read at full resolution — DONE, and clean
+
+The enrolment card gives a father, **Juan Carlos Lerena**. If he married at Rosario, his wife's maiden
+name is in the marriage index — the one thing the card could not settle.
+
+The *Índice de matrimonios 1860–1904* was read by the tile method across the whole window in which such
+a marriage could have happened. Unlike the baptism index this one is **handwritten**, so level 13 was
+needed — at level 12 the initials are illegible and the surnames merely guessable, **which is exactly how
+"Lavena" became "Larena" in an earlier session.**
+
+> **No Lerena marriage at Rosario cathedral, 1867–1885.**
+
+Nearest approaches, checked at 1.4× to be certain: **Lercari L.** (1875) — Genoese — and
+**Llisalinos J.** (1882). And the old error is now settled beyond argument: Libro 9, 1884, folio 20
+reads **LAVENA V. × BELMONTE A.**, not *Larena × Sarmiento*.
+
+Recorded in `data/rosario-marriage-index-L.tsv`.
+
+### ◐ 4. Gilberto Lerena Lenguas — done as far as the open web allows
+
+**Gilberto Justiniano Lerena Lenguas, b. 24 May 1855, d. 8 Dec 1912, m. Julia Salvañach.** Founded Stud
+Oriental in 1887; **promoter, founder and Secretary of the Stud Book Argentino**, signing its first act
+on 11 June 1893; bred **Old Man**, the Quadruple Crown winner; Haras El Viejo, Stud Bend Or, Haras La
+Guardia, Haras El Moro, Haras Las Ortigas. The *Premio Abril* was renamed the **Gran Premio Gilberto
+Lerena** in 1914 and is still run as a Group 1.
+
+The **Lerena Lenguas were Uruguayan and rich** — *Luis Lerena Lenguas* had a fifteen-room country house
+at Juanicó photographed for the **1889 Paris exhibition**.
+
+**And nothing connects him to Pablo Armando.** The temptation is obvious — rare surname, famous horseman,
+a family that remembered horses, a great-grandson who trained at the Cape — and it is refused. Two doors
+that would answer the only useful question (*was there a Juan Carlos in that family?*) are shut against
+automation: **geni.com** behind an hCaptcha and **Geneanet** behind Cloudflare. Both are a one-minute job
+for a person. Written up in `notes/gilberto-lerena-lenguas.md`.
+
+### ✕ 1, 3 and 5 — blocked, and the block is mine
+
+**FamilySearch cut this session off.** `www.familysearch.org` now returns
+*"Access Denied — Error 15 — This request was blocked by our security service."* After a day of heavy
+automated reading — the drawer, the whole L section, the marriage index — their bot protection has had
+enough, and that is a fair response to what I was doing.
+
+That blocks all three of the remaining items, because all three live there:
+
+- **1. The 1882 baptism register act by act** — the test of whether the index typescript is complete.
+- **3. The 1935 LDS household card** — the card listing the household Ricardo was a *son* in.
+- **5. The rest of the 1869 census** — 344 images, whether Bartolomé Llerena recurs.
+
+**One useful detail for whoever picks this up:** the block is on `www.familysearch.org` only. The tile
+host `sg30p0.familysearch.org` **still serves**, so any image whose *ark is already recorded* can still
+be read. What cannot be done is discovering new arks, because that needs the viewer.
+
+**Stated plainly rather than dressed up: two of the five are done, and three are stopped by a wall I
+walked into myself.** These blocks usually lift within hours.

@@ -1,0 +1,25 @@
+# THE MARRIAGE INDEX, L BAND, READ AT FULL RESOLUTION — Rosario cathedral, "Indice de matrimonios
+# 1860-1904", 88 images. Read 10 September 2026 by the DeepZoom tile method.
+#
+# WHY: the enrolment card gives a father called JUAN CARLOS LERENA. The marriage registers had been
+# swept before, but for a different question and at a resolution that had already caused one misreading.
+# If Juan Carlos married at Rosario, his wife's MAIDEN NAME is in this index - the one thing the card
+# could not settle.
+#
+# FORMAT of the index: "Surname Initial. | SpouseSurname Initial. | folio", grouped by Libro then year.
+# Unlike the baptism index this one is HANDWRITTEN, so level 13 tiles were needed - at level 12 the
+# initials are illegible and the surnames are guessable, which is exactly how "Lavena" became "Larena".
+#
+# *** RESULT: NO LERENA MARRIAGE AT ROSARIO CATHEDRAL, 1867-1885. ***
+#
+image_ark	pages	libro_and_years	entries_read	result
+9Q97-Y3S9-MPHW	148-149	Libro 6 (1867); Libro 7 (1868-1872); Libro 8 (1873-1876)	~150	No Lerena. Nearest: LERCARI L. (1875, f.67) - a Genoese surname, read at 1.4x to be sure.
+9Q97-Y3S9-MP7X	150-151	Libro 8 (1876-1884); Libro 9 (1884-1885)	~160	No Lerena. *** Includes 1882, the year of his birth. *** Nearest: LLISALINOS J. (1882), read at 1.4x.
+9Q97-Y3S9-MP78	152-153	Libro 9 (1885-1887); Libro 10 (1888-1889); Libro 11 (1890-1891); Libro 12; Libro 13 (1896)	-	Surveyed at page level; after the relevant window.
+9Q97-Y3S9-MPHL	154-155	Libro 13 (1897); Libro 14 (1898-1899); 1900; 1902; 1903	-	Surveyed at page level; after the relevant window.
+#
+# *** A CORRECTION CONFIRMED AT A RESOLUTION THAT LEAVES NO DOUBT. ***
+# Libro 9, 1884, folio 20 was read in an earlier session as "Larena V. x Sarmiento A." and kept a false
+# candidate alive for two days. At level 13 it reads, unmistakably:
+#     LAVENA V.  x  BELMONTE A.  -  folio 20
+# The correction stands, and is now beyond argument.
