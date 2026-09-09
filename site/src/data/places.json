@@ -67,9 +67,12 @@
    "leandro-lerena",
    "emilia-lerena",
    "francisco-lerena",
-   "paulina-lerena"
+   "paulina-lerena",
+   "hector-lerena",
+   "eduardo-lerena",
+   "avelina-lerena"
   ],
-  "count": 14
+  "count": 17
  },
  {
   "slug": "rosario-santa-fe",
@@ -87,6 +90,20 @@
    "maria-lorena"
   ],
   "count": 10
+ },
+ {
+  "slug": "cordoba-argentina",
+  "name": "Cordoba, Argentina",
+  "people": [
+   "bartolome-llerena-cordoba-origin",
+   "francisco-llerena-2",
+   "rafaela-daraz",
+   "baldomero-llerena",
+   "margarita-correas",
+   "rafael-llerena",
+   "lucrecia-llerena"
+  ],
+  "count": 7
  },
  {
   "slug": "gualeguaychu-entre-rios",
@@ -169,6 +186,14 @@
   "count": 1
  },
  {
+  "slug": "argentina",
+  "name": "Argentina",
+  "people": [
+   "armand-lorena"
+  ],
+  "count": 1
+ },
+ {
   "slug": "mendoza-later-new-york-and-rio-crossings",
   "name": "Mendoza; later New York and Rio crossings",
   "people": [
@@ -221,6 +246,14 @@
   "name": "Isla Martin Garcia",
   "people": [
    "lola-lerena"
+  ],
+  "count": 1
+ },
+ {
+  "slug": "rosario-de-lerma-salta",
+  "name": "Rosario de Lerma, Salta",
+  "people": [
+   "maria-lerena"
   ],
   "count": 1
  },

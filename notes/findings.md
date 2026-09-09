@@ -2223,3 +2223,41 @@ was born there.
 19" will have sailed for the Cape many times. **The original images would show the forename** — the
 transcripts read perfectly but findmypast's tile viewer would not render in this browser, so the images
 remain unopened. Two minutes' work in an ordinary browser. Written up in `notes/the-eight-year-gap.md`.
+
+## Córdoba opened, and an Armando born in 1882
+
+**#2 — the 1895 census re-run under variants — confirms rather than overturns.** There is no *Llerena* in
+Santa Fe in 1895, and the *Lorena* entries at Rosario are **Spanish-born** (Amadora De Lorena, b.1849
+Spain) — a different family, exactly as suspected at Cayastá. Bartolomé Llerena, there in 1869, is gone by
+1895; he would have been 71.
+
+**#1 — Córdoba, never searched before, has a Llerena family.** Bartolomé was *born* at Córdoba in 1824, so
+the province mattered and had been overlooked. At Córdoba Cathedral: **Francisco Llerena m. Rafaela Daraz →
+Baldomero (b.1851) m. Margarita Correas, 16 Feb 1876 → Sahara, Carlos, Julia Rosa**; also **Rafael Llerena
+m. Rosario Moyano**, **Lucrecia Llerena**, **Amalia**. **Bartolomé belongs to Francisco and Rafael's
+generation** — plausibly a brother. **No Pablo and no Armando among them.**
+
+### *** And then this ***
+In the **Argentine military records 1911–1936**:
+
+> ***Armand[o] LORENA*** — **born 1882** — birthplace ***Rosario*** de Lerma, **Salta** —
+> father Juan Carlos Lorena Serena, ***mother MARÍA LERENA***
+
+Born 1882; named Armando — a name shown to be *rare* (two in three years of the Rosario index, **none** in
+four centuries of Spanish records); born at a place called **Rosario**; **mother surnamed Lerena**, which is
+precisely the mother's-surname hypothesis this archive has carried for days; and sitting in the **military
+records**, where a man of the *clase 1882* belongs and where the passport's *Guardia Nacional 1915* points.
+
+**The objections are serious and are not being softened.** **Rosario de Lerma is in SALTA**, 1,400 km from
+Rosario de Santa Fe, and **the passport names the province**. The forename is *Armando*, not *Pablo
+Armando*. The surname is *Lorena*. And **FamilySearch states the record was indexed by a computer** —
+"Lorena Serena" reads like machine mangling.
+
+***Probably not him. Worth opening anyway*** — the original document is linked and would settle it in a
+minute. Written up in `notes/cordoba-and-the-1882-armando.md`, and on the register as a candidate.
+
+**#4 — Carlos Gustavo Lerena, b. 1915** is not in FamilySearch's Argentine records at all. That thread
+needs the foreign-ministry staff lists, not a genealogical index.
+
+**#3 and #5 — Trinidad's six brothers, and a full-text sweep — were not reached.** Said plainly rather
+than glossed.
