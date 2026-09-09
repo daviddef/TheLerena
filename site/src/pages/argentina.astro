@@ -12,7 +12,7 @@ const hasArt = fs.existsSync(
 ---
 <Base title="Argentina"
       eyebrow="Rosario, Santa Fe — and the records that do not answer"
-      dek="Rosario is the place the family names. Nothing is yet proved there — but Rosario is a good place to be sent, because its records survive and are largely reachable.">
+      dek="Rosario is the place the family names, and its records survive and are reachable. They have now been searched to exhaustion, and he is not in them — which is a finding, not a failure.">
 
 {hasArt && (
   <figure class="wideplate">
@@ -142,10 +142,12 @@ const hasArt = fs.existsSync(
 <section class="blk">
 <h2>What this page needs next</h2>
   <p>
-    <strong>His parents.</strong> The name, the city and the day are now known — Pablo Armando Lerena,
-    Rosario, 22 February 1882. What is not known is who his father and mother were. His
-    <strong>baptism at Rosario</strong> in the spring of 1882 would name them, and it is now an exact
-    target rather than a region.
+    <strong>His parents.</strong> The name, the city and the day are known — Pablo Armando Lerena,
+    Rosario, 22 February 1882. Who his father and mother were is not.
+    <strong>The baptism that would have named them has been looked for and is not there</strong>: three
+    years of the index, every letter, any surname. That route is <em>exhausted</em>, not merely
+    unsuccessful, and should not be reopened without a new reason.
+    <a href={u("/searched")}>What has been searched &rarr;</a> &middot;
     <a href={u("/open-questions")}>Open questions &rarr;</a>
   </p>
 </section>
@@ -264,6 +266,71 @@ const hasArt = fs.existsSync(
     a son <strong>Gilberto Lerena</strong> in 1957, in South Africa, three generations after leaving. The
     stud-book Gilberto is now a documented man with a documented household. Either they were kin, or they
     knew exactly who he was — and both are worth finding out.</div>
+</section>
+
+
+<section class="blk">
+  <h2>The registers, now searched to the end</h2>
+  <p class="dek">Three years of baptisms under every surname; twenty-four years of marriages. Nothing.</p>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr><th>What</th><th>Covered</th><th>Result</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Cathedral baptism index</strong> — every letter, any surname, looking for the given
+          name <em>Pablo Armando</em></td><td class="m">1881 · 1882 · 1883</td>
+          <td><strong>Not there.</strong> Twenty-six sections in each year; the cathedral was Rosario&rsquo;s
+            only parish until 1888. Over twenty near misses logged and excluded — and only
+            <strong>two Armandos</strong> in three whole years.</td></tr>
+        <tr><td><strong>Marriage registers</strong>, Libro 9</td><td class="m">1884, act by act</td>
+          <td>About two hundred marriages read with both parties and all four parents.
+            <strong>One L-surname in the year</strong> — <em>Vicente Lavena × Angela Belmonte</em>, an
+            Italian family. No Lerena.</td></tr>
+        <tr><td><strong>Marriage registers</strong>, Libro 8</td><td class="m">1868–1884</td>
+          <td>Answered from the search index, after a control proved the index covers those years.
+            <strong>No Lerena marriage before 1900.</strong></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="cap" style="margin-top:16px">A practical note for anyone repeating this: these registers carry
+    an <strong>Image Index panel</strong> that lists every act as text — both parties, their ages, and both
+    sets of parents. The handwriting need not be read at all. It turns the series into a database.</p>
+</section>
+
+<section class="blk">
+  <h2>The surname in Rosario, at last — but the wrong man and the wrong century</h2>
+  <p class="prose">For a long time this archive could not find a single Lerena <em>in the city</em>, in any
+    record, ever. Two searches have now changed that, and neither helps as much as it first appeared.</p>
+  <div class="note" style="margin-top:18px"><strong>The 1869 national census.</strong>
+    <em>Bartolomé <strong>Llerena</strong>, 45, married, Argentine, born in <strong>Córdoba</strong>, working
+    as a <strong>jornalero</strong> — Rosario, Sección 2ª.</em> He is the <strong>only person of this
+    surname found in Rosario before 1882</strong>, and he would be 58 the year Pablo Armando was born.
+    <br><br><strong>But the schedule was opened and read, and it deflates the find.</strong> Every line
+    carries its own number, and the twelve people on the page are of a dozen different surnames —
+    washerwomen, a laundress, labourers, a peon, a carpenter, a Spanish shopkeeper. It is
+    <strong>lodgings, not a household</strong>. No wife appears beside him though he is recorded married,
+    and no children. And he is a <strong>day labourer</strong>, not a horseman or a man of property.</div>
+  <p class="prose" style="margin-top:18px">The other two are twentieth century, at <strong>Santa Rosa de
+    Lima</strong> — the parish that only opened in 1888: <strong>Luis Llerena</strong> and Clementina
+    Baranda, whose son was baptised in <strong>1903</strong>; and <strong>Manuela Lerena</strong> and Diego
+    Román, whose daughter <strong>Carmen</strong> was baptised in <strong>1918</strong>. Neither can be his
+    parents. Both are on the <a href={u("/register/")}>register</a>.</p>
+</section>
+
+<section class="blk">
+  <h2>Which Rosario?</h2>
+  <div class="prose">
+    <p><strong>Uruguay has its own Rosario</strong> — a town in the department of Colonia, on the River
+      Plate. This archive nearly recorded a Uruguayan groom as a &ldquo;Rosario-born Llerena&rdquo; linking
+      the two countries, until his record was opened and every other person on it turned out to be
+      Uruguayan: Solís Grande, Maldonado, Punta de Carretas, Cordón.</p>
+    <p>Given how much of this family&rsquo;s evidence runs through Uruguay, that ambiguity deserves saying
+      out loud. <strong>If any part of the family&rsquo;s memory of &ldquo;Rosario&rdquo; came down through
+      a Uruguayan branch, the town could be the wrong one</strong> — and years of work in Santa Fe would
+      have been done in the wrong country.</p>
+    <p><span class="chip inf">Recorded, and weak</span> <strong>The passport is against it.</strong> His own
+      1940 document says <em>&ldquo;Rosario de Santa Fe&rdquo;</em> — naming the province, not merely the
+      town. It would take a great deal more than an ambiguity to overturn that.</p>
+  </div>
 </section>
 
 </Base>
