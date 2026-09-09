@@ -2064,3 +2064,38 @@ parish that opened in **1888**, after Pablo Armando's birth:
 
 Neither can be his parents — both a generation too late — but they are the first evidence the surname
 existed in Rosario at all. Added to the register.
+
+## *** THE 1869 CENSUS OF ROSARIO — the surname in the city, before he was born ***
+
+Working Santa Rosa de Lima turned up the most interesting thing in days. **The 1869 National Census shows
+people of this surname living in ROSARIO** — the first time this archive has found any, anywhere in the
+city, before 1882.
+
+***Bartolomé LLERENA, born 1824 in CÓRDOBA*** — and alongside him a household indexed as *Lorena*:
+**Agustín (b.1829)** with children born at **Córdoba** between 1853 and 1868 — Guillermo, Gerónima,
+Mercedes, Feliz, María — plus **Luis and José Loroña**. A family that moved **Córdoba → Rosario** in the
+1860s.
+
+**Bartolomé would be 58 in 1882; Agustín 53** — either old enough to be Pablo Armando's *grandfather*, and
+**the children born in the 1850s are exactly the right age to be his parents.**
+
+### The objection, stated honestly
+***Lorena is a real and separate surname***, and so is *Loroña*. The index may simply be right. But the
+same small group is indexed under **three spellings** — Llerena, Lorena, Loroña — which is what an indexer
+does with one difficult hand; the three names differ by a single letter; and this project has already
+watched *Belmonte* be read as *Sarmiento* and *Laurini* as *Larena*. **A hypothesis, not a finding.**
+
+### How to settle it
+**Look at the 1869 census image.** The schedules are digitised. The hand will show whether it is *Lerena*,
+*Lorena* or *Llerena*, and the schedule gives **the household structure** — head, wife, children, ages —
+which the index strips away. One image. It would either hand us a Lerena household in Rosario in 1869 or
+kill the idea outright. ***It is now the most valuable single unexamined document in the Argentine work.***
+
+### Two more threads from the same search
+- ***Gabino L. Llerena***, a groom in the Uruguayan church records **whose birthplace is given as ROSARIO** —
+  a Rosario-born Llerena marrying in Uruguay, tying the two countries together as this family's evidence
+  keeps hinting.
+- ***Camilo Llerena***, 1869 census at **Nogoyá, Entre Ríos**, **born 1842 in Santa Fe** — a Santa Fe-born
+  Llerena in the province of the Gualeguaychú Larena kindred.
+
+Full write-up: `notes/the-1869-census-of-rosario.md`. All nine added to the register.
