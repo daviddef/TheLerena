@@ -2261,3 +2261,67 @@ needs the foreign-ministry staff lists, not a genealogical index.
 
 **#3 and #5 — Trinidad's six brothers, and a full-text sweep — were not reached.** Said plainly rather
 than glossed.
+
+## 10 September 2026 — the card that answers the question
+
+**Item 1 on the list was "open the Armando Lorena military document." It took two minutes, and it is
+Pablo Armando.**
+
+The image is an Argentine army *ficha de enrolamiento* — a printed card with blank rules, filled in by
+hand. FamilySearch image group **#112342450**, image **665 of 1,119**, volume **Cajón 985 (Lera)**,
+creator **Ejército Argentino**. It reads:
+
+> **Clase de 1882** · **LERENA — Pablo Armando**
+> hijo de **Juan Carlos Lerena** y de **María Lerena**
+> Nacido en **Rosario de Santa Fé**
+> Oficina enroladora de **Capetown** · Serie **3885** · Sección **I 3322**
+
+**The class of 1882. Born at Rosario de Santa Fe. Enrolled at Cape Town.** Three facts already known
+from his own passport and his own death certificate, meeting on one card, in a drawer filed under
+*Lera*. The passport's annotation *Guardia Nacional 1915* is the paperwork this card belongs to.
+
+### The parents
+
+> ### Juan Carlos LERENA and María LERENA
+
+### The corroboration, from the other side of the ocean
+
+Pablo Armando's eldest son — named with his exact birth date in the 1950 liquidation account — is
+**Ricardo JUAN CARLOS Lerena, b. 6 January 1920, Cape Town**. A grandson of the same names died in
+infancy in the Transvaal. The name came out of Argentina with him and was given to his first son at the
+Cape. An Argentine army card and a South African deceased estate, with no possible knowledge of each
+other, name the same man.
+
+### How close this came to being thrown away
+
+The previous round called this candidate **"probably not him"** and listed four objections. Three were
+artefacts of a machine transcription: *Salta* for *Santa Fe*, *Lorena* for *Lerena*, and a second
+surname *"Serena"* invented out of the word **SERIE** printed on the line below. The fourth — the
+missing *Pablo* — was the index simply dropping a name. Only the image could separate them.
+
+**The rule that follows: an index entry is a pointer, not a fact.** The archive has spent days
+excluding candidates on indexed detail. Where that detail was the *only* ground for exclusion, the
+exclusion is worth nothing until the image is opened.
+
+### What is now open, and stated plainly
+
+**María Lerena is written with her husband's surname.** On these cards *hijo de X y de Y* usually gives
+each parent's own name — which would make her a Lerena by birth and the marriage one between kin. Some
+clerks used the married name. **The card cannot decide it**, and neither can I. Her maiden name is the
+next thing to find.
+
+And the Rosario baptism index for 1881–1883 — swept letter by letter, twice — contains **no Lerena at
+all**. A boy born in Rosario in February 1882 to a Lerena father is not in the cathedral's index. That
+is now a real and specific puzzle rather than a null: he was baptised somewhere the index does not
+reach, or under a spelling the sweep did not catch, or not baptised as an infant.
+
+### Also picked up in the same hour
+
+- **LDS Church Census Records (Worldwide), 1914–1960, South African Mission, 1935** — *Ricardo Juan
+  Carlos Lerena*, b.1920, **Claremont C.P.**, and *Nuno Fernando Lerena*, b.1924, **Wynberg C.P.**
+  A wholly new source, and one that places the family by suburb in the year Mary Septima died.
+- **Careen Maria Lerena**, buried Cape, d. 27 June 1947 — not previously in the register.
+- **Rhena May Lerena**, b.1913, d. 1 April 1998, Braamfontein — Roque's second wife (m. 1966).
+- Confirmations of **Luis Roque Armando m. Rosaline Chappell**, 21 Sep 1936, Potchefstroom, and of the
+  two infant deaths, **Rieta Maria** (1937) and **Antoinette Septima Lynette** (1943) — the second
+  carrying her grandmother's name.

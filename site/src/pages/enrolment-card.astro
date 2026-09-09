@@ -1,0 +1,162 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+
+const card = [
+  ["Clase de", "1882", "The conscript class. His passport gives 22 February 1882."],
+  ["(surname)", "Lerena", ""],
+  ["(forenames)", "Pablo Armando", "Both of them, in his own order."],
+  ["hijo de", "Juan Carlos Lerena", "His father. The answer this archive was built to find."],
+  ["y de", "María Lerena", "His mother — written with the father's surname. See the caution below."],
+  ["Nacido en", "Rosario de Santa Fé", "The town and the province, as on the passport."],
+  ["Región Militar", "—", "Blank."],
+  ["Distrito Militar N.º", "—", "Blank — because he was not enrolled in a district. He was abroad."],
+  ["Oficina enroladora de", "Capetown", "The Argentine consulate at the Cape. He died at Newlands in 1950."],
+  ["Matrícula N.º", "—", "Blank."],
+  ["Domicilio", "—", "Blank."],
+  ["Serie", "3885", "The word SERIE is what the machine index turned into a second surname."],
+  ["Casilla", "—", "Blank."],
+  ["Sección", "I 3322", ""],
+  ["N.º de órden", "—", "Blank."],
+];
+
+const indexVsCard = [
+  ["Name", "Armand Lorena", "Pablo Armando Lerena"],
+  ["Birthplace", "Rosario de Lerma, Salta", "Rosario de Santa Fé"],
+  ["Father", "Juan Carlos Lorena Serena", "Juan Carlos Lerena"],
+  ["Mother", "María Lerena", "María Lerena"],
+  ["Birth", "1882", "Clase de 1882"],
+];
+---
+<Base title="The enrolment card"
+      eyebrow="Ejército Argentino · ficha de enrolamiento · Cajón 985"
+      dek="An Argentine army enrolment card, filed in a drawer marked Lera, gives the class of 1882, a birth at Rosario de Santa Fe, an enrolling office at Cape Town — and the names of Pablo Armando Lerena's father and mother.">
+
+<section class="blk">
+  <div class="panel" style="margin:1.4rem 0">
+    <p style="margin:0">
+      <span class="chip doc">Documented</span>
+      FamilySearch image group <strong>#112342450</strong>, image <strong>665 of 1,119</strong>. Volume:
+      <strong>Cajón 985 (Lera)</strong>. Creator: <strong>Ejército Argentino</strong>. Collection:
+      <em>Argentina, Military Records, 1911&ndash;1936</em>. Image ark
+      <span class="mono">3:1:3QHK-MQL4-NQWN</span>; index ark <span class="mono">1:1:6TH8-DVXH</span>.
+      Read 10 September 2026.
+    </p>
+  </div>
+
+  <div class="prose">
+    <p>It is a printed card with blank rules, filled in by hand. It is not a birth record and does not
+      pretend to be one: it is the paperwork of a man of the class of 1882 registering for Argentine
+      military service <em>at the consulate in Cape Town</em>. That is precisely what makes it useful.
+      Everything on it was stated by someone who knew &mdash; almost certainly by Pablo Armando
+      himself.</p>
+  </div>
+</section>
+
+<section class="blk">
+  <h2>What the card says</h2>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr><th style="width:12rem">Printed on the card</th><th style="width:14rem">Written in by hand</th><th></th></tr></thead>
+      <tbody>
+        {card.map(([k, v, n]) => (
+          <tr><th>{k}</th><td><strong>{v}</strong></td><td class="cap">{n}</td></tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="blk">
+  <h2>Why it is certainly him</h2>
+  <div class="prose">
+    <p>Four things on this one card were already known from elsewhere, from documents that have nothing to
+      do with the Argentine army:</p>
+    <ol>
+      <li><strong>The class of 1882.</strong> His own passport gives 22 February 1882.</li>
+      <li><strong>Nacido en Rosario de Santa Fé.</strong> The passport names that town and that province
+        &mdash; and the province is the thing that separated the real man from every near miss this
+        archive has logged.</li>
+      <li><strong>Oficina enroladora de Capetown.</strong> He died at Newlands, Cape Town, in 1950. An
+        Argentine conscript enrolling at the Cape is not a coincidence; it is a man registering with his
+        consulate because he already lived there.</li>
+      <li><strong>The passport's own annotation</strong> &mdash; <em>Guardia Nacional, 6º de Caballería,
+        1915</em> &mdash; is the service this card is the enrolment for.</li>
+    </ol>
+    <p>Any one of them alone would be suggestive. Together, on one card, in a drawer filed under
+      <em>Lera</em>, they are conclusive.</p>
+  </div>
+</section>
+
+<section class="blk">
+  <h2>And from the other side of the ocean</h2>
+  <div class="prose">
+    <p>Pablo Armando's eldest son &mdash; named with his exact birth date in the
+      <a href={u("/estate/")}>1950 liquidation account</a> &mdash; is
+      <strong>Ricardo <em>Juan Carlos</em> Lerena</strong>, born 6 January 1920 at Cape Town. A grandson of
+      the same names died in infancy in the Transvaal.</p>
+    <p>An Argentine army card and a South African deceased estate, neither with any possible knowledge of
+      the other, name the same man. <strong>The grandfather's name came out of Argentina with him and was
+      given to his first son at the Cape.</strong></p>
+  </div>
+</section>
+
+<section class="blk">
+  <h2>How nearly this was thrown away</h2>
+  <p class="dek">The index that led here was made by a computer, and it was wrong in four places out of five.</p>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr><th style="width:9rem">Field</th><th>What the index said</th><th>What the card says</th></tr></thead>
+      <tbody>
+        {indexVsCard.map(([f, a, b]) => (
+          <tr><th>{f}</th><td>{a}</td><td><strong>{b}</strong></td></tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  <div class="prose" style="margin-top:20px">
+    <p>The index dropped <em>Pablo</em>, moved him 1,400 km to Salta, turned <em>Lerena</em> into
+      <em>Lorena</em>, and invented a second surname &mdash; <em>&ldquo;Serena&rdquo;</em> &mdash; out of the
+      word <strong>SERIE</strong> printed on the line below the parents.</p>
+    <p>This archive had already found the entry and had already written it off. The note from the previous
+      round called it <strong>&ldquo;probably not him&rdquo;</strong> and listed four objections: Salta, the
+      missing <em>Pablo</em>, the surname <em>Lorena</em>, and the machine indexing.
+      <strong>Three of the four were artefacts of the transcription.</strong></p>
+  </div>
+  <div class="note" style="margin-top:22px">
+    <strong>The rule that follows.</strong> An index entry is a pointer, not a fact. Where a candidate has
+    been excluded on indexed detail <em>alone</em>, the exclusion is worth nothing until the image is
+    opened. Several exclusions in this archive rest on exactly that, and are now marked for re-checking.
+  </div>
+</section>
+
+<section class="blk">
+  <h2>What the card does not settle</h2>
+  <div class="prose">
+    <p><strong>María Lerena is written with her husband's surname.</strong> On these cards the formula
+      <em>hijo de X y de Y</em> usually gives each parent's own name &mdash; which would make her a Lerena
+      by birth, and the marriage one between kin. But some clerks entered the mother under her married
+      name. <strong>The card cannot decide it</strong>, and neither can this archive. Her maiden name is the
+      next thing to find.</p>
+    <p>And a genuine puzzle now sharpens. The Rosario baptism index has been read letter by letter, under
+      any surname, for <strong>1881, 1882 and 1883</strong> &mdash; seventy-eight letter-bands &mdash; and
+      it contains <strong>no Lerena at all</strong>. A boy born in Rosario in February 1882 to a father
+      named Lerena is not in the cathedral's index. Either he was baptised somewhere the index does not
+      reach, or under a spelling the sweep did not catch, or not baptised as an infant. That is now a
+      specific question rather than a blank. <a href={u("/searched/")}>What has been searched &rarr;</a></p>
+  </div>
+</section>
+
+<section class="blk">
+  <h2>What it opens</h2>
+  <div class="prose">
+    <p>The volume is <strong>Cajón 985 (Lera)</strong> &mdash; the cards are filed alphabetically. Every
+      Argentine of enrolment age surnamed <strong>Lerena</strong> is in this same drawer, within a few
+      images of this one, <em>each card naming his own parents</em>. That is a ready-made map of the family,
+      and none of it has been read.</p>
+    <p><a href={u("/direct-line/")}>The line, now one generation deeper &rarr;</a>
+       &nbsp;·&nbsp; <a href={u("/register/")}>The name register &rarr;</a></p>
+  </div>
+</section>
+
+</Base>

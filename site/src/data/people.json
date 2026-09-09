@@ -85,7 +85,7 @@
   "source": "1895 Argentine national census, Seccion 21",
   "status": "high",
   "statusRaw": "UNPLACED - HIGH INTEREST",
-  "note": "Co-founder of the Argentine Stud Book; a Group 1 at Palermo renamed for him in 1914. A Lerena at the centre of Argentine thoroughbred breeding, in the right country at the right time. No proven link to Pablo Armando.",
+  "note": "*** Co-founder of the Argentine Stud Book; a Group 1 at Palermo renamed for him in 1914. A Lerena at the centre of Argentine thoroughbred breeding, in the right country at the right time. No proven link to Pablo Armando. ***",
   "place": "Buenos Aires",
   "placeSlug": "buenos-aires"
  },
@@ -356,8 +356,8 @@
   "status": "unplaced",
   "statusRaw": "UNPLACED",
   "note": "",
-  "place": "Buenos Aires — arrivals",
-  "placeSlug": "buenos-aires-arrivals"
+  "place": "arr. Buenos Aires 1907-07-14",
+  "placeSlug": "arr-buenos-aires-1907-07-14"
  },
  {
   "slug": "jose-m-lerena",
@@ -460,7 +460,7 @@
   "source": "CEMLA, ship BATAVIA from Genova",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "An Italian \"Paolo\" Lerena - the only Pablo/Paolo of the surname in the whole CEMLA index. Born c.1891, so NOT our man, who was already in South Africa.",
+  "note": "*** An Italian \"Paolo\" Lerena - the only Pablo/Paolo of the surname in the whole CEMLA index. Born c.1891, so NOT our man, who was already in South Africa. ***",
   "place": "Buenos Aires — arrivals",
   "placeSlug": "buenos-aires-arrivals"
  },
@@ -640,7 +640,7 @@
   "source": "CEMLA, ship CAP. NORTE",
   "status": "high",
   "statusRaw": "UNPLACED - HIGH INTEREST",
-  "note": "An ARGENTINE-national Lerena born within three years of Pablo Armando, carrying the Gilberto name of the Stud Book family. Travelling with a son of the same name. Not in the 1895 census household of Gilberto (1854).",
+  "note": "*** An ARGENTINE-national Lerena born within three years of Pablo Armando, carrying the Gilberto name of the Stud Book family. Travelling with a son of the same name. Not in the 1895 census household of Gilberto (1854). ***",
   "place": "Buenos Aires — arrivals",
   "placeSlug": "buenos-aires-arrivals"
  },
@@ -955,7 +955,7 @@
   "source": "SA records; m. Rachel Maleka",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "Evidence that South Africa holds at least two unconnected Lerena populations.",
+  "note": "*** Evidence that South Africa holds at least two unconnected Lerena populations. ***",
   "place": "South Africa",
   "placeSlug": "south-africa"
  },
@@ -1060,7 +1060,7 @@
   "source": "Argentina Baptisms - children Maria (19 Jul 1890) and Carmela (10 Sep 1892)",
   "status": "excluded",
   "statusRaw": "EXCLUDED",
-  "note": "RETRACTED. Cayasta was an ITALIAN COLONY - the register runs Laurini x5, Lauron, Castelarin, Masorini, Panluzzi, Gaetta, Salvaserra. The same mother is transcribed 'Ines Azela' for one child and 'Ines Raiela' for the other, so the indexer could not read the name. 'Larena' here is almost certainly an Italian surname mis-rendered. The apparent cluster is a transcription artefact.",
+  "note": "*** RETRACTED. Cayasta was an ITALIAN COLONY - the register runs Laurini x5, Lauron, Castelarin, Masorini, Panluzzi, Gaetta, Salvaserra. The same mother is transcribed 'Ines Azela' for one child and 'Ines Raiela' for the other, so the indexer could not read the name. 'Larena' here is almost certainly an Italian surname mis-rendered. The apparent cluster is a transcription artefact. ***",
   "place": "Cayasta, Garay, Santa Fe",
   "placeSlug": "cayasta-garay-santa-fe"
  },
@@ -1178,9 +1178,9 @@
   "occupation": "-",
   "where": "Gualeguaychu, Entre Rios",
   "source": "1895 national census; Entre Rios Civil Reg.",
-  "status": "interest",
+  "status": "unplaced",
   "statusRaw": "UNPLACED - NOTED",
-  "note": "Born within a year of Pablo Armando, and ROQUE is the name Pablo Armando gave his eldest son. m. Florencia Calixta Ramos. BUT: there is no Pablo and no Armando in four generations of this family, and Gualeguaychu is in Entre Rios, not Rosario. Noted, not claimed.",
+  "note": "*** Born within a year of Pablo Armando, and ROQUE is the name Pablo Armando gave his eldest son. m. Florencia Calixta Ramos. BUT: there is no Pablo and no Armando in four generations of this family, and Gualeguaychu is in Entre Rios, not Rosario. Noted, not claimed. ***",
   "place": "Gualeguaychu, Entre Rios",
   "placeSlug": "gualeguaychu-entre-rios"
  },
@@ -1225,7 +1225,7 @@
   "source": "Argentina Santa Fe Catholic Church Records - son Luis Alejandro bapt. 1903, Santa Rosa de Lima",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "m. Clementina Baranda. One of the FIRST LERENAS EVER FOUND LIVING IN ROSARIO. Too late to be Pablo Armando's parents, but the first evidence the surname existed in the city.",
+  "note": "*** m. Clementina Baranda. One of the FIRST LERENAS EVER FOUND LIVING IN ROSARIO. Too late to be Pablo Armando's parents, but the first evidence the surname existed in the city. ***",
   "place": "Rosario, Santa Fe",
   "placeSlug": "rosario-santa-fe"
  },
@@ -1255,7 +1255,7 @@
   "source": "Argentina Santa Fe Catholic Church Records - daughter Carmen bapt. 1918, Santa Rosa de Lima",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "m. Diego Roman. The other early Lerena presence in Rosario itself.",
+  "note": "*** m. Diego Roman. The other early Lerena presence in Rosario itself. ***",
   "place": "Rosario, Santa Fe",
   "placeSlug": "rosario-santa-fe"
  },
@@ -1285,7 +1285,7 @@
   "source": "1869 National Census, film 004331984 image 86 - IMAGE READ",
   "status": "interest",
   "statusRaw": "UNPLACED - INTEREST",
-  "note": "Still the ONLY person of this surname found in Rosario before 1882. Age 45, MARRIED, born Cordoba - so 58 in 1882. BUT the image shows him lodging among twelve unrelated individuals (washerwomen, labourers, a carpenter, a Spanish shopkeeper) with NO WIFE OR CHILDREN beside him. A day labourer, not a horseman. Surname reads LLERENA with the double L.",
+  "note": "*** Still the ONLY person of this surname found in Rosario before 1882. Age 45, MARRIED, born Cordoba - so 58 in 1882. BUT the image shows him lodging among twelve unrelated individuals (washerwomen, labourers, a carpenter, a Spanish shopkeeper) with NO WIFE OR CHILDREN beside him. A day labourer, not a horseman. Surname reads LLERENA with the double L. ***",
   "place": "ROSARIO, Santa Fe",
   "placeSlug": "rosario-santa-fe"
  },
@@ -1300,7 +1300,7 @@
   "source": "1869 census, Rosario",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "CORRECTED: there is NO household. The image of Bartolome Llerena's page shows twelve unrelated individuals, each separately numbered; the Lorena/Lorona entries are elsewhere in the census, not with him. The earlier 'family that moved Cordoba to Rosario' reading was mine and was wrong.",
+  "note": "*** CORRECTED: there is NO household. The image of Bartolome Llerena's page shows twelve unrelated individuals, each separately numbered; the Lorena/Lorona entries are elsewhere in the census, not with him. The earlier 'family that moved Cordoba to Rosario' reading was mine and was wrong. ***",
   "place": "Rosario, Santa Fe",
   "placeSlug": "rosario-santa-fe"
  },
@@ -1390,7 +1390,7 @@
   "source": "Uruguay Catholic Church Records - marriage, soltero",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "CORRECTED: his 'Rosario' is ROSARIO, COLONIA, URUGUAY, not Rosario de Santa Fe. Every other person on the record is Uruguayan - Solis Grande, Maldonado, Punta Carretas, Cordon Montevideo. Ramon Llerena appears with him, most likely his father.",
+  "note": "*** CORRECTED: his 'Rosario' is ROSARIO, COLONIA, URUGUAY, not Rosario de Santa Fe. Every other person on the record is Uruguayan - Solis Grande, Maldonado, Punta Carretas, Cordon Montevideo. Ramon Llerena appears with him, most likely his father. ***",
   "place": "Rosario, Colonia, Uruguay",
   "placeSlug": "rosario-colonia-uruguay"
  },
@@ -1465,7 +1465,7 @@
   "source": "Uruguay Civil Registration - daughter Susana b.1884",
   "status": "interest",
   "statusRaw": "UNPLACED - INTEREST",
-  "note": "m. Sofia Clavijo. Fathering a daughter in 1884, so precisely the generation that could have fathered a son in 1882.",
+  "note": "*** m. Sofia Clavijo. Fathering a daughter in 1884, so precisely the generation that could have fathered a son in 1882. ***",
   "place": "Colonia, Uruguay",
   "placeSlug": "colonia-uruguay"
  },
@@ -1510,7 +1510,7 @@
   "source": "Argentina Capital Federal Catholic Church Records - marriage, Nuestra Senora del Socorro",
   "status": "high",
   "statusRaw": "UNPLACED - HIGH INTEREST",
-  "note": "Parents ALBERTO (almost certainly GILBERTO) LERENA and JULIA SALVANACH; married ROSA MARIA EPPENS. This IDENTIFIES the CEMLA couple 'Carlos Lerena 41 Uruguayan' and 'Rosa M. E. Lerena 39 Argentine' arriving Buenos Aires from Montevideo 27 May 1926 - two independent sources, same couple.",
+  "note": "*** Parents ALBERTO (almost certainly GILBERTO) LERENA and JULIA SALVANACH; married ROSA MARIA EPPENS. This IDENTIFIES the CEMLA couple 'Carlos Lerena 41 Uruguayan' and 'Rosa M. E. Lerena 39 Argentine' arriving Buenos Aires from Montevideo 27 May 1926 - two independent sources, same couple. ***",
   "place": "Retiro, Buenos Aires",
   "placeSlug": "retiro-buenos-aires"
  },
@@ -1540,7 +1540,7 @@
   "source": "Argentina Mendoza Catholic Church Records - baptism 12 Mar 1904, San Nicolas de Tolentino",
   "status": "interest",
   "statusRaw": "UNPLACED - INTEREST",
-  "note": "Parents CARLOS LERENA and ADELA CAMIGLIA. Gives a birth and a parentage to the Avelino Carlos who crossed to New York in 1940 and Rio in 1949 and 1953.",
+  "note": "*** Parents CARLOS LERENA and ADELA CAMIGLIA. Gives a birth and a parentage to the Avelino Carlos who crossed to New York in 1940 and Rio in 1949 and 1953. ***",
   "place": "Mendoza; later New York and Rio crossings",
   "placeSlug": "mendoza-later-new-york-and-rio-crossings"
  },
@@ -1585,7 +1585,7 @@
   "source": "Argentina Cordoba Catholic Church Records 1557-1974",
   "status": "interest",
   "statusRaw": "UNPLACED - INTEREST",
-  "note": "m. Rafaela Daraz; father of Baldomero (b.1851). Of the generation of Bartolome Llerena, b.1824 Cordoba - plausibly a brother.",
+  "note": "*** m. Rafaela Daraz; father of Baldomero (b.1851). Of the generation of Bartolome Llerena, b.1824 Cordoba - plausibly a brother. ***",
   "place": "Cordoba, Argentina",
   "placeSlug": "cordoba-argentina"
  },
@@ -1665,34 +1665,34 @@
   "placeSlug": "cordoba-argentina"
  },
  {
-  "slug": "armand-lorena",
-  "name": "ARMAND[O] LORENA",
-  "born": "1882",
-  "birthplace": "Rosario de Lerma, SALTA",
+  "slug": "armand-o-lorena-pablo-armando-lerena",
+  "name": "ARMAND[O] LORENA (as machine-indexed) = Pablo Armando LERENA",
+  "born": "1882-02-22",
+  "birthplace": "Rosario, Santa Fe",
   "nationality": "Argentine",
   "occupation": "-",
   "where": "Argentina",
   "source": "Argentina Military Records 1911-1936 (machine-indexed)",
-  "status": "high",
-  "statusRaw": "UNPLACED - HIGH INTEREST",
-  "note": "Born 1882, at a place called ROSARIO, MOTHER MARIA LERENA, father Juan Carlos Lorena Serena - and in the military records where a clase 1882 man belongs. BUT Rosario de Lerma is in SALTA, 1,400km from Rosario de Santa Fe, which the passport names explicitly; the forename is Armando not Pablo Armando; and FamilySearch says the record was indexed by a computer. Probably not him. The original document would settle it.",
+  "status": "connected",
+  "statusRaw": "CONNECTED",
+  "note": "*** RESOLVED - THIS IS PABLO ARMANDO HIMSELF. *** The image was opened on 10 Sep 2026 and the card reads 'Clase de 1882 / LERENA - Pablo Armando / hijo de Juan Carlos Lerena y de Maria Lerena / Nacido en Rosario de Santa Fe / Oficina enroladora de CAPETOWN'. The machine index had dropped 'Pablo', moved him 1,400 km to Salta, turned Lerena into Lorena, and made a second surname 'Serena' out of the printed word SERIE on the next line. Every one of the four objections logged against this candidate was an artefact of the transcription. Kept in the register under its indexed name so the false trail stays visible.",
   "place": "Argentina",
   "placeSlug": "argentina"
  },
  {
   "slug": "maria-lerena",
-  "name": "Maria LERENA (of Salta)",
+  "name": "Maria LERENA",
   "born": "-",
   "birthplace": "-",
   "nationality": "Argentine",
   "occupation": "-",
-  "where": "Rosario de Lerma, Salta",
+  "where": "Rosario, Santa Fe",
   "source": "Argentina Military Records 1911-1936",
-  "status": "interest",
-  "statusRaw": "UNPLACED - INTEREST",
-  "note": "Mother of Armand[o] Lorena, b.1882. A woman surnamed LERENA whose son was born in 1882 at a place called Rosario.",
-  "place": "Rosario de Lerma, Salta",
-  "placeSlug": "rosario-de-lerma-salta"
+  "status": "connected",
+  "statusRaw": "CONNECTED",
+  "note": "*** RESOLVED - SHE IS PABLO ARMANDO'S MOTHER. *** Not 'of Salta': the card gives the birthplace as Rosario de Santa Fe. See generation 0 of the direct line. Her maiden name is still unknown - the card writes her as Maria Lerena, the father's own surname.",
+  "place": "Rosario, Santa Fe",
+  "placeSlug": "rosario-santa-fe"
  },
  {
   "slug": "hector-lerena",
@@ -1738,5 +1738,20 @@
   "note": "m. Cristobal Canale; daughter Susana Avelina Canale Lerena.",
   "place": "Buenos Aires",
   "placeSlug": "buenos-aires"
+ },
+ {
+  "slug": "juan-carlos-lerena",
+  "name": "Juan Carlos LERENA",
+  "born": "-",
+  "birthplace": "-",
+  "nationality": "Argentine",
+  "occupation": "-",
+  "where": "Rosario, Santa Fe",
+  "source": "Argentine army enrolment card, image group #112342450 img 665",
+  "status": "connected",
+  "statusRaw": "CONNECTED",
+  "note": "*** GENERATION 0. FATHER OF PABLO ARMANDO. *** Named on his son's 1908 ficha de enrolamiento. His name survives in the Cape: Pablo Armando's eldest son was RICARDO JUAN CARLOS LERENA, b. 6 Jan 1920, and a grandson of the same names died in infancy in the Transvaal.",
+  "place": "Rosario, Santa Fe",
+  "placeSlug": "rosario-santa-fe"
  }
 ]

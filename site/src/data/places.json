@@ -3,7 +3,6 @@
   "slug": "buenos-aires-arrivals",
   "name": "Buenos Aires — arrivals",
   "people": [
-   "martin-lerena",
    "jose-m-lerena",
    "domenico-lerena",
    "gregorio-lerena",
@@ -48,7 +47,7 @@
    "anna-lerina",
    "annunziata-lerina"
   ],
-  "count": 44
+  "count": 43
  },
  {
   "slug": "buenos-aires",
@@ -82,28 +81,17 @@
    "luis-alejandro-llerena",
    "manuela-lerena",
    "carmen-roman-lerena",
+   "bartolome-llerena",
    "agustin-lorena",
    "guillermo-lorena",
    "geronima-lorena",
    "mercedes-lorena",
    "feliz-lorena",
-   "maria-lorena"
+   "maria-lorena",
+   "maria-lerena",
+   "juan-carlos-lerena"
   ],
-  "count": 10
- },
- {
-  "slug": "cordoba-argentina",
-  "name": "Cordoba, Argentina",
-  "people": [
-   "bartolome-llerena-cordoba-origin",
-   "francisco-llerena-2",
-   "rafaela-daraz",
-   "baldomero-llerena",
-   "margarita-correas",
-   "rafael-llerena",
-   "lucrecia-llerena"
-  ],
-  "count": 7
+  "count": 13
  },
  {
   "slug": "gualeguaychu-entre-rios",
@@ -116,6 +104,20 @@
    "roque-larena",
    "antonio-larena-2",
    "juan-pablo-lerena"
+  ],
+  "count": 7
+ },
+ {
+  "slug": "cordoba-argentina",
+  "name": "Cordoba, Argentina",
+  "people": [
+   "bartolome-llerena-cordoba-origin",
+   "francisco-llerena-2",
+   "rafaela-daraz",
+   "baldomero-llerena",
+   "margarita-correas",
+   "rafael-llerena",
+   "lucrecia-llerena"
   ],
   "count": 7
  },
@@ -151,15 +153,6 @@
   "count": 3
  },
  {
-  "slug": "rosario-colonia-uruguay",
-  "name": "Rosario, Colonia, Uruguay",
-  "people": [
-   "gabino-l-llerena",
-   "ramon-llerena"
-  ],
-  "count": 2
- },
- {
   "slug": "tucuman",
   "name": "Tucuman",
   "people": [
@@ -178,58 +171,27 @@
   "count": 2
  },
  {
-  "slug": "mendoza",
-  "name": "Mendoza",
+  "slug": "rosario-colonia-uruguay",
+  "name": "Rosario, Colonia, Uruguay",
   "people": [
-   "adela-camiglia"
+   "gabino-l-llerena",
+   "ramon-llerena"
+  ],
+  "count": 2
+ },
+ {
+  "slug": "sa-argentine-records",
+  "name": "SA + Argentine records",
+  "people": [
+   "pablo-armando-lerena"
   ],
   "count": 1
  },
  {
-  "slug": "argentina",
-  "name": "Argentina",
+  "slug": "gro-sa-records",
+  "name": "GRO + SA records",
   "people": [
-   "armand-lorena"
-  ],
-  "count": 1
- },
- {
-  "slug": "mendoza-later-new-york-and-rio-crossings",
-  "name": "Mendoza; later New York and Rio crossings",
-  "people": [
-   "avelino-carlos-lerena-2"
-  ],
-  "count": 1
- },
- {
-  "slug": "rosario-santa-fe",
-  "name": "ROSARIO, Santa Fe",
-  "people": [
-   "bartolome-llerena"
-  ],
-  "count": 1
- },
- {
-  "slug": "nogoya-entre-rios",
-  "name": "Nogoya, Entre Rios",
-  "people": [
-   "camilo-llerena"
-  ],
-  "count": 1
- },
- {
-  "slug": "retiro-buenos-aires",
-  "name": "Retiro, Buenos Aires",
-  "people": [
-   "carlos-lerena-2"
-  ],
-  "count": 1
- },
- {
-  "slug": "east-london",
-  "name": "East London",
-  "people": [
-   "catherine-buys-lerena-catherine-buys"
+   "mary-septima-taylor"
   ],
   "count": 1
  },
@@ -250,34 +212,34 @@
   "count": 1
  },
  {
-  "slug": "rosario-de-lerma-salta",
-  "name": "Rosario de Lerma, Salta",
+  "slug": "arr-buenos-aires-1907-07-14",
+  "name": "arr. Buenos Aires 1907-07-14",
   "people": [
-   "maria-lerena"
+   "martin-lerena"
   ],
   "count": 1
  },
  {
-  "slug": "gro-sa-records",
-  "name": "GRO + SA records",
+  "slug": "east-london",
+  "name": "East London",
   "people": [
-   "mary-septima-taylor"
+   "catherine-buys-lerena-catherine-buys"
   ],
   "count": 1
  },
  {
-  "slug": "sa-argentine-records",
-  "name": "SA + Argentine records",
+  "slug": "nogoya-entre-rios",
+  "name": "Nogoya, Entre Rios",
   "people": [
-   "pablo-armando-lerena"
+   "camilo-llerena"
   ],
   "count": 1
  },
  {
-  "slug": "buenos-aires-montevideo",
-  "name": "Buenos Aires / Montevideo",
+  "slug": "carmelo-colonia-uruguay",
+  "name": "Carmelo, Colonia, Uruguay",
   "people": [
-   "rosa-maria-eppens"
+   "vicenta-llerena-morales"
   ],
   "count": 1
  },
@@ -290,10 +252,42 @@
   "count": 1
  },
  {
-  "slug": "carmelo-colonia-uruguay",
-  "name": "Carmelo, Colonia, Uruguay",
+  "slug": "retiro-buenos-aires",
+  "name": "Retiro, Buenos Aires",
   "people": [
-   "vicenta-llerena-morales"
+   "carlos-lerena-2"
+  ],
+  "count": 1
+ },
+ {
+  "slug": "buenos-aires-montevideo",
+  "name": "Buenos Aires / Montevideo",
+  "people": [
+   "rosa-maria-eppens"
+  ],
+  "count": 1
+ },
+ {
+  "slug": "mendoza-later-new-york-and-rio-crossings",
+  "name": "Mendoza; later New York and Rio crossings",
+  "people": [
+   "avelino-carlos-lerena-2"
+  ],
+  "count": 1
+ },
+ {
+  "slug": "mendoza",
+  "name": "Mendoza",
+  "people": [
+   "adela-camiglia"
+  ],
+  "count": 1
+ },
+ {
+  "slug": "argentina",
+  "name": "Argentina",
+  "people": [
+   "armand-o-lorena-pablo-armando-lerena"
   ],
   "count": 1
  }
