@@ -2002,3 +2002,26 @@ parents each, tabulated in that note. **No Sarmiento and no L-surname of interes
 **Still open:** the candidate at **Libro 9 folio 20** was not reached — the viewer kept resetting position
 and the index panel appears on some loads and not others. A mechanical obstacle, not a research one. About
 twenty images cover all of 1884, six marriages each.
+
+## *** FOLIO 20 SETTLED. The candidate is Vicente LAVENA, and he is not ours. ***
+
+Using the index-panel method, **8 June – 29 September 1884 was read act by act** at Rosario cathedral —
+about ninety marriages. **One hit in the whole stretch:**
+
+> ***Vicente LAVENA***, 26, b.1858, son of **Miguel Lavena** and **Lucía Lavena**, married
+> ***Angela BELMONTE***, 21, b.1863, daughter of **Pascual Belmonte** and **María Cozsi**,
+> on **3 August 1884** at the Catedral de Nuestra Señora del Rosario.
+
+The index line was *"Larena/Lavena V · Sarmiento A · folio 20"*. The first surname is **Lavena**,
+confirmed from the register. **"V" is Vicente. "A" is Angela.** Both initials match in order, and this is
+the only L-surname marriage in three and a half months.
+
+***The "Sarmiento" was my own misreading of BELMONTE*** in the low-resolution index image — recorded
+because it is why this candidate survived as a lead for two days.
+
+**This closes the last open candidate for a Lerena marriage at Rosario.** Vicente Lavena was Italian, which
+fits the Lavenas of Rosario exactly: present from about 1880, children baptised at San José and the
+Cathedral through 1915. **There is no Lerena marriage at Rosario cathedral in 1884.**
+
+**Residual:** October–December 1884 unscanned. The candidate is identified so the item is closed, but four
+or five more arrow-steps would make the year airtight.

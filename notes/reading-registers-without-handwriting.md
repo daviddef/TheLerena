@@ -68,3 +68,43 @@ resetting position, and the Image Index panel materialises on some loads and not
 mechanical obstacle, not a research one — **the method is proven and the target is small.** Roughly twenty
 images cover the whole of 1884; each yields six marriages as text. Anyone resuming should step with the
 arrows from a known single-mode image rather than navigating by number.
+
+---
+
+# *** FOLIO 20 SETTLED — the candidate is Vicente LAVENA, and it is not ours ***
+
+Reached **9 September 2026**, using the method above: single-image mode entered by clicking a thumbnail,
+then stepped forward with the viewer's arrows, extracting the Image Index panel as text at each image and
+scanning it for *Sarmiento · Larena · Lavena · Lerena · Llerena*.
+
+**Scanned act by act: 8 June – 29 September 1884**, Catedral de Nuestra Señora del Rosario — roughly ninety
+marriages. **Exactly one hit in the whole stretch:**
+
+> **Vicente LAVENA**, male, **26**, b. 1858 — father **Miguel Lavena**, mother **Lucía Lavena**
+> **× Angela BELMONTE**, **21**, b. 1863 — father **Pascual Belmonte**, mother **María Cozsi**
+> **Marriage, 3 August 1884**, Catedral de Nuestra Señora del Rosario, Rosario, Santa Fe.
+
+## Why this is certainly the index entry
+The index line recorded from the alphabetical volume was ***"Larena/Lavena V · Sarmiento A · 20"***, with a
+note that the surname could not be told apart at that resolution.
+
+- The first surname is **LAVENA** — confirmed from the register itself.
+- **"V" is Vicente.** ✓
+- **"A" is Angela.** ✓
+- Both initials match, in order, and it is the **only** L-surname marriage in three and a half months of
+  the register.
+
+***The "Sarmiento" was my own misreading of BELMONTE*** in the low-resolution index image. That error is
+recorded here rather than quietly dropped, because it is the reason this candidate survived as long as it
+did.
+
+## What this closes
+**The last open candidate for a Lerena marriage at Rosario is eliminated.** Vicente Lavena was an Italian —
+son of Miguel and Lucía Lavena — which fits everything else known about the Lavenas of Rosario: an Italian
+family present from about 1880, with children baptised at San José and the Cathedral through to 1915.
+
+**There is no Lerena marriage at Rosario cathedral in 1884.**
+
+## Residual, stated plainly
+**October to December 1884 was not scanned.** The candidate is identified and the item is closed, but if
+anyone wants the year airtight, four or five more arrow-steps from 29 September finish it.

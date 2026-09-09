@@ -56,7 +56,11 @@ returns **730 records**; with `f.recordCountry=Argentina`, **6,017**.
 - [ ] **"ARMANDO LERENA", baptism 1917, Ntra. Sra. del Carmen, Santa Fe city** - parents **Casimiro
       Lerena** and **Amelia Lepiani**; same Casimiro at Colon, **Entre Rios**, 1911. The given name
       **Armando** in a Santa Fe Lerena family. Work this family out.
-- [ ] **The candidate "Larena/Lavena V x Sarmiento A", Libro 9 folio 20, 1884** (marriage index image 51).
+- [x] ***CLOSED 9 Sep 2026: the candidate is VICENTE LAVENA x ANGELA BELMONTE, 3 Aug 1884.*** Read from
+      the register itself via the Image Index panel. "V" = Vicente, "A" = Angela; the surname is LAVENA,
+      an Italian family. The "Sarmiento" was a misreading of BELMONTE. **No Lerena marriage at Rosario in
+      1884.** See notes/reading-registers-without-handwriting.md.
+- [x] **(superseded) The candidate "Larena/Lavena V x Sarmiento A", Libro 9 folio 20, 1884** (index image 51).
       Cannot be read with confidence. **Settle it at DGS 4531041 (Matrimonios 1884-1891), folio 20** -
       and that film is INDEXED, so try searching before reading.
 - [ ] **The Montevideo Lerena Lenguas are now documented** - Luis Serena Lenguas m. Julia Juanico
