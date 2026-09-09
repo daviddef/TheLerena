@@ -1,0 +1,50 @@
+# THE REGISTER ITSELF, ACT BY ACT — not the index.
+# Rosario cathedral baptisms, LIBRO 24. FamilySearch film 004098792, waypoint "Bautismos 1881-1882".
+# Read 10 September 2026 by the DeepZoom tile method.
+#
+# WHY: every null this archive holds for Rosario rests on a TYPESCRIPT INDEX compiled later from the
+# registers. Whether that typescript is complete has never been tested. This is the test.
+#
+# METHOD: each opening carries about eight acts, and every act has the child's NAME WRITTEN IN THE
+# MARGIN. At level 12, 42% scale, a whole opening fits one screen with every margin legible. So the
+# margins were read for all 183 acts in the span - not skimmed, read.
+#
+# CALIBRATION, useful to anyone continuing: Rosario cathedral baptised 112 children in January 1882 and
+# 122 in February - about four a day. Acts run continuously; the year begins at act 1 and page 362.
+#
+# *** RESULT: NO LERENA IN ANY ACT FROM 1 FEBRUARY TO 15 MARCH 1882. ***
+# Pablo Armando was born 22 February 1882. This span covers the three weeks before his birth and the
+# three weeks after it.
+#
+image	ark	pages	acts	dates	result
+205	S3HT-6BB3-ZW	386-387	98-105	25 Jan 1882	Calibration frame. January still running.
+206	S3HT-6BB4-WT	388-389	106-112	Jan 1882	*** JANUARY ENDS AT ACT 112. *** Right column blank below.
+207	S3HT-6BBQ-VZ	390-391	113-120	1-2 Feb	*** "FEBRERO" heading. *** Vela; Colombo; Lizarraga; Munoz; Gonzalez; Vidal; Malbran; Sala Lopez. No Lerena.
+208	S3HT-6BB7-Q7	392-393	121-128	2-4 Feb	Cabral; Montenegro; Isidoro; Luna; Armas; Navone; Ametin; Vera. No Lerena.
+209	S3HT-6BBQ-GG	394-395	129-136	4-5 Feb	Montiel; Carlos; Larmentia; Pereira; Alvarez; Vidal; Vilata; Aranda. No Lerena.
+210	S3HT-6BBQ-RW	396-397	137-144	5-8 Feb	Rodriguez; Patica; Gallegos; Echevarria; Rose; Ortiz; Yspirina; Sanchez. No Lerena.
+211	S3HT-6BB4-QG	398-399	145-152	8-10 Feb	Alvarado; Avena; Ramos; Doria; Baez; Palma; Ferri; Coronel. No Lerena.
+212	S3HT-6BB4-HT	400-401	153-160	10-11 Feb	Zarate; Bermejo; Ramirez; Cuello; Cordoba Lujan; Burgos; Lammermes; Pelegrini. No Lerena.
+213	S3HT-6BBW-5Q	402-403	161-168	11-12 Feb	Luna; Romero Villanueva; Tavarez; Carrizo; Ricotti; Carro; Vidici; Ramos. No Lerena.
+214	S3HT-6BB7-DC	404-405	169-176	12-16 Feb	Ramos; Sais; Veiga; Manzi; Cordova; Martinez; Arce; Gonzalez. No Lerena.
+215	S3HT-6BBQ-YZ	406-407	177-184	14-15 Feb	Arquello; Villano; Sanz; Silva; Ocas Costa; Luna; Green; Galvan. No Lerena.
+216	S3HT-6BBW-XV	408-409	185-192	16-17 Feb	Espinola Cardenas; Salcedo; Doria Reynoso; Aguirrecoena; Rojas; Merci; Cuello; Siguerra. No Lerena.
+217	S3HT-6BBQ-61	410-411	193-200	18-19 Feb	Bordes; Osiondu; Pirotto; Bertolan; Gomez; Morales; Barragan; Gioia. No Lerena.
+218	S3HT-6BB7-33	412-413	201-208	19-20 Feb	Patroni Cabrera; Corbera; Cristobal; Gomez; Villaret; Antonia; Moras; Cabral. No Lerena.
+219	S3HT-6BB4-48	414-415	209-216	20-22 Feb	*** THE DAYS OF HIS BIRTH. *** Montemayor Gonzalez; Follo Yguerarena; Torres; Rolando; Marra; Aciderra; Rangana; Bustos. No Lerena.
+220	S3HT-6BB4-C7	416-417	217-224	22-25 Feb	Sousa; Jurado; Santana; Amsani; Cerruti; Steler; Acci; Berrocg. No Lerena.
+221	S3HT-6BB4-QZ	418-419	225-232	25-26 Feb	Guimaraens; Iurriaga; Ochoa; Bovar; Callaste; Bugadaco; Benitez; Coronel Ponce. No Lerena.
+222	S3HT-6BBQ-SJ	420-421	233-239	27 Feb - 2 Mar	*** FEBRUARY ENDS AT ACT 234; "MES DE MARZO" begins at 235. *** Alvarez; Martinez; Castillo; Ceber; Galvan; Orosco; Leal. No Lerena.
+223	S3HT-6BBW-TQ	422-423	240-247	4-6 Mar	Hernandez; Dejeun; Chirino Orsi; Villar; Muren; Palacio Cortinez; Mercado; Berner. No Lerena.
+224	S3HT-6BB3-5J	424-425	248-255	6 Mar	Sirti; Terri; Mendola; Leonardi. *** RIGHT PAGE PARTLY COVERED by a paper slip pasted in on 29 May 1905. See image 226. ***
+225	S3HT-6BBQ-C4	424-425	-	-	*** DUPLICATE EXPOSURE of 224. Counted once. ***
+226	S3HT-6BB7-4Z	425	252-255	6 Mar	*** THE SAME PAGE REFILMED WITH THE SLIP LIFTED - nothing is lost. *** Filiciano; Pelegrini; Otero; Lardizabal. No Lerena.
+227	S3HT-6BB7-LH	426-427	256-263	6-8 Mar	Marquez; Zanudo; Villalva; Mora; Sanchez Almendra; Corragoni; Frisegra; Fable Quevedo. No Lerena.
+228	S3HT-6BBS-Y8	428-429	264-271	9 Mar	Figueras; Florentina; Leiva; Baigorria; Barrera; Muerto; Gonzalez; Fernandez. No Lerena.
+229	S3HT-6BB7-7Y	430-431	272-279	9-11 Mar	Ricardo; Gonzalez; Medina; Rojas; Dominguez; Perreros; Equissi; Comarri. No Lerena.
+230	S3HT-6BB7-8T	432-433	280-287	12-14 Mar	Braun; Marconi; Cammes; Tessi; Domingo; Camen; Terrari; Sanchez. No Lerena.
+231	S3HT-6BB7-67	434-435	288-295	14-15 Mar	Romero Tello; Alvarado; Moreira; Durand; Beltran Callegari; Romero Doval; Lorenzo; Ayala. No Lerena.
+#
+# *** WHERE THE SWEEP STOPS, so it can be resumed exactly. ***
+# Last act read: 295, 15 March 1882, page 435, image 231 (ark S3HT-6BB7-67).
+# To continue: image 232 onward in the same waypoint. April 1882 begins somewhere around act 360.

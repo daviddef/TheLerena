@@ -2462,3 +2462,63 @@ be read. What cannot be done is discovering new arks, because that needs the vie
 
 **Stated plainly rather than dressed up: two of the five are done, and three are stopped by a wall I
 walked into myself.** These blocks usually lift within hours.
+
+## The block lifted, and three more things done
+
+FamilySearch released the session after about an hour. Work resumed, more gently.
+
+### ✓ 3. The LDS household card — answered, and it is a wall not a null
+
+The 1935 South African Mission census card **exists as an image**. FamilySearch reports
+*"Image Available — to view these images: access the site at a FamilySearch Center / affiliate
+library."* So it is **centre-only**, the same restriction as the Cape estate file. Worth knowing
+exactly: Ricardo is recorded as **"Relationship to Head of Household: Son"**, so the card lists a
+household with a head — almost certainly Pablo Armando, in November 1935, the month Mary Septima died.
+**A visit to any FamilySearch Centre would get it.**
+
+### ✓ 1. The 1882 register, act by act — the real work of the day
+
+The index that every Rosario null depends on is a **typescript**, and whether the typist missed anything
+had never been tested. It has now been tested.
+
+**Libro 24, read act by act** — film 004098792, waypoint *Bautismos 1881-1882*. Every act carries the
+child's name in the margin; all 183 margins in the span were read.
+
+> **1 February to 15 March 1882 — acts 113 to 295, pages 390 to 435 — no Lerena.**
+
+He was born **22 February**. That is three weeks either side of his birth, act by act, nothing skipped.
+
+**And the book gave up a rate**: Rosario cathedral baptised **112 children in January 1882, 122 in
+February** — four a day. The first time this archive has had a denominator.
+
+**A filming detail worth keeping**: page 425 carries a slip pasted on **29 May 1905** that hides four
+acts, and **the next frame is the same page refilmed with the slip lifted**. Nothing is lost. The 1974
+filming was careful.
+
+**What it settles**: the index is not hiding him, at least not here — register and index agree.
+**What it does not**: six weeks is not a year. April, or 1883, or an adult baptism, are all still open.
+Written up in `notes/the-register-itself.md` and `data/rosario-1882-register-actbyact.tsv`, with the
+stopping point recorded so it can be resumed exactly.
+
+### ✓ A date that gives the consul story a mechanism
+
+Argentina and South Africa **established diplomatic relations only on 10 September 1947**; Argentina
+opened its legation at Pretoria in **1950**, and the earliest consulate the published histories mention
+is South Africa's at Buenos Aires in **1938**.
+
+Yet this family holds two Argentine documents proving a consular office at **Cape Town in 1908** (the
+card's *"Oficina enroladora de Capetown"*) and **in 1940** (the passport's *Oficina Consular Argentina*,
+sealed and stamped). **Thirty-nine years before there were diplomatic relations.**
+
+Not a contradiction — consular relations are not diplomatic relations, and the usual instrument is the
+**honorary consul**: a resident merchant, unpaid, commissioned to stamp passports and register
+nationals. *A. B. Bayne* is not a Spanish name.
+
+**So the "Consul General" tradition is not proved, but it is now explicable** — a different and more
+honest thing. It also sharpens two targets: the **exequatur in the Government Gazette**, which would
+name every holder of the post across 1900–1950; and the **consular matrícula**, already requested from
+the Cancillería. Written up in `notes/the-consulate-that-should-not-exist.md`.
+
+**And a footnote against the family lore**: a man fleeing Argentina as a communist does not walk into his
+own government's consular office in 1908 and put his name, his class, his birthplace and his parents on
+a form. Not proof — but evidence on the other side, and it belongs on the record.
