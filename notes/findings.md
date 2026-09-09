@@ -2038,3 +2038,29 @@ year is covered end to end.
 **In the whole year, exactly one marriage involves any of Sarmiento · Larena · Lavena · Lerena · Llerena:
 Vicente LAVENA × Angela BELMONTE, 3 August 1884.** No Sarmiento anywhere in 1884. **No Lerena anywhere in
 1884.**
+
+## Libro 8 as well — answered by index, and the first Lerenas found in Rosario
+
+**Libro 8 is a different film** — *Matrimonios 1868–1884*, DGS 4531040: sixteen years, ~3,000 marriages,
+500-odd images. Rather than page it, the searchable index was used — **after first proving the index covers
+those years.** A control search returns cathedral marriages of **1874, 1875 and 1876 with full parentage**
+(Gonzalez × Castro, Gonzalez × Galvan, Gonzalez × Puccio, Gonzalez × Santander). **The 1868–1884 Rosario
+marriages are indexed.** So the null that follows is about the record, not the coverage.
+
+***There is no Lerena marriage at Rosario cathedral in Libro 8 (1868–1884).*** Searching LERENA at Rosario
+in the collection returns 38 records and **not one is a marriage before 1900**.
+
+**Taken with the act-by-act read of Libro 9's 1884: no Lerena marriage at Rosario across 1868–1891.**
+
+**The difference in standard is stated rather than glossed:** Libro 9's 1884 was read *act by act*; Libro 8
+rests on the *index*. The control proves the index is good, but an index carries gaps and mis-spellings in
+a way a page-by-page read does not. Strong, not identical.
+
+### *** And the first Lerenas ever found living in Rosario ***
+This archive had never found a Lerena *in the city*. Two now appear, both at **Santa Rosa de Lima** — the
+parish that opened in **1888**, after Pablo Armando's birth:
+- **Luis LLERENA m. Clementina Baranda** → *Luis Alejandro*, baptised **1903**
+- **Manuela LERENA m. Diego Román** → *Carmen Román Lerena*, baptised **1918** *(note the name Carmen)*
+
+Neither can be his parents — both a generation too late — but they are the first evidence the surname
+existed in Rosario at all. Added to the register.

@@ -125,3 +125,47 @@ Llerena*:
 
 Month by month, all clear: June · July · August (the Lavena act) · September · October · November ·
 December. Roughly **two hundred marriages** read, each with both parties and all four parents.
+
+---
+
+# Libro 8 (Matrimonios 1868–1884) — answered by index, not by paging
+
+**Libro 8 is a different film**: *Matrimonios 1868–1884*, film 1091470, **DGS 4531040**. Sixteen years,
+some three thousand marriages, five hundred-odd images. Paging it act by act was not sensible when a
+cheaper test existed.
+
+## The control first
+Before trusting a null from the search index, it has to be shown that the index actually **covers** those
+years. It does. A control search for a common surname at the cathedral, 1870–1880, returns marriages with
+full parentage:
+
+> *Ramon Gonzalez × Cristina Castro, 18 Aug 1874* — parents Pablo Gonzalez & Laureana Crinejo
+> *Zenona Gonzalez × Vicente Galvan, 11 Oct 1875* — mother Lucia Gonzalez
+> *Nemecio Gonzalez × Clorinda Puccio, 1 Jan 1876* — parents Severo Gonzalez & Rosario Gutierrez
+> *Silvano Gonzalez × Rufina Santander, 2 Oct 1876* — parents Juan José Gonzalez & Juana Villareal
+
+**The 1868–1884 Rosario marriages are indexed and searchable.** The null that follows is therefore a null
+about the record, not about the coverage.
+
+## The result
+Searching **LERENA at Rosario** within *Argentina, Santa Fe, Catholic Church Records* returns **38
+records** — and **not one is a marriage before 1900**. Every hit is twentieth century, and most are
+*Llorens* fuzzy matches.
+
+***There is no Lerena marriage at Rosario cathedral in Libro 8 (1868–1884).*** Taken with the act-by-act
+read of Libro 9's 1884, **there is no Lerena marriage at Rosario across the whole period 1868–1891.**
+
+### The honest difference in standard
+Libro 9's 1884 was read **act by act**. Libro 8 rests on the **index**. The index is demonstrably good —
+the control proves it — but indexes carry gaps and mis-spellings in a way a page-by-page read does not.
+**Strong, but not the same standard**, and recorded as such.
+
+## What it did turn up: the first Lerenas actually in Rosario
+Until now this archive had found **no Lerena living in Rosario at all**. The search produces two, both at
+**Santa Rosa de Lima** — the parish that opened in **1888**, after Pablo Armando was born:
+
+- **Luis LLERENA** m. **Clementina Baranda** → *Luis Alejandro Llerena*, baptised **1903**
+- **Manuela LERENA** m. **Diego Román** → *Carmen Román Lerena*, baptised **1918**
+
+Neither can be his parents — both are a generation too late — but they are the first evidence that the
+surname existed in the city at all, and they belong on the register.
