@@ -1,0 +1,61 @@
+# THE COMPLETE L AND Ll SWEEP — Rosario cathedral baptism index, "Indice de bautismos 1879-1900".
+# Read 10 September 2026. This finishes a job that had been done in pieces across several sessions and
+# closes it: every opening of the L section and of the Ll section, from the first to the last, in order,
+# with the year and folio span of each verified on arrival.
+#
+# *** METHOD - and why it is now reliable rather than approximate. ***
+# The index is TYPEWRITTEN, not handwritten. FamilySearch serves each page as DeepZoom tiles at
+#   https://sg30p0.familysearch.org/service/records/storage/deepzoomcloud/dz/v1/{ark}/image_files/{level}/{col}_{row}.jpg
+# Level 13 is the maximum for this film: 20 x 15 tiles of 257 px, about 5100 x 3800 px for a two-page
+# opening. Assembling the tiles into a plain HTML grid at 42% scale puts a whole opening on one screen at
+# a size where every surname is legible. The viewer's own zoom could not do this; the tiles could.
+# Recorded so the next person does not repeat the fight with the viewer.
+#
+# *** ON THE ARKS. *** Image NUMBERS drift between viewer states and are not trustworthy. The image ARK
+# is stable and is what this file records. Arks are given without the "3:1:9Q97-Y3S2-" prefix they all share.
+#
+# THE RESULT, IN ONE LINE: no LERENA, no LLERENA, no LARENA, no LORENA, in any year, in either section.
+#
+ark	section	years	spans_verified	result
+Q8S	L	1880	Libro 23 f.145 -> f.483	L begins here, immediately after the tail of K. Leon, Lopez, Leiva, Leguizamon, Lucena, Lartiga, Ledesma, Luraschi, Lavaca, Larrosa, Lurati, Lapple, Lisdero, Lasarte, Lescano. No Lerena.
+Q89	L	1880-1881	L.23 f.488 -> f.689; L.24 1881 f.12 -> f.102	No Lerena.
+Q6K	L	1881	L.24 f.106 -> f.300	No Lerena.
+QZY	L	1881-1882	L.24 f.313 -> f.467	No Lerena. Note 'Luis / Paul (N.) / 1882 f.454' - a Paul, but the surname is Luis.
+Q6Y	L	1882	L.24 f.471 -> f.574; L.25 f.9 -> f.137	No Lerena. *** THE YEAR OF HIS BIRTH, re-read at full resolution and confirmed. ***
+QF2	L	1882-1883	L.25 f.138 -> f.453	No Lerena.
+QX9	L	1883	L.25 f.457 -> f.540; L.26 f.7 -> f.209	No Lerena. 'Ladinas Maria', 'Lorense Maria Luisa' - neither is Lerena.
+Q84	L	1883-1885	L.26 f.210 -> f.453; L.27 f.2 -> f.5, f.660	No Lerena.
+Q6T	L	1884-1885	L.27 f.12 -> f.259, f.660 -> f.672	No Lerena.
+Q86	L	1884-1885	L.27 f.268 -> f.678	No Lerena. 'Lorenzini Juan', 'Lorensa Justiniana' - not Lerena.
+QXQ	L	1885	L.27 f.542 -> f.656; L.28 f.2 -> f.127	No Lerena.
+Q88	L	1885-1886	L.28 f.130 -> f.340	No Lerena.
+QXS	L	1886	L.28 f.341 -> f.536	No Lerena.
+Q8G	L	1886-1887	L.28 f.543 -> f.584; L.29 f.2 -> f.113	No Lerena.
+QZX	L	1887	L.29 f.117 -> f.494	No Lerena. 'Lorenzo Emilia' f.348 - not Lerena.
+Q8M	L	1887	L.29 f.491 -> f.580; L.30 f.9 -> f.154	No Lerena.
+QZB	L	1888	L.30 f.158 -> f.413	No Lerena. 'Lorenzini Domingo', 'Lorenzetti Maria Albina' - not Lerena.
+QZD	L	1888-1889	L.30 f.536; L.31 f.1 -> f.551; L.32 f.4 -> f.398	No Lerena. 'Loresano Pedro Guillermo' - not Lerena.
+QZR	L	1889	L.32 f.433 -> f.585; L.33 f.6 -> f.278; L.34 f.51 -> f.182	No Lerena.
+QFL	L	1889-1890	L.34 f.228 -> f.316; L.35 f.6 -> f.312	No Lerena. *** NEAR MISS: 'Lofre / ARMANDO / 1889 f.230'. ***
+QZC	L	1890-1891	L.35 f.324 -> f.778	No Lerena. 'Lorenzo Antonio', 'Loresangui Angela' - not Lerena.
+QZ2	L	1891	L.35 f.784 -> f.877; L.36 f.1 -> f.227	No Lerena.
+QX2	L	1891-1892	L.36 f.227 -> f.569	No Lerena.
+QZW	L	1892	L.36 f.581 -> f.778; L.37 f.2 -> f.82	No Lerena.
+QX7	L	1892-1893	L.37 f.89 -> f.459	No Lerena.
+QZ9	L	1893-1894	L.37 f.459 -> f.745; L.38 f.13 -> f.23	No Lerena.
+QZN	L	1894	L.38 f.24 -> f.449	No Lerena.
+Q6L	L	1894-1895	L.38 f.449 -> f.792	No Lerena.
+Q8Q	L	1895-1896	L.39 f.1 -> f.397	No Lerena. *** TWO NEAR MISSES: 'Lujan / ARMANDO / 1895 f.53' and 'Lunardi / ARMANDO / 1895 f.65'. ***
+QF8	L	1896	L.39 f.399 -> f.697	No Lerena.
+Q6Z	L	1896-1897	L.39 f.709 -> f.792; L.40 f.1 -> f.347	No Lerena.
+Q6C	L	-	-	*** DUPLICATE FRAME of Q6Z. Counted once. ***
+QZ1	L	1897-1898	L.40 f.356 -> f.685	No Lerena. *** NEAR MISS: 'Limonetti / ARMANDO / 1897 f.504'. ***
+Q6B	L	1898	L.40 f.687 -> f.790; L.41 f.10 -> f.485; L.42 f.37 -> f.344	No Lerena.
+QZT	L	1898-1899	L.42/43 f.366 -> f.482; L.44 1899 f.25 -> f.496	No Lerena.
+QFK	L	1899-1900	L.44 f.486 -> f.576; L.45 f.39 -> f.576; L.46 1900 f.113 -> f.533; L.47 f.14 -> f.37	No Lerena.
+QZP	L	1900-1901	L.47 f.50 -> f.504; L.48 1901 f.3 -> f.546	*** END OF L. *** No Lerena. The index runs past 1900 into 1901.
+QXL	L	-	-	*** DUPLICATE FRAME of QZP. Counted once. ***
+QXV	Ll	1880-1886	Libros 23, 24, 25, 26, 27, 28	*** Ll BEGINS. *** 19 entries in seven years: Llanos, Llorca, Llanes, Llaurer, Llanar, Llona, Llana, Llosa. No Llerena. Note 'Llorca / Francisco PABLO / 1882 f.370'.
+Q87	Ll	1887-1898	Libros 29, 30, 33, 35, 36, 37, 38, 39, 40, 41, 42	No Llerena. *** NEAR MISS: 'LLERA / Pedro / 1898 f.318'. *** Also Llopis, Llovera, Llorenti, Llobet, Lluch, Llull, Lluro, Llovet, Llorente.
+Q83	Ll	-	-	*** DUPLICATE FRAME of Q87. Counted once. ***
+Q8C	Ll	1898-1901	Libros 43, 44, 45, 47, 48	*** END OF Ll, AND OF THE SWEEP. *** Seven entries: Llopas, Llanar, Llulli, Llovet, Llure, Llera Ida C. (1900 f.191), Llobet. No Llerena. The facing page is blank.

@@ -2374,3 +2374,34 @@ doubt travels with the finding. Written up in `notes/published-to-familysearch.m
 address verified from the Western Cape Government's own service page, Gmail id `1a087da08db5ca31`. It
 asks for the Death Notice in **MOOC 6/9/17017** and states the prediction: question 19 should name
 **Juan Carlos Lerena and María**.
+
+## And the L section is closed
+
+David asked for the Rosario baptism index to be finished properly so it could be left behind. It has been.
+
+**Every opening of the L section and of the Ll section, first to last, in order** — 41 frames, 38 distinct
+and 3 duplicate exposures, each verified on arrival by year and Libro/folio, running continuously from
+**Libro 23 folio 145** to **Libro 48 folio 546**, covering **1879 to 1901**.
+
+> **No Lerena. No Llerena. No Larena. No Lorena. In any year. In either section.**
+
+L opens at **1880** — there are no L entries for 1879 at all — and runs past 1900 into 1901. The whole Ll
+section across twenty-two years is **twenty-six entries**. The nearest thing to the name in either
+section is **LLERA** — Pedro (1898) and Ida C. (1900).
+
+**The Armandos.** The forename does exist at Rosario — four times in the L band, and never in the right
+year: **Lofré** 1889, **Luján** 1895, **Lunardi** 1895, **Limonetti** 1897. All after 1889. *Armando*
+looks like a name that came into fashion at Rosario in the **1890s**, which makes a boy christened Pablo
+*Armando* in February 1882 unusual for his date — and more likely to have been named for someone.
+
+**The method is the transferable part.** The index is **typewritten**, not handwritten; the obstacle was
+never the hand but the viewer's zoom. FamilySearch serves the pages as **DeepZoom tiles**, level 13 being
+20 × 15 tiles of 257 px — about 5100 × 3800 for an opening. Assembled into a plain HTML grid at 42%, a
+whole opening fits one screen with every surname legible. Image *numbers* drift between viewer states;
+the image **ark** is stable and is what the data records.
+
+**What it does not settle** is said plainly on the page: he was not baptised as an infant, or was
+baptised outside the cathedral's books — **or the index itself is incomplete**, being a later typescript
+compiled from the registers rather than the registers. That last is why an *act-by-act* reading of the
+1882 register is still worth doing one day. Written up in `notes/the-L-section-closed.md` and
+`data/rosario-index-L-complete.tsv`.
