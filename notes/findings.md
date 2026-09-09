@@ -1950,3 +1950,30 @@ Lerena, baptised 1892, Cayastá, Santa Fe, father José* (found in the Spain/Arg
 100 km north of Santa Fe city and some 250 km north of Rosario — not our city, but **the only
 Larena/Lerena cluster anywhere in Santa Fe province**, and the first time the surname has been found
 settled *in the province at all* rather than passing through it. Worth its own look.
+
+## Cayastá looked at — and retracted
+
+**The Cayastá "cluster" was a transcription artefact, and I was wrong to flag it as a lead.** Cayastá was
+an **Italian agricultural colony**: its baptism register runs *Laurini ×5, Lauron, Castelarin, Masorini,
+Panluzzi, Gaetta, Salvaserra, Llorin, Mazi/Massi/Mossi*. "Larena" sits in the middle of that — and the
+**same mother is transcribed "Inés Azela" for one child and "Inés Raiela" for the other**, which is what an
+indexer does with a name they cannot read. The apparent coincidence of a Larena and a Lerena in one small
+village is the index mangling two different Italian families. Recorded rather than deleted, because a lead
+chased and killed is worth as much to the next person as a right one. Full note in
+`notes/cayasta-and-gualeguaychu.md`.
+
+## What the same search found instead — the Gualeguaychú kindred
+A **four-generation Larena family at Gualeguaychú, Entre Ríos**, densely documented in the Entre Ríos civil
+registration: **Juan Larena m. Petrona López → Juan Antonio (b.1837, d.1908) m. Macedonia Lozano →
+Victorino Severo (b.1878) m. Plácida Epifania Alarcón**, with **Vicente Antonio m. Vicenta Mercedes
+Fuentes**, **Tito Gregorio**, **Juan José**, **Aureliano Emiliano** — and ***Roque Larena***, m. Florencia
+Calixta Ramos, who appears at the **1895 census born 1881**. It is also the town of ***Juan Pablo Lerena***,
+baptised 1891 — one of only two Lerena baptisms indexed in all Argentina.
+
+***Roque*** is why it caught the eye: the name Pablo Armando gave his eldest son, on a man born within a
+year of him.
+
+**But there is no Pablo Larena and no Armando Larena anywhere in Entre Ríos** — both searches return only
+fuzzy noise. Four generations, and neither of our names in any of them. And Gualeguaychú is on the far side
+of the country from Rosario, which is the one thing about his origin the family has always been consistent
+about. **Recorded on the register as unplaced; a candidate for elimination, not a discovery.**
