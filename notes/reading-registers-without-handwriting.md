@@ -105,6 +105,23 @@ family present from about 1880, with children baptised at San José and the Cath
 
 **There is no Lerena marriage at Rosario cathedral in 1884.**
 
-## Residual, stated plainly
-**October to December 1884 was not scanned.** The candidate is identified and the item is closed, but if
-anyone wants the year airtight, four or five more arrow-steps from 29 September finish it.
+## *** THE WHOLE OF LIBRO 9's 1884 IS NOW READ ***
+The residual has been closed. **8 June to 31 December 1884** — the entire year as this book holds it — has
+been read **act by act** through the index panel, running on into **2 January 1885** to be sure of the
+boundary.
+
+**Libro 9 begins in June 1884.** Image 3 of the film is a title card reading *1884–1888*, image 4 is
+*PRINCIPIO*, the register starts at image 5, and **the earliest dated act anywhere in the book is 8 June
+1884**. January to May 1884 is therefore **not in this book at all** — it belongs to **Libro 8**, a
+different film. Since the index entry was explicitly *"Libro 9º"*, the relevant year is covered end to end.
+
+### The result for the whole year
+**One** marriage in Libro 9's 1884 involves any of the surnames *Sarmiento · Larena · Lavena · Lerena ·
+Llerena*:
+
+> **Vicente LAVENA × Angela BELMONTE, 3 August 1884.**
+
+**No Sarmiento anywhere in the year. No Lerena anywhere in the year.**
+
+Month by month, all clear: June · July · August (the Lavena act) · September · October · November ·
+December. Roughly **two hundred marriages** read, each with both parties and all four parents.
