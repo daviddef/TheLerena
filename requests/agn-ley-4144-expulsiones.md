@@ -1,13 +1,24 @@
 # Request — Ley 4144 expulsion files, Archivo General de la Nación
 
-> ## *** NOT SENT — AND THIS ONE NEEDS DAVID ***
-> **Why:** the AGN has **closed its email channel**. Its only remote route is a
-> **"Canal único de contacto"** web portal that requires a **registered user account**:
-> `https://agnbicentenario.mininterior.gob.ar/web/usuario/dashboard/consultas`
+> ## *** NOT SENT — THIS ONE NEEDS DAVID, AND HERE IS EXACTLY WHERE ***
 >
-> Creating accounts on someone's behalf is not something this archive's researcher will do, so the
-> letter below is **written and ready to paste**, and the account and submission are David's to make.
-> No email address for the AGN is published anywhere on argentina.gob.ar; **none has been invented here.**
+> **Step 1 — register:** `https://agnbicentenario.mininterior.gob.ar/web/ingresar`
+> Registration needs a **DNI, or a PASSPORT for foreigners** — so David registers with his passport.
+> There is also a general `http://canalunico.mininterior.gob.ar/`.
+>
+> **Step 2 — submit the consulta:**
+> `https://agnbicentenario.mininterior.gob.ar/web/usuario/dashboard/consultas`
+> Paste the Spanish text below into the enquiry.
+>
+> **Why not sent from here:** the AGN publishes **no email address at all** — its only remote channel is
+> that account-gated portal, and creating an account in someone else's name is not something this
+> archive's researcher does. **No address has been invented to make this look finished.**
+
+> ### A note on the Cancillería, for comparison
+> That request **was** sent, to `archivo@cancilleria.gob.ar` (msg `1a084cbef3384599`). Their web form was
+> checked afterwards and turns out to sit behind **Google reCAPTCHA**, so it could not have been submitted
+> from here either. The published email was in fact the **only** route open — which is what they offer it
+> for, telling users to write to it if the form brings no reply within 48 working hours.
 
 ## First, a correction to the brief
 These are **not army records.** The letter already sent to the **Archivo General del Ejército**
