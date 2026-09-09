@@ -30,3 +30,29 @@ D	1881	189-190	718-image film	Libro 23 f.637 -> Libro 24 f.350, 1882 begins f.38
 D	1883	191	718-image film	Libro 25 f.251 -> Libro 26 f.295, 1884 begins f.325	COMPLETE	No Pablo Armando. Near miss 'Dias / Jose Pablo / Libro 26 f.92'.
 E	1881	169-170	655-image waypoint	Libro 23 f.661 -> Libro 24 f.347, 1882 begins f.370	COMPLETE	No Pablo Armando. E section title page is at 168.
 E	1883	170-171	655-image waypoint	Libro 25 f.278 -> Libro 26 f.279, 1884 begins f.308	COMPLETE	No Pablo Armando. EXPOSITO (foundlings) sits in this section and was read.
+F	1881	238-239	718-image film	Libro 23 f.617 -> Libro 24 f.356, 1882 begins f.368	COMPLETE	No Pablo Armando. *** Extends the Fernandez null to 1881. ***
+F	1883	240-242	718-image film	Libro 25 f.250 -> Libro 26 f.298, 1884 begins f.307	COMPLETE	No Pablo Armando. *** Extends the Fernandez null to 1883. ***
+G	1881	277-280	718-image film	Libro 23 f.610 -> Libro 24 f.360, 1882 begins f.361	COMPLETE	No Pablo Armando. Near miss 'Galavotto / Pablo D. Rosa / Libro 24 f.122'.
+G	1883	283-285	718-image film	f.258 -> f.297, 1884 begins f.312	COMPLETE	No Pablo Armando.
+H	1881	336-337	718-image film	Libro 23 f.535 -> Libro 24 f.552	COMPLETE	No Pablo Armando. A compact section - all three years sit on images 336-337. Near miss: a bare 'Pablo' at 1881 f.181.
+H	1883	337	718-image film	Libro 26 f.1 -> f.191, 1884 begins f.303	COMPLETE	No Pablo Armando.
+I	1881	346-347	718-image film	Libro 23 f.615 -> Libro 24 f.327, 1882 begins f.390	COMPLETE	No Pablo Armando. Near miss: a bare 'Pablo' at Libro 24 1881 f.29.
+I	1883	347	718-image film	Libro 25 f.267 -> Libro 26 f.189, 1884 begins f.423	COMPLETE	No Pablo Armando.
+J	1881	356-357	718-image film	Libro 23 f.609 -> Libro 24 f.299, 1882 begins f.406	COMPLETE	No Pablo Armando.
+J	1883	357	718-image film	Libro 26 f.34 -> f.415, 1884 begins f.20 of the next book	COMPLETE	No Pablo Armando. Note 'Pablo (N.)' at 1884 f.118 - wrong year.
+K	1881	362	718-image film	Libro 23 f.690; Libro 24 f.14, f.131, f.418	COMPLETE	*** FOUR ENTRIES IN THE WHOLE YEAR. *** Kreeder David A. A.; Kenny Patricio; Kearney Lorenzo H.; Kehoe Guillermo Esteban. No Pablo Armando.
+K	1883	362	718-image film	Libro 26 f.200, f.279	COMPLETE	*** TWO ENTRIES. *** Kenny Juan; Knoes Juan Maria. No Pablo Armando. Confirms why 1882 was empty - the section jumps Libro 24 (1881) straight to Libro 26 (1883).
+L	1881	367-369	718-image film	Libro 23 f.611 -> Libro 24 f.360, 1882 begins f.363	COMPLETE	No Lerena, no Pablo Armando. Near misses 'Lopez / Pablo / f.288' and 'Lamberti / Atilio Pablo Juan / f.360'.
+L	1883	371-373	718-image film	Libro 25 f.268 -> Libro 26 f.299, 1884 begins f.305	COMPLETE	No Lerena, no Pablo Armando. Near misses 'Ledesma / Juan Pablo / Libro 26 f.23', 'Leguisamon / Pedro Pablo / f.380', 'Lopez / Pablo Gregorio / f.424', 'Luraschi / Santos Pablo / f.287'.
+Ll	1881	404	718-image film	-	COMPLETE	*** Ll HAS NO 1881 ENTRIES AT ALL. *** The whole section is one page; it runs Libro 23 (1880 f.157) straight to Libro 24 (1882 f.370).
+Ll	1883	404	718-image film	Libro 25 f.290, f.470; Libro 26 f.8	COMPLETE	*** THREE ENTRIES. *** Llaurer Escolastica; Llorca Micaela Leonor; Llorca Jose Fernando. No Llerena, no Pablo Armando. Note for 1882: 'Llorca / Francisco Pablo / f.370'.
+M	1881	416-419	718-image film	Libro 23 f.606 -> Libro 24 f.360, 1882 begins f.365	COMPLETE	No Pablo Armando. Near miss 'Moron / Juan Pablo / f.309'. Continuity checked by folio, not by image number - see the duplicate-frame note below.
+M	1883	421-425	718-image film	Libro 25 f.249 -> Libro 26 f.303, 1884 begins f.308	COMPLETE	No Pablo Armando. Near misses 'Medina / Pablo Mauricio / f.291', 'Mendieta / Jose Pablo / f.350', 'Maria / Angelica de Paul (N.) / Libro 26 f.53'.
+#
+# *** DUPLICATE FRAMES ***
+# Some images on this film are duplicates of their neighbour: requesting 418 returns 417's opening, and
+# 424 returns 423's. This is not viewer lag - the folio sequences prove it, running continuously across
+# the images either side with no room for an extra opening between them. It is also the likeliest
+# explanation for the 718-vs-655 image count. COVERAGE IS THEREFORE VERIFIED BY FOLIO CONTINUITY, not by
+# image number: every band above was checked to run unbroken from one opening's last folio to the next
+# opening's first.
