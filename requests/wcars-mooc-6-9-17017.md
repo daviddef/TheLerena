@@ -8,6 +8,17 @@ NAAIRS description: *"LERENA, ROBERT PAUL. ESTATE PAPERS."*, 1950.
 
 **Repository:** Western Cape Archives and Records Service, 72 Roeland Street, Cape Town 8001.
 
+> ## *** ITS VALUE CHANGED ON 10 SEPTEMBER 2026 — NOT YET SENT ***
+> An Argentine army enrolment card, filed at the consulate in Cape Town, now names Pablo Armando's
+> parents: **JUAN CARLOS LERENA** and **MARÍA LERENA**. This request therefore stops being a fishing
+> trip and becomes **a test with a stated prediction**:
+>
+> **The Death Notice, at question 19, should name Juan Carlos Lerena and María.**
+>
+> If it agrees, the card is confirmed by a second document, written on the other side of the world, by
+> a different family, in a different language, forty-two years later. If María's entry carries a
+> **maiden name**, it settles the one thing the card could not. If it disagrees, that must be known too.
+
 ## Why this document
 
 The First and Final Liquidation and Distribution Account from this same file is already held, and it shows
@@ -16,8 +27,9 @@ under fees paid to the attorneys **Dichmont & Dichmont**:
 > "fee preparing **Death Notice**, Inventory and obtaining Letters of Administration — £2 2s"
 
 So the Death Notice exists in the file. It is not among the pages held. A South African death notice
-(Form A / Schedule 1) records, at question 19, **the names of the deceased's parents** — which no document
-yet found does for this man.
+(Form A / Schedule 1) records, at question 19, **the names of the deceased's parents**. Until 10 September
+2026 no document found for this man did so. The enrolment card now does — which makes this one the
+**check** on it rather than the only witness.
 
 ## What to ask for
 
@@ -46,6 +58,8 @@ Copies of **the complete file**, but specifically:
 ## Note
 
 Much of this series is filmed by FamilySearch — several pages of this very file are already held as
-FamilySearch images (`3Q9M-C913-…`). **Before paying for copies, check the FamilySearch film for the rest
-of the file**; the Death Notice is likely a few frames from the pages already held. A FamilySearch account
-(and possibly an affiliate library) is needed to view them.
+FamilySearch images (`3Q9M-C913-…`). **Checked again, signed in, on 10 September 2026:
+the ark `3:1:3Q9M-C913-K9H3-D` still returns "Image Restricted — Image access is typically determined by
+local laws or the custodian who has the original document."** So the film is not a way around this
+request. An affiliate library or FamilySearch centre may still work for someone standing in one; from
+here it does not.

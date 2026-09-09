@@ -1753,5 +1753,20 @@
   "note": "*** GENERATION 0. FATHER OF PABLO ARMANDO. *** Named on his son's 1908 ficha de enrolamiento. His name survives in the Cape: Pablo Armando's eldest son was RICARDO JUAN CARLOS LERENA, b. 6 Jan 1920, and a grandson of the same names died in infancy in the Transvaal.",
   "place": "Rosario, Santa Fe",
   "placeSlug": "rosario-santa-fe"
+ },
+ {
+  "slug": "carolina-lerena",
+  "name": "Carolina LERENA",
+  "born": "-",
+  "birthplace": "-",
+  "nationality": "Argentine",
+  "occupation": "-",
+  "where": "Buenos Aires",
+  "source": "Argentina, Buenos Aires, Civil Registration, 1861-2018",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "Mother of a groom, Julian Martinez. Found 10 Sep 2026 while searching Argentine Lerena marriages 1865-1885 for a Juan Carlos. Nothing else known.",
+  "place": "Buenos Aires",
+  "placeSlug": "buenos-aires"
  }
 ]
