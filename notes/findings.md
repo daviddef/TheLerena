@@ -1909,3 +1909,44 @@ deported; and whether a surname search can be done remotely or needs a reader in
 **LERENA · LLERENA · LARENA**, states plainly that this is family history rather than scholarship, offers
 to pay or commission a researcher, and explicitly invites the answer that it cannot be done remotely. It
 **asserts nothing** about what the IISH holds — every point is a question.
+
+## Back to the film — and the state of play
+
+**The 1881/1882/1883 sweep is finished.** All twenty-six sections, three years. There is no remaining work
+under it, and it should not be restarted.
+
+The concrete film item still open is the **1884 marriage candidate**: *"Larena V · Sarmiento A"*, **Libro
+9, folio 20**, seen on image 51 of the marriage index and unreadable at that resolution — *Larena*,
+*Lavena* and *Lerena* could not be told apart. To settle it: **DGS 4531041 (Matrimonios 1884–1891),
+Libro 9, folio 20**.
+
+### What today established about it, short of reading the page
+1. ***Lavena is a real Rosario surname, and a well-documented one.*** An Italian family: **Francisco
+   Lavena, born Italy 1880**, in Rosario at the 1895 census; children baptised at **San José, Rosario** and
+   at the **Cathedral** between 1900 and 1915 (Albina 1906, Alfonzo 1909, Amalia 1912, Lucia Angela 1902,
+   Teresa 1900); also Lavenas at Totoras and Cañada de Gómez. A Lavena marrying at Rosario in 1884 is
+   entirely ordinary.
+2. ***No Larena or Lerena marriage appears anywhere in Rosario's indexed records.***
+
+**On the balance of evidence the 1884 entry reads *Lavena*.** That is a judgement, not a reading, and it is
+recorded as such — the page itself has still not been seen.
+
+### Why it was not settled today
+The register is **handwriting**, and **the in-app browser cannot crop to a region** — it returns only full
+screenshots, at which scale a nineteenth-century marginal folio number is illegible. The Chrome extension
+*can* region-zoom and is what the whole baptism sweep was read with; it is **disconnected**. Reconnecting
+it is all that stands between us and closing this item.
+
+## *** A real find on the way past: a Larena household at Cayastá ***
+Searching *Larena* in Santa Fe province turned up:
+
+> **Antonio LARENA**, of **Cayastá, Garay, Santa Fe** — children **María, baptised 19 July 1890** and
+> **Carmela, baptised 10 September 1892**; mother **Inés Azela / Raiela**.
+
+**And Cayastá is where the only Lerena baptism indexed in the whole of Argentina sits** — *Leon José
+Lerena, baptised 1892, Cayastá, Santa Fe, father José* (found in the Spain/Argentina baptism work).
+
+**Two households of this rare surname, in one small village, in the same two years.** Cayastá is about
+100 km north of Santa Fe city and some 250 km north of Rosario — not our city, but **the only
+Larena/Lerena cluster anywhere in Santa Fe province**, and the first time the surname has been found
+settled *in the province at all* rather than passing through it. Worth its own look.
