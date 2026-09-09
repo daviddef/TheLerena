@@ -1891,3 +1891,21 @@ Fe** and provincial police holdings (a Rosario arrest would be recorded provinci
 Buenos Aires), and the **International Institute of Social History, Amsterdam**, which holds the major
 Argentine anarchist collections including *La Protesta* — the anarchist press **named** militants who were
 arrested and deported, and the IISH answers email.
+
+**Sent 9 September 2026 — International Institute of Social History, Amsterdam**, `ask@iisg.nl`, Gmail msg
+`1a084e17877f1a41`. Address verified from the IISH's own contact page (`ask@` is collections and reading
+room; `info@` is general, `communicatie@` is press). Written up in
+`requests/iisg-argentine-anarchist-press.md`.
+
+**Why Amsterdam for an Argentine question:** the AGN has no email and its portal is account-gated, while
+the IISH answers email and holds a major collection of Latin American anarchist material. **The anarchist
+press named names** — arrests, imprisonments and deportations of individual militants, often in lists. If
+he was caught in the Ley 4144 expulsions the press is at least as likely to have recorded it as the
+surviving state files, and far more reachable from Australia.
+
+The letter asks four things — the 1902–06 Argentine anarchist periodicals and whether any are
+text-searchable; Rosario/Santa Fe labour papers; FORA and prisoners'-committee records naming those
+deported; and whether a surname search can be done remotely or needs a reader in Amsterdam. It gives
+**LERENA · LLERENA · LARENA**, states plainly that this is family history rather than scholarship, offers
+to pay or commission a researcher, and explicitly invites the answer that it cannot be done remotely. It
+**asserts nothing** about what the IISH holds — every point is a question.
