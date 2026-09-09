@@ -1767,3 +1767,43 @@ getting stronger while this sweep ran:
    have been **foreign-born** — which would explain this null result completely.
 
 **The cheapest untried test is now Uruguayan civil registration for 1882**, not another parish register.
+
+## Uruguayan civil registration, 1882 — run, and negative
+
+The successor test to the Rosario sweep, chosen because **Uruguayan civil registration began in 1879** —
+three years before his stated birth and seven before Santa Fe's. Full write-up in
+`notes/uruguay-civil-registration.md`.
+
+***There is no Pablo Armando Lerena in the Uruguayan records at all***, and **no Pablo Lerena born in
+1882**. The complete list of Pablo Lerenas in Uruguay is four people: Pablo Granero *Llerena* (b.1870,
+Montevideo), **Pablo Evaristo Lerena Harrison** (m.1902, Flores), Pedro Pablo Lerena (b.1910, Montevideo)
+and Regino Pablo Olivera Lerena (b.1912, Flores). Nor is there a *Pablo Armando* of any surname born in
+Uruguay in 1882 — the nearest two are both 1885 and neither is a Lerena.
+
+**The control matters and it holds.** The index *does* contain Lerena births from this exact window,
+including **María Luisa Lerena, born 19 July 1882, Río Negro**. So this is an absence in the record, not a
+hole in the coverage. It remains an index rather than the registers themselves, so it **substantially
+weakens the Uruguayan-birth idea without finally killing it**.
+
+### What it gave us instead — the Uruguayan kindred, much enlarged
+**Flores:** Bernabé Lerena m. Casimira Peláez · **Pio C. Lerena m. Bernardina Harrison** · Custodio Lerena
+m. Ema Cardozo · Emilio Lerena m. Paula Casares · Venancio Alejandro Lerena m. Venancia · Luisa Lerena ·
+and ***Gregorio ARMANDO Lerena***, marrying at Flores 1930, son of María Luisa Lerena — **the only Armando
+Lerena in any of these records.**
+**Montevideo:** Gilberto Lerena m. Julia Salvañach · Manuel Lerena m. Dolores Espíndola · Pedro A. Lerena
+m. Manuela Lemos, and with Trinidad Morales · Pedro Segundo Lerena m. Paulina Grande.
+**San José:** Alberto Lerena m. María Inés Larriera · Arturo Lerena m. Ema Regules.
+
+### Three of four candidate birthplaces are now tested and failed
+Rosario cathedral (three years, every letter) · Argentine baptisms generally (two Lerena entries in the
+whole indexed country) · Uruguayan civil registration. **Spain is untested** — where the surname is most
+numerous in absolute terms, concentrated on **Logroño, La Rioja**, exactly as the CEMLA arrivals showed.
+
+## The estate in modern money
+At David's request the conversion is now on the site. **£15,527 15s in 1950** — and these are **South
+African pounds**, the Union having kept its own pound until 1961, **at par with sterling** in 1950, so the
+conversion runs straight. By **retail prices** roughly **£500,000** today; measured against **average
+earnings**, the better gauge of standing, closer to **£1.4 million**. Both are orders of magnitude, not
+figures, and the site says so. He died **comfortably off rather than rich** — a working horseman who had
+done well. The **£26 owed for carrots** is about **£830**, which is a great many carrots, and among the
+plainer pieces of evidence that there were horses in the yard when he died.
