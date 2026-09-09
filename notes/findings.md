@@ -1709,3 +1709,61 @@ though Brayley is a north Devon surname. Unresolved.
 **And an anomaly, recorded not explained: Mary Septima is absent from the 1891 census.** She should be six
 years old in that household. She is not there, and no Mary Taylor born 1883-85 anywhere in Devon fits.
 Most likely she was away that night or the index has mangled her. It needs checking against the image.
+
+## *** THE SWEEP IS FINISHED. THREE YEARS, TWENTY-SIX LETTERS, NO PABLO ARMANDO. ***
+
+**1881, 1882 and 1883 are now all read in full** across every letter section of the Rosario cathedral
+baptism index (DGS 4530325), looking for the given name *Pablo Armando* under **any surname whatsoever**.
+
+**He is not in any of them.**
+
+That is fifty-two letter-bands for the two new years on top of the twenty-six done for 1882 — roughly
+**two hundred image-reads across a 718-image film**. Coverage grids: `data/rosario-index-map.tsv` (1882)
+and `data/rosario-index-1881-1883.tsv` (1881 and 1883).
+
+### The last stretch, N through Z
+N, O, P, Q, R, S, T, U, V, W, Y, Z all clear for both years; **X has no section at all**. Several sections
+turn out to be tiny, and the numbers are worth stating because they show how thin this parish's register
+is at the edges of the alphabet: **Q has ten entries in the whole of 1881** and thirteen in 1883;
+**W has exactly one entry in each year** (Williams, Josefa Aurelia, 1881; Windels, María Elisa, 1883);
+**Y's entire section is a single line** for 1900; and **Ll has no 1881 entries at all**.
+
+### The near misses, now more than twenty
+Across the three years every entry containing *Pablo*, *Paul* or *Armando* was logged. The closest remain
+**_Ronillon · Armando Juan_** (1882, Libro 24 f.498) and **_Funes · Armando_** (1882, f.163) — the only two
+Armandos in three years. The Pablos are numerous and none is ours: Chaparro Pablo H., Gorosito Pablo,
+Carara Pablo, López Pablo, Lamberti Atilio Pablo Juan, Morón Juan Pablo, Días José Pablo, Ledesma Juan
+Pablo, Leguisamón Pedro Pablo, López Pablo Gregorio, Luraschi Santos Pablo, Medina Pablo Mauricio,
+Mendieta José Pablo, Olivieri Juan Pablo, Olguín Pablo Fabio A., Ojeda Pablo Eduardo, Pantaro Juan Pablo,
+Quevedo Juan B. Pablo, Tello Pedro Paulino, Velez Juan Pablo, Villarreal Pablo del R., Zárate Pablo Jorge,
+and bare *Pablo* entries in G, H and I.
+
+**More than twenty near hits in three years.** That is the number that makes the negative worth something:
+the method plainly catches the name when it is there.
+
+### What is now established, and what is not
+**Established:** no child named *Pablo Armando* was baptised at the **Iglesia Matriz / Catedral de
+Rosario** in **1881, 1882 or 1883**, under any surname. The cathedral was the **only parish in Rosario
+until 1888**, and civil registration in Santa Fe did not begin until about 1886. So for a three-year window
+centred on his stated birth date, **the single most likely record of his birth anywhere does not contain
+him**.
+
+**Not established:** that he was not born at Rosario. He may have been baptised under a **different given
+name** — he was *Robert Paul* in South Africa and *Pablo Armando* only on a passport issued in 1940 — or
+outside this three-year window, or privately, or not at all.
+
+### Where this leaves the project
+The Rosario baptism route is now **exhausted**, not merely unsuccessful, and it should not be reopened
+without a new reason. The weight of the argument shifts decisively to the other evidence, which has been
+getting stronger while this sweep ran:
+
+1. ***He held Argentine nationality by 1911***, proved from outside the family by his wife's declared
+   nationality changing from **English (1909)** to **Argentine (1935)** on British passenger manifests.
+   Nationality, however, is not birthplace.
+2. **The Uruguayan kindred at Trinidad, Flores** — six brothers of this rare surname fathering children in
+   one small town in the 1870s — remains the best candidate for where the family actually comes from, and
+   **Uruguayan civil registration began in 1879**, three years before his stated birth.
+3. **The political-refugee story**, if it means expulsion under the *Ley de Residencia*, requires him to
+   have been **foreign-born** — which would explain this null result completely.
+
+**The cheapest untried test is now Uruguayan civil registration for 1882**, not another parish register.
