@@ -2122,3 +2122,29 @@ Castilian double L.
 **Weaker than it looked last night, and still the best pre-1882 Rosario evidence there is.** The next step
 is the rest of the 344-image census: whether Bartolomé appears again with a household, and whether the
 Lorena/Loroña entries are a family or, as here, scattered lodgers.
+
+## Which Rosario? — a correction, and a caution the project should have had all along
+
+**Gabino L. Llerena's "Rosario" is ROSARIO, COLONIA, URUGUAY — not Rosario de Santa Fe.** His record was
+opened, and every other person on it is Uruguayan: *Solís Grande, Maldonado, Punta de Carretas, Cordón
+Montevideo, Monte Video*. Flagging him last night as a Rosario-born Llerena linking the two countries was
+wrong; corrected on the register before it hardened into a claim.
+
+***Uruguay has its own Rosario.*** Any Uruguayan record naming *Rosario* means the Colonia town unless it
+says otherwise — and given how much of this family's evidence runs through Uruguay, that ambiguity has been
+sitting unremarked in the middle of the problem.
+
+**The hypothesis it raises is recorded and is weak:** if the family's memory of "Rosario" came down through
+a Uruguayan branch, the town could be the wrong one and the whole Santa Fe effort misdirected. **But the
+passport says "Rosario de Santa Fe"** — naming the province, in his own document. It would take far more
+than an ambiguity to overturn that. Written up in `notes/which-rosario.md`.
+
+### A third Uruguayan Llerena cluster — Colonia
+After Trinidad in Flores and Montevideo: **Tomás Llerena m. María Morales** (daughter Vicenta b.1861,
+d. Carmelo 1927) · ***Pedro Llerena m. Sofía Clavijo*** (daughter Susana **b.1884**) · **María Llerena m.
+Antonio Medero** · **Ramón** and **Gabino Llerena** at Rosario, Colonia · Manuel Medero Llerena · Isabel
+Llarena.
+
+**Pedro Llerena, fathering a daughter in 1884, is exactly the generation that could have fathered a son in
+1882.** ***But there is still no Pablo Armando.*** Uruguay has now been searched across civil registration,
+church records and baptisms — Flores, Montevideo, San José, Colonia — and he is in none of it.
