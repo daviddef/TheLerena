@@ -1807,3 +1807,60 @@ earnings**, the better gauge of standing, closer to **£1.4 million**. Both are 
 figures, and the site says so. He died **comfortably off rather than rich** — a working horseman who had
 done well. The **£26 owed for carrots** is about **£830**, which is a great many carrots, and among the
 plainer pieces of evidence that there were horses in the yard when he died.
+
+## Spain — tested, and the forename turns out to be the sharper tool
+
+The fourth and last candidate birthplace, run 9 September 2026 across FamilySearch's Spanish collections.
+Full write-up in `notes/spain.md`.
+
+**No Pablo Lerena born 1882 in Spain.** The whole country yields one of the right generation —
+*Pablo Timoteo Lerena Muñoz*, **born 1878** at Bochones, Atienza, Guadalajara, son of Pedro Lerena Pérez
+and Baltasara Muñoz Bermejos — and **he married at Atienza and stayed**.
+
+### *** The finding that actually discriminates ***
+***There is no Armando Lerena in Spain at all*** — not one, in any collection, in any century. Every result
+is fuzzy noise (*Loreno*, *Lorena*, the Inquisición de Llerena registers of Almendral).
+
+And **Armando is the name this family keeps**: Pablo **Armando**; his son Roque Luis **Armando**;
+**Anton Armando** of the 1980 divorce and the 2013 estate; and **Gregorio Armando Lerena**, marrying at
+Flores, Uruguay in 1930.
+
+**Armando is a Río de la Plata name, not a Spanish peninsular one of the 1880s.** It entered Spanish usage
+through Italian influence — the demographic signature of Buenos Aires, Rosario and Montevideo in exactly
+that period, and not of rural La Rioja or Guadalajara. Across **three entire years** of the Rosario index
+there were **two** Armandos: rare, but present. Across four centuries of indexed Spanish records: **none**.
+
+**Of every test run in this archive, this is the first that argues FOR one origin over another rather than
+merely failing to find him.** The name points back across the Atlantic.
+
+### Two supporting observations
+- **The Spanish Lerenas are scattered, not a kindred** — Almería, Écija, Barcelona, Valencia, Valladolid,
+  Navarra, Guadalajara, Huelva, León, Ferrol — and in most of them **Lerena is the second, maternal
+  surname** (*Manuel Fernández Lerena*, *Juan García Lerena*). Nothing like the six brothers at Trinidad.
+- **Spanish practice gives two surnames.** His 1940 passport carries one. Long noted here as odd; against
+  the Spanish evidence it is odder still, and fits Río de la Plata usage or the mother's-surname reading.
+
+### The honest limit
+Weaker as a negative than the Uruguayan test. **Spanish parish registers are enormous and only patchily
+indexed**; an 1882 baptism in an unindexed Riojan parish would not surface. The fair statement is that
+**he is not in the indexed Spanish records, and the given name his family carried does not belong to Spain.**
+
+### A footnote now on the name page
+**Llerena is a town in Badajoz, Extremadura**, and the surname is toponymic from it — a place important
+enough to hold a tribunal of the Inquisition. *Lerena*, one L, is the Río de la Plata form. That is why the
+two spellings have shadowed each other through every search in this project.
+
+## Where all four stand
+| Candidate birthplace | Status |
+|---|---|
+| **Rosario cathedral, 1881–83** | Tested exhaustively. Not there. |
+| **Argentina generally** | Two Lerena baptisms in the whole indexed country. Not there. |
+| **Uruguay, civil registration 1882** | Tested. Not there — with 1882 Lerena births present as a control. |
+| **Spain** | Tested at index level. Not there — and the forename argues against it. |
+
+**Everything now points at the Río de la Plata, and nothing in the Río de la Plata contains him.** The
+remaining explanations are the ones that were always hardest to test: a **different given name** at
+baptism, a **birth never registered**, or a record in a parish or department that no one has yet indexed.
+The strongest untried leads are no longer birth records at all — they are the **1940 consular file** that
+proves his nationality, and the **Ley 4144 expulsion files** that the family's own political-refugee story
+points to.
