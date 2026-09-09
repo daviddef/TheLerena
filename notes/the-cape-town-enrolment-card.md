@@ -76,3 +76,54 @@ could tell them apart, and opening it took two minutes.
 The volume is **Cajón 985 (Lera)** — the cards are filed alphabetically. Every other Argentine
 of enrolment age surnamed **Lerena** is in this same box, within a few images of this one, each
 card naming *his* parents. That is a ready-made map of the family, and none of it has been read.
+
+---
+
+## The rest of the drawer, read the same afternoon
+
+Images **650–688** of the same film were swept through the viewer's Image Index panel — the same
+HTML-table trick that made the Rosario registers readable without reading handwriting. Recorded act by
+act in `data/cajon-985-scan.tsv`.
+
+### The drawer is filed by sound, not by spelling
+
+**Lera · Lerena · Lorena · Serena · Sera · Era · Leza · Perena · Perella · Hereijo** are all interfiled.
+That is not sloppiness in the index — it is how the *army clerk* filed the cards in 1908. It explains
+why FamilySearch's machine index produced "Lorena" and "Serena" so readily: the mangled forms were
+already sitting in the drawer as neighbours. **The same family appears under five spellings** — Gilberto
+and Julia Salvañach's sons are indexed as *Lorena*, *Lerena* and *Perena* on four consecutive cards.
+
+### Five Lerena families in the drawer, and none of them is ours
+
+| Father | Mother | Where | Cards |
+|---|---|---|---|
+| **Gilberto** Lerena | Julia Salvañach | Federal, Entre Ríos / Uruguay | 668, 669, 674, 679, 681 |
+| **Alejandro M** Lerena | Julia Bassani | Buenos Aires · Montevideo · Misiones | 665, 670, 677 |
+| **Arturo** Lerena | Amalia Vic Díaz | Entre Ríos · Mendoza · La Pampa | 673, 675, 687 |
+| **Ramón** Lerena | Laura Escobiti | Concordia, Entre Ríos | 684, 685 |
+| **Carlos** Lerena | Adela Carniglia | Mendoza | 686 |
+
+Entre Ríos, Mendoza, Buenos Aires, Montevideo. **Not one of them is from Rosario de Santa Fe, and not
+one father is Juan Carlos.**
+
+### The negative, stated carefully
+
+Across thirty-nine images, **Pablo Armando is the only Lerena in this drawer born at Rosario de Santa
+Fe, and no other son of Juan Carlos Lerena appears.** If he had a brother of enrolment age who
+registered, that brother is not here.
+
+**What that does and does not mean.** It does *not* mean he had no brothers. Enrolment abroad was done
+at a consulate by a man who chose to present himself; a brother who stayed in Argentina would be filed
+in his own district, not in this drawer, and a brother who never enrolled is nowhere at all. The
+drawer covers roughly the classes of 1870–1907, so a brother born within a decade of him *would* be of
+the right age — but only if he enrolled, and only if his card was filed by the same sound.
+
+It is a real negative all the same, and worth publishing: the first search that could have produced a
+sibling produced none.
+
+### Also noted, and set aside
+
+**Victorio Bartolomé Lera, born 1882, Capital, Mendoza** (image 658), whose son Víctor was born in 1902
+(image 660). Born the same year as Pablo Armando and filed six cards away — but Mendoza, not Rosario,
+and *Lera*, not *Lerena*, with a son already born when Pablo Armando was still unmarried. Recorded so
+it is not found again and mistaken for something.
