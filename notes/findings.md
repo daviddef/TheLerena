@@ -1664,3 +1664,22 @@ the Carlos-and-Gilberto pairing. Written up in `notes/an-argentine-diplomat-name
 - **A newspaper trace**: the *Western Times* and *North Devon Herald* both print
   "**Mary Septima Taylor, 16, Northam**" in what reads as a scholarship or pupil-teacher list, c.1900-01.
   Not yet opened — the newspaper search path defeated me and should be retried.
+
+### The newspaper search, retried and cracked
+The path is `/search-newspapers/results?names=...`, and the page image hides its OCR behind an **Articles**
+button. Two 1901 articles are ours; the rest of the "Septima Taylor" hits are 1960s racing cards for a
+horse called *Septima* ridden by a **B. Taylor**, and a 1938 amateur theatricals review. A separate
+newspaper search on **Lerena** returns 1,344 articles that are almost entirely OCR noise — Nissan *Serena*
+advertisements misread — and nothing of ours. That avenue is closed and should not be retried.
+
+***Mary Septima Taylor was a pupil teacher.*** *Western Times*, 4 April 1901, p.7, and *North Devon
+Herald*, 11 April 1901, p.2, both print the Exeter Diocesan Board of Education results. Under
+**Set II — monitors over sixteen and pupil teachers in their first year, 88 examined** — she appears in
+**Class III**: *"Mary Septima Taylor, 16, Northam."* She was training to teach in her own village school.
+Full write-up in `notes/mary-septima-pupil-teacher.md`, and now on the Taylors page.
+
+**The gap this exposes is the important part.** A pupil teacher at Northam in **April 1901**. "Mrs Lerena",
+crossing from Cape Town to Southampton with a three-year-old son, by **February 1909**. Eight years, and
+the whole distance between a Devon parish school and an Argentine horseman's household at the Cape.
+**How she got from one to the other is now the largest single hole in this family's story** — larger, and
+more likely to be answerable, than the question of where Pablo Armando was born.
