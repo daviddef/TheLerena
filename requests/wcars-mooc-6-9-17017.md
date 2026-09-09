@@ -8,7 +8,19 @@ NAAIRS description: *"LERENA, ROBERT PAUL. ESTATE PAPERS."*, 1950.
 
 **Repository:** Western Cape Archives and Records Service, 72 Roeland Street, Cape Town 8001.
 
-> ## *** ITS VALUE CHANGED ON 10 SEPTEMBER 2026 — NOT YET SENT ***
+> ## *** SENT — 10 September 2026 ***
+> **To:** `archives.clientservices@westerncape.gov.za`
+> **Address verified** from the Western Cape Government's own service page for the Western Cape Archives
+> (`westerncape.gov.za/service/western-cape-archives`), which gives it as the address for research and
+> reading-room enquiries. Not guessed, not taken from a third-party summary.
+> **From:** David Defranceski's Gmail, at his explicit instruction
+> **Subject:** *Copy request — Death Notice in deceased estate MOOC 6/9/17017, ref 1847/50: LERENA,
+> Robert Paul (d. 19 March 1950)*
+> **Gmail message id:** `1a087da08db5ca31`
+> **Reply expected to:** david.defranceski@gmail.com
+> **Fees:** asked for; not yet quoted. An emailed scan requested.
+
+> ## *** ITS VALUE CHANGED ON 10 SEPTEMBER 2026 ***
 > An Argentine army enrolment card, filed at the consulate in Cape Town, now names Pablo Armando's
 > parents: **JUAN CARLOS LERENA** and **MARÍA LERENA**. This request therefore stops being a fishing
 > trip and becomes **a test with a stated prediction**:

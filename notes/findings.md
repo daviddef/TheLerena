@@ -2358,3 +2358,19 @@ named a son **Ricardo Juan Carlos** — his uncle's name and his Argentine grand
 **Antoinette Septima Lynette**, carrying Mary Septima's. This family gave the grandparents' names back,
 every generation. That is precisely why *Ricardo Juan Carlos*, b.1920, is good corroboration of a card
 naming **Juan Carlos Lerena**.
+
+## Published, and a letter sent
+
+At David's instruction, two outward-facing things were done on 10 September 2026.
+
+**1. The enrolment card is now on the public FamilySearch tree.** Pablo Armando `GPWH-72S` has gained
+parents: **Juan Carlos Lerena `PFPY-23C`** and **María Lerena `PFPY-ZG1`**. The Source Linker's offer to
+copy the indexed values was *refused* — accepting it would have written *Rosario de Lerma, Salta* over
+his birthplace and created a father called *Juan Carlos Lorena Serena*. The parents were typed by hand
+from the image. The reason statement on María carries the caution about her surname in capitals, so the
+doubt travels with the finding. Written up in `notes/published-to-familysearch.md`.
+
+**2. The Western Cape Archives letter is sent** — `archives.clientservices@westerncape.gov.za`,
+address verified from the Western Cape Government's own service page, Gmail id `1a087da08db5ca31`. It
+asks for the Death Notice in **MOOC 6/9/17017** and states the prediction: question 19 should name
+**Juan Carlos Lerena and María**.
