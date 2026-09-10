@@ -2587,3 +2587,34 @@ a clean four-grandparent reading, and it makes the Argentine group *harder* to e
 
 *Also recorded: the confidence slider governs the genetic groups only. The ethnicity percentages are
 identical in both views.*
+
+## Compared against the Defranceski archive
+
+David asked for a side-by-side. It forced two corrections of my own before it produced anything useful.
+
+**The palette.** I said earlier the Lerena tokens matched *Falco's*, then that they were a deliberate
+cool variant. Both wrong. **The Lerena `styles.css` root block is byte-identical to Defranceski's** —
+every token, the same typefaces, the same `--maxw`. Lerena inherited the **Defranceski** system exactly;
+**Falco is the outlier** with a warm palette. Corrected in
+`notes/consistency-with-the-falco-archive.md` and written up properly in
+`notes/compared-with-the-defranceski-archive.md`.
+
+**The scale.** Defranceski: **65 pages, 38 components**. Lerena: **21 and 2**. Mostly a depth difference,
+not a defect — but it means the list is dominated by things that are *absent* rather than *wrong*.
+
+**Three things that ARE wrong, because this site contradicts itself:**
+
+1. **The living-person rule is broken by our own pages.** The footer says living people are *excluded*;
+   `/direct-line/` publishes a living person's **name, exact birth date, two cities and both marriages**
+   under a chip reading "Omitted" and a caption reading "Details withheld." Defranceski's rule is
+   different and workable — *"by name only: no dates, no places, no photographs."* **Pick one and honour
+   it.** The present state claims a protection it does not provide, and `/dna/` now sits on top of it.
+2. **Two chip vocabularies on one site** — the home page advertises *Documented · Inferred · Family lore*
+   while the register uses *Connected · Excluded · Unplaced*. Both fine; both unexplained is not.
+3. **The footer promises corrections with nowhere to put them.** This archive has made **at least eight
+   documented corrections in a fortnight** and they are buried in notes. Defranceski publishes them,
+   counted, with a "serious" tally. It is the most credible thing an archive owns.
+
+**And the mechanical reason our register links five rows out of 125:** Defranceski stores a bare
+FamilySearch id and builds the URL with an `ark()` helper. We store whole URLs, so we mostly store
+nothing.
