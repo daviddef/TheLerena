@@ -1,0 +1,38 @@
+---
+import Base from "../layouts/Base.astro";
+import Rule from "../components/Rule.astro";
+import { u } from "../lib/url.js";
+import rows from "../data/gaps.json";
+---
+<Base title="What we cannot close"
+      eyebrow={`${rows.length} of them`}
+      dek="Not the same page as the open questions. These are the places where the work has been done properly and the record may simply not exist — where more effort is not obviously the answer.">
+
+<section class="blk">
+  <div class="prose">
+    <p>An archive that lists only its questions implies they are all answerable. Some are not. A parish
+      register with a gap in it, a marriage in a country nobody has narrowed, a farm held on a lease that
+      left no title &mdash; these do not yield to persistence.</p>
+    <p><strong>Each row says what was actually done</strong>, so that nobody repeats it, and then says
+      plainly what would have to exist for the gap to be closable at all.</p>
+  </div>
+</section>
+
+<Rule name="arrows" label="Unfinished, and possibly unfinishable" />
+
+<section class="blk">
+  {rows.map(r => (
+    <div class="panel" style="margin-top:20px">
+      <p style="margin:0;font-size:1.08rem"><strong>{r.gap}</strong></p>
+      <p style="margin:12px 0 0"><span class="lab">What has been done</span><br />{r.what_has_been_done}</p>
+      <p style="margin:12px 0 0"><span class="lab">Why it may never close</span><br />{r.why_it_may_never_close}</p>
+    </div>
+  ))}
+</section>
+
+<section class="blk">
+  <div class="note">These are distinct from the <a href={u("/open-questions/")}>open questions</a>, which
+    are answerable and merely unanswered, and from the <a href={u("/hypotheses/")}>hypotheses</a>, which
+    are propositions this archive is entertaining without having proved.</div>
+</section>
+</Base>

@@ -1,0 +1,48 @@
+---
+import Base from "../layouts/Base.astro";
+import Rule from "../components/Rule.astro";
+import { u } from "../lib/url.js";
+import rows from "../data/corrections.json";
+const serious = rows.filter(r => r.severity === "serious").length;
+const minor = rows.length - serious;
+const byDate = [...rows].sort((a, b) => b.date.localeCompare(a.date));
+---
+<Base title="Corrections"
+      eyebrow={`${rows.length} entries · ${serious} serious`}
+      dek="Every claim this archive has published, or was about to publish, and then had to take back. It is the most useful page here, because an archive that never corrects itself is only telling you what it wanted to be true.">
+
+<section class="blk">
+  <div class="prose">
+    <p>Genealogy fails in one direction. A wrong name, once written down, gets copied; a right name only
+      gets found. So this page exists to make the wrongness expensive &mdash; every retraction is dated,
+      graded, and says <strong>how it was caught</strong>, because the catching is the transferable part.</p>
+    <p><strong>Nothing here has been quietly edited away.</strong> Where a page elsewhere on this site
+      once said something different, it now says the corrected thing <em>and</em> says that it used to say
+      something else.</p>
+  </div>
+  <div class="grid g3" style="margin-top:22px">
+    <div class="panel"><div class="nm">{rows.length}</div><div class="txt">corrections recorded</div></div>
+    <div class="panel"><div class="nm">{serious}</div><div class="txt">serious &mdash; changed a conclusion</div></div>
+    <div class="panel"><div class="nm">{minor}</div><div class="txt">minor &mdash; a slip, corrected</div></div>
+  </div>
+</section>
+
+<Rule name="arrows" label="Every one of them" />
+
+<section class="blk">
+  {byDate.map(r => (
+    <div class="panel" style={`margin-top:18px;border-left:3px solid ${r.severity === "serious" ? "var(--terra)" : "var(--rule-strong)"}`}>
+      <div class="lab">{r.date} · {r.severity}</div>
+      <p style="margin:10px 0 0"><strong>It said:</strong> {r.what_was_said}</p>
+      <p style="margin:10px 0 0"><strong>It is:</strong> {r.what_is_true}</p>
+      <p class="cap" style="margin:10px 0 0"><strong>Caught by:</strong> {r.how_it_was_caught}</p>
+    </div>
+  ))}
+</section>
+
+<section class="blk">
+  <div class="note"><strong>Found something else wrong?</strong> That is the most valuable thing anyone can
+    send. Corrections go straight onto this page with the date and the reason.
+    <a href={u("/sources/")}>Sources &rarr;</a></div>
+</section>
+</Base>

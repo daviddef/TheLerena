@@ -1,0 +1,40 @@
+---
+import Base from "../layouts/Base.astro";
+import Rule from "../components/Rule.astro";
+import { u } from "../lib/url.js";
+import rows from "../data/timeline.json";
+const KIND = { life: ["doc", "Life"], document: ["inf", "Document"], context: ["lore", "The world"] };
+const span = [rows[0].year, rows[rows.length - 1].year];
+---
+<Base title="The timeline"
+      eyebrow={`${span[0]}–${span[1]} · ${rows.length} fixed points`}
+      dek="Every dated thing this archive can stand behind, in order, with the record it rests on — and the handful of world events that explain why a Rosario horseman was at the Cape at all.">
+
+<Rule name="horse" label="From Rosario to Newlands" />
+
+<section class="blk">
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr><th style="width:6rem">Year</th><th style="width:8rem">Date</th><th>What</th><th style="width:20rem">Resting on</th></tr></thead>
+      <tbody>
+        {rows.map(r => (
+          <tr>
+            <td class="m"><strong>{r.year}</strong></td>
+            <td class="m">{r.date && r.date !== "-" ? r.date : ""}</td>
+            <td>{r.what}<br />
+              <span class={`chip ${(KIND[r.kind] || KIND.life)[0]}`}>{(KIND[r.kind] || KIND.life)[1]}</span></td>
+            <td class="cap">{r.source}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="blk">
+  <div class="note"><strong>The gap that shapes the page.</strong> Between his birth at Rosario in 1882
+    and his eldest son&rsquo;s birth at Cape Town in 1905 there are <strong>twenty-three years with
+    nothing in them</strong> &mdash; and the only plausible bridge this archive has found is the
+    remount trade of 1899&ndash;1902. <a href={u("/horses/")}>The horses &rarr;</a></div>
+</section>
+</Base>

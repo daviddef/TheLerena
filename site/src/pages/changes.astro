@@ -1,0 +1,39 @@
+---
+import Base from "../layouts/Base.astro";
+import Rule from "../components/Rule.astro";
+import { u } from "../lib/url.js";
+import days from "../data/changes.json";
+const total = days.reduce((n, d) => n + d.commits.length, 0);
+const REPO = "https://github.com/daviddef/TheLerena/commit/";
+---
+<Base title="What changed"
+      eyebrow={`${total} changes across ${days.length} ${days.length === 1 ? "day" : "days"}`}
+      dek="The whole history of this archive, newest first, in the words used at the time. Nothing here is written for the page — it is the working log, published.">
+
+<section class="blk">
+  <div class="prose">
+    <p>Every change to this archive is committed with <strong>the reason, not just the result</strong>.
+      That habit costs nothing at the time and is worth a great deal later: it means the record of
+      <em>why</em> a thing was believed survives alongside the thing itself.</p>
+    <p>So this page is not a summary. It is <strong>the log</strong>, rendered. Where a day contains a
+      retraction it will say so in its own words, and the same retraction is graded and dated on
+      <a href={u("/corrections/")}>Corrections</a>.</p>
+  </div>
+</section>
+
+{days.map(d => (
+  <>
+    <Rule name="arrows" label={d.date} />
+    <section class="blk">
+      {d.commits.map(c => (
+        <div class="panel" style="margin-top:16px">
+          <p style="margin:0;font-size:1.05rem"><strong>{c.subject}</strong></p>
+          {c.body && <p class="cap" style="margin:10px 0 0;white-space:pre-wrap">{c.body}</p>}
+          <p class="cap" style="margin:10px 0 0">
+            <a href={REPO + c.sha} rel="noopener"><span class="mono">{c.sha}</span> &#8599;</a></p>
+        </div>
+      ))}
+    </section>
+  </>
+))}
+</Base>

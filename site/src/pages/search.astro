@@ -1,0 +1,51 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import idx from "../data/searchindex.json";
+const base = u("");
+---
+<Base title="Search the archive"
+      eyebrow={`${idx.length} entries across every page`}
+      dek="People, places, dates, corrections, errands and the pages themselves — one box. Try a surname spelling, a year, a ship, a place, or a word from a record.">
+
+<section class="blk">
+  <input id="q" type="search" autofocus autocomplete="off" aria-label="Search the archive"
+         placeholder="Lerena · Lerina · 1882 · Rosario · CEMLA · carrots · Capetown"
+         style="width:100%;padding:16px 18px;font:inherit;font-size:1.15rem;
+                background:var(--panel);color:var(--ink);border:1px solid var(--rule);border-radius:2px" />
+  <p id="count" class="cap" style="margin-top:10px">Type to search. Press <kbd>/</kbd> from any page to
+    come back here.</p>
+  <div id="out" style="margin-top:20px"></div>
+  <p id="none" class="note" style="display:none">Nothing matches that. Try a shorter word, or a spelling
+    variant &mdash; this archive holds Lerena, Llerena, Larena, Lorena and Lerina.</p>
+</section>
+
+<script is:inline define:vars={{ idx, base }}>
+  (function () {
+    var q = document.getElementById('q'), out = document.getElementById('out');
+    var count = document.getElementById('count'), none = document.getElementById('none');
+    var KIND = { person:'Person', place:'Place', timeline:'Timeline', correction:'Correction',
+                 errand:'Errand', gap:'Gap', page:'Page' };
+    idx.forEach(function (e) { e._h = ((e.t||'') + ' ' + (e.d||'') + ' ' + (e.s||'') + ' ' + (e.k||'')).toLowerCase(); });
+    function run() {
+      var terms = q.value.toLowerCase().split(/\s+/).filter(Boolean);
+      if (!terms.length) { out.innerHTML = ''; none.style.display = 'none';
+        count.innerHTML = 'Type to search. Press <kbd>/</kbd> from any page to come back here.'; return; }
+      var hits = idx.filter(function (e) {
+        return terms.every(function (t) { return e._h.indexOf(t) !== -1; });
+      }).slice(0, 200);
+      count.textContent = hits.length + (hits.length === 1 ? ' result' : ' results');
+      none.style.display = hits.length ? 'none' : '';
+      out.innerHTML = hits.map(function (e) {
+        return '<a class="cardlink" style="display:block;margin-bottom:10px" href="' + base + e.u + '">' +
+               '<div class="lab">' + (KIND[e.k] || e.k) + (e.s ? ' · ' + e.s : '') + '</div>' +
+               '<div class="nm" style="font-size:19px;margin-top:4px">' + e.t + '</div>' +
+               (e.d ? '<div class="txt">' + e.d + '</div>' : '') + '</a>';
+      }).join('');
+    }
+    q.addEventListener('input', run);
+    var p = new URLSearchParams(location.search).get('q');
+    if (p) { q.value = p; run(); }
+  })();
+</script>
+</Base>

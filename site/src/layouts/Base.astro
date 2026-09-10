@@ -3,12 +3,13 @@ import { u } from "../lib/url.js";
 const { title, dek, eyebrow, bare } = Astro.props;
 const SITE = "The Lerena Archive";
 const nav = [
-  ["Start", [["/", "Home"], ["/direct-line/", "The Line"], ["/method/", "Method"]]],
-  ["The family", [["/taylor/", "The Taylors"], ["/estate/", "The Estate"], ["/passport/", "The Passport"], ["/enrolment-card/", "The Card"]]],
+  ["Start", [["/", "Home"], ["/direct-line/", "The Line"], ["/timeline/", "The Timeline"], ["/search/", "Search"]]],
+  ["The family", [["/taylor/", "The Taylors"], ["/estate/", "The Estate"], ["/passport/", "The Passport"], ["/enrolment-card/", "The Card"], ["/dna/", "The DNA"]]],
   ["The work", [["/naairs/", "The Archives"], ["/horses/", "The Horses"],
-                ["/argentina/", "Argentina"], ["/south-africa/", "South Africa"], ["/dna/", "The DNA"], ["/name/", "The Name"]]],
+                ["/argentina/", "Argentina"], ["/south-africa/", "South Africa"], ["/name/", "The Name"]]],
   ["People & places", [["/people/", "The People"], ["/places/", "Places"], ["/register/", "The Register"]]],
-  ["Open", [["/roadmap/", "Roadmap"], ["/hypotheses/", "Hypotheses"], ["/open-questions/", "Open Questions"], ["/searched/", "What Has Been Read"], ["/sources/", "Sources"]]],
+  ["Open", [["/open-questions/", "Open Questions"], ["/hypotheses/", "Hypotheses"], ["/gaps/", "What We Cannot Close"], ["/errands/", "Errands"], ["/roadmap/", "Roadmap"]]],
+  ["Honesty", [["/corrections/", "Corrections"], ["/changes/", "What Changed"], ["/searched/", "What Has Been Read"], ["/method/", "Method"], ["/sources/", "Sources"]]],
 ];
 const here = Astro.url.pathname;
 ---
@@ -66,12 +67,22 @@ const here = Astro.url.pathname;
 <footer class="site">
   <div class="wrap">
     <p class="foot">An evidence-first family archive for the Lerena family — of Rosario and the River Plate,
-    of the Cape and the Rand, and of Brisbane. Every claim carries its confidence. Living people are
-    excluded from this build.</p>
-    <p class="foot dim">Built {new Date().getFullYear()} · Sources listed on <a href={u("/sources/")}>Sources</a> · Corrections welcome</p>
+    of the Cape and the Rand, and of Brisbane. Every claim carries its confidence. <strong>Living people appear by name
+    only</strong> &mdash; no dates, no places, no photographs.</p>
+    <p class="foot dim">Built {new Date().getFullYear()} · Sources listed on <a href={u("/sources/")}>Sources</a> · Everything this archive got wrong is on <a href={u("/corrections/")}>Corrections</a></p>
   </div>
 </footer>
 
+<script define:vars={{ searchUrl: u("/search/") }}>
+  /* "/" opens search from anywhere. Ignored while the caret is in a field, so it never eats a typed slash. */
+  document.addEventListener("keydown", function (e) {
+    if (e.key !== "/" || e.metaKey || e.ctrlKey || e.altKey) return;
+    var t = e.target;
+    if (t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA" || t.isContentEditable)) return;
+    e.preventDefault();
+    location.href = searchUrl;
+  });
+</script>
 <script is:inline>
   (function () {
     var bar = document.querySelector(".topnav");

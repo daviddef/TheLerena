@@ -830,3 +830,11 @@ body.is-home #onthispage{display:none}
 .ptree .sw.tree{border-top-style:dotted;border-top-color:var(--ink-2)}
 .ptree .sw.line{border-top-color:var(--ink);border-top-width:4px}
 .ptree .warn{margin:.5rem 0 0;line-height:1.5}
+
+/* Filter chips — clickable status filters with live counts, as on the Defranceski register. */
+.chips .ch{font:inherit;font-family:var(--sans);font-size:12px;letter-spacing:.02em;
+  padding:7px 12px;border:1px solid var(--rule);border-radius:2px;
+  background:var(--panel);color:var(--ink-2);cursor:pointer}
+.chips .ch b{font-weight:600;color:var(--ink);margin-left:5px}
+.chips .ch:hover{border-color:var(--accent)}
+.chips .ch.on{background:var(--accent-wash);border-color:var(--accent);color:var(--ink)}

@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
 ---
 <Base title="Method"
       eyebrow="How this archive decides what it will say"
@@ -77,4 +78,48 @@ import Base from "../layouts/Base.astro";
     be recorded rather than quietly made.
   </p>
 </section>
+
+<section class="blk">
+  <h2>Two kinds of mark, and why both exist</h2>
+  <p class="dek">A reader meeting a coloured chip should know which question it answers. There are two,
+    and they are not the same question.</p>
+  <div class="grid g2" style="margin-top:20px">
+    <div class="panel">
+      <div class="lab">How well is it known?</div>
+      <p style="margin-top:10px">
+        <span class="chip doc">Documented</span> <span class="chip inf">Inferred</span>
+        <span class="chip lore">Family lore</span></p>
+      <p class="cap" style="margin-top:10px">Used on the narrative pages, against a <em>claim</em>. This is
+        the vocabulary the Defranceski and Falco archives use too.</p>
+    </div>
+    <div class="panel">
+      <div class="lab">Is this person one of ours?</div>
+      <p style="margin-top:10px">
+        <span class="chip doc">Connected</span> <span class="chip">Excluded</span>
+        <span class="chip inf">Unplaced</span></p>
+      <p class="cap" style="margin-top:10px">Used in the register and on person pages, against a
+        <em>person</em>. Most of the register is unplaced, and that is the point of the page.</p>
+    </div>
+  </div>
+  <div class="note" style="margin-top:20px">A person can be <strong>documented</strong> and
+    <strong>unplaced</strong> at once &mdash; well recorded, and not ours. Keeping the two marks separate
+    is what stops a good record turning into a relative.</div>
+</section>
+
+<section class="blk">
+  <h2>Living people</h2>
+  <div class="prose">
+    <p><strong>Living people appear by name only &mdash; no dates, no places, no photographs.</strong>
+      That is the rule shared across this family&rsquo;s archives, and it is stricter in practice than it
+      sounds: a birth date and a city together identify a person completely.</p>
+    <p>Where a living person&rsquo;s evidence bears on a dead one &mdash; a DNA test, a death notice they
+      signed &mdash; <strong>the inference is published and the person is not</strong>.
+      <a href={u("/dna/")}>The DNA page &rarr;</a> is the worked example.</p>
+    <p class="cap"><strong>This rule was broken until 10 September 2026</strong>, when the direct-line page
+      was found to be publishing a living person&rsquo;s exact birth date, two cities and both marriages
+      beneath a caption claiming the details were withheld. Recorded on
+      <a href={u("/corrections/")}>Corrections</a>.</p>
+  </div>
+</section>
+
 </Base>

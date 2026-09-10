@@ -11,10 +11,18 @@ const total = people.length;
 const place = places.find(x => x.slug === p.placeSlug);
 const others = place ? people.filter(x => x.placeSlug === p.placeSlug && x.slug !== p.slug) : [];
 
+// The third column of .rec is the "why" — the Defranceski archive uses it and ours sat empty.
+const WHY = {
+  Born: "as the record gives it",
+  Birthplace: "as the record gives it",
+  Nationality: "as declared, not as inferred",
+  Occupation: "the word the document uses",
+  "Where found": "the search that produced this person",
+};
 const says = [
   ["Born", p.born], ["Birthplace", p.birthplace], ["Nationality", p.nationality],
   ["Occupation", p.occupation], ["Where found", p.where],
-].filter(([, v]) => v && v !== "-");
+].filter(([, v]) => v && v !== "-").map(([k, v]) => [k, v, WHY[k] || ""]);
 
 const eyebrow = p.gen != null
   ? `Generation ${p.gen} of the direct line`
@@ -36,7 +44,7 @@ const relTree = p.relTree || 0;
     <div>
       <h2 style="margin-top:0">What the record says</h2>
       <div class="rec" style="margin-top:16px">
-        {says.map(([k, v]) => (<><div class="k">{k}</div><div class="v">{v}</div><div class="w"></div></>))}
+        {says.map(([k, v, w]) => (<><div class="k">{k}</div><div class="v">{v}</div><div class="w">{w}</div></>))}
       </div>
       <div style="margin-top:18px"><Chip c={p.status} /></div>
     </div>

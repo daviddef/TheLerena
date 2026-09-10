@@ -115,3 +115,49 @@ The **design system is correct and identical** — tokens, type, `.wrap .lab .de
 shape. The **register** now matches the house pattern (spelling groups, the *"N entries for M distinct
 names, X with a link"* stat sentence, the source-or-reason column). The **person pages** now carry the
 family chart. **None of that needs redoing.**
+
+---
+
+## Done — 10 September 2026
+
+Everything in the FIX and ADD lists above, except two items deliberately declined.
+
+### Fixed
+
+- **The living-person rule.** Adopted the Defranceski wording — *"Living people appear by name only —
+  no dates, no places, no photographs"* — and made the site obey it. The `/direct-line/` row that
+  published a living person's **exact birth date, two cities and both marriages** beneath a caption
+  claiming the details were withheld now shows the name and nothing else. The `/dna/` page already used
+  the inference without the person. **Recorded on `/corrections/` rather than quietly amended.**
+- **The two chip vocabularies** are now explained side by side on `/method/`, with the point that
+  matters: *a person can be documented and unplaced at once — well recorded, and not ours.*
+- **The footer** now ends where Defranceski's does: *"Everything this archive got wrong is on
+  Corrections."*
+
+### Added
+
+| Page | What it holds |
+|---|---|
+| **`/corrections/`** | **14 entries, 7 of them serious**, each with what was said, what is true, and *how it was caught* |
+| **`/search/`** | 217 entries across people, places, timeline, corrections, errands, gaps and pages — with **`/` bound as a shortcut from anywhere** |
+| **`/timeline/`** | 18 fixed points, 1882–1950, each with the record it rests on |
+| **`/errands/`** | 5 letters out and 4 jobs that need a person — previously invisible in `requests/` |
+| **`/gaps/`** | 5 things that may never close, each saying what was already done |
+| **`/changes/`** | **the git log, rendered** — 80 commits across 3 days, because every commit here is written as a paragraph |
+
+Plus **`Rule` and `Motif`** components: the labelled section rules both sibling archives use.
+
+### Improved
+
+- **The `ark()` helper.** The register now stores a **bare FamilySearch id** and builds the URL, the way
+  Defranceski does. The link count is still five — but the *reason* is now honest: five is how many arks
+  we have recorded, not a limitation of the plumbing. Every new entry carries one.
+- **The dead `.rec` third column** now carries the "why" on every person page.
+- **Register status filters** are clickable chips with live counts, not a text box alone.
+
+### Declined, with reasons
+
+- **`/about/`** — it would duplicate `/method/`, which now carries the ethics, the two chip vocabularies
+  and the living-people rule. One page saying it properly beats two saying it twice.
+- **Folding `/roadmap/` into a research log** — `/gaps/` and `/errands/` have taken most of that job
+  already. Revisit when the overlap is actually confusing rather than theoretically untidy.

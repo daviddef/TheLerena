@@ -89,6 +89,12 @@ for (const g of groups) g.rows.sort((a, b) => a.name.localeCompare(b.name));
          autocomplete="off" aria-label="Filter the register"
          style="width:100%;margin-top:16px;padding:14px 16px;font:inherit;font-size:1.05rem;
                 background:var(--panel);color:var(--ink);border:1px solid var(--rule);border-radius:2px" />
+  <div class="chips" style="display:flex;flex-wrap:wrap;gap:8px;margin-top:14px">
+    <button class="ch on" data-st="all">All <b>{total}</b></button>
+    <button class="ch" data-st="connected">Connected <b>{nConnected}</b></button>
+    <button class="ch" data-st="excluded">Excluded <b>{nExcluded}</b></button>
+    <button class="ch" data-st="unplaced">Unplaced <b>{nUnplaced}</b></button>
+  </div>
   <p id="count" class="cap" style="margin-top:10px">{total} entries shown</p>
   <p id="none" class="note" style="margin-top:18px;display:none">Nothing matches that. Try a shorter word —
     a surname, a place, or a year.</p>
@@ -101,7 +107,7 @@ for (const g of groups) g.rows.sort((a, b) => a.name.localeCompare(b.name));
           <thead><tr><th style="width:19rem">Name</th><th>What the source says</th><th style="width:19rem">Source</th></tr></thead>
           <tbody>
             {g.rows.map(p => (
-              <tr data-s={p.hay}>
+              <tr data-s={p.hay} data-st={p.status}>
                 <td><a href={u(`/people/${p.slug}/`)}><strong>{p.name}</strong></a><br />
                   <span class={`chip ${p.chip[0]}`.trim()}>{p.chip[1]}</span></td>
                 <td>{p.says}
@@ -134,6 +140,14 @@ for (const g of groups) g.rows.sort((a, b) => a.name.localeCompare(b.name));
   (function () {
     var q = document.getElementById('q');
     if (!q) return;
+    var st = 'all';
+    var chips = Array.prototype.slice.call(document.querySelectorAll('.chips .ch'));
+    chips.forEach(function (c) {
+      c.addEventListener('click', function () {
+        chips.forEach(function (o) { o.classList.remove('on'); });
+        c.classList.add('on'); st = c.getAttribute('data-st'); run();
+      });
+    });
     var rows = Array.prototype.slice.call(document.querySelectorAll('tbody tr[data-s]'));
     var groups = Array.prototype.slice.call(document.querySelectorAll('.grp'));
     var count = document.getElementById('count');
@@ -144,6 +158,10 @@ for (const g of groups) g.rows.sort((a, b) => a.name.localeCompare(b.name));
       rows.forEach(function (r) {
         var hay = r.getAttribute('data-s') || '';
         var ok = terms.every(function (t) { return hay.indexOf(t) !== -1; });
+        if (ok && st !== 'all') {
+          var s2 = r.getAttribute('data-st') || '';
+          ok = st === 'unplaced' ? (s2 === 'unplaced' || s2 === 'high' || s2 === 'interest') : s2 === st;
+        }
         r.hidden = !ok;
         if (ok) shown++;
       });

@@ -35,6 +35,17 @@ def surname_of(name):
     s = toks[0].rstrip("[]")
     return SURNAME_FIX.get(toks[0], s)
 
+FS = "https://www.familysearch.org"
+
+def ark_url(a):
+    """Store the bare id; build the link. The Defranceski archive's trick, and the reason
+    it links thousands of rows where this one linked five."""
+    if not a:
+        return ""
+    if a.startswith("tree:"):
+        return f"{FS}/tree/person/details/{a[5:]}"
+    return f"{FS}/ark:/61903/{a}"
+
 def no_link_reason(src):
     """Falco convention: every row links to its source, or says here why it cannot."""
     b = src.lower()
@@ -63,7 +74,7 @@ hdr, rows = rows[0], rows[1:]
 people, seen = [], {}
 for r in rows:
     r = (r + [""] * 10)[:10]
-    name, born, bp, nat, occ, where, src, st, note, src_url = r
+    name, born, bp, nat, occ, where, src, st, note, ark = r
     base = slugify(name)
     seen[base] = seen.get(base, 0) + 1
     slug = base if seen[base] == 1 else f"{base}-{seen[base]}"
@@ -74,8 +85,9 @@ for r in rows:
         "status": STATUS.get(st.strip().upper(), "unplaced"), "statusRaw": st,
         "note": note, "place": place, "placeSlug": slugify(place),
         "surname": surname_of(name),
-        "sourceUrl": src_url,
-        "noLink": "" if src_url else no_link_reason(src),
+        "ark": ark,
+        "sourceUrl": ark_url(ark),
+        "noLink": "" if ark else no_link_reason(src),
     })
 
 places = {}
