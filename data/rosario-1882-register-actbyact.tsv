@@ -12,39 +12,62 @@
 # CALIBRATION, useful to anyone continuing: Rosario cathedral baptised 112 children in January 1882 and
 # 122 in February - about four a day. Acts run continuously; the year begins at act 1 and page 362.
 #
-# *** RESULT: NO LERENA IN ANY ACT FROM 1 FEBRUARY TO 15 MARCH 1882. ***
-# Pablo Armando was born 22 February 1882. This span covers the three weeks before his birth and the
-# three weeks after it.
+# *** RESOLUTION - READ THIS BEFORE TRUSTING ANY ROW. ***
+# The first pass (10 Sep 2026) read whole openings at level 12, 42% scale. That was NOT good enough: at
+# that size "Timoteo Lucero" was read as "Armando Sara" - both words wrong, and an L-surname missed.
+# Every row below has therefore been RE-READ from the MARGIN STRIPS at level 13 (the maximum), where the
+# names are unambiguous. The method: render tile columns 0-3 and 9-12 side by side - the two margin
+# columns of the opening - in one image. One screenshot per opening, every name legible.
+# The conclusion did not change. Many individual readings did, and the corrected ones are below.
+#
+# *** RESULT: NO LERENA IN ANY ACT FROM 1 FEBRUARY TO 31 MARCH 1882. ***
+# Pablo Armando was born 22 February 1882. This span is the whole of the two months around his birth -
+# 261 baptisms, every margin read.
 #
 image	ark	pages	acts	dates	result
 205	S3HT-6BB3-ZW	386-387	98-105	25 Jan 1882	Calibration frame. January still running.
 206	S3HT-6BB4-WT	388-389	106-112	Jan 1882	*** JANUARY ENDS AT ACT 112. *** Right column blank below.
-207	S3HT-6BBQ-VZ	390-391	113-120	1-2 Feb	*** "FEBRERO" heading. *** Vela; Colombo; Lizarraga; Munoz; Gonzalez; Vidal; Malbran; Sala Lopez. No Lerena.
-208	S3HT-6BB7-Q7	392-393	121-128	2-4 Feb	Cabral; Montenegro; Isidoro; Luna; Armas; Navone; Ametin; Vera. No Lerena.
-209	S3HT-6BBQ-GG	394-395	129-136	4-5 Feb	Montiel; Carlos; Larmentia; Pereira; Alvarez; Vidal; Vilata; Aranda. No Lerena.
-210	S3HT-6BBQ-RW	396-397	137-144	5-8 Feb	Rodriguez; Patica; Gallegos; Echevarria; Rose; Ortiz; Yspirina; Sanchez. No Lerena.
-211	S3HT-6BB4-QG	398-399	145-152	8-10 Feb	Alvarado; Avena; Ramos; Doria; Baez; Palma; Ferri; Coronel. No Lerena.
-212	S3HT-6BB4-HT	400-401	153-160	10-11 Feb	Zarate; Bermejo; Ramirez; Cuello; Cordoba Lujan; Burgos; Lammermes; Pelegrini. No Lerena.
-213	S3HT-6BBW-5Q	402-403	161-168	11-12 Feb	Luna; Romero Villanueva; Tavarez; Carrizo; Ricotti; Carro; Vidici; Ramos. No Lerena.
-214	S3HT-6BB7-DC	404-405	169-176	12-16 Feb	Ramos; Sais; Veiga; Manzi; Cordova; Martinez; Arce; Gonzalez. No Lerena.
-215	S3HT-6BBQ-YZ	406-407	177-184	14-15 Feb	Arquello; Villano; Sanz; Silva; Ocas Costa; Luna; Green; Galvan. No Lerena.
-216	S3HT-6BBW-XV	408-409	185-192	16-17 Feb	Espinola Cardenas; Salcedo; Doria Reynoso; Aguirrecoena; Rojas; Merci; Cuello; Siguerra. No Lerena.
-217	S3HT-6BBQ-61	410-411	193-200	18-19 Feb	Bordes; Osiondu; Pirotto; Bertolan; Gomez; Morales; Barragan; Gioia. No Lerena.
-218	S3HT-6BB7-33	412-413	201-208	19-20 Feb	Patroni Cabrera; Corbera; Cristobal; Gomez; Villaret; Antonia; Moras; Cabral. No Lerena.
-219	S3HT-6BB4-48	414-415	209-216	20-22 Feb	*** THE DAYS OF HIS BIRTH. *** Montemayor Gonzalez; Follo Yguerarena; Torres; Rolando; Marra; Aciderra; Rangana; Bustos. No Lerena.
-220	S3HT-6BB4-C7	416-417	217-224	22-25 Feb	Sousa; Jurado; Santana; Amsani; Cerruti; Steler; Acci; Berrocg. No Lerena.
-221	S3HT-6BB4-QZ	418-419	225-232	25-26 Feb	Guimaraens; Iurriaga; Ochoa; Bovar; Callaste; Bugadaco; Benitez; Coronel Ponce. No Lerena.
-222	S3HT-6BBQ-SJ	420-421	233-239	27 Feb - 2 Mar	*** FEBRUARY ENDS AT ACT 234; "MES DE MARZO" begins at 235. *** Alvarez; Martinez; Castillo; Ceber; Galvan; Orosco; Leal. No Lerena.
-223	S3HT-6BBW-TQ	422-423	240-247	4-6 Mar	Hernandez; Dejeun; Chirino Orsi; Villar; Muren; Palacio Cortinez; Mercado; Berner. No Lerena.
-224	S3HT-6BB3-5J	424-425	248-255	6 Mar	Sirti; Terri; Mendola; Leonardi. *** RIGHT PAGE PARTLY COVERED by a paper slip pasted in on 29 May 1905. See image 226. ***
+207	S3HT-6BBQ-VZ	390-391	113-120	1-2 Feb	Ceresa Yseta; Maria Sara Colombo; Leon Echerraquibel; Fortunato Munoz; Cecilia Policarpa Morales; Benjamin de Jesus Vidal; Alejandra Malbran; Manuel Saba Lopez. No Lerena.
+208	S3HT-6BB7-Q7	392-393	121-128	2-4 Feb	Juan Miguel Cabral; Tomasa Rita Montenegro; Telmo Cardoso; Hilaria Senovia Luna; Benigno Comas Figueroa; Bartolo Savoni; Maria Catalina Urrutia; Juan Crisostomo Vera. No Lerena.
+209	S3HT-6BBQ-GG	394-395	129-136	4-5 Feb	Eladia de las Mercedes Montiel; Maria Castro; Ysabel Garmendia; Emilia Pereira; Olegario Carmelo Alvarez; Juan Alfredo Bosi; Luis Santiago Vilata; Petrona Aranda. No Lerena.
+210	S3HT-6BBQ-RW	396-397	137-144	5-8 Feb	Petrona Rodriguez; Marcelina Garcia; Floriana Gallegos; Albino Echevarria; Ana Paula Can; Telesforo Oscar Oliva; Elvira Zeferina Tunez; Emma Santos Sanchez. No Lerena.
+211	S3HT-6BB4-QG	398-399	145-152	8-10 Feb	Joaquin Acevedo; Sebastiana Acuna; Petrona Ramos; Ynes Soria; Juan Jose Baez; Jose Francisco Palma; Felix Ernesto Jose Bueninsegna; Secundina Coronel. No Lerena.
+212	S3HT-6BB4-HT	400-401	153-160	10-11 Feb	Teresa Flora Zarate; Remigio Maximo; Ana Maria Carolina Antonia Ranieri; Antonio del Rosario Cuello; Carolina Lujan; Cipriano Cornelio Burgos; Jose Francisco Leviramon; Maria Jose Pelegrini. No Lerena.
+213	S3HT-6BBW-5Q	402-403	161-168	11-12 Feb	Claudia Luna de Lucero; Carla Ramona Villanueva; Ramon Tavarez; Simon Carrizo; Jose Travasso Guarano Ricotti; Rosa Curco; Rosa Margarita Vidiri; Eduardo de Jesus Ramos. No Lerena.
+214	S3HT-6BB7-DC	404-405	169-176	12-16 Feb	Maria Marciana Ramos; Eduardo Sais; Catalina Teresa (Musto); Maria Luisa Daneri; Manuela de los Reyes Cordova; Ambrosia Martinez; Inocencio Arce; Juana Petrona Gonzalez. No Lerena.
+215	S3HT-6BBQ-YZ	406-407	177-184	14-15 Feb	Benigno del Carmen Arguello; Alejandra Margarita Orellano; Francisca Dorotea Surao; Susana Maria Silva; Alvina Diaz; Gervasio Luna; Susana Green; Claudelina Ga-. No Lerena.
+216	S3HT-6BBW-XV	408-409	185-192	16-17 Feb	Julia Esperanza Pia Linzana; Jose Angel Falcone; Maria Luisa Eleazar Bijande y Hanel; Antonina Leguizamon; Manuela Rojas; Justo Hamer; Leocadia Emilia Lopez; Angel Maria de las Nieves Sa-. No Lerena.
+217	S3HT-6BBQ-61	410-411	193-200	18-19 Feb	Maria Aranda; Rosa Desandie; Jesus Peralta; Juan Bautista Bartolon; Juana Gomez; Maria del Carmen Moran; Felipa Barinaga; Micaela Giea. No Lerena.
+218	S3HT-6BB7-33	412-413	201-208	19-20 Feb	Maria Valentina Catarain; Amalia Cabrera; Juan Lucas Quintal; Cornelia Amelia Gomez; Jose Mariano Tilbuci; Ramon Alfredo Ledesma; Juan Valentin Flores; Rosa Cabral. No Lerena.
+219	S3HT-6BB4-48	414-415	209-216	20-22 Feb	*** THE DAYS OF HIS BIRTH. *** Jose Marbiano Gonzalez; Pedro Pablo Leguizamon; Maria Margarita Torres; Ysabel Ademia Rolando; Luciano Ybarra; Petrona Romualda Cordova; Teresa Petrona Saturnina Thingana; Maria Luciana Bustos. No Lerena.
+220	S3HT-6BB4-C7	416-417	217-224	22-25 Feb	Lucia Emma Souza; Maria Matilde Jurado; Angela Santana; Martin Mariani; Maria del Rosario Gerosito; Maria Felisa Stelz; Ysidoro Arce; Maria Laura Bernego. No Lerena.
+221	S3HT-6BB4-QZ	418-419	225-232	25-26 Feb	Crisologo Jose Ricardo Dacosta Guimaraens; Angel Abundio Louraschi; Guillermo Esteban Kehae; Maria Teresa Cesar; Ygnacio Candido Gallardo; Antonio Bayadarci; Flora de Jesus Benitez; Eugenio Ermilio Daniel Ponce. No Lerena.
+222	S3HT-6BBQ-SJ	420-421	233-239	27 Feb - 2 Mar	*** FEBRUARY ENDS AT ACT 234; "MES DE MARZO" begins at 235. *** Manuel Rodolfo Atienzo; Jose Martinez; Juana Maria Castillo; Luis Jorge Celeri; Eustaquio Miguel Galvan; Abelardo Orosco; Martin Raimundo Leal. No Lerena.
+223	S3HT-6BBW-TQ	422-423	240-247	4-6 Mar	Zenon Hernandez; Jose Francisco Bejone; Juan Esteban Orsi; Silvano Valdozo; Luisa Ignacia Huam; Andres Hilario Cortinez; Juan Miranda; Maria Casarina Berner. No Lerena.
+224	S3HT-6BB3-5J	424-425	248-255	6 Mar	Angela Rita Seita; Rosa Teresa Pozzi; Casimira Erminda Mendieta; Emma Petronila Leonardi. *** RIGHT PAGE PARTLY COVERED by a paper slip pasted in on 29 May 1905. See image 226. ***
 225	S3HT-6BBQ-C4	424-425	-	-	*** DUPLICATE EXPOSURE of 224. Counted once. ***
-226	S3HT-6BB7-4Z	425	252-255	6 Mar	*** THE SAME PAGE REFILMED WITH THE SLIP LIFTED - nothing is lost. *** Filiciano; Pelegrini; Otero; Lardizabal. No Lerena.
-227	S3HT-6BB7-LH	426-427	256-263	6-8 Mar	Marquez; Zanudo; Villalva; Mora; Sanchez Almendra; Corragoni; Frisegra; Fable Quevedo. No Lerena.
-228	S3HT-6BBS-Y8	428-429	264-271	9 Mar	Figueras; Florentina; Leiva; Baigorria; Barrera; Muerto; Gonzalez; Fernandez. No Lerena.
-229	S3HT-6BB7-7Y	430-431	272-279	9-11 Mar	Ricardo; Gonzalez; Medina; Rojas; Dominguez; Perreros; Equissi; Comarri. No Lerena.
-230	S3HT-6BB7-8T	432-433	280-287	12-14 Mar	Braun; Marconi; Cammes; Tessi; Domingo; Camen; Terrari; Sanchez. No Lerena.
-231	S3HT-6BB7-67	434-435	288-295	14-15 Mar	Romero Tello; Alvarado; Moreira; Durand; Beltran Callegari; Romero Doval; Lorenzo; Ayala. No Lerena.
+226	S3HT-6BB7-4Z	425	252-255	6 Mar	*** THE SAME PAGE REFILMED WITH THE SLIP LIFTED - nothing is lost. *** Claudia Simeona Sulema Petrina; Angel Pelegrini; Ermelia Ernesta Otero; Ascencion Lardizabal. No Lerena.
+227	S3HT-6BB7-LH	426-427	256-263	6-8 Mar	Encarnacion Cornelia Marquez; Pedro Leonides Yrureta; Maria Hortensia Villalva; Manuel Pedro Mosa; Estania Laura Almada; Maria Dominga Carragone; Tomasa Ferreyra; Juan Bautista Pablo Quevedo. No Lerena.
+228	S3HT-6BBS-Y8	428-429	264-271	9 Mar	Domingo Figueroa; Maria Carmen Rosario Florentina; Saturnino Alfonso Leiva; Matias Baigorria; Raimunda Jurado; Jose Modesto Gonzalez Aguirre; Rosa Gonzalez; Ygnacio Fernandez. No Lerena.
+229	S3HT-6BB7-7Y	430-431	272-279	9-11 Mar	Pia Celsa Rosario Ricardo; Manuela Ofelia Gonzalez; Valerio Medina; Martin Fabian Rojas; Antonia de los Reyes Dominguez; Martin Alberto Larrines; Juan Miguel Equiesu; Juana Comazzi. No Lerena.
+230	S3HT-6BB7-8T	432-433	280-287	12-14 Mar	Maria Esperanza Sofia Braune; Federico Macaula; Cecilia Caminos; Maria Josefina Busi; Maria Sara Ramayo; Maria Carmen Gonzalez; Francisco Pedro Santiago Ferrari; Ysabel Josefa Sanchez. No Lerena.
+231	S3HT-6BB7-67	434-435	288-295	14-15 Mar	Francisca Rosario Tello; Tomas Ahumada; Jose Severo Ascurra; Luis Eugenio Luzardi; Juan Antonio Calagari; Francisco Daval; *** Gregoria Encarnacion LUZENA *** ; Nicanor Ayala. No Lerena - Luzena is not Lerena. A marginal note at act 289 cross-refers to folio 577.
+232	S3HT-6BB7-1F	436-437	296-303	15-17 Mar	Manuel Flores; Yndalecia Cabrera; Pedro Andres Herrera; Maria Salome Carmen Torres; Balbina Ortiz; Leocadio Oracio Fredriksen; Raimundo Gonzalez; Juana Estaurofila Acosta. No Lerena.
+233	S3HT-6BB7-LB	438-439	304-311	17-18 Mar	Javier Peralta; Modesta Ysabel Oyarbide; Sergio Romeo Piaggio; Lindor Horacio Cisnero; Andrea Sulema Palacio; Maria Eulalia Collado; Ambrosio Juan Estefani; Natalio Cortez. No Lerena.
+234	S3HT-6BB3-14	440-441	312-319	18-19 Mar	Timoteo LUCERO (the act that exposed the 42%-scale error - it had been read as "Armando Sara"); Jose Angeli; Catalina Maria Tavella; Andres Silva; Luis Grucci/Aruccio (with a marginal note correcting the surname); Rufino Elias Zapata; Jose Antonio Sochel; Felisa Isola Arriagada. No Lerena.
+235	S3HT-6BBQ-4S	442-443	320-327	19-20 Mar	Maria Modesta Romualda Guerrero; Angela Manuela Peralta; Ysabel Silva; Santiago Busaglia; Luisa Maria Barqueri; Alvino Vasquez; Ysidora Perez; Santos Galvan. No Lerena.
+236	S3HT-6BB3-ZT	444-445	328-335	21-22 Mar	Maximo Barrios; Alberta Gonzalez; Francisca Deciderio Urrusta; Federico Luis Maria Cixi; Rejina Maria Letier; Mario Telesforo Quintero; Erminia Lavat; Rosa Magdalena Figallo. No Lerena. A marginal note refers Pedro Nolasco Flores to folio 577.
+237	S3HT-6BB3-6L	446-447	336-343	24-25 Mar	Alberto Maria de las Mercedes Farre; Juan Tomas Libieri; Paula Diaz; Ana Maria Forchelli; Nicanor Lopez; Adela Maria Longe; Jose Ygnacio Fernandez; Adela Elesa Balerini. No Lerena.
+238	S3HT-6BBQ-X4	448-449	344-351	25-26 Mar	Jose Angel Arce; Josefa Alejandra Arancilla; Manuela Alejandra Peduci; Juana Barraza; Paula Teodora Alguerei; Abdon Ambrosio Liendo; Gregoria Erminda Lopez; Petrona Adriana Herrera. No Lerena.
+239	S3HT-6BBW-77	448-449	-	-	*** DUPLICATE EXPOSURE of 238. Counted once. ***
+240	S3HT-6BB4-H6	450-451	352-359	26-27 Mar	Luisa Scorzetti; Carlos Arturo Roldan; Ysabel Juliana Pedernera; Ramon Telio Cabral; Juan Genaro Cabral; Laurentina Silva; Casimiro Marquez; Maria Elvira Viti. No Lerena.
+241	S3HT-6BB4-81	452-453	360-367	28-30 Mar	Martina Josefa Carolina Louraschi; Alejandro Alfredo Pedernera; Teresa Emilia Bianchi; Ramon Maximiliano Marquez; Encarnacion Romula Marquez; Encarnacion Jeronima Albarracin; Juan Bautista Gamboa; Luis Gonzaga R-. No Lerena.
+242	S3HT-6BBQ-HT	454-455	368-376	30 Mar - 1 Apr	*** MARCH ENDS; APRIL BEGINS AT ACT 374. *** Juana Francisca Matos; Luis PAUL Exposito (a foundling - note the forename); Matilde Eulogia Exposita; Juana Alve; Elisa Sose; Raimundo Lozano; Matilde Aranda; Felipe Suarez. No Lerena.
 #
 # *** WHERE THE SWEEP STOPS, so it can be resumed exactly. ***
-# Last act read: 295, 15 March 1882, page 435, image 231 (ark S3HT-6BB7-67).
-# To continue: image 232 onward in the same waypoint. April 1882 begins somewhere around act 360.
+# Last act read: 376, 1 April 1882, page 455, image 242 (ark S3HT-6BBQ-HT).
+# To continue: image 243 onward in the same waypoint.
+#
+# *** FEBRUARY AND MARCH 1882 ARE NOW COMPLETE, ACT BY ACT, AT FULL RESOLUTION. ***
+# Acts 113 to 373 - the whole of both months, 261 baptisms - and no LERENA in any of them.
+# Rate for planning: about 8 acts per opening, about 15 openings per month.

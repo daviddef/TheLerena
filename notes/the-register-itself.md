@@ -63,3 +63,37 @@ So the honest position is now narrower and sharper than before:
 **The next stretch is a known quantity now**: about fifteen frames per month, eight acts a frame, margins
 legible. Finishing 1882 is roughly a hundred and thirty more frames. That is a long afternoon, not a
 mystery.
+
+---
+
+## Second pass — and a correction to how the first was done
+
+**The first pass was not read at a high enough resolution, and it has been redone.**
+
+The first sweep rendered whole openings at level 12, 42% scale. That is legible enough to *follow* the
+page — but not to be certain of a name. The proof came at act 312, where *"Timoteo Lucero"* had been
+read as *"Armando Sara"*. **Both words wrong, and an L-surname missed entirely** — which is precisely
+the failure mode that matters when the whole exercise is looking for one L-surname.
+
+So every opening was **re-read from the margin strips at level 13**, the film's maximum. The method:
+render tile columns 0–3 and 9–12 — the two margin columns of the opening — side by side in a single
+image. One screenshot per opening, every name unambiguous.
+
+**The conclusion did not change. Many individual readings did**, and the corrected ones are now in
+`data/rosario-1882-register-actbyact.tsv`. The earlier readings should not be quoted.
+
+## Where it now stands
+
+> **February and March 1882 are complete, act by act, at full resolution.**
+> **Acts 113 to 373 — 261 baptisms — and no Lerena in any of them.**
+
+He was born on **22 February 1882**. This is now the whole of the two months around his birth, not a
+six-week window, and every margin has been read at a size where the name could not hide.
+
+Also noted along the way: two **duplicate exposures** (images 225 and 239), the **pasted 1905 slip** on
+page 425 and its refilmed frame, a marginal cross-reference at act 289 to folio 577, and two foundlings
+named **Paul** — *Luis Paul Expósito* at act 369 and *Luis Paul* in the 1882 marriage index. The forename
+was in Rosario; the surname was not.
+
+**April begins at act 374.** The sweep stops at act 376, image 242, and the file records the ark so it
+resumes without repeating a frame.
