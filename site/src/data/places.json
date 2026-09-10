@@ -3,6 +3,7 @@
   "slug": "buenos-aires-arrivals",
   "name": "Buenos Aires — arrivals",
   "people": [
+   "martin-lerena",
    "jose-m-lerena",
    "domenico-lerena",
    "gregorio-lerena",
@@ -47,7 +48,7 @@
    "anna-lerina",
    "annunziata-lerina"
   ],
-  "count": 43
+  "count": 44
  },
  {
   "slug": "buenos-aires",
@@ -228,14 +229,6 @@
   "name": "Isla Martin Garcia",
   "people": [
    "lola-lerena"
-  ],
-  "count": 1
- },
- {
-  "slug": "arr-buenos-aires-1907-07-14",
-  "name": "arr. Buenos Aires 1907-07-14",
-  "people": [
-   "martin-lerena"
   ],
   "count": 1
  },

@@ -3,12 +3,23 @@
 *10 September 2026. David asked whether the Lerena site has the equivalent of the Falco register, and
 said the two sites need to stay consistent. It did have one. It was not consistent. It is now.*
 
-## What was already shared
+## What was already shared — corrected
 
-**The visual language is identical, and was already identical.** Both sites use the same tokens —
-`--ground #F2EEE5`, `--panel #FAF7F1`, `--ink #221D18`, `--rule #DAD2C3`, `--accent #8A2B16`,
-`--ochre #A8802C`, `--terra #2F5D50` — and the same three typefaces: EB Garamond, Libre Franklin,
-IBM Plex Mono. Nothing needed doing there.
+**An earlier version of this note said the two palettes were identical. They are not, and the error was
+mine.** I read the Falco tokens, assumed ours matched, and wrote Falco's hex values as though they were
+ours. What is actually shared is the **design system**, not the colours:
+
+- **The same token names**: `--ground --panel --ink --ink-2 --ink-3 --rule --rule-strong --accent
+  --ochre --terra --serif --sans --mono`.
+- **The same three typefaces**: EB Garamond, Libre Franklin, IBM Plex Mono.
+- **The same component vocabulary**: `.wrap .lab .dek .cap .prose .panel .grid .chip .cardlink .scroll
+  .rec .nm .txt` — and now `.ptree` as well.
+
+**The values differ, and look deliberate.** Falco is warm — ink `#221D18`, accent `#8A2B16`, a brick
+red. Lerena is cool — ink `#16222A`, accent `#1F5C6B`, a teal, with `--terra #A8442B` for warnings.
+Each archive has its own colour and shares its grammar. If the two are meant to be indistinguishable
+that is a one-line change to `styles.css`; it has not been made, because it looks like a choice rather
+than a drift.
 
 ## What was different, and is no longer
 
@@ -51,3 +62,46 @@ its ark, and the `source_url` column now exists in `data/lerena-register.tsv` to
 2. **&ldquo;The Line&rdquo; rather than &ldquo;The Spine&rdquo;.** Falco calls its descent page *The
    Spine*. Ours is titled *The line* throughout its own prose, and renaming the nav alone would leave the
    page contradicting its own heading. Flagged for David rather than changed unilaterally.
+
+---
+
+## Round two — the person pages
+
+David asked for the person pages to follow the Falco pattern, with the lineage shown as a chart. They now
+do, using the **same structure, the same class names and the same CSS** as
+`daviddef.github.io/TheFalco/people/vincenzo-falco/`.
+
+### The chart
+
+A `<figure class="ptree">` with tiers — **Parents**, the subject with **Married** beside them, **N
+children**, **N siblings** — and a legend. Class names match Falco exactly: `.tier .lab .row .node .nm
+.dt .via .drop .sibs .key .sw`, and the `via-line` / `via-register` / `via-tree` modifiers.
+
+**The point of the chart is not decoration. It is that every single edge says how it is known:**
+
+| | |
+|---|---|
+| solid dark left border | **the archive's own line**, argued on `/direct-line/` |
+| solid accent left border | **from a record this archive has read** |
+| dotted left border | **from a family chart or tree — unverified** |
+
+And under it, in words: *"Of the 6 relationships in the chart above, 3 are written in a record this
+archive has read and 3 come from a family chart or a user-contributed tree, unverified."*
+
+That sentence is the whole discipline of both archives in one line, and it is now on every page that has
+a chart.
+
+### Where the relationships come from
+
+A new file, `data/relations.tsv` — one edge per row, `person · relation · other · dates · via · note`.
+The build resolves each name against the register so a node links to a person page when we hold one, and
+stands as a plain card when we do not. **Fifty-three edges** so far, covering four generations of the
+direct line and the people who married into it.
+
+### Two bugs the rebuild exposed
+
+1. **`.prose` is a flex column**, not a paragraph class. Using it on a `<p>` made every inline `<strong>`
+   its own row — which is why a bare **6** was floating in the middle of a sentence. Now wrapped properly.
+2. **A place that escaped normalisation** — `arr. Buenos Aires 1907-07-14` had been sitting as its own
+   one-person "place" beside the 43-person *Buenos Aires — arrivals*. The pattern only matched
+   `arr. YYYY`. Fixed; the arrivals place now holds 44, and there are 28 places rather than 29.

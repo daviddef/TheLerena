@@ -1,49 +1,85 @@
 ---
 import Base from "../../layouts/Base.astro";
 import Chip from "../../components/Chip.astro";
+import Ptree from "../../components/Ptree.astro";
 import { u } from "../../lib/url.js";
 import people from "../../data/people.json";
 import places from "../../data/places.json";
 export function getStaticPaths(){ return people.map(p => ({ params:{ slug:p.slug }, props:{ p } })); }
 const { p } = Astro.props;
+const total = people.length;
 const place = places.find(x => x.slug === p.placeSlug);
 const others = place ? people.filter(x => x.placeSlug === p.placeSlug && x.slug !== p.slug) : [];
-const rec = [
-  ["Name", p.name],
-  ["Born", p.born],
-  ["Birthplace", p.birthplace],
-  ["Nationality", p.nationality],
-  ["Occupation", p.occupation],
-  ["Where found", p.where],
-  ["Source", p.source],
-].filter(([,v]) => v && v !== "-");
-const eyebrow = [p.born && `b. ${p.born}`, p.place].filter(Boolean).join(" · ");
+
+const says = [
+  ["Born", p.born], ["Birthplace", p.birthplace], ["Nationality", p.nationality],
+  ["Occupation", p.occupation], ["Where found", p.where],
+].filter(([, v]) => v && v !== "-");
+
+const eyebrow = p.gen != null
+  ? `Generation ${p.gen} of the direct line`
+  : p.status === "excluded" ? "Checked, and not of this family"
+  : p.status === "connected" ? "Connected to the line"
+  : "A person of this surname, unplaced";
+
+const relTotal = p.relTotal || 0;
+const relReg = p.relRegister || 0;
+const relTree = p.relTree || 0;
 ---
-<Base title={p.name} eyebrow={eyebrow || "A person of this surname"}
+<Base title={p.name} eyebrow={eyebrow}
       dek={p.note || "Everything this archive holds on this person, and the record that produced them."}>
 
+<Ptree p={p} />
+
 <section class="blk">
-  <div class="lab">Status</div>
-  <div style="margin-top:8px"><Chip c={p.status} /></div>
-  <div class="rec" style="margin-top:22px">
-    {rec.map(([k,v]) => (<><div class="k">{k}</div><div class="v">{v}</div><div class="w"></div></>))}
+  <div class="grid g2" style="margin-top:6px">
+    <div>
+      <h2 style="margin-top:0">What the record says</h2>
+      <div class="rec" style="margin-top:16px">
+        {says.map(([k, v]) => (<><div class="k">{k}</div><div class="v">{v}</div><div class="w"></div></>))}
+      </div>
+      <div style="margin-top:18px"><Chip c={p.status} /></div>
+    </div>
+
+    <div>
+      <h2 style="margin-top:0">Where this comes from</h2>
+      <div class="prose" style="margin-top:16px">
+        <p><strong>{p.source}</strong><br />
+          {p.sourceUrl
+            ? <a href={p.sourceUrl} rel="noopener">the record &#8599;</a>
+            : <span class="cap">{p.noLink}</span>}</p>
+        {relTotal > 0 && (
+          <p>Of the {relTotal} relationships in the chart above, <strong>{relReg}</strong>
+            {relReg === 1 ? " is" : " are"} written in a record this archive has read
+            {relTree > 0
+              ? <> and <strong>{relTree}</strong> come{relTree === 1 ? "s" : ""} from a family chart or a
+                  user-contributed tree, <strong>unverified</strong>.</>
+              : <>.</>}</p>
+        )}
+        {relTotal === 0 && (
+          <p><strong>No relationships are recorded for this person.</strong> The source names them and
+            nothing more. That is the ordinary case in this register, and it is why they are marked
+            unplaced.</p>
+        )}
+      </div>
+    </div>
   </div>
 </section>
 
-{p.note && <section class="blk">
+{p.note && p.note.length > 160 && <section class="blk">
   <h2>What is known</h2>
-  <p class="prose" style="margin-top:16px">{p.note}</p>
+  <div class="prose" style="margin-top:16px"><p>{p.note}</p></div>
 </section>}
 
 {p.status === "connected" && <section class="blk">
-  <div class="note"><strong>This person is on the direct line.</strong> Their place in the descent, with the
-    documents behind it, is set out on <a href={u("/direct-line/")}>the line</a>.</div>
+  <div class="note"><strong>This person is on the direct line, or married into it.</strong> Their place in
+    the descent, with the documents behind it, is set out on <a href={u("/direct-line/")}>the line</a>.</div>
 </section>}
 
 {p.status === "excluded" && <section class="blk">
   <div class="note"><strong>Checked and ruled out.</strong> This person carries the surname but has been
-    shown not to belong to our family. They are kept here rather than deleted, because knowing which
-    candidates were eliminated — and why — is worth as much as knowing which survived.</div>
+    shown not to belong to this family. They are kept here rather than deleted, because knowing which
+    candidates were eliminated &mdash; and why &mdash; is worth as much as knowing which survived.</div>
 </section>}
 
 {place && <section class="blk">
@@ -53,12 +89,14 @@ const eyebrow = [p.born && `b. ${p.born}`, p.place].filter(Boolean).join(" · ")
     <div class="txt">{place.count} {place.count === 1 ? "person" : "people"} of this surname recorded here</div>
   </a>
   {others.length > 0 && <p class="dek" style="margin-top:18px">Others recorded in the same place:
-    {others.slice(0,12).map((o,i) => (<>{i ? " · " : " "}<a href={u(`/people/${o.slug}/`)}>{o.name}</a></>))}
+    {others.slice(0, 12).map((o, i) => (<>{i ? " · " : " "}<a href={u(`/people/${o.slug}/`)}>{o.name}</a></>))}
   </p>}
 </section>}
 
 <section class="blk">
-  <p class="cap">This page is generated from <span class="mono">data/lerena-register.tsv</span>, so it
-    cannot fall out of step with the register. <a href={u("/register/")}>All 116 people &rarr;</a></p>
+  <p class="cap">This page is generated from <span class="mono">data/lerena-register.tsv</span> and
+    <span class="mono">data/relations.tsv</span>, so it cannot fall out of step with the register or the
+    chart. <a href={u("/register/")}>All {total} entries &rarr;</a>
+    &nbsp;·&nbsp; <a href={u("/people/")}>&larr; All the people</a></p>
 </section>
 </Base>

@@ -1,0 +1,64 @@
+# Relationships, one edge per row, for the family charts on the person pages.
+# Matches the Falco archive's convention: every edge carries HOW IT IS KNOWN, and the chart says so.
+#
+# relation: father | mother | spouse | child
+# via:      line     = the archive's own direct line, argued on /direct-line/
+#           register = written in a record this archive has read
+#           tree     = from the family chart or a user-contributed tree; UNVERIFIED
+#
+# "person" and "other" are matched to the register by name where possible, so the chart can link.
+# A name with no register entry still appears as a node; it simply carries no link.
+#
+person	relation	other	other_dates	via	note
+Pablo Armando LERENA (Robert Paul; "Bob")	father	Juan Carlos LERENA	-	register	Named on the 1908 ficha de enrolamiento, Cajon 985
+Pablo Armando LERENA (Robert Paul; "Bob")	mother	Maria LERENA	-	register	Named on the same card; written with her husband's surname
+Pablo Armando LERENA (Robert Paul; "Bob")	spouse	Mary Septima TAYLOR	1884-1935	register	m. 3 Sep 1911, St Dominic's, Wynberg
+Pablo Armando LERENA (Robert Paul; "Bob")	child	Roque Luis Armando LERENA	1905-1973	register	Corpus Christi Wynberg baptism, 1911
+Pablo Armando LERENA (Robert Paul; "Bob")	child	Ricardo Juan Carlos LERENA	1920-1994	register	Named with his birth date in the 1950 estate
+Pablo Armando LERENA (Robert Paul; "Bob")	child	Nuno Fernando LERENA	1924-1971	register	Named with his birth date in the 1950 estate
+Juan Carlos LERENA	spouse	Maria LERENA	-	register	As written on their son's enrolment card
+Juan Carlos LERENA	child	Pablo Armando LERENA (Robert Paul; "Bob")	1882-1950	register	The 1908 enrolment card
+Maria LERENA	spouse	Juan Carlos LERENA	-	register	As written on their son's enrolment card
+Maria LERENA	child	Pablo Armando LERENA (Robert Paul; "Bob")	1882-1950	register	The 1908 enrolment card
+Mary Septima TAYLOR	father	William Taylor	1826-	tree	Coachman, b. Worlingworth, Suffolk
+Mary Septima TAYLOR	mother	Mary Ann Hellen Brayley	-	register	Baptism 30 Oct 1884, Northam, ref 1843A/PR/1/16
+Mary Septima TAYLOR	spouse	Pablo Armando LERENA (Robert Paul; "Bob")	1882-1950	register	m. 3 Sep 1911, St Dominic's, Wynberg
+Mary Septima TAYLOR	child	Roque Luis Armando LERENA	1905-1973	register	Named as mother, "olim Taylor", in the 1911 baptism
+Mary Septima TAYLOR	child	Ricardo Juan Carlos LERENA	1920-1994	tree	From the family chart and the FamilySearch tree
+Mary Septima TAYLOR	child	Nuno Fernando LERENA	1924-1971	tree	From the family chart and the FamilySearch tree
+Roque Luis Armando LERENA	father	Pablo Armando LERENA (Robert Paul; "Bob")	1882-1950	line	Corpus Christi Wynberg baptism register, 1911
+Roque Luis Armando LERENA	mother	Mary Septima TAYLOR	1884-1935	line	"Mary Septima olim Taylor" in the same register
+Roque Luis Armando LERENA	spouse	Roseline Wilhelmina FORBES (m.1 Chappell, m.2 LERENA)	1903-1950	register	m. 21 Sep 1936, St Joseph's, Johannesburg
+Roque Luis Armando LERENA	spouse	Rhena May LERENA	1913-1998	register	m. 12 Mar 1966 as a widower, Victory Park
+Roque Luis Armando LERENA	child	Rieta Maria LERENA	1936-1937	register	SA, Transvaal, Civil Death, 1869-1954
+Roque Luis Armando LERENA	child	Antoinette Septima Lynette LERENA	1943-1943	register	SA, Transvaal, Civil Death; carries her grandmother's name
+Ricardo Juan Carlos LERENA	father	Pablo Armando LERENA (Robert Paul; "Bob")	1882-1950	register	Named as a residuary heir in the 1950 estate
+Ricardo Juan Carlos LERENA	mother	Mary Septima TAYLOR	1884-1935	tree	FamilySearch tree GPW4-5S5
+Ricardo Juan Carlos LERENA	spouse	Doreen May CHAPPELL (m. LERENA)	1921-1993	tree	FamilySearch tree; his brother's stepdaughter
+Ricardo Juan Carlos LERENA	child	Anton LERENA	1952-2003	tree	FamilySearch tree GPW7-42J
+Nuno Fernando LERENA	father	Pablo Armando LERENA (Robert Paul; "Bob")	1882-1950	line	Named with his exact birth date in the 1950 estate
+Nuno Fernando LERENA	mother	Mary Septima TAYLOR	1884-1935	line	The family chart and the 1950 estate together
+Nuno Fernando LERENA	spouse	Catherine Mary Sophia Booyzen	1929-2013	register	m. 15 Jan 1949, Johannesburg
+Roseline Wilhelmina FORBES (m.1 Chappell, m.2 LERENA)	spouse	Frederick Christian Chappell	1893-1933	register	m. 1 Nov 1920, Woodstock - civil AND Anglican registers
+Roseline Wilhelmina FORBES (m.1 Chappell, m.2 LERENA)	spouse	Roque Luis Armando LERENA	1905-1973	register	m. 21 Sep 1936, Potchefstroom
+Roseline Wilhelmina FORBES (m.1 Chappell, m.2 LERENA)	child	Doreen May CHAPPELL (m. LERENA)	1921-1993	tree	FamilySearch tree GL8L-57C
+Roseline Wilhelmina FORBES (m.1 Chappell, m.2 LERENA)	child	Rieta Maria LERENA	1936-1937	register	Her daughter by Roque
+Roseline Wilhelmina FORBES (m.1 Chappell, m.2 LERENA)	child	Antoinette Septima Lynette LERENA	1943-1943	register	Her daughter by Roque
+Doreen May CHAPPELL (m. LERENA)	father	Frederick Christian Chappell	1893-1933	tree	FamilySearch tree GL8L-F5J
+Doreen May CHAPPELL (m. LERENA)	mother	Roseline Wilhelmina FORBES (m.1 Chappell, m.2 LERENA)	1903-1950	tree	FamilySearch tree GL8L-BD4
+Doreen May CHAPPELL (m. LERENA)	spouse	Ricardo Juan Carlos LERENA	1920-1994	tree	FamilySearch tree
+Doreen May CHAPPELL (m. LERENA)	child	Anton LERENA	1952-2003	tree	FamilySearch tree
+Anton LERENA	father	Ricardo Juan Carlos LERENA	1920-1994	tree	FamilySearch tree GPW7-42J
+Anton LERENA	mother	Doreen May CHAPPELL (m. LERENA)	1921-1993	tree	FamilySearch tree
+Rieta Maria LERENA	father	Roque Luis Armando LERENA	1905-1973	register	SA, Transvaal, Civil Death, 1869-1954
+Rieta Maria LERENA	mother	Roseline Wilhelmina FORBES (m.1 Chappell, m.2 LERENA)	1903-1950	register	Inferred from the marriage and the dates
+Antoinette Septima Lynette LERENA	father	Roque Luis Armando LERENA	1905-1973	register	SA, Transvaal, Civil Death, 1869-1954
+Antoinette Septima Lynette LERENA	mother	Roseline Wilhelmina FORBES (m.1 Chappell, m.2 LERENA)	1903-1950	register	Inferred from the marriage and the dates
+Rhena May LERENA	spouse	Roque Luis Armando LERENA	1905-1973	register	m. 12 Mar 1966; she signed his 1973 death notice "R. M. Lerena"
+ARMAND[O] LORENA (as machine-indexed) = Pablo Armando LERENA	father	Juan Carlos LERENA	-	register	The same card - this entry IS Pablo Armando
+ARMAND[O] LORENA (as machine-indexed) = Pablo Armando LERENA	mother	Maria LERENA	-	register	The same card
+Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS)	spouse	Julia Salvanach	-	register	Named as the mother on five of his sons' army cards
+Carlos Augusto Federico LERENA	father	Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS)	1855-1912	register	1895 census; Uruguayan civil registration
+Carlos Augusto Federico LERENA	mother	Julia Salvanach	-	register	1895 census
+Raul LERENA	father	Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS)	1855-1912	register	Argentina Military Records 1911-1936
+Raul LERENA	mother	Julia Salvanach	-	register	Argentina Military Records 1911-1936

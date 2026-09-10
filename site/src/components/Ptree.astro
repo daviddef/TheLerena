@@ -1,0 +1,103 @@
+---
+/* The family chart. Same structure and class names as the Falco archive, so a reader
+   moving between the two archives reads them the same way. Every node states how the
+   relationship is known: line (the direct line), register (a record read), tree (unverified). */
+import { u } from "../lib/url.js";
+const { p } = Astro.props;
+
+const viaClass = v => v === "line" ? "via-line" : v === "tree" ? "via-tree" : "via-register";
+const viaLabel = v => v === "line" ? "line + register" : v === "tree" ? "tree, unverified" : "register";
+
+const parents  = [p.father, p.mother].filter(Boolean);
+const spouses  = p.spouses  || [];
+const children = p.children || [];
+// The machine-indexed duplicate of Pablo Armando is the same man, not a brother.
+const siblings = (p.siblings || []).filter(s => !/= Pablo Armando/.test(s.name));
+
+const hasAny = Boolean(parents.length || spouses.length || children.length || siblings.length);
+const dupNames = (() => {
+  const seen = {}, dup = new Set();
+  children.concat(siblings).forEach(n => { if (seen[n.name]) dup.add(n.name); seen[n.name] = 1; });
+  return [...dup];
+})();
+---
+{hasAny && (
+<figure class="ptree">
+  {parents.length > 0 && (
+    <div class="tier">
+      <div class="lab">Parents</div>
+      <div class="row">
+        {parents.map(n => n.slug
+          ? <a class={`node ${viaClass(n.via)}`} href={u(`/people/${n.slug}/`)} title={`Recorded by: ${viaLabel(n.via)}`}>
+              <span class="nm">{n.name}</span>{n.dates && <span class="dt">{n.dates}</span>}
+              <span class="via">{viaLabel(n.via)}</span></a>
+          : <div class={`node ${viaClass(n.via)}`} title={`Recorded by: ${viaLabel(n.via)}`}>
+              <span class="nm">{n.name}</span>{n.dates && <span class="dt">{n.dates}</span>}
+              <span class="via">{viaLabel(n.via)}</span></div>)}
+      </div>
+      <div class="drop" aria-hidden="true"></div>
+    </div>
+  )}
+
+  <div class="tier self">
+    <div class="row">
+      <div class="node me">
+        <span class="nm">{p.name}</span>
+        {p.born && p.born !== "-" && <span class="dt">{p.born}</span>}
+        {p.gen != null && <span class="via gen">generation {p.gen}</span>}
+      </div>
+      {spouses.map(n => (
+        <div style="display:flex;flex-direction:column;justify-content:flex-end">
+          <span class="mar" style="padding-left:.6rem">Married</span>
+          {n.slug
+            ? <a class={`node spouse ${viaClass(n.via)}`} href={u(`/people/${n.slug}/`)} title={`Recorded by: ${viaLabel(n.via)}`}>
+                <span class="nm">{n.name}</span>{n.dates && <span class="dt">{n.dates}</span>}
+                <span class="via">{viaLabel(n.via)}</span></a>
+            : <div class={`node spouse ${viaClass(n.via)}`} title={`Recorded by: ${viaLabel(n.via)}`}>
+                <span class="nm">{n.name}</span>{n.dates && <span class="dt">{n.dates}</span>}
+                <span class="via">{viaLabel(n.via)}</span></div>}
+        </div>
+      ))}
+    </div>
+  </div>
+
+  {children.length > 0 && (
+    <div class="tier" style="margin-top:.9rem">
+      <div class="lab">{`${children.length} ${children.length === 1 ? "child" : "children"}`}</div>
+      <div class="row">
+        {children.map(n => n.slug
+          ? <a class={`node ${viaClass(n.via)}`} href={u(`/people/${n.slug}/`)} title={`Recorded by: ${viaLabel(n.via)}`}>
+              <span class="nm">{n.name}</span>{n.dates && <span class="dt">{n.dates}</span>}
+              <span class="via">{viaLabel(n.via)}</span></a>
+          : <div class={`node ${viaClass(n.via)}`} title={`Recorded by: ${viaLabel(n.via)}`}>
+              <span class="nm">{n.name}</span>{n.dates && <span class="dt">{n.dates}</span>}
+              <span class="via">{viaLabel(n.via)}</span></div>)}
+      </div>
+    </div>
+  )}
+
+  {siblings.length > 0 && (
+    <div class="tier sibs">
+      <div class="lab">{`${siblings.length} ${siblings.length === 1 ? "sibling" : "siblings"}`}</div>
+      <div class="row">
+        {siblings.map(n => n.slug
+          ? <a class="node small" href={u(`/people/${n.slug}/`)}><span class="nm">{n.name}</span>
+              {n.dates && <span class="dt">{n.dates}</span>}</a>
+          : <div class="node small"><span class="nm">{n.name}</span>
+              {n.dates && <span class="dt">{n.dates}</span>}</div>)}
+      </div>
+    </div>
+  )}
+
+  <figcaption>
+    <span class="key"><span class="sw line"></span> the archive&rsquo;s own line, argued on <a href={u("/direct-line/")}>the line</a></span>
+    <span class="key"><span class="sw"></span> from a record this archive has read</span>
+    <span class="key"><span class="sw tree"></span> from a family chart or tree, unverified</span>
+    {dupNames.length > 0 && (
+      <p class="warn"><strong>More than one person here carries the same name</strong> &mdash; {dupNames.join(", ")}.
+        That is what the source says. <strong>This archive does not merge records on a name</strong>, so they are
+        drawn separately even where one duplicated entry is the likelier explanation.</p>
+    )}
+  </figcaption>
+</figure>
+)}

@@ -8,6 +8,7 @@ import json, re, unicodedata, pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 REG  = ROOT / "data" / "lerena-register.tsv"
+REL  = ROOT / "data" / "relations.tsv"
 OUT  = ROOT / "site" / "src" / "data"
 
 def slugify(s):
@@ -51,7 +52,7 @@ def no_link_reason(src):
 
 def norm_place(w):
     w = w.strip()
-    if re.match(r"^arr\.?\s*\d{4}", w) or "arrival" in w.lower():
+    if re.search(r"\barr\.", w, flags=re.I) or "arrival" in w.lower():
         return "Buenos Aires — arrivals"
     w = re.sub(r",\s*Seccion.*$", "", w, flags=re.I)
     return w or "Unrecorded"
@@ -84,6 +85,64 @@ for p in people:
 places = sorted(places.values(), key=lambda x: -len(x["people"]))
 for pl in places:
     pl["count"] = len(pl["people"])
+
+# ---- relationships -------------------------------------------------------
+by_name = {p["name"]: p for p in people}
+GEN = {"pablo-armando-lerena": 1, "mary-septima-taylor": 1, "juan-carlos-lerena": 0,
+       "maria-lerena": 0, "roque-luis-armando-lerena": 2, "ricardo-juan-carlos-lerena": 2,
+       "nuno-fernando-lerena": 2, "anton-lerena": 3, "rieta-maria-lerena": 3,
+       "antoinette-septima-lynette-lerena": 3, "doreen-may-chappell-m-lerena": 2,
+       "roseline-wilhelmina-forbes-m-1-chappell-m-2-lerena": 2, "rhena-may-lerena": 2}
+LINE = {"juan-carlos-lerena", "maria-lerena", "pablo-armando-lerena", "mary-septima-taylor",
+        "nuno-fernando-lerena"}
+
+def node(name, dates, via):
+    """A chart node: links to a person page when the register holds that name."""
+    tgt = by_name.get(name)
+    return {"name": name, "dates": (dates or "").replace("-", "\u2013") if dates and dates != "-" else "",
+            "slug": tgt["slug"] if tgt else "", "via": via}
+
+for p in people:
+    p["gen"] = GEN.get(p["slug"])
+    p["father"] = None; p["mother"] = None
+    p["spouses"] = []; p["children"] = []; p["siblings"] = []
+    p["isLine"] = p["slug"] in LINE
+
+if REL.exists():
+    edges = [l.rstrip("\n").split("\t") for l in REL.open(encoding="utf-8")
+             if l.strip() and not l.startswith("#")][1:]
+    for e in edges:
+        e = (e + [""] * 6)[:6]
+        who, rel, other, dates, via, note = e
+        subj = by_name.get(who)
+        if not subj:
+            continue
+        n = node(other, dates, via); n["note"] = note
+        if rel == "father":  subj["father"] = n
+        elif rel == "mother": subj["mother"] = n
+        elif rel == "spouse": subj["spouses"].append(n)
+        elif rel == "child":  subj["children"].append(n)
+
+    # siblings: anyone sharing a parent, drawn from the same edge list
+    kids_of = {}
+    for p in people:
+        for par in (p["father"], p["mother"]):
+            if par:
+                kids_of.setdefault(par["name"], set()).add(p["name"])
+    for p in people:
+        sibs = set()
+        for par in (p["father"], p["mother"]):
+            if par:
+                sibs |= kids_of.get(par["name"], set())
+        sibs.discard(p["name"])
+        p["siblings"] = [node(s, "", "register") for s in sorted(sibs)]
+
+    # every relationship counted, so the page can say how much is documented
+    for p in people:
+        rels = [x for x in [p["father"], p["mother"]] if x] + p["spouses"] + p["children"]
+        p["relTotal"] = len(rels)
+        p["relRegister"] = sum(1 for x in rels if x["via"] in ("register", "line"))
+        p["relTree"] = sum(1 for x in rels if x["via"] == "tree")
 
 OUT.mkdir(parents=True, exist_ok=True)
 (OUT / "people.json").write_text(json.dumps(people, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")

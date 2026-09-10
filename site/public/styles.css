@@ -793,3 +793,40 @@ body.is-home #onthispage{display:none}
 .wideplate{margin:0 0 34px;background:var(--panel);border:1px solid var(--rule);border-radius:3px;overflow:hidden}
 .wideplate img{display:block;width:100%;height:auto;border-bottom:1px solid var(--rule)}
 .wideplate figcaption{padding:13px 16px 15px;margin-top:0}
+
+/* ---- .ptree — the family chart on a person page.
+   Structure and class names match the Falco archive so the two read the same way.
+   Every node says HOW the relationship is known: line / register / tree. ---- */
+.ptree{margin:0 0 1.4rem;padding:1rem 1rem .8rem;border:1px solid var(--rule);
+  border-radius:.4rem;background:var(--panel)}
+.ptree .tier{position:relative}
+.ptree .lab{font-family:var(--sans);font-size:10px;font-weight:600;letter-spacing:.13em;
+  text-transform:uppercase;color:var(--ink-2);margin:.2rem 0 .45rem}
+.ptree .row{display:flex;flex-wrap:wrap;gap:.5rem;align-items:stretch}
+.ptree .node{display:flex;flex-direction:column;gap:.1rem;min-width:9.5rem;max-width:16rem;
+  padding:.45rem .6rem;border:1px solid var(--rule);border-radius:.3rem;
+  text-decoration:none;color:inherit;background:var(--ground)}
+.ptree a.node:hover{border-color:var(--accent)}
+.ptree .node.me{border-width:2px;border-color:var(--ink)}
+.ptree .node.small{min-width:8rem;padding:.35rem .5rem}
+.ptree .nm{font-weight:600;line-height:1.2}
+.ptree .dt{font-family:var(--mono);font-size:11px;color:var(--ink-2)}
+.ptree .mar{font-family:var(--sans);font-size:9px;letter-spacing:.13em;
+  text-transform:uppercase;color:var(--ink-2)}
+.ptree .via{font-family:var(--sans);font-size:9px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--ink-2);margin-top:.15rem}
+.ptree .via-register .via{color:var(--accent)}
+.ptree .node.via-register{border-left:3px solid var(--accent)}
+.ptree .node.via-tree{border-left:3px dotted var(--ink-2)}
+.ptree .node.via-line{border-left:3px solid var(--ink)}
+.ptree .via.gen{color:var(--accent);font-weight:600}
+.ptree .via.living{font-style:italic}
+.ptree .drop{height:.9rem;margin-left:1.4rem;border-left:1px solid var(--rule)}
+.ptree .sibs{margin-top:.9rem;padding-top:.7rem;border-top:1px dashed var(--rule)}
+.ptree figcaption{margin-top:.9rem;padding-top:.6rem;border-top:1px solid var(--rule);
+  font-family:var(--sans);font-size:11px;color:var(--ink-2)}
+.ptree .key{display:inline-flex;align-items:center;gap:.35rem;margin-right:1rem}
+.ptree .sw{width:.85rem;height:0;border-top:3px solid var(--accent);display:inline-block}
+.ptree .sw.tree{border-top-style:dotted;border-top-color:var(--ink-2)}
+.ptree .sw.line{border-top-color:var(--ink);border-top-width:4px}
+.ptree .warn{margin:.5rem 0 0;line-height:1.5}

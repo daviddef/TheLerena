@@ -15,7 +15,66 @@
   "placeSlug": "sa-argentine-records",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "family papers — held offline, not on a public site"
+  "noLink": "family papers — held offline, not on a public site",
+  "gen": 1,
+  "father": {
+   "name": "Juan Carlos LERENA",
+   "dates": "",
+   "slug": "juan-carlos-lerena",
+   "via": "register",
+   "note": "Named on the 1908 ficha de enrolamiento, Cajon 985"
+  },
+  "mother": {
+   "name": "Maria LERENA",
+   "dates": "",
+   "slug": "maria-lerena",
+   "via": "register",
+   "note": "Named on the same card; written with her husband's surname"
+  },
+  "spouses": [
+   {
+    "name": "Mary Septima TAYLOR",
+    "dates": "1884–1935",
+    "slug": "mary-septima-taylor",
+    "via": "register",
+    "note": "m. 3 Sep 1911, St Dominic's, Wynberg"
+   }
+  ],
+  "children": [
+   {
+    "name": "Roque Luis Armando LERENA",
+    "dates": "1905–1973",
+    "slug": "roque-luis-armando-lerena",
+    "via": "register",
+    "note": "Corpus Christi Wynberg baptism, 1911"
+   },
+   {
+    "name": "Ricardo Juan Carlos LERENA",
+    "dates": "1920–1994",
+    "slug": "ricardo-juan-carlos-lerena",
+    "via": "register",
+    "note": "Named with his birth date in the 1950 estate"
+   },
+   {
+    "name": "Nuno Fernando LERENA",
+    "dates": "1924–1971",
+    "slug": "nuno-fernando-lerena",
+    "via": "register",
+    "note": "Named with his birth date in the 1950 estate"
+   }
+  ],
+  "siblings": [
+   {
+    "name": "ARMAND[O] LORENA (as machine-indexed) = Pablo Armando LERENA",
+    "dates": "",
+    "slug": "armand-o-lorena-pablo-armando-lerena",
+    "via": "register"
+   }
+  ],
+  "isLine": true,
+  "relTotal": 6,
+  "relRegister": 6,
+  "relTree": 0
  },
  {
   "slug": "mary-septima-taylor",
@@ -33,7 +92,59 @@
   "placeSlug": "gro-sa-records",
   "surname": "TAYLOR",
   "sourceUrl": "",
-  "noLink": "GRO index — no public per-record link"
+  "noLink": "GRO index — no public per-record link",
+  "gen": 1,
+  "father": {
+   "name": "William Taylor",
+   "dates": "1826–",
+   "slug": "",
+   "via": "tree",
+   "note": "Coachman, b. Worlingworth, Suffolk"
+  },
+  "mother": {
+   "name": "Mary Ann Hellen Brayley",
+   "dates": "",
+   "slug": "",
+   "via": "register",
+   "note": "Baptism 30 Oct 1884, Northam, ref 1843A/PR/1/16"
+  },
+  "spouses": [
+   {
+    "name": "Pablo Armando LERENA (Robert Paul; \"Bob\")",
+    "dates": "1882–1950",
+    "slug": "pablo-armando-lerena",
+    "via": "register",
+    "note": "m. 3 Sep 1911, St Dominic's, Wynberg"
+   }
+  ],
+  "children": [
+   {
+    "name": "Roque Luis Armando LERENA",
+    "dates": "1905–1973",
+    "slug": "roque-luis-armando-lerena",
+    "via": "register",
+    "note": "Named as mother, \"olim Taylor\", in the 1911 baptism"
+   },
+   {
+    "name": "Ricardo Juan Carlos LERENA",
+    "dates": "1920–1994",
+    "slug": "ricardo-juan-carlos-lerena",
+    "via": "tree",
+    "note": "From the family chart and the FamilySearch tree"
+   },
+   {
+    "name": "Nuno Fernando LERENA",
+    "dates": "1924–1971",
+    "slug": "nuno-fernando-lerena",
+    "via": "tree",
+    "note": "From the family chart and the FamilySearch tree"
+   }
+  ],
+  "siblings": [],
+  "isLine": true,
+  "relTotal": 6,
+  "relRegister": 3,
+  "relTree": 3
  },
  {
   "slug": "roque-luis-armando-lerena",
@@ -51,7 +162,72 @@
   "placeSlug": "sa-records",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "family papers — held offline, not on a public site"
+  "noLink": "family papers — held offline, not on a public site",
+  "gen": 2,
+  "father": {
+   "name": "Pablo Armando LERENA (Robert Paul; \"Bob\")",
+   "dates": "1882–1950",
+   "slug": "pablo-armando-lerena",
+   "via": "line",
+   "note": "Corpus Christi Wynberg baptism register, 1911"
+  },
+  "mother": {
+   "name": "Mary Septima TAYLOR",
+   "dates": "1884–1935",
+   "slug": "mary-septima-taylor",
+   "via": "line",
+   "note": "\"Mary Septima olim Taylor\" in the same register"
+  },
+  "spouses": [
+   {
+    "name": "Roseline Wilhelmina FORBES (m.1 Chappell, m.2 LERENA)",
+    "dates": "1903–1950",
+    "slug": "roseline-wilhelmina-forbes",
+    "via": "register",
+    "note": "m. 21 Sep 1936, St Joseph's, Johannesburg"
+   },
+   {
+    "name": "Rhena May LERENA",
+    "dates": "1913–1998",
+    "slug": "rhena-may-lerena",
+    "via": "register",
+    "note": "m. 12 Mar 1966 as a widower, Victory Park"
+   }
+  ],
+  "children": [
+   {
+    "name": "Rieta Maria LERENA",
+    "dates": "1936–1937",
+    "slug": "rieta-maria-lerena",
+    "via": "register",
+    "note": "SA, Transvaal, Civil Death, 1869-1954"
+   },
+   {
+    "name": "Antoinette Septima Lynette LERENA",
+    "dates": "1943–1943",
+    "slug": "antoinette-septima-lynette-lerena",
+    "via": "register",
+    "note": "SA, Transvaal, Civil Death; carries her grandmother's name"
+   }
+  ],
+  "siblings": [
+   {
+    "name": "Nuno Fernando LERENA",
+    "dates": "",
+    "slug": "nuno-fernando-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Ricardo Juan Carlos LERENA",
+    "dates": "",
+    "slug": "ricardo-juan-carlos-lerena",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "relTotal": 6,
+  "relRegister": 6,
+  "relTree": 0
  },
  {
   "slug": "ricardo-juan-carlos-lerena",
@@ -69,7 +245,58 @@
   "placeSlug": "sa-records",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "family papers — held offline, not on a public site"
+  "noLink": "family papers — held offline, not on a public site",
+  "gen": 2,
+  "father": {
+   "name": "Pablo Armando LERENA (Robert Paul; \"Bob\")",
+   "dates": "1882–1950",
+   "slug": "pablo-armando-lerena",
+   "via": "register",
+   "note": "Named as a residuary heir in the 1950 estate"
+  },
+  "mother": {
+   "name": "Mary Septima TAYLOR",
+   "dates": "1884–1935",
+   "slug": "mary-septima-taylor",
+   "via": "tree",
+   "note": "FamilySearch tree GPW4-5S5"
+  },
+  "spouses": [
+   {
+    "name": "Doreen May CHAPPELL (m. LERENA)",
+    "dates": "1921–1993",
+    "slug": "doreen-may-chappell",
+    "via": "tree",
+    "note": "FamilySearch tree; his brother's stepdaughter"
+   }
+  ],
+  "children": [
+   {
+    "name": "Anton LERENA",
+    "dates": "1952–2003",
+    "slug": "anton-lerena",
+    "via": "tree",
+    "note": "FamilySearch tree GPW7-42J"
+   }
+  ],
+  "siblings": [
+   {
+    "name": "Nuno Fernando LERENA",
+    "dates": "",
+    "slug": "nuno-fernando-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Roque Luis Armando LERENA",
+    "dates": "",
+    "slug": "roque-luis-armando-lerena",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "relTotal": 4,
+  "relRegister": 1,
+  "relTree": 3
  },
  {
   "slug": "nuno-fernando-lerena",
@@ -87,7 +314,50 @@
   "placeSlug": "sa-records",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "family papers — held offline, not on a public site"
+  "noLink": "family papers — held offline, not on a public site",
+  "gen": 2,
+  "father": {
+   "name": "Pablo Armando LERENA (Robert Paul; \"Bob\")",
+   "dates": "1882–1950",
+   "slug": "pablo-armando-lerena",
+   "via": "line",
+   "note": "Named with his exact birth date in the 1950 estate"
+  },
+  "mother": {
+   "name": "Mary Septima TAYLOR",
+   "dates": "1884–1935",
+   "slug": "mary-septima-taylor",
+   "via": "line",
+   "note": "The family chart and the 1950 estate together"
+  },
+  "spouses": [
+   {
+    "name": "Catherine Mary Sophia Booyzen",
+    "dates": "1929–2013",
+    "slug": "",
+    "via": "register",
+    "note": "m. 15 Jan 1949, Johannesburg"
+   }
+  ],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Ricardo Juan Carlos LERENA",
+    "dates": "",
+    "slug": "ricardo-juan-carlos-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Roque Luis Armando LERENA",
+    "dates": "",
+    "slug": "roque-luis-armando-lerena",
+    "via": "register"
+   }
+  ],
+  "isLine": true,
+  "relTotal": 3,
+  "relRegister": 3,
+  "relTree": 0
  },
  {
   "slug": "gilberto-lerena",
@@ -105,7 +375,25 @@
   "placeSlug": "buenos-aires",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [
+   {
+    "name": "Julia Salvanach",
+    "dates": "",
+    "slug": "",
+    "via": "register",
+    "note": "Named as the mother on five of his sons' army cards"
+   }
+  ],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 1,
+  "relRegister": 1,
+  "relTree": 0
  },
  {
   "slug": "maria-e-c-lerena",
@@ -123,7 +411,17 @@
   "placeSlug": "buenos-aires",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "maria-luisa-lerena",
@@ -141,7 +439,17 @@
   "placeSlug": "buenos-aires",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "carlos-augusto-federico-lerena",
@@ -159,7 +467,36 @@
   "placeSlug": "buenos-aires",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": {
+   "name": "Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS)",
+   "dates": "1855–1912",
+   "slug": "gilberto-lerena",
+   "via": "register",
+   "note": "1895 census; Uruguayan civil registration"
+  },
+  "mother": {
+   "name": "Julia Salvanach",
+   "dates": "",
+   "slug": "",
+   "via": "register",
+   "note": "1895 census"
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Raul LERENA",
+    "dates": "",
+    "slug": "raul-lerena",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0
  },
  {
   "slug": "raul-lerena",
@@ -177,7 +514,36 @@
   "placeSlug": "buenos-aires",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": {
+   "name": "Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS)",
+   "dates": "1855–1912",
+   "slug": "gilberto-lerena",
+   "via": "register",
+   "note": "Argentina Military Records 1911-1936"
+  },
+  "mother": {
+   "name": "Julia Salvanach",
+   "dates": "",
+   "slug": "",
+   "via": "register",
+   "note": "Argentina Military Records 1911-1936"
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Carlos Augusto Federico LERENA",
+    "dates": "",
+    "slug": "carlos-augusto-federico-lerena",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0
  },
  {
   "slug": "maria-a-lerena",
@@ -195,7 +561,17 @@
   "placeSlug": "buenos-aires",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "maria-c-lerena",
@@ -213,7 +589,17 @@
   "placeSlug": "buenos-aires",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "maria-e-lerena",
@@ -231,7 +617,17 @@
   "placeSlug": "buenos-aires",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "luis-f-lerena",
@@ -249,7 +645,17 @@
   "placeSlug": "buenos-aires",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "josefa-lerena-de-l",
@@ -267,7 +673,17 @@
   "placeSlug": "buenos-aires",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "leandro-lerena",
@@ -285,7 +701,17 @@
   "placeSlug": "buenos-aires",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "emilia-lerena",
@@ -303,7 +729,17 @@
   "placeSlug": "buenos-aires",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "francisco-lerena",
@@ -321,7 +757,17 @@
   "placeSlug": "buenos-aires",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "paulina-lerena",
@@ -339,7 +785,17 @@
   "placeSlug": "buenos-aires",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "jesus-lerena",
@@ -357,7 +813,17 @@
   "placeSlug": "tucuman",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "ramon-lerena",
@@ -375,7 +841,17 @@
   "placeSlug": "tucuman",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "jacinta-lerena",
@@ -393,7 +869,17 @@
   "placeSlug": "entre-rios",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "lola-lerena",
@@ -411,7 +897,17 @@
   "placeSlug": "isla-martin-garcia",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "martin-lerena",
@@ -425,11 +921,21 @@
   "status": "unplaced",
   "statusRaw": "UNPLACED",
   "note": "",
-  "place": "arr. Buenos Aires 1907-07-14",
-  "placeSlug": "arr-buenos-aires-1907-07-14",
+  "place": "Buenos Aires — arrivals",
+  "placeSlug": "buenos-aires-arrivals",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "jose-m-lerena",
@@ -447,7 +953,17 @@
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "domenico-lerena",
@@ -465,7 +981,17 @@
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "gregorio-lerena",
@@ -483,7 +1009,17 @@
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "felisa-lerena",
@@ -501,7 +1037,17 @@
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "elisa-lerena",
@@ -519,7 +1065,17 @@
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "sebastiana-lerena",
@@ -537,7 +1093,17 @@
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "paolo-lerena",
@@ -555,7 +1121,17 @@
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "juan-jose-lerena",
@@ -573,7 +1149,17 @@
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "prudencio-lerena",
@@ -591,7 +1177,17 @@
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "felisa-lerena-2",
@@ -609,7 +1205,17 @@
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "luciano-lerena",
@@ -627,7 +1233,17 @@
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "crecencia-lerena",
@@ -645,7 +1261,17 @@
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "juan-lerena",
@@ -663,7 +1289,17 @@
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "justa-lerena",
@@ -681,7 +1317,17 @@
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "gregorio-lerena-2",
@@ -699,7 +1345,17 @@
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "jose-lerena",
@@ -717,7 +1373,17 @@
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "carlos-lerena",
@@ -735,7 +1401,17 @@
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "rosa-m-e-lerena",
@@ -753,7 +1429,17 @@
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "gilberto-lerena-2",
@@ -771,7 +1457,17 @@
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "gilberto-lerena-3",
@@ -789,7 +1485,17 @@
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "emilio-lerena",
@@ -807,7 +1513,17 @@
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "jose-maria-lerena",
@@ -825,7 +1541,17 @@
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "francisco-lerena-2",
@@ -843,7 +1569,17 @@
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "francisco-lerena-3",
@@ -861,7 +1597,17 @@
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "avelino-carlos-lerena",
@@ -879,7 +1625,17 @@
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "angelica-teresa-lerena",
@@ -897,7 +1653,17 @@
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "jose-llerena",
@@ -915,7 +1681,17 @@
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LLERENA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "jose-llerena-2",
@@ -933,7 +1709,17 @@
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LLERENA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "teresa-llerena",
@@ -951,7 +1737,17 @@
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LLERENA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "josefina-llerena",
@@ -969,7 +1765,17 @@
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LLERENA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "francisco-llerena",
@@ -987,7 +1793,17 @@
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LLERENA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "jose-llerena-3",
@@ -1005,7 +1821,17 @@
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LLERENA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "jose-ma-llerena",
@@ -1023,7 +1849,17 @@
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LLERENA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "gloria-llerena",
@@ -1041,7 +1877,17 @@
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LLERENA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "rudosindo-larena",
@@ -1059,7 +1905,17 @@
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LARENA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "sytefano-larena",
@@ -1077,7 +1933,17 @@
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LARENA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "juan-larena",
@@ -1095,7 +1961,17 @@
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LARENA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "maria-larena",
@@ -1113,7 +1989,17 @@
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LARENA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "gregorio-larena",
@@ -1131,7 +2017,17 @@
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LARENA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "lucas-lerena",
@@ -1149,7 +2045,17 @@
   "placeSlug": "south-africa",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "no public link"
+  "noLink": "no public link",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "hanson-seko-lerena",
@@ -1167,7 +2073,17 @@
   "placeSlug": "south-africa",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "no public link"
+  "noLink": "no public link",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "catherine-buys-lerena-catherine-buys",
@@ -1185,7 +2101,17 @@
   "placeSlug": "east-london",
   "surname": "BUYS",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "laurensa-lerina",
@@ -1203,7 +2129,17 @@
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LERINA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "savina-lerina",
@@ -1221,7 +2157,17 @@
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LERINA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "anna-lerina",
@@ -1239,7 +2185,17 @@
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LERINA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "annunziata-lerina",
@@ -1257,7 +2213,17 @@
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LERINA",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "antonio-larena",
@@ -1275,7 +2241,17 @@
   "placeSlug": "cayasta-garay-santa-fe",
   "surname": "LARENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "maria-larena-2",
@@ -1293,7 +2269,17 @@
   "placeSlug": "cayasta-garay-santa-fe",
   "surname": "LARENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "carmela-larena",
@@ -1311,7 +2297,17 @@
   "placeSlug": "cayasta-garay-santa-fe",
   "surname": "LARENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "leon-jose-lerena",
@@ -1329,7 +2325,17 @@
   "placeSlug": "cayasta-garay-santa-fe",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "juan-larena-2",
@@ -1347,7 +2353,17 @@
   "placeSlug": "gualeguaychu-entre-rios",
   "surname": "LARENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "juan-antonio-larena",
@@ -1365,7 +2381,17 @@
   "placeSlug": "gualeguaychu-entre-rios",
   "surname": "LARENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "victorino-severo-larena",
@@ -1383,7 +2409,17 @@
   "placeSlug": "gualeguaychu-entre-rios",
   "surname": "LARENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "vicente-antonio-larena",
@@ -1401,7 +2437,17 @@
   "placeSlug": "gualeguaychu-entre-rios",
   "surname": "LARENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "roque-larena",
@@ -1419,7 +2465,17 @@
   "placeSlug": "gualeguaychu-entre-rios",
   "surname": "ROQUE",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "antonio-larena-2",
@@ -1437,7 +2493,17 @@
   "placeSlug": "gualeguaychu-entre-rios",
   "surname": "LARENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "juan-pablo-lerena",
@@ -1455,7 +2521,17 @@
   "placeSlug": "gualeguaychu-entre-rios",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "luis-llerena",
@@ -1473,7 +2549,17 @@
   "placeSlug": "rosario-santa-fe",
   "surname": "LLERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "luis-alejandro-llerena",
@@ -1491,7 +2577,17 @@
   "placeSlug": "rosario-santa-fe",
   "surname": "LLERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "manuela-lerena",
@@ -1509,7 +2605,17 @@
   "placeSlug": "rosario-santa-fe",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "carmen-roman-lerena",
@@ -1527,7 +2633,17 @@
   "placeSlug": "rosario-santa-fe",
   "surname": "ROMAN",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "bartolome-llerena",
@@ -1545,7 +2661,17 @@
   "placeSlug": "rosario-santa-fe",
   "surname": "LLERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "agustin-lorena",
@@ -1563,7 +2689,17 @@
   "placeSlug": "rosario-santa-fe",
   "surname": "LORENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "guillermo-lorena",
@@ -1581,7 +2717,17 @@
   "placeSlug": "rosario-santa-fe",
   "surname": "LORENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "geronima-lorena",
@@ -1599,7 +2745,17 @@
   "placeSlug": "rosario-santa-fe",
   "surname": "LORENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "mercedes-lorena",
@@ -1617,7 +2773,17 @@
   "placeSlug": "rosario-santa-fe",
   "surname": "LORENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "feliz-lorena",
@@ -1635,7 +2801,17 @@
   "placeSlug": "rosario-santa-fe",
   "surname": "LORENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "maria-lorena",
@@ -1653,7 +2829,17 @@
   "placeSlug": "rosario-santa-fe",
   "surname": "LORENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "gabino-l-llerena",
@@ -1671,7 +2857,17 @@
   "placeSlug": "rosario-colonia-uruguay",
   "surname": "LLERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "camilo-llerena",
@@ -1689,7 +2885,17 @@
   "placeSlug": "nogoya-entre-rios",
   "surname": "LLERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "ramon-llerena",
@@ -1707,7 +2913,17 @@
   "placeSlug": "rosario-colonia-uruguay",
   "surname": "LLERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "tomas-llerena",
@@ -1725,7 +2941,17 @@
   "placeSlug": "colonia-uruguay",
   "surname": "LLERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "vicenta-llerena-morales",
@@ -1743,7 +2969,17 @@
   "placeSlug": "carmelo-colonia-uruguay",
   "surname": "LLERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "pedro-llerena",
@@ -1761,7 +2997,17 @@
   "placeSlug": "colonia-uruguay",
   "surname": "LLERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "susana-llerena",
@@ -1779,7 +3025,17 @@
   "placeSlug": "uruguay",
   "surname": "LLERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "maria-llerena",
@@ -1797,7 +3053,17 @@
   "placeSlug": "colonia-uruguay",
   "surname": "LLERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "carlos-lerena-2",
@@ -1815,7 +3081,17 @@
   "placeSlug": "retiro-buenos-aires",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "rosa-maria-eppens",
@@ -1833,7 +3109,17 @@
   "placeSlug": "buenos-aires-montevideo",
   "surname": "EPPENS",
   "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/"
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "avelino-carlos-lerena-2",
@@ -1851,7 +3137,17 @@
   "placeSlug": "mendoza-later-new-york-and-rio-crossings",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "adela-camiglia",
@@ -1869,7 +3165,17 @@
   "placeSlug": "mendoza",
   "surname": "CAMIGLIA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "bartolome-llerena-cordoba-origin",
@@ -1887,7 +3193,17 @@
   "placeSlug": "cordoba-argentina",
   "surname": "LLERENA",
   "sourceUrl": "",
-  "noLink": "no public link"
+  "noLink": "no public link",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "francisco-llerena-2",
@@ -1905,7 +3221,17 @@
   "placeSlug": "cordoba-argentina",
   "surname": "LLERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "rafaela-daraz",
@@ -1923,7 +3249,17 @@
   "placeSlug": "cordoba-argentina",
   "surname": "DARAZ",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "baldomero-llerena",
@@ -1941,7 +3277,17 @@
   "placeSlug": "cordoba-argentina",
   "surname": "LLERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "margarita-correas",
@@ -1959,7 +3305,17 @@
   "placeSlug": "cordoba-argentina",
   "surname": "CORREAS",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "rafael-llerena",
@@ -1977,7 +3333,17 @@
   "placeSlug": "cordoba-argentina",
   "surname": "LLERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "lucrecia-llerena",
@@ -1995,7 +3361,17 @@
   "placeSlug": "cordoba-argentina",
   "surname": "LLERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "armand-o-lorena-pablo-armando-lerena",
@@ -2013,7 +3389,36 @@
   "placeSlug": "argentina",
   "surname": "LORENA",
   "sourceUrl": "https://www.familysearch.org/ark:/61903/1:1:6TH8-DVXH",
-  "noLink": ""
+  "noLink": "",
+  "gen": null,
+  "father": {
+   "name": "Juan Carlos LERENA",
+   "dates": "",
+   "slug": "juan-carlos-lerena",
+   "via": "register",
+   "note": "The same card - this entry IS Pablo Armando"
+  },
+  "mother": {
+   "name": "Maria LERENA",
+   "dates": "",
+   "slug": "maria-lerena",
+   "via": "register",
+   "note": "The same card"
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Pablo Armando LERENA (Robert Paul; \"Bob\")",
+    "dates": "",
+    "slug": "pablo-armando-lerena",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0
  },
  {
   "slug": "maria-lerena",
@@ -2031,7 +3436,33 @@
   "placeSlug": "rosario-santa-fe",
   "surname": "LERENA",
   "sourceUrl": "https://www.familysearch.org/ark:/61903/1:1:6TH8-DVXH",
-  "noLink": ""
+  "noLink": "",
+  "gen": 0,
+  "father": null,
+  "mother": null,
+  "spouses": [
+   {
+    "name": "Juan Carlos LERENA",
+    "dates": "",
+    "slug": "juan-carlos-lerena",
+    "via": "register",
+    "note": "As written on their son's enrolment card"
+   }
+  ],
+  "children": [
+   {
+    "name": "Pablo Armando LERENA (Robert Paul; \"Bob\")",
+    "dates": "1882–1950",
+    "slug": "pablo-armando-lerena",
+    "via": "register",
+    "note": "The 1908 enrolment card"
+   }
+  ],
+  "siblings": [],
+  "isLine": true,
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0
  },
  {
   "slug": "hector-lerena",
@@ -2049,7 +3480,17 @@
   "placeSlug": "buenos-aires",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "eduardo-lerena",
@@ -2067,7 +3508,17 @@
   "placeSlug": "buenos-aires",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "avelina-lerena",
@@ -2085,7 +3536,17 @@
   "placeSlug": "buenos-aires",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "juan-carlos-lerena",
@@ -2103,7 +3564,33 @@
   "placeSlug": "rosario-santa-fe",
   "surname": "LERENA",
   "sourceUrl": "https://www.familysearch.org/ark:/61903/1:1:6TH8-DVXH",
-  "noLink": ""
+  "noLink": "",
+  "gen": 0,
+  "father": null,
+  "mother": null,
+  "spouses": [
+   {
+    "name": "Maria LERENA",
+    "dates": "",
+    "slug": "maria-lerena",
+    "via": "register",
+    "note": "As written on their son's enrolment card"
+   }
+  ],
+  "children": [
+   {
+    "name": "Pablo Armando LERENA (Robert Paul; \"Bob\")",
+    "dates": "1882–1950",
+    "slug": "pablo-armando-lerena",
+    "via": "register",
+    "note": "The 1908 enrolment card"
+   }
+  ],
+  "siblings": [],
+  "isLine": true,
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0
  },
  {
   "slug": "carolina-lerena",
@@ -2121,7 +3608,17 @@
   "placeSlug": "buenos-aires",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "roseline-wilhelmina-forbes",
@@ -2139,7 +3636,54 @@
   "placeSlug": "cape-town-johannesburg",
   "surname": "FORBES",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [
+   {
+    "name": "Frederick Christian Chappell",
+    "dates": "1893–1933",
+    "slug": "",
+    "via": "register",
+    "note": "m. 1 Nov 1920, Woodstock - civil AND Anglican registers"
+   },
+   {
+    "name": "Roque Luis Armando LERENA",
+    "dates": "1905–1973",
+    "slug": "roque-luis-armando-lerena",
+    "via": "register",
+    "note": "m. 21 Sep 1936, Potchefstroom"
+   }
+  ],
+  "children": [
+   {
+    "name": "Doreen May CHAPPELL (m. LERENA)",
+    "dates": "1921–1993",
+    "slug": "doreen-may-chappell",
+    "via": "tree",
+    "note": "FamilySearch tree GL8L-57C"
+   },
+   {
+    "name": "Rieta Maria LERENA",
+    "dates": "1936–1937",
+    "slug": "rieta-maria-lerena",
+    "via": "register",
+    "note": "Her daughter by Roque"
+   },
+   {
+    "name": "Antoinette Septima Lynette LERENA",
+    "dates": "1943–1943",
+    "slug": "antoinette-septima-lynette-lerena",
+    "via": "register",
+    "note": "Her daughter by Roque"
+   }
+  ],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 5,
+  "relRegister": 4,
+  "relTree": 1
  },
  {
   "slug": "doreen-may-chappell",
@@ -2157,7 +3701,58 @@
   "placeSlug": "cape-town-johannesburg",
   "surname": "CHAPPELL",
   "sourceUrl": "https://www.familysearch.org/tree/person/details/GL8L-57C",
-  "noLink": ""
+  "noLink": "",
+  "gen": null,
+  "father": {
+   "name": "Frederick Christian Chappell",
+   "dates": "1893–1933",
+   "slug": "",
+   "via": "tree",
+   "note": "FamilySearch tree GL8L-F5J"
+  },
+  "mother": {
+   "name": "Roseline Wilhelmina FORBES (m.1 Chappell, m.2 LERENA)",
+   "dates": "1903–1950",
+   "slug": "roseline-wilhelmina-forbes",
+   "via": "tree",
+   "note": "FamilySearch tree GL8L-BD4"
+  },
+  "spouses": [
+   {
+    "name": "Ricardo Juan Carlos LERENA",
+    "dates": "1920–1994",
+    "slug": "ricardo-juan-carlos-lerena",
+    "via": "tree",
+    "note": "FamilySearch tree"
+   }
+  ],
+  "children": [
+   {
+    "name": "Anton LERENA",
+    "dates": "1952–2003",
+    "slug": "anton-lerena",
+    "via": "tree",
+    "note": "FamilySearch tree"
+   }
+  ],
+  "siblings": [
+   {
+    "name": "Antoinette Septima Lynette LERENA",
+    "dates": "",
+    "slug": "antoinette-septima-lynette-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Rieta Maria LERENA",
+    "dates": "",
+    "slug": "rieta-maria-lerena",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "relTotal": 4,
+  "relRegister": 0,
+  "relTree": 4
  },
  {
   "slug": "anton-lerena",
@@ -2175,7 +3770,29 @@
   "placeSlug": "sa-records",
   "surname": "LERENA",
   "sourceUrl": "https://www.familysearch.org/tree/person/details/GPW7-42J",
-  "noLink": ""
+  "noLink": "",
+  "gen": 3,
+  "father": {
+   "name": "Ricardo Juan Carlos LERENA",
+   "dates": "1920–1994",
+   "slug": "ricardo-juan-carlos-lerena",
+   "via": "tree",
+   "note": "FamilySearch tree GPW7-42J"
+  },
+  "mother": {
+   "name": "Doreen May CHAPPELL (m. LERENA)",
+   "dates": "1921–1993",
+   "slug": "doreen-may-chappell",
+   "via": "tree",
+   "note": "FamilySearch tree"
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 2,
+  "relRegister": 0,
+  "relTree": 2
  },
  {
   "slug": "rieta-maria-lerena",
@@ -2193,7 +3810,42 @@
   "placeSlug": "transvaal",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": 3,
+  "father": {
+   "name": "Roque Luis Armando LERENA",
+   "dates": "1905–1973",
+   "slug": "roque-luis-armando-lerena",
+   "via": "register",
+   "note": "SA, Transvaal, Civil Death, 1869-1954"
+  },
+  "mother": {
+   "name": "Roseline Wilhelmina FORBES (m.1 Chappell, m.2 LERENA)",
+   "dates": "1903–1950",
+   "slug": "roseline-wilhelmina-forbes",
+   "via": "register",
+   "note": "Inferred from the marriage and the dates"
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Antoinette Septima Lynette LERENA",
+    "dates": "",
+    "slug": "antoinette-septima-lynette-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Doreen May CHAPPELL (m. LERENA)",
+    "dates": "",
+    "slug": "doreen-may-chappell",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0
  },
  {
   "slug": "antoinette-septima-lynette-lerena",
@@ -2211,7 +3863,42 @@
   "placeSlug": "transvaal",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": 3,
+  "father": {
+   "name": "Roque Luis Armando LERENA",
+   "dates": "1905–1973",
+   "slug": "roque-luis-armando-lerena",
+   "via": "register",
+   "note": "SA, Transvaal, Civil Death, 1869-1954"
+  },
+  "mother": {
+   "name": "Roseline Wilhelmina FORBES (m.1 Chappell, m.2 LERENA)",
+   "dates": "1903–1950",
+   "slug": "roseline-wilhelmina-forbes",
+   "via": "register",
+   "note": "Inferred from the marriage and the dates"
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Doreen May CHAPPELL (m. LERENA)",
+    "dates": "",
+    "slug": "doreen-may-chappell",
+    "via": "register"
+   },
+   {
+    "name": "Rieta Maria LERENA",
+    "dates": "",
+    "slug": "rieta-maria-lerena",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0
  },
  {
   "slug": "careen-maria-lerena",
@@ -2229,7 +3916,17 @@
   "placeSlug": "cape-colony",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 0,
+  "relRegister": 0,
+  "relTree": 0
  },
  {
   "slug": "rhena-may-lerena",
@@ -2247,6 +3944,24 @@
   "placeSlug": "braamfontein-johannesburg",
   "surname": "LERENA",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry"
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": 2,
+  "father": null,
+  "mother": null,
+  "spouses": [
+   {
+    "name": "Roque Luis Armando LERENA",
+    "dates": "1905–1973",
+    "slug": "roque-luis-armando-lerena",
+    "via": "register",
+    "note": "m. 12 Mar 1966; she signed his 1973 death notice \"R. M. Lerena\""
+   }
+  ],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "relTotal": 1,
+  "relRegister": 1,
+  "relTree": 0
  }
 ]
