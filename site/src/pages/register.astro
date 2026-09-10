@@ -2,96 +2,142 @@
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 import people from "../data/people.json";
+
 const total = people.length;
-const nUnplaced = people.filter(p => p.status === "unplaced" || p.status === "high" || p.status === "interest").length;
+const distinct = new Set(people.map(p => p.name.trim().toLowerCase())).size;
+const linked = people.filter(p => p.sourceUrl).length;
+const unlinked = total - linked;
+
+const nUnplaced = people.filter(p => ["unplaced", "high", "interest"].includes(p.status)).length;
 const nConnected = people.filter(p => p.status === "connected").length;
 const nExcluded = people.filter(p => p.status === "excluded").length;
-const CHIP = { connected: ["doc","Connected"], excluded: ["","Excluded"],
-               high: ["lore","Unplaced · high interest"], interest: ["inf","Unplaced · of interest"],
-               unplaced: ["inf","Unplaced"] };
-const rows = people.map(p => ({
+
+const CHIP = { connected: ["doc", "Connected"], excluded: ["", "Excluded"],
+               high: ["lore", "Unplaced · high interest"], interest: ["inf", "Unplaced · of interest"],
+               unplaced: ["inf", "Unplaced"] };
+
+// What the source says: the record's own content, in one line, Falco-style.
+function saysOf(p) {
+  const bits = [];
+  if (p.born && p.born !== "-") bits.push(p.born);
+  if (p.birthplace && p.birthplace !== "-") bits.push(p.birthplace);
+  if (p.nationality && p.nationality !== "-") bits.push(p.nationality);
+  if (p.occupation && p.occupation !== "-") bits.push(p.occupation);
+  if (p.where && p.where !== "-") bits.push("found in " + p.where);
+  return bits.join(" · ");
+}
+
+const enriched = people.map(p => ({
   ...p,
-  hay: [p.name, p.born, p.birthplace, p.nationality, p.occupation, p.where, p.source, p.note, p.status]
-        .join(" ").toLowerCase(),
+  says: saysOf(p),
   chip: CHIP[p.status] || CHIP.unplaced,
+  hay: [p.name, p.born, p.birthplace, p.nationality, p.occupation, p.where, p.source, p.note, p.status, p.surname]
+        .join(" ").toLowerCase(),
 }));
+
+const groups = Object.values(
+  enriched.reduce((acc, p) => {
+    (acc[p.surname] ||= { surname: p.surname, rows: [] }).rows.push(p);
+    return acc;
+  }, {})
+).sort((a, b) => b.rows.length - a.rows.length || a.surname.localeCompare(b.surname));
+for (const g of groups) g.rows.sort((a, b) => a.name.localeCompare(b.name));
 ---
-<Base title="Name Register"
-      eyebrow="Every Lerena encountered anywhere, placed or not"
-      dek="A working register of every person of this surname met in the course of the research — searchable, with the record that produced each one, and an honest mark saying whether they connect to our line, do not, or cannot yet be told either way.">
+<Base title="The register"
+      eyebrow="Every named individual this archive has found"
+      dek="Every person of this surname, and every spouse and parent of one, met in the course of the research — searchable, grouped by the spelling the record used, with the source that names each one. This is the raw catch, not a family tree, and most of it is not this family.">
 
 <section class="blk">
-  <h2>Why keep this</h2>
+  <p class="lede">{total} entries for {distinct} distinct names, <strong>{linked}</strong> of them with a
+    link to the source that names them; the other <strong>{unlinked}</strong> say in the Source column why
+    no link exists.</p>
+</section>
+
+<section class="blk">
+  <h2>Read this before you read the list</h2>
   <div class="prose">
     <p>The surname is rare. Forebears counts about <strong>2,124 Lerenas worldwide</strong>, with the
       highest density anywhere in <strong>Uruguay</strong> — the signature of a small founding group that
-      emigrated. At that scale, most people carrying the name probably <em>are</em> related to one another
-      at some depth. But &ldquo;probably related&rdquo; is not evidence, and this archive does not publish
-      guesses as findings.</p>
-    <p>So every Lerena met along the way is written down here rather than discarded, with the record that
-      produced them. <strong>None is claimed as kin.</strong> The moment Pablo Armando&rsquo;s parents are
-      named, this list becomes the place to look — several of these people may snap into position at once,
-      and the work of finding them again will already have been done.</p>
+      emigrated. At that scale most people carrying the name probably <em>are</em> related to one another
+      at some depth. But &ldquo;probably related&rdquo; is not evidence, and <strong>a shared surname is
+      not a relationship</strong>.</p>
+    <p>Most entries here come from <strong>surname sweeps</strong> — every Lerena in the CEMLA arrival
+      index, in the Argentine national censuses of 1869 and 1895, in the Uruguayan and Argentine parish
+      and civil registers, in the South African death, estate and cemetery indexes. They are here because
+      they were found, not because they are kin. <strong>None is claimed as kin.</strong></p>
+    <p>The list is <strong>grouped by the spelling the record used</strong> — Lerena, Llerena, Larena,
+      Lorena, Lerina — because the spelling is evidence in itself: it is how a clerk heard the name, and
+      the clerks disagreed. Names in other groups are spouses and parents who married in or are named
+      alongside.</p>
     <p class="cap">Three marks are used. <strong>Connected</strong> — proven to the direct line.
       <strong>Excluded</strong> — checked and shown not to belong. <strong>Unplaced</strong> — found,
       recorded, and honestly unresolved. Most are unplaced, and that is the point of the page.</p>
+    <p>The moment more of Pablo Armando&rsquo;s people are named, this becomes the place to look — several
+      of these may snap into position at once, and the work of finding them will already have been done.
+      <a href={u("/enrolment-card/")}>The card that named his parents &rarr;</a></p>
   </div>
   <div class="grid g3" style="margin-top:22px">
-    <div class="panel"><div class="nm">116</div>
-    <div class="txt">people recorded</div></div>
-    <div class="panel"><div class="nm">{nUnplaced}</div>
-    <div class="txt">unplaced — the honest majority</div></div>
+    <div class="panel"><div class="nm">{total}</div><div class="txt">entries recorded</div></div>
+    <div class="panel"><div class="nm">{nUnplaced}</div><div class="txt">unplaced — the honest majority</div></div>
     <div class="panel"><div class="nm">{nConnected} / {nExcluded}</div><div class="txt">connected / excluded</div></div>
   </div>
 </section>
 
 <section class="blk">
-  <h2>Search the register</h2>
-  <p class="dek">Type any name, place, year, source or status — for instance <em>Trinidad</em>,
-    <em>Gilberto</em>, <em>1882</em>, <em>CEMLA</em>, <em>connected</em>.</p>
-  <input id="q" type="search" placeholder="Search all 116 people…"
-         autocomplete="off"
+  <h2>Filter by name, place, year or source</h2>
+  <input id="q" type="search" placeholder="Trinidad · Gilberto · 1882 · CEMLA · connected"
+         autocomplete="off" aria-label="Filter the register"
          style="width:100%;margin-top:16px;padding:14px 16px;font:inherit;font-size:1.05rem;
                 background:var(--panel);color:var(--ink);border:1px solid var(--rule);border-radius:2px" />
-  <p id="count" class="cap" style="margin-top:10px">Showing all 116 people.</p>
-  <div class="scroll" style="margin-top:14px">
-    <table id="reg">
-      <thead><tr><th>Person</th><th>Born</th><th>Nationality</th><th>Where found</th><th>Source</th><th>Status</th></tr></thead>
-      <tbody>
-      {rows.map(p => (
-        <tr data-s={p.hay}>
-          <td><a href={u(`/people/${p.slug}/`)}><strong>{p.name}</strong></a>
-            {p.note && <><br /><span class="cap">{p.note}</span></>}</td>
-          <td class="m">{p.born}</td>
-          <td>{p.nationality}</td>
-          <td>{p.where}</td>
-          <td>{p.source}</td>
-          <td><span class={`chip ${p.chip[0]}`.trim()}>{p.chip[1]}</span></td>
-        </tr>
-      ))}
-      </tbody>
-    </table>
-  </div>
+  <p id="count" class="cap" style="margin-top:10px">{total} entries shown</p>
   <p id="none" class="note" style="margin-top:18px;display:none">Nothing matches that. Try a shorter word —
     a surname, a place, or a year.</p>
+
+  {groups.map(g => (
+    <div class="grp" data-g={g.surname}>
+      <h3 style="margin-top:34px">{g.surname} <span class="cap" style="font-weight:400">{g.rows.length}</span></h3>
+      <div class="scroll" style="margin-top:10px">
+        <table>
+          <thead><tr><th style="width:19rem">Name</th><th>What the source says</th><th style="width:19rem">Source</th></tr></thead>
+          <tbody>
+            {g.rows.map(p => (
+              <tr data-s={p.hay}>
+                <td><a href={u(`/people/${p.slug}/`)}><strong>{p.name}</strong></a><br />
+                  <span class={`chip ${p.chip[0]}`.trim()}>{p.chip[1]}</span></td>
+                <td>{p.says}
+                  {p.note && <><br /><span class="cap">{p.note}</span></>}</td>
+                <td>
+                  {p.sourceUrl
+                    ? <a href={p.sourceUrl} rel="noopener">record &#8599;</a>
+                    : <span class="cap">{p.noLink}</span>}
+                  <br /><span class="cap">{p.source}</span>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  ))}
 </section>
 
 <section class="blk">
-  <h2>How to add to this</h2>
-  <p class="prose">The register lives at <span class="mono">data/lerena-register.tsv</span> and this page is
-    generated from it, so the two cannot drift apart. A person earns a row the moment they are
-    <em>seen in a record</em>, not when they are understood. If you meet a Lerena anywhere — a headline, a
-    headstone, a passenger list, a race card — the useful thing is the <strong>citation</strong>, not the
-    conclusion. Conclusions can be drawn later; a source seen once and not written down is lost.</p>
+  <h2>Why keep a list of people who are probably not us</h2>
+  <p class="prose">Because the alternative is finding them twice. Every one of these cost a search, and a
+    search that is not written down has to be paid for again. When a record turns up a
+    <em>Juan Carlos</em>, or a Lerena at Rosario, or a family that moved between the two banks of the
+    Plate, the question will be whether this archive has met them before — and this is the only page that
+    can answer it. <a href={u("/searched/")}>What has been read &rarr;</a></p>
 </section>
 
 <script is:inline>
   (function () {
     var q = document.getElementById('q');
-    var rows = Array.prototype.slice.call(document.querySelectorAll('#reg tbody tr'));
+    if (!q) return;
+    var rows = Array.prototype.slice.call(document.querySelectorAll('tbody tr[data-s]'));
+    var groups = Array.prototype.slice.call(document.querySelectorAll('.grp'));
     var count = document.getElementById('count');
     var none = document.getElementById('none');
-    if (!q) return;
     function run() {
       var terms = q.value.toLowerCase().split(/\s+/).filter(Boolean);
       var shown = 0;
@@ -101,9 +147,12 @@ const rows = people.map(p => ({
         r.hidden = !ok;
         if (ok) shown++;
       });
-      count.textContent = terms.length
-        ? ('Showing ' + shown + ' of ' + rows.length + ' people.')
-        : ('Showing all ' + rows.length + ' people.');
+      groups.forEach(function (g) {
+        var any = Array.prototype.slice.call(g.querySelectorAll('tbody tr[data-s]'))
+                    .some(function (r) { return !r.hidden; });
+        g.hidden = !any;
+      });
+      count.textContent = shown + ' entries shown';
       none.style.display = shown ? 'none' : '';
     }
     q.addEventListener('input', run);

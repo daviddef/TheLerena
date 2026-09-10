@@ -7,7 +7,7 @@ const sorted = [...people].sort((a,b) => (order[a.status]-order[b.status]) || a.
 const n = people.length;
 const conn = people.filter(p=>p.status==="connected").length;
 ---
-<Base title="Everyone" eyebrow={`${n} people of this surname, each with their own page`}
+<Base title="The people" eyebrow={`${n} people of this surname, each with their own page`}
       dek="Every Lerena this archive has met, anywhere, with the record that produced them. Search the list and follow any name through to what is known about that person.">
 
 <section class="blk">
