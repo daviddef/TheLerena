@@ -2618,3 +2618,33 @@ not a defect — but it means the list is dominated by things that are *absent* 
 **And the mechanical reason our register links five rows out of 125:** Defranceski stores a bare
 FamilySearch id and builds the URL with an `ark()` helper. We store whole URLs, so we mostly store
 nothing.
+
+## Amsterdam answered, and it goes against the family story
+
+The letter of 9 September was answered on the 10th. The **International Institute of Social History** —
+the principal repository for the international left — replied that its Latin American periodicals,
+Argentinian included, are **digitised and OCR'd** as *Latin American Anarchist and Labour Periodicals
+Online, c. 1880–1940*, and that their archivist had searched **Lerena and its variants**: *"nothing
+popped up."* They will scan specific items at **€0.50 each**, but cannot research on our behalf.
+
+**Re-run here the same day**, because "nothing" is a weaker record than a description of the noise:
+
+- **Lerena — 171 hits**, almost all the **Conde de Lerena** (Charles III's finance minister, whose 1787
+  *Censo* is quoted in Spanish economic history) and **"Osimani y Llerena"**, a *street in Montevideo*
+  where the anarchist weekly *La Tierra* had its office.
+- **Lerina — 16 hits**, every one OCR breakage of **"ballerina"**.
+
+**No person of this family in the Latin American left press, 1880–1940.**
+
+**And the weight of that, stated honestly rather than banked.** It is the *weakest* of the three
+objections to the tradition. A horse-dealer in his twenties would not be in the anarchist press unless he
+were notable, and most people never appear in any periodical at all. **The objection that actually bites
+is the enrolment card**: in 1908 he walked into his own government's consular office at Cape Town and
+wrote down his name, his class, his birthplace and both his parents. A man hiding from the Argentine
+state does not do that. And **Ley 4144 deported foreigners, not nationals** — the mechanism the story
+implies could not have been used on him.
+
+**Not disproved. Now unlikely.** The AGN expulsion files remain the only place that could settle it
+positively, and that request still needs David to register with a passport.
+
+*One down of four: the Army, the Cancillería and the Western Cape Archives are still out.*

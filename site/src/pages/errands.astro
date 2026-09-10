@@ -3,15 +3,17 @@ import Base from "../layouts/Base.astro";
 import Rule from "../components/Rule.astro";
 import { u } from "../lib/url.js";
 import rows from "../data/errands.json";
-const LABEL = { sent: ["doc", "Sent"], "waiting-on-david": ["lore", "Needs a person"],
+const LABEL = { sent: ["inf", "Sent, awaiting reply"], replied: ["doc", "Answered"],
+                "waiting-on-david": ["lore", "Needs a person"],
                 ready: ["inf", "Written, not sent"], blocked: ["", "Blocked"] };
 const groups = [
+  ["Answered", rows.filter(r => r.status === "replied")],
   ["Out, and waiting on a reply", rows.filter(r => r.status === "sent")],
-  ["Waiting on a person, not a machine", rows.filter(r => r.status !== "sent")],
+  ["Waiting on a person, not a machine", rows.filter(r => !["sent", "replied"].includes(r.status))],
 ];
 ---
 <Base title="Errands"
-      eyebrow={`${rows.filter(r=>r.status==="sent").length} letters out · ${rows.filter(r=>r.status!=="sent").length} jobs waiting`}
+      eyebrow={`${rows.filter(r=>r.status==="replied").length} answered · ${rows.filter(r=>r.status==="sent").length} still out · ${rows.filter(r=>!["sent","replied"].includes(r.status)).length} need a person`}
       dek="What this archive has asked of other archives, and the handful of jobs that need a human being in a particular building. Published so that the waiting is visible rather than invisible.">
 
 {groups.map(([title, list]) => list.length > 0 && (

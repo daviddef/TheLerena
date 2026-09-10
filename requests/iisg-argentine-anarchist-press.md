@@ -1,3 +1,18 @@
+> ## *** REPLIED — 10 September 2026 ***
+> **From:** `ask@iisg.nl`
+> **The answer, in substance:**
+> - The IISH holds Latin American, including Argentinian, periodicals. They are **digitised and OCR'd**
+>   and searchable at **`degruyterbrill.com/database/lalp/start`** — *Latin American Anarchist and Labour
+>   Periodicals Online, c. 1880–1940.*
+> - **"I have done a quick search on the name Lerena and its spelling variations, however nothing popped
+>   up so far."**
+> - Their other Argentine archival holdings are on different themes and periods.
+> - They cannot research on our behalf, but will **scan specific items at €0.50 per scan** — quotes via
+>   `repro@iisg.nl`.
+>
+> **Independently re-run by this archive the same day**, and the null holds. See below for what the
+> apparent hits actually are — that characterisation is more useful than "nothing found".
+
 # Request — International Institute of Social History, Amsterdam
 
 > ## *** SENT — 9 September 2026 ***
