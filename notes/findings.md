@@ -2565,3 +2565,25 @@ looked for**, and it sorts adjacent to Lerena. And re-run CEMLA treating LERINA 
 spellings.
 
 Written up on `/dna/`, in `notes/what-the-dna-says.md` and `data/dna-evidence.tsv`, and as hypothesis 1b.
+
+### And the very next screenshot weakened it
+
+The slider was moved to low confidence: **8 of 8** genetic groups. Five are legible —
+**South Africa · South Africa and Zimbabwe · Argentina (Corrientes and Buenos Aires), Uruguay and
+Paraguay · England · Ireland (Cork, Kerry and Limerick) and England.** Three sit below the fold, unseen.
+
+**No Italian group among the five.** That is evidence *against* hypothesis 1b, and it arrived within an
+hour of the hypothesis being written down. It does not kill it — a cluster needs enough tested people
+with documented trees, and an Italian great-grandparent's group can fail to form — but the easiest
+confirmation was available and did not appear.
+
+**The asymmetry, stated plainly:** the Río de la Plata group is a *positive* result, a cluster formed at
+high confidence from 178 kits. The Italian claim rests on a *negative* — no Iberian — plus arithmetic on
+11.1%. Not the same class of evidence, and this archive will not treat them as though they were.
+
+**And the eight groups strengthen the thing that was already proved.** Every group except the Río de la
+Plata one is accounted for by her other three grandparents: two South African, two British Isles. That is
+a clean four-grandparent reading, and it makes the Argentine group *harder* to explain away, not easier.
+
+*Also recorded: the confidence slider governs the genetic groups only. The ethnicity percentages are
+identical in both views.*

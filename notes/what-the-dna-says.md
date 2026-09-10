@@ -95,3 +95,55 @@ does not say *Italian*.
 3. **Re-read the sweeps for LERINA**, not only LERENA. The index sweeps recorded no Lerena, Llerena,
    Larena or Lorena — **Lerina was not separately looked for**, and it sorts adjacent.
 4. **CEMLA under LERINA and LARENA**, treating them as the primary spellings rather than variants.
+
+---
+
+## The other groups — and they weaken the Italian case
+
+*Same day. The slider was moved to low confidence, and the count went from 3 of 8 to **8 of 8**.*
+
+**First, a technical point worth recording:** the confidence slider governs the **genetic groups only**.
+The ethnicity percentages are identical in both views — the same thirteen values, the same figures. So
+nothing above changes.
+
+**Five of the eight are legible:**
+
+| | |
+|---|---|
+| South Africa | the Booyzen half |
+| South Africa and Zimbabwe | the family's spread into the Transvaal and beyond |
+| **Argentina (Corrientes and Buenos Aires), Uruguay and Paraguay** | **can only be Pablo Armando** |
+| England | Mary Septima Taylor |
+| Ireland (Cork, Kerry and Limerick) and England | Mary Septima Taylor, or the Cape |
+
+**Three remain below the fold and have not been seen.**
+
+### What that does to hypothesis 1b
+
+**No Italian genetic group appears among the five.** That is evidence *against* the Italian reading, and
+it arrived within an hour of the hypothesis being written down.
+
+It does not kill it. A genetic group needs enough tested people from a region with documented trees, and
+an Italian great-grandparent's cluster can fail to form. But **the easiest confirmation was available and
+did not appear**, and the case is weaker for it than it was this morning.
+
+**The asymmetry is worth stating plainly.** The Río de la Plata group is a *positive* result: a cluster
+formed, at high confidence, from 178 kits. The Italian claim rests on a *negative* — an absence of Iberian
+percentage — plus arithmetic on an 11.1% figure. Those are not the same class of evidence, and this
+archive should not treat them as though they were.
+
+### What is still worth doing
+
+1. **The last three group names.** If an Italian or Ligurian group is among them the picture changes
+   again. One scroll.
+2. **The matches remain the real test.** A single DNA match with a documented Italian or Argentine tree
+   settles more than any number of percentages.
+3. **The LERINA sweep stands regardless.** Whatever the DNA says, the Rosario indexes were never
+   separately searched for that spelling, and it sorts adjacent to Lerena.
+
+### And one thing the eight groups do confirm
+
+**Every group except the Río de la Plata one is accounted for by her other three grandparents** — two
+South African, two British-Isles. That is what a clean four-grandparent reading looks like, and it makes
+the Argentine group harder to explain away rather than easier. **The thing it proves, it proves more
+firmly than before.**
