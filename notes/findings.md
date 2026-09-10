@@ -2522,3 +2522,46 @@ the Cancillería. Written up in `notes/the-consulate-that-should-not-exist.md`.
 **And a footnote against the family lore**: a man fleeing Argentina as a communist does not walk into his
 own government's consular office in 1908 and put his name, his class, his birthplace and his parents on
 a form. Not proof — but evidence on the other side, and it belongs on the record.
+
+## The DNA — a third leg, and a hypothesis with teeth
+
+A granddaughter of Pablo Armando has tested at MyHeritage; her son shared the result. **She is living, so
+this archive omits her**: she is not named, her ethnicity profile is not published, and only the figures
+that bear on Pablo Armando — dead since 1950 — are recorded.
+
+**What it settles.** A genetic group at **high confidence**: *Argentina (Corrientes and Buenos Aires),
+Uruguay and Paraguay*, built from **178 kits, 61 with trees**. That is a cluster of people sharing actual
+chromosome segments whose documented trees converge on the Río de la Plata. **It can only have come from
+him** — her other three grandparents are English Devon and Cape Afrikaner.
+
+So the Argentine origin now stands on **three independent legs**: the 1940 passport, the 1908 enrolment
+card, and a chromosome. A fortnight ago it stood on one. **And the group's top places for 1900–1950 name
+SANTA FE** — the first time anything outside the family's own paperwork has pointed at that province.
+
+**What it questions, and this is the interesting half.**
+
+> **Iberian: 0.0%. Italian: 11.1%** — North 6.1, South 3.6, Sardinian 1.4.
+
+**There is no Spanish component at all.** A Spanish-descended criollo great-grandfather should show as
+roughly 25% Iberian in a granddaughter. He shows as none. What she does carry is **Italian**, which has
+no other source in her tree, and at one quarter **11.1% in her implies about 44% in him — one Italian
+parent.** The split is **northern-dominant**, the signature of the Ligurian and Piedmontese emigration
+that made Rosario the most Italian city in Argentina.
+
+**Why it would explain rather a lot.** A couple who married **in Italy before emigrating** would never
+appear in the Rosario marriage register — which has now been read clean for 1867–1885. The register
+around his birth, read act by act, is full of Piaggio, Ricotti, Savoni, Bianchi, Ferrari, Daneri,
+Scorzetti, Louraschi, Ranieri, Figallo. And **his death was registered LERINA** — treated here for a
+month as a clerk's slip, while **CEMLA records Lerina as an *Italian* surname arriving from Genova**. The
+"error" may be the one document that got it right.
+
+**Stated as a hypothesis, not a finding.** Ethnicity estimates are not records; at one quarter the noise
+is large; MyHeritage distributes Iberian awkwardly. The *genetic group* is the stronger signal, and it
+says Río de la Plata — not Italian.
+
+**Four consequences for the work.** See the other five genetic groups (only 3 of 8 are shown). Work the
+matches rather than the percentages. **Re-read the Rosario sweeps for LERINA — it was never separately
+looked for**, and it sorts adjacent to Lerena. And re-run CEMLA treating LERINA and LARENA as primary
+spellings.
+
+Written up on `/dna/`, in `notes/what-the-dna-says.md` and `data/dna-evidence.tsv`, and as hypothesis 1b.
