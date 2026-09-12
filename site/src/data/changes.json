@@ -3,6 +3,16 @@
   "date": "2026-09-13",
   "commits": [
    {
+    "sha": "d13c693",
+    "subject": "Say on the site where today's reading stopped, and why",
+    "body": "Eighty openings of the pre-1879 index and the act behind the one hit got this\nsession firewalled by FamilySearch - the search endpoints first, then the image\nbrowse. Second block in four days, both caused by this archive's own reading\nrate rather than by anything FamilySearch did wrong.\nWhat it blocks is route 1: the Montevideo registers, looking for a baptism for\nJuan Carlos Lerena and a marriage to a Maria. Queued, not done, and the page\nsays which."
+   },
+   {
+    "sha": "d57daac",
+    "subject": "Rebuild the changelog",
+    "body": ""
+   },
+   {
     "sha": "b8c62b0",
     "subject": "Bring the front page up to date with the sweep and the Uruguayan turn",
     "body": "Three changes on the home page, all of them things that stopped being true\ntoday.\nThe headline figure \"1879-1901 - every year of the Rosario baptism index\" is now\n\"1731-1901 - both volumes, read end to end, and the surname appears exactly\nonce\". A new figure sits beside it: \"Uruguayan - what the act behind that one\nLerena says of her parents\".\nThe paragraph about the missing baptism said the sweep covered 1879-1901 and\ncalled the result \"a sharp question rather than a blank wall\". It is now sharper\nthan that. Across both volumes and a hundred and seventy years the surname\nappears once - so it is not only his baptism that is missing, but his brothers\nand sisters, and his father's marriage, and every trace of the household. A\nfamily that lives in a parish leaves baptisms. This one leaves nothing.\nAnd a new paragraph for the one Lerena who is there: folio 229, February 1866,\nDon Luis Lerena Lenguas and Dona Julia Juanico, \"naturales del E. Oriental\" -\nwith the godfather standing by proxy from the other side of the river. Published\nUruguayan genealogy makes them the Lerena Lenguas of Montevideo, one of whose\nsons co-founded the Argentine Stud Book. Nothing links the two houses yet, and\nthe page says so.\nAlso 125 people in the register becomes 129."
