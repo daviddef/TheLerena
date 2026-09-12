@@ -1,0 +1,41 @@
+# THE PRE-1879 BAPTISM INDEX - opened for the first time, 13 September 2026.
+#
+# FamilySearch film 004530324, 554 images. Title card at image 5:
+#   "Parroquia N. S. del Rosario - INDICE DE BAUTISMOS - VOLUMEN 3o - Anos 1731-1879 -
+#    LETRAS L-Q - Revisado y Restaurado en 1945"
+#
+# WHY IT MATTERS: this is the only index covering Rosario baptisms BEFORE 1879. It is where
+# Juan Carlos Lerena's own baptism would be if he was born in the city, and where any older
+# sibling of Pablo Armando born in the 1870s would be.
+#
+# TYPEWRITTEN, like the 1879-1900 volume - the 1945 restoration. Columns: APELLIDOS | NOMBRES |
+# ANO | FOLIO. Read by the DeepZoom tile method at level 12, scale 0.42, whole opening per screen.
+#
+# *** THIS IS A SAMPLE, NOT AN EXHAUSTIVE READ. *** Ten openings were read in full; the rest of the
+# L section has not been opened. The gaps are listed at the foot of this file so nobody mistakes
+# what was done for what remains.
+#
+# A TECHNICAL NOTE WORTH KEEPING: the tile-retry loop must re-request the SAME url. Appending a
+# cache-busting query returns a different tile and silently scrambles the mosaic - it produced one
+# unreadable, misaligned page before it was caught.
+#
+image	ark	years	libro	result
+5	9Q97-Y3S2-FF8	-	-	Title card: Volumen 3o, 1731-1879, Letras L-Q, restored 1945.
+6	9Q97-Y3S2-FLM	1731 onward	Libro 1o	*** L BEGINS. *** Left page blank; the section opens on the right. Leon, Lopez, Lara, Liendo, Liendo, Lermus, Lopez, X, Loayza, Leguizamo, Lencima, Lopes, Lasarte. No Lerena.
+7	9Q97-Y3S2-FVH	1740-1755	Libro 1o-2o	Lopez, Lojas, Lencinas, Lasarte, Ledesma, Leguizamon, Lares, Lenato, Laur, Leyes, Loayza, Liendo, Lozano, Laez, Larres, Leon, Leyva, Lobo, Ludueña. No Lerena.
+20	9Q97-Y3S2-F29	1826-1829	Libro 5o-6o	Leguisamon, Lencina, Lopez, Larroza, Lozano, Leyva, Lucena, Losano, Lujan, Lnocea, Ledesma, Llanes, Leda, Leon, Llanos, Lescano, Luquez, Lavallan, Lira. No Lerena.
+28	9Q97-Y3S2-FGR	1843-1844	-	Lopez, Leguizamon, Leiva, Ledesma, Lescano, Lencinas, Ludueña, Lencina, Luceno, Layva, Lavallan, Lassaga, Liendro, Lujan, Lafargue, Loarte, Leon. No Lerena.
+34	9Q97-Y3S2-FPR	1852-1854	-	Lavallena, Lencinas, Lavallan, Lujan, Lemus, Luque, Lasarte, Ludueña, Llanos, Leon, Laso, Lucero, Larramendi, Luna, Lara, "Lencinas (o Lincinas)", Lira, Lavado, Levado, Emprida. No Lerena.
+43	9Q97-Y3S2-FL6	1852-1854	-	*** DUPLICATE - the second roll re-shoots the last page of the first. Identical to image 34. Counted once. ***
+44	9Q97-Y3S2-FRM	1854-1855	-	Lencina, Loiza, Lassaga, Leyva, Lujan, Lemus, Lucero, Lorraza, Lobo, Lagos, Laytasa, Llanos, Lara, Leonis, Lindhe, Lisarda, Lelebe, Lescano, Lezona, Landes. No Lerena.
+45	9Q97-Y3S2-FLP	1855	Libro 9o-10o	Leguisamon, Ludina, Lescano, Ludueña, Leiva, Lemes, Lencina, Lemos, Ledesma, Luna, Leon, Lopez, Lavallan, Luqueo, Lleras, Lonso, Lindon, Lucena, Lecosta. No Lerena.
+46	9Q97-Y3S2-FG5	1855-1857	-	Lencina, Lescano, Lopez, Lucena, Lucbian, Ledesma, Lucero, Lobos, Leyva, Lara, Llanos, Lisondo, Lira, Lamberti, Lavalle, Lavallet, Lastra, Lugones, Lexo, Lisbon. *** Note "LERONES Hortensia" - Ler-, but Lerones. *** No Lerena.
+47	9Q97-Y3S2-FLL	1857	Libro 10o-11o	Leguisamon, Leonardo, Lescano, Lencina, Lozano, Lopez, Ludueña, Ledesma, Lucero, Luques, Luna, Lagos, Lael, X, Lassaga, Lasarte, Lujan, Lavallan, Laudiedo, Lebaud, Ludueña. No Lerena.
+48	9Q97-Y3S2-FL2	1857-1858	-	Leyva, Lucero, Leiva, Lopez, Lobos, Lucena, Lencina, Luena, Leguisamon, Labau, Lotja, Lira, Le Madrid, Laudeña, Luna, Llano, Lindon, Loza, Lavalle, Landrier, Larrazabal, Luques, Laton, Loyza, Lagos, Lauche, Larrosa. *** Note "LESA (o LERA)" - the index itself offers LERA as an alternative reading. *** No Lerena.
+#
+# *** WHAT HAS NOT BEEN READ, said plainly. ***
+# Images 8-19, 21-27, 29-33 (the first roll) and 49 onward (the second roll) have NOT been opened.
+# The second roll carries 1858 to 1879 - which includes the whole window in which an older sibling
+# of Pablo Armando would have been baptised. THAT IS THE PART THAT MATTERS MOST AND IT IS UNREAD.
+#
+# RESUME AT: image 49, ark 9Q97-Y3S2-FLK, in film 004530324.

@@ -2682,3 +2682,31 @@ what is wanted is the whole plot, the section and row markers, and a wide shot.
 
 *Also checked: no replies yet from the Army, the Cancillería or the Western Cape Archives. Three days is
 nothing for an archive.*
+
+## The index before 1879, opened at last
+
+The best untried item on the list, and the first film this archive has opened that could hold the
+**generation above Pablo Armando**.
+
+**Film 004530324, 554 images.** Title card at image 5: *"Parroquia N. S. del Rosario — ÍNDICE DE
+BAUTISMOS — VOLUMEN 3º — Años 1731–1879 — LETRAS L–Q — Revisado y Restaurado en 1945."* The companion to
+the 1879–1900 volume: same restoration, same typescript, same four columns.
+
+Everything read here until now began in 1879 — three years after his birth, which is fine for him and
+useless for everyone above him. **This is where Juan Carlos's own baptism would sit**, and where an older
+brother or sister of Pablo Armando would sit if the family were in Rosario in the 1870s.
+
+**Ten openings read in full**, spread to bound the section: 1731, 1740–55, 1826–29, 1843–44, 1852–58.
+**No Lerena in any of them.** The names that recur for a century and a half are Leguizamón, Lencina,
+López, Ledesma, Lescano, Ludueña, Lucero, Leiva, Luna, León, Lujan, Llanos. Two near misses recorded:
+**Lerones** (1856) and **"Lesa (o Lera)"** (1857), where the index itself offers *Lera* as an alternative
+reading of the same hand. Image 43 is a duplicate — the second roll re-shoots the first roll's last page.
+
+**And the important half: images 8–19, 21–27, 29–33 and everything from 49 onward are UNREAD** — and 49
+onward is **1858 to 1879**, the whole window for an older sibling and much of the window for Juan Carlos.
+**The part that matters most is the part still unread.** Recorded so nobody mistakes ten openings for a
+sweep. Resume at image 49, ark `9Q97-Y3S2-FLK`.
+
+**One method note kept:** the tile-retry loop must re-request the *same* URL. A cache-busting query
+returns a different tile and silently scrambles the mosaic — it produced one unreadable page before it
+was caught.
