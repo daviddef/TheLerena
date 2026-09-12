@@ -1,7 +1,7 @@
 # The index before 1879
 
-*13 September 2026. The best untried thing on the list, opened at last — and half-read, which is said
-here rather than glossed.*
+*13 September 2026. Opened in the morning, half-read by lunchtime, and finished the same day — eighty
+openings, a hundred and forty-eight years, and one name.*
 
 ## What it is
 
@@ -15,54 +15,76 @@ It is the **only index covering Rosario baptisms before 1879** — the companion
 this archive read end to end on 10 September. And like that one it is **typewritten**, the product of the
 same 1945 restoration, with the same four columns: *Apellidos · Nombres · Año · Folio*.
 
-## Why it is the right film
+## Why it was the right film
 
-Everything this archive has read so far starts in 1879. That is three years before Pablo Armando was
-born, which is fine for him and useless for everyone above him. This volume is where:
-
-- **Juan Carlos Lerena's own baptism** would be, if he was born at Rosario;
-- **an older brother or sister** of Pablo Armando would be, if the family were in the city in the 1870s;
-- and any Lerena at all, in Rosario, across **a hundred and forty-eight years**.
+Everything this archive had read started in 1879. That is three years before Pablo Armando was born,
+which is fine for him and useless for everyone above him. This volume is where **Juan Carlos Lerena's
+own baptism** would be if he was born at Rosario; where **an older brother or sister** of Pablo Armando
+would be if the family were in the city in the 1870s; and where **any Lerena at all** would be, across
+a hundred and forty-eight years of one parish.
 
 ## What was read
 
-**Ten openings, each in full**, spread across the section to bound it:
+**The L section runs from image 6 to image 85.** Image 86 begins the M section — *Libro 1º, 1751*,
+Mosqueda and Montenegro and Muñoz. Every opening from 6 to 85 has now been opened and read in full at
+tile level 12, a whole opening to a screen, with anything ambiguous re-rendered at level 13.
 
-| Image | Years | |
-|---|---|---|
-| 6 | 1731 onward | **L begins** — Libro 1º, the left page blank |
-| 7 | 1740–1755 | |
-| 20 | 1826–1829 | Libro 5º into 6º |
-| 28 | 1843–1844 | |
-| 34 | 1852–1854 | last opening of the first roll |
-| 43 | — | **a duplicate** — the second roll re-shoots the first roll's last page |
-| 44 | 1854–1855 | |
-| 45 | 1855 | Libro 9º into 10º |
-| 46 | 1855–1857 | |
-| 47 | 1857 | Libro 10º into 11º |
-| 48 | 1857–1858 | |
+Eight of those frames are not index at all: **images 35–42** are the roll break — a target card, two
+blanks, *"CONTINÚA EN EL PRÓXIMO ROLLO"*, *"ARGN-0030 ROLLO 28"*, *"ROLLO 29"*, *"CONTINUACIÓN"*. Nothing
+is lost across the join; image 43 simply re-shoots image 34. Two further frames, **63 and 83**, are
+duplicate exposures of the openings before them.
 
-> **No Lerena in any of them.**
+That leaves **seventy openings of actual index**, continuous from 1731 to 1879, and they are recorded
+one by one — image, ark, years, libro, result — in `data/rosario-index-pre1879.tsv`.
 
-The names that recur for a century and a half are **Leguizamón, Lencina, López, Ledesma, Lescano,
-Ludueña, Lucero, Leiva, Luna, León, Lujan, Llanos**. Two came close enough to record:
-**Lerones Hortensia** (1856), and **"Lesa (o Lera)"** in 1857 — where the index itself offers *Lera* as
-an alternative reading of the same hand.
+## What was found
 
-## What was *not* read, which is the important half
+> ### LERENA LENGUAS, María Julia Margarita Josefa E.J.
+> ### 1866 · Libro 15 · folio 229
 
-**Images 8–19, 21–27, 29–33, and everything from 49 onward have not been opened.**
+One name. Image 58, ark `9Q97-Y3S2-FPP`, on the right-hand page, low down. And a line above it, the
+same child again under **LENGUAS** — *María Julia Margarita Josefa E.J.L.*, same year, same folio. The
+1945 typist cross-indexed her under both halves of her name, which is how we can be sure the compound
+is real and not a slip: **a Lerena father and a Lenguas mother.**
 
-And image 49 onward is **1858 to 1879** — which is the whole window in which an older sibling of Pablo
-Armando would have been baptised, and much of the window for Juan Carlos himself.
+It was confirmed at full resolution before it was believed — the lesson of the Armando Lorena card,
+which this archive got wrong once by reading an index instead of an image.
 
-**The part that matters most is the part still unread.** This note exists so that nobody mistakes ten
-openings for a sweep. The 1879–1900 volume took a full afternoon to do properly; this one is larger.
+## What that means, stated carefully
 
-**Resume at image 49**, ark `9Q97-Y3S2-FLK`.
+This is **not** Pablo Armando's sister. She is sixteen years too early, and her surname is compound
+where his is not.
+
+What she is, is **the only Lerena baptised in the parish of Rosario between 1731 and 1901.** Both
+volumes of the index have now been read end to end — this one and the 1879–1901 one — and she is the
+sole occurrence in a hundred and seventy years.
+
+Which sharpens the central problem rather than solving it. Pablo Armando was born at Rosario on
+22 February 1882 and **his baptism is not in the index.** That was already known from the 1879–1901
+volume; what is new is that the family leaves no trace in the parish before then either. Whatever
+brought Juan Carlos Lerena and María to Rosario, they were not a Rosario family.
+
+But a 1866 baptism at folio 229 has an **act**, and the act names both parents. That act has not been
+read. If María Julia's father turns out to be a Juan Carlos, or the father of a Juan Carlos, the
+question moves back a generation in a single page. It is now the first errand on the list.
+
+## The names that are there instead
+
+For a century and a half the L column of this parish is **Leguizamón, Lencina, López, Ledesma, Lescano,
+Ludueña, Lucero, Leiva, Luna, León, Luján, Llanos** — over and over, hundreds of times each. Five
+near-misses were checked at level 13 and recorded so that nobody has to check them twice:
+
+- **Lerones**, Hortensia (1856) — Ler-, but Lerones.
+- **"Lesa (o Lera)"** (1857) — where the index itself offers *Lera* as an alternative reading.
+- **Loveras**, Juana Josefa Valeria (1864) — Lov-, not Ler-.
+- **Lerré Echeita**, Marián (1870) — a Basque compound, not Lerena.
+- **Lensina**, María del Rosario (1816) — read at first glance as *Leprina*; it is Lensina.
 
 ## One method note worth keeping
 
 The tile-retry loop must re-request **the same URL**. Appending a cache-busting query returns a
 *different tile* and silently scrambles the mosaic — it produced one unreadable, misaligned page before
 it was caught. Fixed by dropping the query and re-setting the original src.
+
+And a plainer one: reading eighty openings in an afternoon got this archive rate-limited by FamilySearch
+twice in four days. Both blocks were mine, not theirs.

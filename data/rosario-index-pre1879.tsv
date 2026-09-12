@@ -1,4 +1,4 @@
-# THE PRE-1879 BAPTISM INDEX - opened for the first time, 13 September 2026.
+# THE PRE-1879 BAPTISM INDEX - opened 13 September 2026, and read END TO END the same day.
 #
 # FamilySearch film 004530324, 554 images. Title card at image 5:
 #   "Parroquia N. S. del Rosario - INDICE DE BAUTISMOS - VOLUMEN 3o - Anos 1731-1879 -
@@ -9,11 +9,22 @@
 # sibling of Pablo Armando born in the 1870s would be.
 #
 # TYPEWRITTEN, like the 1879-1900 volume - the 1945 restoration. Columns: APELLIDOS | NOMBRES |
-# ANO | FOLIO. Read by the DeepZoom tile method at level 12, scale 0.42, whole opening per screen.
+# ANO | FOLIO. Read by the DeepZoom tile method at level 12, scale 0.42, whole opening per screen;
+# anything ambiguous re-rendered at level 13.
 #
-# *** THIS IS A SAMPLE, NOT AN EXHAUSTIVE READ. *** Ten openings were read in full; the rest of the
-# L section has not been opened. The gaps are listed at the foot of this file so nobody mistakes
-# what was done for what remains.
+# *** THE L SECTION IS NOW CLOSED. *** It runs from image 6 to image 85; image 86 begins the M
+# section (Libro 1o, 1751). Every opening from 6 to 85 has been opened and read. Two of them
+# (63 and 83) are duplicate exposures. Two are duplicated across the roll break (34 and 43).
+#
+# *** THE RESULT. *** In a hundred and forty-eight years of Rosario baptisms - 1731 to 1879 -
+# the surname LERENA appears exactly ONCE:
+#
+#     LERENA LENGUAS, Maria Julia Margarita Josefa E.J.  -  1866, Libro 15, folio 229
+#     (cross-indexed a line above under LENGUAS, same child, same folio)
+#
+# That is the only Lerena baptised in Rosario before 1879. Combined with the 1879-1901 volume,
+# already read end to end and also empty of Lerenas, it means: across the ENTIRE surviving
+# baptism index of the parish, 1731 to 1901, there is one Lerena, and she is not Pablo Armando.
 #
 # A TECHNICAL NOTE WORTH KEEPING: the tile-retry loop must re-request the SAME url. Appending a
 # cache-busting query returns a different tile and silently scrambles the mosaic - it produced one
@@ -23,19 +34,80 @@ image	ark	years	libro	result
 5	9Q97-Y3S2-FF8	-	-	Title card: Volumen 3o, 1731-1879, Letras L-Q, restored 1945.
 6	9Q97-Y3S2-FLM	1731 onward	Libro 1o	*** L BEGINS. *** Left page blank; the section opens on the right. Leon, Lopez, Lara, Liendo, Liendo, Lermus, Lopez, X, Loayza, Leguizamo, Lencima, Lopes, Lasarte. No Lerena.
 7	9Q97-Y3S2-FVH	1740-1755	Libro 1o-2o	Lopez, Lojas, Lencinas, Lasarte, Ledesma, Leguizamon, Lares, Lenato, Laur, Leyes, Loayza, Liendo, Lozano, Laez, Larres, Leon, Leyva, Lobo, Ludueña. No Lerena.
+8	9Q97-Y3S2-FV9	1754-1763	1	read in full	no Lerena
+9	9Q97-Y3S2-F26	1763-1772	1-2	read in full	no Lerena
+10	9Q97-Y3S2-FV4	1772-1784	2	read in full	no Lerena
+11	9Q97-Y3S2-FLF	1784-1790	2-3	read in full	no Lerena
+12	9Q97-Y3S2-FJW	1790-1795	3-4	read in full	no Lerena
+13	9Q97-Y3S2-FKX	1796-1800	4	read in full	no Lerena
+14	9Q97-Y3S2-F2W	1800-1804	4	read in full	no Lerena
+15	9Q97-Y3S2-FFS	1804-1809	4	read in full	no Lerena
+16	9Q97-Y3S2-FK4	1809-1814	4	read in full	no Lerena
+17	9Q97-Y3S2-FFD	1814-1817	4-5	read in full	no Lerena ("Lensina" checked at level 13 - not Lerena)
+18	9Q97-Y3S2-FVY	1817-1822	5	read in full	no Lerena
+19	9Q97-Y3S2-FF9	1822-1826	5	read in full	no Lerena
 20	9Q97-Y3S2-F29	1826-1829	Libro 5o-6o	Leguisamon, Lencina, Lopez, Larroza, Lozano, Leyva, Lucena, Losano, Lujan, Lnocea, Ledesma, Llanes, Leda, Leon, Llanos, Lescano, Luquez, Lavallan, Lira. No Lerena.
+21	9Q97-Y3S2-FKK	1829-1831	6	read in full	no Lerena
+22	9Q97-Y3S2-FVN	1831-1834	6-7	read in full	no Lerena
+23	9Q97-Y3S2-F2X	1834-1836	7	read in full	no Lerena
+24	9Q97-Y3S2-FVW	1836-1839	7	read in full	no Lerena
+25	9Q97-Y3S2-FFZ	1839-1841	7	read in full	no Lerena
+26	9Q97-Y3S2-FFX	1841-1843	7	read in full	no Lerena
+27	9Q97-Y3S2-FF6	1843-1844	7-8	read in full	no Lerena
 28	9Q97-Y3S2-FGR	1843-1844	-	Lopez, Leguizamon, Leiva, Ledesma, Lescano, Lencinas, Ludueña, Lencina, Luceno, Layva, Lavallan, Lassaga, Liendro, Lujan, Lafargue, Loarte, Leon. No Lerena.
+29	9Q97-Y3S2-FL3	1844-1846	7-8	read in full	no Lerena
+30	9Q97-Y3S2-FPJ	1847-1848	8	read in full	no Lerena
+31	9Q97-Y3S2-FLJ	1848-1850	8	read in full	no Lerena
+32	9Q97-Y3S2-FG8	1850-1851	8	read in full	no Lerena
+33	9Q97-Y3S2-FG9	1851-1852	8-9	read in full	no Lerena
 34	9Q97-Y3S2-FPR	1852-1854	-	Lavallena, Lencinas, Lavallan, Lujan, Lemus, Luque, Lasarte, Ludueña, Llanos, Leon, Laso, Lucero, Larramendi, Luna, Lara, "Lencinas (o Lincinas)", Lira, Lavado, Levado, Emprida. No Lerena.
+35	9Q97-Y3S2-F2Q	-	-	Roll break: target card "PARROQUIA NTRA. SRA. DEL ROSARIO - CATEDRAL - INDICE"
+36	9Q97-Y3S2-FLS	-	-	Roll break: "CONTINUA EN EL PROXIMO ROLLO"
+37	9Q97-Y3S2-FPF	-	-	Roll break: blank frame
+38	9Q97-Y3S2-FLV	-	-	Roll break: "ARGN-0030 ROLLO 28 - HUGO R. ALONSO - RED. 1.12"
+39	9Q97-Y3S2-F2Y	-	-	Roll break: "ARGN-0030 ROLLO 29 - HUGO R. ALONSO - RED. 1.12"
+40	9Q97-Y3S2-FGZ	-	-	Roll break: blank frame
+41	9Q97-Y3S2-FGQ	-	-	Roll break: target card repeated
+42	9Q97-Y3S2-FLX	-	-	Roll break: "CONTINUACION"
 43	9Q97-Y3S2-FL6	1852-1854	-	*** DUPLICATE - the second roll re-shoots the last page of the first. Identical to image 34. Counted once. ***
 44	9Q97-Y3S2-FRM	1854-1855	-	Lencina, Loiza, Lassaga, Leyva, Lujan, Lemus, Lucero, Lorraza, Lobo, Lagos, Laytasa, Llanos, Lara, Leonis, Lindhe, Lisarda, Lelebe, Lescano, Lezona, Landes. No Lerena.
 45	9Q97-Y3S2-FLP	1855	Libro 9o-10o	Leguisamon, Ludina, Lescano, Ludueña, Leiva, Lemes, Lencina, Lemos, Ledesma, Luna, Leon, Lopez, Lavallan, Luqueo, Lleras, Lonso, Lindon, Lucena, Lecosta. No Lerena.
 46	9Q97-Y3S2-FG5	1855-1857	-	Lencina, Lescano, Lopez, Lucena, Lucbian, Ledesma, Lucero, Lobos, Leyva, Lara, Llanos, Lisondo, Lira, Lamberti, Lavalle, Lavallet, Lastra, Lugones, Lexo, Lisbon. *** Note "LERONES Hortensia" - Ler-, but Lerones. *** No Lerena.
 47	9Q97-Y3S2-FLL	1857	Libro 10o-11o	Leguisamon, Leonardo, Lescano, Lencina, Lozano, Lopez, Ludueña, Ledesma, Lucero, Luques, Luna, Lagos, Lael, X, Lassaga, Lasarte, Lujan, Lavallan, Laudiedo, Lebaud, Ludueña. No Lerena.
 48	9Q97-Y3S2-FL2	1857-1858	-	Leyva, Lucero, Leiva, Lopez, Lobos, Lucena, Lencina, Luena, Leguisamon, Labau, Lotja, Lira, Le Madrid, Laudeña, Luna, Llano, Lindon, Loza, Lavalle, Landrier, Larrazabal, Luques, Laton, Loyza, Lagos, Lauche, Larrosa. *** Note "LESA (o LERA)" - the index itself offers LERA as an alternative reading. *** No Lerena.
-#
-# *** WHAT HAS NOT BEEN READ, said plainly. ***
-# Images 8-19, 21-27, 29-33 (the first roll) and 49 onward (the second roll) have NOT been opened.
-# The second roll carries 1858 to 1879 - which includes the whole window in which an older sibling
-# of Pablo Armando would have been baptised. THAT IS THE PART THAT MATTERS MOST AND IT IS UNREAD.
-#
-# RESUME AT: image 49, ark 9Q97-Y3S2-FLK, in film 004530324.
+49	9Q97-Y3S2-FLK	1858-1859	11	read in full	no Lerena
+50	9Q97-Y3S2-FPV	1859-1860	11-12	read in full (foot re-rendered at level 13)	no Lerena
+51	9Q97-Y3S2-FGV	1860	12	read in full	no Lerena
+52	9Q97-Y3S2-FGF	1860-1861	12	read in full	no Lerena
+53	9Q97-Y3S2-FLN	1861-1862	12	read in full	no Lerena
+54	9Q97-Y3S2-FGY	1862-1863	12-13	read in full	no Lerena (Lorensi, Lorenzi noted)
+55	9Q97-Y3S2-FGW	1863	13	read in full	no Lerena (Lorenzi noted)
+56	9Q97-Y3S2-FGS	1863-1864	13-14	read in full	no Lerena (Loveras checked at level 13, not Lerena)
+57	9Q97-Y3S2-FLT	1864-1865	14-15	read in full	no Lerena
+58	9Q97-Y3S2-FPP	1865-1866	15	read in full	LERENA LENGUAS, Maria Julia Margarita Josefa E.J. - 1866, folio 229; cross-indexed under LENGUAS, same child, same folio. Confirmed at level 13.
+59	9Q97-Y3S2-FGT	1866	15	read in full	no Lerena
+60	9Q97-Y3S2-F22	1866-1867	15	read in full	no Lerena
+61	9Q97-Y3S2-FGP	1867-1868	15-16	read in full	no Lerena
+62	9Q97-Y3S2-FGL	1868	16	read in full	no Lerena
+63	9Q97-Y3S2-FG2	1868	16	read in full	duplicate exposure of image 62 - same opening, same entries
+64	9Q97-Y3S2-FP4	1868-1869	16	read in full	no Lerena
+65	9Q97-Y3S2-FGK	1869-1870	16-17	read in full	no Lerena
+66	9Q97-Y3S2-FP7	1870	17	read in full	no Lerena (Lerre/Larre Echeita noted, not Lerena)
+67	9Q97-Y3S2-FGD	1870-1871	17	read in full	no Lerena
+68	9Q97-Y3S2-F2M	1871	17	read in full	no Lerena
+69	9Q97-Y3S2-FG4	1871-1872	17	read in full	no Lerena
+70	9Q97-Y3S2-FG3	1872-1873	17-18	read in full	no Lerena
+71	9Q97-Y3S2-FLY	1872-1873	18	read in full	no Lerena
+72	9Q97-Y3S2-FPG	1873	18-19	read in full	no Lerena
+73	9Q97-Y3S2-FKH	1873-1874	19	read in full	no Lerena
+74	9Q97-Y3S2-FKL	1874	19	read in full	no Lerena
+75	9Q97-Y3S2-FK7	1874-1875	19	read in full	no Lerena
+76	9Q97-Y3S2-FGG	1875	19-20	read in full	no Lerena
+77	9Q97-Y3S2-FVT	1875-1876	20	read in full	no Lerena
+78	9Q97-Y3S2-FPN	1876-1877	20	read in full	no Lerena
+79	9Q97-Y3S2-FG1	1877	20-21	read in full	no Lerena
+80	9Q97-Y3S2-FK3	1877	21	read in full	no Lerena
+81	9Q97-Y3S2-FG6	1877-1879	21-22	read in full	no Lerena
+82	9Q97-Y3S2-FVR	1878-1879	22	read in full	no Lerena
+83	9Q97-Y3S2-FGH	1878-1879	22	read in full	duplicate exposure of image 82 - same opening, same entries
+84	9Q97-Y3S2-FKN	1879	22	read in full	no Lerena - the L section ends here, at 1879

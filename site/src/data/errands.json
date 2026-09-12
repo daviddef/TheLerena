@@ -61,5 +61,12 @@
   "status": "waiting-on-david",
   "detail": "Five of eight are legible. If a Ligurian or Italian group is among the last three, the Italian hypothesis changes again. One scroll.",
   "sent_on": "-"
+ },
+ {
+  "what": "Read the baptism act: Rosario, Libro 15, folio 229 (1866)",
+  "who": "me",
+  "status": "ready",
+  "detail": "The act for Maria Julia Margarita Josefa LERENA Lenguas - the only Lerena in the Rosario baptism index, 1731-1901. The act names her father and mother. If her father is Juan Carlos Lerena, or Juan Carlos's own father, the parentage question moves back a generation. Blocked only by a FamilySearch rate-limit as of 13 Sep 2026.",
+  "sent_on": "2026-09-13"
  }
 ]

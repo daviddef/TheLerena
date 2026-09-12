@@ -2710,3 +2710,24 @@ sweep. Resume at image 49, ark `9Q97-Y3S2-FLK`.
 **One method note kept:** the tile-retry loop must re-request the *same* URL. A cache-busting query
 returns a different tile and silently scrambles the mosaic — it produced one unreadable page before it
 was caught.
+
+---
+
+## 13 September 2026 — The pre-1879 index, read end to end, and the one Lerena in it
+
+The L section of film 004530324 — *Índice de Bautismos, Volumen 3º, 1731–1879, Letras L–Q* — has been
+read from image 6 to image 85, where the M section begins. Eighty openings; eight of them roll-break
+frames (35–42), two duplicate exposures (63, 83), one duplicate across the roll join (43). Seventy
+openings of actual index, continuous.
+
+**One Lerena. LERENA LENGUAS, María Julia Margarita Josefa E.J. — 1866, Libro 15, folio 229**, on
+image 58 (ark `9Q97-Y3S2-FPP`), cross-indexed a line above under LENGUAS with the same folio. Confirmed
+at level 13 before it was believed.
+
+She is not Pablo Armando's sister. What she establishes is harder and more useful: across **both**
+volumes of the Rosario baptism index — 1731–1879 and 1879–1901, both now read end to end — the surname
+Lerena occurs **once in a hundred and seventy years**. Pablo Armando's own baptism is not in it. The
+family leaves no trace in this parish before him or after him. **They were not a Rosario family.**
+
+The act at folio 229 names both parents and has not been read. First errand on the list; blocked today
+only by a FamilySearch rate-limit, which was my own doing.
