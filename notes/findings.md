@@ -2767,3 +2767,25 @@ house from opposite ends. Still no link to Juan Carlos Lerena. But it is a much 
 Also noticed, retrospectively: a findmypast index row copied down on 9 September — *Emma Liseta, 1876,
 father Luis, mother Julia*, Uruguay — is the same couple, a younger sister of the 1866 child. The
 evidence was already on the shelf with no shape to sit in.
+
+### The Uruguayan base rate, and one new Armando
+
+The enrolment drawer "Cajón 985 (Lera)" was read on 10 September to confirm no card but Pablo Armando's
+names a Juan Carlos and a María. It still doesn't — but the **fathers** on those cards were never
+followed up. Done now, and four of them trace:
+
+- **Gilberto Lerena** × Julia Salvanach — Montevideo, 1855.
+- **Alejandro M. Lerena** × Julia Bassani — Uruguay, 1839; a son born Montevideo, 1886.
+- **Arturo Lerena** × Amalia Díaz — Montevideo, 1858; son of Avelino Lerena and Ambrosia Traibel.
+- **Nemesio Ramón Lerena** × Laura Escobite — married Salto, Uruguay, 1903; then Concordia, Entre Ríos.
+
+Four branches, four provinces of settlement, one origin across the river. **A base rate, not a link.**
+
+And the negative: **no Juan Carlos Lerena** born in Uruguay 1830–1870 in the Catholic Church Records,
+the Civil Registration, or the Baptisms index; and no Lerena groom marrying a María there 1865–1885.
+
+One new person: **Armando Lerena**, 26, married, entry 28 on a Buenos Aires → Montevideo crossing of
+early 1910, nationality written in the manifest as ***Oriental***. Read from the image. Not Pablo
+Armando — wrong nationality, two years out, and Pablo Armando was at the Cape and unmarried until
+September 1911 — but the only other Armando Lerena in the River Plate, and the shape a brother or
+cousin would have. Unplaced.

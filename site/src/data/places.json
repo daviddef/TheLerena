@@ -187,6 +187,15 @@
   "count": 2
  },
  {
+  "slug": "buenos-aires-montevideo",
+  "name": "Buenos Aires / Montevideo",
+  "people": [
+   "rosa-maria-eppens",
+   "armando-lerena"
+  ],
+  "count": 2
+ },
+ {
   "slug": "cape-town-johannesburg",
   "name": "Cape Town / Johannesburg",
   "people": [
@@ -273,14 +282,6 @@
   "name": "Retiro, Buenos Aires",
   "people": [
    "carlos-lerena-2"
-  ],
-  "count": 1
- },
- {
-  "slug": "buenos-aires-montevideo",
-  "name": "Buenos Aires / Montevideo",
-  "people": [
-   "rosa-maria-eppens"
   ],
   "count": 1
  },
