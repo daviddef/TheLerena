@@ -3,6 +3,16 @@
   "date": "2026-09-13",
   "commits": [
    {
+    "sha": "210351a",
+    "subject": "Rewrite the roadmap, which still thought his parents were unknown",
+    "body": "The roadmap was the most out-of-date page in the archive. It opened with \"Who\nwere Pablo Armando Lerena's parents? ... above him there is nothing at all\", and\nroute 1 was headed \"needs an email\" - all of which stopped being true on 10\nSeptember, when the 1908 army enrolment card was finally opened and named Juan\nCarlos Lerena and Maria Lerena. Three days of findings had gone in around it\nwithout anyone going back to the page that tells a reader what to do next.\nRewritten around the state as it actually is:\n- The question that started it, and its answer, including the fact that the\n  answering document was written off for a month on objections that turned out\n  to be machine-index artefacts.\n- The question that replaced it: who were Juan Carlos and Maria, and where did\n  they come from - with the three full-index negatives set out as three panels,\n  because together they say something a single negative does not. A household\n  that lives in a parish leaves baptisms; this one leaves nothing.\n- The answer that now leads: they were not a Rosario family, and the one Lerena\n  in that parish in a hundred and seventy years was Uruguayan.\n- Seven routes reranked. Montevideo is now route 1. Rosario is route 7 and\n  marked closed - do not reopen without a new reason. The two letters that are\n  out are marked as out and waited on rather than as things to do.\nAlso updated open question 1 with the sharper version of the missing baptism,\nand added the one thing a stranger could most usefully tell this archive: does\nanyone hold a Uruguayan Lerena line with a Juan Carlos born in the 1840s or\n1850s, married to a Maria.\n185 pages, 0 broken links."
+   },
+   {
+    "sha": "fb0fa9f",
+    "subject": "Rebuild the changelog",
+    "body": ""
+   },
+   {
     "sha": "365617e",
     "subject": "The horses page had guessed it five days early",
     "body": "On 8 September the horses page said, of Gilberto Justiniano Lerena Lenguas:\n  \"Lerena Lenguas is a River Plate double surname and Lenguas is Uruguayan -\n   consistent with the name's Uruguayan density and with Stud Oriental,\n   oriental being the ordinary Argentine word for Uruguayan.\"\nThat was an inference from two words on a Wikipedia page. Five days later the\nRosario baptism act said it outright: Don Luis Lerena Lenguas and Dona Julia\nJuanico, naturales del E. Oriental. And published Uruguayan genealogy makes that\nLuis a brother of Gilberto, both sons of Luis Lerena y Fernandez (1811-1878) and\nJustiniana Lenguas Gonzalez of Montevideo - with the child at folio 229 carrying\nJustiniana as her fifth given name, for that grandmother.\nSo the block is added where the guess was made, rather than quietly editing the\nguess into a fact. It still claims no relationship to Pablo Armando, and it still\nmarks the Montevideo generations SECONDARY."
