@@ -2809,3 +2809,27 @@ Lerena of drawer Cajón 985 was born Montevideo 1858, son of Avelino Lerena and 
 conflated two men: the record's spouse is *Ema Regules*, who married **Juan Arturo** Lerena Traibel
 (1861–1936), children born Montevideo 1881–87; the drawer's Arturo married **Amalia Díaz**, children
 born La Pampa, Mendoza and Entre Ríos 1889–97. The row is withdrawn and "four branches" is now three.
+
+### She went home — and a name coincidence defused
+
+FamilySearch full-text (which does **not** cover Santa Fe but **does** cover Montevideo) returned a
+marriage register for the phrase "María Lerena". The image was opened. **San Francisco de Asís, Ciudad
+Vieja, Montevideo, folio 364, act 1879:** on **3 November 1886**, *Don Jaime Herrera*, son of *el Doctor
+Don Nicolás* and *Doña Adela Crucet*, married *Doña María Lerena*, **hija legítima de Don Luis Lerena y
+de Doña Julia Juanicó**.
+
+**She is the child of folio 229** — born Rosario 8 Oct 1865, baptised there 17 Feb 1866, twenty-one at
+her marriage. The parents match by name in a second, independent, primary act, in another country,
+twenty years later. That lifts the Rosario couple from *one act plus user-submitted genealogy* to **two
+primary acts**.
+
+Witnesses: the groom's father and the **bride's mother**. Luis Lerena is absent from his daughter's
+wedding; he may have been dead by 1886 — inference, not the act.
+
+**The trap, recorded before anyone falls in it:** Pablo Armando's mother is *María Lerena*. This is a
+**different** María Lerena — she married in November 1886, four years after he was born, and was sixteen
+in February 1882. She cannot be his mother.
+
+Also searched and negative: full-text for **"Juan Carlos Lerena"** returns exactly two hits in the whole
+corpus (a 1922 Montevideo marriage dispensation for *Juan Carlos González Lerena*, and a 2001 death) —
+neither ours. Full-text for **"Armando Lerena"** returns two, both Colombian.

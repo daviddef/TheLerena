@@ -92,12 +92,11 @@
    "maria-lorena",
    "maria-lerena",
    "juan-carlos-lerena",
-   "maria-julia-margarita-josefa-emirena-justiniana-lerena-lenguas",
    "don-luis-lerena-lenguas",
    "dona-julia-juanico",
    "don-luis-lerena-probably-luis-lerena-y-fernandez"
   ],
-  "count": 17
+  "count": 16
  },
  {
   "slug": "gualeguaychu-entre-rios",
@@ -322,6 +321,22 @@
   "name": "Braamfontein, Johannesburg",
   "people": [
    "rhena-may-lerena"
+  ],
+  "count": 1
+ },
+ {
+  "slug": "rosario-then-montevideo",
+  "name": "Rosario, then Montevideo",
+  "people": [
+   "maria-julia-margarita-josefa-emirena-justiniana-lerena-lenguas"
+  ],
+  "count": 1
+ },
+ {
+  "slug": "montevideo",
+  "name": "Montevideo",
+  "people": [
+   "don-jaime-herrera"
   ],
   "count": 1
  }

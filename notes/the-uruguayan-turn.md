@@ -150,3 +150,41 @@ row marked PRIMARY or SECONDARY, and the SECONDARY ones are not to be cited as f
 **And none of it is a link to Pablo Armando Lerena.** No document places Juan Carlos Lerena in this
 family, or in Uruguay at all. What has changed is where to look next, and that is worth a great deal
 more than another afternoon spent looking where the records have already said no.
+
+---
+
+## Postscript, the same night: she went home
+
+FamilySearch's **full-text search** — which reads handwriting across un-indexed images, and which does
+*not* cover Santa Fe but *does* cover Montevideo — was given the phrase **"María Lerena"**. Among the
+hits: *San Francisco de Asís, Ciudad Vieja, Montevideo. Religious Marriage Records 1875–1893.*
+
+The image was opened rather than trusted. **Folio 364, act 1879:**
+
+> *Los tres de Noviembre de mil ochocientos ochenta y seis … autoricé … el matrimonio que por palabras
+> de presente contrajo **Don Jaime Herrera**, soltero, hijo legítimo del **Doctor Don Nicolás** y de
+> **Doña Adela Crucet**, con **Doña María Lerena**, soltera, hija legítima de **Don Luis Lerena** y de
+> **Doña Julia Juanicó**. Fueron [testigos] el padre del contrayente y la madre de la contrayente.*
+
+**She is the child of folio 229.** Born at Rosario on 8 October 1865, baptised there on 17 February
+1866, daughter of Luis Lerena Lenguas and Julia Juanicó — and twenty-one years old, in Montevideo, on
+3 November 1886. The parents match by name in a **second, independent, primary act, in a different
+country, twenty years later.**
+
+That matters beyond the pleasure of it. It lifts the Rosario couple from *one act plus user-submitted
+genealogy* to **two primary acts**. Luis Lerena and Julia Juanicó were a real Montevideo couple; their
+daughter was born on the Argentine bank and married on the Uruguayan one.
+
+One detail worth keeping: the witnesses are **the groom's father and the bride's mother**. Luis Lerena
+does not appear at his own daughter's wedding. He may have been dead by 1886 — the act does not say so,
+and that is inference, marked as such.
+
+### And the trap, said out loud
+
+Pablo Armando Lerena's mother is named on his 1908 enrolment card as **María Lerena**. **This is a
+different María Lerena.** She married Jaime Herrera in November 1886, *four years after* Pablo Armando
+was born, and she was **sixteen** in February 1882. She cannot be his mother.
+
+The coincidence is exactly the kind this archive has been caught by before — a rare surname, a common
+forename, and a strong wish for the pieces to fit. It is written down here so that nobody is caught by
+it later.
