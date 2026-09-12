@@ -92,3 +92,61 @@ Argentine-side hypothesis and the Uruguayan-side hypothesis are, genetically, th
 
 *Mara de Carlos*, the godmother's surname, is not securely read. Everything else on the page is. Where
 this note makes a claim it is because the words are legible at level 13, not because they fit.
+
+---
+
+## The same evening: the two routes meet
+
+The act named the father **Luis Lerena Lenguas** and the godfather, by proxy, **Don Luis Lerena**. That
+pair of names is enough to find the household in published Uruguayan genealogy — and what it produces is
+a family this archive had **already been circling from the other direction for four days**.
+
+**Luis Lerena y Fernández (1811–1878)** married, as his second wife, **Justiniana Lenguas González**,
+daughter of **Gen. Pedro Lenguas Grandal**. Their children carry the compound: *Lerena Lenguas*. He had
+been widowed of **Carolina Oribe Ladrón de Guevara** — the Oribes of Manuel Oribe, President of Uruguay.
+This is the Montevideo patriciate.
+
+Two things follow at once.
+
+**The proxy godfather has a name.** *Don Luis Lerena*, standing at Rosario in February 1866 through Don
+Claudino Campos, is almost certainly **Luis Lerena y Fernández**, the child's paternal grandfather, who
+was in Montevideo. And the child's fifth given name is **Justiniana** — for her grandmother, Justiniana
+Lenguas González. The act and the genealogy are describing one family; neither was written with the
+other in view.
+
+**And one of his sons is already in this archive.** **Gilberto Justiniano Lerena Lenguas**, born
+Montevideo 24 May 1855, died 8 December 1912 — **co-founder of the Argentine Stud Book**, breeder of the
+Quadruple Crown winner *Old Man*, the man for whom a Group 1 at Palermo was **renamed in 1914**. He has
+been sitting in this register since the 1895 Buenos Aires census as *UNPLACED — HIGH INTEREST*, for a
+reason that had nothing to do with Uruguay:
+
+> *A Lerena at the centre of Argentine thoroughbred breeding, in the right country at the right time.*
+
+**Pablo Armando Lerena was a racehorse trainer and owner.** That was always the loudest coincidence in
+this file, and it was set aside as a coincidence because nothing connected the two men. It is still not
+connected. But the two routes — *the parish register of Rosario* and *the turf of Buenos Aires* — now
+arrive at the same Montevideo house, from opposite ends, by methods that share no assumption.
+
+There is a third small convergence, and it is the kind that is worth more than it looks. On 9 September
+this archive copied down a row from findmypast's index of *Uruguay Baptisms 1750–1900*:
+
+> **Emma Liseta**, 1876, father *Luis*, mother *Julia*, place not stated.
+
+It was recorded because it had the surname, and nothing more was made of it. It is the same couple —
+Luis Lerena Lenguas and Julia Juanicó — and a younger sister of the child at folio 229. The evidence was
+already on the shelf; it just had no shape to sit in.
+
+## How much of this is proved
+
+**The act is primary and was read at full resolution.** Everything in it — the names, the parentage, the
+Uruguayan origin, the proxy — stands.
+
+**Everything about the Montevideo generations above is secondary**: Geneanet, Geni, and a genealogical
+blog. None of them cites a source that can be checked from here. They agree with each other, and they
+agree with a document they were not written from, which is the best that can be said for them until the
+Montevideo registers are opened. They are recorded in `data/montevideo-lerena-lenguas.tsv` with every
+row marked PRIMARY or SECONDARY, and the SECONDARY ones are not to be cited as fact.
+
+**And none of it is a link to Pablo Armando Lerena.** No document places Juan Carlos Lerena in this
+family, or in Uruguay at all. What has changed is where to look next, and that is worth a great deal
+more than another afternoon spent looking where the records have already said no.

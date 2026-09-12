@@ -2748,3 +2748,22 @@ The only Lerena in a hundred and seventy years of the Rosario parish index was a
 through. That is a lead, not a link: no relation to Juan Carlos Lerena has been shown. But it makes
 sense of four negatives at once, and it points the next search at **Montevideo**. Written up in
 `notes/the-uruguayan-turn.md`; now hypothesis 1c.
+
+### And the two routes meet
+
+The act names **Luis Lerena Lenguas** as father and **Don Luis Lerena** as proxy godfather. Published
+Uruguayan genealogy (secondary — Geneanet, Geni, a genealogical blog) gives **Luis Lerena y Fernández
+(1811–1878)**, widower of Carolina **Oribe**, second husband of **Justiniana Lenguas González**, daughter
+of Gen. Pedro Lenguas. Their children carry the compound *Lerena Lenguas*. The child at folio 229 is
+named **Justiniana** fifth — for that grandmother.
+
+And one of those children is **Gilberto Justiniano Lerena Lenguas** (Montevideo 1855 – 1912),
+**co-founder of the Argentine Stud Book**, who has been in this register since the 1895 Buenos Aires
+census marked *high interest* because **Pablo Armando trained and owned racehorses**.
+
+Two routes — the parish register of Rosario and the turf of Buenos Aires — now reach the same Montevideo
+house from opposite ends. Still no link to Juan Carlos Lerena. But it is a much better place to look.
+
+Also noticed, retrospectively: a findmypast index row copied down on 9 September — *Emma Liseta, 1876,
+father Luis, mother Julia*, Uruguay — is the same couple, a younger sister of the 1866 child. The
+evidence was already on the shelf with no shape to sit in.
