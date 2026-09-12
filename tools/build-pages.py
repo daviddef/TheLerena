@@ -21,7 +21,7 @@ def rows(name):
         out.append(dict(zip(hdr, cells)))
     return out
 
-for name in ("corrections", "errands", "gaps", "timeline"):
+for name in ("corrections", "errands", "gaps", "timeline", "photograph-these"):
     data = rows(name)
     (OUT / f"{name}.json").write_text(json.dumps(data, indent=1, ensure_ascii=False) + "\n",
                                       encoding="utf-8")
@@ -52,6 +52,8 @@ for r in rows("errands"):
     idx.append({"t": r["what"], "k": "errand", "u": "/errands/", "d": r["who"], "s": r["status"]})
 for r in rows("gaps"):
     idx.append({"t": r["gap"], "k": "gap", "u": "/gaps/", "d": r["why_it_may_never_close"][:180], "s": ""})
+for r in rows("photograph-these"):
+    idx.append({"t": r["what"], "k": "photograph", "u": "/photograph-these/", "d": r["where"], "s": ""})
 
 PAGES = [
     ("The line", "/direct-line/", "The descent, generation by generation, with a record behind every step"),

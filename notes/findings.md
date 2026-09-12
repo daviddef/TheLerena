@@ -2648,3 +2648,37 @@ implies could not have been used on him.
 positively, and that request still needs David to register with a passport.
 
 *One down of four: the Army, the Cancillería and the Western Cape Archives are still out.*
+
+## 13 September — the only grave
+
+FamilySearch had signed us out, so the afternoon went to the untried non-FamilySearch sources. The third
+produced **the first physical trace of this family found anywhere**.
+
+A **grave kerb** at **Maitland, Woltemade Cemetery, Cape Town** — poured concrete edging, not a headstone
+— with one word cut into its face: **LERENA**. No forename, no dates, no epitaph. Above it, bare earth
+and grass. Photographed by **Heather MacAlister**, published through the **eGGSA Gravestone Photograph
+Library**, album *"Le"*, image 85 of 127, page dated 5 May 2021.
+
+**Maitland Woltemade is where both of them are buried** — Mary Septima, grave **7719A**, November 1935;
+Pablo Armando, *"Maitland Cemetery no 1"*, March 1950. And it is the **only Lerena grave in the whole
+Western Cape collection**. Variants checked the same afternoon: **LERIN** (catching Lerina and Lerini)
+returns nothing; *Lerena* as a substring covers *Llerena* with no separate hit; **LAREN** returns 39, all
+Clarence and its like.
+
+**It cannot be assigned to a person**, and is not. A surname on a kerb with no dates is equally
+consistent with her grave, his, or a family plot holding both. The grave number would settle it in a
+minute, and the municipal cemetery office holds the Woltemade register.
+
+**One small thing it does say: the stone reads LERENA** — which runs, lightly, against the hypothesis
+raised from the DNA that the name might be nearer *Lerina*. Not decisive; a kerb may postdate a burial
+and a mason cuts what he is given. But it is evidence, and it points the other way.
+
+**The photograph is not reproduced on the site.** eGGSA's terms allow fair personal use with credit and
+forbid replication into another website database, so the archive records the facts — not copyrightable —
+links to the image, and names the photographer.
+
+**It is now the first entry on a new `/photograph-these/` page**, because the kerb alone is not enough:
+what is wanted is the whole plot, the section and row markers, and a wide shot.
+
+*Also checked: no replies yet from the Army, the Cancillería or the Western Cape Archives. Three days is
+nothing for an archive.*

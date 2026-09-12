@@ -1,0 +1,36 @@
+---
+import Base from "../layouts/Base.astro";
+import Rule from "../components/Rule.astro";
+import { u } from "../lib/url.js";
+import rows from "../data/photograph-these.json";
+---
+<Base title="Photograph these"
+      eyebrow={`${rows.length} places · all of them in Cape Town`}
+      dek="Everything this archive would like a picture of, and cannot take itself. Each says what the photograph would settle, and what to capture — because a photograph of the wrong part of a thing is a wasted trip.">
+
+<section class="blk">
+  <div class="prose">
+    <p>All six are within half an hour of each other. <strong>Someone with a morning and a camera could
+      close the first two.</strong></p>
+  </div>
+</section>
+
+<Rule name="star" label="In order of what the picture would settle" />
+
+<section class="blk">
+  {rows.map(r => (
+    <div class="panel" style={`margin-top:20px;${r.priority === "1" ? "border-left:3px solid var(--accent)" : ""}`}>
+      <div class="lab">{r.priority} &middot; {r.where}</div>
+      <p style="margin:10px 0 0;font-size:1.08rem"><strong>{r.what}</strong></p>
+      <p style="margin:12px 0 0">{r.why_it_matters}</p>
+      <p class="cap" style="margin:12px 0 0"><strong>What to capture:</strong> {r.what_to_capture}</p>
+    </div>
+  ))}
+</section>
+
+<section class="blk">
+  <div class="note"><strong>The first one already has a photograph, and it is not enough.</strong> A
+    stranger photographed that kerb in 2021 and published it through eGGSA; it shows the surname and no
+    more. <a href={u("/south-africa/")}>What the cemetery records say &rarr;</a></div>
+</section>
+</Base>
