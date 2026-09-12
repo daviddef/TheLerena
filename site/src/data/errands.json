@@ -65,8 +65,22 @@
  {
   "what": "Read the baptism act: Rosario, Libro 15, folio 229 (1866)",
   "who": "me",
+  "status": "done",
+  "detail": "DONE the same day. Act 1541, image ark 3:1:S3HT-XS9C-ZL. The parents are Don Luis Lerena Lenguas and Dona Julia Juanico, \"naturales del E. Oriental\" - both Uruguayan. See notes/the-uruguayan-turn.md.",
+  "sent_on": "2026-09-13"
+ },
+ {
+  "what": "Search the Montevideo parish registers for Juan Carlos Lerena",
+  "who": "me",
   "status": "ready",
-  "detail": "The act for Maria Julia Margarita Josefa LERENA Lenguas - the only Lerena in the Rosario baptism index, 1731-1901. The act names her father and mother. If her father is Juan Carlos Lerena, or Juan Carlos's own father, the parentage question moves back a generation. Blocked only by a FamilySearch rate-limit as of 13 Sep 2026.",
+  "detail": "\"Uruguay, Registros Parroquiales, 1750-1930\" on FamilySearch. A baptism in the 1840s-1850s and a marriage to a Maria before 1882. Opened by the 1866 Rosario act, which says the only Lerena in that parish was a native of the Estado Oriental.",
+  "sent_on": "2026-09-13"
+ },
+ {
+  "what": "Find Luis Lerena Lenguas and Julia Juanico in Montevideo",
+  "who": "me",
+  "status": "ready",
+  "detail": "Their marriage, and his own baptism. If his father is the Don Luis Lerena who stood godfather by proxy in 1866, that is two generations from one act.",
   "sent_on": "2026-09-13"
  }
 ]

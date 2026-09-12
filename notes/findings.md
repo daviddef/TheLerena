@@ -2731,3 +2731,20 @@ family leaves no trace in this parish before him or after him. **They were not a
 
 The act at folio 229 names both parents and has not been read. First errand on the list; blocked today
 only by a FamilySearch rate-limit, which was my own doing.
+
+### The same afternoon: the act behind that one index entry
+
+Rosario, *Bautismos 1865–1867*, image 124 of 311, folio 229, act 1541 (ark `3:1:S3HT-XS9C-ZL`). Born
+8 October 1865, baptised 17 February 1866.
+
+> *Es hija legítima de Don **Luis Lerena Lenguas** y de Doña **Julia Juanicó**, **naturales del E.
+> Oriental**; fueron padrinos Don Luis Lerena, **representado por** don Claudino Campos y Doña Margarita
+> Mara de Carlos.*
+
+**Both parents are Uruguayan.** Lerena Lenguas and Juanicó are Montevideo names. The godfather —
+another Don Luis Lerena — stood **by proxy**, which is what one does from the other side of the river.
+
+The only Lerena in a hundred and seventy years of the Rosario parish index was a Uruguayan passing
+through. That is a lead, not a link: no relation to Juan Carlos Lerena has been shown. But it makes
+sense of four negatives at once, and it points the next search at **Montevideo**. Written up in
+`notes/the-uruguayan-turn.md`; now hypothesis 1c.

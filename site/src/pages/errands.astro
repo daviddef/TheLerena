@@ -5,15 +5,16 @@ import { u } from "../lib/url.js";
 import rows from "../data/errands.json";
 const LABEL = { sent: ["inf", "Sent, awaiting reply"], replied: ["doc", "Answered"],
                 "waiting-on-david": ["lore", "Needs a person"],
-                ready: ["inf", "Written, not sent"], blocked: ["", "Blocked"] };
+                ready: ["inf", "Written, not sent"], done: ["doc", "Done"], blocked: ["", "Blocked"] };
 const groups = [
   ["Answered", rows.filter(r => r.status === "replied")],
   ["Out, and waiting on a reply", rows.filter(r => r.status === "sent")],
-  ["Waiting on a person, not a machine", rows.filter(r => !["sent", "replied"].includes(r.status))],
+  ["Waiting on a person, not a machine", rows.filter(r => !["sent", "replied", "done"].includes(r.status))],
+  ["Closed", rows.filter(r => r.status === "done")],
 ];
 ---
 <Base title="Errands"
-      eyebrow={`${rows.filter(r=>r.status==="replied").length} answered · ${rows.filter(r=>r.status==="sent").length} still out · ${rows.filter(r=>!["sent","replied"].includes(r.status)).length} need a person`}
+      eyebrow={`${rows.filter(r=>r.status==="replied").length} answered · ${rows.filter(r=>r.status==="sent").length} still out · ${rows.filter(r=>!["sent","replied","done"].includes(r.status)).length} need a person`}
       dek="What this archive has asked of other archives, and the handful of jobs that need a human being in a particular building. Published so that the waiting is visible rather than invisible.">
 
 {groups.map(([title, list]) => list.length > 0 && (
