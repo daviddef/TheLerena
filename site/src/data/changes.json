@@ -3,6 +3,16 @@
   "date": "2026-09-13",
   "commits": [
    {
+    "sha": "365617e",
+    "subject": "The horses page had guessed it five days early",
+    "body": "On 8 September the horses page said, of Gilberto Justiniano Lerena Lenguas:\n  \"Lerena Lenguas is a River Plate double surname and Lenguas is Uruguayan -\n   consistent with the name's Uruguayan density and with Stud Oriental,\n   oriental being the ordinary Argentine word for Uruguayan.\"\nThat was an inference from two words on a Wikipedia page. Five days later the\nRosario baptism act said it outright: Don Luis Lerena Lenguas and Dona Julia\nJuanico, naturales del E. Oriental. And published Uruguayan genealogy makes that\nLuis a brother of Gilberto, both sons of Luis Lerena y Fernandez (1811-1878) and\nJustiniana Lenguas Gonzalez of Montevideo - with the child at folio 229 carrying\nJustiniana as her fifth given name, for that grandmother.\nSo the block is added where the guess was made, rather than quietly editing the\nguess into a fact. It still claims no relationship to Pablo Armando, and it still\nmarks the Montevideo generations SECONDARY."
+   },
+   {
+    "sha": "c6f1b66",
+    "subject": "Rebuild the changelog",
+    "body": ""
+   },
+   {
     "sha": "8e3ade9",
     "subject": "Narrow the LERINA exclusions - they were right, for partly the wrong reason",
     "body": "This archive's own search box flagged it: all four LERINA entries carried the\nsame label, EXCLUDED, with the same unexamined sentence behind it -\n  \"LERINA here is an Italian surname, not a variant of the Spanish Lerena.\"\nThat is a claim about the NAME, not about the people, reached from an index\nwithout opening a manifest. It is the identical move that got the Armando Lorena\ncard wrong and had to be corrected in public a fortnight ago.\nThe exclusion itself survives, and on much firmer ground. The four arrive at\nBuenos Aires on 15 March 1889 aged 59, 55, 21 and 17 - seven years after Pablo\nArmando was born at Rosario - and the party contains no Juan Carlos and no Maria.\nNone of them can be anyone sought. That rests on facts in the index, not on a\njudgement about surnames. The surname claim is withdrawn as a reason and the\nwithdrawal is on the corrections page.\nAlso updated hypothesis 1b, the Italian hypothesis, which took a second blow\ntoday. The Rosario baptism index has now been read end to end and the one Lerena\nin it is a Uruguayan of the Montevideo patriciate - a Lerena Lenguas married to a\nJuanico with an Oribe in the generation above. The surname has a documented home\nin the River Plate and it is not Liguria.\nWhat still stands for the Italian reading, and is not dismissed: the death\ncertificate says LERINA, and nothing found today explains that."
