@@ -188,3 +188,45 @@ was born, and she was **sixteen** in February 1882. She cannot be his mother.
 The coincidence is exactly the kind this archive has been caught by before — a rare surname, a common
 forename, and a strong wish for the pieces to fit. It is written down here so that nobody is caught by
 it later.
+
+---
+
+## The dispensation register, and what it rules out
+
+The last errand written on 13 September was this: **the Arquidiócesis de Montevideo marriage-dispensation
+register, 1856–1932**, as the shortest way at Juan Carlos Lerena. It was run the same night.
+
+The reasoning was narrow and worth restating. Pablo Armando's enrolment card names his mother
+**María Lerena** — written with her husband's surname. The archive has never been able to tell whether
+that is her maiden name or her married one. **If it is her maiden name, she and Juan Carlos were kin —
+and a marriage between kin needs a dispensation.**
+
+The register is in FamilySearch's full-text corpus, so it can be searched by its own formulae:
+*"Lerena el impedimento"* catches a Lerena groom; *"Lerena feligresa"* catches a Lerena bride, who is
+always named with her parish.
+
+**Eight Lerena dispensations in seventy-six years.** Mercedes Lerena of the Catedral (1883); Juan
+Gualberto Lerena of Trinidad (1885); Antonina Lerena and María Lerena, both of Trinidad, on the same day
+in June 1885; Clorinda Lerena of the Catedral; Juan Lerena of Mercedes (1894); Zelmira Carlota Lerena of
+the Metropolitana; Florinda Juana Lerena of Trinidad (1909). Two families — the **Montevideo patricians**
+of the Catedral, and the **rural Lerenas of Trinidad in Flores**.
+
+And two results:
+
+> **There is no Juan Carlos Lerena in the register.**
+>
+> **There is no Lerena–Lerena dispensation in it at all.** Every Lerena in it marries *out* —
+> Fernández, Peláez, Álvarez, Cordero, Márquez, Autrias.
+
+### What that narrows, and what it plainly does not
+
+It closes **one branch** of the open question. If María was a Lerena by birth *and* they married in the
+archdiocese of Montevideo, a dispensation would exist. It does not. So either **she was not a Lerena by
+birth** — the card giving her married name, which some clerks did — or **the marriage happened somewhere
+other than Montevideo**.
+
+It does **not** show they did not marry in Montevideo. This register catches only two things: kin
+dispensations, and dispensations of the three conciliar proclamas. A marriage between unrelated people
+with all three proclamas duly read needed no dispensation and leaves **no trace here whatsoever**.
+
+A negative from a register that only records exceptions is a weak negative, and it is filed as one.

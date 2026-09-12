@@ -2833,3 +2833,21 @@ in February 1882. She cannot be his mother.
 Also searched and negative: full-text for **"Juan Carlos Lerena"** returns exactly two hits in the whole
 corpus (a 1922 Montevideo marriage dispensation for *Juan Carlos González Lerena*, and a 2001 death) —
 neither ours. Full-text for **"Armando Lerena"** returns two, both Colombian.
+
+### The dispensation register — one branch closed
+
+The errand written an hour earlier was run the same night. **Arquidiócesis de Montevideo, Marriage
+Dispensation Records 1856–1932**, searched through full text by the register's own formulae —
+*"Lerena el impedimento"* for a Lerena groom, *"Lerena feligresa"* for a Lerena bride.
+
+**Eight Lerena dispensations in seventy-six years**, in two families: the Montevideo patricians of the
+Catedral (Mercedes 1883, Clorinda, Zelmira Carlota) and the rural Lerenas of Trinidad in Flores (Juan
+Gualberto and Antonina and María 1885, Juan 1894, Florinda Juana 1909).
+
+**No Juan Carlos. And no Lerena–Lerena dispensation at all** — every Lerena in the register marries out:
+Fernández, Peláez, Álvarez, Cordero, Márquez, Autrias.
+
+That closes one branch: if María was a Lerena *by birth*, and they married in the archdiocese of
+Montevideo, a dispensation would exist. It does not. Either she was not a Lerena by birth, or they
+married elsewhere. It does **not** show they did not marry in Montevideo — the register records only
+exceptions, and an ordinary marriage leaves no trace in it. A weak negative, filed as one.

@@ -86,8 +86,8 @@
  {
   "what": "Turn the Montevideo marriage-dispensation register, 1856-1932",
   "who": "me",
-  "status": "ready",
-  "detail": "The shortest way at Juan Carlos Lerena. If Maria was a Lerena by birth, their marriage needed a dispensation for consanguinity - and dispensations are a thin volume, not a parish's worth of acts. Arquidiocesis de Montevideo, Marriage Dispensation Records 1856-1932, in the FamilySearch full-text corpus. Target window: 1875-1882.",
+  "status": "done",
+  "detail": "DONE the same night, by full-text search on the register's own formulae. EIGHT Lerena dispensations in seventy-six years - two families, the Montevideo patricians of the Catedral and the rural Lerenas of Trinidad in Flores. NO Juan Carlos Lerena, and NO Lerena-Lerena dispensation at all: every Lerena in the register marries out. That closes one branch of the question - if Maria was a Lerena by birth AND they married in Montevideo, a dispensation would exist. It does not. See data/montevideo-dispensations-lerena.tsv.",
   "sent_on": "2026-09-13"
  }
 ]
