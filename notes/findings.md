@@ -2789,3 +2789,23 @@ early 1910, nationality written in the manifest as ***Oriental***. Read from the
 Armando — wrong nationality, two years out, and Pablo Armando was at the Cape and unmarried until
 September 1911 — but the only other Armando Lerena in the River Plate, and the shape a brother or
 cousin would have. Unplaced.
+
+### Sancho *de* Llerena — and a same-day correction
+
+Following the 1866 act back through the FamilySearch Tree produced the Montevideo trunk:
+**Sancho Llerena Aguilar**, b. Córdoba, Andalusia, 1767, a soldier, m. Canelones, Uruguay, 8 Jan 1791 —
+great-grandfather of both the **Lerena Lenguas** and the **Lerena Traibel**. His fourteen attached
+Uruguayan parish records spell him **Lerena** (1793, 1840, 1858), **Llerena** (1804, 1811, 1827, 1830),
+and once, in 1828, ***Sancho de Llerena*** — the toponymic form.
+
+That is precisely the test hypothesis 1 set itself, and it answers in the direction the archive judged
+less likely. Both readings can stand: a Basque-formed *Lerena* of the upper Ebro, and separately a
+River Plate *Lerena* that is a reduction of Andalusian *Llerena*. Only the second bears on this family.
+Tier: the trunk and the attachments are **secondary**; what is checkable is that the registers spell it
+both ways. **No Juan Carlos anywhere in that tree.**
+
+**And a correction, caught within the hour.** The table published earlier this evening said the Arturo
+Lerena of drawer Cajón 985 was born Montevideo 1858, son of Avelino Lerena and Ambrosia Traibel. That
+conflated two men: the record's spouse is *Ema Regules*, who married **Juan Arturo** Lerena Traibel
+(1861–1936), children born Montevideo 1881–87; the drawer's Arturo married **Amalia Díaz**, children
+born La Pampa, Mendoza and Entre Ríos 1889–97. The row is withdrawn and "four branches" is now three.
