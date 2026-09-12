@@ -3,6 +3,16 @@
   "date": "2026-09-13",
   "commits": [
    {
+    "sha": "b8c62b0",
+    "subject": "Bring the front page up to date with the sweep and the Uruguayan turn",
+    "body": "Three changes on the home page, all of them things that stopped being true\ntoday.\nThe headline figure \"1879-1901 - every year of the Rosario baptism index\" is now\n\"1731-1901 - both volumes, read end to end, and the surname appears exactly\nonce\". A new figure sits beside it: \"Uruguayan - what the act behind that one\nLerena says of her parents\".\nThe paragraph about the missing baptism said the sweep covered 1879-1901 and\ncalled the result \"a sharp question rather than a blank wall\". It is now sharper\nthan that. Across both volumes and a hundred and seventy years the surname\nappears once - so it is not only his baptism that is missing, but his brothers\nand sisters, and his father's marriage, and every trace of the household. A\nfamily that lives in a parish leaves baptisms. This one leaves nothing.\nAnd a new paragraph for the one Lerena who is there: folio 229, February 1866,\nDon Luis Lerena Lenguas and Dona Julia Juanico, \"naturales del E. Oriental\" -\nwith the godfather standing by proxy from the other side of the river. Published\nUruguayan genealogy makes them the Lerena Lenguas of Montevideo, one of whose\nsons co-founded the Argentine Stud Book. Nothing links the two houses yet, and\nthe page says so.\nAlso 125 people in the register becomes 129."
+   },
+   {
+    "sha": "c8a5825",
+    "subject": "Rebuild the changelog",
+    "body": ""
+   },
+   {
     "sha": "210351a",
     "subject": "Rewrite the roadmap, which still thought his parents were unknown",
     "body": "The roadmap was the most out-of-date page in the archive. It opened with \"Who\nwere Pablo Armando Lerena's parents? ... above him there is nothing at all\", and\nroute 1 was headed \"needs an email\" - all of which stopped being true on 10\nSeptember, when the 1908 army enrolment card was finally opened and named Juan\nCarlos Lerena and Maria Lerena. Three days of findings had gone in around it\nwithout anyone going back to the page that tells a reader what to do next.\nRewritten around the state as it actually is:\n- The question that started it, and its answer, including the fact that the\n  answering document was written off for a month on objections that turned out\n  to be machine-index artefacts.\n- The question that replaced it: who were Juan Carlos and Maria, and where did\n  they come from - with the three full-index negatives set out as three panels,\n  because together they say something a single negative does not. A household\n  that lives in a parish leaves baptisms; this one leaves nothing.\n- The answer that now leads: they were not a Rosario family, and the one Lerena\n  in that parish in a hundred and seventy years was Uruguayan.\n- Seven routes reranked. Montevideo is now route 1. Rosario is route 7 and\n  marked closed - do not reopen without a new reason. The two letters that are\n  out are marked as out and waited on rather than as things to do.\nAlso updated open question 1 with the sharper version of the missing baptism,\nand added the one thing a stranger could most usefully tell this archive: does\nanyone hold a Uruguayan Lerena line with a Juan Carlos born in the 1840s or\n1850s, married to a Maria.\n185 pages, 0 broken links."
