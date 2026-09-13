@@ -16,3 +16,20 @@ Film viewer (/search/film/<DGS>?i=N)	Failed for one film on 13 September (no til
 # 13-14 September - the session stayed signed in and the tile server never refused anything. But it
 # is the reason reading stopped when the third failure mode appeared rather than being pushed
 # through. A block costs days; waiting costs hours.
+#
+# ---- 14 SEPTEMBER 2026, LATER: FULL TEXT CAME BACK, AND ONE FILTER STILL BREAKS IT ----
+#
+# *** THE recordCountry FILTER KILLS A FULL-TEXT SEARCH. ***
+#   /search/full-text/results?q.text="Carolina Oliva"&f.recordCountry=Uruguay  ->  "Something Went Wrong"
+#   /search/full-text/results?q.text="Carolina Oliva"                          ->  1,987 results
+# The same query, the filter the only difference. So a full-text search that errors is worth retrying
+# WITHOUT the country filter before it is written up as an outage - which is very nearly what
+# happened here on two consecutive days.
+#
+# Two more things about full text, learned the same hour and worth keeping:
+#   - MULTIPLE QUOTED PHRASES DO NOT AND. Searching "Lerena" "Carolina Oliva" returns Arequipa and
+#     Valladolid: it is matching loosely, not requiring both. Use ONE distinctive phrase.
+#   - THE TRANSCRIPT IS IN THE PAGE. Opening a result with ?view=fullText puts the machine
+#     transcription of the whole document into the DOM, so it can be searched directly for a name
+#     rather than read off tiles. That is how the 1831 Cordon act was found and read in one step.
+
