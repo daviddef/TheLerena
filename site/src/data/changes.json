@@ -3,6 +3,16 @@
   "date": "2026-09-13",
   "commits": [
    {
+    "sha": "36ce73f",
+    "subject": "Give the longest page a contents list the build enforces, and promote the checker",
+    "body": "THE SEARCHED PAGE HAD GROWN TO 22 SECTIONS AND 7,700 WORDS with no way into it,\nand two of those sections were both called \"The register itself\" - one the first\npass of 10 September, one the 750-act sweep of the 13th - sitting four sections\napart with the later one first. Renamed so the relationship reads:\n  The register itself - carried to 750 acts, and the index vindicated\n  The register itself - where that read began\nEvery h2 now carries a stable id derived from its own text, and the page opens\nwith a contents list.\nAND THE LIST MAKES A PROMISE THE BUILD KEEPS. The first draft of that block said\nthe list \"is generated from the headings themselves, so it cannot drift\" - which\nwas FALSE as written: it was generated once by a script, not at build time. An\narchive that publishes an untrue sentence about its own machinery is worse than\none with no contents list. So the machinery was made to match the claim rather\nthan the claim softened to match the machinery.\ntools/check-links.py - promoted out of the ad-hoc heredoc I had been pasting\nafter every build, and extended. It now:\n  - validates in-page #anchors, not just pages and assets\n  - treats any page carrying an id=\"contents\" as making a promise, and checks\n    that EVERY h2 on that page is linked from within it\nBoth directions were tested by breaking the built HTML deliberately: renaming\none heading produced two failures - a contents link pointing at a section that\nno longer exists, and a section missing from the contents list - and a non-zero\nexit. The page's sentence now reads \"the build checks this list against the\npage\", which is true.\n198 pages, 232 ids, 0 broken."
+   },
+   {
+    "sha": "762545e",
+    "subject": "Rebuild the changelog",
+    "body": ""
+   },
+   {
     "sha": "a6cad10",
     "subject": "Two more hardcoded counts, and close the loop on a prediction the site made",
     "body": "\"Eight numbers\" on the front page, when today's work had made it ten. Now\nderived from the array, spelled out, so it cannot drift again - the same fault\nas the 129/138 register count an hour ago, and the third instance today of a\nfigure typed by hand in an archive whose whole method is generating pages from\nthe data.\nAND A LOOP CLOSED. The Argentina page has carried this since 8 September, under\n\"Uruguay is not a detour\":\n  Stated plainly so it is not forgotten later: if the Argentine search stalls,\n  the correct next move is Uruguay, not a harder Argentine search.\nThe Argentine search did stall, and the instruction was followed. The page now\nsays what came of it: one Lerena in a hundred and seventy years of the Rosario\nindex, and the act behind her saying \"naturales del E. Oriental\"; the full-text\nmeasurement, where LERENA runs 6.4x commoner in Uruguay while its twin LLERENA\nruns 3.6x the other way and two reference surnames both favour Argentina; and\nthe thing it has NOT produced, which is Juan Carlos.\nIt seemed worth marking where a page told its own future what to do and turned\nout to be right."
