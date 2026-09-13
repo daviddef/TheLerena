@@ -105,3 +105,44 @@ direct line and the people who married into it.
 2. **A place that escaped normalisation** — `arr. Buenos Aires 1907-07-14` had been sitting as its own
    one-person "place" beside the 43-person *Buenos Aires — arrivals*. The pattern only matched
    `arr. YYYY`. Fixed; the arrivals place now holds 44, and there are 28 places rather than 29.
+
+## 13 September 2026 — adopting a check the siblings already had
+
+Compared this archive's tooling against the Falco, Blazevic, Booyzen, Defranceski, Mazza and D'Arcy
+archives. The gap is not in the data — it is in **what gets checked**.
+
+| archive | tools |
+|---|---|
+| Blazevic | 26, including `consistency.py`, `duplicates.py`, `coverage.py` |
+| Mazza | 40+ |
+| Booyzen | 8, including `drift.py` |
+| Falco | 12 |
+| **Lerena** | **6** |
+
+Two siblings carry a check this archive did not have:
+
+- **Blazevic `consistency.py`** — "Check the tree against itself… no external source, just dates
+  that cannot all be true at once." Its header records why: *Tereza Pećanić was published as having
+  died in 1850, married in 1858 and borne children until 1884.*
+- **Booyzen `drift.py`** — "Catch a narrative page that has fallen behind the data." Its header
+  records the same kind of cost: *people.json drifted and hid four people off the index.*
+
+**Both failures happened here today**, independently, and both were found by eye rather than by a
+check: the sources page had fallen three days behind the work, and three published dates were wrong
+(Ema Sixta c.1880 for 1876, Julia c.1844 for 1842, and two siblings indexed as born in February and
+July of the same year).
+
+So `tools/consistency.py` is now written here too, in the sibling convention: contradictions fail
+the build, softer observations print and do not. It checks for a parent younger than their child,
+full siblings born less than nine months apart, a date field that is both hedged and precise, and a
+row claiming an image was read while naming no ark. Both hard checks were verified by feeding it
+synthetic contradictions — two failures, exit 1.
+
+It immediately found five rows that claim **IMAGE READ** and carry no ark: Bartolomé Llerena, Julia
+Juanicó, Ema Sixta, Juliana Joaquina González and Sancho Llerena. Those images were genuinely read —
+but without the ark the reader cannot check them, which is the whole point of this archive. Logged
+as a job rather than papered over.
+
+The drift half is covered separately: `check-links.py` now enforces the contents lists, fails on
+unconverted emphasis markers and on container classes used on leaf elements, and the deploy is gated
+on it.

@@ -110,5 +110,26 @@
   "status": "waiting-on-david",
   "detail": "FamilySearch has firewalled THIS automated session (Incapsula) - every request is refused on contact, ark pages included - while working normally in an ordinary browser. The three searches below would each close an open question. 1) LUIS EUGENIO LERENA'S DEATH, between 1880 and July 1910: familysearch.org/search/record/results?q.givenName=Luis&q.surname=Lerena&q.deathLikePlace=Montevideo&q.deathLikeDate.from=1880&q.deathLikeDate.to=1910 - and the full-text phrase \"Luis Eugenio Lerena\". 2) JULIA JUANICO'S BAPTISM, born Montevideo about 1844: full-text \"Julia Juanico\" and a records search for her with father Candido. 3) CANDIDO JUANICO'S FIRST MARRIAGE, to JULIANA GONZALEZ, necessarily before 1844 - published genealogy has him marrying SIXTA Lenguas in 1857, so Juliana is an earlier wife, and that is currently inference from dates rather than a document. Paste any result back here and I will read the images.",
   "sent_on": "2026-09-13"
+ },
+ {
+  "what": "Put the ark on five rows that say IMAGE READ",
+  "who": "me",
+  "status": "ready",
+  "detail": "tools/consistency.py flags five register rows claiming an image was read while naming no ark: Bartolome Llerena (1869 Rosario census), Julia Juanico (death reg. 357 of 1910), Ema Sixta (La Union marriage act 90), Juliana Joaquina Gonzalez, and Sancho Llerena Aguilar. *** The images WERE read - but without the ark a reader cannot check them, and checkability is the whole point of this archive. *** Reopen each and record the ark.",
+  "sent_on": "-"
+ },
+ {
+  "what": "Open the images behind Gilberto Lerena Lenguas's parentage",
+  "who": "me",
+  "status": "ready",
+  "detail": "Two Uruguayan parish index entries (arks 1:1:6D38-DNHP and 1:1:6DFW-VY4P) both give Gilberto's parents as Luis and Justiniana Lenguas, which would make the co-founder of the Argentine Stud Book a BROTHER of Luis Eugenio. *** This is the single highest-value unopened image in the archive. *** Until the priest's hand confirms it, the racing dynasty joins the trunk only at index level.",
+  "sent_on": "-"
+ },
+ {
+  "what": "Read the six LORENAS of the 1869 Rosario census at their own pages",
+  "who": "me",
+  "status": "ready",
+  "detail": "Agustin (b.1829), Guillermo (1853), Geronima (1854), Mercedes (1860), Feliz (1866) and Maria (1868) LORENA are in the 1869 national census at Rosario, elsewhere in the film from Bartolome Llerena. *** Guillermo and Geronima are the right age to be a parent of a child born in 1882. *** The schedule will show household structure - who is head, who is spouse, who is child - and whether the clerk wrote Lorena, Lerena or Llerena.",
+  "sent_on": "-"
  }
 ]

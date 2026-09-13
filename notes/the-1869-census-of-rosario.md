@@ -100,8 +100,16 @@ Line 10 here, which the index led me to expect as a Lorena, is **Vachalo**.
 > ***Bartolomé LLERENA — 45 years old, married, Argentine, born in CÓRDOBA, working as a JORNALERO —
 > living in Rosario, Sección 2ª, at the national census of 1869.***
 
-He remains **the only person of this surname found in Rosario before 1882**, in any record this project has
-searched. He would be **58 in 1882**.
+He remains **the only person spelled *Llerena* or *Lerena* found in Rosario before 1882**, in any record
+this project has searched. He would be **58 in 1882**.
+
+> **Tightened 13 September 2026.** This used to read "the only person of *this surname*", which is looser
+> than the evidence allows. **Six *Lorenas* are in the same census** — Agustín, Guillermo, Gerónima,
+> Mercedes, Feliz and María — and this archive's own register groups LORENA with LERENA and LLERENA as
+> spellings of one name, precisely because the clerks disagreed. Two of them, Guillermo (b. 1853) and
+> Gerónima (b. 1854), are flagged in the register as the right age to be a parent of a child born in
+> 1882. Whether *Lorena* is the same name is exactly what is unresolved — so the sentence now says what
+> was actually checked, and the Lorenas stay in view instead of being defined out of the question.
 
 **But three things temper it:**
 1. **He is lodging among strangers.** No wife appears beside him though he is recorded married, and no

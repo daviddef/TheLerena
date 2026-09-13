@@ -201,5 +201,12 @@
   "what_was_said": "Julia Juanico born about 1844",
   "what_is_true": "*** 23 November 1842. *** The 1844 was derived from her stated age of 66 on her 1910 death registration; she was 67. Her baptism of 4 October 1843 at San Francisco de Asis gives the date, and gives her mother in full as Juliana JOAQUINA Gonzalez.",
   "how_it_was_caught": "Searching her FATHER rather than her surname - the same move that found her husband's death the same evening."
+ },
+ {
+  "date": "2026-09-13",
+  "severity": "minor",
+  "what_was_said": "That Bartolome Llerena was \"the only person of this surname found in Rosario before 1882\"",
+  "what_is_true": "Looser than the evidence allows. *** Six LORENAS are in the same 1869 census *** - Agustin, Guillermo, Geronima, Mercedes, Feliz and Maria - and this archive's own register groups LORENA with LERENA and LLERENA as spellings of one name, because the clerks disagreed. Two of them are flagged in that very register as the right age to be a parent of a child born in 1882. The note now claims only what was checked: the only person spelled Llerena or Lerena.",
+  "how_it_was_caught": "A sweep of all 183 register rows against the notes that describe them - the note and the register contradicted each other."
  }
 ]

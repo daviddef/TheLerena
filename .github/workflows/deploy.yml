@@ -34,6 +34,11 @@ jobs:
       # is gated on it rather than on the build's own exit code.
       - name: Check every link, anchor and contents list
         run: python3 tools/check-links.py
+      # The register checked against itself - no external source, only dates and
+      # relationships that cannot all be true at once. Contradictions fail; softer
+      # observations are printed and do not.
+      - name: Check the register for self-contradiction
+        run: python3 tools/consistency.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

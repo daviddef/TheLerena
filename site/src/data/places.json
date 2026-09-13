@@ -221,6 +221,16 @@
   "count": 3
  },
  {
+  "slug": "buenos-aires-mendoza",
+  "name": "Buenos Aires / Mendoza",
+  "people": [
+   "julian-martinez",
+   "carlos-martinez-lerena",
+   "julian-martinez-lerena"
+  ],
+  "count": 3
+ },
+ {
   "slug": "tucuman",
   "name": "Tucuman",
   "people": [
@@ -399,6 +409,14 @@
   "name": "Montevideo, Calle San Juan",
   "people": [
    "sancho-llerena-aguilar"
+  ],
+  "count": 1
+ },
+ {
+  "slug": "buenos-aires-and-mendoza",
+  "name": "Buenos Aires and Mendoza",
+  "people": [
+   "carolina-lerena-2"
   ],
   "count": 1
  }
