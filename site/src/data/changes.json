@@ -1,9 +1,19 @@
 {
- "mechanical": 33,
+ "mechanical": 34,
  "days": [
   {
    "date": "2026-09-13",
    "commits": [
+    {
+     "sha": "706d8b1",
+     "subject": "Fingerprint the stylesheet, because a cached one had been quietly lying",
+     "body": "Scrolling the deployed changelog to check the new fold-away entries showed the\nday's date TWICE - once in the labelled rule, once as a large heading beneath it\n- although the markup carried class=\"vh\" and the stylesheet carried the rule\nthat hides it.\nThe markup was right and the CSS was right. The BROWSER was serving a cached\nstyles.css from before that class existed. Which means every returning visitor\nto this site has been laid out by whatever version of the stylesheet their\nbrowser happened to keep - and would have been, for as long as it kept it.\nThe stylesheet is now fingerprinted with a short SHA-1 of its own contents:\nstyles.css?v=fa62f94e. The URL changes exactly when the file changes and never\notherwise, so a CSS change reaches everybody on their next visit and nobody\nre-downloads it for nothing.\nAND THE CHECKER CAUGHT ITS OWN REGRESSION. Adding the query string broke all 198\npages in tools/check-links.py, which tested whether a path ENDED in .css and now\nsaw \"styles.css?v=fa62f94e\". That is the checker doing its job on the first\nchange after it was written: it fails loudly rather than passing quietly. It now\nstrips the query before testing the path.\n198 pages, 251 ids, 0 broken."
+    },
+    {
+     "sha": "85e2baa",
+     "subject": "Phase 1: own accent, and trailing slashes",
+     "body": "Part of standardising the seven family archives. No content touched.\nThis was the third archive wearing the Defranceschi palette — the same\n#1F5C6B teal as Defranceschi and Blazevic, light and dark. Takes violet\n#5B3A96, with #B49AE8 for dark; 7.8:1 on paper, 7.44:1 on the dark ground.\nViolet rather than the amber the children's site uses for this line: the\nMazza archive has just taken ochre, and amber beside ochre is not a\ndistinction anyone would make at a glance. Where alignment with the\nchildren's palette costs legibility, legibility wins.\nTrailing slashes: this was the only archive mixing both styles — 82 links\nwith, 64 without. Now all 146 have one.\nVerified: 198 pages built, 14,357 internal links crawled, all resolve."
+    },
     {
      "sha": "6f3c1ad",
      "subject": "A contents list for the hypotheses page too, and a count got checked before it was published",
