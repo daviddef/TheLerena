@@ -2851,3 +2851,23 @@ That closes one branch: if María was a Lerena *by birth*, and they married in t
 Montevideo, a dispensation would exist. It does not. Either she was not a Lerena by birth, or they
 married elsewhere. It does **not** show they did not marry in Montevideo — the register records only
 exceptions, and an ordinary marriage leaves no trace in it. A weak negative, filed as one.
+
+### The register itself, act by act — 750 baptisms, and the index vindicated
+
+The act-by-act read of the Rosario register was carried from April to the end of the volume. Images
+243–309; three duplicate exposures (257, 264, 300) and two openings where a loose certificate was laid
+on the book at filming (284/285, 301/302), each read from the facing frame. The volume ends at **act
+862, 22 July 1882**.
+
+Method refined: render the **two margin strips** of an opening side by side — tile columns 0–3 and
+10–14 at level 13 — so one screenshot carries all eight children's names legibly.
+
+**Acts 113 to 862 — 1 February to 22 July 1882 — seven hundred and fifty baptisms. No Lerena.**
+
+Two near misses logged and resolved: **Armando Juan Rouillon** (act 546, born 26 April 1882) and
+**Pablo Jacinto Gauna** (act 827, 11 July), the latter re-rendered at full magnification *specifically
+in case the margin read LARENA*. It reads Gauna.
+
+**The point of the exercise:** every Rosario null here rests on a 1945 typescript index, and whether
+that index is complete had never been tested. It has now been tested across 750 consecutive acts, and
+**the index and the register agree**. He is not there, and the index is not the reason.

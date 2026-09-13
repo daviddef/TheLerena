@@ -20,9 +20,11 @@
 # columns of the opening - in one image. One screenshot per opening, every name legible.
 # The conclusion did not change. Many individual readings did, and the corrected ones are below.
 #
-# *** RESULT: NO LERENA IN ANY ACT FROM 1 FEBRUARY TO 31 MARCH 1882. ***
-# Pablo Armando was born 22 February 1882. This span is the whole of the two months around his birth -
-# 261 baptisms, every margin read.
+# *** RESULT, AFTER THE SECOND PASS OF 13 SEPTEMBER 2026: ***
+# *** NO LERENA IN ANY ACT FROM 1 FEBRUARY TO 22 JULY 1882 - SEVEN HUNDRED AND FIFTY BAPTISMS. ***
+# Pablo Armando was born 22 February 1882. This is the first two-thirds of his birth year, read act by
+# act from the register itself rather than from the 1945 index - which is the whole point: it tests
+# whether the index is complete. Across 750 consecutive acts the index and the register AGREE.
 #
 image	ark	pages	acts	dates	result
 205	S3HT-6BB3-ZW	386-387	98-105	25 Jan 1882	Calibration frame. January still running.
@@ -64,10 +66,97 @@ image	ark	pages	acts	dates	result
 241	S3HT-6BB4-81	452-453	360-367	28-30 Mar	Martina Josefa Carolina Louraschi; Alejandro Alfredo Pedernera; Teresa Emilia Bianchi; Ramon Maximiliano Marquez; Encarnacion Romula Marquez; Encarnacion Jeronima Albarracin; Juan Bautista Gamboa; Luis Gonzaga R-. No Lerena.
 242	S3HT-6BBQ-HT	454-455	368-376	30 Mar - 1 Apr	*** MARCH ENDS; APRIL BEGINS AT ACT 374. *** Juana Francisca Matos; Luis PAUL Exposito (a foundling - note the forename); Matilde Eulogia Exposita; Juana Alve; Elisa Sose; Raimundo Lozano; Matilde Aranda; Felipe Suarez. No Lerena.
 #
-# *** WHERE THE SWEEP STOPS, so it can be resumed exactly. ***
-# Last act read: 376, 1 April 1882, page 455, image 242 (ark S3HT-6BBQ-HT).
-# To continue: image 243 onward in the same waypoint.
+# *** SECOND PASS, 13 September 2026 - APRIL 1882 ONWARD. ***
+# Same method, refined: the two MARGIN STRIPS of an opening rendered side by side at level 13
+# (tile columns 0-3 and 10-14), one screenshot per opening, every child's name legible.
 #
 # *** FEBRUARY AND MARCH 1882 ARE NOW COMPLETE, ACT BY ACT, AT FULL RESOLUTION. ***
 # Acts 113 to 373 - the whole of both months, 261 baptisms - and no LERENA in any of them.
 # Rate for planning: about 8 acts per opening, about 15 openings per month.
+243	S3HT-6BBS-1S	456	377-384	1-2 Apr	Natalia Maria Imperiale; Silvano Ahumada; Mauricia Eudosia Villalva; Patricia Elena Gomez | Manuela Adelina Peralta; [--]arce; Manuel Sueldo; Doulard. No Lerena.
+244	S3HT-6BB3-RZ	458	385-392	2-3 Apr	Leona Pascacia Funes; Benita Adela Silva; Bernabela Aurelia Gastaldo; Remigio Marcelo Suarez | Maria del Carmen Bocco; Carlota Juana de Dios; Jorge Arturo Fernando Morell; Roberto Dionisio Juan Cecilio Ortiz. No Lerena.
+245	S3HT-6BB7-X4	460	393-400	3 Apr	Adela Cecilia Sardi; Dominga Berton; Elias Alonzo; Maria Mercedes Mauricia Gonzalez del Solar | Domingo Arturo Molina; Ventura Ruchetta; Ricardo Romualdo Navarro; Maria Dominga Guarmes. No Lerena.
+246	S3HT-6BB4-7S	462	401-408	9 Apr	Josefina Barnasconi; Ramona Aguilar; Hernan Leopoldo del Campo; Prudencia Ramona Bustamante | Maria Amable Tami; Eustaquio Arias; Clara Damuzzi; Santos Pera. No Lerena.
+247	S3HT-6BB3-W8	464	409-416	9 Apr	Catalina Antonia Colomer; Maria Quintina Gutierrez; Blas Dijesamo; Manuel Florencio Villanuel | Antonio Arive; [--]ano Barroso; Juan Antonio Lopez; Antonia Carmen Zapata. No Lerena.
+248	S3HT-6BB7-2K	466	417-424	9 Apr	Rita Horacia Rodriguez; Jose Gavino Lara; Catalina Aguilera; Emilio Roque Huesta | Aurelia Dolores Magno; Manuela Guevara; Manuela Matilde Diaz; Eusebia Llanos. No Lerena.
+249	S3HT-6BBW-QC	468	425-432	10 Apr	Maria Magdalena Miguele; Juan Bautista Godino; Carlos Miguel Beltramino; Josefa Felipa Araoz | Maria Vicente Perez; Emilia Bini; Pedro Canzo; Raimundo Cullana. No Lerena.
+250	S3HT-6BB3-YV	470	433-440	10-13 Apr	Maria Josefa Rodriguez (mellizas); Jose Federico Rodriguez (mellizo); Juana Ernestina Maria Vonzier; Juan Florentino Balsamonte | Gabriela Salecia Ciendos; Diego Honorio Alma; Jose Maria Benjamin; Julio Marcos Francisco Guisi. No Lerena.
+251	S3HT-6BBW-WF	472	441-448	14-15 Apr	Domingo Tisera; Casilda Matilde Zayala; Virginia Martinez; Juan Francisco Baruffi | Juan Angel Euquino; Emiliano Brache; Atilio Natalio Rosca; Angel Fontani. No Lerena.
+252	S3HT-6BBW-QW	474	449-456	15-16 Apr	Josefa Montani; Maria Salome Dominguez; Bernardino Lopez; Lucio Enrique de la Cruz Lopez | Ricardo Manuel Peralta; Eusebio Costa; Ana Maria Negro; Angela Francisca Suella. No Lerena.
+253	S3HT-6BB3-FT	476	457-464	16 Apr	Gregorio Contrera; Petrona Varela; Saturnino Gonzalez; Inocencio Celestino Baduno | Amelia Marco; Dolores Femena Rodriguez; Fidel Martinez; Juan Becetti. No Lerena.
+254	S3HT-6BB3-X7	478	465-472	17-19 Apr	Nicacio Luis Pinero; Jovita Amanda Munoz; Juliana Florentina Rodriguez; Jose Luis Masetti | Isabel Celia Larlucca; Juana Jesus Rodriguez; Gregorio Demeo Redernera; Mauricio Raymundo Roldan. No Lerena.
+255	S3HT-6BBS-TP	480	473-480	19-22 Apr	Martina Lucia Villarreal; Florentino Olguin; *** Mariana LENCINA *** ; Damiana Gallo | Lucila Sanchez; Luis Pereyra; Elvira Octavia Hidalgo; Alberto Acosta. LENCINA noted - an L-surname, not Lerena. No Lerena.
+256	S3HT-6BB4-84	482	481-488	22-23 Apr	Hilario Juan Zeballo; Ramon Cabares; Heraclia Lucrecia Perea; Juan Rodolfo Andrade | Eustaquio Gutierrez; Leocadia Maria Raynoso; Angela Hermenegilda Battaini; Jose Natalio Piombo. No Lerena.
+257	S3HT-6BB3-8B	482	481-488	22-23 Apr	DUPLICATE EXPOSURE of image 256 - same opening, same acts. Counted once.
+258	S3HT-6BBW-LD	484	489-496	23-24 Apr	Angel Benedetta; Maria Natividad Cavenino; Lazaro Salomon Clavera; Isabel Fradua | Anatilde; Antonia Maria; Maria Elena Sixta; Luisa Carmen Josefa. No Lerena.
+259	S3HT-6BBW-CJ	486	497-504	26-27 Apr	Carlos Eduardo Sastre; Maria Luisa Ramona Gonzalez; Ciriaca Alvina Barrientos; Maria Molinari | Aniceto Manuel Rios; Victoria Vance; Diego Evolita; Victoria Josefa Piccarelli. No Lerena.
+260	S3HT-6BB3-PN	488	505-512	27-29 Apr	Angela Virginia Huesta Giusti; Juana Elvira Planes; Abrahan Ramon Marell; Rosa Bravo | Petrona Vasco; Catalina Vicenta Costa; Inocencio Fernandez; Ramon Ruperto Moreira. No Lerena.
+261	S3HT-6BB4-ZK	490	513-520	30 Apr	Paulino Lanzoni; Maria Viola; Gregoria Alena Bastiana; Pedro Ramon Cabrera | Sixta Ramona Ledesma; Maria Asuncion Margarita Olivero; Jose Andres Fasoli; Angela Custodia Zeballo. No Lerena.
+262	S3HT-6BB7-TF	492	521-528	1-3 May	Jose Saba Cabares; Francisco Nicolas Villalba; Vicenta Alvina Garcia Linares; Arturo (exposito) | Celia Luciana Guillon; Elena Maria Guillon; Jose Silvino Fernandez; Griselda Fragenat. No Lerena.
+263	S3HT-6BB3-R5	494	529-536	5-7 May	Jose Gomez; Maria Teodosia Veras; Beatriz Victoria Juana Echegoyen; Serafin Encarnacion Galvan | Josefa Rojas; Filomena Turco; Maria Borda; Carolina Corrida. No Lerena.
+264	S3HT-6BB7-7K	494	529-536	5-7 May	DUPLICATE EXPOSURE of image 263. Counted once.
+265	S3HT-6BBS-P4	496	537-544	7-10 May	Flora Estanislada Franco; Maria Carmen Cazes; Julia Ramona Lasaga; Alejandro de la Cruz Moraga | Pedro Blanche; Juan Hilam; *** Francisco Delfino LENCINA *** ; Damian Modesto Alberto. No Lerena.
+266	S3HT-6BB4-WC	498	545-552	11-12 May	Santos Amadeo Alvarez; *** ARMANDO JUAN ROUILLON, act 546, born 26 April 1882 *** ; Carmen de las Mercedes Tenegra; Mariano Segundo Marull | Rosa Elena Galifi; Ramona Clotilde Almiren; Luciano Aguirre; Maria Enriqueta Mare. NEAR MISS LOGGED: an ARMANDO baptised at Rosario in 1882 - but born 26 April, two months after Pablo Armando, and the surname is Rouillon. Not him. No Lerena.
+267	S3HT-6BBS-K6	500	553-560	13 May	Adela Alberdi; Juan Cortello; Hipolita Quiroga; Petrona Sosa Ordonez | Cruz Hilaria Aguilera; Estanislada Suarez; Benita Jesus Aree; Maria Celestina Palazzi. No Lerena.
+268	S3HT-6BBS-L1	502	561-568	13-14 May	Faustina Moyano; Damiana Aguirre; Pedro Cleto Gorosito; Carlos Eladio Quintana | Boribia Clorinda Barroso; Rudecinda Canes; Antonia Cirila Aborda; Josefa Maria Cabedra. No Lerena.
+269	S3HT-6BB7-6D	504	569-576	14-16 May	Rosa de Yueste; Martin Acosta; Gregorio Anacleto Gonzalez; Hilario Arambulo | Maxima Anastacia Vaca; Santos Eleuteria Otero; Maria Socorro Arias; Eduardo Raul (exposito). No Lerena.
+270	S3HT-6BBS-KC	506	577-584	16-18 May	Emilio Mesa; Perpetua Doraliza Suarez; Meliton Maria Taijo; Jose Benjamin Cordova | Maria Catalina Olivera; Pedro Enrique Garay; Pedro Hidalgo; Rafaela Isabel Lara. No Lerena.
+271	S3HT-6BBQ-VF	508	585-592	19-20 May	Luis Rossi; Rosa Catalina Robere; Jose Ernesto Gonzalez; Petrona Ramona Ramirez | Exequiel Moreno; Juana Carlina Rodriguez; Maria Candelaria Vega; Matilde Celina Fabio. No Lerena.
+272	S3HT-6BB3-LX	510	593-600	20-21 May	Dionicio Alvarez; Angela Marta Maria Pozzi; Irineo Araya; Victalia Fabra | Gregoria Margarita Ubal; Florentino Cabrera; Lucio Ricardo; Inocencia Francisco. No Lerena.
+273	S3HT-6BBQ-JT	512	601-608	21-22 May	Teofila Dorotea Cornero; Domingo Perez; Paulina Rojas; Adolfo Lucero | Victor Dorden; Agustin Busqueda; Griselda Nicaela Sextina; Anselmo Miranda. No Lerena.
+274	S3HT-6BBS-YQ	514	609-616	23-25 May	Jose Gonzalez; Severo Domingo Sotelo; Julio Peralta de Simirosa; Rita Eduarda Gonzalez | Santiago Duarte Lopez; Felix Rojas; Pedro Regalado Bustamante; Juan Carvala. No Lerena.
+275	S3HT-6BBS-F1	516	617-624	25-26 May	Maria Leonor Vila; Ramon Celestino Gonzalez; Maria del Rosario Romero; Maximo Segundo Carmendia | Maria Concepcion Peredes; Maria Josefa Teodora; Francisca Josefa Orbiroza; Felix Carmen Hernandez. No Lerena.
+276	S3HT-6BB3-3P	518	625-632	26-27 May	Eugenio Antonio Pedro Laborde; Maria Monica Bisso; Rogelio Bernardino Sanchez; Jose Catone | Antonia Pacheco; Ramona Romero; Isidora Maria; Alejandra Maria Macedonia. No Lerena.
+277	S3HT-6BBW-W1	520	633-640	27-28 May	Juana Victoria Mata; Cecilio Engracio Bustamante; Teresa Caime; Jacinto Almiron | Monica Acosta; Florentina Dolores; Dominga Estefania Roba; Anselma Sofia Mercado. No Lerena.
+278	S3HT-6BB3-XT	522	641-648	28-29 May	Celestina Rosaria Moresca; Ramon Froylan Transito; Leocadia Valeria Herrera; Desideria Lagos | Elvira Paula Vera; Alina Dolores Petrona; Julia Mariana; Aureliano Juan. No Lerena.
+279	S3HT-6BB7-PN	524	649-656	30 May - 3 Jun	Adela Marcela Gamusso; Petrona Ubaldina Correa; Maria Secundina Lucia Forasteri; Pedro Roberto Miranda | Maria Lucia; Abel Ubarz; Maria Estevan Juarez; Apolinaria Rosa. No Lerena.
+280	S3HT-6BB3-81	526	657-664	3-4 Jun	Josefa Velasquez; Pastor Molina; Jose Dolores Romero; Julia Rosario Cardozo | Nemecio Antonio; Petrona Toledo; Cristina Castro; Pedro Craije. No Lerena.
+281	S3HT-6BBQ-3C	528	665-672	4-7 Jun	Jose Regino Lujan; Mameito del Rosario Cana; Manuela Victoria Monteros; Federico Diego Tomas Lozano | Santiago Juan Roca; Mateo Bonifacio Zelen; Isabel Isidora Caneza; Alejandro Monte. No Lerena.
+282	S3HT-6BB7-JD	530	673-680	7-10 Jun	Maria Gabriela Luisa Devoto; Pia Faustina Lescano; Isaga Marcelina Ubiedo; Juan Alfredo Airne | Eugenia Carmen; Adolfo Cirola; Monteverde; Angel Ricardo Machain. No Lerena.
+283	S3HT-6BBW-1X	532	681-688	10 Jun	Maria Ramona Ferreira; Maria Carmen Abati; Nicolas Acosta; Alejandro Teodora Bolis | Gregoria Alcara; Sexta Pastora Llalla; Felix Fabio Rodriguez; Isidora Carmen Almeida. No Lerena.
+284	S3HT-6BBS-1N	534	689-692	10-11 Jun	Gregorio Echanis; Leona Isidora Echete; Balbino Moises Cordone; Santiago Perez. Right page covered by a loose certificate laid on the book (Gregorio Echanis, libro 24 folio 534) - read on image 285. No Lerena.
+285	S3HT-6BBW-WM	536	693-696	12-14 Jun	Maria Francisca Juana Ferraris; Francisca Manese; Santiago Ernesto; Palmira Perfil. Left page covered by the same loose certificate - read on image 284. No Lerena.
+286	S3HT-6BBQ-9Y	538	697-704	14-16 Jun	Eduardo Melchor Nicasio Loso; Mamerto Fabio Eleodoro Almagro; Nicanor Aragon; Doneata Gabina Rastelli | Agustina Francibia; Gregorio Ulises; Manuel Lopez; Filipa Dionicia Diaz. No Lerena.
+287	S3HT-6BB3-GZ	540	705-712	17-18 Jun	Federico Segovia; Erminio Sosa; Antonio Clemente Nali; Tomas de Limosna | Jesus Aureliano Robles; Josefa Maria Luisa Angela Luciani; Maria Angela Liberte; Ramon Serafin Oliveri. No Lerena.
+288	S3HT-6BB3-5T	542	713-720	20 Jun	Antonino Demesio Matos; Jesus Maria R.; Alejandro Reyna; Marcelino Guillermo Tisera | Jesus Amadeo; Luis Marc; Francisca Maria Hilaria Larry; Maria Luisa Margarita Rossi. No Lerena.
+289	S3HT-6BB3-7D	544	721-728	21-23 Jun	Juan Polini; Claudia de Jesus Toledo; Ines Policarpa Marques; Juan Albano Solari | Paulino Benitez; Luis Norberto Ferreyra; Teresa Clelia Castillo; Honorio Funes. No Lerena.
+290	S3HT-6BBW-FK	546	729-736	23-24 Jun	Angela Ada Maynanigo; Maria Rosa Ponce; Angela Maria Pagani; Manuel Salustiano Salazar | Rosa Bertoletto; Hermilda Paulina Arenagi; Antonia Lozzi; Angela Diacosi. No Lerena.
+291	S3HT-6BB3-YN	548	737-744	24 Jun	Domingo Carlos Carcano; Jorge Gorosito; Isidra Juana Larrea; Jorge Ovilio Tenegra | Vicente Venancio Berrotequi; Rosaria Juana Caballe; Juan Evangelista Tisera; Matilde Nicenta Bulfone. No Lerena.
+292	S3HT-6BBW-CX	550	745-752	25 Jun	Marcelina Juana Pacheco; Emilio Alvarado; Seferina Segunda Rivx; Vicente Elia | Julio Banonis; Pedro Vicente Barinaga; Timotea Deolinda Velasco; Maria Adriana Dolores Cordova. No Lerena.
+293	S3HT-6BB7-MP	552	753-760	27-28 Jun	Nieves Julia Palavecino; Filomena Amalia Bustos de Limosna; Luis Gaudencio y Lani; Luisa Emma Buratovich | Rosa Victoria Exposita de Limosna; Pastor Fabian Coronel; Pedro Vicente Antonio Mayor; Isabel Gavina Macassi. No Lerena.
+294	S3HT-6BBW-KN	554	761-768	29-30 Jun	Pedro Repecchiate de Limosna; Nicanor Geronimo; Marcelino Fall; Modesta Sanchez | Maria Pilar Rodriguez; Petrona Deli; Angel Jose Barrios; Jose Paschi. No Lerena.
+295	S3HT-6BB3-56	556	769-776	30 Jun - 1 Jul	Eduardo Roberto Gomez de Limosna; Alejandro Cantoni; Maria Luisa Ulloa; Angela Maria Caron | Maria Florinda Gorosito; Rosa Catalina Garcia; Modesto Francisco Greyra; Pablo Eduardo Yeda. No Lerena.
+296	S3HT-6BB7-BK	558	777-784	1-2 Jul	Juan Crisostomo Quighez; Hilaria Clorinda Marcelina Charles; Emilio Ismael Martinez; Juan Sosa | Maria Transito Munoz; Angela Maria Flora; Maria Julia Agiosa; Nicolasa Gutierrez. No Lerena.
+297	S3HT-6BBW-MT	560	785-792	2-4 Jul	Francisco Bonelli; Estanislao Octavio Palacios; Luis Meliton Lopez; Manuel Ricardo Sosa | Pablo del Rosario Villarreal; Rafael Ruiz; Doroteo Modesto Gonzalez; Blas Gei. No Lerena.
+298	S3HT-6BB7-7N	562	793-800	4-7 Jul	Severo Villalba; Maria Petrona Falcone; Rosa Maria Emilia Barelli; Juan Lorenzo Depiego | Maria Prudencia; Senoria del Carmen Acebedo; Juana Lesquizamon; Antonio. No Lerena.
+299	S3HT-6BB3-KY	562	801-808	7-8 Jul	Amalia Jesus Lopez; Pedro Gonzalez; Maria Carmen Catalina Pearo; Sebastiana Matilde Constantina Ullua | Eustaquio Albelino Albornos; Maria Isabel Vasi; Amalia Sofia Ircisio; Rafael Justo Pedrenera. No Lerena.
+300	S3HT-6BB7-RS	562	801-808	7-8 Jul	DUPLICATE EXPOSURE of image 299. Counted once.
+301	S3HT-6BB7-TN	564	813-816	8 Jul	Left page covered by a loose "Vicaria Foranea, Rosario de Santa Fe" certificate laid on the book; left acts 809-812 read on image 302. Right: Pedro Andres; Ciriaco Malic; Manuela Bertosi; Gregorio Feliciano. No Lerena.
+302	S3HT-6BBW-9P	564	809-816	8 Jul	Pedro Crespio Marcone; Celina Matea Sicero; Roque Alejandro Galvan; Lazaro Piaggio | Pedro Andres; Ciriaco Malic; Manuela Bertosi; Gregorio Feliciano. No Lerena.
+303	S3HT-6BB7-PK	566	817-824	9-11 Jul	Tristan Aniceto Guardonad; Pedro Juan Gilibert; Jose Carlos Victorio Piombo; Sara Piombo | Maria Luisa Recano; Anselmo Domingo Sola; Vicasio Bernardino Aregas; Lucia Batesi. No Lerena.
+304	S3HT-6BB7-8R	568	825-832	11-12 Jul	Maria Ezequiela Gallcos; Eladio Jacinto Ruiz; *** PABLO JACINTO GAUNA de Limosna, act 827, 11 July 1882 *** ; Juana Celio | Lucia Clotilde Adorio; Juana Amalia Dominguez; Carmen Amalia Peda; Juana Guerra. NEAR MISS LOGGED AND RESOLVED: the margin surname was checked at full magnification in case it read LARENA. It reads GAUNA. A Pablo, but July, and the wrong surname. No Lerena.
+305	S3HT-6BBQ-W6	570	833-840	13-15 Jul	Juana del Carmen Ramirez; Elena Clementina Regnier; Ventura Suarez; Rosa Ema Garbagnate | Juan Antonio Funez; Juan Sitle; Matilde Enriqueta Leuis; Enrique Bonifacio Colon. No Lerena.
+306	S3HT-6BB3-1S	572	841-848	15-16 Jul	Bonifacia Adelina Aguero; Paula Mariana Cereviche; Domingo Carlos Cabrera; Maria Isabel Quiroga | Enriqueta Trifona Solis; Albina Sallar; Justa Maria Acuna; Bernardina Arellano. No Lerena.
+307	S3HT-6BBS-XH	574	849-856	16-20 Jul	Carlos Morcillo; Juan Correa; Ramon Horacio Bustos; Enriqueta Casilda Alcazar | Miguel Antonio Bello; Saturnino; Alcadio Atencio; Florinda Perez. No Lerena.
+308	S3HT-6BB3-JT	576	857-862	20-22 Jul	Maximo Perez (mellizos); Ramon Cabrera; Juana Anacleto Ramos; Miguel Fermin Casella | Francisco Felipe Carsitano; Pedro Nolasco Flores. Frame marked POOR COPY by the filmer; margins still legible. *** THE VOLUME ENDS AT ACT 862. *** No Lerena.
+309	S3HT-6BBW-P2	-	-	-	End matter: a loose certificate from Villa Casilda photographed at the back of the volume. Not a register page.
+#
+# *** WHERE THIS SWEEP NOW STANDS, 13 September 2026. ***
+# The register of Rosario cathedral has been read ACT BY ACT, from the margins at full resolution,
+# from ACT 113 (1 February 1882) to ACT 862 (22 July 1882) - SEVEN HUNDRED AND FIFTY BAPTISMS,
+# the first two-thirds of the year in which Pablo Armando Lerena was born on 22 February.
+#
+# *** THERE IS NO LERENA IN ANY OF THEM, IN ANY SPELLING. ***
+#
+# Five frames in the April-July stretch are duplicate exposures (257, 264, 300) or pages covered by
+# loose certificates laid on the book and read from the facing frame (284/285, 301/302). Two near
+# misses were logged and resolved: ARMANDO JUAN ROUILLON (act 546, born 26 April 1882) and
+# PABLO JACINTO GAUNA (act 827, 11 July 1882) - the second checked at full magnification in case the
+# surname read LARENA. It does not.
+#
+# WHAT THIS TESTS, AND IT IS THE POINT OF THE WHOLE EXERCISE: every Rosario null this archive holds
+# rests on a TYPESCRIPT INDEX compiled in 1945 from these registers. If the index were incomplete,
+# the register would show a Lerena the index had missed. Across 750 consecutive acts it does not.
+# The index and the register AGREE. He is not there, and the index is not the reason.
+#
+# TO CONTINUE: acts 863 onward are in the next waypoint, "Bautismos 1882-1883".

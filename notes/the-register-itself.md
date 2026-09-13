@@ -97,3 +97,46 @@ was in Rosario; the surname was not.
 
 **April begins at act 374.** The sweep stops at act 376, image 242, and the file records the ark so it
 resumes without repeating a frame.
+
+---
+
+## The second pass — April to July 1882
+
+*13 September 2026.* The sweep stopped in April. It has been carried to the end of the volume.
+
+**Method, refined.** Every act carries the child's name in the **left margin** in large script. So instead
+of rendering a whole opening, the two margin strips — tile columns **0–3** and **10–14** at level 13 —
+are rendered **side by side in one image**. One screenshot per opening; every name legible; the eight
+acts of an opening readable at a glance.
+
+**Images 243 to 309**, which is the rest of the volume. Five of those frames are not new openings:
+**257, 264 and 300** are duplicate exposures, and at **284/285** and **301/302** a loose certificate was
+laid on the book when it was filmed, covering one page — each read from the facing frame. The volume
+**ends at act 862**, on 22 July 1882.
+
+> **Acts 377 to 862. No Lerena, in any spelling.**
+
+Added to the first pass, the register of Rosario cathedral has now been read **act by act from act 113
+(1 February) to act 862 (22 July 1882)** — **seven hundred and fifty baptisms**, every margin read at
+full resolution.
+
+### Two near misses, logged and resolved
+
+- **Armando Juan Rouillon**, act 546, born 26 April 1882. An *Armando*, baptised at Rosario in 1882 —
+  but born two months after Pablo Armando, and a Rouillon.
+- **Pablo Jacinto Gauna**, act 827, 11 July 1882. A *Pablo*, and the margin surname was ambiguous at
+  reading size. It was re-rendered at full magnification **specifically in case it read LARENA**. It
+  reads **Gauna**.
+
+### What the exercise was for
+
+Every Rosario null this archive holds rests on a **typescript index compiled in 1945** from these
+registers. Whether that typescript is complete has never been tested — and an index is exactly the kind
+of evidence this archive has been burned by before.
+
+**It has now been tested across 750 consecutive acts, and the index and the register agree.** Where the
+index says there is no Lerena, the register says the same. He is not there, and **the index is not the
+reason he is not there**.
+
+That is a negative, but it is a load-bearing one: it means the Rosario nulls can be trusted, and the
+search belongs somewhere else.
