@@ -97,9 +97,13 @@ for fp in html_files:
 # that reaches the rendered HTML is a field somebody forgot to pass through emph().
 for fp in html_files:
     s = open(fp, encoding="utf-8").read()
-    n = s.count("***")
+    # Only a PAIR means a field escaped emph() - the TSV convention is always paired.
+    # A lone *** is ordinary prose (a commit subject once said "stop printing *** at readers"),
+    # and flagging that would train me to ignore this check.
+    n = len(re.findall(r"\*\*\*[^*]+\*\*\*", s))
     if n:
-        bad.append((fp, f"{n} literal ***", "emphasis markers reached the page - render it through emph()"))
+        bad.append((fp, f"{n} unconverted *** ... *** field(s)",
+                    "emphasis markers reached the page - render it through emph()"))
 
 print(f"{len(pages)} pages, {len(html_files)} html files, {sum(len(v) for v in ids.values())} ids")
 print(f"{len(bad)} broken")
