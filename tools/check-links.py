@@ -48,7 +48,8 @@ for fp in html_files:
         if not h.startswith(BASE):
             continue
         target, _, frag = h[len(BASE):].partition("#")
-        target = target or "/"
+        # Assets carry a ?v=<hash> cache-busting fingerprint; strip it before testing the path.
+        target = target.split("?", 1)[0] or "/"
         if target.endswith(ASSET):
             if not os.path.exists(os.path.join(ROOT, target.lstrip("/"))):
                 bad.append((fp, h, "missing asset"))

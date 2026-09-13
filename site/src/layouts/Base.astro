@@ -1,5 +1,14 @@
 ---
 import { u } from "../lib/url.js";
+import fs from "node:fs";
+import crypto from "node:crypto";
+// The stylesheet is a plain public asset, so a browser that has it cached keeps serving the old one
+// after a CSS change - which showed up the first time a new class was added and returning visitors
+// would have seen the page laid out by yesterday's rules. Fingerprint it with a hash of its contents
+// so the URL changes exactly when the file does, and never otherwise.
+const cssHash = crypto.createHash("sha1")
+  .update(fs.readFileSync(new URL("../../public/styles.css", import.meta.url)))
+  .digest("hex").slice(0, 8);
 const { title, dek, eyebrow, bare } = Astro.props;
 const SITE = "The Lerena Archive";
 const nav = [
@@ -22,7 +31,7 @@ const here = Astro.url.pathname;
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Libre+Franklin:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" />
-<link rel="stylesheet" href={u("/styles.css")} />
+<link rel="stylesheet" href={u("/styles.css") + "?v=" + cssHash} />
 </head>
 <body class={bare ? "is-home" : ""}>
 <header class="site">
