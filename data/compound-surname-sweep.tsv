@@ -1,0 +1,24 @@
+# *** SEARCHING THE COMPOUND SURNAME - a technique this archive did not have until 14 September 2026,
+# and which has now found three things that four days of searching LERENA could not. ***
+#
+# Uruguayan and Argentine registers name people by BOTH parents' surnames. Every child of Luis
+# Eugenio Lerena Lenguas and Julia Juanico is a LERENA JUANICO; every child of Luis Lerena and
+# Justiniana Lenguas is a LERENA LENGUAS; Gilberto's are LERENA SALVANACH. A search on the bare
+# surname finds them only when the indexer happened to strip the second half.
+search	result	what it gave
+"Lerena Juanico"	*** 35 documents *** in the Montevideo civil marriage registers 1902-1914	*** JOSE JULIO LERENA JUANICO AS JUEZ DE PAZ *** - the sixth child, signing marriage acts as "Juez de Paz y Oficial del Estado Civil de la Primera Seccion". And the route to Ema Sixta's records.
+"Massera" "Lerena"	2 documents that matter	*** A NINTH LERENA MARRIAGE DISPENSATION *** - Jose Pedro Massera's petition of 19 June 1913 to marry "Dona Ema Sixta LERENA JUANICO, feligresa de la metropolitana". This archive's own sweep of that register missed it, because its formula was "LERENA FELIGRESA" and the compound surname sits between the two words.
+"Lerena Traibel"	*** ZERO *** across the whole corpus	The Lerena Traibel branch, which this archive has mentioned since its first week, is NOT in the full-text corpus under that compound. It does not attach here.
+"Avelino Lerena"	About 45 documents, Montevideo 1836-1995	He is real and he is in the right city - godfather to a foundling, "Eusebia ABELINA Exposita", at the Catedral on 18 September 1836, the child named for him. *** But NO record found names his own parents, *** so he is still not shown to be Sancho's son and the Traibel branch stays unattached.
+"Pablo Armando Lerena"	*** ZERO ***	
+"Juan Carlos Lerena y Maria"	*** ZERO ***	
+"Juan Carlos Lerena"	2 documents, both already known and neither ours	Re-run without the recordCountry filter that silently breaks full-text. *** THE CENTRAL NULL HOLDS. ***
+#
+# *** THE LESSON, ARRIVING FOR THE THIRD TIME IN TWO DAYS. ***
+# The surname is the least reliable handle on this family. It has now hidden records three separate
+# ways: a death filed under SERENA that eight sweeps walked past; a military rank read as a forename,
+# making a "Geraldo Dios Lenguas" who never existed; and a phrase search that cannot see a woman
+# because her surname is two words long.
+#
+# *** THE WORKING RULE: search the COMPOUND surname, the MOTHER'S name, and the rarest stable word in
+# the household - and treat the bare surname as the search of last resort, not first. ***

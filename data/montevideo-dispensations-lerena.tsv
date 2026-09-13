@@ -57,4 +57,37 @@ date	dispensed_to	impediment	married_to	parish	branch
 # and all requiring dispensation FOR CONSANGUINITY. The Trinidad baptisms read the same day give
 # Bernabe LERENA married to Casimira PELAEZ, with four children between 1871 and 1885. Neither file
 # says so on its own. Recorded in data/lerena-pelaez-trinidad.tsv.
+#
+# ============ A NINTH DISPENSATION, AND WHY THIS FILE'S SEARCH MISSED IT ============
+# Found 14 September 2026.
+#
+#   Arquidiocesis de Montevideo, Marriage Dispensation Records, JUNE 1913 - ark 3:1:3Q9M-C9B7-P72J-V:
+#   "Senor Provisor, JOSE PEDRO MASSERA ... digo: que debiendo contraer matrimonio con Dona EMA SIXTA
+#    LERENA JUANICO, FELIGRESA DE LA METROPOLITANA, para lo cual se han llenado ya todos los tramites
+#    del caso; y teniendo ya de antemano designado el dia en que debe celebrarse el acto, ocurro a
+#    V.S. suplicando quiera dispensarme UNA CONCILIAR PROCLAMA ... Montevideo, Junio 19 de 1913."
+#
+# *** THIS IS OUR OWN EMA SIXTA *** - sixth child of Luis Eugenio Lerena Lenguas and Julia Juanico -
+# marrying the philosopher Jose Pedro Massera eleven days later, 30 June 1913. The dispensation is of
+# ONE of the three banns, on grounds of the date already being fixed. No consanguinity.
+#
+# *** WHY THE SEARCH AT THE TOP OF THIS FILE MISSED HER, and it is not bad luck. ***
+# The two formulae used were "Lerena el impedimento" and "LERENA FELIGRESA" - the second built on the
+# assumption that a Lerena bride is named with her parish immediately after her surname.
+# She is written *** "Dona Ema Sixta LERENA JUANICO, feligresa de la metropolitana" ***.
+# The compound surname sits between "Lerena" and "feligresa", and the phrase search cannot see her.
+#
+# *** SO THE COUNT OF EIGHT IS WRONG, AND WORSE, THE SEARCH WAS SYSTEMATICALLY BLIND TO EXACTLY THE
+# PEOPLE THIS ARCHIVE CARES MOST ABOUT. *** Every child of Luis Eugenio and Julia carries the compound
+# LERENA JUANICO. Every child of Luis Lerena and Justiniana carries LERENA LENGUAS. A formula keyed to
+# "Lerena" + next word could never have found any of them.
+#
+# *** WHAT THAT DOES TO THIS FILE'S CONCLUSION. *** The headline finding - "NO LERENA-LERENA
+# DISPENSATION AT ALL, 1856-1932; every Lerena in it marries OUT" - is NOT withdrawn, but it is no
+# longer safe on the evidence offered for it. It rests on a search that demonstrably misses compound
+# surnames. *** IT NEEDS RE-RUNNING on "Lerena Juanico", "Lerena Lenguas", "Lerena Salvanach" and the
+# bare surname with the place-facet rather than a following word. ***
+#
+# This is the third time in two days that the compound surname has been the thing that hid a record:
+# the SERENA misindexing, the "Geraldo Dios" ghost made out of a military rank, and now this.
 
