@@ -1,5 +1,6 @@
 ---
 import { u } from "../lib/url.js";
+import SiblingArchives from "../components/SiblingArchives.astro";
 import fs from "node:fs";
 import crypto from "node:crypto";
 // The stylesheet is a plain public asset, so a browser that has it cached keeps serving the old one
@@ -75,6 +76,7 @@ const here = Astro.url.pathname;
 
 <footer class="site">
   <div class="wrap">
+    <SiblingArchives />
     <p class="foot">An evidence-first family archive for the Lerena family — of Rosario and the River Plate,
     of the Cape and the Rand, and of Brisbane. Every claim carries its confidence. <strong>Living people appear by name
     only</strong> &mdash; no dates, no places, no photographs.</p>

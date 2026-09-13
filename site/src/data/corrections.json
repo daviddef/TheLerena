@@ -99,44 +99,44 @@
  },
  {
   "date": "2026-09-13",
-  "severity": "The four LERINA arrivals of 1889 were excluded partly for the wrong reason",
-  "what_was_said": "The register said they were excluded because \"LERINA here is an Italian surname, not a variant of the Spanish Lerena.\" That is a claim about the NAME, reached from an index without opening the manifest - the same move that got the Armando Lorena card wrong and had to be corrected in public. The four are still excluded, but on the dates and the composition of the party: they arrive in 1889, aged 59, 55, 21 and 17, seven years after Pablo Armando was born at Rosario, and the party contains no Juan Carlos and no Maria. The surname claim is withdrawn as a reason. Flagged by this archive's own search box, which noticed that all four LERINA entries carried the same unexamined label.",
-  "what_is_true": "",
-  "how_it_was_caught": ""
+  "severity": "serious",
+  "what_was_said": "That the four LERINA arrivals of 1889 were excluded because \"LERINA here is an Italian surname, not a variant of the Spanish Lerena\"",
+  "what_is_true": "They ARE excluded, but on their dates and the composition of the party: they arrive in 1889 aged 59, 55, 21 and 17, seven years after Pablo Armando was born at Rosario, and the party contains no Juan Carlos and no Maria. The claim about the SURNAME is withdrawn as a reason - it was reached from an index without opening the manifest, which is the move that got the Armando Lorena card wrong.",
+  "how_it_was_caught": "This archive's own search box, which showed all four LERINA entries carrying the same unexamined label."
  },
  {
   "date": "2026-09-13",
-  "severity": "Two different Arturo Lerenas were written up as one man - caught within the hour",
-  "what_was_said": "A table published this evening said the Arturo Lerena in army drawer Cajon 985 was born at Montevideo in 1858, son of Avelino Lerena and Ambrosia Traibel. That was a conflation. The Uruguayan record it rested on names the man's wife as EMA REGULES - and Ema Regules married JUAN ARTURO Lerena Traibel (1861-1936), whose children were born at Montevideo between 1881 and 1887. The Arturo in the drawer married AMALIA DIAZ and had children in La Pampa, Mendoza and Entre Rios between 1889 and 1897. Two men, one surname, one given name. The row is withdrawn and the \"four branches\" claim is now three. Caught by opening the FamilySearch Tree profile that the record was attached to, which is the same move - go to the underlying record - that this archive keeps having to learn.",
-  "what_is_true": "",
-  "how_it_was_caught": ""
+  "severity": "serious",
+  "what_was_said": "That the Arturo Lerena in army drawer Cajon 985 was born at Montevideo in 1858, son of Avelino Lerena and Ambrosia Traibel",
+  "what_is_true": "Two men. The Uruguayan record relied on gives the wife as EMA REGULES, and Ema Regules married JUAN ARTURO Lerena Traibel (1861-1936), whose children were born at Montevideo 1881-87. The Arturo in the drawer married AMALIA DIAZ and had children in La Pampa, Mendoza and Entre Rios 1889-97. The row is withdrawn and a \"four branches\" claim became three.",
+  "how_it_was_caught": "Opening the FamilySearch Tree profile the record was attached to - going to the underlying record, which is the move this archive keeps having to relearn."
  },
  {
   "date": "2026-09-13",
-  "severity": "The family charts were reading every parent edge one way only",
-  "what_was_said": "The people pages build their charts from data/relations.tsv, where a link is written once - \"X, father, Y\". The builder recorded that on X's page and never reversed it onto Y's, so EVERY PARENT IN THE ARCHIVE showed an empty children list unless somebody had separately written an explicit \"child\" row. Thirty-eight parent edges were being read one way; only fifteen explicit child rows existed. Pablo Armando, Juan Carlos, Maria Lerena, Mary Septima Taylor and Roque all had children in the data and none on their charts. Fixed in tools/build-people.py by reversing father/mother edges into the parent's children list and de-duplicating against the explicit rows. Found while wiring in the Montevideo household, whose four documented children were rendering as none. Fixing it immediately exposed a second fault: the register deliberately keeps a row for the mangled machine-index reading of a person already resolved - \"ARMAND[O] LORENA (as machine-indexed) = Pablo Armando LERENA\" - and reversing the edges made Juan Carlos and Maria appear to have two children where they have one. The builder now recognises that \"= <name>\" convention as an ALIAS and neither counts it as a child nor as a sibling.",
-  "what_is_true": "",
-  "how_it_was_caught": ""
+  "severity": "serious",
+  "what_was_said": "Every person page showed an empty children list unless somebody had separately written an explicit \"child\" row",
+  "what_is_true": "A link is written once in data/relations.tsv - \"X, father, Y\" - and the builder recorded it on X's page and never reversed it onto Y's. Thirty-eight parent edges were read one way against fifteen compensating child rows. Pablo Armando, Juan Carlos, Maria Lerena, Mary Septima Taylor, Roque, Roseline Forbes and Doreen Chappell all had children in the data and none on their charts. Fixed in the builder, with aliases excluded so a machine-index variant is not counted as a second child.",
+  "how_it_was_caught": "Wiring in the Montevideo household, whose four documented children rendered as none."
  },
  {
   "date": "2026-09-13",
-  "severity": "Thirteen register rows were unreachable by name, and an edge written for them would have hit the wrong person",
-  "what_was_said": "The people builder looked people up with a plain dictionary keyed on name. ELEVEN NAMES APPEARED TWICE OR THREE TIMES in the register - three Francisco Lerenas, three Jose Llerenas, two Carlos Lerenas, two Gilbertos, two Avelino Carloses, and others - so the later row silently won and thirteen rows could not be addressed at all. Slugs were disambiguated; names never were. Nothing was visibly wrong because no relationship edge happened to name an ambiguous person - but the next edge added would have attached to the wrong man, silently. Found while about to add twenty-four such edges. Every duplicate is now given a short factual tag in the register - \"Carlos LERENA (b.1885, arr. 1926)\" against \"Carlos LERENA (b.1884, Retiro baptism)\" - and the builder now REFUSES TO BUILD if two rows share a name, listing them.",
-  "what_is_true": "",
-  "how_it_was_caught": ""
+  "severity": "serious",
+  "what_was_said": "Nothing, visibly - which is why it went unnoticed",
+  "what_is_true": "The people builder looked people up by name, and ELEVEN NAMES appeared twice or three times in the register - three Francisco Lerenas, three Jose Llerenas, two Carlos Lerenas, two Gilbertos. The later row silently won and thirteen rows could not be addressed at all. No edge happened to name an ambiguous person, so nothing looked wrong - but the next edge added would have attached to the wrong man in silence. Duplicates now carry a distinguishing tag and the builder REFUSES TO BUILD if two rows share a name.",
+  "how_it_was_caught": "Caught on the way to adding twenty-four relationship edges, several of them to a \"Carlos LERENA\" and a \"Gilberto LERENA\"."
  },
  {
   "date": "2026-09-13",
-  "severity": "\"Of the 1 relationships in the chart above\"",
-  "what_was_said": "A plural where the count could be one. Three people pages carried it. Fixed.",
-  "what_is_true": "",
-  "how_it_was_caught": ""
+  "severity": "minor",
+  "what_was_said": "\"Of the 1 relationships in the chart above\"",
+  "what_is_true": "A plural where the count can be one. Three people pages carried it.",
+  "how_it_was_caught": "An audit of all 138 person pages after the chart builder was changed."
  },
  {
   "date": "2026-09-13",
-  "severity": "The front page said 129 people in the register when there were 138",
-  "what_was_said": "A hand-typed count, correct when written and stale within days - the register grew by nine that afternoon alone. It now derives from the data like everything else on the site, so it cannot go stale again. The archive's own rule is that pages are generated from the TSVs precisely so that page and data cannot drift; this figure had escaped it.",
-  "what_is_true": "",
-  "how_it_was_caught": ""
+  "severity": "minor",
+  "what_was_said": "129 people in the register",
+  "what_is_true": "138, and climbing. The figure was typed by hand, correct when written and stale within days. It now derives from the data, like everything else on this site - the whole method being that pages are generated from the TSVs so page and data cannot drift. This one had escaped it.",
+  "how_it_was_caught": "Reading the front page instead of assuming it."
  }
 ]

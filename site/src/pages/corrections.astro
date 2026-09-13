@@ -6,6 +6,13 @@ import rows from "../data/corrections.json";
 const serious = rows.filter(r => r.severity === "serious").length;
 const minor = rows.length - serious;
 const byDate = [...rows].sort((a, b) => b.date.localeCompare(a.date));
+const MONTHS = ["January","February","March","April","May","June",
+                "July","August","September","October","November","December"];
+const pretty = (d) => { const [y, m, day] = d.split("-");
+  return `${Number(day)} ${MONTHS[Number(m) - 1]} ${y}`; };
+const dayId = (d) => "c-" + d;
+const days = [...new Set(byDate.map(r => r.date))]
+  .map(d => ({ date: d, rows: byDate.filter(r => r.date === d) }));
 ---
 <Base title="Corrections"
       eyebrow={`${rows.length} entries · ${serious} serious`}
@@ -27,18 +34,35 @@ const byDate = [...rows].sort((a, b) => b.date.localeCompare(a.date));
   </div>
 </section>
 
-<Rule name="arrows" label="Every one of them" />
-
 <section class="blk">
-  {byDate.map(r => (
-    <div class="panel" style={`margin-top:18px;border-left:3px solid ${r.severity === "serious" ? "var(--terra)" : "var(--rule-strong)"}`}>
-      <div class="lab">{r.date} · {r.severity}</div>
-      <p style="margin:10px 0 0"><strong>It said:</strong> {r.what_was_said}</p>
-      <p style="margin:10px 0 0"><strong>It is:</strong> {r.what_is_true}</p>
-      <p class="cap" style="margin:10px 0 0"><strong>Caught by:</strong> {r.how_it_was_caught}</p>
-    </div>
-  ))}
+  <h2 id="contents">Every one of them, by the day it was caught</h2>
+  <div class="prose" style="margin-top:12px">
+    <ol class="cols2">
+      {days.map(d => (
+        <li><a href={"#" + dayId(d.date)}>{pretty(d.date)}</a>
+          <span class="cap"> &mdash; {d.rows.length} {d.rows.length === 1 ? "correction" : "corrections"},
+            {" "}{d.rows.filter(r => r.severity === "serious").length} serious</span></li>
+      ))}
+    </ol>
+  </div>
 </section>
+
+{days.map(d => (
+  <>
+    <Rule name="arrows" label={pretty(d.date)} />
+    <section class="blk">
+      <h2 id={dayId(d.date)} class="vh">{pretty(d.date)}</h2>
+      {d.rows.map(r => (
+        <div class="panel" style={`margin-top:18px;border-left:3px solid ${r.severity === "serious" ? "var(--terra)" : "var(--rule-strong)"}`}>
+          <div class="lab">{r.severity}</div>
+          <p style="margin:10px 0 0"><strong>It said:</strong> {r.what_was_said}</p>
+          <p style="margin:10px 0 0"><strong>It is:</strong> {r.what_is_true}</p>
+          <p class="cap" style="margin:10px 0 0"><strong>Caught by:</strong> {r.how_it_was_caught}</p>
+        </div>
+      ))}
+    </section>
+  </>
+))}
 
 <section class="blk">
   <div class="note"><strong>Found something else wrong?</strong> That is the most valuable thing anyone can
