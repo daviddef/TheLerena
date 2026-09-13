@@ -3,6 +3,7 @@ import Base from "../layouts/Base.astro";
 import Rule from "../components/Rule.astro";
 import { u } from "../lib/url.js";
 import data from "../data/changes.json";
+import { emph } from "../lib/text.js";
 const days = data.days;
 const mechanical = data.mechanical;
 const total = days.reduce((n, d) => n + d.commits.length, 0);
@@ -56,11 +57,11 @@ const pretty = (d) => {
       <h2 id={dayId(d.date)} class="vh">{pretty(d.date)}</h2>
       {d.commits.map(c => (
         <div class="panel" style="margin-top:16px">
-          <p style="margin:0;font-size:1.05rem"><strong>{c.subject}</strong></p>
+          <p style="margin:0;font-size:1.05rem"><strong set:html={emph(c.subject)} /></p>
           {c.body && (
             <details style="margin-top:10px">
               <summary class="cap" style="cursor:pointer">Why</summary>
-              <p class="cap" style="margin:10px 0 0;white-space:pre-wrap">{c.body}</p>
+              <p class="cap" style="margin:10px 0 0;white-space:pre-wrap" set:html={emph(c.body)} />
             </details>
           )}
           <p class="cap" style="margin:10px 0 0">

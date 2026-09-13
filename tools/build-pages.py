@@ -4,7 +4,12 @@
 Same discipline as build-people.py: the TSV is the source of truth, the page is generated,
 so a page and its data cannot drift apart.
 """
-import json, pathlib
+import json, pathlib, re
+
+def plain(s):
+    """The TSVs mark emphasis as *** like this ***. The search index is plain text
+    rendered into JS, so strip the markers rather than carry them into the box."""
+    return re.sub(r"\*\*\*\s*(.+?)\s*\*\*\*", r"\1", str(s or ""), flags=re.S)
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "site" / "src" / "data"
@@ -21,7 +26,8 @@ def rows(name):
         out.append(dict(zip(hdr, cells)))
     return out
 
-for name in ("corrections", "errands", "gaps", "timeline", "photograph-these"):
+for name in ("corrections", "errands", "gaps", "timeline", "photograph-these",
+             "sources-consulted"):
     data = rows(name)
     (OUT / f"{name}.json").write_text(json.dumps(data, indent=1, ensure_ascii=False) + "\n",
                                       encoding="utf-8")
@@ -35,25 +41,28 @@ places = json.loads((OUT / "places.json").read_text(encoding="utf-8"))
 
 idx = []
 for p in people:
-    idx.append({"t": p["name"], "k": "person", "u": f"/people/{p['slug']}/",
-                "d": " · ".join(x for x in [p["born"], p["birthplace"], p["occupation"], p["source"]]
-                                if x and x != "-"),
+    idx.append({"t": plain(p["name"]), "k": "person", "u": f"/people/{p['slug']}/",
+                "d": plain(" · ".join(x for x in [p["born"], p["birthplace"], p["occupation"], p["source"]]
+                                if x and x != "-")),
                 "s": p["statusRaw"]})
 for pl in places:
     idx.append({"t": pl["name"], "k": "place", "u": f"/places/{pl['slug']}/",
                 "d": f"{pl['count']} of this surname recorded here", "s": ""})
 for r in rows("timeline"):
-    idx.append({"t": f"{r['year']} — {r['what'][:90]}", "k": "timeline", "u": "/timeline/",
+    idx.append({"t": plain(f"{r['year']} — {r['what'][:90]}"), "k": "timeline", "u": "/timeline/",
                 "d": r["source"], "s": r["kind"]})
 for r in rows("corrections"):
     idx.append({"t": f"Correction, {r['date']}", "k": "correction", "u": "/corrections/",
-                "d": r["what_is_true"][:180], "s": r["severity"]})
+                "d": plain(r["what_is_true"])[:180], "s": r["severity"]})
 for r in rows("errands"):
-    idx.append({"t": r["what"], "k": "errand", "u": "/errands/", "d": r["who"], "s": r["status"]})
+    idx.append({"t": plain(r["what"]), "k": "errand", "u": "/errands/", "d": r["who"], "s": r["status"]})
 for r in rows("gaps"):
-    idx.append({"t": r["gap"], "k": "gap", "u": "/gaps/", "d": r["why_it_may_never_close"][:180], "s": ""})
+    idx.append({"t": plain(r["gap"]), "k": "gap", "u": "/gaps/", "d": plain(r["why_it_may_never_close"])[:180], "s": ""})
 for r in rows("photograph-these"):
-    idx.append({"t": r["what"], "k": "photograph", "u": "/photograph-these/", "d": r["where"], "s": ""})
+    idx.append({"t": plain(r["what"]), "k": "photograph", "u": "/photograph-these/", "d": r["where"], "s": ""})
+for r in rows("sources-consulted"):
+    idx.append({"t": plain(r["source"])[:90], "k": "source", "u": "/sources/",
+                "d": plain(r["used_for"])[:180], "s": r["tier"]})
 
 PAGES = [
     ("The line", "/direct-line/", "The descent, generation by generation, with a record behind every step"),

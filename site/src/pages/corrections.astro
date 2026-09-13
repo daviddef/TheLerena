@@ -3,6 +3,7 @@ import Base from "../layouts/Base.astro";
 import Rule from "../components/Rule.astro";
 import { u } from "../lib/url.js";
 import rows from "../data/corrections.json";
+import { emph, plain } from "../lib/text.js";
 const serious = rows.filter(r => r.severity === "serious").length;
 const minor = rows.length - serious;
 const byDate = [...rows].sort((a, b) => b.date.localeCompare(a.date));
@@ -55,9 +56,9 @@ const days = [...new Set(byDate.map(r => r.date))]
       {d.rows.map(r => (
         <div class="panel" style={`margin-top:18px;border-left:3px solid ${r.severity === "serious" ? "var(--terra)" : "var(--rule-strong)"}`}>
           <div class="lab">{r.severity}</div>
-          <p style="margin:10px 0 0"><strong>It said:</strong> {r.what_was_said}</p>
-          <p style="margin:10px 0 0"><strong>It is:</strong> {r.what_is_true}</p>
-          <p class="cap" style="margin:10px 0 0"><strong>Caught by:</strong> {r.how_it_was_caught}</p>
+          <p style="margin:10px 0 0"><strong>It said:</strong> <span set:html={emph(r.what_was_said)} /></p>
+          <p style="margin:10px 0 0"><strong>It is:</strong> <span set:html={emph(r.what_is_true)} /></p>
+          <p class="cap" style="margin:10px 0 0"><strong>Caught by:</strong> <span set:html={emph(r.how_it_was_caught)} /></p>
         </div>
       ))}
     </section>

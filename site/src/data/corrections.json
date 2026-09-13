@@ -138,5 +138,12 @@
   "what_was_said": "129 people in the register",
   "what_is_true": "138, and climbing. The figure was typed by hand, correct when written and stale within days. It now derives from the data, like everything else on this site - the whole method being that pages are generated from the TSVs so page and data cannot drift. This one had escaped it.",
   "how_it_was_caught": "Reading the front page instead of assuming it."
+ },
+ {
+  "date": "2026-09-13",
+  "severity": "minor",
+  "what_was_said": "Paragraphs on six pages silently broke every emphasised phrase onto its own line",
+  "what_is_true": "The .prose rule is a CONTAINER style - display:flex, flex-direction:column, gap:16px - meant for a <div> wrapping several paragraphs. It had also been put on 21 individual <p> elements, and a flex container blockifies its children: every <em> and <strong> directly inside those paragraphs became a full-width block on its own line. About 27 phrases across /searched/, /argentina/, /taylor/, /register/, /method/ and /people/ read as broken-up fragments rather than sentences. Fixed with one rule, p.prose{display:block}, which keeps the intended 80ch measure.",
+  "how_it_was_caught": "Looking at the page in a browser after adding a section, and not believing the explanation that it was my own markup - the CSS had no rule matching the element, so the cause had to be inherited from the parent."
  }
 ]

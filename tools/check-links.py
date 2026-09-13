@@ -75,6 +75,32 @@ for fp in html_files:
         if hid != "contents" and hid not in linked:
             bad.append((fp, "#" + hid, "section missing from the contents list"))
 
+# CONTAINER CLASSES ON LEAF ELEMENTS.
+# .prose is display:flex/column - a container style for a <div> wrapping paragraphs.
+# It was also on 21 <p> elements, and a flex container blockifies its children, so every
+# <em> and <strong> inside them was thrown onto its own full-width line. 27 phrases across
+# six pages read as fragments for days before anyone looked. The CSS now neutralises
+# p.prose, but the misuse itself is still worth catching at the source.
+CONTAINERS = ("prose", "grid", "scroll", "cols2")
+LEAVES = ("p", "li", "td", "th", "span", "em", "strong", "a", "h1", "h2", "h3")
+for fp in html_files:
+    s = open(fp, encoding="utf-8").read()
+    for m in re.finditer(r'<(' + "|".join(LEAVES) + r')\b[^>]*\bclass="([^"]*)"', s):
+        tag, classes = m.group(1), m.group(2).split()
+        for c in classes:
+            if c in CONTAINERS and not (tag == "p" and c == "prose"):
+                bad.append((fp, f"<{tag} class=\"{c}\">",
+                            "container class on a leaf element - it will blockify the inline text inside"))
+
+# LITERAL EMPHASIS MARKERS.
+# The TSVs mark emphasis as *** like this ***; site/src/lib/text.js converts it. Anything
+# that reaches the rendered HTML is a field somebody forgot to pass through emph().
+for fp in html_files:
+    s = open(fp, encoding="utf-8").read()
+    n = s.count("***")
+    if n:
+        bad.append((fp, f"{n} literal ***", "emphasis markers reached the page - render it through emph()"))
+
 print(f"{len(pages)} pages, {len(html_files)} html files, {sum(len(v) for v in ids.values())} ids")
 print(f"{len(bad)} broken")
 for b in sorted(set(bad))[:40]:

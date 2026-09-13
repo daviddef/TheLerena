@@ -3,6 +3,7 @@ import Base from "../layouts/Base.astro";
 import Rule from "../components/Rule.astro";
 import { u } from "../lib/url.js";
 import rows from "../data/photograph-these.json";
+import { emph, plain } from "../lib/text.js";
 ---
 <Base title="Photograph these"
       eyebrow={`${rows.length} places · all of them in Cape Town`}
@@ -21,8 +22,8 @@ import rows from "../data/photograph-these.json";
   {rows.map(r => (
     <div class="panel" style={`margin-top:20px;${r.priority === "1" ? "border-left:3px solid var(--accent)" : ""}`}>
       <div class="lab">{r.priority} &middot; {r.where}</div>
-      <p style="margin:10px 0 0;font-size:1.08rem"><strong>{r.what}</strong></p>
-      <p style="margin:12px 0 0">{r.why_it_matters}</p>
+      <p style="margin:10px 0 0;font-size:1.08rem"><strong set:html={emph(r.what)} /></p>
+      <p style="margin:12px 0 0" set:html={emph(r.why_it_matters)} />
       <p class="cap" style="margin:12px 0 0"><strong>What to capture:</strong> {r.what_to_capture}</p>
     </div>
   ))}

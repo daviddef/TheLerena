@@ -5,6 +5,7 @@ import Ptree from "../../components/Ptree.astro";
 import { u } from "../../lib/url.js";
 import people from "../../data/people.json";
 import places from "../../data/places.json";
+import { emph, plain } from "../../lib/text.js";
 export function getStaticPaths(){ return people.map(p => ({ params:{ slug:p.slug }, props:{ p } })); }
 const { p } = Astro.props;
 const total = people.length;
@@ -35,7 +36,7 @@ const relReg = p.relRegister || 0;
 const relTree = p.relTree || 0;
 ---
 <Base title={p.name} eyebrow={eyebrow}
-      dek={p.note || "Everything this archive holds on this person, and the record that produced them."}>
+      dek={plain(p.note) || "Everything this archive holds on this person, and the record that produced them."}>
 
 <Ptree p={p} />
 
@@ -44,7 +45,7 @@ const relTree = p.relTree || 0;
     <div>
       <h2 style="margin-top:0">What the record says</h2>
       <div class="rec" style="margin-top:16px">
-        {says.map(([k, v, w]) => (<><div class="k">{k}</div><div class="v">{v}</div><div class="w">{w}</div></>))}
+        {says.map(([k, v, w]) => (<><div class="k">{k}</div><div class="v" set:html={emph(v)} /><div class="w">{w}</div></>))}
       </div>
       <div style="margin-top:18px"><Chip c={p.status} /></div>
     </div>
@@ -52,7 +53,7 @@ const relTree = p.relTree || 0;
     <div>
       <h2 style="margin-top:0">Where this comes from</h2>
       <div class="prose" style="margin-top:16px">
-        <p><strong>{p.source}</strong><br />
+        <p><strong set:html={emph(p.source)} /><br />
           {p.sourceUrl
             ? <a href={p.sourceUrl} rel="noopener">the record &#8599;</a>
             : <span class="cap">{p.noLink}</span>}</p>
@@ -76,7 +77,7 @@ const relTree = p.relTree || 0;
 
 {p.note && p.note.length > 160 && <section class="blk">
   <h2>What is known</h2>
-  <div class="prose" style="margin-top:16px"><p>{p.note}</p></div>
+  <div class="prose" style="margin-top:16px"><p set:html={emph(p.note)} /></div>
 </section>}
 
 {p.status === "connected" && <section class="blk">

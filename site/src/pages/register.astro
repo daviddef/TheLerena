@@ -2,6 +2,7 @@
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 import people from "../data/people.json";
+import { emph, plain } from "../lib/text.js";
 
 const total = people.length;
 const distinct = new Set(people.map(p => p.name.trim().toLowerCase())).size;
@@ -31,8 +32,8 @@ const enriched = people.map(p => ({
   ...p,
   says: saysOf(p),
   chip: CHIP[p.status] || CHIP.unplaced,
-  hay: [p.name, p.born, p.birthplace, p.nationality, p.occupation, p.where, p.source, p.note, p.status, p.surname]
-        .join(" ").toLowerCase(),
+  hay: plain([p.name, p.born, p.birthplace, p.nationality, p.occupation, p.where, p.source, p.note, p.status, p.surname]
+        .join(" ").toLowerCase()),
 }));
 
 const groups = Object.values(
@@ -110,8 +111,8 @@ for (const g of groups) g.rows.sort((a, b) => a.name.localeCompare(b.name));
               <tr data-s={p.hay} data-st={p.status}>
                 <td><a href={u(`/people/${p.slug}/`)}><strong>{p.name}</strong></a><br />
                   <span class={`chip ${p.chip[0]}`.trim()}>{p.chip[1]}</span></td>
-                <td>{p.says}
-                  {p.note && <><br /><span class="cap">{p.note}</span></>}</td>
+                <td><span set:html={emph(p.says)} />
+                  {p.note && <><br /><span class="cap" set:html={emph(p.note)} /></>}</td>
                 <td>
                   {p.sourceUrl
                     ? <a href={p.sourceUrl} rel="noopener">record &#8599;</a>

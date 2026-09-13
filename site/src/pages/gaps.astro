@@ -3,6 +3,7 @@ import Base from "../layouts/Base.astro";
 import Rule from "../components/Rule.astro";
 import { u } from "../lib/url.js";
 import rows from "../data/gaps.json";
+import { emph, plain } from "../lib/text.js";
 ---
 <Base title="What we cannot close"
       eyebrow={`${rows.length} of them`}
@@ -23,9 +24,9 @@ import rows from "../data/gaps.json";
 <section class="blk">
   {rows.map(r => (
     <div class="panel" style="margin-top:20px">
-      <p style="margin:0;font-size:1.08rem"><strong>{r.gap}</strong></p>
-      <p style="margin:12px 0 0"><span class="lab">What has been done</span><br />{r.what_has_been_done}</p>
-      <p style="margin:12px 0 0"><span class="lab">Why it may never close</span><br />{r.why_it_may_never_close}</p>
+      <p style="margin:0;font-size:1.08rem"><strong set:html={emph(r.gap)} /></p>
+      <p style="margin:12px 0 0"><span class="lab">What has been done</span><br /><span set:html={emph(r.what_has_been_done)} /></p>
+      <p style="margin:12px 0 0"><span class="lab">Why it may never close</span><br /><span set:html={emph(r.why_it_may_never_close)} /></p>
     </div>
   ))}
 </section>
