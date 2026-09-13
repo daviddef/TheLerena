@@ -1,9 +1,14 @@
 {
- "mechanical": 51,
+ "mechanical": 52,
  "days": [
   {
    "date": "2026-09-14",
    "commits": [
+    {
+     "sha": "008c5af",
+     "subject": "An original act says Francisco, and my tidy argument does not survive it",
+     "body": "I closed the Sancho question this afternoon and reopened it within the hour.\nBoth the page and the register now say so.\nWHAT I ARGUED: that Luis Lerena's father is SANCHO on three original acts -\n1836, 1842, 1850 - against only two 1846 entries reading FRANCISCO, and that\nthose two disqualify themselves because each ends \"asi consta del Legajo\nconservado en este Archivo\": they are later TRANSCRIPTS. Three originals\nagainst two copies is not a conflict.\n*** THEN AN ORIGINAL TURNED UP SAYING FRANCISCO. *** Following the new sister\nJusta Pastora Lerena to her second child - Catedral de la Inmaculada Concepcion,\nOctober 1833 - the act names her parents \"Maternos: FRANCISCO LERINA y Maria\nFernandez\". It is not a copy, and the copies-versus-originals argument dies\nwith it.\nWHAT IS ACTUALLY CONSTANT IS THE WIFE. Maria Fernandez is in every one of these\nrecords without exception, across seventy years and both spellings. Whoever the\nman was, he was married to her, and all these people are her descendants.\nAND THE READINGS SPLIT ACROSS METHODS, NOT ALONG THEM. The machine transcript\nread Sancho in 1831 and Francisco in 1833; I read Francisco off the 1846 images\nand Sancho off 1836, 1842 and 1850. So it is not that the machine is unreliable\nand I am not, which would have been the comfortable conclusion.\nThe leading reading is now a DOUBLE FORENAME - Sancho Francisco, or Francisco\nSancho - with clerks using either. Ordinary for the period, and it would mean\nnobody is wrong. Two men of one surname each married to a Maria Fernandez is\npossible and much less likely. Sancho's own marriage act would settle it and has\nnever been opened.\nThe whole table of eight records, with how each was read and whether it is an\noriginal, is in data/sancho-or-francisco.tsv - written at length precisely\nbecause the temptation was to keep the tidy version.\nTWO MORE LERENAS out of the same 1833 act: ABELINO and DOMINGA LERENA stood as\nits godparents, so almost certainly Justa Pastora's brother and sister. AVELINO\nis also the forename attached to the Lerena Traibel branch elsewhere in this\narchive - worth testing rather than assuming.\nRegister: 215 -> 217 people."
+    },
     {
      "sha": "cae12c1",
      "subject": "The President of Uruguay stood godfather to Sancho Llerena's grandson",
