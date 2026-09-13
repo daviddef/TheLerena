@@ -1,9 +1,14 @@
 {
- "mechanical": 32,
+ "mechanical": 33,
  "days": [
   {
    "date": "2026-09-13",
    "commits": [
+    {
+     "sha": "6f3c1ad",
+     "subject": "A contents list for the hypotheses page too, and a count got checked before it was published",
+     "body": "Hypotheses had grown to 5,250 words across thirteen sections with no way in -\nthe same fault as the searched page, and the second-longest reading page on the\nsite.\nEvery h2 now carries a stable id and the page opens with a list of the\npropositions, enforced by the same build check: a proposition cannot be added or\nrenamed without appearing in the list.\nThe first draft of the dek said \"Thirteen of them\". There are thirteen HEADINGS\nbut only TWELVE PROPOSITIONS - the thirteenth is the Retired section, which is\nwhere hypotheses go when they are disproved, not a hypothesis. It now reads\n\"Twelve propositions ... and a last section for the ones already retired\", which\nis what is actually on the page. Small, but this is the second count today that\nwould have been wrong if it had not been read back.\n198 pages, 251 ids, 0 broken."
+    },
     {
      "sha": "ea11615",
      "subject": "Make the changelog navigable, and say what it leaves out",
