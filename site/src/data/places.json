@@ -85,9 +85,15 @@
    "d-juan-lenguas",
    "d-felipe-lenguas",
    "dona-dominga-carvallo",
-   "dona-sixta-lenguas-gonzalez"
+   "dona-sixta-lenguas-gonzalez",
+   "josefa-lerena",
+   "alfredo-costa",
+   "don-antonio-lenguas",
+   "dona-juana-grandal",
+   "don-pascual-gonzalez",
+   "dona-josefa-grandal"
   ],
-  "count": 32
+  "count": 38
  },
  {
   "slug": "trinidad-flores",
@@ -364,7 +370,7 @@
   "slug": "retiro-buenos-aires",
   "name": "Retiro, Buenos Aires",
   "people": [
-   "carlos-lerena-2"
+   "carlos-lerena-salvanach"
   ],
   "count": 1
  },

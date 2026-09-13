@@ -112,17 +112,17 @@
   "sent_on": "2026-09-13"
  },
  {
-  "what": "Put the ark on the last two rows that say IMAGE READ",
+  "what": "Put the ark on the last row that says IMAGE READ",
   "who": "me",
   "status": "ready",
-  "detail": "*** THREE OF THE FIVE ARE DONE, 13 September 2026. *** Julia Juanico (act 405, ark 3:1:3Q9M-C9BW-NLLP), the godfather Enrique Juanico (same act), Juliana Joaquina Gonzalez (same act, plus act 1720), and BARTOLOME LLERENA - re-opened and checked line by line, ark 3:1:S3HT-XK5S-TP, \"Llerena / Bartolome / 45\" with the double L. *** A TRAP FOUND ON THE WAY: the film's own ?i=86 is NOT the page this archive recorded as image 86 *** - it lands on an Aguirrebarrena household with no Llerena on it, so the viewer's numbering and the numbering in the old citation do not agree. The ark was recovered from his index record instead, which is the reliable route. STILL MISSING: Ema Sixta Lerena Juanico (La Union marriage register act 90, 30 June 1913 - searching her with Massera as spouse returns only her CHILDREN'S records, not the marriage) and Sancho Llerena Aguilar.",
+  "detail": "*** FOUR OF THE FIVE ARE RECORDED. *** Julia Juanico and her godfather Enrique (act 405, ark 3:1:3Q9M-C9BW-NLLP), Juliana Joaquina Gonzalez (same act plus act 1720), and BARTOLOME LLERENA - re-opened and checked line by line, ark 3:1:S3HT-XK5S-TP, \"Llerena / Bartolome / 45\" with the double L. A TRAP FOUND ON THE WAY: the film's own ?i=86 is NOT the page this archive recorded as image 86; it lands on an Aguirrebarrena household with no Llerena on it. The ark came from his index record instead, which is the reliable route. *** THE ONE STILL MISSING IS EMA SIXTA LERENA JUANICO *** - La Union marriage register act 90, 30 June 1913. Two rounds of searching on 13 and 14 September failed: searching her with MASSERA as spouse returns only her CHILDREN'S records, and searching Jose Pedro Massera for 1912-14 returns passenger lists and index cards with no image ark. The act is almost certainly not name-indexed at image level. *** WHAT WOULD WORK: browse the La Union marriage register film directly by DGS *** - which needs the FamilySearch catalogue, and the way in is the DIRECT CATALOGUE ID rather than its search box. See data/rosario-films.tsv for that trick.",
   "sent_on": "-"
  },
  {
   "what": "Open the images behind Gilberto Lerena Lenguas's parentage",
   "who": "me",
-  "status": "ready",
-  "detail": "Two Uruguayan parish index entries (arks 1:1:6D38-DNHP and 1:1:6DFW-VY4P) both give Gilberto's parents as Luis and Justiniana Lenguas, which would make the co-founder of the Argentine Stud Book a BROTHER of Luis Eugenio. *** This is the single highest-value unopened image in the archive. *** Until the priest's hand confirms it, the racing dynasty joins the trunk only at index level.",
+  "status": "done",
+  "detail": "*** DONE 13 September 2026, and it came out primary. *** Act No. 1447, San Francisco de Asis, folio 504, 31 October 1886 - image ark 3:1:3Q9M-C9BW-Z9RM-W, read at DeepZoom level 12. It baptises Gilberto's daughter Maria Angelica Julia, \"hija legitima de Don Gilberto Lerena y de Dona Julia Salvanach, orientales\", and names the paternal grandparents \"Don LUIS y Dona JUSTINIANA LENGUAS\" - the couple named as Luis Eugenio's parents in his marriage act of 1864 and his death act of 1901. *** THE GODMOTHER IS DONA JULIA JUANICO DE LERENA, Luis Eugenio's own wife. *** It also produced two new people: Don Cristobal and Dona Angela Alvarez, Julia Salvanach's parents. THE SECOND IMAGE (ark 3:1:3Q9M-C9B7-BQZD-W, the baptism of Raul Alfredo Luis) is still unopened, and is worth opening as a second witness.",
   "sent_on": "-"
  },
  {
