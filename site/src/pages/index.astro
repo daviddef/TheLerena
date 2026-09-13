@@ -4,6 +4,7 @@ import { u } from "../lib/url.js";
 import people from "../data/people.json";
 // Derived, not typed. A hand-written count here went stale within the week it was written.
 const registerCount = String(people.length);
+const WORDS = ["no","One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Eleven","Twelve","Thirteen","Fourteen","Fifteen"];
 const stats = [
   ["1882", "born at Rosario de Santa Fe on 22 February — from his own passport", "/passport/"],
   ["1911", "married at St Dominic's, Wynberg, six years after their first son was born", "/taylor/"],
@@ -145,7 +146,7 @@ const stats = [
 </section>
 
 <section class="blk">
-  <h2>Eight numbers</h2>
+  <h2>{WORDS[stats.length] ?? String(stats.length)} numbers</h2>
   <div class="grid g3" style="margin-top:24px">
     {stats.map(([n, l, h]) => (
       <a class="cardlink" href={u(h)}>
