@@ -138,7 +138,10 @@ hdr = rows[0]
 for r in rows[1:]:
     d = dict(zip(hdr, r + [""] * len(hdr)))
     detail, status = d.get("detail", ""), d.get("status", "").strip()
-    done_words = re.search(r"\b(DONE|ANSWERED|FOUND|CLOSED)\b", detail)
+    # Only a claim that the WHOLE errand is finished counts, and such a claim is made at
+    # the START of the detail. Matching anywhere fired on "a trap FOUND on the way" and on
+    # "four of the five are DONE" - progress narration inside a legitimately open errand.
+    done_words = re.search(r"\b(DONE|ANSWERED|CLOSED)\b", detail[:90])
     if done_words and status in ("ready", "sent", "waiting-on-david"):
         warns.append("errand still %r but its own detail says %s: %s"
                      % (status, done_words.group(1), d.get("what", "")[:70]))
