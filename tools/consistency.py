@@ -75,13 +75,44 @@ for (key, parent), group in kids.items():
                 hard.append(f"{a['name']} (b.{a['born']}) and {b['name']} (b.{b['born']}) share a "
                             f"{key} ({parent}) but are only {gap} months apart - both cannot be right")
 
-# 3. A date field that carries a hedge and a precise date at once.
+# 3. Two rows that are probably one person.
+# build-people.py refuses EXACT duplicate names, which is why they never happen. It does not
+# see "Dona Sixta LENGUAS (2nd wife of Candido Juanico)" and "Dona Sixta LENGUAS Gonzalez
+# (2nd wife of Candido Juanico)" - two rows for one woman, written hours apart on 13 Sep 2026.
+# Compare on the first two words plus any parenthetical, which is what actually collides.
+def key(nm):
+    base = " ".join(re.sub(r"\(.*?\)", "", nm).split()[:2]).lower()
+    par = re.search(r"\((.*?)\)", nm)
+    return (base, (par.group(1).lower() if par else ""))
+# Collisions somebody has looked at. Adding a pair here is a claim that someone checked,
+# so it carries the reason. The sibling Blazevic archive keeps its CHECKED_SHARED the same way.
+CHECKED_PAIRS = {
+    ("Bartolome LLERENA - Cordoba origin", "Bartolome LLERENA"):
+        "deliberate: the second row is a cross-reference pointing at the Cordoba Llerena family",
+    ("Maria Luisa Lina LERENA Gazo", "Maria Luisa LERENA"):
+        "different people: Ysaac's daughter at Trinidad in 1875, and Gilberto's in the 1895 census",
+    ("Maria E. LERENA", "Maria E. C. LERENA"):
+        "different people in one census household - but see the age note against Maria E. C.",
+}
+CHECKED_PAIRS = {tuple(sorted(k)): v for k, v in CHECKED_PAIRS.items()}
+seen_key = {}
+for p in people:
+    k = key(p["name"])
+    if not k[0]:
+        continue
+    if k in seen_key and seen_key[k] != p["name"]:
+        pair = tuple(sorted([p["name"], seen_key[k]]))
+        if pair not in CHECKED_PAIRS:
+            soft.append(f"{p['name']!r} and {seen_key[k]!r} may be one person entered twice")
+    seen_key[k] = p["name"]
+
+# 4. A date field that carries a hedge and a precise date at once.
 for p in people:
     b = str(p.get("born") or "")
     if re.match(r"^\s*c\.", b) and re.search(r"-\d\d-\d\d", b):
         soft.append(f"{p['name']} has a hedged AND precise birth: {b!r}")
 
-# 4. A row claiming an image was read but carrying no ark anywhere.
+# 5. A row claiming an image was read but carrying no ark anywhere.
 for p in people:
     src = (p.get("source") or "") + " " + (p.get("note") or "")
     if re.search(r"IMAGE READ|image read", src) and "ark" not in src.lower():

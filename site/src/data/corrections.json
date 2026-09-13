@@ -215,5 +215,19 @@
   "what_was_said": "That FamilySearch film image arks cannot be reached by script, so each opening must be got by driving the viewer",
   "what_is_true": "*** Wrong, and wrong because I tested the wrong URL form. *** /ark:/61903/3:1:<ARK>?i=<N> ignores the i parameter and keeps the same image - which is what I tested, and what I generalised from. /search/film/<DGS>?i=<N> RESOLVES TO IMAGE N, and the ark can be read straight out of the page title. I published the pessimistic claim in the register file and in a commit message within the hour.",
   "how_it_was_caught": "Trying the other URL form while starting the Rosario death registers, and getting a different ark back."
+ },
+ {
+  "date": "2026-09-13",
+  "severity": "minor",
+  "what_was_said": "That Luis Eugenio Lerena Lenguas was born about 1845, and his brother was \"Alberto Otario\"",
+  "what_is_true": "*** Born 9 FEBRUARY 1843, on the act of his own baptism *** - the 1845 came from his stated age of 56 on his death registration, and an age at death is an estimate. And his brother is *** ALBERTO OCTAVIO ***, not Alberto Otario; the latter is how FamilySearch indexed a hand that plainly reads Octavio. Their sister, indexed as \"Justinia\", is JUSTINIANA MAURICIA MAXIMA.",
+  "how_it_was_caught": "Opening the 1846 and 1850 baptism images instead of trusting the index that summarised them."
+ },
+ {
+  "date": "2026-09-13",
+  "severity": "minor",
+  "what_was_said": "A row asserting that Maria E. C. Lerena, born 1869, was a daughter of Gilberto Lerena, born 1854",
+  "what_is_true": "He would have been *** FIFTEEN. *** All the record says is that she was in his household at the 1895 census; \"daughter\" was this archive's reading of a household, not the census's word. The row is left in place with the contradiction stated against it rather than quietly re-labelled.",
+  "how_it_was_caught": "A new near-duplicate check in tools/consistency.py, which flagged her beside another Maria E. Lerena and made somebody read both rows."
  }
 ]
