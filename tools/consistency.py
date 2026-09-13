@@ -93,6 +93,10 @@ CHECKED_PAIRS = {
         "different people: Ysaac's daughter at Trinidad in 1875, and Gilberto's in the 1895 census",
     ("Maria E. LERENA", "Maria E. C. LERENA"):
         "different people in one census household - but see the age note against Maria E. C.",
+    ("Maria Carlota LERENA Salvanach", "Maria Carlota MORATORIO Lerena"):
+        "different children ten years apart: Gilberto and Julia Salvanach's daughter baptised at "
+        "Recoleta in 1890, and Fernando Moratorio and Josefa Lerena Traibel's baptised at Union in "
+        "1880. A Lerena naming habit, not one person",
 }
 CHECKED_PAIRS = {tuple(sorted(k)): v for k, v in CHECKED_PAIRS.items()}
 seen_key = {}
