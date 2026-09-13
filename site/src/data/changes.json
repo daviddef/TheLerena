@@ -1,9 +1,14 @@
 {
- "mechanical": 34,
+ "mechanical": 35,
  "days": [
   {
    "date": "2026-09-13",
    "commits": [
+    {
+     "sha": "91ae0ba",
+     "subject": "The contents lists I added today were unreadable on a phone",
+     "body": "Checked the site at 375px for the first time - something I had not done at all\ntoday - and the three contents lists added this afternoon were still in two\ncolumns, each about 110px wide, breaking every entry across three or four lines.\nThey were written with an inline style=\"columns:2\", and an inline style cannot\ncarry a media query. Moved to a .cols2 class that drops to one column below\n620px, with break-inside:avoid so an entry cannot be split across the fold.\nApplied to all three - searched, hypotheses, changes."
+    },
     {
      "sha": "706d8b1",
      "subject": "Fingerprint the stylesheet, because a cached one had been quietly lying",
