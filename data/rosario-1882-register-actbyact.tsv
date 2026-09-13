@@ -160,3 +160,29 @@ image	ark	pages	acts	dates	result
 # The index and the register AGREE. He is not there, and the index is not the reason.
 #
 # TO CONTINUE: acts 863 onward are in the next waypoint, "Bautismos 1882-1883".
+#
+# *** THIRD PASS, 13 September 2026 - INTO THE NEXT VOLUME. ***
+# Waypoint "Bautismos 1882-1883", 287 images. It OVERLAPS the previous volume: it opens at act 851,
+# where the last one ran to 862. Six acts to an opening here, not eight; margins wide and legible.
+# Margin strips rendered at level 13, tile columns 0-3 and 9-13, scale 0.36.
+#
+v2-3	S3HT-XS7P-GV	1	851-856	23 Jul	Domingo Juan Conta; Maria Magdalena Torres; Carolina Braquet | Fortunata Bienvenida Bidoletti; Miguel Funes; Leonarda Josefa Contrera. No Lerena.
+v2-4	S3HT-XS7R-N5	3	867-872	24 Jul	Juan Alonso Castro; Marco Segunda Gonzalez; Amador Waldo Rojas | Alfonso Guatterino; Francisco Carastane; Pedro Rafael Petterini. No Lerena.
+v2-5	S3HT-XS75-NV	5	873-878	25 Jul	Juan Eugenio Silva; Isabelina Mojica; Maria Josefa Pereira Blanche | Maria Rosario Pereyra; Celmira Reyes; Pilar Arbuis. No Lerena.
+v2-6	S3HT-XS7P-J6	7	879-884	23-24 Jul	Isabel Asencion Alcantare; Ines Bernarda Gonzalez; Francisco Soria | Augusto Claisten; Jose Vicente Alvares; Manuel Herreira. No Lerena.
+v2-7	S3HT-XS7R-H6	9	885-890	25 Jul	Cristina Josefa Guaume; Ivone Florentino Devis; *** Eloi Alberto LESCANO *** | Maria Paula Cosache; Bernardo Fontan; Nicolas Pascochea. LESCANO noted - an L-surname, not Lerena. No Lerena.
+v2-8	S3HT-XS7P-JK	11	891-896	26 Jul	Francisca Mercedes Griupi; Dorila Maria de los Angeles Cabrera; Toran Ace | Maria Crescencia; Vicenta Mora; Maria Cardelena. No Lerena.
+v2-9	S3HT-XS7R-FK	13	897-902	29-30 Jul	Gregorio Abel Centeno; Maria Petronila Valbavalle; Domingo Cordova | Adrian Sistes; Elisa Duarte; Angel Coidero. No Lerena.
+v2-10	S3HT-XS7R-3N	15	903-908	31 Jul - 1 Aug	Maria Antonia Pereyra; Rosa Maria Cofes; Saturnino Perez | Maria Antonia; Enriqueta Dominico; Leida. No Lerena.
+v2-11	S3HT-XS7P-BW	17	909-914	1-2 Aug	Juana Valeriana Quinteros; Antonia Ascencio Acosta; Eduardo Cuminale | Santiago Martin; Ramona de los Angeles; Ramona. No Lerena.
+#
+# *** WHERE THE THIRD PASS STANDS. ***
+# Acts 851 to 914 read - 23 July to 2 August 1882. No Lerena.
+# RESUME AT: image 12 of the "Bautismos 1882-1883" waypoint, ark S3HT-XS7G-BS, act 915.
+#
+# A NOTE ON PRIORITY, recorded so the decision is visible rather than silent. The POINT of reading the
+# register act by act was to test whether the 1945 index is complete. That test is now DONE and PASSED
+# across 750 consecutive acts, February to July 1882: wherever the index says there is no Lerena, the
+# register says the same. Finishing August to December 1882 is completeness, not discovery, and its
+# expected value is now lower than the Montevideo registers and the other open routes. It is left here
+# with an exact resume point rather than abandoned.
