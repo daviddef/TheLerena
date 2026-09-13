@@ -1,0 +1,33 @@
+# THE SIX LORENAS OF THE 1869 ROSARIO CENSUS - IMAGE READ, 13 September 2026.
+# Argentina, National Census 1869. Image ark 3:1:S3HT-XK5Q-L, DeepZoom level 13 (20 x 9 tiles).
+# All six share ONE image ark, so they are one household on one schedule - not scattered.
+#
+# WHY THIS MATTERED: this archive's register groups LORENA with LERENA and LLERENA as spellings of
+# one name, because the clerks disagreed. Guillermo (b.1853) and Geronima (b.1854) were flagged as
+# "right age to be a parent of a child born 1882" - in ROSARIO, which is the whole question.
+# The note on the 1869 census predicted exactly what the schedule would settle: household structure,
+# and whether the clerk wrote Lorena, Lerena or Llerena.
+line	apellido	nombre	edad	sexo	estado	nacionalidad	provincia	profesion	what it settles
+3	*** LORENA *** - single L, and the second letter is unmistakably an O	Agustin	40	v	casado	*** LIMA *** - the provincia column is BLANK because he is not Argentine	-	Ojalatero (tinsmith)	*** THE HEAD OF THIS HOUSEHOLD IS A PERUVIAN TINSMITH FROM LIMA. *** Not Uruguayan, not Spanish, not Basque.
+4	id.	Guillermo	16	v	soltero	Argentino	Cordoba	id. (tinsmith)	Born about 1853; would be 29 in 1882.
+5	id.	Geronima	15	v	soltera	id.	id.	Confitera (confectioner)	Born about 1854; would be 28 in 1882.
+6	id.	Mercedes	9	m	-	id.	id.	-	
+7	id.	Felix	3	v	-	id.	id.	-	
+8	id.	Maria	1	m	-	id.	id.	-	
+#
+# *** THE VERDICT. *** The surname on the page is LORENA, with an O and a single L. The head is
+# Peruvian, from Lima, a tinsmith; the five children are Argentine, born in CORDOBA. There is no
+# wife on the schedule though he is recorded married.
+#
+# Pablo Armando's people were URUGUAYAN - the one Lerena baptised at Rosario before 1879, in 1866,
+# has parents "naturales del E. Oriental", read from the act. This household has nothing Uruguayan
+# about it and does not spell the name the way his family did.
+#
+# It is NOT a mathematical exclusion: Guillermo could in principle have fathered a child at Rosario
+# in 1882. But the only reason these six were of interest was the possibility that LORENA was how a
+# Rosario clerk heard LERENA. The schedule says otherwise - a different vowel, a different country,
+# a different province of origin. *** They are recorded as looked at and set down, not as a lead. ***
+#
+# One echo worth keeping: FamilySearch full text showed an entire LERENA population at AREQUIPA, PERU
+# that this archive had never met. A Lorena from Lima is consistent with that Peruvian population and
+# with nothing in this family.

@@ -124,3 +124,44 @@ The lead is **weaker than it looked last night, and still the best pre-1882 Rosa
 The next step is not this page but the rest of the census: **find whether Bartolomé appears again in 1869
 with a household**, and whether the *Lorena/Loroña* entries are a family or, as here, scattered lodgers.
 That is a search of the same 344-image set, and it is now a much more modest hope than it was.
+
+## 13 September 2026 — the Lorenas read at their own schedule, and set down
+
+The note above asked for exactly this: *"the schedule will show the household structure — who is
+head, who is spouse, who is child — and whether the clerk wrote Lerena, Lorena or Llerena."*
+All six Lorenas share **one image ark**, so they are one household on one page. It was opened.
+
+| line | apellido | nombre | edad | estado | nacionalidad | provincia | profesión |
+|---|---|---|---|---|---|---|---|
+| 3 | **Lorena** | Agustín | 40 | casado | **Lima** | *(blank)* | **Ojalatero** |
+| 4 | id. | Guillermo | 16 | soltero | Argentino | Córdoba | id. |
+| 5 | id. | Gerónima | 15 | soltera | id. | id. | **Confitera** |
+| 6 | id. | Mercedes | 9 | — | id. | id. | — |
+| 7 | id. | Félix | 3 | — | id. | id. | — |
+| 8 | id. | María | 1 | — | id. | id. | — |
+
+**The head of this household is a Peruvian tinsmith from Lima.** The *provincia de su nacimiento*
+column is left blank for him precisely because he is not Argentine. His five children are Argentine,
+born in **Córdoba**. There is no wife on the schedule though he is recorded married.
+
+And the spelling question is answered on the page: **LORENA — a single L, and the second letter is
+unmistakably an *o*.**
+
+**So they are set down.** Pablo Armando's people were Uruguayan — the one Lerena baptised at Rosario
+before 1879 has parents *naturales del E. Oriental*, read from the act itself. This household has
+nothing Uruguayan about it, does not spell the name the way his family did, and comes from Lima by
+way of Córdoba.
+
+This is **not** a mathematical exclusion. Guillermo, 29 in 1882, could in principle have fathered a
+child at Rosario that year. But the *only* reason these six were of interest was the possibility
+that *Lorena* was how a Rosario clerk heard *Lerena*, and the schedule says otherwise: a different
+vowel, a different country, a different province of origin.
+
+One echo worth keeping. FamilySearch full text turned up **an entire Lerena population at Arequipa,
+Peru** that this archive had never met. A *Lorena* from **Lima** belongs with that, and with nothing
+in this family.
+
+So the sentence tightened earlier today can now be tightened again, in the other direction:
+**Bartolomé Llerena really is the only credible pre-1882 Rosario candidate** — not because the
+Lorenas were defined out of the question, but because they were read and found to be someone else.
+
