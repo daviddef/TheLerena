@@ -2976,3 +2976,14 @@ Justiniana Lenguas, the paternal grandmother. The Lenguas married into both hous
 *Sixta* turns up among the children a decade later.
 
 Still nothing touches Pablo Armando.
+
+### Julia Juanicó's death — and the date it puts on her husband's
+
+**Montevideo civil registration nº 357 of 1910**, image read: *á las cuatro de la tarde del día de ayer,
+y en la calle Constituyente Nº 992, ha fallecido **Julia Juanicó de Lerena** … nacida en esta ciudad, de
+**sesenta y seis años de edad, de estado VIUDA***. Died **11 July 1910**, born Montevideo about 1844 —
+about twenty at her marriage in December 1864.
+
+**And a widow.** So **Luis Eugenio Lerena Lenguas died before 11 July 1910**, somewhere between 1880 and
+that summer. His own death record is not yet found — the search was cut short by a FamilySearch block,
+the third of the day and all of them earned.

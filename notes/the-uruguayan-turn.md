@@ -389,3 +389,27 @@ to one another. **The Lenguas married into both houses**, which is exactly why t
 turning up together, and why a *Sixta* appears among the children a decade later.
 
 **And still nothing touches Pablo Armando Lerena.**
+
+---
+
+## Julia's death, and what it dates
+
+**Montevideo, civil registration certificate nº 357 of 1910.** Image read at level 12.
+
+> *En Montevideo, el día doce de Julio de mil novecientos diez, á las once de la mañana … declarando que
+> á las cuatro de la tarde del día de ayer, y en la calle Constituyente Nº 992, ha fallecido **Julia
+> Juanicó de Lerena**, del sexo femenino, de nacionalidad oriental, nacida en esta ciudad, de **sesenta
+> y seis años de edad, de estado VIUDA**, y de profesión labores del sexo …*
+
+Declared by two clerks, Don Antonio Vicaría of calle Nicaragua 139 and Don Lorenzo Nicolás Baca, before
+the Juez de Paz of the fifteenth section.
+
+**She died on 11 July 1910, aged sixty-six**, born in Montevideo about 1844 — which makes her about
+twenty at her marriage in December 1864. Everything in the household fits without strain.
+
+**And she was a widow.** So **Luis Eugenio Lerena Lenguas died before 11 July 1910** — somewhere between
+1880, when their last child was born, and that summer. His own death record has not been found; the
+search for it was cut short when FamilySearch firewalled this session, which by then it had done three
+times in a day, all of it earned.
+
+It squares with their son Enrique's registration of May 1914, which calls both parents *fallecidos*.

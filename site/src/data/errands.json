@@ -96,5 +96,12 @@
   "status": "waiting-on-david",
   "detail": "The exclusion of Laurensa, Savina, Anna and Annunziata LERINA was narrowed on 13 Sep 2026 - they are excluded on their dates, not on a judgement about the surname - but the manifest page itself has never been seen. CEMLA's search lives at search.cemla.com and is gated by a CAPTCHA (field \"CaptchaCode\"), which this archive does not solve. Ship ADELAIDE LAVARELLO from Genova, arriving Buenos Aires 15 March 1889. NOTE BEFORE SPENDING TIME ON IT: CEMLA's public search returns INDEX ROWS, not images. If it offers no page image, the manifest itself is at the Archivo General de la Nacion and this cannot be closed online at all.",
   "sent_on": "2026-09-13"
+ },
+ {
+  "what": "Find the death of Luis Eugenio Lerena Lenguas",
+  "who": "me",
+  "status": "ready",
+  "detail": "Narrowed on 13 Sep 2026 to between 1880 - when his last child was born - and 11 July 1910, when his wife Julia Juanico died A WIDOW at calle Constituyente 992, Montevideo. Uruguayan civil registration covers the whole of that window. The search was cut short by a FamilySearch block; resume with a records search for Luis Lerena, death Montevideo 1880-1910, and with full text on \"Luis Eugenio Lerena\".",
+  "sent_on": "2026-09-13"
  }
 ]
