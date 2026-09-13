@@ -1,9 +1,14 @@
 {
- "mechanical": 36,
+ "mechanical": 37,
  "days": [
   {
    "date": "2026-09-13",
    "commits": [
+    {
+     "sha": "4805305",
+     "subject": "Two more notes brought up to what the acts now say",
+     "body": "Continuing the sweep for register notes that went stale this afternoon.\nGILBERTO LERENA still read only \"No proven link to Pablo Armando\" - true, and\nworth keeping - but said nothing of what was learned today: his father is\ndocumented rather than asserted, because his brother's marriage act of 1864\nnames their parents. It now also states the coincidence plainly, that a Lerena\nat the centre of Argentine breeding sits beside a Pablo Armando who trained and\nowned racehorses, while keeping the brotherhood itself marked secondary, since\nthat still rests on published genealogy and not an act.\nJUSTINIANA LENGUAS GONZALEZ was described from the trees. She is named in TWO\nacts read here - her son's marriage of 1864, at which she was a witness, and her\ngranddaughter's baptism of 1869, which calls her one of the abuelos paternos.\nHer note now leads with those and keeps only her own parentage as secondary. It\nalso carries the thing that makes the family legible: her sister Sixta married\nCandido Juanico, so the Lenguas married into both houses, and Sixta stood\ngodmother to the 1869 child."
+    },
     {
      "sha": "de89330",
      "subject": "Two register notes were still calling documented facts unverified",
