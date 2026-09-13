@@ -50,6 +50,11 @@ img{max-width:100%}
 .dek{font-family:var(--sans);font-size:15px;line-height:1.62;color:var(--ink-2);max-width:76ch}
 .cap{font-family:var(--sans);font-size:12.5px;line-height:1.55;color:var(--ink-3);margin-top:12px;max-width:92ch}
 .prose{max-width:80ch;display:flex;flex-direction:column;gap:16px}
+/* .prose is a CONTAINER style: flex-column with a gap between its block children.
+   Put it on a <p> and the flex box BLOCKIFIES every inline child, so each <em> and
+   <strong> is thrown onto its own full-width line. 21 paragraphs across six pages
+   did that. A paragraph is not a container - give it the measure, not the flex. */
+p.prose{display:block}
 .prose h3{font-family:var(--sans);font-size:12px;font-weight:600;letter-spacing:.13em;
   text-transform:uppercase;color:var(--ink-3);margin-top:14px}
 .scroll{overflow-x:auto;padding-bottom:6px}
