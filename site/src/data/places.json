@@ -92,11 +92,26 @@
    "maria-lorena",
    "maria-lerena",
    "juan-carlos-lerena",
-   "don-luis-lerena-lenguas",
+   "don-luis-eugenio-lerena-lenguas",
    "dona-julia-juanico",
    "don-luis-lerena-probably-luis-lerena-y-fernandez"
   ],
   "count": 16
+ },
+ {
+  "slug": "montevideo",
+  "name": "Montevideo",
+  "people": [
+   "don-jaime-herrera",
+   "luis-lerena",
+   "enrique-lerena-juanico",
+   "ema-sixta-lerena-juanico",
+   "dr-don-candido-juanico",
+   "dona-juliana-gonzalez",
+   "dona-justiniana-lenguas-gonzalez",
+   "laura-adela-lerena-juanico"
+  ],
+  "count": 8
  },
  {
   "slug": "gualeguaychu-entre-rios",
@@ -123,20 +138,6 @@
    "margarita-correas",
    "rafael-llerena",
    "lucrecia-llerena"
-  ],
-  "count": 7
- },
- {
-  "slug": "montevideo",
-  "name": "Montevideo",
-  "people": [
-   "don-jaime-herrera",
-   "luis-lerena",
-   "enrique-lerena-juanico",
-   "ema-sixta-lerena-juanico",
-   "dr-don-candido-juanico",
-   "dona-juliana-gonzalez",
-   "dona-justiniana-lenguas-gonzalez"
   ],
   "count": 7
  },

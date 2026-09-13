@@ -2955,3 +2955,24 @@ Six further indexed Uruguayan records name the same wife and the same children w
 **So the alternation is in the records, not in a tree.** What is still inference: that these are all
 one man (strong — same wife, same children, one city), and **Córdoba** specifically, which comes only
 from the tree. The census gives the province, not the town.
+
+### Laura Adela — a fifth child, and every grandparent named
+
+Looking for the *deaths* of Luis Lerena Lenguas and Julia Juanicó turned up something better. A **civil
+transcription of 1902** (Ley of 9 July 1888), entry Nº 51, image ark `3:1:3Q9M-CS2W-XSMB-7`, copying
+**Libro 34 de Bautismos, folio 271** of the Iglesia Matriz de Montevideo:
+
+> *En tres de Marzo … de mil ochocientos sesenta y nueve … bauticé … á **Laura Adela**, que nació el
+> veinte y siete de Junio del año anterior, hija legítima de **Don Luis Eugenio Lerena** y de
+> **Dª Julia Juanicó, orientales**. **Abuelos paternos Don Luis y Dª Justiniana Lenguas; maternos
+> Dn Cándido y Dª Juliana González.** Padrinos **Don Cándido Juanicó y Dª Sixta Lenguas**.*
+
+Three things at once: a **fifth child** (b. 27 June 1868, between María Julia and Luis); his full name,
+**Luis Eugenio**; and **both sets of grandparents stated outright in a parish act**, independently of
+the 1864 marriage and agreeing with it exactly.
+
+And the godmother is the knot: **Sixta Lenguas**, Cándido Juanicó's second wife, is the **sister** of
+Justiniana Lenguas, the paternal grandmother. The Lenguas married into both houses — which is why a
+*Sixta* turns up among the children a decade later.
+
+Still nothing touches Pablo Armando.

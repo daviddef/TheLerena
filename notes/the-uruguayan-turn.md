@@ -345,3 +345,47 @@ family. It is recorded because it is true and because it was reached from an act
 
 **It bears not at all on the central question.** Nothing connects this household to Pablo Armando
 Lerena or to Juan Carlos, and a striking name must not be allowed to do the work of evidence.
+
+---
+
+## A fifth child, and the act that names every grandparent
+
+Searching the Uruguayan record for the **deaths** of Luis Lerena Lenguas and Julia Juanicó turned up
+something else instead: a **fifth child**, and the best single record in the whole Montevideo file.
+
+It is a **civil transcription** — in March 1902 Luis Cincinato Bollo, Director General del Registro del
+Estado Civil, certified an old parish act into the civil register under the Uruguayan law of 9 July
+1888. Entry **Nº 51, "Lerena, Laura Adela"**, image ark `3:1:3Q9M-CS2W-XSMB-7`. The priest attests that
+in **libro treinta y cuatro de Bautismos, folio doscientos setenta y uno** stands this:
+
+> *En tres de Marzo del año de mil ochocientos sesenta y nueve el Presbítero Don José Miralda, con
+> licencia del infrascripto Cura Rector de esta Iglesia Matriz de Montevideo, bauticé solemnemente en
+> ella á **Laura Adela**, que nació el veinte y siete de Junio del año anterior, hija legítima de
+> **Don Luis Eugenio Lerena** y de **Dª Julia Juanicó, orientales**. **Abuelos paternos Don Luis y
+> Dª Justiniana Lenguas; maternos Dn Cándido y Dª Juliana González.** Padrinos **Don Cándido Juanicó
+> y Dª Sixta Lenguas**.*
+
+### Three things at once
+
+**A fifth child.** Laura Adela, born **27 June 1868**, baptised at the Matriz on 3 March 1869 — slotting
+neatly between María Julia (1865) and Luis (1872).
+
+**His full name.** *Don **Luis Eugenio** Lerena* — which no other record had given. The register and the
+charts now carry it.
+
+**Both sets of grandparents, in one line, in a parish act.** Everything this archive had inferred, or
+taken from a tree, about the generation above Luis Lerena Lenguas is simply *stated* here: his father
+Luis, his mother Justiniana Lenguas; her father Cándido, her mother Juliana González. Independently of
+the marriage act of 1864, and agreeing with it exactly.
+
+### And the godmother is the knot
+
+The godparents are **Don Cándido Juanicó** — the baby's maternal grandfather — and **Doña Sixta
+Lenguas**, whom he had married in 1857. And Sixta Lenguas González is the **sister** of Justiniana
+Lenguas González, the baby's paternal grandmother.
+
+So the child's two godparents are her mother's father and her father's mother's sister, who are married
+to one another. **The Lenguas married into both houses**, which is exactly why the two surnames keep
+turning up together, and why a *Sixta* appears among the children a decade later.
+
+**And still nothing touches Pablo Armando Lerena.**
