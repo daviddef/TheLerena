@@ -6,15 +6,20 @@ const order = { connected:0, high:1, interest:2, unplaced:3, excluded:4 };
 const sorted = [...people].sort((a,b) => (order[a.status]-order[b.status]) || a.name.localeCompare(b.name));
 const n = people.length;
 const conn = people.filter(p=>p.status==="connected").length;
+const excl = people.filter(p=>p.status==="excluded").length;
+const unpl = people.filter(p=>p.status==="unplaced").length;
+const NUM = ["no","One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten",
+             "Eleven","Twelve","Thirteen","Fourteen","Fifteen","Sixteen","Seventeen"];
+const word = (k) => NUM[k] ?? String(k);
 ---
 <Base title="The people" eyebrow={`${n} people of this surname, each with their own page`}
       dek="Every Lerena this archive has met, anywhere, with the record that produced them. Search the list and follow any name through to what is known about that person.">
 
 <section class="blk">
-  <p class="prose">Five are <strong>connected</strong> to the direct line. Seven have been
-    <strong>excluded</strong> — checked and shown not to belong. The rest are <strong>unplaced</strong>:
-    found, recorded, and honestly unresolved. That majority is not a failure of the work; it is what a rare
-    surname looks like before the connecting document turns up.</p>
+  <p class="prose">{word(conn)} are <strong>connected</strong> to the direct line. {word(excl)} have been
+    <strong>excluded</strong> — checked and shown not to belong. The remaining {unpl} are
+    <strong>unplaced</strong>: found, recorded, and honestly unresolved. That majority is not a failure of
+    the work; it is what a rare surname looks like before the connecting document turns up.</p>
   <input id="pq" type="search" placeholder={`Search all ${n} people…`} autocomplete="off"
          style="width:100%;margin-top:22px;padding:14px 16px;font:inherit;font-size:1.05rem;
                 background:var(--panel);color:var(--ink);border:1px solid var(--rule);border-radius:2px" />
