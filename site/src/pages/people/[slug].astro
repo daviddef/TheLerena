@@ -57,7 +57,7 @@ const relTree = p.relTree || 0;
             ? <a href={p.sourceUrl} rel="noopener">the record &#8599;</a>
             : <span class="cap">{p.noLink}</span>}</p>
         {relTotal > 0 && (
-          <p>Of the {relTotal} relationships in the chart above, <strong>{relReg}</strong>
+          <p>Of the {relTotal} relationship{relTotal === 1 ? "" : "s"} in the chart above, <strong>{relReg}</strong>
             {relReg === 1 ? " is" : " are"} written in a record this archive has read
             {relTree > 0
               ? <> and <strong>{relTree}</strong> come{relTree === 1 ? "s" : ""} from a family chart or a

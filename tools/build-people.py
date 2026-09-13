@@ -99,6 +99,18 @@ for pl in places:
     pl["count"] = len(pl["people"])
 
 # ---- relationships -------------------------------------------------------
+# A name that appears twice in the register would silently collapse here - the later row winning -
+# so an edge or a chart node written for that name would attach to the wrong person, and the other
+# row would be unreachable by name entirely. Slugs are disambiguated; names were not. Fail loudly.
+_dupes = {}
+for _p in people:
+    _dupes.setdefault(_p["name"], []).append(_p["slug"])
+_bad = {k: v for k, v in _dupes.items() if len(v) > 1}
+if _bad:
+    print("*** DUPLICATE REGISTER NAMES - relations and chart links will attach to the wrong row ***")
+    for k, v in _bad.items():
+        print(f"    {len(v)}x  {k}   -> {', '.join(v)}")
+    raise SystemExit("Give each register row a unique name, then rebuild.")
 by_name = {p["name"]: p for p in people}
 GEN = {"pablo-armando-lerena": 1, "mary-septima-taylor": 1, "juan-carlos-lerena": 0,
        "maria-lerena": 0, "roque-luis-armando-lerena": 2, "ricardo-juan-carlos-lerena": 2,

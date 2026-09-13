@@ -396,6 +396,13 @@
     "slug": "",
     "via": "register",
     "note": "Named as the mother on five of his sons' army cards"
+   },
+   {
+    "name": "Julia SALVANACH",
+    "dates": "",
+    "slug": "",
+    "via": "register",
+    "note": "Named as the mother on five of his sons' army enrolment cards, and with him in the 1895 census."
    }
   ],
   "children": [
@@ -405,6 +412,55 @@
     "slug": "carlos-augusto-federico-lerena",
     "via": "register",
     "note": "1895 census; Uruguayan civil registration"
+   },
+   {
+    "name": "Carlos LERENA (b.1884, Retiro baptism)",
+    "dates": "",
+    "slug": "carlos-lerena-2",
+    "via": "register",
+    "note": "His baptism gives the parents as ALBERTO - almost certainly Gilberto - Lerena and Julia Salvanach."
+   },
+   {
+    "name": "Luis F. LERENA",
+    "dates": "",
+    "slug": "luis-f-lerena",
+    "via": "register",
+    "note": "Same census household."
+   },
+   {
+    "name": "Maria A. LERENA",
+    "dates": "",
+    "slug": "maria-a-lerena",
+    "via": "register",
+    "note": "Same census household."
+   },
+   {
+    "name": "Maria C. LERENA",
+    "dates": "",
+    "slug": "maria-c-lerena",
+    "via": "register",
+    "note": "Same census household - the first of them born in Argentina."
+   },
+   {
+    "name": "Maria E. C. LERENA",
+    "dates": "",
+    "slug": "maria-e-c-lerena",
+    "via": "register",
+    "note": "1895 Argentine national census, Seccion 21 Subdivision 15, Buenos Aires - his household."
+   },
+   {
+    "name": "Maria E. LERENA",
+    "dates": "",
+    "slug": "maria-e-lerena",
+    "via": "register",
+    "note": "Same census household."
+   },
+   {
+    "name": "Maria Luisa LERENA",
+    "dates": "",
+    "slug": "maria-luisa-lerena",
+    "via": "register",
+    "note": "Same census household."
    },
    {
     "name": "Raul LERENA",
@@ -424,8 +480,8 @@
   ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 4,
-  "relRegister": 3,
+  "relTotal": 12,
+  "relRegister": 11,
   "relTree": 1
  },
  {
@@ -447,15 +503,70 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
+  "father": {
+   "name": "Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS)",
+   "dates": "1855–1912",
+   "slug": "gilberto-lerena",
+   "via": "register",
+   "note": "1895 Argentine national census, Seccion 21 Subdivision 15, Buenos Aires - his household."
+  },
   "mother": null,
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Carlos Augusto Federico LERENA",
+    "dates": "",
+    "slug": "carlos-augusto-federico-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Carlos LERENA (b.1884, Retiro baptism)",
+    "dates": "",
+    "slug": "carlos-lerena-2",
+    "via": "register"
+   },
+   {
+    "name": "Luis F. LERENA",
+    "dates": "",
+    "slug": "luis-f-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria A. LERENA",
+    "dates": "",
+    "slug": "maria-a-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria C. LERENA",
+    "dates": "",
+    "slug": "maria-c-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria E. LERENA",
+    "dates": "",
+    "slug": "maria-e-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria Luisa LERENA",
+    "dates": "",
+    "slug": "maria-luisa-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Raul LERENA",
+    "dates": "",
+    "slug": "raul-lerena",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0
  },
  {
@@ -477,15 +588,70 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
+  "father": {
+   "name": "Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS)",
+   "dates": "1855–1912",
+   "slug": "gilberto-lerena",
+   "via": "register",
+   "note": "Same census household."
+  },
   "mother": null,
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Carlos Augusto Federico LERENA",
+    "dates": "",
+    "slug": "carlos-augusto-federico-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Carlos LERENA (b.1884, Retiro baptism)",
+    "dates": "",
+    "slug": "carlos-lerena-2",
+    "via": "register"
+   },
+   {
+    "name": "Luis F. LERENA",
+    "dates": "",
+    "slug": "luis-f-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria A. LERENA",
+    "dates": "",
+    "slug": "maria-a-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria C. LERENA",
+    "dates": "",
+    "slug": "maria-c-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria E. C. LERENA",
+    "dates": "",
+    "slug": "maria-e-c-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria E. LERENA",
+    "dates": "",
+    "slug": "maria-e-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Raul LERENA",
+    "dates": "",
+    "slug": "raul-lerena",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0
  },
  {
@@ -515,15 +681,57 @@
    "note": "1895 census; Uruguayan civil registration"
   },
   "mother": {
-   "name": "Julia Salvanach",
+   "name": "Julia SALVANACH",
    "dates": "",
    "slug": "",
    "via": "register",
-   "note": "1895 census"
+   "note": "Uruguayan civil registration and baptism."
   },
   "spouses": [],
   "children": [],
   "siblings": [
+   {
+    "name": "Carlos LERENA (b.1884, Retiro baptism)",
+    "dates": "",
+    "slug": "carlos-lerena-2",
+    "via": "register"
+   },
+   {
+    "name": "Luis F. LERENA",
+    "dates": "",
+    "slug": "luis-f-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria A. LERENA",
+    "dates": "",
+    "slug": "maria-a-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria C. LERENA",
+    "dates": "",
+    "slug": "maria-c-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria E. C. LERENA",
+    "dates": "",
+    "slug": "maria-e-c-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria E. LERENA",
+    "dates": "",
+    "slug": "maria-e-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria Luisa LERENA",
+    "dates": "",
+    "slug": "maria-luisa-lerena",
+    "via": "register"
+   },
    {
     "name": "Raul LERENA",
     "dates": "",
@@ -564,11 +772,11 @@
    "note": "Argentina Military Records 1911-1936"
   },
   "mother": {
-   "name": "Julia Salvanach",
+   "name": "Julia SALVANACH",
    "dates": "",
    "slug": "",
    "via": "register",
-   "note": "Argentina Military Records 1911-1936"
+   "note": "Named on his army enrolment card."
   },
   "spouses": [],
   "children": [],
@@ -577,6 +785,48 @@
     "name": "Carlos Augusto Federico LERENA",
     "dates": "",
     "slug": "carlos-augusto-federico-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Carlos LERENA (b.1884, Retiro baptism)",
+    "dates": "",
+    "slug": "carlos-lerena-2",
+    "via": "register"
+   },
+   {
+    "name": "Luis F. LERENA",
+    "dates": "",
+    "slug": "luis-f-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria A. LERENA",
+    "dates": "",
+    "slug": "maria-a-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria C. LERENA",
+    "dates": "",
+    "slug": "maria-c-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria E. C. LERENA",
+    "dates": "",
+    "slug": "maria-e-c-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria E. LERENA",
+    "dates": "",
+    "slug": "maria-e-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria Luisa LERENA",
+    "dates": "",
+    "slug": "maria-luisa-lerena",
     "via": "register"
    }
   ],
@@ -605,15 +855,70 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
+  "father": {
+   "name": "Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS)",
+   "dates": "1855–1912",
+   "slug": "gilberto-lerena",
+   "via": "register",
+   "note": "Same census household."
+  },
   "mother": null,
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Carlos Augusto Federico LERENA",
+    "dates": "",
+    "slug": "carlos-augusto-federico-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Carlos LERENA (b.1884, Retiro baptism)",
+    "dates": "",
+    "slug": "carlos-lerena-2",
+    "via": "register"
+   },
+   {
+    "name": "Luis F. LERENA",
+    "dates": "",
+    "slug": "luis-f-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria C. LERENA",
+    "dates": "",
+    "slug": "maria-c-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria E. C. LERENA",
+    "dates": "",
+    "slug": "maria-e-c-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria E. LERENA",
+    "dates": "",
+    "slug": "maria-e-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria Luisa LERENA",
+    "dates": "",
+    "slug": "maria-luisa-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Raul LERENA",
+    "dates": "",
+    "slug": "raul-lerena",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0
  },
  {
@@ -635,15 +940,70 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
+  "father": {
+   "name": "Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS)",
+   "dates": "1855–1912",
+   "slug": "gilberto-lerena",
+   "via": "register",
+   "note": "Same census household - the first of them born in Argentina."
+  },
   "mother": null,
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Carlos Augusto Federico LERENA",
+    "dates": "",
+    "slug": "carlos-augusto-federico-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Carlos LERENA (b.1884, Retiro baptism)",
+    "dates": "",
+    "slug": "carlos-lerena-2",
+    "via": "register"
+   },
+   {
+    "name": "Luis F. LERENA",
+    "dates": "",
+    "slug": "luis-f-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria A. LERENA",
+    "dates": "",
+    "slug": "maria-a-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria E. C. LERENA",
+    "dates": "",
+    "slug": "maria-e-c-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria E. LERENA",
+    "dates": "",
+    "slug": "maria-e-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria Luisa LERENA",
+    "dates": "",
+    "slug": "maria-luisa-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Raul LERENA",
+    "dates": "",
+    "slug": "raul-lerena",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0
  },
  {
@@ -665,15 +1025,70 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
+  "father": {
+   "name": "Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS)",
+   "dates": "1855–1912",
+   "slug": "gilberto-lerena",
+   "via": "register",
+   "note": "Same census household."
+  },
   "mother": null,
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Carlos Augusto Federico LERENA",
+    "dates": "",
+    "slug": "carlos-augusto-federico-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Carlos LERENA (b.1884, Retiro baptism)",
+    "dates": "",
+    "slug": "carlos-lerena-2",
+    "via": "register"
+   },
+   {
+    "name": "Luis F. LERENA",
+    "dates": "",
+    "slug": "luis-f-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria A. LERENA",
+    "dates": "",
+    "slug": "maria-a-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria C. LERENA",
+    "dates": "",
+    "slug": "maria-c-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria E. C. LERENA",
+    "dates": "",
+    "slug": "maria-e-c-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria Luisa LERENA",
+    "dates": "",
+    "slug": "maria-luisa-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Raul LERENA",
+    "dates": "",
+    "slug": "raul-lerena",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0
  },
  {
@@ -695,15 +1110,70 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
+  "father": {
+   "name": "Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS)",
+   "dates": "1855–1912",
+   "slug": "gilberto-lerena",
+   "via": "register",
+   "note": "Same census household."
+  },
   "mother": null,
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Carlos Augusto Federico LERENA",
+    "dates": "",
+    "slug": "carlos-augusto-federico-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Carlos LERENA (b.1884, Retiro baptism)",
+    "dates": "",
+    "slug": "carlos-lerena-2",
+    "via": "register"
+   },
+   {
+    "name": "Maria A. LERENA",
+    "dates": "",
+    "slug": "maria-a-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria C. LERENA",
+    "dates": "",
+    "slug": "maria-c-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria E. C. LERENA",
+    "dates": "",
+    "slug": "maria-e-c-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria E. LERENA",
+    "dates": "",
+    "slug": "maria-e-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria Luisa LERENA",
+    "dates": "",
+    "slug": "maria-luisa-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Raul LERENA",
+    "dates": "",
+    "slug": "raul-lerena",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0
  },
  {
@@ -798,7 +1268,7 @@
  },
  {
   "slug": "francisco-lerena",
-  "name": "Francisco LERENA",
+  "name": "Francisco LERENA (b.1890, 1895 census)",
   "born": "1890",
   "birthplace": "Argentina",
   "nationality": "Argentine",
@@ -1068,7 +1538,7 @@
  },
  {
   "slug": "gregorio-lerena",
-  "name": "Gregorio LERENA",
+  "name": "Gregorio LERENA (arr. 1911)",
   "born": "1881",
   "birthplace": "-",
   "nationality": "Spanish",
@@ -1098,7 +1568,7 @@
  },
  {
   "slug": "felisa-lerena",
-  "name": "Felisa LERENA",
+  "name": "Felisa LERENA (arr. 1911)",
   "born": "1893",
   "birthplace": "-",
   "nationality": "Spanish",
@@ -1278,7 +1748,7 @@
  },
  {
   "slug": "felisa-lerena-2",
-  "name": "Felisa LERENA",
+  "name": "Felisa LERENA (arr. 1923)",
   "born": "1891",
   "birthplace": "-",
   "nationality": "Spanish",
@@ -1428,7 +1898,7 @@
  },
  {
   "slug": "gregorio-lerena-2",
-  "name": "Gregorio LERENA",
+  "name": "Gregorio LERENA (arr. 1924)",
   "born": "1880",
   "birthplace": "-",
   "nationality": "Spanish",
@@ -1488,7 +1958,7 @@
  },
  {
   "slug": "carlos-lerena",
-  "name": "Carlos LERENA",
+  "name": "Carlos LERENA (b.1885, arr. 1926)",
   "born": "1885",
   "birthplace": "-",
   "nationality": "URUGUAYAN",
@@ -1507,13 +1977,21 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Rosa M. E. LERENA",
+    "dates": "",
+    "slug": "rosa-m-e-lerena",
+    "via": "register",
+    "note": "Travelling together, Montevideo to Buenos Aires, 27 May 1926 - CEMLA."
+   }
+  ],
   "children": [],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0
  },
  {
@@ -1548,7 +2026,7 @@
  },
  {
   "slug": "gilberto-lerena-2",
-  "name": "Gilberto LERENA",
+  "name": "Gilberto LERENA (b.1879, arr. 1928)",
   "born": "1879",
   "birthplace": "-",
   "nationality": "ARGENTINE",
@@ -1568,17 +2046,25 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Gilberto LERENA (b.1916, arr. 1928)",
+    "dates": "",
+    "slug": "gilberto-lerena-3",
+    "via": "register",
+    "note": "Travelling together on the CAP. NORTE, 27 February 1928 - father and son of the same name."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0
  },
  {
   "slug": "gilberto-lerena-3",
-  "name": "Gilberto LERENA",
+  "name": "Gilberto LERENA (b.1916, arr. 1928)",
   "born": "1916",
   "birthplace": "-",
   "nationality": "Argentine",
@@ -1595,15 +2081,21 @@
   "sourceUrl": "",
   "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
   "gen": null,
-  "father": null,
+  "father": {
+   "name": "Gilberto LERENA (b.1879, arr. 1928)",
+   "dates": "",
+   "slug": "gilberto-lerena-2",
+   "via": "register",
+   "note": "Travelling together on the CAP. NORTE, 27 February 1928 - father and son of the same name."
+  },
   "mother": null,
   "spouses": [],
   "children": [],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0
  },
  {
@@ -1668,7 +2160,7 @@
  },
  {
   "slug": "francisco-lerena-2",
-  "name": "Francisco LERENA",
+  "name": "Francisco LERENA (b.1891, arr. 1930)",
   "born": "1891",
   "birthplace": "-",
   "nationality": "Spanish",
@@ -1698,7 +2190,7 @@
  },
  {
   "slug": "francisco-lerena-3",
-  "name": "Francisco LERENA",
+  "name": "Francisco LERENA (b.1923, arr. 1930)",
   "born": "1923",
   "birthplace": "-",
   "nationality": "Argentine",
@@ -1728,7 +2220,7 @@
  },
  {
   "slug": "avelino-carlos-lerena",
-  "name": "Avelino Carlos LERENA",
+  "name": "Avelino Carlos LERENA (CEMLA crossings)",
   "born": "1905",
   "birthplace": "-",
   "nationality": "Argentine",
@@ -1788,7 +2280,7 @@
  },
  {
   "slug": "jose-llerena",
-  "name": "Jose LLERENA",
+  "name": "Jose LLERENA (arr. 1910)",
   "born": "1887",
   "birthplace": "-",
   "nationality": "Spanish",
@@ -1818,7 +2310,7 @@
  },
  {
   "slug": "jose-llerena-2",
-  "name": "Jose LLERENA",
+  "name": "Jose LLERENA (arr. 1911)",
   "born": "1862",
   "birthplace": "-",
   "nationality": "Spanish",
@@ -1908,7 +2400,7 @@
  },
  {
   "slug": "francisco-llerena",
-  "name": "Francisco LLERENA",
+  "name": "Francisco LLERENA (arr. 1923-25)",
   "born": "1891",
   "birthplace": "-",
   "nationality": "Spanish",
@@ -1938,7 +2430,7 @@
  },
  {
   "slug": "jose-llerena-3",
-  "name": "Jose LLERENA",
+  "name": "Jose LLERENA (arr. 1926)",
   "born": "1887",
   "birthplace": "Logrono",
   "nationality": "Spanish",
@@ -2088,7 +2580,7 @@
  },
  {
   "slug": "juan-larena",
-  "name": "Juan LARENA",
+  "name": "Juan LARENA (arr. 1910)",
   "born": "1883",
   "birthplace": "Zaragoza",
   "nationality": "Spanish",
@@ -2118,7 +2610,7 @@
  },
  {
   "slug": "maria-larena",
-  "name": "Maria LARENA",
+  "name": "Maria LARENA (arr. 1911)",
   "born": "1888",
   "birthplace": "-",
   "nationality": "Spanish",
@@ -2388,7 +2880,7 @@
  },
  {
   "slug": "antonio-larena",
-  "name": "Antonio LARENA",
+  "name": "Antonio LARENA (Cayasta)",
   "born": "-",
   "birthplace": "-",
   "nationality": "Argentine?",
@@ -2418,7 +2910,7 @@
  },
  {
   "slug": "maria-larena-2",
-  "name": "Maria LARENA",
+  "name": "Maria LARENA (Cayasta baptism 1890)",
   "born": "1890",
   "birthplace": "Cayasta, Santa Fe",
   "nationality": "Argentine",
@@ -2508,7 +3000,7 @@
  },
  {
   "slug": "juan-larena-2",
-  "name": "Juan LARENA",
+  "name": "Juan LARENA (Gualeguaychu)",
   "born": "-",
   "birthplace": "-",
   "nationality": "Argentine",
@@ -2658,7 +3150,7 @@
  },
  {
   "slug": "antonio-larena-2",
-  "name": "Antonio LARENA",
+  "name": "Antonio LARENA (Gualeguaychu, 1895 census)",
   "born": "1876",
   "birthplace": "Entre Rios",
   "nationality": "Argentine",
@@ -3217,13 +3709,29 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
-  "children": [],
+  "spouses": [
+   {
+    "name": "Sofia CLAVIJO",
+    "dates": "",
+    "slug": "",
+    "via": "register",
+    "note": "Same record."
+   }
+  ],
+  "children": [
+   {
+    "name": "Susana LLERENA",
+    "dates": "",
+    "slug": "susana-llerena",
+    "via": "register",
+    "note": "Named together in the record that gives Pedro's wife as Sofia Clavijo."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0
  },
  {
@@ -3245,15 +3753,27 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Pedro LLERENA",
+   "dates": "",
+   "slug": "pedro-llerena",
+   "via": "register",
+   "note": "Named together in the record that gives Pedro's wife as Sofia Clavijo."
+  },
+  "mother": {
+   "name": "Sofia CLAVIJO",
+   "dates": "",
+   "slug": "",
+   "via": "register",
+   "note": "Same record."
+  },
   "spouses": [],
   "children": [],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0
  },
  {
@@ -3288,7 +3808,7 @@
  },
  {
   "slug": "carlos-lerena-2",
-  "name": "Carlos LERENA",
+  "name": "Carlos LERENA (b.1884, Retiro baptism)",
   "born": "1884",
   "birthplace": "Montevideo",
   "nationality": "Uruguayan",
@@ -3305,15 +3825,99 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
-  "mother": null,
-  "spouses": [],
-  "children": [],
-  "siblings": [],
+  "father": {
+   "name": "Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS)",
+   "dates": "1855–1912",
+   "slug": "gilberto-lerena",
+   "via": "register",
+   "note": "His baptism gives the parents as ALBERTO - almost certainly Gilberto - Lerena and Julia Salvanach."
+  },
+  "mother": {
+   "name": "Julia SALVANACH",
+   "dates": "",
+   "slug": "",
+   "via": "register",
+   "note": "Same baptism."
+  },
+  "spouses": [
+   {
+    "name": "Rosa Maria EPPENS",
+    "dates": "",
+    "slug": "rosa-maria-eppens",
+    "via": "register",
+    "note": "Argentina, Capital Federal, Catholic Church Records."
+   },
+   {
+    "name": "Adela CAMIGLIA",
+    "dates": "",
+    "slug": "adela-camiglia",
+    "via": "register",
+    "note": "Named together as the parents in the Mendoza baptism of 1904."
+   }
+  ],
+  "children": [
+   {
+    "name": "Avelino Carlos LERENA (b.1904, Mendoza baptism)",
+    "dates": "",
+    "slug": "avelino-carlos-lerena-2",
+    "via": "register",
+    "note": "Argentina, Mendoza, Catholic Church Records - parents Carlos Lerena and Adela Camiglia."
+   }
+  ],
+  "siblings": [
+   {
+    "name": "Carlos Augusto Federico LERENA",
+    "dates": "",
+    "slug": "carlos-augusto-federico-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Luis F. LERENA",
+    "dates": "",
+    "slug": "luis-f-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria A. LERENA",
+    "dates": "",
+    "slug": "maria-a-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria C. LERENA",
+    "dates": "",
+    "slug": "maria-c-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria E. C. LERENA",
+    "dates": "",
+    "slug": "maria-e-c-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria E. LERENA",
+    "dates": "",
+    "slug": "maria-e-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria Luisa LERENA",
+    "dates": "",
+    "slug": "maria-luisa-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Raul LERENA",
+    "dates": "",
+    "slug": "raul-lerena",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 5,
+  "relRegister": 5,
   "relTree": 0
  },
  {
@@ -3348,7 +3952,7 @@
  },
  {
   "slug": "avelino-carlos-lerena-2",
-  "name": "Avelino Carlos LERENA",
+  "name": "Avelino Carlos LERENA (b.1904, Mendoza baptism)",
   "born": "1904",
   "birthplace": "Mendoza",
   "nationality": "Argentine",
@@ -3365,15 +3969,27 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Carlos LERENA (b.1884, Retiro baptism)",
+   "dates": "",
+   "slug": "carlos-lerena-2",
+   "via": "register",
+   "note": "Argentina, Mendoza, Catholic Church Records - parents Carlos Lerena and Adela Camiglia."
+  },
+  "mother": {
+   "name": "Adela CAMIGLIA",
+   "dates": "",
+   "slug": "adela-camiglia",
+   "via": "register",
+   "note": "Same baptism."
+  },
   "spouses": [],
   "children": [],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0
  },
  {
@@ -3398,12 +4014,20 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Avelino Carlos LERENA (b.1904, Mendoza baptism)",
+    "dates": "",
+    "slug": "avelino-carlos-lerena-2",
+    "via": "register",
+    "note": "Same baptism."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0
  },
  {
@@ -3438,7 +4062,7 @@
  },
  {
   "slug": "francisco-llerena-2",
-  "name": "Francisco LLERENA",
+  "name": "Francisco LLERENA (Cordoba, m. Rafaela Daraz)",
   "born": "-",
   "birthplace": "-",
   "nationality": "Argentine",
@@ -3457,13 +4081,29 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
-  "children": [],
+  "spouses": [
+   {
+    "name": "Rafaela DARAZ",
+    "dates": "",
+    "slug": "rafaela-daraz",
+    "via": "register",
+    "note": "Same record."
+   }
+  ],
+  "children": [
+   {
+    "name": "Baldomero LLERENA",
+    "dates": "",
+    "slug": "baldomero-llerena",
+    "via": "register",
+    "note": "Argentina, Cordoba, Catholic Church Records."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0
  },
  {
@@ -3488,12 +4128,20 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Baldomero LLERENA",
+    "dates": "",
+    "slug": "baldomero-llerena",
+    "via": "register",
+    "note": "Same record."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0
  },
  {
@@ -3515,15 +4163,35 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
-  "mother": null,
-  "spouses": [],
+  "father": {
+   "name": "Francisco LLERENA (Cordoba, m. Rafaela Daraz)",
+   "dates": "",
+   "slug": "francisco-llerena-2",
+   "via": "register",
+   "note": "Argentina, Cordoba, Catholic Church Records."
+  },
+  "mother": {
+   "name": "Rafaela DARAZ",
+   "dates": "",
+   "slug": "rafaela-daraz",
+   "via": "register",
+   "note": "Same record."
+  },
+  "spouses": [
+   {
+    "name": "Margarita CORREAS",
+    "dates": "",
+    "slug": "margarita-correas",
+    "via": "register",
+    "note": "Children Sahara, Carlos and Julia Rosa."
+   }
+  ],
   "children": [],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 3,
+  "relRegister": 3,
   "relTree": 0
  },
  {
