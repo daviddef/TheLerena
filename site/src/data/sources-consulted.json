@@ -565,5 +565,12 @@
   "accessed": "14 Sep 2026",
   "tier": "SECONDARY",
   "link": ""
+ },
+ {
+  "source": "ALEX - Historische Rechts- und Gesetzestexte, Osterreichische Nationalbibliothek (alex.onb.ac.at)",
+  "used_for": "*** ASSESSED AND UNUSABLE TODAY, for a reason worth recording. *** Its full-text search returns \"TOTAL (0)\" plus \"Diese Seite steht zur Zeit leider noch nicht zur Verfugung\" for EVERY query - proved by controls: \"Konsul\", \"Uruguay\" and \"Montevideo\" each give the identical 166-byte response. A zero from a search that returns zero for everything is not evidence. The one genuine hook if it recovers is CONSULAR: Austria-Hungary had consulates at Montevideo and Buenos Aires and gazetted its consuls, and this family is exactly the class honorary consuls were drawn from.",
+  "accessed": "14 Sep 2026",
+  "tier": "REFERENCE",
+  "link": ""
  }
 ]

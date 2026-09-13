@@ -1,0 +1,30 @@
+# ALEX (alex.onb.ac.at) - HISTORISCHE RECHTS- UND GESETZESTEXTE, Osterreichische Nationalbibliothek.
+# Assessed 14 September 2026, because David asked whether anything there could relate to the Lerenas.
+#
+# WHAT IT IS: about 5 million pages and 200 titles of Austrian and Habsburg official texts -
+# Reichsgesetzblatt 1849-1918 in ten languages, Staatsgesetzblatt, Bundesgesetzblatt, Landesgesetz-
+# blatter, stenographic parliamentary records, the Hof- und Staatshandbuch, official gazettes.
+question	answer	tier
+Does ALEX hold a Lerena?	*** UNKNOWN, AND NOT DETERMINABLE TODAY. *** Its content search (/cgi-content/alex-iv.pl) returns "Suchergebnisse TOTAL (0)" together with "Diese Seite steht zur Zeit leider noch nicht zur Verfugung" for EVERY query.	-
+How that was established rather than assumed	*** BY RUNNING CONTROLS. *** "Konsul", "Uruguay" and "Montevideo" each return the identical 166-byte response - TOTAL (0) plus the same unavailability notice. A term certain to appear in five million pages of Austrian law returning zero is not a null; it is a broken search.	PRIMARY - tested here
+Is the search worth retrying?	Yes. The title search (alex_suche.htm) works and the digitised volumes are online; it is the full-text layer that is down. This is the same failure mode this archive documented on FamilySearch two days ago, and the same rule applies: *** a zero from a search that returns zero for everything is not evidence. ***	-
+#
+# ============ AND THE HONEST ANSWER ON RELEVANCE, INDEPENDENT OF THE OUTAGE ============
+#
+# *** THE PRIOR IS LOW. *** This family is Uruguayan, Argentine, Spanish, then South African and
+# British. Nothing in four days of records touches the Habsburg lands. ALEX is a law library for a
+# state this family did not live in.
+#
+# *** THE ONE REAL HOOK IS CONSULAR. *** The archive's standing open question is whether Pablo
+# Armando was a Consul General, and consular appointments ARE gazetted. Austria-Hungary maintained
+# consulates at Montevideo and Buenos Aires, and the Hof- und Staatshandbuch lists consuls. So:
+#   - If any Lerena held an AUSTRO-HUNGARIAN honorary consulship in the River Plate, ALEX could show
+#     it. That is a narrow but genuine possibility, and the family's standing - a president at a font,
+#     a general, a judge, an abogado - is exactly the class from which honorary consuls were drawn.
+#   - It would NOT show Pablo Armando's own claimed consulship, which was ARGENTINE and at the CAPE.
+#     For that the gazette that matters is the South African one, already on this archive's list.
+#
+# *** AND A NOTE THAT BELONGS TO A DIFFERENT ARCHIVE. *** ALEX is likely to be far more use to the
+# DEFRANCESKI side - Istria, Kvarner and Carniola were Habsburg territory, and Austrian gazettes and
+# Landesgesetzblatter are the right body of law for them. That is this project's SIBLING archive and
+# the two are kept strictly separate; recorded here only so the suggestion is not lost.
