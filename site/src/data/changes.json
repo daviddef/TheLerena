@@ -1,9 +1,14 @@
 {
- "mechanical": 48,
+ "mechanical": 49,
  "days": [
   {
    "date": "2026-09-14",
    "commits": [
+    {
+     "sha": "a015293",
+     "subject": "The first wife has a name: Carolina Oliva, Montevideo, 3 September 1836",
+     "body": "An hour after learning that Don Luis Lerena had been married before, the\nmarriage itself was found - and it closes a question this archive opened\nyesterday morning.\n*** THE PETITION OF 3 SEPTEMBER 1836. *** On the stamped paper of that year,\nin Luis Lerena's own hand and over his own signature - the only signature of\nthis man anywhere in the archive:\n  \"D. LUIS LERENA, natural de esta Ciudad, hijo legitimo de D. SANCHO LERENA\n   y de Dona MARIA FERNANDEZ ... tiene concertado matrimonio con Dona\n   CAROLINA OLIVA, tambien natural de esta Ciudad\"\nHe asks to be excused the usual enquiry \"en atencion a ser ambos nativos de\nesta Ciudad, y bastante conocidos\" - a small social fact about the family in\n1836, and the first this archive has had.\n*** SANCHO IS NOW CLOSED. *** Yesterday morning two 1846 baptism transcripts\nnamed Luis Lerena's father as FRANCISCO, and the Andalusian apex of this whole\ntree looked wrong. He is now named in FOUR records - this petition of 1836, the\nsecond marriage of 1842, the baptism of Alberto Octavio in 1850, and that act's\nindex - and 1836 is the earliest and plainest of them. The two dissenting\nentries say of themselves that they are later transcripts copied from a legajo.\nA copy and three originals is not a conflict.\nAND THE SURNAME I COULD NOT READ IS OLIVA. The 1842 act calls him \"viudo de\nDona Carolina\" and I could not make out the surname, so I wrote down what it\nlooked like - something like Dille or Dulce - and said plainly it was not\nconfidently legible. It is OLIVA. The wrong reading is left in the record\nrather than deleted, because the next person squinting at that word should know\nwhat it is not. The lesson is the cheaper one: I searched for the marriage\ninstead of squinting harder.\n*** WHAT IS NOW OPEN. *** Between September 1836 and March 1842 there is a\nmarriage nobody here knew about. If it produced children they are HALF-SIBLINGS\nof Luis Eugenio and Gilberto - Lerenas of the right surname, born at Montevideo\nin the late 1830s - and they are a place Juan Carlos has never been looked for.\nLogged with exactly what to search: Montevideo baptisms 1837-1841 to Luis\nLerena and Carolina Oliva, and Carolina's death."
+    },
     {
      "sha": "cb8f0be",
      "subject": "Luis Lerena married twice, and Sancho is named in a third act",
