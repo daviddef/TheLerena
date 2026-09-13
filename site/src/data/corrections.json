@@ -131,5 +131,12 @@
   "what_was_said": "A plural where the count could be one. Three people pages carried it. Fixed.",
   "what_is_true": "",
   "how_it_was_caught": ""
+ },
+ {
+  "date": "2026-09-13",
+  "severity": "The front page said 129 people in the register when there were 138",
+  "what_was_said": "A hand-typed count, correct when written and stale within days - the register grew by nine that afternoon alone. It now derives from the data like everything else on the site, so it cannot go stale again. The archive's own rule is that pages are generated from the TSVs precisely so that page and data cannot drift; this figure had escaped it.",
+  "what_is_true": "",
+  "how_it_was_caught": ""
  }
 ]
