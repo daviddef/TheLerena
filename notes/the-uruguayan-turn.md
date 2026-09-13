@@ -294,3 +294,54 @@ Lenguas and Julia Juanicó.
 That is a clean negative, and it costs the Uruguayan hypothesis nothing: hypothesis 1c never claimed
 Pablo Armando descended from *this* household — it claimed the surname's River Plate home is Montevideo.
 What has changed is that the household is now fully mapped, so nobody has to wonder about it again.
+
+---
+
+## The three images, opened
+
+The household was assembled on 13 September partly from **machine transcripts**, and three records were
+marked PRIMARY on that basis. By this archive's own rule that is not good enough, and the rule exists
+because it was broken once already. All three have now been opened.
+
+**Luis, buried 13 December 1897** — Catedral de la Inmaculada Concepción, image ark
+`3:1:3Q9M-C9B7-LSMR-1`. The margin reads **"Lerena, Luis"**:
+
+> *di sepultura eclesiástica al cadáver de **Luis Lerena, oriental, de veinte y cinco años de edad,
+> soltero é hijo legítimo de Luis Lerena Lenguas y Julia Juanicó**: falleció ayer.*
+
+**Enrique, died 16 May 1914** — Montevideo civil registration no. 46, image ark
+`3:1:3Q9M-CS2W-J9WM-2`. A printed form filled in by hand before **César Schiaffino**, Oficial del
+Estado Civil of the sixth section, on the declaration of two clerks, **Hércules Sacchi** and **Óscar
+Méndez**. Cause of death **uremia**, certified by **Dr A. Mañé**. And the line that matters:
+
+> *el finado era hijo legítimo de Don Luis Lerena Lenguas y de Doña Julia Juanicó, **fallecidos**.*
+
+**Both parents were already dead by May 1914** — which is new, and is the first thing this archive
+knows about the end of Luis Lerena Lenguas and Julia Juanicó.
+
+**Ema Sixta, married 30 June 1913** — La Unión, act **Nº 90**, page 492, image ark
+`3:1:3Q9M-C9B7-T7P2-W`:
+
+> *contrajo **Don José Pedro Massera**, natural de esta República, soltero, de cuarenta y seis años de
+> edad, hijo legítimo de Don José Joaquín Massera y Doña Mercedes Martínez, finados, = con = **Doña Ema
+> Sixta Lerena Joanicó**, de la misma nacionalidad y estado, de treinta y tres años de edad, hija
+> legítima de Don Luis Lerena Lenguas y Doña Julia Joanicó, finados. Fueron testigos, **Don Jaime
+> Herrera y Doña María Lerena Joanicó de Herrera**.*
+
+**The witnesses are her sister and her brother-in-law** — the couple of the act of November 1886.
+Two marriage registers twenty-seven years apart, and the same people standing in both. That is the
+kind of internal agreement that tells you a household has been reconstructed correctly.
+
+### And who the groom was
+
+**José Pedro Massera (1866–1942)** — professor of philosophy at the Universidad de la República from
+1887 to 1927, and a Colorado senator from 1927. The age on the act, forty-six in June 1913, fits his
+birth year exactly, and independent sources give his wife as *Ema Lerena Joanicó*. Their son was
+**José Luis Massera (1915–2002)**, Uruguay's most celebrated mathematician and a political prisoner
+under the dictatorship.
+
+So the sister of the only Lerena baptised at Rosario in a hundred and seventy years married into that
+family. It is recorded because it is true and because it was reached from an act read here.
+
+**It bears not at all on the central question.** Nothing connects this household to Pablo Armando
+Lerena or to Juan Carlos, and a striking name must not be allowed to do the work of evidence.
