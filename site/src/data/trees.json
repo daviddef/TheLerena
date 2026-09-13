@@ -1,0 +1,36 @@
+{
+ "note": "The Lerena line, the shapes its name takes, and the family it married. State is derived from what this archive actually publishes: a line is DRAWN only where a chart of it exists, DRAWABLE where there are enough people to chart and no chart yet, and a ROUTE where there are too few.",
+ "rows": [
+  {
+   "name": "Lerena",
+   "ours": true,
+   "state": "drawn",
+   "depth": "Three generations documented, 1882 to now",
+   "what": "Rosario on the Paraná, to Cape Town, to the Rand, to Brisbane — one of the rarest surnames on earth. The line is continuous and documented from Pablo Armando down.",
+   "gap": "Above Bob Lerena it stops. Nobody knows why he left Argentina, on what ship, or in what year — only that he was born at Rosario in 1882 and his son was baptised at Cape Town by 1905.",
+   "href": "/direct-line/",
+   "cta": "Open the line →"
+  },
+  {
+   "name": "Lerena — the spellings",
+   "ours": false,
+   "state": "route",
+   "depth": "Llerena · Larena · Lorena · Lerina",
+   "what": "The same name, written four other ways by clerks who had not met it before. They are recorded here as variants of one family, not as families of their own.",
+   "gap": null,
+   "href": "/name/",
+   "cta": "How the name moves →"
+  },
+  {
+   "name": "Taylor",
+   "ours": false,
+   "state": "drawable",
+   "depth": "Mary Septima and her people",
+   "what": "Married into the line. Her parents named her after the fact that she was their seventh daughter.",
+   "gap": "No chart of this family has been drawn.",
+   "href": "/taylor/",
+   "cta": "Read about them →"
+  }
+ ],
+ "close": "The gap this archive most wants closed is at the top of its own line, and it is a gap about a reason rather than a record."
+}
