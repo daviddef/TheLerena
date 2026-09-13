@@ -3,6 +3,16 @@
   "date": "2026-09-13",
   "commits": [
    {
+    "sha": "0c65d85",
+    "subject": "Roadmap route 1 rewritten - Montevideo went from a plan to a household",
+    "body": "Route 1 still read \"worked once, and the indexes came back empty\", which was\ntrue this morning and stopped being true by the afternoon. It now says what\nactually happened: the one documented Lerena household of that generation in the\nRiver Plate is open from the marriage act of December 1864 to Julia Juanico's\ndeath in July 1910, with five children, every member on a primary record, and\nLaura Adela's baptism naming every grandparent in a single line.\nAnd it says the thing that matters: Juan Carlos Lerena is not among them, and\nnot in the indexed Uruguayan record either.\nWhat is still open is listed precisely - Luis Eugenio's own death, now narrowed\nto 1880-1910; Julia's baptism; Candido Juanico's first marriage to Juliana\nGonzalez, which is inference from dates and not a document; and the reading full\ntext cannot do for you, the Montevideo marriage registers of the 1870s."
+   },
+   {
+    "sha": "7f8d1ba",
+    "subject": "Rebuild the changelog",
+    "body": ""
+   },
+   {
     "sha": "7ce0d78",
     "subject": "Julia Juanico's death, and the date it puts on her husband's",
     "body": "Montevideo, civil registration certificate No. 357 of 1910, image ark\n3:1:3Q9M-CS2W-K9BG-8, read at tile level 12:\n  En Montevideo, el dia doce de Julio de mil novecientos diez, a las once de la\n  manana ... declarando que a las cuatro de la tarde del dia de ayer, y en la\n  calle Constituyente No. 992, ha fallecido JULIA JUANICO DE LERENA, del sexo\n  femenino, de nacionalidad oriental, nacida en esta ciudad, de SESENTA Y SEIS\n  ANOS DE EDAD, DE ESTADO VIUDA, y de profesion labores del sexo.\nDeclared by two clerks - Don Antonio Vicaria of calle Nicaragua 139 and Don\nLorenzo Nicolas Baca - before the Juez de Paz of the fifteenth section.\nShe died on 11 July 1910, aged sixty-six, born in Montevideo about 1844, which\nmakes her about twenty at her marriage in December 1864. Nothing in the\nhousehold needs stretching to fit.\nAND SHE WAS A WIDOW. So Luis Eugenio Lerena Lenguas died BEFORE 11 JULY 1910 -\nsomewhere between 1880, when their last child was born, and that summer. That\nsquares with their son Enrique's registration of May 1914, which calls both\nparents fallecidos.\nHis own death record is not found. The search for it was cut short when\nFamilySearch firewalled this session for the third time today - all three my\ndoing, not theirs. The errand carries the exact window and the two searches to\nrun when the block lifts.\n198 pages, 0 broken links."
