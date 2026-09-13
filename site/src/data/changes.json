@@ -1,9 +1,14 @@
 {
- "mechanical": 40,
+ "mechanical": 41,
  "days": [
   {
    "date": "2026-09-13",
    "commits": [
+    {
+     "sha": "c15b112",
+     "subject": "Test WikiTree as a source: zero Lerena, and fix a CSS bug it exposed",
+     "body": "WikiTree had never been mentioned anywhere in this archive - not in data/,\nnot in notes/, not on the site - though the archive already leans on\nGeneanet, Geni, MyHeritage, findmypast and the FamilySearch Tree. A real gap,\nso it was tested rather than assumed.\nWikiTree holds ZERO Lerena profiles. Run twice, the second time with\nvariant-matching off so the null could not be the site widening the spelling.\nThat null is worth more than the usual one: WikiTree is a single shared public\ntree, not millions of private ones, so absence is a measurement rather than a\nview. LLERENA gives 26 profiles, all Mexican, Cuban-Floridian or Peruvian,\nplus one Cadiz man of Sancho's generation with no stated link. Not one\nUruguayan or Argentine profile of either spelling.\nSo the English side was tested instead, where a hit was actually likely and\nwhere this archive is weakest in independence: almost every fact on the Taylor\nline traces to a single MyHeritage tree. Nearest thing to a hit: two Taylors\nof Worlingworth, b. 1840 and 1841, William Taylor's own parish - plausibly his\nsisters. All three Worlingworth profiles were opened; every one has unknown\nparents. The Devon Brayleys are there in quantity and none connects. The one\ntrue Brayley of the right year turned out to be a Queensland Yelland.\nRecorded as SECONDARY, with Geneanet, Geni and the FamilySearch Tree, and\npublished as a closed source - a source tested and found empty saves the next\nperson an afternoon.\nFixes a CSS bug found while checking the new section renders. .prose is a\ncontainer style (display:flex, column, gap) meant for a <div> wrapping\nparagraphs; it had also been applied to 21 individual <p> elements. A flex\ncontainer blockifies its children, so every <em> and <strong> directly inside\nthose paragraphs was thrown onto its own full-width line - about 27 phrases\nacross six pages reading as fragments instead of sentences. One rule,\np.prose{display:block}, fixes all of them and keeps the 80ch measure.\nAlso drops a hardcoded \"seven thousand words\" from the /searched/ dek; the\npage is at 9,120 and such counts have gone stale here before."
+    },
     {
      "sha": "31de413",
      "subject": "The site was still publishing a claim I retracted this afternoon",
