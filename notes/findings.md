@@ -2936,3 +2936,22 @@ that reverses** — and it is the spelling this family used.
 
 Caveat stated on the page: this measures a digitised corpus, not a population, and cannot place Juan
 Carlos Lerena anywhere.
+
+### Sancho, out of the tree and into the records
+
+Everything about Sancho rested on the **FamilySearch Tree**. Checked today by going at the indexed
+records directly rather than through the tree's source list.
+
+**Uruguay, Census Records 1726–1858** (ark `1:1:61LW-R54J`; image `3:1:3QS7-99ZR-NKNR`):
+*Sancho Llerena, 45 years, birthplace **Andaluzia***. **Image opened**: household nº 59, **Calle San
+Juan, Montevideo**, and the line below his reads **María Fernández**. Husband and wife in the record
+itself. The film warns *"Páginas Rotas · Escritura poco Legible"* and it is faint; both names are
+legible at level 12.
+
+Six further indexed Uruguayan records name the same wife and the same children while spelling him
+**Llerena · Lerena · D. Sancho Lerena · Sancio Llerena · Lorena**, and his children **Llarena** and
+**Serena**.
+
+**So the alternation is in the records, not in a tree.** What is still inference: that these are all
+one man (strong — same wife, same children, one city), and **Córdoba** specifically, which comes only
+from the tree. The census gives the province, not the town.

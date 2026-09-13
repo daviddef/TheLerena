@@ -112,3 +112,57 @@ the Uruguayan one while the double-*l* form stayed Argentine.
 uneven between countries and periods and the handwriting recognition misreads. It is evidence about
 where the *name* lives, not about where any particular family lived, and it cannot place Juan Carlos
 Lerena anywhere at all.
+
+---
+
+## Out of the tree, into the records
+
+*13 September 2026, later.* Everything above rested on the **FamilySearch Tree** — a user's decision
+that fourteen sources were one man, and vitals with no citation attached. That is exactly the kind of
+evidence this archive has been caught by, so it was checked.
+
+Not by working through the tree's source list, but by going at the **indexed records directly**: given
+name *Sancho*, surname *Llerena* or *Lerena*, country Uruguay.
+
+### The census
+
+> **Uruguay, Census Records, 1726–1858.** *Sancho Llerena. Sexo masculino. Age 45 years.*
+> **Birthplace: Andaluzia.**
+
+And the image was opened. It carries a filmer's warning — *"Páginas Rotas · Escritura poco Legible"* —
+and it is very faint. It is legible all the same. **Household nº 59, Calle San Juan, Montevideo**, and
+the entry reads:
+
+> **Sancho Llerena**
+> **María Fernández**
+
+Husband and wife, one line under the other, in the record itself.
+
+### The six others
+
+| Spelled | What the record says |
+|---|---|
+| **Sancho Llerena** | father of the bride; spouse **María Fernández**; child **Justa Pastora Llerena** |
+| **Sancho Lerena** | spouse **María Fernández**; child **Avelino Lerena** |
+| **D. Sancho Lerena** | spouse **María Fernández**; child **Dominga Lorena** |
+| **Sancho Llerena** | child **Dominga Llarena** |
+| **Sancio Llerena** | father; child **Dominga Josefa** |
+| **Sancho Lorena** | father of the groom; child rendered **Avelino Serena** |
+
+### What that settles
+
+**The alternation is not a tree user's idea.** The records themselves — all Uruguayan, all naming the
+same wife and the same children — spell the man **Llerena, Lerena, Sancio Llerena, D. Sancho Lerena,
+Lorena**, and his children **Llarena** and **Serena**. And a census gives his birthplace in one word:
+**Andaluzia**.
+
+### What it still does not settle
+
+That these are all **one man** remains an inference. It is a strong one — the same wife, the same
+children, one city — but it is an inference, and the fourteen parish acts behind the tree's own list
+have still not been opened one by one.
+
+And **Córdoba** specifically, as against Andalusia generally, still comes **only from the tree**. The
+census says the province, not the town.
+
+Nothing here touches Pablo Armando Lerena.

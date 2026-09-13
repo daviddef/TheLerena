@@ -99,21 +99,6 @@
   "count": 16
  },
  {
-  "slug": "montevideo",
-  "name": "Montevideo",
-  "people": [
-   "don-jaime-herrera",
-   "luis-lerena",
-   "enrique-lerena-juanico",
-   "ema-sixta-lerena-juanico",
-   "dr-don-candido-juanico",
-   "dona-juliana-gonzalez",
-   "dona-justiniana-lenguas-gonzalez",
-   "sancho-llerena-aguilar"
-  ],
-  "count": 8
- },
- {
   "slug": "gualeguaychu-entre-rios",
   "name": "Gualeguaychu, Entre Rios",
   "people": [
@@ -138,6 +123,20 @@
    "margarita-correas",
    "rafael-llerena",
    "lucrecia-llerena"
+  ],
+  "count": 7
+ },
+ {
+  "slug": "montevideo",
+  "name": "Montevideo",
+  "people": [
+   "don-jaime-herrera",
+   "luis-lerena",
+   "enrique-lerena-juanico",
+   "ema-sixta-lerena-juanico",
+   "dr-don-candido-juanico",
+   "dona-juliana-gonzalez",
+   "dona-justiniana-lenguas-gonzalez"
   ],
   "count": 7
  },
@@ -344,6 +343,14 @@
   "name": "Rosario, then Montevideo",
   "people": [
    "maria-julia-margarita-josefa-emirena-justiniana-lerena-lenguas"
+  ],
+  "count": 1
+ },
+ {
+  "slug": "montevideo-calle-san-juan",
+  "name": "Montevideo, Calle San Juan",
+  "people": [
+   "sancho-llerena-aguilar"
   ],
   "count": 1
  }
