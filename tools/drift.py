@@ -78,6 +78,11 @@ silent = []
 PUBLISHED = {
     "Don Luis Eugenio LERENA LENGUAS":
         "the Serena misindexing is written up at /searched/#searching-the-rarest-name-not-the-surname",
+    "Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS)":
+        "his household and the 1886-1890 bracketing are on /horses/; the matcher trips on the word "
+        "'assembled', which the page has no reason to use",
+    "Carlos LERENA Salvanach (b.1884, son of Gilberto)":
+        "the Cordon baptism parish is named on /horses/ inside his father's household table",
 }
 WATCHED = ("connected", "high")
 for p in people:
