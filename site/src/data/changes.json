@@ -3,6 +3,16 @@
   "date": "2026-09-13",
   "commits": [
    {
+    "sha": "a6cad10",
+    "subject": "Two more hardcoded counts, and close the loop on a prediction the site made",
+    "body": "\"Eight numbers\" on the front page, when today's work had made it ten. Now\nderived from the array, spelled out, so it cannot drift again - the same fault\nas the 129/138 register count an hour ago, and the third instance today of a\nfigure typed by hand in an archive whose whole method is generating pages from\nthe data.\nAND A LOOP CLOSED. The Argentina page has carried this since 8 September, under\n\"Uruguay is not a detour\":\n  Stated plainly so it is not forgotten later: if the Argentine search stalls,\n  the correct next move is Uruguay, not a harder Argentine search.\nThe Argentine search did stall, and the instruction was followed. The page now\nsays what came of it: one Lerena in a hundred and seventy years of the Rosario\nindex, and the act behind her saying \"naturales del E. Oriental\"; the full-text\nmeasurement, where LERENA runs 6.4x commoner in Uruguay while its twin LLERENA\nruns 3.6x the other way and two reference surnames both favour Argentina; and\nthe thing it has NOT produced, which is Juan Carlos.\nIt seemed worth marking where a page told its own future what to do and turned\nout to be right."
+   },
+   {
+    "sha": "179fa24",
+    "subject": "Rebuild the changelog",
+    "body": ""
+   },
+   {
     "sha": "bb0cbf5",
     "subject": "Lead the front page with what the day actually found",
     "body": "The banner still led with 10 September - \"His father has a name\" - which was the\nright lead for three days and stopped being it. The front page is the most\nprominent editorial judgement on the site and it was out of date.\nNew lead, 13 September: THEY WERE NOT A ROSARIO FAMILY. Both volumes of the\nbaptism index read end to end, 1731 to 1901; the surname appears once in a\nhundred and seventy years; the act behind that one entry says of both parents\n\"naturales del E. Oriental\". No baptism for Pablo Armando, none for his father,\nno Lerena marriage 1867-1885, not one Lerena in the 1895 census of Santa Fe -\nand then the register itself read act by act, 750 consecutive baptisms, to test\nwhether the 1945 index could be trusted. It agrees everywhere.\nA household that lives in a parish leaves baptisms. This one leaves nothing,\nwhich is no longer a gap in the searching but a fact about the family.\nWith a footnote for the death index and its missing L section, 1840-1881.\nThe enrolment card keeps its panel directly beneath, under \"Before that\", in the\nquieter rule colour. It is still the best document in the archive; it is no\nlonger the news."
