@@ -860,6 +860,17 @@ details>summary:hover{color:var(--accent)}
 .cols2>li{break-inside:avoid}
 @media (max-width:620px){ .cols2{columns:1} }
 
+
+/* The ladder's own two colours. --ochre and --ink-3 are page-furniture tones
+   and sit at 3.3-4.4:1 on the panel, which is under the line for 10px
+   uppercase, so the two levels that used them get dedicated values instead —
+   checked against all four light papers and all three dark ones. */
+:root{ --ev-inferred:#7A5200; --ev-family:#5F584A; }
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ev-inferred:#E0B45C; --ev-family:#B0A796;
+}}
+:root[data-theme="dark"]{ --ev-inferred:#E0B45C; --ev-family:#B0A796; }
+
 /* ---- the shared evidence ladder --------------------------------------- *
  * Five levels, one meaning across all seven archives. Colour carries the
  * level; the word carries it too, so the chips are still readable in
@@ -871,8 +882,8 @@ details>summary:hover{color:var(--accent)}
 }
 .ev-documented{color:var(--accent);background:var(--accent-wash)}
 .ev-probable{color:var(--accent);background:transparent}
-.ev-inferred{color:var(--ochre);background:transparent}
-.ev-family{color:var(--ink-3);border-style:dashed;background:transparent}
+.ev-inferred{color:var(--ev-inferred);background:transparent}
+.ev-family{color:var(--ev-family);border-style:dashed;background:transparent}
 .ev-disputed{color:var(--terra);background:transparent}
 
 /* The construct Booyzen invented and the others borrow: state the thing a
