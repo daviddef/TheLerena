@@ -39,6 +39,11 @@ jobs:
       # observations are printed and do not.
       - name: Check the register for self-contradiction
         run: python3 tools/consistency.py
+      # Narrative pages against the data. Prints only - drift is a judgement call and this
+      # check cannot see a new relationship stated in words the site already uses, so a
+      # clean run is not proof the pages are current. It fails nothing.
+      - name: Look for pages that have fallen behind the data
+        run: python3 tools/drift.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
