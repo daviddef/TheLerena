@@ -1,9 +1,24 @@
 {
- "mechanical": 46,
+ "mechanical": 47,
  "days": [
   {
    "date": "2026-09-14",
    "commits": [
+    {
+     "sha": "ff6ed48",
+     "subject": "Gilberto's Argentine household, and the crossing bracketed by baptisms",
+     "body": "Continuing. The confirmations advanced, the sharpest lead was finally run, and\na claim I made this morning was wrong.\n*** I WAS WRONG ABOUT THE CONFIRMATIONS THIS MORNING. *** From the first\neleven entries I recorded that \"EVERY ENTRY ON THIS PAGE IS A GIRL\" and built a\nsearch strategy on it - that a boy of eight would be in a separate run of pages,\nand that is where to look. Entries 133, 135 and 138 on a later page are Domingo,\nSantiago and Pablo, all \"hijo leg. de\", mixed straight in among the girls. I\nmade a structure out of eleven rows. There is no boys' section and no shortcut.\nRead since: entries 45-88, 133-177 and 222-243 of the 26 March 1890 sitting -\nwhich runs past 243 children - and the opening of a SECOND 1890 sitting in June\nand July. No Lerena. Ages run from two to fourteen in one sitting, so nobody is\nruled in or out by age. And a false alarm checked and dismissed: two words in\nthe June list are struck through and read like a surname at low resolution;\nat full resolution they are \"Silvero\" and \"Laurino\", the clerk correcting a\nforename.\nGILBERTO'S ARGENTINE HOUSEHOLD, assembled for the first time - the job that was\nblocked yesterday when their search went down. Searching him AS FATHER gives\nEIGHT children by Julia Salvanach: Gilberto (1878), Carlos (1884), Raul Alfredo\nLuis (1885) and Maria Angelica Julia (1886), all born at MONTEVIDEO; then Maria\nCarlota (1890), Luis Felipe (1892), Cesar Alberto (1896) and Horacio Alfredo\n(1898), at BUENOS AIRES.\n*** SO THE CROSSING IS NOW BRACKETED BY BAPTISMS RATHER THAN INFERRED. *** The\nlast Montevideo baptism is 31 October 1886; the first Buenos Aires one is 29\nOctober 1890. This archive has said \"between 1887 and 1889\", read off the switch\nin census birthplaces. The baptisms are slightly wider and considerably firmer:\nthey are records of the family, not of its children's stated origins.\nAnd Juan Carlos is not among them. That matters, because this was the best\nremaining place to put him - a Lerena household of the right surname, in the\nright country, at the right time, descending from the one Uruguayan house this\narchive has documented.\nTHE ALEJANDRO TEST WAS RUN AND CAME BACK INCONCLUSIVE, which is recorded as\ninconclusive. Alejandro Lerena Lenguas was born 29 May 1845; the enrolment\ncards name an ALEJANDRO MAXIMO LERENA born Uruguay 1839, married Julia Bassani,\nwith a large Buenos Aires family. Six years apart, well inside the range this\narchive keeps meeting between an act and a stated age - but nothing positive\nlinks them and NO RECORD FOUND NAMES ALEJANDRO MAXIMO'S PARENTS.\nThe search did establish there are at least THREE distinct men of the name,\nincluding one of the Trinidad orbit married to Severa Fernandez. They are kept\nas three rows deliberately; merging them is the easy mistake here.\nRegister: 202 -> 207 people."
+    },
+    {
+     "sha": "b8c69fe",
+     "subject": "Canonical URLs keep their trailing slash",
+     "body": "These sites build with format: 'directory', so /TheX is a redirect to /TheX/.\nThe home page's canonical was pointing at the redirect."
+    },
+    {
+     "sha": "d3c9408",
+     "subject": "This archive now has a face when somebody shares it",
+     "body": "Paste this archive into a message and it showed the bare address: no title,\nno description, no icon, nothing. Blazevic and the children's site have done\nit properly all along — the implementation existed, in this estate, working,\nand six archives never received it. The read-across is what surfaced it,\nbecause a missing tag is invisible from inside one repository.\nThe head tags now come from the kit's SocialHead, which derives everything\nfrom archives.json through BASE_URL rather than taking it as typed values. A\nlooked-up accent cannot end up being another archive's: Blazevic had been\nshipping theme-color #1F5C6B, the teal it gave up in Phase 1.\nThe favicon is this archive's own accent, so the seven are told apart in a\ntab strip the same way they are told apart on the page.\nNothing claims an asset that is not on disk — an archive with no share image\nemits a summary card rather than a link to a picture that was never made."
+    },
     {
      "sha": "f9b21b8",
      "subject": "Open the confirmations at last, and learn to tell an outage from a block",
