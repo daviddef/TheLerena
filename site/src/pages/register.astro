@@ -100,9 +100,19 @@ for (const g of groups) g.rows.sort((a, b) => a.name.localeCompare(b.name));
   <p id="none" class="note" style="margin-top:18px;display:none">Nothing matches that. Try a shorter word —
     a surname, a place, or a year.</p>
 
+  <div id="jump" style="margin-top:22px">
+    <span class="lab">Jump to a spelling</span>
+    <div class="chips" style="margin-top:8px">
+      {groups.map(g => (
+        <a class="ch jump" href={`#g-${g.surname.toLowerCase()}`} data-j={g.surname}>{g.surname} <b>{g.rows.length}</b></a>
+      ))}
+    </div>
+  </div>
+
   {groups.map(g => (
-    <div class="grp" data-g={g.surname}>
-      <h3 style="margin-top:34px">{g.surname} <span class="cap" style="font-weight:400">{g.rows.length}</span></h3>
+    <div class="grp" data-g={g.surname} id={`g-${g.surname.toLowerCase()}`}>
+      <h3 style="margin-top:34px">{g.surname} <span class="cap" style="font-weight:400">{g.rows.length}</span>
+        <a href="#jump" class="cap" style="float:right;font-weight:400;text-decoration:none">&uarr; surnames</a></h3>
       <div class="scroll" style="margin-top:10px">
         <table>
           <thead><tr><th style="width:19rem">Name</th><th>What the source says</th><th style="width:19rem">Source</th></tr></thead>
@@ -142,7 +152,9 @@ for (const g of groups) g.rows.sort((a, b) => a.name.localeCompare(b.name));
     var q = document.getElementById('q');
     if (!q) return;
     var st = 'all';
-    var chips = Array.prototype.slice.call(document.querySelectorAll('.chips .ch'));
+    // The jump bar reuses the .ch chip style inside a .chips row, so it would otherwise
+    // be picked up here and clicking a surname would clear the status filter.
+    var chips = Array.prototype.slice.call(document.querySelectorAll('.chips .ch:not(.jump)'));
     chips.forEach(function (c) {
       c.addEventListener('click', function () {
         chips.forEach(function (o) { o.classList.remove('on'); });
@@ -151,6 +163,7 @@ for (const g of groups) g.rows.sort((a, b) => a.name.localeCompare(b.name));
     });
     var rows = Array.prototype.slice.call(document.querySelectorAll('tbody tr[data-s]'));
     var groups = Array.prototype.slice.call(document.querySelectorAll('.grp'));
+    var jumps = Array.prototype.slice.call(document.querySelectorAll('.jump'));
     var count = document.getElementById('count');
     var none = document.getElementById('none');
     function run() {
@@ -170,6 +183,11 @@ for (const g of groups) g.rows.sort((a, b) => a.name.localeCompare(b.name));
         var any = Array.prototype.slice.call(g.querySelectorAll('tbody tr[data-s]'))
                     .some(function (r) { return !r.hidden; });
         g.hidden = !any;
+      });
+      // A surname you cannot reach should not be offered.
+      jumps.forEach(function (j) {
+        var g = document.getElementById('g-' + (j.getAttribute('data-j') || '').toLowerCase());
+        j.hidden = !g || g.hidden;
       });
       count.textContent = shown + ' entries shown';
       none.style.display = shown ? 'none' : '';

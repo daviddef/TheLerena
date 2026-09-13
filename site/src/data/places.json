@@ -51,6 +51,42 @@
   "count": 44
  },
  {
+  "slug": "trinidad-flores",
+  "name": "Trinidad, Flores",
+  "people": [
+   "bernabe-lerena",
+   "dona-casimira-pelaez",
+   "vitalino-lerena",
+   "dona-andrea-echeverry",
+   "ysaac-lerena",
+   "dona-adelaida-gazo",
+   "cipriano-lerena",
+   "dona-lauriana-beloqui",
+   "fermin-lerena",
+   "dona-paulina-barragan",
+   "florencio-lerena",
+   "dona-juana-recuero",
+   "juan-bernardo-lerena-pelaez",
+   "paula-modesta-lerena-pelaez",
+   "carmen-lerena-pelaez",
+   "ysidro-gregorio-lerena-pelaez",
+   "juana-alejandra-lerena-echeverry",
+   "gervasio-lerena-echeverry",
+   "rosario-fulgencia-lerena-echeverry",
+   "alejandra-raymunda-lerena-gazo",
+   "maria-luisa-lina-lerena-gazo",
+   "doroteo-donato-lerena-beloqui",
+   "maria-leonor-lerena-beloqui",
+   "lauriana-lerena-beloqui",
+   "faustino-lerena-barragan",
+   "maria-regina-lerena-barragan",
+   "natalia-elena-lerena-recuero",
+   "luis-lerena-2",
+   "cayetana-faustina-lerena"
+  ],
+  "count": 29
+ },
+ {
   "slug": "buenos-aires",
   "name": "Buenos Aires",
   "people": [
@@ -109,9 +145,11 @@
    "dr-don-candido-juanico",
    "dona-juliana-gonzalez",
    "dona-justiniana-lenguas-gonzalez",
-   "laura-adela-lerena-juanico"
+   "laura-adela-lerena-juanico",
+   "jose-julio-lerena-juanico",
+   "candido-jaime-lerena-juanico"
   ],
-  "count": 9
+  "count": 11
  },
  {
   "slug": "gualeguaychu-entre-rios",

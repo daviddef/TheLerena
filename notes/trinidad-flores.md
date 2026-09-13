@@ -17,7 +17,21 @@ early 1880s, to **six different fathers**:
 | **Ysaac** | Adelaida | Alejandra Raymunda 1874 · Maria Luisa Lina 1875 |
 | **Cipriano** | Lauriana | Doroteo Donato 1875 · Maria Leonor 1877 |
 | **Fermín** | Paulina | Faustino 1877 |
-| **Luis** | Julia | Emma Liseta 1876 |
+
+> **Corrected 13 September 2026.** This table used to carry a seventh row — *Luis × Julia, Emma
+> Liseta 1876* — and that child is **not from Trinidad at all**. She is **Emma Sixta Lerena Juanicó,
+> born and baptised at Montevideo**, a daughter of our own trunk. The row was imported from a
+> findmypast result list that gave mothers by first name only, and "Luis × Julia" looked like a
+> Trinidad couple when it was the Montevideo couple. The prose below always said *eleven* children
+> while the table showed twelve; removing her makes the count agree, and it severs a link between
+> the Montevideo trunk and the Trinidad kindred that this archive never actually had.
+>
+> Re-read the same day from FamilySearch, searching by **birthplace** rather than surname, which
+> also produced what the findmypast list never gave: **the mothers' surnames** — Peláez, Echeverry,
+> Gazo, Beloqui, Barragán, Recuero — and a **seventh father, Florencio Lerena**. See
+> `data/trinidad-flores-kindred.tsv`. Beloqui, Echeverry and Peláez are **Basque**, which says
+> something about the community these Lerenas married into, and nothing on its own about where the
+> name itself comes from.
 
 Six men of the same rare surname, fathering children in the same small town in the same handful of years,
 are **overwhelmingly likely to be brothers or first cousins**. This looks like the founding kindred itself.
