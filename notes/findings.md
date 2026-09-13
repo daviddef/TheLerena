@@ -2893,3 +2893,24 @@ is now the only route. After 1875 the collection holds no death register at all.
 
 Method note: **level 13 drops tiles on this film** (11 of 187 on one page-half after ten retries, in
 regular bands). **Level 12 at 0.58, one page-half per screenshot**, is complete and legible.
+
+### Montevideo, properly — and Juan Carlos is not in the house
+
+Full text on the phrase **"Lerena Lenguas"** returned seven hits, all Montevideo, and between them they
+open the whole household.
+
+**San Francisco de Asís, Ciudad Vieja, act Nº 258**, read from the image: *19 December 1864* —
+**Don Luis Lerena y Lenguas**, *natural de esta República*, **hijo legítimo de Don Luis y de Doña
+Justiniana Lenguas**, married **Doña Julia Juanicó**, **hija legítima del Sr. Don Cándido y de Doña
+Juliana González**; witnesses **Dr Don Cándido Juanicó** and **Doña Justiniana Lenguas**.
+
+**That join was a tree assertion this morning. It is now an act.** The generation above Luis Lerena
+Lenguas is primary. And the date fits: married Dec 1864, first child born at Rosario Oct 1865.
+
+**All four children now documented:** María Julia (b. Rosario 1865, m. Herrera 1886); **Luis** (d.
+Montevideo 1897, aged 25); **Enrique Lerena Juanicó** (b. Montevideo c.1873, d. Montevideo 1914, aged
+41); **Ema Sixta** (b. 1876, m. José Pedro Marsera 1913) — who is the *"Emma Liseta"* copied from a
+findmypast index on 9 September and left unremarked.
+
+**Juan Carlos Lerena is not among them.** A clean negative, and it costs hypothesis 1c nothing: it never
+claimed descent from *this* household, only that the surname's River Plate home is Montevideo.

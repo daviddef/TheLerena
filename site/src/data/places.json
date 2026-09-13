@@ -127,6 +127,19 @@
   "count": 7
  },
  {
+  "slug": "montevideo",
+  "name": "Montevideo",
+  "people": [
+   "don-jaime-herrera",
+   "luis-lerena",
+   "enrique-lerena-juanico",
+   "ema-sixta-lerena-juanico",
+   "dr-don-candido-juanico",
+   "dona-juliana-gonzalez"
+  ],
+  "count": 6
+ },
+ {
   "slug": "sa-records",
   "name": "SA records",
   "people": [
@@ -329,14 +342,6 @@
   "name": "Rosario, then Montevideo",
   "people": [
    "maria-julia-margarita-josefa-emirena-justiniana-lerena-lenguas"
-  ],
-  "count": 1
- },
- {
-  "slug": "montevideo",
-  "name": "Montevideo",
-  "people": [
-   "don-jaime-herrera"
   ],
   "count": 1
  }

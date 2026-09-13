@@ -230,3 +230,67 @@ dispensations, and dispensations of the three conciliar proclamas. A marriage be
 with all three proclamas duly read needed no dispensation and leaves **no trace here whatsoever**.
 
 A negative from a register that only records exceptions is a weak negative, and it is filed as one.
+
+---
+
+## Montevideo, properly: the household opened, and Juan Carlos is not in it
+
+*13 September 2026, the same day, after the user said to skip the rest of 1882 and go to Montevideo.*
+
+FamilySearch's full-text search was given the phrase **"Lerena Lenguas"**. Seven hits in the whole
+corpus, all Montevideo. Between them they open the entire household.
+
+### The marriage — and the trunk becomes primary
+
+> **San Francisco de Asís, Ciudad Vieja, Montevideo. Act Nº 258.**
+> *Luis Lerena y Lenguas con Julia Juanicó.*
+>
+> *En diez y nueve de Diciembre de mil ochocientos sesenta y cuatro … autoricé … el matrimonio que por
+> palabras de presente contrajo **Don Luis Lerena y Lenguas**, natural de esta República, soltero, é
+> **hijo legítimo de Don Luis y de Doña Justiniana Lenguas**, con **Doña Julia Juanicó**, del propio
+> estado y vecindad, é **hija legítima del Sr. Don Cándido y de Doña Juliana González**; fueron testigos
+> el **Dr. Don Cándido Juanicó** y **Doña Justiniana Len[guas]**.*
+>
+> *Martín Pérez, Cura Rector.*
+
+Read from the image, not the transcript.
+
+**This is the join the whole Montevideo argument rested on, and until this morning it rested on a tree.**
+Geneanet and the FamilySearch Tree both said Luis Lerena Lenguas was a son of Luis Lerena y Fernández
+and Justiniana Lenguas González; neither cited anything. **The act says it.** The generation above him
+is no longer secondary.
+
+It also names **Julia Juanicó's** parents for the first time: **Dr Don Cándido Juanicó** — *abogado,
+magistrado, legislador y hombre político*, son of Francisco Juanicó and Juliana Texeira — and **Doña
+Juliana González**. Cándido stood as a witness at his own daughter's wedding. Published genealogy has
+him marrying *Sixta* Lenguas González in 1857, which is too late for a daughter marrying in 1864, so
+Julia belongs to an earlier marriage. That last step is inference from dates and is marked as such.
+
+And the date fits without strain: **married 19 December 1864; first child born at Rosario 8 October
+1865.**
+
+### The children — all four of them
+
+| | |
+|---|---|
+| **María Julia Margarita Josefa Emirena Justiniana** | b. **Rosario**, 8 Oct 1865 · m. Jaime Herrera, Montevideo, 3 Nov 1886 |
+| **Luis** | b. c.1872 · d. Montevideo, 12 Dec 1897, aged 25, unmarried |
+| **Enrique** | b. Montevideo c.1873 · d. Montevideo, 16 May 1914, aged 41, unmarried, an *empleado*, at Plaza Libertad 1143 |
+| **Ema Sixta** | b. 1876 · m. José Pedro Marsera, La Unión, Montevideo, 30 Jun 1913 |
+
+**Ema Sixta is the "Emma Liseta, 1876, father Luis, mother Julia"** copied from a findmypast index on
+9 September and left unremarked — four days before anyone knew whose daughter she was. And the name
+*Sixta* is her mother's stepmother's: the family names children off both sides of it, which is what a
+real household does.
+
+### And the point of the exercise
+
+**Juan Carlos Lerena is not among them.**
+
+The one Lerena family documented in the River Plate in this generation has been opened from the
+marriage to the last burial, and he is not in it. Whatever he was, he was not a son of Luis Lerena
+Lenguas and Julia Juanicó.
+
+That is a clean negative, and it costs the Uruguayan hypothesis nothing: hypothesis 1c never claimed
+Pablo Armando descended from *this* household — it claimed the surname's River Plate home is Montevideo.
+What has changed is that the household is now fully mapped, so nobody has to wonder about it again.

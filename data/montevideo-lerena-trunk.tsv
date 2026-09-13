@@ -8,6 +8,11 @@
 #
 # NOTHING HERE CONNECTS TO PABLO ARMANDO LERENA. No Juan Carlos appears anywhere in this tree.
 #
+# *** UPDATE, same day: the JOIN IS NOW PRIMARY. *** The marriage act of 19 December 1864 (San Francisco
+# de Asis, Montevideo, act 258 - see data/montevideo-1864-marriage-258.tsv) states that Luis Lerena y
+# Lenguas is the legitimate son of Don Luis and Dona Justiniana Lenguas. The generation above him no
+# longer rests on user-submitted genealogy. Everything ABOVE Luis Lerena y Fernandez remains SECONDARY.
+#
 person	dates	tree_id	relation	note
 Felix LLERENA	1725-	LHJP-6MP	-	m. Rosalia Aguilar, 1753, Cordoba, Andalucia, Spain.
 Rosalia AGUILAR	1729-	LHJP-69N	-	
@@ -16,7 +21,7 @@ Maria Josefa FERNANDEZ Tresguerras	1778-	LHJP-6YH	wife of Sancho	This is where t
 Fidel LLERENA	1791-1822	LKN9-KHY	son	
 Pedro Antonio LERENA Fernandez	1793-	LHJP-DB9	son	
 Dominga Josefa LERENA Fernandez	1804-	9ZFL-XYQ	daughter	
-Luis Escolastico LERENA y FERNANDEZ	1811-1878	MYC9-2V8	son	*** The man this archive reached from the other direction. *** Widower of Carolina Oribe Ladron de Guevara; married secondly Justiniana Lenguas Gonzalez. Father of the LERENA LENGUAS - including Gilberto Justiniano, and the Luis Lerena Lenguas named in the 1866 Rosario act. Almost certainly the "Don Luis Lerena" who stood godfather there BY PROXY.
+Luis Escolastico LERENA y FERNANDEZ	1811-1878	MYC9-2V8	son	*** NOW PRIMARY. *** The Montevideo marriage act of 19 December 1864 names the groom Luis Lerena y Lenguas as "hijo legitimo de Don Luis y de Dona Justiniana Lenguas" - so this man's fatherhood of the Lerena Lenguas is documented, not merely asserted by a tree. *** The man this archive reached from the other direction. *** Widower of Carolina Oribe Ladron de Guevara; married secondly Justiniana Lenguas Gonzalez. Father of the LERENA LENGUAS - including Gilberto Justiniano, and the Luis Lerena Lenguas named in the 1866 Rosario act. Almost certainly the "Don Luis Lerena" who stood godfather there BY PROXY.
 Avelino LERENA Fernandez	1815-1890	K4PQ-GZX	son	b. Montevideo 1815, d. La Paz, Canelones, 23 August 1890. Married Ambrosia Traibel y Centeno. Father of the LERENA TRAIBEL.
 Justa Pastora LERENA	-	GB3Z-H1Z	daughter	
 #
