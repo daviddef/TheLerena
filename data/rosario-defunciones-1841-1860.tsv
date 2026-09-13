@@ -17,8 +17,21 @@
 image	ark	acts	dates	margin names read	result
 i=1	9Q97-Y3S1-PFF	-	-	Film leader card. Reads "1091422", matching the catalogue exactly - the film mapping is verified.	-
 i=5	9Q97-Y3S1-PNZ	5 acts, right-hand page (the left is blank/faded)	26 May - 18 June 1841	Juan Fernandez (limosna); Luisa Candelaria Bravo (parbula); Victoria Medina (limosna); Ynnocencia Villa Real (parbula); Maria Zumbero (parbula)	*** NO LERENA. *** Note how many are "parbula" - infants - and "limosna", buried on charity.
+i=6	9Q97-Y3S1-PKS	(a re-shot of i=5)	-	Same opening as i=5, re-photographed behind a target card	*** THE CARD READS "POOR COPY - WHOLE VOLUME". *** A filming-quality warning on the ENTIRE volume, not one page. Anyone planning to read 658 images should know that before starting.
+i=8	9Q97-Y3S1-PNQ	11 acts across a full opening	22 July - 14 August 1841	Pedro Pablo (parbula); Jose Santiago; Matias Lopez; Gregorio; Fermin Sosa (limosna) | Ambrosia Garcia; Felicia Dias (parbula); Ana Maria Leguisamon Carmen (parbula); Gregorio Paez (parbula); Eleuterio Morales	*** NO LERENA. *** A full opening carries about eleven acts, which is the number to plan on.
 #
-# RESUME AT: film 004531021, ?i=6.
+# RESUME AT: film 004531021, ?i=9.
+#
+# *** TWO THINGS LEARNED ON 14 SEPTEMBER THAT CHANGE THE ESTIMATE. ***
+# 1. THE FILM CARRIES A "POOR COPY - WHOLE VOLUME" TARGET CARD. That is FamilySearch's own warning
+#    on the filming of the entire volume, and it is the single most important fact for anyone
+#    deciding whether to attempt this. The pages read so far ARE legible at level 12, but the
+#    warning is there and it is theirs, not a guess.
+# 2. THE FILM CONTAINS RE-SHOTS. Image i=6 is the same opening as i=5, re-photographed behind the
+#    target card. So 658 images is NOT 658 openings, and the ?i= sequence cannot be assumed to
+#    advance one opening at a time.
+#
+# A full opening carries about ELEVEN acts. On that rate 1841-1860 is on the order of six thousand.
 #
 # A NOTE ON WHAT A NULL HERE WOULD BE WORTH. The question this film can answer is not "where is
 # Pablo Armando" - he was born in 1882, four decades later. It is whether any LERENA died at Rosario

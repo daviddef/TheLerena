@@ -1,0 +1,18 @@
+# WHAT FAMILYSEARCH WAS AND WAS NOT SERVING, 13-14 September 2026.
+# Recorded because three separate jobs in this archive stalled on it, and because the NEXT person
+# to stall should be able to tell an outage from a block from a mistake of their own.
+#
+# *** THE THREE FAILURE MODES LOOK DIFFERENT, AND THEY MEAN DIFFERENT THINGS. ***
+surface	behaviour	what it means
+Catalogue SEARCH (/search/catalog/results?q.text=...)	Returned the page furniture and then "Something Went Wrong"	Their outage. Nothing to do but wait - or use the workaround below.
+Catalogue BY ID (/search/catalog/208788)	*** WORKED THROUGHOUT, while its own search box was dead. *** Every DGS number recovered on 13-14 September came out of it.	*** THE MOST USEFUL THING ON THIS PAGE. When the catalogue looks dead, open the ID directly. ***
+FULL-TEXT search	"Something Went Wrong", both days	Their outage. This is the half the Montevideo dispensations live in, which is why that job is still blocked.
+Name-indexed RECORDS search	Worked for most of both days, then on 14 September began returning *** AN EMPTY BODY - zero bytes, no error page at all *** - for a query that had worked twenty minutes earlier	A THIRD failure mode, and the quietest. An empty body is not "no results": a real null returns a page saying so. Anything that reports "0 results" off a zero-length body is reporting the outage, not the records.
+Image tiles (sg30p0 DeepZoom)	*** Served normally throughout, on both days, while everything else was failing. *** Every image read on 13-14 September came through while search was down.	Images and search fail independently. A search outage does NOT mean the documents are unreachable - if you already hold an ark, go straight to the tiles.
+Film viewer (/search/film/<DGS>?i=N)	Failed for one film on 13 September (no tiles, no ark in the title) and worked for the same film on 14 September	Transient. A film that serves nothing is worth retrying the next day before it is written up as restricted.
+#
+# *** AND A CAUTION ABOUT THIS ARCHIVE'S OWN HISTORY. *** FamilySearch has previously firewalled
+# this automated session outright (Incapsula), caused by reading rate. That is NOT what happened on
+# 13-14 September - the session stayed signed in and the tile server never refused anything. But it
+# is the reason reading stopped when the third failure mode appeared rather than being pushed
+# through. A block costs days; waiting costs hours.
