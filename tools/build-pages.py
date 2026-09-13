@@ -6,6 +6,25 @@ so a page and its data cannot drift apart.
 """
 import json, pathlib, re
 
+# --- the shared row contract -------------------------------------------------
+# All seven archives emit {k,t,s,h,q}: kind, title, subtitle, href, and a
+# lowercased accent-folded haystack, because one component in
+# @daviddef/archive-kit reads all seven indexes.
+def _fold(s):
+    import unicodedata
+    s = unicodedata.normalize("NFD", str(s or ""))
+    return "".join(c for c in s if unicodedata.category(c) != "Mn").lower()
+
+def to_contract(rows):
+    out = []
+    for r in rows:
+        k = str(r.get("k", "Page")); t = r.get("t", "")
+        s = r.get("s", r.get("d", "")); h = r.get("h", r.get("u", ""))
+        q = r.get("q", r.get("x", ""))
+        out.append({"k": k[:1].upper() + k[1:], "t": t, "s": s, "h": h,
+                    "q": _fold(" ".join([str(t), str(s), str(q)]))})
+    return out
+
 def plain(s):
     """The TSVs mark emphasis as *** like this ***. The search index is plain text
     rendered into JS, so strip the markers rather than carry them into the box."""
@@ -87,5 +106,5 @@ PAGES = [
 for t, url, d in PAGES:
     idx.append({"t": t, "k": "page", "u": url, "d": d, "s": ""})
 
-(OUT / "searchindex.json").write_text(json.dumps(idx, ensure_ascii=False) + "\n", encoding="utf-8")
+(OUT / "searchindex.json").write_text(json.dumps(to_contract(idx), ensure_ascii=False) + "\n", encoding="utf-8")
 print(f"searchindex: {len(idx)} entries")
