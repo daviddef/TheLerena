@@ -62,6 +62,38 @@ import { u } from "../lib/url.js";
         anywhere in that tree.</strong></p>
     </div>
   </div>
+  <div class="panel" style="border-left:3px solid var(--ochre);margin:22px 0">
+    <p class="lab" style="margin:0 0 8px">And the two spellings can be counted</p>
+    <div class="prose">
+      <p>FamilySearch&rsquo;s full-text corpus covers both Montevideo and Buenos Aires, and its Place
+        filter gives per-country counts. Searching each surname as an exact phrase:</p>
+    </div>
+    <div class="scroll" style="margin-top:12px">
+      <table class="rec">
+        <tr><th></th><th>Argentina</th><th>Uruguay</th><th></th></tr>
+        <tr><td><strong>LERENA</strong></td><td class="mono">701</td><td class="mono"><strong>4,517</strong></td>
+          <td><strong>Uruguay 6.4&times; Argentina</strong></td></tr>
+        <tr><td><strong>LLERENA</strong></td><td class="mono"><strong>3,415</strong></td><td class="mono">947</td>
+          <td>Argentina 3.6&times; Uruguay</td></tr>
+        <tr><td><em>Fernández</em> (reference)</td><td class="mono">608,205</td><td class="mono">305,473</td>
+          <td>Argentina 2.0&times; Uruguay</td></tr>
+        <tr><td><em>Bustamante</em> (reference)</td><td class="mono">75,647</td><td class="mono">9,328</td>
+          <td>Argentina 8.1&times; Uruguay</td></tr>
+      </table>
+    </div>
+    <div class="prose" style="margin-top:14px">
+      <p>A control is necessary because the two national corpora differ in size and every surname has its
+        own geography &mdash; so the comparison is made against <strong>two reference surnames measured
+        the same way</strong>, not against an assumed corpus ratio.</p>
+      <p><strong>Both references run Argentina-heavy</strong>, one by twice and one by eight times.
+        <strong>So does <em>Llerena</em>.</strong> <strong><em>Lerena</em> is the only one of the four
+        that reverses</strong> &mdash; and it is the spelling this family used.</p>
+      <p class="cap">What it does not say: this measures a <em>digitised corpus</em>, not a population.
+        Coverage is uneven between countries and periods and the handwriting recognition misreads. It is
+        evidence about where the <em>name</em> lives, not where any particular family lived, and it
+        cannot place Juan Carlos Lerena anywhere.</p>
+    </div>
+  </div>
   <p><span class="chip inf">Split in two, 13 September &mdash; the River Plate half now points to Andalusia</span>
     <a href={u("/name")}>The name &rarr;</a></p>
 </section>

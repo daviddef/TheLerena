@@ -1,0 +1,31 @@
+# LERENA AND LLERENA ACROSS THE RIVER PLATE - measured 13 September 2026 in the FamilySearch
+# FULL-TEXT corpus, which reads handwriting across un-indexed images and covers both Montevideo
+# and Buenos Aires (but NOT Santa Fe).
+#
+# METHOD: search the bare surname as an exact phrase, open the Place filter, expand South America,
+# and read the per-country counts off the facet. Anyone can repeat it in two minutes.
+#
+# WHY A CONTROL IS NEEDED: the two national corpora are not the same size, and every surname has its
+# own geography. So two reference surnames were measured the same way, and the comparison is made
+# against THEM rather than against an assumed corpus ratio.
+#
+surname	Argentina	Uruguay	direction
+LERENA	701	4,517	*** URUGUAY 6.4x ARGENTINA ***
+LLERENA	3,415	947	Argentina 3.6x Uruguay
+Fernandez (reference)	608,205	305,473	Argentina 2.0x Uruguay
+Bustamante (reference)	75,647	9,328	Argentina 8.1x Uruguay
+#
+# *** WHAT IT SAYS. ***
+# Both reference surnames run ARGENTINA-HEAVY - one by 2x, one by 8x. So does LLERENA, by 3.6x.
+# LERENA runs the other way, and hard: SIX TIMES MORE COMMON IN URUGUAY THAN IN ARGENTINA.
+#
+# It is the only one of the four that reverses. And it is the spelling this family used.
+#
+# *** WHAT IT DOES NOT SAY. *** It is a measurement of a digitised corpus, not of a population.
+# Full-text coverage is uneven between countries and periods, and handwriting recognition misreads.
+# It is evidence about where the NAME lives, not about where any particular family lived, and it
+# cannot place Juan Carlos Lerena anywhere. Filed as a distribution argument, which is what it is.
+#
+# Note also how neatly it sits with Sancho Llerena Aguilar, the Cordoba soldier who married at
+# Canelones in 1791 and whose descendants' name is spelled BOTH ways in the Uruguayan registers:
+# the Uruguayan branch shed the double L, and the Argentine bearers of the name kept it.

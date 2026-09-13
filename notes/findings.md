@@ -2914,3 +2914,25 @@ findmypast index on 9 September and left unremarked.
 
 **Juan Carlos Lerena is not among them.** A clean negative, and it costs hypothesis 1c nothing: it never
 claimed descent from *this* household, only that the surname's River Plate home is Montevideo.
+
+### The Buenos Aires sweep, and a measurement that came out of it
+
+Item 5 was to search the Buenos Aires parish registers through full text for a Lerena marrying a María
+between 1870 and 1882. **Nothing.** The Argentine Lerenas in the corpus are twentieth-century, or
+colonial Buenos Aires probate officials (a *Ramón Lerena, Alcalde*, 1800). The Montevideo "Carlos
+Lerena" hits are **Carlos A. Lerena** — the Traibel branch — standing godfather at Cordón in 1878.
+
+But the search produced something better than it was looking for. **The two spellings can be counted.**
+
+| | Argentina | Uruguay | |
+|---|---|---|---|
+| **LERENA** | 701 | **4,517** | **Uruguay 6.4×** |
+| **LLERENA** | **3,415** | 947 | Argentina 3.6× |
+| *Fernández* (ref) | 608,205 | 305,473 | Argentina 2.0× |
+| *Bustamante* (ref) | 75,647 | 9,328 | Argentina 8.1× |
+
+Both reference surnames run Argentina-heavy. So does *Llerena*. **_Lerena_ is the only one of the four
+that reverses** — and it is the spelling this family used.
+
+Caveat stated on the page: this measures a digitised corpus, not a population, and cannot place Juan
+Carlos Lerena anywhere.

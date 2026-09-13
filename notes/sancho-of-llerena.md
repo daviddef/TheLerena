@@ -79,3 +79,36 @@ Every sweep this archive has run has treated **Llerena** as a variant worth sear
 documented reason to treat it as **the earlier form** — which changes what an empty *L-e-r* result
 means. The Rosario indexes were read for Lerena, Llerena, Larena and Lorena together, so nothing needs
 redoing there. But in Montevideo, the register to open first is the one under **Ll**.
+
+---
+
+## A measurement, added the same day
+
+The two spellings can be counted. FamilySearch's **full-text** corpus reads handwriting across
+un-indexed images and covers both Montevideo and Buenos Aires; its Place filter gives per-country
+counts. Searching each surname as an exact phrase:
+
+| | Argentina | Uruguay | |
+|---|---|---|---|
+| **LERENA** | 701 | **4,517** | **Uruguay 6.4× Argentina** |
+| **LLERENA** | **3,415** | 947 | Argentina 3.6× Uruguay |
+| *Fernández* (reference) | 608,205 | 305,473 | Argentina 2.0× Uruguay |
+| *Bustamante* (reference) | 75,647 | 9,328 | Argentina 8.1× Uruguay |
+
+A control is necessary because the two national corpora are not the same size and every surname has
+its own geography — so the comparison is made against **two reference surnames measured the same way**
+rather than against an assumed corpus ratio.
+
+**Both references run Argentina-heavy** — one by twice, one by eight times. **So does *Llerena*.**
+***Lerena* is the only one of the four that reverses**, and it reverses hard.
+
+It is also **the spelling this family used**.
+
+And it sits neatly with Sancho: a **Llerena** of Córdoba marries at Canelones in 1791, his descendants
+are written **both ways** in the Uruguayan registers for forty years, and today the single-*l* form is
+the Uruguayan one while the double-*l* form stayed Argentine.
+
+**What it does not say**, plainly: this measures a digitised corpus, not a population. Coverage is
+uneven between countries and periods and the handwriting recognition misreads. It is evidence about
+where the *name* lives, not about where any particular family lived, and it cannot place Juan Carlos
+Lerena anywhere at all.
