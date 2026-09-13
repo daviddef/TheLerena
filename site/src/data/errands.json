@@ -86,8 +86,8 @@
  {
   "what": "Turn the Montevideo marriage-dispensation register, 1856-1932",
   "who": "me",
-  "status": "done",
-  "detail": "DONE the same night, by full-text search on the register's own formulae. EIGHT Lerena dispensations in seventy-six years - two families, the Montevideo patricians of the Catedral and the rural Lerenas of Trinidad in Flores. NO Juan Carlos Lerena, and NO Lerena-Lerena dispensation at all: every Lerena in the register marries out. That closes one branch of the question - if Maria was a Lerena by birth AND they married in Montevideo, a dispensation would exist. It does not. See data/montevideo-dispensations-lerena.tsv.",
+  "status": "ready",
+  "detail": "*** MARKED \"done\" IN ERROR, and corrected 13 September 2026. The task is to TURN the register, and turning is not searching. *** What was actually done was a FULL-TEXT search on the register's own formulae, and it answered well: eight Lerena dispensations in seventy-six years, two families - the Montevideo patricians of the Catedral and the rural Lerenas of Trinidad in Flores - NO Juan Carlos Lerena, and no Lerena-Lerena dispensation at all. But full text is machine handwriting recognition, and the whole reason to turn a register by hand is to catch what it misses. Still to do. *** The method is now proved - /search/film/<DGS>?i=<N>, ark from the page title, assemble the tiles - and only the DGS is missing; *** three routes to it failed on 13 Sep because FamilySearch's catalogue, records and full-text search were all erroring that day.",
   "sent_on": "2026-09-13"
  },
  {
@@ -100,22 +100,22 @@
  {
   "what": "Find the death of Luis Eugenio Lerena Lenguas",
   "who": "me",
-  "status": "ready",
-  "detail": "Narrowed on 13 Sep 2026 to between 1880 - when his last child was born - and 11 July 1910, when his wife Julia Juanico died A WIDOW at calle Constituyente 992, Montevideo. Uruguayan civil registration covers the whole of that window. The search was cut short by a FamilySearch block; resume with a records search for Luis Lerena, death Montevideo 1880-1910, and with full text on \"Luis Eugenio Lerena\".",
+  "status": "done",
+  "detail": "*** DONE 13 September 2026: HE DIED 24 DECEMBER 1901, *** at seven in the morning at calle Suarez No. 25, el Paso del Molino, Montevideo - certificate 216, image read. \"De nacionalidad oriental, nacido en Montevideo, de cincuenta y seis de edad, de estado casado, y de profesion HACENDADO\", of pulmonary tuberculosis. His mother Justiniana Lenguas was alive at 79 and in the house. *** IT WAS HIDING UNDER A MISSPELLING: *** FamilySearch indexes him as Luis SERENA Lenguas, so every search on the surname missed him, including a 1,502-row sweep of Montevideo Lerena deaths run the same morning. Found by searching his MOTHER instead. Two things this row used to say were wrong: the window did NOT start in 1880 - his last child Candido Jaime was born 13 September 1884 - and the search was not blocked, it was looking under the wrong letter.",
   "sent_on": "2026-09-13"
  },
  {
   "what": "Three FamilySearch searches this session cannot run - two minutes in your own browser",
   "who": "waiting-on-david",
-  "status": "waiting-on-david",
-  "detail": "FamilySearch has firewalled THIS automated session (Incapsula) - every request is refused on contact, ark pages included - while working normally in an ordinary browser. The three searches below would each close an open question. 1) LUIS EUGENIO LERENA'S DEATH, between 1880 and July 1910: familysearch.org/search/record/results?q.givenName=Luis&q.surname=Lerena&q.deathLikePlace=Montevideo&q.deathLikeDate.from=1880&q.deathLikeDate.to=1910 - and the full-text phrase \"Luis Eugenio Lerena\". 2) JULIA JUANICO'S BAPTISM, born Montevideo about 1844: full-text \"Julia Juanico\" and a records search for her with father Candido. 3) CANDIDO JUANICO'S FIRST MARRIAGE, to JULIANA GONZALEZ, necessarily before 1844 - published genealogy has him marrying SIXTA Lenguas in 1857, so Juliana is an earlier wife, and that is currently inference from dates rather than a document. Paste any result back here and I will read the images.",
+  "status": "done",
+  "detail": "*** THE BLOCK IS OVER, and all three searches were run here on 13 September 2026. *** This row used to say FamilySearch had firewalled this automated session and that every request was refused on contact - true when it was written, false since, and left standing it would stop the next person from trying. (1) LUIS EUGENIO'S DEATH: found, 24 December 1901, act 216, image read. (2) JULIA JUANICO'S BAPTISM: found, born 23 November 1842, christened 4 October 1843 at San Francisco de Asis, mother given in full as Juliana Joaquina Gonzalez. (3) CANDIDO JUANICO'S FIRST MARRIAGE: the two-wives inference is confirmed from the children themselves - Julia born 1842 to Juliana Joaquina Gonzalez, against Sara, Zara and Celia born 1866-69 to SIXTA LENGUAS - though the marriage act itself is still not opened.",
   "sent_on": "2026-09-13"
  },
  {
-  "what": "Put the ark on five rows that say IMAGE READ",
+  "what": "Put the ark on the last two rows that say IMAGE READ",
   "who": "me",
   "status": "ready",
-  "detail": "tools/consistency.py flags five register rows claiming an image was read while naming no ark: Bartolome Llerena (1869 Rosario census), Julia Juanico (death reg. 357 of 1910), Ema Sixta (La Union marriage act 90), Juliana Joaquina Gonzalez, and Sancho Llerena Aguilar. *** The images WERE read - but without the ark a reader cannot check them, and checkability is the whole point of this archive. *** Reopen each and record the ark.",
+  "detail": "*** THREE OF THE FIVE ARE DONE, 13 September 2026. *** Julia Juanico (act 405, ark 3:1:3Q9M-C9BW-NLLP), the godfather Enrique Juanico (same act), Juliana Joaquina Gonzalez (same act, plus act 1720), and BARTOLOME LLERENA - re-opened and checked line by line, ark 3:1:S3HT-XK5S-TP, \"Llerena / Bartolome / 45\" with the double L. *** A TRAP FOUND ON THE WAY: the film's own ?i=86 is NOT the page this archive recorded as image 86 *** - it lands on an Aguirrebarrena household with no Llerena on it, so the viewer's numbering and the numbering in the old citation do not agree. The ark was recovered from his index record instead, which is the reliable route. STILL MISSING: Ema Sixta Lerena Juanico (La Union marriage register act 90, 30 June 1913 - searching her with Massera as spouse returns only her CHILDREN'S records, not the marriage) and Sancho Llerena Aguilar.",
   "sent_on": "-"
  },
  {

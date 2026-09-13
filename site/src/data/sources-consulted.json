@@ -313,5 +313,26 @@
   "accessed": "13 Sep 2026",
   "tier": "SECONDARY",
   "link": ""
+ },
+ {
+  "source": "San Francisco de Asis, Montevideo - baptism act No. 1447, folio 504 (31 October 1886)",
+  "used_for": "*** THE ACT THAT MAKES GILBERTO A BROTHER, ON A DOCUMENT. *** His daughter Maria Angelica Julia, \"hija legitima de Don Gilberto Lerena y de Dona Julia Salvanach, orientales\", with paternal grandparents \"Don LUIS y Dona JUSTINIANA LENGUAS\" - the same couple named as Luis Eugenio's parents. AND THE GODMOTHER IS DONA JULIA JUANICO DE LERENA, Luis Eugenio's own wife. Same priest, Martin Perez, as act 1720.",
+  "accessed": "13 Sep 2026",
+  "tier": "PRIMARY",
+  "link": ""
+ },
+ {
+  "source": "Uruguay, Civil Registration - Montevideo birth certificate No. 283 of 1908",
+  "used_for": "Jose Julio's birth, declared by HIS OWN MOTHER at 64, a widow. It independently confirms Luis Eugenio's death on 24 December 1901 from a different document - and places *** JUSTINIANA LENGUAS, AT EIGHTY-SEVEN, RESIDENT IN THE ARGENTINE REPUBLIC. ***",
+  "accessed": "13 Sep 2026",
+  "tier": "PRIMARY",
+  "link": ""
+ },
+ {
+  "source": "San Francisco de Asis, Montevideo - baptism acts Nos. 404 and 405, folio 274 (4 October 1843)",
+  "used_for": "Julia Juanico's own baptism, image read: born 23 November 1842, \"hija legitima de D. Candido Juanico y D. Juliana Joaquina Gonzalez\". And act 404 immediately above it baptises *** ENRIQUE JUANICO, born 18 May 1841, a BROTHER *** - christened the same day. A name trap: Julia's godfather is also a D. Enrique Juanico, and a boy of two cannot stand godfather.",
+  "accessed": "13 Sep 2026",
+  "tier": "PRIMARY",
+  "link": ""
  }
 ]
