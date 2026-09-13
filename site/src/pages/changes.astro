@@ -40,7 +40,7 @@ const pretty = (d) => {
 <section class="blk">
   <h2 id="contents">The days</h2>
   <div class="prose" style="margin-top:12px">
-    <ol style="columns:2;column-gap:34px">
+    <ol class="cols2">
       {days.map(d => (
         <li><a href={"#" + dayId(d.date)}>{pretty(d.date)}</a>
           <span class="cap"> — {d.commits.length} {d.commits.length === 1 ? "change" : "changes"}</span></li>

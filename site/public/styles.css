@@ -852,3 +852,10 @@ details>summary::-webkit-details-marker{display:none}
 details>summary::before{content:"▸ ";display:inline-block;transition:transform .12s}
 details[open]>summary::before{content:"▾ "}
 details>summary:hover{color:var(--accent)}
+
+/* Contents lists set in two columns on a wide screen, one on a narrow one.
+   They were written with an inline `columns:2`, which cannot carry a media
+   query and left each column about 110px wide on a phone. */
+.cols2{columns:2;column-gap:34px}
+.cols2>li{break-inside:avoid}
+@media (max-width:620px){ .cols2{columns:1} }
