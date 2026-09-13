@@ -1,9 +1,14 @@
 {
- "mechanical": 50,
+ "mechanical": 51,
  "days": [
   {
    "date": "2026-09-14",
    "commits": [
+    {
+     "sha": "cae12c1",
+     "subject": "The President of Uruguay stood godfather to Sancho Llerena's grandson",
+     "body": "Full text came back, and the first hour with it produced the most surprising\ndocument in the archive.\n*** CORDON, MONTEVIDEO, 13 DECEMBER 1831. *** The baptism of Juan Facundo\nFrutuoso, son of Manuel Zeferino Barros of Pernambuco and of JUSTA PASTORA\nLERENA, \"natural de Canelones\":\n  \"Abuelos ... Maternos SANCHO LLERENA y MARIA FERNANDEZ ... Fueron Padrinos\n   Don FRUCTUOSO RIVERA, PRESIDENTE DE LA REPUBLICA, y su esposa Dona\n   BERNARDINA FRAGOSO\"\nRivera was the first constitutional President of Uruguay, in office 1830-1834.\nThe act is of December 1831, squarely in his first term, and the child is named\nFRUTUOSO for him.\nTHREE THINGS COME OUT OF IT.\nJUSTA PASTORA LERENA is a DAUGHTER OF SANCHO and a SISTER of Don Luis Lerena -\na person this archive had never met, born at Canelones, married to a Brazilian.\nSANCHO IS NAMED IN A FIFTH RECORD, and the first that is not about his son. He\nalso turns up in person and under oath in the Canelones marriage-investigation\nfiles: \"presento por testigo en esta Vicaria a SANCHO LLERENA, a quien se le\nrecivio juramento\". Two days ago he was a user-built tree entry that two 1846\ntranscripts appeared to contradict.\nAND THE FAMILY'S STANDING IS NOT WHAT THIS ARCHIVE THOUGHT. It has carried the\nLerenas as obscure - \"naturales del E. Oriental\" in a Rosario act, a thin and\nmostly inferred social picture. Padrinos of that rank are not chosen at random.\nIt fits everything found since: a GENERAL for a grandfather, an ABOGADO for a\nfather-in-law, a HACENDADO's death, a marriage to the philosopher Massera,\nanother to a Magarinos. The pattern is consistent and it starts earlier than\nanything here.\nStated carefully: nothing in this act touches Pablo Armando or Juan Carlos. It\nis the generation of Sancho's children, sixty years before, and it is recorded\nas social context and a new sibling - not as descent.\n*** AND A FILTER THAT BREAKS FULL TEXT, recorded so two days are not lost to it\nagain. *** q.text=\"Carolina Oliva\"&f.recordCountry=Uruguay returns \"Something\nWent Wrong\"; the same query WITHOUT the country filter returns 1,987 results.\nSome of what was written up as a two-day outage may simply have been that\nfilter. Also learned: multiple quoted phrases do NOT AND together, and opening\na result with ?view=fullText puts the machine transcription of the whole\ndocument into the page - which is how the 1831 act was found and read in one\nstep, without touching a tile.\nRegister: 209 -> 215 people."
+    },
     {
      "sha": "c8a4945",
      "subject": "Tell the pages that Sancho stopped being secondary",
