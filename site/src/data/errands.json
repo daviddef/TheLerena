@@ -89,5 +89,12 @@
   "status": "done",
   "detail": "DONE the same night, by full-text search on the register's own formulae. EIGHT Lerena dispensations in seventy-six years - two families, the Montevideo patricians of the Catedral and the rural Lerenas of Trinidad in Flores. NO Juan Carlos Lerena, and NO Lerena-Lerena dispensation at all: every Lerena in the register marries out. That closes one branch of the question - if Maria was a Lerena by birth AND they married in Montevideo, a dispensation would exist. It does not. See data/montevideo-dispensations-lerena.tsv.",
   "sent_on": "2026-09-13"
+ },
+ {
+  "what": "Open the CEMLA manifest for the four LERINA arrivals of 15 March 1889",
+  "who": "waiting-on-david",
+  "status": "waiting-on-david",
+  "detail": "The exclusion of Laurensa, Savina, Anna and Annunziata LERINA was narrowed on 13 Sep 2026 - they are excluded on their dates, not on a judgement about the surname - but the manifest page itself has never been seen. CEMLA's search lives at search.cemla.com and is gated by a CAPTCHA (field \"CaptchaCode\"), which this archive does not solve. Ship ADELAIDE LAVARELLO from Genova, arriving Buenos Aires 15 March 1889. NOTE BEFORE SPENDING TIME ON IT: CEMLA's public search returns INDEX ROWS, not images. If it offers no page image, the manifest itself is at the Archivo General de la Nacion and this cannot be closed online at all.",
+  "sent_on": "2026-09-13"
  }
 ]
