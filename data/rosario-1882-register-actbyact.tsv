@@ -175,22 +175,32 @@ v2-8	S3HT-XS7P-JK	11	891-896	26 Jul	Francisca Mercedes Griupi; Dorila Maria de l
 v2-9	S3HT-XS7R-FK	13	897-902	29-30 Jul	Gregorio Abel Centeno; Maria Petronila Valbavalle; Domingo Cordova | Adrian Sistes; Elisa Duarte; Angel Coidero. No Lerena.
 v2-10	S3HT-XS7R-3N	15	903-908	31 Jul - 1 Aug	Maria Antonia Pereyra; Rosa Maria Cofes; Saturnino Perez | Maria Antonia; Enriqueta Dominico; Leida. No Lerena.
 v2-11	S3HT-XS7P-BW	17	909-914	1-2 Aug	Juana Valeriana Quinteros; Antonia Ascencio Acosta; Eduardo Cuminale | Santiago Martin; Ramona de los Angeles; Ramona. No Lerena.
-v2-12	S3HT-XS7G-BS	12	915-920	5 Aug	Francisco Dapple; Justino Flores; Juan Seguiroma | Inocencio Diez; Miguel Abasto; Juan Agustin Cortes. No Lerena.
+v2-12	S3HT-XS7G-BS	i=14	915-920	5 Aug	Francisco Dapple; Justino Flores; Juan Seguiroma | Inocencio Diez; Miguel Abasto; Juan Agustin Cortes. No Lerena.
+v2-13	S3HT-XS7R-35	i=15	921-926	5 Aug	Sinforosa Avena; Angela Martini; Petronila de los Angeles Rodriguez | Juan Ramon Acosta; Martin Carlos Coppes; Faustino Coman. No Lerena.
+v2-14	S3HT-XS7P-ZC	i=16	927-932	5-6 Aug	Adrian Braulio Fernandez; Juan Bautista Martina Duarte; Andres Pero | Benigno Amaral; Victoria Laura Nunez; Felipe Cassavola. No Lerena.
+v2-15	S3HT-XS7R-45	i=17	933-938	6-7 Aug	Ramona Ana Rodriguez; Lucas Ledda; Roque Blasi | Tomas Lopez; Cayetano Martin Lentini; Felix Toledo. No Lerena.
+v2-16	S3HT-XS7R-QP	i=18	939-944	7-9 Aug	Elodia Ruiz; Juana Rosas; Ygnacia Flores | Antonio Nieves Rabellino; Martin Ramosfe; Carolina Gallego. No Lerena.
 #
 # *** WHERE THE THIRD PASS STANDS. ***
 # Acts 851 to 914 read - 23 July to 2 August 1882. No Lerena.
-# RESUME AT: image 13 of the "Bautismos 1882-1883" waypoint, act 921. Opening v2-12 (acts 915-920,
-# 5 August 1882) was read on 13 September 2026 and is clean.
+# RESUME AT: film 004098791, ?i=19, act 945. Acts 915-944 were read on 13 September 2026.
 #
-# *** A METHOD NOTE FOR WHOEVER CONTINUES, because it cost an hour to learn. ***
-# Every image in the film carries its OWN DeepZoom ark, and the film's list of arks is NOT exposed
-# anywhere a script can reach: the viewer's page state does not hold it, the ?i=<n> parameter does
-# NOT resolve to a different image, and the /service/records/waypoint/ endpoints that used to answer
-# now 404. So the arks in the table above cannot be extrapolated - each one has to be obtained by
-# driving the viewer's own next-image control, one image at a time, and only then can the tiles be
-# assembled and the margins read. That is roughly two round trips per opening on top of the read.
+# *** METHOD - AND A CORRECTION TO WHAT THIS FILE SAID EARLIER TODAY. ***
+# An earlier version of this note claimed the film's image arks could not be reached by script, and
+# that each one had to be got by driving the viewer's next-image control. THAT WAS WRONG, and it was
+# wrong because I tested the wrong URL form.
 #
-# This does not make the job hard, only slow, and it is why the job is paused rather than finished.
+#   https://www.familysearch.org/ark:/61903/3:1:<ARK>?i=<N>   - ignores i=, keeps the same image.
+#   https://www.familysearch.org/search/film/<DGS>?i=<N>      - RESOLVES TO IMAGE N. This one works.
+#
+# So: navigate to /search/film/004098791?i=<N>, read the ark out of the page TITLE (it is not in the
+# server-rendered HTML - the viewer resolves it client-side, so fetch() cannot harvest arks in bulk),
+# then assemble the tiles. Note that the tile host blocks fetch() cross-origin but serves <img> fine,
+# so the tile grid is discovered with onload/onerror rather than by probing.
+#
+# NUMBERING: the film's i= is NOT the waypoint image number used in the earlier rows of this table.
+# i=13 is the opening this table calls image 17 (acts 909-914), and i=14 is acts 915-920. Verified
+# against two known openings before relying on it. New rows carry i= to end the ambiguity.
 #
 # A NOTE ON PRIORITY, recorded so the decision is visible rather than silent. The POINT of reading the
 # register act by act was to test whether the 1945 index is complete. That test is now DONE and PASSED

@@ -208,5 +208,12 @@
   "what_was_said": "That Bartolome Llerena was \"the only person of this surname found in Rosario before 1882\"",
   "what_is_true": "Looser than the evidence allows. *** Six LORENAS are in the same 1869 census *** - Agustin, Guillermo, Geronima, Mercedes, Feliz and Maria - and this archive's own register groups LORENA with LERENA and LLERENA as spellings of one name, because the clerks disagreed. Two of them are flagged in that very register as the right age to be a parent of a child born in 1882. The note now claims only what was checked: the only person spelled Llerena or Lerena.",
   "how_it_was_caught": "A sweep of all 183 register rows against the notes that describe them - the note and the register contradicted each other."
+ },
+ {
+  "date": "2026-09-13",
+  "severity": "minor",
+  "what_was_said": "That FamilySearch film image arks cannot be reached by script, so each opening must be got by driving the viewer",
+  "what_is_true": "*** Wrong, and wrong because I tested the wrong URL form. *** /ark:/61903/3:1:<ARK>?i=<N> ignores the i parameter and keeps the same image - which is what I tested, and what I generalised from. /search/film/<DGS>?i=<N> RESOLVES TO IMAGE N, and the ark can be read straight out of the page title. I published the pessimistic claim in the register file and in a commit message within the hour.",
+  "how_it_was_caught": "Trying the other URL form while starting the Rosario death registers, and getting a different ark back."
  }
 ]
