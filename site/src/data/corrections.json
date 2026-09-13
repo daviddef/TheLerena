@@ -110,5 +110,12 @@
   "what_was_said": "A table published this evening said the Arturo Lerena in army drawer Cajon 985 was born at Montevideo in 1858, son of Avelino Lerena and Ambrosia Traibel. That was a conflation. The Uruguayan record it rested on names the man's wife as EMA REGULES - and Ema Regules married JUAN ARTURO Lerena Traibel (1861-1936), whose children were born at Montevideo between 1881 and 1887. The Arturo in the drawer married AMALIA DIAZ and had children in La Pampa, Mendoza and Entre Rios between 1889 and 1897. Two men, one surname, one given name. The row is withdrawn and the \"four branches\" claim is now three. Caught by opening the FamilySearch Tree profile that the record was attached to, which is the same move - go to the underlying record - that this archive keeps having to learn.",
   "what_is_true": "",
   "how_it_was_caught": ""
+ },
+ {
+  "date": "2026-09-13",
+  "severity": "The family charts were reading every parent edge one way only",
+  "what_was_said": "The people pages build their charts from data/relations.tsv, where a link is written once - \"X, father, Y\". The builder recorded that on X's page and never reversed it onto Y's, so EVERY PARENT IN THE ARCHIVE showed an empty children list unless somebody had separately written an explicit \"child\" row. Thirty-eight parent edges were being read one way; only fifteen explicit child rows existed. Pablo Armando, Juan Carlos, Maria Lerena, Mary Septima Taylor and Roque all had children in the data and none on their charts. Fixed in tools/build-people.py by reversing father/mother edges into the parent's children list and de-duplicating against the explicit rows. Found while wiring in the Montevideo household, whose four documented children were rendering as none. Fixing it immediately exposed a second fault: the register deliberately keeps a row for the mangled machine-index reading of a person already resolved - \"ARMAND[O] LORENA (as machine-indexed) = Pablo Armando LERENA\" - and reversing the edges made Juan Carlos and Maria appear to have two children where they have one. The builder now recognises that \"= <name>\" convention as an ALIAS and neither counts it as a child nor as a sibling.",
+  "what_is_true": "",
+  "how_it_was_caught": ""
  }
 ]

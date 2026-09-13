@@ -64,15 +64,9 @@
     "note": "Named with his birth date in the 1950 estate"
    }
   ],
-  "siblings": [
-   {
-    "name": "ARMAND[O] LORENA (as machine-indexed) = Pablo Armando LERENA",
-    "dates": "",
-    "slug": "armand-o-lorena-pablo-armando-lerena",
-    "via": "register"
-   }
-  ],
+  "siblings": [],
   "isLine": true,
+  "aliasOf": null,
   "relTotal": 6,
   "relRegister": 6,
   "relTree": 0
@@ -144,6 +138,7 @@
   ],
   "siblings": [],
   "isLine": true,
+  "aliasOf": null,
   "relTotal": 6,
   "relRegister": 3,
   "relTree": 3
@@ -228,6 +223,7 @@
    }
   ],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 6,
   "relRegister": 6,
   "relTree": 0
@@ -298,6 +294,7 @@
    }
   ],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 4,
   "relRegister": 1,
   "relTree": 3
@@ -360,6 +357,7 @@
    }
   ],
   "isLine": true,
+  "aliasOf": null,
   "relTotal": 3,
   "relRegister": 3,
   "relTree": 0
@@ -383,7 +381,13 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
+  "father": {
+   "name": "Don Luis LERENA (the godfather) = probably Luis LERENA y Fernandez",
+   "dates": "1811–1878",
+   "slug": "don-luis-lerena-probably-luis-lerena-y-fernandez",
+   "via": "tree",
+   "note": "Published Uruguayan genealogy makes Gilberto a brother of Luis Lerena Lenguas. SECONDARY."
+  },
   "mother": null,
   "spouses": [
    {
@@ -394,12 +398,35 @@
     "note": "Named as the mother on five of his sons' army cards"
    }
   ],
-  "children": [],
-  "siblings": [],
+  "children": [
+   {
+    "name": "Carlos Augusto Federico LERENA",
+    "dates": "",
+    "slug": "carlos-augusto-federico-lerena",
+    "via": "register",
+    "note": "1895 census; Uruguayan civil registration"
+   },
+   {
+    "name": "Raul LERENA",
+    "dates": "",
+    "slug": "raul-lerena",
+    "via": "register",
+    "note": "Argentina Military Records 1911-1936"
+   }
+  ],
+  "siblings": [
+   {
+    "name": "Don Luis LERENA LENGUAS",
+    "dates": "",
+    "slug": "don-luis-lerena-lenguas",
+    "via": "register"
+   }
+  ],
   "isLine": false,
-  "relTotal": 1,
-  "relRegister": 1,
-  "relTree": 0
+  "aliasOf": null,
+  "relTotal": 4,
+  "relRegister": 3,
+  "relTree": 1
  },
  {
   "slug": "maria-e-c-lerena",
@@ -426,6 +453,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -455,6 +483,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -503,6 +532,7 @@
    }
   ],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 2,
   "relRegister": 2,
   "relTree": 0
@@ -551,6 +581,7 @@
    }
   ],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 2,
   "relRegister": 2,
   "relTree": 0
@@ -580,6 +611,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -609,6 +641,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -638,6 +671,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -667,6 +701,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -696,6 +731,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -725,6 +761,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -754,6 +791,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -783,6 +821,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -812,6 +851,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -841,6 +881,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -870,6 +911,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -899,6 +941,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -928,6 +971,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -957,6 +1001,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -986,6 +1031,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -1015,6 +1061,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -1044,6 +1091,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -1073,6 +1121,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -1102,6 +1151,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -1131,6 +1181,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -1160,6 +1211,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -1189,6 +1241,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -1218,6 +1271,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -1247,6 +1301,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -1276,6 +1331,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -1305,6 +1361,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -1334,6 +1391,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -1363,6 +1421,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -1392,6 +1451,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -1421,6 +1481,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -1450,6 +1511,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -1479,6 +1541,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -1508,6 +1571,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -1537,6 +1601,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -1566,6 +1631,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -1595,6 +1661,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -1624,6 +1691,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -1653,6 +1721,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -1682,6 +1751,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -1711,6 +1781,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -1740,6 +1811,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -1769,6 +1841,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -1798,6 +1871,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -1827,6 +1901,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -1856,6 +1931,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -1885,6 +1961,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -1914,6 +1991,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -1943,6 +2021,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -1972,6 +2051,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -2001,6 +2081,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -2030,6 +2111,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -2059,6 +2141,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -2088,6 +2171,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -2117,6 +2201,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -2146,6 +2231,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -2175,6 +2261,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -2204,6 +2291,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -2233,6 +2321,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -2262,6 +2351,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -2291,6 +2381,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -2320,6 +2411,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -2349,6 +2441,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -2378,6 +2471,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -2407,6 +2501,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -2436,6 +2531,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -2465,6 +2561,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -2494,6 +2591,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -2523,6 +2621,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -2552,6 +2651,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -2581,6 +2681,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -2610,6 +2711,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -2639,6 +2741,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -2668,6 +2771,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -2697,6 +2801,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -2726,6 +2831,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -2755,6 +2861,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -2784,6 +2891,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -2813,6 +2921,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -2842,6 +2951,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -2871,6 +2981,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -2900,6 +3011,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -2929,6 +3041,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -2958,6 +3071,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -2987,6 +3101,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -3016,6 +3131,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -3045,6 +3161,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -3074,6 +3191,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -3103,6 +3221,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -3132,6 +3251,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -3161,6 +3281,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -3190,6 +3311,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -3219,6 +3341,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -3248,6 +3371,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -3277,6 +3401,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -3306,6 +3431,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -3335,6 +3461,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -3364,6 +3491,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -3393,6 +3521,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -3422,6 +3551,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -3451,6 +3581,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -3480,6 +3611,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -3528,6 +3660,7 @@
    }
   ],
   "isLine": false,
+  "aliasOf": "Pablo Armando LERENA (Robert Paul; \"Bob\")",
   "relTotal": 2,
   "relRegister": 2,
   "relTree": 0
@@ -3573,6 +3706,7 @@
   ],
   "siblings": [],
   "isLine": true,
+  "aliasOf": null,
   "relTotal": 2,
   "relRegister": 2,
   "relTree": 0
@@ -3602,6 +3736,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -3631,6 +3766,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -3660,6 +3796,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -3705,6 +3842,7 @@
   ],
   "siblings": [],
   "isLine": true,
+  "aliasOf": null,
   "relTotal": 2,
   "relRegister": 2,
   "relTree": 0
@@ -3734,6 +3872,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -3800,6 +3939,7 @@
   ],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 5,
   "relRegister": 4,
   "relTree": 1
@@ -3870,6 +4010,7 @@
    }
   ],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 4,
   "relRegister": 0,
   "relTree": 4
@@ -3911,6 +4052,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 2,
   "relRegister": 0,
   "relTree": 2
@@ -3965,6 +4107,7 @@
    }
   ],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 2,
   "relRegister": 2,
   "relTree": 0
@@ -4019,6 +4162,7 @@
    }
   ],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 2,
   "relRegister": 2,
   "relTree": 0
@@ -4048,6 +4192,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -4085,6 +4230,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 1,
   "relRegister": 1,
   "relTree": 0
@@ -4108,14 +4254,54 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
-  "mother": null,
-  "spouses": [],
+  "father": {
+   "name": "Don Luis LERENA LENGUAS",
+   "dates": "",
+   "slug": "don-luis-lerena-lenguas",
+   "via": "register",
+   "note": "Rosario baptism act 1541, 17 Feb 1866 - image read. Confirmed again in her Montevideo marriage act, 1886."
+  },
+  "mother": {
+   "name": "Dona Julia JUANICO",
+   "dates": "",
+   "slug": "dona-julia-juanico",
+   "via": "register",
+   "note": "Rosario baptism act 1541 (1866) and Montevideo marriage act 1879 (1886)."
+  },
+  "spouses": [
+   {
+    "name": "Don Jaime HERRERA",
+    "dates": "",
+    "slug": "don-jaime-herrera",
+    "via": "register",
+    "note": "Married 3 November 1886, San Francisco de Asis, Ciudad Vieja, Montevideo, act 1879 - image read."
+   }
+  ],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Ema Sixta LERENA Juanico",
+    "dates": "",
+    "slug": "ema-sixta-lerena-juanico",
+    "via": "register"
+   },
+   {
+    "name": "Enrique LERENA Juanico",
+    "dates": "",
+    "slug": "enrique-lerena-juanico",
+    "via": "register"
+   },
+   {
+    "name": "Luis LERENA (son of Luis Lerena Lenguas)",
+    "dates": "",
+    "slug": "luis-lerena",
+    "via": "register"
+   }
+  ],
   "isLine": false,
-  "relTotal": 0,
-  "relRegister": 0,
+  "aliasOf": null,
+  "relTotal": 3,
+  "relRegister": 3,
   "relTree": 0
  },
  {
@@ -4137,14 +4323,71 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
-  "mother": null,
-  "spouses": [],
-  "children": [],
-  "siblings": [],
+  "father": {
+   "name": "Don Luis LERENA (the godfather) = probably Luis LERENA y Fernandez",
+   "dates": "1811–1878",
+   "slug": "don-luis-lerena-probably-luis-lerena-y-fernandez",
+   "via": "register",
+   "note": "\"hijo legitimo de Don Luis y de Dona Justiniana Lenguas\" - Montevideo marriage act 258 (1864)."
+  },
+  "mother": {
+   "name": "Dona Justiniana LENGUAS Gonzalez",
+   "dates": "",
+   "slug": "dona-justiniana-lenguas-gonzalez",
+   "via": "register",
+   "note": "Named in Montevideo marriage act 258 (1864), and a witness at the wedding."
+  },
+  "spouses": [
+   {
+    "name": "Dona Julia JUANICO",
+    "dates": "",
+    "slug": "dona-julia-juanico",
+    "via": "register",
+    "note": "Married 19 December 1864, San Francisco de Asis, Ciudad Vieja, Montevideo, act 258 - image read."
+   }
+  ],
+  "children": [
+   {
+    "name": "Ema Sixta LERENA Juanico",
+    "dates": "",
+    "slug": "ema-sixta-lerena-juanico",
+    "via": "register",
+    "note": "Named \"Dona Ema Sixta Lerena Joanico\" in her La Union marriage register entry, 30 June 1913."
+   },
+   {
+    "name": "Enrique LERENA Juanico",
+    "dates": "",
+    "slug": "enrique-lerena-juanico",
+    "via": "register",
+    "note": "The compound surname LERENA JUANICO on his Montevideo civil death registration, no. 46 of 17 May 1914."
+   },
+   {
+    "name": "Luis LERENA (son of Luis Lerena Lenguas)",
+    "dates": "",
+    "slug": "luis-lerena",
+    "via": "register",
+    "note": "\"hijo legitimo de Luis Lerena Lenguas y Julia Juanico\" - Catedral de Montevideo burial, 13 Dec 1897."
+   },
+   {
+    "name": "Maria Julia Margarita Josefa Emirena Justiniana LERENA Lenguas (m. HERRERA)",
+    "dates": "",
+    "slug": "maria-julia-margarita-josefa-emirena-justiniana-lerena-lenguas",
+    "via": "register",
+    "note": "Rosario baptism act 1541, 17 Feb 1866 - image read. Confirmed again in her Montevideo marriage act, 1886."
+   }
+  ],
+  "siblings": [
+   {
+    "name": "Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS)",
+    "dates": "",
+    "slug": "gilberto-lerena",
+    "via": "register"
+   }
+  ],
   "isLine": false,
-  "relTotal": 0,
-  "relRegister": 0,
+  "aliasOf": null,
+  "relTotal": 7,
+  "relRegister": 7,
   "relTree": 0
  },
  {
@@ -4166,14 +4409,56 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Dr. Don Candido JUANICO",
+   "dates": "",
+   "slug": "dr-don-candido-juanico",
+   "via": "register",
+   "note": "\"hija legitima del Sr. Don Candido\" - Montevideo marriage act 258 (1864). He was a witness at his daughter's wedding."
+  },
+  "mother": {
+   "name": "Dona Juliana GONZALEZ",
+   "dates": "",
+   "slug": "dona-juliana-gonzalez",
+   "via": "register",
+   "note": "Named in Montevideo marriage act 258 (1864)."
+  },
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Ema Sixta LERENA Juanico",
+    "dates": "",
+    "slug": "ema-sixta-lerena-juanico",
+    "via": "register",
+    "note": "Same entry."
+   },
+   {
+    "name": "Enrique LERENA Juanico",
+    "dates": "",
+    "slug": "enrique-lerena-juanico",
+    "via": "register",
+    "note": "Same registration."
+   },
+   {
+    "name": "Luis LERENA (son of Luis Lerena Lenguas)",
+    "dates": "",
+    "slug": "luis-lerena",
+    "via": "register",
+    "note": "Same burial act."
+   },
+   {
+    "name": "Maria Julia Margarita Josefa Emirena Justiniana LERENA Lenguas (m. HERRERA)",
+    "dates": "",
+    "slug": "maria-julia-margarita-josefa-emirena-justiniana-lerena-lenguas",
+    "via": "register",
+    "note": "Rosario baptism act 1541 (1866) and Montevideo marriage act 1879 (1886)."
+   }
+  ],
   "siblings": [],
   "isLine": false,
-  "relTotal": 0,
-  "relRegister": 0,
+  "aliasOf": null,
+  "relTotal": 6,
+  "relRegister": 6,
   "relTree": 0
  },
  {
@@ -4195,15 +4480,45 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
+  "father": {
+   "name": "Sancho LLERENA Aguilar",
+   "dates": "1767–1832",
+   "slug": "sancho-llerena-aguilar",
+   "via": "tree",
+   "note": "FamilySearch Tree LHJP-D1Y. SECONDARY - the acts have not been opened here."
+  },
   "mother": null,
-  "spouses": [],
-  "children": [],
+  "spouses": [
+   {
+    "name": "Dona Justiniana LENGUAS Gonzalez",
+    "dates": "",
+    "slug": "dona-justiniana-lenguas-gonzalez",
+    "via": "register",
+    "note": "Both named as the groom's parents in Montevideo marriage act 258 (1864)."
+   }
+  ],
+  "children": [
+   {
+    "name": "Don Luis LERENA LENGUAS",
+    "dates": "",
+    "slug": "don-luis-lerena-lenguas",
+    "via": "register",
+    "note": "\"hijo legitimo de Don Luis y de Dona Justiniana Lenguas\" - Montevideo marriage act 258 (1864)."
+   },
+   {
+    "name": "Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS)",
+    "dates": "",
+    "slug": "gilberto-lerena",
+    "via": "tree",
+    "note": "Published Uruguayan genealogy makes Gilberto a brother of Luis Lerena Lenguas. SECONDARY."
+   }
+  ],
   "siblings": [],
   "isLine": false,
-  "relTotal": 0,
-  "relRegister": 0,
-  "relTree": 0
+  "aliasOf": null,
+  "relTotal": 4,
+  "relRegister": 2,
+  "relTree": 2
  },
  {
   "slug": "armando-lerena",
@@ -4230,6 +4545,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -4259,6 +4575,7 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0
@@ -4282,14 +4599,46 @@
   "sourceUrl": "",
   "noLink": "no public link",
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Don Luis LERENA LENGUAS",
+   "dates": "",
+   "slug": "don-luis-lerena-lenguas",
+   "via": "register",
+   "note": "\"hijo legitimo de Luis Lerena Lenguas y Julia Juanico\" - Catedral de Montevideo burial, 13 Dec 1897."
+  },
+  "mother": {
+   "name": "Dona Julia JUANICO",
+   "dates": "",
+   "slug": "dona-julia-juanico",
+   "via": "register",
+   "note": "Same burial act."
+  },
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Ema Sixta LERENA Juanico",
+    "dates": "",
+    "slug": "ema-sixta-lerena-juanico",
+    "via": "register"
+   },
+   {
+    "name": "Enrique LERENA Juanico",
+    "dates": "",
+    "slug": "enrique-lerena-juanico",
+    "via": "register"
+   },
+   {
+    "name": "Maria Julia Margarita Josefa Emirena Justiniana LERENA Lenguas (m. HERRERA)",
+    "dates": "",
+    "slug": "maria-julia-margarita-josefa-emirena-justiniana-lerena-lenguas",
+    "via": "register"
+   }
+  ],
   "isLine": false,
-  "relTotal": 0,
-  "relRegister": 0,
+  "aliasOf": null,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0
  },
  {
@@ -4311,14 +4660,46 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Don Luis LERENA LENGUAS",
+   "dates": "",
+   "slug": "don-luis-lerena-lenguas",
+   "via": "register",
+   "note": "The compound surname LERENA JUANICO on his Montevideo civil death registration, no. 46 of 17 May 1914."
+  },
+  "mother": {
+   "name": "Dona Julia JUANICO",
+   "dates": "",
+   "slug": "dona-julia-juanico",
+   "via": "register",
+   "note": "Same registration."
+  },
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Ema Sixta LERENA Juanico",
+    "dates": "",
+    "slug": "ema-sixta-lerena-juanico",
+    "via": "register"
+   },
+   {
+    "name": "Luis LERENA (son of Luis Lerena Lenguas)",
+    "dates": "",
+    "slug": "luis-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria Julia Margarita Josefa Emirena Justiniana LERENA Lenguas (m. HERRERA)",
+    "dates": "",
+    "slug": "maria-julia-margarita-josefa-emirena-justiniana-lerena-lenguas",
+    "via": "register"
+   }
+  ],
   "isLine": false,
-  "relTotal": 0,
-  "relRegister": 0,
+  "aliasOf": null,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0
  },
  {
@@ -4340,14 +4721,46 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Don Luis LERENA LENGUAS",
+   "dates": "",
+   "slug": "don-luis-lerena-lenguas",
+   "via": "register",
+   "note": "Named \"Dona Ema Sixta Lerena Joanico\" in her La Union marriage register entry, 30 June 1913."
+  },
+  "mother": {
+   "name": "Dona Julia JUANICO",
+   "dates": "",
+   "slug": "dona-julia-juanico",
+   "via": "register",
+   "note": "Same entry."
+  },
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Enrique LERENA Juanico",
+    "dates": "",
+    "slug": "enrique-lerena-juanico",
+    "via": "register"
+   },
+   {
+    "name": "Luis LERENA (son of Luis Lerena Lenguas)",
+    "dates": "",
+    "slug": "luis-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria Julia Margarita Josefa Emirena Justiniana LERENA Lenguas (m. HERRERA)",
+    "dates": "",
+    "slug": "maria-julia-margarita-josefa-emirena-justiniana-lerena-lenguas",
+    "via": "register"
+   }
+  ],
   "isLine": false,
-  "relTotal": 0,
-  "relRegister": 0,
+  "aliasOf": null,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0
  },
  {
@@ -4371,12 +4784,29 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
-  "children": [],
+  "spouses": [
+   {
+    "name": "Dona Juliana GONZALEZ",
+    "dates": "",
+    "slug": "dona-juliana-gonzalez",
+    "via": "register",
+    "note": "Both named as the bride's parents in Montevideo marriage act 258 (1864)."
+   }
+  ],
+  "children": [
+   {
+    "name": "Dona Julia JUANICO",
+    "dates": "",
+    "slug": "dona-julia-juanico",
+    "via": "register",
+    "note": "\"hija legitima del Sr. Don Candido\" - Montevideo marriage act 258 (1864). He was a witness at his daughter's wedding."
+   }
+  ],
   "siblings": [],
   "isLine": false,
-  "relTotal": 0,
-  "relRegister": 0,
+  "aliasOf": null,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0
  },
  {
@@ -4401,11 +4831,96 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Dona Julia JUANICO",
+    "dates": "",
+    "slug": "dona-julia-juanico",
+    "via": "register",
+    "note": "Named in Montevideo marriage act 258 (1864)."
+   }
+  ],
   "siblings": [],
   "isLine": false,
-  "relTotal": 0,
-  "relRegister": 0,
+  "aliasOf": null,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0
+ },
+ {
+  "slug": "dona-justiniana-lenguas-gonzalez",
+  "name": "Dona Justiniana LENGUAS Gonzalez",
+  "born": "-",
+  "birthplace": "Montevideo",
+  "nationality": "Uruguayan",
+  "occupation": "-",
+  "where": "Montevideo",
+  "source": "Named as the groom's mother, and a witness, in Montevideo marriage act 258 (1864)",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "Second wife of Luis Lerena y Fernandez and mother of the LERENA LENGUAS. Daughter of Gen. Pedro Lenguas Grandal (that last step secondary). Stood as a witness at her son's wedding in December 1864.",
+  "place": "Montevideo",
+  "placeSlug": "montevideo",
+  "surname": "LENGUAS",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "GRO index — no public per-record link",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [
+   {
+    "name": "Don Luis LERENA LENGUAS",
+    "dates": "",
+    "slug": "don-luis-lerena-lenguas",
+    "via": "register",
+    "note": "Named in Montevideo marriage act 258 (1864), and a witness at the wedding."
+   }
+  ],
+  "siblings": [],
+  "isLine": false,
+  "aliasOf": null,
+  "relTotal": 1,
+  "relRegister": 1,
+  "relTree": 0
+ },
+ {
+  "slug": "sancho-llerena-aguilar",
+  "name": "Sancho LLERENA Aguilar",
+  "born": "1767",
+  "birthplace": "Cordoba, Andalusia, Spain",
+  "nationality": "Spanish",
+  "occupation": "soldado",
+  "where": "Montevideo",
+  "source": "FamilySearch Tree LHJP-D1Y; fourteen Uruguayan parish records attached",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** SECONDARY. *** The founder of the Montevideo Lerenas on the tree's account: a soldier from Cordoba who married Maria Josefa Fernandez Tresguerras at Canelones, 8 January 1791. His name is spelled BOTH Lerena and Llerena across forty years of Uruguayan registers, and once - in 1828 - \"Sancho de Llerena\". The acts have NOT been opened here.",
+  "place": "Montevideo",
+  "placeSlug": "montevideo",
+  "surname": "LLERENA",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [
+   {
+    "name": "Don Luis LERENA (the godfather) = probably Luis LERENA y Fernandez",
+    "dates": "",
+    "slug": "don-luis-lerena-probably-luis-lerena-y-fernandez",
+    "via": "tree",
+    "note": "FamilySearch Tree LHJP-D1Y. SECONDARY - the acts have not been opened here."
+   }
+  ],
+  "siblings": [],
+  "isLine": false,
+  "aliasOf": null,
+  "relTotal": 1,
+  "relRegister": 0,
+  "relTree": 1
  }
 ]

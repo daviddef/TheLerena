@@ -135,9 +135,51 @@ if REL.exists():
         elif rel == "spouse": subj["spouses"].append(n)
         elif rel == "child":  subj["children"].append(n)
 
+    # ALIASES. This register deliberately keeps a row for a mangled machine-index reading of a person
+    # it has already resolved, written "WRONG NAME (as machine-indexed) = Right Name". Those rows carry
+    # their own parent edges, which is correct for the alias but would make the parent appear to have
+    # two children where there is one. An alias is anything whose name ends "= <a name in the register>".
+    def alias_target(nm):
+        if " = " not in nm:
+            return None
+        cand = nm.rsplit(" = ", 1)[1].strip()
+        if cand in by_name:
+            return cand
+        # the canonical row often carries a parenthetical - "Pablo Armando LERENA (Robert Paul; \"Bob\")"
+        for other in by_name:
+            if other != nm and other.startswith(cand):
+                return other
+        return None
+    for p in people:
+        p["aliasOf"] = alias_target(p["name"])
+
+    # A father/mother edge is also a CHILD edge seen from the other end. Until 13 September 2026
+    # this was not reversed, so every parent in the archive showed an empty children list unless
+    # somebody had also written an explicit "child" row. Thirty-eight parent edges were being read
+    # one way only. Reversed here, and de-duplicated against the explicit rows.
+    for p in people:
+        for par_key in ("father", "mother"):
+            par = p[par_key]
+            if not par:
+                continue
+            tgt = by_name.get(par["name"])
+            if not tgt:
+                continue
+            if p.get("aliasOf"):
+                continue
+            if any(c["name"] == p["name"] for c in tgt["children"]):
+                continue
+            kid = node(p["name"], p.get("born_est", ""), par["via"])
+            kid["note"] = par.get("note", "")
+            tgt["children"].append(kid)
+    for p in people:
+        p["children"].sort(key=lambda c: (c.get("dates") or "", c["name"]))
+
     # siblings: anyone sharing a parent, drawn from the same edge list
     kids_of = {}
     for p in people:
+        if p.get("aliasOf"):
+            continue
         for par in (p["father"], p["mother"]):
             if par:
                 kids_of.setdefault(par["name"], set()).add(p["name"])
