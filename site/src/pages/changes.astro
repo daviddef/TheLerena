@@ -2,9 +2,18 @@
 import Base from "../layouts/Base.astro";
 import Rule from "../components/Rule.astro";
 import { u } from "../lib/url.js";
-import days from "../data/changes.json";
+import data from "../data/changes.json";
+const days = data.days;
+const mechanical = data.mechanical;
 const total = days.reduce((n, d) => n + d.commits.length, 0);
 const REPO = "https://github.com/daviddef/TheLerena/commit/";
+const dayId = (d) => "d-" + d;
+const pretty = (d) => {
+  const [y, m, day] = d.split("-");
+  const MONTHS = ["January","February","March","April","May","June",
+                  "July","August","September","October","November","December"];
+  return `${Number(day)} ${MONTHS[Number(m) - 1]} ${y}`;
+};
 ---
 <Base title="What changed"
       eyebrow={`${total} changes across ${days.length} ${days.length === 1 ? "day" : "days"}`}
@@ -18,17 +27,42 @@ const REPO = "https://github.com/daviddef/TheLerena/commit/";
     <p>So this page is not a summary. It is <strong>the log</strong>, rendered. Where a day contains a
       retraction it will say so in its own words, and the same retraction is graded and dated on
       <a href={u("/corrections/")}>Corrections</a>.</p>
+    <p class="cap">Each entry shows its subject line; the reasoning underneath opens on a click, because
+      the full log runs to some thirty thousand words and nobody should have to scroll past all of it to
+      reach a particular day. {mechanical} further commits are <strong>omitted</strong>: their whole
+      subject is <em>&ldquo;Rebuild the changelog&rdquo;</em>, they are the mechanical consequence of the
+      commit before them, and they contain no reasoning. They are counted here rather than quietly
+      dropped. Every commit, mechanical or not, is in
+      <a href="https://github.com/daviddef/TheLerena/commits/main" rel="noopener">the repository &#8599;</a>.</p>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="contents">The days</h2>
+  <div class="prose" style="margin-top:12px">
+    <ol style="columns:2;column-gap:34px">
+      {days.map(d => (
+        <li><a href={"#" + dayId(d.date)}>{pretty(d.date)}</a>
+          <span class="cap"> — {d.commits.length} {d.commits.length === 1 ? "change" : "changes"}</span></li>
+      ))}
+    </ol>
   </div>
 </section>
 
 {days.map(d => (
   <>
-    <Rule name="arrows" label={d.date} />
+    <Rule name="arrows" label={pretty(d.date)} />
     <section class="blk">
+      <h2 id={dayId(d.date)} class="vh">{pretty(d.date)}</h2>
       {d.commits.map(c => (
         <div class="panel" style="margin-top:16px">
           <p style="margin:0;font-size:1.05rem"><strong>{c.subject}</strong></p>
-          {c.body && <p class="cap" style="margin:10px 0 0;white-space:pre-wrap">{c.body}</p>}
+          {c.body && (
+            <details style="margin-top:10px">
+              <summary class="cap" style="cursor:pointer">Why</summary>
+              <p class="cap" style="margin:10px 0 0;white-space:pre-wrap">{c.body}</p>
+            </details>
+          )}
           <p class="cap" style="margin:10px 0 0">
             <a href={REPO + c.sha} rel="noopener"><span class="mono">{c.sha}</span> &#8599;</a></p>
         </div>

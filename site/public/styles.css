@@ -838,3 +838,17 @@ body.is-home #onthispage{display:none}
 .chips .ch b{font-weight:600;color:var(--ink);margin-left:5px}
 .chips .ch:hover{border-color:var(--accent)}
 .chips .ch.on{background:var(--accent-wash);border-color:var(--accent);color:var(--ink)}
+
+/* A heading that exists for structure and linking but is not shown, because the
+   section already carries a labelled rule above it. Readable to screen readers
+   and to the anchor checker; invisible on the page. */
+.vh{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;
+    clip:rect(0 0 0 0);white-space:nowrap;border:0}
+
+/* The changelog's per-entry reasoning, folded away by default. */
+details>summary{list-style:none;color:var(--ink-3);letter-spacing:.06em;text-transform:uppercase;
+    font-size:.72rem;font-family:var(--sans)}
+details>summary::-webkit-details-marker{display:none}
+details>summary::before{content:"▸ ";display:inline-block;transition:transform .12s}
+details[open]>summary::before{content:"▾ "}
+details>summary:hover{color:var(--accent)}
