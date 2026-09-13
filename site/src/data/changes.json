@@ -1,9 +1,19 @@
 {
- "mechanical": 38,
+ "mechanical": 39,
  "days": [
   {
    "date": "2026-09-13",
    "commits": [
+    {
+     "sha": "e653d27",
+     "subject": "Three pages scrolled sideways on a phone, and one of them was my doing",
+     "body": "Tested every page at 375px by loading each into a 375px iframe and measuring\nscrollWidth against clientWidth - rather than spot-checking two and assuming.\nThree failed.\n/errands/ scrolled 412 PIXELS. The cause was mine, from this afternoon: the\nerrand handing David three FamilySearch searches carries a 150-character URL,\nand a URL has nothing to break on. Body prose now sets overflow-wrap:anywhere,\nso a long token wraps instead of widening the page. It is the right default for\nan archive that quotes film numbers, arks and search URLs constantly.\n/roadmap/ and /photograph-these/ each scrolled about 32px, from the labelled\nrule. Its .lb label was flex:0 0 auto - unshrinkable - so a long label pushed\nthe row wider than the screen. It may now shrink and wrap, with tighter spacing\nand letter-spacing below 620px.\nAlso in this commit: contents lists for /argentina/ (12 sections), /taylor/ (9)\nand /name/ (7), on the same pattern and under the same build check as searched,\nhypotheses and corrections. Every reading page over about 1,700 words now has a\nway in.\n198 pages, 288 ids, 0 broken."
+    },
+    {
+     "sha": "d8f9de1",
+     "subject": "Phase 4: close the ring",
+     "body": "Part of standardising the seven family archives. Until now they barely\nacknowledged each other: D'Arcy linked to five siblings, Mazza to two,\nFalco and Blazevic to one each, and Booyzen and Defranceschi — the one\nevery other archive points at — linked to nobody at all. A reader landing\non one had no way to learn the other six existed.\nOne src/data/archives.json, identical in all seven, holding each archive's\nname, address, accent, where it comes from, one line of what it is, and the\nsurnames it covers. One SiblingArchives component renders every entry\nexcept the one you are standing in, working out which that is from\nBASE_URL, so no per-site configuration can drift. It sits in the footer, so\nit is on every page of every archive.\nEach card wears its own archive's colour, which is the payoff of Phase 1:\nseven distinguishable accents mean the ring reads as seven places rather\nthan one list.\nTwo things fixed on the way:\nFalco's dark accent was still the teal every archive shipped before Phase 1,\nso in dark mode it was indistinguishable from Defranceschi. It takes\n#E0836A, 5.92:1 on its own dark panel. That completes the colour work: all\nseven are now distinct in both themes, not just in light.\nThe ring was painting light-theme hexes onto a dark ground. The component\nnow publishes both a light and a dark value and lets the stylesheet choose —\nset from CSS rather than inline, because an inline custom property would\nhave beaten the media query."
+    },
     {
      "sha": "17dce1f",
      "subject": "Six of today's corrections were malformed, and light mode is what showed it",
