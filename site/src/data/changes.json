@@ -3,6 +3,16 @@
   "date": "2026-09-13",
   "commits": [
    {
+    "sha": "df63289",
+    "subject": "Record the block, and hand three searches to David",
+    "body": "FamilySearch is up - in an ordinary browser. It is not up for THIS session:\nevery request from the automated browser pane is refused on contact by Incapsula,\nark pages included, which makes it a block on this client rather than a rate\nlimit that can be paced around. Four separate blocks today, all earned by the\nday's reading rate, and this one does not lift on the timescale the others did.\nRather than keep poking at it - which lengthens these things - the three\nsearches that would each close an open question are written up as an errand with\nthe URLs in full, so they take about two minutes in a normal browser:\n  1. Luis Eugenio Lerena's death, narrowed to between 1880 and July 1910\n  2. Julia Juanico's baptism, born Montevideo about 1844\n  3. Candido Juanico's first marriage to Juliana Gonzalez, which is currently\n     inference from dates and not a document\nPaste anything back and I will read the images, which is the part that needs me."
+   },
+   {
+    "sha": "bb0e258",
+    "subject": "Rebuild the changelog",
+    "body": ""
+   },
+   {
     "sha": "0c65d85",
     "subject": "Roadmap route 1 rewritten - Montevideo went from a plan to a household",
     "body": "Route 1 still read \"worked once, and the indexes came back empty\", which was\ntrue this morning and stopped being true by the afternoon. It now says what\nactually happened: the one documented Lerena household of that generation in the\nRiver Plate is open from the marriage act of December 1864 to Julia Juanico's\ndeath in July 1910, with five children, every member on a primary record, and\nLaura Adela's baptism naming every grandparent in a single line.\nAnd it says the thing that matters: Juan Carlos Lerena is not among them, and\nnot in the indexed Uruguayan record either.\nWhat is still open is listed precisely - Luis Eugenio's own death, now narrowed\nto 1880-1910; Julia's baptism; Candido Juanico's first marriage to Juliana\nGonzalez, which is inference from dates and not a document; and the reading full\ntext cannot do for you, the Montevideo marriage registers of the 1870s."
