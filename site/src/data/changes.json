@@ -1,9 +1,14 @@
 {
- "mechanical": 37,
+ "mechanical": 38,
  "days": [
   {
    "date": "2026-09-13",
    "commits": [
+    {
+     "sha": "17dce1f",
+     "subject": "Six of today's corrections were malformed, and light mode is what showed it",
+     "body": "Two jobs, and the first was found only by looking at the site on paper-white for\nthe first time today. Everything I had checked until now rendered dark, because\nthe preview pane follows the app theme.\nTHE CORRECTIONS PAGE HAD SIX ENTRIES WITH EMPTY FIELDS. data/corrections.tsv\ncarries five columns - date, severity, what was said, what is true, how it was\ncaught - and every entry I added today had THREE. So my title landed in the\nseverity column, my body in \"It said\", and \"It is:\" and \"Caught by:\" rendered\nblank. Six of the twenty entries on the page the archive's honesty rests on were\nbroken, and the serious/minor tallies in the header counted none of them.\nAll six rewritten into the proper schema. Four are graded serious - the LERINA\nexclusion reasoning, the two Arturo Lerenas, the one-way parent edges, and the\nduplicate register names - and two minor. Every one now says how it was caught,\nwhich is the transferable part and the reason the column exists.\nAND THE PAGE ITSELF. Twenty entries rendered as one undifferentiated run of\npanels. Now grouped by the day they were caught, each day a labelled rule with a\nhidden linkable heading, and a contents list at the top giving each day's count\nand how many of them were serious. Same idiom as the changelog, same build check\nenforcing that no day can go unlisted.\nLight mode itself is fine - the violet accent the standardisation commit\nintroduced reads well on the paper ground, and nothing else was amiss. But I had\napproved a palette I had never seen, and that was worth correcting.\n198 pages, 257 ids, 0 broken."
+    },
     {
      "sha": "4805305",
      "subject": "Two more notes brought up to what the acts now say",
