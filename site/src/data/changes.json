@@ -3,6 +3,16 @@
   "date": "2026-09-13",
   "commits": [
    {
+    "sha": "8dec077",
+    "subject": "Record why the CEMLA manifests cannot be opened from here",
+    "body": "Tried CEMLA for the four LERINA arrivals of 1889, whose exclusion was narrowed\nthis morning but whose manifest page has never been seen. The search lives in an\niframe at search.cemla.com and is gated by a CAPTCHA - field \"CaptchaCode\" -\nwhich this archive does not solve.\nWorth saying plainly for whoever picks it up: on the evidence of its own\ninterface, CEMLA's public search returns INDEX ROWS, not page images. If that is\nright, the manifests are only at the Archivo General de la Nacion and this is not\nclosable online by anyone. It is on the gaps page in those terms, so that a\nfuture reader does not mistake an index row for a document - which is the error\nthis archive has had to correct twice already."
+   },
+   {
+    "sha": "2368718",
+    "subject": "Rebuild the changelog",
+    "body": ""
+   },
+   {
     "sha": "0a31f13",
     "subject": "Derive the front-page count instead of typing it, and add the gap to the figures",
     "body": "FamilySearch firewalled this session again, and faster this time - the blocks\nshorten as the day's reading accumulates. So: offline work.\nTHE FRONT PAGE SAID 129 PEOPLE IN THE REGISTER. There are 138. A hand-typed\ncount, correct when written and stale within days - the register grew by nine\nthat same afternoon. This archive's whole method is that pages are GENERATED\nfrom the TSVs so that page and data cannot drift; this one figure had escaped\nit. It now derives from people.json and cannot go stale again. On the\ncorrections page.\nAND A NEW FIGURE, because it is one of the more striking things the archive now\nknows:\n  1840-1881 - the years for which the Rosario death index has no L section at\n  all; the book runs A to F and stops.\nChecked the other hardcoded numbers while I was there. \"2,124 people bear this\nsurname in the whole world\" on the horses and name pages is the global count of\nthe surname, not an internal tally, and is correct. The \"entries\" figures on the\nsearched page are descriptive prose about the index sections, not counts of\nanything this archive holds.\n197 pages, 0 broken links."
