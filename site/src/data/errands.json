@@ -131,5 +131,12 @@
   "status": "done",
   "detail": "Agustin (b.1829), Guillermo (1853), Geronima (1854), Mercedes (1860), Feliz (1866) and Maria (1868) LORENA are in the 1869 national census at Rosario, elsewhere in the film from Bartolome Llerena. *** Guillermo and Geronima are the right age to be a parent of a child born in 1882. *** The schedule will show household structure - who is head, who is spouse, who is child - and whether the clerk wrote Lorena, Lerena or Llerena.",
   "sent_on": "-"
+ },
+ {
+  "what": "Find the DGS for the Montevideo marriage-dispensation register",
+  "who": "me",
+  "status": "ready",
+  "detail": "The register 1856-1932 has been searched by FULL TEXT and answered well - no Juan Carlos, and no Lerena-Lerena dispensation anywhere - but never TURNED page by page, which is what would catch acts the handwriting recognition missed. *** The method is now proved: /search/film/<DGS>?i=<N>, ark from the page title, assemble tiles. Only the DGS is missing. *** Three routes to it were tried on 13 Sep 2026 and all failed because FamilySearch's catalogue, records and full-text search were all returning errors that day.",
+  "sent_on": "-"
  }
 ]

@@ -34,3 +34,27 @@ date	dispensed_to	impediment	married_to	parish	branch
 # IT DOES NOT SHOW THEY DID NOT MARRY IN MONTEVIDEO. This register catches only two things: kin
 # dispensations, and dispensations of the conciliar proclamas. A marriage between unrelated people
 # with all three proclamas duly read needs no dispensation and leaves NO TRACE here at all.
+#
+# ---- 13 September 2026, later: the page-by-page turn, and where it stopped ----
+#
+# The standing job was to TURN this register page by page rather than trust full-text search, on the
+# reasonable worry that machine handwriting recognition misses acts. That was not done, and the
+# reason is worth stating rather than leaving the job looking untouched:
+#
+# *** THE FILM COULD NOT BE LOCATED, because FamilySearch's search endpoints went down. ***
+# Catalogue search, records search and full-text search all returned "Something Went Wrong" on
+# repeated attempts, from a signed-in session, while image tiles continued to serve normally. So
+# this is their outage, not a block and not a permissions problem. Three separate routes to the
+# film's DGS were tried - catalogue text search, catalogue place+subject search, and working back
+# from a known dispensation's own image via full text - and all three failed the same way.
+#
+# The method for doing it IS now known and proved, which is the one thing that was missing before:
+# navigate /search/film/<DGS>?i=<N>, read the ark from the page title, assemble the tiles. What is
+# missing is only the DGS.
+#
+# *** WHAT WAS FOUND INSTEAD, by laying this file beside one gathered hours later. ***
+# Three of the eight dispensations here marry a LERENA to a PELAEZ, all at Trinidad or Mercedes,
+# and all requiring dispensation FOR CONSANGUINITY. The Trinidad baptisms read the same day give
+# Bernabe LERENA married to Casimira PELAEZ, with four children between 1871 and 1885. Neither file
+# says so on its own. Recorded in data/lerena-pelaez-trinidad.tsv.
+
