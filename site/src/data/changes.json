@@ -1,9 +1,14 @@
 {
- "mechanical": 35,
+ "mechanical": 36,
  "days": [
   {
    "date": "2026-09-13",
    "commits": [
+    {
+     "sha": "de89330",
+     "subject": "Two register notes were still calling documented facts unverified",
+     "body": "Looking at a person page on a phone turned up a content fault, not a layout one.\nDon Luis Eugenio Lerena Lenguas's note still read:\n  Published Uruguayan genealogy makes him a son of Luis Lerena y Fernandez and\n  Justiniana Lenguas Gonzalez ... That parentage is SECONDARY and unverified.\nIt has not been unverified since this morning. The Montevideo marriage act of 19\nDecember 1864 names him \"hijo legitimo de Don Luis y de Dona Justiniana\nLenguas\", and his daughter Laura Adela's baptism of 1869 names the same two as\nher paternal grandparents - two acts, independently. The page was contradicting\nits own archive.\nThe godfather's row carried the same stale sentence and has been rewritten too.\nBoth now separate the two claims properly: the PARENTAGE is documented; what\nstays SECONDARY is only the equation of that \"Don Luis\" with the Luis Lerena y\nFernandez (1811-1878) of the published trees, and through him the line up to\nSancho. That distinction is the whole point of the tiering and it had been lost\nin a note nobody re-read.\nAlso recorded there now: five children on primary records, and his death dated\nto before 11 July 1910 by his widow's registration."
+    },
     {
      "sha": "91ae0ba",
      "subject": "The contents lists I added today were unreadable on a phone",
