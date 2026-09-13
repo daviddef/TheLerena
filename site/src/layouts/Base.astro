@@ -1,6 +1,8 @@
 ---
 import { u } from "../lib/url.js";
 import SiblingArchives from "@daviddef/archive-kit/components/SiblingArchives.astro";
+import VisitCount from "@daviddef/archive-kit/components/VisitCount.astro";
+import ring from "@daviddef/archive-kit/data/archives.json";
 import fs from "node:fs";
 import crypto from "node:crypto";
 // The stylesheet is a plain public asset, so a browser that has it cached keeps serving the old one
@@ -22,6 +24,10 @@ const nav = [
   ["Honesty", [["/corrections/", "Corrections"], ["/changes/", "What Changed"], ["/searched/", "What Has Been Read"], ["/method/", "Method"], ["/sources/", "Sources"]]],
 ];
 const here = Astro.url.pathname;
+/* which of the seven this is, worked out the same way the ring does */
+const thisArchive = ring.archives.find(
+  (a) => a.base === (import.meta.env.BASE_URL || "/").replace(/\/$/, "")
+);
 ---
 <html lang="en" data-base={u("")}>
 <head>
@@ -81,6 +87,7 @@ const here = Astro.url.pathname;
     of the Cape and the Rand, and of Brisbane. Every claim carries its confidence. <strong>Living people appear by name
     only</strong> &mdash; no dates, no places, no photographs.</p>
     <p class="foot dim">Built {new Date().getFullYear()} · Sources listed on <a href={u("/sources/")}>Sources</a> · Everything this archive got wrong is on <a href={u("/corrections/")}>Corrections</a></p>
+    <VisitCount code={thisArchive?.counter} />
   </div>
 </footer>
 
