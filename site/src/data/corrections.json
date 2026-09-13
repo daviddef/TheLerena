@@ -194,5 +194,12 @@
   "what_was_said": "That Luis Eugenio Lerena Lenguas is not in the indexed Uruguayan death registers",
   "what_is_true": "*** He is, and he died on 24 December 1901. *** Two sweeps were run and reported here as negatives - 1,502 Montevideo Lerena deaths for 1880-1911, and 132 Luis Lerena deaths for 1899-1903 - and this archive went so far as to write up the FamilySearch Tree's date of 1901 as a lead the registers appeared to contradict. The registers did not contradict it. THE INDEX DID: FamilySearch files him as \"Luis SERENA Lenguas\", so every search on the surname missed him. Found within the hour by searching his MOTHER, Justiniana Lenguas, instead.",
   "how_it_was_caught": "Searching on the rarest stable name in the household rather than on a surname that the clerks and the indexers between them spell Lerena, Lorena, Serena and Languas."
+ },
+ {
+  "date": "2026-09-13",
+  "severity": "minor",
+  "what_was_said": "Julia Juanico born about 1844",
+  "what_is_true": "*** 23 November 1842. *** The 1844 was derived from her stated age of 66 on her 1910 death registration; she was 67. Her baptism of 4 October 1843 at San Francisco de Asis gives the date, and gives her mother in full as Juliana JOAQUINA Gonzalez.",
+  "how_it_was_caught": "Searching her FATHER rather than her surname - the same move that found her husband's death the same evening."
  }
 ]

@@ -87,6 +87,33 @@
   "count": 29
  },
  {
+  "slug": "montevideo",
+  "name": "Montevideo",
+  "people": [
+   "dona-julia-juanico",
+   "don-jaime-herrera",
+   "luis-lerena",
+   "enrique-lerena-juanico",
+   "ema-sixta-lerena-juanico",
+   "dr-don-candido-juanico",
+   "dona-juliana-joaquina-gonzalez",
+   "dona-justiniana-lenguas-gonzalez",
+   "laura-adela-lerena-juanico",
+   "jose-julio-lerena-juanico",
+   "candido-jaime-lerena-juanico",
+   "justinia-lerena-lenguas",
+   "alberto-otario-lerena-lenguas",
+   "maria-ema-lerena-lenguas",
+   "dona-sixta-lenguas",
+   "sara-juanico-lenguas",
+   "zara-sista-emirena-juanico-lenguas",
+   "celia-juanico-lenguas",
+   "d-enrique-juanico",
+   "mercedes-gonzalez"
+  ],
+  "count": 20
+ },
+ {
   "slug": "buenos-aires",
   "name": "Buenos Aires",
   "people": [
@@ -132,27 +159,6 @@
    "don-luis-lerena-probably-luis-lerena-y-fernandez"
   ],
   "count": 15
- },
- {
-  "slug": "montevideo",
-  "name": "Montevideo",
-  "people": [
-   "dona-julia-juanico",
-   "don-jaime-herrera",
-   "luis-lerena",
-   "enrique-lerena-juanico",
-   "ema-sixta-lerena-juanico",
-   "dr-don-candido-juanico",
-   "dona-juliana-gonzalez",
-   "dona-justiniana-lenguas-gonzalez",
-   "laura-adela-lerena-juanico",
-   "jose-julio-lerena-juanico",
-   "candido-jaime-lerena-juanico",
-   "justinia-lerena-lenguas",
-   "alberto-otario-lerena-lenguas",
-   "maria-ema-lerena-lenguas"
-  ],
-  "count": 14
  },
  {
   "slug": "gualeguaychu-entre-rios",
