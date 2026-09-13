@@ -14,6 +14,14 @@ const { name = "arrows", label } = Astro.props;
   .mrule .mk { opacity:.75; flex:0 0 auto; color:var(--ink-3); display:flex; }
   .mrule .lb {
     font-family:var(--sans); font-size:11px; letter-spacing:.14em;
-    text-transform:uppercase; color:var(--ink-3); flex:0 0 auto;
+    text-transform:uppercase; color:var(--ink-3);
+    /* was flex:0 0 auto, which made a long label unshrinkable and pushed the
+       whole row wider than a phone - 31px of horizontal scroll on /roadmap/
+       and /photograph-these/. It may now shrink and wrap. */
+    flex:0 1 auto; min-width:0; overflow-wrap:anywhere;
+  }
+  @media (max-width:620px){
+    .mrule { gap:10px; }
+    .mrule .lb { letter-spacing:.10em; }
   }
 </style>

@@ -921,3 +921,9 @@ details>summary:hover{color:var(--accent)}
 .ring .rl{display:block;font-size:14.5px;line-height:1.5;color:var(--ink-2)}
 .ring .rs{display:block;font-family:var(--mono);font-size:11px;color:var(--ink-3);margin-top:8px}
 .ring .rkids{margin-top:18px;font-size:14.5px;color:var(--ink-2)}
+
+/* A long unbroken token - a pasted search URL in an errand, a film reference -
+   cannot be hyphenated and will push a whole page sideways on a phone. The
+   errands page scrolled 412px horizontally because of one 150-character
+   FamilySearch URL. Let prose break anywhere it must, rather than overflow. */
+p,li,td,th,dd,.cap,.txt,.dek,.ab{overflow-wrap:anywhere}
