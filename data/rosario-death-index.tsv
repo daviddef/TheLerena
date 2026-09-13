@@ -1,0 +1,40 @@
+# THE ROSARIO DEATH INDEX - opened for the first time, 13 September 2026.
+#
+# "Indice de defunciones 1800-1888", Parroquia Nuestra Senora del Rosario, via the FamilySearch
+# waypoint browse (cc=1974196). EIGHTY-SIX IMAGES. HANDWRITTEN, not the 1945 typescript - four
+# columns to a page, surname / given name / folio, grouped by letter and then by libro and year.
+#
+# WHY IT MATTERS: a death act names the parents of the deceased. If Juan Carlos Lerena or Maria
+# Lerena died at Rosario, this is where they would be. In six days of work nobody had opened it.
+#
+# *** THE VOLUME IS A COMPOSITE. *** It is not one index. Bound together, in this order:
+#
+#   images 3-44   DEATH INDEX, first sequence: A to Z, libros 4-7, covering 1800-1839.
+#   images 45-53  DEATH INDEX, second sequence: "Letra A" to "Letra S", covering 1882-1888.
+#   images ~51-55 A further index in which entries read "X con Y" - MARRIAGES, not deaths.
+#   images 56-58  "BAUTISMOS DE LOS YNDIOS" - an index of indigenous baptisms, letters A-P.
+#   images 59-86  DEATH INDEX, third sequence: libros 4-8, c.1838-1869 - AND IT STOPS AT F.
+#
+section	images	years	letter_L_found	result
+First death sequence	27-29	1800-1839	YES - read in full	NO LERENA. Lencinas, Leguizamon, Lopez, Ludueña, Lucena, Leon, Lujan, Llanos, Lescano, Lavallen, Lozano, Lemos, Luna, Lira, Luque, Loza, Lazo, Latorre, Lagos, Livia, Lumbre, Larrea, Langüines, Lisarda. Also LOVERRA (1820) - Lov-, not Ler-.
+Second death sequence	48	1882-1888	YES - read in full	NO LERENA. Lugones, Ludueña, Lobos, Luria, Ledesma, Lucero, Leguizamon, Loza, Lescano, Lunas, Lemos, Limbo, Lejarza, Lazarte, Leahy, Lopez, Llanes, Lal, Leon, Lazo, Lezcano, Lencina, Lavallen, Labao, Losarto, Lubes. Seventy-odd entries, 1882 to 1888, and not one Lerena.
+Marriage-style index	51-55	-	not searched	Entries read "X con Y" - this is a marriage index, not a death index, and is outside the scope of this sweep. Recorded so it is not mistaken for unread death pages.
+Indigenous baptisms	56-58	-	not searched	"Bautismos de los Yndios" - letters A to P visible. Not a death index.
+Third death sequence	59-86	c.1838-1869	*** NO - THE VOLUME ENDS AT F. ***	A runs images 59-67, B 68-71, C, D 82-83, E 84, F 85-86, and the book stops. THERE IS NO L SECTION FOR THIS PERIOD IN THIS FILM.
+#
+# *** THE RESULT, STATED PLAINLY. ***
+#
+# 1. For 1800-1839 and for 1882-1888, the Rosario death index has been read end to end under L.
+#    THERE IS NO LERENA IN EITHER.
+#
+# 2. For roughly 1840 to 1881 THERE IS NO L SECTION TO READ. The index that covers those years
+#    breaks off at the letter F. This is not a gap in the searching - it is a gap in the record.
+#
+# What that means for the central question: if Juan Carlos Lerena or Maria Lerena died at Rosario
+# between 1840 and 1881 - which is exactly the window in which a parent of an 1882 child would be
+# most likely to die - the finding aid that would locate them DOES NOT EXIST. The death REGISTERS
+# for 1841-1875 do survive and are filmed; they would have to be read act by act, which is a far
+# larger job than the index would have been, and is now the only route.
+#
+# A NOTE ON METHOD: this index is handwritten and dense. Level 12 at 0.58 scale, one page-half per
+# screenshot, proved the reliable setting; level 13 is sharper but drops tiles on this film.

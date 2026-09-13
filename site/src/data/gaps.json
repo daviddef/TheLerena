@@ -23,5 +23,10 @@
   "gap": "The ostrich farm",
   "what_has_been_done": "The deeds registers show him holding no land at all.",
   "why_it_may_never_close": "A leased farm leaves no deeds trace. Absence of a title is not absence of a farm, and there may be nothing to find either way."
+ },
+ {
+  "gap": "*** The Rosario death index breaks off at F for 1840-1881 ***",
+  "what_has_been_done": "The \"Indice de defunciones 1800-1888\" was opened and read under L on 13 September 2026. Its first sequence (1800-1839) and its second (1882-1888) both have L sections, both were read in full, and neither holds a Lerena. Its THIRD sequence, the one covering roughly 1840 to 1881, runs A, B, C, D, E, F and stops - the volume ends mid-alphabet.",
+  "why_it_may_never_close": "For this to be closable at all, an L section for 1840-1881 would have to exist somewhere - in another film, or in the parish's own holdings at Rosario. Failing that, the death REGISTERS for 1841-1875 survive and are filmed, and would have to be read act by act. That is the only remaining route, and it is a very large one. For deaths after 1875 the collection holds no register at all."
  }
 ]

@@ -2871,3 +2871,25 @@ in case the margin read LARENA*. It reads Gauna.
 **The point of the exercise:** every Rosario null here rests on a 1945 typescript index, and whether
 that index is complete had never been tested. It has now been tested across 750 consecutive acts, and
 **the index and the register agree**. He is not there, and the index is not the reason.
+
+### The death index — opened, read, and found to break off
+
+**"Índice de defunciones 1800–1888", 86 images, handwritten.** The biggest untried record set in
+Rosario, and a death act names the parents of the deceased.
+
+It is a **composite**: a death index for **1800–1839** (images 3–44), a second for **1882–1888**
+(45–53), a marriage-style index, an index of **indigenous baptisms**, and a third death index for
+c.1838–1869 (59–86).
+
+**Both L sections that exist were read in full — images 27–29 and image 48 — and neither holds a
+Lerena.** The second covers 1882 itself. One near-miss logged: *Loverra* (1820).
+
+**The third sequence stops at F.** There is no L section for **1840–1881** in this film. Not a gap in
+the searching — a gap in the record, falling exactly where a parent of an 1882 child would most likely
+have died. Recorded on `/gaps/`.
+
+The death *registers* survive to 1875 and are filmed; such a death is still findable act by act, which
+is now the only route. After 1875 the collection holds no death register at all.
+
+Method note: **level 13 drops tiles on this film** (11 of 187 on one page-half after ten retries, in
+regular bands). **Level 12 at 0.58, one page-half per screenshot**, is complete and legible.
