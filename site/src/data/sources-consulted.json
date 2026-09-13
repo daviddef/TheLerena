@@ -355,5 +355,26 @@
   "accessed": "13 Sep 2026",
   "tier": "SECONDARY",
   "link": ""
+ },
+ {
+  "source": "Rosario cathedral, Libro 25 - opening at film 004098791 i=19, acts 945-950 (9-10 August 1882)",
+  "used_for": "Six more acts read act by act: Pedro Toledo, Miguel Dolmas, Rosa Perez, Maria Candelaria, Alejandro Orellana, Arturo Ferrari. No Lerena. *** 786 consecutive baptisms now read. ***",
+  "accessed": "13 Sep 2026",
+  "tier": "PRIMARY",
+  "link": ""
+ },
+ {
+  "source": "Rosario cathedral, Defunciones 1841-1860 - film 1091422, DGS 4531021",
+  "used_for": "*** THE DEATH REGISTERS STARTED. *** 658 images, unrestricted; the leader card reads 1091422, matching the catalogue. First opening read: five acts, 26 May to 18 June 1841 - Juan Fernandez, Luisa Candelaria Bravo, Victoria Medina, Ynnocencia Villa Real, Maria Zumbero. No Lerena. The margin-name method works here exactly as on the baptisms. On the order of six thousand acts for 1841-1860 alone: STARTED, not finished.",
+  "accessed": "13 Sep 2026",
+  "tier": "PRIMARY",
+  "link": ""
+ },
+ {
+  "source": "FamilySearch catalogue 208788 re-read while their SEARCH was down - the confirmation and early marriage films",
+  "used_for": "DGS numbers recovered for five films this archive had listed without them: *** Confirmaciones 1883-1918 (DGS 4531018) - the one that covers Pablo Armando *** - plus Confirmaciones 1722-1833/1860-1895 (4531017), Confirmaciones 1764-1833 (4530427), Matrimonios 1722-1803 (4531037) and Matrimonios 1804-1852 (4531038). A DIAGNOSTIC WORTH KEEPING: catalogue SEARCH, full-text and /search/film/<old film number> were all erroring, while a DIRECT CATALOGUE ID still worked.",
+  "accessed": "13 Sep 2026",
+  "tier": "SECONDARY",
+  "link": ""
  }
 ]

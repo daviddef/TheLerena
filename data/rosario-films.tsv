@@ -35,8 +35,17 @@ Matrimonios 1884-1891	1091471	4531041
 # route - no index section, no register. That is not a gap this archive can close by working harder.
 #
 # Also in the catalogue and NOT previously listed here, recorded so nobody re-derives them:
-Confirmaciones 1722-1833,1860-1895	1091425	-		The confirmations this archive has listed as untried. They exist.
-Confirmaciones 1764-1833	-	-		
-Confirmaciones 1883-1918,1920-1961	-	-		
-Matrimonios 1722-1803	-	-		Earlier than anything previously listed here.
-Matrimonios 1804-1852	-	-		Closes the marriage series back to 1722 alongside 1853-1867 and 1868-1884.
+*** Confirmaciones 1722-1833,1860-1895 ***	1091418	4531017		The confirmations this archive has listed as untried. They exist, and the DGS is now recorded.
+Confirmaciones 1764-1833	1093081 item 2	4530427		
+*** Confirmaciones 1883-1918,1920-1961 ***	1091419	4531018		*** THE ONE THAT COVERS PABLO ARMANDO. *** Born Feb 1882, he would be confirmed in the 1890s. A confirmation act commonly names the parents.
+Matrimonios 1722-1803	1091467	4531037		Earlier than anything previously listed here.
+Matrimonios 1804-1852	1091468	4531038		Closes the marriage series back to 1722 alongside 1853-1867 and 1868-1884.
+#
+# *** A DIAGNOSTIC WORTH KEEPING, learned 13 September 2026 while their site was half down. ***
+# FamilySearch's CATALOGUE SEARCH, RECORDS full-text and the /search/film/<old film number> form
+# were all returning "Something Went Wrong" for hours - but a DIRECT CATALOGUE ID still worked:
+#   https://www.familysearch.org/search/catalog/208788
+# and so did name-indexed records search. So when the catalogue appears dead, try the ID directly
+# before concluding the work cannot be done. Every DGS above came out of it while search was down.
+# Note also: /search/film/ wants the DGS, not the old film number - 1091425 resolves to nothing.
+

@@ -136,7 +136,14 @@
   "what": "Find the DGS for the Montevideo marriage-dispensation register",
   "who": "me",
   "status": "ready",
-  "detail": "The register 1856-1932 has been searched by FULL TEXT and answered well - no Juan Carlos, and no Lerena-Lerena dispensation anywhere - but never TURNED page by page, which is what would catch acts the handwriting recognition missed. *** The method is now proved: /search/film/<DGS>?i=<N>, ark from the page title, assemble tiles. Only the DGS is missing. *** Three routes to it were tried on 13 Sep 2026 and all failed because FamilySearch's catalogue, records and full-text search were all returning errors that day.",
+  "detail": "*** TRIED AGAIN 13 September 2026 AND STILL BLOCKED - by their outage, not by the work. *** FamilySearch's CATALOGUE SEARCH and FULL-TEXT SEARCH were both returning \"Something Went Wrong\" for hours, while name-indexed records search and DIRECT CATALOGUE IDs worked normally. The dispensations are in the FULL-TEXT corpus, not a name-indexed collection, so full text is the only route to them - and it is the half that is down. *** WHAT WOULD UNBLOCK IT: *** the catalogue entry for the Arquidiocesis de Montevideo, opened BY ID rather than by search, which is how five other film DGS numbers were recovered today while search was dead.",
+  "sent_on": "-"
+ },
+ {
+  "what": "Open the Confirmaciones film that covers Pablo Armando",
+  "who": "me",
+  "status": "ready",
+  "detail": "*** DGS 4531018, Confirmaciones 1883-1918, 421 images, UNRESTRICTED - recovered 13 September 2026. *** Born February 1882, he would have been confirmed in the 1890s, and a confirmation act commonly names the parents. This is a register this archive has listed as untried since the first week and never had a film number for. It was opened in the viewer that day but served NO image tiles and put no ark in the page title, unlike every other film handled here - so it needs another attempt rather than another search.",
   "sent_on": "-"
  }
 ]

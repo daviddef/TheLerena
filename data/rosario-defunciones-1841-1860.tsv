@@ -1,0 +1,28 @@
+# THE ROSARIO DEATH REGISTERS, READ ACT BY ACT - BEGUN 13 September 2026.
+# "Defunciones 1841-1860", film 1091422, DGS 4531021. 658 images, unrestricted.
+#
+# WHY THIS EXISTS: the "Indice de defunciones 1800-1888" was opened on 13 September and its third
+# sequence - the one covering roughly 1840 to 1881 - runs A, B, C, D, E, F and STOPS mid-alphabet.
+# There is no L section for those years anywhere. *** So the registers themselves are the only way
+# in, and this is the first of the three films that cover the gap. ***
+#
+# METHOD, same as the 1882 baptisms: navigate /search/film/004531021?i=<N>, read the ark from the
+# page title, assemble the DeepZoom tiles, read the MARGIN NAMES. Level 12 is the maximum here and
+# a whole opening fits one screen with every margin legible.
+#
+# STRUCTURE, established on the first opening read: the acts run chronologically with the deceased's
+# name in the margin; about five or six to a page. At that rate 658 images is on the order of six
+# thousand acts for 1841-1860 alone. *** This is the largest single job in the archive and it is
+# started, not finished. ***
+image	ark	acts	dates	margin names read	result
+i=1	9Q97-Y3S1-PFF	-	-	Film leader card. Reads "1091422", matching the catalogue exactly - the film mapping is verified.	-
+i=5	9Q97-Y3S1-PNZ	5 acts, right-hand page (the left is blank/faded)	26 May - 18 June 1841	Juan Fernandez (limosna); Luisa Candelaria Bravo (parbula); Victoria Medina (limosna); Ynnocencia Villa Real (parbula); Maria Zumbero (parbula)	*** NO LERENA. *** Note how many are "parbula" - infants - and "limosna", buried on charity.
+#
+# RESUME AT: film 004531021, ?i=6.
+#
+# A NOTE ON WHAT A NULL HERE WOULD BE WORTH. The question this film can answer is not "where is
+# Pablo Armando" - he was born in 1882, four decades later. It is whether any LERENA died at Rosario
+# between 1841 and 1860, which would mean a Lerena was LIVING there long before 1882. The whole
+# argument of this archive is that they were not a Rosario family; a Lerena death in the 1840s would
+# be the strongest single blow against it. So the value of this read is that it can prove the
+# archive wrong, and that is the reason to do it.
