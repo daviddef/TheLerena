@@ -1,9 +1,14 @@
 {
- "mechanical": 39,
+ "mechanical": 40,
  "days": [
   {
    "date": "2026-09-13",
    "commits": [
+    {
+     "sha": "31de413",
+     "subject": "The site was still publishing a claim I retracted this afternoon",
+     "body": "The corrections page has said since 8 September that nothing here is quietly\nedited away, and that where a page once said something different it now says the\ncorrected thing AND says it used to say something else.\nThe hypotheses page was failing that on its own terms. Its base-rate table still\nlisted FOUR branches including \"Arturo Lerena and Amalia Diaz, born Montevideo\n1858, son of Avelino Lerena and Ambrosia Traibel\" - the row I withdrew this\nafternoon as a conflation of two men, corrected in the data file and on the\ncorrections page, and never removed from the page that actually publishes it.\nFixed properly rather than silently: the row is gone, the count is three, the\nprovinces are corrected to Entre Rios, Misiones and Buenos Aires, and a note\nunderneath says what the table used to say, why it was wrong, and links to the\ncorrection. Which is what the house rule requires.\nAlso two deks reworded. I wrote \"Twelve sections\" and \"Twelve propositions\" this\nafternoon; both were accurate, and both were numbers that cannot be derived from\nanything and would drift the moment a section was added. They no longer state a\ncount. Stating a number you cannot derive is how the front page came to claim\n129 people when there were 138.\nAnd the people index said \"Five are connected to the direct line\" when fourteen\nare. It now derives all three figures - connected, excluded, unplaced - from the\ndata.\n198 pages, 288 ids, 0 broken."
+    },
     {
      "sha": "e653d27",
      "subject": "Three pages scrolled sideways on a phone, and one of them was my doing",
