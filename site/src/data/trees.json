@@ -32,5 +32,22 @@
    "cta": "Read about them →"
   }
  ],
- "close": "The gap this archive most wants closed is at the top of its own line, and it is a gap about a reason rather than a record."
+ "close": "The gap this archive most wants closed is at the top of its own line, and it is a gap about a reason rather than a record.",
+ "doors": [
+  [
+   "/direct-line/",
+   "The line",
+   "Three generations, Rosario to Brisbane, documented all the way down."
+  ],
+  [
+   "/who/",
+   "Every name",
+   "183 people, and the four other ways clerks wrote Lerena."
+  ],
+  [
+   "/open-questions/",
+   "What is not known",
+   "Starting with why Bob Lerena left Argentina."
+  ]
+ ]
 }
