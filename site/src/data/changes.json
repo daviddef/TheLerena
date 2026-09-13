@@ -1,9 +1,19 @@
 {
- "mechanical": 49,
+ "mechanical": 50,
  "days": [
   {
    "date": "2026-09-14",
    "commits": [
+    {
+     "sha": "c8a4945",
+     "subject": "Tell the pages that Sancho stopped being secondary",
+     "body": "The drift check flagged it: everything found in the last two days was in the\ndata and on no page. Caught by the tool rather than by me, which is what it was\nwritten for.\n/HYPOTHESES/ STILL TIERED SANCHO AS SECONDARY - \"FamilySearch Tree is\nuser-submitted, and nobody here has opened the fourteen acts\". Three acts\nnaming him as Luis Lerena's father have now been opened, and the page says so:\n  1836 - Luis Lerena's own marriage petition, over his own signature\n  1842 - his second marriage, to Justiniana Lenguas\n  1850 - the baptism of his son Alberto Octavio\nAnd the two 1846 entries that read FRANCISCO, and briefly looked like they\nwould topple the whole descent, disqualify themselves in their own last line:\nthey are later transcripts copied out of a legajo. Three originals against two\ncopies is not a conflict.\nThe page is careful about WHAT changed. The 1767 birth at Cordoba, the 1791\nmarriage at Canelones, the fourteen attached acts - all still secondary and\nstill unopened. What moved is the JOIN: Sancho to Luis, and so to everyone\nbelow him. That is the part the whole tree hangs from.\nIt also now carries the marriage nobody knew about: Luis Lerena married DONA\nCAROLINA OLIVA of Montevideo in September 1836 and was her widower by March\n1842. Any children of that marriage are half-siblings of Luis Eugenio and\nGilberto. The indexed records hold no trace - stated as a null, not an answer,\nbecause the Montevideo registers of 1837-41 are largely un-indexed.\n/HORSES/ NOW CARRIES HIS HOUSEHOLD, in the two halves it falls into: four\nchildren christened at Montevideo to 31 October 1886, four at Buenos Aires from\n29 October 1890. *** So the crossing is bracketed by baptisms rather than\ninferred from census birthplaces *** - records of the family, not of what its\nchildren later said about themselves. And Juan Carlos is not among the eight,\nwhich matters because this was the best remaining place to put him."
+    },
+    {
+     "sha": "1a5f11f",
+     "subject": "The 1836 marriage left no trace but its own petition",
+     "body": "Following the first wife forward, and reporting the null rather than a hope.\nTwo searches for children of Luis Lerena and Carolina Oliva:\n  - Any record pairing a LERENA father with a CAROLINA OLIVA mother, worldwide:\n    ONE result, a 1928 marriage in Minas Gerais to a Joaquim Alves de Lorena.\n    Not ours.\n  - Any Carolina Oliva in Uruguay 1830-1850: 1,507 rows, and every one of them\n    is a LATER woman - the Carolina Oliva who married Antonio Reverditto and\n    bore children from 1879. No death for ours, and no child.\nSo the marriage of September 1836 left nothing in the indexed records but the\npetition itself. Six years, a wife who died, and not one indexed baptism or\nburial.\n*** RECORDED AS A NULL AND NOT AS AN EXCLUSION. *** The Montevideo registers of\n1837-1841 are largely un-indexed, and this archive has learned twice this week\nexactly what indexes miss: a death filed under SERENA that eight sweeps walked\npast, and a general's rank turned into the forename \"Geraldo Dios\". Finding\nnothing in an index is not finding nothing.\nWhat it would actually take is written down instead: the Montevideo baptism\nregisters for 1837-1841 turned by hand, and the burials for 1841-42. That is\nthe same size of job as the Rosario reads already under way, and it is stated\nat its real size rather than left as a hopeful line."
+    },
     {
      "sha": "a015293",
      "subject": "The first wife has a name: Carolina Oliva, Montevideo, 3 September 1836",
