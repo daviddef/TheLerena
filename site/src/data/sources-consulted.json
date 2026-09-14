@@ -747,5 +747,12 @@
   "accessed": "14 Sep 2026",
   "tier": "SECONDARY - a controlled negative, with the noise sources named",
   "link": ""
+ },
+ {
+  "source": "FreeBMD - the GRO civil registration index (free)",
+  "used_for": "*** NEVER USED BY THIS ARCHIVE UNTIL TODAY, and it was the cheapest thing left on the Taylor side. *** Gave the quarter, district, volume and page for six marriages and a death: IRENE Sep 1900 BIDEFORD 5b/900 and ISABELLA 1900 BIDEFORD 5b/901 - *** consecutive pages, the two sisters married eleven days apart and written up one after the other ***; MARGARET HELLEN W *** Dec 1903 at PANCRAS, LONDON, 1b/43 - which answers why she is in no Devon census ***; LUCY ELIZABETH Jun 1909 TOTNES 5b/373; AGNES W Mar 1918 DEVONPORT 5b/588 with the spouse WOOD printed, the index carrying spouses after 1912; MARY ANN H BRAYLEY Mar 1870 BIDEFORD 5b/794; and WILLIAM TAYLOR's death Dec 1902 BIDEFORD 5b/326, *** age given as 75 against a birth date that would make him 76. *** AND ONE THAT BECAME A TRAP: a Horace Taylor married a MARSHALL at BOSMERE, SUFFOLK in Dec 1893, which looked like the answer until the page was read directly and gave the bride as LAURA EMILY, not Mary Jane. *** There is NO Horace Taylor marriage anywhere in Devon 1893-95, so what this archive holds for him is BANNS - an intention, not a marriage. *** Note the method: before 1912 the GRO index does not print the spouse, so FreeBMD's spouse box matches on a shared volume and page - an inference, not a printed fact.",
+  "accessed": "14 Sep 2026",
+  "tier": "PRIMARY - civil index read",
+  "link": "https://www.freebmd.org.uk"
  }
 ]

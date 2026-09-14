@@ -1,0 +1,38 @@
+# *** FREEBMD - the civil registration index, free, and never used by this archive until 14 Sep 2026. ***
+# David named it as "the cheapest thing left on the Taylor side", and he was right. The archive already
+# had the husbands' NAMES from the Devon parish index; FreeBMD gives the QUARTER, DISTRICT, VOLUME and
+# PAGE for each - the references a certificate is ordered from. *** A page of "documented" replacing a
+# page of "family". ***
+#
+# HOW IT WORKS, and it matters below: *** BEFORE 1912 THE GRO MARRIAGE INDEX DOES NOT PRINT THE SPOUSE. ***
+# FreeBMD's "spouse surname" box works by finding entries that share a VOLUME AND PAGE with someone of
+# that surname. So a spouse match is an inference from a shared page, not a printed fact - and it can
+# pair the wrong two people if two couples of the same surnames marry in the same quarter. See Horace.
+person	the reference	district	what it adds
+*** Irene TAYLOR *** m. Henry Albert Burton	*** Marriages SEP quarter 1900, vol 5b, PAGE 900 ***	Bideford	Confirms the parish date of 30 August 1900.
+*** Isabella Temple TAYLOR *** m. Henry Dalling	*** Marriages 1900, vol 5b, PAGE 901 ***	Bideford	*** THE TWO SISTERS ARE ON CONSECUTIVE PAGES OF THE SAME VOLUME. *** Married eleven days apart at the same church, and the registrar wrote them up one after the other. The civil index carries the fact the parish register only implied.
+*** Margaret Hellen W TAYLOR *** m. Charles William Bell	*** Marriages DEC quarter 1903, vol 1b, page 43 ***	*** PANCRAS, LONDON ***	*** THE ANSWER TO WHY SHE VANISHED. *** Her banns were called at NORTHAM on 22 November 1903 - and the marriage was registered in LONDON. This archive searched 84 Margaret Bells in the 1921 census and 362 in the 1939 Register, all of England, and found none born in Devon. She had not just left the county; she married out of it. *** And the index spells her HELLEN, with two Ls, as this archive does, against the Devon parish index's HELEN. ***
+*** Lucy Elizabeth TAYLOR *** m. William Norrish Sweet	*** Marriages JUN quarter 1909, vol 5b, page 373 ***	*** TOTNES *** - the district containing Churston Ferrers	Confirms the 1909 banns and dates the marriage to the June quarter.
+*** Agnes W TAYLOR *** m. WOOD	*** Marriages MAR quarter 1918, vol 5b, page 588 ***	*** DEVONPORT ***	*** Post-1912, so the index PRINTS the spouse: "Wood". *** The only one of the six that needs no inference. And she married at DEVONPORT, where her sister LUCY was living by 1921.
+*** Mary Ann H BRAYLEY *** m. William Taylor	*** Marriages MAR quarter 1870, vol 5b, page 794 ***	Bideford	Confirms the banns of 9 January 1870. Indexed twice, as "Mary Ann" and "Mary Ann H".
+*** WILLIAM TAYLOR, the father *** - his death	*** Deaths DEC quarter 1902, vol 5b, page 326, AGE GIVEN AS 75 ***	Bideford	Confirms the death of 30 November 1902. *** BUT THE AGE IS WRONG BY A YEAR against this archive's birth date of 11 February 1826, which would make him 76. *** The birth date comes from a tree; the age comes from an informant. Neither is decisive and the discrepancy is recorded rather than resolved.
+#
+# ================ *** AND ONE THAT TURNED INTO A TRAP *** ================
+#
+# *** HORACE ARCHIBALD TAYLOR'S MARRIAGE IS NOT IN THE DEVON INDEX AT ALL. ***
+#
+# Searching Taylor + Horace + spouse MARSHALL, 1893-95, returned exactly one entry:
+#     *** "Taylor  Horace   BOSMERE  4a 1487", Marriages Dec 1893 *** - and Bosmere is in SUFFOLK.
+# For a moment that looked like the answer, and it would have explained why he is in no Devon census.
+#
+# *** IT IS NOT HIM. *** Searching that volume and page directly returns the other party:
+#     *** "Marshall  LAURA EMILY   Bosmere  4a 1487" ***
+# Our Horace's banns, at Northam on 17 December 1893, name *** MARY JANE MARSHALL. *** Two Taylor-Marshall
+# marriages, in the same quarter of the same year, in different counties, to different brides.
+#
+# *** AND THERE IS NO HORACE TAYLOR MARRIAGE IN VOLUME 5b - THE WHOLE OF DEVON - BETWEEN 1893 AND 1895. ***
+#
+# So what this archive holds for him is BANNS, which are an INTENTION TO MARRY and not a marriage. The
+# banns are real and dated; the wedding is not evidenced. He may have married outside Devon, or later, or
+# not at all to her. *** FreeBMD is also explicitly incomplete - it says so on every results page - so
+# this null is softer than the others. *** Recorded as an open question, not as a marriage.
