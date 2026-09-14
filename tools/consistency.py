@@ -127,6 +127,12 @@ CHECKED_PAIRS = {
         "different people: Ysaac's daughter at Trinidad in 1875, and Gilberto's in the 1895 census",
     ("Maria E. LERENA", "Maria E. C. LERENA"):
         "different people in one census household - but see the age note against Maria E. C.",
+    ("Dona Juana SUAREZ", "Dona Juana GRANDAL"):
+        "different women sharing only the forename Juana: the late wife of Mayor Joaquin Ruiz de "
+        "Carvallo, named in 1827, and the Juana Grandal of Las Piedras",
+    ("Dona Carolina Amalia de la CONCEPCION", "Dona Carolina JUAREZ"):
+        "different women sharing only the forename Carolina: the godmother beside General Maggesi at "
+        "the Catedral in 1827, and an unrelated Carolina Juarez",
     ("Maria Carlota LERENA Salvanach", "Maria Carlota MORATORIO Lerena"):
         "different children ten years apart: Gilberto and Julia Salvanach's daughter baptised at "
         "Recoleta in 1890, and Fernando Moratorio and Josefa Lerena Traibel's baptised at Union in "
