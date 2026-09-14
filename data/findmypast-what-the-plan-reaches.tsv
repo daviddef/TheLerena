@@ -1,0 +1,29 @@
+# *** WHAT THIS FINDMYPAST SUBSCRIPTION ACTUALLY REACHES - mapped 14 September 2026 ***
+# Tested rather than assumed, because the trial expires on the 15th and a blocked record found at the
+# last minute is worse than a blocked record found first.
+record set	reachable?	evidence
+*** 1921 Census of England & Wales ***	*** YES *** - full transcripts with household	Two Taylor households read in full, with occupations, employers and addresses.
+*** 1939 Register ***	*** YES *** - full transcripts with exact dates of birth	26 Fore Street, Northam, schedule 98 read in full.
+*** Britain and Ireland, Incoming Passenger Lists 1878-1960 ***	*** YES ***	Mary Septima's 1935 arrival re-read. (Already held - see data/passenger-lists.tsv.)
+*** England & Wales Marriages 1837-2005 *** (the GRO index)	*** YES ***	Isabella Temple Taylor, *** marriage Q3 1900, BIDEFORD district, volume 5B page 901 *** - and findmypast's MarriageFinder names HENRY DALLING off the same page.
+*** British and Irish Newspapers ***	*** YES ***	1,344 articles returned on a "Lerena" keyword search.
+*** DEVON MARRIAGES AND BANNS *** - the parish registers	*** NO. BLOCKED. ***	Marked "Exclusive" in results. Opening the transcript for Isabella Temple Taylor's marriage at *** Northam & Appledore, 1900 *** redirects to an upgrade page: "Subscribe to unlock exclusive records ... Everything ... from $30.83 per month".
+*** DEVON BURIALS *** and the other Devon parish sets	*** NO. BLOCKED. *** Same "Exclusive" marking	Not separately tested; same record-set family and same marking.
+#
+# ================ *** WHAT THAT MEANS FOR THE PARISH REGISTER IMAGES *** ================
+#
+# *** THE ONE THING THIS SESSION SET OUT TO GET IS THE ONE THING THE PLAN DOES NOT COVER. *** The five
+# husbands named today - DALLING, BURTON, BELL, SWEET, WOOD - came from a FamilySearch INDEX of the
+# Devon registers. The ACTS themselves, which would give their FATHERS' NAMES AND OCCUPATIONS and turn a
+# page of index entries into a generation of in-laws, sit behind the "Everything" tier.
+#
+# *** NOT BOUGHT. *** No upgrade was purchased and none should be on this archive's account without
+# David deciding it. Recorded here as a priced, specific option rather than a vague "paywall".
+#
+# *** AND THERE ARE FREE ROUTES TO MOST OF IT: ***
+#   - *** FREEBMD *** gives the quarter, district, volume and page for every one of these marriages, and
+#     for William Taylor's death, at no cost. That is the same data as the GRO index above.
+#   - *** THE DEVON RECORD OFFICE *** holds the originals; the images are also on Ancestry, which this
+#     archive has never used (0 citations).
+#   - *** FAMILYSEARCH *** already gave the index entries, with dates and parishes, for free.
+# *** So the ACT TEXT is blocked, not the FACT. The dates, parishes and spouses are already documented. ***
