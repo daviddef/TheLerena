@@ -1,5 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
+import WaysIn from "@daviddef/archive-kit/components/WaysIn.astro";
+import Numbers from "@daviddef/archive-kit/components/Numbers.astro";
 import PlaceSpark from "@daviddef/archive-kit/components/PlaceSpark.astro";
 import { u } from "../lib/url.js";
 import people from "../data/people.json";
@@ -53,26 +55,11 @@ const stats = [
     <span class="chip lore" style="padding:2px 8px;font-size:10px">Family lore</span>
   </p>
 
-  <div class="doors">
-    <a class="door" href={u("/direct-line/")}>
-      <div class="dn">Follow the line</div>
-      <div class="dd">Three generations from <b>Pablo Armando Lerena</b> to David's mother, with a record
-        behind every step and no inferred link left in the descent.</div>
-      <div class="go">Start at Rosario →</div>
-    </a>
-    <a class="door" href={u("/passport/")}>
-      <div class="dn">Read the passport</div>
-      <div class="dd">Série A No. 07962, issued at Cape Town on Christmas Eve 1940. A birthplace, a
-        birthday, and a profession in one word: <b>Trainer</b>.</div>
-      <div class="go">See what it settles →</div>
-    </a>
-    <a class="door" href={u("/hypotheses/")}>
-      <div class="dn">See what is unproved</div>
-      <div class="dd">Every proposition the archive is entertaining but has not proved — what suggests it,
-        what would settle it, and the two already retired as wrong.</div>
-      <div class="go">Open questions →</div>
-    </a>
-  </div>
+  <WaysIn doors={[
+    { href: u("/direct-line/"), name: "Follow the line", blurb: "Three generations from Pablo Armando Lerena to David's mother, with a record behind every step and no inferred link left in the descent.", cta: "Start at Rosario →" },
+    { href: u("/passport/"), name: "Read the passport", blurb: "Série A No. 07962, issued at Cape Town on Christmas Eve 1940. A birthplace, a birthday, and a profession in one word: Trainer.", cta: "See what it settles →" },
+    { href: u("/hypotheses/"), name: "See what is unproved", blurb: "Every proposition the archive is entertaining but has not proved — what suggests it, what would settle it, and the two already retired as wrong.", cta: "Open questions →" },
+  ]} />
 </section>
 
 <section class="blk">
@@ -175,17 +162,7 @@ const stats = [
   </div>
 </section>
 
-<section class="blk">
-  <h2>The archive in numbers</h2>
-  <div class="grid g3" style="margin-top:24px">
-    {stats.map(([n, l, h]) => (
-      <a class="cardlink" href={u(h)}>
-        <div class="nm" style="font-variant-numeric:tabular-nums">{n}</div>
-        <div class="txt">{l}</div>
-      </a>
-    ))}
-  </div>
-</section>
+<Numbers rows={stats.map(([n, l, h]) => [n, l, u(h)])} />
 
 <section class="blk">
   <h2>Where it stands, and where it stops</h2>
