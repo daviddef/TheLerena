@@ -47,3 +47,34 @@ what	the catalogue entry	DGS / where	what it means
 # *** THE BETTER ROUTE REMAINS ITEM 10, THE INDEX OF MARRIAGES 1776-1947, which sits immediately BEFORE
 # the registers on this same reel and has never been opened. *** One alphabetical opening under L would
 # answer the question that seven weeks of searching has not.
+#
+# ================ *** THE INDEX WAS FOUND AND OPENED, 14 September 2026 *** ================
+#
+# Item 10 of DGS 8166578 - "Indice de matrimonios, 1776-1947" - is real, it is readable, and it sits at
+# roughly *** IMAGES 2460 TO 2650 *** of that reel. What it looks like, from pages actually opened:
+#
+#   - *** Each page carries a LETTER HEADING at the top *** - image 2490 is headed what reads as "Letra C".
+#   - *** The columns are: SURNAME | forename | FOLIO | YEAR ***, two facing pages per opening, and within
+#     a letter the entries run CHRONOLOGICALLY.
+#   - Image 2490 read cleanly at level 11: *** Cabrera, Canosa, Camelo, Colman, Castellano, Caamano,
+#     Cornejo, Cabrera, Calderon, Coronel, Castrillo *** with folios 11, 11v, 15v, 16, 17, 17v, 18, 18v,
+#     22, 28v, 24, 25v, 26v and years 1846, 1847, 1848, 1849.
+#   - Image 2520 shows folios 141-201 with years 1888-1889; image 2550 shows years 1908-1918.
+#
+# *** WHAT WAS NOT DONE: THE LETTER L WAS NOT REACHED. *** C is at 2490 and the sections after it were not
+# walked. The sampling above does not settle how the sections are laid out - if one letter really runs
+# 1776 to 1947 before the next begins, C alone would occupy some seventy images and the whole alphabet
+# could not fit in the space available, so *** the arrangement is not yet understood and should be worked
+# out by reading headings, not by arithmetic. ***
+#
+# *** THE METHOD FOR TARGETING ANY IMAGE, which is the reusable part: ***
+#   1. Open /search/film/<DGS>?i=<N> and click the GRID icon in the viewer toolbar.
+#   2. In the page, every thumbnail is an <img> whose src is
+#      .../deepzoomcloud/dz/v1/<ARK>/thumb_p200.jpg - so the DOM gives an *** ARK FOR EVERY IMAGE NUMBER ***,
+#      which the page TITLE does not (the title carries an ark only for some images).
+#   3. *** thumb_p200.jpg shows the WHOLE opening at 200px *** - enough to tell a columnar INDEX page from a
+#      prose REGISTER page at a glance, which is how the index was found at all.
+#   4. Then read it at image_files/11/<col>_<row>.jpg or level 12 for the hand.
+#
+# *** ONE WARNING FOR WHOEVER CONTINUES: the grid does not always scroll to the ?i= value *** - asking for
+# 2510 loaded a window of 2341-2470. Read the numbers off the DOM rather than assuming.
