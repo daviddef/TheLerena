@@ -28,3 +28,10 @@ Is the search worth retrying?	Yes. The title search (alex_suche.htm) works and t
 # DEFRANCESKI side - Istria, Kvarner and Carniola were Habsburg territory, and Austrian gazettes and
 # Landesgesetzblatter are the right body of law for them. That is this project's SIBLING archive and
 # the two are kept strictly separate; recorded here only so the suggestion is not lost.
+#
+# ---- RETESTED 14 September 2026, with a STRICTER test ----
+# The first assessment queried /cgi-content/alex-iv.pl by GET with a suchwort parameter. *** THE FORM
+# IS A POST, *** and its search field is named "string" - so a malformed request could have explained
+# the earlier stub. Retested by filling and submitting the site's own form, with all Geltungsbereiche
+# selected: *** the form page comes back unchanged, with no result block at all. *** The conclusion
+# stands and now rests on a properly-formed request rather than a guessed URL.

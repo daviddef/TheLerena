@@ -628,5 +628,12 @@
   "accessed": "14 Sep 2026",
   "tier": "PRIMARY - full-text transcript read",
   "link": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS2C-J9J2-K"
+ },
+ {
+  "source": "ALEX - Historische Rechts- und Gesetzestexte, Osterreichische Nationalbibliothek (alex.onb.ac.at)",
+  "used_for": "*** ASSESSED ON REQUEST, AND THE ASSESSMENT IS THAT IT CANNOT BE ASSESSED TODAY. *** About five million pages of Austrian and Habsburg official text. Its full-text search returns the same stub for every query - *** established by CONTROLS, not assumed: \"Konsul\", \"Uruguay\" and \"Montevideo\" each returned an identical 166-byte response. *** A word certain to appear in five million pages of Austrian law returning zero is a broken search, not a null. RETESTED 14 Sep by submitting the site's own form as a POST rather than the GET used first - a stricter test, since a malformed request could have explained the first result. The form comes back unchanged. *** On relevance, honestly: THE PRIOR IS LOW *** - this family is Uruguayan, Argentine, Spanish, South African and British, and nothing in the record touches the Habsburg lands. *** The one real hook is CONSULAR: *** Austria-Hungary kept consulates at Montevideo and Buenos Aires and the Hof- und Staatshandbuch lists consuls, so an Austro-Hungarian honorary consulship held by a Lerena in the River Plate would show. It would NOT show Pablo Armando's own claimed consulship, which was Argentine and at the Cape.",
+  "accessed": "14 Sep 2026",
+  "tier": "REFERENCE - source tested, search unusable",
+  "link": "https://alex.onb.ac.at"
  }
 ]
