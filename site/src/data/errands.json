@@ -205,14 +205,14 @@
  {
   "what": "Read the Rosario CONFIRMATIONS by full text, not by tiles",
   "who": "me",
-  "status": "*** DONE 14 September 2026 ***",
+  "status": "done",
   "detail": "*** READ END TO END: images 5 to 80 of item 1, every page from the first register leaf (15 MAY 1885) to the start of the 1897 section. NO LERENA, under any of seven spellings, among roughly 2,500 children - each entry naming both parents. *** Pablo Armando was three when the register opens and fifteen when the section closes, and children appear at every age from two to fifteen, so his whole plausible window is inside the pages read. *** STILL OPEN: images 81-148 (1897-1904, when he was 15-22), and any confirmations of 1883-84, which are not on these pages. *** See data/rosario-confirmations-read.tsv.",
   "sent_on": ""
  },
  {
   "what": "Read SANTA ROSA DE LIMA, Confirmaciones 1890-1897 - the second Rosario parish",
   "who": "me",
-  "status": "*** PART READ - 57 of 141 - PAUSED ON A HARDENING RATE LIMIT, 14 Sep 2026 ***",
+  "status": "ready",
   "detail": "*** DGS 004581639, 141 images (1-5 are covers). READ AND CLEAN, NO LERENA under any of seven spellings: 6-21, 23-58, 60-63, 66 - FIFTY-SEVEN IMAGES. *** NOT READ (empty transcript, retried): *** 22, 59, 64, 65, 67, 68, 69. *** NEVER ATTEMPTED: 70-141. *** THE RATE LIMIT HARDENED THROUGH THE DAY: four images per batch held this morning; by evening it was ONE TO TWO per batch even with thirty-second gaps, and image 22 has now failed three times. Finishing from here is 79 images at that rate. *** THE CHEAP FIX IS TIME, NOT TECHNIQUE: resume on a later day when the quota has reset. *** RESUME LOOP: /search/film/004581639?i=N, take the ark from the page title, open /ark:/61903/<ark>?view=fullText, wait, read. A page counts as read ONLY if its transcript is non-empty. The register's index page says PAGES MISSING, so any final null is qualified by that. ***",
   "sent_on": ""
  },
@@ -221,6 +221,13 @@
   "who": "me",
   "status": "ready",
   "detail": "*** THE ONE LIVE SEAM IN THE BRITISH PRESS, found 14 September 2026 after the surname search failed. *** Searching \"Lerena\" in the British Newspaper Archive is useless - the Nissan Serena, \"gutta serena\" and a Spanish finance minister swamp it. But *** \"ARGENTINE STUD BOOK\" returns 13 genuine articles, *** and SPORTING LIFE covered Argentine racing in the very years GILBERTO LERENA was co-founding that book and having a Palermo Group 1 named for him in 1914. Read the columns by SUBJECT rather than searching by NAME. Note this needs a findmypast or BNA subscription - the newspapers ARE covered by the plan tested on 14 Sep, unlike the Devon parish registers.",
+  "sent_on": ""
+ },
+ {
+  "what": "Write to \"Welsh Jen\" on RootsChat - TAYLOR of Bideford",
+  "who": "David",
+  "status": "waiting-on-david",
+  "detail": "The RootsChat Surname Interests Table lists a member \"Welsh Jen\" researching *** TAYLOR of BIDEFORD, DEVON *** - the exact registration district of William Taylor and Mary Ann Helena Brayley and seven of their ten children. *** Messaging requires an account and TWO forum posts before the PM system unlocks. *** This archive now holds for that family: ten children with dates, six marriages with GRO volume and page references, the 1891, 1901, 1911 and 1921 censuses, the 1939 Register, and a daughter who married an Argentine and died at Cape Town. *** Offer first and ask second - that is a great deal to give a fellow researcher, and it is the right way round for a first message. *** Other leads on the same table: \"Muddy Waters\" (DALLING, Swimbridge/Landkey/Barnstaple), \"Burnell\" (BRAYLEY, Somerset & Devon), \"kingsgate\" (NORRISH, Devon).",
   "sent_on": ""
  }
 ]
