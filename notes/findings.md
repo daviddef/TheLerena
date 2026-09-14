@@ -239,8 +239,10 @@ verified.* This vindicates the day-one prediction that the 61 SA Lerenas are one
 Also: Cheryl m.1 **Derrick Luwinski**, m.2 Ivan Defranceski; David's other names recorded as
 **David Leonard Luwinski / Luwinski Defranceski**.
 
-> **Corrected 14 September 2026.** His full name is **Lynn Derrick Luwinski** and he was born
-> **24 April 1949**, not 1947. His line is now worked in the sibling archive **The Luwinski**
+> **Corrected 14 September 2026.** His full name is **Lynn Derrick Luwinski**; the given names and
+> the birth year recorded here were both wrong. He is living, and this archive and its siblings now
+> publish his name and nothing else about him — no date of birth, not even a year. His line is worked
+> in the sibling archive **The Luwinski**
 > (`github.com/daviddef/TheLuwinski` · `daviddef.github.io/TheLuwinski`): a Berlin Jewish father of
 > record, **Kurt Israel Luwinski**, who left Germany in 1933 and whose own father **Jacob Leibholz**
 > was deported from Berlin to Auschwitz on **26 February 1943**; and a Portuguese mother,
