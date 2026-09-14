@@ -1,0 +1,20 @@
+---
+/* How far a person of this surname has been placed — NOT how well a claim is
+   evidenced. Those are two different questions and they had the same component
+   name across two archives: this one graded connected / unplaced / excluded,
+   the other graded documented / inferred / family lore.
+
+   The evidence ladder is the kit's Evidence component and is the same five
+   words in all seven archives. This is local, because "unplaced · of interest"
+   is a judgement only an archive still looking can make. */
+const { c } = Astro.props;
+const map = {
+  connected: ["doc", "Connected to the line"],
+  excluded:  ["", "Excluded"],
+  high:      ["lore", "Unplaced · high interest"],
+  interest:  ["inf", "Unplaced · of interest"],
+  unplaced:  ["inf", "Unplaced"],
+};
+const [cls, label] = map[c] || ["inf", c];
+---
+<span class={cls ? `chip ${cls}` : "chip"}>{label}</span>

@@ -13,7 +13,7 @@ import ring from "@daviddef/archive-kit/data/archives.json";
    later import in Astro frontmatter, breaks the build - and the error is worse than useless: it
    reads Unexpected "{" and points at the plain <meta viewport> tag thirty lines down. Diagnosed
    14 September 2026 by bisecting the frontmatter; moving the line is the whole fix. */
-const v = versioner(new URL("../../public/", import.meta.url));
+const v = versioner();
 const { title, description = "", dek, eyebrow, bare, noindex } = Astro.props;
 const SITE = "The Lerena Archive";
 const nav = [

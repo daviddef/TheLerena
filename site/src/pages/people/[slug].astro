@@ -1,6 +1,6 @@
 ---
 import Base from "../../layouts/Base.astro";
-import Chip from "../../components/Chip.astro";
+import Placement from "../../components/Placement.astro";
 import Ptree from "../../components/Ptree.astro";
 import { u } from "../../lib/url.js";
 import people from "../../data/people.json";
@@ -47,7 +47,7 @@ const relTree = p.relTree || 0;
       <div class="rec" style="margin-top:16px">
         {says.map(([k, v, w]) => (<><div class="k">{k}</div><div class="v" set:html={emph(v)} /><div class="w">{w}</div></>))}
       </div>
-      <div style="margin-top:18px"><Chip c={p.status} /></div>
+      <div style="margin-top:18px"><Placement c={p.status} /></div>
     </div>
 
     <div>
