@@ -1,0 +1,23 @@
+# *** ROSARIO: A METHOD UNLOCK, AND A LIMIT - 14 September 2026 ***
+# This archive has assumed since its first week that the Rosario registers must be read by ASSEMBLING
+# DEEPZOOM TILES, because they are not name-indexed. That is true of some of them and NOT of others,
+# and nobody had checked which.
+film	is it in FULL TEXT?	what follows
+*** Confirmaciones, DGS 4531018 *** - "Catedral Nuestra Senora del Rosario. Confirmation Records 1883-1904"	*** YES. FULLY TRANSCRIBED. *** Image 12 returns 4,261 characters of machine transcript, entry after entry: "ANGELA de once anos hijo legitimo de Constantino Montano y Luisa Gricelli - Maria Juana Ferrari"	*** THIS IS THE FILM THAT COVERS PABLO ARMANDO *** - born February 1882, confirmable from about 1888. *** It can be READ RATHER THAN ASSEMBLED, one image per request, and every entry names BOTH PARENTS. *** That is the single most efficient unread source in this archive.
+*** Defunciones, DGS 4531019 *** - "Catedral Nuestra Senora del Rosario. Religious Death Records 1731-1864"	*** NO. *** The image resolves (ark 3:1:9Q97-Y3S1-RGM) and its full-text view returns an EMPTY transcript	Tiles remain the only route. And note the range: *** 1731-1864 *** - this film cannot hold a death after 1864, so it cannot hold anyone this archive is chasing.
+#
+# ================ *** AND A HARD LIMIT ON FULL-TEXT SEARCH, MEASURED *** ================
+#
+# *** UNQUOTED TERMS ARE OR'd, NOT AND'd. *** The query  Lerena Rosario difunto  returns
+# *** 17,782,105 documents *** - every document containing ANY of the three words. Quoted phrases do not
+# AND either, which this archive recorded days ago.
+#
+# *** SO FAMILYSEARCH FULL TEXT ACCEPTS EXACTLY ONE QUOTED PHRASE AND NOTHING ELSE. *** There is no way
+# to say "Lerena AND Rosario". Narrowing must be done by choosing a RARER PHRASE, not by adding terms.
+#
+# *** AND THE PLACE FACET IS A TRAP THAT LOOKS LIKE AN ANSWER. *** Adding  f.recordPlace=Santa Fe  to a
+# full-text query returns "Full-Text Filtered Search Results (0)" and "No Results Found" - while the
+# filter panel says *** "No filters available" *** against every heading. The parameter is not valid for
+# full text, and an invalid facet produces a confident ZERO rather than an error. This is the THIRD
+# distinct false-null this archive has caught on this service in one day. See data/method and
+# data/familysearch-availability.tsv.

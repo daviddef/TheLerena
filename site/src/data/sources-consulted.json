@@ -698,5 +698,19 @@
   "accessed": "14 Sep 2026",
   "tier": "PRIMARY - indexes read",
   "link": ""
+ },
+ {
+  "source": "FamilySearch full text - the Rosario films, tested for transcripts rather than assumed",
+  "used_for": "*** A METHOD UNLOCK AND A MEASURED LIMIT. *** This archive had assumed since its first week that the Rosario registers must be read by assembling DeepZoom tiles. *** THE CONFIRMATIONS FILM - DGS 4531018, the one that covers Pablo Armando - IS FULLY TRANSCRIBED IN FULL TEXT: *** about 4,000 characters an image, every entry giving \"NAME de N anos hijo legitimo de FATHER y MOTHER\" plus a godparent. It can be read one request at a time. The DEATHS film, DGS 4531019, is NOT transcribed and covers only 1731-1864, so it cannot hold anyone this archive is chasing. *** AND A HARD LIMIT: unquoted terms are OR'd, not AND'd *** - \"Lerena Rosario difunto\" returns 17,782,105 documents - so full text accepts exactly ONE quoted phrase and narrowing must be done by choosing a rarer phrase, never by adding words. *** The place facet is a trap: f.recordPlace on a full-text query returns a confident ZERO with \"No filters available\" against every heading. *** The third false-null caught on this service in one day.",
+  "accessed": "14 Sep 2026",
+  "tier": "REFERENCE - method",
+  "link": ""
+ },
+ {
+  "source": "Uruguayan civil registration - ZELMIRA CARLOTA LERENA LARRIERA",
+  "used_for": "*** A CANDIDATE TESTED AND RULED OUT, which is the point of recording candidates. *** Flagged this morning because the shape was right: a Uruguayan Lerena woman married to an ARGENTINE in the decade this archive cares about. She is born 4 NOVEMBER 1880 in the Departamento de SAN JOSE, daughter of ALBERTO LERENA and MARIA INES LARRIERA; married ADOLFO CORDERO at Montevideo 28 February 1901; died there 4 January 1945. *** Nothing touches Pablo Armando. *** But her father ALBERTO LERENA, fathering a daughter in 1880, would be the right age to be ALBERTO OCTAVIO LERENA LENGUAS, born Montevideo 1850 and a grandson of Sancho - *** NOT MERGED, because a forename and an age is exactly the evidence that produced the two Arturos. ***",
+  "accessed": "14 Sep 2026",
+  "tier": "SECONDARY - indexes read",
+  "link": ""
  }
 ]

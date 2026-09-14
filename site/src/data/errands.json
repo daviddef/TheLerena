@@ -201,5 +201,12 @@
   "status": "ready",
   "detail": "*** alex.onb.ac.at - about 5 million pages of Austrian and Habsburg official texts. Its CONTENT search is broken: every query returns TOTAL (0) with a \"not yet available\" notice, proved by controls on 14 Sep 2026. *** The digitised volumes and the TITLE search do work. When full text returns, search LERENA and LLERENA, and specifically the Hof- und Staatshandbuch and Reichsgesetzblatt for an AUSTRO-HUNGARIAN honorary consul of that name at MONTEVIDEO or BUENOS AIRES - the only plausible link, and one that fits a family holding a general, a judge and an abogado. It would NOT reach Pablo Armando's own claimed ARGENTINE consulship at the Cape; that needs the South African gazette.",
   "sent_on": "-"
+ },
+ {
+  "what": "Read the Rosario CONFIRMATIONS by full text, not by tiles",
+  "who": "me",
+  "status": "*** READY - AND NEWLY CHEAP ***",
+  "detail": "*** DGS 4531018 is FULLY TRANSCRIBED IN FULL TEXT, discovered 14 September 2026. *** The archive had assumed tiles were needed. Open https://www.familysearch.org/search/film/004531018?i=N to resolve each image ark from the page title, then open that ark with ?view=fullText - about 4,000 characters of transcript per image, every entry giving \"NAME de N anos hijo legitimo de FATHER y MOTHER\" plus a godparent. *** Pablo Armando, born February 1882, is confirmable from about 1888; 421 images cover 1883-1904+. *** Start at i=12 and work forward. A confirmation act would name JUAN CARLOS LERENA and MARIA LERENA - the whole question of this archive - and it is the most efficient unread source here.",
+  "sent_on": ""
  }
 ]
