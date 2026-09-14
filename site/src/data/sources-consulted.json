@@ -712,5 +712,12 @@
   "accessed": "14 Sep 2026",
   "tier": "SECONDARY - indexes read",
   "link": ""
+ },
+ {
+  "source": "Catedral Nuestra Senora del Rosario - Confirmation Records, DGS 4531018 item 1, images 5-80",
+  "used_for": "*** READ END TO END FOR PABLO ARMANDO, AND HE IS NOT IN IT. *** Seventy-six images, the complete section from the first register leaf - \"Siguen las confirmaciones en la Iglesia del Sagrario (15 MAYO DE 1885)\" - to the 1897 section under Bishop Gelabert y Crespo. About TWO AND A HALF THOUSAND children, *** every entry naming BOTH PARENTS *** in the form \"NOMBRE de N anos hijo legitimo de PADRE y MADRE\". *** NO LERENA under any of seven spellings. *** Pablo Armando was three when the register opens and fifteen when it closes, and children appear at every age from two to fifteen - so his whole plausible window lies inside the pages read. *** THE STRONGEST NEGATIVE THIS ARCHIVE HAS PRODUCED ON ROSARIO, and an independent one: the baptism indexes were already read end to end for 1731-1901. *** Not read: images 81-148 (1897-1904), and any confirmations of 1883-84. Two false positives were opened and dismissed, and SEVEN images returned an empty transcript on the first pass and read clean on retry - an empty transcript is \"not read\", not \"no Lerena\".",
+  "accessed": "14 Sep 2026",
+  "tier": "PRIMARY - full-text transcripts read, page by page",
+  "link": "https://www.familysearch.org/search/film/004531018"
  }
 ]

@@ -49,6 +49,8 @@ import { u } from "../lib/url.js";
       <li><a href="#looking-for-juan-carlos-lerena-three-more-nulls">Looking for Juan Carlos Lerena — three more nulls</a></li>
       <li><a href="#wikitree-a-source-tested-and-found-empty">WikiTree &mdash; a source tested, and found empty</a></li>
       <li><a href="#alex">ALEX, the Austrian legal archive &mdash; asked for, and answered honestly</a></li>
+      <li><a href="#confirmations">The confirmations &mdash; read page by page, and he is not in them</a></li>
+      <li><a href="#two-false-positives">Two false positives, and a failure that would have faked the answer</a></li>
       <li><a href="#searching-the-rarest-name-not-the-surname">Searching the rarest name, not the surname</a></li>
       <li><a href="#the-surname-is-the-worst-way-to-find-them">The surname is the worst way to find them</a></li>
       <li><a href="#queensland-the-other-mary-ann-brayley-run-to-ground">Queensland &mdash; the other Mary Ann Brayley, run to ground</a></li>
@@ -1208,6 +1210,67 @@ import { u } from "../lib/url.js";
       territory, and the <em>Landesgesetzbl&auml;tter</em> are the right body of law for them. That is
       this project&rsquo;s sibling archive and the two are kept strictly apart; the suggestion is
       recorded here only so it is not lost.</p>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="confirmations">The confirmations &mdash; read page by page, and he is not in them</h2>
+  <p class="dek">Of everything this archive had never opened, the Rosario confirmation register was the
+    one that mattered most &mdash; because <strong>every entry names both parents</strong>. An act for
+    Pablo Armando would have put <em>Juan Carlos Lerena</em> and <em>Mar&iacute;a Lerena</em> on a
+    document other than the enrolment card, which is the only thing this archive has ever wanted.</p>
+  <div class="prose">
+    <p>It had been left alone on the assumption that it would need <strong>DeepZoom tiles assembled by
+      hand</strong>. That assumption was never tested. It is wrong: <strong>the film is transcribed in
+      full text</strong>, about four thousand characters an image, in the form
+      <em>&ldquo;NOMBRE de N a&ntilde;os hijo leg&iacute;timo de PADRE y MADRE &mdash; PADRINO&rdquo;</em>.</p>
+    <p><strong>So it was read. Seventy-six images, end to end</strong> &mdash; every page from the first
+      register leaf, headed <em>&ldquo;Siguen las confirmaciones en la Iglesia del Sagrario
+      (15 Mayo de 1885)&rdquo;</em>, through to image 80, where a new section opens in <strong>1897</strong>
+      under Bishop Jos&eacute; M. Gelabert y Crespo. Entry numbers run from 2 to past 2,560:
+      <strong>roughly two and a half thousand children of Rosario, each with both parents named.</strong></p>
+    <p class="lab" style="margin-top:18px">The result</p>
+    <p style="font-size:1.05rem"><strong>No Lerena. Not under Lerena, Llerena, Lorena, Serena, Lerina,
+      Levena or Gerena.</strong></p>
+    <p><strong>And the period is exactly his.</strong> Pablo Armando was <strong>three</strong> when the
+      register opens and <strong>fifteen</strong> when the section closes, and the entries show children
+      confirmed at every age from two to fifteen. His entire plausible window lies inside the pages read.</p>
+    <p>That makes this <strong>the strongest negative this archive has produced on Rosario</strong>, and
+      an independent one: both volumes of the baptism index were already read end to end for 1731&ndash;1901,
+      where the surname appears <em>once in a hundred and seventy years</em>. Two separate registers, two
+      separate sweeps, one answer.</p>
+    <p class="cap"><strong>Said against myself, because coverage is not completeness.</strong> Images
+      81&ndash;148 are <em>not</em> read &mdash; they run 1897 to 1904, when he was fifteen to twenty-two.
+      Any confirmations of 1883&ndash;84 are not on these pages either; he would have been one or two.
+      And the transcript is a machine&rsquo;s: it renders one mother&rsquo;s surname three different ways
+      in three consecutive lines. <strong>A Lerena garbled past all seven spellings would have been
+      missed.</strong> This is a strong negative, not a proof of absence.</p>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="two-false-positives">Two false positives, and a failure that would have faked the answer</h2>
+  <div class="prose">
+    <p><strong>Image 64 fired on &ldquo;Serena&rdquo;</strong> &mdash; the exact S-for-L this archive has
+      documented five times. The entry reads <em>&ldquo;hijo leg. de Jos&eacute; y <strong>Lorenza
+      Serena</strong>&rdquo;</em>. But the entry above it reads <em>&ldquo;Jos&eacute; y Lorenza
+      <strong>Merina</strong>&rdquo;</em> and the one below <em>&ldquo;Jos&eacute; y Lorenza
+      <strong>Jesusa</strong>&rdquo;</em>. Three consecutive siblings, one mother, and the machine guessed
+      her surname three different ways. <strong>Not a Lerena.</strong></p>
+    <p><strong>Image 71 fired on &ldquo;Solerina&rdquo;</strong> &mdash; a different surname that happens
+      to contain the letters of one being searched. The pattern was too loose, and was tightened to whole
+      words afterwards.</p>
+    <p class="lab" style="margin-top:18px">And the one that mattered</p>
+    <p><strong>Seven images returned a zero-length transcript on the first pass &mdash; and every one of
+      them read clean on retry.</strong> An empty transcript is not <em>&ldquo;no Lerena on this
+      page&rdquo;</em>; it is <em>&ldquo;this page was not read&rdquo;</em>. Had they been counted as
+      clean, this page would be claiming a complete read of a register with <strong>seven unopened pages
+      in it</strong>.</p>
+    <p class="cap">That is the third time in one day this source has failed by <strong>returning
+      something</strong> rather than by erroring &mdash; after the results page that renders
+      <em>&ldquo;(0)&rdquo;</em> while still loading, and the invalid place facet that answers a confident
+      zero. <strong>The rule now extends: a reading loop must validate its own output, and a page counts
+      as read only when its transcript is non-empty.</strong></p>
   </div>
 </section>
 

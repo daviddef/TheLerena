@@ -1,0 +1,55 @@
+# *** THE ROSARIO CONFIRMATIONS, READ PAGE BY PAGE FOR PABLO ARMANDO - 14 September 2026 ***
+# Catedral Nuestra Senora del Rosario, Confirmation Records. DGS 4531018, item 1.
+# This film was logged as an errand this morning, when it was discovered to be TRANSCRIBED IN FULL TEXT
+# rather than needing DeepZoom tiles. It has now been read.
+#
+# *** WHY IT MATTERED MORE THAN ANY OTHER UNREAD SOURCE: every entry names BOTH PARENTS. *** The format
+# is "NOMBRE de N anos hijo legitimo de PADRE y MADRE - PADRINO". A confirmation act for Pablo Armando
+# would have given JUAN CARLOS LERENA and MARIA LERENA on a document other than the enrolment card -
+# the only thing this archive has ever wanted.
+what	the answer	how far it goes
+*** WAS PABLO ARMANDO CONFIRMED AT ROSARIO? ***	*** NO. NOT IN THIS REGISTER. *** Seventy-six images read end to end - every page from the first register leaf to the start of the next bishop's section - and *** NO LERENA APPEARS, under any of seven spellings ***	Images 5 to 80 of item 1, complete. Nothing skipped, nothing assumed.
+*** WHAT PERIOD THAT COVERS ***	The register opens *** "Siguen las confirmaciones [administradas] en la Iglesia del Sagrario (15 MAYO DE 1885)" *** and runs to image 80, which is a new section headed *** 1897 *** under Bishop JOSE M. GELABERT Y CRESPO	*** 15 MAY 1885 to 1897. Pablo Armando was THREE when it opens and FIFTEEN when it closes *** - and the entries show children confirmed at every age from two to fifteen. His whole plausible window is inside the pages read.
+*** HOW MANY PEOPLE THAT IS ***	Entry numbering runs from 2 on the first leaf to *** past 2,560 *** by image 64 - roughly forty confirmations a page	About *** two and a half thousand children of Rosario ***, each with both parents named, and not one Lerena among them.
+#
+# ================ *** WHAT THIS DOES AND DOES NOT SETTLE *** ================
+#
+# *** IT IS THE STRONGEST NEGATIVE THIS ARCHIVE HAS EVER PRODUCED ON THE ROSARIO QUESTION. *** The
+# baptism indexes were already read end to end, 1731-1901, with the surname appearing ONCE in a hundred
+# and seventy years. Now the confirmations are read too - a completely independent register, naming
+# parents, covering exactly the years a boy born in February 1882 would have been confirmed.
+#
+# *** SAID AGAINST MYSELF, because coverage is not the same as completeness: ***
+#   - Images 81-148 of item 1 are NOT read. They run from 1897 to 1904, when he was fifteen to
+#     twenty-two. Confirmation that late is unusual but not impossible.
+#   - The film is catalogued 1883-1904 and the first register page is dated MAY 1885. *** Any
+#     confirmations of 1883-84 are not on the pages read *** - he would have been one or two.
+#   - Images 1-4 are film covers and targets, with no transcript. That is expected, not a gap.
+#   - *** AND THE TRANSCRIPT IS A MACHINE'S. *** It renders the same mother's surname three different
+#     ways in three consecutive lines (below). A Lerena garbled beyond all seven spellings searched
+#     would have been missed. This is a strong negative, not a proof of absence.
+#
+# ================ *** TWO FALSE POSITIVES, BOTH INSTRUCTIVE *** ================
+#
+# *** IMAGE 64 - "SERENA". *** The regex fired on "Alberto Separri de tres anos hijo leg de Jose y
+# LORENZA SERENA". The two entries around it read "hijo leg de Jose y Lorenza MERINA" and "hijo leg de
+# Jose y Lorenza JESUSA". *** Three consecutive siblings, one mother, and the machine guessed her
+# surname three different ways. *** Not a Lerena - and it is exactly the S-for-L this archive has
+# documented five times, which is why it looked promising for a minute.
+#
+# *** IMAGE 71 - "SOLERINA". *** "Pablo Saibero de cuatro anos hijo leg de Jose y FRANCISCA SOLERINA."
+# A different surname that contains the letters of one of the spellings being searched. The search
+# pattern was too loose and was tightened to whole words after this.
+#
+# ================ *** AND A FAILURE MODE THAT WOULD HAVE FAKED THE ANSWER *** ================
+#
+# *** SEVEN IMAGES RETURNED A ZERO-LENGTH TRANSCRIPT ON THE FIRST PASS - 22, 23, 41, 46, 50, 65, 66 -
+# AND EVERY ONE OF THEM READ CLEAN ON RETRY. *** An empty transcript is NOT "no Lerena on this page";
+# it is "this page was not read". Had they been counted as clean, this file would be claiming a
+# complete read of a register with seven unopened pages in it.
+#
+# *** SO THE LOOP MUST VALIDATE ITS OWN OUTPUT: a page is READ only if its transcript is non-empty. ***
+# This is the same lesson as the rendered "(0)" and the invalid place facet, arriving a third time in
+# one day, from a third direction. FamilySearch fails by RETURNING SOMETHING rather than by erroring.
+#
+# Throttling also set in after about sixty rapid page loads; a pause of a minute cleared it.
