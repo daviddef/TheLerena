@@ -1,0 +1,100 @@
+---
+/* Our line, drawn.
+
+   The smallest chart in the estate, and the one where that is the point. Eight
+   people. Two of the four grandparent branches stop at the first generation
+   above the line, because Argentine civil registration is not open and the
+   1908 enrolment card names Juan Carlos and Maria and then says nothing more.
+
+   The Taylor side goes one generation further than people.json alone would
+   give, because this archive already wrote that link down: taylor-line.json
+   has James Taylor as William's father in plain text. Reading a link the
+   archive has already made is not a new claim.
+
+   Anton and his sisters are living and are not drawn. The chart begins with
+   Nuno, born 1924, which is where this archive begins naming people freely. */
+import Base from "../layouts/Base.astro";
+import AncChart from "@daviddef/archive-kit/components/AncChart.astro";
+import { lineage } from "@daviddef/archive-kit/lib/ahnen.js";
+import { u } from "../lib/url.js";
+import people from "../data/people.json";
+import taylor from "../data/taylor-line.json";
+
+const bySlug = new Map(people.map((p) => [p.slug, p]));
+
+/* The Taylor chain is written oldest-first with letter generations. Only the
+   two rows above Mary Septima are wanted here — the rest are her sisters. */
+const james = taylor.find((t) => t.gen === "A");
+
+/* A parent is either a person this archive has a record for, or a name on a
+   document and nothing else. Both belong on the chart; only the first gets a
+   link. */
+const asRow = (o) => {
+  if (!o) return null;
+  if (o.slug && bySlug.has(o.slug)) return bySlug.get(o.slug);
+  return o.name ? { name: o.name, born: o.dates || "", _named: true, via: o.via } : null;
+};
+
+const parentsOf = (r) => {
+  /* The one link this archive holds outside people.json. */
+  if (r._named && james && /^William Taylor$/i.test(String(r.name).trim()))
+    return { f: { name: james.person, born: james.born, _named: true, via: "tree" }, m: null };
+  return { f: asRow(r.father), m: asRow(r.mother) };
+};
+
+const yearOf = (v) => (String(v ?? "").match(/\d{4}/) || [""])[0];
+
+const root = lineage(bySlug.get("nuno-fernando-lerena"), {
+  parentsOf,
+  born: (r) => yearOf(r.born),
+  died: (r) => yearOf(r.died),
+  place: (r) => r.birthplace || r.place || "",
+  living: (r) => false,
+  /* Read in a register, or taken from the family tree. The `via` a parent was
+     reached by says which, and an inline parent has no record of its own. */
+  conf: (r) => (r._named ? (r.via === "register" ? "doc" : "lore")
+                         : (r.source ? "doc" : "lore")),
+  extra: (r) => ({ slug: r._named ? null : r.slug }),
+});
+
+const personHref = (b) => (b.slug ? u(`/people/${b.slug}/`) : null);
+
+let drawn = 0, doc = 0, walls = 0, deepest = 0;
+(function count(x, g = 0) {
+  if (!x) return;
+  if (x.wall) { walls++; return; }
+  drawn++; if (x.conf === "doc") doc++;
+  if (g > deepest) deepest = g;
+  count(x.f, g + 1); count(x.m, g + 1);
+})(root);
+---
+<Base title="Our line, drawn"
+      eyebrow={`${drawn} people, ${walls} walls`}
+      dek="The smallest chart in the estate, and the shortest answer to how far this line goes back: eight people, and then the doors close.">
+
+  <section class="blk">
+    <p class="prose">This is the whole of it: <strong>{drawn}</strong> people,
+    <strong>{deepest + 1}</strong> generations at the deepest point, and <strong>{walls}</strong>
+    branches that stop dead — and the stopping is the finding. Argentine civil registration is not open to the public, so the line runs into a
+    wall the moment it crosses back over the Atlantic.</p>
+
+    <p class="prose">What holds the Argentine side up at all is one document: the 1908
+    <a href={u("/enrolment-card/")}>ficha de enrolamiento</a>, which names Pablo's father and
+    mother and then stops. Everything above them would need a register this archive cannot
+    reach from here.</p>
+
+    <p class="prose">The English side goes further on paper — <a href={u("/taylor/")}>the
+    Taylors</a> reach James, born around 1796 — and that is the archive's own reading of its
+    own file rather than a new claim. The seven Taylor daughters who are not in this line are
+    on that page, not this one.</p>
+  </section>
+
+  <AncChart root={root} personHref={personHref} />
+
+  <section class="blk">
+    <p class="prose dim">The living are not drawn. The chart starts at Nuno Fernando Lerena,
+    born 1924. What it would take to get past each of these walls is on
+    <a href={u("/open-questions/")}>Open Questions</a>; the lines this family marries into are
+    on <a href={u("/trees/")}>the trees</a>.</p>
+  </section>
+</Base>
