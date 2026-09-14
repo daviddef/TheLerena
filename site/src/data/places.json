@@ -88,9 +88,10 @@
    "nicolas-benteno",
    "juliana-josefa-cornejo",
    "domingo-rodriguez-de-carvallo",
-   "maria-mercedes"
+   "maria-mercedes",
+   "juan-carlos-gonzalez-lerena"
   ],
-  "count": 86
+  "count": 87
  },
  {
   "slug": "buenos-aires-arrivals",
@@ -514,6 +515,14 @@
   "name": "Buenos Aires and Mendoza",
   "people": [
    "carolina-lerena-2"
+  ],
+  "count": 1
+ },
+ {
+  "slug": "buenos-aires-calle-cerrito-535",
+  "name": "Buenos Aires, Calle Cerrito 535",
+  "people": [
+   "rafael-llerena-2"
   ],
   "count": 1
  }
