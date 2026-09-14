@@ -105,7 +105,17 @@ for fp in html_files:
         bad.append((fp, f"{n} unconverted *** ... *** field(s)",
                     "emphasis markers reached the page - render it through emph()"))
 
+# An EMPTY dist is not a clean bill of health. On 14 September 2026 a broken import left
+# `astro build` exiting 0 with nothing written, and this checker printed "0 pages ... 0 broken"
+# and passed - the deploy gate reporting success over a site that did not exist. A checker that
+# cannot fail on nothing is not a gate.
+MIN_PAGES = 50
 print(f"{len(pages)} pages, {len(html_files)} html files, {sum(len(v) for v in ids.values())} ids")
+if len(pages) < MIN_PAGES:
+    print(f"\nREFUSING TO PASS: only {len(pages)} pages in dist, expected at least {MIN_PAGES}.")
+    print("   An empty or near-empty build means `astro build` failed while still exiting 0.")
+    print("   Run it and read its output - the last error is the real one.")
+    sys.exit(1)
 print(f"{len(bad)} broken")
 for b in sorted(set(bad))[:40]:
     print("   ", b[0], "->", b[1], f"({b[2]})")
