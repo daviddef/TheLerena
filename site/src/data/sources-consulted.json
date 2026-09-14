@@ -740,5 +740,12 @@
   "accessed": "14 Sep 2026",
   "tier": "PRIMARY - transcript read",
   "link": ""
+ },
+ {
+  "source": "British and Irish Newspapers (findmypast / British Newspaper Archive)",
+  "used_for": "*** TESTED ON THIS FAMILY AND IT DOES NOT WORK - nothing found, and the reasons matter more than the result. *** \"Lerena\" returns 1,344 articles and the surname is DROWNED BY THREE SOURCES OF NOISE: the *** NISSAN SERENA *** motor car, advertised through the 1990s and OCR'd as \"lERENA\"; *** \"GUTTA SERENA\" ***, the old medical term for blindness, in infirmary tables from the 1750s; and *** DON PEDRO LOPEZ DE LERENA, Spanish Minister of Finance under Charles III ***, reported from the London Gazette in the 1780s - a real Lerena and not ours. Exact-keyword matching does not help, because the OCR text literally contains the string. \"Mary Septima\" (26), \"Septima Taylor\" (12) and \"Lerena + Northam\" (2) all returned nothing of ours. *** THE ONE LIVE SEAM IS REACHED BY SUBJECT, NOT BY NAME: \"Argentine Stud Book\" returns 13 genuine articles including SPORTING LIFE of 28 October 1909 on Argentine racing *** - the years Gilberto Lerena was co-founding that book. A targeted read of Sporting Life 1905-1920 is a reading task, not a search task.",
+  "accessed": "14 Sep 2026",
+  "tier": "SECONDARY - a controlled negative, with the noise sources named",
+  "link": ""
  }
 ]

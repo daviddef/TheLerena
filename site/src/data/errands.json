@@ -215,5 +215,12 @@
   "status": "*** IN PROGRESS 14 September 2026 ***",
   "detail": "*** DGS 004581639, 141 images, FULL TEXT. PROGRESS AT 14 September 2026: images 6 to 22 READ, NO LERENA. *** Image 6 is the register's own index: rounds of JULY 1890, SEPT-OCT 1891 and MAY 1897 under Bishop JUAN CAGLIERO, when Pablo Armando was eight, nine and fifteen. Pages carry about 3,300-4,100 characters each. *** STILL TO READ: 23-141, and RETRY 7, 11, 15, 22 which returned EMPTY transcripts (empty means NOT READ, never 'no Lerena'). *** THE LOOP: /search/film/004581639?i=N, take the ark from the page title, open /ark:/61903/<ark>?view=fullText, wait, then read. About 36 seconds an image. And the index page says 'PAGES MISSING', so any null from this book is qualified by that.",
   "sent_on": ""
+ },
+ {
+  "what": "Read SPORTING LIFE's Argentine racing columns, 1905-1920",
+  "who": "me",
+  "status": "ready",
+  "detail": "*** THE ONE LIVE SEAM IN THE BRITISH PRESS, found 14 September 2026 after the surname search failed. *** Searching \"Lerena\" in the British Newspaper Archive is useless - the Nissan Serena, \"gutta serena\" and a Spanish finance minister swamp it. But *** \"ARGENTINE STUD BOOK\" returns 13 genuine articles, *** and SPORTING LIFE covered Argentine racing in the very years GILBERTO LERENA was co-founding that book and having a Palermo Group 1 named for him in 1914. Read the columns by SUBJECT rather than searching by NAME. Note this needs a findmypast or BNA subscription - the newspapers ARE covered by the plan tested on 14 Sep, unlike the Devon parish registers.",
+  "sent_on": ""
  }
 ]

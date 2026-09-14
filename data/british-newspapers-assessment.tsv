@@ -1,0 +1,40 @@
+# *** THE BRITISH NEWSPAPER ARCHIVE, tested on this family 14 September 2026 - and it does not work. ***
+# Searched through findmypast, which the subscription DOES cover (unlike the Devon parish registers).
+# Recorded in full because the honest answer is NOTHING FOUND, and the reasons are worth more than the
+# result: nobody should spend another day on this.
+search	result	verdict
+*** "Lerena" ***	*** 1,344 articles - and the surname is DROWNED BY THREE SEPARATE SOURCES OF NOISE. ***	Useless as it stands. The three sources are named below.
+"Lerena" + exact keyword search	*** STILL 1,344. *** Exact matching does not help, because the OCR text LITERALLY CONTAINS the string	The noise is not fuzzy matching. It is real text that happens to read "lERENA".
+"Lerena" sorted oldest first	1727, 1751, 1790s - an Ipswich theatre notice, an Edinburgh infirmary table, and the Spanish finance minister	Confirms the noise reaches back to the eighteenth century.
+"Mary Septima"	26 articles, *** not one of them hers *** - a Perthshire estate, assorted births columns	A distinctive name, and still nothing.
+"Septima Taylor"	12 articles - a London cab driver summonsed in 1896, a Cumberland cattle judge	Nothing.
+"Lerena" + "Northam"	2 articles, both noise - "»lerena" in a Southampton dinner report, "lerenas" in a servants-wanted column	Nothing.
+*** "Argentine Stud Book" ***	*** 13 ARTICLES, ALL GENUINE *** - including SPORTING LIFE, 28 October 1909, on the ARGENTINE GRAND NATIONAL STEEPLECHASE, and a 1912 Board of Agriculture report on Argentine polo pony pedigrees	*** THE ONE LIVE SEAM, and it was not looked for by surname. *** See below.
+#
+# ================ *** THE THREE SOURCES OF NOISE, NAMED *** ================
+#
+# 1. *** THE NISSAN SERENA. *** Nineteen-nineties motor advertisements OCR the model name as "lERENA".
+#    They are the single largest block of results and they swamp everything.
+# 2. *** "GUTTA SERENA" *** - the old medical term for blindness of the optic nerve, common in
+#    eighteenth and nineteenth century infirmary tables and medical columns. OCRs as "gutta lerena".
+# 3. *** DON PEDRO LOPEZ DE LERENA *** - Spanish Minister of Finance under Charles III, reported in the
+#    British press from the London Gazette in the 1780s and 90s as "Monf. de Lerena". A real Lerena, of
+#    a real Spanish family, and NOT ours - and a trap for anyone searching the name cold.
+#
+# ================ *** WHAT SHOULD BE DONE INSTEAD *** ================
+#
+# *** DO NOT SEARCH THIS FAMILY BY SURNAME IN THE BRITISH PRESS. *** It is the same lesson the Uruguayan
+# registers taught - a family written eight ways is not reachable by its name - arriving from a
+# completely different direction, and for a different reason: here the name is not mis-written, it is
+# COLLIDED WITH.
+#
+# *** THE LIVE SEAM IS THE HORSES, AND IT IS REACHED BY SUBJECT RATHER THAN BY NAME. *** "Argentine
+# Stud Book" returns thirteen genuine articles, and SPORTING LIFE covered Argentine racing in the very
+# years GILBERTO LERENA was co-founding that book and having a Palermo Group 1 named for him in 1914.
+# *** A targeted read of Sporting Life's Argentine racing columns, 1905-1920, is the thing to do *** -
+# and it is a reading task, not a search task.
+#
+# *** AND THE TAYLORS WERE SIMPLY NOT NEWSWORTHY. *** A cab driver's household of ten children at
+# Northam appears in the press when a daughter passes an examination - which is exactly the one hit this
+# archive already holds, the Western Times of 4 April 1901. That is the shape of it, and there is no
+# reason to expect much more.
