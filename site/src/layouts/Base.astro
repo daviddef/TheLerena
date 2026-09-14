@@ -17,11 +17,11 @@ const cssHash = crypto.createHash("sha1")
 const { title, dek, eyebrow, bare } = Astro.props;
 const SITE = "The Lerena Archive";
 const nav = [
-  ["Start", [["/", "Home"], ["/trees/", "The trees"], ["/tree", "Our line, drawn"], ["/direct-line/", "The Line"], ["/timeline/", "The Timeline"], ["/search/", "Search"]]],
+  ["Start", [["/", "Home"], ["/trees/", "The trees"], ["/tree", "Our line, drawn"], ["/atlas/", "The Atlas"], ["/timeline/", "The Timeline"], ["/direct-line/", "The Line"]]],
   ["Our line", [["/taylor/", "The Taylors"], ["/estate/", "The Estate"], ["/passport/", "The Passport"], ["/enrolment-card/", "The Card"], ["/dna/", "The DNA"]]],
   ["The work", [["/naairs/", "The Archives"], ["/horses/", "The Horses"], ["/argentina/", "Argentina"], ["/south-africa/", "South Africa"], ["/name/", "The Name"]]],
-  ["People & places", [["/people/", "The People"], ["/who/", "Every Name"], ["/places/", "Places"], ["/atlas/", "The Atlas"], ["/register/", "The Register"]]],
-  ["Evidence", [["/open-questions/", "Open Questions"], ["/hypotheses/", "Hypotheses"], ["/gaps/", "What We Cannot Close"], ["/errands/", "Errands"], ["/photograph-these/", "Photograph These"], ["/roadmap/", "Roadmap"], ["/corrections/", "Corrections"], ["/changes/", "What Changed"], ["/searched/", "What Has Been Read"], ["/method/", "Method"], ["/sources/", "Sources"]]]
+  ["People & places", [["/people/", "The People"], ["/who/", "Every Name"], ["/places/", "Places"], ["/register/", "The Register"]]],
+  ["Evidence", [["/open-questions/", "Open Questions"], ["/hypotheses/", "Hypotheses"], ["/gaps/", "What We Cannot Close"], ["/errands/", "Errands"], ["/photograph-these/", "Photograph These"], ["/roadmap/", "Roadmap"], ["/corrections/", "Corrections"], ["/changes/", "What Changed"], ["/searched/", "What Has Been Read"], ["/method/", "Method"], ["/sources/", "Sources"]]],
 ];
 const here = Astro.url.pathname;
 /* which of the seven this is, worked out the same way the ring does */
@@ -58,6 +58,7 @@ const thisArchive = ring.archives.find(
           </div>
         </details>
       ))}
+      <a class="findbtn" href={u("/search/")} aria-label="Search the archive">Search</a>
     </nav>
   </div>
   <div class="drawer" id="drawer" hidden>

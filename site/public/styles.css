@@ -455,6 +455,15 @@ header.site{position:sticky;top:0;z-index:60;background:var(--panel);
   color:var(--ink);text-decoration:none;white-space:nowrap}
 .brand em{font-style:italic;font-weight:400;color:var(--accent)}
 header.site nav.topnav{display:flex;align-items:center;gap:1px;flex-wrap:nowrap}
+
+/* The Search pill in the header. Six of the seven archives carried this and
+   this one did not: Search sat as an item inside the Start menu instead, so
+   the one thing a reader most often wants was two clicks away and in a
+   different place from every sibling site. */
+.findbtn{display:inline-block;font-family:var(--sans);font-size:12.5px;line-height:1;
+  text-decoration:none;margin-left:10px;color:#fff!important;background:var(--accent);
+  padding:8px 15px;border-radius:999px;white-space:nowrap}
+.findbtn:hover{background:var(--accent-2)}
 .topnav details.menu{position:relative}
 .topnav summary{list-style:none;cursor:pointer;font-family:var(--sans);font-size:12.5px;
   color:var(--ink-2);padding:6px 9px;border-radius:999px;white-space:nowrap;
