@@ -239,6 +239,19 @@ verified.* This vindicates the day-one prediction that the 61 SA Lerenas are one
 Also: Cheryl m.1 **Derrick Luwinski**, m.2 Ivan Defranceski; David's other names recorded as
 **David Leonard Luwinski / Luwinski Defranceski**.
 
+> **Corrected 14 September 2026.** His full name is **Lynn Derrick Luwinski** and he was born
+> **24 April 1949**, not 1947. His line is now worked in the sibling archive **The Luwinski**
+> (`github.com/daviddef/TheLuwinski` · `daviddef.github.io/TheLuwinski`): a Berlin Jewish father of
+> record, **Kurt Israel Luwinski**, who left Germany in 1933 and whose own father **Jacob Leibholz**
+> was deported from Berlin to Auschwitz on **26 February 1943**; and a Portuguese mother,
+> **Ivone Mota Figueiredo**, born at Lourenço Marques in 1924 and buried at Porto.
+>
+> That archive also finds, and labels *inferred*, that **Kurt is very probably not Derrick's
+> biological father**: Derrick's DNA carries **0.0% Ashkenazi Jewish** where a quarter is required,
+> and his closest matches are one English family with a branch in **Johannesburg**. Which means the
+> hinge between the Lerena archive and the Defranceski one is real — Cheryl married both men — but
+> the hinge between the Lerena archive and the *Luwinski* one may be a marriage only, and not blood.
+
 ## PABLO ARMANDO — DEMOTED, not discarded
 The passport man (b. 22 Feb 1882 Rosario, Trainer, Rugby, widower) **is not** Roberto Paul (b. c.1874,
 Race Horse Owner, Rugby, widower). Pablo ≠ Roberto/Armando ≠ Paul, and 8 years is too wide.
