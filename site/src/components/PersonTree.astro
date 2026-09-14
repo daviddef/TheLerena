@@ -1,0 +1,59 @@
+---
+/* The family chart. Same structure and class names as the Falco archive, so a
+   reader moving between the two archives reads them the same way — and now
+   literally the same component, shared by six of the seven.
+
+   What stays here is this archive's own vocabulary. Every node states how the
+   relationship is known: line (the direct line, which here also means a record
+   was read), register (a record read), tree (unverified). */
+import { u } from "../lib/url.js";
+import PersonTree from "@daviddef/archive-kit/components/PersonTree.astro";
+import "@daviddef/archive-kit/styles/persontree.css";
+
+const { p } = Astro.props;
+
+const viaClass = (v) => v === "line" ? "via-line" : v === "tree" ? "via-tree" : "via-register";
+const viaLabel = (v) => v === "line" ? "line + register" : v === "tree" ? "tree, unverified" : "register";
+
+const parents  = [p.father, p.mother].filter(Boolean);
+const spouses  = p.spouses  || [];
+const children = p.children || [];
+// The machine-indexed duplicate of Pablo Armando is the same man, not a brother.
+const siblings = (p.siblings || []).filter((s) => !/= Pablo Armando/.test(s.name));
+
+const dupNames = (() => {
+  const seen = {}, dup = new Set();
+  children.concat(siblings).forEach((n) => { if (seen[n.name]) dup.add(n.name); seen[n.name] = 1; });
+  return [...dup];
+})();
+
+const row = (n, showVia = true) => ({
+  name: n.name,
+  href: n.slug ? u(`/people/${n.slug}/`) : undefined,
+  dates: n.dates,
+  cls: viaClass(n.via),
+  mark: showVia ? viaLabel(n.via) : undefined,
+  title: `Recorded by: ${viaLabel(n.via)}`,
+});
+---
+<PersonTree
+  self={{ name: p.name, dates: p.dates, gen: p.gen != null ? `generation ${p.gen}` : "" }}
+  parents={parents.map((n) => row(n))}
+  spouses={spouses.map((n) => row(n))}
+  children={children.map((n) => row(n))}
+  siblings={siblings.map((n) => row(n, false))}
+  labels={{ parents: "Parents" }}
+>
+  <Fragment slot="keys">
+    <span class="key"><i class="sw line"></i> the archive&rsquo;s own line, argued on <a href={u("/direct-line/")}>the line</a></span>
+    <span class="key"><i class="sw"></i> from a record this archive has read</span>
+    <span class="key"><i class="sw tree"></i> from a family chart or tree, unverified</span>
+  </Fragment>
+  <Fragment slot="notes">
+    {dupNames.length > 0 && (
+      <p class="warn"><strong>More than one person here carries the same name</strong> &mdash; {dupNames.join(", ")}.
+        That is what the source says. <strong>This archive does not merge records on a name</strong>, so they are
+        drawn separately even where one duplicated entry is the likelier explanation.</p>
+    )}
+  </Fragment>
+</PersonTree>

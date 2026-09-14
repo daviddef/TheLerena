@@ -1,7 +1,7 @@
 ---
 import Base from "../../layouts/Base.astro";
 import Placement from "../../components/Placement.astro";
-import Ptree from "../../components/Ptree.astro";
+import PersonTree from "../../components/PersonTree.astro";
 import { u } from "../../lib/url.js";
 import people from "../../data/people.json";
 import places from "../../data/places.json";
@@ -38,7 +38,7 @@ const relTree = p.relTree || 0;
 <Base title={p.name} eyebrow={eyebrow}
       dek={plain(p.note) || "Everything this archive holds on this person, and the record that produced them."}>
 
-<Ptree p={p} />
+<PersonTree p={p} />
 
 <section class="blk">
   <div class="grid g2" style="margin-top:6px">
