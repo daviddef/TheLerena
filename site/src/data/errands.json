@@ -257,5 +257,12 @@
   "status": "ready",
   "detail": "The IEGU holdings list, read 14 September 2026, states: \"3.- CANELONES. Catedral de nuestra Senora de Guadalupe. Baut. y Matr. desde 1775; def. desde 1776. Existen algunas informaciones matrimoniales desde 1776.\" *** SO THE ACT EXISTS AND THE PARISH IS NAMED. *** The marriage books begin sixteen years before the wedding this archive is hunting. *** WHAT TO ASK FOR: *** (1) the marriage of SANCHO LERENA / LLERENA to JOSEFA FERNANDEZ TRESGUERRAS, said to be 8 January 1791; and (2) any INFORMACION MATRIMONIAL for the same couple in the series running from 1776. *** WHY IT MATTERS: *** the act would settle SANCHO-OR-FRANCISCO, give his parents and Spanish birthplace in his own generation's words, and test both \"Aguilar\" and the Cordoba birthplace at once. *** It is the single document this archive has wanted longest. *** *** Ask them to search a year either side: *** the bride is given as born 1778, which would make her twelve, while the 1812 padron implies about fifteen.",
   "sent_on": "-"
+ },
+ {
+  "what": "*** Read ROSARIO CATEDRAL Confirmaciones - the 1897-1904 tail, images 81-148 ***",
+  "who": "me",
+  "status": "ready",
+  "detail": "*** IN PROGRESS, 14 September 2026. DGS 004531018 (note the ZERO PADDING - 4531018 alone returns a blank Film # page). *** Title: \"Catedral Nuestra Senora del Rosario. Confirmation Records 1883-1904\". *** IMAGES 81 TO 105 READ CLEAN, NO LERENA under seven spellings *** - every transcript non-empty, 2,029 to 5,201 characters. These are tabular pages (Numero / Fecha / Confirmante / Edad), much denser than the Santa Rosa prose pages. *** STILL TO READ: 106-148. *** *** Images 98 and 99 first returned len=0 and were logged NOT READ; *** after a forty-second pause both read clean at 5,201 and 2,961. *** RESUME LOOP: *** /search/film/004531018?i=N, take the ark from the page title, open /ark:/61903/<ark>?view=fullText, wait, read after 'Show Translation'. *** A page counts as read ONLY if its transcript is non-empty. ***",
+  "sent_on": "-"
  }
 ]
