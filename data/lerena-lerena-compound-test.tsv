@@ -1,0 +1,66 @@
+# *** THE SHARPEST TEST OF THE CENTRAL HYPOTHESIS, RUN 14 SEPTEMBER 2026 ***
+#
+# Pablo Armando's enrolment card names his parents JUAN CARLOS LERENA and MARIA LERENA. The standing
+# question of this whole archive is whether MARIA WAS A LERENA BY BIRTH or by marriage.
+#
+# *** SPANISH NAMING MAKES THAT TESTABLE IN ONE QUERY. *** A child of two Lerenas carries both
+# surnames: LERENA LERENA. If such marriages happened in this family, the compound is in the registers.
+# Nobody had ever searched for it.
+hit	what the transcript actually says	verdict
+Santisima Trinidad, Flores - Baptisms 1873-1876	"Fueron padrinos D. *** Pio Lerena . Lerena *** y Dona [blank] Doy fe"	*** ARTEFACT. *** One godfather, Pio Lerena, with the surname echoed across a line end.
+San Juan Bautista, Pocitos, Montevideo - Baptisms 1895-1904	"Abuelos maternos: Avelino y Celidonio *** Celidonio B. de Lerena Lerena ***"	*** ARTEFACT. *** "Celidonia B. de Lerena", with the whole fragment doubled by the transcriber.
+San Jose de Mayo - Baptisms 1904-1906	"hijo legitimo de Adolfo Cordero y Zelmira *** Lerena , Lerena *** argentino y orientales"	*** ARTEFACT. *** One mother, Zelmira Lerena. The doubling sits exactly at a line break.
+Santisima Trinidad, Flores - Baptisms 1889-1894	"...rez y Justina *** Lerena Lerena *** a quienes adverti el parentesco espiritual"	*** ARTEFACT. *** One godmother, Justina Lerena, doubled across a PAGE boundary.
+#
+# ================ *** THE RESULT ================
+#
+# *** FOUR HITS, FOUR ARTEFACTS, AND NOT ONE REAL LERENA LERENA IN THE URUGUAYAN CATHOLIC REGISTERS. ***
+#
+# This is a CONTROLLED null and not a silent one: the query returned four documents, so the search ran.
+# Each was opened and each transcript read. The doubling is a known behaviour of the machine
+# transcription at line and page ends - and it produced the same false positive FOUR TIMES, which is
+# worth knowing on its own account before anyone trusts a compound-surname hit again.
+#
+# *** WHAT IT DOES AND DOES NOT SETTLE. ***
+#   - It says: in the Uruguayan Catholic registers, no child of two Lerenas is recorded under the
+#     compound. That is consistent with the dispensation sweep's finding that every Lerena in it
+#     marries out, and it is INDEPENDENT of that sweep.
+#   - *** IT DOES NOT SETTLE THE QUESTION. *** Pablo Armando was born at ROSARIO DE SANTA FE and his
+#     parents were presumably married in ARGENTINA. A Uruguayan corpus cannot speak to an Argentine
+#     marriage, and Argentine registers use the compound far less consistently. *** The same query must
+#     be run against the Argentine collections before this means anything about Maria. ***
+#   - And a woman can be a Lerena by birth without her children ever being written LERENA LERENA - the
+#     card itself writes her simply "Maria Lerena".
+#
+# ================ *** AND THEN RUN AGAIN WITHOUT THE URUGUAY FILTER, THE SAME HOUR *** ================
+# The caution above said the test meant nothing until it was run against Argentina. It was.
+#
+# *** 43 DOCUMENTS WORLDWIDE. NOT ONE IS A LERENA MARRIED TO A LERENA. ***
+#   - The ARGENTINE hit - Libro de Bautismos N.35, Chacabuco, Buenos Aires, 1909-1910 - is "G. Lerena
+#     Lerena" written across the printed title page of the book. An annotation, doubled. ARTEFACT.
+#   - *** The MONTEVIDEO MARRIAGE DISPENSATION of July-August 1911 is a real and valuable document ***
+#     and it is still not a Lerena-Lerena marriage: see data/1911-lerena-cardozo-dispensation.tsv.
+#   - The only GENUINE compounds in all 43 are COLOMBIAN - an "Elena Lerena Llerena" at Calamar,
+#     Bolivar, in baptisms of the 1990s. A different family on a different continent.
+#
+# *** SO THE ANSWER IS AS CLEAN AS THIS CORPUS CAN GIVE: in five million searchable pages across
+# Uruguay, Argentina, Spain and everywhere else FamilySearch has transcribed, NO CHILD OF TWO LERENAS
+# IS RECORDED UNDER THE COMPOUND. *** The query works - it returned 43 documents and each was opened.
+#
+# *** WHAT IT STILL DOES NOT SETTLE, and this has not changed: *** a woman can be a Lerena by birth
+# without her children ever being written LERENA LERENA, and the enrolment card itself writes Pablo
+# Armando simply "LERENA". Full-text covers only what has been transcribed, and Rosario de Santa Fe's
+# parish books are thin in it. *** This lowers the probability that Maria Lerena was a Lerena by
+# birth. It does not close it, and no Lerena-Lerena marriage should now be asserted anywhere. ***
+#
+# ================ AND THREE LERENA WOMEN FOUND IN PASSING ================
+# None of them known to this archive before today. All SECONDARY - transcripts read, images not opened.
+#   *** AMELIA LERENA *** - m. EDUARDO DEL SUANDO [reading uncertain]; son Luis baptised at Pocitos,
+#     Montevideo, 15 August 1903, born 21 June 1903. *** Her parents: AVELINO and CELIDONIA B. de
+#     LERENA. *** Which is a problem worth stating: this archive's Avelino Lerena Fernandez married
+#     AMBROSIA TRAIBEL and died in 1890. Either he had a second wife, or CELIDONIA belongs to a
+#     different Avelino - and there are already two others. NOT attached to anyone.
+#   *** ZELMIRA LERENA *** - m. ADOLFO CORDERO, "argentino"; son Adolfo Angel Faustino born 15 Feb
+#     1905, baptised San Jose de Mayo 12 April 1905. *** An ARGENTINE husband, at the right date. ***
+#   *** JUSTINA LERENA *** - godmother at Trinidad, April 1891. The Trinidad kindred is already in this
+#     register; she may be one of them under another spelling.
