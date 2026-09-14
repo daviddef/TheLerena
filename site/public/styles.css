@@ -60,7 +60,7 @@ p.prose+p.prose{margin-top:16px}
    Put it on a <p> and the flex box BLOCKIFIES every inline child, so each <em> and
    <strong> is thrown onto its own full-width line. 21 paragraphs across six pages
    did that. A paragraph is not a container - give it the measure, not the flex. */
-p.prose{display:block}
+
 .prose h3{font-family:var(--sans);font-size:12px;font-weight:600;letter-spacing:.13em;
   text-transform:uppercase;color:var(--ink-3);margin-top:14px}
 .scroll{overflow-x:auto;padding-bottom:6px}
