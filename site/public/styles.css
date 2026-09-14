@@ -591,6 +591,17 @@ details>summary::before{content:"▸ ";display:inline-block;transition:transform
 details[open]>summary::before{content:"▾ "}
 details>summary:hover{color:var(--accent)}
 
+/* ...but the top-nav menu is a <details> too, on all seven archives, so the
+   three rules above were dressing this archive's navigation in the
+   changelog's clothes: STARTED in uppercase at 0.72rem with a ▸ in front of
+   it, where the other six read "Start". Nobody had noticed because on most
+   pages here every <details> in the document is the nav — the rule only ever
+   hit the one thing it was not written for. Put the navigation back. */
+.topnav details>summary{text-transform:none;letter-spacing:normal;
+  font-size:inherit;font-family:inherit}
+.topnav details>summary::before,
+.topnav details[open]>summary::before{content:none}
+
 /* Contents lists set in two columns on a wide screen, one on a narrow one.
    They were written with an inline `columns:2`, which cannot carry a media
    query and left each column about 110px wide on a phone. */
