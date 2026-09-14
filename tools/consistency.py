@@ -11,6 +11,7 @@ The third is the one this file exists for: nothing external is needed to see it.
 
 Ordered by how badly the archive would be embarrassed to publish it.
 """
+import unicodedata
 import json, re, sys, pathlib, collections
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -109,6 +110,85 @@ for c, group in cohorts.items():
                             f"{c[0]} {c[1]} but are only {gap} months apart - siblings this close cannot "
                             f"both be right, and first cousins would explain it")
 
+# 2c. And a THIRD key, because 2b only reaches people whose own NAME carries two surnames.
+# On 14 September 2026 checks 2 and 2b together saw 31 structured + 56 compound of 265, and the
+# register was still mostly invisible to them. But 94 people have a parent NAMED IN PROSE - the acts
+# this archive transcribes say "hijo legitimo de X y de Y", and the English rows say "daughter of X".
+# Two children who CITE THE SAME PARENT are siblings, and that needs no link to a register row at all,
+# which is the point: the cited parent usually is not in the register.
+PARTICLE = {"de", "del", "la", "las", "los", "y", "e", "da", "do", "dos"}
+TITLE = re.compile(r"^(d|dn|da|don|dona|doa|sr|sra|srta|mr|mrs|miss)\.?$", re.I)
+
+def _fold(t):
+    t = unicodedata.normalize("NFD", str(t))
+    return "".join(c for c in t if unicodedata.category(c) != "Mn")
+
+def namehead(span):
+    """Only the leading run of name-like tokens. The prose that follows a name is not a name -
+    without this, one key came out as 'gilberto 1854" with a birth of 1869 - which would have'."""
+    out = []
+    for raw in _fold(span).replace('"', " ").replace("'", " ").split():
+        tok = raw.strip(",;:")
+        if not tok:
+            break
+        if TITLE.match(tok):
+            continue
+        if re.fullmatch(r"\(?1[6-9]\d\d\)?", tok):        # a disambiguating year, "Gilberto (1854)"
+            out.append(tok.strip("()"))
+            continue
+        if tok.lower() in PARTICLE:
+            if not out:
+                break
+            out.append(tok.lower())
+            continue
+        if re.fullmatch(r"[A-Z][A-Za-z-]+\.", tok):          # sentence ended: "...Felisa. CEMLA"
+            out.append(tok[:-1])
+            break
+        if re.fullmatch(r"[A-Z][A-Za-z.-]+", tok):
+            out.append(tok)
+        else:
+            break
+        if len(out) >= 6:
+            break
+    while out and out[-1] in PARTICLE:
+        out.pop()
+    return " ".join(out).lower()
+
+CITES = (r"\bhij[oa]s?\s+(?:leg[i\u00ed]tim[oa]s?\s+)?de\s+(.{4,90})",
+         r"\b(?:son|daughter|child)\s+of\s+(.{4,90})")
+cited = collections.defaultdict(list)
+for p in people:
+    blob = " ".join(str(p.get(k) or "") for k in ("note", "source", "where"))
+    own = set(_fold(p["name"]).lower().replace("(", " ").replace(")", " ").split())
+    for pat in CITES:
+        for m in re.finditer(pat, blob, re.I):
+            head = namehead(m.group(1))
+            if not head:
+                continue
+            # An act quoted on the PARENT's own row names that parent. Without this, Sancho came
+            # out as his own child, in a cohort with his wife.
+            if len([t for t in head.split() if t in own and t not in PARTICLE]) >= 2:
+                continue
+            if len(head.split()) < 2:            # a bare forename needs the child's surname to be a key
+                head += " | " + (_fold(p["name"]).lower().split() or ["?"])[-1]
+            cited[head].append(p)
+for parent, group in cited.items():
+    if len(group) < 2:
+        continue
+    for i, a in enumerate(group):
+        for b in group[i + 1:]:
+            fa, fb = full(a.get("born")), full(b.get("born"))
+            if not (fa and fb):
+                continue
+            pair = tuple(sorted([a["name"], b["name"]]))
+            if pair in seen:
+                continue
+            gap = months(fa, fb)
+            if gap < 9:
+                seen.add(pair)
+                soft.append(f"{a['name']} (b.{a['born']}) and {b['name']} (b.{b['born']}) are both "
+                            f"recorded as children of '{parent}' but are only {gap} months apart")
+
 # 3. Two rows that are probably one person.
 # build-people.py refuses EXACT duplicate names, which is why they never happen. It does not
 # see "Dona Sixta LENGUAS (2nd wife of Candido Juanico)" and "Dona Sixta LENGUAS Gonzalez
@@ -165,6 +245,10 @@ for p in people:
 # Coverage. A checker that does not say what it could not see is not telling the truth.
 with_parent = sum(1 for p in people if p.get("father") or p.get("mother"))
 with_cohort = sum(1 for p in people if compound(p["name"]))
+with_cited = len({p["name"] for g in cited.values() if len(g) > 1 for p in g})
+reached = {p["name"] for p in people if p.get("father") or p.get("mother")}
+reached |= {p["name"] for p in people if compound(p["name"])}
+reached |= {p["name"] for g in cited.values() if len(g) > 1 for p in g}
 with_born = sum(1 for p in people if full(p.get("born")))
 # 6. An UNPAIRED emphasis marker in the TSVs themselves.
 # check-links.py already catches these, but only AFTER a build, by reading rendered HTML - and by then
@@ -194,9 +278,10 @@ for p in people:
 
 print(f"{len(people)} people checked")
 print(f"   sibling gaps: {with_parent} have a structured parent, {with_cohort} reachable by compound "
-      f"surname; {with_born} carry a full birth date")
-if with_parent < len(people) // 2:
-    print(f"   NOTE: the parent-linked test sees {with_parent}/{len(people)}. A pass here is not a "
+      f"surname, {with_cited} by a parent named in prose; {len(reached)} of {len(people)} reached by "
+      f"at least one; {with_born} carry a full birth date")
+if len(reached) < len(people) // 2:
+    print(f"   NOTE: the sibling tests reach {len(reached)}/{len(people)}. A pass here is not a "
           f"pass over the register.")
 if hard:
     print(f"\n{len(hard)} CONTRADICTION(S) - these cannot all be true:")

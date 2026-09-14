@@ -83,6 +83,11 @@ PUBLISHED = {
         "'assembled', which the page has no reason to use",
     "Carlos LERENA Salvanach (b.1884, son of Gilberto)":
         "the Cordon baptism parish is named on /horses/ inside his father's household table",
+    "Roseline Wilhelmina FORBES (m.1 Chappell, m.2 LERENA)":
+        "published in full at /direct-line/ - 'So Chappell was her married name, not her maiden name. "
+        "She was a Forbes.', with the 1920 Woodstock marriage behind it. The matcher trips on the word "
+        "'corrects', because the page says the archive's earlier record was FIXED rather than corrected. "
+        "Checked on 14 September 2026 by reading the page, not by matching the words",
 }
 WATCHED = ("connected", "high")
 for p in people:
