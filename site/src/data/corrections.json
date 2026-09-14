@@ -355,5 +355,12 @@
   "what_was_said": "That HORACE ARCHIBALD TAYLOR \"m. MARY JANE MARSHALL, banns 17 December 1893\" - recorded this morning as a marriage, and used to correct a tree's \"(? Mary Jane Bridge)\"",
   "what_is_true": "*** THE BANNS ARE REAL; THE MARRIAGE IS NOT EVIDENCED. *** Banns are an intention to marry. FreeBMD holds NO Horace Taylor marriage in volume 5b - the whole of Devon - between 1893 and 1895. He may have married elsewhere, later, or not to her. *** AND A DECOY NEARLY SETTLED IT THE WRONG WAY: *** a \"Taylor, Horace\" married a MARSHALL in the same quarter at BOSMERE, SUFFOLK (4a 1487), which would have neatly explained his absence from every Devon census - until the page was read directly and gave the bride as LAURA EMILY MARSHALL, not Mary Jane. Two Taylor-Marshall marriages, one quarter, two counties, two brides.",
   "how_it_was_caught": "Reading the volume and page directly instead of trusting the spouse-surname match. *** Before 1912 the GRO index does not print the spouse: FreeBMD infers it from a shared page, so a \"match\" is an inference and two couples of the same surnames in one quarter will produce a false one. *** FreeBMD is also explicitly incomplete, so the Devon null is softer than the others recorded today."
+ },
+ {
+  "date": "2026-09-14",
+  "severity": "serious",
+  "what_was_said": "Every verification run in this session, which took the form \"python3 tools/consistency.py | tail -1\" and was treated as a gate",
+  "what_is_true": "*** A PIPELINE EXITS WITH THE STATUS OF ITS LAST COMMAND - \"tail\" - WHICH ALWAYS SUCCEEDS. *** So consistency.py's exit code gated NOTHING for an entire day. The commits were chained with && behind that pipe, which means a hard contradiction could never have stopped one. It finally showed: an unpaired emphasis marker in errands.tsv was committed while the checker was printing CONTRADICTION on screen - the output was there and had simply scrolled past.",
+  "how_it_was_caught": "Noticing that a commit succeeded in the same breath as a contradiction was printed. *** Fixed by tools/verify.sh: one script, set -e, no pipes, that runs all five gates and says ALL GATES PASSED or fails. *** The lesson is the archive's own, arriving in a new place: a guard that cannot fail is not a guard - and this time the guard was fine and the way it was CALLED was broken."
  }
 ]
