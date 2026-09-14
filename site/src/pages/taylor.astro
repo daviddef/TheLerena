@@ -1,18 +1,22 @@
 ---
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
-const kids = [
-  ["Kathleen Georgina", "4 Nov 1870", "29 Feb 1940", "1st daughter", false],
-  ["William John", "Nov 1870", "11 May 1951", "m. Fanny Ellen Jefferey", false],
-  ["Horace A", "Apr 1872", "18 Jan 1934", "", false],
-  ["Isabella Temple “Edie”", "1874", "Dec 1953", "2nd daughter · m. Dalling", false],
-  ["Margaret Hellen Walker “Maggie”", "1876", "after 1953", "3rd daughter · m. Bell", false],
-  ["Irene “Rene”", "1879", "25 Mar 1969", "4th daughter · a twin · m. Burton", false],
-  ["(unknown twin)", "1879", "—", "5th daughter · Irene’s twin; her name is not recorded", false],
-  ["Lucy Elizabeth", "4 Aug 1881", "26 May 1957", "6th daughter · m. Sweet", false],
-  ["Mary Septima", "17 Sep 1884", "15 Nov 1935", "the SEVENTH daughter · m. Pablo Armando Lerena", true],
-  ["Agnes Walker “Aggie”", "3 Aug 1889", "29 Apr 1974", "8th daughter · m. Wood", false],
-];
+import { plain } from "../lib/text.js";
+import taylorLine from "../data/taylor-line.json";
+/* GENERATED FROM data/taylor-line.tsv, not typed here. Until 14 September 2026 this was a
+   hardcoded array duplicating that file - and when the TSV gained five husbands' names, the
+   page went on saying "m. Dalling". A page and its data must not be able to drift. */
+const gen = (r) => r.gen === "C";
+const kids = taylorLine.filter(gen).map((r) => {
+  const who = r.person.replace(/\s*Taylor\s*$/i, "").trim();
+  const bits = [];
+  /* the TSV already writes "NAME, m. DATE" or "NAME, banns DATE" - don't prefix it twice */
+  if (r.spouse) {
+    const sp = plain(r.spouse);
+    bits.push(/\bm\.|\bbanns\b/i.test(sp) ? sp : "m. " + sp);
+  }
+  return [who, r.born, r.died, bits.join(" \u00b7 "), /MARY SEPTIMA/.test(r.person)];
+});
 ---
 <Base title="Mary Septima Taylor"
       eyebrow="Bideford, Northam — and a name that is a count"
@@ -69,6 +73,10 @@ const kids = [
       <li><a href="#s-the-taylors-had-horses-too">The Taylors had horses too</a></li>
       <li><a href="#s-what-she-was-doing-at-sixteen">What she was doing at sixteen</a></li>
       <li><a href="#s-the-eight-year-hole-and-two-ships-that-might-close-it">The eight-year hole — and two ships that might close it</a></li>
+      <li><a href="#s-her-brothers-and-sisters-taken-off-a-tree">Her brothers and sisters, taken off a tree</a></li>
+      <li><a href="#s-two-sets-of-twins">Two sets of twins, and a wife who was not who the tree said</a></li>
+      <li><a href="#s-they-moved-to-where-a-relative-already-was">They moved to where a relative already was</a></li>
+      <li><a href="#s-kathleen-and-the-1911-household">Kathleen, and a household nobody here had opened</a></li>
     </ol>
   </div>
 </section>
@@ -418,6 +426,113 @@ const kids = [
     will have sailed for the Cape many times in those years. Two records fitting a window is not proof.
     <strong>The original manifests would show the forename</strong> — the index does not carry it, but the
     page usually does. Both references are given above.</p>
+</section>
+
+<section class="blk">
+  <h2 id="s-her-brothers-and-sisters-taken-off-a-tree">Her brothers and sisters, taken off a tree</h2>
+  <p class="dek">Until 14 September 2026 five of Mary Septima&rsquo;s siblings were recorded here with
+    husbands who had no first names &mdash; <em>m. Dalling</em>, <em>m. Bell</em>, <em>m. Burton</em>,
+    <em>m. Sweet</em>, <em>m. Wood</em> &mdash; on the authority of a MyHeritage tree and nothing else.</p>
+  <div class="prose">
+    <p><strong>That was a strange thing for this archive to tolerate.</strong> It has opened Montevideo
+      parish acts from <strong>1789</strong> while carrying Devon marriages from the <strong>1900s</strong>
+      on a tree &mdash; and England is the best-documented jurisdiction it touches. All five husbands are
+      now named, from the Devon parish registers, and it took under an hour.</p>
+    <div class="scroll"><table class="rec">
+      <thead><tr><th>Sister</th><th>Husband</th><th>When</th><th>Where</th></tr></thead>
+      <tbody>
+        <tr><td>Isabella Temple &ldquo;Edie&rdquo;</td><td><strong>Henry Dalling</strong></td><td>10 Sep 1900</td><td>Northam</td></tr>
+        <tr><td>Irene &ldquo;Rene&rdquo;</td><td><strong>Henry Albert Burton</strong></td><td>30 Aug 1900</td><td>Northam</td></tr>
+        <tr><td>Margaret Helen Walker</td><td><strong>Charles William Bell</strong></td><td>banns 22 Nov 1903</td><td>Northam</td></tr>
+        <tr><td>Lucy Elizabeth</td><td><strong>William Norrish Sweet</strong></td><td>banns 1909</td><td>Churston Ferrers</td></tr>
+        <tr><td>Agnes Walker &ldquo;Aggie&rdquo;</td><td><strong>Alfred Sidney Wood</strong></td><td>1918</td><td>Devon</td></tr>
+        <tr><td><em>and her brother</em> Horace Archibald</td><td><strong>Mary Jane Marshall</strong></td><td>banns 17 Dec 1893</td><td>Northam</td></tr>
+      </tbody>
+    </table></div>
+    <p><strong>Two of them married eleven days apart, in the same church.</strong> Irene on 30 August 1900
+      and Isabella on 10 September &mdash; and their mother <strong>Mary Ann Helena had died on 21 April
+      that year</strong>. Both daughters married within five months of burying her. Nothing here had shown
+      that, because neither husband had a date against his name.</p>
+    <p class="cap">The table of the ten children above is now <strong>generated from the same file these
+      names were written into</strong>. It used to be typed into the page by hand &mdash; so when the data
+      gained five husbands, the page would have gone on saying <em>m. Dalling</em>.</p>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-two-sets-of-twins">Two sets of twins, and a wife who was not who the tree said</h2>
+  <div class="prose">
+    <p>This archive had already noticed that <strong>Kathleen Georgina and William John were both born in
+      November 1870</strong> and written, against his name, <em>&ldquo;twins, or one date is
+      wrong&rdquo;</em> &mdash; and then left it there.</p>
+    <p><strong>The 1871 census settles it.</strong> Both are in the house as infants on 2 April 1871, and
+      their parents&rsquo; banns were called at Bideford on <strong>9 January 1870</strong>. Two children
+      of one mother, both alive in a household fifteen months after the banns, cannot be separate births.
+      <strong>They are twins</strong> &mdash; so the family had <strong>two sets</strong>, this pair and
+      Irene&rsquo;s in 1879.</p>
+    <p><strong>And William John&rsquo;s wife was not Fanny Ellen Jefferey.</strong> The 1901 census names
+      her <strong>Fanny Helen</strong>, with children Gladys Helen and William Archibald; the 1911 census
+      dates the marriage to <strong>1892</strong>. No Devon record supports the surname
+      <em>Jefferey</em> at all. The only Fanny Jeffreys to marry a Taylor in England married a
+      <em>James William</em> Taylor at Dukinfield, <strong>Cheshire</strong>, in 1893 &mdash; a different
+      man, county and father. <strong>Said as a suspicion and not as a finding:</strong> that looks like
+      where a tree picked her up.</p>
+    <p class="cap">Her maiden name is therefore <strong>unknown again</strong>, which is a better position
+      than a wrong one.</p>
+    <p class="cap"><strong>And the spelling of one name, three ways in two generations.</strong> Her
+      mother-in-law&rsquo;s own banns of 1870 call her <em>Mary Ann <strong>Helena</strong> Brayley</em>;
+      this archive has carried <em>Hellen</em>; her daughter is <em>Margaret <strong>Helen</strong>
+      Walker</em> in the parish book; her granddaughter is <em>Gladys Helen</em>. The name plainly
+      mattered to them and nobody agreed how to spell it.</p>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-they-moved-to-where-a-relative-already-was">They moved to where a relative already was</h2>
+  <div class="prose">
+    <p>In 1911 <strong>William John was living at Paignton</strong>, in south Devon. In 1909 his sister
+      <strong>Lucy Elizabeth had her banns called at Churston Ferrers</strong> &mdash; three miles down the
+      same coast, and eighty miles from Northam where they were both born. <strong>The brother was there
+      first.</strong></p>
+    <p>Irene shows the same thing in reverse. She married at Northam on 30 August 1900 and was living in
+      <strong>Bermondsey, south London</strong> at the census of 31 March 1901, seven months later &mdash;
+      and by 1911 the Burtons were back at <strong>Bideford</strong>, four miles from where she was born.</p>
+    <p><strong>It is the same shape this archive keeps finding in Montevideo:</strong> people do not move
+      at random, they move to where a relative already is. It is the first time the Devon side has shown
+      it &mdash; and it bears on the open question of how Mary Septima came to be at the Cape at about
+      twenty.</p>
+    <p><strong>The naming runs the same way.</strong> <em>William Archibald</em> Taylor (1893) and
+      <em>Horace Henry Charles</em> Dalling (c.1901) both carry their uncle <strong>Horace
+      Archibald</strong>&rsquo;s names, in two different households; <em>Ronald William James</em> Dalling
+      carries his grandfather&rsquo;s. That is the discipline that put <strong>Ricardo Juan Carlos</strong>
+      on Pablo Armando&rsquo;s eldest son, for a grandfather nobody can find. It runs on both sides of this
+      marriage.</p>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-kathleen-and-the-1911-household">Kathleen, and a household nobody here had opened</h2>
+  <div class="prose">
+    <p>This archive had only ever read the <strong>1891 and 1901</strong> censuses, both of the parental
+      house. By 1911 William Taylor was nine years dead and the family had scattered &mdash; and the 1911
+      return gives <strong>five of Mary Septima&rsquo;s nieces and nephews at one stroke</strong>.</p>
+    <p>At Northam: <strong>Henry Dalling</strong>, 32, a <strong>gardener (domestic)</strong> and five years
+      younger than his wife; <em>Isabella Temple Dalling</em>, 37; and their children <em>Horace Henry
+      Charles</em> (10), <em>Ronald William James</em> (8) and <em>Sylvia Mary</em> (0). At Bideford, the
+      Burtons with <em>Charles William</em> and <em>Albert Edward</em>.</p>
+    <p><strong>And in the Dalling house, entered as &ldquo;Sister&rdquo;: Kathleen Georgina Taylor, 41,
+      single.</strong> This archive recorded her with no husband because a tree gave her none, which is
+      evidence of nothing. Now it is evidence &mdash; the eldest of the ten, unmarried at forty-one,
+      keeping house with a younger married sister.</p>
+    <p class="cap">Whether she married after 1911 is untested; she lived until 1940. A <em>Find a
+      Grave</em> entry for a Kathleen Georgina Taylor at Brompton Cemetery in London, died 24 July 1942,
+      was seen and <strong>not attached</strong> &mdash; two years out and the wrong city. It is recorded
+      here so that the next person does not attach it either.</p>
+    <p class="cap"><strong>Still to do:</strong> the <strong>1921 census</strong>, untouched, and the last
+      before the 1931 returns were destroyed &mdash; by then Mary Septima was at the Cape and her sisters
+      were not. Margaret Bell is not yet found in 1911; <em>Charles William Bell</em> is too common a name
+      to search on.</p>
+  </div>
 </section>
 
 </Base>

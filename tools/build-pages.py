@@ -45,8 +45,11 @@ def rows(name):
         out.append(dict(zip(hdr, cells)))
     return out
 
+# The Taylor page carried its ten siblings as a HARDCODED ARRAY duplicating data/taylor-line.tsv -
+# the exact drift this whole build exists to prevent. On 14 September 2026 the TSV gained five
+# husbands' names and the page went on saying "m. Dalling". Generated from the TSV since.
 for name in ("corrections", "errands", "gaps", "timeline", "photograph-these",
-             "sources-consulted"):
+             "sources-consulted", "taylor-line"):
     data = rows(name)
     (OUT / f"{name}.json").write_text(json.dumps(data, indent=1, ensure_ascii=False) + "\n",
                                       encoding="utf-8")
