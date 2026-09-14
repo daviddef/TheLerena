@@ -142,8 +142,8 @@
  {
   "what": "Open the Confirmaciones film that covers Pablo Armando",
   "who": "me",
-  "status": "ready",
-  "detail": "*** DGS 4531018, Confirmaciones 1883-1918, 421 images, UNRESTRICTED - recovered 13 September 2026. *** Born February 1882, he would have been confirmed in the 1890s, and a confirmation act commonly names the parents. This is a register this archive has listed as untried since the first week and never had a film number for. It was opened in the viewer that day but served NO image tiles and put no ark in the page title, unlike every other film handled here - so it needs another attempt rather than another search.",
+  "status": "done",
+  "detail": "*** DONE, 14 September 2026 - and not one film but BOTH of them, read end to end. *** *** ROSARIO CATEDRAL, DGS 004531018, 'Confirmation Records 1883-1904': images 5-80 read earlier in the month, images 81-145 read on 14 September. *** The volume ENDS at image 145, not at 148 as this errand assumed; the film holds 421 images across several volumes, and image 200 opens 'Confirmation Records 1904-1918' - when Pablo Armando was 22-36 and already in South Africa, so out of scope rather than unread. *** SANTA ROSA DE LIMA, DGS 004581639, 'Confirmaciones 1890-1897': all 141 images read, every transcript non-empty. *** *** PABLO ARMANDO IS IN NEITHER. *** He was 8 to 22 across their combined span, which is the age for confirmation, and the hope was that a confirmation act names the parents. *** Both of Rosario's confirmation registers early enough to hold him are now exhausted. *** One candidate survives: Santa Rosa image 131, a mother written 'Dona ANDUGARA GERENA', left as a candidate needing the image. See data/santa-rosa-confirmations-complete.tsv and data/rosario-catedral-confirmations-complete.tsv.",
   "sent_on": "-"
  },
  {
@@ -233,8 +233,8 @@
  {
   "what": "Find the GRANADA marriage act of Sancho Lerena y Armenta and Ana Maria de Aguilar",
   "who": "me",
-  "status": "ready",
-  "detail": "*** THE FIRST THING THAT COULD DOCUMENT THIS FAMILY IN SPAIN. *** Geneanet indexes it in two collections - \"Index des mariages catholique de Grenade\" and \"Spain, Marriages, 1565-1950\" - as a marriage in the DIOCESE OF GRANADA between 1725 and 1775. *** If a son SANCHO was born of it about 1767, then \"Llerena y Aguilar\" is a grandmother's name and not a tree's habit, *** and the Uruguayan founder acquires Spanish parents. THE TEST: open the Granada marriage act for an exact date, then look for a 1767 baptism of a Sancho in the same diocese. FamilySearch holds Spanish diocesan registers and its FULL TEXT reads handwriting. *** Note the tension this would resolve or sharpen: the Uruguayan census says ANDALUZIA, the trees say CORDOBA (one says ZUHEROS), this marriage says GRANADA - all Andalusian - while the surname's own home town of LLERENA is in EXTREMADURA. ***",
+  "status": "done",
+  "detail": "*** DONE, 14 September 2026 - the act was found, and then the reason for wanting it was withdrawn. *** *** FamilySearch ark 1:1:C9WG-BGW2 indexes it: SANCHO DE LERENA Y ARMENTA, born CORDOBA, son of SANCHO DE LERENA Y VELASCO and MARIA ANTONIA DE ARMENTA Y GUEBARA, married ANA MARIA DE AGUILAR of La Malaha, daughter of FRANCISCO DE AGUILAR and BEATRIS FRANCO, at SANTA ANA, GRANADA on 17 NOVEMBER 1754. *** A second index entry sits in the Granada Pre-Marriage Investigation Files (ark 1:1:XPG2-RYP). *** BOTH ARE MARKED IMAGE UNAVAILABLE - the act itself is still unread, and Geneanet's fifty-year span is now a single day. *** *** BUT IT DOES NOT TOUCH THIS FAMILY. *** The errand existed because a son of that couple would be styled Lerena y Aguilar, which is the name the trees give the Uruguayan Sancho. *** The jfina tree gives his parents as FELIX LERENA and ROSALIA AGUILAR, citing Revista 15 IEGU - so Aguilar is his MOTHER'S surname, not a Granada grandmother's. *** *** And full text agrees from the other side: \"Juan de Lerena y Aguilar\" returns FIVE Madrid notarial hits, \"Sancho de Lerena y Aguilar\" returns No Results Found against that control. *** The Spanish findings are kept as Spanish findings in data/1754-granada-act.tsv, under a banner withdrawing the connection.",
   "sent_on": ""
  },
  {
