@@ -14,6 +14,10 @@ cd "$(dirname "$0")/.."
 python3 tools/build-pages.py  > /dev/null
 python3 tools/build-people.py > /dev/null
 python3 tools/consistency.py
+# Build from CLEAN. A half-written dist from a previously FAILED build poisons the next one:
+# on 14 September 2026 astro reported "Cannot find module .../dist/chunks/astro/server_*.mjs"
+# because leftovers from the broken PlaceSpark build were still on disk.
+rm -rf site/dist
 ( cd site && npx astro build > /tmp/astro-build.log 2>&1 || { tail -20 /tmp/astro-build.log; exit 1; } )
 python3 tools/check-links.py
 python3 tools/drift.py
