@@ -317,8 +317,8 @@
  {
   "date": "2026-09-14",
   "severity": "minor",
-  "what_was_said": "Three unpaired *** emphasis markers written into the register in one session, each caught only after a build had rendered the literal characters onto a published page",
-  "what_is_true": "The slip is always the same: writing \"*** A *** B ***\" while meaning \"*** A *** *** B ***\". *** consistency.py now checks the TSVs themselves for an odd marker count, before any page exists. *** On its first run the new check found TWO MORE that check-links.py could never have caught - one in direct-line.tsv carrying the central open question about Maria Lerena, and one written an hour earlier in sources-consulted.tsv - because check-links only counts *** PAIRS *** in rendered HTML, and a single unpaired marker leaves no pair to count.",
-  "how_it_was_caught": "Adding the check after making the same mistake three times. *** The interesting part is what it found that the older guard structurally could not: a guard that looks for pairs is blind to the case of exactly one. ***"
+  "what_was_said": "Three unpaired emphasis markers written into the register in one session, each caught only after a build had rendered the literal characters onto a published page",
+  "what_is_true": "The slip is always the same shape: closing one emphasis and opening the next with a SINGLE marker where two are needed. *** consistency.py now checks the TSVs themselves for an odd marker count, before any page exists. *** On its first run the new check found TWO MORE that check-links.py could never have caught - one in direct-line.tsv carrying the central open question about Maria Lerena, and one written an hour earlier in sources-consulted.tsv - because check-links counts only PAIRS in rendered HTML, and a single unpaired marker leaves no pair to count.",
+  "how_it_was_caught": "Adding the check after making the same mistake three times. *** The interesting part is what it found that the older guard structurally could not: a guard that looks for pairs is blind to the case of exactly one. *** And the new check then failed on THIS ROW, because the row originally quoted the markers as an example - *** the convention has no way to write a literal marker, which is now a known limit of it rather than a surprise. ***"
  }
 ]
