@@ -180,6 +180,18 @@ for tsv in sorted((ROOT / "data").glob("*.tsv")):
                 hard.append(f"{tsv.name}:{ln} field {col} has an ODD number of *** markers - "
                             f"one is unpaired and will render literally")
 
+# 7. A PLACE field holding a CITATION.
+# The atlas is built from where_found, so a row saying "SA records" or "GRO + SA records" does two
+# things at once: it loses that person from the map, and it invents a phantom location on it. On
+# 14 September 2026 five such entries were standing on /places/ as though they were towns.
+CITATION_SHAPED = re.compile(r"\brecords?\b|\bGRO\b|\bcrossings?\b|\bindex\b|^\s*-?\s*$", re.I)
+for p in people:
+    for key in ("where_found", "birthplace"):
+        v = str(p.get(key) or "").strip()
+        if v and v != "-" and CITATION_SHAPED.search(v):
+            soft.append(f"{p['name']} has a {key} that reads like a citation, not a place: {v!r} "
+                        f"- it will appear on the atlas as a phantom location")
+
 print(f"{len(people)} people checked")
 print(f"   sibling gaps: {with_parent} have a structured parent, {with_cohort} reachable by compound "
       f"surname; {with_born} carry a full birth date")

@@ -41,6 +41,7 @@
    "dona-juana-grandal",
    "don-pascual-gonzalez",
    "dona-josefa-grandal",
+   "dona-carolina-oribe",
    "abelino-lerena",
    "dominga-josefa-llerena-fernandez",
    "pedro-antonio-lerena",
@@ -88,7 +89,7 @@
    "juliana-josefa-cornejo",
    "domingo-rodriguez-de-carvallo"
   ],
-  "count": 84
+  "count": 85
  },
  {
   "slug": "buenos-aires-arrivals",
@@ -274,15 +275,16 @@
   "count": 7
  },
  {
-  "slug": "sa-records",
-  "name": "SA records",
+  "slug": "cape-town",
+  "name": "Cape Town",
   "people": [
+   "pablo-armando-lerena",
+   "mary-septima-taylor",
    "roque-luis-armando-lerena",
    "ricardo-juan-carlos-lerena",
-   "nuno-fernando-lerena",
-   "anton-lerena"
+   "nuno-fernando-lerena"
   ],
-  "count": 4
+  "count": 5
  },
  {
   "slug": "cayasta-garay-santa-fe",
@@ -294,6 +296,16 @@
    "leon-jose-lerena"
   ],
   "count": 4
+ },
+ {
+  "slug": "south-africa",
+  "name": "South Africa",
+  "people": [
+   "lucas-lerena",
+   "hanson-seko-lerena",
+   "anton-lerena"
+  ],
+  "count": 3
  },
  {
   "slug": "colonia-uruguay",
@@ -335,15 +347,6 @@
   "count": 2
  },
  {
-  "slug": "south-africa",
-  "name": "South Africa",
-  "people": [
-   "lucas-lerena",
-   "hanson-seko-lerena"
-  ],
-  "count": 2
- },
- {
   "slug": "rosario-colonia-uruguay",
   "name": "Rosario, Colonia, Uruguay",
   "people": [
@@ -358,6 +361,15 @@
   "people": [
    "rosa-maria-eppens",
    "armando-lerena"
+  ],
+  "count": 2
+ },
+ {
+  "slug": "mendoza",
+  "name": "Mendoza",
+  "people": [
+   "avelino-carlos-lerena-2",
+   "adela-camiglia"
   ],
   "count": 2
  },
@@ -378,22 +390,6 @@
    "antoinette-septima-lynette-lerena"
   ],
   "count": 2
- },
- {
-  "slug": "sa-argentine-records",
-  "name": "SA + Argentine records",
-  "people": [
-   "pablo-armando-lerena"
-  ],
-  "count": 1
- },
- {
-  "slug": "gro-sa-records",
-  "name": "GRO + SA records",
-  "people": [
-   "mary-septima-taylor"
-  ],
-  "count": 1
  },
  {
   "slug": "entre-rios",
@@ -452,22 +448,6 @@
   "count": 1
  },
  {
-  "slug": "mendoza-later-new-york-and-rio-crossings",
-  "name": "Mendoza; later New York and Rio crossings",
-  "people": [
-   "avelino-carlos-lerena-2"
-  ],
-  "count": 1
- },
- {
-  "slug": "mendoza",
-  "name": "Mendoza",
-  "people": [
-   "adela-camiglia"
-  ],
-  "count": 1
- },
- {
   "slug": "argentina",
   "name": "Argentina",
   "people": [
@@ -512,14 +492,6 @@
   "name": "Buenos Aires and Mendoza",
   "people": [
    "carolina-lerena-2"
-  ],
-  "count": 1
- },
- {
-  "slug": "person",
-  "name": "-",
-  "people": [
-   "dona-carolina-oribe"
   ],
   "count": 1
  }

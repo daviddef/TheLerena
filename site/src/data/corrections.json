@@ -334,5 +334,12 @@
   "what_was_said": "That the infant William Taylor (29 Dec 1824 - 10 Sep 1825) belonged to GENERATION A, alongside his own father James",
   "what_is_true": "*** HE IS GENERATION B - James's son, and the elder brother of the William born in February 1826 who was named after him. *** The error had sat in data/taylor-line.tsv since the file was written.",
   "how_it_was_caught": "*** DRAWING THE CHART. *** Nobody had noticed in a fortnight of reading the file as a table, because a table does not care which row is which generation. The moment the same data was rendered as a tree, a dead infant appeared standing beside his father as though he were an uncle. A second way of looking at the same data is a test of it."
+ },
+ {
+  "date": "2026-09-14",
+  "severity": "minor",
+  "what_was_said": "Five entries on the places atlas that were not places at all - \"SA records\", \"SA + Argentine records\", \"GRO + SA records\", \"Mendoza; later New York and Rio crossings\", and one bare dash",
+  "what_is_true": "*** THEY WERE CITATIONS SITTING IN A PLACE FIELD, and they did TWO kinds of damage at once: *** eight people were missing from the map they belonged on, and four phantom locations were standing on it as though they were towns. Among the eight were PABLO ARMANDO HIMSELF, MARY SEPTIMA, and all three of their sons. *** The central figure of the archive was not on its own atlas. *** Now: Cape Town for the five South Africans, South Africa for Anton, Mendoza for Avelino Carlos, Montevideo for Carolina Oribe. The citations are kept in the notes, not deleted. 37 places became 33.",
+  "how_it_was_caught": "David read the places data and spotted that the place field held a citation. *** consistency.py now flags any where_found or birthplace that reads like a citation - \"records\", \"GRO\", \"crossings\", \"index\", or an empty dash - and the check was verified by injecting one. ***"
  }
 ]
