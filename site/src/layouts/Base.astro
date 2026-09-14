@@ -1,5 +1,6 @@
 ---
 import "@daviddef/archive-kit/styles/print.css";
+import { versioner } from "@daviddef/archive-kit/lib/assetv.js";
 import { u } from "../lib/url.js";
 import SiblingArchives from "@daviddef/archive-kit/components/SiblingArchives.astro";
 import SkipLink from "@daviddef/archive-kit/components/SkipLink.astro";
@@ -7,15 +8,12 @@ import SocialHead from "@daviddef/archive-kit/components/SocialHead.astro";
 import JsonLd from "@daviddef/archive-kit/components/JsonLd.astro";
 import VisitCount from "@daviddef/archive-kit/components/VisitCount.astro";
 import ring from "@daviddef/archive-kit/data/archives.json";
-import fs from "node:fs";
-import crypto from "node:crypto";
-// The stylesheet is a plain public asset, so a browser that has it cached keeps serving the old one
-// after a CSS change - which showed up the first time a new class was added and returning visitors
-// would have seen the page laid out by yesterday's rules. Fingerprint it with a hash of its contents
-// so the URL changes exactly when the file does, and never otherwise.
-const cssHash = crypto.createHash("sha1")
-  .update(fs.readFileSync(new URL("../../public/styles.css", import.meta.url)))
-  .digest("hex").slice(0, 8);
+/* every public asset gets a fingerprint, so a fix is never served stale */
+/* THIS CONST MUST STAY BELOW EVERY IMPORT. A statement that reads import.meta.url, placed above a
+   later import in Astro frontmatter, breaks the build - and the error is worse than useless: it
+   reads Unexpected "{" and points at the plain <meta viewport> tag thirty lines down. Diagnosed
+   14 September 2026 by bisecting the frontmatter; moving the line is the whole fix. */
+const v = versioner(new URL("../../public/", import.meta.url));
 const { title, description = "", dek, eyebrow, bare, noindex } = Astro.props;
 const SITE = "The Lerena Archive";
 const nav = [
@@ -46,7 +44,7 @@ const thisArchive = ring.archives.find(
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Libre+Franklin:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" />
-<link rel="stylesheet" href={u("/styles.css") + "?v=" + cssHash} />
+<link rel="stylesheet" href={u("/styles.css") + v("styles.css")} />
 </head>
 <body class={bare ? "is-home" : ""}>
 <SkipLink />
