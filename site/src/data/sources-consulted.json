@@ -782,5 +782,19 @@
   "accessed": "14 Sep 2026",
   "tier": "SECONDARY - a user tree, but one that cites a named published work with a numbered ficha",
   "link": "https://gw.geneanet.org/jfina?lang=en&n=lerena+y+aguilar&oc=3082&p=sancho&type=fiche"
+ },
+ {
+  "source": "Francisco Bauza, \"Historia de la Dominacion Espanola en el Uruguay\" (archive.org, full text)",
+  "used_for": "*** THE LERENAS OF CANELONES ENTER THE NATIONAL HISTORY ONCE, IN 1817, AND IT IS NOT A CREDIT. *** The jfina tree cited Bauza III p.285 for the Lerenas as \"persona de confianza del Baron de la Laguna... para vigilar la seguridad y tranquilidad\". *** The tree quotes Lecor's euphemism and stops where Bauza's judgement begins. *** The Bando of 15 February 1817 outlawed resisting Orientals \"ellos, sus familias y sus propiedades\", with detachments to burn their farms and put their families aboard the fleet; \"personas de confianza\" were to identify them. Bauza then writes: *** \"Doloroso es manifestar que las mencionadas personas de confianza, fueron los hermanos Alonso de Minas, LOS LLERENA DE CANELONES, ... quienes al frente de grupos cuya totalidad sumaba mas de 400 hombres, se transformaron en azote de los vecindarios de Toledo, Manga y Piedras, haciendo impunemente con ellos, lo que era castigado como un crimen en los patriotas.\" *** *** Bauza names a FAMILY, in the plural, with no forenames *** - so no individual in this register is placed at those events; but this archive's Llerena were at Canelones in exactly that generation, Sancho aged 50 and three sons grown. *** Thirty years before the Oribe material this archive already holds, and on the other side of the national story. *** The same volume has a D. JOSE PEREIRA LERENA serving in Rondeau's PATRIOT army - a different compound surname, recorded so nobody attaches the wrong man in either direction. *** Tomes I and II hold no Lerena at all - a controlled null, the word Montevideo returning 108 and 503 hits in the same files. ***",
+  "accessed": "14 Sep 2026",
+  "tier": "PRIMARY for the text of a published work; SECONDARY as history",
+  "link": "https://archive.org/details/FranciscoBauzaHistoriaDeLaDominacionEspanolaEnElUruguay.Tomo3"
+ },
+ {
+  "source": "Instituto de Estudios Genealogicos del Uruguay - the parish holdings list",
+  "used_for": "*** IT NAMES WHERE THE 1791 ACT IS. *** For Canelones: \"3.- CANELONES. Catedral de nuestra Senora de Guadalupe. Baut. y Matr. desde 1775; def. desde 1776. Existen algunas informaciones matrimoniales desde 1776.\" *** So the marriage books start sixteen years before the wedding, and the informaciones matrimoniales run from 1776 *** - the same series in which Sancho has already been found giving sworn evidence at somebody else's marriage. *** This retires the archive's own verdict that the act is \"probably not digitised\": *** that verdict was about FULL TEXT, which covers a fraction of what is filmed, and was never about the document. *** Note: the site's HTTPS certificate has expired; it answers over plain http. ***",
+  "accessed": "14 Sep 2026",
+  "tier": "REFERENCE - an archival holdings statement",
+  "link": "http://www.iegu.org.uy/informacion-util/"
  }
 ]

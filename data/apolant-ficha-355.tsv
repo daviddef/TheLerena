@@ -33,3 +33,44 @@ what	what it says	tier	what it does to this archive
 #   4. *** THE SPANISH SEARCH SHOULD NOW BE FOR FELIX LERENA AND ROSALIA AGUILAR, NOT FOR GRANADA. ***
 #      A marriage of Felix Lerena and Rosalia Aguilar, and a baptism of their son Sancho about 1767, both
 #      in CORDOBA. That is a completely different search from the one run this morning.
+#
+# ================ *** THE SOURCING CHAIN, TRACED ONE STEP FURTHER *** ================
+#
+# The pages of FELIX LERENA and ROSALIA AGUILAR were opened on 14 September. *** BOTH ARE EMPTY OF EVERYTHING
+# EXCEPT A SOURCE LINE. *** No dates, no places, no other children - only "Sources - Family: *** Revista 15 IEGU ***".
+#
+# *** SO THE TWO CLAIMS REST ON DIFFERENT AUTHORITIES, AND THE MORE IMPORTANT ONE IS THE WEAKER. ***
+#   - The 1791 marriage and the 1812 padron come from APOLANT, "Operativo Patagonia", ficha 355.
+#   - *** SANCHO'S PARENTS come from REVISTA 15 IEGU, pp.53-54, AND FROM NOTHING ELSE. ***
+#
+# *** THIS MATTERS BECAUSE THE GRANADA HYPOTHESIS WAS WITHDRAWN ON THE STRENGTH OF THOSE PARENTS. *** The
+# withdrawal stands - a tree citing a named journal beats a naming-rule inference - but it should be read for
+# what it is: *** one un-consulted article in one journal, reported at second hand by one tree. *** If Revista 15
+# turns out not to say it, or to say it without a source, the question reopens. Labelled so rather than treated
+# as settled.
+#
+# ================ *** AND NEITHER BOOK CAN BE HAD ONLINE *** ================
+#
+# Searched on 14 September: *** archive.org holds NEITHER *** Apolant's "Operativo Patagonia" NOR the IEGU
+# Revista (its catalogue returns unrelated German medical titles for "Apolant" and radio programmes for
+# "Operativo Patagonia"). *** HathiTrust has Operativo Patagonia but serves a bot check *** and, being a 1970
+# imprint, would be search-only in any case. *** Both are in-copyright Uruguayan imprints and are LIBRARY OR
+# PURCHASE ERRANDS, not things this session can reach. *** Logged as such in data/errands.tsv with full citations.
+#
+# *** A TRAP CAUGHT ON THE WAY, AND IT IS THE SAME TRAP IN NEW CLOTHES. *** Three Google Books API searches -
+# "Fernandez Tresguerras", "Lerena y Aguilar", "Rosalia Aguilar" - each returned *** totalItems: None ***, which
+# reads exactly like a null. *** IT WAS HTTP 429, QUOTA EXCEEDED. *** A control query made the error visible.
+# *** Three nulls were within one keystroke of being written into this archive, for the second time this month
+# and on a completely different platform. *** The rule generalises beyond FamilySearch: an empty result from any
+# API is not evidence until something known-positive comes back through the same call in the same session.
+#
+# ================ *** WHERE THE 1791 ACT ACTUALLY IS *** ================
+#
+# The IEGU's own holdings list was reached over plain HTTP on 14 September (its HTTPS certificate has expired)
+# and it states, for Canelones: *** "3.- CANELONES. Catedral de Nuestra Senora de Guadalupe. Baut. y Matr. desde
+# 1775; def. desde 1776. Existen algunas informaciones matrimoniales desde 1776." ***
+#
+# *** SO THE ACT EXISTS, THE PARISH IS NAMED, AND THE MARRIAGE BOOKS START SIXTEEN YEARS BEFORE IT. *** This
+# archive's earlier verdict that it is "probably not digitised" was about FULL TEXT and was never about the
+# document. *** And the informaciones matrimoniales run from 1776 - the same series in which Sancho has already
+# been found giving evidence at somebody else's marriage. His own should be in that bundle. ***
