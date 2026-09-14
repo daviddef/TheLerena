@@ -341,5 +341,12 @@
   "what_was_said": "Five entries on the places atlas that were not places at all - \"SA records\", \"SA + Argentine records\", \"GRO + SA records\", \"Mendoza; later New York and Rio crossings\", and one bare dash",
   "what_is_true": "*** THEY WERE CITATIONS SITTING IN A PLACE FIELD, and they did TWO kinds of damage at once: *** eight people were missing from the map they belonged on, and four phantom locations were standing on it as though they were towns. Among the eight were PABLO ARMANDO HIMSELF, MARY SEPTIMA, and all three of their sons. *** The central figure of the archive was not on its own atlas. *** Now: Cape Town for the five South Africans, South Africa for Anton, Mendoza for Avelino Carlos, Montevideo for Carolina Oribe. The citations are kept in the notes, not deleted. 37 places became 33.",
   "how_it_was_caught": "David read the places data and spotted that the place field held a citation. *** consistency.py now flags any where_found or birthplace that reads like a citation - \"records\", \"GRO\", \"crossings\", \"index\", or an empty dash - and the check was verified by injecting one. ***"
+ },
+ {
+  "date": "2026-09-14",
+  "severity": "minor",
+  "what_was_said": "A findmypast harvest plan listing OUTBOUND AND INBOUND PASSENGER LISTS as the second-highest priority, untried",
+  "what_is_true": "*** THEY WERE TRIED ON 9 SEPTEMBER 2026, under an earlier trial, and the results are in data/passenger-lists.tsv *** - six voyages with masters, ship numbers and TNA references, including the very record this session re-found and briefly believed new: Mary Septima's arrival at Southampton on the RMS Balmoral Castle, 20 May 1935, \"C/O Dalling, Fore St, Northam\". The eight-year hole had been worked too, with a clean negative and two forenameless candidates.",
+  "how_it_was_caught": "Checking the archive's own files before writing up the \"find\". *** The re-find took five minutes; had it not been checked, a source consulted under a previous trial would have been announced as a discovery under this one. *** Read your own sources file before spending a deadline on a source."
  }
 ]
