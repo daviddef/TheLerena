@@ -213,7 +213,7 @@
   "what": "Read SANTA ROSA DE LIMA, Confirmaciones 1890-1897 - the second Rosario parish",
   "who": "me",
   "status": "*** IN PROGRESS 14 September 2026 ***",
-  "detail": "*** DGS 004581639, 141 images, FULL TEXT, never opened before today. *** The other confirmation register covering Pablo Armando's window - rounds of July 1890, Sept-Oct 1891 and May 1897 under Bishop Juan Cagliero, when he was eight, nine and fifteen. Use /search/film/004581639?i=N, take the ark from the page title, open it with ?view=fullText. *** A PAGE COUNTS AS READ ONLY IF ITS TRANSCRIPT IS NON-EMPTY *** - seven pages of the Catedral film returned empty on the first pass and read clean on retry. And the index page says \"PAGES MISSING\", so any null from this book is qualified.",
+  "detail": "*** DGS 004581639, 141 images, FULL TEXT. PROGRESS AT 14 September 2026: images 6 to 22 READ, NO LERENA. *** Image 6 is the register's own index: rounds of JULY 1890, SEPT-OCT 1891 and MAY 1897 under Bishop JUAN CAGLIERO, when Pablo Armando was eight, nine and fifteen. Pages carry about 3,300-4,100 characters each. *** STILL TO READ: 23-141, and RETRY 7, 11, 15, 22 which returned EMPTY transcripts (empty means NOT READ, never 'no Lerena'). *** THE LOOP: /search/film/004581639?i=N, take the ark from the page title, open /ark:/61903/<ark>?view=fullText, wait, then read. About 36 seconds an image. And the index page says 'PAGES MISSING', so any null from this book is qualified by that.",
   "sent_on": ""
  }
 ]
