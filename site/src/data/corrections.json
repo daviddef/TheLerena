@@ -278,5 +278,19 @@
   "what_was_said": "That the Montevideo dispensation register holds eight Lerena dispensations (revised earlier today to nine)",
   "what_is_true": "*** A TENTH, found hours after the ninth, and missed for a different reason again. *** Alfredo Lerena and Hermenegilda Carolina Gavarro, Catedral Basilica de Montevideo, 3 February 1892, dispensed of consanguinity in the third degree with atingencia to the second by Archbishop Mariano Soler personally. The sweep missed it TWO WAYS AT ONCE: the groom is written *** GERENA *** - a seventh spelling for this family, in a sentence where his own father is written LORENA - and the dispensation clause comes BEFORE the names, so the formula \"Lerena el impedimento\" could not match. *** The count of eight is certainly low, and the file now says so. *** What survives is narrower: no LERENA-LERENA dispensation has been found, and this family did marry kin.",
   "how_it_was_caught": "Searching the rarest name in the branch - AMBROSIA TRAIBEL - instead of the surname."
+ },
+ {
+  "date": "2026-09-14",
+  "severity": "minor",
+  "what_was_said": "That Avelino Lerena is not shown to be Sancho's son, so the Lerena Traibel branch does not attach",
+  "what_is_true": "*** He is, and it does - settled the same day on a parish act. *** Two baptisms of 12 March 1858 at San Francisco de Asis name the paternal grandparents of Avelino's children as SANCHO LERENA and MARIA FERNANDEZ, twice on one page. So the whole Lerena Traibel line descends from Sancho - including several people already floating unattached in this register: Mercedes Micaela and Clorinda in the dispensation table, and JUAN ARTURO, the man this archive conflated with another Arturo in its first week and had to retract.",
+  "how_it_was_caught": "Searching AVELINO with AMBROSIA - the couple, not the surname."
+ },
+ {
+  "date": "2026-09-14",
+  "severity": "minor",
+  "what_was_said": "That Alfredo Justiniano Lerena's middle name echoed JUSTINIANA LENGUAS, connecting the two branches",
+  "what_is_true": "I noticed the echo and flagged it as worth testing. *** It is nothing: he is named for his GODFATHER, JUSTINIANO LAVALLEJA, who is on the same line of the same act. *** A tidy connection between the branches that would have been entirely wrong, and the act that raised it also killed it.",
+  "how_it_was_caught": "Reading the whole act instead of stopping at the name."
  }
 ]
