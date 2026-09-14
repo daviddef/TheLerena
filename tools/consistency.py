@@ -75,6 +75,40 @@ for (key, parent), group in kids.items():
                 hard.append(f"{a['name']} (b.{a['born']}) and {b['name']} (b.{b['born']}) share a "
                             f"{key} ({parent}) but are only {gap} months apart - both cannot be right")
 
+# 2b. The same check again, for the 87% of the register that carries NO structured parent.
+# On 14 September 2026 check 2 printed a clean bill of health over 31 of 246 people while the
+# contradiction this file was written for sat in the data. A test that can only see an eighth of
+# the register and still says "nothing contradicts itself" manufactures confidence.
+#
+# Spanish naming gives a second key for free: "LERENA LENGUAS" means a Lerena father and a Lenguas
+# mother, so everyone carrying the same pair of surnames is a sibling or a first cousin. Cousins
+# make this SOFT rather than hard - it reports, it does not fail the build.
+def compound(nm):
+    # Two consecutive capitalised surnames, the first the family name. "Alejandro LERENA TRAIBEL".
+    m = re.search(r"\b([A-Z]{3,})\s+([A-Z][a-zA-Z]{2,}|[A-Z]{3,})\b", re.sub(r"\(.*?\)", "", nm))
+    if not m:
+        return None
+    a, b = m.group(1), m.group(2).upper()
+    return (a, b) if a != b else None
+
+cohorts = collections.defaultdict(list)
+for p in people:
+    c = compound(p["name"])
+    if c and full(p.get("born")):
+        cohorts[c].append(p)
+for c, group in cohorts.items():
+    for i, a in enumerate(group):
+        for b in group[i + 1:]:
+            pair = tuple(sorted([a["name"], b["name"]]))
+            if pair in seen:
+                continue
+            gap = months(full(a["born"]), full(b["born"]))
+            if gap < 9:
+                seen.add(pair)
+                soft.append(f"{a['name']} (b.{a['born']}) and {b['name']} (b.{b['born']}) both read as "
+                            f"{c[0]} {c[1]} but are only {gap} months apart - siblings this close cannot "
+                            f"both be right, and first cousins would explain it")
+
 # 3. Two rows that are probably one person.
 # build-people.py refuses EXACT duplicate names, which is why they never happen. It does not
 # see "Dona Sixta LENGUAS (2nd wife of Candido Juanico)" and "Dona Sixta LENGUAS Gonzalez
@@ -122,7 +156,16 @@ for p in people:
     if re.search(r"IMAGE READ|image read", src) and "ark" not in src.lower():
         soft.append(f"{p['name']} says an image was read but names no ark")
 
+# Coverage. A checker that does not say what it could not see is not telling the truth.
+with_parent = sum(1 for p in people if p.get("father") or p.get("mother"))
+with_cohort = sum(1 for p in people if compound(p["name"]))
+with_born = sum(1 for p in people if full(p.get("born")))
 print(f"{len(people)} people checked")
+print(f"   sibling gaps: {with_parent} have a structured parent, {with_cohort} reachable by compound "
+      f"surname; {with_born} carry a full birth date")
+if with_parent < len(people) // 2:
+    print(f"   NOTE: the parent-linked test sees {with_parent}/{len(people)}. A pass here is not a "
+          f"pass over the register.")
 if hard:
     print(f"\n{len(hard)} CONTRADICTION(S) - these cannot all be true:")
     for h in hard:
@@ -132,5 +175,5 @@ if soft:
     for s in soft:
         print("   ", s)
 if not hard and not soft:
-    print("nothing contradicts itself")
+    print("nothing contradicts itself - within the coverage printed above")
 sys.exit(1 if hard else 0)

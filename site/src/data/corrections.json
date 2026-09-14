@@ -292,5 +292,26 @@
   "what_was_said": "That Alfredo Justiniano Lerena's middle name echoed JUSTINIANA LENGUAS, connecting the two branches",
   "what_is_true": "I noticed the echo and flagged it as worth testing. *** It is nothing: he is named for his GODFATHER, JUSTINIANO LAVALLEJA, who is on the same line of the same act. *** A tidy connection between the branches that would have been entirely wrong, and the act that raised it also killed it.",
   "how_it_was_caught": "Reading the whole act instead of stopping at the name."
+ },
+ {
+  "date": "2026-09-14",
+  "severity": "serious",
+  "what_was_said": "That ALEJANDRO, baptised at La Mauricia on 7 January 1846, was \"A SIXTH CHILD of Luis Lerena and Justiniana Lenguas\", born 29 May 1845",
+  "what_is_true": "*** HE IS A SON OF AVELINO LERENA AND AMBROSIA TRAIBEL, born 29 May 1843. *** The act reads \"hijo legitimo de Avelino Serena y Ambrosia Traibel. Paternos Francisco y Maria Fernandez. Maternos Juan e Isabel Centeno. *** Padrinos LUIS [L]ERENA y JUSTINIANA LENGUAS. ***\" Luis and Justiniana are his GODPARENTS - which is how this archive read them as his parents. Both the branch and the year were wrong. He is the ELDEST KNOWN CHILD of Avelino and Ambrosia, and pushes their marriage back before May 1843.",
+  "how_it_was_caught": "Reading the full-text transcript of the whole page rather than the entry. The image had been opened on 13 September and the act read too quickly - the parents and the godparents sit in the same sentence, and the archive took the wrong pair."
+ },
+ {
+  "date": "2026-09-14",
+  "severity": "serious",
+  "what_was_said": "That the register contained no contradictions - \"245 people checked, nothing contradicts itself\", printed on every build for a week",
+  "what_is_true": "*** THE CHECKER COULD ONLY SEE 31 OF 246 PEOPLE. *** The sibling-gap test reads a STRUCTURED parent field that only 12.6% of the register carries; for everyone else it silently found no siblings and passed. *** The contradiction it was written to catch was sitting in the data the whole time *** - Luis Eugenio b. 9 Feb 1843 and Justiniana Mauricia b. 30 July 1843, full siblings five and a half months apart. The file's own docstring names that pair as its reason for existing.",
+  "how_it_was_caught": "Reading the 1846 page for another purpose, noticing the two dates, and then asking why the checker had not said so. *** A guard that reports a clean bill of health over 12.6% of the data is worse than no guard: it manufactures confidence. *** The checker now prints its coverage and falls back to compound surnames."
+ },
+ {
+  "date": "2026-09-14",
+  "severity": "minor",
+  "what_was_said": "That Luis Eugenio Lerena Lenguas was born 9 February 1843, on the authority of his own baptism act - published since 13 September",
+  "what_is_true": "*** 9 FEBRUARY 1845. *** The act is a late copy from a legajo, and it is contradicted twice: his sister Justiniana Mauricia's act, the entry immediately above his in the same hand, gives her birth as 30 July 1843 - five and a half months before him; and his civil death registration of 24 December 1901 gives his age as FIFTY-SIX, putting his birth at about 1845. The clerk wrote \"ano cuarenta y tres\" in the entry above and again in the entry below. A year carried down a column is the ordinary way this happens, and 1845 is the only reading under which all three records stand.",
+  "how_it_was_caught": "The consistency checker, once it was fixed to see people without a structured parent field. It flagged the five-month gap on the first run after the fix. *** The archive then went looking for a third record to break the tie rather than choosing between the two. ***"
  }
 ]

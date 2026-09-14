@@ -1,0 +1,50 @@
+# *** THE WHOLE PAGE AT LA MAURICIA, 7 JANUARY 1846 - read end to end, 14 September 2026 ***
+# Capilla de la Mauricia, VILLA DE LA UNION, Montevideo. Ark 3:1:3Q9M-C9BW-ZS62-J.
+# The archive opened this image on 13 September and read the Lerena entries. It did not read the PAGE.
+# Doing so corrected a branch, dated a marriage, and explained why the page exists at all.
+entry	the act says	what it gives
+*** JUSTINIANA MAURICIA MAXIMA ***	"nacio el TREINTA DE JULIO del pasado ano CUARENTA Y TRES, hija legitima de LUIS LERENA y JUSTINIANA LENGUAS Orientales. Paternos FRANCISCO y MARIA HERNANDEZ. Maternos el GENERAL D. PEDRO LENGUAS y CARMEN GONZALEZ. Padrinos D. Pedro Lenguas y Maria Fernandez"	Her grandfather's RANK - General - which no other record in this archive gives.
+*** LUIS EUGENIO ***	"nacio el NUEVE DE FEBRERO del pasado ano CUARENTA Y TRES, hijo legitimo de LUIS SERENA y JUSTINIANA LENGUAS Orientales. Paternos FRANCISCO y MARIA FERNANDEZ. Maternos PEDRO y CARMEN GONZALEZ. Padrinos JUAN LENGUAS y MARIA FERNANDEZ"	The paternal grandmother standing as godmother to her own grandson.
+*** ALEJANDRO ***	"nacio el VEINTE Y NUEVE DE MAYO del pasado ano CUARENTA Y TRES, hijo legitimo de *** AVELINO SERENA y AMBROSIA TRAIBEL ***. Paternos FRANCISCO y MARIA FERNANDEZ. Maternos JUAN e ISABEL CENTENO. *** Padrinos LUIS [L]ERENA y JUSTINIANA LENGUAS ***"	*** THE CORRECTION. *** He is AVELINO'S son, not Luis's, and Luis and Justiniana are his GODPARENTS. This archive read the wrong pair out of one sentence and gave a man to the wrong brother for a day.
+#
+# ================ *** WHAT THE PAGE EXPLAINS *** ================
+#
+# *** EVERY ACT ON IT ENDS THE SAME WAY: *** "asi consta del LEGAJO conservado en este Archivo, mandado
+# TRASLADAR por el Senor Obispo y Vicario Apostolico D. JACINTO VERA, de que doy fe." Not the Lerena
+# entries - ALL of them, the Peraltas and Quirogas and Oteros too. This is not a parish register being
+# kept. *** It is a bundle of loose papers being copied into a book, three years late, by order of the
+# Bishop. *** The archive had already spotted the formula on two acts and reasoned about copies against
+# originals. It is the whole page, and the whole page has one cause.
+#
+# *** THE CAUSE IS THE GUERRA GRANDE. *** Oribe's army closed on Montevideo in FEBRUARY 1843 and the
+# siege ran nine years. These three Lerena children were born in FEBRUARY, MAY and JULY 1843 - the first
+# of them in the very month the siege began - and none was christened until January 1846.
+#
+# *** AND WHERE THEY WERE CHRISTENED PLACES THE FAMILY. *** The Capilla de la Mauricia stood in the
+# VILLA DE LA UNION - which Oribe renamed the VILLA RESTAURACION and made his seat, the government
+# outside the walls, for the duration. The Lerenas were not inside besieged Montevideo. They were in
+# ORIBE'S town, having their children baptised by ORIBE'S priest.
+#
+# *** WHICH SITS BESIDE SOMETHING THIS ARCHIVE ALREADY HELD AND HAD NOT JOINED UP: *** Luis Lerena's
+# FIRST WIFE, married 3 September 1836, was CAROLINA ORIBE. And the 1850 baptism of his son Alberto
+# Octavio is recorded at "S. Agustin, PUEBLO DE LA RESTAURACION" - the same place under Oribe's name,
+# four years later.
+#
+# *** STATED AS WHAT IT IS. *** A family living in the Villa Restauracion through the siege, marrying an
+# Oribe and baptising in Oribe's parish, was on the BLANCO side of the Guerra Grande. That is a reading
+# of where they lived and whom they married, not a claim from any political record, and no relationship
+# to Manuel Oribe is asserted - the archive has already had to withdraw a reading of this bride's
+# surname once. See data/1836-luis-carolina-oribe.tsv.
+#
+# ================ *** AND A CONTRADICTION IN THE SOURCE *** ================
+#
+# Luis Eugenio: born *** 9 FEBRUARY 1843 ***. His sister Justiniana Mauricia: born *** 30 JULY 1843 ***.
+# *** FIVE AND A HALF MONTHS, BETWEEN TWO FULL SIBLINGS. BOTH CANNOT BE RIGHT. ***
+#
+# Neither reading is a machine's: both acts have been read verbatim and both say "cuarenta y tres". The
+# error is the 1846 clerk's, working from loose papers and writing "ano cuarenta y tres" three times on
+# one page. A year carried forward from the entry above is the likeliest explanation AND IS A GUESS.
+# Luis Eugenio's 1901 death registration gives an age; testing it against 1843 is the next step.
+#
+# *** THIS IS ALSO THE PAIR THE ARCHIVE'S OWN CONSISTENCY CHECKER WAS WRITTEN TO CATCH, AND DID NOT. ***
+# The test read a structured parent field that 30 of 245 rows carry. See data/corrections.tsv.
