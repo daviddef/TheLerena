@@ -78,3 +78,36 @@ what	the catalogue entry	DGS / where	what it means
 #
 # *** ONE WARNING FOR WHOEVER CONTINUES: the grid does not always scroll to the ?i= value *** - asking for
 # 2510 loaded a window of 2341-2470. Read the numbers off the DOM rather than assuming.
+#
+# ================ *** THE WALK TO 1791 WAS ATTEMPTED AND NOT FINISHED, 15 September 2026 *** ============
+#
+# With the login restored, Libro I was walked by DeepZoom tile. *** The act was NOT found. *** What the
+# attempt did establish, so nobody repeats it blind:
+#
+#   - *** Libro I of Matrimonios opens at IMAGE 2590 *** - its first page carries the year "1776." in
+#     digits, underlined, at level 12 tile 6_1.
+#   - *** LEVEL 12 IS GENUINELY READABLE for this hand. *** Image 2680 came out as "En veinte y dos ... de
+#     Septiembre de ocho...", with "siendo testigos", "y por verdad lo firme", "Juan Fran[cisco] ... Cura
+#     Interino", and on a neighbouring tile "Canarias", "proclamas", "intentaba contraer", "del Canelon".
+#   - *** BUT A YEAR WRITTEN IN WORDS STRADDLES TILE BOUNDARIES. *** "de ocho..." is the end of one tile and
+#     is ambiguous between "mil setecientos OCHENTA y ..." and "mil OCHOCIENTOS ..." - eighty years apart in
+#     effect - and the tile that would settle it carried a different line of the same page.
+#
+# *** THAT IS THE WHOLE PROBLEM, AND IT IS A TOOL PROBLEM, NOT AN ARCHIVE ONE. *** Each date costs three to
+# six tile fetches and often does not resolve; a viewer that renders the whole opening at once reads it at a
+# glance. The film viewer in this session's browser takes thirty to sixty seconds per image and frequently
+# renders nothing, which is why tiles were used at all.
+#
+# ================ *** HOW TO FINISH IT IN A NORMAL BROWSER, IN ABOUT TEN MINUTES *** ================
+#
+#   1. Open  https://www.familysearch.org/search/film/008166578?i=2590  - the first page of Libro I, headed 1776.
+#   2. Page forward watching only the YEAR in each act's opening line. The register is chronological.
+#   3. *** Stop at "mil setecientos noventa y uno" and read January. *** The index says the marriage is in
+#      Libro I under 1791; the trees and Apolant ficha 355 say 8 January.
+#   4. The bracketing so far: 1776 at image 2590, and an act at image 2680 whose year could not be resolved.
+#      *** Two independent estimates put January 1791 somewhere between images 2640 and 2720, and neither is
+#      verified. Trust the pages, not the arithmetic. ***
+#
+# *** AND CHECK THE INFORMACIONES TOO: *** DGS 8166573 items 6-11, Carpetas 1-6, 1776-1806. A pre-marriage
+# investigation gives a Spanish groom's PARENTS, BIRTHPLACE and time in the country - more than the act.
+# Sancho is already inside that series as a sworn witness at image 2167, so the series is readable.
