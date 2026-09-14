@@ -596,9 +596,13 @@ details>summary:hover{color:var(--accent)}
    changelog's clothes: STARTED in uppercase at 0.72rem with a ▸ in front of
    it, where the other six read "Start". Nobody had noticed because on most
    pages here every <details> in the document is the nav — the rule only ever
-   hit the one thing it was not written for. Put the navigation back. */
-.topnav details>summary{text-transform:none;letter-spacing:normal;
-  font-size:inherit;font-family:inherit}
+   hit the one thing it was not written for. Put the navigation back.
+
+   Undo only the three things the changelog rules impose. Not the font: this
+   selector outranks `.topnav summary`, so setting font-size/font-family to
+   `inherit` here does not fall back to the nav's own 12.5px sans — it
+   inherits from the page and draws the menu in 19px Garamond. */
+.topnav details>summary{text-transform:none;letter-spacing:normal}
 .topnav details>summary::before,
 .topnav details[open]>summary::before{content:none}
 
