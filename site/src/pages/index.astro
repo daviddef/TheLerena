@@ -1,7 +1,9 @@
 ---
 import Base from "../layouts/Base.astro";
+import PlaceSpark from "@daviddef/archive-kit/components/PlaceSpark.astro";
 import { u } from "../lib/url.js";
 import people from "../data/people.json";
+import atlas from "../../public/atlas-data.json";
 // Derived, not typed. A hand-written count here went stale within the week it was written.
 const registerCount = String(people.length);
 const WORDS = ["no","One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Eleven","Twelve","Thirteen","Fourteen","Fifteen"];
@@ -76,7 +78,10 @@ const stats = [
 <section class="blk">
   <div class="panel" style="border-left:3px solid var(--accent)">
     <div class="kick" style="margin-bottom:8px">13 September 2026</div>
-    <h2 style="margin-top:0">They were not a Rosario family.</h2>
+    
+  <PlaceSpark places={atlas.places} href={u("/atlas/")}
+              label="31 places: the River Plate, the Cape, and the English west country" />
+<h2 style="margin-top:0">They were not a Rosario family.</h2>
     <p class="lede" style="margin-top:10px">Both volumes of the Rosario baptism index have now been read
       end to end &mdash; <b>1731 to 1901</b>. Across a hundred and seventy years the surname appears
       <b>once</b>, and the act behind that one entry says of both parents

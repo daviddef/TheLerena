@@ -212,8 +212,8 @@
  {
   "what": "Read SANTA ROSA DE LIMA, Confirmaciones 1890-1897 - the second Rosario parish",
   "who": "me",
-  "status": "*** IN PROGRESS 14 September 2026 ***",
-  "detail": "*** DGS 004581639, 141 images, FULL TEXT. PROGRESS 14 September 2026: images 6-46 READ, NO LERENA under any of seven spellings *** - except 7 and 22, which returned EMPTY TRANSCRIPTS TWICE and are NOT read. Image 6 is the register's index: rounds of JULY 1890, SEPT-OCT 1891 and MAY 1897 under Bishop JUAN CAGLIERO, when Pablo Armando was eight, nine and fifteen. Pages run 2,900-4,100 characters. *** STILL TO READ: 47-141, plus RETRY 7 and 22. *** THE LOOP: /search/film/004581639?i=N, take the ark from the page title, open /ark:/61903/<ark>?view=fullText, wait, read. *** A PAGE COUNTS AS READ ONLY IF ITS TRANSCRIPT IS NON-EMPTY. *** FamilySearch throttles after about sixty rapid loads and a pause of a minute clears it; four images per batch with 13/16/11-second waits holds. The index page says 'PAGES MISSING', so any null from this book is qualified by that.",
+  "status": "*** PART READ - 54 of 141 - STOPPED BY RATE LIMITING 14 Sep 2026 ***",
+  "detail": "*** DGS 004581639, 141 images. READ AND CLEAN, NO LERENA under any of seven spellings: images 6, 8-21, 23-53, 55-58, 61-63, 66 - FIFTY-FOUR IMAGES. *** NOT READ, because the transcript came back EMPTY: *** 7, 22, 54, 59, 60, 64, 65, 67, 68, 69. *** NEVER ATTEMPTED: 70-141. Images 1-5 are covers. *** WHY IT STOPPED: FamilySearch rate-limits after a long session and by image 67 it was sustained - three consecutive empties survived a sixty-second cooldown. An empty transcript is NOT 'no Lerena'; pushing on would have manufactured false negatives. *** RESUME: /search/film/004581639?i=N, take the ark from the page title, open /ark:/61903/<ark>?view=fullText, wait, read; four per batch with 13/16/11s waits holds from cold. A page counts as read ONLY if its transcript is non-empty. The register's index page says PAGES MISSING, so any final null is qualified by that.",
   "sent_on": ""
  },
  {
