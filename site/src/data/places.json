@@ -89,9 +89,11 @@
    "juliana-josefa-cornejo",
    "domingo-rodriguez-de-carvallo",
    "maria-mercedes",
-   "juan-carlos-gonzalez-lerena"
+   "juan-carlos-gonzalez-lerena",
+   "pedro-lorena",
+   "fidel-lerena"
   ],
-  "count": 87
+  "count": 89
  },
  {
   "slug": "buenos-aires-arrivals",
@@ -523,6 +525,14 @@
   "name": "Buenos Aires, Calle Cerrito 535",
   "people": [
    "rafael-llerena-2"
+  ],
+  "count": 1
+ },
+ {
+  "slug": "montevideo-calle-corrales-36",
+  "name": "Montevideo, calle Corrales 36",
+  "people": [
+   "victor-lerena"
   ],
   "count": 1
  }
