@@ -9,3 +9,41 @@ what	the catalogue entry	DGS / where	what it means
 *** THE INFORMACIONES MATRIMONIALES FOR 1791 ARE ALSO FILMED, ON A DIFFERENT REEL ***	*** "Informaciones matrimoniales, Carpetas 1-6, 1776-1806" ***	*** DGS 8166573, items 6-11 ***	*** The pre-marriage investigation is worth MORE than the act. *** It routinely gives a Spanish groom's PARENTS, BIRTHPLACE and how long he has been in the country - which would settle Sancho-or-Francisco, test Cordoba, and test Felix Lerena and Rosalia Aguilar in one document. *** And this archive has ALREADY been inside this series: *** Sancho appears in it as a sworn witness at somebody else's marriage, ark 3:1:3Q9M-CS2Z-W45W, which sits at image 2167 of that reel. *** So the series is readable, and his own expediente - if it survives - is in the same six carpetas. ***
 *** THE WAY IN, WHEN THE CATALOGUE SEARCH IS BROKEN ***	*** Catalogue record koha:1294117 *** - "Registros parroquiales, parroquia Nuestra Senora de Guadalupe, Canelones 1776-2004", 10 reels, filmed 2005.	https://www.familysearch.org/search/catalog/koha:1294117	*** The catalogue SEARCH BOX returned 'Something Went Wrong' all day on 14 September 2026, for every query, while full-text search and the film viewer worked normally. *** *** A DIRECT CATALOGUE ID still worked *** - the diagnostic this archive wrote down on 13 September and used again here. *** AND THERE IS A SECOND WAY IN THAT IS BETTER: *** open any image of the film, expand the viewer's *** INFORMATION *** tab, and it prints the catalogue record link plus the item-by-item contents of that reel. *** That is how koha:1294117 was recovered without the search box at all. ***
 *** A MIS-ATTRIBUTION THAT WOULD SEND A RESEARCHER TO THE WRONG CONTINENT ***	Image 2631 of this Canelones reel opens under the page title *** "Colombia, Catholic Church Records, 1576-2019" *** and its citation block reads *** "Colombia, registros parroquiales y diocesanos... La Arquidiocesis de Caragena (The Archdiocese of Cartagena), Colombia." ***	ark 3:1:3Q9M-CS2Z-WNTL, cc=1726975	*** The image is Canelones, Uruguay. *** Its own Information panel names catalogue record koha:1294117 and lists the Canelones items. *** The collection attribution is simply wrong on FamilySearch's side. *** *** Recorded because a researcher who trusted the page title would conclude this reel is Colombian and abandon it *** - and because a future reader of this archive, finding a Colombian citation attached to a Uruguayan act, should know it was seen and understood rather than missed.
+#
+# ================ *** HOW TO READ THESE IMAGES, WORKED OUT 14 SEPTEMBER 2026 *** ================
+#
+# The film viewer in this session's browser renders an image in 30-60 seconds and often not at all, so
+# browsing 3,222 images through it is not practical. *** THE DEEPZOOM TILES ARE, and they are fast. ***
+#
+#   1. Open  /search/film/<DGS>?i=<N>  and take the ark out of the PAGE TITLE (3:1:XXXX-XXXX-XXX).
+#   2. Fetch tiles directly from:
+#      https://sg30p0.familysearch.org/service/records/storage/deepzoomcloud/dz/v1/<ark>/image_files/<level>/<col>_<row>.jpg
+#   3. Navigate the browser straight to that URL - the JPEG fills the tab and a screenshot reads it.
+#
+# *** LEVELS: 12 is the maximum for these reels and IS READABLE *** - eighteenth-century secretary hand
+# came out as "...entes hijo legitimo... hija legit... impedimento canonico o... y sacramenta...".
+# Level 10 gives a whole-quarter overview, enough to tell a register from an index; level 9 is 2x2 tiles.
+# *** Tiles are 256px, so level 12 is about 16x16 per opening *** - a full page is many tiles, which is why
+# this is a targeting tool, not a way to read a volume end to end.
+#
+# *** THE TILES REQUIRE THE SESSION: *** curl gets 401, page-context fetch() is blocked by CORS, and an
+# <img> load works. Navigating the browser to the tile URL is the route that works.
+#
+# ================ *** WHERE THINGS ARE ON DGS 8166578, AS FAR AS IT WAS TAKEN *** ================
+#
+# The reel holds 3,222 images. Confirmed by looking:
+#   - *** Image 2631 and image 2900 are both EIGHTEENTH-CENTURY MARRIAGE REGISTER openings *** - dense
+#     acts with marginal names, "hijo legitimo", "impedimento canonico", "sacramento". So both are inside
+#     items 11-13, Matrimonios Libros 1-3. Items 4-9 (expedientes 1900-1933) would be modern hands.
+#   - *** The thumbnail grid shows NO PADLOCKS across 2,611-2,670 and 2,801-2,870 *** - unrestricted.
+#
+# *** AN ESTIMATE, CLEARLY LABELLED AS ONE, FOR WHOEVER GOES NEXT: *** if Libros 1-3 run 1776-1854 and end
+# at image 3,222, that is about 78 years over roughly 520 images, near seven images a year, which would put
+# *** JANUARY 1791 somewhere around image 2,780-2,820 *** and the start of Libro 1 near 2,700.
+# *** THIS WAS NOT VERIFIED. *** The attempt to read a date off image 2800 failed because that image
+# returned no ark, and without an ark there is no tile URL. Treat the number as a place to start looking,
+# not as a location.
+#
+# *** THE BETTER ROUTE REMAINS ITEM 10, THE INDEX OF MARRIAGES 1776-1947, which sits immediately BEFORE
+# the registers on this same reel and has never been opened. *** One alphabetical opening under L would
+# answer the question that seven weeks of searching has not.
