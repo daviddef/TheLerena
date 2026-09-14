@@ -1,6 +1,13 @@
 #!/bin/sh
 # One gate, run as one command, so no exit code can be swallowed.
 #
+# AND THE SAME TRAP CATCHES THIS SCRIPT. On 15 September 2026 a commit went in on a RED GATE
+# because the command was `./tools/verify.sh 2>&1 | tail -3 && git commit ...`. check-links.py had
+# found a broken anchor and verify.sh exited non-zero - but a PIPELINE exits with the status of its
+# LAST command, which is tail, which always succeeds. So the && fired. Running this script through
+# a pipe defeats the whole point of it. Run it bare, or redirect to a file and check $? by hand:
+#   ./tools/verify.sh > /tmp/v.log 2>&1; echo "EXIT=$?"; tail -5 /tmp/v.log
+#
 # WHY THIS EXISTS. Through 14 September 2026 every check in this session was run as
 #   python3 tools/consistency.py | tail -1
 # and a pipeline exits with the status of its LAST command - tail, which always succeeds.
