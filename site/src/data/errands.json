@@ -208,5 +208,12 @@
   "status": "*** DONE 14 September 2026 ***",
   "detail": "*** READ END TO END: images 5 to 80 of item 1, every page from the first register leaf (15 MAY 1885) to the start of the 1897 section. NO LERENA, under any of seven spellings, among roughly 2,500 children - each entry naming both parents. *** Pablo Armando was three when the register opens and fifteen when the section closes, and children appear at every age from two to fifteen, so his whole plausible window is inside the pages read. *** STILL OPEN: images 81-148 (1897-1904, when he was 15-22), and any confirmations of 1883-84, which are not on these pages. *** See data/rosario-confirmations-read.tsv.",
   "sent_on": ""
+ },
+ {
+  "what": "Read SANTA ROSA DE LIMA, Confirmaciones 1890-1897 - the second Rosario parish",
+  "who": "me",
+  "status": "*** IN PROGRESS 14 September 2026 ***",
+  "detail": "*** DGS 004581639, 141 images, FULL TEXT, never opened before today. *** The other confirmation register covering Pablo Armando's window - rounds of July 1890, Sept-Oct 1891 and May 1897 under Bishop Juan Cagliero, when he was eight, nine and fifteen. Use /search/film/004581639?i=N, take the ark from the page title, open it with ?view=fullText. *** A PAGE COUNTS AS READ ONLY IF ITS TRANSCRIPT IS NON-EMPTY *** - seven pages of the Catedral film returned empty on the first pass and read clean on retry. And the index page says \"PAGES MISSING\", so any null from this book is qualified.",
+  "sent_on": ""
  }
 ]

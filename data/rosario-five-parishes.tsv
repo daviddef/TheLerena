@@ -1,0 +1,41 @@
+# *** ROSARIO HAS FIVE FILMED PARISHES. THIS ARCHIVE HAD READ ONE. *** 14 September 2026.
+#
+# Found because David asked what had not been tried and named the Argentine CATHOLIC PARISH REGISTERS -
+# civil registration being closed, the parish books are not. He was right, and the gap is sharper than
+# he put it: *** it is not that the parish books were untried. It is that FOUR OF THE FIVE PARISHES
+# WERE. *** Every Rosario film in data/rosario-films.tsv - all seventeen - belongs to catalogue 208788,
+# "Archidiocesis de Rosario, NUESTRA SENORA DEL ROSARIO". The index sweeps of 1731-1901, the three-year
+# baptism sweep, the confirmations read this morning: one parish, all of it.
+parish	what is filmed	does it reach February 1882?	verdict
+*** Nuestra Senora del Rosario *** (the Catedral)	Baptisms, marriages, deaths and confirmations from 1722; indexes 1731-1919	*** YES ***	*** THE ONLY ONE THIS ARCHIVE HAS EVER OPENED - and the only one that could hold an 1882 baptism. ***
+Inmaculada Concepcion	Bautismos from *** 1899 ***; Matrimonios from 1899	NO	Too late for the baptism. Its MATRIMONIOS 1899-1904 could still hold a sibling's marriage.
+Sagrado Corazon de Jesus	Bautismos from *** 1896 ***; Indice de matrimonios 1896-1954	NO	Too late for the baptism.
+San Jose	Bautismos from *** 1899 ***; Confirmaciones 1900-1921	NO	Too late for the baptism; its confirmations begin when he was eighteen.
+*** Santa Rosa de Lima ***	Bautismos from 1888 - and *** CONFIRMACIONES 1890-1897 ***	*** NOT for the baptism - BUT YES FOR THE CONFIRMATION ***	*** A SECOND CONFIRMATION REGISTER COVERING HIS WINDOW, AND IT HAS NEVER BEEN OPENED. ***
+#
+# ================ *** WHAT THIS SETTLES AND WHAT IT OPENS *** ================
+#
+# *** IT STRENGTHENS THE BAPTISM NULL RATHER THAN WEAKENING IT. *** The obvious worry - that the family
+# used a different Rosario parish and the Catedral books would never show them - *** does not hold for
+# 1882. *** Four of the five parishes have no register that early; the earliest is Santa Rosa de Lima in
+# 1888. In February 1882 the Catedral was, so far as the filmed record goes, the only parish in Rosario.
+# So reading its index end to end for 1731-1901 was the right thing to have done, and the answer stands.
+#
+# *** BUT IT OPENS A REAL NEW SOURCE ON THE CENTRAL QUESTION. *** SANTA ROSA DE LIMA, Confirmaciones
+# 1890-1897, *** DGS 004581639, 141 images, transcribed in FULL TEXT. *** Its own index page reads:
+#     "Confirmacion administrada por el Senor Obispo DOCTOR DON JUAN CAGLIERO en el mes de Julio de
+#      1890 en la Iglesia Parroquial de Santa Rosa" - with further rounds in SEPTIEMBRE y OCTUBRE 1891
+#      and MAYO 1897.
+# *** Pablo Armando was EIGHT in July 1890, NINE in 1891 and FIFTEEN in 1897. *** The confirmations read
+# this morning at the Catedral cover the same years from the other parish. If he was confirmed at
+# Rosario at all, he is in one book or the other.
+#
+# *** AND THE FILM WARNS OF ITS OWN DAMAGE: *** the index page carries the words "PAGES MISSING".
+# Whatever this register does not contain, it may be because the leaves are gone rather than because
+# the name is absent. That must be said with any null taken from it.
+#
+# ---- HOW THE DGS WAS FOUND, because the ordinary route failed ----
+# The FamilySearch CATALOGUE SEARCH was down again ("Something Went Wrong"), so the film number could
+# not be looked up. It was recovered instead from the image viewer's own page source, where the waypoint
+# payload carries it. *** Browse by waypoint -> read the DGS out of the page -> then use the ordinary
+# /search/film/<DGS>?i=N loop. *** Worth writing down: it works when the catalogue does not.
