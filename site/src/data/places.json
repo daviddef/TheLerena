@@ -87,9 +87,10 @@
    "dona-carolina-amalia-de-la-concepcion",
    "nicolas-benteno",
    "juliana-josefa-cornejo",
-   "domingo-rodriguez-de-carvallo"
+   "domingo-rodriguez-de-carvallo",
+   "maria-mercedes"
   ],
-  "count": 85
+  "count": 86
  },
  {
   "slug": "buenos-aires-arrivals",
@@ -298,6 +299,28 @@
   "count": 4
  },
  {
+  "slug": "canelones",
+  "name": "Canelones",
+  "people": [
+   "jose",
+   "joseph-ponteceli",
+   "agueda-rivero",
+   "jose-loreto-lerena-fernandez"
+  ],
+  "count": 4
+ },
+ {
+  "slug": "montevideo-calle-san-juan-no-60",
+  "name": "Montevideo, calle San Juan No 60",
+  "people": [
+   "juan-agustin-lerena-fernandez",
+   "agustina-lerena-fernandez",
+   "fidel-lerena-fernandez",
+   "juana"
+  ],
+  "count": 4
+ },
+ {
   "slug": "south-africa",
   "name": "South Africa",
   "people": [
@@ -324,26 +347,6 @@
    "julian-martinez",
    "carlos-martinez-lerena",
    "julian-martinez-lerena"
-  ],
-  "count": 3
- },
- {
-  "slug": "canelones",
-  "name": "Canelones",
-  "people": [
-   "jose",
-   "joseph-ponteceli",
-   "agueda-rivero"
-  ],
-  "count": 3
- },
- {
-  "slug": "montevideo-calle-san-juan-no-60",
-  "name": "Montevideo, calle San Juan No 60",
-  "people": [
-   "juan-agustin-lerena-fernandez",
-   "agustina-lerena-fernandez",
-   "fidel-lerena-fernandez"
   ],
   "count": 3
  },
