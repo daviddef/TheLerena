@@ -6,6 +6,17 @@ import taylorLine from "../data/taylor-line.json";
 /* GENERATED FROM data/taylor-line.tsv, not typed here. Until 14 September 2026 this was a
    hardcoded array duplicating that file - and when the TSV gained five husbands' names, the
    page went on saying "m. Dalling". A page and its data must not be able to drift. */
+/* PROVENANCE, derived from each person's own source field so it cannot drift:
+   a REGISTER node rests on a parish register or a census read here; a TREE node still
+   rests only on MyHeritage. On 14 September 2026 most of generation C crossed over. */
+const via = (r) => {
+  const src = String(r.source || "");
+  if (/MARY SEPTIMA/.test(r.person)) return "line";
+  return /Parish Register|Census|banns/i.test(src) ? "register" : "tree";
+};
+const dates = (r) => [r.born, r.died].filter(Boolean).join(" \u2013 ").replace(/\s*\u2013\s*$/, "");
+const short = (r) => r.person.replace(/\s*Taylor\s*$/i, "").trim() || r.person;
+const tier = (g) => taylorLine.filter((r) => r.gen === g);
 const gen = (r) => r.gen === "C";
 const kids = taylorLine.filter(gen).map((r) => {
   const who = r.person.replace(/\s*Taylor\s*$/i, "").trim();
@@ -64,6 +75,7 @@ const kids = taylorLine.filter(gen).map((r) => {
     renamed without appearing here.</p>
   <div class="prose" style="margin-top:14px">
     <ol class="cols2">
+      <li><a href="#s-the-chart">The Taylor chart</a></li>
       <li><a href="#s-the-name-is-a-count">The name is a count</a></li>
       <li><a href="#s-the-line-behind-her">The line behind her</a></li>
       <li><a href="#s-northam-and-bideford-north-devon">Northam and Bideford, north Devon</a></li>
@@ -426,6 +438,46 @@ const kids = taylorLine.filter(gen).map((r) => {
     will have sailed for the Cape many times in those years. Two records fitting a window is not proof.
     <strong>The original manifests would show the forename</strong> — the index does not carry it, but the
     page usually does. Both references are given above.</p>
+</section>
+
+<section class="blk">
+  <h2 id="s-the-chart">The Taylor chart</h2>
+  <p class="dek">Three generations, drawn for the first time. <strong>Every node says how the
+    relationship is known</strong> &mdash; and the colour of the left edge is the whole story of what
+    changed on 14 September 2026.</p>
+  <figure class="ptree">
+    {["A", "B", "C"].map((g) => (
+      <div class="tier">
+        <div class="lab">{g === "A" ? "Generation A \u00b7 born in the 1790s" :
+                          g === "B" ? "Generation B \u00b7 Bideford and Northam \u00b7 two brothers, both William" :
+                                      "Generation C \u00b7 the ten children"}</div>
+        <div class="row">
+          {tier(g).map((r) => (
+            <div class={"node via-" + via(r) + (/MARY SEPTIMA/.test(r.person) ? " me" : "") +
+                        (g === "C" ? " small" : "")}>
+              <span class="nm">{short(r)}</span>
+              <span class="dt">{dates(r)}</span>
+              {r.spouse && <span class="mar">{plain(r.spouse).split(",")[0]}</span>}
+              <span class={"via" + (via(r) === "register" ? " gen" : "")}>
+                {via(r) === "line" ? "the line" : via(r) === "register" ? "register" : "tree only"}
+              </span>
+            </div>
+          ))}
+        </div>
+        {g !== "C" && <div class="drop" />}
+      </div>
+    ))}
+    <figcaption>
+      <span class="key"><span class="sw line" /> the line into the Lerenas</span>
+      <span class="key"><span class="sw" /> on a parish register or a census read here</span>
+      <span class="key"><span class="sw tree" /> still resting on a tree alone</span>
+      <p class="warn"><strong>Read the left edges.</strong> Yesterday almost every node in generation C
+        was dotted. Today the two that remain are <em>the twin whose name nobody wrote down</em> and
+        <em>the infant William who died at eight months</em> &mdash; and generation A, where James Taylor
+        and Harriet Reynolds are still only a tree&rsquo;s assertion. <strong>That is the honest state of
+        this family: documented in the middle, and hearsay at the top and at the edges.</strong></p>
+    </figcaption>
+  </figure>
 </section>
 
 <section class="blk">

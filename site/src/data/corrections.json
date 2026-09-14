@@ -327,5 +327,12 @@
   "what_was_said": "That Horace A Taylor married \"(? Mary Jane Bridge)\" - carried from a MyHeritage tree, hedged with the archive's own question mark",
   "what_is_true": "*** HE IS HORACE ARCHIBALD TAYLOR and she is MARY JANE MARSHALL. *** Banns called at Northam, Devon, on 17 December 1893, when he was twenty-one - the earliest marriage of the ten siblings. The tree had the forenames right and the surname wrong, and the archive's question mark was warranted.",
   "how_it_was_caught": "Searching the Devon parish registers instead of trusting the tree. *** The same pass named five brothers-in-law this archive had recorded only as bare surnames - \"m. Dalling\", \"m. Bell\", \"m. Burton\", \"m. Sweet\", \"m. Wood\" - and it took under an hour. ***"
+ },
+ {
+  "date": "2026-09-14",
+  "severity": "minor",
+  "what_was_said": "That the infant William Taylor (29 Dec 1824 - 10 Sep 1825) belonged to GENERATION A, alongside his own father James",
+  "what_is_true": "*** HE IS GENERATION B - James's son, and the elder brother of the William born in February 1826 who was named after him. *** The error had sat in data/taylor-line.tsv since the file was written.",
+  "how_it_was_caught": "*** DRAWING THE CHART. *** Nobody had noticed in a fortnight of reading the file as a table, because a table does not care which row is which generation. The moment the same data was rendered as a tree, a dead infant appeared standing beside his father as though he were an uncle. A second way of looking at the same data is a test of it."
  }
 ]
