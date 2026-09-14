@@ -189,6 +189,56 @@ for parent, group in cited.items():
                 soft.append(f"{a['name']} (b.{a['born']}) and {b['name']} (b.{b['born']}) are both "
                             f"recorded as children of '{parent}' but are only {gap} months apart")
 
+# 2d. A FOURTH key: who a person is said to have MARRIED.
+# Checks 2, 2b and 2c all ask "are these two people siblings". None of them can see the other
+# structural fact the prose carries in quantity: 57 of 268 rows say who somebody married, as
+# "m. X", "married X", "c.c. X", "esposa de X" or "viuda de X".
+#
+# Two DIFFERENT rows naming the SAME spouse is either an ordinary remarriage - Luis Lerena had
+# two wives and both are here - or the same man entered twice under two spellings of a surname
+# that this archive has documented in seven forms. The second is a real error this archive has
+# actually made: "Dona Sixta LENGUAS" and "Dona Sixta LENGUAS Gonzalez" were one woman on two
+# rows, written hours apart. So this reports, and does not fail the build.
+SPOUSE = (r"\bm\.\s+([A-Z].{3,50})", r"\bmarried\s+(?:to\s+)?([A-Z].{3,50})",
+          r"\bc\.c\.\s*([A-Z].{3,50})", r"\besposa de\s+([A-Z].{3,50})",
+          r"\bviuda de\s+([A-Z].{3,50})", r"\bwife of\s+([A-Z].{3,50})",
+          r"\bwidow of\s+([A-Z].{3,50})")
+# A row's prose routinely mentions OTHER people's marriages, and an unrestricted match reports
+# them as the subject's own. Measured on 14 September 2026: four findings, of which three were
+# that mistake. The subject's own marriage is stated FIRST - the two real ones sat at offset 0,
+# the three false ones at 163, 291 and 385 - so only the opening of the NOTE counts.
+SPOUSE_WINDOW = 120
+spouses = collections.defaultdict(list)
+for p in people:
+    blob = str(p.get("note") or "")[:SPOUSE_WINDOW]
+    own = set(_fold(p["name"]).lower().replace("(", " ").replace(")", " ").split())
+    for pat in SPOUSE:
+        for m in re.finditer(pat, blob):
+            head = namehead(m.group(1))
+            if len(head.split()) < 2:
+                continue
+            # "m. X" on X's OWN row names the other party, not themselves.
+            if len([t for t in head.split() if t in own and t not in PARTICLE]) >= 2:
+                continue
+            spouses[head].append(p["name"])
+# Adjudicated cases. A soft warning that fires on every build for a question already answered is
+# a warning nobody reads - the same reason drift.py keeps a PUBLISHED list. An entry here is a
+# CLAIM THAT SOMEBODY CHECKED, so it carries the answer and the date.
+SPOUSE_SETTLED = {
+    "carlos lerena": "14 Sep 2026 - two different men, and both rows now say so. Adela Camiglia's "
+                     "Carlos is at MENDOZA and fathered Avelino Carlos Lerena; Rosa Maria Eppens's "
+                     "is the Uruguayan b.1885 who arrived in 1926 travelling with her.",
+}
+for spouse, names in spouses.items():
+    uniq = sorted(set(names))
+    if len(uniq) < 2:
+        continue
+    if spouse in SPOUSE_SETTLED:
+        continue
+    soft.append(f"{len(uniq)} rows are each said to have married '{spouse}': "
+                + "; ".join(uniq[:4])
+                + " - a remarriage, or one person entered twice under two spellings")
+
 # 3. Two rows that are probably one person.
 # build-people.py refuses EXACT duplicate names, which is why they never happen. It does not
 # see "Dona Sixta LENGUAS (2nd wife of Candido Juanico)" and "Dona Sixta LENGUAS Gonzalez
