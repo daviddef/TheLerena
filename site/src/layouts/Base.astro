@@ -16,6 +16,18 @@ import ring from "@daviddef/archive-kit/data/archives.json";
 const v = versioner();
 const { title, description = "", dek, eyebrow, bare, noindex } = Astro.props;
 const SITE = "The Lerena Archive";
+/* No "The families" group here, and that is a decision rather than an oversight.
+
+   Six of the seven archives carry one, holding between four and thirteen pages
+   about the families that married in or the branches of the surname. This
+   archive has exactly one such page — the Taylors — and a menu group of one
+   implies a section that does not exist, which is the same reason the canon
+   gives the surname its own group only where there is more than one page for
+   it.
+
+   The Taylors stay under Our line, where they belong: this family married into
+   that one. If a second and third family page are ever written, the group goes
+   in and this comment comes out. */
 const nav = [
   ["Start", [["/", "Home"], ["/trees/", "The trees"], ["/tree", "Our line, drawn"], ["/atlas/", "The Atlas"], ["/timeline/", "The Timeline"], ["/dna/", "The DNA"]]],
   ["Our line", [["/direct-line/", "The Spine"], ["/taylor/", "The Taylors"], ["/estate/", "The Estate"], ["/passport/", "The Passport"], ["/enrolment-card/", "The Card"], ["/name/", "The Name"]]],
