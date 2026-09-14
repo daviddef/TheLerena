@@ -212,8 +212,8 @@
  {
   "what": "Read SANTA ROSA DE LIMA, Confirmaciones 1890-1897 - the second Rosario parish",
   "who": "me",
-  "status": "ready",
-  "detail": "*** DGS 004581639, 141 images (1-5 are covers). READ AND CLEAN, NO LERENA under any of seven spellings: 6-21, 23-58, 60-63, 66 - FIFTY-SEVEN IMAGES. *** NOT READ (empty transcript, retried): *** 22, 59, 64, 65, 67, 68, 69. *** NEVER ATTEMPTED: 70-141. *** THE RATE LIMIT HARDENED THROUGH THE DAY: four images per batch held this morning; by evening it was ONE TO TWO per batch even with thirty-second gaps, and image 22 has now failed three times. Finishing from here is 79 images at that rate. *** THE CHEAP FIX IS TIME, NOT TECHNIQUE: resume on a later day when the quota has reset. *** RESUME LOOP: /search/film/004581639?i=N, take the ark from the page title, open /ark:/61903/<ark>?view=fullText, wait, read. A page counts as read ONLY if its transcript is non-empty. The register's index page says PAGES MISSING, so any final null is qualified by that. ***",
+  "status": "done",
+  "detail": "*** DONE - THE WHOLE FILM, 14 September 2026. *** DGS 004581639, 141 images. *** Every image from 6 to 141 read with a non-empty transcript (2,111-3,629 characters each), searched for seven spellings. *** *** PABLO ARMANDO IS NOT IN IT. *** Both of Rosario's confirmation registers covering his childhood are now read to the end - the Catedral and this one - and he is in neither. *** ONE hit in the whole register: *** image 131, \"Dona ANDUGARA GERENA\" as a mother. Not him, and on a page whose transcription also produced \"Jose Mala\", \"Hurbacero\" and \"Perero\" as a child's name. *** Left as a candidate needing the image at magnification, not as a find. *** *** METHOD NOTE THAT MATTERED: *** images 86-89 returned len=0 in one batch and were logged NOT READ; image 86 re-read after a pause gave 2,970 characters, proving the zeros were the throttle. Image 22, failed three times across two days, read clean at 3,451. *** Eleven pages would have been silently certified as empty if a zero had ever been allowed to count as a read. *** See data/santa-rosa-confirmations-complete.tsv.",
   "sent_on": ""
  },
  {
