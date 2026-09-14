@@ -25,7 +25,7 @@ Each check compares something the DATA knows against something the PAGES claim.
 Findings print; nothing here fails the build, because drift is a judgement call and a
 check that cries wolf is a check nobody reads.
 """
-import json, re, sys, pathlib, unicodedata
+import html, json, re, sys, pathlib, unicodedata
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 PAGES = ROOT / "site" / "src" / "pages"
@@ -33,7 +33,15 @@ DATA = ROOT / "data"
 NOTES = ROOT / "notes"
 
 def norm(t):
-    """Compare on letters alone - case, accents and curly quotes are not drift."""
+    """Compare on letters alone - case, accents and curly quotes are not drift.
+
+    HTML ENTITIES ARE DECODED FIRST, and that is not cosmetic. The pages write Spanish the way
+    Astro wants it - padr&oacute;n, Canel&oacute;n, Fern&aacute;ndez - so without this every
+    accented word in the archive normalised to "padr oacute n" and could never match a register
+    note that spells it padron. On 14 September 2026 three findings about the 1812 padron were
+    reported as unpublished while a page published all three, for exactly this reason.
+    """
+    t = html.unescape(str(t))
     t = unicodedata.normalize("NFD", str(t))
     t = "".join(c for c in t if unicodedata.category(c) != "Mn")
     return re.sub(r"[^a-z0-9]+", " ", t.lower())
@@ -83,6 +91,17 @@ PUBLISHED = {
         "'assembled', which the page has no reason to use",
     "Carlos LERENA Salvanach (b.1884, son of Gilberto)":
         "the Cordon baptism parish is named on /horses/ inside his father's household table",
+    # Sancho's three newly-entered children share one claim, and /hypotheses/ publishes it in full -
+    # the calle San Juan household, the six children "naturales del Canelon", Rodrigo Fernandez and
+    # the four enslaved people, plus the Juan Agustin / Agustina correction. The matcher wants the
+    # token "listed" and the page says "lists". Checked on 14 September 2026 by reading the page.
+    "Juan Agustin LERENA Fernandez":
+        "the 1812 padron household is published at /hypotheses/, with his age of 21 used to withdraw "
+        "this archive's own objection to reading the 1812 godparents as Lerena",
+    "Agustina LERENA Fernandez":
+        "published at /hypotheses/ in the same padron household, as the Agustina of the 1812 font",
+    "Fidel LERENA Fernandez":
+        "published at /hypotheses/ in the same padron household, aged 12 in 1812",
     "Roseline Wilhelmina FORBES (m.1 Chappell, m.2 LERENA)":
         "published in full at /direct-line/ - 'So Chappell was her married name, not her maiden name. "
         "She was a Forbes.', with the 1920 Woodstock marriage behind it. The matcher trips on the word "
