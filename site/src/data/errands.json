@@ -264,5 +264,12 @@
   "status": "done",
   "detail": "*** DONE, 14 September 2026 - and the volume ends at 145, not 148. *** *** Images 81-145 read, every transcript non-empty; images 5-80 were read earlier in the month, so the whole of Confirmation Records 1883-1904 is now read end to end and holds NO LERENA. *** *** Images 146-148 are NOT part of the volume: *** they carry no ark and their title is the bare 'Registros parroquiales, - Film # 004531018'. *** The film holds 421 images across several volumes; image 200 is Confirmation Records 1904-1918, when Pablo Armando was 22-36 and already in South Africa - identified and ruled out of scope, not left unread. *** *** One hit, image 143: SERENA - read in context it is a girl's forename in a column of forenames, not the surname. *** See data/rosario-catedral-confirmations-complete.tsv.",
   "sent_on": "-"
+ },
+ {
+  "what": "*** Sign in to FamilySearch again - the session expired mid-session ***",
+  "who": "David",
+  "status": "waiting-on-david",
+  "detail": "*** FAMILYSEARCH NOW REQUIRES A LOGIN AND THIS SESSION'S HAS EXPIRED. *** Every request - including full-text searches that worked minutes earlier - redirects to ident.familysearch.org. *** This assistant does not sign in to accounts, so the work below is stopped until you do it. *** *** WHAT IS WAITING, all of it located and none of it read: *** *** (1) The Canelones marriage act itself *** - the index entry \"Llerena Sancho con Maria Fernandez, 1791\" is at DGS 8166578 image 2531 (Letra L, Libro I); the act is in Matrimonios Libro I on the same reel, which opens at image 2590 with the year 1776. *** (2) The LIBROS CASTRENSES, DGS 7713373 *** - \"Bautismos, matrimonios y defunciones, 1781-1814 (del Regimiento de Infanteria de Buenos Ayres)\", the regiment whose chaplain baptised Sancho's son at Canelones in 1793. *** (3) The Montevideo index 1726-1800, DGS 7713386 *** - item on a reel of 3,260 images; image 2000 was sampled and is a register, not the index, so the index lies elsewhere on that reel. *** (4) A Montevideo marriage of FIDEL LERENA to MARIA RUEDAS *** - the cheap test on the new Montevideo branch found today. *** The tile-reading technique that made all of this possible is written up in data/canelones-films.tsv and needs the same login. ***",
+  "sent_on": "-"
  }
 ]
