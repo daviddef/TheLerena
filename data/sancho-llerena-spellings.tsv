@@ -26,3 +26,29 @@ year	name_as_indexed
 #
 # NOTE the 1828 form: "Sancho DE Llerena" - the toponymic construction, "of Llerena", which is
 # how the Badajoz town-name behaves as a surname. It is the strongest single form in the list.
+#
+# ================ *** A FALSE-POSITIVE TRAP, FOUND 14 September 2026 *** ================
+#
+# A full-text search for the exact phrase "SANCHO LLERENA" returns FOUR PAGES of results. Page one is
+# this family, in Uruguay. *** PAGES TWO TO FOUR ARE ALMOST ENTIRELY SPANISH NOBILITY PROOFS, NOTARIAL
+# BOOKS AND MILITARY RECORDS - and not one of them contains a man called Sancho Llerena. ***
+#
+# One was opened to check: Alcantara, Caceres, Extremadura, Military Records 1599, ark
+# 3:1:3Q9M-CSLC-7CX8 - a proof of nobility for the Order of Alcantara. The transcript reads:
+#     "...sin tener mesada, ni taca alguna de judios, moros, ni herejes, ni penitenciados por el
+#      *** SANCHO , OFICIO *** ... es familiar del *** SANCHO , OFICIO LLERENA ***"
+#
+# *** IT IS "SANTO OFICIO ... LLERENA" - THE INQUISITION TRIBUNAL SEATED AT LLERENA, BADAJOZ. *** The
+# man is a FAMILIAR DEL SANTO OFICIO de Llerena. The machine reads "Santo Oficio" as "Sancho, oficio"
+# and the phrase search then matches "Sancho ... Llerena" across the two words.
+#
+# *** WHY THIS MATTERS ENOUGH TO WRITE DOWN. *** The Inquisition had a tribunal at Llerena for three
+# centuries, so the words "Santo Oficio" and "Llerena" sit next to each other in THOUSANDS of Spanish
+# documents. *** Any search for this family in Spain will drown in them, *** and this archive was one
+# step from recording "Sancho is an attested forename in Spanish Llerena families" - which would have
+# been false, and would have been quietly used to argue against FRANCISCO.
+#
+# *** THE SPANISH ORIGIN QUESTION IS THEREFORE UNTOUCHED BY ANY OF THIS. *** The census still says
+# "Andaluzia"; CORDOBA still comes only from a tree; and the surname's home town of Llerena is in
+# EXTREMADURA, not Andalusia - which is a real tension this archive has not resolved and must not
+# pretend it has. See the "Basque or Extremaduran?" question on /open-questions/.

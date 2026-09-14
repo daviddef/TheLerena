@@ -166,6 +166,20 @@ for p in people:
 with_parent = sum(1 for p in people if p.get("father") or p.get("mother"))
 with_cohort = sum(1 for p in people if compound(p["name"]))
 with_born = sum(1 for p in people if full(p.get("born")))
+# 6. An UNPAIRED emphasis marker in the TSVs themselves.
+# check-links.py already catches these, but only AFTER a build, by reading rendered HTML - and by then
+# the literal *** is on a published page. On 14 September 2026 the same slip was made three times in
+# one session, always the same way: writing "*** A *** B ***" while meaning "*** A *** *** B ***".
+# Catching it in the data costs nothing and catches it before the page exists.
+for tsv in sorted((ROOT / "data").glob("*.tsv")):
+    for ln, line in enumerate(tsv.read_text(encoding="utf-8").splitlines(), 1):
+        if line.startswith("#") or "\t" not in line:
+            continue
+        for col, field in enumerate(line.split("\t")):
+            if field.count("***") % 2:
+                hard.append(f"{tsv.name}:{ln} field {col} has an ODD number of *** markers - "
+                            f"one is unpaired and will render literally")
+
 print(f"{len(people)} people checked")
 print(f"   sibling gaps: {with_parent} have a structured parent, {with_cohort} reachable by compound "
       f"surname; {with_born} carry a full birth date")
