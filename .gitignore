@@ -1,6 +1,7 @@
-node_modules/
-dist/
-.DS_Store
 *.log
-.env
+.DS_Store
 .astro/
+.env
+dist/
+node_modules/
+site/public/atlas-data.json
