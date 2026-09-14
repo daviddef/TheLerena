@@ -1,0 +1,32 @@
+# *** SEARCHING BY THE PARENTS INSTEAD OF BY THE NAME - and the false null that nearly got recorded ***
+# 14 September 2026.
+#
+# The method that completed Sancho's generation was turned on the central question the same hour.
+# It found nothing, and the way it found nothing is worth more than the result.
+what	the query	result	what it means
+*** THE METHOD ***	FamilySearch records search on q.fatherGivenName + q.fatherSurname + q.motherGivenName + q.motherSurname, instead of on the subject's own surname	*** WORKS. *** Father Sancho Lerena + mother Maria Fernandez, Uruguay, returns 5 records covering FOUR CHILDREN - Dominga Josefa, Avelino, Justa Pastora and a second Dominga	A family indexed under eight spellings is not reliably reachable by its name. It IS reachable through the people standing next to it, whose names are spelled ordinarily.
+*** THE CENTRAL QUESTION, ARGENTINA ***	father "Juan Carlos" + surname Lerena, recordCountry Argentina	*** 210 results, and the ONLY Juan Carlos Lerena among them is PABLO ARMANDO'S OWN ENROLMENT CARD. *** Everything else is a Juan, a Juan Jose, a Juan Antonio, a Carlos, or an unrelated Llorens/Lorena	*** THE CENTRAL NULL SURVIVES THE BEST METHOD THIS ARCHIVE HAS. *** Juan Carlos Lerena exists in exactly one record on earth: the card his son filled in at Cape Town in 1908.
+*** THE CENTRAL QUESTION, URUGUAY ***	given name "Juan Carlos" + surname Lerena, recordCountry Uruguay	822 results. ONE is a Juan Carlos Lerena recorded as a FATHER - wife Gabriela Caraballo, daughter Lerena Caraballo. *** OPENED, AND RULED OUT: an infant death registered at Montevideo on 21 FEBRUARY 1983. *** A century too late	Checked rather than assumed, because a Juan Carlos Lerena with a child is the exact shape being hunted and the index showed no dates.
+*** AN OBSERVATION WORTH KEEPING ***	the same 822 Uruguayan results, read for their shape	*** Nearly every Juan Carlos Lerena in Uruguay carries LERENA AS THE SECOND SURNAME *** - Gonzalez Lerena, Carvalho Lerena, del Campo Lerena, Reyes Lerena, Benitez Lorena	By 1900 in Uruguay, Lerena is largely a MATERNAL surname inside compounds. Which is one more reason a surname-first search under-reads this family, and an argument for the compound sweep this archive still owes.
+#
+# ================ *** THE FALSE NULL. READ THIS BEFORE TRUSTING ANY ZERO. *** ================
+#
+# The first three of those searches were read as *** ZERO RESULTS *** and were about to be written
+# into the archive as nulls. They were not zero. FamilySearch's results page *** RENDERS THE STRING
+# "Historical Record Search Results (0)" WHILE THE QUERY IS STILL RUNNING *** - a fully formed,
+# confident-looking page that is indistinguishable from a real empty result.
+#
+# *** IT WAS CAUGHT ONLY BY RUNNING A CONTROL. *** The same query shape on Sancho Lerena - a man this
+# archive had pulled five records for twenty minutes earlier - also returned "(0)". Since that answer
+# was known to be wrong, the QUERY FORM was suspect rather than the name. Waiting longer returned the
+# five records, and then 210, and then 822.
+#
+# *** THIS IS THE SAME CLASS OF FAILURE AS THE ZERO-LENGTH BODY *** recorded in
+# data/familysearch-availability.tsv: the service failing in a way that looks like an answer. It is
+# more dangerous than an outage, because an outage announces itself.
+#
+# *** THE RULE THIS ARCHIVE NOW WORKS TO: A NULL IS NOT A FINDING UNTIL A CONTROL QUERY RETURNS A
+# KNOWN RESULT IN THE SAME SESSION, IN THE SAME FORM. *** The archive already learned this once, the
+# hard way, over the 1895 census - it read "de L." as a husband's surname and had no control case.
+# It cost a retraction. This is the same lesson arriving from a different direction, and the second
+# time it arrived it was cheap.

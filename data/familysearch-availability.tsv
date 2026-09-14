@@ -33,3 +33,4 @@ Film viewer (/search/film/<DGS>?i=N)	Failed for one film on 13 September (no til
 #     transcription of the whole document into the DOM, so it can be searched directly for a name
 #     rather than read off tiles. That is how the 1831 Cordon act was found and read in one step.
 
+14 Sep 2026	Records search	*** THE QUIET FAILURE, SECOND VARIETY: a rendered "(0)" that is not a zero. *** The results page composes and displays "Historical Record Search Results (0)" WHILE THE QUERY IS STILL RUNNING. It is visually and textually identical to a true empty result. Three searches were read as nulls and were within a minute of being written into the archive. *** Caught by a control query whose answer was already known. *** Results arrived 7-18 seconds after the "(0)" was on screen.	Do not read a result count until a control query in the same form has returned a known non-zero answer in the same session.

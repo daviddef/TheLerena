@@ -607,5 +607,12 @@
   "accessed": "14 Sep 2026",
   "tier": "SECONDARY - indexes read, images not yet opened",
   "link": ""
+ },
+ {
+  "source": "FamilySearch records search - JUAN CARLOS LERENA, by the parent-pair method, Argentina and Uruguay",
+  "used_for": "*** THE CENTRAL NULL SURVIVES THE BEST METHOD THIS ARCHIVE HAS. *** Argentina, father \"Juan Carlos\" + Lerena: 210 results, and the only Juan Carlos Lerena among them is PABLO ARMANDO'S OWN ENROLMENT CARD. Uruguay, as a person: 822 results, of which ONE is a Juan Carlos Lerena recorded as a father - *** opened and ruled out, an infant death registered 21 February 1983. *** Also observed: nearly every Juan Carlos Lerena in Uruguay carries LERENA AS A SECOND, MATERNAL SURNAME - Gonzalez Lerena, Carvalho Lerena, del Campo Lerena, Reyes Lerena. *** AND A FAILURE MODE FOUND: FamilySearch renders \"Historical Record Search Results (0)\" WHILE THE QUERY IS STILL RUNNING. *** Three false nulls were caught only by a control query on Sancho, which also returned zero and was known to be wrong. See data/parent-pair-search-method.tsv.",
+  "accessed": "14 Sep 2026",
+  "tier": "SECONDARY - a negative result, controlled",
+  "link": ""
  }
 ]
