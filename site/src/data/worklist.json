@@ -30,11 +30,11 @@
   },
   {
    "n": 4,
-   "what": "Open two collections found in that sweep and never looked at",
-   "state": "next",
+   "what": "Open two collections found in that sweep — both opened",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Montevideo, Catedral de la Inmaculada Concepción — Baptism Records 1825–1828**, and **Nuestra Señora del Carmen, Cordón — Religious Marriage Records 1825–1916**. Both surfaced under «Sancho Llerena» and neither has been opened. The Cordón marriage register spans the generation this archive is weakest on."
+   "note": "**Both opened.** *Montevideo Catedral, Baptism Records 1825–1828* at **dgs:007713376 images 515 and 601** — Francisco Juan Ramón (22 March 1826) and Lucinda Gregoria del Corazón de Jesús (12 May 1827), both grandchildren of Sancho through Dominga. *Cordón, Religious Marriage Records 1825–1916* at **dgs:007713391 image 1669** — Justa Pastora's marriage of 3 November 1830. **All three acts turned out to be already held**, which is what made the parent-pair query a coverage check rather than a discovery."
   },
   {
    "n": 5,
@@ -46,11 +46,11 @@
   },
   {
    "n": 6,
-   "what": "Settle the Sánchez question, because it cuts against this archive's own argument",
-   "state": "next",
+   "what": "Settle the Sánchez question — settled, against this session's own objection",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "Is the «Manuel Sánchez, Sargento de dicho Regimiento» of the castrense book — 30 January 1791, DGS 7713373 image 660 — the same man as the «Juan Manuel Sánchez, natural del Reino de Andalucía» of the Canelones informaciones, marrying that March? **If yes, a soldier of that regiment did go through the Canelones vicaría and did leave an información there**, and this archive's suggestion that military jurisdiction explains Sancho's absence from that series collapses. The castrense entry's birthplace runs off the page edge — re-read image 660 at the right-hand margin first. Stated on [hypotheses](/hypotheses/) as telling against the reading this archive would prefer."
+   "note": "**Read at magnification: the castrense man is *\"Manuel Sánchez, Sargento de 1ª Clase del Regimiento, natural de la Ciudad de Córdova\"*.** The Canelones petitioner is *\"natural del Reino de Andalucía\"*. **They do not match.** A man from the Andalusian city would be called *of Andalucía* — what the Canelones clerk writes, and what Sancho's own act means by *Córdova la Llana* — while an unqualified *la Ciudad de Córdova* in a Montevideo register most naturally means **Córdoba del Tucumán**, named in full a few leaves earlier in the same book. **So the objection this session raised against its own argument is withdrawn**, with the caveat that removing a counter-example is not producing evidence."
   },
   {
    "n": 7,
@@ -250,7 +250,7 @@
    "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**The row assumed eleven errands sat on David. They did not — all eleven were already owned by *me*, this archive.** That is the third time today this session asserted something about its own files without checking them. **But it exposed a real fault underneath**: by the estate's own division — *errands.tsv is work for a person, the work list is work for a session* — eleven rows of the archive's own machine work were sitting in the wrong register. **All eleven migrated**: closed in `errands.tsv` with their detail kept verbatim, and seven new work-list rows opened for the ones that had no counterpart. What remains in errands is what it should be — institutions written to, and four things genuinely waiting on David."
+   "note": "**The row assumed eleven errands sat on David. They did not — all eleven were already owned by *me*, this archive.** That is the third time today this session asserted something about its own files without checking them. **But it exposed a real fault underneath**: by the estate's own division — *errands.tsv is work for a person, the work list is work for a session* — eleven rows of the archive's own machine work were sitting in the wrong register. **All eleven migrated**: closed in `errands.tsv` with their detail kept verbatim, and seven new work-list rows opened for the ones that had no counterpart. What remains in errands is what it should be — institutions written to, and four things genuinely waiting on David. **Postscript: the migration was too blunt and `drift.py` refused it.** Setting all eleven to *done* claimed work was finished because its index entry had moved — and one of them says in its own detail that the register **has never been turned**. All eleven are back at *ready*, each now carrying a pointer to the work list, which is where their state is maintained. **The checker was right and the migration was wrong.**"
   },
   {
    "n": 32,
