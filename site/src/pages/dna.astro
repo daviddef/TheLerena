@@ -302,12 +302,28 @@ const em = (t) => t.replace(/\*\*\* (.+?) \*\*\*/g, "<strong>$1</strong>");
       name two Italian grandparents, and <strong>one of whom names all four</strong>.</p>
   </div>
   <div class="prose">
-    <p>The MyHeritage side says the same thing in its own way. Of the
-      {corpus.corpus.harvested_here.toLocaleString()} matches read, <strong>three live in South
-      America</strong> &mdash; one Uruguayan and two Brazilians, the Brazilians both under 17 cM and
-      below anything this archive acts on. Against them: {corpus.countries_of_residence["United Kingdom"].toLocaleString()} in
-      the United Kingdom, {corpus.countries_of_residence.USA.toLocaleString()} in the United States and
-      {corpus.countries_of_residence["South Africa"]} in South Africa.</p>
+    <p>The MyHeritage side says the same thing, and says it over the whole corpus rather than a sample.
+      MyHeritage publishes its own count of where all <strong>{corpus.corpus.total_matches.toLocaleString()}</strong> of
+      her matches live. <strong>Sixty-two countries are named</strong> &mdash; down to a single match
+      each in Vietnam, Saint Lucia and the Cayman Islands.</p>
+    <div class="grid g2" style="margin:20px 0">
+      <div class="panel" style="border-left:3px solid var(--ochre,#8a7f5c)">
+        <div class="nm">{corpus.countries_of_residence.the_ones_that_matter_here.Argentina}</div>
+        <div class="txt"><strong>Argentina.</strong> It is not on the list at all.</div></div>
+      <div class="panel"><div class="nm">{corpus.countries_of_residence.the_ones_that_matter_here.Uruguay}</div>
+        <div class="txt"><strong>Uruguay</strong> &mdash; and those three are the one family read above.
+          All three of their kits.</div></div>
+    </div>
+    <p>Against that: {corpus.countries_of_residence.top.USA.toLocaleString()} in the United States,
+      {corpus.countries_of_residence.top["United Kingdom"].toLocaleString()} in the United Kingdom,
+      {corpus.countries_of_residence.top["South Africa"].toLocaleString()} in South Africa,
+      {corpus.countries_of_residence.top.Australia} in Australia,
+      {corpus.countries_of_residence.top.Netherlands} in the Netherlands.</p>
+    <p class="cap">Spain shows {corpus.countries_of_residence.the_ones_that_matter_here.Spain} and
+      Portugal {corpus.countries_of_residence.the_ones_that_matter_here.Portugal}, which looks like an
+      Iberian signal and is not one. <strong>Read the names and they are van Heerden, Retief, Vorster,
+      de Vos, Deetlefs, Hanekom</strong> &mdash; South Africans who retired to the Algarve. Country of
+      residence is a trap, and this is what it looks like.</p>
     <p>And MyHeritage has computed a documented relationship path &mdash; a Theory of Family Relativity
       &mdash; for <strong>{corpus.relationship_theories.count}</strong> of her matches.
       <strong>Every one of the ten largest resolves to the Cape</strong>: Booyzen, Barry, Kolbe, Kruger,

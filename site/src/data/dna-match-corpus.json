@@ -13,15 +13,25 @@
  },
  "thresholds": { "over_30_cM": 1017, "over_50_cM": 138, "over_100_cM": 8 },
  "countries_of_residence": {
-  "not stated": 1253, "United Kingdom": 1052, "USA": 1029, "South Africa": 826,
-  "Australia": 487, "New Zealand": 288, "Netherlands": 267, "Ireland": 156,
-  "Germany": 152, "Canada": 128, "Denmark": 77, "Sweden": 74, "France": 48, "Norway": 36
+  "source": "MyHeritage's own Locations panel on the kit overview, read 16 September 2026. This is the WHOLE corpus of 11,581 matches, not the 6,350 harvested here, and it supersedes the sample figures this archive published earlier the same day.",
+  "sixty_two_countries_are_listed": true,
+  "top": {
+   "USA": 2508, "United Kingdom": 1940, "South Africa": 1064, "Australia": 788,
+   "Netherlands": 515, "New Zealand": 420, "Germany": 317, "Ireland": 299,
+   "Canada": 256, "Sweden": 177, "Denmark": 174, "France": 108, "Norway": 93,
+   "Switzerland": 63, "Belgium": 50
+  },
+  "the_ones_that_matter_here": {
+   "Argentina": 0, "Uruguay": 3, "Brazil": 2, "Colombia": 2, "Mexico": 2,
+   "Spain": 38, "Portugal": 25, "Italy": 28
+  },
+  "reading": "ARGENTINA DOES NOT APPEAR ON THE LIST AT ALL. Sixty-two countries are named, down to single matches in Vietnam, Saint Lucia and the Cayman Islands, and Argentina is not among them. Uruguay has exactly three - which is the one family this archive read, all three of their kits. Spain's 38 and Portugal's 25 are almost entirely South Africans living abroad; the Iberian peninsula is where Afrikaners retire, and the names on those matches are van Heerden, Retief, Vorster and de Vos."
  },
  "south_american_residents": [
   {
    "country": "Uruguay", "cm": 21.36, "segments": 2, "largest_cm": 11.31,
    "myheritage_estimate": "5th cousin, medium confidence",
-   "note": "One of three kits of a single family sharing one tree of 112 people."
+   "note": "One of three kits of a single family sharing one tree of 112 people. These three ARE Uruguay's entire count."
   },
   { "country": "Brazil", "cm": 16.66, "segments": 2, "note": "Below the threshold this archive acts on." },
   { "country": "Brazil", "cm": 15.16, "segments": 2, "note": "Below the threshold this archive acts on." }
