@@ -48,6 +48,11 @@ def rows(name):
 # The Taylor page carried its ten siblings as a HARDCODED ARRAY duplicating data/taylor-line.tsv -
 # the exact drift this whole build exists to prevent. On 14 September 2026 the TSV gained five
 # husbands' names and the page went on saying "m. Dalling". Generated from the TSV since.
+# Every column is passed through, which is how the `key` column on errands.tsv
+# reaches errands.json. That key is what the work-list gate counts outstanding
+# errands against, and it has to live in the TSV: keys written into the JSON by
+# hand lasted exactly until the next build, and the gate then reported nothing
+# to count for an archive with twenty outstanding items.
 for name in ("corrections", "errands", "gaps", "timeline", "photograph-these",
              "sources-consulted", "taylor-line"):
     data = rows(name)
