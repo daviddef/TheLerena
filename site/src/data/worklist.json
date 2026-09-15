@@ -375,10 +375,10 @@
   {
    "n": 47,
    "what": "Open Canelones Baptism Records 1776–1794 — a volume nobody here knew existed",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Thrown up by the variant sweeps, and it should go to the front.** This archive has been working from *Baptism Records 1794–1810* and did not know there was an earlier volume. Sancho married in **January 1791**; his son Pedro Antonio was baptised in **August 1793**. Both fall inside this book, and so would any earlier children. It carries a «Sancho Lerena» hit already."
+   "note": "**Opened 15 September 2026.** It is **DGS 8166573, images 72–478** — the same film as the informaciones, in a separate block, and **this archive already held an ark into it** without ever resolving it. Pedro Antonio's baptism is at **image 274** and has now been read from the image rather than a transcript: **\"Pedro Antonio de la SS.ma Trinidad\"**, born 31 July 1793, godparents **Don Antonio Alemán and his wife**. Opening it also disproved this session's own claim that the film held nothing below image 1057 — see [corrections](/corrections/)."
   },
   {
    "n": 48,
@@ -403,6 +403,22 @@
    "owner": "this archive",
    "since": "2026-09-15",
    "note": "The 1951 gazette calls **Robert Paul Lerena a racehorse trainer at Newlands**; a 1986 gazette lists **P. R. Lerena Racing Stables, P.O. Box 425, Randburg** as an employer. Randburg is where **Ricardo Juan Carlos** lived and died, which makes *P. R.* most likely one of his sons — Paul Raymond is the obvious reading of the initials and is **only a reading**. Establish it from documents, and note that this family's racing connection may run to living people, who stay out of this archive."
+  },
+  {
+   "n": 51,
+   "what": "Read the three images the parent-pair query found",
+   "state": "running",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**The immediate next thing, and it is three images.** Searching the phrase **«Llerena y de María Fernández»** finds documents that name both parents — a child's baptism, a child's marriage, or a **grandchild's** baptism. Five are this family, two are read. Unread: **dgs:008166571 image 1130** (Canelones baptisms 1794–1810) and **dgs:007713376 images 515 and 601** (Montevideo Catedral baptisms 1825–1828, almost certainly grandchildren). Each should name a child of Sancho as a parent, which is how the sibling list gets closed."
+  },
+  {
+   "n": 52,
+   "what": "Run the parent-pair query on every couple in the register",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**A method, not a lookup, and it generalises.** Searching two parents as one phrase only matches when a document names both — so it finds children, children's marriages and grandchildren in one query, and it does not drown in the 190,000 results that the surname alone returns. Worth running for **Félix Llerena and Rosalía Aguilar** in Spain, for **Rodrigo and Rosa Fernández** in Asturias, and for every couple in the register where the consistency checker currently reports no reachable siblings."
   }
  ]
 }
