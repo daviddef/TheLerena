@@ -411,5 +411,12 @@
   "what_was_said": "That three images found by the parent-pair query were unread by this archive",
   "what_is_true": "All three were already read and recorded, and in fuller words than the index gives - Dominga Josefa's baptism of 1804 with its godparents, Francisco Juan Ramon of 1826, and Lucinda Gregoria of 1827 with the Capitan, the Mayor and a General as godfather. The claim came from inferring an unread ACT from an unread COLLECTION, which does not follow: the same act reaches this archive under different arks by different routes.",
   "how_it_was_caught": "Caught by grepping the archive for the names before writing them up as new."
+ },
+ {
+  "date": "2026-09-15",
+  "severity": "minor",
+  "what_was_said": "That the 1791 act created 'two Lerena-Aguilar unions in Cordoba' worth reopening the 1754 Granada file for",
+  "what_is_true": "Only the 1754 groom is Cordoban. His bride, Ana Maria de Aguilar, is of La Mala - La Malaha, in GRANADA province - which this archive had already recorded. Our Rosalia Aguilar is of Cordoba. So the convergence is one very common Andalusian surname in two different provinces, not a family. An earlier session had already run the decisive test - a structured search for a son Sancho de Lerena y Aguilar, returning a controlled No Results Found - and was right to close the file.",
+  "how_it_was_caught": "Caught by opening the record and finding the archive already held every field on it, including the bride's birthplace."
  }
 ]
