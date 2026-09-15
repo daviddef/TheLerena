@@ -271,5 +271,12 @@
   "status": "done",
   "detail": "*** CLOSED 15 September 2026. THE ACT HAS BEEN FOUND AND READ. *** DGS 8166578, *** image 2687 ***, Matrimonios Libro I, left page, second act: *** 'En ocho dias del Mes de Enero de 1791 anos... Sancho Llerena, nat. de Cordova la Llana, hijo legitimo de Felix Llerena, y de Rosalia Aguilar, naturales de dicha Cordova... con Maria Fernandez, nat. de las Asturias, hija legitima de Rodrigo Fernandez, y de Ro[sa] Fernandez' ***. Married by Don Juan Francisco Cardoso, Cura Interino; witnesses Antonio Villegas and Jose del Rio; margin 'Casados y Velados'. *** The errand asked you to page the register in your own browser because the viewer would not render for this session. It turned out not to need the viewer at all *** - the tile service takes a film-and-image number directly. Full transcription in data/1791-marriage-act.tsv.",
   "sent_on": "-"
+ },
+ {
+  "what": "*** gendatabase.com - the one record worth paying for ***",
+  "who": "David",
+  "status": "ready",
+  "detail": "*** YOU FOUND THIS SOURCE AND IT IS A GOOD ONE. This archive had never tried it. *** Free summary rows already gave death years for all three sons of the 1950 estate. *** The full records are behind a subscription, and this session does not create accounts or pay for things - so this is yours to decide. *** *** IF YOU BUY ONE THING, BUY THE DEATH NOTICE OF RICARDO JUAN CARLOS LERENA, born 1920, died 1994, married 1941 to Doreen May Chappell. *** A South African death notice names *** the deceased's PARENTS *** - which would put in a modern official document what this archive currently infers: that the Cape Lerenas descend from Pablo Armando. *** Second priority: the five 1999 deaths *** - Catherine Tertia Karon, Gayle, Pierre Frederick, and two children aged 8 and 13. Either something terrible happened in 1999 or the index has a default-year artefact, and a summary row cannot tell you which. See data/gendatabase-sa.tsv.",
+  "sent_on": "-"
  }
 ]

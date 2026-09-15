@@ -810,5 +810,12 @@
   "accessed": "15 Sep 2026",
   "tier": "PRIMARY",
   "link": "https://www.familysearch.org/search/film/008166578?i=2687"
+ },
+ {
+  "source": "gendatabase.com - South African Genealogy Search Engine",
+  "used_for": "*** 38 Lerena records across a Verified Death Database, the National Archives index and an Estate File Database *** - with birth, death and marriage YEARS, maiden names and spouses, which NAAIRS does not give. Death-year and estate references for all three sons named in the 1950 estate. *** 'Llerena' returns zero in South Africa. *** Summary rows free; full records behind a paid account, not purchased.",
+  "accessed": "15 Sep 2026",
+  "tier": "SECONDARY",
+  "link": "https://www.gendatabase.com/index.php"
  }
 ]
