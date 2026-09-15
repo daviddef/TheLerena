@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import Corrections from "@daviddef/archive-kit/components/Corrections.astro";
 import Rule from "../components/Rule.astro";
 import { u } from "../lib/url.js";
 import rows from "../data/corrections.json";
@@ -48,22 +49,15 @@ const days = [...new Set(byDate.map(r => r.date))]
   </div>
 </section>
 
-{days.map(d => (
-  <>
-    <Rule name="arrows" label={pretty(d.date)} />
-    <section class="blk">
-      <h2 id={dayId(d.date)} class="vh">{pretty(d.date)}</h2>
-      {d.rows.map(r => (
-        <div class="panel" style={`margin-top:18px;border-left:3px solid ${r.severity === "serious" ? "var(--terra)" : "var(--rule-strong)"}`}>
-          <div class="lab">{r.severity}</div>
-          <p style="margin:10px 0 0"><strong>It said:</strong> <span set:html={emph(r.what_was_said)} /></p>
-          <p style="margin:10px 0 0"><strong>It is:</strong> <span set:html={emph(r.what_is_true)} /></p>
-          <p class="cap" style="margin:10px 0 0"><strong>Caught by:</strong> <span set:html={emph(r.how_it_was_caught)} /></p>
-        </div>
-      ))}
-    </section>
-  </>
-))}
+<section class="blk">
+  <Corrections u={u} rows={byDate.map(r => ({
+    when: pretty(r.date),
+    sev: r.severity,
+    was: emph(r.what_was_said),
+    now: emph(r.what_is_true),
+    how: emph(r.how_it_was_caught),
+  }))} major="serious" />
+</section>
 
 <section class="blk">
   <div class="note"><strong>Found something else wrong?</strong> That is the most valuable thing anyone can
