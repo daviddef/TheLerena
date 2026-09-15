@@ -231,10 +231,10 @@
   {
    "n": 29,
    "what": "Take Pedro Antonio Lerena forward from 1793",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "Sancho's eldest known son, baptised 1 August 1793 at Canelones by the chaplain of the Regimiento de Infantería de Buenos Ayres. In 1826 a record calls him **\"Mayor Don Pedro Antonio Llerena\"** — military rank at thirty-two, where his father could not write his own name. **That is the generation where this family changes class**, and it has never been traced."
+   "note": "**Traced.** His marriage was already held — **Vicenta Vega, *natural de Cerro Largo*, daughter of Don Romualdo and Doña Andrea Maestre** — but **his children were not**: the indexes give **Manuel Antonio** and **Vicenta Margarita**, and a **Pedro Antonio Natalio baptised at the Cordón on 12 December 1828**, born 1 December. One entry names his mother as **María Fernández**, consistent with him being Sancho's son; another garbles his father as *Francisco Llorena*, which is why these are recorded as candidates and not attached to the line."
   },
   {
    "n": 30,
@@ -715,6 +715,14 @@
    "owner": "this archive",
    "since": "2026-09-15",
    "note": "**Two migrated errands, both external sites rather than correspondence.** ALEX is to be retried when its full-text search works. *Sporting Life* matters more than it looks: the gazette now calls Robert Paul Lerena a **racehorse trainer** and a 1986 notice names **Lerena Racing Stables**, so an Argentine racing column of 1905–1920 is a plausible place to find him before South Africa — which bears on [the eight unaccounted years](/gaps/)."
+  },
+  {
+   "n": 90,
+   "what": "Draw the two lines on the home page — done, at David's request",
+   "state": "done",
+   "owner": "this archive",
+   "since": "2026-09-16",
+   "note": "**Built 16 September 2026**, after David pointed at the Luwinski archive's home page, where the line of record and the line the DNA points to run side by side. **The Lerena equivalent is now the second section of the front page**: *The line of record* (Rosario, Wynberg, Newlands, Germiston — a document behind every step) beside *The line this archive infers* (Sancho Llerena and María Fernández, married at Canelones 8 January 1791; their eight children; the Montevideo trunk; Luis Lerena Lenguas). **The point of the drawing is the row where they fail to meet** — Pablo Armando's own 1908 enrolment card names **Juan Carlos Lerena and María Lerena**, and *no Juan Carlos Lerena appears in any indexed record in Argentina or Uruguay*. That row is dashed in both lanes. Checked rendered at desktop and mobile; it stacks and does not overflow."
   }
  ],
  "accounts": [
