@@ -311,10 +311,10 @@
   {
    "n": 39,
    "what": "Make the build catch a stale errand",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**The failure that started all of this.** An errand told David to go and find the 1791 marriage act for hours after the act had been found and published, because nothing was checking. Every convention that held in this estate held because a build refused when it slipped. A check could flag an errand at *ready* whose own detail text says *found*, *closed* or *done*, or whose subject appears in [corrections](/corrections/) — and fail the build, beside `check:worklist`."
+   "note": "**Done — `tools/check-errands.py`, wired into `verify.sh`.** It fails the build when an errand whose status is still open carries a detail that announces the errand is finished. **It found a false positive on its very first run** — an errand saying the work *\"cannot be closed online at all\"*, which is about feasibility, not about the errand — so the patterns were tightened to phrases that can only mean *this errand is over*. A bare *closed* is useless here, and **a noisy check gets switched off**. Then proved both ways: planting the real case (the 1791 marriage errand set back to *ready*) makes it exit 1 and name the row; restoring it returns to green. **40 errands checked, none finished-but-open.**"
   },
   {
    "n": 40,

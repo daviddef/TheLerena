@@ -27,5 +27,6 @@ python3 tools/consistency.py
 rm -rf site/dist
 ( cd site && npx astro build > /tmp/astro-build.log 2>&1 || { tail -20 /tmp/astro-build.log; exit 1; } )
 python3 tools/check-links.py
+python3 tools/check-errands.py
 python3 tools/drift.py
 echo "ALL GATES PASSED"
