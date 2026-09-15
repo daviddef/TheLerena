@@ -120,25 +120,20 @@ const nExcl = (byStatus.excluded || []).length;
     finds the answer instead of doing the work again.</p>
   </div>
 
-  {couples.length ? (
-    <section style="margin:1.6rem 0">
-      <h2>The couples</h2>
-      <p class="small">Every marriage the data carries, with what the record says about it.</p>
-      <div class="scroll"><table>
-        <thead><tr><th>Married</th><th>What the record says</th><th>Known from</th></tr></thead>
-        <tbody>{couples.map((c) => (
-          <tr>
-            <td>{c.a.noLink ? c.a.name : <a href={u("/people/" + c.a.slug + "/")}>{c.a.name}</a>}
-              <span class="dim"> × </span>
-              {c.b.slug ? <a href={u("/people/" + c.b.slug + "/")}>{c.b.name}</a> : c.b.name}</td>
-            <td class="small">{c.note || "—"}</td>
-            <td class="small">{c.via ? <span class="chip">{c.via}</span> : null}</td>
-          </tr>))}</tbody>
-      </table></div>
-    </section>
-  ) : null}
 
-  <Marriages u={u} groups={GROUPED} openAt={8}>
+
+  <Marriages u={u} groups={GROUPED} openAt={8} subject="Lerena"
+    metrics={[{ n: couples.length, label: "couples" }, { n: people.length, label: "carrying the name" },
+              { n: nConn, label: "connected to the line" },
+              { n: (byStatus.unplaced || []).length, label: "unplaced" },
+              { n: nExcl, label: "excluded by name" }]}
+    couples={couples.map((c) => ({
+      a: { name: c.a.name, slug: c.a.noLink ? "" : c.a.slug },
+      b: { name: c.b.name, slug: c.b.slug || "" },
+      note: c.note || "", vias: c.via ? [c.via] : [],
+    }))}
+    couplesTitle="The couples"
+    couplesNote="Every marriage the data carries, with what the record says about it.">
     <div slot="missing">
       <h2 style="margin-top:2rem">What would move somebody up this page</h2>
       <ul>
