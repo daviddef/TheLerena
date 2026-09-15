@@ -418,5 +418,12 @@
   "what_was_said": "That the 1791 act created 'two Lerena-Aguilar unions in Cordoba' worth reopening the 1754 Granada file for",
   "what_is_true": "Only the 1754 groom is Cordoban. His bride, Ana Maria de Aguilar, is of La Mala - La Malaha, in GRANADA province - which this archive had already recorded. Our Rosalia Aguilar is of Cordoba. So the convergence is one very common Andalusian surname in two different provinces, not a family. An earlier session had already run the decisive test - a structured search for a son Sancho de Lerena y Aguilar, returning a controlled No Results Found - and was right to close the file.",
   "how_it_was_caught": "Caught by opening the record and finding the archive already held every field on it, including the bride's birthplace."
+ },
+ {
+  "date": "2026-09-15",
+  "severity": "minor",
+  "what_was_said": "That Sancho Llerena's last certain appearance as a living man was the deposition of 9 January 1798",
+  "what_is_true": "Written twice this session, and wrong. The 1812 PADRON is later and is an enumeration of the living: it returns him at calle San Juan No 60, household 59, as Sancho 'andaluz', 45. So the last document that shows him alive is 1812, not 1798, and the unaccounted gap before the trees' death date of 1832 is twenty years rather than thirty-four.",
+  "how_it_was_caught": "Caught by listing all fourteen records that name him and marking which ones require him to have been standing there."
  }
 ]

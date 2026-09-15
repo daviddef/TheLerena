@@ -479,18 +479,18 @@
   {
    "n": 60,
    "what": "Test whether the Guerra Grande broke the registers",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "Before concluding that Sancho's burial was never written, establish whether it could have been. Montevideo was besieged from **1843 to 1851**, and Uruguay's civil registration does not begin until **1879**. If parish registers have gaps in the 1830s–40s, an absence proves nothing. **A coverage question, answerable from the films themselves** — the same discipline as the Berroeta control."
+   "note": "**Tested, and they did not.** Montevideo church burials are indexed continuously across the period: **1832, 1833, 1838** in the first window, **33 indexed burials for one surname in 1839–1848** including 1841 and 1842, and **1852** in the next — all from *Uruguay, Catholic Church Records* at **Nuestra Señora del Carmen, Cordón** and Montevideo. The siege of 1843–51 did not destroy them. **So Sancho's absence from the burial index is not explained by register loss**, which strengthens the negative and justifies walking the images. *One honest limit*: indexing density is not the same as register survival — the 1850s window returns 7 where the 1840s returns 33, and that could be thinner indexing rather than fewer burials."
   },
   {
    "n": 61,
    "what": "Establish the last date Sancho is attested ALIVE",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "This archive holds him in records of 1831, 1836 and 1850, **but in all of them he is named as somebody's father or grandfather**, which a dead man can be. His last certain appearance as a living person is the **sworn deposition of 9 January 1798**, where he stood in a room and could not sign. Go through every record that names him and mark which require him to have been alive. **That single distinction is worth more than the trees' 1832.**"
+   "note": "**Done, and it corrects this session twice over.** Fourteen records name him; only **four** require him to have been standing there — godfather in **1789**, sworn witness in **1798**, padrino at the **1804** confirmations, and enumerated in the **1812 padrón** at calle San Juan No 60, household 59, as *Sancho, andaluz, 45*. **A census enumerates the living, so 1812 is the last document in the world that shows him alive** — not 1798, as this row itself claimed when it was written. Everything after is father, grandfather or ancestor, up to 1850, and **a dead man can be all three**. So the unaccounted gap before the trees' 1832 is **twenty years**. Written up in `data/sancho-last-alive.tsv`; the misstatement is in [corrections](/corrections/)."
   },
   {
    "n": 62,
