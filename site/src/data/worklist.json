@@ -6,19 +6,19 @@
  "rows": [
   {
    "n": 1,
-   "what": "Read the regiment's chaplaincy book, images 663–950",
-   "state": "running",
+   "what": "Read the regiment's book by hand — now probably unnecessary",
+   "state": "next",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "DGS 7713373 is the register of the **Regimiento de Infantería de Buenos Ayres**, kept at the Iglesia Matriz de Montevideo — the priest names himself and his regiment at image 655. Images **652–662 are read**: December 1787 to July 1791, no gaps, covering the month Sancho married. **No Llerena in any of them.** Images 663 to about 950 are not read and run to 1814 — roughly 290 openings, a day's work rather than an hour's. This is a scan rather than a transcription, and the distinction is kept deliberately: *not found* and *not there* are different statements. See [the roadmap](/roadmap/)."
+   "note": "Images **652–662 are read**: December 1787 to July 1791, no gaps, covering the month Sancho married, **no Llerena in any of them**. The plan to read 663–950 as well existed only because nobody knew whether the book was indexed. **It is** — see the control above — so this is now contingent, and should not be started until the two limits on that control are closed. Kept open rather than closed because machine transcription of eighteenth-century hands is imperfect: **an index absence is weaker than a page absence.**"
   },
   {
    "n": 2,
    "what": "Run the Berroeta control before reading another 290 images",
-   "state": "blocked",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "The single search that decides whether the job above is necessary at all. Search FamilySearch full text for a phrase **known** to be in that book — «Capellán del Regimiento Infantería de Buenos Ayres», or the chaplain's name **Berroeta**. If it returns hits, the book is in the full-text index, and the absence of Llerena from the 68 results for «Sancho Llerena» becomes a real finding won in one query. If it returns nothing, the book is unindexed and the images must be read by hand. **Blocked on FamilySearch itself** — Error 15, its security layer, returned before the control could be sent. It lifts in about an hour. No zero from a blocked page has been recorded as a null."
+   "note": "**Run and passed, 15 September 2026.** «Capellán del Regimiento Infantería de Buenos Ayres» returns **22 results** from a collection titled *Montevideo. Military Award Records 1812–1814*, with snippets reading «…de Berroeta Capellán del Regimiento…» and years **1789, 1790, 1791, 1792** — the chaplain and the exact years of the book. **The regiment's book is in the full-text index**, so the absence of any military collection from the 68 results for «Sancho Llerena» is evidence rather than a gap in coverage. Two limits kept open below."
   },
   {
    "n": 3,
@@ -139,6 +139,14 @@
    "owner": "David",
    "since": "2026-09-15",
    "note": "The shared note that both archives keep says **gendatabase.com's terms forbid republishing without written permission**. This archive read that note only after it had already published. What is exposed is narrow but real: this repository is **public**, and the commit carrying the gendatabase harvest is already pushed. The people were in the archive before — Ricardo Juan Carlos and Doreen May Chappell came from the South African deceased-estates index and NAAIRS — but **the birth, death and marriage years are gendatabase's**, and they appear with attribution on [errands](/errands/) and in `data/gendatabase-sa.tsv`. Citing a source and stating a handful of facts from it is ordinary practice; whether their terms allow it is **not this session's call to make**. Nothing further from that source is published until David decides, and no attempt has been made to quietly strip the attribution, which would be worse than the original mistake."
+  },
+  {
+   "n": 18,
+   "what": "Close the two limits on the Berroeta control",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "Two things stand between *the book is indexed and he is not in it* and a finding this archive would publish. **One:** open any of the 22 hits and resolve its ark to a film number — the collection is labelled *1812–1814* while its snippets carry *1789–1792*, so the label cannot be trusted and nobody has yet shown these hits are **DGS 7713373**. **Two:** finish the variant sweeps — «Sancho Lerena» and «Sancho Lorena» were never run, because Error 15 returned between the control and them. Both are single searches."
   }
  ]
 }
