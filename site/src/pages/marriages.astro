@@ -1,0 +1,158 @@
+---
+import Base from "../layouts/Base.astro";
+import Marriages from "@daviddef/archive-kit/components/Marriages.astro";
+import { u } from "../lib/url.js";
+import people from "../data/people.json";
+
+/* The couples, and the families around them — on the estate's shared page shape.
+ *
+ * This archive's subject is a NAME, not a family. 183 of its 278 people carry
+ * some spelling of LERENA, and the whole question it exists to answer is which
+ * of them are the same family and which merely share the word. So it does NOT
+ * group by descent — most of these people have no proved relationship to the
+ * line at all — and it does not group by surname either, because that is the
+ * very thing in question.
+ *
+ * It groups by its own STATUS field, which is the archive's recorded judgement
+ * on each person: connected, high interest, of interest, unplaced, excluded.
+ * The last of those is the one worth reading. Eight people are EXCLUDED — Lola
+ * LERENA, Italian-born, where the name is coincidental; Catherine BUYS, where
+ * «Lerena» is a given name and not the surname at all. An archive that grouped
+ * on the name would have swallowed all eight. This one names them and says no.
+ */
+const ORDER = [
+  { key: "connected", label: "Connected to the line",
+    blurb: `Proved to reach this family. Everyone else on this page is a candidate, and the
+      difference is the whole point of the archive.` },
+  { key: "high", label: "Unplaced — high interest",
+    blurb: `Not yet joined to the line, and the most likely to be. Each has something specific
+      pointing at it: a birth year that fits, an Argentine nationality, a name that recurs.` },
+  { key: "interest", label: "Unplaced — of interest",
+    blurb: `A reason to look again, short of a reason to believe. Several are couples travelling
+      together, which is a relationship the shipping lists record and the registers have not yet
+      confirmed.` },
+  { key: "unplaced", label: "Unplaced",
+    blurb: `The bulk of the name. Held, listed, and claimed for nothing — because a shared surname
+      is not a relationship, and this archive exists to find out which of these are family.` },
+  { key: "excluded", label: "Excluded — the name is coincidental",
+    blurb: `<strong>Ruled out, by name.</strong> Kept visible rather than deleted, so that the next
+      person to search the name finds the answer instead of repeating the work.` },
+];
+
+const yr = (p) => String(p.born || "").match(/\d{4}/)?.[0] || "";
+const surnameOf = (p) => (p.surname || "").trim() || "(no surname recorded)";
+const LERENA = /^L[AEO]?[RL]?ENA$/i;
+
+const WRITTEN = { "TAYLOR": ["/taylor/", "the Taylor page"] };
+
+const byStatus = {};
+for (const p of people) (byStatus[p.status || "unplaced"] ||= []).push(p);
+
+/* Couples, from the spouse edges the data carries. The note on a spouse edge is
+   usually the marriage itself — «m. 3 Sep 1911, St Dominic's, Wynberg» — which
+   is the one thing this archive can say about a couple with certainty. */
+const seen = new Set();
+const couples = [];
+for (const p of people) for (const s of p.spouses || []) {
+  const k = [p.slug, s.slug].sort().join("|");
+  if (seen.has(k)) continue;
+  seen.add(k);
+  couples.push({ a: p, b: s, note: s.note || "", via: s.via || "" });
+}
+
+const fam = (surname, list) => ({
+  surname,
+  n: list.length,
+  countLabel: list.length === 1 ? "person" : "people",
+  span: (() => {
+    const ys = list.map(yr).filter(Boolean).map(Number);
+    return ys.length ? (Math.min(...ys) === Math.max(...ys) ? `${ys[0]}`
+      : `${Math.min(...ys)}–${Math.max(...ys)}`) : "";
+  })(),
+  places: [...new Set(list.map((p) => p.birthplace || p.where).filter(Boolean))].slice(0, 4),
+  writtenUp: WRITTEN[surname] || null,
+  people: list.sort((a, b) => (yr(a) || "9999").localeCompare(yr(b) || "9999")).map((p) => ({
+    name: p.name, slug: p.noLink ? "" : p.slug,
+    b: [p.born, p.birthplace].filter(Boolean).join(" · "),
+    d: [p.occupation, p.where].filter(Boolean).join(" · "),
+  })),
+});
+
+const GROUPED = ORDER.map((g) => {
+  const list = byStatus[g.key] || [];
+  const bySur = {};
+  for (const p of list) (bySur[surnameOf(p)] ||= []).push(p);
+  const ent = Object.entries(bySur).sort((a, b) => b[1].length - a[1].length);
+  /* A spelling of the name itself is the archive's subject and gets a section;
+     everything else in a status group is a family standing beside it. */
+  const big = ent.filter(([s, l]) => l.length >= 3 && !LERENA.test(s));
+  const own = ent.filter(([s]) => LERENA.test(s));
+  const rest = ent.filter(([s, l]) => l.length < 3 && !LERENA.test(s));
+  return {
+    /* The count in a status heading is PEOPLE, not families: this archive's
+       unit is a person carrying the name, and 230 unplaced Lerena are not 230
+       families. */
+    key: g.key, label: g.label, blurb: g.blurb, count: list.length,
+    countNoun: "people", countNoun1: "person",
+    families: [...own, ...big].map(([s, l]) => fam(s, l)),
+    chips: rest.map(([s, l]) => ({ name: s, count: l.length })),
+  };
+}).filter((g) => g.count);
+
+const nConn = (byStatus.connected || []).length;
+const nExcl = (byStatus.excluded || []).length;
+---
+<Base title="The Marriages"
+      eyebrow={`${couples.length} couples · ${people.length} people carrying the name · ${nConn} of them connected`}
+      dek="Who married whom, and what this archive has decided about everybody else who carries the name. A shared surname is not a relationship — this page is the record of which ones are.">
+
+  <div class="card" style="border-left:3px solid var(--accent)">
+    <h3 style="margin-bottom:.4rem">Why this page is grouped the way it is</h3>
+    <p><strong>This archive's subject is a name, not a family.</strong> Most of the people below
+    carry some spelling of <em>Lerena</em> and have no proved relationship to the line at all — and
+    sorting out which do is the entire reason the archive exists. So they are not grouped by descent,
+    which would be a claim the evidence cannot support, and not by surname, which is the very thing
+    in question. They are grouped by <strong>what this archive has decided about each of them</strong>.</p>
+    <p style="margin-top:.6rem"><strong>{nExcl} people are excluded outright</strong> — Lola Lerena,
+    Italian-born, where the name is coincidental; Catherine Buys, where «Lerena» is a given name and
+    not the surname at all. An archive that grouped on the name would have swallowed all
+    {" "}{nExcl}. They are kept visible rather than deleted, so the next person to search this name
+    finds the answer instead of doing the work again.</p>
+  </div>
+
+  {couples.length ? (
+    <section style="margin:1.6rem 0">
+      <h2>The couples</h2>
+      <p class="small">Every marriage the data carries, with what the record says about it.</p>
+      <div class="scroll"><table>
+        <thead><tr><th>Married</th><th>What the record says</th><th>Known from</th></tr></thead>
+        <tbody>{couples.map((c) => (
+          <tr>
+            <td>{c.a.noLink ? c.a.name : <a href={u("/people/" + c.a.slug + "/")}>{c.a.name}</a>}
+              <span class="dim"> × </span>
+              {c.b.slug ? <a href={u("/people/" + c.b.slug + "/")}>{c.b.name}</a> : c.b.name}</td>
+            <td class="small">{c.note || "—"}</td>
+            <td class="small">{c.via ? <span class="chip">{c.via}</span> : null}</td>
+          </tr>))}</tbody>
+      </table></div>
+    </section>
+  ) : null}
+
+  <Marriages u={u} groups={GROUPED} openAt={8}>
+    <div slot="missing">
+      <h2 style="margin-top:2rem">What would move somebody up this page</h2>
+      <ul>
+        <li><strong>A marriage act.</strong> It names both fathers, which is the one record that can
+        turn an <em>unplaced</em> Lerena into a connected one.</li>
+        <li><strong>An Argentine civil registration.</strong> Most of the unplaced carry a birth year
+        and a nationality and nothing else.</li>
+        <li><strong>A passenger list with an age and a companion.</strong> Several of the
+        <em>of interest</em> group are couples travelling together — a relationship the shipping
+        lists record and no register has yet confirmed.</li>
+      </ul>
+      <p class="small" style="margin-top:1.4rem"><a href={u("/people/")}>The People</a> ·
+      <a href={u("/register/")}>The Register</a> · <a href={u("/name/")}>The Name</a> ·
+      <a href={u("/taylor/")}>The Taylors</a> · <a href={u("/open-questions/")}>Open questions</a></p>
+    </div>
+  </Marriages>
+</Base>
