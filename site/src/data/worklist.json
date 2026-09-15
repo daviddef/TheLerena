@@ -6,11 +6,11 @@
  "rows": [
   {
    "n": 1,
-   "what": "Read the regiment's book by hand — now probably unnecessary",
-   "state": "next",
+   "what": "Read the regiment's book by hand — retired, not performed",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "Images **652–662 are read**: December 1787 to July 1791, no gaps, covering the month Sancho married, **no Llerena in any of them**. The plan to read 663–950 as well existed only because nobody knew whether the book was indexed. **It is** — see the control above — so this is now contingent, and should not be started until the two limits on that control are closed. Kept open rather than closed because machine transcription of eighteenth-century hands is imperfect: **an index absence is weaker than a page absence.**"
+   "note": "**Retired by the control rather than carried out, and the distinction is deliberate.** Images 652–662 were read (December 1787 to July 1791, no Llerena). Images 663–950 were **never read and now will not be**: the book is in the full-text index and Sancho is absent from it under all three spellings. *Done* is the nearest of the five states to what actually happened — the question this row existed to answer is answered, by cheaper means. **The caveat survives**: machine transcription of eighteenth-century hands is imperfect, so an index absence is weaker than a page absence, and if anything later contradicts this the 290 images are still there."
   },
   {
    "n": 2,
@@ -143,10 +143,10 @@
   {
    "n": 18,
    "what": "Close the two limits on the Berroeta control",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "Two things stand between *the book is indexed and he is not in it* and a finding this archive would publish. **One:** open any of the 22 hits and resolve its ark to a film number — the collection is labelled *1812–1814* while its snippets carry *1789–1792*, so the label cannot be trusted and nobody has yet shown these hits are **DGS 7713373**. **Two:** finish the variant sweeps — «Sancho Lerena» and «Sancho Lorena» were never run, because Error 15 returned between the control and them. Both are single searches."
+   "note": "**Both closed, 15 September 2026.** *Limit one:* six arks from the 22 results were resolved through the tile service's manifest — **five return DGS 7713373**, images 657, 667, 676, 716 and 831, and **image 657 is a page this session had already read by hand**. So the collection labelled *Military Award Records 1812–1814* is the regiment's book, whatever its label says. The sixth returns **DGS 7713382 image 2736**, the Montevideo marriage register. *Limit two:* all three spellings swept — «Sancho Llerena» 68, «Sancho Lerena» 143, «Sancho Lorena» — and **not one hit comes from DGS 7713373**."
   },
   {
    "n": 19,
@@ -371,6 +371,38 @@
    "owner": "this archive",
    "since": "2026-09-15",
    "note": "Row 1 was *running* this morning and is now parked. **Reading the regiment's book by hand was the right plan only while nobody knew whether it was indexed** — the Berroeta control showed that it is, in one search, and a day of work evaporated. Kept rather than deleted because machine transcription of eighteenth-century hands is imperfect, so **an index absence is weaker than a page absence** and the hand-read may yet be needed if the two limits in row 18 do not close cleanly."
+  },
+  {
+   "n": 47,
+   "what": "Open Canelones Baptism Records 1776–1794 — a volume nobody here knew existed",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Thrown up by the variant sweeps, and it should go to the front.** This archive has been working from *Baptism Records 1794–1810* and did not know there was an earlier volume. Sancho married in **January 1791**; his son Pedro Antonio was baptised in **August 1793**. Both fall inside this book, and so would any earlier children. It carries a «Sancho Lerena» hit already."
+  },
+  {
+   "n": 48,
+   "what": "Open Montevideo Catedral Religious Marriage Records 1782–1797",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "A Montevideo marriage register covering 1791, never opened here, surfaced while resolving the Berroeta hits. Sancho married at Canelones, so this is not where his act is — but it is where the marriages of **his comrades, his witnesses and his wife's Asturian family** would be, and **DGS 7713382 is now anchored at image 2736**, which is a way in."
+  },
+  {
+   "n": 49,
+   "what": "Open the three later Montevideo cathedral baptism volumes",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**1811–1813, 1831–1833 and 1840–1842**, all carrying hits under one spelling or another, none opened. They cover the generation after Sancho — the years when this family moves from Canelones into Montevideo and when Luis, Fidel and Pedro Antonio are raising children. The 1811 volume also brackets the baptism of Luis this archive already holds, at DGS 7713375 image 2410."
+  },
+  {
+   "n": 50,
+   "what": "Identify P. R. Lerena of Lerena Racing Stables, Randburg",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "The 1951 gazette calls **Robert Paul Lerena a racehorse trainer at Newlands**; a 1986 gazette lists **P. R. Lerena Racing Stables, P.O. Box 425, Randburg** as an employer. Randburg is where **Ricardo Juan Carlos** lived and died, which makes *P. R.* most likely one of his sons — Paul Raymond is the obvious reading of the initials and is **only a reading**. Establish it from documents, and note that this family's racing connection may run to living people, who stay out of this archive."
   }
  ]
 }
