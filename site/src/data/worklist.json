@@ -535,10 +535,10 @@
   {
    "n": 67,
    "what": "Take Fidel Lerena forward",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "Born about 1799 and named for his sister's godfather. A **Fidel Lerena × María Ruedas** appears in the Montevideo branch this archive found through Víctor Lerena, and whether that is Sancho's son has been flagged as *not established*. **This is the row that would settle it.**"
+   "note": "**Traced, and the yield is thin — reported as thin.** One index cluster gives *Fidel Lerena* with **Víctor Lerena** and **María Rueda**, which is the Montevideo branch this archive already reached through Víctor, with the relationships garbled by indexing. **It does not establish that this Fidel is Sancho's son born about 1799**, which stays open. A second entry gives a Fidel Lerena with a child *\"Feliz Llama\"* — tantalising, since it could be a mangled *Félix Llerena*, and **a mangled index entry is not a person**."
   },
   {
    "n": 68,
@@ -551,10 +551,10 @@
   {
    "n": 69,
    "what": "Take Avelino Lerena Fernández forward",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "Born 1815, **died 22 August 1890 at Montevideo** — one of the very few of Sancho's children whose death this archive actually holds. That makes him the easiest to trace forward, and his 1890 death record should name a widow and children."
+   "note": "**Traced, and it opened a branch this archive has never named.** The indexes give **Avelino Eduardo Lerena married to Celedonia Villademoros**, with children recorded under the compound **Lerena Villademoros** — Pedro Gualberto, and Avelino Pedro Joaquín Silvestre — plus an **Avelino Lerena born 1869, died 5 January 1914 at Montevideo**, son of Celedonia. **The archive knows Avelino as the husband of Ambrosia Traibel**, the Lerena Traibel branch it has carried since its first week, and has never heard of Villademoros. **Two readings, and this archive is not choosing**: either Avelino Lerena Fernández married twice, or *Avelino Eduardo* is a son of his and the Villademoros children are Sancho's great-grandchildren. A note already here — *\"she does not fit the Avelino this archive knows\"* — shows the two-Avelino problem was already suspected. Recorded unattached."
   },
   {
    "n": 70,
@@ -638,11 +638,11 @@
   },
   {
    "n": 80,
-   "what": "Reconcile the children files against the register",
-   "state": "next",
+   "what": "Reconcile the children files — and one of them was called 'complete' and was not",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "There are now several overlapping accounts of Sancho's children — `sancho-children-complete.tsv`, `canelones-sancho-children.tsv`, the register itself, and today's parent-pair harvest. **They agree so far, which is why now is the time to merge them**, while it is cheap and before one of them drifts."
+   "note": "**Done — `data/sancho-children-reconciled.tsv`, eight children, one list.** The reconciliation found the fault it was written to find: **`sancho-children-complete.tsv` holds four children and is called *complete***, while the archive names eight across its other files. Nothing in it is wrong; it is partial, and **its name made the partiality invisible**. Superseded with a banner rather than deleted. The new list carries, for each child, what the act actually says, its tier, and **the film and image** — four of the eight now point at an image read this week, and two are honestly marked *not yet resolved*. It also reconciles the count: **the 1812 padrón returns six children** where eight are named, which is consistent once Luis (1811) and Avelino (1815) are set aside and means one or more of the earlier children had already died."
   },
   {
    "n": 81,

@@ -50,7 +50,12 @@ const days = [...new Set(byDate.map(r => r.date))]
 </section>
 
 <section class="blk">
-  <Corrections u={u} rows={byDate.map(r => ({
+  <Corrections u={u} rows={byDate.map((r, i) => ({
+    /* The contents list above links to one anchor per DAY. Give that id to the
+       FIRST correction of each day - otherwise every link on this page points at
+       an id that is never rendered, which is what check-links found on
+       16 September 2026. */
+    id: (i === 0 || byDate[i - 1].date !== r.date) ? dayId(r.date) : undefined,
     when: pretty(r.date),
     sev: r.severity,
     was: emph(r.what_was_said),
