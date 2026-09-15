@@ -430,11 +430,11 @@
   },
   {
    "n": 54,
-   "what": "Search the Granada pre-marriage investigation files for Félix and Rosalía",
-   "state": "next",
+   "what": "Search the Granada pre-marriage files for Félix and Rosalía — a controlled null",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Spain, Granada, Catholic Pre-Marriage Investigation Files, 1556–1899** is indexed and covers the right century. A *información matrimonial* is the record that gives a groom's parents, birthplace and years in the country — it is precisely what was missing at Canelones for Sancho himself. Search it, and *Spain, Marriages 1565–1950*, for a marriage of **Félix Llerena and Rosalía Aguilar** in Córdoba or Granada, about 1750–1766. Their son was born about 1767."
+   "note": "**Searched, and the answer is a real absence — after two fake ones were thrown away.** Exact-surname queries returned zero twice, and **both were discarded**: the same exact-match shape cannot retrieve the 1754 act that is *known* to be in that collection, because the indexed surname is the compound *Lerena y Armenta*. A null from a query that cannot find what is there is not a null. The working shape — non-exact surname, exact given names, Spain, 1735–1785 — **passes its control**, returning the Granada Pre-Marriage collection and the full 1754 record for the known couple. Run for **Félix Llerena and Rosalía Aguilar** it returns 305 results and **not one Andalusian collection** — nothing from Granada, Córdoba, Sevilla, Jaén or Málaga. **Their marriage is not indexed by FamilySearch anywhere in Andalusia in the fifty years that must contain it.** With Córdoba's parish registers not filmed either, the searchable routes are closed and what remains is the diocesan letter. **The 1791 act stays the only document this archive has that names them.**"
   },
   {
    "n": 55,
