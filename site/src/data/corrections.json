@@ -369,5 +369,19 @@
   "what_was_said": "Three rows written into errands.tsv with prose in the STATUS column - \"*** DONE 14 September 2026 ***\", \"*** PART READ - 57 of 141 ***\", and a whole paragraph - and one row written with three fields where the header has five",
   "what_is_true": "*** STATUS IS A CONTROLLED VOCABULARY the errands page looks up: sent, replied, done, ready, waiting-on-david, blocked. *** Anything else falls through to \"blocked\", so three errands were being published to readers under the wrong chip - including one marked DONE that the page was calling blocked. And the malformed row put its whole detail paragraph into the status column and left detail empty. Now: David / waiting-on-david / the text in its proper field.",
   "how_it_was_caught": "*** tools/verify.sh, on its first real run. *** check-links caught the literal markers reaching the errands page, and chasing that exposed the column error behind it. The unpaired-marker check had passed the same row, because a field can be internally consistent and still be the WRONG FIELD."
+ },
+ {
+  "date": "2026-09-15",
+  "severity": "serious",
+  "what_was_said": "That DGS 7713386 is 'Indices de bautismos, matrimonios y defunciones, 1726-1800', and that opening it under L was 'THE CHEAPEST TEST IN THE ARCHIVE'",
+  "what_is_true": "Two images were sampled on 15 September 2026. Image 300 is a burial register of the Catedral Basilica de Montevideo for 1887; image 1500 is a numbered burial register for 1905. Neither is an index and neither is eighteenth century. Two samples out of 2,244 images do not prove the index is absent from the film, but the attribution is not confirmed and the errand must stop calling it cheap or certain.",
+  "how_it_was_caught": "The attribution came from a catalogue reading, not from the film. The film was never opened until now."
+ },
+ {
+  "date": "2026-09-15",
+  "severity": "minor",
+  "what_was_said": "That the castrense chaplain was 'Juan Miguel de Mendoza', and that a neighbouring 1789 entry named an enslaved man belonging to a Llerena",
+  "what_is_true": "Both were misread at fit-width and corrected at full magnification before either reached the site: the chaplain is JUAN MIGUEL DE BERROETA, and the slave-owner is FRANCISCO JUAREZ, not Llerena. Recorded because the second misreading would have manufactured a Llerena in the regiment's own book - the exact thing this archive wants to find, which is precisely why it nearly got through.",
+  "how_it_was_caught": "Caught by re-reading at magnification, as the standing rule requires."
  }
 ]
