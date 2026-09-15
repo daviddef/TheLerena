@@ -122,3 +122,44 @@ X289, Pretoria 0001**; +27 12 670 8127; **closed Mondays and Fridays**.
 parish priest listed as Fr Donald McLoughlin. Request 17. Fallback if the registers were deposited
 centrally: the **Archdiocese of Johannesburg**, `catholicjhb.org.za` (MX verified) — **confirm the
 chancery address on the day rather than guessing it.**
+
+
+---
+
+## The address procedure, rewritten — 15 September 2026
+
+**The old rule was "MX check before sending any email". It has now been audited against every
+address this project has used, and it is nearly worthless as a primary test.**
+
+Twenty-six addresses were re-resolved. Six have failed in practice. **MX caught one of the six.**
+
+| Address | MX says | What actually happened |
+|---|---|---|
+| `ahm@mail.exercito.pt` | **no MX** | NXDOMAIN bounce — **caught** |
+| `sandfdoc@mweb.co.za` | live MX | `550 relay access denied` — missed |
+| `enquiries@dac.gov.za` | live MX | NXDOMAIN bounce from DSAC's own gateway — missed |
+| `enquiries@dac.gov.za` (earlier) | live MX | department renamed **DAC → DSAC** — missed |
+| `NMphetshwa@justice.gov.za` | live MX | the person had left the section — missed |
+| SANDF, Visagie Street | live MX | the office had **moved to Irene** — missed |
+
+**And here is why MX can never catch the commonest failure.** `dac.gov.za` and `dsac.gov.za`
+resolve to **the same mail gateway** — `za-smtp-inbound-1.mimecast.co.za`. The dead old domain
+therefore keeps a perfectly valid MX record, mail is accepted by the shared gateway, and the
+rejection happens *inside*, where a DNS check cannot see it. *A live MX record proves a mail server
+answers for the domain. It proves nothing about the department, the office or the person.*
+
+### The replacement, in order of what actually catches things
+
+1. **Search the sent mail first.** For prior contact *and* for prior bounces to that domain. This
+   has caught three separate failures: the Xaba duplication, the SANDF duplication, and the dead
+   mweb address that was about to be reused.
+2. **Prefer an address the institution itself gave you.** A referral beats a directory entry every
+   time — `arqgex@exercito.pt` came from the ADN and answered within the hour, twice.
+3. **Check the institution still exists under that name, and at that address.** DAC became DSAC;
+   the SANDF Documentation Centre left Visagie Street for Irene. A published guide can be a decade
+   stale and still rank first in a search.
+4. **MX last**, and only to catch a mistyped subdomain. One in six.
+5. **Watch for a bounce for a day afterwards** — and record an auto-acknowledgement as *delivery
+   evidence, not an answer*. See `/letters/`.
+
+*Applies to both archives.*

@@ -406,11 +406,11 @@
   },
   {
    "n": 51,
-   "what": "Read the three images the parent-pair query found",
-   "state": "running",
+   "what": "Read the three images the parent-pair query found — all three were already held",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**The immediate next thing, and it is three images.** Searching the phrase **«Llerena y de María Fernández»** finds documents that name both parents — a child's baptism, a child's marriage, or a **grandchild's** baptism. Five are this family, two are read. Unread: **dgs:008166571 image 1130** (Canelones baptisms 1794–1810) and **dgs:007713376 images 515 and 601** (Montevideo Catedral baptisms 1825–1828, almost certainly grandchildren). Each should name a child of Sancho as a parent, which is how the sibling list gets closed."
+   "note": "**Read, and the row's own premise was wrong.** All three are acts this archive already had: **Dominga Josefa's baptism of 15 May 1804** (godparents Joseph Ponteceli and Agueda Rivero), **Francisco Juan Ramón, 22 March 1826**, and **Lucinda Gregoria del Corazón de Jesús, 12 May 1827** — the last two in fuller words here than the index gives, with the Capitán, the Mayor Don Joaquín Ruiz de Carvallo and a General as godfather. This session inferred *unread act* from *unread collection*, and that does not follow. **So the parent-pair query is a coverage check, not a discovery engine** — and it passed cleanly, which says the coverage of Sancho and María's children is better than assumed. Logged in [corrections](/corrections/)."
   },
   {
    "n": 52,
