@@ -6,20 +6,29 @@ import PlaceSpark from "@daviddef/archive-kit/components/PlaceSpark.astro";
 import { u } from "../lib/url.js";
 import people from "../data/people.json";
 import atlas from "../../public/atlas-data.json";
+import corrections from "../data/corrections.json";
+import sourcesConsulted from "../data/sources-consulted.json";
+import errands from "../data/errands.json";
+import places from "../data/places.json";
 // Derived, not typed. A hand-written count here went stale within the week it was written.
-const registerCount = String(people.length);
 const WORDS = ["no","One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Eleven","Twelve","Thirteen","Fourteen","Fifteen"];
+/* Six tiles, all of them measures of the work. There were ten, and two of them
+   were not numbers at all — "Juan Carlos" and "Uruguayan". Those are two of the
+   best findings this archive has made and they deserve better than being shaped
+   into a statistic: they are in the cards and on their own pages, in sentences,
+   where they can say what they actually mean.
+
+   The years went the same way. 1882, 1911, 1931 are the spine of the story and
+   belong to the story. A tile is for saying how much work stands behind the
+   archive, and it should change as the work grows — so these are counted at
+   build time rather than typed in. */
 const stats = [
-  ["1882", "born at Rosario de Santa Fe on 22 February — from his own passport", "/passport/"],
-  ["1911", "married at St Dominic's, Wynberg, six years after their first son was born", "/taylor/"],
-  ["1931", "plans lodged for stables at Koeberg Road, Rugby", "/naairs/"],
-  ["£15,527", "the gross value of his estate in 1950 — roughly half a million pounds today — including £26 owed for carrots", "/estate/"],
+  [people.length, "people published, each graded for how well it is evidenced", "/people/"],
+  [places.length, "places named, with the people this archive can put in each", "/places/"],
+  [sourcesConsulted.length, "sources consulted, each listed with what it was used for", "/sources/"],
+  [corrections.length, "claims this archive has corrected, with how each was caught", "/corrections/"],
+  [errands.length, "enquiries raised with an archive or an office, and what came back", "/errands/"],
   ["2,124", "people bear this surname in the whole world", "/name/"],
-  ["1731–1901", "both volumes of the Rosario baptism index, read end to end — a hundred and seventy years, and the surname appears exactly once", "/searched/"],
-  ["Juan Carlos", "the name of his father — from an army card filed at the Cape, found 10 September 2026", "/enrolment-card/"],
-  ["Uruguayan", "what the act behind that one Lerena says of her parents — \u201cnaturales del E. Oriental\u201d, 13 September 2026", "/hypotheses/"],
-  ["1840\u20131881", "the years for which the Rosario death index has no L section at all \u2014 the book runs A to F and stops", "/gaps/"],
-  [registerCount, "people of this surname met along the way, recorded and searchable — the connected, the excluded, and the honestly unplaced", "/register/"],
 ];
 ---
 <Base title="The Lerena Archive"
