@@ -1,0 +1,25 @@
+# Surname probes run against the 11,581 DNA matches of a living granddaughter of Pablo Armando,
+# MyHeritage kit 23-AEBD42, on 16 September 2026.
+#
+# *** ON PRIVACY. *** Every DNA match is a LIVING person. Not one is named here, or on the page.
+# Where a match's TREE is read, the people named from it are their DECEASED ancestors, which is
+# what the research actually turns on. The line is: dead ancestors named, living matches not.
+#
+# *** CONTROL BEFORE NULL. *** Four control surnames were run in the same form, in the same
+# session, before any null was believed. All four returned, and returned matches for whom the
+# surname appears only inside their family tree. The search reaches trees. The nulls are real.
+probe	kind	hits	what_came_back	reading
+Lerena	probe	2	Her own son and her own nephew, and nobody else. Both are kits this account manages.	*** No Lerena outside this family appears in any of 11,114 trees *** The surname the whole archive turns on is absent from the match corpus.
+Llerena	probe	0	Nothing.	The Uruguayan spelling - the one Sancho's 1791 marriage act uses. Absent.
+Lerina	probe	0	Nothing.	The spelling his 1950 death was registered under, and the one CEMLA records as Italian. Absent.
+Larena	probe	1	One Chilean, 9.37 cM on a single segment.	A single segment at 9 cM is below the threshold at which this archive would call anything. Recorded, not counted.
+Lorena	probe	1	One kit whose GIVEN name is Lorena. Not the surname.	A false hit of the kind the search is prone to. Discarded.
+Yerena	probe	0	Nothing.	A phonetic variant tried for completeness.
+Lenguas	probe	0	Nothing.	*** This is the sharper of the two nulls *** Lerena Lenguas is the Montevideo trunk this archive's hypothesis reaches for. Lenguas is a rare surname. It is in none of the trees.
+Traibel	probe	0	Nothing.	The other Montevideo compound - Lerena Traibel. Also rare, also absent.
+Ciganda	probe	3	Three kits of one Uruguayan family, sharing one tree of 112 people. 21.4 cM / 2 segments to the eldest; 10.8 cM / 1 segment to the other two.	*** The only South American family in the corpus with a documented tree *** MyHeritage rates the eldest a 5th cousin at MEDIUM confidence and reports the ancestral places common to them as including ARGENTINA.
+Booyzen	control	6	Four outside this family, including one whose own surname is Bird and one whose is Daschner - Booyzen is only an ANCESTRAL surname in their trees.	*** THE CONTROL PASSES *** The search demonstrably reaches inside a match's family tree, not merely their own name. Without this the nulls above would be worthless.
+Booysen	control	25+	Filled the page.	The Cape spelling. The maternal side is richly represented.
+Kolbe	control	18	Fourteen outside this family.	Second control. Passes.
+Barry	control	25+	Filled the page.	Third control. Passes.
+Taylor	control	25+	Filled the page.	Fourth control, and the one that matters most: Taylor is Pablo Armando's WIFE's line. Her English kin are all over the corpus. His are not.

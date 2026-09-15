@@ -54,7 +54,7 @@ def rows(name):
 # hand lasted exactly until the next build, and the gate then reported nothing
 # to count for an archive with twenty outstanding items.
 for name in ("corrections", "errands", "gaps", "timeline", "photograph-these",
-             "sources-consulted", "taylor-line"):
+             "sources-consulted", "taylor-line", "dna-match-probes"):
     data = rows(name)
     (OUT / f"{name}.json").write_text(json.dumps(data, indent=1, ensure_ascii=False) + "\n",
                                       encoding="utf-8")

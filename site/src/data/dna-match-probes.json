@@ -1,0 +1,100 @@
+[
+ {
+  "probe": "Lerena",
+  "kind": "probe",
+  "hits": "2",
+  "what_came_back": "Her own son and her own nephew, and nobody else. Both are kits this account manages.",
+  "reading": "*** No Lerena outside this family appears in any of 11,114 trees *** The surname the whole archive turns on is absent from the match corpus."
+ },
+ {
+  "probe": "Llerena",
+  "kind": "probe",
+  "hits": "0",
+  "what_came_back": "Nothing.",
+  "reading": "The Uruguayan spelling - the one Sancho's 1791 marriage act uses. Absent."
+ },
+ {
+  "probe": "Lerina",
+  "kind": "probe",
+  "hits": "0",
+  "what_came_back": "Nothing.",
+  "reading": "The spelling his 1950 death was registered under, and the one CEMLA records as Italian. Absent."
+ },
+ {
+  "probe": "Larena",
+  "kind": "probe",
+  "hits": "1",
+  "what_came_back": "One Chilean, 9.37 cM on a single segment.",
+  "reading": "A single segment at 9 cM is below the threshold at which this archive would call anything. Recorded, not counted."
+ },
+ {
+  "probe": "Lorena",
+  "kind": "probe",
+  "hits": "1",
+  "what_came_back": "One kit whose GIVEN name is Lorena. Not the surname.",
+  "reading": "A false hit of the kind the search is prone to. Discarded."
+ },
+ {
+  "probe": "Yerena",
+  "kind": "probe",
+  "hits": "0",
+  "what_came_back": "Nothing.",
+  "reading": "A phonetic variant tried for completeness."
+ },
+ {
+  "probe": "Lenguas",
+  "kind": "probe",
+  "hits": "0",
+  "what_came_back": "Nothing.",
+  "reading": "*** This is the sharper of the two nulls *** Lerena Lenguas is the Montevideo trunk this archive's hypothesis reaches for. Lenguas is a rare surname. It is in none of the trees."
+ },
+ {
+  "probe": "Traibel",
+  "kind": "probe",
+  "hits": "0",
+  "what_came_back": "Nothing.",
+  "reading": "The other Montevideo compound - Lerena Traibel. Also rare, also absent."
+ },
+ {
+  "probe": "Ciganda",
+  "kind": "probe",
+  "hits": "3",
+  "what_came_back": "Three kits of one Uruguayan family, sharing one tree of 112 people. 21.4 cM / 2 segments to the eldest; 10.8 cM / 1 segment to the other two.",
+  "reading": "*** The only South American family in the corpus with a documented tree *** MyHeritage rates the eldest a 5th cousin at MEDIUM confidence and reports the ancestral places common to them as including ARGENTINA."
+ },
+ {
+  "probe": "Booyzen",
+  "kind": "control",
+  "hits": "6",
+  "what_came_back": "Four outside this family, including one whose own surname is Bird and one whose is Daschner - Booyzen is only an ANCESTRAL surname in their trees.",
+  "reading": "*** THE CONTROL PASSES *** The search demonstrably reaches inside a match's family tree, not merely their own name. Without this the nulls above would be worthless."
+ },
+ {
+  "probe": "Booysen",
+  "kind": "control",
+  "hits": "25+",
+  "what_came_back": "Filled the page.",
+  "reading": "The Cape spelling. The maternal side is richly represented."
+ },
+ {
+  "probe": "Kolbe",
+  "kind": "control",
+  "hits": "18",
+  "what_came_back": "Fourteen outside this family.",
+  "reading": "Second control. Passes."
+ },
+ {
+  "probe": "Barry",
+  "kind": "control",
+  "hits": "25+",
+  "what_came_back": "Filled the page.",
+  "reading": "Third control. Passes."
+ },
+ {
+  "probe": "Taylor",
+  "kind": "control",
+  "hits": "25+",
+  "what_came_back": "Filled the page.",
+  "reading": "Fourth control, and the one that matters most: Taylor is Pablo Armando's WIFE's line. Her English kin are all over the corpus. His are not."
+ }
+]

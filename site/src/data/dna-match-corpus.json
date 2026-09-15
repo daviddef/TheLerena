@@ -1,0 +1,62 @@
+{
+ "kit": "A living granddaughter of Pablo Armando Lerena. MyHeritage kit 23-AEBD42, uploaded 17 May 2018 from a 23andMe raw file.",
+ "read": "2026-09-16",
+ "privacy": "The kit holder is living and is not named. No DNA match is named. Counts, countries and centimorgans are about the corpus, not about individuals; where a match's tree is quoted, the people named from it are their deceased ancestors.",
+ "position": "She is one quarter Pablo Armando. Her other three grandparents are Mary Septima Taylor (English, of Devon and Suffolk) and two Booyzens (Cape Afrikaner). Anything in her DNA that is neither British nor Cape can only have come from him.",
+ "corpus": {
+  "total_matches": 11581,
+  "with_a_family_tree": 11114,
+  "with_a_computed_relationship_theory": 500,
+  "harvested_here": 6350,
+  "harvest_floor_cm": 13.78,
+  "note": "6,350 distinct matches were read down to 13.78 cM, which covers every match this archive would treat as meaningful. The pages overlap on ties, so a raw pull of 7,500 rows held 1,150 duplicates; these are de-duplicated on match id."
+ },
+ "thresholds": { "over_30_cM": 1017, "over_50_cM": 138, "over_100_cM": 8 },
+ "countries_of_residence": {
+  "not stated": 1253, "United Kingdom": 1052, "USA": 1029, "South Africa": 826,
+  "Australia": 487, "New Zealand": 288, "Netherlands": 267, "Ireland": 156,
+  "Germany": 152, "Canada": 128, "Denmark": 77, "Sweden": 74, "France": 48, "Norway": 36
+ },
+ "south_american_residents": [
+  {
+   "country": "Uruguay", "cm": 21.36, "segments": 2, "largest_cm": 11.31,
+   "myheritage_estimate": "5th cousin, medium confidence",
+   "note": "One of three kits of a single family sharing one tree of 112 people."
+  },
+  { "country": "Brazil", "cm": 16.66, "segments": 2, "note": "Below the threshold this archive acts on." },
+  { "country": "Brazil", "cm": 15.16, "segments": 2, "note": "Below the threshold this archive acts on." }
+ ],
+ "the_uruguayan_tree": {
+  "size": 112,
+  "what_it_is": "Basque-Navarrese and French-Basque, settled in Uruguay. Read 16 September 2026 at pedigree view, 27 of 112 people visible.",
+  "deceased_ancestral_surnames": [
+   "Ciganda", "Ziganda Erviti", "De Goni", "Rodriguez Salvatierra", "Pereyra",
+   "Barneche", "Larralde", "Iraola", "Echeverria", "Cha", "Arnaldi", "Giriboni",
+   "Larrieu", "Laclau", "Perrone"
+  ],
+  "oldest_named": "Francisco Ziganda Erviti; and Pedro Maria Ciganda, 1822-1882",
+  "verdict": "No Lerena, Llerena, Lenguas, Traibel, Aguilar or Fernandez anywhere in it. It is a real South American connection and it does not corroborate the hypothesis."
+ },
+ "relationship_theories": {
+  "count": 500,
+  "top_ten_all_resolve_to": "the Cape Afrikaner side",
+  "surnames_they_name": [
+   "Booyzen", "Booysen", "Barry", "Kolbe", "Kruger", "Venter", "Nel", "Basson",
+   "Louw", "Pretorius", "Botha", "Jordaan", "du Toit", "De Villiers", "Olivier",
+   "Visser", "Malan"
+  ],
+  "note": "Not one of the ten largest theories reaches Pablo Armando."
+ },
+ "kits_on_the_account_that_bear_on_this": [
+  { "role": "the granddaughter who tested", "use": "the subject of this analysis" },
+  { "role": "her son", "use": "confirms the kit; no independent value" },
+  {
+   "role": "her nephew, a Lerena by surname", "cm_to_her": 1889.05,
+   "use": "NONE for separating the lines, and that is worth writing down because it looks as though it should. He is her nephew, so he carries her father's line AND her mother's. He cannot subtract the Cape half."
+  },
+  {
+   "role": "her maternal aunt", "cm_to_her": 2035.27,
+   "use": "THE INSTRUMENT. She is on the Cape side only. Matches shared with her are maternal; matches absent from her list belong to the father - Lerena or Taylor. Her list has not yet been harvested."
+  }
+ ]
+}

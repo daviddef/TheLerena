@@ -1,0 +1,78 @@
+{
+ "kit": "The same living granddaughter of Pablo Armando Lerena, read at 23andMe on 16 September 2026. This is the account the MyHeritage kit was uploaded FROM in May 2018, so it is the same saliva, read twice by two companies with different reference panels.",
+ "why_it_matters": "Everything this archive has published about her ethnicity came from ONE company. A second reading of the same DNA is the nearest thing to an independent test that exists without a new sample.",
+ "privacy": "She is living and is not named. Only the figures that bear on Pablo Armando, dead since 1950, are recorded.",
+ "ancestry_composition": {
+  "version_dated": "2021-07-28",
+  "note": "23andMe's older composition version. A newer one may exist behind Version History and has not been read.",
+  "european_total": 98.5,
+  "breakdown": {
+   "Northwestern European": 87.1,
+   "French & German": 36.2,
+   "British & Irish": 35.9,
+   "Scandinavian": 2.3,
+   "Broadly Northwestern European": 12.7,
+   "Southern European": 11.4,
+   "Italian": 8.0,
+   "Spanish & Portuguese": 2.1,
+   "Broadly Southern European": 1.3,
+   "Central & South Asian": 0.5,
+   "Northern Indian & Pakistani": 0.5,
+   "Sub-Saharan African": 0.5,
+   "Angolan & Congolese": 0.5,
+   "Trace Ancestry": 0.3,
+   "Unassigned": 0.2
+  },
+  "sub_regions_named": {
+   "British & Irish": ["Greater London, United Kingdom", "County Cork, Republic of Ireland", "+15 regions"],
+   "Italian": ["Sicily, Italy", "+2 regions"]
+  }
+ },
+ "against_myheritage": {
+  "Iberian": { "myheritage": 0.0, "23andme": 2.1,
+   "reading": "MyHeritage found NO Iberian. 23andMe finds some. The published claim that there is no Spanish component whatever is a claim about one company's reference panel, not about her DNA." },
+  "Italian": { "myheritage": 11.1, "23andme": 8.0,
+   "reading": "Both companies find Italian in a woman whose other three grandparents are English and Cape Afrikaner. This is the strongest thing in the whole DNA file: two panels, one signal." },
+  "Italian_direction": { "myheritage": "northern-dominant - North 6.1, South 3.6, Sardinian 1.4",
+   "23andme": "SICILY, plus two further regions",
+   "reading": "They point in opposite directions. The archive used the northern split to argue for the Ligurian and Piedmontese emigration that built Rosario. 23andMe argues the other way, and that argument has to be withdrawn as a DNA argument." }
+ },
+ "arithmetic_on_pablo_armando": {
+  "her_share_of_him": 0.25,
+  "italian_implied_in_him": "32% on 23andMe's 8.0; 44% on MyHeritage's 11.1",
+  "iberian_implied_in_him": "8% on 23andMe's 2.1; nil on MyHeritage",
+  "caveat": "A quarter is a small denominator and both numbers carry large error bars. 23andMe's French & German region borders Piedmont and Liguria, so a northern Italian great-grandparent can be read partly into it - which is an argument for reading the 36.2% French & German with care, not against the Italian."
+ },
+ "dna_relatives": {
+  "total": 1500,
+  "note": "23andMe shows at most 1,500 without a subscription.",
+  "closest": "her son; her maternal aunt at 29.94%; a first cousin at 13.87%; a first cousin once removed at 7.41%; then second cousins at 2.2% and below.",
+  "ancestor_birthplace_census": {
+   "what_it_is": "A structured facet: how many of the 1,500 relatives report at least one grandparent born in each country. This is a field they filled in, not a guess from residence.",
+   "countries": { "ZA": 581, "US": 144, "GB": 135, "IE": 28, "ZW": 25, "CA": 21, "NL": 19,
+     "NA": 13, "IT": 10, "DE": 10, "AU": 8, "ZM": 8, "PT": 7, "UA": 6, "FR": 5, "PL": 5,
+     "HR": 3, "MU": 3, "SE": 3, "BW": 3 },
+   "south_america_or_iberia": "NONE. Not Argentina, not Uruguay, not Spain. Twenty countries are listed and none of them is either.",
+   "italy": "Ten relatives report an Italian grandparent, five report two, and ONE reports all four grandparents born in Italy."
+  },
+  "top_surnames_facet": { "Botha": 30, "Pretorius": 20, "Kruger": 19, "Venter": 19, "Nel": 18,
+    "Smith": 18, "Smit": 18, "Erasmus": 17, "Du Plessis": 16, "Coetzee": 15, "Potgieter": 14,
+    "Fourie": 12, "Swanepoel": 12, "Vorster": 11, "Williams": 11, "Snyman": 10, "Swart": 10,
+    "Jacobs": 10, "Strydom": 9,
+    "note": "The facet shows only the top twenty, so it CANNOT be used to say a surname is absent." }
+ },
+ "what_could_not_be_done": [
+  { "thing": "Parental Inheritance - which half of her ancestry came from which parent",
+    "why": "Behind 23andMe+ Premium. This session does not pay for sources.",
+    "worth": "It is the single most valuable unpurchased thing in this file. It would say outright whether the Italian 8.0% sits on her father's side, where Pablo Armando is, or her mother's, where the Cape is. It would settle in one screen what this whole page argues around." },
+  { "thing": "Mother's side / Father's side filter on DNA Relatives",
+    "why": "Collapsed, and on the same premium footing.",
+    "worth": "Would split the 1,500 relatives by parent." }
+ ],
+ "a_control_that_failed": {
+  "what_was_tried": "The DNA Relatives free-text box, on the assumption that it searched relatives' family names and locations the way MyHeritage's does.",
+  "what_happened": "A run of surname and place probes all returned zero - including Lerena. Before recording a single one of them, the controls were run: BOTHA returned 0, and SOUTH AFRICA returned 0, when the facets on the same screen show thirty Bothas and 581 relatives with a South African grandparent.",
+  "conclusion": "The box searches display names and the user's own notes, and nothing else. Every null it produced is worthless and none is recorded as a finding. The only figure kept from it is that no relative is DISPLAY-NAMED Lerena except her own son.",
+  "rule": "This is what the control-before-null rule is for. Twelve nulls were about to be written down."
+ }
+}

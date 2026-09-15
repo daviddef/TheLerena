@@ -1,6 +1,15 @@
 ---
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
+import tm from "../data/dna-23andme.json";
+import corpus from "../data/dna-match-corpus.json";
+import probes from "../data/dna-match-probes.json";
+const C = tm.ancestry_composition.breakdown;
+const bp = tm.dna_relatives.ancestor_birthplace_census.countries;
+const bpList = Object.entries(bp).sort((a, b) => b[1] - a[1]);
+const probeRows = probes.filter((r) => r.kind === "probe");
+const controlRows = probes.filter((r) => r.kind === "control");
+const em = (t) => t.replace(/\*\*\* (.+?) \*\*\*/g, "<strong>$1</strong>");
 ---
 <Base title="The DNA"
       eyebrow="A third leg under the Argentine origin — and a better question"
@@ -51,19 +60,34 @@ import { u } from "../lib/url.js";
   <p class="dek">Here the result is more interesting than comfortable.</p>
   <div class="grid g2" style="margin-top:20px">
     <div class="panel"><div class="nm">0.0%</div>
-      <div class="txt">Iberian in her profile &mdash; <strong>none at all</strong></div></div>
+      <div class="txt">Iberian <strong>at MyHeritage</strong> &mdash; none at all.
+        <br /><span class="cap">23andMe, reading the same saliva, finds <strong>2.1%</strong>.
+        See below.</span></div></div>
     <div class="panel"><div class="nm">11.1%</div>
-      <div class="txt">Italian &mdash; North 6.1, South 3.6, Sardinian 1.4</div></div>
+      <div class="txt">Italian <strong>at MyHeritage</strong> &mdash; North 6.1, South 3.6, Sardinian 1.4.
+        <br /><span class="cap">23andMe finds <strong>8.0%</strong>, and calls it Sicilian.</span></div></div>
   </div>
   <div class="prose" style="margin-top:22px">
-    <p><strong>There is no Spanish component whatever.</strong> If Pablo Armando had been the
-      Spanish-descended criollo this archive has quietly assumed, a granddaughter should carry something
-      in the order of <strong>25% Iberian</strong>. She carries none.</p>
+    <div class="note" style="margin-bottom:18px"><strong>This paragraph was written on one company&rsquo;s
+      reading and has been corrected.</strong> On <strong>16 September 2026</strong> the same DNA was read
+      at 23andMe, and it returns <strong>2.1% Spanish &amp; Portuguese</strong> where MyHeritage returns
+      nothing. The sentence below is kept, struck through in substance rather than deleted, because the
+      hypothesis it launched is still on this page and a reader is owed the correction beside the claim.
+      <a href={u("/corrections/")}>The corrections &rarr;</a></div>
+    <p><strong>There is no Spanish component whatever</strong> &mdash; <em>at MyHeritage</em>. If Pablo
+      Armando had been the Spanish-descended criollo this archive has quietly assumed, a granddaughter
+      should carry something in the order of <strong>25% Iberian</strong>. MyHeritage gives her none;
+      23andMe gives her 2.1%, which is <em>also</em> far short of 25%, so the shape of the argument
+      survives even though the flat zero does not.</p>
     <p>What she does carry is <strong>Italian</strong> &mdash; and her other three grandparents are
       English and Afrikaner, so it has nowhere else to come from. At one quarter, <strong>11.1% in her
       implies roughly 44% in him: about one Italian parent.</strong></p>
-    <p>And the split is <strong>northern-dominant</strong>, 6.1% against 3.6% &mdash; the signature of the
-      Ligurian and Piedmontese emigration that made Rosario the most Italian city in Argentina.</p>
+    <p>And at MyHeritage the split is <strong>northern-dominant</strong>, 6.1% against 3.6% &mdash; which
+      this archive read as the signature of the Ligurian and Piedmontese emigration that made Rosario the
+      most Italian city in Argentina. <strong>23andMe points the other way and names Sicily.</strong>
+      Two panels agree that the Italian is there and disagree about which end of Italy it came from, so
+      <strong>the northern reading is withdrawn as a DNA argument</strong>. The Ligurian names in the
+      Rosario register are still in the Rosario register; they were never a DNA claim.</p>
   </div>
 </section>
 
@@ -147,6 +171,189 @@ import { u } from "../lib/url.js";
       That is what a clean four-grandparent reading looks like, and it makes the Argentine group
       <em>harder</em> to explain away rather than easier. <strong>The thing it proves, it proves more
       firmly than before.</strong></p>
+  </div>
+</section>
+
+<section class="blk">
+  <h2>A second company read the same saliva</h2>
+  <p class="dek"><strong>16 September 2026.</strong> Everything above came from one company. The
+    MyHeritage kit was uploaded in May 2018 from a <strong>23andMe</strong> account, so the same sample
+    has been read twice, by two laboratories, against two different reference panels. That is the nearest
+    thing to an independent test that exists without taking a new swab &mdash; and on two points it
+    disagrees with what this page has been saying.</p>
+
+  <div class="scroll" style="margin-top:20px">
+    <table>
+      <thead><tr><th>Her profile at 23andMe</th><th class="m">%</th><th>Whose it is</th></tr></thead>
+      <tbody>
+        <tr><td><strong>French &amp; German</strong></td><td class="m">{C["French & German"]}</td>
+          <td>the Cape. Huguenot and German, which is what an Afrikaner grandparent pair is made of.</td></tr>
+        <tr><td><strong>British &amp; Irish</strong></td><td class="m">{C["British & Irish"]}</td>
+          <td>Mary Septima Taylor, and the Cape&rsquo;s British layer. Named down to
+            <em>Greater London</em> and <em>County Cork</em>.</td></tr>
+        <tr><td>Broadly Northwestern European</td><td class="m">{C["Broadly Northwestern European"]}</td><td>unresolved northern European.</td></tr>
+        <tr><td><strong>Italian</strong></td><td class="m">{C["Italian"]}</td>
+          <td><strong>nowhere to come from but Pablo Armando</strong> &mdash; and 23andMe names
+            <strong>Sicily</strong>.</td></tr>
+        <tr><td><strong>Spanish &amp; Portuguese</strong></td><td class="m">{C["Spanish & Portuguese"]}</td>
+          <td>small, but <strong>not zero</strong>, where MyHeritage gave zero.</td></tr>
+        <tr><td>Scandinavian</td><td class="m">{C["Scandinavian"]}</td><td>the Cape again.</td></tr>
+        <tr><td><strong>Angolan &amp; Congolese</strong></td><td class="m">{C["Angolan & Congolese"]}</td>
+          <td rowspan="2"><strong>the Cape, and unambiguously.</strong> A trace of West Central African
+            and a trace of South Asian together are the signature of the eighteenth-century Cape &mdash;
+            the slave households the Booyzen line comes out of. It belongs to her mother&rsquo;s side and
+            it is written up in the <a href="https://daviddef.github.io/TheBooyzen/dna/">Booyzen
+            archive</a>.</td></tr>
+        <tr><td><strong>Northern Indian &amp; Pakistani</strong></td><td class="m">{C["Northern Indian & Pakistani"]}</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="cap" style="margin-top:10px">23andMe composition version of {tm.ancestry_composition.version_dated}.
+    European total {tm.ancestry_composition.european_total}%.</p>
+
+  <div class="panel" style="border-left:3px solid var(--accent);margin:24px 0">
+    <div class="lab">The one thing two companies agree on</div>
+    <p class="lede" style="margin:10px 0 0">Italian &mdash; <strong>11.1%</strong> at MyHeritage,
+      <strong>8.0%</strong> at 23andMe</p>
+    <p style="margin-top:10px">Two laboratories, two reference panels, one signal, in a woman whose other
+      three grandparents are English and Cape Afrikaner. <strong>This is now the best-supported thing in
+      the whole DNA file</strong> &mdash; better supported than the 0% Iberian it was originally hung on,
+      because that figure turned out to be one company&rsquo;s opinion and this one did not.</p>
+    <p class="cap" style="margin-top:10px">At a quarter, {C["Italian"]}% in her implies roughly
+      <strong>32%</strong> in him; MyHeritage&rsquo;s figure implies 44%. Somewhere between one Italian
+      parent and one Italian grandparent. The error bars on a quarter are large and that range is the
+      honest width of them.</p>
+  </div>
+
+  <div class="note"><strong>And one thing that is behind a paywall.</strong> 23andMe will say
+    <em>which parent</em> each slice of ancestry came from &mdash; it is called Parental Inheritance, and
+    it does not need a parent to have tested. <strong>It would say outright whether the Italian sits on
+    her father&rsquo;s side, where Pablo Armando is, or her mother&rsquo;s, where the Cape is.</strong>
+    That is the question this entire page argues around, and one screen would answer it. It requires
+    23andMe+ Premium, and <strong>this archive does not buy sources</strong>. It is on
+    <a href={u("/worklist/")}>the work list</a> as David&rsquo;s.</div>
+</section>
+
+<section class="blk">
+  <h2>Eleven thousand cousins, and not one of them is a Lerena</h2>
+  <p class="dek">The ethnicity estimates are models. <strong>Matches are people.</strong> On 16 September
+    2026 her match lists were read properly for the first time &mdash; <strong>{corpus.corpus.total_matches.toLocaleString()} at
+    MyHeritage</strong>, of which <strong>{corpus.corpus.with_a_family_tree.toLocaleString()} have a family
+    tree attached</strong>, and <strong>{tm.dna_relatives.total.toLocaleString()} at 23andMe</strong>.
+    {corpus.corpus.harvested_here.toLocaleString()} of the MyHeritage matches were pulled down to
+    {corpus.corpus.harvest_floor_cm} cM, which covers everything this archive would act on.</p>
+
+  <h3 style="margin-top:26px">First, the control</h3>
+  <div class="prose">
+    <p>A null is worth nothing until something known returns in the same form. Four surnames from the
+      <em>other</em> three grandparents were run first, and all four came back &mdash; including matches
+      for whom the surname appears <strong>only inside their family tree</strong>, never in their own
+      name. <strong>The search reaches into trees.</strong> Only then were the nulls believed.</p>
+  </div>
+  <div class="scroll" style="margin-top:16px">
+    <table>
+      <thead><tr><th style="width:9rem">Control</th><th class="m">Hits</th><th>What came back</th></tr></thead>
+      <tbody>
+        {controlRows.map((r) => (
+          <tr><td><strong>{r.probe}</strong></td><td class="m">{r.hits}</td>
+            <td>{r.what_came_back} <span class="cap" set:html={em(r.reading)} /></td></tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <h3 style="margin-top:30px">Then the name itself</h3>
+  <div class="scroll" style="margin-top:16px">
+    <table>
+      <thead><tr><th style="width:9rem">Probe</th><th class="m">Hits</th><th>What came back, and what it means</th></tr></thead>
+      <tbody>
+        {probeRows.map((r) => (
+          <tr><td><strong>{r.probe}</strong></td><td class="m">{r.hits}</td>
+            <td>{r.what_came_back} <span class="cap" set:html={em(r.reading)} /></td></tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <div class="note" style="margin-top:22px"><strong>The sharpest of those is not Lerena. It is
+    Lenguas.</strong> The hypothesis on this site reaches for the Montevideo trunk &mdash; Luis
+    <strong>Lerena Lenguas</strong>, and the Lerena Traibels beside him. Both compounds are rare. Both
+    return <strong>nothing</strong>, in {corpus.corpus.with_a_family_tree.toLocaleString()} trees.
+    <a href={u("/hypotheses/")}>The hypotheses &rarr;</a></div>
+
+  <h3 style="margin-top:30px">Where her cousins actually are</h3>
+  <p class="dek">23andMe asks every tester to name the countries their grandparents were born in. This is
+    a field they filled in themselves, not a guess from where they live now. Across her
+    {tm.dna_relatives.total.toLocaleString()} closest relatives, <strong>twenty countries</strong> are
+    named.</p>
+  <div class="scroll" style="margin-top:16px">
+    <table>
+      <thead><tr><th>Country a relative names a grandparent from</th><th class="m">Relatives</th></tr></thead>
+      <tbody>
+        {bpList.map(([cc, n]) => (
+          <tr><td>{cc}</td><td class="m">{n}</td></tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  <div class="panel" style="border-left:3px solid var(--ochre,#8a7f5c);margin:22px 0">
+    <p style="margin:0"><strong>Not one of the twenty is in South America, and not one is Iberian.</strong>
+      No Argentina. No Uruguay. No Spain. <strong>Italy is ninth, with ten</strong> &mdash; five of whom
+      name two Italian grandparents, and <strong>one of whom names all four</strong>.</p>
+  </div>
+  <div class="prose">
+    <p>The MyHeritage side says the same thing in its own way. Of the
+      {corpus.corpus.harvested_here.toLocaleString()} matches read, <strong>three live in South
+      America</strong> &mdash; one Uruguayan and two Brazilians, the Brazilians both under 17 cM and
+      below anything this archive acts on. Against them: {corpus.countries_of_residence["United Kingdom"].toLocaleString()} in
+      the United Kingdom, {corpus.countries_of_residence.USA.toLocaleString()} in the United States and
+      {corpus.countries_of_residence["South Africa"]} in South Africa.</p>
+    <p>And MyHeritage has computed a documented relationship path &mdash; a Theory of Family Relativity
+      &mdash; for <strong>{corpus.relationship_theories.count}</strong> of her matches.
+      <strong>Every one of the ten largest resolves to the Cape</strong>: Booyzen, Barry, Kolbe, Kruger,
+      Pretorius, Botha, Jordaan, du Toit, De Villiers, Malan. <strong>Not one of them reaches Pablo
+      Armando.</strong></p>
+  </div>
+
+  <h3 style="margin-top:30px">The one South American family, read</h3>
+  <div class="prose">
+    <p>There is exactly one. A <strong>Uruguayan family</strong> &mdash; three kits sharing a single tree
+      of <strong>{corpus.the_uruguayan_tree.size} people</strong>. The eldest of the three shares
+      <strong>21.4 cM across two segments</strong>, largest 11.3; MyHeritage rates him a
+      <strong>fifth cousin at medium confidence</strong>, and reports that the ancestral places common to
+      him and her <strong>include Argentina</strong>. They are living and are not named here. Their tree
+      was opened and read.</p>
+    <p>It is <strong>Basque-Navarrese and French-Basque</strong>, settled in Uruguay:
+      {corpus.the_uruguayan_tree.deceased_ancestral_surnames.join(", ")} &mdash; back to
+      <em>{corpus.the_uruguayan_tree.oldest_named}</em>. Those people are long dead, which is why they can
+      be named here when the living cannot.</p>
+    <p><strong>There is no Lerena in it.</strong> No Llerena, no Lenguas, no Traibel, no Aguilar, no
+      Fernández. It is a real Río de la Plata connection and <strong>it does not corroborate the
+      hypothesis</strong>. At 21 cM on a largest segment of 11 it is also close enough to the noise floor
+      that this archive would not build on it either way.</p>
+  </div>
+</section>
+
+<section class="blk">
+  <h2>So what does all that do to the case?</h2>
+  <div class="prose">
+    <p><strong>It pulls in two directions, and both have to be said.</strong></p>
+    <p><strong>Stronger:</strong> the Italian. It now rests on two companies rather than on one
+      company&rsquo;s zero. That is a different class of evidence from where it stood this morning.</p>
+    <p><strong>Weaker:</strong> the Uruguayan trunk. If Pablo Armando descended from Sancho Llerena&rsquo;s
+      Montevideo family &mdash; eight children born 1793&ndash;1815, and a visible nineteenth-century
+      presence in the city &mdash; then somewhere among 11,581 matches with
+      {corpus.corpus.with_a_family_tree.toLocaleString()} trees, and 1,500 more at another company, a
+      cousin of that family might be expected to appear. <strong>None does.</strong></p>
+    <p><strong>And the honest counterweight to that.</strong> Twenty countries of grandparent-birth among
+      1,500 relatives, and <em>none</em> of them South American, is not really a fact about this family
+      &mdash; it is a fact about <strong>who buys DNA tests</strong>. Uruguay and Argentina are barely
+      present in either database. An absence measured in a place where nobody is standing is a weak
+      absence, and this page will not pretend otherwise.</p>
+    <p><strong>What would actually settle it</strong> is not more searching. It is
+      <strong>Parental Inheritance</strong>, which would put the Italian on one side of her or the other;
+      and a Rosario baptism for Pablo Armando naming his father. One costs a subscription. The other is
+      in a Córdoba parish register that is not filmed.</p>
   </div>
 </section>
 
