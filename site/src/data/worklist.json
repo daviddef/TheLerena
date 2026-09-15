@@ -766,11 +766,11 @@
   },
   {
    "n": 96,
-   "what": "Generate AutoClusters for both kits",
-   "state": "next",
+   "what": "Generate AutoClusters for the kits — done, and it is the sharpest result in the file",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-16",
-   "note": "MyHeritage groups matches into clusters descended from common ancestors. With 500 computed relationship theories already on the kit, the clusters would separate the Cape families from whatever is left. The generate button resisted three synthetic clicks today; it wants a real one, and the report is emailed rather than shown, so it will not complete inside one session."
+   "note": "**David generated them on 15 September 2026 and they were read on the 16th** — for the granddaughter, for her nephew (the only other tested Lerena) and for her son. *** Her fourteen clusters are exhaustively Cape Afrikaner and British Isles; not one Spanish, Italian, Argentine or Uruguayan surname appears on her chart *** **The son's chart is the control that makes this readable**: it carries two plainly Croatian clusters for HIS father, so the tool does form a block for a foreign paternal line when cousins from it have tested. *** It found his father's line. It did not find hers. *** The nephew's chart was the surprise — nineteen clusters, almost all Ashkenazi, which is his mother's family; he shares exactly three clustered matches with his aunt and all three sit in her Cape cluster. Written up on `/dna/` with `site/src/data/dna-autoclusters.json`."
   },
   {
    "n": 97,

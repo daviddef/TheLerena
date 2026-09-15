@@ -4,6 +4,7 @@ import { u } from "../lib/url.js";
 import tm from "../data/dna-23andme.json";
 import corpus from "../data/dna-match-corpus.json";
 import probes from "../data/dna-match-probes.json";
+import ac from "../data/dna-autoclusters.json";
 const C = tm.ancestry_composition.breakdown;
 const bp = tm.dna_relatives.ancestor_birthplace_census.countries;
 const bpList = Object.entries(bp).sort((a, b) => b[1] - a[1]);
@@ -351,6 +352,55 @@ const em = (t) => t.replace(/\*\*\* (.+?) \*\*\*/g, "<strong>$1</strong>");
 </section>
 
 <section class="blk">
+  <h2>And then the clusters came back</h2>
+  <p class="dek">David generated <strong>MyHeritage AutoClusters</strong> on three kits the same evening.
+    The tool groups a person&rsquo;s matches into blocks that all match <em>each other</em> as well as the
+    tester &mdash; so each block is, in practice, <strong>one ancestral couple&rsquo;s descendants</strong>.
+    It is the sharpest instrument either company offers, and it needs no interpretation from this archive
+    to be read.</p>
+
+  <div class="panel" style="border-left:3px solid var(--accent-2,#5c8a5c);margin:22px 0">
+    <div class="lab">The control &mdash; and it is her son&rsquo;s chart, not hers</div>
+    <p style="margin:10px 0 0">{ac.the_control_that_makes_this_readable.what_it_shows}</p>
+    <p style="margin-top:10px"><strong>{ac.the_control_that_makes_this_readable.why_it_matters}</strong></p>
+  </div>
+
+  <h3 style="margin-top:26px">Her chart: {ac.the_finding.her_clusters} clusters,
+    {ac.the_finding.her_matches_clustered} matches, floor {ac.the_finding.her_cM_floor} cM</h3>
+  <div class="scroll" style="margin-top:16px">
+    <table>
+      <thead><tr><th class="m">Cluster</th><th class="m">Size</th><th class="m">cM</th>
+        <th>The families in it</th></tr></thead>
+      <tbody>
+        {ac.kits.Cheryl.detail.map((c) => (
+          <tr><td class="m">{c.cluster}</td><td class="m">{c.size}</td>
+            <td class="m">{c.cM_low}&ndash;{c.cM_high}</td>
+            <td>{c.tree_surnames.join(", ")}</td></tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <div class="panel" style="border-left:3px solid var(--ochre,#8a7f5c);margin:24px 0">
+    <p class="lede" style="margin:0">{ac.the_finding.not_one}</p>
+    <p style="margin-top:12px"><strong>{ac.the_finding.the_shape_of_it}</strong></p>
+  </div>
+
+  <h3 style="margin-top:26px">The nephew&rsquo;s chart, which nobody expected</h3>
+  <div class="prose">
+    <p>The only other Lerena who has tested produced <strong>{ac.the_nephew.clusters} clusters</strong>
+      &mdash; and {ac.the_nephew.surprise}</p>
+    <p><strong>He shares exactly {ac.the_nephew.shared_with_his_aunt} clustered matches with his
+      aunt.</strong> {ac.the_nephew.and_where}</p>
+    <p>{ac.the_nephew.reading}</p>
+  </div>
+
+  <div class="note" style="margin-top:22px"><strong>The limit, stated before anyone else states it.</strong>
+    {ac.the_honest_limit.what_it_means} {ac.the_honest_limit.so}
+    <br /><br /><strong>{ac.the_honest_limit.not_a_disproof}</strong></div>
+</section>
+
+<section class="blk">
   <h2>So what does all that do to the case?</h2>
   <div class="prose">
     <p><strong>It pulls in two directions, and both have to be said.</strong></p>
@@ -361,6 +411,11 @@ const em = (t) => t.replace(/\*\*\* (.+?) \*\*\*/g, "<strong>$1</strong>");
       presence in the city &mdash; then somewhere among 11,581 matches with
       {corpus.corpus.with_a_family_tree.toLocaleString()} trees, and 1,500 more at another company, a
       cousin of that family might be expected to appear. <strong>None does.</strong></p>
+    <p><strong>And the clusters put that in its hardest form.</strong> Her fourteen clusters are
+      exhaustively Cape and British. Her son&rsquo;s chart, run the same night, throws up
+      <strong>two Croatian clusters</strong> for <em>his</em> father &mdash; so the tool plainly does find
+      a foreign paternal line when one has tested. <strong>It found his father&rsquo;s. It did not find
+      hers.</strong></p>
     <p><strong>And the honest counterweight to that.</strong> Twenty countries of grandparent-birth among
       1,500 relatives, and <em>none</em> of them South American, is not really a fact about this family
       &mdash; it is a fact about <strong>who buys DNA tests</strong>. Uruguay and Argentina are barely
