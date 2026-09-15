@@ -723,6 +723,22 @@
    "owner": "this archive",
    "since": "2026-09-16",
    "note": "**Built 16 September 2026**, after David pointed at the Luwinski archive's home page, where the line of record and the line the DNA points to run side by side. **The Lerena equivalent is now the second section of the front page**: *The line of record* (Rosario, Wynberg, Newlands, Germiston — a document behind every step) beside *The line this archive infers* (Sancho Llerena and María Fernández, married at Canelones 8 January 1791; their eight children; the Montevideo trunk; Luis Lerena Lenguas). **The point of the drawing is the row where they fail to meet** — Pablo Armando's own 1908 enrolment card names **Juan Carlos Lerena and María Lerena**, and *no Juan Carlos Lerena appears in any indexed record in Argentina or Uruguay*. That row is dashed in both lanes. Checked rendered at desktop and mobile; it stacks and does not overflow."
+  },
+  {
+   "n": 91,
+   "what": "Fix /bloodline/ — nobody is drawn twice, and nobody is their own brother",
+   "state": "done",
+   "owner": "this archive",
+   "since": "2026-09-16",
+   "note": "**Raised by David, 16 September 2026**, looking at Nuno Fernando's chart: *\"2 juan carlos lerena's and 2 mario lerenas and mary septima twice.\"* Two faults, both in the kit's drawing rather than in this archive's data. **First**, a husband or wife was always drawn as a chip beside the person, with no check that they were already on the chart in their own right — and every married pair of ancestors is two blood relatives, so each got a box AND a chip of the other. *** 13 relatives came out in 22 boxes *** A chip is now drawn only for somebody the chart does not already hold; where both halves are on it, they are seated together and the marriage is a tie between them. **The test is the slug, never the name.** **Second**, the register deliberately keeps a row for the mangled machine-index reading of Pablo Armando, so the false trail stays visible — and the sibling pass handed that row its own person as a brother. An alias now folds onto the person it is a spelling of. Fixed in the kit (`bloodline.js`, `bloodline.client.js`, commits `7f776b3` and `45b37a7`) and in `tools/build-people.py`; kit repinned. Checked against all six archives that draw this chart: the graph is byte-identical for five, and Lerena loses exactly the one alias."
+  },
+  {
+   "n": 92,
+   "what": "The other five archives need repinning to pick up the /bloodline/ fix",
+   "state": "next",
+   "owner": "the kit & estate",
+   "since": "2026-09-16",
+   "note": "This was never a Lerena-only fault — it was worst in the biggest families. Counted across every chart in every archive, *** 218,856 duplicate boxes *** were being drawn. **Mazza's chart for Frank Mazza drew 232 of its 530 people twice; Falco's for Costanza Abatiello, 193 of 453; Blazevic's for Petar Blazevic, 24 of 92.** They are all still pinned to a kit from before `45b37a7` and will keep drawing the doubled chart until each repins. **Not this archive's to do** — recorded here because it was found here, per the rule about things belonging to another archive."
   }
  ],
  "accounts": [

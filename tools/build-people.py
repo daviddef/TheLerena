@@ -162,8 +162,13 @@ if REL.exists():
             if other != nm and other.startswith(cand):
                 return other
         return None
+    # Written as {slug, name}, not as a bare name. The blood chart folds an alias onto the person
+    # it is a spelling of - so that a man is not drawn twice, once under each reading - and it will
+    # only do that on a SLUG. Handing it a name would be asking it to decide that two rows are one
+    # person by looking at what they are called, which is the one thing that library refuses to do.
     for p in people:
-        p["aliasOf"] = alias_target(p["name"])
+        tgt = alias_target(p["name"])
+        p["aliasOf"] = {"slug": by_name[tgt]["slug"], "name": tgt} if tgt else None
 
     # A father/mother edge is also a CHILD edge seen from the other end. Until 13 September 2026
     # this was not reversed, so every parent in the archive showed an empty children list unless
@@ -196,6 +201,12 @@ if REL.exists():
             if par:
                 kids_of.setdefault(par["name"], set()).add(p["name"])
     for p in people:
+        # An alias shares its person's parents, so the sibling pass handed it its own self as a
+        # brother: /bloodline/ drew Pablo Armando standing next to Pablo Armando, labelled
+        # "aunt or uncle". An alias has no brothers and sisters of its own; the person does.
+        if p.get("aliasOf"):
+            p["siblings"] = []
+            continue
         sibs = set()
         for par in (p["father"], p["mother"]):
             if par:

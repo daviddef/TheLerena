@@ -4180,16 +4180,12 @@
   },
   "spouses": [],
   "children": [],
-  "siblings": [
-   {
-    "name": "Pablo Armando LERENA (Robert Paul; \"Bob\")",
-    "dates": "",
-    "slug": "pablo-armando-lerena",
-    "via": "register"
-   }
-  ],
+  "siblings": [],
   "isLine": false,
-  "aliasOf": "Pablo Armando LERENA (Robert Paul; \"Bob\")",
+  "aliasOf": {
+   "slug": "pablo-armando-lerena",
+   "name": "Pablo Armando LERENA (Robert Paul; \"Bob\")"
+  },
   "relTotal": 2,
   "relRegister": 2,
   "relTree": 0
