@@ -138,7 +138,7 @@
    "state": "blocked",
    "owner": "David",
    "since": "2026-09-15",
-   "note": "The shared note that both archives keep says **gendatabase.com's terms forbid republishing without written permission**. This archive read that note only after it had already published. What is exposed is narrow but real: this repository is **public**, and the commit carrying the gendatabase harvest is already pushed. The people were in the archive before — Ricardo Juan Carlos and Doreen May Chappell came from the South African deceased-estates index and NAAIRS — but **the birth, death and marriage years are gendatabase's**, and they appear with attribution on [errands](/errands/) and in `data/gendatabase-sa.tsv`. Citing a source and stating a handful of facts from it is ordinary practice; whether their terms allow it is **not this session's call to make**. Nothing further from that source is published until David decides, and no attempt has been made to quietly strip the attribution, which would be worse than the original mistake."
+   "note": "**Materially reduced, 15 September 2026.** David chose to re-source rather than argue fair citation, and the South African Government Gazette — free and official — carried more than the index did. **The three sons of the 1950 estate are now off the commercial source entirely**: Ricardo Juan Carlos with exact dates, Nuno Fernando with exact dates and a wife nobody knew of, Rogue Luis Armando with his identity number. What is **still gendatabase's alone** is the later generation — Doreen May, Roberto Juan Roque, Brigitte Zaage, Anton Armando, Patricia MacEwan, Jeanette Riekstins, Belinda Michael, Paul Raymond, Rhena May, and the five deaths of 1999. Their gazette notices exist and are located but unread, so the decision is narrower than it was but not gone. **The attribution has still not been stripped.**"
   },
   {
    "n": 18,
@@ -147,6 +147,14 @@
    "owner": "this archive",
    "since": "2026-09-15",
    "note": "Two things stand between *the book is indexed and he is not in it* and a finding this archive would publish. **One:** open any of the 22 hits and resolve its ark to a film number — the collection is labelled *1812–1814* while its snippets carry *1789–1792*, so the label cannot be trusted and nobody has yet shown these hits are **DGS 7713373**. **Two:** finish the variant sweeps — «Sancho Lerena» and «Sancho Lorena» were never run, because Error 15 returned between the control and them. Both are single searches."
+  },
+  {
+   "n": 19,
+   "what": "Finish the gazette re-sourcing — five estate notices already located",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "Located on gazettes.africa and not yet opened: **16409/00** (Doreen May — the J187 of 2001 gives only the executor, so her J193 should be in a gazette of **2000**), and Lerena estate notices at **15127/2013**, **017515/2022**, **17814/2023** and **017114/2024**. The 2013 one may settle the Anton Armando contradiction on its own. **Method, which works:** the site is behind Cloudflare but the PDFs are open at `archive.gazettes.africa/archive/za/<year>/<slug>.pdf` — fetch, `pdftotext -layout`, and **print context rather than grep matches**, because the gazette sets two columns and a bare grep will weld two strangers into one person. Also found and not chased: a 1986 notice for **Lerena Racing Stables**, which belongs on [the horses page](/horses/)."
   }
  ]
 }
