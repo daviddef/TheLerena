@@ -59,3 +59,66 @@ woman who had been thanked fourteen hours before, about a different family.
   `/search/api.php?action=page&sid=<SID>&offset=N` returns clean JSON.
   **Its terms forbid republishing without written permission.**
 - **NAAIRS** — `national.archsrch.gov.za`, free, session-chained forms. Estate and court files.
+
+
+---
+
+## Home Affairs certificates — the rule, and where it came from (added 15 September 2026)
+
+**Do not draft another letter asking the South African Department of Home Affairs for a certificate
+by email. It is not a mechanism that exists.**
+
+Source: **Heather MacAlister, Ancestors Research South Africa**, `heather@ancestors.co.za`, to David
+on **11 May 2020**, in the Lerena/Booyzen thread (Gmail `1720deb1fca8f731`):
+
+> … abridged, unabridged or vault can only be applied for **in person (only)** at any Department of
+> Home Affairs. If the person applying for it is not for them then **only immediate family members
+> can apply**. Home Affairs no longer allows 3rd party applications so I cannot do it on your behalf
+> and any company that offers this service offers an illegal service … If, however you live overseas
+> you can then apply through the **South African Embassy or Consulate in your country of residence**.
+
+**Three things follow, and they apply to BOTH archives:**
+
+1. The route for an applicant in Australia is the **South African High Commission, Canberra**.
+2. **Nobody can be paid to do it for you.** Any service offering to obtain SA certificates as a third
+   party is, on this account, offering something it is not allowed to do. That is a caution for the
+   Pretoria researcher brief too: estate files and court files at the National Archives are fine;
+   Home Affairs certificates are not.
+3. **Eligibility is the real constraint, not the fee.** For an old record it turns on who counts as
+   immediate family, and in the Luwinski archive that question has a living answer. See work-list
+   row 22 and request 15.
+
+*This entry exists because the same mistake was one draft away from being made a fourth time.*
+
+
+---
+
+## SANDF Documentation Centre — already written to, and one address is dead (15 September 2026)
+
+**BOTH archives want this office.** The Lerena/Booyzen side wrote first.
+
+- **9 September 2026** — David wrote about the **BOOYZEN/BOOYSEN** family, UDF service and a
+  military pension (Gmail `1a085121bd59a4a2`). **No reply as at 15 September.**
+- **15 September 2026** — request 16 drafted in the Luwinski archive about **Leonard Aubrey Robert
+  Wear**, a different man entirely. It opens by naming the earlier letter, because two cold emails
+  from one person in six days is how the Xaba duplication happened.
+
+**The address most of the internet gives you is dead.**
+
+- `sandfdoc@mweb.co.za` — **BOUNCED**, `550 5.7.1 Relay access denied`. Still the address quoted in
+  almost every guide to South African military research. **Do not use it.**
+- `archive@dod.mil.za` — **use this one.** MX verified: `mail1.dod.mil.za`.
+
+**And the Centre has moved.** The widely published *Schweikert Building, 20 Visagie Street, Pretoria*
+is stale. Current: **42 Saturnus Road, Irene, Pretoria 0157**; postal **DoD Archives, Private Bag
+X289, Pretoria 0001**; +27 12 670 8127; **closed Mondays and Fridays**.
+
+*Fourth bad address of this project, and the first one caught before sending rather than after.*
+
+## Church of the Immaculate Conception, Rosebank (15 September 2026)
+
+`Info@rosebankcatholicchurch.co.za` — MX verified (Microsoft 365). 16 Keyes Avenue, Rosebank 2196;
+011 788 5226/7; office Monday–Friday 09h00–15h00, **closed weekends**. Parish established **1936**;
+parish priest listed as Fr Donald McLoughlin. Request 17. Fallback if the registers were deposited
+centrally: the **Archdiocese of Johannesburg**, `catholicjhb.org.za` (MX verified) — **confirm the
+chancery address on the day rather than guessing it.**

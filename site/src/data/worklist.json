@@ -163,6 +163,214 @@
    "owner": "this archive",
    "since": "2026-09-15",
    "note": "Two leftovers from the gazette work. **Doreen May** is the only person in this family who could not be taken off the commercial index: estate **16409/00** returns two J187 accounts and no J193, so gendatabase's *born 1921, died 1999* stands as **their** fact. Her notice may sit in an unindexed or badly scanned gazette of **2000**. And the **1986 notice for Lerena Racing Stables** (Government Gazette, 8 August 1986, no. 10383, page 7) has been located and never opened — it belongs beside the gazette's own description of Robert Paul Lerena as a **racehorse trainer**."
+  },
+  {
+   "n": 21,
+   "what": "Map which Córdoba and Asturias parishes are actually filmed and indexed",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**The enabling step for everything below it, and it has never been done.** The 1791 marriage act names four people as natives of Spain — Sancho of **Córdoba**, his parents **Félix Llerena and Rosalía Aguilar** of the same city, and María Fernández with her parents **Rodrigo and Rosa Fernández** of **Asturias**. This archive has never opened a single Spanish parish register. Before hunting names, establish what exists: which Córdoba city parishes and which Asturian councils are filmed, which are in the full-text index, and for what years. Use the catalogue-by-ID route and an image's own Information panel, **not** a catalogue line — this archive has now been burned twice by trusting those."
+  },
+  {
+   "n": 22,
+   "what": "Find Sancho Llerena's baptism, Córdoba, about 1767",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "The single most valuable document not yet looked for. The act of 1791 puts his birth in the **city of Córdoba**; the trees say **about 1767** and that is still only a tree. A baptism would give the date, the parish, and his grandparents — **a fifth generation**, where this archive currently stops at four. Note the act gives no age, so 1767 is unverified and the search window should be generous, say 1760–1775."
+  },
+  {
+   "n": 23,
+   "what": "Find the marriage of Félix Llerena and Rosalía Aguilar, Córdoba, 1750s–60s",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "The 1791 act says both were **naturales de dicha Córdova**, which is the first evidence placing the generation above Sancho anywhere at all. Their marriage act would give **their** parents and their own birthplaces. One tree claims Félix was born about 1725 and married about 1753, every value \"about\" and none sourced — treat it as a search hint, not a fact."
+  },
+  {
+   "n": 24,
+   "what": "Search Asturias for Rodrigo Fernández and Rosa Fernández",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Never searched, in any form.** Two independent parish acts name them — the 1791 marriage and the 1811 baptism of their grandson Luis — and both say **naturales de las Asturias**. The 1791 act adds that they were **vecinos de Santa Lucía** in Uruguay, and the 1812 padrón puts Rodrigo, 63, *asturiano*, living in Sancho's own household. So they emigrated and lived with the family: their Asturian parish is findable and would carry María Fernández's baptism too."
+  },
+  {
+   "n": 25,
+   "what": "Test the Llerena–Aguilar compound in Spanish records",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "This archive already runs a compound-surname sweep for the River Plate (`data/compound-surname-sweep.tsv`) and has argued at length about *de Llerena* as a toponymic. **Félix Llerena × Rosalía Aguilar is now a documented Córdoba couple**, so the compound *Llerena Aguilar* can be tested where it would actually occur — Córdoba parish, notarial and hidalguía records — rather than inferred from distribution maps."
+  },
+  {
+   "n": 26,
+   "what": "Find Sancho Llerena's death",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "The trees say **1832** and no document has ever been produced. He was alive in the 1812 padrón and the 1826 records; his son's 1831 act is the last trace this archive holds. Montevideo and Canelones burial registers for 1826–1840 are filmed and now addressable by film-and-image. **A burial act would also settle whether he was 'Don' at the end**, and whether anyone recorded his age — which is the one field that would pin his birth year."
+  },
+  {
+   "n": 27,
+   "what": "Find María Fernández's death",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "Same registers, same method, and never looked for. She was *natural de las Asturias*, born about 1775 on the 1812 padrón's reckoning (36 years old), and she outlived at least eight childbirths. Her burial act may name her parents again and would confirm the Asturian origin a third time."
+  },
+  {
+   "n": 28,
+   "what": "Build the complete list of Sancho and María's children from the registers",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "The archive has them piecemeal — Pedro Antonio 1793, Agustina Ramona 1795, Fidel about 1799, Justa Pastora 1800, José Loreto 1806, Luis 1811 and others — assembled from scattered searches rather than from a systematic read. **Canelones baptisms 1791–1815 are filmed and the images are now addressable.** Reading them straight through would produce a closed sibling list instead of an open one, and the consistency checker already reports that its sibling tests reach only 106 of 277 people."
+  },
+  {
+   "n": 29,
+   "what": "Take Pedro Antonio Lerena forward from 1793",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "Sancho's eldest known son, baptised 1 August 1793 at Canelones by the chaplain of the Regimiento de Infantería de Buenos Ayres. In 1826 a record calls him **\"Mayor Don Pedro Antonio Llerena\"** — military rank at thirty-two, where his father could not write his own name. **That is the generation where this family changes class**, and it has never been traced."
+  },
+  {
+   "n": 30,
+   "what": "Read the 1812 padrón from the image, not from a transcript",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "The archive quotes it — Sancho, *andaluz*, 45; María Fernández, 36; Rodrigo Fernández, 63, *asturiano*, in the household — but from a published transcription. Now that images are addressable by number, **read the entry itself**: padrones often carry occupation, household composition and enslaved people in columns transcriptions drop. Sancho's age of 45 in 1812 implies birth about 1767, which is currently the only support for that year."
+  },
+  {
+   "n": 31,
+   "what": "Reclaim the errands that are now machine work",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**A roadmap item about the roadmap.** Eleven rows in [errands](/errands/) sit at *ready* and owner **David** because, when they were written, this archive could not drive the viewer and full text was down. Both are now solved — images are addressable by film-and-image number and full text is back. Candidates to reclaim: the Iglesia del Cordón sweep; Josefa Lerena's marriage act; the children of Luis Lerena and Carolina Oliva 1836–41; finding the DGS for the Montevideo marriage-dispensation register; the compound-surname dispensation sweep; Gilberto Lerena's household forward; and the Alejandro Lerena Lenguas test. **Go through them, move what this archive can now do, and leave David only what genuinely needs a person.**"
+  },
+  {
+   "n": 32,
+   "what": "Find the DGS for the Montevideo marriage-dispensation register, 1856–1932",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "Logged as an errand for David when catalogue search was returning *Something Went Wrong* all day. The route that works now: open any image from the right parish and read its **Information panel**, which prints the catalogue link and that reel's item-by-item contents. The archive already holds one dispensation from this series — the 1911 Lerena–Cardozo — so an anchor exists."
+  },
+  {
+   "n": 33,
+   "what": "Search the Iglesia del Cordón, Montevideo",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "Full text has already shown this archive two Cordón collections it has never opened — **Baptism Records 1828–1836** and **Religious Marriage Records 1825–1916**. The Cordón is where the Montevideo branch surfaces in the 1830s, and the 1831 Rivera godfather act sits there. Fold the errand into that work rather than leaving it addressed to David."
+  },
+  {
+   "n": 34,
+   "what": "Place Catherine Mary Sophia Lerena, born 25 March 1929",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**A wholly new person, produced this afternoon by the gazette**: the surviving spouse of Nuno Fernando Lerena, who died 1 July 1971 at 24 Leiden Road, Gerdview, Germiston. Nobody in this archive knew he was married. Her identity number is partly legible in the notice; her own estate, if she has one, would be findable on gazettes.africa and would name children — **grandchildren of Pablo Armando nobody has counted**."
+  },
+  {
+   "n": 35,
+   "what": "Ask where Rogue Luis Armando was born in 1905",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "Directly tests one of this archive's declared [gaps](/gaps/) — *the eight years between Northam and the Cape*. Pablo Armando was born at Rosario in **1882**; his eldest son was born **6 December 1905**. If that birth was not in South Africa it locates the family in those missing years, and **Argentina is the obvious first place to look** — the archive already has Argentine baptism sweeps to extend."
+  },
+  {
+   "n": 36,
+   "what": "Find out who Rose Lilian Theys was",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "The 1950 estate makes her **Executrix Testamentary**, gives her **a half-share of the residue**, and describes her as **\"no relation\"** — while listing her address as **No. 7 Forth Road, Newlands**, the same address as the deceased. A woman who is not a relative, lives with him, administers his estate and inherits a quarter of it is not a minor figure. gazettes.africa and the deceased-estates index will both carry her."
+  },
+  {
+   "n": 37,
+   "what": "Sweep gazettes.africa for TAYLOR and BOOYZEN",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "The gazette pipeline works and cost nothing; it has so far been pointed only at *Lerena*. The other two South African lines in this archive are **Mary Septima Taylor**, Pablo Armando's wife, and the **Booyzens** who appear in the DNA as Cape Afrikaners. Estate notices would give both families exact dates and surviving spouses. **Search surname-first** — modern notices print *LERENA, Anton Armando*, not the other way round."
+  },
+  {
+   "n": 38,
+   "what": "Pull the Rapeport Incorporated thread",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "One firm at **107 Oxford Road, Rosebank** acted for Doreen May in 2001, Anton Armando in 2013, Roberto Juan Roque in 2022 and Belinda Maud in 2024 — **a quarter-century of one family's estates**. That is not a coincidence and it is a way of establishing which Lerenas belong to this family without guesswork. It is also a live firm, which makes it a David question rather than a search, if it comes to contact."
+  },
+  {
+   "n": 39,
+   "what": "Make the build catch a stale errand",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**The failure that started all of this.** An errand told David to go and find the 1791 marriage act for hours after the act had been found and published, because nothing was checking. Every convention that held in this estate held because a build refused when it slipped. A check could flag an errand at *ready* whose own detail text says *found*, *closed* or *done*, or whose subject appears in [corrections](/corrections/) — and fail the build, beside `check:worklist`."
+  },
+  {
+   "n": 40,
+   "what": "Audit this archive's other catalogue-derived film numbers",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "Distinct from the estate-wide warning below it. **Two of two Montevideo attributions failed inspection today** — DGS 7713373 was mislabelled but right, DGS 7713386 was simply wrong. Every other DGS in this archive that came from reading a catalogue rather than opening the film is now suspect. They are cheap to test: one `manifest.json` call resolves any image to its true film and image number."
+  },
+  {
+   "n": 41,
+   "what": "Check the living-person gate covers the people added today",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "`check:living` passed, but this archive has just added people who died in **2022, 2023 and 2024** and named their addresses and identity numbers from public notices. The gate's policy is `named-bare`. **Confirm that is the intended treatment for the recently dead and their surviving relatives**, rather than assuming a green check means the question was asked."
+  },
+  {
+   "n": 42,
+   "what": "Warn the estate that pdftotext will weld two strangers together",
+   "state": "next",
+   "owner": "the kit & estate",
+   "since": "2026-09-15",
+   "note": "The South African Government Gazette sets **two columns**, and `pdftotext -layout` interleaves them line by line. A grep on Nuno Fernando's page returned *died 26 June 1971* and *Bedfordview* — both belonging to **6546/71 MARSHALL** in the left column. It was caught only because two gazettes disagreed about one estate number. Any archive in this estate using the gazette pipeline will hit this. **Print context, never grep matches.**"
+  },
+  {
+   "n": 43,
+   "what": "Warn the estate that a death_year column may not be one",
+   "state": "next",
+   "owner": "the kit & estate",
+   "since": "2026-09-15",
+   "note": "This archive's `sa-deceased-estates.tsv` was built from ancestors.co.za and its `death_year` column turned out to hold **the year the estate was advertised**, for all eleven rows — Ricardo Juan Carlos died in **1994** and was filed under **1996**; Anton Armando died in **2003** and was filed under **2013**. **Any sibling archive that harvested the same index has the same bug**, and it is invisible until you fetch the gazette the row points at."
+  },
+  {
+   "n": 44,
+   "what": "Decided: this session does not create accounts or pay for sources",
+   "state": "done",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**A standing constraint, recorded as a decision rather than left implicit.** gendatabase.com's full records, and the South African death notices behind them, sit behind a subscription. This session does not sign up and does not pay. The consequence is visible and deliberate: **Doreen May Lerena is the one person in this family who could not be taken off a commercial index**, and her dates remain that source's rather than this archive's. The alternative — re-sourcing from the free official gazette — was tried first and worked for everyone else."
+  },
+  {
+   "n": 45,
+   "what": "Decided: no routing around the FamilySearch block",
+   "state": "done",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Also standing.** FamilySearch's security layer blocked this session repeatedly today. The archive does not switch browsers, use another network, or otherwise get around it. The consequences are accepted and written down instead: the Berroeta control waited hours, the variant sweeps are still unrun, and **every zero returned by a blocked page was discarded rather than recorded as a null** — which is the rule that matters, because a blocked page and an empty result look identical."
+  },
+  {
+   "n": 46,
+   "what": "Decided: not reading 290 more images until the control is closed",
+   "state": "done",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "Row 1 was *running* this morning and is now parked. **Reading the regiment's book by hand was the right plan only while nobody knew whether it was indexed** — the Berroeta control showed that it is, in one search, and a day of work evaporated. Kept rather than deleted because machine transcription of eighteenth-century hands is imperfect, so **an index absence is weaker than a page absence** and the hand-read may yet be needed if the two limits in row 18 do not close cleanly."
   }
  ]
 }
