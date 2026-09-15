@@ -167,10 +167,10 @@
   {
    "n": 21,
    "what": "Map which Córdoba and Asturias parishes are actually filmed and indexed",
-   "state": "next",
+   "state": "running",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**The enabling step for everything below it, and it has never been done.** The 1791 marriage act names four people as natives of Spain — Sancho of **Córdoba**, his parents **Félix Llerena and Rosalía Aguilar** of the same city, and María Fernández with her parents **Rodrigo and Rosa Fernández** of **Asturias**. This archive has never opened a single Spanish parish register. Before hunting names, establish what exists: which Córdoba city parishes and which Asturian councils are filmed, which are in the full-text index, and for what years. Use the catalogue-by-ID route and an image's own Information panel, **not** a catalogue line — this archive has now been burned twice by trusting those."
+   "note": "**Now the gating item for the whole Spanish programme, and the searches of 15 September proved why.** The control showed FamilySearch full text holds **nobility and notarial records for Andalusia, not parish registers** — the only *Córdoba* collection that appears is Córdoba, **Veracruz**, in Mexico. So an eighteenth-century Córdoba baptism is **not in the corpus being searched**, and **every Spanish null this archive produces is uninterpretable until this row is done**. Establish what is filmed and what is indexed, for Córdoba city parishes about 1740–1790 and for the Asturian councils — from an image's own Information panel, **not** from a catalogue line, which has failed twice here today. Four people wait behind it: Sancho, Félix and Rosalía, and the Fernández couple."
   },
   {
    "n": 22,
@@ -198,11 +198,11 @@
   },
   {
    "n": 25,
-   "what": "Test the Llerena–Aguilar compound in Spanish records",
-   "state": "next",
+   "what": "Test the Llerena–Aguilar compound in Spanish records — run, and it argues against hidalguía",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "This archive already runs a compound-surname sweep for the River Plate (`data/compound-surname-sweep.tsv`) and has argued at length about *de Llerena* as a toponymic. **Félix Llerena × Rosalía Aguilar is now a documented Córdoba couple**, so the compound *Llerena Aguilar* can be tested where it would actually occur — Córdoba parish, notarial and hidalguía records — rather than inferred from distribution maps."
+   "note": "**Run 15 September 2026.** «Llerena y de Rosalía Aguilar» returns **zero**; «Félix Llerena» returns only modern Latin America; «Rosalía Aguilar» returns forty collections of which **two** are in Spain, both Jaén notarial of 1829–37. On its own that would be worthless — **so the control was run first.** The corpus that *is* indexed for Andalusia is **nobility and hidalguía files, chivalric orders and Madrid protocols**, searchable back to 1489 — exactly where an armigerous couple would appear. They do not. **Weak evidence that Félix and Rosalía were not gentry with a Chancillería file**, which sits with the 1811 act calling Sancho *Don* while the 1798 deposition says he could not write his name."
   },
   {
    "n": 26,
