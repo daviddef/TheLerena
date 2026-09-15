@@ -207,18 +207,18 @@
   {
    "n": 26,
    "what": "Find Sancho Llerena's death",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "The trees say **1832** and no document has ever been produced. He was alive in the 1812 padrón and the 1826 records; his son's 1831 act is the last trace this archive holds. Montevideo and Canelones burial registers for 1826–1840 are filmed and now addressable by film-and-image. **A burial act would also settle whether he was 'Don' at the end**, and whether anyone recorded his age — which is the one field that would pin his birth year."
+   "note": "**Searched 15 September 2026; a controlled null.** No indexed death or burial exists for him in Uruguay under any spelling — across 401 loose results he appears only as *father*, *father of the bride*, *spouse* or *other*, **never as the principal of a death**. **The control passed**: a surname-Rodríguez search for Montevideo deaths 1828–1838 returns church burials from **Nuestra Señora del Carmen, Cordón** — the exact parish where Justa Pastora married in 1830 and where Dominga lived — dated 1832, 1833 and 1838. So burials in his family's own parish, in the decade he is supposed to have died, **are** indexed, and he is not among them. **What that does not mean**: the index is name-based and a mangled surname is invisible to it, and the Cordón is one parish of several. He is not in the index; that is not the same as not in the registers. **The trees' 1832 remains a tree.**"
   },
   {
    "n": 27,
    "what": "Find María Fernández's death",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "Same registers, same method, and never looked for. She was *natural de las Asturias*, born about 1775 on the 1812 padrón's reckoning (36 years old), and she outlived at least eight childbirths. Her burial act may name her parents again and would confirm the Asturian origin a third time."
+   "note": "**Same search, same control, same result.** No indexed death or burial for María Fernández, wife of Sancho Llerena, in Uruguay 1810–1870. She returns only in records already held. **One gain**: FamilySearch's index gives her *Parents Rosa Fernández, Rodrigo Fernández* — **a third independent witness** to what the 1811 baptism and the 1791 marriage act both say. Three sources, one couple, no disagreement."
   },
   {
    "n": 28,
@@ -443,6 +443,14 @@
    "owner": "David",
    "since": "2026-09-15",
    "note": "The mapping row above establishes that **Córdoba's parish registers are not digitised by FamilySearch**. The originals are at the **Archivo General del Obispado de Córdoba**. What is wanted is narrow and citable: the **baptism of Sancho Llerena, about 1767**, son of **Félix Llerena and Rosalía Aguilar**; and their **marriage**, about 1750–1766. Both parents are stated *naturales de dicha Córdova* on the Canelones marriage act of 8 January 1791, which is the citation to quote. **Left to David because it is correspondence with an institution**, and because the shared note both archives keep says to search the sent mail before writing to any archive."
+  },
+  {
+   "n": 56,
+   "what": "Walk the Cordón burial register by image, 1826–1845",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**The route the null leaves open.** Sancho and María are absent from the burial *index*, but the index is name-based and an eighteenth-century surname mangled by a transcriber is invisible to it. **Nuestra Señora del Carmen, Cordón** is the family's own parish — Justa Pastora married there in 1830, the 1831 godfather act is there, Dominga lived there — and its burials of 1832–38 are demonstrably filmed. The Cordón marriage register is already anchored at **dgs:007713391 image 1669**, so the burial volume is findable from the same reel's item boards. Do the Iglesia Matriz next, and Santa Lucía after that, where María's parents were *vecinos*."
   }
  ]
 }

@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import Marriages from "@daviddef/archive-kit/components/Marriages.astro";
+import EraTimeline from "@daviddef/archive-kit/components/EraTimeline.astro";
 import { u } from "../lib/url.js";
 import people from "../data/people.json";
 
@@ -101,6 +102,13 @@ const GROUPED = ORDER.map((g) => {
 
 const nConn = (byStatus.connected || []).length;
 const nExcl = (byStatus.excluded || []).length;
+
+/* Only a handful of marriages carry a date here, in the text of a spouse note.
+   The dots are births, which this archive does have, and the caption says so. */
+const timelinePoints = people.filter((x) => x.born && /\d{4}/.test(String(x.born)))
+  .map((x) => ({ label: x.name.replace(/\s*\(.*?\)/g, ""), year: String(x.born),
+                 sub: x.birthplace ? x.birthplace.split(",")[0] : undefined }));
+
 ---
 <Base title="The Marriages"
       eyebrow={`${couples.length} couples · ${people.length} people carrying the name · ${nConn} of them connected`}
@@ -121,6 +129,13 @@ const nExcl = (byStatus.excluded || []).length;
   </div>
 
 
+
+  <EraTimeline points={timelinePoints}
+    eras={[[1850,1880,"After Caseros","--r-venice"],[1880,1930,"The Argentine boom","--r-habsburg"],
+           [1930,1960,"Coups and Perón","--r-italy"]]}
+    marks={[[1871,"Yellow fever, Buenos Aires"],[1890,"The Revolución del Parque"],
+            [1911,"Pablo Armando marries at Wynberg"],[1950,"His death at the Cape"]]}
+    what={`Each dot is a person at the year of their BIRTH — only a few marriages here carry a date, so this plots what the archive has. ${timelinePoints.length} people carry a year.`} />
 
   <Marriages u={u} groups={GROUPED} openAt={8} subject="Lerena"
     metrics={[{ n: couples.length, label: "couples" }, { n: people.length, label: "carrying the name" },
