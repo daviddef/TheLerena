@@ -1,0 +1,144 @@
+{
+ "title": "The work list",
+ "dek": "What is being done here, as opposed to what is known.",
+ "lead": "Every other register on this site answers what is *known* — [what has been read](/searched/), the [open questions](/open-questions/), [what cannot be closed](/gaps/), the [errands](/errands/) and the [corrections](/corrections/). None of them answered **what is being done**, so that lived in a chat window, which is the one place that does not survive the session. This is that list, in the shape the whole estate keeps it in. An item here names **who has to move it**, because an item with no owner is how a list becomes wallpaper.",
+ "close": "Nothing is struck from this page when it turns out to be wrong; it is struck **through**, the same way a retracted claim is treated in [corrections](/corrections/). A list that quietly deletes its mistakes is telling you only what it wanted to be true.",
+ "rows": [
+  {
+   "n": 1,
+   "what": "Read the regiment's chaplaincy book, images 663–950",
+   "state": "running",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "DGS 7713373 is the register of the **Regimiento de Infantería de Buenos Ayres**, kept at the Iglesia Matriz de Montevideo — the priest names himself and his regiment at image 655. Images **652–662 are read**: December 1787 to July 1791, no gaps, covering the month Sancho married. **No Llerena in any of them.** Images 663 to about 950 are not read and run to 1814 — roughly 290 openings, a day's work rather than an hour's. This is a scan rather than a transcription, and the distinction is kept deliberately: *not found* and *not there* are different statements. See [the roadmap](/roadmap/)."
+  },
+  {
+   "n": 2,
+   "what": "Run the Berroeta control before reading another 290 images",
+   "state": "blocked",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "The single search that decides whether the job above is necessary at all. Search FamilySearch full text for a phrase **known** to be in that book — «Capellán del Regimiento Infantería de Buenos Ayres», or the chaplain's name **Berroeta**. If it returns hits, the book is in the full-text index, and the absence of Llerena from the 68 results for «Sancho Llerena» becomes a real finding won in one query. If it returns nothing, the book is unindexed and the images must be read by hand. **Blocked on FamilySearch itself** — Error 15, its security layer, returned before the control could be sent. It lifts in about an hour. No zero from a blocked page has been recorded as a null."
+  },
+  {
+   "n": 3,
+   "what": "Finish harvesting the 68 full-text results for «Sancho Llerena»",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "The sweep of 15 September returned **68 results** against far fewer in this archive's earlier attempts, and only about fifty titles and **three** snippets were actually read before the block returned. Results 51–68 were never displayed at all. Re-run at 100 per page, extract every ark, and resolve each through the tile service's manifest to a film and image — that route keeps working while the main site is blocked."
+  },
+  {
+   "n": 4,
+   "what": "Open two collections found in that sweep and never looked at",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Montevideo, Catedral de la Inmaculada Concepción — Baptism Records 1825–1828**, and **Nuestra Señora del Carmen, Cordón — Religious Marriage Records 1825–1916**. Both surfaced under «Sancho Llerena» and neither has been opened. The Cordón marriage register spans the generation this archive is weakest on."
+  },
+  {
+   "n": 5,
+   "what": "Read DGS 7713375 — the Montevideo cathedral baptisms",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "A film this archive had never named until 15 September. It holds the **1789 godparent act at image 551** and the **1811 baptism of Luis at image 2410** — the best document there is on Sancho's parents. Two images of it have been read and nothing else. It spans at least 1785 to 1811, which is the whole of Sancho's Montevideo life."
+  },
+  {
+   "n": 6,
+   "what": "Settle the Sánchez question, because it cuts against this archive's own argument",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "Is the «Manuel Sánchez, Sargento de dicho Regimiento» of the castrense book — 30 January 1791, DGS 7713373 image 660 — the same man as the «Juan Manuel Sánchez, natural del Reino de Andalucía» of the Canelones informaciones, marrying that March? **If yes, a soldier of that regiment did go through the Canelones vicaría and did leave an información there**, and this archive's suggestion that military jurisdiction explains Sancho's absence from that series collapses. The castrense entry's birthplace runs off the page edge — re-read image 660 at the right-hand margin first. Stated on [hypotheses](/hypotheses/) as telling against the reading this archive would prefer."
+  },
+  {
+   "n": 7,
+   "what": "Find the real Montevideo index, 1726–1800",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**DGS 7713386 is not it.** This archive called it «Índices de bautismos, matrimonios y defunciones, 1726–1800» and called opening it *the cheapest test in the archive*; images 300 and 1500 are cathedral burial registers of **1887 and 1905**. Two samples of 2,244 do not prove the index absent from that film, but the attribution is disproved and is logged in [corrections](/corrections/). The index may exist under another DGS — find it the way the Canelones one was found, from an image's own Information panel rather than from a catalogue line."
+  },
+  {
+   "n": 8,
+   "what": "Open a Córdoba parish register — the next country",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "«Córdova la Llana» is the **city of Córdoba** in Andalusia; no municipality of that name exists because it is an epithet, and the qualifier distinguishes it from Córdoba del Tucumán. So Sancho was born there about 1767 and his parents **Félix Llerena and Rosalía Aguilar were natives of the same city**. **Nobody has yet looked at a single Córdoba parish register.** That is now the largest unopened door in this archive, and it is in Spain rather than Uruguay."
+  },
+  {
+   "n": 9,
+   "what": "Resolve Anton Armando Lerena — two records, deliberately not merged",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "gendatabase.com gives born 1952, died 2003. This archive's existing row from ancestors.co.za gives died 2013 aged 68, implying born about 1945. Those cannot both describe one man, and **they may simply be two men**. Left unmerged until a document says otherwise."
+  },
+  {
+   "n": 10,
+   "what": "Buy one South African death notice",
+   "state": "blocked",
+   "owner": "David",
+   "since": "2026-09-15",
+   "note": "The 1994 death notice of **Ricardo Juan Carlos Lerena** (b. 1920, m. 1941 Doreen May Chappell) from gendatabase.com — the source David found, which this archive had never tried. A South African death notice **names the deceased's parents**, which would put in a modern official document what this archive currently infers: that the Cape Lerenas descend from Pablo Armando. **This session does not create accounts and does not pay for things**, so it stops here. Logged in [errands](/errands/)."
+  },
+  {
+   "n": 11,
+   "what": "Settle whether five deaths in 1999 are a catastrophe or an artefact",
+   "state": "blocked",
+   "owner": "David",
+   "since": "2026-09-15",
+   "note": "Five of the fifteen gendatabase death rows carry **1999** — Catherine Tertia Karon, Gayle Lerena, Pierre Frederick Lerena, and two children aged eight and thirteen, including a married couple. Either something terrible happened to this family in 1999 or the index has a default-year artefact, and **a summary row cannot tell you which**. Needs the actual death notices, which are behind the same paywall. Nothing of it is published as fact in the meantime."
+  },
+  {
+   "n": 12,
+   "what": "Give the estate the film-and-image addressing method",
+   "state": "next",
+   "owner": "the kit & estate",
+   "since": "2026-09-15",
+   "note": "Found here on 15 September and it belongs to every archive that touches FamilySearch, not to this one. The tile service accepts **`dgs:{film9}.{film9}_{image5}`** as an image id — so any image on any film is addressable **by number**, with no viewer, no ark lookup, and no catalogue. Its `manifest.json` converts an ark to a film and image and back. And it keeps serving while **www.familysearch.org** is behind Error 15, which takes down search and ark pages together. This archive found the 1791 marriage act with it while the main site was blocked. It is written into this session's memory; it should be in the kit."
+  },
+  {
+   "n": 13,
+   "what": "Two catalogue attributions in this archive were wrong — the estate should assume its own are too",
+   "state": "next",
+   "owner": "the kit & estate",
+   "since": "2026-09-15",
+   "note": "Both of this archive's Montevideo film attributions came from reading a catalogue rather than a film. One held under test — DGS 7713373 really is the regiment's book, though the film is labelled as the Curia's. **One did not**: DGS 7713386 is not the 1726–1800 index. If two of two failed inspection here, the other archives' unverified catalogue citations are worth a pass. Raised as an estate observation, not a Lerena task."
+  },
+  {
+   "n": 14,
+   "what": "Invent a register of outstanding work for this archive",
+   "state": "struck",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Founded on a mistake and kept rather than deleted.** On 15 September this session was asked whether outstanding work was tracked centrally, found that it was not, and wrote `data/open-threads.tsv` — **the ninth session to invent its own answer**, which is precisely how this estate acquired a `Chip` meaning two things and one chart drawn under three names. The right thing already existed in the kit, written first in the Defranceschi archive. The content of that file has been folded into this list and the file retired. The lesson is the one the kit's own check states: a convention that lives in a document drifts, because nothing is checking it."
+  },
+  {
+   "n": 15,
+   "what": "Find Sancho Llerena's marriage act",
+   "state": "done",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Found 15 September 2026** after the archive had spent weeks recording it as probably not digitised. DGS 8166578, **image 2687** — «En ocho días del Mes de Enero de **1791** años… Sancho Llerena, natural de Córdova la Llana, hijo legítimo de **Félix Llerena** y de **Rosalía Aguilar**, naturales de dicha Córdova… con **María Fernández**, natural de las Asturias, hija legítima de **Rodrigo Fernández**». The year is in arabic numerals. It settles Córdoba against Granada, corroborates Apolant's date, confirms his parents independently of the 1811 baptism, and corrects the trees on the bride's father."
+  },
+  {
+   "n": 16,
+   "what": "Walk the Canelones informaciones matrimoniales",
+   "state": "done",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Finished 15 September 2026, with a negative.** DGS 8166573 does not cover January 1791: Volumen 6 runs to November 1790 and ends at image 1459, Volumen 7 opens at 1460 and its first dated case is March 1791. Sancho married on 8 January. The whole of 1791 in that series is one expediente belonging to somebody else. **A seam in the filing, not a failed search** — and the caveat is recorded: the filming card reads «hojas sueltas», so a stray sheet could sit elsewhere in Volumen 7. It also produced the one hard fact about the man himself: at image 2167 he is sworn as a witness and **could not sign his name**."
+  },
+  {
+   "n": 17,
+   "what": "Decide whether gendatabase-derived facts may stay on a public site",
+   "state": "blocked",
+   "owner": "David",
+   "since": "2026-09-15",
+   "note": "The shared note that both archives keep says **gendatabase.com's terms forbid republishing without written permission**. This archive read that note only after it had already published. What is exposed is narrow but real: this repository is **public**, and the commit carrying the gendatabase harvest is already pushed. The people were in the archive before — Ricardo Juan Carlos and Doreen May Chappell came from the South African deceased-estates index and NAAIRS — but **the birth, death and marriage years are gendatabase's**, and they appear with attribution on [errands](/errands/) and in `data/gendatabase-sa.tsv`. Citing a source and stating a handful of facts from it is ordinary practice; whether their terms allow it is **not this session's call to make**. Nothing further from that source is published until David decides, and no attempt has been made to quietly strip the attribution, which would be worse than the original mistake."
+  }
+ ]
+}
