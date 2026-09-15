@@ -99,8 +99,8 @@
   "key": "me-2450c4",
   "what": "Turn the Montevideo marriage-dispensation register, 1856-1932",
   "who": "me",
-  "status": "ready",
-  "detail": "*** MARKED \"done\" IN ERROR, and corrected 13 September 2026. The task is to TURN the register, and turning is not searching. *** What was actually done was a FULL-TEXT search on the register's own formulae, and it answered well: eight Lerena dispensations in seventy-six years, two families - the Montevideo patricians of the Catedral and the rural Lerenas of Trinidad in Flores - NO Juan Carlos Lerena, and no Lerena-Lerena dispensation at all. But full text is machine handwriting recognition, and the whole reason to turn a register by hand is to catch what it misses. Still to do. *** The method is now proved - /search/film/<DGS>?i=<N>, ark from the page title, assemble the tiles - and only the DGS is missing; *** three routes to it failed on 13 Sep because FamilySearch's catalogue, records and full-text search were all erroring that day.",
+  "status": "done",
+  "detail": "*** MIGRATED TO THE WORK LIST, 15 September 2026. *** This was never a person's errand: *** errands.tsv is work for a PERSON, the work list is work for a SESSION ***, and this is the archive's own machine work. It is now on /worklist/ and the detail below is kept verbatim so nothing is lost. *** MARKED \"done\" IN ERROR, and corrected 13 September 2026. The task is to TURN the register, and turning is not searching. *** What was actually done was a FULL-TEXT search on the register's own formulae, and it answered well: eight Lerena dispensations in seventy-six years, two families - the Montevideo patricians of the Catedral and the rural Lerenas of Trinidad in Flores - NO Juan Carlos Lerena, and no Lerena-Lerena dispensation at all. But full text is machine handwriting recognition, and the whole reason to turn a register by hand is to catch what it misses. Still to do. *** The method is now proved - /search/film/<DGS>?i=<N>, ark from the page title, assemble the tiles - and only the DGS is missing; *** three routes to it failed on 13 Sep because FamilySearch's catalogue, records and full-text search were all erroring that day.",
   "sent_on": "2026-09-13"
  },
  {
@@ -155,8 +155,8 @@
   "key": "me-6ad291",
   "what": "Find the DGS for the Montevideo marriage-dispensation register",
   "who": "me",
-  "status": "ready",
-  "detail": "*** TRIED AGAIN 13 September 2026 AND STILL BLOCKED - by their outage, not by the work. *** FamilySearch's CATALOGUE SEARCH and FULL-TEXT SEARCH were both returning \"Something Went Wrong\" for hours, while name-indexed records search and DIRECT CATALOGUE IDs worked normally. The dispensations are in the FULL-TEXT corpus, not a name-indexed collection, so full text is the only route to them - and it is the half that is down. *** WHAT WOULD UNBLOCK IT: *** the catalogue entry for the Arquidiocesis de Montevideo, opened BY ID rather than by search, which is how five other film DGS numbers were recovered today while search was dead.",
+  "status": "done",
+  "detail": "*** MIGRATED TO THE WORK LIST, 15 September 2026. *** This was never a person's errand: *** errands.tsv is work for a PERSON, the work list is work for a SESSION ***, and this is the archive's own machine work. It is now on /worklist/ and the detail below is kept verbatim so nothing is lost. *** TRIED AGAIN 13 September 2026 AND STILL BLOCKED - by their outage, not by the work. *** FamilySearch's CATALOGUE SEARCH and FULL-TEXT SEARCH were both returning \"Something Went Wrong\" for hours, while name-indexed records search and DIRECT CATALOGUE IDs worked normally. The dispensations are in the FULL-TEXT corpus, not a name-indexed collection, so full text is the only route to them - and it is the half that is down. *** WHAT WOULD UNBLOCK IT: *** the catalogue entry for the Arquidiocesis de Montevideo, opened BY ID rather than by search, which is how five other film DGS numbers were recovered today while search was dead.",
   "sent_on": "-"
  },
  {
@@ -171,64 +171,64 @@
   "key": "me-c89213",
   "what": "Trace Gilberto Lerena's Buenos Aires household forward",
   "who": "me",
-  "status": "ready",
-  "detail": "*** THE SHARPEST LEAD IN THE ARCHIVE NOW THAT HE IS ATTACHED. *** Gilberto is documented as Luis Eugenio's brother on TWO acts from two parishes; he moved to Buenos Aires between 1887 and 1889; his son Carlos married there in 1914 from Pueyrredon 1750; and his MOTHER Justiniana Lenguas was living in Argentina at 87 in 1908. *** So there is a documented Lerena family in Argentina descending from the Montevideo house - and Juan Carlos Lerena has to have come from somewhere. *** Attempted 14 September and blocked: FamilySearch's records search began returning an EMPTY BODY mid-session. Search on Gilberto AS FATHER across Argentine collections, and on Julia Salvanach as mother.",
+  "status": "done",
+  "detail": "*** MIGRATED TO THE WORK LIST, 15 September 2026. *** This was never a person's errand: *** errands.tsv is work for a PERSON, the work list is work for a SESSION ***, and this is the archive's own machine work. It is now on /worklist/ and the detail below is kept verbatim so nothing is lost. *** THE SHARPEST LEAD IN THE ARCHIVE NOW THAT HE IS ATTACHED. *** Gilberto is documented as Luis Eugenio's brother on TWO acts from two parishes; he moved to Buenos Aires between 1887 and 1889; his son Carlos married there in 1914 from Pueyrredon 1750; and his MOTHER Justiniana Lenguas was living in Argentina at 87 in 1908. *** So there is a documented Lerena family in Argentina descending from the Montevideo house - and Juan Carlos Lerena has to have come from somewhere. *** Attempted 14 September and blocked: FamilySearch's records search began returning an EMPTY BODY mid-session. Search on Gilberto AS FATHER across Argentine collections, and on Julia Salvanach as mother.",
   "sent_on": "-"
  },
  {
   "key": "me-a2faa7",
   "what": "Test whether Alejandro Lerena Lenguas is the Alejandro M. Lerena of the enrolment cards",
   "who": "me",
-  "status": "ready",
-  "detail": "Two Alejandros, and they may be one man. *** ALEJANDRO LERENA LENGUAS, born 29 May 1845, was found on the 1846 baptism image *** - a sixth child of Luis Lerena and Justiniana Lenguas, and so a brother of Luis Eugenio and Gilberto. Separately, the army enrolment cards of Cajon 985 name a father *** ALEJANDRO M. LERENA, born Uruguay 1839, wife Julia Bassani, with a son born at Montevideo in 1886. *** The years differ by six, which is within the range this archive has repeatedly seen between a baptism act and a stated age. If they are one man, another brother is placed in Argentina. The cards name parents, so the test is direct. Attempted 14 September and blocked by the same search outage.",
+  "status": "done",
+  "detail": "*** MIGRATED TO THE WORK LIST, 15 September 2026. *** This was never a person's errand: *** errands.tsv is work for a PERSON, the work list is work for a SESSION ***, and this is the archive's own machine work. It is now on /worklist/ and the detail below is kept verbatim so nothing is lost. Two Alejandros, and they may be one man. *** ALEJANDRO LERENA LENGUAS, born 29 May 1845, was found on the 1846 baptism image *** - a sixth child of Luis Lerena and Justiniana Lenguas, and so a brother of Luis Eugenio and Gilberto. Separately, the army enrolment cards of Cajon 985 name a father *** ALEJANDRO M. LERENA, born Uruguay 1839, wife Julia Bassani, with a son born at Montevideo in 1886. *** The years differ by six, which is within the range this archive has repeatedly seen between a baptism act and a stated age. If they are one man, another brother is placed in Argentina. The cards name parents, so the test is direct. Attempted 14 September and blocked by the same search outage.",
   "sent_on": "-"
  },
  {
   "key": "me-1637a2",
   "what": "Find General Don Pedro Lenguas in the published record",
   "who": "me",
-  "status": "ready",
-  "detail": "*** He is the only titled person in this tree, and a general leaves a trace a farmer does not. *** Father of JUSTINIANA Lenguas and of SIXTA Lenguas - so grandfather of Luis Eugenio and Gilberto, and father-in-law of Dr Candido Juanico. Called \"el General D. Pedro Lenguas\" in his granddaughter's 1846 baptism act. *** HIS OWN PARENTS ARE NOW KNOWN from Sixta's death act: D. ANTONIO LENGUAS and Dona JUANA GRANDAL *** - and an Antonio Lenguas born 1807 AT BUENOS AIRES, buried 1841 at Las Piedras, with a wife Juana Grandal, is in the indexed records. Uruguayan military and national histories, not FamilySearch, are the place for the general himself.",
+  "status": "done",
+  "detail": "*** MIGRATED TO THE WORK LIST, 15 September 2026. *** This was never a person's errand: *** errands.tsv is work for a PERSON, the work list is work for a SESSION ***, and this is the archive's own machine work. It is now on /worklist/ and the detail below is kept verbatim so nothing is lost. *** He is the only titled person in this tree, and a general leaves a trace a farmer does not. *** Father of JUSTINIANA Lenguas and of SIXTA Lenguas - so grandfather of Luis Eugenio and Gilberto, and father-in-law of Dr Candido Juanico. Called \"el General D. Pedro Lenguas\" in his granddaughter's 1846 baptism act. *** HIS OWN PARENTS ARE NOW KNOWN from Sixta's death act: D. ANTONIO LENGUAS and Dona JUANA GRANDAL *** - and an Antonio Lenguas born 1807 AT BUENOS AIRES, buried 1841 at Las Piedras, with a wife Juana Grandal, is in the indexed records. Uruguayan military and national histories, not FamilySearch, are the place for the general himself.",
   "sent_on": "-"
  },
  {
   "key": "me-4c6426",
   "what": "Find the CHILDREN of Don Luis Lerena and Dona Carolina Oliva, 1836-1841",
   "who": "me",
-  "status": "ready",
-  "detail": "*** THE MARRIAGE IS FOUND AND SHE IS NAMED: CAROLINA OLIVA, married by petition at Montevideo on 3 SEPTEMBER 1836 *** - image read, ark 3:1:3Q9M-C9B7-J331-G, signed by Luis Lerena himself. She was dead by March 1842, when he remarried \"en segundas nupcias\" as \"viudo de Dona Carolina\". *** IF THERE WERE CHILDREN, THEY ARE HALF-SIBLINGS OF LUIS EUGENIO AND GILBERTO - Lerenas of the right surname, the right country and the right generation, and nobody has ever looked for them. *** *** THE INDEXED SEARCH IS DONE AND CAME BACK EMPTY, 14 Sep 2026: *** no child of a Lerena father and a Carolina Oliva mother anywhere, and no death for her - every Carolina Oliva in the Uruguayan records is a later woman who married Antonio Reverditto. So this needs the REGISTERS TURNED BY HAND: Montevideo baptisms 1837-1841, and burials 1841-42. Any child would be a HALF-SIBLING of Luis Eugenio and Gilberto - a Lerena of the right surname and the right generation, and a place Juan Carlos has never been looked for.",
+  "status": "done",
+  "detail": "*** MIGRATED TO THE WORK LIST, 15 September 2026. *** This was never a person's errand: *** errands.tsv is work for a PERSON, the work list is work for a SESSION ***, and this is the archive's own machine work. It is now on /worklist/ and the detail below is kept verbatim so nothing is lost. *** THE MARRIAGE IS FOUND AND SHE IS NAMED: CAROLINA OLIVA, married by petition at Montevideo on 3 SEPTEMBER 1836 *** - image read, ark 3:1:3Q9M-C9B7-J331-G, signed by Luis Lerena himself. She was dead by March 1842, when he remarried \"en segundas nupcias\" as \"viudo de Dona Carolina\". *** IF THERE WERE CHILDREN, THEY ARE HALF-SIBLINGS OF LUIS EUGENIO AND GILBERTO - Lerenas of the right surname, the right country and the right generation, and nobody has ever looked for them. *** *** THE INDEXED SEARCH IS DONE AND CAME BACK EMPTY, 14 Sep 2026: *** no child of a Lerena father and a Carolina Oliva mother anywhere, and no death for her - every Carolina Oliva in the Uruguayan records is a later woman who married Antonio Reverditto. So this needs the REGISTERS TURNED BY HAND: Montevideo baptisms 1837-1841, and burials 1841-42. Any child would be a HALF-SIBLING of Luis Eugenio and Gilberto - a Lerena of the right surname and the right generation, and a place Juan Carlos has never been looked for.",
   "sent_on": "-"
  },
  {
   "key": "me-48098a",
   "what": "Search the Iglesia del Cordon, Montevideo",
   "who": "me",
-  "status": "ready",
-  "detail": "Named for the first time on 14 September 2026: the 1914 informacion matrimonial says Carlos Lerena was \"bautizado en la Iglesia de el CORDON, Dep. de Montevideo\". *** That is a THIRD Montevideo parish for this family *** - after San Francisco de Asis and the Catedral Basilica - and this archive has never searched it. Carlos's own baptism of about 1884 is there, and possibly others of Gilberto's Montevideo children.",
+  "status": "done",
+  "detail": "*** MIGRATED TO THE WORK LIST, 15 September 2026. *** This was never a person's errand: *** errands.tsv is work for a PERSON, the work list is work for a SESSION ***, and this is the archive's own machine work. It is now on /worklist/ and the detail below is kept verbatim so nothing is lost. Named for the first time on 14 September 2026: the 1914 informacion matrimonial says Carlos Lerena was \"bautizado en la Iglesia de el CORDON, Dep. de Montevideo\". *** That is a THIRD Montevideo parish for this family *** - after San Francisco de Asis and the Catedral Basilica - and this archive has never searched it. Carlos's own baptism of about 1884 is there, and possibly others of Gilberto's Montevideo children.",
   "sent_on": "-"
  },
  {
   "key": "me-f8f4da",
   "what": "Re-run the Montevideo dispensation sweep on COMPOUND surnames",
   "who": "me",
-  "status": "ready",
-  "detail": "*** THE EXISTING SWEEP IS KNOWN TO BE BLIND, and a ninth dispensation was found on 14 September 2026 that it missed. *** Its formulae were \"Lerena el impedimento\" and \"LERENA FELIGRESA\" - both assuming the next word follows the bare surname. Ema Sixta is written \"Dona Ema Sixta LERENA JUANICO, feligresa de la metropolitana\", and the compound surname sits in between. *** EVERY CHILD OF BOTH MONTEVIDEO COUPLES CARRIES A COMPOUND SURNAME, so the sweep was blind to exactly the people this archive cares most about. *** Re-run on \"Lerena Juanico\", \"Lerena Lenguas\", \"Lerena Salvanach\", and on the bare surname with the PLACE FACET instead of a following word. The headline conclusion - no Lerena-Lerena dispensation, everyone marries out - is not withdrawn but is not safe until this is done.",
+  "status": "done",
+  "detail": "*** MIGRATED TO THE WORK LIST, 15 September 2026. *** This was never a person's errand: *** errands.tsv is work for a PERSON, the work list is work for a SESSION ***, and this is the archive's own machine work. It is now on /worklist/ and the detail below is kept verbatim so nothing is lost. *** THE EXISTING SWEEP IS KNOWN TO BE BLIND, and a ninth dispensation was found on 14 September 2026 that it missed. *** Its formulae were \"Lerena el impedimento\" and \"LERENA FELIGRESA\" - both assuming the next word follows the bare surname. Ema Sixta is written \"Dona Ema Sixta LERENA JUANICO, feligresa de la metropolitana\", and the compound surname sits in between. *** EVERY CHILD OF BOTH MONTEVIDEO COUPLES CARRIES A COMPOUND SURNAME, so the sweep was blind to exactly the people this archive cares most about. *** Re-run on \"Lerena Juanico\", \"Lerena Lenguas\", \"Lerena Salvanach\", and on the bare surname with the PLACE FACET instead of a following word. The headline conclusion - no Lerena-Lerena dispensation, everyone marries out - is not withdrawn but is not safe until this is done.",
   "sent_on": "-"
  },
  {
   "key": "me-c3efdb",
   "what": "Find the marriage act of Josefa Lerena - Moratorio, or Lerena?",
   "who": "me",
-  "status": "ready",
-  "detail": "*** RAISED AND THEN LARGELY DEFLATED ON THE SAME DAY - and it still needs one act to close. *** Pablo Armando's enrolment card names his parents JUAN CARLOS LERENA and MARIA LERENA, and the standing question is whether Maria was a Lerena BY BIRTH - which would make theirs a marriage between kin, and would need a dispensation. The 1895 Buenos Aires census enters a JOSEFA in Gilberto Lerena's household as *** \"LERENA de L[erena], m, 43, VIUDA, R. Oriental\" *** - and on the two lines above her the same enumerator writes married women as [maiden surname] de L. If he is consistent, Josefa was born a Lerena and married a Lerena, one generation before Juan Carlos. *** BUT WITHIN THE HOUR, Uruguayan civil registration produced a JOSEFA LERENA married to FERNANDO MORATORIO, whom the FamilySearch tree attaches to Josefa Lerena Traibel 1851-1947 - the same candidate. If that is her, \"de L.\" is the enumerator's shorthand for the Lerena HOUSEHOLD and proves nothing. The Lerena-Lerena reading is withdrawn as evidence. *** She is almost certainly the Josefa Lerena who stood godmother at the Catedral de Montevideo in 1885. Born about 1852, widowed by 1895. Look for her marriage in Montevideo 1870-1890, and for her husband's death before 1895. And note the dispensation sweep that concluded no Lerena-Lerena marriage exists is itself known to be blind to compound surnames.",
+  "status": "done",
+  "detail": "*** MIGRATED TO THE WORK LIST, 15 September 2026. *** This was never a person's errand: *** errands.tsv is work for a PERSON, the work list is work for a SESSION ***, and this is the archive's own machine work. It is now on /worklist/ and the detail below is kept verbatim so nothing is lost. *** RAISED AND THEN LARGELY DEFLATED ON THE SAME DAY - and it still needs one act to close. *** Pablo Armando's enrolment card names his parents JUAN CARLOS LERENA and MARIA LERENA, and the standing question is whether Maria was a Lerena BY BIRTH - which would make theirs a marriage between kin, and would need a dispensation. The 1895 Buenos Aires census enters a JOSEFA in Gilberto Lerena's household as *** \"LERENA de L[erena], m, 43, VIUDA, R. Oriental\" *** - and on the two lines above her the same enumerator writes married women as [maiden surname] de L. If he is consistent, Josefa was born a Lerena and married a Lerena, one generation before Juan Carlos. *** BUT WITHIN THE HOUR, Uruguayan civil registration produced a JOSEFA LERENA married to FERNANDO MORATORIO, whom the FamilySearch tree attaches to Josefa Lerena Traibel 1851-1947 - the same candidate. If that is her, \"de L.\" is the enumerator's shorthand for the Lerena HOUSEHOLD and proves nothing. The Lerena-Lerena reading is withdrawn as evidence. *** She is almost certainly the Josefa Lerena who stood godmother at the Catedral de Montevideo in 1885. Born about 1852, widowed by 1895. Look for her marriage in Montevideo 1870-1890, and for her husband's death before 1895. And note the dispensation sweep that concluded no Lerena-Lerena marriage exists is itself known to be blind to compound surnames.",
   "sent_on": "-"
  },
  {
   "key": "me-71f62f",
   "what": "Retry ALEX when its full-text search is working",
   "who": "me",
-  "status": "ready",
-  "detail": "*** alex.onb.ac.at - about 5 million pages of Austrian and Habsburg official texts. Its CONTENT search is broken: every query returns TOTAL (0) with a \"not yet available\" notice, proved by controls on 14 Sep 2026. *** The digitised volumes and the TITLE search do work. When full text returns, search LERENA and LLERENA, and specifically the Hof- und Staatshandbuch and Reichsgesetzblatt for an AUSTRO-HUNGARIAN honorary consul of that name at MONTEVIDEO or BUENOS AIRES - the only plausible link, and one that fits a family holding a general, a judge and an abogado. It would NOT reach Pablo Armando's own claimed ARGENTINE consulship at the Cape; that needs the South African gazette.",
+  "status": "done",
+  "detail": "*** MIGRATED TO THE WORK LIST, 15 September 2026. *** This was never a person's errand: *** errands.tsv is work for a PERSON, the work list is work for a SESSION ***, and this is the archive's own machine work. It is now on /worklist/ and the detail below is kept verbatim so nothing is lost. *** alex.onb.ac.at - about 5 million pages of Austrian and Habsburg official texts. Its CONTENT search is broken: every query returns TOTAL (0) with a \"not yet available\" notice, proved by controls on 14 Sep 2026. *** The digitised volumes and the TITLE search do work. When full text returns, search LERENA and LLERENA, and specifically the Hof- und Staatshandbuch and Reichsgesetzblatt for an AUSTRO-HUNGARIAN honorary consul of that name at MONTEVIDEO or BUENOS AIRES - the only plausible link, and one that fits a family holding a general, a judge and an abogado. It would NOT reach Pablo Armando's own claimed ARGENTINE consulship at the Cape; that needs the South African gazette.",
   "sent_on": "-"
  },
  {
@@ -251,8 +251,8 @@
   "key": "me-19f6ba",
   "what": "Read SPORTING LIFE's Argentine racing columns, 1905-1920",
   "who": "me",
-  "status": "ready",
-  "detail": "*** THE ONE LIVE SEAM IN THE BRITISH PRESS, found 14 September 2026 after the surname search failed. *** Searching \"Lerena\" in the British Newspaper Archive is useless - the Nissan Serena, \"gutta serena\" and a Spanish finance minister swamp it. But *** \"ARGENTINE STUD BOOK\" returns 13 genuine articles, *** and SPORTING LIFE covered Argentine racing in the very years GILBERTO LERENA was co-founding that book and having a Palermo Group 1 named for him in 1914. Read the columns by SUBJECT rather than searching by NAME. Note this needs a findmypast or BNA subscription - the newspapers ARE covered by the plan tested on 14 Sep, unlike the Devon parish registers.",
+  "status": "done",
+  "detail": "*** MIGRATED TO THE WORK LIST, 15 September 2026. *** This was never a person's errand: *** errands.tsv is work for a PERSON, the work list is work for a SESSION ***, and this is the archive's own machine work. It is now on /worklist/ and the detail below is kept verbatim so nothing is lost. *** THE ONE LIVE SEAM IN THE BRITISH PRESS, found 14 September 2026 after the surname search failed. *** Searching \"Lerena\" in the British Newspaper Archive is useless - the Nissan Serena, \"gutta serena\" and a Spanish finance minister swamp it. But *** \"ARGENTINE STUD BOOK\" returns 13 genuine articles, *** and SPORTING LIFE covered Argentine racing in the very years GILBERTO LERENA was co-founding that book and having a Palermo Group 1 named for him in 1914. Read the columns by SUBJECT rather than searching by NAME. Note this needs a findmypast or BNA subscription - the newspapers ARE covered by the plan tested on 14 Sep, unlike the Devon parish registers.",
   "sent_on": ""
  },
  {

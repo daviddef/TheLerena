@@ -95,18 +95,18 @@
   {
    "n": 12,
    "what": "Give the estate the film-and-image addressing method",
-   "state": "next",
+   "state": "done",
    "owner": "the kit & estate",
    "since": "2026-09-15",
-   "note": "Found here on 15 September and it belongs to every archive that touches FamilySearch, not to this one. The tile service accepts **`dgs:{film9}.{film9}_{image5}`** as an image id — so any image on any film is addressable **by number**, with no viewer, no ark lookup, and no catalogue. Its `manifest.json` converts an ark to a film and image and back. And it keeps serving while **www.familysearch.org** is behind Error 15, which takes down search and ark pages together. This archive found the 1791 marriage act with it while the main site was blocked. It is written into this session's memory; it should be in the kit."
+   "note": "**Written up in `notes/FOR-THE-ESTATE.md`, 15 September 2026**, where a sibling session will find it, with working code and the traps spelled out. Covers `dgs:{film9}.{film9}_{image5}`, the `manifest.json` ark round-trip, **why it matters — the tile host is not behind the Error 15 block that takes down `/search/` and `ark:` pages together** — and `tools/fsimage.js` with its three traps."
   },
   {
    "n": 13,
    "what": "Two catalogue attributions in this archive were wrong — the estate should assume its own are too",
-   "state": "next",
+   "state": "done",
    "owner": "the kit & estate",
    "since": "2026-09-15",
-   "note": "Both of this archive's Montevideo film attributions came from reading a catalogue rather than a film. One held under test — DGS 7713373 really is the regiment's book, though the film is labelled as the Curia's. **One did not**: DGS 7713386 is not the 1726–1800 index. If two of two failed inspection here, the other archives' unverified catalogue citations are worth a pass. Raised as an estate observation, not a Lerena task."
+   "note": "**Written up in `notes/FOR-THE-ESTATE.md`, 15 September 2026**, where a sibling session will find it, with working code and the traps spelled out. Both cases set out in full: **7713373**, where the label was wrong and the substance held, and **7713386**, which is simply not the index it was called. Plus the film-gap lesson — three probes are not a survey — and the one-call `manifest.json` test that settles any of it."
   },
   {
    "n": 14,
@@ -246,11 +246,11 @@
   },
   {
    "n": 31,
-   "what": "Reclaim the errands that are now machine work",
-   "state": "next",
+   "what": "Reclaim the errands that are now machine work — and the premise was wrong",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**A roadmap item about the roadmap.** Eleven rows in [errands](/errands/) sit at *ready* and owner **David** because, when they were written, this archive could not drive the viewer and full text was down. Both are now solved — images are addressable by film-and-image number and full text is back. Candidates to reclaim: the Iglesia del Cordón sweep; Josefa Lerena's marriage act; the children of Luis Lerena and Carolina Oliva 1836–41; finding the DGS for the Montevideo marriage-dispensation register; the compound-surname dispensation sweep; Gilberto Lerena's household forward; and the Alejandro Lerena Lenguas test. **Go through them, move what this archive can now do, and leave David only what genuinely needs a person.**"
+   "note": "**The row assumed eleven errands sat on David. They did not — all eleven were already owned by *me*, this archive.** That is the third time today this session asserted something about its own files without checking them. **But it exposed a real fault underneath**: by the estate's own division — *errands.tsv is work for a person, the work list is work for a session* — eleven rows of the archive's own machine work were sitting in the wrong register. **All eleven migrated**: closed in `errands.tsv` with their detail kept verbatim, and seven new work-list rows opened for the ones that had no counterpart. What remains in errands is what it should be — institutions written to, and four things genuinely waiting on David."
   },
   {
    "n": 32,
@@ -335,18 +335,18 @@
   {
    "n": 42,
    "what": "Warn the estate that pdftotext will weld two strangers together",
-   "state": "next",
+   "state": "done",
    "owner": "the kit & estate",
    "since": "2026-09-15",
-   "note": "The South African Government Gazette sets **two columns**, and `pdftotext -layout` interleaves them line by line. A grep on Nuno Fernando's page returned *died 26 June 1971* and *Bedfordview* — both belonging to **6546/71 MARSHALL** in the left column. It was caught only because two gazettes disagreed about one estate number. Any archive in this estate using the gazette pipeline will hit this. **Print context, never grep matches.**"
+   "note": "**Written up in `notes/FOR-THE-ESTATE.md`, 15 September 2026**, where a sibling session will find it, with working code and the traps spelled out. With the actual welded line quoted, how it was caught — two gazettes disagreeing about one estate number — and the whole free pipeline, including the predictable `archive.gazettes.africa` slug."
   },
   {
    "n": 43,
    "what": "Warn the estate that a death_year column may not be one",
-   "state": "next",
+   "state": "done",
    "owner": "the kit & estate",
    "since": "2026-09-15",
-   "note": "This archive's `sa-deceased-estates.tsv` was built from ancestors.co.za and its `death_year` column turned out to hold **the year the estate was advertised**, for all eleven rows — Ricardo Juan Carlos died in **1994** and was filed under **1996**; Anton Armando died in **2003** and was filed under **2013**. **Any sibling archive that harvested the same index has the same bug**, and it is invisible until you fetch the gazette the row points at."
+   "note": "**Written up in `notes/FOR-THE-ESTATE.md`, 15 September 2026**, where a sibling session will find it, with working code and the traps spelled out. With both worked examples: **died 1994, filed 1996** and **died 2003, filed 2013** — the second of which cost this archive several hours believing two records described two men."
   },
   {
    "n": 44,
@@ -659,6 +659,62 @@
    "owner": "this archive",
    "since": "2026-09-15",
    "note": "The Sancho search exposed a gap in the archive's own shape: it records when a person is **named**, not when they were last **demonstrably alive**. A man named as a grandfather may have been twenty years dead. **One field, computed where possible from the record type**, would stop that confusion for 278 people rather than one."
+  },
+  {
+   "n": 83,
+   "what": "Turn the Montevideo marriage-dispensation register, 1856–1932",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Migrated from [errands](/errands/), where it was misfiled.** The task is to *turn* the register — page it — not to write to anybody, so it was never a person's errand. This archive already holds one dispensation from the series, the **1911 Lerena–Cardozo**, and the register spans the generation the Montevideo branch is thinnest on."
+  },
+  {
+   "n": 84,
+   "what": "Trace Gilberto Lerena's Buenos Aires household forward",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Migrated from errands.** Gilberto appears in the 1895 census household and is one of the few Argentine Lerenas this archive can place. Forward from 1895 is civil registration and later censuses."
+  },
+  {
+   "n": 85,
+   "what": "Test whether Alejandro Lerena Lenguas is the Alejandro M. Lerena of the enrolment cards",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Migrated from errands.** An identity test between a man in the Montevideo trunk and a name on the Argentine enrolment cards — the same class of record as Pablo Armando's own 1908 card, which is where this archive's central question started."
+  },
+  {
+   "n": 86,
+   "what": "Find General Don Pedro Lenguas in the published record",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Migrated from errands.** Luis Lerena married Justiniana **Lenguas** in 1842, and a general of that name would be in the published military and political record of the period — the easiest external corroboration available for that marriage."
+  },
+  {
+   "n": 87,
+   "what": "Re-run the Montevideo dispensation sweep on compound surnames",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Migrated from errands.** This archive has a compound-surname sweep (`data/compound-surname-sweep.tsv`) and a dispensation series; the two have never been crossed. *Lerena y Aguilar*, *Llerena Fernández* and the rest are exactly the forms a dispensation would print."
+  },
+  {
+   "n": 88,
+   "what": "Find the marriage act of Josefa Lerena — Moratorio, or Lerena?",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Migrated from errands.** An open identity question with candidates already assembled in `data/josefa-lerena-candidates.tsv`. The act itself decides it."
+  },
+  {
+   "n": 89,
+   "what": "Retry ALEX, and read Sporting Life's Argentine racing columns 1905–1920",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Two migrated errands, both external sites rather than correspondence.** ALEX is to be retried when its full-text search works. *Sporting Life* matters more than it looks: the gazette now calls Robert Paul Lerena a **racehorse trainer** and a 1986 notice names **Lerena Racing Stables**, so an Argentine racing column of 1905–1920 is a plausible place to find him before South Africa — which bears on [the eight unaccounted years](/gaps/)."
   }
  ],
  "accounts": [
