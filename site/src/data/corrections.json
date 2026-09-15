@@ -383,5 +383,19 @@
   "what_was_said": "That the castrense chaplain was 'Juan Miguel de Mendoza', and that a neighbouring 1789 entry named an enslaved man belonging to a Llerena",
   "what_is_true": "Both were misread at fit-width and corrected at full magnification before either reached the site: the chaplain is JUAN MIGUEL DE BERROETA, and the slave-owner is FRANCISCO JUAREZ, not Llerena. Recorded because the second misreading would have manufactured a Llerena in the regiment's own book - the exact thing this archive wants to find, which is precisely why it nearly got through.",
   "how_it_was_caught": "Caught by re-reading at magnification, as the standing rule requires."
+ },
+ {
+  "date": "2026-09-15",
+  "severity": "serious",
+  "what_was_said": "That the second column of data/sa-deceased-estates.tsv was a death_year",
+  "what_is_true": "It is the year the estate was ADVERTISED in the Government Gazette, and the file called it death_year for all eleven rows. Where the J193 has now been read the two differ by years: Ricardo Juan Carlos died 21 December 1994 and was filed under 1996; Anton Armando died 3 April 2003 and was filed under 2013. Column renamed to gazette_year and the true dates recorded.",
+  "how_it_was_caught": "Caught by reading the actual gazette notices instead of the index that summarised them."
+ },
+ {
+  "date": "2026-09-15",
+  "severity": "serious",
+  "what_was_said": "That gendatabase and this archive contradicted each other about Anton Armando Lerena, and might describe two men",
+  "what_is_true": "There was no contradiction and there is one man. This archive's row read '2013 ... 68', and this session read that as died 2013 aged 68, implying birth about 1945 - but 2013 was the gazette year and 68 was the PAGE NUMBER, both of them columns in the archive's own file. The J193 says: Anton Armando Lerena, born 1952, died 3 April 2003, estate 15127/2013 advertised on page 68 of the gazette of 16 August 2013. gendatabase was right.",
+  "how_it_was_caught": "Caught by fetching the gazette page that both records were pointing at all along."
  }
 ]

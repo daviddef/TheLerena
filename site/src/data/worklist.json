@@ -71,10 +71,10 @@
   {
    "n": 9,
    "what": "Resolve Anton Armando Lerena — two records, deliberately not merged",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "gendatabase.com gives born 1952, died 2003. This archive's existing row from ancestors.co.za gives died 2013 aged 68, implying born about 1945. Those cannot both describe one man, and **they may simply be two men**. Left unmerged until a document says otherwise."
+   "note": "**Resolved 15 September 2026, and there was never a contradiction.** The J193 says Anton Armando Lerena died **3 April 2003**; estate 15127/2013 was advertised on **page 68** of the gazette of 16 August 2013. This archive's row held the **gazette year** and the **page number**, and this session read them as a death year and an age. gendatabase was right. One man. Logged in [corrections](/corrections/), along with the discovery that the whole column was mislabelled."
   },
   {
    "n": 10,
@@ -151,10 +151,18 @@
   {
    "n": 19,
    "what": "Finish the gazette re-sourcing — five estate notices already located",
+   "state": "done",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Four of the five done, and the fifth is a real null.** Read off the gazette: Anton Armando (b. 1952, d. 3 April 2003), Roberto Juan Roque (b. 20 March 1944, d. 20 February 2022), Brigitte (b. 16 October 1951, d. 18 May 2023), Belinda Maud (b. 16 January 1957, d. 2024 — the printed day is impossible and is flagged, not smoothed), and **Rogue Luis Armando in full: born 6 December 1905, died 29 January 1973**, which makes him the eldest of the three sons by fifteen years. **Doreen May could not be re-sourced**: her estate number returns only two J187s, neither carrying a date. Still open and moved to its own row. Also still unchased: the 1986 notice for **Lerena Racing Stables**, which belongs on [the horses page](/horses/)."
+  },
+  {
+   "n": 20,
+   "what": "Find Doreen May Lerena's J193, and put Lerena Racing Stables on the horses page",
    "state": "next",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "Located on gazettes.africa and not yet opened: **16409/00** (Doreen May — the J187 of 2001 gives only the executor, so her J193 should be in a gazette of **2000**), and Lerena estate notices at **15127/2013**, **017515/2022**, **17814/2023** and **017114/2024**. The 2013 one may settle the Anton Armando contradiction on its own. **Method, which works:** the site is behind Cloudflare but the PDFs are open at `archive.gazettes.africa/archive/za/<year>/<slug>.pdf` — fetch, `pdftotext -layout`, and **print context rather than grep matches**, because the gazette sets two columns and a bare grep will weld two strangers into one person. Also found and not chased: a 1986 notice for **Lerena Racing Stables**, which belongs on [the horses page](/horses/)."
+   "note": "Two leftovers from the gazette work. **Doreen May** is the only person in this family who could not be taken off the commercial index: estate **16409/00** returns two J187 accounts and no J193, so gendatabase's *born 1921, died 1999* stands as **their** fact. Her notice may sit in an unindexed or badly scanned gazette of **2000**. And the **1986 notice for Lerena Racing Stables** (Government Gazette, 8 August 1986, no. 10383, page 7) has been located and never opened — it belongs beside the gazette's own description of Robert Paul Lerena as a **racehorse trainer**."
   }
  ]
 }
