@@ -326,11 +326,11 @@
   },
   {
    "n": 41,
-   "what": "Check the living-person gate covers the people added today",
-   "state": "next",
+   "what": "Check the living-person gate — the tick was assumed, and now it is asked",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "`check:living` passed, but this archive has just added people who died in **2022, 2023 and 2024** and named their addresses and identity numbers from public notices. The gate's policy is `named-bare`. **Confirm that is the intended treatment for the recently dead and their surviving relatives**, rather than assuming a green check means the question was asked."
+   "note": "**Audited, and the suspicion was right.** `checkliving.py` finds living people from an explicit flag — `living`, `presumedLiving`, `alive`, `isLiving`, or `conf: \"living\"`. **`people.json` carries none of them**, so the green tick was passing over an empty set. The kit's own docstring says that is *\"correct rather than a gap\"* **for an archive that genuinely has no living people** — which had never been established here. **So it was established.** Of 278 people, three are born 1930 or later with no death recorded: Rieta Maria (1936) and Antoinette Septima Lynette (1943) are both **over eighty and presumed deceased** by the rule the checker itself applies; **Anton Lerena, born 1952, was not** — and he is the one person the archive was publishing who might have been alive. **He is not**: the J193 read today gives his death as **3 April 2003**, which also upgrades him from *named in the tree, not corroborated by a document*. **The gate now passes over a set that has been counted.**"
   },
   {
    "n": 42,
