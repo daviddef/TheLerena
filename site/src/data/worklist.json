@@ -495,34 +495,34 @@
   {
    "n": 62,
    "what": "Build the film register — every DGS this archive knows",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "Film numbers are now scattered across a dozen TSVs and this session added six more: 8166573, 8166578, 8166571, 7713373, 7713375, 7713376, 7713382, 7713391, 8158248. **One file: the DGS, what it actually is (not what a catalogue said), its image range, and what has been read.** Two attributions have already been found wrong and one film turned out to have two blocks; this is the record that would have caught both."
+   "note": "**Done — `data/film-register.tsv`, 51 films, built from resolved arks rather than catalogue lines.** Nine are identified in detail, including the two-block structure of **8166573** and the correction that **7713386 is not the 1726–1800 index**. The other 42 are listed as *not yet identified*, which is the honest state and a queue in itself. The archive had named perhaps nine films before today."
   },
   {
    "n": 63,
    "what": "Resolve every ark in the archive to a film and image",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "Seventy-nine arks are stored across `data/`, and **an ark alone cannot be reopened when the viewer is down**. One `manifest.json` call converts each to a film-and-image that works through the tile service even behind Error 15. Today an ark this archive had held for weeks turned out to sit at **image 274 of a film this session had declared empty below 1057**. Resolve them all, store the mapping, and that class of error disappears."
+   "note": "**Done — 78 arks, 51 films.** 73 resolved to a film-and-image, two are **restricted (HTTP 403 — access-denied, not absent)**, two return no DeepZoom id, and two are Argentine enrolment cards on a different id scheme. Written to `data/ark-to-film.tsv`. **Every one of them can now be reopened through the tile service even while www is behind Error 15.**"
   },
   {
    "n": 64,
    "what": "Make the film-and-image reader a tool, not a habit",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "The mosaic reader has been retyped into the browser perhaps fifteen times today, and its traps are learned each time: never cache-bust a failed tile, wait after `naturalWidth`, and **never batch the scroll and the screenshot** because the transform has not repainted. Put it in `tools/` with those three rules as comments, so the next session inherits them instead of rediscovering them."
+   "note": "**Done — `tools/fsimage.js`.** The mosaic reader, the contact sheet, the ark resolver and the extent prober, with the three traps written as comments where they will be read: never cache-bust a failed tile, wait after `naturalWidth`, and never batch the view and the screenshot. Plus the rule that is not about code — **do not read names at fit-width** — with the four misreadings of 15 September named in full."
   },
   {
    "n": 65,
    "what": "Publish the control-before-null rule on the method page",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "Today it decided four separate questions: the Berroeta control **saved** a day of hand-reading, the Andalusian control **voided** a null that looked clean, the exact-match control **voided two more**, and the Rodríguez control **validated** the one negative worth keeping. [The method page](/method/) does not state the rule. It should, in the form the session actually uses it: **run a query you know should return something, before you believe one that returns nothing.**"
+   "note": "**It was already published, and this row was wrong to assume otherwise** — the same error as assuming three read images were unread. [The method page](/method/) has carried *A null is not a finding until a control says so* since 14 September. **So it was strengthened instead of duplicated**, with the four times the rule decided a question on 15 September: once it saved three hundred images of hand-reading, twice it voided nulls that looked clean, and **once — only once — it confirmed a negative worth keeping**, which is Sancho's missing burial."
   },
   {
    "n": 66,
