@@ -3,6 +3,8 @@ import Base from "../layouts/Base.astro";
 import WaysIn from "@daviddef/archive-kit/components/WaysIn.astro";
 import Numbers from "@daviddef/archive-kit/components/Numbers.astro";
 import PlaceSpark from "@daviddef/archive-kit/components/PlaceSpark.astro";
+import MarriageChart from "@daviddef/archive-kit/components/MarriageChart.astro";
+import { chartGroups } from "../lib/marriedin.js";
 import { u } from "../lib/url.js";
 import people from "../data/people.json";
 import atlas from "../../public/atlas-data.json";
@@ -213,7 +215,15 @@ const stats = [
     here will change this archive, and the change will be recorded rather than quietly made.</div>
 </section>
 
-  <section class="blk">
+  
+<section class="blk">
+  <h2>The families who married in</h2>
+  <p class="dek">Most people carrying this name have no proved relationship to the line. This is what has been decided about each.
+  <a href={u("/marriages/")}>The marriages, in full →</a></p>
+  <MarriageChart groups={chartGroups} subject="Lerena" unit="people carrying the name" />
+</section>
+
+<section class="blk">
     <h2>What this archive has established</h2>
     <div class="grid two" style="margin-top:1rem">
       <div class="card">
