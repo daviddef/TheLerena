@@ -3,6 +3,7 @@ import Base from "../../layouts/Base.astro";
 import { u } from "../../lib/url.js";
 import places from "../../data/places.json";
 import people from "../../data/people.json";
+import { emph } from "../../lib/text.js";
 export function getStaticPaths(){ return places.map(pl => ({ params:{ slug:pl.slug }, props:{ pl } })); }
 const { pl } = Astro.props;
 const here = people.filter(p => p.placeSlug === pl.slug)
@@ -23,7 +24,7 @@ const sources = [...new Set(here.map(p => p.source).filter(Boolean))];
               {p.occupation && p.occupation !== "-" && <><br /><span class="cap">{p.occupation}</span></>}</td>
             <td class="m">{p.born || "—"}</td>
             <td>{p.nationality || "—"}</td>
-            <td>{p.source || "—"}</td>
+            <td><span set:html={emph(p.source || "—")} /></td>
           </tr>
         ))}
       </tbody>
@@ -33,7 +34,7 @@ const sources = [...new Set(here.map(p => p.source).filter(Boolean))];
 
 {sources.length > 0 && <section class="blk">
   <h2>Where these came from</h2>
-  <ul>{sources.map(s => <li>{s}</li>)}</ul>
+  <ul>{sources.map(s => <li><span set:html={emph(s)} /></li>)}</ul>
 </section>}
 
 <section class="blk">

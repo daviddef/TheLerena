@@ -127,7 +127,7 @@ for (const g of groups) g.rows.sort((a, b) => a.name.localeCompare(b.name));
                   {p.sourceUrl
                     ? <a href={p.sourceUrl} rel="noopener">record &#8599;</a>
                     : <span class="cap">{p.noLink}</span>}
-                  <br /><span class="cap">{p.source}</span>
+                  <br /><span class="cap" set:html={emph(p.source)} />
                 </td>
               </tr>
             ))}

@@ -3,6 +3,7 @@ import Base from "../../layouts/Base.astro";
 import { u } from "../../lib/url.js";
 import FilterTable from "@daviddef/archive-kit/components/FilterTable.astro";
 import people from "../../data/people.json";
+import { emph } from "../../lib/text.js";
 const order = { connected:0, high:1, interest:2, unplaced:3, excluded:4 };
 const sorted = [...people].sort((a,b) => (order[a.status]-order[b.status]) || a.name.localeCompare(b.name));
 const n = people.length;
@@ -49,7 +50,7 @@ const esc = (t) => String(t ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;");
         esc(p.born || ""),
         esc([p.place, p.nationality].filter(Boolean).join(" \u00b7 ")),
         `<span class="chip">${STATUS[p.status] || p.status}</span>`,
-        esc(p.source || ""),
+        emph(p.source || ""),
       ],
     }))} />
 </section>
