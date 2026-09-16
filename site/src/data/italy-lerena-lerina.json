@@ -1,0 +1,27 @@
+[
+ {
+  "query": "*** LERENA, exact, Italy ***",
+  "result": "*** 66 records. ***",
+  "reading": "*** THE SURNAME IS ITALIAN AS WELL AS SPANISH, AND THIS ARCHIVE DID NOT KNOW THAT. *** The cluster is the *** DIOCESE OF TORINO *** - Bartolomeo, Teresa, Anna Maria, Eduardo, Caterina, Luigi, Paolo, Giovanni, Giuseppe, Vincenzo, Giacomo, Margherita, Domenica, Maddalena, Adelaide, Irma. *** All Italian forenames, in Piedmont. ***"
+ },
+ {
+  "query": "*** LERENA + forename CARLO, exact, Italy ***",
+  "result": "*** ZERO. ***",
+  "reading": "*** A CONTROLLED NULL: *** the identical search without a forename returns 66, so the mechanism works and the surname is in the index. *** There is no Carlo Lerena in Italy at all. ***"
+ },
+ {
+  "query": "*** LERINA, exact, Italy ***",
+  "result": "*** 114 records - MORE than Lerena. ***",
+  "reading": "Also Torino-centred, plus *** Ivrea, Catania, Messina and Mantova. *** *** This is the commoner Italian spelling of the two ***, which matters because CEMLA has Lerinas landing at Buenos Aires."
+ },
+ {
+  "query": "*** LERINA + forename CARLO ***",
+  "result": "*** 5 records. ***",
+  "reading": "Carlo Lerina b. 18 Dec 1917 Torino (too late); *** CARLO DOMENICO LERINA, baptised IVREA 30 May 1858, born 28 May 1858, parents ANTONIO LERINA and GIUSEPPA PEAN-CONTO *** ; one at Catania 1846; two without dates. *** Only the Ivrea man is age-plausible - he would be 23 when Pablo Armando was born. NOTHING WHATEVER TIES HIM TO ARGENTINA, and he is recorded here as a name-shaped coincidence, not a candidate. ***"
+ },
+ {
+  "query": "*** LERINA + forename GIOVANNI ***",
+  "result": "*** 6 records, NONE of them Giovanni Carlo. ***",
+  "reading": "The best-dated is *** Giovanni Lerina, b. 1863, marriage banns at Torino 24 April 1887, parents Luigi and Luigia Cosi *** - *** which rules him out twice over: *** he was 19 when Pablo Armando was born, and he was posting banns in Turin five years later, so he was in Italy."
+ }
+]

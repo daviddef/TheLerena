@@ -1067,6 +1067,14 @@
    "owner": "this archive",
    "since": "2026-09-16",
    "note": "*** Found while making the record links on /enrolment-card/ prominent. *** The markup writes `<div class=\"grid two\">` in two places, and *** the stylesheet has `.grid { display:grid; gap:14px }` and NO `.two` rule at all *** — checked against every loaded rule, including inside media queries. *** So both of them have always been a single column, at every width ***, including the front page's \"What this archive has established\" cards. *** Worked around locally rather than fixed properly: *** the enrolment-card grid now carries an inline `grid-template-columns:repeat(auto-fit,minmax(290px,1fr))`, which is responsive and self-contained. *** The real fix belongs in the shared archive-kit stylesheet ***, which means the kit changes and *** six archives repin *** — see row 92, which already wants a repin for the /bloodline/ fix. Do them together, and drop the inline style when the rule exists."
+  },
+  {
+   "n": 134,
+   "what": "Piedmont: the surname and the DNA now point at the same corner of Italy",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-16",
+   "note": "*** Opened 16 September 2026 out of David's question, \"do we have a Juan Carlos Lerena / Lerina in Italian records?\" *** *** The direct answer is no *** — no Giovanni Carlo or Gian Carlo under either spelling, controlled. *** The useful answer is that LERENA and LERINA are Italian surnames and they sit in PIEDMONT: *** 66 exact Lerena records in Italy clustered in the **Diocese of Torino**, and **114** exact Lerina, Torino again plus **Ivrea**. See `data/italy-lerena-lerina.tsv`. *** And that is the same corner the DNA points at. *** The archive's own DNA page reasons that Cheryl's **11.1% Italian**, with three non-Italian grandparents, implies **about 44% in Pablo Armando — one Italian parent** — and that the split is *** NORTHERN-dominant, 6.1 against 3.6. *** *** Two independent things, an admixture estimate and a surname distribution, now point at northern Italy, and neither of them names anybody. *** *** WHAT TO DO WITH IT: *** the Torino and Ivrea civil registration and diocesan records are indexed on FamilySearch and are searchable by parent name — *** so look for a LERINA or LERENA male born about 1840–1862 in Piedmont who then DISAPPEARS from the Italian record ***, and cross him against the Argentine arrivals. The archive already holds `cemla-lerina.tsv`: a **Lerina family of four landing at Buenos Aires from GENOVA on 15 March 1889** — *** seven years too late to be his parents arriving, but the right surname on the right route ***, and Genova is the port Piedmont emigrates through. *** Also worth re-running CEMLA for LERENA and LERINA before 1882, which is the arrival that would matter. ***"
   }
  ],
  "accounts": [
