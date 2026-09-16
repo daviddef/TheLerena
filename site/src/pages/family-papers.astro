@@ -32,7 +32,7 @@ const convFind = conv.filter((r) => r.probe && r.probe !== "finding" && r.probe 
   && !/^\d+$/.test(String(r.hits || "").trim()) && r.hits);
 const convJoin = conv.find((r) => r.probe === "what_would_join_them");
 const bmdRows = bmd.filter((r) => r.grade && r.grade !== "grade");
-const h1891 = c1891.filter((r) => r.relation);
+const h1891 = c1891.filter((r) => r.relation && r.relation !== "relation" && r.birthplace);
 const h1851 = c1851.filter((r) => r.relation && r.relation !== "relation");
 const h1861 = c1861.filter((r) => r.rel && r.rel !== "rel");
 const forRows = llorens.filter((r) => r.field.startsWith("for_"));
@@ -768,9 +768,28 @@ const DOCS = [
       two children born in the same month, which read like a slip, are twins.</p>
     <p><strong>What it does not settle.</strong> Two children are missing from it &mdash; Isabella Temple,
       who would be sixteen, and <strong>Mary Septima, who would be six</strong>. A county-wide check of all
-      368 Devon Taylors born 1882&ndash;1886 does not find her either. That null is soft, because FreeCEN&rsquo;s
+      368 Devon Taylors born 1882&ndash;1886 does not find her either, and the obvious hypothesis &mdash;
+      that she was with her grandmother &mdash; fails, because her grandmother is alone in an alms house. That null is soft, because FreeCEN&rsquo;s
       Devon is transcribed parish by parish; Northam itself is complete, which is the only reason her
       absence from it counts for anything.</p>
+    <p><strong>And the grandmother is in the same parish, found only by changing the spelling.</strong>
+      The household above was found by searching <em>Taylor</em>. Searching <em>Brayley</em> in Northam in
+      the same year turns up <strong>Georgina Brayley, widow, 77, &ldquo;Living On Means&rdquo;, born East
+      Lothian &mdash; living alone in the ALMS HOUSE</strong>, a different enumeration district and a
+      short walk from her daughter&rsquo;s family. That completes a sentence the tree only half-wrote: it
+      gives her occupation as <em>&ldquo;Monthly Nurse &amp; Shoemaker Wife Pauper&rdquo;</em>, which has
+      always read like three things run together. Follow her across four records and the whole life is
+      there &mdash; <strong>&ldquo;Shoemaker Wife&rdquo; in 1851</strong>, a married lodger in her
+      father-in-law&rsquo;s house with her husband five weeks from dying in the county asylum;
+      <strong>&ldquo;Mangles Clothes&rdquo; in 1861</strong>, a widow keeping her own household;
+      <strong>the alms house in 1891</strong>; and a death at Bideford in 1900, aged 85.</p>
+    <p><strong>A candidate, graded as a candidate.</strong> The same search finds
+      <strong>Georgina Brayley, 20, general servant, born London Kilburn</strong>, in a draper&rsquo;s
+      household in Tower Street, Northam &mdash; which is precisely the pattern of Mary Ann Hellen
+      herself, in service in a china dealer&rsquo;s house at eighteen. The obvious reading is a
+      granddaughter of Georgina Temple, most likely a daughter of John Walker Brayley, who was born in
+      London and was twenty-six in 1871. <strong>None of that is proven here</strong> &mdash; the census
+      states no relationship to anybody in this family.</p>
   </div>
 
 </section>
