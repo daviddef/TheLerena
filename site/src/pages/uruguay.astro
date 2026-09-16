@@ -1,0 +1,166 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import { emph } from "../lib/text.js";
+import ramon from "../data/ramon-lerena-rosario.json";
+import mauricio from "../data/mauricio-casimira-montano.json";
+
+const ramonRows = ramon.filter((r) => r.generation && r.grade && r.grade !== "grade");
+const mauricioRows = mauricio.filter((r) => r.child && r.grade && r.grade !== "grade");
+---
+<Base title="Uruguay"
+      eyebrow="Two Lerena families, and neither of them is his — yet"
+      dek="There are two documented Lerena families in nineteenth-century Uruguay. They are not the same family, they are not even brothers, and this archive has spent months treating them as one. Here they are set out side by side, because the hope is that one of them eventually reaches Pablo Armando.">
+
+<section class="blk">
+  <div class="panel" style="margin:1.4rem 0">
+    <p style="margin:0">
+      <strong>Why this page exists.</strong> The surname is rare, so it was natural to assume the
+      Uruguayan Lerenas were one kindred. <strong>They are two</strong>, and both are documented from
+      parish and civil registers rather than from anybody&rsquo;s tree. Keeping them apart is not
+      pedantry: it is the difference between a family tree and a wish.
+      <a href={u("/argentina/")}>Argentina &rarr;</a> &middot;
+      <a href={u("/direct-line/")}>The Spine &rarr;</a>
+    </p>
+  </div>
+</section>
+
+<section class="blk">
+  <h2>The two houses</h2>
+  <div class="grid two" style="margin-top:1rem;grid-template-columns:repeat(auto-fit,minmax(290px,1fr))">
+    <div class="card">
+      <h3>Sancho&rsquo;s house &mdash; Canelones, then Montevideo</h3>
+      <p><strong>SANCHO LLERENA</strong> married <strong>María Fernández</strong> at Canelones on
+        <strong>8 January 1791</strong>. The act calls him <em>natural de Córdova la Llana</em> and names
+        his parents, <strong>Félix Llerena and Rosalía Aguilar</strong>. A dragoon; in 1798 he swore an
+        oath and could not sign his name.</p>
+      <p>Eight children between 1793 and 1815, and out of them the <strong>Montevideo trunk</strong> —
+        the <em>Lerena Lenguas</em> and the <em>Lerena Traibel</em>. His son <strong>Avelino</strong>
+        (1815&ndash;1890) married <strong>Ambrosia Traibel y Centeno</strong> and fathered the second of
+        those branches.</p>
+    </div>
+    <div class="card">
+      <h3>Ramón&rsquo;s house &mdash; Rosario, then the interior</h3>
+      <p><strong>RAMÓN LERENA</strong> married <strong>María Josefa González</strong> and was fathering
+        children from about 1800. His sons give his origin away: Alejandro was born at
+        <strong>Rosario</strong> and Mauricio at <strong>Colla</strong>, which is the same country — the
+        Rosario district of <strong>Colonia</strong>.</p>
+      <p>His own parents are <strong>Salvador Gerena and Ana de Cubas</strong>, named on a grandson&rsquo;s
+        baptism act of 1812. From his sons come the <strong>Trinidad kindred</strong> of Flores, and a
+        spread across San José, Florida, Salto and Montevideo.</p>
+    </div>
+  </div>
+</section>
+
+<section class="blk">
+  <h2>They are not brothers, and the arithmetic is what says so</h2>
+  <div class="prose">
+    <p>This was the question worth asking, because if Ramón were a son of Sancho the two houses would be
+      one and the Uruguayan picture would close. <strong>He is not.</strong></p>
+    <p>Alejandro married in <strong>1825</strong>, so he was born about <strong>1800&ndash;05</strong>,
+      which puts his father Ramón&rsquo;s birth at about <strong>1775&ndash;85</strong>. Sancho was
+      baptised about <strong>1767</strong>, married in <strong>January 1791</strong>, and his first child
+      was born in <strong>1793</strong>. <strong>A man born in 1775&ndash;85 cannot be the son of a man
+      who married in 1791.</strong> Ramón is Sancho&rsquo;s contemporary, roughly ten years his junior.</p>
+    <p>Nor are they brothers. <strong>Sancho&rsquo;s father was Félix; Ramón&rsquo;s was Salvador.</strong>
+      Different men, both named on records.</p>
+  </div>
+  <div class="panel" style="border-left:3px solid var(--ochre,#8a7f5c);margin:1.4rem 0">
+    <div class="lab">One resemblance, offered as a resemblance and nothing more</div>
+    <p style="margin:.6rem 0 0">Sancho&rsquo;s father is written <strong><em>Feliz GERENA</em></strong> on
+      his grandson&rsquo;s baptism at the Iglesia Matriz of Montevideo in 1811. Ramón&rsquo;s father is
+      written <strong><em>Salvador GERENA</em></strong> on a grandson&rsquo;s baptism at Unión, Montevideo
+      in 1812. <strong>The same unusual spelling, in the same city, one year apart.</strong></p>
+    <p style="margin:.6rem 0 0">That is a scribal habit of one place and one time rather than two
+      families independently choosing the same variant — which is a reason to look at whether
+      <strong>Félix and Salvador were brothers</strong>, and <strong>not</strong> a reason to believe it.
+      This archive has been wrong before by promoting exactly this shape of thing.</p>
+  </div>
+</section>
+
+<section class="blk">
+  <h2>Ramón&rsquo;s house, record by record</h2>
+  <p class="dek">Found on 17 September 2026 by searching the free FamilySearch collections
+    <em>by parent</em> rather than by person. Every line is an index entry; where an image exists and has
+    not been read, it says so.</p>
+  <div class="scroll" style="margin-top:16px">
+    <table>
+      <thead><tr><th style="width:22%">Generation</th><th style="width:20%">Record</th><th>What it says</th></tr></thead>
+      <tbody>
+        {ramonRows.map((r) => (
+          <tr><td><span set:html={emph(r.generation)} /></td>
+            <td><span set:html={emph(r.record)} /></td>
+            <td><span set:html={emph(r["what it says"])} />
+              <br /><span class="cap" set:html={emph(r.grade)} /></td></tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="blk">
+  <h2>Mauricio and Casimira, and the children who spread across the interior</h2>
+  <p class="dek">Mauricio Lerena married <strong>Casimira Montaño</strong> at San José de Mayo on
+    3 February 1837. Their children are why the current family tree points at four different
+    departments: <strong>they are not four leads, they are one family moving.</strong></p>
+  <div class="scroll" style="margin-top:16px">
+    <table>
+      <thead><tr><th style="width:20%">Child</th><th style="width:24%">Record</th><th>What it means</th></tr></thead>
+      <tbody>
+        {mauricioRows.map((r) => (
+          <tr><td><span set:html={emph(r.child)} /></td>
+            <td><span set:html={emph(r.record)} /></td>
+            <td><span set:html={emph(r.grade)} /></td></tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="blk">
+  <h2>The Trinidad nest</h2>
+  <div class="prose">
+    <p>At <strong>Trinidad</strong>, the small inland capital of Flores, six or seven Lerena men were
+      fathering children between 1871 and 1895 — <strong>Bernabé, Vitalino, Ysaac, Cipriano, Fermín,
+      Florencio</strong>. Two of them are now placed: <strong>Bernabé is Alejandro&rsquo;s son and
+      Cipriano is Mauricio&rsquo;s, which makes them first cousins.</strong></p>
+    <p><strong>The mothers are the other finding, and they are Basque</strong> —
+      <em>Beloqui, Echeverry, Pelaez, Gazo, Barragán</em>. A Lerena kindred marrying Basque women in one
+      small town speaks to the open question of where the surname comes from; it is evidence about the
+      <strong>community they married into</strong>, not about the etymology, and it is recorded as that
+      and nothing more.</p>
+    <p><strong>And they married each other.</strong> Lerenas and Pelaezes at Trinidad intermarried across
+      at least forty years, until by <strong>1885</strong> the church required a
+      <strong>dispensation for consanguinity</strong> to let them do it again — twice in the third degree,
+      once in the second and third accumulated. <strong>These are not two families who happened to meet.
+      They are one intermarried kindred in a small inland town.</strong></p>
+  </div>
+</section>
+
+<section class="blk">
+  <h2>What would join the two houses, and what would join either of them to Pablo Armando</h2>
+  <div class="prose">
+    <p><strong>To join the houses to each other</strong>, in order of cheapness: read the
+      <strong>1812 act at Unión</strong>, whose image is available and unread, because Uruguayan acts
+      routinely say where the father is <em>natural de</em>; then find <strong>Ramón&rsquo;s own
+      marriage</strong> to María Josefa González, about 1795&ndash;1810 at Rosario in Colonia, San José or
+      Montevideo; then any act at all naming <strong>Salvador Gerena</strong>, who is presently a name and
+      nothing else.</p>
+    <p><strong>If Ramón turns out to be Córdoban like Sancho</strong>, the two houses are cousins and the
+      surname entered the Banda Oriental once. <strong>If he was born in the Banda Oriental</strong>, they
+      are two separate arrivals and may not be related at all.</p>
+    <p><strong>And now the thing this page must not be allowed to obscure.</strong>
+      <strong>Neither house reaches Pablo Armando.</strong> There is no <em>Juan Carlos Lerena</em> in
+      either family, in any generation, in any of the searches that built this page. He was born at
+      <strong>Rosario de Santa Fe in Argentina</strong> in 1882, and the Argentine end says the same thing
+      from three directions: the cathedral baptism index holds no Lerena for 1881&ndash;83, the 1895
+      census holds no Lerena or Lerina household anywhere in Santa Fe province, and his own parents are
+      named on exactly one document — <a href={u("/enrolment-card/")}>his enrolment card</a> — and nowhere
+      else on earth.</p>
+    <p><strong>So these two families are being built in parallel, and in hope.</strong> The hope is
+      reasonable: the surname is rare, the River Plate is one world with a river through the middle of it,
+      and <a href={u("/dna/")}>the DNA says the Argentine and Uruguayan hypotheses are genetically the same
+      hypothesis</a>. <strong>The hope is not evidence, and nothing here is written as though it were.</strong></p>
+  </div>
+</section>
+</Base>
