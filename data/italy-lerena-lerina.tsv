@@ -109,3 +109,20 @@ what	found	reading
 # caught only because a record already in hand should have come back and did not.
 # *** THE RULE THIS ARCHIVE ALREADY KEEPS, EARNING ITS KEEP AGAIN: a null from a filtered query is
 # worth nothing until the same query without the filter is run. ***
+#
+# *** AND THE CONTROL ON THE 1895 CENSUS, RUN BEFORE THE ARCHIVE BUILDS ANYTHING ON IT. ***
+# The two negatives above both rest on the 1895 National Census. *** If that index were thin for Santa Fe
+# they would both be worthless. *** So it was tested: GONZALEZ, exact, Argentina, Santa Fe.
+# *** 88,739 records, and the top results are all "Argentina, National Census, 1895" at SAN CRISTOBAL,
+# ALBERDI (ROSARIO), SAN JERONIMO, SANTA FE LA CAPITAL and IRIONDO. *** The census is densely indexed
+# and it reaches Santa Fe province *** including Rosario itself. ***
+#
+# *** SO THE TWO NULLS ARE NOT EQUALLY GOOD, AND THE DIFFERENCE MATTERS. ***
+claim	strength	why
+*** No LERENA and no LERINA household anywhere in Santa Fe province in 1895 ***	*** STRONG. *** Controlled, and it is a SURNAME absent from a WELL-INDEXED PROVINCE.	For a whole surname to vanish from a province that indexes 88,739 Gonzalez, *** the surname has to be genuinely absent. *** This is the real result, and it agrees with the Rosario baptism sweep from a completely different record type.
+*** Pablo Armando himself is not in the 1895 census, at thirteen ***	*** WEAK, and this archive overstated it earlier today. *** Kept, but demoted.	*** ONE PERSON CAN ALWAYS BE MISSED OR MANGLED, and this person's name demonstrably mangles. *** The Argentine army indexed his own enrolment card as *** "ARMAND LORENA" born at "ROSARIO DE LERMA, SALTA" *** - see /enrolment-card/. *** A boy who can become "Armand Lorena" on one index can be anything at all on another. *** His absence from the census is therefore NOT evidence that he had left the country. *** It is consistent with having left, and equally consistent with sitting in Rosario under a spelling nobody would search. ***
+#
+# *** WHAT THAT DOES TO THE PASSAGE-OUT QUESTION: it leaves it open, and it removes a false prop. ***
+# *** The honest position on when he left Argentina is that NOTHING DATES IT. *** He was born at Rosario
+# in February 1882 and his son was born at Cape Town in November 1905. *** Twenty-three years, and no
+# record inside them. *** The 1895 census cannot narrow it, for the reason above.

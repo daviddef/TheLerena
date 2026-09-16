@@ -98,5 +98,20 @@
   "query": "*** And the fact the archive already held, which now reads differently ***",
   "result": "*** Pablo Armando himself is NOT in the 1895 census anywhere, though he would have been THIRTEEN. ***",
   "reading": "*** He is in Cape Town by 1905, when his son Roque is born there. *** Absent from Argentina at thirteen, present at the Cape at twenty-three. *** It does not prove when he left, and it narrows the question usefully: the search for his passage out should start EARLIER than this archive has been assuming. ***"
+ },
+ {
+  "query": "claim",
+  "result": "strength",
+  "reading": "why"
+ },
+ {
+  "query": "*** No LERENA and no LERINA household anywhere in Santa Fe province in 1895 ***",
+  "result": "*** STRONG. *** Controlled, and it is a SURNAME absent from a WELL-INDEXED PROVINCE.",
+  "reading": "For a whole surname to vanish from a province that indexes 88,739 Gonzalez, *** the surname has to be genuinely absent. *** This is the real result, and it agrees with the Rosario baptism sweep from a completely different record type."
+ },
+ {
+  "query": "*** Pablo Armando himself is not in the 1895 census, at thirteen ***",
+  "result": "*** WEAK, and this archive overstated it earlier today. *** Kept, but demoted.",
+  "reading": "*** ONE PERSON CAN ALWAYS BE MISSED OR MANGLED, and this person's name demonstrably mangles. *** The Argentine army indexed his own enrolment card as *** \"ARMAND LORENA\" born at \"ROSARIO DE LERMA, SALTA\" *** - see /enrolment-card/. *** A boy who can become \"Armand Lorena\" on one index can be anything at all on another. *** His absence from the census is therefore NOT evidence that he had left the country. *** It is consistent with having left, and equally consistent with sitting in Rosario under a spelling nobody would search. ***"
  }
 ]
