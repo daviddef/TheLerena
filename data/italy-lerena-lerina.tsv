@@ -31,3 +31,29 @@ query	result	reading
 # was baptised GIOVANNI and became JUAN CARLOS on the far side of the Atlantic, *** the Carlos may never
 # have existed in Italy to be indexed. *** That is the ordinary shape of an emigrant's name.
 # *** So: no Juan Carlos found, and the absence proves very little. ***
+#
+# =================== AND THEN ANTENATI, WHICH DAVID ASKED FOR NEXT ===================
+# *** THE PORTALE ANTENATI - antenati.cultura.gov.it - IS THE ITALIAN STATE ARCHIVES' OWN CIVIL
+# REGISTRATION PORTAL, and it was the right thing to ask for ***, because the caveat on the FamilySearch
+# work above was precisely that FamilySearch's Italian coverage is uneven. Antenati is the source itself.
+query	result	reading
+*** LERENA, whole national name index ***	*** ONE record. *** *** CESARE LERENA, atto di morte 1915, Stato civile italiano > BRESCIA > Morti > 1915 ***, Archivio di Stato di Brescia. Spouse *** Rosa Barbaleni. ***	*** Not our man, and not Piedmont - Brescia is Lombardy. *** Still northern Italy, which is the only thing about it worth noting.
+*** LERINA, whole national name index ***	*** 8 records ***, and *** most of them are "DI LERINA", which is a different surname. *** The plain Lerinas are Ellene, Giovanna and Elizabetta.	*** No Carlo. No Giovanni. No Giovanni Carlo. ***
+#
+# *** BUT DO NOT RECORD THAT AS A NULL, BECAUSE THE CONTROL DESTROYS IT. ***
+# *** Antenati HOLDS 2,621 REGISTERS FOR TORINO. *** The images are there. The question is whether the
+# NAME INDEX - which is what a surname search actually searches - reaches them.
+control	result	what it proves
+*** Search the name index for ROSSI, restricted to Torino *** - a surname that cannot be absent	*** 102 results *** - and the forenames are *** CHARLES, MARGUERITE, JACINTE. French. *** Years present: *** 1805, 1808, 1809, 1810, 1811. ***	*** THE TORINO NAME INDEX IS NAPOLEONIC ONLY. *** Piedmont was annexed to France, civil registration was kept in French, and *** that is the window Antenati has indexed: about 1805 to 1811. *** *** It does not reach the 1840s to the 1880s, which is the whole of the period that matters for a man who fathered a child in 1882. ***
+#
+# *** SO THE ANSWER ON ANTENATI IS: NOTHING, AND THE NOTHING MEANS NOTHING. ***
+# *** For Piedmont in the relevant period Antenati's images exist and are NOT NAME-SEARCHABLE. *** A
+# surname search there was never capable of finding him. *** This is the same lesson as the Rosario
+# typescript index and the FreeREG Devon parishes: the null belongs to the finding aid, not to the past. ***
+#
+# *** WHAT IS ACTUALLY SEARCHABLE FOR THE RIGHT YEARS, AND IT IS NOT ANTENATI. ***
+# *** FamilySearch's "Italy, Torino, Torino, Civil Registration (Tribunale), 1866-1899" IS indexed ***
+# and is where the 66 Lerena and 114 Lerina above came from. *** That is the collection to work ***, by
+# parent name, for a Lerina or Lerena male born about 1840-1862 who then leaves the Italian record.
+# *** Antenati's 2,621 Torino registers remain the fallback ***: browsable by comune and year, image by
+# image, the way this archive read Rosario and Canelones. *** Expensive, and possible. ***
