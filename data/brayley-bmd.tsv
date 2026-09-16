@@ -1,0 +1,28 @@
+# *** THE BRAYLEY ASCENT, TESTED AGAINST THE CIVIL REGISTRATION INDEX - 16 September 2026. ***
+# Work-list row 124. `gedcom-graded.tsv` found that of 244 people on this line in the tree, six cite a
+# record. *** The Brayley ascent was one of the unsourced ones. *** These are the first entries in it
+# that this archive has put against an actual index.
+#
+# Source: FreeBMD, the volunteer transcription of the GRO index for England and Wales from 1837.
+# *** Free, and it took an evening to work out how to search it *** - see `devon-tooling.tsv`.
+#
+# *** AN INDEX IS NOT A CERTIFICATE. *** It gives a quarter, a district, a volume and a page, and from
+# 1866 an age. It does not give parents, addresses or causes. Everything below is graded on what the
+# index can actually carry.
+what_the_tree_claims	what_the_index_says	grade
+*** JOHN BRAILEY died 4 May 1851 at the DEVON COUNTY ASYLUM. ***	*** Deaths, June quarter 1851: BRAYLEY, John - ST THOMAS district - vol 10, page 177. ***	*** CONFIRMED to quarter and district. *** A death on 4 May falls in the June quarter, and *** the Devon County Asylum stood at EXMINSTER, which is in the ST THOMAS registration district. *** Right quarter, right district, and the quarter is transcribed at over 99%. *** The age is blank because the index did not carry ages until 1866 ***, so this cannot be pinned to a 36-year-old without the certificate. *** NOTE THE SPELLING: *** a search under BRAILEY returns seven Devon deaths in 1850-1852 and *** not one of them is in 1851. *** The family spells it both ways and searching one way finds nothing.
+*** MARY ANN HELLEN BRAYLEY married WILLIAM TAYLOR on 26 January 1870 at St Mark's, BIDEFORD. ***	*** Marriages, March quarter 1870: BRAYLEY, Mary Ann H - BIDEFORD - vol 5b, page 794. *** Double-keyed, two independent transcriptions agreeing.	*** CONFIRMED. *** Right quarter, right district, and the transcription has been checked twice.
+*** ...and the groom was WILLIAM TAYLOR. ***	*** The same page, 5b/794, carries: Brayley Mary Ann H; TAYLOR William; Huxtable Elizabeth; Johns Thomas. ***	*** THE JOIN, AND IT IS ALMOST CERTAIN RATHER THAN CERTAIN. *** The GRO indexes both parties to a marriage at the same volume and page, so *** the tree's named groom is on the tree's named page. *** But four names on one page means TWO marriages, and *** the index does not say which pairs with which *** - formally, Brayley could have married Johns and Huxtable married Taylor. *** The certificate for 5b/794 would settle it, and it is the single cheapest document in this whole line. ***
+*** MARY ANN HELLEN BRAYLEY died 21 April 1900 at Home Sweet Terrace, Northam. ***	*** Deaths, June quarter 1900: TAYLOR, Mary Ann H - AGE 56 - BIDEFORD - vol 5b, page 363. ***	*** CONFIRMED, and it does something the tree could not. *** She is indexed under her married name, with the same "Mary Ann H" as the 1870 marriage. *** And from 1866 the death index gives an AGE. ***
+*** ...born 20 May 1843 at St Bartholomew's, City of London. ***	*** The death index age of 56 is exactly right for a birth on 20 May 1843 *** - she died on 21 April 1900, a month short of her fifty-seventh birthday. *** But there is NO birth registration. *** Births, June quarter 1843: no Mary Brayley and no Mary Brailey, anywhere in England and Wales.	*** THE YEAR IS CORROBORATED AND THE REGISTRATION IS MISSING, AND BOTH FACTS MATTER. *** The age of 56 is independent support arriving from a different record forty-three years later - *** and it also kills the 2018 backup's "1844", which would have made her 55. *** As for the missing birth: *** the control passed *** - June 1843 births are transcribed at over 99% and other Brayleys appear in that quarter, so the search was capable of finding her. *** But this null is WEAKER THAN IT LOOKS. *** Registration was not compulsory with penalties until 1875, and non-registration in the 1840s was common. *** Absence in 1843 is not evidence she was not born; "St Bartholomew's" may well be a BAPTISM, which is a parish record and not in this index at all. ***
+#
+# *** WHAT THIS CHANGES. ***
+# *** Three of the four links tested came back confirmed, and the fourth came back explained. *** The
+# Brayley ascent is no longer entirely tree-borne at its lower end: *** generations 2 and 3 - Mary Ann
+# Hellen Brayley and her father John Brailey - now rest on the civil index ***, not on somebody's web
+# site. *** Above generation 3 it is still unsourced *** and still needs the Westleigh parish register.
+#
+# *** WHAT TO BUY, IF ANYTHING IS EVER BOUGHT. ***
+# *** ONE certificate, and it is the marriage: GRO, marriages, BIDEFORD, March quarter 1870, 5b/794. ***
+# It would name both fathers. *** Mary Ann Hellen's father is the whole question *** - it would confirm
+# or destroy John Brailey in one line, and it would fix the Taylor pairing at the same time.

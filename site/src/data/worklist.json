@@ -990,11 +990,27 @@
   },
   {
    "n": 124,
-   "what": "Test the Brayley ascent at Westleigh — it is unsourced below 1843",
+   "what": "Test the Brayley ascent — four links tested against the civil index, three confirmed; Westleigh parish register still outstanding",
    "state": "next",
    "owner": "this archive",
    "since": "2026-09-16",
-   "note": "The eleven-generation ascent published this evening is *** almost entirely unsourced: Matthew Reed of 1643 rests on \"Lightning Web Site\", John Brailey on \"Moore-Christian Web Site\", and HELEN WALKER on nothing at all *** Only two links in it cite a record — Georgina Temple in the **1851 census** and Mary Ann Hellen Brayley in the **England & Wales Death Index**. **What makes it testable is that it names parishes and dates.** The single densest target is **Westleigh, September 1799**: Robert Brayley born the 21st, dead the 23rd, and his mother Ann Snow dead the same day. **One parish register page should carry a baptism and two burials.** Then the 1803–1817 baptisms of William Brayley and Peggy Reed's five children in the same register. FamilySearch holds *England, Devon, Parish Registers (Devon Record Office), 1529–1974*, which this archive has used before."
+   "note": "*** PART DONE, 16 September 2026. *** The ascent was published unsourced below 1843. *** It is not any more at its lower end. *** FreeBMD — the free GRO index — was made to work (the search button is an `<input type=image>`, so `form.submit()` silently re-renders the form; it has to be clicked) and four claims were put to it. *** John Brailey's death: CONFIRMED *** — Deaths, Jun quarter 1851, **BRAYLEY, John, St Thomas, 10/177**, and the Devon County Asylum at Exminster is in St Thomas district. *** A search under BRAILEY finds nothing in 1851 at all *** — the spelling matters. *** The 1870 marriage: CONFIRMED *** — **BRAYLEY, Mary Ann H, Bideford, 5b/794**, double-keyed; and *** TAYLOR, William is on the same page ***, which is the join that attaches this whole line to the Taylors. *** Her 1900 death: CONFIRMED, and it pays a dividend *** — **TAYLOR, Mary Ann H, age 56, Bideford, 5b/363**. *** Age 56 on 21 April 1900 is exactly a birth of 20 May 1843 ***, which corroborates the birth year from a second direction and kills the 2018 backup's 1844. *** Her 1843 birth registration: NOT FOUND, control passed *** — but registration was not compulsory until 1875, so that null is weak. See `data/brayley-bmd.tsv`. *** WHAT IS STILL OPEN: everything above generation 3. *** Westleigh, September 1799 — Robert Brayley born the 21st, dead the 23rd, his mother Ann Snow dead the same day — is still the densest single page, and it needs the parish register, not the index. *** FamilySearch record search was blocked all evening *** and FreeREG does not hold Westleigh; see `data/devon-tooling.tsv`."
+  },
+  {
+   "n": 125,
+   "what": "Buy ONE certificate: the Bideford marriage, March quarter 1870, 5b/794",
+   "state": "next",
+   "owner": "David",
+   "since": "2026-09-16",
+   "note": "*** This is now the cheapest decisive document in the archive, and it was not identifiable before tonight. *** The GRO index puts **Mary Ann H Brayley** and **William Taylor** on the same page, Bideford, Mar quarter 1870 — but the page carries **four** names (the others are Huxtable Elizabeth and Johns Thomas), which is *** two marriages, and the index does not say which pairs with which. *** More importantly: *** a marriage certificate names BOTH FATHERS. *** *** Mary Ann Hellen's father is the entire question at the foot of the Brayley ascent *** — the tree says John Brailey and cites a stranger's web site. One certificate confirms or destroys him, and fixes the Taylor pairing in the same line. Ordered from the GRO at gro.gov.uk (PDF, about £3 for the record-only option where available; £12.50 for a certificate)."
+  },
+  {
+   "n": 126,
+   "what": "FreeBMD is usable now — run the rest of the Taylor and Brayley vitals through it",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-16",
+   "note": "*** An evening was spent finding out that the submit control is an image button; that is written down in `data/devon-tooling.tsv` so it is never spent again. *** The index runs from 1837 and gives *** ages on deaths from 1866 ***, which is how the 1843 birth year got corroborated tonight. *** The current tree handed over ten Taylor siblings with birth and death dates and three street addresses *** (`data/gedcom-import.tsv`) and *** not one of them has been put to an index. *** Targets: John Walker Brayley, d. 22 Oct 1900; Georgina Margaret Brayley, b. 1851 Bideford; the nine Taylor siblings' births at Bideford and Northam 1870–1889, whose ages at death would test the lot; and *** Georgina Temple's death, about January 1900, Devon ***, which would give her age and test the Haddington 1814 birth."
   }
  ],
  "accounts": [

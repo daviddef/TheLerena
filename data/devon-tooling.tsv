@@ -1,0 +1,23 @@
+# *** WHICH FREE TOOLS CAN TEST THE BRAYLEY ASCENT, AND WHICH CANNOT. ***
+# Tried 16 September 2026, overnight. Recorded so nobody spends another evening finding out.
+# The ascent is unsourced below 1843 (see data/gedcom-graded.tsv) and the only thing that would make
+# it real is a parish register. These are the free routes to one, tested.
+tool	verdict	detail
+*** FreeREG *** - freereg.org.uk	*** CANNOT TEST THIS FAMILY. *** Free, no account, form automates cleanly - and the parishes are not there.	*** THE CONTROL IS WHAT MATTERS HERE. *** A Brayley search for Devon 1795-1805 returned three results, none at Westleigh - Berrynarbor, Bampton and Whitchurch. *** That null is worthless, and checking why proved it: *** FreeREG holds *** 111 Devon parishes and WESTLEIGH, COLDRIDGE, BRAUNTON, BIDEFORD and SHIRWELL are not among them. *** Every parish the ascent runs through is missing except one.
+*** FreeREG, Northam *** - the one parish it does hold	*** COVERED, BUT THE WRONG CENTURY. ***	Northam is in the list, so a Taylor search was run: *** 0 results for 1865-1895. *** Control again: the same search over 1538-1950 returns *** 90 Taylor records, and they run 1655 to 1815 *** - baptisms 1677-1815, burials 1655-1813, marriages 1678-1815, and *** nothing at all after 1860. *** So the null is coverage, not absence. *** The Taylors arrive in Northam after FreeREG's transcription stops. ***
+*** FamilySearch record search ***	*** BLOCKED TONIGHT. ***	`/search/record/results` returns "Something Went Wrong ... we are unable to display the search results". *** This is the same Imperva-style block this archive has hit before, and this session does not route around it. *** Note that the DeepZoom TILE service stays up when www is blocked - but reaching a film by number needs the catalogue, which is on www.
+*** FreeBMD *** - freebmd.org.uk	*** NOT TESTED - the form would not submit. ***	Free and no account, and the search page loads. But the only submit controls exposed are *** "Find Additional" and "View Saved" *** , which is the state the form takes when it expects a prior search in session. *** Two attempts returned the search page rather than results. *** Recorded as UNTESTED rather than as a failure of the source: FreeBMD covers England and Wales from 1837 and is exactly right for the four nineteenth-century links in this ascent.
+#
+# *** SO WHAT WOULD ACTUALLY WORK, IN ORDER OF CHEAPNESS. ***
+# 1. *** FreeBMD, by hand. *** Four targets, all in range, all decisive:
+#      the death of JOHN BRAILEY, Devon, 1851 - the tree says 4 May, at the Devon County Asylum;
+#      the marriage of MARY ANN HELLEN BRAYLEY, Bideford, Q1 1870 - the tree says 26 January;
+#      her birth, London, 1843 - the tree says 20 May, St Bartholomew's;
+#      the death of JOHN WALKER BRAYLEY, 1900 - the tree says 22 October.
+#    *** Each one either matches the tree to the quarter or it does not, and that is the whole test. ***
+# 2. *** The Devon Record Office parish registers on FamilySearch *** - `England, Devon, Parish
+#    Registers (Devon Record Office), 1529-1974`, which THIS ARCHIVE HAS ALREADY USED once, for the
+#    Taylor marriages. *** The route is known; it needs the search to be up. ***
+# 3. *** The densest single page in the whole ascent: WESTLEIGH, SEPTEMBER 1799. *** Robert Brayley
+#    baptised the 21st, buried the 23rd, and his mother Ann Snow buried the same day. *** One page
+#    should carry a baptism and two burials, and if it does the generation above is confirmed. ***

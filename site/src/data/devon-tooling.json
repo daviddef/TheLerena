@@ -1,0 +1,22 @@
+[
+ {
+  "tool": "*** FreeREG *** - freereg.org.uk",
+  "verdict": "*** CANNOT TEST THIS FAMILY. *** Free, no account, form automates cleanly - and the parishes are not there.",
+  "detail": "*** THE CONTROL IS WHAT MATTERS HERE. *** A Brayley search for Devon 1795-1805 returned three results, none at Westleigh - Berrynarbor, Bampton and Whitchurch. *** That null is worthless, and checking why proved it: *** FreeREG holds *** 111 Devon parishes and WESTLEIGH, COLDRIDGE, BRAUNTON, BIDEFORD and SHIRWELL are not among them. *** Every parish the ascent runs through is missing except one."
+ },
+ {
+  "tool": "*** FreeREG, Northam *** - the one parish it does hold",
+  "verdict": "*** COVERED, BUT THE WRONG CENTURY. ***",
+  "detail": "Northam is in the list, so a Taylor search was run: *** 0 results for 1865-1895. *** Control again: the same search over 1538-1950 returns *** 90 Taylor records, and they run 1655 to 1815 *** - baptisms 1677-1815, burials 1655-1813, marriages 1678-1815, and *** nothing at all after 1860. *** So the null is coverage, not absence. *** The Taylors arrive in Northam after FreeREG's transcription stops. ***"
+ },
+ {
+  "tool": "*** FamilySearch record search ***",
+  "verdict": "*** BLOCKED TONIGHT. ***",
+  "detail": "`/search/record/results` returns \"Something Went Wrong ... we are unable to display the search results\". *** This is the same Imperva-style block this archive has hit before, and this session does not route around it. *** Note that the DeepZoom TILE service stays up when www is blocked - but reaching a film by number needs the catalogue, which is on www."
+ },
+ {
+  "tool": "*** FreeBMD *** - freebmd.org.uk",
+  "verdict": "*** NOT TESTED - the form would not submit. ***",
+  "detail": "Free and no account, and the search page loads. But the only submit controls exposed are *** \"Find Additional\" and \"View Saved\" *** , which is the state the form takes when it expects a prior search in session. *** Two attempts returned the search page rather than results. *** Recorded as UNTESTED rather than as a failure of the source: FreeBMD covers England and Wales from 1837 and is exactly right for the four nineteenth-century links in this ascent."
+ }
+]
