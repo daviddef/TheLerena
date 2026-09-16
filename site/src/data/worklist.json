@@ -1059,6 +1059,14 @@
    "owner": "this archive",
    "since": "2026-09-16",
    "note": "**173 lines of prose.** The shape is the question, what is known, what has been tried, and the record that would answer it. Shape: `kit/components/Questions.astro`.\n\n**Raised by the UI alignment pass, 2026-09-16.** It is recorded here because it is research this archive owns, not something to guess at from outside."
+  },
+  {
+   "n": 133,
+   "what": "There is no .two rule: every \"grid two\" on the site renders as one column",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-16",
+   "note": "*** Found while making the record links on /enrolment-card/ prominent. *** The markup writes `<div class=\"grid two\">` in two places, and *** the stylesheet has `.grid { display:grid; gap:14px }` and NO `.two` rule at all *** — checked against every loaded rule, including inside media queries. *** So both of them have always been a single column, at every width ***, including the front page's \"What this archive has established\" cards. *** Worked around locally rather than fixed properly: *** the enrolment-card grid now carries an inline `grid-template-columns:repeat(auto-fit,minmax(290px,1fr))`, which is responsive and self-contained. *** The real fix belongs in the shared archive-kit stylesheet ***, which means the kit changes and *** six archives repin *** — see row 92, which already wants a repin for the /bloodline/ fix. Do them together, and drop the inline style when the rule exists."
   }
  ],
  "accounts": [
