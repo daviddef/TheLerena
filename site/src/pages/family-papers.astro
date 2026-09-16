@@ -9,8 +9,11 @@ import { u } from "../lib/url.js";
 import marriage from "../data/marriage-1911.json";
 import notices from "../data/death-notices-read.json";
 import passport from "../data/pablo-armando-passport.json";
+import dn from "../data/death-notice-1950.json";
+import memory from "../data/family-memory.json";
 const M = Object.fromEntries(marriage.map((r) => [r.field, r]));
 const N = Object.fromEntries(notices.map((r) => [r.field, r]));
+const D = Object.fromEntries(dn.map((r) => [r.field, r]));
 const just = passport.filter((r) => r.field.startsWith("justificativos") ||
   ["photograph", "signature", "fingerprint"].includes(r.field));
 const em = (t) => (t || "").replace(/\*\*\* (.+?) \*\*\*/g, "<strong>$1</strong>");
@@ -18,7 +21,7 @@ const row = (k) => M[k] || { as_written: "", note: "" };
 ---
 <Base title="The papers in the house"
       eyebrow="Read 16 September 2026 — and none of it needed an archive"
-      dek="A marriage register, two death notices and six pages of a passport this archive had already transcribed but never turned over. All of it was in a folder on David's own disk. Two of the items were on the work list as things to go and find, and one of them had just been ranked first on a list of files to buy at the National Archives for R2,850.">
+      dek="Pablo Armando's own death notice — the document this archive has been chasing since it began. A marriage register. Two more death notices. Two baptisms. An English cousin's family history that gives him a different surname. All of it was on David's own disk, and none of it had been opened.">
 
 <section class="blk">
   <div class="note" style="margin:1.4rem 0"><strong>Why this page exists, and it is not a happy
@@ -28,6 +31,56 @@ const row = (k) => M[k] || { as_written: "", note: "" };
     photographed and saved in <em>Genealogy &amp; Family History/Lerena</em> since
     <strong>November 2021</strong>. Nobody had opened the folder. <a href={u("/corrections/")}>The
     corrections &rarr;</a></div>
+</section>
+
+<section class="blk">
+  <h2>The one that answers, and the answer is a null</h2>
+  <p class="dek">This morning this archive called <strong>KAB MOOC 6/9/17017</strong> &mdash; Pablo
+    Armando&rsquo;s own death notice &mdash; <em>&ldquo;the single most valuable file in this entire
+    archive, because it asks for HIS parents &mdash; the one document that could name Juan Carlos
+    Lerena.&rdquo;</em> There has been an open request for it at the Western Cape Archives for over a
+    week. <strong>It was on the disk.</strong></p>
+
+  <div class="panel" style="border-left:3px solid var(--ochre,#8a7f5c);margin:22px 0">
+    <div class="lab">Item 3 &mdash; Names and Addresses of the Parents of the deceased</div>
+    <p class="lede" style="margin:12px 0 0">Father &mdash; <strong>not known</strong></p>
+    <p class="lede" style="margin:6px 0 0">Mother &mdash; <strong>not known</strong></p>
+  </div>
+
+  <div class="prose">
+    <p><strong>The informant was not family.</strong> Rose Lilian Theys signed it on 28 March 1950 as
+      <em>&ldquo;Present at death&rdquo;</em> and <em>&ldquo;Executrix Nominate&rdquo;</em> &mdash; the
+      woman he lived with at No. 7 Forth Road, described in the liquidation account as a spinster and
+      <em>no relation</em>. She could not name his parents. <strong>Nor did any of his three living
+      adult sons supply them.</strong></p>
+    <p>Cheryl Defranceski wrote to her English cousin in 2020: <em>&ldquo;My Father never discussed his
+      parents with me or my siblings so we never knew anything about either of them.&rdquo;</em>
+      <strong>That silence is now dated. It had already closed by March 1950.</strong></p>
+    <div class="note" style="margin:20px 0"><strong>So the 1908 Argentine enrolment card remains the only
+      document on earth that names Juan Carlos Lerena and María Lerena.</strong> Everything this archive
+      does from here rests on one card filed in a drawer in Buenos Aires, and on nothing else.
+      <a href={u("/enrolment-card/")}>The card &rarr;</a></div>
+  </div>
+
+  <h3 style="margin-top:26px">The rest of it</h3>
+  <div class="scroll" style="margin-top:14px">
+    <table>
+      <thead><tr><th style="width:12rem">On the form</th><th>As written</th></tr></thead>
+      <tbody>
+        {["2_birthplace_nationality", "4_age", "5_occupation", "6_residence", "7_status",
+          "7a_surviving_spouse", "7b_predeceased_spouse", "7c_place_of_last_marriage",
+          "8_date_of_death", "9_where_died", "10_children", "10_other_marriages",
+          "signature", "capacity"].map((k) => (
+          <tr><td class="cap">{(D[k] ? k : k).replace(/^\d+[a-z]?_/, "").replace(/_/g, " ")}</td>
+            <td><span set:html={em(D[k] ? D[k].as_written : "")} />
+              {D[k] && D[k].note && <><br /><span class="cap" set:html={em(D[k].note)} /></>}</td></tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  <div class="note" style="margin-top:18px"><strong>And an errand closes.</strong> The request to the
+    Western Cape Archives is answered. What is still worth having out of that estate file is
+    <strong>the will of 6 February 1942</strong> and the inventory &mdash; not the death notice.</div>
 </section>
 
 <section class="blk">
@@ -177,6 +230,96 @@ const row = (k) => M[k] || { as_written: "", note: "" };
     <a href={u("/enrolment-card/")}>ficha of 1908</a>. <strong>So there are two Argentine enrolment
     events, seven years apart, both filed at the Cape.</strong> The 1915 libreta has never been looked
     for. It is on <a href={u("/worklist/")}>the work list</a>.</div>
+</section>
+
+<section class="blk">
+  <h2>4. Two baptisms, and a family regularised</h2>
+  <p class="dek">Both from <strong>Corpus Christi Catholic Church, 2 Clare Road, Wynberg</strong>, sourced
+    by Cheryl Defranceski directly from the parish archives. This archive had neither.</p>
+  <div class="prose">
+    <p><strong>Roque Luis Armando.</strong> <em>Anno 1905 die 25 mensis Nov. natus, et anno 1911 die 12
+      mensis Junii baptizatus est &mdash; Roque Lois Armando, filius Pablo Armando Lerena et Mary Septima
+      (olim Taylor) conjugum. A me Bertram W. Glynn.</em></p>
+    <p><strong>Read the dates.</strong> He was born <strong>25 November 1905</strong> and baptised
+      <strong>12 June 1911</strong> &mdash; at five and a half years old, and
+      <strong>three months before his parents married</strong>. The priest who baptised him,
+      <em>Bertram W. Glynn</em>, is the same priest who married them at St Dominic&rsquo;s that
+      September, and he wrote <em>conjugum</em> &mdash; &ldquo;of the spouses&rdquo; &mdash; three months
+      early.</p>
+    <div class="panel" style="border-left:3px solid var(--accent);margin:20px 0">
+      <p style="margin:0"><strong>That is a legitimation, and it explains the marriage register.</strong>
+        The 1911 entry calls him a <em>bachelor</em> and her a <em>spinster</em> because it was their
+        first marriage &mdash; with a five-year-old son already in the house. The child was baptised
+        first, the parents married second, and one priest did both inside a hundred days.</p>
+    </div>
+    <p><strong>And the godparents are the first Hispanic names ever found around him in the Cape:</strong>
+      <em>Patrinus fuit <strong>José Bretón</strong> (proxy); Matrina fuit <strong>María Luisa
+      Bretón</strong> (proxy).</em> <strong>Both by proxy</strong> &mdash; which is what a parish does
+      when the real godparents are overseas. Two Spanish-named sponsors, standing in absentia, at the
+      baptism of an Argentine&rsquo;s first son. Nobody has ever looked for them.</p>
+    <p class="cap">Later annotations on the same entry: he married <strong>Rosalina Wilhelmina
+      Chappell</strong> at St Joseph&rsquo;s, Johannesburg, on 21 September 1936; and, as a widower,
+      again at St Charles, Victory Park, Johannesburg, on 12 March 1966. <strong>The register confirms
+      she was already a Chappell when he married her</strong> &mdash; which is the relationship the DNA
+      clusters produced independently the same day.</p>
+    <p><strong>Nuno Fernando</strong>, no. 4540, born <strong>6 October 1924</strong>, baptised
+      <strong>16 November 1924</strong> &mdash; six weeks, not five years. Godparents
+      <strong>Michael Joseph Duddy</strong> and <strong>Mary Anne Duddy</strong>. And against the mother,
+      in the priest&rsquo;s hand: <strong><em>Mater Anglicana</em></strong>.</p>
+    <div class="note"><strong>&ldquo;The mother is Anglican.&rdquo;</strong> So the Catholicism was
+      <em>his</em>. Mary Septima Taylor of Northam was Church of England, married in a Catholic church
+      after banns, and her children were baptised Catholic. On the question of where Pablo Armando came
+      from, that is not decoration: <strong>he was the Catholic party in a mixed marriage, and he held
+      to it.</strong></p>
+  </div>
+</section>
+
+<section class="blk">
+  <h2>5. What the Devon family remembered &mdash; and they called him something else</h2>
+  <p class="dek">Sue Rowbotham, a second cousin in Cheltenham, wrote a Taylor family history called
+    <em>Three Corners of the Land</em>. She and David found each other in April 2020. This archive has
+    never read it, nor the email thread that followed between Sue and Cheryl.</p>
+
+  <div class="panel" style="border-left:3px solid var(--accent);margin:22px 0">
+    <div class="lab">From the section on Mary Septima Taylor</div>
+    <p class="lede" style="margin:12px 0 0">&ldquo;Mary Septima Taylor is said to have gone out to South
+      Africa to work for a widower by the name of <strong>Robert (or Roberto) MARINO</strong> who lived
+      in the Cape Town area. Roberto had three sons; Louis, Cardo and Nuno.&rdquo;</p>
+  </div>
+
+  <div class="prose">
+    <p><strong>Marino.</strong> Not Lerena, and nothing like it phonetically. The three sons are exactly
+      right &mdash; Louis is Roque Luis Armando, Cardo is Ricardo Juan Carlos, Nuno is Nuno Fernando
+      &mdash; so the memory is anchored in real people. It is the <em>surname</em> that has drifted, or
+      that was never Lerena in the first place.</p>
+    <p><strong>Marino is one of the commonest surnames in Italy.</strong> This archive has argued from
+      two companies&rsquo; independent readings of one granddaughter&rsquo;s DNA that Pablo Armando
+      carried Italian ancestry. Here, from an entirely separate direction, written down by an English
+      historian before any DNA was tested, is a family memory that he was called
+      <strong>Marino</strong>. <a href={u("/dna/")}>The DNA &rarr;</a></p>
+    <div class="note" style="margin:18px 0"><strong>It proves nothing, and it is the best corroboration
+      the Italian reading has.</strong> It could as easily be his mother&rsquo;s surname, a name he used
+      in the Cape, or a Devon mishearing carried a century. All three are worth a search that has never
+      been run. <strong>None of them is nothing.</strong></p>
+    <p><strong>The rest of the memory is wrong in an instructive way.</strong> He was no widower with
+      three sons: the baptism names Mary Septima as Roque&rsquo;s mother and the register calls them
+      bachelor and spinster. What the Devon family were told was the respectable version of a woman who
+      went out at nineteen and had a child six years before she married.</p>
+  </div>
+
+  <h3 style="margin-top:28px">And what it gives that no document did</h3>
+  <div class="scroll" style="margin-top:14px">
+    <table>
+      <thead><tr><th style="width:22rem">Remembered</th><th>What this archive can say</th></tr></thead>
+      <tbody>
+        {memory.slice(3).map((r) => (
+          <tr><td><span set:html={em(r.what_was_remembered)} />
+            <br /><span class="cap" set:html={em(r.source) + " &middot; " + em(r.grade)} /></td>
+            <td set:html={em(r.what_this_archive_can_say)} /></tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
 </section>
 
 <section class="blk">
