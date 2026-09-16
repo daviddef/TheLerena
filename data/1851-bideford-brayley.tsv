@@ -1,0 +1,41 @@
+# *** LOWER GUNSTONE, BIDEFORD - CENSUS OF 30 MARCH 1851. ***
+# *** THE BEST SINGLE RECORD THIS ARCHIVE FOUND ON 16 SEPTEMBER 2026, and it was found free, in a
+# database that had been sitting there the whole time. ***
+# Source: FreeCEN. Devon, BIDEFORD, piece 1895, ED 2f, FOLIO 108, PAGE 8, SCHEDULE 34, "LOWER GUNSTONE".
+#
+# The Brayley ascent was published as eleven generations of pure tree. *** `gedcom-graded.tsv` found
+# that its deep end cited web sites and that HELEN WALKER cited nothing at all. *** This page does not
+# reach Helen Walker - but it puts FOUR generations of her descendants in one house, on one night,
+# with their birthplaces written down by an enumerator.
+surname	forename	relation	age	occupation	birthplace	what it settles
+BRAYLEY	*** William ***	*** Head ***	74	*** MASON ***	*** Devon, WEST LEIGH (or Westleigh) ***	*** GENERATION 4, AND IT WAS UNSOURCED UNTIL TONIGHT. *** The tree has William Brayley born 1 March 1778 at Westleigh and dead at Bideford. *** Here he is: born Westleigh, living at Bideford, aged 74. *** (A March 1778 birth gives 73 on census night, so the age is one year high - which is ordinary in a census and worth no argument.) *** AND HIS TRADE IS A MASON *** - which matters, because the ascent has *** JOHN REED, STONEMASON *** three generations further up and *** GREGORY REED, PAUPER SHOEMAKER *** two. The trades run in the family, and the tree did not need to invent that.
+BRAYLEY	*** Peggy ***	*** Wife ***	78	-	*** Devon, BRAUNTON ***	*** GENERATION 4w, AND THE NICKNAME IS ON THE RECORD. *** The tree has "Margaret (Peggy) Reed, b. 12 January 1777, BRAUNTON, d. 23 January 1858, LOWER GUNSTONE, BIDEFORD." *** The census has her as PEGGY, born BRAUNTON - and the household is at LOWER GUNSTONE, which is the address the tree gives for her death seven years later. *** *** THE ONE THING THAT DOES NOT FIT IS HER AGE: 78 implies about 1773, and the tree says 1777. *** Four years is more than the usual census slippage and is recorded as a discrepancy, not smoothed over. Her husband's age is out by one in the same direction.
+BRAYLEY	*** Georgina ***	*** LODGER ***, married	35	*** "SHOEMAKER WIFE" ***	*** EAST LOTHIAN (or Scotland), HADDINGTON ***	*** THIS IS GEORGINA TEMPLE, AND IT IS THE CITATION THE TREE ALREADY HAD. *** `gedcom-graded.tsv` lists her as one of only six people on this line citing a real record - "1851 England & Wales Census". *** This is that census, and this is the household: she is living in her FATHER-IN-LAW'S house with four children and NO HUSBAND. *** Her occupation is given as "Shoemaker Wife", which the tree renders "Monthly Nurse & Shoemaker Wife Pauper". *** Born Haddington, East Lothian - the Scottish end of the ascent, on an English record. ***
+#
+# *** AND NOW PUT TWO RECORDS SIDE BY SIDE, BECAUSE TOGETHER THEY EXPLAIN A CHAPTER TITLE. ***
+# *** The census was taken on 30 MARCH 1851. John Brailey died on 4 MAY 1851 *** - and `brayley-bmd.tsv`
+# confirms it: Deaths, June quarter 1851, BRAYLEY John, ST THOMAS district, the district containing the
+# *** DEVON COUNTY ASYLUM AT EXMINSTER. ***
+# *** So on census night he was alive, and he was not in the house. *** His wife is a lodger in his
+# father's home, described as married, with four children, five weeks before he died in the asylum.
+# *** SUE ROWBOTHAM'S FAMILY HISTORY HAS A CHAPTER CALLED "THE MYSTERY OF THE MISSING HUSBAND AND
+# DAUGHTER". *** This archive wrote that John Brailey was "very probably the missing husband".
+# *** Here is the household he is missing from, dated. ***
+#
+# ---- THE FOUR CHILDREN, AND ONE OF THEM IS NEW ----
+surname	forename	relation	age	birthplace	what it settles
+BRAYLEY	*** Isabella ***	*** Granddaughter ***	10	*** London (City), ST ANDREW ***	*** A CHILD THIS ARCHIVE DID NOT HAVE. *** Born about 1841 in the City of London, before Mary Ann Hellen. *** And the name comes back: ISABELLA TEMPLE TAYLOR is registered at Bideford in the December quarter of 1874 *** (`brayley-bmd.tsv`) - *** Mary Ann Hellen named her second daughter after her own elder sister, and gave her their mother's maiden name as well. *** *** Whether she is also the "missing DAUGHTER" of Sue Rowbotham's chapter title is NOT established here and is only worth saying out loud so somebody can test it. ***
+BRAYLEY	*** Ellen ***	Granddaughter	8	*** London (City), "City" ***	*** THIS IS MARY ANN HELLEN BRAYLEY, AS A CHILD, IN HER GRANDFATHER'S HOUSE. *** "Ellen" for Hellen. Born in the City of London, which is where the 1891 census has her saying *** St Bartholomews *** and where FreeBMD has no registration for her at all. *** Age 8 on 30 March 1851 implies 1842-43 against the tree's 20 May 1843, so she is a year high here - the same direction as her mother and her grandfather on this page. ***
+BRAYLEY	*** John ***	Grandson	*** 5 ***	*** London (City), ST PANCRAS ***	*** THIS RESOLVES THE ONE THING THAT DID NOT FIT EARLIER TONIGHT. *** `brayley-bmd.tsv` found John Walker Brayley's death indexed at *** age 53 in the December quarter of 1900, implying a birth about 1847 against the tree's 22 June 1845 *** - a two-year gap that had to be left open. *** A boy aged 5 on 30 March 1851 was born between April 1845 and March 1846, which fits the TREE and not the death index. *** So the informant in 1900 was wrong and the tree was right. *** ONE DISAGREEMENT REMAINS: the census says ST PANCRAS and the tree says ST PAUL'S. ***
+BRAYLEY	*** Georgina ***	Granddaughter	*** 8 MONTHS ***	*** Devon, BIDEFORD ***	*** THIS IS GEORGINA MARGARET BRAYLEY, AND THE TREE'S DATE IS A YEAR LATE. *** The tree says "b. 1851, Bideford". *** Eight months old on 30 March 1851 means born about JULY 1850. *** *** And her birthplace dates the family's move: the three elder children are London-born and the baby is Bideford-born, so John Brailey and Georgina Temple came back to Devon between 1845 and mid-1850 *** - which is also, on the other record, the road to the county asylum.
+#
+# *** ALSO IN THE HOUSE, because a household return records everyone: *** Ann LOTT, 22, needlewoman, of
+# Bideford; Mary MORRISH, 79, widow, on parish relief; Eliza and Ann LAKE, visitors, of Parkham;
+# Elizabeth and Mary Ann NORTHCOTT, of Parkham. *** Lower Gunstone in 1851 is a lodging house, and the
+# Brayleys are taking in boarders and their own widowed daughter-in-law and her four children. ***
+#
+# *** WHAT WAS CONTROLLED. ***
+# *** Westleigh 1851 was searched for BRAYLEY first and returned ZERO. That null was not recorded until
+# it was controlled: *** a TAYLOR search in the same parish and year returns *** 12 people ***, so the
+# parish is transcribed and the zero is real. *** It is also expected - the tree already had William at
+# Bideford by then, and here he is. ***

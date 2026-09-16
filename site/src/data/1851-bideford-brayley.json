@@ -1,0 +1,74 @@
+[
+ {
+  "surname": "BRAYLEY",
+  "forename": "*** William ***",
+  "relation": "*** Head ***",
+  "age": "74",
+  "occupation": "*** MASON ***",
+  "birthplace": "*** Devon, WEST LEIGH (or Westleigh) ***",
+  "what it settles": "*** GENERATION 4, AND IT WAS UNSOURCED UNTIL TONIGHT. *** The tree has William Brayley born 1 March 1778 at Westleigh and dead at Bideford. *** Here he is: born Westleigh, living at Bideford, aged 74. *** (A March 1778 birth gives 73 on census night, so the age is one year high - which is ordinary in a census and worth no argument.) *** AND HIS TRADE IS A MASON *** - which matters, because the ascent has *** JOHN REED, STONEMASON *** three generations further up and *** GREGORY REED, PAUPER SHOEMAKER *** two. The trades run in the family, and the tree did not need to invent that."
+ },
+ {
+  "surname": "BRAYLEY",
+  "forename": "*** Peggy ***",
+  "relation": "*** Wife ***",
+  "age": "78",
+  "occupation": "-",
+  "birthplace": "*** Devon, BRAUNTON ***",
+  "what it settles": "*** GENERATION 4w, AND THE NICKNAME IS ON THE RECORD. *** The tree has \"Margaret (Peggy) Reed, b. 12 January 1777, BRAUNTON, d. 23 January 1858, LOWER GUNSTONE, BIDEFORD.\" *** The census has her as PEGGY, born BRAUNTON - and the household is at LOWER GUNSTONE, which is the address the tree gives for her death seven years later. *** *** THE ONE THING THAT DOES NOT FIT IS HER AGE: 78 implies about 1773, and the tree says 1777. *** Four years is more than the usual census slippage and is recorded as a discrepancy, not smoothed over. Her husband's age is out by one in the same direction."
+ },
+ {
+  "surname": "BRAYLEY",
+  "forename": "*** Georgina ***",
+  "relation": "*** LODGER ***, married",
+  "age": "35",
+  "occupation": "*** \"SHOEMAKER WIFE\" ***",
+  "birthplace": "*** EAST LOTHIAN (or Scotland), HADDINGTON ***",
+  "what it settles": "*** THIS IS GEORGINA TEMPLE, AND IT IS THE CITATION THE TREE ALREADY HAD. *** `gedcom-graded.tsv` lists her as one of only six people on this line citing a real record - \"1851 England & Wales Census\". *** This is that census, and this is the household: she is living in her FATHER-IN-LAW'S house with four children and NO HUSBAND. *** Her occupation is given as \"Shoemaker Wife\", which the tree renders \"Monthly Nurse & Shoemaker Wife Pauper\". *** Born Haddington, East Lothian - the Scottish end of the ascent, on an English record. ***"
+ },
+ {
+  "surname": "surname",
+  "forename": "forename",
+  "relation": "relation",
+  "age": "age",
+  "occupation": "birthplace",
+  "birthplace": "what it settles",
+  "what it settles": ""
+ },
+ {
+  "surname": "BRAYLEY",
+  "forename": "*** Isabella ***",
+  "relation": "*** Granddaughter ***",
+  "age": "10",
+  "occupation": "*** London (City), ST ANDREW ***",
+  "birthplace": "*** A CHILD THIS ARCHIVE DID NOT HAVE. *** Born about 1841 in the City of London, before Mary Ann Hellen. *** And the name comes back: ISABELLA TEMPLE TAYLOR is registered at Bideford in the December quarter of 1874 *** (`brayley-bmd.tsv`) - *** Mary Ann Hellen named her second daughter after her own elder sister, and gave her their mother's maiden name as well. *** *** Whether she is also the \"missing DAUGHTER\" of Sue Rowbotham's chapter title is NOT established here and is only worth saying out loud so somebody can test it. ***",
+  "what it settles": ""
+ },
+ {
+  "surname": "BRAYLEY",
+  "forename": "*** Ellen ***",
+  "relation": "Granddaughter",
+  "age": "8",
+  "occupation": "*** London (City), \"City\" ***",
+  "birthplace": "*** THIS IS MARY ANN HELLEN BRAYLEY, AS A CHILD, IN HER GRANDFATHER'S HOUSE. *** \"Ellen\" for Hellen. Born in the City of London, which is where the 1891 census has her saying *** St Bartholomews *** and where FreeBMD has no registration for her at all. *** Age 8 on 30 March 1851 implies 1842-43 against the tree's 20 May 1843, so she is a year high here - the same direction as her mother and her grandfather on this page. ***",
+  "what it settles": ""
+ },
+ {
+  "surname": "BRAYLEY",
+  "forename": "*** John ***",
+  "relation": "Grandson",
+  "age": "*** 5 ***",
+  "occupation": "*** London (City), ST PANCRAS ***",
+  "birthplace": "*** THIS RESOLVES THE ONE THING THAT DID NOT FIT EARLIER TONIGHT. *** `brayley-bmd.tsv` found John Walker Brayley's death indexed at *** age 53 in the December quarter of 1900, implying a birth about 1847 against the tree's 22 June 1845 *** - a two-year gap that had to be left open. *** A boy aged 5 on 30 March 1851 was born between April 1845 and March 1846, which fits the TREE and not the death index. *** So the informant in 1900 was wrong and the tree was right. *** ONE DISAGREEMENT REMAINS: the census says ST PANCRAS and the tree says ST PAUL'S. ***",
+  "what it settles": ""
+ },
+ {
+  "surname": "BRAYLEY",
+  "forename": "*** Georgina ***",
+  "relation": "Granddaughter",
+  "age": "*** 8 MONTHS ***",
+  "occupation": "*** Devon, BIDEFORD ***",
+  "birthplace": "*** THIS IS GEORGINA MARGARET BRAYLEY, AND THE TREE'S DATE IS A YEAR LATE. *** The tree says \"b. 1851, Bideford\". *** Eight months old on 30 March 1851 means born about JULY 1850. *** *** And her birthplace dates the family's move: the three elder children are London-born and the baby is Bideford-born, so John Brailey and Georgina Temple came back to Devon between 1845 and mid-1850 *** - which is also, on the other record, the road to the county asylum.",
+  "what it settles": ""
+ }
+]
