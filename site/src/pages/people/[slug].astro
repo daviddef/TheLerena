@@ -8,6 +8,7 @@ import places from "../../data/places.json";
 import { emph, plain } from "../../lib/text.js";
 export function getStaticPaths(){ return people.map(p => ({ params:{ slug:p.slug }, props:{ p } })); }
 const { p } = Astro.props;
+const hasEvidence = Array.isArray(p.evidence) && p.evidence.length > 0;
 const total = people.length;
 const place = places.find(x => x.slug === p.placeSlug);
 const others = place ? people.filter(x => x.placeSlug === p.placeSlug && x.slug !== p.slug) : [];
@@ -65,14 +66,36 @@ const relTree = p.relTree || 0;
                   user-contributed tree, <strong>unverified</strong>.</>
               : <>.</>}</p>
         )}
-        {relTotal === 0 && (
+        {relTotal === 0 && !hasEvidence && (
           <p><strong>No relationships are recorded for this person.</strong> The source names them and
             nothing more. That is the ordinary case in this register, and it is why they are marked
             unplaced.</p>
         )}
+        {relTotal === 0 && hasEvidence && (
+          <p><strong>The chart above is empty, and that is not the whole story.</strong> No relationship
+            has been written into the register for this person yet &mdash; but
+            <strong>{p.evidence.length} record{p.evidence.length === 1 ? " has" : "s have"} been read
+            about them</strong>, set out below.</p>
+        )}
       </div>
     </div>
   </div>
+
+  {hasEvidence && (
+    <div class="panel" style="border-left:3px solid var(--accent);margin:1.6rem 0">
+      <div class="lab">What has been read about this person</div>
+      {p.evidence.map((e) => (
+        <p style="margin:.7rem 0 0">
+          <span set:html={emph(e.says)} />
+          <br /><span class="cap">{e.source}{e.readOn ? ` \u00b7 read ${e.readOn}` : ""}</span>
+          {e.ark && <> <span class="cap" set:html={emph(e.ark)} /></>}
+        </p>
+      ))}
+      <p class="cap" style="margin:.9rem 0 0">Kept in <span class="mono">data/person-evidence.tsv</span>,
+        which the build reads and a gate refuses to skip. <strong>A record about a person belongs on that
+        person&rsquo;s page, not only on the page of the search that found it.</strong></p>
+    </div>
+  )}
 </section>
 
 {p.note && p.note.length > 160 && <section class="blk">

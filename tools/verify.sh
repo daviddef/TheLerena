@@ -33,5 +33,6 @@ rm -rf site/dist
 ( cd site && npm run build > /tmp/astro-build.log 2>&1 || { tail -30 /tmp/astro-build.log; exit 1; } )
 python3 tools/check-links.py
 python3 tools/check-errands.py
+python3 tools/check-evidence.py
 python3 tools/drift.py
 echo "ALL GATES PASSED"

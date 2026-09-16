@@ -9,6 +9,7 @@ import json, re, unicodedata, pathlib
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 REG  = ROOT / "data" / "lerena-register.tsv"
 REL  = ROOT / "data" / "relations.tsv"
+EVID = ROOT / "data" / "person-evidence.tsv"
 OUT  = ROOT / "site" / "src" / "data"
 
 def slugify(s):
@@ -221,7 +222,42 @@ if REL.exists():
         p["relRegister"] = sum(1 for x in rels if x["via"] in ("register", "line"))
         p["relTree"] = sum(1 for x in rels if x["via"] == "tree")
 
+# ---------------------------------------------------------------------------
+# RECORDS READ ABOUT A NAMED PERSON.
+#
+# Until 17 September 2026 a person page was built from the register and the
+# relations file and nothing else, so evidence written into topic files never
+# reached the person it was about: Cipriano and Vitalino of Trinidad had pages
+# saying "No relationships are recorded for this person. The source names them
+# and nothing more" while this archive held their wives, their children and,
+# for Cipriano, his parents.
+#
+# THIS LOOP FAILS LOUDLY ON AN UNKNOWN NAME. relations.tsv silently `continue`s
+# past a name the register does not hold, which is the same class of fault that
+# caused this one - a build that drops data without refusing.
+for p in people:
+    p["evidence"] = []
+if EVID.exists():
+    rows = [l.rstrip("\n").split("\t") for l in EVID.open(encoding="utf-8")
+            if l.strip() and not l.startswith("#")][1:]
+    missing = []
+    for r in rows:
+        r = (r + [""] * 5)[:5]
+        who, says, source, ark, read_on = (x.strip() for x in r)
+        subj = by_name.get(who)
+        if not subj:
+            missing.append(who)
+            continue
+        subj["evidence"].append({"says": says, "source": source,
+                                 "ark": "" if ark in ("-", "") else ark, "readOn": read_on})
+    if missing:
+        raise SystemExit(
+            "build-people: person-evidence.tsv names %d person(s) absent from the register:\n  %s\n"
+            "Every evidence row must attach to a register name, or the evidence never reaches a page."
+            % (len(missing), "\n  ".join(sorted(set(missing)))))
+
 OUT.mkdir(parents=True, exist_ok=True)
 (OUT / "people.json").write_text(json.dumps(people, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
 (OUT / "places.json").write_text(json.dumps(places, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
-print(f"{len(people)} people, {len(places)} places")
+ev = sum(len(p["evidence"]) for p in people)
+print(f"{len(people)} people, {len(places)} places, {ev} record(s) read about a named person")

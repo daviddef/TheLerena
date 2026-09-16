@@ -69,7 +69,8 @@
   "aliasOf": null,
   "relTotal": 6,
   "relRegister": 6,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "mary-septima-taylor",
@@ -141,7 +142,8 @@
   "aliasOf": null,
   "relTotal": 6,
   "relRegister": 3,
-  "relTree": 3
+  "relTree": 3,
+  "evidence": []
  },
  {
   "slug": "roque-luis-armando-lerena",
@@ -226,7 +228,8 @@
   "aliasOf": null,
   "relTotal": 6,
   "relRegister": 6,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "ricardo-juan-carlos-lerena",
@@ -297,7 +300,8 @@
   "aliasOf": null,
   "relTotal": 4,
   "relRegister": 1,
-  "relTree": 3
+  "relTree": 3,
+  "evidence": []
  },
  {
   "slug": "nuno-fernando-lerena",
@@ -360,7 +364,8 @@
   "aliasOf": null,
   "relTotal": 3,
   "relRegister": 3,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "gilberto-lerena",
@@ -412,6 +417,13 @@
     "slug": "carlos-augusto-federico-lerena",
     "via": "register",
     "note": "1895 census; Uruguayan civil registration"
+   },
+   {
+    "name": "Carlos LERENA Salvanach (b.1884, son of Gilberto)",
+    "dates": "",
+    "slug": "carlos-lerena-salvanach",
+    "via": "register",
+    "note": "His baptism gives the parents as ALBERTO - almost certainly Gilberto - Lerena and Julia Salvanach."
    },
    {
     "name": "Luis F. LERENA",
@@ -473,9 +485,10 @@
   ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 11,
-  "relRegister": 10,
-  "relTree": 1
+  "relTotal": 12,
+  "relRegister": 11,
+  "relTree": 1,
+  "evidence": []
  },
  {
   "slug": "maria-e-c-lerena",
@@ -511,6 +524,12 @@
     "name": "Carlos Augusto Federico LERENA",
     "dates": "",
     "slug": "carlos-augusto-federico-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Carlos LERENA Salvanach (b.1884, son of Gilberto)",
+    "dates": "",
+    "slug": "carlos-lerena-salvanach",
     "via": "register"
    },
    {
@@ -554,7 +573,8 @@
   "aliasOf": null,
   "relTotal": 1,
   "relRegister": 1,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "maria-luisa-lerena",
@@ -590,6 +610,12 @@
     "name": "Carlos Augusto Federico LERENA",
     "dates": "",
     "slug": "carlos-augusto-federico-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Carlos LERENA Salvanach (b.1884, son of Gilberto)",
+    "dates": "",
+    "slug": "carlos-lerena-salvanach",
     "via": "register"
    },
    {
@@ -633,7 +659,8 @@
   "aliasOf": null,
   "relTotal": 1,
   "relRegister": 1,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "carlos-augusto-federico-lerena",
@@ -671,6 +698,12 @@
   "spouses": [],
   "children": [],
   "siblings": [
+   {
+    "name": "Carlos LERENA Salvanach (b.1884, son of Gilberto)",
+    "dates": "",
+    "slug": "carlos-lerena-salvanach",
+    "via": "register"
+   },
    {
     "name": "Luis F. LERENA",
     "dates": "",
@@ -718,7 +751,8 @@
   "aliasOf": null,
   "relTotal": 2,
   "relRegister": 2,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "raul-lerena",
@@ -763,6 +797,12 @@
     "via": "register"
    },
    {
+    "name": "Carlos LERENA Salvanach (b.1884, son of Gilberto)",
+    "dates": "",
+    "slug": "carlos-lerena-salvanach",
+    "via": "register"
+   },
+   {
     "name": "Luis F. LERENA",
     "dates": "",
     "slug": "luis-f-lerena",
@@ -803,7 +843,8 @@
   "aliasOf": null,
   "relTotal": 2,
   "relRegister": 2,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "maria-a-lerena",
@@ -842,6 +883,12 @@
     "via": "register"
    },
    {
+    "name": "Carlos LERENA Salvanach (b.1884, son of Gilberto)",
+    "dates": "",
+    "slug": "carlos-lerena-salvanach",
+    "via": "register"
+   },
+   {
     "name": "Luis F. LERENA",
     "dates": "",
     "slug": "luis-f-lerena",
@@ -882,7 +929,8 @@
   "aliasOf": null,
   "relTotal": 1,
   "relRegister": 1,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "maria-c-lerena",
@@ -921,6 +969,12 @@
     "via": "register"
    },
    {
+    "name": "Carlos LERENA Salvanach (b.1884, son of Gilberto)",
+    "dates": "",
+    "slug": "carlos-lerena-salvanach",
+    "via": "register"
+   },
+   {
     "name": "Luis F. LERENA",
     "dates": "",
     "slug": "luis-f-lerena",
@@ -961,7 +1015,8 @@
   "aliasOf": null,
   "relTotal": 1,
   "relRegister": 1,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "maria-e-lerena",
@@ -1000,6 +1055,12 @@
     "via": "register"
    },
    {
+    "name": "Carlos LERENA Salvanach (b.1884, son of Gilberto)",
+    "dates": "",
+    "slug": "carlos-lerena-salvanach",
+    "via": "register"
+   },
+   {
     "name": "Luis F. LERENA",
     "dates": "",
     "slug": "luis-f-lerena",
@@ -1040,7 +1101,8 @@
   "aliasOf": null,
   "relTotal": 1,
   "relRegister": 1,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "luis-f-lerena",
@@ -1076,6 +1138,12 @@
     "name": "Carlos Augusto Federico LERENA",
     "dates": "",
     "slug": "carlos-augusto-federico-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Carlos LERENA Salvanach (b.1884, son of Gilberto)",
+    "dates": "",
+    "slug": "carlos-lerena-salvanach",
     "via": "register"
    },
    {
@@ -1119,7 +1187,8 @@
   "aliasOf": null,
   "relTotal": 1,
   "relRegister": 1,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "josefa-lerena-de-l",
@@ -1149,7 +1218,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "leandro-lerena",
@@ -1179,7 +1249,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "emilia-lerena",
@@ -1209,7 +1280,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "francisco-lerena",
@@ -1239,7 +1311,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "paulina-lerena",
@@ -1269,7 +1342,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "jesus-lerena",
@@ -1299,7 +1373,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "ramon-lerena",
@@ -1329,7 +1404,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "jacinta-lerena",
@@ -1359,7 +1435,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "lola-lerena",
@@ -1389,7 +1466,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "martin-lerena",
@@ -1419,7 +1497,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "jose-m-lerena",
@@ -1449,7 +1528,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "domenico-lerena",
@@ -1479,7 +1559,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "gregorio-lerena",
@@ -1509,7 +1590,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "felisa-lerena",
@@ -1539,7 +1621,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "elisa-lerena",
@@ -1569,7 +1652,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "sebastiana-lerena",
@@ -1599,7 +1683,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "paolo-lerena",
@@ -1629,7 +1714,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "juan-jose-lerena",
@@ -1659,7 +1745,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "prudencio-lerena",
@@ -1689,7 +1776,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "felisa-lerena-2",
@@ -1719,7 +1807,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "luciano-lerena",
@@ -1749,7 +1838,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "crecencia-lerena",
@@ -1779,7 +1869,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "juan-lerena",
@@ -1809,7 +1900,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "justa-lerena",
@@ -1839,7 +1931,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "gregorio-lerena-2",
@@ -1869,7 +1962,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "jose-lerena",
@@ -1899,7 +1993,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "carlos-lerena",
@@ -1937,7 +2032,8 @@
   "aliasOf": null,
   "relTotal": 1,
   "relRegister": 1,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "rosa-m-e-lerena",
@@ -1967,7 +2063,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "gilberto-lerena-2",
@@ -2005,7 +2102,8 @@
   "aliasOf": null,
   "relTotal": 1,
   "relRegister": 1,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "gilberto-lerena-3",
@@ -2041,7 +2139,8 @@
   "aliasOf": null,
   "relTotal": 1,
   "relRegister": 1,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "emilio-lerena",
@@ -2071,7 +2170,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "jose-maria-lerena",
@@ -2101,7 +2201,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "francisco-lerena-2",
@@ -2131,7 +2232,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "francisco-lerena-3",
@@ -2161,7 +2263,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "avelino-carlos-lerena",
@@ -2191,7 +2294,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "angelica-teresa-lerena",
@@ -2221,7 +2325,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "jose-llerena",
@@ -2251,7 +2356,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "jose-llerena-2",
@@ -2281,7 +2387,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "teresa-llerena",
@@ -2311,7 +2418,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "josefina-llerena",
@@ -2341,7 +2449,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "francisco-llerena",
@@ -2371,7 +2480,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "jose-llerena-3",
@@ -2401,7 +2511,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "jose-ma-llerena",
@@ -2431,7 +2542,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "gloria-llerena",
@@ -2461,7 +2573,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "rudosindo-larena",
@@ -2491,7 +2604,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "sytefano-larena",
@@ -2521,7 +2635,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "juan-larena",
@@ -2551,7 +2666,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "maria-larena",
@@ -2581,7 +2697,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "gregorio-larena",
@@ -2611,7 +2728,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "lucas-lerena",
@@ -2641,7 +2759,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "hanson-seko-lerena",
@@ -2671,7 +2790,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "catherine-buys-lerena-catherine-buys",
@@ -2701,7 +2821,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "laurensa-lerina",
@@ -2731,7 +2852,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "savina-lerina",
@@ -2761,7 +2883,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "anna-lerina",
@@ -2791,7 +2914,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "annunziata-lerina",
@@ -2821,7 +2945,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "antonio-larena",
@@ -2851,7 +2976,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "maria-larena-2",
@@ -2881,7 +3007,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "carmela-larena",
@@ -2911,7 +3038,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "leon-jose-lerena",
@@ -2941,7 +3069,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "juan-larena-2",
@@ -2971,7 +3100,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "juan-antonio-larena",
@@ -3001,7 +3131,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "victorino-severo-larena",
@@ -3031,7 +3162,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "vicente-antonio-larena",
@@ -3061,7 +3193,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "roque-larena",
@@ -3091,7 +3224,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "antonio-larena-2",
@@ -3121,7 +3255,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "juan-pablo-lerena",
@@ -3151,7 +3286,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "luis-llerena",
@@ -3181,7 +3317,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "luis-alejandro-llerena",
@@ -3211,7 +3348,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "manuela-lerena",
@@ -3241,7 +3379,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "carmen-roman-lerena",
@@ -3271,7 +3410,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "bartolome-llerena",
@@ -3301,7 +3441,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "agustin-lorena",
@@ -3331,7 +3472,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "guillermo-lorena",
@@ -3361,7 +3503,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "geronima-lorena",
@@ -3391,7 +3534,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "mercedes-lorena",
@@ -3421,7 +3565,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "feliz-lorena",
@@ -3451,7 +3596,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "maria-lorena",
@@ -3481,7 +3627,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "gabino-l-llerena",
@@ -3511,7 +3658,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "camilo-llerena",
@@ -3541,7 +3689,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "ramon-llerena",
@@ -3571,7 +3720,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "tomas-llerena",
@@ -3601,7 +3751,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "vicenta-llerena-morales",
@@ -3631,7 +3782,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "pedro-llerena",
@@ -3677,7 +3829,8 @@
   "aliasOf": null,
   "relTotal": 2,
   "relRegister": 2,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "susana-llerena",
@@ -3719,7 +3872,8 @@
   "aliasOf": null,
   "relTotal": 2,
   "relRegister": 2,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "maria-llerena",
@@ -3749,7 +3903,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "carlos-lerena-salvanach",
@@ -3770,16 +3925,101 @@
   "sourceUrl": "",
   "noLink": "no public link",
   "gen": null,
-  "father": null,
-  "mother": null,
-  "spouses": [],
-  "children": [],
-  "siblings": [],
+  "father": {
+   "name": "Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS)",
+   "dates": "1855–1912",
+   "slug": "gilberto-lerena",
+   "via": "register",
+   "note": "His baptism gives the parents as ALBERTO - almost certainly Gilberto - Lerena and Julia Salvanach."
+  },
+  "mother": {
+   "name": "Julia SALVANACH",
+   "dates": "",
+   "slug": "",
+   "via": "register",
+   "note": "Same baptism."
+  },
+  "spouses": [
+   {
+    "name": "Rosa Maria EPPENS",
+    "dates": "",
+    "slug": "rosa-maria-eppens",
+    "via": "register",
+    "note": "Argentina, Capital Federal, Catholic Church Records."
+   },
+   {
+    "name": "Adela CAMIGLIA",
+    "dates": "",
+    "slug": "adela-camiglia",
+    "via": "register",
+    "note": "Named together as the parents in the Mendoza baptism of 1904."
+   }
+  ],
+  "children": [
+   {
+    "name": "Avelino Carlos LERENA (b.1904, Mendoza baptism)",
+    "dates": "",
+    "slug": "avelino-carlos-lerena-2",
+    "via": "register",
+    "note": "Argentina, Mendoza, Catholic Church Records - parents Carlos Lerena and Adela Camiglia."
+   }
+  ],
+  "siblings": [
+   {
+    "name": "Carlos Augusto Federico LERENA",
+    "dates": "",
+    "slug": "carlos-augusto-federico-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Luis F. LERENA",
+    "dates": "",
+    "slug": "luis-f-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria A. LERENA",
+    "dates": "",
+    "slug": "maria-a-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria C. LERENA",
+    "dates": "",
+    "slug": "maria-c-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria E. C. LERENA",
+    "dates": "",
+    "slug": "maria-e-c-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria E. LERENA",
+    "dates": "",
+    "slug": "maria-e-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria Luisa LERENA",
+    "dates": "",
+    "slug": "maria-luisa-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Raul LERENA",
+    "dates": "",
+    "slug": "raul-lerena",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
-  "relTree": 0
+  "relTotal": 5,
+  "relRegister": 5,
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "rosa-maria-eppens",
@@ -3809,7 +4049,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "avelino-carlos-lerena-2",
@@ -3831,9 +4072,9 @@
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
   "father": {
-   "name": "Carlos LERENA (b.1884, Retiro baptism)",
+   "name": "Carlos LERENA Salvanach (b.1884, son of Gilberto)",
    "dates": "",
-   "slug": "",
+   "slug": "carlos-lerena-salvanach",
    "via": "register",
    "note": "Argentina, Mendoza, Catholic Church Records - parents Carlos Lerena and Adela Camiglia."
   },
@@ -3851,7 +4092,8 @@
   "aliasOf": null,
   "relTotal": 2,
   "relRegister": 2,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "adela-camiglia",
@@ -3889,7 +4131,8 @@
   "aliasOf": null,
   "relTotal": 1,
   "relRegister": 1,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "bartolome-llerena-cordoba-origin",
@@ -3919,7 +4162,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "francisco-llerena-2",
@@ -3965,7 +4209,8 @@
   "aliasOf": null,
   "relTotal": 2,
   "relRegister": 2,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "rafaela-daraz",
@@ -4003,7 +4248,8 @@
   "aliasOf": null,
   "relTotal": 1,
   "relRegister": 1,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "baldomero-llerena",
@@ -4053,7 +4299,8 @@
   "aliasOf": null,
   "relTotal": 3,
   "relRegister": 3,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "margarita-correas",
@@ -4083,7 +4330,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "rafael-llerena",
@@ -4113,7 +4361,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "lucrecia-llerena",
@@ -4143,7 +4392,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "armand-o-lorena-pablo-armando-lerena",
@@ -4188,7 +4438,8 @@
   },
   "relTotal": 2,
   "relRegister": 2,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "maria-lerena",
@@ -4234,7 +4485,8 @@
   "aliasOf": null,
   "relTotal": 2,
   "relRegister": 2,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "hector-lerena",
@@ -4264,7 +4516,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "eduardo-lerena",
@@ -4294,7 +4547,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "avelina-lerena",
@@ -4324,7 +4578,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "juan-carlos-lerena",
@@ -4370,7 +4625,8 @@
   "aliasOf": null,
   "relTotal": 2,
   "relRegister": 2,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "carolina-lerena",
@@ -4400,7 +4656,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "roseline-wilhelmina-forbes",
@@ -4467,7 +4724,8 @@
   "aliasOf": null,
   "relTotal": 5,
   "relRegister": 4,
-  "relTree": 1
+  "relTree": 1,
+  "evidence": []
  },
  {
   "slug": "doreen-may-chappell",
@@ -4538,7 +4796,8 @@
   "aliasOf": null,
   "relTotal": 4,
   "relRegister": 0,
-  "relTree": 4
+  "relTree": 4,
+  "evidence": []
  },
  {
   "slug": "anton-lerena",
@@ -4580,7 +4839,8 @@
   "aliasOf": null,
   "relTotal": 2,
   "relRegister": 0,
-  "relTree": 2
+  "relTree": 2,
+  "evidence": []
  },
  {
   "slug": "rieta-maria-lerena",
@@ -4635,7 +4895,8 @@
   "aliasOf": null,
   "relTotal": 2,
   "relRegister": 2,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "antoinette-septima-lynette-lerena",
@@ -4690,7 +4951,8 @@
   "aliasOf": null,
   "relTotal": 2,
   "relRegister": 2,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "careen-maria-lerena",
@@ -4720,7 +4982,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "rhena-may-lerena",
@@ -4758,7 +5021,8 @@
   "aliasOf": null,
   "relTotal": 1,
   "relRegister": 1,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "maria-julia-margarita-josefa-emirena-justiniana-lerena-juanico",
@@ -4833,7 +5097,8 @@
   "aliasOf": null,
   "relTotal": 3,
   "relRegister": 3,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "don-luis-eugenio-lerena-lenguas",
@@ -4926,7 +5191,8 @@
   "aliasOf": null,
   "relTotal": 8,
   "relRegister": 8,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "dona-julia-juanico",
@@ -5004,7 +5270,8 @@
   "aliasOf": null,
   "relTotal": 7,
   "relRegister": 7,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "don-luis-lerena-probably-luis-lerena-y-fernandez",
@@ -5063,7 +5330,8 @@
   "aliasOf": null,
   "relTotal": 4,
   "relRegister": 2,
-  "relTree": 2
+  "relTree": 2,
+  "evidence": []
  },
  {
   "slug": "armando-lerena",
@@ -5093,7 +5361,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "don-jaime-herrera",
@@ -5123,7 +5392,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "luis-lerena",
@@ -5190,7 +5460,8 @@
   "aliasOf": null,
   "relTotal": 2,
   "relRegister": 2,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "enrique-lerena-juanico",
@@ -5257,7 +5528,8 @@
   "aliasOf": null,
   "relTotal": 2,
   "relRegister": 2,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "ema-sixta-lerena-juanico",
@@ -5324,7 +5596,8 @@
   "aliasOf": null,
   "relTotal": 2,
   "relRegister": 2,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "dr-don-candido-juanico",
@@ -5370,7 +5643,8 @@
   "aliasOf": null,
   "relTotal": 2,
   "relRegister": 2,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "dona-juliana-joaquina-gonzalez",
@@ -5400,7 +5674,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "dona-justiniana-lenguas-gonzalez",
@@ -5438,7 +5713,8 @@
   "aliasOf": null,
   "relTotal": 1,
   "relRegister": 1,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "sancho-llerena-aguilar",
@@ -5476,7 +5752,8 @@
   "aliasOf": null,
   "relTotal": 1,
   "relRegister": 0,
-  "relTree": 1
+  "relTree": 1,
+  "evidence": []
  },
  {
   "slug": "laura-adela-lerena-juanico",
@@ -5543,7 +5820,8 @@
   "aliasOf": null,
   "relTotal": 2,
   "relRegister": 2,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "jose-julio-lerena-juanico",
@@ -5573,7 +5851,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "candido-jaime-lerena-juanico",
@@ -5603,7 +5882,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "bernabe-lerena",
@@ -5633,7 +5913,15 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": [
+   {
+    "says": "*** Named as a father on his son's marriage act: *** \"Fausto G. Lerena, born 1880, married 7 April 1900 at *** SANTISIMA TRINIDAD, Trinidad, Flores ***, parents *** BERNABE LERENA and CASIMIRA PELAEZ. ***\"",
+    "source": "Uruguay, Catholic Church Records 1726-2000",
+    "ark": "",
+    "readOn": "2026-09-17"
+   }
+  ]
  },
  {
   "slug": "dona-casimira-pelaez",
@@ -5663,7 +5951,15 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": [
+   {
+    "says": "Named as the mother on the same 1900 marriage act of her son Fausto G. Lerena at Trinidad. *** The Lerenas and Pelaezes of Trinidad intermarried until the church required a dispensation for consanguinity in 1885. ***",
+    "source": "Uruguay, Catholic Church Records 1726-2000",
+    "ark": "",
+    "readOn": "2026-09-17"
+   }
+  ]
  },
  {
   "slug": "vitalino-lerena",
@@ -5693,7 +5989,21 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": [
+   {
+    "says": "*** Named as a father on his son's marriage act: *** \"Vitalino Lerena, born 1870, married Rosa I. Casaballe 22 February 1895, parents *** VITALINO LERENA and ANDREA ETCHEVERRE. ***\"",
+    "source": "Uruguay, Marriages, 1840-1900; Uruguay Catholic Church Records 1726-2000",
+    "ark": "",
+    "readOn": "2026-09-17"
+   },
+   {
+    "says": "Named again as a father on the death entry of *** ROSAURA FULGENCIA LERENA *** at Trinidad - \"parents Vitalino Lerena, Andrea Atcheverre\". *** The mother's Basque surname is spelled Echeverry, Echeverse, Etcheverre and Atcheverre across four records of one family. ***",
+    "source": "Uruguay, Catholic Church Records 1726-2000",
+    "ark": "",
+    "readOn": "2026-09-17"
+   }
+  ]
  },
  {
   "slug": "dona-andrea-echeverry",
@@ -5723,7 +6033,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "ysaac-lerena",
@@ -5753,7 +6064,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "dona-adelaida-gazo",
@@ -5783,7 +6095,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "cipriano-lerena",
@@ -5813,7 +6126,21 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": [
+   {
+    "says": "*** HIS PARENTS: MAURICIO LERENA and CASIMIRA MONTANA. *** Death registration of 1928 at Flores, record 40, entry 1, page 20v. *** This makes him a grandson of Ramon Serena of Valdemoro and a first cousin of Bernabe. *** Indexed only - the card says \"Image Unavailable\", so the act itself has not been read.",
+    "source": "Uruguay, Civil Registration Index Card, 1900-1937",
+    "ark": "1:1:QG3K-CV5Q",
+    "readOn": "2026-09-17"
+   },
+   {
+    "says": "Married *** LAURIANA BELOQUI ***; three children baptised at Trinidad, Flores - Doroteo Donato (1875), Maria Leonor (1877) and Lauriana (1891).",
+    "source": "Uruguay Baptisms 1750-1900; Uruguay Catholic Church Records 1726-2000",
+    "ark": "",
+    "readOn": "2026-09-13"
+   }
+  ]
  },
  {
   "slug": "dona-lauriana-beloqui",
@@ -5843,7 +6170,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "fermin-lerena",
@@ -5873,7 +6201,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "dona-paulina-barragan",
@@ -5903,7 +6232,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "florencio-lerena",
@@ -5933,7 +6263,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "dona-juana-recuero",
@@ -5963,7 +6294,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "juan-bernardo-lerena-pelaez",
@@ -5993,7 +6325,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "paula-modesta-lerena-pelaez",
@@ -6023,7 +6356,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "carmen-lerena-pelaez",
@@ -6053,7 +6387,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "ysidro-gregorio-lerena-pelaez",
@@ -6083,7 +6418,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "juana-alejandra-lerena-echeverry",
@@ -6113,7 +6449,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "gervasio-lerena-echeverry",
@@ -6143,7 +6480,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "rosario-fulgencia-lerena-echeverry",
@@ -6173,7 +6511,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "alejandra-raymunda-lerena-gazo",
@@ -6203,7 +6542,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "maria-luisa-lina-lerena-gazo",
@@ -6233,7 +6573,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "doroteo-donato-lerena-beloqui",
@@ -6263,7 +6604,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "maria-leonor-lerena-beloqui",
@@ -6293,7 +6635,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "lauriana-lerena-beloqui",
@@ -6323,7 +6666,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "faustino-lerena-barragan",
@@ -6353,7 +6697,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "maria-regina-lerena-barragan",
@@ -6383,7 +6728,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "natalia-elena-lerena-recuero",
@@ -6413,7 +6759,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "luis-lerena-2",
@@ -6443,7 +6790,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "cayetana-faustina-lerena",
@@ -6473,7 +6821,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "justiniana-mauricia-maxima-lerena-lenguas",
@@ -6503,7 +6852,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "alberto-octavio-lerena-lenguas",
@@ -6533,7 +6883,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "maria-ema-lerena-lenguas",
@@ -6563,7 +6914,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "sara-juanico-lenguas",
@@ -6593,7 +6945,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "zara-sista-emirena-juanico-lenguas",
@@ -6623,7 +6976,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "celia-juanico-lenguas",
@@ -6653,7 +7007,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "d-enrique-juanico",
@@ -6683,7 +7038,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "mercedes-gonzalez",
@@ -6713,7 +7069,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "carolina-lerena-2",
@@ -6743,7 +7100,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "julian-martinez",
@@ -6773,7 +7131,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "carlos-martinez-lerena",
@@ -6803,7 +7162,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "julian-martinez-lerena",
@@ -6833,7 +7193,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "maria-angelica-julia-lerena-salvanach",
@@ -6863,7 +7224,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "don-cristobal-salvanach",
@@ -6893,7 +7255,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "dona-angela-alvarez",
@@ -6923,7 +7286,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "don-rufino-yurramendi",
@@ -6953,7 +7317,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "enrique-juanico-gonzalez",
@@ -6983,7 +7348,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "alejandro-lerena-traibel",
@@ -7013,7 +7379,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "general-don-pedro-lenguas",
@@ -7043,7 +7410,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "dona-carmen-gonzalez",
@@ -7073,7 +7441,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "dona-maria-fernandez-tresguerras",
@@ -7103,7 +7472,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "d-juan-lenguas",
@@ -7133,7 +7503,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "d-felipe-lenguas",
@@ -7163,7 +7534,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "dona-dominga-carvallo",
@@ -7193,7 +7565,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "dona-sixta-lenguas-gonzalez",
@@ -7223,7 +7596,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "josefa-lerena",
@@ -7253,7 +7627,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "alfredo-costa",
@@ -7283,7 +7658,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "don-antonio-lenguas",
@@ -7313,7 +7689,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "dona-juana-grandal",
@@ -7343,7 +7720,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "don-pascual-gonzalez",
@@ -7373,7 +7751,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "dona-josefa-grandal",
@@ -7403,7 +7782,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "gilberto-lerena-salvanach",
@@ -7433,7 +7813,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "maria-carlota-lerena-salvanach",
@@ -7463,7 +7844,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "luis-felipe-lerena-salvanach",
@@ -7493,7 +7875,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "cesar-alberto-lerena-salvanach",
@@ -7523,7 +7906,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "horacio-alfredo-lerena-salvanach",
@@ -7553,7 +7937,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "emma-r-gabarret",
@@ -7583,7 +7968,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "dona-carolina-oribe",
@@ -7613,7 +7999,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "justa-pastora-lerena",
@@ -7643,7 +8030,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "manuel-zeferino-barros",
@@ -7673,7 +8061,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "juan-facundo-frutuoso-barros-lerena",
@@ -7703,7 +8092,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "don-fructuoso-rivera",
@@ -7733,7 +8123,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "dona-bernardina-fragoso-de-rivera",
@@ -7763,7 +8154,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "jose-pando-de-barros",
@@ -7793,7 +8185,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "ana-maria-cabalgante",
@@ -7823,7 +8216,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "abelino-lerena",
@@ -7853,7 +8247,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "dominga-josefa-llerena-fernandez",
@@ -7883,7 +8278,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "jose",
@@ -7913,7 +8309,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "joseph-ponteceli",
@@ -7943,7 +8340,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "agueda-rivero",
@@ -7973,7 +8371,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "pedro-antonio-lerena",
@@ -8003,7 +8402,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "dona-vicenta-vega",
@@ -8033,7 +8433,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "leonarda-margarita-lerena-vega",
@@ -8063,7 +8464,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "don-romualdo-vega",
@@ -8093,7 +8495,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "dona-andrea-maestre",
@@ -8123,7 +8526,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "josefa-in-gilberto-s-1895-household",
@@ -8153,7 +8557,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "josefa-lerena-traibel",
@@ -8183,7 +8588,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "avelino-lerena-fernandez",
@@ -8213,7 +8619,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "ambrosia-traibel",
@@ -8243,7 +8650,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "mercedes-lerena",
@@ -8273,7 +8681,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "maria-carlota-moratorio-lerena",
@@ -8303,7 +8712,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "maria-de-las-mercedes-moratorio-lerena",
@@ -8333,7 +8743,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "fernando-moratorio",
@@ -8363,7 +8774,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "nicolasa-torres",
@@ -8393,7 +8805,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "alfredo-justiniano-lerena-traibel",
@@ -8423,7 +8836,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "hermenegilda-carolina-gavarro",
@@ -8453,7 +8867,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "don-geronimo-gavarro",
@@ -8483,7 +8898,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "dona-carolina-juarez",
@@ -8513,7 +8929,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "don-carlos-navia",
@@ -8543,7 +8960,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "ana-rosario-lerena-traibel",
@@ -8573,7 +8991,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "don-juan-traibel",
@@ -8603,7 +9022,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "dona-ysabel-centeno",
@@ -8633,7 +9053,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "polonia-traibel",
@@ -8663,7 +9084,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "justiniano-lavalleja",
@@ -8693,7 +9115,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "constantino-lavalleja",
@@ -8723,7 +9146,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "ana-lavalleja",
@@ -8753,7 +9177,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "bernabe-lerena-2",
@@ -8783,7 +9208,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "maria-lerena-2",
@@ -8813,7 +9239,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "custodio-lerena",
@@ -8843,7 +9270,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "ema-cardozo",
@@ -8873,7 +9301,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "florencia-cardozo",
@@ -8903,7 +9332,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "eliseo-cardozo",
@@ -8933,7 +9363,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "amelia-lerena",
@@ -8963,7 +9394,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "celidonia-b-de-lerena",
@@ -8993,7 +9425,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "zelmira-carlota-lerena-larriera",
@@ -9023,7 +9456,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "justina-lerena",
@@ -9053,7 +9487,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "capitan-don-antonio-ruiz-rodriguez-de-carvallo",
@@ -9083,7 +9518,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "mayor-don-joaquin-ruiz-de-carvallo",
@@ -9113,7 +9549,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "dona-juana-suarez",
@@ -9143,7 +9580,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "lucinda-gregoria-del-corazon-de-jesus-ruiz-de-carvallo",
@@ -9173,7 +9611,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "exmo-sr-general-don-francisco-de-paula-maggesi",
@@ -9203,7 +9642,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "dona-carolina-amalia-de-la-concepcion",
@@ -9233,7 +9673,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "nicolas-benteno",
@@ -9263,7 +9704,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "juliana-josefa-cornejo",
@@ -9293,7 +9735,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "domingo-rodriguez-de-carvallo",
@@ -9323,7 +9766,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "juan-agustin-lerena-fernandez",
@@ -9353,7 +9797,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "agustina-lerena-fernandez",
@@ -9383,7 +9828,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "fidel-lerena-fernandez",
@@ -9413,7 +9859,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "felix-lerena",
@@ -9443,7 +9890,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "rosalia-aguilar",
@@ -9473,7 +9921,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "jose-loreto-lerena-fernandez",
@@ -9503,7 +9952,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "juana",
@@ -9533,7 +9983,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "maria-mercedes",
@@ -9563,7 +10014,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "juan-carlos-gonzalez-lerena",
@@ -9593,7 +10045,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "rafael-llerena-2",
@@ -9623,7 +10076,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "victor-lerena",
@@ -9653,7 +10107,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "pedro-lorena",
@@ -9683,7 +10138,8 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  },
  {
   "slug": "fidel-lerena",
@@ -9713,6 +10169,7 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
-  "relTree": 0
+  "relTree": 0,
+  "evidence": []
  }
 ]

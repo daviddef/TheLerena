@@ -1,0 +1,19 @@
+# *** RECORDS READ ABOUT A NAMED PERSON, SO THAT THEIR OWN PAGE CAN SAY SO. ***
+# Created 17 September 2026 after a fault found in the Mazza archive was looked for here and found in
+# a different shape. *** This archive had no slug-keyed evidence file at all: a person page is built
+# from lerena-register.tsv and relations.tsv and NOTHING ELSE. *** So a whole session's worth of
+# records could be written into topic files, rendered on topic pages, and never reach the person -
+# whose page went on saying "No relationships are recorded for this person. The source names them and
+# nothing more." *** That is what it was doing for Cipriano and Vitalino of Trinidad while this archive
+# held their wives, their children and their parents. ***
+#
+# person: MUST match a name in lerena-register.tsv exactly. The build FAILS if it does not - it does
+#   not skip the row, which is the mistake relations.tsv makes.
+# The build attaches these to the person and the page renders them under "What has been read".
+person	what the record says	source	ark	read_on
+Cipriano LERENA (of Trinidad)	*** HIS PARENTS: MAURICIO LERENA and CASIMIRA MONTANA. *** Death registration of 1928 at Flores, record 40, entry 1, page 20v. *** This makes him a grandson of Ramon Serena of Valdemoro and a first cousin of Bernabe. *** Indexed only - the card says "Image Unavailable", so the act itself has not been read.	Uruguay, Civil Registration Index Card, 1900-1937	1:1:QG3K-CV5Q	2026-09-17
+Cipriano LERENA (of Trinidad)	Married *** LAURIANA BELOQUI ***; three children baptised at Trinidad, Flores - Doroteo Donato (1875), Maria Leonor (1877) and Lauriana (1891).	Uruguay Baptisms 1750-1900; Uruguay Catholic Church Records 1726-2000	-	2026-09-13
+Vitalino LERENA (of Trinidad)	*** Named as a father on his son's marriage act: *** "Vitalino Lerena, born 1870, married Rosa I. Casaballe 22 February 1895, parents *** VITALINO LERENA and ANDREA ETCHEVERRE. ***"	Uruguay, Marriages, 1840-1900; Uruguay Catholic Church Records 1726-2000	-	2026-09-17
+Vitalino LERENA (of Trinidad)	Named again as a father on the death entry of *** ROSAURA FULGENCIA LERENA *** at Trinidad - "parents Vitalino Lerena, Andrea Atcheverre". *** The mother's Basque surname is spelled Echeverry, Echeverse, Etcheverre and Atcheverre across four records of one family. ***	Uruguay, Catholic Church Records 1726-2000	-	2026-09-17
+Bernabe LERENA (of Trinidad)	*** Named as a father on his son's marriage act: *** "Fausto G. Lerena, born 1880, married 7 April 1900 at *** SANTISIMA TRINIDAD, Trinidad, Flores ***, parents *** BERNABE LERENA and CASIMIRA PELAEZ. ***"	Uruguay, Catholic Church Records 1726-2000	-	2026-09-17
+Dona Casimira PELAEZ (wife of Bernabe LERENA)	Named as the mother on the same 1900 marriage act of her son Fausto G. Lerena at Trinidad. *** The Lerenas and Pelaezes of Trinidad intermarried until the church required a dispensation for consanguinity in 1885. ***	Uruguay, Catholic Church Records 1726-2000	-	2026-09-17
