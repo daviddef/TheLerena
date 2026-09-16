@@ -44,3 +44,20 @@ The church	*** "Union, Montevideo" ***	*** "esta Yglesia matriz de Montevideo" -
 # *** AND IT BUYS A METHOD POINT WORTH MORE THAN EITHER: *** the index gave four facts and the act gave
 # nine, including the only one that mattered. *** The image was free, it was one click from a record
 # this archive had already found, and it sat unopened for a day. ***
+#
+# ============ AND THEN VALDEMORO WAS TESTED, THE SAME DAY - row 141 ============
+# *** The act bought a hard Spanish place-name. The first thing to ask of a place-name is whether its
+# registers are reachable, and the answer here is NO - not from this desk. ***
+test	result	reading
+*** FamilySearch CATALOGUE, place = Valdemoro, Madrid, Spain ***	*** ONE item, and it is a CENSUS. *** The place note reads "SEE: PART OF MADRID".	*** The town exists in the catalogue, so the search works. ***
+*** Same catalogue, place = Valdemoro, subject = CHURCH RECORDS ***	*** "No Results Found". ***	*** CONTROLLED, and decisive: FAMILYSEARCH HOLDS NO PARISH REGISTERS FOR VALDEMORO. *** The control is the line above - the place resolves and returns its census, so this null is about the holdings and not about the query.
+*** Indexed records, surname SERENA, "Valdemoro, Madrid, Spain" ***	*** 79 hits - and NOT ONE of them is Valdemoro. *** The places returned are Madrid city, Toledo, Murcia, Almeria, Huesca, Barbastro.	*** THE PLACE FILTER SILENTLY WIDENED TO THE PROVINCE, exactly as it did for Santa Fe in Argentina. *** Recorded again because it has now caused a false reading twice: *** a place-filtered result must be checked against the place field on the rows themselves. ***
+#
+# *** SO ROW 141 IS NOT WORKABLE FROM HERE, AND THAT IS WORTH KNOWING BEFORE SOMEBODY SPENDS A WEEK. ***
+# *** What is needed is the parish registers of Valdemoro *** - the baptism of RAMON about 1775-85 and
+# the marriage of *** SALVADOR SERENA and ANA DE CUBAS *** before that. Neither is on FamilySearch.
+# *** WHERE THEY WILL BE: *** Valdemoro sits in the *** ARCHDIOCESE OF TOLEDO *** historically and in
+# the *** DIOCESE OF GETAFE *** since 1991, so the books are in a diocesan archive rather than a film
+# vault; and *** PARES ***, the Portal de Archivos Espanoles, is the state route. *** Both are already
+# this archive's work-list row 78, which until today said only "try PARES and the Spanish diocesan
+# portals" with no place to try them on. IT NOW HAS ONE. ***

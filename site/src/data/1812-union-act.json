@@ -26,5 +26,21 @@
  {
   "line": "The church",
   "reading": "*** \"Union, Montevideo\" ***"
+ },
+ {
+  "line": "test",
+  "reading": "result"
+ },
+ {
+  "line": "*** FamilySearch CATALOGUE, place = Valdemoro, Madrid, Spain ***",
+  "reading": "*** ONE item, and it is a CENSUS. *** The place note reads \"SEE: PART OF MADRID\"."
+ },
+ {
+  "line": "*** Same catalogue, place = Valdemoro, subject = CHURCH RECORDS ***",
+  "reading": "*** \"No Results Found\". ***"
+ },
+ {
+  "line": "*** Indexed records, surname SERENA, \"Valdemoro, Madrid, Spain\" ***",
+  "reading": "*** 79 hits - and NOT ONE of them is Valdemoro. *** The places returned are Madrid city, Toledo, Murcia, Almeria, Huesca, Barbastro."
  }
 ]
