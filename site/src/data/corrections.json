@@ -509,5 +509,12 @@
   "what_was_said": "*** That the enrolment card's SERIE field reads \"3885\". *** Published on /enrolment-card/ in the table of what the card says.",
   "what_is_true": "*** It reads \"E 3555\". *** The letter prefix was dropped entirely and two digits were misread. *** The SECCION field, \"I 3322\", was right *** - and it has the same shape, a letter and four digits, which is what should have prompted the doubt: *** a field transcribed WITHOUT its letter, sitting directly above one transcribed WITH it, is an internal inconsistency this archive should have seen before David did. ***",
   "how_it_was_caught": "*** DAVID READ THE ORIGINAL. *** He was asked what the card was telling him, looked at it properly, and sent back both fields. *** Neither number carries any weight in any argument here *** - no conclusion moves - *** but it is logged because a transcription is the one thing this archive asks readers to trust, and a wrong one is worse than a missing one. ***"
+ },
+ {
+  "date": "2026-09-16",
+  "severity": "serious",
+  "what_was_said": "*** That on /direct-line/, \"Above him there is nothing. His parents are unnamed in every document held here.\" *** Published, and left standing for six days.",
+  "what_is_true": "*** His parents ARE named. *** The enrolment card gives *** Juan Carlos Lerena and Maria Lerena ***, and has done since 10 September 2026. *** The same page said so in its own opening paragraph *** - \"an Argentine army enrolment card... names Pablo Armando's father and mother. For months there was nothing above him. There is now one generation\" - *** so the page contradicted itself from top to bottom. *** Now reads \"Above him there is ONE GENERATION AND NO MORE\", which is the true and still-bleak position: two names, given by their son, and no other record of either anywhere.",
+  "how_it_was_caught": "*** Caught while rebuilding the front page at David's request. *** Nobody went looking for it. *** This is what a big find does to an archive: the good news gets written at the top of every page and the old despair stays at the bottom, *** and the two sit there disagreeing until someone reads the whole page in one go. *** Graded SERIOUS, not minor: it is not a slipped digit, it is the archive telling a reader the opposite of what it knows, on the page that exists to state the line. ***"
  }
 ]
