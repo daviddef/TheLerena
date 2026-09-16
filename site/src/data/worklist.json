@@ -986,7 +986,7 @@
       "state": "blocked",
       "owner": "David",
       "since": "2026-09-16",
-      "note": "Horace Archibald Taylor born at **23 Geneva Place, Bideford**; Lucy Elizabeth at **North Street, Northam**; Agnes Walker at **2 Fore Street, Northam**. *** And 2 Fore Street is a few doors from 26 Fore Street, where Mary Septima stayed with her sister Edie on her last visit home in 1935 *** **An address is what a census is searched on**, and this archive has the 1871, 1891, 1901, 1911 and 1921 censuses and the 1939 Register already worked. These three should place the household in each of them without a name search. *** TESTED 17 September 2026. *** *** 2 FORE STREET, NORTHAM: CONFIRMED *** — the 1891 return (piece 1787, ED 4, folio 42, schedule 2) gives the household's address as **\"2, Fore Street\"**, so the tree's birth address for Agnes is the family's real address two years later. *** 23 GENEVA PLACE and NORTH STREET: NOT TESTABLE FREE *** — they need the **1871** and **1881** censuses and FreeCEN holds neither for Bideford or Northam (1851, 1861, 1891 only). *** AND THE ROW'S METHOD DOES NOT WORK ON THE FREE CENSUS AT ALL: FreeCEN HAS NO ADDRESS FIELD. *** Its form searches names, years, place, occupation, sex, marital status — *** an address can only be READ OFF a return a NAME search found ***, which is how Fore Street was confirmed. Needs findmypast or Ancestry. See `data/devon-addresses.tsv`."
+      "note": "Horace Archibald Taylor born at **23 Geneva Place, Bideford**; Lucy Elizabeth at **North Street, Northam**; Agnes Walker at **2 Fore Street, Northam**. *** And 2 Fore Street is a few doors from 26 Fore Street, where Mary Septima stayed with her sister Edie on her last visit home in 1935 *** **An address is what a census is searched on**, and this archive has the 1871, 1891, 1901, 1911 and 1921 censuses and the 1939 Register already worked. These three should place the household in each of them without a name search. *** TESTED 17 September 2026. *** *** 2 FORE STREET, NORTHAM: CONFIRMED *** — the 1891 return (piece 1787, ED 4, folio 42, schedule 2) gives the household's address as **\"2, Fore Street\"**, so the tree's birth address for Agnes is the family's real address two years later. *** 23 GENEVA PLACE and NORTH STREET: NOT TESTABLE FREE *** — they need the **1871** and **1881** censuses and FreeCEN holds neither for Bideford or Northam (1851, 1861, 1891 only). *** AND THE ROW'S METHOD DOES NOT WORK ON THE FREE CENSUS AT ALL: FreeCEN HAS NO ADDRESS FIELD. *** Its form searches names, years, place, occupation, sex, marital status — *** an address can only be READ OFF a return a NAME search found ***, which is how Fore Street was confirmed. Needs findmypast or Ancestry. See `data/devon-addresses.tsv`. *** REOPENED 17 September 2026, and my own verdict corrected. *** The 'not testable free' above tested the census route and nothing else. The UK National Archives had never been searched in this project at all, and Discovery shows **Geneva Place, Bideford is a council school** — **North Devon Record Office 629C holds its log books and ADMISSION REGISTERS, 1885–1949**, with Kew's ED 21/26168 and ED 70/427 alongside. Admission registers name the child, the date of birth, the father and **the address**. That cannot reach Horace, born 1872 and too old for them, but Lucy Elizabeth (1881), Mary Septima (1884) and Agnes Walker (1889) were all of school age inside the run."
     },
     {
       "n": 124,
@@ -1139,6 +1139,38 @@
       "owner": "this archive",
       "since": "2026-09-17",
       "note": "*** The Mazza fault was looked for here and found in a different shape. *** Mazza kept evidence in files its person-builder never read. *** This archive had no person-keyed evidence file AT ALL: *** `build-people.py` read `lerena-register.tsv` and `relations.tsv` and nothing else, so a whole session of records lived on topic pages while the people they were about had pages saying *\"No relationships are recorded for this person.\"* *** AND THE GATE FOUND A PRE-EXISTING ONE ON ITS FIRST RUN, which is the real vindication. *** `/people/carlos-lerena-salvanach/` carried that sentence while `relations.tsv` held **five** edges for him — father Gilberto, mother Julia Salvanach, wives Rosa Maria Eppens and Adela Camiglia, son Avelino Carlos. *** The cause is on his own page: the row was corrected on 14 September from \"Retiro baptism\" to \"información matrimonial\", and the rename fixed the register and orphaned every edge. relations.tsv does `if not subj: continue` — it drops unknown names in silence. *** All five repointed and recovered. *** THE FIX: *** `data/person-evidence.tsv` (person-keyed, same name convention as relations.tsv); `build-people.py` reads it and **raises** on an unknown name rather than skipping; the person page renders *What has been read about this person* and no longer prints the false claim when evidence exists. *** THE GATE: *** `tools/check-evidence.py`, wired into `verify.sh` and into `npm run build` so CI runs it. It refuses if a named person is not in the register, if their page does not carry their evidence, if the page still prints the false claim, or if relations.tsv names anyone the register lacks. *** Verified by reintroducing the bug three ways — build stops reading the file, template guard removed, edge repointed at an unknown name — each exits 1. ***"
+    },
+    {
+      "n": 143,
+      "what": "Order the Royal Marines attestation of John Walker Brayley, ADM 157/197/182",
+      "state": "blocked",
+      "owner": "David",
+      "since": "2026-09-17",
+      "note": "Discovery has **ADM 157/197/182, folios 182–186: John Walker Brayley, born Middlesex**, attested for the Royal Marines in **1861 aged 18**, discharged 1868 as an Invalid. This archive has its John Walker Brayley born **1845 at St Paul's, London** — which is Middlesex — and has already logged that his death index gives **age 53 in the December quarter of 1900, implying about 1847: a two-year gap left open**. Aged 18 in 1861 implies about 1843. **Three sources, three different years.** An attestation paper states date and place of birth outright and would settle it. **Not asserted to be him** — that is what the document is for."
+    },
+    {
+      "n": 144,
+      "what": "Read the three Brayley wills of Northam",
+      "state": "blocked",
+      "owner": "David",
+      "since": "2026-09-17",
+      "note": "**Wills name relationships, which is exactly what the Brayley ascent is short of.** Kew: **IR 26/337/185**, abstract of the will of George Brayley, Gentleman of Northam, 29 May 1800. North Devon Record Office: **B127-8/126/1-3**, Emily Kate Brayley of Northam, will 1935, proved 1943; **B127-8/139/1-12**, Edith Mary Brayley of Northam, will 1943, proved 1948. The last two are within living memory of Mary Septima Taylor and may name her generation directly."
+    },
+    {
+      "n": 145,
+      "what": "Consult the Geneva Place school admission registers, North Devon Record Office 629C",
+      "state": "blocked",
+      "owner": "David",
+      "since": "2026-09-17",
+      "note": "**The route row 123 did not have.** Log books and admission registers, **1885–1949**. Registers of this period give child, date of birth, father's name and **address** — which would test the family's Bideford and Northam addresses without a census, and may catch Lucy Elizabeth, Mary Septima and Agnes Walker Taylor. Not online; needs an order or a visit."
+    },
+    {
+      "n": 146,
+      "what": "Test whether the Brayleys of Bideford and Northam gentry join Mary Ann Hellen Brayley",
+      "state": "next",
+      "owner": "this archive",
+      "since": "2026-09-17",
+      "note": "Discovery shows a Brayley family of standing in these two parishes across **1767 to 1861** — George Brayley master of the brig Cato at Appledore in 1767, George Brayley of Bideford gent in leases of 1769, 1831, 1844 and 1861, George Brayley of Orchard Hill in Northam in 1827, and **B194/277/1-5**, valuations of G.B. Brayley's property in Northam, Bideford and Barnstaple in 1915 and 1929. **Whether any of them is kin to Mary Ann Hellen Brayley (1843–1900) is untested and is deliberately not assumed.** The wills in the row above are the way in."
     }
   ],
   "accounts": [

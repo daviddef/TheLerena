@@ -824,5 +824,12 @@
   "accessed": "15 Sep 2026",
   "tier": "PRIMARY",
   "link": "https://gazettes.africa/"
+ },
+ {
+  "source": "The National Archives (UK) - Discovery, and the ~2,500 repositories it aggregates",
+  "used_for": "*** FIRST SEARCH OF UK ARCHIVES IN THIS PROJECT, 17 September 2026, on David's question. *** *** The Lerena surname is a tested null in Britain *** (2 hits, neither a person of this family, against a 16,510-record control). *** The Brayley side is the opposite: 639 records ***, including three Brayley wills of Northam, a Royal Marines attestation for a John Walker Brayley born Middlesex, and the discovery that *** Geneva Place, Bideford is a council school whose admission registers survive 1885-1949. *** See data/tna-discovery.tsv.",
+  "accessed": "17 Sep 2026",
+  "tier": "PRIMARY",
+  "link": "https://discovery.nationalarchives.gov.uk/"
  }
 ]
