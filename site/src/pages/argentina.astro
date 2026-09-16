@@ -1,6 +1,42 @@
 ---
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
+import Spine from "@daviddef/archive-kit/components/Spine.astro";
+
+/* Every Lerena Argentina can actually produce, and where each one came from.
+   Three households, three arrows back across the river — and one man with no
+   arrow at all. Drawn rather than argued, because the pattern is the point. */
+const rosario1866 = [
+  { gen: "1", name: "Luis Lerena Lenguas", spouse: "Julia Juanico",
+    bornPlace: "Uruguay", confidence: "Documented",
+    note: `<span class="cap">The act calls them <em>&ldquo;naturales del E[stado] Oriental&rdquo;</em> \u2014 natives of Uruguay, in the clerk\u2019s own hand.</span>` },
+  { gen: "2", name: "Their daughter", confidence: "Documented",
+    note: `<span class="cap">Born 8 October 1865, baptised at Rosario 17 February 1866, act 1541. <strong>The only Lerena in the Rosario baptism index between 1731 and 1901</strong> \u2014 and she is Uruguayan on both sides.</span>` },
+];
+const gilbertoLine = [
+  { gen: "1", name: "Gilberto Justiniano Lerena Lenguas",
+    born: "1854", bornPlace: "Uruguay", confidence: "Documented",
+    note: `<span class="cap">Co-founder of the <strong>Argentine Stud Book</strong>; a Group 1 at Palermo was renamed for him in 1914.</span>` },
+  { gen: "2", name: "His Buenos Aires household", confidence: "Documented",
+    note: `<span class="cap">The <strong>1895 national census</strong>, Secci\u00f3n 21, Ciudad de Buenos Aires. The elder children are born <strong>Uruguay</strong>, the younger ones <strong>Buenos Aires</strong> \u2014 the crossing is legible in one household.</span>` },
+];
+const alejandroLine = [
+  { gen: "1", name: "Alejandro M. Lerena", spouse: "Julia Bassani",
+    born: "1839", bornPlace: "Uruguay", confidence: "Documented",
+    note: `<span class="cap">Born Uruguay, and the Argentine army record confirms it independently.</span>` },
+  { gen: "2", name: "His sons, in the same drawer", confidence: "Documented",
+    note: `<span class="cap">Enrolment cards in <strong>Caj\u00f3n 985</strong>: Hector born <strong>Montevideo 1886</strong>, Roberto Juan <strong>Misiones 1891</strong>, Romer Rosario <strong>Buenos Aires 1895</strong>. <strong>One family, five spellings of the surname</strong> \u2014 and the same drawer that holds Pablo Armando\u2019s card.</span>` },
+];
+const pabloLine = [
+  { gen: "1", name: "Juan Carlos Lerena", spouse: "Mar\u00eda Lerena",
+    bornPlace: "not known", confidence: "Documented",
+    weak: true, weakNote: "Named by their son on <a href=\"/TheLerena/enrolment-card/\">his enrolment card</a> and <strong>nowhere else on earth</strong>. No baptism, no marriage, no burial, in Argentina or Uruguay.",
+    note: `<span class="cap">No arrow back across the river, because there is no record to draw one from.</span>` },
+  { gen: "2", name: "Pablo Armando Lerena",
+    born: "22 February 1882", bornPlace: "Rosario de Santa Fe",
+    died: "19 March 1950", diedPlace: "Newlands, Cape Town", confidence: "Documented",
+    note: `<span class="cap">His own passport gives the town and the day. <strong>And the Rosario registers, read to exhaustion, do not hold him.</strong></span>` },
+];
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -50,6 +86,7 @@ const hasArt = fs.existsSync(
       <li><a href="#s-the-consul-how-it-gets-proved">The consul: how it gets proved</a></li>
       <li><a href="#s-what-this-page-needs-next">What this page needs next</a></li>
       <li><a href="#s-the-1895-census-a-lerena-household-and-it-is-not-his">The 1895 census: a Lerena household, and it is not his</a></li>
+      <li><a href="#s-every-lerena-argentina-can-produce">Every Lerena Argentina can produce, drawn</a></li>
       <li><a href="#s-three-refusals-and-one-direction">Three refusals, and one direction</a></li>
       <li><a href="#s-where-to-go-next">Where to go next</a></li>
       <li><a href="#s-the-registers-now-searched-to-the-end">The registers, now searched to the end</a></li>
@@ -247,6 +284,48 @@ const hasArt = fs.existsSync(
     all, though he would have been thirteen. <strong>Nor is there a single Lerena recorded in Santa Fe or
     Rosario.</strong> The census Lerenas are Uruguayan in Buenos Aires, Spanish-born in another quarter of
     it, and scattered singles in Tucumán and Entre Ríos.
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-every-lerena-argentina-can-produce">Every Lerena Argentina can produce, drawn</h2>
+  <p class="dek">Three documented Lerena households in nineteenth-century Argentina, and
+    <strong>every one of them arrives from Uruguay.</strong> Then the fourth, which is the reason for the
+    page.</p>
+  <div class="grid two" style="margin-top:1.2rem;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:24px">
+    <div>
+      <h3 style="margin:0 0 .4rem">The 1866 baptism at Rosario</h3>
+      <p class="cap" style="margin:0 0 .6rem">The only Lerena in the index, 1731&ndash;1901</p>
+      <Spine rows={rosario1866} u={u} />
+    </div>
+    <div>
+      <h3 style="margin:0 0 .4rem">The Stud Book household</h3>
+      <p class="cap" style="margin:0 0 .6rem">Buenos Aires, 1895 census</p>
+      <Spine rows={gilbertoLine} u={u} />
+    </div>
+    <div>
+      <h3 style="margin:0 0 .4rem">The family in the army drawer</h3>
+      <p class="cap" style="margin:0 0 .6rem">Cajón 985 &mdash; Montevideo, Misiones, Buenos Aires</p>
+      <Spine rows={alejandroLine} u={u} />
+    </div>
+    <div>
+      <h3 style="margin:0 0 .4rem">And the one this archive is for</h3>
+      <p class="cap" style="margin:0 0 .6rem">Rosario de Santa Fe &rarr; the Cape</p>
+      <Spine rows={pabloLine} u={u} />
+    </div>
+  </div>
+  <div class="panel" style="border-left:3px solid var(--terra);margin:24px 0">
+    <div class="lab">What the four charts say together</div>
+    <p style="margin:.6rem 0 0"><strong>Three of them point back across the river and say so on the
+      record</strong> &mdash; <em>naturales del Estado Oriental</em>, born Uruguay 1854, born Uruguay
+      1839. The Lerenas of Argentina are, so far as Argentina can show, <strong>Uruguayans who
+      crossed</strong>.</p>
+    <p style="margin:.6rem 0 0"><strong>The fourth points nowhere.</strong> Pablo Armando is documented in
+      Argentina by a birthplace on his own passport and by nothing else: the Rosario baptism index holds
+      no Lerena for 1881&ndash;83, the 1895 census holds no Lerena or Lerina household anywhere in Santa
+      Fe province, and his parents exist on one card. <strong>He is the only one of the four whose
+      Uruguayan origin is a hypothesis rather than a line of text.</strong>
+      <a href={u("/uruguay/")}>The two Uruguayan houses &rarr;</a></p>
   </div>
 </section>
 
