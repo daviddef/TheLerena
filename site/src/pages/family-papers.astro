@@ -15,11 +15,14 @@ import llorens from "../data/llorens-1872.json";
 import ged from "../data/gedcom-current.json";
 import ascent from "../data/brayley-ascent.json";
 import imp from "../data/gedcom-import.json";
+import graded from "../data/gedcom-graded.json";
 import conv from "../data/brayley-convergence.json";
 const M = Object.fromEntries(marriage.map((r) => [r.field, r]));
 const N = Object.fromEntries(notices.map((r) => [r.field, r]));
 const D = Object.fromEntries(dn.map((r) => [r.field, r]));
 const L = Object.fromEntries(llorens.map((r) => [r.field, r]));
+const gm = graded.filter((r) => r.measure && r.count);
+const gc = graded.filter((r) => r.claim && r.its_citation_in_the_tree);
 const probes = conv.filter((r) => r.hits && /^\d+$/.test(String(r.hits).trim()));
 const convFind = conv.filter((r) => r.probe && r.probe !== "finding" && r.probe !== "what_would_join_them"
   && !/^\d+$/.test(String(r.hits || "").trim()) && r.hits);
@@ -534,6 +537,52 @@ const DOCS = [
       Montevideo and nothing else. <strong>Four new parishes with names and dates attached.</strong></p>
     <p class="cap" style="margin-top:10px">All of it is <em>tree</em>. Where it came from is unknown, and
       that is the first question to ask before any of it is treated as support.</p>
+  </div>
+</section>
+
+<section class="blk">
+  <h2>7d. And then the tree was graded by what it cites</h2>
+  <p class="dek">Work-list row 121 asked a narrow question: <em>where did the tree get Félix de
+    Llerena&rsquo;s Andalusia from?</em> Reading every citation on every Lerena, Taylor and Brayley
+    person to answer it produced a much larger answer.</p>
+
+  <div class="grid g2" style="margin:22px 0">
+    <div class="panel" style="border-left:3px solid var(--ochre,#8a7f5c)">
+      <div class="nm">6</div>
+      <div class="txt">of <strong>244</strong> people on this line cite <strong>a record</strong></div></div>
+    <div class="panel">
+      <div class="nm">144</div>
+      <div class="txt">cite <strong>nothing at all</strong>. Another <strong>94</strong> cite only
+        other people&rsquo;s trees.</div></div>
+  </div>
+  <p class="cap">The entire documentary foundation of this line in the tree: three citations of the 1911
+    census, one each of 1871 and 1901, one death index, one baptism.
+    <strong>97.5% of it rests on nothing, or on somebody else&rsquo;s tree.</strong></p>
+
+  <h3 style="margin-top:28px">What that does to what this page said two hours ago</h3>
+  <div class="scroll" style="margin-top:14px">
+    <table>
+      <thead><tr><th style="width:15rem">The claim</th><th style="width:13rem">Its citation</th>
+        <th>What this archive must now say</th></tr></thead>
+      <tbody>
+        {gc.map((r) => (
+          <tr><td set:html={em(r.claim)} /><td class="cap" set:html={em(r.its_citation_in_the_tree)} />
+            <td set:html={em(r.what_this_archive_must_now_say)} /></tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <div class="panel" style="border-left:3px solid var(--accent);margin:24px 0">
+    <div class="lab">What this does not mean</div>
+    <p style="margin:10px 0 0">It does <strong>not</strong> mean the tree is wrong. An unsourced entry
+      can be perfectly correct &mdash; it may rest on a document in somebody&rsquo;s drawer, or a
+      memory, or a record whose citation was never typed in. <strong>It means the tree cannot be used
+      as evidence, only as a set of leads</strong> &mdash; and that a lead with a parish and a date on
+      it is worth far more than one without, because it can be tested.</p>
+    <p style="margin-top:10px"><strong>The register stays at 278.</strong> What the import actually
+      bought is a work list: four Uruguayan departments, a Devon parish with three deaths in three
+      days, three street addresses, and a date in November 1999 to check.</p>
   </div>
 </section>
 

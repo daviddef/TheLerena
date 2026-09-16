@@ -966,11 +966,11 @@
   },
   {
    "n": 121,
-   "what": "Ask the tree where Félix de Llerena's ANDALUSIA came from",
-   "state": "next",
+   "what": "Ask the tree where Félix de Llerena's ANDALUSIA came from — answered, and the answer is nothing",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-16",
-   "note": "The current tree carries **Félix de Llerena, b. about 1725, Córdoba, ANDALUSIA**. *** That is the archive's own Félix, from the Canelones marriage act of 8 January 1791 *** — and this archive argued at length, from the phrase *Córdova la llana*, that the Córdoba meant was the Spanish city and not Córdoba del Tucumán. **The tree agrees, from a direction that owes the archive nothing.** But a tree is not a source. *** Find out where that attribution came from before it is treated as support, because agreement from an unknown source is worth nothing and feels like a great deal ***"
+   "note": "**Answered 16 September 2026 by reading every citation on every Lerena, Taylor and Brayley person in the export.** Félix's Andalusia is sourced to *** \"Carvalho Calcagno Web Site\" and \"Familia Martinez Camino\" — two other people's MyHeritage trees *** So the agreement this archive noted, \"from a direction that owes the archive nothing\", **owes it nothing because it is two strangers' trees, which may well have copied the same reasoning from the same place.** No support. *** And the wider answer: of 244 people on this line in the tree, SIX cite a record, 94 cite only other trees, and 144 cite nothing at all *** Written up at `/family-papers/` with `data/gedcom-graded.tsv`."
   },
   {
    "n": 122,
@@ -987,6 +987,14 @@
    "owner": "this archive",
    "since": "2026-09-16",
    "note": "Horace Archibald Taylor born at **23 Geneva Place, Bideford**; Lucy Elizabeth at **North Street, Northam**; Agnes Walker at **2 Fore Street, Northam**. *** And 2 Fore Street is a few doors from 26 Fore Street, where Mary Septima stayed with her sister Edie on her last visit home in 1935 *** **An address is what a census is searched on**, and this archive has the 1871, 1891, 1901, 1911 and 1921 censuses and the 1939 Register already worked. These three should place the household in each of them without a name search."
+  },
+  {
+   "n": 124,
+   "what": "Test the Brayley ascent at Westleigh — it is unsourced below 1843",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-16",
+   "note": "The eleven-generation ascent published this evening is *** almost entirely unsourced: Matthew Reed of 1643 rests on \"Lightning Web Site\", John Brailey on \"Moore-Christian Web Site\", and HELEN WALKER on nothing at all *** Only two links in it cite a record — Georgina Temple in the **1851 census** and Mary Ann Hellen Brayley in the **England & Wales Death Index**. **What makes it testable is that it names parishes and dates.** The single densest target is **Westleigh, September 1799**: Robert Brayley born the 21st, dead the 23rd, and his mother Ann Snow dead the same day. **One parish register page should carry a baptism and two burials.** Then the 1803–1817 baptisms of William Brayley and Peggy Reed's five children in the same register. FamilySearch holds *England, Devon, Parish Registers (Devon Record Office), 1529–1974*, which this archive has used before."
   }
  ],
  "accounts": [
