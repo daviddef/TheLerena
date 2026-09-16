@@ -1,0 +1,178 @@
+[
+ {
+  "gen": "1",
+  "person": "*** MARY SEPTIMA TAYLOR ***",
+  "born": "17 September 1884, Northam, Devon",
+  "died": "15 November 1935, Cape Town",
+  "married": "*** 3 September 1911, St Dominic's, Wynberg *** → Pablo Armando Lerena",
+  "note": "The archive's own spine. Everything below is her mother's side."
+ },
+ {
+  "gen": "2",
+  "person": "*** MARY ANN HELLEN BRAYLEY ***",
+  "born": "*** 20 May 1843, St Bartholomew's, City of London ***",
+  "died": "21 April 1900, Home Sweet Terrace, Northam",
+  "married": "*** 26 January 1870, St Mark's Parish Church, Bideford *** → William Taylor",
+  "note": "*** Occupation: HOUSE SERVANT. *** Born in the City of London and married in north Devon - the family moved."
+ },
+ {
+  "gen": "2b",
+  "person": "John Walker Brayley",
+  "born": "22 June 1845, St Paul's, London",
+  "died": "22 October 1900",
+  "married": "",
+  "note": "Her brother. *** Carries WALKER as a given name - see generation 5. ***"
+ },
+ {
+  "gen": "2c",
+  "person": "Georgina Margaret Brayley",
+  "born": "1851, Bideford, Devonshire",
+  "died": "about June 1940",
+  "married": "",
+  "note": "Her sister, born after the family returned to Devon."
+ },
+ {
+  "gen": "3",
+  "person": "*** JOHN BRAILEY ***",
+  "born": "14 August 1814, West Leigh by Coldridge, Devon",
+  "died": "*** 4 May 1851, DEVON COUNTY ASYLUM ***",
+  "married": "*** 9 July 1839, St Martin-in-the-Fields, Westminster *** → Georgina Temple",
+  "note": "*** Sue Rowbotham's history has a chapter called \"The mystery of the missing husband and daughter\". This is very probably the missing husband. *** He died at 36 in the county asylum, leaving a widow who is later recorded a pauper. The surname is spelt BRAILEY here and BRAYLEY a generation either side."
+ },
+ {
+  "gen": "3w",
+  "person": "*** GEORGINA TEMPLE ***",
+  "born": "*** 23 August 1814, Haddington, Scotland ***",
+  "died": "about January 1900, Devon",
+  "married": "9 July 1839, St Martin-in-the-Fields",
+  "note": "*** Occupation: \"Monthly Nurse & Shoemaker Wife Pauper\". *** A Scotswoman from East Lothian who married in Westminster and died a pauper in Devon."
+ },
+ {
+  "gen": "4",
+  "person": "William Brayley",
+  "born": "1 March 1778, Westleigh, Devon",
+  "died": "about 1876, *** 29 Coldharbour, Bideford ***",
+  "married": "18 March 1802, Westleigh → Margaret (Peggy) Reed",
+  "note": "Died at about 98, at a named address."
+ },
+ {
+  "gen": "4w",
+  "person": "Margaret (Peggy) Reed",
+  "born": "12 January 1777, Braunton, Devon",
+  "died": "23 January 1858, Lower Gunstone, Bideford",
+  "married": "18 March 1802, Westleigh",
+  "note": ""
+ },
+ {
+  "gen": "5",
+  "person": "*** GEORGE TEMPLE ***",
+  "born": "-",
+  "died": "-",
+  "married": "*** 6 January 1813, Haddington, East Lothian *** → Helen Walker",
+  "note": "Georgina Temple's father."
+ },
+ {
+  "gen": "5w",
+  "person": "*** HELEN WALKER ***",
+  "born": "-",
+  "died": "-",
+  "married": "6 January 1813, Haddington",
+  "note": "*** AND THERE IS THE WALKER. *** This archive noticed that WALKER runs through the Taylor line as a given name - Margaret Hellen WALKER Taylor, Agnes WALKER Taylor - and guessed a Walker grandmother. *** She is five generations up, in East Lothian, and the name has been carried down ever since. *** So has HELEN: Helen Walker to Mary Ann HELLEN Brayley to Margaret HELLEN Walker Taylor."
+ },
+ {
+  "gen": "6",
+  "person": "John Brayley",
+  "born": "1747, Westleigh, Devon",
+  "died": "1 September 1815, Westleigh",
+  "married": "15 October 1777, Westleigh → Ann Snow",
+  "note": ""
+ },
+ {
+  "gen": "6w",
+  "person": "*** ANN SNOW ***",
+  "born": "4 December 1740, Holsworthy, Devon",
+  "died": "23 September 1799, Westleigh",
+  "married": "15 October 1777, Westleigh",
+  "note": "In the 2018 backup she was \"Margaret?\" with a death date and nothing else."
+ },
+ {
+  "gen": "6r",
+  "person": "Gregory Reed",
+  "born": "25 April 1746, Braunton, Devon",
+  "died": "5 March 1820, Braunton",
+  "married": "21 November 1771, Braunton → Margaret Wybourn",
+  "note": "*** Occupation: PAUPER SHOEMAKER. *** Peggy Reed's father - and note the trade reappears in Georgina Temple's \"Shoemaker Wife Pauper\" two generations later and a hundred miles away."
+ },
+ {
+  "gen": "6rw",
+  "person": "Margaret Wybourn",
+  "born": "17 October 1750, Braunton",
+  "died": "4 February 1819, Braunton",
+  "married": "21 November 1771, Braunton",
+  "note": "Her parents John Wybourn and Mary Hunt married at Braunton 12 May 1743."
+ },
+ {
+  "gen": "7",
+  "person": "John Reed",
+  "born": "1712, Braunton",
+  "died": "-",
+  "married": "27 September 1736, Braunton → Catherine Dowdle",
+  "note": "*** Occupation: STONEMASON. ***"
+ },
+ {
+  "gen": "7w",
+  "person": "Catherine Dowdle",
+  "born": "24 June 1710, Shirwell, Devon",
+  "died": "-",
+  "married": "27 September 1736, Braunton",
+  "note": ""
+ },
+ {
+  "gen": "8",
+  "person": "William Reed",
+  "born": "2 August 1685, Braunton",
+  "died": "1756 or 1761",
+  "married": "11 February 1710, Braunton → Christian Jewell",
+  "note": ""
+ },
+ {
+  "gen": "8w",
+  "person": "Christian Jewell",
+  "born": "19 June 1686, Braunton",
+  "died": "-",
+  "married": "11 February 1710, Braunton",
+  "note": ""
+ },
+ {
+  "gen": "8d",
+  "person": "John Dowdle",
+  "born": "1686, Shirwell",
+  "died": "-",
+  "married": "23 February 1706, Shirwell → Eleanor Long",
+  "note": ""
+ },
+ {
+  "gen": "9",
+  "person": "*** MATTHEW REED ***",
+  "born": "*** 1643, Braunton, Devon ***",
+  "died": "11 March 1720, Braunton",
+  "married": "26 October 1671, Braunton → Anne Heddon",
+  "note": "*** The oldest man on this line, born in the year the Civil War reached the West Country. ***"
+ },
+ {
+  "gen": "9w",
+  "person": "Anne Heddon",
+  "born": "1643, Braunton",
+  "died": "15 December 1719, Braunton",
+  "married": "26 October 1671, Braunton",
+  "note": ""
+ },
+ {
+  "gen": "9d",
+  "person": "Gregory Dowdall",
+  "born": "1655, Shirwell Parish",
+  "died": "9 March 1722, Shirwell Parish",
+  "married": "13 November 1680, Shirwell → Edith Laramy",
+  "note": "The surname is DOWDALL here and DOWDLE a generation down."
+ }
+]

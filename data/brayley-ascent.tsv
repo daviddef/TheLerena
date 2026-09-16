@@ -1,0 +1,42 @@
+# *** THE BRAYLEY ASCENT - ELEVEN GENERATIONS, FROM THE CURRENT TREE. ***
+# Read 16 September 2026 from the MyHeritage export of 15 September.
+# *** This archive's own rootschat-assessment.tsv says BRAYLEY "is the one this archive could not
+# push past." *** It goes back to 1643.
+#
+# *** TREE, NOT RECORD. *** Every line is an assertion. What makes this one worth more than most is
+# that it names PARISHES AND DATES, which is what a parish register can be checked against - and
+# north Devon parish registers are filmed.
+gen	person	born	died	married	note
+1	*** MARY SEPTIMA TAYLOR ***	17 September 1884, Northam, Devon	15 November 1935, Cape Town	*** 3 September 1911, St Dominic's, Wynberg *** → Pablo Armando Lerena	The archive's own spine. Everything below is her mother's side.
+2	*** MARY ANN HELLEN BRAYLEY ***	*** 20 May 1843, St Bartholomew's, City of London ***	21 April 1900, Home Sweet Terrace, Northam	*** 26 January 1870, St Mark's Parish Church, Bideford *** → William Taylor	*** Occupation: HOUSE SERVANT. *** Born in the City of London and married in north Devon - the family moved.
+2b	John Walker Brayley	22 June 1845, St Paul's, London	22 October 1900		Her brother. *** Carries WALKER as a given name - see generation 5. ***
+2c	Georgina Margaret Brayley	1851, Bideford, Devonshire	about June 1940		Her sister, born after the family returned to Devon.
+3	*** JOHN BRAILEY ***	14 August 1814, West Leigh by Coldridge, Devon	*** 4 May 1851, DEVON COUNTY ASYLUM ***	*** 9 July 1839, St Martin-in-the-Fields, Westminster *** → Georgina Temple	*** Sue Rowbotham's history has a chapter called "The mystery of the missing husband and daughter". This is very probably the missing husband. *** He died at 36 in the county asylum, leaving a widow who is later recorded a pauper. The surname is spelt BRAILEY here and BRAYLEY a generation either side.
+3w	*** GEORGINA TEMPLE ***	*** 23 August 1814, Haddington, Scotland ***	about January 1900, Devon	9 July 1839, St Martin-in-the-Fields	*** Occupation: "Monthly Nurse & Shoemaker Wife Pauper". *** A Scotswoman from East Lothian who married in Westminster and died a pauper in Devon.
+4	William Brayley	1 March 1778, Westleigh, Devon	about 1876, *** 29 Coldharbour, Bideford ***	18 March 1802, Westleigh → Margaret (Peggy) Reed	Died at about 98, at a named address.
+4w	Margaret (Peggy) Reed	12 January 1777, Braunton, Devon	23 January 1858, Lower Gunstone, Bideford	18 March 1802, Westleigh
+5	*** GEORGE TEMPLE ***	-	-	*** 6 January 1813, Haddington, East Lothian *** → Helen Walker	Georgina Temple's father.
+5w	*** HELEN WALKER ***	-	-	6 January 1813, Haddington	*** AND THERE IS THE WALKER. *** This archive noticed that WALKER runs through the Taylor line as a given name - Margaret Hellen WALKER Taylor, Agnes WALKER Taylor - and guessed a Walker grandmother. *** She is five generations up, in East Lothian, and the name has been carried down ever since. *** So has HELEN: Helen Walker to Mary Ann HELLEN Brayley to Margaret HELLEN Walker Taylor.
+6	John Brayley	1747, Westleigh, Devon	1 September 1815, Westleigh	15 October 1777, Westleigh → Ann Snow
+6w	*** ANN SNOW ***	4 December 1740, Holsworthy, Devon	23 September 1799, Westleigh	15 October 1777, Westleigh	In the 2018 backup she was "Margaret?" with a death date and nothing else.
+6r	Gregory Reed	25 April 1746, Braunton, Devon	5 March 1820, Braunton	21 November 1771, Braunton → Margaret Wybourn	*** Occupation: PAUPER SHOEMAKER. *** Peggy Reed's father - and note the trade reappears in Georgina Temple's "Shoemaker Wife Pauper" two generations later and a hundred miles away.
+6rw	Margaret Wybourn	17 October 1750, Braunton	4 February 1819, Braunton	21 November 1771, Braunton	Her parents John Wybourn and Mary Hunt married at Braunton 12 May 1743.
+7	John Reed	1712, Braunton	-	27 September 1736, Braunton → Catherine Dowdle	*** Occupation: STONEMASON. ***
+7w	Catherine Dowdle	24 June 1710, Shirwell, Devon	-	27 September 1736, Braunton
+8	William Reed	2 August 1685, Braunton	1756 or 1761	11 February 1710, Braunton → Christian Jewell
+8w	Christian Jewell	19 June 1686, Braunton	-	11 February 1710, Braunton
+8d	John Dowdle	1686, Shirwell	-	23 February 1706, Shirwell → Eleanor Long
+9	*** MATTHEW REED ***	*** 1643, Braunton, Devon ***	11 March 1720, Braunton	26 October 1671, Braunton → Anne Heddon	*** The oldest man on this line, born in the year the Civil War reached the West Country. ***
+9w	Anne Heddon	1643, Braunton	15 December 1719, Braunton	26 October 1671, Braunton
+9d	Gregory Dowdall	1655, Shirwell Parish	9 March 1722, Shirwell Parish	13 November 1680, Shirwell → Edith Laramy	The surname is DOWDALL here and DOWDLE a generation down.
+#
+# *** WHAT TO DO WITH IT, AND WHAT NOT TO. ***
+# NOT to import it. This is one tree's working file and it is unsourced here.
+# *** What makes it testable is that almost every line names a PARISH AND A DATE: *** Westleigh,
+# Coldridge, Braunton, Shirwell, Holsworthy, Bideford and Northam in north Devon; Haddington in East
+# Lothian; St Martin-in-the-Fields and St Bartholomew's in London. *** North Devon parish registers
+# are filmed and this archive knows how to read a filmed register by number. ***
+# *** The first three to test, because they carry the most weight and the most specific detail: ***
+#   1. The marriage of 26 January 1870 at St Mark's, Bideford - Mary Ann Hellen Brayley to William Taylor.
+#   2. The marriage of 9 July 1839 at St Martin-in-the-Fields - John Brailey to Georgina Temple.
+#   3. The death of 4 May 1851 at the Devon County Asylum - John Brailey, aged 36.

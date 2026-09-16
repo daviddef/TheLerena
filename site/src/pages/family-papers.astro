@@ -12,14 +12,13 @@ import passport from "../data/pablo-armando-passport.json";
 import dn from "../data/death-notice-1950.json";
 import memory from "../data/family-memory.json";
 import llorens from "../data/llorens-1872.json";
-import ged from "../data/gedcom-2018.json";
-import harvest from "../data/gedcom-harvest.json";
+import ged from "../data/gedcom-current.json";
+import ascent from "../data/brayley-ascent.json";
 import conv from "../data/brayley-convergence.json";
 const M = Object.fromEntries(marriage.map((r) => [r.field, r]));
 const N = Object.fromEntries(notices.map((r) => [r.field, r]));
 const D = Object.fromEntries(dn.map((r) => [r.field, r]));
 const L = Object.fromEntries(llorens.map((r) => [r.field, r]));
-const G = Object.fromEntries(ged.filter((r) => r.what).map((r) => [r.what, r]));
 const probes = conv.filter((r) => r.hits && /^\d+$/.test(String(r.hits).trim()));
 const convFind = conv.filter((r) => r.probe && r.probe !== "finding" && r.probe !== "what_would_join_them"
   && !/^\d+$/.test(String(r.hits || "").trim()) && r.hits);
@@ -431,27 +430,76 @@ const DOCS = [
 </section>
 
 <section class="blk">
-  <h2>7. The family tree, counted &mdash; 8,286 people, never opened</h2>
-  <p class="dek">David asked whether this archive had gone through the GEDCOM. It had not.
-    <code>2018-07 Defranceski.ged</code> holds <strong>{G["individuals"] && G["individuals"].count} individuals</strong>,
-    {G["families"] && G["families"].count} families and <strong>{G["media objects"] && G["media objects"].count} media
-    objects</strong> &mdash; against <strong>278</strong> people in this archive's own register.</p>
-  <div class="note" style="margin:18px 0">The media are <strong>not on the disk</strong>. The file
-    references point at MyHeritage's servers; only 169 cached thumbnails survive locally, at 60&times;80.
-    <strong>The text is free. The images need the live tree.</strong></div>
-
-  <h3 style="margin-top:26px">What came out of it</h3>
-  <div class="scroll" style="margin-top:14px">
+  <h2>7. The family tree &mdash; and a source this archive should never have used</h2>
+  <div class="note" style="margin:18px 0"><strong>This section replaces a retracted one.</strong>
+    Earlier today this archive found a GEDCOM on the disk, mined it, and published from it. David:
+    <em>&ldquo;Do not use the 2018 gedcom. That is an old backup only. And is incredibly wrong and out
+    of date.&rdquo;</em> He was right. The current export &mdash; <strong>15 September 2026, 15,643
+    individuals against the backup&rsquo;s 8,286</strong> &mdash; contradicts it point by point, and
+    everything taken from the backup is withdrawn.
+    <a href={u("/corrections/")}>The correction &rarr;</a></div>
+  <div class="scroll" style="margin-top:18px">
     <table>
-      <thead><tr><th style="width:21rem">The tree says</th><th>This archive says</th></tr></thead>
+      <thead><tr><th style="width:17rem">The 2018 backup said</th>
+        <th style="width:17rem">The current tree says</th><th>Why it matters</th></tr></thead>
       <tbody>
-        {harvest.map((r) => (
-          <tr><td><strong set:html={em(r.finding)} /><br /><span set:html={em(r.what_the_tree_says)} /></td>
-            <td set:html={em(r.what_this_archive_says)} /></tr>
+        {ged.map((r) => (
+          <tr><td set:html={em(r.what_the_2018_backup_said)} />
+            <td set:html={em(r.what_the_current_tree_says)} />
+            <td class="cap" set:html={em(r.why_it_matters)} /></tr>
         ))}
       </tbody>
     </table>
   </div>
+  <div class="panel" style="border-left:3px solid var(--ochre,#8a7f5c);margin:22px 0">
+    <p style="margin:0"><strong>The lesson, which this archive should not have needed.</strong>
+      A file&rsquo;s <strong>date is part of its provenance</strong>, and &ldquo;found on the disk&rdquo;
+      is not a source. It was treated as one because it was large and internally consistent, and it was
+      neither current nor right. Worse: <strong>two errors were caught by internal arithmetic</strong>
+      &mdash; an impossible birth date and a man dead at 117 &mdash; and both were written up as
+      isolated slips when they were <em>symptoms</em>.</p>
+  </div>
+</section>
+
+<section class="blk">
+  <h2>7b. The Brayley ascent, re-derived &mdash; eleven generations to 1643</h2>
+  <p class="dek">This archive&rsquo;s own <code>rootschat-assessment.tsv</code> says Brayley
+    <em>&ldquo;is the one this archive could not push past.&rdquo;</em> The current tree pushes past it
+    to <strong>Matthew Reed, born 1643 at Braunton</strong>.</p>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr><th class="m">Gen</th><th style="width:13rem">Person</th><th>Born · died · married</th>
+        <th>Note</th></tr></thead>
+      <tbody>
+        {ascent.map((r) => (
+          <tr><td class="m">{r.gen}</td><td set:html={em(r.person)} />
+            <td class="cap" set:html={em([r.born, r.died, r.married].filter(Boolean).join(" · "))} />
+            <td class="cap" set:html={em(r.note)} /></tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  <div class="panel" style="border-left:3px solid var(--accent);margin:24px 0">
+    <div class="lab">And there is the Walker</div>
+    <p style="margin:10px 0 0">This archive noticed that <strong>Walker</strong> runs through the Taylor
+      line as a given name &mdash; Margaret Hellen <em>Walker</em> Taylor, Agnes <em>Walker</em> Taylor
+      &mdash; and guessed a Walker grandmother. <strong>She is five generations up: HELEN WALKER, who
+      married George Temple at Haddington, East Lothian, on 6 January 1813.</strong></p>
+    <p style="margin-top:10px">And so does the other name: <strong>Helen Walker → Mary Ann
+      <em>Hellen</em> Brayley → Margaret <em>Hellen</em> Walker Taylor.</strong> Four generations of a
+      Scotswoman&rsquo;s name carried into a Devon family and out to the Cape.</p>
+    <p class="cap" style="margin-top:10px">Which is why a South African DNA match shares
+      <strong>Temple <em>and</em> Walker</strong> with Cheryl &mdash; see below. The tree and the
+      chromosome arrive at the same woman from opposite ends.</p>
+  </div>
+  <div class="note"><strong>What makes this testable rather than decorative:</strong> almost every line
+    names <strong>a parish and a date</strong> &mdash; Westleigh, Coldridge, Braunton, Shirwell,
+    Holsworthy, Bideford, Northam; Haddington; St Martin-in-the-Fields and St Bartholomew&rsquo;s. North
+    Devon parish registers are filmed, and this archive knows how to read a filmed register by number.
+    <strong>The three to test first</strong> are the Bideford marriage of 26 January 1870, the
+    Westminster marriage of 9 July 1839, and the death of John Brailey at the
+    <strong>Devon County Asylum</strong> on 4 May 1851 &mdash; which is very probably the
+    <em>&ldquo;missing husband&rdquo;</em> of Sue Rowbotham&rsquo;s chapter title.</div>
 </section>
 
 <section class="blk">

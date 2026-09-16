@@ -894,11 +894,11 @@
   },
   {
    "n": 112,
-   "what": "Mine the 2018 GEDCOM — done, and it broke the Brayley wall",
+   "what": "Mine the GEDCOM — done twice, because the first file was the wrong one",
    "state": "done",
    "owner": "this archive",
    "since": "2026-09-16",
-   "note": "**Parsed 16 September 2026.** 8,286 individuals, 2,532 families, 4,001 media. *** The Brayley line goes back to John Brayley, b. 1747, d. September 1815 at Westleigh, Devon *** — six generations, with parishes (Westleigh, Coldridge, Braunton) and the Reed and Wybourn marriages. *** Anton Armando is placed: son of Ricardo Juan Carlos and Doreen May Chappell, b. 5 June 1952, confirmed against his identity number *** Careen Marie is explained — Ricardo's daughter, b&d 1945, which answers the third grave at Newlands without any scandal. Also caught: a date in the tree that cannot be true (Paul born Dapto NSW Nov 1951, sister born Johannesburg May 1952), and William Taylor dead 'abt 1942' at 117. Written up at `/family-papers/` with `data/gedcom-harvest.tsv`."
+   "note": "**First run used `2018-07 Defranceski.ged`, found on the disk. David: \"Do not use the 2018 gedcom. That is an old backup only. And is incredibly wrong and out of date.\"** He was right and everything from it is withdrawn. *** Re-derived from the current export of 15 September 2026 - 15,643 individuals against the backup's 8,286 *** The Brayley ascent now runs **eleven generations to Matthew Reed, born 1643 at Braunton**, with parishes and dates throughout, and *** HELEN WALKER of Haddington is found five generations up, which explains the Walker given name and the DNA match sharing Temple AND Walker ***"
   },
   {
    "n": 113,
@@ -942,11 +942,19 @@
   },
   {
    "n": 118,
-   "what": "Test the tree's Dapto, New South Wales birth against a registration",
-   "state": "next",
+   "what": "Test the tree's Dapto, New South Wales birth against a registration — STRUCK, the birth does not exist",
+   "state": "struck",
    "owner": "this archive",
    "since": "2026-09-16",
-   "note": "The GEDCOM puts **Paul Lerena born 3 November 1951 at Dapto, Wollongong, NSW** — and his sister **Catherine Tersia born 21 May 1952 at Johannesburg**. *** Six and a half months apart, to one mother. One of the two is wrong *** But an Australian birth for a son of Nuno Fernando in 1951 would be entirely new — **this archive's atlas has no Australian place for that generation** — and it is cheap to test: NSW births are indexed online to 1951."
+   "note": "*** Founded on a mistake and struck rather than deleted *** The Dapto, Wollongong birth came from the 2018 backup. The current tree has **Paul Raymond Lerena, born 11 March 1951 at Johannesburg**, and no Australian place anywhere in that generation. This archive had already flagged the entry as impossible because his sister was born in Johannesburg six months later - **the flag was right and the cause was the backup being wrong.**"
+  },
+  {
+   "n": 119,
+   "what": "Fix the live tree: Rosario 1882 and Buenos Aires parents cannot both be true",
+   "state": "blocked",
+   "owner": "David",
+   "since": "2026-09-16",
+   "note": "**The current tree has been half-corrected and it needs finishing.** His birth now reads **Rosario, 22 February 1882** - his own passport's date and town. But his parents still read **\"Roberto Llorens\" and \"Francisca Fernandez Lerena\"**, which came from the unsolicited Buenos Aires baptism of 1872 that David himself says is likely no relation. *** The birth was fixed and the parentage was left behind *** And the mother's surname is spliced: the Buenos Aires act says **FRANCISCA FERNANDEZ**, not Fernandez Lerena. **Fix it in the tree before the next export, or it will be mined again as evidence by somebody who does not know where it came from.**"
   }
  ],
  "accounts": [
