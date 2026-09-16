@@ -1,0 +1,43 @@
+# *** THE HOUSEHOLD AT 2 FORE STREET, NORTHAM - CENSUS OF 5 APRIL 1891. ***
+# Work-list row 127, opened and answered the same evening, 16 September 2026.
+# *** Source: FreeCEN - free, volunteer-transcribed, no account. Devon, Bideford district, civil and
+# ecclesiastical parish NORTHAM, PIECE 1787, ENUMERATION DISTRICT 4, FOLIO 42, PAGE 1, SCHEDULE 2. ***
+#
+# *** THIS IS A RECORD, NOT A TREE. *** It is the first time this archive has seen Mary Septima's
+# family in a household return, and it settles four things the tree could only assert.
+surname	forenames	relation	age	occupation	birthplace	what it settles
+TAYLOR	*** William ***	Head	65	*** "Cab Driver / ret'd Army Srgt" ***	*** Suffolk, Worlingworth ***	*** BIRTHPLACE CONFIRMED *** - the tree's "b. 11 February 1826, Worlingworth, Suffolk" is right, and 65 in April 1891 fits a February 1826 birth exactly. *** AND IT SOLVES A PUZZLE THIS ARCHIVE HAD FILED AS A DATA ERROR. *** `gedcom-import.tsv` noted that the tree attaches "Sergeant-Major in the army" to the INFANT William Taylor who was born December 1824 and died at nine months, and guessed the occupation belonged to his father. *** It belongs to this man: he is a retired army sergeant, on a census return, in his own household. *** The trade was real and it had drifted onto the wrong William.
+TAYLOR	*** Mary A. H. ***	Wife	47	-	*** London (City), ST BARTHOLOMEWS ***	*** THE BIRTHPLACE IS ON A RECORD AT LAST, AND IT IS THE ONE FREEBMD COULD NOT FIND. *** `brayley-bmd.tsv` records that there is NO birth registration for her in June 1843 under Brayley or Brailey, control passed. *** Here is the same birthplace the tree claims - St Bartholomew's in the City of London - written down by an enumerator in 1891. *** Age 47 on 5 April 1891 means born between April 1843 and April 1844, *** which fits 20 May 1843 *** and agrees with the 56 on her 1900 death entry. *** Three independent records now agree on 1843 and none of them is her birth certificate. ***
+TAYLOR	*** William J. ***	Son	*** 20 ***	Cab Driver	*** Devon, Bideford ***	*** THE TWINS ARE CONFIRMED. *** See the next line.
+TAYLOR	*** Kathleen G. ***	Dau	*** 20 ***	Mother's Help	*** Devon, Bideford ***	*** SAME AGE, SAME BIRTHPLACE, SAME HOUSEHOLD. *** The tree gave two children born in November 1870 and it read like a transcription slip. *** FreeBMD put both in the December quarter of 1870 on adjacent pages, 5b/489 and 5b/490. The census now has them both aged 20 and both born at Bideford. *** They are twins, and the tree was right three times over.
+TAYLOR	Horace A.	Son	19	*** Domestic Servant - Footman ***	Devon, Bideford	Confirms the Jun-quarter 1872 registration. *** At nineteen he is already in service as a footman *** - and his father is a cab driver. This is a servant household in the plain sense.
+TAYLOR	*** Margaret H. N. ***	Dau	14	Scholar	Devon, Northam	*** The initial is transcribed N and the birth index reads "Margaret Hellen W". *** It is W - for WALKER - and this is a transcription slip in the census reading, not a second daughter.
+TAYLOR	Irene	Dau	12	Scholar	Devon, Northam	Confirms the Mar-quarter 1879 registration.
+TAYLOR	Lucy E.	Dau	9	Scholar	Devon, Northam	Confirms the Sep-quarter 1881 registration.
+TAYLOR	Agnes W.	Dau	1	-	Devon, Northam	*** Born 3 August 1889 at this address *** - the tree gives 2 Fore Street, and *** the census confirms 2 Fore Street is the family home. ***
+HARRISON	Agnes	*** Visitor ***	28	Dressmaker	Cheshire, Macclesfield	Not family, so far as anything here shows. Recorded because a household return records everyone in the house that night.
+#
+# *** AND NOW THE TWO WHO ARE NOT THERE. ***
+# *** ISABELLA TEMPLE, who would be 16, and MARY SEPTIMA, who would be 6, are ABSENT from their
+# parents' house on census night. ***
+# Isabella at sixteen is easy: *** her brother was in service at nineteen and her sister was a
+# "mother's help" at twenty ***, so a girl of sixteen from this household would very likely be living
+# in somebody else's. *** Mary Septima at SIX is not easy at all. ***
+# *** A COUNTY-WIDE CHECK WAS RUN: *** every Taylor born 1882-1886 in FreeCEN's Devon for 1891 - 368
+# people - and *** there is no Mary Septima and no Mary S. anywhere in it. ***
+# *** THE NULL IS SOFT AND MUST BE READ AS SOFT. *** FreeCEN's Devon is transcribed parish by parish
+# and 1891 is not complete for the county - Northam is, which is why the household above is whole.
+# *** So what this establishes is narrow and real: she is not in NORTHAM in 1891. Where she was is now
+# an open question, and it was not one before tonight. ***
+#
+# *** WHAT IT DOES TO THE "EDITH" CANDIDATE - WEAKENED, NOT KILLED. ***
+# Row 127 was opened because the tree says TEN children, names nine, and *** "Septima" means seventh ***.
+# The birth index offered *** TAYLOR, Edith, Bideford, Sep quarter 1882 *** and this archive
+# independently knew Mary Septima stayed with *** her sister EDIE *** at 26 Fore Street, Northam, in 1935.
+# *** There is no Edith of that age in Northam in 1891. *** The only Edith Taylor in the parish was born
+# at Cardiff in 1886 and is somebody else's.
+# *** BUT THE CENSUS CANNOT CARRY THAT ARGUMENT VERY FAR, because MARY SEPTIMA IS MISSING FROM IT TOO ***
+# - and a household return cannot distinguish a child who was elsewhere from a child who never existed.
+# *** AND THERE IS A THIRD READING THAT FITS EVERYTHING: a child who died before 1891 would appear in
+# the birth index, be counted in the family's ten, and never reach a census at all. ***
+# *** So the count still demands a seventh daughter and the archive still has none. Graded OPEN. ***

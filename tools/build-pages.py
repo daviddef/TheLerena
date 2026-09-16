@@ -56,7 +56,7 @@ def rows(name):
 for name in ("corrections", "errands", "gaps", "timeline", "photograph-these",
              "sources-consulted", "taylor-line", "dna-match-probes",
              "marriage-1911", "death-notices-read", "pablo-armando-passport",
-             "tab-pull-list-2026-09-22", "family-memory", "death-notice-1950", "llorens-1872", "gedcom-current", "gedcom-import", "gedcom-graded", "brayley-ascent", "brayley-convergence", "devon-tooling", "brayley-bmd"):
+             "tab-pull-list-2026-09-22", "family-memory", "death-notice-1950", "llorens-1872", "gedcom-current", "gedcom-import", "gedcom-graded", "brayley-ascent", "brayley-convergence", "devon-tooling", "brayley-bmd", "1891-northam-census"):
     data = rows(name)
     (OUT / f"{name}.json").write_text(json.dumps(data, indent=1, ensure_ascii=False) + "\n",
                                       encoding="utf-8")

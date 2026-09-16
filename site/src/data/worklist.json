@@ -1014,11 +1014,19 @@
   },
   {
    "n": 127,
-   "what": "The 1891 census at Northam — one household, and it settles the tenth child",
+   "what": "The 1891 census at Northam — done. The household is found, and two children are missing from it",
    "state": "next",
    "owner": "this archive",
    "since": "2026-09-16",
-   "note": "*** This came out of the FreeBMD sweep and it is the cheapest open question in the archive. *** `gedcom-import.tsv` says William Taylor and Mary Ann Hellen Brayley had *** TEN children and names nine ***. *** And \"SEPTIMA\" MEANS SEVENTH. *** Counted off the index, Mary Septima is only the **sixth** daughter — so *** a daughter is missing, born between Lucy Elizabeth (Sep quarter 1881) and Mary Septima (Dec quarter 1884). *** The index offers exactly one candidate: **TAYLOR, Edith, Bideford, Sep quarter 1882, 5b/506** — and this archive already knew the name from a different direction entirely, because *** Mary Septima stayed with her sister EDIE at 26 Fore Street, Northam, in 1935. *** With Edith sixth, Mary Septima is seventh and her name means what it says. *** NOT A FIND YET: *** Edith is a common name, Bideford held several Taylor families, and *** the birth index gives no mother's maiden name before September 1911 ***, so parentage cannot be read off it. *** The 1891 census lists the household by name and age in one line each *** and would settle it, together with the twin question and John Walker Brayley's two-year age discrepancy. Free at FreeCEN, or on FamilySearch when it is not blocked."
+   "note": "*** DONE the same evening it was opened, 16 September 2026, and it gave more than it was asked for. *** FreeCEN holds Northam for 1891. *** The household is at 2 FORE STREET, NORTHAM *** — piece 1787, ED 4, folio 42, page 1, schedule 2. See `data/1891-northam-census.tsv`. *** WILLIAM TAYLOR, head, 65, \"Cab Driver / ret'd Army Srgt\", born Worlingworth, Suffolk *** — which also solves a puzzle filed as a data error: the tree attaches \"Sergeant-Major in the army\" to the infant who died at nine months in 1825, and *** the trade belongs to this man, on a census return, in his own house. *** *** MARY A. H. TAYLOR, wife, 47, born ST BARTHOLOMEWS, LONDON (CITY) *** — and that is the birthplace FreeBMD could not find a registration for. *** Three independent records now agree on 1843 and not one of them is her birth certificate. *** *** WILLIAM J. and KATHLEEN G., both 20, both born Bideford: the twins are confirmed *** for the third time. *** WHAT IT DID NOT SETTLE: *** there is no Edith, so that candidate is weakened — *** but MARY SEPTIMA, aged 6, is missing from her own parents' household too ***, and a county-wide check of all 368 Devon Taylors born 1882–1886 does not find her. *** A census cannot tell a child who was elsewhere from a child who never was ***, and a child who died before 1891 would fit every fact. *** The count still demands a seventh daughter. Row 128. ***"
+  },
+  {
+   "n": 128,
+   "what": "Where was Mary Septima on census night 1891, and who is the tenth child?",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-16",
+   "note": "*** Two questions that did not exist this morning, both raised by records rather than by trees. *** **(1)** Mary Septima Taylor, born Northam, registered Dec quarter 1884, *** is not in her parents' house at 2 Fore Street on 5 April 1891 ***, and is not among the 368 Taylors born 1882–1886 in FreeCEN's Devon. *** The null is soft *** — FreeCEN's Devon 1891 is transcribed parish by parish and is not complete — *** but Northam itself IS complete, which is what makes her absence from it real. *** Her elder sister Isabella Temple, 16, is absent too, and at that age service explains it; *** at six it does not. *** **(2)** The tree says ten children and names nine, and *** SEPTIMA MEANS SEVENTH *** while the known daughters make her sixth. *** THE CHEAPEST TEST OF BOTH: the 1901 census at Northam ***, where she would be 16 — FreeCEN's place list should be checked for Northam 1901. *** And for the tenth child, FreeBMD deaths in the Bideford district 1871–1890 under an infant age ***, because a child who died before 1891 would be in the birth index, counted among the ten, and in no census at all."
   }
  ],
  "accounts": [

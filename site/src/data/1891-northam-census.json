@@ -1,0 +1,92 @@
+[
+ {
+  "surname": "TAYLOR",
+  "forenames": "*** William ***",
+  "relation": "Head",
+  "age": "65",
+  "occupation": "*** \"Cab Driver / ret'd Army Srgt\" ***",
+  "birthplace": "*** Suffolk, Worlingworth ***",
+  "what it settles": "*** BIRTHPLACE CONFIRMED *** - the tree's \"b. 11 February 1826, Worlingworth, Suffolk\" is right, and 65 in April 1891 fits a February 1826 birth exactly. *** AND IT SOLVES A PUZZLE THIS ARCHIVE HAD FILED AS A DATA ERROR. *** `gedcom-import.tsv` noted that the tree attaches \"Sergeant-Major in the army\" to the INFANT William Taylor who was born December 1824 and died at nine months, and guessed the occupation belonged to his father. *** It belongs to this man: he is a retired army sergeant, on a census return, in his own household. *** The trade was real and it had drifted onto the wrong William."
+ },
+ {
+  "surname": "TAYLOR",
+  "forenames": "*** Mary A. H. ***",
+  "relation": "Wife",
+  "age": "47",
+  "occupation": "-",
+  "birthplace": "*** London (City), ST BARTHOLOMEWS ***",
+  "what it settles": "*** THE BIRTHPLACE IS ON A RECORD AT LAST, AND IT IS THE ONE FREEBMD COULD NOT FIND. *** `brayley-bmd.tsv` records that there is NO birth registration for her in June 1843 under Brayley or Brailey, control passed. *** Here is the same birthplace the tree claims - St Bartholomew's in the City of London - written down by an enumerator in 1891. *** Age 47 on 5 April 1891 means born between April 1843 and April 1844, *** which fits 20 May 1843 *** and agrees with the 56 on her 1900 death entry. *** Three independent records now agree on 1843 and none of them is her birth certificate. ***"
+ },
+ {
+  "surname": "TAYLOR",
+  "forenames": "*** William J. ***",
+  "relation": "Son",
+  "age": "*** 20 ***",
+  "occupation": "Cab Driver",
+  "birthplace": "*** Devon, Bideford ***",
+  "what it settles": "*** THE TWINS ARE CONFIRMED. *** See the next line."
+ },
+ {
+  "surname": "TAYLOR",
+  "forenames": "*** Kathleen G. ***",
+  "relation": "Dau",
+  "age": "*** 20 ***",
+  "occupation": "Mother's Help",
+  "birthplace": "*** Devon, Bideford ***",
+  "what it settles": "*** SAME AGE, SAME BIRTHPLACE, SAME HOUSEHOLD. *** The tree gave two children born in November 1870 and it read like a transcription slip. *** FreeBMD put both in the December quarter of 1870 on adjacent pages, 5b/489 and 5b/490. The census now has them both aged 20 and both born at Bideford. *** They are twins, and the tree was right three times over."
+ },
+ {
+  "surname": "TAYLOR",
+  "forenames": "Horace A.",
+  "relation": "Son",
+  "age": "19",
+  "occupation": "*** Domestic Servant - Footman ***",
+  "birthplace": "Devon, Bideford",
+  "what it settles": "Confirms the Jun-quarter 1872 registration. *** At nineteen he is already in service as a footman *** - and his father is a cab driver. This is a servant household in the plain sense."
+ },
+ {
+  "surname": "TAYLOR",
+  "forenames": "*** Margaret H. N. ***",
+  "relation": "Dau",
+  "age": "14",
+  "occupation": "Scholar",
+  "birthplace": "Devon, Northam",
+  "what it settles": "*** The initial is transcribed N and the birth index reads \"Margaret Hellen W\". *** It is W - for WALKER - and this is a transcription slip in the census reading, not a second daughter."
+ },
+ {
+  "surname": "TAYLOR",
+  "forenames": "Irene",
+  "relation": "Dau",
+  "age": "12",
+  "occupation": "Scholar",
+  "birthplace": "Devon, Northam",
+  "what it settles": "Confirms the Mar-quarter 1879 registration."
+ },
+ {
+  "surname": "TAYLOR",
+  "forenames": "Lucy E.",
+  "relation": "Dau",
+  "age": "9",
+  "occupation": "Scholar",
+  "birthplace": "Devon, Northam",
+  "what it settles": "Confirms the Sep-quarter 1881 registration."
+ },
+ {
+  "surname": "TAYLOR",
+  "forenames": "Agnes W.",
+  "relation": "Dau",
+  "age": "1",
+  "occupation": "-",
+  "birthplace": "Devon, Northam",
+  "what it settles": "*** Born 3 August 1889 at this address *** - the tree gives 2 Fore Street, and *** the census confirms 2 Fore Street is the family home. ***"
+ },
+ {
+  "surname": "HARRISON",
+  "forenames": "Agnes",
+  "relation": "*** Visitor ***",
+  "age": "28",
+  "occupation": "Dressmaker",
+  "birthplace": "Cheshire, Macclesfield",
+  "what it settles": "Not family, so far as anything here shows. Recorded because a household return records everyone in the house that night."
+ }
+]
