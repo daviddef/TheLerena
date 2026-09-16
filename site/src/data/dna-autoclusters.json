@@ -556,6 +556,94 @@
      ]
     }
    ]
+  },
+  "Jeanette": {
+   "matches_clustered": 98,
+   "clusters": 6,
+   "cM_floor": 75.3,
+   "cM_ceiling": 319.4,
+   "detail": [
+    {
+     "cluster": 1,
+     "size": 71,
+     "cM_low": 75.3,
+     "cM_high": 158.3,
+     "tree_surnames": [
+      "ackermann",
+      "andre",
+      "attwell",
+      "brits",
+      "calitz",
+      "carons",
+      "carrick",
+      "coetsee",
+      "coetzee",
+      "crossey"
+     ]
+    },
+    {
+     "cluster": 2,
+     "size": 6,
+     "cM_low": 77.5,
+     "cM_high": 194.1,
+     "tree_surnames": [
+      "daschner",
+      "du-plessis",
+      "kotze",
+      "labuschagne",
+      "pistorius"
+     ]
+    },
+    {
+     "cluster": 3,
+     "size": 6,
+     "cM_low": 76.3,
+     "cM_high": 319.4,
+     "tree_surnames": [
+      "daniel",
+      "dreyers-in-south-africa",
+      "gambale",
+      "smith"
+     ]
+    },
+    {
+     "cluster": 4,
+     "size": 5,
+     "cM_low": 80.0,
+     "cM_high": 203.7,
+     "tree_surnames": [
+      "andrews",
+      "bailie",
+      "de-jager",
+      "lotter",
+      "randall"
+     ]
+    },
+    {
+     "cluster": 5,
+     "size": 4,
+     "cM_low": 89.7,
+     "cM_high": 143.1,
+     "tree_surnames": [
+      "butler",
+      "duncan",
+      "martin-hardy-ellis",
+      "mulder"
+     ]
+    },
+    {
+     "cluster": 6,
+     "size": 4,
+     "cM_low": 94.2,
+     "cM_high": 110.4,
+     "tree_surnames": [
+      "faraday",
+      "johnson",
+      "lightcap",
+      "priceglendinning"
+     ]
+    }
+   ]
   }
  },
  "the_control_that_makes_this_readable": {
@@ -588,5 +676,43 @@
   "what_it_means": "AutoClusters only works on matches above a threshold - hers begins at 50.6 cM. A cluster cannot form where nobody has tested, and it cannot form from matches below the floor.",
   "so": "The Croatian clusters on her son's chart exist because Croatians test in numbers. The absence of an Argentine cluster on hers is consistent with Pablo Armando's family having no living tested descendants in either database - which is exactly what the sixty-two-country match census already said, where Argentina did not appear at all.",
   "not_a_disproof": "This is a strong negative and it is not a disproof. It says the answer is not reachable by DNA matching today. It does not say the hypothesis is wrong."
+ },
+ "the_subtraction": {
+  "what_it_is": "Her maternal aunt's chart was generated too. The aunt is Cape and nothing else, so any cluster of the niece's that has no counterpart on the aunt's belongs to her FATHER - which is to say to Pablo Armando or to Mary Septima Taylor. This is the instrument this page has been asking for all day.",
+  "the_trap_first": "Run naively it says five of her fourteen clusters are paternal. That is wrong, and the reason is a floor mismatch: the aunt's chart begins at 75.3 cM and the niece's at 50.6. Four of those five clusters have no member above 75.3 cM at all, so they COULD NOT have appeared on the aunt's chart whatever their ancestry. The test can only speak about the 15 of her 107 clustered matches that clear the aunt's floor.",
+  "done_properly": {
+   "testable_clusters": 8,
+   "confirmed_maternal": 6,
+   "paternal_candidates": 2,
+   "cannot_be_tested": [
+    2,
+    3,
+    5,
+    11,
+    12,
+    13
+   ]
+  },
+  "candidate_one_resolved": {
+   "cluster": 8,
+   "cM": 80,
+   "tree": "Kroon",
+   "verdict": "A FALSE POSITIVE, and caught. Absent from the aunt's clustered chart, so the subtraction flags it - but MyHeritage's own Theory of Family Relativity for that match names the surnames common to them as KRUGER, VENTER and NEL. Those are Cape. It is maternal, and it simply was not clustered on the aunt's chart. Absence from a CLUSTERED list is not absence from a match list, and this is the case that proves it."
+  },
+  "candidate_two_the_real_one": {
+   "cluster": 14,
+   "size": 3,
+   "cM_range": "61-116",
+   "trees": "Bailey",
+   "why_it_stands": "Its largest member is 116 cM - comfortably above the aunt's floor, so it had every opportunity to appear on her chart and did not. It is the one genuine paternal cluster the subtraction finds.",
+   "and_whose_it_probably_is": "NOT Pablo Armando's. Mary Septima Taylor's mother was MARY ANN HELLEN BRAYLEY of Bideford, Devon. This archive's own search register already records that Brayley queries come back swamped by 'Bradley, Bayley, Burley, Barley', and its RootsChat assessment says in terms that Brayley 'is the one this archive could not push past'. A 116 cM cluster of BAILEY trees on the paternal side is the best lead that wall has ever had.",
+   "care": "Bailey is not Brayley, and this is a candidate rather than a finding. It is written down as one."
+  },
+  "and_a_second_pointer": {
+   "cluster": 12,
+   "trees": "Jullien, Walker",
+   "note": "Below the aunt's floor, so the subtraction is silent on it - but WALKER runs through the Taylor line as a given name: Margaret Hellen WALKER Taylor and Agnes WALKER Taylor, two of Mary Septima's sisters. That naming pattern normally means a Walker grandmother. Independent of the subtraction, and pointing the same way."
+  },
+  "the_conclusion": "THE SUBTRACTION WORKS, AND IT FINDS A PATERNAL CLUSTER. It is a Taylor one. Pablo Armando still has no cluster on his granddaughter's chart."
  }
 }

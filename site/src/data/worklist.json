@@ -758,11 +758,11 @@
   },
   {
    "n": 95,
-   "what": "Harvest the maternal aunt's match list and subtract it",
-   "state": "next",
+   "what": "Run the maternal aunt's chart against the granddaughter's — done, and it found one",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-16",
-   "note": "The aunt is on the Cape side and no other. *** Matches shared with her are maternal; matches absent from her list belong to the father - Lerena or Taylor *** That single subtraction sorts several thousand matches for free and is the cheapest way to find the paternal cousins. **Note the trap already avoided:** the nephew looks as though he should do this job and cannot - he is her nephew, so he carries both her parents' lines. Blocked once today by a safety refusal on rewriting the kit id in the API call; the ordinary route is to open her kit's own match page and harvest from there."
+   "note": "**Done 16 September 2026, from AutoClusters rather than raw match lists.** The aunt is Cape and nothing else, so a cluster of the niece's with no counterpart on the aunt's belongs to her father. *** Run naively it says five of fourteen clusters are paternal, and that is wrong *** The aunt's chart begins at 75.3 cM and the niece's at 50.6, so four of those five have no member that could ever have appeared on it. Only 15 of her 107 clustered matches clear the floor. Done properly: **six clusters confirmed Cape, two paternal candidates**, six untestable. One candidate is a false positive — its own Theory of Family Relativity names Kruger, Venter and Nel. *** The other stands: cluster 14, three matches, 61-116 cM, all BAILEY trees ***"
   },
   {
    "n": 96,
@@ -779,6 +779,14 @@
    "owner": "this archive",
    "since": "2026-09-16",
    "note": "**Done the same afternoon, at David's request.** New page `/dna/` in TheBooyzen, linked under Evidence, with `site/src/data/dna.json`. Carries the aunt as the instrument, the cousinhood counted (581 of 1,500 relatives name a South African grandparent, 319 name all four), the surname census, the 500 theories, and *** a trace of Angolan-Congolese and Northern Indian-Pakistani ancestry that archive had not written down before *** - the ordinary genetic signature of the eighteenth-century Cape. That archive's kit was repinned to `45b37a7` at the same time, clearing its own gate's advisory."
+  },
+  {
+   "n": 98,
+   "what": "Chase the Bailey cluster — it may be the BRAYLEY wall coming down",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-16",
+   "note": "**Raised 16 September 2026 by the aunt-subtraction.** Cluster 14 on the granddaughter's AutoClusters is three matches, 61 to 116 cM, all in **Bailey** trees, and it is the ONE cluster on her chart that is demonstrably paternal — its 116 cM member clears the aunt's floor comfortably and is absent from her chart. *** Mary Septima Taylor's mother was MARY ANN HELLEN BRAYLEY of Bideford, Devon *** `rootschat-assessment.tsv` says in terms that Brayley **is the one this archive could not push past**, and `wikitree-searches.tsv` records Brayley queries coming back swamped by *Bradley, Bayley, Burley, Barley*. *** A 116 cM paternal cluster of Bailey trees is the best lead that wall has ever had *** **Bailey is not Brayley** — open the three trees, find the common couple, and see whether it lands at Bideford or Northam. Also worth the same treatment: cluster 12, *Jullien and Walker* — WALKER runs through the Taylor line as a given name (Margaret Hellen Walker Taylor, Agnes Walker Taylor), which normally means a Walker grandmother."
   }
  ],
  "accounts": [
