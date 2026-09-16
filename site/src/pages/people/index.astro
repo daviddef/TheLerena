@@ -1,5 +1,6 @@
 ---
 import Base from "../../layouts/Base.astro";
+import NameLists from "@daviddef/archive-kit/components/NameLists.astro";
 import { u } from "../../lib/url.js";
 import FilterTable from "@daviddef/archive-kit/components/FilterTable.astro";
 import people from "../../data/people.json";
@@ -27,6 +28,8 @@ const esc = (t) => String(t ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;");
 ---
 <Base title="The People" eyebrow={`${n} people of this surname, each with their own page`}
       dek="Every Lerena this archive has met, anywhere, with the record that produced them. Search the list and follow any name through to what is known about that person.">
+<NameLists here="people" u={u} />
+
 
 <section class="blk">
   <p class="prose">{word(conn)} are <strong>connected</strong> to the direct line. {word(excl)} have been

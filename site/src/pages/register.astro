@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import NameLists from "@daviddef/archive-kit/components/NameLists.astro";
 import { u } from "../lib/url.js";
 import people from "../data/people.json";
 import { emph, plain } from "../lib/text.js";
@@ -65,6 +66,8 @@ for (const g of groups) g.rows.sort((a, b) => a.name.localeCompare(b.name));
 <Base title="The Register"
       eyebrow="Every named individual this archive has found"
       dek="Every person of this surname, and every spouse and parent of one, met in the course of the research — searchable, grouped by the spelling the record used, with the source that names each one. This is the raw catch, not a family tree, and most of it is not this family.">
+<NameLists here="register" u={u} />
+
 
 <section class="blk">
   <p class="lede">{total} entries for {distinct} distinct names, <strong>{linked}</strong> of them with a

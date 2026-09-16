@@ -79,3 +79,33 @@ query	result	reading
 # *** CEMLA's arrivals database is generally given as beginning in 1882. *** If that is right, then an
 # arrival before February 1882 is *** invisible to it by construction ***, and the absence of one proves
 # nothing at all. *** Check the stated coverage before spending the searches. ***
+#
+# ================= THE TURIN WORK, IN DETAIL - 16 September 2026 =================
+# *** David: "keep going on the turin work in detail." Done, and the honest result is that THIS ROUTE
+# CANNOT CLOSE THE QUESTION. Here is the map it produced and the reason it cannot. ***
+what	found	reading
+*** Every LERINA in and around TORINO ***	*** 49 records. *** Civil registration of Torino 1866-1924 and the Diocese of Torino, plus *** IVREA ***, and Piedmont towns *** MONTALDO ROERO (Alba) *** and *** COSTIGLIOLE. *** Recurring fathers: *** CARLO, GIACOMO, FIRMINO, LUIGI, DOMENICO, ANTONIO, INNOQUITI. ***	*** THESE FAMILIES STAY PUT. *** They post banns in Torino, marry in Torino, die in Torino, across sixty years. *** There are two CARLO LERINAs acting as fathers *** - one whose daughter Magna died at Torino 15 January 1892, one whose daughter Emma was born 1902 to Carlo and Letizia Caraccio. *** Neither is a candidate for anything; they are simply what a rooted Piedmontese surname looks like. ***
+*** Male LERINA born 1830-1870, all Italy ***	*** 14. *** The only Piedmontese one with a full act is *** CARLO DOMENICO LERINA, baptised IVREA 30 May 1858, parents ANTONIO LERINA and GIUSEPPA PEAN-CONTO. *** The rest are Catania, Messina, Mantova, Frosinone.	*** Still a coincidence and still not a candidate. *** Nothing ties him to Argentina and the forename order is wrong - Carlo Domenico, not Giovanni Carlo.
+#
+# *** WHY THE TURIN ROUTE CANNOT ANSWER IT, STATED SO NOBODY SPENDS A WEEK ON IT. ***
+# *** ONE. The Turin CIVIL series runs 1866-1899. A man born in the 1840s or 1850s HAS NO BIRTH RECORD
+# IN IT AT ALL *** - he can only appear as a father, a groom or a corpse. His baptism would be in the
+# diocesan books, and *** those are indexed for Torino only in patches. ***
+# *** TWO, AND IT IS FATAL. AN EMIGRANT LEAVES NO LATER ITALIAN RECORD BY CONSTRUCTION. *** So "a son
+# who vanishes from the Turin record" is *** indistinguishable from an unindexed death, a move to another
+# province, or a register that was never filmed. *** There is no test. Enumerating Piedmontese Lerinas
+# produces a map of the people who STAYED, which is precisely the complement of what is wanted.
+#
+# *** SO THE QUESTION WAS PUT TO THE OTHER END INSTEAD - ARGENTINA - AND THAT DID PRODUCE A RESULT. ***
+what	found	reading
+*** LERINA, exact, ARGENTINA *** - a spelling this archive had never swept	*** 26 records. *** Cordoba, Buenos Aires, Santiago del Estero, La Rioja.	*** EXACTLY ONE PERSON OF THIS SURNAME EVER APPEARS IN SANTA FE PROVINCE *** - Juan Lerina, buried Santa Fe city 1926, already recorded above as a coincidence. *** No household, no family, no cluster anywhere near Rosario. ***
+*** The 1895 NATIONAL CENSUS, both spellings together ***	The archive already held *** NO LERENA IN SANTA FE OR ROSARIO. *** *** There is no LERINA there either *** - the single 1895 Lerina is a two-year-old in Buenos Aires.	*** PUT TOGETHER: IN 1895 THERE WAS NO LERENA AND NO LERINA HOUSEHOLD, UNDER ANY SPELLING, ANYWHERE IN SANTA FE PROVINCE. *** Thirteen years after Pablo Armando was born there. *** That is the same answer the Rosario baptism sweep gave, arriving from a completely different direction - a census rather than a parish - and it is much the strongest negative this archive has on the Argentine end. ***
+*** And the fact the archive already held, which now reads differently ***	*** Pablo Armando himself is NOT in the 1895 census anywhere, though he would have been THIRTEEN. ***	*** He is in Cape Town by 1905, when his son Roque is born there. *** Absent from Argentina at thirteen, present at the Cape at twenty-three. *** It does not prove when he left, and it narrows the question usefully: the search for his passage out should start EARLIER than this archive has been assuming. ***
+#
+# *** A METHOD CATCH, RECORDED BECAUSE IT WOULD HAVE BEEN A PUBLISHED FALSITY. ***
+# A search for LERINA restricted with `q.anyPlace=Santa Fe, Argentina` returned *** ZERO ***, and the
+# zero was wrong: the unrestricted search of the same 26 records *** contains a Santa Fe burial. ***
+# *** The place filter silently failed to match a place that is demonstrably in the data. *** It was
+# caught only because a record already in hand should have come back and did not.
+# *** THE RULE THIS ARCHIVE ALREADY KEEPS, EARNING ITS KEEP AGAIN: a null from a filtered query is
+# worth nothing until the same query without the filter is run. ***
