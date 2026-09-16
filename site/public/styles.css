@@ -66,6 +66,11 @@ p.prose+p.prose{margin-top:16px}
 .scroll{overflow-x:auto;padding-bottom:6px}
 .panel{background:var(--panel);border:1px solid var(--rule);border-radius:3px;padding:20px 22px}
 .grid{display:grid;gap:14px}
+/* .grid two was written in five pages and no rule ever existed for it, so every one of them
+   rendered as a single column at every width - including the front page cards. Found 17 Sep 2026.
+   auto-fit rather than a hard 1fr 1fr, so it collapses on a phone without a media query. */
+.grid.two{grid-template-columns:repeat(auto-fit,minmax(290px,1fr))}
+.grid.two.tight{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
 .g2{grid-template-columns:repeat(2,minmax(0,1fr))}
 .g3{grid-template-columns:repeat(3,minmax(0,1fr))}
 @media (max-width:900px){.g3{grid-template-columns:repeat(2,minmax(0,1fr))}}
