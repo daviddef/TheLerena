@@ -1,0 +1,117 @@
+[
+ {
+  "field": "register",
+  "as_written": "DUPLICATE ORIGINAL REGISTER no. 7271, (M.L.)",
+  "note": "Cape Colony printed form, bilingual English/Dutch. Other numbers on the sheet: 7328, 6884, and 816 in pencil."
+ },
+ {
+  "field": "entry_no",
+  "as_written": "160",
+  "note": ""
+ },
+ {
+  "field": "year",
+  "as_written": "1911",
+  "note": ""
+ },
+ {
+  "field": "solemnized_at",
+  "as_written": "Wynberg",
+  "note": "Cape Town suburb"
+ },
+ {
+  "field": "parish",
+  "as_written": "St Dominic's",
+  "note": "*** A ROMAN CATHOLIC CHURCH. ***"
+ },
+ {
+  "field": "district",
+  "as_written": "Cape",
+  "note": ""
+ },
+ {
+  "field": "date",
+  "as_written": "*** 3rd September 1911 ***",
+  "note": ""
+ },
+ {
+  "field": "groom",
+  "as_written": "Pablo Armando Lerena",
+  "note": "*** Written in full, in his own hand at the foot: \"Pablo Armando Lerena\". Not Robert Paul. ***"
+ },
+ {
+  "field": "groom_age",
+  "as_written": "29",
+  "note": "*** Age last birthday. Consistent with 22 February 1882 to within a month. ***"
+ },
+ {
+  "field": "groom_race",
+  "as_written": "E",
+  "note": "European"
+ },
+ {
+  "field": "groom_condition",
+  "as_written": "Bachelor",
+  "note": "*** His first marriage. ***"
+ },
+ {
+  "field": "groom_profession",
+  "as_written": "*** horse-dealer ***",
+  "note": "*** The earliest dated attestation of the horse trade in this family - twenty years before the 1931 stables plans and twenty-nine before the passport says \"Trainer\". A DEALER, not yet a trainer. ***"
+ },
+ {
+  "field": "groom_residence",
+  "as_written": "Diep River",
+  "note": ""
+ },
+ {
+  "field": "bride",
+  "as_written": "Mary Septima Taylor",
+  "note": "Signed \"Mary Septima Taylor\""
+ },
+ {
+  "field": "bride_age",
+  "as_written": "27",
+  "note": "*** SEE THE DISCREPANCY BELOW. ***"
+ },
+ {
+  "field": "bride_race",
+  "as_written": "E",
+  "note": "European"
+ },
+ {
+  "field": "bride_condition",
+  "as_written": "Spinster",
+  "note": ""
+ },
+ {
+  "field": "bride_profession",
+  "as_written": "(blank)",
+  "note": ""
+ },
+ {
+  "field": "bride_residence",
+  "as_written": "Diep River",
+  "note": "*** The same village as the groom. They were neighbours before they were married. ***"
+ },
+ {
+  "field": "after_banns_or_licence",
+  "as_written": "After banns",
+  "note": "*** Banns, not licence - called publicly, three Sundays, which requires settled local residence and no impediment. ***"
+ },
+ {
+  "field": "consent",
+  "as_written": "(blank)",
+  "note": "Both of age; no parental consent required, and so no parent is named."
+ },
+ {
+  "field": "officiant",
+  "as_written": "*** Bertram W. Glynn, R.C. Priest ***",
+  "note": "Signs twice: as celebrant, and certifying the duplicate \"Examined with the Original Register by me, and found to be correct.\""
+ },
+ {
+  "field": "witnesses",
+  "as_written": "two signatures, not confidently read",
+  "note": "*** NOT READ. *** Something like \"J. M. Wathington\" and \"A. H. Blackalock\" - this archive will not print a guess as a reading. Flagged for a second look at higher resolution."
+ }
+]

@@ -1,0 +1,55 @@
+# THE TWO TRANSVAAL DEATH NOTICES, READ 16 September 2026.
+#
+# *** THESE WERE ALREADY IN DAVID'S OWN FILES, SCANNED, SINCE NOVEMBER 2021. ***
+# This archive ranked both as the top two files to order at Pretoria on 22 September 2026, at
+# R2,850 for the first. It had never looked in the folder they were sitting in.
+# See data/tab-pull-list-2026-09-22.tsv, which is corrected, and /corrections/.
+#
+# Source: Master of the Supreme Court, Transvaal. Form A death notices under s.7 of the
+# Administration of Estates Act 1965, from the estate files. Photographed by David.
+field	rogue_luis_armando_1518_73	nuno_fernando_6746_71
+file	ROGUE+LUIS+ARMANDO_LERENA_(1973)_0.jpg	NUNO+FERNANDO_LERENA_(1971)_0.jpg
+estate	MHG 1518/73 (pencilled "Gen spoor GP 14/2/73")	MHG 6746/71 (pencilled "W6746/71")
+surname	LERENA	LERENA
+first_names	ROGUE LUIS ARMANDO	NUNO FERNANDO
+identity_number	331 402089	331 406051W
+race	White	European
+nationality	South African	South African
+occupation	*** Retired Railwayman *** - NOT a horseman	*** Salesman *** - NOT a horseman
+residence	20 Park Lane, Florida, Transvaal	24 Leiden Road, Gerdview, Germiston (Johannesburg struck out)
+date_of_birth	*** 6th December 1905 ***	*** 6.10.1924 ***
+place_of_birth	*** CAPE TOWN *** - not Argentina	*** CAPE TOWN ***
+date_of_death	29th January 1973	1.7.1971
+place_of_death	Johannesburg	Germiston
+marital_status	Married, at Johannesburg	Married, at Johannesburg
+surviving_spouse	RHENA MAY LERENA	*** CATHERINE MARY SOPHIA LERENA *** - born Booyzen 25 Mar 1929, per the Booyzen archive's direct line
+property_regime	Out of community	In community
+predeceased_spouse	*** ROSINA WILHELMINA LERENA *** - the archive has carried her as Roseline Wilhelmina FORBES	none
+children	*** JUANITA RAMOND HUTSON (born LERENA) *** and *** PANOLA MARIA LERENA ***, both of the marriage to Rosina Wilhelmina	*** Jeannette Marie Riekstins (born Lerena), major; Paul Raymond Lerena, minor; Catherine Tertia Lerena, minor; CHERYL ANN LERENA, minor; Patricia Carmen Lerena, minor ***
+father	*** ROBERTO LERENA *** , deceased	*** BLANK. The form says only "Deceased". No name given. ***
+mother	*** MARY SEPTIMA LERENA *** , deceased	*** BLANK. Ditto mark, "Deceased". No name given. ***
+informant	R. M. Lerena, surviving spouse, Johannesburg, 5 February 1973	C. Lerena, surviving spouse, present at time and place of death, Johannesburg, 8 July 1971
+attorneys	Surrey House, Johannesburg	-
+#
+# *** WHAT THEY SETTLE. ***
+# 1. ROQUE WAS BORN AT CAPE TOWN, not in Argentina. The family was in the Cape by December 1905,
+#    three years before the 1908 enrolment card was filed at the Cape Town office and twenty-three
+#    years after Pablo Armando's own birth at Rosario. That was the single question this archive
+#    proposed to spend R2,850 answering.
+# 2. Roque's death notice names his father as *** ROBERTO LERENA *** - the anglicised "Robert Paul"
+#    form, written by his own widow. It ties Pablo Armando and Robert Paul together in a family
+#    document rather than a clerk's index.
+# 3. NUNO'S DEATH NOTICE NAMES NO PARENTS AT ALL. Item 19 carries the single word "Deceased" and a
+#    ditto mark. *** This archive predicted it would name Pablo Armando and Mary Septima. It does
+#    not. *** A death notice is only as good as the informant's knowledge, and his widow either did
+#    not know her husband's parents' names or did not trouble to write them.
+# 4. Neither man followed his father onto the turf: a retired railwayman and a salesman.
+# 5. Cheryl Ann Lerena appears as a minor in 1971 - the same woman whose DNA is read on /dna/.
+# 6. *** CATHERINE TERTIA *** - "the third". Beside MARY SEPTIMA, "the seventh". The naming habit
+#    runs through the Taylor side and out the other end into a granddaughter.
+#
+# *** A DISCREPANCY LEFT STANDING. *** data/lerena-register.tsv gives Roque's birth as 25 November
+# 1905 from a Corpus Christi Wynberg baptism. The death notice and his identity number both say
+# *** 6 December 1905 ***. Eleven days apart. Baptism on the 6th and birth on the 25th of the month
+# before is the ordinary shape of it, but this archive has not opened the baptism image to check,
+# and the two dates are both recorded rather than one being quietly preferred.

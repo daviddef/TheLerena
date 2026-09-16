@@ -1,0 +1,200 @@
+---
+/* The documents that were in the house all along.
+   Built 16 September 2026, after David asked whether this archive had ever
+   looked in his own scanned folder. It had not. Everything on this page came
+   out of it in twenty minutes, and two of the items had been sitting on the
+   work list for a fortnight as things to go and find. */
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import marriage from "../data/marriage-1911.json";
+import notices from "../data/death-notices-read.json";
+import passport from "../data/pablo-armando-passport.json";
+const M = Object.fromEntries(marriage.map((r) => [r.field, r]));
+const N = Object.fromEntries(notices.map((r) => [r.field, r]));
+const just = passport.filter((r) => r.field.startsWith("justificativos") ||
+  ["photograph", "signature", "fingerprint"].includes(r.field));
+const em = (t) => (t || "").replace(/\*\*\* (.+?) \*\*\*/g, "<strong>$1</strong>");
+const row = (k) => M[k] || { as_written: "", note: "" };
+---
+<Base title="The papers in the house"
+      eyebrow="Read 16 September 2026 — and none of it needed an archive"
+      dek="A marriage register, two death notices and six pages of a passport this archive had already transcribed but never turned over. All of it was in a folder on David's own disk. Two of the items were on the work list as things to go and find, and one of them had just been ranked first on a list of files to buy at the National Archives for R2,850.">
+
+<section class="blk">
+  <div class="note" style="margin:1.4rem 0"><strong>Why this page exists, and it is not a happy
+    reason.</strong> On the morning of 16 September 2026 this archive drew up a ranked list of files
+    for a researcher going to Pretoria, and put the death notices of <strong>Rogue Luis Armando
+    Lerena</strong> and <strong>Nuno Fernando Lerena</strong> first and second. Both had been
+    photographed and saved in <em>Genealogy &amp; Family History/Lerena</em> since
+    <strong>November 2021</strong>. Nobody had opened the folder. <a href={u("/corrections/")}>The
+    corrections &rarr;</a></div>
+</section>
+
+<section class="blk">
+  <h2>1. The marriage, Wynberg, 3 September 1911</h2>
+  <p class="dek">Duplicate Original Register no. 7271, entry 160. This archive did not have it. It sat
+    on the work list as <em>&ldquo;the 1911 Taylor marriage record&rdquo;</em>.</p>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr><th style="width:12rem">Field</th><th>As written</th></tr></thead>
+      <tbody>
+        {["date", "solemnized_at", "parish", "groom", "groom_age", "groom_condition",
+          "groom_profession", "groom_residence", "bride", "bride_age", "bride_condition",
+          "bride_residence", "after_banns_or_licence", "officiant", "witnesses"].map((k) => (
+          <tr><td class="cap">{k.replace(/_/g, " ")}</td>
+            <td><span set:html={em(row(k).as_written)} />
+              {row(k).note && <><br /><span class="cap" set:html={em(row(k).note)} /></>}</td></tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <div class="panel" style="border-left:3px solid var(--ochre,#8a7f5c);margin:24px 0">
+    <div class="lab">What it cannot do, and this matters most</div>
+    <p style="margin:10px 0 0"><strong>The Cape marriage register of 1911 has no column for the fathers
+      of the parties.</strong> Name, age, race, condition, profession, residence, banns, consent &mdash;
+      and nothing else. So this document <em>cannot</em> name Juan Carlos Lerena, and his absence from it
+      is a fact about the printed form rather than about the family.</p>
+  </div>
+
+  <div class="prose">
+    <p><strong>What it does add.</strong> Three things this archive did not have.</p>
+    <ol>
+      <li><strong>He was a Catholic.</strong> Married at <strong>St Dominic&rsquo;s, Wynberg</strong>, by
+        <strong>Bertram W. Glynn, R.C. Priest</strong>, after banns. It is the first religious
+        affiliation this archive has for him, and it is consistent with an Argentine, Italian or
+        Spanish origin.</li>
+      <li><strong>&ldquo;Horse-dealer&rdquo;, in 1911.</strong> Twenty years before the
+        <a href={u("/naairs/")}>1931 stables plans</a> and twenty-nine before the passport says
+        <em>Trainer</em>. He began as a <em>dealer</em>.</li>
+      <li><strong>Both parties of Diep River.</strong> They were neighbours before they were married,
+        and banns require settled local residence &mdash; so he was established at the Cape well before
+        September 1911.</li>
+    </ol>
+    <p><strong>And a discrepancy, recorded rather than smoothed.</strong> The register makes the bride
+      <strong>27</strong> last birthday. This archive carries Mary Septima Taylor born
+      <strong>17 September 1884</strong>, which would make her 26 that day &mdash; she turned 27 a
+      fortnight after the wedding. Her Northam baptism of 30 October 1884 supports 1884, so the likely
+      answer is that somebody rounded up to a birthday two weeks away.
+      <a href={u("/taylor/")}>The Taylors &rarr;</a></p>
+  </div>
+</section>
+
+<section class="blk">
+  <h2>2. Two death notices, and what they really say</h2>
+  <p class="dek">Form A, under section 7 of the Administration of Estates Act 1965, out of the Transvaal
+    estate files <strong>MHG 1518/73</strong> and <strong>MHG 6746/71</strong>.</p>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr><th style="width:11rem"></th>
+        <th>Rogue Luis Armando<br /><span class="cap">MHG 1518/73</span></th>
+        <th>Nuno Fernando<br /><span class="cap">MHG 6746/71</span></th></tr></thead>
+      <tbody>
+        {["date_of_birth", "place_of_birth", "date_of_death", "place_of_death", "occupation",
+          "residence", "surviving_spouse", "predeceased_spouse", "children", "father", "mother",
+          "informant"].map((k) => (
+          <tr><td class="cap">{k.replace(/_/g, " ")}</td>
+            <td set:html={em(N[k] ? N[k].rogue_luis_armando_1518_73 : "")} />
+            <td set:html={em(N[k] ? N[k].nuno_fernando_6746_71 : "")} /></tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <div class="grid g2" style="margin-top:24px">
+    <div class="panel" style="border-left:3px solid var(--accent)">
+      <div class="lab">The one that was worth R2,850</div>
+      <p class="lede" style="margin:10px 0 0">Place of birth: <strong>Cape Town</strong></p>
+      <p style="margin-top:10px">Rogue was born <strong>6 December 1905</strong>, and <em>not</em> in
+        Argentina. The family was at the Cape by the end of 1905 &mdash; three years before the
+        <a href={u("/enrolment-card/")}>1908 enrolment card</a> was filed at the Cape Town office, and
+        twenty-three years after Pablo Armando&rsquo;s own birth at Rosario. That was exactly the
+        question this archive proposed to send somebody to Pretoria to answer.</p>
+    </div>
+    <div class="panel" style="border-left:3px solid var(--ochre,#8a7f5c)">
+      <div class="lab">And the one that was not</div>
+      <p class="lede" style="margin:10px 0 0">Parents: <strong>&ldquo;Deceased&rdquo;</strong></p>
+      <p style="margin-top:10px">Nuno&rsquo;s death notice was ranked second on the promise that it would
+        <em>name his parents</em>. <strong>Item 19 carries the single word &ldquo;Deceased&rdquo; and a
+        ditto mark.</strong> No names at all. A death notice is only ever as good as the informant, and
+        his widow either did not know or did not trouble.</p>
+    </div>
+  </div>
+
+  <div class="prose" style="margin-top:22px">
+    <p><strong>What they do give.</strong> Rogue&rsquo;s notice names his father
+      <strong>ROBERTO LERENA</strong> &mdash; the anglicised <em>Robert Paul</em> form, written by his own
+      widow in 1973. It ties Pablo Armando and Robert Paul together in a family document rather than in a
+      clerk&rsquo;s index. His mother is <strong>Mary Septima Lerena</strong>.</p>
+    <p><strong>Neither son followed his father onto the turf.</strong> A <em>retired railwayman</em> and a
+      <em>salesman</em>. The horses stopped with Pablo Armando.</p>
+    <p>And Nuno&rsquo;s five children are listed, among them <strong>Cheryl Ann Lerena, minor</strong>
+      &mdash; whose DNA is read on <a href={u("/dna/")}>this archive&rsquo;s DNA page</a> &mdash; and
+      <strong>Catherine Tertia</strong>, <em>the third</em>, standing beside her grandmother
+      <strong>Mary Septima</strong>, <em>the seventh</em>. The naming habit runs the whole length of the
+      family.</p>
+    <p class="cap"><strong>A discrepancy left standing.</strong> {N.file && ""}This archive&rsquo;s
+      register gives Rogue&rsquo;s birth as <strong>25 November 1905</strong> from a Corpus Christi
+      Wynberg baptism. The death notice and his identity number both say <strong>6 December 1905</strong>.
+      Eleven days. Both are recorded; neither is quietly preferred.</p>
+  </div>
+</section>
+
+<section class="blk">
+  <h2>3. The page of the passport nobody turned over</h2>
+  <p class="dek">This archive transcribed the Argentine passport of December 1940 a week ago. It had not
+    read page 6 &mdash; <em>Justificativos de Nacionalidad</em>, the proofs of nationality he actually
+    laid on the consul&rsquo;s desk.</p>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr><th style="width:12rem">On the booklet</th><th>What it says, and what it means</th></tr></thead>
+      <tbody>
+        {just.map((r) => (
+          <tr><td class="cap">{r.field.replace("justificativos_", "").replace(/_/g, " ")}</td>
+            <td><span set:html={em(r.value_as_written)} />
+              <br /><span class="cap" set:html={em(r.note)} /></td></tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <div class="panel" style="border-left:3px solid var(--accent);margin:24px 0">
+    <div class="lab">The finding on that page</div>
+    <p class="lede" style="margin:10px 0 0">&ldquo;Acta del Registro Civil (ó fe de bautismo) extendida
+      por &#95;&#95;&#95;&#95;&#95;&#95;&rdquo; &mdash; <strong>the line is blank</strong></p>
+    <p style="margin-top:10px">In December 1940, applying to <em>his own consulate</em>, Pablo Armando
+      produced <strong>no birth certificate and no baptismal certificate</strong>. The consul took his
+      nationality on the enrolment book alone.</p>
+    <p style="margin-top:10px">This archive has read the Rosario registers <a href={u("/searched/")}>act
+      by act</a> looking for his baptism and found nothing. <strong>Here is contemporary evidence that he
+      did not have one to hand either.</strong> It does not prove no act exists &mdash; but the man
+      himself, at fifty-eight, could not or did not produce one.</p>
+  </div>
+
+  <div class="note"><strong>And a document this archive did not know existed.</strong> The proof he
+    <em>did</em> produce was a <strong>libreta de enrolamiento issued by the Consulado General Argentino
+    at Cape Town, dated 1915</strong>. The enrolment record this archive holds is the
+    <a href={u("/enrolment-card/")}>ficha of 1908</a>. <strong>So there are two Argentine enrolment
+    events, seven years apart, both filed at the Cape.</strong> The 1915 libreta has never been looked
+    for. It is on <a href={u("/worklist/")}>the work list</a>.</div>
+</section>
+
+<section class="blk">
+  <h2>What this cost, and what it is worth</h2>
+  <div class="prose">
+    <p><strong>The cost.</strong> A ranked list of archive files to buy, drawn up in good faith, whose top
+      two entries were already in the house. Had it gone out unchecked it would have bought two documents
+      twice, at <strong>R2,850 for the first file</strong>, and the second-ranked one does not even
+      contain what the list said it would. <a href={u("/corrections/")}>It is logged as a correction.</a></p>
+    <p><strong>The lesson, written down so it binds.</strong> This archive has a
+      <a href={u("/searched/")}>register of what has been read</a> and a rule that a null is not a finding
+      until a control says so. It had no rule at all about <strong>looking in the family&rsquo;s own
+      papers first</strong>. It has one now, and it is on <a href={u("/method/")}>the method page</a>:
+      <em>before any list of documents to acquire, list the documents already held.</em></p>
+    <p><strong>What it is worth.</strong> A marriage act, a religion, a trade nine years earlier than
+      anything else, a birthplace that closes a question, a father named by his own daughter-in-law, and
+      a blank line on a consular form that says more about the Rosario search than three weeks of reading
+      registers did.</p>
+  </div>
+</section>
+</Base>

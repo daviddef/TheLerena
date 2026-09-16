@@ -1,0 +1,112 @@
+[
+ {
+  "field": "file",
+  "rogue_luis_armando_1518_73": "ROGUE+LUIS+ARMANDO_LERENA_(1973)_0.jpg",
+  "nuno_fernando_6746_71": "NUNO+FERNANDO_LERENA_(1971)_0.jpg"
+ },
+ {
+  "field": "estate",
+  "rogue_luis_armando_1518_73": "MHG 1518/73 (pencilled \"Gen spoor GP 14/2/73\")",
+  "nuno_fernando_6746_71": "MHG 6746/71 (pencilled \"W6746/71\")"
+ },
+ {
+  "field": "surname",
+  "rogue_luis_armando_1518_73": "LERENA",
+  "nuno_fernando_6746_71": "LERENA"
+ },
+ {
+  "field": "first_names",
+  "rogue_luis_armando_1518_73": "ROGUE LUIS ARMANDO",
+  "nuno_fernando_6746_71": "NUNO FERNANDO"
+ },
+ {
+  "field": "identity_number",
+  "rogue_luis_armando_1518_73": "331 402089",
+  "nuno_fernando_6746_71": "331 406051W"
+ },
+ {
+  "field": "race",
+  "rogue_luis_armando_1518_73": "White",
+  "nuno_fernando_6746_71": "European"
+ },
+ {
+  "field": "nationality",
+  "rogue_luis_armando_1518_73": "South African",
+  "nuno_fernando_6746_71": "South African"
+ },
+ {
+  "field": "occupation",
+  "rogue_luis_armando_1518_73": "*** Retired Railwayman *** - NOT a horseman",
+  "nuno_fernando_6746_71": "*** Salesman *** - NOT a horseman"
+ },
+ {
+  "field": "residence",
+  "rogue_luis_armando_1518_73": "20 Park Lane, Florida, Transvaal",
+  "nuno_fernando_6746_71": "24 Leiden Road, Gerdview, Germiston (Johannesburg struck out)"
+ },
+ {
+  "field": "date_of_birth",
+  "rogue_luis_armando_1518_73": "*** 6th December 1905 ***",
+  "nuno_fernando_6746_71": "*** 6.10.1924 ***"
+ },
+ {
+  "field": "place_of_birth",
+  "rogue_luis_armando_1518_73": "*** CAPE TOWN *** - not Argentina",
+  "nuno_fernando_6746_71": "*** CAPE TOWN ***"
+ },
+ {
+  "field": "date_of_death",
+  "rogue_luis_armando_1518_73": "29th January 1973",
+  "nuno_fernando_6746_71": "1.7.1971"
+ },
+ {
+  "field": "place_of_death",
+  "rogue_luis_armando_1518_73": "Johannesburg",
+  "nuno_fernando_6746_71": "Germiston"
+ },
+ {
+  "field": "marital_status",
+  "rogue_luis_armando_1518_73": "Married, at Johannesburg",
+  "nuno_fernando_6746_71": "Married, at Johannesburg"
+ },
+ {
+  "field": "surviving_spouse",
+  "rogue_luis_armando_1518_73": "RHENA MAY LERENA",
+  "nuno_fernando_6746_71": "*** CATHERINE MARY SOPHIA LERENA *** - born Booyzen 25 Mar 1929, per the Booyzen archive's direct line"
+ },
+ {
+  "field": "property_regime",
+  "rogue_luis_armando_1518_73": "Out of community",
+  "nuno_fernando_6746_71": "In community"
+ },
+ {
+  "field": "predeceased_spouse",
+  "rogue_luis_armando_1518_73": "*** ROSINA WILHELMINA LERENA *** - the archive has carried her as Roseline Wilhelmina FORBES",
+  "nuno_fernando_6746_71": "none"
+ },
+ {
+  "field": "children",
+  "rogue_luis_armando_1518_73": "*** JUANITA RAMOND HUTSON (born LERENA) *** and *** PANOLA MARIA LERENA ***, both of the marriage to Rosina Wilhelmina",
+  "nuno_fernando_6746_71": "*** Jeannette Marie Riekstins (born Lerena), major; Paul Raymond Lerena, minor; Catherine Tertia Lerena, minor; CHERYL ANN LERENA, minor; Patricia Carmen Lerena, minor ***"
+ },
+ {
+  "field": "father",
+  "rogue_luis_armando_1518_73": "*** ROBERTO LERENA *** , deceased",
+  "nuno_fernando_6746_71": "*** BLANK. The form says only \"Deceased\". No name given. ***"
+ },
+ {
+  "field": "mother",
+  "rogue_luis_armando_1518_73": "*** MARY SEPTIMA LERENA *** , deceased",
+  "nuno_fernando_6746_71": "*** BLANK. Ditto mark, \"Deceased\". No name given. ***"
+ },
+ {
+  "field": "informant",
+  "rogue_luis_armando_1518_73": "R. M. Lerena, surviving spouse, Johannesburg, 5 February 1973",
+  "nuno_fernando_6746_71": "C. Lerena, surviving spouse, present at time and place of death, Johannesburg, 8 July 1971"
+ },
+ {
+  "field": "attorneys",
+  "rogue_luis_armando_1518_73": "Surrey House, Johannesburg",
+  "nuno_fernando_6746_71": "-"
+ }
+]

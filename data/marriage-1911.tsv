@@ -1,21 +1,50 @@
-field	value	note
-record	Cape Province, Marriage Certificates, 1-15 September 1911; "Duplicate Original Register"	FamilySearch film #007729519, item 5, image 40 of 638; ark 3:1:3Q9M-C9BP-73LY-N. Index ark 1:1:88RY-GF3Z. Images provided by the NATIONAL ARCHIVES OF SOUTH AFRICA.
-register_no	160	page also bears the printed number 7271
-date	3 September 1911	
-solemnized_at	Wynberg	"Marriage solemnized at Wynberg, in the Parish of ..."
-church	St Dominic's	"Married in St Dominic's at Wynberg aforesaid, after banns" - a Catholic church
-by	after banns	not by licence
-groom	Pablo Armando Lerena	
-groom_age	29	Exact: b. 22 Feb 1882, so 29 last birthday on 3 Sep 1911.
-groom_race	E (European)	
-groom_condition	BACHELOR	*** He had NOT been married before. ***
-groom_profession	HORSE-DEALER	*** A fourth occupational term: horse-dealer 1911, trainer 1940, race horse owner 1950. ***
-groom_residence	Diep River	A Cape Town suburb near Wynberg. Earliest address yet known for him.
-bride	Mary Septima Taylor	
-bride_age	27	She turned 27 on 17 Sep 1911, two weeks after the wedding; the clerk rounded up.
-bride_race	E (European)	
-bride_condition	SPINSTER	*** She had NOT been married before. ***
-bride_residence	Diep River	Same address as the groom.
-signatures	Both signed their own names in full	So both were literate. The signatures are legible: "Pablo Armando Lerena" and "Mary Septima Taylor".
-examined_by	"Bert..." (signature truncated)	Very likely BERTRAM W. GLYNN, the priest who had baptised their son Roque at Wynberg three months earlier.
-parents	NOT RECORDED	Cape marriage registers of this period carry no parents' names. This record does NOT give Pablo Armando's father.
+# THE MARRIAGE OF PABLO ARMANDO LERENA AND MARY SEPTIMA TAYLOR.
+# Duplicate Original Register no. 7271 (M.L.), entry 160. Read from David's image, 16 September 2026.
+# *** THIS ARCHIVE DID NOT HAVE THIS DOCUMENT. *** It sat on the work list as "the 1911 Taylor
+# marriage record" and was never found, because nobody looked in the family's own papers.
+field	as_written	note
+register	DUPLICATE ORIGINAL REGISTER no. 7271, (M.L.)	Cape Colony printed form, bilingual English/Dutch. Other numbers on the sheet: 7328, 6884, and 816 in pencil.
+entry_no	160
+year	1911
+solemnized_at	Wynberg	Cape Town suburb
+parish	St Dominic's	*** A ROMAN CATHOLIC CHURCH. ***
+district	Cape
+date	*** 3rd September 1911 ***
+groom	Pablo Armando Lerena	*** Written in full, in his own hand at the foot: "Pablo Armando Lerena". Not Robert Paul. ***
+groom_age	29	*** Age last birthday. Consistent with 22 February 1882 to within a month. ***
+groom_race	E	European
+groom_condition	Bachelor	*** His first marriage. ***
+groom_profession	*** horse-dealer ***	*** The earliest dated attestation of the horse trade in this family - twenty years before the 1931 stables plans and twenty-nine before the passport says "Trainer". A DEALER, not yet a trainer. ***
+groom_residence	Diep River
+bride	Mary Septima Taylor	Signed "Mary Septima Taylor"
+bride_age	27	*** SEE THE DISCREPANCY BELOW. ***
+bride_race	E	European
+bride_condition	Spinster
+bride_profession	(blank)
+bride_residence	Diep River	*** The same village as the groom. They were neighbours before they were married. ***
+after_banns_or_licence	After banns	*** Banns, not licence - called publicly, three Sundays, which requires settled local residence and no impediment. ***
+consent	(blank)	Both of age; no parental consent required, and so no parent is named.
+officiant	*** Bertram W. Glynn, R.C. Priest ***	Signs twice: as celebrant, and certifying the duplicate "Examined with the Original Register by me, and found to be correct."
+witnesses	two signatures, not confidently read	*** NOT READ. *** Something like "J. M. Wathington" and "A. H. Blackalock" - this archive will not print a guess as a reading. Flagged for a second look at higher resolution.
+#
+# *** WHAT IT DOES NOT DO, AND THIS MATTERS MOST. ***
+# *** THE CAPE MARRIAGE REGISTER OF 1911 HAS NO COLUMN FOR THE FATHERS OF THE PARTIES. ***
+# There is no "father's name", no "father's rank or profession". The form asks name, age, race,
+# condition, profession, residence, banns and consent, and nothing else. So this document CANNOT
+# name Juan Carlos Lerena, and its absence there is a fact about the form and not about the family.
+#
+# *** WHAT IT ADDS. ***
+# 1. *** HE WAS A CATHOLIC, AND MARRIED IN A CATHOLIC CHURCH. *** St Dominic's, Wynberg, by an R.C.
+#    priest, after banns. That is consistent with an Argentine or Italian or Spanish origin and it
+#    is the first religious affiliation this archive has for him.
+# 2. *** HORSE-DEALER, 1911. *** The trade is documented nine years earlier than anything else held.
+# 3. *** HE WAS IN THE CAPE, SETTLED, WITH BANNS CALLED, IN 1911 *** - and Roque had been born there
+#    in December 1905. The two together put the family at the Cape from 1905 at the latest.
+# 4. Both parties of Diep River. Roque's baptism is at Corpus Christi, Wynberg - the same district.
+#
+# *** THE DISCREPANCY. *** The register gives the bride as 27 last birthday on 3 September 1911.
+# This archive carries Mary Septima Taylor born *** 17 September 1884 *** on the GRO Bideford
+# registration, which would make her 26 on that day - she turned 27 a fortnight after the wedding.
+# *** The register is out by one year, or the birth year is 1883. *** Recorded, not smoothed. Her
+# baptism of 30 October 1884 at Northam (ref 1843A/PR/1/16) is already held and supports 1884, so
+# the likelier answer is that somebody rounded up to the birthday that was a fortnight away.

@@ -1,0 +1,83 @@
+[
+ {
+  "rank": "1",
+  "reference": "TAB TPD 1367/1980",
+  "person": "GLYNNIS MARGARET LERENA (born BOLTON) versus ANTON ARMANDO LERENA - divorce",
+  "what_it_would_answer": "*** WHO ANTON ARMANDO IS. *** He is the one man this archive cannot place: an estate advertised 2013 for a death in 2003, a 1977 debt case, and no parents anywhere. A divorce summons states the DATE AND PLACE OF MARRIAGE and usually the parties' ages; the order deals with the children. Between them they should fix his generation. *** Now the best file on the list, because the two estates fell away. ***",
+  "pages_that_matter": "The SUMMONS (particulars of claim) and the FINAL ORDER. Not the pleadings, not the discovery.",
+  "confidence": "MEDIUM - no volume number in NAAIRS",
+  "drop_order": "keep"
+ },
+ {
+  "rank": "2",
+  "reference": "TAB TPD 1248/1979",
+  "person": "RICARDO PAUL LERENA versus ANNE MARGARET LERENA (born CORBETT) - divorce",
+  "what_it_would_answer": "*** WHO RICARDO PAUL IS *** - on the face of it a son of Ricardo Juan Carlos (b. 1920), carrying Juan Carlos into a third generation, which is this family's documented naming habit. Same two documents would date his marriage and name his children.",
+  "pages_that_matter": "The SUMMONS and the ORDER only.",
+  "confidence": "MEDIUM - no volume number in NAAIRS",
+  "drop_order": "drop 2nd"
+ },
+ {
+  "rank": "3",
+  "reference": "TAB MHG 1518/73 - THE REST OF THE FILE",
+  "person": "LERENA, ROGUE LUIS ARMANDO",
+  "what_it_would_answer": "*** THE DEATH NOTICE IS ALREADY HELD - DO NOT PAY FOR IT AGAIN. *** What is left unseen is the WILL (the notice marks \"a will\"), the inventory and the liquidation and distribution account. An L&D account lists assets and heirs and would show what a retired railwayman left and to whom. Worth having, not worth a trip.",
+  "pages_that_matter": "The WILL and the LIQUIDATION AND DISTRIBUTION ACCOUNT. *** Explicitly NOT the death notice. ***",
+  "confidence": "HIGH on the reference; LOW on the value",
+  "drop_order": "drop 3rd"
+ },
+ {
+  "rank": "4",
+  "reference": "TAB MHG 6746/71 - THE REST OF THE FILE",
+  "person": "LERENA, NUNO FERNANDO",
+  "what_it_would_answer": "*** THE DEATH NOTICE IS ALREADY HELD, AND IT NAMES NO PARENTS - item 19 says only \"Deceased\". *** The first version of this list promised it would name Pablo Armando and Mary Septima. It does not. What is left is the will and the L&D account for a salesman who died at 46 leaving four minor children.",
+  "pages_that_matter": "The WILL and the L&D ACCOUNT. *** NOT the death notice. ***",
+  "confidence": "HIGH on the reference; LOW on the value",
+  "drop_order": "drop 4th"
+ },
+ {
+  "rank": "5",
+  "reference": "TAB WLD 8043/77",
+  "person": "STADIUM TIMBER AND HARDWARE COMPANY LTD versus ANTON LERENA - claim for payment",
+  "what_it_would_answer": "An ADDRESS and a DATE for Anton in 1977, and perhaps a trade. That is all a debt summons carries - but Anton is now the ONLY open question at this depot, so a second sighting of him is worth more than it was this morning.",
+  "pages_that_matter": "The summons only.",
+  "confidence": "MEDIUM - WLD sits in Johannesburg; NAAIRS places the archived files at TAB, unverified here",
+  "drop_order": "*** DROP FIRST ***"
+ },
+ {
+  "rank": "-",
+  "reference": "TAB TPD M680/1979 and TAB TPD 2769/1979",
+  "person": "Opposed applications, ANNE MARGARET LERENA versus RICARDO PAUL LERENA",
+  "what_it_would_answer": "*** DO NOT ORDER. *** Both are interlocutory applications inside the SAME divorce as rank 2. Ordering them is paying three times for one dispute. Order them only if 1248/1979 turns out to be missing.",
+  "pages_that_matter": "-",
+  "confidence": "-",
+  "drop_order": "*** DROP 2nd - already excluded ***"
+ },
+ {
+  "rank": "-",
+  "reference": "CAVEAT ON THE COURT FILES",
+  "person": "TPD and WLD - ranks 1, 2 and 5",
+  "what_it_would_answer": "*** NAAIRS gives NO VOLUME NUMBER for any of the four court references *** - only a case number and a year. Estate files retrieve cleanly on MHG number; court files may need a volume traced at the depot. *** Tell her this before she goes. *** She would rather be told not to hunt than lose an hour, and if a volume is not obvious in ten minutes the file should be abandoned in favour of the estate files.",
+  "pages_that_matter": "-",
+  "confidence": "-",
+  "drop_order": "-"
+ },
+ {
+  "rank": "-",
+  "reference": "CAVEAT ON THE MODERN ESTATES",
+  "person": "Ricardo Juan Carlos 19962/95; Doreen May 16409/00; Pierre Frederick 2000; Paul Raymond 2001; Anton Armando 15127/2013; Roberto Juan Roque 017515/2022",
+  "what_it_would_answer": "*** DO NOT SEND HER AFTER ANY OF THESE. *** They are known from Government Gazette notices, not from NAAIRS, and the NAAIRS Lerena series stops in 1980. Estates of this vintage should still sit with the Master of the High Court rather than the National Archives. *** This archive has NOT verified where the TAB cut-off falls, and says so rather than guessing. ***",
+  "pages_that_matter": "-",
+  "confidence": "-",
+  "drop_order": "-"
+ },
+ {
+  "rank": "-",
+  "reference": "NOT AT PRETORIA, AND ALREADY IN HAND",
+  "person": "KAB MOOC 6/9/17017 ref 1847/50 - LERENA, ROBERT PAUL (Pablo Armando himself)",
+  "what_it_would_answer": "*** The single most valuable file in this entire archive is his own death notice, because it asks for HIS parents - the one document that could name Juan Carlos Lerena. *** It is at KAB, Cape Town, and is therefore NOT for this trip. It has ALREADY been requested from the Western Cape Archives and that errand is open. Recorded here only so that nobody spends Pretoria money on it.",
+  "pages_that_matter": "-",
+  "confidence": "-",
+  "drop_order": "-"
+ }
+]

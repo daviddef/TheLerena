@@ -54,9 +54,10 @@ const pretty = (d) => {
 <section class="blk">
   <Changes u={u} days={days.map(d => ({
     when: pretty(d.date),
+    id: dayId(d.date),
     entries: d.commits.map(c => ({
-      title: c.subject,
-      did: c.body ? c.body.replace(/\n/g, " ") : "",
+      title: emph(c.subject),
+      did: emph(c.body ? c.body.replace(/\n/g, " ") : ""),
     })),
   }))} />
 </section>

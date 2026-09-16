@@ -1,0 +1,177 @@
+[
+ {
+  "field": "document",
+  "value_as_written": "Pasaporte Argentino, Serie A No. 07962",
+  "note": "Argentine passport booklet"
+ },
+ {
+  "field": "passport_number",
+  "value_as_written": "2/1940",
+  "note": ""
+ },
+ {
+  "field": "issued_by",
+  "value_as_written": "Oficina Consular Argentina en Cape Town, Union de Sud Africa",
+  "note": "Consulado General Argentino stamp"
+ },
+ {
+  "field": "issue_date",
+  "value_as_written": "24 DIC 1940",
+  "note": "24 December 1940"
+ },
+ {
+  "field": "surname_forename",
+  "value_as_written": "Lerena, Pablo Armando",
+  "note": "\"Apellido y nombre del portador\""
+ },
+ {
+  "field": "nationality",
+  "value_as_written": "Argentina - nativo",
+  "note": "native-born Argentine, NOT naturalised"
+ },
+ {
+  "field": "born_place",
+  "value_as_written": "Rosario de Santa Fe, Republica Argentina",
+  "note": "*** ROSARIO CONFIRMED ***"
+ },
+ {
+  "field": "born_date",
+  "value_as_written": "Dia 22 Mes Febrero Ano 1882",
+  "note": "22 February 1882"
+ },
+ {
+  "field": "domicile",
+  "value_as_written": "Rugby, Cape Town",
+  "note": "*** same suburb as the NAAIRS stables file ***"
+ },
+ {
+  "field": "destination",
+  "value_as_written": "Portuguese East Africa",
+  "note": "Mozambique"
+ },
+ {
+  "field": "profession",
+  "value_as_written": "Trainer",
+  "note": "*** HORSE TRAINER - the family claim, documented ***"
+ },
+ {
+  "field": "marital_status",
+  "value_as_written": "Viudo",
+  "note": "widower - his wife had died before Dec 1940"
+ },
+ {
+  "field": "skin",
+  "value_as_written": "Blanco",
+  "note": ""
+ },
+ {
+  "field": "eyes",
+  "value_as_written": "Azules",
+  "note": "blue"
+ },
+ {
+  "field": "hair",
+  "value_as_written": "Gris",
+  "note": "grey"
+ },
+ {
+  "field": "nose",
+  "value_as_written": "Recta",
+  "note": "straight"
+ },
+ {
+  "field": "height",
+  "value_as_written": "1 m. 80",
+  "note": ""
+ },
+ {
+  "field": "distinguishing_marks",
+  "value_as_written": "Cicatriz en la frente",
+  "note": "scar on the forehead"
+ },
+ {
+  "field": "military_service",
+  "value_as_written": "Hizo su servicio militar en la Guardia Nacional 6o de Caballeria",
+  "note": "*** 6th CAVALRY, Argentine National Guard ***"
+ },
+ {
+  "field": "military_year",
+  "value_as_written": "1915",
+  "note": ""
+ },
+ {
+  "field": "enrolment_book",
+  "value_as_written": "Consulado General Argentino, Cape Town",
+  "note": "libreta de enrolamiento"
+ },
+ {
+  "field": "signed_by",
+  "value_as_written": "A. B. Bayne, Encargado, Consulado General Argentino",
+  "note": "the consular officer who issued it - NOT the bearer"
+ },
+ {
+  "field": "order_number",
+  "value_as_written": "382",
+  "note": ""
+ },
+ {
+  "field": "consular_stamp",
+  "value_as_written": "ANO 1940 Servicio Consular 16.50 pesos m/n, 0.189896",
+  "note": "revenue stamp"
+ },
+ {
+  "field": "biometric",
+  "value_as_written": "right thumbprint",
+  "note": "impresion digital, pulgar derecho"
+ },
+ {
+  "field": "photograph",
+  "value_as_written": "yes",
+  "note": "man of about 58, dark suit, embossed consular seal across the corner"
+ },
+ {
+  "field": "justificativos_libreta",
+  "value_as_written": "Libreta de enrolamiento No. - \"Consulado General Argentino, Cape Town\". Dist. Militar: dash. Matricula: dash. *** Ano 1915. ***",
+  "note": "*** READ 16 SEPTEMBER 2026 FROM DAVID'S OWN PHOTOGRAPHS, page 6 of the booklet - a page this archive had never transcribed. *** The enrolment book he produced as proof of nationality was issued at the CAPE TOWN CONSULATE, and it is dated *** 1915 ***, not 1908. The archive's ficha de enrolamiento is of 1908. So there are TWO Argentine enrolment events, or the 1908 card and the 1915 libreta are different instruments. *** A new document to chase in Buenos Aires. ***"
+ },
+ {
+  "field": "justificativos_ciudadania",
+  "value_as_written": "Carta de ciudadania No.: dash. Otorgada ante Juez Federal: dash. Fecha: dash.",
+  "note": "Nothing, because he was native-born and needed no naturalisation. Consistent with \"nativo\"."
+ },
+ {
+  "field": "justificativos_cedula",
+  "value_as_written": "Cedula de identidad No.: dash. Otorgada por: dash. Fecha: dash.",
+  "note": "*** He held no Argentine identity card. ***"
+ },
+ {
+  "field": "justificativos_birth_record",
+  "value_as_written": "*** \"Acta del Registro Civil (o fe de bautismo) extendida por ______\" - THE LINE IS BLANK. ***",
+  "note": "*** THIS IS THE FINDING ON THE PAGE. *** In December 1940, applying to his own consulate, Pablo Armando produced NO BIRTH CERTIFICATE AND NO BAPTISMAL CERTIFICATE. The consul accepted his nationality on the enrolment book alone. *** This archive has read the Rosario registers act by act looking for his baptism and found nothing. Here is contemporary evidence that HE DID NOT HAVE ONE EITHER. *** It does not prove no act exists. It does mean that the man himself, at fifty-eight, could not or did not produce one."
+ },
+ {
+  "field": "justificativos_military",
+  "value_as_written": "\"Cumplio con la Ley Militar? Hizo su servicio militar en la Guardia Nacional 6o de Caballeria.\"",
+  "note": "Already held; confirmed in his own hand on the booklet."
+ },
+ {
+  "field": "photograph",
+  "value_as_written": "*** A photograph of Pablo Armando is affixed and consular-stamped. *** Head and shoulders, dark suit, white shirt, dark tie, hair swept back, aged about 58.",
+  "note": "The only known likeness of him held by this archive."
+ },
+ {
+  "field": "signature",
+  "value_as_written": "*** \"P. A. Lerena\" *** in his own hand, under \"firma del interesado\"",
+  "note": "He signed his Argentine names, not \"Robert Paul\", on an official document in 1940 - thirty-two years after the enrolment card and ten years before he died as Robert Paul."
+ },
+ {
+  "field": "fingerprint",
+  "value_as_written": "*** Right thumbprint, \"Pulgar derecho\", inked on the booklet. ***",
+  "note": ""
+ },
+ {
+  "field": "consul",
+  "value_as_written": "A. B. Bayne, for the Consul General. No. de orden 382; arancel 5a; derecho percibido M$N 16.50; cambio 0.18.6",
+  "note": ""
+ }
+]
