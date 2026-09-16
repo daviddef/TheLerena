@@ -17,6 +17,9 @@ import ascent from "../data/brayley-ascent.json";
 import imp from "../data/gedcom-import.json";
 import graded from "../data/gedcom-graded.json";
 import conv from "../data/brayley-convergence.json";
+import bmd from "../data/brayley-bmd.json";
+import c1891 from "../data/1891-northam-census.json";
+import c1851 from "../data/1851-bideford-brayley.json";
 const M = Object.fromEntries(marriage.map((r) => [r.field, r]));
 const N = Object.fromEntries(notices.map((r) => [r.field, r]));
 const D = Object.fromEntries(dn.map((r) => [r.field, r]));
@@ -27,6 +30,9 @@ const probes = conv.filter((r) => r.hits && /^\d+$/.test(String(r.hits).trim()))
 const convFind = conv.filter((r) => r.probe && r.probe !== "finding" && r.probe !== "what_would_join_them"
   && !/^\d+$/.test(String(r.hits || "").trim()) && r.hits);
 const convJoin = conv.find((r) => r.probe === "what_would_join_them");
+const bmdRows = bmd.filter((r) => r.grade && r.grade !== "grade");
+const h1891 = c1891.filter((r) => r.relation);
+const h1851 = c1851.filter((r) => r.relation && r.relation !== "relation");
 const forRows = llorens.filter((r) => r.field.startsWith("for_"));
 const againstRows = llorens.filter((r) => r.field.startsWith("against_"));
 const just = passport.filter((r) => r.field.startsWith("justificativos") ||
@@ -623,6 +629,107 @@ const DOCS = [
     <p><strong>For Mary Septima Taylor&rsquo;s mother&rsquo;s family, this archive moved from a wall to a
       documented ascent of six generations in an afternoon. For Pablo Armando it moved nothing at
       all.</strong></p>
+  </div>
+</section>
+
+<section class="blk">
+  <h2>9. And then it was all put to the index, and most of it held</h2>
+  <p class="dek">Everything above is a tree. On the evening of 16 September 2026 the Brayley&ndash;Taylor
+    line was put to the <strong>civil registration index for England and Wales</strong> and to the
+    <strong>census</strong>, both free, both volunteer-transcribed. <strong>Of sixteen claims tested,
+    fourteen came back confirmed, one came back corrected, and one came back explained.</strong> An index
+    is not a certificate &mdash; it gives a quarter, a district, a volume and a page, and from 1866 an age
+    &mdash; so every line below is graded on what the record can actually carry.</p>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr><th style="width:26%">What the tree claims</th><th style="width:26%">What the index says</th><th>Grade</th></tr></thead>
+      <tbody>
+        {bmdRows.map((r) => (
+          <tr><td><span set:html={em(r.what_the_tree_claims || r.claim)} /></td>
+            <td><span set:html={em(r.what_the_index_says || r["what the index says"])} /></td>
+            <td><span set:html={em(r.grade)} /></td></tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <div class="panel" style="border-left:3px solid var(--ochre,#8a7f5c);margin:26px 0">
+    <div class="lab">The find is the names, not the dates</div>
+    <p style="margin:12px 0 0">The dates only confirm a tree this archive already half-believed. The
+      <strong>names</strong> do something the tree could not do for itself. Three of the nine Taylor
+      children were registered as <strong>Isabella <em>Temple</em></strong> (1874),
+      <strong>Margaret Hellen <em>W[alker]</em></strong> (1876) and
+      <strong>Agnes <em>Walker</em></strong> (1889). Those are not forenames. They are the surnames of the
+      two women at the Scottish end of the ascent &mdash; Georgina <strong>Temple</strong>, born Haddington
+      1814, and <strong>Helen Walker</strong>, who married George Temple at Haddington in 1813 and who,
+      when the tree was graded, cited <em>nothing at all</em>.</p>
+    <p style="margin:12px 0 0"><strong>She is still not on a record. But three of her descendants were
+      registered with her surname by a clerk, in 1874, 1876 and 1889 &mdash; and that is.</strong></p>
+  </div>
+
+  <h3>2 Fore Street, Northam &mdash; the night of 5 April 1891</h3>
+  <p class="dek">Piece 1787, enumeration district 4, folio 42, page 1, schedule 2. The first time this
+    archive has seen Mary Septima&rsquo;s family in a household return.</p>
+  <div class="scroll" style="margin-top:16px">
+    <table>
+      <thead><tr><th>Name</th><th class="m">Rel.</th><th class="m">Age</th><th>Occupation</th><th>Birthplace</th></tr></thead>
+      <tbody>
+        {h1891.map((r) => (
+          <tr><td><span set:html={em((r.forenames || "") + " " + (r.surname || ""))} /></td>
+            <td class="m"><span set:html={em(r.relation)} /></td><td class="m"><span set:html={em(String(r.age))} /></td>
+            <td><span set:html={em(r.occupation)} /></td>
+            <td><span set:html={em(r.birthplace)} /></td></tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  <div class="prose">
+    <p><strong>What it settles.</strong> William Taylor is a <strong>retired army sergeant</strong> driving
+      a cab &mdash; a trade the tree had mistakenly attached to an infant who died at nine months in 1825.
+      His wife gives her birthplace as <strong>St Bartholomews, City of London</strong>, which is exactly
+      what the tree claimed and exactly what the birth index has no registration for. And
+      <strong>William J. and Kathleen G. are both twenty and both born at Bideford</strong>: the tree&rsquo;s
+      two children born in the same month, which read like a slip, are twins.</p>
+    <p><strong>What it does not settle.</strong> Two children are missing from it &mdash; Isabella Temple,
+      who would be sixteen, and <strong>Mary Septima, who would be six</strong>. A county-wide check of all
+      368 Devon Taylors born 1882&ndash;1886 does not find her either. That null is soft, because FreeCEN&rsquo;s
+      Devon is transcribed parish by parish; Northam itself is complete, which is the only reason her
+      absence from it counts for anything.</p>
+  </div>
+
+  <h3>Lower Gunstone, Bideford &mdash; the night of 30 March 1851</h3>
+  <p class="dek">Piece 1895, folio 108, page 8, schedule 34. Four generations in one house, and the
+    deepest record the Brayley line has.</p>
+  <div class="scroll" style="margin-top:16px">
+    <table>
+      <thead><tr><th>Name</th><th class="m">Rel.</th><th class="m">Age</th><th>Occupation</th><th>Birthplace</th></tr></thead>
+      <tbody>
+        {h1851.map((r) => (
+          <tr><td><span set:html={em((r.forename || "") + " " + (r.surname || ""))} /></td>
+            <td class="m"><span set:html={em(r.relation)} /></td><td class="m"><span set:html={em(String(r.age))} /></td>
+            <td><span set:html={em(r.occupation || "")} /></td>
+            <td><span set:html={em(r.birthplace)} /></td></tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  <div class="prose">
+    <p><strong>Put two records side by side.</strong> This census was taken on <strong>30 March 1851</strong>.
+      John Brailey died on <strong>4 May 1851</strong>, indexed in the <strong>St Thomas</strong> district
+      &mdash; the district containing the county asylum at Exminster. So on census night he was alive, and
+      he was not in the house. His wife is a lodger in his father&rsquo;s home, described as married, with
+      four children, five weeks before he died. Sue Rowbotham&rsquo;s family history has a chapter called
+      <em>&ldquo;The mystery of the missing husband and daughter&rdquo;</em>.
+      <strong>Here is the household he is missing from, dated.</strong></p>
+    <p><strong>And it corrects two things and adds a person.</strong> John is <strong>five</strong>, which
+      fits the tree&rsquo;s 1845 birth and not the 1900 death index&rsquo;s implied 1847 &mdash; the
+      informant was wrong and the tree was right. Georgina is <strong>eight months old</strong>, so born
+      about July 1850, and the tree&rsquo;s &ldquo;1851&rdquo; is a year late. And
+      <strong>Isabella, ten, born in the City of London</strong>, is a daughter this archive did not have
+      &mdash; for whom Mary Ann Hellen would name her own second daughter twenty-three years later.</p>
+    <p class="cap">Controlled: Westleigh in 1851 was searched for Brayley first and returned zero. A Taylor
+      search in the same parish and year returns twelve, so the parish is transcribed and the zero is real
+      &mdash; and expected, since the family had moved to Bideford.</p>
   </div>
 </section>
 
