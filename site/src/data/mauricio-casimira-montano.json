@@ -1,0 +1,50 @@
+[
+ {
+  "child": "*** CIPRIANO LERENA MONTANA ***",
+  "record": "*** Death registration 1928, FLORES *** - Uruguay Civil Registration Index Card 1900-1937, record 40, entry 1, page 20v. ark 1:1:QG3K-CV5Q",
+  "parents as indexed": "*** MAURICIO LERENA and CASIMIRA MONTANA ***",
+  "grade": "*** THE FINDING. *** `trinidad-flores-kindred.tsv` has a CIPRIANO LERENA who married LAURIANA BELOQUI and baptised Doroteo Donato (1875), Maria Leonor (1877) and Lauriana (1891) at Trinidad. *** This is a Cipriano Lerena dying in the same small department in 1928, with parents named. *** *** GRADED AS AN INDEX, NOT AN ACT: the card says \"Image Unavailable\", so nothing has been READ. *** And the identification rests on a rare forename in one small department across the right span of years - *** strong, and not airtight, because two Ciprianos are possible. ***"
+ },
+ {
+  "child": "*** CLARA LERENA (de PALLARES) ***",
+  "record": "*** Death registration 3 March 1925, MONTEVIDEO, certificate 47 *** , aged 77, estimated birth 1848. Husband REYNALDO PALLARES. ark 1:1:XMMG-TNSK. *** This one HAS an image. ***",
+  "parents as indexed": "*** MAURICIO LERENA and CASIMIRA MONTANA ***",
+  "grade": "*** THIS IS ALMOST CERTAINLY THE TREE'S \"DEMETRIA CLARA LERENA MONTANO\", b. 22 December 1848, San Jose. *** Forename, birth year and the mother's surname all agree - *** and the record EXPLAINS the tree's compound name, which no tree ever does: she is \"Lerena Montano\" because her mother was CASIMIRA MONTANO. *** *** ONE DISAGREEMENT, LEFT STANDING: the tree gives her death as 1930 and the register says 3 March 1925. ***"
+ },
+ {
+  "child": "Ignacia",
+  "record": "*** Born 30 July 1850, died 6 August 1850, SAN JOSE DE MAYO *** - a week old",
+  "parents as indexed": "Mauricio Lerena and Casimira Montana",
+  "grade": "Indexed \"Ignacia Lorena Ignacia\", which is the machine doubling a forename."
+ },
+ {
+  "child": "Manuel LERENA Montana",
+  "record": "*** Married April 1882 at SANTISIMA TRINIDAD, Trinidad, FLORES *** ; born 1856. A second registration of the same marriage is filed at SAN JOSE, 20 April 1882.",
+  "parents as indexed": "Mauricio Lerena and Casimira Montana",
+  "grade": "*** The same marriage registered in TWO departments *** - which is itself the family's footprint."
+ },
+ {
+  "child": "Ignacia LERENA",
+  "record": "Married 27 April 1882 at Santisima Trinidad, Trinidad, FLORES; born 1864",
+  "parents as indexed": "Casimira Montano and Mauricio Lerena",
+  "grade": "A second Ignacia, born fourteen years after the infant of 1850 died. *** Naming a later child for a dead one is ordinary and is noted so nobody merges them. ***"
+ },
+ {
+  "child": "Mauricio LERENA",
+  "record": "*** Married 4 May 1878 at FLORIDA ***; born 1838",
+  "parents as indexed": "Mauricio Lerena and Casimira Montano",
+  "grade": "The eldest found so far, and *** he carries his father's name. ***"
+ },
+ {
+  "child": "Belisario LERENA",
+  "record": "*** Marriage registration 23 October 1890, SALTO ***",
+  "parents as indexed": "Casimira Montana and Mauricio Lerena",
+  "grade": "*** This is the \"Ysidoro Belisario, 1861, father Mauricio, mother Casimira, San Jose de Mayo\" already in `uruguay-baptisms-lerena.tsv` *** - the archive had the baptism from findmypast and now has the man's marriage."
+ },
+ {
+  "child": "Ignacia Serena Leren de Dolz",
+  "record": "Death registration 12 March 1921, MONTEVIDEO",
+  "parents as indexed": "Mauricio Lerena and Casimira Montano",
+  "grade": "*** The surname mangled three ways in one index line *** - Serena, Leren, and a married \"de Dolz\"."
+ }
+]
