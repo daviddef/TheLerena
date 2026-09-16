@@ -22,6 +22,20 @@ const just = passport.filter((r) => r.field.startsWith("justificativos") ||
   ["photograph", "signature", "fingerprint"].includes(r.field));
 const em = (t) => (t || "").replace(/\*\*\* (.+?) \*\*\*/g, "<strong>$1</strong>");
 const row = (k) => M[k] || { as_written: "", note: "" };
+const DOCS = [
+  ["marriage-1911", "The marriage register, Wynberg, 3 September 1911",
+   "Duplicate Original Register no. 7271, entry 160. Pablo Armando Lerena, 29, bachelor, horse-dealer, of Diep River; Mary Septima Taylor, 27, spinster, of Diep River. After banns, by Bertram W. Glynn, R.C. Priest. Both signatures are their own."],
+  ["death-notice-1950", "The death notice, 28 March 1950",
+   "Estate 1847/50. Item 3 — Names and Addresses of the Parents of the deceased: Father, not known. Mother, not known. Signed R. L. Theys, Executrix Nominate, present at death."],
+  ["death-certificate-1950", "The death certificate, A 214036",
+   "Registered at Wynberg, entry W612/50. Robert Paul LERINA. Birthplace: South America. Age 76. Race Horse Owner. Informant W. Fraser, qualification “causing burial”."],
+  ["baptism-roque-1911", "Roque Luis Armando, baptised 12 June 1911",
+   "Corpus Christi, Wynberg. Born 25 November 1905 — baptised at five and a half, three months before his parents married. Godparents José Bretón and María Luisa Bretón, both by proxy. Later annotations record both his marriages."],
+  ["baptism-nuno-1924", "Nuno Fernando, baptised 16 November 1924",
+   "Corpus Christi, Wynberg, no. 4540. Born 6 October 1924. Godparents Michael Joseph and Mary Anne Duddy — and against the mother, in the priest’s hand, Mater Anglicana."],
+  ["baptism-llorens-1872", "The Buenos Aires candidate — not this family",
+   "Libro de Bautismos de la Parroquia de San Miguel, 1872. Roberto Juan Roque LLORENS, born 16 August 1872, son of Roberto Llorens and Francisca Fernández, both of Spain. Sent unsolicited from Argentina; answered and set aside."],
+];
 ---
 <Base title="The papers in the house"
       eyebrow="Read 16 September 2026 — and none of it needed an archive"
@@ -353,10 +367,19 @@ const row = (k) => M[k] || { as_written: "", note: "" };
 </section>
 
 <section class="blk">
-  <h2>6. And in the same folder, a rival identification nobody had told the archive about</h2>
+  <h2>6. A candidate sent from Argentina, answered and set aside</h2>
   <p class="dek">Filed under <em>Roberto Paul Lerena Documents</em>, between the estate papers, are two
-    photographs of a <strong>Buenos Aires baptism register of 1872</strong>. Somebody pulled them
-    deliberately. This archive had never seen them and has no note of the reasoning.</p>
+    photographs of a <strong>Buenos Aires baptism register of 1872</strong>. This archive first wrote
+    that somebody had pulled them deliberately &mdash; <strong>an intention nobody had stated.</strong>
+    David says they arrived <strong>unsolicited, in the mail, from a researcher in Argentina</strong>,
+    and that he regards the man as <strong>likely no relation</strong>.
+    <a href={u("/corrections/")}>The correction &rarr;</a></p>
+  <div class="note" style="margin:18px 0"><strong>So why keep it on the page at all?</strong> Three
+    reasons. A candidate that arrives from a stranger still has to be <em>answered</em> rather than
+    dropped. The age evidence it rests on is real and belongs on the record whatever the verdict. And
+    <strong>the name has already leaked into the family tree</strong>, where he is entered as
+    <em>&ldquo;Roberto Paul (Llorens) Lerena&rdquo;</em> &mdash; so the reading is in circulation, and
+    is better refuted in public than left to drift.</div>
 
   <div class="panel" style="border-left:3px solid var(--accent);margin:22px 0">
     <div class="lab">Libro de Bautismos de la Parroquia de San Miguel, Año de 1872</div>
@@ -400,6 +423,24 @@ const row = (k) => M[k] || { as_written: "", note: "" };
 </section>
 
 <section class="blk">
+  <h2>The documents themselves</h2>
+  <p class="dek">This archive has been text since it began. These are the six it can publish: every
+    person named on them is dead. <strong>The 1971 and 1973 death notices are deliberately not here</strong>
+    &mdash; they list living children with their birth dates, and this estate names the living and
+    nothing more.</p>
+  <div class="docs">
+    {DOCS.map(([f, t, c]) => (
+      <figure class="doc">
+        <a href={u("/docs/" + f + ".jpg")}><img src={u("/docs/" + f + ".jpg")} alt={t} loading="lazy" /></a>
+        <figcaption><strong>{t}</strong><br /><span class="cap">{c}</span></figcaption>
+      </figure>
+    ))}
+  </div>
+  <p class="cap" style="margin-top:14px">Click any image for the full-size scan. Originals are held
+    offline by the family; these are reduced for the web.</p>
+</section>
+
+<section class="blk">
   <h2>What this cost, and what it is worth</h2>
   <div class="prose">
     <p><strong>The cost.</strong> A ranked list of archive files to buy, drawn up in good faith, whose top
@@ -417,4 +458,12 @@ const row = (k) => M[k] || { as_written: "", note: "" };
       registers did.</p>
   </div>
 </section>
+<style>
+  .docs { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:26px; margin-top:22px; }
+  .doc { margin:0; }
+  .doc img { width:100%; height:auto; display:block; border:1px solid var(--rule,#d8d2c6);
+             background:#fff; border-radius:3px; }
+  .doc figcaption { margin-top:9px; font-size:.92rem; line-height:1.45; }
+  @media (max-width:560px){ .docs { grid-template-columns:1fr; gap:20px; } }
+</style>
 </Base>

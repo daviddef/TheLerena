@@ -891,6 +891,38 @@
    "owner": "David",
    "since": "2026-09-16",
    "note": "**Belongs to the Booyzen archive, found here, and time-critical.** A sweep of David's Documents folder on 16 September 2026 found *** the death notice of GEORGE DOWNING MOUNTJOY BOOYZEN, estate 1095/48, already photographed and in the house *** It is one of the **six Booyzen estates Anne is booked to pull at Pretoria on 22 September**. Its companion, 2945/44, that archive has already read. **The other four on her list — 3734/46, 769/52, 5155/51, 10/57 and 52653 — are NOT in the folder**, so the rest of her trip stands. What is still worth having from 1095/48 is the will and the liquidation account, not the death notice."
+  },
+  {
+   "n": 112,
+   "what": "Mine the 2018 GEDCOM — 8,286 people, and this archive had never opened it",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-16",
+   "note": "*** The largest unmined source in the whole project, and it is on the disk *** `2018-07 Defranceski.ged`, 7.5 MB: **8,286 individuals, 2,532 families, 400 sources, 4,001 media objects** — against 278 people in this register. **81 carry a Lerena or Taylor name; 42 of those carry photographs.** The GEDCOM text costs nothing to parse and is a morning's work: every Lerena and Taylor, their dates, places and sources, compared against this register, listing what the tree asserts that the archive has never tested. *** Treat all of it as TREE, not RECORD, until a source is read ***"
+  },
+  {
+   "n": 113,
+   "what": "Get 'Mary Ann Taylor Death Certificate' off MyHeritage — it is the way into the Brayley wall",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-16",
+   "note": "A media object of that title is attached to **Mary Septima Taylor** in the tree. It is her **mother's** certificate — *** MARY ANN HELLEN TAYLOR, born BRAYLEY, died 1900 *** — the death that orphaned Mary Septima and set up the emigration. This archive does not hold it and has never seen it. **`rootschat-assessment.tsv` says Brayley is the line this archive could not push past**, and on the same day the DNA subtraction produced a paternal cluster of *Bailey* trees at 116 cM. **Three separate roads now point at Brayley.** The file is not on the disk — the GEDCOM's media references point at MyHeritage's servers — so it needs the live tree, which David is logged into."
+  },
+  {
+   "n": 114,
+   "what": "Settle the grave from the photograph already in the tree",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-16",
+   "note": "A media object titled **\"Lerena Grave\"** hangs on Nuno Fernando in the tree. The family were told **Newlands**; the 1950 death certificate names **Maitland Cemetery no 1** as the intended place of burial. *** A photograph of the headstone or plot may settle which, before anybody writes to a cemetery office ***"
+  },
+  {
+   "n": 115,
+   "what": "One estate-file page exists that the local folder does not hold",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-16",
+   "note": "The tree attaches **record-image_3Q9M-C913-K98Q-J** to Roberto Paul. The folder on disk holds K941, K94R, K983-D, K983-R, K98S-V and K9H3-D — **not K98Q-J**. One more page of MOOC 6/9/17017, already captured by somebody, sitting on MyHeritage. Cheaper than the Cape Town archives."
   }
  ],
  "accounts": [
