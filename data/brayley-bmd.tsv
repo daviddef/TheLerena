@@ -36,3 +36,46 @@ claim	what the index says	grade
 # *** ONE certificate, and it is the marriage: GRO, marriages, BIDEFORD, March quarter 1870, 5b/794. ***
 # It would name both fathers. *** Mary Ann Hellen's father is the whole question *** - it would confirm
 # or destroy John Brailey in one line, and it would fix the Taylor pairing at the same time.
+#
+# ============ THIRD PASS: THE NINE TAYLOR CHILDREN, AND WHAT THEIR NAMES PROVE ============
+# One search - births, surname TAYLOR, BIDEFORD registration district (which contains Northam), 1870-1890.
+# *** NINE OF NINE. Every child the tree names is in the index, in the right district, in the right
+# quarter. *** Not one miss.
+child, as the tree has them	the index entry	grade
+*** Kathleen Georgina, b. 4 November 1870, Bideford ***	*** Births, Dec quarter 1870: TAYLOR, Kathleen Georgina - Bideford - 5b/490 ***	*** CONFIRMED. *** And note the forename: *** her grandmother GEORGINA TEMPLE was alive and living in the same district. ***
+*** William John, b. November 1870 ***	*** Births, Dec quarter 1870: TAYLOR, William John - Bideford - 5b/489 ***	*** CONFIRMED - AND SO IS THE ODDITY. *** The tree gives two children born in the same month, which looks like a data error until the index shows *** both of them registered in the same quarter on ADJACENT PAGES, 489 and 490. *** They are almost certainly twins. *** The tree was right and it looked wrong. ***
+*** Horace Archibald, b. April 1872, 23 Geneva Place, Bideford ***	*** Births, Jun quarter 1872: TAYLOR, Horace Archibald - Bideford - 5b/507 ***	*** CONFIRMED. *** April falls in the June quarter.
+*** Isabella TEMPLE, b. 1874 ***	*** Births, Dec quarter 1874: TAYLOR, Isabella Temple - Bideford - 5b/497 ***	*** CONFIRMED - AND THIS IS EVIDENCE OF SOMETHING ELSE ENTIRELY. *** See below.
+*** Margaret Hellen WALKER, b. 1876 ***	*** Births, Dec quarter 1876: TAYLOR, Margaret Hellen W - Bideford - 5b/481 ***	*** CONFIRMED, initial and all. *** See below.
+*** Irene, b. 1879, Northam ***	*** Births, Mar quarter 1879: TAYLOR, Irene - Bideford - 5b/524 ***	*** CONFIRMED. *** Northam is a parish inside the Bideford registration district.
+*** Lucy Elizabeth, b. 4 August 1881, North Street, Northam ***	*** Births, Sep quarter 1881: TAYLOR, Lucy Elizabeth - Bideford - 5b/508 ***	*** CONFIRMED. ***
+*** MARY SEPTIMA, b. 17 September 1884, Northam - PABLO ARMANDO'S WIFE ***	*** Births, Dec quarter 1884: TAYLOR, Mary Septima - Bideford - 5b/506 ***	*** CONFIRMED, AND IT IS THE ONE THAT MATTERS TO THIS ARCHIVE. *** A birth on 17 September registered within the six weeks the law allowed falls in the December quarter. *** The woman who married Pablo Armando at St Dominic's, Wynberg, on 3 September 1911 now has her own birth registration located: Bideford district, December quarter 1884, volume 5b, page 506. ***
+*** Agnes WALKER, b. 3 August 1889, 2 Fore Street, Northam ***	*** Births, Sep quarter 1889: TAYLOR, Agnes Walker - Bideford - 5b/502 ***	*** CONFIRMED. *** See below.
+#
+# *** THE NAMES ARE THE FIND, NOT THE DATES. ***
+# The dates only confirm a tree this archive already half-believed. *** The NAMES do something the tree
+# could not do for itself. ***
+#
+# *** ISABELLA "TEMPLE" TAYLOR, 1874. MARGARET HELLEN "W[ALKER]" TAYLOR, 1876. AGNES "WALKER" TAYLOR, 1889. ***
+# *** Those are not forenames. They are the surnames of the two women at the top of the Scottish end of
+# the ascent *** - GEORGINA TEMPLE, the grandmother, born Haddington 1814; and HELEN WALKER, who married
+# George Temple at Haddington on 6 January 1813 and is FIVE generations up.
+# *** Before tonight, Helen Walker cited NOTHING AT ALL - `gedcom-graded.tsv` says so in terms. ***
+# *** She is still not on a record. But three of her descendants were REGISTERED WITH HER SURNAME AS A
+# GIVEN NAME, by a clerk, in 1874, 1876 and 1889 - and that IS on a record. *** A family does not put
+# "Temple" and "Walker" on three birth registrations by accident. *** The naming pattern this archive
+# noticed and guessed at is now documented, even though the woman behind it is not. ***
+#
+# *** AND THE COUNT ARGUMENT: WHO IS THE TENTH CHILD? ***
+# `gedcom-import.tsv` says *** TEN children *** and names nine. *** And "SEPTIMA" MEANS SEVENTH. ***
+# Count the daughters as the index has them: Kathleen Georgina (1), Isabella Temple (2), Margaret
+# Hellen Walker (3), Irene (4), Lucy Elizabeth (5) - *** which makes Mary Septima the SIXTH, and her
+# name wrong. *** *** There is a daughter missing, born between 1881 and 1884. ***
+# *** THE INDEX OFFERS EXACTLY ONE: "TAYLOR, Edith - Bideford - Sep quarter 1882 - 5b/506". ***
+# And this archive already knew the name from a completely different direction: *** Mary Septima stayed
+# with her sister EDIE at 26 Fore Street, Northam, in 1935. *** With Edith in sixth place, *** Mary
+# Septima is the seventh daughter and her name means what it says. ***
+# *** GRADED AS A STRONG CANDIDATE, NOT A FIND. *** "Edith" is a common name, Bideford held several
+# Taylor families, and *** the birth index does not give a mother's maiden name until September 1911 ***,
+# so parentage cannot be read off it. *** WHAT WOULD SETTLE IT COSTS NOTHING: the 1891 census at
+# Northam, which lists the household by name and age. ***
