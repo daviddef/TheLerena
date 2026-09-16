@@ -1,11 +1,19 @@
 ---
 import Base from "../layouts/Base.astro";
 import Rule from "../components/Rule.astro";
+import Timeline from "@daviddef/archive-kit/components/Timeline.astro";
 import { u } from "../lib/url.js";
 import rows from "../data/timeline.json";
 import { emph, plain } from "../lib/text.js";
 const KIND = { life: ["doc", "Life"], document: ["inf", "Document"], context: ["lore", "The world"] };
 const span = [rows[0].year, rows[rows.length - 1].year];
+const events = rows.map((r) => ({
+  year: r.year,
+  when: r.date && r.date !== "-" ? r.date : String(r.year),
+  title: emph(r.what),
+  kind: (KIND[r.kind] || KIND.life)[1],
+  source: emph(r.source),
+}));
 ---
 <Base title="The Timeline"
       eyebrow={`${span[0]}–${span[1]} · ${rows.length} fixed points`}
@@ -13,24 +21,7 @@ const span = [rows[0].year, rows[rows.length - 1].year];
 
 <Rule name="horse" label="From Rosario to Newlands" />
 
-<section class="blk">
-  <div class="scroll" style="margin-top:18px">
-    <table>
-      <thead><tr><th style="width:6rem">Year</th><th style="width:8rem">Date</th><th>What</th><th style="width:20rem">Resting on</th></tr></thead>
-      <tbody>
-        {rows.map(r => (
-          <tr>
-            <td class="m"><strong>{r.year}</strong></td>
-            <td class="m">{r.date && r.date !== "-" ? r.date : ""}</td>
-            <td><span set:html={emph(r.what)} /><br />
-              <span class={`chip ${(KIND[r.kind] || KIND.life)[0]}`}>{(KIND[r.kind] || KIND.life)[1]}</span></td>
-            <td class="cap" set:html={emph(r.source)} />
-          </tr>
-        ))}
-      </tbody>
-    </table>
-  </div>
-</section>
+<Timeline events={events} u={u} noun="fixed points" />
 
 <section class="blk">
   <div class="note"><strong>The gap that shapes the page.</strong> Between his birth at Rosario in 1882
