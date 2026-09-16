@@ -20,6 +20,7 @@ import conv from "../data/brayley-convergence.json";
 import bmd from "../data/brayley-bmd.json";
 import c1891 from "../data/1891-northam-census.json";
 import c1851 from "../data/1851-bideford-brayley.json";
+import c1861 from "../data/1861-bideford-brailey.json";
 const M = Object.fromEntries(marriage.map((r) => [r.field, r]));
 const N = Object.fromEntries(notices.map((r) => [r.field, r]));
 const D = Object.fromEntries(dn.map((r) => [r.field, r]));
@@ -33,6 +34,7 @@ const convJoin = conv.find((r) => r.probe === "what_would_join_them");
 const bmdRows = bmd.filter((r) => r.grade && r.grade !== "grade");
 const h1891 = c1891.filter((r) => r.relation);
 const h1851 = c1851.filter((r) => r.relation && r.relation !== "relation");
+const h1861 = c1861.filter((r) => r.rel && r.rel !== "rel");
 const forRows = llorens.filter((r) => r.field.startsWith("for_"));
 const againstRows = llorens.filter((r) => r.field.startsWith("against_"));
 const just = passport.filter((r) => r.field.startsWith("justificativos") ||
@@ -667,36 +669,6 @@ const DOCS = [
       registered with her surname by a clerk, in 1874, 1876 and 1889 &mdash; and that is.</strong></p>
   </div>
 
-  <h3>2 Fore Street, Northam &mdash; the night of 5 April 1891</h3>
-  <p class="dek">Piece 1787, enumeration district 4, folio 42, page 1, schedule 2. The first time this
-    archive has seen Mary Septima&rsquo;s family in a household return.</p>
-  <div class="scroll" style="margin-top:16px">
-    <table>
-      <thead><tr><th>Name</th><th class="m">Rel.</th><th class="m">Age</th><th>Occupation</th><th>Birthplace</th></tr></thead>
-      <tbody>
-        {h1891.map((r) => (
-          <tr><td><span set:html={em((r.forenames || "") + " " + (r.surname || ""))} /></td>
-            <td class="m"><span set:html={em(r.relation)} /></td><td class="m"><span set:html={em(String(r.age))} /></td>
-            <td><span set:html={em(r.occupation)} /></td>
-            <td><span set:html={em(r.birthplace)} /></td></tr>
-        ))}
-      </tbody>
-    </table>
-  </div>
-  <div class="prose">
-    <p><strong>What it settles.</strong> William Taylor is a <strong>retired army sergeant</strong> driving
-      a cab &mdash; a trade the tree had mistakenly attached to an infant who died at nine months in 1825.
-      His wife gives her birthplace as <strong>St Bartholomews, City of London</strong>, which is exactly
-      what the tree claimed and exactly what the birth index has no registration for. And
-      <strong>William J. and Kathleen G. are both twenty and both born at Bideford</strong>: the tree&rsquo;s
-      two children born in the same month, which read like a slip, are twins.</p>
-    <p><strong>What it does not settle.</strong> Two children are missing from it &mdash; Isabella Temple,
-      who would be sixteen, and <strong>Mary Septima, who would be six</strong>. A county-wide check of all
-      368 Devon Taylors born 1882&ndash;1886 does not find her either. That null is soft, because FreeCEN&rsquo;s
-      Devon is transcribed parish by parish; Northam itself is complete, which is the only reason her
-      absence from it counts for anything.</p>
-  </div>
-
   <h3>Lower Gunstone, Bideford &mdash; the night of 30 March 1851</h3>
   <p class="dek">Piece 1895, folio 108, page 8, schedule 34. Four generations in one house, and the
     deepest record the Brayley line has.</p>
@@ -731,10 +703,80 @@ const DOCS = [
       search in the same parish and year returns twelve, so the parish is transcribed and the zero is real
       &mdash; and expected, since the family had moved to Bideford.</p>
   </div>
+
+  <h3>Lower Gunstone, Bideford &mdash; the night of 7 April 1861, and three households on one street</h3>
+  <p class="dek">Piece 1502, enumeration district 7. <strong>This entry almost did not happen.</strong> A
+    search of all 129 Brayleys in FreeCEN&rsquo;s Devon for 1861 found no William born Westleigh, no
+    Georgina born in Scotland and no child born in London. The control was clean &mdash; 53 Taylors at
+    Bideford in the same year, so the parish is properly transcribed &mdash; and the null looked solid
+    enough to write down as <em>the family left Bideford between 1851 and 1870</em>. It would have been
+    false. <strong>The surname was searched again as BRAILEY and all of them came back.</strong> That is
+    the third false zero this one spelling produced in a single evening.</p>
+  <div class="scroll" style="margin-top:16px">
+    <table>
+      <thead><tr><th class="m">Sch.</th><th>Name</th><th class="m">Rel.</th><th class="m">Age</th><th>Occupation</th><th>Birthplace</th></tr></thead>
+      <tbody>
+        {h1861.map((r) => (
+          <tr><td class="m"><span set:html={em(r.schedule)} /></td>
+            <td><span set:html={em(r.who)} /></td>
+            <td class="m"><span set:html={em(r.rel)} /></td>
+            <td class="m"><span set:html={em(String(r.age))} /></td>
+            <td><span set:html={em(r.occupation)} /></td>
+            <td><span set:html={em(r.birthplace)} /></td></tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  <div class="prose">
+    <p><strong>The tree&rsquo;s own words, on a record.</strong> The current tree gives Mary Ann Hellen
+      Brayley the occupation <em>House Servant</em> and nothing to support it. Here she is at eighteen,
+      entered as <strong>House Servant</strong> in the household of Michael Prust, china dealer &mdash;
+      and she went into service <strong>four doors from her mother</strong>, schedule 38 against her
+      mother&rsquo;s 27, on the same street.</p>
+    <p><strong>And the family did not leave.</strong> Lower Gunstone in 1851 and Lower Gunstone in 1861;
+      Mary Ann Hellen marries at Bideford in 1870; her mother dies at Bideford in 1900 aged 85; she and
+      her brother die there the same year. <strong>Four generations on one street for at least fifty
+      years.</strong> John is sixteen here, which puts his birth at 1845 for the third time &mdash; two
+      censuses now agree against the one informant who said 1847 in 1900.</p>
+    <p class="cap">One age still does not fit and is recorded as not fitting. Peggy Reed is 78 in 1851,
+      implying about 1773, against the tree&rsquo;s 12 January 1777. She died in January 1858, eight years
+      before the death index began carrying ages, so her gap cannot be closed from an index at all &mdash;
+      it needs the Braunton baptism register.</p>
+  </div>
+  <h3>2 Fore Street, Northam &mdash; the night of 5 April 1891</h3>
+  <p class="dek">Piece 1787, enumeration district 4, folio 42, page 1, schedule 2. The first time this
+    archive has seen Mary Septima&rsquo;s family in a household return.</p>
+  <div class="scroll" style="margin-top:16px">
+    <table>
+      <thead><tr><th>Name</th><th class="m">Rel.</th><th class="m">Age</th><th>Occupation</th><th>Birthplace</th></tr></thead>
+      <tbody>
+        {h1891.map((r) => (
+          <tr><td><span set:html={em((r.forenames || "") + " " + (r.surname || ""))} /></td>
+            <td class="m"><span set:html={em(r.relation)} /></td><td class="m"><span set:html={em(String(r.age))} /></td>
+            <td><span set:html={em(r.occupation)} /></td>
+            <td><span set:html={em(r.birthplace)} /></td></tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  <div class="prose">
+    <p><strong>What it settles.</strong> William Taylor is a <strong>retired army sergeant</strong> driving
+      a cab &mdash; a trade the tree had mistakenly attached to an infant who died at nine months in 1825.
+      His wife gives her birthplace as <strong>St Bartholomews, City of London</strong>, which is exactly
+      what the tree claimed and exactly what the birth index has no registration for. And
+      <strong>William J. and Kathleen G. are both twenty and both born at Bideford</strong>: the tree&rsquo;s
+      two children born in the same month, which read like a slip, are twins.</p>
+    <p><strong>What it does not settle.</strong> Two children are missing from it &mdash; Isabella Temple,
+      who would be sixteen, and <strong>Mary Septima, who would be six</strong>. A county-wide check of all
+      368 Devon Taylors born 1882&ndash;1886 does not find her either. That null is soft, because FreeCEN&rsquo;s
+      Devon is transcribed parish by parish; Northam itself is complete, which is the only reason her
+      absence from it counts for anything.</p>
+  </div>
+
 </section>
 
 <section class="blk">
-  <h2>The documents themselves</h2>
+  <h2>The documents themselves
   <p class="dek">This archive has been text since it began. These are the six it can publish: every
     person named on them is dead. <strong>The 1971 and 1973 death notices are deliberately not here</strong>
     &mdash; they list living children with their birth dates, and this estate names the living and
