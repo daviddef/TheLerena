@@ -14,6 +14,7 @@ import memory from "../data/family-memory.json";
 import llorens from "../data/llorens-1872.json";
 import ged from "../data/gedcom-current.json";
 import ascent from "../data/brayley-ascent.json";
+import imp from "../data/gedcom-import.json";
 import conv from "../data/brayley-convergence.json";
 const M = Object.fromEntries(marriage.map((r) => [r.field, r]));
 const N = Object.fromEntries(notices.map((r) => [r.field, r]));
@@ -500,6 +501,40 @@ const DOCS = [
     Westminster marriage of 9 July 1839, and the death of John Brailey at the
     <strong>Devon County Asylum</strong> on 4 May 1851 &mdash; which is very probably the
     <em>&ldquo;missing husband&rdquo;</em> of Sue Rowbotham&rsquo;s chapter title.</div>
+</section>
+
+<section class="blk">
+  <h2>7c. What else is in the current tree, and is not in this archive</h2>
+  <p class="dek"><strong>245 people</strong> in the tree carry a Lerena, Taylor or Brayley name.
+    <strong>122 of them are not in this archive&rsquo;s register of 278</strong>, and 41 of those are
+    dead. This is the useful part of the import &mdash; and none of it is promoted on the tree&rsquo;s
+    say-so.</p>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr><th style="width:11rem">Who</th><th style="width:20rem">The tree says</th>
+        <th>What this archive should do</th></tr></thead>
+      <tbody>
+        {imp.map((r) => (
+          <tr><td><span class="cap" set:html={em(r.group)} /><br /><strong set:html={em(r.who)} /></td>
+            <td set:html={em(r.what_the_tree_says)} />
+            <td class="cap" set:html={em(r.what_this_archive_should_do)} /></tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  <div class="panel" style="border-left:3px solid var(--accent);margin:24px 0">
+    <div class="lab">The one that changes what this archive can look for</div>
+    <p style="margin:10px 0 0">The tree carries <strong>Félix de Llerena, born about 1725 at Córdoba
+      in <em>Andalusia</em></strong>, and <strong>Fidel Llerena, died 30 January 1822, son of Sancho
+      Francisco Llerena Aguilar and María Josefa Teresa Fernandez</strong>. Those are the people this
+      archive read off the <a href={u("/searched/")}>Canelones marriage act of 8 January 1791</a>
+      &mdash; arriving from a completely different direction, with a country attached.</p>
+    <p style="margin-top:10px"><strong>And four Uruguayan departments this archive has never
+      searched:</strong> Flores, San José, Florida, and Rosario in Colonia. It has worked Canelones and
+      Montevideo and nothing else. <strong>Four new parishes with names and dates attached.</strong></p>
+    <p class="cap" style="margin-top:10px">All of it is <em>tree</em>. Where it came from is unknown, and
+      that is the first question to ask before any of it is treated as support.</p>
+  </div>
 </section>
 
 <section class="blk">
