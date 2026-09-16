@@ -25,7 +25,12 @@ python3 tools/consistency.py
 # on 14 September 2026 astro reported "Cannot find module .../dist/chunks/astro/server_*.mjs"
 # because leftovers from the broken PlaceSpark build were still on disk.
 rm -rf site/dist
-( cd site && npx astro build > /tmp/astro-build.log 2>&1 || { tail -20 /tmp/astro-build.log; exit 1; } )
+# Use `npm run build`, NOT `npx astro build`. CI runs `npm run build`, which chains
+# check:living, check:kit, check:worklist and check:covers after astro. Running astro
+# alone meant this gate said ALL GATES PASSED while the deploy failed: on 16 September
+# 2026 three pushes in a row failed on a worklist row with an invalid state, and nothing
+# local ever saw it. The local gate must run what CI runs.
+( cd site && npm run build > /tmp/astro-build.log 2>&1 || { tail -30 /tmp/astro-build.log; exit 1; } )
 python3 tools/check-links.py
 python3 tools/check-errands.py
 python3 tools/drift.py
