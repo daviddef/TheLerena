@@ -23,3 +23,34 @@ question	searches run	answer
 # *** THAT MAKES HER THE BEST CANDIDATE FOR THE MISSING DAUGHTER, AND IT IS STILL NOT EVIDENCE. *** It
 # is an argument from what is absent, which is the weakest kind there is, and it is recorded as a
 # candidate so that somebody can test it against Sue Rowbotham's own text rather than against a guess.
+#
+# ================= ROW 128: THE TENTH TAYLOR CHILD - AND WHY FREEBMD CANNOT ANSWER IT =================
+# *** The count argument, restated so it is checkable. *** "SEPTIMA" MEANS SEVENTH. The daughters of
+# William Taylor and Mary Ann Hellen Brayley, as the birth index gives them, are *** Kathleen Georgina
+# (1870), Isabella Temple (1874), Margaret Hellen Walker (1876), Irene (1879), Lucy Elizabeth (1881) ***
+# - and then Mary Septima (Dec quarter 1884). *** That makes her the SIXTH. For her name to mean what it
+# says, ONE DAUGHTER IS MISSING, BORN BEFORE DECEMBER 1884. ***
+#
+# *** THE SEARCH THIS ROW WAS OPENED TO RUN, NOW RUN: infant deaths. *** The reasoning was that a child
+# who died before 1891 would sit in the birth index, be counted among the family's ten, and appear in no
+# census - which is exactly the shape of the person missing.
+# *** FreeBMD deaths, TAYLOR, BIDEFORD district, 1881-1891: 37 entries, of which FOURTEEN are aged 0-3. ***
+candidate	birth index	death index	verdict
+*** ETHEL Taylor ***	*** born Bideford, Dec quarter 1882, 5b/510 ***	*** died Bideford aged TWO ***	*** FITS THE GAP EXACTLY *** - born between Lucy Elizabeth (Sep 1881) and Mary Septima (Dec 1884), and dead before any census could record her. *** AND SHE CANNOT BE ATTACHED TO THIS FAMILY. ***
+*** EDITH Taylor ***	born Bideford, Sep quarter 1882, 5b/506	no infant death found	The earlier candidate, from Mary Septima staying with *** "her sister Edie" *** at 26 Fore Street in 1935. Still fits the gap; still cannot be attached.
+Ida, Jane, Susan, Ellen, Ann Eliza Taylor	various, Bideford	died aged 0-2 at Bideford	Other Taylor infants in the same town in the same years. *** There were many Taylor families in Bideford and nothing in either index distinguishes them. ***
+#
+# *** SO THE HONEST VERDICT ON ROW 128: FREEBMD CANNOT SETTLE IT, AND NO AMOUNT OF FURTHER SEARCHING
+# THERE WILL. *** The reason is structural and worth writing down once:
+# *** THE FREEBMD BIRTH INDEX CARRIES NO MOTHER'S MAIDEN NAME, AND THE DEATH INDEX CARRIES NO PARENTS. ***
+# There is therefore *** no field anywhere in FreeBMD that can join a Bideford Taylor child to THIS
+# Taylor household ***, and every candidate above is a name in the right town in the right year and
+# nothing more. *** This archive has been wrong before by promoting exactly that. ***
+#
+# *** WHAT WOULD SETTLE IT IN ONE SEARCH, AND IT IS DAVID'S TO RUN. ***
+# *** THE GRO'S OWN ONLINE INDEX AT gro.gov.uk IS NOT FREEBMD, AND THE DIFFERENCE IS THE WHOLE POINT:
+# IT GIVES THE MOTHER'S MAIDEN NAME ON EVERY BIRTH FROM 1837. *** FreeBMD does not and never will.
+# *** THE SEARCH: births, surname TAYLOR, mother's maiden name BRAYLEY, district BIDEFORD, 1870-1890. ***
+# *** That returns EVERY child of William Taylor and Mary Ann Hellen Brayley, by definition, with no
+# inference required - the tenth child included, whoever she was. *** It needs a free GRO account, and
+# this session does not create accounts.

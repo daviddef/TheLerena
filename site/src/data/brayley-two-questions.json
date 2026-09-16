@@ -8,5 +8,25 @@
   "question": "*** ROW 130. Is GEORGINA BRAYLEY, born London Kilburn about 1871 *** - a general servant in a draper's house at Tower Street, Northam, in 1891 - *** a daughter of JOHN WALKER BRAYLEY? ***",
   "searches run": "*** Marriages, BRAYLEY, forename \"John Walker\", 1863-1880, all counties. ***",
   "answer": "*** REFUTED, and cleanly. *** *** JOHN WALKER BRAYLEY MARRIED IN THE DECEMBER QUARTER OF 1876, AT BIDEFORD - 5b/978. *** That is *** FIVE YEARS AFTER *** a child born at Kilburn in 1871. *** She cannot be his daughter by that marriage ***, and the pattern this archive was reasoning from - a Brayley of the right age, in service at Northam, carrying the family's forename - *** was a resemblance and nothing more. She is not adopted. ***"
+ },
+ {
+  "question": "candidate",
+  "searches run": "birth index",
+  "answer": "death index"
+ },
+ {
+  "question": "*** ETHEL Taylor ***",
+  "searches run": "*** born Bideford, Dec quarter 1882, 5b/510 ***",
+  "answer": "*** died Bideford aged TWO ***"
+ },
+ {
+  "question": "*** EDITH Taylor ***",
+  "searches run": "born Bideford, Sep quarter 1882, 5b/506",
+  "answer": "no infant death found"
+ },
+ {
+  "question": "Ida, Jane, Susan, Ellen, Ann Eliza Taylor",
+  "searches run": "various, Bideford",
+  "answer": "died aged 0-2 at Bideford"
  }
 ]
