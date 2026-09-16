@@ -143,7 +143,20 @@
   "relTotal": 6,
   "relRegister": 3,
   "relTree": 3,
-  "evidence": []
+  "evidence": [
+   {
+    "says": "*** HER BIRTH REGISTRATION, FOUND. *** Births, December quarter 1884, *** BIDEFORD, volume 5b page 506 *** - a birth on 17 September registered within the six weeks the law allowed falls in the December quarter. *** The woman who married Pablo Armando at St Dominic's, Wynberg, on 3 September 1911 now has her own birth on an index. ***",
+    "source": "England & Wales, GRO Birth Index (FreeBMD)",
+    "ark": "",
+    "readOn": "2026-09-16"
+   },
+   {
+    "says": "*** Her nine brothers and sisters were all found in the same index and then followed to their deaths *** - and four married surnames came out of it: Isabella Temple married *** HENRY DALLING ***, Lucy Elizabeth married *** WILLIAM NORRISH SWEET ***, Irene married *** HENRY ALBERT BURTON ***, Agnes Walker married *** ALFRED S WOOD ***. *** Mary Septima is the only one of the ten who is not in the English death index: she died at Cape Town in 1935. She is the one who left. ***",
+    "source": "England & Wales, GRO Marriage and Death Indexes (FreeBMD)",
+    "ark": "",
+    "readOn": "2026-09-17"
+   }
+  ]
  },
  {
   "slug": "roque-luis-armando-lerena",
@@ -5753,7 +5766,14 @@
   "relTotal": 1,
   "relRegister": 0,
   "relTree": 1,
-  "evidence": []
+  "evidence": [
+   {
+    "says": "*** HIS SON'S BAPTISM NAMES HIS OWN PARENTS. *** Luis Escolastico, baptised Iglesia Matriz, Montevideo, 10 February 1811 - \"abuelos paternos *** FELIZ GERENA y ROSALIA AGUILAR ***\". *** And the 1812 act of a DIFFERENT family, one year later at the same font, writes ITS grandfather \"SALVADOR GERENA\" *** - the same clerk-world spelling, which is why the two houses had to be told apart by where they came from rather than by how they were written.",
+    "source": "Uruguay, registros parroquiales, 1726-2000",
+    "ark": "3:1:3Q9M-C9BW-X7F6-M",
+    "readOn": "2026-09-17"
+   }
+  ]
  },
  {
   "slug": "laura-adela-lerena-juanico",
@@ -8031,7 +8051,14 @@
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0,
-  "evidence": []
+  "evidence": [
+   {
+    "says": "Her marriage act, re-read from the index 17 September 2026: *** \"Justa Pastora Llerena, natural de CANELONES, residente en el CORDON, soltera - 3 November 1830, Iglesia San Pablo, Cordon, Montevideo, certificate 3 - hija de SANCHO LLERENA y MARIA FERNANDEZ\" ***, marrying *** MANUEL BARROS, natural de PERNAMBUCO ***. *** Already held from the 1831 Cordon act; recorded here because a record about a person belongs on her page. ***",
+    "source": "Uruguay, registros parroquiales, 1726-2000",
+    "ark": "1:1:X9PT-MQTQ",
+    "readOn": "2026-09-17"
+   }
+  ]
  },
  {
   "slug": "manuel-zeferino-barros",
@@ -8620,7 +8647,14 @@
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0,
-  "evidence": []
+  "evidence": [
+   {
+    "says": "*** His son ALBERTO's death is now on a record, not a tree. *** Montevideo civil registration, *** certificate 246 ***, death 1 March 1921: \"Alberto Lerena, 69, born about 1852, father *** AVELINO LERENA ***, mother *** AMBROSIA TREIBEL ***, wife Maria Ines Larriera.\" *** The archive held the Lerena Traibel children on FamilySearch tree IDs; this is the first of them with a register behind it. ***",
+    "source": "Uruguay, Civil Registration, 1879-2020",
+    "ark": "1:1:6LD5-X4PR",
+    "readOn": "2026-09-17"
+   }
+  ]
  },
  {
   "slug": "ambrosia-traibel",
