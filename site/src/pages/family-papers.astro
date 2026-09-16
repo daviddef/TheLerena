@@ -11,9 +11,13 @@ import notices from "../data/death-notices-read.json";
 import passport from "../data/pablo-armando-passport.json";
 import dn from "../data/death-notice-1950.json";
 import memory from "../data/family-memory.json";
+import llorens from "../data/llorens-1872.json";
 const M = Object.fromEntries(marriage.map((r) => [r.field, r]));
 const N = Object.fromEntries(notices.map((r) => [r.field, r]));
 const D = Object.fromEntries(dn.map((r) => [r.field, r]));
+const L = Object.fromEntries(llorens.map((r) => [r.field, r]));
+const forRows = llorens.filter((r) => r.field.startsWith("for_"));
+const againstRows = llorens.filter((r) => r.field.startsWith("against_"));
 const just = passport.filter((r) => r.field.startsWith("justificativos") ||
   ["photograph", "signature", "fingerprint"].includes(r.field));
 const em = (t) => (t || "").replace(/\*\*\* (.+?) \*\*\*/g, "<strong>$1</strong>");
@@ -81,6 +85,32 @@ const row = (k) => M[k] || { as_written: "", note: "" };
   <div class="note" style="margin-top:18px"><strong>And an errand closes.</strong> The request to the
     Western Cape Archives is answered. What is still worth having out of that estate file is
     <strong>the will of 6 February 1942</strong> and the inventory &mdash; not the death notice.</div>
+
+  <h3 style="margin-top:30px">And a second 1950 document, which is not the same thing</h3>
+  <p class="dek">A death <em>notice</em> is filed for the Master. A death <em>certificate</em> is the
+    civil registration. The same folder holds <strong>Union of South Africa death certificate
+    A&nbsp;214036</strong>, district of Wynberg, entry W612/50 &mdash; and it disagrees with the notice,
+    which disagrees with the passport.</p>
+  <div class="scroll" style="margin-top:14px">
+    <table>
+      <thead><tr><th style="width:12rem">On the certificate</th><th>As written</th></tr></thead>
+      <tbody>
+        {["cert_name", "cert_age", "cert_birthplace", "cert_occupation", "cert_cause", "cert_doctor",
+          "cert_burial", "cert_informant"].map((k) => (
+          <tr><td class="cap">{k.replace("cert_", "").replace(/_/g, " ")}</td>
+            <td><span set:html={em(D[k] ? D[k].as_written : "")} />
+              {D[k] && D[k].note && <><br /><span class="cap" set:html={em(D[k].note)} /></>}</td></tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  <div class="panel" style="border-left:3px solid var(--ochre,#8a7f5c);margin:22px 0">
+    <p style="margin:0"><strong>Not one document made at his death was filled in by anybody who knew
+      where he came from.</strong> The notice was completed by a woman of no relation who was present
+      when he died. The certificate was completed by <strong>W. Fraser, of Main Road, Observatory,
+      whose stated qualification is &ldquo;causing burial&rdquo;</strong> &mdash; the undertaker. His
+      three adult sons appear on the notice as heirs and on neither as informants.</p>
+  </div>
 </section>
 
 <section class="blk">
@@ -319,6 +349,53 @@ const row = (k) => M[k] || { as_written: "", note: "" };
         ))}
       </tbody>
     </table>
+  </div>
+</section>
+
+<section class="blk">
+  <h2>6. And in the same folder, a rival identification nobody had told the archive about</h2>
+  <p class="dek">Filed under <em>Roberto Paul Lerena Documents</em>, between the estate papers, are two
+    photographs of a <strong>Buenos Aires baptism register of 1872</strong>. Somebody pulled them
+    deliberately. This archive had never seen them and has no note of the reasoning.</p>
+
+  <div class="panel" style="border-left:3px solid var(--accent);margin:22px 0">
+    <div class="lab">Libro de Bautismos de la Parroquia de San Miguel, Año de 1872</div>
+    <p class="lede" style="margin:10px 0 0">Roberto Juan Roque <strong>LLORENS</strong></p>
+    <p style="margin-top:10px">Born <strong>16 August 1872</strong>, baptised 4 September 1872 &mdash;
+      <em>hijo legítimo</em> of <strong>Don Roberto Llorens</strong>, of Spain, 25, and
+      <strong>Doña Francisca Fernández</strong>, of Spain, 23, of <em>Calle de Chacabuco 156</em>.
+      Godparents Juan Berenguer and Rita Carbajo, both Spanish, both of Calle de la Victoria 478.</p>
+  </div>
+
+  <div class="grid g2" style="margin-top:24px">
+    <div class="panel">
+      <div class="lab">For</div>
+      <ul style="margin:10px 0 0;padding-left:18px">
+        {forRows.map((r) => (<li style="margin-bottom:10px"><span set:html={em(r.value)} /></li>))}
+      </ul>
+    </div>
+    <div class="panel">
+      <div class="lab">Against</div>
+      <ul style="margin:10px 0 0;padding-left:18px">
+        {againstRows.map((r) => (<li style="margin-bottom:10px"><span set:html={em(r.value)} /></li>))}
+      </ul>
+    </div>
+  </div>
+
+  <div class="panel" style="border-left:3px solid var(--ochre,#8a7f5c);margin:24px 0">
+    <div class="lab">Where this archive lands</div>
+    <p class="lede" style="margin:10px 0 0" set:html={em(L.verdict ? L.verdict.value : "")} />
+    <p style="margin-top:12px" set:html={em(L.verdict ? L.verdict.note : "")} />
+  </div>
+
+  <div class="note"><strong>And it is cheap to settle.</strong>
+    <span set:html={em(L.what_would_settle_it ? L.what_would_settle_it.value : "")} /></div>
+
+  <div class="prose" style="margin-top:22px">
+    <p><strong>One more thing came out of that folder, and it is not this family&rsquo;s.</strong> A
+      1991 burial index page for the FA&mdash; surnames, carrying <strong>Falco Carmine Antonio,
+      Caterina, Filomena and Raffaele</strong>. It is misfiled here. It belongs to the Falco archive and
+      it is left where it is, noted and untouched, because this estate does not mix its families.</p>
   </div>
 </section>
 

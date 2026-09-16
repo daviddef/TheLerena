@@ -113,5 +113,65 @@
   "field": "capacity",
   "as_written": "*** \"Present at death\" and \"Executrix Nominate\" ***",
   "note": "She was in the room when he died. In the liquidation account she is described as a spinster of No. 7 Forth Road - the same house - and \"no relation\"."
+ },
+ {
+  "field": "cert_name",
+  "as_written": "*** Robert Paul LERINA ***",
+  "note": "*** LERINA on the civil register - the spelling this archive has treated as a clerk's slip, and here it is on the death certificate itself. ***"
+ },
+ {
+  "field": "cert_age",
+  "as_written": "*** 76 years ***",
+  "note": "Against \"77 approx\" on the notice and against 68 implied by the passport's 22 February 1882."
+ },
+ {
+  "field": "cert_birthplace",
+  "as_written": "*** SOUTH AMERICA ***",
+  "note": "Vaguer even than the notice's \"Argentine\". No country, no town."
+ },
+ {
+  "field": "cert_status",
+  "as_written": "Widower",
+  "note": ""
+ },
+ {
+  "field": "cert_occupation",
+  "as_written": "*** Race Horse Owner ***",
+  "note": "The notice says Racehorse Trainer; the passport says Trainer; the 1911 marriage says horse-dealer."
+ },
+ {
+  "field": "cert_date_of_death",
+  "as_written": "Nineteenth March, 1950",
+  "note": ""
+ },
+ {
+  "field": "cert_place_of_death",
+  "as_written": "7 Forth Road, Newlands, Wynberg district",
+  "note": ""
+ },
+ {
+  "field": "cert_cause",
+  "as_written": "*** Coronary Thrombosis; Angina Pectoris. Duration: 6 weeks; about 3 years. ***",
+  "note": "*** A cause of death this archive did not have. *** His son Nuno died of a coronary thrombosis at forty-six, twenty-one years later."
+ },
+ {
+  "field": "cert_doctor",
+  "as_written": "J. R. E. Lee",
+  "note": "The same Dr J. R. E. Lee whose bill for professional services appears in the 1950 liquidation account."
+ },
+ {
+  "field": "cert_burial",
+  "as_written": "*** Maitland Cemetery no 1 ***",
+  "note": "*** THIS CONTRADICTS THE FAMILY. *** Cheryl was told by the Newlands cemetery office that he, Mary Septima and an infant lie there. The certificate names MAITLAND as the intended place of burial. Intended is not actual - but one of the two is wrong and neither has been checked against a burial register."
+ },
+ {
+  "field": "cert_informant",
+  "as_written": "*** W. Fraser, of Main Road, Observatory. Qualification: \"Causing burial\". ***",
+  "note": "*** AN UNDERTAKER. *** So the death notice was completed by a woman of no relation and the death certificate by the undertaker. *** Not one document at his death was filled in by anybody who knew where he came from. ***"
+ },
+ {
+  "field": "cert_registered",
+  "as_written": "23.3.50 Woodstock (W. Juritz); 25.3.50 Wynberg (M.F.G. Jones); extracted 19 April 1950, Cape Town",
+  "note": ""
  }
 ]
