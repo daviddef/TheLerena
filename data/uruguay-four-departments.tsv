@@ -43,3 +43,24 @@ department	exact LERENA records	what is actually there
 # contained a Santa Fe record. *** The difference is almost certainly that Santa Fe is both a province
 # and a city and the disambiguation collapsed. *** Before trusting a place-filtered null anywhere, run
 # the same filter on a place you KNOW returns something.
+#
+# ===== AND THE THING THAT IS ACTUALLY WORTH ACTING ON: WHERE THE URUGUAYAN LAYER CAME FROM =====
+# *** Chasing names in these departments on 16 September produced NO new people. *** Every person
+# reached was already held: *** Bernabe LERENA and Casimira PELAEZ, VITALINO LERENA and Andrea
+# ECHEVERRY, ALEJANDRO LERENA and BARBARA LERENA of San Jose de Mayo *** - all in `lerena-register.tsv`
+# or `trinidad-flores-kindred.tsv` already. *** The interior is better worked than the record counts
+# suggested, and this file's first draft said otherwise and was wrong. ***
+#
+# *** WHAT DID TURN UP IS A SOURCING FACT, AND IT IS WORTH MORE THAN A NAME WOULD HAVE BEEN. ***
+what the archive's Uruguayan baptism layer rests on	what is sitting beside it, free
+*** `uruguay-baptisms-lerena.tsv`, read 9 September 2026, is a FINDMYPAST FREE RESULT LIST. *** Its own header says so: *** "33 index rows... transcripts are behind findmypast's paywall and were NOT opened." *** Twenty-two rows were recorded - eleven Trinidad, four Montevideo, three San Jose de Mayo. *** Names, years and parents' FORENAMES only. ***	*** FamilySearch holds 1,343 exact LERENA records across these four departments, free, and they carry PARENTS IN FULL and frequently a "VIEW ORIGINAL DOCUMENT" link. *** For Trinidad alone the 608 records break roughly half to *** Uruguay, Catholic Church Records 1726-2000 *** and half to *** Uruguay, Civil Registration 1879-2020 ***, with only a couple from *** Uruguay, Baptisms 1750-1900 *** - which is the very index findmypast was charging to transcribe.
+#
+# *** TO BE FAIR TO THE EARLIER WORK, AND THE FAIRNESS MATTERS: *** the register at lines 144-150 does
+# cite "Catholic Church Records 1726-2000" alongside the baptism index, *** so the collection was not
+# unknown - it was used for particular people rather than swept. *** And 1,343 records is not 1,343
+# people: one person yields a baptism, a marriage, a death and often an index card.
+#
+# *** THE ACTIONABLE VERSION. *** The Uruguayan interior has been read PERSON BY PERSON, through a
+# paywalled index that gave forenames only. *** It has never been read COLLECTION BY COLLECTION through
+# the free one that gives full parentage and images. *** That is the difference between knowing that a
+# Bernabe Lerena married a Casimira Pelaez and being able to put a generation above either of them.
