@@ -48,5 +48,20 @@
   "query": "*** Search the name index for ROSSI, restricted to Torino *** - a surname that cannot be absent",
   "result": "*** 102 results *** - and the forenames are *** CHARLES, MARGUERITE, JACINTE. French. *** Years present: *** 1805, 1808, 1809, 1810, 1811. ***",
   "reading": "*** THE TORINO NAME INDEX IS NAPOLEONIC ONLY. *** Piedmont was annexed to France, civil registration was kept in French, and *** that is the window Antenati has indexed: about 1805 to 1811. *** *** It does not reach the 1840s to the 1880s, which is the whole of the period that matters for a man who fathered a child in 1882. ***"
+ },
+ {
+  "query": "query",
+  "result": "result",
+  "reading": "reading"
+ },
+ {
+  "query": "*** LERINA, exact, Argentina ***",
+  "result": "*** 26 records. *** La Rioja and Santiago del Estero church records, the 1895 national census, cemetery records, military records.",
+  "reading": "*** Thinly scattered and mostly nowhere near Santa Fe. *** No family group, no cluster, nothing resembling a household at Rosario."
+ },
+ {
+  "query": "*** The one that is worth writing down ***",
+  "result": "*** JUAN LERINA, age 64, estimated birth 1862, BURIED 4 APRIL 1926 at SANTA FE, LA CAPITAL, SANTA FE, ARGENTINA. *** FamilySearch ark 1:1:6575-KRRP, Argentina Cemetery Records. *** Image Unavailable. ***",
+  "reading": "*** RECORDED AS A COINCIDENCE, NOT A CANDIDATE, and the reasons are worth stating so nobody promotes it later. *** *** FOR: *** the surname is the Italian spelling, he is in *** SANTA FE PROVINCE ***, and a birth about 1862 is not impossible for a man whose son was born in February 1882. *** AGAINST, and it is heavier: *** he is *** JUAN, not JUAN CARLOS ***; he is at *** SANTA FE LA CAPITAL, which is 170 km north of ROSARIO *** and a different city entirely; a birth in 1862 makes him *** twenty *** when Pablo Armando was born; and *** the image is unavailable, so the burial entry itself cannot be read. *** *** Four loose fits and no join. This archive has been wrong before by promoting exactly this shape of thing. ***"
  }
 ]

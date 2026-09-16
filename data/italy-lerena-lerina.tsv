@@ -57,3 +57,25 @@ control	result	what it proves
 # parent name, for a Lerina or Lerena male born about 1840-1862 who then leaves the Italian record.
 # *** Antenati's 2,621 Torino registers remain the fallback ***: browsable by comune and year, image by
 # image, the way this archive read Rosario and Canelones. *** Expensive, and possible. ***
+#
+# ============ AND THEN THE SAME SPELLING BACK IN ARGENTINA, 16 September 2026 ============
+# *** The archive has worked LERENA hard in Argentina and has never swept LERINA, which is the
+# commoner ITALIAN spelling. *** Done now, exact match.
+query	result	reading
+*** LERINA, exact, Argentina ***	*** 26 records. *** La Rioja and Santiago del Estero church records, the 1895 national census, cemetery records, military records.	*** Thinly scattered and mostly nowhere near Santa Fe. *** No family group, no cluster, nothing resembling a household at Rosario.
+*** The one that is worth writing down ***	*** JUAN LERINA, age 64, estimated birth 1862, BURIED 4 APRIL 1926 at SANTA FE, LA CAPITAL, SANTA FE, ARGENTINA. *** FamilySearch ark 1:1:6575-KRRP, Argentina Cemetery Records. *** Image Unavailable. ***	*** RECORDED AS A COINCIDENCE, NOT A CANDIDATE, and the reasons are worth stating so nobody promotes it later. *** *** FOR: *** the surname is the Italian spelling, he is in *** SANTA FE PROVINCE ***, and a birth about 1862 is not impossible for a man whose son was born in February 1882. *** AGAINST, and it is heavier: *** he is *** JUAN, not JUAN CARLOS ***; he is at *** SANTA FE LA CAPITAL, which is 170 km north of ROSARIO *** and a different city entirely; a birth in 1862 makes him *** twenty *** when Pablo Armando was born; and *** the image is unavailable, so the burial entry itself cannot be read. *** *** Four loose fits and no join. This archive has been wrong before by promoting exactly this shape of thing. ***
+#
+# *** AND IT DOES NOT TOUCH THE ARCHIVE'S STANDING CLAIM, WHICH IS STILL TRUE AS WRITTEN. ***
+# The front page says *** "No Juan Carlos Lerena appears in any indexed record in Argentina or Uruguay." ***
+# *** That remains literally true: this man is Juan LERINA, not Juan Carlos LERENA. *** The sentence was
+# checked against this find rather than left to rot, which is the only reason to write a find like this down.
+#
+# *** CEMLA COULD NOT BE RUN, AND THE REASON IS A HARD STOP. ***
+# The plan was to re-run CEMLA for both spellings *** before 1882 ***, since the earliest arrival the
+# archive holds under any spelling is the Lerina family of *** 15 March 1889 ***. The search moved to
+# *** search.cemla.com and it is behind a CAPTCHA *** - the form carries CaptchaCode and
+# LBD_VCID_SampleCaptcha fields. *** This session does not complete CAPTCHAs. It is David's to run. ***
+# *** AND THERE IS A PRIOR QUESTION HE SHOULD SETTLE FIRST, because it may make the search pointless: ***
+# *** CEMLA's arrivals database is generally given as beginning in 1882. *** If that is right, then an
+# arrival before February 1882 is *** invisible to it by construction ***, and the absence of one proves
+# nothing at all. *** Check the stated coverage before spending the searches. ***
