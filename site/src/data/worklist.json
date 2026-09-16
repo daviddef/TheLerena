@@ -894,11 +894,11 @@
   },
   {
    "n": 112,
-   "what": "Mine the 2018 GEDCOM — 8,286 people, and this archive had never opened it",
-   "state": "next",
+   "what": "Mine the 2018 GEDCOM — done, and it broke the Brayley wall",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-16",
-   "note": "*** The largest unmined source in the whole project, and it is on the disk *** `2018-07 Defranceski.ged`, 7.5 MB: **8,286 individuals, 2,532 families, 400 sources, 4,001 media objects** — against 278 people in this register. **81 carry a Lerena or Taylor name; 42 of those carry photographs.** The GEDCOM text costs nothing to parse and is a morning's work: every Lerena and Taylor, their dates, places and sources, compared against this register, listing what the tree asserts that the archive has never tested. *** Treat all of it as TREE, not RECORD, until a source is read ***"
+   "note": "**Parsed 16 September 2026.** 8,286 individuals, 2,532 families, 4,001 media. *** The Brayley line goes back to John Brayley, b. 1747, d. September 1815 at Westleigh, Devon *** — six generations, with parishes (Westleigh, Coldridge, Braunton) and the Reed and Wybourn marriages. *** Anton Armando is placed: son of Ricardo Juan Carlos and Doreen May Chappell, b. 5 June 1952, confirmed against his identity number *** Careen Marie is explained — Ricardo's daughter, b&d 1945, which answers the third grave at Newlands without any scandal. Also caught: a date in the tree that cannot be true (Paul born Dapto NSW Nov 1951, sister born Johannesburg May 1952), and William Taylor dead 'abt 1942' at 117. Written up at `/family-papers/` with `data/gedcom-harvest.tsv`."
   },
   {
    "n": 113,
@@ -923,6 +923,30 @@
    "owner": "this archive",
    "since": "2026-09-16",
    "note": "The tree attaches **record-image_3Q9M-C913-K98Q-J** to Roberto Paul. The folder on disk holds K941, K94R, K983-D, K983-R, K98S-V and K9H3-D — **not K98Q-J**. One more page of MOOC 6/9/17017, already captured by somebody, sitting on MyHeritage. Cheaper than the Cape Town archives."
+  },
+  {
+   "n": 116,
+   "what": "Write to the 116 cM Bailey match — it is the only thing that can settle cluster 14",
+   "state": "blocked",
+   "owner": "David",
+   "since": "2026-09-16",
+   "note": "*** The Brayley reading was tested on 16 September and did not hold *** The real Brayley matches were found — one Australian at 23.0 cM sharing BRAYLEY and BAKER, one Englishman surnamed Brayley at 16.2 cM — and **neither is in cluster 14**. But the three Bailey trees hold **two people and four people**, so their absence proves nothing either. *** The link is UNTESTED, not refuted *** **She is the largest paternal match on the whole chart and her tree has two people in it.** One message asking for two generations of her grandparents' names settles in a week what no amount of surname probing can. **This session does not message DNA matches on anyone's behalf**, so it stops here."
+  },
+  {
+   "n": 117,
+   "what": "Three media still to pull off the live MyHeritage tree",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-16",
+   "note": "Attempted 16 September and **blocked by the application, not by permissions**: the tree view is a canvas app carrying 8,286 people and it froze the browser renderer three times. The three wanted objects are *** \"Mary Ann Taylor Death Certificate\" (her mother's, d. 21 April 1900), \"Lerena Grave\", and record-image_3Q9M-C913-K98Q-J *** **A lighter route than the tree view is needed** — the person page reached directly by its MyHeritage id, or Family Tree Builder on the desktop, where the media are stored against the person rather than rendered in a canvas."
+  },
+  {
+   "n": 118,
+   "what": "Test the tree's Dapto, New South Wales birth against a registration",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-16",
+   "note": "The GEDCOM puts **Paul Lerena born 3 November 1951 at Dapto, Wollongong, NSW** — and his sister **Catherine Tersia born 21 May 1952 at Johannesburg**. *** Six and a half months apart, to one mother. One of the two is wrong *** But an Australian birth for a son of Nuno Fernando in 1951 would be entirely new — **this archive's atlas has no Australian place for that generation** — and it is cheap to test: NSW births are indexed online to 1951."
   }
  ],
  "accounts": [

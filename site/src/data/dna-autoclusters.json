@@ -1,718 +1,718 @@
 {
- "what_this_is": "MyHeritage AutoClusters, generated 15 September 2026 and read 16 September. AutoClustering groups a person's DNA matches into blocks that all match each other as well as the tester - so each block is, in practice, one ancestral couple's descendants.",
- "privacy": "No match is named. A cluster is described by its size, its centimorgan range, and the SURNAMES of the family trees in it. Surnames in the aggregate are what genealogy is made of; the individuals are living and are not listed.",
- "why_three_kits": "Three were run on the same account: the granddaughter of Pablo Armando, her nephew - the only other Lerena who has tested - and her son. The son's chart turns out to be the control, and it is the reason the other two can be read at all.",
- "kits": {
-  "Cheryl": {
-   "matches_clustered": 107,
-   "clusters": 14,
-   "cM_floor": 50.6,
-   "cM_ceiling": 332.8,
-   "detail": [
-    {
-     "cluster": 1,
-     "size": 28,
-     "cM_low": 51.1,
-     "cM_high": 84.0,
-     "tree_surnames": [
-      "attwell",
-      "beets",
-      "bothastone",
-      "buitendag",
-      "calitz",
-      "du-pisanie",
-      "du-plessis",
-      "engelbrecht",
-      "erasmus",
-      "gower"
-     ]
+  "what_this_is": "MyHeritage AutoClusters, generated 15 September 2026 and read 16 September. AutoClustering groups a person's DNA matches into blocks that all match each other as well as the tester - so each block is, in practice, one ancestral couple's descendants.",
+  "privacy": "No match is named. A cluster is described by its size, its centimorgan range, and the SURNAMES of the family trees in it. Surnames in the aggregate are what genealogy is made of; the individuals are living and are not listed.",
+  "why_three_kits": "Three were run on the same account: the granddaughter of Pablo Armando, her nephew - the only other Lerena who has tested - and her son. The son's chart turns out to be the control, and it is the reason the other two can be read at all.",
+  "kits": {
+    "Cheryl": {
+      "matches_clustered": 107,
+      "clusters": 14,
+      "cM_floor": 50.6,
+      "cM_ceiling": 332.8,
+      "detail": [
+        {
+          "cluster": 1,
+          "size": 28,
+          "cM_low": 51.1,
+          "cM_high": 84.0,
+          "tree_surnames": [
+            "attwell",
+            "beets",
+            "bothastone",
+            "buitendag",
+            "calitz",
+            "du-pisanie",
+            "du-plessis",
+            "engelbrecht",
+            "erasmus",
+            "gower"
+          ]
+        },
+        {
+          "cluster": 2,
+          "size": 11,
+          "cM_low": 51.3,
+          "cM_high": 66.6,
+          "tree_surnames": [
+            "andre",
+            "beets",
+            "dippenaar",
+            "du-plessis",
+            "dv-jamess",
+            "katz",
+            "lotter",
+            "may",
+            "smith",
+            "van-der-vyver"
+          ]
+        },
+        {
+          "cluster": 3,
+          "size": 10,
+          "cM_low": 50.8,
+          "cM_high": 64.7,
+          "tree_surnames": [
+            "damsteeg-cornelius",
+            "de-kock",
+            "dowd",
+            "kgj-bezuidenhout-iii",
+            "lee",
+            "masseratte",
+            "potgieter-henderson",
+            "raven-hill",
+            "van-vuuren"
+          ]
+        },
+        {
+          "cluster": 4,
+          "size": 8,
+          "cM_low": 50.7,
+          "cM_high": 81.0,
+          "tree_surnames": [
+            "de-lange",
+            "de-villiers",
+            "de-villiers-marais-kemp-rowe",
+            "livingston",
+            "my",
+            "schulte",
+            "volschenk",
+            "von-ruben"
+          ]
+        },
+        {
+          "cluster": 5,
+          "size": 7,
+          "cM_low": 51.3,
+          "cM_high": 68.2,
+          "tree_surnames": [
+            "connor",
+            "mehmel",
+            "niemann",
+            "shaul-zerbst",
+            "strauss",
+            "vanderwaltduplessisturkingtonshanahan",
+            "viviers"
+          ]
+        },
+        {
+          "cluster": 6,
+          "size": 6,
+          "cM_low": 52.8,
+          "cM_high": 89.7,
+          "tree_surnames": [
+            "hamman",
+            "nel",
+            "pinto",
+            "theron",
+            "van-der-westhuizen",
+            "van-zylbotha"
+          ]
+        },
+        {
+          "cluster": 7,
+          "size": 6,
+          "cM_low": 56.2,
+          "cM_high": 332.8,
+          "tree_surnames": [
+            "butler",
+            "daniel",
+            "daschner",
+            "smith"
+          ]
+        },
+        {
+          "cluster": 8,
+          "size": 6,
+          "cM_low": 52.2,
+          "cM_high": 80.4,
+          "tree_surnames": [
+            "booyens",
+            "bruttonbrutten",
+            "jooste",
+            "kroon",
+            "lirebotes",
+            "rohde"
+          ]
+        },
+        {
+          "cluster": 9,
+          "size": 5,
+          "cM_low": 51.3,
+          "cM_high": 76.5,
+          "tree_surnames": [
+            "deninajoubertbernard",
+            "dreyers-in-south-africa",
+            "holford",
+            "krugel",
+            "sander"
+          ]
+        },
+        {
+          "cluster": 10,
+          "size": 4,
+          "cM_low": 50.7,
+          "cM_high": 89.0,
+          "tree_surnames": [
+            "carons",
+            "drennen",
+            "jansen-van-vuuren",
+            "meadon"
+          ]
+        },
+        {
+          "cluster": 11,
+          "size": 3,
+          "cM_low": 51.8,
+          "cM_high": 56.7,
+          "tree_surnames": [
+            "beukescadledu-toitgouws",
+            "marais",
+            "mcgrath"
+          ]
+        },
+        {
+          "cluster": 12,
+          "size": 3,
+          "cM_low": 50.6,
+          "cM_high": 55.8,
+          "tree_surnames": [
+            "jullien",
+            "walker"
+          ]
+        },
+        {
+          "cluster": 13,
+          "size": 3,
+          "cM_low": 50.8,
+          "cM_high": 60.1,
+          "tree_surnames": [
+            "bosse",
+            "johnson",
+            "white"
+          ]
+        },
+        {
+          "cluster": 14,
+          "size": 3,
+          "cM_low": 60.9,
+          "cM_high": 115.5,
+          "tree_surnames": [
+            "bailey"
+          ]
+        }
+      ]
     },
-    {
-     "cluster": 2,
-     "size": 11,
-     "cM_low": 51.3,
-     "cM_high": 66.6,
-     "tree_surnames": [
-      "andre",
-      "beets",
-      "dippenaar",
-      "du-plessis",
-      "dv-jamess",
-      "katz",
-      "lotter",
-      "may",
-      "smith",
-      "van-der-vyver"
-     ]
+    "Marco": {
+      "matches_clustered": 77,
+      "clusters": 19,
+      "cM_floor": 65.0,
+      "cM_ceiling": 220.5,
+      "detail": [
+        {
+          "cluster": 1,
+          "size": 7,
+          "cM_low": 65.7,
+          "cM_high": 73.8,
+          "tree_surnames": [
+            "bern",
+            "gould",
+            "loeff",
+            "lukovsky",
+            "shaw-shindell"
+          ]
+        },
+        {
+          "cluster": 2,
+          "size": 7,
+          "cM_low": 65.8,
+          "cM_high": 168.5,
+          "tree_surnames": [
+            "abrams",
+            "diane-davison",
+            "litwack",
+            "rothbart",
+            "saferis"
+          ]
+        },
+        {
+          "cluster": 3,
+          "size": 5,
+          "cM_low": 69.9,
+          "cM_high": 76.8,
+          "tree_surnames": [
+            "bender",
+            "epstein",
+            "gardner-epstein",
+            "glant",
+            "hill"
+          ]
+        },
+        {
+          "cluster": 4,
+          "size": 5,
+          "cM_low": 65.5,
+          "cM_high": 68.3,
+          "tree_surnames": [
+            "goldman",
+            "peiper",
+            "peskina",
+            "rosenzweig"
+          ]
+        },
+        {
+          "cluster": 5,
+          "size": 5,
+          "cM_low": 66.2,
+          "cM_high": 72.1,
+          "tree_surnames": [
+            "broughtondavis",
+            "clifford",
+            "lubchansky",
+            "phillips",
+            "stern"
+          ]
+        },
+        {
+          "cluster": 6,
+          "size": 5,
+          "cM_low": 65.8,
+          "cM_high": 94.3,
+          "tree_surnames": [
+            "levitan",
+            "listick",
+            "novik",
+            "tun",
+            "winter"
+          ]
+        },
+        {
+          "cluster": 7,
+          "size": 4,
+          "cM_low": 65.4,
+          "cM_high": 220.5,
+          "tree_surnames": [
+            "aizenman",
+            "king",
+            "rizenman",
+            "ruby"
+          ]
+        },
+        {
+          "cluster": 8,
+          "size": 4,
+          "cM_low": 65.2,
+          "cM_high": 68.5,
+          "tree_surnames": [
+            "graivier",
+            "lumelsky",
+            "mandel",
+            "sinay-mosias"
+          ]
+        },
+        {
+          "cluster": 9,
+          "size": 3,
+          "cM_low": 68.0,
+          "cM_high": 73.7,
+          "tree_surnames": [
+            "cohen",
+            "fitoussi-genealogy-tree",
+            "goldberg"
+          ]
+        },
+        {
+          "cluster": 10,
+          "size": 3,
+          "cM_low": 67.6,
+          "cM_high": 87.3,
+          "tree_surnames": [
+            "frankshimberg",
+            "novik"
+          ]
+        },
+        {
+          "cluster": 11,
+          "size": 3,
+          "cM_low": 65.1,
+          "cM_high": 73.8,
+          "tree_surnames": [
+            "lester",
+            "robin-selingers",
+            "weisberg"
+          ]
+        },
+        {
+          "cluster": 12,
+          "size": 3,
+          "cM_low": 68.5,
+          "cM_high": 76.1,
+          "tree_surnames": [
+            "fraleighhelleryoung",
+            "simons",
+            "waldman"
+          ]
+        },
+        {
+          "cluster": 13,
+          "size": 3,
+          "cM_low": 71.0,
+          "cM_high": 72.9,
+          "tree_surnames": [
+            "fishstein",
+            "freeman"
+          ]
+        },
+        {
+          "cluster": 14,
+          "size": 3,
+          "cM_low": 66.1,
+          "cM_high": 157.0,
+          "tree_surnames": [
+            "butler",
+            "daniel",
+            "daschner"
+          ]
+        },
+        {
+          "cluster": 15,
+          "size": 3,
+          "cM_low": 65.3,
+          "cM_high": 107.0,
+          "tree_surnames": [
+            "carbajal",
+            "israel",
+            "jolson"
+          ]
+        },
+        {
+          "cluster": 16,
+          "size": 3,
+          "cM_low": 65.4,
+          "cM_high": 80.6,
+          "tree_surnames": [
+            "gaines",
+            "goldstein"
+          ]
+        },
+        {
+          "cluster": 17,
+          "size": 3,
+          "cM_low": 66.7,
+          "cM_high": 69.4,
+          "tree_surnames": [
+            "fischer",
+            "shedrow",
+            "woltjer"
+          ]
+        },
+        {
+          "cluster": 18,
+          "size": 3,
+          "cM_low": 71.2,
+          "cM_high": 74.7,
+          "tree_surnames": [
+            "infeld",
+            "savin"
+          ]
+        },
+        {
+          "cluster": 19,
+          "size": 3,
+          "cM_low": 65.0,
+          "cM_high": 69.0,
+          "tree_surnames": [
+            "fishbein",
+            "gelikman-23andme"
+          ]
+        }
+      ]
     },
-    {
-     "cluster": 3,
-     "size": 10,
-     "cM_low": 50.8,
-     "cM_high": 64.7,
-     "tree_surnames": [
-      "damsteeg-cornelius",
-      "de-kock",
-      "dowd",
-      "kgj-bezuidenhout-iii",
-      "lee",
-      "masseratte",
-      "potgieter-henderson",
-      "raven-hill",
-      "van-vuuren"
-     ]
+    "David": {
+      "matches_clustered": 77,
+      "clusters": 9,
+      "cM_floor": 40.0,
+      "cM_ceiling": 130.2,
+      "detail": [
+        {
+          "cluster": 1,
+          "size": 24,
+          "cM_low": 40.3,
+          "cM_high": 82.3,
+          "tree_surnames": [
+            "barnett",
+            "basson",
+            "boyens",
+            "bradley",
+            "cambanis",
+            "canham",
+            "erasmus",
+            "jacobs",
+            "keller-extended",
+            "kemp"
+          ]
+        },
+        {
+          "cluster": 2,
+          "size": 12,
+          "cM_low": 41.1,
+          "cM_high": 54.4,
+          "tree_surnames": [
+            "butorac",
+            "gustavson",
+            "kirkpatrick",
+            "lebar",
+            "mcillree",
+            "nyrud",
+            "pavelich",
+            "trevisani",
+            "vukic"
+          ]
+        },
+        {
+          "cluster": 3,
+          "size": 10,
+          "cM_low": 40.0,
+          "cM_high": 55.5,
+          "tree_surnames": [
+            "basson",
+            "beets",
+            "buitendag",
+            "fanourakis-pienaar",
+            "katz",
+            "smith",
+            "standerdu-plessis",
+            "strauss",
+            "taljaard",
+            "wilsenach"
+          ]
+        },
+        {
+          "cluster": 4,
+          "size": 8,
+          "cM_low": 41.4,
+          "cM_high": 65.5,
+          "tree_surnames": [
+            "devry",
+            "fourie",
+            "groenewald",
+            "nell",
+            "ramsay",
+            "stubbings",
+            "von-ruben"
+          ]
+        },
+        {
+          "cluster": 5,
+          "size": 4,
+          "cM_low": 41.6,
+          "cM_high": 49.0,
+          "tree_surnames": [
+            "glas",
+            "jagustin",
+            "krkljes",
+            "racic"
+          ]
+        },
+        {
+          "cluster": 6,
+          "size": 4,
+          "cM_low": 40.1,
+          "cM_high": 63.0,
+          "tree_surnames": [
+            "b",
+            "babin",
+            "matta"
+          ]
+        },
+        {
+          "cluster": 7,
+          "size": 4,
+          "cM_low": 42.8,
+          "cM_high": 88.7,
+          "tree_surnames": [
+            "knights",
+            "ross"
+          ]
+        },
+        {
+          "cluster": 8,
+          "size": 4,
+          "cM_low": 43.3,
+          "cM_high": 130.2,
+          "tree_surnames": [
+            "daniel",
+            "daschner",
+            "gambale"
+          ]
+        },
+        {
+          "cluster": 9,
+          "size": 3,
+          "cM_low": 41.6,
+          "cM_high": 45.7,
+          "tree_surnames": [
+            "fowkes",
+            "van-den-bergh",
+            "vorster"
+          ]
+        }
+      ]
     },
-    {
-     "cluster": 4,
-     "size": 8,
-     "cM_low": 50.7,
-     "cM_high": 81.0,
-     "tree_surnames": [
-      "de-lange",
-      "de-villiers",
-      "de-villiers-marais-kemp-rowe",
-      "livingston",
-      "my",
-      "schulte",
-      "volschenk",
-      "von-ruben"
-     ]
-    },
-    {
-     "cluster": 5,
-     "size": 7,
-     "cM_low": 51.3,
-     "cM_high": 68.2,
-     "tree_surnames": [
-      "connor",
-      "mehmel",
-      "niemann",
-      "shaul-zerbst",
-      "strauss",
-      "vanderwaltduplessisturkingtonshanahan",
-      "viviers"
-     ]
-    },
-    {
-     "cluster": 6,
-     "size": 6,
-     "cM_low": 52.8,
-     "cM_high": 89.7,
-     "tree_surnames": [
-      "hamman",
-      "nel",
-      "pinto",
-      "theron",
-      "van-der-westhuizen",
-      "van-zylbotha"
-     ]
-    },
-    {
-     "cluster": 7,
-     "size": 6,
-     "cM_low": 56.2,
-     "cM_high": 332.8,
-     "tree_surnames": [
-      "butler",
-      "daniel",
-      "daschner",
-      "smith"
-     ]
-    },
-    {
-     "cluster": 8,
-     "size": 6,
-     "cM_low": 52.2,
-     "cM_high": 80.4,
-     "tree_surnames": [
-      "booyens",
-      "bruttonbrutten",
-      "jooste",
-      "kroon",
-      "lirebotes",
-      "rohde"
-     ]
-    },
-    {
-     "cluster": 9,
-     "size": 5,
-     "cM_low": 51.3,
-     "cM_high": 76.5,
-     "tree_surnames": [
-      "deninajoubertbernard",
-      "dreyers-in-south-africa",
-      "holford",
-      "krugel",
-      "sander"
-     ]
-    },
-    {
-     "cluster": 10,
-     "size": 4,
-     "cM_low": 50.7,
-     "cM_high": 89.0,
-     "tree_surnames": [
-      "carons",
-      "drennen",
-      "jansen-van-vuuren",
-      "meadon"
-     ]
-    },
-    {
-     "cluster": 11,
-     "size": 3,
-     "cM_low": 51.8,
-     "cM_high": 56.7,
-     "tree_surnames": [
-      "beukescadledu-toitgouws",
-      "marais",
-      "mcgrath"
-     ]
-    },
-    {
-     "cluster": 12,
-     "size": 3,
-     "cM_low": 50.6,
-     "cM_high": 55.8,
-     "tree_surnames": [
-      "jullien",
-      "walker"
-     ]
-    },
-    {
-     "cluster": 13,
-     "size": 3,
-     "cM_low": 50.8,
-     "cM_high": 60.1,
-     "tree_surnames": [
-      "bosse",
-      "johnson",
-      "white"
-     ]
-    },
-    {
-     "cluster": 14,
-     "size": 3,
-     "cM_low": 60.9,
-     "cM_high": 115.5,
-     "tree_surnames": [
-      "bailey"
-     ]
+    "Jeanette": {
+      "matches_clustered": 98,
+      "clusters": 6,
+      "cM_floor": 75.3,
+      "cM_ceiling": 319.4,
+      "detail": [
+        {
+          "cluster": 1,
+          "size": 71,
+          "cM_low": 75.3,
+          "cM_high": 158.3,
+          "tree_surnames": [
+            "ackermann",
+            "andre",
+            "attwell",
+            "brits",
+            "calitz",
+            "carons",
+            "carrick",
+            "coetsee",
+            "coetzee",
+            "crossey"
+          ]
+        },
+        {
+          "cluster": 2,
+          "size": 6,
+          "cM_low": 77.5,
+          "cM_high": 194.1,
+          "tree_surnames": [
+            "daschner",
+            "du-plessis",
+            "kotze",
+            "labuschagne",
+            "pistorius"
+          ]
+        },
+        {
+          "cluster": 3,
+          "size": 6,
+          "cM_low": 76.3,
+          "cM_high": 319.4,
+          "tree_surnames": [
+            "daniel",
+            "dreyers-in-south-africa",
+            "gambale",
+            "smith"
+          ]
+        },
+        {
+          "cluster": 4,
+          "size": 5,
+          "cM_low": 80.0,
+          "cM_high": 203.7,
+          "tree_surnames": [
+            "andrews",
+            "bailie",
+            "de-jager",
+            "lotter",
+            "randall"
+          ]
+        },
+        {
+          "cluster": 5,
+          "size": 4,
+          "cM_low": 89.7,
+          "cM_high": 143.1,
+          "tree_surnames": [
+            "butler",
+            "duncan",
+            "martin-hardy-ellis",
+            "mulder"
+          ]
+        },
+        {
+          "cluster": 6,
+          "size": 4,
+          "cM_low": 94.2,
+          "cM_high": 110.4,
+          "tree_surnames": [
+            "faraday",
+            "johnson",
+            "lightcap",
+            "priceglendinning"
+          ]
+        }
+      ]
     }
-   ]
   },
-  "Marco": {
-   "matches_clustered": 77,
-   "clusters": 19,
-   "cM_floor": 65.0,
-   "cM_ceiling": 220.5,
-   "detail": [
-    {
-     "cluster": 1,
-     "size": 7,
-     "cM_low": 65.7,
-     "cM_high": 73.8,
-     "tree_surnames": [
-      "bern",
-      "gould",
-      "loeff",
-      "lukovsky",
-      "shaw-shindell"
-     ]
-    },
-    {
-     "cluster": 2,
-     "size": 7,
-     "cM_low": 65.8,
-     "cM_high": 168.5,
-     "tree_surnames": [
-      "abrams",
-      "diane-davison",
-      "litwack",
-      "rothbart",
-      "saferis"
-     ]
-    },
-    {
-     "cluster": 3,
-     "size": 5,
-     "cM_low": 69.9,
-     "cM_high": 76.8,
-     "tree_surnames": [
-      "bender",
-      "epstein",
-      "gardner-epstein",
-      "glant",
-      "hill"
-     ]
-    },
-    {
-     "cluster": 4,
-     "size": 5,
-     "cM_low": 65.5,
-     "cM_high": 68.3,
-     "tree_surnames": [
-      "goldman",
-      "peiper",
-      "peskina",
-      "rosenzweig"
-     ]
-    },
-    {
-     "cluster": 5,
-     "size": 5,
-     "cM_low": 66.2,
-     "cM_high": 72.1,
-     "tree_surnames": [
-      "broughtondavis",
-      "clifford",
-      "lubchansky",
-      "phillips",
-      "stern"
-     ]
-    },
-    {
-     "cluster": 6,
-     "size": 5,
-     "cM_low": 65.8,
-     "cM_high": 94.3,
-     "tree_surnames": [
-      "levitan",
-      "listick",
-      "novik",
-      "tun",
-      "winter"
-     ]
-    },
-    {
-     "cluster": 7,
-     "size": 4,
-     "cM_low": 65.4,
-     "cM_high": 220.5,
-     "tree_surnames": [
-      "aizenman",
-      "king",
-      "rizenman",
-      "ruby"
-     ]
-    },
-    {
-     "cluster": 8,
-     "size": 4,
-     "cM_low": 65.2,
-     "cM_high": 68.5,
-     "tree_surnames": [
-      "graivier",
-      "lumelsky",
-      "mandel",
-      "sinay-mosias"
-     ]
-    },
-    {
-     "cluster": 9,
-     "size": 3,
-     "cM_low": 68.0,
-     "cM_high": 73.7,
-     "tree_surnames": [
-      "cohen",
-      "fitoussi-genealogy-tree",
-      "goldberg"
-     ]
-    },
-    {
-     "cluster": 10,
-     "size": 3,
-     "cM_low": 67.6,
-     "cM_high": 87.3,
-     "tree_surnames": [
-      "frankshimberg",
-      "novik"
-     ]
-    },
-    {
-     "cluster": 11,
-     "size": 3,
-     "cM_low": 65.1,
-     "cM_high": 73.8,
-     "tree_surnames": [
-      "lester",
-      "robin-selingers",
-      "weisberg"
-     ]
-    },
-    {
-     "cluster": 12,
-     "size": 3,
-     "cM_low": 68.5,
-     "cM_high": 76.1,
-     "tree_surnames": [
-      "fraleighhelleryoung",
-      "simons",
-      "waldman"
-     ]
-    },
-    {
-     "cluster": 13,
-     "size": 3,
-     "cM_low": 71.0,
-     "cM_high": 72.9,
-     "tree_surnames": [
-      "fishstein",
-      "freeman"
-     ]
-    },
-    {
-     "cluster": 14,
-     "size": 3,
-     "cM_low": 66.1,
-     "cM_high": 157.0,
-     "tree_surnames": [
-      "butler",
-      "daniel",
-      "daschner"
-     ]
-    },
-    {
-     "cluster": 15,
-     "size": 3,
-     "cM_low": 65.3,
-     "cM_high": 107.0,
-     "tree_surnames": [
-      "carbajal",
-      "israel",
-      "jolson"
-     ]
-    },
-    {
-     "cluster": 16,
-     "size": 3,
-     "cM_low": 65.4,
-     "cM_high": 80.6,
-     "tree_surnames": [
-      "gaines",
-      "goldstein"
-     ]
-    },
-    {
-     "cluster": 17,
-     "size": 3,
-     "cM_low": 66.7,
-     "cM_high": 69.4,
-     "tree_surnames": [
-      "fischer",
-      "shedrow",
-      "woltjer"
-     ]
-    },
-    {
-     "cluster": 18,
-     "size": 3,
-     "cM_low": 71.2,
-     "cM_high": 74.7,
-     "tree_surnames": [
-      "infeld",
-      "savin"
-     ]
-    },
-    {
-     "cluster": 19,
-     "size": 3,
-     "cM_low": 65.0,
-     "cM_high": 69.0,
-     "tree_surnames": [
-      "fishbein",
-      "gelikman-23andme"
-     ]
-    }
-   ]
+  "the_control_that_makes_this_readable": {
+    "kit": "her son",
+    "what_it_shows": "His father is a Defranceski, of Istria and Croatia. His chart contains TWO plainly Croatian clusters - Butorac, Pavelich, Jagustin, Krkljes, Racic, Glas - sitting beside the Cape ones.",
+    "why_it_matters": "AutoClusters demonstrably forms a distinct block for a foreign paternal line WHEN COUSINS FROM THAT LINE HAVE TESTED. The method is not blind to a non-Cape father. It found his."
   },
-  "David": {
-   "matches_clustered": 77,
-   "clusters": 9,
-   "cM_floor": 40.0,
-   "cM_ceiling": 130.2,
-   "detail": [
-    {
-     "cluster": 1,
-     "size": 24,
-     "cM_low": 40.3,
-     "cM_high": 82.3,
-     "tree_surnames": [
-      "barnett",
-      "basson",
-      "boyens",
-      "bradley",
-      "cambanis",
-      "canham",
-      "erasmus",
-      "jacobs",
-      "keller-extended",
-      "kemp"
-     ]
-    },
-    {
-     "cluster": 2,
-     "size": 12,
-     "cM_low": 41.1,
-     "cM_high": 54.4,
-     "tree_surnames": [
-      "butorac",
-      "gustavson",
-      "kirkpatrick",
-      "lebar",
-      "mcillree",
-      "nyrud",
-      "pavelich",
-      "trevisani",
-      "vukic"
-     ]
-    },
-    {
-     "cluster": 3,
-     "size": 10,
-     "cM_low": 40.0,
-     "cM_high": 55.5,
-     "tree_surnames": [
-      "basson",
-      "beets",
-      "buitendag",
-      "fanourakis-pienaar",
-      "katz",
-      "smith",
-      "standerdu-plessis",
-      "strauss",
-      "taljaard",
-      "wilsenach"
-     ]
-    },
-    {
-     "cluster": 4,
-     "size": 8,
-     "cM_low": 41.4,
-     "cM_high": 65.5,
-     "tree_surnames": [
-      "devry",
-      "fourie",
-      "groenewald",
-      "nell",
-      "ramsay",
-      "stubbings",
-      "von-ruben"
-     ]
-    },
-    {
-     "cluster": 5,
-     "size": 4,
-     "cM_low": 41.6,
-     "cM_high": 49.0,
-     "tree_surnames": [
-      "glas",
-      "jagustin",
-      "krkljes",
-      "racic"
-     ]
-    },
-    {
-     "cluster": 6,
-     "size": 4,
-     "cM_low": 40.1,
-     "cM_high": 63.0,
-     "tree_surnames": [
-      "b",
-      "babin",
-      "matta"
-     ]
-    },
-    {
-     "cluster": 7,
-     "size": 4,
-     "cM_low": 42.8,
-     "cM_high": 88.7,
-     "tree_surnames": [
-      "knights",
-      "ross"
-     ]
-    },
-    {
-     "cluster": 8,
-     "size": 4,
-     "cM_low": 43.3,
-     "cM_high": 130.2,
-     "tree_surnames": [
-      "daniel",
-      "daschner",
-      "gambale"
-     ]
-    },
-    {
-     "cluster": 9,
-     "size": 3,
-     "cM_low": 41.6,
-     "cM_high": 45.7,
-     "tree_surnames": [
-      "fowkes",
-      "van-den-bergh",
-      "vorster"
-     ]
-    }
-   ]
+  "the_finding": {
+    "her_clusters": 14,
+    "her_matches_clustered": 107,
+    "her_cM_floor": 50.6,
+    "statement": "EVERY ONE OF HER FOURTEEN CLUSTERS IS CAPE AFRIKANER OR BRITISH ISLES. Attwell, Botha, Buitendag, Calitz, du Pisanie, du Plessis, Engelbrecht, Erasmus, Dippenaar, Lotter, de Kock, Bezuidenhout, Potgieter, de Lange, de Villiers, Volschenk, Niemann, Strauss, Viviers, Hamman, Nel, Theron, van der Westhuizen, van Zyl, Booyens, Jooste, Kroon, Joubert, Dreyer, Krugel, Sander, Jansen van Vuuren, Beukes, du Toit, Gouws, Marais, Bailey, Walker, Johnson, White, Butler, Daniel, Daschner.",
+    "not_one": "Not one Spanish, Italian, Argentine or Uruguayan surname appears in any cluster on her chart.",
+    "the_shape_of_it": "She has four grandparents. Fourteen clusters are accounted for by three of them. The fourth - Pablo Armando - has no cluster at all."
   },
-  "Jeanette": {
-   "matches_clustered": 98,
-   "clusters": 6,
-   "cM_floor": 75.3,
-   "cM_ceiling": 319.4,
-   "detail": [
-    {
-     "cluster": 1,
-     "size": 71,
-     "cM_low": 75.3,
-     "cM_high": 158.3,
-     "tree_surnames": [
-      "ackermann",
-      "andre",
-      "attwell",
-      "brits",
-      "calitz",
-      "carons",
-      "carrick",
-      "coetsee",
-      "coetzee",
-      "crossey"
-     ]
+  "the_nephew": {
+    "who": "the only other Lerena who has tested",
+    "clusters": 19,
+    "surprise": "His chart is almost entirely ASHKENAZI JEWISH - Abrams, Litwack, Rothbart, Epstein, Goldman, Rosenzweig, Levitan, Novik, Aizenman, Graivier, Lumelsky, Mandel, Cohen, Goldberg, Weisberg, Waldman, Goldstein, Fishbein - with tree names in Hebrew and Russian. That is his MOTHER's family, not the Lerena line, and an endogamous population throws up far more high-centimorgan matches than an outbred one, so it crowds his chart out.",
+    "shared_with_his_aunt": 3,
+    "and_where": "All three of the matches he shares with her sit in ONE of her clusters - the Cape one that holds Butler, Daniel and Daschner.",
+    "reading": "The only other tested Lerena contributes three clustered matches to this question, and all three are Cape. This is also the clearest statement yet of why he was never going to separate the lines: he is her NEPHEW, so the Lerena half of him arrives filtered through the same Cape grandmother."
+  },
+  "the_honest_limit": {
+    "floors": {
+      "her": 50.6,
+      "nephew": 65.0,
+      "son": 40.0
     },
-    {
-     "cluster": 2,
-     "size": 6,
-     "cM_low": 77.5,
-     "cM_high": 194.1,
-     "tree_surnames": [
-      "daschner",
-      "du-plessis",
-      "kotze",
-      "labuschagne",
-      "pistorius"
-     ]
+    "what_it_means": "AutoClusters only works on matches above a threshold - hers begins at 50.6 cM. A cluster cannot form where nobody has tested, and it cannot form from matches below the floor.",
+    "so": "The Croatian clusters on her son's chart exist because Croatians test in numbers. The absence of an Argentine cluster on hers is consistent with Pablo Armando's family having no living tested descendants in either database - which is exactly what the sixty-two-country match census already said, where Argentina did not appear at all.",
+    "not_a_disproof": "This is a strong negative and it is not a disproof. It says the answer is not reachable by DNA matching today. It does not say the hypothesis is wrong."
+  },
+  "the_subtraction": {
+    "what_it_is": "Her maternal aunt's chart was generated too. The aunt is Cape and nothing else, so any cluster of the niece's that has no counterpart on the aunt's belongs to her FATHER - which is to say to Pablo Armando or to Mary Septima Taylor. This is the instrument this page has been asking for all day.",
+    "the_trap_first": "Run naively it says five of her fourteen clusters are paternal. That is wrong, and the reason is a floor mismatch: the aunt's chart begins at 75.3 cM and the niece's at 50.6. Four of those five clusters have no member above 75.3 cM at all, so they COULD NOT have appeared on the aunt's chart whatever their ancestry. The test can only speak about the 15 of her 107 clustered matches that clear the aunt's floor.",
+    "done_properly": {
+      "testable_clusters": 8,
+      "confirmed_maternal": 6,
+      "paternal_candidates": 2,
+      "cannot_be_tested": [
+        2,
+        3,
+        5,
+        11,
+        12,
+        13
+      ]
     },
-    {
-     "cluster": 3,
-     "size": 6,
-     "cM_low": 76.3,
-     "cM_high": 319.4,
-     "tree_surnames": [
-      "daniel",
-      "dreyers-in-south-africa",
-      "gambale",
-      "smith"
-     ]
+    "candidate_one_resolved": {
+      "cluster": 8,
+      "cM": 80,
+      "tree": "Kroon",
+      "verdict": "A FALSE POSITIVE, and caught. Absent from the aunt's clustered chart, so the subtraction flags it - but MyHeritage's own Theory of Family Relativity for that match names the surnames common to them as KRUGER, VENTER and NEL. Those are Cape. It is maternal, and it simply was not clustered on the aunt's chart. Absence from a CLUSTERED list is not absence from a match list, and this is the case that proves it."
     },
-    {
-     "cluster": 4,
-     "size": 5,
-     "cM_low": 80.0,
-     "cM_high": 203.7,
-     "tree_surnames": [
-      "andrews",
-      "bailie",
-      "de-jager",
-      "lotter",
-      "randall"
-     ]
+    "candidate_two_the_real_one": {
+      "cluster": 14,
+      "size": 3,
+      "cM_range": "61-116",
+      "trees": "Bailey",
+      "why_it_stands": "Its largest member is 116 cM - comfortably above the aunt's floor, so it had every opportunity to appear on her chart and did not. It is the one genuine paternal cluster the subtraction finds.",
+      "and_whose_it_probably_is": "NOT Pablo Armando's - and NOT, on testing, demonstrably Brayley either. Mary Septima Taylor's mother was MARY ANN HELLEN BRAYLEY of Bideford. The surname resemblance was attractive and this archive wrote 'probably' on the strength of it. THEN IT RAN THE TEST. The real Brayley matches exist and were found - one Australian at 23.0 cM sharing BRAYLEY and BAKER, one Englishman actually surnamed Brayley at 16.2 cM - and NEITHER IS IN THIS CLUSTER. None of the three Baileys carries Brayley as an ancestral surname.",
+      "care": "And the absence proves nothing either, which is why this is left open rather than closed. The Bailey trees hold TWO people and FOUR people, and MyHeritage cannot compute a shared ancestral surname from a tree with two people in it. THE LINK IS UNTESTED, NOT REFUTED. The one thing that would settle it is a message to the 116 cM match asking for two generations of her grandparents' names - and that is David's to send, not this archive's."
     },
-    {
-     "cluster": 5,
-     "size": 4,
-     "cM_low": 89.7,
-     "cM_high": 143.1,
-     "tree_surnames": [
-      "butler",
-      "duncan",
-      "martin-hardy-ellis",
-      "mulder"
-     ]
+    "and_a_second_pointer": {
+      "cluster": 12,
+      "trees": "Jullien, Walker",
+      "note": "Below the aunt's floor, so the subtraction is silent on it - but WALKER runs through the Taylor line as a given name: Margaret Hellen WALKER Taylor and Agnes WALKER Taylor, two of Mary Septima's sisters. That naming pattern normally means a Walker grandmother. Independent of the subtraction, and pointing the same way."
     },
-    {
-     "cluster": 6,
-     "size": 4,
-     "cM_low": 94.2,
-     "cM_high": 110.4,
-     "tree_surnames": [
-      "faraday",
-      "johnson",
-      "lightcap",
-      "priceglendinning"
-     ]
-    }
-   ]
+    "the_conclusion": "THE SUBTRACTION WORKS, AND IT FINDS A PATERNAL CLUSTER. Whose it is remains open: the Brayley reading was tested the same day and did not hold up. Pablo Armando still has no cluster on his granddaughter's chart."
   }
- },
- "the_control_that_makes_this_readable": {
-  "kit": "her son",
-  "what_it_shows": "His father is a Defranceski, of Istria and Croatia. His chart contains TWO plainly Croatian clusters - Butorac, Pavelich, Jagustin, Krkljes, Racic, Glas - sitting beside the Cape ones.",
-  "why_it_matters": "AutoClusters demonstrably forms a distinct block for a foreign paternal line WHEN COUSINS FROM THAT LINE HAVE TESTED. The method is not blind to a non-Cape father. It found his."
- },
- "the_finding": {
-  "her_clusters": 14,
-  "her_matches_clustered": 107,
-  "her_cM_floor": 50.6,
-  "statement": "EVERY ONE OF HER FOURTEEN CLUSTERS IS CAPE AFRIKANER OR BRITISH ISLES. Attwell, Botha, Buitendag, Calitz, du Pisanie, du Plessis, Engelbrecht, Erasmus, Dippenaar, Lotter, de Kock, Bezuidenhout, Potgieter, de Lange, de Villiers, Volschenk, Niemann, Strauss, Viviers, Hamman, Nel, Theron, van der Westhuizen, van Zyl, Booyens, Jooste, Kroon, Joubert, Dreyer, Krugel, Sander, Jansen van Vuuren, Beukes, du Toit, Gouws, Marais, Bailey, Walker, Johnson, White, Butler, Daniel, Daschner.",
-  "not_one": "Not one Spanish, Italian, Argentine or Uruguayan surname appears in any cluster on her chart.",
-  "the_shape_of_it": "She has four grandparents. Fourteen clusters are accounted for by three of them. The fourth - Pablo Armando - has no cluster at all."
- },
- "the_nephew": {
-  "who": "the only other Lerena who has tested",
-  "clusters": 19,
-  "surprise": "His chart is almost entirely ASHKENAZI JEWISH - Abrams, Litwack, Rothbart, Epstein, Goldman, Rosenzweig, Levitan, Novik, Aizenman, Graivier, Lumelsky, Mandel, Cohen, Goldberg, Weisberg, Waldman, Goldstein, Fishbein - with tree names in Hebrew and Russian. That is his MOTHER's family, not the Lerena line, and an endogamous population throws up far more high-centimorgan matches than an outbred one, so it crowds his chart out.",
-  "shared_with_his_aunt": 3,
-  "and_where": "All three of the matches he shares with her sit in ONE of her clusters - the Cape one that holds Butler, Daniel and Daschner.",
-  "reading": "The only other tested Lerena contributes three clustered matches to this question, and all three are Cape. This is also the clearest statement yet of why he was never going to separate the lines: he is her NEPHEW, so the Lerena half of him arrives filtered through the same Cape grandmother."
- },
- "the_honest_limit": {
-  "floors": {
-   "her": 50.6,
-   "nephew": 65.0,
-   "son": 40.0
-  },
-  "what_it_means": "AutoClusters only works on matches above a threshold - hers begins at 50.6 cM. A cluster cannot form where nobody has tested, and it cannot form from matches below the floor.",
-  "so": "The Croatian clusters on her son's chart exist because Croatians test in numbers. The absence of an Argentine cluster on hers is consistent with Pablo Armando's family having no living tested descendants in either database - which is exactly what the sixty-two-country match census already said, where Argentina did not appear at all.",
-  "not_a_disproof": "This is a strong negative and it is not a disproof. It says the answer is not reachable by DNA matching today. It does not say the hypothesis is wrong."
- },
- "the_subtraction": {
-  "what_it_is": "Her maternal aunt's chart was generated too. The aunt is Cape and nothing else, so any cluster of the niece's that has no counterpart on the aunt's belongs to her FATHER - which is to say to Pablo Armando or to Mary Septima Taylor. This is the instrument this page has been asking for all day.",
-  "the_trap_first": "Run naively it says five of her fourteen clusters are paternal. That is wrong, and the reason is a floor mismatch: the aunt's chart begins at 75.3 cM and the niece's at 50.6. Four of those five clusters have no member above 75.3 cM at all, so they COULD NOT have appeared on the aunt's chart whatever their ancestry. The test can only speak about the 15 of her 107 clustered matches that clear the aunt's floor.",
-  "done_properly": {
-   "testable_clusters": 8,
-   "confirmed_maternal": 6,
-   "paternal_candidates": 2,
-   "cannot_be_tested": [
-    2,
-    3,
-    5,
-    11,
-    12,
-    13
-   ]
-  },
-  "candidate_one_resolved": {
-   "cluster": 8,
-   "cM": 80,
-   "tree": "Kroon",
-   "verdict": "A FALSE POSITIVE, and caught. Absent from the aunt's clustered chart, so the subtraction flags it - but MyHeritage's own Theory of Family Relativity for that match names the surnames common to them as KRUGER, VENTER and NEL. Those are Cape. It is maternal, and it simply was not clustered on the aunt's chart. Absence from a CLUSTERED list is not absence from a match list, and this is the case that proves it."
-  },
-  "candidate_two_the_real_one": {
-   "cluster": 14,
-   "size": 3,
-   "cM_range": "61-116",
-   "trees": "Bailey",
-   "why_it_stands": "Its largest member is 116 cM - comfortably above the aunt's floor, so it had every opportunity to appear on her chart and did not. It is the one genuine paternal cluster the subtraction finds.",
-   "and_whose_it_probably_is": "NOT Pablo Armando's. Mary Septima Taylor's mother was MARY ANN HELLEN BRAYLEY of Bideford, Devon. This archive's own search register already records that Brayley queries come back swamped by 'Bradley, Bayley, Burley, Barley', and its RootsChat assessment says in terms that Brayley 'is the one this archive could not push past'. A 116 cM cluster of BAILEY trees on the paternal side is the best lead that wall has ever had.",
-   "care": "Bailey is not Brayley, and this is a candidate rather than a finding. It is written down as one."
-  },
-  "and_a_second_pointer": {
-   "cluster": 12,
-   "trees": "Jullien, Walker",
-   "note": "Below the aunt's floor, so the subtraction is silent on it - but WALKER runs through the Taylor line as a given name: Margaret Hellen WALKER Taylor and Agnes WALKER Taylor, two of Mary Septima's sisters. That naming pattern normally means a Walker grandmother. Independent of the subtraction, and pointing the same way."
-  },
-  "the_conclusion": "THE SUBTRACTION WORKS, AND IT FINDS A PATERNAL CLUSTER. It is a Taylor one. Pablo Armando still has no cluster on his granddaughter's chart."
- }
 }

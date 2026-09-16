@@ -12,10 +12,18 @@ import passport from "../data/pablo-armando-passport.json";
 import dn from "../data/death-notice-1950.json";
 import memory from "../data/family-memory.json";
 import llorens from "../data/llorens-1872.json";
+import ged from "../data/gedcom-2018.json";
+import harvest from "../data/gedcom-harvest.json";
+import conv from "../data/brayley-convergence.json";
 const M = Object.fromEntries(marriage.map((r) => [r.field, r]));
 const N = Object.fromEntries(notices.map((r) => [r.field, r]));
 const D = Object.fromEntries(dn.map((r) => [r.field, r]));
 const L = Object.fromEntries(llorens.map((r) => [r.field, r]));
+const G = Object.fromEntries(ged.filter((r) => r.what).map((r) => [r.what, r]));
+const probes = conv.filter((r) => r.hits && /^\d+$/.test(String(r.hits).trim()));
+const convFind = conv.filter((r) => r.probe && r.probe !== "finding" && r.probe !== "what_would_join_them"
+  && !/^\d+$/.test(String(r.hits || "").trim()) && r.hits);
+const convJoin = conv.find((r) => r.probe === "what_would_join_them");
 const forRows = llorens.filter((r) => r.field.startsWith("for_"));
 const againstRows = llorens.filter((r) => r.field.startsWith("against_"));
 const just = passport.filter((r) => r.field.startsWith("justificativos") ||
@@ -419,6 +427,70 @@ const DOCS = [
       1991 burial index page for the FA&mdash; surnames, carrying <strong>Falco Carmine Antonio,
       Caterina, Filomena and Raffaele</strong>. It is misfiled here. It belongs to the Falco archive and
       it is left where it is, noted and untouched, because this estate does not mix its families.</p>
+  </div>
+</section>
+
+<section class="blk">
+  <h2>7. The family tree, counted &mdash; 8,286 people, never opened</h2>
+  <p class="dek">David asked whether this archive had gone through the GEDCOM. It had not.
+    <code>2018-07 Defranceski.ged</code> holds <strong>{G["individuals"] && G["individuals"].count} individuals</strong>,
+    {G["families"] && G["families"].count} families and <strong>{G["media objects"] && G["media objects"].count} media
+    objects</strong> &mdash; against <strong>278</strong> people in this archive's own register.</p>
+  <div class="note" style="margin:18px 0">The media are <strong>not on the disk</strong>. The file
+    references point at MyHeritage's servers; only 169 cached thumbnails survive locally, at 60&times;80.
+    <strong>The text is free. The images need the live tree.</strong></div>
+
+  <h3 style="margin-top:26px">What came out of it</h3>
+  <div class="scroll" style="margin-top:14px">
+    <table>
+      <thead><tr><th style="width:21rem">The tree says</th><th>This archive says</th></tr></thead>
+      <tbody>
+        {harvest.map((r) => (
+          <tr><td><strong set:html={em(r.finding)} /><br /><span set:html={em(r.what_the_tree_says)} /></td>
+            <td set:html={em(r.what_this_archive_says)} /></tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="blk">
+  <h2>8. The Brayley convergence, tested &mdash; and it does not go where it looked</h2>
+  <p class="dek">Three roads appeared to point at Mary Septima&rsquo;s mother&rsquo;s line on the same
+    day: a DNA cluster of <strong>Bailey</strong> trees; this archive&rsquo;s own note that
+    <strong>Brayley</strong> was the line it &ldquo;could not push past&rdquo;; and a GEDCOM that turned
+    out to carry Brayley back to <strong>1747</strong>. Here is what happened when they were put against
+    each other.</p>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr><th style="width:7rem">Probe</th><th class="m">Hits</th><th>What came back, and what it means</th></tr></thead>
+      <tbody>
+        {probes.map((r) => (
+          <tr><td><strong set:html={em(r.probe)} /></td><td class="m">{r.hits}</td>
+            <td><span set:html={em(r.what_came_back)} />
+              <br /><span class="cap" set:html={em(r.reading)} /></td></tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  <div class="panel" style="border-left:3px solid var(--ochre,#8a7f5c);margin:24px 0">
+    <div class="lab">And the part that does not work &mdash; which is the point of running it</div>
+    {convFind.map((r) => (
+      <p style="margin:12px 0 0"><span set:html={em(r.probe)} /> <span set:html={em(r.hits)} /></p>
+    ))}
+    {convJoin && <p style="margin:14px 0 0"><strong>What would join them.</strong>
+      <span set:html={em(convJoin.hits)} /></p>}
+  </div>
+  <div class="prose">
+    <p><strong>What the convergence actually delivered.</strong> Not the Bailey cluster. Something duller
+      and better: <strong>the Taylor maternal line is now corroborated in three independent
+      places</strong> &mdash; a family tree that carries it back to John Brayley of 1747, an English
+      cousin&rsquo;s written history that carries the same people, and a match list in which
+      <strong>Brayley, Temple and Walker</strong> all turn up as shared ancestral surnames at
+      fourth-to-fifth-cousin distances.</p>
+    <p><strong>For Mary Septima Taylor&rsquo;s mother&rsquo;s family, this archive moved from a wall to a
+      documented ascent of six generations in an afternoon. For Pablo Armando it moved nothing at
+      all.</strong></p>
   </div>
 </section>
 
