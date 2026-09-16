@@ -1,6 +1,38 @@
 ---
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
+import Spine from "@daviddef/archive-kit/components/Spine.astro";
+
+/* No joint on this line is marked weak, and that is the claim the page makes:
+   every step now rests on a record and there is no inferred link left in the
+   descent. The shared spine shows an unmarked chain for exactly that. */
+const rows = [
+  { gen: "0", name: "Juan Carlos Lerena", spouse: "Mar\u00eda Lerena",
+    confidence: "Documented",
+    note: `<span class="cap">So written on the card; her maiden name is not yet known. Presumed
+      <strong>Rosario de Santa Fe</strong>; nothing else yet known of him. Named as the father on his
+      son&rsquo;s <a href="${u("/enrolment-card/")}">1908 <em>ficha de enrolamiento</em></a>.
+      Corroborated from outside Argentina: Pablo Armando&rsquo;s eldest son was
+      <strong>Ricardo <em>Juan Carlos</em> Lerena</strong>, b. 6 Jan 1920, Cape Town.</span>` },
+  { gen: "1", name: "Pablo Armando Lerena", spouse: "Mary Septima Taylor",
+    born: "22 Feb 1882", bornPlace: "Rosario de Santa Fe, Argentina",
+    died: "19 Mar 1950", diedPlace: "Newlands, Cape Town", confidence: "Documented",
+    note: `<span class="cap">In South Africa <strong>Robert Paul Lerena</strong>; his wife died
+      Nov 1935 aged 51. Argentine passport, 1940: born Rosario, <strong>Trainer</strong>. Death
+      certificate A 214036: <strong>Race Horse Owner</strong>. Named as father in the 1911 Corpus
+      Christi baptism of his son Roque.</span>` },
+  { gen: "2", name: "Nuno Fernando Lerena",
+    spouse: "Catherine Mary Sophia Booyzen (1924\u20132013)",
+    born: "6 Oct 1924", bornPlace: "Cape Town",
+    died: "1 Jul 1971", diedPlace: "Germiston, Transvaal", confidence: "Documented",
+    note: `<span class="cap">Married at Johannesburg. Named with this exact birth date as a residuary
+      heir in his father's 1950 estate; own death notice 6746/71. A salesman.</span>` },
+  { gen: "3", name: "Cheryl Anne Lerena", living: true,
+    note: `<span class="cap">Named among her father&rsquo;s children in his 1971 death notice.
+      <strong>No dates, no places, no photographs</strong>, under this archive&rsquo;s rule on living
+      people. Her DNA test is used on <a href="${u("/dna/")}">the DNA page</a> only for what it says
+      about Pablo Armando, who died in 1950.</span>` },
+];
 ---
 <Base title="The Spine"
       eyebrow="The spine, generation by generation"
@@ -21,59 +53,7 @@ import { u } from "../lib/url.js";
 </section>
 <section class="blk">
 <h2>The line</h2>
-  <div class="scroll">
-    <table>
-      <thead><tr><th>Gen</th><th>Person</th><th>Dates</th><th>Where</th><th>Status</th></tr></thead>
-      <tbody>
-        <tr>
-          <td class="mono">0</td>
-          <td><strong>Juan Carlos Lerena</strong><br />
-            <span class="cap">m. <strong>María Lerena</strong> &mdash; so written on the card;
-            her maiden name is not yet known</span></td>
-          <td class="mono">&mdash;</td>
-          <td>Presumed <strong>Rosario de Santa Fe</strong>; nothing else yet known of him</td>
-          <td><span class="chip doc">Documented</span><br /><span class="cap">Named as the father on his
-            son&rsquo;s <a href={u("/enrolment-card/")}>1908 <em>ficha de enrolamiento</em></a>. Corroborated
-            from outside Argentina: Pablo Armando&rsquo;s eldest son was
-            <strong>Ricardo <em>Juan Carlos</em> Lerena</strong>, b. 6 Jan 1920, Cape Town.</span></td>
-        </tr>
-        <tr>
-          <td class="mono">1</td>
-          <td><strong>Pablo Armando Lerena</strong><br />
-            <span class="cap">in South Africa <strong>Robert Paul Lerena</strong><br />
-            m. <strong>Mary Septima Taylor</strong>, d. Nov 1935 aged 51</span></td>
-          <td class="mono">22 Feb 1882 &ndash; 19 Mar 1950</td>
-          <td>Born <strong>Rosario de Santa Fe</strong>, Argentina; died at Newlands, Cape Town</td>
-          <td><span class="chip doc">Documented</span><br /><span class="cap">Argentine passport, 1940:
-            born Rosario, <strong>Trainer</strong>. Death certificate A 214036:
-            <strong>Race Horse Owner</strong>. Named as father in the 1911 Corpus Christi baptism of his
-            son Roque.</span></td>
-        </tr>
-        <tr>
-          <td class="mono">2</td>
-          <td><strong>Nuno Fernando Lerena</strong><br />
-            <span class="cap">m. Catherine Mary Sophia <strong>Booyzen</strong>, 1929&ndash;2013,
-            at Johannesburg</span></td>
-          <td class="mono">6 Oct 1924 &ndash; 1 Jul 1971</td>
-          <td>Born <strong>Cape Town</strong>; died at Germiston, Transvaal</td>
-          <td><span class="chip doc">Documented</span><br /><span class="cap">Named with this exact birth
-            date as a residuary heir in his father's 1950 estate; own death notice 6746/71. A
-            salesman.</span></td>
-        </tr>
-        <tr>
-          <td class="mono">3</td>
-          <td><strong>Cheryl Anne Lerena</strong></td>
-          <td class="mono">&mdash;</td>
-          <td>&mdash;</td>
-          <td><span class="chip">Living &mdash; name only</span><br /><span class="cap">Named among her
-            father&rsquo;s children in his 1971 death notice. <strong>No dates, no places, no
-            photographs</strong>, under this archive&rsquo;s rule on living people. Her DNA test is used
-            on <a href={u("/dna/")}>the DNA page</a> only for what it says about Pablo Armando, who died
-            in 1950.</span></td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+  <Spine rows={rows} u={u} />
   <p>
     <span class="chip doc">Documented</span> <strong>Every step of this line now rests on a record.</strong>
     Nuno Fernando's birth date appears in his father's estate papers and again on his own death notice;
