@@ -79,3 +79,24 @@ child, as the tree has them	the index entry	grade
 # Taylor families, and *** the birth index does not give a mother's maiden name until September 1911 ***,
 # so parentage cannot be read off it. *** WHAT WOULD SETTLE IT COSTS NOTHING: the 1891 census at
 # Northam, which lists the household by name and age. ***
+#
+# ============ FOURTH PASS, 17 September 2026: THE TAYLOR SIBLINGS' DEATHS ============
+# *** The unfinished half of row 126. The nine children were confirmed in the BIRTH index in September;
+# their DEATHS test the same birth quarters from sixty and eighty years later, because the death index
+# carries an age. ***
+sibling, as the tree has them	the death entry	grade
+*** HORACE ARCHIBALD TAYLOR *** , born April 1872 at 23 Geneva Place, Bideford; the tree gives his death as *** 18 January 1934. ***	*** Deaths, March quarter 1934: TAYLOR, Horace A - AGE 61 - BIRMINGHAM. ***	*** CONFIRMED, and the age is exact. *** A death on 18 January falls in the March quarter; a man born in April 1872 is *** 61 *** in January 1934 and turns 62 that April. *** The initial is right and the age is right to the month. *** *** The district is the surprise: BIRMINGHAM, not Devon *** - but he was a *** FOOTMAN *** at nineteen on the 1891 census, and servants went where the places were.
+*** WILLIAM JOHN TAYLOR *** , the twin, born November 1870; the tree gives his death as *** 11 May 1951. ***	*** Deaths, June quarter 1951: TAYLOR, William J - AGE 80 - TOTNES. ***	*** CONFIRMED on all four points. *** 11 May falls in the June quarter; born November 1870 he is *** 80 ***; the initial is right; and *** TOTNES IS IN DEVON *** - he stayed in the county his sister left. *** So of the twins born in one quarter of 1870, one died in Devon at 80 and the other went to Cape Town. ***
+#
+# *** AND THE METHOD NOTE, WHICH NEARLY COST BOTH OF THEM. ***
+# *** THE FIRST SEARCH FOR EACH MAN RETURNED NOTHING. *** "Horace Archibald Taylor", deaths 1930-1940:
+# *** no rows. *** "William John Taylor", deaths 1951: *** no rows. ***
+# *** BOTH NULLS WERE FALSE, AND BOTH MEN WERE SITTING THERE UNDER AN INITIAL *** - Horace A and
+# William J. *** The GRO index abbreviates second forenames, and FreeBMD transcribes what the index
+# says. *** A full-forename search is therefore a *** weaker *** search than a first-forename search,
+# and this archive has now been caught by it twice in one afternoon.
+# *** THE RULE: search the FIRST forename only, then filter the results by AGE. *** The age is what
+# does the identifying after 1866 anyway.
+# *** AND THE CONTROLS HELD BOTH TIMES: *** "Horace Taylor" 1930-1940 returns *** 34 *** deaths, and
+# "William Taylor" 1951 returns *** 205 *** with all four quarters at >99%. The coverage was never the
+# problem; the query was.
