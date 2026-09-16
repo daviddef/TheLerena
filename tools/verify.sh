@@ -34,5 +34,6 @@ rm -rf site/dist
 python3 tools/check-links.py
 python3 tools/check-errands.py
 python3 tools/check-evidence.py
+python3 tools/check-corrections.py
 python3 tools/drift.py
 echo "ALL GATES PASSED"
