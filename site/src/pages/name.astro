@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
+import Distribution from "@daviddef/archive-kit/components/Distribution.astro";
 const rows = [
   ["Spain", "888", "1:52,649", "4,882"],
   ["Uruguay", "431", "1:7,962", "896"],
@@ -12,6 +13,16 @@ const rows = [
   ["Chile", "14", "1:1,258,320", "22,898"],
   ["France", "11", "1:6,038,429", "280,838"],
 ];
+/* DRAWN BY DENSITY, NOT BY TOTAL, because that is what this page argues. A
+   chart ranked by bearers puts Spain at the top and picks it out in the accent,
+   and the section directly below it says in so many words that Spain is not the
+   answer - Uruguay carries the name at six times the homeland's density, which
+   is the signature of founder emigration. A chart that contradicted its own
+   caption would be worse than no chart. */
+const rate = (i) => 1 / Number(String(i).split(":")[1].replace(/,/g, ""));
+const dist = rows
+  .map(([c, b, i, r]) => [c, rate(i), `${b} \u00b7 ${i.replace(":", " in ")} \u00b7 rank ${r} in country`])
+  .sort((a, b) => b[1] - a[1]);
 ---
 <Base title="The Name"
       eyebrow="2,124 in the world"
@@ -56,22 +67,16 @@ const rows = [
 
 <section class="blk">
 <h2 id="s-where-they-are">Where they are</h2>
-  <div class="scroll">
-    <table>
-      <thead><tr><th>Country</th><th>Bearers</th><th>Incidence</th><th>Rank in country</th></tr></thead>
-      <tbody>
-        {rows.map(([c, b, i, r]) => (
-          <tr><td>{c}</td><td>{b}</td><td class="mono">{i}</td><td class="mono">{r}</td></tr>
-        ))}
-      </tbody>
-    </table>
-  </div>
+  <Distribution rows={dist}
+    label="Where the Lerena surname is densest: bearers per head of population, by country"
+  />
+  <p class="cap" style="margin-top:6px">Bar length is density. Beside each bar: bearers, incidence, and the name&rsquo;s rank in that country.</p>
   <p class="cap">
     Smaller presences are also recorded in Cuba, Brazil, Peru, Ecuador, Venezuela, England, Ireland,
     Canada, Switzerland, Belgium and the Philippines. Source: Forebears.
   </p>
 
-  <h3>Read the table by density, not by total</h3>
+  <h3>Read it by density, not by total</h3>
   <p>
     Spain has the largest absolute number, and that is what one would expect of the country of origin.
     But <strong>Uruguay's density is the highest in the world</strong> — 1 in 7,962, against Spain's
