@@ -9,8 +9,8 @@ const ramonRows = ramon.filter((r) => r.generation && r.grade && r.grade !== "gr
 const mauricioRows = mauricio.filter((r) => r.child && r.grade && r.grade !== "grade");
 ---
 <Base title="Uruguay"
-      eyebrow="Two Lerena families, and neither of them is his — yet"
-      dek="There are two documented Lerena families in nineteenth-century Uruguay. They are not the same family, they are not even brothers, and this archive has spent months treating them as one. Here they are set out side by side, because the hope is that one of them eventually reaches Pablo Armando.">
+      eyebrow="Two Lerena families, two Spanish origins, and neither of them is his"
+      dek="There are two documented Lerena families in nineteenth-century Uruguay, and on 17 September 2026 a baptism act of 1812 settled what they are to each other: nothing. One came from Córdoba in Andalusia, the other from Valdemoro outside Madrid. The surname entered the Banda Oriental twice, from opposite ends of Spain.">
 
 <section class="blk">
   <div class="panel" style="margin:1.4rem 0">
@@ -41,40 +41,54 @@ const mauricioRows = mauricio.filter((r) => r.child && r.grade && r.grade !== "g
     </div>
     <div class="card">
       <h3>Ramón&rsquo;s house &mdash; Rosario, then the interior</h3>
-      <p><strong>RAMÓN LERENA</strong> married <strong>María Josefa González</strong> and was fathering
-        children from about 1800. His sons give his origin away: Alejandro was born at
-        <strong>Rosario</strong> and Mauricio at <strong>Colla</strong>, which is the same country — the
-        Rosario district of <strong>Colonia</strong>.</p>
-      <p>His own parents are <strong>Salvador Gerena and Ana de Cubas</strong>, named on a grandson&rsquo;s
-        baptism act of 1812. From his sons come the <strong>Trinidad kindred</strong> of Flores, and a
-        spread across San José, Florida, Salto and Montevideo.</p>
+      <p><strong>RAMÓN SERENA</strong> — so the act writes him; the indexes say Lerena and Gerena —
+        <em>natural de <strong>Valdemoro en Castilla la Nueva</strong></em>, married
+        <strong>María Josefa González</strong>, <em>natural de la Ysla de Canarias, <strong>Lanzarote</strong></em>.
+        He was fathering children from about 1800, and his sons were born in Uruguay: Alejandro at
+        <strong>Rosario</strong>, Mauricio at <strong>Colla</strong> — the Rosario district of
+        <strong>Colonia</strong>.</p>
+      <p>His own parents are <strong>Salvador Serena and Ana de Cubas</strong>, which is where the current
+        tree&rsquo;s otherwise unexplained &ldquo;Ramón Llerena <em>Cubas</em>&rdquo; comes from. From his
+        sons come the <strong>Trinidad kindred</strong> of Flores and a spread across San José, Florida,
+        Salto and Montevideo.</p>
     </div>
   </div>
 </section>
 
 <section class="blk">
-  <h2>They are not brothers, and the arithmetic is what says so</h2>
+  <h2>They are not one family, and an act of 1812 says so in five words</h2>
   <div class="prose">
-    <p>This was the question worth asking, because if Ramón were a son of Sancho the two houses would be
-      one and the Uruguayan picture would close. <strong>He is not.</strong></p>
-    <p>Alejandro married in <strong>1825</strong>, so he was born about <strong>1800&ndash;05</strong>,
-      which puts his father Ramón&rsquo;s birth at about <strong>1775&ndash;85</strong>. Sancho was
-      baptised about <strong>1767</strong>, married in <strong>January 1791</strong>, and his first child
-      was born in <strong>1793</strong>. <strong>A man born in 1775&ndash;85 cannot be the son of a man
-      who married in 1791.</strong> Ramón is Sancho&rsquo;s contemporary, roughly ten years his junior.</p>
-    <p>Nor are they brothers. <strong>Sancho&rsquo;s father was Félix; Ramón&rsquo;s was Salvador.</strong>
-      Different men, both named on records.</p>
+    <p>This was the question worth asking, because if the two houses were one the Uruguayan picture would
+      close. <strong>They are not, and the answer did not come from arithmetic in the end. It came from a
+      sentence.</strong></p>
+    <p>On <strong>15 November 1812</strong>, at the <strong>Iglesia Matriz of Montevideo</strong>, Don Juan
+      Lloberas baptised <strong>Manuel Lorenzo</strong>, born the day before, and wrote down where the
+      parents came from:</p>
+    <blockquote style="margin:1rem 0;padding-left:1rem;border-left:3px solid var(--rule,#d8d2c6)">
+      <p style="margin:0"><em>&hellip;hijo legítimo de <strong>RAMON SERENA natural de VALDEMORO en
+        CASTILLA LA NUEVA</strong>, y de <strong>María Josefa González natural de la Ysla de Canarias,
+        LANZAROTE</strong>. Abuelos paternos <strong>Salvador Serena y Ana de Cubas</strong>; id. maternos
+        <strong>Marcial de León González è Ysavel Lorenza</strong>.</em></p>
+    </blockquote>
+    <p><strong>Valdemoro is twenty-seven kilometres south of Madrid. Sancho was <em>natural de Córdova la
+      Llana</em>, in Andalusia, five hundred kilometres away.</strong> Two separate Spanish emigrations,
+      two separate arrivals, one rare surname. <a href={u("/searched/")}>Read the act &rarr;</a></p>
+    <p>The arithmetic had already said they could not be father and son — Alejandro married in 1825 so
+      Ramón was born about 1775&ndash;85, while Sancho married in 1791 and had his first child in 1793 —
+      and their fathers were different men, <strong>Félix</strong> and <strong>Salvador</strong>. The act
+      closes what the arithmetic left open.</p>
   </div>
   <div class="panel" style="border-left:3px solid var(--ochre,#8a7f5c);margin:1.4rem 0">
-    <div class="lab">One resemblance, offered as a resemblance and nothing more</div>
-    <p style="margin:.6rem 0 0">Sancho&rsquo;s father is written <strong><em>Feliz GERENA</em></strong> on
-      his grandson&rsquo;s baptism at the Iglesia Matriz of Montevideo in 1811. Ramón&rsquo;s father is
-      written <strong><em>Salvador GERENA</em></strong> on a grandson&rsquo;s baptism at Unión, Montevideo
-      in 1812. <strong>The same unusual spelling, in the same city, one year apart.</strong></p>
-    <p style="margin:.6rem 0 0">That is a scribal habit of one place and one time rather than two
-      families independently choosing the same variant — which is a reason to look at whether
-      <strong>Félix and Salvador were brothers</strong>, and <strong>not</strong> a reason to believe it.
-      This archive has been wrong before by promoting exactly this shape of thing.</p>
+    <div class="lab">A coincidence, correctly distrusted, and now discharged</div>
+    <p style="margin:.6rem 0 0">Before the act was read, this page recorded that Sancho&rsquo;s father is
+      written <strong><em>Feliz GERENA</em></strong> on a Montevideo act of <strong>1811</strong> and
+      Ramón&rsquo;s father <strong><em>Salvador GERENA</em></strong> on one of <strong>1812</strong> — and
+      called it <em>&ldquo;a scribal habit of one place and one time rather than two families
+      independently choosing the same variant&rdquo;</em>, a reason to look and not a reason to believe.</p>
+    <p style="margin:.6rem 0 0"><strong>That was exactly right.</strong> The act itself writes
+      <strong>SERENA</strong>, and both men were baptising children <strong>at the same font, one year
+      apart</strong>. Two families of the same rare surname, in one small city, at one church — and from
+      opposite ends of Spain. <strong>The resemblance was real and it meant nothing.</strong></p>
   </div>
 </section>
 
@@ -140,15 +154,15 @@ const mauricioRows = mauricio.filter((r) => r.child && r.grade && r.grade !== "g
 <section class="blk">
   <h2>What would join the two houses, and what would join either of them to Pablo Armando</h2>
   <div class="prose">
-    <p><strong>To join the houses to each other</strong>, in order of cheapness: read the
-      <strong>1812 act at Unión</strong>, whose image is available and unread, because Uruguayan acts
-      routinely say where the father is <em>natural de</em>; then find <strong>Ramón&rsquo;s own
-      marriage</strong> to María Josefa González, about 1795&ndash;1810 at Rosario in Colonia, San José or
-      Montevideo; then any act at all naming <strong>Salvador Gerena</strong>, who is presently a name and
-      nothing else.</p>
-    <p><strong>If Ramón turns out to be Córdoban like Sancho</strong>, the two houses are cousins and the
-      surname entered the Banda Oriental once. <strong>If he was born in the Banda Oriental</strong>, they
-      are two separate arrivals and may not be related at all.</p>
+    <p><strong>The houses will not be joined.</strong> That question is closed: Córdoba and Valdemoro
+      are five hundred kilometres apart and the act is explicit. What is now open instead is
+      <strong>Valdemoro</strong>, which is a finite and searchable place. <strong>Salvador Serena and Ana
+      de Cubas were married in Spain</strong>, and that marriage is findable; so is Ramón&rsquo;s own
+      baptism, about 1775&ndash;85. The archive has a hard Spanish place-name for this family where an
+      hour ago it had none.</p>
+    <p>And a second stream opens with it that nobody suspected: <strong>María Josefa González was a
+      <em>canaria</em>, from Lanzarote</strong>. The Canary Islands fed their own migration into the River
+      Plate, and no part of this archive has ever looked at it.</p>
     <p><strong>And now the thing this page must not be allowed to obscure.</strong>
       <strong>Neither house reaches Pablo Armando.</strong> There is no <em>Juan Carlos Lerena</em> in
       either family, in any generation, in any of the searches that built this page. He was born at

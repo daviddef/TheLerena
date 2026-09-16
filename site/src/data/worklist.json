@@ -1118,11 +1118,19 @@
   },
   {
    "n": 140,
-   "what": "Read the 1812 Unión act — the image is there and one phrase in it may close the whole question",
+   "what": "The 1812 act, read — Ramón is from VALDEMORO, and the two houses are two Spanish arrivals",
+   "state": "done",
+   "owner": "this archive",
+   "since": "2026-09-17",
+   "note": "*** READ 17 September 2026, and it closed the question in five words. *** **DGS 007713375, image 02668** — *** which is the film already sitting on this work list as row 5. *** *\"…hijo legítimo de **RAMON SERENA natural de VALDEMORO en CASTILLA LA NUEVA**, y de María Josefa González **natural de la Ysla de Canarias, LANZAROTE**. Abuelos paternos **Salvador Serena y Ana de Cubas**; id. maternos **Marcial de León González è Ysavel Lorenza**.\"* *** VALDEMORO IS 27 KM SOUTH OF MADRID. SANCHO WAS NATURAL DE CÓRDOVA LA LLANA, IN ANDALUSIA, 500 KM AWAY. *** So the surname entered the Banda Oriental **twice, from opposite ends of Spain** — two emigrations, not one kindred. *** And the Gerena/Gerena coincidence, which this archive flagged as \"a reason to look and not a reason to believe\", is discharged: the act writes SERENA, and the two men were baptising children at the SAME FONT one year apart. The resemblance was real and it meant nothing. *** *** The act also beat the index nine facts to four: *** the father's birthplace, the mother's birthplace, the real maternal grandmother (**Ysavel Lorenza**, whom the index never named and for whom the child Manuel *Lorenzo* is probably named), and the church — *** the index says \"Unión\" and the act says the Iglesia Matriz. *** See `data/1812-union-act.tsv` and /uruguay/."
+  },
+  {
+   "n": 141,
+   "what": "Valdemoro, Castilla la Nueva — a hard Spanish place-name for Ramón's house, and Lanzarote beside it",
    "state": "next",
    "owner": "this archive",
    "since": "2026-09-17",
-   "note": "*** The cheapest decisive job in the Uruguayan file, and it needs no money and no permission. *** The baptism of **Manuel Lorenzo**, born 14 November and christened 15 November **1812** at **Unión, Montevideo** — ark **1:1:6D7Z-BD56**, *Uruguay registros parroquiales* — *** carries a VIEW ORIGINAL DOCUMENT link and has not been opened. *** *** What the index already gives: *** parents **Ramón Lerena and María Josefa González**, paternal grandparents **Salvador Gerena and Ana de Cubas**, and on the same act *Juan Lloberas*, *Manuel de Ocampo*, and **Matías Marcial de León González** and **Antonia de León González** — *** very probably the MATERNAL grandparents, which would make María Josefa a DE LEÓN GONZÁLEZ. *** *** WHAT THE ACT MAY ADD THAT THE INDEX CANNOT: *** Uruguayan acts routinely state where the father is *natural de*. **Sancho was *natural de Córdova la Llana*.** *** If Ramón is Córdoban, the two Uruguayan houses are cousins and the surname entered the Banda Oriental once; if he is Banda Oriental-born, they are two arrivals. *** Read it at tile resolution the way the 1791 act and the Rosario registers were read."
+   "note": "*** What the 1812 act bought in exchange for closing the join. *** An hour ago Ramón's house had no origin at all; it now has two, both precise. *** ONE: VALDEMORO, in Castilla la Nueva, 27 km south of Madrid. *** **Salvador Serena and Ana de Cubas were married in Spain** and Ramón was baptised there about **1775–85** — *** both findable, because Valdemoro is one parish and not a province. *** FamilySearch holds Spanish diocesan records for Toledo and Madrid; PARES and the Spanish diocesan portals are row 78. *** TWO, AND NOBODY SUSPECTED IT: MARÍA JOSEFA GONZÁLEZ IS A *CANARIA*, FROM LANZAROTE. *** Her parents are **Marcial de León González** and **Ysavel Lorenza**. *** The Canary Islands fed a migration stream of their own into the River Plate and no part of this archive has ever looked at it. *** *** A CAUTION BEFORE ANYONE SPENDS A WEEK: none of this is Pablo Armando's line. *** It is Ramón's house, which the same act has just proved is NOT Sancho's, and neither house has yet produced a Juan Carlos. *** Work it because it is real and cheap, not because it is his. ***"
   }
  ],
  "accounts": [
