@@ -130,20 +130,60 @@ const stats = [
         two names, in his own hand, and no record of either anywhere else.</p>
     </div>
 
-    <div class="sp1-gen">1882</div>
-    <div class="sp1-node doc">
-      <b>Pablo Armando Lerena</b> <span class="tag doc">Documented</span>
-      <p>Born <strong>Rosario de Santa Fe, 22 February 1882</strong> by his own passport. Racehorse
-        trainer. Died at <strong>Newlands, Cape Town, 19 March 1950</strong>; estate 1847/50.</p>
+    <div class="sp1-gen">1882 &rarr; 1950</div>
+    <div class="sp1-row">
+      <div class="sp1-node doc me">
+        <span class="rel">The man this archive is about</span>
+        <b>Pablo Armando Lerena</b> <span class="tag doc">Documented</span>
+        <span class="yr">22 Feb 1882, Rosario de Santa Fe &mdash; 19 Mar 1950, Newlands</span>
+        <p>In South Africa <strong>Robert Paul Lerena</strong>. Racehorse trainer, then owner. His
+          passport gives the town and the day; his estate is 1847/50. <strong>Everything above this row
+          is reached through him, and everything below it descends from him.</strong></p>
+      </div>
+      <div class="sp1-node doc">
+        <span class="rel">His wife &middot; married at St Dominic&rsquo;s, Wynberg, 3 September 1911</span>
+        <b>Mary Septima Taylor</b> <span class="tag doc">Documented</span>
+        <span class="yr">17 Sep 1884, Northam, Devon &mdash; 15 Nov 1935, Cape Town</span>
+        <p><strong>Her name is a count.</strong> <em>Septima</em> means seventh, and she was the seventh
+          daughter of the ten children of William Taylor and Mary Ann Hellen Brayley. Her birth is
+          registered at <strong>Bideford, December quarter 1884, 5b/506</strong>.</p>
+        <p><strong>And her line goes back further than his.</strong> Where the Lerena side stops dead at
+          two names, hers is documented through three English censuses to a mason born at Westleigh
+          about 1777, and a Scotswoman from Haddington who died in the Northam alms house.
+          <a href={u("/taylor/")}>The Taylors &rarr;</a></p>
+      </div>
     </div>
 
-    <div class="sp1-gen">1911&rarr;</div>
-    <div class="sp1-node doc">
-      <b>Wynberg, Germiston, Brisbane</b> <span class="tag doc">Documented</span>
-      <p>Married <strong>Mary Septima Taylor</strong> at Wynberg in 1911; their sons baptised there. Three
-        generations on to David&rsquo;s mother, with <a href={u("/direct-line/")}>no inferred link in the
-        descent</a>.</p>
+    <div class="sp1-gen">Their sons</div>
+    <div class="sp1-row three">
+      <div class="sp1-node doc">
+        <span class="rel">Eldest &middot; baptised Corpus Christi, Wynberg</span>
+        <b>Roque Luis Armando</b> <span class="tag doc">Documented</span>
+        <span class="yr">25 Nov 1905, Cape Town &mdash; 29 Jan 1973, Johannesburg</span>
+        <p>A railwayman; the &ldquo;Louis&rdquo; of the 1950 will. <strong>He was born six years before
+          his parents married, and baptised three months before the wedding</strong> &mdash; the
+          baptism of 12 June 1911 names Pablo Armando as his father, and
+          <strong>that is what proves Pablo Armando and Robert Paul are one man</strong>.</p>
+      </div>
+      <div class="sp1-node doc">
+        <span class="rel">Second son &middot; and a name that carries</span>
+        <b>Ricardo <em>Juan Carlos</em></b> <span class="tag doc">Documented</span>
+        <span class="yr">b. 6 Jan 1920, Cape Town</span>
+        <p><strong>He is named for the grandfather on the enrolment card.</strong> A son born at the Cape
+          in 1920 carrying <em>Juan Carlos</em> corroborates that card from the other side of the ocean,
+          eleven thousand miles from any Argentine record.</p>
+      </div>
+      <div class="sp1-node doc line">
+        <span class="rel">Youngest &middot; the descent to this archive</span>
+        <b>Nuno Fernando</b> <span class="tag doc">Documented</span>
+        <span class="yr">6 Oct 1924, Cape Town &mdash; 1 Jul 1971, Germiston</span>
+        <p>A salesman, married at Johannesburg. Named with this exact birth date in his father&rsquo;s
+          1950 estate and again on his own death notice 6746/71. <strong>David&rsquo;s
+          grandfather</strong>, and from here to the present there is
+          <a href={u("/direct-line/")}>no inferred link in the descent</a>.</p>
+      </div>
     </div>
+  </div>
   </div>
 
   <p class="cap" style="margin-top:14px">What would close it: a Rosario baptism for Pablo Armando naming his
@@ -174,6 +214,16 @@ const stats = [
   .sp1-break b { display:block; font-size:.96rem; }
   .sp1-break p { margin:6px 0 0; font-size:.86rem; line-height:1.55; }
   .tag.gap { border:1px dashed var(--terra); }
+  .sp1-row { grid-column:2; display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+             gap:10px; }
+  .sp1-row.three { grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); }
+  .sp1-row .sp1-node { grid-column:auto; }
+  .sp1-node.me { border-left-width:5px; }
+  .sp1-node.line { border-left-color:var(--gold, #c9a227); }
+  .sp1-node .rel { display:block; font-size:.62rem; letter-spacing:.1em; text-transform:uppercase;
+                   opacity:.6; margin-bottom:6px; }
+  .sp1-node .yr { display:block; font-size:.78rem; opacity:.62; margin-top:3px; }
+  @media (max-width:700px) { .sp1-row { grid-column:1; grid-template-columns:1fr; } }
   @media (max-width:700px) {
     .spine1 { grid-template-columns:1fr; }
     .sp1-gen, .sp1-node { grid-column:1; }
