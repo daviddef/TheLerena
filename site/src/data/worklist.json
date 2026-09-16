@@ -1006,11 +1006,11 @@
   },
   {
    "n": 126,
-   "what": "FreeBMD is usable now — run the rest of the Taylor and Brayley vitals through it",
+   "what": "FreeBMD, second pass — the three 1900 Bideford deaths are done; the nine Taylor siblings are not",
    "state": "next",
    "owner": "this archive",
    "since": "2026-09-16",
-   "note": "*** An evening was spent finding out that the submit control is an image button; that is written down in `data/devon-tooling.tsv` so it is never spent again. *** The index runs from 1837 and gives *** ages on deaths from 1866 ***, which is how the 1843 birth year got corroborated tonight. *** The current tree handed over ten Taylor siblings with birth and death dates and three street addresses *** (`data/gedcom-import.tsv`) and *** not one of them has been put to an index. *** Targets: John Walker Brayley, d. 22 Oct 1900; Georgina Margaret Brayley, b. 1851 Bideford; the nine Taylor siblings' births at Bideford and Northam 1870–1889, whose ages at death would test the lot; and *** Georgina Temple's death, about January 1900, Devon ***, which would give her age and test the Haddington 1814 birth."
+   "note": "*** PART DONE the same evening it was written, 16 September 2026. *** The three 1900 deaths were run and *** all three are in the index, all three in BIDEFORD, all within nine months of each other: *** **Georgina Brayley, age 85, Mar quarter, 5b/421** — the Scotswoman, and *** 85 is exactly right for a birth of 23 August 1814 at Haddington ***; **Mary Ann H Taylor, age 56, Jun quarter, 5b/363**; and **John Walker Brayley, age 53, Dec quarter, 5b/305**. *** His age is the one thing tonight that did NOT match *** — 53 at 22 October 1900 means born about 1847, and the tree says 22 June 1845. *** Two years out, in a family whose other two ages were exact to the month ***, which points at the tree rather than the informant. *** And neither he nor his sister has a registered birth at all *** — no John Walker Brayley 1843–1850 anywhere, no Mary Brayley or Brailey in Jun 1843. *** That is a household that did not register births ***, which was lawful before 1875 — so the place to look is the **parish baptism register**, which is where \"St Paul's\" and \"St Bartholomew's\" pointed all along. *** STILL TO DO: the nine Taylor siblings, born Bideford and Northam 1870–1889 *** (`data/gedcom-import.tsv` has their dates and three street addresses), and Georgina Margaret Brayley, b. 1851 Bideford. *** Their ages at death would test the lot in one sitting, because the index carries ages from 1866. ***"
   }
  ],
  "accounts": [
