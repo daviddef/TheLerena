@@ -502,5 +502,12 @@
   "what_was_said": "Nothing yet, and this is a warning rather than a retraction",
   "what_is_true": "*** The CURRENT tree still carries Pablo Armando's parents as \"Roberto Llorens\" and \"Francisca Fernandez Lerena\" *** - the Buenos Aires couple from the unsolicited Argentine candidate - while his birth has been corrected to *** Rosario, 22 February 1882. *** Those two cannot both be true: the 1872 Buenos Aires baptism is the only thing that ever attached those parents to him, and it is the same document David says is likely no relation. *** The birth was fixed and the parentage was left behind. *** Recorded here so that it is fixed in the tree before it is exported again, and so that no future session mistakes it for evidence. The mother's surname \"Fernandez Lerena\" appears in no register: the Buenos Aires act says FRANCISCA FERNANDEZ.",
   "how_it_was_caught": "Noticed while re-deriving from the current export, by reading the parents field after the birth field instead of stopping at the good news."
+ },
+ {
+  "date": "2026-09-16",
+  "severity": "minor",
+  "what_was_said": "*** That the enrolment card's SERIE field reads \"3885\". *** Published on /enrolment-card/ in the table of what the card says.",
+  "what_is_true": "*** It reads \"E 3555\". *** The letter prefix was dropped entirely and two digits were misread. *** The SECCION field, \"I 3322\", was right *** - and it has the same shape, a letter and four digits, which is what should have prompted the doubt: *** a field transcribed WITHOUT its letter, sitting directly above one transcribed WITH it, is an internal inconsistency this archive should have seen before David did. ***",
+  "how_it_was_caught": "*** DAVID READ THE ORIGINAL. *** He was asked what the card was telling him, looked at it properly, and sent back both fields. *** Neither number carries any weight in any argument here *** - no conclusion moves - *** but it is logged because a transcription is the one thing this archive asks readers to trust, and a wrong one is worse than a missing one. ***"
  }
 ]
