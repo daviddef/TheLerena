@@ -831,5 +831,12 @@
   "accessed": "17 Sep 2026",
   "tier": "PRIMARY",
   "link": "https://discovery.nationalarchives.gov.uk/"
+ },
+ {
+  "source": "TNA ADM 188 - Royal Navy Registers of Seamen's Services, and NMM merchant crew lists, via Discovery",
+  "used_for": "*** THE NAVAL SWEEP OF NORTHAM AND BIDEFORD. *** Five men of those two parishes returned by name with exact dates of birth - four Taylors and one Brayley - and *** not one of them is a man of this family. *** The nearest, *** Taylor, William, born 14 October 1871 at Northam ***, is rejected on the 1891 census, which makes our William John twenty and so born in 1870. *** So William John and Horace Archibald Taylor were not Royal Navy ratings ***, and that is a tested null: the method demonstrably finds men of these parishes. See data/naval-devon-taylor-brayley.tsv.",
+  "accessed": "17 Sep 2026",
+  "tier": "PRIMARY",
+  "link": "https://discovery.nationalarchives.gov.uk/"
  }
 ]
