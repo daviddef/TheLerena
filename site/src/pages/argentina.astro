@@ -1,6 +1,8 @@
 ---
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
+import { emph } from "../lib/text.js";
+import routes from "../data/three-routes-walked.json";
 import Spine from "@daviddef/archive-kit/components/Spine.astro";
 
 /* Every Lerena Argentina can actually produce, and where each one came from.
@@ -42,6 +44,10 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 /* The plate appears the moment the file is dropped in; the page is fine without it. */
 const ART = "/art/rosario-parana.webp";
+/* WARNING, and it cost a build on 17 September 2026. hasArt reads import.meta.url, and in Astro
+   frontmatter ANY statement that does so must sit BELOW every import - put an import after it and
+   the build dies with "Unexpected <name>" pointing at a line seventy lines away that is fine.
+   Base.astro carries the same warning for the same reason. New imports go at the TOP. */
 const hasArt = fs.existsSync(
   path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "..", "public", ART)
 );
@@ -92,7 +98,8 @@ const hasArt = fs.existsSync(
       <li><a href="#s-the-registers-now-searched-to-the-end">The registers, now searched to the end</a></li>
       <li><a href="#s-the-surname-in-rosario-at-last-but-the-wrong-man-and-the-wro">The surname in Rosario, at last — but the wrong man and the wrong century</a></li>
       <li><a href="#s-which-rosario">Which Rosario?</a></li>
-    </ol>
+          <li><a href="#s-three-routes">The last three routes, walked</a></li>
+</ol>
   </div>
 </section>
 
@@ -467,6 +474,36 @@ const hasArt = fs.existsSync(
     <p><span class="chip inf">Recorded, and weak</span> <strong>The passport is against it.</strong> His own
       1940 document says <em>&ldquo;Rosario de Santa Fe&rdquo;</em> — naming the province, not merely the
       town. It would take a great deal more than an ambiguity to overturn that.</p>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-three-routes">The last three routes, walked</h2>
+  <div class="prose">
+    <p>After the 1882 register walk and the test of the father's name, three routes were named as the
+    only ones still live. All three were walked on 17 September 2026. <strong>None of them finds his
+    parents</strong>, and that is written down here so the next person does not spend the same day
+    finding out.</p>
+    <p>One of the three <strong>should not have been offered at all</strong>: in February 1882 Rosario
+    had only one parish, so there are no "other parishes" to search. That is logged as a correction
+    against this archive rather than quietly dropped.</p>
+  </div>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr>
+        <th style="width:14rem">Route</th><th style="width:16rem">What was done</th>
+        <th style="width:20rem">What came back</th><th>Verdict</th>
+      </tr></thead>
+      <tbody>
+        {routes.map((r) => { const c = Object.values(r); return (
+          <tr>
+            <th set:html={emph(c[0])} />
+            <td class="cap" set:html={emph(c[1])} />
+            <td class="cap" set:html={emph(c[2])} />
+            <td class="cap" set:html={emph(c[3])} />
+          </tr>); })}
+      </tbody>
+    </table>
   </div>
 </section>
 

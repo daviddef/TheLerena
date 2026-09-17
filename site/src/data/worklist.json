@@ -255,10 +255,10 @@
     {
       "n": 32,
       "what": "Find the DGS for the Montevideo marriage-dispensation register, 1856–1932",
-      "state": "next",
+      "state": "done",
       "owner": "this archive",
       "since": "2026-09-15",
-      "note": "Logged as an errand for David when catalogue search was returning *Something Went Wrong* all day. The route that works now: open any image from the right parish and read its **Information panel**, which prints the catalogue link and that reel's item-by-item contents. The archive already holds one dispensation from this series — the 1911 Lerena–Cardozo — so an anchor exists."
+      "note": "Logged as an errand for David when catalogue search was returning *Something Went Wrong* all day. The route that works now: open any image from the right parish and read its **Information panel**, which prints the catalogue link and that reel's item-by-item contents. The archive already holds one dispensation from this series — the 1911 Lerena–Cardozo — so an anchor exists. *** ANSWERED 17 September 2026, sideways. *** A full-text search aimed at the parents' names returned a hit inside this very register, and the viewer's own header gives it: **DGS 007713367, item 13, 247 images**. Found while looking for something else and not found by searching the catalogue, which was still erroring."
     },
     {
       "n": 33,
@@ -1207,10 +1207,34 @@
     {
       "n": 151,
       "what": "Stop searching indexes for Pablo Armando's parents; go to unindexed images",
+      "state": "done",
+      "owner": "this archive",
+      "since": "2026-09-17",
+      "note": "**Walked 17 September 2026 — all three, same day. See /argentina/ and `data/three-routes-walked.tsv`.** **None finds his parents.** Route 2 was dead before it started and should not have been offered: in February 1882 Rosario had **one** parish. Route 1 is real but **FamilySearch has no Santa Fe civil registration collection at all** — Buenos Aires and Catamarca do, Santa Fe does not — so it needs an approach to the province. Route 3 gave two false positives and one prize: the film number for the Montevideo dispensations, which closes row 32."
+    },
+    {
+      "n": 152,
+      "what": "Write to the Registro Civil of Santa Fe for a February 1882 birth",
+      "state": "blocked",
+      "owner": "David",
+      "since": "2026-09-17",
+      "note": "**This is now the main line on the central question, and it is a letter rather than a query.** A birth in February 1882 should have been registered civilly whether or not the child was baptised — and he was not baptised at Rosario, across 750 consecutive acts. **FamilySearch holds no Santa Fe civil registration**, so the province has to be approached directly. Ask for the birth registration of **Pablo Armando Lerena, 22 February 1882, Rosario**, and for any registration naming **Juan Carlos Lerena** or **Maria Lerena** as parents."
+    },
+    {
+      "n": 153,
+      "what": "Add GONZALEZ LERENA to the compound-surname sweep",
       "state": "next",
       "owner": "this archive",
       "since": "2026-09-17",
-      "note": "Two independent results now point the same way. The **1882 Rosario register walk** proved the index complete across 750 consecutive acts, February to July, with no Lerena — he was not baptised at the Catedral. And **Juan Carlos Lerena is absent from FamilySearch's entire indexed corpus**. **Further index searching is not where the next hour goes.** The live routes are unindexed images and full-text, **Argentine civil registration** (a birth in February 1882 should be registered even where no baptism was), and **the other Rosario parishes** — see data/rosario-five-parishes.tsv. Pick one and read it by eye."
+      "note": "A full-text hit turned up **'Don Juan Carlos González Lerena'** in the Montevideo dispensations, 8 November 1920. He is not ours. But **González Lerena appears in neither `compound-surname-sweep.tsv` nor `lerena-lerena-compound-test.tsv`**, so the compound sweep is incomplete by at least one variant — and compound forms are how this surname hides."
+    },
+    {
+      "n": 154,
+      "what": "Place the Santa Fe city Lerenas — Casimiro Lerena and Amelia Lepiani",
+      "state": "next",
+      "owner": "this archive",
+      "since": "2026-09-17",
+      "note": "The indexed Santa Fe church collection holds **exactly three Lerena entries in 783,111 records**, and one is new to this archive: **Armando Lerena, baptised 1917 at Nuestra Señora del Carmen, Santa Fe city**, son of **Casimiro Lerena and Amelia Lepiani**. **It carries the name Armando**, which is suggestive and nothing more — 1917 is a generation past Pablo Armando and Santa Fe city is 170 km from Rosario. Recorded unplaced; test it, do not adopt it."
     }
   ],
   "accounts": [

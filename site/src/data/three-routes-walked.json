@@ -1,0 +1,38 @@
+[
+ {
+  "route": "*** 1. Argentine civil registration for February 1882 ***",
+  "what was done": "Looked for a Santa Fe civil registration collection on FamilySearch, then tested the indexed church collection that does exist.",
+  "what came back": "*** THERE IS NO SANTA FE CIVIL REGISTRATION COLLECTION. *** Of 42 Argentine collections, *** Buenos Aires City, Buenos Aires province and Catamarca each have civil registration and Santa Fe does not. *** And *** Argentina, Santa Fe, Catholic Church Records, 1634-2003 *** - 783,111 indexed records - holds *** exactly 3 Lerena entries. ***",
+  "verdict": "*** THE ROUTE IS REAL BUT IT IS NOT ON FAMILYSEARCH. *** A February 1882 birth should have been registered civilly whether or not he was baptised, so the question stands - but it has to be put to the *** Registro Civil of Santa Fe province directly ***, not to this site. *** Reclassified from 'next' to 'needs an approach to the province'. *** Three Lerenas in 783,111 also says, independently, how thin this surname is in Santa Fe."
+ },
+ {
+  "route": "*** The one new thing route 1 did turn up ***",
+  "what was done": "Read all three Lerena entries in the Santa Fe church collection.",
+  "what came back": "*** ARMANDO LERENA, baptised 1917 *** at Nuestra Senora del Carmen, *** Santa Fe city (La Capital), not Rosario ***, son of *** CASIMIRO LERENA and AMELIA LEPIANI. *** Also Manuela Lerena, wife of Diego Roman.",
+  "verdict": "*** A LERENA HOUSEHOLD THIS ARCHIVE DID NOT HOLD, and it carries the name ARMANDO. *** That is suggestive and nothing more: 1917 is a generation past Pablo Armando and Santa Fe city is 170 km from Rosario. *** Recorded as unplaced. Not attached to anything. ***"
+ },
+ {
+  "route": "*** 2. The other Rosario parishes ***",
+  "what was done": "Checked which of the five parishes had registers running in February 1882.",
+  "what came back": "*** ONLY ONE DID. *** Inmaculada Concepcion opens 1899, Sagrado Corazon 1896, San Jose 1899, Santa Rosa de Lima 1888. *** The Catedral is the only parish that existed, and its register is the one already walked act by act - 750 consecutive acts, February to July 1882, no Lerena. ***",
+  "verdict": "*** DEAD, AND I SHOULD NOT HAVE OFFERED IT. *** There are no 'other parishes' to search for an 1882 baptism because in 1882 there were no other parishes. *** Logged as a correction. *** The confirmation registers that these parishes DO reach were already swept: 76 images, roughly 2,500 children, 1885-1897, no Lerena under seven spellings."
+ },
+ {
+  "route": "*** 3. Unindexed images and full text ***",
+  "what was done": "Full-text search for the exact phrase *** \"Juan Carlos Lerena\" *** - the parents' generation, which earlier full-text work had never been aimed at.",
+  "what came back": "*** 2 hits, and both are false positives. *** A Montevideo death record of *** 2001 ***; and, in the Montevideo dispensations, entry *** N. 14610, 8 November 1920 ***: the Vicar General dispensed *** 'Don Juan Carlos GONZALEZ LERENA' *** the three banns for his marriage to *** Concepcion Petrona Urbano, feligresa del Cordon. ***",
+  "verdict": "*** THE PHRASE MATCHED ACROSS A COMPOUND SURNAME. *** He is a *** Gonzalez Lerena ***, he married an Urbano rather than a Lerena, and 1920 is forty years adrift of a man whose son was born in 1882. *** Not him, and written down as a false positive so it is not rediscovered as a lead. ***"
+ },
+ {
+  "route": "*** What route 3 DID deliver ***",
+  "what was done": "-",
+  "what came back": "*** THE FILM NUMBER FOR THE MONTEVIDEO MARRIAGE-DISPENSATION REGISTER: DGS 007713367 ***, item 13, 247 images. Reached by opening the full-text hit and reading the viewer's own header.",
+  "verdict": "*** THIS ANSWERS WORKLIST ROW 32, which has been open asking for exactly this. *** A route found sideways while looking for something else. And *** GONZALEZ LERENA is a compound form held in NEITHER of this archive's two compound-surname files ***, so the sweep is incomplete by at least one variant."
+ },
+ {
+  "route": "*** WHERE THE CENTRAL QUESTION NOW STANDS ***",
+  "what was done": "-",
+  "what came back": "Three independent results, none of them a find.",
+  "verdict": "*** He was not baptised at Rosario (750 acts read), he was not confirmed there (2,500 children read), his father is absent from every indexed record FamilySearch holds (control run first), and the civil registration that might hold his birth is not digitised by FamilySearch at all. *** The next move is not another search on this site. It is *** an approach to the Registro Civil of Santa Fe ***, and that is a letter, not a query."
+ }
+]

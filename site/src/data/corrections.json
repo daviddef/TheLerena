@@ -622,5 +622,13 @@
   "what_is_true": "*** THE CENSUS SENTENCE WAS TRUE; THE VERDICT ON TOP OF IT WAS NOT. *** One route was tested and the verdict was written as though all had been. The UK National Archives had never been searched at all, and *** Geneva Place turns out to be a council school whose log books and ADMISSION REGISTERS survive for 1885-1949 *** (North Devon Record Office 629C; also Kew ED 21/26168 and ED 70/427). Admission registers give the child, the date of birth, the father and the address. *** A null must name the routes it tested, and this one silently claimed a route it had not tried. ***",
   "how_it_was_caught": "David asked whether this archive had ever looked at nationalarchives.gov.uk. It had not.",
   "retired": ""
+ },
+ {
+  "date": "2026-09-17",
+  "severity": "minor",
+  "what_was_said": "*** That 'the other Rosario parishes' were a live route to Pablo Armando's 1882 baptism. *** Offered as one of three remaining routes, and as the second-best of them.",
+  "what_is_true": "*** THERE WERE NO OTHER PARISHES IN 1882. *** Of the five Rosario parishes, four open in *** 1888, 1896, 1899 and 1899 *** - all after his birth. The Catedral was the only parish in existence, and its register is the one already walked act by act with no Lerena in it. *** The archive's own rosario-five-parishes.tsv said so in a column headed 'does it reach February 1882?', and I recommended the route without reading it. ***",
+  "how_it_was_caught": "Checked when the route was actually walked, an hour after recommending it.",
+  "retired": ""
  }
 ]
