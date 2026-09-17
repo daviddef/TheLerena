@@ -1195,6 +1195,22 @@
       "owner": "this archive",
       "since": "2026-09-17",
       "note": "TNA digital downloads are licensed for **private study or research for a non-commercial purpose** and for education. **This archive is a public website.** The line taken, and to keep taking: **cite the reference, transcribe the facts, do not republish the scan.** Facts are not copyright; the image is licensed. Anything wider goes to image-library@nationalarchives.gov.uk. Note also that **download links expire 30 days from the order**, so anything wanted long-term must be read and transcribed inside that window — ADM 188/195/140021 was ordered 17 September 2026."
+    },
+    {
+      "n": 150,
+      "what": "Juan Carlos Lerena is absent from every indexed record FamilySearch holds",
+      "state": "done",
+      "owner": "this archive",
+      "since": "2026-09-17",
+      "note": "**Tested 17 September 2026, and the control was run first.** The 1908 card is the only document naming Pablo Armando's parents. Searched: father exactly *Juan Carlos* Lerena with mother's surname Lerena — **0**; the same without the mother — **0**; *Juan Carlos Lerena* as a named person in any role, country or collection — **1**, and it is an infant, **Lerena Caraballo, died 21 February 1983 at Montevideo aged 0**, a century adrift. Control, same form, Gilberto Lerena and Julia Salvanach: **11**. **The form works; the zeroes are the corpus.** Limits stated on /direct-line/: this tests the *exact* string and **indexed** records only. Taken with the 1882 Rosario walk — 750 consecutive acts, no Lerena — **the parents' generation is not in any indexed corpus this archive can reach.**"
+    },
+    {
+      "n": 151,
+      "what": "Stop searching indexes for Pablo Armando's parents; go to unindexed images",
+      "state": "next",
+      "owner": "this archive",
+      "since": "2026-09-17",
+      "note": "Two independent results now point the same way. The **1882 Rosario register walk** proved the index complete across 750 consecutive acts, February to July, with no Lerena — he was not baptised at the Catedral. And **Juan Carlos Lerena is absent from FamilySearch's entire indexed corpus**. **Further index searching is not where the next hour goes.** The live routes are unindexed images and full-text, **Argentine civil registration** (a birth in February 1882 should be registered even where no baptism was), and **the other Rosario parishes** — see data/rosario-five-parishes.tsv. Pick one and read it by eye."
     }
   ],
   "accounts": [

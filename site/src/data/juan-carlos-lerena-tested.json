@@ -1,0 +1,32 @@
+[
+ {
+  "query": "*** Father exactly 'Juan Carlos', surname Lerena, mother's surname Lerena ***",
+  "result": "*** 0 ***",
+  "verdict": "*** No indexed child anywhere of that couple. *** The mother sharing the father's surname is the unusual part and the easiest thing to search on, and it returns nothing."
+ },
+ {
+  "query": "*** Father exactly 'Juan Carlos Lerena', mother unconstrained ***",
+  "result": "*** 0 ***",
+  "verdict": "*** No indexed child of ANY man recorded exactly as Juan Carlos Lerena. *** Dropping the mother did not loosen it at all."
+ },
+ {
+  "query": "*** Juan Carlos Lerena as a named person, any role, any country, any collection ***",
+  "result": "*** 1 ***",
+  "verdict": "*** And it is not him. *** Uruguay, Civil Registration - an infant, *** Lerena Caraballo, died 21 February 1983 at Montevideo, aged 0 ***, certificate 177, father Juan Carlos Lerena, mother Gabriela Caraballo (ark 1:1:XSBJ-RWG1). *** A man of that name in 1983 is a century adrift of a father whose son was born in 1882. ***"
+ },
+ {
+  "query": "*** CONTROL: father exactly 'Gilberto' Lerena, mother Salvanach ***",
+  "result": "*** 11 ***",
+  "verdict": "*** The query form is sound. *** Argentine military records, Uruguayan civil registration, the children named one by one. *** Run before the zeroes were written down, not after. ***"
+ },
+ {
+  "query": "*** WHAT THIS DOES AND DOES NOT MEAN ***",
+  "result": "-",
+  "verdict": "*** IT MEANS: the man named on the card is absent from FamilySearch's INDEXED corpus, and so is the marriage that would name him. *** The route to Pablo Armando's parents does not run through the indexes, and further index searching is *** not *** where the next hour should go. *** IT DOES NOT MEAN he did not exist, and it does not exclude him from the records themselves. *** This tests the *** exact *** string 'Juan Carlos'. A record indexed as *** 'Juan C.', 'J. C.', or plain 'Juan' *** would not match - and the fuzzy form of this search returns 47, among them the children of a *** Juan Lerena and Eduviges Pelaez at Trinidad, Flores ***, whom this archive already holds. *** And it tests INDEXED records only. *** Unindexed images are a separate corpus with its own search."
+ },
+ {
+  "query": "*** WHERE THIS POINTS NEXT ***",
+  "result": "-",
+  "verdict": "*** Away from indexes and towards registers read by eye. *** The 1882 Rosario walk already proved the index complete across 750 consecutive acts, February to July, with no Lerena - so he was not baptised at the Catedral. *** Between them, those two results say the parents' generation is not in any indexed corpus this archive can reach ***, and the remaining routes are unindexed images, Argentine civil registration, and the other Rosario parishes."
+ }
+]

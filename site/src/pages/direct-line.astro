@@ -1,6 +1,8 @@
 ---
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
+import { emph } from "../lib/text.js";
+import jc from "../data/juan-carlos-lerena-tested.json";
 import Spine from "@daviddef/archive-kit/components/Spine.astro";
 
 /* No joint on this line is marked weak, and that is the claim the page makes:
@@ -194,4 +196,38 @@ const rows = [
   </p>
   <p><a href={u("/open-questions/")}>Open questions &rarr;</a></p>
 </section>
+
+<section class="blk">
+  <h2 id="s-juan-carlos">The name above him, tested</h2>
+  <div class="prose">
+    <p>The 1908 enrolment card names Pablo Armando's parents &mdash;
+    <strong>Juan Carlos Lerena</strong> and <strong>Maria Lerena</strong> &mdash; and it is
+    <strong>the only document in this archive that names them</strong>. On 17 September 2026 that name
+    was put to every indexed record FamilySearch holds.</p>
+    <p><strong>The control was run before the zeroes were written down.</strong> The same query form,
+    with Gilberto Lerena and Julia Salvanach substituted, returns eleven records. The form works, so
+    the zeroes below are the corpus and not the search.</p>
+  </div>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr>
+        <th style="width:22rem">Query</th><th style="width:5rem">Result</th><th>Verdict</th>
+      </tr></thead>
+      <tbody>
+        {jc.map((r) => { const c = Object.values(r); return (
+          <tr>
+            <th set:html={emph(c[0])} />
+            <td><strong set:html={emph(c[1])} /></td>
+            <td class="cap" set:html={emph(c[2])} />
+          </tr>); })}
+      </tbody>
+    </table>
+  </div>
+  <div class="prose" style="margin-top:14px">
+    <p class="dim">Related: <a href={u("/enrolment-card/")}>The Enrolment Card</a> &middot;
+      <a href={u("/argentina/")}>Argentina</a> &middot;
+      <a href={u("/open-questions/")}>Open questions</a></p>
+  </div>
+</section>
+
 </Base>
