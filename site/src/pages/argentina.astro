@@ -3,6 +3,7 @@ import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 import { emph } from "../lib/text.js";
 import routes from "../data/three-routes-walked.json";
+import letter from "../data/letter-registro-civil-santafe.json";
 import Spine from "@daviddef/archive-kit/components/Spine.astro";
 
 /* Every Lerena Argentina can actually produce, and where each one came from.
@@ -99,6 +100,7 @@ const hasArt = fs.existsSync(
       <li><a href="#s-the-surname-in-rosario-at-last-but-the-wrong-man-and-the-wro">The surname in Rosario, at last — but the wrong man and the wrong century</a></li>
       <li><a href="#s-which-rosario">Which Rosario?</a></li>
           <li><a href="#s-three-routes">The last three routes, walked</a></li>
+      <li><a href="#s-letter">The letter to the Registro Civil, and why the ask changed</a></li>
 </ol>
   </div>
 </section>
@@ -501,6 +503,31 @@ const hasArt = fs.existsSync(
             <td class="cap" set:html={emph(c[1])} />
             <td class="cap" set:html={emph(c[2])} />
             <td class="cap" set:html={emph(c[3])} />
+          </tr>); })}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-letter">The letter to the Registro Civil, and why the ask changed</h2>
+  <div class="prose">
+    <p>The four results above all point off this site, to the provincial registry. Drafting the
+    request changed it, though: <strong>civil registration in Santa Fe begins in 1886</strong>, four
+    years after he was born, so <strong>the 1882 birth act this archive was about to ask for cannot
+    exist</strong>. Asking would have spent the letter on a certainty.</p>
+    <p>So the letter asks for the three things that could exist &mdash; and
+    <strong>the strongest of them is not about him at all</strong>.</p>
+  </div>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr><th style="width:15rem">Part</th><th>Text</th></tr></thead>
+      <tbody>
+        {letter.map((r) => { const c = Object.values(r); return (
+          <tr>
+            <th set:html={emph(c[0])} />
+            <td class="cap" style="white-space:pre-wrap"
+                set:html={emph(String(c[1]).split("  \u00b6  ").join("\n"))} />
           </tr>); })}
       </tbody>
     </table>
