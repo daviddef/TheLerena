@@ -1,0 +1,50 @@
+[
+ {
+  "who": "*** CONTROL FIRST: Rhena May LERENA ***",
+  "what the 1999 claim rests on": "Died *** 1 April 1998 ***, buried Braamfontein - an exact date from cemetery records, in the register as CONNECTED. Roque Luis Armando's second wife, and it was she who signed his 1973 death notice.",
+  "tested against the gazette": "*** NO ESTATE. *** Swept for the surname LERENA across the whole 1994-2023 run and she is not there.",
+  "verdict": "*** THIS IS THE CONTROL, AND IT DECIDES HOW THE REST OF THIS FILE READS. *** A documented adult Lerena death, well inside the window, produces no gazette estate at all. *** So absence from this source is not evidence of anything. *** Nothing below may be read as arguing that a person did not die."
+ },
+ {
+  "who": "Pierre Frederick LERENA",
+  "what the 1999 claim rests on": "*** Two independent sources. *** The GEDCOM gives b. 10 May 1948, d. *** 12 November 1999 *** - an exact day. The gendatabase index separately carries 1999.",
+  "tested against the gazette": "*** ESTATE FOUND, AND TWICE: *** GG 20821, 28 January 2000, p.41, Transvaal; re-advertised GG 20926, 3 March 2000, p.76.",
+  "verdict": "*** CORROBORATED, AND THIS IS THE ROW THAT KILLS THE ARTEFACT READING. *** An official government notice ten weeks after the claimed date is independent of both genealogical sources. *** A default or padded year does not reproduce as an exact day in a separate source and then land ten weeks before a real gazette notice. *** His 1999 is real."
+ },
+ {
+  "who": "Richard LERENA",
+  "what the 1999 claim rests on": "The same GEDCOM, b. 2 January 1986, dead *** the same day as his father ***, aged thirteen.",
+  "tested against the gazette": "No estate - *** and none was ever expected. ***",
+  "verdict": "*** UNCORROBORATED, BUT THE ABSENCE IS MEANINGLESS. *** A minor child with no assets is not given a J193 advertisement. *** The gazette was never capable of testing him. *** His date rests on the GEDCOM, which is right about his father to the week."
+ },
+ {
+  "who": "Jeffrey LERENA",
+  "what the 1999 claim rests on": "The same GEDCOM, b. 2 January 1991, dead *** the same day ***, aged eight.",
+  "tested against the gazette": "No estate, for the same reason.",
+  "verdict": "*** UNCORROBORATED, ABSENCE MEANINGLESS. *** Same as his brother. *** What can be said is that a single source placing a father and two sons dead on one named day is internally consistent and is correct about the one member of the three the gazette can check. ***"
+ },
+ {
+  "who": "Gayle LERENA, nee PRESTON",
+  "what the 1999 claim rests on": "*** One index row only. *** The gendatabase gives her 1999. The GEDCOM names her as the boys' mother and does *** not *** give her a death.",
+  "tested against the gazette": "No estate.",
+  "verdict": "*** OPEN, AND THE ABSENCE PROVES NOTHING TWICE OVER. *** First, Rhena May above. *** Second, a wife married in community of property shares ONE joint estate, wound up in the husband's name - so even had she died with them, the expected number of separate advertisements is exactly the one already found. *** Her 1999 still rests on a single index row and must not be published as fact."
+ },
+ {
+  "who": "Catherine Tertia KARON, nee LERENA",
+  "what the 1999 claim rests on": "*** One index row only ***, b.1952, carrying 1999.",
+  "tested against the gazette": "*** SHE WAS NEVER IN THE SEARCH. *** The sweep was keyed on the surname *** LERENA ***; this index has her under *** KARON ***.",
+  "verdict": "*** NOT A NULL - A FALSE NULL AVERTED. *** Reporting her absence as a tested absence would have been a straight error, because the search key could not have found her whatever the truth. *** Anyone re-running this must sweep KARON as well. *** Her 1999 is untested, not absent."
+ },
+ {
+  "who": "*** CALIBRATION: how long does an estate take to reach the gazette? ***",
+  "what the 1999 claim rests on": "Every Lerena where a true death date is known from elsewhere, against the year it was advertised.",
+  "tested against the gazette": "Ricardo Juan Carlos: died 21 Dec 1994, advertised *** March 1996 *** (15 months). Paul Raymond: died 2000, advertised *** Feb 2001 *** (13 months). Doreen May: 1999 per the index, advertised *** Feb 2001 and again Nov 2002 ***. Anton Armando: died 3 Apr 2003, advertised *** Aug 2013 *** - *** ten years. *** Pierre Frederick: 12 Nov 1999, advertised *** Jan 2000 *** - ten weeks.",
+  "verdict": "*** THE LAG RUNS FROM TEN WEEKS TO TEN YEARS, AND SOMETIMES AN ESTATE NEVER APPEARS. *** This is why the gazette year was never a death year, and it is why no absence in this file carries weight. *** Record it so the next person does not have to rediscover it. ***"
+ },
+ {
+  "who": "*** WHAT WOULD ACTUALLY SETTLE IT ***",
+  "what the 1999 claim rests on": "Rows 122 and 11 both need a death REGISTRATION, not an estate notice.",
+  "tested against the gazette": "NAAIRS was 503 all day on 17 September 2026 - genuinely down, not blocked.",
+  "verdict": "*** Retry NAAIRS for the five names, and sweep KARON alongside LERENA. *** Note that *** row 17 governs publication regardless ***: David has still to decide whether gendatabase-derived facts may appear on a public site, and Gayle's and Catherine's 1999s rest on nothing else."
+ }
+]

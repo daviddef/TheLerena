@@ -1,6 +1,8 @@
 ---
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
+import { emph } from "../lib/text.js";
+import nine9 from "../data/1999-deaths-tested.json";
 ---
 <Base title="South Africa"
       eyebrow="The Cape, the Rand, and a founder cluster"
@@ -263,6 +265,36 @@ import { u } from "../lib/url.js";
     <strong>And it is not enough.</strong> It is now the first entry on
     <a href={u("/photograph-these/")}>Photograph these</a>, because what is wanted is the whole plot: any
     plate or slab, the section and row markers, and a wide shot showing where it sits.
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-1999">The five deaths of 1999, tested</h2>
+  <div class="prose">
+    <p>A commercial index carried <strong>five members of this family with the year 1999</strong>,
+    among them a married couple and two children aged thirteen and eight. Either something terrible
+    happened, or the index has a default-year artefact, and <strong>a summary row cannot tell you
+    which</strong>.</p>
+    <p>The free Government Gazette was used to test it. <strong>The artefact reading is dead for three
+    of the five.</strong> But the absences prove nothing, and the row that decides how the whole table
+    reads is the control at the top of it.</p>
+  </div>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr>
+        <th style="width:12rem">Who</th><th style="width:16rem">What the 1999 claim rests on</th>
+        <th style="width:16rem">Tested against the gazette</th><th>Verdict</th>
+      </tr></thead>
+      <tbody>
+        {nine9.map((r) => { const c = Object.values(r); return (
+          <tr>
+            <th set:html={emph(c[0])} />
+            <td class="cap" set:html={emph(c[1])} />
+            <td class="cap" set:html={emph(c[2])} />
+            <td class="cap" set:html={emph(c[3])} />
+          </tr>); })}
+      </tbody>
+    </table>
   </div>
 </section>
 

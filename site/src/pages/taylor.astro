@@ -1,7 +1,8 @@
 ---
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
-import { plain } from "../lib/text.js";
+import { plain, emph } from "../lib/text.js";
+import addresses from "../data/devon-addresses.json";
 import taylorLine from "../data/taylor-line.json";
 import "@daviddef/archive-kit/styles/persontree.css";
 /* GENERATED FROM data/taylor-line.tsv, not typed here. Until 14 September 2026 this was a
@@ -29,6 +30,8 @@ const kids = taylorLine.filter(gen).map((r) => {
   }
   return [who, r.born, r.died, bits.join(" \u00b7 "), /MARY SEPTIMA/.test(r.person)];
 });
+import dBrayleyTwoQuestions from "../data/brayley-two-questions.json";
+import dDevonTooling from "../data/devon-tooling.json";
 ---
 <Base title="Mary Septima Taylor"
       eyebrow="Bideford, Northam — and a name that is a count"
@@ -100,7 +103,10 @@ const kids = taylorLine.filter(gen).map((r) => {
       <li><a href="#s-two-sets-of-twins">Two sets of twins, and a wife who was not who the tree said</a></li>
       <li><a href="#s-they-moved-to-where-a-relative-already-was">They moved to where a relative already was</a></li>
       <li><a href="#s-kathleen-and-the-1911-household">Kathleen, and a household nobody here had opened</a></li>
-    </ol>
+          <li><a href="#s-addresses">The three addresses, and what a free census can reach</a></li>
+      <li><a href="#s-two-questions">The two questions the Brayley line turns on</a></li>
+      <li><a href="#s-tooling">The Devon tooling, and what each source can actually reach</a></li>
+</ol>
   </div>
 </section>
 
@@ -595,6 +601,70 @@ const kids = taylorLine.filter(gen).map((r) => {
       before the 1931 returns were destroyed &mdash; by then Mary Septima was at the Cape and her sisters
       were not. Margaret Bell is not yet found in 1911; <em>Charles William Bell</em> is too common a name
       to search on.</p>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-addresses">The three addresses, and what a free census can reach</h2>
+  <div class="prose">
+    <p>Three of the children were born at named addresses. <strong>An address is what a census is
+    searched on</strong>, so these should place the household without a name search &mdash; and one of
+    the three now does.</p>
+    <p>The other two were first written off as untestable. <strong>That verdict was wrong, and it was
+    wrong in an instructive way</strong>: it tested the census route and was written as though every
+    route had been tried. The UK National Archives had not been looked at once, and
+    <strong>Geneva Place turns out to be a council school whose admission registers survive for
+    1885&ndash;1949</strong>. See <a href={u("/national-archives/")}>The British Archives</a>.</p>
+  </div>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr>
+        <th style="width:14rem">Address</th><th style="width:16rem">The person and the year</th>
+        <th>Verdict</th>
+      </tr></thead>
+      <tbody>
+        {addresses.map((r) => { const c = Object.values(r); return (
+          <tr>
+            <th set:html={emph(c[0])} />
+            <td class="cap" set:html={emph(c[1])} />
+            <td class="cap" set:html={emph(c[2])} />
+          </tr>); })}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-two-questions">The two questions the Brayley line turns on</h2>
+  <div class="prose"><p>What has to be answered before the ascent can go further, and why neither is closed.</p></div>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr>{Object.keys(dBrayleyTwoQuestions[0] || {}).map((h) => <th>{h}</th>)}</tr></thead>
+      <tbody>
+        {dBrayleyTwoQuestions.map((r) => (
+          <tr>{Object.values(r).map((v, i) => (
+            i === 0 ? <th set:html={emph(v)} /> : <td class="cap" set:html={emph(v)} />
+          ))}</tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-tooling">The Devon tooling, and what each source can actually reach</h2>
+  <div class="prose"><p>The free English sources, assessed for what they hold and what they silently do not.</p></div>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr>{Object.keys(dDevonTooling[0] || {}).map((h) => <th>{h}</th>)}</tr></thead>
+      <tbody>
+        {dDevonTooling.map((r) => (
+          <tr>{Object.values(r).map((v, i) => (
+            i === 0 ? <th set:html={emph(v)} /> : <td class="cap" set:html={emph(v)} />
+          ))}</tr>
+        ))}
+      </tbody>
+    </table>
   </div>
 </section>
 

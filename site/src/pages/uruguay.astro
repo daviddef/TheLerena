@@ -60,6 +60,8 @@ const ramonHouse = [
 
 const ramonRows = ramon.filter((r) => r.generation && r.grade && r.grade !== "grade");
 const mauricioRows = mauricio.filter((r) => r.child && r.grade && r.grade !== "grade");
+import dUruguayFourDepartments from "../data/uruguay-four-departments.json";
+import d1812UnionAct from "../data/1812-union-act.json";
 ---
 <Base title="Uruguay"
       eyebrow="Two Lerena families, two Spanish origins, and neither of them is his"
@@ -273,4 +275,39 @@ const mauricioRows = mauricio.filter((r) => r.child && r.grade && r.grade !== "g
       hypothesis</a>. <strong>The hope is not evidence, and nothing here is written as though it were.</strong></p>
   </div>
 </section>
+
+<section class="blk">
+  <h2 id="s-four">The four departments, and what depth means</h2>
+  <div class="prose"><p>Coverage is not the same as discovery. What the four departments hold, and what searching them further would and would not buy.</p></div>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr>{Object.keys(dUruguayFourDepartments[0] || {}).map((h) => <th>{h}</th>)}</tr></thead>
+      <tbody>
+        {dUruguayFourDepartments.map((r) => (
+          <tr>{Object.values(r).map((v, i) => (
+            i === 0 ? <th set:html={emph(v)} /> : <td class="cap" set:html={emph(v)} />
+          ))}</tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-1812">The act of 1812</h2>
+  <div class="prose"><p>A union recorded in Canelones, and the godparents who come with it.</p></div>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr>{Object.keys(d1812UnionAct[0] || {}).map((h) => <th>{h}</th>)}</tr></thead>
+      <tbody>
+        {d1812UnionAct.map((r) => (
+          <tr>{Object.values(r).map((v, i) => (
+            i === 0 ? <th set:html={emph(v)} /> : <td class="cap" set:html={emph(v)} />
+          ))}</tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</section>
+
 </Base>

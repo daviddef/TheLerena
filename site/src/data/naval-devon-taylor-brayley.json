@@ -1,0 +1,62 @@
+[
+ {
+  "name": "Taylor, William",
+  "born": "*** 14 October 1871 ***, Northam",
+  "record": "*** ADM 188/195/140021 ***, Royal Navy register of seamen's services - *** THE DOCUMENT ITSELF, read 17 September 2026. *** O.N. 140021, Devonport. Born 14 Oct 1871, Northam. Engaged *** 14 October 1889 for 12 years ***, his eighteenth birthday. *** 5 ft 1 in, brown hair, brown eyes, fresh complexion, burn mark on back. *** Entered as a Boy on *** Lion, 29 January 1887 ***, aged 15. Then Shannon, Royal Adelaide, Vivid, *** Impregnable 20 May 1890 to 4 October 1892 ***, Melita, Sappho, Swift I, Royal Oak, Cambridge, Defiance, Curacoa. Promoted *** Acting Gunner ***; pension traced 18 January 1909.",
+  "verdict": "*** EXCLUDED, AND NOW BY THE DOCUMENT RATHER THAN BY AN INFERENCE. *** The catalogue rejection rested on a census age; the record gives two harder reasons. *** FIRST, the form asks for 'Names in full' and the answer is 'William Taylor' *** - our man is *** William JOHN Taylor ***, and the Navy had no reason to drop a middle name it had asked for. *** SECOND, AND IT IS CONCLUSIVE: on census night, 5 April 1891, this man was borne on HMS Impregnable at Devonport *** - he joined her 20 May 1890 and left 4 October 1892 - *** while William John Taylor was enumerated at home in Northam, aged 20. *** *** One man cannot be in two places on one night. They are two men. *** The near miss is closed."
+ },
+ {
+  "name": "Taylor, Joshua",
+  "born": "28 August 1881, Northam",
+  "record": "ADM 188/592/16240, Royal Naval Air Service, 1916",
+  "verdict": "No Joshua in this family. *** Not ours. ***"
+ },
+ {
+  "name": "Taylor, Robert",
+  "born": "17 March 1869, Bideford",
+  "record": "ADM 188/197/141061, entered 1887",
+  "verdict": "No Robert in this family. *** Not ours. ***"
+ },
+ {
+  "name": "Taylor, Richard Henry",
+  "born": "7 April 1899, Bideford",
+  "record": "ADM 188/825/89228, 1918",
+  "verdict": "Born long after this generation. *** Not ours. ***"
+ },
+ {
+  "name": "Brayley, William Ewart",
+  "born": "29 November 1885, Northam",
+  "record": "ADM 188/376/214660, entered 1901",
+  "verdict": "*** The only Brayley of Northam in the whole series. *** Born in the Gladstone years and named for him, as thousands were. Too late to be a sibling of Mary Ann Hellen Brayley (1843-1900) and *** unattached to her by any document ***, so he is recorded and not claimed."
+ },
+ {
+  "name": "*** The Taylors of Appledore, in the merchant service ***",
+  "born": "1846, 1888, 1893",
+  "record": "Crew list of the *** Ulelia ***, official number 74429, National Maritime Museum: T Taylor, Mate, b.1846 Appledore; J W Taylor, Master, b.1888 Appledore; T G Taylor, Ordinary Seaman and Cook, b.1893 Appledore; previous ship *** Annie of Bideford. ***",
+  "verdict": "*** A SEAFARING TAYLOR FAMILY IN THE SAME PARISH, AND NOT ONE DOCUMENT JOINS THEM TO OURS. *** Appledore is in Northam. The generations are wrong for our men - ours are 1870 and 1872 - and *** no relationship is asserted. *** Recorded as context, and as a warning: a Taylor at sea out of Northam is not by itself our Taylor."
+ },
+ {
+  "name": "*** WILLIAM JOHN TAYLOR (b. Nov 1870) and HORACE ARCHIBALD TAYLOR (b. Apr 1872) ***",
+  "born": "-",
+  "record": "*** NOTHING. ***",
+  "verdict": "*** A TESTED NULL, AND A USEFUL ONE. *** Both parishes were swept, both spellings of the birthplace, and the series returned five other men by name and date while returning neither of these two. *** They were not Royal Navy ratings. *** If they went to sea it was the merchant service - and merchant crew lists are indexed by SHIP, not by man, which is a far harder search and should be costed before it is started."
+ },
+ {
+  "name": "*** HOW THIS WAS READ, AND THE WALL THAT CAME DOWN HALFWAY ***",
+  "born": "-",
+  "record": "Discovery's JSON API, then Discovery's own web search.",
+  "verdict": "*** The API answered 200 for about twenty queries and then began returning 202 with an empty body and the header `x-amzn-waf-action: challenge`. *** That is AWS bot detection, and it was not worked around: *** the control query itself started failing, so every zero collected at that moment was thrown away rather than recorded. *** The rest was done in a browser at reading pace, which is the access the catalogue is built for. *** Anyone scripting this again should expect the challenge after roughly twenty rapid calls and slow down well before it. ***"
+ },
+ {
+  "name": "*** WHAT COSTS MONEY AND WHAT DOES NOT ***",
+  "born": "-",
+  "record": "ADM 188/195/140021 and the rest.",
+  "verdict": "The catalogue entry - name, exact date of birth, birthplace, year of entry - is *** free, and it is the part that does the genealogical work. *** The scanned service record is *** £3.50, or free to a signed-in TNA account ***, and shows ships, conduct and physical description. *** A watermarked preview is offered in their viewer and the image cannot be fetched outside it. *** No account was created and nothing was bought; that is David's call."
+ },
+ {
+  "name": "*** WHAT MAY BE PUBLISHED FROM A TNA DOWNLOAD ***",
+  "born": "-",
+  "record": "The order's terms, accepted 17 September 2026.",
+  "verdict": "*** The download is licensed for 'private study or research for a non-commercial purpose' and for education. *** This archive is a *** public website ***, so the safe line is the one already taken here: *** cite the reference, transcribe the facts, and do not republish the scan. *** Facts are not copyright; the image is licensed. Any wider use goes to image-library@nationalarchives.gov.uk. *** Download links stay live for 30 days. ***"
+ }
+]

@@ -1175,10 +1175,10 @@
     {
       "n": 147,
       "what": "Decide whether to buy ADM 188/195/140021, the Northam William Taylor",
-      "state": "blocked",
-      "owner": "David",
+      "state": "done",
+      "owner": "this archive",
       "since": "2026-09-17",
-      "note": "**Taylor, William, born 14 October 1871 at Northam**, entered the Royal Navy 1887. **This archive's position is that he is NOT our William John Taylor** — the 1891 census makes ours twenty on 5 April 1891, which fits November 1870 and rules out October 1871, when he would have been nineteen. The catalogue entry is free and is what that reasoning rests on. The **scanned record is £3.50, or free to a signed-in TNA account**, and would show his ships, conduct and next of kin. **Only worth buying if you want the rejection nailed down** rather than argued from a census age. No account was created and nothing was bought."
+      "note": "**Settled 17 September 2026. David signed the archive into a TNA account and ordered the record himself; it was free.** And it does more than nail the rejection down — it **replaces the argument**. The rejection had rested on a census age. The document gives two harder reasons. **First, the form asks for 'Names in full' and the answer is plain 'William Taylor'** — ours is William *John* Taylor, and the Navy had no reason to drop a middle name it had just asked for. **Second, and it is conclusive: on census night, 5 April 1891, this man was borne on HMS Impregnable at Devonport** (joined 20 May 1890, left 4 October 1892) **while William John Taylor was enumerated at home in Northam, aged 20.** One man cannot be in two places on one night. **Two men, proved.** The near miss is closed rather than merely argued."
     },
     {
       "n": 148,
@@ -1187,6 +1187,14 @@
       "owner": "this archive",
       "since": "2026-09-17",
       "note": "If the Taylor men went to sea it was **not the Royal Navy** — that is now a tested null. The merchant service remains open, but **crew lists are indexed by SHIP, not by man**, so there is no name search to run. A Taylor family of **Appledore**, in Northam parish, appears on the *Ulelia* (ON 74429) — T Taylor mate b.1846, J W Taylor master b.1888, T G Taylor b.1893, previous ship *Annie of Bideford* — **joined to this family by nothing at all**. Work out what a ship-by-ship search would actually cost in hours before committing to it."
+    },
+    {
+      "n": 149,
+      "what": "Hold the line on publishing TNA scans, not just TNA facts",
+      "state": "running",
+      "owner": "this archive",
+      "since": "2026-09-17",
+      "note": "TNA digital downloads are licensed for **private study or research for a non-commercial purpose** and for education. **This archive is a public website.** The line taken, and to keep taking: **cite the reference, transcribe the facts, do not republish the scan.** Facts are not copyright; the image is licensed. Anything wider goes to image-library@nationalarchives.gov.uk. Note also that **download links expire 30 days from the order**, so anything wanted long-term must be read and transcribed inside that window — ADM 188/195/140021 was ordered 17 September 2026."
     }
   ],
   "accounts": [

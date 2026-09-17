@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
+import { emph } from "../lib/text.js";
 import Distribution from "@daviddef/archive-kit/components/Distribution.astro";
 const rows = [
   ["Spain", "888", "1:52,649", "4,882"],
@@ -23,6 +24,7 @@ const rate = (i) => 1 / Number(String(i).split(":")[1].replace(/,/g, ""));
 const dist = rows
   .map(([c, b, i, r]) => [c, rate(i), `${b} \u00b7 ${i.replace(":", " in ")} \u00b7 rank ${r} in country`])
   .sort((a, b) => b[1] - a[1]);
+import dItalyLerenaLerina from "../data/italy-lerena-lerina.json";
 ---
 <Base title="The Name"
       eyebrow="2,124 in the world"
@@ -57,6 +59,7 @@ const dist = rows
       <li><a href="#s-spain-one-cluster-and-it-is-not-where-you-would-guess">Spain: one cluster, and it is not where you would guess</a></li>
       <li><a href="#s-what-the-name-means-the-unresolved-fork">What the name means — the unresolved fork</a></li>
       <li><a href="#s-who-the-lerenas-married-at-trinidad">Who the Lerenas married at Trinidad</a></li>
+      <li><a href="#s-italy">Italy, and the Lerina spelling</a></li>
       <li><a href="#s-sources-for-this-page">Sources for this page</a></li>
       <li><a href="#s-two-spellings-one-town">Two spellings, one town</a></li>
       <li><a href="#s-the-forename-is-the-sharper-clue">The forename is the sharper clue</a></li>
@@ -320,6 +323,23 @@ const dist = rows
     <p><span class="chip inf">Inferred</span> It is not proof of anything. But of all the tests run in this
       archive, it is the first that argues <em>for</em> one origin over another rather than simply failing
       to find him.</p>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-italy">Italy, and the Lerina spelling</h2>
+  <div class="prose"><p>Whether the surname exists in Italian records under either spelling, and what the answer is worth.</p></div>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr>{Object.keys(dItalyLerenaLerina[0] || {}).map((h) => <th>{h}</th>)}</tr></thead>
+      <tbody>
+        {dItalyLerenaLerina.map((r) => (
+          <tr>{Object.values(r).map((v, i) => (
+            i === 0 ? <th set:html={emph(v)} /> : <td class="cap" set:html={emph(v)} />
+          ))}</tr>
+        ))}
+      </tbody>
+    </table>
   </div>
 </section>
 

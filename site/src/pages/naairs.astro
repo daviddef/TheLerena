@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
+import { emph } from "../lib/text.js";
 const cape = [
   ["1931", "3/CT B796", "Plans of proposed STABLES, Koeberg Road, Rugby. RP Lerena.", true],
   ["1932", "3/CT B352", "Unauthorised wood and iron structure, Madeira Road, Rugby. RP Lerena.", false],
@@ -15,6 +16,7 @@ const tvl = [
   ["1979", "TPD 1248/1979, M680/1979, 2769/1979", "Divorce. Ricardo Paul Lerena versus Anne Margaret Lerena (born Corbett)."],
   ["1980", "TPD 1367/1980", "Divorce. Glynnis Margaret Lerena (born Bolton) versus Anton Armando Lerena."],
 ];
+import dTabPullList20260922 from "../data/tab-pull-list-2026-09-22.json";
 ---
 <Base title="The archives answer"
       eyebrow="The South African National Archives"
@@ -156,4 +158,22 @@ const tvl = [
     orderable.
   </p>
 </section>
+
+<section class="blk">
+  <h2 id="s-pull">The pull list for the Transvaal archive</h2>
+  <div class="prose"><p>What to call up, in order, when someone is next in the building.</p></div>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr>{Object.keys(dTabPullList20260922[0] || {}).map((h) => <th>{h}</th>)}</tr></thead>
+      <tbody>
+        {dTabPullList20260922.map((r) => (
+          <tr>{Object.values(r).map((v, i) => (
+            i === 0 ? <th set:html={emph(v)} /> : <td class="cap" set:html={emph(v)} />
+          ))}</tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</section>
+
 </Base>

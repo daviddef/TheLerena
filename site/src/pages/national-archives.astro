@@ -1,0 +1,126 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import { emph } from "../lib/text.js";
+import tna from "../data/tna-discovery.json";
+import naval from "../data/naval-devon-taylor-brayley.json";
+
+/* Both files are rendered here rather than summarised, because a finding that lives only in
+   data/ is a finding the reader never sees - which is the whole fault this archive spent
+   17 September 2026 fixing. If either TSV gains a row, this page gains it too. */
+const cols = (r) => Object.values(r);
+---
+<Base title="The British archives answer"
+      eyebrow="The UK National Archives"
+      dek="On 17 September 2026 the UK National Archives was searched for the first time in this project. The Lerena surname is absent from Britain. The wife's line is not: the Brayleys fill 639 records, and five men of Northam and Bideford came back with their exact dates of birth.">
+
+<section class="blk">
+  <div class="panel" style="margin:1.4rem 0">
+    <p style="margin:0">
+      <span class="chip doc">Documented</span> <strong>Discovery</strong>, the catalogue of
+      <a href="https://discovery.nationalarchives.gov.uk/" rel="noopener">The National Archives</a>,
+      searched 17 September 2026. It is free and needs no account, and it aggregates roughly
+      <strong>2,500 UK repositories</strong> rather than Kew alone &mdash; on the control query,
+      Kew held 4,791 records and other archives 11,719, most of them the
+      <strong>North Devon Record Office</strong>.
+    </p>
+    <p style="margin:.7rem 0 0">
+      <strong>The control was run first.</strong> <span class="mono">Bideford</span> returns
+      <strong>16,510</strong> records, so every zero on this page is a tested zero rather than a
+      search that failed.
+    </p>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-surname">The surname is absent from Britain</h2>
+  <div class="prose">
+    <p><strong>Lerena returns two records, and neither is a person of this family</strong> &mdash; an
+    18th-century street plan of Seville dedicated to a Spanish finance minister, and a 1915 crew list
+    that matches incidentally. <em>Llerena</em> returns one Peninsular War letter about the Spanish
+    town of that name. <em>Lerina</em> returns two, both incidental.</p>
+    <p>This is what it should look like. A family that went from Rosario to the Cape without ever
+    touching Britain leaves nothing in British archives, and now that has been tested rather than
+    assumed.</p>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-what">What was searched, and what came back</h2>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr>
+        <th style="width:12rem">Query</th><th style="width:4rem">Count</th>
+        <th style="width:20rem">What it holds</th><th>Verdict</th>
+      </tr></thead>
+      <tbody>
+        {tna.map((r) => {
+          const c = cols(r);
+          return (
+            <tr>
+              <th set:html={emph(c[0])} />
+              <td><strong>{c[1]}</strong></td>
+              <td class="cap" set:html={emph(c[2])} />
+              <td class="cap" set:html={emph(c[3])} />
+            </tr>
+          );
+        })}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-naval">The naval sweep, and a near miss that is now closed</h2>
+  <div class="prose">
+    <p>Northam parish contains <strong>Appledore</strong>, so if the Taylor men went to sea the Royal
+    Navy registers should hold them. <span class="mono">ADM 188</span> is indexed man by man and gives
+    an <strong>exact date of birth</strong>, which makes it testable against a tree instead of merely
+    suggestive.</p>
+    <p>It returned five men of these two parishes. <strong>Not one of them is a man of this
+    family</strong> &mdash; and that the method found five is precisely what makes the absence of
+    William John and Horace Archibald Taylor a tested null.</p>
+  </div>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr>
+        <th style="width:12rem">Name</th><th style="width:10rem">Born</th>
+        <th style="width:20rem">Record</th><th>Verdict</th>
+      </tr></thead>
+      <tbody>
+        {naval.map((r) => {
+          const c = cols(r);
+          return (
+            <tr>
+              <th set:html={emph(c[0])} />
+              <td set:html={emph(c[1])} />
+              <td class="cap" set:html={emph(c[2])} />
+              <td class="cap" set:html={emph(c[3])} />
+            </tr>
+          );
+        })}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-cost">What is free, and what is not</h2>
+  <div class="prose">
+    <p>The part that does the genealogical work &mdash; <strong>name, exact date of birth, birthplace,
+    year of entry</strong> &mdash; is free to anyone, with no account. The scanned record behind it is
+    &pound;3.50, or <strong>free to a signed-in National Archives account</strong>, and shows ships,
+    conduct, physical description and pension.</p>
+    <p><strong>Downloads are licensed for private study or non-commercial research.</strong> This site
+    is public, so the line taken here is to <strong>cite the reference and transcribe the facts, and
+    never republish the scan</strong>. Facts carry no copyright; the image is licensed. Download links
+    also expire thirty days from the order, so anything wanted for good must be read and written down
+    inside that window.</p>
+    <p class="dim">Related: <a href={u("/taylor/")}>The Taylors</a> &middot;
+      <a href={u("/sources/")}>Sources</a> &middot;
+      <a href={u("/worklist/")}>The work list</a> &middot;
+      <a href={u("/searched/")}>What has been read</a></p>
+  </div>
+</section>
+
+</Base>
