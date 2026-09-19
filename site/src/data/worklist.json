@@ -527,10 +527,10 @@
     {
       "n": 66,
       "what": "Take Agustina Ramona Lerena forward from 1795",
-      "state": "next",
+      "state": "done",
       "owner": "this archive",
       "since": "2026-09-15",
-      "note": "Baptised at Canelones in 1795 with **Don Fidel Rey** as godfather — which is why her brother is called Fidel. She has never been followed past her own baptism. *** ATTEMPTED 17 September 2026 and NOT completed — the FamilySearch session expired mid-search and this session does not sign in. *** The search to re-run is **Agustina LERENA exact, Uruguay, birth 1790–1805**, then the same under LORENA and LLERENA. *** Untested, not null. ***"
+      "note": "Baptised at Canelones in 1795 with **Don Fidel Rey** as godfather — which is why her brother is called Fidel. She has never been followed past her own baptism. *** ATTEMPTED 17 September 2026 and NOT completed — the FamilySearch session expired mid-search and this session does not sign in. *** The search to re-run is **Agustina LERENA exact, Uruguay, birth 1790–1805**, then the same under LORENA and LLERENA. *** Untested, not null. *** *** ANSWERED 20 September 2026, and it caught a trap on the way. *** **Agustina Ramona Lerena is absent from Uruguay's indexed records.** The first pass — exact *Agustina*, then *Llerena* and *Lorena* — returned three zeros, and **those zeros were not safe**: FamilySearch's exact forename matches the **whole given-name string**, so a woman indexed as *Agustina Ramona* would never have been returned. Re-run in the safe shape (**fuzzy forename, exact surname**) it returns 35 records and **not one of them is an Agustina** — they are fuzzy hits on *Augusto*, *Agustín* and *A.* **That** is the null, and it is a real one. See /method/."
     },
     {
       "n": 67,
@@ -1251,6 +1251,14 @@
       "owner": "this archive",
       "since": "2026-09-20",
       "note": "The last remainder of row 120. Three of the four departments measured there resolved to the children of **one couple, Mauricio Lerena and Casimira Montaño**, spreading across the interior in a single generation — San José de Mayo, Trinidad in Flores, and Florida, with Salto and Montevideo besides. **Colonia did not.** It holds **189 exact LERENA records** and has no dedicated study, only passing mentions. And the standing warning applies to it hardest: the tree's Gabino of Flores is given as a son of **Ramón Llerena Cubas and Margarita Leal — not Sancho's line** — so the interior may hold a different Lerena family entirely, and Colonia is where that would show. Needs a FamilySearch session."
+    },
+    {
+      "n": 157,
+      "what": "Re-run any exact-forename null recorded against a two-forename person",
+      "state": "next",
+      "owner": "this archive",
+      "since": "2026-09-20",
+      "note": "**133 of the 278 people in this register carry two or more forenames** — very nearly half — and FamilySearch's exact forename search matches the **whole given-name string**, so an exact search on the first forename alone would never have found them. **Any null recorded that way is unsafe.** None could be identified by grep, because the searches were written down in prose without naming the parameter, **which is the lesson underneath this row: record the query, not just the answer.** Re-run suspects in the safe shape — fuzzy forename, exact surname — which does match per token."
     }
   ],
   "accounts": [

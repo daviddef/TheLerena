@@ -4,6 +4,7 @@ import Evidence from "@daviddef/archive-kit/components/Evidence.astro";
 import { u } from "../lib/url.js";
 import { emph } from "../lib/text.js";
 import dgs from "../data/dgs-audit.json";
+import traps from "../data/forename-traps.json";
 ---
 <Base title="Method"
       eyebrow="How this archive decides what it will say"
@@ -270,6 +271,39 @@ import dgs from "../data/dgs-audit.json";
             <th set:html={emph(c[0])} />
             <td class="cap" set:html={emph(c[1])} />
             <td class="cap" set:html={emph(c[2])} />
+          </tr>); })}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-forename-traps">Two opposite forename traps</h2>
+  <div class="prose">
+    <p>The two free sources this archive leans on hardest behave in <strong>opposite ways</strong>, and
+    each punishes the habit the other rewards. Getting them the wrong way round produces a false null
+    on either site, and a false null is the most expensive mistake this archive can make &mdash; it
+    closes a door that was never shut.</p>
+    <p>Both were proved here with controls. <strong>On FamilySearch, an exact forename search matches
+    the whole given-name string</strong>: exact <em>Maria</em> returns 53 Uruguayan Lerenas and
+    <strong>Maria Lili Lerena is not one of them</strong>, while exact <em>Maria Lili</em> returns her
+    alone. <strong>On FreeBMD the reverse holds</strong> &mdash; the printed index abbreviates the
+    second forename, so <em>Horace Archibald</em> finds nothing while <em>Horace A</em> is sitting
+    there.</p>
+  </div>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr>
+        <th style="width:13rem">Source</th><th style="width:16rem">The trap</th>
+        <th style="width:18rem">How it was proved</th><th>What to do</th>
+      </tr></thead>
+      <tbody>
+        {traps.map((r) => { const c = Object.values(r); return (
+          <tr>
+            <th set:html={emph(c[0])} />
+            <td class="cap" set:html={emph(c[1])} />
+            <td class="cap" set:html={emph(c[2])} />
+            <td class="cap" set:html={emph(c[3])} />
           </tr>); })}
       </tbody>
     </table>

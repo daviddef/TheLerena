@@ -1,0 +1,26 @@
+[
+ {
+  "source": "*** FamilySearch, q.givenName.exact=on ***",
+  "the trap": "*** EXACT MATCHES THE WHOLE GIVEN-NAME STRING, not the first forename. *** A person indexed with two forenames is *** invisible *** to an exact search on the first one alone.",
+  "how it was proved": "*** Maria Lili Lerena, Uruguay. *** Exact *** 'Maria' *** returns *** 53 *** records and *** she is not among them. *** Exact *** 'Maria Lili' *** returns *** exactly 1 - her. *** Same surname, same country, same form; only the given-name string changed.",
+  "what to do": "*** Use the FULL given name exactly as the record is likely to hold it, or drop .exact on the forename and keep it on the surname. *** The fuzzy forename DOES match per token - fuzzy 'Agustina' returned hits on Augusto and Agustin - so *** fuzzy-forename plus exact-surname is the safe shape for a null. ***"
+ },
+ {
+  "source": "*** FreeBMD and FreeCEN ***",
+  "the trap": "*** THE EXACT OPPOSITE. *** The printed indexes *** abbreviate the second forename ***, so searching both forenames finds nothing while the man sits there under an initial.",
+  "how it was proved": "Already logged by this archive: *** 'Horace Archibald' and 'William John' both returned nothing, and both men were present as 'Horace A' and 'William J'. ***",
+  "what to do": "*** Search the FIRST forename only. *** The habit that is correct here is the one that produces a false null on FamilySearch, which is exactly why the two are written down on one page."
+ },
+ {
+  "source": "*** THE BLAST RADIUS ***",
+  "the trap": "-",
+  "how it was proved": "*** 133 of the 278 people in this register carry two or more forenames *** - very nearly half.",
+  "what to do": "*** Any exact-forename null this archive has recorded against a two-forename person is unsafe and should be re-run *** in the fuzzy-forename / exact-surname shape. No such null could be identified by grep, because the searches were written down in prose without naming the parameter - *** which is itself the lesson: record the QUERY, not just the answer. ***"
+ },
+ {
+  "source": "*** WHAT THIS DOES NOT UNDO ***",
+  "the trap": "-",
+  "how it was proved": "The central null on *** 'Juan Carlos Lerena' *** used the full string *** 'Juan Carlos' *** as the exact given name, which is the correct shape.",
+  "what to do": "*** It stands *** - but its stated limit is now sharper than when it was written: it would still miss a man indexed as *** 'Juan Carlos Maria Lerena' *** or as *** 'Juan C.' ***, because the match is whole-string. *** The caveat on /direct-line/ said 'exact string'; this is what that costs. ***"
+ }
+]
