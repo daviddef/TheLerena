@@ -1231,10 +1231,10 @@
     {
       "n": 154,
       "what": "Place the Santa Fe city Lerenas — Casimiro Lerena and Amelia Lepiani",
-      "state": "next",
+      "state": "done",
       "owner": "this archive",
       "since": "2026-09-17",
-      "note": "The indexed Santa Fe church collection holds **exactly three Lerena entries in 783,111 records**, and one is new to this archive: **Armando Lerena, baptised 1917 at Nuestra Señora del Carmen, Santa Fe city**, son of **Casimiro Lerena and Amelia Lepiani**. **It carries the name Armando**, which is suggestive and nothing more — 1917 is a generation past Pablo Armando and Santa Fe city is 170 km from Rosario. Recorded unplaced; test it, do not adopt it."
+      "note": "The indexed Santa Fe church collection holds **exactly three Lerena entries in 783,111 records**, and one is new to this archive: **Armando Lerena, baptised 1917 at Nuestra Señora del Carmen, Santa Fe city**, son of **Casimiro Lerena and Amelia Lepiani**. **It carries the name Armando**, which is suggestive and nothing more — 1917 is a generation past Pablo Armando and Santa Fe city is 170 km from Rosario. Recorded unplaced; test it, do not adopt it. *** TESTED 20 September 2026, and it is not a Santa Fe household. *** **Casimiro Lerena and Amelia Lepiani** — indexed once as *Lapriani* — have **Armando Lerena** in the Santa Fe church records **and Ventura Amelia Argentina Lerena in the Entre Ríos records**. So the family is **littoral, across two provinces**, and Entre Ríos is also where Gilberto and Julia Salvañach's 1885 child sits — **the province is worth mapping in its own right.** **Attached to Pablo Armando by nothing whatever.** The only thing that ever recommended this household was the forename *Armando*, which is not evidence, and it has not been treated as any."
     },
     {
       "n": 155,
@@ -1267,6 +1267,14 @@
       "owner": "this archive",
       "since": "2026-09-20",
       "note": "Found while running a control. Marriage of **Gilberto Lerena and Julia Salvañach, 11 August 1877, San Francisco de Asís, Ciudad Vieja, Montevideo**. Index ark **1:1:X9PV-HKCR**; **image ark 3:1:3Q9M-C9BW-N74V-N**. The index gives the bride's parents-in-law — Gilberto's parents — as **'Luís Lenguas' and 'Justiniana Lenguas'**, almost certainly a machine garble of **Luis LERENA and Justiniana LENGUAS**, which is exactly the couple this archive assigns him **at tree tier only**. A parish register would make it **documented**. **Do not promote it off the index:** the page says *indexed by a computer*, and the same entry gives the bride a father called *Cristóbal Lerena*, which cannot be right for a Salvañach marrying a Lerena. **Open the image.**"
+    },
+    {
+      "n": 159,
+      "what": "Map Entre Ríos — two separate Lerena households sit there and it has no study",
+      "state": "next",
+      "owner": "this archive",
+      "since": "2026-09-20",
+      "note": "Surfaced twice in one session and never looked at. **Casimiro Lerena and Amelia Lepiani** have a daughter in the **Entre Ríos** church records while their son is in **Santa Fe**; and **Gilberto Lerena and Julia Salvañach** have a child recorded at *Uruguay, Entre Ríos, Argentina* in 1885. **Two unrelated Lerena households in the same province**, and this archive has no Entre Ríos study at all — only Rosario, Buenos Aires and the Uruguayan departments. Entre Ríos sits between the two, on the river, which is exactly the route this family used."
     }
   ],
   "accounts": [
