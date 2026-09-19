@@ -64,6 +64,7 @@ import dUruguayFourDepartments from "../data/uruguay-four-departments.json";
 import d1812UnionAct from "../data/1812-union-act.json";
 import fs20 from "../data/fs-session-2026-09-20.json";
 import gl from "../data/gonzalez-lerena.json";
+import colla from "../data/rosario-colla-household.json";
 ---
 <Base title="Uruguay"
       eyebrow="Two Lerena families, two Spanish origins, and neither of them is his"
@@ -358,6 +359,37 @@ import gl from "../data/gonzalez-lerena.json";
       </tr></thead>
       <tbody>
         {gl.map((r) => { const c = Object.values(r); return (
+          <tr>
+            <th set:html={emph(c[0])} />
+            <td class="cap" set:html={emph(c[1])} />
+            <td class="cap" set:html={emph(c[2])} />
+          </tr>); })}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-rosario-colla">Rosario-Colla &mdash; not a gap, an origin</h2>
+  <div class="prose">
+    <p>Colonia was carried here for days as the one Uruguayan department still unaccounted for.
+    <strong>It was never unaccounted for &mdash; it is where they came from.</strong> The marriage of
+    3 February 1837 at San José de Mayo gives Mauricio Lerena's birthplace as <strong>Colla</strong>,
+    the old name of <strong>Rosario, Colonia</strong>, and names his parents.</p>
+    <p>What was genuinely missing is that <strong>none of them were people here</strong>. Mauricio is
+    the man on whom the whole finding rests &mdash; his children account for San José, Flores and
+    Florida, with Salto and Montevideo besides &mdash; and he was
+    <strong>the patriarch this archive had researched but never made a person</strong>, living here
+    only inside other people's notes until 20 September 2026.</p>
+  </div>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr>
+        <th style="width:15rem">Person</th><th style="width:18rem">What the 1837 act gives</th>
+        <th>Why it matters</th>
+      </tr></thead>
+      <tbody>
+        {colla.map((r) => { const c = Object.values(r); return (
           <tr>
             <th set:html={emph(c[0])} />
             <td class="cap" set:html={emph(c[1])} />

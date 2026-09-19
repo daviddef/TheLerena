@@ -49,6 +49,36 @@ def norm(t):
 prose = []
 for fp in PAGES.rglob("*.astro"):
     prose.append(norm(fp.read_text(encoding="utf-8")))
+
+# AND THE BUILT PAGES, which is the fix for a blind spot found on 20 September 2026.
+#
+# This check used to read ONLY the .astro sources, so it could see a finding a page had
+# TYPED and was blind to one a page RENDERED. That was harmless while findings were written
+# into prose by hand. It stopped being harmless the moment check-onsite.py started requiring
+# every data file to be imported by a page: from then on the archive's own two gates pulled
+# against each other - onsite said "put the finding in data and render it", drift said "no
+# page says it" - and drift was wrong every time.
+#
+# A reader does not read .astro. Read what was built.
+# /people/ is EXCLUDED on purpose. A register note renders on that person's own page by
+# definition, so counting it would make this check pass trivially and catch nothing ever
+# again. The question this check asks is whether the TOPIC pages have kept up - whether a
+# reader following the narrative meets the finding - and a person page is the register
+# talking to itself.
+# These pages RE-PRINT the register wholesale - every person, every note. Counting them
+# would make any register finding "published" the moment it was written down, which is the
+# opposite of what this check is for. /register/ was the one that actually defeated it in
+# testing on 20 September 2026: the Mauricio finding still passed with the /uruguay/
+# section deleted, because /register/ was quietly carrying every word of it.
+DUMP = {"people", "register", "who", "search"}
+DIST = ROOT / "site" / "dist"
+for fp in DIST.rglob("index.html"):
+    if DUMP & set(fp.relative_to(DIST).parts):
+        continue
+    try:
+        prose.append(norm(fp.read_text(encoding="utf-8", errors="ignore")))
+    except OSError:
+        pass
 ALL_PROSE = " ".join(prose)
 
 warns = []

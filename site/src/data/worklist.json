@@ -1287,10 +1287,18 @@
     {
       "n": 161,
       "what": "Surface Mauricio Lerena on a page — the drift checker says no page carries him",
+      "state": "done",
+      "owner": "this archive",
+      "since": "2026-09-20",
+      "note": "`tools/drift.py` flags it: the register now calls Mauricio **\"the patriarch this archive had researched but never made a person\"** and **no single page says so to a reader**. He has a person page, but the *finding* — that one couple at Rosario-Colla accounts for San José, Flores and Florida — lives in a register note and in row 120. **It belongs on /uruguay/ beside the González Lerena section**, which is the same shape of finding. *** DONE the same session it was raised. *** /uruguay/ now carries **Rosario-Colla — not a gap, an origin**, with all four people and the 1837 act."
+    },
+    {
+      "n": 162,
+      "what": "drift.py's catch behaviour is unverified after today's fix",
       "state": "next",
       "owner": "this archive",
       "since": "2026-09-20",
-      "note": "`tools/drift.py` flags it: the register now calls Mauricio **\"the patriarch this archive had researched but never made a person\"** and **no single page says so to a reader**. He has a person page, but the *finding* — that one couple at Rosario-Colla accounts for San José, Flores and Florida — lives in a register note and in row 120. **It belongs on /uruguay/ beside the González Lerena section**, which is the same shape of finding."
+      "note": "**The blind spot it had was real and is fixed**: `drift.py` read only the `.astro` *sources*, so it could see a finding a page had **typed** and was blind to one a page **rendered**. That put it in direct conflict with `check-onsite.py`, which requires every data file to be imported by a page — onsite said *render it*, drift said *no page says it*, and drift was wrong every time. It now reads the built pages, excluding **/people/, /register/, /who/ and /search/**, which re-print the whole register and would make any finding pass trivially. **What is NOT verified:** deleting the /uruguay/ section that carries the Mauricio finding did **not** make the check report it again, even though no other non-dump page and no `.astro` source holds those words. **So the fix is sound but the catch is unproven, and a gate whose catch is unproven is a gate nobody should trust.** Find out why — most likely the rarest-word selection shifts as the corpus grows."
     }
   ],
   "accounts": [
