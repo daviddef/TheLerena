@@ -417,6 +417,24 @@
   "count": 2
  },
  {
+  "slug": "san-jose-de-mayo",
+  "name": "San Jose de Mayo",
+  "people": [
+   "mauricio-lerena",
+   "dona-casimira-montano"
+  ],
+  "count": 2
+ },
+ {
+  "slug": "rosario-colla-colonia",
+  "name": "Rosario / Colla, Colonia",
+  "people": [
+   "ramon-lerena-2",
+   "maria-josefa-gonzalez"
+  ],
+  "count": 2
+ },
+ {
   "slug": "entre-rios",
   "name": "Entre Rios",
   "people": [
