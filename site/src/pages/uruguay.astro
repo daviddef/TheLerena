@@ -63,6 +63,7 @@ const mauricioRows = mauricio.filter((r) => r.child && r.grade && r.grade !== "g
 import dUruguayFourDepartments from "../data/uruguay-four-departments.json";
 import d1812UnionAct from "../data/1812-union-act.json";
 import fs20 from "../data/fs-session-2026-09-20.json";
+import gl from "../data/gonzalez-lerena.json";
 ---
 <Base title="Uruguay"
       eyebrow="Two Lerena families, two Spanish origins, and neither of them is his"
@@ -333,6 +334,34 @@ import fs20 from "../data/fs-session-2026-09-20.json";
             <td class="cap" set:html={emph(c[1])} />
             <td class="cap" set:html={emph(c[2])} />
             <td class="cap" set:html={emph(c[3])} />
+          </tr>); })}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-gonzalez-lerena">González Lerena &mdash; a branch no sweep had ever counted</h2>
+  <div class="prose">
+    <p>This one exists because of a mistake. A full-text search for <em>Juan Carlos Lerena</em> matched
+    <strong>across</strong> the compound surname <em>Juan Carlos González Lerena</em> and was written
+    off as a false positive &mdash; and the variant that produced it turned out to hide a whole family
+    of <strong>fifty-two records</strong> that no sweep here had ever counted.</p>
+    <p>At the head of it is <strong>Estefanía Lerena</strong>, who married Servando González, with at
+    least six children across San José, Montevideo and Colonia between 1854 and 1931.
+    <strong>She is attached to nothing</strong> and is recorded unplaced.</p>
+  </div>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr>
+        <th style="width:15rem">What</th><th style="width:20rem">The records</th><th>Verdict</th>
+      </tr></thead>
+      <tbody>
+        {gl.map((r) => { const c = Object.values(r); return (
+          <tr>
+            <th set:html={emph(c[0])} />
+            <td class="cap" set:html={emph(c[1])} />
+            <td class="cap" set:html={emph(c[2])} />
           </tr>); })}
       </tbody>
     </table>

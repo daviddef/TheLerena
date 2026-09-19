@@ -1223,10 +1223,10 @@
     {
       "n": 153,
       "what": "Add GONZALEZ LERENA to the compound-surname sweep",
-      "state": "next",
+      "state": "done",
       "owner": "this archive",
       "since": "2026-09-17",
-      "note": "A full-text hit turned up **'Don Juan Carlos González Lerena'** in the Montevideo dispensations, 8 November 1920. He is not ours. But **González Lerena appears in neither `compound-surname-sweep.tsv` nor `lerena-lerena-compound-test.tsv`**, so the compound sweep is incomplete by at least one variant — and compound forms are how this surname hides."
+      "note": "A full-text hit turned up **'Don Juan Carlos González Lerena'** in the Montevideo dispensations, 8 November 1920. He is not ours. But **González Lerena appears in neither `compound-surname-sweep.tsv` nor `lerena-lerena-compound-test.tsv`**, so the compound sweep is incomplete by at least one variant — and compound forms are how this surname hides. *** SWEPT 20 September 2026, and it was not one variant — it was a family. *** **'Gonzalez Lerena' exact returns 52 records**, headed by **ESTEFANÍA LERENA, wife of Servando González**, with at least six children across San José, Montevideo and Colonia, 1854–1931. **None of it was in either compound file.** She is attached to nothing and is recorded unplaced. It also finishes the false positive: **Juan Carlos González Lerena, b. 1899**, married Concepción Petrona Urbano Orio in 1922, son of Leopoldo — Estefanía's grandson, and seventeen years younger than Pablo Armando. See /uruguay/."
     },
     {
       "n": 154,
@@ -1250,7 +1250,7 @@
       "state": "next",
       "owner": "this archive",
       "since": "2026-09-20",
-      "note": "The last remainder of row 120. Three of the four departments measured there resolved to the children of **one couple, Mauricio Lerena and Casimira Montaño**, spreading across the interior in a single generation — San José de Mayo, Trinidad in Flores, and Florida, with Salto and Montevideo besides. **Colonia did not.** It holds **189 exact LERENA records** and has no dedicated study, only passing mentions. And the standing warning applies to it hardest: the tree's Gabino of Flores is given as a son of **Ramón Llerena Cubas and Margarita Leal — not Sancho's line** — so the interior may hold a different Lerena family entirely, and Colonia is where that would show. Needs a FamilySearch session."
+      "note": "The last remainder of row 120. Three of the four departments measured there resolved to the children of **one couple, Mauricio Lerena and Casimira Montaño**, spreading across the interior in a single generation — San José de Mayo, Trinidad in Flores, and Florida, with Salto and Montevideo besides. **Colonia did not.** It holds **189 exact LERENA records** and has no dedicated study, only passing mentions. And the standing warning applies to it hardest: the tree's Gabino of Flores is given as a son of **Ramón Llerena Cubas and Margarita Leal — not Sancho's line** — so the interior may hold a different Lerena family entirely, and Colonia is where that would show. Needs a FamilySearch session. *** PART-ANSWERED 20 September 2026, and the method was the problem. *** **Maria Bernarda González Lerena married at Campana, Colonia in 1931** — so part of Colonia's Lerena presence is a **compound** family that an exact-surname count cannot see. **The 189 figure was measured by exact surname and therefore under-counts.** Before anyone concludes Colonia is thin, re-measure it including compound forms."
     },
     {
       "n": 157,
