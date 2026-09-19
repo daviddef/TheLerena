@@ -56,7 +56,7 @@ def rows(name):
 for name in ("corrections", "errands", "gaps", "timeline", "photograph-these",
              "sources-consulted", "taylor-line", "dna-match-probes",
              "marriage-1911", "death-notices-read", "pablo-armando-passport",
-             "tab-pull-list-2026-09-22", "family-memory", "death-notice-1950", "llorens-1872", "gedcom-current", "gedcom-import", "gedcom-graded", "brayley-ascent", "brayley-convergence", "devon-tooling", "brayley-bmd", "1891-northam-census", "1851-bideford-brayley", "1861-bideford-brailey", "italy-lerena-lerina", "uruguay-four-departments", "mauricio-casimira-montano", "ramon-lerena-rosario", "1812-union-act", "brayley-two-questions", "tna-discovery", "naval-devon-taylor-brayley", "1999-deaths-tested", "devon-addresses", "juan-carlos-lerena-tested", "three-routes-walked", "letter-registro-civil-santafe", "dgs-audit"):
+             "tab-pull-list-2026-09-22", "family-memory", "death-notice-1950", "llorens-1872", "gedcom-current", "gedcom-import", "gedcom-graded", "brayley-ascent", "brayley-convergence", "devon-tooling", "brayley-bmd", "1891-northam-census", "1851-bideford-brayley", "1861-bideford-brailey", "italy-lerena-lerina", "uruguay-four-departments", "mauricio-casimira-montano", "ramon-lerena-rosario", "1812-union-act", "brayley-two-questions", "tna-discovery", "naval-devon-taylor-brayley", "1999-deaths-tested", "devon-addresses", "juan-carlos-lerena-tested", "three-routes-walked", "letter-registro-civil-santafe", "dgs-audit", "gazette-three-new"):
     data = rows(name)
     (OUT / f"{name}.json").write_text(json.dumps(data, indent=1, ensure_ascii=False) + "\n",
                                       encoding="utf-8")

@@ -3,6 +3,7 @@ import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 import { emph } from "../lib/text.js";
 import nine9 from "../data/1999-deaths-tested.json";
+import gz3 from "../data/gazette-three-new.json";
 ---
 <Base title="South Africa"
       eyebrow="The Cape, the Rand, and a founder cluster"
@@ -287,6 +288,37 @@ import nine9 from "../data/1999-deaths-tested.json";
       </tr></thead>
       <tbody>
         {nine9.map((r) => { const c = Object.values(r); return (
+          <tr>
+            <th set:html={emph(c[0])} />
+            <td class="cap" set:html={emph(c[1])} />
+            <td class="cap" set:html={emph(c[2])} />
+            <td class="cap" set:html={emph(c[3])} />
+          </tr>); })}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-gazette-three">Three records found by running a control</h2>
+  <div class="prose">
+    <p>The target was Paul Raymond Lerena's 2001 estate notice. <strong>It was not reached.</strong>
+    But the control query run first &mdash; the one that proves the search works before any zero is
+    believed &mdash; returned forty-two documents, and <strong>three of them this archive did not
+    hold</strong>.</p>
+    <p>All three are <strong>snippet only</strong>. The search index is open; the document viewer sits
+    behind a bot challenge that was not worked around, so nothing below has been read on the page
+    itself. And gazette OCR <strong>reads across the gutter of a two-column notice</strong>, so names
+    that appear adjacent in a snippet are not necessarily adjacent on the page.</p>
+  </div>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr>
+        <th style="width:15rem">Record</th><th style="width:18rem">What the snippet shows</th>
+        <th style="width:16rem">Caution</th><th>Status</th>
+      </tr></thead>
+      <tbody>
+        {gz3.map((r) => { const c = Object.values(r); return (
           <tr>
             <th set:html={emph(c[0])} />
             <td class="cap" set:html={emph(c[1])} />

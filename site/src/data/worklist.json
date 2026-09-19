@@ -402,7 +402,7 @@
       "state": "next",
       "owner": "this archive",
       "since": "2026-09-15",
-      "note": "The 1951 gazette calls **Robert Paul Lerena a racehorse trainer at Newlands**; a 1986 gazette lists **P. R. Lerena Racing Stables, P.O. Box 425, Randburg** as an employer. Randburg is where **Ricardo Juan Carlos** lived and died, which makes *P. R.* most likely one of his sons — Paul Raymond is the obvious reading of the initials and is **only a reading**. Establish it from documents, and note that this family's racing connection may run to living people, who stay out of this archive."
+      "note": "The 1951 gazette calls **Robert Paul Lerena a racehorse trainer at Newlands**; a 1986 gazette lists **P. R. Lerena Racing Stables, P.O. Box 425, Randburg** as an employer. Randburg is where **Ricardo Juan Carlos** lived and died, which makes *P. R.* most likely one of his sons — Paul Raymond is the obvious reading of the initials and is **only a reading**. Establish it from documents, and note that this family's racing connection may run to living people, who stay out of this archive. *** ATTEMPTED 20 September 2026 and NOT settled. *** The way to prove it is Paul Raymond's own estate notice, **Government Gazette 22032, 9 February 2001, page 35**, which would give his address. **gazettes.africa's search works** (control: 42 documents for *Lerena*) **but its document viewer is behind a bot challenge**, which was not worked around. A name search for him returned nothing and **that is not a null** — OCR of a name is exactly what a search misses. **Untested, not absent.**"
     },
     {
       "n": 51,
@@ -1235,6 +1235,14 @@
       "owner": "this archive",
       "since": "2026-09-17",
       "note": "The indexed Santa Fe church collection holds **exactly three Lerena entries in 783,111 records**, and one is new to this archive: **Armando Lerena, baptised 1917 at Nuestra Señora del Carmen, Santa Fe city**, son of **Casimiro Lerena and Amelia Lepiani**. **It carries the name Armando**, which is suggestive and nothing more — 1917 is a generation past Pablo Armando and Santa Fe city is 170 km from Rosario. Recorded unplaced; test it, do not adopt it."
+    },
+    {
+      "n": 155,
+      "what": "Read the three new gazette records found on 20 September",
+      "state": "next",
+      "owner": "this archive",
+      "since": "2026-09-20",
+      "note": "Found by running a control rather than by searching for them, and **all three are snippet only** — see /south-africa/ and `data/gazette-three-new.tsv`. **Transvaal Provincial Gazette 4793 (11 Dec 1991, p.75)** and **4796 (18 Dec 1991, p.50)**, a two-week township advertisement naming **Ricardo Juan Carlos Lerena** in his lifetime — the archive holds no property fact for him, and **Wysigingskema 2595** is the searchable handle. And **Legal Notices B 18373 (24 Oct 1997, p.165)**, *ABSA Bank Beperk v Lerena* in the Witwatersrand Local Division — **the snippet cuts off before the forenames**, so which Lerena is unknown. All need one page-view each, once the viewer is reachable."
     }
   ],
   "accounts": [

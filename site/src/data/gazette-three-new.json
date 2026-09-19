@@ -1,0 +1,26 @@
+[
+ {
+  "record": "*** Transvaal Provincial Gazette no. 4793, 11 December 1991, page 75 ***",
+  "what the snippet shows": "\"...spection during normal office hours at the office John Landman, *** Ricardo Juan Carlos Lerena *** ... behalf of Madeleine Ross, Brian John Town Clerk...\"",
+  "caution": "*** GAZETTE OCR INTERLEAVES COLUMNS. *** The words 'John Landman' and 'Ricardo Juan Carlos Lerena' sit beside each other in the snippet and *** that is not evidence they sit beside each other on the page *** - a two-column notice reads across the gutter. No relationship between the names is asserted.",
+  "status": "*** NEW. *** Ricardo Juan Carlos died 21 December 1994, so this falls in his lifetime. A township notice is a *** property fact ***, and this archive holds none for him."
+ },
+ {
+  "record": "*** Transvaal Provincial Gazette no. 4796, 18 December 1991, page 50 ***",
+  "what the snippet shows": "The same matter a week later: \"...*** ESTABLISHMENT OF TOWNSHIP (WYSIGINGSKEMA 2595) *** ... Landman, *** Ricardo Juan Carlos Lerena *** ...\"",
+  "caution": "Same OCR caution. *** Wysigingskema 2595 *** is the one hard handle in it - an amendment scheme number is searchable in the Transvaal town-planning records.",
+  "status": "*** NEW ***, and it gives the pair of notices the shape of a standard two-week township advertisement."
+ },
+ {
+  "record": "*** South Africa Government Gazette, Legal Notices B, no. 18373, 24 October 1997, page 165 ***",
+  "what the snippet shows": "\"...Witwatersrandse Plaaslike Afdeling) In die saak tussen *** ABSA BANK BEPERK, Applikant, en LERENA *** ...\"",
+  "caution": "*** The snippet cuts off before the respondent's forenames ***, so WHICH Lerena is unknown. 1997 is after Ricardo Juan Carlos's death, so it is not him in person.",
+  "status": "*** NEW, and deliberately not attributed to anyone. *** A Witwatersrand Local Division action by ABSA against a Lerena. The forenames are one page-view away."
+ },
+ {
+  "record": "*** THE TARGET THAT WAS NOT REACHED: Paul Raymond Lerena ***",
+  "what the snippet shows": "Estate notices indexed at *** Government Gazette 22032, 9 February 2001, page 35 *** and *** 22107, 9 March 2001, page 78 ***, both Gauteng. He is in the commercial index and *** has never been read from the gazette itself. ***",
+  "caution": "A name search for him returned nothing - *** but that is NOT a null. *** The control proves the search works; what is unknown is whether the 2001 volumes are in the corpus, and *** OCR of a name is exactly what a search misses. *** The page could not be opened to check.",
+  "status": "*** UNTESTED, NOT ABSENT. *** Reading page 35 would do two jobs at once: settle whether *** P. R. Lerena Racing Stables, Randburg *** is Paul Raymond (row 50 records that as a reading, not a fact), and *** take the last-but-one person off the commercial index *** that row 17 is about."
+ }
+]
