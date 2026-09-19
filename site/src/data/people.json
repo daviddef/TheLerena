@@ -10011,14 +10011,29 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "MARIA MERCEDES (daughter of Juana, enslaved)",
+    "dates": "1812–",
+    "slug": "maria-mercedes",
+    "via": "register",
+    "note": "*** Her daughter, born 24 September 1812 and baptised two days later. *** Same act, ark 3:1:3Q9M-C9BW-X757-D. *** This is the only relationship either woman has in this archive, and it is the one the record actually states. ***"
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
-  "evidence": []
+  "evidence": [
+   {
+    "says": "*** Named as the mother of a child baptised into slavery in Sancho Lerena's household: *** \"En veinte y seis de Septiembre de mil ochocientos doce: Yo el infrascrito bautice solemnemente a MARIA MERCEDES, que nacio antes de ayer, NEGRA ESCLAVA DE DON SANCHO LERENA Y DE DONA MARIA FERNANDEZ, hija de JUANA. Madrina Catalina Martinez.\" *** The 1812 padron counted four enslaved people in that household at calle San Juan No 60 and named none of them. This act names her. ***",
+    "source": "Montevideo, Catedral de la Inmaculada Concepcion, baptism act, 26 September 1812",
+    "ark": "3:1:3Q9M-C9BW-X757-D",
+    "readOn": "2026-09-20"
+   }
+  ]
  },
  {
   "slug": "maria-mercedes",
@@ -10040,16 +10055,29 @@
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
   "father": null,
-  "mother": null,
+  "mother": {
+   "name": "JUANA (enslaved in Sancho Llerena's household)",
+   "dates": "",
+   "slug": "juana",
+   "via": "register",
+   "note": "*** Named in her own baptism act: 'hija de JUANA'. *** The act of 26 September 1812, Montevideo Catedral, ark 3:1:3Q9M-C9BW-X757-D. *** The relation was documented from the day it was read and was never recorded here, so the two of them stood on this site as strangers. Added 20 September 2026. ***"
+  },
   "spouses": [],
   "children": [],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
-  "evidence": []
+  "evidence": [
+   {
+    "says": "*** Born 24 September 1812 and baptised two days later, in slavery, in the household of Sancho Lerena and Maria Fernandez. *** \"En veinte y seis de Septiembre de mil ochocientos doce: Yo el infrascrito bautice solemnemente a MARIA MERCEDES, que nacio antes de ayer, NEGRA ESCLAVA DE DON SANCHO LERENA Y DE DONA MARIA FERNANDEZ, hija de JUANA. Madrina Catalina Martinez.\" *** Her godmother was Catalina Martinez. *** Nothing further about her is known - not a marriage, not a death, not an emancipation.",
+    "source": "Montevideo, Catedral de la Inmaculada Concepcion, baptism act, 26 September 1812",
+    "ark": "3:1:3Q9M-C9BW-X757-D",
+    "readOn": "2026-09-20"
+   }
+  ]
  },
  {
   "slug": "juan-carlos-gonzalez-lerena",
