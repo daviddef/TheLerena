@@ -1,0 +1,62 @@
+[
+ {
+  "person": "*** PIERRE FREDERICK LERENA ***",
+  "what the register gives": "b.1948. *** DEATH 12 NOVEMBER 1999. *** Burial registration 18 November 1999, Johannesburg.",
+  "ark": "1:1:6X6S-M484",
+  "what it settles": "*** The GEDCOM's date, confirmed to the day by an independent source. *** The gazette had already put his estate at 28 January 2000; now the death itself is sourced."
+ },
+ {
+  "person": "*** RICHARD LERENA ***",
+  "what the register gives": "b.1986. *** DEATH 12 NOVEMBER 1999. *** Burial registration 18 November 1999.",
+  "ark": "1:1:6X6S-M48C",
+  "what it settles": "*** Thirteen years old, dead the same day as his father, and CONFIRMED - not merely carried on a tree. ***"
+ },
+ {
+  "person": "*** JEFFREY LERENA ***",
+  "what the register gives": "b.1991. Burial registration 18 November 1999; *** buried 22 November 1999. ***",
+  "ark": "1:1:6X6S-M48Z",
+  "what it settles": "*** Eight years old. *** The register gives his burial rather than his death, but it is the same registration day as the other three."
+ },
+ {
+  "person": "*** GAYLE LERENA ***",
+  "what the register gives": "b.1950. Burial registration 18 November 1999; *** buried 22 November 1999. ***",
+  "ark": "1:1:6X6S-M48H",
+  "what it settles": "*** THIS IS THE ONE THE GAZETTE COULD NOT REACH. *** On 17 September this archive recorded that her 1999 *** rested on a single index row and must not be published as fact ***, because a wife in community of property leaves no separate estate. *** She is now independently confirmed dead and buried. *** A null that was correctly refused, and is now closed by a different source."
+ },
+ {
+  "person": "*** THE FOUR ARKS ARE CONSECUTIVE ***",
+  "what the register gives": "6X6S-M484, M48C, M48H, M48Z - Pierre, Richard, Gayle, Jeffrey.",
+  "ark": "-",
+  "what it settles": "*** Four sequential entries in one register. *** The family was entered together, in one act of registration, on 18 November 1999. *** That is structural corroboration on top of the dates ***, and it is the kind of thing an index loses and a register keeps."
+ },
+ {
+  "person": "*** DOREEN MAY LERENA ***",
+  "what the register gives": "b.1921. *** DEATH 17 NOVEMBER 1999 ***, buried 20 November 1999.",
+  "ark": "1:1:6NWQ-VLD4",
+  "what it settles": "*** ROW 20 IS ANSWERED AND ROW 17 IS SMALLER FOR IT. *** She was the last person in this family whose dates rested on the commercial index - 'born 1921, died 1999' stood only as *** their *** fact. *** It is now free-sourced, with a day. *** She was Ricardo Juan Carlos's widow, aged 78, and she died *** five days after *** the other four and was buried two days *** before *** them."
+ },
+ {
+  "person": "*** CAREEN MARIA LERENA ***",
+  "what the register gives": "*** DEATH 27 JUNE 1947 ***, Cape.",
+  "ark": "1:1:QP7Z-K7B8",
+  "what it settles": "*** ROW 106 wanted a date for the third person in the Newlands grave *** and had only 'born and died 1947'. *** Here is the day. ***"
+ },
+ {
+  "person": "*** MARY SEPTIMA LERENA, born TAYLOR ***",
+  "what the register gives": "b.1884, *** buried 16 November 1935 ***, Cape Province.",
+  "ark": "1:1:QG1G-N3Y6",
+  "what it settles": "She died *** 15 November 1935 *** and was buried *** the next day. *** The archive held the death; the burial is new."
+ },
+ {
+  "person": "*** TWO CONFIRMATIONS THAT COST NOTHING ***",
+  "what the register gives": "*** Rhena May Lerena *** b.1913, d. *** 1 April 1998 ***, buried *** 9 April 1998 ***, Braamfontein. *** Ricardo Juan Carlos *** b.1920, d. 21 December 1994, buried 28 December 1994.",
+  "ark": "1:1:6FBG-NRW5 / 1:1:6NWQ-VLD7",
+  "what it settles": "Both already held, both now matched exactly by a second source. *** Rhena is the control this archive used on 17 September to prove the gazette misses real adult deaths - and she is HERE ***, which shows the cemetery register catches what the gazette drops."
+ },
+ {
+  "person": "*** A TRAP IN THIS COLLECTION, AND IT WOULD HAVE COST A CENTURY ***",
+  "what the register gives": "The index renders *** Doreen's year as '0099' and Ricardo's as '0094' *** - the '19' is dropped.",
+  "ark": "-",
+  "what it settles": "*** Read literally, Doreen May Lerena died in the year 99 and Ricardo in 94. *** Any script sorting or filtering this collection by year will put them in the first century. *** The full dates are recoverable only because the day and month survive and the burial sequence fixes them. ***"
+ }
+]

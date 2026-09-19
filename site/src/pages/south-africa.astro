@@ -4,6 +4,7 @@ import { u } from "../lib/url.js";
 import { emph } from "../lib/text.js";
 import nine9 from "../data/1999-deaths-tested.json";
 import gz3 from "../data/gazette-three-new.json";
+import cem from "../data/johannesburg-cemetery-1999.json";
 ---
 <Base title="South Africa"
       eyebrow="The Cape, the Rand, and a founder cluster"
@@ -323,6 +324,42 @@ import gz3 from "../data/gazette-three-new.json";
             <th set:html={emph(c[0])} />
             <td class="cap" set:html={emph(c[1])} />
             <td class="cap" set:html={emph(c[2])} />
+            <td class="cap" set:html={emph(c[3])} />
+          </tr>); })}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-cemetery-1999">The cemetery register answers it: catastrophe, not artefact</h2>
+  <div class="prose">
+    <p>A commercial index carried five members of this family with the year <strong>1999</strong>, and
+    this archive refused to say which it was &mdash; <em>either something terrible happened, or the
+    index has a default-year artefact, and a summary row cannot tell you which</em>. The Government
+    Gazette narrowed it but could not reach the wife or the children.</p>
+    <p>The <strong>Johannesburg cemetery register</strong> reaches all of them, and it is
+    <strong>free</strong>. <strong>Pierre Frederick and Richard both died on 12 November 1999</strong>;
+    <strong>Gayle and Jeffrey were buried with them on 22 November</strong>; and all four share a
+    burial registration of <strong>18 November 1999</strong>. Their four record identifiers are
+    <strong>consecutive</strong> &mdash; four sequential entries, one family, entered in a single act
+    of registration.</p>
+    <p>It also does something row 17 has been waiting for: <strong>Doreen May Lerena was the last
+    person here whose dates rested on the commercial index</strong>, and she is now free-sourced with a
+    day &mdash; <strong>died 17 November 1999</strong>, five days after the others.</p>
+  </div>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr>
+        <th style="width:14rem">Person</th><th style="width:16rem">What the register gives</th>
+        <th style="width:9rem">Record</th><th>What it settles</th>
+      </tr></thead>
+      <tbody>
+        {cem.map((r) => { const c = Object.values(r); return (
+          <tr>
+            <th set:html={emph(c[0])} />
+            <td class="cap" set:html={emph(c[1])} />
+            <td class="cap mono" set:html={emph(c[2])} />
             <td class="cap" set:html={emph(c[3])} />
           </tr>); })}
       </tbody>
