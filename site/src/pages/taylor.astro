@@ -3,6 +3,7 @@ import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 import { plain, emph } from "../lib/text.js";
 import addresses from "../data/devon-addresses.json";
+import crew from "../data/crew-lists-costed.json";
 import taylorLine from "../data/taylor-line.json";
 import "@daviddef/archive-kit/styles/persontree.css";
 /* GENERATED FROM data/taylor-line.tsv, not typed here. Until 14 September 2026 this was a
@@ -106,6 +107,7 @@ import dDevonTooling from "../data/devon-tooling.json";
           <li><a href="#s-addresses">The three addresses, and what a free census can reach</a></li>
       <li><a href="#s-two-questions">The two questions the Brayley line turns on</a></li>
       <li><a href="#s-tooling">The Devon tooling, and what each source can actually reach</a></li>
+      <li><a href="#s-crew">Neither of them went to sea</a></li>
 </ol>
   </div>
 </section>
@@ -663,6 +665,34 @@ import dDevonTooling from "../data/devon-tooling.json";
             i === 0 ? <th set:html={emph(v)} /> : <td class="cap" set:html={emph(v)} />
           ))}</tr>
         ))}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-crew">Neither of them went to sea</h2>
+  <div class="prose">
+    <p>Northam parish contains Appledore, and the Royal Navy registers held no Taylor of this family
+    &mdash; which left the merchant service open and looked like days of work, because crew lists are
+    filed by <strong>ship</strong> and not by man.</p>
+    <p>It was not days of work. <strong>The 1891 census had already answered it</strong>, and had been
+    in this archive since 16 September. <strong>William John, twenty, is a cab driver</strong> like his
+    father; <strong>Horace Archibald, nineteen, is a footman in domestic service</strong>. Two brothers,
+    two land trades, on one page &mdash; at exactly the ages a life at sea would have begun.</p>
+  </div>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr>
+        <th style="width:15rem">Question</th><th style="width:20rem">What was found</th><th>Verdict</th>
+      </tr></thead>
+      <tbody>
+        {crew.map((r) => { const c = Object.values(r); return (
+          <tr>
+            <th set:html={emph(c[0])} />
+            <td class="cap" set:html={emph(c[1])} />
+            <td class="cap" set:html={emph(c[2])} />
+          </tr>); })}
       </tbody>
     </table>
   </div>
