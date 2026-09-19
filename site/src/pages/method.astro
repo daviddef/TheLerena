@@ -2,6 +2,8 @@
 import Base from "../layouts/Base.astro";
 import Evidence from "@daviddef/archive-kit/components/Evidence.astro";
 import { u } from "../lib/url.js";
+import { emph } from "../lib/text.js";
+import dgs from "../data/dgs-audit.json";
 ---
 <Base title="Method"
       eyebrow="How this archive decides what it will say"
@@ -243,6 +245,34 @@ import { u } from "../lib/url.js";
       was found to be publishing a living person&rsquo;s exact birth date, two cities and both marriages
       beneath a caption claiming the details were withheld. Recorded on
       <a href={u("/corrections/")}>Corrections</a>.</p>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-dgs-audit">Every film number, tested</h2>
+  <div class="prose">
+    <p>This archive cites <strong>58 FamilySearch film numbers</strong>. Two Montevideo attributions
+    had already failed inspection, which put every catalogue-derived number under suspicion. All 58
+    were tested on 20 September 2026. <strong>Fifty-seven resolve to a real film and not one points at
+    a film that does not exist.</strong></p>
+    <p>It was done with <strong>FamilySearch signed out</strong>, because the thumbnail endpoint is
+    public. Two traps are recorded below, and both would have produced false corrections against
+    perfectly good data &mdash; one of them caught me.</p>
+  </div>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr>
+        <th style="width:15rem">Finding</th><th style="width:20rem">Detail</th><th>What it means</th>
+      </tr></thead>
+      <tbody>
+        {dgs.map((r) => { const c = Object.values(r); return (
+          <tr>
+            <th set:html={emph(c[0])} />
+            <td class="cap" set:html={emph(c[1])} />
+            <td class="cap" set:html={emph(c[2])} />
+          </tr>); })}
+      </tbody>
+    </table>
   </div>
 </section>
 

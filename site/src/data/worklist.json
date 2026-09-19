@@ -319,10 +319,10 @@
     {
       "n": 40,
       "what": "Audit this archive's other catalogue-derived film numbers",
-      "state": "next",
+      "state": "done",
       "owner": "this archive",
       "since": "2026-09-15",
-      "note": "Distinct from the estate-wide warning below it. **Two of two Montevideo attributions failed inspection today** — DGS 7713373 was mislabelled but right, DGS 7713386 was simply wrong. Every other DGS in this archive that came from reading a catalogue rather than opening the film is now suspect. They are cheap to test: one `manifest.json` call resolves any image to its true film and image number."
+      "note": "Distinct from the estate-wide warning below it. **Two of two Montevideo attributions failed inspection today** — DGS 7713373 was mislabelled but right, DGS 7713386 was simply wrong. Every other DGS in this archive that came from reading a catalogue rather than opening the film is now suspect. They are cheap to test: one `manifest.json` call resolves any image to its true film and image number. *** AUDITED 20 September 2026 - see /method/ and data/dgs-audit.tsv. *** **All 58 DGS numbers tested at three images each. 57 resolve; 0 not found.** The suspicion is cleared. Done **with FamilySearch signed out**, because `thumb_p200.jpg` is public — and note a correction to this archive's own method note: **`manifest.json` is not public**, it answers 401 to an anonymous request. Two traps recorded, both of which would have produced false corrections: **401 means a restricted image, not a wrong film** (one film gives 401 at image 1 and 200 at image 100), and a first pass that matched *film* as well as *DGS* threw six false failures that are **old microfilm roll numbers, correctly labelled**. One open item: **DGS 008166571** gave no 200 anywhere, so it is restricted rather than proven."
     },
     {
       "n": 41,
