@@ -28,5 +28,11 @@
   "what was searched": "Row 154. *** Casimiro Lerena *** with surname exact, Argentina: 7 records.",
   "result": "*** CASIMIRO LERENA and AMELIA LEPIANI *** (indexed once as *** 'Lapriani' ***) have *** Armando Lerena *** in the Santa Fe church records and *** VENTURA AMELIA ARGENTINA LERENA *** in the *** Entre Rios *** church records.",
   "verdict": "*** So this is not a Santa Fe household - it is a littoral one, in two provinces. *** *** Entre Rios is where Gilberto and Julia Salvanach's 1885 child also sits ***, so the province is worth mapping in its own right. *** Still attached to Pablo Armando by nothing whatever ***, and the only thing that ever recommended it was the forename Armando. *** That is not evidence and it is still not being treated as any. ***"
+ },
+ {
+  "finding": "*** THE TWO BROTHERS MARRIED AT THE SAME CHURCH, THIRTEEN YEARS APART ***",
+  "what was searched": "A parent-pair query on the couple the 1877 image documented: father *** Luis ***, mother *** Justiniana ***, surname Lerena, Uruguay.",
+  "result": "*** Luis Lerena, groom, 19 December 1864 *** , San Francisco de Asis, Ciudad Vieja, Montevideo - spouse *** Julia Juanico ***, parents indexed *** 'Justiniana Loupuan, Luis Lorena Languas'. *** And *** Gilberto Lerena, groom, 11 August 1877 ***, the same parish - spouse *** Julia Salvanach ***, parents indexed *** 'Luis Lenguas, Justiniana Lenguas'. ***",
+  "verdict": "*** Two brothers, one parish, thirteen years apart - which is structural corroboration of what the image already said outright. *** *** Note how badly the machine renders the father every time: 'Luis Lorena Languas', 'Luis Lenguas', 'Luis'. *** The surname collapses into the mother's on both entries, which is precisely why the parentage could not be trusted until the page was opened. *** No further siblings could be enumerated: the fuzzy parent-pair search returns 1,254 and is too noisy to close a sibling set. ***"
  }
 ]
