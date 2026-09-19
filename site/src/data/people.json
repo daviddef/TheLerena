@@ -403,10 +403,16 @@
    "name": "Don Luis LERENA (the godfather) = probably Luis LERENA y Fernandez",
    "dates": "1811–1878",
    "slug": "don-luis-lerena-probably-luis-lerena-y-fernandez",
-   "via": "tree",
-   "note": "Published Uruguayan genealogy makes Gilberto a brother of Luis Lerena Lenguas. SECONDARY."
+   "via": "register",
+   "note": "*** UPGRADED FROM TREE TO DOCUMENTED, 20 September 2026. *** \"el matrimonio que por palabras de presente contrajo Don GILBERTO LERENA, Oriental, soltero, hijo legitimo de Don LUIS y de Dona JUSTINIANA LENGUAS: con [Julia] SALVANACH, del propio estado y nacionalidad, e hija de Don CRISTOBAL y de Dona ANGELA ALVAREZ\" - padrinos \"Don LUIS LERENA y Dona ANGELA ALVAREZ\". *** Don Luis is named TWICE in the one act - as Gilberto's father and again as padrino - which is the act corroborating itself. *** Previously: Published Uruguayan genealogy makes Gilberto a brother of Luis Lerena Lenguas. SECONDARY."
   },
-  "mother": null,
+  "mother": {
+   "name": "Dona Justiniana LENGUAS Gonzalez",
+   "dates": "",
+   "slug": "dona-justiniana-lenguas-gonzalez",
+   "via": "register",
+   "note": "*** DOCUMENTED 20 September 2026, and it did not exist before. *** \"el matrimonio que por palabras de presente contrajo Don GILBERTO LERENA, Oriental, soltero, hijo legitimo de Don LUIS y de Dona JUSTINIANA LENGUAS: con [Julia] SALVANACH, del propio estado y nacionalidad, e hija de Don CRISTOBAL y de Dona ANGELA ALVAREZ\" - padrinos \"Don LUIS LERENA y Dona ANGELA ALVAREZ\". *** This makes Gilberto a documented brother of Don Luis Eugenio LERENA LENGUAS ***, whose own parentage on the same couple rests on Montevideo marriage act 258 of 1864. Montevideo, San Francisco de Asis, religious marriage no. 178, 11 August 1877 - IMAGE READ 20 September 2026. DGS 007713525 image 01765, ark 3:1:3Q9M-C9BW-N74V-N."
+  },
   "spouses": [
    {
     "name": "Julia Salvanach",
@@ -498,10 +504,17 @@
   ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 12,
-  "relRegister": 11,
-  "relTree": 1,
-  "evidence": []
+  "relTotal": 13,
+  "relRegister": 13,
+  "relTree": 0,
+  "evidence": [
+   {
+    "says": "*** HIS PARENTS, OFF THE PAGE RATHER THAN OFF A TREE. *** \"el matrimonio que por palabras de presente contrajo Don GILBERTO LERENA, Oriental, soltero, hijo legitimo de Don LUIS y de Dona JUSTINIANA LENGUAS: con [Julia] SALVANACH, del propio estado y nacionalidad, e hija de Don CRISTOBAL y de Dona ANGELA ALVAREZ\" - padrinos \"Don LUIS LERENA y Dona ANGELA ALVAREZ\". He is *** 'Oriental, soltero' *** - Uruguayan and a bachelor - and the third banns were dispensed by *** Don Jacinto Vera, Vicario Apostolico. *** *** THE MACHINE INDEX OF THIS SAME ACT IS WRONG ABOUT THE BRIDE: *** it gives her a father called 'Cristobal LERENA'. The page shows *** Cristobal is a SALVANACH, her own father ***, and the surname Lerena was carried across from the padrino line. *** There is no Cristobal Lerena. ***",
+    "source": "Montevideo, San Francisco de Asis, religious marriage no. 178, 11 August 1877, image read",
+    "ark": "3:1:3Q9M-C9BW-N74V-N",
+    "readOn": "2026-09-20"
+   }
+  ]
  },
  {
   "slug": "maria-e-c-lerena",
@@ -5332,18 +5345,18 @@
    },
    {
     "name": "Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS)",
-    "dates": "",
+    "dates": "1854–1912",
     "slug": "gilberto-lerena",
-    "via": "tree",
-    "note": "Published Uruguayan genealogy makes Gilberto a brother of Luis Lerena Lenguas. SECONDARY."
+    "via": "register",
+    "note": "The same 1877 act, which also has him standing padrino at his son's wedding. Montevideo, San Francisco de Asis, religious marriage no. 178, 11 August 1877 - IMAGE READ 20 September 2026. DGS 007713525 image 01765, ark 3:1:3Q9M-C9BW-N74V-N."
    }
   ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
   "relTotal": 4,
-  "relRegister": 2,
-  "relTree": 2,
+  "relRegister": 3,
+  "relTree": 1,
   "evidence": []
  },
  {
@@ -5719,13 +5732,20 @@
     "slug": "don-luis-eugenio-lerena-lenguas",
     "via": "register",
     "note": "Named in Montevideo marriage act 258 (1864), and a witness at the wedding."
+   },
+   {
+    "name": "Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS)",
+    "dates": "1854–1912",
+    "slug": "gilberto-lerena",
+    "via": "register",
+    "note": "The same 1877 act. Montevideo, San Francisco de Asis, religious marriage no. 178, 11 August 1877 - IMAGE READ 20 September 2026. DGS 007713525 image 01765, ark 3:1:3Q9M-C9BW-N74V-N."
    }
   ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 1,
-  "relRegister": 1,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },

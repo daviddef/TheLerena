@@ -1263,10 +1263,10 @@
     {
       "n": 158,
       "what": "Read the 1877 Gilberto–Salvañach marriage image — it may document his parents",
-      "state": "next",
+      "state": "done",
       "owner": "this archive",
       "since": "2026-09-20",
-      "note": "Found while running a control. Marriage of **Gilberto Lerena and Julia Salvañach, 11 August 1877, San Francisco de Asís, Ciudad Vieja, Montevideo**. Index ark **1:1:X9PV-HKCR**; **image ark 3:1:3Q9M-C9BW-N74V-N**. The index gives the bride's parents-in-law — Gilberto's parents — as **'Luís Lenguas' and 'Justiniana Lenguas'**, almost certainly a machine garble of **Luis LERENA and Justiniana LENGUAS**, which is exactly the couple this archive assigns him **at tree tier only**. A parish register would make it **documented**. **Do not promote it off the index:** the page says *indexed by a computer*, and the same entry gives the bride a father called *Cristóbal Lerena*, which cannot be right for a Salvañach marrying a Lerena. **Open the image.**"
+      "note": "Found while running a control. Marriage of **Gilberto Lerena and Julia Salvañach, 11 August 1877, San Francisco de Asís, Ciudad Vieja, Montevideo**. Index ark **1:1:X9PV-HKCR**; **image ark 3:1:3Q9M-C9BW-N74V-N**. The index gives the bride's parents-in-law — Gilberto's parents — as **'Luís Lenguas' and 'Justiniana Lenguas'**, almost certainly a machine garble of **Luis LERENA and Justiniana LENGUAS**, which is exactly the couple this archive assigns him **at tree tier only**. A parish register would make it **documented**. **Do not promote it off the index:** the page says *indexed by a computer*, and the same entry gives the bride a father called *Cristóbal Lerena*, which cannot be right for a Salvañach marrying a Lerena. **Open the image.** *** IMAGE READ 20 September 2026, and it does document them. *** The act: **\"contrajo Don GILBERTO LERENA, Oriental, soltero, hijo legítimo de Don LUIS y de Doña JUSTINIANA LENGUAS\"** — and the padrinos are **\"Don LUIS LERENA y Doña ÁNGELA ÁLVAREZ\"**, so **Don Luis is named twice in the one act, as father and as padrino**, which is the document corroborating itself. **Gilberto's parentage moves from tree to documented, and he becomes a documented brother of Don Luis Eugenio Lerena Lenguas**, whose parentage on the same couple rests on Montevideo act 258 of 1864. **And the index was wrong exactly where predicted:** Cristóbal is a **Salvañach**, the bride's own father — the surname *Lerena* was carried across from the padrino line. **There is no Cristóbal Lerena**, and none was added."
     },
     {
       "n": 159,
@@ -1275,6 +1275,14 @@
       "owner": "this archive",
       "since": "2026-09-20",
       "note": "Surfaced twice in one session and never looked at. **Casimiro Lerena and Amelia Lepiani** have a daughter in the **Entre Ríos** church records while their son is in **Santa Fe**; and **Gilberto Lerena and Julia Salvañach** have a child recorded at *Uruguay, Entre Ríos, Argentina* in 1885. **Two unrelated Lerena households in the same province**, and this archive has no Entre Ríos study at all — only Rosario, Buenos Aires and the Uruguayan departments. Entre Ríos sits between the two, on the river, which is exactly the route this family used."
+    },
+    {
+      "n": 160,
+      "what": "An ark's image number is not the number the viewer shows",
+      "state": "done",
+      "owner": "this archive",
+      "since": "2026-09-20",
+      "note": "Recorded because it cost a wrong page today. The viewer displayed **\"Image 33 of 250, item 9\"** for ark 3:1:3Q9M-C9BW-N74V-N, and image 33 of that film is **a baptism register, not the marriage**. The ark's real position is **image 01765**, and the only way to get it is to ask the manifest: `GET /service/records/storage/deepzoomcloud/dz/v1/{ark-without-prefix}/manifest.json` returns **alternateId**. **The number on screen is the position within the waypoint item, not the film image.** Also worth having: **dist.jpg gives the whole page at full resolution** — 4467×3476 here — so no tile assembly was needed at all."
     }
   ],
   "accounts": [
