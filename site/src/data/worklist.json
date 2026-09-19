@@ -282,7 +282,7 @@
       "state": "next",
       "owner": "this archive",
       "since": "2026-09-15",
-      "note": "Directly tests one of this archive's declared [gaps](/gaps/) — *the eight years between Northam and the Cape*. Pablo Armando was born at Rosario in **1882**; his eldest son was born **6 December 1905**. If that birth was not in South Africa it locates the family in those missing years, and **Argentina is the obvious first place to look** — the archive already has Argentine baptism sweeps to extend."
+      "note": "Directly tests one of this archive's declared [gaps](/gaps/) — *the eight years between Northam and the Cape*. Pablo Armando was born at Rosario in **1882**; his eldest son was born **6 December 1905**. If that birth was not in South Africa it locates the family in those missing years, and **Argentina is the obvious first place to look** — the archive already has Argentine baptism sweeps to extend. *** SHARPENED 20 September 2026, and the register's own answer is an inference. *** Roque was **baptised 12 June 1911 at Corpus Christi, Wynberg — aged five and a half, and three months before his parents married on 3 September 1911**, with his mother entered as *Mary Septima olim Taylor*. **So 'Cape Town' as his birthplace is taken from where he was baptised six years later, not from anything that states where he was born.** The pattern is legitimation. The question is still open and is now better posed."
     },
     {
       "n": 36,
@@ -842,7 +842,7 @@
       "state": "next",
       "owner": "this archive",
       "since": "2026-09-16",
-      "note": "Roque's baptism names **José Bretón** and **María Luisa Bretón** as godfather and godmother, both marked *(proxy)*. *** They are the first Hispanic-named associates of Pablo Armando ever found in the Cape, and proxy is what a parish writes when the real sponsors are overseas *** Look for Bretón in the Corpus Christi Wynberg registers, in Cape directories, and in Argentine records beside Lerena. If they are family, they are the closest thing to a relative he ever produced."
+      "note": "Roque's baptism names **José Bretón** and **María Luisa Bretón** as godfather and godmother, both marked *(proxy)*. *** They are the first Hispanic-named associates of Pablo Armando ever found in the Cape, and proxy is what a parish writes when the real sponsors are overseas *** Look for Bretón in the Corpus Christi Wynberg registers, in Cape directories, and in Argentine records beside Lerena. If they are family, they are the closest thing to a relative he ever produced. *** TESTED 20 September 2026 and it is a NULL — which narrows the lead rather than killing it. *** Surname **BRETON exact** with **spouse surname LERENA exact**, all countries: **zero**. Control in the identical form, SALVANACH with spouse LERENA: **19**. **So no Bretón married into this family** — if they are connected to Pablo Armando it is as friends, compatriots or employers, not kin. **Look for them beside Lerena in Argentine records, not in marriages.**"
     },
     {
       "n": 106,
@@ -1259,6 +1259,14 @@
       "owner": "this archive",
       "since": "2026-09-20",
       "note": "**133 of the 278 people in this register carry two or more forenames** — very nearly half — and FamilySearch's exact forename search matches the **whole given-name string**, so an exact search on the first forename alone would never have found them. **Any null recorded that way is unsafe.** None could be identified by grep, because the searches were written down in prose without naming the parameter, **which is the lesson underneath this row: record the query, not just the answer.** Re-run suspects in the safe shape — fuzzy forename, exact surname — which does match per token."
+    },
+    {
+      "n": 158,
+      "what": "Read the 1877 Gilberto–Salvañach marriage image — it may document his parents",
+      "state": "next",
+      "owner": "this archive",
+      "since": "2026-09-20",
+      "note": "Found while running a control. Marriage of **Gilberto Lerena and Julia Salvañach, 11 August 1877, San Francisco de Asís, Ciudad Vieja, Montevideo**. Index ark **1:1:X9PV-HKCR**; **image ark 3:1:3Q9M-C9BW-N74V-N**. The index gives the bride's parents-in-law — Gilberto's parents — as **'Luís Lenguas' and 'Justiniana Lenguas'**, almost certainly a machine garble of **Luis LERENA and Justiniana LENGUAS**, which is exactly the couple this archive assigns him **at tree tier only**. A parish register would make it **documented**. **Do not promote it off the index:** the page says *indexed by a computer*, and the same entry gives the bride a father called *Cristóbal Lerena*, which cannot be right for a Salvañach marrying a Lerena. **Open the image.**"
     }
   ],
   "accounts": [

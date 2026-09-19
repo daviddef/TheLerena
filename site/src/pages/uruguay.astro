@@ -62,6 +62,7 @@ const ramonRows = ramon.filter((r) => r.generation && r.grade && r.grade !== "gr
 const mauricioRows = mauricio.filter((r) => r.child && r.grade && r.grade !== "grade");
 import dUruguayFourDepartments from "../data/uruguay-four-departments.json";
 import d1812UnionAct from "../data/1812-union-act.json";
+import fs20 from "../data/fs-session-2026-09-20.json";
 ---
 <Base title="Uruguay"
       eyebrow="Two Lerena families, two Spanish origins, and neither of them is his"
@@ -305,6 +306,34 @@ import d1812UnionAct from "../data/1812-union-act.json";
             i === 0 ? <th set:html={emph(v)} /> : <td class="cap" set:html={emph(v)} />
           ))}</tr>
         ))}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-fs-20sep">Three questions put to FamilySearch, and two controls worth more than the answers</h2>
+  <div class="prose">
+    <p>One of these was found while running a <strong>control</strong> rather than while looking for it:
+    the 1877 marriage of Gilberto Lerena and Julia Salvañach may move his parentage from
+    <strong>tree</strong> to <strong>documented</strong>. It is not being claimed yet, and the reason is
+    in the last row &mdash; <strong>one half of that same index entry is visibly wrong</strong>, which
+    is the whole argument for opening the image before trusting the other half.</p>
+  </div>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr>
+        <th style="width:15rem">Finding</th><th style="width:16rem">What was searched</th>
+        <th style="width:14rem">Result</th><th>Verdict</th>
+      </tr></thead>
+      <tbody>
+        {fs20.map((r) => { const c = Object.values(r); return (
+          <tr>
+            <th set:html={emph(c[0])} />
+            <td class="cap" set:html={emph(c[1])} />
+            <td class="cap" set:html={emph(c[2])} />
+            <td class="cap" set:html={emph(c[3])} />
+          </tr>); })}
       </tbody>
     </table>
   </div>
