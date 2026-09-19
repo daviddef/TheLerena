@@ -655,10 +655,10 @@
     {
       "n": 82,
       "what": "Give every person a last-attested-alive date",
-      "state": "next",
+      "state": "done",
       "owner": "this archive",
       "since": "2026-09-15",
-      "note": "The Sancho search exposed a gap in the archive's own shape: it records when a person is **named**, not when they were last **demonstrably alive**. A man named as a grandfather may have been twenty years dead. **One field, computed where possible from the record type**, would stop that confusion for 278 people rather than one."
+      "note": "The Sancho search exposed a gap in the archive's own shape: it records when a person is **named**, not when they were last **demonstrably alive**. A man named as a grandfather may have been twenty years dead. **One field, computed where possible from the record type**, would stop that confusion for 278 people rather than one. *** BUILT 20 September 2026 - tools/last-alive.py, rendered on /register/. *** **Computed, never typed, and it does not guess** — dates in this archive live in prose, and prose carries other people's dates too. Two tiers: **DEATH**, an explicit date on the person's own row, and **DEATH BY**, a ceiling from a record that only exists because someone died, which is *never* treated as the date — Anton Armando died April 2003 and was advertised in 2013. **The answer is stark: 20 of 278 are known to have died at all.** The other 258 carry a birth estimate and nothing more. **That is the finding**, not a failure of the tool — and the register's inconsistency is exactly why: it writes *'d. 15 Nov 1935'* for one person and *'SA death cert 1950'* for the next. Ricardo Juan Carlos stays birth-only on purpose: his source is his **father's** 1950 estate, where being named means he was **alive**, not dead. Runs in the gate chain so it cannot go stale."
     },
     {
       "n": 83,

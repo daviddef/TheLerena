@@ -6,6 +6,7 @@ import people from "../data/people.json";
 import { emph, plain } from "../lib/text.js";
 import Register from "@daviddef/archive-kit/components/Register.astro";
 import nf from "../data/namefold.json";
+import alive from "../data/last-attested-alive.json";
 /* THE SEARCH BOX FOLDS SPELLINGS. Built by the kit's namefold.py from this
    archive's own corpus, and deliberately narrow: it folds only forms that are
    one word two keyboards wrote differently - an accent, a capital. Anything
@@ -128,6 +129,48 @@ for (const g of groups) g.rows.sort((a, b) => a.name.localeCompare(b.name));
     can answer it. <a href={u("/searched/")}>What has been read &rarr;</a></p>
 </section>
 
-
+<section class="blk">
+  <h2 id="s-last-alive">Last demonstrably alive &mdash; and how little that is known</h2>
+  <div class="prose">
+    <p>This register records when a person was <strong>named</strong>. It has never recorded when they
+    were last <strong>alive</strong>, and the two are not the same: a man named as a grandfather on an
+    1880 act may have been twenty years dead. Computed, never typed, by
+    <span class="mono">tools/last-alive.py</span>.</p>
+    <p>The result is worth stating plainly.
+    <strong>{alive.filter((r) => /DEATH/.test(Object.values(r)[4])).length} of {alive.length} people
+    are known to have died at all.</strong> The remaining
+    {alive.filter((r) => /BIRTH|UNKNOWN/.test(Object.values(r)[4])).length} carry
+    <strong>a birth estimate and nothing more</strong> &mdash; a floor below which they certainly
+    existed, not evidence they survived to anything later.</p>
+    <p>Two tiers, and the difference matters. <strong>DEATH</strong> is an explicit date on the
+    person's own row. <strong>DEATH BY</strong> is a ceiling taken from a record that only exists
+    because someone died &mdash; an estate or death-notice file &mdash; and it is
+    <strong>never treated as the date</strong>: this archive has already been caught once, when Anton
+    Armando died in April 2003 and his estate was advertised in 2013, ten years later.</p>
+  </div>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr>
+        <th style="width:18rem">Person</th><th style="width:7rem">Born</th>
+        <th style="width:7rem">Last alive</th><th>On what basis</th>
+      </tr></thead>
+      <tbody>
+        {alive.filter((r) => /DEATH/.test(Object.values(r)[4])).map((r) => {
+          const c = Object.values(r);
+          return (
+            <tr>
+              <th>{c[0]}</th><td>{c[1]}</td><td><strong>{c[2]}</strong></td>
+              <td class="cap">{c[3]}</td>
+            </tr>);
+        })}
+      </tbody>
+    </table>
+  </div>
+  <div class="prose" style="margin-top:12px">
+    <p class="dim">Only the people known to have died are listed. The other
+    {alive.filter((r) => /BIRTH|UNKNOWN/.test(Object.values(r)[4])).length} are in
+    <span class="mono">data/last-attested-alive.tsv</span>, each marked for what it is.</p>
+  </div>
+</section>
 
 </Base>
