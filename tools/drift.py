@@ -69,8 +69,13 @@ for fp in PAGES.rglob("*.astro"):
 # would make any register finding "published" the moment it was written down, which is the
 # opposite of what this check is for. /register/ was the one that actually defeated it in
 # testing on 20 September 2026: the Mauricio finding still passed with the /uruguay/
-# section deleted, because /register/ was quietly carrying every word of it.
-DUMP = {"people", "register", "who", "search"}
+# section deleted, because /register/ was quietly carrying every word of it. And /worklist/
+# defeated it a second time, for a reason that goes to the heart of how this archive works:
+# findings are written into ROW NOTES as a matter of habit, and /worklist/ re-prints every
+# note in full. So logging a finding made it "published" - which is precisely the gap this
+# check exists to find. /changes/, /corrections/ and /searched/ are excluded for the same
+# reason: they are ledgers OF the work, not places a reader meets the story.
+DUMP = {"people", "register", "who", "search", "worklist", "changes", "corrections", "searched"}
 DIST = ROOT / "site" / "dist"
 for fp in DIST.rglob("index.html"):
     if DUMP & set(fp.relative_to(DIST).parts):
