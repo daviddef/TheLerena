@@ -1358,11 +1358,19 @@
     },
     {
       "n": 170,
-      "what": "Find the marriage of Dominga and Antonio R. Carballo — it names her parents",
+      "what": "Dominga and Carballo's marriage is not in Uruguay — it may be Brazilian",
+      "state": "blocked",
+      "owner": "this archive",
+      "since": "2026-09-20",
+      "note": "**The one search that would settle whether Sancho's youngest daughter has been found.** They are married by the **1836 Montevideo census**, with a daughter old enough to be entered *soltera*, so the marriage is likely **Montevideo, c.1820–1832**. A Uruguayan marriage act names both parties' parents outright — as the 1877 Gilberto act did this week. Search **CARBALLO with spouse surname SERENA, LERENA, LLERENA and LORENA** in *Uruguay, Catholic Church Records* and *Uruguay, Marriages 1840–1900*, and remember the lesson of this whole sweep: **the spelling on the page is not the spelling in the index.** *** RUN 20 September 2026, and the country is probably wrong. *** **SERENA exact with spouse CARBALLO, Uruguay** returns exactly one hit — Dominga as **mother of the bride** in her daughter's act — against a control of **769** on the loosened form. **Their own marriage is not in Uruguay's indexed records.** And the reason may be plain: **their daughter JOSEFA CARBALLO was born and lived in RIO DE JANEIRO**, marrying Miguel Carlos Lemus of Rio at San Francisco de Asís on **24 July 1862** (ark 1:1:X9PN-PYNH). **The family was in Brazil.** Blocked here until either Brazilian registers or pre-1826 Montevideo registers are reachable — **the search was right and the country was wrong**, which is worth more than sweeping the same corpus again."
+    },
+    {
+      "n": 171,
+      "what": "Antonio Carballo is Antonio Rodrigues de CARVALHO — a Portuguese name, and a Brazil thread",
       "state": "next",
       "owner": "this archive",
       "since": "2026-09-20",
-      "note": "**The one search that would settle whether Sancho's youngest daughter has been found.** They are married by the **1836 Montevideo census**, with a daughter old enough to be entered *soltera*, so the marriage is likely **Montevideo, c.1820–1832**. A Uruguayan marriage act names both parties' parents outright — as the 1877 Gilberto act did this week. Search **CARBALLO with spouse surname SERENA, LERENA, LLERENA and LORENA** in *Uruguay, Catholic Church Records* and *Uruguay, Marriages 1840–1900*, and remember the lesson of this whole sweep: **the spelling on the page is not the spelling in the index.**"
+      "note": "Dominga's husband is attached in the FamilySearch Tree to **Antonio Rodrigues de Carvalho, b.1803** — so **Carballo is Carvalho**, which is exactly what the 1836 census meant by entering him **'Continente'** while his wife is 'Montevideo'. **Tier: a tree attachment, not a document**, and recorded as such. The thread is worth pulling because it is new ground for this archive: **a Lerena-surname woman married into a Portuguese family and had at least one child in Rio de Janeiro.** If Dominga is Sancho's daughter, one of his children left for Brazil and came back — and **no part of this archive has ever looked at Brazil.**"
     }
   ],
   "accounts": [

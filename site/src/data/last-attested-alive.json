@@ -2021,5 +2021,12 @@
   "last_attested_alive": "c.1821",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Dominga SERENA (m. Antonio R. Carballo, 1836 census)",
+  "born_est": "c.1808",
+  "last_attested_alive": "c.1808",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]
