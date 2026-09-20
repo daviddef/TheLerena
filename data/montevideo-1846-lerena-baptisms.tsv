@@ -5,7 +5,7 @@
 # Several children of LUIS LERENA and JUSTINIANA LENGUAS were baptised together on 7 January 1846,
 # some of them years after birth. The acts name FOUR GRANDPARENTS EACH.
 child	born	baptised	paternal grandparents	maternal grandparents	godparents
-*** LUIS EUGENIO LERENA ***	9 February 1843 - "que nacio el nueve de Febrero del pasado ano cuarenta y tres"	7 January 1846	*** FRANCISCO y MARIA FERNANDEZ ***	Pedro y Carmen Gonzalez	Juan Lenguas y Maria Fernandez
+*** LUIS EUGENIO LERENA ***	*** 9 February 1845 *** - the act says "que nacio el nueve de Febrero del pasado ano cuarenta y tres", and the two halves of that phrase disagree: "el pasado ano" from a January 1846 baptism is 1845, the numeral says 1843. RETRACTED 14 September in favour of 1845 - see corrections.tsv	7 January 1846	*** FRANCISCO y MARIA FERNANDEZ ***	Pedro y Carmen Gonzalez	Juan Lenguas y Maria Fernandez
 Justiniana Mauricia Maxima LERENA	-	7 January 1846	*** Francisco y Maria Fernandez *** (the hand here is less clear and could be read Hernandez)	*** "el General D. PEDRO LENGUAS y Carmen Gonzalez" ***	D. Pedro Lenguas y Maria Fernandez
 Alejandro LERENA	29 May of the preceding year	7 January 1846	(not yet read)	(not yet read)	(not yet read)
 #
@@ -22,8 +22,19 @@ Alejandro LERENA	29 May of the preceding year	7 January 1846	(not yet read)	(not
 # *** So when that marriage was made, the groom's maternal AUNT was already the bride's STEPMOTHER. ***
 # The two families were joined seven years before the wedding this archive has treated as the join.
 #
-# *** 2. LUIS EUGENIO WAS BORN 9 FEBRUARY 1843 *** - his death act of 1901 gave his age as 56, which
-# would put it at 1845. The act of his own baptism is the better evidence.
+# *** 2. LUIS EUGENIO WAS BORN 9 FEBRUARY 1845, NOT 1843. ***
+# *** THIS ENTRY SAID 1843 FOR SIX DAYS AFTER THE ARCHIVE RETRACTED IT, *** and argued for it: "his
+# death act of 1901 gave his age as 56, which would put it at 1845. The act of his own baptism is the
+# better evidence." The retraction was written into corrections.tsv on 14 September and never carried
+# back to the file the reading came from. Found 20 September while reading this page for a different
+# reason entirely.
+#
+# The act's own phrase contradicts itself - "el pasado ano" is 1845 from a January 1846 baptism, the
+# numeral "cuarenta y tres" is 1843 - and three things break the tie for 1845: his sister Justiniana
+# Mauricia, the entry immediately above in the same hand, was born 30 July 1843, five and a half
+# months before him, which no two births can be; his civil death registration of 24 December 1901
+# gives his age as FIFTY-SIX; and the clerk wrote "ano cuarenta y tres" in the entry above and again
+# in the entry below. A year carried down a column is the ordinary way this happens.
 #
 # ================== AND A CONFLICT, OPENED AND THEN RESOLVED ==================
 #
@@ -59,3 +70,51 @@ Alejandro LERENA	29 May of the preceding year	7 January 1846	(not yet read)	(not
 # Also recovered from the 1850 act: the child is ALBERTO OCTAVIO, not "Alberto Otario" as indexed;
 # he was born 22 March 1850; his parents are stated "naturales de MONTEVIDEO"; and his godparents
 # were D. Felipe Lenguas and Dona Dominga Carvallo - a fourth Lenguas, and a new surname.
+#
+# ========== THE PAGE RE-READ END TO END, 20 September 2026, AND THE YEAR IS A FORMULA ==========
+#
+# Film 007713524 image 1741, pages 96-97 - the SAME opening, magnified on each numeral in turn
+# rather than read at fit-width. There are eight acts on it. Three concern this family, and
+# *** ALL THREE GIVE THE BIRTH YEAR IN THE IDENTICAL WORDS: "del pasado ano cuarenta y tres". ***
+#
+#   Justiniana Mauricia Maxima  "que nacio el treinta de Julio del pasado ano cuarenta y tres"
+#   Luis Eugenio                "que nacio el nueve de Febrero del pasado ano cuarenta y tres"
+#   Alejandro (son of AVELINO)  "que nacio el veinte y nueve de Mayo del pasado ano cuarenta y tres"
+#
+# *** THE PHRASE CONTRADICTS ITSELF. *** These acts open "En siete de Enero de mil ochocientos
+# cuarenta y seis" - so "el pasado ano" is 1845, and the numeral says 1843. Both cannot hold.
+#
+# *** AND IT CANNOT BE LITERALLY TRUE. *** Justiniana Mauricia and Luis Eugenio are children of one
+# couple. Thirty July and nine February of one year are *** five months and ten days apart. ***
+#
+# *** SO THE YEAR ON THIS PAGE IS NOT THREE STATEMENTS. IT IS ONE FORMULA WRITTEN THREE TIMES, ***
+# and the third time is for a DIFFERENT COUPLE - Avelino Serena and Ambrosia Traibel. This archive
+# called it "a year carried down a column" on 14 September, which is close and too kind: a carry-down
+# is a slip on one entry, and this is every act on the opening, across two families, in one hand.
+#
+# ---------------------------- WHAT THAT COSTS, AND WHAT IT DOES NOT ----------------------------
+#
+# *** LUIS EUGENIO'S 1845 STANDS - but on one leg, not three. *** The correction of 14 September
+# rested on his sister's 30 July 1843, on his death act, and on the repetition of the numeral. The
+# first of those is now worth nothing: *** his sister's year comes from the same formula. *** What is
+# left is his *** civil death registration of 24 December 1901, "de cincuenta y seis" ***, which is
+# evidence from outside this page, and it gives 1845. One good leg is enough. The conclusion does not
+# move.
+#
+# *** ALEJANDRO'S 1843 HAS NO LEG AT ALL. *** Nothing outside this page dates him. His birth is
+# *** UNDETERMINED BETWEEN 29 MAY 1843 AND 29 MAY 1845 *** and the register said 1843 as if settled.
+#
+# *** AND THAT WEAKENS A CLAIM THIS ARCHIVE MADE ABOUT A MARRIAGE. *** Alejandro is the eldest known
+# child of Avelino Lerena and Ambrosia Traibel, and his row used his birth to push their marriage back
+# *** "before May 1843". *** The safe floor is *** before May 1845. *** Two years the archive does not
+# have.
+#
+# *** JUSTINIANA MAURICIA'S OWN 30 JULY 1843 IS EQUALLY UNCHECKED *** and is now marked soft on her
+# row. It may well be right - somebody on this page was born in 1843, or the formula came from
+# nowhere - but no record outside this opening says so.
+#
+# *** WHAT WOULD SETTLE ANY OF IT: *** the LEGAJO these acts were copied from, which they name -
+# "asi consta del Legajo conservado en este Archivo, mandado trasladar por el Sr. Obispo y Vic. Ap.
+# D. Jacinto Vera". The copy is what this archive has been reading. The original has never been
+# looked for.
+
