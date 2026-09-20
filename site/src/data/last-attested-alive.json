@@ -1688,15 +1688,36 @@
  },
  {
   "name": "Maria Carlota MORATORIO Lerena",
-  "born_est": "1880",
-  "last_attested_alive": "1880",
+  "born_est": "1880-02-24",
+  "last_attested_alive": "1880-02-24",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
  {
   "name": "Maria de las Mercedes MORATORIO Lerena",
-  "born_est": "1880",
-  "last_attested_alive": "1880",
+  "born_est": "1880-02-24",
+  "last_attested_alive": "1880-02-24",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Francisco AZANOLA",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Manuela OTONDO",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Rafael YEREGUI (priest, 1880)",
+  "born_est": "-",
+  "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -1827,7 +1848,7 @@
   "tier": "BIRTH ONLY"
  },
  {
-  "name": "Florencia CARDOZO",
+  "name": "Florinda CARDOZO",
   "born_est": "-",
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
