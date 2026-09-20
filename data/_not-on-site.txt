@@ -130,7 +130,6 @@ sancho-children-complete
 sancho-children-reconciled
 sancho-death-search
 sancho-in-the-records
-sancho-last-alive
 sancho-llerena-spellings
 sancho-or-francisco
 santa-rosa-confirmations-complete

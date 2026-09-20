@@ -1,4 +1,5 @@
 ---
+import lastAlive from "../data/sancho-last-alive.json";
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 import { emph } from "../lib/text.js";
@@ -343,6 +344,52 @@ import filmmap from "../data/film-7499043-map.json";
             <td class="cap" set:html={emph(c[2])} />
             <td class="cap" set:html={emph(c[3])} />
           </tr>); })}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-sancho-alive">When was Sancho last alive? Fourteen records, and only four count</h2>
+  <p class="dek">A man can be named in a document for sixty years after he dies. This archive holds
+    fourteen records naming Sancho Llerena and asked a narrower question of each of them: does this one
+    require him to have been <em>standing there</em>?</p>
+  <div class="prose">
+    <p><span class="chip doc">Documented</span> <strong>Four do, and the latest is 1812.</strong> He is
+      godfather at the Iglesia Matriz in <strong>1789</strong>; a sworn witness at Canelones in
+      <strong>1798</strong>, where he took an oath and could not sign it; a <em>padrino</em> at the
+      Canelones confirmations in <strong>1804</strong>; and returned in the
+      <strong>padr&oacute;n of 1812</strong> at calle San Juan No 60 &mdash; <em>Sancho, andaluz,
+      45</em> &mdash; and <strong>a census enumerates the living</strong>.</p>
+    <p><strong>The other ten name him without requiring him.</strong> Fathers are named on their
+      children&rsquo;s baptisms whether present or not. Grandfathers are named on grandchildren&rsquo;s.
+      A marriage act names the bride&rsquo;s parents living or dead &mdash; his daughter Justa
+      Pastora&rsquo;s of 1830 does <em>not</em> write him <em>difunto</em>, which is suggestive and is
+      not evidence. He is named as an ancestor as late as <strong>1850</strong>, sixty-one years after
+      that first christening.</p>
+    <p class="cap"><strong>So 1812 is a floor and the trees&rsquo; 1832 is not a fact.</strong> This is
+      the same test the whole register is now held to: <a href={u("/who/")}>being named in a later
+      record is not evidence of being alive for it</a>, and of 293 people here only twenty are known to
+      have died at all.</p>
+  </div>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr>
+        <th style="width:21rem">Record</th><th class="m" style="width:8rem">Date</th>
+        <th class="m" style="width:7rem">Alive?</th><th>Why</th>
+      </tr></thead>
+      <tbody>
+        {lastAlive.map((r) => {
+          const c = Object.values(r);
+          return (
+            <tr>
+              <th set:html={emph(c[0])} />
+              <td class="m">{c[1]}</td>
+              <td class="m" set:html={emph(c[2])} />
+              <td class="cap" set:html={emph(c[3])} />
+            </tr>
+          );
+        })}
       </tbody>
     </table>
   </div>
