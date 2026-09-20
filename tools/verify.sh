@@ -38,5 +38,6 @@ python3 tools/check-corrections.py
 python3 tools/last-alive.py
 python3 tools/check-onsite.py
 python3 tools/check-duplicates.py
+python3 tools/check-living-places.py
 python3 tools/drift.py
 echo "ALL GATES PASSED"
