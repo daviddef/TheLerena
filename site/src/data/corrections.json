@@ -766,5 +766,13 @@
   "what_is_true": "*** ALL THREE SURNAMES ARE WRONG, AND THE FAULT IS THIS ARCHIVE'S OWN RULE, UNKEPT. *** The 1892 marriage act was recorded as FULL-TEXT TRANSCRIPT READ - a MACHINE transcript - and the image was never opened, which is the one thing this archive says it always does. The image was opened on 21 September 2026: film 007713383, image 02601, folio 340. It reads *** 'hija legitima de Don GERONIMO GAVAZZO y Dona CAROLINA SUAREZ' ***. *** So she is a GAVAZZO and her mother a SUAREZ. *** It is corroborated by a second image forty-eight years later - her own Montevideo death registration of 20 June 1940, which writes her HERMENEGILDA GAVAZZO DE LERENA with the same two parents. Two images against one machine transcript. *** GAVAZZO is a known Montevideo surname and GAVARRO is not, which is exactly the kind of tell that should have prompted the check earlier. ***",
   "how_it_was_caught": "",
   "retired": ""
+ },
+ {
+  "date": "2026-09-21",
+  "severity": "minor",
+  "what_was_said": "*** That MARIA FERNANDEZ TRESGUERRAS, Sancho's wife, was born at *** \"Montevideo\" *** - the birthplace this register carried for her, and the place the atlas put her. ***",
+  "what_is_true": "*** SHE WAS NATURAL DE ASTURIAS, and this archive had known it for a week without changing the row. *** The 1811 baptism of her son Luis Escolastico reads 'y de D.a MARIA [Fernandez] nat.l de ASTURIAS'. data/1811-luis-baptism-act.tsv recorded that on 14 September 2026; the register was never updated, so the correction existed and never propagated - the exact fault this archive has a standing rule about. *** IT ALSO CHANGES THE FAMILY'S SHAPE: both halves of Sancho's household were SPANISH IMMIGRANTS, from opposite ends of Spain *** - Andalusia and Asturias - meeting at Montevideo. And her parents RODRIGO FERNANDEZ and ROSA FERNANDEZ, named on the same act, had never been entered as people either. Read off the plate 21 September 2026: film 007713375 image 02410.",
+  "how_it_was_caught": "",
+  "retired": ""
  }
 ]

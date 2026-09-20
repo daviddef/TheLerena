@@ -8,3 +8,37 @@ what the act settles	what it says	tier	what it replaces
 *** SANCHO IS "NATURAL DE ANDALUCIA" - ON AN ACT, NOT A CENSUS ***	*** "hijo legitimo de Don SANCHO LLERENA natural de ANDALUCIA" ***	PRIMARY	The Uruguayan census of 1726-1858 gave his birthplace as "ANDALUZIA" and that has been the only evidence for it. *** A second, independent, contemporaneous document now says the same word. *** *** CORDOBA specifically is STILL NOT ON ANY ACT *** - it comes from the trees, which cite Apolant ficha 355. Andalucia is documented twice; Cordoba remains a lead.
 *** AND MARIA FERNANDEZ IS "NATURAL DE ASTURIAS" ***	*** "y de Dona MARIA FERNANDEZ natural de ASTURIAS. ... idem maternos RODRIGO FERNANDEZ y ROSA FERNANDEZ" ***	PRIMARY	*** THIS CONFIRMS THE OPERATIVO PATAGONIA READING FROM A URUGUAYAN ACT. *** Yesterday her Asturian origin came from a tree quoting Apolant ficha 355, backed by the migration literature: 41 Asturian founder families, seven of them from MORCIN, who founded San Jose in 1783. *** An act now says ASTURIAS in her own lifetime. *** *** And it names her parents RODRIGO FERNANDEZ and ROSA FERNANDEZ *** - the same couple the trees give, the same couple FamilySearch's index reads as maternal grandparents at the 1812 Malbarea font, and the same Rodrigo Fernandez, 63, asturiano, whom the 1812 padron puts living in Sancho's household. *** Four independent supports, one of them now an act. ***
 *** AND IT IS LUIS'S OWN BAPTISM, WITH A DAY ON IT ***	*** "En diez de Febrero de mil ochocientos once ... bautice solemnemente a LUIS ESCOLASTICO que nacio ayer" *** - Iglesia Matriz de Montevideo, Presbitero Juan Loberas; padrinos Don Luis Jose Avila y Dona Juana Josefa Guispez.	PRIMARY	*** LUIS LERENA - the son through whom this whole archive descends - was BORN 9 FEBRUARY 1811 and baptised the next day. *** The trees gave "1811" and nothing more. *** His baptism act has never been in this archive until now. ***
+#
+# ================= THE PLATE, OPENED 21 SEPTEMBER 2026 - AND ONE WORD CHANGES =================
+#
+# Everything above was read by a MACHINE. The image is film *** 007713375, image 02410 ***, and it
+# was opened on 21 September 2026 because tools/transcript-only.py ranked it among the plates the
+# most people stand on. *** Four of the five readings survive word for word. The fifth does not. ***
+#
+# *** THE TRANSCRIPT SAID "Abuelos paternos FELIZ GERENA y ROS[A]LIA AGUILAR". ***
+# *** THE PAGE SAYS "Ab.s pat.s FELIX LLERENA y Ros[alia Aguilar]". ***
+#
+# This archive read FELIZ GERENA, inferred FELIX LERENA, and entered him under that name. The
+# inference was right about the man and wrong about the spelling: *** he is a LLERENA, with the
+# double L, in the same hand that writes his son SANCHO LLERENA two lines above. *** So the oldest
+# Spanish generation this archive can name spelled it the way the 1831 Cordon act spells it and
+# the way the 1858 act does not.
+#
+# *** CONFIRMED OFF THE PLATE, WORD FOR WORD: ***
+#   'Luis Escolastico. En diez de Feb.o de mil ocho cientos [once] ... JUAN LLOBERAS Ten.te Cura
+#    de esta Ig.a MATRIZ DE MONT[evideo], bautice solemnem.te a LUIS ESCOLASTICO QUE NACIO AYER,
+#    hijo leg.mo de D.n SANCHO LLERENA nat.l de ANDALUCIA y de D.a MARIA [Fernandez] nat.l de
+#    ASTURIAS. Ab.s pat.s FELIX LLERENA y Ros[alia Aguilar]; id. mat.s RODRIGO FERNANDEZ y ROSA
+#    FERNANDEZ.'
+#
+# *** AND TWO OF THOSE PEOPLE HAD NEVER BEEN ENTERED. *** RODRIGO FERNANDEZ and ROSA FERNANDEZ were
+# read on 14 September, written into this file, and left here. They became register rows on 21
+# September, seven days later. *** The same seven days applied to MARIA FERNANDEZ's birthplace, ***
+# which this file has said is ASTURIAS since the day it was written while her register row said
+# MONTEVIDEO and the atlas put a pin there. See data/corrections.tsv.
+#
+# *** WHY THAT MATTERS BEYOND TIDINESS: *** with Asturias on her row, BOTH HALVES OF SANCHO'S
+# HOUSEHOLD ARE SPANISH IMMIGRANTS, from opposite ends of Spain, meeting at Montevideo. The
+# register had been telling a different story - a Spanish soldier who married locally - and it was
+# telling it against this archive's own evidence.
+
