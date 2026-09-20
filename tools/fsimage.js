@@ -31,6 +31,28 @@
  *     not repainted when the screenshot is taken and you get the PREVIOUS
  *     view. Separate calls, every time.
  *
+ * A SIMPLER ROUTE THAT WORKED BETTER ON 21 SEPTEMBER 2026, and is worth trying
+ * FIRST because it needs none of this file:
+ *
+ *     1. ark -> manifest.json -> alternateId gives dgs:{film}.{film}_{image}.
+ *        NAVIGATE to the manifest URL and read the page text. Do NOT fetch() it:
+ *        an automated browser pane that is HIDDEN throttles timers, so every
+ *        `await fetch` hangs until the tool times out. Synchronous JS is fine.
+ *     2. Navigate to .../dist.jpg. The tab title reports its true size, e.g.
+ *        "dist.jpg (3958x2821)" - that IS full resolution, and one whole opening.
+ *     3. Chrome renders it fit-to-window. Take it off the leash:
+ *          img.style.cssText = 'width:3958px;height:2821px;max-width:none;max-height:none';
+ *          document.body.style.overflow = 'auto';
+ *          window.scrollTo(x, y);
+ *        Multiply both dimensions for 2x or 3x when a single word has to be read.
+ *     4. SCREENSHOT IN A SEPARATE CALL. Same trap as __view: batching the scroll
+ *        and the screenshot returns the PREVIOUS view, or solid black.
+ *
+ * dist.jpg and the tiles are BOTH 401 to curl - they need the browser session -
+ * so this cannot be done from the shell, and thumb_p200.jpg is the only public one.
+ * Seven acts were read this way in an afternoon, including a year that decided a
+ * man's birth, with no tile arithmetic at all.
+ *
  * AND ONE RULE THAT IS NOT ABOUT CODE: do not read names at fit-width. On one
  * day this cost four misreadings - a chaplain as "Mendoza" who is BERROETA, a
  * slave-owner as "Llerena" who is FRANCISCO JUAREZ, a mother as "Rosalia
