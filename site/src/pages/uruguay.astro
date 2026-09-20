@@ -71,6 +71,7 @@ import sweep from "../data/census-seven-spellings.json";
 import dom from "../data/dominga-carballo-1836.json";
 import carts from "../data/luis-llerena-carts.json";
 import maria from "../data/maria-llerena-casa-2.json";
+import filmmap from "../data/film-7499043-map.json";
 ---
 <Base title="Uruguay"
       eyebrow="Two Lerena families, two Spanish origins, and neither of them is his"
@@ -590,6 +591,35 @@ import maria from "../data/maria-llerena-casa-2.json";
       </tr></thead>
       <tbody>
         {maria.map((r) => { const c = Object.values(r); return (
+          <tr>
+            <th set:html={emph(c[0])} />
+            <td class="cap" set:html={emph(c[1])} />
+            <td class="cap" set:html={emph(c[2])} />
+          </tr>); })}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-film-map">The reel, mapped by brightness</h2>
+  <div class="prose">
+    <p>Everything above came off <strong>six images of a reel of three thousand two hundred</strong>.
+    The reel is the Archivo General de la Nación's <em>Padrones de Montevideo y Extramuros</em>, and
+    until today nobody here knew where one volume ended and the next began.</p>
+    <p>It is mapped now, and not by looking. Each thumbnail was drawn to a small canvas and its mean
+    brightness measured: <strong>filming target boards read 16&ndash;30, ordinary pages 140&ndash;156</strong>,
+    with nothing in between. <strong>Eighteen item boundaries, 1,604 thumbnails, three calls, no
+    session and no screenshots.</strong></p>
+  </div>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr>
+        <th style="width:15rem">What</th><th style="width:20rem">Detail</th>
+        <th>Why it is useful</th>
+      </tr></thead>
+      <tbody>
+        {filmmap.map((r) => { const c = Object.values(r); return (
           <tr>
             <th set:html={emph(c[0])} />
             <td class="cap" set:html={emph(c[1])} />

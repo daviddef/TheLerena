@@ -1391,10 +1391,18 @@
     {
       "n": 174,
       "what": "Map the rest of film 007499043 — a whole reel of Montevideo padrones nobody has opened",
+      "state": "done",
+      "owner": "this archive",
+      "since": "2026-09-20",
+      "note": "**3,208 images of AGN *Padrones de Montevideo y Extramuros*, and this archive has looked at five of them.** Four volúmenes are identified (1 = Libros 2 y 334; one ending in Libro 107; 15 = Libro 256); **the rest are unmapped**. Find the boundaries with **thumbnail contact sheets** — the target boards show as dark frames among faint pages, and two sheets found 02724/02725 after a page-by-page hunt found nothing. **Why it matters:** the padrones are enumerations of the living with ages and birthplaces, they run earlier than any Uruguayan work here, and this one reel has already produced **Sancho's household with four enslaved people named, two Lerena households with ages, and a Spanish-born Llerena woman heading her own house**. Map it and the sweep can be run against structure instead of against luck. *** MAPPED 20 September 2026, and not with contact sheets. *** Each thumbnail was drawn to a canvas and its **mean brightness** measured: **target boards read 16–30, ordinary pages 140–156**, nothing in between. Scanned at **stride 2** — sufficient, because a boundary is a *fin/start* pair of consecutive images so one is always odd. **Eighteen boundaries found at images 4, 91, 125–127, 315, 563–565, 787, 959, 1073, 1215, 1315, 1475–1477, 1573–1575, 1847, 1961–1963, 2027, 2155, 2425, 2724–2725** — 1,604 thumbnails, three calls, no session, no screenshots. **Three of the eighteen items are named; the rest are one image load each.** See /uruguay/."
+    },
+    {
+      "n": 175,
+      "what": "Name the other fifteen items on film 007499043 — one image load each",
       "state": "next",
       "owner": "this archive",
       "since": "2026-09-20",
-      "note": "**3,208 images of AGN *Padrones de Montevideo y Extramuros*, and this archive has looked at five of them.** Four volúmenes are identified (1 = Libros 2 y 334; one ending in Libro 107; 15 = Libro 256); **the rest are unmapped**. Find the boundaries with **thumbnail contact sheets** — the target boards show as dark frames among faint pages, and two sheets found 02724/02725 after a page-by-page hunt found nothing. **Why it matters:** the padrones are enumerations of the living with ages and birthplaces, they run earlier than any Uruguayan work here, and this one reel has already produced **Sancho's household with four enslaved people named, two Lerena households with ages, and a Spanish-born Llerena woman heading her own house**. Map it and the sweep can be run against structure instead of against luck."
+      "note": "The boundaries are mapped; **the volumes are not named**. Three of eighteen are known — **volumen 1 = Libros 2 y 334** (image 00004), **Libro 107** closing at 02724, **volumen 15 = Libro 256** at 02725. **Each remaining board carries its own *volumen* and *Libro* numbers and costs one `dist.jpg` load**: images 91, 125, 315, 563, 787, 959, 1073, 1215, 1315, 1475, 1573, 1847, 1961, 2027, 2155, 2425. Named, the reel becomes navigable by volume — **and the Libro numbers are what the AGN's own inventory indexes**, so they are also what dates each one."
     }
   ],
   "accounts": [
