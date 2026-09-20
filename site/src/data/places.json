@@ -58,6 +58,7 @@
    "jorge-fein",
    "carlos-alberto-fein",
    "maria-ines-larriera",
+   "maria-ines-lerena-larriera",
    "maria-adelina-lerena-traibel",
    "mercedes-micaela-lerena-traibel",
    "juan-arturo-lerena-traibel",
@@ -122,7 +123,7 @@
    "alejandro-joaquin-narciso-lerena-villardemoros",
    "emilia-antelo"
   ],
-  "count": 118
+  "count": 119
  },
  {
   "slug": "buenos-aires-arrivals",
@@ -257,6 +258,21 @@
    "don-luis-lerena-probably-luis-lerena-y-fernandez"
   ],
   "count": 15
+ },
+ {
+  "slug": "san-jose-de-mayo",
+  "name": "San Jose de Mayo",
+  "people": [
+   "maria-adelina-lerena-larriera",
+   "alberto-julian-lerena-larriera",
+   "carlos-ambrosio-florencio-lerena-larriera",
+   "maria-consuelo-lerena-larriera",
+   "maria-antonieta-lerena-larriera",
+   "angel-miguel-avelino-lerena-larriera",
+   "mauricio-lerena",
+   "dona-casimira-montano"
+  ],
+  "count": 8
  },
  {
   "slug": "gualeguaychu-entre-rios",
@@ -448,15 +464,6 @@
   "people": [
    "felix-lerena",
    "rosalia-aguilar"
-  ],
-  "count": 2
- },
- {
-  "slug": "san-jose-de-mayo",
-  "name": "San Jose de Mayo",
-  "people": [
-   "mauricio-lerena",
-   "dona-casimira-montano"
   ],
   "count": 2
  },

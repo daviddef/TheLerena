@@ -73,6 +73,7 @@ import dom from "../data/dominga-carballo-1836.json";
 import carts from "../data/luis-llerena-carts.json";
 import maria from "../data/maria-llerena-casa-2.json";
 import filmmap from "../data/film-7499043-map.json";
+import sanjose from "../data/alberto-lerena-larriera.json";
 ---
 <Base title="Uruguay"
       eyebrow="Two Lerena families, two Spanish origins, and neither of them is his"
@@ -452,6 +453,70 @@ import filmmap from "../data/film-7499043-map.json";
       the grandparents</em> &mdash; not that either has been read off the page. And the reason the fork
       existed at all is worth keeping: <strong>three Avelinos in three generations</strong>, which is
       how a grandson gets mistaken for a second marriage.</p>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-san-jose">San Jos&eacute; &mdash; a woman this archive wrote off, and her seven brothers and sisters</h2>
+  <div class="prose">
+    <p>On <strong>14 September</strong> this archive tested <strong>Zelmira Carlota Lerena
+      Larriera</strong>, born in the Departamento de San Jos&eacute; on <strong>4 November 1880</strong>,
+      and concluded: <em>&ldquo;Tested and placed &mdash; and she is <strong>not</strong> ours.&rdquo;</em></p>
+    <p>The same note did something better than its own verdict. It named the one thing that would
+      overturn it &mdash; <strong>who her father Alberto Lerena was</strong> &mdash; offered
+      <strong>Alberto Octavio Lerena Lenguas</strong> as a candidate, and then refused to draw the line:
+      <em>&ldquo;Nothing joins them but a forename and an age, which is precisely the evidence that
+      produced the two Arturos.&rdquo;</em></p>
+    <p><span class="chip doc">Documented</span> <strong>She is ours, and the candidate was the wrong
+      man.</strong> Alberto Lerena&rsquo;s own Montevideo death registration of <strong>2 March 1921</strong>,
+      certificate 246, names his wife <strong>Mar&iacute;a In&eacute;s Larriera</strong> and his parents
+      <strong>Avelino Lerena and Ambrosia Treibel</strong>. So her father is <strong>Pedro Alberto
+      Ysabelino Lerena Traibel</strong>, baptised at the Aguada on 21 November 1852 &mdash; and Zelmira is
+      a <strong>great-granddaughter of Sancho</strong>, by the other grandfather.</p>
+    <p><strong>And she is one of eight.</strong> Asking for Alberto and Mar&iacute;a In&eacute;s as a
+      <em>pair</em> returns sixteen Uruguayan records and a whole household, born in the Departamento de
+      San Jos&eacute; between 1879 and 1898.</p>
+  </div>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr>
+        <th style="width:20rem">Child</th><th class="m" style="width:8rem">Born</th>
+        <th style="width:12rem">Where</th><th>Record</th><th class="m" style="width:7rem">Tier</th>
+      </tr></thead>
+      <tbody>
+        {sanjose.map((r) => {
+          const c = Object.values(r);
+          return (
+            <tr>
+              <th set:html={emph(c[0])} />
+              <td class="m" set:html={emph(c[1])} />
+              <td class="cap">{c[2]}</td>
+              <td class="cap" set:html={emph(c[3])} />
+              <td class="m">{c[4]}</td>
+            </tr>
+          );
+        })}
+      </tbody>
+    </table>
+  </div>
+  <div class="prose" style="margin-top:14px">
+    <p><span class="chip inf">Inferred</span> <strong>Three of the eight carry names out of the
+      household at the Aguada</strong> &mdash; <strong>Mar&iacute;a Adelina</strong> for his sister,
+      <strong>Carlos Ambrosio</strong> for his brother, and <strong>&Aacute;ngel Miguel Avelino</strong>
+      for his father. That is corroboration and it is not evidence. These are common names, and this
+      archive has been burned by exactly this reasoning before. <strong>The death registration is the
+      evidence; the names are why one believes it.</strong></p>
+    <p class="cap"><strong>The weak link, named.</strong> That 1921 registration has been read at
+      <em>index level only</em> &mdash; the image has not been opened, and it is now an errand.
+      Everything above rests on one record that happens to name both the wife and both parents in the
+      same entry, which is what makes it strong and exactly why it should be seen.</p>
+    <p class="cap"><strong>What it moves, beyond one woman&rsquo;s parents.</strong> This register has
+      carried a San Jos&eacute; de Mayo cluster since its first fortnight &mdash; Echeverry, an Alejandro
+      Lerena, a B&aacute;rbara Lerena, and the Mauricio Lerena who married Casimira Monta&ntilde;o there
+      in 1837 &mdash; all unattached, in a department the Montevideo trunk never reached. <strong>This is
+      the first documented Lerena of that trunk living in San Jos&eacute;</strong>, from 1879 to 1898. It
+      joins nothing. It puts a known man in the room where that cluster lives, which is a smaller thing
+      and a reason to look again.</p>
   </div>
 </section>
 

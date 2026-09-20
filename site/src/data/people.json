@@ -6697,7 +6697,7 @@
   "source": "S. Agustin, pueblo de la Restauracion, Montevideo, baptism act No. 585, 7 Oct 1850 - IMAGE READ; ark 3:1:3Q9M-C9BW-ZSZQ-J",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "*** IMAGE READ 13 September 2026, and his name is ALBERTO OCTAVIO - not \"Alberto Otario\", which is how FamilySearch indexed it. *** Born 22 March 1850, baptised 7 October 1850. \"Hijo legitimo de D. Luis Lerena y Dona Justiniana Lenguas, NATURALES DE MONTEVIDEO. Paternos: D. Sancho y Dona Maria Fernandez. Maternos: D. Pedro y Dona Carmen Gonzalez.\" Godparents D. Felipe Lenguas and Dona Dominga Carvallo. *** His act is the one that puts SANCHO on a document. ***",
+  "note": "*** IMAGE READ 13 September 2026, and his name is ALBERTO OCTAVIO - not \"Alberto Otario\", which is how FamilySearch indexed it. *** Born 22 March 1850, baptised 7 October 1850. \"Hijo legitimo de D. Luis Lerena y Dona Justiniana Lenguas, NATURALES DE MONTEVIDEO. Paternos: D. Sancho y Dona Maria Fernandez. Maternos: D. Pedro y Dona Carmen Gonzalez.\" Godparents D. Felipe Lenguas and Dona Dominga Carvallo. *** His act is the one that puts SANCHO on a document. ***  *** HE IS NOT ZELMIRA'S FATHER, and this archive floated him as a candidate for six days. *** From 14 September the Zelmira Carlota row offered him as the Alberto Lerena who fathered a daughter in San Jose in 1880 - on a forename and an age, which that row itself called 'precisely the evidence that produced the two Arturos'. *** WITHDRAWN 21 September 2026 on a document: *** that Alberto's death registration names his parents as Avelino Lerena and Ambrosia Traibel, not Luis and Justiniana. He is Alberto Octavio's FIRST COUSIN. Nothing is known here of Alberto Octavio after his baptism of 7 October 1850.",
   "place": "Montevideo",
   "placeSlug": "montevideo",
   "surname": "LERENA",
@@ -9349,7 +9349,7 @@
   "source": "Named as the wife in the Montevideo death registration of Alberto Lerena, 2 March 1921 - index read; ark 1:1:6LD5-X4PR",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "Wife of Alberto Lerena (Pedro Alberto Ysabelino, 1852-1921), named at his death. Nothing else in this archive names her.",
+  "note": "Wife of Alberto Lerena (Pedro Alberto Ysabelino, 1852-1921), named at his death. Nothing else in this archive names her.  *** 'NOTHING ELSE IN THIS ARCHIVE NAMES HER' LASTED THREE HOURS. *** Eight children born in the Departamento de San Jose between 1879 and 1898 name her as their mother, and one of them - ZELMIRA CARLOTA - has been in this register since 14 September with her name on it, unrecognised. A *** VICTORIA CROSADE LARRIERA *** stood godmother at her son Carlos Ambrosio Florencio's baptism in 1889, presumably a sister.",
   "place": "Montevideo",
   "placeSlug": "montevideo",
   "surname": "LARRIERA",
@@ -9360,12 +9360,671 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Alberto Julian LERENA LARRIERA",
+    "dates": "",
+    "slug": "alberto-julian-lerena-larriera",
+    "via": "register",
+    "note": "Named as their parents on the Uruguayan civil registration of this child's birth in the Departamento de San Jose; index-level."
+   },
+   {
+    "name": "Angel Miguel Avelino LERENA LARRIERA",
+    "dates": "",
+    "slug": "angel-miguel-avelino-lerena-larriera",
+    "via": "register",
+    "note": "Named as their parents on the Uruguayan civil registration of this child's birth in the Departamento de San Jose; index-level."
+   },
+   {
+    "name": "Carlos Ambrosio Florencio LERENA LARRIERA",
+    "dates": "",
+    "slug": "carlos-ambrosio-florencio-lerena-larriera",
+    "via": "register",
+    "note": "Named as their parents on the Uruguayan civil registration of this child's birth in the Departamento de San Jose; index-level."
+   },
+   {
+    "name": "Maria Adelina LERENA LARRIERA",
+    "dates": "",
+    "slug": "maria-adelina-lerena-larriera",
+    "via": "register",
+    "note": "Named as their parents on the Uruguayan civil registration of this child's birth in the Departamento de San Jose; index-level."
+   },
+   {
+    "name": "Maria Antonieta LERENA LARRIERA",
+    "dates": "",
+    "slug": "maria-antonieta-lerena-larriera",
+    "via": "register",
+    "note": "Named as their parents on the Uruguayan civil registration of this child's birth in the Departamento de San Jose; index-level."
+   },
+   {
+    "name": "Maria Consuelo LERENA LARRIERA",
+    "dates": "",
+    "slug": "maria-consuelo-lerena-larriera",
+    "via": "register",
+    "note": "Named as their parents on the Uruguayan civil registration of this child's birth in the Departamento de San Jose; index-level."
+   },
+   {
+    "name": "Maria Ines LERENA LARRIERA (de GARDONE)",
+    "dates": "",
+    "slug": "maria-ines-lerena-larriera",
+    "via": "register",
+    "note": "Named as their parents on the Uruguayan civil registration of this child's birth in the Departamento de San Jose; index-level."
+   },
+   {
+    "name": "Zelmira Carlota LERENA LARRIERA (m. Adolfo CORDERO)",
+    "dates": "",
+    "slug": "zelmira-carlota-lerena-larriera",
+    "via": "register",
+    "note": "Named as their parents on the Uruguayan civil registration of this child's birth in the Departamento de San Jose; index-level."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 8,
+  "relRegister": 8,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "maria-adelina-lerena-larriera",
+  "name": "Maria Adelina LERENA LARRIERA",
+  "born": "1879-07-06",
+  "birthplace": "Departamento San Jose, Uruguay",
+  "nationality": "Uruguayan",
+  "occupation": "-",
+  "where": "San Jose de Mayo",
+  "source": "Uruguay, Civil Registration 1879-2020, Departamento San Jose - index read 21 September 2026; ark 1:1:VR41-7VM; and her christening of 13 Oct 1879, ark 1:1:6D3Z-QYK9",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "Eldest known child of Alberto Lerena and Maria Ines Larriera, born in the Departamento de San Jose on 6 July 1879 and christened that October. *** SHE IS NAMED FOR HER AUNT MARIA ADELINA LERENA TRAIBEL ***, born at Montevideo in August 1865 - fourteen years older, and alive when this child was named. A great-granddaughter of Sancho. *** INDEX-LEVEL. ***",
+  "place": "San Jose de Mayo",
+  "placeSlug": "san-jose-de-mayo",
+  "surname": "LERENA",
+  "ark": "1:1:VR41-7VM",
+  "sourceUrl": "https://www.familysearch.org/ark:/61903/1:1:VR41-7VM",
+  "noLink": "",
+  "gen": null,
+  "father": {
+   "name": "Pedro Alberto Ysabelino LERENA Traibel (the ALBERTO of 1852-1921)",
+   "dates": "1852–1921",
+   "slug": "pedro-alberto-ysabelino-lerena-traibel",
+   "via": "register",
+   "note": "Named as their parents on the Uruguayan civil registration of this child's birth in the Departamento de San Jose; index-level."
+  },
+  "mother": {
+   "name": "Maria Ines LARRIERA",
+   "dates": "",
+   "slug": "maria-ines-larriera",
+   "via": "register",
+   "note": "Named as their parents on the Uruguayan civil registration of this child's birth in the Departamento de San Jose; index-level."
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Alberto Julian LERENA LARRIERA",
+    "dates": "",
+    "slug": "alberto-julian-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Angel Miguel Avelino LERENA LARRIERA",
+    "dates": "",
+    "slug": "angel-miguel-avelino-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Carlos Ambrosio Florencio LERENA LARRIERA",
+    "dates": "",
+    "slug": "carlos-ambrosio-florencio-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Maria Antonieta LERENA LARRIERA",
+    "dates": "",
+    "slug": "maria-antonieta-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Maria Consuelo LERENA LARRIERA",
+    "dates": "",
+    "slug": "maria-consuelo-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Maria Ines LERENA LARRIERA (de GARDONE)",
+    "dates": "",
+    "slug": "maria-ines-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Zelmira Carlota LERENA LARRIERA (m. Adolfo CORDERO)",
+    "dates": "",
+    "slug": "zelmira-carlota-lerena-larriera",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "alberto-julian-lerena-larriera",
+  "name": "Alberto Julian LERENA LARRIERA",
+  "born": "1883-08-17",
+  "birthplace": "Departamento San Jose, Uruguay",
+  "nationality": "Uruguayan",
+  "occupation": "-",
+  "where": "San Jose de Mayo",
+  "source": "Uruguay, Civil Registration 1879-2020, Departamento San Jose - index read 21 September 2026, certificate 157, page 73, microfilm 1935375; ark 1:1:VR41-4D5",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "Son of Alberto Lerena and Maria Ines Larriera, born in the Departamento de San Jose on 17 August 1883 and named for his father. *** His is the one record of the eight whose detail was read out in full *** - certificate 157, page 73 - and it names both parents and no grandparents. *** INDEX-LEVEL. ***",
+  "place": "San Jose de Mayo",
+  "placeSlug": "san-jose-de-mayo",
+  "surname": "LERENA",
+  "ark": "1:1:VR41-4D5",
+  "sourceUrl": "https://www.familysearch.org/ark:/61903/1:1:VR41-4D5",
+  "noLink": "",
+  "gen": null,
+  "father": {
+   "name": "Pedro Alberto Ysabelino LERENA Traibel (the ALBERTO of 1852-1921)",
+   "dates": "1852–1921",
+   "slug": "pedro-alberto-ysabelino-lerena-traibel",
+   "via": "register",
+   "note": "Named as their parents on the Uruguayan civil registration of this child's birth in the Departamento de San Jose; index-level."
+  },
+  "mother": {
+   "name": "Maria Ines LARRIERA",
+   "dates": "",
+   "slug": "maria-ines-larriera",
+   "via": "register",
+   "note": "Named as their parents on the Uruguayan civil registration of this child's birth in the Departamento de San Jose; index-level."
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Angel Miguel Avelino LERENA LARRIERA",
+    "dates": "",
+    "slug": "angel-miguel-avelino-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Carlos Ambrosio Florencio LERENA LARRIERA",
+    "dates": "",
+    "slug": "carlos-ambrosio-florencio-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Maria Adelina LERENA LARRIERA",
+    "dates": "",
+    "slug": "maria-adelina-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Maria Antonieta LERENA LARRIERA",
+    "dates": "",
+    "slug": "maria-antonieta-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Maria Consuelo LERENA LARRIERA",
+    "dates": "",
+    "slug": "maria-consuelo-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Maria Ines LERENA LARRIERA (de GARDONE)",
+    "dates": "",
+    "slug": "maria-ines-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Zelmira Carlota LERENA LARRIERA (m. Adolfo CORDERO)",
+    "dates": "",
+    "slug": "zelmira-carlota-lerena-larriera",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "carlos-ambrosio-florencio-lerena-larriera",
+  "name": "Carlos Ambrosio Florencio LERENA LARRIERA",
+  "born": "-",
+  "birthplace": "San Jose, Uruguay",
+  "nationality": "Uruguayan",
+  "occupation": "-",
+  "where": "San Jose de Mayo",
+  "source": "Uruguay, registros parroquiales 1726-2000 - christening, San Jose, 22 June 1889; index read 21 September 2026; ark 1:1:6QQP-842M",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "Son of Alberto Lerena and Maria Ines Larriera, christened at San Jose on 22 June 1889. Godparents FRANCISCO SOLANA GRANERA and VICTORIA CROSADE LARRIERA, presumably his mother's sister. *** HE IS NAMED FOR CARLOS AMBROSIO LERENA TRAIBEL ***, his father's brother on the family chart - the AMBROSIO LERENA who stood godfather to his aunt Maria Adelina at the Cordon in December 1865. *** THE INDEX GIVES HIS BIRTH AS 23 FEBRUARY 1726, which is the first year of the collection and not a date. *** INDEX-LEVEL.",
+  "place": "San Jose de Mayo",
+  "placeSlug": "san-jose-de-mayo",
+  "surname": "LERENA",
+  "ark": "1:1:6QQP-842M",
+  "sourceUrl": "https://www.familysearch.org/ark:/61903/1:1:6QQP-842M",
+  "noLink": "",
+  "gen": null,
+  "father": {
+   "name": "Pedro Alberto Ysabelino LERENA Traibel (the ALBERTO of 1852-1921)",
+   "dates": "1852–1921",
+   "slug": "pedro-alberto-ysabelino-lerena-traibel",
+   "via": "register",
+   "note": "Named as their parents on the Uruguayan civil registration of this child's birth in the Departamento de San Jose; index-level."
+  },
+  "mother": {
+   "name": "Maria Ines LARRIERA",
+   "dates": "",
+   "slug": "maria-ines-larriera",
+   "via": "register",
+   "note": "Named as their parents on the Uruguayan civil registration of this child's birth in the Departamento de San Jose; index-level."
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Alberto Julian LERENA LARRIERA",
+    "dates": "",
+    "slug": "alberto-julian-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Angel Miguel Avelino LERENA LARRIERA",
+    "dates": "",
+    "slug": "angel-miguel-avelino-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Maria Adelina LERENA LARRIERA",
+    "dates": "",
+    "slug": "maria-adelina-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Maria Antonieta LERENA LARRIERA",
+    "dates": "",
+    "slug": "maria-antonieta-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Maria Consuelo LERENA LARRIERA",
+    "dates": "",
+    "slug": "maria-consuelo-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Maria Ines LERENA LARRIERA (de GARDONE)",
+    "dates": "",
+    "slug": "maria-ines-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Zelmira Carlota LERENA LARRIERA (m. Adolfo CORDERO)",
+    "dates": "",
+    "slug": "zelmira-carlota-lerena-larriera",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "maria-consuelo-lerena-larriera",
+  "name": "Maria Consuelo LERENA LARRIERA",
+  "born": "1892-12-30",
+  "birthplace": "Departamento San Jose, Uruguay",
+  "nationality": "Uruguayan",
+  "occupation": "-",
+  "where": "San Jose de Mayo",
+  "source": "Uruguay, Civil Registration 1879-2020, Departamento San Jose - index read 21 September 2026; ark 1:1:VR41-6XL; and her christening of 29 Jan 1894, ark 1:1:6Q7D-PFW2",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "Daughter of Alberto Lerena and Maria Ines Larriera, born 30 December 1892 and christened thirteen months later. *** INDEX-LEVEL. ***",
+  "place": "San Jose de Mayo",
+  "placeSlug": "san-jose-de-mayo",
+  "surname": "LERENA",
+  "ark": "1:1:VR41-6XL",
+  "sourceUrl": "https://www.familysearch.org/ark:/61903/1:1:VR41-6XL",
+  "noLink": "",
+  "gen": null,
+  "father": {
+   "name": "Pedro Alberto Ysabelino LERENA Traibel (the ALBERTO of 1852-1921)",
+   "dates": "1852–1921",
+   "slug": "pedro-alberto-ysabelino-lerena-traibel",
+   "via": "register",
+   "note": "Named as their parents on the Uruguayan civil registration of this child's birth in the Departamento de San Jose; index-level."
+  },
+  "mother": {
+   "name": "Maria Ines LARRIERA",
+   "dates": "",
+   "slug": "maria-ines-larriera",
+   "via": "register",
+   "note": "Named as their parents on the Uruguayan civil registration of this child's birth in the Departamento de San Jose; index-level."
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Alberto Julian LERENA LARRIERA",
+    "dates": "",
+    "slug": "alberto-julian-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Angel Miguel Avelino LERENA LARRIERA",
+    "dates": "",
+    "slug": "angel-miguel-avelino-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Carlos Ambrosio Florencio LERENA LARRIERA",
+    "dates": "",
+    "slug": "carlos-ambrosio-florencio-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Maria Adelina LERENA LARRIERA",
+    "dates": "",
+    "slug": "maria-adelina-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Maria Antonieta LERENA LARRIERA",
+    "dates": "",
+    "slug": "maria-antonieta-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Maria Ines LERENA LARRIERA (de GARDONE)",
+    "dates": "",
+    "slug": "maria-ines-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Zelmira Carlota LERENA LARRIERA (m. Adolfo CORDERO)",
+    "dates": "",
+    "slug": "zelmira-carlota-lerena-larriera",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "maria-antonieta-lerena-larriera",
+  "name": "Maria Antonieta LERENA LARRIERA",
+  "born": "1894-06-08",
+  "birthplace": "Departamento San Jose, Uruguay",
+  "nationality": "Uruguayan",
+  "occupation": "-",
+  "where": "San Jose de Mayo",
+  "source": "Uruguay, Civil Registration 1879-2020, Departamento San Jose - index read 21 September 2026; ark 1:1:VR41-KW2; christening 28 Apr 1895, ark 1:1:6D34-WMKG; marriage registration 26 Dec 1925, ark 1:1:6KX7-TXLT",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "Daughter of Alberto Lerena and Maria Ines Larriera, born 8 June 1894. *** She married on 26 December 1925 and the registration is indexed under the compound MARIA ANTONIETA LERENA LARRIERA ***, which is how the Uruguayan registry writes a woman with both parents' surnames - the same compound form that this archive tests the central question against. *** INDEX-LEVEL. ***",
+  "place": "San Jose de Mayo",
+  "placeSlug": "san-jose-de-mayo",
+  "surname": "LERENA",
+  "ark": "1:1:VR41-KW2",
+  "sourceUrl": "https://www.familysearch.org/ark:/61903/1:1:VR41-KW2",
+  "noLink": "",
+  "gen": null,
+  "father": {
+   "name": "Pedro Alberto Ysabelino LERENA Traibel (the ALBERTO of 1852-1921)",
+   "dates": "1852–1921",
+   "slug": "pedro-alberto-ysabelino-lerena-traibel",
+   "via": "register",
+   "note": "Named as their parents on the Uruguayan civil registration of this child's birth in the Departamento de San Jose; index-level."
+  },
+  "mother": {
+   "name": "Maria Ines LARRIERA",
+   "dates": "",
+   "slug": "maria-ines-larriera",
+   "via": "register",
+   "note": "Named as their parents on the Uruguayan civil registration of this child's birth in the Departamento de San Jose; index-level."
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Alberto Julian LERENA LARRIERA",
+    "dates": "",
+    "slug": "alberto-julian-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Angel Miguel Avelino LERENA LARRIERA",
+    "dates": "",
+    "slug": "angel-miguel-avelino-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Carlos Ambrosio Florencio LERENA LARRIERA",
+    "dates": "",
+    "slug": "carlos-ambrosio-florencio-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Maria Adelina LERENA LARRIERA",
+    "dates": "",
+    "slug": "maria-adelina-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Maria Consuelo LERENA LARRIERA",
+    "dates": "",
+    "slug": "maria-consuelo-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Maria Ines LERENA LARRIERA (de GARDONE)",
+    "dates": "",
+    "slug": "maria-ines-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Zelmira Carlota LERENA LARRIERA (m. Adolfo CORDERO)",
+    "dates": "",
+    "slug": "zelmira-carlota-lerena-larriera",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "angel-miguel-avelino-lerena-larriera",
+  "name": "Angel Miguel Avelino LERENA LARRIERA",
+  "born": "1898-08-15",
+  "birthplace": "Departamento San Jose, Uruguay",
+  "nationality": "Uruguayan",
+  "occupation": "-",
+  "where": "San Jose de Mayo",
+  "source": "Uruguay, Civil Registration 1879-2020, Departamento San Jose - index read 21 September 2026; ark 1:1:VR41-RW6; and his christening of 16 June 1899, ark 1:1:6D34-WHXT",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "Youngest known child of Alberto Lerena and Maria Ines Larriera, born 15 August 1898. *** THE AVELINO IS HIS GREAT-GRANDFATHER'S NAME *** - Avelino Lerena Fernandez, dead eight years when this child was born, and the man whose parentage attaches this whole branch to Sancho. *** INDEX-LEVEL. ***",
+  "place": "San Jose de Mayo",
+  "placeSlug": "san-jose-de-mayo",
+  "surname": "LERENA",
+  "ark": "1:1:VR41-RW6",
+  "sourceUrl": "https://www.familysearch.org/ark:/61903/1:1:VR41-RW6",
+  "noLink": "",
+  "gen": null,
+  "father": {
+   "name": "Pedro Alberto Ysabelino LERENA Traibel (the ALBERTO of 1852-1921)",
+   "dates": "1852–1921",
+   "slug": "pedro-alberto-ysabelino-lerena-traibel",
+   "via": "register",
+   "note": "Named as their parents on the Uruguayan civil registration of this child's birth in the Departamento de San Jose; index-level."
+  },
+  "mother": {
+   "name": "Maria Ines LARRIERA",
+   "dates": "",
+   "slug": "maria-ines-larriera",
+   "via": "register",
+   "note": "Named as their parents on the Uruguayan civil registration of this child's birth in the Departamento de San Jose; index-level."
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Alberto Julian LERENA LARRIERA",
+    "dates": "",
+    "slug": "alberto-julian-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Carlos Ambrosio Florencio LERENA LARRIERA",
+    "dates": "",
+    "slug": "carlos-ambrosio-florencio-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Maria Adelina LERENA LARRIERA",
+    "dates": "",
+    "slug": "maria-adelina-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Maria Antonieta LERENA LARRIERA",
+    "dates": "",
+    "slug": "maria-antonieta-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Maria Consuelo LERENA LARRIERA",
+    "dates": "",
+    "slug": "maria-consuelo-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Maria Ines LERENA LARRIERA (de GARDONE)",
+    "dates": "",
+    "slug": "maria-ines-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Zelmira Carlota LERENA LARRIERA (m. Adolfo CORDERO)",
+    "dates": "",
+    "slug": "zelmira-carlota-lerena-larriera",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "maria-ines-lerena-larriera",
+  "name": "Maria Ines LERENA LARRIERA (de GARDONE)",
+  "born": "-",
+  "birthplace": "Departamento San Jose, Uruguay",
+  "nationality": "Uruguayan",
+  "occupation": "-",
+  "where": "Montevideo",
+  "source": "Montevideo civil death registration, 22 January 1922 - index read 21 September 2026; ark 1:1:6TDD-K6GS",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "Daughter of Alberto Lerena and Maria Ines Larriera, named for her mother, and married to a GARDONE. She died at Montevideo on 22 January 1922, *** less than eleven months after her father ***. Nothing here gives her age, so it is not known whether she outlived him by months as a young woman or as a middle-aged one. *** INDEX-LEVEL. ***",
+  "place": "Montevideo",
+  "placeSlug": "montevideo",
+  "surname": "LERENA",
+  "ark": "1:1:6TDD-K6GS",
+  "sourceUrl": "https://www.familysearch.org/ark:/61903/1:1:6TDD-K6GS",
+  "noLink": "",
+  "gen": null,
+  "father": {
+   "name": "Pedro Alberto Ysabelino LERENA Traibel (the ALBERTO of 1852-1921)",
+   "dates": "1852–1921",
+   "slug": "pedro-alberto-ysabelino-lerena-traibel",
+   "via": "register",
+   "note": "Named as their parents on the Uruguayan civil registration of this child's birth in the Departamento de San Jose; index-level."
+  },
+  "mother": {
+   "name": "Maria Ines LARRIERA",
+   "dates": "",
+   "slug": "maria-ines-larriera",
+   "via": "register",
+   "note": "Named as their parents on the Uruguayan civil registration of this child's birth in the Departamento de San Jose; index-level."
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Alberto Julian LERENA LARRIERA",
+    "dates": "",
+    "slug": "alberto-julian-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Angel Miguel Avelino LERENA LARRIERA",
+    "dates": "",
+    "slug": "angel-miguel-avelino-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Carlos Ambrosio Florencio LERENA LARRIERA",
+    "dates": "",
+    "slug": "carlos-ambrosio-florencio-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Maria Adelina LERENA LARRIERA",
+    "dates": "",
+    "slug": "maria-adelina-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Maria Antonieta LERENA LARRIERA",
+    "dates": "",
+    "slug": "maria-antonieta-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Maria Consuelo LERENA LARRIERA",
+    "dates": "",
+    "slug": "maria-consuelo-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Zelmira Carlota LERENA LARRIERA (m. Adolfo CORDERO)",
+    "dates": "",
+    "slug": "zelmira-carlota-lerena-larriera",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -9690,7 +10349,7 @@
   "source": "Vice Parroquia de Nuestra Senora del Carmen, la Aguada, Montevideo - baptism of 21 Nov 1852, libro 1o de Bautismos folio 135, read in the CERTIFIED COPY issued in 1896 - IMAGE READ at full resolution 21 Sep 2026; film 008166435 image 02850, image ark 3:1:3Q9M-CS2C-2SSK-G; index ark 1:1:6DXB-SSGW; and Montevideo civil death registration No. 246, 1 March 1921 - index read, ark 1:1:6LD5-X4PR",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "*** A SON OF AVELINO LERENA AND AMBROSIA TRAIBEL THIS ARCHIVE HAD SEEN AND NEVER DATED, 21 September 2026. *** The 14 September working log already listed 'Pedro Alberto Isabelino' among the Lerena Traibel, off the index, and left him there. *** THE INDEX SAYS HE WAS BORN IN 1896, WHICH IS SIX YEARS AFTER HIS FATHER DIED. *** The act itself says otherwise: 'El veinte y uno de Noviembre de 1852 ... bautice solemnemente a PEDRO ALBERTO YSABELINO, que nacio el diez y seis de Marzo del mismo ano, a las once y media del dia, hijo legitimo de AVELINO LERENA y de AMBROSIA TRAIBEL'. *** He was born 16 MARCH 1852 and baptised at eight months. *** What the index dated 1896 is the CERTIFIED COPY, issued that year from libro 1o de Bautismos folio 135. *** HIS GODFATHER WAS HIS UNCLE: PEDRO ANT.o LERENA, with VICENTA VEGA *** - and the boy is named for him, as YSABELINO is for his grandmother Ysabel Centeno. Grandparents on the act: Sancho Lerena and Maria Fernandez, Juan Traibel and Ysabel Centeno. *** AND HE IS THE ALBERTO LERENA OF THE 1921 DEATH REGISTRATION *** - Montevideo, died 1 March 1921, certificate 246, father Avelino Lerena, mother Ambrosia Treibel, wife MARIA INES LARRIERA. That registration gives his age as 69 against a birth of 16 March 1852, which makes him 68 by three weeks; an age at death is the weakest field on any certificate and the identification does not rest on it. *** THE IDENTIFICATION IS AN INFERENCE, NOT AN ACT: *** no record read here writes 'Pedro Alberto Ysabelino' and 'Alberto' on the same page. What joins them is the parents, the year and the name. See data/1852-aguada-union-certificates.tsv.",
+  "note": "*** A SON OF AVELINO LERENA AND AMBROSIA TRAIBEL THIS ARCHIVE HAD SEEN AND NEVER DATED, 21 September 2026. *** The 14 September working log already listed 'Pedro Alberto Isabelino' among the Lerena Traibel, off the index, and left him there. *** THE INDEX SAYS HE WAS BORN IN 1896, WHICH IS SIX YEARS AFTER HIS FATHER DIED. *** The act itself says otherwise: 'El veinte y uno de Noviembre de 1852 ... bautice solemnemente a PEDRO ALBERTO YSABELINO, que nacio el diez y seis de Marzo del mismo ano, a las once y media del dia, hijo legitimo de AVELINO LERENA y de AMBROSIA TRAIBEL'. *** He was born 16 MARCH 1852 and baptised at eight months. *** What the index dated 1896 is the CERTIFIED COPY, issued that year from libro 1o de Bautismos folio 135. *** HIS GODFATHER WAS HIS UNCLE: PEDRO ANT.o LERENA, with VICENTA VEGA *** - and the boy is named for him, as YSABELINO is for his grandmother Ysabel Centeno. Grandparents on the act: Sancho Lerena and Maria Fernandez, Juan Traibel and Ysabel Centeno. *** AND HE IS THE ALBERTO LERENA OF THE 1921 DEATH REGISTRATION *** - Montevideo, died 1 March 1921, certificate 246, father Avelino Lerena, mother Ambrosia Treibel, wife MARIA INES LARRIERA. That registration gives his age as 69 against a birth of 16 March 1852, which makes him 68 by three weeks; an age at death is the weakest field on any certificate and the identification does not rest on it. *** THE IDENTIFICATION IS AN INFERENCE, NOT AN ACT: *** no record read here writes 'Pedro Alberto Ysabelino' and 'Alberto' on the same page. What joins them is the parents, the year and the name. See data/1852-aguada-union-certificates.tsv.  *** AND HE HAD EIGHT CHILDREN, IN A DEPARTMENT THIS BRANCH WAS NEVER KNOWN TO REACH - found 21 September 2026 by asking for him and his wife as a PAIR. *** Alberto Lerena with Maria Ines Larriera returns sixteen Uruguayan records, and they are eight children born in the *** DEPARTAMENTO DE SAN JOSE *** between 1879 and 1898: MARIA ADELINA (1879), ZELMIRA CARLOTA (1880), ALBERTO JULIAN (1883), CARLOS AMBROSIO FLORENCIO (bapt. 1889), MARIA CONSUELO (1892), MARIA ANTONIETA (1894), ANGEL MIGUEL AVELINO (1898) and MARIA INES, who died at Montevideo in 1922. *** ZELMIRA WAS ALREADY IN THIS REGISTER, entered on 14 September and written off as 'NOT ours'. *** She is his daughter. *** THREE OF THE EIGHT CARRY NAMES OUT OF THE HOUSEHOLD AT THE AGUADA *** - his sister Maria Adelina, his brother Carlos Ambrosio, and his father Avelino. That is corroboration and not evidence; the evidence is the death registration. *** All eight are INDEX-LEVEL. ***",
   "place": "Montevideo",
   "placeSlug": "montevideo",
   "surname": "LERENA",
@@ -9721,7 +10380,64 @@
     "note": "Named as his wife in his Montevideo death registration of 2 March 1921."
    }
   ],
-  "children": [],
+  "children": [
+   {
+    "name": "Alberto Julian LERENA LARRIERA",
+    "dates": "",
+    "slug": "alberto-julian-lerena-larriera",
+    "via": "register",
+    "note": "Named as their parents on the Uruguayan civil registration of this child's birth in the Departamento de San Jose; index-level."
+   },
+   {
+    "name": "Angel Miguel Avelino LERENA LARRIERA",
+    "dates": "",
+    "slug": "angel-miguel-avelino-lerena-larriera",
+    "via": "register",
+    "note": "Named as their parents on the Uruguayan civil registration of this child's birth in the Departamento de San Jose; index-level."
+   },
+   {
+    "name": "Carlos Ambrosio Florencio LERENA LARRIERA",
+    "dates": "",
+    "slug": "carlos-ambrosio-florencio-lerena-larriera",
+    "via": "register",
+    "note": "Named as their parents on the Uruguayan civil registration of this child's birth in the Departamento de San Jose; index-level."
+   },
+   {
+    "name": "Maria Adelina LERENA LARRIERA",
+    "dates": "",
+    "slug": "maria-adelina-lerena-larriera",
+    "via": "register",
+    "note": "Named as their parents on the Uruguayan civil registration of this child's birth in the Departamento de San Jose; index-level."
+   },
+   {
+    "name": "Maria Antonieta LERENA LARRIERA",
+    "dates": "",
+    "slug": "maria-antonieta-lerena-larriera",
+    "via": "register",
+    "note": "Named as their parents on the Uruguayan civil registration of this child's birth in the Departamento de San Jose; index-level."
+   },
+   {
+    "name": "Maria Consuelo LERENA LARRIERA",
+    "dates": "",
+    "slug": "maria-consuelo-lerena-larriera",
+    "via": "register",
+    "note": "Named as their parents on the Uruguayan civil registration of this child's birth in the Departamento de San Jose; index-level."
+   },
+   {
+    "name": "Maria Ines LERENA LARRIERA (de GARDONE)",
+    "dates": "",
+    "slug": "maria-ines-lerena-larriera",
+    "via": "register",
+    "note": "Named as their parents on the Uruguayan civil registration of this child's birth in the Departamento de San Jose; index-level."
+   },
+   {
+    "name": "Zelmira Carlota LERENA LARRIERA (m. Adolfo CORDERO)",
+    "dates": "",
+    "slug": "zelmira-carlota-lerena-larriera",
+    "via": "register",
+    "note": "Named as their parents on the Uruguayan civil registration of this child's birth in the Departamento de San Jose; index-level."
+   }
+  ],
   "siblings": [
    {
     "name": "Alejandro LERENA TRAIBEL (formerly recorded as LERENA LENGUAS)",
@@ -9780,8 +10496,8 @@
   ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 3,
-  "relRegister": 3,
+  "relTotal": 11,
+  "relRegister": 11,
   "relTree": 0,
   "evidence": []
  },
@@ -10731,7 +11447,7 @@
   "source": "San Jose de Mayo - baptism of 12 April 1905 - FULL-TEXT TRANSCRIPT READ; ark 3:1:3Q9M-CS27-Z7WR-1; and Uruguayan civil registration - her birth of 4 Nov 1880, her marriage of 28 Feb 1901 and her death of 4 Jan 1945 - indexes read 14 Sep 2026",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "*** TESTED AND PLACED, 14 September 2026 - and she is NOT ours. *** Born 4 NOVEMBER 1880 in the Departamento de SAN JOSE, daughter of *** ALBERTO LERENA and MARIA INES LARRIERA ***; married ADOLFO CORDERO at Montevideo on 28 FEBRUARY 1901; died at Montevideo 4 JANUARY 1945. Children ADOLFO ANGEL FAUSTINO (b.1905, the San Jose baptism that found her), MARIA ZELMIRA (b.1903, d.1984) and MARIA EUGENIA. *** She was flagged because the shape was right - a Uruguayan Lerena woman married to an Argentine in the decade this archive cares about. The shape was right and the substance is not: she has a father, a birthplace and a date, and none of them touches Pablo Armando. *** *** BUT HER FATHER IS WORTH A SECOND LOOK, AND IS NOT MERGED. *** ALBERTO LERENA, fathering a daughter in 1880, would be the right age to be ALBERTO OCTAVIO LERENA LENGUAS - born Montevideo 22 March 1850, son of Luis and Justiniana, and so a grandson of Sancho. He would be thirty. *** NOTHING JOINS THEM but a forename and an age, which is precisely the evidence that produced the two Arturos. *** If it held, Zelmira would be a great-granddaughter of Sancho - and that is a hypothesis to test, not a line to draw.",
+  "note": "*** TESTED AND PLACED, 14 September 2026 - and she is NOT ours. *** Born 4 NOVEMBER 1880 in the Departamento de SAN JOSE, daughter of *** ALBERTO LERENA and MARIA INES LARRIERA ***; married ADOLFO CORDERO at Montevideo on 28 FEBRUARY 1901; died at Montevideo 4 JANUARY 1945. Children ADOLFO ANGEL FAUSTINO (b.1905, the San Jose baptism that found her), MARIA ZELMIRA (b.1903, d.1984) and MARIA EUGENIA. *** She was flagged because the shape was right - a Uruguayan Lerena woman married to an Argentine in the decade this archive cares about. The shape was right and the substance is not: she has a father, a birthplace and a date, and none of them touches Pablo Armando. *** *** BUT HER FATHER IS WORTH A SECOND LOOK, AND IS NOT MERGED. *** ALBERTO LERENA, fathering a daughter in 1880, would be the right age to be ALBERTO OCTAVIO LERENA LENGUAS - born Montevideo 22 March 1850, son of Luis and Justiniana, and so a grandson of Sancho. He would be thirty. *** NOTHING JOINS THEM but a forename and an age, which is precisely the evidence that produced the two Arturos. *** If it held, Zelmira would be a great-granddaughter of Sancho - and that is a hypothesis to test, not a line to draw.  *** 'SHE IS NOT OURS' IS RETRACTED, 21 September 2026. SHE IS OURS. *** This row named the one test that would change its own verdict - who her father Alberto Lerena was - and guessed ALBERTO OCTAVIO LERENA LENGUAS. *** IT IS THE OTHER GRANDFATHER. *** Alberto Lerena's own Montevideo death registration of 2 March 1921, certificate 246, names his wife MARIA INES LARRIERA and his parents AVELINO LERENA and AMBROSIA TREIBEL. So her father is *** PEDRO ALBERTO YSABELINO LERENA TRAIBEL, baptised at the Aguada on 21 November 1852 ***, and *** ZELMIRA IS A GREAT-GRANDDAUGHTER OF SANCHO *** - which is what this row said would follow if the link held. It held by a different route. *** THE LINK IS ONE RECORD AND IT IS INDEX-LEVEL: *** the 1921 image has not been opened, and that is now an errand. See data/alberto-lerena-larriera.tsv.",
   "place": "Montevideo",
   "placeSlug": "montevideo",
   "surname": "LERENA",
@@ -10739,15 +11455,70 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Pedro Alberto Ysabelino LERENA Traibel (the ALBERTO of 1852-1921)",
+   "dates": "1852–1921",
+   "slug": "pedro-alberto-ysabelino-lerena-traibel",
+   "via": "register",
+   "note": "Named as their parents on the Uruguayan civil registration of this child's birth in the Departamento de San Jose; index-level."
+  },
+  "mother": {
+   "name": "Maria Ines LARRIERA",
+   "dates": "",
+   "slug": "maria-ines-larriera",
+   "via": "register",
+   "note": "Named as their parents on the Uruguayan civil registration of this child's birth in the Departamento de San Jose; index-level."
+  },
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Alberto Julian LERENA LARRIERA",
+    "dates": "",
+    "slug": "alberto-julian-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Angel Miguel Avelino LERENA LARRIERA",
+    "dates": "",
+    "slug": "angel-miguel-avelino-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Carlos Ambrosio Florencio LERENA LARRIERA",
+    "dates": "",
+    "slug": "carlos-ambrosio-florencio-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Maria Adelina LERENA LARRIERA",
+    "dates": "",
+    "slug": "maria-adelina-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Maria Antonieta LERENA LARRIERA",
+    "dates": "",
+    "slug": "maria-antonieta-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Maria Consuelo LERENA LARRIERA",
+    "dates": "",
+    "slug": "maria-consuelo-lerena-larriera",
+    "via": "register"
+   },
+   {
+    "name": "Maria Ines LERENA LARRIERA (de GARDONE)",
+    "dates": "",
+    "slug": "maria-ines-lerena-larriera",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
