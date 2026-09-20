@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "astro dev --port 4323",
     "atlas": "python3 ../tools/atlas.py",
-    "build": "npm run atlas && npm run publish:index && astro build && npm run sitemap && npm run check:living && npm run check:kit && npm run check:worklist && npm run check:covers && npm run check:evidence && npm run check:corrections && npm run check:onsite && npm run check:duplicates && npm run check:places",
+    "build": "npm run atlas && npm run publish:index && astro build && npm run sitemap && npm run check:living && npm run check:templates && npm run check:kit && npm run check:worklist && npm run check:covers && npm run check:evidence && npm run check:corrections && npm run check:onsite && npm run check:duplicates && npm run check:places",
     "preview": "astro preview --port 4323",
     "sitemap": "python3 node_modules/@daviddef/archive-kit/kit/tools/sitemap.py",
     "publish:index": "node -e \"require('fs').copyFileSync('src/data/searchindex.json','public/searchindex.json')\"",
@@ -18,7 +18,8 @@
     "check:corrections": "python3 ../tools/check-corrections.py",
     "check:onsite": "python3 ../tools/check-onsite.py",
     "check:duplicates": "python3 ../tools/check-duplicates.py",
-    "check:places": "python3 ../tools/check-living-places.py"
+    "check:places": "python3 ../tools/check-living-places.py",
+    "check:templates": "python3 node_modules/@daviddef/archive-kit/kit/tools/checktemplates.py --root ."
   },
   "dependencies": {
     "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#4400ea8eec9960bb3cfb639a3958c786630176aa",

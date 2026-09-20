@@ -119,6 +119,11 @@ silent = []
 # the same reason: a warning that fires on every build is a warning nobody reads. Adding a
 # name here is a CLAIM THAT SOMEBODY LOOKED - so it carries where the finding was published.
 PUBLISHED = {
+    "Alejandro LERENA (m. Elisa VILLARDEMOROS)":
+        "the double Villademoros marriage is published in full at /uruguay/#s-villademoros, including "
+        "the shared Joaquin godfather and the Angelica named for her mother. The matcher trips on "
+        "'alliance' and 'probably', which the page has no reason to use - it says 'two brothers married "
+        "two sisters' and then says it is not proved",
     "Don Luis Eugenio LERENA LENGUAS":
         "the Serena misindexing is written up at /searched/#searching-the-rarest-name-not-the-surname",
     "Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS)":
