@@ -1435,6 +1435,14 @@
    "owner": "this archive",
    "since": "2026-09-21",
    "note": "**A woman this archive had written off is ours, and she has eight brothers and sisters.** On 14 September **Zelmira Carlota Lerena Larriera**, born in the Departamento de San José on 4 November 1880, was tested and closed: *\"she is NOT ours\"*. The row named the one thing that would overturn it — who her father **Alberto Lerena** was — guessed **Alberto Octavio Lerena Lenguas**, and refused to draw the line on a forename and an age. **It is the other grandfather.** Alberto's Montevideo death act No. 246 of 2 March 1921 names his wife **María Inés Larriera** and his parents **Avelino Lerena and Ambrosia Treibel** — so her father is **Pedro Alberto Ysabelino Lerena Traibel** of the Aguada, and Zelmira is a **great-granddaughter of Sancho**. Asking for Alberto and María Inés as a *pair* then returned a whole household born in San José between 1879 and 1898. **And the image was opened rather than left as an errand**, which is where the real find was: the act counts **nueve hijos** and names them, so there is a **ninth child** — *Eleiza* or *Eloiza*, read at three times magnification and still not securely read — whom no index has matched. **Eight index entries look like eight confirmations and are one indexing project; one death act is a different mouth.** See /uruguay/ and data/alberto-lerena-larriera.tsv."
+  },
+  {
+   "n": "180",
+   "what": "Sweep the rest of this generation as parent PAIRS — and one of the zeros was false",
+   "state": "done",
+   "owner": "this archive",
+   "since": "2026-09-21",
+   "note": "**Fernando Moratorio with Josefa Lerena returns seven**, adding Eduardo, Josefa (born 21 November 1884), María and Fernando Moratorio Lerena to the two girls baptised at the Unión in 1880. **Two other pairs returned zero, and one of those zeros was a lie.** Avelino Lerena with **Celedonia Villademoros** returned a clean 0 — rows rendered, page settled, read twice. **Deleting the mother's surname returned seven**, two of them christenings this archive has held since 20 September. That is how it was caught, and **no control would have caught it**: the control for this query shape had returned sixteen records in the same session, which is exactly what made the zero look trustworthy. Recorded as the **fourteenth false zero**. What it hid: **Pedro Segundo Lerena Villademoros**, dead at Montevideo 23 August 1936 aged 66, wife Paulina Prando Algar; an **Avelino Lerena** dead 5 January 1914 aged 45, wife Carmen Lorente, whose mother is written *Villademoro* without the s. It also **weakens a null this archive published** about the Villademoros marriage acts: the control used, Lerena × Juanico, tested the shape but not the surname, and Juanico has one spelling where Villademoros has four. The null is not withdrawn; it is now stated as the weaker claim it always was."
   }
  ],
  "accounts": [

@@ -2149,6 +2149,34 @@
   "tier": "BIRTH ONLY"
  },
  {
+  "name": "Pedro Segundo LERENA Villademoros",
+  "born_est": "c.1870",
+  "last_attested_alive": "c.1870",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Avelino LERENA Villademoros (d. 1914)",
+  "born_est": "c.1869",
+  "last_attested_alive": "c.1869",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Paulina PRANDO Algar",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Carmen LORENTE",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
   "name": "Pedro Gualberto LERENA Villademoros",
   "born_est": "1869-10-19",
   "last_attested_alive": "1869-10-19",
