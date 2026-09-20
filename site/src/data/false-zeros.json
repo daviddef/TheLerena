@@ -96,5 +96,12 @@
   "what it actually was": "*** SEVEN RECORDS, AND TWO OF THEM ARE IN THIS REGISTER ALREADY *** - the christenings of Avelino Pedro Joaquin Silvestre in 1866 and Pedro Gualberto in 1870. *** Deleting the mother's SURNAME and keeping only 'Celedonia' returned all seven. *** The likely mechanism: the mother's whole name sits unparsed in the given-name field, so supplying a surname excludes every record the parser failed on - and one of the seven displays its mother as 'Celedonia Villademoros', spelled exactly as asked.",
   "how it was caught": "*** THE ARCHIVE'S OWN RECORDS. *** The zero was known to be wrong before it was investigated, because this couple's children were entered on 20 September. *** No control would have caught it: *** the control for this shape - Alberto Lerena with Maria Ines Larriera - had returned sixteen records in the same session, which is what made the zero look trustworthy.",
   "when": "21 Sep 2026"
+ },
+ {
+  "disguise": "*** THE SAME TRAP AGAIN, ONE HOUR LATER, AND THIS TIME THE RULE CAUGHT IT ***",
+  "what it looked like": "A parent-pair query on *** ALFREDO LERENA and HERMENEGILDA GAVARRO ***, Uruguay: *** 0 ***.",
+  "what it actually was": "*** THREE RECORDS. *** Deleting the mother's SURNAME and keeping only 'Hermenegilda' returned them - and they are her own death registration of 1940, which the archive had never seen. *** The index writes her surname 'Navarro de Terenadel', a machine mangling of GAVAZZO DE LERENA ***, so no spelling anybody would have guessed could have reached her.",
+  "how it was caught": "*** BY THE RULE WRITTEN DOWN SIXTY MINUTES EARLIER: delete each added parameter in turn. *** The Villademoros zero cost an afternoon and was caught only because the archive already held the hidden records. This one cost one query. *** That is the whole argument for writing the rule down instead of remembering it. ***",
+  "when": "21 Sep 2026"
  }
 ]

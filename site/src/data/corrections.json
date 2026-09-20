@@ -758,5 +758,13 @@
   "what_is_true": "*** SHE IS OURS, and the candidate was the wrong man. *** Alberto Lerena's own Montevideo death registration of 2 March 1921, certificate 246, names his wife MARIA INES LARRIERA and his parents AVELINO LERENA and AMBROSIA TREIBEL. So Zelmira's father is PEDRO ALBERTO YSABELINO LERENA TRAIBEL, baptised at the Aguada on 21 November 1852, and she is a GREAT-GRANDDAUGHTER OF SANCHO - through Avelino, not through Luis. *** The row was right that the question turned on her father and right to refuse the guess; it was wrong to write off the person while the question was open. *** Seven brothers and sisters of hers were entered the same day. *** THE LINK WAS INDEX-LEVEL FOR ABOUT AN HOUR. *** The 1921 image was opened the same day - film 008165205 image 01604 - and reads 'Que el finado era hijo de AVELINO LERENA, fallecido, y de AMBROSIA TREIBEL, fallecida', and then counts NUEVE HIJOS and names them. So the retraction above stands on an image, and the act supplied a NINTH child the index never showed. See data/alberto-lerena-larriera.tsv.",
   "how_it_was_caught": "",
   "retired": ""
+ },
+ {
+  "date": "2026-09-21",
+  "severity": "minor",
+  "what_was_said": "*** That Alfredo Justiniano Lerena Traibel married *** \"HERMENEGILDA CAROLINA GAVARRO\" ***, daughter of *** \"Don GERONIMO GAVARRO\" *** and *** \"Dona CAROLINA JUAREZ\" *** - three register rows, a dispensation table, the 1892 working log and the last-attested-alive file, published since 14 September 2026. ***",
+  "what_is_true": "*** ALL THREE SURNAMES ARE WRONG, AND THE FAULT IS THIS ARCHIVE'S OWN RULE, UNKEPT. *** The 1892 marriage act was recorded as FULL-TEXT TRANSCRIPT READ - a MACHINE transcript - and the image was never opened, which is the one thing this archive says it always does. The image was opened on 21 September 2026: film 007713383, image 02601, folio 340. It reads *** 'hija legitima de Don GERONIMO GAVAZZO y Dona CAROLINA SUAREZ' ***. *** So she is a GAVAZZO and her mother a SUAREZ. *** It is corroborated by a second image forty-eight years later - her own Montevideo death registration of 20 June 1940, which writes her HERMENEGILDA GAVAZZO DE LERENA with the same two parents. Two images against one machine transcript. *** GAVAZZO is a known Montevideo surname and GAVARRO is not, which is exactly the kind of tell that should have prompted the check earlier. ***",
+  "how_it_was_caught": "",
+  "retired": ""
  }
 ]
