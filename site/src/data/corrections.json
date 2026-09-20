@@ -670,5 +670,13 @@
   "what_is_true": "*** IT HAS EIGHTEEN DARK-FRAME CLUSTERS, WHICH IS NOT THE SAME THING. *** The brightness scan separates dark frames (16-30) from ordinary pages (140-156) perfectly - but *** a filming target board is only one kind of dark frame ***, and so are black book covers and spines. *** Image 00127, predicted to be a title board, is a cover; image 00091 is a FIN DEL ITEM card with no title on it. *** *** Only three of the eighteen have been confirmed by eye. *** The scan still did its job - it reduced 3,208 images to eighteen places worth looking - but *** finding candidates was reported as finding boundaries. ***",
   "how_it_was_caught": "Caught by testing the inference on the first cluster rather than publishing it untested twice.",
   "retired": ""
+ },
+ {
+  "date": "2026-09-20",
+  "severity": "serious",
+  "what_was_said": "*** That the Dominga of the 1836 Montevideo census was 'a candidate, not a finding' and 'attached to Sancho by nothing' - published on /uruguay/, and a NEW PERSON added to the register for her. ***",
+  "what_is_true": "*** SHE WAS PROVED ON 14 SEPTEMBER AND I DID NOT LOOK. *** The register already held *** DOMINGA JOSEFA LLERENA FERNANDEZ, b. 13 May 1804 ***, daughter of Sancho, wife of *** CAPITAN DON ANTONIO RUIZ DE CARVALLO ***, on the Catedral act of 12 May 1827 - which names her as 'Dona Dominga Llerena de Carvallo' and baptises the very *** LUCINDA *** who appears beside her in the census. *** The duplicate has been removed and its evidence folded into the existing person. *** *** The sting: one hour earlier I declined to add three children of household 97 precisely because they might duplicate people already here - and then created exactly that duplicate by not checking. *** The census and the 1862 Rio de Janeiro marriage remain genuine additions.",
+  "how_it_was_caught": "Caught while chasing which parish register rows 167 and 168 were blocked on.",
+  "retired": ""
  }
 ]
