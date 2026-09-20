@@ -118,5 +118,90 @@
   "what": "*** WHAT IS NOW NAVIGABLE ***",
   "detail": "-",
   "why it is useful": "-"
+ },
+ {
+  "what": "volumen",
+  "detail": "images",
+  "why it is useful": "libros"
+ },
+ {
+  "what": "*** 1 ***",
+  "detail": "00004-00125",
+  "why it is useful": "*** Libros 2 y 334 ***"
+ },
+ {
+  "what": "*** 2 ***",
+  "detail": "00126-00314",
+  "why it is useful": "*** NOT READ - the one board still to open ***"
+ },
+ {
+  "what": "*** 3 ***",
+  "detail": "00315-00562",
+  "why it is useful": "*** Libros 444, 247, 249 ***"
+ },
+ {
+  "what": "*** 4 ***",
+  "detail": "00563-00787",
+  "why it is useful": "*** Libros 250, 251, 252 ***"
+ },
+ {
+  "what": "*** 5 ***",
+  "detail": "00788-00958",
+  "why it is useful": "*** Libro 252 ***"
+ },
+ {
+  "what": "*** 6 ***",
+  "detail": "00959-01214",
+  "why it is useful": "*** Libro 253 ***"
+ },
+ {
+  "what": "*** 7 ***",
+  "detail": "01215-01314",
+  "why it is useful": "*** Libro 261 ***"
+ },
+ {
+  "what": "*** 8 ***",
+  "detail": "01315-01474",
+  "why it is useful": "*** Libro 262 ***"
+ },
+ {
+  "what": "*** 9 ***",
+  "detail": "01475-01573",
+  "why it is useful": "*** Libro 464 ***"
+ },
+ {
+  "what": "*** 10 ***",
+  "detail": "01574-01846",
+  "why it is useful": "*** Libro 147 ***"
+ },
+ {
+  "what": "*** 11 ***",
+  "detail": "01847-01961",
+  "why it is useful": "*** Libro 148 ***"
+ },
+ {
+  "what": "*** 12 ***",
+  "detail": "01962-02154",
+  "why it is useful": "*** Libros 465 y 255 ***"
+ },
+ {
+  "what": "*** 13 ***",
+  "detail": "02155-02424",
+  "why it is useful": "*** Libro 149 ***"
+ },
+ {
+  "what": "*** 14 ***",
+  "detail": "02425-02724",
+  "why it is useful": "*** Libro 107 ***"
+ },
+ {
+  "what": "*** 15 ***",
+  "detail": "02725-03208",
+  "why it is useful": "*** Libro 256 ***"
+ },
+ {
+  "what": "*** WHAT THIS IS FOR ***",
+  "detail": "-",
+  "why it is useful": "-"
  }
 ]

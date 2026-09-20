@@ -1406,11 +1406,11 @@
     },
     {
       "n": 176,
-      "what": "Read the Libro numbers off the eleven remaining title boards",
+      "what": "One board left on film 007499043 — volumen 2, image 00126",
       "state": "next",
       "owner": "this archive",
       "since": "2026-09-20",
-      "note": "The reel is mapped and four volumes have their Libro numbers — **1 = Libros 2 y 334, 12 = Libros 465 y 255, 14 = Libro 107, 15 = Libro 256**. The other eleven title boards (images **315, 563, 788, 959, 1215, 1315, 1475, 1574, 1847, 2155, 2425**) carry theirs too, but **the Libro line needs the full `dist.jpg`** — the upscaled thumbnail gives the volumen numeral and not much else. **Why bother:** the Libro number is what the AGN's own inventory indexes, so it is **what dates each padrón** — and an undated padrón is why María Llerena's age of sixty currently means nothing."
+      "note": "The reel is mapped and four volumes have their Libro numbers — **1 = Libros 2 y 334, 12 = Libros 465 y 255, 14 = Libro 107, 15 = Libro 256**. The other eleven title boards (images **315, 563, 788, 959, 1215, 1315, 1475, 1574, 1847, 2155, 2425**) carry theirs too, but **the Libro line needs the full `dist.jpg`** — the upscaled thumbnail gives the volumen numeral and not much else. **Why bother:** the Libro number is what the AGN's own inventory indexes, so it is **what dates each padrón** — and an undated padrón is why María Llerena's age of sixty currently means nothing. *** FOURTEEN OF FIFTEEN READ, 20 September 2026. *** **Two full boards per page render; four do not** — so they were done a pair at a time, and where one failed to load it was carried into the next pair. **1 = Libros 2 y 334; 3 = 444, 247, 249; 4 = 250, 251, 252; 5 = 252; 6 = 253; 7 = 261; 8 = 262; 9 = 464; 10 = 147; 11 = 148; 12 = 465 y 255; 13 = 149; 14 = 107; 15 = 256.** Volumen 14's number came off its **FIN board at 2724**, its own title board having refused to render twice. **Only volumen 2 is outstanding — board at image 00126.** Note that **Libro 252 appears on both the volumen 4 and volumen 5 boards**, recorded as read rather than tidied: a volume may end and begin mid-Libro."
     }
   ],
   "accounts": [

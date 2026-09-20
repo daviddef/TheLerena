@@ -25,3 +25,20 @@ volumen	title board at image	FIN DEL ITEM at image	libros, where read
 *** Volumen 15 ***	*** 02725 ***	03208 *** (end of film) ***	*** Libro 256 *** - holds MARIA LLERENA at image 02771
 *** THE PATTERN, AND MY EARLIER TEST OF IT WAS WRONG ***	-	-	*** Each boundary is FIN DEL ITEM carrying the volumen it CLOSES, then immediately the title board of the NEXT volumen. *** That is the rule I inferred from 2724/2725 and then withdrew - *** and it was right. *** *** I tested it on image 00127 and 127 is not part of that pair at all ***: the pair is 125/126, and 127 is a third dark frame, a book cover, sitting after it. *** The rule held; the test picked the wrong image. *** *** Twelve such extra dark frames exist - 91, 127, 565, 1073, 1216, 1477, 1575, 1848, 1963, 2027, 2156, 2426 - and they are covers, spines or blanks. ***
 *** WHAT IS NOW NAVIGABLE ***	-	-	*** Fifteen volumes of Montevideo padrones with exact image ranges. *** A search can be aimed at a volume instead of a reel. *** Four volumes have their Libro numbers ***, and the Libro number is what the AGN's own inventory indexes - *** so it is also what will date each padron ***, which is the question standing over Maria Llerena's age of sixty.
+volumen	images	libros	note
+*** 1 ***	00004-00125	*** Libros 2 y 334 ***	
+*** 2 ***	00126-00314	*** NOT READ - the one board still to open ***	*** The only one outstanding. *** Board at image 00126.
+*** 3 ***	00315-00562	*** Libros 444, 247, 249 ***	
+*** 4 ***	00563-00787	*** Libros 250, 251, 252 ***	*** Libro 252 appears on BOTH boards *** - recorded as read rather than tidied; a volume may end and begin mid-Libro.
+*** 5 ***	00788-00958	*** Libro 252 ***	*** Libro 252 appears on BOTH boards *** - recorded as read rather than tidied; a volume may end and begin mid-Libro.
+*** 6 ***	00959-01214	*** Libro 253 ***	
+*** 7 ***	01215-01314	*** Libro 261 ***	
+*** 8 ***	01315-01474	*** Libro 262 ***	
+*** 9 ***	01475-01573	*** Libro 464 ***	
+*** 10 ***	01574-01846	*** Libro 147 ***	
+*** 11 ***	01847-01961	*** Libro 148 ***	
+*** 12 ***	01962-02154	*** Libros 465 y 255 ***	
+*** 13 ***	02155-02424	*** Libro 149 ***	
+*** 14 ***	02425-02724	*** Libro 107 ***	Its Libro was read off the *** FIN board at 2724 ***, not its own title board, which would not render.
+*** 15 ***	02725-03208	*** Libro 256 ***	*** Holds MARIA LLERENA at image 02771. *** Runs to the end of the film.
+*** WHAT THIS IS FOR ***	-	-	*** The Libro number is the AGN's own shelfmark, and it is what their inventory indexes. *** So this table is the bridge between an image on a film and a dated volume in a Montevideo reading room. *** Maria Llerena's age of sixty becomes a birth year the moment somebody says what Libro 256 covers ***, and the same is now true of fourteen other volumes.
