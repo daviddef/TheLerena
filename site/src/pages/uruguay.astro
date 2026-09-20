@@ -70,6 +70,7 @@ import h229 from "../data/household-229-pedro-antonio.json";
 import sweep from "../data/census-seven-spellings.json";
 import dom from "../data/dominga-carballo-1836.json";
 import carts from "../data/luis-llerena-carts.json";
+import maria from "../data/maria-llerena-casa-2.json";
 ---
 <Base title="Uruguay"
       eyebrow="Two Lerena families, two Spanish origins, and neither of them is his"
@@ -558,6 +559,37 @@ import carts from "../data/luis-llerena-carts.json";
       </tr></thead>
       <tbody>
         {carts.map((r) => { const c = Object.values(r); return (
+          <tr>
+            <th set:html={emph(c[0])} />
+            <td class="cap" set:html={emph(c[1])} />
+            <td class="cap" set:html={emph(c[2])} />
+          </tr>); })}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-maria-casa2">María Llerena, sixty, Spanish, head of her own house</h2>
+  <div class="prose">
+    <p>The last of the three Llerenas in the census collection, and the one worth the most. She is
+    <strong>the first name on her page</strong> &mdash; <strong>&ldquo;Casa 2. María Llerena &mdash; 60
+    años &mdash; Española&rdquo;</strong> &mdash; heading her own household, with <strong>Manuel, 20,
+    &ldquo;Africana&rdquo;</strong> and <strong>Rosa, 12, &ldquo;Oriental&rdquo;</strong> under her.</p>
+    <p><strong>Sancho was <em>andaluz</em> and forty-five in 1812.</strong> Depending on this census's
+    date, a Spanish-born Llerena woman of sixty stands in his generation or the one above it &mdash;
+    which is exactly the generation this archive cannot get past. <strong>She is attached to him by
+    nothing</strong>, and the census year is <strong>not established</strong>, so her sixty cannot yet
+    be turned into a birth year. That date, at the top of her own page, is the next step.</p>
+  </div>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr>
+        <th style="width:14rem">What</th><th style="width:19rem">What the page shows</th>
+        <th>Certainty</th>
+      </tr></thead>
+      <tbody>
+        {maria.map((r) => { const c = Object.values(r); return (
           <tr>
             <th set:html={emph(c[0])} />
             <td class="cap" set:html={emph(c[1])} />

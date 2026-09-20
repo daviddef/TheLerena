@@ -1311,10 +1311,10 @@
     {
       "n": 164,
       "what": "Place María Llerena, 60, born España — she stands in Sancho's generation or above",
-      "state": "next",
+      "state": "done",
       "owner": "this archive",
       "since": "2026-09-20",
-      "note": "Found in **Uruguay, Census Records, 1726–1858**, a collection this archive had never opened. **María Llerena, femenino, 60 years, birthplace ESPAÑA** — ark **1:1:6BT5-QNYT**, image apid **TH-1942-36766-24983-3**. **Sancho was *andaluz*, 45 in 1812**, so a María born in Spain about 1752 stands in his own generation or the one above. **She is on a different film section from Sancho**, so probably a different census year. **Not claimed as kin — she is not attached to anything.** To place her, find her line on the page: it is a nominal list with **name, age, nationality, occupation**, and it is **rotated 90°** — `transform: rotate(-90deg)` with mild `contrast(1.5)`; heavy contrast destroys the pencil. A household number in the left margin will give her household."
+      "note": "Found in **Uruguay, Census Records, 1726–1858**, a collection this archive had never opened. **María Llerena, femenino, 60 years, birthplace ESPAÑA** — ark **1:1:6BT5-QNYT**, image apid **TH-1942-36766-24983-3**. **Sancho was *andaluz*, 45 in 1812**, so a María born in Spain about 1752 stands in his own generation or the one above. **She is on a different film section from Sancho**, so probably a different census year. **Not claimed as kin — she is not attached to anything.** To place her, find her line on the page: it is a nominal list with **name, age, nationality, occupation**, and it is **rotated 90°** — `transform: rotate(-90deg)` with mild `contrast(1.5)`; heavy contrast destroys the pencil. A household number in the left margin will give her household. *** FOUND ON THE PAGE, 20 September 2026. *** She is **the first name on it**: **'Casa 2. María Llerena — 60 años — Española'**, heading her own household, with **Manuel, 20, 'Africana'** and **Rosa, 12, 'Oriental'** under her, both with a ditto where a surname would go. **A Spanish-born Llerena woman keeping her own house in Montevideo.** Added to the register as HIGH INTEREST and **attached to Sancho by nothing.** **The census year is still not established**, so her sixty cannot be turned into a birth year — that date, at the top of her own page, is now the one thing worth doing on her."
     },
     {
       "n": 165,
@@ -1371,6 +1371,14 @@
       "owner": "this archive",
       "since": "2026-09-20",
       "note": "Dominga's husband is attached in the FamilySearch Tree to **Antonio Rodrigues de Carvalho, b.1803** — so **Carballo is Carvalho**, which is exactly what the 1836 census meant by entering him **'Continente'** while his wife is 'Montevideo'. **Tier: a tree attachment, not a document**, and recorded as such. The thread is worth pulling because it is new ground for this archive: **a Lerena-surname woman married into a Portuguese family and had at least one child in Rio de Janeiro.** If Dominga is Sancho's daughter, one of his children left for Brazil and came back — and **no part of this archive has ever looked at Brazil.**"
+    },
+    {
+      "n": 172,
+      "what": "Date María Llerena's census page — her age is useless without it",
+      "state": "next",
+      "owner": "this archive",
+      "since": "2026-09-20",
+      "note": "**'Casa 2. María Llerena — 60 años — Española'** sits on an undated page of *Uruguay, Census Records, 1726–1858* (image ark 3:1:3QSQ-G9ZR-NYGP). **The collection spans 132 years and the index gives no year for this sheet.** At an 1830s census she was born in the **1770s — Sancho's own decade**; at an 1850s one, the 1790s. **The whole weight of her rests on which.** The heading sits sideways at the top of the sheet above her entry; the page needs `rotate(-90deg)` and a **mild** `contrast(1.5)` — heavy contrast blows the pencil out to white. Neighbouring images on the same film will carry the same heading if hers is torn."
     }
   ],
   "accounts": [
