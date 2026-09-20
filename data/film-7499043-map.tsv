@@ -7,3 +7,21 @@ what	detail	why it is useful
 *** WHY A RELUCTANT NOTE IS OWED HERE ***	-	*** This archive has now read six images of three thousand two hundred *** , and those six produced Sancho's household with four enslaved people named, two Lerena households with ages, and a Spanish-born Llerena woman heading her own house. *** The padrones are enumerations of the LIVING, with ages and stated birthplaces, and they run earlier than any Uruguayan work here. *** *** Nothing in this archive has a better ratio of unread pages to likely findings. ***
 *** CORRECTION, SAME DAY: 'EIGHTEEN ITEM BOUNDARIES' OVERSTATES IT ***	The scan finds *** DARK FRAMES ***, and a target board is only one kind of dark frame. *** Image 00127 was predicted to be a title board and is a BLACK BOOK COVER. *** Image 00091 shows only the reel symbol of a *** FIN DEL ITEM *** card, with no title at all.	*** So the eighteen are CANDIDATE boundaries, not confirmed ones ***, and each still costs one look to say what it is. *** Three are confirmed by eye: image 00004 (title board, volumen 1), 02724 (FIN DEL ITEM, Libro 107) and 02725 (title board, volumen 15). *** *** The scan is still worth what it cost *** - it reduced 3,208 images to eighteen places worth looking - *** but it does not identify items, it finds candidates ***, and this file said otherwise for about twenty minutes.
 *** AND THE RULE I INFERRED DOES NOT HOLD ***	From the confirmed pair at 02724/02725 I inferred that each cluster runs *** FIN, then a blank, then the START board carrying the title ***, so the last image of a cluster would always be the title.	*** Tested on cluster 125-127 and it failed at once *** - 127 is a book cover. *** The inference was made from a single confirmed example and is withdrawn. *** What survives is the list of places to look.
+volumen	title board at image	FIN DEL ITEM at image	libros, where read
+*** Volumen 1 ***	*** 00004 ***	00125	*** Libros 2 y 334 ***
+*** Volumen 2 ***	*** 00126 ***	00314	not yet read - the Libro line needs the full image
+*** Volumen 3 ***	*** 00315 ***	00562	not yet read - the Libro line needs the full image
+*** Volumen 4 ***	*** 00563 ***	00787	not yet read - the Libro line needs the full image
+*** Volumen 5 ***	*** 00788 ***	00958	not yet read - the Libro line needs the full image
+*** Volumen 6 ***	*** 00959 ***	01214	not yet read - the Libro line needs the full image
+*** Volumen 7 ***	*** 01215 ***	01314	not yet read - the Libro line needs the full image
+*** Volumen 8 ***	*** 01315 ***	01474	not yet read - the Libro line needs the full image
+*** Volumen 9 ***	*** 01475 ***	01573	not yet read - the Libro line needs the full image
+*** Volumen 10 ***	*** 01574 ***	01846	not yet read - the Libro line needs the full image
+*** Volumen 11 ***	*** 01847 ***	01961	not yet read - the Libro line needs the full image
+*** Volumen 12 ***	*** 01962 ***	02154	*** Libros 465 y 255 *** - legible on the board itself
+*** Volumen 13 ***	*** 02155 ***	02424	not yet read - the Libro line needs the full image
+*** Volumen 14 ***	*** 02425 ***	02724	*** Libro 107 *** (named on its FIN board at 2724)
+*** Volumen 15 ***	*** 02725 ***	03208 *** (end of film) ***	*** Libro 256 *** - holds MARIA LLERENA at image 02771
+*** THE PATTERN, AND MY EARLIER TEST OF IT WAS WRONG ***	-	-	*** Each boundary is FIN DEL ITEM carrying the volumen it CLOSES, then immediately the title board of the NEXT volumen. *** That is the rule I inferred from 2724/2725 and then withdrew - *** and it was right. *** *** I tested it on image 00127 and 127 is not part of that pair at all ***: the pair is 125/126, and 127 is a third dark frame, a book cover, sitting after it. *** The rule held; the test picked the wrong image. *** *** Twelve such extra dark frames exist - 91, 127, 565, 1073, 1216, 1477, 1575, 1848, 1963, 2027, 2156, 2426 - and they are covers, spines or blanks. ***
+*** WHAT IS NOW NAVIGABLE ***	-	-	*** Fifteen volumes of Montevideo padrones with exact image ranges. *** A search can be aimed at a volume instead of a reel. *** Four volumes have their Libro numbers ***, and the Libro number is what the AGN's own inventory indexes - *** so it is also what will date each padron ***, which is the question standing over Maria Llerena's age of sixty.

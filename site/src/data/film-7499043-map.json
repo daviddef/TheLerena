@@ -28,5 +28,95 @@
   "what": "*** AND THE RULE I INFERRED DOES NOT HOLD ***",
   "detail": "From the confirmed pair at 02724/02725 I inferred that each cluster runs *** FIN, then a blank, then the START board carrying the title ***, so the last image of a cluster would always be the title.",
   "why it is useful": "*** Tested on cluster 125-127 and it failed at once *** - 127 is a book cover. *** The inference was made from a single confirmed example and is withdrawn. *** What survives is the list of places to look."
+ },
+ {
+  "what": "volumen",
+  "detail": "title board at image",
+  "why it is useful": "FIN DEL ITEM at image"
+ },
+ {
+  "what": "*** Volumen 1 ***",
+  "detail": "*** 00004 ***",
+  "why it is useful": "00125"
+ },
+ {
+  "what": "*** Volumen 2 ***",
+  "detail": "*** 00126 ***",
+  "why it is useful": "00314"
+ },
+ {
+  "what": "*** Volumen 3 ***",
+  "detail": "*** 00315 ***",
+  "why it is useful": "00562"
+ },
+ {
+  "what": "*** Volumen 4 ***",
+  "detail": "*** 00563 ***",
+  "why it is useful": "00787"
+ },
+ {
+  "what": "*** Volumen 5 ***",
+  "detail": "*** 00788 ***",
+  "why it is useful": "00958"
+ },
+ {
+  "what": "*** Volumen 6 ***",
+  "detail": "*** 00959 ***",
+  "why it is useful": "01214"
+ },
+ {
+  "what": "*** Volumen 7 ***",
+  "detail": "*** 01215 ***",
+  "why it is useful": "01314"
+ },
+ {
+  "what": "*** Volumen 8 ***",
+  "detail": "*** 01315 ***",
+  "why it is useful": "01474"
+ },
+ {
+  "what": "*** Volumen 9 ***",
+  "detail": "*** 01475 ***",
+  "why it is useful": "01573"
+ },
+ {
+  "what": "*** Volumen 10 ***",
+  "detail": "*** 01574 ***",
+  "why it is useful": "01846"
+ },
+ {
+  "what": "*** Volumen 11 ***",
+  "detail": "*** 01847 ***",
+  "why it is useful": "01961"
+ },
+ {
+  "what": "*** Volumen 12 ***",
+  "detail": "*** 01962 ***",
+  "why it is useful": "02154"
+ },
+ {
+  "what": "*** Volumen 13 ***",
+  "detail": "*** 02155 ***",
+  "why it is useful": "02424"
+ },
+ {
+  "what": "*** Volumen 14 ***",
+  "detail": "*** 02425 ***",
+  "why it is useful": "02724"
+ },
+ {
+  "what": "*** Volumen 15 ***",
+  "detail": "*** 02725 ***",
+  "why it is useful": "03208 *** (end of film) ***"
+ },
+ {
+  "what": "*** THE PATTERN, AND MY EARLIER TEST OF IT WAS WRONG ***",
+  "detail": "-",
+  "why it is useful": "-"
+ },
+ {
+  "what": "*** WHAT IS NOW NAVIGABLE ***",
+  "detail": "-",
+  "why it is useful": "-"
  }
 ]

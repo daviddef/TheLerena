@@ -1398,11 +1398,19 @@
     },
     {
       "n": 175,
-      "what": "Confirm what the fifteen unchecked dark frames on film 007499043 actually are",
+      "what": "Film 007499043 is fully mapped — fifteen volumes, every boundary confirmed",
+      "state": "done",
+      "owner": "this archive",
+      "since": "2026-09-20",
+      "note": "The boundaries are mapped; **the volumes are not named**. Three of eighteen are known — **volumen 1 = Libros 2 y 334** (image 00004), **Libro 107** closing at 02724, **volumen 15 = Libro 256** at 02725. **Each remaining board carries its own *volumen* and *Libro* numbers and costs one `dist.jpg` load**: images 91, 125, 315, 563, 787, 959, 1073, 1215, 1315, 1475, 1573, 1847, 1961, 2027, 2155, 2425. Named, the reel becomes navigable by volume — **and the Libro numbers are what the AGN's own inventory indexes**, so they are also what dates each one. *** RE-SCOPED 20 September 2026, because the first attempt was wrong. *** **The dark frames are not all target boards.** Image **00127**, predicted to be a title board, is a **black book cover**; image **00091** is a **FIN DEL ÍTEM** card carrying no title. **Only 4, 2724 and 2725 are confirmed by eye.** So each of the remaining fifteen costs **one `dist.jpg` look to say what it is** — board, cover, or blank — before any of them can be named. Loading four full-size boards into one page **does not work**: they are 1 MB each and none rendered. *** DONE 20 September 2026, and cheaply. *** All 41 dark frames were rendered as **upscaled thumbnails** — `thumb_p200` at 194px with heavy contrast — which makes the **big handwritten *volumen* numeral legible**, and that was all that was needed. **Two screenshots instead of fifteen full-image loads.** The reel holds **fifteen volumes**, title boards at images **4, 126, 315, 563, 788, 959, 1215, 1315, 1475, 1574, 1847, 1962, 2155, 2425, 2725**, each preceded by the *fin del ítem* card of the volume before. **Twelve other dark frames are covers, spines or blanks.** **And the rule I withdrew was right:** the pair is FIN(n) then title(n+1) — I had tested it on image 127, which is a *third* frame sitting after the 125/126 pair, not part of it. Libros known for volumes 1, 12, 14 and 15."
+    },
+    {
+      "n": 176,
+      "what": "Read the Libro numbers off the eleven remaining title boards",
       "state": "next",
       "owner": "this archive",
       "since": "2026-09-20",
-      "note": "The boundaries are mapped; **the volumes are not named**. Three of eighteen are known — **volumen 1 = Libros 2 y 334** (image 00004), **Libro 107** closing at 02724, **volumen 15 = Libro 256** at 02725. **Each remaining board carries its own *volumen* and *Libro* numbers and costs one `dist.jpg` load**: images 91, 125, 315, 563, 787, 959, 1073, 1215, 1315, 1475, 1573, 1847, 1961, 2027, 2155, 2425. Named, the reel becomes navigable by volume — **and the Libro numbers are what the AGN's own inventory indexes**, so they are also what dates each one. *** RE-SCOPED 20 September 2026, because the first attempt was wrong. *** **The dark frames are not all target boards.** Image **00127**, predicted to be a title board, is a **black book cover**; image **00091** is a **FIN DEL ÍTEM** card carrying no title. **Only 4, 2724 and 2725 are confirmed by eye.** So each of the remaining fifteen costs **one `dist.jpg` look to say what it is** — board, cover, or blank — before any of them can be named. Loading four full-size boards into one page **does not work**: they are 1 MB each and none rendered."
+      "note": "The reel is mapped and four volumes have their Libro numbers — **1 = Libros 2 y 334, 12 = Libros 465 y 255, 14 = Libro 107, 15 = Libro 256**. The other eleven title boards (images **315, 563, 788, 959, 1215, 1315, 1475, 1574, 1847, 2155, 2425**) carry theirs too, but **the Libro line needs the full `dist.jpg`** — the upscaled thumbnail gives the volumen numeral and not much else. **Why bother:** the Libro number is what the AGN's own inventory indexes, so it is **what dates each padrón** — and an undated padrón is why María Llerena's age of sixty currently means nothing."
     }
   ],
   "accounts": [
