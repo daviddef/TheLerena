@@ -121,9 +121,10 @@ def published_elsewhere():
         if not s or s.startswith("#") or ":" not in s:
             continue
         where, rest = s.split(":", 1)
-        frag = rest.split("#", 1)[0].strip()
+        frag, _, reason = rest.partition("#")
+        frag = frag.strip()
         if frag:
-            out.append((where.strip(), frag.lower()))
+            out.append((where.strip(), frag.lower(), reason.strip()))
     return out
 
 
@@ -156,16 +157,41 @@ def main():
         files = [f for f in files if ONLY in f]
 
     allow = published_elsewhere()
+    bogus, unchecked = [], []
     report = []
     for name in files:
         p = DATA / f"{name}.tsv"
         if not p.exists():
             continue
-        mine = [f for w, f in allow if w == name]
+        mine = [(f, r) for w, f, r in allow if w == name]
         unseen, seen = [], 0
         for s in spans(p):
-            if any(f in s.lower() for f in mine):
+            claim = next((r for f, r in mine if f in s.lower()), None)
+            if claim is not None:
                 seen += 1
+                # AN ALLOWLIST ENTRY IS A CLAIM, AND A CLAIM IS CHECKABLE - but NOT by
+                # the working log's own rare words, which are exactly what the page does
+                # not repeat. That is circular, and the first version of this check was.
+                # So the reason names a page AND quotes a phrase THE PAGE ITSELF USES,
+                # and this reads the page for it. Twice on 20 September a line here named
+                # a page that did not carry the finding at all; under this rule both
+                # would have failed on the spot instead of being believed.
+                # Only a route that CLAIMS something is checked. A reason may mention
+                # another page in passing - one of these lines explains a mistake by
+                # naming the page it wrongly cited - and that mention is not a claim.
+                pairs = re.findall(r'(/[a-z0-9-]+/)\s+carries\s+((?:"[^"]+"(?:\s*(?:and|,)\s*)?)+)',
+                                   claim)
+                for route, toks in pairs:
+                    tokens = re.findall(r'"([^"]{3,60})"', toks)
+                    page = next((tx for f2, tx in pages
+                                 if "/" + f2.relative_to(DIST).parent.as_posix() + "/" == route), None)
+                    if page is None:
+                        bogus.append(f"{name}: claims {route}, WHICH IS NOT A PAGE")
+                    elif not any(tok.lower() in page for tok in tokens):
+                        bogus.append(f"{name}: claims {route} carries "
+                                     f"{' / '.join(repr(x) for x in tokens)} - IT DOES NOT")
+                if not pairs:
+                    unchecked.append(f"{name}: {claim[:88]}")
                 continue
             words = [w for w in re.findall(r"[a-z]{5,}", s.lower()) if not STOP.match(w)]
             if len(words) < 3:
@@ -192,6 +218,17 @@ def main():
             print(f"        ... and {len(unseen) - 2} more")
     if len(report) > TOP:
         print(f"\n  ... and {len(report) - TOP} more file(s) with unseen findings")
+    if unchecked:
+        print(f"\n  ?  {len(unchecked)} allowlist claim(s) quote no page phrase, so none was checked:")
+        for b in list(dict.fromkeys(unchecked))[:6]:
+            print(f"        {b}")
+        print("     Quote a phrase THE PAGE ITSELF carries and this will read for it.")
+    if bogus:
+        print(f"\n  !! {len(bogus)} allowlist claim(s) this tool could not confirm:")
+        for b in dict.fromkeys(bogus):
+            print(f"        {b}")
+        print("     An entry in _published-elsewhere.txt asserts somebody looked. These are the ones")
+        print("     where the page named does not appear to carry the finding.")
     print("\n" + "-" * 74)
     print("A high count is a PROMPT TO LOOK, not a verdict: a working log is allowed to")
     print("hold working notes. But a finding about this family that no page carries is")
