@@ -66,6 +66,7 @@ import fs20 from "../data/fs-session-2026-09-20.json";
 import gl from "../data/gonzalez-lerena.json";
 import colla from "../data/rosario-colla-household.json";
 import h97 from "../data/household-97-serena.json";
+import h229 from "../data/household-229-pedro-antonio.json";
 ---
 <Base title="Uruguay"
       eyebrow="Two Lerena families, two Spanish origins, and neither of them is his"
@@ -405,9 +406,11 @@ import h97 from "../data/household-97-serena.json";
   <h2 id="s-household-97">Household 97 &mdash; a whole generation, filed under Serena</h2>
   <div class="prose">
     <p>Don Luis Lerena, his wife and six children sit on one census page taken about
-    <strong>December 1858</strong>, and no search here had ever returned them &mdash; because the
-    enumerator wrote the family as <strong>Serena</strong> throughout, the S-for-L variant this archive
-    already documents.</p>
+    <strong>December 1858</strong>, and no search here had ever returned them &mdash; because
+    <strong>the index files the family under Serena</strong>, the S-for-L variant this archive already
+    documents. (On household 229 below, the clerk writes <em>Lerena</em> plainly while the index still
+    says Serena, so <strong>the substitution may be the indexer's hand rather than the
+    enumerator's</strong>. Either way, search this collection under Serena or nothing comes back.)</p>
     <p>The proof of the household is the wife: she is entered not as Serena but under her own surname,
     <strong>Justiniana Lenguas</strong>. Two readings fall out cleanly. <strong>&ldquo;Erna&rdquo; is
     Ema</strong> &mdash; María Ema, christened 7 October 1857 &mdash; and at a year and a half
@@ -425,6 +428,36 @@ import h97 from "../data/household-97-serena.json";
       </tr></thead>
       <tbody>
         {h97.map((r) => { const c = Object.values(r); return (
+          <tr>
+            <th set:html={emph(c[0])} />
+            <td><strong set:html={emph(c[1])} /></td>
+            <td class="cap" set:html={emph(c[2])} />
+            <td class="cap" set:html={emph(c[3])} />
+          </tr>); })}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-household-229">Household 229 &mdash; Sancho's son, and three children nobody had</h2>
+  <div class="prose">
+    <p>The same sweep turned up a second household: <strong>Pedro Antonio Lerena, son of Sancho</strong>,
+    with <strong>Doña Vicenta Vega</strong> &mdash; the wife this archive already holds &mdash; and
+    three children it did not.</p>
+    <p><strong>His age dates the page.</strong> Born 31 July 1793 and entered at forty, this census is
+    about <strong>1833</strong>, not 1858. That is the check that makes the whole reading hold: the
+    couple's one previously known child, <strong>Leonarda Margarita, was born in 1837</strong> and is
+    correctly absent. Three elder children in 1833, a fourth four years later.</p>
+  </div>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr>
+        <th style="width:12rem">As written</th><th style="width:4rem">Age</th>
+        <th style="width:18rem">Who this is</th><th>Certainty</th>
+      </tr></thead>
+      <tbody>
+        {h229.map((r) => { const c = Object.values(r); return (
           <tr>
             <th set:html={emph(c[0])} />
             <td><strong set:html={emph(c[1])} /></td>

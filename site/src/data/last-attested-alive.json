@@ -1993,5 +1993,12 @@
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Telesforo LENGUAS (in Luis Lerena's household, c.1858)",
+  "born_est": "c.1824",
+  "last_attested_alive": "c.1824",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]

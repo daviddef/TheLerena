@@ -8443,12 +8443,34 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Emilia LERENA Vega (b. c.1815)",
+    "dates": "",
+    "slug": "emilia-lerena-vega",
+    "via": "register",
+    "note": "Same household. Uruguay census c.1833, household 229, Montevideo; ark 3:1:3QS7-99ZP-BBKX"
+   },
+   {
+    "name": "Pedro LERENA Vega (b. c.1817)",
+    "dates": "",
+    "slug": "pedro-lerena-vega",
+    "via": "register",
+    "note": "Same household. Uruguay census c.1833, household 229, Montevideo; ark 3:1:3QS7-99ZP-BBKX"
+   },
+   {
+    "name": "Vicenta LERENA Vega (b. c.1821)",
+    "dates": "",
+    "slug": "vicenta-lerena-vega",
+    "via": "register",
+    "note": "Same household. Uruguay census c.1833, household 229, Montevideo; ark 3:1:3QS7-99ZP-BBKX"
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 3,
+  "relRegister": 3,
   "relTree": 0,
   "evidence": []
  },
@@ -8474,12 +8496,34 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Emilia LERENA Vega (b. c.1815)",
+    "dates": "",
+    "slug": "emilia-lerena-vega",
+    "via": "register",
+    "note": "Same household. Uruguay census c.1833, household 229, Montevideo; ark 3:1:3QS7-99ZP-BBKX"
+   },
+   {
+    "name": "Pedro LERENA Vega (b. c.1817)",
+    "dates": "",
+    "slug": "pedro-lerena-vega",
+    "via": "register",
+    "note": "Same household. Uruguay census c.1833, household 229, Montevideo; ark 3:1:3QS7-99ZP-BBKX"
+   },
+   {
+    "name": "Vicenta LERENA Vega (b. c.1821)",
+    "dates": "",
+    "slug": "vicenta-lerena-vega",
+    "via": "register",
+    "note": "Same household. Uruguay census c.1833, household 229, Montevideo; ark 3:1:3QS7-99ZP-BBKX"
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 3,
+  "relRegister": 3,
   "relTree": 0,
   "evidence": []
  },
@@ -10549,6 +10593,174 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "emilia-lerena-vega",
+  "name": "Emilia LERENA Vega (b. c.1815)",
+  "born": "c.1815",
+  "birthplace": "Montevideo",
+  "nationality": "Uruguayan",
+  "occupation": "-",
+  "where": "Montevideo",
+  "source": "Uruguay census c.1833, household 229; ark 3:1:3QS7-99ZP-BBKX",
+  "status": "interest",
+  "statusRaw": "UNPLACED - INTEREST",
+  "note": "*** A DAUGHTER OF PEDRO ANTONIO LERENA AND VICENTA VEGA, new to this archive. *** Entered at 18 in household 229 of the c.1833 Montevideo census, the eldest of the three children on that page. *** Not the Emilia Lerena b.1886 of Leandro's household ***, who is three generations later. *** Nothing else about her is known. ***",
+  "place": "Montevideo",
+  "placeSlug": "montevideo",
+  "surname": "LERENA",
+  "ark": "3:1:3QS7-99ZP-BBKX",
+  "sourceUrl": "https://www.familysearch.org/ark:/61903/3:1:3QS7-99ZP-BBKX",
+  "noLink": "",
+  "gen": null,
+  "father": {
+   "name": "Pedro Antonio LERENA (son of Sancho)",
+   "dates": "1793–",
+   "slug": "pedro-antonio-lerena",
+   "via": "register",
+   "note": "Named in household 229 of the c.1833 census. Uruguay census c.1833, household 229, Montevideo; ark 3:1:3QS7-99ZP-BBKX"
+  },
+  "mother": {
+   "name": "Dona Vicenta VEGA",
+   "dates": "",
+   "slug": "dona-vicenta-vega",
+   "via": "register",
+   "note": "Same household; the page gives her as 'Da Vicenta Vega'. Uruguay census c.1833, household 229, Montevideo; ark 3:1:3QS7-99ZP-BBKX"
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Pedro LERENA Vega (b. c.1817)",
+    "dates": "",
+    "slug": "pedro-lerena-vega",
+    "via": "register"
+   },
+   {
+    "name": "Vicenta LERENA Vega (b. c.1821)",
+    "dates": "",
+    "slug": "vicenta-lerena-vega",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "pedro-lerena-vega",
+  "name": "Pedro LERENA Vega (b. c.1817)",
+  "born": "c.1817",
+  "birthplace": "Montevideo",
+  "nationality": "Uruguayan",
+  "occupation": "-",
+  "where": "Montevideo",
+  "source": "Uruguay census c.1833, household 229; ark 3:1:3QS7-99ZP-BBKX",
+  "status": "interest",
+  "statusRaw": "UNPLACED - INTEREST",
+  "note": "*** A SON OF PEDRO ANTONIO LERENA AND VICENTA VEGA, new to this archive, and named for his father. *** Entered at 16 in household 229. *** The index reads him as 'Pedro a. Serena' - so the index entry that looks like his father is in fact HIM. *** Nothing else about him is known.",
+  "place": "Montevideo",
+  "placeSlug": "montevideo",
+  "surname": "LERENA",
+  "ark": "3:1:3QS7-99ZP-BBKX",
+  "sourceUrl": "https://www.familysearch.org/ark:/61903/3:1:3QS7-99ZP-BBKX",
+  "noLink": "",
+  "gen": null,
+  "father": {
+   "name": "Pedro Antonio LERENA (son of Sancho)",
+   "dates": "1793–",
+   "slug": "pedro-antonio-lerena",
+   "via": "register",
+   "note": "Named in household 229 of the c.1833 census. Uruguay census c.1833, household 229, Montevideo; ark 3:1:3QS7-99ZP-BBKX"
+  },
+  "mother": {
+   "name": "Dona Vicenta VEGA",
+   "dates": "",
+   "slug": "dona-vicenta-vega",
+   "via": "register",
+   "note": "Same household; the page gives her as 'Da Vicenta Vega'. Uruguay census c.1833, household 229, Montevideo; ark 3:1:3QS7-99ZP-BBKX"
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Emilia LERENA Vega (b. c.1815)",
+    "dates": "",
+    "slug": "emilia-lerena-vega",
+    "via": "register"
+   },
+   {
+    "name": "Vicenta LERENA Vega (b. c.1821)",
+    "dates": "",
+    "slug": "vicenta-lerena-vega",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "vicenta-lerena-vega",
+  "name": "Vicenta LERENA Vega (b. c.1821)",
+  "born": "c.1821",
+  "birthplace": "Montevideo",
+  "nationality": "Uruguayan",
+  "occupation": "-",
+  "where": "Montevideo",
+  "source": "Uruguay census c.1833, household 229; ark 3:1:3QS7-99ZP-BBKX",
+  "status": "interest",
+  "statusRaw": "UNPLACED - INTEREST",
+  "note": "*** A DAUGHTER OF PEDRO ANTONIO LERENA AND VICENTA VEGA, new to this archive, and named for her mother. *** Entered at 12 in household 229. *** Indexed as 'Vicenta Serena', and she is the DAUGHTER, not the wife. *** Nothing else about her is known.",
+  "place": "Montevideo",
+  "placeSlug": "montevideo",
+  "surname": "LERENA",
+  "ark": "3:1:3QS7-99ZP-BBKX",
+  "sourceUrl": "https://www.familysearch.org/ark:/61903/3:1:3QS7-99ZP-BBKX",
+  "noLink": "",
+  "gen": null,
+  "father": {
+   "name": "Pedro Antonio LERENA (son of Sancho)",
+   "dates": "1793–",
+   "slug": "pedro-antonio-lerena",
+   "via": "register",
+   "note": "Named in household 229 of the c.1833 census. Uruguay census c.1833, household 229, Montevideo; ark 3:1:3QS7-99ZP-BBKX"
+  },
+  "mother": {
+   "name": "Dona Vicenta VEGA",
+   "dates": "",
+   "slug": "dona-vicenta-vega",
+   "via": "register",
+   "note": "Same household; the page gives her as 'Da Vicenta Vega'. Uruguay census c.1833, household 229, Montevideo; ark 3:1:3QS7-99ZP-BBKX"
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Emilia LERENA Vega (b. c.1815)",
+    "dates": "",
+    "slug": "emilia-lerena-vega",
+    "via": "register"
+   },
+   {
+    "name": "Pedro LERENA Vega (b. c.1817)",
+    "dates": "",
+    "slug": "pedro-lerena-vega",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  }
