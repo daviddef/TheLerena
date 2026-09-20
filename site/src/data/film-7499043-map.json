@@ -18,5 +18,15 @@
   "what": "*** WHY A RELUCTANT NOTE IS OWED HERE ***",
   "detail": "-",
   "why it is useful": "*** This archive has now read six images of three thousand two hundred *** , and those six produced Sancho's household with four enslaved people named, two Lerena households with ages, and a Spanish-born Llerena woman heading her own house. *** The padrones are enumerations of the LIVING, with ages and stated birthplaces, and they run earlier than any Uruguayan work here. *** *** Nothing in this archive has a better ratio of unread pages to likely findings. ***"
+ },
+ {
+  "what": "*** CORRECTION, SAME DAY: 'EIGHTEEN ITEM BOUNDARIES' OVERSTATES IT ***",
+  "detail": "The scan finds *** DARK FRAMES ***, and a target board is only one kind of dark frame. *** Image 00127 was predicted to be a title board and is a BLACK BOOK COVER. *** Image 00091 shows only the reel symbol of a *** FIN DEL ITEM *** card, with no title at all.",
+  "why it is useful": "*** So the eighteen are CANDIDATE boundaries, not confirmed ones ***, and each still costs one look to say what it is. *** Three are confirmed by eye: image 00004 (title board, volumen 1), 02724 (FIN DEL ITEM, Libro 107) and 02725 (title board, volumen 15). *** *** The scan is still worth what it cost *** - it reduced 3,208 images to eighteen places worth looking - *** but it does not identify items, it finds candidates ***, and this file said otherwise for about twenty minutes."
+ },
+ {
+  "what": "*** AND THE RULE I INFERRED DOES NOT HOLD ***",
+  "detail": "From the confirmed pair at 02724/02725 I inferred that each cluster runs *** FIN, then a blank, then the START board carrying the title ***, so the last image of a cluster would always be the title.",
+  "why it is useful": "*** Tested on cluster 125-127 and it failed at once *** - 127 is a book cover. *** The inference was made from a single confirmed example and is withdrawn. *** What survives is the list of places to look."
  }
 ]

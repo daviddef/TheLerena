@@ -662,5 +662,13 @@
   "what_is_true": "*** WRONG FOUR, AND THE WRONG DIRECTION. *** Those are house *** 59 ***, a different address. Sancho's four are *** below *** his six children. *** The tell was DOMINGA: *** the transcription ends the children at her, so everything between Dominga and Rodrigo Fernandez is the rest of the household. *** The Juana aged 41 in house 59 is a different woman from Sancho's Juana ***, and saying so matters more than the error, because two Juanas on one page is exactly how a family tree acquires a wrong mother.",
   "how_it_was_caught": "Caught within the hour by reading downward instead of upward.",
   "retired": ""
+ },
+ {
+  "date": "2026-09-20",
+  "severity": "minor",
+  "what_was_said": "*** That film 007499043 has 'EIGHTEEN ITEM BOUNDARIES', published on /uruguay/ and in the film register within the hour. ***",
+  "what_is_true": "*** IT HAS EIGHTEEN DARK-FRAME CLUSTERS, WHICH IS NOT THE SAME THING. *** The brightness scan separates dark frames (16-30) from ordinary pages (140-156) perfectly - but *** a filming target board is only one kind of dark frame ***, and so are black book covers and spines. *** Image 00127, predicted to be a title board, is a cover; image 00091 is a FIN DEL ITEM card with no title on it. *** *** Only three of the eighteen have been confirmed by eye. *** The scan still did its job - it reduced 3,208 images to eighteen places worth looking - but *** finding candidates was reported as finding boundaries. ***",
+  "how_it_was_caught": "Caught by testing the inference on the first cluster rather than publishing it untested twice.",
+  "retired": ""
  }
 ]
