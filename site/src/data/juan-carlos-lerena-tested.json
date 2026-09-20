@@ -1,18 +1,23 @@
 [
  {
+  "query": "*** THE CORPUS MOVED UNDER A PUBLISHED NULL - 21 September 2026 ***",
+  "result": "*** 0 -> 2 ***",
+  "verdict": "*** TWO OF THE FOUR ANSWERS ABOVE ARE NO LONGER TRUE, and nothing was wrong with the searches. *** They were run on 17 September and the ARGENTINA MILITARY RECORDS index has since gained the enrolment card - the FamilySearch citation on that record reads 16 September 2026. *** WHAT CHANGED: *** JUAN CARLOS LERENA is now an indexed person, with spouse MARIA LERENA and child PABLO ARMANDO LERENA. *** WHAT DID NOT: *** he still has no record OF HIS OWN - no birth, no marriage, no death. The new hit is his son's record naming him as a father, which is the card this archive already had. *** AND THE INDEX CARRIES THE SALTA ERROR: *** it gives the birthplace as \"Rosario de Lerma, Salta\", which this archive corrected on 13 September. Anyone searching will find him in the wrong province. *** THE LESSON IS NOT ABOUT THE SEARCH. *** A null is true on the day it is run, against the corpus of that day, and an index that grows can falsify one without anybody making a mistake. A published null needs a DATE, and this archive's now say so."
+ },
+ {
   "query": "*** Father exactly 'Juan Carlos', surname Lerena, mother's surname Lerena ***",
   "result": "*** 0 ***",
   "verdict": "*** No indexed child anywhere of that couple. *** The mother sharing the father's surname is the unusual part and the easiest thing to search on, and it returns nothing."
  },
  {
   "query": "*** Father exactly 'Juan Carlos Lerena', mother unconstrained ***",
-  "result": "*** 0 ***",
-  "verdict": "*** No indexed child of ANY man recorded exactly as Juan Carlos Lerena. *** Dropping the mother did not loosen it at all."
+  "result": "*** 0 on 17 Sep, 2 on 21 Sep ***",
+  "verdict": "*** No indexed child of ANY man recorded exactly as Juan Carlos Lerena. *** Dropping the mother did not loosen it at all. *** RE-RUN 21 SEPTEMBER 2026 AND IT IS NO LONGER ZERO. *** The same query now returns TWO, and one of them is *** PABLO ARMANDO HIMSELF ***, on the Argentine military record this archive has cited since it found the card - ark 1:1:6TH8-DVXH."
  },
  {
   "query": "*** Juan Carlos Lerena as a named person, any role, any country, any collection ***",
-  "result": "*** 1 ***",
-  "verdict": "*** And it is not him. *** Uruguay, Civil Registration - an infant, *** Lerena Caraballo, died 21 February 1983 at Montevideo, aged 0 ***, certificate 177, father Juan Carlos Lerena, mother Gabriela Caraballo (ark 1:1:XSBJ-RWG1). *** A man of that name in 1983 is a century adrift of a father whose son was born in 1882. ***"
+  "result": "*** 1 on 17 Sep, 2 on 21 Sep ***",
+  "verdict": "*** And it is not him. *** Uruguay, Civil Registration - an infant, *** Lerena Caraballo, died 21 February 1983 at Montevideo, aged 0 ***, certificate 177, father Juan Carlos Lerena, mother Gabriela Caraballo (ark 1:1:XSBJ-RWG1). *** A man of that name in 1983 is a century adrift of a father whose son was born in 1882. *** *** AND THE SECOND ONE IS HIM. *** Re-run 21 September: *** \"Juan Carlos Lerena, Father, Argentina Military Records 1911-1936, spouse MARIA LERENA, child PABLO ARMANDO LERENA.\" *** FamilySearch now indexes the enrolment card, so the man this archive could not find in any index is in one - as the father on his own son's record."
  },
  {
   "query": "*** CONTROL: father exactly 'Gilberto' Lerena, mother Salvanach ***",

@@ -650,7 +650,7 @@
    "state": "next",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "consistency.py reports that its sibling tests reach **106 of 277 people**, and prints the honest warning that **a pass here is not a pass over the register**. Today's parent-pair query is a cheap way to lift that: for any couple in the register, one phrase search finds their children, their children's marriages and their grandchildren at once."
+   "note": "consistency.py reports that its sibling tests reach **106 of 277 people**, and prints the honest warning that **a pass here is not a pass over the register**. Today's parent-pair query is a cheap way to lift that: for any couple in the register, one phrase search finds their children, their children's marriages and their grandchildren at once. **MOVED 21 September 2026, and by fixing the cause rather than the measure.** The sibling tests reach people through a STRUCTURED PARENT, and 226 of 293 people had no edge at all — every connection was in prose. Twenty-three were wired from notes that state their own subject's parentage. **Structured parents 36 → 60; coverage 106/277 → 114/292; islands 226 → 193.** The remaining gap is the same shape: 43 parent names in notes resolve to no single register row, and a name that cannot be resolved is left alone rather than attached to the nearest thing that looks like it."
   },
   {
    "n": 82,
@@ -1255,10 +1255,10 @@
   {
    "n": 157,
    "what": "Re-run any exact-forename null recorded against a two-forename person",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
-   "since": "2026-09-20",
-   "note": "**133 of the 278 people in this register carry two or more forenames** — very nearly half — and FamilySearch's exact forename search matches the **whole given-name string**, so an exact search on the first forename alone would never have found them. **Any null recorded that way is unsafe.** None could be identified by grep, because the searches were written down in prose without naming the parameter, **which is the lesson underneath this row: record the query, not just the answer.** Re-run suspects in the safe shape — fuzzy forename, exact surname — which does match per token."
+   "since": "2026-09-21",
+   "note": "**133 of the 278 people in this register carry two or more forenames** — very nearly half — and FamilySearch's exact forename search matches the **whole given-name string**, so an exact search on the first forename alone would never have found them. **Any null recorded that way is unsafe.** None could be identified by grep, because the searches were written down in prose without naming the parameter, **which is the lesson underneath this row: record the query, not just the answer.** Re-run suspects in the safe shape — fuzzy forename, exact surname — which does match per token. **RUN 21 September 2026, and it found something better than a bad null.** The archive's own blast-radius note says no affected null could be identified by grep, because the searches were written in prose without naming the parameter — so the sharpest available version was run instead: the CENTRAL null, re-done in the fuzzy-forename / exact-surname shape. **Fuzzy 'Juan' + exact LERENA returns 29 distinct given-name forms**, including *Juan Carlos Esteban Lerena*, *Juan a. Lerena* and *Juan P. Lerena* — the initial and three-forename shapes a whole-string exact match cannot reach, which is exactly what the trap predicted. None is the father: the Esteban man married in 1932. **But the re-run falsified two published zeroes** — see corrections.tsv. Juan Carlos Lerena is now an indexed person, as the father on his own son's military record."
   },
   {
    "n": 158,
@@ -1415,10 +1415,10 @@
   {
    "n": 177,
    "what": "Review the 133 same-name person pairs the new duplicate gate baselined",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-20",
-   "note": "tools/check-duplicates.py was written after this archive **added a duplicate of Dominga Josefa Llerena** — one hour after refusing to add duplicates on principle. It flags two register rows sharing a forename and a canonical surname (all seven spellings fold to one) **plus something only the same person would share**: an ark, three uncommon terms, or birth years within six. **Verified by re-adding the Dominga duplicate: it names the pair and exits 1.** **133 pairs already existed** and are baselined in data/_person-pairs.txt as **UNREVIEWED** — being listed does not mean compared. Several look genuinely suspect: **Bartolomé Llerena vs Bartolomé Llerena – Córdoba origin, both b.1824**; **Felisa (arr. 1911) vs Felisa (arr. 1923), b.1893/1891**; **Emilia LERENA vs Emilia LERENA Vega**; **Carolina LERENA vs Carolina LERENA (de Martinez)**. Work down the list and put the reason after a # on each line."
+   "note": "tools/check-duplicates.py was written after this archive **added a duplicate of Dominga Josefa Llerena** — one hour after refusing to add duplicates on principle. It flags two register rows sharing a forename and a canonical surname (all seven spellings fold to one) **plus something only the same person would share**: an ark, three uncommon terms, or birth years within six. **Verified by re-adding the Dominga duplicate: it names the pair and exits 1.** **133 pairs already existed** and are baselined in data/_person-pairs.txt as **UNREVIEWED** — being listed does not mean compared. Several look genuinely suspect: **Bartolomé Llerena vs Bartolomé Llerena – Córdoba origin, both b.1824**; **Felisa (arr. 1911) vs Felisa (arr. 1923), b.1893/1891**; **Emilia LERENA vs Emilia LERENA Vega**; **Carolina LERENA vs Carolina LERENA (de Martinez)**. Work down the list and put the reason after a # on each line. **DONE 20 September 2026, the day after the gate was written.** All 123 surviving pairs carry a reason on their line. Seven merges came out of it — three Carlos rows were one man, two Avelino Carlos, two Rosa María Eppens, and four of Gilberto's children were held twice because **the enumerator wrote initials and the priest wrote names**. Every one of those identifications was already stated in the archive's own notes and never acted on. One SPLIT too: merging Carlos exposed relations.tsv giving him a wife the register had explicitly ruled out. And two merges were decided by reading the census image — the ages on lines 10-13 are 8, 6, 5, 2, not the '6, 6, 5, 2' this archive had transcribed. Register 292 → 286, then 293 with the Villademoros branch."
   }
  ],
  "accounts": [
