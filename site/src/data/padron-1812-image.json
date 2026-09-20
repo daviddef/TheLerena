@@ -33,5 +33,15 @@
   "what": "*** AND I FLAGGED THE WRONG FOUR FIRST ***",
   "what the page shows": "Earlier today this file and /hypotheses/ pointed at *** Juana 41, Juan 'negro esclavo', Gabriel and Maria *** - the four standing ABOVE Sancho under margin number 59 - and called that Juana a convergence.",
   "certainty": "*** THAT WAS THE WRONG HOUSEHOLD, and the mistake was reading upward instead of downward. *** Those four are house 59, a different address. *** Sancho's four are BELOW his six children, and the tell was Dominga: *** the transcription ends the children at Dominga, and everything after her to Rodrigo Fernandez is the rest of his household. *** The 41-year-old Juana of house 59 is a different woman from Sancho's Juana. *** Corrected here rather than quietly rewritten, because the first reading was published for an hour."
+ },
+ {
+  "what": "*** THE COLLECTION ITSELF IS THE FIND, AND IT HOLDS TWO MORE LLERENAS ***",
+  "what the page shows": "*** 'Uruguay, Census Records, 1726-1858' *** - 162,873 records, and *** this archive had never opened it. *** Surname *** LLERENA exact *** returns *** three ***: Sancho (read above), *** MARIA LLERENA, 60, born ESPANA *** (ark 1:1:6BT5-QNYT), and *** LUIS LLERENA *** (ark 1:1:6BR7-8DPW), neither with a household attached in the index.",
+  "certainty": "*** A SPANISH-BORN LLERENA WOMAN OF 60 IS NOT NOTHING. *** Sancho was *** andaluz, 45 in 1812 ***, so a Maria born in Spain about 1752 stands in his own generation or the one above it. *** She is on a different film section from Sancho *** (apid TH-1942-36766-24983-3) and so probably a different census year. *** Neither she nor Luis has been placed, and neither is claimed as kin. *** *** The collection spans 1726-1858, which is earlier than anything this archive has worked in Uruguay ***, and it is the obvious next place to look for the generation above Sancho."
+ },
+ {
+  "what": "*** A METHOD NOTE THAT COST TWENTY MINUTES ***",
+  "what the page shows": "Maria Llerena's page renders as a faint, wide, apparently unreadable table.",
+  "certainty": "*** IT IS ROTATED 90 DEGREES. *** The columns are *** name, age, nationality, occupation *** and read normally once the image is turned: an `<img>` with *** transform: rotate(-90deg) *** and a mild *** contrast(1.5) *** makes it perfectly legible - Oriental, Espanol, Africano, Francia, Sirvienta, Jornalero, Albanil, Cigarrero. *** Heavy contrast destroys it; the ink is faint pencil and blows out to white. *** And the transform needs its own repaint before a screenshot, which this archive's own notes already warn about."
  }
 ]

@@ -1307,6 +1307,30 @@
       "owner": "this archive",
       "since": "2026-09-20",
       "note": "**This archive states, in data and on its pages, that the 1812 padrón 'records four enslaved people in Sancho's household and gives none of them a name'.** The image shows **four named people immediately above him** — **Juana 41, Juan 'negro esclavo', Gabriel, María** — under margin number **59**, with Sancho's bracket beginning on the next line and the family above them a *Sargento Veterano de Caballería* and his wife *Sabina Balmaceda*. **So the four may be that sergeant's, or Sancho's, and dist.jpg at 3793×2909 does not settle it.** It matters because **the baptism of 26 September 1812 names JUANA as an enslaved woman of Sancho Lerena and María Fernández** — a Juana of 41 at the edge of his household in the same year is a convergence, not a coincidence to be shrugged at. **Needs the bracket at tile resolution, or the household numbering read across the whole opening.** If it resolves to Sancho, the archive's 'gives none of them a name' is wrong and two more people become nameable. *** RESOLVED THE SAME DAY, AND THE ANSWER IS THE OTHER DIRECTION. *** The four above Sancho are **house 59** and not his. **His four are BELOW his six children**: **ANTONIO — written out as *negro esclavo* — JOSÉ, JUANA and TERESA**, listed after the youngest child **Dominga** and before **RODRIGO FERNÁNDEZ**, the father-in-law, whose presence at the end is what proves the household boundary. **So the archive's 'gives none of them a name' is wrong and is logged as a serious correction.** Antonio, José and Teresa are now in the register; **Juana is corroborated inside the household by a second document of the same year**. The Juana aged 41 in house 59 is a different woman."
+    },
+    {
+      "n": 164,
+      "what": "Place María Llerena, 60, born España — she stands in Sancho's generation or above",
+      "state": "next",
+      "owner": "this archive",
+      "since": "2026-09-20",
+      "note": "Found in **Uruguay, Census Records, 1726–1858**, a collection this archive had never opened. **María Llerena, femenino, 60 years, birthplace ESPAÑA** — ark **1:1:6BT5-QNYT**, image apid **TH-1942-36766-24983-3**. **Sancho was *andaluz*, 45 in 1812**, so a María born in Spain about 1752 stands in his own generation or the one above. **She is on a different film section from Sancho**, so probably a different census year. **Not claimed as kin — she is not attached to anything.** To place her, find her line on the page: it is a nominal list with **name, age, nationality, occupation**, and it is **rotated 90°** — `transform: rotate(-90deg)` with mild `contrast(1.5)`; heavy contrast destroys the pencil. A household number in the left margin will give her household."
+    },
+    {
+      "n": 165,
+      "what": "Place Luis Llerena in the Uruguayan census collection",
+      "state": "next",
+      "owner": "this archive",
+      "since": "2026-09-20",
+      "note": "The third of three Llerenas in **Uruguay, Census Records, 1726–1858** — ark **1:1:6BR7-8DPW** — and the index gives him **no age, no birthplace and no household**. This archive holds two candidates: **Luis, Sancho's son baptised 1811**, and **Don Luis Lerena (1811–1878)**, husband of Justiniana Lenguas and now the documented father of Gilberto. **Which, or neither, is unknown.** The page will say more than the index does."
+    },
+    {
+      "n": 166,
+      "what": "Work the 1726–1858 census collection for the generation above Sancho",
+      "state": "next",
+      "owner": "this archive",
+      "since": "2026-09-20",
+      "note": "**The collection spans earlier than anything else worked here in Uruguay** — the archive's Uruguayan work starts at the Canelones baptisms of 1791, and this reaches back to **1726**. Sancho arrived from Andalusia and his parentage is the wall row 22 is stuck on. **Census records of the eighteenth century are exactly where an immigrant first appears**, with an age and a stated birthplace. Sweep it for **Lerena, Llerena, Serena and Gerena** across the whole span, not just 1812."
     }
   ],
   "accounts": [
