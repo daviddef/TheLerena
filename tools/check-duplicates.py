@@ -86,6 +86,7 @@ def main():
         return 0
     people = json.loads(PEOPLE.read_text(encoding="utf-8"))
     ok = declared()
+    baselining = "--baseline" in sys.argv
     buckets = {}
     for p in people:
         if p.get("aliasOf"):
@@ -119,7 +120,10 @@ def main():
         for i in range(len(names)):
             for j in range(i + 1, len(names)):
                 a, b = by_name[names[i]], by_name[names[j]]
-                if frozenset((names[i], names[j])) in ok:
+                # Baselining must see EVERY pair, not just the undeclared ones. Skipping the
+                # declared ones here is what made --baseline destructive: it rewrote the file
+                # from the leftovers and dropped the whole reviewed backlog on the floor.
+                if not baselining and frozenset((names[i], names[j])) in ok:
                     continue
                 why = None
                 shared_ark = arks(a) & arks(b)
@@ -142,7 +146,18 @@ def main():
                 if why:
                     pairs.append((k, names[i], names[j], why))
 
-    if pairs and "--baseline" in sys.argv:
+    if pairs and baselining:
+        kept = {}
+        if DECLARED.exists():
+            for line in DECLARED.read_text(encoding="utf-8").splitlines():
+                s = line.strip()
+                if not s or s.startswith("#") or "#" not in s or "||" not in s:
+                    continue
+                names, reason = s.split("#", 1)
+                if "||" in names:
+                    x, y = (w.strip() for w in names.split("||", 1))
+                    kept[frozenset((x, y))] = reason.strip()
+        n_reasoned = sum(1 for _, a, b, _ in pairs if frozenset((a, b)) in kept)
         hdr = [
             "# SAME-NAME PERSON PAIRS - the backlog, and the baseline this gate fires against.",
             "#",
@@ -150,9 +165,13 @@ def main():
             "# surname AND something only the same person would share. Every pair it finds must be",
             "# listed here, so a NEW one fails the build and gets looked at while it is still fresh.",
             "#",
-            "# %d PAIRS WERE ALREADY PRESENT on 20 September 2026 and are listed UNREVIEWED." % len(pairs),
-            "# *** Being in this file does NOT mean a pair has been compared. *** It means the gate has",
-            "# seen it. Mark one reviewed by putting the reason after a #, for example:",
+            "# 133 PAIRS WERE PRESENT when this file was first written, on 20 September 2026.",
+            "# %d ARE LISTED NOW, AND %d OF THEM CARRY A REASON - those have been compared." % (
+                len(pairs), n_reasoned),
+            "# *** The other %d have NOT. *** Being in this file does not mean a pair has been" % (
+                len(pairs) - n_reasoned),
+            "# compared; it means the gate has seen it. Mark one reviewed by writing the reason",
+            "# after a #, for example:",
             "#   Name A || Name B   # different men: one d.1878 Montevideo, one arr. Buenos Aires 1926",
             "#",
             "# The list exists because this archive added a duplicate of Dominga Josefa Llerena on the",
@@ -161,9 +180,16 @@ def main():
             "# duplicate person is perfectly well-formed: it renders, it carries evidence, it passes.",
             "",
         ]
-        DECLARED.write_text("\n".join(hdr + ["%s || %s" % (a, b) for _, a, b, _ in pairs]) + "\n",
-                            encoding="utf-8")
-        print("  baselined %d pair(s) into data/_person-pairs.txt" % len(pairs))
+        # The reasons are the only part of this file worth having, and they are carried
+        # forward above - a rebaseline that dropped them would do it silently, since the
+        # gate would still pass afterwards.
+        out = []
+        for _, a, b, _ in pairs:
+            r = kept.get(frozenset((a, b)))
+            out.append("%s || %s   # %s" % (a, b, r) if r else "%s || %s" % (a, b))
+        DECLARED.write_text("\n".join(hdr + out) + "\n", encoding="utf-8")
+        print("  baselined %d pair(s) into data/_person-pairs.txt, %d reason(s) carried forward"
+              % (len(pairs), sum(1 for o in out if "#" in o)))
         return 0
 
     if pairs:

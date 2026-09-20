@@ -4,16 +4,17 @@
 # surname AND something only the same person would share. Every pair it finds must be
 # listed here, so a NEW one fails the build and gets looked at while it is still fresh.
 #
-# 133 PAIRS WERE ALREADY PRESENT on 20 September 2026 and are listed UNREVIEWED.
-# *** Being in this file does NOT mean a pair has been compared. *** It means the gate has
-# seen it. Mark one reviewed by putting the reason after a #, for example:
+# 133 PAIRS WERE PRESENT when this file was first written, on 20 September 2026.
+# 131 ARE LISTED NOW, AND 8 OF THEM CARRY A REASON - those have been compared.
+# *** The other 123 have NOT. *** Being in this file does not mean a pair has been
+# compared; it means the gate has seen it. Mark one reviewed by writing the reason
+# after a #, for example:
 #   Name A || Name B   # different men: one d.1878 Montevideo, one arr. Buenos Aires 1926
 #
 # The list exists because this archive added a duplicate of Dominga Josefa Llerena on the
 # day this checker was written - one hour after refusing to add duplicates on principle.
 # Every other gate here catches BROKEN data. Nothing caught REDUNDANT data, because a
 # duplicate person is perfectly well-formed: it renders, it carries evidence, it passes.
-
 Avelino Carlos LERENA (CEMLA crossings) || Avelino Carlos LERENA (b.1904, Mendoza baptism)
 Avelino Carlos LERENA (b.1904, Mendoza baptism) || Avelino LERENA Fernandez (son of Sancho)
 Bernabe LERENA (of Trinidad) || Bernabe LERENA (1911 dispensation)
@@ -22,15 +23,15 @@ Carlos Augusto Federico LERENA || Carlos LERENA Salvanach (b.1884, son of Gilber
 Carlos LERENA (b.1885, arr. 1926) || Carlos LERENA Salvanach (b.1884, son of Gilberto)
 Emilia LERENA || Emilia LERENA Vega (b. c.1815)   # REVIEWED 20 Sep 2026: DIFFERENT WOMEN. One b.1886 in SPAIN, in Leandro's 1895 household; the other b.c.1815 in MONTEVIDEO, daughter of Pedro Antonio Lerena and Vicenta Vega. Seventy-one years and two countries apart.
 Felisa LERENA (arr. 1911) || Felisa LERENA (arr. 1923)
-Fidel LERENA Fernandez || Fidel LERENA (m. Maria Ruedas)
+Fidel LERENA Fernandez || Fidel LERENA (m. Maria Ruedas)   # REVIEWED 20 Sep: CANDIDATE, HELD APART ON PURPOSE. A rare forename twice in one city. Sancho's Fidel has a tree-only death in 1822 which, if wrong, makes the merge possible. TEST NAMED AND UNRUN: a Montevideo marriage FIDEL LERENA x MARIA RUEDAS, and a burial c.1822.
 Francisco LERENA (b.1890, 1895 census) || Francisco LERENA (b.1891, arr. 1930)
 Francisco LERENA (b.1890, 1895 census) || Francisco LLERENA (arr. 1923-25)
 Francisco LERENA (b.1891, arr. 1930) || Francisco LERENA (b.1923, arr. 1930)
 Francisco LERENA (b.1891, arr. 1930) || Francisco LLERENA (arr. 1923-25)
-Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS) || Gilberto LERENA (b.1879, arr. 1928)
+Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS) || Gilberto LERENA (b.1879, arr. 1928)   # REVIEWED 20 Sep: DIFFERENT MEN whichever way the 1928 arrival resolves. The Stud Book Gilberto was 41 in 1895 and born 1854; the traveller was born 1879. If the traveller is the Salvanach son, these two are father and son.
 Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS) || Gilberto LERENA Salvanach (the younger, b.1878)
-Gilberto LERENA (b.1879, arr. 1928) || Gilberto LERENA (b.1916, arr. 1928)
-Gilberto LERENA (b.1879, arr. 1928) || Gilberto LERENA Salvanach (the younger, b.1878)
+Gilberto LERENA (b.1879, arr. 1928) || Gilberto LERENA (b.1916, arr. 1928)   # REVIEWED 20 Sep: FATHER AND SON on one passenger list, 37 years apart - comercio and estudiante, landed together 27 Feb 1928.
+Gilberto LERENA (b.1879, arr. 1928) || Gilberto LERENA Salvanach (the younger, b.1878)   # REVIEWED 20 Sep: STRONG CANDIDATE, NOT MERGED. The only stated objection - "not in the 1895 household" - was false and is retracted; he is line 6 of that schedule at 17. Birth years one apart, Argentine nationality, Buenos Aires, and a son Gilberto b.1916 travelling with him against a marriage of 1906. Both rows index-level. TEST: the military record's date of birth, or the CEMLA marital status.
 Gregorio LERENA (arr. 1911) || Gregorio LERENA (arr. 1924)
 Gregorio LERENA (arr. 1911) || Gregorio LARENA
 Gregorio LERENA (arr. 1924) || Gregorio LARENA
@@ -41,8 +42,8 @@ Jose LERENA || Jose LLERENA (arr. 1926)
 Jose LLERENA (arr. 1910) || Jose LLERENA (arr. 1926)
 Jose Ma. LLERENA || Jose Julio LERENA Juanico
 Jose Julio LERENA Juanico || Jose Loreto LERENA Fernandez
-Josefa LERENA de L. || Josefa LERENA TRAIBEL (1851-1947)
-Josefa LERENA (godmother, 1885) || Josefa LERENA TRAIBEL (1851-1947)
+Josefa LERENA de L. || Josefa LERENA TRAIBEL (1851-1947)   # REVIEWED 20 Sep: PROBABLY DIFFERENT WOMEN, and the sharper of the two Josefa questions. The 1895 enumerator writes wives as [maiden surname] "de L." - Lenguas de Lerena, Salvanach de Lerena - so line 4 married a LERENA. Josefa Lerena Traibel married a MORATORIO, on the parish act of her daughters' baptism at Union, 8 Mar 1880. Either the "de L." reading is wrong, or these are two women. Not merged.
+Josefa LERENA (godmother, 1885) || Josefa LERENA TRAIBEL (1851-1947)   # REVIEWED 20 Sep: CANDIDATE, HELD APART ON PURPOSE. The Traibel row has claimed this candidacy since 14 Sep and refuses the merge itself, citing the two Arturos. Ages agree within a year. No act joins them.
 Juan Jose LERENA || Juan Bernardo LERENA Pelaez
 Juan LARENA (Gualeguaychu) || Juan Antonio LARENA
 Juan LARENA (Gualeguaychu) || Juan Bernardo LERENA Pelaez
@@ -59,7 +60,7 @@ Luis LLERENA || Luis Alejandro LLERENA
 Luis LLERENA || Don Luis Eugenio LERENA LENGUAS
 Luis LLERENA || Don Luis LERENA (the godfather) = probably Luis LERENA y Fernandez
 Luis LLERENA || Luis LERENA (son of Cayetana Faustina)
-Don Luis Eugenio LERENA LENGUAS || Don Luis LERENA (the godfather) = probably Luis LERENA y Fernandez
+Don Luis Eugenio LERENA LENGUAS || Don Luis LERENA (the godfather) = probably Luis LERENA y Fernandez   # REVIEWED 20 Sep: FATHER AND SON. The son's marriage act of 19 Dec 1864 names him "hijo legitimo de Don Luis y de Dona Justiniana Lenguas"; Laura Adela's 1869 baptism names the same pair as paternal grandparents. The 29 shared terms are prose, not evidence. But both rows carry 9 FEBRUARY as a birth day 34 years apart, and the son's birth-to-baptism gap is eleven months where the father's was one day - the son's date wants re-reading.
 Don Luis Eugenio LERENA LENGUAS || Luis LERENA (son of Luis Lerena Lenguas)
 Don Luis Eugenio LERENA LENGUAS || Luis LERENA (son of Cayetana Faustina)
 Don Luis Eugenio LERENA LENGUAS || Luis Felipe LERENA Salvanach
@@ -135,7 +136,7 @@ Maria Angelica Julia LERENA Salvanach || Maria Carlota MORATORIO Lerena
 Maria Angelica Julia LERENA Salvanach || Maria de las Mercedes MORATORIO Lerena
 Maria Carlota LERENA Salvanach || Maria Carlota MORATORIO Lerena
 Maria Carlota LERENA Salvanach || Maria de las Mercedes MORATORIO Lerena
-Maria Carlota MORATORIO Lerena || Maria de las Mercedes MORATORIO Lerena
+Maria Carlota MORATORIO Lerena || Maria de las Mercedes MORATORIO Lerena   # REVIEWED 20 Sep: SISTERS, probably twins, baptised together at Union on 8 Mar 1880. They share an ark because ONE ACT NAMES BOTH - the strongest signal this gate has is also its most ambiguous. A shared ark means a shared record, not a shared person. Separate godmothers.
 Maria Carlota MORATORIO Lerena || Maria LERENA (m. Eliseo CARDOZO)
 Maria de las Mercedes MORATORIO Lerena || Maria LERENA (m. Eliseo CARDOZO)
 Maria LERENA (m. Eliseo CARDOZO) || Maria LLERENA (Espanola, 60, head of Casa 2)
@@ -145,3 +146,4 @@ Pedro Antonio LERENA (son of Sancho) || Pedro LERENA Vega (b. c.1817)
 Pedro LORENA (father of Victor, d. before 1889) || Pedro LERENA Vega (b. c.1817)
 Ramon LLERENA || Ramon LERENA (of Rosario-Colla, fl. c.1800-1820)
 Roque Luis Armando LERENA || ROQUE LARENA
+Josefa LERENA (godmother, 1885) || Josefa LERENA de L.   # REVIEWED 20 Sep: CANDIDATE, HELD APART ON PURPOSE. The 1895 household file calls the widow of line 4 "almost certainly" this godmother, and the ages fit - born about 1852, of Gilberto's own generation, in the house of the man whose son she had stood for in 1885. No act joins them: the godmother is a name in a font entry and nothing more.

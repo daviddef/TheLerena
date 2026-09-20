@@ -3,6 +3,7 @@ import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 import { emph } from "../lib/text.js";
 import routes from "../data/three-routes-walked.json";
+import household from "../data/1895-census-gilberto-household.json";
 import letter from "../data/letter-registro-civil-santafe.json";
 import Spine from "@daviddef/archive-kit/components/Spine.astro";
 
@@ -245,27 +246,37 @@ const hasArt = fs.existsSync(
   <p class="dek">The Argentine national census of 1895 is indexed and searchable. It answers a different
     question from the one it was asked.</p>
   <p style="margin-top:18px"><span class="chip doc">Documented</span> One substantial Lerena household
-    appears, in <strong>Buenos Aires, Sección 21, Subdivisión 15</strong>:</p>
+    appears, in <strong>Buenos Aires, Sección de Policía 21, Manzana 15</strong> &mdash; and what follows
+    is the <strong>schedule itself</strong>, read from the image, all sixteen lines of it. <em>Boletín
+    para un hogar o familia</em>: one household, one page, the enumerator&rsquo;s signature at the foot.</p>
   <div class="scroll" style="margin-top:18px">
     <table>
-      <thead><tr><th>Name</th><th class="m">Age</th><th class="m">Born</th><th>Birthplace</th></tr></thead>
+      <thead><tr>
+        <th class="m" style="width:3rem">Línea</th><th>Apellido y nombre</th>
+        <th class="m" style="width:3rem">Sexo</th><th class="m" style="width:4rem">Edad</th>
+        <th style="width:6rem">Estado</th><th style="width:9rem">Nación</th><th>Profesión</th>
+      </tr></thead>
       <tbody>
-        <tr><td><strong>Gilberto Lerena</strong> <span class="cap">head, married</span></td><td class="m">41</td><td class="m">1854</td><td><strong>Uruguay</strong></td></tr>
-        <tr><td>Maria E. C.</td><td class="m">26</td><td class="m">1869</td><td>Uruguay</td></tr>
-        <tr><td>Maria Luisa</td><td class="m">15</td><td class="m">1880</td><td>Uruguay</td></tr>
-        <tr><td>Carlos A.</td><td class="m">11</td><td class="m">1884</td><td>Uruguay</td></tr>
-        <tr><td>Raul A.</td><td class="m">9</td><td class="m">1886</td><td>Uruguay</td></tr>
-        <tr><td>Maria A.</td><td class="m">8</td><td class="m">1887</td><td>Uruguay</td></tr>
-        <tr><td>Maria C.</td><td class="m">6</td><td class="m">1889</td><td><strong>Buenos Aires</strong></td></tr>
-        <tr><td>Maria E.</td><td class="m">5</td><td class="m">1890</td><td>Buenos Aires</td></tr>
-        <tr><td>Luis F.</td><td class="m">2</td><td class="m">1893</td><td>Buenos Aires</td></tr>
+        {household.map((r) => (
+          <tr>
+            <td class="m">{r["line"]}</td>
+            <th set:html={emph(r["apellido y nombre"])} />
+            <td class="m">{r["sexo"]}</td>
+            <td class="m" set:html={emph(r["edad"])} />
+            <td class="cap" set:html={emph(r["estado"])} />
+            <td class="cap">{r["nacion"]}</td>
+            <td class="cap" set:html={emph(r["profesion"])} />
+          </tr>
+        ))}
       </tbody>
     </table>
   </div>
   <p style="margin-top:20px">
     Uruguayan records already give <strong>Gilberto Lerena</strong> married to <strong>Julia
     Salvañach</strong>, with sons <strong>Carlos Augusto Federico</strong> (born Montevideo, 1883) and
-    <strong>Raul</strong> (1885). Here they are, in Buenos Aires, ten years on.
+    <strong>Raul</strong> (1885). Here they are, in Buenos Aires, ten years on &mdash; and with them
+    <strong>Justiniana Lenguas, a widow of 73</strong>, which dates the death of <strong>Don Luis
+    Lerena</strong> to before 1895, and a broker&rsquo;s trade written against the head of the house.
   </p>
   <p style="margin-top:14px">
     <span class="chip inf">Inferred</span> So the co-founder of the <a href={u("/horses/")}>Argentine Stud
@@ -274,19 +285,34 @@ const hasArt = fs.existsSync(
     precisely: <strong>Uruguay through 1887, Buenos Aires from 1889</strong>.
   </p>
   <p style="margin-top:20px">
-    <span class="chip doc">Documented</span> A <strong>second Gilberto</strong> sits just outside this
-    table, and he is worth naming because he is the closer match on every axis except the one that counts.
-    On <strong>27 February 1928</strong> a <strong>Gilberto Lerena born 1879</strong> landed at Buenos Aires
-    aboard the <em>Cap Norte</em>, travelling as an <strong>Argentine national</strong> and accompanied by a
-    son of the same name. He was born within three years of Pablo Armando, and he carries the
+    <span class="chip doc">Documented</span> A <strong>second Gilberto</strong> sits outside this
+    household, and he is worth naming. On <strong>27 February 1928</strong> a <strong>Gilberto Lerena born
+    1879</strong> landed at Buenos Aires aboard the <em>Cap Norte</em>, travelling as an <strong>Argentine
+    national</strong>, a <em>comerciante</em>, accompanied by a son of the same name aged twelve. He was
+    born <strong>within three years of Pablo Armando</strong>, and he is carrying the
     <strong>Gilberto</strong> forename of the Stud Book family above.
   </p>
+  <div class="note" style="margin-top:24px">
+    <strong>This page used to say he was &ldquo;not in the 1895 household&rdquo;. That was wrong, and it
+    was wrong because of the table above.</strong> The table printed here until 20 September 2026 was built
+    from the <em>search index</em> and held nine names. The schedule holds sixteen, and
+    <strong>line 6 is &ldquo;Salvanach Lerena, GILBERTO&rdquo;, varón, 17, soltero</strong> &mdash; the
+    eldest son, born 1877 or 1878, against the traveller&rsquo;s 1879. The schedule had been read on
+    <strong>14 September</strong>; the page went on reasoning from the index for six days.
+  </div>
+  <p style="margin-top:20px">
+    <span class="chip inf">Inferred</span> With that objection gone, the two records fit each other on
+    every axis available: a birth year one apart, <strong>Argentine nationality</strong> — which the
+    Salvañach son demonstrably holds, Montevideo-born though he was, since he appears in Argentine
+    military records from 1911 to 1936 — Buenos Aires, a marriage of <strong>19 May 1906</strong> at the
+    Pilar, and a son born 1916 who is exactly the <em>estudiante</em> of twelve walking down the gangway
+    beside him.
+  </p>
   <p style="margin-top:14px">
-    <span class="chip inf">Inferred</span> And yet he is <strong>not in the 1895 household</strong> &mdash;
-    not as a son of Gilberto (1854), who was then 41 with children born from 1880, nor anywhere else in that
-    return. So the name recurs in a family this archive can see, in a generation it cannot place him in.
-    He is recorded here as an <em>unresolved namesake</em>, not as a relative: an Argentine-born Lerena of
-    Pablo Armando's own cohort, carrying a forename the Buenos Aires family used, and attached to neither.
+    <strong>They are deliberately not merged.</strong> Both records are index-level, and this archive
+    once joined two Arturo Lerenas on a forename and an age and had to retract the branch within the hour.
+    The test is cheap and named: the military record carries a date of birth, and the passenger entry
+    carries a marital status. Either one settles it.
   </p>
   <div class="note" style="margin-top:24px">
     <strong>He is not Pablo Armando's household</strong>, and Pablo Armando is not in the 1895 census at

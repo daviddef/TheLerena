@@ -1,0 +1,119 @@
+[
+ {
+  "line": "1",
+  "apellido y nombre": "*** Lerena, GILBERTO ***",
+  "sexo": "v",
+  "edad": "41",
+  "estado": "casado",
+  "nacion": "R. Oriental",
+  "profesion": "*** CORREDOR DE COMERCIO ***"
+ },
+ {
+  "line": "2",
+  "apellido y nombre": "*** Lenguas de L[erena], JUSTINIANA ***",
+  "sexo": "m",
+  "edad": "*** 73 ***",
+  "estado": "*** VIUDA ***",
+  "nacion": "R. Oriental",
+  "profesion": "-"
+ },
+ {
+  "line": "3",
+  "apellido y nombre": "Salvanach de L[erena], JULIA",
+  "sexo": "m",
+  "edad": "40",
+  "estado": "casada",
+  "nacion": "R. Oriental",
+  "profesion": "-"
+ },
+ {
+  "line": "4",
+  "apellido y nombre": "*** Lerena de L[erena], JOSEFA ***",
+  "sexo": "m",
+  "edad": "*** 43 ***",
+  "estado": "*** VIUDA ***",
+  "nacion": "R. Oriental",
+  "profesion": "-"
+ },
+ {
+  "line": "5",
+  "apellido y nombre": "Lerena, MARIA E. C.",
+  "sexo": "m",
+  "edad": "26",
+  "estado": "*** soltera ***",
+  "nacion": "R. Oriental",
+  "profesion": "-"
+ },
+ {
+  "line": "6",
+  "apellido y nombre": "Salvanach Lerena, GILBERTO",
+  "sexo": "v",
+  "edad": "17",
+  "estado": "soltero",
+  "nacion": "R. Oriental",
+  "profesion": "-"
+ },
+ {
+  "line": "7",
+  "apellido y nombre": "Lerena, MARIA LUISA",
+  "sexo": "m",
+  "edad": "15",
+  "estado": "soltera",
+  "nacion": "R. Oriental",
+  "profesion": "-"
+ },
+ {
+  "line": "8",
+  "apellido y nombre": "Lerena, CARLOS A.",
+  "sexo": "v",
+  "edad": "11",
+  "estado": "soltero",
+  "nacion": "R. Oriental",
+  "profesion": "estudiante"
+ },
+ {
+  "line": "9",
+  "apellido y nombre": "Lerena, RAUL A.",
+  "sexo": "v",
+  "edad": "9",
+  "estado": "soltero",
+  "nacion": "R. Oriental",
+  "profesion": "estudiante"
+ },
+ {
+  "line": "10-13",
+  "apellido y nombre": "Lerena - MARIA A., MARIA C., MARIA E., LUIS F.",
+  "sexo": "-",
+  "edad": "6, 6, 5, 2",
+  "estado": "-",
+  "nacion": "Argentina, Bs. As.",
+  "profesion": "-"
+ },
+ {
+  "line": "14",
+  "apellido y nombre": "Mc Carrera(?), MARIA",
+  "sexo": "m",
+  "edad": "15",
+  "estado": "-",
+  "nacion": "-",
+  "profesion": "-"
+ },
+ {
+  "line": "15",
+  "apellido y nombre": "Taboada, DOLORES",
+  "sexo": "m",
+  "edad": "26",
+  "estado": "-",
+  "nacion": "Espana",
+  "profesion": "sirvienta"
+ },
+ {
+  "line": "16",
+  "apellido y nombre": "Gonzalez, ROSA",
+  "sexo": "m",
+  "edad": "18",
+  "estado": "-",
+  "nacion": "Argentina, Tucuman",
+  "profesion": "sirvienta"
+ }
+]
