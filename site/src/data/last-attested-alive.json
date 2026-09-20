@@ -1540,6 +1540,13 @@
   "tier": "BIRTH ONLY"
  },
  {
+  "name": "Andres LERENA Traibel",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
   "name": "Josefa CORBELLE de Lemus",
   "born_est": "-",
   "last_attested_alive": "-",
@@ -1576,8 +1583,8 @@
  },
  {
   "name": "Maria Adelina LERENA Traibel (de FEIN)",
-  "born_est": "c.1865",
-  "last_attested_alive": "c.1865",
+  "born_est": "1865-08-13",
+  "last_attested_alive": "1865-08-13",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
