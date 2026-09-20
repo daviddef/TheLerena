@@ -69,6 +69,7 @@ import h97 from "../data/household-97-serena.json";
 import h229 from "../data/household-229-pedro-antonio.json";
 import sweep from "../data/census-seven-spellings.json";
 import dom from "../data/dominga-carballo-1836.json";
+import carts from "../data/luis-llerena-carts.json";
 ---
 <Base title="Uruguay"
       eyebrow="Two Lerena families, two Spanish origins, and neither of them is his"
@@ -523,6 +524,40 @@ import dom from "../data/dominga-carballo-1836.json";
       </tr></thead>
       <tbody>
         {dom.map((r) => { const c = Object.values(r); return (
+          <tr>
+            <th set:html={emph(c[0])} />
+            <td class="cap" set:html={emph(c[1])} />
+            <td class="cap" set:html={emph(c[2])} />
+          </tr>); })}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-luis-carts">Luis Llerena, owner of carts and coaches</h2>
+  <div class="prose">
+    <p>The third Llerena in the census collection had an index entry giving <strong>a name, a sex, and
+    nothing else</strong>. The page turned out not to be a census at all: it is a
+    <strong>padrón of the owners of handcarts, wagons and coaches</strong> in a Montevideo district, and
+    <strong>Luis Llerena is entry 10</strong>, with entry 11 marked <em>ídem</em> &mdash; which is how
+    these lists repeat an owner for a second vehicle.</p>
+    <p>That is worth knowing about the collection as much as about the man. <strong>A collection called
+    <em>Census Records</em> holds property registers too, and the index does not say which is
+    which</strong> &mdash; so an entry here is not evidence of residence, only of owning something.</p>
+    <p><strong>The year is not secure and is not being guessed:</strong> the heading ends
+    <em>&ldquo;de 18__&rdquo;</em>, and the last two digits read as 1841, 1842 or 1846. Nor is the man
+    identified &mdash; this archive has two candidate Luises and the page offers no age, no household
+    and no parents to choose between them.</p>
+  </div>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr>
+        <th style="width:13rem">What</th><th style="width:20rem">What the page shows</th>
+        <th>Certainty</th>
+      </tr></thead>
+      <tbody>
+        {carts.map((r) => { const c = Object.values(r); return (
           <tr>
             <th set:html={emph(c[0])} />
             <td class="cap" set:html={emph(c[1])} />
