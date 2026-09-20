@@ -2000,5 +2000,26 @@
   "last_attested_alive": "c.1824",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Emilia LERENA Vega (b. c.1815)",
+  "born_est": "c.1815",
+  "last_attested_alive": "c.1815",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Pedro LERENA Vega (b. c.1817)",
+  "born_est": "c.1817",
+  "last_attested_alive": "c.1817",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Vicenta LERENA Vega (b. c.1821)",
+  "born_est": "c.1821",
+  "last_attested_alive": "c.1821",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]

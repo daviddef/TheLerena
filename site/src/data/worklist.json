@@ -1327,10 +1327,10 @@
     {
       "n": 166,
       "what": "Work the 1726–1858 census collection for the generation above Sancho",
-      "state": "next",
+      "state": "done",
       "owner": "this archive",
       "since": "2026-09-20",
-      "note": "**The collection spans earlier than anything else worked here in Uruguay** — the archive's Uruguayan work starts at the Canelones baptisms of 1791, and this reaches back to **1726**. Sancho arrived from Andalusia and his parentage is the wall row 22 is stuck on. **Census records of the eighteenth century are exactly where an immigrant first appears**, with an age and a stated birthplace. Sweep it for **Lerena, Llerena, Serena and Gerena** across the whole span, not just 1812."
+      "note": "**The collection spans earlier than anything else worked here in Uruguay** — the archive's Uruguayan work starts at the Canelones baptisms of 1791, and this reaches back to **1726**. Sancho arrived from Andalusia and his parentage is the wall row 22 is stuck on. **Census records of the eighteenth century are exactly where an immigrant first appears**, with an age and a stated birthplace. Sweep it for **Lerena, Llerena, Serena and Gerena** across the whole span, not just 1812. *** SWEPT, all seven spellings, 20 September 2026 - see /uruguay/. *** **SERENA 10** (two complete households: Don Luis's c.1858 and Pedro Antonio's c.1833), **LLERENA 3** (Sancho, plus María 60 born España and Luis, both unplaced), **LERENA 27** fuzzy and mostly noise — **Sancho is not among them, because he is indexed Llerena** — **LORENA 6**, and **GERENA, LERINA and LARENA all zero**, tested against controls of 10 and 3 on the identical form. **It did not reach the generation above Sancho**, which was the row's hope; what it reached was two generations of his own descendants and one new candidate for a daughter nobody has ever followed."
     },
     {
       "n": 167,
@@ -1347,6 +1347,14 @@
       "owner": "this archive",
       "since": "2026-09-20",
       "note": "New to this archive, added to the register. Entered at **34** in household 97 of the c.1858 census, **a year older than Justiniana Lenguas herself** and living among her children. **A brother of hers is the obvious reading and is not asserted** — the census gives names, ages and nationality and no relationships at all. The Lenguas are already the best-documented side of this marriage: General Don Pedro Lenguas, Don Antonio, D. Juan, D. Felipe and Doña Sixta are all in the register. **Telesforo is not, and should be findable among them.**"
+    },
+    {
+      "n": 169,
+      "what": "Is Dominga Lorena of the 1836 Montevideo census Sancho's daughter?",
+      "state": "next",
+      "owner": "this archive",
+      "since": "2026-09-20",
+      "note": "**Dominga Lorena, 28, born Montevideo**, ark **1:1:6BV9-FR8D**, on a page headed **AÑO DE 1836 — DEPARTAMENTO DE MONTEVIDEO** (image apid TH-1951-36766-25725-94). **Sancho's youngest child was Dominga, aged 7 in the 1812 padrón**, so born about 1805 — which gives 31 in 1836, not 28. **Three years out on a census age, which is what a householder said rather than what a register holds.** A candidate, not a finding, and **not attached to Sancho**. What makes her worth the chase: **this archive has never followed Dominga past the 1812 padrón at all** — she is one of the six children with no later record of any kind. Her household on the page will say whether she is married, and to whom."
     }
   ],
   "accounts": [

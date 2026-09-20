@@ -67,6 +67,7 @@ import gl from "../data/gonzalez-lerena.json";
 import colla from "../data/rosario-colla-household.json";
 import h97 from "../data/household-97-serena.json";
 import h229 from "../data/household-229-pedro-antonio.json";
+import sweep from "../data/census-seven-spellings.json";
 ---
 <Base title="Uruguay"
       eyebrow="Two Lerena families, two Spanish origins, and neither of them is his"
@@ -463,6 +464,34 @@ import h229 from "../data/household-229-pedro-antonio.json";
             <td><strong set:html={emph(c[1])} /></td>
             <td class="cap" set:html={emph(c[2])} />
             <td class="cap" set:html={emph(c[3])} />
+          </tr>); })}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-seven-spellings">All seven spellings, put to one collection</h2>
+  <div class="prose">
+    <p>This archive keeps <strong>seven spellings</strong> of the surname. All seven have now been put
+    to <em>Uruguay, Census Records, 1726&ndash;1858</em>. <strong>Serena alone returned two complete
+    households</strong>, and <strong>Sancho is not among the Lerena results at all</strong> &mdash; he
+    is indexed Llerena. That is the whole argument for sweeping spellings rather than searching a name.</p>
+    <p>Three of the seven returned nothing, and they are tested nulls rather than silences: Serena
+    returns ten and Llerena three on the identical query, so the form works.</p>
+  </div>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr>
+        <th style="width:9rem">Spelling</th><th style="width:6rem">Result</th>
+        <th>What came of it</th>
+      </tr></thead>
+      <tbody>
+        {sweep.map((r) => { const c = Object.values(r); return (
+          <tr>
+            <th set:html={emph(c[0])} />
+            <td><strong set:html={emph(c[1])} /></td>
+            <td class="cap" set:html={emph(c[2])} />
           </tr>); })}
       </tbody>
     </table>
