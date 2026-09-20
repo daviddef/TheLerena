@@ -1334,11 +1334,11 @@
     },
     {
       "n": 167,
-      "what": "Reconcile household 97 against the Lerena Lenguas siblings already held",
-      "state": "next",
+      "what": "Household 97 will not reconcile by index — it needs the parish register",
+      "state": "blocked",
       "owner": "this archive",
       "since": "2026-09-20",
-      "note": "The c.1858 census gives **Don Luis Lerena's household with ages** — see /uruguay/. Three things need settling. **(1) María Serena, 12**, implying a birth about 1846, is **nobody this archive holds**, and she would sit exactly between Luis Eugenio (1845) and Alberto Octavio (1850). **(2) Justiniana Serena, 10** implies 1848, but the archive's **Justiniana Mauricia Maxima is b. 30 July 1843**, which gives 15 — **either the age is wrong, there are two Justianas, or the archive's date is.** Recorded as a contradiction, not forced. **(3) Josefa Serena, 7** implies 1851 and may be the *'Josefa in Gilberto's 1895 household (b. c.1852)'* already here — one year apart, **not merged**. Also absent from the page: **Alberto Octavio**, b. 1850, who should be about 8 and is not there."
+      "note": "The c.1858 census gives **Don Luis Lerena's household with ages** — see /uruguay/. Three things need settling. **(1) María Serena, 12**, implying a birth about 1846, is **nobody this archive holds**, and she would sit exactly between Luis Eugenio (1845) and Alberto Octavio (1850). **(2) Justiniana Serena, 10** implies 1848, but the archive's **Justiniana Mauricia Maxima is b. 30 July 1843**, which gives 15 — **either the age is wrong, there are two Justianas, or the archive's date is.** Recorded as a contradiction, not forced. **(3) Josefa Serena, 7** implies 1851 and may be the *'Josefa in Gilberto's 1895 household (b. c.1852)'* already here — one year apart, **not merged**. Also absent from the page: **Alberto Octavio**, b. 1850, who should be about 8 and is not there. *** WORKED 20 September 2026 and it cannot be closed by searching. *** Three children match: **Luis E. (1845), Gualberto/Gilberto, Erna/Ema (1857)**. **Three in the census are not in this register** — María c.1847, Justiniana c.1849, Josefa c.1852. **Two in the register are not in the house** — Justiniana Mauricia Maxima, who would be 15, and **Alberto Octavio, who would be 8, with no eight-year-old on the page at all.** **The Justiniana conflict has two readings**: a five-year age error, or **two daughters of the same name with the elder dead** — which would also explain Alberto Octavio. **Neither is asserted.** **No new people were added, deliberately:** if the ages are what is wrong, adding them creates duplicates of people already here, and this archive has spent this week unpicking duplicates rather than making them. **Blocked on reading the San Francisco de Asís baptism register straight through** — which is where the archive's existing exact dates came from, so the register is already known to it."
     },
     {
       "n": 168,
