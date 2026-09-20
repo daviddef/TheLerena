@@ -5,6 +5,7 @@ import { u } from "../lib/url.js";
 import { emph } from "../lib/text.js";
 import dgs from "../data/dgs-audit.json";
 import traps from "../data/forename-traps.json";
+import zeros from "../data/false-zeros.json";
 ---
 <Base title="Method"
       eyebrow="How this archive decides what it will say"
@@ -151,6 +152,49 @@ import traps from "../data/forename-traps.json";
       are indexed, and do not contain him. <strong>That is the only one of the four that survived, and it
       is the only one this archive would publish.</strong></p>
   </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-false-zeros">Every disguise a false zero has worn</h2>
+  <p class="dek">The rule above was not arrived at once. It was arrived at twelve times, and this is
+    the catalogue &mdash; because a search that fails in a way that looks like an answer is the most
+    dangerous thing this archive meets, and the next one will not look like any of these either.</p>
+  <div class="prose">
+    <p><strong>Nine of these were written in working logs where no reader could see them</strong>
+      &mdash; found on 20 September 2026 by asking which findings in this archive&rsquo;s 136 working
+      files reach no page at all. The two dated that day were caught by the habit rather than by luck,
+      which is the only argument for keeping a habit.</p>
+    <p class="cap">On 15 September the working log recorded that the same trap had been seen
+      <strong>four times in a month, in four different disguises</strong>. It is now twelve.</p>
+  </div>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr>
+        <th style="width:14rem">The disguise</th><th style="width:16rem">What it looked like</th>
+        <th style="width:16rem">What it actually was</th><th>How it was caught</th>
+        <th class="m" style="width:6rem">When</th>
+      </tr></thead>
+      <tbody>
+        {zeros.map((r) => {
+          const c = Object.values(r);
+          return (
+            <tr>
+              <th set:html={emph(c[0])} />
+              <td class="cap" set:html={emph(c[1])} />
+              <td class="cap" set:html={emph(c[2])} />
+              <td class="cap" set:html={emph(c[3])} />
+              <td class="m">{c[4]}</td>
+            </tr>
+          );
+        })}
+      </tbody>
+    </table>
+  </div>
+  <p class="cap" style="margin-top:14px"><strong>What they have in common is not the mechanism.</strong>
+    A quota, a logout, a throttle, a block, a mislabelled reel and a counter that ignores its own
+    parameters have nothing to do with one another. What they share is that
+    <strong>each produced a page a careful person would have believed</strong>, and that in every single
+    case the thing that caught it was a control query whose answer was already known.</p>
 </section>
 
 <section class="blk">

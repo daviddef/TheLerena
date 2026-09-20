@@ -1,0 +1,86 @@
+[
+ {
+  "disguise": "*** THE PAGE THAT COUNTS BEFORE IT HAS LOOKED ***",
+  "what it looked like": "*** \"Historical Record Search Results (0)\" *** - complete, composed, confident, and indistinguishable from an empty result.",
+  "what it actually was": "The heading rendering *** while the query was still running. *** Waiting returned the five records, then 210, then 822.",
+  "how it was caught": "A control on *** Sancho Lerena ***, whose five records had been pulled twenty minutes earlier, returned zero as well. A known-false zero proves the fault is in the query.",
+  "when": "14 Sep 2026"
+ },
+ {
+  "disguise": "*** AND IT IS STILL DOING IT SIX DAYS LATER ***",
+  "what it looked like": "The same \"(0)\", three times in one sitting - on Justo, on Alfredo Justiniano, and on the first Gilberto sweep.",
+  "what it actually was": "*** 39, 80 and 63 records. *** The heading is the page talking to itself before the results arrive.",
+  "how it was caught": "Reading the page *** twice ***, which is in this archive's habits precisely because of the entry above, and still nearly produced three false nulls in one evening.",
+  "when": "20 Sep 2026"
+ },
+ {
+  "disguise": "*** THE SESSION THAT LOGGED ITSELF OUT AND DID NOT SAY SO ***",
+  "what it looked like": "Three searches returning zero results *** and no \"No Results Found\" line *** - which is normally this archive's proof that a search ran.",
+  "what it actually was": "The FamilySearch session had *** silently expired *** and every request was being redirected to ident.familysearch.org, the sign-in page. It does not announce a logout, and the page that arrives is not obviously an error.",
+  "how it was caught": "The control, *** and only the control: *** \"Sancho Lerena\", which had returned three Canelones baptisms, returned nothing.",
+  "when": "15 Sep 2026"
+ },
+ {
+  "disguise": "*** THE QUOTA ERROR WEARING AN EMPTY SHELF ***",
+  "what it looked like": "A Google Books API response reading *** totalItems: None. ***",
+  "what it actually was": "*** An HTTP 429 *** - the quota refusing, not the shelf being bare.",
+  "how it was caught": "The status code, which the body never mentioned.",
+  "when": "Sep 2026"
+ },
+ {
+  "disguise": "*** THE BLOCK BEHIND AN EMPTY BODY ***",
+  "what it looked like": "A zero-length response, no error, no message.",
+  "what it actually was": "*** \"Access Denied - Error 15, this request was blocked by our security service\" *** - delivered as an empty body rather than as a refusal.",
+  "how it was caught": "The same class of failure as the quota error: *** the service failing in a way that resembles success. *** Worse than an outage, because an outage announces itself.",
+  "when": "Sep 2026"
+ },
+ {
+  "disguise": "*** THE ZERO DELIVERED ON THE WAY TO A BLOCK ***",
+  "what it looked like": "A clean-looking zero from the Granada index, moments before Error 15 arrived.",
+  "what it actually was": "A search already being refused. *** \"A zero delivered immediately before a block is the least trustworthy zero there is.\" ***",
+  "how it was caught": "The control - *** \"Juan de Lerena y Aguilar\", a phrase known to return a hit because it was read an hour before *** - never loaded at all.",
+  "when": "15 Sep 2026"
+ },
+ {
+  "disguise": "*** THE THROTTLE THAT EMPTIES A PAGE ***",
+  "what it looked like": "Four consecutive image transcripts returning *** length zero *** - which looks exactly like four blank pages in a register.",
+  "what it actually was": "*** Rate limiting. *** Image 86, re-read after a forty-second pause, gave 2,970 characters. Image 22 had failed three times across two days and read clean at 3,451.",
+  "how it was caught": "A zero is never allowed to count as a read. *** Eleven pages would otherwise have been silently certified as empty. ***",
+  "when": "14 Sep 2026"
+ },
+ {
+  "disguise": "*** AND THE EMPTY PAGE THAT WAS NOT THE THROTTLE ***",
+  "what it looked like": "Three more empty transcripts, identical in every visible way to the throttle above.",
+  "what it actually was": "*** Images outside the volume altogether. *** The film holds 421 images and several volumes, not the 148 assumed.",
+  "how it was caught": "*** The page TITLE. *** A throttled page still resolves to the volume's name; an image outside the volume resolves to something else. Without that check the three would have been logged \"not read\" forever and the volume never called finished.",
+  "when": "14 Sep 2026"
+ },
+ {
+  "disguise": "*** THE QUERY THAT CANNOT REACH WHAT IS THERE ***",
+  "what it looked like": "Two exact-surname searches returning zero *** with *** the \"No Results Found\" line present.",
+  "what it actually was": "The indexed surname was a *** compound - \"Lerena y Armenta\" - *** which exact matching will not reach.",
+  "how it was caught": "A control showed the same query shape could not retrieve a record *** known to be in the collection. A null from a query that cannot find what is there is not a null. ***",
+  "when": "15 Sep 2026"
+ },
+ {
+  "disguise": "*** THE COUNT THAT HAS NO ZERO TO GIVE ***",
+  "what it looked like": "The FamilySearch *** personas API *** answering 8,549 for surname Lerena in Uruguay.",
+  "what it actually was": "*** The same 8,549 for every variant *** - add a given name, add a spouse, change the control's parameters entirely. The field ignores them. An invented surname, Zzzqqxx, still returns *** 102. ***",
+  "how it was caught": "Running a control with *** deliberately different parameters *** and getting an identical number. No null can ever be drawn from an instrument that cannot return one.",
+  "when": "20 Sep 2026"
+ },
+ {
+  "disguise": "*** THE COLLECTION FILED UNDER THE WRONG COUNTRY ***",
+  "what it looked like": "A reel whose page title attributes it to *** COLOMBIA. ***",
+  "what it actually was": "*** Uruguayan acts. *** The attribution is simply wrong on FamilySearch's side.",
+  "how it was caught": "Reading the images rather than the label. *** Recorded because a researcher who trusted the page title would conclude the reel is Colombian and abandon it. ***",
+  "when": "14 Sep 2026"
+ },
+ {
+  "disguise": "*** THE CORPUS THAT HOLDS THE WRONG RECORD TYPE ***",
+  "what it looked like": "Spanish full-text searches for *** Felix Llerena and Rosalia Aguilar *** returning zero.",
+  "what it actually was": "The Andalusian full-text corpus holds *** nobility and notarial records, not parish registers. *** The zero meant \"not findable by this instrument\", not \"not there\".",
+  "how it was caught": "Asking the control question - *** what Andalusian collections exist at all *** - instead of asking for the name again. Until the corpus is mapped, every Spanish null this archive produces is uninterpretable.",
+  "when": "15 Sep 2026"
+ }
+]
