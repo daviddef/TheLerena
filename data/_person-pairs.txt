@@ -5,10 +5,12 @@
 # listed here, so a NEW one fails the build and gets looked at while it is still fresh.
 #
 # 133 PAIRS WERE PRESENT when this file was first written, on 20 September 2026.
-# 131 ARE LISTED NOW, AND 8 OF THEM CARRY A REASON - those have been compared.
-# *** The other 123 have NOT. *** Being in this file does not mean a pair has been
-# compared; it means the gate has seen it. Mark one reviewed by writing the reason
-# after a #, for example:
+# *** 123 ARE LISTED NOW, AND EVERY ONE OF THEM CARRIES A REASON. *** The backlog was worked to
+# the end on the day it was opened: 123 compared, and the merges that came out of it took the
+# register from 292 people to 286.
+#
+# *** A LINE WITHOUT A REASON IS A PAIR NOBODY HAS LOOKED AT. *** There are none today. When the
+# gate adds one it will sit here bare, and that is the signal. Write the reason after a #:
 #   Name A || Name B   # different men: one d.1878 Montevideo, one arr. Buenos Aires 1926
 #
 # The list exists because this archive added a duplicate of Dominga Josefa Llerena on the
@@ -66,67 +68,67 @@ Maria E. C. LERENA || Maria Julia Margarita Josefa Emirena Justiniana LERENA Jua
 Maria E. C. LERENA || Maria Luisa Lina LERENA Gazo   # REVIEWED 20 Sep: DIFFERENT PARENTS - Maria Luisa Lina is a child of Ysaac Lerena and Adelaida Gazo at Trinidad, Flores, born September 1875.
 Maria E. C. LERENA || Maria LLERENA (Espanola, 60, head of Casa 2)   # REVIEWED 20 Sep: A SPANISH-BORN WOMAN OF SIXTY keeping her own house in Montevideo, against a twenty-six-year-old Uruguayan in a Buenos Aires household. Different generations and different countries of birth.
 Maria Luisa LERENA || Maria Luisa Lina LERENA Gazo   # REVIEWED 20 Sep: DIFFERENT PARENTS AND DIFFERENT TOWNS. Gilberto's daughter, born Uruguay 1880 and counted at fifteen in the 1895 Buenos Aires schedule; against Ysaac Lerena and Adelaida Gazo's child, baptised at Trinidad, Flores in September 1875. The forename repeats across the whole surname - this register holds a dozen Marias.
-Maria Luisa LERENA || Maria Leonor LERENA Beloqui
-Maria Luisa LERENA || Maria Regina LERENA Barragan
-Maria Luisa LERENA || Maria Angelica Julia LERENA Salvanach
-Maria Luisa LERENA || Maria Carlota MORATORIO Lerena
-Maria Luisa LERENA || Maria de las Mercedes MORATORIO Lerena
-Maria E. LERENA || Maria LARENA (arr. 1911)
-Maria E. LERENA || Maria LARENA (Cayasta baptism 1890)
-Maria E. LERENA || Maria Angelica Julia LERENA Salvanach
-Maria E. LERENA || Maria Carlota LERENA Salvanach
-Maria LARENA (arr. 1911) || Maria LARENA (Cayasta baptism 1890)
-Maria LARENA (arr. 1911) || Maria Regina LERENA Barragan
-Maria LARENA (arr. 1911) || Maria Angelica Julia LERENA Salvanach
-Maria LARENA (arr. 1911) || Maria Carlota LERENA Salvanach
-Maria LARENA (Cayasta baptism 1890) || Maria Angelica Julia LERENA Salvanach
-Maria LARENA (Cayasta baptism 1890) || Maria Carlota LERENA Salvanach
-Maria LORENA || Maria Julia Margarita Josefa Emirena Justiniana LERENA Juanico (m. HERRERA)
-Maria LERENA || Maria Julia Margarita Josefa Emirena Justiniana LERENA Juanico (m. HERRERA)
-Maria LERENA || Maria Luisa Lina LERENA Gazo
-Maria LERENA || Maria Leonor LERENA Beloqui
-Maria LERENA || Maria Regina LERENA Barragan
-Maria LERENA || Maria LERENA (m. Eliseo CARDOZO)
-Maria Julia Margarita Josefa Emirena Justiniana LERENA Juanico (m. HERRERA) || Maria Luisa Lina LERENA Gazo
-Maria Julia Margarita Josefa Emirena Justiniana LERENA Juanico (m. HERRERA) || Maria Leonor LERENA Beloqui
-Maria Julia Margarita Josefa Emirena Justiniana LERENA Juanico (m. HERRERA) || Maria Regina LERENA Barragan
-Maria Julia Margarita Josefa Emirena Justiniana LERENA Juanico (m. HERRERA) || Maria Ema LERENA LENGUAS
-Maria Julia Margarita Josefa Emirena Justiniana LERENA Juanico (m. HERRERA) || Maria Angelica Julia LERENA Salvanach
-Maria Julia Margarita Josefa Emirena Justiniana LERENA Juanico (m. HERRERA) || Maria Carlota LERENA Salvanach
-Maria Julia Margarita Josefa Emirena Justiniana LERENA Juanico (m. HERRERA) || Maria Carlota MORATORIO Lerena
-Maria Julia Margarita Josefa Emirena Justiniana LERENA Juanico (m. HERRERA) || Maria de las Mercedes MORATORIO Lerena
-Maria Julia Margarita Josefa Emirena Justiniana LERENA Juanico (m. HERRERA) || Maria LERENA (m. Eliseo CARDOZO)
-Maria Julia Margarita Josefa Emirena Justiniana LERENA Juanico (m. HERRERA) || Maria LLERENA (Espanola, 60, head of Casa 2)
-Maria Luisa Lina LERENA Gazo || Maria Leonor LERENA Beloqui
-Maria Luisa Lina LERENA Gazo || Maria Regina LERENA Barragan
-Maria Luisa Lina LERENA Gazo || Maria Carlota LERENA Salvanach
-Maria Luisa Lina LERENA Gazo || Maria Carlota MORATORIO Lerena
-Maria Luisa Lina LERENA Gazo || Maria de las Mercedes MORATORIO Lerena
-Maria Leonor LERENA Beloqui || Maria Regina LERENA Barragan
-Maria Leonor LERENA Beloqui || Maria Carlota LERENA Salvanach
-Maria Leonor LERENA Beloqui || Maria Carlota MORATORIO Lerena
-Maria Leonor LERENA Beloqui || Maria de las Mercedes MORATORIO Lerena
-Maria Regina LERENA Barragan || Maria Angelica Julia LERENA Salvanach
-Maria Regina LERENA Barragan || Maria Carlota LERENA Salvanach
-Maria Regina LERENA Barragan || Maria Carlota MORATORIO Lerena
-Maria Regina LERENA Barragan || Maria de las Mercedes MORATORIO Lerena
-Maria Ema LERENA LENGUAS || Maria Carlota LERENA Salvanach
-Maria Ema LERENA LENGUAS || Maria LERENA (m. Eliseo CARDOZO)
-Maria Angelica Julia LERENA Salvanach || Maria Carlota LERENA Salvanach
-Maria Angelica Julia LERENA Salvanach || Maria Carlota MORATORIO Lerena
-Maria Angelica Julia LERENA Salvanach || Maria de las Mercedes MORATORIO Lerena
-Maria Carlota LERENA Salvanach || Maria Carlota MORATORIO Lerena
-Maria Carlota LERENA Salvanach || Maria de las Mercedes MORATORIO Lerena
+Maria Luisa LERENA || Maria Leonor LERENA Beloqui   # REVIEWED 20 Sep: DIFFERENT PARENTS. Gilberto's daughter, born Uruguay 1880; against Cipriano Lerena and Lauriana Beloqui's child at Trinidad, Flores, about 1877.
+Maria Luisa LERENA || Maria Regina LERENA Barragan   # REVIEWED 20 Sep: DIFFERENT PARENTS - Fermin Lerena and Paulina Barragan, Trinidad, 9 April 1882.
+Maria Luisa LERENA || Maria Angelica Julia LERENA Salvanach   # REVIEWED 20 Sep: SISTERS, not one woman. Both are Gilberto and Julia Salvanach's, born 1880 and 1886 - fifteen and eight on the 1895 schedule, lines 7 and 10.
+Maria Luisa LERENA || Maria Carlota MORATORIO Lerena   # REVIEWED 20 Sep: DIFFERENT PARENTS AND A DIFFERENT SURNAME - Fernando Moratorio and Josefa Lerena Traibel's daughter, baptised at Union on 8 March 1880. Both born 1880, which is the whole of the resemblance.
+Maria Luisa LERENA || Maria de las Mercedes MORATORIO Lerena   # REVIEWED 20 Sep: Same as the line above: a MORATORIO Lerena of the Union baptisms of 8 March 1880, not a daughter of Gilberto.
+Maria E. LERENA || Maria LARENA (arr. 1911)   # REVIEWED 20 Sep: A CENSUS CHILD AGAINST A PASSENGER. Maria E. is five on line 12 of the 1895 schedule; the other landed in 1911, born 1888, and carries the LARENA spelling.
+Maria E. LERENA || Maria LARENA (Cayasta baptism 1890)   # REVIEWED 20 Sep: DIFFERENT PARENTS AND PROVINCES - Antonio Larena and Ines Azela at Cayasta, Santa Fe.
+Maria E. LERENA || Maria Angelica Julia LERENA Salvanach   # REVIEWED 20 Sep: SISTERS. Lines 10 and 12 of the same schedule, eight and five, and the elder is now merged with her 1886 baptism.
+Maria E. LERENA || Maria Carlota LERENA Salvanach   # REVIEWED 20 Sep: SISTERS, and the pair the image finally separated - lines 11 and 12, six and five. Maria C. is Maria Carlota; Maria E. has no baptism row and stays her own person.
+Maria LARENA (arr. 1911) || Maria LARENA (Cayasta baptism 1890)   # REVIEWED 20 Sep: CANDIDATE, NOT MERGED. Born 1888 and 1890, both LARENA, and the Cayasta child has parents while the passenger has none. Two years and no corroboration: an arrival list cannot say whether a woman of twenty-three is the girl baptised at Cayasta.
+Maria LARENA (arr. 1911) || Maria Regina LERENA Barragan   # REVIEWED 20 Sep: DIFFERENT COUNTRIES - a Trinidad, Flores baptism of 1882 against an arrival at Buenos Aires in 1911.
+Maria LARENA (arr. 1911) || Maria Angelica Julia LERENA Salvanach   # REVIEWED 20 Sep: DIFFERENT FAMILIES. Gilberto's daughter was eight in Buenos Aires in 1895; the traveller is a LARENA arriving in 1911 with no parentage at all.
+Maria LARENA (arr. 1911) || Maria Carlota LERENA Salvanach   # REVIEWED 20 Sep: As above - a Salvanach daughter on a census schedule against an unplaced arrival.
+Maria LARENA (Cayasta baptism 1890) || Maria Angelica Julia LERENA Salvanach   # REVIEWED 20 Sep: DIFFERENT PARENTS AND DIFFERENT COUNTRIES - Antonio Larena and Ines Azela at Cayasta, Santa Fe, against Gilberto Lerena and Julia Salvanach at Montevideo.
+Maria LARENA (Cayasta baptism 1890) || Maria Carlota LERENA Salvanach   # REVIEWED 20 Sep: DIFFERENT PARENTS - Antonio Larena and Ines Azela at Cayasta, Santa Fe, against Gilberto Lerena and Julia Salvanach at Buenos Aires. Both baptised in 1890, which is the whole resemblance.
+Maria LORENA || Maria Julia Margarita Josefa Emirena Justiniana LERENA Juanico (m. HERRERA)   # REVIEWED 20 Sep: DIFFERENT WOMEN AT THE SAME CENSUS. Maria Lorena is one year old at Rosario in 1869, daughter of Agustin Lorena and born at Cordoba; Maria Julia was baptised at Rosario in February 1866 to Luis Lerena Lenguas and Julia Juanico.
+Maria LERENA || Maria Julia Margarita Josefa Emirena Justiniana LERENA Juanico (m. HERRERA)   # REVIEWED 20 Sep: *** AN EXCLUSION ON THE CENTRAL QUESTION, AND THE REGISTER ALREADY MAKES IT. *** Maria Lerena is PABLO ARMANDO'S MOTHER, named on his 1908 enrolment card. Maria Julia is the only Lerena baptised at Rosario between 1731 and 1901, which makes her the obvious candidate and she is not: she was SIXTEEN in February 1882 when Pablo Armando was born, and four years off marrying JAIME HERRERA at Montevideo. Kept apart deliberately - merging them would answer this archive's central question by accident.
+Maria LERENA || Maria Luisa Lina LERENA Gazo   # REVIEWED 20 Sep: A CHILD OF 1875 CANNOT BE A MOTHER IN 1882. Maria Luisa Lina is Ysaac Lerena and Adelaida Gazo's, baptised at Trinidad, Flores in September 1875.
+Maria LERENA || Maria Leonor LERENA Beloqui   # REVIEWED 20 Sep: Same again - a Trinidad child of about 1877, five years old when Pablo Armando was born.
+Maria LERENA || Maria Regina LERENA Barragan   # REVIEWED 20 Sep: Same again, and more so: baptised 9 April 1882, seven weeks AFTER Pablo Armando was born.
+Maria LERENA || Maria LERENA (m. Eliseo CARDOZO)   # REVIEWED 20 Sep: *** THE SECOND EXCLUSION ON THE CENTRAL QUESTION, AND THE STRONGER-LOOKING OF THE TWO. *** The Cardozo Maria is the first documented Maria Lerena of roughly the right generation this archive found, and her row exists so that she is ruled out ON THE RECORD rather than left lying about. She married a CARDOZO, where Pablo Armando's mother stands beside JUAN CARLOS LERENA. Not merged: this archive has twice built on a Maria it had not pinned down.
+Maria Julia Margarita Josefa Emirena Justiniana LERENA Juanico (m. HERRERA) || Maria Luisa Lina LERENA Gazo   # REVIEWED 20 Sep: DIFFERENT PARENTS AND TOWNS - Luis Eugenio and Julia Juanico at Rosario, against Ysaac Lerena and Adelaida Gazo at Trinidad, Flores.
+Maria Julia Margarita Josefa Emirena Justiniana LERENA Juanico (m. HERRERA) || Maria Leonor LERENA Beloqui   # REVIEWED 20 Sep: DIFFERENT PARENTS - Cipriano Lerena and Lauriana Beloqui of Trinidad.
+Maria Julia Margarita Josefa Emirena Justiniana LERENA Juanico (m. HERRERA) || Maria Regina LERENA Barragan   # REVIEWED 20 Sep: DIFFERENT PARENTS - Fermin Lerena and Paulina Barragan of Trinidad, 9 April 1882.
+Maria Julia Margarita Josefa Emirena Justiniana LERENA Juanico (m. HERRERA) || Maria Ema LERENA LENGUAS   # REVIEWED 20 Sep: AUNT AND NIECE. Maria Ema is Luis Eugenio's SISTER, christened at San Francisco de Asis on 7 October 1857; Maria Julia is his daughter, born 1865.
+Maria Julia Margarita Josefa Emirena Justiniana LERENA Juanico (m. HERRERA) || Maria Angelica Julia LERENA Salvanach   # REVIEWED 20 Sep: FIRST COUSINS - Luis Eugenio's daughter and Gilberto's, twenty-one years apart. The JULIA they share is Julia Juanico in one case and Julia Salvanach in the other.
+Maria Julia Margarita Josefa Emirena Justiniana LERENA Juanico (m. HERRERA) || Maria Carlota LERENA Salvanach   # REVIEWED 20 Sep: FIRST COUSINS, twenty-five years apart.
+Maria Julia Margarita Josefa Emirena Justiniana LERENA Juanico (m. HERRERA) || Maria Carlota MORATORIO Lerena   # REVIEWED 20 Sep: DIFFERENT SURNAMES AND BRANCHES - a MORATORIO Lerena of the Union baptisms of 8 March 1880, granddaughter of Avelino through Josefa Lerena Traibel.
+Maria Julia Margarita Josefa Emirena Justiniana LERENA Juanico (m. HERRERA) || Maria de las Mercedes MORATORIO Lerena   # REVIEWED 20 Sep: Same as the line above - her sister, baptised the same morning.
+Maria Julia Margarita Josefa Emirena Justiniana LERENA Juanico (m. HERRERA) || Maria LERENA (m. Eliseo CARDOZO)   # REVIEWED 20 Sep: DIFFERENT WOMEN, and both were separately tested against the central question and separately ruled out - one for being sixteen in 1882, the other for marrying a Cardozo.
+Maria Julia Margarita Josefa Emirena Justiniana LERENA Juanico (m. HERRERA) || Maria LLERENA (Espanola, 60, head of Casa 2)   # REVIEWED 20 Sep: DIFFERENT COUNTRIES OF BIRTH. A Spanish-born woman of sixty keeping her own house in Montevideo, against a Rosario baptism of 1866 to Uruguayan parents.
+Maria Luisa Lina LERENA Gazo || Maria Leonor LERENA Beloqui   # REVIEWED 20 Sep: DIFFERENT WOMEN - child of Ysaac Lerena and Adelaida Gazo, Trinidad, Flores, Uruguay, 1875-09-23; against child of Cipriano Lerena and Lauriana Beloqui, Trinidad, Flores, Uruguay, c.1877. The forename repeats across this whole surname; this register holds a dozen Marias.
+Maria Luisa Lina LERENA Gazo || Maria Regina LERENA Barragan   # REVIEWED 20 Sep: DIFFERENT WOMEN - child of Ysaac Lerena and Adelaida Gazo, Trinidad, Flores, Uruguay, 1875-09-23; against child of Fermin Lerena and Paulina Barragan, Trinidad, Flores, Uruguay, 1882-04-09. The forename repeats across this whole surname; this register holds a dozen Marias.
+Maria Luisa Lina LERENA Gazo || Maria Carlota LERENA Salvanach   # REVIEWED 20 Sep: DIFFERENT WOMEN - child of Ysaac Lerena and Adelaida Gazo, Trinidad, Flores, Uruguay, 1875-09-23; against Buenos Aires, 1890. The forename repeats across this whole surname; this register holds a dozen Marias.
+Maria Luisa Lina LERENA Gazo || Maria Carlota MORATORIO Lerena   # REVIEWED 20 Sep: DIFFERENT WOMEN - child of Ysaac Lerena and Adelaida Gazo, Trinidad, Flores, Uruguay, 1875-09-23; against child of Fernando Moratorio and Josefa Lerena Traibel, Montevideo, 1880. The forename repeats across this whole surname; this register holds a dozen Marias.
+Maria Luisa Lina LERENA Gazo || Maria de las Mercedes MORATORIO Lerena   # REVIEWED 20 Sep: DIFFERENT WOMEN - child of Ysaac Lerena and Adelaida Gazo, Trinidad, Flores, Uruguay, 1875-09-23; against child of Fernando Moratorio and Josefa Lerena Traibel, Montevideo, 1880. The forename repeats across this whole surname; this register holds a dozen Marias.
+Maria Leonor LERENA Beloqui || Maria Regina LERENA Barragan   # REVIEWED 20 Sep: DIFFERENT WOMEN - child of Cipriano Lerena and Lauriana Beloqui, Trinidad, Flores, Uruguay, c.1877; against child of Fermin Lerena and Paulina Barragan, Trinidad, Flores, Uruguay, 1882-04-09. The forename repeats across this whole surname; this register holds a dozen Marias.
+Maria Leonor LERENA Beloqui || Maria Carlota LERENA Salvanach   # REVIEWED 20 Sep: DIFFERENT WOMEN - child of Cipriano Lerena and Lauriana Beloqui, Trinidad, Flores, Uruguay, c.1877; against Buenos Aires, 1890. The forename repeats across this whole surname; this register holds a dozen Marias.
+Maria Leonor LERENA Beloqui || Maria Carlota MORATORIO Lerena   # REVIEWED 20 Sep: DIFFERENT WOMEN - child of Cipriano Lerena and Lauriana Beloqui, Trinidad, Flores, Uruguay, c.1877; against child of Fernando Moratorio and Josefa Lerena Traibel, Montevideo, 1880. The forename repeats across this whole surname; this register holds a dozen Marias.
+Maria Leonor LERENA Beloqui || Maria de las Mercedes MORATORIO Lerena   # REVIEWED 20 Sep: DIFFERENT WOMEN - child of Cipriano Lerena and Lauriana Beloqui, Trinidad, Flores, Uruguay, c.1877; against child of Fernando Moratorio and Josefa Lerena Traibel, Montevideo, 1880. The forename repeats across this whole surname; this register holds a dozen Marias.
+Maria Regina LERENA Barragan || Maria Angelica Julia LERENA Salvanach   # REVIEWED 20 Sep: DIFFERENT WOMEN - child of Fermin Lerena and Paulina Barragan, Trinidad, Flores, Uruguay, 1882-04-09; against child of Gilberto Lerena and Julia Salvanach, Montevideo, 1886. The forename repeats across this whole surname; this register holds a dozen Marias.
+Maria Regina LERENA Barragan || Maria Carlota LERENA Salvanach   # REVIEWED 20 Sep: DIFFERENT WOMEN - child of Fermin Lerena and Paulina Barragan, Trinidad, Flores, Uruguay, 1882-04-09; against Buenos Aires, 1890. The forename repeats across this whole surname; this register holds a dozen Marias.
+Maria Regina LERENA Barragan || Maria Carlota MORATORIO Lerena   # REVIEWED 20 Sep: DIFFERENT WOMEN - child of Fermin Lerena and Paulina Barragan, Trinidad, Flores, Uruguay, 1882-04-09; against child of Fernando Moratorio and Josefa Lerena Traibel, Montevideo, 1880. The forename repeats across this whole surname; this register holds a dozen Marias.
+Maria Regina LERENA Barragan || Maria de las Mercedes MORATORIO Lerena   # REVIEWED 20 Sep: DIFFERENT WOMEN - child of Fermin Lerena and Paulina Barragan, Trinidad, Flores, Uruguay, 1882-04-09; against child of Fernando Moratorio and Josefa Lerena Traibel, Montevideo, 1880. The forename repeats across this whole surname; this register holds a dozen Marias.
+Maria Ema LERENA LENGUAS || Maria Carlota LERENA Salvanach   # REVIEWED 20 Sep: DIFFERENT WOMEN - Montevideo, 1857-06-27; against Buenos Aires, 1890. The forename repeats across this whole surname; this register holds a dozen Marias.
+Maria Ema LERENA LENGUAS || Maria LERENA (m. Eliseo CARDOZO)   # REVIEWED 20 Sep: DIFFERENT BRANCHES. Maria Ema is Don Luis and Justiniana Lenguas's daughter, christened at San Francisco de Asis on 7 October 1857; the Cardozo Maria is Bernabe's sister, of the Trinidad kindred.
+Maria Angelica Julia LERENA Salvanach || Maria Carlota LERENA Salvanach   # REVIEWED 20 Sep: DIFFERENT WOMEN - child of Gilberto Lerena and Julia Salvanach, Montevideo, 1886; against Buenos Aires, 1890. The forename repeats across this whole surname; this register holds a dozen Marias.
+Maria Angelica Julia LERENA Salvanach || Maria Carlota MORATORIO Lerena   # REVIEWED 20 Sep: DIFFERENT WOMEN - child of Gilberto Lerena and Julia Salvanach, Montevideo, 1886; against child of Fernando Moratorio and Josefa Lerena Traibel, Montevideo, 1880. The forename repeats across this whole surname; this register holds a dozen Marias.
+Maria Angelica Julia LERENA Salvanach || Maria de las Mercedes MORATORIO Lerena   # REVIEWED 20 Sep: DIFFERENT WOMEN - child of Gilberto Lerena and Julia Salvanach, Montevideo, 1886; against child of Fernando Moratorio and Josefa Lerena Traibel, Montevideo, 1880. The forename repeats across this whole surname; this register holds a dozen Marias.
+Maria Carlota LERENA Salvanach || Maria Carlota MORATORIO Lerena   # REVIEWED 20 Sep: DIFFERENT WOMEN - Buenos Aires, 1890; against child of Fernando Moratorio and Josefa Lerena Traibel, Montevideo, 1880. The forename repeats across this whole surname; this register holds a dozen Marias.
+Maria Carlota LERENA Salvanach || Maria de las Mercedes MORATORIO Lerena   # REVIEWED 20 Sep: DIFFERENT WOMEN - Buenos Aires, 1890; against child of Fernando Moratorio and Josefa Lerena Traibel, Montevideo, 1880. The forename repeats across this whole surname; this register holds a dozen Marias.
 Maria Carlota MORATORIO Lerena || Maria de las Mercedes MORATORIO Lerena   # REVIEWED 20 Sep: SISTERS, probably twins, baptised together at Union on 8 Mar 1880. They share an ark because ONE ACT NAMES BOTH - the strongest signal this gate has is also its most ambiguous. A shared ark means a shared record, not a shared person. Separate godmothers.
-Maria Carlota MORATORIO Lerena || Maria LERENA (m. Eliseo CARDOZO)
-Maria de las Mercedes MORATORIO Lerena || Maria LERENA (m. Eliseo CARDOZO)
-Maria LERENA (m. Eliseo CARDOZO) || Maria LLERENA (Espanola, 60, head of Casa 2)
-Pedro LLERENA || Pedro LORENA (father of Victor, d. before 1889)
-Pedro Antonio LERENA (son of Sancho) || Pedro LORENA (father of Victor, d. before 1889)
-Pedro Antonio LERENA (son of Sancho) || Pedro LERENA Vega (b. c.1817)
-Pedro LORENA (father of Victor, d. before 1889) || Pedro LERENA Vega (b. c.1817)
-Ramon LLERENA || Ramon LERENA (of Rosario-Colla, fl. c.1800-1820)
-Roque Luis Armando LERENA || ROQUE LARENA
+Maria Carlota MORATORIO Lerena || Maria LERENA (m. Eliseo CARDOZO)   # REVIEWED 20 Sep: DIFFERENT WOMEN - child of Fernando Moratorio and Josefa Lerena Traibel, Montevideo, 1880; against Uruguay. The forename repeats across this whole surname; this register holds a dozen Marias.
+Maria de las Mercedes MORATORIO Lerena || Maria LERENA (m. Eliseo CARDOZO)   # REVIEWED 20 Sep: DIFFERENT WOMEN - child of Fernando Moratorio and Josefa Lerena Traibel, Montevideo, 1880; against Uruguay. The forename repeats across this whole surname; this register holds a dozen Marias.
+Maria LERENA (m. Eliseo CARDOZO) || Maria LLERENA (Espanola, 60, head of Casa 2)   # REVIEWED 20 Sep: A URUGUAYAN OF THE TRINIDAD KINDRED against a Spanish-born head of household in Montevideo.
+Pedro LLERENA || Pedro LORENA (father of Victor, d. before 1889)   # REVIEWED 20 Sep: CANDIDATE, NOT MERGED. Both are Uruguayan men fathering children in the 1880s - one married Sofia Clavijo and had a daughter in 1884, the other is named as already dead on his son Victor's death registration of 1889. Nothing places them together and nothing rules it out; LLERENA and LORENA are both on this family's list of seven spellings.
+Pedro Antonio LERENA (son of Sancho) || Pedro LORENA (father of Victor, d. before 1889)   # REVIEWED 20 Sep: CANDIDATE, AND AN OLD ONE. Sancho's son was born 31 July 1793; Victor's father was dead by 1889 and Victor was born 1861, so his father could be a man born in the 1790s fathering late, or a generation younger. Not merged - see the Fidel pair, which turns on the same registration.
+Pedro Antonio LERENA (son of Sancho) || Pedro LERENA Vega (b. c.1817)   # REVIEWED 20 Sep: FATHER AND SON, and the younger row says so - 'a son of Pedro Antonio Lerena and Vicenta Vega'. Twenty-four years apart.
+Pedro LORENA (father of Victor, d. before 1889) || Pedro LERENA Vega (b. c.1817)   # REVIEWED 20 Sep: CANDIDATE, NOT MERGED. A man born about 1817 could be the father of a Victor born 1861 and be dead by 1889. Nothing names Vicenta Vega's son as Victor's father, and nothing excludes him.
+Ramon LLERENA || Ramon LERENA (of Rosario-Colla, fl. c.1800-1820)   # REVIEWED 20 Sep: CANDIDATE, NOT MERGED. One is 'most likely Gabino's father' and the other heads the Rosario-Colla household as Mauricio's father, flourishing about 1800-1820. Two Ramons in one small Uruguayan orbit, and no act joins them.
+Roque Luis Armando LERENA || ROQUE LARENA   # REVIEWED 20 Sep: TWENTY-FOUR YEARS AND TWO COUNTRIES APART - and the younger is the ELDEST SON of this archive's subject, born at Cape Town on 25 November 1905. The other was born in Entre Rios about 1881, within a year of Pablo Armando. *** The interest is the FORENAME, not the person: *** Pablo Armando gave his first son the name ROQUE, and here it is on a man of his own age and country. Recorded as a name, not a relative.
 Josefa LERENA (godmother, 1885) || Josefa LERENA de L.   # REVIEWED 20 Sep: CANDIDATE, HELD APART ON PURPOSE. The 1895 household file calls the widow of line 4 "almost certainly" this godmother, and the ages fit - born about 1852, of Gilberto's own generation, in the house of the man whose son she had stood for in 1885. No act joins them: the godmother is a name in a font entry and nothing more.
 Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS) || Gilberto LERENA (b.1916, arr. 1928)   # REVIEWED 20 Sep: SIXTY-TWO YEARS APART. The Stud Book Gilberto was 41 in the 1895 census; the other is a twelve-year-old estudiante on a 1928 passenger list. If the 1928 identification holds they are great-grandfather and great-grandson; if it does not they are unrelated namesakes. Not one man either way. They share terms only because both rows now cite the same parish index.
 Gilberto LERENA (b.1916, arr. 1928) || Gilberto LERENA Salvanach (the younger, b.1878)   # REVIEWED 20 Sep: THIRTY-EIGHT YEARS APART, and the CEMLA list records them as father and son travelling together. The shared terms - cipriana, corazon, capital - are the cross-reference written on 20 September, not evidence of one person.

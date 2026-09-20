@@ -70,20 +70,6 @@
   "tier": "BIRTH ONLY"
  },
  {
-  "name": "Maria A. LERENA",
-  "born_est": "1887",
-  "last_attested_alive": "1887",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
- },
- {
-  "name": "Maria C. LERENA",
-  "born_est": "1889",
-  "last_attested_alive": "1889",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
- },
- {
   "name": "Maria E. LERENA",
   "born_est": "1890",
   "last_attested_alive": "1890",
