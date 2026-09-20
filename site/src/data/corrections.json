@@ -702,5 +702,13 @@
   "what_is_true": "*** A CORRECTION THAT IS NOT CARRIED BACK TO THE FILE THE READING CAME FROM IS NOT A CORRECTION. *** All five now say 1845 or quote the old reading; correction 50 has its `retired` column filled, and check-corrections.py enforces it. Also withdrawn: \"Eleven months before Luis Eugenio was born on 9 February 1843. The fit is exact.\" - the marriage of 3 March 1842 is followed by *** Justiniana Mauricia, sixteen months later ***, and Luis Eugenio is the second child at thirty-five months.",
   "how_it_was_caught": "Grepping data/ for the retracted string while chasing an unrelated date",
   "retired": ""
+ },
+ {
+  "date": "2026-09-20",
+  "severity": "serious",
+  "what_was_said": "*** That work-list row 111 read \"TAB MHG 1095/48 - tell Anne before Tuesday, its death notice is already in the house\", with every limit on it kept in the note. *** And that the note then said \"the other four on her list\" while listing five.",
+  "what_is_true": "*** THE ROW WAS ACTIONED AS \"STOP\", AND THE WHOLE BOOYZEN PULL AT PRETORIA WAS CALLED OFF. *** The finding was that ONE document of the six-estate list is already in the house - the death notice of 1095/48. Cancelled with it were the *** will and liquidation account of that same estate ***, which nobody holds, and *** five entire estates *** - 3734/46, 769/52, 5155/51, 10/57 and 52653 - none of which is in the folder. *** A row whose headline reads as an instruction and whose limits live in a note is a badly written row, *** and this archive wrote it. The headline now states the scope, the miscount is fixed, and the row says what it cost.",
+  "how_it_was_caught": "David asked why Anne had been told to stop, which did not match what this row actually found",
+  "retired": ""
  }
 ]
