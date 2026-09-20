@@ -141,3 +141,32 @@ Pedro Gualberto LERENA Villademoros	mother	Celedonia VILLADEMOROS (wife of Aveli
 Alejandro Joaquin Narciso LERENA Villardemoros	father	Alejandro LERENA (m. Elisa VILLARDEMOROS)	-	register	Cordon christening, 29 May 1873.
 Alejandro Joaquin Narciso LERENA Villardemoros	mother	Elisa VILLARDEMOROS (m. Alejandro LERENA)	-	register	Same act.
 Alejandro LERENA (m. Elisa VILLARDEMOROS)	spouse	Elisa VILLARDEMOROS (m. Alejandro LERENA)	-	register	Named together as the parents at the Cordon, 29 May 1873.
+# ---- wired 21 September 2026 from notes that OPEN by stating their own subject's
+# parentage. The register had these connections in prose and not as edges, so 226 of
+# 293 people were islands and nothing could draw them. Exact unique name match only:
+# a fuzzy fallback made the Moratorio girls children of their own grandfather, and a
+# looser regex made Adela Camiglia the daughter of a couple her note merely mentions.
+
+Victorino Severo LARENA	father	Juan Antonio LARENA	-	register	Stated in this person's own register note; wired 21 September 2026. Source: Entre Rios Civil Reg., m. 4 May 1903
+Luis Alejandro LLERENA	father	Luis LLERENA	-	register	Stated in this person's own register note; wired 21 September 2026. Source: Baptism 1903, Santa Rosa de Lima, Rosario
+Carmen ROMAN LERENA	mother	Manuela LERENA	-	register	Stated in this person's own register note; wired 21 September 2026. Source: Baptism 1918, Santa Rosa de Lima, Rosario
+Vicenta LLERENA MORALES	father	Tomas LLERENA	-	register	Stated in this person's own register note; wired 21 September 2026. Source: Uruguay Civil Registration, d. 22 Feb 1927
+Juana Alejandra LERENA Echeverry	father	Vitalino LERENA (of Trinidad)	-	register	Stated in this person's own register note; wired 21 September 2026. Source: Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 202
+Gervasio LERENA Echeverry	father	Vitalino LERENA (of Trinidad)	-	register	Stated in this person's own register note; wired 21 September 2026. Source: Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 202
+Rosario Fulgencia LERENA Echeverry	father	Vitalino LERENA (of Trinidad)	-	register	Stated in this person's own register note; wired 21 September 2026. Source: Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 202
+Alejandra Raymunda LERENA Gazo	father	Ysaac LERENA (of Trinidad)	-	register	Stated in this person's own register note; wired 21 September 2026. Source: Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 202
+Maria Luisa Lina LERENA Gazo	father	Ysaac LERENA (of Trinidad)	-	register	Stated in this person's own register note; wired 21 September 2026. Source: Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 202
+Doroteo Donato LERENA Beloqui	father	Cipriano LERENA (of Trinidad)	-	register	Stated in this person's own register note; wired 21 September 2026. Source: Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 202
+Maria Leonor LERENA Beloqui	father	Cipriano LERENA (of Trinidad)	-	register	Stated in this person's own register note; wired 21 September 2026. Source: Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 202
+Lauriana LERENA Beloqui	father	Cipriano LERENA (of Trinidad)	-	register	Stated in this person's own register note; wired 21 September 2026. Source: Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 202
+Faustino LERENA Barragan	father	Fermin LERENA (of Trinidad)	-	register	Stated in this person's own register note; wired 21 September 2026. Source: Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 202
+Maria Regina LERENA Barragan	father	Fermin LERENA (of Trinidad)	-	register	Stated in this person's own register note; wired 21 September 2026. Source: Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 202
+Natalia Elena LERENA Recuero	father	Florencio LERENA (of Trinidad)	-	register	Stated in this person's own register note; wired 21 September 2026. Source: Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 202
+Carlos MARTINEZ Lerena	father	Julian MARTINEZ (husband of Carolina Lerena)	-	register	Stated in this person's own register note; wired 21 September 2026. Source: Buenos Aires and Mendoza civil and parish indexes, read 13 Sep 2026
+Carlos MARTINEZ Lerena	mother	Carolina LERENA (de Martinez)	-	register	Stated in this person's own register note; wired 21 September 2026. Source: Buenos Aires and Mendoza civil and parish indexes, read 13 Sep 2026
+Julian MARTINEZ Lerena	father	Julian MARTINEZ (husband of Carolina Lerena)	-	register	Stated in this person's own register note; wired 21 September 2026. Source: Buenos Aires and Mendoza civil and parish indexes, read 13 Sep 2026
+Julian MARTINEZ Lerena	mother	Carolina LERENA (de Martinez)	-	register	Stated in this person's own register note; wired 21 September 2026. Source: Buenos Aires and Mendoza civil and parish indexes, read 13 Sep 2026
+Leonarda Margarita LERENA Vega	father	Pedro Antonio LERENA (son of Sancho)	-	register	Stated in this person's own register note; wired 21 September 2026. Source: Catedral de la Inmaculada Concepcion, Montevideo, baptism of 4 July 1837 - FULL-TEXT TRANSCRIPT READ
+Maria Carlota MORATORIO Lerena	mother	Josefa LERENA TRAIBEL (1851-1947)	-	register	Stated in this person's own register note; wired 21 September 2026. Source: Named at the baptisms of Maria Carlota and Maria de las Mercedes Moratorio Lerena, Union, Montevideo
+Maria de las Mercedes MORATORIO Lerena	mother	Josefa LERENA TRAIBEL (1851-1947)	-	register	Stated in this person's own register note; wired 21 September 2026. Source: Named at the baptisms of Maria Carlota and Maria de las Mercedes Moratorio Lerena, Union, Montevideo
+Ana Rosario LERENA Traibel	mother	Ambrosia TRAIBEL	-	register	Stated in this person's own register note; wired 21 September 2026. Source: San Francisco de Asis, Montevideo, baptisms of 12 Mar 1858 - FULL-TEXT TRANSCRIPT READ; ark 3:1:3Q9M

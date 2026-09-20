@@ -2756,12 +2756,20 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Victorino Severo LARENA",
+    "dates": "",
+    "slug": "victorino-severo-larena",
+    "via": "register",
+    "note": "Stated in this person's own register note; wired 21 September 2026. Source: Entre Rios Civil Reg., m. 4 May 1903"
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -2784,15 +2792,21 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
+  "father": {
+   "name": "Juan Antonio LARENA",
+   "dates": "",
+   "slug": "juan-antonio-larena",
+   "via": "register",
+   "note": "Stated in this person's own register note; wired 21 September 2026. Source: Entre Rios Civil Reg., m. 4 May 1903"
+  },
   "mother": null,
   "spouses": [],
   "children": [],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -2942,12 +2956,20 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Luis Alejandro LLERENA",
+    "dates": "",
+    "slug": "luis-alejandro-llerena",
+    "via": "register",
+    "note": "Stated in this person's own register note; wired 21 September 2026. Source: Baptism 1903, Santa Rosa de Lima, Rosario"
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -2970,15 +2992,21 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
+  "father": {
+   "name": "Luis LLERENA",
+   "dates": "",
+   "slug": "luis-llerena",
+   "via": "register",
+   "note": "Stated in this person's own register note; wired 21 September 2026. Source: Baptism 1903, Santa Rosa de Lima, Rosario"
+  },
   "mother": null,
   "spouses": [],
   "children": [],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -3004,12 +3032,20 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Carmen ROMAN LERENA",
+    "dates": "",
+    "slug": "carmen-roman-lerena",
+    "via": "register",
+    "note": "Stated in this person's own register note; wired 21 September 2026. Source: Baptism 1918, Santa Rosa de Lima, Rosario"
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -3033,14 +3069,20 @@
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
   "father": null,
-  "mother": null,
+  "mother": {
+   "name": "Manuela LERENA",
+   "dates": "",
+   "slug": "manuela-lerena",
+   "via": "register",
+   "note": "Stated in this person's own register note; wired 21 September 2026. Source: Baptism 1918, Santa Rosa de Lima, Rosario"
+  },
   "spouses": [],
   "children": [],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -3376,12 +3418,20 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Vicenta LLERENA MORALES",
+    "dates": "",
+    "slug": "vicenta-llerena-morales",
+    "via": "register",
+    "note": "Stated in this person's own register note; wired 21 September 2026. Source: Uruguay Civil Registration, d. 22 Feb 1927"
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -3404,15 +3454,21 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
+  "father": {
+   "name": "Tomas LLERENA",
+   "dates": "",
+   "slug": "tomas-llerena",
+   "via": "register",
+   "note": "Stated in this person's own register note; wired 21 September 2026. Source: Uruguay Civil Registration, d. 22 Feb 1927"
+  },
   "mother": null,
   "spouses": [],
   "children": [],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -5451,12 +5507,34 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Gervasio LERENA Echeverry",
+    "dates": "",
+    "slug": "gervasio-lerena-echeverry",
+    "via": "register",
+    "note": "Stated in this person's own register note; wired 21 September 2026. Source: Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 202"
+   },
+   {
+    "name": "Juana Alejandra LERENA Echeverry",
+    "dates": "",
+    "slug": "juana-alejandra-lerena-echeverry",
+    "via": "register",
+    "note": "Stated in this person's own register note; wired 21 September 2026. Source: Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 202"
+   },
+   {
+    "name": "Rosario Fulgencia LERENA Echeverry",
+    "dates": "",
+    "slug": "rosario-fulgencia-lerena-echeverry",
+    "via": "register",
+    "note": "Stated in this person's own register note; wired 21 September 2026. Source: Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 202"
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 3,
+  "relRegister": 3,
   "relTree": 0,
   "evidence": [
    {
@@ -5526,12 +5604,27 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Alejandra Raymunda LERENA Gazo",
+    "dates": "",
+    "slug": "alejandra-raymunda-lerena-gazo",
+    "via": "register",
+    "note": "Stated in this person's own register note; wired 21 September 2026. Source: Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 202"
+   },
+   {
+    "name": "Maria Luisa Lina LERENA Gazo",
+    "dates": "",
+    "slug": "maria-luisa-lina-lerena-gazo",
+    "via": "register",
+    "note": "Stated in this person's own register note; wired 21 September 2026. Source: Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 202"
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -5588,12 +5681,34 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Doroteo Donato LERENA Beloqui",
+    "dates": "",
+    "slug": "doroteo-donato-lerena-beloqui",
+    "via": "register",
+    "note": "Stated in this person's own register note; wired 21 September 2026. Source: Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 202"
+   },
+   {
+    "name": "Lauriana LERENA Beloqui",
+    "dates": "",
+    "slug": "lauriana-lerena-beloqui",
+    "via": "register",
+    "note": "Stated in this person's own register note; wired 21 September 2026. Source: Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 202"
+   },
+   {
+    "name": "Maria Leonor LERENA Beloqui",
+    "dates": "",
+    "slug": "maria-leonor-lerena-beloqui",
+    "via": "register",
+    "note": "Stated in this person's own register note; wired 21 September 2026. Source: Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 202"
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 3,
+  "relRegister": 3,
   "relTree": 0,
   "evidence": [
    {
@@ -5663,12 +5778,27 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Faustino LERENA Barragan",
+    "dates": "",
+    "slug": "faustino-lerena-barragan",
+    "via": "register",
+    "note": "Stated in this person's own register note; wired 21 September 2026. Source: Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 202"
+   },
+   {
+    "name": "Maria Regina LERENA Barragan",
+    "dates": "",
+    "slug": "maria-regina-lerena-barragan",
+    "via": "register",
+    "note": "Stated in this person's own register note; wired 21 September 2026. Source: Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 202"
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -5725,12 +5855,20 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Natalia Elena LERENA Recuero",
+    "dates": "",
+    "slug": "natalia-elena-lerena-recuero",
+    "via": "register",
+    "note": "Stated in this person's own register note; wired 21 September 2026. Source: Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 202"
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -5908,15 +6046,34 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
+  "father": {
+   "name": "Vitalino LERENA (of Trinidad)",
+   "dates": "",
+   "slug": "vitalino-lerena",
+   "via": "register",
+   "note": "Stated in this person's own register note; wired 21 September 2026. Source: Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 202"
+  },
   "mother": null,
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Gervasio LERENA Echeverry",
+    "dates": "",
+    "slug": "gervasio-lerena-echeverry",
+    "via": "register"
+   },
+   {
+    "name": "Rosario Fulgencia LERENA Echeverry",
+    "dates": "",
+    "slug": "rosario-fulgencia-lerena-echeverry",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -5939,15 +6096,34 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
+  "father": {
+   "name": "Vitalino LERENA (of Trinidad)",
+   "dates": "",
+   "slug": "vitalino-lerena",
+   "via": "register",
+   "note": "Stated in this person's own register note; wired 21 September 2026. Source: Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 202"
+  },
   "mother": null,
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Juana Alejandra LERENA Echeverry",
+    "dates": "",
+    "slug": "juana-alejandra-lerena-echeverry",
+    "via": "register"
+   },
+   {
+    "name": "Rosario Fulgencia LERENA Echeverry",
+    "dates": "",
+    "slug": "rosario-fulgencia-lerena-echeverry",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -5970,15 +6146,34 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
+  "father": {
+   "name": "Vitalino LERENA (of Trinidad)",
+   "dates": "",
+   "slug": "vitalino-lerena",
+   "via": "register",
+   "note": "Stated in this person's own register note; wired 21 September 2026. Source: Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 202"
+  },
   "mother": null,
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Gervasio LERENA Echeverry",
+    "dates": "",
+    "slug": "gervasio-lerena-echeverry",
+    "via": "register"
+   },
+   {
+    "name": "Juana Alejandra LERENA Echeverry",
+    "dates": "",
+    "slug": "juana-alejandra-lerena-echeverry",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -6001,15 +6196,28 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
+  "father": {
+   "name": "Ysaac LERENA (of Trinidad)",
+   "dates": "",
+   "slug": "ysaac-lerena",
+   "via": "register",
+   "note": "Stated in this person's own register note; wired 21 September 2026. Source: Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 202"
+  },
   "mother": null,
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Maria Luisa Lina LERENA Gazo",
+    "dates": "",
+    "slug": "maria-luisa-lina-lerena-gazo",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -6032,15 +6240,28 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
+  "father": {
+   "name": "Ysaac LERENA (of Trinidad)",
+   "dates": "",
+   "slug": "ysaac-lerena",
+   "via": "register",
+   "note": "Stated in this person's own register note; wired 21 September 2026. Source: Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 202"
+  },
   "mother": null,
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Alejandra Raymunda LERENA Gazo",
+    "dates": "",
+    "slug": "alejandra-raymunda-lerena-gazo",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -6063,15 +6284,34 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
+  "father": {
+   "name": "Cipriano LERENA (of Trinidad)",
+   "dates": "",
+   "slug": "cipriano-lerena",
+   "via": "register",
+   "note": "Stated in this person's own register note; wired 21 September 2026. Source: Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 202"
+  },
   "mother": null,
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Lauriana LERENA Beloqui",
+    "dates": "",
+    "slug": "lauriana-lerena-beloqui",
+    "via": "register"
+   },
+   {
+    "name": "Maria Leonor LERENA Beloqui",
+    "dates": "",
+    "slug": "maria-leonor-lerena-beloqui",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -6094,15 +6334,34 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
+  "father": {
+   "name": "Cipriano LERENA (of Trinidad)",
+   "dates": "",
+   "slug": "cipriano-lerena",
+   "via": "register",
+   "note": "Stated in this person's own register note; wired 21 September 2026. Source: Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 202"
+  },
   "mother": null,
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Doroteo Donato LERENA Beloqui",
+    "dates": "",
+    "slug": "doroteo-donato-lerena-beloqui",
+    "via": "register"
+   },
+   {
+    "name": "Lauriana LERENA Beloqui",
+    "dates": "",
+    "slug": "lauriana-lerena-beloqui",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -6125,15 +6384,34 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
+  "father": {
+   "name": "Cipriano LERENA (of Trinidad)",
+   "dates": "",
+   "slug": "cipriano-lerena",
+   "via": "register",
+   "note": "Stated in this person's own register note; wired 21 September 2026. Source: Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 202"
+  },
   "mother": null,
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Doroteo Donato LERENA Beloqui",
+    "dates": "",
+    "slug": "doroteo-donato-lerena-beloqui",
+    "via": "register"
+   },
+   {
+    "name": "Maria Leonor LERENA Beloqui",
+    "dates": "",
+    "slug": "maria-leonor-lerena-beloqui",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -6156,15 +6434,28 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
+  "father": {
+   "name": "Fermin LERENA (of Trinidad)",
+   "dates": "",
+   "slug": "fermin-lerena",
+   "via": "register",
+   "note": "Stated in this person's own register note; wired 21 September 2026. Source: Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 202"
+  },
   "mother": null,
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Maria Regina LERENA Barragan",
+    "dates": "",
+    "slug": "maria-regina-lerena-barragan",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -6187,15 +6478,28 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
+  "father": {
+   "name": "Fermin LERENA (of Trinidad)",
+   "dates": "",
+   "slug": "fermin-lerena",
+   "via": "register",
+   "note": "Stated in this person's own register note; wired 21 September 2026. Source: Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 202"
+  },
   "mother": null,
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Faustino LERENA Barragan",
+    "dates": "",
+    "slug": "faustino-lerena-barragan",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -6218,15 +6522,21 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
+  "father": {
+   "name": "Florencio LERENA (of Trinidad)",
+   "dates": "",
+   "slug": "florencio-lerena",
+   "via": "register",
+   "note": "Stated in this person's own register note; wired 21 September 2026. Source: Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 202"
+  },
   "mother": null,
   "spouses": [],
   "children": [],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -6562,12 +6872,27 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Carlos MARTINEZ Lerena",
+    "dates": "",
+    "slug": "carlos-martinez-lerena",
+    "via": "register",
+    "note": "Stated in this person's own register note; wired 21 September 2026. Source: Buenos Aires and Mendoza civil and parish indexes, read 13 Sep 2026"
+   },
+   {
+    "name": "Julian MARTINEZ Lerena",
+    "dates": "",
+    "slug": "julian-martinez-lerena",
+    "via": "register",
+    "note": "Stated in this person's own register note; wired 21 September 2026. Source: Buenos Aires and Mendoza civil and parish indexes, read 13 Sep 2026"
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -6593,12 +6918,27 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Carlos MARTINEZ Lerena",
+    "dates": "",
+    "slug": "carlos-martinez-lerena",
+    "via": "register",
+    "note": "Stated in this person's own register note; wired 21 September 2026. Source: Buenos Aires and Mendoza civil and parish indexes, read 13 Sep 2026"
+   },
+   {
+    "name": "Julian MARTINEZ Lerena",
+    "dates": "",
+    "slug": "julian-martinez-lerena",
+    "via": "register",
+    "note": "Stated in this person's own register note; wired 21 September 2026. Source: Buenos Aires and Mendoza civil and parish indexes, read 13 Sep 2026"
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -6621,15 +6961,34 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Julian MARTINEZ (husband of Carolina Lerena)",
+   "dates": "",
+   "slug": "julian-martinez",
+   "via": "register",
+   "note": "Stated in this person's own register note; wired 21 September 2026. Source: Buenos Aires and Mendoza civil and parish indexes, read 13 Sep 2026"
+  },
+  "mother": {
+   "name": "Carolina LERENA (de Martinez)",
+   "dates": "",
+   "slug": "carolina-lerena",
+   "via": "register",
+   "note": "Stated in this person's own register note; wired 21 September 2026. Source: Buenos Aires and Mendoza civil and parish indexes, read 13 Sep 2026"
+  },
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Julian MARTINEZ Lerena",
+    "dates": "",
+    "slug": "julian-martinez-lerena",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -6652,15 +7011,34 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Julian MARTINEZ (husband of Carolina Lerena)",
+   "dates": "",
+   "slug": "julian-martinez",
+   "via": "register",
+   "note": "Stated in this person's own register note; wired 21 September 2026. Source: Buenos Aires and Mendoza civil and parish indexes, read 13 Sep 2026"
+  },
+  "mother": {
+   "name": "Carolina LERENA (de Martinez)",
+   "dates": "",
+   "slug": "carolina-lerena",
+   "via": "register",
+   "note": "Stated in this person's own register note; wired 21 September 2026. Source: Buenos Aires and Mendoza civil and parish indexes, read 13 Sep 2026"
+  },
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Carlos MARTINEZ Lerena",
+    "dates": "",
+    "slug": "carlos-martinez-lerena",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -8027,6 +8405,13 @@
     "note": "Same household. Uruguay census c.1833, household 229, Montevideo; ark 3:1:3QS7-99ZP-BBKX"
    },
    {
+    "name": "Leonarda Margarita LERENA Vega",
+    "dates": "",
+    "slug": "leonarda-margarita-lerena-vega",
+    "via": "register",
+    "note": "Stated in this person's own register note; wired 21 September 2026. Source: Catedral de la Inmaculada Concepcion, Montevideo, baptism of 4 July 1837 - FULL-TEXT TRANSCRIPT READ"
+   },
+   {
     "name": "Pedro LERENA Vega (b. c.1817)",
     "dates": "",
     "slug": "pedro-lerena-vega",
@@ -8044,8 +8429,8 @@
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 3,
-  "relRegister": 3,
+  "relTotal": 4,
+  "relRegister": 4,
   "relTree": 0,
   "evidence": []
  },
@@ -8121,15 +8506,40 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
+  "father": {
+   "name": "Pedro Antonio LERENA (son of Sancho)",
+   "dates": "",
+   "slug": "pedro-antonio-lerena",
+   "via": "register",
+   "note": "Stated in this person's own register note; wired 21 September 2026. Source: Catedral de la Inmaculada Concepcion, Montevideo, baptism of 4 July 1837 - FULL-TEXT TRANSCRIPT READ"
+  },
   "mother": null,
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Emilia LERENA Vega (b. c.1815)",
+    "dates": "",
+    "slug": "emilia-lerena-vega",
+    "via": "register"
+   },
+   {
+    "name": "Pedro LERENA Vega (b. c.1817)",
+    "dates": "",
+    "slug": "pedro-lerena-vega",
+    "via": "register"
+   },
+   {
+    "name": "Vicenta LERENA Vega (b. c.1821)",
+    "dates": "",
+    "slug": "vicenta-lerena-vega",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -8248,12 +8658,27 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Maria Carlota MORATORIO Lerena",
+    "dates": "",
+    "slug": "maria-carlota-moratorio-lerena",
+    "via": "register",
+    "note": "Stated in this person's own register note; wired 21 September 2026. Source: Named at the baptisms of Maria Carlota and Maria de las Mercedes Moratorio Lerena, Union, Montevideo"
+   },
+   {
+    "name": "Maria de las Mercedes MORATORIO Lerena",
+    "dates": "",
+    "slug": "maria-de-las-mercedes-moratorio-lerena",
+    "via": "register",
+    "note": "Stated in this person's own register note; wired 21 September 2026. Source: Named at the baptisms of Maria Carlota and Maria de las Mercedes Moratorio Lerena, Union, Montevideo"
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -8327,6 +8752,13 @@
   "spouses": [],
   "children": [
    {
+    "name": "Ana Rosario LERENA Traibel",
+    "dates": "",
+    "slug": "ana-rosario-lerena-traibel",
+    "via": "register",
+    "note": "Stated in this person's own register note; wired 21 September 2026. Source: San Francisco de Asis, Montevideo, baptisms of 12 Mar 1858 - FULL-TEXT TRANSCRIPT READ; ark 3:1:3Q9M"
+   },
+   {
     "name": "Avelino Eduardo LERENA Traibel",
     "dates": "",
     "slug": "avelino-eduardo-lerena-traibel",
@@ -8337,8 +8769,8 @@
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 1,
-  "relRegister": 1,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -8393,14 +8825,27 @@
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
   "father": null,
-  "mother": null,
+  "mother": {
+   "name": "Josefa LERENA TRAIBEL (1851-1947)",
+   "dates": "",
+   "slug": "josefa-lerena-traibel",
+   "via": "register",
+   "note": "Stated in this person's own register note; wired 21 September 2026. Source: Named at the baptisms of Maria Carlota and Maria de las Mercedes Moratorio Lerena, Union, Montevideo"
+  },
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Maria de las Mercedes MORATORIO Lerena",
+    "dates": "",
+    "slug": "maria-de-las-mercedes-moratorio-lerena",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -8424,14 +8869,27 @@
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
   "father": null,
-  "mother": null,
+  "mother": {
+   "name": "Josefa LERENA TRAIBEL (1851-1947)",
+   "dates": "",
+   "slug": "josefa-lerena-traibel",
+   "via": "register",
+   "note": "Stated in this person's own register note; wired 21 September 2026. Source: Named at the baptisms of Maria Carlota and Maria de las Mercedes Moratorio Lerena, Union, Montevideo"
+  },
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Maria Carlota MORATORIO Lerena",
+    "dates": "",
+    "slug": "maria-carlota-moratorio-lerena",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -8672,14 +9130,27 @@
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
   "father": null,
-  "mother": null,
+  "mother": {
+   "name": "Ambrosia TRAIBEL",
+   "dates": "",
+   "slug": "ambrosia-traibel",
+   "via": "register",
+   "note": "Stated in this person's own register note; wired 21 September 2026. Source: San Francisco de Asis, Montevideo, baptisms of 12 Mar 1858 - FULL-TEXT TRANSCRIPT READ; ark 3:1:3Q9M"
+  },
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Avelino Eduardo LERENA Traibel",
+    "dates": "",
+    "slug": "avelino-eduardo-lerena-traibel",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -10224,6 +10695,12 @@
   "children": [],
   "siblings": [
    {
+    "name": "Leonarda Margarita LERENA Vega",
+    "dates": "",
+    "slug": "leonarda-margarita-lerena-vega",
+    "via": "register"
+   },
+   {
     "name": "Pedro LERENA Vega (b. c.1817)",
     "dates": "",
     "slug": "pedro-lerena-vega",
@@ -10286,6 +10763,12 @@
     "via": "register"
    },
    {
+    "name": "Leonarda Margarita LERENA Vega",
+    "dates": "",
+    "slug": "leonarda-margarita-lerena-vega",
+    "via": "register"
+   },
+   {
     "name": "Vicenta LERENA Vega (b. c.1821)",
     "dates": "",
     "slug": "vicenta-lerena-vega",
@@ -10339,6 +10822,12 @@
     "name": "Emilia LERENA Vega (b. c.1815)",
     "dates": "",
     "slug": "emilia-lerena-vega",
+    "via": "register"
+   },
+   {
+    "name": "Leonarda Margarita LERENA Vega",
+    "dates": "",
+    "slug": "leonarda-margarita-lerena-vega",
     "via": "register"
    },
    {
@@ -10615,7 +11104,14 @@
     "note": "Cordon, Montevideo, 15 January 1870."
    }
   ],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Ana Rosario LERENA Traibel",
+    "dates": "",
+    "slug": "ana-rosario-lerena-traibel",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
   "relTotal": 5,
