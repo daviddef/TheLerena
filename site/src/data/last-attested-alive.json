@@ -2028,5 +2028,12 @@
   "last_attested_alive": "c.1808",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maria LLERENA (Espanola, 60, head of Casa 2)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]

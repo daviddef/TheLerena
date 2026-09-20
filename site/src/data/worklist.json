@@ -1374,11 +1374,19 @@
     },
     {
       "n": 172,
-      "what": "Date María Llerena's census page — her age is useless without it",
+      "what": "Ask the AGN what Libro 256 of the Padrones de Montevideo covers — it dates María Llerena",
+      "state": "blocked",
+      "owner": "David",
+      "since": "2026-09-20",
+      "note": "**'Casa 2. María Llerena — 60 años — Española'** sits on an undated page of *Uruguay, Census Records, 1726–1858* (image ark 3:1:3QSQ-G9ZR-NYGP). **The collection spans 132 years and the index gives no year for this sheet.** At an 1830s census she was born in the **1770s — Sancho's own decade**; at an 1850s one, the 1790s. **The whole weight of her rests on which.** The heading sits sideways at the top of the sheet above her entry; the page needs `rotate(-90deg)` and a **mild** `contrast(1.5)` — heavy contrast blows the pencil out to white. Neighbouring images on the same film will carry the same heading if hers is torn. *** CHASED AS FAR AS THE FILM GOES, 20 September 2026, and the year is not on it. *** Her page is **film 007499043, image 02771**. The filming target board at image **02725** identifies the volume: **Archivo General de la Nación, Montevideo — 'PADRONES DE MONTEVIDEO Y EXTRAMUROS, LIBRO 256', volumen 15**, filmed by the Sociedad Genealógica de Utah on **5 April 2006**. The board at 02724 closes the previous item, **Libro 107**. **The board gives the FILMING date, not the record date**, and her own sheet is headed by a street, not a year. **So the question changes rather than fails:** it is no longer *when is this census* but ***what does the AGN's own inventory say Libro 256 covers*** — which is a question with an address on it, and the same letter that goes to Santa Fe could ask Montevideo. **Her age of sixty means nothing until it is answered.**"
+    },
+    {
+      "n": 173,
+      "what": "Film 007499043 is not in this archive's film register",
       "state": "next",
       "owner": "this archive",
       "since": "2026-09-20",
-      "note": "**'Casa 2. María Llerena — 60 años — Española'** sits on an undated page of *Uruguay, Census Records, 1726–1858* (image ark 3:1:3QSQ-G9ZR-NYGP). **The collection spans 132 years and the index gives no year for this sheet.** At an 1830s census she was born in the **1770s — Sancho's own decade**; at an 1850s one, the 1790s. **The whole weight of her rests on which.** The heading sits sideways at the top of the sheet above her entry; the page needs `rotate(-90deg)` and a **mild** `contrast(1.5)` — heavy contrast blows the pencil out to white. Neighbouring images on the same film will carry the same heading if hers is torn."
+      "note": "The DGS audit of 17 September tested **58 film numbers** and found them all sound. **This one was not among them**, because nothing here had ever opened the Uruguayan census collection. It carries **AGN Padrones de Montevideo y Extramuros, Libros 107 and 256** at least, and holds María Llerena (image 02771). **Add it to `film-register.tsv` with its item boundaries** — 02724 closes Libro 107, 02725 opens Libro 256 — so the next person can navigate it by item instead of by probe."
     }
   ],
   "accounts": [
