@@ -1443,6 +1443,22 @@
    "owner": "this archive",
    "since": "2026-09-21",
    "note": "**Fernando Moratorio with Josefa Lerena returns seven**, adding Eduardo, Josefa (born 21 November 1884), María and Fernando Moratorio Lerena to the two girls baptised at the Unión in 1880. **Two other pairs returned zero, and one of those zeros was a lie.** Avelino Lerena with **Celedonia Villademoros** returned a clean 0 — rows rendered, page settled, read twice. **Deleting the mother's surname returned seven**, two of them christenings this archive has held since 20 September. That is how it was caught, and **no control would have caught it**: the control for this query shape had returned sixteen records in the same session, which is exactly what made the zero look trustworthy. Recorded as the **fourteenth false zero**. What it hid: **Pedro Segundo Lerena Villademoros**, dead at Montevideo 23 August 1936 aged 66, wife Paulina Prando Algar; an **Avelino Lerena** dead 5 January 1914 aged 45, wife Carmen Lorente, whose mother is written *Villademoro* without the s. It also **weakens a null this archive published** about the Villademoros marriage acts: the control used, Lerena × Juanico, tested the shape but not the surname, and Juanico has one spelling where Villademoros has four. The null is not withdrawn; it is now stated as the weaker claim it always was."
+  },
+  {
+   "n": "181",
+   "what": "Ask how much of this register a machine read — then open the plate the most people stand on",
+   "state": "done",
+   "owner": "this archive",
+   "since": "2026-09-21",
+   "note": "**Three surnames turned out to be a machine's**, so the question became how many others were. `tools/transcript-only.py` counts rows citing *full-text transcript read* with no image named: **sixty-one**, more than half the rows carrying a source at all. It ranks the unopened plates by **how many people depend on each**, because one image settles seven rows at once. **The top plate was the 1831 Cordón baptism where the President of Uruguay stood godfather to Sancho's grandson** — the most consequential proper noun here, and a machine had read it. Opened: film 007713388 image 00726. *\"padrinos Dn. **FRUTUSO RIBERA, PRESIDENTE DE LA REPÚBLICA** y su esposa Da. **Bernardina Fragoso**\"*. **Frutuso Ribera, with a B** — the transcript had printed the history books' *Fructuoso Rivera*. **The finding holds and is stronger for the check**: the act states his office and names his wife, either of which identifies him alone. The same page spells the grandfather **LLERENA** with the double L. Both of the day's transcript failures are one failure pointing opposite ways — a machine invents a plausible name where it cannot read one, and writes the famous name over the page where it can. Seven rows moved off transcript onto plate; **forty-nine remain**."
+  },
+  {
+   "n": "182",
+   "what": "Alfredo Justiniano's wife, and the end of his life",
+   "state": "done",
+   "owner": "this archive",
+   "since": "2026-09-21",
+   "note": "**Her surname was wrong, and she has a death.** The 1892 marriage act was held from a machine transcript and the plate was never pulled. Film 007713383 image 02601, folio 340: *\"hija legítima de Don **GERÓNIMO GAVAZZO** y Doña **CAROLINA SUÁREZ**\"* — not Gavarro, not Juárez. Three register rows, a dispensation table, a working log and the last-attested-alive file carried the machine's reading. **Corroborated by a second image forty-eight years later**: her own Montevideo death registration of **20 June 1940**, certificate 632, at R. Masini 3273, *\"de estado **VIUDA**\"*, of a fractured neck of femur. **So Alfredo Justiniano died between February 1892 and June 1940** — the first thing this archive has ever known about the end of his life. **And the index of that death act is a catalogue of its own failures**: it attaches three children to the couple, and there are none on the act — one is the **registrar**, whose name follows *ante mí*, and two bled across the column rule from the neighbouring entry, which concerns a family with English names. It gives her birth as **1934** for a woman who died in 1940, her nationality as **mexicana**, and her birthplace as **Minteridco**. Every field is wrong except the maternal grandparents — and that pair is the only reason she was found."
   }
  ],
  "accounts": [
