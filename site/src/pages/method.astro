@@ -249,6 +249,50 @@ import certs from "../data/1852-aguada-union-certificates.json";
 </section>
 
 <section class="blk">
+  <h2 id="s-machine-read">How much of this register has a machine read, and nobody checked</h2>
+  <p class="dek">Two failures on one day, from the same cause, pointing in opposite directions.</p>
+  <div class="prose">
+    <p>This archive&rsquo;s standing rule is that an index is not evidence and the image must be
+      opened. On <strong>21 September 2026</strong> it found out how often it had kept that rule.</p>
+    <p>Sixty-one register rows cited <em>&ldquo;full-text transcript read&rdquo;</em> &mdash; which
+      means <strong>a machine read it</strong> &mdash; and named no image. That is more than half the
+      rows carrying a source at all. A tool now ranks the unopened plates by how many people depend on
+      each one, because <strong>one image can settle seven rows at once</strong>.</p>
+    <p class="lab" style="margin-top:18px">What the machine got wrong</p>
+    <p>The 1892 marriage act of Alfredo Justiniano Lerena Traibel gave his bride as
+      <strong>Hermenegilda Carolina Gavarro</strong>, daughter of <strong>Ger&oacute;nimo
+      Gavarro</strong> and <strong>Carolina Ju&aacute;rez</strong>. The plate says
+      <em>&ldquo;hija leg&iacute;tima de Don <strong>Ger&oacute;nimo Gavazzo</strong> y Do&ntilde;a
+      <strong>Carolina Su&aacute;rez</strong>&rdquo;</em>. Three surnames, wrong for a week, and
+      confirmed wrong by a second image forty-eight years later. <strong>Gavazzo is a known
+      Montevideo surname and Gavarro is not</strong>, which is the kind of tell that should have
+      prompted the check.</p>
+    <p class="lab" style="margin-top:18px">What the machine got wrong in the other direction</p>
+    <p>The top-ranked unopened plate was the one carrying the archive&rsquo;s most consequential
+      proper noun: the 1831 baptism at the Cord&oacute;n where <strong>the President of Uruguay
+      stood godfather</strong> to Sancho&rsquo;s grandson. Seven register rows rest on it. It was
+      opened &mdash; film 007713388, image 00726 &mdash; and the act reads:</p>
+    <p style="margin-left:1.2rem"><em>&ldquo;padrinos Dn. <strong>Frutuso Ribera, Presidente de la
+      Rep&uacute;blica</strong> y su esposa Da. <strong>Bernardina Fragoso</strong>&rdquo;</em></p>
+    <p><strong>Frutuso Ribera, with a B.</strong> The transcript had printed <em>Fructuoso
+      Rivera</em> &mdash; the spelling in every history book, and not what the page says.
+      <strong>The finding holds and is stronger than it was</strong>, because the act states the
+      man&rsquo;s <em>office</em> and names his <em>wife</em>: in December 1831 the President of the
+      Republic was Fructuoso Rivera and his wife was Bernardina Fragoso. Two independent facts on one
+      line, either of which identifies him alone. The same page spells the grandfather
+      <strong>Llerena</strong>, with the double L.</p>
+    <p class="cap"><strong>Both failures are one failure.</strong> A machine transcript is reliable
+      about dates, ages, relationships and formulae, and unreliable about <em>proper nouns</em> &mdash;
+      it invents a plausible name where it cannot read one, and it writes the famous spelling over the
+      page&rsquo;s own where it can. <strong>So the rule is not &ldquo;distrust transcripts&rdquo;. It
+      is: a transcript is a finding-aid for everything except the names, and the names are usually why
+      you went.</strong></p>
+    <p class="cap">Forty-nine rows still rest on a transcript nobody has checked. The count is falling
+      and the tool prints it: <code>python3 tools/transcript-only.py</code>.</p>
+  </div>
+</section>
+
+<section class="blk">
   <h2 id="s-index-dates">A child born six years after his father died</h2>
   <p class="dek">The date on an index entry can be the date of the <em>copy</em>, not of the act.
     This one moved a man&rsquo;s birth by forty-four years.</p>
