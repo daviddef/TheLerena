@@ -100,6 +100,47 @@ td.m,th.m{font-family:var(--mono);font-size:12px;font-variant-numeric:tabular-nu
 .chip.doc{border-color:var(--accent);color:var(--accent);background:var(--accent-wash)}
 .chip.inf{border-color:var(--ochre);color:var(--ochre)}
 .chip.lore{border-color:var(--rule-strong);color:var(--ink-3);border-style:dashed}
+
+/* ---- evidence tags and country pills, shared by every tree page ----------------
+   The TAG says how well a thing is known and is the one signal a reader must not
+   misread, so it is filled and loud. The COUNTRY PILL is context, so it is outlined
+   and quiet, and its colours deliberately avoid --accent and --terra so it can never
+   be mistaken for Documented or Inferred. Defined here rather than per page because
+   four pages now use them and a rule copied into four scoped blocks is a rule that
+   drifts. Country names come from src/lib/country.js, which is also the only place
+   that decides WHICH country a place is in. */
+.tag{display:inline-block;font-family:var(--sans);font-size:10px;padding:2px 7px;
+     border-radius:99px;vertical-align:middle;letter-spacing:.02em}
+.tag.doc{background:var(--accent);color:#fff}
+.tag.inf{background:var(--terra);color:#fff}
+.tag.gap{border:1px dashed var(--terra);color:var(--terra)}
+.tag.place{background:transparent;color:var(--pc);border:1px solid var(--pc);
+           font-size:9px;letter-spacing:.07em;text-transform:uppercase;font-weight:600;
+           padding:1px 7px}
+.tag.place.uy{--pc:#33608F}
+.tag.place.ar{--pc:#1F7A72}
+.tag.place.za{--pc:#4E7A55}
+.tag.place.en{--pc:#9A6B18}
+.tag.place.es{--pc:#8C4A6B}
+.tag.place.br{--pc:#3F6E4A}
+.tag.place.it{--pc:#6B5B95}
+.tag.place.pe{--pc:#A05A3C}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .tag.place.uy{--pc:#8DB4DC}
+ :root:not([data-theme="light"]) .tag.place.ar{--pc:#5FBDB2}
+ :root:not([data-theme="light"]) .tag.place.za{--pc:#77A87E}
+ :root:not([data-theme="light"]) .tag.place.en{--pc:#D2A24A}
+ :root:not([data-theme="light"]) .tag.place.es{--pc:#CE8FAE}
+ :root:not([data-theme="light"]) .tag.place.br{--pc:#7FB98C}
+ :root:not([data-theme="light"]) .tag.place.it{--pc:#A99DC0}
+ :root:not([data-theme="light"]) .tag.place.pe{--pc:#D29A7C}}
+:root[data-theme="dark"] .tag.place.uy{--pc:#8DB4DC}
+:root[data-theme="dark"] .tag.place.ar{--pc:#5FBDB2}
+:root[data-theme="dark"] .tag.place.za{--pc:#77A87E}
+:root[data-theme="dark"] .tag.place.en{--pc:#D2A24A}
+:root[data-theme="dark"] .tag.place.es{--pc:#CE8FAE}
+:root[data-theme="dark"] .tag.place.br{--pc:#7FB98C}
+:root[data-theme="dark"] .tag.place.it{--pc:#A99DC0}
+:root[data-theme="dark"] .tag.place.pe{--pc:#D29A7C}
 .note{border-left:2px solid var(--ochre);padding:2px 0 2px 18px;font-family:var(--sans);
   font-size:14.5px;line-height:1.62;color:var(--ink-2);max-width:82ch}
 

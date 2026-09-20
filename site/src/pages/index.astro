@@ -218,7 +218,6 @@ const stats = [
                border:2px dashed var(--terra); background:transparent; }
   .sp1-break b { display:block; font-size:.96rem; }
   .sp1-break p { margin:6px 0 0; font-size:.86rem; line-height:1.55; }
-  .tag.gap { border:1px dashed var(--terra); }
   .sp1-row { grid-column:2; display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
              gap:10px; }
   .sp1-row.three { grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); }
@@ -234,32 +233,8 @@ const stats = [
     .sp1-gen, .sp1-node { grid-column:1; }
     .sp1-gen { text-align:left; padding-top:10px; }
   }
-  .tag { font-size:10px; padding:2px 7px; border-radius:99px; vertical-align:middle; }
-  .tag.doc { background:var(--accent); color:#fff; }
-  .tag.inf { background:var(--terra); color:#fff; }
-
-  /* Country pills. Deliberately QUIETER than the evidence tags: the tier is the thing a reader
-     must not misread, and a country is context. Outlined and tinted rather than filled, so they
-     never compete with Documented / Inferred for the eye. Colours avoid --accent and --terra
-     for the same reason. */
-  .sp1-places { font-size:.78rem; line-height:1.5; opacity:.72; margin:10px 0 0; max-width:62ch; }
-  .tag.place { background:transparent; color:var(--pc); border:1px solid var(--pc);
-               font-size:9px; letter-spacing:.07em; text-transform:uppercase; font-weight:600;
-               padding:1px 7px; }
-  .tag.place.uy { --pc:#33608F; }
-  .tag.place.ar { --pc:#1F7A72; }
-  .tag.place.za { --pc:#4E7A55; }
-  .tag.place.en { --pc:#9A6B18; }
-  @media (prefers-color-scheme:dark) {
-    :root:not([data-theme="light"]) .tag.place.uy { --pc:#8DB4DC; }
-    :root:not([data-theme="light"]) .tag.place.ar { --pc:#5FBDB2; }
-    :root:not([data-theme="light"]) .tag.place.za { --pc:#77A87E; }
-    :root:not([data-theme="light"]) .tag.place.en { --pc:#D2A24A; }
-  }
-  :root[data-theme="dark"] .tag.place.uy { --pc:#8DB4DC; }
-  :root[data-theme="dark"] .tag.place.ar { --pc:#5FBDB2; }
-  :root[data-theme="dark"] .tag.place.za { --pc:#77A87E; }
-  :root[data-theme="dark"] .tag.place.en { --pc:#D2A24A; }
+  /* Evidence tags and country pills now live in public/styles.css, because four
+     pages use them. Only the tree-specific bits stay here. */
 </style>
 
 <section class="blk">

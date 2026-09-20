@@ -4,6 +4,7 @@ import { u } from "../lib/url.js";
 import { emph } from "../lib/text.js";
 import jc from "../data/juan-carlos-lerena-tested.json";
 import Spine from "@daviddef/archive-kit/components/Spine.astro";
+import { pills } from "../lib/country.js";
 
 /* No joint on this line is marked weak, and that is the claim the page makes:
    every step now rests on a record and there is no inferred link left in the
@@ -11,7 +12,7 @@ import Spine from "@daviddef/archive-kit/components/Spine.astro";
 const rows = [
   { gen: "0", name: "Juan Carlos Lerena", spouse: "Mar\u00eda Lerena",
     confidence: "Documented",
-    note: `<span class="cap">So written on the card; her maiden name is not yet known. Presumed
+    note: `${pills(["ar","za"])}<br /><span class="cap">So written on the card; her maiden name is not yet known. Presumed
       <strong>Rosario de Santa Fe</strong>; nothing else yet known of him. Named as the father on his
       son&rsquo;s <a href="${u("/enrolment-card/")}">1908 <em>ficha de enrolamiento</em></a>.
       Corroborated from outside Argentina: Pablo Armando&rsquo;s eldest son was
@@ -19,7 +20,7 @@ const rows = [
   { gen: "1", name: "Pablo Armando Lerena", spouse: "Mary Septima Taylor",
     born: "22 Feb 1882", bornPlace: "Rosario de Santa Fe, Argentina",
     died: "19 Mar 1950", diedPlace: "Newlands, Cape Town", confidence: "Documented",
-    note: `<span class="cap">In South Africa <strong>Robert Paul Lerena</strong>; his wife died
+    note: `${pills(["ar","za"])}<br /><span class="cap">In South Africa <strong>Robert Paul Lerena</strong>; his wife died
       Nov 1935 aged 51. Argentine passport, 1940: born Rosario, <strong>Trainer</strong>. Death
       certificate A 214036: <strong>Race Horse Owner</strong>. Named as father in the 1911 Corpus
       Christi baptism of his son Roque.</span>` },
@@ -27,7 +28,7 @@ const rows = [
     spouse: "Catherine Mary Sophia Booyzen (1924\u20132013)",
     born: "6 Oct 1924", bornPlace: "Cape Town",
     died: "1 Jul 1971", diedPlace: "Germiston, Transvaal", confidence: "Documented",
-    note: `<span class="cap">Married at Johannesburg. Named with this exact birth date as a residuary
+    note: `${pills(["za"])}<br /><span class="cap">Married at Johannesburg. Named with this exact birth date as a residuary
       heir in his father's 1950 estate; own death notice 6746/71. A salesman.</span>` },
   { gen: "3", name: "Cheryl Anne Lerena", living: true,
     note: `<span class="cap">Named among her father&rsquo;s children in his 1971 death notice.

@@ -18,6 +18,7 @@ import AncChart from "@daviddef/archive-kit/components/AncChart.astro";
 import { lineage } from "@daviddef/archive-kit/lib/ahnen.js";
 import { u } from "../lib/url.js";
 import people from "../data/people.json";
+import { countryOf, COUNTRIES } from "../lib/country.js";
 import taylor from "../data/taylor-line.json";
 
 const bySlug = new Map(people.map((p) => [p.slug, p]));
@@ -48,7 +49,19 @@ const root = lineage(bySlug.get("nuno-fernando-lerena"), {
   parentsOf,
   born: (r) => yearOf(r.born),
   died: (r) => yearOf(r.died),
-  place: (r) => r.birthplace || r.place || "",
+  /* AncChart renders a place as PLAIN TEXT, so the country cannot be a coloured pill
+     here as it is on the home-page tree and the spine - the component would have to
+     accept markup, and it is shared with two other archives. The country is appended
+     to the string instead, which puts the same information on the chart without
+     forking the kit. Skipped when the place already names its country, so Uruguay
+     does not come out as "Uruguay, Uruguay". */
+  place: (r) => {
+    const p = r.birthplace || r.place || "";
+    const c = countryOf(p);
+    if (!c) return p;
+    const name = COUNTRIES[c];
+    return p.toLowerCase().includes(name.toLowerCase()) ? p : `${p} \u00b7 ${name}`;
+  },
   living: (r) => false,
   /* Read in a register, or taken from the family tree. The `via` a parent was
      reached by says which, and an inline parent has no record of its own. */
@@ -92,6 +105,13 @@ let drawn = 0, doc = 0, walls = 0, deepest = 0;
   <AncChart root={root} personHref={personHref} />
 
   <section class="blk">
+    <p class="prose dim">Each box names the country after the place, in <strong>today&rsquo;s
+    borders</strong> &mdash; an anachronism this archive would rather admit than hide, since
+    Canelones in 1791 was the <em>Banda Oriental</em> of the Spanish empire. Where a place
+    cannot be assigned it is left alone: bare <em>Rosario</em> is Santa Fe in Argentina or
+    Colonia in Uruguay and this register holds both, and bare <em>C&oacute;rdoba</em> is the
+    open question of whether Sancho came from Andalusia or Argentina.</p>
+
     <p class="prose dim">The living are not drawn. The chart starts at Nuno Fernando Lerena,
     born 1924. What it would take to get past each of these walls is on
     <a href={u("/open-questions/")}>Open Questions</a>; the lines this family marries into are
