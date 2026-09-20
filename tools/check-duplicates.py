@@ -69,6 +69,12 @@ def declared():
         line = line.strip()
         if not line or line.startswith("#") or "||" not in line:
             continue
+        # A reviewed pair carries its reason after a #. Strip it before splitting, or the
+        # reason becomes part of the second name and the pair silently stops matching -
+        # which it did, within a minute of the first reason being written.
+        line = line.split("#", 1)[0].strip()
+        if "||" not in line:
+            continue
         a, b = (x.strip() for x in line.split("||", 1))
         out.add(frozenset((a, b)))
     return out

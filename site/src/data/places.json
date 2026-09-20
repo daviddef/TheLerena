@@ -211,7 +211,6 @@
    "hector-lerena",
    "eduardo-lerena",
    "avelina-lerena",
-   "carolina-lerena",
    "gilberto-lerena-salvanach",
    "maria-carlota-lerena-salvanach",
    "luis-felipe-lerena-salvanach",
@@ -220,7 +219,7 @@
    "emma-r-gabarret",
    "josefa-in-gilberto-s-1895-household"
   ],
-  "count": 25
+  "count": 24
  },
  {
   "slug": "rosario-santa-fe",
@@ -259,20 +258,6 @@
   "count": 7
  },
  {
-  "slug": "cordoba-argentina",
-  "name": "Cordoba, Argentina",
-  "people": [
-   "bartolome-llerena-cordoba-origin",
-   "francisco-llerena-2",
-   "rafaela-daraz",
-   "baldomero-llerena",
-   "margarita-correas",
-   "rafael-llerena",
-   "lucrecia-llerena"
-  ],
-  "count": 7
- },
- {
   "slug": "montevideo-canelones",
   "name": "Montevideo / Canelones",
   "people": [
@@ -285,6 +270,19 @@
    "ana-maria-cabalgante"
   ],
   "count": 7
+ },
+ {
+  "slug": "cordoba-argentina",
+  "name": "Cordoba, Argentina",
+  "people": [
+   "francisco-llerena-2",
+   "rafaela-daraz",
+   "baldomero-llerena",
+   "margarita-correas",
+   "rafael-llerena",
+   "lucrecia-llerena"
+  ],
+  "count": 6
  },
  {
   "slug": "cape-town",
@@ -542,7 +540,7 @@
   "slug": "buenos-aires-and-mendoza",
   "name": "Buenos Aires and Mendoza",
   "people": [
-   "carolina-lerena-2"
+   "carolina-lerena"
   ],
   "count": 1
  },

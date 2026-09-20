@@ -728,13 +728,6 @@
   "tier": "BIRTH ONLY"
  },
  {
-  "name": "Bartolome LLERENA - Cordoba origin",
-  "born_est": "1824",
-  "last_attested_alive": "1824",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
- },
- {
   "name": "Francisco LLERENA (Cordoba, m. Rafaela Daraz)",
   "born_est": "-",
   "last_attested_alive": "-",
@@ -813,13 +806,6 @@
  },
  {
   "name": "Juan Carlos LERENA",
-  "born_est": "-",
-  "last_attested_alive": "-",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
- },
- {
-  "name": "Carolina LERENA",
   "born_est": "-",
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
