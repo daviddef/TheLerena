@@ -27,7 +27,7 @@ volumen	title board at image	FIN DEL ITEM at image	libros, where read
 *** WHAT IS NOW NAVIGABLE ***	-	-	*** Fifteen volumes of Montevideo padrones with exact image ranges. *** A search can be aimed at a volume instead of a reel. *** Four volumes have their Libro numbers ***, and the Libro number is what the AGN's own inventory indexes - *** so it is also what will date each padron ***, which is the question standing over Maria Llerena's age of sixty.
 volumen	images	libros	note
 *** 1 ***	00004-00125	*** Libros 2 y 334 ***	
-*** 2 ***	00126-00314	*** NOT READ - the one board still to open ***	*** The only one outstanding. *** Board at image 00126.
+*** 2 ***	00126-00314	*** Libro 246 ***	Read 20 September 2026 from its board at image 00126.
 *** 3 ***	00315-00562	*** Libros 444, 247, 249 ***	
 *** 4 ***	00563-00787	*** Libros 250, 251, 252 ***	*** Libro 252 appears on BOTH boards *** - recorded as read rather than tidied; a volume may end and begin mid-Libro.
 *** 5 ***	00788-00958	*** Libro 252 ***	*** Libro 252 appears on BOTH boards *** - recorded as read rather than tidied; a volume may end and begin mid-Libro.
@@ -42,3 +42,4 @@ volumen	images	libros	note
 *** 14 ***	02425-02724	*** Libro 107 ***	Its Libro was read off the *** FIN board at 2724 ***, not its own title board, which would not render.
 *** 15 ***	02725-03208	*** Libro 256 ***	*** Holds MARIA LLERENA at image 02771. *** Runs to the end of the film.
 *** WHAT THIS IS FOR ***	-	-	*** The Libro number is the AGN's own shelfmark, and it is what their inventory indexes. *** So this table is the bridge between an image on a film and a dated volume in a Montevideo reading room. *** Maria Llerena's age of sixty becomes a birth year the moment somebody says what Libro 256 covers ***, and the same is now true of fourteen other volumes.
+*** ALL FIFTEEN READ, AND THE NUMBERS FALL IN GROUPS ***	-	-	*** Libros 246, 247, 249, 250, 251, 252, 253, 255, 256, 261, 262 *** run almost consecutively across volumes 2 to 8, 12 and 15. *** Libros 147, 148, 149 *** sit together in volumes 10, 11 and 13. *** Libros 334, 444, 464, 465 *** are scattered, and *** Libro 2 *** and *** Libro 107 *** stand alone. *** So one reel carries at least four separate runs of the AGN's Padrones series, filmed out of order *** - which is worth knowing before anyone assumes a neighbouring image is a neighbouring year.
