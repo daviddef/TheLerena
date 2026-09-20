@@ -2065,6 +2065,27 @@
   "tier": "BIRTH ONLY"
  },
  {
+  "name": "Josefa SEGUEIRA (wife of Pedro LERENA)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Jose SEGUEIRA",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Ramona (wife of Jose SEGUEIRA)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
   "name": "Mauricio LERENA (of Colla/Rosario, m. Casimira Montano 1837)",
   "born_est": "c.1815",
   "last_attested_alive": "1925-Mar-3",
