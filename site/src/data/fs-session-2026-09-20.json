@@ -46,5 +46,17 @@
   "what was searched": "Reviewing the duplicate backlog named a cheap test: a Montevideo marriage of *** FIDEL LERENA to MARIA RUEDAS ***, which would decide whether the Fidel of the 1889 death registration is Sancho's son. Put to the personas endpoint with the spouse surname both as Rueda and as Ruedas.",
   "result": "*** NOT ANSWERED, because the endpoint does not filter on a spouse. *** What it did return is worth keeping: the only two Fidel Lerenas it surfaces in Uruguay are *** the 1889 Victor Lerena death registration this archive already holds *** - which names Fidel Lerena, Maria Rueda and Victor's father *** Pedro Lorena ***, and gives Victor's birth as 1861 against a death on 10 October 1889, confirming the twenty-eight years - and one unrelated Cordon entry of 1842.",
   "verdict": "*** OPEN, and the pair stays undeclared on purpose. *** The test must be re-put through the search UI, where a spouse surname genuinely filters. Nothing here moves Fidel closer to or further from Sancho."
+ },
+ {
+  "finding": "*** THE FIDEL TEST IS RUN AT LAST, THROUGH THE UI, AND BOTH HALVES COME BACK EMPTY ***",
+  "what was searched": "Re-put through the search UI, where a spouse surname genuinely filters. *** CONTROL FIRST: *** LERENA + LUIS + spouse surname JUANICO, Uruguay - *** 471 records, and the marriage act of 19 December 1864 at San Francisco de Asis is the FIRST RESULT. *** So the filter works and a real marriage surfaces at rank one.",
+  "result": "*** NO MARRIAGE OF FIDEL LERENA TO MARIA RUEDA OR RUEDAS. *** The same query on Fidel returns 331 records and the only Fidel in them is *** the 1889 Victor Lerena death registration this archive already holds ***. *** AND NO BURIAL EITHER: *** LERENA, FIDEL, Uruguay, deaths 1815-1840 returns 11 records and none is he.",
+  "verdict": "*** A TESTED NULL ON BOTH, AND IT CUTS THE OTHER WAY FROM WHAT WAS EXPECTED. *** The trees give Sancho's Fidel a death in 1822, and that death was the one thing that would have kept the two Fidels apart. *** It is not in the indexed record. *** So it cannot be used to separate them, and the pair stays open for a tested reason instead of an untested one. *** This is absence from an INDEX, not absence from the registers. ***"
+ },
+ {
+  "finding": "*** AND THE BURIAL WINDOW WAS CONTROLLED BEFORE THAT NULL WAS WRITTEN ***",
+  "what was searched": "An empty-looking window is usually an unindexed window. Asked the same range for a common surname: *** RODRIGUEZ, Uruguay, deaths 1815-1840. *** And for the family surname alone: *** LERENA exact, same window. ***",
+  "result": "*** RODRIGUEZ RETURNS 62,026 ***, with real burials on the first screen - Las Piedras 1840, San Jose de Mayo 1844, Canelones 1840. *** LERENA exact returns 190. *** The window is populated.",
+  "verdict": "*** SO THE FIDEL NULL IS A NULL AND NOT AN EMPTY SHELF. *** Uruguayan Catholic burial registers of the 1820s and 1830s are substantially transcribed, and he is not in them under that name. *** The sweep also paid for itself twice over: *** the top Lerena hit in that window was the Cordon burial that dissolved a fifth compound-surname candidate and handed this archive a household it did not have."
  }
 ]
