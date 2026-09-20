@@ -1,0 +1,149 @@
+# SAME-NAME PERSON PAIRS - the backlog, and the baseline this gate fires against.
+#
+# tools/check-duplicates.py flags two register rows sharing a forename and a canonical
+# surname AND something only the same person would share. Every pair it finds must be
+# listed here, so a NEW one fails the build and gets looked at while it is still fresh.
+#
+# 133 PAIRS WERE ALREADY PRESENT on 20 September 2026 and are listed UNREVIEWED.
+# *** Being in this file does NOT mean a pair has been compared. *** It means the gate has
+# seen it. Mark one reviewed by putting the reason after a #, for example:
+#   Name A || Name B   # different men: one d.1878 Montevideo, one arr. Buenos Aires 1926
+#
+# The list exists because this archive added a duplicate of Dominga Josefa Llerena on the
+# day this checker was written - one hour after refusing to add duplicates on principle.
+# Every other gate here catches BROKEN data. Nothing caught REDUNDANT data, because a
+# duplicate person is perfectly well-formed: it renders, it carries evidence, it passes.
+
+Avelino Carlos LERENA (CEMLA crossings) || Avelino Carlos LERENA (b.1904, Mendoza baptism)
+Avelino Carlos LERENA (b.1904, Mendoza baptism) || Avelino LERENA Fernandez (son of Sancho)
+Bartolome LLERENA || Bartolome LLERENA - Cordoba origin
+Bernabe LERENA (of Trinidad) || Bernabe LERENA (1911 dispensation)
+Carlos Augusto Federico LERENA || Carlos LERENA (b.1885, arr. 1926)
+Carlos Augusto Federico LERENA || Carlos LERENA Salvanach (b.1884, son of Gilberto)
+Carlos LERENA (b.1885, arr. 1926) || Carlos LERENA Salvanach (b.1884, son of Gilberto)
+Carolina LERENA || Carolina LERENA (de Martinez)
+Emilia LERENA || Emilia LERENA Vega (b. c.1815)
+Felisa LERENA (arr. 1911) || Felisa LERENA (arr. 1923)
+Fidel LERENA Fernandez || Fidel LERENA (m. Maria Ruedas)
+Francisco LERENA (b.1890, 1895 census) || Francisco LERENA (b.1891, arr. 1930)
+Francisco LERENA (b.1890, 1895 census) || Francisco LLERENA (arr. 1923-25)
+Francisco LERENA (b.1891, arr. 1930) || Francisco LERENA (b.1923, arr. 1930)
+Francisco LERENA (b.1891, arr. 1930) || Francisco LLERENA (arr. 1923-25)
+Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS) || Gilberto LERENA (b.1879, arr. 1928)
+Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS) || Gilberto LERENA Salvanach (the younger, b.1878)
+Gilberto LERENA (b.1879, arr. 1928) || Gilberto LERENA (b.1916, arr. 1928)
+Gilberto LERENA (b.1879, arr. 1928) || Gilberto LERENA Salvanach (the younger, b.1878)
+Gregorio LERENA (arr. 1911) || Gregorio LERENA (arr. 1924)
+Gregorio LERENA (arr. 1911) || Gregorio LARENA
+Gregorio LERENA (arr. 1924) || Gregorio LARENA
+Jose M. LERENA || Jose LLERENA (arr. 1910)
+Jose M. LERENA || Jose LLERENA (arr. 1926)
+Jose LERENA || Jose Maria LERENA
+Jose LERENA || Jose LLERENA (arr. 1926)
+Jose LLERENA (arr. 1910) || Jose LLERENA (arr. 1926)
+Jose Ma. LLERENA || Jose Julio LERENA Juanico
+Jose Julio LERENA Juanico || Jose Loreto LERENA Fernandez
+Josefa LERENA de L. || Josefa LERENA TRAIBEL (1851-1947)
+Josefa LERENA (godmother, 1885) || Josefa LERENA TRAIBEL (1851-1947)
+Juan Jose LERENA || Juan Bernardo LERENA Pelaez
+Juan LARENA (Gualeguaychu) || Juan Antonio LARENA
+Juan LARENA (Gualeguaychu) || Juan Bernardo LERENA Pelaez
+Juan Antonio LARENA || Juan Facundo Frutuoso BARROS Lerena
+Juan Pablo LERENA || Juan Bernardo LERENA Pelaez
+Juan Carlos LERENA || Juan Agustin LERENA Fernandez
+Juan Carlos LERENA || Juan Carlos GONZALEZ LERENA (m. 1920s, Montevideo)
+Juan Bernardo LERENA Pelaez || Juan Carlos GONZALEZ LERENA (m. 1920s, Montevideo)
+Juan Facundo Frutuoso BARROS Lerena || Juan Agustin LERENA Fernandez
+Juan Agustin LERENA Fernandez || Juan Carlos GONZALEZ LERENA (m. 1920s, Montevideo)
+Luis F. LERENA || Luis LERENA (son of Cayetana Faustina)
+Luis F. LERENA || Luis Felipe LERENA Salvanach
+Luis LLERENA || Luis Alejandro LLERENA
+Luis LLERENA || Don Luis Eugenio LERENA LENGUAS
+Luis LLERENA || Don Luis LERENA (the godfather) = probably Luis LERENA y Fernandez
+Luis LLERENA || Luis LERENA (son of Cayetana Faustina)
+Don Luis Eugenio LERENA LENGUAS || Don Luis LERENA (the godfather) = probably Luis LERENA y Fernandez
+Don Luis Eugenio LERENA LENGUAS || Luis LERENA (son of Luis Lerena Lenguas)
+Don Luis Eugenio LERENA LENGUAS || Luis LERENA (son of Cayetana Faustina)
+Don Luis Eugenio LERENA LENGUAS || Luis Felipe LERENA Salvanach
+Don Luis LERENA (the godfather) = probably Luis LERENA y Fernandez || Luis LERENA (son of Luis Lerena Lenguas)
+Don Luis LERENA (the godfather) = probably Luis LERENA y Fernandez || Luis Felipe LERENA Salvanach
+Luis LERENA (son of Luis Lerena Lenguas) || Luis Felipe LERENA Salvanach
+Luis LERENA (son of Cayetana Faustina) || Luis Felipe LERENA Salvanach
+Maria E. C. LERENA || Maria LORENA
+Maria E. C. LERENA || Maria Julia Margarita Josefa Emirena Justiniana LERENA Juanico (m. HERRERA)
+Maria E. C. LERENA || Maria Luisa Lina LERENA Gazo
+Maria E. C. LERENA || Maria LLERENA (Espanola, 60, head of Casa 2)
+Maria Luisa LERENA || Maria Luisa Lina LERENA Gazo
+Maria Luisa LERENA || Maria Leonor LERENA Beloqui
+Maria Luisa LERENA || Maria Regina LERENA Barragan
+Maria Luisa LERENA || Maria Angelica Julia LERENA Salvanach
+Maria Luisa LERENA || Maria Carlota MORATORIO Lerena
+Maria Luisa LERENA || Maria de las Mercedes MORATORIO Lerena
+Maria A. LERENA || Maria C. LERENA
+Maria A. LERENA || Maria E. LERENA
+Maria A. LERENA || Maria LARENA (arr. 1911)
+Maria A. LERENA || Maria LARENA (Cayasta baptism 1890)
+Maria A. LERENA || Maria Regina LERENA Barragan
+Maria A. LERENA || Maria Angelica Julia LERENA Salvanach
+Maria A. LERENA || Maria Carlota LERENA Salvanach
+Maria C. LERENA || Maria E. LERENA
+Maria C. LERENA || Maria LARENA (arr. 1911)
+Maria C. LERENA || Maria LARENA (Cayasta baptism 1890)
+Maria C. LERENA || Maria Angelica Julia LERENA Salvanach
+Maria C. LERENA || Maria Carlota LERENA Salvanach
+Maria E. LERENA || Maria LARENA (arr. 1911)
+Maria E. LERENA || Maria LARENA (Cayasta baptism 1890)
+Maria E. LERENA || Maria Angelica Julia LERENA Salvanach
+Maria E. LERENA || Maria Carlota LERENA Salvanach
+Maria LARENA (arr. 1911) || Maria LARENA (Cayasta baptism 1890)
+Maria LARENA (arr. 1911) || Maria Regina LERENA Barragan
+Maria LARENA (arr. 1911) || Maria Angelica Julia LERENA Salvanach
+Maria LARENA (arr. 1911) || Maria Carlota LERENA Salvanach
+Maria LARENA (Cayasta baptism 1890) || Maria Angelica Julia LERENA Salvanach
+Maria LARENA (Cayasta baptism 1890) || Maria Carlota LERENA Salvanach
+Maria LORENA || Maria Julia Margarita Josefa Emirena Justiniana LERENA Juanico (m. HERRERA)
+Maria LERENA || Maria Julia Margarita Josefa Emirena Justiniana LERENA Juanico (m. HERRERA)
+Maria LERENA || Maria Luisa Lina LERENA Gazo
+Maria LERENA || Maria Leonor LERENA Beloqui
+Maria LERENA || Maria Regina LERENA Barragan
+Maria LERENA || Maria LERENA (m. Eliseo CARDOZO)
+Maria Julia Margarita Josefa Emirena Justiniana LERENA Juanico (m. HERRERA) || Maria Luisa Lina LERENA Gazo
+Maria Julia Margarita Josefa Emirena Justiniana LERENA Juanico (m. HERRERA) || Maria Leonor LERENA Beloqui
+Maria Julia Margarita Josefa Emirena Justiniana LERENA Juanico (m. HERRERA) || Maria Regina LERENA Barragan
+Maria Julia Margarita Josefa Emirena Justiniana LERENA Juanico (m. HERRERA) || Maria Ema LERENA LENGUAS
+Maria Julia Margarita Josefa Emirena Justiniana LERENA Juanico (m. HERRERA) || Maria Angelica Julia LERENA Salvanach
+Maria Julia Margarita Josefa Emirena Justiniana LERENA Juanico (m. HERRERA) || Maria Carlota LERENA Salvanach
+Maria Julia Margarita Josefa Emirena Justiniana LERENA Juanico (m. HERRERA) || Maria Carlota MORATORIO Lerena
+Maria Julia Margarita Josefa Emirena Justiniana LERENA Juanico (m. HERRERA) || Maria de las Mercedes MORATORIO Lerena
+Maria Julia Margarita Josefa Emirena Justiniana LERENA Juanico (m. HERRERA) || Maria LERENA (m. Eliseo CARDOZO)
+Maria Julia Margarita Josefa Emirena Justiniana LERENA Juanico (m. HERRERA) || Maria LLERENA (Espanola, 60, head of Casa 2)
+Maria Luisa Lina LERENA Gazo || Maria Leonor LERENA Beloqui
+Maria Luisa Lina LERENA Gazo || Maria Regina LERENA Barragan
+Maria Luisa Lina LERENA Gazo || Maria Carlota LERENA Salvanach
+Maria Luisa Lina LERENA Gazo || Maria Carlota MORATORIO Lerena
+Maria Luisa Lina LERENA Gazo || Maria de las Mercedes MORATORIO Lerena
+Maria Leonor LERENA Beloqui || Maria Regina LERENA Barragan
+Maria Leonor LERENA Beloqui || Maria Carlota LERENA Salvanach
+Maria Leonor LERENA Beloqui || Maria Carlota MORATORIO Lerena
+Maria Leonor LERENA Beloqui || Maria de las Mercedes MORATORIO Lerena
+Maria Regina LERENA Barragan || Maria Angelica Julia LERENA Salvanach
+Maria Regina LERENA Barragan || Maria Carlota LERENA Salvanach
+Maria Regina LERENA Barragan || Maria Carlota MORATORIO Lerena
+Maria Regina LERENA Barragan || Maria de las Mercedes MORATORIO Lerena
+Maria Ema LERENA LENGUAS || Maria Carlota LERENA Salvanach
+Maria Ema LERENA LENGUAS || Maria LERENA (m. Eliseo CARDOZO)
+Maria Angelica Julia LERENA Salvanach || Maria Carlota LERENA Salvanach
+Maria Angelica Julia LERENA Salvanach || Maria Carlota MORATORIO Lerena
+Maria Angelica Julia LERENA Salvanach || Maria de las Mercedes MORATORIO Lerena
+Maria Carlota LERENA Salvanach || Maria Carlota MORATORIO Lerena
+Maria Carlota LERENA Salvanach || Maria de las Mercedes MORATORIO Lerena
+Maria Carlota MORATORIO Lerena || Maria de las Mercedes MORATORIO Lerena
+Maria Carlota MORATORIO Lerena || Maria LERENA (m. Eliseo CARDOZO)
+Maria de las Mercedes MORATORIO Lerena || Maria LERENA (m. Eliseo CARDOZO)
+Maria LERENA (m. Eliseo CARDOZO) || Maria LLERENA (Espanola, 60, head of Casa 2)
+Pedro LLERENA || Pedro LORENA (father of Victor, d. before 1889)
+Pedro Antonio LERENA (son of Sancho) || Pedro LORENA (father of Victor, d. before 1889)
+Pedro Antonio LERENA (son of Sancho) || Pedro LERENA Vega (b. c.1817)
+Pedro LORENA (father of Victor, d. before 1889) || Pedro LERENA Vega (b. c.1817)
+Ramon LLERENA || Ramon LERENA (of Rosario-Colla, fl. c.1800-1820)
+Roque Luis Armando LERENA || ROQUE LARENA
