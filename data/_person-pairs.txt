@@ -52,37 +52,25 @@ Juan Agustin LERENA Fernandez || Juan Carlos GONZALEZ LERENA (m. 1920s, Montevid
 Luis LLERENA || Luis Alejandro LLERENA   # REVIEWED 20 Sep: FATHER AND SON - the younger row reads 'son of Luis Llerena and Clementina Baranda', baptised at Rosario in 1903.
 Luis LLERENA || Don Luis Eugenio LERENA LENGUAS   # REVIEWED 20 Sep: DIFFERENT MEN AND THE DISTINCTION MATTERS - the Rosario Luis married Clementina Baranda and is one of the first Lerenas found living in Rosario; Luis Eugenio is Don Luis's son, born 1845, married Julia Juanico at Montevideo in 1864, died there in 1901.
 Luis LLERENA || Don Luis LERENA (the godfather) = probably Luis LERENA y Fernandez   # REVIEWED 20 Sep: DIFFERENT MEN. The godfather was born 1811 at Montevideo and stood by proxy at Rosario in 1866; the other lived at Rosario and married Clementina Baranda.
-Luis LLERENA || Luis LERENA (son of Cayetana Faustina)
+Luis LLERENA || Luis LERENA (son of Cayetana Faustina)   # REVIEWED 20 Sep: ROSARIO AGAINST TRINIDAD. The Rosario Luis married Clementina Baranda; the other is a child baptised at Trinidad, Flores on 19 August 1895 to Cayetana Faustina Lerena with no father named.
 Don Luis Eugenio LERENA LENGUAS || Don Luis LERENA (the godfather) = probably Luis LERENA y Fernandez   # REVIEWED 20 Sep: FATHER AND SON. The son's marriage act of 19 Dec 1864 names him "hijo legitimo de Don Luis y de Dona Justiniana Lenguas"; Laura Adela's 1869 baptism names the same pair as paternal grandparents. The 29 shared terms are prose, not evidence. But both rows carry 9 FEBRUARY as a birth day 34 years apart, and the son's birth-to-baptism gap is eleven months where the father's was one day - the son's date wants re-reading.
-Don Luis Eugenio LERENA LENGUAS || Luis LERENA (son of Luis Lerena Lenguas)
-Don Luis Eugenio LERENA LENGUAS || Luis LERENA (son of Cayetana Faustina)
-Don Luis Eugenio LERENA LENGUAS || Luis Felipe LERENA Salvanach
-Don Luis LERENA (the godfather) = probably Luis LERENA y Fernandez || Luis LERENA (son of Luis Lerena Lenguas)
-Don Luis LERENA (the godfather) = probably Luis LERENA y Fernandez || Luis Felipe LERENA Salvanach
-Luis LERENA (son of Luis Lerena Lenguas) || Luis Felipe LERENA Salvanach
-Luis LERENA (son of Cayetana Faustina) || Luis Felipe LERENA Salvanach
-Maria E. C. LERENA || Maria LORENA
-Maria E. C. LERENA || Maria Julia Margarita Josefa Emirena Justiniana LERENA Juanico (m. HERRERA)
-Maria E. C. LERENA || Maria Luisa Lina LERENA Gazo
-Maria E. C. LERENA || Maria LLERENA (Espanola, 60, head of Casa 2)
-Maria Luisa LERENA || Maria Luisa Lina LERENA Gazo
+Don Luis Eugenio LERENA LENGUAS || Luis LERENA (son of Luis Lerena Lenguas)   # REVIEWED 20 Sep: FATHER AND SON, and the son's own row says so - 'hijo legitimo', died at Montevideo on 12 December 1897 aged twenty-five and unmarried. Twenty-seven years apart.
+Don Luis Eugenio LERENA LENGUAS || Luis LERENA (son of Cayetana Faustina)   # REVIEWED 20 Sep: FIFTY YEARS APART and different branches - 1845 in the Lerena Lenguas trunk against an 1895 Trinidad baptism with no father named.
+Don Luis Eugenio LERENA LENGUAS || Luis Felipe LERENA Salvanach   # REVIEWED 20 Sep: UNCLE AND NEPHEW. Luis Eugenio and Gilberto (1854) were brothers, so Gilberto's son of 1892 is his nephew - and named LUIS for the same grandfather, which is why the forename repeats.
+Don Luis LERENA (the godfather) = probably Luis LERENA y Fernandez || Luis LERENA (son of Luis Lerena Lenguas)   # REVIEWED 20 Sep: GREAT-GRANDFATHER AND GREAT-GRANDSON, sixty-one years apart - Don Luis born 1811, and Luis Eugenio's son born 1872.
+Don Luis LERENA (the godfather) = probably Luis LERENA y Fernandez || Luis Felipe LERENA Salvanach   # REVIEWED 20 Sep: EIGHTY-ONE YEARS APART - and the younger was NAMED FOR the elder, which the Salvanach row says outright: 'named LUIS, for his grandfather Don Luis Lerena'. A namesake, not a duplicate.
+Luis LERENA (son of Luis Lerena Lenguas) || Luis Felipe LERENA Salvanach   # REVIEWED 20 Sep: FIRST COUSINS. Luis Eugenio's son of 1872 and Gilberto's son of 1892, both named for the same grandfather.
+Luis LERENA (son of Cayetana Faustina) || Luis Felipe LERENA Salvanach   # REVIEWED 20 Sep: TRINIDAD AGAINST BUENOS AIRES, and three years apart. No connection but the name.
+Maria E. C. LERENA || Maria LORENA   # REVIEWED 20 Sep: DIFFERENT WOMEN AND DIFFERENT COUNTRIES - the 1895 Buenos Aires household's soltera of 26, born Uruguay, against a one-year-old daughter of Agustin Lorena at the Rosario census of 1869, born Cordoba.
+Maria E. C. LERENA || Maria Julia Margarita Josefa Emirena Justiniana LERENA Juanico (m. HERRERA)   # REVIEWED 20 Sep: DIFFERENT WOMEN. Maria Julia is the only LERENA baptised at Rosario between 1731 and 1901, born 8 October 1865 to Luis Eugenio and Julia Juanico; Maria E. C. is the unplaced soltera of the 1895 Buenos Aires schedule, born about 1869 in Uruguay.
+Maria E. C. LERENA || Maria Luisa Lina LERENA Gazo   # REVIEWED 20 Sep: DIFFERENT PARENTS - Maria Luisa Lina is a child of Ysaac Lerena and Adelaida Gazo at Trinidad, Flores, born September 1875.
+Maria E. C. LERENA || Maria LLERENA (Espanola, 60, head of Casa 2)   # REVIEWED 20 Sep: A SPANISH-BORN WOMAN OF SIXTY keeping her own house in Montevideo, against a twenty-six-year-old Uruguayan in a Buenos Aires household. Different generations and different countries of birth.
+Maria Luisa LERENA || Maria Luisa Lina LERENA Gazo   # REVIEWED 20 Sep: DIFFERENT PARENTS AND DIFFERENT TOWNS. Gilberto's daughter, born Uruguay 1880 and counted at fifteen in the 1895 Buenos Aires schedule; against Ysaac Lerena and Adelaida Gazo's child, baptised at Trinidad, Flores in September 1875. The forename repeats across the whole surname - this register holds a dozen Marias.
 Maria Luisa LERENA || Maria Leonor LERENA Beloqui
 Maria Luisa LERENA || Maria Regina LERENA Barragan
 Maria Luisa LERENA || Maria Angelica Julia LERENA Salvanach
 Maria Luisa LERENA || Maria Carlota MORATORIO Lerena
 Maria Luisa LERENA || Maria de las Mercedes MORATORIO Lerena
-Maria A. LERENA || Maria C. LERENA
-Maria A. LERENA || Maria E. LERENA
-Maria A. LERENA || Maria LARENA (arr. 1911)
-Maria A. LERENA || Maria LARENA (Cayasta baptism 1890)
-Maria A. LERENA || Maria Regina LERENA Barragan
-Maria A. LERENA || Maria Angelica Julia LERENA Salvanach   # REVIEWED 20 Sep: STRONG CANDIDATE, NOT MERGED - and the same shape as the Carlos and Luis Felipe merges done today. 'Maria A.' is a census initial in Gilberto's 1895 household; MARIA ANGELICA JULIA was baptised at San Francisco de Asis on 31 October 1886, act 1447. Same father, same mother, both born in Uruguay. *** WHAT STOPS THE MERGE IS THREE YEARS. *** The schedule gives the four youngest as a grouped '6, 6, 5, 2', which would put Maria A. about 1889; the act says October 1886. Luis Felipe was merged because his census age of two matched his baptism exactly. This one does not. TEST: read the census image for the actual ages on lines 10-13 rather than the grouped transcript.
-Maria A. LERENA || Maria Carlota LERENA Salvanach
-Maria C. LERENA || Maria E. LERENA
-Maria C. LERENA || Maria LARENA (arr. 1911)
-Maria C. LERENA || Maria LARENA (Cayasta baptism 1890)
-Maria C. LERENA || Maria Angelica Julia LERENA Salvanach
-Maria C. LERENA || Maria Carlota LERENA Salvanach
 Maria E. LERENA || Maria LARENA (arr. 1911)
 Maria E. LERENA || Maria LARENA (Cayasta baptism 1890)
 Maria E. LERENA || Maria Angelica Julia LERENA Salvanach
@@ -148,3 +136,5 @@ Maria Ema LERENA LENGUAS || Maria Carlota MORATORIO Lerena   # REVIEWED 20 Sep: 
 Avelino Carlos LERENA (b.1904, Mendoza) || Avelino LERENA Fernandez (son of Sancho)   # REVIEWED 20 Sep: EIGHTY-NINE YEARS APART. Sancho's son was born 1815 in Uruguay and heads the LERENA TRAIBEL branch; the other was baptised at Mendoza in 1904. Three generations between them.
 Carlos Augusto Federico LERENA Salvanach (b. 9 July 1883) || Carlos MARTINEZ Lerena   # REVIEWED 20 Sep: DIFFERENT FAMILIES. A LERENA Salvanach against a MARTINEZ Lerena, whose mother was the Carolina Lerena of the Martinez marriage. Shared terms are prose.
 Carlos Augusto Federico LERENA Salvanach (b. 9 July 1883) || Carlos LERENA (of Mendoza, m. Adela CAMIGLIA)   # REVIEWED 20 Sep: TWO MEN, ONE NAME - and this register said so on the Rosa Maria Eppens row on 14 September. Her Carlos is Gilberto's son, SOLTERO at thirty in the Retiro act of 1914 and married to her; Adela Camiglia's Carlos is at MENDOZA and fathered Avelino Carlos in 1904. Kept apart on purpose, and the Mendoza man now has a row so the relationship edges can point somewhere true.
+Maria E. C. LERENA || Maria Angelica Julia LERENA Salvanach   # REVIEWED 20 Sep: NOT GILBERTO'S DAUGHTER AND NOT THIS CHILD. Maria E. C. is the SOLTERA OF TWENTY-SIX on line 5 of the 1895 schedule - the archive retracted "daughter of Gilberto" for her on 14 September, because it would have made him fifteen. Maria Angelica Julia is eight on line 10. They share a schedule, not a person.
+Maria E. C. LERENA || Maria Carlota LERENA Salvanach   # REVIEWED 20 Sep: TWENTY-SIX AGAINST SIX on the same schedule, and the elder is not a daughter of the house at all - more likely Josefa's daughter or Gilberto's sister, as the household file says.

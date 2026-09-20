@@ -15,7 +15,7 @@ line	apellido y nombre	sexo	edad	estado	nacion	profesion
 7	Lerena, MARIA LUISA	m	15	soltera	R. Oriental	-
 8	Lerena, CARLOS A.	v	11	soltero	R. Oriental	estudiante
 9	Lerena, RAUL A.	v	9	soltero	R. Oriental	estudiante
-10-13	Lerena - MARIA A., MARIA C., MARIA E., LUIS F.	-	6, 6, 5, 2	-	Argentina, Bs. As.	-
+10-13	Lerena - MARIA A., MARIA C., MARIA E., LUIS F.	-	*** 8, 6, 5, 2 ***	-	Argentina, Bs. As.	-
 14	Mc Carrera(?), MARIA	m	15	-	-	-
 15	Taboada, DOLORES	m	26	-	Espana	sirvienta
 16	Gonzalez, ROSA	m	18	-	Argentina, Tucuman	sirvienta
@@ -55,3 +55,19 @@ line	apellido y nombre	sexo	edad	estado	nacion	profesion
 #
 # *** STATED AS A READING, NOT A FACT. *** "de L." is an abbreviation and the enumerator's hand is
 # not a marriage act. Josefa's own marriage record would settle it, and has not been looked for.
+#
+# *** THE AGES ON LINES 10-13 WERE READ AGAIN ON 20 SEPTEMBER, AND ONE OF THEM WAS WRONG. ***
+# This file gave them as "6, 6, 5, 2". *** MARIA A. IS EIGHT, NOT SIX *** - read off the image at
+# magnification, film 004149111 image 8. The four are *** 8, 6, 5, 2. ***
+#
+# *** AND THAT ONE DIGIT SETTLED TWO IDENTIFICATIONS THE REGISTER HAD BEEN HOLDING APART. ***
+#   MARIA A., eight in 1895, is *** MARIA ANGELICA JULIA LERENA SALVANACH ***, baptised at San
+#   Francisco de Asis on 31 October 1886 - which makes her eight. At six she could not have been.
+#   MARIA C., six, is *** MARIA CARLOTA LERENA SALVANACH ***, baptised 29 October 1890 at about a
+#   year old, and her nacion column reads ARGENTINA - "the first of the household born in Argentina",
+#   which is what her baptism row has always claimed for her.
+#   LUIS F., two, is *** LUIS FELIPE ***, baptised 30 December 1892. Merged the same day.
+#
+# *** THE ENUMERATOR WROTE INITIALS AND THE PRIEST WROTE NAMES, *** and this archive held four of
+# these children twice over because it read both and never laid them side by side.
+

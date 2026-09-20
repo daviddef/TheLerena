@@ -734,5 +734,13 @@
   "what_is_true": "*** SEVEN ROWS WERE FOUR PEOPLE. *** The archive had done every identification and none of the merges: one note read *** \"two independent sources, same couple\" ***, another *** \"see the CEMLA row for the same man\" ***, a third *** \"the 'Rosa M. E. Lerena' of the CEMLA list\" ***. The arithmetic confirms the hardest of them - the Retiro act of 25 March 1914 calls him *** \"de treinta anos\" ***, and a man born 9 July 1883 is exactly thirty that March. *** AND THE EDGES WERE WORSE THAN THE ROWS: *** relations.tsv made him the husband of ADELA CAMIGLIA and father of AVELINO CARLOS at Mendoza, which the Rosa Maria Eppens row had explicitly denied since 14 September - *** \"two men, one name, and the register now says so on both rows.\" *** It said so on the rows and nothing told the edges. The Mendoza man now has a row of his own, and they point at him.",
   "how_it_was_caught": "Working the duplicate backlog pair by pair, which is what that backlog is for",
   "retired": ""
+ },
+ {
+  "date": "2026-09-20",
+  "severity": "serious",
+  "what_was_said": "*** That lines 10-13 of Gilberto Lerena's 1895 census schedule give the ages '6, 6, 5, 2' *** - published in data/1895-census-gilberto-household.tsv and used to keep three register rows apart.",
+  "what_is_true": "*** THEY ARE 8, 6, 5, 2. MARIA A. IS EIGHT. *** Read off the image at magnification on 20 September, film 004149111 image 8. *** AND THAT ONE DIGIT SETTLED TWO IDENTIFICATIONS. *** At six, Maria A. could not be MARIA ANGELICA JULIA LERENA SALVANACH, baptised 31 October 1886; at eight she is exactly that. MARIA C., six, is MARIA CARLOTA, baptised at about a year old on 29 October 1890 - and her nacion column reads ARGENTINA, which is what that baptism row has always claimed for her. Both are merged, with LUIS F. and CARLOS A. earlier the same day. *** The enumerator wrote initials and the priest wrote names, and this archive held four of these children twice. ***",
+  "how_it_was_caught": "Working the duplicate backlog: two pairs were blocked on a single digit, so the image was opened",
+  "retired": ""
  }
 ]

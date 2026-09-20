@@ -438,16 +438,16 @@
     "note": "Same census household."
    },
    {
-    "name": "Maria A. LERENA",
+    "name": "Maria Angelica Julia LERENA Salvanach",
     "dates": "",
-    "slug": "maria-a-lerena",
+    "slug": "maria-angelica-julia-lerena-salvanach",
     "via": "register",
     "note": "Same census household."
    },
    {
-    "name": "Maria C. LERENA",
+    "name": "Maria Carlota LERENA Salvanach",
     "dates": "",
-    "slug": "maria-c-lerena",
+    "slug": "maria-carlota-lerena-salvanach",
     "via": "register",
     "note": "Same census household - the first of them born in Argentina."
    },
@@ -545,15 +545,15 @@
     "via": "register"
    },
    {
-    "name": "Maria A. LERENA",
+    "name": "Maria Angelica Julia LERENA Salvanach",
     "dates": "",
-    "slug": "maria-a-lerena",
+    "slug": "maria-angelica-julia-lerena-salvanach",
     "via": "register"
    },
    {
-    "name": "Maria C. LERENA",
+    "name": "Maria Carlota LERENA Salvanach",
     "dates": "",
-    "slug": "maria-c-lerena",
+    "slug": "maria-carlota-lerena-salvanach",
     "via": "register"
    },
    {
@@ -625,15 +625,15 @@
     "via": "register"
    },
    {
-    "name": "Maria A. LERENA",
+    "name": "Maria Angelica Julia LERENA Salvanach",
     "dates": "",
-    "slug": "maria-a-lerena",
+    "slug": "maria-angelica-julia-lerena-salvanach",
     "via": "register"
    },
    {
-    "name": "Maria C. LERENA",
+    "name": "Maria Carlota LERENA Salvanach",
     "dates": "",
-    "slug": "maria-c-lerena",
+    "slug": "maria-carlota-lerena-salvanach",
     "via": "register"
    },
    {
@@ -713,15 +713,15 @@
     "via": "register"
    },
    {
-    "name": "Maria A. LERENA",
+    "name": "Maria Angelica Julia LERENA Salvanach",
     "dates": "",
-    "slug": "maria-a-lerena",
+    "slug": "maria-angelica-julia-lerena-salvanach",
     "via": "register"
    },
    {
-    "name": "Maria C. LERENA",
+    "name": "Maria Carlota LERENA Salvanach",
     "dates": "",
-    "slug": "maria-c-lerena",
+    "slug": "maria-carlota-lerena-salvanach",
     "via": "register"
    },
    {
@@ -805,15 +805,15 @@
     "via": "register"
    },
    {
-    "name": "Maria A. LERENA",
+    "name": "Maria Angelica Julia LERENA Salvanach",
     "dates": "",
-    "slug": "maria-a-lerena",
+    "slug": "maria-angelica-julia-lerena-salvanach",
     "via": "register"
    },
    {
-    "name": "Maria C. LERENA",
+    "name": "Maria Carlota LERENA Salvanach",
     "dates": "",
-    "slug": "maria-c-lerena",
+    "slug": "maria-carlota-lerena-salvanach",
     "via": "register"
    },
    {
@@ -839,166 +839,6 @@
   "aliasOf": null,
   "relTotal": 2,
   "relRegister": 2,
-  "relTree": 0,
-  "evidence": []
- },
- {
-  "slug": "maria-a-lerena",
-  "name": "Maria A. LERENA",
-  "born": "1887",
-  "birthplace": "Uruguay",
-  "nationality": "Uruguayan",
-  "occupation": "-",
-  "where": "Buenos Aires",
-  "source": "1895 census, Gilberto's household",
-  "status": "unplaced",
-  "statusRaw": "UNPLACED",
-  "note": "Daughter of Gilberto (1854).",
-  "place": "Buenos Aires",
-  "placeSlug": "buenos-aires",
-  "surname": "LERENA",
-  "ark": "",
-  "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry",
-  "gen": null,
-  "father": {
-   "name": "Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS)",
-   "dates": "1855–1912",
-   "slug": "gilberto-lerena",
-   "via": "register",
-   "note": "Same census household."
-  },
-  "mother": null,
-  "spouses": [],
-  "children": [],
-  "siblings": [
-   {
-    "name": "Carlos Augusto Federico LERENA Salvanach (b. 9 July 1883)",
-    "dates": "",
-    "slug": "carlos-augusto-federico-lerena-salvanach",
-    "via": "register"
-   },
-   {
-    "name": "Luis Felipe LERENA Salvanach",
-    "dates": "",
-    "slug": "luis-felipe-lerena-salvanach",
-    "via": "register"
-   },
-   {
-    "name": "Maria C. LERENA",
-    "dates": "",
-    "slug": "maria-c-lerena",
-    "via": "register"
-   },
-   {
-    "name": "Maria E. C. LERENA",
-    "dates": "",
-    "slug": "maria-e-c-lerena",
-    "via": "register"
-   },
-   {
-    "name": "Maria E. LERENA",
-    "dates": "",
-    "slug": "maria-e-lerena",
-    "via": "register"
-   },
-   {
-    "name": "Maria Luisa LERENA",
-    "dates": "",
-    "slug": "maria-luisa-lerena",
-    "via": "register"
-   },
-   {
-    "name": "Raul LERENA",
-    "dates": "",
-    "slug": "raul-lerena",
-    "via": "register"
-   }
-  ],
-  "isLine": false,
-  "aliasOf": null,
-  "relTotal": 1,
-  "relRegister": 1,
-  "relTree": 0,
-  "evidence": []
- },
- {
-  "slug": "maria-c-lerena",
-  "name": "Maria C. LERENA",
-  "born": "1889",
-  "birthplace": "Buenos Aires",
-  "nationality": "Argentine",
-  "occupation": "-",
-  "where": "Buenos Aires",
-  "source": "1895 census, Gilberto's household",
-  "status": "unplaced",
-  "statusRaw": "UNPLACED",
-  "note": "First of the household born in Argentina.",
-  "place": "Buenos Aires",
-  "placeSlug": "buenos-aires",
-  "surname": "LERENA",
-  "ark": "",
-  "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry",
-  "gen": null,
-  "father": {
-   "name": "Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS)",
-   "dates": "1855–1912",
-   "slug": "gilberto-lerena",
-   "via": "register",
-   "note": "Same census household - the first of them born in Argentina."
-  },
-  "mother": null,
-  "spouses": [],
-  "children": [],
-  "siblings": [
-   {
-    "name": "Carlos Augusto Federico LERENA Salvanach (b. 9 July 1883)",
-    "dates": "",
-    "slug": "carlos-augusto-federico-lerena-salvanach",
-    "via": "register"
-   },
-   {
-    "name": "Luis Felipe LERENA Salvanach",
-    "dates": "",
-    "slug": "luis-felipe-lerena-salvanach",
-    "via": "register"
-   },
-   {
-    "name": "Maria A. LERENA",
-    "dates": "",
-    "slug": "maria-a-lerena",
-    "via": "register"
-   },
-   {
-    "name": "Maria E. C. LERENA",
-    "dates": "",
-    "slug": "maria-e-c-lerena",
-    "via": "register"
-   },
-   {
-    "name": "Maria E. LERENA",
-    "dates": "",
-    "slug": "maria-e-lerena",
-    "via": "register"
-   },
-   {
-    "name": "Maria Luisa LERENA",
-    "dates": "",
-    "slug": "maria-luisa-lerena",
-    "via": "register"
-   },
-   {
-    "name": "Raul LERENA",
-    "dates": "",
-    "slug": "raul-lerena",
-    "via": "register"
-   }
-  ],
-  "isLine": false,
-  "aliasOf": null,
-  "relTotal": 1,
-  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -1045,15 +885,15 @@
     "via": "register"
    },
    {
-    "name": "Maria A. LERENA",
+    "name": "Maria Angelica Julia LERENA Salvanach",
     "dates": "",
-    "slug": "maria-a-lerena",
+    "slug": "maria-angelica-julia-lerena-salvanach",
     "via": "register"
    },
    {
-    "name": "Maria C. LERENA",
+    "name": "Maria Carlota LERENA Salvanach",
     "dates": "",
-    "slug": "maria-c-lerena",
+    "slug": "maria-carlota-lerena-salvanach",
     "via": "register"
    },
    {
@@ -6832,10 +6672,10 @@
   "nationality": "Uruguayan",
   "occupation": "-",
   "where": "Montevideo",
-  "source": "San Francisco de Asis, Montevideo, baptism act No. 1447, 31 Oct 1886 - IMAGE READ; ark 3:1:3Q9M-C9BW-Z9RM-W",
+  "source": "San Francisco de Asis, Montevideo, baptism act No. 1447, 31 Oct 1886 - IMAGE READ; ark 3:1:3Q9M-C9BW-Z9RM-W; and the 1895 Argentine census, Gilberto's household",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "Daughter of Gilberto Lerena and Julia Salvanach, baptised 31 October 1886 at San Francisco de Asis, act 1447 - *** the act that put Gilberto's parentage on a document. *** Her godmother was Dona Julia Juanico de Lerena, her father's brother's wife.",
+  "note": "Daughter of Gilberto Lerena and Julia Salvanach, baptised 31 October 1886 at San Francisco de Asis, act 1447 - *** the act that put Gilberto's parentage on a document. *** Her godmother was Dona Julia Juanico de Lerena, her father's brother's wife. *** AND THE CENSUS ROW WAS HER, MERGED 20 September 2026. *** This register also carried her as \"Maria A. LERENA\", a census initial with the note \"daughter of Gilberto (1854)\". *** The merge was blocked until the image was read: *** this file had her age as SIX, and baptised 31 October 1886 does not fit six. The schedule says *** EIGHT ***, and it does.",
   "place": "Montevideo",
   "placeSlug": "montevideo",
   "surname": "LERENA",
@@ -6843,15 +6683,64 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
+  "father": {
+   "name": "Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS)",
+   "dates": "1855–1912",
+   "slug": "gilberto-lerena",
+   "via": "register",
+   "note": "Same census household."
+  },
   "mother": null,
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Carlos Augusto Federico LERENA Salvanach (b. 9 July 1883)",
+    "dates": "",
+    "slug": "carlos-augusto-federico-lerena-salvanach",
+    "via": "register"
+   },
+   {
+    "name": "Luis Felipe LERENA Salvanach",
+    "dates": "",
+    "slug": "luis-felipe-lerena-salvanach",
+    "via": "register"
+   },
+   {
+    "name": "Maria Carlota LERENA Salvanach",
+    "dates": "",
+    "slug": "maria-carlota-lerena-salvanach",
+    "via": "register"
+   },
+   {
+    "name": "Maria E. C. LERENA",
+    "dates": "",
+    "slug": "maria-e-c-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria E. LERENA",
+    "dates": "",
+    "slug": "maria-e-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria Luisa LERENA",
+    "dates": "",
+    "slug": "maria-luisa-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Raul LERENA",
+    "dates": "",
+    "slug": "raul-lerena",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -7452,10 +7341,10 @@
   "nationality": "Uruguayan/Argentine",
   "occupation": "-",
   "where": "Buenos Aires",
-  "source": "Argentina, Capital Federal, Catholic Church Records / Argentine military records, searched on Gilberto as father, 14 Sep 2026",
+  "source": "Argentina, Capital Federal, Catholic Church Records / Argentine military records, searched on Gilberto as father, 14 Sep 2026; and the 1895 Argentine census, Gilberto's household",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "*** THE FIRST CHILD OF THIS FAMILY BAPTISED IN ARGENTINA - 29 October 1890, Nuestra Senora del Pilar, Recoleta. *** Her baptism and her sister Maria Angelica Julia's at Montevideo on 31 October 1886 BRACKET THE FAMILY'S MOVE across the river to between those two dates. Index-level.",
+  "note": "*** THE FIRST CHILD OF THIS FAMILY BAPTISED IN ARGENTINA - 29 October 1890, Nuestra Senora del Pilar, Recoleta. *** Her baptism and her sister Maria Angelica Julia's at Montevideo on 31 October 1886 BRACKET THE FAMILY'S MOVE across the river to between those two dates. Index-level. *** AND THE CENSUS ROW WAS HER, MERGED 20 September 2026. *** This register also carried her as \"Maria C. LERENA\", a census initial with the note \"daughter of Gilberto (1854)\". *** The merge was blocked until the image was read: *** this file had her age as SIX, and baptised 29 October 1890 does not fit six. The schedule says *** SIX ***, and it does.",
   "place": "Buenos Aires",
   "placeSlug": "buenos-aires",
   "surname": "LERENA",
@@ -7463,15 +7352,64 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
+  "father": {
+   "name": "Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS)",
+   "dates": "1855–1912",
+   "slug": "gilberto-lerena",
+   "via": "register",
+   "note": "Same census household - the first of them born in Argentina."
+  },
   "mother": null,
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Carlos Augusto Federico LERENA Salvanach (b. 9 July 1883)",
+    "dates": "",
+    "slug": "carlos-augusto-federico-lerena-salvanach",
+    "via": "register"
+   },
+   {
+    "name": "Luis Felipe LERENA Salvanach",
+    "dates": "",
+    "slug": "luis-felipe-lerena-salvanach",
+    "via": "register"
+   },
+   {
+    "name": "Maria Angelica Julia LERENA Salvanach",
+    "dates": "",
+    "slug": "maria-angelica-julia-lerena-salvanach",
+    "via": "register"
+   },
+   {
+    "name": "Maria E. C. LERENA",
+    "dates": "",
+    "slug": "maria-e-c-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria E. LERENA",
+    "dates": "",
+    "slug": "maria-e-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria Luisa LERENA",
+    "dates": "",
+    "slug": "maria-luisa-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Raul LERENA",
+    "dates": "",
+    "slug": "raul-lerena",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -7512,15 +7450,15 @@
     "via": "register"
    },
    {
-    "name": "Maria A. LERENA",
+    "name": "Maria Angelica Julia LERENA Salvanach",
     "dates": "",
-    "slug": "maria-a-lerena",
+    "slug": "maria-angelica-julia-lerena-salvanach",
     "via": "register"
    },
    {
-    "name": "Maria C. LERENA",
+    "name": "Maria Carlota LERENA Salvanach",
     "dates": "",
-    "slug": "maria-c-lerena",
+    "slug": "maria-carlota-lerena-salvanach",
     "via": "register"
    },
    {
