@@ -639,9 +639,9 @@
  {
   "name": "Pedro LLERENA",
   "born_est": "-",
-  "last_attested_alive": "-",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "last_attested_alive": "1917-May-11",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
  },
  {
   "name": "Susana LLERENA",
@@ -2047,6 +2047,41 @@
   "name": "Alejandro Joaquin Narciso LERENA Villardemoros",
   "born_est": "1872-10-29",
   "last_attested_alive": "1872-10-29",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Sofia CLAVIJO (wife of Pedro LLERENA)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Isabel LLERENA Clavijo",
+  "born_est": "1895-11-14",
+  "last_attested_alive": "1895-11-14",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Celina LLERENA Clavijo",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Telma LLERENA",
+  "born_est": "1900-05-02",
+  "last_attested_alive": "1900-05-02",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Tomasa Cantidia LLERENA",
+  "born_est": "1903-02-12",
+  "last_attested_alive": "1903-02-12",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  }

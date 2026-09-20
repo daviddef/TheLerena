@@ -82,5 +82,12 @@
   "what it actually was": "The Andalusian full-text corpus holds *** nobility and notarial records, not parish registers. *** The zero meant \"not findable by this instrument\", not \"not there\".",
   "how it was caught": "Asking the control question - *** what Andalusian collections exist at all *** - instead of asking for the name again. Until the corpus is mapped, every Spanish null this archive produces is uninterpretable.",
   "when": "15 Sep 2026"
+ },
+ {
+  "disguise": "*** AND AGAIN THE NEXT DAY, ON A COUPLE WHOSE CHILDREN ARE IN THIS REGISTER ***",
+  "what it looked like": "A parent-pair query on *** BERNABE LERENA and CASIMIRA PELAEZ ***, whose four children this archive has held since 13 September.",
+  "what it actually was": "*** \"(0)\" ON THE FIRST READ AND 22 ON THE SECOND. *** Four seconds apart.",
+  "how it was caught": "*** THE ONLY REASON IT WAS CAUGHT IS THAT THE ANSWER WAS ALREADY KNOWN TO BE WRONG *** - the same thing that caught the very first one on 14 September. A control you happen to be standing on.",
+  "when": "21 Sep 2026"
  }
 ]

@@ -3483,7 +3483,7 @@
   "source": "Uruguay Civil Registration - daughter Susana b.1884",
   "status": "interest",
   "statusRaw": "UNPLACED - INTEREST",
-  "note": "*** m. Sofia Clavijo. Fathering a daughter in 1884, so precisely the generation that could have fathered a son in 1882. ***",
+  "note": "*** m. Sofia Clavijo. Fathering a daughter in 1884, so precisely the generation that could have fathered a son in 1882. *** *** AND HE HAS FIVE MORE CHILDREN, found 21 September 2026 by a PARENT-PAIR QUERY. *** Searching PEDRO LLERENA and SOFIA CLAVIJO as a pair returns six Uruguayan civil registrations where searching either name alone returns a crowd: *** ISABEL (b. 14 Nov 1895), CELINA (d. 11 May 1917), TELMA (b. 2 May 1900), TOMASA CANTIDIA (b. 12 Feb 1903) *** and SUSANA, whom this archive already held. Four of them are indexed under the compound *** LLERENA CLAVIJO ***, which names both parents in the surname itself. Index-level; no act opened.",
   "place": "Colonia, Uruguay",
   "placeSlug": "colonia-uruguay",
   "surname": "LLERENA",
@@ -3504,18 +3504,46 @@
   ],
   "children": [
    {
+    "name": "Celina LLERENA Clavijo",
+    "dates": "",
+    "slug": "celina-llerena-clavijo",
+    "via": "register",
+    "note": "Parent-pair query, 21 September 2026; Uruguayan civil registration."
+   },
+   {
+    "name": "Isabel LLERENA Clavijo",
+    "dates": "",
+    "slug": "isabel-llerena-clavijo",
+    "via": "register",
+    "note": "Parent-pair query, 21 September 2026; Uruguayan civil registration."
+   },
+   {
     "name": "Susana LLERENA",
     "dates": "",
     "slug": "susana-llerena",
     "via": "register",
     "note": "Named together in the record that gives Pedro's wife as Sofia Clavijo."
+   },
+   {
+    "name": "Telma LLERENA",
+    "dates": "",
+    "slug": "telma-llerena",
+    "via": "register",
+    "note": "Parent-pair query, 21 September 2026; Uruguayan civil registration."
+   },
+   {
+    "name": "Tomasa Cantidia LLERENA",
+    "dates": "",
+    "slug": "tomasa-cantidia-llerena",
+    "via": "register",
+    "note": "Parent-pair query, 21 September 2026; Uruguayan civil registration."
    }
   ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 2,
-  "relRegister": 2,
+  "relTotal": 6,
+  "relRegister": 6,
   "relTree": 0,
   "evidence": []
  },
@@ -3554,7 +3582,32 @@
   },
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Celina LLERENA Clavijo",
+    "dates": "",
+    "slug": "celina-llerena-clavijo",
+    "via": "register"
+   },
+   {
+    "name": "Isabel LLERENA Clavijo",
+    "dates": "",
+    "slug": "isabel-llerena-clavijo",
+    "via": "register"
+   },
+   {
+    "name": "Telma LLERENA",
+    "dates": "",
+    "slug": "telma-llerena",
+    "via": "register"
+   },
+   {
+    "name": "Tomasa Cantidia LLERENA",
+    "dates": "",
+    "slug": "tomasa-cantidia-llerena",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
   "relTotal": 2,
@@ -10377,7 +10430,7 @@
   "source": "Uruguay, Marriages, ark 1:1:F21B-SZ5",
   "status": "high",
   "statusRaw": "UNPLACED - HIGH INTEREST",
-  "note": "*** THE PATRIARCH THIS ARCHIVE HAD RESEARCHED BUT NEVER MADE A PERSON. *** His marriage of *** 3 February 1837 at San Jose de Mayo *** gives *** birthplace COLLA *** - the old name of *** ROSARIO, COLONIA *** - father *** RAMON ***, mother *** MARIA GONZALES ***, wife *** CASIMIRA MONTANO *** (her parents Jose Montano and Ignacia Barredo). *** His children account for San Jose, Flores and Florida, with Salto and Montevideo besides *** - that is the finding of row 120 - *** and until today he existed here only inside other people's notes. *** *** TIER: INDEXED, not image-read. *** Not attached to Sancho's line by anything.",
+  "note": "*** THE PATRIARCH THIS ARCHIVE HAD RESEARCHED BUT NEVER MADE A PERSON. *** His marriage of *** 3 February 1837 at San Jose de Mayo *** gives *** birthplace COLLA *** - the old name of *** ROSARIO, COLONIA *** - father *** RAMON ***, mother *** MARIA GONZALES ***, wife *** CASIMIRA MONTANO *** (her parents Jose Montano and Ignacia Barredo). *** His children account for San Jose, Flores and Florida, with Salto and Montevideo besides *** - that is the finding of row 120 - *** and until today he existed here only inside other people's notes. *** *** TIER: INDEXED, not image-read. *** Not attached to Sancho's line by anything. *** AND THE PARENT-PAIR QUERY NAMES HIS CHILDREN, 21 September 2026. *** Searching MAURICIO LERENA and CASIMIRA MONTANO as a pair returns twelve Uruguayan records where either name alone returns a crowd. One is explicit: *** CIPRIANO LERENA MONTANA ***, whose 1928 death registration at Flores names both parents, and who is now in this register. *** FOUR MORE ARE CANDIDATES AND ARE NOT ENTERED: *** Manuel Lerena Montana (m. 20 April 1882, San Jose, b.1856), Ignacia Lerena (m. 27 April 1882, Trinidad, b.1864), Clara Lerena de Pallares (d. 3 March 1925, b.1848) and Ignacia Serena Leren de Dolz (d. 12 March 1921, b.1865). *** They match on the pair query but their own entries do not name the parents, *** and this archive does not enter a child on a query shape alone. The dates fit a marriage of 1837.",
   "place": "San Jose de Mayo",
   "placeSlug": "san-jose-de-mayo",
   "surname": "LERENA",
@@ -11391,6 +11444,369 @@
   "aliasOf": null,
   "relTotal": 2,
   "relRegister": 2,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "sofia-clavijo",
+  "name": "Sofia CLAVIJO (wife of Pedro LLERENA)",
+  "born": "-",
+  "birthplace": "Uruguay",
+  "nationality": "Uruguayan",
+  "occupation": "-",
+  "where": "Uruguay",
+  "source": "Uruguay, Civil Registration 1879-2020 - parent-pair query on PEDRO LLERENA and SOFIA CLAVIJO, run 21 September 2026; index read",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "Named as the mother on the Uruguayan civil registrations of *** five children who carry the compound LLERENA CLAVIJO ***. She has been a node on the charts since the Pedro Llerena row was written, with no entry of her own until 21 September 2026.",
+  "place": "Uruguay",
+  "placeSlug": "uruguay",
+  "surname": "CLAVIJO",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [
+   {
+    "name": "Celina LLERENA Clavijo",
+    "dates": "",
+    "slug": "celina-llerena-clavijo",
+    "via": "register",
+    "note": "Same."
+   },
+   {
+    "name": "Isabel LLERENA Clavijo",
+    "dates": "",
+    "slug": "isabel-llerena-clavijo",
+    "via": "register",
+    "note": "Same."
+   },
+   {
+    "name": "Telma LLERENA",
+    "dates": "",
+    "slug": "telma-llerena",
+    "via": "register",
+    "note": "Same."
+   },
+   {
+    "name": "Tomasa Cantidia LLERENA",
+    "dates": "",
+    "slug": "tomasa-cantidia-llerena",
+    "via": "register",
+    "note": "Same."
+   }
+  ],
+  "siblings": [],
+  "isLine": false,
+  "aliasOf": null,
+  "relTotal": 4,
+  "relRegister": 4,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "isabel-llerena-clavijo",
+  "name": "Isabel LLERENA Clavijo",
+  "born": "1895-11-14",
+  "birthplace": "Uruguay",
+  "nationality": "Uruguayan",
+  "occupation": "-",
+  "where": "Uruguay",
+  "source": "Uruguay, Civil Registration 1879-2020 - parent-pair query on PEDRO LLERENA and SOFIA CLAVIJO, run 21 September 2026; index read",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "Birth registered *** 14 November 1895 ***. *** THE COMPOUND IS THE EVIDENCE: *** she is indexed LLERENA CLAVIJO, which names both parents in the surname itself. A death registration of *** 2 June 1915 *** for an \"Isabel Llerena\" is very probably hers and is not merged here - the index gives it without the compound.",
+  "place": "Uruguay",
+  "placeSlug": "uruguay",
+  "surname": "LLERENA",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": {
+   "name": "Pedro LLERENA",
+   "dates": "",
+   "slug": "pedro-llerena",
+   "via": "register",
+   "note": "Parent-pair query, 21 September 2026; Uruguayan civil registration."
+  },
+  "mother": {
+   "name": "Sofia CLAVIJO (wife of Pedro LLERENA)",
+   "dates": "",
+   "slug": "sofia-clavijo",
+   "via": "register",
+   "note": "Same."
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Celina LLERENA Clavijo",
+    "dates": "",
+    "slug": "celina-llerena-clavijo",
+    "via": "register"
+   },
+   {
+    "name": "Susana LLERENA",
+    "dates": "",
+    "slug": "susana-llerena",
+    "via": "register"
+   },
+   {
+    "name": "Telma LLERENA",
+    "dates": "",
+    "slug": "telma-llerena",
+    "via": "register"
+   },
+   {
+    "name": "Tomasa Cantidia LLERENA",
+    "dates": "",
+    "slug": "tomasa-cantidia-llerena",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "celina-llerena-clavijo",
+  "name": "Celina LLERENA Clavijo",
+  "born": "-",
+  "birthplace": "Uruguay",
+  "nationality": "Uruguayan",
+  "occupation": "-",
+  "where": "Uruguay",
+  "source": "Uruguay, Civil Registration 1879-2020 - parent-pair query on PEDRO LLERENA and SOFIA CLAVIJO, run 21 September 2026; index read",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "Death registered *** 11 May 1917 ***. Indexed under the compound LLERENA CLAVIJO. No birth found.",
+  "place": "Uruguay",
+  "placeSlug": "uruguay",
+  "surname": "LLERENA",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": {
+   "name": "Pedro LLERENA",
+   "dates": "",
+   "slug": "pedro-llerena",
+   "via": "register",
+   "note": "Parent-pair query, 21 September 2026; Uruguayan civil registration."
+  },
+  "mother": {
+   "name": "Sofia CLAVIJO (wife of Pedro LLERENA)",
+   "dates": "",
+   "slug": "sofia-clavijo",
+   "via": "register",
+   "note": "Same."
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Isabel LLERENA Clavijo",
+    "dates": "",
+    "slug": "isabel-llerena-clavijo",
+    "via": "register"
+   },
+   {
+    "name": "Susana LLERENA",
+    "dates": "",
+    "slug": "susana-llerena",
+    "via": "register"
+   },
+   {
+    "name": "Telma LLERENA",
+    "dates": "",
+    "slug": "telma-llerena",
+    "via": "register"
+   },
+   {
+    "name": "Tomasa Cantidia LLERENA",
+    "dates": "",
+    "slug": "tomasa-cantidia-llerena",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "telma-llerena",
+  "name": "Telma LLERENA",
+  "born": "1900-05-02",
+  "birthplace": "Uruguay",
+  "nationality": "Uruguayan",
+  "occupation": "-",
+  "where": "Uruguay",
+  "source": "Uruguay, Civil Registration 1879-2020 - parent-pair query on PEDRO LLERENA and SOFIA CLAVIJO, run 21 September 2026; index read",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "Birth registered *** 2 May 1900 ***, daughter of Pedro Llerena and Sofia Clavijo.",
+  "place": "Uruguay",
+  "placeSlug": "uruguay",
+  "surname": "LLERENA",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": {
+   "name": "Pedro LLERENA",
+   "dates": "",
+   "slug": "pedro-llerena",
+   "via": "register",
+   "note": "Parent-pair query, 21 September 2026; Uruguayan civil registration."
+  },
+  "mother": {
+   "name": "Sofia CLAVIJO (wife of Pedro LLERENA)",
+   "dates": "",
+   "slug": "sofia-clavijo",
+   "via": "register",
+   "note": "Same."
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Celina LLERENA Clavijo",
+    "dates": "",
+    "slug": "celina-llerena-clavijo",
+    "via": "register"
+   },
+   {
+    "name": "Isabel LLERENA Clavijo",
+    "dates": "",
+    "slug": "isabel-llerena-clavijo",
+    "via": "register"
+   },
+   {
+    "name": "Susana LLERENA",
+    "dates": "",
+    "slug": "susana-llerena",
+    "via": "register"
+   },
+   {
+    "name": "Tomasa Cantidia LLERENA",
+    "dates": "",
+    "slug": "tomasa-cantidia-llerena",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "tomasa-cantidia-llerena",
+  "name": "Tomasa Cantidia LLERENA",
+  "born": "1903-02-12",
+  "birthplace": "Uruguay",
+  "nationality": "Uruguayan",
+  "occupation": "-",
+  "where": "Uruguay",
+  "source": "Uruguay, Civil Registration 1879-2020 - parent-pair query on PEDRO LLERENA and SOFIA CLAVIJO, run 21 September 2026; index read",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "Birth registered *** 12 February 1903 ***, daughter of Pedro Llerena and Sofia Clavijo. The second forename is the index's - CANTIDIA is more likely *** CANDIDA ***, and is left as read.",
+  "place": "Uruguay",
+  "placeSlug": "uruguay",
+  "surname": "LLERENA",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": {
+   "name": "Pedro LLERENA",
+   "dates": "",
+   "slug": "pedro-llerena",
+   "via": "register",
+   "note": "Parent-pair query, 21 September 2026; Uruguayan civil registration."
+  },
+  "mother": {
+   "name": "Sofia CLAVIJO (wife of Pedro LLERENA)",
+   "dates": "",
+   "slug": "sofia-clavijo",
+   "via": "register",
+   "note": "Same."
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Celina LLERENA Clavijo",
+    "dates": "",
+    "slug": "celina-llerena-clavijo",
+    "via": "register"
+   },
+   {
+    "name": "Isabel LLERENA Clavijo",
+    "dates": "",
+    "slug": "isabel-llerena-clavijo",
+    "via": "register"
+   },
+   {
+    "name": "Susana LLERENA",
+    "dates": "",
+    "slug": "susana-llerena",
+    "via": "register"
+   },
+   {
+    "name": "Telma LLERENA",
+    "dates": "",
+    "slug": "telma-llerena",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "cipriano-lerena-montana",
+  "name": "Cipriano LERENA Montana",
+  "born": "-",
+  "birthplace": "Uruguay",
+  "nationality": "Uruguayan",
+  "occupation": "-",
+  "where": "Flores, Uruguay",
+  "source": "Uruguay, Civil Registration Index Card 1900-1937 - death registration 1928, Flores; index read 21 September 2026",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** A SON OF MAURICIO LERENA AND CASIMIRA MONTANO, and the index says so outright: *** his death registration of 1928 at Flores gives the parents as *** \"Mauricio Lerena, Casimira Montana\". *** Found 21 September by a PARENT-PAIR QUERY, which is the only shape that surfaces him - either name alone returns a crowd. *** He carries the compound LERENA MONTANA *** and the forename CIPRIANO, which is also one of the Trinidad men. Index-level; no act opened.",
+  "place": "Flores, Uruguay",
+  "placeSlug": "flores-uruguay",
+  "surname": "LERENA",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "aliasOf": null,
+  "relTotal": 0,
+  "relRegister": 0,
   "relTree": 0,
   "evidence": []
  }

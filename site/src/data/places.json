@@ -276,6 +276,19 @@
   "count": 7
  },
  {
+  "slug": "uruguay",
+  "name": "Uruguay",
+  "people": [
+   "susana-llerena",
+   "sofia-clavijo",
+   "isabel-llerena-clavijo",
+   "celina-llerena-clavijo",
+   "telma-llerena",
+   "tomasa-cantidia-llerena"
+  ],
+  "count": 6
+ },
+ {
   "slug": "cordoba-argentina",
   "name": "Cordoba, Argentina",
   "people": [
@@ -494,14 +507,6 @@
   "count": 1
  },
  {
-  "slug": "uruguay",
-  "name": "Uruguay",
-  "people": [
-   "susana-llerena"
-  ],
-  "count": 1
- },
- {
   "slug": "argentina",
   "name": "Argentina",
   "people": [
@@ -562,6 +567,14 @@
   "name": "Montevideo, calle Corrales 36",
   "people": [
    "victor-lerena"
+  ],
+  "count": 1
+ },
+ {
+  "slug": "flores-uruguay",
+  "name": "Flores, Uruguay",
+  "people": [
+   "cipriano-lerena-montana"
   ],
   "count": 1
  }

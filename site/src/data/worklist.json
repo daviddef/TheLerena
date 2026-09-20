@@ -415,10 +415,10 @@
   {
    "n": 52,
    "what": "Run the parent-pair query on every couple in the register",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
-   "since": "2026-09-15",
-   "note": "**A method, not a lookup, and it generalises.** Searching two parents as one phrase only matches when a document names both — so it finds children, children's marriages and grandchildren in one query, and it does not drown in the 190,000 results that the surname alone returns. Worth running for **Félix Llerena and Rosalía Aguilar** in Spain, for **Rodrigo and Rosa Fernández** in Asturias, and for every couple in the register where the consistency checker currently reports no reachable siblings."
+   "since": "2026-09-21",
+   "note": "**A method, not a lookup, and it generalises.** Searching two parents as one phrase only matches when a document names both — so it finds children, children's marriages and grandchildren in one query, and it does not drown in the 190,000 results that the surname alone returns. Worth running for **Félix Llerena and Rosalía Aguilar** in Spain, for **Rodrigo and Rosa Fernández** in Asturias, and for every couple in the register where the consistency checker currently reports no reachable siblings. **RUN 21 September 2026 across the register's twenty couples, and it earns its place.** Searching two parents as ONE PAIR surfaces children that either name alone buries in a crowd. **Pedro Llerena and Sofía Clavijo: six records where this archive held one child** — Isabel, Celina, Telma and Tomasa Cantidia added, four of them indexed under the compound LLERENA CLAVIJO, which names both parents in the surname itself. **Mauricio Lerena and Casimira Montaño: twelve records**, one explicit — Cipriano Lerena Montaña, whose 1928 Flores death registration names both parents — and four candidates left unentered because their own entries do not name the parents. Luis Lerena × Justiniana Lenguas returns only what is held; Francisco Llerena × Rafaela Daraz returns only Baldomero. **And the method has a trap in it:** Bernabé × Casimira Peláez read (0) and then 22, on a couple whose children are in this register."
   },
   {
    "n": 53,
