@@ -40,3 +40,5 @@ taylor-marriages: double wedding season in one small Devon parish   # /taylor/ s
 passenger-lists: She was in England five weeks   # /taylor/ #s-crossings, published 20 September 2026
 passenger-lists: Occupation BALLET TEACHER   # /taylor/ #s-crossings, the 1957 Juanita Ramona crossing
 findmypast-lerena: THE RETURN LEG   # /taylor/ #s-crossings gives both legs of the 1935 voyage
+findmypast-lerena: Carries CARMEN   # /name/ #s-the-forename-is-the-sharper-clue answers David's question about Patricia Carmen, published 20 September 2026
+findmypast-lerena: CROSS-CONFIRMS CEMLA   # /register/ carries Avelino Carlos Lerena's 1940 New York arrival on his own row
