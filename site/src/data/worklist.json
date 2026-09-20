@@ -562,7 +562,7 @@
    "state": "next",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "Luis Escolástico, baptised 10 February 1811 — the act that gives Sancho's parents and birthplaces. His marriage to Carolina Oliva is known and his children are not. Currently an errand addressed to David; **it is machine work now.**"
+   "note": "Luis Escolástico, baptised 10 February 1811 — the act that gives Sancho's parents and birthplaces. His marriage to Carolina Oliva is known and his children are not. Currently an errand addressed to David; **it is machine work now.** **ANSWERED 21 September 2026, and it is a NULL.** A parent-pair query on LUIS LERENA with a mother CAROLINA, Uruguay, returns ZERO — **read twice**, because the same session had (0) turn into 22 an hour earlier. The control is the same shape on Luis Lerena × Justiniana Lenguas, which returns the two children this archive holds. **So no indexed child of Luis Lerena and a Carolina exists in the Uruguayan corpus.** If that first marriage produced children they are not in the index, and the parish books are where to look."
   },
   {
    "n": 71,
@@ -570,7 +570,7 @@
    "state": "next",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "Two are known — Francisco Juan Ramón (1826) and Lucinda Gregoria (1827) — and a third, Domingo, is recorded in 1840, **thirteen years later**, so this archive has already noted there are almost certainly others between. The Cordón and cathedral baptism volumes now identified are where they will be."
+   "note": "Two are known — Francisco Juan Ramón (1826) and Lucinda Gregoria (1827) — and a third, Domingo, is recorded in 1840, **thirteen years later**, so this archive has already noted there are almost certainly others between. The Cordón and cathedral baptism volumes now identified are where they will be. **ADVANCED 21 September 2026 — and it gave a DEATH rather than a child.** A query on the MOTHER (Justa Lerena, Uruguay) returns seven, and one settles a person this archive already held: **JUAN BARROS LERENA, died 3 May 1915 at Montevideo, aged eighty-three**, registered the next day, certificate 261. The arithmetic is exact — a man born 27 November 1831 is eighty-three on that day — and the registration names his mother JUSTA LERENA and his father \"MANUEL C BARROS\", the Manuel Zeferino Barros of Pernambuco already here. **It also names a wife nobody had: EMILIA ANTELO.** Still open: Domingo, recorded in 1840 and never followed."
   },
   {
    "n": 72,

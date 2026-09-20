@@ -1885,9 +1885,9 @@
  {
   "name": "Mauricio LERENA (of Colla/Rosario, m. Casimira Montano 1837)",
   "born_est": "c.1815",
-  "last_attested_alive": "c.1815",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "last_attested_alive": "1925-Mar-3",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
  },
  {
   "name": "Ramon LERENA (of Rosario-Colla, fl. c.1800-1820)",
@@ -2082,6 +2082,20 @@
   "name": "Tomasa Cantidia LLERENA",
   "born_est": "1903-02-12",
   "last_attested_alive": "1903-02-12",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Cipriano LERENA Montana",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Emilia ANTELO (wife of Juan Facundo Frutuoso BARROS Lerena)",
+  "born_est": "-",
+  "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  }
