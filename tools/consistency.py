@@ -60,6 +60,20 @@ for p in people:
         par = p.get(key)
         if par:
             kids[(key, par["name"] if isinstance(par, dict) else par)].append(p)
+# TWINS ARE THE ONE LAWFUL WAY FOR TWO SIBLINGS TO BE NOUGHT MONTHS APART, so they are declared
+# here rather than allowed by a looser rule. The bar is deliberately high: a pair goes in ONLY when
+# BOTH children's own acts state the SAME birth date. That is not the same as a shared baptism -
+# this archive inferred twins from a shared font in 1858 and was refuted by the acts, which gave
+# births twenty-one months apart. The 1880 pair was flagged as resting on the same bad reasoning,
+# and when the plate was finally read on 21 September 2026 it turned out to be right after all.
+# Both things had to be read to know which was which.
+TWINS = {
+    ("Maria Carlota MORATORIO Lerena", "Maria de las Mercedes MORATORIO Lerena"):
+        "both acts of 8 March 1880 at the Catedral Basilica read 'que nacio el VEINTE Y CUATRO DE "
+        "FEBRERO ultimo' - film 007713378 image 02598, IMAGE READ",
+}
+TWINS = {tuple(sorted(k)): v for k, v in TWINS.items()}
+
 seen = set()
 for (key, parent), group in kids.items():
     for i, a in enumerate(group):
@@ -71,7 +85,7 @@ for (key, parent), group in kids.items():
             if pair in seen:
                 continue
             gap = months(fa, fb)
-            if gap < 9:
+            if gap < 9 and pair not in TWINS:
                 seen.add(pair)
                 hard.append(f"{a['name']} (b.{a['born']}) and {b['name']} (b.{b['born']}) share a "
                             f"{key} ({parent}) but are only {gap} months apart - both cannot be right")
@@ -104,7 +118,7 @@ for c, group in cohorts.items():
             if pair in seen:
                 continue
             gap = months(full(a["born"]), full(b["born"]))
-            if gap < 9:
+            if gap < 9 and pair not in TWINS:
                 seen.add(pair)
                 soft.append(f"{a['name']} (b.{a['born']}) and {b['name']} (b.{b['born']}) both read as "
                             f"{c[0]} {c[1]} but are only {gap} months apart - siblings this close cannot "
@@ -184,7 +198,7 @@ for parent, group in cited.items():
             if pair in seen:
                 continue
             gap = months(fa, fb)
-            if gap < 9:
+            if gap < 9 and pair not in TWINS:
                 seen.add(pair)
                 soft.append(f"{a['name']} (b.{a['born']}) and {b['name']} (b.{b['born']}) are both "
                             f"recorded as children of '{parent}' but are only {gap} months apart")
@@ -260,13 +274,13 @@ CHECKED_PAIRS = {
     ("Dona Juana SUAREZ", "Dona Juana GRANDAL"):
         "different women sharing only the forename Juana: the late wife of Mayor Joaquin Ruiz de "
         "Carvallo, named in 1827, and the Juana Grandal of Las Piedras",
-    ("Dona Carolina Amalia de la CONCEPCION", "Dona Carolina JUAREZ"):
+    ("Dona Carolina Amalia de la CONCEPCION", "Dona Carolina SUAREZ"):
         "different women sharing only the forename Carolina: the godmother beside General Maggesi at "
-        "the Catedral in 1827, and an unrelated Carolina Juarez",
+        "the Catedral in 1827, and Hermenegilda Gavazzo's mother, named in 1892 and again at her daughter's death in 1940. This entry said JUAREZ until 21 September 2026, when the 1892 plate was opened and gave SUAREZ - and a renamed row silently un-declares its own pair, which is why this list is checked after every rename",
     ("Maria Carlota LERENA Salvanach", "Maria Carlota MORATORIO Lerena"):
         "different children ten years apart: Gilberto and Julia Salvanach's daughter baptised at "
         "Recoleta in 1890, and Fernando Moratorio and Josefa Lerena Traibel's baptised at Union in "
-        "1880. A Lerena naming habit, not one person",
+        "1880 - at the CATEDRAL BASILICA, not the Union, which is where this archive put it until the plate was read. A Lerena naming habit, not one person",
 }
 CHECKED_PAIRS = {tuple(sorted(k)): v for k, v in CHECKED_PAIRS.items()}
 seen_key = {}

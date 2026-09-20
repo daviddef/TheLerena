@@ -1274,6 +1274,20 @@
   "tier": "BIRTH ONLY"
  },
  {
+  "name": "Rodrigo FERNANDEZ (father of Maria)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Rosa FERNANDEZ (mother of Maria)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
   "name": "D. Juan LENGUAS",
   "born_est": "-",
   "last_attested_alive": "-",
