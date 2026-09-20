@@ -431,9 +431,9 @@
     "note": "1895 census; Uruguayan civil registration"
    },
    {
-    "name": "Luis F. LERENA",
+    "name": "Luis Felipe LERENA Salvanach",
     "dates": "",
-    "slug": "luis-f-lerena",
+    "slug": "luis-felipe-lerena-salvanach",
     "via": "register",
     "note": "Same census household."
    },
@@ -539,9 +539,9 @@
     "via": "register"
    },
    {
-    "name": "Luis F. LERENA",
+    "name": "Luis Felipe LERENA Salvanach",
     "dates": "",
-    "slug": "luis-f-lerena",
+    "slug": "luis-felipe-lerena-salvanach",
     "via": "register"
    },
    {
@@ -619,9 +619,9 @@
     "via": "register"
    },
    {
-    "name": "Luis F. LERENA",
+    "name": "Luis Felipe LERENA Salvanach",
     "dates": "",
-    "slug": "luis-f-lerena",
+    "slug": "luis-felipe-lerena-salvanach",
     "via": "register"
    },
    {
@@ -707,9 +707,9 @@
   "children": [],
   "siblings": [
    {
-    "name": "Luis F. LERENA",
+    "name": "Luis Felipe LERENA Salvanach",
     "dates": "",
-    "slug": "luis-f-lerena",
+    "slug": "luis-felipe-lerena-salvanach",
     "via": "register"
    },
    {
@@ -799,9 +799,9 @@
     "via": "register"
    },
    {
-    "name": "Luis F. LERENA",
+    "name": "Luis Felipe LERENA Salvanach",
     "dates": "",
-    "slug": "luis-f-lerena",
+    "slug": "luis-felipe-lerena-salvanach",
     "via": "register"
    },
    {
@@ -879,9 +879,9 @@
     "via": "register"
    },
    {
-    "name": "Luis F. LERENA",
+    "name": "Luis Felipe LERENA Salvanach",
     "dates": "",
-    "slug": "luis-f-lerena",
+    "slug": "luis-felipe-lerena-salvanach",
     "via": "register"
    },
    {
@@ -959,9 +959,9 @@
     "via": "register"
    },
    {
-    "name": "Luis F. LERENA",
+    "name": "Luis Felipe LERENA Salvanach",
     "dates": "",
-    "slug": "luis-f-lerena",
+    "slug": "luis-felipe-lerena-salvanach",
     "via": "register"
    },
    {
@@ -1039,9 +1039,9 @@
     "via": "register"
    },
    {
-    "name": "Luis F. LERENA",
+    "name": "Luis Felipe LERENA Salvanach",
     "dates": "",
-    "slug": "luis-f-lerena",
+    "slug": "luis-felipe-lerena-salvanach",
     "via": "register"
    },
    {
@@ -1060,86 +1060,6 @@
     "name": "Maria E. C. LERENA",
     "dates": "",
     "slug": "maria-e-c-lerena",
-    "via": "register"
-   },
-   {
-    "name": "Maria Luisa LERENA",
-    "dates": "",
-    "slug": "maria-luisa-lerena",
-    "via": "register"
-   },
-   {
-    "name": "Raul LERENA",
-    "dates": "",
-    "slug": "raul-lerena",
-    "via": "register"
-   }
-  ],
-  "isLine": false,
-  "aliasOf": null,
-  "relTotal": 1,
-  "relRegister": 1,
-  "relTree": 0,
-  "evidence": []
- },
- {
-  "slug": "luis-f-lerena",
-  "name": "Luis F. LERENA",
-  "born": "1893",
-  "birthplace": "Buenos Aires",
-  "nationality": "Argentine",
-  "occupation": "-",
-  "where": "Buenos Aires",
-  "source": "1895 census, Gilberto's household",
-  "status": "unplaced",
-  "statusRaw": "UNPLACED",
-  "note": "Son of Gilberto (1854).",
-  "place": "Buenos Aires",
-  "placeSlug": "buenos-aires",
-  "surname": "LERENA",
-  "ark": "",
-  "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry",
-  "gen": null,
-  "father": {
-   "name": "Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS)",
-   "dates": "1855–1912",
-   "slug": "gilberto-lerena",
-   "via": "register",
-   "note": "Same census household."
-  },
-  "mother": null,
-  "spouses": [],
-  "children": [],
-  "siblings": [
-   {
-    "name": "Carlos Augusto Federico LERENA Salvanach (b. 9 July 1883)",
-    "dates": "",
-    "slug": "carlos-augusto-federico-lerena-salvanach",
-    "via": "register"
-   },
-   {
-    "name": "Maria A. LERENA",
-    "dates": "",
-    "slug": "maria-a-lerena",
-    "via": "register"
-   },
-   {
-    "name": "Maria C. LERENA",
-    "dates": "",
-    "slug": "maria-c-lerena",
-    "via": "register"
-   },
-   {
-    "name": "Maria E. C. LERENA",
-    "dates": "",
-    "slug": "maria-e-c-lerena",
-    "via": "register"
-   },
-   {
-    "name": "Maria E. LERENA",
-    "dates": "",
-    "slug": "maria-e-lerena",
     "via": "register"
    },
    {
@@ -7563,10 +7483,10 @@
   "nationality": "Uruguayan/Argentine",
   "occupation": "-",
   "where": "Buenos Aires",
-  "source": "Argentina, Capital Federal, Catholic Church Records / Argentine military records, searched on Gilberto as father, 14 Sep 2026",
+  "source": "Argentina, Capital Federal, Catholic Church Records / Argentine military records, searched on Gilberto as father, 14 Sep 2026; and the 1895 Argentine census, Gilberto's household, \"Lerena, LUIS F., 2\"",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "Son of Gilberto Lerena and Julia Salvanach, baptised 30 December 1892 at Inmaculada Concepcion, Constitucion, Buenos Aires. Named LUIS, for his grandfather Don Luis Lerena. Index-level.",
+  "note": "Son of Gilberto Lerena and Julia Salvanach, baptised 30 December 1892 at Inmaculada Concepcion, Constitucion, Buenos Aires. Named LUIS, for his grandfather Don Luis Lerena. Index-level. *** AND THE CENSUS ROW WAS HIM, MERGED 20 September 2026. *** This register also held \"Luis F. LERENA\", born 1893 at Buenos Aires, \"son of Gilberto (1854)\" - which is this boy under the initial the enumerator wrote. *** The arithmetic is exact: *** a child baptised on 30 December 1892 is TWO in a census taken in 1895, and two is what the schedule gives him.",
   "place": "Buenos Aires",
   "placeSlug": "buenos-aires",
   "surname": "LERENA",
@@ -7574,15 +7494,64 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
+  "father": {
+   "name": "Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS)",
+   "dates": "1855–1912",
+   "slug": "gilberto-lerena",
+   "via": "register",
+   "note": "Same census household."
+  },
   "mother": null,
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Carlos Augusto Federico LERENA Salvanach (b. 9 July 1883)",
+    "dates": "",
+    "slug": "carlos-augusto-federico-lerena-salvanach",
+    "via": "register"
+   },
+   {
+    "name": "Maria A. LERENA",
+    "dates": "",
+    "slug": "maria-a-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria C. LERENA",
+    "dates": "",
+    "slug": "maria-c-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria E. C. LERENA",
+    "dates": "",
+    "slug": "maria-e-c-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria E. LERENA",
+    "dates": "",
+    "slug": "maria-e-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria Luisa LERENA",
+    "dates": "",
+    "slug": "maria-luisa-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Raul LERENA",
+    "dates": "",
+    "slug": "raul-lerena",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },

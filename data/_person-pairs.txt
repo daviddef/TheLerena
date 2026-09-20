@@ -15,45 +15,43 @@
 # day this checker was written - one hour after refusing to add duplicates on principle.
 # Every other gate here catches BROKEN data. Nothing caught REDUNDANT data, because a
 # duplicate person is perfectly well-formed: it renders, it carries evidence, it passes.
-Bernabe LERENA (of Trinidad) || Bernabe LERENA (1911 dispensation)
+Bernabe LERENA (of Trinidad) || Bernabe LERENA (1911 dispensation)   # REVIEWED 20 Sep: DIFFERENT MEN on different wives and different towns. The Trinidad man's wife is CASIMIRA PELAEZ and his four children run 1871-1885; the dispensation man married FLORENCIA CARDOZO at Montevideo and fathered Custodio. And the Trinidad row itself argues the forename should repeat - six or seven men of this surname in one small town are 'almost certainly brothers or first cousins'. A second Bernabe is what that kindred predicts.
 Emilia LERENA || Emilia LERENA Vega (b. c.1815)   # REVIEWED 20 Sep 2026: DIFFERENT WOMEN. One b.1886 in SPAIN, in Leandro's 1895 household; the other b.c.1815 in MONTEVIDEO, daughter of Pedro Antonio Lerena and Vicenta Vega. Seventy-one years and two countries apart.
-Felisa LERENA (arr. 1911) || Felisa LERENA (arr. 1923)
+Felisa LERENA (arr. 1911) || Felisa LERENA (arr. 1923)   # REVIEWED 20 Sep: GENUINELY UNSETTLED, and left that way on purpose. b.1893 arriving with Gregorio, and b.1891 arriving with four children - a woman who sailed once and came back with a family is an ordinary thing, and two years of drift in a stated age is less than this archive sees weekly. Neither merged nor declared distinct: there is no evidence either way.
 Fidel LERENA Fernandez || Fidel LERENA (m. Maria Ruedas)   # REVIEWED 20 Sep: CANDIDATE, HELD APART ON PURPOSE. A rare forename twice in one city. Sancho's Fidel has a tree-only death in 1822 which, if wrong, makes the merge possible. TEST RUN 20 Sep THROUGH THE UI, BOTH HALVES NULL, AND IT WEAKENS THE SEPARATION RATHER THAN THE MERGE: no marriage of Fidel Lerena to Maria Rueda(s) is indexed (control: Luis x Juanico returns the 1864 act at rank one), and no burial of a Fidel Lerena 1815-1840 (control: Rodriguez in that window returns 62,026 with real burials, so the window is populated). The trees' 1822 death was the one thing holding these two apart and it is not in the record. Still not merged - an unevidenced death is not evidence of survival.
-Francisco LERENA (b.1890, 1895 census) || Francisco LERENA (b.1891, arr. 1930)
-Francisco LERENA (b.1890, 1895 census) || Francisco LLERENA (arr. 1923-25)
-Francisco LERENA (b.1891, arr. 1930) || Francisco LERENA (b.1923, arr. 1930)
-Francisco LERENA (b.1891, arr. 1930) || Francisco LLERENA (arr. 1923-25)
+Francisco LERENA (b.1890, 1895 census) || Francisco LERENA (b.1891, arr. 1930)   # REVIEWED 20 Sep: CANDIDATE, NOT MERGED. The census boy is five in Leandro's Buenos Aires household in 1895, born Argentina; the traveller is born 1891 and lands in 1930, so an Argentine returning home. The years fit within one. Nothing else connects them, and Francisco is not a rare name.
+Francisco LERENA (b.1890, 1895 census) || Francisco LLERENA (arr. 1923-25)   # REVIEWED 20 Sep: SAME QUESTION AS THE LINE ABOVE, since these two arrivals are themselves a candidate pair. If the two travellers are one man, this is the same identification put twice.
+Francisco LERENA (b.1891, arr. 1930) || Francisco LERENA (b.1923, arr. 1930)   # REVIEWED 20 Sep: FATHER AND SON on one passenger list - the younger row reads 'Son of the above', thirty-two years apart, landed together 25 October 1930.
+Francisco LERENA (b.1891, arr. 1930) || Francisco LLERENA (arr. 1923-25)   # REVIEWED 20 Sep: STRONG CANDIDATE, NOT MERGED - and the corroboration is a CHILD rather than an age. Both men are born 1891 and both travel with an ARGENTINE-BORN SON. The 1925 crossing carries an infant; the 1930 crossing carries a Francisco aged seven, which is a birth about 1923. LLERENA is one of this family's seven spellings. Not merged because nothing but the passenger lists says so, and this archive joined two Arturo Lerenas on less. TEST: the CEMLA entries' stated ages and marital status, and whether the 1923 and 1930 lists give the same ship's origin.
 Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS) || Gilberto LERENA (b.1879, arr. 1928)   # REVIEWED 20 Sep: DIFFERENT MEN whichever way the 1928 arrival resolves. The Stud Book Gilberto was 41 in 1895 and born 1854; the traveller was born 1879. If the traveller is the Salvanach son, these two are father and son.
-Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS) || Gilberto LERENA Salvanach (the younger, b.1878)
+Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS) || Gilberto LERENA Salvanach (the younger, b.1878)   # REVIEWED 20 Sep: FATHER AND SON. The Stud Book Gilberto, born 1854, and his eldest, born Montevideo 1878 - line 6 of the 1895 Buenos Aires schedule, 'Salvanach Lerena, GILBERTO, varon, 17, soltero'.
 Gilberto LERENA (b.1879, arr. 1928) || Gilberto LERENA (b.1916, arr. 1928)   # REVIEWED 20 Sep: FATHER AND SON on one passenger list, 37 years apart - comercio and estudiante, landed together 27 Feb 1928.
 Gilberto LERENA (b.1879, arr. 1928) || Gilberto LERENA Salvanach (the younger, b.1878)   # REVIEWED 20 Sep: STRONG CANDIDATE, NOT MERGED. The only stated objection - "not in the 1895 household" - was false and is retracted; he is line 6 of that schedule at 17. Birth years one apart, Argentine nationality, Buenos Aires, and a son Gilberto b.1916 travelling with him against a marriage of 1906. Both rows index-level. TEST PART-RUN 20 Sep: the military record gives birth 1878 and Distrito Militar 2, March 1922 - consistent, not decisive. The son is now documented (Gilberto de Jesus del Corazon, by Cipriana Saenz Pena, m. 19 May 1906) but carries no indexed birth year, so 1916 is unconfirmed. Remaining: the CEMLA marital status, or that child's birth record.
-Gregorio LERENA (arr. 1911) || Gregorio LERENA (arr. 1924)
-Gregorio LERENA (arr. 1911) || Gregorio LARENA
-Gregorio LERENA (arr. 1924) || Gregorio LARENA
-Jose M. LERENA || Jose LLERENA (arr. 1910)
-Jose M. LERENA || Jose LLERENA (arr. 1926)
-Jose LERENA || Jose Maria LERENA
-Jose LERENA || Jose LLERENA (arr. 1926)
-Jose LLERENA (arr. 1910) || Jose LLERENA (arr. 1926)
-Jose Ma. LLERENA || Jose Julio LERENA Juanico
-Jose Julio LERENA Juanico || Jose Loreto LERENA Fernandez
+Gregorio LERENA (arr. 1911) || Gregorio LERENA (arr. 1924)   # REVIEWED 20 Sep: CANDIDATE, NOT MERGED - the 1911 row already says 'possibly the same man as the Gregorio arriving 1924'. Born 1881 and 1880, thirteen years apart on the water. A repeat crosser is ordinary and so is a second man of the name; the passenger lists alone cannot tell them apart.
+Gregorio LERENA (arr. 1911) || Gregorio LARENA   # REVIEWED 20 Sep: CANDIDATE, NOT MERGED. Both born 1881, landing ten months apart in 1911 and 1912, and LARENA is one of the seven spellings this surname is indexed under. Suggestive and unevidenced, like the pair above - the three Gregorio rows may be one man or three.
+Gregorio LERENA (arr. 1924) || Gregorio LARENA   # REVIEWED 20 Sep: THE THIRD SIDE OF THE GREGORIO TRIANGLE, and the same verdict as the other two - born 1880 and 1881, arriving 1924 and 1912. Candidate, not merged: three rows may be one repeat crosser or three men, and a passenger list cannot say which.
+Jose M. LERENA || Jose LLERENA (arr. 1910)   # REVIEWED 20 Sep: SIX YEARS APART, 1893 against 1887, and nothing shared but the commonest forename in Spanish. Not merged.
+Jose M. LERENA || Jose LLERENA (arr. 1926)   # REVIEWED 20 Sep: same six-year gap as the line above, and the 1926 man is from LOGRONO while this one has no birthplace at all.
+Jose LERENA || Jose Maria LERENA   # REVIEWED 20 Sep: TWO YEARS APART AND BOTH FROM LOGRONO - which makes them likelier BROTHERS than one man. They belong to the Rioja cluster this archive holds as Spanish and unconnected. Not merged, and not claimed as siblings either: no act names a parent for either.
+Jose LERENA || Jose LLERENA (arr. 1926)   # REVIEWED 20 Sep: TWENTY-ONE YEARS APART, 1908 against 1887. Both Logrono, which is the cluster, not the man.
+Jose LLERENA (arr. 1910) || Jose LLERENA (arr. 1926)   # REVIEWED 20 Sep: STRONGEST OF THE REPEAT-CROSSER CANDIDATES. Both born 1887, both spelled LLERENA, sixteen years apart; the 1926 entry adds LOGRONO. A man who crossed twice fits exactly. Not merged, on the same rule as the Gregorios: an age and a spelling are not an identification.
+Jose Ma. LLERENA || Jose Julio LERENA Juanico   # REVIEWED 20 Sep: DIFFERENT COUNTRIES AND DIFFERENT FAMILIES - a Madrid man born 1873 against the sixth child of Luis Eugenio Lerena Lenguas and Julia Juanico, born at Montevideo in March 1879.
+Jose Julio LERENA Juanico || Jose Loreto LERENA Fernandez   # REVIEWED 20 Sep: SEVENTY-THREE YEARS AND THREE GENERATIONS APART. Jose Loreto is Sancho's eighth child, born Canelones 10 December 1806; Jose Julio is Luis Eugenio's son, born 1879.
 Josefa LERENA de L. || Josefa LERENA TRAIBEL (1851-1947)   # REVIEWED 20 Sep: PROBABLY DIFFERENT WOMEN, and the sharper of the two Josefa questions. The 1895 enumerator writes wives as [maiden surname] "de L." - Lenguas de Lerena, Salvanach de Lerena - so line 4 married a LERENA. Josefa Lerena Traibel married a MORATORIO, on the parish act of her daughters' baptism at Union, 8 Mar 1880. Either the "de L." reading is wrong, or these are two women. Not merged.
 Josefa LERENA (godmother, 1885) || Josefa LERENA TRAIBEL (1851-1947)   # REVIEWED 20 Sep: CANDIDATE, HELD APART ON PURPOSE. The Traibel row has claimed this candidacy since 14 Sep and refuses the merge itself, citing the two Arturos. Ages agree within a year. No act joins them.
-Juan Jose LERENA || Juan Bernardo LERENA Pelaez
-Juan LARENA (Gualeguaychu) || Juan Antonio LARENA
-Juan LARENA (Gualeguaychu) || Juan Bernardo LERENA Pelaez
-Juan Antonio LARENA || Juan Facundo Frutuoso BARROS Lerena
-Juan Pablo LERENA || Juan Bernardo LERENA Pelaez
-Juan Carlos LERENA || Juan Agustin LERENA Fernandez
-Juan Carlos LERENA || Juan Carlos GONZALEZ LERENA (m. 1920s, Montevideo)
-Juan Bernardo LERENA Pelaez || Juan Carlos GONZALEZ LERENA (m. 1920s, Montevideo)
-Juan Facundo Frutuoso BARROS Lerena || Juan Agustin LERENA Fernandez
-Juan Agustin LERENA Fernandez || Juan Carlos GONZALEZ LERENA (m. 1920s, Montevideo)
-Luis F. LERENA || Luis LERENA (son of Cayetana Faustina)
-Luis F. LERENA || Luis Felipe LERENA Salvanach
-Luis LLERENA || Luis Alejandro LLERENA
-Luis LLERENA || Don Luis Eugenio LERENA LENGUAS
-Luis LLERENA || Don Luis LERENA (the godfather) = probably Luis LERENA y Fernandez
+Juan Jose LERENA || Juan Bernardo LERENA Pelaez   # REVIEWED 20 Sep: SPAIN AGAINST URUGUAY. Juan Jose is of the Logrono cluster and crossed at least three times; Juan Bernardo is a child of Bernabe Lerena and Casimira Pelaez, baptised at Trinidad, Flores in August 1871.
+Juan LARENA (Gualeguaychu) || Juan Antonio LARENA   # REVIEWED 20 Sep: FATHER AND SON, and the younger row says so - 'son of Juan Larena and Petrona Lopez'. Head of the Gualeguaychu Larena kindred and his son, born 1837.
+Juan LARENA (Gualeguaychu) || Juan Bernardo LERENA Pelaez   # REVIEWED 20 Sep: TWO DIFFERENT KINDREDS IN TWO COUNTRIES - the Gualeguaychu LARENAs of Entre Rios, and the Trinidad LERENAs of Flores.
+Juan Antonio LARENA || Juan Facundo Frutuoso BARROS Lerena   # REVIEWED 20 Sep: DIFFERENT COUNTRIES AND DIFFERENT SURNAMES - a LARENA of Gualeguaychu born 1837, and a BARROS Lerena baptised at the Cordon, Montevideo in November 1831, grandson of Sancho.
+Juan Pablo LERENA || Juan Bernardo LERENA Pelaez   # REVIEWED 20 Sep: ARGENTINA AGAINST URUGUAY. Juan Pablo is one of only two Lerena baptisms indexed in all Argentina; Juan Bernardo is Bernabe and Casimira Pelaez's child at Trinidad, Flores, 1871.
+Juan Carlos LERENA || Juan Agustin LERENA Fernandez   # REVIEWED 20 Sep: NINETY YEARS APART AND THE CENTRAL QUESTION IS NOT THIS. Juan Agustin is Sancho's eldest, born Canelones about 1791; Juan Carlos is Pablo Armando's father, named on the 1908 ficha and in no other record anywhere.
+Juan Carlos LERENA || Juan Carlos GONZALEZ LERENA (m. 1920s, Montevideo)   # REVIEWED 20 Sep: CHECKED AND EXCLUDED ON 15 SEPTEMBER, and the exclusion stands - the Gonzalez Lerena man is the only 'Juan Carlos Lerena' the indexes hold, and he is not Pablo Armando's father. Kept apart deliberately; merging them would invent the answer to this archive's central question.
+Juan Bernardo LERENA Pelaez || Juan Carlos GONZALEZ LERENA (m. 1920s, Montevideo)   # REVIEWED 20 Sep: DIFFERENT MEN - a Trinidad child of 1871 and a Montevideo groom of the 1920s.
+Juan Facundo Frutuoso BARROS Lerena || Juan Agustin LERENA Fernandez   # REVIEWED 20 Sep: UNCLE AND NEPHEW, forty years apart. Juan Agustin is Sancho's eldest son (1791); Juan Facundo is Sancho's GRANDSON, baptised at the Cordon in 1831.
+Juan Agustin LERENA Fernandez || Juan Carlos GONZALEZ LERENA (m. 1920s, Montevideo)   # REVIEWED 20 Sep: a century and a half apart - 1791 against a marriage of the 1920s.
+Luis LLERENA || Luis Alejandro LLERENA   # REVIEWED 20 Sep: FATHER AND SON - the younger row reads 'son of Luis Llerena and Clementina Baranda', baptised at Rosario in 1903.
+Luis LLERENA || Don Luis Eugenio LERENA LENGUAS   # REVIEWED 20 Sep: DIFFERENT MEN AND THE DISTINCTION MATTERS - the Rosario Luis married Clementina Baranda and is one of the first Lerenas found living in Rosario; Luis Eugenio is Don Luis's son, born 1845, married Julia Juanico at Montevideo in 1864, died there in 1901.
+Luis LLERENA || Don Luis LERENA (the godfather) = probably Luis LERENA y Fernandez   # REVIEWED 20 Sep: DIFFERENT MEN. The godfather was born 1811 at Montevideo and stood by proxy at Rosario in 1866; the other lived at Rosario and married Clementina Baranda.
 Luis LLERENA || Luis LERENA (son of Cayetana Faustina)
 Don Luis Eugenio LERENA LENGUAS || Don Luis LERENA (the godfather) = probably Luis LERENA y Fernandez   # REVIEWED 20 Sep: FATHER AND SON. The son's marriage act of 19 Dec 1864 names him "hijo legitimo de Don Luis y de Dona Justiniana Lenguas"; Laura Adela's 1869 baptism names the same pair as paternal grandparents. The 29 shared terms are prose, not evidence. But both rows carry 9 FEBRUARY as a birth day 34 years apart, and the son's birth-to-baptism gap is eleven months where the father's was one day - the son's date wants re-reading.
 Don Luis Eugenio LERENA LENGUAS || Luis LERENA (son of Luis Lerena Lenguas)
@@ -78,7 +76,7 @@ Maria A. LERENA || Maria E. LERENA
 Maria A. LERENA || Maria LARENA (arr. 1911)
 Maria A. LERENA || Maria LARENA (Cayasta baptism 1890)
 Maria A. LERENA || Maria Regina LERENA Barragan
-Maria A. LERENA || Maria Angelica Julia LERENA Salvanach
+Maria A. LERENA || Maria Angelica Julia LERENA Salvanach   # REVIEWED 20 Sep: STRONG CANDIDATE, NOT MERGED - and the same shape as the Carlos and Luis Felipe merges done today. 'Maria A.' is a census initial in Gilberto's 1895 household; MARIA ANGELICA JULIA was baptised at San Francisco de Asis on 31 October 1886, act 1447. Same father, same mother, both born in Uruguay. *** WHAT STOPS THE MERGE IS THREE YEARS. *** The schedule gives the four youngest as a grouped '6, 6, 5, 2', which would put Maria A. about 1889; the act says October 1886. Luis Felipe was merged because his census age of two matched his baptism exactly. This one does not. TEST: read the census image for the actual ages on lines 10-13 rather than the grouped transcript.
 Maria A. LERENA || Maria Carlota LERENA Salvanach
 Maria C. LERENA || Maria E. LERENA
 Maria C. LERENA || Maria LARENA (arr. 1911)
