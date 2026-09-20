@@ -23,7 +23,7 @@ Carlos Augusto Federico LERENA || Carlos LERENA Salvanach (b.1884, son of Gilber
 Carlos LERENA (b.1885, arr. 1926) || Carlos LERENA Salvanach (b.1884, son of Gilberto)
 Emilia LERENA || Emilia LERENA Vega (b. c.1815)   # REVIEWED 20 Sep 2026: DIFFERENT WOMEN. One b.1886 in SPAIN, in Leandro's 1895 household; the other b.c.1815 in MONTEVIDEO, daughter of Pedro Antonio Lerena and Vicenta Vega. Seventy-one years and two countries apart.
 Felisa LERENA (arr. 1911) || Felisa LERENA (arr. 1923)
-Fidel LERENA Fernandez || Fidel LERENA (m. Maria Ruedas)   # REVIEWED 20 Sep: CANDIDATE, HELD APART ON PURPOSE. A rare forename twice in one city. Sancho's Fidel has a tree-only death in 1822 which, if wrong, makes the merge possible. TEST NAMED AND UNRUN: a Montevideo marriage FIDEL LERENA x MARIA RUEDAS, and a burial c.1822.
+Fidel LERENA Fernandez || Fidel LERENA (m. Maria Ruedas)   # REVIEWED 20 Sep: CANDIDATE, HELD APART ON PURPOSE. A rare forename twice in one city. Sancho's Fidel has a tree-only death in 1822 which, if wrong, makes the merge possible. TEST NAMED, ATTEMPTED 20 Sep, STILL UNRUN: the personas API does not filter on a spouse surname (see data/fs-session-2026-09-20.tsv), so it must go through the search UI. A Montevideo marriage FIDEL LERENA x MARIA RUEDAS, and a burial c.1822.
 Francisco LERENA (b.1890, 1895 census) || Francisco LERENA (b.1891, arr. 1930)
 Francisco LERENA (b.1890, 1895 census) || Francisco LLERENA (arr. 1923-25)
 Francisco LERENA (b.1891, arr. 1930) || Francisco LERENA (b.1923, arr. 1930)
