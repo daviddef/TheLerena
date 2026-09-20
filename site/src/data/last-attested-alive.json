@@ -56,7 +56,7 @@
   "tier": "BIRTH ONLY"
  },
  {
-  "name": "Carlos Augusto Federico LERENA",
+  "name": "Carlos Augusto Federico LERENA Salvanach (b. 9 July 1883)",
   "born_est": "1883-07-09",
   "last_attested_alive": "1883-07-09",
   "basis": "born_est only - a floor, not an attestation",
@@ -280,20 +280,6 @@
   "tier": "BIRTH ONLY"
  },
  {
-  "name": "Carlos LERENA (b.1885, arr. 1926)",
-  "born_est": "1885",
-  "last_attested_alive": "1885",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
- },
- {
-  "name": "Rosa M. E. LERENA",
-  "born_est": "1887",
-  "last_attested_alive": "1887",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
- },
- {
   "name": "Gilberto LERENA (b.1879, arr. 1928)",
   "born_est": "1879",
   "last_attested_alive": "1879",
@@ -332,13 +318,6 @@
   "name": "Francisco LERENA (b.1923, arr. 1930)",
   "born_est": "1923",
   "last_attested_alive": "1923",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
- },
- {
-  "name": "Avelino Carlos LERENA (CEMLA crossings)",
-  "born_est": "1905",
-  "last_attested_alive": "1905",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -700,13 +679,6 @@
   "tier": "BIRTH ONLY"
  },
  {
-  "name": "Carlos LERENA Salvanach (b.1884, son of Gilberto)",
-  "born_est": "1884",
-  "last_attested_alive": "1884",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
- },
- {
   "name": "Rosa Maria EPPENS",
   "born_est": "1887",
   "last_attested_alive": "1887",
@@ -714,7 +686,7 @@
   "tier": "BIRTH ONLY"
  },
  {
-  "name": "Avelino Carlos LERENA (b.1904, Mendoza baptism)",
+  "name": "Avelino Carlos LERENA (b.1904, Mendoza)",
   "born_est": "1904",
   "last_attested_alive": "1904",
   "basis": "born_est only - a floor, not an attestation",
@@ -2040,6 +2012,13 @@
   "name": "Carmen LERENA (d. 1841, aged three)",
   "born_est": "1838",
   "last_attested_alive": "1838",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Carlos LERENA (of Mendoza, m. Adela CAMIGLIA)",
+  "born_est": "-",
+  "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  }

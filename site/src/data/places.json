@@ -127,15 +127,12 @@
    "justa-lerena",
    "gregorio-lerena-2",
    "jose-lerena",
-   "carlos-lerena",
-   "rosa-m-e-lerena",
    "gilberto-lerena-2",
    "gilberto-lerena-3",
    "emilio-lerena",
    "jose-maria-lerena",
    "francisco-lerena-2",
    "francisco-lerena-3",
-   "avelino-carlos-lerena",
    "angelica-teresa-lerena",
    "jose-llerena",
    "jose-llerena-2",
@@ -155,7 +152,7 @@
    "anna-lerina",
    "annunziata-lerina"
   ],
-  "count": 44
+  "count": 41
  },
  {
   "slug": "trinidad-flores",
@@ -200,7 +197,6 @@
    "gilberto-lerena",
    "maria-e-c-lerena",
    "maria-luisa-lerena",
-   "carlos-augusto-federico-lerena",
    "raul-lerena",
    "maria-a-lerena",
    "maria-c-lerena",
@@ -223,7 +219,7 @@
    "josefa-in-gilberto-s-1895-household",
    "cipriana-saenz-pena"
   ],
-  "count": 25
+  "count": 24
  },
  {
   "slug": "rosario-santa-fe",
@@ -354,6 +350,16 @@
   "count": 3
  },
  {
+  "slug": "mendoza",
+  "name": "Mendoza",
+  "people": [
+   "avelino-carlos-lerena",
+   "adela-camiglia",
+   "carlos-lerena"
+  ],
+  "count": 3
+ },
+ {
   "slug": "buenos-aires-mendoza",
   "name": "Buenos Aires / Mendoza",
   "people": [
@@ -387,15 +393,6 @@
   "people": [
    "rosa-maria-eppens",
    "armando-lerena"
-  ],
-  "count": 2
- },
- {
-  "slug": "mendoza",
-  "name": "Mendoza",
-  "people": [
-   "avelino-carlos-lerena-2",
-   "adela-camiglia"
   ],
   "count": 2
  },
@@ -445,6 +442,14 @@
   "count": 2
  },
  {
+  "slug": "retiro-buenos-aires",
+  "name": "Retiro, Buenos Aires",
+  "people": [
+   "carlos-augusto-federico-lerena-salvanach"
+  ],
+  "count": 1
+ },
+ {
   "slug": "entre-rios",
   "name": "Entre Rios",
   "people": [
@@ -489,14 +494,6 @@
   "name": "Uruguay",
   "people": [
    "susana-llerena"
-  ],
-  "count": 1
- },
- {
-  "slug": "retiro-buenos-aires",
-  "name": "Retiro, Buenos Aires",
-  "people": [
-   "carlos-lerena-salvanach"
   ],
   "count": 1
  },

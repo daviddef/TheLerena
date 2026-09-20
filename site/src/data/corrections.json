@@ -726,5 +726,13 @@
   "what_is_true": "*** BORN 14 JANUARY 1855 - and they are twenty-one months apart. *** Her own act, on the same opening, reads *** \"que nacio el dia CATORCE de ENERO ... cincuenta y cinco\" ***. She was carried to the font at THREE YEARS OLD and her brother at seventeen months. *** \"Probably twins\" was an inference from a shared baptism date and the acts refute it *** - this family baptised in batches, years late, and did it at La Mauricia in 1846 as well. The same inference is attached to the two MORATORIO girls of 1880 and is now flagged there as untested.",
   "how_it_was_caught": "Reading the second act on an image already open for the first",
   "retired": "probably twins"
+ },
+ {
+  "date": "2026-09-20",
+  "severity": "serious",
+  "what_was_said": "*** That this register held THREE separate people for Carlos Augusto Federico Lerena Salvanach, TWO for Avelino Carlos Lerena and TWO for Rosa Maria Eppens *** - and that data/relations.tsv gave Carlos a wife and a son the register had already ruled out.",
+  "what_is_true": "*** SEVEN ROWS WERE FOUR PEOPLE. *** The archive had done every identification and none of the merges: one note read *** \"two independent sources, same couple\" ***, another *** \"see the CEMLA row for the same man\" ***, a third *** \"the 'Rosa M. E. Lerena' of the CEMLA list\" ***. The arithmetic confirms the hardest of them - the Retiro act of 25 March 1914 calls him *** \"de treinta anos\" ***, and a man born 9 July 1883 is exactly thirty that March. *** AND THE EDGES WERE WORSE THAN THE ROWS: *** relations.tsv made him the husband of ADELA CAMIGLIA and father of AVELINO CARLOS at Mendoza, which the Rosa Maria Eppens row had explicitly denied since 14 September - *** \"two men, one name, and the register now says so on both rows.\" *** It said so on the rows and nothing told the edges. The Mendoza man now has a row of his own, and they point at him.",
+  "how_it_was_caught": "Working the duplicate backlog pair by pair, which is what that backlog is for",
+  "retired": ""
  }
 ]

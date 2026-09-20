@@ -415,34 +415,20 @@
   },
   "spouses": [
    {
-    "name": "Julia Salvanach",
-    "dates": "",
-    "slug": "",
-    "via": "register",
-    "note": "Named as the mother on five of his sons' army cards"
-   },
-   {
     "name": "Julia SALVANACH",
     "dates": "",
     "slug": "",
     "via": "register",
-    "note": "Named as the mother on five of his sons' army enrolment cards, and with him in the 1895 census."
+    "note": "Named as the mother on five of his sons' army cards"
    }
   ],
   "children": [
    {
-    "name": "Carlos Augusto Federico LERENA",
+    "name": "Carlos Augusto Federico LERENA Salvanach (b. 9 July 1883)",
     "dates": "",
-    "slug": "carlos-augusto-federico-lerena",
+    "slug": "carlos-augusto-federico-lerena-salvanach",
     "via": "register",
     "note": "1895 census; Uruguayan civil registration"
-   },
-   {
-    "name": "Carlos LERENA Salvanach (b.1884, son of Gilberto)",
-    "dates": "",
-    "slug": "carlos-lerena-salvanach",
-    "via": "register",
-    "note": "His baptism gives the parents as ALBERTO - almost certainly Gilberto - Lerena and Julia Salvanach."
    },
    {
     "name": "Luis F. LERENA",
@@ -504,8 +490,8 @@
   ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 13,
-  "relRegister": 13,
+  "relTotal": 11,
+  "relRegister": 11,
   "relTree": 0,
   "evidence": [
    {
@@ -547,15 +533,9 @@
   "children": [],
   "siblings": [
    {
-    "name": "Carlos Augusto Federico LERENA",
+    "name": "Carlos Augusto Federico LERENA Salvanach (b. 9 July 1883)",
     "dates": "",
-    "slug": "carlos-augusto-federico-lerena",
-    "via": "register"
-   },
-   {
-    "name": "Carlos LERENA Salvanach (b.1884, son of Gilberto)",
-    "dates": "",
-    "slug": "carlos-lerena-salvanach",
+    "slug": "carlos-augusto-federico-lerena-salvanach",
     "via": "register"
    },
    {
@@ -633,15 +613,9 @@
   "children": [],
   "siblings": [
    {
-    "name": "Carlos Augusto Federico LERENA",
+    "name": "Carlos Augusto Federico LERENA Salvanach (b. 9 July 1883)",
     "dates": "",
-    "slug": "carlos-augusto-federico-lerena",
-    "via": "register"
-   },
-   {
-    "name": "Carlos LERENA Salvanach (b.1884, son of Gilberto)",
-    "dates": "",
-    "slug": "carlos-lerena-salvanach",
+    "slug": "carlos-augusto-federico-lerena-salvanach",
     "via": "register"
    },
    {
@@ -689,23 +663,23 @@
   "evidence": []
  },
  {
-  "slug": "carlos-augusto-federico-lerena",
-  "name": "Carlos Augusto Federico LERENA",
+  "slug": "carlos-augusto-federico-lerena-salvanach",
+  "name": "Carlos Augusto Federico LERENA Salvanach (b. 9 July 1883)",
   "born": "1883-07-09",
   "birthplace": "Montevideo",
   "nationality": "Uruguayan",
   "occupation": "-",
-  "where": "Buenos Aires",
-  "source": "1895 census; Uruguayan civil reg. + baptism",
-  "status": "unplaced",
-  "statusRaw": "UNPLACED",
-  "note": "Son of Gilberto (1854) and Julia Salvanach.",
-  "place": "Buenos Aires",
-  "placeSlug": "buenos-aires",
+  "where": "Retiro, Buenos Aires",
+  "source": "Informacion matrimonial, Arzobispado de Buenos Aires, Nuestra Senora del Socorro (Retiro), folio 44, 25 March 1914 - IMAGE READ; ark 3:1:939D-GD76-B; and Uruguayan civil registration and baptism giving the birth of 9 July 1883; and CEMLA, arrival Buenos Aires from Montevideo 27 May 1926",
+  "status": "high",
+  "statusRaw": "UNPLACED - HIGH INTEREST",
+  "note": "*** IMAGE READ 14 September 2026, and two things this row got wrong are now fixed. *** It called the record a \"Retiro BAPTISM\"; it is an INFORMACION MATRIMONIAL, the sworn pre-marriage enquiry. And it read the father as ALBERTO, guessing GILBERTO - *** the act says GILBERTO plainly, so the guess can stop being a guess. *** \"Don Carlos Lerena, natural de la Rep. Oriental, bautizado en la Iglesia de el CORDON, Dep. de Montevideo, de treinta anos, soltero, domiciliado en Pueyrredon 1750, hijo de D. Gilberto Lerena y de Dona Julia Salvanach.\" He married ROSA MARIA EPPENS. This IDENTIFIES the CEMLA couple 'Carlos Lerena 41 Uruguayan' and 'Rosa M. E. Lerena 39 Argentine' arriving Buenos Aires from Montevideo 27 May 1926 - two independent sources, same couple. *** AND IT NAMES WHERE HIS BAPTISM IS: the Iglesia del CORDON, Montevideo *** - a third Montevideo parish for this family, after San Francisco de Asis and the Catedral Basilica. *** THREE REGISTER ROWS WERE THIS ONE MAN, MERGED 20 September 2026. *** This archive had him as \"Carlos Augusto Federico LERENA\" (born 9 July 1883, from Uruguayan civil registration), as \"Carlos LERENA Salvanach\" (the 1914 informacion matrimonial), and as \"Carlos LERENA (b.1885, arr. 1926)\" (the CEMLA crossing). *** The note above had already identified the second with the third - \"two independent sources, same couple\" - and the rows were never joined. *** The arithmetic settles the first: the act of 25 March 1914 calls him *** \"de treinta anos\" ***, and a man born 9 July 1883 is exactly thirty that March. Same parents, same birthplace, same city, and the CEMLA wife \"Rosa M. E. Lerena\" is *** ROSA MARIA EPPENS ***, whom the act names. And the merge exposed a file disagreeing with the register. The 1914 act calls him *** SOLTERO *** at thirty, while data/relations.tsv gave him a wife ADELA CAMIGLIA and a son AVELINO CARLOS baptised at Mendoza in 1904. *** That contradiction was already settled here and the relations file had not been told: *** the row for ROSA MARIA EPPENS has said since 14 September that her Carlos is *** NOT *** Adela Camiglia's - \"two men, one name, and the register now says so on both rows\". It said so on the register rows and not on the edges. The Mendoza man now has a row of his own and the edges point at him.",
+  "place": "Retiro, Buenos Aires",
+  "placeSlug": "retiro-buenos-aires",
   "surname": "LERENA",
   "ark": "",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
   "gen": null,
   "father": {
    "name": "Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS)",
@@ -719,17 +693,19 @@
    "dates": "",
    "slug": "",
    "via": "register",
-   "note": "Uruguayan civil registration and baptism."
+   "note": "1895 census"
   },
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Rosa Maria EPPENS",
+    "dates": "",
+    "slug": "rosa-maria-eppens",
+    "via": "register",
+    "note": "Travelling together, Montevideo to Buenos Aires, 27 May 1926 - CEMLA."
+   }
+  ],
   "children": [],
   "siblings": [
-   {
-    "name": "Carlos LERENA Salvanach (b.1884, son of Gilberto)",
-    "dates": "",
-    "slug": "carlos-lerena-salvanach",
-    "via": "register"
-   },
    {
     "name": "Luis F. LERENA",
     "dates": "",
@@ -775,8 +751,8 @@
   ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 2,
-  "relRegister": 2,
+  "relTotal": 3,
+  "relRegister": 3,
   "relTree": 0,
   "evidence": []
  },
@@ -811,21 +787,15 @@
    "dates": "",
    "slug": "",
    "via": "register",
-   "note": "Named on his army enrolment card."
+   "note": "Argentina Military Records 1911-1936"
   },
   "spouses": [],
   "children": [],
   "siblings": [
    {
-    "name": "Carlos Augusto Federico LERENA",
+    "name": "Carlos Augusto Federico LERENA Salvanach (b. 9 July 1883)",
     "dates": "",
-    "slug": "carlos-augusto-federico-lerena",
-    "via": "register"
-   },
-   {
-    "name": "Carlos LERENA Salvanach (b.1884, son of Gilberto)",
-    "dates": "",
-    "slug": "carlos-lerena-salvanach",
+    "slug": "carlos-augusto-federico-lerena-salvanach",
     "via": "register"
    },
    {
@@ -903,15 +873,9 @@
   "children": [],
   "siblings": [
    {
-    "name": "Carlos Augusto Federico LERENA",
+    "name": "Carlos Augusto Federico LERENA Salvanach (b. 9 July 1883)",
     "dates": "",
-    "slug": "carlos-augusto-federico-lerena",
-    "via": "register"
-   },
-   {
-    "name": "Carlos LERENA Salvanach (b.1884, son of Gilberto)",
-    "dates": "",
-    "slug": "carlos-lerena-salvanach",
+    "slug": "carlos-augusto-federico-lerena-salvanach",
     "via": "register"
    },
    {
@@ -989,15 +953,9 @@
   "children": [],
   "siblings": [
    {
-    "name": "Carlos Augusto Federico LERENA",
+    "name": "Carlos Augusto Federico LERENA Salvanach (b. 9 July 1883)",
     "dates": "",
-    "slug": "carlos-augusto-federico-lerena",
-    "via": "register"
-   },
-   {
-    "name": "Carlos LERENA Salvanach (b.1884, son of Gilberto)",
-    "dates": "",
-    "slug": "carlos-lerena-salvanach",
+    "slug": "carlos-augusto-federico-lerena-salvanach",
     "via": "register"
    },
    {
@@ -1075,15 +1033,9 @@
   "children": [],
   "siblings": [
    {
-    "name": "Carlos Augusto Federico LERENA",
+    "name": "Carlos Augusto Federico LERENA Salvanach (b. 9 July 1883)",
     "dates": "",
-    "slug": "carlos-augusto-federico-lerena",
-    "via": "register"
-   },
-   {
-    "name": "Carlos LERENA Salvanach (b.1884, son of Gilberto)",
-    "dates": "",
-    "slug": "carlos-lerena-salvanach",
+    "slug": "carlos-augusto-federico-lerena-salvanach",
     "via": "register"
    },
    {
@@ -1161,15 +1113,9 @@
   "children": [],
   "siblings": [
    {
-    "name": "Carlos Augusto Federico LERENA",
+    "name": "Carlos Augusto Federico LERENA Salvanach (b. 9 July 1883)",
     "dates": "",
-    "slug": "carlos-augusto-federico-lerena",
-    "via": "register"
-   },
-   {
-    "name": "Carlos LERENA Salvanach (b.1884, son of Gilberto)",
-    "dates": "",
-    "slug": "carlos-lerena-salvanach",
+    "slug": "carlos-augusto-federico-lerena-salvanach",
     "via": "register"
    },
    {
@@ -2023,76 +1969,6 @@
   "evidence": []
  },
  {
-  "slug": "carlos-lerena",
-  "name": "Carlos LERENA (b.1885, arr. 1926)",
-  "born": "1885",
-  "birthplace": "-",
-  "nationality": "URUGUAYAN",
-  "occupation": "-",
-  "where": "arr. 1926-05-27 from Montevideo",
-  "source": "CEMLA, ship WESTERN WORLD",
-  "status": "interest",
-  "statusRaw": "UNPLACED - INTEREST",
-  "note": "Travelling with Rosa M. E. Lerena, an Argentine. Born within three years of Pablo Armando, Uruguayan.",
-  "place": "Buenos Aires — arrivals",
-  "placeSlug": "buenos-aires-arrivals",
-  "surname": "LERENA",
-  "ark": "",
-  "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
-  "gen": null,
-  "father": null,
-  "mother": null,
-  "spouses": [
-   {
-    "name": "Rosa M. E. LERENA",
-    "dates": "",
-    "slug": "rosa-m-e-lerena",
-    "via": "register",
-    "note": "Travelling together, Montevideo to Buenos Aires, 27 May 1926 - CEMLA."
-   }
-  ],
-  "children": [],
-  "siblings": [],
-  "isLine": false,
-  "aliasOf": null,
-  "relTotal": 1,
-  "relRegister": 1,
-  "relTree": 0,
-  "evidence": []
- },
- {
-  "slug": "rosa-m-e-lerena",
-  "name": "Rosa M. E. LERENA",
-  "born": "1887",
-  "birthplace": "-",
-  "nationality": "Argentine",
-  "occupation": "-",
-  "where": "arr. 1926-05-27 from Montevideo",
-  "source": "CEMLA, ship WESTERN WORLD",
-  "status": "interest",
-  "statusRaw": "UNPLACED - INTEREST",
-  "note": "Travelling with Carlos; evidently his wife.",
-  "place": "Buenos Aires — arrivals",
-  "placeSlug": "buenos-aires-arrivals",
-  "surname": "LERENA",
-  "ark": "",
-  "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
-  "gen": null,
-  "father": null,
-  "mother": null,
-  "spouses": [],
-  "children": [],
-  "siblings": [],
-  "isLine": false,
-  "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
-  "relTree": 0,
-  "evidence": []
- },
- {
   "slug": "gilberto-lerena-2",
   "name": "Gilberto LERENA (b.1879, arr. 1928)",
   "born": "1879",
@@ -2273,37 +2149,6 @@
   "status": "unplaced",
   "statusRaw": "UNPLACED",
   "note": "Son of the above.",
-  "place": "Buenos Aires — arrivals",
-  "placeSlug": "buenos-aires-arrivals",
-  "surname": "LERENA",
-  "ark": "",
-  "sourceUrl": "",
-  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
-  "gen": null,
-  "father": null,
-  "mother": null,
-  "spouses": [],
-  "children": [],
-  "siblings": [],
-  "isLine": false,
-  "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
-  "relTree": 0,
-  "evidence": []
- },
- {
-  "slug": "avelino-carlos-lerena",
-  "name": "Avelino Carlos LERENA (CEMLA crossings)",
-  "born": "1905",
-  "birthplace": "-",
-  "nationality": "Argentine",
-  "occupation": "func. fiscal, later industrial",
-  "where": "arr. 1940, 1949, 1953",
-  "source": "CEMLA, three crossings",
-  "status": "unplaced",
-  "statusRaw": "UNPLACED",
-  "note": "A well-travelled Argentine professional.",
   "place": "Buenos Aires — arrivals",
   "placeSlug": "buenos-aires-arrivals",
   "surname": "LERENA",
@@ -3933,121 +3778,6 @@
   "evidence": []
  },
  {
-  "slug": "carlos-lerena-salvanach",
-  "name": "Carlos LERENA Salvanach (b.1884, son of Gilberto)",
-  "born": "1884",
-  "birthplace": "Montevideo",
-  "nationality": "Uruguayan",
-  "occupation": "-",
-  "where": "Retiro, Buenos Aires",
-  "source": "Informacion matrimonial, Arzobispado de Buenos Aires, Nuestra Senora del Socorro (Retiro), folio 44, 25 March 1914 - IMAGE READ; ark 3:1:939D-GD76-B",
-  "status": "high",
-  "statusRaw": "UNPLACED - HIGH INTEREST",
-  "note": "*** IMAGE READ 14 September 2026, and two things this row got wrong are now fixed. *** It called the record a \"Retiro BAPTISM\"; it is an INFORMACION MATRIMONIAL, the sworn pre-marriage enquiry. And it read the father as ALBERTO, guessing GILBERTO - *** the act says GILBERTO plainly, so the guess can stop being a guess. *** \"Don Carlos Lerena, natural de la Rep. Oriental, bautizado en la Iglesia de el CORDON, Dep. de Montevideo, de treinta anos, soltero, domiciliado en Pueyrredon 1750, hijo de D. Gilberto Lerena y de Dona Julia Salvanach.\" He married ROSA MARIA EPPENS. This IDENTIFIES the CEMLA couple 'Carlos Lerena 41 Uruguayan' and 'Rosa M. E. Lerena 39 Argentine' arriving Buenos Aires from Montevideo 27 May 1926 - two independent sources, same couple. *** AND IT NAMES WHERE HIS BAPTISM IS: the Iglesia del CORDON, Montevideo *** - a third Montevideo parish for this family, after San Francisco de Asis and the Catedral Basilica.",
-  "place": "Retiro, Buenos Aires",
-  "placeSlug": "retiro-buenos-aires",
-  "surname": "LERENA",
-  "ark": "",
-  "sourceUrl": "",
-  "noLink": "no public link",
-  "gen": null,
-  "father": {
-   "name": "Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS)",
-   "dates": "1855–1912",
-   "slug": "gilberto-lerena",
-   "via": "register",
-   "note": "His baptism gives the parents as ALBERTO - almost certainly Gilberto - Lerena and Julia Salvanach."
-  },
-  "mother": {
-   "name": "Julia SALVANACH",
-   "dates": "",
-   "slug": "",
-   "via": "register",
-   "note": "Same baptism."
-  },
-  "spouses": [
-   {
-    "name": "Rosa Maria EPPENS",
-    "dates": "",
-    "slug": "rosa-maria-eppens",
-    "via": "register",
-    "note": "Argentina, Capital Federal, Catholic Church Records."
-   },
-   {
-    "name": "Adela CAMIGLIA",
-    "dates": "",
-    "slug": "adela-camiglia",
-    "via": "register",
-    "note": "Named together as the parents in the Mendoza baptism of 1904."
-   }
-  ],
-  "children": [
-   {
-    "name": "Avelino Carlos LERENA (b.1904, Mendoza baptism)",
-    "dates": "",
-    "slug": "avelino-carlos-lerena-2",
-    "via": "register",
-    "note": "Argentina, Mendoza, Catholic Church Records - parents Carlos Lerena and Adela Camiglia."
-   }
-  ],
-  "siblings": [
-   {
-    "name": "Carlos Augusto Federico LERENA",
-    "dates": "",
-    "slug": "carlos-augusto-federico-lerena",
-    "via": "register"
-   },
-   {
-    "name": "Luis F. LERENA",
-    "dates": "",
-    "slug": "luis-f-lerena",
-    "via": "register"
-   },
-   {
-    "name": "Maria A. LERENA",
-    "dates": "",
-    "slug": "maria-a-lerena",
-    "via": "register"
-   },
-   {
-    "name": "Maria C. LERENA",
-    "dates": "",
-    "slug": "maria-c-lerena",
-    "via": "register"
-   },
-   {
-    "name": "Maria E. C. LERENA",
-    "dates": "",
-    "slug": "maria-e-c-lerena",
-    "via": "register"
-   },
-   {
-    "name": "Maria E. LERENA",
-    "dates": "",
-    "slug": "maria-e-lerena",
-    "via": "register"
-   },
-   {
-    "name": "Maria Luisa LERENA",
-    "dates": "",
-    "slug": "maria-luisa-lerena",
-    "via": "register"
-   },
-   {
-    "name": "Raul LERENA",
-    "dates": "",
-    "slug": "raul-lerena",
-    "via": "register"
-   }
-  ],
-  "isLine": false,
-  "aliasOf": null,
-  "relTotal": 5,
-  "relRegister": 5,
-  "relTree": 0,
-  "evidence": []
- },
- {
   "slug": "rosa-maria-eppens",
   "name": "Rosa Maria EPPENS",
   "born": "1887",
@@ -4055,10 +3785,10 @@
   "nationality": "Argentine",
   "occupation": "-",
   "where": "Buenos Aires / Montevideo",
-  "source": "Argentina Capital Federal Catholic Church Records; CEMLA arrival 1926",
+  "source": "Argentina Capital Federal Catholic Church Records; CEMLA arrival 1926; CEMLA arrival 27 May 1926, \"Rosa M. E. Lerena, 39, Argentine\"",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "m. Carlos Lerena. The 'Rosa M. E. Lerena' of the CEMLA list. *** NOT THE SAME CARLOS LERENA AS ADELA CAMIGLIA'S HUSBAND - checked 14 September 2026. *** Her Carlos is the one this register holds as *** CARLOS LERENA (b.1885, arr. 1926) *** - 'travelling with Rosa M. E. Lerena, an Argentine', which is her. Adela Camiglia's Carlos is at MENDOZA and fathered an Avelino Carlos Lerena. *** Two men, one name, and the register now says so on both rows. ***",
+  "note": "m. Carlos Lerena. The 'Rosa M. E. Lerena' of the CEMLA list. *** NOT THE SAME CARLOS LERENA AS ADELA CAMIGLIA'S HUSBAND - checked 14 September 2026. *** Her Carlos is the one this register holds as *** CARLOS LERENA (b.1885, arr. 1926) *** - 'travelling with Rosa M. E. Lerena, an Argentine', which is her. Adela Camiglia's Carlos is at MENDOZA and fathered an Avelino Carlos Lerena. *** Two men, one name, and the register now says so on both rows. *** *** AND SHE WAS IN THIS REGISTER TWICE, MERGED 20 September 2026. *** The other row was \"Rosa M. E. LERENA\", born 1887, \"travelling with Carlos; evidently his wife\" - which is this woman under the initials the passenger list gave her. This row had already said so; the two were never joined.",
   "place": "Buenos Aires / Montevideo",
   "placeSlug": "buenos-aires-montevideo",
   "surname": "EPPENS",
@@ -4079,28 +3809,28 @@
   "evidence": []
  },
  {
-  "slug": "avelino-carlos-lerena-2",
-  "name": "Avelino Carlos LERENA (b.1904, Mendoza baptism)",
+  "slug": "avelino-carlos-lerena",
+  "name": "Avelino Carlos LERENA (b.1904, Mendoza)",
   "born": "1904",
   "birthplace": "Mendoza",
   "nationality": "Argentine",
   "occupation": "func. fiscal, later industrial",
   "where": "Mendoza",
-  "source": "Argentina Mendoza Catholic Church Records - baptism 12 Mar 1904, San Nicolas de Tolentino",
+  "source": "Argentina Mendoza Catholic Church Records - baptism 12 Mar 1904, San Nicolas de Tolentino; and CEMLA, three crossings - New York 1940, Rio 1949 and 1953",
   "status": "interest",
   "statusRaw": "UNPLACED - INTEREST",
-  "note": "*** Parents CARLOS LERENA and ADELA CAMIGLIA. Gives a birth and a parentage to the Avelino Carlos who crossed to New York in 1940 and Rio in 1949 and 1953. *** *** PLACE FIELD CORRECTED 14 September 2026. *** This row's 'where found' held a CITATION - \"Mendoza; later New York and Rio crossings\" - where the atlas expects a PLACE, so this person was missing from the map and appeared on it as a phantom location instead. The citation is kept here; the field now holds a real place. *** The crossings are not lost: *** he arrived 1940 (New York), 1949 and 1953 (Rio) - see the CEMLA row for the same man.",
+  "note": "*** Parents CARLOS LERENA and ADELA CAMIGLIA. Gives a birth and a parentage to the Avelino Carlos who crossed to New York in 1940 and Rio in 1949 and 1953. *** *** PLACE FIELD CORRECTED 14 September 2026. *** This row's 'where found' held a CITATION - \"Mendoza; later New York and Rio crossings\" - where the atlas expects a PLACE, so this person was missing from the map and appeared on it as a phantom location instead. The citation is kept here; the field now holds a real place. *** The crossings are not lost: *** he arrived 1940 (New York), 1949 and 1953 (Rio) - see the CEMLA row for the same man. *** AND THE TWO ROWS ARE NOW ONE, 20 September 2026. *** This register carried him twice - once for the Mendoza baptism and once for the CEMLA crossings - while this very note said *** \"see the CEMLA row for the same man.\" *** The archive had done the identification and not the merge.",
   "place": "Mendoza",
   "placeSlug": "mendoza",
   "surname": "LERENA",
   "ark": "",
   "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "noLink": "CEMLA results are not addressable — search the surname at cemla.com/buscador/",
   "gen": null,
   "father": {
-   "name": "Carlos LERENA Salvanach (b.1884, son of Gilberto)",
+   "name": "Carlos LERENA (of Mendoza, m. Adela CAMIGLIA)",
    "dates": "",
-   "slug": "carlos-lerena-salvanach",
+   "slug": "carlos-lerena",
    "via": "register",
    "note": "Argentina, Mendoza, Catholic Church Records - parents Carlos Lerena and Adela Camiglia."
   },
@@ -4145,9 +3875,9 @@
   "spouses": [],
   "children": [
    {
-    "name": "Avelino Carlos LERENA (b.1904, Mendoza baptism)",
+    "name": "Avelino Carlos LERENA (b.1904, Mendoza)",
     "dates": "",
-    "slug": "avelino-carlos-lerena-2",
+    "slug": "avelino-carlos-lerena",
     "via": "register",
     "note": "Same baptism."
    }
@@ -10854,6 +10584,53 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "carlos-lerena",
+  "name": "Carlos LERENA (of Mendoza, m. Adela CAMIGLIA)",
+  "born": "-",
+  "birthplace": "-",
+  "nationality": "Argentine?",
+  "occupation": "-",
+  "where": "Mendoza",
+  "source": "Argentina, Mendoza, Catholic Church Records - baptism of Avelino Carlos Lerena, San Nicolas de Tolentino, 12 Mar 1904, naming the parents",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** A SECOND CARLOS LERENA, AND THE REGISTER HAS SAID SO SINCE 14 SEPTEMBER WITHOUT GIVING HIM A ROW. *** He is named with *** ADELA CAMIGLIA *** as the parents of AVELINO CARLOS LERENA, baptised at San Nicolas de Tolentino, Mendoza, on 12 March 1904. *** HE IS NOT CARLOS AUGUSTO FEDERICO LERENA SALVANACH, *** the son of Gilberto who married Rosa Maria Eppens at Retiro in 1914: that act calls its groom *** SOLTERO *** at thirty, and Mendoza is a long way from Buenos Aires. The distinction was made on the Eppens row - \"two men, one name\" - but the relationship file went on attaching Adela and Avelino to the wrong man until the two rows were merged on 20 September and the disagreement became visible. *** NOTHING IS KNOWN OF HIM BEYOND THE ACT *** - not a birth, not a marriage, not a place of origin.",
+  "place": "Mendoza",
+  "placeSlug": "mendoza",
+  "surname": "LERENA",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [
+   {
+    "name": "Adela CAMIGLIA",
+    "dates": "",
+    "slug": "adela-camiglia",
+    "via": "register",
+    "note": "Named together as the parents in the Mendoza baptism of 1904."
+   }
+  ],
+  "children": [
+   {
+    "name": "Avelino Carlos LERENA (b.1904, Mendoza)",
+    "dates": "",
+    "slug": "avelino-carlos-lerena",
+    "via": "register",
+    "note": "Argentina, Mendoza, Catholic Church Records - parents Carlos Lerena and Adela Camiglia."
+   }
+  ],
+  "siblings": [],
+  "isLine": false,
+  "aliasOf": null,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  }
