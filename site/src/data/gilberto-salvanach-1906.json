@@ -1,0 +1,38 @@
+[
+ {
+  "what": "*** HIS MARRIAGE NAMES THE BRIDE, AND THIS ARCHIVE NEVER HAD HER ***",
+  "the record says": "Gilberto Lerena, groom, born *** 1878 \"Rep. Oriental\" ***, parents Gilberto Lerena and Julia Salvanach. Married *** 19 May 1906, Nuestra Senora del Pilar, Recoleta ***. Spouse: *** CIPRIANA SAENS PENA *** (indexed also \"Cepriana Saenz Pena\").",
+  "collection": "Argentina, Capital Federal, Catholic Church Records, 1640-1978",
+  "what it gives this archive": "*** A NEW PERSON, and a surname worth noticing. *** The register carried this marriage with no bride at all. SAENZ PENA is a name that runs through Argentine public life in exactly these years - *** no relationship to either president is asserted or looked for ***, and the surname is not rare enough to carry one."
+ },
+ {
+  "what": "*** AND THEY HAD A SON NAMED GILBERTO ***",
+  "the record says": "Gilberto Lerena, *** father ***, spouse \"Cepriana Saenz Pena\", child *** \"Gilberto de Jesus del Corazon\" *** (the index bleeds \"Aires\" into the surname field from the place).",
+  "collection": "Argentina, Capital Federal, Catholic Church Records, 1640-1978",
+  "what it gives this archive": "*** THIS IS THE SON THE 1928 IDENTIFICATION PREDICTED. *** The CEMLA arrival has Gilberto b.1879 travelling with a son Gilberto, *** estudiante ***, aged twelve. Yesterday that son was a curiosity. Today he is in a parish index, from a marriage of 1906."
+ },
+ {
+  "what": "*** BUT HIS BIRTH YEAR IS NOT INDEXED, SO THE TEST STILL FAILS ***",
+  "the record says": "A second search - LERENA, GILBERTO, Argentina, *** births 1910-1920 *** - returns 10 records and *** none of them is this child ***. The birth filter demonstrably works: it cut 63 to 10.",
+  "collection": "as above",
+  "what it gives this archive": "*** SO 1916 IS UNCONFIRMED AND THE PAIR STAYS UNMERGED. *** The son exists; his age does not. An identification that rests on a name and a year still rests on a name and a year."
+ },
+ {
+  "what": "*** HIS ARGENTINE NATIONALITY IS NOW ON A RECORD, NOT AN INFERENCE ***",
+  "the record says": "Military service *** March 1922, Distrito Militar 2, Argentina ***; birth *** 1878, Montevideo, Uruguay ***; parents Lerena and Julia Salvanach. A second entry gives *** Montecarlo, Misiones ***.",
+  "collection": "Argentina, Military Records, 1911-1936",
+  "what it gives this archive": "*** A MONTEVIDEO-BORN MAN CARRIED ON AN ARGENTINE MILITARY DISTRICT ROLL. *** That is what the CEMLA passenger's \"ARGENTINE\" requires, and the register's \"Uruguayan/Argentine\" is now documented rather than assumed."
+ },
+ {
+  "what": "*** AND THE 1895 INDEX EXPLAINS THE TABLE THAT WAS WRONG ***",
+  "the record says": "Searching the 1895 census returns the household of Seccion 21, Subdivision 15 as *** Gilberto 1854, Maria E. C. 1869, Maria Luisa 1880, Carlos A. 1884, Raul A. 1886, Maria E. 1890 *** - and *** NOT the seventeen-year-old ***, who is indexed under *** SALVANACH ***, not Lerena.",
+  "collection": "Argentina, National Census, 1895",
+  "what it gives this archive": "*** THIS IS WHY /argentina/ CARRIED A TABLE OF NINE FOR SIX DAYS. *** It was built from this index, and the index files the eldest son under his mother's surname. The schedule has sixteen lines. Corrected 20 September; recorded here because the next person to build a table from an index deserves the warning."
+ },
+ {
+  "what": "*** NO NEW CHILDREN. THE REGISTER ALREADY HAD THEM ALL ***",
+  "the record says": "The search returns Gilberto (1854) as father of *** Maria Carlota, Horacio Alfredo, Luis Felipe, Cesar Alberto, Raul and Carlos ***.",
+  "collection": "several",
+  "what it gives this archive": "*** ALL SIX ARE ALREADY IN THE REGISTER *** under LERENA Salvanach. Checked name by name before writing, because this archive added a duplicate of Dominga Llerena on the day it built a gate against duplicates."
+ }
+]

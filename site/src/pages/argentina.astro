@@ -4,6 +4,7 @@ import { u } from "../lib/url.js";
 import { emph } from "../lib/text.js";
 import routes from "../data/three-routes-walked.json";
 import household from "../data/1895-census-gilberto-household.json";
+import salv from "../data/gilberto-salvanach-1906.json";
 import letter from "../data/letter-registro-civil-santafe.json";
 import Spine from "@daviddef/archive-kit/components/Spine.astro";
 
@@ -311,9 +312,46 @@ const hasArt = fs.existsSync(
   <p style="margin-top:14px">
     <strong>They are deliberately not merged.</strong> Both records are index-level, and this archive
     once joined two Arturo Lerenas on a forename and an age and had to retract the branch within the hour.
-    The test is cheap and named: the military record carries a date of birth, and the passenger entry
-    carries a marital status. Either one settles it.
   </p>
+  <p style="margin-top:20px">
+    <span class="chip doc">Documented</span> <strong>Half of that test was run the same evening, and the
+    prediction it made came back true.</strong> If the traveller is the Salva&ntilde;ach son, then the
+    son walking beside him should exist in a record. He does. Gilberto Lerena Salva&ntilde;ach married
+    <strong>Cipriana S&aacute;enz Pe&ntilde;a</strong> at Nuestra Se&ntilde;ora del Pilar on
+    <strong>19 May 1906</strong> &mdash; a bride this archive did not have &mdash; and a Capital Federal
+    parish index names their child <strong><em>Gilberto de Jes&uacute;s del Coraz&oacute;n</em></strong>.
+    His Argentine nationality stopped being an inference too: he is carried on
+    <strong>Distrito Militar 2</strong> in March 1922, born 1878 at Montevideo.
+  </p>
+  <p style="margin-top:14px">
+    <span class="chip inf">Inferred</span> <strong>And it still does not close.</strong> That child has
+    no indexed birth year &mdash; a search of Argentine Lerena births from 1910 to 1920 returns ten
+    records and none of them is he, on a filter that demonstrably works, since it cut sixty-three results
+    to ten. So the twelve-year-old <em>estudiante</em> of 1928 is still unmatched by a document, and a
+    son who exists is not the same as a son who is <em>that</em> son. <strong>The two rows stay
+    apart.</strong>
+  </p>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr>
+        <th style="width:15rem">What</th><th style="width:22rem">What the record says</th>
+        <th style="width:13rem">Collection</th><th>What it gives this archive</th>
+      </tr></thead>
+      <tbody>
+        {salv.map((r) => {
+          const c = Object.values(r);
+          return (
+            <tr>
+              <th set:html={emph(c[0])} />
+              <td class="cap" set:html={emph(c[1])} />
+              <td class="cap" set:html={emph(c[2])} />
+              <td class="cap" set:html={emph(c[3])} />
+            </tr>
+          );
+        })}
+      </tbody>
+    </table>
+  </div>
   <div class="note" style="margin-top:24px">
     <strong>He is not Pablo Armando's household</strong>, and Pablo Armando is not in the 1895 census at
     all, though he would have been thirteen. <strong>Nor is there a single Lerena recorded in Santa Fe or
