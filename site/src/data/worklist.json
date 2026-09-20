@@ -1342,11 +1342,11 @@
     },
     {
       "n": 168,
-      "what": "Who is Telesforo Lenguas, living in Don Luis Lerena's house?",
-      "state": "next",
+      "what": "Telesforo Lenguas is in one census line and nowhere else",
+      "state": "blocked",
       "owner": "this archive",
       "since": "2026-09-20",
-      "note": "New to this archive, added to the register. Entered at **34** in household 97 of the c.1858 census, **a year older than Justiniana Lenguas herself** and living among her children. **A brother of hers is the obvious reading and is not asserted** — the census gives names, ages and nationality and no relationships at all. The Lenguas are already the best-documented side of this marriage: General Don Pedro Lenguas, Don Antonio, D. Juan, D. Felipe and Doña Sixta are all in the register. **Telesforo is not, and should be findable among them.**"
+      "note": "New to this archive, added to the register. Entered at **34** in household 97 of the c.1858 census, **a year older than Justiniana Lenguas herself** and living among her children. **A brother of hers is the obvious reading and is not asserted** — the census gives names, ages and nationality and no relationships at all. The Lenguas are already the best-documented side of this marriage: General Don Pedro Lenguas, Don Antonio, D. Juan, D. Felipe and Doña Sixta are all in the register. **Telesforo is not, and should be findable among them.** *** TESTED 20 September 2026 and he is a NULL. *** Surname **LENGUAS exact, Uruguay: 561 records** — the surname is well represented and the form works — and **Telesforo is in none of them**. *Telesforo Lenguas* across all countries returns 43, every one Colombian, Venezuelan or Mexican. **He exists for this archive in one census line.** A brother of Justiniana remains the obvious reading and remains unasserted. **Blocked on the same parish register as row 167** — not on another search. Noted in passing from the control: **Luis Pedro Lenguas and Antonia Veiga** of Montevideo had a daughter **María Ema Lenguas, b. 1896**, and this archive's **María Ema Lerena Lenguas** was born 1857 — the same two names, forty years apart, in a Lenguas house. **Claimed as nothing.**"
     },
     {
       "n": 169,

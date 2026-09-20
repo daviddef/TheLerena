@@ -82,5 +82,17 @@
   "age": "-",
   "who this is": "Maria, Justiniana and Josefa of the census are real, named, and in a documented household.",
   "certainty": "*** They are NOT going into the register yet, and that is a decision rather than an oversight. *** *** If the ages are what is wrong, adding them creates duplicates of people already here *** under different names - and this archive has spent real effort this week UNPICKING duplicates rather than making them. *** They go in when the parish register says who they are. *** Index searching cannot do it: surname LERENA with mother Justiniana returns 1,301 fuzzy results and four known hits; surname SERENA returns 963 and nothing relevant at all."
+ },
+ {
+  "as written": "*** TELESFORO LENGUAS IS A TESTED NULL ***",
+  "age": "34",
+  "who this is": "Surname *** LENGUAS exact, Uruguay: 561 records *** - the surname is well represented and the query works. *** Telesforo is in none of them ***, and 'Telesforo Lenguas' across all countries returns 43, every one of them Colombian, Venezuelan or Mexican noise.",
+  "certainty": "*** So he exists, for this archive, in one census line and nowhere else. *** *** A brother of Justiniana is still the obvious reading of a 34-year-old Lenguas living among her children, and it is still not asserted *** - the census gives names, ages and nationality and no relationships at all. *** What would find him is the same parish register that would settle the children ***, not another search."
+ },
+ {
+  "as written": "*** AND A NAMING ECHO WORTH NOTING, NOT CLAIMING ***",
+  "age": "-",
+  "who this is": "The control threw up *** LUIS PEDRO LENGUAS and ANTONIA VEIGA *** of Montevideo, whose daughters are *** MARIA EMA LENGUAS, b. 18 October 1896 *** and Maria Ysabel, b. 1897.",
+  "certainty": "*** This archive's own MARIA EMA LERENA LENGUAS was born 27 June 1857 *** - the 'Erna' of household 97. *** The same two names, forty years apart, in a Lenguas house. *** *** Nothing is claimed from it *** - Maria and Ema are both ordinary names - but this family's naming has held true across three generations and two continents before now, and it is cheaper to write down than to rediscover."
  }
 ]
