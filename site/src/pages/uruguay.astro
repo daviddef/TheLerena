@@ -68,6 +68,7 @@ import colla from "../data/rosario-colla-household.json";
 import h97 from "../data/household-97-serena.json";
 import h229 from "../data/household-229-pedro-antonio.json";
 import sweep from "../data/census-seven-spellings.json";
+import dom from "../data/dominga-carballo-1836.json";
 ---
 <Base title="Uruguay"
       eyebrow="Two Lerena families, two Spanish origins, and neither of them is his"
@@ -491,6 +492,40 @@ import sweep from "../data/census-seven-spellings.json";
           <tr>
             <th set:html={emph(c[0])} />
             <td><strong set:html={emph(c[1])} /></td>
+            <td class="cap" set:html={emph(c[2])} />
+          </tr>); })}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-dominga-1836">Dominga, in a household at last</h2>
+  <div class="prose">
+    <p>Sancho's youngest child was <strong>Dominga, aged seven in the 1812 padrón</strong>, and this
+    archive has <strong>never followed her past that page</strong>. The seven-spelling sweep turned up a
+    <strong>Dominga</strong> of the right generation in the <strong>1836 census of Montevideo</strong>
+    &mdash; and the page puts her in a household.</p>
+    <p>She is the wife of <strong>D. Antonio R. Carballo</strong>, a <em>hacendado</em>; both are entered
+    <em>casado</em>; and the two unmarried daughters of the house are <strong>Lucinda</strong> and
+    <strong>Dominga Carballo</strong> &mdash; <strong>a daughter named for her mother</strong>, which is
+    the naming discipline this family keeps.</p>
+    <p><strong>She is not attached to Sancho.</strong> Twenty-eight in 1836 implies 1808, and his
+    Dominga was born about 1805 &mdash; three years out on an age a householder gave. What would settle
+    it is the couple's marriage act, which would name her parents, and that is a far smaller search
+    than the one that found her.</p>
+  </div>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr>
+        <th style="width:13rem">As written</th><th style="width:18rem">What the columns give</th>
+        <th>Reading</th>
+      </tr></thead>
+      <tbody>
+        {dom.map((r) => { const c = Object.values(r); return (
+          <tr>
+            <th set:html={emph(c[0])} />
+            <td class="cap" set:html={emph(c[1])} />
             <td class="cap" set:html={emph(c[2])} />
           </tr>); })}
       </tbody>
