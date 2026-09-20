@@ -1275,8 +1275,8 @@
  },
  {
   "name": "Rodrigo FERNANDEZ (father of Maria)",
-  "born_est": "-",
-  "last_attested_alive": "-",
+  "born_est": "c.1749",
+  "last_attested_alive": "c.1749",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -2019,6 +2019,13 @@
   "name": "MARIA MERCEDES (daughter of Juana, enslaved)",
   "born_est": "1812-09-24",
   "last_attested_alive": "1812-09-24",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Catalina MARTINEZ (madrina, 1812)",
+  "born_est": "-",
+  "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
