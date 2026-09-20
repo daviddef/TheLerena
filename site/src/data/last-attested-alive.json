@@ -1582,6 +1582,55 @@
   "tier": "BIRTH ONLY"
  },
  {
+  "name": "Maria Adelina LERENA LARRIERA",
+  "born_est": "1879-07-06",
+  "last_attested_alive": "1879-07-06",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Alberto Julian LERENA LARRIERA",
+  "born_est": "1883-08-17",
+  "last_attested_alive": "1883-08-17",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Carlos Ambrosio Florencio LERENA LARRIERA",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maria Consuelo LERENA LARRIERA",
+  "born_est": "1892-12-30",
+  "last_attested_alive": "1892-12-30",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maria Antonieta LERENA LARRIERA",
+  "born_est": "1894-06-08",
+  "last_attested_alive": "1894-06-08",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Angel Miguel Avelino LERENA LARRIERA",
+  "born_est": "1898-08-15",
+  "last_attested_alive": "1898-08-15",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maria Ines LERENA LARRIERA (de GARDONE)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
   "name": "Maria Adelina LERENA Traibel (de FEIN)",
   "born_est": "1865-08-13",
   "last_attested_alive": "1865-08-13",
