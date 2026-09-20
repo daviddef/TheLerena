@@ -1,6 +1,8 @@
 ---
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
+import { emph } from "../lib/text.js";
+import padron from "../data/padron-1812-image.json";
 ---
 <Base title="Hypotheses"
       eyebrow="Everything unproved, set out together"
@@ -36,7 +38,8 @@ import { u } from "../lib/url.js";
       <li><a href="#h-8-a-carmen-in-the-argentine-line">8. A Carmen in the Argentine line</a></li>
       <li><a href="#h-9-the-remaining-smaller-ones">9. The remaining smaller ones</a></li>
       <li><a href="#h-retired">Retired</a></li>
-    </ol>
+          <li><a href="#s-padron-image">The 1812 padrón, read from the image</a></li>
+</ol>
   </div>
 </section>
 
@@ -1322,4 +1325,38 @@ import { u } from "../lib/url.js";
     At least two unconnected populations bear the name there. <a href={u("/south-africa/")}>South Africa &rarr;</a>
   </p>
 </section>
+
+<section class="blk">
+  <h2 id="s-padron-image">The 1812 padr&oacute;n, read from the image</h2>
+  <div class="prose">
+    <p>This archive has quoted the 1812 padr&oacute;n for weeks from a <strong>published
+    transcription</strong>, on the assumption that the document itself could only be read at the
+    Archivo General in Montevideo. <strong>It could have been read from a desk.</strong> The page is on
+    FamilySearch, in a collection nobody here had opened &mdash; <em>Uruguay, Census Records,
+    1726&ndash;1858</em> &mdash; and it carries the AGN Montevideo stamp.</p>
+    <p><strong>The transcription was good:</strong> Sancho's household reads exactly as quoted, all six
+    children in order. <strong>What the transcription did not carry is four named people standing
+    immediately above him</strong>, one of them marked <em>negro esclavo</em>, and the first of them
+    called <strong>Juana</strong> &mdash; which is the name of the enslaved woman the 1812 baptism act
+    places in Sancho's household. <strong>Whose household those four belong to is not resolvable on
+    this page</strong>, and it is not being asserted.</p>
+  </div>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr>
+        <th style="width:15rem">What</th><th style="width:20rem">What the page shows</th>
+        <th>Certainty</th>
+      </tr></thead>
+      <tbody>
+        {padron.map((r) => { const c = Object.values(r); return (
+          <tr>
+            <th set:html={emph(c[0])} />
+            <td class="cap" set:html={emph(c[1])} />
+            <td class="cap" set:html={emph(c[2])} />
+          </tr>); })}
+      </tbody>
+    </table>
+  </div>
+</section>
+
 </Base>

@@ -239,10 +239,10 @@
     {
       "n": 30,
       "what": "Read the 1812 padrón from the image, not from a transcript",
-      "state": "next",
+      "state": "done",
       "owner": "this archive",
       "since": "2026-09-15",
-      "note": "The archive quotes it — Sancho, *andaluz*, 45; María Fernández, 36; Rodrigo Fernández, 63, *asturiano*, in the household — but from a published transcription. Now that images are addressable by number, **read the entry itself**: padrones often carry occupation, household composition and enslaved people in columns transcriptions drop. Sancho's age of 45 in 1812 implies birth about 1767, which is currently the only support for that year."
+      "note": "The archive quotes it — Sancho, *andaluz*, 45; María Fernández, 36; Rodrigo Fernández, 63, *asturiano*, in the household — but from a published transcription. Now that images are addressable by number, **read the entry itself**: padrones often carry occupation, household composition and enslaved people in columns transcriptions drop. Sancho's age of 45 in 1812 implies birth about 1767, which is currently the only support for that year. *** READ 20 September 2026, and the row's premise was wrong in the archive's favour. *** The page is **on FamilySearch**, in a collection nobody here had opened — *Uruguay, Census Records, 1726–1858* — so it could have been read from a desk at any point. Index ark **1:1:61LW-R54J** ('Sancho Llerena, masculino, 45, Andaluzia'), image ark **3:1:3QS7-99ZR-NKNR**. **The transcription was good:** Sancho, María Fernández and all six children read exactly as quoted. **What it did not carry:** four named people directly above him under household 59 — **Juana 41, Juan 'negro esclavo', Gabriel, María** — one explicitly enslaved, and **Juana is the name of the enslaved woman the 1812 baptism places in Sancho's household.** **Whose household those four are in is NOT resolvable at this resolution** and is not asserted. See the new row."
     },
     {
       "n": 31,
@@ -1299,6 +1299,14 @@
       "owner": "this archive",
       "since": "2026-09-20",
       "note": "**The blind spot it had was real and is fixed**: `drift.py` read only the `.astro` *sources*, so it could see a finding a page had **typed** and was blind to one a page **rendered**. That put it in direct conflict with `check-onsite.py`, which requires every data file to be imported by a page — onsite said *render it*, drift said *no page says it*, and drift was wrong every time. It now reads the built pages, excluding **/people/, /register/, /who/ and /search/**, which re-print the whole register and would make any finding pass trivially. **What is NOT verified:** deleting the /uruguay/ section that carries the Mauricio finding did **not** make the check report it again, even though no other non-dump page and no `.astro` source holds those words. **So the fix is sound but the catch is unproven, and a gate whose catch is unproven is a gate nobody should trust.** Find out why — most likely the rarest-word selection shifts as the corpus grows. *** VERIFIED BOTH WAYS, 20 September 2026 - and my own test was broken first. *** The first attempt rebuilt with `npm run build >/dev/null 2>&1` and **never checked the exit code** — the very trap `verify.sh` carries a warning about. Re-run with the status checked, the build was fine and **the catch still did not fire**, so the fault was real. **What defeated it was /worklist/**, and the reason goes to the heart of how this archive works: **findings are written into row notes as a matter of habit, and /worklist/ re-prints every note in full** — so *logging* a finding counted as *publishing* it, which is exactly the gap this check exists to find. **/register/, /people/, /who/, /search/, /worklist/, /changes/, /corrections/ and /searched/ are now all excluded**: they are ledgers *of* the work, not places a reader meets the story. **Proved by deleting the /uruguay/ section — the check reports the finding — and restoring it — the check goes quiet.**"
+    },
+    {
+      "n": 163,
+      "what": "Settle whether the four named people of household 59 are Sancho's",
+      "state": "next",
+      "owner": "this archive",
+      "since": "2026-09-20",
+      "note": "**This archive states, in data and on its pages, that the 1812 padrón 'records four enslaved people in Sancho's household and gives none of them a name'.** The image shows **four named people immediately above him** — **Juana 41, Juan 'negro esclavo', Gabriel, María** — under margin number **59**, with Sancho's bracket beginning on the next line and the family above them a *Sargento Veterano de Caballería* and his wife *Sabina Balmaceda*. **So the four may be that sergeant's, or Sancho's, and dist.jpg at 3793×2909 does not settle it.** It matters because **the baptism of 26 September 1812 names JUANA as an enslaved woman of Sancho Lerena and María Fernández** — a Juana of 41 at the edge of his household in the same year is a convergence, not a coincidence to be shrugged at. **Needs the bracket at tile resolution, or the household numbering read across the whole opening.** If it resolves to Sancho, the archive's 'gives none of them a name' is wrong and two more people become nameable."
     }
   ],
   "accounts": [
