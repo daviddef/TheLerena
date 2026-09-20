@@ -8,7 +8,7 @@ It skips hrefs containing a quote or a plus sign: those are JavaScript template
 strings inside inline <script> blocks, not links, and treating them as links
 produced a run of false positives the first time this was written.
 """
-import os, re, sys
+import os, pathlib, re, sys
 from collections import defaultdict
 
 ROOT = "site/dist"
@@ -104,6 +104,33 @@ for fp in html_files:
     if n:
         bad.append((fp, f"{n} unconverted *** ... *** field(s)",
                     "emphasis markers reached the page - render it through emph()"))
+
+# ---- and one fault this checker CANNOT see from dist, so it reads the source ----
+#
+# On 20 September 2026 a peer session found a dead link on /direct-line/ that had been
+# there since the line was written, pointing at the enrolment card - the document that
+# page calls its own best evidence for Pablo Armando. The source said:
+#
+#     <a href="{u("/enrolment-card/")}">enrolment card</a>
+#
+# QUOTED. So it is a literal string, not an expression. It shipped as href="{u(" - the
+# inner quotes end the attribute - and rendered as words that still looked like a link.
+#
+# *** THIS CHECKER'S OWN SAFEGUARD IS WHAT HID IT. *** The docstring at the top says it
+# skips any href containing a quote, because those are JavaScript template strings in
+# inline <script> blocks and treating them as links produced a run of false positives.
+# That rule is right, and it is exactly the rule that let a broken attribute through.
+#
+# So the fault is caught where it is legible: in the .astro SOURCE, where a quoted {u(
+# is never correct. Inside a template literal ${u(...)} IS correct and is not matched,
+# because the { there is preceded by a $.
+SRC = pathlib.Path("site/src/pages")
+QUOTED_EXPR = re.compile(r"(?:href|src)=[\"'](?<!\$)\{\s*u\s*\(")
+for fp in sorted(SRC.rglob("*.astro")):
+    for n, line in enumerate(fp.read_text(encoding="utf-8").splitlines(), 1):
+        if QUOTED_EXPR.search(line):
+            bad.append((str(fp) + ":" + str(n), "a QUOTED Astro expression in an href",
+                        'href="{u(...)}" is a literal string - drop the quotes: href={u(...)}'))
 
 # An EMPTY dist is not a clean bill of health. On 14 September 2026 a broken import left
 # `astro build` exiting 0 with nothing written, and this checker printed "0 pages ... 0 broken"
