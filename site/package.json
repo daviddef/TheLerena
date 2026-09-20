@@ -21,7 +21,7 @@
     "check:places": "python3 ../tools/check-living-places.py"
   },
   "dependencies": {
-    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#2589343bb340a87e339a18e8e1e88343998647d6",
+    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#a024103d630e7b332c4edefd255d8fa4098f8743",
     "astro": "^5.18.2"
   }
 }

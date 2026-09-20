@@ -115,7 +115,9 @@ const timelinePoints = people.filter((x) => x.born && /\d{4}/.test(String(x.born
       dek="Who married whom, and what this archive has decided about everybody else who carries the name. A shared surname is not a relationship — this page is the record of which ones are.">
 
   <div class="card" style="border-left:3px solid var(--accent)">
-    <h3 style="margin-bottom:.4rem">Why this page is grouped the way it is</h3>
+    <h2 style="margin-bottom:.4rem;font-size:1.05rem">Why this page is grouped the way it is</h2>{/* h2, not h3: this is the first heading under the page title, and jumping a level
+       leaves a screen-reader user hearing a subsection with no section above it. The
+       size is pinned so it still reads as a card heading rather than a page banner. */}
     <p><strong>This archive's subject is a name, not a family.</strong> Most of the people below
     carry some spelling of <em>Lerena</em> and have no proved relationship to the line at all — and
     sorting out which do is the entire reason the archive exists. So they are not grouped by descent,

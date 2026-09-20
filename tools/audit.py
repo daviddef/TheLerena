@@ -140,6 +140,10 @@ def check_render(r, docs):
 def check_html(r, docs):
     dupes, noalt, notitle, skips = [], [], [], []
     for p, d in docs:
+        # Headings and ids inside a <script> are STRINGS, not markup. /atlas/ builds
+        # its panel with h.push('<div class="at-h"><h3>' + ...), and the first version
+        # of this check read that as the page skipping from h1 to h3.
+        d = visible(d)
         ids = re.findall(r'\sid="([^"]+)"', d)
         for i, n in collections.Counter(ids).items():
             if n > 1:
