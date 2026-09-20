@@ -4,6 +4,7 @@ import { u } from "../lib/url.js";
 import { plain, emph } from "../lib/text.js";
 import addresses from "../data/devon-addresses.json";
 import crew from "../data/crew-lists-costed.json";
+import voyages from "../data/passenger-lists.json";
 import taylorLine from "../data/taylor-line.json";
 import "@daviddef/archive-kit/styles/persontree.css";
 /* GENERATED FROM data/taylor-line.tsv, not typed here. Until 14 September 2026 this was a
@@ -96,6 +97,7 @@ import dDevonTooling from "../data/devon-tooling.json";
       <li><a href="#s-northam-and-bideford-north-devon">Northam and Bideford, north Devon</a></li>
       <li><a href="#s-the-ship">The ship</a></li>
       <li><a href="#s-the-marriage-and-it-is-not-where-the-story-expects-it">The marriage &mdash; and it is not where the story expects it</a></li>
+      <li><a href="#s-crossings">The crossings, and a last voyage home</a></li>
       <li><a href="#s-her-end">Her end</a></li>
       <li><a href="#s-the-taylors-had-horses-too">The Taylors had horses too</a></li>
       <li><a href="#s-what-she-was-doing-at-sixteen">What she was doing at sixteen</a></li>
@@ -318,6 +320,67 @@ import dDevonTooling from "../data/devon-tooling.json";
     owner (1950). <a href={u("/horses/")}>The horses &rarr;</a>
   </p>
 </section>
+<section class="blk">
+<h2 id="s-crossings">The crossings, and a last voyage home</h2>
+<p class="dek">Six Board of Trade passenger records for this family, read in September 2026 and
+  published here for the first time. They are ordinary shipping paperwork, and between them they hold
+  the saddest fact on this page and one of the warmest.</p>
+<div class="prose">
+  <p><span class="chip doc">Documented</span> <strong>On 20 May 1935 Mary Septima landed at
+    Southampton, aged 50, off the <em>Balmoral Castle</em>.</strong> Her address in Britain is given as
+    <strong><em>&ldquo;c/o Dalling, Fore St, Northam, Devon&rdquo;</em></strong> &mdash; her elder
+    sister <strong>Isabella Temple</strong>, who had married <strong>Henry Dalling</strong> at Northam
+    in 1900. <strong>She was in England five weeks</strong>, and sailed for the Cape again on
+    <strong>28 June 1935</strong> aboard the <em>Armadale Castle</em>.</p>
+  <p><strong>She died on 15 November 1935, four and a half months after she got home.</strong> The
+    section below gives the cause. Nothing in the paperwork says she knew, and this archive does not
+    claim she did &mdash; but she was fifty years old, she had not been to Devon in the record since
+    1909, and she went back to her sister&rsquo;s house in the parish she was born in one summer before
+    she died.</p>
+  <p><span class="chip doc">Documented</span> <strong>And the 1909 crossing corroborates the thing this
+    page argues hardest.</strong> On 19 February 1909 the <em>Guelph</em> landed
+    <strong>&ldquo;Mrs M T Lerena&rdquo;</strong> at Southampton, and on the line directly below her
+    <strong>&ldquo;Mast. L Lerena&rdquo;</strong> &mdash; <em>Master</em>, a boy, almost certainly
+    <strong>Roque Luis Armando</strong>, then three. She is travelling as <em>Mrs Lerena</em> with his
+    son, <strong>two years before the wedding at St Dominic&rsquo;s</strong>. The purser wrote her down
+    as <strong>ENGLISH</strong> and the boy as <strong>BRITISH COLONIAL</strong>.</p>
+  <p><span class="chip inf">Inferred</span> <strong>Then it happens a third time, a generation later.</strong>
+    On 12 April 1957 <strong>Juanita Ramona Lerena</strong> &mdash; Roque&rsquo;s daughter, Pablo
+    Armando&rsquo;s granddaughter, born 16 June 1937 &mdash; landed at Southampton, single, occupation
+    <strong>BALLET TEACHER</strong>. Her address in Britain: <strong><em>&ldquo;Vicosa, Westward Ho, N
+    Devon&rdquo;</em></strong> &mdash; <strong>the village adjoining Northam</strong>. Three generations
+    of this family crossed to the same four square miles of north Devon: the daughter of the house in
+    1909 and 1935, and her granddaughter in 1957.</p>
+</div>
+<div class="scroll" style="margin-top:18px">
+  <table>
+    <thead><tr>
+      <th style="width:11rem">Passenger</th><th style="width:13rem">Who</th>
+      <th class="m" style="width:7rem">Date</th><th style="width:11rem">Ship</th>
+      <th>Note</th><th class="m" style="width:7rem">Reference</th>
+    </tr></thead>
+    <tbody>
+      {voyages.map((r) => {
+        const c = Object.values(r);
+        return (
+          <tr>
+            <th set:html={emph(c[0])} />
+            <td class="cap" set:html={emph(c[1])} />
+            <td class="m">{c[2]}</td>
+            <td class="cap">{c[3]}</td>
+            <td class="cap" set:html={emph(c[8])} />
+            <td class="m">{c[9]}</td>
+          </tr>
+        );
+      })}
+    </tbody>
+  </table>
+</div>
+<p class="cap" style="margin-top:12px">TNA Board of Trade <span class="mono">BT 26</span> (inward) and
+  <span class="mono">BT 27</span> (outward), read on findmypast under a trial subscription,
+  9 September 2026.</p>
+</section>
+
 <section class="blk">
 <h2 id="s-her-end">Her end</h2>
   <p>

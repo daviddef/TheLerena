@@ -35,6 +35,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 DIST = ROOT / "site" / "dist"
 DECL = DATA / "_not-on-site.txt"
+SEEN = DATA / "_published-elsewhere.txt"
 
 VERBOSE = "--verbose" in sys.argv
 ONLY = None
@@ -100,6 +101,32 @@ def prose_pages():
     return out
 
 
+def published_elsewhere():
+    """Spans somebody has LOOKED FOR and found published in other words.
+
+    The matcher requires three rare words to co-occur, and prose does not repeat a
+    working log verbatim. The Baron de la Laguna placement is published in full on
+    /hypotheses/ and this tool still reported it, because the page says "Lecor" and
+    "persons of confidence" where the log says "governor" and "placement".
+
+    drift.py keeps a list like this for exactly the same reason, and says why: a
+    warning that fires on every build is a warning nobody reads. So an entry here is
+    A CLAIM THAT SOMEBODY LOOKED, and it has to carry WHERE the finding was published.
+    """
+    out = []
+    if not SEEN.exists():
+        return out
+    for line in SEEN.read_text(encoding="utf-8").splitlines():
+        s = line.strip()
+        if not s or s.startswith("#") or ":" not in s:
+            continue
+        where, rest = s.split(":", 1)
+        frag = rest.split("#", 1)[0].strip()
+        if frag:
+            out.append((where.strip(), frag.lower()))
+    return out
+
+
 def spans(path):
     """Every *** emphasised *** span in a TSV, comments included - a working log keeps
     most of its findings in the comment block, which is exactly the point."""
@@ -128,13 +155,18 @@ def main():
     if ONLY:
         files = [f for f in files if ONLY in f]
 
+    allow = published_elsewhere()
     report = []
     for name in files:
         p = DATA / f"{name}.tsv"
         if not p.exists():
             continue
+        mine = [f for w, f in allow if w == name]
         unseen, seen = [], 0
         for s in spans(p):
+            if any(f in s.lower() for f in mine):
+                seen += 1
+                continue
             words = [w for w in re.findall(r"[a-z]{5,}", s.lower()) if not STOP.match(w)]
             if len(words) < 3:
                 continue

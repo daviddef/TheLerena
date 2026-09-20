@@ -1,0 +1,42 @@
+# FINDINGS FROM A WORKING LOG THAT ARE PUBLISHED IN OTHER WORDS.
+#
+# tools/unpublished.py matches a claim by its three rarest words co-occurring on one
+# page. Prose does not repeat a working log verbatim, so a finding can be fully
+# published and still be reported. drift.py keeps a list like this and says why:
+# *** a warning that fires on every build is a warning nobody reads. ***
+#
+# *** AN ENTRY HERE IS A CLAIM THAT SOMEBODY LOOKED. *** It carries where the finding
+# was published, so the claim can be checked rather than taken on trust. Adding a line
+# to silence a report, without looking, is the one way to make this file a liability.
+#
+# Format:   <working-log name>: <a distinctive fragment of the span>   # where it is published
+#
+apolant-ficha-355: historical placement this archive has never had   # /hypotheses/ and /sources/ carry Bauza III p.285, Lecor, and "personas de confianza" in full
+apolant-ficha-355: Both works are findable in Uruguayan libraries   # /sources/ carries both citations. The Revista 15 IEGU errand is on /errands/; BAUZA NEEDS NO ERRAND - it was read in full text on archive.org and III p.285 is quoted on /hypotheses/. (Checked 20 Sep: my first version of this line said the errand covered both works, and it does not.)
+castrense-1791-walk: la Ciudad de Cordova' in a Montevideo register   # /hypotheses/ argues the Cordova la Llana vs Cordoba del Tucuman reading at length, and better
+castrense-1791-walk: chaplain's name BERROETA   # /method/ tells the Berroeta control story in the false-null section
+fulltext-sancho-2026-09-15: chaplain's name BERROETA   # same, /method/
+cordoba-first-queries: Berroeta lesson applied forwards   # /method/ carries the Berroeta control and the rule it produced
+cordoba-first-queries: Within the corpus that IS indexed   # /hypotheses/ now carries the hidalguia negative in full
+cordoba-first-queries: points away from hidalguia   # /hypotheses/, beside the illiterate Don argument
+1754-granada-act: transient zeros off this exact page   # /method/, in the false-zeros catalogue
+1754-granada-act: least trustworthy zero there is   # /method/, in the false-zeros catalogue
+santa-rosa-confirmations-complete: zeros were rate limiting   # /method/, in the false-zeros catalogue
+rosario-catedral-confirmations-complete: looked exactly like the throttle   # /method/, in the false-zeros catalogue
+rosario-catedral-confirmations-complete: distinguishing sign is the page TITLE   # /method/, in the false-zeros catalogue
+pablo-armando-fulltext-null: SILENTLY EXPIRED   # /method/, in the false-zeros catalogue
+pablo-armando-fulltext-null: SAME TRAP FOUR TIMES IN A MONTH   # /method/ carries all twelve disguises and says the count is now twelve
+pablo-armando-fulltext-null: Running the control is not a formality   # /method/, the closing line of the false-zeros section makes the same point
+canelones-films: conclude this reel is Colombian   # /method/, in the false-zeros catalogue
+sancho-llerena-spellings: FAMILIAR DEL SANTO OFICIO   # /method/, the false-positive mirror panel
+sancho-llerena-spellings: Santo Oficio" and "Llerena" sit next to each other   # /method/, same panel
+lerena-lerena-compound-test: CONTROLLED null and not a silent one   # /open-questions/ publishes the compound test, the 43 documents and the controlled negative
+lerena-lerena-compound-test: Uruguayan corpus cannot speak   # /open-questions/ carries the caveat that it does not close the question
+lerena-lerena-compound-test: Libro de Bautismos N.35, Chacabuco   # /open-questions/ names the Chacabuco title-page artefact
+lerena-lerena-compound-test: parents given as Juana Quintana and Justo Lerena   # /open-questions/, the Carmen Lerena paragraph added 20 September
+lerena-lerena-compound-test: entry immediately   # /open-questions/ gives the 1841 correction and the Ana Teresa de Portugal check
+taylor-marriages: strange thing for this archive to have tolerated   # /taylor/ #s-her-brothers-and-sisters-taken-off-a-tree opens with exactly this argument
+taylor-marriages: double wedding season in one small Devon parish   # /taylor/ same section: "Two of them married eleven days apart, in the same church", with the mother's death in April 1900
+passenger-lists: She was in England five weeks   # /taylor/ #s-crossings, published 20 September 2026
+passenger-lists: Occupation BALLET TEACHER   # /taylor/ #s-crossings, the 1957 Juanita Ramona crossing
+findmypast-lerena: THE RETURN LEG   # /taylor/ #s-crossings gives both legs of the 1935 voyage
