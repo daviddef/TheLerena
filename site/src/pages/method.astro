@@ -6,6 +6,7 @@ import { emph } from "../lib/text.js";
 import dgs from "../data/dgs-audit.json";
 import traps from "../data/forename-traps.json";
 import zeros from "../data/false-zeros.json";
+import certs from "../data/1852-aguada-union-certificates.json";
 ---
 <Base title="Method"
       eyebrow="How this archive decides what it will say"
@@ -218,6 +219,57 @@ import zeros from "../data/false-zeros.json";
         expensive half, because a hit that agrees with you asks to be believed.</p>
     </div>
   </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-index-dates">A child born six years after his father died</h2>
+  <p class="dek">The date on an index entry can be the date of the <em>copy</em>, not of the act.
+    This one moved a man&rsquo;s birth by forty-four years.</p>
+  <div class="prose">
+    <p>On <strong>21 September 2026</strong> a search for the children of
+      <strong>Avelino Lerena and Ambrosia Traibel</strong> returned ten records. Three of them were
+      dated <strong>1896 and 1919</strong>. Avelino died in 1890. Ambrosia was born around 1820.</p>
+    <p>The tempting reading is that the index has attached the wrong parents, and that those three are
+      other people&rsquo;s children. <strong>The opposite was true.</strong> The parents are right and
+      <strong>the dates are wrong</strong>, because the film is not a baptism register at all &mdash;
+      it is a register of <strong>certified copies issued in 1896</strong>, and the indexer took the
+      year off the certificate and the day and month off the act inside it.</p>
+    <p>The act, read off <strong>film 008166435, image 02850</strong>, opens:
+      <em>&ldquo;Certifico: que en el libro 1.&ordm; de Bautismos &hellip; en el folio 135, se lee la
+      partida siguiente &hellip; El veinte y uno de Noviembre de <strong>1852</strong>&rdquo;</em>.</p>
+  </div>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr>
+        <th style="width:15rem">The act</th><th style="width:13rem">What the index says</th>
+        <th style="width:17rem">What the act says</th><th>Who it is</th>
+        <th class="m" style="width:8rem">Born</th>
+      </tr></thead>
+      <tbody>
+        {certs.map((r) => {
+          const c = Object.values(r);
+          return (
+            <tr>
+              <th set:html={emph(c[0])} />
+              <td class="cap" set:html={emph(c[1])} />
+              <td class="cap" set:html={emph(c[2])} />
+              <td class="cap" set:html={emph(c[3])} />
+              <td class="m" set:html={emph(c[4])} />
+            </tr>
+          );
+        })}
+      </tbody>
+    </table>
+  </div>
+  <p class="cap" style="margin-top:14px"><strong>The tell is cheap and it is worth memorising.</strong>
+    Two different children of one couple were indexed with the <em>same</em> birth date, 16 March 1896.
+    The second tell is an impossible godparent: the man who stood at this font is
+    <strong>Pedro Antonio Lerena, born 1793</strong> &mdash; the child&rsquo;s uncle, and a man who
+    could not be in a room in 1896.</p>
+  <p class="cap"><strong>What it does not license.</strong> The third record, a christening of 1919,
+    has <em>not</em> been opened, and its godfather bears a name that was alive in this family in 1919.
+    It may be another certificate or it may be a great-granddaughter whose act names her ancestors.
+    Until the image is read, it stays untested &mdash; which is the same rule that caught the other two.</p>
 </section>
 
 <section class="blk">

@@ -1520,7 +1520,7 @@
  },
  {
   "name": "Josefa LERENA TRAIBEL (1851-1947)",
-  "born_est": "1851",
+  "born_est": "1851-02-10",
   "last_attested_alive": "1947-Apr-2",
   "basis": "explicit death date on this person's row",
   "tier": "DEATH"
@@ -1538,6 +1538,69 @@
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Josefa CORBELLE de Lemus",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Don Miguel Carlos CORREA de Lemus",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Jorge FEIN",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Carlos Alberto FEIN",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maria Ines LARRIERA",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maria Adelina LERENA Traibel (de FEIN)",
+  "born_est": "c.1865",
+  "last_attested_alive": "c.1865",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Mercedes Micaela LERENA Traibel",
+  "born_est": "1863-05-08",
+  "last_attested_alive": "1863-05-08",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Juan Arturo LERENA Traibel",
+  "born_est": "1861-02-16",
+  "last_attested_alive": "1861-02-16",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Pedro Alberto Ysabelino LERENA Traibel (the ALBERTO of 1852-1921)",
+  "born_est": "1852-03-16",
+  "last_attested_alive": "1921-Mar-1",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
  },
  {
   "name": "Mercedes LERENA (godmother, 1880)",
