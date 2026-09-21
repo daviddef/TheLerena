@@ -5,6 +5,7 @@ import { u } from "../lib/url.js";
 import { emph } from "../lib/text.js";
 import ramon from "../data/ramon-lerena-rosario.json";
 import mauricio from "../data/mauricio-casimira-montano.json";
+import alejandros from "../data/the-three-alejandros.json";
 import Spine from "@daviddef/archive-kit/components/Spine.astro";
 
 /* The two descents drawn the same way, so the eye can do the comparing. Both
@@ -26,7 +27,7 @@ const sanchoHouse = [
     died: "23 August 1890", diedPlace: "La Paz, Canelones", confidence: "Documented",
     note: `<span class="cap">The seventh of eight children born between 1793 and 1815. Father of the <strong>Lerena Traibel</strong>.</span>` },
   { gen: "4", name: "The Lerena Traibel", confidence: "Documented",
-    note: `<span class="cap">Alejandro M\u00e1ximo (1839\u20131903), Carlos Ambrosio (1842\u20131893, who married his cousin Luisa Lerena Lenguas), <strong>Alberto (1852\u20131921)</strong> \u2014 whose death is Montevideo certificate 246 \u2014 and eight more. The other branch, the <strong>Lerena Lenguas</strong>, runs beside them.</span>` },
+    note: `<span class="cap"><strong>Alejandro</strong> \u2014 baptised at La Mauricia 7 January 1846, the eldest known, and <a href="#s-alejandros">whether he is the <em>Alejandro M\u00e1ximo</em> of the Argentine cards is open</a> \u2014 Carlos Ambrosio (1842\u20131893, who married his cousin Luisa Lerena Lenguas), <strong>Alberto (1852\u20131921)</strong> \u2014 whose death is Montevideo certificate 246 \u2014 and eight more. The other branch, the <strong>Lerena Lenguas</strong>, runs beside them.</span>` },
 ];
 
 /* And the line the archive is actually looking for, drawn to the same scale so
@@ -831,6 +832,100 @@ import sanjose from "../data/alberto-lerena-larriera.json";
           </tr>); })}
       </tbody>
     </table>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-alejandros">Four men called Alejandro &mdash; and a six-year gap that was never there</h2>
+  <div class="prose">
+    <p>The eldest known child of <strong>Avelino Lerena and Ambrosia Traibel</strong> was baptised
+      <strong>Alejandro</strong> at La Mauricia on 7 January 1846. Somewhere in Argentina, on the
+      enrolment cards of <a href={u("/argentina/")}>army drawer Caj&oacute;n 985</a>, a father is named
+      <strong>Alejandro M. Lerena</strong>. This archive has asked since 14 September whether they are
+      one man, and has always answered <em>inconclusive</em>.</p>
+    <p><span class="chip doc">Documented</span> <strong>The answer stayed inconclusive for a reason that
+      turned out to be false.</strong> The working log held the two apart on a <strong>six-year
+      gap</strong> &mdash; a baptism pointing at 1843 or 1845, against a stated <em>&ldquo;born Uruguay
+      <strong>1839</strong>&rdquo;</em>. That 1839 was graded <strong>PRIMARY (indexed)</strong> and
+      sourced to the Capital Federal parish records. <strong>On 22 September all four of those records
+      were opened, and every one of them leaves the father&rsquo;s age blank</strong> &mdash; while
+      giving the mother&rsquo;s. The 1839 came from a <strong>family tree</strong>, and was re-graded as
+      a record on the way in. It was also printed on this page, in the descent above, as a plain fact.</p>
+    <p><span class="chip doc">Documented</span> <strong>Then he told us himself, twice.</strong> Two
+      Montevideo birth acts of his own children were read off the plate &mdash; <strong>film 004596830,
+      images 01806 and 02145</strong>. He stood in front of the officer and gave his age:
+      <em>&ldquo;don Alejandro M. Lerena, de <strong>cuarenta y dos a&ntilde;os de edad</strong>, viudo,
+      escribano, oriental, domiciliado en la calle San Jos&eacute; N 17&rdquo;</em> on 6 November 1886,
+      and <em>&ldquo;don Alejandro M. Lerena <strong>de 43 a&ntilde;os de edad</strong> de estado viudo
+      de nacionalidad Oriental&rdquo;</em> on 16 March 1888. Sixteen months apart, and consistent with
+      each other. <strong>That puts his birth between 17 March and 6 November 1844.</strong></p>
+  </div>
+  <div class="scroll" style="margin-top:18px">
+    <table style="min-width:78rem">
+      <thead><tr>
+        <th style="width:13rem">Who</th><th style="width:17rem">Born</th>
+        <th style="width:9rem">Wife</th><th style="width:19rem">Children and records</th>
+        <th style="width:20rem">His parents</th>
+      </tr></thead>
+      <tbody>
+        {alejandros.map((r) => { const c = Object.values(r); return (
+          <tr>
+            <th set:html={emph(c[0])} />
+            <td class="cap" set:html={emph(c[1])} />
+            <td class="cap" set:html={emph(c[2])} />
+            <td class="cap" set:html={emph(c[3])} />
+            <td class="cap" set:html={emph(c[4])} />
+          </tr>); })}
+      </tbody>
+    </table>
+  </div>
+  <div class="prose" style="margin-top:14px">
+    <p><span class="chip inf">Inferred</span> <strong>The gap is now one year, and it still cannot
+      choose.</strong> Against a birth of 29 May 1843 he should have said 43 and 44; against 29 May 1845,
+      41 and 42. He said <strong>42 and 43</strong>. The stated ages miss both candidate dates by exactly
+      one year, <strong>in opposite directions</strong> &mdash; they sit precisely between them. A man
+      consistently one year off a baptism act is the ordinary case and this archive sees it weekly. A man
+      five years off, twice, is a different man or a bad number. <strong>So 1839 is gone, the mid-1840s
+      are in, and that is the first thing that has ever pointed these two rows at each other.</strong>
+      It is circumstantial, and they remain separate rows.</p>
+    <p><span class="chip doc">Documented</span> <strong>The form asked this archive&rsquo;s exact
+      question and nobody wrote the answer on it.</strong> The 1888 act is a printed sheet with a ruled
+      line reading <em>&ldquo;Que es nieta por l&iacute;nea paterna de&nbsp;______&rdquo;</em>. It is
+      <strong>blank</strong>, and so is the maternal one. That is common on these forms and is
+      <strong>not</strong> evidence that he could not have answered.</p>
+    <p><span class="chip doc">Documented</span> <strong>What the two acts did give is a route.</strong>
+      He is <strong>viudo</strong> on both &mdash; a widower at forty-two, while Julia Bassani is
+      twenty-two and <em>soltera</em>, living at a different address, where both children were born. So
+      there is an earlier marriage and an earlier death in Montevideo, <strong>and a marriage act names
+      the groom&rsquo;s parents</strong>. He is also an <strong>escribano</strong>, a notary, and
+      notaries leave protocolos filed under their own names. Those are the two things left to try.</p>
+    <p><span class="chip doc">Documented</span> <strong>And one row on this site was two men.</strong>
+      The register carried a bare <em>&ldquo;Hector Lerena&rdquo;</em> of Buenos Aires who married
+      <strong>Amalia Pacheco</strong>. His marriage act of 25 February 1911 at San Carlos was opened:
+      <em>&ldquo;hijo leg&iacute;timo de D. <strong>Alejandro M&aacute;ximo</strong> &hellip; y de
+      do&ntilde;a <strong>Julia Ba[ssani]</strong>, natural de Italia &hellip; con do&ntilde;a
+      <strong>Amalia Pa[checo]</strong>&rdquo;</em>, the groom <em>&ldquo;de la Rep. Oriental, de veinte
+      y cuatro&rdquo;</em>. The wife matches, the parents match, and twenty-four in February 1911 fits a
+      birth on <strong>29 October 1886 at Montevideo</strong> exactly. <strong>They are one man, and the
+      two rows are now one.</strong> The index had him born 1887 at Almagro, Buenos Aires; the act says
+      <em>Oriental</em>, and the indexer had defaulted the birthplace to the place of the wedding.</p>
+    <p><span class="chip doc">Documented</span> <strong>That act also spells out a letter.</strong> On
+      the two Montevideo acts he is only ever <strong>Alejandro M. Lerena</strong>, and on the
+      enrolment cards of Caj&oacute;n 985 he is only ever <strong>Alejandro M. Lerena</strong>. In the
+      priest&rsquo;s hand at San Carlos in 1911 the initial is written out: <strong>M&aacute;ximo</strong>.
+      <strong>So the <em>expansion</em> of that M. is now on a plate rather than in a tree, and the
+      Alejandro M. Lerena of Caj&oacute;n 985 carries the same one.</strong> It is worth being exact about
+      what that does and does not do: it joins the <em>cards</em> to the <em>Montevideo acts</em>, which
+      were never in doubt &mdash; the same wife and the same children stand on both. It does not join
+      either of them to Avelino&rsquo;s son.</p>
+    <p><span class="chip inf">Inferred</span> <strong>Which makes the family&rsquo;s road visible.</strong>
+      H&eacute;ctor born Montevideo 1886, Emilia Alberta Montevideo 1888, Roberto Juan in
+      <strong>Misiones</strong> 1891, R&oacute;mer Rosario in Buenos Aires 1895, then Elisa Cornelia
+      1898, Carmen Romualda 1901 and Mar&iacute;a Luisa 1903 &mdash; the last three baptised together
+      late, in 1905, 1907 and 1908. <strong>They left Montevideo between 1888 and 1891 and crossed the
+      country before settling in the capital.</strong> Julia is <em>italiana</em> in 1886 and
+      <em>austriaca</em> in 1888, aged 22 and then 24 &mdash; both written in front of her, and this
+      archive records both rather than picking.</p>
   </div>
 </section>
 

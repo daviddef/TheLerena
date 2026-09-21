@@ -830,5 +830,13 @@
   "what_is_true": "*** THE ACCOUNT WAS NEVER SIGNED OUT, AND DAVID NEEDED TO DO NOTHING. *** A sibling archive on this machine ran the record search and the full-text search in the same minutes and got 3,652 and 3,967 with the account name in the navigation bar. *** Each Claude session's in-app browser is a separate browser with its own cookies: ONE CONTEXT lost its auth and recovered on its own. *** In a fresh tab the Gonzalez control returned 479,662 and the Avelino-with-Ambrosia query returned 10 again. *** The symptom was real and the diagnosis of a lost session was right for that browser; the REMEDY was wrong, and it asked a person for something the machine could have settled by opening a tab. *** ALL THREE HELD-OVER NULLS WERE RE-RUN AGAINST A LIVE CONTROL AND ALL THREE ARE STILL ZERO.",
   "how_it_was_caught": "",
   "retired": ""
+ },
+ {
+  "date": "2026-09-22",
+  "severity": "serious",
+  "what_was_said": "*** That ALEJANDRO MAXIMO LERENA was \"Born 1839 Uruguay, WHICH THE ARGENTINE RECORD INDEPENDENTLY CONFIRMS\" *** - stated in data/montevideo-lerena-trunk.tsv, graded *** \"PRIMARY (indexed)\" *** in data/cajon-985-origins.tsv against the source \"FamilySearch: Argentina, Capital Federal, Catholic Church Records 1640-1978\", used in data/the-three-alejandros.tsv to hold two men six years apart, and published on /uruguay/ in the descent spine as *** \"Alejandro Maximo (1839-1903)\" ***.",
+  "what_is_true": "*** NO ARGENTINE RECORD CONFIRMS IT, BECAUSE NONE OF THEM STATES HIS AGE. *** All four Capital Federal records for this man were opened on 22 September 2026 - the baptisms of Elisa Cornelia, Carmen Romualda and Maria Luisa, and the marriage of his son Hector - and *** EVERY ONE OF THEM LEAVES THE FATHER'S AGE BLANK ***, while giving the MOTHER's (Julia Bassani, 40 years in 1905 and 39 in 1907). The 1839 is a FAMILY TREE VALUE carried from PID KZ2N-84J and re-graded as a record on the way in. *** AND IT IS FIVE YEARS OUT. *** Two Montevideo birth acts of his own children, read off the plate the same day, take his age from his own mouth: *** \"de cuarenta y dos anos de edad\" on 6 November 1886 and \"de 43 anos de edad\" on 16 March 1888 ***, which puts his birth between 17 March and 6 November 1844.",
+  "how_it_was_caught": "*** BY ASKING WHERE A NUMBER CAME FROM. *** The tier said PRIMARY (indexed), so the index was opened to see the entry - and the field was empty. A tier is a claim about a source and it can be checked by opening the source, which is the only thing that ever checks one.",
+  "retired": ""
  }
 ]

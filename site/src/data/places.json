@@ -254,7 +254,6 @@
    "emilia-lerena",
    "francisco-lerena",
    "paulina-lerena",
-   "hector-lerena",
    "eduardo-lerena",
    "avelina-lerena",
    "gilberto-lerena-salvanach",
@@ -269,7 +268,7 @@
    "alejandrina-llerena",
    "cipriana-saenz-pena"
   ],
-  "count": 24
+  "count": 23
  },
  {
   "slug": "rosario-santa-fe",
@@ -406,6 +405,17 @@
    "agustina-ramona-lerena-fernandez",
    "fidel-lerena-fernandez",
    "juana"
+  ],
+  "count": 4
+ },
+ {
+  "slug": "montevideo-later-buenos-aires",
+  "name": "Montevideo, later Buenos Aires",
+  "people": [
+   "alejandro-m-lerena",
+   "julia-bassani",
+   "hector-narciso-lerena-bassani",
+   "emilia-alberta-lerena-bassani"
   ],
   "count": 4
  },

@@ -735,13 +735,6 @@
   "tier": "BIRTH ONLY"
  },
  {
-  "name": "Hector LERENA",
-  "born_est": "-",
-  "last_attested_alive": "-",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
- },
- {
   "name": "Eduardo LERENA",
   "born_est": "-",
   "last_attested_alive": "-",
@@ -2467,6 +2460,34 @@
   "name": "Emilia ANTELO (wife of Juan Facundo Frutuoso BARROS Lerena)",
   "born_est": "-",
   "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Alejandro M. LERENA (with Julia BASSANI)",
+  "born_est": "1844",
+  "last_attested_alive": "1844",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Julia BASSANI",
+  "born_est": "1864",
+  "last_attested_alive": "1864",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Hector Narciso LERENA Bassani",
+  "born_est": "1886-10-29",
+  "last_attested_alive": "1886-10-29",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Emilia Alberta LERENA Bassani",
+  "born_est": "1888-03-16",
+  "last_attested_alive": "1888-03-16",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  }
