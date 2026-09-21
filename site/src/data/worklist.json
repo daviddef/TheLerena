@@ -223,10 +223,10 @@
   {
    "n": 28,
    "what": "Build the complete list of Sancho and María's children from the registers",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "The archive has them piecemeal — Pedro Antonio 1793, Agustina Ramona 1795, Fidel about 1799, Justa Pastora 1800, José Loreto 1806, Luis 1811 and others — assembled from scattered searches rather than from a systematic read. **Canelones baptisms 1791–1815 are filmed and the images are now addressable.** Reading them straight through would produce a closed sibling list instead of an open one, and the consistency checker already reports that its sibling tests reach only 106 of 277 people."
+   "note": "The archive has them piecemeal — Pedro Antonio 1793, Agustina Ramona 1795, Fidel about 1799, Justa Pastora 1800, José Loreto 1806, Luis 1811 and others — assembled from scattered searches rather than from a systematic read. **Canelones baptisms 1791–1815 are filmed and the images are now addressable.** Reading them straight through would produce a closed sibling list instead of an open one, and the consistency checker already reports that its sibling tests reach only 106 of 277 people. **RUN AS A COVERAGE CHECK, 22 September 2026, and it passed.** Parent-pair query on **Sancho Llerena × María Fernández**, Uruguay, against a live control (González in Uruguay = 479,660 minutes earlier). **Six records, and this archive already held every one:** Luis Escolástico's baptism of 10 February 1811; Justa Pastora as bride, 3 November 1830; Dominga Josefa's christening of 15 May 1804; and three entries where a child of theirs appears as a parent on somebody else's act — *Dominga Llarena*, *Dominga Lorena* and *Avelino Lerena*, the last two spelling the father LERENA where the first spells him LLERENA. **So the keyed index contributes nothing this archive is missing**, which is the same answer the Canelones phrase-search gave and is worth as much. **The children it does NOT reach** — Juan Agustín, Pedro Antonio, Agustina Ramona, Fidel, José Loreto — are known from the padrón of 1812 and from acts found by full text, and their baptisms are not keyed. **The list is therefore as complete as this instrument can make it, and the remaining work is register-walking, not searching.** Getting there also exposed an instrument fault — see false zero seventeen."
   },
   {
    "n": 29,
