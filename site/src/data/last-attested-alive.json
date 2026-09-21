@@ -2002,6 +2002,13 @@
   "tier": "BIRTH ONLY"
  },
  {
+  "name": "Don Fidel REY",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
   "name": "Fidel LERENA Fernandez",
   "born_est": "1799",
   "last_attested_alive": "1799",
@@ -2026,6 +2033,13 @@
   "name": "Jose Loreto LERENA Fernandez",
   "born_est": "1806-12-10",
   "last_attested_alive": "1806-12-10",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Jose MARTINEZ DE LA VEGA",
+  "born_est": "-",
+  "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },

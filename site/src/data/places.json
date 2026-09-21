@@ -98,6 +98,12 @@
    "custodio-cardozo",
    "amelia-lerena",
    "celidonia-b-de-lerena",
+   "maria-margarita-zalsamendi-lerena",
+   "eduardo-zalsamendi",
+   "juan-zalsamendi",
+   "dolores-pou-de-zalsamendi",
+   "adolfo-lerena",
+   "maria-angelica-yubia",
    "zelmira-carlota-lerena-larriera",
    "justina-lerena",
    "capitan-don-antonio-ruiz-rodriguez-de-carvallo",
@@ -107,8 +113,13 @@
    "exmo-sr-general-don-francisco-de-paula-maggesi",
    "dona-carolina-amalia-de-la-concepcion",
    "nicolas-benteno",
+   "juana-benteno-correa",
+   "leonarda-correa",
+   "agustin-doncel",
    "juliana-josefa-cornejo",
    "domingo-rodriguez-de-carvallo",
+   "don-domingo-rodriguez",
+   "dona-juana-del-espiritu-santo",
    "don-fidel-rey",
    "jose-martinez-de-la-vega",
    "maria-mercedes",
@@ -143,7 +154,7 @@
    "alejandro-joaquin-narciso-lerena-villardemoros",
    "emilia-antelo"
   ],
-  "count": 139
+  "count": 150
  },
  {
   "slug": "buenos-aires-arrivals",
@@ -253,9 +264,12 @@
    "horacio-alfredo-lerena-salvanach",
    "emma-r-gabarret",
    "josefa-in-gilberto-s-1895-household",
+   "juan-carlos-llerena",
+   "maria-carlota-amadeo-lastra",
+   "alejandrina-llerena",
    "cipriana-saenz-pena"
   ],
-  "count": 21
+  "count": 24
  },
  {
   "slug": "rosario-santa-fe",
