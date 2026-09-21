@@ -20,7 +20,7 @@
     "check:duplicates": "python3 ../tools/check-duplicates.py",
     "check:places": "python3 ../tools/check-living-places.py",
     "check:templates": "python3 node_modules/@daviddef/archive-kit/kit/tools/checktemplates.py --root .",
-    "check:pages": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkpages.py --root . --estate ../.. --max-bespoke 4",
+    "check:pages": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkpages.py --root . --estate ../.. --max-bespoke 3",
     "check:pin": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkpin.py --root ."
   },
   "dependencies": {
