@@ -1897,7 +1897,7 @@
   "tier": "BIRTH ONLY"
  },
  {
-  "name": "Amelia LERENA (m. Del Suando)",
+  "name": "Amelia LERENA (m. Eduardo ZALSAMENDI)",
   "born_est": "-",
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
@@ -1905,6 +1905,48 @@
  },
  {
   "name": "Celidonia B. de LERENA",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maria Margarita ZALSAMENDI Lerena",
+  "born_est": "1903-06-21",
+  "last_attested_alive": "1903-06-21",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Eduardo ZALSAMENDI",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Juan ZALSAMENDI",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Dolores POU de ZALSAMENDI",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Adolfo LERENA (godfather, Pocitos 1903)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maria Angelica YUBIA",
   "born_est": "-",
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
@@ -1974,6 +2016,27 @@
   "tier": "BIRTH ONLY"
  },
  {
+  "name": "Juana BENTENO Correa",
+  "born_est": "1789-06-23",
+  "last_attested_alive": "1789-06-23",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Leonarda CORREA",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Agustin DONCEL (witness, 1789)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
   "name": "Juliana Josefa CORNEJO",
   "born_est": "-",
   "last_attested_alive": "-",
@@ -1984,6 +2047,20 @@
   "name": "Domingo RODRIGUEZ DE CARVALLO",
   "born_est": "1840-08-04",
   "last_attested_alive": "1840-08-04",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Don Domingo RODRIGUEZ (the elder, of la Colonia)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Dona Juana del ESPIRITU SANTO",
+  "born_est": "-",
+  "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -2075,6 +2152,27 @@
   "name": "Rafael LLERENA (Buenos Aires, b. c.1881)",
   "born_est": "1881",
   "last_attested_alive": "1881",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Juan Carlos LLERENA (b. Buenos Aires 1910)",
+  "born_est": "1910-07-16",
+  "last_attested_alive": "1910-07-16",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maria Carlota AMADEO LASTRA",
+  "born_est": "c.1883",
+  "last_attested_alive": "c.1883",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Alejandrina LLERENA (madrina, Buenos Aires 1910)",
+  "born_est": "-",
+  "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
