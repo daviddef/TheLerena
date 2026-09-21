@@ -103,5 +103,12 @@
   "what it actually was": "*** THREE RECORDS. *** Deleting the mother's SURNAME and keeping only 'Hermenegilda' returned them - and they are her own death registration of 1940, which the archive had never seen. *** The index writes her surname 'Navarro de Terenadel', a machine mangling of GAVAZZO DE LERENA ***, so no spelling anybody would have guessed could have reached her.",
   "how it was caught": "*** BY THE RULE WRITTEN DOWN SIXTY MINUTES EARLIER: delete each added parameter in turn. *** The Villademoros zero cost an afternoon and was caught only because the archive already held the hidden records. This one cost one query. *** That is the whole argument for writing the rule down instead of remembering it. ***",
   "when": "21 Sep 2026"
+ },
+ {
+  "disguise": "*** THE ONE THAT PASSED EVERY TEST THIS ARCHIVE HAS ***",
+  "what it looked like": "*** EVERY SEARCH RETURNING 0. *** Not a slow page and not an error: 'Historical Record Search Results (0)' with *** 'No Results Found' *** printed beneath it - the POSITIVE ASSERTION OF EMPTINESS this archive treats as the mark of a real null - *** stable across two reads twelve seconds apart, and still 0 after a NINETY-SECOND wait. ***",
+  "what it actually was": "*** A DEGRADED SERVICE. *** The proof is arithmetic, not judgement: *** surname GONZALEZ in URUGUAY returned 0 ***. Gonzalez is among the commonest surnames in the Spanish-speaking world and the Uruguayan civil registration runs to millions of records. *** And the same URL that returned TEN records that morning - Avelino Lerena with Ambrosia Traibel, the ten acts this archive spent the day reading - returned 0 that afternoon. ***",
+  "how it was caught": "*** BY A CONTROL WHOSE ANSWER CANNOT BE ZERO. *** Every other guard failed: the count was stable, the 'No Results Found' line was present, the wait was long, and a control run EARLIER THE SAME DAY had passed. *** THE ARCHIVE WAS ONE STEP FROM PUBLISHING A FABRICATED MECHANISM *** - that the parent-pair query cannot reach acts held only in full text - built entirely on this outage. *** SO THE RULE GAINS TWO WORDS: a control must be RECENT, and its answer must be ARITHMETICALLY IMPOSSIBLE TO BE ZERO. ***",
+  "when": "21 Sep 2026"
  }
 ]

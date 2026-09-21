@@ -21,9 +21,10 @@ row is a smaller purchase than a page with eight.
 THE SWEEP IT WAS WRITTEN FOR IS FINISHED. On 21 September 2026 this tool reported SIXTY-ONE
 transcript-only rows. Every one of them has since been read off a plate, and the count is now
 ZERO. What that cost, and what it bought, is on /method/: four claims about this family's
-spelling turned out to be the machine's rather than the scribe's, three surnames were wrong,
-one baptism was in the wrong parish, one citation pointed at the wrong film, and roughly
-twenty people who were on the acts had never been entered at all.
+spelling turned out to be the machine's rather than the scribe's, FIVE surnames were wrong,
+one baptism was in the wrong parish, one citation pointed at the wrong film, a birthplace was
+wrong in a way that changed the family's shape, and about twenty-five people who were standing
+on the acts had never been entered at all. It also CONFIRMED more than it corrected.
 
 KEEP RUNNING IT. A zero here is a statement about today, not a property of the archive: every
 new row that cites a transcript and no image puts the count back up, which is the point.
