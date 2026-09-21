@@ -263,8 +263,8 @@ import certs from "../data/1852-aguada-union-certificates.json";
       <strong>passed earlier the same day</strong>.</p>
     <p><strong>All of it was wrong.</strong> The search was returning zero for everything.</p>
     <p class="lab" style="margin-top:18px">What it actually was</p>
-    <p><strong>The session had been signed out.</strong> That is all. And the two FamilySearch
-      searches handle a lost session completely differently: asked the same question in the same
+    <p><strong>One browser context had lost its authentication &mdash; and only one.</strong> The two
+      FamilySearch searches handle that completely differently: asked the same question in the same
       minute, the <strong>full-text search redirected to the sign-in page</strong> &mdash; honest,
       unmistakable, one navigation &mdash; while the <strong>record search answered
       &ldquo;0 &mdash; No Results Found&rdquo;</strong>. The DeepZoom image host went on serving
@@ -272,6 +272,19 @@ import certs from "../data/1852-aguada-union-certificates.json";
     <p class="cap"><strong>So there is a free test, and it costs one navigation:</strong> ask the
       full-text search anything at all. It admits a lost session. The record search hides one behind
       a null that satisfies every other rule on this page.</p>
+    <div class="note" style="margin-top:14px"><strong>And this archive then got the remedy wrong,
+      which is the part worth publishing.</strong> It concluded that the <em>account</em> was signed
+      out and said so here, and on its work list, and that David would have to sign in again.
+      <strong>The account was never signed out.</strong> A sibling archive on the same machine ran
+      both searches in those same minutes and got <strong>3,652</strong> and <strong>3,967</strong>,
+      with the account name in the navigation bar. Each session&rsquo;s in-app browser is a separate
+      browser with its own cookies; one lost its auth and recovered by itself. In a fresh tab the
+      Gonz&aacute;lez control returned <strong>479,662</strong> and the query that had returned ten
+      that morning returned <strong>ten</strong> again. <strong>Before asking a person to fix
+      something, open a second tab.</strong></div>
+    <p class="cap">All three nulls held over for re-testing &mdash; Luis with Carolina, Carlos
+      Ambrosio with Luisa, Juan Arturo with Isidora &mdash; were re-run against a live control and all
+      three are still zero. Nothing was lost but the afternoon.</p>
     <p class="lab" style="margin-top:18px">What proved it</p>
     <p>Two facts, neither of them a matter of judgement:</p>
     <ul class="prose" style="margin-left:1.1rem">

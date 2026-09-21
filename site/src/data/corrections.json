@@ -814,5 +814,21 @@
   "what_is_true": "*** THE ARK WAS THE WRONG ONE, and both rows carried it for a week. *** That ark is the Canelones CONFIRMATION LIST - a page of one-line entries on film 008165032, opened on 21 September, where neither name appears. Their act is Dominga Josefa's own BAPTISM, on *** film 008166571 image 01130 ***, and it was read the same day: 'Padrinos JOSEF PONTECELI y [Agueda Rivero], de la misma Villa'. *** The notes were right and the citation was crossed *** - two records taken down in one sitting off one search. Corrected to ark 3:1:3Q9M-CS2Z-W9V2-Y, which is the ark Dominga Josefa's own row already carried.",
   "how_it_was_caught": "",
   "retired": ""
+ },
+ {
+  "date": "2026-09-21",
+  "severity": "minor",
+  "what_was_said": "*** That the 1833 act naming Sancho FRANCISCO is *** \"a priest's slip\" ***, that *** \"every other record this archive has read off a plate calls him SANCHO\" ***, and that it is *** \"one act against five\" *** - written into the register's Sancho row on 21 September 2026. ***",
+  "what_is_true": "*** ALL THREE WERE FALSE, AND THIS ARCHIVE'S OWN FILE AND ITS OWN HYPOTHESES PAGE ALREADY SAID SO. *** The 1846 La Mauricia acts were READ OFF THE IMAGE by this archive and say FRANCISCO; the count is SIX saying Sancho against THREE saying Francisco; and the readings split ACROSS methods rather than along them. *** The note was written without reading data/sancho-or-francisco.tsv, which had settled the question a week earlier and better *** - the position being that a DOUBLE FORENAME is the reading that requires nobody to be wrong. *** WHAT THE DAY ACTUALLY ADDED IS WORTH MORE THAN WHAT IT GOT WRONG: *** the 1833 act was read off the plate - film 007713376 images 01176-01177, 'Fran.co Lerenas y M.a Fernandez' - so the one Francisco-bearing ORIGINAL is no longer possibly a machine artefact, and the double-forename reading is stronger than it was.",
+  "how_it_was_caught": "",
+  "retired": ""
+ },
+ {
+  "date": "2026-09-21",
+  "severity": "minor",
+  "what_was_said": "*** That the FamilySearch ACCOUNT was signed out and that *** \"David will need to sign in to FamilySearch again\" ***, published on /method/, in data/false-zeros.tsv and on work-list row 184. ***",
+  "what_is_true": "*** THE ACCOUNT WAS NEVER SIGNED OUT, AND DAVID NEEDED TO DO NOTHING. *** A sibling archive on this machine ran the record search and the full-text search in the same minutes and got 3,652 and 3,967 with the account name in the navigation bar. *** Each Claude session's in-app browser is a separate browser with its own cookies: ONE CONTEXT lost its auth and recovered on its own. *** In a fresh tab the Gonzalez control returned 479,662 and the Avelino-with-Ambrosia query returned 10 again. *** The symptom was real and the diagnosis of a lost session was right for that browser; the REMEDY was wrong, and it asked a person for something the machine could have settled by opening a tab. *** ALL THREE HELD-OVER NULLS WERE RE-RUN AGAINST A LIVE CONTROL AND ALL THREE ARE STILL ZERO.",
+  "how_it_was_caught": "",
+  "retired": ""
  }
 ]

@@ -114,7 +114,7 @@ def main():
 
     print("\n" + "-" * 74)
     print("A transcript-only row is NOT an error. It is a row whose PROPER NOUNS have never")
-    print("been read by a human, and a machine is worst at exactly those. Three surnames in")
+    print("been read by a human, and a machine is worst at exactly those. FIVE surnames in")
     print("this register were wrong for a week for that reason, and the dates beside them")
     print("were right the whole time.")
     return 0
