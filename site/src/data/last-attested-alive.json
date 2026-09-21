@@ -1428,6 +1428,13 @@
   "tier": "BIRTH ONLY"
  },
  {
+  "name": "Hilario BARROS Llerena",
+  "born_est": "1835",
+  "last_attested_alive": "1835",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
   "name": "Aurelio Eusebio BARROS Lerena",
   "born_est": "1833-09-14",
   "last_attested_alive": "1833-09-14",

@@ -376,6 +376,18 @@
   "count": 5
  },
  {
+  "slug": "canelones",
+  "name": "Canelones",
+  "people": [
+   "hilario-barros-llerena",
+   "jose",
+   "joseph-ponteceli",
+   "agueda-rivero",
+   "jose-loreto-lerena-fernandez"
+  ],
+  "count": 5
+ },
+ {
   "slug": "cayasta-garay-santa-fe",
   "name": "Cayasta, Garay, Santa Fe",
   "people": [
@@ -383,17 +395,6 @@
    "maria-larena-2",
    "carmela-larena",
    "leon-jose-lerena"
-  ],
-  "count": 4
- },
- {
-  "slug": "canelones",
-  "name": "Canelones",
-  "people": [
-   "jose",
-   "joseph-ponteceli",
-   "agueda-rivero",
-   "jose-loreto-lerena-fernandez"
   ],
   "count": 4
  },
