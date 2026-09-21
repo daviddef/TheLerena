@@ -262,6 +262,16 @@ import certs from "../data/1852-aguada-union-certificates.json";
       after a <strong>ninety-second wait</strong>. And a control on the same query shape had
       <strong>passed earlier the same day</strong>.</p>
     <p><strong>All of it was wrong.</strong> The search was returning zero for everything.</p>
+    <p class="lab" style="margin-top:18px">What it actually was</p>
+    <p><strong>The session had been signed out.</strong> That is all. And the two FamilySearch
+      searches handle a lost session completely differently: asked the same question in the same
+      minute, the <strong>full-text search redirected to the sign-in page</strong> &mdash; honest,
+      unmistakable, one navigation &mdash; while the <strong>record search answered
+      &ldquo;0 &mdash; No Results Found&rdquo;</strong>. The DeepZoom image host went on serving
+      plates throughout, which is why a whole day of reading images had given no warning.</p>
+    <p class="cap"><strong>So there is a free test, and it costs one navigation:</strong> ask the
+      full-text search anything at all. It admits a lost session. The record search hides one behind
+      a null that satisfies every other rule on this page.</p>
     <p class="lab" style="margin-top:18px">What proved it</p>
     <p>Two facts, neither of them a matter of judgement:</p>
     <ul class="prose" style="margin-left:1.1rem">

@@ -1470,11 +1470,11 @@
   },
   {
    "n": "184",
-   "what": "Re-run every parent-pair null recorded on 21 September, against a control that cannot be zero",
+   "what": "Re-run every parent-pair null recorded on 21 September — the session was signed out",
    "state": "next",
-   "owner": "this archive",
+   "owner": "this archive + David",
    "since": "2026-09-21",
-   "note": "**The search was caught returning 0 for everything.** Not slow, not an error — *Historical Record Search Results (0)* with **No Results Found** beneath it, stable across two reads, still 0 after ninety seconds. **Surname González in Uruguay returned 0**, and so did the exact URL that had returned ten records that morning. **Nulls to re-test:** Luis Lerena × Carolina (row 70); Carlos Ambrosio × Luisa Lerena; Juan Arturo × Isidora Regules; and any other parent-pair zero dated 21 September. **The ones that are safe** are the zeros that were *turned into results* by deleting a parameter — Villademoros 0→7 and Hermenegilda 0→3 — because a positive result proves the service was answering at that moment. **Method change:** a control must be recent, and its answer must be arithmetically impossible to be zero."
+   "note": "**The FamilySearch record search was caught returning 0 for everything, because the session had expired.** Not slow, not an error — *Historical Record Search Results (0)* with **No Results Found** beneath it, stable across two reads, still 0 after ninety seconds. **Surname González in Uruguay returned 0**, and so did the exact URL that had returned ten records that morning. **The cause was found by asking the full-text search the same question: it redirected to the sign-in page.** The record search does not. The DeepZoom image host kept serving plates throughout, which is why a whole day of reading images gave no warning. **David will need to sign in to FamilySearch again — this archive does not sign in on his behalf.** **Nulls to re-test once signed in:** Luis Lerena × Carolina (row 70); Carlos Ambrosio × Luisa Lerena; Juan Arturo × Isidora Regules; and any other parent-pair zero dated 21 September. **Safe:** zeros that were turned into results by deleting a parameter — Villademoros 0→7, Hermenegilda 0→3 — because a positive result proves the service was answering. **Method change:** a control must be recent and impossible to be zero; and asking the full-text search anything is a one-navigation test for a lost session."
   }
  ],
  "accounts": [
