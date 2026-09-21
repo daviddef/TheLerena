@@ -1,5 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
+import Sources from "@daviddef/archive-kit/components/Sources.astro";
+import { u } from "../lib/url.js";
 import { emph } from "../lib/text.js";
 import consulted from "../data/sources-consulted.json";
 
@@ -7,6 +9,56 @@ import consulted from "../data/sources-consulted.json";
 // in the data so the distinction survives on the page.
 const TIER = { PRIMARY: "doc", SECONDARY: "inf", REFERENCE: "lore" };
 const primary = consulted.filter(r => r.tier === "PRIMARY").length;
+
+/* 21 September 2026. The table is the kit's source rows now, and the TIER is
+   split where it is read rather than where it is stored.
+
+   `tier` holds two facts in one string. There are three tiers and twenty-six
+   distinct values, because a qualifier has been concatenated onto the tier
+   with a dash — "PRIMARY - full-text transcript read", "SECONDARY - a
+   negative result, controlled". Printed whole, as this page did, the chip
+   says something true and cannot be counted, filtered or compared with any
+   other archive's grading.
+
+   So the tier before the dash becomes the group and the qualifier after it
+   becomes the row's tag, which is what the component's tag slot exists for.
+   THE DATA FILE IS UNCHANGED. Splitting the column properly is this
+   archive's decision to make in data/sources-consulted.tsv, not one to take
+   in a template; this only stops the page presenting a compound value as if
+   it were an atom. */
+const ORDER = ["PRIMARY", "SECONDARY", "REFERENCE"];
+const BOTH = "Graded two ways";
+
+/* Two of the 121 name TWO tiers in one field — "SECONDARY for the marriage
+   index; PRIMARY for the Madrid and Cordoba full-text" — which is a true
+   statement about a source used for two different things and is not a
+   grade. Splitting on the dash made each of them its own group of one,
+   which looked like five tiers where there are three. They get a bucket
+   that says what they are, and their whole tier string as the tag. */
+const split = (t) => {
+  const raw = String(t || "").trim();
+  const [head, ...rest] = raw.split(/\s+[-\u2014]\s+/);
+  const h = head.trim();
+  if (!ORDER.includes(h)) return [BOTH, raw];
+  return [h, rest.join(" — ").trim()];
+};
+const seen = [...new Set(consulted.map(r => split(r.tier)[0]))];
+const tiers = [...ORDER.filter(t => seen.includes(t)), ...seen.filter(t => !ORDER.includes(t))];
+const twoWays = consulted.filter(r => split(r.tier)[0] === BOTH).length;
+const GLOSS = {
+  PRIMARY: "a document image opened and read here",
+  SECONDARY: "an index, a user-built tree or a published account",
+  REFERENCE: "background, consulted for a particular fact",
+  [BOTH]: "one source doing two jobs, and the field says both rather than choosing",
+};
+const groups = tiers.map(t => ({
+  label: t, note: GLOSS[t],
+  rows: consulted.filter(r => split(r.tier)[0] === t).map(r => ({
+    title: emph(r.source), url: r.link, what: emph(r.used_for),
+    tag: split(r.tier)[1] || null, where: r.accessed,
+  })),
+})).filter(g => g.rows.length);
+const reach = consulted.filter(r => r.link).length;
 ---
 <Base title="Sources"
       eyebrow="Consulted, and identified but not yet consulted"
@@ -18,25 +70,15 @@ const primary = consulted.filter(r => r.tier === "PRIMARY").length;
     reading went unrecorded, under a heading claiming to list everything. <strong>{primary}</strong> of
     these are PRIMARY &mdash; a document image opened and read here; the rest are indexes, user-built
     trees, published accounts and background.</p>
-  <div class="scroll" style="margin-top:16px">
-    <table>
-      <thead><tr><th style="width:22rem">Source</th><th>Used for</th><th style="width:7rem">Accessed</th></tr></thead>
-      <tbody>
-        {consulted.map(r => (
-          <tr>
-            <td>
-              {r.link
-                ? <a href={r.link} rel="noopener"><strong set:html={emph(r.source)} /></a>
-                : <strong set:html={emph(r.source)} />}
-              <br /><span class={`chip ${TIER[r.tier] || "inf"}`}>{r.tier}</span>
-            </td>
-            <td set:html={emph(r.used_for)} />
-            <td class="cap">{r.accessed}</td>
-          </tr>
-        ))}
-      </tbody>
-    </table>
-  </div>
+  <p class="note"><strong>{reach} of the {consulted.length} say where they are; {consulted.length - reach} do not.</strong>
+    That is the largest such gap in this estate, and it is on this page rather than in a report so
+    that it shrinks.</p>
+  <p class="cap"><strong>The tier column holds two facts in one string.</strong> Three tiers, and
+    twenty-six distinct values, because a qualifier is concatenated onto the tier with a dash. The
+    tier groups these rows and the qualifier is shown beside each; {twoWays} rows name two tiers at
+    once and are kept together rather than split. <strong>The data file is unchanged</strong> —
+    separating the column belongs in <span class="mono">data/sources-consulted.tsv</span>.</p>
+  <div style="margin-top:20px"><Sources groups={groups} u={u} /></div>
 </section>
 
 <section class="blk">
