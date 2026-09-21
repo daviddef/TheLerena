@@ -1,12 +1,31 @@
 ---
 import Base from "../layouts/Base.astro";
 import Rule from "../components/Rule.astro";
+import Errands from "@daviddef/archive-kit/components/Errands.astro";
 import { u } from "../lib/url.js";
 import rows from "../data/errands.json";
 import { emph, plain } from "../lib/text.js";
 const LABEL = { sent: ["inf", "Sent, awaiting reply"], replied: ["doc", "Answered"],
                 "waiting-on-david": ["lore", "Needs a person"],
                 ready: ["inf", "Written, not sent"], done: ["doc", "Done"], blocked: ["", "Blocked"] };
+/* 21 September 2026. The panel moved to the kit. The GROUPING did not: this
+   archive sorts by whether anybody has replied, which is a different question
+   from Defranceski's (what would the answer buy) and D'Arcy's (where has the
+   request got to). Its Rule ornament stays too, so each group keeps its own
+   heading rather than the component's.
+
+   A status LABEL has no entry for used to fall through to "Blocked", which
+   quietly relabels an unknown state as a known one. It is counted now. */
+const unlabelled = [...new Set(rows.map(r => r.status).filter(k => k && !LABEL[k]))];
+const COLOUR = { doc: "#12703F", inf: "#8a7f5c", lore: "var(--terra)", "": "var(--rule-strong)" };
+const toRows = (list) => list.map(r => ({
+  what: emph(r.what),
+  who: r.who + (r.sent_on && r.sent_on !== "-" ? ` · ${r.sent_on}` : ""),
+  why: emph(r.detail),
+  stateLabel: (LABEL[r.status] || LABEL.blocked)[1],
+  colour: COLOUR[(LABEL[r.status] || LABEL.blocked)[0]],
+}));
+
 const groups = [
   ["Answered", rows.filter(r => r.status === "replied")],
   ["Out, and waiting on a reply", rows.filter(r => r.status === "sent")],
@@ -22,20 +41,15 @@ const groups = [
   <>
     <Rule name="arrows" label={title} />
     <section class="blk">
-      {list.map(r => (
-        <div class="panel" style="margin-top:18px">
-          <div class="lab">{r.who}{r.sent_on && r.sent_on !== "-" ? ` · ${r.sent_on}` : ""}</div>
-          <p style="margin:10px 0 0;font-size:1.05rem"><strong set:html={emph(r.what)} /></p>
-          <p class="cap" style="margin:10px 0 0" set:html={emph(r.detail)} />
-          <div style="margin-top:12px">
-            <span class={`chip ${(LABEL[r.status] || LABEL.blocked)[0]}`.trim()}>
-              {(LABEL[r.status] || LABEL.blocked)[1]}</span>
-          </div>
-        </div>
-      ))}
+      <Errands groups={[{ rows: toRows(list) }]} u={u} />
     </section>
   </>
 ))}
+
+{unlabelled.length > 0 && (
+  <section class="blk"><p class="small">Filed under a status this page has no label for:
+    {unlabelled.join(", ")}.</p></section>
+)}
 
 <section class="blk">
   <p class="cap">Every letter&rsquo;s full text is kept in <span class="mono">requests/</span> in the
