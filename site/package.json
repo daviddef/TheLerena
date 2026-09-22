@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "astro dev --port 4323",
     "atlas": "python3 ../tools/atlas.py",
-    "build": "npm run check:pin && npm run atlas && npm run publish:index && astro build && npm run sitemap && npm run check:living && npm run check:templates && npm run check:kit && npm run check:worklist && npm run check:covers && npm run check:evidence && npm run check:corrections && npm run check:spines && npm run check:sources && npm run check:onsite && npm run check:duplicates && npm run check:places && npm run check:pages && npm run check:inline && npm run check:rows",
+    "build": "npm run check:pin && npm run atlas && npm run publish:index && astro build && npm run sitemap && npm run check:living && npm run check:templates && npm run check:kit && npm run check:worklist && npm run check:covers && npm run check:evidence && npm run check:corrections && npm run check:tree && npm run check:spines && npm run check:sources && npm run check:onsite && npm run check:duplicates && npm run check:places && npm run check:pages && npm run check:inline && npm run check:rows",
     "preview": "astro preview --port 4323",
     "sitemap": "python3 node_modules/@daviddef/archive-kit/kit/tools/sitemap.py",
     "publish:index": "node -e \"require('fs').copyFileSync('src/data/searchindex.json','public/searchindex.json')\"",
@@ -25,10 +25,11 @@
     "check:inline": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkinline.py --root . --max-inline 7",
     "check:rows": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkrows.py --root .",
     "check:sources": "python3 ../tools/check-sources.py",
-    "check:spines": "python3 ../tools/check-spines.py"
+    "check:spines": "python3 ../tools/check-spines.py",
+    "check:tree": "python3 ../tools/check-tree.py"
   },
   "dependencies": {
-    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#dfd61f5851843a7c53ae7faab695f2e42467444a",
+    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#2790d856cd48300604ce610dbc51bede7a655832",
     "astro": "^5.18.2"
   },
   "devDependencies": {

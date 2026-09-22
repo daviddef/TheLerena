@@ -66,6 +66,67 @@ for name in ("corrections", "errands", "gaps", "timeline", "photograph-these",
                                       encoding="utf-8")
     print(f"{name}: {len(data)} rows")
 
+# ---- living people, for the kit's own gate --------------------------------
+# *** WHY THIS EXISTS, and it is the most important twelve lines in this file. ***
+# The kit's check:living reads site/src/data/*.json for a living flag. This archive
+# marks its living people in data/*.tsv, with an OMITTED-LIVING or "LIVING - ..." cell,
+# and NOTHING CARRIED THAT ACROSS. So on 23 September 2026 the gate the kit's own
+# docstring calls "the one gate in this estate that must never be wrong" was reporting
+#
+#     living: 0 flagged in the data ... no living person reaches the build
+#
+# while the archive had a living person in two TSVs, with a birth date and a birthplace.
+# *** IT WAS PASSING VACUOUSLY. *** Nothing was leaking - her dates appear nowhere in the
+# build, and that was checked - but the rule was being kept BY HAND, and a gate that
+# guards nobody cannot fail. This gives it its input, so the literal date strings this
+# archive holds for a living person are forbidden across every built page from now on.
+#
+# It writes to src/data, which Astro compiles and does NOT serve. tools/check-living-places.py
+# reconciles the two counts so this file can never quietly stop emitting.
+LIVING_CELL = re.compile(r"^(OMITTED-LIVING|LIVING\s*[-\u2013\u2014:]\s*.*)$", re.I)
+NAME_COL = re.compile(r"^(person|name|who)$", re.I)
+DATE_COL = re.compile(r"(born|birth|died|death|dates?)", re.I)
+LIV_MONTHS = (r"Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec|January|February|"
+              r"March|April|June|July|August|September|October|November|December")
+LIV_FULL = re.compile(r"\b\d{1,2}\s+(?:" + LIV_MONTHS + r")[a-z]*\.?\s+(?:1[89]\d\d|20\d\d)\b")
+LIV_ISO = re.compile(r"\b(?:1[89]\d\d|20\d\d)-\d{2}-\d{2}\b")
+LIV_SLASH = re.compile(r"\b\d{1,2}/\d{1,2}/(?:1[89]\d\d|20\d\d)\b")
+
+living = {}
+for f in sorted((ROOT / "data").glob("*.tsv")):
+    lines = [l.rstrip("\n") for l in f.read_text(encoding="utf-8").splitlines()
+             if l.strip() and not l.startswith("#")]
+    if not lines:
+        continue
+    hdr = lines[0].split("\t")
+    ni = next((i for i, h in enumerate(hdr) if NAME_COL.match(h.strip())), None)
+    if ni is None:
+        continue
+    dis = [i for i, h in enumerate(hdr) if DATE_COL.search(h.strip())]
+    for line in lines[1:]:
+        c = line.split("\t")
+        if not any(LIVING_CELL.match(plain(x).strip()) for x in c):
+            continue
+        name = plain(c[ni]).strip() if ni < len(c) else ""
+        if not name:
+            continue
+        # ONLY THE DATES. An earlier pass concatenated whole cells and swept a living
+        # person's BIRTHPLACE into this file. The kit reads date matches out of `born`
+        # and nothing else, so nothing else is written: a living person's place has no
+        # business in a new file, served or not.
+        blob = " ".join(plain(c[i]).strip() for i in dis if i < len(c))
+        found = []
+        for rx in (LIV_FULL, LIV_ISO, LIV_SLASH):
+            found += [m.group(0) for m in rx.finditer(blob)]
+        e = living.setdefault(name.lower(), {"name": name, "living": True, "born": "", "died": ""})
+        e["_d"] = sorted(set(e.get("_d", []) + found))
+for e in living.values():
+    e["born"] = " ".join(e.pop("_d", []))
+(OUT / "living.json").write_text(
+    json.dumps(sorted(living.values(), key=lambda r: r["name"]), indent=1, ensure_ascii=False) + "\n",
+    encoding="utf-8")
+print(f"living: {len(living)} person(s) marked living in the TSVs, written for check:living")
+
 # ---- search index -------------------------------------------------------
 # One box across everything the site holds. Built from the same data the pages use,
 # so a thing cannot be findable and absent, or present and unfindable.

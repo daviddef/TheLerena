@@ -33,6 +33,8 @@ SRC = ROOT / "data" / "sources-consulted.tsv"
 
 FILM = re.compile(r"film\s*(\d{6,9})", re.I)
 READ = re.compile(r"\bIMAGE READ\b|read off the (?:image|plate)|image was opened", re.I)
+FILMIMG = re.compile(r"film\s*\d{6,9}\s*,?\s*image\s*\d{4,5}", re.I)
+IMGARK = re.compile(r"3:1:[A-Z0-9-]{8,}")
 
 
 def main():
@@ -56,8 +58,38 @@ def main():
 
     missing = {f: who for f, who in used.items() if not seen(f)}
 
+    # *** AND A ROW THAT SAYS AN IMAGE WAS READ MUST SAY WHICH IMAGE. *** Added
+    # 23 September 2026, after two rows were found claiming a plate without naming one.
+    # One of them was the ENROLMENT CARD - the single most important document this
+    # archive holds, whose note says "The image was opened on 10 Sep 2026" while its
+    # source field said only "Argentina Military Records 1911-1936 (machine-indexed)".
+    # A plate nobody can find again is a plate the reader has to take on trust, which is
+    # the one thing this archive says it will never ask.
+    #
+    # EITHER LOCATOR SATISFIES IT: film+image, or a 3:1 image ark. Some collections give
+    # a usable ark and no stable image number - the army drawer's number box and its arks
+    # do not stay in step across loads, which data/cajon-985-scan.tsv records - so
+    # demanding film+image everywhere would demand a number that is known to drift.
+    unlocated = []
+    for line in REG.read_text(encoding="utf-8").split("\n"):
+        if not line.strip() or line.startswith("#"):
+            continue
+        f = line.split("\t")
+        if len(f) < 9 or not READ.search(" ".join(f[6:9])):
+            continue
+        if not FILMIMG.search(f[6]) and not IMGARK.search(f[6]):
+            unlocated.append(f[0])
+
+    if unlocated:
+        print(f"  FAIL  sources    {len(unlocated)} row(s) say an image was read and do not say WHICH:")
+        for n in unlocated:
+            print(f"          - {n}")
+        print("\n          Add film NNNNNNNNN image NNNNN, or a 3:1 image ark, to the SOURCE field.")
+        return 1
+
     if not missing:
-        print(f"  ok    sources    {len(used)} plate(s) read; every one is on /sources/")
+        print(f"  ok    sources    {len(used)} plate(s) read; every one is on /sources/, "
+              f"and every row claiming a plate names one")
         return 0
 
     print(f"  FAIL  sources    {len(missing)} film(s) the register says were READ appear nowhere")

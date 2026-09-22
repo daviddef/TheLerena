@@ -293,7 +293,7 @@
   "what_was_said": "That Don Luis Lerena's first wife was CAROLINA OLIVA",
   "what_is_true": "*** CAROLINA ORIBE. *** Recorded as Oliva twice on 14 September - once to correct an earlier \"not confidently legible\" reading, and stated as settled. The source of the error was FamilySearch's index of the 1836 petition, which says Oliva; I read the image expecting it and saw it. A Catedral baptism of 4 July 1837, in another book and another hand, names her \"Dna CAROLINA ORIBE\" as godmother beside her husband. The petition, re-opened and magnified, reads ORIBE too. *** AND THIS ARCHIVE'S OWN HYPOTHESES PAGE HAD CARRIED, FROM A SECONDARY TREE, THAT HE MARRIED FIRSTLY A DAUGHTER OF AN ORIBE - it was right, and I never checked my reading against it. ***",
   "how_it_was_caught": "Finding a second act that names her, while looking for children of that marriage.",
-  "retired": ""
+  "retired": "Carolina Oliva"
  },
  {
   "date": "2026-09-14",
@@ -765,7 +765,7 @@
   "what_was_said": "*** That Alfredo Justiniano Lerena Traibel married *** \"HERMENEGILDA CAROLINA GAVARRO\" ***, daughter of *** \"Don GERONIMO GAVARRO\" *** and *** \"Dona CAROLINA JUAREZ\" *** - three register rows, a dispensation table, the 1892 working log and the last-attested-alive file, published since 14 September 2026. ***",
   "what_is_true": "*** ALL THREE SURNAMES ARE WRONG, AND THE FAULT IS THIS ARCHIVE'S OWN RULE, UNKEPT. *** The 1892 marriage act was recorded as FULL-TEXT TRANSCRIPT READ - a MACHINE transcript - and the image was never opened, which is the one thing this archive says it always does. The image was opened on 21 September 2026: film 007713383, image 02601, folio 340. It reads *** 'hija legitima de Don GERONIMO GAVAZZO y Dona CAROLINA SUAREZ' ***. *** So she is a GAVAZZO and her mother a SUAREZ. *** It is corroborated by a second image forty-eight years later - her own Montevideo death registration of 20 June 1940, which writes her HERMENEGILDA GAVAZZO DE LERENA with the same two parents. Two images against one machine transcript. *** GAVAZZO is a known Montevideo surname and GAVARRO is not, which is exactly the kind of tell that should have prompted the check earlier. ***",
   "how_it_was_caught": "",
-  "retired": ""
+  "retired": "Gavarro"
  },
  {
   "date": "2026-09-21",
@@ -789,7 +789,7 @@
   "what_was_said": "*** That Bernabe Lerena married *** \"FLORENCIA CARDOZO\" *** - published across five register rows and the 1911 dispensation working log since 14 September 2026. ***",
   "what_is_true": "*** SHE IS FLORINDA. *** The dispensation folio is not prose but two kinship diagrams the priest drew himself, and her name is written in both: 'Bernabe Lerena casose con FLORINDA CARDOZO' and 'FLORINDA CARDOZO casada con Bernabe Lerena'. Read off film 007713362 image 02473 on 21 September 2026. *** The same plate gave two people the transcript never carried into the register *** - BERNABE LERENA THE ELDER and CUSTODIO CARDOZO, the apex of each schema, and the generation above the 1911 couple.",
   "how_it_was_caught": "",
-  "retired": ""
+  "retired": "FLORENCIA CARDOZO"
  },
  {
   "date": "2026-09-21",
@@ -797,7 +797,7 @@
   "what_was_said": "*** That Victor Lerena's mother was *** \"JOSEFA SEGUERA\" ***, and that in his 1889 death registration the surname is *** \"written LORENA for him and LERENA for his son and his father in the same sentence\" ***. ***",
   "what_is_true": "*** SEGUEIRA, and the sentence says LERENA throughout. *** Read off film 008165116 image 01442: 'el finado era hijo de PEDRO LERENA y JOSEFA SEGUEIRA, orientales, finados. Abuelos [paternos] FIDEL LERENA y MARIA RUEDAS: maternos JOSE SEGUEIRA y RAMONA...'. *** LORENA is the MARGIN HEADING - 'Num. 622 Victor Lorena' - which is the clerk's index entry and not the text. *** This archive read a margin as though it were the sentence, and built a claim about the family's spelling on it. The confusion of L and Ll in this family is real; this instance of it was not. The plate also gave a cause of death the transcript never carried - TUBERCULOSIS PULMONAR - and two people nobody had entered, JOSE SEGUEIRA and RAMONA.",
   "how_it_was_caught": "",
-  "retired": ""
+  "retired": "JOSEFA SEGUERA"
  },
  {
   "date": "2026-09-21",
@@ -845,6 +845,6 @@
   "what_was_said": "*** That AVELINO LERENA FERNANDEZ died on \"23 August 1890\" at \"La Paz, Canelones\", and that he was \"the seventh of eight children\" *** - both printed in the descent spine on /uruguay/, the first of them since the page was built.",
   "what_is_true": "*** HE DIED ON 22 AUGUST 1890 AT MONTEVIDEO, AND WAS REGISTERED THE NEXT DAY. *** That is what his own register row says, and data/last-attested-alive.tsv, data/1852-aguada-union-certificates.tsv and data/alberto-lerena-larriera.tsv all say the 22nd. *** THE 23rd IS THE REGISTRATION DATE *** and \"La Paz, Canelones\" appears nowhere in this archive outside one row of data/montevideo-lerena-trunk.tsv - a FamilySearch tree file whose own header reads \"TIER: SECONDARY THROUGHOUT ... no row here may be cited as fact\". The page cited it as fact. *** AND HE IS THE EIGHTH OF EIGHT CHILDREN, not the seventh *** - the reconciled list runs 1793, 1795, 1799, 1800, 1804, 1806, 1811, 1815 - or the seventh of seven if FIDEL, the only one of them attested at second hand, is set aside. There is no count under which \"seventh of eight\" was right.",
   "how_it_was_caught": "*** BY AUDITING THE HAND-WRITTEN LADDERS AFTER A SECOND ONE FAILED THE SAME DAY. *** Gen 4 of this same spine had just been corrected for asserting \"Alejandro Maximo (1839-1903)\". tools/check-inline.py had been reporting all three ladders for days as \"reachable only by editing the page\" and nothing gated them. *** ALL THREE ARE NOW GENERATED FROM data/descent-spines.tsv ***, so the checks that read data can reach them.",
-  "retired": ""
+  "retired": "La Paz, Canelones"
  }
 ]

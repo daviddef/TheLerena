@@ -46,10 +46,32 @@ def cells(path):
         yield i, line.rstrip("\n").split("\t")
 
 
+# The archive does not only quote with ASCII ". Prose cells that are rendered as HTML
+# use &ldquo;/&rdquo; and typographic quotes, and on 23 September 2026 a correctly quoted
+# retraction in data/descent-spines.tsv read as a BARE ASSERTION for exactly that reason.
+# A gate that forces plain quotes into rendered prose is a gate that degrades the writing,
+# so the gate learned the marks instead. Single quotes are deliberately NOT treated as
+# delimiters: an apostrophe ("the machine's") makes parity counting meaningless.
+PAIRS = [("&ldquo;", "&rdquo;"), ("\u201c", "\u201d"), ("&quot;", "&quot;")]
+
+
 def quoted(field, at):
-    """True when the match at `at` sits inside a "..." span: an odd number of quote
-    marks opened before it. Cheap, and exactly right while quotes are balanced."""
-    return field.count('"', 0, at) % 2 == 1
+    """True when the match at `at` sits inside a quoted span, by any mark this archive uses."""
+    if field.count('"', 0, at) % 2 == 1:
+        return True
+    for op, cl in PAIRS:
+        i = 0
+        while True:
+            a = field.find(op, i)
+            if a == -1 or a > at:
+                break
+            b = field.find(cl, a + len(op))
+            if b == -1:
+                break
+            if a < at < b + len(cl):
+                return True
+            i = b + len(cl)
+    return False
 
 
 def main():

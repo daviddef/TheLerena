@@ -1,0 +1,21 @@
+# PEOPLE THE TREE NAMES THAT THIS REGISTER DOES NOT HOLD, AND SHOULD NOT.
+#
+# data/lerena-register.tsv is the LERENA register. The descent runs out of it twice - into
+# the TAYLOR and BRAYLEY side of Devon, and into the South African families the Lerenas
+# married - and those people are held in their own files. An edge naming one of them is
+# correct and must not be forced into the Lerena register to satisfy a checker.
+#
+# *** AN ENTRY HERE IS A CLAIM THAT SOMEBODY LOOKED, *** and it carries WHERE the person is
+# held so the claim can be checked instead of believed. It is not a way to silence
+# tools/check-tree.py: on 23 September 2026 that gate found six edges pointing at rows that
+# did not exist because the register had since qualified the name - "Sofia CLAVIJO" against
+# "Sofia CLAVIJO (wife of Pedro LLERENA)" - and one woman, JULIA SALVANACH, who was simply
+# missing while both her parents were in the register. None of those belonged here. They
+# belonged in the register, and that is where they went.
+#
+# Format:   <exact name as relations.tsv writes it>: where the person is held
+#
+William Taylor: data/taylor-line.tsv - the Devon Taylor line, drawn on /taylor/
+Mary Ann Hellen Brayley: data/taylor-line.tsv and data/brayley-ascent.tsv - the Brayley ascent
+Catherine Mary Sophia Booyzen: data/direct-line.tsv and data/gen1-children.tsv - the South African descent, drawn on /direct-line/
+Frederick Christian Chappell: data/racing-dynasty.tsv and data/gen1-children.tsv - the Chappell connection, and see /corrections/ for what was withdrawn about it

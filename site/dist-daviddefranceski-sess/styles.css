@@ -1,0 +1,780 @@
+:root{
+  --ground:#EDEBE5; --panel:#F7F6F2; --panel-2:#E3E1D9;
+  --ink:#16222A; --ink-2:#4C5D66; --ink-3:#7C8A91;
+  --rule:#D3D0C7; --rule-strong:#B6B2A6;
+  --accent:#5B3A96; --accent-2:#744FB8; --accent-wash:#E9E3F4;
+  --ochre:#9A6B18; --terra:#A8442B;
+  --r-feudal:#7C8A91; --r-venice:#B08322; --r-habsburg:#3E5A66; --r-napo:#9184A8;
+  --r-italy:#4E7A55; --r-german:#4A4340; --r-yugo:#A8442B; --r-croatia:#1F5C6B;
+  --band-label:#F5F3EE;
+  --serif:"EB Garamond",Georgia,"Times New Roman",serif;
+  --sans:"Libre Franklin","Helvetica Neue",Arial,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  --maxw:1080px;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ground:#101820; --panel:#17212A; --panel-2:#1E2A34;
+  --ink:#E8E6DF; --ink-2:#A6B4BC; --ink-3:#74858E;
+  --rule:#2A3841; --rule-strong:#3F515C;
+  --accent:#B49AE8; --accent-2:#CCBAF0; --accent-wash:#241C33;
+  --ochre:#D2A24A; --terra:#D97A5F;
+  --r-feudal:#8FA0A8; --r-venice:#D2A24A; --r-habsburg:#6E96A6; --r-napo:#A99DC0;
+  --r-italy:#77A87E; --r-german:#857C77; --r-yugo:#C86A50; --r-croatia:#4E9DAF;
+  --band-label:#10171E;
+}}
+:root[data-theme="dark"]{
+  --ground:#101820; --panel:#17212A; --panel-2:#1E2A34;
+  --ink:#E8E6DF; --ink-2:#A6B4BC; --ink-3:#74858E;
+  --rule:#2A3841; --rule-strong:#3F515C;
+  --accent:#B49AE8; --accent-2:#CCBAF0; --accent-wash:#241C33;
+  --ochre:#D2A24A; --terra:#D97A5F;
+  --r-feudal:#8FA0A8; --r-venice:#D2A24A; --r-habsburg:#6E96A6; --r-napo:#A99DC0;
+  --r-italy:#77A87E; --r-german:#857C77; --r-yugo:#C86A50; --r-croatia:#4E9DAF;
+  --band-label:#10171E;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--serif);
+  font-size:19px;line-height:1.62;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{text-wrap:balance;margin:0;font-weight:500;letter-spacing:-.01em}
+p{margin:0}
+a{color:var(--accent);text-underline-offset:3px;text-decoration-thickness:.06em}
+a:focus-visible,button:focus-visible{outline:2px solid var(--accent-2);outline-offset:3px;border-radius:2px}
+img{max-width:100%}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 28px}
+.lab{font-family:var(--sans);font-size:10.5px;font-weight:600;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--ink-3)}
+.mono{font-family:var(--mono);font-size:12.5px;font-variant-numeric:tabular-nums}
+.dek{font-family:var(--sans);font-size:15px;line-height:1.62;color:var(--ink-2);max-width:76ch}
+.cap{font-family:var(--sans);font-size:12.5px;line-height:1.55;color:var(--ink-3);margin-top:12px;max-width:92ch}
+.prose{max-width:80ch}
+/* Spacing belongs between BLOCK children, not between everything. As a flex
+   column this class made an inline <a> or <strong> inside a <p class="prose">
+   its own flex item, so a sentence came apart one fragment to a line. The
+   Defranceschi archive worked this out first; the other six now match it. */
+.prose>*+*{margin-top:16px}
+p.prose{display:block}
+p.prose+p.prose{margin-top:16px}
+/* .prose is a CONTAINER style: flex-column with a gap between its block children.
+   Put it on a <p> and the flex box BLOCKIFIES every inline child, so each <em> and
+   <strong> is thrown onto its own full-width line. 21 paragraphs across six pages
+   did that. A paragraph is not a container - give it the measure, not the flex. */
+
+.prose h3{font-family:var(--sans);font-size:12px;font-weight:600;letter-spacing:.13em;
+  text-transform:uppercase;color:var(--ink-3);margin-top:14px}
+.scroll{overflow-x:auto;padding-bottom:6px}
+.panel{background:var(--panel);border:1px solid var(--rule);border-radius:3px;padding:20px 22px}
+.grid{display:grid;gap:14px}
+/* .grid two was written in five pages and no rule ever existed for it, so every one of them
+   rendered as a single column at every width - including the front page cards. Found 17 Sep 2026.
+   auto-fit rather than a hard 1fr 1fr, so it collapses on a phone without a media query. */
+.grid.two{grid-template-columns:repeat(auto-fit,minmax(290px,1fr))}
+.grid.two.tight{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.g2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.g3{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media (max-width:900px){.g3{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:600px){.g2, .g3{grid-template-columns:1fr}}
+table{border-collapse:collapse;width:100%;font-family:var(--sans);font-size:13.5px}
+th{text-align:left;font-size:10.5px;font-weight:600;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--ink-3);padding:0 16px 9px 0;border-bottom:1px solid var(--rule-strong);white-space:nowrap}
+td{padding:10px 16px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top;color:var(--ink-2);line-height:1.5}
+
+/* Tables on a phone. Column widths on this site are written as inline rem
+   values chosen for a desktop column — 14rem for a label, 8rem for a count —
+   and on a 390px screen that fixed 22rem leaves the column carrying the actual
+   sentence about nine characters wide, one or two words a line. Below 600px
+   the content decides instead, and the gutters come in. Inline styles can only
+   be beaten with !important, which is what it is for. */
+@media (max-width:600px){
+  table th[style*="width"],
+  table td[style*="width"]{width:auto!important;min-width:0!important}
+  th{padding-right:10px}
+  td{padding:9px 10px 9px 0}
+  table{font-size:13px}
+}
+td:first-child{color:var(--ink);font-weight:500}
+td.m,th.m{font-family:var(--mono);font-size:12px;font-variant-numeric:tabular-nums;white-space:nowrap}
+.chip{display:inline-block;font-family:var(--sans);font-size:10.5px;font-weight:500;letter-spacing:.04em;
+  padding:3px 9px;border-radius:2px;border:1px solid var(--rule-strong);color:var(--ink-2)}
+.chip.doc{border-color:var(--accent);color:var(--accent);background:var(--accent-wash)}
+.chip.inf{border-color:var(--ochre);color:var(--ochre)}
+.chip.lore{border-color:var(--rule-strong);color:var(--ink-3);border-style:dashed}
+
+/* ---- evidence tags and country pills, shared by every tree page ----------------
+   The TAG says how well a thing is known and is the one signal a reader must not
+   misread, so it is filled and loud. The COUNTRY PILL is context, so it is outlined
+   and quiet, and its colours deliberately avoid --accent and --terra so it can never
+   be mistaken for Documented or Inferred. Defined here rather than per page because
+   four pages now use them and a rule copied into four scoped blocks is a rule that
+   drifts. Country names come from src/lib/country.js, which is also the only place
+   that decides WHICH country a place is in. */
+.tag{display:inline-block;font-family:var(--sans);font-size:10px;padding:2px 7px;
+     border-radius:99px;vertical-align:middle;letter-spacing:.02em}
+.tag.doc{background:var(--accent);color:#fff}
+.tag.inf{background:var(--terra);color:#fff}
+.tag.gap{border:1px dashed var(--terra);color:var(--terra)}
+.tag.place{background:transparent;color:var(--pc);border:1px solid var(--pc);
+           font-size:9px;letter-spacing:.07em;text-transform:uppercase;font-weight:600;
+           padding:1px 7px}
+.tag.place.uy{--pc:#33608F}
+.tag.place.ar{--pc:#1F7A72}
+.tag.place.za{--pc:#4E7A55}
+.tag.place.en{--pc:#9A6B18}
+.tag.place.es{--pc:#8C4A6B}
+.tag.place.br{--pc:#3F6E4A}
+.tag.place.it{--pc:#6B5B95}
+.tag.place.pe{--pc:#A05A3C}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .tag.place.uy{--pc:#8DB4DC}
+ :root:not([data-theme="light"]) .tag.place.ar{--pc:#5FBDB2}
+ :root:not([data-theme="light"]) .tag.place.za{--pc:#77A87E}
+ :root:not([data-theme="light"]) .tag.place.en{--pc:#D2A24A}
+ :root:not([data-theme="light"]) .tag.place.es{--pc:#CE8FAE}
+ :root:not([data-theme="light"]) .tag.place.br{--pc:#7FB98C}
+ :root:not([data-theme="light"]) .tag.place.it{--pc:#A99DC0}
+ :root:not([data-theme="light"]) .tag.place.pe{--pc:#D29A7C}}
+:root[data-theme="dark"] .tag.place.uy{--pc:#8DB4DC}
+:root[data-theme="dark"] .tag.place.ar{--pc:#5FBDB2}
+:root[data-theme="dark"] .tag.place.za{--pc:#77A87E}
+:root[data-theme="dark"] .tag.place.en{--pc:#D2A24A}
+:root[data-theme="dark"] .tag.place.es{--pc:#CE8FAE}
+:root[data-theme="dark"] .tag.place.br{--pc:#7FB98C}
+:root[data-theme="dark"] .tag.place.it{--pc:#A99DC0}
+:root[data-theme="dark"] .tag.place.pe{--pc:#D29A7C}
+.note{border-left:2px solid var(--ochre);padding:2px 0 2px 18px;font-family:var(--sans);
+  font-size:14.5px;line-height:1.62;color:var(--ink-2);max-width:82ch}
+
+/* ---- chrome ---- */
+header.site{border-bottom:1px solid var(--rule-strong);background:var(--panel);
+  position:sticky;top:0;z-index:20}
+.sitein{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 26px;padding-top:14px;padding-bottom:14px}
+.brand{font-family:var(--serif);font-size:19px;font-weight:600;color:var(--ink);text-decoration:none;
+  letter-spacing:-.01em;white-space:nowrap}
+header.site nav{display:flex;flex-wrap:wrap;gap:4px 16px}
+header.site nav a{font-family:var(--sans);font-size:12.5px;color:var(--ink-2);text-decoration:none;
+  padding:2px 0;border-bottom:1.5px solid transparent}
+header.site nav a:hover{color:var(--ink)}
+header.site nav a.on{color:var(--ink);border-bottom-color:var(--terra)}
+main{padding:0 0 90px}
+.pagehead{padding:56px 0 34px;border-bottom:1px solid var(--rule);margin-bottom:38px}
+.pagehead h1{font-size:clamp(36px,5.6vw,62px);line-height:1.04;margin-top:14px}
+.lead{margin-top:20px;font-size:17.5px;max-width:72ch}
+footer.site{border-top:1px solid var(--rule-strong);padding:34px 0 60px;background:var(--panel)}
+.foot{font-family:var(--sans);font-size:12.5px;line-height:1.65;color:var(--ink-2);max-width:92ch}
+.foot.dim{color:var(--ink-3);margin-top:10px}
+section.blk{padding:44px 0;border-bottom:1px solid var(--rule)}
+section.blk:last-child{border-bottom:0}
+/* PARAGRAPHS NEED AIR, AND `p{margin:0}` MEANT THEY ONLY GOT IT WHEN THE AUTHOR
+   REMEMBERED. All eight archives set `p{margin:0}` and then supply the gap one
+   paragraph at a time with an inline style="margin-top" — 5,122 of them across
+   the estate — so wherever it was left off, two paragraphs run together into a
+   wall of words. Worst at a phone width, which is where it was reported, on
+   22 September 2026. Written for the Blazevic archive that day and carried to
+   the other seven once the effect had been counted rather than assumed.
+
+   HOW FAR IT REACHES, corrected, and the correction is the useful part.
+   The selectors match DIRECT children of section.blk only, so a paragraph
+   inside a component's own wrapper is untouched. Counted properly across all
+   eight archives: 1,780 newly spaced pairs on 1,007 of 19,283 built pages.
+   Roughly a fifth of those are paragraph-to-paragraph; the rest are the note,
+   list and table pairs, which is why the note-heavy archives move most —
+   D'Arcy 569 pairs on 368 pages, Blazevic 647 on 342, Mazza 248 on 227.
+
+   THE FIGURE THIS FILE FIRST CARRIED WAS 211 PAIRS ON 68 PAGES, and seven
+   archives took the change on it. It counted `section.blk > p + p` and stopped
+   — one of the sixteen selectors below — so it described four per cent of the
+   rule it was justifying. An earlier count said 7,405 by searching whole
+   sections instead of direct children. Twelve times high, then eight times
+   low, both from counting against a DESCRIPTION of the rule rather than the
+   rule. The D'Arcy session measured its own build against all sixteen and
+   found the gap; its 571 and this sweep's 569 agree.
+
+   Nothing that was already spaced moves: the inline styles are more specific
+   and still win. This only fills in what was never set. */
+section.blk > p + p,
+section.blk > p + ul,
+section.blk > p + ol,
+section.blk > ul + p,
+section.blk > ol + p,
+section.blk > .grid + p,
+section.blk > table + p,
+section.blk > blockquote + p,
+section.blk > figure + p,
+section.blk > details + p,
+section.blk > .note + p,
+section.blk > p + .note,
+section.blk > p + blockquote,
+section.blk > p + table,
+section.blk > p + .grid,
+section.blk > .note + .note{margin-top:1.15rem}
+@media (max-width:620px){
+  section.blk > p + p,
+  section.blk > p + ul,
+  section.blk > p + ol,
+  section.blk > ul + p,
+  section.blk > ol + p,
+  section.blk > .grid + p,
+  section.blk > table + p,
+  section.blk > blockquote + p,
+  section.blk > figure + p,
+  section.blk > details + p,
+  section.blk > .note + p,
+  section.blk > p + .note,
+  section.blk > p + blockquote,
+  section.blk > p + table,
+  section.blk > p + .grid,
+  section.blk > .note + .note{margin-top:1.35rem}
+}
+section.blk h2{font-size:clamp(24px,3vw,34px)}
+section.blk > .dek{margin-top:10px}
+.cardlink{display:block;text-decoration:none;color:inherit;background:var(--panel);
+  border:1px solid var(--rule);border-radius:3px;padding:18px 20px;transition:border-color .15s}
+.cardlink:hover{border-color:var(--accent)}
+.cardlink .nm{font-size:23px;line-height:1.15;font-weight:500;color:var(--ink)}
+.cardlink .alt{font-family:var(--mono);font-size:11.5px;color:var(--ink-3);margin-top:5px}
+.cardlink .txt{font-family:var(--sans);font-size:13px;line-height:1.55;color:var(--ink-2);margin-top:10px}
+.meta{display:flex;flex-wrap:wrap;gap:6px 22px;font-family:var(--mono);font-size:12px;color:var(--ink-3)}
+.meta b{font-weight:500;color:var(--ink-2)}
+.rec{display:grid;grid-template-columns:minmax(120px,auto) 1fr auto;gap:0;font-family:var(--sans);font-size:13.5px}
+.rec > div{padding:9px 14px 9px 0;border-bottom:1px solid var(--rule)}
+.rec .k{color:var(--ink-3);font-size:10.5px;font-weight:600;letter-spacing:.11em;text-transform:uppercase;padding-top:12px}
+.rec .v{color:var(--ink)}
+.rec .w{font-family:var(--mono);font-size:11.5px;color:var(--ink-3);white-space:nowrap;text-align:right;padding-right:0}
+.legend{display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:16px;font-family:var(--sans);font-size:11.5px;color:var(--ink-2)}
+.legend i{display:inline-block;width:13px;height:13px;border-radius:2px;margin-right:7px;vertical-align:-2px}
+.armfig .at{font-family:var(--sans);font-size:12.5px;line-height:1.55;color:var(--ink-2);margin-top:9px}
+.flags{display:grid;grid-template-columns:repeat(auto-fill,minmax(168px,1fr));gap:14px}
+.flag{background:var(--panel);border:1px solid var(--rule);border-radius:3px;padding:12px 13px 14px}
+.flag svg{display:block;border:1px solid var(--rule-strong)}
+.flag .n{font-family:var(--sans);font-size:12.5px;font-weight:600;color:var(--ink);margin-top:10px}
+.flag .y{font-family:var(--mono);font-size:11px;color:var(--ink-3);margin-top:3px}
+.flag .w{font-family:var(--sans);font-size:11.5px;color:var(--ink-2);margin-top:7px;line-height:1.45}
+.stat{background:var(--panel);border:1px solid var(--rule);border-radius:3px;padding:18px 18px 20px}
+.stat .n{font-family:var(--serif);font-size:40px;line-height:1;font-weight:500;color:var(--terra);
+  font-variant-numeric:tabular-nums}
+.stat .l{font-family:var(--sans);font-size:12.5px;line-height:1.45;color:var(--ink-2);margin-top:10px}
+.filters{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;margin-top:22px}
+.filters label{font-family:var(--sans);font-size:11px;font-weight:600;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--ink-3);display:flex;gap:8px;align-items:center}
+.filters select{font-family:var(--sans);font-size:13px;font-weight:400;letter-spacing:0;
+  text-transform:none;color:var(--ink);background:var(--panel);border:1px solid var(--rule-strong);
+  border-radius:2px;padding:5px 8px}
+.filters .count{font-family:var(--mono);font-size:12px;color:var(--ink-3);margin-left:auto}
+.ab{font-family:var(--sans);font-size:13px;line-height:1.55;color:var(--ink-2);margin-top:12px}
+.armfig .dr{font-family:var(--sans);font-size:11.5px;line-height:1.45;color:var(--ink-3);margin-top:10px;
+  padding-top:10px;border-top:1px solid var(--rule)}
+.house{margin:0;background:var(--panel);border:1px solid var(--rule);border-radius:3px;padding:20px 20px 16px}
+.house .parents{display:flex;align-items:stretch;gap:0;flex-wrap:wrap}
+.house .par{flex:1;min-width:180px;font-family:var(--serif);font-size:18px;line-height:1.25;color:var(--ink);
+  padding:10px 14px;border:1px solid var(--rule-strong);border-radius:2px;background:var(--ground)}
+.house .pl{display:block;font-family:var(--sans);font-size:9.5px;font-weight:600;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--ink-3);margin-bottom:5px}
+.house .join{width:26px;align-self:center;height:1.5px;background:var(--rule-strong);flex:0 0 26px}
+.house .drop{width:1.5px;height:20px;background:var(--rule-strong);margin:0 auto}
+.house .kids{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;
+  border-top:1.5px solid var(--rule-strong);padding-top:16px;position:relative}
+.house .kid{border:1px solid var(--rule);border-radius:2px;padding:8px 11px;background:var(--ground);
+  min-width:112px;position:relative}
+.house .kid::before{content:"";position:absolute;top:-16px;left:50%;width:1.5px;height:16px;background:var(--rule-strong)}
+.house .kid.short{border-color:var(--terra);border-style:dashed}
+.house .kn{font-family:var(--serif);font-size:14.5px;line-height:1.2;color:var(--ink)}
+.house .ky{font-family:var(--mono);font-size:11px;color:var(--ink-3);margin-top:4px;font-variant-numeric:tabular-nums}
+.house .kid.short .ky{color:var(--terra)}
+.house figcaption{display:flex;flex-wrap:wrap;gap:6px 20px;margin-top:16px;padding-top:12px;
+  border-top:1px solid var(--rule);font-size:11.5px;color:var(--ink-3)}
+@media (max-width:560px){.house .join{display:none}.house .parents{gap:8px}}
+.gen{position:relative}
+.gen .genbox{background:var(--panel);border:1px solid var(--rule-strong);border-radius:3px;padding:14px 16px}
+.gen .gp{font-family:var(--serif);font-size:19px;line-height:1.3;color:var(--ink)}
+.gen .gp .amp{color:var(--ink-3);margin:0 9px;font-style:italic}
+.gen .gmeta{color:var(--ink-3);margin-top:6px}
+.gen .gkids{display:flex;flex-wrap:wrap;gap:5px 8px;margin-top:11px;padding-top:10px;border-top:1px solid var(--rule)}
+.gen .gkids span{font-family:var(--sans);font-size:11.5px;color:var(--ink-2);background:var(--ground);
+  border:1px solid var(--rule);border-radius:2px;padding:2px 7px}
+.gen .via{display:flex;flex-wrap:wrap;align-items:center;gap:9px;font-family:var(--sans);font-size:12.5px;
+  color:var(--ink-2);margin:14px 0 10px;padding-left:2px}
+.gen .via b{color:var(--ink);font-weight:500}
+.ped .pl{display:block;font-family:var(--sans);font-size:9px;font-weight:600;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--ink-3);margin-bottom:4px}
+.ped .py{display:block;font-family:var(--mono);font-size:11px;color:var(--ink-3);margin-top:4px;
+  font-variant-numeric:tabular-nums}
+.plate{background:var(--panel);border:1px solid var(--rule);border-radius:3px;overflow:hidden;
+  display:flex;flex-direction:column;text-align:left;padding:0;cursor:zoom-in;
+  font:inherit;color:inherit;transition:border-color .18s,transform .18s}
+.plate:hover{border-color:var(--rule-strong);transform:translateY(-2px)}
+.plate .shot{background:var(--panel-2);display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;
+  object-position:top center;border-bottom:1px solid var(--rule)}
+.plate.tall .shot{aspect-ratio:3/4;height:auto}
+.plate .meta{padding:12px 14px 14px;display:flex;flex-direction:column;gap:5px}
+.plate .t{font-family:var(--sans);font-size:13px;font-weight:600;line-height:1.35;color:var(--ink)}
+.plate .h{font-family:var(--sans);font-size:10.5px;letter-spacing:.05em;color:var(--ink-3)}
+.plate .zoomhint{font-family:var(--sans);font-size:10.5px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--accent);opacity:0;transition:opacity .18s}
+.plate:hover .zoomhint,.plate:focus-visible .zoomhint{opacity:1}
+
+dialog.lb{border:0;padding:0;background:transparent;max-width:min(1180px,94vw);max-height:94vh;color:var(--ink)}
+dialog.lb::backdrop{background:rgba(10,14,18,.88)}
+
+/* ---- the spine ---- */
+.spine{display:flex;flex-direction:column;gap:0;margin-top:8px}
+.gen{display:grid;grid-template-columns:78px minmax(0,1fr);gap:0}
+.gen .rail{position:relative;display:flex;justify-content:center}
+.gen .rail::before{content:"";position:absolute;top:0;bottom:0;width:1px;background:var(--rule-strong)}
+.gen:first-child .rail::before{top:34px}
+.gen:last-child .rail::before{bottom:calc(100% - 34px)}
+.gen .dot{position:relative;margin-top:26px;width:13px;height:13px;border-radius:50%;
+  background:var(--ground);border:2px solid var(--accent);z-index:1}
+.gen.living .dot{border-color:var(--rule-strong);border-style:dashed}
+.gen.family .dot{border-color:var(--ochre)}
+.gen .body{padding:16px 0 30px;border-bottom:1px solid var(--rule)}
+.gen:last-child .body{border-bottom:0}
+.gen h3{font-size:26px;line-height:1.2}
+.gen .lat{font-family:var(--mono);font-size:12px;color:var(--ink-3);margin-top:3px}
+.gen .facts{display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:10px;font-family:var(--sans);
+  font-size:12.5px;color:var(--ink-2)}
+.gen .facts b{font-weight:600;color:var(--ink-3);font-size:10.5px;letter-spacing:.1em;
+  text-transform:uppercase;margin-right:6px}
+.house{margin-top:16px;background:var(--panel);border:1px solid var(--rule);border-radius:3px;padding:14px 16px}
+.house .hl{font-family:var(--sans);font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--ink-3);margin-bottom:10px}
+.kids{display:flex;flex-wrap:wrap;gap:7px}
+.kid.line{border-color:var(--accent);color:var(--accent);background:var(--accent-wash);font-weight:600}
+.kid.line i{color:var(--accent)}
+
+/* ---- filter bar ---- */
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 26px}
+.filters button{font-family:var(--sans);font-size:12px;letter-spacing:.03em;padding:7px 14px;
+  border:1px solid var(--rule-strong);background:var(--panel);color:var(--ink-2);
+  border-radius:2px;cursor:pointer;transition:.15s}
+.filters button:hover{border-color:var(--accent);color:var(--accent)}
+.filters button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--ground)}
+.count{font-family:var(--mono);font-size:12px;color:var(--ink-3);align-self:center;margin-left:6px}
+.fig .art{background:var(--panel-2);border-bottom:1px solid var(--rule);cursor:zoom-in;
+  display:block;width:100%;padding:0;border-left:0;border-right:0;border-top:0}
+.fig .art img{display:block;width:100%;height:auto;max-height:340px;object-fit:contain;
+  background:var(--panel-2);padding:14px}
+.fig .in{padding:18px 20px 20px;display:flex;flex-direction:column;gap:9px;flex:1}
+.fig .who{font-family:var(--sans);font-size:11.5px;color:var(--ink-3);display:flex;flex-wrap:wrap;gap:4px 12px}
+.fig .src{font-family:var(--sans);font-size:11.5px;line-height:1.5;color:var(--ink-3);
+  border-top:1px solid var(--rule);padding-top:10px;margin-top:auto}
+.field{display:inline-block;font-family:var(--sans);font-size:10px;font-weight:600;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--accent);background:var(--accent-wash);
+  border:1px solid var(--accent);border-radius:2px;padding:2px 8px}
+.controls{display:flex;flex-wrap:wrap;gap:12px 16px;align-items:end;
+  background:var(--panel);border:1px solid var(--rule);border-radius:3px;padding:16px 18px}
+.hc.linked::after{content:"linked";font-family:var(--sans);font-size:9.5px;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--accent)}
+.detail{background:var(--panel);border:1px solid var(--rule);border-radius:3px;padding:20px 22px;
+  position:sticky;top:112px;display:flex;flex-direction:column;gap:12px;max-height:78vh;overflow:auto}
+.detail h3{font-size:24px;line-height:1.15}
+.detail .sub{font-family:var(--sans);font-size:13px;color:var(--ink-2)}
+.detail .stats{display:flex;flex-wrap:wrap;gap:6px 16px;font-family:var(--mono);font-size:11.5px;color:var(--ink-3)}
+.empty{font-family:var(--sans);font-size:13px;color:var(--ink-3);padding:26px 4px}
+.hits{display:flex;flex-direction:column;gap:1px;margin-top:20px;
+  border-top:1px solid var(--rule);max-height:none}
+.hit{display:grid;grid-template-columns:96px minmax(0,1fr);gap:14px;padding:12px 4px;
+  border-bottom:1px solid var(--rule);text-decoration:none;color:inherit;align-items:baseline}
+.hit:hover{background:var(--panel)}
+.hit .k{font-family:var(--sans);font-size:9.5px;font-weight:600;letter-spacing:.13em;
+  text-transform:uppercase;color:var(--ink-3);padding-top:3px}
+.hit .t{font-family:var(--sans);font-size:14.5px;font-weight:500;color:var(--ink);line-height:1.35}
+.hit .s{font-family:var(--sans);font-size:12.5px;color:var(--ink-2);line-height:1.45;margin-top:2px}
+.hit mark{background:var(--accent-wash);color:var(--accent);padding:0 2px;border-radius:2px}
+.lifebar .nm{color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.lifebar .span{position:absolute;top:0;bottom:0;background:var(--accent);border-radius:2px;min-width:2px}
+.lifebar.inf .span{background:var(--terra)}
+.lifebar.ch .span{background:var(--ochre)}
+
+/* ---- gazetteer ---- */
+.bars{display:flex;flex-direction:column;gap:7px;margin-top:20px}
+.bar{display:grid;grid-template-columns:160px minmax(0,1fr) 44px;gap:12px;align-items:center;
+  font-family:var(--sans);font-size:13px}
+.bar .l{color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bar .t{height:16px;background:var(--panel-2);border-radius:2px;overflow:hidden}
+.bar .f{height:100%;background:var(--accent);border-radius:2px}
+.bar.hi .f{background:var(--terra)}
+.bar .v{font-family:var(--mono);font-size:12px;color:var(--ink-3);text-align:right}
+@media (max-width:600px){.bar{grid-template-columns:110px minmax(0,1fr) 38px}}
+.one{background:var(--panel);border:1px solid var(--terra);border-left-width:3px;border-radius:3px;
+  padding:22px 24px;margin-top:26px}
+.one h3{font-size:26px;line-height:1.2}
+.one p{font-family:var(--sans);font-size:14px;line-height:1.6;color:var(--ink-2);margin-top:10px}
+.forms{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));margin-top:26px}
+.form{background:var(--panel);border:1px solid var(--rule);border-radius:3px;padding:16px 18px;
+  border-top:3px solid var(--rule-strong)}
+.form .lang{font-family:var(--sans);font-size:10px;font-weight:600;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--ink-3)}
+.form .val{font-family:var(--serif);font-size:26px;line-height:1.15;margin-top:8px;color:var(--ink)}
+.form .when{font-family:var(--sans);font-size:11.5px;line-height:1.5;color:var(--ink-2);margin-top:10px;
+  padding-top:9px;border-top:1px solid var(--rule)}
+.form.latin{border-top-color:var(--ochre)} .form.italian{border-top-color:var(--r-venice)}
+.form.venetian{border-top-color:var(--r-venice)} .form.croatian{border-top-color:var(--r-croatia)}
+.form.german{border-top-color:var(--r-habsburg)} .form.english{border-top-color:var(--r-italy)}
+.form .val.none{color:var(--ink-3);font-size:20px;font-style:italic}
+
+/* ---- grouped navigation ---- */
+nav.grouped{display:flex;flex-wrap:wrap;gap:4px 22px;align-items:baseline}
+nav.grouped .grp{display:flex;flex-wrap:wrap;align-items:baseline;gap:3px 11px}
+nav.grouped .gl{font-family:var(--sans);font-size:9px;font-weight:600;letter-spacing:.15em;
+  text-transform:uppercase;color:var(--ink-3);opacity:.75;margin-right:1px}
+nav.grouped a{font-family:var(--sans);font-size:13px;color:var(--ink-2);text-decoration:none;
+  padding:2px 0;border-bottom:1.5px solid transparent}
+nav.grouped a:hover{color:var(--accent)}
+nav.grouped a.on{color:var(--ink);border-bottom-color:var(--terra)}/* ---- navigation: always open on desktop{flex:1 1 auto;min-width:0}
+/* no-JS safety: if the script never runs, the nav is simply open. */
+@media (max-width:900px){
+  .sitein{gap:0;padding-top:11px;padding-bottom:11px;align-items:center;
+    justify-content:space-between;flex-wrap:nowrap}
+  .brand{font-size:16.5px;line-height:1.2}
+  .navbox{flex:0 0 auto}
+  .navbox > summary{display:inline-flex;align-items:center;gap:9px;list-style:none;cursor:pointer;
+    font-family:var(--sans);font-size:13px;font-weight:600;letter-spacing:.02em;color:var(--ink);
+    border:1px solid var(--rule-strong);border-radius:3px;padding:7px 13px;background:var(--ground);
+    -webkit-tap-highlight-color:transparent}
+  .navbox > summary::-webkit-details-marker{display:none}
+  .navbox > summary .bars{width:15px;height:11px;position:relative;display:inline-block}
+  .navbox > summary .bars::before,.navbox > summary .bars::after{content:"";position:absolute;
+    left:0;right:0;height:1.5px;background:var(--ink)}
+  .navbox > summary .bars::before{top:0;box-shadow:0 4.75px 0 var(--ink)}
+  .navbox > summary .bars::after{bottom:0}
+  .navbox[open] > summary{border-color:var(--accent);color:var(--accent)}
+  .navbox[open] > summary .bars::before,.navbox[open] > summary .bars::after{background:var(--accent)}
+  .navbox[open] > summary .bars::before{box-shadow:0 4.75px 0 var(--accent)}
+  .navbox > nav{display:none}
+  .navbox[open] > nav{display:block;position:absolute;left:0;right:0;z-index:40;
+    background:var(--panel);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule-strong);
+    padding:6px 20px 20px;max-height:72vh;overflow-y:auto;
+    box-shadow:0 18px 32px rgba(0,0,0,.16)}
+  header.site{position:relative}
+  nav.grouped{display:block}
+  nav.grouped .grp{display:flex;flex-wrap:wrap;gap:2px 20px;align-items:baseline;
+    padding:12px 0 8px;border-bottom:1px solid var(--rule)}
+  nav.grouped .grp:last-child{border-bottom:0}
+  nav.grouped .gl{display:block;flex:0 0 100%;margin-bottom:5px;font-size:9.5px;color:var(--ink-3)}
+  nav.grouped a{display:inline-block;font-size:15.5px;line-height:1.5;padding:5px 0;border-bottom:0}
+  nav.grouped a.on{color:var(--terra);font-weight:600}
+}
+@media (max-width:520px){
+  .wrap{padding:0 18px}
+  body{font-size:17.5px}
+  .opener{padding:34px 0 28px}
+}
+.srcblock .lab{margin-bottom:12px}
+.srcrow .meta{font-family:var(--sans);font-size:12px;color:var(--ink-3);margin-top:5px;
+  display:flex;flex-wrap:wrap;gap:4px 14px}
+
+/* ---- diaspora ---- */
+.cluster{background:var(--panel);border:1px solid var(--rule);border-left:3px solid var(--accent);
+  border-radius:3px;padding:24px 26px;margin-top:20px}
+.cluster h3{font-size:27px;line-height:1.15}
+.cluster .hdr{display:flex;flex-wrap:wrap;gap:6px 18px;align-items:baseline;margin-top:8px;
+  font-family:var(--sans);font-size:12px;color:var(--ink-3)}
+.cluster .hdr b{color:var(--accent);font-weight:600}
+.cluster .wh{font-family:var(--sans);font-size:13px;color:var(--ink-2);line-height:1.6;margin-top:12px}
+.cluster ul{margin:14px 0 0;padding-left:0;list-style:none;display:flex;flex-direction:column;gap:8px}
+.cluster li{font-family:var(--sans);font-size:13.5px;line-height:1.6;color:var(--ink-2);
+  padding-left:16px;position:relative}
+.cluster li::before{content:"";position:absolute;left:0;top:9px;width:6px;height:6px;
+  border-radius:50%;background:var(--rule-strong)}
+.cluster .read{font-family:var(--sans);font-size:13.5px;line-height:1.65;color:var(--ink);
+  margin-top:16px;padding-top:14px;border-top:1px solid var(--rule);max-width:74ch}
+
+/* ---------- rebuild 2026-09: home, story, atlas, tree, timeline ---------- */
+
+/* Opening statement */
+.opener{padding:54px 0 40px}
+.opener .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--terra)}
+.opener h1{font-size:clamp(30px,4.6vw,52px);line-height:1.06;margin-top:16px;max-width:19ch}
+.opener .lede{font-family:var(--sans);font-size:16.5px;line-height:1.62;color:var(--ink-2);
+  max-width:62ch;margin-top:20px}
+.opener .lede b{color:var(--ink);font-weight:600}
+
+/* Three doors */
+.doors{display:grid;gap:14px;grid-template-columns:repeat(3,minmax(0,1fr));margin-top:34px}
+@media(max-width:820px){.doors{grid-template-columns:1fr}}
+.door{display:flex;flex-direction:column;gap:8px;text-decoration:none;color:inherit;
+  background:var(--panel);border:1px solid var(--rule);border-left:3px solid var(--accent);
+  border-radius:3px;padding:20px 20px 22px;transition:border-color .15s,transform .15s}
+.door:hover{border-color:var(--accent);transform:translateY(-2px)}
+.door:nth-child(2){border-left-color:var(--terra)}
+.door:nth-child(3){border-left-color:var(--ochre)}
+.door .dn{font-size:23px;line-height:1.15;color:var(--ink)}
+.door .dd{font-family:var(--sans);font-size:13px;line-height:1.55;color:var(--ink-2)}
+.door .go{font-family:var(--mono);font-size:11.5px;color:var(--accent);margin-top:auto;padding-top:10px}
+a.stat{display:block;text-decoration:none;color:inherit;transition:border-color .15s,background .15s}
+a.stat:hover{border-color:var(--accent);background:var(--panel-2)}
+a.stat .go{font-family:var(--mono);font-size:10.5px;color:var(--accent);margin-top:10px;opacity:0}
+a.stat:hover .go{opacity:1}
+@media(hover:none){a.stat .go{opacity:1}}
+
+/* Findings strip */
+.finds{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));margin-top:24px}
+.find{display:block;text-decoration:none;color:inherit;background:var(--panel);
+  border:1px solid var(--rule);border-radius:3px;padding:16px 18px 18px;transition:border-color .15s}
+.find:hover{border-color:var(--accent)}
+.find .fw{font-family:var(--mono);font-size:11px;color:var(--terra);letter-spacing:.06em}
+.find .fh{font-size:19px;line-height:1.2;margin-top:7px;color:var(--ink)}
+.find .ft{font-family:var(--sans);font-size:12.8px;line-height:1.55;color:var(--ink-2);margin-top:9px}
+
+/* Story walk */
+.walk{margin-top:10px}
+
+/* Atlas */
+#atlas{height:min(70vh,620px);border:1px solid var(--rule-strong);border-radius:3px;
+  background:var(--panel-2)}
+.tnode .td{font-family:var(--mono);font-size:10.5px;color:var(--ink-3)}
+.tnode.doc{border-left:3px solid var(--accent)}
+.tnode.inf{border-left:3px dashed var(--ochre)}
+.tnode.lore{border-left:3px dotted var(--ink-3)}
+.rb-ev.up{bottom:180px;padding-left:15px}
+.rb-ev.up .d{bottom:-24px}
+.rb-ev.dn{top:180px;padding-left:15px}
+.rb-ev.dn .d{top:-19px;background:var(--accent)}
+.rb-ev.dn b{color:var(--ink-2);font-weight:500}
+.srcrow .meta span{overflow-wrap:anywhere;min-width:0}
+.srcrow .meta{flex-wrap:wrap}
+@media (max-width:520px){
+  .filters{gap:8px 10px}
+  .filters button{font-size:11.5px}
+  .stat .n{font-size:32px}
+  .door .dn,.cardlink .nm{font-size:20px}
+  .find .fh{font-size:17.5px}
+  section.blk{padding:30px 0}
+  .pagehead{padding:34px 0 22px;margin-bottom:26px}
+  #atlas{height:min(62vh,460px)}
+}
+
+/* ---- On this page: a jump list built from the section headings -------- */
+#onthispage { margin: 0 0 30px }
+main section > h2 { scroll-margin-top: 18px }
+
+/* person links injected by wholink.js */
+a.wholink{
+  color:inherit;
+  text-decoration:none;
+  border-bottom:1px dotted var(--rule,#c9c2b6);
+  transition:border-color .15s,background .15s;
+}
+
+/* Home-page banner — used only when an image has been placed at /art/banner.webp */
+.banner { margin: 0 0 30px; }
+.banner img {
+  display: block; width: 100%; height: auto;
+  max-height: 300px; object-fit: cover; object-position: center;
+  border-radius: 2px;
+}
+@media (max-width: 700px) { .banner img { max-height: 190px; } }
+
+
+/* ---------- slim header, dropdown menus ------------------------------- */
+header.site{position:sticky;top:0;z-index:60;background:var(--panel);
+  border-bottom:1px solid var(--rule-strong);box-shadow:0 1px 0 rgba(0,0,0,.03)}
+.sitein{display:flex;align-items:center;justify-content:space-between;gap:18px;
+  padding-top:10px!important;padding-bottom:10px!important;flex-wrap:nowrap!important}
+.brand{font-family:var(--serif);font-size:19px;font-weight:600;letter-spacing:-.01em;
+  color:var(--ink);text-decoration:none;white-space:nowrap}
+.brand em{font-style:italic;font-weight:400;color:var(--accent)}
+header.site nav.topnav{display:flex;align-items:center;gap:1px;flex-wrap:nowrap}
+
+/* The Search pill in the header. Six of the seven archives carried this and
+   this one did not: Search sat as an item inside the Start menu instead, so
+   the one thing a reader most often wants was two clicks away and in a
+   different place from every sibling site. */
+.findbtn{display:inline-block;font-family:var(--sans);font-size:12.5px;line-height:1;
+  text-decoration:none;margin-left:10px;color:#fff!important;background:var(--accent);
+  padding:8px 15px;border-radius:999px;white-space:nowrap}
+.findbtn:hover{background:var(--accent-2)}
+.topnav details.menu{position:relative}
+.topnav summary{list-style:none;cursor:pointer;font-family:var(--sans);font-size:12.5px;
+  color:var(--ink-2);padding:6px 9px;border-radius:999px;white-space:nowrap;
+  border:1px solid transparent}
+.topnav summary::-webkit-details-marker{display:none}
+.topnav summary::after{content:"";display:inline-block;margin-left:6px;width:5px;height:5px;
+  border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;
+  transform:translateY(-2px) rotate(45deg);opacity:.55}
+.topnav summary:hover{color:var(--ink);background:var(--panel-2)}
+.topnav details[open] summary{color:var(--accent);background:var(--accent-wash);border-color:var(--rule)}
+.topnav .panel{position:absolute;top:calc(100% + 8px);left:0;min-width:210px;z-index:70;
+  background:var(--panel);border:1px solid var(--rule-strong);border-radius:12px;
+  box-shadow:0 18px 44px rgba(10,20,26,.16);padding:8px;display:flex;flex-direction:column}
+.topnav .panel a{font-family:var(--sans);font-size:13.5px;color:var(--ink-2);text-decoration:none;
+  padding:7px 11px;border-radius:8px;white-space:nowrap}
+.topnav .panel a:hover{background:var(--accent-wash);color:var(--accent)}
+.topnav .panel a.on{color:var(--ink);font-weight:600;background:var(--panel-2)}
+.burger{display:none!important;align-items:center;gap:9px;font-family:var(--sans);font-size:13px;
+  background:none;border:1px solid var(--rule-strong);border-radius:999px;padding:7px 14px;
+  color:var(--ink);cursor:pointer}
+.drawer{border-top:1px solid var(--rule);background:var(--panel);padding:16px 0 22px;max-height:70vh;overflow:auto}
+.drawer .dgrp{padding:10px 0;border-bottom:1px solid var(--rule)}
+.drawer .dgrp:last-child{border-bottom:0}
+.drawer .gl{display:block;font-family:var(--sans);font-size:9.5px;font-weight:600;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3);margin-bottom:6px}
+.drawer a{display:inline-block;font-family:var(--sans);font-size:14px;color:var(--ink-2);
+  text-decoration:none;padding:5px 12px 5px 0}
+.drawer a.on{color:var(--accent);font-weight:600}
+@media (max-width:1180px){
+  header.site nav.topnav{display:none!important}
+  .burger{display:inline-flex!important}
+  /* Two different things are called .bars in this sheet: a stacked chart
+     .bars{display:flex;flex-direction:column;gap:7px;margin-top:20px}
+   and the three lines inside the menu button. The burger rule overrode the
+   display and the size and never the MARGIN, so on every phone in the
+   estate the icon sat 20px below the word next to it. Reset it here; the
+   chart keeps its own spacing. */
+  .burger .bars{width:15px;height:11px;position:relative;display:inline-block;
+    margin:0;flex:none;align-self:center}
+  .burger .bars::before,.burger .bars::after{content:"";position:absolute;left:0;right:0;
+    height:1.5px;background:var(--ink)}
+  .burger .bars::before{top:0;box-shadow:0 4.75px 0 var(--ink)}
+  .burger .bars::after{bottom:0}
+}
+nav.grouped{display:none!important}
+
+/* the on-this-page box never opens itself any more */
+#onthispage{margin:22px 0 0;order:9}
+body.is-home #onthispage{display:none}
+
+/* ---------- home: colour and pictures --------------------------------- */
+.hero{position:relative;margin:0 0 8px;border-radius:18px;overflow:hidden;
+  background:linear-gradient(160deg,var(--accent) 0%,#123f4b 55%,#0d2f39 100%)}
+.hero img{width:100%;height:clamp(260px,42vw,470px);object-fit:cover;display:block;
+  opacity:.62;filter:saturate(.92)}
+.hero .cap{position:absolute;left:0;right:0;bottom:0;padding:26px clamp(18px,4vw,44px) 24px;
+  background:linear-gradient(to top,rgba(8,22,28,.86),rgba(8,22,28,.34) 55%,transparent)}
+.hero .kick{font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;
+  color:#EBC98A}
+.hero h1{color:#FBF8F1;font-size:clamp(30px,5.2vw,58px);line-height:1.06;margin-top:8px;max-width:16ch}
+.hero .sub{font-family:var(--sans);font-size:15px;color:#D6E3E7;margin-top:12px;max-width:62ch}
+.feat .dek{margin-top:8px}
+
+/* ---- wide plate: a full-width illustration inside a page ---- */
+.wideplate{margin:0 0 34px;background:var(--panel);border:1px solid var(--rule);border-radius:3px;overflow:hidden}
+.wideplate img{display:block;width:100%;height:auto;border-bottom:1px solid var(--rule)}
+.wideplate figcaption{padding:13px 16px 15px;margin-top:0}
+
+/* The family chart that was here now lives in the kit, at
+   styles/persontree.css, shared with five sibling archives — which is what
+   "structure and class names match the Falco archive" was always reaching for.
+   The Taylor chart on /taylor imports it directly: same vocabulary, three
+   generations rather than one person. */
+/* Filter chips — clickable status filters with live counts, as on the Defranceski register. */
+.chips .ch{font:inherit;font-family:var(--sans);font-size:12px;letter-spacing:.02em;
+  padding:7px 12px;border:1px solid var(--rule);border-radius:2px;
+  background:var(--panel);color:var(--ink-2);cursor:pointer}
+.chips .ch b{font-weight:600;color:var(--ink);margin-left:5px}
+.chips .ch:hover{border-color:var(--accent)}
+.chips .ch.on{background:var(--accent-wash);border-color:var(--accent);color:var(--ink)}
+
+/* A heading that exists for structure and linking but is not shown, because the
+   section already carries a labelled rule above it. Readable to screen readers
+   and to the anchor checker; invisible on the page. */
+.vh{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;
+    clip:rect(0 0 0 0);white-space:nowrap;border:0}
+
+/* The changelog's per-entry reasoning, folded away by default. */
+details>summary{list-style:none;color:var(--ink-3);letter-spacing:.06em;text-transform:uppercase;
+    font-size:.72rem;font-family:var(--sans)}
+details>summary::-webkit-details-marker{display:none}
+details>summary::before{content:"▸ ";display:inline-block;transition:transform .12s}
+details[open]>summary::before{content:"▾ "}
+details>summary:hover{color:var(--accent)}
+
+/* ...but the top-nav menu is a <details> too, on all seven archives, so the
+   three rules above were dressing this archive's navigation in the
+   changelog's clothes: STARTED in uppercase at 0.72rem with a ▸ in front of
+   it, where the other six read "Start". Nobody had noticed because on most
+   pages here every <details> in the document is the nav — the rule only ever
+   hit the one thing it was not written for. Put the navigation back.
+
+   Undo only the three things the changelog rules impose. Not the font: this
+   selector outranks `.topnav summary`, so setting font-size/font-family to
+   `inherit` here does not fall back to the nav's own 12.5px sans — it
+   inherits from the page and draws the menu in 19px Garamond. */
+.topnav details>summary{text-transform:none;letter-spacing:normal}
+.topnav details>summary::before,
+.topnav details[open]>summary::before{content:none}
+
+/* Contents lists set in two columns on a wide screen, one on a narrow one.
+   They were written with an inline `columns:2`, which cannot carry a media
+   query and left each column about 110px wide on a phone. */
+.cols2{columns:2;column-gap:34px}
+.cols2>li{break-inside:avoid}
+@media (max-width:620px){ .cols2{columns:1} }
+
+
+/* The ladder's own two colours. --ochre and --ink-3 are page-furniture tones
+   and sit at 3.3-4.4:1 on the panel, which is under the line for 10px
+   uppercase, so the two levels that used them get dedicated values instead —
+   checked against all four light papers and all three dark ones. */
+:root{ --ev-inferred:#7A5200; --ev-family:#5F584A; }
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ev-inferred:#E0B45C; --ev-family:#B0A796;
+}}
+:root[data-theme="dark"]{ --ev-inferred:#E0B45C; --ev-family:#B0A796; }
+
+/* ---- the shared evidence ladder --------------------------------------- *
+ * Five levels, one meaning across all seven archives. Colour carries the
+ * level; the word carries it too, so the chips are still readable in
+ * monochrome and to anyone who does not separate these hues.              */
+.ev{
+  display:inline-block;font-family:var(--sans);font-size:10.5px;font-weight:600;
+  letter-spacing:.07em;text-transform:uppercase;padding:2px 8px;border-radius:3px;
+  border:1px solid currentColor;white-space:nowrap;vertical-align:.08em;
+}
+.ev-documented{color:var(--accent);background:var(--accent-wash)}
+.ev-probable{color:var(--accent);background:transparent}
+.ev-inferred{color:var(--ev-inferred);background:transparent}
+.ev-family{color:var(--ev-family);border-style:dashed;background:transparent}
+.ev-disputed{color:var(--terra);background:transparent}
+
+/* The construct Booyzen invented and the others borrow: state the thing a
+   reader will assume, and say plainly that the archive does not assert it. */
+.notclaimed{
+  border-left:3px solid var(--terra);background:var(--panel);
+  padding:12px 16px;margin:18px 0;
+}
+.notclaimed .lab{
+  font-family:var(--sans);font-size:10.5px;font-weight:600;letter-spacing:.09em;
+  text-transform:uppercase;color:var(--terra);display:block;margin-bottom:4px;
+}
+
+.ladder{display:grid;grid-template-columns:auto 1fr;gap:10px 16px;margin-top:18px;align-items:baseline}
+.ladder dt{margin:0}
+.ladder dd{margin:0;color:var(--ink-2)}
+@media (max-width:560px){.ladder{grid-template-columns:1fr;gap:4px 0}.ladder dd{margin-bottom:10px}}
+
+/* ---- the ring of sibling archives ------------------------------------- */
+.ring{border-top:2px solid var(--rule-strong);margin-top:56px;padding-top:26px}
+.ring h2{font-family:var(--serif);font-size:26px;font-weight:600;margin:0 0 6px}
+.ring > p{color:var(--ink-2);max-width:62ch;margin:0 0 20px}
+.ring ul{list-style:none;margin:0;padding:0;display:grid;gap:12px;
+  grid-template-columns:repeat(auto-fit,minmax(268px,1fr))}
+.ring li{--ring-accent:var(--ring-l);
+  border:1px solid var(--rule);border-left:4px solid var(--ring-accent);border-radius:4px}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .ring li{--ring-accent:var(--ring-d)}}
+:root[data-theme="dark"] .ring li{--ring-accent:var(--ring-d)}
+.ring li a{display:block;padding:13px 15px;text-decoration:none;color:inherit}
+.ring li a:hover{background:var(--panel-2)}
+.ring .rn{display:block;font-family:var(--serif);font-size:19px;font-weight:600;
+  color:var(--ring-accent);line-height:1.2}
+.ring .rw{display:block;font-family:var(--sans);font-size:10.5px;font-weight:600;
+  letter-spacing:.09em;text-transform:uppercase;color:var(--ink-3);margin:4px 0 7px}
+.ring .rl{display:block;font-size:14.5px;line-height:1.5;color:var(--ink-2)}
+.ring .rs{display:block;font-family:var(--mono);font-size:11px;color:var(--ink-3);margin-top:8px}
+.ring .rkids{margin-top:18px;font-size:14.5px;color:var(--ink-2)}
+
+/* A long unbroken token - a pasted search URL in an errand, a film reference -
+   cannot be hyphenated and will push a whole page sideways on a phone. The
+   errands page scrolled 412px horizontally because of one 150-character
+   FamilySearch URL. Let prose break anywhere it must, rather than overflow. */
+p,li,td,th,dd,.cap,.txt,.dek,.ab{overflow-wrap:anywhere}
+
+/* ---- the shared search box -------------------------------------------- */
+.ksearch input{
+  width:100%;font-family:var(--sans);font-size:19px;padding:12px 14px;
+  border:2px solid var(--rule-strong);border-radius:4px;background:var(--panel);
+  color:var(--ink);
+}
+.ksearch input:focus{outline:none;border-color:var(--accent)}
+.ksearch input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}

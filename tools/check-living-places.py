@@ -123,6 +123,54 @@ def living_people():
     return {v[0]: v[1] for v in found.values()}
 
 
+def reconcile():
+    """The kit's gate and this one must agree about WHO IS ALIVE.
+
+    *** ON 23 SEPTEMBER 2026 THEY DID NOT, AND NOBODY COULD HAVE NOTICED. *** This gate
+    reads data/*.tsv for an OMITTED-LIVING cell and found Cheryl Anne Lerena. The kit's
+    check:living reads site/src/data/*.json for a `living` flag and found NOBODY, so it
+    printed «0 flagged in the data ... no living person reaches the build» and passed.
+    It was guarding an empty set, and a gate that guards nobody cannot fail.
+
+    Nothing had leaked - her dates appear nowhere in the build, and that was checked
+    before anything was changed - but the estate's most important rule was being kept
+    BY HAND while a green check said otherwise. tools/build-pages.py now writes
+    src/data/living.json from the same TSV markers this file reads, and this refuses
+    the build if the two ever disagree again.
+
+    THE DIRECTION MATTERS. A person here and not there is a person the kit is not
+    guarding. A person there and not here is a marker this file has stopped
+    recognising. Both are failures and both are named.
+    """
+    import json
+    seen = {k.lower() for k in living_people()}
+    f = ROOT / "site" / "src" / "data" / "living.json"
+    if not f.exists():
+        print("  FAIL  living-x   site/src/data/living.json is missing, so the kit's "
+              "check:living has no input")
+        print("        Run tools/build-pages.py, which writes it from the TSV markers.")
+        return 1
+    try:
+        j = json.loads(f.read_text(encoding="utf-8"))
+    except Exception as e:
+        print(f"  FAIL  living-x   living.json could not be read: {e}")
+        return 1
+    theirs = {str(r.get("name", "")).lower() for r in j if r.get("living") is True}
+    only_here = sorted(seen - theirs)
+    only_there = sorted(theirs - seen)
+    if only_here or only_there:
+        print(f"  FAIL  living-x   the two living-person gates disagree")
+        for n in only_here:
+            print(f"          - {n}: marked living in data/*.tsv, ABSENT from living.json "
+                  f"- the kit's gate is not guarding them")
+        for n in only_there:
+            print(f"          - {n}: in living.json, NOT marked living in any data/*.tsv "
+                  f"- this gate has stopped recognising the marker")
+        return 1
+    print(f"  ok    living-x   both living-person gates see the same {len(seen)} person(s)")
+    return 0
+
+
 def main():
     if not DIST.exists():
         print("  ok    places    no build to read - run the build first")
@@ -180,4 +228,6 @@ def main():
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    # BOTH, ALWAYS, AND THE WORST EXIT WINS. reconcile() is the cheaper check and the
+    # more important one: it asks whether the OTHER gate is looking at anybody at all.
+    sys.exit(max(main(), reconcile()))

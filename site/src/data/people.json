@@ -417,7 +417,7 @@
    {
     "name": "Julia SALVANACH",
     "dates": "",
-    "slug": "",
+    "slug": "julia-salvanach",
     "via": "register",
     "note": "Named as the mother on five of his sons' army cards"
    }
@@ -429,6 +429,13 @@
     "slug": "carlos-augusto-federico-lerena-salvanach",
     "via": "register",
     "note": "1895 census; Uruguayan civil registration"
+   },
+   {
+    "name": "Cesar Alberto LERENA Salvanach",
+    "dates": "",
+    "slug": "cesar-alberto-lerena-salvanach",
+    "via": "register",
+    "note": "Stated on his own register row; wired 23 Sep 2026 to match his siblings."
    },
    {
     "name": "Luis Felipe LERENA Salvanach",
@@ -490,8 +497,8 @@
   ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 11,
-  "relRegister": 11,
+  "relTotal": 12,
+  "relRegister": 12,
   "relTree": 0,
   "evidence": [
    {
@@ -536,6 +543,12 @@
     "name": "Carlos Augusto Federico LERENA Salvanach (b. 9 July 1883)",
     "dates": "",
     "slug": "carlos-augusto-federico-lerena-salvanach",
+    "via": "register"
+   },
+   {
+    "name": "Cesar Alberto LERENA Salvanach",
+    "dates": "",
+    "slug": "cesar-alberto-lerena-salvanach",
     "via": "register"
    },
    {
@@ -619,6 +632,12 @@
     "via": "register"
    },
    {
+    "name": "Cesar Alberto LERENA Salvanach",
+    "dates": "",
+    "slug": "cesar-alberto-lerena-salvanach",
+    "via": "register"
+   },
+   {
     "name": "Luis Felipe LERENA Salvanach",
     "dates": "",
     "slug": "luis-felipe-lerena-salvanach",
@@ -691,7 +710,7 @@
   "mother": {
    "name": "Julia SALVANACH",
    "dates": "",
-   "slug": "",
+   "slug": "julia-salvanach",
    "via": "register",
    "note": "1895 census"
   },
@@ -706,6 +725,12 @@
   ],
   "children": [],
   "siblings": [
+   {
+    "name": "Cesar Alberto LERENA Salvanach",
+    "dates": "",
+    "slug": "cesar-alberto-lerena-salvanach",
+    "via": "register"
+   },
    {
     "name": "Luis Felipe LERENA Salvanach",
     "dates": "",
@@ -785,7 +810,7 @@
   "mother": {
    "name": "Julia SALVANACH",
    "dates": "",
-   "slug": "",
+   "slug": "julia-salvanach",
    "via": "register",
    "note": "Argentina Military Records 1911-1936"
   },
@@ -796,6 +821,12 @@
     "name": "Carlos Augusto Federico LERENA Salvanach (b. 9 July 1883)",
     "dates": "",
     "slug": "carlos-augusto-federico-lerena-salvanach",
+    "via": "register"
+   },
+   {
+    "name": "Cesar Alberto LERENA Salvanach",
+    "dates": "",
+    "slug": "cesar-alberto-lerena-salvanach",
     "via": "register"
    },
    {
@@ -876,6 +907,12 @@
     "name": "Carlos Augusto Federico LERENA Salvanach (b. 9 July 1883)",
     "dates": "",
     "slug": "carlos-augusto-federico-lerena-salvanach",
+    "via": "register"
+   },
+   {
+    "name": "Cesar Alberto LERENA Salvanach",
+    "dates": "",
+    "slug": "cesar-alberto-lerena-salvanach",
     "via": "register"
    },
    {
@@ -3495,9 +3532,9 @@
   "mother": null,
   "spouses": [
    {
-    "name": "Sofia CLAVIJO",
+    "name": "Sofia CLAVIJO (wife of Pedro LLERENA)",
     "dates": "",
-    "slug": "",
+    "slug": "sofia-clavijo",
     "via": "register",
     "note": "Same record."
    }
@@ -3574,9 +3611,9 @@
    "note": "Named together in the record that gives Pedro's wife as Sofia Clavijo."
   },
   "mother": {
-   "name": "Sofia CLAVIJO",
+   "name": "Sofia CLAVIJO (wife of Pedro LLERENA)",
    "dates": "",
-   "slug": "",
+   "slug": "sofia-clavijo",
    "via": "register",
    "note": "Same record."
   },
@@ -3997,7 +4034,7 @@
   "nationality": "Argentine",
   "occupation": "-",
   "where": "Argentina",
-  "source": "Argentina Military Records 1911-1936 (machine-indexed)",
+  "source": "Argentina Military Records 1911-1936 (machine-indexed) - IMAGE READ 10 September 2026; FamilySearch image group 112342450, \"Cajon 985 (Lera)\", image ark 3:1:3QHK-MQL4-NQWN. *** THE IMAGE NUMBER IS DELIBERATELY NOT CITED: *** the viewer's image-number box and the underlying arks do not stay in step across loads, so the ark is the only fixed locator - see data/cajon-985-scan.tsv.",
   "status": "connected",
   "statusRaw": "CONNECTED",
   "note": "*** RESOLVED - THIS IS PABLO ARMANDO HIMSELF. *** The image was opened on 10 Sep 2026 and the card reads 'Clase de 1882 / LERENA - Pablo Armando / hijo de Juan Carlos Lerena y de Maria Lerena / Nacido en Rosario de Santa Fe / Oficina enroladora de CAPETOWN'. The machine index had dropped 'Pablo', moved him 1,400 km to Salta, turned Lerena into Lorena, and made a second surname 'Serena' out of the printed word SERIE on the next line. Every one of the four objections logged against this candidate was an artefact of the transcription. Kept in the register under its indexed name so the false trail stays visible.",
@@ -4753,9 +4790,9 @@
    "note": "\"hija legitima del Sr. Don Candido\" - Montevideo marriage act 258 (1864). He was a witness at his daughter's wedding."
   },
   "mother": {
-   "name": "Dona Juliana GONZALEZ",
+   "name": "Dona Juliana Joaquina GONZALEZ",
    "dates": "",
-   "slug": "",
+   "slug": "dona-juliana-joaquina-gonzalez",
    "via": "register",
    "note": "Named in Montevideo marriage act 258 (1864)."
   },
@@ -5154,9 +5191,9 @@
   "mother": null,
   "spouses": [
    {
-    "name": "Dona Juliana GONZALEZ",
+    "name": "Dona Juliana Joaquina GONZALEZ",
     "dates": "",
-    "slug": "",
+    "slug": "dona-juliana-joaquina-gonzalez",
     "via": "register",
     "note": "Both named as the bride's parents in Montevideo marriage act 258 (1864)."
    }
@@ -5200,12 +5237,20 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Dona Julia JUANICO",
+    "dates": "",
+    "slug": "dona-julia-juanico",
+    "via": "register",
+    "note": "Named in Montevideo marriage act 258 (1864)."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -5453,12 +5498,41 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Carmen LERENA Pelaez",
+    "dates": "",
+    "slug": "carmen-lerena-pelaez",
+    "via": "register",
+    "note": "Trinidad, Flores. NOT the 1911-dispensation Bernabe - that man's wife is Florinda Cardozo; these two are declared different men in data/_person-pairs.txt."
+   },
+   {
+    "name": "Juan Bernardo LERENA Pelaez",
+    "dates": "",
+    "slug": "juan-bernardo-lerena-pelaez",
+    "via": "register",
+    "note": "Trinidad, Flores. NOT the 1911-dispensation Bernabe - that man's wife is Florinda Cardozo; these two are declared different men in data/_person-pairs.txt."
+   },
+   {
+    "name": "Paula Modesta LERENA Pelaez",
+    "dates": "",
+    "slug": "paula-modesta-lerena-pelaez",
+    "via": "register",
+    "note": "Trinidad, Flores. NOT the 1911-dispensation Bernabe - that man's wife is Florinda Cardozo; these two are declared different men in data/_person-pairs.txt."
+   },
+   {
+    "name": "Ysidro Gregorio LERENA Pelaez",
+    "dates": "",
+    "slug": "ysidro-gregorio-lerena-pelaez",
+    "via": "register",
+    "note": "Trinidad, Flores. NOT the 1911-dispensation Bernabe - that man's wife is Florinda Cardozo; these two are declared different men in data/_person-pairs.txt."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 4,
+  "relRegister": 4,
   "relTree": 0,
   "evidence": [
    {
@@ -5491,12 +5565,41 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Carmen LERENA Pelaez",
+    "dates": "",
+    "slug": "carmen-lerena-pelaez",
+    "via": "register",
+    "note": "Trinidad, Flores. NOT the 1911-dispensation Bernabe - that man's wife is Florinda Cardozo; these two are declared different men in data/_person-pairs.txt."
+   },
+   {
+    "name": "Juan Bernardo LERENA Pelaez",
+    "dates": "",
+    "slug": "juan-bernardo-lerena-pelaez",
+    "via": "register",
+    "note": "Trinidad, Flores. NOT the 1911-dispensation Bernabe - that man's wife is Florinda Cardozo; these two are declared different men in data/_person-pairs.txt."
+   },
+   {
+    "name": "Paula Modesta LERENA Pelaez",
+    "dates": "",
+    "slug": "paula-modesta-lerena-pelaez",
+    "via": "register",
+    "note": "Trinidad, Flores. NOT the 1911-dispensation Bernabe - that man's wife is Florinda Cardozo; these two are declared different men in data/_person-pairs.txt."
+   },
+   {
+    "name": "Ysidro Gregorio LERENA Pelaez",
+    "dates": "",
+    "slug": "ysidro-gregorio-lerena-pelaez",
+    "via": "register",
+    "note": "Trinidad, Flores. NOT the 1911-dispensation Bernabe - that man's wife is Florinda Cardozo; these two are declared different men in data/_person-pairs.txt."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 4,
+  "relRegister": 4,
   "relTree": 0,
   "evidence": [
    {
@@ -5944,15 +6047,46 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Bernabe LERENA (of Trinidad)",
+   "dates": "",
+   "slug": "bernabe-lerena",
+   "via": "register",
+   "note": "Trinidad, Flores. NOT the 1911-dispensation Bernabe - that man's wife is Florinda Cardozo; these two are declared different men in data/_person-pairs.txt."
+  },
+  "mother": {
+   "name": "Dona Casimira PELAEZ (wife of Bernabe LERENA)",
+   "dates": "",
+   "slug": "dona-casimira-pelaez",
+   "via": "register",
+   "note": "Trinidad, Flores. NOT the 1911-dispensation Bernabe - that man's wife is Florinda Cardozo; these two are declared different men in data/_person-pairs.txt."
+  },
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Carmen LERENA Pelaez",
+    "dates": "",
+    "slug": "carmen-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Paula Modesta LERENA Pelaez",
+    "dates": "",
+    "slug": "paula-modesta-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Ysidro Gregorio LERENA Pelaez",
+    "dates": "",
+    "slug": "ysidro-gregorio-lerena-pelaez",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -5975,15 +6109,46 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Bernabe LERENA (of Trinidad)",
+   "dates": "",
+   "slug": "bernabe-lerena",
+   "via": "register",
+   "note": "Trinidad, Flores. NOT the 1911-dispensation Bernabe - that man's wife is Florinda Cardozo; these two are declared different men in data/_person-pairs.txt."
+  },
+  "mother": {
+   "name": "Dona Casimira PELAEZ (wife of Bernabe LERENA)",
+   "dates": "",
+   "slug": "dona-casimira-pelaez",
+   "via": "register",
+   "note": "Trinidad, Flores. NOT the 1911-dispensation Bernabe - that man's wife is Florinda Cardozo; these two are declared different men in data/_person-pairs.txt."
+  },
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Carmen LERENA Pelaez",
+    "dates": "",
+    "slug": "carmen-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Juan Bernardo LERENA Pelaez",
+    "dates": "",
+    "slug": "juan-bernardo-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Ysidro Gregorio LERENA Pelaez",
+    "dates": "",
+    "slug": "ysidro-gregorio-lerena-pelaez",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -6006,15 +6171,46 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Bernabe LERENA (of Trinidad)",
+   "dates": "",
+   "slug": "bernabe-lerena",
+   "via": "register",
+   "note": "Trinidad, Flores. NOT the 1911-dispensation Bernabe - that man's wife is Florinda Cardozo; these two are declared different men in data/_person-pairs.txt."
+  },
+  "mother": {
+   "name": "Dona Casimira PELAEZ (wife of Bernabe LERENA)",
+   "dates": "",
+   "slug": "dona-casimira-pelaez",
+   "via": "register",
+   "note": "Trinidad, Flores. NOT the 1911-dispensation Bernabe - that man's wife is Florinda Cardozo; these two are declared different men in data/_person-pairs.txt."
+  },
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Juan Bernardo LERENA Pelaez",
+    "dates": "",
+    "slug": "juan-bernardo-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Paula Modesta LERENA Pelaez",
+    "dates": "",
+    "slug": "paula-modesta-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Ysidro Gregorio LERENA Pelaez",
+    "dates": "",
+    "slug": "ysidro-gregorio-lerena-pelaez",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -6037,15 +6233,46 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Bernabe LERENA (of Trinidad)",
+   "dates": "",
+   "slug": "bernabe-lerena",
+   "via": "register",
+   "note": "Trinidad, Flores. NOT the 1911-dispensation Bernabe - that man's wife is Florinda Cardozo; these two are declared different men in data/_person-pairs.txt."
+  },
+  "mother": {
+   "name": "Dona Casimira PELAEZ (wife of Bernabe LERENA)",
+   "dates": "",
+   "slug": "dona-casimira-pelaez",
+   "via": "register",
+   "note": "Trinidad, Flores. NOT the 1911-dispensation Bernabe - that man's wife is Florinda Cardozo; these two are declared different men in data/_person-pairs.txt."
+  },
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Carmen LERENA Pelaez",
+    "dates": "",
+    "slug": "carmen-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Juan Bernardo LERENA Pelaez",
+    "dates": "",
+    "slug": "juan-bernardo-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Paula Modesta LERENA Pelaez",
+    "dates": "",
+    "slug": "paula-modesta-lerena-pelaez",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -7090,7 +7317,13 @@
    "via": "register",
    "note": "Same census household."
   },
-  "mother": null,
+  "mother": {
+   "name": "Julia SALVANACH",
+   "dates": "",
+   "slug": "julia-salvanach",
+   "via": "register",
+   "note": "Mother edge added 23 Sep 2026; the father edge was already wired and the mother was not in the register."
+  },
   "spouses": [],
   "children": [],
   "siblings": [
@@ -7098,6 +7331,12 @@
     "name": "Carlos Augusto Federico LERENA Salvanach (b. 9 July 1883)",
     "dates": "",
     "slug": "carlos-augusto-federico-lerena-salvanach",
+    "via": "register"
+   },
+   {
+    "name": "Cesar Alberto LERENA Salvanach",
+    "dates": "",
+    "slug": "cesar-alberto-lerena-salvanach",
     "via": "register"
    },
    {
@@ -7139,8 +7378,8 @@
   ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 1,
-  "relRegister": 1,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -7916,7 +8155,13 @@
    "via": "register",
    "note": "Same census household - the first of them born in Argentina."
   },
-  "mother": null,
+  "mother": {
+   "name": "Julia SALVANACH",
+   "dates": "",
+   "slug": "julia-salvanach",
+   "via": "register",
+   "note": "Mother edge added 23 Sep 2026; the father edge was already wired and the mother was not in the register."
+  },
   "spouses": [],
   "children": [],
   "siblings": [
@@ -7924,6 +8169,12 @@
     "name": "Carlos Augusto Federico LERENA Salvanach (b. 9 July 1883)",
     "dates": "",
     "slug": "carlos-augusto-federico-lerena-salvanach",
+    "via": "register"
+   },
+   {
+    "name": "Cesar Alberto LERENA Salvanach",
+    "dates": "",
+    "slug": "cesar-alberto-lerena-salvanach",
     "via": "register"
    },
    {
@@ -7965,8 +8216,8 @@
   ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 1,
-  "relRegister": 1,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -7996,7 +8247,13 @@
    "via": "register",
    "note": "Same census household."
   },
-  "mother": null,
+  "mother": {
+   "name": "Julia SALVANACH",
+   "dates": "",
+   "slug": "julia-salvanach",
+   "via": "register",
+   "note": "Mother edge added 23 Sep 2026; the father edge was already wired and the mother was not in the register."
+  },
   "spouses": [],
   "children": [],
   "siblings": [
@@ -8004,6 +8261,12 @@
     "name": "Carlos Augusto Federico LERENA Salvanach (b. 9 July 1883)",
     "dates": "",
     "slug": "carlos-augusto-federico-lerena-salvanach",
+    "via": "register"
+   },
+   {
+    "name": "Cesar Alberto LERENA Salvanach",
+    "dates": "",
+    "slug": "cesar-alberto-lerena-salvanach",
     "via": "register"
    },
    {
@@ -8045,8 +8308,8 @@
   ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 1,
-  "relRegister": 1,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -8069,15 +8332,76 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS)",
+   "dates": "",
+   "slug": "gilberto-lerena",
+   "via": "register",
+   "note": "Stated on his own register row; wired 23 Sep 2026 to match his siblings."
+  },
+  "mother": {
+   "name": "Julia SALVANACH",
+   "dates": "",
+   "slug": "julia-salvanach",
+   "via": "register",
+   "note": "Stated on his own register row; wired 23 Sep 2026 to match his siblings."
+  },
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Carlos Augusto Federico LERENA Salvanach (b. 9 July 1883)",
+    "dates": "",
+    "slug": "carlos-augusto-federico-lerena-salvanach",
+    "via": "register"
+   },
+   {
+    "name": "Luis Felipe LERENA Salvanach",
+    "dates": "",
+    "slug": "luis-felipe-lerena-salvanach",
+    "via": "register"
+   },
+   {
+    "name": "Maria Angelica Julia LERENA Salvanach",
+    "dates": "",
+    "slug": "maria-angelica-julia-lerena-salvanach",
+    "via": "register"
+   },
+   {
+    "name": "Maria Carlota LERENA Salvanach",
+    "dates": "",
+    "slug": "maria-carlota-lerena-salvanach",
+    "via": "register"
+   },
+   {
+    "name": "Maria E. C. LERENA",
+    "dates": "",
+    "slug": "maria-e-c-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria E. LERENA",
+    "dates": "",
+    "slug": "maria-e-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria Luisa LERENA",
+    "dates": "",
+    "slug": "maria-luisa-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Raul LERENA",
+    "dates": "",
+    "slug": "raul-lerena",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -8185,7 +8509,7 @@
   "source": "Nuestra Senora del Carmen la Mayor, Cordon, Montevideo, baptism of 13 Dec 1831 - FULL-TEXT TRANSCRIPT READ; ark 3:1:3Q9M-C9BW-CS9Z-2; and her own MARRIAGE, Nuestra Senora del Carmen La Mayor, Cordon, Montevideo, 3 Nov 1830 - index read, ark 1:1:X9PT-MQTQ, FULL-TEXT TRANSCRIPT READ, ark 3:1:3Q9M-C9B7-B3WZ-8 - IMAGE READ 21 September 2026; film 007713388 image 00726, folio 133",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "*** A DAUGHTER OF SANCHO LLERENA AND MARIA FERNANDEZ, and so a SISTER OF DON LUIS LERENA - found 14 September 2026 and previously unknown to this archive. *** Named in the Cordon baptism of her son on 13 December 1831 as \"Justa Pastora Lerena, natural de CANELONES\", wife of Manuel Zeferino Barros of Pernambuco. *** Her son's godparents were the PRESIDENT OF THE REPUBLIC and his wife. *** *** A SECOND CHILD, October 1833, at the Catedral de la Inmaculada Concepcion *** - and its act names her parents FRANCISCO LERINA and Maria Fernandez, where her first child's act of 1831 said SANCHO LLERENA. She is the person through whom the alternation became visible. Her second child's godparents were ABELINO and DOMINGA LERENA. *** HER MARRIAGE IS NOW DATED: 3 NOVEMBER 1830, at the Cordon *** - to MANUEL BARROS, with her parents given as Sancho Llerena and Maria Fernandez and her birthplace as Canelones. *** Which puts THIRTEEN MONTHS between the wedding and the font at which FRUCTUOSO RIVERA stood godfather to her first child, *** in the same parish, on 13 December 1831. The index has been read and the image has not, so the date is SECONDARY; her parentage is PRIMARY from the 1831 act. *** AND THE ACT ITSELF IS NOW READ, not merely its index. *** \"En tres de Noviembre de mil ochocientos treinta, precedidas informacion de libertad de MANUEL ZEFERINO BARROS natural de PERNAMBUCO, hijo legitimo de Jose [P]olanda de Barros y de Ana Maria Cabalgante, sobre el Matrimonio que libremente quiere contraer con JUSTA PASTORA LLERENA, NATURAL DE CANELONES, RESIDENTE EN EL CORDON, hija legitima de SANCHO LLERENA y de MARIA FERNANDEZ TRESGUERRAS.\" *** THREE GAINS IN ONE SENTENCE: *** she was already living at the Cordon before she married there; her mother's matronymic TRESGUERRAS is on a document for the first time; and the date is no longer index-level. The parish is DAMASO ANTONIO LARRANAGA'S - he is marrying another couple on the same page.  *** A SECOND CHILD OF HERS IS FOUND, and her own father is written FRANCISCO on his act. *** *** AURELIO EUSEBIO BARROS LERENA ***, born 14 September 1833 and baptised at the Catedral on 19 October, with her own brother and sister - *** ABELINO LERENA and DOMINGA LERENA *** - as his godparents. So she has two documented children by Manuel Zeferino Barros: Juan Facundo Frutuoso (1831) and Aurelio Eusebio (1833). *** AND THE TWO ACTS DISAGREE ABOUT WHERE SHE WAS BORN: *** 1831 calls her 'natural de CANELONES', 1833 'natural de MONTEVIDEO'. Two acts, two years apart, one parish. Neither is preferred here, though Canelones has the support of her sister Dominga's baptism there in 1804. *** Her father is written 'Fran.co Lerenas' on the 1833 act *** - see the note on Sancho's row and /hypotheses/, where the SANCHO-OR-FRANCISCO question is set out in full. *** It is not a stray datum: it is the third Francisco attestation, and as of 21 September the only one a human has read off the plate. ***  *** A THIRD CHILD, AND THE SET NOW LOOKS LIKE A SET: 21 September 2026. *** HILARIO, baptised at Canelones on 19 April 1835, joins JUAN FACUNDO FRUTUOSO (1831) and AURELIO EUSEBIO (1833) - three sons by Manuel Zeferino Barros at roughly two-year intervals, *** and at every one of the three fonts the godparents are her own brothers and sisters ***: Fructuoso Ribera and Bernardina Fragoso in 1831 were the exception, Abelino and Dominga Lerena stood in 1833, and Pedro Antonio Lerena and Vicenta Vega in 1835. *** AND THE PLACES MOVE WITH HER: *** Cordon in 1831, the Catedral in 1833, back to CANELONES in 1835.",
+  "note": "*** A DAUGHTER OF SANCHO LLERENA AND MARIA FERNANDEZ, and so a SISTER OF DON LUIS LERENA - found 14 September 2026 and previously unknown to this archive. *** Named in the Cordon baptism of her son on 13 December 1831 as \"Justa Pastora Lerena, natural de CANELONES\", wife of Manuel Zeferino Barros of Pernambuco. *** Her son's godparents were the PRESIDENT OF THE REPUBLIC and his wife. *** *** A SECOND CHILD, October 1833, at the Catedral de la Inmaculada Concepcion *** - and its act names her parents FRANCISCO LERINA and Maria Fernandez, where her first child's act of 1831 said SANCHO LLERENA. She is the person through whom the alternation became visible. Her second child's godparents were ABELINO and DOMINGA LERENA. *** HER MARRIAGE IS NOW DATED: 3 NOVEMBER 1830, at the Cordon *** - to MANUEL BARROS, with her parents given as Sancho Llerena and Maria Fernandez and her birthplace as Canelones. *** Which puts THIRTEEN MONTHS between the wedding and the font at which FRUCTUOSO RIVERA stood godfather to her first child, *** in the same parish, on 13 December 1831. The index has been read and the image has not, so the date is SECONDARY; her parentage is PRIMARY from the 1831 act. *** AND THE ACT ITSELF IS NOW READ, not merely its index. *** \"En tres de Noviembre de mil ochocientos treinta, precedidas informacion de libertad de MANUEL ZEFERINO BARROS natural de PERNAMBUCO, hijo legitimo de Jose [P]olanda de Barros y de Ana Maria Cabalgante, sobre el Matrimonio que libremente quiere contraer con JUSTA PASTORA LLERENA, NATURAL DE CANELONES, RESIDENTE EN EL CORDON, hija legitima de SANCHO LLERENA y de MARIA FERNANDEZ TRESGUERRAS.\" *** THREE GAINS IN ONE SENTENCE: *** she was already living at the Cordon before she married there; her mother's matronymic TRESGUERRAS is on a document for the first time; and the date is no longer index-level. The parish is DAMASO ANTONIO LARRANAGA'S - he is marrying another couple on the same page.  *** A SECOND CHILD OF HERS IS FOUND, and her own father is written FRANCISCO on his act. *** *** AURELIO EUSEBIO BARROS LERENA ***, born 14 September 1833 and baptised at the Catedral on 19 October, with her own brother and sister - *** ABELINO LERENA and DOMINGA LERENA *** - as his godparents. So she has two documented children by Manuel Zeferino Barros: Juan Facundo Frutuoso (1831) and Aurelio Eusebio (1833). *** AND THE TWO ACTS DISAGREE ABOUT WHERE SHE WAS BORN: *** 1831 calls her 'natural de CANELONES', 1833 'natural de MONTEVIDEO'. Two acts, two years apart, one parish. Neither is preferred here, though Canelones has the support of her sister Dominga's baptism there in 1804. *** Her father is written 'Fran.co Lerenas' on the 1833 act *** - see the note on Sancho's row and /hypotheses/, where the SANCHO-OR-FRANCISCO question is set out in full. *** It is not a stray datum: it is the third Francisco attestation, and as of 21 September the only one a human has read off the plate. ***  *** A THIRD CHILD, AND THE SET NOW LOOKS LIKE A SET: 21 September 2026. *** HILARIO, baptised at Canelones on 19 April 1835, joins JUAN FACUNDO FRUTUOSO (1831) and AURELIO EUSEBIO (1833) - three sons by Manuel Zeferino Barros at roughly two-year intervals, *** and at every one of the three fonts the godparents are her own brothers and sisters ***: Frutuso Ribera - President Fructuoso Rivera, spelled the priest's way - and Bernardina Fragoso in 1831 were the exception, Abelino and Dominga Lerena stood in 1833, and Pedro Antonio Lerena and Vicenta Vega in 1835. *** AND THE PLACES MOVE WITH HER: *** Cordon in 1831, the Catedral in 1833, back to CANELONES in 1835.",
   "place": "Montevideo / Canelones",
   "placeSlug": "montevideo-canelones",
   "surname": "LERENA",
@@ -8246,8 +8570,20 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Jose Pando de BARROS",
+   "dates": "",
+   "slug": "jose-pando-de-barros",
+   "via": "register",
+   "note": "Stated on his own register row; he is natural de Pernambuco and married Justa Pastora Lerena at the Cordon, 3 Nov 1830."
+  },
+  "mother": {
+   "name": "Ana Maria CABALGANTE",
+   "dates": "",
+   "slug": "ana-maria-cabalgante",
+   "via": "register",
+   "note": "Stated on his own register row; he is natural de Pernambuco and married Justa Pastora Lerena at the Cordon, 3 Nov 1830."
+  },
   "spouses": [],
   "children": [
    {
@@ -8268,8 +8604,8 @@
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 2,
-  "relRegister": 2,
+  "relTotal": 4,
+  "relRegister": 4,
   "relTree": 0,
   "evidence": []
  },
@@ -8558,12 +8894,20 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Manuel Zeferino BARROS",
+    "dates": "",
+    "slug": "manuel-zeferino-barros",
+    "via": "register",
+    "note": "Stated on his own register row; he is natural de Pernambuco and married Justa Pastora Lerena at the Cordon, 3 Nov 1830."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -8589,12 +8933,20 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Manuel Zeferino BARROS",
+    "dates": "",
+    "slug": "manuel-zeferino-barros",
+    "via": "register",
+    "note": "Stated on his own register row; he is natural de Pernambuco and married Justa Pastora Lerena at the Cordon, 3 Nov 1830."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -9597,7 +9949,7 @@
   "nationality": "Uruguayan",
   "occupation": "-",
   "where": "Montevideo",
-  "source": "Named as the wife in the Montevideo death registration of Alberto Lerena, 2 March 1921 - index read; ark 1:1:6LD5-X4PR",
+  "source": "Named as the wife in the Montevideo death registration of Alberto Lerena, 2 March 1921 - index read; ark 1:1:6LD5-X4PR; her husband's death act READ OFF THE IMAGE 21 September 2026 - film 008165205 image 01604, which is where the words quoted in the note below come from",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
   "note": "Wife of Alberto Lerena (Pedro Alberto Ysabelino, 1852-1921), named at his death. Nothing else in this archive names her.  *** 'NOTHING ELSE IN THIS ARCHIVE NAMES HER' LASTED THREE HOURS. *** Eight children born in the Departamento de San Jose between 1879 and 1898 name her as their mother, and one of them - ZELMIRA CARLOTA - has been in this register since 14 September with her name on it, unrecognised. A *** VICTORIA CROSADE LARRIERA *** stood godmother at her son Carlos Ambrosio Florencio's baptism in 1889, presumably a sister.  *** HER HUSBAND'S DEATH ACT WAS READ OFF THE IMAGE THE SAME DAY: 'era casado con MARIA INES LARRIERA, de cuya union quedan NUEVE HIJOS'. *** She outlived him - the act does not call her fallecida where it calls both his parents so - and she had borne nine children, one more than the civil index surfaces.",
@@ -11283,7 +11635,7 @@
   "source": "Catedral Basilica de Montevideo, marriage of 3 Feb 1892 - FULL-TEXT TRANSCRIPT READ; ark 3:1:3Q9M-C9B7-R32C-K; IMAGE READ 21 September 2026 - film 007713383 image 02601; and her own Montevideo death registration No. 632 of 20 June 1940 - IMAGE READ, film 008166249 image 01900, index ark 1:1:XSXM-NTHF",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "Married Alfredo Lerena Traibel at the Catedral Basilica de Montevideo, 3 February 1892, aged thirty. Daughter of Don Geronimo Gavarro and Dona Carolina Juarez. *** She and her husband were COUSINS - the act dispenses an impediment of the third degree of consanguinity with atingencia to the second. ***  *** THE SURNAME IS CORRECTED OFF THE IMAGE, 21 September 2026. *** This archive held it from a MACHINE FULL-TEXT TRANSCRIPT of the 1892 marriage act and never opened the page. The page was opened - film 007713383 image 02601, folio 340 - and the act reads *** 'hija legitima de Don GERONIMO GAVAZZO y Dona CAROLINA SUAREZ' ***. *** GAVAZZO, not Gavarro; SUAREZ, not Juarez. *** It is corroborated independently by Hermenegilda's own Montevideo death registration of 20 June 1940, certificate 632, read off film 008166249 image 01900, which writes her *** HERMENEGILDA GAVAZZO DE LERENA *** and her parents *** Geronimo Gavazzo and Carolina Suarez ***. Two images, forty-eight years apart, against one machine transcript.  *** AND SHE HAS A DEATH, found the same day: 20 JUNE 1940, at MONTEVIDEO. *** The act says she died at R. Masini 3273, *** 'de estado VIUDA' ***, *** 'a consecuencia de FRACTURA DEL CUELLO DEL FEMUR' *** - a broken hip, which for a woman of about seventy-eight in 1940 is usually the end. Certificate 632, registered by Jose M. Reyes Corvalan. *** SO ALFREDO JUSTINIANO DIED BEFORE 20 JUNE 1940 ***, which is the first thing this archive has ever known about the end of his life. She was a widow, and the marriage had lasted at least into its fifth decade.",
+  "note": "Married Alfredo Lerena Traibel at the Catedral Basilica de Montevideo, 3 February 1892, aged thirty. Daughter of Don Geronimo GAVAZZO and Dona Carolina SUAREZ - so the plate, read 21 September 2026; this row said \"Gavarro\" and \"Juarez\" until then, on a machine transcript. *** She and her husband were COUSINS - the act dispenses an impediment of the third degree of consanguinity with atingencia to the second. ***  *** THE SURNAME IS CORRECTED OFF THE IMAGE, 21 September 2026. *** This archive held it from a MACHINE FULL-TEXT TRANSCRIPT of the 1892 marriage act and never opened the page. The page was opened - film 007713383 image 02601, folio 340 - and the act reads *** 'hija legitima de Don GERONIMO GAVAZZO y Dona CAROLINA SUAREZ' ***. *** GAVAZZO, not \"Gavarro\"; SUAREZ, not \"Juarez\". *** It is corroborated independently by Hermenegilda's own Montevideo death registration of 20 June 1940, certificate 632, read off film 008166249 image 01900, which writes her *** HERMENEGILDA GAVAZZO DE LERENA *** and her parents *** Geronimo Gavazzo and Carolina Suarez ***. Two images, forty-eight years apart, against one machine transcript.  *** AND SHE HAS A DEATH, found the same day: 20 JUNE 1940, at MONTEVIDEO. *** The act says she died at R. Masini 3273, *** 'de estado VIUDA' ***, *** 'a consecuencia de FRACTURA DEL CUELLO DEL FEMUR' *** - a broken hip, which for a woman of about seventy-eight in 1940 is usually the end. Certificate 632, registered by Jose M. Reyes Corvalan. *** SO ALFREDO JUSTINIANO DIED BEFORE 20 JUNE 1940 ***, which is the first thing this archive has ever known about the end of his life. She was a widow, and the marriage had lasted at least into its fifth decade.",
   "place": "Montevideo",
   "placeSlug": "montevideo",
   "surname": "GAVAZZO",
@@ -11291,15 +11643,27 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Don Geronimo GAVAZZO",
+   "dates": "",
+   "slug": "don-geronimo-gavazzo",
+   "via": "register",
+   "note": "Catedral Basilica de Montevideo, marriage of 3 Feb 1892 - IMAGE READ 21 Sep 2026: 'hija legitima de Don GERONIMO GAVAZZO y Dona CAROLINA SUAREZ'."
+  },
+  "mother": {
+   "name": "Dona Carolina SUAREZ",
+   "dates": "",
+   "slug": "dona-carolina-suarez",
+   "via": "register",
+   "note": "Catedral Basilica de Montevideo, marriage of 3 Feb 1892 - IMAGE READ 21 Sep 2026: 'hija legitima de Don GERONIMO GAVAZZO y Dona CAROLINA SUAREZ'."
+  },
   "spouses": [],
   "children": [],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -11314,7 +11678,7 @@
   "source": "Catedral Basilica de Montevideo, marriage of 3 Feb 1892 - FULL-TEXT TRANSCRIPT READ; ark 3:1:3Q9M-C9B7-R32C-K; IMAGE READ 21 September 2026 - film 007713383 image 02601",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "Father of Hermenegilda Carolina Gavarro; named at her marriage to Alfredo Lerena Traibel, 3 February 1892.  *** THE SURNAME IS CORRECTED OFF THE IMAGE, 21 September 2026. *** This archive held it from a MACHINE FULL-TEXT TRANSCRIPT of the 1892 marriage act and never opened the page. The page was opened - film 007713383 image 02601, folio 340 - and the act reads *** 'hija legitima de Don GERONIMO GAVAZZO y Dona CAROLINA SUAREZ' ***. *** GAVAZZO, not Gavarro; SUAREZ, not Juarez. *** It is corroborated independently by Hermenegilda's own Montevideo death registration of 20 June 1940, certificate 632, read off film 008166249 image 01900, which writes her *** HERMENEGILDA GAVAZZO DE LERENA *** and her parents *** Geronimo Gavazzo and Carolina Suarez ***. Two images, forty-eight years apart, against one machine transcript.",
+  "note": "Father of Hermenegilda Carolina GAVAZZO; named at her marriage to Alfredo Lerena Traibel, 3 February 1892.  *** THE SURNAME IS CORRECTED OFF THE IMAGE, 21 September 2026. *** This archive held it from a MACHINE FULL-TEXT TRANSCRIPT of the 1892 marriage act and never opened the page. The page was opened - film 007713383 image 02601, folio 340 - and the act reads *** 'hija legitima de Don GERONIMO GAVAZZO y Dona CAROLINA SUAREZ' ***. *** GAVAZZO, not \"Gavarro\"; SUAREZ, not \"Juarez\". *** It is corroborated independently by Hermenegilda's own Montevideo death registration of 20 June 1940, certificate 632, read off film 008166249 image 01900, which writes her *** HERMENEGILDA GAVAZZO DE LERENA *** and her parents *** Geronimo Gavazzo and Carolina Suarez ***. Two images, forty-eight years apart, against one machine transcript.",
   "place": "Montevideo",
   "placeSlug": "montevideo",
   "surname": "GAVAZZO",
@@ -11325,12 +11689,20 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Hermenegilda Carolina GAVAZZO (de LERENA)",
+    "dates": "",
+    "slug": "hermenegilda-carolina-gavazzo",
+    "via": "register",
+    "note": "Catedral Basilica de Montevideo, marriage of 3 Feb 1892 - IMAGE READ 21 Sep 2026: 'hija legitima de Don GERONIMO GAVAZZO y Dona CAROLINA SUAREZ'."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -11345,7 +11717,7 @@
   "source": "Catedral Basilica de Montevideo, marriage of 3 Feb 1892 - FULL-TEXT TRANSCRIPT READ; ark 3:1:3Q9M-C9B7-R32C-K; IMAGE READ 21 September 2026 - film 007713383 image 02601",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "Mother of Hermenegilda Carolina Gavarro; named at her marriage to Alfredo Lerena Traibel, 3 February 1892.  *** THE SURNAME IS CORRECTED OFF THE IMAGE, 21 September 2026. *** This archive held it from a MACHINE FULL-TEXT TRANSCRIPT of the 1892 marriage act and never opened the page. The page was opened - film 007713383 image 02601, folio 340 - and the act reads *** 'hija legitima de Don GERONIMO GAVAZZO y Dona CAROLINA SUAREZ' ***. *** GAVAZZO, not Gavarro; SUAREZ, not Juarez. *** It is corroborated independently by Hermenegilda's own Montevideo death registration of 20 June 1940, certificate 632, read off film 008166249 image 01900, which writes her *** HERMENEGILDA GAVAZZO DE LERENA *** and her parents *** Geronimo Gavazzo and Carolina Suarez ***. Two images, forty-eight years apart, against one machine transcript.",
+  "note": "Mother of Hermenegilda Carolina GAVAZZO; named at her marriage to Alfredo Lerena Traibel, 3 February 1892.  *** THE SURNAME IS CORRECTED OFF THE IMAGE, 21 September 2026. *** This archive held it from a MACHINE FULL-TEXT TRANSCRIPT of the 1892 marriage act and never opened the page. The page was opened - film 007713383 image 02601, folio 340 - and the act reads *** 'hija legitima de Don GERONIMO GAVAZZO y Dona CAROLINA SUAREZ' ***. *** GAVAZZO, not \"Gavarro\"; SUAREZ, not \"Juarez\". *** It is corroborated independently by Hermenegilda's own Montevideo death registration of 20 June 1940, certificate 632, read off film 008166249 image 01900, which writes her *** HERMENEGILDA GAVAZZO DE LERENA *** and her parents *** Geronimo Gavazzo and Carolina Suarez ***. Two images, forty-eight years apart, against one machine transcript.",
   "place": "Montevideo",
   "placeSlug": "montevideo",
   "surname": "SUAREZ",
@@ -11356,12 +11728,20 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Hermenegilda Carolina GAVAZZO (de LERENA)",
+    "dates": "",
+    "slug": "hermenegilda-carolina-gavazzo",
+    "via": "register",
+    "note": "Catedral Basilica de Montevideo, marriage of 3 Feb 1892 - IMAGE READ 21 Sep 2026: 'hija legitima de Don GERONIMO GAVAZZO y Dona CAROLINA SUAREZ'."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -11376,7 +11756,7 @@
   "source": "Catedral Basilica de Montevideo, marriage of 3 Feb 1892 - FULL-TEXT TRANSCRIPT READ; ark 3:1:3Q9M-C9B7-R32C-K - IMAGE READ 21 September 2026; film 007713383 image 02601",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "Witness, with Dona Ambrosia Traibel, at the marriage of Alfredo Lerena Traibel and Hermenegilda Carolina Gavarro, 3 February 1892. *** READ OFF THE PLATE 21 September 2026. *** Film 007713383 image 02601, folio 340 - the Catedral Basilica marriage of 3 February 1892. His name is on the plate at the end of the act, in the witness clause beside Dona Ambrosia Traibel - the groom's mother standing witness where a father would be, because Avelino had been dead sixteen months. *** The same plate corrected three surnames on this page of the register: the bride is a GAVAZZO and her mother a SUAREZ, not the Gavarro and Juarez a machine gave. His own name survives unchanged. ***",
+  "note": "Witness, with Dona Ambrosia Traibel, at the marriage of Alfredo Lerena Traibel and Hermenegilda Carolina GAVAZZO, 3 February 1892. *** READ OFF THE PLATE 21 September 2026. *** Film 007713383 image 02601, folio 340 - the Catedral Basilica marriage of 3 February 1892. His name is on the plate at the end of the act, in the witness clause beside Dona Ambrosia Traibel - the groom's mother standing witness where a father would be, because Avelino had been dead sixteen months. *** The same plate corrected three surnames on this page of the register: the bride is a GAVAZZO and her mother a SUAREZ, not the \"Gavarro\" and \"Juarez\" a machine gave. His own name survives unchanged. ***",
   "place": "Montevideo",
   "placeSlug": "montevideo",
   "surname": "NAVIA",
@@ -11708,7 +12088,15 @@
   },
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Custodio LERENA",
+    "dates": "",
+    "slug": "custodio-lerena",
+    "via": "register",
+    "note": "The 1911 dispensation diagram, film 007713362 image 02473. She is FLORINDA, not the \"Florencia\" this archive carried until 21 Sep 2026."
+   }
+  ],
   "siblings": [
    {
     "name": "Maria LERENA (m. Eliseo CARDOZO)",
@@ -11719,8 +12107,8 @@
   ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 1,
-  "relRegister": 1,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -11752,7 +12140,15 @@
   },
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Ema CARDOZO",
+    "dates": "",
+    "slug": "ema-cardozo",
+    "via": "register",
+    "note": "The 1911 dispensation diagram; she is a double first cousin of her intended husband Custodio."
+   }
+  ],
   "siblings": [
    {
     "name": "Bernabe LERENA (1911 dispensation)",
@@ -11763,8 +12159,8 @@
   ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 1,
-  "relRegister": 1,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -11787,15 +12183,27 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Bernabe LERENA (1911 dispensation)",
+   "dates": "",
+   "slug": "bernabe-lerena-2",
+   "via": "register",
+   "note": "The 1911 dispensation diagram, film 007713362 image 02473. She is FLORINDA, not the \"Florencia\" this archive carried until 21 Sep 2026."
+  },
+  "mother": {
+   "name": "Florinda CARDOZO",
+   "dates": "",
+   "slug": "florinda-cardozo",
+   "via": "register",
+   "note": "The 1911 dispensation diagram, film 007713362 image 02473. She is FLORINDA, not the \"Florencia\" this archive carried until 21 Sep 2026."
+  },
   "spouses": [],
   "children": [],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -11818,15 +12226,27 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Eliseo CARDOZO",
+   "dates": "",
+   "slug": "eliseo-cardozo",
+   "via": "register",
+   "note": "The 1911 dispensation diagram; she is a double first cousin of her intended husband Custodio."
+  },
+  "mother": {
+   "name": "Maria LERENA (m. Eliseo CARDOZO)",
+   "dates": "",
+   "slug": "maria-lerena-2",
+   "via": "register",
+   "note": "The 1911 dispensation diagram; she is a double first cousin of her intended husband Custodio."
+  },
   "spouses": [],
   "children": [],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -11858,7 +12278,15 @@
   },
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Custodio LERENA",
+    "dates": "",
+    "slug": "custodio-lerena",
+    "via": "register",
+    "note": "The 1911 dispensation diagram, film 007713362 image 02473. She is FLORINDA, not the \"Florencia\" this archive carried until 21 Sep 2026."
+   }
+  ],
   "siblings": [
    {
     "name": "Eliseo CARDOZO",
@@ -11869,8 +12297,8 @@
   ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 1,
-  "relRegister": 1,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -11902,7 +12330,15 @@
   },
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Ema CARDOZO",
+    "dates": "",
+    "slug": "ema-cardozo",
+    "via": "register",
+    "note": "The 1911 dispensation diagram; she is a double first cousin of her intended husband Custodio."
+   }
+  ],
   "siblings": [
    {
     "name": "Florinda CARDOZO",
@@ -11913,8 +12349,8 @@
   ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 1,
-  "relRegister": 1,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -14434,6 +14870,13 @@
   "spouses": [],
   "children": [
    {
+    "name": "Avelino LERENA Villademoros (d. 1914)",
+    "dates": "",
+    "slug": "avelino-lerena-villademoros",
+    "via": "register",
+    "note": "Same registration, which writes her VILLADEMORO."
+   },
+   {
     "name": "Avelino Pedro Joaquin Silvestre LERENA Villademoros",
     "dates": "",
     "slug": "avelino-pedro-joaquin-silvestre-lerena-villademoros",
@@ -14446,13 +14889,20 @@
     "slug": "pedro-gualberto-lerena-villademoros",
     "via": "register",
     "note": "Same act."
+   },
+   {
+    "name": "Pedro Segundo LERENA Villademoros",
+    "dates": "",
+    "slug": "pedro-segundo-lerena-villademoros",
+    "via": "register",
+    "note": "Same registration."
    }
   ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 2,
-  "relRegister": 2,
+  "relTotal": 4,
+  "relRegister": 4,
   "relTree": 0,
   "evidence": []
  },
@@ -14545,9 +14995,9 @@
    "note": "Named as his father in the Montevideo death registration of 24 August 1936; index-level."
   },
   "mother": {
-   "name": "Celedonia VILLADEMOROS",
+   "name": "Celedonia VILLADEMOROS (wife of Avelino Eduardo)",
    "dates": "",
-   "slug": "",
+   "slug": "celedonia-villademoros",
    "via": "register",
    "note": "Same registration."
   },
@@ -14615,9 +15065,9 @@
    "note": "Named as his father in the Montevideo death registration of 5 January 1914; index-level."
   },
   "mother": {
-   "name": "Celedonia VILLADEMOROS",
+   "name": "Celedonia VILLADEMOROS (wife of Avelino Eduardo)",
    "dates": "",
-   "slug": "",
+   "slug": "celedonia-villademoros",
    "via": "register",
    "note": "Same registration, which writes her VILLADEMORO."
   },
@@ -14949,6 +15399,13 @@
     "note": "Same."
    },
    {
+    "name": "Susana LLERENA",
+    "dates": "",
+    "slug": "susana-llerena",
+    "via": "register",
+    "note": "Same record."
+   },
+   {
     "name": "Telma LLERENA",
     "dates": "",
     "slug": "telma-llerena",
@@ -14966,8 +15423,8 @@
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 4,
-  "relRegister": 4,
+  "relTotal": 5,
+  "relRegister": 5,
   "relTree": 0,
   "evidence": []
  },
@@ -15494,6 +15951,80 @@
   "aliasOf": null,
   "relTotal": 2,
   "relRegister": 2,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "julia-salvanach",
+  "name": "Julia SALVANACH",
+  "born": "-",
+  "birthplace": "Uruguay",
+  "nationality": "Uruguayan",
+  "occupation": "-",
+  "where": "Montevideo, later Buenos Aires",
+  "source": "San Francisco de Asis, Montevideo, baptism act No. 1447, 31 Oct 1886 - IMAGE READ; ark 3:1:3Q9M-C9BW-Z9RM-W",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** SHE WAS MISSING FROM THIS REGISTER UNTIL 23 SEPTEMBER 2026, WHILE BOTH HER PARENTS WERE IN IT AND THREE EDGES OF THE TREE POINTED AT HER. *** Wife of *** GILBERTO LERENA *** (Gilberto Justiniano Lerena Lenguas) and mother of the *** LERENA SALVANACH *** - Gilberto the younger (1878), Carlos Augusto Federico (1883), Maria Angelica Julia, Maria Carlota, Luis Felipe, Cesar Alberto and Horacio Alfredo. Daughter of *** DON CRISTOBAL SALVANACH and DONA ANGELA ALVAREZ ***, who were entered here from act 1447 as the maternal grandparents of her child - so the archive held her parents, and her children, and not her. *** THE ACT CALLS THE COUPLE \"orientales\" ***, Uruguayan. *** HOW SHE WAS FOUND: *** not by research, but by asking which people data/relations.tsv names that the register does not hold - a question nothing had asked until a gate was written for it.",
+  "place": "Montevideo, later Buenos Aires",
+  "placeSlug": "montevideo-later-buenos-aires",
+  "surname": "SALVANACH",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [
+   {
+    "name": "Carlos Augusto Federico LERENA Salvanach (b. 9 July 1883)",
+    "dates": "",
+    "slug": "carlos-augusto-federico-lerena-salvanach",
+    "via": "register",
+    "note": "1895 census"
+   },
+   {
+    "name": "Cesar Alberto LERENA Salvanach",
+    "dates": "",
+    "slug": "cesar-alberto-lerena-salvanach",
+    "via": "register",
+    "note": "Stated on his own register row; wired 23 Sep 2026 to match his siblings."
+   },
+   {
+    "name": "Luis Felipe LERENA Salvanach",
+    "dates": "",
+    "slug": "luis-felipe-lerena-salvanach",
+    "via": "register",
+    "note": "Mother edge added 23 Sep 2026; the father edge was already wired and the mother was not in the register."
+   },
+   {
+    "name": "Maria Angelica Julia LERENA Salvanach",
+    "dates": "",
+    "slug": "maria-angelica-julia-lerena-salvanach",
+    "via": "register",
+    "note": "Mother edge added 23 Sep 2026; the father edge was already wired and the mother was not in the register."
+   },
+   {
+    "name": "Maria Carlota LERENA Salvanach",
+    "dates": "",
+    "slug": "maria-carlota-lerena-salvanach",
+    "via": "register",
+    "note": "Mother edge added 23 Sep 2026; the father edge was already wired and the mother was not in the register."
+   },
+   {
+    "name": "Raul LERENA",
+    "dates": "",
+    "slug": "raul-lerena",
+    "via": "register",
+    "note": "Argentina Military Records 1911-1936"
+   }
+  ],
+  "siblings": [],
+  "isLine": false,
+  "aliasOf": null,
+  "relTotal": 6,
+  "relRegister": 6,
   "relTree": 0,
   "evidence": []
  }

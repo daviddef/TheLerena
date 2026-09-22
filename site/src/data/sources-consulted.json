@@ -448,15 +448,15 @@
   "link": ""
  },
  {
-  "source": "Arquidiocesis de Montevideo - marriage petition of Luis Lerena and Carolina Oliva, 3 September 1836",
+  "source": "Arquidiocesis de Montevideo - marriage petition of Luis Lerena and Carolina ORIBE, 3 September 1836",
   "used_for": "*** THE FIRST MARRIAGE, found within an hour of learning there had been one. *** On the stamped paper of 1836 and signed by Luis Lerena in his own hand: \"hijo legitimo de D. SANCHO LERENA y de Dona MARIA FERNANDEZ ... tiene concertado matrimonio con Dona CAROLINA OLIVA\". *** Sancho's earliest and plainest attestation - a fourth record - closing the doubt raised by two 1846 transcripts. *** FamilySearch files it under a Colombian collection by mistake.",
   "accessed": "14 Sep 2026",
   "tier": "PRIMARY",
   "link": ""
  },
  {
-  "source": "Uruguayan collections searched for CHILDREN of Luis Lerena and Carolina Oliva, 1836-1842",
-  "used_for": "*** A NULL, and an honest one. *** No record anywhere pairs a Lerena father with a Carolina Oliva mother; and every Carolina Oliva in the Uruguayan records of that span belongs to a later woman who married Antonio Reverditto. The 1836 marriage left no indexed trace but its own petition. Not an exclusion - the Montevideo registers of 1837-1841 are largely un-indexed, and this archive has twice this week found what indexes miss.",
+  "source": "Uruguayan collections searched for CHILDREN of Luis Lerena and Carolina ORIBE, 1836-1842 - SEARCHED UNDER \"OLIVA\"",
+  "used_for": "*** A NULL, and an honest one. *** No record anywhere pairs a Lerena father with a \"Carolina Oliva\" mother; and every \"Carolina Oliva\" in the Uruguayan records of that span belongs to a later woman who married Antonio Reverditto. The 1836 marriage left no indexed trace but its own petition. Not an exclusion - the Montevideo registers of 1837-1841 are largely un-indexed, and this archive has twice this week found what indexes miss.",
   "accessed": "14 Sep 2026",
   "tier": "SECONDARY",
   "link": ""
@@ -589,7 +589,7 @@
  },
  {
   "source": "Catedral Basilica de Montevideo - marriage of 3 February 1892",
-  "used_for": "*** A TENTH LERENA DISPENSATION, and a second child for Avelino. *** ALFREDO GERENA [LERENA], 35, \"hijo legitimo de Don Avelino Lorena y Dona Ambrosia Traibel\", married Hermenegilda Carolina Gavarro - the couple DISPENSED OF CONSANGUINITY in the third degree with atingencia to the second by Archbishop MARIANO SOLER personally. His mother stood witness. *** Missed by this archive's dispensation sweep two ways at once: the groom is spelled GERENA, a seventh variant, and the dispensation clause precedes the names. ***",
+  "used_for": "*** A TENTH LERENA DISPENSATION, and a second child for Avelino. *** ALFREDO GERENA [LERENA], 35, \"hijo legitimo de Don Avelino Lorena y Dona Ambrosia Traibel\", married Hermenegilda Carolina GAVAZZO - the couple DISPENSED OF CONSANGUINITY in the third degree with atingencia to the second by Archbishop MARIANO SOLER personally. His mother stood witness. *** Missed by this archive's dispensation sweep two ways at once: the groom is spelled GERENA, a seventh variant, and the dispensation clause precedes the names. ***",
   "accessed": "14 Sep 2026",
   "tier": "PRIMARY",
   "link": ""
@@ -645,7 +645,7 @@
  },
  {
   "source": "Arquidiocesis de Montevideo - Marriage Dispensation Records, July-August 1911",
-  "used_for": "*** THE ELEVENTH LERENA DISPENSATION, and the only one that draws its own family tree. *** Under \"Esquemas explicativos de los grados de parentesco\" the Cura Vicario sets out two lines: BERNABE LERENA married FLORENCIA CARDOZO, and his sister MARIA LERENA married her brother ELISEO CARDOZO - so their children CUSTODIO LERENA and EMA CARDOZO are DOUBLE FIRST COUSINS, which is why the tie had to be traced twice. *** They asked to be excused the fee, \"pues no pueden satisfacerlos\" - a poor Lerena household, in an archive that has spent two days finding generals, judges and hacendados. *** AND IT CARRIES A DOCUMENTED MARIA LERENA of roughly the right generation - recorded so she is ruled out ON THE RECORD, since she married a Cardozo where Pablo Armando's mother stands beside Juan Carlos Lerena. *** THE STANDING CONCLUSION SURVIVES: eleven dispensations, and every Lerena in every one of them marries out. ***",
+  "used_for": "*** THE ELEVENTH LERENA DISPENSATION, and the only one that draws its own family tree. *** Under \"Esquemas explicativos de los grados de parentesco\" the Cura Vicario sets out two lines: BERNABE LERENA married FLORINDA CARDOZO, and his sister MARIA LERENA married her brother ELISEO CARDOZO - so their children CUSTODIO LERENA and EMA CARDOZO are DOUBLE FIRST COUSINS, which is why the tie had to be traced twice. *** They asked to be excused the fee, \"pues no pueden satisfacerlos\" - a poor Lerena household, in an archive that has spent two days finding generals, judges and hacendados. *** AND IT CARRIES A DOCUMENTED MARIA LERENA of roughly the right generation - recorded so she is ruled out ON THE RECORD, since she married a Cardozo where Pablo Armando's mother stands beside Juan Carlos Lerena. *** THE STANDING CONCLUSION SURVIVES: eleven dispensations, and every Lerena in every one of them marries out. ***",
   "accessed": "14 Sep 2026",
   "tier": "PRIMARY - full-text transcript read",
   "link": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C9B7-GS3N-1"
@@ -904,7 +904,7 @@
  },
  {
   "source": "Catedral Basilica de Montevideo - marriage of 3 February 1892 - FamilySearch film 007713383",
-  "used_for": "*** THE PLATE THAT STARTED THE WHOLE TRANSCRIPT-ONLY SWEEP. *** Three register rows carried surnames no human had ever read: GAVAZZO, not Gavarro, and SUAREZ, not Juarez. The machine had the dates, the ages, the dispensation and the relationships right, and the proper nouns wrong.",
+  "used_for": "*** THE PLATE THAT STARTED THE WHOLE TRANSCRIPT-ONLY SWEEP. *** Three register rows carried surnames no human had ever read: GAVAZZO, not \"Gavarro\", and SUAREZ, not \"Juarez\". The machine had the dates, the ages, the dispensation and the relationships right, and the proper nouns wrong.",
   "accessed": "21 Sep 2026",
   "tier": "PRIMARY",
   "link": "https://www.familysearch.org/search/film/007713383"
@@ -932,7 +932,7 @@
  },
  {
   "source": "San Juan Bautista, Pocitos, Montevideo - baptism of 15 August 1903 - FamilySearch film 007713400",
-  "used_for": "The ZALSAMENDI marriage into the family. Eight people off one image; the surname this archive had carried as 'Del Suando' from a machine transcript is *** ZALSAMENDI ***.",
+  "used_for": "The ZALSAMENDI marriage into the family. Eight people off one image; the surname this archive had carried as \"Del Suando\" from a machine transcript is *** ZALSAMENDI ***.",
   "accessed": "21 Sep 2026",
   "tier": "PRIMARY",
   "link": "https://www.familysearch.org/search/film/007713400"
@@ -974,7 +974,7 @@
  },
  {
   "source": "Catedral Basilica de Montevideo - marriage of 3 February 1892, second image - FamilySearch film 008166249",
-  "used_for": "The corroborating image forty-eight years later that confirmed GAVAZZO against the machine's Gavarro.",
+  "used_for": "The corroborating image forty-eight years later that confirmed GAVAZZO against the machine's \"Gavarro\".",
   "accessed": "21 Sep 2026",
   "tier": "PRIMARY",
   "link": "https://www.familysearch.org/search/film/008166249"
