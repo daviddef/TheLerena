@@ -41,6 +41,9 @@ const groups = [
   <>
     <Rule name="arrows" label={title} />
     <section class="blk">
+      {/* The labelled Rule above carries this visually; the heading exists so the
+          document does not jump h1 -> h3, which tools/audit.py reports. */}
+      <h2 class="vh">{title}</h2>
       <Errands groups={[{ rows: toRows(list) }]} u={u} />
     </section>
   </>

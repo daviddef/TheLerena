@@ -231,13 +231,23 @@ def check_data(r):
 
 
 # ------------------------------------------------------------------------ privacy
+DECLARED_LETTERS = [(f.stem, "Where it goes")
+                    for f in sorted((pathlib.Path(__file__).resolve().parent.parent
+                                     / "data").glob("letter-*.tsv"))]
+
+
 def check_privacy(r, docs):
     # An institutional address is CONTENT here: the archive publishes the contact
     # for every repository it asks things of, so a reader can write to them too.
     # A personal mailbox would be a leak. They are not the same finding.
     PERSONAL = re.compile(r"@(gmail|googlemail|hotmail|outlook|yahoo|icloud|me|proton"
                           r"|aol|live|msn)\.", re.I)
-    mail, phone, inst = set(), set(), set()
+    mail, phone, inst, instphone = set(), set(), set(), set()
+    # AND THE SAME DISTINCTION FOR TELEPHONES, added 22 September 2026. The archive
+    # publishes the switchboard of every repository it writes to, for the same reason
+    # it publishes their email: so a reader can ask them too. A number that sits in a
+    # declared letter-writing errand is CONTENT. A number appearing anywhere else is
+    # the finding this check exists for, and stays one.
     MAIL = re.compile(r"[\w.+-]+@[\w-]+\.[\w.]{2,}")
     # A BARE RUN OF DIGITS IS A FILM NUMBER, NOT A TELEPHONE. This archive is full of
     # them - 007713686, 004098792, 101485627 - and the first version of this check
@@ -255,14 +265,18 @@ def check_privacy(r, docs):
             if m.lower().endswith((".png", ".jpg", ".webp")):
                 continue
             (mail if PERSONAL.search(m) else inst).add(m)
+        letters = [d2 for _, d2 in DECLARED_LETTERS if d2 in text]
         for m in PHONE.findall(text):
             digits = re.sub(r"\D", "", m)
-            if len(digits) >= 9:
-                phone.add(f"{rel(p)} {m.strip()[:28]}")
+            if len(digits) < 9:
+                continue
+            (instphone if letters else phone).add(f"{rel(p)} {m.strip()[:28]}")
     r.add("no PERSONAL email addresses in the build", sorted(mail),
           good=f"{len(inst)} institutional contact(s), published on purpose: "
                + ", ".join(sorted(inst)[:3]) + (" ..." if len(inst) > 3 else ""))
     r.add("no unexpected telephone numbers", sorted(phone),
+          good=(f"{len(instphone)} repository switchboard(s) on a letter page, published on purpose"
+                if instphone else "none"),
           note="a number with separators is probably a real telephone - check it is meant to be public")
 
 
