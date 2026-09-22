@@ -18,7 +18,7 @@ const spine = (house) => spines
   .filter((r) => r.house === house)
   .map((r) => Object.fromEntries(
     Object.entries(r)
-      .filter(([k, v]) => k !== "house" && v !== "" && v !== "-")
+      .filter(([k, v]) => !["house", "register"].includes(k) && v !== "" && v !== "-")
       .map(([k, v]) => [k, k === "weak" ? v === "yes" : v])));
 
 const sanchoHouse = spine("sancho");
