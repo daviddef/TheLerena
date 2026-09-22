@@ -1,0 +1,33 @@
+# THE DESCENT SPINES DRAWN ON /uruguay/ - THREE HOUSES, ONE FILE.
+#
+# *** WHY THIS FILE EXISTS, and it is one day old. *** These three ladders were HAND-WRITTEN
+# in site/src/pages/uruguay.astro, and hand-written descent went stale TWICE IN TWO DAYS:
+#   22 Sep - gen 4 of the Sancho house said "Alejandro Maximo (1839-1903)", asserting an
+#            identification data/the-three-alejandros.tsv has never been able to make, on a
+#            year two Montevideo acts put five years out.
+#   22 Sep - gen 3 said Avelino died "23 August 1890, La Paz, Canelones". He died on the
+#            *** 22nd, at Montevideo, and was REGISTERED the next day ***. Both the wrong date
+#            and the wrong place came from data/montevideo-lerena-trunk.tsv, a file whose own
+#            header says "TIER: SECONDARY THROUGHOUT ... no row here may be cited as fact".
+# The same row also said Avelino was "the seventh of eight children". He is the EIGHTH of eight,
+# or the seventh of seven if Fidel - the only one attested at second hand - is set aside. There
+# is no count under which the published phrase was right.
+#
+# *** THE POINT IS NOT THAT SOMEBODY MISTYPED. *** tools/check-inline.py had been reporting
+# these ladders for days - "reachable only by editing the page" - and nothing gated them, so a
+# tree value could be published as fact and no check would ever see it. A spine in a TSV is a
+# spine tools/drift.py and the emphasis and raggedness checks can reach.
+#
+# weak = "yes" marks THE JOINT THAT CANNOT BEAR WEIGHT, and weakNote says why.
+# note and weakNote hold HTML deliberately: these cells are rendered with set:html.
+house	gen	name	spouse	born	bornPlace	died	diedPlace	confidence	weak	weakNote	note
+sancho	1	Félix Llerena	Rosalía Aguilar		Córdoba, Andalusia — Spain			Documented	yes	Named on their son's marriage act of 1791 and again on a grandson's baptism of 1811, where the father is written <em>Feliz Gerena</em>. <strong>Not yet found in any Spanish register.</strong>	<span class="cap">Both <em>naturales de dicha Córdova</em>.</span>
+sancho	2	Sancho Llerena	María Fernández	about 1767	Córdova la Llana, Spain			Documented			<span class="cap">Married at <strong>Canelones, 8 January 1791</strong>. A dragoon; in 1798 he swore an oath and <strong>could not sign his name</strong>. She <em>natural de las Asturias</em>, daughter of Rodrigo and Rosa Fernández.</span>
+sancho	3	Avelino Lerena Fernández	Ambrosia Traibel y Centeno	1815	Montevideo	22 August 1890	Montevideo	Documented			<span class="cap">The <strong>youngest</strong> of Sancho’s children, born between 1793 and 1815 — eight of them counting Fidel, who is attested only at second hand. Father of the <strong>Lerena Traibel</strong>. His death was <strong>registered the next day</strong>, which is where the family tree’s &ldquo;23 August, La Paz, Canelones&rdquo; comes from; this page carried that until 22 September 2026. See <a href="/TheLerena/corrections/">corrections</a>.</span>
+sancho	4	The Lerena Traibel						Documented			<span class="cap"><strong>Alejandro</strong> — baptised at La Mauricia 7 January 1846, the eldest known, and <a href="#s-alejandros">whether he is the <em>Alejandro Máximo</em> of the Argentine cards is open</a> — Carlos Ambrosio (1842–1893, who married his cousin Luisa Lerena Lenguas), <strong>Alberto (1852–1921)</strong> — whose death is Montevideo certificate 246 — and eight more. The other branch, the <strong>Lerena Lenguas</strong>, runs beside them.</span>
+ramon	1	Salvador Serena	Ana de Cubas		Spain — place not stated			Documented	yes	Named as the paternal grandparents on the act of 15 November 1812. <strong>Not yet found in any Spanish register</strong> — but their son's birthplace is now known, which makes them findable.	<span class="cap">The tree’s otherwise unexplained &ldquo;Ramón Llerena <em>Cubas</em>&rdquo; is her surname.</span>
+ramon	2	Ramón Serena	María Josefa González	about 1775–85	VALDEMORO, Castilla la Nueva — Spain			Documented			<span class="cap">So the act of 1812 writes him; the indexes say Lerena and Gerena. She <em>natural de la Ysla de Canarias, <strong>Lanzarote</strong></em>, daughter of Marcial de León González and Ysavel Lorenza. Fathering children from about 1800.</span>
+ramon	3	Alejandro and Mauricio						Documented			<span class="cap"><strong>Alejandro</strong>, born <strong>Rosario</strong>, married Margarita Fernández Álvarez at San José, <strong>16 September 1825</strong>. <strong>Mauricio</strong>, born <strong>Colla</strong>, married Casimira Montaño at San José de Mayo, <strong>3 February 1837</strong>. Their brothers Manuel Lorenzo (1812) and Luís Manuel (1820).</span>
+ramon	4	Bernabé and Cipriano						Documented			<span class="cap">Two of the six or seven <strong>Trinidad fathers</strong>, and <strong>first cousins</strong>: Bernabé is Alejandro’s son, Cipriano is Mauricio’s. With Vitalino, Ysaac, Fermín and Florencio they fathered the Flores kindred, marrying Basque women — Beloqui, Echeverry, Pelaez — until the church required a dispensation for consanguinity.</span>
+argentine	1	Juan Carlos Lerena	María Lerena		not known — presumed Rosario de Santa Fe			Documented	yes	Named by their son on <a href="/TheLerena/enrolment-card/">his Argentine enrolment card</a>, filled in at the consulate in Cape Town. <strong>There is no other record of either of them anywhere on earth</strong> — not a baptism, not a marriage, not a burial, in Argentina or Uruguay.	<span class="cap">Her surname is written as his; whether she was a Lerena by birth is not known.</span>
+argentine	2	Pablo Armando Lerena	Mary Septima Taylor	22 February 1882	Rosario de Santa Fe, Argentina	19 March 1950	Newlands, Cape Town	Documented			<span class="cap">In South Africa <strong>Robert Paul Lerena</strong>. Racehorse trainer. Married at Wynberg in 1911; three generations on to David’s mother, with <a href="/TheLerena/direct-line/">no inferred link in the descent</a>.</span>

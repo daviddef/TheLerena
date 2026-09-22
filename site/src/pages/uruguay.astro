@@ -7,59 +7,23 @@ import ramon from "../data/ramon-lerena-rosario.json";
 import mauricio from "../data/mauricio-casimira-montano.json";
 import alejandros from "../data/the-three-alejandros.json";
 import Spine from "@daviddef/archive-kit/components/Spine.astro";
+import spines from "../data/descent-spines.json";
 
 /* The two descents drawn the same way, so the eye can do the comparing. Both
    start in Spain, both cross, both spread across the Banda Oriental — and they
    never touch. Generation 1 of each is the Spanish couple named on a River
    Plate act; neither has been found in a Spanish register yet, so both are
    marked as the joint that cannot bear weight. */
-const sanchoHouse = [
-  { gen: "1", name: "F\u00e9lix Llerena", spouse: "Rosal\u00eda Aguilar",
-    bornPlace: "C\u00f3rdoba, Andalusia \u2014 Spain", confidence: "Documented",
-    weak: true, weakNote: "Named on their son's marriage act of 1791 and again on a grandson's baptism of 1811, where the father is written <em>Feliz Gerena</em>. <strong>Not yet found in any Spanish register.</strong>",
-    note: `<span class="cap">Both <em>naturales de dicha C\u00f3rdova</em>.</span>` },
-  { gen: "2", name: "Sancho Llerena", spouse: "Mar\u00eda Fern\u00e1ndez",
-    born: "about 1767", bornPlace: "C\u00f3rdova la Llana, Spain",
-    confidence: "Documented",
-    note: `<span class="cap">Married at <strong>Canelones, 8 January 1791</strong>. A dragoon; in 1798 he swore an oath and <strong>could not sign his name</strong>. She <em>natural de las Asturias</em>, daughter of Rodrigo and Rosa Fern\u00e1ndez.</span>` },
-  { gen: "3", name: "Avelino Lerena Fern\u00e1ndez", spouse: "Ambrosia Traibel y Centeno",
-    born: "1815", bornPlace: "Montevideo",
-    died: "23 August 1890", diedPlace: "La Paz, Canelones", confidence: "Documented",
-    note: `<span class="cap">The seventh of eight children born between 1793 and 1815. Father of the <strong>Lerena Traibel</strong>.</span>` },
-  { gen: "4", name: "The Lerena Traibel", confidence: "Documented",
-    note: `<span class="cap"><strong>Alejandro</strong> \u2014 baptised at La Mauricia 7 January 1846, the eldest known, and <a href="#s-alejandros">whether he is the <em>Alejandro M\u00e1ximo</em> of the Argentine cards is open</a> \u2014 Carlos Ambrosio (1842\u20131893, who married his cousin Luisa Lerena Lenguas), <strong>Alberto (1852\u20131921)</strong> \u2014 whose death is Montevideo certificate 246 \u2014 and eight more. The other branch, the <strong>Lerena Lenguas</strong>, runs beside them.</span>` },
-];
+const spine = (house) => spines
+  .filter((r) => r.house === house)
+  .map((r) => Object.fromEntries(
+    Object.entries(r)
+      .filter(([k, v]) => k !== "house" && v !== "" && v !== "-")
+      .map(([k, v]) => [k, k === "weak" ? v === "yes" : v])));
 
-/* And the line the archive is actually looking for, drawn to the same scale so
-   the comparison is unavoidable: two names and a wall. */
-const argentineLine = [
-  { gen: "1", name: "Juan Carlos Lerena", spouse: "Mar\u00eda Lerena",
-    bornPlace: "not known \u2014 presumed Rosario de Santa Fe",
-    confidence: "Documented",
-    weak: true, weakNote: "Named by their son on <a href=\"/TheLerena/enrolment-card/\">his Argentine enrolment card</a>, filled in at the consulate in Cape Town. <strong>There is no other record of either of them anywhere on earth</strong> \u2014 not a baptism, not a marriage, not a burial, in Argentina or Uruguay.",
-    note: `<span class="cap">Her surname is written as his; whether she was a Lerena by birth is not known.</span>` },
-  { gen: "2", name: "Pablo Armando Lerena", spouse: "Mary Septima Taylor",
-    born: "22 February 1882", bornPlace: "Rosario de Santa Fe, Argentina",
-    died: "19 March 1950", diedPlace: "Newlands, Cape Town",
-    confidence: "Documented",
-    note: `<span class="cap">In South Africa <strong>Robert Paul Lerena</strong>. Racehorse trainer. Married at Wynberg in 1911; three generations on to David\u2019s mother, with <a href="/TheLerena/direct-line/">no inferred link in the descent</a>.</span>` },
-];
-
-const ramonHouse = [
-  { gen: "1", name: "Salvador Serena", spouse: "Ana de Cubas",
-    bornPlace: "Spain \u2014 place not stated", confidence: "Documented",
-    weak: true, weakNote: "Named as the paternal grandparents on the act of 15 November 1812. <strong>Not yet found in any Spanish register</strong> \u2014 but their son's birthplace is now known, which makes them findable.",
-    note: `<span class="cap">The tree's otherwise unexplained &ldquo;Ram\u00f3n Llerena <em>Cubas</em>&rdquo; is her surname.</span>` },
-  { gen: "2", name: "Ram\u00f3n Serena", spouse: "Mar\u00eda Josefa Gonz\u00e1lez",
-    born: "about 1775\u201385", bornPlace: "VALDEMORO, Castilla la Nueva \u2014 Spain",
-    confidence: "Documented",
-    note: `<span class="cap">So the act of 1812 writes him; the indexes say Lerena and Gerena. She <em>natural de la Ysla de Canarias, <strong>Lanzarote</strong></em>, daughter of Marcial de Le\u00f3n Gonz\u00e1lez and Ysavel Lorenza. Fathering children from about 1800.</span>` },
-  { gen: "3", name: "Alejandro and Mauricio", confidence: "Documented",
-    note: `<span class="cap"><strong>Alejandro</strong>, born <strong>Rosario</strong>, married Margarita Fern\u00e1ndez \u00c1lvarez at San Jos\u00e9, <strong>16 September 1825</strong>. <strong>Mauricio</strong>, born <strong>Colla</strong>, married Casimira Monta\u00f1o at San Jos\u00e9 de Mayo, <strong>3 February 1837</strong>. Their brothers Manuel Lorenzo (1812) and Lu\u00eds Manuel (1820).</span>` },
-  { gen: "4", name: "Bernab\u00e9 and Cipriano", confidence: "Documented",
-    note: `<span class="cap">Two of the six or seven <strong>Trinidad fathers</strong>, and <strong>first cousins</strong>: Bernab\u00e9 is Alejandro's son, Cipriano is Mauricio's. With Vitalino, Ysaac, Ferm\u00edn and Florencio they fathered the Flores kindred, marrying Basque women \u2014 Beloqui, Echeverry, Pelaez \u2014 until the church required a dispensation for consanguinity.</span>` },
-];
-
+const sanchoHouse = spine("sancho");
+const ramonHouse = spine("ramon");
+const argentineLine = spine("argentine");
 const ramonRows = ramon.filter((r) => r.generation && r.grade && r.grade !== "grade");
 const mauricioRows = mauricio.filter((r) => r.child && r.grade && r.grade !== "grade");
 import dUruguayFourDepartments from "../data/uruguay-four-departments.json";

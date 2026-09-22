@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "astro dev --port 4323",
     "atlas": "python3 ../tools/atlas.py",
-    "build": "npm run check:pin && npm run atlas && npm run publish:index && astro build && npm run sitemap && npm run check:living && npm run check:templates && npm run check:kit && npm run check:worklist && npm run check:covers && npm run check:evidence && npm run check:corrections && npm run check:onsite && npm run check:duplicates && npm run check:places && npm run check:pages && npm run check:inline && npm run check:rows",
+    "build": "npm run check:pin && npm run atlas && npm run publish:index && astro build && npm run sitemap && npm run check:living && npm run check:templates && npm run check:kit && npm run check:worklist && npm run check:covers && npm run check:evidence && npm run check:corrections && npm run check:sources && npm run check:onsite && npm run check:duplicates && npm run check:places && npm run check:pages && npm run check:inline && npm run check:rows",
     "preview": "astro preview --port 4323",
     "sitemap": "python3 node_modules/@daviddef/archive-kit/kit/tools/sitemap.py",
     "publish:index": "node -e \"require('fs').copyFileSync('src/data/searchindex.json','public/searchindex.json')\"",
@@ -23,7 +23,8 @@
     "check:pages": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkpages.py --root . --estate ../.. --max-bespoke 1",
     "check:pin": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkpin.py --root .",
     "check:inline": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkinline.py --root . --max-inline 7",
-    "check:rows": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkrows.py --root ."
+    "check:rows": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkrows.py --root .",
+    "check:sources": "python3 ../tools/check-sources.py"
   },
   "dependencies": {
     "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#fd1621e3cdfaa898c067e9bc9fba81d51442ba41",
