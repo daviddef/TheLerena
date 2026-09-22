@@ -8,6 +8,7 @@
    was read), register (a record read), tree (unverified). */
 import { u } from "../lib/url.js";
 import PersonTree from "@daviddef/archive-kit/components/PersonTree.astro";
+import RING from "@daviddef/archive-kit/data/archives.json";
 import "@daviddef/archive-kit/styles/persontree.css";
 
 const { p } = Astro.props;
@@ -27,13 +28,48 @@ const dupNames = (() => {
   return [...dup];
 })();
 
+/* THE ONE RELATIVE ON THESE CHARTS WHO HAS A PAGE SOMEWHERE ELSE.
+ *
+ * An audit on 22 September counted the names drawn on this archive's person
+ * pages that carry no link, because that is what a reader sees: two names
+ * side by side, one clickable and one not, for no reason they can see.
+ * Eight names, and seven of them are published nowhere in the estate —
+ * those need this archive to publish them, which is not a decision a
+ * component makes.
+ *
+ * The eighth is Catherine Mary Sophia Booyzen, who married Nuno Fernando
+ * Lerena. She has a page: it is in the Booyzen archive, on that archive's
+ * own spine at generation two, and it has been there all along. This chart
+ * drew her as plain text beside her linked husband.
+ *
+ * WRITTEN OUT BY HAND, ONE NAME, and matched on that name — which is a
+ * thing this estate refuses to do when deriving links, and is right here
+ * for the opposite reason: nothing is being derived. This is the archive
+ * stating a join it knows, the way D'Arcy states the marriages of its two
+ * living generations. The slug is Booyzen's own and the page was checked
+ * live before the line was written. The base URL comes from the ring so a
+ * site that moves does not strand it.
+ */
+const cross = (() => {
+  // archives.json is an object with a `note` and an `archives` array,
+  // which is why the kit's own helpers unwrap it rather than indexing it.
+  const sites = Array.isArray(RING) ? RING : (RING.archives || []);
+  const site = (sites.find((a) => a.key === "booyzen") || {}).url;
+  return !site ? {} : {
+    "Catherine Mary Sophia Booyzen":
+      `${site.replace(/\/$/, "")}/people/catherine-mary-sophia-booyzen/`,
+  };
+})();
+
 const row = (n, showVia = true) => ({
   name: n.name,
-  href: n.slug ? u(`/people/${n.slug}/`) : undefined,
+  href: n.slug ? u(`/people/${n.slug}/`) : (cross[n.name] || undefined),
   dates: n.dates,
   cls: viaClass(n.via),
   mark: showVia ? viaLabel(n.via) : undefined,
-  title: `Recorded by: ${viaLabel(n.via)}`,
+  title: !n.slug && cross[n.name]
+    ? `Recorded by: ${viaLabel(n.via)} \u2014 her page is in the Booyzen archive`
+    : `Recorded by: ${viaLabel(n.via)}`,
 });
 ---
 <PersonTree
