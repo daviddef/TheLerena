@@ -72,13 +72,37 @@ def norm_place(w):
 rows = [l.rstrip("\n").split("\t") for l in REG.open(encoding="utf-8") if l.strip()]
 hdr, rows = rows[0], rows[1:]
 
+_LEDGER = ROOT / "site" / "src" / "data" / "person-slugs.json"
+try:
+    _ledger_doc = json.loads(_LEDGER.read_text(encoding="utf-8"))
+except Exception:
+    _ledger_doc = {"_why": ["Written by tools/build-people.py"], "slugs": {}}
+_frozen = _ledger_doc["slugs"]
+_taken = set(_frozen.values())
+_minted = []
+
 people, seen = [], {}
 for r in rows:
     r = (r + [""] * 10)[:10]
     name, born, bp, nat, occ, where, src, st, note, ark = r
+    # A PERSON'S URL IS MINTED ONCE AND NEVER RECOMPUTED.
+    #
+    # This used to be `seen[base] += 1` counted in the ROW ORDER of
+    # data/lerena-register.tsv, so inserting a row above a namesake renumbered
+    # every namesake below it. The ledger is read first and used unchanged;
+    # only a name this archive has never published is minted.
     base = slugify(name)
-    seen[base] = seen.get(base, 0) + 1
-    slug = base if seen[base] == 1 else f"{base}-{seen[base]}"
+    if name in _frozen:
+        slug = _frozen[name]
+        seen[base] = seen.get(base, 0) + 1
+    else:
+        seen[base] = seen.get(base, 0) + 1
+        slug = base if seen[base] == 1 else f"{base}-{seen[base]}"
+        while slug in _taken:
+            seen[base] += 1
+            slug = f"{base}-{seen[base]}"
+        _minted.append((name, slug))
+    _taken.add(slug)
     place = norm_place(where)
     people.append({
         "slug": slug, "name": name, "born": born, "birthplace": bp,
@@ -257,6 +281,18 @@ if EVID.exists():
             % (len(missing), "\n  ".join(sorted(set(missing)))))
 
 OUT.mkdir(parents=True, exist_ok=True)
+
+# Written EVERY run and deterministically — byte-identical when nothing new
+# was minted — so a stamp or an orphan check can account for it. A file only
+# sometimes written looks exactly like one whose generator has been deleted.
+for _n, _s in _minted:
+    _frozen.setdefault(_n, _s)
+_ledger_doc["slugs"] = dict(sorted(_frozen.items()))
+_LEDGER.write_text(json.dumps(_ledger_doc, ensure_ascii=False, indent=1) + "\n",
+                   encoding="utf-8")
+if _minted:
+    print(f"  person-slugs.json: {len(_minted)} new slug(s) frozen")
+
 (OUT / "people.json").write_text(json.dumps(people, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
 (OUT / "places.json").write_text(json.dumps(places, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
 ev = sum(len(p["evidence"]) for p in people)
