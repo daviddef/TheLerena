@@ -71,8 +71,31 @@ const row = (n, showVia = true) => ({
     ? `Recorded by: ${viaLabel(n.via)} \u2014 her page is in the Booyzen archive`
     : `Recorded by: ${viaLabel(n.via)}`,
 });
+/* 195 of this archive's 358 person pages drew no chart at all — the worst
+   coverage of the seven — and a page that draws nothing tells a reader this
+   archive knows nobody. What is true is narrower, and this archive already has
+   its own word for it in `status`: unplaced, excluded, of interest. So the chart
+   is drawn for everybody and the caption says which.
+
+   It does not repeat the note. The note is already this page's dek, and it
+   carries the real reasoning — "Widow; kin of Gilberto (1854), probably sister
+   or sister-in-law" — which is exactly the kind of held-but-unproven reading
+   that belongs in prose and not in a line between two people. */
+const nothing = !parents.length && !spouses.length && !children.length
+  && !siblings.length;
+const emptyWhy = !nothing ? "" :
+  p.status === "excluded"
+    ? "Nothing is drawn, and that is the finding rather than a gap: this person "
+      + "was checked and is not of this family. The reason is at the top of this page."
+  : p.status === "connected"
+    ? "This person is connected to the line, and no parent, spouse, child or "
+      + "sibling of theirs is named by any record here."
+    : "No record here names a parent, spouse, child or sibling for this person. "
+      + "This archive calls that unplaced: held, named, shown with the record "
+      + "that produced them, and not tied to a household on anything less.";
 ---
 <PersonTree
+  always
   self={{ name: p.name, dates: p.dates, gen: p.gen != null ? `generation ${p.gen}` : "" }}
   parents={parents.map((n) => row(n))}
   spouses={spouses.map((n) => row(n))}
@@ -80,12 +103,14 @@ const row = (n, showVia = true) => ({
   siblings={siblings.map((n) => row(n, false))}
   labels={{ parents: "Parents" }}
 >
-  <Fragment slot="keys">
+  {/* three kinds of line, on a chart that draws none, implies it is using them */}
+  <Fragment slot="keys">{!nothing && <>
     <span class="key"><i class="sw line"></i> the archive&rsquo;s own line, argued on <a href={u("/direct-line/")}>the line</a></span>
     <span class="key"><i class="sw"></i> from a record this archive has read</span>
     <span class="key"><i class="sw tree"></i> from a family chart or tree, unverified</span>
-  </Fragment>
+  </>}</Fragment>
   <Fragment slot="notes">
+    {nothing && <p class="warn">{emptyWhy}</p>}
     {dupNames.length > 0 && (
       <p class="warn"><strong>More than one person here carries the same name</strong> &mdash; {dupNames.join(", ")}.
         That is what the source says. <strong>This archive does not merge records on a name</strong>, so they are

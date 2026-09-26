@@ -4,9 +4,16 @@
 #
 # *** WHAT MAKES IT UNUSUAL: THE PETITION DRAWS ITS OWN FAMILY TREE. *** Under the heading "Esquemas
 # explicativos de los grados de parentesco" the Cura Vicario Angel D. Navea sets out two lines by hand.
+#
+# *** THE TWO ROWS BELOW WERE CORRECTED 27 SEPTEMBER 2026: FLORENCIA -> FLORINDA. *** They were
+# transcribed from the machine transcript on 14 September and carried FLORENCIA for a week. The image
+# read of 21 September, set out at the foot of this file, has her name in the priest's own hand in
+# BOTH diagrams as FLORINDA. The column says "the diagram says", so it now says what the diagram says.
+# The retraction is corrections.tsv:104, and the five register rows it names were fixed at the time;
+# this working log was the one place the old reading survived.
 line	the diagram says	who that makes
-"Por parte del PADRE DEL NOVIO y de la MADRE DE LA NOVIA"	*** BERNABE LERENA casose con FLORENCIA CARDOZO *** -> CUSTODIO LERENA. *** MARIA LERENA caso con ELISEO CARDOZO *** -> EMA CARDOZO	Bernabe and Maria LERENA are brother and sister. Their children are the couple asking to marry.
-"Por la madre del novio y la de la novia"	CUSTODIO CARDOZO -> FLORENCIA CARDOZO casada con Bernabe Lerena -> Custodio Lerena; and ELISEO CARDOZO casado con Maria Lerena -> Ema Cardozo	Florinda and Eliseo CARDOZO are brother and sister.
+"Por parte del PADRE DEL NOVIO y de la MADRE DE LA NOVIA"	*** BERNABE LERENA casose con FLORINDA CARDOZO *** -> CUSTODIO LERENA. *** MARIA LERENA caso con ELISEO CARDOZO *** -> EMA CARDOZO	Bernabe and Maria LERENA are brother and sister. Their children are the couple asking to marry.
+"Por la madre del novio y la de la novia"	CUSTODIO CARDOZO -> FLORINDA CARDOZO casada con Bernabe Lerena -> Custodio Lerena; and ELISEO CARDOZO casado con Maria Lerena -> Ema Cardozo	Florinda and Eliseo CARDOZO are brother and sister.
 #
 # *** SO: TWO LERENA SIBLINGS MARRIED TWO CARDOZO SIBLINGS, and a generation later their children -
 # CUSTODIO LERENA and EMA CARDOZO - petitioned to marry each other. DOUBLE FIRST COUSINS, *** which is
