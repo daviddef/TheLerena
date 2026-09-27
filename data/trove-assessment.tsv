@@ -1,0 +1,39 @@
+# TROVE - THE NATIONAL LIBRARY OF AUSTRALIA'S DIGITISED NEWSPAPERS. Tested 27 September 2026.
+#
+# David obtained an API key valid to December 2026 and asked whether it was any use here.
+# *** THE HONEST ANSWER IS NO, AND THE NULL IS WELL CONTROLLED. *** Recorded rather than dropped,
+# because "we tried Australia" is exactly the kind of thing a future reader would otherwise repeat.
+#
+# *** THE KEY IS NOT IN THIS REPOSITORY AND MUST NEVER BE. *** daviddef/TheLerena is PUBLIC and every
+# file in data/ is published. The key was passed as an environment variable for the session and nothing
+# more. Anyone repeating this needs their own, free, from the link in the source column.
+#
+# *** THE CONTROL IS THE PART WORTH KEEPING. *** A zero for an Argentine-Uruguayan family in Australian
+# newspapers is unsurprising and therefore uninformative - unless you first show the corpus COULD have
+# carried them. It could: Australian papers covered South African racing heavily, which is the world
+# Pablo Armando worked in. *** 11,500 hits *** for South African racing at Johannesburg, with headings
+# like "SOUTH AFRICAN RACING MATTERS - JOHANNESBURG RACING FEES" (1914). The shelf is not empty; he is
+# simply not on it.
+#
+# *** AND ONE TRAP WORTH MORE THAN THE SEARCH. *** "Brayley Bideford" returned two hits and both looked
+# like the Devon family. Neither is. Trove treats a whole FAMILY NOTICES COLUMN as one article - the
+# 1914 Adelaide Observer block runs to 14,464 characters - so two terms "co-occurring" can mean only
+# that they were set in the same column of type on the same morning. In that one: "MRS. BRAYLEY, of
+# Gladstone" is a bereavement card from South Australia, and the Bideford is a quite separate notice,
+# "JAMES - at Hallsannery, Bideford, N. Devon". *** A CO-OCCURRENCE SEARCH AGAINST A CORPUS OF LONG
+# COLUMNS IS NOT A CO-OCCURRENCE. *** Every multi-term hit below was opened before being believed.
+query	hits	what they actually are	verdict
+"Robert Paul Lerena"	*** 0 ***	-	His South African name. NOTHING.
+"Pablo Lerena"	*** 0 ***	-	NOTHING.
+"Juan Carlos Lerena"	*** 0 ***	-	*** The central question of this archive. NOTHING. ***
+"Nuno Lerena"	*** 0 ***	-	NOTHING.
+"Roque Lerena"	*** 0 ***	-	NOTHING.
+"Lerena" + 1950	*** 0 ***	-	His death year. NOTHING.
+Lerena (bare surname)	177	*** A TASMANIAN SCHOONER CALLED LERENA *** - Launceston shipping columns, 1920-1951	Not people. Not ours.
+Llerena (double L)	72	Unrelated - a "Tobias-Llerena Wedding" of 1935 and similar	Not ours.
+Lerena + racehorse	3	Australian football reports. OCR and page-level noise	Not ours.
+Lerena + jockey	4	Country race meetings; page-level noise	Not ours.
+Lerena + trainer + Cape Town	12	1863 and 1893 general columns; page-level noise	Not ours.
+"Septima Taylor"	2	1933 wheat-yield and district pages	Not her.
+Brayley + Bideford	2	*** OPENED, AND BOTH ARE PAGE-LEVEL ARTEFACTS *** - see the note above	*** Not a family link. ***
+*** CONTROL: "South African" racing Johannesburg ***	*** 11,500 ***	Real, sustained Australian coverage of South African racing from the 1890s	*** THE CORPUS COULD HAVE CARRIED HIM AND DOES NOT. ***

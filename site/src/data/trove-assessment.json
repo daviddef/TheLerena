@@ -1,0 +1,86 @@
+[
+ {
+  "query": "\"Robert Paul Lerena\"",
+  "hits": "*** 0 ***",
+  "what they actually are": "-",
+  "verdict": "His South African name. NOTHING."
+ },
+ {
+  "query": "\"Pablo Lerena\"",
+  "hits": "*** 0 ***",
+  "what they actually are": "-",
+  "verdict": "NOTHING."
+ },
+ {
+  "query": "\"Juan Carlos Lerena\"",
+  "hits": "*** 0 ***",
+  "what they actually are": "-",
+  "verdict": "*** The central question of this archive. NOTHING. ***"
+ },
+ {
+  "query": "\"Nuno Lerena\"",
+  "hits": "*** 0 ***",
+  "what they actually are": "-",
+  "verdict": "NOTHING."
+ },
+ {
+  "query": "\"Roque Lerena\"",
+  "hits": "*** 0 ***",
+  "what they actually are": "-",
+  "verdict": "NOTHING."
+ },
+ {
+  "query": "\"Lerena\" + 1950",
+  "hits": "*** 0 ***",
+  "what they actually are": "-",
+  "verdict": "His death year. NOTHING."
+ },
+ {
+  "query": "Lerena (bare surname)",
+  "hits": "177",
+  "what they actually are": "*** A TASMANIAN SCHOONER CALLED LERENA *** - Launceston shipping columns, 1920-1951",
+  "verdict": "Not people. Not ours."
+ },
+ {
+  "query": "Llerena (double L)",
+  "hits": "72",
+  "what they actually are": "Unrelated - a \"Tobias-Llerena Wedding\" of 1935 and similar",
+  "verdict": "Not ours."
+ },
+ {
+  "query": "Lerena + racehorse",
+  "hits": "3",
+  "what they actually are": "Australian football reports. OCR and page-level noise",
+  "verdict": "Not ours."
+ },
+ {
+  "query": "Lerena + jockey",
+  "hits": "4",
+  "what they actually are": "Country race meetings; page-level noise",
+  "verdict": "Not ours."
+ },
+ {
+  "query": "Lerena + trainer + Cape Town",
+  "hits": "12",
+  "what they actually are": "1863 and 1893 general columns; page-level noise",
+  "verdict": "Not ours."
+ },
+ {
+  "query": "\"Septima Taylor\"",
+  "hits": "2",
+  "what they actually are": "1933 wheat-yield and district pages",
+  "verdict": "Not her."
+ },
+ {
+  "query": "Brayley + Bideford",
+  "hits": "2",
+  "what they actually are": "*** OPENED, AND BOTH ARE PAGE-LEVEL ARTEFACTS *** - see the note above",
+  "verdict": "*** Not a family link. ***"
+ },
+ {
+  "query": "*** CONTROL: \"South African\" racing Johannesburg ***",
+  "hits": "*** 11,500 ***",
+  "what they actually are": "Real, sustained Australian coverage of South African racing from the 1890s",
+  "verdict": "*** THE CORPUS COULD HAVE CARRIED HIM AND DOES NOT. ***"
+ }
+]

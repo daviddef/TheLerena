@@ -1,6 +1,8 @@
 ---
 import Base from "../layouts/Base.astro";
+import trove from "../data/trove-assessment.json";
 import { u } from "../lib/url.js";
+import { emph } from "../lib/text.js";
 ---
 <Base title="What Has Been Read"
       eyebrow="Everything looked at, including everything that led nowhere"
@@ -56,6 +58,7 @@ import { u } from "../lib/url.js";
       <li><a href="#the-surname-is-the-worst-way-to-find-them">The surname is the worst way to find them</a></li>
       <li><a href="#queensland-the-other-mary-ann-brayley-run-to-ground">Queensland &mdash; the other Mary Ann Brayley, run to ground</a></li>
           <li><a href="#s-rosario-confirmations">Rosario &mdash; the confirmations, opened for the first time</a></li>
+      <li><a href="#s-trove">Australia &mdash; a zero this archive believes</a></li>
 </ol>
   </div>
 </section>
@@ -1369,6 +1372,57 @@ import { u } from "../lib/url.js";
     <p class="cap">The first eleven happened to be girls and <strong>a structure was built out of a
       sample of eleven</strong>. Had it stood, it would have sent the next reader to look for Pablo
       Armando in a separate run of pages that does not exist.</p>
+  </div>
+</section>
+<section class="blk">
+  <h2 id="s-trove">Australia &mdash; a zero this archive believes</h2>
+  <div class="prose">
+    <p>In September 2026 David obtained a <strong>Trove</strong> API key &mdash; the National Library of
+      Australia&rsquo;s digitised newspapers &mdash; and asked whether it was any use here.
+      <strong>It is not, and the interesting part is how that was established.</strong></p>
+    <p><span class="chip doc">Documented</span> Every name returns <strong>zero</strong>: Robert Paul
+      Lerena, Pablo Lerena, <strong>Juan Carlos Lerena</strong>, Nuno, Roque.
+      <strong>By itself that means nothing.</strong> An Argentine-Uruguayan family need never appear in
+      an Australian newspaper, so a zero is exactly what you would expect whether or not the corpus
+      could have carried them.</p>
+    <p><span class="chip doc">Documented</span> <strong>So the control was chosen to ask the only
+      question that matters: could it?</strong> Pablo Armando trained racehorses at the Cape, and
+      Australian papers covered South African racing from the 1890s onward &mdash;
+      <strong>11,500 hits</strong>, under headings like <em>&ldquo;SOUTH AFRICAN RACING MATTERS &mdash;
+      JOHANNESBURG RACING FEES&rdquo;</em> (1914). <strong>The shelf is full and he is not on it.</strong>
+      That is the opposite of most entries on this site&rsquo;s <a href={u("/method/")}>list of false
+      zeros</a>: a null this archive believes, recorded with the work that earns the right to.</p>
+    <p><span class="chip doc">Documented</span> <strong>And one trap worth more than the search.</strong>
+      <em>&ldquo;Brayley Bideford&rdquo;</em> returned two hits and both looked like the Devon family.
+      Neither is. <strong>Trove indexes a whole Family Notices column as a single article</strong> &mdash;
+      the 1914 Adelaide one runs to <strong>14,464 characters</strong> &mdash; so two terms
+      &ldquo;co-occurring&rdquo; can mean only that they were set in the same column of type on the same
+      morning. In that one, <em>&ldquo;MRS. BRAYLEY, of Gladstone&rdquo;</em> is a South Australian
+      bereavement card, and the Bideford belongs to a quite separate notice:
+      <em>&ldquo;JAMES &mdash; at Hallsannery, Bideford, N. Devon&rdquo;</em>.
+      <strong>A co-occurrence search against a corpus of long columns is not a co-occurrence.</strong></p>
+  </div>
+  <div class="scroll" style="margin-top:18px">
+    <table style="min-width:52rem">
+      <thead><tr>
+        <th style="width:17rem">Query</th><th class="m" style="width:6rem">Hits</th>
+        <th style="width:20rem">What they actually are</th><th>Verdict</th>
+      </tr></thead>
+      <tbody>
+        {trove.map((r) => { const c = Object.values(r); return (
+          <tr>
+            <th set:html={emph(c[0])} />
+            <td class="m" set:html={emph(c[1])} />
+            <td class="cap" set:html={emph(c[2])} />
+            <td class="cap" set:html={emph(c[3])} />
+          </tr>); })}
+      </tbody>
+    </table>
+  </div>
+  <div class="prose" style="margin-top:14px">
+    <p class="cap"><strong>The key itself is not in this repository and never will be.</strong> This site
+      is built from a public repository, so anything written into its data is published. Anyone repeating
+      the work needs their own key, which is free.</p>
   </div>
 </section>
 
