@@ -1,23 +1,51 @@
-# findmypast, "Uruguay Baptisms 1750-1900", surname LERENA. 33 index rows (several are duplicate pairs).
-# Read 9 Sep 2026 from the free result list; transcripts are behind findmypast's paywall and were NOT opened.
-# *** THERE IS NO PABLO AND NO ARMANDO IN THIS SET. ***
-child	born	baptised	father	mother	place
-Alejandra Raymunda	1874	1874	Ysaac	Adelaida	Trinidad, Flores
-Maria Luisa Lina	1875	1875	Ysaac	Adelaida	Trinidad, Flores
-Paula Modesta	1875	1875	Bernabe	Casimira	Trinidad, Flores
-Carmen	1877	1877	Bernabe	Casimira	Trinidad, Flores
-Ysidro Gregorio	1885	1885	Bernabe	Casimira	Trinidad, Flores
-Juana Alejandra	1873	1873	Vitalino	Andrea	Trinidad, Flores
-Gervasio	1875	1875	Vitalino	Andrea	Trinidad, Flores
-Rosario Fulgencia	1877	1877	Vitalino	Andrea	Trinidad, Flores
-Doroteo Donato	1875	1875	Cipriano	Lauriana	Trinidad, Flores
-Maria Leonor	1877	1877	Cipriano	Laurena	Trinidad, Flores
-Faustino	1877	1877	Fermin	Paulina	Trinidad, Flores
-Emma Liseta	1876	-	Luis	Julia	(not stated)
-Carlos Augusto Federico	1883	-	Gilberto	Julia	Montevideo
-Juan Pascual	1884	-	Manuel	Dolores	Montevideo
-Felicia	1891	-	Manuel	Juana	Montevideo
-Manuel Antonio	1883	-	Pedro A.	Manuela	Montevideo
-Ysidoro Belisario	1861	1861	Mauricio	Casimira	San Jose de Mayo, San Jose
-Juana de las Nieves	-	-	(not stated)	Olegaria	San Jose de Mayo, San Jose
-Felicia Jorgelina (as ZUGASTE LERENA)	-	-	Juan	Felicia	San Jose de Mayo, San Jose
+# findmypast, "Uruguay Baptisms 1750-1900", surname LERENA. 33 index rows; 20 distinct children.
+#
+# *** THE TRANSCRIPTS ARE OPEN, 27 September 2026. *** This file sat for eighteen days under a header
+# that said "transcripts are behind findmypast's paywall and were NOT opened", carrying parents'
+# FORENAMES ONLY and years without days. David signed in and all thirty-three opened. Every row below
+# now has the MOTHER'S SURNAME and an EXACT BAPTISM DATE, which is the whole difference between a list
+# of names and a set of families.
+#
+# *** THE DUPLICATE PAIRS ARE REAL AND ARE NOT ERRORS. *** Thirteen of the thirty-three are second
+# copies of the same act under a different record id, agreeing in every field. They are listed once.
+#
+# *** WHAT IT CONFIRMED, AND THE ARCHIVE PREDICTED IT. *** /uruguay/ has said the Trinidad kindred
+# married BASQUE women - "Beloqui, Echeverry, Pelaez". The transcripts give BELOQUI/BELOGIN,
+# ECHEVERSE/ECHEVERSI/ECHEVERRY and PELAEZ, plus BARRAGAN and GAZO/GOSA. The prediction was made from
+# three surnames in a dispensation; it holds across five households.
+#
+# *** AND THE SPELLING DRIFTS WITHIN ONE FAMILY. *** Andrea's surname is Echeverse in 1873, Echeversi
+# in 1875 and Echeverry in 1877 - three spellings, one woman, one parish, four years. Adelaida is Gazo
+# in 1874 and Gosa in 1875, and Gosso on an Argentine death record. Cipriano's wife is Lauriana Beloqui
+# in 1876 and Laurena Belogin in 1877. *** THIS IS THE SEVEN-SPELLINGS PROBLEM ON THE MOTHERS' SIDE ***,
+# and a search run under one of them misses the rest.
+#
+# *** FOUR HOUSEHOLDS HERE ARE NEW TO THIS ARCHIVE: *** Manuel x Juana FERREIROZ and Manuel x Dolores
+# ESPINDOLA (two Manuels at Montevideo, or one with two wives - NOT established), Pedro A. x Manuela
+# LEMOS, and Fermin x Paulina BARRAGAN. And THREE LERENA WOMEN appear as MOTHERS at San Jose - OLEGARIA,
+# ESTEFANIA and FELICIA - which is a side of that cluster the archive has never counted.
+#
+# TIER: findmypast transcript of an IGI index entry. *** SECONDARY. *** It is an index of an index, and
+# no image was opened here. The acts themselves are in the Uruguayan parish books and this file is a
+# pointer to them, not a substitute - the rule this archive keeps having to relearn.
+child	baptised	father	mother	mother_surname	place	fmp_id
+Alejandra Raymunda	13 Apr 1874	Ysaac	Adelaida	*** GAZO ***	La Santisima Trinidad, Trinidad, Flores	R_713081311 / R_712982201
+Maria Luisa Lina	26 Oct 1875	Ysaac	Adelaida	*** GOSA *** - the same woman, a year later	La Santisima Trinidad, Trinidad, Flores	R_713081315 / R_712982535
+Paula Modesta	08 Jul 1875	Bernabe	Casimira	*** PELAEZ ***	La Santisima Trinidad, Trinidad, Flores	R_713081316 / R_712982400
+Carmen	12 Jul 1877	Bernabe	Casimira	*** PELAEZ ***	La Santisima Trinidad, Trinidad, Flores	R_713081312 / R_712983218
+Ysidro Gregorio	16 May 1885	Bernabe	Casimira	*** PELAEZ ***	Trinidad, Flores	R_713082255 / R_712984052
+Juana Alejandra	08 Nov 1873	Vitalino	Andrea	*** ECHEVERSE ***	La Santisima Trinidad, Trinidad, Flores	R_713081313 / R_712982120
+Gervasio	15 Jul 1875	Vitalino	Andrea	*** ECHEVERSI ***	Trinidad, Flores	R_713081674 / R_712983573
+Rosario Fulgencia	10 Dec 1877	Vitalino	Andrea	*** ECHEVERRY *** - the canonical spelling, and the third in four years	La Santisima Trinidad, Trinidad, Flores	R_713081317
+Doroteo Donato	10 Jan 1876	Cipriano	Lauriana	*** BELOQUI ***	Trinidad, Flores	R_713081746 / R_712983445
+Maria Leonor	02 Jul 1877	Cipriano	Laurena	*** BELOGIN *** - the same woman as Lauriana Beloqui	La Santisima Trinidad, Trinidad, Flores	R_713081314 / R_712983213
+Faustino	17 May 1877	Fermin	Paulina	*** BARRAGAN *** - a household new to this archive	Trinidad, Flores	R_713081905 / R_712983803
+Emma Liseta	(no date given)	Luis	Julia	JUANICO - already held	(not stated)	R_713072211
+Carlos Augusto Federico	18 Jul 1883	Gilberto	Julia	*** SALVANACH *** - and this archive entered her only on 23 September 2026	Montevideo	R_713066438
+Felicia	16 May 1891	Manuel	Juana	*** FERREIROZ *** - new	Montevideo	R_713031875 / R_713031876
+Juan Pascual	27 Jul 1884	Manuel	Dolores	*** ESPINDOLA *** - new. TWO MANUELS, OR ONE WITH TWO WIVES: not established	Montevideo	R_713066875
+Manuel Antonio	09 Apr 1883	Pedro A.	Manuela	*** LEMOS *** - new	Montevideo	R_713066288
+Ysidoro Belisario	07 Apr 1861	Mauricio	Casimira	*** MONTANA *** - Mauricio Lerena and Casimira Montano, married San Jose 1837; a child this archive did not hold	San Jose de Mayo, San Jose	R_712980340
+Juana de las Nieves	16 Aug 1862	(none named)	Olegaria	*** LERENA - the mother is the Lerena ***	San Jose de Mayo, San Jose	R_713069004 / R_712977960
+Cesarea	30 Apr 1872	Servando	Estefania	*** LERENA - the mother is the Lerena ***	San Jose, San Jose de Mayo	R_713079566
+Felicia Jorgelina	08 May 1875	Juan	Felicia	*** LERENA - the mother is the Lerena ***	San Jose, San Jose de Mayo	R_713079921
