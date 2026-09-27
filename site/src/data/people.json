@@ -7696,7 +7696,7 @@
   "source": "La Mauricia, Villa de la Union, Montevideo, baptised 7 Jan 1846 - IMAGE READ and FULL-TEXT TRANSCRIPT READ; ark 3:1:3Q9M-C9BW-ZS62-J",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "*** CORRECTED 14 SEPTEMBER 2026, AND THE CORRECTION MOVES HIM BETWEEN BRANCHES. *** This archive recorded him on 13 September as \"A SIXTH CHILD of Luis Lerena and Justiniana Lenguas\", born 29 May 1845. *** BOTH HALVES WERE WRONG. *** The act reads: \"bautizo solemnemente a ALEJANDRO, que nacio el veinte y nueve de Mayo del pasado ano CUARENTA Y TRES, hijo legitimo de AVELINO SERENA y AMBROSIA TRAIBEL. Paternos FRANCISCO y MARIA FERNANDEZ. Maternos JUAN e ISABEL CENTENO. Padrinos LUIS [L]ERENA y JUSTINIANA LENGUAS.\" *** He is a son of AVELINO, not of Luis - and Luis and Justiniana are his GODPARENTS, which is how the archive came to read them as his parents. *** The two brothers brought their children to the same font on the same morning and stood for each other's. *** So he is the ELDEST KNOWN CHILD OF AVELINO LERENA AND AMBROSIA TRAIBEL *** - eight years before Josefa and *** thirteen *** before Alfredo, who was born 2 October 1856 and not the 1858 this register carried until 20 September - and this row said he \"pushes their marriage back before May 1843\".  *** THAT LAST CLAIM IS WITHDRAWN, 20 September 2026, AND SO IS THE CONFIDENCE IN HIS BIRTH YEAR. *** The page was re-read end to end and *** all three acts on it give the year in the identical words, \"del pasado ano cuarenta y tres\" *** - including one for a different couple. The phrase contradicts itself (these acts open \"En siete de Enero de mil ochocientos cuarenta y seis\", so \"el pasado ano\" is 1845), and it cannot be literally true, because the two children of Luis and Justiniana on this page would then be born five months apart. *** So the year here is a formula, not a statement, and nothing outside this page dates Alejandro at all. *** His birth is *** UNDETERMINED BETWEEN 29 MAY 1843 AND 29 MAY 1845 ***, the born_est below is the earlier of the two and not a finding, and the safe floor for the marriage of Avelino and Ambrosia is *** before May 1845 ***. See data/montevideo-1846-lerena-baptisms.tsv. *** AND HE IS A FOURTH ALEJANDRO. *** See data/the-three-alejandros.tsv: the enrolment cards of Cajon 985 name an ALEJANDRO MAXIMO LERENA, born Uruguay 1839, whose parents no record here names. Four years apart from this man. NOTHING POSITIVE LINKS THEM and they stay separate rows, but the candidate pool has changed and the table needs re-reading.",
+  "note": "*** CORRECTED 14 SEPTEMBER 2026, AND THE CORRECTION MOVES HIM BETWEEN BRANCHES. *** This archive recorded him on 13 September as \"A SIXTH CHILD of Luis Lerena and Justiniana Lenguas\", born 29 May 1845. *** BOTH HALVES WERE WRONG. *** The act reads: \"bautizo solemnemente a ALEJANDRO, que nacio el veinte y nueve de Mayo del pasado ano CUARENTA Y TRES, hijo legitimo de AVELINO SERENA y AMBROSIA TRAIBEL. Paternos FRANCISCO y MARIA FERNANDEZ. Maternos JUAN e ISABEL CENTENO. Padrinos LUIS [L]ERENA y JUSTINIANA LENGUAS.\" *** He is a son of AVELINO, not of Luis - and Luis and Justiniana are his GODPARENTS, which is how the archive came to read them as his parents. *** The two brothers brought their children to the same font on the same morning and stood for each other's. *** So he is the ELDEST KNOWN CHILD OF AVELINO LERENA AND AMBROSIA TRAIBEL *** - eight years before Josefa and *** thirteen *** before Alfredo, who was born 2 October 1856 and not the 1858 this register carried until 20 September - and this row said he \"pushes their marriage back before May 1843\".  *** THAT LAST CLAIM IS WITHDRAWN, 20 September 2026, AND SO IS THE CONFIDENCE IN HIS BIRTH YEAR. *** The page was re-read end to end and *** all three acts on it give the year in the identical words, \"del pasado ano cuarenta y tres\" *** - including one for a different couple. The phrase contradicts itself (these acts open \"En siete de Enero de mil ochocientos cuarenta y seis\", so \"el pasado ano\" is 1845), and it cannot be literally true, because the two children of Luis and Justiniana on this page would then be born five months apart. *** So the year here is a formula, not a statement, and nothing outside this page dates Alejandro at all. *** His birth is *** UNDETERMINED BETWEEN 29 MAY 1843 AND 29 MAY 1845 ***, the born_est below is the earlier of the two and not a finding, and the safe floor for the marriage of Avelino and Ambrosia is *** before May 1845 ***. See data/montevideo-1846-lerena-baptisms.tsv. *** AND HE IS A FOURTH ALEJANDRO. *** See data/the-three-alejandros.tsv: the enrolment cards of Cajon 985 name an ALEJANDRO MAXIMO LERENA, born Uruguay 1839, whose parents no record here names. Four years apart from this man. NOTHING POSITIVE LINKS THEM and they stay separate rows, but the candidate pool has changed and the table needs re-reading. *** AND ON 27 SEPTEMBER 2026 A SECOND SON OF THE SAME COUPLE WITH THE SAME FORENAME WAS PROVED TO EXIST ON A PLATE. *** The Cordon act of 26 December 1877 names 'D. ALEJANDRO M. LERENA ... abuelos paternos D. AVELINO y D.a AMBROSIA TRAIBEL'. *** THAT IS EITHER THIS MAN OR A BROTHER OF THE SAME NAME, AND THE FIRST IS FAR LIKELIER *** - families reused a forename when a child died, and nothing here shows the 1846 infant died. The stated ages of Alejandro M. put his birth between March and November 1844; this act offers 29 May 1843 or 1845. *** The two rows stand until one record joins or separates them.***",
   "place": "Montevideo",
   "placeSlug": "montevideo",
   "surname": "LERENA",
@@ -7721,6 +7721,12 @@
   "spouses": [],
   "children": [],
   "siblings": [
+   {
+    "name": "Alejandro M. LERENA (with Julia BASSANI)",
+    "dates": "",
+    "slug": "alejandro-m-lerena",
+    "via": "register"
+   },
    {
     "name": "Alfredo Justiniano LERENA Traibel",
     "dates": "",
@@ -9648,6 +9654,12 @@
     "via": "register"
    },
    {
+    "name": "Alejandro M. LERENA (with Julia BASSANI)",
+    "dates": "",
+    "slug": "alejandro-m-lerena",
+    "via": "register"
+   },
+   {
     "name": "Alfredo Justiniano LERENA Traibel",
     "dates": "",
     "slug": "alfredo-justiniano-lerena-traibel",
@@ -9743,6 +9755,13 @@
     "note": "La Mauricia, Villa de la Union, baptism of 7 Jan 1846 - 'hijo legitimo de Avelino Serena y Ambrosia Traibel'."
    },
    {
+    "name": "Alejandro M. LERENA (with Julia BASSANI)",
+    "dates": "",
+    "slug": "alejandro-m-lerena",
+    "via": "register",
+    "note": "Cordon, Montevideo, 26 Dec 1877 - 'abuelos paternos D. AVELINO y D.a AMBROSIA TRAIBEL'. IMAGE READ, film 007713388 image 02455."
+   },
+   {
     "name": "Alfredo Justiniano LERENA Traibel",
     "dates": "",
     "slug": "alfredo-justiniano-lerena-traibel",
@@ -9809,8 +9828,8 @@
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 11,
-  "relRegister": 11,
+  "relTotal": 12,
+  "relRegister": 12,
   "relTree": 0,
   "evidence": [
    {
@@ -9851,6 +9870,13 @@
     "slug": "alejandro-lerena-traibel",
     "via": "register",
     "note": "La Mauricia, Villa de la Union, baptism of 7 Jan 1846 - 'hijo legitimo de Avelino Serena y Ambrosia Traibel'."
+   },
+   {
+    "name": "Alejandro M. LERENA (with Julia BASSANI)",
+    "dates": "",
+    "slug": "alejandro-m-lerena",
+    "via": "register",
+    "note": "Cordon, Montevideo, 26 Dec 1877 - 'abuelos paternos D. AVELINO y D.a AMBROSIA TRAIBEL'. IMAGE READ, film 007713388 image 02455."
    },
    {
     "name": "Alfredo Justiniano LERENA Traibel",
@@ -9919,8 +9945,8 @@
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 10,
-  "relRegister": 10,
+  "relTotal": 11,
+  "relRegister": 11,
   "relTree": 0,
   "evidence": []
  },
@@ -9965,6 +9991,12 @@
     "name": "Alejandro LERENA TRAIBEL (formerly recorded as LERENA LENGUAS)",
     "dates": "",
     "slug": "alejandro-lerena-traibel",
+    "via": "register"
+   },
+   {
+    "name": "Alejandro M. LERENA (with Julia BASSANI)",
+    "dates": "",
+    "slug": "alejandro-m-lerena",
     "via": "register"
    },
    {
@@ -11071,6 +11103,12 @@
     "via": "register"
    },
    {
+    "name": "Alejandro M. LERENA (with Julia BASSANI)",
+    "dates": "",
+    "slug": "alejandro-m-lerena",
+    "via": "register"
+   },
+   {
     "name": "Alfredo Justiniano LERENA Traibel",
     "dates": "",
     "slug": "alfredo-justiniano-lerena-traibel",
@@ -11170,6 +11208,12 @@
     "via": "register"
    },
    {
+    "name": "Alejandro M. LERENA (with Julia BASSANI)",
+    "dates": "",
+    "slug": "alejandro-m-lerena",
+    "via": "register"
+   },
+   {
     "name": "Alfredo Justiniano LERENA Traibel",
     "dates": "",
     "slug": "alfredo-justiniano-lerena-traibel",
@@ -11266,6 +11310,12 @@
     "name": "Alejandro LERENA TRAIBEL (formerly recorded as LERENA LENGUAS)",
     "dates": "",
     "slug": "alejandro-lerena-traibel",
+    "via": "register"
+   },
+   {
+    "name": "Alejandro M. LERENA (with Julia BASSANI)",
+    "dates": "",
+    "slug": "alejandro-m-lerena",
     "via": "register"
    },
    {
@@ -11437,6 +11487,12 @@
     "name": "Alejandro LERENA TRAIBEL (formerly recorded as LERENA LENGUAS)",
     "dates": "",
     "slug": "alejandro-lerena-traibel",
+    "via": "register"
+   },
+   {
+    "name": "Alejandro M. LERENA (with Julia BASSANI)",
+    "dates": "",
+    "slug": "alejandro-m-lerena",
     "via": "register"
    },
    {
@@ -11821,6 +11877,12 @@
     "via": "register"
    },
    {
+    "name": "Alejandro M. LERENA (with Julia BASSANI)",
+    "dates": "",
+    "slug": "alejandro-m-lerena",
+    "via": "register"
+   },
+   {
     "name": "Ana Rosario LERENA Traibel",
     "dates": "",
     "slug": "ana-rosario-lerena-traibel",
@@ -12073,6 +12135,12 @@
     "name": "Alejandro LERENA TRAIBEL (formerly recorded as LERENA LENGUAS)",
     "dates": "",
     "slug": "alejandro-lerena-traibel",
+    "via": "register"
+   },
+   {
+    "name": "Alejandro M. LERENA (with Julia BASSANI)",
+    "dates": "",
+    "slug": "alejandro-m-lerena",
     "via": "register"
    },
    {
@@ -15133,6 +15201,12 @@
     "via": "register"
    },
    {
+    "name": "Alejandro M. LERENA (with Julia BASSANI)",
+    "dates": "",
+    "slug": "alejandro-m-lerena",
+    "via": "register"
+   },
+   {
     "name": "Alfredo Justiniano LERENA Traibel",
     "dates": "",
     "slug": "alfredo-justiniano-lerena-traibel",
@@ -15621,10 +15695,10 @@
   "nationality": "Uruguayan",
   "occupation": "-",
   "where": "Montevideo",
-  "source": "Uruguay, registros parroquiales 1726-2000 - christening of Alejandro Joaquin Narciso Lerena, Cordon, Montevideo, 29 May 1873; ark 1:1:6D3Z-WTXR; index read 20 September 2026 - IMAGE READ 27 September 2026; film 007713388 image 02091",
+  "source": "Uruguay, registros parroquiales 1726-2000 - christening of Alejandro Joaquin Narciso Lerena, Cordon, Montevideo, 29 May 1873; ark 1:1:6D3Z-WTXR; index read 20 September 2026 - IMAGE READ 27 September 2026; film 007713388 image 02091; and the Cordon christening of his daughter Jacinta Mercedes Gregoria, 26 December 1877 - ark 1:1:6D3Z-WP5Z - IMAGE READ 27 September 2026; film 007713388 image 02455",
   "status": "high",
   "statusRaw": "UNPLACED - HIGH INTEREST",
-  "note": "*** A SECOND LERENA MARRIED A SECOND VILLADEMOROS, and the two marriages are probably one alliance. *** He and *** ELISA VILLARDEMOROS *** had a son christened at the Cordon on 29 May 1873. In the same decade *** AVELINO EDUARDO LERENA *** - documented as a son of Avelino Lerena and Ambrosia Traibel - married *** CELEDONIA VILLADEMOROS ***. *** THREE THINGS TIE THE TWO BAPTISMS TOGETHER: *** the surname on both mothers; a *** JOAQUIN *** standing godfather at each, indexed \"Joaquin Requena\" on one and \"Joaquin Regusa y Garcia\" on the other, which is one name and one machine mangling it; and the godmother here is *** ANGELICA VILLADEMOROS ***, while Celedonia's mother is ANGELICA MENDEZ - a daughter named for her. *** THE INFERENCE: two Lerena brothers married two Villademoros sisters, *** which is the same shape as the two Lerena siblings who married two Cardozo siblings and produced the 1911 dispensation. *** WHAT IS NOT DOCUMENTED: *** this act does NOT name his own parents, so he is NOT joined to Alejandro Lerena Traibel here, though the age fits - that man was born 1843 or 1845 and would be twenty-seven or twenty-nine. *** THE TEST: *** the two marriage acts, or any record naming this Alejandro's father. *** AND THE TEST NAMED ABOVE WAS RUN THE SAME EVENING AND CAME BACK EMPTY. *** LERENA with spouse surname VILLADEMOROS, Uruguay: 6,352 records, and *** not one of them is a marriage act. *** Every hit is a parent entry on somebody else's baptism or civil registration. *** The control is the one that worked two hours earlier: *** the same query shape on LERENA with spouse JUANICO puts the marriage act of 19 December 1864 at RANK ONE. So the shape finds a marriage when there is one to find. *** NEITHER VILLADEMOROS MARRIAGE IS IN THE INDEXED RECORD, *** and the brothers-and-sisters reading stays an inference. It would be settled by the parish marriage books of the Cordon and Union, which have not been walked.  *** THE NULL PUBLISHED AGAINST THIS ROW RESTS ON A CONTROL THAT DID NOT CONTROL FOR THE RIGHT RISK - noted 21 September 2026, and the null is NOT withdrawn. *** The finding was that LERENA with spouse surname VILLADEMOROS returns 6,352 records and not one marriage act, controlled by LERENA with spouse JUANICO, which put the 1864 marriage at rank one. *** JUANICO HAS ONE SPELLING AND VILLADEMOROS HAS AT LEAST THREE. *** This register already holds VILLADEMOROS, VILLARDEMOROS and, from a death registration read today, VILLADEMORO. And on the same day a parent-pair query on this surname returned a ZERO that a single deleted parameter turned into SEVEN. *** So the control proved the query SHAPE works; it did not prove that this SURNAME is reachable through it. *** The two marriage acts may be absent from the index, or they may be present under a spelling nobody asked for. Until the Cordon and Union marriage books are walked, the difference is not known - and that is a weaker claim than the one this archive published. *** READ OFF THE PLATE 27 September 2026, and it settles his birthplace and not his parents. *** The Cordon act of 29 May 1873 reads 'hijo legitimo de D. ALEJANDRO LERENA [y Da. Elisa Villademoros], *** ORIENTALES ***. Padrinos D. JOAQUIN REGUSA y Da. ANGELICA VILLADEMOROS.' *** THE ACT NAMES NO GRANDPARENTS *** - this parish's 1873 form does not recite them - so the plate that would have answered the whole question does not. What it does give is ORIENTAL, Uruguayan-born, which matches the 'oriental' of the 1886 and 1888 acts of Alejandro M. Lerena. See the note on that row: the two may be one man.",
+  "note": "*** A SECOND LERENA MARRIED A SECOND VILLADEMOROS, and the two marriages are probably one alliance. *** He and *** ELISA VILLARDEMOROS *** had a son christened at the Cordon on 29 May 1873. In the same decade *** AVELINO EDUARDO LERENA *** - documented as a son of Avelino Lerena and Ambrosia Traibel - married *** CELEDONIA VILLADEMOROS ***. *** THREE THINGS TIE THE TWO BAPTISMS TOGETHER: *** the surname on both mothers; a *** JOAQUIN *** standing godfather at each, indexed \"Joaquin Requena\" on one and \"Joaquin Regusa y Garcia\" on the other, which is one name and one machine mangling it; and the godmother here is *** ANGELICA VILLADEMOROS ***, while Celedonia's mother is ANGELICA MENDEZ - a daughter named for her. *** THE INFERENCE: two Lerena brothers married two Villademoros sisters, *** which is the same shape as the two Lerena siblings who married two Cardozo siblings and produced the 1911 dispensation. *** WHAT IS NOT DOCUMENTED: *** this act does NOT name his own parents, so he is NOT joined to Alejandro Lerena Traibel here, though the age fits - that man was born 1843 or 1845 and would be twenty-seven or twenty-nine. *** THE TEST: *** the two marriage acts, or any record naming this Alejandro's father. *** AND THE TEST NAMED ABOVE WAS RUN THE SAME EVENING AND CAME BACK EMPTY. *** LERENA with spouse surname VILLADEMOROS, Uruguay: 6,352 records, and *** not one of them is a marriage act. *** Every hit is a parent entry on somebody else's baptism or civil registration. *** The control is the one that worked two hours earlier: *** the same query shape on LERENA with spouse JUANICO puts the marriage act of 19 December 1864 at RANK ONE. So the shape finds a marriage when there is one to find. *** NEITHER VILLADEMOROS MARRIAGE IS IN THE INDEXED RECORD, *** and the brothers-and-sisters reading stays an inference. It would be settled by the parish marriage books of the Cordon and Union, which have not been walked.  *** THE NULL PUBLISHED AGAINST THIS ROW RESTS ON A CONTROL THAT DID NOT CONTROL FOR THE RIGHT RISK - noted 21 September 2026, and the null is NOT withdrawn. *** The finding was that LERENA with spouse surname VILLADEMOROS returns 6,352 records and not one marriage act, controlled by LERENA with spouse JUANICO, which put the 1864 marriage at rank one. *** JUANICO HAS ONE SPELLING AND VILLADEMOROS HAS AT LEAST THREE. *** This register already holds VILLADEMOROS, VILLARDEMOROS and, from a death registration read today, VILLADEMORO. And on the same day a parent-pair query on this surname returned a ZERO that a single deleted parameter turned into SEVEN. *** So the control proved the query SHAPE works; it did not prove that this SURNAME is reachable through it. *** The two marriage acts may be absent from the index, or they may be present under a spelling nobody asked for. Until the Cordon and Union marriage books are walked, the difference is not known - and that is a weaker claim than the one this archive published. *** READ OFF THE PLATE 27 September 2026, and it settles his birthplace and not his parents. *** The Cordon act of 29 May 1873 reads 'hijo legitimo de D. ALEJANDRO LERENA [y Da. Elisa Villademoros], *** ORIENTALES ***. Padrinos D. JOAQUIN REGUSA y Da. ANGELICA VILLADEMOROS.' *** THE ACT NAMES NO GRANDPARENTS *** - this parish's 1873 form does not recite them - so the plate that would have answered the whole question does not. What it does give is ORIENTAL, Uruguayan-born, which matches the 'oriental' of the 1886 and 1888 acts of Alejandro M. Lerena. See the note on that row: the two may be one man. *** AND THE 1877 ACT SPELLS HIM WITH THE M., AND NAMES HIS PARENTS. *** 'D. ALEJANDRO M. LERENA ... abuelos paternos D. AVELINO y D.a AMBROSIA TRAIBEL'. *** THIS ROW AND 'Alejandro M. LERENA (with Julia BASSANI)' ARE THE SAME MAN *** - the same wife, the same initial, and now the same parents - and they remain two rows only until the merge is done properly. See data/_person-pairs.txt.",
   "place": "Montevideo",
   "placeSlug": "montevideo",
   "surname": "LERENA",
@@ -15650,13 +15724,20 @@
     "slug": "alejandro-joaquin-narciso-lerena-villardemoros",
     "via": "register",
     "note": "Cordon christening, 29 May 1873."
+   },
+   {
+    "name": "Jacinta Mercedes Gregoria LERENA Villademoros",
+    "dates": "",
+    "slug": "jacinta-mercedes-gregoria-lerena-villademoros",
+    "via": "register",
+    "note": "Same act."
    }
   ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 2,
-  "relRegister": 2,
+  "relTotal": 3,
+  "relRegister": 3,
   "relTree": 0,
   "evidence": []
  },
@@ -15669,10 +15750,10 @@
   "nationality": "Uruguayan",
   "occupation": "-",
   "where": "Montevideo",
-  "source": "Uruguay, registros parroquiales 1726-2000 - christening of Alejandro Joaquin Narciso Lerena, Cordon, Montevideo, 29 May 1873; ark 1:1:6D3Z-WTXR; index read 20 September 2026 - IMAGE READ 27 September 2026; film 007713388 image 02091; and named as GODFATHER at the Iglesia Matriz christening of Angelica Maria Lerena Villademoros, 29 September 1872 - ark 1:1:6DFQ-YF26 - IMAGE READ 27 September 2026; film 004298263 image 03147",
+  "source": "Uruguay, registros parroquiales 1726-2000 - christening of Alejandro Joaquin Narciso Lerena, Cordon, Montevideo, 29 May 1873; ark 1:1:6D3Z-WTXR; index read 20 September 2026 - IMAGE READ 27 September 2026; film 007713388 image 02091; and named as GODFATHER at the Iglesia Matriz christening of Angelica Maria Lerena Villademoros, 29 September 1872 - ark 1:1:6DFQ-YF26 - IMAGE READ 27 September 2026; film 004298263 image 03147; and the Cordon christening of his daughter Jacinta Mercedes Gregoria, 26 December 1877 - ark 1:1:6D3Z-WP5Z - IMAGE READ 27 September 2026; film 007713388 image 02455",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "Named as the mother at the Cordon christening of *** ALEJANDRO JOAQUIN NARCISO LERENA *** on 29 May 1873. *** Probably a sister of CELEDONIA VILLADEMOROS ***, who married Avelino Eduardo Lerena in the same decade - see his row and her husband's. The spelling VILLARDEMOROS is the index's; Celedonia is indexed VILLADEMOROS. Index-level. *** SHE IS NAMED BESIDE ALEJANDRO M. LERENA AT A FONT IN 1872, *** as godmother to Angelica Maria, daughter of her kinswoman Celedonia. *** IF SHE IS THE FIRST WIFE OF THE ALEJANDRO M. LERENA WHO WAS A WIDOWER IN NOVEMBER 1886, THEN SHE DIED BETWEEN 1873 AND 1886 *** - and a Montevideo death in that window is a findable record and is the next thing to look for. Her surname is written VILLADEMOROS on the 1872 act and VILLARDEMOROS in the 1873 index.",
+  "note": "Named as the mother at the Cordon christening of *** ALEJANDRO JOAQUIN NARCISO LERENA *** on 29 May 1873. *** Probably a sister of CELEDONIA VILLADEMOROS ***, who married Avelino Eduardo Lerena in the same decade - see his row and her husband's. The spelling VILLARDEMOROS is the index's; Celedonia is indexed VILLADEMOROS. Index-level. *** SHE IS NAMED BESIDE ALEJANDRO M. LERENA AT A FONT IN 1872, *** as godmother to Angelica Maria, daughter of her kinswoman Celedonia. *** IF SHE IS THE FIRST WIFE OF THE ALEJANDRO M. LERENA WHO WAS A WIDOWER IN NOVEMBER 1886, THEN SHE DIED BETWEEN 1873 AND 1886 *** - and a Montevideo death in that window is a findable record and is the next thing to look for. Her surname is written VILLADEMOROS on the 1872 act and VILLARDEMOROS in the 1873 index. *** HER DEATH IS NOW BRACKETED TO FIFTEEN MONTHS, 27 September 2026. *** The Cordon act of 26 December 1877 calls her *** '(hoy finada)' *** - dead that day - and her daughter Jacinta Mercedes Gregoria was born *** 19 September 1876 ***. *** SO ELISA VILLADEMOROS DIED BETWEEN 19 SEPTEMBER 1876 AND 26 DECEMBER 1877 ***, and a Montevideo burial in that window is a findable record. That death is what makes Alejandro M. Lerena a WIDOWER on the acts of 1886 and 1888, nine years later.",
   "place": "Montevideo",
   "placeSlug": "montevideo",
   "surname": "VILLARDEMOROS",
@@ -15690,13 +15771,20 @@
     "slug": "alejandro-joaquin-narciso-lerena-villardemoros",
     "via": "register",
     "note": "Same act."
+   },
+   {
+    "name": "Jacinta Mercedes Gregoria LERENA Villademoros",
+    "dates": "",
+    "slug": "jacinta-mercedes-gregoria-lerena-villademoros",
+    "via": "register",
+    "note": "Same act - 'hoy finada', so she died before 26 Dec 1877."
    }
   ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 1,
-  "relRegister": 1,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -15736,7 +15824,14 @@
   },
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Jacinta Mercedes Gregoria LERENA Villademoros",
+    "dates": "",
+    "slug": "jacinta-mercedes-gregoria-lerena-villademoros",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
   "relTotal": 2,
@@ -16161,10 +16256,10 @@
   "nationality": "Uruguayan",
   "occupation": "escribano (notary)",
   "where": "Montevideo, later Buenos Aires",
-  "source": "Uruguay, Civil Registration 1879-2020 - birth act N 424, Montevideo, 6 November 1886; ark 1:1:VR4Z-DDT - IMAGE READ 22 September 2026; film 004596830 image 01806; and Uruguay, Civil Registration 1879-2020 - birth act Num 108, Montevideo, March 1888; ark 1:1:VR4Z-VVB - IMAGE READ 22 September 2026; film 004596830 image 02145; and named as GODFATHER at the Iglesia Matriz christening of Angelica Maria Lerena Villademoros, 29 September 1872 - ark 1:1:6DFQ-YF26 - IMAGE READ 27 September 2026; film 004298263 image 03147",
+  "source": "Uruguay, Civil Registration 1879-2020 - birth act N 424, Montevideo, 6 November 1886; ark 1:1:VR4Z-DDT - IMAGE READ 22 September 2026; film 004596830 image 01806; and Uruguay, Civil Registration 1879-2020 - birth act Num 108, Montevideo, March 1888; ark 1:1:VR4Z-VVB - IMAGE READ 22 September 2026; film 004596830 image 02145; and named as GODFATHER at the Iglesia Matriz christening of Angelica Maria Lerena Villademoros, 29 September 1872 - ark 1:1:6DFQ-YF26 - IMAGE READ 27 September 2026; film 004298263 image 03147; and the Cordon christening of his daughter Jacinta Mercedes Gregoria, 26 December 1877 - ark 1:1:6D3Z-WP5Z - IMAGE READ 27 September 2026; film 007713388 image 02455",
   "status": "high",
   "statusRaw": "UNPLACED - HIGH INTEREST",
-  "note": "*** THE ALEJANDRO M. LERENA OF THE ARMY ENROLMENT CARDS, CAJON 985 - and the M. is on the acts, in the clerk's hand, not only in the index. *** He appeared in person twice: on 6 November 1886, \"parecieron don Alejandro M. Lerena, de cuarenta y dos anos de edad, viudo, escribano, oriental, domiciliado en la calle San Jose N 17\"; and again in March 1888, \"comparecieron don Alejandro M. Lerena de 43 anos de edad de estado viudo de nacionalidad Oriental\". *** TWO AGES SIXTEEN MONTHS APART, CONSISTENT WITH EACH OTHER, PUT HIS BIRTH BETWEEN 17 MARCH AND 6 NOVEMBER 1844. *** The tree's \"born Uruguay 1839\" is five years out on both acts and is a tree value, not a record. *** HE IS A WIDOWER IN 1886 *** while Julia Bassani is twenty-two and soltera, so there is an earlier marriage and an earlier death in Montevideo - and a marriage act names the groom's parents, which is now the shortest route to his parentage. *** THE 1888 ACT IS A PRINTED FORM WHOSE RULED LINE READS \"Que es nieta por linea paterna de ______\" AND THE LINE IS BLANK. *** So is the maternal one. The form asked this archive's question and nobody wrote the answer on it. *** NOT MERGED with Alejandro LERENA TRAIBEL *** (b. 1843 or 1845, son of Avelino) - the ages miss both of that man's candidate dates by one year, in opposite directions, which cannot choose between them. See data/the-three-alejandros.tsv. *** MAXIMO IS NOW ATTESTED ON A PLATE, 22 September 2026, and not only in the tree. *** His son Hector's marriage act of 25 February 1911 at San Carlos, Buenos Aires, names him in the priest's hand as \"D. *** ALEJANDRO MAXIMO *** [Lerena], natural de la Rep. Oriental\". So the bare \"M.\" of the two Montevideo birth acts expands to MAXIMO, and the *** Alejandro M. Lerena of army Cajon 985 has the same expansion ***. He was still being named as a living father's name in Buenos Aires in 1911. *** AND HIS FIRST WIFE MAY BE NAMED AT LAST, 27 September 2026. *** He is *** viudo *** on both Montevideo acts of 1886 and 1888, and this archive has been hunting the marriage that made him one. The Iglesia Matriz act of 29 September 1872 names the godparents of a Lerena Traibel child as *** 'ALEJANDRO M. LERENA y ELISA VILLADEMOROS, a quienes instruyo' *** - read off the plate. *** THE M. IS THE TELL: *** no other Alejandro in this register carries it, and the archive's separate row 'Alejandro LERENA (m. Elisa VILLARDEMOROS)' has a son christened at the Cordon on 29 May 1873. *** THIS IS NOT YET A MERGE *** - the two rows still stand, and data/_person-pairs.txt has been rewritten to say why the old reason for keeping them apart was wrong. A man who is a WIDOWER in 1886 and a husband in 1872 is one man with two wives in sequence, which is the ordinary case and is exactly what this archive mistook for two men.",
+  "note": "*** THE ALEJANDRO M. LERENA OF THE ARMY ENROLMENT CARDS, CAJON 985 - and the M. is on the acts, in the clerk's hand, not only in the index. *** He appeared in person twice: on 6 November 1886, \"parecieron don Alejandro M. Lerena, de cuarenta y dos anos de edad, viudo, escribano, oriental, domiciliado en la calle San Jose N 17\"; and again in March 1888, \"comparecieron don Alejandro M. Lerena de 43 anos de edad de estado viudo de nacionalidad Oriental\". *** TWO AGES SIXTEEN MONTHS APART, CONSISTENT WITH EACH OTHER, PUT HIS BIRTH BETWEEN 17 MARCH AND 6 NOVEMBER 1844. *** The tree's \"born Uruguay 1839\" is five years out on both acts and is a tree value, not a record. *** HE IS A WIDOWER IN 1886 *** while Julia Bassani is twenty-two and soltera, so there is an earlier marriage and an earlier death in Montevideo - and a marriage act names the groom's parents, which is now the shortest route to his parentage. *** THE 1888 ACT IS A PRINTED FORM WHOSE RULED LINE READS \"Que es nieta por linea paterna de ______\" AND THE LINE IS BLANK. *** So is the maternal one. The form asked this archive's question and nobody wrote the answer on it. *** NOT MERGED with Alejandro LERENA TRAIBEL *** (b. 1843 or 1845, son of Avelino) - the ages miss both of that man's candidate dates by one year, in opposite directions, which cannot choose between them. See data/the-three-alejandros.tsv. *** MAXIMO IS NOW ATTESTED ON A PLATE, 22 September 2026, and not only in the tree. *** His son Hector's marriage act of 25 February 1911 at San Carlos, Buenos Aires, names him in the priest's hand as \"D. *** ALEJANDRO MAXIMO *** [Lerena], natural de la Rep. Oriental\". So the bare \"M.\" of the two Montevideo birth acts expands to MAXIMO, and the *** Alejandro M. Lerena of army Cajon 985 has the same expansion ***. He was still being named as a living father's name in Buenos Aires in 1911. *** AND HIS FIRST WIFE MAY BE NAMED AT LAST, 27 September 2026. *** He is *** viudo *** on both Montevideo acts of 1886 and 1888, and this archive has been hunting the marriage that made him one. The Iglesia Matriz act of 29 September 1872 names the godparents of a Lerena Traibel child as *** 'ALEJANDRO M. LERENA y ELISA VILLADEMOROS, a quienes instruyo' *** - read off the plate. *** THE M. IS THE TELL: *** no other Alejandro in this register carries it, and the archive's separate row 'Alejandro LERENA (m. Elisa VILLARDEMOROS)' has a son christened at the Cordon on 29 May 1873. *** THIS IS NOT YET A MERGE *** - the two rows still stand, and data/_person-pairs.txt has been rewritten to say why the old reason for keeping them apart was wrong. A man who is a WIDOWER in 1886 and a husband in 1872 is one man with two wives in sequence, which is the ordinary case and is exactly what this archive mistook for two men. *** ANSWERED, 27 SEPTEMBER 2026, AND IT IS THE QUESTION THIS ARCHIVE HAS CARRIED SINCE 14 SEPTEMBER. *** data/the-three-alejandros.tsv called his parentage 'NOT KNOWN ... This is the whole obstacle'. *** HIS PARENTS ARE AVELINO LERENA AND AMBROSIA TRAIBEL. *** The Cordon act of 26 December 1877, read off film 007713388 image 02455: 'hija legitima de D. ALEJANDRO M. LERENA y de D.a ELISA [VILLADEMOROS] (hoy finada), orientales. *** ABUELOS PATERNOS D. AVELINO y D.a AMBROSIA TRAIBEL ***'. *** SO THE ALEJANDRO M. LERENA OF ARMY DRAWER CAJON 985 IS A LERENA TRAIBEL *** - a grandson of Sancho Llerena, and a brother of Josefa, Alberto, Alfredo Justiniano, Ana Rosario and the rest. *** AND THE WIDOWHOOD IS DATED. *** Elisa is 'HOY FINADA' on 26 December 1877 and her daughter was born 19 September 1876, so she died inside those fifteen months - which is why he is 'viudo' on both Montevideo acts of 1886 and 1888. *** WHAT REMAINS IS ONE ROW, NOT ONE QUESTION: *** this register also holds ALEJANDRO LERENA TRAIBEL, baptised at La Mauricia on 7 January 1846, a son of the same couple with the same forename, whose birth the act puts at 29 May 1843 or 1845 against the 1844 these acts give. Same parents, same name, compatible dates. They are almost certainly one man and are not yet merged; see data/_person-pairs.txt.",
   "place": "Montevideo, later Buenos Aires",
   "placeSlug": "montevideo-later-buenos-aires",
   "surname": "LERENA",
@@ -16172,8 +16267,20 @@
   "sourceUrl": "https://www.familysearch.org/ark:/61903/1:1:VR4Z-DDT",
   "noLink": "",
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Avelino LERENA Fernandez (son of Sancho)",
+   "dates": "1815–1890",
+   "slug": "avelino-lerena-fernandez",
+   "via": "register",
+   "note": "Cordon, Montevideo, 26 Dec 1877 - 'abuelos paternos D. AVELINO y D.a AMBROSIA TRAIBEL'. IMAGE READ, film 007713388 image 02455."
+  },
+  "mother": {
+   "name": "Ambrosia TRAIBEL",
+   "dates": "",
+   "slug": "ambrosia-traibel",
+   "via": "register",
+   "note": "Cordon, Montevideo, 26 Dec 1877 - 'abuelos paternos D. AVELINO y D.a AMBROSIA TRAIBEL'. IMAGE READ, film 007713388 image 02455."
+  },
   "spouses": [],
   "children": [
    {
@@ -16191,11 +16298,72 @@
     "note": "Montevideo birth act N 424 of 6 Nov 1886, IMAGE READ; and named again on his own marriage act, San Carlos, Buenos Aires, 25 Feb 1911, IMAGE READ."
    }
   ],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Alejandro LERENA TRAIBEL (formerly recorded as LERENA LENGUAS)",
+    "dates": "",
+    "slug": "alejandro-lerena-traibel",
+    "via": "register"
+   },
+   {
+    "name": "Alfredo Justiniano LERENA Traibel",
+    "dates": "",
+    "slug": "alfredo-justiniano-lerena-traibel",
+    "via": "register"
+   },
+   {
+    "name": "Ana Rosario LERENA Traibel",
+    "dates": "",
+    "slug": "ana-rosario-lerena-traibel",
+    "via": "register"
+   },
+   {
+    "name": "Andres LERENA Traibel",
+    "dates": "",
+    "slug": "andres-lerena-traibel",
+    "via": "register"
+   },
+   {
+    "name": "Avelino Eduardo LERENA Traibel",
+    "dates": "",
+    "slug": "avelino-eduardo-lerena-traibel",
+    "via": "register"
+   },
+   {
+    "name": "Josefa LERENA TRAIBEL (1851-1947)",
+    "dates": "",
+    "slug": "josefa-lerena-traibel",
+    "via": "register"
+   },
+   {
+    "name": "Juan Arturo LERENA Traibel",
+    "dates": "",
+    "slug": "juan-arturo-lerena-traibel",
+    "via": "register"
+   },
+   {
+    "name": "Maria Adelina LERENA Traibel (de FEIN)",
+    "dates": "",
+    "slug": "maria-adelina-lerena-traibel",
+    "via": "register"
+   },
+   {
+    "name": "Mercedes Micaela LERENA Traibel",
+    "dates": "",
+    "slug": "mercedes-micaela-lerena-traibel",
+    "via": "register"
+   },
+   {
+    "name": "Pedro Alberto Ysabelino LERENA Traibel (the ALBERTO of 1852-1921)",
+    "dates": "",
+    "slug": "pedro-alberto-ysabelino-lerena-traibel",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 2,
-  "relRegister": 2,
+  "relTotal": 4,
+  "relRegister": 4,
   "relTree": 0,
   "evidence": []
  },
@@ -16521,6 +16689,57 @@
   "aliasOf": null,
   "relTotal": 0,
   "relRegister": 0,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "jacinta-mercedes-gregoria-lerena-villademoros",
+  "name": "Jacinta Mercedes Gregoria LERENA Villademoros",
+  "born": "1876-09-19",
+  "died": "",
+  "birthplace": "Montevideo",
+  "nationality": "Uruguayan",
+  "occupation": "-",
+  "where": "Montevideo",
+  "source": "Uruguay, registros parroquiales 1726-2000 - christening of Jacinta Mercedes Gregoria, Cordon, Montevideo, 26 December 1877; ark 1:1:6D3Z-WP5Z - IMAGE READ 27 September 2026; film 007713388 image 02455",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** THE CHILD WHOSE BAPTISM ANSWERED THE ARCHIVE'S OLDEST OPEN QUESTION. *** Born *** 19 September 1876 *** and baptised at the Cordon on 26 December 1877, fifteen months later - and the delay is the point, because her mother had died in between. The act reads: 'El P. D. JOSE BALBI bautizo a JACINTA MERCEDES GREGORIA, nacida el 19 de Sept. ultimo, hija legitima de D. *** ALEJANDRO M. LERENA *** y de D.a *** ELISA [VILLADEMOROS] (HOY FINADA) ***, orientales. *** ABUELOS PATERNOS D. AVELINO y D.a AMBROSIA TRAIBEL ***, maternos D. PEDRO y D.a ANGELICA MENDEZ. Padrinos D. HERMENEGILDO FUENTES y D.a MERCEDES MENDEZ.' *** TWO THINGS THE INDEX GOT WRONG AND THE PLATE GOT RIGHT: *** it reads the father as 'Alejandro M. SERENA' - the S-for-L this archive has now met five times - and the grandmother as 'Ambrosia TRECIBEL'. Both are LERENA and TRAIBEL in the priest's hand.",
+  "place": "Montevideo",
+  "placeSlug": "montevideo",
+  "surname": "LERENA",
+  "ark": "1:1:6D3Z-WP5Z",
+  "sourceUrl": "https://www.familysearch.org/ark:/61903/1:1:6D3Z-WP5Z",
+  "noLink": "",
+  "gen": null,
+  "father": {
+   "name": "Alejandro LERENA (m. Elisa VILLARDEMOROS)",
+   "dates": "",
+   "slug": "alejandro-lerena",
+   "via": "register",
+   "note": "Same act."
+  },
+  "mother": {
+   "name": "Elisa VILLARDEMOROS (m. Alejandro LERENA)",
+   "dates": "",
+   "slug": "elisa-villardemoros",
+   "via": "register",
+   "note": "Same act - 'hoy finada', so she died before 26 Dec 1877."
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Alejandro Joaquin Narciso LERENA Villardemoros",
+    "dates": "",
+    "slug": "alejandro-joaquin-narciso-lerena-villardemoros",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  }
