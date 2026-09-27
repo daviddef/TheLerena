@@ -16,13 +16,15 @@ const others = place ? people.filter(x => x.placeSlug === p.placeSlug && x.slug 
 // The third column of .rec is the "why" — the Defranceski archive uses it and ours sat empty.
 const WHY = {
   Born: "as the record gives it",
+  Died: "an explicit death date, matched to this register by hand in "
+      + "last-attested-alive.tsv \u2014 never a «by 1950» ceiling",
   Birthplace: "as the record gives it",
   Nationality: "as declared, not as inferred",
   Occupation: "the word the document uses",
   "Where found": "the search that produced this person",
 };
 const says = [
-  ["Born", p.born], ["Birthplace", p.birthplace], ["Nationality", p.nationality],
+  ["Born", p.born], ["Died", p.died], ["Birthplace", p.birthplace], ["Nationality", p.nationality],
   ["Occupation", p.occupation], ["Where found", p.where],
 ].filter(([, v]) => v && v !== "-").map(([k, v]) => [k, v, WHY[k] || ""]);
 

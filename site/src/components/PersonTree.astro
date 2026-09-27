@@ -9,6 +9,7 @@
 import { u } from "../lib/url.js";
 import PersonTree from "@daviddef/archive-kit/components/PersonTree.astro";
 import RING from "@daviddef/archive-kit/data/archives.json";
+import LIVING from "../data/living.json";
 import "@daviddef/archive-kit/styles/persontree.css";
 
 const { p } = Astro.props;
@@ -81,6 +82,31 @@ const row = (n, showVia = true) => ({
    carries the real reasoning — "Widow; kin of Gilberto (1854), probably sister
    or sister-in-law" — which is exactly the kind of held-but-unproven reading
    that belongs in prose and not in a line between two people. */
+/* NOT ONE OF THIS ARCHIVE'S 357 CHARTS HAS EVER SHOWN THE SUBJECT'S DATES.
+   This passed `dates: p.dates`, and people.json has no `dates` field and never
+   had one — so the self node carried a bare name in every chart while the five
+   sibling archives all show a lifespan. Undefined is not an empty string a
+   reader can notice; it renders as nothing at all and looks deliberate.
+
+   Composed here from born and died as the register stores them, raw, because
+   the raw strings carry what a normalised year would throw away: «c.1815» is an
+   estimate and must keep saying so.
+
+   The living rule is applied even though it currently protects nobody: the one
+   living person, Cheryl Anne LERENA, is declared in living.json with a birth
+   date and is NOT in the register at all, so no register row is hers. That is
+   true today and is exactly the kind of fact that stops being true quietly, so
+   the guard is by name and does not depend on it. */
+const LIVING_NAMES = new Set(
+  (Array.isArray(LIVING) ? LIVING : []).filter((x) => x && x.living)
+    .map((x) => String(x.name || "").trim().toLowerCase()));
+const isLiving = LIVING_NAMES.has(String(p.name || "").trim().toLowerCase());
+const lifespan = isLiving ? ""
+  : p.born && p.died ? `${p.born} – ${p.died}`
+  : p.died ? `d. ${p.died}`
+  : p.born ? `b. ${p.born}`
+  : "";
+
 const nothing = !parents.length && !spouses.length && !children.length
   && !siblings.length;
 const emptyWhy = !nothing ? "" :
@@ -96,7 +122,7 @@ const emptyWhy = !nothing ? "" :
 ---
 <PersonTree
   always
-  self={{ name: p.name, dates: p.dates, gen: p.gen != null ? `generation ${p.gen}` : "" }}
+  self={{ name: p.name, dates: lifespan, gen: p.gen != null ? `generation ${p.gen}` : "" }}
   parents={parents.map((n) => row(n))}
   spouses={spouses.map((n) => row(n))}
   children={children.map((n) => row(n))}

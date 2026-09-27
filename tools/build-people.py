@@ -81,6 +81,44 @@ _frozen = _ledger_doc["slugs"]
 _taken = set(_frozen.values())
 _minted = []
 
+# DEATHS THIS REGISTER NEVER CARRIED, and why they arrive from here and not from
+# the line files.
+#
+# data/lerena-register.tsv has no death column at all — it is a surname sweep,
+# recording where each person was FOUND. So people.json carried no `died`, and
+# the kit's kin gate, whose every test needs a birth and a death, skipped all 357
+# rows while reporting «ok · 357 people · 0 impossible relationship(s)». Green
+# since it was written, having examined nobody.
+#
+# The obvious fix is wrong. The line files DO hold deaths — direct-line.tsv,
+# gen1-children.tsv, lerena-siblings-gen3.tsv, taylor-line.tsv, 23 of them — and
+# only 2 of those 23 names match a register name exactly. The rest differ as
+# «Mary Septima LERENA, née TAYLOR» differs from «Mary Septima TAYLOR», or carry
+# a nickname, or belong to the Taylor line and not to this register at all.
+# Joining them would mean normalising names and deciding that two spellings are
+# one person, which is the single inference this archive refuses.
+#
+# data/last-attested-alive.tsv is the file where that reconciliation was already
+# done BY HAND, person by person, with the basis written beside each one. Its 356
+# names match 356 register names exactly. So the deaths are taken from there, and
+# only where `tier` is DEATH — the 3 DEATH BY rows are ceilings and say so in
+# their own basis text: "a CEILING, not a date: the file year can trail the
+# death". A ceiling is not a death and must never be published as one.
+DEATHS = {}
+_la = ROOT / "data" / "last-attested-alive.tsv"
+if _la.exists():
+    _lines = [l for l in _la.read_text(encoding="utf-8").splitlines()
+              if l.strip() and not l.startswith("#")]
+    if _lines:
+        _hdr = _lines[0].split("\t")
+        for _l in _lines[1:]:
+            _c = dict(zip(_hdr, _l.split("\t")))
+            if (_c.get("tier") or "").strip() == "DEATH":
+                _who = (_c.get("name") or "").strip()
+                _when = (_c.get("last_attested_alive") or "").strip()
+                if _who and _when:
+                    DEATHS[_who] = _when
+
 people, seen = [], {}
 for r in rows:
     r = (r + [""] * 10)[:10]
@@ -105,7 +143,8 @@ for r in rows:
     _taken.add(slug)
     place = norm_place(where)
     people.append({
-        "slug": slug, "name": name, "born": born, "birthplace": bp,
+        "slug": slug, "name": name, "born": born, "died": DEATHS.get(name, ""),
+        "birthplace": bp,
         "nationality": nat, "occupation": occ, "where": where, "source": src,
         "status": STATUS.get(st.strip().upper(), "unplaced"), "statusRaw": st,
         "note": note, "place": place, "placeSlug": slugify(place),
