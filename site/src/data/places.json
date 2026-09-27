@@ -527,6 +527,15 @@
   "count": 2
  },
  {
+  "slug": "san-jeronimo-cordoba",
+  "name": "San Jeronimo, Cordoba",
+  "people": [
+   "don-cornelio-casas",
+   "dona-raimunda-pereda"
+  ],
+  "count": 2
+ },
+ {
   "slug": "retiro-buenos-aires",
   "name": "Retiro, Buenos Aires",
   "people": [
@@ -643,6 +652,14 @@
   "name": "Flores, Uruguay",
   "people": [
    "cipriano-lerena-montana"
+  ],
+  "count": 1
+ },
+ {
+  "slug": "bell-ville-san-jeronimo-cordoba",
+  "name": "Bell Ville / San Jeronimo, Cordoba",
+  "people": [
+   "amalia-casas"
   ],
   "count": 1
  }
