@@ -5400,8 +5400,20 @@
   "sourceUrl": "",
   "noLink": "GRO index — no public per-record link",
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "General Don Pedro LENGUAS",
+   "dates": "",
+   "slug": "general-don-pedro-lenguas",
+   "via": "register",
+   "note": "Stated on both parents' register rows; she married Luis Lerena."
+  },
+  "mother": {
+   "name": "Dona Carmen GONZALEZ (wife of Gen. Pedro Lenguas)",
+   "dates": "",
+   "slug": "dona-carmen-gonzalez",
+   "via": "register",
+   "note": "Same."
+  },
   "spouses": [],
   "children": [
    {
@@ -5419,11 +5431,18 @@
     "note": "The same 1877 act. Montevideo, San Francisco de Asis, religious marriage no. 178, 11 August 1877 - IMAGE READ 20 September 2026. DGS 007713525 image 01765, ark 3:1:3Q9M-C9BW-N74V-N."
    }
   ],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Dona Sixta LENGUAS Gonzalez (2nd wife of Candido Juanico)",
+    "dates": "",
+    "slug": "dona-sixta-lenguas-gonzalez",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 2,
-  "relRegister": 2,
+  "relTotal": 4,
+  "relRegister": 4,
   "relTree": 0,
   "evidence": []
  },
@@ -7809,15 +7828,50 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
-  "mother": null,
-  "spouses": [],
-  "children": [],
+  "father": {
+   "name": "Don Antonio LENGUAS",
+   "dates": "",
+   "slug": "don-antonio-lenguas",
+   "via": "register",
+   "note": "Named on his granddaughter Sixta's death act of 1884, with his wife Juana Grandal."
+  },
+  "mother": {
+   "name": "Dona Juana GRANDAL",
+   "dates": "",
+   "slug": "dona-juana-grandal",
+   "via": "register",
+   "note": "Same act."
+  },
+  "spouses": [
+   {
+    "name": "Dona Carmen GONZALEZ (wife of Gen. Pedro Lenguas)",
+    "dates": "",
+    "slug": "dona-carmen-gonzalez",
+    "via": "register",
+    "note": "Parents together of Justiniana and Sixta Lenguas."
+   }
+  ],
+  "children": [
+   {
+    "name": "Dona Justiniana LENGUAS Gonzalez",
+    "dates": "",
+    "slug": "dona-justiniana-lenguas-gonzalez",
+    "via": "register",
+    "note": "Stated on both parents' register rows; she married Luis Lerena."
+   },
+   {
+    "name": "Dona Sixta LENGUAS Gonzalez (2nd wife of Candido Juanico)",
+    "dates": "",
+    "slug": "dona-sixta-lenguas-gonzalez",
+    "via": "register",
+    "note": "Stated on both parents' rows; her death act of 1884 names the grandparents."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 5,
+  "relRegister": 5,
   "relTree": 0,
   "evidence": []
  },
@@ -7841,15 +7895,42 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Don Pascual GONZALEZ",
+   "dates": "",
+   "slug": "don-pascual-gonzalez",
+   "via": "register",
+   "note": "Named with his wife Josefa Grandal in his granddaughter Sixta's death act of 1884."
+  },
+  "mother": {
+   "name": "Dona Josefa GRANDAL",
+   "dates": "",
+   "slug": "dona-josefa-grandal",
+   "via": "register",
+   "note": "Same act."
+  },
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Dona Justiniana LENGUAS Gonzalez",
+    "dates": "",
+    "slug": "dona-justiniana-lenguas-gonzalez",
+    "via": "register",
+    "note": "Same."
+   },
+   {
+    "name": "Dona Sixta LENGUAS Gonzalez (2nd wife of Candido Juanico)",
+    "dates": "",
+    "slug": "dona-sixta-lenguas-gonzalez",
+    "via": "register",
+    "note": "Same."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 4,
+  "relRegister": 4,
   "relTree": 0,
   "evidence": []
  },
@@ -8093,15 +8174,34 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "General Don Pedro LENGUAS",
+   "dates": "",
+   "slug": "general-don-pedro-lenguas",
+   "via": "register",
+   "note": "Stated on both parents' rows; her death act of 1884 names the grandparents."
+  },
+  "mother": {
+   "name": "Dona Carmen GONZALEZ (wife of Gen. Pedro Lenguas)",
+   "dates": "",
+   "slug": "dona-carmen-gonzalez",
+   "via": "register",
+   "note": "Same."
+  },
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Dona Justiniana LENGUAS Gonzalez",
+    "dates": "",
+    "slug": "dona-justiniana-lenguas-gonzalez",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -8192,12 +8292,20 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "General Don Pedro LENGUAS",
+    "dates": "",
+    "slug": "general-don-pedro-lenguas",
+    "via": "register",
+    "note": "Named on his granddaughter Sixta's death act of 1884, with his wife Juana Grandal."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -8224,12 +8332,20 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "General Don Pedro LENGUAS",
+    "dates": "",
+    "slug": "general-don-pedro-lenguas",
+    "via": "register",
+    "note": "Same act."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -8256,12 +8372,20 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Dona Carmen GONZALEZ (wife of Gen. Pedro Lenguas)",
+    "dates": "",
+    "slug": "dona-carmen-gonzalez",
+    "via": "register",
+    "note": "Named with his wife Josefa Grandal in his granddaughter Sixta's death act of 1884."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -8288,12 +8412,20 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Dona Carmen GONZALEZ (wife of Gen. Pedro Lenguas)",
+    "dates": "",
+    "slug": "dona-carmen-gonzalez",
+    "via": "register",
+    "note": "Same act."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -9222,12 +9354,20 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Lucinda Gregoria del Corazon de Jesus RUIZ DE CARVALLO",
+    "dates": "",
+    "slug": "lucinda-gregoria-del-corazon-de-jesus-ruiz-de-carvallo",
+    "via": "register",
+    "note": "Same act - 'Dona DOMINGA LLERENA DE CARVALLO ... hija de Sancho Llerena'. Wired to her BIRTH-NAME row; see data/_person-pairs.txt on 'Dona Dominga CARVALLO'."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -9860,8 +10000,20 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Don Juan TRAIBEL",
+   "dates": "",
+   "slug": "don-juan-traibel",
+   "via": "register",
+   "note": "Named as maternal grandfather at the two San Francisco de Asis baptisms of 12 March 1858 - IMAGE READ, film 007713686 image 02847."
+  },
+  "mother": {
+   "name": "Dona Ysabel CENTENO",
+   "dates": "",
+   "slug": "dona-ysabel-centeno",
+   "via": "register",
+   "note": "Same acts."
+  },
   "spouses": [],
   "children": [
    {
@@ -9945,8 +10097,8 @@
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 11,
-  "relRegister": 11,
+  "relTotal": 13,
+  "relRegister": 13,
   "relTree": 0,
   "evidence": []
  },
@@ -11603,7 +11755,13 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
+  "father": {
+   "name": "Fernando MORATORIO (the younger)",
+   "dates": "",
+   "slug": "fernando-moratorio-2",
+   "via": "register",
+   "note": "Her own row: 'Daughter of Fernando Moratorio and Josefa Lerena Traibel'."
+  },
   "mother": {
    "name": "Josefa LERENA TRAIBEL (1851-1947)",
    "dates": "",
@@ -11623,8 +11781,8 @@
   ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 1,
-  "relRegister": 1,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -11648,7 +11806,13 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
+  "father": {
+   "name": "Fernando MORATORIO (the younger)",
+   "dates": "",
+   "slug": "fernando-moratorio-2",
+   "via": "register",
+   "note": "Same."
+  },
   "mother": {
    "name": "Josefa LERENA TRAIBEL (1851-1947)",
    "dates": "",
@@ -11668,8 +11832,8 @@
   ],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 1,
-  "relRegister": 1,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -11792,12 +11956,20 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Fernando MORATORIO (the younger)",
+    "dates": "",
+    "slug": "fernando-moratorio-2",
+    "via": "register",
+    "note": "Named as paternal grandfather at the two Catedral Basilica baptisms of 8 March 1880 - IMAGE READ."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -11824,12 +11996,20 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Fernando MORATORIO (the younger)",
+    "dates": "",
+    "slug": "fernando-moratorio-2",
+    "via": "register",
+    "note": "Same acts, as paternal grandmother."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -12222,12 +12402,20 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Ambrosia TRAIBEL",
+    "dates": "",
+    "slug": "ambrosia-traibel",
+    "via": "register",
+    "note": "Named as maternal grandfather at the two San Francisco de Asis baptisms of 12 March 1858 - IMAGE READ, film 007713686 image 02847."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -12254,12 +12442,20 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Ambrosia TRAIBEL",
+    "dates": "",
+    "slug": "ambrosia-traibel",
+    "via": "register",
+    "note": "Same acts."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -13189,12 +13385,20 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Lucinda Gregoria del Corazon de Jesus RUIZ DE CARVALLO",
+    "dates": "",
+    "slug": "lucinda-gregoria-del-corazon-de-jesus-ruiz-de-carvallo",
+    "via": "register",
+    "note": "Catedral baptism of 12 May 1827."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -13282,15 +13486,27 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Capitan Don Antonio RUIZ [RODRIGUEZ] DE CARVALLO",
+   "dates": "",
+   "slug": "capitan-don-antonio-ruiz-rodriguez-de-carvallo",
+   "via": "register",
+   "note": "Catedral baptism of 12 May 1827."
+  },
+  "mother": {
+   "name": "Dominga Josefa LLERENA Fernandez (b.1804)",
+   "dates": "",
+   "slug": "dominga-josefa-llerena-fernandez",
+   "via": "register",
+   "note": "Same act - 'Dona DOMINGA LLERENA DE CARVALLO ... hija de Sancho Llerena'. Wired to her BIRTH-NAME row; see data/_person-pairs.txt on 'Dona Dominga CARVALLO'."
+  },
   "spouses": [],
   "children": [],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -16872,6 +17088,73 @@
   "aliasOf": null,
   "relTotal": 1,
   "relRegister": 1,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "fernando-moratorio-2",
+  "name": "Fernando MORATORIO (the younger)",
+  "born": "-",
+  "died": "",
+  "birthplace": "-",
+  "nationality": "Uruguayan",
+  "occupation": "-",
+  "where": "Montevideo",
+  "source": "Catedral Basilica de Montevideo - the two baptisms of 8 March 1880, folios 411-412 - IMAGE READ 21 September 2026; film 007713378 image 02598",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** HE WAS MISSING FROM THIS REGISTER WHILE HIS PARENTS, HIS WIFE AND BOTH HIS DAUGHTERS WERE IN IT. *** Entered 28 September 2026, found by asking which people the register NAMES but does not HOLD. Husband of *** JOSEFA LERENA TRAIBEL (1851-1947) ***, Avelino and Ambrosia's daughter, and father of *** MARIA CARLOTA and MARIA DE LAS MERCEDES MORATORIO LERENA ***, baptised together at the Catedral Basilica on 8 March 1880 - the twins settled on the plate, both acts reading 'que nacio el veinte y cuatro de Febrero ultimo'. His own parents are named on those same acts as the paternal grandparents: *** FERNANDO MORATORIO the elder and NICOLASA TORRES ***. *** HE IS THE JOINT THE WHOLE MORATORIO BRANCH HANGS FROM ***, and for six months it hung from nothing.",
+  "place": "Montevideo",
+  "placeSlug": "montevideo",
+  "surname": "MORATORIO",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": {
+   "name": "Fernando MORATORIO (the elder)",
+   "dates": "",
+   "slug": "fernando-moratorio",
+   "via": "register",
+   "note": "Named as paternal grandfather at the two Catedral Basilica baptisms of 8 March 1880 - IMAGE READ."
+  },
+  "mother": {
+   "name": "Nicolasa TORRES",
+   "dates": "",
+   "slug": "nicolasa-torres",
+   "via": "register",
+   "note": "Same acts, as paternal grandmother."
+  },
+  "spouses": [
+   {
+    "name": "Josefa LERENA TRAIBEL (1851-1947)",
+    "dates": "",
+    "slug": "josefa-lerena-traibel",
+    "via": "register",
+    "note": "Parents together of the two girls baptised 8 March 1880."
+   }
+  ],
+  "children": [
+   {
+    "name": "Maria Carlota MORATORIO Lerena",
+    "dates": "",
+    "slug": "maria-carlota-moratorio-lerena",
+    "via": "register",
+    "note": "Her own row: 'Daughter of Fernando Moratorio and Josefa Lerena Traibel'."
+   },
+   {
+    "name": "Maria de las Mercedes MORATORIO Lerena",
+    "dates": "",
+    "slug": "maria-de-las-mercedes-moratorio-lerena",
+    "via": "register",
+    "note": "Same."
+   }
+  ],
+  "siblings": [],
+  "isLine": false,
+  "aliasOf": null,
+  "relTotal": 5,
+  "relRegister": 5,
   "relTree": 0,
   "evidence": []
  }
