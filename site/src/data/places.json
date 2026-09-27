@@ -464,6 +464,16 @@
   "count": 3
  },
  {
+  "slug": "san-jeronimo-cordoba",
+  "name": "San Jeronimo, Cordoba",
+  "people": [
+   "amalia-casas",
+   "don-cornelio-casas",
+   "dona-raimunda-pereda"
+  ],
+  "count": 3
+ },
+ {
   "slug": "tucuman",
   "name": "Tucuman",
   "people": [
@@ -523,15 +533,6 @@
   "people": [
    "ramon-lerena-2",
    "maria-josefa-gonzalez"
-  ],
-  "count": 2
- },
- {
-  "slug": "san-jeronimo-cordoba",
-  "name": "San Jeronimo, Cordoba",
-  "people": [
-   "don-cornelio-casas",
-   "dona-raimunda-pereda"
   ],
   "count": 2
  },
@@ -652,14 +653,6 @@
   "name": "Flores, Uruguay",
   "people": [
    "cipriano-lerena-montana"
-  ],
-  "count": 1
- },
- {
-  "slug": "bell-ville-san-jeronimo-cordoba",
-  "name": "Bell Ville / San Jeronimo, Cordoba",
-  "people": [
-   "amalia-casas"
   ],
   "count": 1
  }
