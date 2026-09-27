@@ -1507,6 +1507,14 @@
    "since": "2026-09-27",
    "what": "Finish the Trinidad, Flores sweep — one page of one search returned a whole generation",
    "note": "**Started 27 September 2026 and deliberately not finished.** A single FamilySearch search on birthplace = Trinidad, Flores returned the CHILDREN OF THE CHILDREN - a generation findmypast's 33 transcripts do not reach. See data/trinidad-flores-sweep-2026-09-27.tsv. **It found that CUSTODIO LERENA and EMA CARDOZO - the double first cousins of the 1911 dispensation - had a daughter in 1915, so the dispensation was granted.** **WHAT IS LEFT:** the remaining result pages; four households new to this archive (Pedro Segundo x Petrona Fernández, Florencio x Juana Recuero, Gualberto x Rosaura Álvarez, Doroteo x Isidora Cardozo); a FOURTH Lerena woman recorded as a mother with no father named (Cayetana Faustina); and **a fifth Alejandro** - Alejandro Estéban, b. 1901, son of Gualberto - for data/the-three-alejandros.tsv to watch. **Every row is INDEX ONLY and no image has been opened.**"
+  },
+  {
+   "n": 189,
+   "state": "blocked",
+   "owner": "David",
+   "since": "2026-09-27",
+   "what": "Nine TAB files are ranked and ready to order, and nothing in this list tracked them",
+   "note": "data/tab-pull-list-2026-09-22.tsv and its JSON hold NINE ranked Transvaal Archives references with, for each, what it would answer — TPD 1367/1980 and TPD 1248/1979 for who Anton Armando and Ricardo Paul are, and the rest of MHG 1518/73 and MHG 6746/71 where only the death notice is held. That is a finished piece of work sitting in a data file with no row here, which is part of why this archive's own gate reports 20 outstanding items not yet reconciled.\n\n*** TWO THINGS REPORTED BY THE BOOYZEN SESSION ON 27 SEPTEMBER, NEITHER VERIFIED HERE, both of which bear on ordering these. *** NARSSA's tariffs changed on 1 September 2026, so any cost worked out before that is stale. And the Pretoria reading room is reported closed, which would make a pull list an order-by-post or nothing at all. Recorded as reported rather than established, because this archive has not checked either and the difference matters to whoever acts on it.\n\nBlocked on David because ordering costs money and the tariff is the thing that changed."
   }
  ],
  "accounts": [
