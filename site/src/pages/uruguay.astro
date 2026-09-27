@@ -8,6 +8,7 @@ import mauricio from "../data/mauricio-casimira-montano.json";
 import alejandros from "../data/the-three-alejandros.json";
 import Spine from "@daviddef/archive-kit/components/Spine.astro";
 import spines from "../data/descent-spines.json";
+import trinidad from "../data/trinidad-flores-sweep-2026-09-27.json";
 
 /* The two descents drawn the same way, so the eye can do the comparing. Both
    start in Spain, both cross, both spread across the Banda Oriental — and they
@@ -1019,6 +1020,51 @@ import sanjose from "../data/alberto-lerena-larriera.json";
       country before settling in the capital.</strong> Julia is <em>italiana</em> in 1886 and
       <em>austriaca</em> in 1888, aged 22 and then 24 &mdash; both written in front of her, and this
       archive records both rather than picking.</p>
+  </div>
+</section>
+<section class="blk">
+  <h2 id="s-trinidad-sweep">Trinidad, Flores &mdash; the dispensation was granted</h2>
+  <div class="prose">
+    <p><span class="chip doc">Documented</span> On <strong>27 September 2026</strong> this archive
+      opened all thirty-three findmypast transcripts for Uruguayan Lerena baptisms, which gave twenty
+      children across fourteen households. <strong>A single FamilySearch search on the same place then
+      returned a generation findmypast does not hold at all</strong> &mdash; the children of those
+      children. <strong>One index is not another index, and neither is the parish book.</strong></p>
+    <p><span class="chip doc">Documented</span> <strong>And it closed a story this archive has carried
+      open since it found the diagrams.</strong> In 1911 the Cura Vicario of Montevideo drew two kinship
+      charts for <strong>Custodio Lerena</strong> and <strong>Ema Cardozo</strong>, double first cousins,
+      seeking dispensation to marry. Whether it was granted has never been known here.
+      <strong>Their daughter Violeta Blanca was born on 29 October 1915</strong> and christened at
+      Trinidad the following September. <strong>It was granted, and they married.</strong></p>
+  </div>
+  <div class="scroll" style="margin-top:18px">
+    <table style="min-width:62rem">
+      <thead><tr>
+        <th style="width:13rem">Child</th><th class="m" style="width:8rem">Born</th>
+        <th style="width:12rem">Christened / registered</th><th style="width:11rem">Father</th>
+        <th style="width:10rem">Mother</th><th style="width:18rem">What it adds</th>
+      </tr></thead>
+      <tbody>
+        {trinidad.map((r) => { const c = Object.values(r); return (
+          <tr>
+            <th set:html={emph(c[0])} />
+            <td class="m" set:html={emph(c[1])} />
+            <td class="cap" set:html={emph(c[2])} />
+            <td class="cap" set:html={emph(c[3])} />
+            <td class="cap" set:html={emph(c[4])} />
+            <td class="cap" set:html={emph(c[5])} />
+          </tr>); })}
+      </tbody>
+    </table>
+  </div>
+  <div class="prose" style="margin-top:14px">
+    <p><span class="chip lore">Index only</span> <strong>Not one image was opened for that table, and
+      several names in it are visibly mangled</strong> &mdash; <em>&ldquo;Min Levena Fer&rdquo;</em> is
+      FERM&Iacute;N LERENA, <em>&ldquo;Capas-Ra Pelaes&rdquo;</em> is CASIMIRA PELAEZ, and
+      <em>&ldquo;Juan Bernardo Serena&rdquo;</em> is the S-for-L this archive has now met five times. It
+      is a pointer to plates, not a finding. <strong>And the 1726 artefact is there too:</strong> Lauriana
+      Lerena, christened 1891, is indexed with a birth of <em>12 September 1726</em> &mdash; the
+      collection&rsquo;s first year standing in for a date it does not have.</p>
   </div>
 </section>
 
