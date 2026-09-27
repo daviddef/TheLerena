@@ -13097,15 +13097,35 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
-  "mother": null,
-  "spouses": [],
+  "father": {
+   "name": "Juan ZALSAMENDI",
+   "dates": "",
+   "slug": "juan-zalsamendi",
+   "via": "register",
+   "note": "Named on the same act."
+  },
+  "mother": {
+   "name": "Dolores POU de ZALSAMENDI",
+   "dates": "",
+   "slug": "dolores-pou-de-zalsamendi",
+   "via": "register",
+   "note": "Named on the same act."
+  },
+  "spouses": [
+   {
+    "name": "Amelia LERENA (m. Eduardo ZALSAMENDI)",
+    "dates": "",
+    "slug": "amelia-lerena",
+    "via": "register",
+    "note": "San Juan Bautista, Pocitos, baptism of 15 Aug 1903 - IMAGE READ, film 007713400 image 02828."
+   }
+  ],
   "children": [],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 3,
+  "relRegister": 3,
   "relTree": 0,
   "evidence": []
  },
@@ -13132,12 +13152,20 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Eduardo ZALSAMENDI",
+    "dates": "",
+    "slug": "eduardo-zalsamendi",
+    "via": "register",
+    "note": "Named on the same act."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -13164,12 +13192,20 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Eduardo ZALSAMENDI",
+    "dates": "",
+    "slug": "eduardo-zalsamendi",
+    "via": "register",
+    "note": "Named on the same act."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -13456,13 +13492,21 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Mayor Don Joaquin RUIZ DE CARVALLO",
+    "dates": "",
+    "slug": "mayor-don-joaquin-ruiz-de-carvallo",
+    "via": "register",
+    "note": "Her own row: 'Wife of Mayor Don Joaquin Ruiz de Carvallo; la finada by May 1827'."
+   }
+  ],
   "children": [],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
