@@ -117,5 +117,12 @@
   "what it actually was": "*** THE QUERY SHAPE, NOT THE FAMILY. *** The arithmetic settles it without any judgement: *** father given name SANCHO alone returns 10,315. Mother given name MARIA alone returns 1,228,708. Together they return 0. *** Two fields matching five and seven figures cannot intersect at nothing in a country where Maria is the commonest name a mother has. *** ADD THE TWO SURNAMES - Llerena and Fernandez - AND THE SAME QUERY RETURNS SIX, every one of them real. ***",
   "how it was caught": "*** BY ARITHMETIC, WHICH IS THE ONLY GUARD THAT HAS NEVER FAILED HERE. *** The rule this yields is worth more than the instance: *** a parent-pair query with GIVEN NAMES ONLY returns zero whatever the truth is, so at least one parent SURNAME must be supplied before any null from this shape means anything. *** Every earlier zero in this archive drawn from given names alone is void; every one drawn with a surname stands.",
   "when": "22 Sep 2026"
+ },
+ {
+  "disguise": "*** THE NULL THAT MEANS 'NOT INDEXED', AND SAYS SO ***",
+  "what it looked like": "Searched 27 September 2026 for the MARRIAGE of Alejandro M. Lerena and Elisa Villademoros, Uruguay - under LERENA and under *** SERENA ***, the spelling that had hidden the 1877 act naming his parents. Nothing. *** THE CONTROL WAS RUN IN THE SAME MINUTES AND IS THE RIGHT KIND: *** a MONTEVIDEO PARISH MARRIAGE OF THE SAME ERA that this archive already holds - Luis Lerena and Julia Juanico, 19 December 1864, San Francisco de Asis. It returns, and it returns WITH THE GROOM'S PARENTS ATTACHED. *** SO THE INSTRUMENT REACHES 1860s MONTEVIDEO MARRIAGES AND CARRIES PARENTS ON THEM ***, and the null is about THIS ACT rather than about the shelf. *** IT IS RECORDED AS 'NOT IN THE INDEXED CORPUS', NOT AS 'DID NOT HAPPEN' *** - the couple's eldest child was baptised in 1873, so a marriage exists. *** THIS IS THE FIRST ENTRY IN THIS FILE WHERE THE CONTROL WAS CHOSEN TO MATCH THE ERA, THE CITY AND THE RECORD TYPE *** rather than merely to be impossible-to-be-zero, and it is the better habit.",
+  "what it actually was": "27 September 2026",
+  "how it was caught": "",
+  "when": ""
  }
 ]

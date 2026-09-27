@@ -446,19 +446,19 @@
   },
   {
    "n": 56,
-   "what": "Walk the Cordón burial register by image, 1826–1845",
+   "what": "Walk the Cordón burial register by image, 1826–1845 — AND 1876–1877, which is now the sharper window",
    "state": "next",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**The route the null leaves open.** Sancho and María are absent from the burial **index**, but the index is name-based and an eighteenth-century surname mangled by a transcriber is invisible to it. **Nuestra Señora del Carmen, Cordón** is the family's own parish — Justa Pastora married there in 1830, the 1831 godfather act is there, Dominga lived there — and its burials of 1832–38 are demonstrably filmed. The Cordón marriage register is already anchored at **dgs:007713391 image 1669**, so the burial volume is findable from the same reel's item boards. Do the Iglesia Matriz next, and Santa Lucía after that, where María's parents were **vecinos**."
+   "note": "**SHARPENED 27 September 2026, and this row is now cheap and decisive.** The original scope was 1826-1845. **A fifteen-month window has been added and it is the one that matters: SEPTEMBER 1876 to DECEMBER 1877.** **ELISA VILLADEMOROS died in it.** The Cordón act of 26 December 1877 calls her *(hoy finada)* and her daughter Jacinta Mercedes Gregoria was born 19 September 1876. She is **not in any indexed corpus** - she died before Uruguay had civil registration, which begins 1879 - so the burial is in these books and nowhere else. Both her children were baptised at the Cordón. **Her burial would name her parents, and it dates the widowhood this archive used to find Alejandro M. Lerena's parentage.** **The route the null leaves open.** Sancho and María are absent from the burial **index**, but the index is name-based and an eighteenth-century surname mangled by a transcriber is invisible to it. **Nuestra Señora del Carmen, Cordón** is the family's own parish — Justa Pastora married there in 1830, the 1831 godfather act is there, Dominga lived there — and its burials of 1832–38 are demonstrably filmed. The Cordón marriage register is already anchored at **dgs:007713391 image 1669**, so the burial volume is findable from the same reel's item boards. Do the Iglesia Matriz next, and Santa Lucía after that, where María's parents were **vecinos**."
   },
   {
    "n": 57,
-   "what": "Walk the Iglesia Matriz burial register, 1826–1845",
+   "what": "Walk the Iglesia Matriz burial register, 1826–1845 — and 1876–1877 as the fallback for Elisa",
    "state": "next",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "The Cordón is one parish of several and Sancho may not be in it. The **Catedral de la Inmaculada Concepción** — the Iglesia Matriz — is where he stood godfather in 1789 and where his son Luis was baptised in 1811, so it is at least as likely a resting place. Its baptism films are already anchored (**DGS 7713375**, images 551 and 2410), which is the way into the same reel's burial volumes."
+   "note": "**SECOND CHOICE FOR THE SAME FIFTEEN MONTHS, added 27 September 2026.** If the Cordón (row 56) does not hold Elisa Villademoros's burial of 1876-77, the Iglesia Matriz is next - it is where her kinswoman Celedonia's daughter was baptised in 1872, with Elisa herself standing godmother. The Cordón is one parish of several and Sancho may not be in it. The **Catedral de la Inmaculada Concepción** — the Iglesia Matriz — is where he stood godfather in 1789 and where his son Luis was baptised in 1811, so it is at least as likely a resting place. Its baptism films are already anchored (**DGS 7713375**, images 551 and 2410), which is the way into the same reel's burial volumes."
   },
   {
    "n": 58,
@@ -1475,6 +1475,30 @@
    "owner": "this archive",
    "since": "2026-09-21",
    "note": "**Done, and the diagnosis needed correcting before the nulls did.** The record search returned 0 for everything — *Historical Record Search Results (0)* with **No Results Found** — stable across two reads, still 0 after ninety seconds, including **González in Uruguay**. Full-text, asked the same question, redirected to the sign-in page, so this archive concluded the **account** was signed out and said David would have to sign in. **That was wrong.** A sibling archive ran both searches in the same minutes and got 3,652 and 3,967 with the account name in the nav bar: each session's in-app browser is its own browser with its own cookies, and one context had lost its auth and recovered on its own. **In a fresh tab the González control returned 479,662** and Avelino × Ambrosia returned **10** again. **All three held-over nulls were then re-run against that live control: Luis × Carolina = 0, Carlos Ambrosio × Luisa = 0, Juan Arturo × Isidora = 0.** They stand, and row 70's null is now properly established rather than merely asserted. **Rule kept:** a control must be recent and arithmetically impossible to be zero. **Rule added:** before asking a person to fix something, open a second tab."
+  },
+  {
+   "n": 185,
+   "what": "Find the marriage of Alejandro M. Lerena and Elisa Villademoros, Montevideo, about 1868-1872",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-27",
+   "note": "**A CONTROLLED NULL, AND THE CONTROL WAS THE RIGHT KIND.** Searched 27 September 2026 under LERENA and under **SERENA** - the spelling that had hidden the 1877 act - for a marriage to a Villademoros in Uruguay: nothing. **The control passed in the same minutes:** the Montevideo parish marriage of Luis Lerena and Julia Juanico, 19 December 1864 at San Francisco de Asís, returns **with the groom's parents attached**. So the instrument reaches 1860s Montevideo marriages and carries parents on them. **The act is therefore not in the indexed corpus and must be walked by image.** Their eldest known child was born 29 October 1872, so the marriage falls about 1868-1872, most likely at the **Cordón**. **WHY IT IS STILL WORTH IT NOW THAT HIS PARENTS ARE KNOWN:** it names them a second time, independently - and it gives **his AGE**, which is the one thing that separates the 1843 reading of the La Mauricia act from the 1845, and so the one thing that would finish the merge."
+  },
+  {
+   "n": 186,
+   "what": "Take Angélica María Lerena Villademoros forward — she married a Zalduando",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-27",
+   "note": "Entered 27 September 2026 from the Iglesia Matriz act of 1872, and found the same day in the Uruguayan civil index under her **married name, \"Angélica Lerma de Zalduando\"**, daughter of Celedonia Villademoros and a father the machine renders *\"Arabia Larena Lerena\"* - which is AVELINO LERENA. **INDEX ONLY; no image opened, and \"Lerma\" is the index's word.** The marriage itself has not been found. She is a granddaughter of Avelino and Ambrosia Traibel and a niece of Alejandro M. Lerena, who stood godfather at her baptism."
+  },
+  {
+   "n": 187,
+   "what": "The four new findmypast households, and the three Lerena women who are MOTHERS at San José",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-27",
+   "note": "From the 33 findmypast transcripts opened 27 September 2026. **Four households this archive does not hold:** Manuel x Juana FERREIROZ (Montevideo 1891), Manuel x Dolores ESPINDOLA (Montevideo 1884) - *two Manuels or one with two wives, not established* - Pedro A. x Manuela LEMOS (Montevideo 1883), and Fermín x Paulina BARRAGÁN (Trinidad 1877, with a second child María Regina in 1882 found on FamilySearch the same day). **And three LERENA WOMEN appear as MOTHERS at San José** - OLEGARIA (1862), ESTEFANÍA (1872) and FELICIA (1875). **A surname search on the father's line cannot see them**, which is why this archive has never counted that side. Each needs testing against the San José cluster. Tier: index of an index; no image opened."
   }
  ],
  "accounts": [
