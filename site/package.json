@@ -30,7 +30,7 @@
     "check:kin": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkkin.py --data src/data/people.json --born born --died died --max 0"
   },
   "dependencies": {
-    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#aae576f",
+    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#7c6b412",
     "astro": "^5.18.2"
   },
   "devDependencies": {

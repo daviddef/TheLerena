@@ -1421,7 +1421,7 @@
    "note": "tools/check-duplicates.py was written after this archive **added a duplicate of Dominga Josefa Llerena** — one hour after refusing to add duplicates on principle. It flags two register rows sharing a forename and a canonical surname (all seven spellings fold to one) **plus something only the same person would share**: an ark, three uncommon terms, or birth years within six. **Verified by re-adding the Dominga duplicate: it names the pair and exits 1.** **133 pairs already existed** and are baselined in data/_person-pairs.txt as **UNREVIEWED** — being listed does not mean compared. Several look genuinely suspect: **Bartolomé Llerena vs Bartolomé Llerena – Córdoba origin, both b.1824**; **Felisa (arr. 1911) vs Felisa (arr. 1923), b.1893/1891**; **Emilia LERENA vs Emilia LERENA Vega**; **Carolina LERENA vs Carolina LERENA (de Martinez)**. Work down the list and put the reason after a # on each line. **DONE 20 September 2026, the day after the gate was written.** All 123 surviving pairs carry a reason on their line. Seven merges came out of it — three Carlos rows were one man, two Avelino Carlos, two Rosa María Eppens, and four of Gilberto's children were held twice because **the enumerator wrote initials and the priest wrote names**. Every one of those identifications was already stated in the archive's own notes and never acted on. One SPLIT too: merging Carlos exposed relations.tsv giving him a wife the register had explicitly ruled out. And two merges were decided by reading the census image — the ages on lines 10-13 are 8, 6, 5, 2, not the '6, 6, 5, 2' this archive had transcribed. Register 292 → 286, then 293 with the Villademoros branch."
   },
   {
-   "n": "178",
+   "n": 178,
    "what": "Take Avelino and Ambrosia's children forward as a PAIR — and read what the index dates actually are",
    "state": "done",
    "owner": "this archive",
@@ -1429,7 +1429,7 @@
    "note": "**Nine children where this archive held six, and four of them were sitting in its own files undated.** A parent-pair search — **Avelino** as father, **Ambrosia Traibel** as mother — returns ten records. **Three of them are dated 1896 and 1919, and Avelino died in 1890.** That impossibility was the finding. The film is a register of **certified copies issued in 1896**, and the indexer takes the year off the certificate and the day and month off the act inside it. Read off **film 008166435, image 02850**: **Pedro Alberto Ysabelino Lerena, born 16 March 1852**, baptised at the Aguada on **21 November 1852** — not 1896 — *libro 1.º de Bautismos, folio 135*, **godparents Pedro Antonio Lerena and Vicenta Vega**, his own uncle and aunt, and a man born in 1793 who could not stand at a font in 1896. He is the **Alberto** who died at Montevideo on 1 March 1921. The same opening carries **Josefa's own baptism**, which gives her a day at last: **born 10 February 1851**, and christened **Josefina**. From the indexes: **Juan Arturo born 16 February 1861**, **Mercedes Micaela born 8 May 1863** — with Sancho and María Fernández named as her grandparents, a **third** independent attestation of that parentage — and **María Adelina**, who married **Carlos Alberto Fein** and died in 1946. The tell that catches this trap is cheap: **two children of one couple indexed with the same birth date**. See /method/ and data/1852-aguada-union-certificates.tsv."
   },
   {
-   "n": "179",
+   "n": 179,
    "what": "Ask for a husband and wife as a PAIR, then open the death act rather than trusting eight index entries",
    "state": "done",
    "owner": "this archive",
@@ -1437,7 +1437,7 @@
    "note": "**A woman this archive had written off is ours, and she has eight brothers and sisters.** On 14 September **Zelmira Carlota Lerena Larriera**, born in the Departamento de San José on 4 November 1880, was tested and closed: *\"she is NOT ours\"*. The row named the one thing that would overturn it — who her father **Alberto Lerena** was — guessed **Alberto Octavio Lerena Lenguas**, and refused to draw the line on a forename and an age. **It is the other grandfather.** Alberto's Montevideo death act No. 246 of 2 March 1921 names his wife **María Inés Larriera** and his parents **Avelino Lerena and Ambrosia Treibel** — so her father is **Pedro Alberto Ysabelino Lerena Traibel** of the Aguada, and Zelmira is a **great-granddaughter of Sancho**. Asking for Alberto and María Inés as a *pair* then returned a whole household born in San José between 1879 and 1898. **And the image was opened rather than left as an errand**, which is where the real find was: the act counts **nueve hijos** and names them, so there is a **ninth child** — *Eleiza* or *Eloiza*, read at three times magnification and still not securely read — whom no index has matched. **Eight index entries look like eight confirmations and are one indexing project; one death act is a different mouth.** See /uruguay/ and data/alberto-lerena-larriera.tsv."
   },
   {
-   "n": "180",
+   "n": 180,
    "what": "Sweep the rest of this generation as parent PAIRS — and one of the zeros was false",
    "state": "done",
    "owner": "this archive",
@@ -1445,7 +1445,7 @@
    "note": "**Fernando Moratorio with Josefa Lerena returns seven**, adding Eduardo, Josefa (born 21 November 1884), María and Fernando Moratorio Lerena to the two girls baptised at the Unión in 1880. **Two other pairs returned zero, and one of those zeros was a lie.** Avelino Lerena with **Celedonia Villademoros** returned a clean 0 — rows rendered, page settled, read twice. **Deleting the mother's surname returned seven**, two of them christenings this archive has held since 20 September. That is how it was caught, and **no control would have caught it**: the control for this query shape had returned sixteen records in the same session, which is exactly what made the zero look trustworthy. Recorded as the **fourteenth false zero**. What it hid: **Pedro Segundo Lerena Villademoros**, dead at Montevideo 23 August 1936 aged 66, wife Paulina Prando Algar; an **Avelino Lerena** dead 5 January 1914 aged 45, wife Carmen Lorente, whose mother is written *Villademoro* without the s. It also **weakens a null this archive published** about the Villademoros marriage acts: the control used, Lerena × Juanico, tested the shape but not the surname, and Juanico has one spelling where Villademoros has four. The null is not withdrawn; it is now stated as the weaker claim it always was."
   },
   {
-   "n": "181",
+   "n": 181,
    "what": "Ask how much of this register a machine read — then open the plate the most people stand on",
    "state": "done",
    "owner": "this archive",
@@ -1453,7 +1453,7 @@
    "note": "**Three surnames turned out to be a machine's**, so the question became how many others were. `tools/transcript-only.py` counts rows citing *full-text transcript read* with no image named: **sixty-one**, more than half the rows carrying a source at all. It ranks the unopened plates by **how many people depend on each**, because one image settles seven rows at once. **The top plate was the 1831 Cordón baptism where the President of Uruguay stood godfather to Sancho's grandson** — the most consequential proper noun here, and a machine had read it. Opened: film 007713388 image 00726. *\"padrinos Dn. **FRUTUSO RIBERA, PRESIDENTE DE LA REPÚBLICA** y su esposa Da. **Bernardina Fragoso**\"*. **Frutuso Ribera, with a B** — the transcript had printed the history books' *Fructuoso Rivera*. **The finding holds and is stronger for the check**: the act states his office and names his wife, either of which identifies him alone. The same page spells the grandfather **LLERENA** with the double L. Both of the day's transcript failures are one failure pointing opposite ways — a machine invents a plausible name where it cannot read one, and writes the famous name over the page where it can. Seven rows moved off transcript onto plate; **forty-nine remain**."
   },
   {
-   "n": "182",
+   "n": 182,
    "what": "Alfredo Justiniano's wife, and the end of his life",
    "state": "done",
    "owner": "this archive",
@@ -1461,7 +1461,7 @@
    "note": "**Her surname was wrong, and she has a death.** The 1892 marriage act was held from a machine transcript and the plate was never pulled. Film 007713383 image 02601, folio 340: *\"hija legítima de Don **GERÓNIMO GAVAZZO** y Doña **CAROLINA SUÁREZ**\"* — not Gavarro, not Juárez. Three register rows, a dispensation table, a working log and the last-attested-alive file carried the machine's reading. **Corroborated by a second image forty-eight years later**: her own Montevideo death registration of **20 June 1940**, certificate 632, at R. Masini 3273, *\"de estado **VIUDA**\"*, of a fractured neck of femur. **So Alfredo Justiniano died between February 1892 and June 1940** — the first thing this archive has ever known about the end of his life. **And the index of that death act is a catalogue of its own failures**: it attaches three children to the couple, and there are none on the act — one is the **registrar**, whose name follows *ante mí*, and two bled across the column rule from the neighbouring entry, which concerns a family with English names. It gives her birth as **1934** for a woman who died in 1940, her nationality as **mexicana**, and her birthplace as **Minteridco**. Every field is wrong except the maternal grandparents — and that pair is the only reason she was found."
   },
   {
-   "n": "183",
+   "n": 183,
    "what": "Read every register row that rested on a machine transcript — all sixty-one",
    "state": "done",
    "owner": "this archive",
@@ -1469,7 +1469,7 @@
    "note": "**Sixty-one rows cited *full-text transcript read* and named no image — more than half the rows carrying a source. Twenty plates later the count is zero.** `tools/transcript-only.py` ranked the unopened plates by how many people stood on each, because one image settles seven rows at once. What the sweep found: **four claims about this family's spelling were the machine's, not the scribe's** — *Abelino Serena* is LERENA, *Sancho Lorena* is LERENA, the *LORENA* of 1889 is a margin and not a sentence, and *Fructuoso Rivera* is the history books' spelling written over the page's own **Frutuso Ribera**. **Five surnames were wrong**: Gavarro→**Gavazzo**, Juárez→**Suárez**, Florencia→**Florinda**, Seguera→**Segueira**, and \"Del Suando\"→**Zalsamendi**. **One baptism was in the wrong parish** (the Catedral Basílica, not the Unión) and **one citation pointed at the wrong film**. **A birthplace changed the family's shape** — María Fernández is *natural de Asturias*, so both halves of Sancho's household were Spanish immigrants. And **about twenty-five people standing on the acts had never been entered**, among them Sancho's parents-in-law, two grandparents drawn at the apex of a priest's kinship diagram, a second child of Justa Pastora, and Adolfo Lerena. **The sweep also confirmed more than it corrected**: Lavalleja, Maggesi, Larrañaga and Rivera's office are all really on the plates; only Rivera's *spelling* was the machine's. See /method/."
   },
   {
-   "n": "184",
+   "n": 184,
    "what": "Re-run every parent-pair null recorded on 21 September — and find out whose sign-out it was",
    "state": "done",
    "owner": "this archive",
