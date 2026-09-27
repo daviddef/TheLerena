@@ -101,10 +101,20 @@ const LIVING_NAMES = new Set(
   (Array.isArray(LIVING) ? LIVING : []).filter((x) => x && x.living)
     .map((x) => String(x.name || "").trim().toLowerCase()));
 const isLiving = LIVING_NAMES.has(String(p.name || "").trim().toLowerCase());
+/* «-» IS HOW THIS REGISTER WRITES «not known», on 166 of 357 rows, and it is
+   truthy. The page's own field table has always filtered it — `v && v !== "-"` —
+   and the first version of this did not, so 163 charts rendered «b. -»: a
+   placeholder presented as a date, which is worse than the bare name it
+   replaced. Same test as the table, in one place. */
+const said = (v) => {
+  const s = String(v == null ? "" : v).trim();
+  return s && s !== "-" && s !== "?" ? s : "";
+};
+const bornSaid = said(p.born), diedSaid = said(p.died);
 const lifespan = isLiving ? ""
-  : p.born && p.died ? `${p.born} – ${p.died}`
-  : p.died ? `d. ${p.died}`
-  : p.born ? `b. ${p.born}`
+  : bornSaid && diedSaid ? `${bornSaid} – ${diedSaid}`
+  : diedSaid ? `d. ${diedSaid}`
+  : bornSaid ? `b. ${bornSaid}`
   : "";
 
 const nothing = !parents.length && !spouses.length && !children.length
