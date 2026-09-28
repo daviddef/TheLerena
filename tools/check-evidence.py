@@ -34,7 +34,18 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 EVID = ROOT / "data" / "person-evidence.tsv"
 REL = ROOT / "data" / "relations.tsv"
 PEOPLE = ROOT / "site" / "src" / "data" / "people.json"
-DIST = ROOT / "site" / "dist" / "people"
+# ARCHIVE_OUT WINS, matching the kit's own outdir.py convention and every gate
+# in this estate rewritten to it since 27 September. A session working its own
+# isolated build sets ARCHIVE_OUT; a check that only ever reads site/dist reads
+# whatever another session's build last left there, silently. Neither of this
+# archive's two build-reading checks read it at all until now — found by the
+# D'Arcy session hitting the flag-swallowing half of the same fault three times
+# in four days and asking a third party to grep for the other half.
+import os
+
+DIST = ((pathlib.Path(os.environ["ARCHIVE_OUT"]) if os.path.isabs(os.environ.get("ARCHIVE_OUT",""))
+        else ROOT / "site" / os.environ["ARCHIVE_OUT"]) if os.environ.get("ARCHIVE_OUT")
+        else ROOT / "site" / "dist") / "people"
 
 MARKER = "What has been read about this person"
 FALSE_CLAIM = "No relationships are recorded for this person"

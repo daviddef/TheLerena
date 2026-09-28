@@ -59,7 +59,18 @@ import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
-DIST = ROOT / "site" / "dist"
+# ARCHIVE_OUT WINS, matching the kit's own outdir.py convention and every gate
+# in this estate rewritten to it since 27 September. A session working its own
+# isolated build sets ARCHIVE_OUT; a check that only ever reads site/dist reads
+# whatever another session's build last left there, silently. Neither of this
+# archive's two build-reading checks read it at all until now — found by the
+# D'Arcy session hitting the flag-swallowing half of the same fault three times
+# in four days and asking a third party to grep for the other half.
+import os
+
+DIST = ((pathlib.Path(os.environ["ARCHIVE_OUT"]) if os.path.isabs(os.environ.get("ARCHIVE_OUT",""))
+        else ROOT / "site" / os.environ["ARCHIVE_OUT"]) if os.environ.get("ARCHIVE_OUT")
+        else ROOT / "site" / "dist")
 
 # A living marker is a STATUS, not a word in a sentence. See trap 1.
 LIVING_CELL = re.compile(r"^(OMITTED-LIVING|LIVING\s*[-–—:]\s*.*)$", re.I)
