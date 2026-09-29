@@ -1,0 +1,82 @@
+[
+ {
+  "_note": "Work done in this archive, in the shape Record Atlas imports. See CLAUDE.md. THREE HONESTIES ABOUT THIS FILE. (1) NO ROW CARRIES A WAYPOINT. Every FamilySearch read below was cited by DGS film number and image ark, which is what this archive has always recorded; the atlas keys on the wc=/owc= waypoint and film numbers have matched it zero times. The waypoints could not be recovered on 29 September because the browser pane was recreated and the FamilySearch session was lost - checked in a second tab and read twice before saying so. The film numbers are in a `film` field and no waypoint has been guessed. (2) NOTHING BELOW IS `walked`. Every one of these is a plate opened at a known folio, not a register read entry by entry, and saying otherwise would tell the next person a book is finished when it is not. (3) THIS IS A SWEEP, WHICH THE SKILL DISCOURAGES. The instruction to record as-you-go arrived on 29 September, after the work. Rows from earlier sessions are NOT here - see data/sources-consulted.tsv, which lists 24 films, most of them read before this file existed."
+ },
+ {
+  "src": "FamilySearch — Uruguay, registros parroquiales 1726-2000; Nuestra Señora del Carmen, Cordón, Montevideo",
+  "url": "https://www.familysearch.org/search/film/007713388",
+  "film": "007713388",
+  "waypoint": null,
+  "what": "LERENA baptisms, Montevideo",
+  "when": "2026-09-27",
+  "outcome": "yield",
+  "pages": "2091, 2455",
+  "walked": false
+ },
+ {
+  "src": "FamilySearch — Uruguay, Civil Registration 1879-2020; Montevideo births",
+  "url": "https://www.familysearch.org/search/film/004596830",
+  "film": "004596830",
+  "waypoint": null,
+  "what": "LERENA births, Montevideo",
+  "when": "2026-09-22",
+  "outcome": "yield",
+  "pages": "1806, 2145",
+  "walked": false
+ },
+ {
+  "src": "FamilySearch — Uruguay, registros parroquiales 1726-2000; Iglesia Matriz / Basílica Metropolitana, Montevideo",
+  "url": "https://www.familysearch.org/search/film/004298263",
+  "film": "004298263",
+  "waypoint": null,
+  "what": "LERENA baptisms, Montevideo — read in an 1919 certified copy of an 1872 act, which the index dates to the certificate",
+  "when": "2026-09-27",
+  "outcome": "yield",
+  "pages": "3147",
+  "walked": false
+ },
+ {
+  "src": "FamilySearch — Argentina, Capital Federal, registros parroquiales 1640-1978; San Carlos, Buenos Aires",
+  "url": "https://www.familysearch.org/search/film/004571398",
+  "film": "004571398",
+  "waypoint": null,
+  "what": "LERENA marriages, Buenos Aires",
+  "when": "2026-09-22",
+  "outcome": "yield",
+  "pages": "420",
+  "walked": false
+ },
+ {
+  "src": "FamilySearch — Argentina, Córdoba, registros parroquiales 1557-1974; Parroquia de San Jerónimo",
+  "url": "https://www.familysearch.org/search/film/004484760",
+  "film": "004484760",
+  "waypoint": null,
+  "what": "LERENA marriages, Córdoba — the index names a different parish from the act",
+  "when": "2026-09-27",
+  "outcome": "yield",
+  "pages": "123",
+  "walked": false
+ },
+ {
+  "src": "findmypast — Uruguay Baptisms 1750-1900, surname LERENA: all 33 index transcripts opened",
+  "url": "https://search.findmypast.co.uk/results/world-records/uruguay-baptisms-1750-1900?lastname=lerena",
+  "film": null,
+  "waypoint": null,
+  "what": "LERENA — 33 index rows, 20 distinct children, 13 duplicate pairs. Transcripts give the mother's surname and an exact date where the free result list gives neither",
+  "when": "2026-09-27",
+  "outcome": "yield",
+  "pages": null,
+  "walked": false
+ },
+ {
+  "src": "Trove — National Library of Australia, digitised newspapers (API)",
+  "url": "https://trove.nla.gov.au/search/newspapers",
+  "film": null,
+  "waypoint": null,
+  "what": "LERENA and LLERENA across the whole newspaper corpus. Nothing for this family. CONTROL RUN AND IT PASSED: Australian papers carry 11,500 articles on South African racing from the 1890s, which is the world this family worked in, so the corpus could have held them and does not",
+  "when": "2026-09-27",
+  "outcome": "nothing",
+  "pages": null,
+  "walked": false
+ }
+]
