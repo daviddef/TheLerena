@@ -210,6 +210,20 @@ if REL.exists():
         elif rel == "mother": subj["mother"] = n
         elif rel == "spouse": subj["spouses"].append(n)
         elif rel == "child":  subj["children"].append(n)
+        # GODPARENTS ARE KEPT, AND KEPT OUT OF THE CHART. Added 8 October 2026, after
+        # twenty-nine godparent edges had been written into relations.tsv and reached
+        # NOBODY: this loop handled four relation words and dropped the rest silently,
+        # so check-tree.py counted the edges and the person page rendered none of them.
+        # They are NOT folded into relTotal, because the page says "of the N
+        # relationships IN THE CHART ABOVE" and the chart draws parents, spouses,
+        # children and siblings. Counting them there would make that sentence false.
+        # They get their own prose line instead - which is what the register's own
+        # notes already say, now said from the data.
+        elif rel in ("godfather", "godmother", "godparent"):
+            subj.setdefault("godparents", []).append({**n, "role": rel})
+            other_row = by_name.get(other)
+            if other_row is not None:
+                other_row.setdefault("godchildren", []).append({**node(who, "", via), "role": rel})
 
     # ALIASES. This register deliberately keeps a row for a mangled machine-index reading of a person
     # it has already resolved, written "WRONG NAME (as machine-indexed) = Right Name". Those rows carry
@@ -280,6 +294,8 @@ if REL.exists():
 
     # every relationship counted, so the page can say how much is documented
     for p in people:
+        p.setdefault("godparents", [])
+        p.setdefault("godchildren", [])
         rels = [x for x in [p["father"], p["mother"]] if x] + p["spouses"] + p["children"]
         p["relTotal"] = len(rels)
         p["relRegister"] = sum(1 for x in rels if x["via"] in ("register", "line"))

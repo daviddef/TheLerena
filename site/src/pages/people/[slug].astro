@@ -68,6 +68,24 @@ const relTree = p.relTree || 0;
                   user-contributed tree, <strong>unverified</strong>.</>
               : <>.</>}</p>
         )}
+        {(p.godparents?.length || p.godchildren?.length) ? (
+          <p><strong>At the font.</strong>
+            {p.godparents?.length ? (
+              <> Their {p.godparents.length === 1 ? "godparent is" : "godparents are"}{" "}
+                {p.godparents.map((g, i) => (
+                  <>{i ? ", " : ""}<a href={u(`/people/${g.slug}/`)}>{g.name}</a></>
+                ))}.</>
+            ) : null}
+            {p.godchildren?.length ? (
+              <> They stood {p.godchildren[0].role === "godmother" ? "godmother" : "godfather"} to{" "}
+                {p.godchildren.map((g, i) => (
+                  <>{i ? ", " : ""}<a href={u(`/people/${g.slug}/`)}>{g.name}</a></>
+                ))}.</>
+            ) : null}
+            {" "}<span class="cap">Godparent ties are not drawn in the chart above &mdash; it shows
+            parents, spouses, children and siblings &mdash; but this family chose godparents from inside
+            itself often enough that the pattern is evidence in its own right.</span></p>
+        ) : null}
         {relTotal === 0 && !hasEvidence && (
           <p><strong>No relationships are recorded for this person.</strong> The source names them and
             nothing more. That is the ordinary case in this register, and it is why they are marked
