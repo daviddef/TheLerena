@@ -71,6 +71,72 @@ def daymonth(s):
     return None
 
 
+DIRECT = ROOT / "data" / "direct-line.tsv"
+PAGE = ROOT / "site" / "src" / "pages" / "direct-line.astro"
+
+
+def direct_line():
+    """The archive's own spine is kept TWICE, and this gates both joins.
+
+    *** FOUND 7 OCTOBER 2026. *** data/direct-line.tsv holds the direct line with its
+    evidence - arks, a passport serial, an interment register page and entry. And
+    site/src/pages/direct-line.astro holds the SAME LINE AGAIN as a hard-coded array.
+    *** THE PAGE RENDERS THE ARRAY. *** The TSV was declared a working log and read by
+    nobody. They did not disagree, which was luck: hand-written descent has gone stale
+    twice in this archive, which is why this file exists at all.
+
+    THE OBVIOUS FIX WAS REFUSED, DELIBERATELY. The two are not the same shape - the TSV
+    gives each wife her own row, the page folds her into a `spouse` field - so rendering
+    the TSV would redraw the archive's most important page, and the TSV's `evidence`
+    column was never written for publication: generation 3's names a LIVING person and
+    carries a birth year inside a quoted retraction. Migrating would have published it.
+
+    So the duplication STAYS and both joins are gated instead:
+        the PAGE must agree with the TSV about every date it states, and
+        the TSV must agree with the REGISTER, through the `register` column.
+    A reader sees exactly what they saw before, and neither copy can drift alone.
+    """
+    bad = []
+    if not DIRECT.exists() or not PAGE.exists():
+        return bad, 0
+    tsv = {}
+    for r in rows(DIRECT):
+        for k in ("born", "died"):
+            v = (r.get(k) or "").strip()
+            if v and v != "-":
+                tsv.setdefault(r.get("person", ""), {})[k] = v
+    page = PAGE.read_text(encoding="utf-8")
+    checked = 0
+    # SPLIT ON THE ENTRIES, do not try to bound them with a lookahead. The first
+    # version used `.{0,400}?` and matched ONE row of four, because these notes run
+    # longer than that - a gate that silently checks a quarter of what it claims.
+    start = page.find("const rows = [")
+    block = page[start:page.find("];", start)] if start >= 0 else ""
+    for chunk in block.split("{ gen:")[1:]:
+        m = re.search(r'name:\s*"([^"]+)"', chunk)
+        if not m:
+            continue
+        nm, body = m.group(1), chunk
+        low = nm.lower().split()
+        row = next((v for k, v in tsv.items()
+                    if low[0] in k.lower() and low[-1] in k.lower()), None)
+        if not row:
+            continue
+        for key in ("born", "died"):
+            pm = re.search(key + r':\s*"([^"]+)"', body)
+            if not pm or key not in row:
+                continue
+            checked += 1
+            # COMPARE THE DAY, NOT ONLY THE YEAR. The first version of this join used
+            # years() alone, and a deliberate test changing "6 Oct 1924" to "7 Oct 1924"
+            # SAILED THROUGH IT. Two copies of one line drifting by a day is the likeliest
+            # error there is here, and a gate that cannot see it is decoration.
+            if years(pm.group(1)) != years(row[key]) or daymonth(pm.group(1)) != daymonth(row[key]):
+                bad.append(f'direct-line: the PAGE says {nm} {key} "{pm.group(1)}", '
+                           f'data/direct-line.tsv says "{row[key]}"')
+    return bad, checked
+
+
 def main():
     alive = {r["name"]: r for r in rows(ALIVE)}
     reg = {r["name"]: r for r in rows(REG)}
@@ -105,15 +171,19 @@ def main():
                 bad.append(f'{name}: spine died "{r["died"]}", register "{a["last_attested_alive"]}" '
                            f'- SAME YEAR, DIFFERENT DAY. A registration date is not a death date.')
 
+    dbad, dchecked = direct_line()
+    bad += dbad
+
     if bad:
-        print(f"  FAIL  spines     {len(bad)} spine claim(s) disagree with the register:")
+        print(f"  FAIL  spines     {len(bad)} spine claim(s) disagree:")
         for b in bad:
             print(f"          - {b}")
         print("\n          A ladder on a page is a claim like any other. Fix the spine, or correct")
         print("          the register and say so on /corrections/.")
         return 1
 
-    print(f"  ok    spines     {checked} date(s) on {linked} linked spine row(s) agree with the register")
+    print(f"  ok    spines     {checked} date(s) on {linked} linked spine row(s) agree with the "
+          f"register; {dchecked} on /direct-line/ agree with data/direct-line.tsv")
     return 0
 
 
