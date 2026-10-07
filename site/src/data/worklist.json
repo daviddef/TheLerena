@@ -1055,10 +1055,10 @@
   {
    "n": 132,
    "what": "Turn /open-questions/ into rows",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-16",
-   "note": "**173 lines of prose.** The shape is the question, what is known, what has been tried, and the record that would answer it. Shape: kit/components/Questions.astro.\n\n**Raised by the UI alignment pass, 2026-09-16.** It is recorded here because it is research this archive owns, not something to guess at from outside."
+   "note": "**DONE 7 October 2026.** 188 lines of prose became **nine rows** in data/open-questions.tsv, rendered through the kit's Questions component: seven open questions and two blocked routes, each with what is known, what has been tried and **the specific record that would answer it**. The page now filters by state and is countable by a gate. **THE RISK WAS LOSING THE NEGATIVE EVIDENCE, and it was checked phrase by phrase against the build.** The long panel under question 1 - the Lerena-Lerena compound test, the forty-three transcription doublings, the Carmen Lerena act off film 007713392 image 2511, and the sentence saying the test *lowers the probability without settling it* - is carried in full. **Four questions have no `tried` field, and that is accurate rather than missing:** the original prose listed only what to do about them. One trap for whoever edits that file next, written into its header: the `href` COLUMN is passed through u() and gets the /TheLerena base, while links inside the HTML fields are raw and must carry it themselves. Writing both alike produced six /TheLerena/TheLerena/ links and the link gate caught every one."
   },
   {
    "n": 133,

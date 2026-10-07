@@ -1,188 +1,37 @@
 ---
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
+import Questions from "@daviddef/archive-kit/components/Questions.astro";
+import qs from "../data/open-questions.json";
+
+/* THE QUESTIONS ARE ROWS NOW, not prose - extracted 7 October 2026 into
+   data/open-questions.tsv. The kit's Questions component says in its own
+   docstring that five of seven archives keep their questions as prose and
+   "cannot use this until somebody extracts them, and that extraction is
+   research work belonging to each archive rather than something to guess at
+   from outside". This is that extraction, done from inside.
+
+   WHAT HAD TO SURVIVE IT: the long panel under question 1 - the Lerena-Lerena
+   compound test, the forty-three transcription doublings, the Carmen Lerena
+   act read off the plate, and the line that says the test lowers the
+   probability without settling it. All of it is in that row's `tried`. A
+   refactor that loses a question's negative evidence is worse than the prose
+   it replaced. */
+const rows = qs.filter((r) => r.q);
 ---
 <Base title="Open Questions"
       eyebrow="Published so strangers can help"
       dek="Published deliberately. An archive that lists only its answers is advertising; one that lists its questions can be helped by strangers.">
+
 <section class="blk">
-<h2>1. Who were Juan Carlos and María Lerena?</h2>
-  <p>
-    <strong>Answered on 10 September 2026, and immediately replaced by a harder question.</strong> The
-    <a href={u("/enrolment-card/")}>army enrolment card</a> names Pablo Armando&rsquo;s parents:
-    <strong>Juan Carlos Lerena</strong> and <strong>María Lerena</strong>. Nothing else is known of either
-    of them &mdash; not a date, not a marriage, not a death.
-  </p>
-  <ul>
-    <li><strong>María&rsquo;s maiden name &mdash; and one branch of it now closed.</strong> She is
-      written with her husband&rsquo;s surname. On these cards <em>hijo de X y de Y</em> usually gives each
-      parent&rsquo;s own name &mdash; which would make her a Lerena by birth and the marriage one between
-      kin &mdash; but some clerks used the married name. The card cannot tell.
-      <br /><br />
-      <strong>A marriage between kin needs a dispensation</strong>, so on 13 September the
-      <strong>Arquidiócesis de Montevideo dispensation register, 1856&ndash;1932</strong>, was searched by
-      its own formulae. It holds <strong>eight Lerena dispensations in seventy-six years</strong> &mdash;
-      and <strong>no Juan Carlos, and no Lerena&ndash;Lerena pairing at all</strong>. Every Lerena in it
-      marries out: Fernández, Peláez, Álvarez, Cordero, Márquez.
-      <br /><br />
-      So <em>if</em> she was a Lerena by birth, <strong>they did not marry in the archdiocese of
-      Montevideo</strong>. What that does not show is that they did not marry there at all &mdash; the
-      register records only exceptions, and an ordinary marriage between unrelated people leaves no trace
-      in it. A weak negative, filed as one.</li>
-    <li><strong>The rest of Cajón 985.</strong> The cards are filed alphabetically, so every Argentine of
-      enrolment age surnamed Lerena sits within a few frames of this one, <em>each naming his own
-      parents</em>. Brothers, cousins and the shape of the family are sitting unread in that drawer.</li>
-    <li><strong>The missing baptism, and it is now much starker.</strong> As of 13 September
-      <strong>both volumes of the Rosario baptism index have been read end to end &mdash; 1731 to
-      1901</strong> &mdash; and the surname appears <strong>once in a hundred and seventy years</strong>.
-      1881, 1882 and 1883 were also swept across all twenty-six letter sections for a <em>Pablo
-      Armando</em> under any surname. He is not there; neither is his family, before him or after him.
-      That is no longer a gap in the searching. <a href={u("/searched/")}>What has been searched &rarr;</a></li>
-    <li><strong>And the one Lerena who is there was Uruguayan.</strong> Folio 229, February 1866: the act
-      says of both parents <em>&ldquo;naturales del E. Oriental&rdquo;</em>. If the surname&rsquo;s home
-      in the River Plate is <strong>Montevideo</strong>, then Juan Carlos Lerena came to Rosario from
-      somewhere, and the first somewhere to try is across the river. <strong>Does anyone hold a Uruguayan
-      Lerena line with a Juan Carlos born in the 1840s or 1850s, married to a María?</strong> That is the
-      single most useful thing a stranger could tell this archive today.
-      <a href={u("/hypotheses/")}>Hypothesis 1c &rarr;</a></li>
-    <li><strong>The consular matrícula.</strong> A man enrolling at the Cape Town consulate in 1908 had a
-      file there. The request to the Argentine foreign ministry is already lodged.</li>
-    <li><strong>And the confirmations are now read, and he is not in them.</strong> The Rosario
-      confirmation register &mdash; <em>every entry naming both parents</em> &mdash; has been read page by
-      page from <strong>15 May 1885</strong> to the 1897 section: about <strong>two and a half thousand
-      children</strong>, and <strong>no Lerena under any of seven spellings</strong>. He was three when it
-      opens and fifteen when it closes, and children appear at every age from two to fifteen. Two separate
-      Rosario registers have now been swept end to end, and neither holds him.
-      <a href={u("/searched/#confirmations")}>How it was read &rarr;</a></li>
-  </ul>
-  <div class="panel" style="border-left:3px solid var(--accent);margin:1.4rem 0">
-    <p class="lab" style="margin:0 0 8px">14 September 2026 &mdash; the sharpest test there is, and it has now been run</p>
-    <div class="prose">
-      <p>The card names both parents <strong>Lerena</strong>. Either María married into the name, or she
-        was born to it &mdash; and Spanish naming makes that testable in a single query.
-        <strong>A child of two Lerenas carries both surnames: <em>Lerena Lerena</em>.</strong> In two
-        weeks nobody had searched for the compound.</p>
-      <p>Run against the Uruguayan Catholic registers it returned four documents; run against the whole
-        transcribed corpus, without a country filter, <strong>forty-three</strong>. Every one was opened
-        and every transcript read.</p>
-      <p><strong>All forty-three are transcription doublings.</strong> <em>&ldquo;Pío Lerena . Lerena&rdquo;</em>
-        across a line end; <em>&ldquo;Zelmira Lerena, Lerena argentino&rdquo;</em>; <em>&ldquo;Celidonio B.
-        de Lerena Lerena&rdquo;</em>; <em>&ldquo;G. Lerena Lerena&rdquo;</em> written across a printed title
-        page at Chacabuco. The machine repeats a word at a line or page break, and it produced the same
-        false positive four times over before the pattern was obvious. The only genuine compounds among
-        the forty-three are <strong>Colombian</strong> &mdash; an <em>Elena Lerena Llerena</em> at Calamar
-        in the 1990s, a different family on a different continent.</p>
-      <p><strong>So no child of two Lerenas is recorded under the compound anywhere FamilySearch has
-        transcribed.</strong> That is a controlled negative, not a silent one: the query demonstrably
-        ran.</p>
-      <p><span class="chip doc">Documented</span> <strong>20 September 2026 &mdash; one of them has now
-        been read off the parish image, and it holds.</strong> A sweep of Uruguayan deaths made for an
-        entirely different reason returned <em>&ldquo;Carmen Lerena Lerena&rdquo;</em>, buried at the
-        <strong>Cementerio del Cord&oacute;n</strong>, Montevideo. The forty-three above were each
-        checked against a <em>transcript</em>; this one was checked against the <strong>act</strong>.
-        Film 007713392, image 2511: the margin reads simply <em>&ldquo;Carmen Lerena.&rdquo;</em> in the
-        clerk&rsquo;s own hand, and the body <em>&ldquo;de edad de tres a&ntilde;[os], hija leg&iacute;tima
-        de <strong>Justo Lerena</strong> y de Juana Quinta[na]&rdquo;</em>. <strong>One Lerena parent.</strong>
-        The compound exists only in the machine.</p>
-      <p><strong>The index is also a year out</strong> &mdash; it gives 1840, the act reads
-        <em>&ldquo;Mil ochocientos cuarenta y uno&rdquo;</em>, and the burial below it says the same.
-        And the act leaves behind a household this archive did not have: <strong>Justo Lerena and Juana
-        Quintana</strong> of Montevideo, and their daughter <strong>Carmen</strong>, buried at three.
-        No tie to Sancho is asserted; he had a daughter <em>Justa</em>, and an echo of a forename is
-        not an argument. <a href={u("/register/")}>All three in the register &rarr;</a></p>
-      <p class="cap"><strong>What it does not do is close the question.</strong> A woman can be a Lerena
-        by birth without her children ever being written so &mdash; the card itself writes Pablo Armando
-        simply <em>Lerena</em> &mdash; and full text reaches only what has been transcribed, which at
-        Rosario de Santa Fe is thin. <strong>It lowers the probability. It does not settle it.</strong>
-        And it means no Lerena&ndash;Lerena marriage should now be asserted anywhere in this archive.</p>
-      <p><strong>The same search turned up the first documented María Lerena of roughly the right
-        generation</strong> &mdash; in an 1911 Montevideo dispensation that draws its own family tree.
-        <strong>She married Eliseo Cardozo</strong>, where Pablo Armando&rsquo;s mother stands beside
-        Juan Carlos Lerena, so she is almost certainly not the one. She is recorded anyway, and recorded
-        as ruled out, because this archive has twice built on a María it had not pinned down.
-        <a href={u("/register/")}>In the register &rarr;</a></p>
-    </div>
+  <div class="prose">
+    <p><strong>Seven questions and two closed doors.</strong> Each carries what is known, what has
+      already been tried, and &mdash; the part that makes this a work queue rather than a list of
+      regrets &mdash; <strong>the specific record that would answer it</strong>.</p>
+    <p class="cap">The two marked <em>blocked</em> are not questions about the family. They are routes
+      that failed, kept so nobody walks them again.</p>
   </div>
+  <Questions rows={rows} u={u} unit="questions" />
 </section>
-<section class="blk">
-<h2>2. Was he really a Consul General?</h2>
-  <ul>
-    <li>Search the <strong>Government Gazette</strong> for the <em>exequatur</em> — the host state's formal
-      recognition of a foreign consul. Crisp, dated, decisive.</li>
-    <li>Search the Argentine <strong>Boletín Oficial</strong> and the Foreign Ministry's diplomatic lists
-      for the appointment.</li>
-    <li><strong>Test the honorary-consul hypothesis.</strong> A resident merchant holding an honorary post
-      would appear in the gazettes but not in the career foreign-service lists — and would reconcile a
-      diplomat with a man who bred horses and farmed ostriches.
-      <span class="chip inf">Hypothesis</span></li>
-    <li>Establish <strong>which post</strong>: Cape Town, Johannesburg, Pretoria or Durban, and in which
-      years.</li>
-  </ul>
-</section>
-<section class="blk">
-<h2>3. The horses</h2>
-  <ul>
-    <li>Search the <strong>South African Stud Book</strong> and Jockey Club registers for Lerena as owner,
-      breeder or importer — particularly <strong>imports from Argentina</strong>, which would corroborate
-      the claim directly.</li>
-    <li>Search the <strong>Argentine Stud Book</strong> at the other end.</li>
-    <li>Establish who <strong>Gilberto Justiniano Lerena Lenguas</strong> was in family terms — his dates,
-      household and descendants — and whether he connects to this line at all.
-      <a href={u("/horses/")}>The horses &rarr;</a></li>
-    <li>Trace <strong>Haras El Viejo</strong>: its records, its sale or dispersal, and its succession.</li>
-  </ul>
-</section>
-<section class="blk">
-<h2>4. The ostrich farm</h2>
-  <ul>
-    <li>Search the <strong>Oudtshoorn</strong> and Little Karoo farm records, and the C.P. Nel Museum's
-      holdings on the feather trade.</li>
-    <li>Test the date. The feather boom collapsed in <strong>1914</strong>; if the farm was real it most
-      likely predates that, which in turn constrains when the family arrived.</li>
-    <li>Search the deeds registry for land held under the surname.</li>
-  </ul>
-</section>
-<section class="blk">
-<h2>5. Basque or Extremaduran?</h2>
-  <ul>
-    <li>Obtain the <strong>INE provincial distribution</strong> for Spain. Forebears summarises the Spanish
-      Lerenas as chiefly <strong>La Rioja, Andalusia and Madrid</strong> — awkward for both theories, and it
-      needs the real figures rather than a summary.</li>
-    <li>Look for <em>Lerena</em> and <em>Llerena</em> <strong>alternating for the same individual</strong> in
-      River Plate records. That, more than any etymology, settles whether the two names are one.</li>
-    <li>Find the emigration record, which normally names the town of origin outright.
-      <a href={u("/name/")}>The name &rarr;</a></li>
-  </ul>
-</section>
-<section class="blk">
-<h2>6. Rosario, and the crossing</h2>
-  <ul>
-    <li>Search <strong>Santa Fe</strong> civil registration and the Rosario parish registers for the family.</li>
-    <li>Search <strong>CEMLA</strong> and the Buenos Aires passenger lists for the arrival from Europe.</li>
-    <li>Find the <strong>outbound crossing to South Africa</strong> — the date, the ship, and who travelled.</li>
-    <li>Keep <strong>Uruguay</strong> live throughout. It has the world's densest Lerena population, and if
-      Argentina stalls it is the next move, not the last resort.
-      <a href={u("/argentina/")}>Argentina &rarr;</a></li>
-  </ul>
-</section>
-<section class="blk">
-<h2>7. The South African kindred</h2>
-  <ul>
-    <li>Establish whether the <strong>61 South African Lerenas</strong> are indeed one family, and whether
-      this line founded it. <a href={u("/south-africa/")}>South Africa &rarr;</a></li>
-    <li>Work out the <strong>Booyzen</strong> marriage — an Afrikaner connection, and evidence of settlement
-      rather than a posting.</li>
-    <li>Test whether <strong>Taylor</strong> and <strong>Barry</strong> attach to this line or to another
-      branch of the tree. <span class="chip inf">Unexamined</span></li>
-  </ul>
-</section>
-<section class="blk">
-<h2>Recorded so they are not repeated</h2>
-  <ul>
-    <li>The <strong>Chrome extension was not connected</strong> on 8 September 2026, so the MyHeritage tree
-      could not be read in this session. It requires a logged-in browser session; it is not a public source.</li>
-    <li><strong>Forebears' Spain page</strong> for the surname returned no content to an automated fetch. The
-      provincial breakdown will need another route — the INE, or a read by hand.</li>
-  </ul>
-</section>
+
 </Base>
