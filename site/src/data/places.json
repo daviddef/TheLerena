@@ -270,9 +270,11 @@
    "juan-carlos-llerena",
    "maria-carlota-amadeo-lastra",
    "alejandrina-llerena",
-   "cipriana-saenz-pena"
+   "cipriana-saenz-pena",
+   "maria-mercedes-rozzetti",
+   "cristobal-canale"
   ],
-  "count": 23
+  "count": 25
  },
  {
   "slug": "rosario-santa-fe",
@@ -297,6 +299,23 @@
   "count": 15
  },
  {
+  "slug": "gualeguaychu-entre-rios",
+  "name": "Gualeguaychu, Entre Rios",
+  "people": [
+   "juan-larena-2",
+   "juan-antonio-larena",
+   "victorino-severo-larena",
+   "vicente-antonio-larena",
+   "roque-larena",
+   "antonio-larena-2",
+   "juan-pablo-lerena",
+   "petrona-lopez",
+   "vicenta-mercedes-fuentes",
+   "florencia-calixta-ramos"
+  ],
+  "count": 10
+ },
+ {
   "slug": "san-jose-de-mayo",
   "name": "San Jose de Mayo",
   "people": [
@@ -313,18 +332,19 @@
   "count": 9
  },
  {
-  "slug": "gualeguaychu-entre-rios",
-  "name": "Gualeguaychu, Entre Rios",
+  "slug": "cordoba-argentina",
+  "name": "Cordoba, Argentina",
   "people": [
-   "juan-larena-2",
-   "juan-antonio-larena",
-   "victorino-severo-larena",
-   "vicente-antonio-larena",
-   "roque-larena",
-   "antonio-larena-2",
-   "juan-pablo-lerena"
+   "francisco-llerena-2",
+   "rafaela-daraz",
+   "baldomero-llerena",
+   "margarita-correas",
+   "rafael-llerena",
+   "lucrecia-llerena",
+   "rosario-moyano",
+   "vicente-campellone"
   ],
-  "count": 7
+  "count": 8
  },
  {
   "slug": "montevideo-canelones",
@@ -350,19 +370,6 @@
    "celina-llerena-clavijo",
    "telma-llerena",
    "tomasa-cantidia-llerena"
-  ],
-  "count": 6
- },
- {
-  "slug": "cordoba-argentina",
-  "name": "Cordoba, Argentina",
-  "people": [
-   "francisco-llerena-2",
-   "rafaela-daraz",
-   "baldomero-llerena",
-   "margarita-correas",
-   "rafael-llerena",
-   "lucrecia-llerena"
   ],
   "count": 6
  },
@@ -414,6 +421,17 @@
   "count": 4
  },
  {
+  "slug": "colonia-uruguay",
+  "name": "Colonia, Uruguay",
+  "people": [
+   "tomas-llerena",
+   "pedro-llerena",
+   "maria-llerena",
+   "antonio-medero"
+  ],
+  "count": 4
+ },
+ {
   "slug": "montevideo-calle-san-juan-no-60",
   "name": "Montevideo, calle San Juan No 60",
   "people": [
@@ -431,16 +449,6 @@
    "lucas-lerena",
    "hanson-seko-lerena",
    "anton-lerena"
-  ],
-  "count": 3
- },
- {
-  "slug": "colonia-uruguay",
-  "name": "Colonia, Uruguay",
-  "people": [
-   "tomas-llerena",
-   "pedro-llerena",
-   "maria-llerena"
   ],
   "count": 3
  },
