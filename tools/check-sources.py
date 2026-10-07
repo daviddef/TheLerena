@@ -36,6 +36,25 @@ READ = re.compile(r"\bIMAGE READ\b|read off the (?:image|plate)|image was opened
 FILMIMG = re.compile(r"film\s*\d{6,9}\s*,?\s*image\s*\d{4,5}", re.I)
 IMGARK = re.compile(r"3:1:[A-Z0-9-]{8,}")
 
+# *** A THIRD LOCATOR, ADDED 8 OCTOBER 2026, AND IT IS NOT AN EXEMPTION. ***
+# David sent a photograph of one opening of the Maitland Road Cemetery Record of
+# Interments. It was genuinely read off an image, so READ fires - and it has no film
+# number and no ark, because it never came through FamilySearch. Under the old rule the
+# only ways to pass were to lie about the locator or to delete the word READ, and both
+# would have made the register worse than the gate.
+#
+# WHAT THIS ACCEPTS INSTEAD: the register's own page and entry number, which is what a
+# reader needs to order the same opening from the holding archive - plus the explicit
+# words IMAGE SUPPLIED, so nobody can fall through this hole by accident. Both halves are
+# required. "Supplied by the family" on its own still fails; so does a page number on a
+# row that claims a film it does not name.
+#
+# AND THESE ARE COUNTED OUT LOUD on every passing run. A locator that cannot be resolved
+# to a public image is weaker than one that can, and the build should say how many of
+# them the archive is carrying rather than let them blend in.
+SUPPLIED = re.compile(r"\bIMAGE SUPPLIED\b", re.I)
+PAGEENTRY = re.compile(r"page\s*\d{1,5}\s*,?\s*entry\s*\d{1,4}", re.I)
+
 
 def main():
     src = SRC.read_text(encoding="utf-8")
@@ -71,14 +90,19 @@ def main():
     # do not stay in step across loads, which data/cajon-985-scan.tsv records - so
     # demanding film+image everywhere would demand a number that is known to drift.
     unlocated = []
+    supplied = []
     for line in REG.read_text(encoding="utf-8").split("\n"):
         if not line.strip() or line.startswith("#"):
             continue
         f = line.split("\t")
         if len(f) < 9 or not READ.search(" ".join(f[6:9])):
             continue
-        if not FILMIMG.search(f[6]) and not IMGARK.search(f[6]):
-            unlocated.append(f[0])
+        if FILMIMG.search(f[6]) or IMGARK.search(f[6]):
+            continue
+        if SUPPLIED.search(f[6]) and PAGEENTRY.search(f[6]):
+            supplied.append(f[0])
+            continue
+        unlocated.append(f[0])
 
     if unlocated:
         print(f"  FAIL  sources    {len(unlocated)} row(s) say an image was read and do not say WHICH:")
@@ -88,8 +112,10 @@ def main():
         return 1
 
     if not missing:
+        extra = (f"; {len(supplied)} located by supplied page+entry, not by film"
+                 if supplied else "")
         print(f"  ok    sources    {len(used)} plate(s) read; every one is on /sources/, "
-              f"and every row claiming a plate names one")
+              f"and every row claiming a plate names one{extra}")
         return 0
 
     print(f"  FAIL  sources    {len(missing)} film(s) the register says were READ appear nowhere")

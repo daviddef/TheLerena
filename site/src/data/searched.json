@@ -84,5 +84,24 @@
   "outcome": "nothing",
   "pages": null,
   "walked": false
+ },
+ {
+  "src": "FamilySearch / City of Cape Town - South Africa, Cape, Cemetery Records 1872-2011; Maitland (Woltemade) Road Cemetery Record of Interments, two openings",
+  "url": "https://www.familysearch.org/search/collection/2790463",
+  "film": null,
+  "waypoint": null,
+  "what": "LERENA and TAYLOR interments, Cape Town. TWO OPENINGS AT KNOWN FOLIOS, NOT A WALK - the register runs to tens of thousands of entries and only the two pages naming these surnames were read. THE IMAGES WERE SUPPLIED, NOT FETCHED, so no DGS film, no image ark and no waypoint can be given, and the locator is the register's own page and entry number. THE ROUTE IS INFERRED, NOT RECORDED: the supplied page carries black redaction bars, and this collection's own description says its images are redacted, which is why it is filed here - but nobody wrote down where the scan came from at the time, and that is a guess from a fingerprint rather than a provenance",
+  "when": "2026-10-08",
+  "outcome": "yield",
+  "pages": "3215, 4706",
+  "walked": false,
+  "collection": "https://www.familysearch.org/search/collection/2790463",
+  "tags": [
+   "lerena",
+   "taylor",
+   "cape-town",
+   "cemetery",
+   "familysearch"
+  ]
  }
 ]
