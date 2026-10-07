@@ -1047,10 +1047,10 @@
   {
    "n": 131,
    "what": "Turn /searched/ into rows an index can carry",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-16",
-   "note": "**1,335 lines of prose — the longest page of its kind in the estate**, and none of it reachable by a filter or countable by a gate. Six siblings keep {when, src, what, got, outcome}. **The outcome vocabulary stays this archive's.** Shape: kit/components/Searched.astro.\n\n**Raised by the UI alignment pass, 2026-09-16.** It is recorded here because it is research this archive owns, not something to guess at from outside."
+   "note": "**DONE 7 October 2026, and deliberately NOT by replacing the prose.** The page is 1,429 lines and thirty-three sections, several of them tables of many searches. Flattening that into five fields would have thrown away the reasoning, **which on this page is the asset** - it is the archive's record of how it was wrong. So data/searched-index.tsv holds **thirty rows that INDEX the sections**, each linking to the prose that explains it, and the sections stay where they were. **The count the page now leads with: fourteen of the thirty returned NOTHING.** That is the number the kit's own docstring says a register exists to show - *an archive that records only its hits is keeping a highlight reel*. **The outcome words are this archive's own** - found, nothing, mixed, blocked, answered, unresolved, abandoned - because the component insists on that and says flattening four archives' vocabularies to a shared five *would be inventing a finding*. **Three sections are deliberately not rows:** *Why a page of failures*, *What is on this page* and *What the failures add up to* are the page's argument about itself, and giving them an outcome would be a category error. `when` is coarse where the prose is coarse: a bare year means the section does not date itself, and guessing a day to fill a column is how a register starts lying."
   },
   {
    "n": 132,

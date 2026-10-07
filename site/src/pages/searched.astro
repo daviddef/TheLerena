@@ -3,6 +3,8 @@ import Base from "../layouts/Base.astro";
 import trove from "../data/trove-assessment.json";
 import { u } from "../lib/url.js";
 import { emph } from "../lib/text.js";
+import Searched from "@daviddef/archive-kit/components/Searched.astro";
+import searchedRows from "../data/searched-index.json";
 ---
 <Base title="What Has Been Read"
       eyebrow="Everything looked at, including everything that led nowhere"
@@ -21,12 +23,27 @@ import { emph } from "../lib/text.js";
 </section>
 
 <section class="blk">
+  <h2 id="s-index">Every search, as one table</h2>
+  <div class="prose">
+    <p><strong>Thirty searches, and fourteen of them returned nothing.</strong> That number is the point
+      of this page. An archive that records only its hits is keeping a highlight reel, not a register.</p>
+    <p class="cap">This table is an <strong>index over the sections below</strong>, not a replacement for
+      them &mdash; every row links to the prose that explains it, because on this page the reasoning is
+      the asset. Three sections are deliberately absent: <em>Why a page of failures</em>, <em>What is on
+      this page</em> and <em>What the failures add up to</em> are the page&rsquo;s argument about itself,
+      and giving them an outcome would be a category error.</p>
+  </div>
+  <Searched rows={searchedRows} u={u} nil={["nothing"]} />
+</section>
+
+<section class="blk">
   <h2 id="contents">What is on this page</h2>
   <p class="dek">Every failure, in the order it happened. The build checks this list
     against the page: a link here cannot point at a section that is gone, and a section cannot be added
     without appearing here.</p>
   <div class="prose" style="margin-top:14px">
     <ol class="cols2">
+      <li><a href="#s-index">Every search, as one table</a></li>
       <li><a href="#why-a-page-of-failures">Why a page of failures</a></li>
       <li><a href="#the-army-enrolment-drawer-the-one-that-worked">The army enrolment drawer — the one that worked</a></li>
       <li><a href="#the-index-before-1879-read-end-to-end">The index before 1879 &mdash; read end to end</a></li>

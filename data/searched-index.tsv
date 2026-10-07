@@ -1,0 +1,56 @@
+# /searched/ AS ROWS. Extracted 7 October 2026 from the page's own prose.
+#
+# *** THIS IS AN INDEX OVER THE PROSE, NOT A REPLACEMENT FOR IT. *** The page runs to 1,429 lines and
+# thirty-three sections, several of which are themselves tables of many searches. Flattening that into
+# five fields would have thrown away the reasoning, which on this page IS the asset - it is the archive's
+# record of how it was wrong. So every row LINKS TO ITS SECTION and the sections stay exactly where they
+# were. What the rows add is what the prose could never give: a thing a filter can reach and a gate can
+# count.
+#
+# *** THE OUTCOME WORDS ARE THIS ARCHIVE'S OWN, which the kit insists on. *** The component's docstring
+# says four archives grade their searches four different ways and that flattening them to a shared five
+# "would be inventing a finding". Ours: found, nothing, mixed, blocked, answered, unresolved, abandoned.
+# `nil` - the words that mean a search returned nothing - is just `nothing`, and that is the count the
+# page should lead with.
+#
+# *** THREE SECTIONS ARE DELIBERATELY NOT ROWS: *** "Why a page of failures", "What is on this page" and
+# "What the failures add up to". They are the page's argument about itself, not searches, and giving them
+# an outcome would be a category error.
+#
+# `when` is coarse where the prose is coarse. A bare year means the section does not date itself more
+# precisely, and guessing a day to fill a column is how a register starts lying.
+# *** AND THE SAME BASE TRAP AS data/open-questions.tsv, IN A NEW SHAPE. *** `href` is passed
+# through the kit's u(), so a BARE #anchor becomes /TheLerena/#anchor - a link to the home page that
+# happens to carry a fragment no page there has. Thirty of them, every one caught by the anchor gate.
+# The hrefs below are written /searched/#anchor so u() lands them on this page.
+when	src	what	got	outcome	href
+10 Sep 2026	Ejercito Argentino, Fichas de enrolamiento, Cajon 985 (Lera) — image group 112342450	Pablo Armando's own enrolment card	<strong>His father and mother, named.</strong> The one search on this page that answered the central question	found	/searched/#the-army-enrolment-drawer-the-one-that-worked
+13 Sep 2026	Rosario cathedral, Indice de bautismos before 1879 — eighty openings read by eye	The surname, before the window everything else had started from	<strong>One Lerena in a hundred and forty-eight years</strong> of one parish	nothing	/searched/#the-index-before-1879-read-end-to-end
+13 Sep 2026	Rosario cathedral, death index — the biggest untried set there	Deaths, where every sweep before had been baptisms and marriages	It answers two thirds of the question <strong>and then runs out of pages</strong>	mixed	/searched/#the-death-index-opened-for-the-first-time
+13 Sep 2026	Rosario cathedral register, read act by act to 750 acts	Whether the 1945 typescript index can be trusted at all — every Rosario null here rests on it	<strong>The index held.</strong> The nulls built on it stand	found	/searched/#the-register-itself-carried-to-750-acts-and-the-index-vindic
+13 Sep 2026	FamilySearch /search/ endpoints	Continuing the pre-1879 read	<strong>Firewalled mid-session.</strong> Recorded as a stop, not a finding	blocked	/searched/#where-this-stopped-and-why
+10 Sep 2026	International Institute of Social History, Amsterdam — letter sent 9 Sep	The family tradition that he left Argentina as a communist on the run	<strong>Answered in a day</strong>, and the tradition is not supported there	answered	/searched/#the-anarchist-press-answered-from-amsterdam
+10 Sep 2026	Rosario cathedral register — the book, not the index	Testing the index against the acts behind it	Where that read began	found	/searched/#the-register-itself-where-that-read-began
+10 Sep 2026	Rosario, Indice de matrimonios — re-read at full resolution	Juan Carlos Lerena's marriage, where his wife's maiden name would be	Nothing, at a resolution that leaves no doubt	nothing	/searched/#the-marriage-index-read-again-at-a-resolution-that-leaves-no
+10 Sep 2026	Rosario index, the whole L section	The last open corner, finished so it can be left behind	Closed	nothing	/searched/#the-l-section-read-end-to-end-and-closed
+2026	Nuestra Senora del Rosario cathedral, alphabetical index DGS 4530325	LERENA, every year 1882-1895	<strong>Fourteen consecutive years, nothing</strong>	nothing	/searched/#rosario-the-baptism-registers
+2026	Archivo General del Ejercito, Buenos Aires, and others	His libreta de enrolamiento, clase 1882, and other files	Some answered, some outstanding — the table says which	mixed	/searched/#letters-written-to-archives
+2026	FamilySearch Spain: Baptisms 1502-1940, Catholic Church 1307-2005, Civil 1475-2005	The last of the four candidate birthplaces	Nothing	nothing	/searched/#spain
+2026	FamilySearch Uruguay: Civil Registration 1879-2020, Catholic Church 1726-2000, Baptisms 1750-1900, Index Cards 1900-1937	The successor to the Rosario work	<strong>Not him — but this is the corpus that later gave the Lerena Traibel their parentage</strong>	mixed	/searched/#uruguay-civil-registration
+2026	ancestors.co.za, All Deceased Estates 1994-2023 (gazette forms J193 and J187)	The surname alone	Estates found, with dates and gazette references	found	/searched/#south-africa-the-estates-indexes
+2026	Rosario marriage index 1860-1904, L section, image 51	A line reading &ldquo;Larena V &middot; Sarmiento A&rdquo; under Libro 9, 1884	<strong>Unresolved.</strong> Cannot be distinguished from <em>Lavena</em>, a real Rosario surname	unresolved	/searched/#rosario-everything-else
+2026	FamilySearch, worldwide	Pablo Armando Lerena, fuzzy, births 1878-86	<strong>Two records exist on earth</strong> — his 1911 Cape marriage and a modern Find a Grave memorial	nothing	/searched/#indexes-and-databases-searched
+9 Sep 2026	CEMLA and others	Lerena / Llerena / Larena / Lerina, 1800-1960	Run with David completing the CAPTCHAs at the keyboard. Others remain unreachable	blocked	/searched/#blocked-restricted-or-otherwise-unreachable
+2026	The San Miguel baptisms of 1872 and other leads	Roberto Juan Roque Llorens and others	<strong>Unproven, and dropped.</strong> Kept so they are not chased twice	abandoned	/searched/#chased-and-abandoned
+2026	FamilySearch full-text search	The same null, asked a different way	<strong>Every null on this page is really one null: not in the index.</strong> Full text reaches only what has been keyed	nothing	/searched/#full-text-search-swept-and-it-cannot-reach-him
+10 Sep 2026	Argentine marriages 1865-1885, and two more shapes	Juan Carlos Lerena, the day his name was found	Three more nulls	nothing	/searched/#looking-for-juan-carlos-lerena-three-more-nulls
+13 Sep 2026	WikiTree	Added because it was asked for, and because the honest answer to &ldquo;have you looked at WikiTree?&rdquo; was no	Empty	nothing	/searched/#wikitree-a-source-tested-and-found-empty
+13 Sep 2026	Queensland Registry's own historical index, searched directly	The other Mary Ann Brayley, on whom a WikiTree claim turned	<strong>Run to ground.</strong> Searched at the registry rather than through anybody's re-hosting of it	found	/searched/#queensland-the-other-mary-ann-brayley-run-to-ground
+13 Sep 2026	FamilySearch, by forename rather than surname	Luis Eugenio Lerena Lenguas	<strong>The most useful thing learned here in a week — and it was learned by publishing a confident negative and being wrong within the hour</strong>	found	/searched/#searching-the-rarest-name-not-the-surname
+14 Sep 2026	Three days of searching LERENA	The surname as a handle	<strong>It has hidden records three separate ways.</strong> The least reliable handle on this family	found	/searched/#the-surname-is-the-worst-way-to-find-them
+2026	alex.onb.ac.at — the Austrian legal archive	Whether anything there could relate to the Lerenas	Nothing, and the question answered properly rather than waved away	nothing	/searched/#alex
+2026	Rosario confirmation register, read page by page, 15 May 1885 to 1897	Every entry names both parents, so an act for him would have named them	<strong>About two and a half thousand children, and no Lerena under seven spellings</strong>	nothing	/searched/#confirmations
+15 Sep 2026	FamilySearch full text, the surname spelled seven ways	Sancho Llerena, and then the name that matters	<strong>A method failure, a large payout, and then a controlled negative on the one name that matters</strong>	mixed	/searched/#variant-sweep
+15 Sep 2026	The variant sweep's own hits, opened one by one	Two that fired on <em>Serena</em> — the S-for-L this archive has documented five times	<strong>Both false, and one would have faked the answer</strong>	nothing	/searched/#two-false-positives
+2026	Rosario confirmations, opened for the first time	A confirmation act names the parents, and he was squarely in range	<strong>No Lerena in a sitting of 243 children.</strong> And a structure built from a sample of eleven, corrected	nothing	/searched/#s-rosario-confirmations
+27 Sep 2026	Trove — National Library of Australia, digitised newspapers	LERENA and LLERENA across the whole corpus	<strong>Nothing, and the control passed:</strong> 11,500 articles on South African racing, so the corpus could have held him	nothing	/searched/#s-trove
