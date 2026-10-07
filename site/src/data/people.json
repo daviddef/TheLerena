@@ -2941,12 +2941,27 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Aurora Eduarda LARENA Fuentes",
+    "dates": "",
+    "slug": "aurora-eduarda-larena-fuentes",
+    "via": "register",
+    "note": "Named as a child on her father's row."
+   },
+   {
+    "name": "Felix Antonio LARENA Fuentes",
+    "dates": "",
+    "slug": "felix-antonio-larena-fuentes",
+    "via": "register",
+    "note": "Named as a child on his father's row."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -3768,12 +3783,20 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Petrona MEDERO Llerena",
+    "dates": "",
+    "slug": "petrona-medero-llerena",
+    "via": "register",
+    "note": "Named as a daughter on her mother's row."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -4247,12 +4270,20 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Ana Maria LERENA Rozzetti",
+    "dates": "",
+    "slug": "ana-maria-lerena-rozzetti",
+    "via": "register",
+    "note": "Named as a daughter on her father's row."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -4279,12 +4310,20 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Susana Avelina CANALE Lerena",
+    "dates": "",
+    "slug": "susana-avelina-canale-lerena",
+    "via": "register",
+    "note": "Named as a daughter on her mother's row."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -17329,12 +17368,27 @@
     "note": "Stated on his register row."
    }
   ],
-  "children": [],
+  "children": [
+   {
+    "name": "Aurora Eduarda LARENA Fuentes",
+    "dates": "",
+    "slug": "aurora-eduarda-larena-fuentes",
+    "via": "register",
+    "note": "Same row."
+   },
+   {
+    "name": "Felix Antonio LARENA Fuentes",
+    "dates": "",
+    "slug": "felix-antonio-larena-fuentes",
+    "via": "register",
+    "note": "Same row."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 1,
-  "relRegister": 1,
+  "relTotal": 3,
+  "relRegister": 3,
   "relTree": 0,
   "evidence": []
  },
@@ -17409,12 +17463,20 @@
     "note": "Stated on her register row."
    }
   ],
-  "children": [],
+  "children": [
+   {
+    "name": "Petrona MEDERO Llerena",
+    "dates": "",
+    "slug": "petrona-medero-llerena",
+    "via": "register",
+    "note": "Same row."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 1,
-  "relRegister": 1,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -17529,12 +17591,20 @@
     "note": "Stated on his register row."
    }
   ],
-  "children": [],
+  "children": [
+   {
+    "name": "Ana Maria LERENA Rozzetti",
+    "dates": "",
+    "slug": "ana-maria-lerena-rozzetti",
+    "via": "register",
+    "note": "Same row."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 1,
-  "relRegister": 1,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -17569,12 +17639,254 @@
     "note": "Stated on her register row."
    }
   ],
+  "children": [
+   {
+    "name": "Susana Avelina CANALE Lerena",
+    "dates": "",
+    "slug": "susana-avelina-canale-lerena",
+    "via": "register",
+    "note": "Same row."
+   }
+  ],
+  "siblings": [],
+  "isLine": false,
+  "aliasOf": null,
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "felix-antonio-larena-fuentes",
+  "name": "Felix Antonio LARENA Fuentes",
+  "born": "1906",
+  "died": "",
+  "birthplace": "-",
+  "nationality": "Argentine",
+  "occupation": "-",
+  "where": "Gualeguaychu, Entre Rios",
+  "source": "Entre Rios Civil Registration - via the register row of his father Vicente Antonio LARENA",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** ENTERED 7 OCTOBER 2026 from a row this register already held. *** He was named as a child on the row of his father VICENTE ANTONIO LARENA and VICENTA MERCEDES FUENTES and had no entry of its own, so a household this archive holds could not be drawn. The citation is the one that row already carried and *** no new research stands behind this entry ***. Born *** 1906 ***, and a brother of Aurora Eduarda.",
+  "place": "Gualeguaychu, Entre Rios",
+  "placeSlug": "gualeguaychu-entre-rios",
+  "surname": "LARENA",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": {
+   "name": "Vicente Antonio LARENA",
+   "dates": "",
+   "slug": "vicente-antonio-larena",
+   "via": "register",
+   "note": "Named as a child on his father's row."
+  },
+  "mother": {
+   "name": "Vicenta Mercedes FUENTES (wife of Vicente Antonio LARENA)",
+   "dates": "",
+   "slug": "vicenta-mercedes-fuentes",
+   "via": "register",
+   "note": "Same row."
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Aurora Eduarda LARENA Fuentes",
+    "dates": "",
+    "slug": "aurora-eduarda-larena-fuentes",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "aurora-eduarda-larena-fuentes",
+  "name": "Aurora Eduarda LARENA Fuentes",
+  "born": "1913",
+  "died": "",
+  "birthplace": "-",
+  "nationality": "Argentine",
+  "occupation": "-",
+  "where": "Gualeguaychu, Entre Rios",
+  "source": "Entre Rios Civil Registration - via the register row of her father Vicente Antonio LARENA",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** ENTERED 7 OCTOBER 2026 from a row this register already held. *** She was named as a child on the row of her father VICENTE ANTONIO LARENA and VICENTA MERCEDES FUENTES and had no entry of its own, so a household this archive holds could not be drawn. The citation is the one that row already carried and *** no new research stands behind this entry ***. Born *** 1913 ***, and a sister of Felix Antonio.",
+  "place": "Gualeguaychu, Entre Rios",
+  "placeSlug": "gualeguaychu-entre-rios",
+  "surname": "LARENA",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": {
+   "name": "Vicente Antonio LARENA",
+   "dates": "",
+   "slug": "vicente-antonio-larena",
+   "via": "register",
+   "note": "Named as a child on her father's row."
+  },
+  "mother": {
+   "name": "Vicenta Mercedes FUENTES (wife of Vicente Antonio LARENA)",
+   "dates": "",
+   "slug": "vicenta-mercedes-fuentes",
+   "via": "register",
+   "note": "Same row."
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Felix Antonio LARENA Fuentes",
+    "dates": "",
+    "slug": "felix-antonio-larena-fuentes",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "petrona-medero-llerena",
+  "name": "Petrona MEDERO Llerena",
+  "born": "-",
+  "died": "",
+  "birthplace": "-",
+  "nationality": "Uruguayan",
+  "occupation": "-",
+  "where": "Colonia, Uruguay",
+  "source": "Uruguay Catholic Church Records - via the register row of her mother Maria LLERENA",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** ENTERED 7 OCTOBER 2026 from a row this register already held. *** She was named as a child on the row of her mother MARIA LLERENA and ANTONIO MEDERO and had no entry of its own, so a household this archive holds could not be drawn. The citation is the one that row already carried and *** no new research stands behind this entry ***. *** She carries her mother's line into a Colonia household this archive has never followed. ***",
+  "place": "Colonia, Uruguay",
+  "placeSlug": "colonia-uruguay",
+  "surname": "MEDERO",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": {
+   "name": "Antonio MEDERO (husband of Maria LLERENA)",
+   "dates": "",
+   "slug": "antonio-medero",
+   "via": "register",
+   "note": "Same row."
+  },
+  "mother": {
+   "name": "Maria LLERENA",
+   "dates": "",
+   "slug": "maria-llerena",
+   "via": "register",
+   "note": "Named as a daughter on her mother's row."
+  },
+  "spouses": [],
   "children": [],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
-  "relTotal": 1,
-  "relRegister": 1,
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "ana-maria-lerena-rozzetti",
+  "name": "Ana Maria LERENA Rozzetti",
+  "born": "-",
+  "died": "",
+  "birthplace": "-",
+  "nationality": "Argentine",
+  "occupation": "-",
+  "where": "Buenos Aires",
+  "source": "Argentina, Buenos Aires, Catholic Church Records - via the register row of her father Eduardo LERENA",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** ENTERED 7 OCTOBER 2026 from a row this register already held. *** She was named as a child on the row of her father EDUARDO LERENA and MARIA MERCEDES ROZZETTI and had no entry of its own, so a household this archive holds could not be drawn. The citation is the one that row already carried and *** no new research stands behind this entry ***.",
+  "place": "Buenos Aires",
+  "placeSlug": "buenos-aires",
+  "surname": "LERENA",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": {
+   "name": "Eduardo LERENA",
+   "dates": "",
+   "slug": "eduardo-lerena",
+   "via": "register",
+   "note": "Named as a daughter on her father's row."
+  },
+  "mother": {
+   "name": "Maria Mercedes ROZZETTI (wife of Eduardo LERENA)",
+   "dates": "",
+   "slug": "maria-mercedes-rozzetti",
+   "via": "register",
+   "note": "Same row."
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "aliasOf": null,
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "susana-avelina-canale-lerena",
+  "name": "Susana Avelina CANALE Lerena",
+  "born": "-",
+  "died": "",
+  "birthplace": "-",
+  "nationality": "Argentine",
+  "occupation": "-",
+  "where": "Buenos Aires",
+  "source": "Argentina, Buenos Aires, Catholic Church Records - via the register row of her mother Avelina LERENA",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** ENTERED 7 OCTOBER 2026 from a row this register already held. *** She was named as a child on the row of her mother AVELINA LERENA and CRISTOBAL CANALE and had no entry of its own, so a household this archive holds could not be drawn. The citation is the one that row already carried and *** no new research stands behind this entry ***. *** Her forename AVELINA repeats her mother's ***, which repeats the AVELINO of the Montevideo house - a naming habit this archive has traced through five fonts, offered here as an echo and not as a link.",
+  "place": "Buenos Aires",
+  "placeSlug": "buenos-aires",
+  "surname": "CANALE",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": {
+   "name": "Cristobal CANALE (husband of Avelina LERENA)",
+   "dates": "",
+   "slug": "cristobal-canale",
+   "via": "register",
+   "note": "Same row."
+  },
+  "mother": {
+   "name": "Avelina LERENA",
+   "dates": "",
+   "slug": "avelina-lerena",
+   "via": "register",
+   "note": "Named as a daughter on her mother's row."
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "aliasOf": null,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  }

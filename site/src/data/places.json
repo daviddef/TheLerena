@@ -272,9 +272,11 @@
    "alejandrina-llerena",
    "cipriana-saenz-pena",
    "maria-mercedes-rozzetti",
-   "cristobal-canale"
+   "cristobal-canale",
+   "ana-maria-lerena-rozzetti",
+   "susana-avelina-canale-lerena"
   ],
-  "count": 25
+  "count": 27
  },
  {
   "slug": "rosario-santa-fe",
@@ -311,9 +313,11 @@
    "juan-pablo-lerena",
    "petrona-lopez",
    "vicenta-mercedes-fuentes",
-   "florencia-calixta-ramos"
+   "florencia-calixta-ramos",
+   "felix-antonio-larena-fuentes",
+   "aurora-eduarda-larena-fuentes"
   ],
-  "count": 10
+  "count": 12
  },
  {
   "slug": "san-jose-de-mayo",
@@ -386,6 +390,18 @@
   "count": 5
  },
  {
+  "slug": "colonia-uruguay",
+  "name": "Colonia, Uruguay",
+  "people": [
+   "tomas-llerena",
+   "pedro-llerena",
+   "maria-llerena",
+   "antonio-medero",
+   "petrona-medero-llerena"
+  ],
+  "count": 5
+ },
+ {
   "slug": "canelones",
   "name": "Canelones",
   "people": [
@@ -417,17 +433,6 @@
    "maria-larena-2",
    "carmela-larena",
    "leon-jose-lerena"
-  ],
-  "count": 4
- },
- {
-  "slug": "colonia-uruguay",
-  "name": "Colonia, Uruguay",
-  "people": [
-   "tomas-llerena",
-   "pedro-llerena",
-   "maria-llerena",
-   "antonio-medero"
   ],
   "count": 4
  },
