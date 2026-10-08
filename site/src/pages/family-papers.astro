@@ -55,6 +55,12 @@ const DOCS = [
    "Corpus Christi, Wynberg. Born 25 November 1905 — baptised at five and a half, three months before his parents married. Godparents José Bretón and María Luisa Bretón, both by proxy. Later annotations record both his marriages."],
   ["baptism-nuno-1924", "Nuno Fernando, baptised 16 November 1924",
    "Corpus Christi, Wynberg, no. 4540. Born 6 October 1924. Godparents Michael Joseph and Mary Anne Duddy — and against the mother, in the priest’s hand, Mater Anglicana."],
+  ["taylor-group-c1890", "The Taylor family group, about 1889–1891",
+   "Twelve people and a dog. David identifies Mary Septima as the small girl at the lower right, against the knee of the seated man with full side-whiskers, identified as her father. Nobody else in the group is named here."],
+  ["marist-1936-june-november", "Two Marist testimonials, June and November 1936",
+   "Marist Brothers, St Joseph’s College, Belmont Park, Rondebosch. “Merited by Master N. Lerena”, signed Bro. Vital. June: 608 good marks against his opponent’s 578, the form’s highest 690. November: 715 against 708, highest 1045."],
+  ["marist-1936-october", "The October testimonial, 1 October 1936",
+   "458 good marks against his opponent’s 415, the form’s highest 523. Dated five days before Nuno Fernando’s twelfth birthday."],
   ["baptism-llorens-1872", "The Buenos Aires candidate — not this family",
    "Libro de Bautismos de la Parroquia de San Miguel, 1872. Roberto Juan Roque LLORENS, born 16 August 1872, son of Roberto Llorens and Francisca Fernández, both of Spain. Sent unsolicited from Argentina; answered and set aside."],
 ];
@@ -829,9 +835,21 @@ const DOCS = [
       religion from a direction the archive had not used:</strong> the Corpus Christi baptisms, the
       Roman Catholic allotment in grave 7719, and now a Marist schoolroom.
       <a href={u("/south-africa/")}>The grave &rarr;</a></p>
-    <p class="cap"><strong>The figures are read from a photocopy</strong> and the notes in the data
-      say which digits are least certain. The certificates themselves are not reproduced here yet
-      &mdash; the facts are, which is how this archive has always worked.</p>
+    <p><strong>Every figure was re-read off the scans on 8 October and every one held</strong>
+      &mdash; including the two this archive had flagged as the least certain digits on their
+      certificates, the <strong>608</strong> of June and the <strong>715</strong> of November. The
+      caveats are withdrawn.</p>
+  </div>
+  <div class="docs" style="margin-top:20px">
+    {[["marist-1936-june-november", "June and November 1936"],
+      ["marist-1936-october", "1 October 1936"]].map(([f, c]) => (
+      <figure class="doc">
+        <a href={u("/docs/" + f + ".jpg")}><img src={u("/docs/" + f + ".jpg")} alt={c} loading="lazy" /></a>
+        <figcaption><span class="cap">{c}</span></figcaption>
+      </figure>
+    ))}
+  </div>
+  <div class="prose">
   </div>
 </section>
 
@@ -852,19 +870,37 @@ const DOCS = [
       <div><dt>{r.field}</dt><dd><strong set:html={emph(r.as_seen)} /><br /><span class="cap" set:html={emph(r.note)} /></dd></div>
     ))}
   </dl>
-  <div class="prose" style="margin-top:18px">
-    <p><strong>The one thing the picture argues on its own is her name.</strong>
-      <em>Septima</em> means <strong>seventh</strong>, and this archive has carried it as a curiosity
-      since the beginning. At least eight daughters and two sons are in the frame. That is the
-      ordinary explanation, and it is the first time the name has had a picture behind it &mdash;
-      though a studio group is who turned up, not who was born.
+  <figure class="doc" style="margin:22px 0">
+    <a href={u("/docs/taylor-group-c1890.jpg")}><img src={u("/docs/taylor-group-c1890.jpg")} alt="The Taylor family group, about 1889–1891" loading="lazy" /></a>
+    <figcaption class="cap">Twelve people and a dog, before a painted studio backdrop. Click for the
+      full-size scan.</figcaption>
+  </figure>
+  <div class="prose">
+    <p><strong>This archive argued from this photograph and it should not have.</strong> When the
+      picture was first written up, earlier the same day, this page said that <em>&ldquo;at least
+      eight daughters and two sons are in the frame&rdquo;</em> and offered the number as the
+      ordinary explanation of the name <strong>Septima</strong> &mdash; <em>seventh</em>. David read
+      it and said: <strong>&ldquo;I think there is a grandmother or aunt in that photo as
+      well.&rdquo;</strong></p>
+    <p><strong>That is the whole objection in one line.</strong> A granddaughter, a niece, a
+      daughter-in-law and a neighbour&rsquo;s child all photograph identically. There are two seated
+      adult women here and <strong>nothing in the image says which is the mother of the small
+      girl</strong> &mdash; the one in the bonnet and fringed shawl reads as the elder, which is
+      exactly as consistent with a grandmother as with a mother of ten.</p>
+    <p><strong>So the count stands and the conclusion goes.</strong> Twelve figures can be counted:
+      three male, eight female, one infant whose sex cannot be told. <strong>Daughters cannot.</strong>
+      A census or a baptism register counts children, giving each one an age and a relationship to
+      the head of the household; a studio group refuses to. <strong>The record that would settle it
+      is the 1891 census of Northam</strong> &mdash; already read here for the Brayleys, and never
+      counted for the Taylors.
+      <a href={u("/corrections/")}>What was corrected &rarr;</a>
       <a href={u("/taylor/")}>The Taylors &rarr;</a></p>
   </div>
 </section>
 
 <section class="blk">
   <h2>The documents themselves</h2>
-  <p class="dek">This archive has been text since it began. These are the six it can publish: every
+  <p class="dek">This archive has been text since it began. These are the nine it can publish: every
     person named on them is dead. <strong>The 1971 and 1973 death notices are deliberately not here</strong>
     &mdash; they list living children with their birth dates, and this estate names the living and
     nothing more.</p>

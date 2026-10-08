@@ -2,17 +2,22 @@
  {
   "field": "identification",
   "as_seen": "*** Mary Septima, her father, her mother and her siblings *** - David, 8 October 2026",
-  "note": "*** THIS IS THE ONLY NAMED PHOTOGRAPH OF MARY SEPTIMA TAYLOR THIS ARCHIVE HOLDS. *** She is identified as the small girl at the *** lower right ***, against the knee of the seated man with full side-whiskers, who is identified as her father. *** NOBODY ELSE IN THE GROUP IS NAMED ***, and this archive will not guess which sibling is which from a face."
+  "note": "*** THIS IS THE ONLY IDENTIFIED LIKENESS OF MARY SEPTIMA TAYLOR THIS ARCHIVE HOLDS *** - of anyone in this family before the Cape. She is identified as the small girl at the *** lower right ***, against the knee of the seated man with full side-whiskers, who is identified as her father. *** NOBODY ELSE IN THE GROUP IS NAMED ***, and no sibling will be matched to a face here."
  },
  {
-  "field": "the group",
-  "as_seen": "Twelve people and an infant, with a small dog asleep on a cushion at the front left",
-  "note": "Standing and seated in two ranks before a painted studio backdrop. Two young men; the rest women and girls, several of them grown. *** A seated older woman at centre-left in a fringed shawl *** and *** a seated man at right with full side-whiskers *** read as the parents; a young woman seated at centre holds the infant."
+  "field": "the figures",
+  "as_seen": "*** Twelve people and a dog. *** Three male: two young men and the older man with full side-whiskers. Eight female: one markedly older, seated in a bonnet and fringed shawl; one seated in a white lace collar with the infant on her lap; six more, from a small child to grown young women. And *** one infant ***, whose sex cannot be told from the print.",
+  "note": "Two ranks before a painted backdrop, with a small dog asleep on a cushion at the front left. *** THE COUNT OF FIGURES IS RELIABLE. THE COUNT OF CHILDREN IS NOT *** - see the row below, which is a correction of this archive's own first reading."
  },
  {
-  "field": "why the size matters",
-  "as_seen": "At least eight daughters and two sons are visible, plus an infant",
-  "note": "*** THIS IS WHAT A FAMILY CALLED SEPTIMA LOOKS LIKE. *** Her name means *** seventh ***, and the archive has carried it as a curiosity since the beginning. A group this size is the ordinary explanation, and it is the first time the name has had a picture behind it. *** IT IS NOT A COUNT OF THE CHILDREN *** - a studio group is who turned up, not who was born."
+  "field": "what cannot be read off it",
+  "as_seen": "*** WHO IS THE MOTHER, AND WHO IS A DAUGHTER. ***",
+  "note": "*** DAVID IS RIGHT AND THIS ARCHIVE WAS WRONG. *** On 8 October it published that \"at least eight daughters and two sons are visible\", and argued from the number to the name. David then said he thought *** a grandmother or an aunt *** was in the group as well, which is the whole objection in one line. *** A GRANDDAUGHTER, A NIECE, A DAUGHTER-IN-LAW AND A NEIGHBOUR'S CHILD ALL PHOTOGRAPH IDENTICALLY. *** There are two seated adult women here and nothing in the image says which is the mother of the small girl - the one in the bonnet reads as the elder, which is exactly as consistent with a grandmother as with a mother of ten. *** A CENSUS OR A BAPTISM REGISTER COUNTS CHILDREN. A STUDIO GROUP DOES NOT. ***"
+ },
+ {
+  "field": "the name Septima",
+  "as_seen": "*** The picture does not prove it after all. ***",
+  "note": "*** Septima *** means *** seventh ***, and this archive has carried the name as a curiosity from the beginning. A large sibling group remains the ordinary explanation - but it was already the ordinary explanation, and the photograph adds nothing to it that can be checked. *** WHAT WOULD SETTLE IT: *** the 1891 census of Northam, which this archive has already read for the Brayleys, counted for the TAYLOR household instead - a census names every child, their ages and their relationship to the head, which is precisely what a photograph refuses to do."
  },
  {
   "field": "date",
