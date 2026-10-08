@@ -6,6 +6,7 @@ import addresses from "../data/devon-addresses.json";
 import crew from "../data/crew-lists-costed.json";
 import voyages from "../data/passenger-lists.json";
 import taylorLine from "../data/taylor-line.json";
+import baps from "../data/taylor-baptisms-northam.json";
 import "@daviddef/archive-kit/styles/persontree.css";
 /* GENERATED FROM data/taylor-line.tsv, not typed here. Until 14 September 2026 this was a
    hardcoded array duplicating that file - and when the TSV gained five husbands' names, the
@@ -39,11 +40,71 @@ import dDevonTooling from "../data/devon-tooling.json";
       eyebrow="Bideford, Northam — and a name that is a count"
       dek="She is buried in the Roman Catholic ground at Maitland under a Spanish surname she took at about twenty. Her own name is a piece of arithmetic, and it turns out to be exactly right.">
 <section class="blk">
+  <h2 id="s-baptisms">The baptism register, Northam &mdash; and her own baptism</h2>
+  <p class="dek">8 October 2026. Seven children in one query, and the eighth is not there.</p>
+  <div class="prose">
+    <p><strong>The whole sibling group was recovered by searching on the mother, not the child.</strong>
+      One query against findmypast&rsquo;s <em>Devon Baptisms</em> &mdash; surname <strong>Taylor</strong>,
+      mother&rsquo;s forenames <strong>Mary Ann Helen</strong> &mdash; returns the family at
+      <strong>Northam, St Margaret</strong> in a single page. Searching child by child would have taken
+      seven searches and could never have proved the group complete.</p>
+    <p><strong>The control ran first.</strong> Agnes Walker Taylor, the one child whose birth this
+      archive held to the day and the address &mdash; 3 August 1889, 2 Fore Street &mdash; was looked
+      for before anything else. She is there, baptised eighteen days later.</p>
+  </div>
+  <table class="tbl" style="margin-top:18px">
+    <thead><tr><th>Child</th><th>Baptised</th><th>Born, as held</th></tr></thead>
+    <tbody>
+      {baps.filter((r) => r.child).map((r) => (
+        <tr>
+          <td set:html={emph(r.child)} />
+          <td set:html={emph(r.baptised)} />
+          <td set:html={emph(r["born, as this archive had it"])} />
+        </tr>
+      ))}
+    </tbody>
+  </table>
+  <div class="prose" style="margin-top:18px">
+    <p><strong>Mary Septima&rsquo;s own baptism is in it, and this archive had never held it.</strong>
+      <strong>30 October 1884</strong>, six weeks after her birth; father <strong>William</strong>,
+      mother <strong>Mary Ann Ellen</strong>; Northam, St Margaret, South West Heritage Trust
+      reference <strong>1843A/PR/1/16</strong>. It is the first time her parents are named together
+      in a <em>parish register</em> rather than in a tree, a census or an index &mdash; and the
+      earliest record of her life, twenty-seven years before she married at Wynberg.</p>
+    <p><strong>And there is no Edith.</strong> For three weeks this archive has carried a
+      <em>strong candidate</em> for a seventh daughter &mdash; <strong>Taylor, Edith, Bideford,
+      September quarter 1882</strong> &mdash; because the tree says ten children and names nine, and
+      because <em>Septima</em> means seventh. <strong>Lucy is baptised 31 August 1881 and Mary
+      Septima 30 October 1884, and the register holds nothing between them.</strong> The candidate
+      falls exactly in that gap, and every sibling on either side of her is in the book.</p>
+    <p><strong>The only two Edith Taylors baptised in Devon near that date are other people&rsquo;s.</strong>
+      <strong>Edith Taylor</strong>, 21 November 1883 at Bideford, mother <strong>Maria</strong>;
+      <strong>Edith Mary Taylor</strong>, 8 April 1885 at Bideford, mother <strong>Elizabeth</strong>.
+      Two more William Taylors, identified by their wives. <strong>The candidate is downgraded from
+      strong to weak</strong>, and what survives it is only an unsourced count in a family tree and
+      the meaning of a name. <a href={u("/corrections/")}>What was corrected &rarr;</a></p>
+    <p class="cap"><strong>What it does not prove.</strong> A child can be born and die before
+      baptism; a child can be baptised in another parish or another denomination; a register can
+      have a gap. But this family baptised promptly and baptised at Northam, seven times across
+      fifteen years, and the one child the count requires is the one child who is not there.</p>
+  </div>
+</section>
+
+<section class="blk">
 <h2 id="s-the-name-is-a-count">The name is a count</h2>
   <p>
     <span class="chip doc">Documented</span> <strong>Mary Septima Taylor</strong> was born
-    <strong>17 September 1884</strong>, the ninth of ten children of <strong>William Taylor</strong>
-    (1826&ndash;1902) and <strong>Mary Ann Hellen Brayley</strong> (1843&ndash;1900).
+    <strong>17 September 1884</strong> and baptised at Northam on <strong>30 October 1884</strong>,
+    a daughter of <strong>William Taylor</strong> (1826&ndash;1902) and <strong>Mary Ann Hellen
+    Brayley</strong> (1843&ndash;1900).
+  </p>
+  <p>
+    <span class="chip">Tree only</span> <strong>That she was the ninth of TEN is not documented, and
+    this page used to say it was.</strong> The count comes from a MyHeritage tree that names nine
+    children and asserts ten &mdash; the same tree <a href={u("/family-papers/")}>this archive says
+    it should never have used</a>. <strong>The baptism register holds seven</strong>, all at Northam
+    to these parents, and the two it is missing are the November 1870 twins, born at Bideford before
+    the family moved. <strong>That is nine, and the tenth has never been seen by anybody.</strong>
   </p>
   <div class="scroll">
     <table>
@@ -60,14 +121,29 @@ import dDevonTooling from "../data/devon-tooling.json";
     </table>
   </div>
   <p>
-    <em>Septima</em> is Latin for <strong>seventh</strong>, and Victorian parents used such names literally.
-    Count the daughters in order of birth &mdash; Kathleen, Isabella, Margaret, Irene, Irene's twin, Lucy
-    &mdash; and <strong>Mary Septima is the seventh</strong>.
+    <em>Septima</em> is Latin for <strong>seventh</strong>, and Victorian parents used such names
+    literally. Count the daughters the records actually name &mdash; Kathleen, Isabella, Margaret,
+    Irene, Lucy &mdash; and <strong>Mary Septima is the sixth</strong>. <strong>The arithmetic needs
+    one more girl born before September 1884, and the archive has never produced her.</strong>
   </p>
   <p>
-    <span class="chip">Inferred</span> Which incidentally settles something the tree leaves blank: the
-    unnamed twin of 1879 must have been a <strong>girl</strong>, or the arithmetic does not come out. The
-    name her parents gave her ninth child records a sister whose own name has been lost.
+    <span class="chip">Tree only</span> <strong>Two candidates have been offered for that place and
+    neither survives contact with a register.</strong> This page used to fill it with <em>an unnamed
+    twin of Irene, 1879</em>, inferred to be a girl because otherwise the sum fails &mdash; she comes
+    from the same tree and no record names her, and <strong>the baptism register enters Irene alone
+    in 1879</strong>. The birth index offered <strong>Taylor, Edith, Bideford, September quarter
+    1882</strong>, graded a strong candidate for three weeks &mdash; and <strong>she is not in the
+    baptism register either</strong>, where every sibling on both sides of her is.
+    <a href="#s-baptisms">The baptisms &uarr;</a>
+  </p>
+  <p>
+    <span class="chip">Inferred</span> <strong>What the name is still evidence of.</strong> Parents
+    who call a daughter <em>Septima</em> are counting, and this family demonstrably named by rule
+    &mdash; Temple and Walker, their Scottish great-grandmothers' surnames, were put on three birth
+    registrations as forenames. <strong>So the likeliest reading remains a seventh daughter this
+    archive cannot see</strong>, and the likeliest reason it cannot see her is that she was born and
+    died between two censuses, which leaves a birth registration, no baptism and no household entry.
+    <strong>The GRO death index for Bideford, 1870&ndash;1884, is the test nobody has run.</strong>
   </p>
   <p class="cap">
     Her granddaughter's generation kept it: an infant <strong>Antoinette Septima Lynette Lerena</strong> was
@@ -92,6 +168,7 @@ import dDevonTooling from "../data/devon-tooling.json";
   <div class="prose" style="margin-top:14px">
     <ol class="cols2">
       <li><a href="#s-the-chart">The Taylor chart</a></li>
+      <li><a href="#s-baptisms">The baptism register, Northam &mdash; and her own baptism</a></li>
       <li><a href="#s-the-name-is-a-count">The name is a count</a></li>
       <li><a href="#s-the-line-behind-her">The line behind her</a></li>
       <li><a href="#s-northam-and-bideford-north-devon">Northam and Bideford, north Devon</a></li>
