@@ -6,6 +6,7 @@
    work list for a fortnight as things to go and find. */
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
+import { emph } from "../lib/text.js";
 import marriage from "../data/marriage-1911.json";
 import notices from "../data/death-notices-read.json";
 import passport from "../data/pablo-armando-passport.json";
@@ -21,6 +22,8 @@ import bmd from "../data/brayley-bmd.json";
 import c1891 from "../data/1891-northam-census.json";
 import c1851 from "../data/1851-bideford-brayley.json";
 import c1861 from "../data/1861-bideford-brailey.json";
+import marist from "../data/marist-testimonials-1936.json";
+import tgp from "../data/taylor-group-photograph.json";
 const M = Object.fromEntries(marriage.map((r) => [r.field, r]));
 const N = Object.fromEntries(notices.map((r) => [r.field, r]));
 const D = Object.fromEntries(dn.map((r) => [r.field, r]));
@@ -792,6 +795,71 @@ const DOCS = [
       states no relationship to anybody in this family.</p>
   </div>
 
+</section>
+
+<section class="blk">
+  <h2>10. A schoolboy&rsquo;s three good terms, Rondebosch 1936</h2>
+  <p class="dek">Supplied 8 October 2026. The first evidence of any Lerena&rsquo;s schooling.</p>
+  <div class="prose">
+    <p>Three printed certificates from <strong>Marist Brothers, St Joseph&rsquo;s College, Belmont
+      Park, Rondebosch</strong> &mdash; <em>Testimonial of Application and Diligence</em> &mdash; each
+      made out to <strong>Master N. Lerena</strong> and signed by the Principal, <strong>Bro.
+      Vital</strong>.</p>
+    <p><strong>N. Lerena is Nuno Fernando</strong>, born <strong>6 October 1924</strong> and so eleven
+      turning twelve across these three terms. He is the only N. Lerena of school age in this family,
+      and he is David Defranceski&rsquo;s grandfather.</p>
+  </div>
+  <table class="tbl" style="margin-top:18px">
+    <thead><tr><th>Dated</th><th>Good marks</th><th>Opponent&rsquo;s</th><th>Highest in form</th></tr></thead>
+    <tbody>
+      {marist.filter((r) => r.date).map((r) => (
+        <tr><td>{r.date}</td><td><strong>{r.good_marks}</strong></td><td>{r.opponents_marks}</td><td>{r.highest_marks}</td></tr>
+      ))}
+    </tbody>
+  </table>
+  <div class="prose" style="margin-top:18px">
+    <p><strong>The &ldquo;opponent&rsquo;s marks&rdquo; column is the point of the thing.</strong> The
+      Marist Brothers ran their classrooms on <em>emulation</em>: each boy was paired against another
+      and the two totals were printed side by side, so a testimonial records not what he knew but
+      whom he beat. He beat his by 30, then 43, then <strong>seven</strong>.</p>
+    <p><strong>And it puts the family somewhere, in a year the archive had nothing for.</strong>
+      <strong>Mary Septima died in November 1935</strong>, at Observatory. These are dated June,
+      October and November <strong>1936</strong> &mdash; the twelve months after his mother&rsquo;s
+      death, with the boy at a Catholic school at Rondebosch. <strong>It also corroborates the
+      religion from a direction the archive had not used:</strong> the Corpus Christi baptisms, the
+      Roman Catholic allotment in grave 7719, and now a Marist schoolroom.
+      <a href={u("/south-africa/")}>The grave &rarr;</a></p>
+    <p class="cap"><strong>The figures are read from a photocopy</strong> and the notes in the data
+      say which digits are least certain. The certificates themselves are not reproduced here yet
+      &mdash; the facts are, which is how this archive has always worked.</p>
+  </div>
+</section>
+
+<section class="blk">
+  <h2>11. The Taylor family group &mdash; and the first face</h2>
+  <p class="dek">Supplied 8 October 2026, with David&rsquo;s own identification.</p>
+  <div class="prose">
+    <p><strong>A studio photograph of twelve people and an infant</strong>, with a small dog asleep on
+      a cushion at the front. David identifies it as <strong>Mary Septima with her father, her mother
+      and her siblings</strong>, and names her as the small girl at the <strong>lower right</strong>,
+      against the knee of the seated man with full side-whiskers.</p>
+    <p><strong>This is the only identified likeness of Mary Septima Taylor in this archive</strong>
+      &mdash; of anyone in this family before the Cape, in fact. <strong>Nobody else in the group is
+      named</strong>, and this archive will not guess which sibling is which from a face.</p>
+  </div>
+  <dl class="kv" style="margin-top:18px">
+    {tgp.filter((r) => r.field).map((r) => (
+      <div><dt>{r.field}</dt><dd><strong set:html={emph(r.as_seen)} /><br /><span class="cap" set:html={emph(r.note)} /></dd></div>
+    ))}
+  </dl>
+  <div class="prose" style="margin-top:18px">
+    <p><strong>The one thing the picture argues on its own is her name.</strong>
+      <em>Septima</em> means <strong>seventh</strong>, and this archive has carried it as a curiosity
+      since the beginning. At least eight daughters and two sons are in the frame. That is the
+      ordinary explanation, and it is the first time the name has had a picture behind it &mdash;
+      though a studio group is who turned up, not who was born.
+      <a href={u("/taylor/")}>The Taylors &rarr;</a></p>
+  </div>
 </section>
 
 <section class="blk">
