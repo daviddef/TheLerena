@@ -9,6 +9,8 @@ import taylorLine from "../data/taylor-line.json";
 import baps from "../data/taylor-baptisms-northam.json";
 import gro from "../data/gro-taylor-brayley-births.json";
 import groB from "../data/gro-brailey-temple-births.json";
+import Descent from "@daviddef/archive-kit/components/Descent.astro";
+import descent from "../data/taylor-descent.json";
 import "@daviddef/archive-kit/styles/persontree.css";
 /* GENERATED FROM data/taylor-line.tsv, not typed here. Until 14 September 2026 this was a
    hardcoded array duplicating that file - and when the TSV gained five husbands' names, the
@@ -25,6 +27,46 @@ const dates = (r) => [r.born, r.died].filter(Boolean).join(" \u2013 ").replace(/
 const short = (r) => r.person.replace(/\s*Taylor\s*$/i, "").trim() || r.person;
 const tier = (g) => taylorLine.filter((r) => r.gen === g);
 const gen = (r) => r.gen === "C";
+/* THE DESCENT ROWS. The TSV writes a person as name~slug~dates~line~note and
+   separates people with a pipe, because a TSV cannot nest. This unpacks it —
+   the shaping lives here, the facts live in data/taylor-descent.tsv. */
+const person = (s) => {
+  const [name, slug, dates, line, note] = String(s).split("~");
+  if (!name || !name.trim()) return null;
+  return {
+    name: name.trim(),
+    /* Descent applies u() to every href itself - pass the raw path, or the
+       base lands twice. This archive has done that twice before. */
+    href: slug && slug !== "-" ? "/people/" + slug + "/" : null,
+    dates: (dates || "").trim(),
+    line: (line || "").trim().toUpperCase() === "LINE",
+    note: (note || "").trim().replace(/\*\*\*/g, ""),
+  };
+};
+const people_ = (s) => (!s || s === "-" ? [] : String(s).split("|").map(person).filter(Boolean));
+
+const descentRows = descent.filter((r) => r.name).map((r) => ({
+  gen: r.gen,
+  name: r.name,
+  href: r.slug && r.slug !== "-" ? "/people/" + r.slug + "/" : null,
+  born: r.born, died: r.died, trade: r.trade === "-" ? "" : r.trade,
+  spouse: r.spouse,
+  spouseHref: r.spouseSlug && r.spouseSlug !== "-" ? "/people/" + r.spouseSlug + "/" : null,
+  spouseBorn: r.spouseBorn,
+  married: r.married === "-" ? "" : r.married,
+  place: r.place === "-" ? "" : r.place,
+  children: people_(r.children),
+  hisSiblings: people_(r.hisSiblings),
+  herSiblings: people_(r.herSiblings),
+  hisLabel: r.hisLabel, herLabel: r.herLabel,
+  /* Descent prints these as text, not html - markers are stripped, not converted. */
+  hisNone: plain(r.hisNone === "-" ? "" : r.hisNone),
+  herNone: plain(r.herNone === "-" ? "" : r.herNone),
+  weak: !!(r.weak && r.weak.trim()),
+  weakNote: emph(r.weakNote || ''),
+  note: emph(r.note || ''),
+}));
+
 const kids = taylorLine.filter(gen).map((r) => {
   const who = r.person.replace(/\s*Taylor\s*$/i, "").trim();
   const bits = [];
@@ -39,8 +81,29 @@ import dBrayleyTwoQuestions from "../data/brayley-two-questions.json";
 import dDevonTooling from "../data/devon-tooling.json";
 ---
 <Base title="Mary Septima Taylor"
-      eyebrow="Bideford, Northam — and a name that is a count"
-      dek="She is buried in the Roman Catholic ground at Maitland under a Spanish surname she took at about twenty. Her own name is a piece of arithmetic, and it turns out to be exactly right.">
+      eyebrow="Bideford, Northam — and a name that does not add up"
+      dek="She is buried in the Roman Catholic ground at Maitland under a Spanish surname she took at about twenty. Her own name is a piece of arithmetic that does not come out: Septima means seventh and the registers make her the sixth daughter of nine children.">
+<section class="blk">
+  <h2 id="s-descent">The descent, drawn</h2>
+  <p class="dek">8 October 2026. Four generations, with the sisters in it.</p>
+  <div class="prose">
+    <p><strong>This archive&rsquo;s <a href={u("/tree/")}>tree</a> is an ancestor chart</strong>, so it
+      draws the direct line and nothing beside it. The eight brothers and sisters proved from the GRO
+      index had nowhere to be drawn at all. <strong>This is the other direction</strong> &mdash; the
+      descent, with the wife as a column rather than a suffix, the children spanning both parents
+      because they are both parents&rsquo;, and each one&rsquo;s brothers and sisters under the parent
+      they belong to.</p>
+  </div>
+  <Descent rows={descentRows} u={u} idPrefix="tdesc-" />
+  <div class="prose" style="margin-top:20px">
+    <p><strong>The shape carries the argument.</strong> Her side runs back four documented
+      generations &mdash; to a shoemaker who died in the Devon County Asylum and a Scotswoman born at
+      Haddington in 1814. <strong>His stops dead at his own parents</strong>, named on one 1908
+      enrolment card and on no register anywhere. <strong>Nobody has ever found a brother or sister
+      of Pablo Armando Lerena</strong>, and the empty column says so where a sentence would not.</p>
+  </div>
+</section>
+
 <section class="blk">
   <h2 id="s-baptisms">The baptism register, Northam &mdash; and her own baptism</h2>
   <p class="dek">8 October 2026. Seven children in one query, and the eighth is not there.</p>
@@ -203,6 +266,7 @@ import dDevonTooling from "../data/devon-tooling.json";
   <div class="prose" style="margin-top:14px">
     <ol class="cols2">
       <li><a href="#s-the-chart">The Taylor chart</a></li>
+      <li><a href="#s-descent">The descent, drawn</a></li>
       <li><a href="#s-baptisms">The baptism register, Northam &mdash; and her own baptism</a></li>
       <li><a href="#s-her-mother-unregistered">Her mother was never registered</a></li>
       <li><a href="#s-the-name-is-a-count">The name is a count</a></li>
