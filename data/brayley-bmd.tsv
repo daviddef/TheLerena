@@ -67,22 +67,34 @@ child, as the tree has them	the index entry	grade
 # noticed and guessed at is now documented, even though the woman behind it is not. ***
 #
 # *** AND THE COUNT ARGUMENT: WHO IS THE TENTH CHILD? ***
-# `gedcom-import.tsv` says *** TEN children *** and names nine. *** And "SEPTIMA" MEANS SEVENTH. ***
-# Count the daughters as the index has them: Kathleen Georgina (1), Isabella Temple (2), Margaret
-# Hellen Walker (3), Irene (4), Lucy Elizabeth (5) - *** which makes Mary Septima the SIXTH, and her
-# name wrong. *** *** There is a daughter missing, born between 1881 and 1884. ***
-# *** THE INDEX OFFERS EXACTLY ONE: "TAYLOR, Edith - Bideford - Sep quarter 1882 - 5b/506". ***
-# *** THE SECOND LEG OF THIS ARGUMENT WAS STRUCK ON 8 OCTOBER 2026. *** It read: 'this archive
-# already knew the name from a completely different direction - Mary Septima stayed with her sister
-# EDIE at 26 Fore Street, Northam, in 1935.' *** EDIE IS ISABELLA. *** taylor-line.tsv and
-# taylor-marriages.tsv both carry her as Isabella Temple 'Edie' Taylor, who married HENRY DALLING;
-# family-memory.tsv says 'her sister Edie DALLING'; the 1939 Register for 26 Fore Street lists
-# ISABELLA T DALLING, born Taylor, 10 September 1874. *** The argument was counting one woman twice. *** With Edith in sixth place, *** Mary
-# Septima is the seventh daughter and her name means what it says. ***
-# *** GRADED AS A STRONG CANDIDATE, NOT A FIND. *** "Edith" is a common name, Bideford held several
-# Taylor families, and *** the birth index does not give a mother's maiden name until September 1911 ***,
-# so parentage cannot be read off it. *** WHAT WOULD SETTLE IT COSTS NOTHING: the 1891 census at
-# Northam, which lists the household by name and age. ***
+# *** THIS WHOLE ARGUMENT IS DEAD, AND IT WAS KILLED ON 8-9 OCTOBER 2026. *** It is kept because the
+# reasoning was careful and wrong, which is worth more to the next person than a deletion.
+#
+# *** WHAT IT SAID. *** `gedcom-import.tsv` says TEN children and names nine; "SEPTIMA" MEANS
+# SEVENTH; counting the daughters as the index had them - Kathleen (1), Isabella (2), Margaret (3),
+# Irene (4), Lucy (5) - made Mary Septima the SIXTH and her name wrong; so a daughter was missing,
+# born between 1881 and 1884, and the index offered exactly one: "TAYLOR, Edith - Bideford - Sep
+# quarter 1882 - 5b/506". Graded A STRONG CANDIDATE. A second leg was added: that this archive
+# 'already knew the name from a completely different direction - Mary Septima stayed with her sister
+# EDIE at 26 Fore Street, Northam, in 1935.'
+#
+# *** HOW IT DIED, IN THREE BLOWS OVER TWO DAYS. ***
+#   1. *** EDIE IS ISABELLA. *** taylor-line.tsv and taylor-marriages.tsv both carry her as Isabella
+#      Temple 'Edie' Taylor, who married HENRY DALLING; family-memory.tsv says 'her sister Edie
+#      DALLING'; the 1939 Register for 26 Fore Street lists ISABELLA T DALLING, born Taylor, 10
+#      September 1874. *** The argument was counting one woman twice. ***
+#   2. *** NO EDITH IN THE BAPTISM REGISTER. *** Northam, St Margaret, holds seven children of these
+#      parents and nothing between Lucy's baptism on 31 August 1881 and Mary Septima's on 30 October
+#      1884 - the exact gap the candidate had to fill.
+#   3. *** AND THE GRO INDEX ENDED IT. *** Searched on the MOTHER'S maiden surname BRAYLEY across
+#      1870-1893 in both sexes: *** NINE children, not ten, and no tenth is missing. *** Neither
+#      Edith nor Ethel has Brayley as her mother.
+#
+# *** SO MARY SEPTIMA IS THE SIXTH DAUGHTER OF NINE CHILDREN, and the sentence this passage used to
+# end with - "Mary Septima is the seventh daughter and her name means what it says" - is false. ***
+# *** The name remains unexplained, which is a worse answer and a truer one. ***
+# *** AND THE CHEAP TEST THIS PASSAGE NAMED - "the 1891 census at Northam" - had ALREADY BEEN RUN
+# when it was written, on 16 September. *** See data/1891-northam-census.tsv and /corrections/.
 #
 # ============ FOURTH PASS, 17 September 2026: THE TAYLOR SIBLINGS' DEATHS ============
 # *** The unfinished half of row 126. The nine children were confirmed in the BIRTH index in September;
