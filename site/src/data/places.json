@@ -466,6 +466,17 @@
   "count": 4
  },
  {
+  "slug": "johannesburg",
+  "name": "Johannesburg",
+  "people": [
+   "pierre-frederick-lerena",
+   "gayle-lerena",
+   "richard-lerena",
+   "jeffrey-lerena"
+  ],
+  "count": 4
+ },
+ {
   "slug": "south-africa",
   "name": "South Africa",
   "people": [

@@ -2749,5 +2749,33 @@
   "last_attested_alive": "1850-07-01",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Pierre Frederick LERENA",
+  "born_est": "1948-05-10",
+  "last_attested_alive": "1999-Nov-12",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
+ },
+ {
+  "name": "Gayle LERENA (born PRESTON)",
+  "born_est": "1950",
+  "last_attested_alive": "1950",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Richard LERENA",
+  "born_est": "1986-01-02",
+  "last_attested_alive": "1999-Nov-12",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
+ },
+ {
+  "name": "Jeffrey LERENA",
+  "born_est": "1991-01-02",
+  "last_attested_alive": "1991-01-02",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]

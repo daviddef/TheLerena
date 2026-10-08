@@ -36,6 +36,10 @@ FILES = {
     "gro-brailey-temple-births.tsv": "child",
     "taylor-baptisms-northam.tsv": "child",
     "roque-infants-civil-deaths.tsv": "child",
+    # Added 9 October 2026, after the same gap was found a second time: four people who
+    # died on one day in 1999, researched and published on /south-africa/ since September,
+    # and not one of them a person. The gate grows by being made to.
+    "johannesburg-cemetery-1999.tsv": "person",
 }
 
 # Cells in those columns that are headings or summary lines, not people. Each is listed
@@ -43,9 +47,23 @@ FILES = {
 NOT_PEOPLE = {
     "and the two who are not there",
     "the unnamed infant, 1932",
+    # Summary lines in the Johannesburg file - they state a finding about the register
+    # itself rather than naming anybody.
+    "the four arks are consecutive",
+    "two confirmations that cost nothing",
+    "a trap in this collection, and it would have cost a century",
+    # *** NOT A DODGE, AND THE REASON MATTERS. *** This cell reports a search that FAILED -
+    # "swept under her own surname at last, and not found". Catherine Tertia Karon is a real
+    # person, a daughter named in the 1971 death notice, but her 1999 death rests on one
+    # commercial index row that the free cemetery register could not confirm. A register row
+    # would have to carry either a death this archive cannot stand behind or a living person's
+    # dates, and the living rule forbids the second. She stays out until the death is sourced.
+    "catherine tertia karon - swept under her own surname at last, and not found",
 }
 
-STOP = {"the", "de", "la", "of", "mr", "mrs", "b", "d", "c", "jr", "snr", "unnamed", "infant"}
+STOP = {"the", "de", "la", "of", "mr", "mrs", "b", "d", "c", "jr", "snr", "unnamed", "infant",
+        # "born" and "nee" join a maiden name to a married one; they are grammar, not name.
+        "born", "nee", "née"}
 
 
 def words(s, keep_parens=False):

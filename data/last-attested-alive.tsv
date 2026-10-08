@@ -4,7 +4,7 @@
 # can diverge without anyone noticing.
 name	born_est	last_attested_alive	basis	tier
 Pablo Armando LERENA (Robert Paul; "Bob")	1882-02-22	1950-Mar-19	explicit death date on this person's row, chosen from 2 different death years in the prose because it agrees with the 1950 record - the others are other people's	DEATH
-Mary Septima TAYLOR	1884-09-17	1935-Nov-15	explicit death date on this person's row	DEATH
+Mary Septima TAYLOR (LERENA by marriage)	1884-09-17	1935-Nov-15	explicit death date on this person's row	DEATH
 Roque Luis Armando LERENA	1905-11-25	by 1973	an estate or death-notice file numbered /73 dated 1973 - a CEILING, not a date: the file year can trail the death by years	DEATH BY
 Ricardo Juan Carlos LERENA	1920-01-06	1920-01-06	born_est only - a floor, not an attestation	BIRTH ONLY
 Nuno Fernando LERENA	1924-10-06	by 1971	an estate or death-notice file numbered /71 dated 1971 - a CEILING, not a date: the file year can trail the death by years	DEATH BY
@@ -396,3 +396,7 @@ Georgina TEMPLE	1814-08-23	1814-08-23	born_est only - a floor, not an attestatio
 Isabella BRAILEY	1841-01-01	1841-01-01	born_est only - a floor, not an attestation	BIRTH ONLY
 John Walker BRAILEY	1845-06-22	1900	explicit death date on this person's row	DEATH
 Georgina Margaret BRAILEY	1850-07-01	1850-07-01	born_est only - a floor, not an attestation	BIRTH ONLY
+Pierre Frederick LERENA	1948-05-10	1999-Nov-12	explicit death date on this person's row	DEATH
+Gayle LERENA (born PRESTON)	1950	1950	born_est only - a floor, not an attestation	BIRTH ONLY
+Richard LERENA	1986-01-02	1999-Nov-12	explicit death date on this person's row	DEATH
+Jeffrey LERENA	1991-01-02	1991-01-02	born_est only - a floor, not an attestation	BIRTH ONLY
