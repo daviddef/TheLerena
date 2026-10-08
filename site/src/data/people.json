@@ -96,18 +96,18 @@
   "noLink": "GRO index — no public per-record link",
   "gen": 1,
   "father": {
-   "name": "William Taylor",
-   "dates": "1826–",
-   "slug": "",
-   "via": "tree",
-   "note": "Coachman, b. Worlingworth, Suffolk"
+   "name": "William TAYLOR",
+   "dates": "1826–1902",
+   "slug": "william-taylor",
+   "via": "register",
+   "note": "1891 census, Northam: Head, 65, cab driver and retired army sergeant, b. Worlingworth, Suffolk"
   },
   "mother": {
-   "name": "Mary Ann Hellen Brayley",
-   "dates": "",
-   "slug": "",
+   "name": "Mary Ann Hellen BRAYLEY",
+   "dates": "1843–1900",
+   "slug": "mary-ann-hellen-brayley",
    "via": "register",
-   "note": "Baptism 30 Oct 1884, Northam, ref 1843A/PR/1/16"
+   "note": "Northam baptism 30 Oct 1884 names the mother; GRO index confirms every sibling via her maiden name"
   },
   "spouses": [
    {
@@ -141,14 +141,63 @@
     "note": "From the family chart and the FamilySearch tree"
    }
   ],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Agnes Walker TAYLOR (\"Aggie\"; m. WOOD)",
+    "dates": "",
+    "slug": "agnes-walker-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Horace Archibald TAYLOR",
+    "dates": "",
+    "slug": "horace-archibald-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Irene TAYLOR (\"Rene\"; m. BURTON)",
+    "dates": "",
+    "slug": "irene-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Isabella Temple TAYLOR (\"Edie\"; m. DALLING)",
+    "dates": "",
+    "slug": "isabella-temple-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Kathleen Georgina TAYLOR",
+    "dates": "",
+    "slug": "kathleen-georgina-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Lucy Elizabeth TAYLOR (m. SWEET)",
+    "dates": "",
+    "slug": "lucy-elizabeth-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Margaret Hellen Walker TAYLOR (\"Maggie\"; Helen in the baptism register; m. BELL)",
+    "dates": "",
+    "slug": "margaret-hellen-walker-taylor",
+    "via": "register"
+   },
+   {
+    "name": "William John TAYLOR",
+    "dates": "",
+    "slug": "william-john-taylor",
+    "via": "register"
+   }
+  ],
   "isLine": true,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
   "relTotal": 6,
-  "relRegister": 3,
-  "relTree": 3,
+  "relRegister": 4,
+  "relTree": 2,
   "evidence": [
    {
     "says": "*** HER BIRTH REGISTRATION, FOUND. *** Births, December quarter 1884, *** BIDEFORD, volume 5b page 506 *** - a birth on 17 September registered within the six weeks the law allowed falls in the December quarter. *** The woman who married Pablo Armando at St Dominic's, Wynberg, on 3 September 1911 now has her own birth on an index. ***",
@@ -19166,6 +19215,1330 @@
   "godchildren": [],
   "relTotal": 0,
   "relRegister": 0,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "william-taylor",
+  "name": "William TAYLOR",
+  "born": "1826-02-11",
+  "died": "",
+  "birthplace": "Worlingworth, Suffolk",
+  "nationality": "British",
+  "occupation": "Cab driver; retired army sergeant",
+  "where": "Northam, Devon",
+  "source": "1891 census, Northam piece 1787 ED 4 folio 42 page 1 schedule 2; FreeBMD deaths Dec q 1902, Bideford, 5b/326",
+  "status": "connected",
+  "statusRaw": "CONNECTED",
+  "note": "*** MARY SEPTIMA'S FATHER, and until 8 October 2026 he was not a person in this archive at all *** - he lived in data/taylor-line.tsv and on /taylor/ and had no page, no place on the tree and no line in the bloodline. *** The 1891 census gives him as Head, 65, 'Cab Driver / ret'd Army Srgt', born Worlingworth, Suffolk ***, which confirms the tree's 11 February 1826 exactly. *** NINE CHILDREN BY MARY ANN HELLEN BRAYLEY ***, every one of them now on a GRO reference - see data/gro-taylor-brayley-births.tsv.",
+  "place": "Northam, Devon",
+  "placeSlug": "northam-devon",
+  "surname": "TAYLOR",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [
+   {
+    "name": "Mary Ann Hellen BRAYLEY",
+    "dates": "1843–1900",
+    "slug": "mary-ann-hellen-brayley",
+    "via": "register",
+    "note": "m. Mar quarter 1870, Bideford, 5b/794"
+   }
+  ],
+  "children": [
+   {
+    "name": "Kathleen Georgina TAYLOR",
+    "dates": "1870–1940",
+    "slug": "kathleen-georgina-taylor",
+    "via": "register",
+    "note": "GRO birth index via mother's maiden surname, read 8 Oct 2026; and the Northam baptism register"
+   },
+   {
+    "name": "William John TAYLOR",
+    "dates": "1870–1951",
+    "slug": "william-john-taylor",
+    "via": "register",
+    "note": "GRO birth index via mother's maiden surname, read 8 Oct 2026; and the Northam baptism register"
+   },
+   {
+    "name": "Horace Archibald TAYLOR",
+    "dates": "1872–1934",
+    "slug": "horace-archibald-taylor",
+    "via": "register",
+    "note": "GRO birth index via mother's maiden surname, read 8 Oct 2026; and the Northam baptism register"
+   },
+   {
+    "name": "Isabella Temple TAYLOR (\"Edie\"; m. DALLING)",
+    "dates": "1874–1953",
+    "slug": "isabella-temple-taylor",
+    "via": "register",
+    "note": "GRO birth index via mother's maiden surname, read 8 Oct 2026; and the Northam baptism register"
+   },
+   {
+    "name": "Margaret Hellen Walker TAYLOR (\"Maggie\"; Helen in the baptism register; m. BELL)",
+    "dates": "1876–",
+    "slug": "margaret-hellen-walker-taylor",
+    "via": "register",
+    "note": "GRO birth index via mother's maiden surname, read 8 Oct 2026; and the Northam baptism register"
+   },
+   {
+    "name": "Irene TAYLOR (\"Rene\"; m. BURTON)",
+    "dates": "1879–1969",
+    "slug": "irene-taylor",
+    "via": "register",
+    "note": "GRO birth index via mother's maiden surname, read 8 Oct 2026; and the Northam baptism register"
+   },
+   {
+    "name": "Lucy Elizabeth TAYLOR (m. SWEET)",
+    "dates": "1881–1957",
+    "slug": "lucy-elizabeth-taylor",
+    "via": "register",
+    "note": "GRO birth index via mother's maiden surname, read 8 Oct 2026; and the Northam baptism register"
+   },
+   {
+    "name": "Mary Septima TAYLOR",
+    "dates": "1884–1935",
+    "slug": "mary-septima-taylor",
+    "via": "register",
+    "note": "GRO birth index via mother's maiden surname, read 8 Oct 2026; and the Northam baptism register"
+   },
+   {
+    "name": "Agnes Walker TAYLOR (\"Aggie\"; m. WOOD)",
+    "dates": "1889–1974",
+    "slug": "agnes-walker-taylor",
+    "via": "register",
+    "note": "GRO birth index via mother's maiden surname, read 8 Oct 2026; and the Northam baptism register"
+   }
+  ],
+  "siblings": [],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 10,
+  "relRegister": 10,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "mary-ann-hellen-brayley",
+  "name": "Mary Ann Hellen BRAYLEY",
+  "born": "1843-05-20",
+  "died": "1900-Apr-21",
+  "birthplace": "St Bartholomew's, City of London",
+  "nationality": "British",
+  "occupation": "-",
+  "where": "Northam, Devon",
+  "source": "1891 census, Northam; FreeBMD deaths Jun q 1900, Bideford, 5b/363, age 56; GRO birth index - NOT REGISTERED",
+  "status": "connected",
+  "statusRaw": "CONNECTED",
+  "note": "*** MARY SEPTIMA'S MOTHER. *** Born 20 May 1843 at St Bartholomew's, City of London; died 21 April 1900 at Home Sweet Terrace, Northam, and indexed at age 56, which fits the birth date exactly. *** SHE HAS NO BIRTH REGISTRATION, AND ON 8 OCTOBER 2026 THAT WAS SETTLED RATHER THAN DEEPENED. *** FreeBMD holds no Mary Brayley or Brailey in the June quarter of 1843 anywhere in England and Wales; the GRO's own index, searched on HER mother's maiden surname TEMPLE across 1838-1852, returns only two children of her parents and she is not among them. *** Registration was not compulsory on parents until 1875 and this household is 'Shoemaker Wife Pauper' - she was almost certainly never registered. ***",
+  "place": "Northam, Devon",
+  "placeSlug": "northam-devon",
+  "surname": "BRAYLEY",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "GRO index — no public per-record link",
+  "gen": null,
+  "father": {
+   "name": "John BRAILEY",
+   "dates": "1814–1851",
+   "slug": "john-brailey",
+   "via": "register",
+   "note": "m. Georgina Temple 9 July 1839, St Martin-in-the-Fields"
+  },
+  "mother": {
+   "name": "Georgina TEMPLE",
+   "dates": "1814–1900",
+   "slug": "georgina-temple",
+   "via": "register",
+   "note": "Haddington, East Lothian; alone in the Alms House at Northam in 1891"
+  },
+  "spouses": [],
+  "children": [
+   {
+    "name": "Kathleen Georgina TAYLOR",
+    "dates": "1870–1940",
+    "slug": "kathleen-georgina-taylor",
+    "via": "register",
+    "note": "GRO birth index via mother's maiden surname, read 8 Oct 2026"
+   },
+   {
+    "name": "William John TAYLOR",
+    "dates": "1870–1951",
+    "slug": "william-john-taylor",
+    "via": "register",
+    "note": "GRO birth index via mother's maiden surname, read 8 Oct 2026"
+   },
+   {
+    "name": "Horace Archibald TAYLOR",
+    "dates": "1872–1934",
+    "slug": "horace-archibald-taylor",
+    "via": "register",
+    "note": "GRO birth index via mother's maiden surname, read 8 Oct 2026"
+   },
+   {
+    "name": "Isabella Temple TAYLOR (\"Edie\"; m. DALLING)",
+    "dates": "1874–1953",
+    "slug": "isabella-temple-taylor",
+    "via": "register",
+    "note": "GRO birth index via mother's maiden surname, read 8 Oct 2026"
+   },
+   {
+    "name": "Margaret Hellen Walker TAYLOR (\"Maggie\"; Helen in the baptism register; m. BELL)",
+    "dates": "1876–",
+    "slug": "margaret-hellen-walker-taylor",
+    "via": "register",
+    "note": "GRO birth index via mother's maiden surname, read 8 Oct 2026"
+   },
+   {
+    "name": "Irene TAYLOR (\"Rene\"; m. BURTON)",
+    "dates": "1879–1969",
+    "slug": "irene-taylor",
+    "via": "register",
+    "note": "GRO birth index via mother's maiden surname, read 8 Oct 2026"
+   },
+   {
+    "name": "Lucy Elizabeth TAYLOR (m. SWEET)",
+    "dates": "1881–1957",
+    "slug": "lucy-elizabeth-taylor",
+    "via": "register",
+    "note": "GRO birth index via mother's maiden surname, read 8 Oct 2026"
+   },
+   {
+    "name": "Mary Septima TAYLOR",
+    "dates": "1884–1935",
+    "slug": "mary-septima-taylor",
+    "via": "register",
+    "note": "GRO birth index via mother's maiden surname, read 8 Oct 2026"
+   },
+   {
+    "name": "Agnes Walker TAYLOR (\"Aggie\"; m. WOOD)",
+    "dates": "1889–1974",
+    "slug": "agnes-walker-taylor",
+    "via": "register",
+    "note": "GRO birth index via mother's maiden surname, read 8 Oct 2026"
+   }
+  ],
+  "siblings": [
+   {
+    "name": "Georgina Margaret BRAILEY",
+    "dates": "",
+    "slug": "georgina-margaret-brailey",
+    "via": "register"
+   },
+   {
+    "name": "Isabella BRAILEY",
+    "dates": "",
+    "slug": "isabella-brailey",
+    "via": "register"
+   },
+   {
+    "name": "John Walker BRAILEY",
+    "dates": "",
+    "slug": "john-walker-brailey",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 11,
+  "relRegister": 11,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "kathleen-georgina-taylor",
+  "name": "Kathleen Georgina TAYLOR",
+  "born": "1870-11-04",
+  "died": "1940-Feb-29",
+  "birthplace": "Bideford, Devon",
+  "nationality": "British",
+  "occupation": "Mother's help; later recorded 'home invalid' and 'incapacitated'",
+  "where": "Northam, Devon",
+  "source": "GRO birth index (gro.gov.uk), mother's maiden surname BRAYLEY - read 8 October 2026 - 1870 Dec quarter, BIDEFORD, volume 05B page 490; Northam St Margaret baptism register, Devon Baptisms (South West Heritage Trust 1843A/PR/1/16)",
+  "status": "connected",
+  "statusRaw": "CONNECTED",
+  "note": "*** THE ELDEST, AND A TWIN. *** Her registration is page 490 and her brother William John's is 489 - consecutive entries in one quarter, which is the twinning on the record rather than in a tree. *** SHE NEVER LEFT HER SISTER'S HOUSE: *** single at 41 in 1911, 'home invalid' at 50 in 1921, 'incapacitated' at 68 in the 1939 Register, all at 26 Fore Street, Northam, in Isabella's household. Died 29 February 1940.",
+  "place": "Northam, Devon",
+  "placeSlug": "northam-devon",
+  "surname": "TAYLOR",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "GRO index — no public per-record link",
+  "gen": null,
+  "father": {
+   "name": "William TAYLOR",
+   "dates": "1826–1902",
+   "slug": "william-taylor",
+   "via": "register",
+   "note": "GRO birth index, mother's maiden surname BRAYLEY, read 8 Oct 2026"
+  },
+  "mother": {
+   "name": "Mary Ann Hellen BRAYLEY",
+   "dates": "1843–1900",
+   "slug": "mary-ann-hellen-brayley",
+   "via": "register",
+   "note": "GRO birth index, mother's maiden surname BRAYLEY, read 8 Oct 2026"
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Agnes Walker TAYLOR (\"Aggie\"; m. WOOD)",
+    "dates": "",
+    "slug": "agnes-walker-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Horace Archibald TAYLOR",
+    "dates": "",
+    "slug": "horace-archibald-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Irene TAYLOR (\"Rene\"; m. BURTON)",
+    "dates": "",
+    "slug": "irene-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Isabella Temple TAYLOR (\"Edie\"; m. DALLING)",
+    "dates": "",
+    "slug": "isabella-temple-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Lucy Elizabeth TAYLOR (m. SWEET)",
+    "dates": "",
+    "slug": "lucy-elizabeth-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Margaret Hellen Walker TAYLOR (\"Maggie\"; Helen in the baptism register; m. BELL)",
+    "dates": "",
+    "slug": "margaret-hellen-walker-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Mary Septima TAYLOR",
+    "dates": "",
+    "slug": "mary-septima-taylor",
+    "via": "register"
+   },
+   {
+    "name": "William John TAYLOR",
+    "dates": "",
+    "slug": "william-john-taylor",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "william-john-taylor",
+  "name": "William John TAYLOR",
+  "born": "1870-11",
+  "died": "1951-May-11",
+  "birthplace": "Bideford, Devon",
+  "nationality": "British",
+  "occupation": "Cab driver",
+  "where": "Northam, Devon",
+  "source": "GRO birth index (gro.gov.uk), mother's maiden surname BRAYLEY - read 8 October 2026 - 1870 Dec quarter, BIDEFORD, volume 05B page 489; Northam St Margaret baptism register, Devon Baptisms (South West Heritage Trust 1843A/PR/1/16)",
+  "status": "connected",
+  "statusRaw": "CONNECTED",
+  "note": "*** THE TWIN OF KATHLEEN GEORGINA ***, proved by consecutive index pages, 489 and 490 in one quarter. A cab driver at 20 in 1891, like his father. Died 11 May 1951 at Totnes, aged 80. *** HE WAS NEARLY LOST TO AN INITIAL: *** the GRO death index carries him as 'William J' and a full-name search returned nothing. *** AND HIS DAY OF BIRTH IS NOT KNOWN, which this row briefly pretended otherwise. *** It was first entered here as 1 November 1870 - a day no source gives. The sources say *** 'Nov 1870' *** and nothing finer: the GRO index gives a quarter, the 1939 Register gives his sister's exact date and not his. *** THE INVENTED DAY WAS CAUGHT BY tools/consistency.py ***, which reported him and Kathleen as two children of one father nought months apart and said both could not be right. It was right to: *** the archive had manufactured a three-day gap between twins out of nothing. *** The precision is withdrawn rather than the twinning denied.",
+  "place": "Northam, Devon",
+  "placeSlug": "northam-devon",
+  "surname": "TAYLOR",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "GRO index — no public per-record link",
+  "gen": null,
+  "father": {
+   "name": "William TAYLOR",
+   "dates": "1826–1902",
+   "slug": "william-taylor",
+   "via": "register",
+   "note": "GRO birth index, mother's maiden surname BRAYLEY, read 8 Oct 2026"
+  },
+  "mother": {
+   "name": "Mary Ann Hellen BRAYLEY",
+   "dates": "1843–1900",
+   "slug": "mary-ann-hellen-brayley",
+   "via": "register",
+   "note": "GRO birth index, mother's maiden surname BRAYLEY, read 8 Oct 2026"
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Agnes Walker TAYLOR (\"Aggie\"; m. WOOD)",
+    "dates": "",
+    "slug": "agnes-walker-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Horace Archibald TAYLOR",
+    "dates": "",
+    "slug": "horace-archibald-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Irene TAYLOR (\"Rene\"; m. BURTON)",
+    "dates": "",
+    "slug": "irene-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Isabella Temple TAYLOR (\"Edie\"; m. DALLING)",
+    "dates": "",
+    "slug": "isabella-temple-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Kathleen Georgina TAYLOR",
+    "dates": "",
+    "slug": "kathleen-georgina-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Lucy Elizabeth TAYLOR (m. SWEET)",
+    "dates": "",
+    "slug": "lucy-elizabeth-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Margaret Hellen Walker TAYLOR (\"Maggie\"; Helen in the baptism register; m. BELL)",
+    "dates": "",
+    "slug": "margaret-hellen-walker-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Mary Septima TAYLOR",
+    "dates": "",
+    "slug": "mary-septima-taylor",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "horace-archibald-taylor",
+  "name": "Horace Archibald TAYLOR",
+  "born": "1872-04-01",
+  "died": "1934-Jan-18",
+  "birthplace": "Bideford, Devon",
+  "nationality": "British",
+  "occupation": "Domestic servant - footman",
+  "where": "Northam, Devon",
+  "source": "GRO birth index (gro.gov.uk), mother's maiden surname BRAYLEY - read 8 October 2026 - 1872 Jun quarter, BIDEFORD, volume 05B page 507; Northam St Margaret baptism register, Devon Baptisms (South West Heritage Trust 1843A/PR/1/16)",
+  "status": "connected",
+  "statusRaw": "CONNECTED",
+  "note": "*** BAPTISED TWO YEARS LATE, AT NORTHAM IN 1874 ***, though born at 23 Geneva Place, Bideford - which is how the baptism series dates the family's move. A footman at nineteen in 1891, while his father drove a cab. Died 18 January 1934 at Birmingham, aged 61. *** ALSO NEARLY LOST TO AN INITIAL *** - indexed 'Horace A'.",
+  "place": "Northam, Devon",
+  "placeSlug": "northam-devon",
+  "surname": "TAYLOR",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "GRO index — no public per-record link",
+  "gen": null,
+  "father": {
+   "name": "William TAYLOR",
+   "dates": "1826–1902",
+   "slug": "william-taylor",
+   "via": "register",
+   "note": "GRO birth index, mother's maiden surname BRAYLEY, read 8 Oct 2026"
+  },
+  "mother": {
+   "name": "Mary Ann Hellen BRAYLEY",
+   "dates": "1843–1900",
+   "slug": "mary-ann-hellen-brayley",
+   "via": "register",
+   "note": "GRO birth index, mother's maiden surname BRAYLEY, read 8 Oct 2026"
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Agnes Walker TAYLOR (\"Aggie\"; m. WOOD)",
+    "dates": "",
+    "slug": "agnes-walker-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Irene TAYLOR (\"Rene\"; m. BURTON)",
+    "dates": "",
+    "slug": "irene-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Isabella Temple TAYLOR (\"Edie\"; m. DALLING)",
+    "dates": "",
+    "slug": "isabella-temple-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Kathleen Georgina TAYLOR",
+    "dates": "",
+    "slug": "kathleen-georgina-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Lucy Elizabeth TAYLOR (m. SWEET)",
+    "dates": "",
+    "slug": "lucy-elizabeth-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Margaret Hellen Walker TAYLOR (\"Maggie\"; Helen in the baptism register; m. BELL)",
+    "dates": "",
+    "slug": "margaret-hellen-walker-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Mary Septima TAYLOR",
+    "dates": "",
+    "slug": "mary-septima-taylor",
+    "via": "register"
+   },
+   {
+    "name": "William John TAYLOR",
+    "dates": "",
+    "slug": "william-john-taylor",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "isabella-temple-taylor",
+  "name": "Isabella Temple TAYLOR (\"Edie\"; m. DALLING)",
+  "born": "1874-09-10",
+  "died": "1953-Dec",
+  "birthplace": "Bideford, Devon",
+  "nationality": "British",
+  "occupation": "-",
+  "where": "Northam, Devon",
+  "source": "GRO birth index (gro.gov.uk), mother's maiden surname BRAYLEY - read 8 October 2026 - 1874 Dec quarter, BIDEFORD, volume 05B page 497; Northam St Margaret baptism register, Devon Baptisms (South West Heritage Trust 1843A/PR/1/16)",
+  "status": "connected",
+  "statusRaw": "CONNECTED",
+  "note": "*** SHE IS THE 'EDIE' MARY SEPTIMA STAYED WITH IN 1935, and establishing that on 8 October 2026 killed a three-week-old hypothesis. *** The archive had been treating 'her sister Edie' as evidence of a missing sister named EDITH, while four other files identified Edie as this woman - who married *** HENRY DALLING *** at Northam on 10 September 1900 and kept house at *** 26 FORE STREET, NORTHAM ***, where the 1939 Register lists her by her exact birth date. *** Her middle name TEMPLE is her Scottish great-grandmother's surname. *** Died December 1953.",
+  "place": "Northam, Devon",
+  "placeSlug": "northam-devon",
+  "surname": "TAYLOR",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "GRO index — no public per-record link",
+  "gen": null,
+  "father": {
+   "name": "William TAYLOR",
+   "dates": "1826–1902",
+   "slug": "william-taylor",
+   "via": "register",
+   "note": "GRO birth index, mother's maiden surname BRAYLEY, read 8 Oct 2026"
+  },
+  "mother": {
+   "name": "Mary Ann Hellen BRAYLEY",
+   "dates": "1843–1900",
+   "slug": "mary-ann-hellen-brayley",
+   "via": "register",
+   "note": "GRO birth index, mother's maiden surname BRAYLEY, read 8 Oct 2026"
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Agnes Walker TAYLOR (\"Aggie\"; m. WOOD)",
+    "dates": "",
+    "slug": "agnes-walker-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Horace Archibald TAYLOR",
+    "dates": "",
+    "slug": "horace-archibald-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Irene TAYLOR (\"Rene\"; m. BURTON)",
+    "dates": "",
+    "slug": "irene-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Kathleen Georgina TAYLOR",
+    "dates": "",
+    "slug": "kathleen-georgina-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Lucy Elizabeth TAYLOR (m. SWEET)",
+    "dates": "",
+    "slug": "lucy-elizabeth-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Margaret Hellen Walker TAYLOR (\"Maggie\"; Helen in the baptism register; m. BELL)",
+    "dates": "",
+    "slug": "margaret-hellen-walker-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Mary Septima TAYLOR",
+    "dates": "",
+    "slug": "mary-septima-taylor",
+    "via": "register"
+   },
+   {
+    "name": "William John TAYLOR",
+    "dates": "",
+    "slug": "william-john-taylor",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "margaret-hellen-walker-taylor",
+  "name": "Margaret Hellen Walker TAYLOR (\"Maggie\"; Helen in the baptism register; m. BELL)",
+  "born": "1876-10-01",
+  "died": "",
+  "birthplace": "Northam, Devon",
+  "nationality": "British",
+  "occupation": "-",
+  "where": "Northam, Devon",
+  "source": "GRO birth index (gro.gov.uk), mother's maiden surname BRAYLEY - read 8 October 2026 - 1876 Dec quarter, BIDEFORD, volume 05B page 481; Northam St Margaret baptism register, Devon Baptisms (South West Heritage Trust 1843A/PR/1/16)",
+  "status": "connected",
+  "statusRaw": "CONNECTED",
+  "note": "*** THE INITIAL IS SETTLED AND IT IS WALKER. *** The 1891 census transcription reads 'Margaret H. N.' and FreeBMD abbreviates to 'W'; *** the GRO index prints WALKER in full ***, and so does the Northam baptism register. Walker is Helen Walker's surname, five generations up. Married CHARLES WILLIAM BELL - banns at Northam 22 November 1903, marriage registered at PANCRAS, London, Dec quarter 1903. *** AND THE TWO SOURCES SPELL HER MIDDLE NAME DIFFERENTLY. *** The GRO index prints *** HELLEN *** and the Northam baptism register has *** HELEN ***, one L. Both are kept in her name here rather than one being chosen, because the choice would be arbitrary and the difference is the sort of thing that makes a person unfindable later.",
+  "place": "Northam, Devon",
+  "placeSlug": "northam-devon",
+  "surname": "TAYLOR",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "GRO index — no public per-record link",
+  "gen": null,
+  "father": {
+   "name": "William TAYLOR",
+   "dates": "1826–1902",
+   "slug": "william-taylor",
+   "via": "register",
+   "note": "GRO birth index, mother's maiden surname BRAYLEY, read 8 Oct 2026"
+  },
+  "mother": {
+   "name": "Mary Ann Hellen BRAYLEY",
+   "dates": "1843–1900",
+   "slug": "mary-ann-hellen-brayley",
+   "via": "register",
+   "note": "GRO birth index, mother's maiden surname BRAYLEY, read 8 Oct 2026"
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Agnes Walker TAYLOR (\"Aggie\"; m. WOOD)",
+    "dates": "",
+    "slug": "agnes-walker-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Horace Archibald TAYLOR",
+    "dates": "",
+    "slug": "horace-archibald-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Irene TAYLOR (\"Rene\"; m. BURTON)",
+    "dates": "",
+    "slug": "irene-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Isabella Temple TAYLOR (\"Edie\"; m. DALLING)",
+    "dates": "",
+    "slug": "isabella-temple-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Kathleen Georgina TAYLOR",
+    "dates": "",
+    "slug": "kathleen-georgina-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Lucy Elizabeth TAYLOR (m. SWEET)",
+    "dates": "",
+    "slug": "lucy-elizabeth-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Mary Septima TAYLOR",
+    "dates": "",
+    "slug": "mary-septima-taylor",
+    "via": "register"
+   },
+   {
+    "name": "William John TAYLOR",
+    "dates": "",
+    "slug": "william-john-taylor",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "irene-taylor",
+  "name": "Irene TAYLOR (\"Rene\"; m. BURTON)",
+  "born": "1879-02-01",
+  "died": "1969-Mar-25",
+  "birthplace": "Northam, Devon",
+  "nationality": "British",
+  "occupation": "-",
+  "where": "Northam, Devon",
+  "source": "GRO birth index (gro.gov.uk), mother's maiden surname BRAYLEY - read 8 October 2026 - 1879 Mar quarter, BIDEFORD, volume 05B page 524; Northam St Margaret baptism register, Devon Baptisms (South West Heritage Trust 1843A/PR/1/16)",
+  "status": "connected",
+  "statusRaw": "CONNECTED",
+  "note": "*** AND SHE HAD NO TWIN. *** This archive carried an unnamed twin sister of 1879 for weeks, inferred female because the Septima arithmetic failed without her. *** The GRO index shows Irene alone - no second birth to this mother that year, of either sex - and the Northam register baptises her by herself. *** Married HENRY ALBERT BURTON at Northam, 30 August 1900, eleven days before her sister Isabella and on the adjacent page of the same index volume. Died 25 March 1969.",
+  "place": "Northam, Devon",
+  "placeSlug": "northam-devon",
+  "surname": "TAYLOR",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "GRO index — no public per-record link",
+  "gen": null,
+  "father": {
+   "name": "William TAYLOR",
+   "dates": "1826–1902",
+   "slug": "william-taylor",
+   "via": "register",
+   "note": "GRO birth index, mother's maiden surname BRAYLEY, read 8 Oct 2026"
+  },
+  "mother": {
+   "name": "Mary Ann Hellen BRAYLEY",
+   "dates": "1843–1900",
+   "slug": "mary-ann-hellen-brayley",
+   "via": "register",
+   "note": "GRO birth index, mother's maiden surname BRAYLEY, read 8 Oct 2026"
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Agnes Walker TAYLOR (\"Aggie\"; m. WOOD)",
+    "dates": "",
+    "slug": "agnes-walker-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Horace Archibald TAYLOR",
+    "dates": "",
+    "slug": "horace-archibald-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Isabella Temple TAYLOR (\"Edie\"; m. DALLING)",
+    "dates": "",
+    "slug": "isabella-temple-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Kathleen Georgina TAYLOR",
+    "dates": "",
+    "slug": "kathleen-georgina-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Lucy Elizabeth TAYLOR (m. SWEET)",
+    "dates": "",
+    "slug": "lucy-elizabeth-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Margaret Hellen Walker TAYLOR (\"Maggie\"; Helen in the baptism register; m. BELL)",
+    "dates": "",
+    "slug": "margaret-hellen-walker-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Mary Septima TAYLOR",
+    "dates": "",
+    "slug": "mary-septima-taylor",
+    "via": "register"
+   },
+   {
+    "name": "William John TAYLOR",
+    "dates": "",
+    "slug": "william-john-taylor",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "lucy-elizabeth-taylor",
+  "name": "Lucy Elizabeth TAYLOR (m. SWEET)",
+  "born": "1881-08-04",
+  "died": "1957-May-26",
+  "birthplace": "Northam, Devon",
+  "nationality": "British",
+  "occupation": "-",
+  "where": "Northam, Devon",
+  "source": "GRO birth index (gro.gov.uk), mother's maiden surname BRAYLEY - read 8 October 2026 - 1881 Sep quarter, BIDEFORD, volume 05B page 508; Northam St Margaret baptism register, Devon Baptisms (South West Heritage Trust 1843A/PR/1/16)",
+  "status": "connected",
+  "statusRaw": "CONNECTED",
+  "note": "*** BAPTISED 31 AUGUST 1881, a few weeks old *** - and she is the last child before the gap that an entire false hypothesis lived in. Nothing is baptised to these parents between her and Mary Septima, three years and two months later. Married WILLIAM NORRISH SWEET, a shipwright at Devonport; in 1921 at 23 Hamilton Street, Devonport. Died 26 May 1957.",
+  "place": "Northam, Devon",
+  "placeSlug": "northam-devon",
+  "surname": "TAYLOR",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "GRO index — no public per-record link",
+  "gen": null,
+  "father": {
+   "name": "William TAYLOR",
+   "dates": "1826–1902",
+   "slug": "william-taylor",
+   "via": "register",
+   "note": "GRO birth index, mother's maiden surname BRAYLEY, read 8 Oct 2026"
+  },
+  "mother": {
+   "name": "Mary Ann Hellen BRAYLEY",
+   "dates": "1843–1900",
+   "slug": "mary-ann-hellen-brayley",
+   "via": "register",
+   "note": "GRO birth index, mother's maiden surname BRAYLEY, read 8 Oct 2026"
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Agnes Walker TAYLOR (\"Aggie\"; m. WOOD)",
+    "dates": "",
+    "slug": "agnes-walker-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Horace Archibald TAYLOR",
+    "dates": "",
+    "slug": "horace-archibald-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Irene TAYLOR (\"Rene\"; m. BURTON)",
+    "dates": "",
+    "slug": "irene-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Isabella Temple TAYLOR (\"Edie\"; m. DALLING)",
+    "dates": "",
+    "slug": "isabella-temple-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Kathleen Georgina TAYLOR",
+    "dates": "",
+    "slug": "kathleen-georgina-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Margaret Hellen Walker TAYLOR (\"Maggie\"; Helen in the baptism register; m. BELL)",
+    "dates": "",
+    "slug": "margaret-hellen-walker-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Mary Septima TAYLOR",
+    "dates": "",
+    "slug": "mary-septima-taylor",
+    "via": "register"
+   },
+   {
+    "name": "William John TAYLOR",
+    "dates": "",
+    "slug": "william-john-taylor",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "agnes-walker-taylor",
+  "name": "Agnes Walker TAYLOR (\"Aggie\"; m. WOOD)",
+  "born": "1889-08-03",
+  "died": "1974-Apr-29",
+  "birthplace": "Northam, Devon",
+  "nationality": "British",
+  "occupation": "-",
+  "where": "Northam, Devon",
+  "source": "GRO birth index (gro.gov.uk), mother's maiden surname BRAYLEY - read 8 October 2026 - 1889 Sep quarter, BIDEFORD, volume 05B page 502; Northam St Margaret baptism register, Devon Baptisms (South West Heritage Trust 1843A/PR/1/16)",
+  "status": "connected",
+  "statusRaw": "CONNECTED",
+  "note": "*** THE YOUNGEST, AND THE CONTROL FOR EVERY SEARCH OF 8 OCTOBER 2026. *** Her birth was the one this archive held to the day and the address - 3 August 1889 at 2 Fore Street, Northam - so she was looked for first in each index before any null was believed. *** Baptised 21 August 1889, eighteen days old. *** Her middle name WALKER is the Scottish great-great-grandmother's surname. Married ALFRED SIDNEY WOOD in 1918; at Churston Ferrers in 1921. Died 29 April 1974.",
+  "place": "Northam, Devon",
+  "placeSlug": "northam-devon",
+  "surname": "TAYLOR",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "GRO index — no public per-record link",
+  "gen": null,
+  "father": {
+   "name": "William TAYLOR",
+   "dates": "1826–1902",
+   "slug": "william-taylor",
+   "via": "register",
+   "note": "GRO birth index, mother's maiden surname BRAYLEY, read 8 Oct 2026"
+  },
+  "mother": {
+   "name": "Mary Ann Hellen BRAYLEY",
+   "dates": "1843–1900",
+   "slug": "mary-ann-hellen-brayley",
+   "via": "register",
+   "note": "GRO birth index, mother's maiden surname BRAYLEY, read 8 Oct 2026"
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Horace Archibald TAYLOR",
+    "dates": "",
+    "slug": "horace-archibald-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Irene TAYLOR (\"Rene\"; m. BURTON)",
+    "dates": "",
+    "slug": "irene-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Isabella Temple TAYLOR (\"Edie\"; m. DALLING)",
+    "dates": "",
+    "slug": "isabella-temple-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Kathleen Georgina TAYLOR",
+    "dates": "",
+    "slug": "kathleen-georgina-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Lucy Elizabeth TAYLOR (m. SWEET)",
+    "dates": "",
+    "slug": "lucy-elizabeth-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Margaret Hellen Walker TAYLOR (\"Maggie\"; Helen in the baptism register; m. BELL)",
+    "dates": "",
+    "slug": "margaret-hellen-walker-taylor",
+    "via": "register"
+   },
+   {
+    "name": "Mary Septima TAYLOR",
+    "dates": "",
+    "slug": "mary-septima-taylor",
+    "via": "register"
+   },
+   {
+    "name": "William John TAYLOR",
+    "dates": "",
+    "slug": "william-john-taylor",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "john-brailey",
+  "name": "John BRAILEY",
+  "born": "1814-08-14",
+  "died": "",
+  "birthplace": "West Leigh by Coldridge, Devon",
+  "nationality": "British",
+  "occupation": "Shoemaker",
+  "where": "Devon",
+  "source": "Marriage 9 July 1839, St Martin-in-the-Fields, Westminster; GRO birth index (children, via mother TEMPLE)",
+  "status": "connected",
+  "statusRaw": "CONNECTED",
+  "note": "*** MARY SEPTIMA'S MATERNAL GRANDFATHER. *** Married GEORGINA TEMPLE at St Martin-in-the-Fields on 9 July 1839 and died on *** 4 May 1851 at the DEVON COUNTY ASYLUM ***. *** OF HIS FOUR KNOWN CHILDREN ONLY TWO WERE EVER REGISTERED *** - John Walker (1845, Holborn) and Georgina Margaret (1850, Bideford). The two eldest, Isabella and Mary Ann Hellen, both born in London in the early 1840s, have no birth registration at all, which is what the 1851 census description of this household explains: *** 'Shoemaker Wife Pauper'. ***",
+  "place": "Devon",
+  "placeSlug": "devon",
+  "surname": "BRAILEY",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "GRO index — no public per-record link",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [
+   {
+    "name": "Georgina TEMPLE",
+    "dates": "1814–1900",
+    "slug": "georgina-temple",
+    "via": "register",
+    "note": "m. 9 July 1839, St Martin-in-the-Fields, Westminster"
+   }
+  ],
+  "children": [
+   {
+    "name": "Isabella BRAILEY",
+    "dates": "1841–",
+    "slug": "isabella-brailey",
+    "via": "register",
+    "note": "GRO birth index via mother TEMPLE; two of the four were never registered"
+   },
+   {
+    "name": "Mary Ann Hellen BRAYLEY",
+    "dates": "1843–1900",
+    "slug": "mary-ann-hellen-brayley",
+    "via": "register",
+    "note": "GRO birth index via mother TEMPLE; two of the four were never registered"
+   },
+   {
+    "name": "John Walker BRAILEY",
+    "dates": "1845–1900",
+    "slug": "john-walker-brailey",
+    "via": "register",
+    "note": "GRO birth index via mother TEMPLE; two of the four were never registered"
+   },
+   {
+    "name": "Georgina Margaret BRAILEY",
+    "dates": "1850–",
+    "slug": "georgina-margaret-brailey",
+    "via": "register",
+    "note": "GRO birth index via mother TEMPLE; two of the four were never registered"
+   }
+  ],
+  "siblings": [],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 5,
+  "relRegister": 5,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "georgina-temple",
+  "name": "Georgina TEMPLE",
+  "born": "1814-08-23",
+  "died": "",
+  "birthplace": "Haddington, East Lothian",
+  "nationality": "Scottish",
+  "occupation": "Monthly nurse",
+  "where": "Northam, Devon",
+  "source": "1851 census, Bideford; 1891 census, The Alms House, Northam, piece 1787 ED 6 folio 72 page 6 schedule 40; FreeBMD deaths Mar q 1900, Bideford, 5b/421, age 85",
+  "status": "connected",
+  "statusRaw": "CONNECTED",
+  "note": "*** THE SCOTSWOMAN AT THE TOP OF THE ENGLISH LINE, and Mary Septima's maternal grandmother. *** Born Haddington 23 August 1814; a widow from 1851; *** living ALONE IN THE ALMS HOUSE AT NORTHAM in 1891, aged 77, 'living on means' *** - which is why the hypothesis that the six-year-old Mary Septima was staying with her grandmother on census night fails. *** HER SURNAME BECAME A FORENAME THREE TIMES *** - Isabella TEMPLE Taylor 1874, and through her mother Helen WALKER in 1845, 1876 and 1889. Died about January 1900, aged 85.",
+  "place": "Northam, Devon",
+  "placeSlug": "northam-devon",
+  "surname": "TEMPLE",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [
+   {
+    "name": "Isabella BRAILEY",
+    "dates": "1841–",
+    "slug": "isabella-brailey",
+    "via": "register",
+    "note": "GRO birth index via mother TEMPLE; two of the four were never registered"
+   },
+   {
+    "name": "Mary Ann Hellen BRAYLEY",
+    "dates": "1843–1900",
+    "slug": "mary-ann-hellen-brayley",
+    "via": "register",
+    "note": "GRO birth index via mother TEMPLE; two of the four were never registered"
+   },
+   {
+    "name": "John Walker BRAILEY",
+    "dates": "1845–1900",
+    "slug": "john-walker-brailey",
+    "via": "register",
+    "note": "GRO birth index via mother TEMPLE; two of the four were never registered"
+   },
+   {
+    "name": "Georgina Margaret BRAILEY",
+    "dates": "1850–",
+    "slug": "georgina-margaret-brailey",
+    "via": "register",
+    "note": "GRO birth index via mother TEMPLE; two of the four were never registered"
+   }
+  ],
+  "siblings": [],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 4,
+  "relRegister": 4,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "isabella-brailey",
+  "name": "Isabella BRAILEY",
+  "born": "1841-01-01",
+  "died": "",
+  "birthplace": "St Andrew, Holborn, London",
+  "nationality": "British",
+  "occupation": "Needlewoman",
+  "where": "Devon",
+  "source": "1851 census, Bideford; 1861 census, Bideford folio 81 page 4; GRO birth index - NOT REGISTERED",
+  "status": "connected",
+  "statusRaw": "CONNECTED",
+  "note": "*** MARY ANN HELLEN'S ELDER SISTER, confirmed twice and ten years apart *** - 'Granddaughter, 10, scholar, London (City), St Andrew' in 1851 and 'Dau, unmarried, 20, NEEDLE WOMAN, London (City), St Andrews' in 1861. *** LIKE HER SISTER SHE HAS NO BIRTH REGISTRATION *** - the GRO index, searched on their mother's maiden surname across 1838-1852, does not hold her. *** ST ANDREW IS ST ANDREW HOLBORN ***, which is the district her brother John Walker was registered in four years later.",
+  "place": "Devon",
+  "placeSlug": "devon",
+  "surname": "BRAILEY",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "GRO index — no public per-record link",
+  "gen": null,
+  "father": {
+   "name": "John BRAILEY",
+   "dates": "1814–1851",
+   "slug": "john-brailey",
+   "via": "register",
+   "note": "1861 census enters her as daughter; no birth registration exists"
+  },
+  "mother": {
+   "name": "Georgina TEMPLE",
+   "dates": "1814–1900",
+   "slug": "georgina-temple",
+   "via": "register",
+   "note": "1861 census enters her as daughter; no birth registration exists"
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Georgina Margaret BRAILEY",
+    "dates": "",
+    "slug": "georgina-margaret-brailey",
+    "via": "register"
+   },
+   {
+    "name": "John Walker BRAILEY",
+    "dates": "",
+    "slug": "john-walker-brailey",
+    "via": "register"
+   },
+   {
+    "name": "Mary Ann Hellen BRAYLEY",
+    "dates": "",
+    "slug": "mary-ann-hellen-brayley",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "john-walker-brailey",
+  "name": "John Walker BRAILEY",
+  "born": "1845-06-22",
+  "died": "1900",
+  "birthplace": "Holborn, London",
+  "nationality": "British",
+  "occupation": "-",
+  "where": "London",
+  "source": "GRO birth index (gro.gov.uk), mother's maiden surname TEMPLE - read 8 October 2026 - 1845 Jun quarter, THE HOLBORN UNION, volume 02 page 149",
+  "status": "connected",
+  "statusRaw": "CONNECTED",
+  "note": "*** FOUND ON 8 OCTOBER 2026 WHILE LOOKING FOR SOMEBODY ELSE, and he settles three things. *** (1) *** The tree's 22 June 1845 is right ***, because a June birth falls in the June quarter - so the 1900 death index that made him 53 had a careless informant. (2) *** The birthplace dispute resolves to neither side: *** the 1851 census says St Pancras and the tree says St Paul's, and the registration district is *** HOLBORN ***, where his sister Isabella was born. (3) *** HIS MIDDLE NAME IS WALKER *** - this family was putting its Scottish great-grandmothers' surnames into registrations as forenames in 1845, a full generation earlier than this archive had documented. Married an ELIZABETH in 1876; died 1900.",
+  "place": "London",
+  "placeSlug": "london",
+  "surname": "BRAILEY",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "GRO index — no public per-record link",
+  "gen": null,
+  "father": {
+   "name": "John BRAILEY",
+   "dates": "1814–1851",
+   "slug": "john-brailey",
+   "via": "register",
+   "note": "GRO 1845 Jun q, Holborn Union, 02/149, mother TEMPLE"
+  },
+  "mother": {
+   "name": "Georgina TEMPLE",
+   "dates": "1814–1900",
+   "slug": "georgina-temple",
+   "via": "register",
+   "note": "GRO 1845 Jun q, Holborn Union, 02/149"
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Georgina Margaret BRAILEY",
+    "dates": "",
+    "slug": "georgina-margaret-brailey",
+    "via": "register"
+   },
+   {
+    "name": "Isabella BRAILEY",
+    "dates": "",
+    "slug": "isabella-brailey",
+    "via": "register"
+   },
+   {
+    "name": "Mary Ann Hellen BRAYLEY",
+    "dates": "",
+    "slug": "mary-ann-hellen-brayley",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "georgina-margaret-brailey",
+  "name": "Georgina Margaret BRAILEY",
+  "born": "1850-07-01",
+  "died": "",
+  "birthplace": "Bideford, Devon",
+  "nationality": "British",
+  "occupation": "-",
+  "where": "Devon",
+  "source": "GRO birth index (gro.gov.uk), mother's maiden surname TEMPLE - read 8 October 2026 - 1850 Sep quarter, THE BIDEFORD UNION, volume 10 page 52",
+  "status": "connected",
+  "statusRaw": "CONNECTED",
+  "note": "*** SHE CONFIRMS A CORRECTION THIS ARCHIVE MADE FROM A CENSUS. *** The tree gave 'b. 1851, Bideford'; the 1851 census showed her eight months old on 30 March 1851 and this archive called the tree a year late. *** A September-quarter 1850 registration is exactly that. *** Named for her mother Georgina Temple.",
+  "place": "Devon",
+  "placeSlug": "devon",
+  "surname": "BRAILEY",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "GRO index — no public per-record link",
+  "gen": null,
+  "father": {
+   "name": "John BRAILEY",
+   "dates": "1814–1851",
+   "slug": "john-brailey",
+   "via": "register",
+   "note": "GRO 1850 Sep q, Bideford Union, 10/52, mother TEMPLE"
+  },
+  "mother": {
+   "name": "Georgina TEMPLE",
+   "dates": "1814–1900",
+   "slug": "georgina-temple",
+   "via": "register",
+   "note": "GRO 1850 Sep q, Bideford Union, 10/52"
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Isabella BRAILEY",
+    "dates": "",
+    "slug": "isabella-brailey",
+    "via": "register"
+   },
+   {
+    "name": "John Walker BRAILEY",
+    "dates": "",
+    "slug": "john-walker-brailey",
+    "via": "register"
+   },
+   {
+    "name": "Mary Ann Hellen BRAYLEY",
+    "dates": "",
+    "slug": "mary-ann-hellen-brayley",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  }

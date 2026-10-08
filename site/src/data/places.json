@@ -320,6 +320,24 @@
   "count": 12
  },
  {
+  "slug": "northam-devon",
+  "name": "Northam, Devon",
+  "people": [
+   "william-taylor",
+   "mary-ann-hellen-brayley",
+   "kathleen-georgina-taylor",
+   "william-john-taylor",
+   "horace-archibald-taylor",
+   "isabella-temple-taylor",
+   "margaret-hellen-walker-taylor",
+   "irene-taylor",
+   "lucy-elizabeth-taylor",
+   "agnes-walker-taylor",
+   "georgina-temple"
+  ],
+  "count": 11
+ },
+ {
   "slug": "san-jose-de-mayo",
   "name": "San Jose de Mayo",
   "people": [
@@ -484,6 +502,16 @@
    "amalia-casas",
    "don-cornelio-casas",
    "dona-raimunda-pereda"
+  ],
+  "count": 3
+ },
+ {
+  "slug": "devon",
+  "name": "Devon",
+  "people": [
+   "john-brailey",
+   "isabella-brailey",
+   "georgina-margaret-brailey"
   ],
   "count": 3
  },
@@ -675,6 +703,14 @@
   "name": "Orange Free State",
   "people": [
    "infant-son-lerena"
+  ],
+  "count": 1
+ },
+ {
+  "slug": "london",
+  "name": "London",
+  "people": [
+   "john-walker-brailey"
   ],
   "count": 1
  }

@@ -2644,5 +2644,110 @@
   "last_attested_alive": "1932-May-22",
   "basis": "explicit death date on this person's row",
   "tier": "DEATH"
+ },
+ {
+  "name": "William TAYLOR",
+  "born_est": "1826-02-11",
+  "last_attested_alive": "1826-02-11",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Mary Ann Hellen BRAYLEY",
+  "born_est": "1843-05-20",
+  "last_attested_alive": "1900-Apr-21",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
+ },
+ {
+  "name": "Kathleen Georgina TAYLOR",
+  "born_est": "1870-11-04",
+  "last_attested_alive": "1940-Feb-29",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
+ },
+ {
+  "name": "William John TAYLOR",
+  "born_est": "1870-11",
+  "last_attested_alive": "1951-May-11",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
+ },
+ {
+  "name": "Horace Archibald TAYLOR",
+  "born_est": "1872-04-01",
+  "last_attested_alive": "1934-Jan-18",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
+ },
+ {
+  "name": "Isabella Temple TAYLOR (\"Edie\"; m. DALLING)",
+  "born_est": "1874-09-10",
+  "last_attested_alive": "1953-Dec",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
+ },
+ {
+  "name": "Margaret Hellen Walker TAYLOR (\"Maggie\"; m. BELL)",
+  "born_est": "1876-10-01",
+  "last_attested_alive": "1876-10-01",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Irene TAYLOR (\"Rene\"; m. BURTON)",
+  "born_est": "1879-02-01",
+  "last_attested_alive": "1969-Mar-25",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
+ },
+ {
+  "name": "Lucy Elizabeth TAYLOR (m. SWEET)",
+  "born_est": "1881-08-04",
+  "last_attested_alive": "1957-May-26",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
+ },
+ {
+  "name": "Agnes Walker TAYLOR (\"Aggie\"; m. WOOD)",
+  "born_est": "1889-08-03",
+  "last_attested_alive": "1974-Apr-29",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
+ },
+ {
+  "name": "John BRAILEY",
+  "born_est": "1814-08-14",
+  "last_attested_alive": "1814-08-14",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Georgina TEMPLE",
+  "born_est": "1814-08-23",
+  "last_attested_alive": "1814-08-23",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Isabella BRAILEY",
+  "born_est": "1841-01-01",
+  "last_attested_alive": "1841-01-01",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "John Walker BRAILEY",
+  "born_est": "1845-06-22",
+  "last_attested_alive": "1900",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
+ },
+ {
+  "name": "Georgina Margaret BRAILEY",
+  "born_est": "1850-07-01",
+  "last_attested_alive": "1850-07-01",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]
