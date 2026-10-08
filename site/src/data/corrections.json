@@ -886,5 +886,21 @@
   "what_is_true": "*** YOU CANNOT COUNT DAUGHTERS IN A PHOTOGRAPH. *** The figure count was also wrong - at full resolution there are *** twelve people and a dog ***: three male, eight female, and one infant whose sex cannot be told - but the figure count was never the error that mattered. *** A GRANDDAUGHTER, A NIECE, A DAUGHTER-IN-LAW AND A NEIGHBOUR'S CHILD ALL PHOTOGRAPH IDENTICALLY. *** There are two seated adult women in the group and nothing in the image says which is the mother of the small girl; the one in the bonnet and fringed shawl reads as the elder, which is as consistent with a grandmother as with a mother of ten. *** THE PAGE NOW COUNTS FIGURES AND STOPS THERE ***, and names the record that would actually settle the sibling count: the 1891 census of Northam, already read here for the Brayleys and never counted for the Taylors.",
   "how_it_was_caught": "*** BY DAVID, IN ONE SENTENCE, ON READING THE PUBLISHED PAGE. *** 'I think there is a grandmother or aunt in that photo as well.' *** THIS ARCHIVE'S OWN STANDARD SHOULD HAVE CAUGHT IT FIRST: *** it says on /south-africa/ that it 'does not turn consistent with into is', and then did exactly that with a picture - counted faces, assumed every one of them was a child of the couple, and ran the total back into a name it already believed.",
   "retired": ""
+ },
+ {
+  "date": "2026-10-08",
+  "severity": "serious",
+  "what_was_said": "*** That \"Mary Septima stayed with her sister EDIE at 26 Fore Street, Northam, in 1935\" is independent evidence for a missing sister named EDITH. *** Carried since 16 September in data/brayley-bmd.tsv, data/1891-northam-census.tsv and data/brayley-two-questions.tsv, where it is called knowing the name \"from a completely different direction\".",
+  "what_is_true": "*** EDIE IS ISABELLA. *** This archive records her in three other files as *** Isabella Temple \"Edie\" Taylor ***, who married *** HENRY DALLING *** at Northam on 10 September 1900. data/family-memory.tsv names the hostess of 1935 as *** \"her sister Edie DALLING\" *** - the married surname is in the sentence. data/passenger-lists.tsv gives Mary Septima's 1935 address in Britain as *** \"C/O DALLING, FORE ST, NORTHAM\" *** and says in terms it is \"her elder sister Isabella Temple 'Edie' Taylor\". And the 1939 Register for *** 26 Fore Street *** lists *** ISABELLA T DALLING, born Taylor, 10 September 1874 ***. *** THE EDITH ARGUMENT WAS COUNTING ONE WOMAN TWICE. ***",
+  "how_it_was_caught": "*** BY DAVID ASKING FOR THE 1891 NORTHAM CENSUS TO BE DONE FOR THE TAYLORS. *** It had been done three weeks earlier; what the request produced instead was a re-reading of the file, and the \"Edie\" sentence did not survive it. *** THE CANDIDATE ITSELF IS NOT DEAD *** - the tree still says ten children and names nine, Septima still means seventh, and the birth index still offers one Edith in the gap - but it has lost a leg it should never have had.",
+  "retired": ""
+ },
+ {
+  "date": "2026-10-08",
+  "severity": "moderate",
+  "what_was_said": "*** That the 1891 census of Northam was \"already read here for the Brayleys, and never counted for the Taylors\". *** Published this morning on /family-papers/ as the record that would settle the sibling count.",
+  "what_is_true": "*** IT WAS READ FOR THE TAYLORS, ON 16 SEPTEMBER 2026, and it is the Taylor household that the file is named for. *** data/1891-northam-census.tsv opens with the heading *** \"THE HOUSEHOLD AT 2 FORE STREET, NORTHAM\" *** and gives ten people by name, age, occupation and birthplace. The Brayleys were the SECOND half of that evening's work, not the first. *** AND IT WOULD NOT HAVE SETTLED THE COUNT ANYWAY: *** Mary Septima is ABSENT from it, and so is any Edith of her age.",
+  "how_it_was_caught": "*** BY DOING WHAT WAS ASKED AND FINDING IT ALREADY DONE. *** The claim was written from memory while correcting a different error, which is exactly when this archive has gone wrong before - reaching for a record name to end a paragraph with instead of opening the file.",
+  "retired": ""
  }
 ]

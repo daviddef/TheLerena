@@ -24,6 +24,7 @@ import c1851 from "../data/1851-bideford-brayley.json";
 import c1861 from "../data/1861-bideford-brailey.json";
 import marist from "../data/marist-testimonials-1936.json";
 import tgp from "../data/taylor-group-photograph.json";
+import tvc from "../data/taylor-group-vs-census.json";
 const M = Object.fromEntries(marriage.map((r) => [r.field, r]));
 const N = Object.fromEntries(notices.map((r) => [r.field, r]));
 const D = Object.fromEntries(dn.map((r) => [r.field, r]));
@@ -889,11 +890,53 @@ const DOCS = [
       exactly as consistent with a grandmother as with a mother of ten.</p>
     <p><strong>So the count stands and the conclusion goes.</strong> Twelve figures can be counted:
       three male, eight female, one infant whose sex cannot be told. <strong>Daughters cannot.</strong>
-      A census or a baptism register counts children, giving each one an age and a relationship to
-      the head of the household; a studio group refuses to. <strong>The record that would settle it
-      is the 1891 census of Northam</strong> &mdash; already read here for the Brayleys, and never
-      counted for the Taylors.
-      <a href={u("/corrections/")}>What was corrected &rarr;</a>
+      A census counts children, giving each an age and a relationship to the head of the household;
+      a studio group refuses to. <a href={u("/corrections/")}>What was corrected &rarr;</a></p>
+  </div>
+</section>
+
+<section class="blk">
+  <h2>11b. The photograph set against the household</h2>
+  <p class="dek">8 October 2026, at David&rsquo;s asking. And it corrects this page twice more.</p>
+  <div class="prose">
+    <p><strong>David asked for the 1891 census of Northam to be done for the Taylors. It already had
+      been</strong> &mdash; on 16 September, work-list row 127, the household at <strong>2 Fore
+      Street</strong> read out in full. This page said otherwise a few hours earlier, and that is the
+      second correction of the day against it. What had <em>not</em> been done is the thing worth
+      doing: putting the household beside the picture.</p>
+  </div>
+  <dl class="kv" style="margin-top:18px">
+    {tvc.filter((r) => r.what).map((r) => (
+      <div><dt set:html={emph(r.what)} /><dd>
+        <strong>The records:</strong> <span set:html={emph(r["the records say"])} /><br />
+        <strong>The photograph:</strong> <span set:html={emph(r["the photograph shows"])} /><br />
+        <span class="cap" set:html={emph(r["what it means"])} />
+      </dd></div>
+    ))}
+  </dl>
+  <div class="prose" style="margin-top:18px">
+    <p><strong>And the asking cost the Edith candidate a leg it should never have had.</strong> Since
+      16 September this archive has argued that <em>&ldquo;Mary Septima stayed with her sister
+      EDIE&rdquo;</em> in 1935 was independent evidence of a missing sister called Edith, known
+      &ldquo;from a completely different direction&rdquo;. <strong>Edie is Isabella.</strong> Three
+      other files here carry her as <strong>Isabella Temple &ldquo;Edie&rdquo; Taylor</strong>, who
+      married <strong>Henry Dalling</strong>; the family memory says <em>&ldquo;her sister Edie
+      <strong>Dalling</strong>&rdquo;</em>, with the married surname in the sentence; and the 1939
+      Register for that very address, <strong>26 Fore Street</strong>, lists <strong>Isabella T
+      Dalling, born Taylor, 10 September 1874</strong>. The argument was counting one woman twice.</p>
+    <p><strong>What remains is cleaner than what went.</strong> The tree still says <strong>ten
+      children</strong> and names nine. <em>Septima</em> still means seventh, and Mary Septima is
+      only the sixth daughter of those nine. The birth index still offers exactly one candidate in
+      the gap &mdash; <strong>Taylor, Edith, Bideford, September quarter 1882</strong>. And now a
+      photograph shows one female more than the named family accounts for. <strong>That is a record
+      standing where a nickname used to.</strong></p>
+    <p><strong>It is still not proof, and David named the reason himself.</strong> If any one of the
+      eight women is a grandmother, an aunt, a sister-in-law, a visitor or a servant, nine children
+      satisfy the count and there is no Edith. The 1891 return for this house records
+      <strong>Agnes Harrison, visitor, 28, a dressmaker from Macclesfield</strong>; and the
+      grandmother, <strong>Georgina Brayley</strong>, was alive in the same parish, aged 77, living
+      alone in the Alms House. <strong>The next record is a baptism register</strong> &mdash; Northam
+      and Bideford baptisms name the parents, and would attach or detach the 1882 Edith in one line.
       <a href={u("/taylor/")}>The Taylors &rarr;</a></p>
   </div>
 </section>
