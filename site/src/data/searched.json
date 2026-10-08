@@ -138,5 +138,23 @@
    "devon",
    "findmypast"
   ]
+ },
+ {
+  "src": "General Register Office (gro.gov.uk) - the GRO's own online birth index for England and Wales",
+  "url": "https://www.gro.gov.uk/gro/content/certificates/indexes_search.asp",
+  "film": null,
+  "waypoint": null,
+  "what": "TAYLOR births with mother's maiden surname BRAYLEY, Bideford district, 1870-1893. TEN SEARCHES - five year-windows times two sexes, because sex is a mandatory field and the year range is capped at plus or minus two. NINE CHILDREN OF ONE COUPLE RECOVERED, AND A TENTH DISPROVED. THE POINT OF THIS SOURCE, which no free index can match: the GRO's own index PRINTS THE MOTHER'S MAIDEN SURNAME on every birth from 1837, so a search on father's surname plus mother's maiden name returns a couple's children BY DEFINITION rather than by inference. FreeBMD carries no mother's maiden name in its birth index and never will, which is why three weeks of candidate-weighing there could not settle what this settled in ten searches. THE CRITICAL WINDOW WAS RE-RUN ON 'SIMILAR SOUNDING VARIATIONS' because a spelling variant of the mother's surname was documented in an earlier census: 28 births across England, the same two in the district. IT NEEDS AN ACCOUNT, which the archive owner signed in; this session does not create accounts.",
+  "when": "2026-10-08",
+  "outcome": "yield",
+  "pages": null,
+  "walked": false,
+  "tags": [
+   "taylor",
+   "brayley",
+   "bideford",
+   "devon",
+   "gro"
+  ]
  }
 ]

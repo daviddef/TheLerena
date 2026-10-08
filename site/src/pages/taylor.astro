@@ -7,6 +7,7 @@ import crew from "../data/crew-lists-costed.json";
 import voyages from "../data/passenger-lists.json";
 import taylorLine from "../data/taylor-line.json";
 import baps from "../data/taylor-baptisms-northam.json";
+import gro from "../data/gro-taylor-brayley-births.json";
 import "@daviddef/archive-kit/styles/persontree.css";
 /* GENERATED FROM data/taylor-line.tsv, not typed here. Until 14 September 2026 this was a
    hardcoded array duplicating that file - and when the TSV gained five husbands' names, the
@@ -127,23 +128,56 @@ import dDevonTooling from "../data/devon-tooling.json";
     one more girl born before September 1884, and the archive has never produced her.</strong>
   </p>
   <p>
-    <span class="chip">Tree only</span> <strong>Two candidates have been offered for that place and
-    neither survives contact with a register.</strong> This page used to fill it with <em>an unnamed
-    twin of Irene, 1879</em>, inferred to be a girl because otherwise the sum fails &mdash; she comes
-    from the same tree and no record names her, and <strong>the baptism register enters Irene alone
-    in 1879</strong>. The birth index offered <strong>Taylor, Edith, Bideford, September quarter
-    1882</strong>, graded a strong candidate for three weeks &mdash; and <strong>she is not in the
-    baptism register either</strong>, where every sibling on both sides of her is.
-    <a href="#s-baptisms">The baptisms &uarr;</a>
+    <span class="chip doc">Documented</span> <strong>And on 8 October 2026 the count was finished,
+    and it does not come out.</strong> David logged this archive in to <strong>gro.gov.uk</strong>,
+    whose index &mdash; unlike FreeBMD&rsquo;s &mdash; prints the <strong>mother&rsquo;s maiden
+    surname on every birth from 1837</strong>. A search for <em>Taylor</em> births with mother
+    <em>Brayley</em>, across <strong>1870&ndash;1893, both sexes, ten windows</strong>, returns the
+    children of this couple <strong>by definition</strong>.
+  </p>
+  <table class="tbl" style="margin:18px 0">
+    <thead><tr><th>#</th><th>Child</th><th>Registered</th><th>GRO reference</th></tr></thead>
+    <tbody>
+      {gro.filter((r) => r.child).map((r) => (
+        <tr>
+          <td class="mono">{r.n}</td>
+          <td set:html={emph(r.child)} />
+          <td set:html={emph(r.registered)} />
+          <td class="mono" set:html={emph(r["GRO reference"])} />
+        </tr>
+      ))}
+    </tbody>
+  </table>
+  <p>
+    <strong>Nine children, not ten, and nothing missing.</strong> Nothing before Kathleen, nothing
+    between any two of them, nothing after Agnes to 1893. The critical window was re-run on loose
+    spelling matching, because this archive has documented <em>Brailey</em> as a variant of the
+    name: twenty-eight births across England, and the same two at Bideford.
   </p>
   <p>
-    <span class="chip">Inferred</span> <strong>What the name is still evidence of.</strong> Parents
-    who call a daughter <em>Septima</em> are counting, and this family demonstrably named by rule
-    &mdash; Temple and Walker, their Scottish great-grandmothers' surnames, were put on three birth
-    registrations as forenames. <strong>So the likeliest reading remains a seventh daughter this
-    archive cannot see</strong>, and the likeliest reason it cannot see her is that she was born and
-    died between two censuses, which leaves a birth registration, no baptism and no household entry.
-    <strong>The GRO death index for Bideford, 1870&ndash;1884, is the test nobody has run.</strong>
+    <strong>So three people this page has carried are gone.</strong> <strong>Edith</strong>
+    (Bideford, September quarter 1882) and <strong>Ethel</strong> (December quarter 1882) do not
+    have Brayley as their mother, so neither is a child of this couple. And <strong>Irene is alone
+    in 1879</strong> &mdash; no second birth to this mother that year, of either sex. <strong>The
+    unnamed twin was never a person.</strong> She was an arithmetical requirement wearing a
+    tree&rsquo;s silence as evidence, and this archive built her, published her and reasoned from
+    her for three weeks. <a href="#s-baptisms">The baptisms &uarr;</a>
+  </p>
+  <p>
+    <strong>And the arithmetic this page is named for does not work.</strong> Daughters in order:
+    Kathleen, Isabella, Margaret, Irene, Lucy, <strong>Mary Septima &mdash; sixth</strong>, Agnes.
+    She is the <strong>sixth daughter and the eighth child</strong>, and no reading of the registered
+    family makes her seventh of anything. <strong>The name is now an unexplained fact rather than an
+    arithmetical one</strong>, which is a worse answer and a truer one.
+    <a href={u("/corrections/")}>What was corrected &rarr;</a>
+  </p>
+  <p>
+    <span class="chip">Possible</span> <strong>One kind of child leaves no birth registration at
+    all.</strong> A <strong>stillbirth was not registrable in England and Wales until 1927</strong>.
+    A seventh pregnancy carried to term and lost would be invisible to every index reachable from
+    here &mdash; and would still be counted by the woman who bore her. <strong>That is a possibility
+    and not a finding</strong>, and it is written down as the shape of the remaining doubt rather
+    than as its answer.
   </p>
   <p class="cap">
     Her granddaughter's generation kept it: an infant <strong>Antoinette Septima Lynette Lerena</strong> was
