@@ -1,0 +1,28 @@
+# *** ROQUE'S THREE INFANTS, PUT ON RECORDS. 8 October 2026. ***
+# *** A COMPLETE SWEEP: *** surname LERENA, country South Africa - 413 results, every one read for an
+# indexed parent. *** EXACTLY THREE CARRY ONE, and all three are children of Roque Luis Armando
+# Lerena. *** Everything else in the 413 is Lorens, Lohrentz, Lortin or Lourena - other surnames.
+#
+# *** WHY THIS MATTERS BEYOND THE THREE: *** Roque's own 1973 death notice names only the two
+# daughters who survived him, Juanita Ramond Hutson and Panola Maria. *** A death notice lists the
+# living. These three were already gone, and only the civil registers remember them. ***
+child	the record	what it adds	grade
+*** The unnamed infant, 1932 ***	*** South Africa, Orange Free State, Civil Death Registration, 1902-1954 - ark 1:1:87XR-S93Z. *** Died *** 22 May 1932 at BLOEMFONTEIN ***, born Bloemfontein; parent *** Louis Lerena ***.	*** TWO THINGS THE TREE DID NOT HAVE. *** The child was *** MALE *** - the archive has carried him as "an unnamed infant" - and he was born and died at *** BLOEMFONTEIN ***, which this archive has never recorded for anyone. *** IT PUTS ROQUE IN THE ORANGE FREE STATE IN MAY 1932 ***, between the Cape of his birth and the Transvaal of his death.	PRIMARY (civil registration, machine-indexed)
+*** RIETA MARIA LERENA ***	*** South Africa, Transvaal, Civil Death, 1869-1954 - ark 1:1:78S6-Y62M. *** Died *** 28 August 1937 ***, aged *** 1 ***, at *** 6a ROBINSON STREET, MAYFAIR, JOHANNESBURG ***; parent *** Rogue Louis Armando Lerena ***.	*** SHE HAD NO DEATH DATE AT ALL. *** data/last-attested-alive.tsv graded her *** BIRTH ONLY - "a floor, not an attestation" *** - on a bare 1936 from a tree. Now she has a day, an age and a street. *** AND THE ADDRESS IS NEW: *** 6a Robinson Street, Mayfair.	PRIMARY (civil registration, machine-indexed)
+*** ANTOINETTE SEPTIMA LYNETTE LERENA ***	*** South Africa, Transvaal, Civil Death, 1869-1954 - ark 1:1:QY3S-HZ6Z. *** Died *** 7 January 1943 ***, Johannesburg; parent *** Roque Luis Armanda Lerena ***.	Already in the register from this collection; the *** ark is now recorded *** and the death date confirmed to the day. She carries her grandmother *** MARY SEPTIMA's *** name.	PRIMARY (civil registration, machine-indexed)
+#
+# ============ *** A FIELD THAT LOOKS LIKE DATA AND IS NOT ============ ***
+# *** BOTH INFANT ENTRIES GIVE "AGE: 0 DAYS", AND NEITHER CAN BE TRUE. ***
+# The tree has the 1932 boy at *** five days *** (b. 17 May, d. 22 May) and Antoinette at
+# *** four *** (b. 3 January, d. 7 January). *** Two independent tree dates disagreeing with the
+# index in the SAME DIRECTION is the signature of a DEFAULT VALUE, not of two coincidental errors. ***
+# *** SO THE AGE FIELD IN THESE COLLECTIONS IS NOT EVIDENCE FOR AN INFANT ***, and this archive will
+# not use it to correct a birth date. Recorded in data/false-zeros.tsv as a disguise.
+#
+# ============ *** AND THE QUESTION THAT BROUGHT ME HERE IS STILL OPEN ============ ***
+# *** CAREEN MARIA LERENA HAS NO CIVIL BIRTH OR DEATH RECORD INDEXED ANYWHERE IN SOUTH AFRICA. ***
+# Searched by forename across the whole country: *** her only record is the Maitland cemetery
+# entry ***. Work-list row 106 wanted a Cape birth or death registration to name her parents, and
+# *** FamilySearch's South African civil indexes cannot supply one. *** The Cape civil registers
+# themselves are held by the Department of Home Affairs and the Western Cape Archives; that is where
+# the row now points.

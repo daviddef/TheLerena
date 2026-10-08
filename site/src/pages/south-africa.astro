@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
+import infants from "../data/roque-infants-civil-deaths.json";
 import { emph } from "../lib/text.js";
 import nine9 from "../data/1999-deaths-tested.json";
 import gz3 from "../data/gazette-three-new.json";
@@ -346,6 +347,47 @@ import cem from "../data/johannesburg-cemetery-1999.json";
     <strong>And it is not enough.</strong> It is now the first entry on
     <a href={u("/photograph-these/")}>Photograph these</a>, because what is wanted is the whole plot: any
     plate or slab, the section and row markers, and a wide shot showing where it sits.
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-roque-infants">Three children who died before their father</h2>
+  <p class="dek">8 October 2026. A complete sweep of the surname, and only three records name a parent.</p>
+  <div class="prose">
+    <p><strong>Roque Luis Armando Lerena&rsquo;s death notice of 1973 names two daughters</strong>
+      &mdash; Juanita Ramond Hutson and Panola Maria. <strong>A death notice lists the living.</strong>
+      Searching the surname across the whole of South Africa returns 413 records, and exactly three
+      carry an indexed parent. All three are his, and all three are children who were already gone.</p>
+  </div>
+  <dl class="kv" style="margin-top:18px">
+    {infants.filter((r) => r.child).map((r) => (
+      <div><dt set:html={emph(r.child)} /><dd>
+        <span set:html={emph(r["the record"])} /><br />
+        <span class="cap" set:html={emph(r["what it adds"])} />
+      </dd></div>
+    ))}
+  </dl>
+  <div class="prose" style="margin-top:18px">
+    <p><strong>The 1932 boy moves the family.</strong> He was born and died at
+      <strong>Bloemfontein</strong>, which no record in this archive had put any Lerena in &mdash; it
+      sits between the Cape where Roque was born and the Transvaal where he died. And the register
+      says <strong>male</strong>, where this archive has carried him as <em>an unnamed infant</em>
+      from a tree.</p>
+    <p><strong>Rieta Maria had no death date at all until today.</strong> She was graded
+      <em>&ldquo;birth only &mdash; a floor, not an attestation&rdquo;</em> on a bare 1936 taken from
+      a tree. She died <strong>28 August 1937</strong> at <strong>6a Robinson Street, Mayfair,
+      Johannesburg</strong>.</p>
+    <p><strong>And one field in these indexes had to be thrown away.</strong> Both infant entries
+      give <strong>&ldquo;Age: 0 days&rdquo;</strong>, which would mean each was born on the day it
+      died. The tree has one at five days and the other at four. <strong>Two independent dates
+      disagreeing with the index in the same direction is an unfilled form field, not two
+      coincidences</strong> &mdash; so the age is not used here, and the near miss is written down.
+      <a href={u("/method/")}>Method &rarr;</a></p>
+    <p class="cap"><strong>And the question that started this is still open.</strong>
+      <strong>Careen Maria Lerena has no civil birth or death record indexed anywhere in South
+      Africa</strong> &mdash; her only record is the Maitland cemetery entry. Work-list row 106 wants
+      a Cape registration to name her parents, and FamilySearch cannot supply one; the Cape civil
+      registers are held by Home Affairs and the Western Cape Archives.</p>
   </div>
 </section>
 

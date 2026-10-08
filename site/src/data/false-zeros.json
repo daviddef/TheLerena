@@ -145,5 +145,12 @@
   "what it actually was": "*** THE INDEX CARRIES THEM UNDER AN INITIAL. *** The 1891 census transcription reads *** 'Horace A' ***, and a given-name search for the full form matches nothing. *** THIS IS THE SAME TRAP THE ARCHIVE ALREADY RECORDED FOR THE GRO INDEX *** - the September note says Horace and William were each found only after dropping the second forename - *** and it was walked into again on a different site five days later. ***",
   "how it was caught": "*** BY TESTING A PERSON WHO CERTAINLY EXISTS. *** Three known people returning zero is a broken search, not three absent people.",
   "when": "8 Oct 2026"
+ },
+ {
+  "disguise": "*** A FIELD THAT LOOKS LIKE DATA AND IS A DEFAULT ***",
+  "what it looked like": "South Africa's Transvaal and Orange Free State civil death indexes give *** 'Age: 0 days' *** for both of Roque Lerena's infant children - the boy who died at Bloemfontein on 22 May 1932 and *** ANTOINETTE SEPTIMA LYNETTE *** on 7 January 1943. Read literally, each was born on the day it died.",
+  "what it actually was": "*** NEITHER CAN BE TRUE, AND THE PROOF IS THAT BOTH ARE WRONG THE SAME WAY. *** The family tree has the 1932 boy at *** five days *** and Antoinette at *** four ***. *** Two independent dates disagreeing with the index in the SAME DIRECTION is the signature of an unfilled field carrying a default ***, not of two coincidental errors. *** THE NEAR MISS: *** this archive was one step from publishing 'the tree says five days and the record says none, so the tree is wrong' - a correction built on a blank.",
+  "how it was caught": "*** BY READING THE SECOND RECORD BEFORE WRITING UP THE FIRST. *** One '0 days' is a fact; two in a row, against two different trees, is a form field.",
+  "when": "8 Oct 2026"
  }
 ]

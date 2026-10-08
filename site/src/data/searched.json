@@ -175,5 +175,23 @@
    "bideford",
    "gro"
   ]
+ },
+ {
+  "src": "FamilySearch - South Africa, Transvaal Civil Death 1869-1954 and Orange Free State Civil Death Registration 1902-1954",
+  "url": "https://www.familysearch.org/search/record/results?q.surname=Lerena&f.recordCountry=South%20Africa",
+  "film": null,
+  "waypoint": null,
+  "what": "LERENA across the whole of South Africa - 413 results, every one read for an indexed PARENT. EXACTLY THREE CARRY ONE and all three are infant children of one man, none of whom appears on his own death notice because a death notice lists the living. TWO METHOD NOTES WORTH PASSING ON. (1) A DATE FILTER PRODUCED A SILENT FALSE ZERO: the same surname-plus-country query returned 0 with a date range attached and 413 without it, and nothing in the result said the filter had misfired. (2) AN AGE FIELD IN BOTH COLLECTIONS IS A DEFAULT, NOT A MEASUREMENT: two infants a decade apart are both given 'Age: 0 days', while two independent family dates give them five days and four. Two errors in the same direction is an unfilled form field. The age was discarded rather than used to correct the dates.",
+  "when": "2026-10-08",
+  "outcome": "yield",
+  "pages": null,
+  "walked": false,
+  "tags": [
+   "lerena",
+   "transvaal",
+   "orange-free-state",
+   "bloemfontein",
+   "familysearch"
+  ]
  }
 ]

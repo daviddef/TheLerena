@@ -2637,5 +2637,12 @@
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "[infant son] LERENA (unnamed; d. 22 May 1932, Bloemfontein)",
+  "born_est": "1932",
+  "last_attested_alive": "1932-May-22",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
  }
 ]
