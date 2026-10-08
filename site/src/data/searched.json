@@ -103,5 +103,23 @@
    "cemetery",
    "familysearch"
   ]
+ },
+ {
+  "src": "FreeREG - Northam (St Margaret) and Bideford, Devon: parish register coverage checked before searching",
+  "url": "https://www.freereg.org.uk/",
+  "film": null,
+  "waypoint": null,
+  "what": "TAYLOR baptisms, Northam and Bideford, 1869-1891, for a daughter born 1882. NOTHING, AND THE NULL IS FULLY EXPLAINED RATHER THAN MERELY RECORDED. FreeREG's own contents pages give Northam, St Margaret, Parish Register: 12,120 records, FIRST 1653, LAST 1817 - the coverage stops sixty-five years before the record wanted. Bideford is listed as a place and has NO church, NO register and NO records at all. So this is a coverage wall, not an absent baptism, and nobody should read the zero as evidence about the family. THE SEARCH WAS RUN ANYWAY, with a control first: surname TAYLOR alone, Northam, 1869-1891, returned 0, which the contents page then explained.",
+  "when": "2026-10-08",
+  "outcome": "nothing",
+  "pages": null,
+  "walked": false,
+  "tags": [
+   "taylor",
+   "northam",
+   "bideford",
+   "devon",
+   "freereg"
+  ]
  }
 ]
