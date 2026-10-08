@@ -318,5 +318,13 @@
   "status": "ready",
   "detail": "*** YOU FOUND THIS SOURCE AND IT IS A GOOD ONE. This archive had never tried it. *** Free summary rows already gave death years for all three sons of the 1950 estate. *** The full records are behind a subscription, and this session does not create accounts or pay for things - so this is yours to decide. *** *** IF YOU BUY ONE THING, BUY THE DEATH NOTICE OF RICARDO JUAN CARLOS LERENA, born 1920, died 1994, married 1941 to Doreen May Chappell. *** A South African death notice names *** the deceased's PARENTS *** - which would put in a modern official document what this archive currently infers: that the Cape Lerenas descend from Pablo Armando. *** Second priority: the five 1999 deaths *** - Catherine Tertia Karon, Gayle, Pierre Frederick, and two children aged 8 and 13. Either something terrible happened in 1999 or the index has a default-year artefact, and a summary row cannot tell you which. See data/gendatabase-sa.tsv.",
   "sent_on": "-"
+ },
+ {
+  "key": "david-gro-births-brayley",
+  "what": "Run one GRO index search: TAYLOR births, mother's maiden name BRAYLEY, Bideford, 1870-1890",
+  "who": "David",
+  "status": "waiting-on-david",
+  "detail": "*** THIS IS THE SEARCH THAT ENDS THE TENTH-CHILD QUESTION, and it cannot be run from here. *** *** gro.gov.uk is NOT FreeBMD ***, and the difference is the whole point: the GRO's own online index *** gives the MOTHER'S MAIDEN NAME on every birth from 1837 ***, which FreeBMD does not and never will. *** THE QUERY: births, surname TAYLOR, mother's maiden name BRAYLEY, district BIDEFORD, 1870-1890. *** By definition that returns *** every child of William Taylor and Mary Ann Hellen Brayley ***, with no inference, the missing tenth included. *** WHY IT IS DAVID'S: *** it needs a free GRO account, and this session does not create accounts or sign in. *** WHAT IS ALREADY EXCLUDED, so the result can be read fast: *** the baptism register at Northam holds seven children of this couple and nothing between 31 August 1881 and 30 October 1884 - so the child being looked for is one who left a birth registration and nothing else. *** EDITH (Sep q 1882) and ETHEL (Dec q 1882) are the two names in the Bideford birth index that sit in that window ***; neither is in the register.",
+  "sent_on": ""
  }
 ]
