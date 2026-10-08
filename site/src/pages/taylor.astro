@@ -8,6 +8,7 @@ import voyages from "../data/passenger-lists.json";
 import taylorLine from "../data/taylor-line.json";
 import baps from "../data/taylor-baptisms-northam.json";
 import gro from "../data/gro-taylor-brayley-births.json";
+import groB from "../data/gro-brailey-temple-births.json";
 import "@daviddef/archive-kit/styles/persontree.css";
 /* GENERATED FROM data/taylor-line.tsv, not typed here. Until 14 September 2026 this was a
    hardcoded array duplicating that file - and when the TSV gained five husbands' names, the
@@ -203,6 +204,7 @@ import dDevonTooling from "../data/devon-tooling.json";
     <ol class="cols2">
       <li><a href="#s-the-chart">The Taylor chart</a></li>
       <li><a href="#s-baptisms">The baptism register, Northam &mdash; and her own baptism</a></li>
+      <li><a href="#s-her-mother-unregistered">Her mother was never registered</a></li>
       <li><a href="#s-the-name-is-a-count">The name is a count</a></li>
       <li><a href="#s-the-line-behind-her">The line behind her</a></li>
       <li><a href="#s-northam-and-bideford-north-devon">Northam and Bideford, north Devon</a></li>
@@ -226,6 +228,48 @@ import dDevonTooling from "../data/devon-tooling.json";
   </div>
 </section>
 
+
+<section class="blk">
+<h2 id="s-her-mother-unregistered">Her mother was never registered</h2>
+  <p class="dek">8 October 2026. The same key, turned in the generation above.</p>
+  <div class="prose">
+    <p><strong>This archive has been looking for Mary Ann Hellen Brayley&rsquo;s birth entry since
+      September and should stop.</strong> She was born <strong>20 May 1843 at St Bartholomew&rsquo;s,
+      City of London</strong>, and FreeBMD holds <em>no Mary Brayley and no Mary Brailey in the June
+      quarter of 1843 anywhere in England and Wales</em> &mdash; recorded then as an absence awaiting
+      a better search.</p>
+    <p><strong>So the question was put the other way round.</strong> Not <em>where is she?</em> but
+      <em>which children of her parents are in the book at all?</em> &mdash; surname <strong>Brayley</strong>
+      on loose matching, mother&rsquo;s maiden surname <strong>Temple</strong>, across
+      <strong>1838&ndash;1852, both sexes</strong>. Two come back.</p>
+  </div>
+  <dl class="kv" style="margin-top:18px">
+    {groB.filter((r) => r.child).map((r) => (
+      <div><dt set:html={emph(r.child)} /><dd>
+        <strong set:html={emph(r["GRO reference"])} /><br />
+        <span class="cap" set:html={emph(r["what it settles"])} />
+      </dd></div>
+    ))}
+  </dl>
+  <div class="prose" style="margin-top:18px">
+    <p><strong>The pattern dates itself.</strong> The couple&rsquo;s two earliest children &mdash;
+      <strong>Isabella</strong>, about 1841, and <strong>Mary Ann Hellen</strong>, 1843, both born in
+      London &mdash; are <strong>absent</strong>. The two later ones, <strong>John Walker</strong>
+      (Holborn, 1845) and <strong>Georgina Margaret</strong> (Bideford, 1850), are
+      <strong>present</strong>. <strong>Birth registration was not compulsory on parents until the
+      Act of 1874, in force from 1875</strong>; the duty lay on the registrar, under-registration in
+      the 1840s is well attested, and it fell heaviest on the urban poor. The 1851 census describes
+      this household as <em>&ldquo;Shoemaker Wife Pauper&rdquo;</em>.</p>
+    <p><strong>So she was almost certainly never registered</strong>, and the null is now double and
+      comes from two directions: FreeBMD under her own name, the GRO under her mother&rsquo;s. It is
+      a conclusion rather than a certainty &mdash; a registration under a spelling the index does not
+      associate with Brayley at all cannot be excluded by any search.
+      <a href={u("/corrections/")}>What was corrected &rarr;</a></p>
+    <p class="cap"><strong>The spelling control is built into the result.</strong> The query said
+      <em>Brayley</em> and the index returned <em>Brailey</em> both times, so the two absences are
+      not an artefact of how the name was spelled.</p>
+  </div>
+</section>
 
 <section class="blk">
 <h2 id="s-the-line-behind-her">The line behind her</h2>

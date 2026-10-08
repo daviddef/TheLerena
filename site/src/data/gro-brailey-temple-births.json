@@ -1,0 +1,20 @@
+[
+ {
+  "child": "*** BRAILEY, JOHN WALKER ***",
+  "GRO reference": "*** 1845, June quarter, THE HOLBORN UNION - Volume 02, page 149 ***",
+  "sex": "M",
+  "what it settles": "*** THE SPELLING CONTROL AND A REAL FIND AT ONCE. *** The query said BRAYLEY and the index returned BRAILEY, which is what makes the nulls below trustworthy. *** AND HE SETTLES THREE THINGS. *** (1) *** THE TREE'S 22 JUNE 1845 IS RIGHT *** - a June birth falls in the June quarter - and the 1900 death index, which gave his age as 53 and implied 1847, had a careless informant, exactly as this archive concluded from the 1851 census. (2) *** THE BIRTHPLACE DISPUTE RESOLVES TO NEITHER SIDE: *** the census says ST PANCRAS and the tree says ST PAUL'S, and the registration district is *** HOLBORN *** - which is where his sister ISABELLA was born, recorded in 1861 as \"London (City), ST ANDREW\", that is St Andrew Holborn. (3) *** HIS MIDDLE NAME IS WALKER. ***"
+ },
+ {
+  "child": "*** BRAILEY, GEORGINA MARGARET ***",
+  "GRO reference": "*** 1850, September quarter, THE BIDEFORD UNION - Volume 10, page 52 ***",
+  "sex": "F",
+  "what it settles": "*** CONFIRMS A CORRECTION THIS ARCHIVE MADE FROM A CENSUS. *** The tree said \"b. 1851, Bideford\"; the 1851 census showed her eight months old on 30 March 1851 and data/1851-bideford-brayley.tsv called the tree *** a year late ***. A September-quarter 1850 registration is exactly that."
+ },
+ {
+  "child": "*** AND THE TWO WHO ARE NOT THERE ***",
+  "GRO reference": "-",
+  "sex": "-",
+  "what it settles": "*** ISABELLA BRAILEY, born about 1841 at St Andrew, London, and MARY ANN HELLEN BRAYLEY, born 20 May 1843 at St Bartholomew's, City of London. *** Neither has a birth registration under this mother, in any spelling the index will reach, across fifteen years. *** THE NULL IS NOW DOUBLE AND IT COMES FROM TWO DIRECTIONS: *** FreeBMD could not find Mary Ann Hellen under her own name in September, and the GRO cannot find her under her mother's in October."
+ }
+]

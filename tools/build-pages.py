@@ -69,7 +69,8 @@ for name in ("corrections", "errands", "gaps", "timeline", "photograph-these",
              "taylor-group-photograph",
              "taylor-group-vs-census",
              "taylor-baptisms-northam",
-             "gro-taylor-brayley-births"):
+             "gro-taylor-brayley-births",
+             "gro-brailey-temple-births"):
     data = rows(name)
     (OUT / f"{name}.json").write_text(json.dumps(data, indent=1, ensure_ascii=False) + "\n",
                                       encoding="utf-8")

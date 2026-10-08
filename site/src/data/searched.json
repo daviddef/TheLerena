@@ -156,5 +156,24 @@
    "devon",
    "gro"
   ]
+ },
+ {
+  "src": "General Register Office (gro.gov.uk) - birth index, England and Wales; second pass, one generation up",
+  "url": "https://www.gro.gov.uk/gro/content/certificates/indexes_search.asp",
+  "film": null,
+  "waypoint": null,
+  "what": "BRAYLEY births (loose surname matching) with mother's maiden surname TEMPLE, 1838-1852, both sexes - six searches. TWO CHILDREN FOUND AND TWO ABSENCES ESTABLISHED. The method is the same as the pass before it and the lesson is sharper: searching for a PERSON who may never have been registered can only ever fail, while searching for her PARENTS returns the children who ARE in the book and therefore the shape of who is missing. THE SPELLING CONTROL IS BUILT IN - the query used one spelling of the surname and the index returned the other both times, so the absences are not an artefact. WHAT THE ABSENCES MEAN: the two earliest children, both born in a capital city in the early 1840s, are unregistered; the two later ones are registered. Birth registration was not compulsory on parents in England and Wales until the Act of 1874, in force 1875, and under-registration in the 1840s fell heaviest on the urban poor - which this household is recorded as being. Useful to anyone hunting an early-Victorian birth that will not appear.",
+  "when": "2026-10-08",
+  "outcome": "yield",
+  "pages": null,
+  "walked": false,
+  "tags": [
+   "brayley",
+   "brailey",
+   "temple",
+   "holborn",
+   "bideford",
+   "gro"
+  ]
  }
 ]
