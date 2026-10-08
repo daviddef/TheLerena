@@ -60,17 +60,54 @@ def rows(path):
 def main():
     hdr, people = rows(REG)
     out, n_death, n_by, n_birth, n_none = [], 0, 0, 0, 0
+    ambiguous = []
     for p in people:
         name = p["name"]
         born = (p.get("born_est") or "").strip()
         hay = " ".join([p.get("source", ""), p.get("note", "")])
-        m = DEATH.search(hay)
+        ms = list(DEATH.finditer(hay))
         mc = DEATH_CERT.search(hay)
         mf = FILE_YR.search(hay)
-        if m:
-            day, mon, yr = m.groups()
+
+        # *** A ROW'S PROSE CAN HOLD SOMEBODY ELSE'S DEATH, AND THIS USED TO TAKE IT. ***
+        # Fixed 8 October 2026. This read the FIRST "died <date>" anywhere in the row and
+        # called it "an explicit death date on this person's row". On that day Pablo
+        # Armando's note gained a sentence describing the three burials in his own grave -
+        # including "Careen Maria, two weeks old, died 27 June 1947" - and the tool moved
+        # his death from "by 1950" to 1947-Jun-27, promoting it from a CEILING to a stated
+        # DEATH. check-spines caught it, because the /uruguay/ ladder still said 1950.
+        #
+        # The bug is worse than one wrong cell: it fires precisely when a note gets BETTER.
+        # The richer the prose, the more likely it names another person's death, and the
+        # tool silently preferred whichever came first in the string.
+        #
+        # SO MATCHES ARE NOW CORROBORATED RATHER THAN RANKED BY POSITION. A death
+        # certificate or an estate file gives an independent ceiling YEAR. Where the prose
+        # offers several distinct death years, the ones that do not agree with that ceiling
+        # are not this person's, and are dropped. Where nothing corroborates, the tool
+        # refuses to choose: it falls back to the ceiling if there is one and says the row
+        # was ambiguous, because a confident wrong date is worse than a stated bound.
+        ceiling = int(mc.group(1)) if mc else (file_year(mf) if mf else None)
+        yrs = {int(x.group(3)) for x in ms}
+        chosen, basis = None, "explicit death date on this person's row"
+        if len(yrs) == 1:
+            chosen = ms[0]
+        elif len(yrs) > 1 and ceiling is not None:
+            keep = [x for x in ms if int(x.group(3)) == ceiling]
+            if keep:
+                chosen = keep[0]
+                basis = (f"explicit death date on this person's row, chosen from {len(yrs)} "
+                         f"different death years in the prose because it agrees with the "
+                         f"{ceiling} record - the others are other people's")
+            else:
+                ambiguous.append(f"{name}: prose holds {sorted(yrs)}, none matching the {ceiling} record")
+        elif len(yrs) > 1:
+            ambiguous.append(f"{name}: prose holds {sorted(yrs)} and nothing corroborates any of them")
+
+        if chosen is not None:
+            day, mon, yr = chosen.groups()
             date = yr if not mon else (f"{yr}-{mon[:3].title()}" + (f"-{day}" if day else ""))
-            out.append((name, born, date, "explicit death date on this person's row", "DEATH"))
+            out.append((name, born, date, basis, "DEATH"))
             n_death += 1
         elif mc or mf:
             yr = mc.group(1) if mc else str(file_year(mf))
@@ -103,6 +140,11 @@ def main():
     print(f"              NOTE: {known} of {tot} ({100*known//tot}%) are known to have died. "
           f"The other {n_birth + n_none} carry a BIRTH FLOOR and nothing more - being named in a "
           f"later record is not evidence they were alive for it.")
+    if ambiguous:
+        print(f"              *** {len(ambiguous)} row(s) name more than one death and could not be "
+              f"resolved; each fell back to a ceiling or a floor rather than guess:")
+        for a in ambiguous:
+            print(f"                - {a}")
     return 0
 
 

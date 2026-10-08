@@ -2,9 +2,9 @@
  {
   "name": "Pablo Armando LERENA (Robert Paul; \"Bob\")",
   "born_est": "1882-02-22",
-  "last_attested_alive": "by 1950",
-  "basis": "a death certificate dated 1950 - a CEILING, not a date: the file year can trail the death by years",
-  "tier": "DEATH BY"
+  "last_attested_alive": "1950-Mar-19",
+  "basis": "explicit death date on this person's row, chosen from 2 different death years in the prose because it agrees with the 1950 record - the others are other people's",
+  "tier": "DEATH"
  },
  {
   "name": "Mary Septima TAYLOR",
@@ -2221,9 +2221,9 @@
  {
   "name": "Mauricio LERENA (of Colla/Rosario, m. Casimira Montano 1837)",
   "born_est": "c.1815",
-  "last_attested_alive": "1925-Mar-3",
-  "basis": "explicit death date on this person's row",
-  "tier": "DEATH"
+  "last_attested_alive": "c.1815",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Ramon LERENA (of Rosario-Colla, fl. c.1800-1820)",

@@ -86,14 +86,14 @@
   "walked": false
  },
  {
-  "src": "FamilySearch / City of Cape Town - South Africa, Cape, Cemetery Records 1872-2011; Maitland (Woltemade) Road Cemetery Record of Interments, two openings",
-  "url": "https://www.familysearch.org/search/collection/2790463",
-  "film": null,
+  "src": "FamilySearch / City of Cape Town - South Africa, Cape, Cemetery Records 1872-2011; Maitland (Woltemade) Road Cemetery Record of Interments, Volumes 19 and 21",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSVY-JS18",
+  "film": "102346234, 102346236",
   "waypoint": null,
-  "what": "LERENA and TAYLOR interments, Cape Town. TWO OPENINGS AT KNOWN FOLIOS, NOT A WALK - the register runs to tens of thousands of entries and only the two pages naming these surnames were read. THE IMAGES WERE SUPPLIED, NOT FETCHED, so no DGS film, no image ark and no waypoint can be given, and the locator is the register's own page and entry number. THE ROUTE IS INFERRED, NOT RECORDED: the supplied page carries black redaction bars, and this collection's own description says its images are redacted, which is why it is filed here - but nobody wrote down where the scan came from at the time, and that is a guess from a fingerprint rather than a provenance",
+  "what": "LERENA and TAYLOR interments, Cape Town, across three openings in two volumes - image group 102346234 ('Volume 19', 1946-1947) image 208 of 255, and 102346236 ('Volume 21', 1949-1951) image 93 of 252. THREE PLATES AT KNOWN FOLIOS, NOT A WALK: the registers run to tens of thousands of entries and only the pages carrying these surnames were read. NO WAYPOINT WAS ESTABLISHED - this collection is served as numbered IMAGE GROUPS and no wc=/owc= appeared in any URL on the path from the record to the plate, so the image-group numbers are recorded in `film` and nothing has been guessed. THE SURNAME IS WHY THIS NEARLY FAILED: the 1950 burial is indexed as LESINA, and no surname search of any spelling reaches it. It was found by searching GIVEN NAME plus death year within the collection and reading 663 results. That technique is the transferable part. ONE DEFECT WORTH PASSING ON: FamilySearch's own generated citation for image group 102346236 reads 'Maitland, Cape Town, Cape, Cape Colony, Seine-Maritime, France records' - its place matcher resolves this Cape Colony to a French department.",
   "when": "2026-10-08",
   "outcome": "yield",
-  "pages": "3215, 4706",
+  "pages": "3215, 4706, 339",
   "walked": false,
   "collection": "https://www.familysearch.org/search/collection/2790463",
   "tags": [

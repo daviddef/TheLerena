@@ -3,7 +3,7 @@
 # person certainly existed, and it is exactly the row where 'named' and 'alive'
 # can diverge without anyone noticing.
 name	born_est	last_attested_alive	basis	tier
-Pablo Armando LERENA (Robert Paul; "Bob")	1882-02-22	by 1950	a death certificate dated 1950 - a CEILING, not a date: the file year can trail the death by years	DEATH BY
+Pablo Armando LERENA (Robert Paul; "Bob")	1882-02-22	1950-Mar-19	explicit death date on this person's row, chosen from 2 different death years in the prose because it agrees with the 1950 record - the others are other people's	DEATH
 Mary Septima TAYLOR	1884-09-17	1935-Nov-15	explicit death date on this person's row	DEATH
 Roque Luis Armando LERENA	1905-11-25	by 1973	an estate or death-notice file numbered /73 dated 1973 - a CEILING, not a date: the file year can trail the death by years	DEATH BY
 Ricardo Juan Carlos LERENA	1920-01-06	1920-01-06	born_est only - a floor, not an attestation	BIRTH ONLY
@@ -320,7 +320,7 @@ Fidel LERENA (m. Maria Ruedas)	-	-	born_est only - a floor, not an attestation	B
 Josefa SEGUEIRA (wife of Pedro LERENA)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Jose SEGUEIRA	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Ramona (wife of Jose SEGUEIRA)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Mauricio LERENA (of Colla/Rosario, m. Casimira Montano 1837)	c.1815	1925-Mar-3	explicit death date on this person's row	DEATH
+Mauricio LERENA (of Colla/Rosario, m. Casimira Montano 1837)	c.1815	c.1815	born_est only - a floor, not an attestation	BIRTH ONLY
 Ramon LERENA (of Rosario-Colla, fl. c.1800-1820)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Maria Josefa GONZALEZ (wife of Ramon LERENA of Colla)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Dona Casimira MONTANO (wife of Mauricio LERENA)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
