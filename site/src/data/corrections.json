@@ -982,5 +982,13 @@
   "what_is_true": "*** TRUE OF THE EXPEDIENTE, NOT OF THIS BOOK. *** The Arquidiocesis de Montevideo Marriage Dispensation Records are the Vicar General's *** SUMMARY LEDGER *** - one sentence per couple, recording whom he dispensed and from what. *** NOT ONE OF THE NINE LERENA ENTRIES READ TODAY NAMES A PARENT. *** The informaciones matrimoniales are a different series, and two record classes were conflated because both are called dispensations in English. *** AND THE LEDGER IS STILL WORTH MORE THAN EXPECTED, FOR A DIFFERENT REASON: *** a consanguinity dispensation states the DEGREE of kinship between the couple, which the Church computed before it would dispense - second degree equal lateral is first cousins, third is second cousins, and 'with attingency to the second' is two blood paths at once. *** That constrains a pedigree where no parent is written down. ***",
   "how_it_was_caught": "*** BY OPENING NINE OF THEM INSTEAD OF ONE. *** The first entry read, on 8 October, was a plain banns dispensation and said nothing either way; the expectation survived because it was never tested against a second.",
   "retired": ""
+ },
+ {
+  "date": "2026-10-09",
+  "severity": "moderate",
+  "what_was_said": "*** That ZELMIRA CARLOTA LERENA LARRIERA married Adolfo Cordero at Montevideo on 28 FEBRUARY 1901. *** Carried in her register row since 14 September, from an index.",
+  "what_is_true": "*** THE ACT SAYS 28 FEBRUARY 1904. *** Same day, same month, three years later. *** THE BOOK DECIDES IT: *** the register is *** La Union, Montevideo, Religious Marriage Records 1902-1934 ***, so a 1901 marriage cannot be in it, and the entry immediately above this one is dated *** May 1902 ***. *** AND IT MAKES SENSE OF THE DISPENSATION: *** the Vicar General lifted their consanguinity impediment on *** 1 February 1901 *** - they were cleared to marry three years before they did. *** A SECOND DISCREPANCY IS RECORDED AND NOT RESOLVED: *** the act makes her *** twenty *** in February 1904, which means born about 1883-84, where this register has her born *** 4 November 1880 ***. Both stand.",
+  "how_it_was_caught": "*** BY FULL-TEXT SEARCH ON HER FORENAMES, after the dispensation ledger turned out to name no parents. *** The ledger entry found yesterday gave the impediment and the date it was lifted; *** the act gives four parents, two ages, two nationalities, a profession and an address ***, and confirms the ledger's wording of the impediment word for word.",
+  "retired": ""
  }
 ]

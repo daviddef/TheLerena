@@ -41,10 +41,43 @@ import maria from "../data/maria-llerena-casa-2.json";
 import filmmap from "../data/film-7499043-map.json";
 import sanjose from "../data/alberto-lerena-larriera.json";
 import disp from "../data/montevideo-dispensations-fulltext.json";
+import zact from "../data/zelmira-cordero-1904-act.json";
 ---
 <Base title="Uruguay"
       eyebrow="Two Lerena families, two Spanish origins, and neither of them is his"
       dek="There are two documented Lerena families in nineteenth-century Uruguay, and on 17 September 2026 a baptism act of 1812 settled what they are to each other: nothing. One came from Córdoba in Andalusia, the other from Valdemoro outside Madrid. The surname entered the Banda Oriental twice, from opposite ends of Spain.">
+
+<section class="blk">
+  <h2 id="s-zelmira-act">The act behind one of them</h2>
+  <p class="dek">9 October 2026. What the ledger could not give.</p>
+  <div class="prose">
+    <p><strong>The dispensation register names a couple and an impediment and no parent.</strong> The
+      <em>act</em> names four parents, two ages, two nationalities, a profession, an address and a
+      church. This one is headed, in the register&rsquo;s own hand,
+      <strong>&ldquo;Matrimonio de Cordero y Lorena&rdquo;</strong>.</p>
+  </div>
+  <dl class="kv" style="margin-top:18px">
+    {zact.filter((r) => r.field).map((r) => (
+      <div><dt set:html={emph(r.field)} /><dd>
+        <span set:html={emph(r["what the act says"])} /><br />
+        <span class="cap" set:html={emph(r["what it settles"])} />
+      </dd></div>
+    ))}
+  </dl>
+  <div class="prose" style="margin-top:18px">
+    <p><strong>She was a woman this archive wrote off.</strong> On 14 September
+      <strong>Zelmira Carlota Lerena Larriera</strong> was tested and set aside as
+      &ldquo;not ours&rdquo;; that verdict was itself corrected. <strong>Here she is on an act of her
+      own</strong>, with her parents named in a register rather than an index, and married to a man
+      the Archbishop had to dispense because he was her blood relative.</p>
+    <p><strong>And the act writes her surname twice, two ways.</strong> Her father is
+      <em>&ldquo;D. Alberto <strong>Serena</strong>&rdquo;</em>; her mother, witnessing four lines
+      later, is <em>&ldquo;Do&ntilde;a Mar&iacute;a In&eacute;s Larriera de <strong>Lerena</strong>&rdquo;</em>.
+      They are husband and wife. <strong>It is the cleanest demonstration of the S-for-L trap this
+      archive has collected</strong>, because no other explanation is available.
+      <a href={u("/name/")}>The name &rarr;</a></p>
+  </div>
+</section>
 
 <section class="blk">
   <h2 id="s-dispensations">Nine dispensations, and the degree of kinship in each</h2>

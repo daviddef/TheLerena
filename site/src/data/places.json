@@ -594,6 +594,15 @@
   "count": 2
  },
  {
+  "slug": "argentina-san-jose",
+  "name": "Argentina / San Jose",
+  "people": [
+   "casimira-chavarria",
+   "adolfo-m-cordero"
+  ],
+  "count": 2
+ },
+ {
   "slug": "retiro-buenos-aires",
   "name": "Retiro, Buenos Aires",
   "people": [
@@ -742,6 +751,14 @@
   "name": "Las Piedras, Canelones",
   "people": [
    "eduardo-lerena-2"
+  ],
+  "count": 1
+ },
+ {
+  "slug": "san-jose-uruguay",
+  "name": "San Jose, Uruguay",
+  "people": [
+   "adolfo-maximo-cordero"
   ],
   "count": 1
  }

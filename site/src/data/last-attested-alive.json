@@ -2819,5 +2819,26 @@
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Adolfo Maximo CORDERO (m. Zelmira Carlota Lerena 1904)",
+  "born_est": "1875",
+  "last_attested_alive": "1875",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Casimira CHAVARRIA (m. Adolfo M. Cordero)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Adolfo M. CORDERO (the elder)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]
