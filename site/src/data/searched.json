@@ -502,9 +502,9 @@
   "url": "https://www.familysearch.org/search/record/results?q.surname=Lerena&q.spouseSurname=Llanos",
   "film": null,
   "waypoint": null,
-  "what": "LEANDRO LORENA (wife LLANOS) and CONCEPCION LERENA (a mother with no father named) were both searched and neither is in the index. THE METHOD FINDING MATTERS MORE THAN THE NULL, and it is for any archive using this search: a PARENT-pair query (q.fatherSurname + q.motherSurname) and a SPOUSE-pair query (q.surname + q.spouseSurname) are NOT the same search and do not reach the same records. The parent form asks 'whose CHILD has these parents' and fails where a record is indexed with the FATHER as principal - it returned a clean 0 for a couple whose three children this archive had read the day before. The spouse form found all three at once. Re-run any parent-pair null in the spouse form before trusting it.",
+  "what": "ATTEMPTED AND WITHDRAWN THE SAME DAY. Searches for LEANDRO LORENA (wife LLANOS) and CONCEPCION LERENA were run on a FamilySearch session that had SILENTLY SIGNED OUT. A signed-out search returns a restricted fuzzy tier - twenty-one rows of United States census for every query, whatever the constraint - and the page says so in one line above the results: 'Create a free account or sign in to see all available results.' NOTHING IS ESTABLISHED ABOUT EITHER MAN.",
   "when": "2026-10-10",
-  "outcome": "nothing",
+  "outcome": "blocked",
   "walked": false,
   "tags": [
    "lerena",
@@ -514,6 +514,6 @@
    "argentina",
    "familysearch"
   ],
-  "note": "CONTROLLED: the spouse form on CARNIGLIA, run in the same session, returns three true hits, so the form is sound and the Llanos pair is genuinely absent. SECOND TRAP RECORDED: when a filtered search matches nothing, this service does not say zero - it silently widens to fuzzy surname matches and returns a full page of United States census rows. Count the rows that carry your constraint, not the rows that come back. THE OPEN ROUTE FOR CONCEPCION IS NOT A SEARCH: her son's 1899 Mendoza baptism should lie in Santiago Apostol y San Nicolas, Baptism Records 1899-1901, DGS 004597291 - the volume this archive has already read twice - and it needs a page-by-page read."
+  "note": "HOW IT WAS CAUGHT, AND IT IS THE ONLY PART WORTH CARRYING: the control was run BEFORE the null and not after. The same spouse-pair query on CARNIGLIA returned three true hits earlier that day - two of whose acts were read off the plate - and returned nothing at all an hour later. ON ANY SIGNED-IN SERVICE A CONTROL MUST BE RE-RUN AFTER THE NULL IT PROTECTS, because the session can change state in between. The cheapest detector is the page header: the account name, or the words 'sign in to see all available results'. This archive already held this trap as false-zero disguise seventeen, 'THE SESSION THAT LOGGED ITSELF OUT AND DID NOT SAY SO', and walked into it anyway."
  }
 ]
