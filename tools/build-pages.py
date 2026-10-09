@@ -172,9 +172,9 @@ for r in rows("corrections"):
 for r in rows("errands"):
     idx.append({"t": plain(r["what"]), "k": "errand", "u": "/errands/", "d": r["who"], "s": r["status"]})
 for r in rows("gaps"):
-    idx.append({"t": plain(r["gap"]), "k": "gap", "u": "/gaps/", "d": plain(r["why_it_may_never_close"])[:180], "s": ""})
+    idx.append({"t": plain(r["gap"]), "k": "gap", "u": "/open-questions/#may-never-close", "d": plain(r["why_it_may_never_close"])[:180], "s": ""})
 for r in rows("photograph-these"):
-    idx.append({"t": plain(r["what"]), "k": "photograph", "u": "/photograph-these/", "d": r["where"], "s": ""})
+    idx.append({"t": plain(r["what"]), "k": "photograph", "u": "/errands/#photographs", "d": r["where"], "s": ""})
 for r in rows("sources-consulted"):
     idx.append({"t": plain(r["source"])[:90], "k": "source", "u": "/sources/",
                 "d": plain(r["used_for"])[:180], "s": r["tier"]})

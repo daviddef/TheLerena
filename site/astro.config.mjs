@@ -2,6 +2,14 @@ import { defineConfig } from 'astro/config';
 
 // GitHub Pages project site. Change `base` to '/' and `site` to the domain
 // if this ever moves to a custom domain.
+/* 9 October 2026. Two pages folded into pages that do the same job; their published
+   addresses stay alive and land on the section that now holds them. */
+const BASE = '/TheLerena';
+const redirects = {
+  '/gaps': `${BASE}/open-questions/#may-never-close`,
+  '/photograph-these': `${BASE}/errands/#photographs`,
+};
+
 export default defineConfig({
   site: 'https://daviddef.github.io',
   base: '/TheLerena',
@@ -20,4 +28,5 @@ export default defineConfig({
   outDir: process.env.ARCHIVE_OUT || 'dist',
 
   build: { format: 'directory' },
+  redirects,
 });

@@ -2,6 +2,9 @@
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 import Questions from "@daviddef/archive-kit/components/Questions.astro";
+import Rule from "../components/Rule.astro";
+import gaps from "../data/gaps.json";
+import { emph } from "../lib/text.js";
 import qs from "../data/open-questions.json";
 
 /* THE QUESTIONS ARE ROWS NOW, not prose - extracted 7 October 2026 into
@@ -18,6 +21,14 @@ import qs from "../data/open-questions.json";
    refactor that loses a question's negative evidence is worse than the prose
    it replaced. */
 const rows = qs.filter((r) => r.q);
+/* 9 October 2026. «What we cannot close» folded in here. It said so itself, in its
+   own words: "not the same page as the open questions", the places where the work
+   has been done properly and the record may simply not exist. That is a STATE of
+   a question, not a separate subject, and a reader looking for what this archive
+   does not know had to find two pages. /gaps/ redirects to #may-never-close. The
+   count is derived from the data, so the sentence cannot go stale. */
+const NUM = ["no", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve"];
+const word = (n) => (n < NUM.length ? NUM[n] : String(n));
 ---
 <Base title="Open Questions"
       eyebrow="Published so strangers can help"
@@ -30,8 +41,33 @@ const rows = qs.filter((r) => r.q);
       regrets &mdash; <strong>the specific record that would answer it</strong>.</p>
     <p class="cap">The two marked <em>blocked</em> are not questions about the family. They are routes
       that failed, kept so nobody walks them again.</p>
+    <p class="cap">And {word(gaps.length)} more <strong>may never close</strong>: the work has been done
+      properly and the record may simply not exist. <a href="#may-never-close">Those are below &darr;</a></p>
   </div>
   <Questions rows={rows} u={u} unit="questions" />
+</section>
+
+<Rule name="arrows" label="Unfinished, and possibly unfinishable" />
+
+<section class="blk" id="may-never-close">
+  <h2>What we cannot close</h2>
+  <div class="prose">
+    <p>An archive that lists only its questions implies they are all answerable. Some are not. A parish
+      register with a gap in it, a marriage in a country nobody has narrowed, a farm held on a lease that
+      left no title &mdash; these do not yield to persistence.</p>
+    <p><strong>Each row says what was actually done</strong>, so that nobody repeats it, and then says
+      plainly what would have to exist for the gap to be closable at all.</p>
+  </div>
+  {gaps.map(r => (
+    <div class="panel" style="margin-top:20px">
+      <p style="margin:0;font-size:1.08rem"><strong set:html={emph(r.gap)} /></p>
+      <p style="margin:12px 0 0"><span class="lab">What has been done</span><br /><span set:html={emph(r.what_has_been_done)} /></p>
+      <p style="margin:12px 0 0"><span class="lab">Why it may never close</span><br /><span set:html={emph(r.why_it_may_never_close)} /></p>
+    </div>
+  ))}
+  <div class="note" style="margin-top:20px">These are distinct from the open questions above, which
+    are answerable and merely unanswered, and from the <a href={u("/hypotheses/")}>hypotheses</a>, which
+    are propositions this archive is entertaining without having proved.</div>
 </section>
 
 </Base>

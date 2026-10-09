@@ -5,6 +5,8 @@ import Errands from "@daviddef/archive-kit/components/Errands.astro";
 import { u } from "../lib/url.js";
 import rows from "../data/errands.json";
 import { emph, plain } from "../lib/text.js";
+import Shotlist from "@daviddef/archive-kit/components/Shotlist.astro";
+import shots from "../data/photograph-these.json";
 const LABEL = { sent: ["inf", "Sent, awaiting reply"], replied: ["doc", "Answered"],
                 "waiting-on-david": ["lore", "Needs a person"],
                 ready: ["inf", "Written, not sent"], done: ["doc", "Done"], blocked: ["", "Blocked"] };
@@ -26,6 +28,20 @@ const toRows = (list) => list.map(r => ({
   colour: COLOUR[(LABEL[r.status] || LABEL.blocked)[0]],
 }));
 
+/* 9 October 2026. «Photograph these» folded in here. It is an errand in every field
+   the kit's Errands row has: a place, why the picture is worth the trip, what it
+   would settle, and nobody asked yet. The difference is only WHO is asked, which
+   is anybody standing in Cape Town with a camera, so it keeps its own list
+   (ranked by what the picture would settle, with a separate «what to capture» line)
+   under its own heading. /photograph-these/ redirects to #photographs. */
+const shotGroups = [{
+  rows: shots.map((r) => ({
+    tag: r.priority, where: r.where, what: emph(r.what), why: emph(r.why_it_matters),
+    capture: r.what_to_capture, colour: r.priority === "1" ? "var(--accent)" : null,
+  })),
+}];
+const NUM = ["no", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve"];
+const word = (n) => (n < NUM.length ? NUM[n] : String(n));
 const groups = [
   ["Answered", rows.filter(r => r.status === "replied")],
   ["Out, and waiting on a reply", rows.filter(r => r.status === "sent")],
@@ -34,7 +50,7 @@ const groups = [
 ];
 ---
 <Base title="Errands"
-      eyebrow={`${rows.filter(r=>r.status==="replied").length} answered · ${rows.filter(r=>r.status==="sent").length} still out · ${rows.filter(r=>!["sent","replied","done"].includes(r.status)).length} need a person`}
+      eyebrow={`${rows.filter(r=>r.status==="replied").length} answered · ${rows.filter(r=>r.status==="sent").length} still out · ${rows.filter(r=>!["sent","replied","done"].includes(r.status)).length} need a person · ${shots.length} places to photograph`}
       dek="What this archive has asked of other archives, and the handful of jobs that need a human being in a particular building. Published so that the waiting is visible rather than invisible.">
 
 {groups.map(([title, list]) => list.length > 0 && (
@@ -53,6 +69,22 @@ const groups = [
   <section class="blk"><p class="small">Filed under a status this page has no label for:
     {unlabelled.join(", ")}.</p></section>
 )}
+
+<Rule name="star" label="Photographs only someone there can take" />
+
+<section class="blk" id="photographs">
+  <h2 class="vh">Photographs only someone there can take</h2>
+  <div class="prose">
+    <p>Everything this archive would like a picture of, and cannot take itself. Each says what the
+      photograph would settle, and what to capture, because a photograph of the wrong part of a thing is a
+      wasted trip. All {word(shots.length)} are in Cape Town, within half an hour of each other.
+      <strong>Someone with a morning and a camera could close the first two.</strong></p>
+  </div>
+  <Shotlist groups={shotGroups} u={u} />
+  <div class="note" style="margin-top:20px"><strong>The first one already has a photograph, and it is not enough.</strong> A
+    stranger photographed that kerb in 2021 and published it through eGGSA; it shows the surname and no
+    more. <a href={u("/south-africa/")}>What the cemetery records say &rarr;</a></div>
+</section>
 
 <section class="blk">
   <p class="cap">Every letter&rsquo;s full text is kept in <span class="mono">requests/</span> in the
