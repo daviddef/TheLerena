@@ -1,0 +1,17 @@
+[
+ {
+  "who": "*** LEANDRO LORENA and LUCIO LLANOS - a true null, properly controlled ***",
+  "what was found": "Signed in, *** q.surname=Lorena & q.spouseSurname=Llanos *** binds correctly and returns *** ELEVEN rows carrying the name LLANOS *** - Bolivian, Spanish, Colombian, Mexican and Peruvian records among them. *** EXACTLY ONE IS THIS COUPLE, AND IT IS THE ARMY CARD ITSELF: *** 'Leandro Lorena, Father, Argentina Military Records 1911-1936, Spouses Lucio Llanos, Children Salvador Lorena'.",
+  "what it settles": "*** THE CARD IS THE ONLY RECORD OF THIS HOUSEHOLD IN THE INDEX. *** No baptism, no marriage, no civil registration, in any country. *** THIS IS WHAT A CONTROLLED NULL LOOKS LIKE WHEN THE SEARCH IS WORKING: *** the constraint binds, eleven unrelated families carry the wife's surname, and the couple is not among them. *** THE EARLIER VERSION OF THIS NULL WAS TAKEN SIGNED OUT AND WAS WORTHLESS. ***"
+ },
+ {
+  "who": "*** CONCEPCION LERENA - not a null, and the card had been misread twice ***",
+  "what was found": "*** Fichas dactiloscopicas: Distrito Militar 3, Military Fingerprint Cards 1927-1936 ***, DGS 112925897 image 858, ark 3:1:3QHV-MQGG-Y7SR - *** A DIFFERENT DRAWER FROM CAJON 985 ***, and a different record class: a fingerprint card, not an enrolment ficha. *** PLATE READ 10 October 2026: *** 'Las impresiones digitales que aparecen en esta hoja pertenecen al ciudadano *** LERENA ENRIQUE CARLOS, hijo de [STRUCK THROUGH], de CONCEPCION LERENA, nacido en CAP. FEDERAL ***, enrolado en el Distrito Militar No 3, *** clase 1899, Matricula individual No 732 ***. *** Mayo 15 de 1917. *** Firma del enrolado: *** Enrique Carlos Lerena ***'.",
+  "what it settles": "*** THE FATHER'S FIELD IS NOT BLANK - IT IS DELIBERATELY STRUCK OUT WITH A WAVY LINE. *** So the drawer summary was right to call this one 'mother only', and *** THE INDEX'S 'Spouses Carlos' IS AN ARTEFACT ***: the indexer took CARLOS from the son's own forename. *** AND THE BIRTHPLACE IS WRONG IN BOTH THE INDEX AND THIS ARCHIVE: *** FamilySearch gives 'Capital, Mendoza, Argentina' and data/cajon-985-origins.tsv has carried 'Enrique Carlos (1899 Mendoza)' since 13 September. *** THE CARD SAYS CAP. FEDERAL *** - Buenos Aires. *** AND THE SURNAME IS LERENA, WHERE THE INDEX SAYS SERENA ***, in his own signature at the foot."
+ },
+ {
+  "who": "*** AND IT STRENGTHENS THE CENTRAL EVIDENCE OF THIS ARCHIVE ***",
+  "what was found": "On this card the unknown father is *** cancelled with a pen stroke ***. On Pablo Armando Lerena's card, both parents are written out: *** JUAN CARLOS LERENA and MARIA LERENA ***.",
+  "what it settles": "*** SO THE ARGENTINE MILITARY CLERKS STRUCK OUT WHAT THEY DID NOT KNOW RATHER THAN LEAVING IT TO BE GUESSED AT. *** *** THAT MAKES 'MARIA LERENA' ON PABLO ARMANDO'S CARD A POSITIVELY RECORDED ENTRY AND NOT A FILLER ***, which is a thing this archive has wanted to know since 10 September: open question 1 says of her name that 'some clerks used the married name, and the card cannot tell'. *** THIS DOES NOT DECIDE MAIDEN AGAINST MARRIED. *** It does show the field was filled when known and cancelled when not, so her name was not supplied by habit."
+ }
+]

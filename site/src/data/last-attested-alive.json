@@ -3134,5 +3134,19 @@
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Enrique Carlos LERENA (clase 1899, Distrito Militar 3)",
+  "born_est": "1899",
+  "last_attested_alive": "1899",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Concepcion LERENA (mother of Enrique Carlos, clase 1899)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]

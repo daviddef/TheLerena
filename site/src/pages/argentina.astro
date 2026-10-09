@@ -9,6 +9,7 @@ import letter from "../data/letter-registro-civil-santafe.json";
 import Spine from "@daviddef/archive-kit/components/Spine.astro";
 import mza from "../data/mendoza-carlos-lerena-1900.json";
 import arturo from "../data/arturo-lerena-garcia-chile.json";
+import lasttwo from "../data/cajon-985-last-two.json";
 
 /* Every Lerena Argentina can actually produce, and where each one came from.
    Three households, three arrows back across the river — and one man with no
@@ -99,6 +100,7 @@ const hasArt = fs.existsSync(
       <li><a href="#s-the-1895-census-a-lerena-household-and-it-is-not-his">The 1895 census: a Lerena household, and it is not his</a></li>
       <li><a href="#s-mendoza-carlos">One of the four untraced fathers is Uruguayan</a></li>
       <li><a href="#s-arturo-chile">Arturo Lerena Garc&iacute;a, and a country this archive had never opened</a></li>
+      <li><a href="#s-cajon-last-two">The last two of Caj&oacute;n 985 &mdash; and a card read three ways wrong</a></li>
       <li><a href="#s-every-lerena-argentina-can-produce">Every Lerena Argentina can produce, drawn</a></li>
       <li><a href="#s-three-refusals-and-one-direction">Three refusals, and one direction</a></li>
       <li><a href="#s-where-to-go-next">Where to go next</a></li>
@@ -428,6 +430,40 @@ const hasArt = fs.existsSync(
       nationality for the <em>deceased</em> only and never asks where the father was born &mdash; where
       the Mendoza form, the same afternoon, placed Carlos Lerena in a city. <strong>He is recorded as a
       Lerena Garc&iacute;a and nothing more.</strong></p>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-cajon-last-two">The last two of Caj&oacute;n 985 &mdash; and a card read three ways wrong</h2>
+  <p class="dek">10 October 2026. Re-run signed in, with the control re-run <em>after</em> the null.</p>
+  <div class="prose">
+    <p><strong>Both of these were searched earlier the same day on a session that had silently signed
+      out, and both results were withdrawn.</strong> These are the searches redone properly. One is a
+      true null. <strong>The other was never a null at all.</strong>
+      <a href={u("/corrections/")}>Corrections &rarr;</a></p>
+  </div>
+  <dl class="kv" style="margin-top:18px">
+    {lasttwo.filter((r) => r.who).map((r) => (
+      <div><dt set:html={emph(r.who)} /><dd>
+        <span set:html={emph(r["what was found"])} /><br />
+        <span class="cap" set:html={emph(r["what it settles"])} />
+      </dd></div>
+    ))}
+  </dl>
+  <div class="prose" style="margin-top:18px">
+    <p><strong>Three errors in one index entry.</strong> The surname is <strong>Lerena</strong>, in
+      his own signature, where the index says <em>Serena</em>. The index gives him a father,
+      &ldquo;Spouses Carlos&rdquo;, where <strong>the card&rsquo;s father field is cancelled with a
+      pen stroke</strong> &mdash; the indexer took <em>Carlos</em> from the son&rsquo;s own forename.
+      And the index puts his birth at <em>Mendoza</em> where the card says
+      <strong>Cap. Federal</strong>. This archive had copied that third one into its own working file
+      and carried it for four weeks.</p>
+    <p><strong>And it strengthens the evidence this whole archive rests on.</strong> These clerks
+      <em>cancelled</em> a parent they did not know. Pablo Armando&rsquo;s card names both &mdash;
+      <strong>Juan Carlos Lerena and Mar&iacute;a Lerena</strong>. So her name is a positively
+      recorded entry and not a filler. <strong>It still does not decide maiden against married</strong>,
+      which is what open question 1 actually asks &mdash; only that the field was filled when known
+      and struck out when not.</p>
   </div>
 </section>
 

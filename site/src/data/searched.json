@@ -514,7 +514,7 @@
    "argentina",
    "familysearch"
   ],
-  "note": "HOW IT WAS CAUGHT, AND IT IS THE ONLY PART WORTH CARRYING: the control was run BEFORE the null and not after. The same spouse-pair query on CARNIGLIA returned three true hits earlier that day - two of whose acts were read off the plate - and returned nothing at all an hour later. ON ANY SIGNED-IN SERVICE A CONTROL MUST BE RE-RUN AFTER THE NULL IT PROTECTS, because the session can change state in between. The cheapest detector is the page header: the account name, or the words 'sign in to see all available results'. This archive already held this trap as false-zero disguise seventeen, 'THE SESSION THAT LOGGED ITSELF OUT AND DID NOT SAY SO', and walked into it anyway."
+  "note": "HOW IT WAS CAUGHT, AND IT IS THE ONLY PART WORTH CARRYING: the control was run BEFORE the null and not after. The same spouse-pair query on CARNIGLIA returned three true hits earlier that day - two of whose acts were read off the plate - and returned nothing at all an hour later. ON ANY SIGNED-IN SERVICE A CONTROL MUST BE RE-RUN AFTER THE NULL IT PROTECTS, because the session can change state in between. The cheapest detector is the page header: the account name, or the words 'sign in to see all available results'. This archive already held this trap as false-zero disguise seventeen, 'THE SESSION THAT LOGGED ITSELF OUT AND DID NOT SAY SO', and walked into it anyway. SUPERSEDED: both searches were redone signed in on 10 October and are recorded in the row below."
  },
  {
   "src": "FamilySearch - Libro de matrimonios: Crespo, Entre Rios, Argentina. Marriage Records 1924",
@@ -540,5 +540,25 @@
    "familysearch"
   ],
   "note": "NO WAYPOINT: reached through the index record's VIEW ORIGINAL DOCUMENT button, which returns an image ark without a wc= parameter, and no film number is exposed on that route either - so both fields are left null rather than guessed. A SECOND USE OF THE SAME ACT: the father also signed as a WITNESS, with his own age, marital state and residence, which is how a man who appears only as a name in the parents' line acquired a birth decade. ON ANY MARRIAGE ACT, READ THE WITNESS LIST - the same person can appear twice with different facts attached."
+ },
+ {
+  "src": "FamilySearch - the last two fathers of Cajon 985, re-run signed in; and Fichas dactiloscopicas: Distrito Militar 3, Military Fingerprint Cards 1927-1936",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3QHV-MQGG-Y7SR?view=fullText",
+  "film": "112925897",
+  "waypoint": null,
+  "what": "ONE TRUE NULL AND ONE RECORD THAT WAS NEVER A NULL. Leandro Lorena with wife LLANOS: the constraint binds signed in and returns eleven rows carrying that surname across five countries, and exactly one is this couple - the army card itself. No baptism, marriage or civil registration anywhere. Concepcion Lerena: her son's MILITARY FINGERPRINT CARD was found in a DIFFERENT DRAWER and a different record class from the enrolment fichas, reached through the person rather than through the drawer. THE PLATE CORRECTED THE INDEX THREE TIMES: surname LERENA not Serena (his own signature); NO FATHER - the field is struck through with a pen, where the index invents 'Spouses Carlos' from the son's own forename; and birthplace CAP. FEDERAL, not Mendoza.",
+  "when": "2026-10-10",
+  "outcome": "yield",
+  "pages": "858",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "lorena",
+   "llanos",
+   "buenos aires",
+   "argentina",
+   "familysearch"
+  ],
+  "note": "THE CONTROL WAS RE-RUN AFTER THE NULL THIS TIME, not only before it - which is the rule the earlier withdrawal bought. FOR ANY ARCHIVE USING ARGENTINE MILITARY RECORDS: there is more than one drawer and more than one record class. Cajon 985 holds enrolment fichas; Distrito Militar 3 holds FINGERPRINT cards with a different form and different fields. A person absent from one may sit in the other, and the way in is a person search, not a drawer walk. AND THE FORM ITSELF IS EVIDENCE: these clerks CANCELLED a parent they did not know rather than leaving the line blank, so a parent's name on one of these cards was positively supplied."
  }
 ]
