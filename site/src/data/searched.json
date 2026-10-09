@@ -342,5 +342,50 @@
    "full-text"
   ],
   "note": "NO WAYPOINT - full-text image ark only. The baptism format in this book names PARENTS and GODPARENTS but NOT grandparents; the grandparent format appears in the same parish by 1905. Worth knowing before opening a book of this series expecting four generations."
+ },
+ {
+  "src": "FamilySearch - Catedral Basilica San Jose, San Jose de Mayo (Uruguay). Religious Marriage Records March 1825-September 1859",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKH-67KL?view=fullText",
+  "film": "008143329",
+  "waypoint": null,
+  "what": "Reached from an INDEX entry rather than by searching: the 'Uruguay, Marriages, 1840-1900' index record carries Digital Folder, Microfilm and Image numbers under 'Document Information', which is the cheapest route from an index hit to the plate and is worth knowing. Image 87 is the marriage of 3 February 1837. THE POINT FOR ANY ARCHIVE: reading the plate CORRECTED the argument it was opened to confirm. A claim had been published that this act and another document give the same place of origin; the act says COLLA where the other says SAN JOSE - and the index field 'Birthplace: Colla' had said so all along, on the very page being cited.",
+  "when": "2026-10-09",
+  "outcome": "yield",
+  "pages": "87",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "montano",
+   "gonzalez",
+   "barredo",
+   "san jose",
+   "colla",
+   "uruguay",
+   "familysearch"
+  ],
+  "note": "NO WAYPOINT ESTABLISHED. This was reached by film number, and a film page's wc= names only its default segment - so the film number is recorded and the waypoint left null rather than guessed. THE VOLUME'S YEAR RANGE WAS CHECKED AGAINST THE FRAME BEFORE RECORDING: the book is March 1825 - September 1859 and the act is 1837, so the range contains it. Microfilm 625330; the index entry giving the locator is ark 1:1:F21B-SZ5."
+ },
+ {
+  "src": "FamilySearch FULL-TEXT - Flores (Uruguay). Civil Birth Records 1887-1902, and San Jose de Mayo Religious Death Records 1839-1851",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-334D-Z?view=fullText",
+  "film": null,
+  "waypoint": null,
+  "what": "Searched the exact phrase of a GRANDMOTHER's name - 'Casimira Montano' - rather than any of her descendants. ACROSS THE WHOLE CORPUS IT RETURNS 123 HITS AND ONLY TWO ARE URUGUAYAN, which is what a distinctive married-surname pair does: almost no noise, and the two hits are both the right family. One was a birth act naming her as a grandmother with her age, widowhood and STREET ADDRESS; the other, in the San Jose burial register, a daughter of hers dead at seven days in 1850. The birth act merged two register rows that had been correctly held apart for eighteen days.",
+  "when": "2026-10-09",
+  "outcome": "yield",
+  "pages": "165 (Flores births); 94 (San Jose burials)",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "montano",
+   "beloqui",
+   "delgado",
+   "flores",
+   "san jose",
+   "uruguay",
+   "familysearch",
+   "full-text"
+  ],
+  "note": "NO WAYPOINT - full-text image arks only, recorded in the url and in data/sources-consulted.tsv. San Jose burials: ark 3:1:3Q9M-CS27-J7GH-Y. A HAZARD WORTH CARRYING ACROSS ARCHIVES: the infant buried in 1850 bears her grandmother's forename, and a later woman of that same forename is listed elsewhere as a candidate child of the same couple. Reusing a dead infant's name was ordinary practice and is a standing duplicate hazard in any family that did it."
  }
 ]

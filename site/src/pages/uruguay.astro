@@ -45,6 +45,7 @@ import zact from "../data/zelmira-cordero-1904-act.json";
 import cons from "../data/trinidad-consanguinity-explained.json";
 import ans from "../data/dispensations-answered-1894-1913.json";
 import kindred from "../data/trinidad-founding-kindred.json";
+import bridge from "../data/colla-trinidad-bridge.json";
 ---
 <Base title="Uruguay"
       eyebrow="Two Lerena families, two Spanish origins, and neither of them is his"
@@ -88,6 +89,50 @@ import kindred from "../data/trinidad-founding-kindred.json";
       about 1830, who married Juan Pel&aacute;ez; and the younger, born about 1862, daughter of
       Bernab&eacute; and Casimira, who married Serapio Fern&aacute;ndez. <strong>Two women of one
       name in one small town</strong>, and this archive came close to holding one.</p>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-bridge">The bridge to Colla, and what reading the plate cost</h2>
+  <p class="dek">9 October 2026. A test named in the morning, run in the afternoon, and failed by the claim that set it.</p>
+  <div class="prose">
+    <p><strong>The obvious move was a merge, and it was refused.</strong> The Trinidad expedientes
+      gave the kindred a head &mdash; <strong>Ram&oacute;n Lerena and Mar&iacute;a Gonz&aacute;lez</strong>
+      &mdash; and this register already held a Ram&oacute;n Lerena of Rosario-Colla married to a
+      Mar&iacute;a Josefa Gonz&aacute;lez. The stated weakness was that the 1837 act behind that row
+      was <em>indexed, not image-read</em>. <strong>So it was read.</strong></p>
+    <p><strong>It corrected the argument instead of confirming it.</strong> The act says Mauricio was
+      born at <em>la Villa del Colla</em>; the expediente says the Trinidad Lerenas are
+      <em>naturales de San Jos&eacute;</em>. Different birthplaces. The &ldquo;shared origin&rdquo;
+      published that morning is withdrawn &mdash; and the index had said <em>Birthplace: Colla</em>
+      all along, on the very page being cited.
+      <a href={u("/corrections/")}>Corrections &rarr;</a></p>
+  </div>
+  <dl class="kv" style="margin-top:18px">
+    {bridge.filter((r) => r["the step"]).map((r) => (
+      <div><dt set:html={emph(r["the step"])} /><dd>
+        <span set:html={emph(r["what was found"])} /><br />
+        <span class="cap" set:html={emph(r["what it does to the argument"])} />
+      </dd></div>
+    ))}
+  </dl>
+  <div class="prose" style="margin-top:18px">
+    <p><strong>What replaced it is better evidence of a worse-behaved kind.</strong> A Flores birth
+      act of 1895 has <strong>Cipriano Lerena of Trinidad</strong> name his wife and both his parents
+      in one sentence &mdash; <strong>Mauricio and Casimira Montaño</strong>. So one of the Trinidad
+      men is a <em>grandson</em> of a Ram&oacute;n Lerena and Mar&iacute;a Gonz&aacute;lez by the
+      1837 act, and Bernab&eacute; is a grandson of a Ram&oacute;n Lerena and Mar&iacute;a
+      Gonz&aacute;lez by the 1858 diagram. <strong>Two routes, no shared document, same two
+      names.</strong></p>
+    <p><strong>That is convergence, not proof, and the merge is still refused.</strong> Two couples
+      can share two names, and Mar&iacute;a Gonz&aacute;lez is as common as the River Plate gets.
+      What would settle it: a baptism of Alejandro or Antonina at San Jos&eacute;, or any single
+      record naming this Ram&oacute;n with more than one child.</p>
+    <p class="cap"><strong>And a warning kept beside the fact.</strong> Casimira Montaño buried a
+      seven-day-old daughter, <strong>Abdona Ignacia</strong>, in 1850. The register lists an
+      <em>Ignacia Lerena</em> marrying at Trinidad in 1882 as a candidate child of the same couple.
+      Reusing a dead infant&rsquo;s name was ordinary &mdash; <strong>which is exactly how two people
+      become one by accident</strong>.</p>
   </div>
 </section>
 
@@ -143,8 +188,11 @@ import kindred from "../data/trinidad-founding-kindred.json";
       <strong>Mar&iacute;a Josefa Gonz&aacute;lez</strong>, named as the parents of Mauricio Lerena
       on a marriage at <strong>San Jos&eacute; de Mayo in 1837</strong> &mdash; and the 1858
       expediente calls the Trinidad Lerenas <em>naturales de San Jos&eacute;</em>. Same names, same
-      generation, same place of origin. <strong>Not merged:</strong> the 1837 act is indexed and not
-      image-read, and this archive does not join two families on a matching couple alone.</p>
+      generation. <strong>That 1837 act has since been read off the plate, and it corrected this
+      paragraph rather than confirming it:</strong> Mauricio was born at <em>la Villa del
+      Colla</em>, not San Jos&eacute; &mdash; he only <em>married</em> there, so the shared origin
+      claimed here is withdrawn. <strong>Still not merged</strong>, but for a better reason now.
+      <a href="#s-bridge">The bridge, and what it costs &rarr;</a></p>
   </div>
 </section>
 

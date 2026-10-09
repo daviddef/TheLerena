@@ -1090,5 +1090,33 @@
   "accessed": "9 Oct 2026",
   "tier": "PRIMARY",
   "link": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS27-F3H4-K"
+ },
+ {
+  "source": "Catedral Basilica San Jose, San Jose de Mayo (Uruguay) - Religious Marriage Records March 1825-September 1859, act of 3 February 1837; FamilySearch DGS film 008143329 (microfilm 625330), image 87, ark 3:1:3Q9M-CSKH-67KL; plate read at full resolution",
+  "used_for": "*** THE ACT BEHIND A ROW THAT HAD CARRIED 'TIER: INDEXED, NOT IMAGE-READ' SINCE 21 SEPTEMBER. *** It gives '*** Don MAURICIO LERENA, natural de la VILLA DEL COLLA, hijo legitimo de Don RAMON y de Dona MARIA GONZALEZ, con Dona CASIMIRA MONTANO, natural de esta Villa, hija legitima de Don JOSE y Dona IGNACIA BARREDO ***', before the teniente de cura Fray Froylan Mellid, certified by Jose Joaquin Reyna; witnesses Don Vicente Muniz and Dona Clara Ledena. *** IT CORRECTED THE ARGUMENT IT WAS OPENED TO CONFIRM: *** this archive had published that the 1837 act and the 1858 Trinidad expediente give the same place of origin. *** THEY DO NOT - COLLA AGAINST SAN JOSE *** - and the index field said so on the page being cited. See data/corrections.tsv. *** THE YEAR RANGE OF THE VOLUME WAS CHECKED AGAINST THE FRAME BEFORE ANYTHING WAS RECORDED: *** 1825-1859 contains 1837.",
+  "accessed": "9 Oct 2026",
+  "tier": "PRIMARY",
+  "link": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKH-67KL"
+ },
+ {
+  "source": "Flores (Uruguay), Civil Registration - Birth Records 1887-1902, act No. 8 of 2 March 1895, Carmen Donata Lerena, born at Sarandi in the section of El Tala; image 165, ark 3:1:3Q9M-CS24-334D-Z; found by FULL-TEXT search, AI transcript read",
+  "used_for": "*** THE ACT THAT MERGED TWO CIPRIANOS AND ATTACHED A WHOLE BRANCH. *** Cipriano Lerena, forty-two, declares in person, names his wife *** LAUREANA BELOQUI *** and his parents *** MAURICIO [LERENA] and CASIMIRA MONTANO ***. *** SPOUSE AND BOTH PARENTS IN ONE SENTENCE ***, which merges 'Cipriano LERENA (of Trinidad)' with the index-only 'Cipriano LERENA Montana' and makes three children already in this register grandchildren of Mauricio Lerena of Colla. *** IT ALSO GIVES CASIMIRA MONTANO A BIRTH YEAR (c.1821), A WIDOWHOOD AND AN ADDRESS *** - Calle Arenal 240, San Jose de Mayo - *** AND DATES MAURICIO'S DEATH to before March 1895. *** And it names Lauriana Beloqui's parents, making the Basque surname a documented Spaniard with land.",
+  "accessed": "9 Oct 2026",
+  "tier": "PRIMARY",
+  "link": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-334D-Z"
+ },
+ {
+  "source": "San Jose de Mayo, San Jose (Uruguay) - Religious Death Records July 1839-December 1851, burial of 7 August 1850; image 94, ark 3:1:3Q9M-CS27-J7GH-Y; found by FULL-TEXT search, AI transcript read",
+  "used_for": "*** A SEVEN-DAY-OLD DAUGHTER OF MAURICIO LERENA AND CASIMIRA MONTANO. *** '*** di sepultura en el angelorio al cadaver de ABDONA IGNACIA, hija legitima de Don MAURICIO LERENA y Dona CASIMIRA MONTANA ***', by Don Francisco Castello. *** SHE CARRIES HER MATERNAL GRANDMOTHER'S NAME *** and is recorded as a separate person precisely because an Ignacia Lerena marrying at Trinidad in 1882 is listed elsewhere as a candidate child of the same couple. *** REUSING A DEAD INFANT'S NAME WAS ORDINARY AND IS A STANDING DUPLICATE HAZARD. ***",
+  "accessed": "9 Oct 2026",
+  "tier": "PRIMARY",
+  "link": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS27-J7GH-Y"
+ },
+ {
+  "source": "Flores (Uruguay), Civil Registration - Death Records 1886-1887, witness signature on a death act of the First Section, May 1886; image 8, ark 3:1:3Q9M-CS24-QHVC; found by FULL-TEXT search, plate read at full resolution",
+  "used_for": "*** READ OFF THE PLATE FOR ONE WORD. *** The transcript garbles a witness's age to '*** veincuenta ***', which is not a Spanish word, and that age is the whole of what separates this *** MAURICIO LERENA *** from the man who married at San Jose in 1837. The plate says *** CINCUENTA *** - fifty in 1886, so born about *** 1836 ***, which is before that marriage. *** TWO MEN, AND HE IS NOT ENTERED AS A SON: *** either the stated age is loose in the ordinary way or they are not father and son. He signs his own name, where Cipriano Lerena could not write.",
+  "accessed": "9 Oct 2026",
+  "tier": "PRIMARY",
+  "link": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-QHVC"
  }
 ]

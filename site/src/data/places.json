@@ -209,9 +209,10 @@
    "isidora-chourino",
    "severa-fernandez",
    "manuel-fernandez-alvarez",
-   "maria-de-los-reyes-gonzalez"
+   "maria-de-los-reyes-gonzalez",
+   "carmen-donata-lerena-beloqui"
   ],
-  "count": 47
+  "count": 48
  },
  {
   "slug": "buenos-aires-arrivals",
@@ -337,6 +338,25 @@
   "count": 12
  },
  {
+  "slug": "san-jose-de-mayo",
+  "name": "San Jose de Mayo",
+  "people": [
+   "eleiza-lerena-larriera",
+   "maria-adelina-lerena-larriera",
+   "alberto-julian-lerena-larriera",
+   "carlos-ambrosio-florencio-lerena-larriera",
+   "maria-consuelo-lerena-larriera",
+   "maria-antonieta-lerena-larriera",
+   "angel-miguel-avelino-lerena-larriera",
+   "mauricio-lerena",
+   "dona-casimira-montano",
+   "abdona-ignacia-lerena",
+   "jose-montano",
+   "ignacia-barredo"
+  ],
+  "count": 12
+ },
+ {
   "slug": "northam-devon",
   "name": "Northam, Devon",
   "people": [
@@ -353,22 +373,6 @@
    "georgina-temple"
   ],
   "count": 11
- },
- {
-  "slug": "san-jose-de-mayo",
-  "name": "San Jose de Mayo",
-  "people": [
-   "eleiza-lerena-larriera",
-   "maria-adelina-lerena-larriera",
-   "alberto-julian-lerena-larriera",
-   "carlos-ambrosio-florencio-lerena-larriera",
-   "maria-consuelo-lerena-larriera",
-   "maria-antonieta-lerena-larriera",
-   "angel-miguel-avelino-lerena-larriera",
-   "mauricio-lerena",
-   "dona-casimira-montano"
-  ],
-  "count": 9
  },
  {
   "slug": "cordoba-argentina",
@@ -396,6 +400,20 @@
    "dona-bernardina-fragoso-de-rivera",
    "jose-pando-de-barros",
    "ana-maria-cabalgante"
+  ],
+  "count": 7
+ },
+ {
+  "slug": "flores-uruguay",
+  "name": "Flores, Uruguay",
+  "people": [
+   "bernabe-lerena-2",
+   "florinda-cardozo",
+   "vitalino-gregorio-pelaez",
+   "anibal-marino-pelaez",
+   "pedro-beloqui",
+   "dorotea-delgado",
+   "mauricio-lerena-2"
   ],
   "count": 7
  },
@@ -445,18 +463,6 @@
    "joseph-ponteceli",
    "agueda-rivero",
    "jose-loreto-lerena-fernandez"
-  ],
-  "count": 5
- },
- {
-  "slug": "flores-uruguay",
-  "name": "Flores, Uruguay",
-  "people": [
-   "bernabe-lerena-2",
-   "florinda-cardozo",
-   "cipriano-lerena-montana",
-   "vitalino-gregorio-pelaez",
-   "anibal-marino-pelaez"
   ],
   "count": 5
  },

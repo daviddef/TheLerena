@@ -960,15 +960,15 @@
  },
  {
   "name": "Cipriano LERENA (of Trinidad)",
-  "born_est": "-",
-  "last_attested_alive": "-",
+  "born_est": "1853",
+  "last_attested_alive": "1853",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
  {
   "name": "Dona Lauriana BELOQUI (wife of Cipriano LERENA)",
-  "born_est": "-",
-  "last_attested_alive": "-",
+  "born_est": "1856",
+  "last_attested_alive": "1856",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -2241,8 +2241,8 @@
  },
  {
   "name": "Dona Casimira MONTANO (wife of Mauricio LERENA)",
-  "born_est": "-",
-  "last_attested_alive": "-",
+  "born_est": "1821",
+  "last_attested_alive": "1821",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -2439,13 +2439,6 @@
   "name": "Tomasa Cantidia LLERENA",
   "born_est": "1903-02-12",
   "last_attested_alive": "1903-02-12",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
- },
- {
-  "name": "Cipriano LERENA Montana",
-  "born_est": "-",
-  "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -2983,6 +2976,55 @@
  },
  {
   "name": "Antonio Eusebio PELAEZ",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Abdona Ignacia LERENA (d. 1850, aged 7 days)",
+  "born_est": "1850",
+  "last_attested_alive": "1850",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Carmen Donata LERENA Beloqui",
+  "born_est": "1895-02-17",
+  "last_attested_alive": "1895-02-17",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Pedro BELOQUI (father of Lauriana BELOQUI)",
+  "born_est": "1830",
+  "last_attested_alive": "1830",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Dorotea DELGADO (wife of Pedro BELOQUI)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Mauricio LERENA (b. c.1836, of the First Section of Flores)",
+  "born_est": "1836",
+  "last_attested_alive": "1836",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Jose MONTANO (father of Casimira MONTANO)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Ignacia BARREDO (mother of Casimira MONTANO)",
   "born_est": "-",
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
