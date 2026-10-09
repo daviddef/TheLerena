@@ -43,6 +43,7 @@ import sanjose from "../data/alberto-lerena-larriera.json";
 import disp from "../data/montevideo-dispensations-fulltext.json";
 import zact from "../data/zelmira-cordero-1904-act.json";
 import cons from "../data/trinidad-consanguinity-explained.json";
+import ans from "../data/dispensations-answered-1894-1913.json";
 ---
 <Base title="Uruguay"
       eyebrow="Two Lerena families, two Spanish origins, and neither of them is his"
@@ -79,11 +80,59 @@ import cons from "../data/trinidad-consanguinity-explained.json";
       <em>that</em> Antonina&rsquo;s birth near 1830. <strong>So a Lerena married a Pel&aacute;ez
       around 1845</strong>, and Bernab&eacute; Lerena married another Pel&aacute;ez a generation
       later. By the third generation the Church had to compute the degrees &mdash; which is the whole
-      explanation of 1885, 1894 and 1913.</p>
+      explanation of 1885, 1894 and 1913. <strong>That was written as a prediction on 9 October,
+      before either of the two acts below had been opened.</strong>
+      <a href="#s-answered">The 1894 and 1913 couples &rarr;</a></p>
     <p class="cap"><strong>And there are two Antonina Lerenas at Trinidad.</strong> The elder, born
       about 1830, who married Juan Pel&aacute;ez; and the younger, born about 1862, daughter of
       Bernab&eacute; and Casimira, who married Serapio Fern&aacute;ndez. <strong>Two women of one
       name in one small town</strong>, and this archive came close to holding one.</p>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-answered">The 1894 and 1913 couples, answered by their children</h2>
+  <p class="dek">9 October 2026. Search the bride, then look for a child &mdash; not for a marriage.</p>
+  <div class="prose">
+    <p><strong>The dispensation ledger will never name a parent.</strong> It is the Vicar
+      General&rsquo;s summary, one sentence per couple. So these two were answered sideways:
+      <strong>find a child, and read the child&rsquo;s record</strong>. A Uruguayan civil birth act
+      names all four grandparents with ages, trades and addresses; a Trinidad baptism act of this
+      period names both pairs of grandparents in one line. Either way,
+      <strong>the child&rsquo;s record names the couple&rsquo;s parents</strong>.</p>
+    <p class="cap">Both acts were found by full-text search and then <strong>read off the
+      plate</strong>, because the machine transcript misspelled the surname in both of them.</p>
+  </div>
+  <dl class="kv" style="margin-top:18px">
+    {ans.filter((r) => r["the act"]).map((r) => (
+      <div><dt set:html={emph(r["the act"])} /><dd>
+        <span set:html={emph(r["what it says"])} /><br />
+        <span class="cap" set:html={emph(r["what it settles"])} />
+      </dd></div>
+    ))}
+  </dl>
+  <div class="prose" style="margin-top:18px">
+    <p><strong>What 1913 settles.</strong> Vitalino Gregorio Pel&aacute;ez&rsquo;s mother was
+      <strong>Mar&iacute;a Lerena</strong>, dispensed in 1885 to marry his father; Florinda Juana
+      Lerena&rsquo;s father was <strong>Bernab&eacute; Lerena</strong>, the man of the 1911 kinship
+      diagram. <strong>So the bride of 1913 is a sister of Custodio Lerena</strong> &mdash; and two
+      full-text finds made three weeks apart turn out to be one family.</p>
+    <p><strong>And the degree does something a one-line ledger entry has no business doing: it rules
+      an identification out.</strong> Bernab&eacute;&rsquo;s own sister was <em>also</em> a
+      Mar&iacute;a Lerena, who married Eliseo Cardozo. Were she Vitalino&rsquo;s mother, the couple
+      would be first cousins and the impediment the <em>second</em> degree. The clerk wrote the
+      <strong>third</strong>. <strong>There are two Mar&iacute;a Lerenas, and the Church&rsquo;s
+      arithmetic proves it.</strong></p>
+    <p><strong>What 1894 settles, and what it costs.</strong> The 1905 baptism names Juan
+      Lerena&rsquo;s parents as <strong>Bernab&eacute; and Casimira Pel&aacute;ez</strong> &mdash; so
+      he is <strong>a sixth child of the Trinidad founding couple</strong>, and he is the man this
+      register had been carrying as a <em>separate person</em> since that morning. <strong>The split
+      is retracted.</strong> It was not bad reasoning; the evidence arrived a day late.
+      <a href={u("/corrections/")}>Corrections &rarr;</a></p>
+    <p class="cap"><strong>One impediment is still unexplained.</strong> 1894 was dispensed in the
+      second degree <em>and</em> the third, accumulated &mdash; two separate blood paths. His mother
+      a Pel&aacute;ez and her father a Pel&aacute;ez accounts for the second.
+      <strong>The second tie has not been found, and is not guessed at here.</strong></p>
   </div>
 </section>
 

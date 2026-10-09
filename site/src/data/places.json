@@ -88,11 +88,9 @@
    "justiniano-lavalleja",
    "constantino-lavalleja",
    "ana-lavalleja",
-   "bernabe-lerena-2",
    "maria-lerena-2",
    "custodio-lerena",
    "ema-cardozo",
-   "florinda-cardozo",
    "eliseo-cardozo",
    "bernabe-lerena-3",
    "custodio-cardozo",
@@ -159,7 +157,7 @@
    "mercedes-lerena-2",
    "maria-elena-lerena"
   ],
-  "count": 155
+  "count": 153
  },
  {
   "slug": "buenos-aires-arrivals",
@@ -248,9 +246,13 @@
    "serapio-fernandez",
    "antonina-lerena-3",
    "maria-pelaez",
-   "juan-pelaez"
+   "juan-pelaez",
+   "maximo-pelaez",
+   "nepomuceno-teofilo-lerena",
+   "eduviges-pelaez",
+   "eduviges-florencio"
   ],
-  "count": 36
+  "count": 40
  },
  {
   "slug": "buenos-aires",
@@ -436,6 +438,18 @@
    "joseph-ponteceli",
    "agueda-rivero",
    "jose-loreto-lerena-fernandez"
+  ],
+  "count": 5
+ },
+ {
+  "slug": "flores-uruguay",
+  "name": "Flores, Uruguay",
+  "people": [
+   "bernabe-lerena-2",
+   "florinda-cardozo",
+   "cipriano-lerena-montana",
+   "vitalino-gregorio-pelaez",
+   "anibal-marino-pelaez"
   ],
   "count": 5
  },
@@ -729,14 +743,6 @@
   "count": 1
  },
  {
-  "slug": "flores-uruguay",
-  "name": "Flores, Uruguay",
-  "people": [
-   "cipriano-lerena-montana"
-  ],
-  "count": 1
- },
- {
   "slug": "orange-free-state",
   "name": "Orange Free State",
   "people": [
@@ -749,14 +755,6 @@
   "name": "London",
   "people": [
    "john-walker-brailey"
-  ],
-  "count": 1
- },
- {
-  "slug": "mercedes-soriano",
-  "name": "Mercedes, Soriano",
-  "people": [
-   "juan-lerena-2"
   ],
   "count": 1
  },

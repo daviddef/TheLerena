@@ -1041,5 +1041,19 @@
   "accessed": "8 Oct 2026 (p.4706, p.339); p.3215 read before 14 Sep 2026, exact date unrecorded",
   "tier": "PRIMARY",
   "link": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSVY-JS18"
+ },
+ {
+  "source": "Flores (Uruguay), Civil Registration - Birth Records 1916-1925, act No. 10 of 1922, Sexta Seccion of Flores, before Esteban Indarte - FamilySearch DGS film 008165367, item 6, image 195, ark 3:1:3Q9M-CS24-8SX8; found by FULL-TEXT search, plate read at full resolution",
+  "used_for": "*** THE ACT THAT EXPLAINED THE 1913 DISPENSATION. *** Registering ANIBAL MARINO PELAEZ, born 3 March 1922, it names both parents and *** ALL FOUR GRANDPARENTS with ages, trades and addresses ***. *** IT GAVE FIVE ADULTS THEIR FIRST RECORDED BIRTH YEAR *** - Vitalino Gregorio Pelaez c.1888, Florinda Juana Lerena c.1891, Maria Lerena c.1869, Bernabe Lerena c.1862, Florinda Cardozo c.1868 - all from stated ages, none assumed from a marriage. *** AND IT JOINED THE 1911 DISPENSATION TO THE 1913 ONE: *** the bride of 1913 is a daughter of the Bernabe Lerena and Florinda Cardozo of the priest's kinship diagram, so a sister of Custodio Lerena. *** READ OFF THE PLATE BECAUSE THE TRANSCRIPT COULD NOT BE TRUSTED: *** it renders one clerk's single letterform as SERENA in one line and LERENA four lines later. The plate shows both are L. *** NO WAYPOINT: *** a full-text image ark carries no wc=, and none is guessed here.",
+  "accessed": "9 Oct 2026",
+  "tier": "PRIMARY",
+  "link": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-8SX8"
+ },
+ {
+  "source": "Santisima Trinidad, Trinidad, Flores (Uruguay) - Baptism Records August 1905-August 1909, pages 32-33, baptism of 26 November 1905 by the Teniente Cura David Giordano - FamilySearch DGS film 008163893, item 5, image 20, ark 3:1:3Q9M-CS27-69Q5-F; found by FULL-TEXT search, plate read at full resolution",
+  "used_for": "*** THE ACT THAT EXPLAINED THE 1894 DISPENSATION ***, and the one that merged two register rows. A Trinidad baptism of this period names *** BOTH PAIRS OF GRANDPARENTS IN A SINGLE LINE ***, which makes a parish register do the work of a civil birth act: 'hijo legitimo de Juan Lerena y Eduviges Pelaez. *** Abuelos paternos: BERNABE y CASIMIRA PELAEZ. Maternos: JUAN y EDUVIGES FLORENCIO (fallecida) ***'. *** SO THE GROOM OF 1894 IS A SIXTH CHILD OF THE TRINIDAD FOUNDING COUPLE ***, and the man this register had been carrying as a separate person that same morning; the split is retracted in data/corrections.tsv. *** THE MARGIN HEADING IS THE PRIEST'S OWN INDEX AND READS LERENA ***, where the machine transcript of the body reads 'Juan Leresa'. *** THE FILM NUMBER WAS WRONG FOR AN HOUR *** - carried across from the 1889-1894 book on the assumption that two volumes of one parish share a film. They do not; checked against the page and corrected before anything was committed. *** NO WAYPOINT, AND NONE GUESSED. ***",
+  "accessed": "9 Oct 2026",
+  "tier": "PRIMARY",
+  "link": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS27-69Q5-F"
  }
 ]

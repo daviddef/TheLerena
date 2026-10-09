@@ -990,5 +990,13 @@
   "what_is_true": "*** THE ACT SAYS 28 FEBRUARY 1904. *** Same day, same month, three years later. *** THE BOOK DECIDES IT: *** the register is *** La Union, Montevideo, Religious Marriage Records 1902-1934 ***, so a 1901 marriage cannot be in it, and the entry immediately above this one is dated *** May 1902 ***. *** AND IT MAKES SENSE OF THE DISPENSATION: *** the Vicar General lifted their consanguinity impediment on *** 1 February 1901 *** - they were cleared to marry three years before they did. *** A SECOND DISCREPANCY IS RECORDED AND NOT RESOLVED: *** the act makes her *** twenty *** in February 1904, which means born about 1883-84, where this register has her born *** 4 November 1880 ***. Both stand.",
   "how_it_was_caught": "*** BY FULL-TEXT SEARCH ON HER FORENAMES, after the dispensation ledger turned out to name no parents. *** The ledger entry found yesterday gave the impediment and the date it was lifted; *** the act gives four parents, two ages, two nationalities, a profession and an address ***, and confirms the ledger's wording of the impediment word for word.",
   "retired": ""
+ },
+ {
+  "date": "2026-10-09",
+  "severity": "serious",
+  "what_was_said": "*** That JUAN BERNARDO LERENA PELAEZ and the JUAN LERENA of the 1894 dispensation were DIFFERENT PEOPLE. *** Declared in data/_person-pairs.txt earlier the same day: 'Juan LERENA (m. Eduviges Pelaez 1894) is known from ONE LINE of the Montevideo dispensation register and nothing else - with no age, no birth and no parents.' The register carried two rows.",
+  "what_is_true": "*** THEY ARE ONE MAN. *** The baptism of 26 November 1905 at Santisima Trinidad names the parents the dispensation ledger withheld: 'hijo legitimo de Juan Lerena y Eduviges Pelaez. *** Abuelos paternos: BERNABE y CASIMIRA PELAEZ ***'. Juan Bernardo Lerena Pelaez, born 20 August 1871, is the only Juan among the children of Bernabe Lerena and Casimira Pelaez. *** HE WAS TWENTY-TWO WHEN HE WAS DISPENSED. *** The rows are merged.",
+  "how_it_was_caught": "Searching the full text for the BRIDE rather than the groom, then looking for a CHILD rather than a marriage - the same method that answered the 1913 couple an hour earlier. *** THE SPLIT WAS NOT BAD REASONING; THE EVIDENCE ARRIVED A DAY LATE. *** What it shows is that 'no parents are recorded' is a statement about a ledger, never about a man.",
+  "retired": ""
  }
 ]

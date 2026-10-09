@@ -212,5 +212,70 @@
    "uruguay",
    "familysearch"
   ]
+ },
+ {
+  "src": "FamilySearch FULL-TEXT - Flores (Uruguay). Civil Birth Records 1916-1925, act No. 10 of 1922",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-8SX8?view=fullText",
+  "film": "008165367",
+  "waypoint": null,
+  "what": "The 1913 marriage dispensation of a PELAEZ groom and a LERENA bride named a degree of kinship and no parents. METHOD, AND IT IS THE TRANSFERABLE PART: search the full text for the BRIDE by exact phrase, then look for a CHILD'S BIRTH ACT rather than for the marriage - because a Uruguayan civil birth act names BOTH PARENTS AND ALL FOUR GRANDPARENTS with their ages, trades and addresses. One act answered the dispensation outright and gave five adults their first recorded birth year.",
+  "when": "2026-10-09",
+  "outcome": "yield",
+  "pages": "195",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "pelaez",
+   "cardozo",
+   "flores",
+   "uruguay",
+   "familysearch",
+   "full-text"
+  ],
+  "note": "NO WAYPOINT ESTABLISHED. A full-text image ark carries no wc=/owc= parameter, so the DGS film number is recorded instead and the waypoint is left null rather than guessed from a similar volume. Film 008165367, item 6, image 195 - read directly off the page, not inferred. CAUTION WORTH CARRYING: the AI transcript renders one clerk's single letterform as SERENA in one line and LERENA four lines later; the plate shows both are L. Read the plate before recording a surname from this corpus."
+ },
+ {
+  "src": "FamilySearch FULL-TEXT - Santisima Trinidad, Trinidad, Flores (Uruguay). Baptism Records August 1905-August 1909",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS27-69Q5-F?view=fullText",
+  "film": "008163893",
+  "waypoint": null,
+  "what": "The same method against the 1894 dispensation. A Trinidad baptism act of this period names BOTH PAIRS OF GRANDPARENTS in a single line ('Abuelos paternos: X y Y. Maternos: Z y W'), which makes a parish register do the work of a civil birth act. The child's baptism named the parents of both halves of the couple, merged two register rows this archive had split the same morning, and added a sixth child to a founding couple.",
+  "when": "2026-10-09",
+  "outcome": "yield",
+  "pages": "20",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "pelaez",
+   "florencio",
+   "trinidad",
+   "flores",
+   "uruguay",
+   "familysearch",
+   "full-text"
+  ],
+  "note": "NO WAYPOINT ESTABLISHED - film number recorded instead, not guessed. Film 008163893, item 5, image 20, read off the page. THE FILM NUMBER WAS WRONG HERE FOR AN HOUR: it was carried across from the 1889-1894 book (008164291) on the assumption that two volumes of one parish share a film. They do not. Checked against the page and corrected before anything was committed. ALSO A FALSE ZERO: this page first returned 'Unable to load the data - taking longer than expected', which reads as a record containing nothing; its own REFRESH button returned the find of the day."
+ },
+ {
+  "src": "FamilySearch FULL-TEXT - Santisima Trinidad, Trinidad, Flores (Uruguay). Baptism Records 1889-1894",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS27-NQQT-8?view=fullText",
+  "film": "008164291",
+  "waypoint": null,
+  "what": "Searched the exact phrase 'Eduviges Pelaez' across the whole full-text corpus. CORPUS SHAPE WORTH KNOWING: the phrase returns seven pages dominated by COLOMBIA and GUATEMALA, with two Uruguayan hits on page one - so a quoted two-word phrase is usable but still needs the in-page Place facet. Found the bride of the 1894 dispensation standing PROXY GODMOTHER at Trinidad on 1 April 1894, the day after her dispensation was granted at Montevideo. No parents here; the yield was placing her in the parish.",
+  "when": "2026-10-09",
+  "outcome": "yield",
+  "pages": "228",
+  "walked": false,
+  "tags": [
+   "pelaez",
+   "lerena",
+   "sanchez",
+   "trinidad",
+   "flores",
+   "uruguay",
+   "familysearch",
+   "full-text"
+  ],
+  "note": "NO WAYPOINT ESTABLISHED - film 008164291, item 2, recorded instead. FOR ANY ARCHIVE USING THIS SEARCH: a place written into the URL as f.recordCountry errors outright with 'Something Went Wrong'. Confirmed today for URUGUAY, having been recorded yesterday for SOUTH AFRICA - so the broken thing is the PARAMETER, not the country. Use the Place facet inside the page."
  }
 ]
