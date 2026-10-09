@@ -242,11 +242,15 @@
    "natalia-elena-lerena-recuero",
    "luis-lerena-2",
    "cayetana-faustina-lerena",
-   "antonina-lerena",
    "maria-lerena-3",
-   "florinda-juana-lerena"
+   "florinda-juana-lerena",
+   "socorro-lerena",
+   "serapio-fernandez",
+   "antonina-lerena-3",
+   "maria-pelaez",
+   "juan-pelaez"
   ],
-  "count": 32
+  "count": 36
  },
  {
   "slug": "buenos-aires",
@@ -527,6 +531,16 @@
    "john-brailey",
    "isabella-brailey",
    "georgina-margaret-brailey"
+  ],
+  "count": 3
+ },
+ {
+  "slug": "cerro-colorado-flores",
+  "name": "Cerro Colorado, Flores",
+  "people": [
+   "serapio-fernandez-2",
+   "antonina-lerena-2",
+   "cayetano-alberto-fernandez"
   ],
   "count": 3
  },

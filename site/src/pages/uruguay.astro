@@ -42,10 +42,50 @@ import filmmap from "../data/film-7499043-map.json";
 import sanjose from "../data/alberto-lerena-larriera.json";
 import disp from "../data/montevideo-dispensations-fulltext.json";
 import zact from "../data/zelmira-cordero-1904-act.json";
+import cons from "../data/trinidad-consanguinity-explained.json";
 ---
 <Base title="Uruguay"
       eyebrow="Two Lerena families, two Spanish origins, and neither of them is his"
       dek="There are two documented Lerena families in nineteenth-century Uruguay, and on 17 September 2026 a baptism act of 1812 settled what they are to each other: nothing. One came from Córdoba in Andalusia, the other from Valdemoro outside Madrid. The surname entered the Banda Oriental twice, from opposite ends of Spain.">
+
+<section class="blk">
+  <h2 id="s-consanguinity">Why the Trinidad Lerenas needed dispensing</h2>
+  <p class="dek">9 October 2026. One birth act answers it, because it names all four grandparents.</p>
+  <div class="prose">
+    <p><strong>A Uruguayan civil birth act names both parents and all four grandparents</strong>
+      &mdash; with ages, trades and addresses. That is why a single entry of 1897 does more than the
+      nine dispensations put together. <strong>Flores, Birth Records 1887&ndash;1901, No. 10:</strong>
+      Cayetano Alberto Fern&aacute;ndez, born at <strong>Pintos</strong> on 7 August 1897.</p>
+  </div>
+  <dl class="kv" style="margin-top:18px">
+    {cons.filter((r) => r["who the act names"]).map((r) => (
+      <div><dt set:html={emph(r["who the act names"])} /><dd>
+        <span set:html={emph(r["as it gives them"])} /><br />
+        <span class="cap" set:html={emph(r["what it settles"])} />
+      </dd></div>
+    ))}
+  </dl>
+  <div class="prose" style="margin-top:18px">
+    <p><strong>The shape of it.</strong> The groom of 1885 descends from a Lerena through his mother
+      <strong>Socorro</strong>; the bride descends from a Lerena through her father
+      <strong>Bernab&eacute;</strong>. <strong>Lerena blood runs down both sides of that marriage</strong>,
+      which is what the Archbishop was dispensing. If Socorro and Bernab&eacute; are brother and
+      sister the couple are first cousins &mdash; exactly what an equal second degree means &mdash;
+      but <strong>Socorro&rsquo;s own parents are not named, so that link is inferred and not
+      proved</strong>.</p>
+    <p><strong>And it reaches back further than 1885.</strong> At Trinidad on 6 March 1880,
+      <strong>Mar&iacute;a Pel&aacute;ez, thirty, daughter of Juan Pel&aacute;ez and Antonina
+      Lerena</strong>, married a widower &mdash; her mother witnessing. A daughter of thirty puts
+      <em>that</em> Antonina&rsquo;s birth near 1830. <strong>So a Lerena married a Pel&aacute;ez
+      around 1845</strong>, and Bernab&eacute; Lerena married another Pel&aacute;ez a generation
+      later. By the third generation the Church had to compute the degrees &mdash; which is the whole
+      explanation of 1885, 1894 and 1913.</p>
+    <p class="cap"><strong>And there are two Antonina Lerenas at Trinidad.</strong> The elder, born
+      about 1830, who married Juan Pel&aacute;ez; and the younger, born about 1862, daughter of
+      Bernab&eacute; and Casimira, who married Serapio Fern&aacute;ndez. <strong>Two women of one
+      name in one small town</strong>, and this archive came close to holding one.</p>
+  </div>
+</section>
 
 <section class="blk">
   <h2 id="s-zelmira-act">The act behind one of them</h2>

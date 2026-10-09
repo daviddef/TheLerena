@@ -918,15 +918,15 @@
  },
  {
   "name": "Bernabe LERENA (of Trinidad)",
-  "born_est": "-",
-  "last_attested_alive": "-",
+  "born_est": "1835",
+  "last_attested_alive": "1835",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
  {
   "name": "Dona Casimira PELAEZ (wife of Bernabe LERENA)",
-  "born_est": "-",
-  "last_attested_alive": "-",
+  "born_est": "1841",
+  "last_attested_alive": "1841",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -2779,13 +2779,6 @@
   "tier": "BIRTH ONLY"
  },
  {
-  "name": "Antonina LERENA (of Trinidad, m. Serapio Fernandez 1885)",
-  "born_est": "-",
-  "last_attested_alive": "-",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
- },
- {
   "name": "Maria LERENA (of Trinidad, m. Maximo Pelaez 1885)",
   "born_est": "-",
   "last_attested_alive": "-",
@@ -2838,6 +2831,62 @@
   "name": "Adolfo M. CORDERO (the elder)",
   "born_est": "-",
   "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Socorro LERENA (m. Serapio Fernandez the elder)",
+  "born_est": "1832",
+  "last_attested_alive": "1832",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Serapio FERNANDEZ (the elder, d. by 1897)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Serapio FERNANDEZ (m. Antonina Lerena 1885)",
+  "born_est": "1856",
+  "last_attested_alive": "1856",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Antonina LERENA (b. c.1862, dau. of Bernabe; m. Serapio Fernandez 1885)",
+  "born_est": "1862",
+  "last_attested_alive": "1862",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Antonina LERENA (the elder, m. Juan PELAEZ)",
+  "born_est": "1830",
+  "last_attested_alive": "1830",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maria PELAEZ (m. Rafael Sanchez 1880)",
+  "born_est": "1850",
+  "last_attested_alive": "1850",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Juan PELAEZ (m. Antonina LERENA)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Cayetano Alberto FERNANDEZ (b.1897)",
+  "born_est": "1897-08-07",
+  "last_attested_alive": "1897-08-07",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  }

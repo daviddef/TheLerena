@@ -6043,16 +6043,16 @@
  {
   "slug": "bernabe-lerena",
   "name": "Bernabe LERENA (of Trinidad)",
-  "born": "-",
+  "born": "1835",
   "died": "",
   "birthplace": "Trinidad, Flores, Uruguay",
   "nationality": "Uruguayan",
   "occupation": "-",
   "where": "Trinidad, Flores",
-  "source": "Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 2026",
+  "source": "Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 2026; and Flores, Birth Records 1887-1901 - entry No. 10, Cayetano Alberto Fernandez, born Pintos 7 August 1897; image ark 3:1:3Q9M-CS24-333J-F, FULL-TEXT read 9 October 2026",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "One of the men fathering Lerena children at Trinidad, Flores in the 1870s and 1880s. Wife: Casimira PELAEZ. 4 children 1871-1885. *** Six or seven men of a rare surname in one small inland town in a handful of years are almost certainly brothers or first cousins - this looks like the founding kindred of the surname in Uruguay. *** No Pablo and no Armando anywhere in the set.",
+  "note": "One of the men fathering Lerena children at Trinidad, Flores in the 1870s and 1880s. Wife: Casimira PELAEZ. 4 children 1871-1885. *** Six or seven men of a rare surname in one small inland town in a handful of years are almost certainly brothers or first cousins - this looks like the founding kindred of the surname in Uruguay. *** No Pablo and no Armando anywhere in the set. *** HE HAS AN AGE, AN ADDRESS AND A FIFTH CHILD, 9 October 2026. *** His grandson's birth act of 1897 gives him as *** 'Don BERNABE LERENA, Oriental, de sesenta y dos anos, casado, de profesion HACENDADO y vecino de CERRO COLORADO' *** - so born about *** 1835 ***, a landholder, and living at Cerro Colorado rather than in Trinidad town. *** AND THE CHILD'S MOTHER, ANTONINA LERENA, IS HIS DAUGHTER *** - a fifth to set beside the four this archive had from 1871-1885.",
   "place": "Trinidad, Flores",
   "placeSlug": "trinidad-flores",
   "surname": "LERENA",
@@ -6091,6 +6091,13 @@
     "slug": "ysidro-gregorio-lerena-pelaez",
     "via": "register",
     "note": "Trinidad, Flores. NOT the 1911-dispensation Bernabe - that man's wife is Florinda Cardozo; these two are declared different men in data/_person-pairs.txt."
+   },
+   {
+    "name": "Antonina LERENA (b. c.1862, dau. of Bernabe; m. Serapio Fernandez 1885)",
+    "dates": "1862–",
+    "slug": "antonina-lerena-2",
+    "via": "register",
+    "note": "Flores birth act No. 10 of 1897, which names all four grandparents"
    }
   ],
   "siblings": [],
@@ -6098,8 +6105,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 4,
-  "relRegister": 4,
+  "relTotal": 5,
+  "relRegister": 5,
   "relTree": 0,
   "evidence": [
    {
@@ -6113,16 +6120,16 @@
  {
   "slug": "dona-casimira-pelaez",
   "name": "Dona Casimira PELAEZ (wife of Bernabe LERENA)",
-  "born": "-",
+  "born": "1841",
   "died": "",
   "birthplace": "Trinidad, Flores, Uruguay",
   "nationality": "Uruguayan",
   "occupation": "-",
   "where": "Trinidad, Flores",
-  "source": "Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 2026",
+  "source": "Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 2026; and Flores, Birth Records 1887-1901 - entry No. 10, Cayetano Alberto Fernandez, born Pintos 7 August 1897; image ark 3:1:3Q9M-CS24-333J-F, FULL-TEXT read 9 October 2026",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "Married into the Trinidad Lerena kindred. *** BELOQUI, ECHEVERRY and PELAEZ are Basque surnames *** - evidence about the community these Lerenas married into, which bears on the Basque-or-Extremaduran question without settling it.",
+  "note": "Married into the Trinidad Lerena kindred. *** BELOQUI, ECHEVERRY and PELAEZ are Basque surnames *** - evidence about the community these Lerenas married into, which bears on the Basque-or-Extremaduran question without settling it. *** AND SHE HAS AN AGE AT LAST, 9 October 2026 *** - *** 'Dona CASIMIRA PELAEZ, Oriental, de cincuenta y seis anos, casada, de profesion labores, domiciliada con su esposo' *** in her grandson's birth act of 1897, so born about *** 1841 ***. *** Her daughter ANTONINA married a FERNANDEZ whose own mother was a LERENA ***, and the couple had to be dispensed a second grade of consanguinity.",
   "place": "Trinidad, Flores",
   "placeSlug": "trinidad-flores",
   "surname": "PELAEZ",
@@ -6161,6 +6168,13 @@
     "slug": "ysidro-gregorio-lerena-pelaez",
     "via": "register",
     "note": "Trinidad, Flores. NOT the 1911-dispensation Bernabe - that man's wife is Florinda Cardozo; these two are declared different men in data/_person-pairs.txt."
+   },
+   {
+    "name": "Antonina LERENA (b. c.1862, dau. of Bernabe; m. Serapio Fernandez 1885)",
+    "dates": "1862–",
+    "slug": "antonina-lerena-2",
+    "via": "register",
+    "note": "Flores birth act No. 10 of 1897, which names all four grandparents"
    }
   ],
   "siblings": [],
@@ -6168,8 +6182,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 4,
-  "relRegister": 4,
+  "relTotal": 5,
+  "relRegister": 5,
   "relTree": 0,
   "evidence": [
    {
@@ -6666,6 +6680,12 @@
   "children": [],
   "siblings": [
    {
+    "name": "Antonina LERENA (b. c.1862, dau. of Bernabe; m. Serapio Fernandez 1885)",
+    "dates": "",
+    "slug": "antonina-lerena-2",
+    "via": "register"
+   },
+   {
     "name": "Carmen LERENA Pelaez",
     "dates": "",
     "slug": "carmen-lerena-pelaez",
@@ -6730,6 +6750,12 @@
   "spouses": [],
   "children": [],
   "siblings": [
+   {
+    "name": "Antonina LERENA (b. c.1862, dau. of Bernabe; m. Serapio Fernandez 1885)",
+    "dates": "",
+    "slug": "antonina-lerena-2",
+    "via": "register"
+   },
    {
     "name": "Carmen LERENA Pelaez",
     "dates": "",
@@ -6796,6 +6822,12 @@
   "children": [],
   "siblings": [
    {
+    "name": "Antonina LERENA (b. c.1862, dau. of Bernabe; m. Serapio Fernandez 1885)",
+    "dates": "",
+    "slug": "antonina-lerena-2",
+    "via": "register"
+   },
+   {
     "name": "Juan Bernardo LERENA Pelaez",
     "dates": "",
     "slug": "juan-bernardo-lerena-pelaez",
@@ -6860,6 +6892,12 @@
   "spouses": [],
   "children": [],
   "siblings": [
+   {
+    "name": "Antonina LERENA (b. c.1862, dau. of Bernabe; m. Serapio Fernandez 1885)",
+    "dates": "",
+    "slug": "antonina-lerena-2",
+    "via": "register"
+   },
    {
     "name": "Carmen LERENA Pelaez",
     "dates": "",
@@ -20845,40 +20883,6 @@
   "evidence": []
  },
  {
-  "slug": "antonina-lerena",
-  "name": "Antonina LERENA (of Trinidad, m. Serapio Fernandez 1885)",
-  "born": "-",
-  "died": "",
-  "birthplace": "Trinidad, Flores",
-  "nationality": "UY",
-  "occupation": "-",
-  "where": "Trinidad, Flores",
-  "source": "Arquidiocesis de Montevideo, Marriage Dispensation Records 1856-1932 - FamilySearch FULL-TEXT transcript read 9 October 2026 - image ark 3:1:3Q9M-C9B7-N2MN",
-  "status": "high",
-  "statusRaw": "UNPLACED - HIGH INTEREST",
-  "note": "*** 26 JUNE 1885: dispensed the SECOND GRADE of consanguinity by the EQUAL lateral line to marry DON SERAPIO FERNANDEZ (hijo). *** *** EQUAL SECOND DEGREE IS FIRST COUSINS *** - she and her husband shared a grandparent. *** AND THE GROOM IS A FERNANDEZ ***, which is the surname of Sancho Llerena's wife Maria Fernandez and of Avelino Lerena Fernandez. *** A CONSANGUINITY DISPENSATION IS A STATEMENT ABOUT ANCESTRY. *** The Church computed the degree before it would dispense, so the entry constrains a pedigree even though it names no parent. *** The register itself names NO PARENTS *** - it is the Vicar General's summary ledger, not the expediente. *** NO BIRTH YEAR IS RECORDED HERE, and one was briefly invented. *** This row first carried a year reached by assuming an ordinary age at marriage. *** That is a guess wearing the clothes of a fact ***, it is what this archive did to William John Taylor on 8 October, and tools/check-duplicates.py caught it the same way - by matching the invented year against real namesakes. *** The dispensation register gives no age and no birth. ***",
-  "place": "Trinidad, Flores",
-  "placeSlug": "trinidad-flores",
-  "surname": "LERENA",
-  "ark": "",
-  "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry",
-  "gen": null,
-  "father": null,
-  "mother": null,
-  "spouses": [],
-  "children": [],
-  "siblings": [],
-  "isLine": false,
-  "aliasOf": null,
-  "godparents": [],
-  "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
-  "relTree": 0,
-  "evidence": []
- },
- {
   "slug": "maria-lerena-3",
   "name": "Maria LERENA (of Trinidad, m. Maximo Pelaez 1885)",
   "born": "-",
@@ -21183,6 +21187,439 @@
   "godchildren": [],
   "relTotal": 1,
   "relRegister": 1,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "socorro-lerena",
+  "name": "Socorro LERENA (m. Serapio Fernandez the elder)",
+  "born": "1832",
+  "died": "",
+  "birthplace": "Uruguay",
+  "nationality": "UY",
+  "occupation": "Propietaria",
+  "where": "Trinidad, Flores",
+  "source": "Flores, Birth Records 1887-1901 - entry No. 10, Cayetano Alberto Fernandez, born Pintos 7 August 1897; image ark 3:1:3Q9M-CS24-333J-F, FULL-TEXT read 9 October 2026",
+  "status": "high",
+  "statusRaw": "UNPLACED - HIGH INTEREST",
+  "note": "*** A LERENA WOMAN ENTIRELY NEW TO THIS ARCHIVE, and she explains a dispensation. *** Her grandson's birth act of 1897 gives her as *** 'Dona SOCORRO LERENA, Oriental, de sesenta y cinco anos, propietaria y domiciliada en TRINIDAD' *** - born about *** 1832 ***, a widow and a property owner in her own right. *** SHE IS THE MOTHER OF SERAPIO FERNANDEZ ***, who in 1885 married *** ANTONINA LERENA, daughter of BERNABE LERENA ***. *** SO LERENA BLOOD RUNS DOWN BOTH SIDES OF THAT MARRIAGE ***, which is why the Archbishop had to dispense a second grade of consanguinity in the equal lateral line. *** IF SOCORRO AND BERNABE ARE BROTHER AND SISTER THE COUPLE ARE FIRST COUSINS, WHICH IS EXACTLY WHAT THAT DEGREE MEANS - BUT HER OWN PARENTS ARE NOT NAMED HERE AND THE LINK IS INFERRED, NOT PROVED. ***",
+  "place": "Trinidad, Flores",
+  "placeSlug": "trinidad-flores",
+  "surname": "LERENA",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "no public link",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [
+   {
+    "name": "Serapio FERNANDEZ (the elder, d. by 1897)",
+    "dates": "",
+    "slug": "serapio-fernandez",
+    "via": "register",
+    "note": "Flores birth act No. 10 of 1897, which names all four grandparents"
+   }
+  ],
+  "children": [
+   {
+    "name": "Serapio FERNANDEZ (m. Antonina Lerena 1885)",
+    "dates": "1856–",
+    "slug": "serapio-fernandez-2",
+    "via": "register",
+    "note": "Flores birth act No. 10 of 1897, which names all four grandparents"
+   }
+  ],
+  "siblings": [],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "serapio-fernandez",
+  "name": "Serapio FERNANDEZ (the elder, d. by 1897)",
+  "born": "-",
+  "died": "",
+  "birthplace": "Uruguay",
+  "nationality": "UY",
+  "occupation": "-",
+  "where": "Trinidad, Flores",
+  "source": "Flores, Birth Records 1887-1901 - entry No. 10, Cayetano Alberto Fernandez, born Pintos 7 August 1897; image ark 3:1:3Q9M-CS24-333J-F, FULL-TEXT read 9 October 2026",
+  "status": "interest",
+  "statusRaw": "UNPLACED - INTEREST",
+  "note": "*** Husband of SOCORRO LERENA and father of the Serapio Fernandez who married Antonina Lerena in 1885. *** His grandson's birth act of 1897 gives him simply as *** 'Don SERAPIO FERNANDEZ, Oriental, fallecido' *** - dead by then, with no age.",
+  "place": "Trinidad, Flores",
+  "placeSlug": "trinidad-flores",
+  "surname": "FERNANDEZ",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "no public link",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [
+   {
+    "name": "Serapio FERNANDEZ (m. Antonina Lerena 1885)",
+    "dates": "1856–",
+    "slug": "serapio-fernandez-2",
+    "via": "register",
+    "note": "Flores birth act No. 10 of 1897, which names all four grandparents"
+   }
+  ],
+  "siblings": [],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 1,
+  "relRegister": 1,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "serapio-fernandez-2",
+  "name": "Serapio FERNANDEZ (m. Antonina Lerena 1885)",
+  "born": "1856",
+  "died": "",
+  "birthplace": "Uruguay",
+  "nationality": "UY",
+  "occupation": "Hacendado",
+  "where": "Cerro Colorado, Flores",
+  "source": "Flores, Birth Records 1887-1901 - entry No. 10, Cayetano Alberto Fernandez, born Pintos 7 August 1897; image ark 3:1:3Q9M-CS24-333J-F, FULL-TEXT read 9 October 2026",
+  "status": "connected",
+  "statusRaw": "CONNECTED",
+  "note": "*** HE MARRIED A FIRST COUSIN, on the face of the records. *** Dispensed the *** second grade of consanguinity by the equal lateral line *** on 26 June 1885 to marry *** ANTONINA LERENA ***. His son's birth act of 1897 gives him as *** forty-one, married, HACENDADO, vecino de CERRO COLORADO *** - born about *** 1856 *** - and names his parents as *** SERAPIO FERNANDEZ (deceased) and SOCORRO LERENA ***. *** HIS MOTHER WAS A LERENA AND HIS WIFE'S FATHER WAS A LERENA. ***",
+  "place": "Cerro Colorado, Flores",
+  "placeSlug": "cerro-colorado-flores",
+  "surname": "FERNANDEZ",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "no public link",
+  "gen": null,
+  "father": {
+   "name": "Serapio FERNANDEZ (the elder, d. by 1897)",
+   "dates": "",
+   "slug": "serapio-fernandez",
+   "via": "register",
+   "note": "Flores birth act No. 10 of 1897, which names all four grandparents"
+  },
+  "mother": {
+   "name": "Socorro LERENA (m. Serapio Fernandez the elder)",
+   "dates": "1832–",
+   "slug": "socorro-lerena",
+   "via": "register",
+   "note": "Flores birth act No. 10 of 1897, which names all four grandparents"
+  },
+  "spouses": [
+   {
+    "name": "Antonina LERENA (b. c.1862, dau. of Bernabe; m. Serapio Fernandez 1885)",
+    "dates": "1862–",
+    "slug": "antonina-lerena-2",
+    "via": "register",
+    "note": "m. 26 Jun 1885; dispensed a 2nd grade of consanguinity, equal lateral line"
+   }
+  ],
+  "children": [
+   {
+    "name": "Cayetano Alberto FERNANDEZ (b.1897)",
+    "dates": "1897–",
+    "slug": "cayetano-alberto-fernandez",
+    "via": "register",
+    "note": "Flores birth act No. 10 of 1897, which names all four grandparents"
+   }
+  ],
+  "siblings": [],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 4,
+  "relRegister": 4,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "antonina-lerena-2",
+  "name": "Antonina LERENA (b. c.1862, dau. of Bernabe; m. Serapio Fernandez 1885)",
+  "born": "1862",
+  "died": "",
+  "birthplace": "Trinidad, Flores",
+  "nationality": "UY",
+  "occupation": "Labores",
+  "where": "Cerro Colorado, Flores",
+  "source": "Flores, Birth Records 1887-1901 - entry No. 10, Cayetano Alberto Fernandez, born Pintos 7 August 1897; image ark 3:1:3Q9M-CS24-333J-F, FULL-TEXT read 9 October 2026; and Arquidiocesis de Montevideo, Marriage Dispensation Records 1856-1932 - FamilySearch FULL-TEXT transcript read 9 October 2026 - image ark 3:1:3Q9M-C9B7-N2MN",
+  "status": "connected",
+  "statusRaw": "CONNECTED",
+  "note": "*** A DAUGHTER OF BERNABE LERENA AND CASIMIRA PELAEZ, named as such in her son's birth act of 1897. *** She is given there as *** 'Dona ANTONINA LERENA, Oriental, de treinta y cinco anos' *** - born about *** 1862 ***. Married *** SERAPIO FERNANDEZ *** on 26 June 1885 under a dispensation of the second grade of consanguinity. *** SHE IS NOT THE OTHER ANTONINA LERENA OF TRINIDAD ***, who was already the mother of a thirty-year-old in 1880 and so born about 1830. *** Two women of one name in one small town, and this archive nearly had one. *** *** AND SHE WAS BRIEFLY IN THIS REGISTER TWICE. *** A row was created for her yesterday from the dispensation ledger alone - 'Antonina LERENA (of Trinidad, m. Serapio Fernandez 1885)' - and a second today from the birth act that named her parents. *** Merged 9 October 2026, and the duplicate was caught by tools/check-duplicates.py rather than noticed *** - which is the gate doing in one build what this archive once took three weeks to do by hand. *** 26 JUNE 1885: dispensed the SECOND GRADE of consanguinity by the EQUAL lateral line to marry DON SERAPIO FERNANDEZ (hijo). *** *** EQUAL SECOND DEGREE IS FIRST COUSINS *** - she and her husband shared a grandparent. *** AND THE GROOM IS A FERNANDEZ ***, which is the surname of Sancho Llerena's wife Maria Fernandez and of Avelino Lerena Fernandez. *** A CONSANGUINITY DISPENSATION IS A STATEMENT ABOUT ANCESTRY. *** The Church computed the degree before it would dispense, so the entry constrains a pedigree even though it names no parent. *** The register itself names NO PARENTS *** - it is the Vicar General's summary ledger, not the expediente. *** NO BIRTH YEAR IS RECORDED HERE, and one was briefly invented. *** This row first carried a year reached by assuming an ordinary age at marriage. *** That is a guess wearing the clothes of a fact ***, it is what this archive did to William John Taylor on 8 October, and tools/check-duplicates.py caught it the same way - by matching the invented year against real namesakes. *** The dispensation register gives no age and no birth. ***",
+  "place": "Cerro Colorado, Flores",
+  "placeSlug": "cerro-colorado-flores",
+  "surname": "LERENA",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": {
+   "name": "Bernabe LERENA (of Trinidad)",
+   "dates": "1835–",
+   "slug": "bernabe-lerena",
+   "via": "register",
+   "note": "Flores birth act No. 10 of 1897, which names all four grandparents"
+  },
+  "mother": {
+   "name": "Dona Casimira PELAEZ (wife of Bernabe LERENA)",
+   "dates": "1841–",
+   "slug": "dona-casimira-pelaez",
+   "via": "register",
+   "note": "Flores birth act No. 10 of 1897, which names all four grandparents"
+  },
+  "spouses": [
+   {
+    "name": "Serapio FERNANDEZ (m. Antonina Lerena 1885)",
+    "dates": "1856–",
+    "slug": "serapio-fernandez-2",
+    "via": "register",
+    "note": "m. 26 Jun 1885; dispensed a 2nd grade of consanguinity, equal lateral line"
+   }
+  ],
+  "children": [
+   {
+    "name": "Cayetano Alberto FERNANDEZ (b.1897)",
+    "dates": "1897–",
+    "slug": "cayetano-alberto-fernandez",
+    "via": "register",
+    "note": "Flores birth act No. 10 of 1897, which names all four grandparents"
+   }
+  ],
+  "siblings": [
+   {
+    "name": "Carmen LERENA Pelaez",
+    "dates": "",
+    "slug": "carmen-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Juan Bernardo LERENA Pelaez",
+    "dates": "",
+    "slug": "juan-bernardo-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Paula Modesta LERENA Pelaez",
+    "dates": "",
+    "slug": "paula-modesta-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Ysidro Gregorio LERENA Pelaez",
+    "dates": "",
+    "slug": "ysidro-gregorio-lerena-pelaez",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 4,
+  "relRegister": 4,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "antonina-lerena-3",
+  "name": "Antonina LERENA (the elder, m. Juan PELAEZ)",
+  "born": "1830",
+  "died": "",
+  "birthplace": "Trinidad, Flores",
+  "nationality": "UY",
+  "occupation": "-",
+  "where": "Trinidad, Flores",
+  "source": "Santisima Trinidad, Religious Marriage Records January 1875 - August 1895, act of 6 March 1880; image ark 3:1:3Q9M-CS27-V1PJ - FULL-TEXT read 9 October 2026",
+  "status": "high",
+  "statusRaw": "UNPLACED - HIGH INTEREST",
+  "note": "*** A LERENA WHO MARRIED A PELAEZ A GENERATION BEFORE THE OTHERS. *** On 6 March 1880 at Trinidad, *** MARIA PELAEZ, thirty, 'hija legitima de Don JUAN PELAEZ [y] de Dona ANTONINA LERENA' ***, married Don Rafael Sanchez, a widower - and *** Antonina witnessed her own daughter's wedding ***, with Don Balbino Pelaez. *** A DAUGHTER OF THIRTY IN 1880 PUTS HER OWN BIRTH NEAR 1830. *** *** SO A LERENA MARRIED A PELAEZ AROUND 1845 ***, and Bernabe Lerena married another Pelaez a generation later. *** That is why the couples of 1885, 1894 and 1913 all needed dispensing: two families had been marrying each other for two generations. ***",
+  "place": "Trinidad, Flores",
+  "placeSlug": "trinidad-flores",
+  "surname": "LERENA",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [
+   {
+    "name": "Juan PELAEZ (m. Antonina LERENA)",
+    "dates": "",
+    "slug": "juan-pelaez",
+    "via": "register",
+    "note": "Santisima Trinidad marriage act, 6 March 1880"
+   }
+  ],
+  "children": [
+   {
+    "name": "Maria PELAEZ (m. Rafael Sanchez 1880)",
+    "dates": "1850–",
+    "slug": "maria-pelaez",
+    "via": "register",
+    "note": "Santisima Trinidad marriage act, 6 March 1880"
+   }
+  ],
+  "siblings": [],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "maria-pelaez",
+  "name": "Maria PELAEZ (m. Rafael Sanchez 1880)",
+  "born": "1850",
+  "died": "",
+  "birthplace": "Trinidad, Flores",
+  "nationality": "UY",
+  "occupation": "-",
+  "where": "Trinidad, Flores",
+  "source": "Santisima Trinidad, Religious Marriage Records January 1875 - August 1895, act of 6 March 1880; image ark 3:1:3Q9M-CS27-V1PJ",
+  "status": "interest",
+  "statusRaw": "UNPLACED - INTEREST",
+  "note": "*** Daughter of JUAN PELAEZ and ANTONINA LERENA ***, married Don RAFAEL SANCHEZ, a widower with legitimate issue by Dona Laureana Maciel, at Trinidad on 6 March 1880. Thirty years old then, so born about *** 1850 ***.",
+  "place": "Trinidad, Flores",
+  "placeSlug": "trinidad-flores",
+  "surname": "PELAEZ",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": {
+   "name": "Juan PELAEZ (m. Antonina LERENA)",
+   "dates": "",
+   "slug": "juan-pelaez",
+   "via": "register",
+   "note": "Santisima Trinidad marriage act, 6 March 1880"
+  },
+  "mother": {
+   "name": "Antonina LERENA (the elder, m. Juan PELAEZ)",
+   "dates": "1830–",
+   "slug": "antonina-lerena-3",
+   "via": "register",
+   "note": "Santisima Trinidad marriage act, 6 March 1880"
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "juan-pelaez",
+  "name": "Juan PELAEZ (m. Antonina LERENA)",
+  "born": "-",
+  "died": "",
+  "birthplace": "Uruguay",
+  "nationality": "UY",
+  "occupation": "-",
+  "where": "Trinidad, Flores",
+  "source": "Santisima Trinidad, Religious Marriage Records January 1875 - August 1895, act of 6 March 1880; image ark 3:1:3Q9M-CS27-V1PJ",
+  "status": "interest",
+  "statusRaw": "UNPLACED - INTEREST",
+  "note": "*** Husband of the elder ANTONINA LERENA and father of Maria Pelaez, named in his daughter's marriage act of 6 March 1880. *** He did not witness it; his wife did. *** One of at least five Lerena-Pelaez unions this archive now holds. ***",
+  "place": "Trinidad, Flores",
+  "placeSlug": "trinidad-flores",
+  "surname": "PELAEZ",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [
+   {
+    "name": "Antonina LERENA (the elder, m. Juan PELAEZ)",
+    "dates": "1830–",
+    "slug": "antonina-lerena-3",
+    "via": "register",
+    "note": "Santisima Trinidad marriage act, 6 March 1880"
+   }
+  ],
+  "children": [
+   {
+    "name": "Maria PELAEZ (m. Rafael Sanchez 1880)",
+    "dates": "1850–",
+    "slug": "maria-pelaez",
+    "via": "register",
+    "note": "Santisima Trinidad marriage act, 6 March 1880"
+   }
+  ],
+  "siblings": [],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "cayetano-alberto-fernandez",
+  "name": "Cayetano Alberto FERNANDEZ (b.1897)",
+  "born": "1897-08-07",
+  "died": "",
+  "birthplace": "Pintos, Flores",
+  "nationality": "UY",
+  "occupation": "-",
+  "where": "Cerro Colorado, Flores",
+  "source": "Flores, Birth Records 1887-1901 - entry No. 10, Cayetano Alberto Fernandez, born Pintos 7 August 1897; image ark 3:1:3Q9M-CS24-333J-F, FULL-TEXT read 9 October 2026",
+  "status": "connected",
+  "statusRaw": "CONNECTED",
+  "note": "*** Son of SERAPIO FERNANDEZ and ANTONINA LERENA ***, born at *** PINTOS *** at six in the morning on *** 7 August 1897 *** and registered on the 14th. *** His birth act is the document that named four grandparents and explained a dispensation *** - see data/trinidad-consanguinity-explained.tsv.",
+  "place": "Cerro Colorado, Flores",
+  "placeSlug": "cerro-colorado-flores",
+  "surname": "FERNANDEZ",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "no public link",
+  "gen": null,
+  "father": {
+   "name": "Serapio FERNANDEZ (m. Antonina Lerena 1885)",
+   "dates": "1856–",
+   "slug": "serapio-fernandez-2",
+   "via": "register",
+   "note": "Flores birth act No. 10 of 1897, which names all four grandparents"
+  },
+  "mother": {
+   "name": "Antonina LERENA (b. c.1862, dau. of Bernabe; m. Serapio Fernandez 1885)",
+   "dates": "1862–",
+   "slug": "antonina-lerena-2",
+   "via": "register",
+   "note": "Flores birth act No. 10 of 1897, which names all four grandparents"
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  }
