@@ -155,9 +155,10 @@
    "jacinta-mercedes-gregoria-lerena-villademoros",
    "fernando-moratorio-2",
    "mercedes-lerena-2",
-   "maria-elena-lerena"
+   "maria-elena-lerena",
+   "mercedes-lerena-de-martinez"
   ],
-  "count": 153
+  "count": 154
  },
  {
   "slug": "trinidad-flores",
@@ -576,6 +577,16 @@
   "count": 3
  },
  {
+  "slug": "mendoza-argentina",
+  "name": "Mendoza, Argentina",
+  "people": [
+   "maria-adela-lerena-carniglia",
+   "maria-mercedes-lerena-carniglia",
+   "eduardo-carniglia"
+  ],
+  "count": 3
+ },
+ {
   "slug": "tucuman",
   "name": "Tucuman",
   "people": [
@@ -653,15 +664,6 @@
   "people": [
    "malvino-pelaez",
    "antonio-eusebio-pelaez"
-  ],
-  "count": 2
- },
- {
-  "slug": "mendoza-argentina",
-  "name": "Mendoza, Argentina",
-  "people": [
-   "maria-adela-lerena-carniglia",
-   "maria-mercedes-lerena-carniglia"
   ],
   "count": 2
  },

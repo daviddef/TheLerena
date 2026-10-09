@@ -452,5 +452,27 @@
    "familysearch"
   ],
   "note": "WAYPOINT CHECKED BEFORE BEING RECORDED, as the atlas requires: Q633-3DR resolves in fs-volumes-world.json to 'mendoza, 1899-1903, Bautismos 1899-1903', and the act is 6 January 1900 - inside the range. The waypoint was taken from the film viewer's wc= parameter, which this archive's other work has almost never carried. HOW TO GET FROM AN INDEX HIT TO THE PLATE: the index record's 'Document Information' panel gives Digital Folder, Microfilm and Image numbers; /search/film/<DGS>?i=<N-1> then resolves, and the page TITLE carries both the image ark and the wc= waypoint."
+ },
+ {
+  "src": "FamilySearch - Santiago Apostol y San Nicolas (Iglesia Matriz de Mendoza), Argentina. Baptism Records 1901-1903",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:939X-HFTB-Z?view=fullText",
+  "film": "004597291",
+  "waypoint": null,
+  "what": "THE FINDING IS ABOUT THE FORM, NOT THE FAMILY, AND IT TRANSFERS: this parish switched from PROSE to a PRINTED FORM between 1900 and 1902, and the printed form carries a 'natural de' BLANK beside each parent. The prose act of 1900 could only say the parents were 'orientales'; the form of 1902 names the city - MONTEVIDEO - for both. SO WHEN A PARISH ADOPTS A PRINTED REGISTER, GO BACK AND RE-ASK THE QUESTIONS THE PROSE COULD NOT ANSWER. Same couple, same parish, two years apart, and the second act answers what the first could not.",
+  "when": "2026-10-09",
+  "outcome": "yield",
+  "pages": "95 (item 003)",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "carniglia",
+   "martinez",
+   "mendoza",
+   "montevideo",
+   "argentina",
+   "uruguay",
+   "familysearch"
+  ],
+  "note": "NO WAYPOINT RECORDED FOR THIS ONE, DELIBERATELY. The film page offers wc=Q633-3DR, which was verified for item 001 (mendoza, Bautismos 1899-1903) - but this act is in ITEM 003 of the same film, a different volume titled 'Baptism Records 1901-1903', and a film page's wc= describes only its default segment. The year range would fit, and a range that fits is not a confirmed match. Film number recorded instead. ALSO WORTH KNOWING: the index's Digital Folder number carries the item - 004597291_003_M9CV-FLX - and /search/film/<DGS>?i=N resolves against ITEM 001 only, so it silently lands on the wrong volume. Use the index record's own VIEW ORIGINAL DOCUMENT button, which goes to the right image ark."
  }
 ]
