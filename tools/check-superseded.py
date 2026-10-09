@@ -43,6 +43,12 @@ DATA_EXEMPT = {"corrections.tsv", "gedcom-import.tsv", "gedcom-graded.tsv",
 RETRACT_WINDOW = 420
 RETRACT = re.compile(
     r"used to (say|read|carry)|(was|were|is|are) wrong|no longer|struck|retir|disprov|refus|"
+    # *** ADDED 9 OCTOBER 2026, AND THE GATE CAUGHT ITSELF. *** 'WITHDRAWN' is this archive's
+    # commonest retraction verb - it is used four times in the corrections of this day alone -
+    # and RETRACT could not hear it, so the gate failed five sentences that were retracting the
+    # very claims it was guarding. That is precisely the failure this file's own docstring warns
+    # of: "a gate that cannot recognise a retraction will send people to edit their corrections."
+    r"withdraw|withdrawn|premise was false|cannot do|had been done|this row asked|"
     r"correct|superseded|does not exist|never existed|is not what|cannot be true|"
     r"this archive had|for three weeks|and that was wrong|does not come out|"
     r"and it does not|had carried|has carried|downgrad|"
@@ -92,6 +98,38 @@ RETIRED = [
     (r"STILL NOT NAMED BY ANY RECORD",
      "Alejandro M. Lerena's parents ARE named: AVELINO LERENA and AMBROSIA TRAIBEL, on the Cordon "
      "act of 26 December 1877, film 007713388 image 02455, read 27 September 2026."),
+    # *** TWO RULES WERE WRITTEN HERE AND WITHDRAWN WITHIN THE HOUR, 9 October 2026. ***
+    # A bare "Maria SERENA" fired on data/household-97-serena.tsv - a twelve-year-old in an
+    # 1858 census who has nothing to do with the 1922 act - and a bare "Cipriano LERENA
+    # Montana" fired on two files that correctly cite the INDEXED RECORD of that name while
+    # the merged ROW is gone. Both were name collisions, not assertions.
+    # *** THIS ARCHIVE HAD ALREADY RECORDED THAT BULK-GENERATING RETIRED CLAIMS FAILS THIS WAY ***
+    # - 39 hits, all collisions - and the lesson was written down and then repeated. A retired
+    # claim must be a SENTENCE this archive asserted, never a NAME it mentions.
+    # *** THE SIX OF 9 OCTOBER, AFTER TWO WERE WITHDRAWN. *** Four separate times in one day this archive asserted
+    # something its own files had already settled, and each cost real work. These are the
+    # claims that must now stop being made.
+    (r"Nothing joins him to these two|a third Bernabe Lerena sits in this register unattached",
+     "Bernabe LERENA of Trinidad is NOT unattached and has not been since 17 September. He is a son "
+     "of ALEJANDRO LERENA and MARGARITA FERNANDEZ and a grandson of RAMON LERENA and MARIA JOSEFA "
+     "GONZALEZ - his own marriage expediente of 1858 and his father's marriage act of 1825."),
+    (r"same names, same\s+generation, same place of origin|SAME COUPLE'S NAMES, SAME GENERATION, SAME PLACE OF ORIGIN",
+     "The 1837 act says Mauricio was 'natural de la VILLA DEL COLLA' and the 1858 expediente says "
+     "'naturales de SAN JOSE'. Different birthplaces. He MARRIED at San Jose; they were BORN there."),
+    (r"would give his stated age, occupation, residence and[^.]{0,20}father's name",
+     "The Cape marriage register of 1911 has NO COLUMN for the fathers of the parties. That document "
+     "cannot name Juan Carlos Lerena, and its silence is a fact about the form, not about the family."),
+    (r"informaciones matrimoniales are a separate series|a separate series this archive had not reached",
+     "They are in the SAME collection. The Arquidiocesis de Montevideo volumes of 1885-1913 are the "
+     "Vicar General's summary ledger; the volumes of the 1850s are FULL EXPEDIENTES naming four "
+     "generations. The difference is the decade, not the series."),
+    (r"required by the degree the Archbishop dispensed and is not written down in either act",
+     "It is written down, in a third act. The 1825 marriage act gives Margarita Fernandez Alvarez's "
+     "parents as JUAN FERNANDEZ ALVAREZ and BARBARA SOTURA; the 1855 expediente gives Serapio "
+     "Fernandez's grandparents as 'Don Juan y Dona Barbara Sotura'. Manuel is her brother."),
+    (r"Juan LERENA \(m\. Eduviges Pelaez 1894\)",
+     "Merged 9 October 2026 into Juan Bernardo LERENA Pelaez. The baptism of his son Nepomuceno "
+     "Teofilo, 26 November 1905, names his parents as BERNABE and CASIMIRA PELAEZ."),
     (r"Alejandro LERENA \(m\. Elisa VILLARDEMOROS\)",
      "Merged 9 October 2026 into Alejandro M. LERENA (m.1 Elisa VILLADEMOROS; m.2 Julia BASSANI). "
      "They were proved one man on 27 September; two rows is the old state."),
