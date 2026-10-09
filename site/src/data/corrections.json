@@ -1046,5 +1046,13 @@
   "what_is_true": "*** THE PLATE READS 'LENDIN', NOT 'LONDON'. *** At full magnification the second letter is an unmistakable *** e ***, not an o, and there is an *** n *** before the d where London has none; the i-dot sits after the d. *** THE STREET IS NOT CONFIDENTLY READ *** and is now recorded as 'Lendin (so written; not resolved)'. *** IT IS NOT DEMONSTRABLY 'LEIDEN' EITHER ***, although that is the likeliest intended name - Nuno lived at *** 24 Leiden Road *** - because Leiden would put the i before the d and this hand does not.",
   "how_it_was_caught": "*** BY CHECKING THE STREET AGAINST THE PLACE INSTEAD OF ACCEPTING IT. *** Gerdview's streets are named for Dutch and German cities - Leiden, Weert, Cologne - and 'London' did not fit the scheme, which sent the plate back for a harder look. *** THE LESSON IS THE MAGNIFICATION: *** the first read was done at a zoom that resolved 'Lerena' and 'Nuno' perfectly and was still too coarse for a six-letter word in the same hand. *** A READING IS ONLY AS GOOD AS THE SMALLEST THING IT RESTS ON. ***",
   "retired": ""
+ },
+ {
+  "date": "2026-10-09",
+  "severity": "serious",
+  "what_was_said": "*** That the Lerena cards of army drawer CAJON 985 were 'sitting unread', and that the drawer is 'filed alphabetically'. *** Both published on /open-questions/ under *** question 1, the question this archive exists to answer ***, since 10 September 2026 - a page whose stated purpose is 'published so strangers can help'.",
+  "what_is_true": "*** THE DRAWER WAS READ ON 10 SEPTEMBER, THE SAME DAY THE QUESTION WAS WRITTEN, AND THE FATHERS TRACED ON THE 13TH. *** data/cajon-985-scan.tsv holds all 39 frames, images 650-688, with every card's indexed parents; data/cajon-985-origins.tsv traces the fathers to three Uruguayan branches. *** AND IT IS NOT ALPHABETICAL: *** the same file records that the drawer is *** GROUPED BY SOUND *** - Lera, Lerena, Lorena, Serena, Sera, Era, Leza, Perena, Perella and Hereijo interfiled - which is a finding in its own right and the reason the index's manglings survived in it. *** TWENTY LERENA CARDS, AND NO JUAN CARLOS ON ANY OF THEM. ***",
+  "how_it_was_caught": "*** BY GOING TO DO THE WORK THE PAGE ASKED FOR AND FINDING IT DONE. *** *** THIS IS THE WORST PLACE IN THE ARCHIVE FOR IT TO HAVE HAPPENED: *** /open-questions/ exists so that a stranger can help, and its first question was sending them to a drawer that had been read, by a filing rule that is wrong. *** IT IS THE SAME DEFECT AS THE REGISTER CALLING BERNABE UNATTACHED *** - a page that stopped where data/ went on - and the fifth instance recorded today.",
+  "retired": ""
  }
 ]
