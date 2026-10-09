@@ -13,8 +13,8 @@
  },
  {
   "what": "*** THE CORPUS HAS A HOLE WHERE THIS ARCHIVE ALSO NEEDS ONE ***",
-  "what was found": "*** SOUTH AFRICA RETURNED NOTHING USABLE. *** A full-text search with a South African place filter errors outright (\"Something Went Wrong\"), and unfiltered searches surface no South African collection.",
-  "why it matters": "*** So full text does NOT reach the Cape, and row 106 gains nothing from it. *** The Uruguayan and Argentine ends gain a great deal.",
-  "grade": "NEGATIVE, CONTROLLED"
+  "what was found": "*** SOUTH AFRICA LOOKED ABSENT AND IS NOT. *** A full-text search with a South African place filter errors outright (\"Something Went Wrong\"), and unfiltered searches surface no South African collection.",
+  "why it matters": "*** THIS WAS WRONG AND WAS CORRECTED THE NEXT DAY. *** The URL parameter errors; *** the in-page PLACE FACET works and South Africa is in it ***, with seven Lerena hits across four collections including *** South Africa, Properties, 1800-1997 ***. A broken parameter was read as an absent country. *** What survives of the original claim: *** there is still no Cape civil registration in the corpus, so row 106 gains nothing - but for the wrong reason, and the rest of the South African corpus gains a great deal. See data/fulltext-worked-2026-10-09.tsv.",
+  "grade": "WRONG - corrected 9 October, see fulltext-worked"
  }
 ]

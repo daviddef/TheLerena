@@ -152,5 +152,12 @@
   "what it actually was": "*** NEITHER CAN BE TRUE, AND THE PROOF IS THAT BOTH ARE WRONG THE SAME WAY. *** The family tree has the 1932 boy at *** five days *** and Antoinette at *** four ***. *** Two independent dates disagreeing with the index in the SAME DIRECTION is the signature of an unfilled field carrying a default ***, not of two coincidental errors. *** THE NEAR MISS: *** this archive was one step from publishing 'the tree says five days and the record says none, so the tree is wrong' - a correction built on a blank.",
   "how it was caught": "*** BY READING THE SECOND RECORD BEFORE WRITING UP THE FIRST. *** One '0 days' is a fact; two in a row, against two different trees, is a form field.",
   "when": "8 Oct 2026"
+ },
+ {
+  "disguise": "*** A SEARCH TOOL THAT ERRORS, READ AS A CORPUS THAT IS EMPTY ***",
+  "what it looked like": "FamilySearch's full-text search, given a South African place in the URL, returns *** 'Something Went Wrong - unfortunately, something went wrong, and we are unable to display the search results.' *** Unfiltered searches surfaced no South African collection either, and this archive published that *** South Africa is not in the corpus ***.",
+  "what it actually was": "*** IT IS IN THE CORPUS. *** The URL parameter is broken; *** the PLACE FACET inside the page works perfectly ***, and the surname returns seven hits across four South African collections - including a voters' roll entry for *** ROQUE LUIS ARMANDO LERENA *** and a land record carrying *** NUNO FERNANDO LERENA's exact birth date ***. The unfiltered searches hid them because 1,985 results ranked Peru and Spain above seven South African ones.",
+  "how it was caught": "*** BY OPENING THE FILTER IN THE PAGE INSTEAD OF WRITING IT INTO THE URL. *** The lesson is one word longer than the one this archive already had: *** run the control before believing the null - and when a tool ERRORS rather than returns nothing, that is not a null at all. ***",
+  "when": "9 Oct 2026"
  }
 ]

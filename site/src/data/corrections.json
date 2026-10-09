@@ -966,5 +966,13 @@
   "what_is_true": "*** THEY WERE NAMED ON 27 SEPTEMBER 2026 - AVELINO LERENA and AMBROSIA TRAIBEL *** - on the Cordon act of 26 December 1877, read off film 007713388 image 02455. *** The cell went on saying 'STILL NOT NAMED BY ANY RECORD' for twelve days after the answer was found and written into data/_person-pairs.txt. *** The 1888 blank-form reasoning is kept below it, because it was true when written and explains why the question was hard.",
   "how_it_was_caught": "*** BY GOING BACK TO THE MERGE AND READING THE TABLE THAT DESCRIBES IT. *** This is the same failure as the Taylor strikes of 8 October: *** a finding is written where it is MADE and not carried back to every page that states the question. *** check-superseded.py would have caught it if the claim had been on its list; it was not, and a gate only knows what it is told.",
   "retired": ""
+ },
+ {
+  "date": "2026-10-09",
+  "severity": "moderate",
+  "what_was_said": "*** That FamilySearch's full-text corpus does not reach South Africa *** - 'a full-text search with a South African place filter errors outright and no South African collection surfaces, so a Cape question gains nothing here'. Published yesterday, in data/fulltext-route-2026-10-09.tsv and on /searched/.",
+  "what_is_true": "*** SOUTH AFRICA IS IN IT. *** The URL parameter errors; *** the in-page PLACE FACET works ***, and the surname returns *** SEVEN HITS *** across *** South Africa Legal 1559-2017, Orange Free State Legal, SOUTH AFRICA PROPERTIES 1800-1997 and Transvaal Religious ***. Two are this family and new: *** ROQUE LUIS ARMANDO LERENA on a Union voters' roll 1925-1931, polling district 770 ***, and *** NUNO FERNANDO LERENA in a land record, identified by his exact birth date 6.10.1924 ***. *** WHAT SURVIVES OF THE ORIGINAL CLAIM: *** there is no Cape civil registration in the corpus, so row 106 still gains nothing - but for a different reason than the one given.",
+  "how_it_was_caught": "*** BY WORKING THE ROUTE INSTEAD OF TRUSTING YESTERDAY'S NOTE ABOUT IT. *** The error is a familiar shape in this archive and now has a fourth instance: *** A BROKEN PARAMETER READ AS AN ABSENT RECORD. *** data/false-zeros.tsv already holds three - FamilySearch's place filter returning 0 where the control proved thousands, its date filter zeroing a 413-result query, and findmypast's URL parameters being ignored entirely. *** The rule that would have caught it is the one this archive already wrote: run the control before believing the null. *** A search tool that ERRORS is not a corpus that is EMPTY.",
+  "retired": ""
  }
 ]

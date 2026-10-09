@@ -6,10 +6,41 @@ import { emph } from "../lib/text.js";
 import Searched from "@daviddef/archive-kit/components/Searched.astro";
 import searchedRows from "../data/searched-index.json";
 import ftroute from "../data/fulltext-route-2026-10-09.json";
+import ftwork from "../data/fulltext-worked-2026-10-09.json";
 ---
 <Base title="What Has Been Read"
       eyebrow="Everything looked at, including everything that led nowhere"
       dek="An archive that publishes only its finds is advertising. This page lists every search made, what it returned, and what it cost — so that no one repeats a dead end, and so a null result can be read as evidence rather than silence.">
+
+<section class="blk">
+  <h2 id="s-fulltext-worked">The route, worked &mdash; and a country this archive wrote off</h2>
+  <p class="dek">9 October 2026. It opened with the archive correcting itself after one day.</p>
+  <div class="prose">
+    <p><strong>Yesterday this archive published that South Africa is not in the full-text corpus.</strong>
+      It is. A full-text search with a South African place <em>in the URL</em> errors outright
+      &mdash; <em>&ldquo;Something Went Wrong&rdquo;</em> &mdash; so the route looked closed.
+      <strong>The place facet inside the page works</strong>, and the surname returns seven hits.
+      <strong>A broken parameter was read as an absent country.</strong></p>
+  </div>
+  <dl class="kv" style="margin-top:18px">
+    {ftwork.filter((r) => r.what).map((r) => (
+      <div><dt set:html={emph(r.what)} /><dd>
+        <span set:html={emph(r["the record"])} /><br />
+        <span class="cap" set:html={emph(r["what it gives"])} /><br />
+        <span class="chip">{r.grade}</span>
+      </dd></div>
+    ))}
+  </dl>
+  <div class="prose" style="margin-top:18px">
+    <p><strong>Two of the seven are this family and both are new.</strong>
+      <strong>Roque Luis Armando Lerena</strong> stands at number <strong>1491 in polling district
+      770</strong> of a Union voters&rsquo; roll &mdash; a record class never touched here, and one
+      that carries an address. And <strong>Nuno Fernando Lerena</strong> appears in a land record,
+      identified beyond doubt by his <strong>exact birth date, 6.10.1924</strong>, against a property
+      on Cologne Road. <strong>It is the first land record this archive has found for anyone in this
+      family.</strong> <a href={u("/corrections/")}>What was corrected &rarr;</a></p>
+  </div>
+</section>
 
 <section class="blk">
   <h2 id="s-fulltext">A route this archive had never used</h2>
@@ -66,6 +97,7 @@ import ftroute from "../data/fulltext-route-2026-10-09.json";
   <div class="prose" style="margin-top:14px">
     <ol class="cols2">
       <li><a href="#s-index">Every search, as one table</a></li>
+      <li><a href="#s-fulltext-worked">The route, worked &mdash; and a country this archive wrote off</a></li>
       <li><a href="#s-fulltext">A route this archive had never used</a></li>
       <li><a href="#why-a-page-of-failures">Why a page of failures</a></li>
       <li><a href="#the-army-enrolment-drawer-the-one-that-worked">The army enrolment drawer — the one that worked</a></li>
