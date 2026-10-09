@@ -702,6 +702,15 @@
   "count": 2
  },
  {
+  "slug": "durazno-uruguay",
+  "name": "Durazno, Uruguay",
+  "people": [
+   "amador-lerena-pelaez",
+   "pedro-s-lerena"
+  ],
+  "count": 2
+ },
+ {
   "slug": "retiro-buenos-aires",
   "name": "Retiro, Buenos Aires",
   "people": [
@@ -850,14 +859,6 @@
   "name": "Parana, Entre Rios",
   "people": [
    "arturo-lerena-garcia"
-  ],
-  "count": 1
- },
- {
-  "slug": "durazno-uruguay",
-  "name": "Durazno, Uruguay",
-  "people": [
-   "amador-lerena-pelaez"
   ],
   "count": 1
  }

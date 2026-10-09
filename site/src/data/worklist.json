@@ -694,11 +694,11 @@
   },
   {
    "n": 87,
-   "what": "Re-run the Montevideo dispensation sweep on compound surnames",
-   "state": "next",
+   "what": "Re-run the Montevideo dispensation sweep on compound surnames — done, and the dispensations were the smallest part of what it found",
+   "state": "done",
    "owner": "this archive",
-   "since": "2026-09-15",
-   "note": "**Migrated from errands.** This archive has a compound-surname sweep (data/compound-surname-sweep.tsv) and a dispensation series; the two have never been crossed. **Lerena y Aguilar**, **Llerena Fernández** and the rest are exactly the forms a dispensation would print."
+   "since": "2026-10-10",
+   "note": "**Worked 10 October 2026.** The row asked for this archive's compound-surname technique to be crossed with the dispensation series. **It was, and the crossing itself returned almost nothing: of the compounds tried, only \"Lerena Cardozo\" reached a dispensation, and it was the 1911 Lerena–Cardozo this archive already held.**\n\n**What the compounds found instead was four acts that rebuilt three generations.** \"Lerena Peláez\" returns **four documents in the entire corpus** and every one was opened:\n\n- **Antonina Isabel Lerena de Peláez**, dead at **ninety-two** in 1911, *hija legítima de Don Ramón Lerena y de Doña María González* — **confirming from the civil register the apex of the kinship diagram a priest drew in 1858**, and naming her four surviving children.\n- **Alejandrina Lerena de Peláez**, d. 1926 — the woman this archive could only infer the day before.\n- **Amador Lerena Peláez**, d. Durazno 1937 — a **second child** for the couple dispensed in 1894.\n- **Luis** and **Aurora**, confirmed at Trinidad, and a new **Margarita Lerena**.\n\n** AND THE TECHNIQUE'S FAILURE MODE WAS FOUND AT THE SAME TIME. ** Two Durazno birth registers of 1915 matched \"Lerena Cardozo\" and are **not about a Lerena at all**: Pedro S. Lerena signed for an illiterate declarant and Saturnino Cardozo witnessed the same act, so the surnames fall adjacent in the signature block. **A compound search cannot tell one person's two surnames from two people's one surname each** — the Trove column-of-type trap in a new place. See data/false-zeros.tsv.\n\n**WHAT IS LEFT, and it is a different row's work:** the compounds of the Montevideo trunk — Lerena Lenguas, Lerena Salvanach, Lerena Villademoros — were not run against the dispensations here, because the Trinidad side paid so heavily that it consumed the session. They are cheap and they are still open."
   },
   {
    "n": 88,
