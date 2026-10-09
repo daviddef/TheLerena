@@ -3197,5 +3197,19 @@
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Eugenio Marcos ABELLA (m. Jacinta Lerena Villademoros)",
+  "born_est": "1876",
+  "last_attested_alive": "1876",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Beatriz Eliza del Corazon de Jesus ABELLA Lerena",
+  "born_est": "1917-11-17",
+  "last_attested_alive": "1917-11-17",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]
