@@ -8,6 +8,7 @@ import salv from "../data/gilberto-salvanach-1906.json";
 import letter from "../data/letter-registro-civil-santafe.json";
 import Spine from "@daviddef/archive-kit/components/Spine.astro";
 import mza from "../data/mendoza-carlos-lerena-1900.json";
+import arturo from "../data/arturo-lerena-garcia-chile.json";
 
 /* Every Lerena Argentina can actually produce, and where each one came from.
    Three households, three arrows back across the river — and one man with no
@@ -97,6 +98,7 @@ const hasArt = fs.existsSync(
       <li><a href="#s-what-this-page-needs-next">What this page needs next</a></li>
       <li><a href="#s-the-1895-census-a-lerena-household-and-it-is-not-his">The 1895 census: a Lerena household, and it is not his</a></li>
       <li><a href="#s-mendoza-carlos">One of the four untraced fathers is Uruguayan</a></li>
+      <li><a href="#s-arturo-chile">Arturo Lerena Garc&iacute;a, and a country this archive had never opened</a></li>
       <li><a href="#s-every-lerena-argentina-can-produce">Every Lerena Argentina can produce, drawn</a></li>
       <li><a href="#s-three-refusals-and-one-direction">Three refusals, and one direction</a></li>
       <li><a href="#s-where-to-go-next">Where to go next</a></li>
@@ -393,6 +395,39 @@ const hasArt = fs.existsSync(
       and Ambrosia Traibel, and <strong>withdrawn the same day as a conflation</strong>. This register
       holds four men of that name. Carlos is recorded as <em>oriental</em>, with an Avelino in his
       circle, and placed in no branch.</p>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-arturo-chile">Arturo Lerena Garc&iacute;a, and a country this archive had never opened</h2>
+  <p class="dek">9 October 2026. The second untraced father &mdash; and the one already got wrong once.</p>
+  <div class="prose">
+    <p><strong>A compound surname names a mother.</strong> A Chilean death registration writes this man
+      <strong>Arturo Lerena Garc&iacute;a</strong> &mdash; the first thing this archive has ever held
+      about his parents, and a searchable handle.</p>
+    <p><strong>It also confirms a withdrawal.</strong> His working row was first written as
+      &ldquo;Montevideo 1858, son of Avelino Lerena and Ambrosia Traibel&rdquo; and retracted the same
+      day as a conflation with Juan Arturo Lerena Traibel. <strong>A man written Lerena Garc&iacute;a
+      is not a son of Ambrosia Traibel.</strong> The doubt is now a document.</p>
+  </div>
+  <dl class="kv" style="margin-top:18px">
+    {arturo.filter((r) => r["what was read"]).map((r) => (
+      <div><dt set:html={emph(r["what was read"])} /><dd>
+        <span set:html={emph(r["what it says"])} /><br />
+        <span class="cap" set:html={emph(r["what it settles"])} />
+      </dd></div>
+    ))}
+  </dl>
+  <div class="prose" style="margin-top:18px">
+    <p><strong>And it put the family in Chile.</strong> La Pampa 1889, <strong>Valpara&iacute;so
+      1893&ndash;94</strong>, Mendoza 1896, Entre R&iacute;os 1897 &mdash; and Mendoza is the Argentine
+      city at the foot of the pass to Valpara&iacute;so, so the route is the ordinary one and the dates
+      sit in order. <strong>Chile had appeared in this archive only as a surname-distribution figure
+      and a DNA probe.</strong> It has never before been a place where a record was read.</p>
+    <p class="cap"><strong>He is still not placed in a country.</strong> The Chilean form records
+      nationality for the <em>deceased</em> only and never asks where the father was born &mdash; where
+      the Mendoza form, the same afternoon, placed Carlos Lerena in a city. <strong>He is recorded as a
+      Lerena Garc&iacute;a and nothing more.</strong></p>
   </div>
 </section>
 

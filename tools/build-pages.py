@@ -82,7 +82,8 @@ for name in ("corrections", "errands", "gaps", "timeline", "photograph-these",
              "trinidad-founding-kindred",
              "colla-trinidad-bridge",
              "south-africa-fulltext-closed",
-             "mendoza-carlos-lerena-1900"):
+             "mendoza-carlos-lerena-1900",
+             "arturo-lerena-garcia-chile"):
     data = rows(name)
     (OUT / f"{name}.json").write_text(json.dumps(data, indent=1, ensure_ascii=False) + "\n",
                                       encoding="utf-8")

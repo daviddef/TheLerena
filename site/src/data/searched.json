@@ -474,5 +474,27 @@
    "familysearch"
   ],
   "note": "NO WAYPOINT RECORDED FOR THIS ONE, DELIBERATELY. The film page offers wc=Q633-3DR, which was verified for item 001 (mendoza, Bautismos 1899-1903) - but this act is in ITEM 003 of the same film, a different volume titled 'Baptism Records 1901-1903', and a film page's wc= describes only its default segment. The year range would fit, and a range that fits is not a confirmed match. Film number recorded instead. ALSO WORTH KNOWING: the index's Digital Folder number carries the item - 004597291_003_M9CV-FLX - and /search/film/<DGS>?i=N resolves against ITEM 001 only, so it silently lands on the wrong volume. Use the index record's own VIEW ORIGINAL DOCUMENT button, which goes to the right image ark."
+ },
+ {
+  "src": "FamilySearch - Valparaiso, Chile. Civil Registration, Death Records September-December 1894",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:939K-P9FG-8?view=fullText",
+  "film": "004702100",
+  "waypoint": null,
+  "what": "REACHED WITHOUT LOOKING FOR IT. A parent-pair query aimed at ARGENTINA - surname LERENA with spouse surname DIAZ - returned Chilean civil registrations, because the family crossed the Andes. CHILE HAD NEVER BEEN A PLACE THIS ARCHIVE READ A RECORD IN; it existed here only as a surname-distribution figure and a DNA probe. THE TRANSFERABLE POINT: a parent-pair query is not constrained by country, and a family that lived at Mendoza is one mountain pass from Valparaiso - so an Argentine search should expect Chilean hits and not discard them. The Chilean death form gives the deceased's nationality, age, address, cause and cemetery, and BOTH PARENTS' NAMES - but never asks where the parents were born.",
+  "when": "2026-10-09",
+  "outcome": "yield",
+  "pages": "19",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "garcia",
+   "diaz",
+   "valparaiso",
+   "chile",
+   "mendoza",
+   "argentina",
+   "familysearch"
+  ],
+  "note": "NO WAYPOINT RECORDED. The film page offers wc=MLKY-SPJ with three segment ids; it was not checked against the atlas's volume data and is therefore not written down, on the rule that a film page's wc= describes only its default segment. Film number recorded instead. ALSO: the FamilySearch index estimates this child's birth as 1894 from the death year, where the act says 'diez meses' - about November 1893. An estimated birth year derived from a death year is not a birth year."
  }
 ]
