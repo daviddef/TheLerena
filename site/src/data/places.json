@@ -155,9 +155,11 @@
    "angelica-maria-lerena-villademoros",
    "dona-angelica-villademoros",
    "jacinta-mercedes-gregoria-lerena-villademoros",
-   "fernando-moratorio-2"
+   "fernando-moratorio-2",
+   "mercedes-lerena-2",
+   "maria-elena-lerena"
   ],
-  "count": 153
+  "count": 155
  },
  {
   "slug": "buenos-aires-arrivals",
@@ -239,9 +241,12 @@
    "maria-regina-lerena-barragan",
    "natalia-elena-lerena-recuero",
    "luis-lerena-2",
-   "cayetana-faustina-lerena"
+   "cayetana-faustina-lerena",
+   "antonina-lerena",
+   "maria-lerena-3",
+   "florinda-juana-lerena"
   ],
-  "count": 29
+  "count": 32
  },
  {
   "slug": "buenos-aires",
@@ -721,6 +726,22 @@
   "name": "London",
   "people": [
    "john-walker-brailey"
+  ],
+  "count": 1
+ },
+ {
+  "slug": "mercedes-soriano",
+  "name": "Mercedes, Soriano",
+  "people": [
+   "juan-lerena-2"
+  ],
+  "count": 1
+ },
+ {
+  "slug": "las-piedras-canelones",
+  "name": "Las Piedras, Canelones",
+  "people": [
+   "eduardo-lerena-2"
   ],
   "count": 1
  }

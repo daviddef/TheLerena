@@ -40,10 +40,56 @@ import carts from "../data/luis-llerena-carts.json";
 import maria from "../data/maria-llerena-casa-2.json";
 import filmmap from "../data/film-7499043-map.json";
 import sanjose from "../data/alberto-lerena-larriera.json";
+import disp from "../data/montevideo-dispensations-fulltext.json";
 ---
 <Base title="Uruguay"
       eyebrow="Two Lerena families, two Spanish origins, and neither of them is his"
       dek="There are two documented Lerena families in nineteenth-century Uruguay, and on 17 September 2026 a baptism act of 1812 settled what they are to each other: nothing. One came from Córdoba in Andalusia, the other from Valdemoro outside Madrid. The surname entered the Banda Oriental twice, from opposite ends of Spain.">
+
+<section class="blk">
+  <h2 id="s-dispensations">Nine dispensations, and the degree of kinship in each</h2>
+  <p class="dek">9 October 2026. Read by full text, which goes round the index.</p>
+  <div class="prose">
+    <p><strong>This archive came here for the wrong reason and found a better one.</strong> The
+      work-list said dispensations were worth opening because a pre-marriage investigation
+      &ldquo;routinely gives a Spanish groom&rsquo;s parents&rdquo;. <strong>That is true of the
+      <em>expediente</em> and not of this book.</strong> The <em>Arquidi&oacute;cesis de Montevideo
+      Marriage Dispensation Records</em> are the Vicar General&rsquo;s summary ledger &mdash; one
+      sentence per couple &mdash; and <strong>not one of these nine entries names a parent</strong>.
+      Two record classes were conflated.</p>
+    <p><strong>What the ledger gives instead answers a question this archive has had for longer.</strong>
+      A <strong>consanguinity</strong> dispensation is a statement about <em>shared ancestry</em>:
+      the Church computed the degree before it would dispense. <strong>A second degree in the equal
+      lateral line is first cousins; a third degree is second cousins; &ldquo;with attingency to the
+      second&rdquo; means two separate blood paths at once.</strong> That constrains a pedigree even
+      where no parent is written down.</p>
+  </div>
+  <table class="tbl" style="margin-top:18px">
+    <thead><tr><th>Dated</th><th>Who</th><th>The impediment</th></tr></thead>
+    <tbody>
+      {disp.filter((r) => r.date).map((r) => (
+        <tr>
+          <td set:html={emph(r.date)} />
+          <td set:html={emph(r.who)} />
+          <td set:html={emph(r["the impediment, as the register states it"])} />
+        </tr>
+      ))}
+    </tbody>
+  </table>
+  <div class="prose" style="margin-top:18px">
+    <p><strong>The Lerenas of Trinidad married P&eacute;laez, and kept marrying them.</strong> Four
+      unions in this list or already in this archive &mdash; Bernab&eacute; Lerena and Casimira
+      Pel&aacute;ez; M&aacute;ximo Pel&aacute;ez and Mar&iacute;a Lerena, 1885; Juan Lerena and
+      Eduviges Pel&aacute;ez, 1894; Vitalino Gregorio Pel&aacute;ez and Florinda Juana Lerena, 1913.
+      <strong>Two of them needed dispensing because the couple were already cousins</strong>, and
+      Juan Lerena needed dispensing twice over, in the second degree <em>and</em> the third.</p>
+    <p><strong>And two Lerena women of Trinidad were dispensed in a single sitting on 26 June
+      1885</strong> &mdash; Antonina to a <strong>Fern&aacute;ndez</strong>, Mar&iacute;a to a
+      <strong>Pel&aacute;ez</strong>. Fern&aacute;ndez is the surname of Sancho Llerena&rsquo;s wife
+      and of Avelino Lerena Fern&aacute;ndez. <strong>This is a kindred marrying inside itself, and
+      the Church wrote down how closely.</strong></p>
+  </div>
+</section>
 
 <section class="blk">
   <div class="panel" style="margin:1.4rem 0">
