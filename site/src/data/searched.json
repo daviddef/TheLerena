@@ -410,5 +410,27 @@
    "familysearch"
   ],
   "note": "NO WAYPOINT ESTABLISHED - reached by film number, and a film page's wc= names only its default segment, so the film is recorded and the waypoint left null. The volume's year range (March 1825 - September 1859) was checked against both frames before anything was written down. A FALSE ZERO AVOIDED: the first attempt carried a DUPLICATED f.recordCountry parameter and returned 'Something Went Wrong' - the same error shape already recorded for the full-text place filter. Dropping the parameter returned fifteen results. AND THE LESSON THAT COST MOST: this search was run to test a question THIS ARCHIVE HAD ALREADY ANSWERED IN ITS OWN DATA THREE WEEKS EARLIER. Read your own files before publishing a weaker claim than they hold."
+ },
+ {
+  "src": "FamilySearch FULL-TEXT - the whole AFRICA facet for one surname, worked to exhaustion",
+  "url": "https://www.familysearch.org/search/full-text/results?q.text=Lerena",
+  "film": null,
+  "waypoint": null,
+  "what": "NINE HITS, ALL ACCOUNTED FOR: two this family (a Cape voters' roll and a deeds folio, both plate-read), two a DIFFERENT South African family of the same surname, one a living person, two excluded on chronology or population, two already read the day before. THE SEAM IS WORKED OUT for this surname. WHAT THE CORPUS DOES NOT HOLD, which matters more than what it does: NO CAPE CIVIL REGISTRATION, so births, marriages and deaths at the Cape are not reachable by full text at all and still need Home Affairs or the Western Cape Archives.",
+  "when": "2026-10-09",
+  "outcome": "yield",
+  "pages": "606 (voters 1925-31); 216 and 73 (farm records)",
+  "walked": true,
+  "tags": [
+   "lerena",
+   "cape town",
+   "observatory",
+   "salt river",
+   "transvaal",
+   "south africa",
+   "familysearch",
+   "full-text"
+  ],
+  "note": "WALKED: every hit under the facet was opened or consciously excluded with a stated reason, which is why this row claims walked:true for the FACET and not for any volume. HOW TO USE THE FACET, since this cost a round trip: a place written into the URL errors outright ('Something Went Wrong'); open Place in the page, tick the region, AND PRESS APPLY - ticking alone leaves the count unchanged, and the button reads 'Apply', not 'APPLY'. ONE HIT WAS DELIBERATELY NOT OPENED: school admission applications by living children in Sierra Leone, where no evidential purpose justified reading them."
  }
 ]

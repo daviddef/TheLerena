@@ -6,6 +6,7 @@ import { emph } from "../lib/text.js";
 import nine9 from "../data/1999-deaths-tested.json";
 import gz3 from "../data/gazette-three-new.json";
 import cem from "../data/johannesburg-cemetery-1999.json";
+import saft from "../data/south-africa-fulltext-closed.json";
 ---
 <Base title="South Africa"
       eyebrow="The Cape, the Rand, and a founder cluster"
@@ -418,6 +419,48 @@ import cem from "../data/johannesburg-cemetery-1999.json";
           </tr>); })}
       </tbody>
     </table>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-fulltext-closed">The South African full-text seam, worked to the end</h2>
+  <p class="dek">9 October 2026. Nine hits under the Africa facet, and every one accounted for.</p>
+  <div class="prose">
+    <p><strong>This archive published on 8 October that South Africa was not in the full-text
+      corpus.</strong> It was wrong: a place written into the URL errors, where the facet opened
+      inside the page works. The correction opened a route, three hits were read that day, and these
+      are the other six. <strong>The corpus has nothing more for this surname.</strong></p>
+    <p class="cap"><strong>And it never held what the archive most wants.</strong> There is no Cape
+      civil registration in it &mdash; so Careen Maria&rsquo;s parents and Pablo Armando&rsquo;s own
+      father stay out of reach by this route, and both still need Home Affairs or the Western Cape
+      Archives. What it gave instead was two sons&rsquo; lives.</p>
+  </div>
+  <dl class="kv" style="margin-top:18px">
+    {saft.filter((r) => r.who).map((r) => (
+      <div><dt set:html={emph(r.who)} /><dd>
+        <span set:html={emph(r["the record"])} /><br />
+        <span class="cap" set:html={emph(r["what it gives"])} />
+      </dd></div>
+    ))}
+  </dl>
+  <div class="prose" style="margin-top:18px">
+    <p><strong>Roque at twenty-two.</strong> Voter 1399 of polling district 770:
+      <strong>14 Florence Villas</strong>, <strong>Fireman</strong>, <strong>sole tenant</strong>.
+      His father was a horse-dealer in 1911 and a trainer by 1940; <strong>the eldest son went to
+      the railway</strong>. That &ldquo;Fireman&rdquo; means a <em>locomotive</em> fireman is an
+      inference from the company he keeps on the page &mdash; Loco. Cleaner, Engine-driver,
+      Signalman, Guard, Shunter &mdash; and not from the word, which alone could mean a fire
+      brigade.</p>
+    <p><strong>And the district has a name.</strong> One line of the same roll carries
+      <em>&ldquo;Louis Botha Hostel, Observatory&rdquo;</em>, and the street column runs Lower Main
+      Rd, Trill Rd, Scott Rd and <em>Salt River</em>. <strong>District 770 is Observatory and Salt
+      River, Cape Town</strong> &mdash; said by the roll itself, not by an atlas.</p>
+    <p class="cap"><strong>Two families of one name.</strong> A Transvaal deeds folio names
+      <em>&ldquo;late Lucas Lerena&rdquo;</em> and his wife <em>&ldquo;Rachel, born Maleka&rdquo;</em>
+      &mdash; the second record, after a mission congregation at Kranspoort, to show a South African
+      family carrying this surname and unconnected to this one. <strong>It is recorded because an
+      exclusion is evidence:</strong> anyone meeting &ldquo;Lerena&rdquo; in a Transvaal record
+      should know there are two.</p>
   </div>
 </section>
 
