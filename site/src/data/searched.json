@@ -432,5 +432,25 @@
    "full-text"
   ],
   "note": "WALKED: every hit under the facet was opened or consciously excluded with a stated reason, which is why this row claims walked:true for the FACET and not for any volume. HOW TO USE THE FACET, since this cost a round trip: a place written into the URL errors outright ('Something Went Wrong'); open Place in the page, tick the region, AND PRESS APPLY - ticking alone leaves the count unchanged, and the button reads 'Apply', not 'APPLY'. ONE HIT WAS DELIBERATELY NOT OPENED: school admission applications by living children in Sierra Leone, where no evidential purpose justified reading them."
+ },
+ {
+  "src": "FamilySearch - Santiago Apostol y San Nicolas (Iglesia Matriz de Mendoza), Argentina. Baptism Records 1899-1901",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:939X-HF9M-7S?view=fullText",
+  "film": "004597291",
+  "waypoint": "Q633-3DR",
+  "what": "THE METHOD IS THE TRANSFERABLE PART: to trace a man who is only a name on his son's army card, search the record index for HIS SURNAME plus HIS WIFE'S SURNAME. A distinctive married-in surname (here CARNIGLIA) cuts a whole-corpus crowd to three records in one query, and each is a child. The first act read gave the parents' NATIONALITY - 'orientales' - which is what the whole search was for, and a Lerena godfather standing by proxy besides. NOTE FOR ANYONE FOLLOWING: this image has NO AI transcript, so the full-text route returns nothing for it; it had to be read off the plate.",
+  "when": "2026-10-09",
+  "outcome": "yield",
+  "pages": "69",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "carniglia",
+   "mendoza",
+   "argentina",
+   "uruguay",
+   "familysearch"
+  ],
+  "note": "WAYPOINT CHECKED BEFORE BEING RECORDED, as the atlas requires: Q633-3DR resolves in fs-volumes-world.json to 'mendoza, 1899-1903, Bautismos 1899-1903', and the act is 6 January 1900 - inside the range. The waypoint was taken from the film viewer's wc= parameter, which this archive's other work has almost never carried. HOW TO GET FROM AN INDEX HIT TO THE PLATE: the index record's 'Document Information' panel gives Digital Folder, Microfilm and Image numbers; /search/film/<DGS>?i=<N-1> then resolves, and the page TITLE carries both the image ark and the wc= waypoint."
  }
 ]

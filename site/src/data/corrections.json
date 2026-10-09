@@ -1054,5 +1054,13 @@
   "what_is_true": "*** THE DRAWER WAS READ ON 10 SEPTEMBER, THE SAME DAY THE QUESTION WAS WRITTEN, AND THE FATHERS TRACED ON THE 13TH. *** data/cajon-985-scan.tsv holds all 39 frames, images 650-688, with every card's indexed parents; data/cajon-985-origins.tsv traces the fathers to three Uruguayan branches. *** AND IT IS NOT ALPHABETICAL: *** the same file records that the drawer is *** GROUPED BY SOUND *** - Lera, Lerena, Lorena, Serena, Sera, Era, Leza, Perena, Perella and Hereijo interfiled - which is a finding in its own right and the reason the index's manglings survived in it. *** TWENTY LERENA CARDS, AND NO JUAN CARLOS ON ANY OF THEM. ***",
   "how_it_was_caught": "*** BY GOING TO DO THE WORK THE PAGE ASKED FOR AND FINDING IT DONE. *** *** THIS IS THE WORST PLACE IN THE ARCHIVE FOR IT TO HAVE HAPPENED: *** /open-questions/ exists so that a stranger can help, and its first question was sending them to a drawer that had been read, by a filing rule that is wrong. *** IT IS THE SAME DEFECT AS THE REGISTER CALLING BERNABE UNATTACHED *** - a page that stopped where data/ went on - and the fifth instance recorded today.",
   "retired": ""
+ },
+ {
+  "date": "2026-10-09",
+  "severity": "minor",
+  "what_was_said": "*** That the four untraced fathers of Cajon 985 include 'the RAMON of the Concordia pair'. *** Written into /open-questions/ question 1 an hour earlier, when its ask was rewritten.",
+  "what_is_true": "*** THE CONCORDIA RAMON IS TRACED. *** data/cajon-985-origins.tsv has NEMESIO RAMON LERENA married at *** SALTO, URUGUAY, 16 January 1903 ***, then at Concordia, Entre Rios, directly across the river - one of the three branches the same paragraph calls traced. *** THE FOURTH UNTRACED FATHER IS ARTURO LERENA ***, husband of Amalia Diaz, with sons born in La Pampa, Mendoza and Entre Rios 1889-1897.",
+  "how_it_was_caught": "*** BY GOING TO SEARCH THE FOUR AND FINDING ONE OF THEM ALREADY ANSWERED. *** The same move that caught the drawer, one level down. *** AND ARTURO IS THE ONE OF THE FOUR THAT THIS ARCHIVE HAS ALREADY GOT WRONG ONCE: *** his row was first written as 'Montevideo 1858, son of Avelino Lerena and Ambrosia Traibel' and withdrawn the same day as a conflation with JUAN ARTURO LERENA TRAIBEL, whose wife was Ema Regules. *** A NAME THIS ARCHIVE HAS ALREADY MISIDENTIFIED ONCE DESERVES THE MOST CARE, NOT THE LEAST. ***",
+  "retired": ""
  }
 ]

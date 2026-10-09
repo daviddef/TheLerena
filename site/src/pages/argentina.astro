@@ -7,6 +7,7 @@ import household from "../data/1895-census-gilberto-household.json";
 import salv from "../data/gilberto-salvanach-1906.json";
 import letter from "../data/letter-registro-civil-santafe.json";
 import Spine from "@daviddef/archive-kit/components/Spine.astro";
+import mza from "../data/mendoza-carlos-lerena-1900.json";
 
 /* Every Lerena Argentina can actually produce, and where each one came from.
    Three households, three arrows back across the river — and one man with no
@@ -95,6 +96,7 @@ const hasArt = fs.existsSync(
       <li><a href="#s-the-consul-how-it-gets-proved">The consul: how it gets proved</a></li>
       <li><a href="#s-what-this-page-needs-next">What this page needs next</a></li>
       <li><a href="#s-the-1895-census-a-lerena-household-and-it-is-not-his">The 1895 census: a Lerena household, and it is not his</a></li>
+      <li><a href="#s-mendoza-carlos">One of the four untraced fathers is Uruguayan</a></li>
       <li><a href="#s-every-lerena-argentina-can-produce">Every Lerena Argentina can produce, drawn</a></li>
       <li><a href="#s-three-refusals-and-one-direction">Three refusals, and one direction</a></li>
       <li><a href="#s-where-to-go-next">Where to go next</a></li>
@@ -357,6 +359,40 @@ const hasArt = fs.existsSync(
     all, though he would have been thirteen. <strong>Nor is there a single Lerena recorded in Santa Fe or
     Rosario.</strong> The census Lerenas are Uruguayan in Buenos Aires, Spanish-born in another quarter of
     it, and scattered singles in Tucumán and Entre Ríos.
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-mendoza-carlos">One of the four untraced fathers is Uruguayan</h2>
+  <p class="dek">9 October 2026. Search the man&rsquo;s wife, not the man.</p>
+  <div class="prose">
+    <p><strong>The army drawer that holds Pablo Armando&rsquo;s enrolment card names four other men as
+      fathers whose origins this archive could not establish</strong> &mdash; and
+      <a href={u("/open-questions/")}>asks strangers for them</a>. This traces the first.</p>
+    <p><strong>The method is cheap and it transfers.</strong> A man who is only a name on his
+      son&rsquo;s card still has a <em>wife</em>, and a distinctive married-in surname cuts the whole
+      corpus to a handful. Searching the index for <strong>Lerena</strong> with spouse surname
+      <strong>Carniglia</strong> returned three records in one query, every one a child.</p>
+  </div>
+  <dl class="kv" style="margin-top:18px">
+    {mza.filter((r) => r["what was read"]).map((r) => (
+      <div><dt set:html={emph(r["what was read"])} /><dd>
+        <span set:html={emph(r["what it says"])} /><br />
+        <span class="cap" set:html={emph(r["what it settles"])} />
+      </dd></div>
+    ))}
+  </dl>
+  <div class="prose" style="margin-top:18px">
+    <p><strong>What it buys is a base rate, not a link.</strong> Four of that drawer&rsquo;s fathers
+      can now be traced, and <strong>every one is Uruguayan or married in Uruguay</strong>. That names
+      nobody. It sharpens the frame against which a Juan Carlos Lerena who left
+      <em>no trace at all</em> in the Rosario registers should be read.</p>
+    <p class="cap"><strong>And the caution is specific, not decorative.</strong> An
+      <strong>Avelino Lerena</strong> stood godfather to Carlos&rsquo;s daughter by proxy &mdash; and
+      the row directly above his in the same working file was once written as a son of Avelino Lerena
+      and Ambrosia Traibel, and <strong>withdrawn the same day as a conflation</strong>. This register
+      holds four men of that name. Carlos is recorded as <em>oriental</em>, with an Avelino in his
+      circle, and placed in no branch.</p>
   </div>
 </section>
 
