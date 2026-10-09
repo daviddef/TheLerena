@@ -3106,5 +3106,33 @@
   "last_attested_alive": "1893",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Antonio LERENA Diaz (m. Clara Henriette Knof 1924)",
+  "born_est": "1896",
+  "last_attested_alive": "1896",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Clara Henriette KNOF (m. Antonio Lerena Diaz 1924)",
+  "born_est": "1909",
+  "last_attested_alive": "1909",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Otto KNOF (d. before 1924)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Ida PONTOPHIDAN (wife of Otto KNOF)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]

@@ -515,5 +515,30 @@
    "familysearch"
   ],
   "note": "HOW IT WAS CAUGHT, AND IT IS THE ONLY PART WORTH CARRYING: the control was run BEFORE the null and not after. The same spouse-pair query on CARNIGLIA returned three true hits earlier that day - two of whose acts were read off the plate - and returned nothing at all an hour later. ON ANY SIGNED-IN SERVICE A CONTROL MUST BE RE-RUN AFTER THE NULL IT PROTECTS, because the session can change state in between. The cheapest detector is the page header: the account name, or the words 'sign in to see all available results'. This archive already held this trap as false-zero disguise seventeen, 'THE SESSION THAT LOGGED ITSELF OUT AND DID NOT SAY SO', and walked into it anyway."
+ },
+ {
+  "src": "FamilySearch - Libro de matrimonios: Crespo, Entre Rios, Argentina. Marriage Records 1924",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3QHV-V36C-H9QM-J?view=index",
+  "film": null,
+  "waypoint": null,
+  "what": "THE SAME LESSON AS MENDOZA, IN ANOTHER PROVINCE: GO WHERE THE FORM ASKS THE QUESTION. A Chilean death register of 1894 named this man's son and wife but never asks where a PARENT was born; an Entre Rios marriage form of 1924 has a 'de nacionalidad' blank beside each parent, and it answered in one line - ESPANOLA for the father, PERUANA for the mother. When a man cannot be placed from one record class, the question is not whether to search harder but WHICH FORM ASKS WHAT YOU WANT TO KNOW. Argentine civil MARRIAGE acts of this period carry the parents' nationality; BIRTH and DEATH acts of the same provinces often do not.",
+  "when": "2026-10-10",
+  "outcome": "yield",
+  "pages": "acta 144",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "garcia",
+   "diaz",
+   "knof",
+   "crespo",
+   "parana",
+   "entre rios",
+   "argentina",
+   "spain",
+   "peru",
+   "familysearch"
+  ],
+  "note": "NO WAYPOINT: reached through the index record's VIEW ORIGINAL DOCUMENT button, which returns an image ark without a wc= parameter, and no film number is exposed on that route either - so both fields are left null rather than guessed. A SECOND USE OF THE SAME ACT: the father also signed as a WITNESS, with his own age, marital state and residence, which is how a man who appears only as a name in the parents' line acquired a birth decade. ON ANY MARRIAGE ACT, READ THE WITNESS LIST - the same person can appear twice with different facts attached."
  }
 ]

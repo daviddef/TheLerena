@@ -23,5 +23,30 @@
   "what was read": "*** WHAT IS STILL NOT KNOWN ***",
   "what it says": "The Chilean form gives *** nacionalidad for the DECEASED only ***. It does not ask where the father was born.",
   "what it settles": "*** SO ARTURO LERENA GARCIA IS NOT YET PLACED IN A COUNTRY ***, where Carlos Lerena was placed in a city the same afternoon. *** WHAT WOULD PLACE HIM: *** his own marriage to Amalia Diaz, which would name his parents and his origin; or any of the Entre Rios civil registrations of his other children, which in that province routinely give the parents' nationality. *** HE IS RECORDED AS A LERENA GARCIA AND NOTHING MORE. ***"
+ },
+ {
+  "what was read": "*** AND THE ENTRE RIOS MARRIAGE NAMES HIS NATIONALITY ***",
+  "what it says": "*** Libro de matrimonios: Crespo, Entre Rios. Marriage Records 1924 ***, acta *** No. 144 ***, image ark 3:1:3QHV-V36C-H9QM-J. *** Crespo, departamento de Parana, 24 October 1924 ***, before Emilio F. Castellot, Director Jefe del Registro Civil. *** A PRINTED FORM WITH A 'de nacionalidad' BLANK FOR EACH PARENT, PLATE READ 10 October 2026: *** 'comparecieron *** ANTONIO LERENA DIAZ *** de veinte y ocho anos, de nacionalidad *** ARGENTINA ***, nacido en *** BUENOS AIRES ***, domiciliado en *** VILLA CRESPO ***, de profesion *** Empleado ***, hijo de *** ARTURO LERENA, de nacionalidad ESPANOLA, de profesion PERIODISTA ***, y de *** AMALIA DIAZ, de nacionalidad PERUANA ***, de profesion quehaceres domesticos'.",
+  "what it settles": "*** ARTURO LERENA IS SPANISH, AND HE IS A JOURNALIST. *** From 'Not established' on 13 September to a nationality, a trade and a household in one act. *** AND AMALIA DIAZ IS PERUVIAN *** - which explains an index entry this archive could not parse: FamilySearch renders her on one card as *** 'Amalia Dias Peruane' ***, reading her nationality as part of her name."
+ },
+ {
+  "what was read": "*** AND HE SIGNS AS A WITNESS AT HIS SON'S WEDDING ***",
+  "what it says": "'Los testigos *** ARTURO LERENA ***, de *** cincuenta y [the units digit not confidently read] *** anos, de profesion *** PERIODISTA ***, de estado *** casado ***, domiciliado en *** PARANA ***' - and beside him Alejandro Mechot, sixty-two, rentista",
+  "what it settles": "*** FIFTY-SOMETHING IN OCTOBER 1924, SO BORN ABOUT 1865-1874. *** *** THE AGE IS WHAT PROVES THE WITNESS IS THE FATHER AND NOT THE SON: *** an Arturo Lerena Diaz born 1896 would be twenty-eight. *** HE IS LIVING AT PARANA *** while his son lives at Villa Crespo in Buenos Aires. *** THE UNITS DIGIT IS NOT READ AND IS NOT GUESSED ***; the decade is what matters here and the decade is secure."
+ },
+ {
+  "what was read": "*** AND IT BREAKS A PATTERN THIS ARCHIVE PUBLISHED YESTERDAY ***",
+  "what it says": "data/cajon-985-origins.tsv has said since 13 September that of the Lerena fathers in this drawer whose origin can be traced, *** 'EVERY ONE is Uruguayan or married in Uruguay' *** - and on 9 October Carlos Lerena was added to them as a Montevidean.",
+  "what it settles": "*** ARTURO IS SPANISH AND HIS WIFE IS PERUVIAN, SO THE GENERALISATION IS BROKEN. *** Five fathers are now traceable: Gilberto (Montevideo 1855), Alejandro Maximo (Uruguay 1844), Nemesio Ramon (married Salto 1903), Carlos (natural de Montevideo) and *** ARTURO (ESPANOL) ***. *** WHAT SURVIVES IS THE WEAKER CLAIM: not one of them is Argentine. *** *** AND IT MATTERS FOR THE CENTRAL QUESTION: *** the base rate this archive was leaning on - that an Argentine Lerena of this generation is usually a Uruguayan family's son - is *** WEAKER THAN IT LOOKED YESTERDAY ***, and any inference about Juan Carlos Lerena drawn from it must be weakened to match. See data/corrections.tsv."
+ },
+ {
+  "what was read": "*** AND THE ITINERARY NOW MAKES SENSE ***",
+  "what it says": "La Pampa 1889, *** VALPARAISO 1893-94 ***, Mendoza 1896, *** BUENOS AIRES about 1896 ***, Entre Rios 1897, Parana by 1924",
+  "what it settles": "*** A SPANISH JOURNALIST MARRIED TO A PERUVIAN MOVES WHERE THE PAPERS ARE. *** The Chilean years stop being a puzzle: *** A PERUVIAN WIFE PUTS THE PACIFIC COAST INSIDE THE FAMILY'S ORBIT ***, and Valparaiso was the largest press city on it. *** THE BUENOS AIRES BIRTH IS NEW *** - the army drawer gave La Pampa, Mendoza and Entre Rios, and this act adds the capital."
+ },
+ {
+  "what was read": "*** AND THE BRIDE'S FAMILY, RECORDED BECAUSE THE ACT RECORDS THEM ***",
+  "what it says": "*** CLARA HENRIETTE KNOF ***, *** fifteen ***, argentina, *** nacida en Crespo ***, domiciliada en Villa Crespo, quehaceres domesticos, *** hija de OTTO KNOF (fallecido) *** y de *** IDA PONTOPHIDAN ***",
+  "what it settles": "*** A GERMAN-DESCENDED FAMILY OF THE ENTRE RIOS COLONIES ***, which is what Crespo was. *** SHE IS FIFTEEN AND HE IS TWENTY-EIGHT ***, and the act records that the bride's mother gave her consent in person. *** HER PARENTS ARE ENTERED BECAUSE THE ACT NAMES THEM ***, not because anything yet connects them to this archive's question."
  }
 ]

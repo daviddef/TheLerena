@@ -587,16 +587,6 @@
   "count": 3
  },
  {
-  "slug": "valparaiso-chile",
-  "name": "Valparaiso, Chile",
-  "people": [
-   "arturo-lerena-garcia",
-   "amalia-diaz",
-   "juan-fernando-lerena-diaz"
-  ],
-  "count": 3
- },
- {
   "slug": "tucuman",
   "name": "Tucuman",
   "people": [
@@ -674,6 +664,33 @@
   "people": [
    "malvino-pelaez",
    "antonio-eusebio-pelaez"
+  ],
+  "count": 2
+ },
+ {
+  "slug": "valparaiso-chile",
+  "name": "Valparaiso, Chile",
+  "people": [
+   "amalia-diaz",
+   "juan-fernando-lerena-diaz"
+  ],
+  "count": 2
+ },
+ {
+  "slug": "villa-crespo-buenos-aires",
+  "name": "Villa Crespo, Buenos Aires",
+  "people": [
+   "antonio-lerena-diaz",
+   "clara-henriette-knof"
+  ],
+  "count": 2
+ },
+ {
+  "slug": "crespo-entre-rios",
+  "name": "Crespo, Entre Rios",
+  "people": [
+   "otto-knof",
+   "ida-pontophidan"
   ],
   "count": 2
  },
@@ -818,6 +835,14 @@
   "name": "San Jose, Uruguay",
   "people": [
    "adolfo-maximo-cordero"
+  ],
+  "count": 1
+ },
+ {
+  "slug": "parana-entre-rios",
+  "name": "Parana, Entre Rios",
+  "people": [
+   "arturo-lerena-garcia"
   ],
   "count": 1
  }
