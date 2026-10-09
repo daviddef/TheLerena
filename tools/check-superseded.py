@@ -54,7 +54,10 @@ RETRACT = re.compile(
     # This archive kills an argument in words no dictionary of retraction would list:
     # "the whole argument is dead", "how it died", "read it as history". Bare "died" is
     # deliberately NOT here - in a genealogy half the sentences contain it.
-    r"is dead|was killed|how it died|as history|what it said|kept because",
+    r"is dead|was killed|how it died|as history|what it said|kept because|"
+    # A person-merge retires a NAME, and the note that records it quotes the old one.
+    # "merged with", "merged into", "carried separately" are how this archive says so.
+    r"merged|carried separately|two rows|one man",
     re.I)
 
 # *** EACH ENTRY IS A CLAIM THIS ARCHIVE PUBLISHED AND THEN RETRACTED. *** The `why` is
@@ -86,6 +89,12 @@ RETIRED = [
     (r"neither has been checked against a burial register",
      "The register WAS checked on 8 October 2026. All three are at Maitland - 7719 A, B and C - "
      "and the last column of his own entry reads 'In Plot of R. P. Lerina'."),
+    (r"STILL NOT NAMED BY ANY RECORD",
+     "Alejandro M. Lerena's parents ARE named: AVELINO LERENA and AMBROSIA TRAIBEL, on the Cordon "
+     "act of 26 December 1877, film 007713388 image 02455, read 27 September 2026."),
+    (r"Alejandro LERENA \(m\. Elisa VILLARDEMOROS\)",
+     "Merged 9 October 2026 into Alejandro M. LERENA (m.1 Elisa VILLADEMOROS; m.2 Julia BASSANI). "
+     "They were proved one man on 27 September; two rows is the old state."),
     (r"William John[^.]{0,60}1 November 1870|1870-11-01",
      "No source gives his day of birth. The archive invented 1 November and manufactured a "
      "three-day gap between twins; consistency.py caught it. The sources say 'Nov 1870'."),

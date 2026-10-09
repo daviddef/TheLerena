@@ -2394,13 +2394,6 @@
   "tier": "BIRTH ONLY"
  },
  {
-  "name": "Alejandro LERENA (m. Elisa VILLARDEMOROS)",
-  "born_est": "-",
-  "last_attested_alive": "-",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
- },
- {
   "name": "Elisa VILLARDEMOROS (m. Alejandro LERENA)",
   "born_est": "-",
   "last_attested_alive": "-",
@@ -2464,7 +2457,7 @@
   "tier": "BIRTH ONLY"
  },
  {
-  "name": "Alejandro M. LERENA (with Julia BASSANI)",
+  "name": "Alejandro M. LERENA (m.1 Elisa VILLADEMOROS; m.2 Julia BASSANI)",
   "born_est": "1844",
   "last_attested_alive": "1844",
   "basis": "born_est only - a floor, not an attestation",

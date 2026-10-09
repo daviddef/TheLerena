@@ -138,9 +138,9 @@ Avelino Pedro Joaquin Silvestre LERENA Villademoros	father	Avelino Eduardo LEREN
 Avelino Pedro Joaquin Silvestre LERENA Villademoros	mother	Celedonia VILLADEMOROS (wife of Avelino Eduardo)	-	register	Same act.
 Pedro Gualberto LERENA Villademoros	father	Avelino Eduardo LERENA Traibel	-	register	Cordon, Montevideo, 15 January 1870.
 Pedro Gualberto LERENA Villademoros	mother	Celedonia VILLADEMOROS (wife of Avelino Eduardo)	-	register	Same act.
-Alejandro Joaquin Narciso LERENA Villardemoros	father	Alejandro LERENA (m. Elisa VILLARDEMOROS)	-	register	Cordon christening, 29 May 1873.
+Alejandro Joaquin Narciso LERENA Villardemoros	father	Alejandro M. LERENA (m.1 Elisa VILLADEMOROS; m.2 Julia BASSANI)	-	register	Cordon christening, 29 May 1873.
 Alejandro Joaquin Narciso LERENA Villardemoros	mother	Elisa VILLARDEMOROS (m. Alejandro LERENA)	-	register	Same act.
-Alejandro LERENA (m. Elisa VILLARDEMOROS)	spouse	Elisa VILLARDEMOROS (m. Alejandro LERENA)	-	register	Named together as the parents at the Cordon, 29 May 1873.
+Alejandro M. LERENA (m.1 Elisa VILLADEMOROS; m.2 Julia BASSANI)	spouse	Elisa VILLARDEMOROS (m. Alejandro LERENA)	-	register	Named together as the parents at the Cordon, 29 May 1873.
 # ---- wired 21 September 2026 from notes that OPEN by stating their own subject's
 # parentage. The register had these connections in prose and not as edges, so 226 of
 # 293 people were islands and nothing could draw them. Exact unique name match only:
@@ -240,11 +240,11 @@ Aurelio Eusebio BARROS Lerena	father	Manuel Zeferino BARROS	-	register	Catedral 
 Aurelio Eusebio BARROS Lerena	mother	Justa Pastora LERENA (daughter of Sancho)	-	register	Catedral de Montevideo, baptism of 19 October 1833 - film 007713376 images 01176-01177, image read.
 Hilario BARROS Llerena	father	Manuel Zeferino BARROS	-	register	Canelones baptism of 19 April 1835, entry 46 - film 008166571 image 01993, image read.
 Hilario BARROS Llerena	mother	Justa Pastora LERENA (daughter of Sancho)	-	register	Canelones baptism of 19 April 1835, entry 46 - film 008166571 image 01993, image read.
-Hector Narciso LERENA Bassani	father	Alejandro M. LERENA (with Julia BASSANI)	1844-	register	Montevideo birth act N 424 of 6 Nov 1886, IMAGE READ; and named again on his own marriage act, San Carlos, Buenos Aires, 25 Feb 1911, IMAGE READ.
+Hector Narciso LERENA Bassani	father	Alejandro M. LERENA (m.1 Elisa VILLADEMOROS; m.2 Julia BASSANI)	1844-	register	Montevideo birth act N 424 of 6 Nov 1886, IMAGE READ; and named again on his own marriage act, San Carlos, Buenos Aires, 25 Feb 1911, IMAGE READ.
 Hector Narciso LERENA Bassani	mother	Julia BASSANI	-	register	Same two acts.
-Emilia Alberta LERENA Bassani	father	Alejandro M. LERENA (with Julia BASSANI)	1844-	register	Montevideo birth act Num 108 of March 1888, IMAGE READ - 'comparecieron don Alejandro M. Lerena de 43 anos'.
+Emilia Alberta LERENA Bassani	father	Alejandro M. LERENA (m.1 Elisa VILLADEMOROS; m.2 Julia BASSANI)	1844-	register	Montevideo birth act Num 108 of March 1888, IMAGE READ - 'comparecieron don Alejandro M. Lerena de 43 anos'.
 Emilia Alberta LERENA Bassani	mother	Julia BASSANI	-	register	Same act.
-Alejandro M. LERENA (with Julia BASSANI)	partner	Julia BASSANI	-	register	Named together on both Montevideo birth acts. *** NOT RECORDED AS MARRIED: *** he is 'viudo' and she 'soltera' on each, and no marriage of the two has been found. Their son's 1911 marriage act nonetheless calls him 'hijo legitimo'.
+Alejandro M. LERENA (m.1 Elisa VILLADEMOROS; m.2 Julia BASSANI)	partner	Julia BASSANI	-	register	Named together on both Montevideo birth acts. *** NOT RECORDED AS MARRIED: *** he is 'viudo' and she 'soltera' on each, and no marriage of the two has been found. Their son's 1911 marriage act nonetheless calls him 'hijo legitimo'.
 Juan Bernardo LERENA Pelaez	father	Bernabe LERENA (of Trinidad)	-	register	Trinidad, Flores. NOT the 1911-dispensation Bernabe - that man's wife is Florinda Cardozo; these two are declared different men in data/_person-pairs.txt.
 Juan Bernardo LERENA Pelaez	mother	Dona Casimira PELAEZ (wife of Bernabe LERENA)	-	register	Trinidad, Flores. NOT the 1911-dispensation Bernabe - that man's wife is Florinda Cardozo; these two are declared different men in data/_person-pairs.txt.
 Paula Modesta LERENA Pelaez	father	Bernabe LERENA (of Trinidad)	-	register	Trinidad, Flores. NOT the 1911-dispensation Bernabe - that man's wife is Florinda Cardozo; these two are declared different men in data/_person-pairs.txt.
@@ -268,11 +268,11 @@ Maria Carlota LERENA Salvanach	mother	Julia SALVANACH	-	register	Mother edge add
 Luis Felipe LERENA Salvanach	mother	Julia SALVANACH	-	register	Mother edge added 23 Sep 2026; the father edge was already wired and the mother was not in the register.
 Angelica Maria LERENA Villademoros	father	Avelino Eduardo LERENA Traibel	-	register	Iglesia Matriz, Montevideo, 29 Sep 1872 - 'hija legitima de AVELINO LERENA, argentino'; IMAGE READ.
 Angelica Maria LERENA Villademoros	mother	Celedonia VILLADEMOROS (wife of Avelino Eduardo)	-	register	Same act - 'y CELEDONIA VILLADEMOROS, argentina'.
-Alejandro M. LERENA (with Julia BASSANI)	father	Avelino LERENA Fernandez (son of Sancho)	1815-1890	register	Cordon, Montevideo, 26 Dec 1877 - 'abuelos paternos D. AVELINO y D.a AMBROSIA TRAIBEL'. IMAGE READ, film 007713388 image 02455.
-Alejandro M. LERENA (with Julia BASSANI)	mother	Ambrosia TRAIBEL	-	register	Cordon, Montevideo, 26 Dec 1877 - 'abuelos paternos D. AVELINO y D.a AMBROSIA TRAIBEL'. IMAGE READ, film 007713388 image 02455.
-Jacinta Mercedes Gregoria LERENA Villademoros	father	Alejandro LERENA (m. Elisa VILLARDEMOROS)	-	register	Same act.
+Alejandro M. LERENA (m.1 Elisa VILLADEMOROS; m.2 Julia BASSANI)	father	Avelino LERENA Fernandez (son of Sancho)	1815-1890	register	Cordon, Montevideo, 26 Dec 1877 - 'abuelos paternos D. AVELINO y D.a AMBROSIA TRAIBEL'. IMAGE READ, film 007713388 image 02455.
+Alejandro M. LERENA (m.1 Elisa VILLADEMOROS; m.2 Julia BASSANI)	mother	Ambrosia TRAIBEL	-	register	Cordon, Montevideo, 26 Dec 1877 - 'abuelos paternos D. AVELINO y D.a AMBROSIA TRAIBEL'. IMAGE READ, film 007713388 image 02455.
+Jacinta Mercedes Gregoria LERENA Villademoros	father	Alejandro M. LERENA (m.1 Elisa VILLADEMOROS; m.2 Julia BASSANI)	-	register	Same act.
 Jacinta Mercedes Gregoria LERENA Villademoros	mother	Elisa VILLARDEMOROS (m. Alejandro LERENA)	-	register	Same act - 'hoy finada', so she died before 26 Dec 1877.
-Angelica Maria LERENA Villademoros	godfather	Alejandro M. LERENA (with Julia BASSANI)	-	register	Iglesia Matriz, 29 Sep 1872 - 'Fueron padrinos ALEJANDRO M. LERENA y ELISA VILLADEMOROS'.
+Angelica Maria LERENA Villademoros	godfather	Alejandro M. LERENA (m.1 Elisa VILLADEMOROS; m.2 Julia BASSANI)	-	register	Iglesia Matriz, 29 Sep 1872 - 'Fueron padrinos ALEJANDRO M. LERENA y ELISA VILLADEMOROS'.
 Alejandro Joaquin Narciso LERENA Villardemoros	spouse	Amalia CASAS (wife of Alejandro Joaquin LERENA)	-	register	San Jeronimo, Cordoba, 20 June 1907 - IMAGE READ, film 004484760 image 00123.
 Amalia CASAS (wife of Alejandro Joaquin LERENA)	father	Don Cornelio CASAS	-	register	San Jeronimo, Cordoba, 20 June 1907 - IMAGE READ, film 004484760 image 00123.
 Amalia CASAS (wife of Alejandro Joaquin LERENA)	mother	Dona Raimunda PEREDA	-	register	San Jeronimo, Cordoba, 20 June 1907 - IMAGE READ, film 004484760 image 00123.
