@@ -277,5 +277,70 @@
    "full-text"
   ],
   "note": "NO WAYPOINT ESTABLISHED - film 008164291, item 2, recorded instead. FOR ANY ARCHIVE USING THIS SEARCH: a place written into the URL as f.recordCountry errors outright with 'Something Went Wrong'. Confirmed today for URUGUAY, having been recorded yesterday for SOUTH AFRICA - so the broken thing is the PARAMETER, not the country. Use the Place facet inside the page."
+ },
+ {
+  "src": "FamilySearch FULL-TEXT - Arquidiocesis de Montevideo, Marriage Dispensation Records, the volumes of the 1850s (1852-1855, 1855-1857, 1857-1860)",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C9B7-P3TS-W?view=fullText",
+  "film": null,
+  "waypoint": null,
+  "what": "THE FINDING ANY ARCHIVE USING THIS COLLECTION NEEDS: it is not one record class, it is two, and the difference is the DECADE. The volumes of 1885-1913 are the Vicar General's SUMMARY LEDGER - one sentence per couple, naming no parents. The volumes of the 1850s in the SAME collection are FULL EXPEDIENTES: petition, numbered interrogatory, sworn witness depositions naming the PARENTS AND GRANDPARENTS of both parties, the Cura Vicario's report, and sometimes a KINSHIP DIAGRAM the priest drew himself. Three were read (Dec 1854, Aug 1855, Feb 1858) and all three name four generations. This archive had published twice that these records cannot name parents; both statements were generalisations from one date range.",
+  "when": "2026-10-09",
+  "outcome": "yield",
+  "pages": "258 (1852-1855); 26-27 (1855-1857); 209 (1857-1860)",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "fernandez",
+   "pelaez",
+   "gonzalez",
+   "trinidad",
+   "flores",
+   "san jose",
+   "uruguay",
+   "familysearch",
+   "full-text"
+  ],
+  "note": "NO WAYPOINT ESTABLISHED and no DGS film number is shown on these full-text pages, so both fields are left null rather than guessed; the image arks are in the url and in data/sources-consulted.tsv. HOW THEY WERE FOUND: full-text search on the exact phrase of a BRIDE's name and then a FATHER's name - 'Socorro Lerena', 'Alejandro Lerena'. READ THE PLATE: the transcripts render one clerk's single letterform as Serena, Lorena, Leresa and Lerena on ONE page."
+ },
+ {
+  "src": "FamilySearch FULL-TEXT - Flores (Uruguay). Civil Death Records 1888-1917",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-Q62K?view=fullText",
+  "film": null,
+  "waypoint": null,
+  "what": "Read for its GRANDPARENTS rather than its subject. A Uruguayan civil death act of this period names the deceased's parents and all four grandparents, which makes a death register a pedigree source for people who died long before it. One act placed three families at once. CAUTION RECORDED: no birth years were taken from the stated ages, because the act's own date was not read - only the book's range - and an age without a date is not a birth year.",
+  "when": "2026-10-09",
+  "outcome": "yield",
+  "pages": "303",
+  "walked": false,
+  "tags": [
+   "pelaez",
+   "lerena",
+   "chourino",
+   "flores",
+   "uruguay",
+   "familysearch",
+   "full-text"
+  ],
+  "note": "NO WAYPOINT - full-text image ark only, recorded in the url. Found by the exact phrase 'Alejandro Lerena'."
+ },
+ {
+  "src": "FamilySearch FULL-TEXT - Santisima Trinidad, Trinidad, Flores (Uruguay). Baptism Records 1848-1857",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS27-F3H4-K?view=fullText",
+  "film": null,
+  "waypoint": null,
+  "what": "Searched the exact phrase 'Socorro Lerena'. The parish is called 'la Santisima Trinidad de los PORONGOS' in its own register at this date, which is the town's older name and is worth knowing before searching for it. The hit was a GODMOTHER rather than a parent - which still dated a woman to the parish six years before her marriage and gave her full baptismal name. A godparent line is evidence and this archive counts it.",
+  "when": "2026-10-09",
+  "outcome": "yield",
+  "pages": "unrecorded - single opening reached from a search result",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "trinidad",
+   "flores",
+   "uruguay",
+   "familysearch",
+   "full-text"
+  ],
+  "note": "NO WAYPOINT - full-text image ark only. The baptism format in this book names PARENTS and GODPARENTS but NOT grandparents; the grandparent format appears in the same parish by 1905. Worth knowing before opening a book of this series expecting four generations."
  }
 ]

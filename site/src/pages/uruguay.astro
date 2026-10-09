@@ -44,6 +44,7 @@ import disp from "../data/montevideo-dispensations-fulltext.json";
 import zact from "../data/zelmira-cordero-1904-act.json";
 import cons from "../data/trinidad-consanguinity-explained.json";
 import ans from "../data/dispensations-answered-1894-1913.json";
+import kindred from "../data/trinidad-founding-kindred.json";
 ---
 <Base title="Uruguay"
       eyebrow="Two Lerena families, two Spanish origins, and neither of them is his"
@@ -87,6 +88,63 @@ import ans from "../data/dispensations-answered-1894-1913.json";
       about 1830, who married Juan Pel&aacute;ez; and the younger, born about 1862, daughter of
       Bernab&eacute; and Casimira, who married Serapio Fern&aacute;ndez. <strong>Two women of one
       name in one small town</strong>, and this archive came close to holding one.</p>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-kindred">The head of the Trinidad kindred, drawn by the priest who married them</h2>
+  <p class="dek">9 October 2026. Three marriage expedientes of the 1850s, and a question closed.</p>
+  <div class="prose">
+    <p><strong>This archive published, twice, that these records could not do this.</strong> First
+      that the Montevideo dispensations name a groom&rsquo;s parents &mdash; corrected, because the
+      volumes of 1885&ndash;1913 are a one-sentence summary ledger. Then that the
+      <em>informaciones matrimoniales</em> were a separate series it had not reached.
+      <strong>Both volumes live in the same collection.</strong> The difference is the decade: the
+      1850s books are <strong>full expedientes</strong> &mdash; petition, interrogatory, sworn
+      depositions naming four generations. <a href={u("/corrections/")}>Corrections &rarr;</a></p>
+  </div>
+  <dl class="kv" style="margin-top:18px">
+    {kindred.filter((r) => r["the document"]).map((r) => (
+      <div><dt set:html={emph(r["the document"])} /><dd>
+        <span set:html={emph(r["what it says"])} /><br />
+        <span class="cap" set:html={emph(r["what it settles"])} />
+      </dd></div>
+    ))}
+  </dl>
+  <div class="prose" style="margin-top:18px">
+    <p><strong>What the Cura Vicario drew.</strong> On the folio of Bernab&eacute; Lerena&rsquo;s
+      expediente, 15 February 1858, boxed in his own hand:</p>
+  </div>
+  <pre class="fig" aria-label="Kinship diagram drawn by the Cura Vicario, 15 February 1858"
+       style="margin-top:12px; overflow-x:auto; line-height:1.5">{`        Ramon Lerena  ──  Maria Gonzalez
+                 │
+        ┌────────┴────────┐
+  Alejandro Lerena    Antonina Lerena
+  Margarita Fernandez Juan Pelaes
+        │                 │
+  Bernabé Lerena      Casimira Pelaez
+   "contrayente"      "la contrayente"`}</pre>
+  <div class="prose" style="margin-top:18px">
+    <p><strong>Which answers the question this archive had left standing.</strong> The 1855
+      expediente makes <strong>Socorro Lerena</strong> a daughter of Alejandro and Margarita; the
+      1858 one makes <strong>Bernab&eacute; Lerena</strong> a son of the same couple.
+      <strong>They are brother and sister</strong> &mdash; so the dispensation of 26 June 1885 is
+      explained: Serapio Fern&aacute;ndez the younger descends from Socorro, Antonina Lerena from
+      Bernab&eacute;, and they are first cousins, which is exactly the second grade in the equal
+      lateral line. <strong>It was an inference for a day and it is a document now.</strong></p>
+    <p><strong>And the surname is mangled five ways on one page.</strong> The transcript of that
+      diagram reads <em>Ram&oacute;n <strong>Serena</strong></em>, <em>Alejandro
+      <strong>Lorena</strong></em>, <em>Antonina <strong>Lorena</strong></em>, <em>Bernab&eacute;
+      <strong>Leresa</strong></em> &mdash; and, four lines above in prose, <em>Antonina
+      <strong>Lerena</strong></em>, correctly. <strong>The plate shows all five are the same word in
+      the same hand.</strong> <a href={u("/name/")}>The name &rarr;</a></p>
+    <p class="cap"><strong>One thing is deliberately not concluded.</strong> This register already
+      holds a <strong>Ram&oacute;n Lerena of Rosario-Colla</strong> married to a
+      <strong>Mar&iacute;a Josefa Gonz&aacute;lez</strong>, named as the parents of Mauricio Lerena
+      on a marriage at <strong>San Jos&eacute; de Mayo in 1837</strong> &mdash; and the 1858
+      expediente calls the Trinidad Lerenas <em>naturales de San Jos&eacute;</em>. Same names, same
+      generation, same place of origin. <strong>Not merged:</strong> the 1837 act is indexed and not
+      image-read, and this archive does not join two families on a matching couple alone.</p>
   </div>
 </section>
 

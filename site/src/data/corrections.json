@@ -998,5 +998,13 @@
   "what_is_true": "*** THEY ARE ONE MAN. *** The baptism of 26 November 1905 at Santisima Trinidad names the parents the dispensation ledger withheld: 'hijo legitimo de Juan Lerena y Eduviges Pelaez. *** Abuelos paternos: BERNABE y CASIMIRA PELAEZ ***'. Juan Bernardo Lerena Pelaez, born 20 August 1871, is the only Juan among the children of Bernabe Lerena and Casimira Pelaez. *** HE WAS TWENTY-TWO WHEN HE WAS DISPENSED. *** The rows are merged.",
   "how_it_was_caught": "Searching the full text for the BRIDE rather than the groom, then looking for a CHILD rather than a marriage - the same method that answered the 1913 couple an hour earlier. *** THE SPLIT WAS NOT BAD REASONING; THE EVIDENCE ARRIVED A DAY LATE. *** What it shows is that 'no parents are recorded' is a statement about a ledger, never about a man.",
   "retired": ""
+ },
+ {
+  "date": "2026-10-09",
+  "severity": "serious",
+  "what_was_said": "*** That the Arquidiocesis de Montevideo MARRIAGE DISPENSATION RECORDS are the Vicar General's SUMMARY LEDGER, one sentence per couple, naming no parents - and that the INFORMACIONES MATRIMONIALES are 'a separate series' this archive had not reached. *** Published 8-9 October on /uruguay/ and in data/montevideo-dispensations-fulltext.tsv, itself a correction of an earlier claim that the dispensations DO name parents.",
+  "what_is_true": "*** THE COLLECTION CONTAINS BOTH, AND THE DIFFERENCE IS THE DECADE, NOT THE SERIES. *** The volumes read on 8 October were all 1885-1913 and are indeed a summary ledger. *** THE VOLUMES OF THE 1850s IN THE SAME COLLECTION ARE FULL EXPEDIENTES: *** petition, numbered interrogatory, sworn depositions naming parents AND grandparents of both parties, the Cura Vicario's report - and, on the Bernabe Lerena expediente of *** 15 February 1858 ***, *** A KINSHIP DIAGRAM THE PRIEST DREW HIMSELF. *** Three were read on 9 October (1854, 1855, 1858) and all three name four generations.",
+  "how_it_was_caught": "By doing what the ledger finding said was pointless: searching the dispensation collection for a woman whose parents were wanted. *** THE ORIGINAL CLAIM WAS TRUE OF EVERY VOLUME THIS ARCHIVE HAD OPENED AND FALSE AS A STATEMENT ABOUT THE COLLECTION *** - a generalisation from one date range, published as a fact about a record class. *** IT IS THE SAME SHAPE AS THE SOUTH AFRICA ERROR OF THE DAY BEFORE: *** a true observation about what was tried, written down as a conclusion about what exists.",
+  "retired": ""
  }
 ]
