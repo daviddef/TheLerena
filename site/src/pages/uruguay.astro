@@ -46,6 +46,7 @@ import cons from "../data/trinidad-consanguinity-explained.json";
 import ans from "../data/dispensations-answered-1894-1913.json";
 import kindred from "../data/trinidad-founding-kindred.json";
 import bridge from "../data/colla-trinidad-bridge.json";
+import fouracts from "../data/lerena-pelaez-four-acts.json";
 ---
 <Base title="Uruguay"
       eyebrow="Two Lerena families, two Spanish origins, and neither of them is his"
@@ -89,6 +90,39 @@ import bridge from "../data/colla-trinidad-bridge.json";
       about 1830, who married Juan Pel&aacute;ez; and the younger, born about 1862, daughter of
       Bernab&eacute; and Casimira, who married Serapio Fern&aacute;ndez. <strong>Two women of one
       name in one small town</strong>, and this archive came close to holding one.</p>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-four-acts">Four acts from one compound search, and the diagram confirmed</h2>
+  <p class="dek">10 October 2026. &ldquo;Lerena Pel&aacute;ez&rdquo; &mdash; four documents in the whole corpus, every one opened.</p>
+  <div class="prose">
+    <p><strong>The search was aimed somewhere else.</strong> The work list asked for the
+      compound-surname technique to be crossed with the <em>dispensation</em> series. It found no
+      dispensations at all. <strong>It found four acts that name three generations of the Trinidad
+      kindred</strong> &mdash; and one of them confirms the apex of the 1858 kinship diagram from a
+      completely separate record system.</p>
+  </div>
+  <dl class="kv" style="margin-top:18px">
+    {fouracts.filter((r) => r["the act"]).map((r) => (
+      <div><dt set:html={emph(r["the act"])} /><dd>
+        <span set:html={emph(r["what it says"])} /><br />
+        <span class="cap" set:html={emph(r["what it settles"])} />
+      </dd></div>
+    ))}
+  </dl>
+  <div class="prose" style="margin-top:18px">
+    <p><strong>A priest drew it and a Juez de Paz wrote it.</strong> In 1858 the Cura Vicario of
+      Trinidad sketched <strong>Ram&oacute;n Lerena and Mar&iacute;a Gonz&aacute;lez</strong> over
+      Alejandro and Antonina to prove an impediment. In 1911, fifty-three years later and in the civil
+      register, Antonina&rsquo;s own death act calls her <em>&ldquo;hija leg&iacute;tima de Don
+      Ram&oacute;n Lerena y de Do&ntilde;a Mar&iacute;a Gonz&aacute;lez&rdquo;</em>.
+      <strong>Two independent documents, one couple.</strong></p>
+    <p class="cap"><strong>And it cost an inference.</strong> This register had her born about 1830,
+      reasoned from a daughter aged thirty in 1880. The act states <strong>ninety-two</strong> &mdash;
+      so about <strong>1819</strong>, eleven years earlier &mdash; and gives her birthplace as
+      <strong>Montevideo</strong> where the 1858 expediente says San Jos&eacute;.
+      <a href={u("/corrections/")}>Corrections &rarr;</a></p>
   </div>
 </section>
 

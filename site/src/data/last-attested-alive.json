@@ -2850,8 +2850,8 @@
  },
  {
   "name": "Antonina LERENA (the elder, m. Juan PELAEZ)",
-  "born_est": "1830",
-  "last_attested_alive": "1830",
+  "born_est": "1819",
+  "last_attested_alive": "1819",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -3144,6 +3144,48 @@
  },
  {
   "name": "Concepcion LERENA (mother of Enrique Carlos, clase 1899)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Alejandrina LERENA (m. Balbino PELAEZ)",
+  "born_est": "1852",
+  "last_attested_alive": "1852",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Juan Fabian PELAEZ (son of Juan Pedro PELAEZ and Antonina LERENA)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Amador LERENA Pelaez (d. 1937, Durazno)",
+  "born_est": "1901",
+  "last_attested_alive": "1901",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Luis PELAEZ Lerena (confirmed, Trinidad 1891-1905)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Aurora PELAEZ Lerena (confirmed, Trinidad 1891-1905)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Margarita LERENA (godmother, Trinidad 1891-1905)",
   "born_est": "-",
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",

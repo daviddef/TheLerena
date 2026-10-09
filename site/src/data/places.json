@@ -211,9 +211,14 @@
    "severa-fernandez",
    "manuel-fernandez-alvarez",
    "maria-de-los-reyes-gonzalez",
-   "carmen-donata-lerena-beloqui"
+   "carmen-donata-lerena-beloqui",
+   "alejandrina-lerena",
+   "juan-fabian-pelaez",
+   "luis-pelaez-lerena",
+   "aurora-pelaez-lerena",
+   "margarita-lerena"
   ],
-  "count": 48
+  "count": 53
  },
  {
   "slug": "buenos-aires-arrivals",
@@ -845,6 +850,14 @@
   "name": "Parana, Entre Rios",
   "people": [
    "arturo-lerena-garcia"
+  ],
+  "count": 1
+ },
+ {
+  "slug": "durazno-uruguay",
+  "name": "Durazno, Uruguay",
+  "people": [
+   "amador-lerena-pelaez"
   ],
   "count": 1
  }
