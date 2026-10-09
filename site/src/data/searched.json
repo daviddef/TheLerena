@@ -496,5 +496,24 @@
    "familysearch"
   ],
   "note": "NO WAYPOINT RECORDED. The film page offers wc=MLKY-SPJ with three segment ids; it was not checked against the atlas's volume data and is therefore not written down, on the rule that a film page's wc= describes only its default segment. Film number recorded instead. ALSO: the FamilySearch index estimates this child's birth as 1894 from the death year, where the act says 'diez meses' - about November 1893. An estimated birth year derived from a death year is not a birth year."
+ },
+ {
+  "src": "FamilySearch record index - the two remaining untraced fathers of army drawer Cajon 985, worked to a controlled null",
+  "url": "https://www.familysearch.org/search/record/results?q.surname=Lerena&q.spouseSurname=Llanos",
+  "film": null,
+  "waypoint": null,
+  "what": "LEANDRO LORENA (wife LLANOS) and CONCEPCION LERENA (a mother with no father named) were both searched and neither is in the index. THE METHOD FINDING MATTERS MORE THAN THE NULL, and it is for any archive using this search: a PARENT-pair query (q.fatherSurname + q.motherSurname) and a SPOUSE-pair query (q.surname + q.spouseSurname) are NOT the same search and do not reach the same records. The parent form asks 'whose CHILD has these parents' and fails where a record is indexed with the FATHER as principal - it returned a clean 0 for a couple whose three children this archive had read the day before. The spouse form found all three at once. Re-run any parent-pair null in the spouse form before trusting it.",
+  "when": "2026-10-10",
+  "outcome": "nothing",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "lorena",
+   "llanos",
+   "mendoza",
+   "argentina",
+   "familysearch"
+  ],
+  "note": "CONTROLLED: the spouse form on CARNIGLIA, run in the same session, returns three true hits, so the form is sound and the Llanos pair is genuinely absent. SECOND TRAP RECORDED: when a filtered search matches nothing, this service does not say zero - it silently widens to fuzzy surname matches and returns a full page of United States census rows. Count the rows that carry your constraint, not the rows that come back. THE OPEN ROUTE FOR CONCEPCION IS NOT A SEARCH: her son's 1899 Mendoza baptism should lie in Santiago Apostol y San Nicolas, Baptism Records 1899-1901, DGS 004597291 - the volume this archive has already read twice - and it needs a page-by-page read."
  }
 ]
