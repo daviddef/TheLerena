@@ -5,10 +5,32 @@ import { u } from "../lib/url.js";
 import { emph } from "../lib/text.js";
 import Searched from "@daviddef/archive-kit/components/Searched.astro";
 import searchedRows from "../data/searched-index.json";
+import ftroute from "../data/fulltext-route-2026-10-09.json";
 ---
 <Base title="What Has Been Read"
       eyebrow="Everything looked at, including everything that led nowhere"
       dek="An archive that publishes only its finds is advertising. This page lists every search made, what it returned, and what it cost — so that no one repeats a dead end, and so a null result can be read as evidence rather than silence.">
+
+<section class="blk">
+  <h2 id="s-fulltext">A route this archive had never used</h2>
+  <p class="dek">9 October 2026. Found while closing a different question.</p>
+  <div class="prose">
+    <p><strong>Every Uruguayan search in this archive until today went through an index</strong>
+      &mdash; a transcriber&rsquo;s reading of a name. <strong>FamilySearch&rsquo;s full-text search
+      reads the words on the unindexed image instead</strong>, which is why it reaches people an
+      index cannot: a man with a <em>compound</em> surname is filed under his father&rsquo;s name and
+      is invisible to a search for his mother&rsquo;s.</p>
+  </div>
+  <dl class="kv" style="margin-top:18px">
+    {ftroute.filter((r) => r.what).map((r) => (
+      <div><dt set:html={emph(r.what)} /><dd>
+        <span set:html={emph(r["what was found"])} /><br />
+        <span class="cap" set:html={emph(r["why it matters"])} /><br />
+        <span class="chip">{r.grade}</span>
+      </dd></div>
+    ))}
+  </dl>
+</section>
 
 <section class="blk">
   <h2 id="why-a-page-of-failures">Why a page of failures</h2>
@@ -44,6 +66,7 @@ import searchedRows from "../data/searched-index.json";
   <div class="prose" style="margin-top:14px">
     <ol class="cols2">
       <li><a href="#s-index">Every search, as one table</a></li>
+      <li><a href="#s-fulltext">A route this archive had never used</a></li>
       <li><a href="#why-a-page-of-failures">Why a page of failures</a></li>
       <li><a href="#the-army-enrolment-drawer-the-one-that-worked">The army enrolment drawer — the one that worked</a></li>
       <li><a href="#the-index-before-1879-read-end-to-end">The index before 1879 &mdash; read end to end</a></li>

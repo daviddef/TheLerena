@@ -193,5 +193,24 @@
    "bloemfontein",
    "familysearch"
   ]
+ },
+ {
+  "src": "FamilySearch FULL-TEXT SEARCH - the words on unindexed images, not an index of names",
+  "url": "https://www.familysearch.org/search/full-text/results",
+  "film": null,
+  "waypoint": null,
+  "what": "LERENA and the exact phrase 'Juan Carlos Lerena', tested as a ROUTE rather than worked as a search. THE POINT FOR ANY ARCHIVE: full text goes round the transcriber, so it reaches a man with a COMPOUND SURNAME who is filed under his father's name and is invisible to a search for his mother's. One such man was found in two hits across the whole corpus and correctly set aside on the surname order. WHAT THE CORPUS HOLDS FOR THE RIVER PLATE: Arquidiocesis de Montevideo MARRIAGE DISPENSATION RECORDS 1856-1932 - a class that names a groom's parents; Flores and Trinidad baptisms and deaths; Montevideo burial registers 1886-2021; Catedral baptisms and deaths. AND THE HOLE: SOUTH AFRICA IS NOT IN IT. A full-text search with a South African place filter errors outright and no South African collection surfaces unfiltered, so a Cape question gains nothing here. Recorded as a route confirmed and not yet worked.",
+  "when": "2026-10-09",
+  "outcome": "yield",
+  "pages": null,
+  "walked": false,
+  "tags": [
+   "lerena",
+   "montevideo",
+   "flores",
+   "trinidad",
+   "uruguay",
+   "familysearch"
+  ]
  }
 ]

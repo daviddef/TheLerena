@@ -1,0 +1,20 @@
+[
+ {
+  "what": "*** URUGUAY IS IN THE CORPUS, and so is exactly the record class this archive wants ***",
+  "what was found": "*** Arquidiocesis de Montevideo, MARRIAGE DISPENSATION RECORDS 1856-1932 *** (and 1896, and 1932-1935); Flores Birth Records 1902-1906 and Death Records 1888-1917; Santisima Trinidad, Trinidad, Flores, Baptism Records 1857-1866 and 1872-1873; Trinidad Death Records 1892-1896; Montevideo Marriage, Baptism and Death Records across the nineteenth and twentieth centuries; *** Registro de Titulos de propiedad de Sepulcros: Montevideo, BURIAL REGISTERS 1886-2021 ***; San Francisco de Asis Religious Burial Records 1913-1940; Catedral de la Inmaculada Concepcion baptisms and deaths.",
+  "why it matters": "*** DISPENSATIONS NAME PARENTS. *** data/canelones-films.tsv already says it in terms - \"the pre-marriage investigation is worth MORE than the act. It routinely gives a Spanish groom's PARENTS.\" *** And the TRINIDAD and FLORES registers are the kindred this archive swept by index on 27 September *** - the one place it has a crowd of Lerenas and almost no parentage.",
+  "grade": "ROUTE CONFIRMED - searched, results returned, not yet worked"
+ },
+ {
+  "what": "*** AND A JUAN CARLOS LERENA, WHICH IS THE NAME THIS ARCHIVE EXISTS TO FIND ***",
+  "what was found": "Searching the exact phrase returns *** TWO results in the whole corpus ***. One is a Montevideo death of 2001 and not ours. The other is *** Arquidiocesis de Montevideo, Marriage Dispensation Records 1856-1932, entry N. 14610, image ark 3:1:3Q9M-C9B7-NNW8 ***: \"El ocho de Noviembre de mil novecientos veinte y [...] el Senor Vicario General Monsenor Lorenzo Perez, en uso de sus facultades, *** dispenso a Don JUAN CARLOS GONZALEZ LERENA *** las tres conciliares proclamas en el matrimonio que intenta contraer con *** CONCEPCION PETRONA URBANO ***, feligresa del Cordon.\"",
+  "why it matters": "*** HE IS ALMOST CERTAINLY NOT THE MAN, AND THE REASON IS THE SURNAME ORDER. *** He is *** GONZALEZ LERENA ***: Gonzalez from his father, Lerena from his mother. *** A son of his would be a GONZALEZ, not a LERENA *** - and Pablo Armando is a Lerena. For this man to be Pablo Armando's father, the 1908 enrolment card would have to have dropped his paternal surname and kept his maternal one, which is the opposite of how the card is written. *** SET ASIDE, AND RECORDED SO NOBODY FINDS HIM AGAIN AND IS BRIEFLY EXCITED. ***",
+  "grade": "TESTED AND SET ASIDE"
+ },
+ {
+  "what": "*** THE CORPUS HAS A HOLE WHERE THIS ARCHIVE ALSO NEEDS ONE ***",
+  "what was found": "*** SOUTH AFRICA RETURNED NOTHING USABLE. *** A full-text search with a South African place filter errors outright (\"Something Went Wrong\"), and unfiltered searches surface no South African collection.",
+  "why it matters": "*** So full text does NOT reach the Cape, and row 106 gains nothing from it. *** The Uruguayan and Argentine ends gain a great deal.",
+  "grade": "NEGATIVE, CONTROLLED"
+ }
+]
