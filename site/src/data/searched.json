@@ -387,5 +387,28 @@
    "full-text"
   ],
   "note": "NO WAYPOINT - full-text image arks only, recorded in the url and in data/sources-consulted.tsv. San Jose burials: ark 3:1:3Q9M-CS27-J7GH-Y. A HAZARD WORTH CARRYING ACROSS ARCHIVES: the infant buried in 1850 bears her grandmother's forename, and a later woman of that same forename is listed elsewhere as a candidate child of the same couple. Reusing a dead infant's name was ordinary practice and is a standing duplicate hazard in any family that did it."
+ },
+ {
+  "src": "FamilySearch RECORD INDEX - parent-pair query, father 'Ramon Lerena' with mother surname 'Gonzalez'",
+  "url": "https://www.familysearch.org/search/record/results?q.fatherGivenName=Ramon&q.fatherSurname=Lerena&q.motherSurname=Gonzalez",
+  "film": "008143329",
+  "waypoint": null,
+  "what": "THE SHAPE THAT WORKS WHEN FULL TEXT CANNOT REACH A MAN: he is pre-1840 and his own records are not in the full-text corpus, but his CHILDREN's marriages are indexed with both parents' names. Fifteen results, four of them his: two marriages at San Jose (1825 and 1837) and two Montevideo baptisms. The 1825 entry also carried the BRIDE's parents, which closed a sibship this archive had been holding as an inference. PRACTICAL NOTE: an index record's 'Document Information' panel gives Digital Folder, Microfilm and Image numbers - the cheapest route from an index hit to the plate, and the one used for both acts here.",
+  "when": "2026-10-09",
+  "outcome": "yield",
+  "pages": "10 and 87 (film 008143329)",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "gonzalez",
+   "fernandez",
+   "sotura",
+   "san jose",
+   "rosario",
+   "colla",
+   "uruguay",
+   "familysearch"
+  ],
+  "note": "NO WAYPOINT ESTABLISHED - reached by film number, and a film page's wc= names only its default segment, so the film is recorded and the waypoint left null. The volume's year range (March 1825 - September 1859) was checked against both frames before anything was written down. A FALSE ZERO AVOIDED: the first attempt carried a DUPLICATED f.recordCountry parameter and returned 'Something Went Wrong' - the same error shape already recorded for the full-text place filter. Dropping the parameter returned fifteen results. AND THE LESSON THAT COST MOST: this search was run to test a question THIS ARCHIVE HAD ALREADY ANSWERED IN ITS OWN DATA THREE WEEKS EARLIER. Read your own files before publishing a weaker claim than they hold."
  }
 ]

@@ -1022,5 +1022,21 @@
   "what_is_true": "*** ONE MAN. *** The Flores birth act of his daughter Carmen Donata, 2 March 1895 at El Tala, has him declare in person at forty-two, names his wife *** LAUREANA BELOQUI *** and his parents *** MAURICIO [LERENA] and CASIMIRA MONTANO ***. *** THAT IS THE SPOUSE AND BOTH PARENTS IN ONE ACT. *** The rows are merged, and three children already in this register become grandchildren of Mauricio Lerena of Colla.",
   "how_it_was_caught": "Searching the full text for the grandmother's name, CASIMIRA MONTANO, rather than for either Cipriano. *** THE PAIR WAS CORRECTLY FLAGGED AND CORRECTLY NOT MERGED FOR EIGHTEEN DAYS ***, which is the system working: it was waiting for an act, and an act came.",
   "retired": ""
+ },
+ {
+  "date": "2026-10-09",
+  "severity": "serious",
+  "what_was_said": "*** That the identification of the Trinidad kindred's RAMON LERENA with the RAMON LERENA of Rosario-Colla was an OPEN CANDIDATE, 'NOT MERGED', resting on a name match. *** Published twice on 9 October - in data/trinidad-founding-kindred.tsv, data/colla-trinidad-bridge.tsv, two register rows and two sections of /uruguay/ - with a test proposed and a caution that 'two couples can share two names'.",
+  "what_is_true": "*** THIS ARCHIVE HAD ALREADY MADE THE IDENTIFICATION ON 17 SEPTEMBER, AND SAID SO IN ITS OWN FILES. *** data/ramon-lerena-rosario.tsv states outright: '*** Bernabe is Alejandro's son; Cipriano is Mauricio's; Alejandro and Mauricio are brothers ***', draws the whole descent from Ramon Lerena and Maria Josefa Gonzalez, and names six of Alejandro's children including BERNABE and SOCORRO. data/descent-spines.tsv carries Ramon's house as a graded *** Documented *** spine, and /uruguay/ has been drawing it for three weeks.",
+  "how_it_was_caught": "*** BY SEARCHING THE INDEX FOR 'ANY RECORD NAMING RAMON WITH MORE THAN ONE CHILD' - the test this archive set itself - AND FINDING ITS OWN ANSWER FILE. *** *** THE FAILURE WAS NOT READING THIS ARCHIVE'S OWN DATA BEFORE PUBLISHING A WEAKER CLAIM THAN IT ALREADY HELD. *** *** IT IS THE THIRD INSTANCE OF ONE PATTERN *** - the 1891 Northam census and the FreeBMD death sweep were both reported as undone when they were done. *** EACH TIME THE CLAIM WAS WRITTEN FROM MEMORY WHILE FINISHING SOMETHING ELSE, AND EACH TIME A FILE IN data/ ALREADY HELD THE ANSWER. ***",
+  "retired": ""
+ },
+ {
+  "date": "2026-10-09",
+  "severity": "serious",
+  "what_was_said": "*** That BERNABE LERENA of Trinidad was unattached - 'Nothing joins him to these two, and the forename is not proof' *** (register row), and that a third Bernabe 'sits in this register unattached'. Carried in the register since 20 September.",
+  "what_is_true": "*** THE REGISTER WAS CONTRADICTING THE ARCHIVE'S OWN EVIDENCE FILES FOR THREE WEEKS. *** data/ramon-lerena-rosario.tsv had him as Alejandro's son since 17 September and /uruguay/ drew it; the register said unattached. *** BOTH ARE NOW SUPERSEDED BY DOCUMENTS READ ON 9 OCTOBER *** - his own marriage expediente of 15 February 1858, which names his parents and carries the priest's kinship diagram, and his father's marriage act of 16 September 1825, read off the plate.",
+  "how_it_was_caught": "*** BY THE REGISTER AND THE EVIDENCE FILES BEING COMPARED FOR THE FIRST TIME. *** This is the defect the owner's question - 'is all this research making it to our sites, persons, families charts, diagrams?' - was pointing at, asked twice. *** THE ANSWER WAS NO IN A DIRECTION NOBODY CHECKED: *** not the register falling behind the site, but *** THE REGISTER FALLING BEHIND data/ ***, with the site rendering the newer of the two and the register rendering the older, both on the same deploy.",
+  "retired": ""
  }
 ]

@@ -297,6 +297,29 @@
   "count": 27
  },
  {
+  "slug": "san-jose-de-mayo",
+  "name": "San Jose de Mayo",
+  "people": [
+   "eleiza-lerena-larriera",
+   "maria-adelina-lerena-larriera",
+   "alberto-julian-lerena-larriera",
+   "carlos-ambrosio-florencio-lerena-larriera",
+   "maria-consuelo-lerena-larriera",
+   "maria-antonieta-lerena-larriera",
+   "angel-miguel-avelino-lerena-larriera",
+   "mauricio-lerena",
+   "dona-casimira-montano",
+   "abdona-ignacia-lerena",
+   "jose-montano",
+   "ignacia-barredo",
+   "juan-fernandez-alvarez",
+   "barbara-sotura",
+   "maria-fernandez-alvarez",
+   "marcos-de-leon-gonzalez"
+  ],
+  "count": 16
+ },
+ {
   "slug": "rosario-santa-fe",
   "name": "Rosario, Santa Fe",
   "people": [
@@ -334,25 +357,6 @@
    "florencia-calixta-ramos",
    "felix-antonio-larena-fuentes",
    "aurora-eduarda-larena-fuentes"
-  ],
-  "count": 12
- },
- {
-  "slug": "san-jose-de-mayo",
-  "name": "San Jose de Mayo",
-  "people": [
-   "eleiza-lerena-larriera",
-   "maria-adelina-lerena-larriera",
-   "alberto-julian-lerena-larriera",
-   "carlos-ambrosio-florencio-lerena-larriera",
-   "maria-consuelo-lerena-larriera",
-   "maria-antonieta-lerena-larriera",
-   "angel-miguel-avelino-lerena-larriera",
-   "mauricio-lerena",
-   "dona-casimira-montano",
-   "abdona-ignacia-lerena",
-   "jose-montano",
-   "ignacia-barredo"
   ],
   "count": 12
  },
