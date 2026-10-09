@@ -1,7 +1,7 @@
 {
  "title": "The work list",
  "dek": "What is being done here, as opposed to what is known.",
- "lead": "Every other register on this site answers what is **known** — [what has been read](/searched/), the [open questions](/open-questions/), [what cannot be closed](/gaps/), the [errands](/errands/) and the [corrections](/corrections/). None of them answered **what is being done**, so that lived in a chat window, which is the one place that does not survive the session. This is that list, in the shape the whole estate keeps it in. An item here names **who has to move it**, because an item with no owner is how a list becomes wallpaper.",
+ "lead": "Every other register on this site answers what is **known** — [what has been read](/searched/), the [open questions](/open-questions/), [what cannot be closed](/open-questions/#may-never-close), the [errands](/errands/) and the [corrections](/corrections/). None of them answered **what is being done**, so that lived in a chat window, which is the one place that does not survive the session. This is that list, in the shape the whole estate keeps it in. An item here names **who has to move it**, because an item with no owner is how a list becomes wallpaper.",
  "close": "Nothing is struck from this page when it turns out to be wrong; it is struck **through**, the same way a retracted claim is treated in [corrections](/corrections/). A list that quietly deletes its mistakes is telling you only what it wanted to be true.",
  "rows": [
   {
@@ -282,7 +282,7 @@
    "state": "next",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "Directly tests one of this archive's declared [gaps](/gaps/) — **the eight years between Northam and the Cape**. Pablo Armando was born at Rosario in **1882**; his eldest son was born **6 December 1905**. If that birth was not in South Africa it locates the family in those missing years, and **Argentina is the obvious first place to look** — the archive already has Argentine baptism sweeps to extend. ** SHARPENED 20 September 2026, and the register's own answer is an inference. ** Roque was **baptised 12 June 1911 at Corpus Christi, Wynberg — aged five and a half, and three months before his parents married on 3 September 1911**, with his mother entered as **Mary Septima olim Taylor**. **So 'Cape Town' as his birthplace is taken from where he was baptised six years later, not from anything that states where he was born.** The pattern is legitimation. The question is still open and is now better posed."
+   "note": "Directly tests one of this archive's declared [gaps](/open-questions/#may-never-close) — **the eight years between Northam and the Cape**. Pablo Armando was born at Rosario in **1882**; his eldest son was born **6 December 1905**. If that birth was not in South Africa it locates the family in those missing years, and **Argentina is the obvious first place to look** — the archive already has Argentine baptism sweeps to extend. ** SHARPENED 20 September 2026, and the register's own answer is an inference. ** Roque was **baptised 12 June 1911 at Corpus Christi, Wynberg — aged five and a half, and three months before his parents married on 3 September 1911**, with his mother entered as **Mary Septima olim Taylor**. **So 'Cape Town' as his birthplace is taken from where he was baptised six years later, not from anything that states where he was born.** The pattern is legitimation. The question is still open and is now better posed."
   },
   {
    "n": 36,
@@ -586,7 +586,7 @@
    "state": "next",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Rogue Luis Armando was born 6 December 1905** and this archive cannot place the family between Northam and the Cape. Pablo Armando was born at Rosario in 1882. If the eldest son was born in Argentina, that closes a declared [gap](/gaps/) — and the archive already has Argentine baptism sweeps to extend."
+   "note": "**Rogue Luis Armando was born 6 December 1905** and this archive cannot place the family between Northam and the Cape. Pablo Armando was born at Rosario in 1882. If the eldest son was born in Argentina, that closes a declared [gap](/open-questions/#may-never-close) — and the archive already has Argentine baptism sweeps to extend."
   },
   {
    "n": 74,
@@ -714,7 +714,7 @@
    "state": "next",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Two migrated errands, both external sites rather than correspondence.** ALEX is to be retried when its full-text search works. **Sporting Life** matters more than it looks: the gazette now calls Robert Paul Lerena a **racehorse trainer** and a 1986 notice names **Lerena Racing Stables**, so an Argentine racing column of 1905–1920 is a plausible place to find him before South Africa — which bears on [the eight unaccounted years](/gaps/)."
+   "note": "**Two migrated errands, both external sites rather than correspondence.** ALEX is to be retried when its full-text search works. **Sporting Life** matters more than it looks: the gazette now calls Robert Paul Lerena a **racehorse trainer** and a 1986 notice names **Lerena Racing Stables**, so an Argentine racing column of 1905–1920 is a plausible place to find him before South Africa — which bears on [the eight unaccounted years](/open-questions/#may-never-close)."
   },
   {
    "n": 90,
