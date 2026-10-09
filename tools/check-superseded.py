@@ -34,6 +34,11 @@ DIST = ROOT / "site" / "dist"
 
 # Pages whose job is to carry retired claims.
 EXEMPT = {"corrections", "changes", "method", "search", "searchindex.json"}
+# Files whose job is to hold what was believed: corrections.tsv IS the retraction, and the
+# gedcom and family-memory files exist to carry a tree's or a family's claims so they can be
+# graded against records.
+DATA_EXEMPT = {"corrections.tsv", "gedcom-import.tsv", "gedcom-graded.tsv",
+               "gedcom-current.tsv", "family-memory.tsv"}
 
 RETRACT_WINDOW = 420
 RETRACT = re.compile(
@@ -45,7 +50,11 @@ RETRACT = re.compile(
     # retracting a claim in its own words - "CORRECTS the family's account", "the
     # register CONTRADICTED it" - and the regex was too narrow to hear them. A gate
     # that cannot recognise a retraction will send people to edit their corrections.
-    r"contradict|moves the grave|but the register|not newlands|rather than newlands",
+    r"contradict|moves the grave|but the register|not newlands|rather than newlands|"
+    # This archive kills an argument in words no dictionary of retraction would list:
+    # "the whole argument is dead", "how it died", "read it as history". Bare "died" is
+    # deliberately NOT here - in a genealogy half the sentences contain it.
+    r"is dead|was killed|how it died|as history|what it said|kept because",
     re.I)
 
 # *** EACH ENTRY IS A CLAIM THIS ARCHIVE PUBLISHED AND THEN RETRACTED. *** The `why` is
@@ -65,20 +74,56 @@ RETIRED = [
      "The arithmetic does not come out. Septima means seventh; she is the sixth daughter."),
     (r"unmarked grave at Newlands|buried at Newlands",
      "The grave is at MAITLAND, not Newlands - grave 7719, Cemetery No. 1, read 8 October 2026."),
+    (r"Mauricio[^.]{0,90}(died|d\.)[^.]{0,40}1925|1925[^.]{0,60}Mauricio",
+     "3 March 1925 is his DAUGHTER CLARA's death date. Mauricio was born about 1815, so the "
+     "archive was asserting he died at about 110. He has no attested death date at all."),
+    (r"knew the name from a completely different direction",
+     "'Her sister EDIE' was never independent evidence of a sister named Edith. Edie IS Isabella "
+     "Temple Dalling - the argument was counting one woman twice."),
+    (r"Edith[^.]{0,130}strong candidate|strong candidate[^.]{0,130}Edith",
+     "Edith is downgraded to weak and then disproved: she is not in the Northam baptism register, "
+     "and the GRO index gives her a different mother. There is no tenth child."),
+    (r"neither has been checked against a burial register",
+     "The register WAS checked on 8 October 2026. All three are at Maitland - 7719 A, B and C - "
+     "and the last column of his own entry reads 'In Plot of R. P. Lerina'."),
+    (r"William John[^.]{0,60}1 November 1870|1870-11-01",
+     "No source gives his day of birth. The archive invented 1 November and manufactured a "
+     "three-day gap between twins; consistency.py caught it. The sources say 'Nov 1870'."),
 ]
 
 
-def pages():
+# *** THE DATA FILES ARE SCANNED TOO, AND THAT WAS NOT THE FIRST DESIGN. ***
+# This gate first read only rendered pages. On 9 October 2026 a hand review of the serious
+# corrections found THREE live retractions it could not possibly have seen, because they sat
+# in TSV comment lines that no page renders: brayley-bmd.tsv still ended "Mary Septima is the
+# seventh daughter and her name means what it says" four lines after striking the argument
+# for it, and two more files closed with verdicts their own strikes had killed.
+# *** A STRIKE INSERTED MID-PARAGRAPH LEAVES THE PARAGRAPH'S CONCLUSION STANDING ***, and the
+# conclusion is the part the next person reads.
+#
+# WIDENING IS SAFE ONLY BECAUSE THE CLAIM LIST IS HAND-WRITTEN. The same day, generating
+# claims automatically from every what_was_said in corrections.tsv returned 39 hits of which
+# every one checked was a collision on a NAME rather than on a claim. Curated regexes carry
+# no such noise, so pointing them at more text costs nothing.
+DATA = ROOT / "data"
+
+
+def sources():
     for p in sorted(DIST.rglob("index.html")):
-        yield p.relative_to(DIST).as_posix().replace("/index.html", "") or "HOME", p
+        yield "page", p.relative_to(DIST).as_posix().replace("/index.html", "") or "HOME", p
+    for p in sorted(DATA.glob("*.tsv")):
+        yield "data", p.name, p
 
 
 def main():
     bad = []
-    for name, path in pages():
-        if name.split("/")[0] in EXEMPT:
+    for kind, name, path in sources():
+        if kind == "page" and name.split("/")[0] in EXEMPT:
             continue
-        text = re.sub(r"<[^>]+>", " ", path.read_text(errors="ignore"))
+        if kind == "data" and name in DATA_EXEMPT:
+            continue
+        raw = path.read_text(errors="ignore")
+        text = re.sub(r"<[^>]+>", " ", raw) if kind == "page" else raw
         text = re.sub(r"\s+", " ", text)
         for rx, why in RETIRED:
             for m in re.finditer(rx, text, re.I):
@@ -86,12 +131,13 @@ def main():
                 window = text[a:m.end() + RETRACT_WINDOW]
                 if RETRACT.search(window):
                     continue
-                bad.append((name, m.group(0)[:60], why))
+                where = f"/{name}/" if kind == "page" else f"data/{name}"
+                bad.append((where, m.group(0)[:60], why))
 
     if bad:
         print(f"  FAIL  superseded {len(bad)} retired claim(s) still asserted:")
         for name, frag, why in bad:
-            print(f"          /{name}/  —  “{frag}”")
+            print(f"          {name}  —  “{frag}”")
             print(f"              {why}")
         print("\n          Either correct the sentence, or write the retraction beside it so a")
         print("          reader can see the claim is being quoted rather than made.")
