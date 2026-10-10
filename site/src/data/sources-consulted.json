@@ -1202,5 +1202,19 @@
   "accessed": "10 Oct 2026",
   "tier": "PRIMARY",
   "link": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-DQ4K-7"
+ },
+ {
+  "source": "Uruguay, Civil Registration 1879-2020 - Montevideo deaths 1913, certificate 553; FamilySearch index ark 1:1:6LXZ-JV32; DGS 008165206 image 283",
+  "used_for": "<strong>THE HUSBAND OF ANGELICA MARIA LERENA VILLADEMOROS, NAMED AT LAST</strong> - 'Eduardo Zalduando Pou', dead at Montevideo on <strong>22 August 1913</strong> aged <strong>fifty-two</strong>, son of <strong>JUAN</strong> and <strong>DOLORES POU</strong>, and so her widowhood at forty-one. <strong>BUT HE IS ALMOST CERTAINLY THE EDUARDO ZALSAMENDI ALREADY IN THIS REGISTER</strong> off the 1903 Pocitos plate - same forename, same father, same mother, same wife's surname, same daughter's name. See data/zalsamendi-zalduando-one-household.tsv.",
+  "accessed": "11 Oct 2026",
+  "tier": "SECONDARY - index read; THE PLATE WAS BLOCKED. Following the record's own VIEW ORIGINAL DOCUMENT link redirected to a FamilySearch sign-in, which this archive holds as false-zero disguise seventeen. The act is unread, not empty, and nothing is concluded from the failure.",
+  "link": "https://www.familysearch.org/ark:/61903/1:1:6LXZ-JV32"
+ },
+ {
+  "source": "Uruguay, registros parroquiales 1726-2000 - La Paz in Canelones, marriages 1927, certificate 30; FamilySearch index ark 1:1:X92R-F5N1; DGS 008166595 image 207",
+  "used_for": "<strong>A SON AND A GRANDSON-GENERATION MARRIAGE</strong>: Eduardo Zalduando, 26, born about 1901 at La Paz, married <strong>MARIA ESTER COSTA</strong>, 24, of the same town, on <strong>20 December 1927</strong>; her parents <strong>RAFAEL COSTA</strong> and <strong>LEONTINA SOASANI</strong>. <strong>PUTS A BRANCH OF THIS FAMILY IN CANELONES IN THE 1900s</strong>, where the Lerena Villademoros had been a Montevideo household.",
+  "accessed": "11 Oct 2026",
+  "tier": "SECONDARY - index read, no image opened",
+  "link": "https://www.familysearch.org/ark:/61903/1:1:X92R-F5N1"
  }
 ]

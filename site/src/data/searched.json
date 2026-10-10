@@ -608,5 +608,50 @@
    "full-text"
   ],
   "note": "A NAME TRAP WORTH RECORDING FOR ANY ARCHIVE WORKING BOTH COUNTRIES: the parish here is SAN JOSE DE FLORES in BUENOS AIRES CITY, which is a different FLORES from the Uruguayan department this archive spends most of its time in, and from the SAN JOSE where the Lerenas married in 1825 and 1837. Three unrelated places sharing two names. AND A CAUTION ON THE IDENTIFICATION: the mother's stated age of thirty-six implies a birth about 1881, where this archive holds her baptism of 19 September 1876. A stated age on a baptism act is the parent's own account and is often short; the identification rests on the rare compound surname and Uruguayan birth, not on the age, and the conflict is recorded rather than smoothed."
+ },
+ {
+  "src": "FamilySearch - Uruguay Civil Registration 1879-2020 and registros parroquiales 1726-2000, by spouse surname: Lerena x Zalduando",
+  "url": "https://www.familysearch.org/ark:/61903/1:1:6LXZ-JV32",
+  "film": "008165206",
+  "waypoint": null,
+  "what": "Work-list row 186 - who was the 'Zalduando' that Angelica Maria Lerena Villademoros married. Four index entries: his death at Montevideo 22 Aug 1913 aged 52 with his parents Juan and Dolores Pou (cert 553), the two children, and the elder son's marriage at La Paz, Canelones, 20 Dec 1927 (cert 30).",
+  "when": "2026-10-11",
+  "outcome": "yield",
+  "pages": null,
+  "walked": false,
+  "tags": [
+   "lerena",
+   "villademoros",
+   "zalsamendi",
+   "zalduando",
+   "pou",
+   "costa",
+   "montevideo",
+   "canelones",
+   "uruguay",
+   "familysearch",
+   "civil-registration"
+  ],
+  "note": "THE RESULT WAS NOT A NEW FAMILY BUT A DUPLICATE OF ONE ALREADY HELD. Every person these entries named - the husband Eduardo, his father Juan, his mother Dolores Pou, and the daughter Maria Margarita - was already in this register under ZALSAMENDI, from a PLATE read on 21 September 2026 (the Pocitos baptism of 15 Aug 1903). The archive's own duplicates gate caught it before anything was committed. ONE HOUSEHOLD, FIVE POINTS OF AGREEMENT, AND ONE GENUINE CONFLICT: the plate names the wife AMELIA and the index names her ANGELICA. A plate outranks an index, and this index writes Lerena as 'Lerma', so ZALSAMENDI is taken as the better surname reading while the forename is left open. Genuinely new: a son, Eduardo Avelino, b. c.1901 at La Paz in Canelones, and his wife Maria Ester Costa."
+ },
+ {
+  "src": "FamilySearch image viewer - DGS 008165206 image 283 (Montevideo deaths 1913, certificate 553)",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS2C-2DNF",
+  "film": "008165206",
+  "waypoint": null,
+  "what": "The 1913 death act itself, to read the surname and parents in the register's hand and to see whether the widow is named AMELIA or ANGELICA - the one test that settles both open points of the Zalsamendi/Zalduando household.",
+  "when": "2026-10-11",
+  "outcome": "blocked",
+  "pages": "283",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "zalsamendi",
+   "zalduando",
+   "montevideo",
+   "uruguay",
+   "familysearch"
+  ],
+  "note": "BLOCKED, AND RECORDED AS BLOCKED RATHER THAN AS A NULL. The index record page itself loaded and read normally while signed in; following its own VIEW ORIGINAL DOCUMENT link to the image viewer REDIRECTED TO ident.familysearch.org - a sign-in. This archive holds that redirect as false-zero disguise seventeen and has already had to withdraw three published conclusions to it once, because the control had been run BEFORE the null instead of after. So nothing is concluded here: the plate is unread, not empty. A signed-in session should retry it, and the same session should re-read film 007713400 image 02828 folio 344 for the mother's forename."
  }
 ]

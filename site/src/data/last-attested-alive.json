@@ -3211,5 +3211,19 @@
   "last_attested_alive": "1917-11-17",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Eduardo Avelino ZALDUANDO Lerena (m. Maria Ester Costa 1927)",
+  "born_est": "1901",
+  "last_attested_alive": "1901",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maria Ester COSTA (m. Eduardo Avelino Zalduando 1927)",
+  "born_est": "1903",
+  "last_attested_alive": "1903",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]

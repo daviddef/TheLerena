@@ -14,6 +14,13 @@ OUT  = ROOT / "site" / "src" / "data"
 
 def slugify(s):
     s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
+    # Parentheses are stripped because PERSON names in this register carry disambiguators -
+    # "Alejandro M. LERENA (m.1 Elisa VILLADEMOROS)" must not slug them into the id.
+    # *** BUT PLACE NAMES RUN THROUGH THE SAME FUNCTION AND THE KIT'S SEARCH INDEX DOES NOT
+    # STRIP THEM ***, so a place written "La Paz (Canelones), Uruguay" slugged to
+    # "la-paz-uruguay" here and "la-paz-canelones" there, and check:searchindex caught a link
+    # to a page that was never built (10 October 2026). Until the two agree,
+    # *** DO NOT PUT PARENTHESES IN A where_found VALUE. ***
     s = re.sub(r"\(.*?\)", " ", s)
     s = re.sub(r"[^A-Za-z0-9]+", "-", s).strip("-").lower()
     return re.sub(r"-+", "-", s) or "person"
