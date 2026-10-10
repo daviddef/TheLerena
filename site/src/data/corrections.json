@@ -1110,5 +1110,21 @@
   "what_is_true": "*** THE TEST WAS RUN AND THE FRAMING WAS WRONG: IT IS PLATE AGAINST PLATE. *** The 1913 death act is explicit - *** 'era casado con ANGELICA LERENA, de cuya union quedan tres hijos llamados: Maria Elena, Eduardo Avelino y Maria Margarita' *** - and the 1903 baptism is equally explicit that Maria Margarita Luisa is the daughter of Eduardo Zalduondo and *** AMELIA LERENA ***. *** TWO IMAGES, TWO FORENAMES, ONE CHILD ATTRIBUTED TO BOTH *** - which is what forces them to be one woman rather than two sisters, because the 1913 act places Maria Margarita inside the union with Angelica and the 1903 act places her inside the union with Amelia.",
   "how_it_was_caught": "*** BY THE USER SIGNING THE SESSION IN, AND BY READING BOTH PLATES RATHER THAN ONE. *** The question had been filed as blocked the same morning. *** THE CORRECTION IS NOT THAT THE QUESTION WAS ASKED, BUT THAT IT WAS ASKED WITH A THUMB ON THE SCALE *** - it assumed the unread document would vindicate the read one.",
   "retired": ""
+ },
+ {
+  "date": "2026-10-11",
+  "severity": "serious",
+  "what_was_said": "*** That DOLORES POU was 'Catalan or Balearic', and that her household was 'Spanish on both sides a generation back, as the Lerena were'. *** Written on her row and on her husband's on 21 September 2026, reasoned from the surname alone.",
+  "what_is_true": "*** SHE IS BRAZILIAN. *** Her son's marriage act of 20 November 1897, read from the plate, gives 'Dona DOLORES POU, de 58 anos ... de nacionalidad *** BRASILENA ***'. And the same act gives her husband *** JUAN ZALDUONDO *** as 'de nacionalidad *** ORIENTAL ***' - Uruguayan-born, aged eighty, not a recent Spanish arrival either. *** THE SURNAMES MAY WELL BE CATALAN AND BASQUE; THE PEOPLE WERE NOT. ***",
+  "how_it_was_caught": "*** BY READING AN ACT THAT ASKED THE QUESTION DIRECTLY. *** A Uruguayan civil marriage form has a 'nacionalidad' blank for each parent, so it answers in one word what a surname can only suggest. *** THIS IS THE ARCHIVE'S OWN RULE - GO WHERE THE FORM ASKS THE QUESTION - AND IT WAS NOT APPLIED FOR THREE WEEKS *** because nobody had looked for the marriage. The error was not the guess, which was labelled a guess; it was letting a labelled guess stand while the document that settles it went unsought.",
+  "retired": ""
+ },
+ {
+  "date": "2026-10-11",
+  "severity": "minor",
+  "what_was_said": "*** That the MORATORIO surname recurring in this register was 'a coincidence of surname in one city and it is not evidence of anything' *** - written on Eduardo Zalduondo's row earlier the same day, after noticing that the Juez de Paz at his 1913 death was an Eduardo J. Moratorio.",
+  "what_is_true": "*** THE CAUTION WAS RIGHT ABOUT THE JUEZ DE PAZ AND WRONG ABOUT THE FAMILY. *** There IS a Moratorio connection and it is close: *** FERNANDO MORATORIO, fifty, of commerce, WITNESSED ANGELICA'S MARRIAGE on 20 November 1897 ***, and this register already held a Fernando Moratorio as the husband of *** JOSEFA LERENA TRAIBEL ***, the bride's own aunt. *** NOTHING IS CLAIMED ABOUT THE JUEZ DE PAZ ***, who remains unconnected.",
+  "how_it_was_caught": "*** BY FINDING THE MARRIAGE ACT FOUR HOURS LATER. *** The caution was written to stop a future reader inventing a link from a shared surname; it had the side effect of asserting there was none. *** 'NO CONNECTION IS CLAIMED' AND 'THERE IS NO CONNECTION' ARE DIFFERENT SENTENCES *** and the row used the first to mean the second.",
+  "retired": ""
  }
 ]

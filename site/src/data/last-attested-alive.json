@@ -1912,22 +1912,22 @@
  },
  {
   "name": "Eduardo ZALDUONDO",
-  "born_est": "1861",
+  "born_est": "1860-08-15",
   "last_attested_alive": "1913-Aug-22",
   "basis": "explicit death date on this person's row",
   "tier": "DEATH"
  },
  {
   "name": "Juan ZALDUONDO",
-  "born_est": "-",
-  "last_attested_alive": "-",
+  "born_est": "1817",
+  "last_attested_alive": "1817",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
  {
   "name": "Dolores POU de ZALDUONDO",
-  "born_est": "-",
-  "last_attested_alive": "-",
+  "born_est": "1839",
+  "last_attested_alive": "1839",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -2339,8 +2339,8 @@
  },
  {
   "name": "Celedonia VILLADEMOROS (wife of Avelino Eduardo)",
-  "born_est": "-",
-  "last_attested_alive": "-",
+  "born_est": "1842",
+  "last_attested_alive": "1842",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -2521,8 +2521,8 @@
  },
  {
   "name": "Fernando MORATORIO (the younger)",
-  "born_est": "-",
-  "last_attested_alive": "-",
+  "born_est": "1847",
+  "last_attested_alive": "1847",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -3221,6 +3221,20 @@
  },
  {
   "name": "Maria Elena ZALDUONDO Lerena",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Agustin RIVA (witness, 1897)",
+  "born_est": "1859",
+  "last_attested_alive": "1859",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Gallo PAREJA (Juez de Paz, 4a seccion, 1897)",
   "born_est": "-",
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
