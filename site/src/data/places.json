@@ -158,9 +158,16 @@
    "mercedes-lerena-de-martinez",
    "maria-elena-zalduondo-lerena",
    "agustin-riva",
-   "gallo-pareja"
+   "gallo-pareja",
+   "manuel-lerena-leonard",
+   "teresa-leonard",
+   "juana-galarza",
+   "felicia-clementina-lerena",
+   "manuela-lemos",
+   "juana-ferreiroz",
+   "felicia-lerena-ferreiroz"
   ],
-  "count": 156
+  "count": 163
  },
  {
   "slug": "trinidad-flores",
@@ -225,9 +232,11 @@
    "natalia-lerena",
    "aurora-lerena-fernandez",
    "manuel-vaquero",
-   "manuel-lerena"
+   "manuel-lerena",
+   "jacinta-merina-santos",
+   "felicia-leoncia-lerena"
   ],
-  "count": 60
+  "count": 62
  },
  {
   "slug": "buenos-aires-arrivals",
@@ -334,9 +343,14 @@
    "juan-fernandez-alvarez",
    "barbara-sotura",
    "maria-fernandez-alvarez",
-   "marcos-de-leon-gonzalez"
+   "marcos-de-leon-gonzalez",
+   "felicia-lerena",
+   "estefania-lerena",
+   "servando-gonzalez",
+   "olegaria-lerena",
+   "juana-de-las-nieves-lerena"
   ],
-  "count": 16
+  "count": 21
  },
  {
   "slug": "rosario-santa-fe",
@@ -879,6 +893,14 @@
   "name": "Parana, Entre Rios",
   "people": [
    "arturo-lerena-garcia"
+  ],
+  "count": 1
+ },
+ {
+  "slug": "florida-uruguay",
+  "name": "Florida, Uruguay",
+  "people": [
+   "manuel-vicente-lerena-marino"
   ],
   "count": 1
  }
