@@ -234,9 +234,10 @@
    "manuel-vaquero",
    "manuel-lerena",
    "jacinta-merina-santos",
-   "felicia-leoncia-lerena"
+   "felicia-leoncia-lerena",
+   "emilio-isidoro-lerena-recuero"
   ],
-  "count": 62
+  "count": 63
  },
  {
   "slug": "buenos-aires-arrivals",
@@ -412,6 +413,22 @@
   "count": 11
  },
  {
+  "slug": "flores-uruguay",
+  "name": "Flores, Uruguay",
+  "people": [
+   "bernabe-lerena-2",
+   "florinda-cardozo",
+   "vitalino-gregorio-pelaez",
+   "anibal-marino-pelaez",
+   "pedro-beloqui",
+   "dorotea-delgado",
+   "mauricio-lerena-2",
+   "emilio-lerena-2",
+   "paula-casares"
+  ],
+  "count": 9
+ },
+ {
   "slug": "cordoba-argentina",
   "name": "Cordoba, Argentina",
   "people": [
@@ -437,20 +454,6 @@
    "dona-bernardina-fragoso-de-rivera",
    "jose-pando-de-barros",
    "ana-maria-cabalgante"
-  ],
-  "count": 7
- },
- {
-  "slug": "flores-uruguay",
-  "name": "Flores, Uruguay",
-  "people": [
-   "bernabe-lerena-2",
-   "florinda-cardozo",
-   "vitalino-gregorio-pelaez",
-   "anibal-marino-pelaez",
-   "pedro-beloqui",
-   "dorotea-delgado",
-   "mauricio-lerena-2"
   ],
   "count": 7
  },
