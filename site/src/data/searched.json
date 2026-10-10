@@ -610,11 +610,11 @@
   "note": "A NAME TRAP WORTH RECORDING FOR ANY ARCHIVE WORKING BOTH COUNTRIES: the parish here is SAN JOSE DE FLORES in BUENOS AIRES CITY, which is a different FLORES from the Uruguayan department this archive spends most of its time in, and from the SAN JOSE where the Lerenas married in 1825 and 1837. Three unrelated places sharing two names. AND A CAUTION ON THE IDENTIFICATION: the mother's stated age of thirty-six implies a birth about 1881, where this archive holds her baptism of 19 September 1876. A stated age on a baptism act is the parent's own account and is often short; the identification rests on the rare compound surname and Uruguayan birth, not on the age, and the conflict is recorded rather than smoothed."
  },
  {
-  "src": "FamilySearch - Uruguay Civil Registration 1879-2020 and registros parroquiales 1726-2000, by spouse surname: Lerena x Zalduando",
+  "src": "FamilySearch - Uruguay Civil Registration 1879-2020, Montevideo deaths 1913 (certificate 553), by spouse surname: Lerena x Zalduando",
   "url": "https://www.familysearch.org/ark:/61903/1:1:6LXZ-JV32",
   "film": "008165206",
   "waypoint": null,
-  "what": "Work-list row 186 - who was the 'Zalduando' that Angelica Maria Lerena Villademoros married. Four index entries: his death at Montevideo 22 Aug 1913 aged 52 with his parents Juan and Dolores Pou (cert 553), the two children, and the elder son's marriage at La Paz, Canelones, 20 Dec 1927 (cert 30).",
+  "what": "Work-list row 186 - who was the 'Zalduando' that a Lerena woman married. This collection gave three of the four entries: his death at Montevideo 22 Aug 1913 aged 52 with his parents Juan and Dolores Pou (cert 553), and the two children. NO WAYPOINT ESTABLISHED: reached by index ark, not through a browse path, so no wc=/owc= was ever seen, and DGS 008165206 does not appear in the atlas's volume data. The film number is recorded instead and the waypoint is left unset rather than guessed.",
   "when": "2026-10-11",
   "outcome": "yield",
   "pages": null,
@@ -653,5 +653,27 @@
    "familysearch"
   ],
   "note": "BLOCKED, AND RECORDED AS BLOCKED RATHER THAN AS A NULL. The index record page itself loaded and read normally while signed in; following its own VIEW ORIGINAL DOCUMENT link to the image viewer REDIRECTED TO ident.familysearch.org - a sign-in. This archive holds that redirect as false-zero disguise seventeen and has already had to withdraw three published conclusions to it once, because the control had been run BEFORE the null instead of after. So nothing is concluded here: the plate is unread, not empty. A signed-in session should retry it, and the same session should re-read film 007713400 image 02828 folio 344 for the mother's forename."
+ },
+ {
+  "src": "FamilySearch - Uruguay, registros parroquiales 1726-2000: La Paz in Canelones, marriages 1927 (certificate 30)",
+  "url": "https://www.familysearch.org/ark:/61903/1:1:X92R-F5N1",
+  "film": "008166595",
+  "waypoint": null,
+  "what": "The fourth entry of the row-186 group, and the one that reached a new generation: the 1927 marriage of the elder son, which gives his birth town and year and his wife's parents. Index only, no image opened.",
+  "when": "2026-10-11",
+  "outcome": "yield",
+  "pages": "207",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "zalsamendi",
+   "zalduando",
+   "costa",
+   "canelones",
+   "uruguay",
+   "familysearch",
+   "parish-registers"
+  ],
+  "note": "NO WAYPOINT ESTABLISHED, and not guessed. Reached by index ark rather than through the image viewer's browse path, so no wc=/owc= was seen; DGS 008166595 is absent from the atlas's fs-volumes data; and the image viewer was unavailable to this session anyway because it redirected to a sign-in. The film number and image 207 are recorded so the volume can be identified later. PAGES means the single image the index points at, not a range read - nothing in this volume was walked."
  }
 ]
