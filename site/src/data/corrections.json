@@ -1126,5 +1126,13 @@
   "what_is_true": "*** THE CAUTION WAS RIGHT ABOUT THE JUEZ DE PAZ AND WRONG ABOUT THE FAMILY. *** There IS a Moratorio connection and it is close: *** FERNANDO MORATORIO, fifty, of commerce, WITNESSED ANGELICA'S MARRIAGE on 20 November 1897 ***, and this register already held a Fernando Moratorio as the husband of *** JOSEFA LERENA TRAIBEL ***, the bride's own aunt. *** NOTHING IS CLAIMED ABOUT THE JUEZ DE PAZ ***, who remains unconnected.",
   "how_it_was_caught": "*** BY FINDING THE MARRIAGE ACT FOUR HOURS LATER. *** The caution was written to stop a future reader inventing a link from a shared surname; it had the side effect of asserting there was none. *** 'NO CONNECTION IS CLAIMED' AND 'THERE IS NO CONNECTION' ARE DIFFERENT SENTENCES *** and the row used the first to mean the second.",
   "retired": ""
+ },
+ {
+  "date": "2026-10-11",
+  "severity": "serious",
+  "what_was_said": "*** That SOCORRO LERENA's marriage is dated 15 JULY 1885. *** Written on her register row earlier the same day from a parish index row reading 'Socorro Lerena, Bride, Marriage 15 July 1885, Spouses Serapio Fernandez'.",
+  "what_is_true": "*** SHE IS THE GROOM'S MOTHER, NOT HIS BRIDE. *** This register already had her born about *** 1832 ***, a *** widow and a property owner *** in 1897, and *** the mother of the Serapio Fernandez who married a Lerena in 1885 ***. The index record gives its bride as *** thirty, soltera, born 1855 ***. A woman cannot be both. *** THE MARRIAGE IS ALMOST CERTAINLY ANTONINA LERENA'S ***, dispensed on 26 June 1885 for a second grade of consanguinity, three weeks before.",
+  "how_it_was_caught": "*** BY OPENING THE INDEX RECORD INSTEAD OF READING THE SEARCH ROW. *** The search row gave a name, a date and a spouse and looked complete. The record behind it shows the bride carrying *** THE GROOM'S OWN ATTRIBUTES, FIELD FOR FIELD *** - same age, same birth year, same birthplace, same residence, same marital status. *** THAT IS A PARSER DUPLICATING ONE PARTY ONTO A NAME IT FOUND ELSEWHERE ON THE PAGE ***, and the name it found was the mother's. *** THE RULE THIS YIELDS: WHEN TWO PARTIES ON AN INDEXED MARRIAGE SHARE EVERY ATTRIBUTE, ONE OF THEM IS NOT A PARTY. ***",
+  "retired": ""
  }
 ]
