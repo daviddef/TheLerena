@@ -9,6 +9,7 @@ import alejandros from "../data/the-three-alejandros.json";
 import Spine from "@daviddef/archive-kit/components/Spine.astro";
 import spines from "../data/descent-spines.json";
 import trinidad from "../data/trinidad-flores-sweep-2026-09-27.json";
+import tmarr from "../data/trinidad-marriages-1882-1911.json";
 
 /* The two descents drawn the same way, so the eye can do the comparing. Both
    start in Spain, both cross, both spread across the Banda Oriental — and they
@@ -1452,6 +1453,48 @@ import zald from "../data/zalduondo-lerena-three-acts.json";
       archive records both rather than picking.</p>
   </div>
 </section>
+<section class="blk">
+  <h2 id="s-trinidad-marriages">Three weddings in thirteen months, and why 1911 needed a dispensation</h2>
+  <p class="dek">11 October 2026. The sweep was finished, and the answer was in the marriages &mdash; not the baptisms.</p>
+  <div class="prose">
+    <p><strong>The September pass took the first page of results and recorded the children.</strong>
+      Pages two to four carry the <em>marriages</em>, and they turn a diagram this archive has held
+      for weeks into a sequence of events.</p>
+    <p><strong>A Lerena brother and his two Lerena sisters married a Cardozo sister and her two
+      Cardozo brothers</strong> &mdash; Bernab&eacute; to Florinda Cardozo on 22 March 1888, then
+      Mar&iacute;a to Eliseo and Casimira to Juan Basilio <strong>on the same day</strong>,
+      25 April 1889, in the same church.</p>
+  </div>
+  <div class="panel" style="margin-top:18px">
+    <p style="margin:0"><strong>That is how you manufacture double first cousins.</strong> In 1911
+      <strong>Custodio Lerena</strong> &mdash; Bernab&eacute; and Florinda&rsquo;s son &mdash; had to
+      be dispensed to marry <strong>Ema Cardozo</strong>, and the expediente calls them double first
+      cousins without this archive ever having had the weddings that produced them.
+      <strong>Two marriages between two families in thirteen months, and the next generation inherits
+      two blood paths.</strong></p>
+    <p style="margin:12px 0 0"><strong>What is still not shown is which Cardozo fathered Ema.</strong>
+      If it is Eliseo or Juan Basilio, the doubling is accounted for exactly. The index does not say
+      and no act has been opened.</p>
+  </div>
+  <dl class="kv" style="margin-top:18px">
+    {tmarr.filter((r) => r["the act"]).map((r) => (
+      <div><dt set:html={emph(r["the act"])} /><dd>
+        <span set:html={emph(r["what the index says"])} /><br />
+        <span class="cap" set:html={emph(r["what it settles"])} />
+      </dd></div>
+    ))}
+  </dl>
+  <div class="prose" style="margin-top:18px">
+    <p><strong>And the 1911 marriage itself is found.</strong> 18 September 1911 at Sant&iacute;sima
+      Trinidad. This archive had inferred the dispensation was granted from the birth of their
+      daughter four years later; now the act says so directly.</p>
+    <p class="cap"><strong>A double wedding is not a coincidence &mdash; it is a decision.</strong>
+      Two sisters married two brothers on one day in one church. Whatever that says about land, dowry
+      or convenience, it is the kind of event that makes a parish&rsquo;s blood run back on itself
+      within two generations. <strong>All of it is index only; no act has been opened.</strong></p>
+  </div>
+</section>
+
 <section class="blk">
   <h2 id="s-trinidad-sweep">Trinidad, Flores &mdash; the dispensation was granted</h2>
   <div class="prose">
