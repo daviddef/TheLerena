@@ -845,5 +845,28 @@
    "parish-registers"
   ],
   "note": "THE LESSON IS ABOUT INSTRUMENTS, NOT ABOUT THIS COUPLE. The row was right that the act is absent from the RECORD INDEX, and it was searched for there under Lerena, Serena and Villademoros, all controlled. It is present in the FULL-TEXT CORPUS, which is a separate index built by reading page images rather than by transcribing entries, and a single phrase search found it in one attempt. A NULL IN ONE FAMILYSEARCH INDEX IS NOT A NULL IN FAMILYSEARCH. THE ACT, 28 December 1871 at the Cordon: Alejandro MAXIMO Lerena, soltero, natural de Montevideo, son of Avelino and Ambrosia Traibel, married Elisa Villademoros, of the same status and origin, daughter of THE LATE Pedro and Angelica Villademoros; two conciliar banns dispensed by the Obispo Vicario Apostolico; witnesses Dr Joaquin Requena and the groom's own mother. IT PROVES A SISTERHOOD THIS ARCHIVE HAD CALLED 'PROBABLE' FOR A MONTH, and with it that TWO LERENA BROTHERS MARRIED TWO VILLADEMOROS SISTERS - the same double-sibling structure found at Trinidad the same day, a generation earlier and in another department. It does NOT give the groom's age, which is what the row wanted most, and that is said plainly."
+ },
+ {
+  "src": "FamilySearch FULL TEXT - \"Sancho Llerena\"; and the marriage investigation file of Florentino Gomez, Catedral Nuestra Senora de Guadalupe, Canelones, 1776-1806",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS2Z-W45W",
+  "film": null,
+  "waypoint": null,
+  "what": "Re-testing work-list row 26's controlled null on Sancho Llerena's death against the full-text corpus, a different instrument from the record index that produced the null.",
+  "when": "2026-10-11",
+  "outcome": "yield",
+  "pages": null,
+  "walked": false,
+  "tags": [
+   "llerena",
+   "lerena",
+   "aguilar",
+   "canelones",
+   "montevideo",
+   "uruguay",
+   "familysearch",
+   "full-text",
+   "marriage-investigations"
+  ],
+  "note": "HIS DEATH IS STILL NOT FOUND. WHAT WAS FOUND IS HIS VOICE. Four pages of full-text hits for the phrase 'Sancho Llerena', one of them the marriage investigation of FLORENTINO GOMEZ before the Juzgado Eclesiastico of Canelones, where SANCHO LLERENA IS A SWORN WITNESS AND DEPOSES IN THE FIRST PERSON - a role no index had ever shown him in, because the record index catalogues principals and parents and this man was neither. HE STATES THAT HE HAD 'ANDADO EN LA LINEA DE VITORIA ALGUNOS ANOS' and knew the groom there. What that line is is NOT established and is deliberately not guessed: a 'linea' in the Rio de la Plata is usually a military frontier, and Vitoria is also a Basque city and a common Brazilian and Spanish place name. The archive's open question on whether this family is Basque or Extremaduran is NOT advanced by it. HIS AGE IS ON THE NEXT FRAME, which is where a deposition states it and which has not been opened - a cheap, named follow-up. THE GENERAL RESULT IS WORTH MORE THAN THE PARTICULAR ONE: the record index and the full-text corpus are two instruments, and three of this archive's standing nulls were only ever tested in one of them."
  }
 ]
