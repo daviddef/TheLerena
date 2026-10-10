@@ -1897,13 +1897,6 @@
   "tier": "BIRTH ONLY"
  },
  {
-  "name": "Amelia LERENA (m. Eduardo ZALSAMENDI)",
-  "born_est": "-",
-  "last_attested_alive": "-",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
- },
- {
   "name": "Celidonia B. de LERENA",
   "born_est": "-",
   "last_attested_alive": "-",
@@ -1911,28 +1904,28 @@
   "tier": "BIRTH ONLY"
  },
  {
-  "name": "Maria Margarita ZALSAMENDI Lerena",
+  "name": "Maria Margarita Luisa ZALDUONDO Lerena",
   "born_est": "1903-06-21",
   "last_attested_alive": "1903-06-21",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
  {
-  "name": "Eduardo ZALSAMENDI",
+  "name": "Eduardo ZALDUONDO",
+  "born_est": "1861",
+  "last_attested_alive": "1913-Aug-22",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
+ },
+ {
+  "name": "Juan ZALDUONDO",
   "born_est": "-",
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
  {
-  "name": "Juan ZALSAMENDI",
-  "born_est": "-",
-  "last_attested_alive": "-",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
- },
- {
-  "name": "Dolores POU de ZALSAMENDI",
+  "name": "Dolores POU de ZALDUONDO",
   "born_est": "-",
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
@@ -3223,6 +3216,13 @@
   "name": "Maria Ester COSTA (m. Eduardo Avelino Zalduando 1927)",
   "born_est": "1903",
   "last_attested_alive": "1903",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maria Elena ZALDUONDO Lerena",
+  "born_est": "-",
+  "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  }

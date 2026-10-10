@@ -47,7 +47,7 @@ import ans from "../data/dispensations-answered-1894-1913.json";
 import kindred from "../data/trinidad-founding-kindred.json";
 import bridge from "../data/colla-trinidad-bridge.json";
 import fouracts from "../data/lerena-pelaez-four-acts.json";
-import zald from "../data/zalsamendi-zalduando-one-household.json";
+import zald from "../data/zalduondo-two-plates.json";
 ---
 <Base title="Uruguay"
       eyebrow="Two Lerena families, two Spanish origins, and neither of them is his"
@@ -128,57 +128,63 @@ import zald from "../data/zalsamendi-zalduando-one-household.json";
 </section>
 
 <section class="blk">
-  <h2 id="s-zalduondo">One household, read twice, under two surnames</h2>
-  <p class="dek">11 October 2026. The duplicates gate stopped a new family being invented out of people already here.</p>
+  <h2 id="s-zalduondo">Two plates, ten years apart &mdash; and we were wrong about both</h2>
+  <p class="dek">11 October 2026. A surname this archive carried for three weeks was never on either document.</p>
   <div class="prose">
-    <p><strong>In September this archive found a woman under her husband&rsquo;s name and could not
-      read it.</strong> Ang&eacute;lica Mar&iacute;a Lerena Villademoros, baptised at the Iglesia
-      Matriz in 1872, stands in the Uruguayan civil index as
-      <em>&ldquo;Ang&eacute;lica Lerma de Zalduando&rdquo;</em>. Asked who the Zalduando was, four
-      index entries gave up a husband, his two parents and two children &mdash; and they were
-      written up as a family new to this register.</p>
-    <p><strong>They were not new. Every one of them was already here under ZALSAMENDI</strong>,
-      entered three weeks earlier from the plate of a baptism at Pocitos on 15 August 1903. The gate
-      that refuses two rows sharing a forename and a surname caught it before it was committed.</p>
+    <p><strong>This section replaces one published four hours earlier that argued the opposite
+      case.</strong> The argument is kept below rather than quietly deleted, because the way it
+      failed is worth more than the fact it got wrong.</p>
+    <p><strong>What the morning believed.</strong> A civil index gave Ang&eacute;lica Mar&iacute;a
+      Lerena Villademoros a husband, <em>Eduardo Zalduando Pou</em>, with his parents and children.
+      All of those people were already in this register under <strong>Zalsamendi</strong>, entered
+      three weeks earlier from the plate of a Pocitos baptism of 1903. So the reasoning ran: a plate
+      outranks an index, therefore <em>Zalsamendi</em> is right and the index is mangling the name.
+      That was published.</p>
+    <p><strong>Then the plates were read.</strong> The 1903 entry is <em>headed</em>
+      &ldquo;Mar&iacute;a Zalduondo&rdquo;; its father is <strong>Eduardo Zalduondo</strong>; its
+      paternal grandmother is <strong>Dolores Pou de Zalduondo</strong>. The 1913 death act says
+      <em>&ldquo;ha fallecido Eduardo Zalduando &hellip; era hijo de Juan Zalduondo y de Dolores Pou,
+      fallecidos&rdquo;</em>. <strong>Zalsamendi is on neither plate.</strong></p>
   </div>
   <div class="panel" style="margin-top:18px">
-    <p style="margin:0"><strong>The agreement is fivefold, and none of it depends on the disputed
-      surname.</strong> The husband is <strong>Eduardo</strong>; his father is
-      <strong>Juan</strong>; his mother is <strong>Dolores Pou</strong>; his wife is a
-      <strong>Lerena</strong> daughter of <strong>Avelino</strong> and
-      <strong>Celedonia</strong>; and there is a daughter called
-      <strong>Mar&iacute;a Margarita</strong>. Two unrelated Montevideo households do not agree on
-      all five.</p>
+    <p style="margin:0"><strong>The error in the argument, which is the part worth keeping.</strong>
+      &ldquo;A plate outranks an index&rdquo; is true. But this session was not holding a plate &mdash;
+      it was holding <strong>another session&rsquo;s reading of a plate</strong>, and it treated the
+      two as the same thing. The index was the only party in the room that had actually been right.</p>
+    <p style="margin:12px 0 0">There was even a tell in plain view, and it was read backwards. This
+      archive&rsquo;s own note recorded that a <em>machine</em> transcript of the same act had produced
+      &ldquo;Del Suando&rdquo;. <strong>Two readers failing on one hand is evidence the hand is
+      hard</strong> &mdash; it was used instead as evidence that machines and indexes are careless.
+      A second tell was ignored outright: the index called the child Mar&iacute;a Margarita
+      <strong>Luisa</strong>, a fourth name the 1903 reading had dropped. The plate has it.</p>
   </div>
   <dl class="kv" style="margin-top:18px">
-    {zald.filter((r) => r["what agrees"]).map((r) => (
-      <div><dt set:html={emph(r["what agrees"])} /><dd>
-        <span class="lab">1903 plate</span> <span set:html={emph(r["1903 Pocitos act - PLATE READ 21 Sep 2026"])} /><br />
-        <span class="lab">1913 index</span> <span set:html={emph(r["1913 civil register - INDEX ONLY 10-11 Oct 2026"])} /><br />
-        <span class="cap" set:html={emph(r["what it is worth"])} />
+    {zald.filter((r) => r["which record"]).map((r) => (
+      <div><dt set:html={emph(r["which record"])} /><dd>
+        <span set:html={emph(r["what it says, from the image"])} /><br />
+        <span class="cap" set:html={emph(r["what it settles"])} />
       </dd></div>
     ))}
   </dl>
   <div class="prose" style="margin-top:18px">
-    <p><strong>Which surname is right? The plate&rsquo;s.</strong> 1903 was read from the image; 1913
-      is an index, and it is the same index that writes Lerena as <em>Lerma</em> and Avelino Lerena
-      as <em>Arabia Larena Lerena</em>. There is even a tell: when this archive first met the 1903
-      act through a <em>machine transcript</em> it read the father as
-      <strong>&ldquo;Del Suando&rdquo;</strong> &mdash; far closer to <em>Zalduando</em> than to what
-      the plate turned out to say. <strong>The same hand defeats the same kind of reader twice.</strong></p>
-    <p><strong>What is still unsettled is the wife&rsquo;s forename, and it is not a detail.</strong>
-      The plate says <strong>Amelia</strong>. The index says <strong>Ang&eacute;lica</strong>. Either
-      they are one woman under two readings of one cramped name, or Amelia is a sister and the index
-      has named the wrong one. <strong>They are not merged.</strong> The test is a single plate
-      &mdash; the 1913 death act &mdash; and on 11 October the image viewer answered with a
-      sign-in page, so nothing is concluded from the failure.</p>
-    <p class="cap"><strong>And one join needed no new document at all.</strong> Amelia&rsquo;s row has
-      asked since September how her parents could be <em>&ldquo;Avelino y Celidonia B. de
-      Lerena&rdquo;</em> when Avelino Lerena Fern&aacute;ndez married Ambrosia Traibel. The Avelino is
-      not him &mdash; it is <strong>his son</strong>, Avelino Eduardo Lerena Traibel, whose wife is
-      <strong>Celedonia Villademoros</strong>. The Pocitos household joins to the Lerena
-      Villademoros, and through them to the Lerena Traibel. Both halves had been sitting here for
-      three weeks; nothing was discovered, two rows were read together.</p>
+    <p><strong>One child cannot be inside two different unions.</strong> The 1903 baptism makes
+      Mar&iacute;a Margarita the daughter of <strong>Amelia</strong> Lerena; the 1913 death act makes
+      her one of three children of the union with <strong>Ang&eacute;lica</strong> Lerena. That is
+      what forces them to be <strong>one woman</strong> rather than two sisters, and the two rows
+      this archive held separately are now merged.</p>
+    <p><strong>The forename is not explained, only outvoted.</strong> Her 1872 baptism says
+      Ang&eacute;lica Mar&iacute;a and the 1913 act says Ang&eacute;lica; only the 1903 priest wrote
+      Amelia, and he wrote it clearly &mdash; it was checked at high magnification precisely because
+      it was inconvenient. <strong>Two to one is not an explanation.</strong> &ldquo;Amelia&rdquo; is
+      kept as a recorded variant rather than erased, so that a reader who meets her under that name
+      in the Pocitos register can still find her here.</p>
+    <p class="cap"><strong>What the two plates added along the way:</strong> he was born at
+      <strong>Montevideo</strong> about 1861, was <strong>retired on a pension at fifty-two</strong>,
+      died of <strong>angina de pecho</strong> at calle Juan B. Blanco 9, and both his parents were
+      already dead. A third child, <strong>Mar&iacute;a Elena</strong>, is new.
+      <a href={u("/corrections/")}>Corrections &rarr;</a></p>
+    <p class="cap"><strong>Her own marriage act is still not found</strong>, which is why the work-list
+      row stays open. Everything here comes from a baptism and a death.</p>
   </div>
 </section>
 

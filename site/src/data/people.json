@@ -13994,40 +13994,6 @@
   "evidence": []
  },
  {
-  "slug": "amelia-lerena",
-  "name": "Amelia LERENA (m. Eduardo ZALSAMENDI)",
-  "born": "-",
-  "died": "",
-  "birthplace": "Uruguay",
-  "nationality": "Uruguayan",
-  "occupation": "-",
-  "where": "Montevideo",
-  "source": "San Juan Bautista, Pocitos, Montevideo - baptism of 15 Aug 1903 - FULL-TEXT TRANSCRIPT READ; ark 3:1:3Q9M-C9B7-R346-Z - IMAGE READ 21 September 2026; film 007713400 image 02828, folio 344; and Uruguay, Civil Registration 1879-2020 - death registration of 'Eduardo Zalduando Pou', Montevideo, 22 August 1913, aged 52, certificate 553, index ark 1:1:6LXZ-JV32, DGS 008165206 image 283 (PLATE NOT OPENED - the viewer demanded a sign-in on 11 October 2026); with index arks 1:1:6NFW-X112 and 1:1:6Y2Q-1WZB for the two children; and Uruguay, registros parroquiales 1726-2000 - marriage of 'Eduardo Zalduando' and Maria Ester Costa at La Paz in Canelones, 20 December 1927, certificate 30, index ark 1:1:X92R-F5N1, DGS 008166595 image 207 - indexes read 10-11 October 2026",
-  "status": "unplaced",
-  "statusRaw": "UNPLACED",
-  "note": "*** A LERENA WOMAN found 14 September 2026 *** in the baptism of her son Luis at San Juan Bautista, Pocitos, Montevideo, 15 August 1903 (born 21 June 1903), \"hijo legitimo de Eduardo Del [S]uando y Amelia Lerena\". *** HER PARENTS ARE GIVEN AS \"AVELINO y CELIDONIA B. de LERENA\" - which is a problem worth stating rather than smoothing over. *** This archive's Avelino Lerena Fernandez married AMBROSIA TRAIBEL and died in 1890. Either he had a second wife, or Celidonia belongs to a DIFFERENT Avelino - and there are already two others in this register. NOT attached to anyone. *** SEARCHED AND NOT FOUND, 14 September 2026. *** The Uruguayan indexes hold several Amelia Lerenas and none is this woman: they belong to TRINIDAD, FLORES - daughters of DOROTEO LERENA and ISIDORA CARDOZO. *** So the AVELINO-and-CELIDONIA problem stands exactly where it was, *** and the 1903 Pocitos act remains the only record of her. *** A NOTE WORTH KEEPING THOUGH: the LERENA-CARDOZO pairing recurs. *** The 1911 dispensation has two Lerena siblings marrying two Cardozo siblings, and here is a Doroteo Lerena married to an Isidora Cardozo at Trinidad. The Trinidad kindred is already in this register. Two families that married each other more than once.  *** HER HUSBAND'S SURNAME WAS NEVER 'DEL SUANDO'. READ OFF THE PLATE 21 September 2026. *** The act of 15 August 1903 at San Juan Bautista, Pocitos reads: 'bautice solemnemente a MARIA MARGARITA, que nacio el VEINTIUNO DE JUNIO de este ano; hija legitima de EDUARDO ZALSAMENDI y AMELIA LERENA. Abuelos paternos: JUAN ZALSAMENDI y DOLORES POU de ZALSAMENDI. Abuelos maternos: AVELINO [Lerena] y CELIDONIA B. de LERENA. Fueron padrinos ADOLFO LERENA y MARIA ANGELICA YUBIA.' So the machine gave DEL SUANDO and the page gives *** ZALSAMENDI ***, a Basque name this archive would never have reached by searching for the other. The initial letter is read as Z and could be S, since *** SALSAMENDI *** is the commoner spelling of the same surname and this hand will not settle it. And the act names a Lerena man this register did not hold: the godfather *** ADOLFO LERENA ***, standing at her daughter's font - very likely her brother, and entered here as his own row. *** THE 'AVELINO-AND-CELIDONIA PROBLEM' IS SOLVED, 11 October 2026, AND THE ANSWER WAS ALREADY IN THIS REGISTER. *** This row has asked since 14 September how her parents can be 'AVELINO y CELIDONIA B. de LERENA' when Avelino Lerena Fernandez married Ambrosia Traibel. *** THE AVELINO IS NOT HIM. IT IS HIS SON *** - *** AVELINO EDUARDO LERENA TRAIBEL ***, whose wife is *** CELEDONIA VILLADEMOROS ***, daughter of Pedro Villademoros and Angelica Mendez, and who already has six children in this register. 'Celidonia B. de Lerena' is Celedonia in the Spanish married form. *** SO THE 1903 POCITOS HOUSEHOLD JOINS TO THE LERENA VILLADEMOROS, AND THROUGH THEM TO THE LERENA TRAIBEL *** - the join this row said the archive 'has never' made. It needed no new document, only the two halves read together. *** WHICH LEAVES A SHARPER QUESTION: IS SHE A SEVENTH CHILD OF THAT COUPLE, OR IS SHE ANGELICA? *** The 1913 civil index gives the wife of her husband as *** ANGELICA *** Lerena, daughter of Celedonia Villademoros and Avelino Lerena, and the FamilySearch tree attaches that record to *** ANGELICA MARIA LERENA VILLADEMOROS, baptised 1872 ***. The 1903 plate says *** AMELIA ***. *** BOTH CANNOT BE RIGHT ABOUT ONE WOMAN, AND THIS ARCHIVE WILL NOT CHOOSE ON A GUESS *** - 'Amelia' and 'Angelica' are close in a cramped hand, and the index that says Angelica is the same one that says 'Lerma' and 'Arabia Larena Lerena'. *** THE TEST IS TWO PLATES: *** re-read film 007713400 image 02828 folio 344 for the mother's forename, and open DGS 008165206 image 283 for the widow's. *** NOT MERGED WITH ANGELICA. ***",
-  "place": "Montevideo",
-  "placeSlug": "montevideo",
-  "surname": "LERENA",
-  "ark": "",
-  "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry",
-  "gen": null,
-  "father": null,
-  "mother": null,
-  "spouses": [],
-  "children": [],
-  "siblings": [],
-  "isLine": false,
-  "aliasOf": null,
-  "godparents": [],
-  "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
-  "relTree": 0,
-  "evidence": []
- },
- {
   "slug": "celidonia-b-de-lerena",
   "name": "Celidonia B. de LERENA",
   "born": "-",
@@ -14062,30 +14028,55 @@
   "evidence": []
  },
  {
-  "slug": "maria-margarita-zalsamendi-lerena",
-  "name": "Maria Margarita ZALSAMENDI Lerena",
+  "slug": "maria-margarita-luisa-zalduondo-lerena",
+  "name": "Maria Margarita Luisa ZALDUONDO Lerena",
   "born": "1903-06-21",
   "died": "",
   "birthplace": "Montevideo",
   "nationality": "Uruguayan",
   "occupation": "-",
   "where": "Montevideo",
-  "source": "San Juan Bautista, Pocitos, Montevideo - baptism of 15 August 1903 - IMAGE READ 21 September 2026; film 007713400 image 02828, folio 344; ark 3:1:3Q9M-C9B7-R346-Z; and Uruguay, Civil Registration 1879-2020 - death registration of 'Eduardo Zalduando Pou', Montevideo, 22 August 1913, aged 52, certificate 553, index ark 1:1:6LXZ-JV32, DGS 008165206 image 283 (PLATE NOT OPENED - the viewer demanded a sign-in on 11 October 2026); with index arks 1:1:6NFW-X112 and 1:1:6Y2Q-1WZB for the two children; and Uruguay, registros parroquiales 1726-2000 - marriage of 'Eduardo Zalduando' and Maria Ester Costa at La Paz in Canelones, 20 December 1927, certificate 30, index ark 1:1:X92R-F5N1, DGS 008166595 image 207 - indexes read 10-11 October 2026",
+  "source": "San Juan Bautista, Pocitos, Montevideo - baptism of 15 August 1903 - IMAGE READ 21 September 2026; film 007713400 image 02828, folio 344; ark 3:1:3Q9M-C9B7-R346-Z; and Uruguay, Civil Registration 1879-2020 - death registration of 'Eduardo Zalduando Pou', Montevideo, 22 August 1913, aged 52, certificate 553, index ark 1:1:6LXZ-JV32, DGS 008165206 image 283 (PLATE NOT OPENED - the viewer demanded a sign-in on 11 October 2026); with index arks 1:1:6NFW-X112 and 1:1:6Y2Q-1WZB for the two children; and Uruguay, registros parroquiales 1726-2000 - marriage of 'Eduardo Zalduando' and Maria Ester Costa at La Paz in Canelones, 20 December 1927, certificate 30, index ark 1:1:X92R-F5N1, DGS 008166595 image 207 - indexes read 10-11 October 2026; and San Juan Bautista, Pocitos, Montevideo - baptism of Maria Margarita Luisa, 15 August 1903, folio 344 - *** PLATE RE-READ AT FULL RESOLUTION 11 OCTOBER 2026 ***; film 007713400 image 02828; ark 3:1:3Q9M-C9B7-R346-Z",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "*** THE CHILD OF THE 1903 POCITOS ACT, and this archive had the grandparents and the mother without ever entering her. *** Born *** 21 June 1903 *** and baptised at eight weeks, daughter of Eduardo Zalsamendi and Amelia Lerena, with *** ADOLFO LERENA *** and Maria Angelica Yubia as godparents. *** She belongs to the AVELINO-and-CELIDONIA household, which this archive has never joined to the Lerena Traibel. *** *** THE CIVIL REGISTER HOLDS HER TOO, AS 'MARIA MARGARITA LUISA ZALDUONDO LERENA' - 11 October 2026 *** (index ark 1:1:6Y2Q-1WZB), where she is a daughter of the Eduardo who died in 1913. *** SO SHE HAS A FOURTH GIVEN NAME, LUISA ***, and a brother: *** EDUARDO AVELINO ***, born about 1901 at La Paz in Canelones, who married in 1927. *** SHE WAS NEARLY ENTERED HERE TWICE. *** A session worked the civil index up as a new family before noticing that she, her father, both her grandparents and her mother were already in this register off the 1903 plate. The duplicates gate caught it. *** NOT MERGED FORMALLY until the 1913 plate is read ***, but the two are taken to be one girl.",
+  "note": "*** THE CHILD OF THE 1903 POCITOS ACT, and this archive had the grandparents and the mother without ever entering her. *** Born *** 21 June 1903 *** and baptised at eight weeks, daughter of Eduardo Zalduondo and Amelia Lerena, with *** ADOLFO LERENA *** and Maria Angelica Yubia as godparents. *** She belongs to the AVELINO-and-CELIDONIA household, which this archive has never joined to the Lerena Traibel. *** *** THE CIVIL REGISTER HOLDS HER TOO, AS 'MARIA MARGARITA LUISA ZALDUONDO LERENA' - 11 October 2026 *** (index ark 1:1:6Y2Q-1WZB), where she is a daughter of the Eduardo who died in 1913. *** SO SHE HAS A FOURTH GIVEN NAME, LUISA ***, and a brother: *** EDUARDO AVELINO ***, born about 1901 at La Paz in Canelones, who married in 1927. *** SHE WAS NEARLY ENTERED HERE TWICE. *** A session worked the civil index up as a new family before noticing that she, her father, both her grandparents and her mother were already in this register off the 1903 plate. The duplicates gate caught it. *** NOT MERGED FORMALLY until the 1913 plate is read ***, but the two are taken to be one girl. *** THE PLATE WAS RE-READ ON 11 OCTOBER 2026 AND SHE GAINS A NAME THIS ARCHIVE HAD DROPPED. *** The act baptises *** 'MARIA MARGARITA LUISA' ***, not Maria Margarita - so the civil index, which this archive had just finished calling careless, was *** RIGHT ABOUT LUISA AND THE 1903 READING WAS WRONG ***. Her father's surname is *** ZALDUONDO ***, not Zalsamendi. *** AND SHE HAS TWO SIBLINGS, NAMED ON HER FATHER'S DEATH ACT: *** MARIA ELENA and EDUARDO AVELINO. Her godparents remain *** ADOLFO LERENA *** and *** MARIA ANGELICA YUBIA ***.",
   "place": "Montevideo",
   "placeSlug": "montevideo",
-  "surname": "ZALSAMENDI",
+  "surname": "ZALDUONDO",
   "ark": "",
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Eduardo ZALDUONDO",
+   "dates": "",
+   "slug": "eduardo-zalduondo",
+   "via": "register",
+   "note": "Montevideo death act No. 553, 22 August 1913 - PLATE READ 11 October 2026: \"era casado con ANGELICA LERENA, de cuya union quedan TRES HIJOS llamados: MARIA ELENA, EDUARDO AVELINO y MARIA MARGARITA\"."
+  },
+  "mother": {
+   "name": "Angelica Maria LERENA Villademoros",
+   "dates": "",
+   "slug": "angelica-maria-lerena-villademoros",
+   "via": "register",
+   "note": "Montevideo death act No. 553, 22 August 1913 - PLATE READ 11 October 2026: \"era casado con ANGELICA LERENA, de cuya union quedan TRES HIJOS llamados: MARIA ELENA, EDUARDO AVELINO y MARIA MARGARITA\". She is written \"AMELIA LERENA\" on the 1903 baptism and \"ANGELICA LERENA\" here; one woman, argued on her register row."
+  },
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Eduardo Avelino ZALDUANDO Lerena (m. Maria Ester Costa 1927)",
+    "dates": "",
+    "slug": "eduardo-avelino-zalduando-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria Elena ZALDUONDO Lerena",
+    "dates": "",
+    "slug": "maria-elena-zalduondo-lerena",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "godparents": [
    {
@@ -14107,81 +14098,103 @@
   ],
   "aliasOf": null,
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
  {
-  "slug": "eduardo-zalsamendi",
-  "name": "Eduardo ZALSAMENDI",
-  "born": "-",
-  "died": "",
-  "birthplace": "Uruguay",
+  "slug": "eduardo-zalduondo",
+  "name": "Eduardo ZALDUONDO",
+  "born": "1861",
+  "died": "1913-Aug-22",
+  "birthplace": "Montevideo",
   "nationality": "Uruguayan",
-  "occupation": "-",
+  "occupation": "jubilado (retired)",
   "where": "Montevideo",
-  "source": "Named as the father in the Pocitos baptism of 15 August 1903 - IMAGE READ 21 September 2026; film 007713400 image 02828, folio 344; and Uruguay, Civil Registration 1879-2020 - death registration of 'Eduardo Zalduando Pou', Montevideo, 22 August 1913, aged 52, certificate 553, index ark 1:1:6LXZ-JV32, DGS 008165206 image 283 (PLATE NOT OPENED - the viewer demanded a sign-in on 11 October 2026); with index arks 1:1:6NFW-X112 and 1:1:6Y2Q-1WZB for the two children; and Uruguay, registros parroquiales 1726-2000 - marriage of 'Eduardo Zalduando' and Maria Ester Costa at La Paz in Canelones, 20 December 1927, certificate 30, index ark 1:1:X92R-F5N1, DGS 008166595 image 207 - indexes read 10-11 October 2026",
+  "source": "Named as the father in the Pocitos baptism of 15 August 1903 - IMAGE READ 21 September 2026; film 007713400 image 02828, folio 344; and Uruguay, Civil Registration 1879-2020 - death registration of 'Eduardo Zalduando Pou', Montevideo, 22 August 1913, aged 52, certificate 553, index ark 1:1:6LXZ-JV32, DGS 008165206 image 283 (PLATE NOT OPENED - the viewer demanded a sign-in on 11 October 2026); with index arks 1:1:6NFW-X112 and 1:1:6Y2Q-1WZB for the two children; and Uruguay, registros parroquiales 1726-2000 - marriage of 'Eduardo Zalduando' and Maria Ester Costa at La Paz in Canelones, 20 December 1927, certificate 30, index ark 1:1:X92R-F5N1, DGS 008166595 image 207 - indexes read 10-11 October 2026; and Uruguay, Civil Registration - Montevideo, death act No. 553 of Eduardo Zalduondo, 22 August 1913 - *** PLATE READ 11 OCTOBER 2026 ***; DGS 008165206 image 283; ark 3:1:3Q9M-CS2C-2DNF",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "Husband of Amelia Lerena. *** This archive called him 'DEL SUANDO' for a week, off a machine transcript; the plate says ZALSAMENDI. *** His parents are on the same act - JUAN ZALSAMENDI and DOLORES POU de ZALSAMENDI. *** POU is Catalan or Balearic and ZALSAMENDI is Basque ***, so his household was Spanish on both sides a generation back, as the Lerena were. *** A DEATH, A BIRTH YEAR AND A SECOND SURNAME READING, 11 October 2026 - all from an index, and all probably his. *** The Uruguayan civil register has an *** 'EDUARDO ZALDUANDO POU' *** dying at *** Montevideo on 22 August 1913 *** aged *** fifty-two *** - so born about *** 1861 *** - certificate 553, son of *** JUAN *** and *** DOLORES POU ***, married to a *** LERENA ***. That is this man's father, this man's mother and this man's wife's surname. *** THE INDEX ALSO GIVES HIM A SECOND SURNAME, POU, after his mother *** - which is the ordinary Spanish form and supports rather than weakens the match. *** AND ON 11 OCTOBER 2026 THE DUPLICATES GATE CAUGHT SOMETHING MUCH LARGER THAN A DUPLICATE. *** Four index entries had been worked up as a NEW family - an 'Eduardo ZALDUONDO Pou' with parents Juan and Dolores Pou, married to a Lerena, with a daughter Maria Margarita. Every one of those people was *** ALREADY IN THIS REGISTER UNDER ZALSAMENDI ***, off the 1903 Pocitos plate. Set side by side the agreement is fourfold: *** the husband EDUARDO; his father JUAN; his mother DOLORES POU; and a daughter MARIA MARGARITA *** - with the wife a Lerena daughter of *** AVELINO *** and *** CELEDONIA/CELIDONIA *** in both. Two unrelated Montevideo households do not match on all five. *** SO IT IS ONE HOUSEHOLD, AND ONE OF THE TWO SURNAME READINGS IS WRONG. *** The 1903 reading is from a PLATE; the 1913 reading is from an INDEX, and it is the same index that renders Lerena as 'Lerma' and Avelino Lerena as 'Arabia Larena Lerena'. *** A PLATE OUTRANKS AN INDEX, so ZALSAMENDI is the better reading and 'Zalduando' is most likely its mangling *** - which also explains why the 1903 machine transcript called him *** 'DEL SUANDO' ***, a string far closer to 'Zalduando' than to what the plate says. *** NOT MERGED YET, AND DELIBERATELY SO. *** The test is one plate: *** DGS 008165206 IMAGE 283 ***, the 1913 death act, which gives the surname and the parents in the register's own hand and should name the widow. It was attempted on 11 October 2026 and the image viewer *** REDIRECTED TO A SIGN-IN *** - false-zero disguise seventeen, which this archive has met before.",
+  "note": "Husband of Amelia Lerena. *** This archive called him 'DEL SUANDO' for a week, off a machine transcript; the plate says ZALDUONDO. *** His parents are on the same act - JUAN ZALDUONDO and DOLORES POU de ZALDUONDO. *** POU is Catalan or Balearic and ZALDUONDO is Basque ***, so his household was Spanish on both sides a generation back, as the Lerena were. *** A DEATH, A BIRTH YEAR AND A SECOND SURNAME READING, 11 October 2026 - all from an index, and all probably his. *** The Uruguayan civil register has an *** 'EDUARDO ZALDUANDO POU' *** dying at *** Montevideo on 22 August 1913 *** aged *** fifty-two *** - so born about *** 1861 *** - certificate 553, son of *** JUAN *** and *** DOLORES POU ***, married to a *** LERENA ***. That is this man's father, this man's mother and this man's wife's surname. *** THE INDEX ALSO GIVES HIM A SECOND SURNAME, POU, after his mother *** - which is the ordinary Spanish form and supports rather than weakens the match. *** AND ON 11 OCTOBER 2026 THE DUPLICATES GATE CAUGHT SOMETHING MUCH LARGER THAN A DUPLICATE. *** Four index entries had been worked up as a NEW family - an 'Eduardo ZALDUONDO Pou' with parents Juan and Dolores Pou, married to a Lerena, with a daughter Maria Margarita. Every one of those people was *** ALREADY IN THIS REGISTER UNDER ZALDUONDO ***, off the 1903 Pocitos plate. Set side by side the agreement is fourfold: *** the husband EDUARDO; his father JUAN; his mother DOLORES POU; and a daughter MARIA MARGARITA *** - with the wife a Lerena daughter of *** AVELINO *** and *** CELEDONIA/CELIDONIA *** in both. Two unrelated Montevideo households do not match on all five. *** SO IT IS ONE HOUSEHOLD, AND ONE OF THE TWO SURNAME READINGS IS WRONG. *** The 1903 reading is from a PLATE; the 1913 reading is from an INDEX, and it is the same index that renders Lerena as 'Lerma' and Avelino Lerena as 'Arabia Larena Lerena'. *** A PLATE OUTRANKS AN INDEX, so ZALDUONDO is the better reading and 'Zalduando' is most likely its mangling *** - which also explains why the 1903 machine transcript called him *** 'DEL SUANDO' ***, a string far closer to 'Zalduando' than to what the plate says. *** NOT MERGED YET, AND DELIBERATELY SO. *** The test is one plate: *** DGS 008165206 IMAGE 283 ***, the 1913 death act, which gives the surname and the parents in the register's own hand and should name the widow. It was attempted on 11 October 2026 and the image viewer *** REDIRECTED TO A SIGN-IN *** - false-zero disguise seventeen, which this archive has met before. *** HIS OWN DEATH ACT WAS READ FROM THE PLATE ON 11 OCTOBER 2026, and it is the document that settles his surname. *** *** 'Ha fallecido EDUARDO ZALDUANDO ... nacido en MONTEVIDEO, de cincuenta y dos anos de edad, de estado casado y de profesion JUBILADO, a consecuencia de ANGINA DE PECHO ... Que el finado era hijo de JUAN ZALDUONDO y de DOLORES POU, FALLECIDOS. ... era casado con ANGELICA LERENA, de cuya union quedan TRES HIJOS llamados: MARIA ELENA, EDUARDO AVELINO y MARIA MARGARITA.' *** *** SO: BORN AT MONTEVIDEO about 1861 ***, which this archive did not have; *** DIED 22 AUGUST 1913 at calle JUAN B. BLANCO 9 ***, at seven in the morning, aged fifty-two, certified by *** Dr BORDONI POSSE ***; declared by *** AGUSTIN AGNESE ***, 28, and *** CONRADO P. ABAL ***, 22, before the Juez de Paz *** EDUARDO J. MORATORIO ***. *** AND HE WAS RETIRED AT FIFTY-TWO *** - 'jubilado' is a pension, so there was a salaried career behind it, which is a thread this archive has not pulled. *** HIS PARENTS WERE BOTH DEAD BY 1913. *** *** THE NAME THIS ROW CARRIED UNTIL TODAY - ZALSAMENDI - WAS A MISREADING *** of the 1903 hand, and this archive argued FOR it that same morning against a civil index that had been right. See data/corrections.tsv. *** AN OBSERVATION, OFFERED AS NOTHING MORE: THE JUEZ DE PAZ WHO WROTE THIS ACT IS A MORATORIO. *** 'Eduardo J. Moratorio', Juez de Paz of the 18th section of the Capital. This register already holds *** MARIA CARLOTA MORATORIO LERENA *** and *** MARIA DE LAS MERCEDES MORATORIO LERENA ***, twins born 24 February 1880 to a Moratorio father and a Lerena mother. *** THAT IS A COINCIDENCE OF SURNAME IN ONE CITY AND IT IS NOT EVIDENCE OF ANYTHING *** - Moratorio is not rare in Montevideo, a Juez de Paz signs whatever comes before him, and no connection is claimed. It is written down only so that nobody who meets the two facts separately thinks they have found something new.",
   "place": "Montevideo",
   "placeSlug": "montevideo",
-  "surname": "ZALSAMENDI",
+  "surname": "ZALDUONDO",
   "ark": "",
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
   "father": {
-   "name": "Juan ZALSAMENDI",
+   "name": "Juan ZALDUONDO",
    "dates": "",
-   "slug": "juan-zalsamendi",
+   "slug": "juan-zalduondo",
    "via": "register",
    "note": "Named on the same act."
   },
   "mother": {
-   "name": "Dolores POU de ZALSAMENDI",
+   "name": "Dolores POU de ZALDUONDO",
    "dates": "",
-   "slug": "dolores-pou-de-zalsamendi",
+   "slug": "dolores-pou-de-zalduondo",
    "via": "register",
    "note": "Named on the same act."
   },
   "spouses": [
    {
-    "name": "Amelia LERENA (m. Eduardo ZALSAMENDI)",
+    "name": "Angelica Maria LERENA Villademoros",
     "dates": "",
-    "slug": "amelia-lerena",
+    "slug": "angelica-maria-lerena-villademoros",
     "via": "register",
-    "note": "San Juan Bautista, Pocitos, baptism of 15 Aug 1903 - IMAGE READ, film 007713400 image 02828."
+    "note": "San Juan Bautista, Pocitos, baptism of 15 Aug 1903 - PLATE RE-READ 11 OCTOBER 2026, film 007713400 image 02828, where she is written 'AMELIA LERENA'; and Montevideo death act 553 of 22 August 1913, PLATE READ, where the same man's widow is 'ANGELICA LERENA'. ONE WOMAN - the two acts attribute the SAME DAUGHTER to her, so she cannot be two sisters."
    }
   ],
-  "children": [],
+  "children": [
+   {
+    "name": "Eduardo Avelino ZALDUANDO Lerena (m. Maria Ester Costa 1927)",
+    "dates": "",
+    "slug": "eduardo-avelino-zalduando-lerena",
+    "via": "register",
+    "note": "Montevideo death act No. 553, 22 August 1913 - PLATE READ 11 October 2026: \"era casado con ANGELICA LERENA, de cuya union quedan TRES HIJOS llamados: MARIA ELENA, EDUARDO AVELINO y MARIA MARGARITA\"."
+   },
+   {
+    "name": "Maria Elena ZALDUONDO Lerena",
+    "dates": "",
+    "slug": "maria-elena-zalduondo-lerena",
+    "via": "register",
+    "note": "Montevideo death act No. 553, 22 August 1913 - PLATE READ 11 October 2026: \"era casado con ANGELICA LERENA, de cuya union quedan TRES HIJOS llamados: MARIA ELENA, EDUARDO AVELINO y MARIA MARGARITA\"."
+   },
+   {
+    "name": "Maria Margarita Luisa ZALDUONDO Lerena",
+    "dates": "",
+    "slug": "maria-margarita-luisa-zalduondo-lerena",
+    "via": "register",
+    "note": "Montevideo death act No. 553, 22 August 1913 - PLATE READ 11 October 2026: \"era casado con ANGELICA LERENA, de cuya union quedan TRES HIJOS llamados: MARIA ELENA, EDUARDO AVELINO y MARIA MARGARITA\"."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 3,
-  "relRegister": 3,
+  "relTotal": 6,
+  "relRegister": 6,
   "relTree": 0,
   "evidence": []
  },
  {
-  "slug": "juan-zalsamendi",
-  "name": "Juan ZALSAMENDI",
+  "slug": "juan-zalduondo",
+  "name": "Juan ZALDUONDO",
   "born": "-",
   "died": "",
   "birthplace": "-",
   "nationality": "-",
   "occupation": "-",
   "where": "Montevideo",
-  "source": "Named as paternal grandfather in the Pocitos baptism of 15 August 1903 - IMAGE READ 21 September 2026; film 007713400 image 02828, folio 344; and Uruguay, Civil Registration 1879-2020 - death registration of 'Eduardo Zalduando Pou', Montevideo, 22 August 1913, aged 52, certificate 553, index ark 1:1:6LXZ-JV32, DGS 008165206 image 283 (PLATE NOT OPENED - the viewer demanded a sign-in on 11 October 2026); with index arks 1:1:6NFW-X112 and 1:1:6Y2Q-1WZB for the two children; and Uruguay, registros parroquiales 1726-2000 - marriage of 'Eduardo Zalduando' and Maria Ester Costa at La Paz in Canelones, 20 December 1927, certificate 30, index ark 1:1:X92R-F5N1, DGS 008166595 image 207 - indexes read 10-11 October 2026",
+  "source": "Named as paternal grandfather in the Pocitos baptism of 15 August 1903 - IMAGE READ 21 September 2026; film 007713400 image 02828, folio 344; and Uruguay, Civil Registration 1879-2020 - death registration of 'Eduardo Zalduando Pou', Montevideo, 22 August 1913, aged 52, certificate 553, index ark 1:1:6LXZ-JV32, DGS 008165206 image 283 (PLATE NOT OPENED - the viewer demanded a sign-in on 11 October 2026); with index arks 1:1:6NFW-X112 and 1:1:6Y2Q-1WZB for the two children; and Uruguay, registros parroquiales 1726-2000 - marriage of 'Eduardo Zalduando' and Maria Ester Costa at La Paz in Canelones, 20 December 1927, certificate 30, index ark 1:1:X92R-F5N1, DGS 008166595 image 207 - indexes read 10-11 October 2026; and Uruguay, Civil Registration - Montevideo, death act No. 553 of Eduardo Zalduondo, 22 August 1913 - *** PLATE READ 11 OCTOBER 2026 ***; DGS 008165206 image 283; ark 3:1:3Q9M-CS2C-2DNF",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "Father of Eduardo Zalsamendi and so a grandfather of Maria Margarita. Named only on this act. *** THE 1913 CIVIL INDEX NAMES HIM TOO, as 'Juan Zalduando', father of the Eduardo who died at Montevideo on 22 August 1913. *** Same forename, same role, same wife - Dolores Pou. *** On the ZALSAMENDI/ZALDUANDO question see his son's row: the 1903 plate and the 1913 index disagree and the plate is the better reading. *** No new fact about him: he is still a name on his grandchildren's records and nothing more.",
+  "note": "Father of Eduardo Zalduondo and so a grandfather of Maria Margarita. Named only on this act. *** THE 1913 CIVIL INDEX NAMES HIM TOO, as 'Juan Zalduando', father of the Eduardo who died at Montevideo on 22 August 1913. *** Same forename, same role, same wife - Dolores Pou. *** On the ZALDUONDO/ZALDUANDO question see his son's row: the 1903 plate and the 1913 index disagree and the plate is the better reading. *** No new fact about him: he is still a name on his grandchildren's records and nothing more. *** AND HE WAS DEAD BY 22 AUGUST 1913 ***, when his son's death act names him and Dolores Pou as 'FALLECIDOS' - read from the plate 11 October 2026. *** THE SURNAME ON BOTH PLATES IS ZALDUONDO ***, not Zalsamendi as this archive had it from 21 September until 11 October 2026. He remains a name on his son's and granddaughter's records and nothing more.",
   "place": "Montevideo",
   "placeSlug": "montevideo",
-  "surname": "ZALSAMENDI",
+  "surname": "ZALDUONDO",
   "ark": "",
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
@@ -14191,9 +14204,9 @@
   "spouses": [],
   "children": [
    {
-    "name": "Eduardo ZALSAMENDI",
+    "name": "Eduardo ZALDUONDO",
     "dates": "",
-    "slug": "eduardo-zalsamendi",
+    "slug": "eduardo-zalduondo",
     "via": "register",
     "note": "Named on the same act."
    }
@@ -14209,18 +14222,18 @@
   "evidence": []
  },
  {
-  "slug": "dolores-pou-de-zalsamendi",
-  "name": "Dolores POU de ZALSAMENDI",
+  "slug": "dolores-pou-de-zalduondo",
+  "name": "Dolores POU de ZALDUONDO",
   "born": "-",
   "died": "",
   "birthplace": "-",
   "nationality": "-",
   "occupation": "-",
   "where": "Montevideo",
-  "source": "Named as paternal grandmother in the Pocitos baptism of 15 August 1903 - IMAGE READ 21 September 2026; film 007713400 image 02828, folio 344; and Uruguay, Civil Registration 1879-2020 - death registration of 'Eduardo Zalduando Pou', Montevideo, 22 August 1913, aged 52, certificate 553, index ark 1:1:6LXZ-JV32, DGS 008165206 image 283 (PLATE NOT OPENED - the viewer demanded a sign-in on 11 October 2026); with index arks 1:1:6NFW-X112 and 1:1:6Y2Q-1WZB for the two children; and Uruguay, registros parroquiales 1726-2000 - marriage of 'Eduardo Zalduando' and Maria Ester Costa at La Paz in Canelones, 20 December 1927, certificate 30, index ark 1:1:X92R-F5N1, DGS 008166595 image 207 - indexes read 10-11 October 2026",
+  "source": "Named as paternal grandmother in the Pocitos baptism of 15 August 1903 - IMAGE READ 21 September 2026; film 007713400 image 02828, folio 344; and Uruguay, Civil Registration 1879-2020 - death registration of 'Eduardo Zalduando Pou', Montevideo, 22 August 1913, aged 52, certificate 553, index ark 1:1:6LXZ-JV32, DGS 008165206 image 283 (PLATE NOT OPENED - the viewer demanded a sign-in on 11 October 2026); with index arks 1:1:6NFW-X112 and 1:1:6Y2Q-1WZB for the two children; and Uruguay, registros parroquiales 1726-2000 - marriage of 'Eduardo Zalduando' and Maria Ester Costa at La Paz in Canelones, 20 December 1927, certificate 30, index ark 1:1:X92R-F5N1, DGS 008166595 image 207 - indexes read 10-11 October 2026; and Uruguay, Civil Registration - Montevideo, death act No. 553 of Eduardo Zalduondo, 22 August 1913 - *** PLATE READ 11 OCTOBER 2026 ***; DGS 008165206 image 283; ark 3:1:3Q9M-CS2C-2DNF",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "Mother of Eduardo Zalsamendi. *** The act gives her in the Spanish married form - POU de ZALSAMENDI - so POU is her own surname ***, which is Catalan or Balearic. Named only on this act. *** AND THE 1913 CIVIL INDEX NAMES HER AS 'DOLORES POU', plainly, without the married form - 11 October 2026. *** It is the mother of the Eduardo who died at Montevideo on 22 August 1913, whose father it gives as Juan. *** THAT IS HER, HER HUSBAND AND HER SON ***, and it is the strongest single leg of the argument that the ZALDUANDO household of the civil index and the ZALSAMENDI household of the 1903 plate are one: *** an index may mangle a Basque surname, but it did not invent a Dolores Pou married to a Juan with a son Eduardo. ***",
+  "note": "Mother of Eduardo Zalduondo. *** The act gives her in the Spanish married form - POU de ZALDUONDO - so POU is her own surname ***, which is Catalan or Balearic. Named only on this act. *** AND THE 1913 CIVIL INDEX NAMES HER AS 'DOLORES POU', plainly, without the married form - 11 October 2026. *** It is the mother of the Eduardo who died at Montevideo on 22 August 1913, whose father it gives as Juan. *** THAT IS HER, HER HUSBAND AND HER SON ***, and it is the strongest single leg of the argument that the ZALDUANDO household of the civil index and the ZALDUONDO household of the 1903 plate are one: *** an index may mangle a Basque surname, but it did not invent a Dolores Pou married to a Juan with a son Eduardo. *** *** DEAD BY 22 AUGUST 1913 TOO ***, with her husband: her son's death act calls them both 'FALLECIDOS'. Read from the plate 11 October 2026, which also confirms her married form as *** 'DOLORES POU DE ZALDUONDO' *** on the 1903 baptism - so the surname this archive read as Zalsamendi was wrong on her row as on the others, while *** POU, her own surname, was right all along *** and was the single strongest thread tying the civil index's household to this one.",
   "place": "Montevideo",
   "placeSlug": "montevideo",
   "surname": "POU",
@@ -14233,9 +14246,9 @@
   "spouses": [],
   "children": [
    {
-    "name": "Eduardo ZALSAMENDI",
+    "name": "Eduardo ZALDUONDO",
     "dates": "",
-    "slug": "eduardo-zalsamendi",
+    "slug": "eduardo-zalduondo",
     "via": "register",
     "note": "Named on the same act."
    }
@@ -14262,7 +14275,7 @@
   "source": "Named as godfather in the Pocitos baptism of 15 August 1903 - IMAGE READ 21 September 2026; film 007713400 image 02828, folio 344; ark 3:1:3Q9M-C9B7-R346-Z",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "*** A LERENA MAN THIS ARCHIVE HAS NEVER MET, and he was invisible until the plate was opened. *** He stood godfather to Maria Margarita Zalsamendi Lerena at Pocitos on 15 August 1903, with Maria Angelica Yubia. *** A Lerena at the font of a Lerena woman's child is very likely her brother *** - which would make him another child of the AVELINO and CELIDONIA B. whose names are on the same act as maternal grandparents. *** THAT IS THE OBVIOUS READING AND IT IS NOT DOCUMENTED HERE: *** the act gives him no parents and no age. *** He is also the only ADOLFO in this register. ***",
+  "note": "*** A LERENA MAN THIS ARCHIVE HAS NEVER MET, and he was invisible until the plate was opened. *** He stood godfather to Maria Margarita Zalduondo Lerena at Pocitos on 15 August 1903, with Maria Angelica Yubia. *** A Lerena at the font of a Lerena woman's child is very likely her brother *** - which would make him another child of the AVELINO and CELIDONIA B. whose names are on the same act as maternal grandparents. *** THAT IS THE OBVIOUS READING AND IT IS NOT DOCUMENTED HERE: *** the act gives him no parents and no age. *** He is also the only ADOLFO in this register. ***",
   "place": "Montevideo",
   "placeSlug": "montevideo",
   "surname": "LERENA",
@@ -14278,9 +14291,9 @@
   "isLine": false,
   "godchildren": [
    {
-    "name": "Maria Margarita ZALSAMENDI Lerena",
+    "name": "Maria Margarita Luisa ZALDUONDO Lerena",
     "dates": "",
-    "slug": "maria-margarita-zalsamendi-lerena",
+    "slug": "maria-margarita-luisa-zalduondo-lerena",
     "via": "register",
     "role": "godfather"
    }
@@ -14320,9 +14333,9 @@
   "isLine": false,
   "godchildren": [
    {
-    "name": "Maria Margarita ZALSAMENDI Lerena",
+    "name": "Maria Margarita Luisa ZALDUONDO Lerena",
     "dates": "",
-    "slug": "maria-margarita-zalsamendi-lerena",
+    "slug": "maria-margarita-luisa-zalduondo-lerena",
     "via": "register",
     "role": "godmother"
    }
@@ -18227,10 +18240,10 @@
   "nationality": "Uruguayan",
   "occupation": "-",
   "where": "Montevideo",
-  "source": "Uruguay, registros parroquiales 1726-2000 - christening of Angelica Maria, Iglesia Matriz (Basilica Metropolitana), Montevideo, 29 September 1872, libro 7 de Bautismos folio 918; ark 1:1:6DFQ-YF26 - IMAGE READ 27 September 2026; film 004298263 image 03147; and Uruguay, Civil Registration 1879-2020 - indexed as a child of Celedonia Villademoros under her MARRIED name; index read 27 September 2026; and Uruguay, Civil Registration 1879-2020 - death registration of 'Eduardo Zalduando Pou', Montevideo, 22 August 1913, aged 52, certificate 553, index ark 1:1:6LXZ-JV32, DGS 008165206 image 283 (PLATE NOT OPENED - the viewer demanded a sign-in on 11 October 2026); with index arks 1:1:6NFW-X112 and 1:1:6Y2Q-1WZB for the two children; and Uruguay, registros parroquiales 1726-2000 - marriage of 'Eduardo Zalduando' and Maria Ester Costa at La Paz in Canelones, 20 December 1927, certificate 30, index ark 1:1:X92R-F5N1, DGS 008166595 image 207 - indexes read 10-11 October 2026",
+  "source": "Uruguay, registros parroquiales 1726-2000 - christening of Angelica Maria, Iglesia Matriz (Basilica Metropolitana), Montevideo, 29 September 1872, libro 7 de Bautismos folio 918; ark 1:1:6DFQ-YF26 - IMAGE READ 27 September 2026; film 004298263 image 03147; and Uruguay, Civil Registration 1879-2020 - indexed as a child of Celedonia Villademoros under her MARRIED name; index read 27 September 2026; and Uruguay, Civil Registration 1879-2020 - death registration of 'Eduardo Zalduando Pou', Montevideo, 22 August 1913, aged 52, certificate 553, index ark 1:1:6LXZ-JV32, DGS 008165206 image 283 (PLATE NOT OPENED - the viewer demanded a sign-in on 11 October 2026); with index arks 1:1:6NFW-X112 and 1:1:6Y2Q-1WZB for the two children; and Uruguay, registros parroquiales 1726-2000 - marriage of 'Eduardo Zalduando' and Maria Ester Costa at La Paz in Canelones, 20 December 1927, certificate 30, index ark 1:1:X92R-F5N1, DGS 008166595 image 207 - indexes read 10-11 October 2026; and San Juan Bautista, Pocitos, Montevideo - baptism of Maria Margarita Luisa, 15 August 1903, folio 344 - *** PLATE RE-READ AT FULL RESOLUTION 11 OCTOBER 2026 ***; film 007713400 image 02828; ark 3:1:3Q9M-C9B7-R346-Z; and Uruguay, Civil Registration - Montevideo, death act No. 553 of Eduardo Zalduondo, 22 August 1913 - *** PLATE READ 11 OCTOBER 2026 ***; DGS 008165206 image 283; ark 3:1:3Q9M-CS2C-2DNF; index ark 1:1:6LXZ-JV32",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "*** A THIRD CHILD OF AVELINO EDUARDO LERENA TRAIBEL AND CELEDONIA VILLADEMOROS, new to this archive 27 September 2026. *** Born *** 8 April 1872 *** and baptised at the *** Iglesia Matriz *** on 29 September 1872, between Avelino Pedro Joaquin Silvestre (1866) and the family's later record. The act reads: 'bautizo solemnemente en ella a ANGELICA MARIA, que nacio el ocho de Abril del presente ano, hija legitima de AVELINO LERENA, argentino, y CELEDONIA VILLADEMOROS, argentina. Abuelos paternos AVELINO y AMBROSIA TRAIBEL, abuelos maternos PEDRO y ANGELICA MENDEZ. Fueron padrinos ALEJANDRO M. LERENA y ELISA VILLADEMOROS, a quienes instruyo.' *** THE INDEX DATES THIS ACT 1919 AND IT IS 1872 - FORTY-SEVEN YEARS OUT. *** What the indexer read is the CERTIFICATE: 'expido la presente ... en Montevideo a veintiocho de Septiembre de mil novecientos diez y nueve', signed Ramon Howard at the Basilica Metropolitana. This archive already had the rule for that - a certified copy carries two dates and the index takes the wrong one - and this is the largest gap it has yet produced. *** SHE MARRIED A ZALDUANDO, found 27 September 2026 the same day she was entered here. *** The Uruguayan civil index carries her as *** 'ANGELICA LERMA DE ZALDUANDO' ***, daughter of Celedonia Villademoros and a father the machine renders 'Arabia Larena Lerena' - which is AVELINO LERENA. *** INDEX ONLY: no image opened, and 'Lerma' is the index's word, not a record's. *** The marriage itself has not been found and is the next thing to look for. *** HER HUSBAND MAY ALREADY HAVE BEEN IN THIS REGISTER ALL ALONG, UNDER ANOTHER SURNAME - 11 October 2026. *** Row 186 asked who the 'Zalduando' of her married name was. The civil register gives him as *** 'EDUARDO ZALDUANDO POU' ***, dead at *** Montevideo on 22 August 1913 *** aged *** fifty-two *** (born about *** 1861 ***), certificate 553, son of *** JUAN *** and *** DOLORES POU ***; so she was *** WIDOWED AT FORTY-ONE ***. It names two children: *** EDUARDO AVELINO ***, born about 1901 at La Paz in Canelones, who married Maria Ester Costa there in 1927, and *** MARIA MARGARITA LUISA ***. *** AND ON 11 OCTOBER 2026 THE DUPLICATES GATE CAUGHT SOMETHING MUCH LARGER THAN A DUPLICATE. *** Four index entries had been worked up as a NEW family - an 'Eduardo ZALDUONDO Pou' with parents Juan and Dolores Pou, married to a Lerena, with a daughter Maria Margarita. Every one of those people was *** ALREADY IN THIS REGISTER UNDER ZALSAMENDI ***, off the 1903 Pocitos plate. Set side by side the agreement is fourfold: *** the husband EDUARDO; his father JUAN; his mother DOLORES POU; and a daughter MARIA MARGARITA *** - with the wife a Lerena daughter of *** AVELINO *** and *** CELEDONIA/CELIDONIA *** in both. Two unrelated Montevideo households do not match on all five. *** SO IT IS ONE HOUSEHOLD, AND ONE OF THE TWO SURNAME READINGS IS WRONG. *** The 1903 reading is from a PLATE; the 1913 reading is from an INDEX, and it is the same index that renders Lerena as 'Lerma' and Avelino Lerena as 'Arabia Larena Lerena'. *** A PLATE OUTRANKS AN INDEX, so ZALSAMENDI is the better reading and 'Zalduando' is most likely its mangling *** - which also explains why the 1903 machine transcript called him *** 'DEL SUANDO' ***, a string far closer to 'Zalduando' than to what the plate says. *** NOT MERGED YET, AND DELIBERATELY SO. *** The test is one plate: *** DGS 008165206 IMAGE 283 ***, the 1913 death act, which gives the surname and the parents in the register's own hand and should name the widow. It was attempted on 11 October 2026 and the image viewer *** REDIRECTED TO A SIGN-IN *** - false-zero disguise seventeen, which this archive has met before. *** WHAT THIS MEANS FOR HER SPECIFICALLY: *** the 1903 Pocitos plate gives that same Eduardo's wife as *** AMELIA *** Lerena, not Angelica. Either *** SHE AND AMELIA ARE ONE WOMAN *** under two readings of one forename, or *** AMELIA IS A SISTER *** and the 1913 index has put the wrong sister's name on the act. *** SHE IS NOT MERGED WITH AMELIA. *** *** AND A SEPARATE CAUTION, EARNED THE HARD WAY: *** the first draft of this work was written onto *** MARIA ANGELICA JULIA LERENA SALVANACH, born 1886 *** - the same four names in a different order - by a prefix match on 'Maria Angelica'. The chronology caught it: that woman would have been fifteen when this couple's eldest was born. *** NAME ORDER IS NOT IDENTITY. *** *** Her death year is given as 1952 by the FamilySearch tree *** (profile GBST-SC4), which is SECONDARY and is recorded here as a lead, not a fact. *** HER OWN MARRIAGE IS STILL NOT FOUND. ***",
+  "note": "*** A THIRD CHILD OF AVELINO EDUARDO LERENA TRAIBEL AND CELEDONIA VILLADEMOROS, new to this archive 27 September 2026. *** Born *** 8 April 1872 *** and baptised at the *** Iglesia Matriz *** on 29 September 1872, between Avelino Pedro Joaquin Silvestre (1866) and the family's later record. The act reads: 'bautizo solemnemente en ella a ANGELICA MARIA, que nacio el ocho de Abril del presente ano, hija legitima de AVELINO LERENA, argentino, y CELEDONIA VILLADEMOROS, argentina. Abuelos paternos AVELINO y AMBROSIA TRAIBEL, abuelos maternos PEDRO y ANGELICA MENDEZ. Fueron padrinos ALEJANDRO M. LERENA y ELISA VILLADEMOROS, a quienes instruyo.' *** THE INDEX DATES THIS ACT 1919 AND IT IS 1872 - FORTY-SEVEN YEARS OUT. *** What the indexer read is the CERTIFICATE: 'expido la presente ... en Montevideo a veintiocho de Septiembre de mil novecientos diez y nueve', signed Ramon Howard at the Basilica Metropolitana. This archive already had the rule for that - a certified copy carries two dates and the index takes the wrong one - and this is the largest gap it has yet produced. *** SHE MARRIED A ZALDUANDO, found 27 September 2026 the same day she was entered here. *** The Uruguayan civil index carries her as *** 'ANGELICA LERMA DE ZALDUANDO' ***, daughter of Celedonia Villademoros and a father the machine renders 'Arabia Larena Lerena' - which is AVELINO LERENA. *** INDEX ONLY: no image opened, and 'Lerma' is the index's word, not a record's. *** The marriage itself has not been found and is the next thing to look for. *** HER HUSBAND MAY ALREADY HAVE BEEN IN THIS REGISTER ALL ALONG, UNDER ANOTHER SURNAME - 11 October 2026. *** Row 186 asked who the 'Zalduando' of her married name was. The civil register gives him as *** 'EDUARDO ZALDUANDO POU' ***, dead at *** Montevideo on 22 August 1913 *** aged *** fifty-two *** (born about *** 1861 ***), certificate 553, son of *** JUAN *** and *** DOLORES POU ***; so she was *** WIDOWED AT FORTY-ONE ***. It names two children: *** EDUARDO AVELINO ***, born about 1901 at La Paz in Canelones, who married Maria Ester Costa there in 1927, and *** MARIA MARGARITA LUISA ***. *** AND ON 11 OCTOBER 2026 THE DUPLICATES GATE CAUGHT SOMETHING MUCH LARGER THAN A DUPLICATE. *** Four index entries had been worked up as a NEW family - an 'Eduardo ZALDUONDO Pou' with parents Juan and Dolores Pou, married to a Lerena, with a daughter Maria Margarita. Every one of those people was *** ALREADY IN THIS REGISTER UNDER ZALDUONDO ***, off the 1903 Pocitos plate. Set side by side the agreement is fourfold: *** the husband EDUARDO; his father JUAN; his mother DOLORES POU; and a daughter MARIA MARGARITA *** - with the wife a Lerena daughter of *** AVELINO *** and *** CELEDONIA/CELIDONIA *** in both. Two unrelated Montevideo households do not match on all five. *** SO IT IS ONE HOUSEHOLD, AND ONE OF THE TWO SURNAME READINGS IS WRONG. *** The 1903 reading is from a PLATE; the 1913 reading is from an INDEX, and it is the same index that renders Lerena as 'Lerma' and Avelino Lerena as 'Arabia Larena Lerena'. *** A PLATE OUTRANKS AN INDEX, so ZALDUONDO is the better reading and 'Zalduando' is most likely its mangling *** - which also explains why the 1903 machine transcript called him *** 'DEL SUANDO' ***, a string far closer to 'Zalduando' than to what the plate says. *** NOT MERGED YET, AND DELIBERATELY SO. *** The test is one plate: *** DGS 008165206 IMAGE 283 ***, the 1913 death act, which gives the surname and the parents in the register's own hand and should name the widow. It was attempted on 11 October 2026 and the image viewer *** REDIRECTED TO A SIGN-IN *** - false-zero disguise seventeen, which this archive has met before. *** WHAT THIS MEANS FOR HER SPECIFICALLY: *** the 1903 Pocitos plate gives that same Eduardo's wife as *** AMELIA *** Lerena, not Angelica. Either *** SHE AND AMELIA ARE ONE WOMAN *** under two readings of one forename, or *** AMELIA IS A SISTER *** and the 1913 index has put the wrong sister's name on the act. *** SHE IS NOT MERGED WITH AMELIA. *** *** AND A SEPARATE CAUTION, EARNED THE HARD WAY: *** the first draft of this work was written onto *** MARIA ANGELICA JULIA LERENA SALVANACH, born 1886 *** - the same four names in a different order - by a prefix match on 'Maria Angelica'. The chronology caught it: that woman would have been fifteen when this couple's eldest was born. *** NAME ORDER IS NOT IDENTITY. *** *** Her death year is given as 1952 by the FamilySearch tree *** (profile GBST-SC4), which is SECONDARY and is recorded here as a lead, not a fact. *** HER OWN MARRIAGE IS STILL NOT FOUND. *** *** BOTH PLATES WERE READ ON 11 OCTOBER 2026 AND THEY SETTLE THE HOUSEHOLD AND OVERTURN WHAT THIS ARCHIVE SAID ABOUT IT THAT MORNING. *** The surname is *** ZALDUONDO ***, not Zalsamendi: the 1903 act heads its entry 'Maria Zalduondo' and names the father 'Eduardo Zalduondo', and the 1913 act says 'ha fallecido Eduardo Zalduando ... era hijo de Juan Zalduondo y de Dolores Pou, fallecidos'. *** ZALSAMENDI WAS A MISREADING AND IT STOOD THREE WEEKS. ***  *** AMELIA LERENA IS THIS WOMAN, AND THE ROW THAT HELD HER SEPARATELY SINCE 14 SEPTEMBER IS MERGED HERE. *** The 1903 Pocitos act makes *** MARIA MARGARITA LUISA *** the daughter of Eduardo Zalduondo and *** 'AMELIA LERENA' ***, with maternal grandparents *** 'AVELINO y CELIDONIA B. de LERENA' ***. The 1913 act makes the same Maria Margarita one of *** THREE CHILDREN OF HIS UNION WITH 'ANGELICA LERENA' ***. *** ONE CHILD CANNOT BE INSIDE TWO DIFFERENT UNIONS, SO THE TWO NAMES ARE ONE WOMAN *** - the alternative, that he married two sisters, is refused by the 1913 act placing Maria Margarita inside the Angelica union. *** HER PARENTS SETTLE WHICH WOMAN: *** 'Avelino y Celidonia B. de Lerena' is AVELINO EDUARDO LERENA TRAIBEL and CELEDONIA VILLADEMOROS, this row's own parents. *** THE FORENAME CONFLICT IS NOT EXPLAINED AWAY, ONLY OUTVOTED: *** her 1872 baptism says ANGELICA MARIA and the 1913 act says ANGELICA; only the 1903 priest wrote AMELIA, clearly and at high magnification. *** 'AMELIA' IS KEPT AS A RECORDED VARIANT, NOT ERASED. ***  *** HER HUSBAND, FROM HIS OWN DEATH ACT: *** EDUARDO ZALDUONDO, *** born at MONTEVIDEO *** about 1861, *** JUBILADO *** (retired) by fifty-two, died *** 22 August 1913 at calle Juan B. Blanco 9 *** of *** angina de pecho ***, certified by Dr Bordoni Posse, son of *** JUAN ZALDUONDO *** and *** DOLORES POU ***, *** BOTH ALREADY DEAD BY 1913 ***. So she was *** WIDOWED AT FORTY-ONE ***. The act, read from the image: *** 'En Montevideo, el dia veinte y dos de Agosto de mil novecientos trece, a las tres de la tarde, por ante mi, EDUARDO J. MORATORIO, Juez de Paz de la 18a seccion del Departamento de la Capital y Oficial del Estado Civil, comparecieron Don AGUSTIN AGNESE, de veinte y ocho anos, soltero, oriental, empleado, y Don CONRADO P. ABAL, de veinte y dos anos, soltero, oriental, empleado, vecino de la calle Colonia 1967; declarando que a las siete de la manana del dia de hoy, y en la calle JUAN B. BLANCO 9, ha fallecido EDUARDO ZALDUANDO, del sexo masculino, de nacionalidad oriental, NACIDO EN MONTEVIDEO, de cincuenta y dos anos de edad, de estado casado y de profesion JUBILADO, a consecuencia de ANGINA DE PECHO, segun consta del certificado del Dr. BORDONI POSSE. Que el finado era hijo de JUAN ZALDUONDO y de DOLORES POU, FALLECIDOS. Asi mismo se hace constar que era casado con ANGELICA LERENA, de cuya union quedan TRES HIJOS llamados: MARIA ELENA, EDUARDO AVELINO y MARIA MARGARITA.' *** *** AND THERE ARE THREE CHILDREN, NOT TWO: *** *** MARIA ELENA ***, *** EDUARDO AVELINO *** and *** MARIA MARGARITA [LUISA] ***. Maria Elena is new to this archive and nothing else is known of her. *** HER OWN MARRIAGE ACT IS STILL NOT FOUND. ***",
   "place": "Montevideo",
   "placeSlug": "montevideo",
   "surname": "LERENA",
@@ -18252,8 +18265,38 @@
    "via": "register",
    "note": "Same act - 'y CELEDONIA VILLADEMOROS, argentina'."
   },
-  "spouses": [],
-  "children": [],
+  "spouses": [
+   {
+    "name": "Eduardo ZALDUONDO",
+    "dates": "",
+    "slug": "eduardo-zalduondo",
+    "via": "register",
+    "note": "Montevideo death act No. 553, 22 August 1913 - PLATE READ 11 October 2026: \"era casado con ANGELICA LERENA\". THE MARRIAGE ACT ITSELF HAS STILL NOT BEEN FOUND."
+   }
+  ],
+  "children": [
+   {
+    "name": "Eduardo Avelino ZALDUANDO Lerena (m. Maria Ester Costa 1927)",
+    "dates": "",
+    "slug": "eduardo-avelino-zalduando-lerena",
+    "via": "register",
+    "note": "Montevideo death act No. 553, 22 August 1913 - PLATE READ 11 October 2026: \"era casado con ANGELICA LERENA, de cuya union quedan TRES HIJOS llamados: MARIA ELENA, EDUARDO AVELINO y MARIA MARGARITA\". She is written \"AMELIA LERENA\" on the 1903 baptism and \"ANGELICA LERENA\" here; one woman, argued on her register row."
+   },
+   {
+    "name": "Maria Elena ZALDUONDO Lerena",
+    "dates": "",
+    "slug": "maria-elena-zalduondo-lerena",
+    "via": "register",
+    "note": "Montevideo death act No. 553, 22 August 1913 - PLATE READ 11 October 2026: \"era casado con ANGELICA LERENA, de cuya union quedan TRES HIJOS llamados: MARIA ELENA, EDUARDO AVELINO y MARIA MARGARITA\". She is written \"AMELIA LERENA\" on the 1903 baptism and \"ANGELICA LERENA\" here; one woman, argued on her register row."
+   },
+   {
+    "name": "Maria Margarita Luisa ZALDUONDO Lerena",
+    "dates": "",
+    "slug": "maria-margarita-luisa-zalduondo-lerena",
+    "via": "register",
+    "note": "Montevideo death act No. 553, 22 August 1913 - PLATE READ 11 October 2026: \"era casado con ANGELICA LERENA, de cuya union quedan TRES HIJOS llamados: MARIA ELENA, EDUARDO AVELINO y MARIA MARGARITA\". She is written \"AMELIA LERENA\" on the 1903 baptism and \"ANGELICA LERENA\" here; one woman, argued on her register row."
+   }
+  ],
   "siblings": [
    {
     "name": "Avelino LERENA Villademoros (d. 1914)",
@@ -18293,8 +18336,8 @@
   ],
   "aliasOf": null,
   "godchildren": [],
-  "relTotal": 2,
-  "relRegister": 2,
+  "relTotal": 6,
+  "relRegister": 6,
   "relTree": 0,
   "evidence": []
  },
@@ -23199,7 +23242,7 @@
   "source": "Uruguay, Civil Registration 1879-2020 - death registration of 'Eduardo Zalduando Pou', Montevideo, 22 August 1913, aged 52, certificate 553, index ark 1:1:6LXZ-JV32, DGS 008165206 image 283 (PLATE NOT OPENED - the viewer demanded a sign-in on 11 October 2026); with index arks 1:1:6NFW-X112 and 1:1:6Y2Q-1WZB for the two children; and Uruguay, registros parroquiales 1726-2000 - marriage of 'Eduardo Zalduando' and Maria Ester Costa at La Paz in Canelones, 20 December 1927, certificate 30, index ark 1:1:X92R-F5N1, DGS 008166595 image 207 - indexes read 10-11 October 2026",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "*** A SON OF THE 1903 POCITOS HOUSEHOLD, entered 11 October 2026 ***, and the one person in this group who is genuinely new rather than a second copy of somebody already here. Born about *** 1901 *** at *** La Paz, in the department of CANELONES ***, he married *** MARIA ESTER COSTA ***, twenty-four, of the same town, daughter of *** RAFAEL COSTA *** and *** LEONTINA SOASANI ***, at La Paz on *** 20 December 1927 ***, certificate 30; both single, both born there. *** HE CARRIES AVELINO - HIS MOTHER'S FATHER'S NAME ***, which is itself a small argument that his mother is a daughter of Avelino Eduardo Lerena Traibel. *** HIS SURNAME IS WRITTEN AS THE INDEX WRITES IT AND THAT IS PROBABLY WRONG. *** Both his records are indexes and both say Zalduando/Zalduondo; the family's 1903 PLATE says *** ZALSAMENDI ***. He is left under the indexed spelling only because no plate naming him has been opened - *** when DGS 008165206 image 283 is read, this row's name is expected to change. *** *** INDEX ONLY. *** On the place: the structural columns say simply 'La Paz, Uruguay' because the run-together form naming the department is a string this archive GUARDS as a withdrawn reading about his great-grandfather's DEATH - see data/zalsamendi-zalduando-one-household.tsv.",
+  "note": "*** A SON OF THE 1903 POCITOS HOUSEHOLD, entered 11 October 2026 ***, and the one person in this group who is genuinely new rather than a second copy of somebody already here. Born about *** 1901 *** at *** La Paz, in the department of CANELONES ***, he married *** MARIA ESTER COSTA ***, twenty-four, of the same town, daughter of *** RAFAEL COSTA *** and *** LEONTINA SOASANI ***, at La Paz on *** 20 December 1927 ***, certificate 30; both single, both born there. *** HE CARRIES AVELINO - HIS MOTHER'S FATHER'S NAME ***, which is itself a small argument that his mother is a daughter of Avelino Eduardo Lerena Traibel. *** HIS SURNAME IS WRITTEN AS THE INDEX WRITES IT AND THAT IS PROBABLY WRONG. *** Both his records are indexes and both say Zalduando/Zalduondo; the family's 1903 PLATE says *** ZALDUONDO ***. He is left under the indexed spelling only because no plate naming him has been opened - *** when DGS 008165206 image 283 is read, this row's name is expected to change. *** *** INDEX ONLY. *** On the place: the structural columns say simply 'La Paz, Uruguay' because the run-together form naming the department is a string this archive GUARDS as a withdrawn reading about his great-grandfather's DEATH - see data/zalsamendi-zalduando-one-household.tsv.",
   "place": "La Paz, Uruguay",
   "placeSlug": "la-paz-uruguay",
   "surname": "ZALDUANDO",
@@ -23207,22 +23250,55 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
-  "mother": null,
-  "spouses": [],
+  "father": {
+   "name": "Eduardo ZALDUONDO",
+   "dates": "",
+   "slug": "eduardo-zalduondo",
+   "via": "register",
+   "note": "Montevideo death act No. 553, 22 August 1913 - PLATE READ 11 October 2026: \"era casado con ANGELICA LERENA, de cuya union quedan TRES HIJOS llamados: MARIA ELENA, EDUARDO AVELINO y MARIA MARGARITA\"."
+  },
+  "mother": {
+   "name": "Angelica Maria LERENA Villademoros",
+   "dates": "",
+   "slug": "angelica-maria-lerena-villademoros",
+   "via": "register",
+   "note": "Montevideo death act No. 553, 22 August 1913 - PLATE READ 11 October 2026: \"era casado con ANGELICA LERENA, de cuya union quedan TRES HIJOS llamados: MARIA ELENA, EDUARDO AVELINO y MARIA MARGARITA\". She is written \"AMELIA LERENA\" on the 1903 baptism and \"ANGELICA LERENA\" here; one woman, argued on her register row."
+  },
+  "spouses": [
+   {
+    "name": "Maria Ester COSTA (m. Eduardo Avelino Zalduando 1927)",
+    "dates": "",
+    "slug": "maria-ester-costa",
+    "via": "register",
+    "note": "La Paz in Canelones, 20 December 1927, certificate 30 - INDEX ONLY, ark 1:1:X92R-F5N1."
+   }
+  ],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Maria Elena ZALDUONDO Lerena",
+    "dates": "",
+    "slug": "maria-elena-zalduondo-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria Margarita Luisa ZALDUONDO Lerena",
+    "dates": "",
+    "slug": "maria-margarita-luisa-zalduondo-lerena",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 3,
+  "relRegister": 3,
   "relTree": 0,
   "evidence": []
  },
  {
-  "slug": "maria-ester-costa-2",
+  "slug": "maria-ester-costa",
   "name": "Maria Ester COSTA (m. Eduardo Avelino Zalduando 1927)",
   "born": "1903",
   "died": "",
@@ -23252,6 +23328,65 @@
   "godchildren": [],
   "relTotal": 0,
   "relRegister": 0,
+  "relTree": 0,
+  "evidence": []
+ },
+ {
+  "slug": "maria-elena-zalduondo-lerena",
+  "name": "Maria Elena ZALDUONDO Lerena",
+  "born": "-",
+  "died": "",
+  "birthplace": "Uruguay",
+  "nationality": "Uruguayan",
+  "occupation": "-",
+  "where": "Montevideo",
+  "source": "Uruguay, Civil Registration - Montevideo, death act No. 553 of Eduardo Zalduondo, 22 August 1913 - *** PLATE READ 11 OCTOBER 2026 ***; DGS 008165206 image 283; ark 3:1:3Q9M-CS2C-2DNF; index ark 1:1:6LXZ-JV32",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** A THIRD CHILD, NEW TO THIS ARCHIVE 11 OCTOBER 2026 ***, named on her father's death act of 22 August 1913: 'era casado con ANGELICA LERENA, de cuya union quedan TRES HIJOS llamados: *** MARIA ELENA ***, Eduardo Avelino y Maria Margarita'. *** SHE IS A NAME AND NOTHING ELSE *** - no date, no place, no act of her own - and she is entered against Montevideo because that is where the act was written, not because she is known to have been born there. *** NOT PURSUED. ***",
+  "place": "Montevideo",
+  "placeSlug": "montevideo",
+  "surname": "ZALDUONDO",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "gen": null,
+  "father": {
+   "name": "Eduardo ZALDUONDO",
+   "dates": "",
+   "slug": "eduardo-zalduondo",
+   "via": "register",
+   "note": "Montevideo death act No. 553, 22 August 1913 - PLATE READ 11 October 2026: \"era casado con ANGELICA LERENA, de cuya union quedan TRES HIJOS llamados: MARIA ELENA, EDUARDO AVELINO y MARIA MARGARITA\"."
+  },
+  "mother": {
+   "name": "Angelica Maria LERENA Villademoros",
+   "dates": "",
+   "slug": "angelica-maria-lerena-villademoros",
+   "via": "register",
+   "note": "Montevideo death act No. 553, 22 August 1913 - PLATE READ 11 October 2026: \"era casado con ANGELICA LERENA, de cuya union quedan TRES HIJOS llamados: MARIA ELENA, EDUARDO AVELINO y MARIA MARGARITA\". She is written \"AMELIA LERENA\" on the 1903 baptism and \"ANGELICA LERENA\" here; one woman, argued on her register row."
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Eduardo Avelino ZALDUANDO Lerena (m. Maria Ester Costa 1927)",
+    "dates": "",
+    "slug": "eduardo-avelino-zalduando-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria Margarita Luisa ZALDUONDO Lerena",
+    "dates": "",
+    "slug": "maria-margarita-luisa-zalduondo-lerena",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  }

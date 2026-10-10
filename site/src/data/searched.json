@@ -635,13 +635,13 @@
   "note": "THE RESULT WAS NOT A NEW FAMILY BUT A DUPLICATE OF ONE ALREADY HELD. Every person these entries named - the husband Eduardo, his father Juan, his mother Dolores Pou, and the daughter Maria Margarita - was already in this register under ZALSAMENDI, from a PLATE read on 21 September 2026 (the Pocitos baptism of 15 Aug 1903). The archive's own duplicates gate caught it before anything was committed. ONE HOUSEHOLD, FIVE POINTS OF AGREEMENT, AND ONE GENUINE CONFLICT: the plate names the wife AMELIA and the index names her ANGELICA. A plate outranks an index, and this index writes Lerena as 'Lerma', so ZALSAMENDI is taken as the better surname reading while the forename is left open. Genuinely new: a son, Eduardo Avelino, b. c.1901 at La Paz in Canelones, and his wife Maria Ester Costa."
  },
  {
-  "src": "FamilySearch image viewer - DGS 008165206 image 283 (Montevideo deaths 1913, certificate 553)",
+  "src": "FamilySearch - Montevideo death act No. 553 of 22 August 1913, THE PLATE (Montevideo. Death Records January-September 1913)",
   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS2C-2DNF",
   "film": "008165206",
   "waypoint": null,
-  "what": "The 1913 death act itself, to read the surname and parents in the register's hand and to see whether the widow is named AMELIA or ANGELICA - the one test that settles both open points of the Zalsamendi/Zalduando household.",
+  "what": "The act itself, read at full resolution after the block was lifted: it names the man, both his parents, his birthplace, his trade, his cause of death, his address, his widow and his three children.",
   "when": "2026-10-11",
-  "outcome": "blocked",
+  "outcome": "yield",
   "pages": "283",
   "walked": false,
   "tags": [
@@ -652,7 +652,7 @@
    "uruguay",
    "familysearch"
   ],
-  "note": "BLOCKED, AND RECORDED AS BLOCKED RATHER THAN AS A NULL. The index record page itself loaded and read normally while signed in; following its own VIEW ORIGINAL DOCUMENT link to the image viewer REDIRECTED TO ident.familysearch.org - a sign-in. This archive holds that redirect as false-zero disguise seventeen and has already had to withdraw three published conclusions to it once, because the control had been run BEFORE the null instead of after. So nothing is concluded here: the plate is unread, not empty. A signed-in session should retry it, and the same session should re-read film 007713400 image 02828 folio 344 for the mother's forename."
+  "note": "BLOCKED AT FIRST, THEN READ THE SAME DAY - and the block is kept in this row rather than erased, because the shape of it matters. The index record page read perfectly while the IMAGE viewer redirected to a sign-in: a partial sign-out, where every check a session normally runs says it is logged in. Once the owner signed in, the plate settled two things at once. THE SURNAME IS ZALDUONDO, not ZALSAMENDI as this archive had read it from a 1903 hand since 21 September; and the widow is ANGELICA, not AMELIA. The archive had argued the opposite that morning on the principle that a plate outranks an index - while actually holding another session's READING of a plate, not the plate. The index had been right."
  },
  {
   "src": "FamilySearch - Uruguay, registros parroquiales 1726-2000: La Paz in Canelones, marriages 1927 (certificate 30)",
@@ -675,5 +675,29 @@
    "parish-registers"
   ],
   "note": "NO WAYPOINT ESTABLISHED, and not guessed. Reached by index ark rather than through the image viewer's browse path, so no wc=/owc= was seen; DGS 008166595 is absent from the atlas's fs-volumes data; and the image viewer was unavailable to this session anyway because it redirected to a sign-in. The film number and image 207 are recorded so the volume can be identified later. PAGES means the single image the index points at, not a range read - nothing in this volume was walked."
+ },
+ {
+  "src": "FamilySearch - San Juan Bautista, Pocitos, Montevideo: baptism register 1895-1904, folio 344, THE PLATE RE-READ",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C9B7-R346-Z",
+  "film": "007713400",
+  "waypoint": null,
+  "what": "The baptism of 15 August 1903 already read once on 21 September 2026, re-read at full resolution for two things that had been taken on trust: the father's surname and the mother's forename.",
+  "when": "2026-10-11",
+  "outcome": "yield",
+  "pages": "02828",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "villademoros",
+   "zalduondo",
+   "pou",
+   "yubia",
+   "montevideo",
+   "pocitos",
+   "uruguay",
+   "familysearch",
+   "parish-registers"
+  ],
+  "note": "A RE-READ THAT OVERTURNED THE FIRST READING, AND THE REASON TO RECORD IT IS THAT NOTHING NEW WAS NEEDED TO DO IT. The entry is HEADED 'Maria Zalduondo'; the father is 'Eduardo Zalduondo'; the paternal grandmother is 'Dolores Pou de Zalduondo'. ZALSAMENDI, carried here for three weeks, is on no part of the page. The child is 'MARIA MARGARITA LUISA' - a fourth name the first reading dropped and the civil index had right. The mother is written 'AMELIA LERENA', clearly, checked at high magnification precisely because it was inconvenient; she is the same woman the 1913 death act calls ANGELICA, proved by both acts attributing the same daughter to her. Maternal grandparents 'AVELINO y CELIDONIA B. de LERENA' are Avelino Eduardo Lerena Traibel and Celedonia Villademoros, which joins this household to the Lerena Villademoros. Godparents ADOLFO LERENA and MARIA ANGELICA YUBIA. NO WAYPOINT: reached by image ark, no wc=/owc= seen, and DGS 007713400 is absent from the atlas's volume data."
  }
 ]

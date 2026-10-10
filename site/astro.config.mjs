@@ -8,6 +8,19 @@ const BASE = '/TheLerena';
 const redirects = {
   '/gaps': `${BASE}/open-questions/#may-never-close`,
   '/photograph-these': `${BASE}/errands/#photographs`,
+
+  /* 11 October 2026. A surname read as ZALSAMENDI for three weeks is ZALDUONDO on
+     both plates, and "Amelia LERENA" is ANGELICA MARIA LERENA VILLADEMOROS. Five
+     person pages changed address or were merged away. THEIR OLD ADDRESSES WERE
+     PUBLISHED, so they stay alive and land on the same human being. The slug
+     ledger keeps the dead slugs rather than deleting them; this is where they go.
+     See data/corrections.tsv and /uruguay/#s-zalduondo. */
+  '/people/eduardo-zalsamendi': `${BASE}/people/eduardo-zalduondo/`,
+  '/people/juan-zalsamendi': `${BASE}/people/juan-zalduondo/`,
+  '/people/dolores-pou-de-zalsamendi': `${BASE}/people/dolores-pou-de-zalduondo/`,
+  '/people/maria-margarita-zalsamendi-lerena': `${BASE}/people/maria-margarita-luisa-zalduondo-lerena/`,
+  /* NOT a rename but a MERGE: she and Angelica are one woman, argued on her row. */
+  '/people/amelia-lerena': `${BASE}/people/angelica-maria-lerena-villademoros/`,
 };
 
 export default defineConfig({
