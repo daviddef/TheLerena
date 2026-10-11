@@ -19,6 +19,13 @@ const redirects = {
   '/people/juan-zalsamendi': `${BASE}/people/juan-zalduondo/`,
   '/people/dolores-pou-de-zalsamendi': `${BASE}/people/dolores-pou-de-zalduondo/`,
   '/people/maria-margarita-zalsamendi-lerena': `${BASE}/people/maria-margarita-luisa-zalduondo-lerena/`,
+  /* 12 October 2026, the same day. The 1906 Trinidad marriage act gives the bride's
+     mother as "Dona ANDREA ETCHEBERSE" - the surname broken across the opening - and the
+     index gave her the FATHER'S surname instead. The groom is ETCHEBERSE on the act and
+     ECHEBERSE in the index. Both renamed to the act. */
+  '/people/andrea-lerena': `${BASE}/people/andrea-etcheberse/`,
+  '/people/antonio-echeberse': `${BASE}/people/antonio-etcheberse/`,
+
   /* 12 October 2026. An index turned "esclava de D.n Alejandro Lerena" into a marriage.
      The plate says Barbara was an enslaved woman in his household and her son Carmelo
      Anselmo was hijo natural with no father named; neither carried the surname. All three
