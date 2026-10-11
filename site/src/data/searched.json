@@ -1003,5 +1003,29 @@
    "probate"
   ],
   "note": "BLOCKED BY A FULL SIGN-OUT, AND RECORDED AS BLOCKED RATHER THAN AS A NULL. Two URLs were tried and both redirected to ident.familysearch.org: the probate image ark, and the Argentina-filtered FULL-TEXT SEARCH that had worked an hour earlier. THAT SECOND REDIRECT IS THE INFORMATIVE ONE. Earlier the same day this archive recorded a PARTIAL sign-out - index record pages reading perfectly while the image viewer alone was shut, which defeated every check a session normally runs. This is the OTHER shape: everything shut, including search. The two are worth telling apart, because the partial one is the dangerous one and the full one announces itself. NOTHING WAS READ AND NO NULL WAS TAKEN from this state. A signed-out session returns zero for everything, and this archive has already had to withdraw three published conclusions to precisely that failure."
+ },
+ {
+  "src": "FamilySearch FULL TEXT - Garcia, Clemente: Buenos Aires City, Probate Estate Case Files 1800, images 28-30 of 249 (item 12)",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3QHV-L3FJ-Z7Y9",
+  "film": null,
+  "waypoint": null,
+  "what": "Work-list row 200 - reading on in the probate Ramon Lerena presided over, for the inventory itself and the people in the room.",
+  "when": "2026-10-11",
+  "outcome": "yield",
+  "pages": "28-30 of 249",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "garcia",
+   "gonzalez",
+   "rosario",
+   "colla",
+   "buenos aires",
+   "uruguay",
+   "familysearch",
+   "full-text",
+   "probate"
+  ],
+  "note": "WHAT THE DEAD MAN WAS: A STOREKEEPER WITH A MILL. The first item appraised is a rancho of twenty-two varas by seven, stone walls rendered and whitewashed both sides, FOUR DWELLINGS, one of them a PULPERIA with counter, shelving, back-shop, parlour and bedroom. Then a house of six doors and five windows at 746 pesos; a stone-walled thatched building at 314; and an ATAHONA - a mill - with its wheel, stones, palo-fierro and lantern at 310. THE PEOPLE: the two sworn appraisers are DON BARTHOLO GARCIA and ANDRES BRIVAQUI, who took an oath on a cross before Ramon Lerena. A new witness, LUIS POCHEZ. And CELESTINA GONZALEZ COULD NOT WRITE - 'no firmo porque dijo no saber' - so her husband signed for her. THAT IS THREE PEOPLE IN ONE DAY'S READING WHO COULD NOT SIGN, against Ramon Lerena who signed twice. A CORRECTION TO THIS MORNING: the 'Don Bartolo. Partia' entered from image 26 is almost certainly BARTHOLO GARCIA of image 29 - same forename, same room, same business, five days apart. NOT RENAMED, because this archive does not rename a person on a probable reading of a mangled transcript; the test is to open both frames as images. STILL NOT FOUND: the minor son's name. He is 'su hijo menor' throughout."
  }
 ]
