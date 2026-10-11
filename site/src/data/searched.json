@@ -1174,5 +1174,51 @@
    "method"
   ],
   "note": "NOT A LERENA AT ALL, AND THE MOST USEFUL NULL OF THE DAY. The transcript reads 'admitio absolutamente LA LERENA' and 'verificarse LA LERENCIA'. The word is HERENCIA - to accept an inheritance, here without benefit of inventory. IN A CORPUS MADE ENTIRELY OF PROBATE FILES, THE COMMONEST WORD IN THE CORPUS IMPERSONATES THIS SURNAME. So the '700 Argentine full-text hits for Lerena' this archive has been paging through is not 700 appearances of a rare name; the real number is unknown and much smaller. Recorded in data/false-zeros.tsv as the first FALSE POSITIVE in a file that until now held only false zeros. GENERAL RULE: before trusting a full-text count, find out what your surname is a misreading of in that language and that document type."
+ },
+ {
+  "src": "FamilySearch FULL TEXT - phrase search \"Juan Carlos Lerena\", whole corpus, no place filter",
+  "url": "https://www.familysearch.org/search/full-text/results?q.text=%22Juan+Carlos+Lerena%22",
+  "film": null,
+  "waypoint": null,
+  "what": "Re-running the central question as an exact phrase, after learning that single-word Lerena hits in probate files are mostly the word HERENCIA.",
+  "when": "2026-10-11",
+  "outcome": "nothing",
+  "pages": "both results",
+  "walked": true,
+  "tags": [
+   "lerena",
+   "juan carlos",
+   "montevideo",
+   "uruguay",
+   "familysearch",
+   "full-text",
+   "control",
+   "method"
+  ],
+  "note": "A CONTROL, NOT A FIND, AND IT PASSED. Two results in the entire corpus, exactly the two this archive found on 15 September: Juan Carlos GONZALEZ LERENA, dispensed the three banns at Montevideo on 8 November 1922 to marry Concepcion Petrona Urbano of the Cordon - already read off the plate on 21 September (film 007713367 image 02860, folio 391, entry 14610) and already excluded, because LERENA is his maternal surname and he is marrying forty years too late; and a 2001 Montevideo death record for Juan Carlos ATAY LERENA. SO THE PHRASE SEARCH REPRODUCES A KNOWN RESULT EXACTLY, which is what a control is for - and a month on, the growing corpus still holds no other Juan Carlos Lerena anywhere in the world."
+ },
+ {
+  "src": "FamilySearch FULL TEXT - Expediente: Huergo Aragon, Clemente: Madrid, GOVERNMENT PENSIONS 1896",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C9T3-GZPK-S",
+  "film": null,
+  "waypoint": null,
+  "what": "Phrase search \"Lerena y Lerena\" (27 results) - testing whether the doubled surname found that morning at Navarrete appears anywhere else.",
+  "when": "2026-10-11",
+  "outcome": "yield",
+  "pages": "the certificate",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "navarrete",
+   "logrono",
+   "la rioja",
+   "spain",
+   "madrid",
+   "familysearch",
+   "full-text",
+   "civil-registration",
+   "pensions"
+  ],
+  "note": "IT CONFIRMED AND PROMOTED A MAN ENTERED TWENTY MINUTES EARLIER. The 1900 consular act at Buenos Aires called JOSE DOLORES LERENA Y LERENA merely 'casado y propietario' of Navarrete. This 1896 certificate is signed by him as 'JUEZ MUNICIPAL SUPLENTE DE ESTA VILLA, encargado de la Jurisdiccion por ausencia del propietario, Y TAMBIEN DEL REGISTRO CIVIL DE LA MISMA', certifying from his own book the death at Navarrete on 11 November 1895 of Juan Manuel Chavarri Oteyza of Fuenmayor, aged seventy, at folio 191 of tomo 11 of the Defunciones. NOBODY FROM THAT DEATH ACT IS ADMITTED TO THE REGISTER - he is the official and they are the business of his office, the same boundary applied to Vicente Lerena Diaz's Pueblo Brugo register the day before. NOTE ON THE PHRASE ITSELF: most of the 27 hits are NOT the compound surname but two Lerenas joined by 'and' - 'padrinos Miguel Lerena y Rebeca Lerena' - which is a different and also useful thing, and several of those are at Trinidad, Flores and at the Cordon, Montevideo, this archive's own parishes. Not yet read."
  }
 ]
