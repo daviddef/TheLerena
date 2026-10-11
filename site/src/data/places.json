@@ -361,10 +361,9 @@
    "juana-lerena",
    "rosa-defenari",
    "presbitero-d-antonio-jenara",
-   "don-clemente-garcia",
-   "dona-celestina-gonzalez"
+   "jose-riera"
   ],
-  "count": 37
+  "count": 36
  },
  {
   "slug": "san-jose-de-mayo",
@@ -511,6 +510,20 @@
    "dona-bernardina-fragoso-de-rivera",
    "jose-pando-de-barros",
    "ana-maria-cabalgante"
+  ],
+  "count": 7
+ },
+ {
+  "slug": "colla",
+  "name": "Colla",
+  "people": [
+   "don-clemente-garcia",
+   "dona-celestina-gonzalez",
+   "juan-de-urdinaran",
+   "francisco-perez-de-ceballos",
+   "andres-pais",
+   "bartolome-partia",
+   "nicolas-yrigoyen"
   ],
   "count": 7
  },

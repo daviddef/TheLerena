@@ -982,5 +982,26 @@
    "probate"
   ],
   "note": "HE IS 'ALCALDE DE LA SANTA HERMANDAD DEL PARTIDO DEL ROSARIO', signing on 6 NOVEMBER 1800 in the estate of DON CLEMENTE GARCIA and notifying the widow DONA CELESTINA GONZALEZ about inventories left to a minor. He certifies 'A FALTA DE ESCRIBANO PUBLICO NI REAL, POR NO HABERLO EN ESTA JURISDICCION' - there was no notary in the district, which says something plain about how thinly governed that country was. AND HE SIGNS HIS OWN NAME TWICE, where Sancho Llerena nine years earlier could not. THE PLACE IS INDICATED AND NOT PROVED, which is the whole difficulty. This archive's Ramon Lerena is 'of Rosario-Colla, fl. c.1800-1820' and sits at the apex of the 1858 Trinidad kinship diagram; the date fits exactly. The file mentions a 'vecindad del partido ORIENTAL', pointing at the Banda Oriental and so at Rosario Oriental in Colonia. BUT there is a Partido del Rosario on the Argentine side too, the probate was administered at Buenos Aires which had jurisdiction over both banks, and the OCR around the word ORIENTAL is broken so the sentence cannot be read whole. NOT MERGED. ONE FRAME OF 249 WAS READ. An alcalde's jurisdiction is normally stated in full somewhere in a file like this, so the test is to read on - and a probate file is exactly the record class that names heirs and neighbours."
+ },
+ {
+  "src": "FamilySearch - resuming work-list row 200 (Buenos Aires legal files); the 1800 probate's next frame and the Argentina-filtered full-text search",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3QHV-L3FJ-ZWW5",
+  "film": null,
+  "waypoint": null,
+  "what": "The next frames of the Clemente Garcia probate of 1800, to read what jurisdiction Ramon Lerena was Alcalde de la Santa Hermandad of - the test that would settle whether he is this register's Ramon of Rosario-Colla.",
+  "when": "2026-10-11",
+  "outcome": "blocked",
+  "pages": null,
+  "walked": false,
+  "tags": [
+   "lerena",
+   "rosario",
+   "buenos aires",
+   "argentina",
+   "familysearch",
+   "full-text",
+   "probate"
+  ],
+  "note": "BLOCKED BY A FULL SIGN-OUT, AND RECORDED AS BLOCKED RATHER THAN AS A NULL. Two URLs were tried and both redirected to ident.familysearch.org: the probate image ark, and the Argentina-filtered FULL-TEXT SEARCH that had worked an hour earlier. THAT SECOND REDIRECT IS THE INFORMATIVE ONE. Earlier the same day this archive recorded a PARTIAL sign-out - index record pages reading perfectly while the image viewer alone was shut, which defeated every check a session normally runs. This is the OTHER shape: everything shut, including search. The two are worth telling apart, because the partial one is the dangerous one and the full one announces itself. NOTHING WAS READ AND NO NULL WAS TAKEN from this state. A signed-out session returns zero for everything, and this archive has already had to withdraw three published conclusions to precisely that failure."
  }
 ]
