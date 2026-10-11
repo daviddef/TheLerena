@@ -735,9 +735,9 @@
   "tier": "BIRTH ONLY"
  },
  {
-  "name": "Eduardo LERENA",
-  "born_est": "-",
-  "last_attested_alive": "-",
+  "name": "Eduardo LERENA (b.1886, m. Maria Mercedes RAZZETTI 1920)",
+  "born_est": "1886-04-22",
+  "last_attested_alive": "1886-04-22",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -2555,9 +2555,9 @@
   "tier": "BIRTH ONLY"
  },
  {
-  "name": "Maria Mercedes ROZZETTI (wife of Eduardo LERENA)",
-  "born_est": "-",
-  "last_attested_alive": "-",
+  "name": "Maria Mercedes RAZZETTI (wife of Eduardo LERENA)",
+  "born_est": "1899-07-25",
+  "last_attested_alive": "1899-07-25",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -2590,9 +2590,9 @@
   "tier": "BIRTH ONLY"
  },
  {
-  "name": "Ana Maria LERENA Rozzetti",
-  "born_est": "-",
-  "last_attested_alive": "-",
+  "name": "Ana Maria LERENA Razzetti",
+  "born_est": "1921-01-12",
+  "last_attested_alive": "1921-01-12",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -2768,13 +2768,6 @@
   "name": "Florinda Juana LERENA (of Trinidad, m. Vitalino Gregorio Pelaez 1913)",
   "born_est": "1891",
   "last_attested_alive": "1891",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
- },
- {
-  "name": "Eduardo LERENA (m. Maria Mercedes Razzello 1919)",
-  "born_est": "-",
-  "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -3897,5 +3890,96 @@
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Domingo RAZZETTI (father of Maria Mercedes)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Josefina BERTOGLIO (mother of Maria Mercedes)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Fr Jose SERRANO LOPEZ (cura, Adolfo Alsina 1921)",
+  "born_est": "-",
+  "last_attested_alive": "1921-Jan-19",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Eduardo LERENA (godfather, Cordon 1900-02)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Ema LERENA (godmother, Cordon 1900-02)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Arturo LERENA (oriental, b. c.1857, father of Eduardo)",
+  "born_est": "1857",
+  "last_attested_alive": "1857",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Ema REGULES (wife of Arturo LERENA)",
+  "born_est": "1864",
+  "last_attested_alive": "1864",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Vicente Telesforo CAPUTI (Oficial del Estado Civil, Santa Lucia 1920)",
+  "born_est": "-",
+  "last_attested_alive": "1920-Jan-11",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Don Wenceslao REGULES (father of Emma)",
+  "born_est": "-",
+  "last_attested_alive": "1880-Jun-23",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Dona Justiniana MELILLA (de REGULES)",
+  "born_est": "-",
+  "last_attested_alive": "1880-Jun-23",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Dr Ambrosio LERENA (witness, 1880)",
+  "born_est": "-",
+  "last_attested_alive": "1880-Jun-23",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Presbitero Juan Jose BRID (Catedral de Montevideo, 1880)",
+  "born_est": "-",
+  "last_attested_alive": "1880-Jun-23",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Obispo Jacinto VERA (Bishop of Montevideo)",
+  "born_est": "-",
+  "last_attested_alive": "1880-Jun-23",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
  }
 ]
