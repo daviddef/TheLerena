@@ -310,9 +310,16 @@
    "antonio-etcheberse-2",
    "dona-frailana-valiente",
    "jose-martinez",
-   "bernardo-yrizabal"
+   "bernardo-yrizabal",
+   "cayetana-artola",
+   "fructuoso-serena",
+   "severa-lerena",
+   "luisa-serena",
+   "sara-serena",
+   "alba-lerena",
+   "pio-c-serena"
   ],
-  "count": 94
+  "count": 101
  },
  {
   "slug": "buenos-aires-arrivals",
@@ -553,6 +560,21 @@
   "count": 9
  },
  {
+  "slug": "uruguay",
+  "name": "Uruguay",
+  "people": [
+   "susana-llerena",
+   "sofia-clavijo",
+   "isabel-llerena-clavijo",
+   "celina-llerena-clavijo",
+   "telma-llerena",
+   "tomasa-cantidia-llerena",
+   "clorinda-lerena",
+   "maria-dolores-moratorio-lerena"
+  ],
+  "count": 8
+ },
+ {
   "slug": "cordoba-argentina",
   "name": "Cordoba, Argentina",
   "people": [
@@ -580,19 +602,6 @@
    "ana-maria-cabalgante"
   ],
   "count": 7
- },
- {
-  "slug": "uruguay",
-  "name": "Uruguay",
-  "people": [
-   "susana-llerena",
-   "sofia-clavijo",
-   "isabel-llerena-clavijo",
-   "celina-llerena-clavijo",
-   "telma-llerena",
-   "tomasa-cantidia-llerena"
-  ],
-  "count": 6
  },
  {
   "slug": "cape-town",
