@@ -1190,5 +1190,13 @@
   "what_is_true": "*** THEY ARE ONE MAN, and the act that proves it was found the same evening. *** The Canelones civil marriage of *** 11 January 1920 at Santa Lucia *** gives the bride's parents as *** DOMINGO RAZZETTI and JOSEFINA BERTOGLIO *** - and those two stood godparents to his daughter Ana Maria at Adolfo Alsina, Buenos Aires, on 19 January 1921. *** THE SAME FOUR PEOPLE IN TWO COUNTRIES THIRTEEN MONTHS APART. *** The rows are merged and /people/eduardo-lerena-2 redirects. *** THE SEPARATION WAS RIGHT WHEN IT WAS MADE ***, and is recorded here because the archive should be able to see how long one of its NOT MERGED notes survived: about four hours.",
   "how_it_was_caught": "*** BY FOLLOWING THE PAIR'S OWN 'WHAT WOULD SETTLE IT'. *** That line said: the Montevideo marriage act behind the 1919 dispensation, which will name his parents. It does - *** ARTURO LERENA and EMA REGULES *** - and it also gave him a birth date, 22 April 1886 at Montevideo. *** A PAIR ENTRY THAT SAYS WHAT WOULD SETTLE IT IS A RESEARCH INSTRUCTION, AND THIS ONE WAS FOLLOWED THE SAME DAY IT WAS WRITTEN. ***",
   "retired": ""
+ },
+ {
+  "date": "2026-10-12",
+  "severity": "minor",
+  "what_was_said": "*** That ARTURO LERENA was a doctor ***, published on his row and in a commit saying the Lerena Traibel were 'two professional men in one generation' - the occupation field read simply 'doctor', which in English means a physician.",
+  "what_is_true": "*** HE IS AN ABOGADO. *** His daughter's marriage act of 9 August 1909 gives him as *** 'de profesion ABOGADO' ***. In Uruguay *** DOCTOR IS THE STYLE OF A LAWYER *** as much as of a medico, and the 1880 marriage act's 'el Doctor Don Arturo Lerena' carries no more than the title. *** THE SECOND DOCTOR IS AFFECTED TOO: *** 'Dr Ambrosio LERENA' keeps the title and loses the implied profession, because nothing on the 1880 act says which he followed.",
+  "how_it_was_caught": "*** BY READING THE NEXT ACT, WHICH IS THE ONLY WAY THIS KIND OF ERROR EVER SURFACES. *** Nothing was wrong with the transcription; the word DOCTOR was carried into English where it means something narrower. *** A TITLE IS NOT AN OCCUPATION, AND A TITLE TRANSLATED IS A CLAIM. ***",
+  "retired": ""
  }
 ]
