@@ -71,6 +71,23 @@ FILES = {
 # certifying physician and the groom Sancho Llerena swore for. Not a policy - an unwritten
 # judgement made twenty times and made differently each time.
 #
+# *** THE BOUNDARY, ADDED 11 OCTOBER 2026 THE DAY AFTER THE RULE. ***
+#
+# The rule says "named on an act this archive has read". That is too wide by itself, and
+# the case that showed it was VICENTE LERENA DIAZ, who kept the civil register of Pueblo
+# Brugo in Entre Rios in 1938. He signed a volume of 113 images of other people's deaths.
+# Read literally the rule admits every one of them - a day-labourer called Felix Velazquez,
+# an infant Albornoz - and the register fills with strangers a Lerena merely wrote down.
+#
+# SO: THE ACT MUST BE ABOUT ONE OF OUR PEOPLE, OR OUR PERSON MUST BE A PARTY OR A WITNESS
+# TO IT. Then everyone on it is admitted. WHERE OUR PERSON IS ONLY THE OFFICIAL OF RECORD,
+# THE OFFICE IS RECORDED AND THE BUSINESS OF THE OFFICE IS NOT.
+#
+# That is already how this archive behaved without saying so: Gallo Pareja was admitted as
+# the Juez de Paz who married Angelica Lerena, and the other couples he married that year
+# were not. The declarants at Eduardo Zalduondo's death WERE admitted, because that act is
+# about him. The line is whether our person is IN the record or merely HOLDING THE PEN.
+#
 # THE ONE THING THE RULE DOES NOT COVER is the living. That rule is older and it wins:
 # living people are named only, with no dates, no places and no photographs, and a record
 # that cannot be entered without implying a living person's details is not entered at all.
