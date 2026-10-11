@@ -779,9 +779,9 @@
  {
   "name": "Rieta Maria LERENA",
   "born_est": "1936",
-  "last_attested_alive": "1936",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "last_attested_alive": "1937-Aug-28",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
  },
  {
   "name": "Antoinette Septima Lynette LERENA",
@@ -849,9 +849,9 @@
  {
   "name": "Luis LERENA (son of Luis Lerena Lenguas)",
   "born_est": "1872",
-  "last_attested_alive": "1872",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "last_attested_alive": "1897-Dec-12",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
  },
  {
   "name": "Enrique LERENA Juanico",
@@ -1157,9 +1157,9 @@
  {
   "name": "Celia JUANICO Lenguas",
   "born_est": "-",
-  "last_attested_alive": "-",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "last_attested_alive": "1940-Aug-24",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
  },
  {
   "name": "D. Enrique JUANICO (the godfather, an adult in 1843)",
@@ -1668,9 +1668,9 @@
  {
   "name": "Maria Ines LERENA LARRIERA (de GARDONE)",
   "born_est": "-",
-  "last_attested_alive": "-",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "last_attested_alive": "1922-Jan-22",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
  },
  {
   "name": "Maria Adelina LERENA Traibel (de FEIN)",
@@ -2361,9 +2361,9 @@
  {
   "name": "Avelino LERENA Villademoros (d. 1914)",
   "born_est": "c.1869",
-  "last_attested_alive": "c.1869",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "last_attested_alive": "1914-Jan-5",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
  },
  {
   "name": "Paulina PRANDO Algar",
