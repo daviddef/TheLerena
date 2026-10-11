@@ -1198,5 +1198,13 @@
   "what_is_true": "*** HE IS AN ABOGADO. *** His daughter's marriage act of 9 August 1909 gives him as *** 'de profesion ABOGADO' ***. In Uruguay *** DOCTOR IS THE STYLE OF A LAWYER *** as much as of a medico, and the 1880 marriage act's 'el Doctor Don Arturo Lerena' carries no more than the title. *** THE SECOND DOCTOR IS AFFECTED TOO: *** 'Dr Ambrosio LERENA' keeps the title and loses the implied profession, because nothing on the 1880 act says which he followed.",
   "how_it_was_caught": "*** BY READING THE NEXT ACT, WHICH IS THE ONLY WAY THIS KIND OF ERROR EVER SURFACES. *** Nothing was wrong with the transcription; the word DOCTOR was carried into English where it means something narrower. *** A TITLE IS NOT AN OCCUPATION, AND A TITLE TRANSLATED IS A CLAIM. ***",
   "retired": ""
+ },
+ {
+  "date": "2026-10-12",
+  "severity": "serious",
+  "what_was_said": "*** That ALEJANDRO LERENA married a BARBARA LERENA, and that their son CARMELO ANSELMO LERENA was born and died at San Jose de Mayo in April 1846. *** Published that morning as one of four new Lerena-married-a-Lerena couples, on three person pages and in a commit.",
+  "what_is_true": "*** THERE WAS NO MARRIAGE. BARBARA WAS AN ENSLAVED WOMAN IN HIS HOUSEHOLD. *** The plate of the burial of 28 April 1846 reads *** 'di sepultura en el angelorio al cadaver de CARMELO ANSELMO, HIJO NATURAL DE BARBARA, ESCLAVA DE D.N ALEJANDRO LERENA, murio ayer de enfermedad, de edad de SIETE DIAS' ***. The indexer read *** 'esclava de D.n Alejandro Lerena' *** as a parent pair, made Alejandro the father, and *** GAVE BARBARA THE SURNAME OF THE MAN WHO HELD HER ***. The child is 'hijo natural' with no father named and no surname of his own. *** ALL THREE ROWS ARE RENAMED TO WHAT THE ACT SAYS *** and their addresses redirect: she is BARBARA, he is CARMELO ANSELMO, and Alejandro is a man of San Jose de Mayo in 1846 and nothing more. *** AND THE COUNT PUBLISHED THAT MORNING IS WRONG BY ONE: *** the query returned thirty-eight couples with a Lerena father and a Lerena mother, and at least one of them is not a couple at all.",
+  "how_it_was_caught": "*** BY OPENING THE ACT, WHICH IS THE WHOLE OF THE METHOD AND WAS THE FIRST THING DONE WITH IT. *** The four couples were entered index-level that morning, every row saying INDEX-LEVEL, NO ACT OPENED, and this was the first one opened. *** THE LESSON IS NOT 'INDEXES ARE WRONG' - THIS ARCHIVE KNEW THAT. *** It is that an index which must output a father and a mother will MANUFACTURE them from whatever the act supplies, and that what it supplied here was a sentence about ownership. *** A PARENT-PAIR QUERY CANNOT DISTINGUISH A MARRIAGE FROM A SLAVE-HOLDING, and this archive ran a worldwide one the same morning. ***",
+  "retired": ""
  }
 ]

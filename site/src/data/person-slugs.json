@@ -54,7 +54,8 @@
   "whole episode a no-op.",
   "11 October 2026 - TWO ROW TITLES WERE RENAMED AND NO URL MOVED, which is the first time that has been true here, and it is worth writing down WHY it was safe. 'Don Clemente GARCIA (d. by 1800, Rosario)' became '(d. by 1794)' and 'Ramon LERENA (of Rosario-Colla, fl. c.1800-1820)' became 'fl. 1794-1820', because a 1794 probate proved both dates wrong. slugify() STRIPS PARENTHESES (see tools/build-people.py and the warning above it), so a disambiguator can be corrected without touching the address - don-clemente-garcia and ramon-lerena-2 are unchanged. THE KEY STILL HAD TO BE MOVED BY HAND, because this ledger is keyed on the full name: leaving the old key would have left a published slug attached to a name no file contains, and minting a fresh one for the new name could have handed Ramon 'ramon-lerena' instead of the 'ramon-lerena-2' a collision gave him. SO: A RENAME THAT ONLY TOUCHES TEXT INSIDE PARENTHESES IS FREE; ONE THAT TOUCHES A NAME IS NOT. I first wrote a correction saying his row could not be renamed at all, which was wrong, and I checked slugify() before publishing it.",
   "11 October 2026 - ROZZETTI became RAZZETTI on a plate, and two published addresses moved. The index of the 1921 baptism at Nuestra Senora de los Desamparados spells the mother ROZZETTI; the act, in a clear hand, writes RAZZETTI twice on one line - once for her and once for the godfather DOMINGO RAZZETTI. Unlike the Garcia and Ramon renames earlier the same day, this one changes a NAME and not a parenthetical, so slugify() gives a different address: maria-mercedes-rozzetti and ana-maria-lerena-rozzetti are retired to redirects and the old keys stay here, exactly as the ZALSAMENDI keys did. A corrected surname is not kept in a URL for tidiness - the redirect is what keeps the old link alive.",
-  "11 October 2026, later the same day - EDUARDO LERENA WAS TWO ROWS AND IS ONE MAN. The Canelones civil marriage act of 11 January 1920 names the bride's parents as DOMINGO RAZZETTI and JOSEFINA BERTOGLIO, and those two stood godparents to his daughter in Argentina thirteen months later, so the Montevideo dispensation of December 1919 and the Buenos Aires baptism of January 1921 are the same household. The surviving row is renamed to carry his birth date, which only changes text inside parentheses, so 'eduardo-lerena' does not move; 'eduardo-lerena-2' is retired to a redirect and its key stays here. RAZZETTI's parents were renamed from '(godfather, 1921)' to '(father of Maria Mercedes)' on the same principle - the disambiguator is not part of the address."
+  "11 October 2026, later the same day - EDUARDO LERENA WAS TWO ROWS AND IS ONE MAN. The Canelones civil marriage act of 11 January 1920 names the bride's parents as DOMINGO RAZZETTI and JOSEFINA BERTOGLIO, and those two stood godparents to his daughter in Argentina thirteen months later, so the Montevideo dispensation of December 1919 and the Buenos Aires baptism of January 1921 are the same household. The surviving row is renamed to carry his birth date, which only changes text inside parentheses, so 'eduardo-lerena' does not move; 'eduardo-lerena-2' is retired to a redirect and its key stays here. RAZZETTI's parents were renamed from '(godfather, 1921)' to '(father of Maria Mercedes)' on the same principle - the disambiguator is not part of the address.",
+  "12 October 2026 - THREE ADDRESSES RETIRED THE DAY THEY WERE MINTED, and the reason is the worst kind. A FamilySearch index read 'hijo natural de BARBARA, ESCLAVA DE D.n ALEJANDRO LERENA' as a father and a mother, and this archive entered a Lerena-married-a-Lerena couple and a child surnamed Lerena on the strength of it. The plate says Barbara was an enslaved woman, the child was hijo natural with no father named, and neither of them carried the surname. All three rows are renamed to what the act says - barbara-lerena, alejandro-lerena-3 and carmelo-anselmo-lerena are retired to redirects. A SURNAME LENT BY AN INDEXER IS NOT A SMALL ERROR WHEN THE PERSON WAS HELD IN SLAVERY BY THE MAN IT WAS BORROWED FROM."
  ],
  "slugs": {
   "A. FERREYRA (lawyer for the Escalada estate, 1890)": "a-ferreyra",
@@ -139,6 +140,7 @@
   "Avelino LERENA Fernandez (son of Sancho)": "avelino-lerena-fernandez",
   "Avelino LERENA Villademoros (d. 1914)": "avelino-lerena-villademoros",
   "Avelino Pedro Joaquin Silvestre LERENA Villademoros": "avelino-pedro-joaquin-silvestre-lerena-villademoros",
+  "BARBARA (enslaved in Alejandro Lerena's household, San Jose 1846)": "barbara",
   "Baldomero LLERENA": "baldomero-llerena",
   "Barbara LERENA (wife of Alejandro LERENA)": "barbara-lerena",
   "Barbara SOTURA (wife of Juan FERNANDEZ ALVAREZ)": "barbara-sotura",
@@ -149,6 +151,7 @@
   "Bernabe LERENA (1911 dispensation)": "bernabe-lerena-2",
   "Bernabe LERENA (of Trinidad)": "bernabe-lerena",
   "Bernabe LERENA (the elder, of the 1911 diagram)": "bernabe-lerena-3",
+  "CARMELO ANSELMO (son of Barbara, enslaved; d. 27 April 1846)": "carmelo-anselmo",
   "Camilo LLERENA": "camilo-llerena",
   "Candido Jaime LERENA Juanico": "candido-jaime-lerena-juanico",
   "Canonigo D. Martin PINERO (officiated 1871)": "canonigo-d-martin-pinero",
@@ -204,6 +207,7 @@
   "Domingo RAZZETTI (father of Maria Mercedes)": "domingo-razzetti-2",
   "Domingo RAZZETTI (godfather, 1921)": "domingo-razzetti",
   "Domingo RODRIGUEZ DE CARVALLO": "domingo-rodriguez-de-carvallo",
+  "Don Alejandro LERENA (of San Jose de Mayo, 1846)": "don-alejandro-lerena",
   "Don Antonio LENGUAS": "don-antonio-lenguas",
   "Don Carlos Maria ESCALADA (d. by 1890, Buenos Aires)": "don-carlos-maria-escalada",
   "Don Carlos NAVIA": "don-carlos-navia",

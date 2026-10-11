@@ -1520,6 +1520,30 @@
    "control",
    "method"
   ],
-  "note": "THE MOST USEFUL NULL THIS ARCHIVE HAS RUN ON ITS OWN QUESTION, AND IT CARRIES ITS OWN CONTROL. Pablo Armando's 1908 enrolment card names JUAN CARLOS LERENA and MARIA LERENA - a Lerena father and a Lerena mother. Asked of the record index with both surnames EXACT, that configuration returns THIRTY-EIGHT couples in the whole world, and NOT ONE OF THEM IS A JUAN CARLOS. THE CONTROL IS BUILT IN: the same query returns couples this archive already holds - Eloy Lerena and Felisa Lerena at San Jose de Flores in 1912, Alejandro F. Lerena and Natalia Lerena at Trinidad - so the query finds what it should. NOTE WHICH INDEX THIS IS: the earlier nulls on 'Juan Carlos Lerena' were FULL-TEXT phrase searches, which read words on page images; this is the NAME INDEX, which catalogues parents as fields. Two different indexes, now both empty on the same man. AND IT PRODUCED FOUR URUGUAYAN COUPLES THIS ARCHIVE HAD NEVER MET: Antonio Lerena and Sabina Lerena, whose daughter married at San Francisco de Asis in 1865; VITALIANO LERENA and ANDREA LERENA at TRINIDAD, the town this archive has worked hardest; Alejandro Lerena and BARBARA Lerena at San Jose de Mayo in 1846, where the elder Alejandro was living; and Florencio Lerena with a Teresa Lerena, which collides with a Florencio already held here. Seventeen people entered, all index-level."
+  "note": "THE MOST USEFUL NULL THIS ARCHIVE HAS RUN ON ITS OWN QUESTION, AND IT CARRIES ITS OWN CONTROL. Pablo Armando's 1908 enrolment card names JUAN CARLOS LERENA and MARIA LERENA - a Lerena father and a Lerena mother. Asked of the record index with both surnames EXACT, that configuration returns THIRTY-EIGHT couples in the whole world, and NOT ONE OF THEM IS A JUAN CARLOS. THE CONTROL IS BUILT IN: the same query returns couples this archive already holds - Eloy Lerena and Felisa Lerena at San Jose de Flores in 1912, Alejandro F. Lerena and Natalia Lerena at Trinidad - so the query finds what it should. NOTE WHICH INDEX THIS IS: the earlier nulls on 'Juan Carlos Lerena' were FULL-TEXT phrase searches, which read words on page images; this is the NAME INDEX, which catalogues parents as fields. Two different indexes, now both empty on the same man. AND IT PRODUCED FOUR URUGUAYAN 'COUPLES' THIS ARCHIVE HAD NEVER MET - AND THE FIRST ONE OPENED WAS NOT A COUPLE AT ALL. The San Jose de Mayo pair, read off the plate the same day, is 'hijo natural de BARBARA, ESCLAVA DE D.N ALEJANDRO LERENA' - an enslaved woman given her holder's surname by the indexer. SO THE COUNT OF THIRTY-EIGHT IS A COUNT OF INDEX ENTRIES, NOT OF MARRIAGES, and a parent-pair query cannot tell a marriage from a slave-holding. The other three: Antonio Lerena and Sabina Lerena, whose daughter married at San Francisco de Asis in 1865; VITALIANO LERENA and ANDREA LERENA at TRINIDAD, the town this archive has worked hardest; Alejandro Lerena and BARBARA Lerena at San Jose de Mayo in 1846, where the elder Alejandro was living; and Florencio Lerena with a Teresa Lerena, which collides with a Florencio already held here. Seventeen people entered, all index-level."
+ },
+ {
+  "src": "FamilySearch - San Jose de Mayo: RELIGIOUS DEATH RECORDS July 1839 - December 1851, the burial of 28 April 1846",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS27-J7GN-C",
+  "film": null,
+  "waypoint": null,
+  "what": "Opening the first of the four new Lerena-married-a-Lerena couples - the San Jose de Mayo pair of 1846, because an index entry contradicted a man this archive thinks it knows.",
+  "when": "2026-10-12",
+  "outcome": "yield",
+  "pages": "the burial of 28 April 1846",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "barbara",
+   "carmelo anselmo",
+   "slavery",
+   "san jose de mayo",
+   "uruguay",
+   "familysearch",
+   "plate-read",
+   "burial",
+   "method"
+  ],
+  "note": "THE COUPLE DOES NOT EXIST AND THE TRUTH IS WORSE. 'En esta Parroquia de S.n Jose a VEINTE Y OCHO DE ABRIL de mil ochocientos CUARENTA Y SEIS, yo D.n FRAN.CO CASTELLO cura vic.o int.o di sepultura en el ANGELORIO al cadaver de CARMELO ANSELMO, HIJO NATURAL DE BARBARA, ESCLAVA DE D.N ALEJANDRO LERENA, murio ayer de enfermedad, de edad de SIETE DIAS, y se le hizo oficio rezado, de que certifico.' THE INDEXER READ 'esclava de D.n Alejandro Lerena' AS A PARENT PAIR, made Alejandro the father and GAVE BARBARA THE SURNAME OF THE MAN WHO HELD HER. All three rows renamed to what the act says; three addresses retired to redirects the day they were minted. SHE IS THE FIFTH PERSON THIS FAMILY IS KNOWN TO HAVE HELD IN SLAVERY, after JUANA, ANTONIO, JOSE and TERESA in Sancho Llerena's household at Canelones in 1812, and the first outside it - thirty-four years later, a different household, a different department. ON THE DATE THIS ARCHIVE STATES ONLY WHAT IT KNOWS: the act says 'esclava' in April 1846, and which stage of Uruguay's abolition applied at San Jose then is NOT ESTABLISHED HERE. The man is now 'Don Alejandro LERENA (of San Jose de Mayo, 1846)' and is NOT merged with the elder Alejandro who married there in 1825, though the town, the decade and the style of address all fit."
  }
 ]

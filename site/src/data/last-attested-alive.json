@@ -4151,21 +4151,21 @@
   "tier": "BIRTH ONLY"
  },
  {
-  "name": "Alejandro LERENA (m. Barbara LERENA)",
-  "born_est": "-",
-  "last_attested_alive": "1846-Apr-20",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
- },
- {
-  "name": "Barbara LERENA (wife of Alejandro LERENA)",
+  "name": "Don Alejandro LERENA (of San Jose de Mayo, 1846)",
   "born_est": "-",
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
  {
-  "name": "Carmelo Anselmo LERENA (20-27 April 1846)",
+  "name": "BARBARA (enslaved in Alejandro Lerena's household, San Jose 1846)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "CARMELO ANSELMO (son of Barbara, enslaved; d. 27 April 1846)",
   "born_est": "1846-04-20",
   "last_attested_alive": "1846-04-20",
   "basis": "born_est only - a floor, not an attestation",

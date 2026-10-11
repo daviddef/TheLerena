@@ -19,6 +19,14 @@ const redirects = {
   '/people/juan-zalsamendi': `${BASE}/people/juan-zalduondo/`,
   '/people/dolores-pou-de-zalsamendi': `${BASE}/people/dolores-pou-de-zalduondo/`,
   '/people/maria-margarita-zalsamendi-lerena': `${BASE}/people/maria-margarita-luisa-zalduondo-lerena/`,
+  /* 12 October 2026. An index turned "esclava de D.n Alejandro Lerena" into a marriage.
+     The plate says Barbara was an enslaved woman in his household and her son Carmelo
+     Anselmo was hijo natural with no father named; neither carried the surname. All three
+     rows renamed to what the act says. See data/corrections.tsv. */
+  '/people/barbara-lerena': `${BASE}/people/barbara/`,
+  '/people/alejandro-lerena-3': `${BASE}/people/don-alejandro-lerena/`,
+  '/people/carmelo-anselmo-lerena': `${BASE}/people/carmelo-anselmo/`,
+
   /* 11 October 2026, later the same day. Two rows for Eduardo Lerena proved to be one
      man when the Canelones marriage act named the bride's parents - the same couple who
      stood godparents to his daughter in Argentina the following year. Merged. */
