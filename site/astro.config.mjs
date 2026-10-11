@@ -19,6 +19,12 @@ const redirects = {
   '/people/juan-zalsamendi': `${BASE}/people/juan-zalduondo/`,
   '/people/dolores-pou-de-zalsamendi': `${BASE}/people/dolores-pou-de-zalduondo/`,
   '/people/maria-margarita-zalsamendi-lerena': `${BASE}/people/maria-margarita-luisa-zalduondo-lerena/`,
+  /* 11 October 2026. ROZZETTI is RAZZETTI: the index of the 1921 baptism spells the
+     mother one way and the act spells her the other, twice on one line, in a clear hand.
+     Both addresses were published. See data/corrections.tsv. */
+  '/people/maria-mercedes-rozzetti': `${BASE}/people/maria-mercedes-razzetti/`,
+  '/people/ana-maria-lerena-rozzetti': `${BASE}/people/ana-maria-lerena-razzetti/`,
+
   /* 11 October 2026, found by a site-wide audit. The 1840 Catedral act was quoted on
      this archive's own page with the grandfather's forename in SQUARE BRACKETS -
      "Nieto pat[erno de D. Domingo] RODRIG.z" - supplied by the reader because the CHILD
