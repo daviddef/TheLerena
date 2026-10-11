@@ -25,10 +25,37 @@ const dist = rows
   .map(([c, b, i, r]) => [c, rate(i), `${b} \u00b7 ${i.replace(":", " in ")} \u00b7 rank ${r} in country`])
   .sort((a, b) => b[1] - a[1]);
 import dItalyLerenaLerina from "../data/italy-lerena-lerina.json";
+import Lines from "../components/Lines.astro";
+import lanes from "../data/lerena-lines.json";
+import lanesUnplaced from "../data/lerena-lines-unplaced.json";
 ---
 <Base title="The Name"
       eyebrow="2,124 in the world"
       dek="Lerena is a rare surname — rare enough that rarity itself becomes a research tool. It may also be two separate names sharing one spelling. Both facts shape everything else in this archive.">
+<section class="blk">
+  <h2 id="s-lines">Six lines of one name, drawn side by side</h2>
+  <p class="dek">They may not be one family, and this archive has never been able to say that they
+    are. Five lines that can be documented from a beginning to an end &mdash; and, under the rule,
+    everything the name holds that sits on none of them.</p>
+  <div class="prose">
+    <p><strong>A lane here has to have both ends.</strong> A beginning that is a document and a
+      destination that is a document. Where this archive knows a household is real but cannot say
+      which line it belongs to, it goes <em>below</em> the rule rather than onto the nearest lane
+      &mdash; because a picture that places everything is a picture that is lying about something.</p>
+    <p><strong>The red line is drawn broken on purpose.</strong> It is the one the archive exists
+      for, and its left end is open: Pablo Armando Lerena&rsquo;s parents are named on an army card
+      in 1908 and <strong>appear in no other record anywhere</strong>. Every lane above it is a
+      candidate and <strong>not one has been shown to hold them</strong>.</p>
+  </div>
+  <Lines lanes={lanes} unplaced={lanesUnplaced}
+         caption={'Hover or tab any dot for what the document behind it actually says. The lanes are coloured only to tell them apart &mdash; no colour means kinship, and no two lanes here have been joined to each other. <strong>Of the five, four begin in a parish register and one begins with a man holding office.</strong>'} />
+  <div class="note" style="margin-top:18px">What this drawing is <em>not</em>: a claim that the five
+    lanes are five separate families. <strong>Two of them may yet prove to be one</strong> &mdash;
+    whether the Trinidad kindred joins Sancho&rsquo;s house is an open question with no evidence
+    either way, which is why no join is drawn between them. <strong>An undrawn line is a statement
+    too.</strong> <a href={u("/open-questions/")}>Open questions &rarr;</a></div>
+</section>
+
 <section class="blk">
 <h2 id="s-how-rare">How rare</h2>
   <p>
@@ -54,6 +81,7 @@ import dItalyLerenaLerina from "../data/italy-lerena-lerina.json";
     renamed without appearing here.</p>
   <div class="prose" style="margin-top:14px">
     <ol class="cols2">
+      <li><a href="#s-lines">Six lines of one name, drawn side by side</a></li>
       <li><a href="#s-how-rare">How rare</a></li>
       <li><a href="#s-where-they-are">Where they are</a></li>
       <li><a href="#s-spain-one-cluster-and-it-is-not-where-you-would-guess">Spain: one cluster, and it is not where you would guess</a></li>

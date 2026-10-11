@@ -1,0 +1,57 @@
+[
+ {
+  "key": "sancho",
+  "label": "Out of Canelones, into Montevideo",
+  "status": "DOCUMENTED",
+  "colour": "#2f6f7e",
+  "href": "/uruguay/",
+  "read": "The Montevideo house →",
+  "nodes": "Canelones|1791|SANCHO LLERENA AGUILAR marries at the Catedral Nuestra Senora de Guadalupe, 8 January 1791. He could not write: nine years later he deposes as a witness and the judge signs for him.;;Montevideo|1793|His son PEDRO ANTONIO is baptised 31 July 1793 - the house is in the city within two years.;;Cordon|1830|JUSTA PASTORA marries at Nuestra Senora del Carmen; the Cordon is the family's parish for fifty years.;;Cordon|1871|ALEJANDRO MAXIMO x ELISA VILLADEMOROS, 28 December. His mother signs as a witness.;;Union|1880|Two granddaughters baptised on 8 March, naming AVELINO and AMBROSIA TRAIBEL as grandparents.;;Pocitos|1903|MARIA MARGARITA LUISA ZALDUONDO LERENA baptised - the fourth generation in the city.",
+  "ends": "Montevideo;;La Paz in Canelones;;Buenos Aires;;Mercedes",
+  "note": "Sancho's house. Four generations in and around Montevideo, and the only line here whose first document is a marriage rather than an arrival."
+ },
+ {
+  "key": "ramon",
+  "label": "Out of Rosario del Colla, into Trinidad",
+  "status": "DOCUMENTED",
+  "colour": "#9a6b2f",
+  "href": "/uruguay/#s-trinidad-marriages",
+  "read": "The Trinidad kindred →",
+  "nodes": "Rosario del Colla|1800|RAMON LERENA, Alcalde de la Santa Hermandad del Partido del Rosario, \"en la otra Banda Oriental\", inventories an estate across five weeks and signs his own name.;;Colla|1837|MAURICIO LERENA x CASIMIRA MONTANO marry - the couple the Trinidad kindred descends from.;;San Jose de Mayo|1874|Their daughter FELICIA marries at the Catedral Basilica, 19 December.;;Trinidad|1882|Their son MANUEL marries in April - a second, independent thread from Colla into Flores.;;Trinidad|1889|TWO LERENA SISTERS MARRY TWO CARDOZO BROTHERS ON ONE DAY, 25 April.;;Trinidad|1911|CUSTODIO x EMA CARDOZO, dispensed as double first cousins - the knot those weddings tied.",
+  "ends": "Trinidad, Flores;;Durazno;;Florida;;San Jose",
+  "note": "Ramon's house. The only lane whose earliest document is a man holding office, and the one that folds back on itself by marriage within two generations."
+ },
+ {
+  "key": "direct",
+  "label": "Rosario de Santa Fe, to the Cape",
+  "status": "THE JOINT IS MISSING",
+  "colour": "#9c3b3b",
+  "href": "/",
+  "read": "The direct line →",
+  "nodes": "Rosario de Santa Fe|1882|PABLO ARMANDO LERENA is born 22 February. His baptism has never been found - the cathedral register was read act by act for February and March.;;Buenos Aires|1908|His army enrolment card names his parents: JUAN CARLOS LERENA and MARIA LERENA. Neither has been found in any record anywhere.;;Cape Town|1915|In South Africa he is ROBERT PAUL LERENA.;;Maitland|1950|He dies at Newlands, 19 March.",
+  "ends": "South Africa;;England;;Australia",
+  "note": "This is the line the archive exists for, and it is drawn broken on purpose. Both ends are documented and the middle is not: NO RECORD HAS EVER BEEN FOUND FOR HIS PARENTS, and no lane above has been shown to contain them."
+ },
+ {
+  "key": "spain",
+  "label": "Out of Spain, into Buenos Aires",
+  "status": "DOCUMENTED",
+  "colour": "#5b5f9e",
+  "href": "/argentina/#s-buenos-aires-fulltext",
+  "read": "The Buenos Aires acts →",
+  "nodes": "Spain|1886|ELOY LERENA born, \"natural de Espana\" on his daughter's baptism.;;Barcelona|1911|GREGORIO and FELISA LERENA sail on the INDIANA, landing 7 December.;;San Jose de Flores|1912|JUANA baptised 10 November, daughter of ELOY and FELISA, BOTH LERENAS, both Spanish-born.;;Bilbao|1923|A FELISA LERENA arrives with four children.;;Logrono|1930|EMILIO LERENA, born 1900, arrives on the CONTE ROSSO.",
+  "ends": "Buenos Aires;;Argentina",
+  "note": "A Spanish stock arriving three times in twenty years. NOT SHOWN TO BE CONNECTED TO ANY URUGUAYAN LANE, and the passenger-list people are NOT merged into the parish ones - the ages are two years out and the roles do not line up."
+ },
+ {
+  "key": "arturo",
+  "label": "Arturo Lerena Garcia: Spain, Chile, Entre Rios",
+  "status": "DOCUMENTED",
+  "colour": "#4f7a46",
+  "href": "/argentina/#s-arturo-chile",
+  "read": "The Chile file →",
+  "nodes": "Spain|1860s|ARTURO LERENA GARCIA, Spanish, a journalist - and the man who broke this archive's rule that every Cajon 985 father was Uruguayan.;;Valparaiso|1894|His brother JUAN FERNANDO LERENA DIAZ dies there.;;Buenos Aires|1909|The household is at Villa Crespo.;;Parana, Entre Rios|1938|A VICENTE LERENA DIAZ keeps the civil register at Pueblo Brugo - SNIPPET ONLY, the act is not opened.",
+  "ends": "Chile;;Entre Rios;;Buenos Aires",
+  "note": "The only lane that reaches a fourth country. Its last node is a search-result snippet and is drawn as one."
+ }
+]

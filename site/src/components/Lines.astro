@@ -1,0 +1,140 @@
+---
+/* SEVERAL FAMILIES OF ONE SURNAME, DRAWN SIDE BY SIDE.
+
+   Written for this archive on 11 October 2026 rather than taken from the kit.
+   The kit HAS this drawing - BranchRivers.astro, promoted out of Defranceschi -
+   and it is better than this one. It could not be used here as it stands
+   because it prints the hardcoded words "— the commonest patronymic in Italy"
+   under every archive that adopts it, outside the map that would let a prop
+   silence it. That is the same fault its own docstring records being fixed once
+   for the caption and missed here. See work-list row 201.
+
+   THE RULE THIS COMPONENT ENFORCES BY SHAPE: a lane must have a beginning and
+   an end. Households that are real and not placed go BELOW the rule, so the
+   picture cannot imply that everything has been placed - and the namesakes go
+   below those, dashed, so a reader can see what was deliberately kept apart.
+
+   A lane whose status contains MISSING is drawn with its left end DASHED and
+   open, because this archive's own line is broken at exactly the place where
+   the evidence stops, and a solid line there would be a lie. */
+import { u } from "../lib/url.js";
+import { emph } from "../lib/text.js";
+const { lanes = [], unplaced = [], caption } = Astro.props;
+
+const W = 980, TOP = 16, BAND = 116, GAP = 10;
+const X0 = 176, X1 = 672, XE = 790;
+const place = (s) => s.split("|")[0] ?? "";
+const year  = (s) => s.split("|")[1] ?? "";
+const why   = (s) => s.split("|").slice(2).join("|") ?? "";
+const parts = (s) => (s || "").split(";;").filter(Boolean);
+
+const bands = lanes.map((l, i) => {
+  const y0 = TOP + i * (BAND + GAP);
+  return { l, y0, mid: y0 + 72 };
+});
+const RULE_Y = TOP + lanes.length * (BAND + GAP) + 14;
+const un = unplaced.filter((r) => r.kind === "unplaced");
+const ns = unplaced.filter((r) => r.kind === "namesake");
+const ROW = 30;
+const NS_Y = RULE_Y + 44 + un.length * ROW + 30;
+const H = NS_Y + 28 + ns.length * ROW + 24;
+---
+<figure class="lines">
+  <svg viewBox={`0 0 ${W} ${H}`} role="img" width="100%"
+       aria-label={`The ${lanes.length} documented lines of the name Lerena, drawn side by side, with the households this archive has not placed on any of them.`}>
+    {bands.map(({ l, y0, mid }) => {
+      const nodes = parts(l.nodes), ends = parts(l.ends);
+      const broken = /MISSING/i.test(l.status || "");
+      const step = nodes.length > 1 ? (X1 - X0) / (nodes.length - 1) : 0;
+      return (
+        <g>
+          <rect x="6" y={y0} width={W - 12} height={BAND} rx="9"
+                fill={l.colour} opacity="0.055" />
+          <text x="18" y={y0 + 24} class="lab" fill={l.colour}>{l.label}</text>
+          <text x="18" y={y0 + 41} class="st">{l.status}</text>
+          <a href={u(l.href)}><text x="18" y={y0 + BAND - 12} class="read" fill={l.colour}>{l.read}</text></a>
+
+          {broken
+            ? <g class="nd" tabindex="0" role="button">
+                <title>The joint that is missing — this line's parents are named on one card in 1908 and appear in no other record anywhere.</title>
+                <line x1={X0 - 96} y1={mid} x2={X0} y2={mid} stroke={l.colour}
+                      stroke-width="2" stroke-dasharray="3 5" opacity="0.65" />
+                <circle cx={X0 - 96} cy={mid} r="6.5" fill="none" stroke={l.colour}
+                        stroke-width="2" stroke-dasharray="2.5 2.5" />
+              </g>
+            : null}
+
+          <line x1={X0} y1={mid} x2={X1} y2={mid} stroke={l.colour} stroke-width="2" opacity="0.85" />
+
+          {nodes.map((n, j) => {
+            const x = X0 + j * step;
+            return (
+              <g class="nd" tabindex="0" role="button">
+                <title>{place(n)}, {year(n)} — {emph(why(n)).replace(/<[^>]*>/g, "")}</title>
+                <text x={x} y={mid - 20} class="pl">{place(n)}</text>
+                <circle cx={x} cy={mid} r="8" fill="var(--panel)" stroke={l.colour} stroke-width="2.6" />
+                <circle cx={x} cy={mid} r="3" fill={l.colour} />
+                <text x={x} y={mid + 26} class="yr" fill={l.colour}>{year(n)}</text>
+              </g>
+            );
+          })}
+
+          {ends.map((e, k) => {
+            const n = ends.length, spread = Math.min(22, 60 / Math.max(1, n - 1));
+            const y = mid + (k - (n - 1) / 2) * spread * 1.6;
+            return (
+              <g>
+                <path d={`M ${X1} ${mid} C ${X1 + 56} ${mid}, ${XE - 46} ${y}, ${XE} ${y}`}
+                      fill="none" stroke={l.colour} stroke-width="1.5" opacity="0.45" />
+                <circle cx={XE} cy={y} r="3.4" fill={l.colour} />
+                <text x={XE + 9} y={y + 4} class="end">{e}</text>
+              </g>
+            );
+          })}
+        </g>
+      );
+    })}
+
+    <line x1="12" y1={RULE_Y} x2={W - 12} y2={RULE_Y}
+          stroke="var(--rule-strong)" stroke-width="1" stroke-dasharray="2 4" />
+    <text x="18" y={RULE_Y + 24} class="hd">Real households of the name — on none of these lines</text>
+    {un.map((r, i) => (
+      <g class="nd" tabindex="0" role="button">
+        <title>{r.who} — {emph(r.why).replace(/<[^>]*>/g, "")}</title>
+        <circle cx="26" cy={RULE_Y + 44 + i * ROW} r="4.5" fill="none" stroke="var(--ink-2)" stroke-width="1.8" />
+        <text x="42" y={RULE_Y + 48 + i * ROW} class="who">{r.who}</text>
+        <text x="430" y={RULE_Y + 48 + i * ROW} class="whr">{r.where}</text>
+      </g>
+    ))}
+    <text x="18" y={NS_Y} class="hd">A different stock of the same name — kept apart on purpose</text>
+    {ns.map((r, i) => (
+      <g class="nd" tabindex="0" role="button">
+        <title>{r.who} — {emph(r.why).replace(/<[^>]*>/g, "")}</title>
+        <circle cx="26" cy={NS_Y + 20 + i * ROW} r="4.5" fill="none" stroke="var(--ink-3)"
+                stroke-width="1.6" stroke-dasharray="2 2" />
+        <text x="42" y={NS_Y + 24 + i * ROW} class="who dim">{r.who}</text>
+        <text x="430" y={NS_Y + 24 + i * ROW} class="whr">{r.where}</text>
+      </g>
+    ))}
+  </svg>
+  <figcaption set:html={caption} />
+</figure>
+<style>
+  .lines{margin:22px 0 0}
+  .lines svg{display:block;overflow:visible}
+  .lab{font-family:var(--serif,var(--sans));font-size:15px;font-weight:600}
+  .st{font-family:var(--mono);font-size:9.5px;letter-spacing:.13em;fill:var(--ink-3)}
+  .read{font-family:var(--sans);font-size:11.5px}
+  .pl{font-family:var(--sans);font-size:11.5px;fill:var(--ink-2);text-anchor:middle}
+  .yr{font-family:var(--mono);font-size:10px;text-anchor:middle}
+  .brk{font-family:var(--mono);font-size:8.5px;letter-spacing:.1em;text-anchor:middle;opacity:.8}
+  .end{font-family:var(--sans);font-size:11.5px;fill:var(--ink-2)}
+  .hd{font-family:var(--mono);font-size:10px;letter-spacing:.14em;fill:var(--ink-3)}
+  .who{font-family:var(--sans);font-size:12.5px;fill:var(--ink-2)}
+  .who.dim{fill:var(--ink-3)}
+  .whr{font-family:var(--sans);font-size:11.5px;font-style:italic;fill:var(--ink-3)}
+  .nd{cursor:help}
+  .nd:focus{outline:2px solid var(--accent,#888);outline-offset:2px}
+  .lines figcaption{font-family:var(--sans);font-size:13px;color:var(--ink-2);margin-top:14px;max-width:62ch}
+  @media (max-width:720px){ .lines svg{min-width:860px} .lines{overflow-x:auto} }
+</style>
