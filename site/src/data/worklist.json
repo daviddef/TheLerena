@@ -1613,6 +1613,38 @@
    "since": "2026-10-11",
    "what": "archive-kit BranchRivers.astro prints “— the commonest patronymic in Italy” on every archive that adopts it",
    "note": "**FOUND 11 OCTOBER 2026 while trying to use it.** `BranchRivers.astro` is the drawing this archive wanted — several families of one surname, as rivers, with lanes, unplaced households and candidate-join **bridges**. It is better than the component written here instead. **IT COULD NOT BE USED AS IT STANDS.** At line 226 it renders `<text ...>— the commonest patronymic in Italy</text>` **outside the `LOOSE.map()`**, so it prints unconditionally — even with `loose: []`. On a LERENA page that sentence is simply false: the name is rare Spanish-Basque, and Forebears puts it at 1 in 3,431,048. **THIS IS THE SAME FAULT THE COMPONENT'S OWN DOCSTRING RECORDS FIXING ONCE AND MISSING HERE:** “every other archive that adopted the drawing got Defranceschi's words underneath it, describing rivers it does not have”. The caption was made a prop; this note was not. **THE FIX IS ONE LINE** — move it inside the map, or make it a `looseNote` prop defaulting to the present text so Defranceschi keeps its sentence and nobody else inherits it. **MEANWHILE** this archive wrote `site/src/components/Lines.astro`, which is simpler and has no bridges. **WHEN THE KIT IS FIXED, THIS ARCHIVE SHOULD SWITCH TO IT AND DELETE ITS OWN** — the kit's version supports candidate joins, which is exactly what the Sancho-to-Trinidad question will need the day any evidence appears."
+  },
+  {
+   "n": 202,
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-10-11",
+   "what": "The parish and civil registers of Navarrete, Logroño — the one village where Lerenas married Lerenas",
+   "note": "**FOUND 11 OCTOBER 2026 AND NEVER LOOKED AT.** The Spanish consulate at Buenos Aires records a power of attorney of 14 November 1900 by **Prudencio Benito** and **Juan José LERENA Y LERENA**, bachelors of Navarrete, to their widowed mother **Isabela Lerena y Basarán** and their married brother **José Dolores Lerena y Lerena**. A Madrid pension file of 1896 shows that same brother signing as **juez municipal suplente** of Navarrete **and keeper of its civil register**, certifying from *tomo 11, folio 191* of the Defunciones. **SO THE BOOKS EXIST AND ARE DESCRIBED.** This archive believes none of these people are Pablo Armando's — they are Riojan Spaniards and every lane here is Banda Oriental from the 1790s — but it is the only place on earth it can name where the doubled surname was settled local usage, and the marriage that produced *Lerena y Lerena* is documented only by its children. **WHAT TO LOOK FOR:** the marriage of Isabela Lerena y Basarán to a Lerena, and whether any son went to Rosario de Santa Fe."
+  },
+  {
+   "n": 203,
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-10-11",
+   "what": "The twelve unread Uruguayan hits for the phrase “Lerena y Lerena”",
+   "note": "**THREE OF FIFTEEN WERE READ ON 11 OCTOBER 2026 AND TWO OF THE THREE PAID.** The phrase mostly finds two Lerenas joined by *and* rather than the compound surname — and in this archive that is better, because two Lerenas at one font are usually kin. The Montevideo cathedral act gave the **Larriera grandparents**; the Cordón 1891-92 book moved **Adolfo Lerena** back twelve years and produced a new **María Mercedes**. **STILL UNREAD:** Cordón 1900-1902; Montevideo 1890-91 and 1901-02; Uruguay 1917-18 (snippet: *Alejandro Lerena y Clorinda Lerena*); and seven volumes of Trinidad, Flores, one of which reports **54 matches** (snippet: *padrinos Juan Lerena y Margarita Lerena*). The Trinidad ones are the lowest priority — that town has had a sweep — and the Cordón and Montevideo ones the highest."
+  },
+  {
+   "n": 204,
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-10-11",
+   "what": "Registros Consulares, Buenos Aires — a source class this archive had never touched",
+   "note": "**A SPANIARD IN BUENOS AIRES APPEARS IN THESE WITH HIS VILLAGE AND A CONSULAR ROLL NUMBER**, which no Argentine civil act gives. The 1900-1901 volume produced the Navarrete household on 11 October 2026. **A SECOND VOLUME, 1909, IS IN THE SAME RESULT SET AND IS UNREAD.** Worth it for any Lerena who was a Spanish subject — and this archive holds a stream of them out of Logroño into Buenos Aires commerce: Martín at 14 in 1907, José M. at 16 in 1909, José at 16 in 1924, Emilio and José María in 1930."
+  },
+  {
+   "n": 205,
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-10-11",
+   "what": "“El Doctor Lerena” in the 1889 Feliciano Aguirre probate, Buenos Aires",
+   "note": "A one-line snippet seen on 11 October 2026 while paging the Argentine full-text results: *“lo hace el Doctor Lerena si la”*. **NOT OPENED.** A Lerena with a professional title in the Buenos Aires courts in 1889 is worth a look, and the same court the following year heard **Carlos A. Lerena** sue the Escalada estate for a broker's commission. **CAUTION BEFORE SPENDING TIME:** in this corpus *lerena* is very often the transcriber's reading of **herencia**, so check the sentence before the name — see data/false-zeros.tsv."
   }
  ],
  "accounts": [
