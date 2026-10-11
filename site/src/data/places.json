@@ -189,9 +189,11 @@
    "don-fermin-de-yeregui",
    "juan-zorrilla-de-san-martin",
    "andres-lerma",
-   "cesar-schiaffino"
+   "cesar-schiaffino",
+   "roberto-ambrosio-lerena-regules",
+   "maria-juana"
   ],
-  "count": 187
+  "count": 189
  },
  {
   "slug": "trinidad-flores",
@@ -878,6 +880,15 @@
   "count": 2
  },
  {
+  "slug": "san-jose",
+  "name": "San Jose",
+  "people": [
+   "ema-justina-felicia-lerena-regules",
+   "arturo-mario-lerena-regules"
+  ],
+  "count": 2
+ },
+ {
   "slug": "retiro-buenos-aires",
   "name": "Retiro, Buenos Aires",
   "people": [
@@ -1034,6 +1045,14 @@
   "name": "Pueblo Brugo, Entre Rios",
   "people": [
    "vicente-lerena-diaz"
+  ],
+  "count": 1
+ },
+ {
+  "slug": "union-montevideo",
+  "name": "Union, Montevideo",
+  "people": [
+   "cora-maria-avelina-lerena-regules"
   ],
   "count": 1
  }

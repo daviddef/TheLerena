@@ -3981,5 +3981,54 @@
   "last_attested_alive": "1880-Jun-23",
   "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
   "tier": "ALIVE AT"
+ },
+ {
+  "name": "Emma LERENA REGULES (m. Fermin Carlos de Yeregui 1909)",
+  "born_est": "1885-05-18",
+  "last_attested_alive": "1909-Aug-09",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Fermin Carlos de YEREGUI (m. Emma Lerena Regules 1909)",
+  "born_est": "1879-11-04",
+  "last_attested_alive": "1879-11-04",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Dona Mercedes de MELIS (viuda de Yeregui)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Don Fermin de YEREGUI (d. before 1909)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Juan ZORRILLA DE SAN MARTIN (witness, 1909)",
+  "born_est": "1855",
+  "last_attested_alive": "1909-Aug-09",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Andres LERMA (witness, 1909)",
+  "born_est": "1863",
+  "last_attested_alive": "1909-Aug-09",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Cesar SCHIAFFINO (Juez de Paz, Montevideo 1909)",
+  "born_est": "-",
+  "last_attested_alive": "1909-Aug-09",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
  }
 ]

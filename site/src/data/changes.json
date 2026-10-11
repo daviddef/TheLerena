@@ -2,6 +2,16 @@
  "mechanical": 53,
  "days": [
   {
+   "date": "2026-10-12",
+   "commits": [
+    {
+     "sha": "6ebcb35",
+     "subject": "Arturo is a lawyer, not a doctor - and Eduardo has a sister",
+     "body": "The lead left open last night was a \"Dona Emma Lerena Regules\" marrying in the\nMontevideo civil registers with Arturo Lerena and Emma Regules as her parents.\nShe is there, and the act corrects this archive's reading of her father.\nMontevideo, acta No. 16, 9 August 1909:\n  \"Dona EMMA LERENA REGULES... NACIDA EL DIA DIEZ Y OCHO DE MAYO DE MIL\n   OCHOCIENTOS OCHENTA Y CINCO EN SAN JOSE... hija de don ARTURO LERENA de\n   estado casado DE PROFESION ABOGADO... y de EMMA REGULES... Fueron testigos,\n   Don JUAN ZORRILLA DE SAN MARTIN, de CINCUENTA Y TRES ANOS, de estado viudo,\n   de profesion ABOGADO, domiciliado en la calle RINCON.\"\nABOGADO. In Uruguay \"Doctor\" is the style of a lawyer as much as of a medico,\nand the 1880 marriage act's \"el Doctor Don Arturo Lerena\" carries no more than\nthe title. This archive put \"doctor\" in an occupation field, which in English\nmeans a physician, and then wrote about \"two professional men\" in a way that\nsuggested medicine. Corrected on both rows - Dr Ambrosio Lerena keeps the title\nand loses the implied profession, because nothing on the 1880 act says which he\nfollowed. Nothing was wrong with the transcription: a title was carried into\nEnglish where it means something narrower. A title is not an occupation, and a\ntitle translated is a claim.\nThe sister: EMMA LERENA REGULES, born 18 May 1885 at SAN JOSE, named for her\nmother, married FERMIN CARLOS DE YEREGUI - born Montevideo 4 November 1879, son\nof the late Fermin de Yeregui and Mercedes de Melis, of calle Zabala 164.\nSo the household was at SAN JOSE in May 1885 and at MONTEVIDEO in April 1886,\nwhere Eduardo was born. ELEVEN MONTHS APART, which is possible and tight, and is\nrecorded as a tension rather than resolved. In 1909 the parents are given at\ndifferent addresses - Colonia 2200 and Colonia 228, both \"de estado casado\". The\nnumbers differ by a factor of ten and a transcriber's slip is likelier than a\nseparation. Also not resolved.\nBoth witnesses were lawyers, and one of them is JUAN ZORRILLA DE SAN MARTIN:\nfifty-three, widower, abogado, of calle Rincon - the national poet of Uruguay on\nevery count except a document that says so. Entered with no inference drawn, as\nthis archive entered the president who stood godfather to a Lerena child and the\nbishop who dispensed a Lerena's banns. All it shows is that Arturo Lerena the\nabogado moved among Montevideo lawyers.\nSeven people entered. 576 people. All gates green."
+    }
+   ]
+  },
+  {
    "date": "2026-10-11",
    "commits": [
     {
