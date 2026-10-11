@@ -49,6 +49,32 @@ FILES = {
     "trinidad-flores-sweep-2026-09-27.tsv": "child",
 }
 
+# *** THE RULE, WRITTEN DOWN 11 OCTOBER 2026 BECAUSE IT HAD NEVER BEEN. ***
+#
+# A PERSON NAMED ON AN ACT THIS ARCHIVE HAS READ IS A PERSON IN THIS REGISTER,
+# WHATEVER THEIR ROLE.
+#
+# Principal, parent, spouse, child, godparent, witness, declarant, notary, priest,
+# physician, judge - and the other family's principals too, when our people appear
+# inside their file. No role is furniture.
+#
+# WHY, and it is not completeness for its own sake. /method/ carries a section called
+# "Search for the people standing next to the person", because that is how this archive
+# has made most of its progress: Sancho Llerena was found deposing in a stranger's
+# marriage investigation, and Ramon Lerena was found inside a probate filed under
+# CLEMENTE GARCIA's name. If the people standing next to our people are not people, the
+# method has nowhere to put its own results.
+#
+# WHAT WENT WRONG WITHOUT IT. On 11 October 2026 this archive admitted a Juez de Paz, a
+# wedding witness and a godmother about whom nothing is known, and in the same hours left
+# out Eduardo Zalduondo's own brother, four officiating clergy, two declarants, a
+# certifying physician and the groom Sancho Llerena swore for. Not a policy - an unwritten
+# judgement made twenty times and made differently each time.
+#
+# THE ONE THING THE RULE DOES NOT COVER is the living. That rule is older and it wins:
+# living people are named only, with no dates, no places and no photographs, and a record
+# that cannot be entered without implying a living person's details is not entered at all.
+#
 # Cells in those columns that are headings or summary lines, not people. Each is listed
 # in full so that adding one is a deliberate act rather than a pattern that quietly grows.
 NOT_PEOPLE = {

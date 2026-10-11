@@ -171,9 +171,15 @@
    "dr-d-joaquin-requena",
    "juan-jose-zalduando-pou",
    "elisa-carlevaro",
-   "maria-elisa-zalduando-carlevaro"
+   "maria-elisa-zalduando-carlevaro",
+   "canonigo-d-martin-pinero",
+   "jose-m-ojeda",
+   "dr-bordoni-posse",
+   "eduardo-j-moratorio",
+   "agustin-agnese",
+   "conrado-p-abal"
   ],
-  "count": 169
+  "count": 175
  },
  {
   "slug": "trinidad-flores",
@@ -257,9 +263,16 @@
    "petrona-fernandez",
    "rosaura-alvarez",
    "rodolfo-bernardo-lerena",
-   "ismael-lerena"
+   "ismael-lerena",
+   "juan-calman",
+   "rosa-casavalle",
+   "teodoro-silva",
+   "abel-conto",
+   "amelia-lerena-cardozo",
+   "honorato-gonzalez",
+   "miguel-mugular"
   ],
-  "count": 79
+  "count": 86
  },
  {
   "slug": "buenos-aires-arrivals",
@@ -346,9 +359,12 @@
    "beatriz-eliza-del-corazon-de-jesus-abella-lerena",
    "eloy-lerena",
    "juana-lerena",
-   "rosa-defenari"
+   "rosa-defenari",
+   "presbitero-d-antonio-jenara",
+   "don-clemente-garcia",
+   "dona-celestina-gonzalez"
   ],
-  "count": 34
+  "count": 37
  },
  {
   "slug": "san-jose-de-mayo",
@@ -438,6 +454,22 @@
   "count": 11
  },
  {
+  "slug": "canelones",
+  "name": "Canelones",
+  "people": [
+   "hilario-barros-llerena",
+   "jose",
+   "joseph-ponteceli",
+   "agueda-rivero",
+   "jose-loreto-lerena-fernandez",
+   "joseph-del-rios",
+   "francisco-de-los-santos-de-acuna",
+   "florentino-gomez",
+   "ana-gomez"
+  ],
+  "count": 9
+ },
+ {
   "slug": "flores-uruguay",
   "name": "Flores, Uruguay",
   "people": [
@@ -516,18 +548,6 @@
    "maria-llerena",
    "antonio-medero",
    "petrona-medero-llerena"
-  ],
-  "count": 5
- },
- {
-  "slug": "canelones",
-  "name": "Canelones",
-  "people": [
-   "hilario-barros-llerena",
-   "jose",
-   "joseph-ponteceli",
-   "agueda-rivero",
-   "jose-loreto-lerena-fernandez"
   ],
   "count": 5
  },
