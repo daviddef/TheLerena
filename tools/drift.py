@@ -109,6 +109,33 @@ STOP = re.compile(r"^(september|october|november|december|january|february|archi
                   r"register|document|documents|parents|children|surname|familysearch|montevideo|"
                   r"rosario|argentina|uruguay|however|because|between)$")
 SKIP = re.compile(r"^(image read|documented|corrected|confirmed)\b", re.I)
+
+# *** AND A CLAIM ABOUT THE ARCHIVE IS NOT A FINDING ABOUT A PERSON. 11 October 2026. ***
+# This check asks "does any page tell the reader what the register knows". It was also
+# counting the register's notes to ITSELF: that a row had been merged, that a slug moved,
+# that a birth year was invented here for an hour and withdrawn, that the register spent
+# three weeks contradicting the archive's own evidence files. Those are true, they matter,
+# and THEY ARE ALREADY PUBLISHED - on /corrections/ and /worklist/, which this check
+# EXCLUDES BY DESIGN twenty lines below, as "ledgers OF the work, not places a reader meets
+# the story". So the tool was demanding that bookkeeping appear somewhere it has itself
+# ruled bookkeeping out of. Seven of the eighteen findings it reported on the day this was
+# written were that, and each one it reports is a reader taught to skim the list.
+# Every pattern below is here because a specific claim tripped it; the claim is quoted.
+BOOKKEEPING = re.compile(
+    r"this row"                        # "...which this row briefly pretended otherwise"
+    r"|this register"                  # "the register was contradicting its own files"
+    r"|archive'?s own (?:evidence|files|data)"
+    r"|\bmerge[dsr]?\b"                # "Merged 9 October 2026, and the duplicate was caught..."
+    r"|\bduplicate"                    # "...by tools/check-duplicates.py rather than noticed"
+    r"|\bslugs?\b"                     # "a merge touches slugs, last-attested-alive.tsv..."
+    r"|tools/|\.tsv\b|\.py\b"          # any reference to this archive's own machinery
+    r"|briefly (?:invented|pretended)"
+    r"|recorded here until"             # "NO BIRTH YEAR WAS RECORDED HERE UNTIL 9 OCTOBER 2026"
+    r"|\bis withdrawn\b"                # a retraction: it belongs on /corrections/
+    r"|\bthe archive had manufactured\b" # "the archive had manufactured a three-day gap"
+    r"|guess wearing the clothes"       # a caution about this archive's own habit, not a finding
+    r"|debt, not a judgement",
+    re.I)
 silent = []
 # Only people the NARRATIVE is about. An unplaced Lerena's register note is meant to
 # live in the register and nowhere else; a CONNECTED person, or one the archive has
@@ -119,7 +146,41 @@ silent = []
 # the same reason: a warning that fires on every build is a warning nobody reads. Adding a
 # name here is a CLAIM THAT SOMEBODY LOOKED - so it carries where the finding was published.
 PUBLISHED = {
-    "Alejandro LERENA (m. Elisa VILLARDEMOROS)":
+    # Checked 11 October 2026 by opening each page and reading it, during a site-wide audit.
+    # Every one of these is fully told somewhere a reader meets it; the matcher misses them
+    # because prose does not repeat a register note's vocabulary.
+    "Ramon LERENA (of Rosario-Colla, fl. 1794-1820)":
+        "his office is published at /argentina/ and /method/ - Alcalde de la Santa Hermandad del "
+        "Partido del Rosario, with the court order quoted and the 1794 and 1796 appearances beside "
+        "it. The matcher wants 'notifique' and 'antecedente', two more words of the same Spanish "
+        "quotation, which the pages have no reason to print in full",
+    "Roque Luis Armando LERENA":
+        "the Union voters' roll is published at /south-africa/#s-fulltext-closed in more detail "
+        "than the register holds - voter 1399, 14 Florence Villas, Fireman, sole tenant, and the "
+        "district identified as Observatory and Salt River from the roll's own street column. The "
+        "matcher wants STEMDISTRIK, the Afrikaans column heading, which the page has no reason to print",
+    "Nuno Fernando LERENA":
+        "published at /south-africa/, under the deeds panel: the transcribers' 'Huno' and 'Jan "
+        "Fernando', the clerk's plain NUNO on both folios, and the point that what identified him "
+        "was not his name but the 6.10.24 date of birth the deeds register keys on. Added that day, "
+        "because it was genuinely on no page",
+    "Mauricio LERENA (of Colla/Rosario, m. Casimira Montano 1837)":
+        "the 1837 act is published at /uruguay/#s-bridge off the plate, down to Fray Froylan Mellid, "
+        "Jose Joaquin Reyna and the witnesses. The matcher wants 'caveat discharged', which is this "
+        "archive's internal language for a tier being upgraded and means nothing to a reader",
+    "Cipriano LERENA (of Trinidad)":
+        "his descent from Mauricio of the Colla is published at /uruguay/ twice - in the bridge "
+        "section and again at /uruguay/#s-fernandez-knot, where he is named as the one member of the "
+        "Trinidad kindred who stands slightly apart",
+    "Socorro LERENA (m. Serapio Fernandez the elder)":
+        "the index record that gave the bride the groom's own attributes item for item is published "
+        "at /method/ and /uruguay/, where the act of 15 July 1885 is read as a manufactured bride; "
+        "her own dispensation of 1855 is at /uruguay/#s-fernandez-knot",
+    "Isabella Temple TAYLOR (\"Edie\"; m. DALLING)":
+        "published at /taylor/: 'c/o Dalling, Fore St, Northam' identified as her elder sister "
+        "Isabella Temple who married Henry Dalling in 1900, and the hypothesis it killed is on the "
+        "same page in its own words - 'And there is no Edith'",
+    "Alejandro M. LERENA (m.1 Elisa VILLADEMOROS; m.2 Julia BASSANI)":
         "the double Villademoros marriage is published in full at /uruguay/#s-villademoros, including "
         "the shared Joaquin godfather and the Angelica named for her mother. The matcher trips on "
         "'alliance' and 'probably', which the page has no reason to use - it says 'two brothers married "
@@ -129,7 +190,7 @@ PUBLISHED = {
     "Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS)":
         "his household and the 1886-1890 bracketing are on /horses/; the matcher trips on the word "
         "'assembled', which the page has no reason to use",
-    "Carlos LERENA Salvanach (b.1884, son of Gilberto)":
+    "Carlos Augusto Federico LERENA Salvanach (b. 9 July 1883)":
         "the Cordon baptism parish is named on /horses/ inside his father's household table",
     # Sancho's three newly-entered children share one claim, and /hypotheses/ publishes it in full -
     # the calle San Juan household, the six children "naturales del Canelon", Rodrigo Fernandez and
@@ -138,7 +199,7 @@ PUBLISHED = {
     "Juan Agustin LERENA Fernandez":
         "the 1812 padron household is published at /hypotheses/, with his age of 21 used to withdraw "
         "this archive's own objection to reading the 1812 godparents as Lerena",
-    "Agustina LERENA Fernandez":
+    "Agustina Ramona LERENA Fernandez":
         "published at /hypotheses/ in the same padron household, as the Agustina of the 1812 font",
     "Fidel LERENA Fernandez":
         "published at /hypotheses/ in the same padron household, aged 12 in 1812",
@@ -148,6 +209,24 @@ PUBLISHED = {
         "'corrects', because the page says the archive's earlier record was FIXED rather than corrected. "
         "Checked on 14 September 2026 by reading the page, not by matching the words",
 }
+
+# *** A RENAMED ROW SILENTLY UN-DECLARES ITS OWN EXCEPTION, AND NOTHING NOTICED FOR WEEKS. ***
+# 11 October 2026, found by a site-wide audit. THREE of the fourteen names above no longer
+# existed in the register: "Alejandro LERENA (m. Elisa VILLARDEMOROS)" had become "Alejandro M.
+# LERENA (m.1 Elisa VILLADEMOROS; m.2 Julia BASSANI)", "Carlos LERENA Salvanach (b.1884, son of
+# Gilberto)" had become "Carlos Augusto Federico LERENA Salvanach (b. 9 July 1883)" when his birth
+# year was corrected, and "Agustina LERENA Fernandez" had gained her middle name. Each rename left
+# an exception pointing at nobody, so the finding it excused came back into the warning list
+# wearing a new name - and the list grew while the reason for it was already written down.
+# tools/consistency.py carries the identical hazard in CHECKED_PAIRS and says so in a comment:
+# "a renamed row silently un-declares its own pair, which is why this list is checked after every
+# rename". IT WAS NOT BEING CHECKED. A comment is not a check.
+_stale_published = sorted(k for k in PUBLISHED if k not in {p["name"] for p in people})
+if _stale_published:
+    warns.append("%d name(s) in drift.py's PUBLISHED list are not in the register, so each one "
+                 "excuses nobody and was probably renamed: %s"
+                 % (len(_stale_published), "; ".join(_stale_published)))
+
 WATCHED = ("connected", "high")
 for p in people:
     if p.get("aliasOf"):
@@ -156,7 +235,7 @@ for p in people:
         continue
     for m in re.finditer(r"\*\*\*\s*(.+?)\s*\*\*\*", p.get("note") or "", re.S):
         claim = m.group(1)
-        if SKIP.match(claim):
+        if SKIP.match(claim) or BOOKKEEPING.search(claim):
             continue
         # A short claim is not a weak one. "HIS PARENTS ARE NOW NAMED: LUIS LERENA and
         # JUSTINIANA LENGUAS" has only two distinctive words once stopwords go, and a

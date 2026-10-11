@@ -5,6 +5,11 @@
    "date": "2026-10-11",
    "commits": [
     {
+     "sha": "26c8f42",
+     "subject": "Record the two plates the audit re-read",
+     "body": "Both are reads of film 007713376, and the second is the control for the first.\nImage 01689 deleted a person: the act says \"Nieto Pat.o de D. JOAQUIN RODRIG.z\"\nwhere this archive's own page had quoted it with DOMINGO inside square brackets.\nImage 00601 is the other grandchild's act, read to see whether the two name the\nsame paternal grandparents - they do, which is what licensed merging the two\nJuanas rather than leaving the merge on a single reading.\n63 searched rows."
+    },
+    {
      "sha": "acec392",
      "subject": "A dek that said eight while the eyebrow counted nine",
      "body": "/tree/ renders its eyebrow from the chart - `${drawn} people` - and had the\nsentence under the title typed by hand: \"eight people, and then the doors\nclose\". The chart reached NINE and the sentence stayed at eight, so the page\ncontradicted itself in two lines of the same heading. A number written beside a\nnumber that computes itself will always lose, so the dek computes too, spelling\nit in words as the prose wants.\nSwept the rest of the site for the same shape - spelled numbers next to people,\nlanes, walls, generations, children - and the others hold: Sancho's EIGHT\nchildren at Canelones, the Taylors' NINE, Gilberto's EIGHT by Julia Salvanach\nare three different families, not one disagreement.\n/uruguay/ was contradicting itself at distance. Near the top it says Socorro's\nparents \"are not named, so that link is inferred and not proved\"; two hundred\nlines down, the 1855 and 1858 expedientes make her and Bernabe both children of\nAlejandro and Margarita, and the page says so plainly - \"it was an inference for\na day and it is a document now\". No gate can see this one: check-superseded.py\nfires on claims RETRACTED in corrections.tsv, and this was never wrong, only\nopen, and then closed. The inference is left standing where it was written,\nbecause the point of it is that it was made before the document was found - with\na forward pointer, so a reader meeting it first does not have to scroll to learn\nthat it closed."

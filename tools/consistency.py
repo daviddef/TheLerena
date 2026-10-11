@@ -275,8 +275,12 @@ def key(nm):
 # Collisions somebody has looked at. Adding a pair here is a claim that someone checked,
 # so it carries the reason. The sibling Blazevic archive keeps its CHECKED_SHARED the same way.
 CHECKED_PAIRS = {
-    ("Bartolome LLERENA - Cordoba origin", "Bartolome LLERENA"):
-        "deliberate: the second row is a cross-reference pointing at the Cordoba Llerena family",
+    # RETIRED 11 October 2026: "Bartolome LLERENA - Cordoba origin" is no longer a row - the
+    # cross-reference it described was removed when the Cordoba family was written up properly -
+    # so this pair excused a person who does not exist. Kept as a comment rather than deleted,
+    # because the next session should see that an entry here can outlive its people:
+    #   ("Bartolome LLERENA - Cordoba origin", "Bartolome LLERENA"):
+    #       "deliberate: the second row is a cross-reference pointing at the Cordoba Llerena family",
     ("Maria Luisa Lina LERENA Gazo", "Maria Luisa LERENA"):
         "different people: Ysaac's daughter at Trinidad in 1875, and Gilberto's in the 1895 census",
     ("Maria E. LERENA", "Maria E. C. LERENA"):
@@ -311,6 +315,20 @@ CHECKED_PAIRS = {
         "1880 - at the CATEDRAL BASILICA, not the Union, which is where this archive put it until the plate was read. A Lerena naming habit, not one person",
 }
 CHECKED_PAIRS = {tuple(sorted(k)): v for k, v in CHECKED_PAIRS.items()}
+
+# *** THE COMMENT ABOVE PROMISED A CHECK THAT DID NOT EXIST. 11 October 2026. ***
+# The Carolina Suarez entry says plainly that "a renamed row silently un-declares its own pair,
+# which is why this list is checked after every rename". Nothing checked it, and on the day this
+# was written one of the nine pairs named a person the register no longer held. The same audit
+# found THREE stale names in the sibling list in tools/drift.py. A comment is not a check, and an
+# exception list is the one place in an archive where rot is invisible BY DESIGN: it exists to
+# make a warning stop, so when it decays the warning simply comes back wearing a new name and
+# somebody adds a second entry for the same thing.
+_known = {p["name"] for p in people}
+_stale_pairs = sorted({n for pair in CHECKED_PAIRS for n in pair if n not in _known})
+if _stale_pairs:
+    soft.append("%d name(s) in CHECKED_PAIRS are not in the register, so those pairs excuse "
+                "nobody and were probably renamed: %s" % (len(_stale_pairs), "; ".join(_stale_pairs)))
 seen_key = {}
 for p in people:
     k = key(p["name"])
