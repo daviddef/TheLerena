@@ -912,5 +912,29 @@
    "full-text"
   ],
   "note": "A NULL THAT THE CONTROL EXPLAINED RATHER THAN MERELY VALIDATED, WHICH IS THE USEFUL KIND. 'Pablo Armando Lerena' returns ZERO. 'Juan Carlos Lerena' returns two, both Uruguayan - the Montevideo dispensation this archive already holds, and a Montevideo death of 2001. THE CONTROL WAS RUN AFTER THE NULL: 'Rosario de Santa Fe' returns 245 pages, so the instrument works and it does reach ARGENTINA. BUT THE ARGENTINE HOLDINGS IT SURFACES ARE BUENOS AIRES PROBATE ESTATE CASE FILES, SHIP INSPECTION FILES AND NOTARIAL RECORDS - NOT SANTA FE PARISH REGISTERS. So this is a COVERAGE null, not an absence, and it says nothing about whether the Rosario act exists. Without that control the same zero could have been written up as a third independent confirmation that the baptism is not there. IT ALSO OPENED A RECORD CLASS THIS ARCHIVE HAS NEVER TOUCHED - Buenos Aires probate and ship inspection files, which are indexed by CASE TITLE and so are invisible to the record index and reachable only by full text."
+ },
+ {
+  "src": "FamilySearch FULL TEXT - \"Lerena\" filtered to ARGENTINA (700 results), first 20 read",
+  "url": "https://www.familysearch.org/search/full-text/results?q.text=Lerena&c.recordPlace2=on&f.recordPlace1=8%2CArgentina&c.recordPlace1=on&f.recordPlace0=8",
+  "film": null,
+  "waypoint": null,
+  "what": "Opening work-list row 200 - the Buenos Aires probate, notarial and ship-inspection seam, a record class this archive had never touched, found while running a control an hour earlier.",
+  "when": "2026-10-11",
+  "outcome": "yield",
+  "pages": "results 1-20 of 700",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "larena",
+   "buenos aires",
+   "entre rios",
+   "san jose de flores",
+   "argentina",
+   "spain",
+   "familysearch",
+   "full-text",
+   "probate"
+  ],
+  "note": "THE SHAPE OF THE SEAM: 'Lerena' returns 44,012 full-text results worldwide, 9,516 in South America, 700 in ARGENTINA. The largest Argentine collection by far is BUENOS AIRES CITY LEGAL 1522-2011 with 503 - probate estate case files and notarial records, which are indexed by CASE TITLE and therefore invisible to the record index. Catholic Church Records give 12, Migrations 20, Civil Registration 3. THERE IS NO SANTA FE COLLECTION AT ALL, which is why the Rosario baptism cannot be found here and why that null means nothing. THREE LEADS IN THE FIRST TWENTY: a RAMON LERENA signing as ALCALDE in a Buenos Aires probate file of 1800; a VICENTE LERENA DIAZ keeping the civil register at Pueblo Brugo, Parana, ENTRE RIOS in 1938 - the compound matching Arturo Lerena Garcia x Amalia Diaz; and SPANISH-BORN Eloy, Felisa and Gregorio Lerena in San Jose de Flores baptisms of 1909-1912, where this archive holds a Felisa and a Gregorio from passenger lists and nothing else. ALL ARE OCR SNIPPETS AND NO ACT WAS OPENED; no register rows were created from them. A PRACTICAL NOTE FOR THE NEXT SESSION: the Place filter is behind an 'Expand Place' button and its checkboxes are off-canvas to a click, but once applied the filter is in the URL above and can be reused directly."
  }
 ]

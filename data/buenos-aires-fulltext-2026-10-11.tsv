@@ -1,0 +1,30 @@
+# *** THE BUENOS AIRES FULL-TEXT SEAM, OPENED 11 OCTOBER 2026 - ROW 200's FIRST HARVEST. ***
+#
+# *** HOW TO GET BACK HERE, because the filter cost more than the search did. *** The full-text
+# results page hides its Place filter behind an "Expand Place" button and the checkboxes are
+# off-canvas to a click. Once applied, the filter lives in the URL and can be reused directly:
+#
+#   https://www.familysearch.org/search/full-text/results?q.text=Lerena
+#     &c.recordPlace2=on&f.recordPlace1=8%2CArgentina&c.recordPlace1=on&f.recordPlace0=8
+#
+# *** THE NUMBERS: "Lerena" returns 44,012 full-text results worldwide, 9,516 in South America,
+# 700 in ARGENTINA. *** Of the Argentine COLLECTIONS, the largest by far is
+# *** "Buenos Aires City, LEGAL, 1522-2011" with 503 *** - probate estate case files and notarial
+# records. Catholic Church Records give 12, Migrations 20, Civil Registration 3.
+#
+# *** AND THE ABSENCE IS AS INFORMATIVE AS THE PRESENCE: THERE IS NO SANTA FE COLLECTION AT ALL. ***
+# That is why "Pablo Armando Lerena" returns zero from this instrument, and it is why that zero
+# says nothing about whether his baptism exists. See data/gaps.tsv.
+#
+# *** EVERYTHING BELOW IS A SEARCH-RESULT SNIPPET AND NOT A READ ACT. *** These are OCR fragments
+# with ellipses at both ends. *** NO REGISTER ROWS ARE CREATED FROM THEM *** and none should be
+# until the acts are opened. They are recorded as leads, with the exact book named, so that the
+# next session can open them rather than find them again.
+what the snippet says	where it is	why it matters, and what it is NOT
+*** "firmo Don RAMON LERENA Alcalde de la ..." ***, with "En dicho dia ... Yo Don RAMON LERENA Alcalde de la ..." - four separate matches on one file	*** Garcia, Clemente: Buenos Aires City. PROBATE ESTATE CASE FILES, 1800 ***	*** A RAMON LERENA ACTING AS AN ALCALDE IN BUENOS AIRES IN 1800 *** - signing, so holding office. This register's *** RAMON LERENA of Rosario-Colla *** is recorded as flourishing c.1800-1820 and sits at the apex of the kinship diagram the Cura Vicario of Trinidad drew in 1858. *** THE DATE FITS AND THE PLACE DOES NOT: Buenos Aires is across the river from Colla. *** This is a CANDIDATE and emphatically not a match; the archive has been burned by exactly this kind of resemblance before. *** THE TEST IS TO OPEN THE FILE *** and read what jurisdiction he was alcalde of.
+*** "ante mi VICENTE LERENA DIAZ de Registro ..." ***, four times, in the formula a civil registrar uses to close an entry	*** Libro de defunciones: Pueblo Brugo, Parana, ENTRE RIOS. Death Records, 1938 ***	*** THE COMPOUND IS THE POINT: LERENA DIAZ. *** This register holds *** ARTURO LERENA GARCIA married to AMALIA DIAZ *** - the Spanish journalist of the Chile file - and their children would be surnamed exactly this. *** It also holds ANTONIO LERENA DIAZ, who married Clara Henriette Knof in 1924. *** So a Lerena Diaz keeping the civil register of a village in Entre Rios in 1938 is plausibly that household's next generation. *** NOT ESTABLISHED. *** And it bears directly on work-list row 159, which asks for Entre Rios to be mapped.
+*** "de D. ELOY LERENA natural de ESPANA de ..." *** and *** "y de Dona FELISA LERENA natural de Espana ..." ***, with *** "D. GREGORIO LERENA y Dona ROSA DEFENARI" *** and "Daniel Gregorio Lerena Figueroa"	*** San Jose de Flores, Comuna 7, Buenos Aires City. BAPTISM RECORDS 1912 *** (the snippet's years span 1909-1912)	*** SPANISH-BORN LERENAS IN A BUENOS AIRES PARISH, NAMED AS SUCH ON THE ACT. *** This register already holds *** FELISA LERENA (arr. 1911) ***, *** FELISA LERENA (arr. 1923) ***, *** GREGORIO LERENA (arr. 1911) *** and *** GREGORIO LERENA (arr. 1924) *** - every one of them from CEMLA passenger lists and *** none of them with a single record on Argentine soil ***. Here are a Felisa and a Gregorio in a parish register, with Spain stated. *** THIS IS THE FIRST CHANCE TO TURN AN ARRIVAL INTO A LIFE ***, and it is also the parish of the 1918 Villademoros baptism this archive already holds. *** SNIPPET ONLY: no act opened, no identification made. ***
+#
+# *** WHAT WAS NOT DONE. *** Only the first twenty of seven hundred Argentine results were read, and
+# the 503 Buenos Aires LEGAL results were not filtered to on their own. *** THE SEAM IS BARELY
+# SCRATCHED *** and row 200 stays open.
