@@ -1,5 +1,14 @@
 # *** LAST DEMONSTRABLY ALIVE - computed by tools/last-alive.py, not typed. ***
 # *** BIRTH ONLY is not an attestation of life. *** It is the floor below which the
+# *** ALIVE AT is the one tier that is neither. *** It is a day this archive can
+# SHOW the person living - they appeared on a dated act and nothing marks them
+# dead - and it says nothing whatever about when they died. Taken only from a
+# row holding exactly one full date, because a richer note is likelier to hold
+# somebody else's: see the 8 October note in this tool.
+# SHOW the person living - they appeared on a dated act and nothing marks them
+# dead - and it says nothing whatever about when they died. Taken only from a
+# row holding exactly one full date, because a richer note is likelier to hold
+# somebody else's: see the 8 October bug in tools/last-alive.py.
 # person certainly existed, and it is exactly the row where 'named' and 'alive'
 # can diverge without anyone noticing.
 name	born_est	last_attested_alive	basis	tier
@@ -26,12 +35,12 @@ Lola LERENA	1873	1873	born_est only - a floor, not an attestation	BIRTH ONLY
 Martin LERENA	1893	1893	born_est only - a floor, not an attestation	BIRTH ONLY
 Jose M. LERENA	1893	1893	born_est only - a floor, not an attestation	BIRTH ONLY
 Domenico LERENA	1869	1869	born_est only - a floor, not an attestation	BIRTH ONLY
-Gregorio LERENA (arr. 1911)	1881	1881	born_est only - a floor, not an attestation	BIRTH ONLY
+Gregorio LERENA (arr. 1911)	1881	1912-Nov-10	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Felisa LERENA (arr. 1911)	1893	1893	born_est only - a floor, not an attestation	BIRTH ONLY
 Elisa LERENA	1887	1887	born_est only - a floor, not an attestation	BIRTH ONLY
 Sebastiana LERENA	1886	1886	born_est only - a floor, not an attestation	BIRTH ONLY
 Paolo LERENA	1891	1891	born_est only - a floor, not an attestation	BIRTH ONLY
-Juan Jose LERENA	1876	1876	born_est only - a floor, not an attestation	BIRTH ONLY
+Juan Jose LERENA	1876	1900-Nov-14	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Prudencio LERENA	1884	1884	born_est only - a floor, not an attestation	BIRTH ONLY
 Felisa LERENA (arr. 1923)	1891	1891	born_est only - a floor, not an attestation	BIRTH ONLY
 Luciano LERENA	1914	1914	born_est only - a floor, not an attestation	BIRTH ONLY
@@ -40,7 +49,7 @@ Juan LERENA	1920	1920	born_est only - a floor, not an attestation	BIRTH ONLY
 Justa LERENA	1921	1921	born_est only - a floor, not an attestation	BIRTH ONLY
 Gregorio LERENA (arr. 1924)	1880	1880	born_est only - a floor, not an attestation	BIRTH ONLY
 Jose LERENA	1908	1908	born_est only - a floor, not an attestation	BIRTH ONLY
-Gilberto LERENA (b.1879, arr. 1928)	1879	1879	born_est only - a floor, not an attestation	BIRTH ONLY
+Gilberto LERENA (b.1879, arr. 1928)	1879	1906-May-19	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Gilberto LERENA (b.1916, arr. 1928)	1916	1916	born_est only - a floor, not an attestation	BIRTH ONLY
 Emilio LERENA	1900	1900	born_est only - a floor, not an attestation	BIRTH ONLY
 Jose Maria LERENA	1906	1906	born_est only - a floor, not an attestation	BIRTH ONLY
@@ -73,7 +82,7 @@ Carmela LARENA	1892	1892	born_est only - a floor, not an attestation	BIRTH ONLY
 Leon Jose LERENA	1892	1892	born_est only - a floor, not an attestation	BIRTH ONLY
 Juan LARENA (Gualeguaychu)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Juan Antonio LARENA	1837	1908-Jun-1	explicit death date on this person's row	DEATH
-Victorino Severo LARENA	1878	1878	born_est only - a floor, not an attestation	BIRTH ONLY
+Victorino Severo LARENA	1878	1903-May-04	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Vicente Antonio LARENA	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 ROQUE LARENA	1881	1881	born_est only - a floor, not an attestation	BIRTH ONLY
 Antonio LARENA (Gualeguaychu, 1895 census)	1876	1876	born_est only - a floor, not an attestation	BIRTH ONLY
@@ -97,7 +106,7 @@ Vicenta LLERENA MORALES	1861	1927-Feb-22	explicit death date on this person's ro
 Pedro LLERENA	-	1917-May-11	explicit death date on this person's row	DEATH
 Susana LLERENA	1884	1908-Nov-30	explicit death date on this person's row	DEATH
 Maria LLERENA	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Rosa Maria EPPENS	1887	1887	born_est only - a floor, not an attestation	BIRTH ONLY
+Rosa Maria EPPENS	1887	1926-May-27	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Avelino Carlos LERENA (b.1904, Mendoza)	1904	1904	born_est only - a floor, not an attestation	BIRTH ONLY
 Adela CAMIGLIA	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Francisco LLERENA (Cordoba, m. Rafaela Daraz)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
@@ -123,12 +132,12 @@ Don Luis Eugenio LERENA LENGUAS	1845-02-09	1845-02-09	born_est only - a floor, n
 Dona Julia JUANICO	1842-11-23	1910-Jul-11	explicit death date on this person's row	DEATH
 Don Luis LERENA (the godfather) = probably Luis LERENA y Fernandez	1811-02-09	1811-02-09	born_est only - a floor, not an attestation	BIRTH ONLY
 Armando LERENA	1884	1884	born_est only - a floor, not an attestation	BIRTH ONLY
-Don Jaime HERRERA	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+Don Jaime HERRERA	-	1886-Nov-03	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Luis LERENA (son of Luis Lerena Lenguas)	1872	1872	born_est only - a floor, not an attestation	BIRTH ONLY
 Enrique LERENA Juanico	1873	1914-May-16	explicit death date on this person's row	DEATH
 Ema Sixta LERENA Juanico	1876-11-21	1876-11-21	born_est only - a floor, not an attestation	BIRTH ONLY
 Dr. Don Candido JUANICO	c.1812	c.1812	born_est only - a floor, not an attestation	BIRTH ONLY
-Dona Juliana Joaquina GONZALEZ	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+Dona Juliana Joaquina GONZALEZ	-	1886-Jul-06	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Dona Justiniana LENGUAS Gonzalez	c.1822	c.1822	born_est only - a floor, not an attestation	BIRTH ONLY
 Sancho LLERENA Aguilar	1767	1767	born_est only - a floor, not an attestation	BIRTH ONLY
 Laura Adela LERENA Juanico	1868-06-27	1868-06-27	born_est only - a floor, not an attestation	BIRTH ONLY
@@ -165,65 +174,65 @@ Luis LERENA (son of Cayetana Faustina)	1895-08-19	1895-08-19	born_est only - a f
 Cayetana Faustina LERENA	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Justiniana Mauricia Maxima LERENA LENGUAS	1843-07-30	1843-07-30	born_est only - a floor, not an attestation	BIRTH ONLY
 Alberto Octavio LERENA LENGUAS	1850-03-22	1850-03-22	born_est only - a floor, not an attestation	BIRTH ONLY
-Maria Ema LERENA LENGUAS	1857-06-27	1857-06-27	born_est only - a floor, not an attestation	BIRTH ONLY
+Maria Ema LERENA LENGUAS	1857-06-27	1857-Oct-07	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Sara JUANICO Lenguas (m. Casaravilla)	1866	1937	explicit death date on this person's row	DEATH
-Zara Sista Emirena JUANICO Lenguas	1869-10-14	1869-10-14	born_est only - a floor, not an attestation	BIRTH ONLY
+Zara Sista Emirena JUANICO Lenguas	1869-10-14	1870-Feb-16	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Celia JUANICO Lenguas	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 D. Enrique JUANICO (the godfather, an adult in 1843)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Mercedes GONZALEZ	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+Mercedes GONZALEZ	-	1843-Oct-04	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Carolina LERENA (de Martinez)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Julian MARTINEZ (husband of Carolina Lerena)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Carlos MARTINEZ Lerena	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Julian MARTINEZ Lerena	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Maria Angelica Julia LERENA Salvanach	1886	1886	born_est only - a floor, not an attestation	BIRTH ONLY
+Maria Angelica Julia LERENA Salvanach	1886	1886-Oct-31	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Don Cristobal SALVANACH	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Dona Angela ALVAREZ (wife of Cristobal Salvanach)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Don Rufino YURRAMENDI	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Enrique JUANICO Gonzalez (b.1841, Julia's brother)	1841-05-18	1841-05-18	born_est only - a floor, not an attestation	BIRTH ONLY
+Don Rufino YURRAMENDI	-	1886-Oct-31	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Enrique JUANICO Gonzalez (b.1841, Julia's brother)	1841-05-18	1841-May-18	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Alejandro LERENA TRAIBEL (formerly recorded as LERENA LENGUAS)	1843-05-29	1843-05-29	born_est only - a floor, not an attestation	BIRTH ONLY
 General Don Pedro LENGUAS	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Dona Carmen GONZALEZ (wife of Gen. Pedro Lenguas)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Dona Maria FERNANDEZ TRESGUERRAS (wife of Sancho)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Rodrigo FERNANDEZ (father of Maria)	c.1749	c.1749	born_est only - a floor, not an attestation	BIRTH ONLY
 Rosa FERNANDEZ (mother of Maria)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-D. Juan LENGUAS	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-D. Felipe LENGUAS	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+D. Juan LENGUAS	-	1846-Jan-07	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+D. Felipe LENGUAS	-	1850-Oct-07	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Dona Dominga CARVALLO	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Dona Sixta LENGUAS Gonzalez (2nd wife of Candido Juanico)	c.1837	c.1837	born_est only - a floor, not an attestation	BIRTH ONLY
-Josefa LERENA (godmother, 1885)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Alfredo COSTA	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+Josefa LERENA (godmother, 1885)	-	1885-Sep-10	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Alfredo COSTA	-	1885-Sep-10	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Don Antonio LENGUAS	1807	1807	born_est only - a floor, not an attestation	BIRTH ONLY
 Dona Juana GRANDAL	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Don Pascual GONZALEZ	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Dona Josefa GRANDAL	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Gilberto LERENA Salvanach (the younger, b.1878)	1878	1878	born_est only - a floor, not an attestation	BIRTH ONLY
-Maria Carlota LERENA Salvanach	1890	1890	born_est only - a floor, not an attestation	BIRTH ONLY
-Luis Felipe LERENA Salvanach	1892	1892	born_est only - a floor, not an attestation	BIRTH ONLY
+Maria Carlota LERENA Salvanach	1890	1890-Oct-29	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Luis Felipe LERENA Salvanach	1892	1892-Dec-30	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Cesar Alberto LERENA Salvanach	1896	1896	born_est only - a floor, not an attestation	BIRTH ONLY
-Horacio Alfredo LERENA Salvanach	1898	1898	born_est only - a floor, not an attestation	BIRTH ONLY
-Emma R. GABARRET	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+Horacio Alfredo LERENA Salvanach	1898	1898-Apr-23	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Emma R. GABARRET	-	1915-Nov-16	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Dona Carolina ORIBE (1st wife of Don Luis Lerena)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Justa Pastora LERENA (daughter of Sancho)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Manuel Zeferino BARROS	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+Manuel Zeferino BARROS	-	1831-Dec-13	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Juan Facundo Frutuoso BARROS Lerena	1831-11-27	1831-11-27	born_est only - a floor, not an attestation	BIRTH ONLY
 Hilario BARROS Llerena	1835	1835	born_est only - a floor, not an attestation	BIRTH ONLY
 Aurelio Eusebio BARROS Lerena	1833-09-14	1833-09-14	born_est only - a floor, not an attestation	BIRTH ONLY
 Dr. D. Damaso LARRANAGA (Vicar, 1833)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Dr. D. Juan Ciriaco OTAEGUI (priest, 1833)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Don Fructuoso RIVERA	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Dona Bernardina FRAGOSO de Rivera	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Jose Pando de BARROS	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Ana Maria CABALGANTE	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Abelino LERENA (godfather, 1833)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+Dr. D. Juan Ciriaco OTAEGUI (priest, 1833)	-	1833-Oct-19	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Don Fructuoso RIVERA	-	1831-Dec-13	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Dona Bernardina FRAGOSO de Rivera	-	1831-Dec-13	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Jose Pando de BARROS	-	1831-Dec-13	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Ana Maria CABALGANTE	-	1831-Dec-13	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Abelino LERENA (godfather, 1833)	-	1804-May-15	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Dominga Josefa LLERENA Fernandez (b.1804)	1804-05-13	1804-05-13	born_est only - a floor, not an attestation	BIRTH ONLY
 Jose (esclavo de Manuel Lopez, confirmed 1804)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Joseph PONTECELI	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Agueda RIVERO	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+Joseph PONTECELI	-	1804-May-15	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Agueda RIVERO	-	1804-May-15	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Pedro Antonio LERENA (son of Sancho)	1793-07-31	1793-07-31	born_est only - a floor, not an attestation	BIRTH ONLY
-Dona Vicenta VEGA	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+Dona Vicenta VEGA	-	1837-Jul-04	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Leonarda Margarita LERENA Vega	1837-02-20	1837-02-20	born_est only - a floor, not an attestation	BIRTH ONLY
-Don Romualdo VEGA	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Dona Andrea MAESTRE	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+Don Romualdo VEGA	-	1837-Jul-04	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Dona Andrea MAESTRE	-	1837-Jul-04	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Josefa in Gilberto's 1895 household (b. c.1852)	c.1852	c.1852	born_est only - a floor, not an attestation	BIRTH ONLY
 Josefa LERENA TRAIBEL (1851-1947)	1851-02-10	1947-Apr-2	explicit death date on this person's row	DEATH
 Avelino LERENA Fernandez (son of Sancho)	1815	1890-Aug-22	explicit death date on this person's row	DEATH
@@ -235,10 +244,10 @@ Jorge FEIN	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Carlos Alberto FEIN	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Maria Ines LARRIERA	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Eleiza (or Eloiza) LERENA LARRIERA	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Maria Adelina LERENA LARRIERA	1879-07-06	1879-07-06	born_est only - a floor, not an attestation	BIRTH ONLY
-Alberto Julian LERENA LARRIERA	1883-08-17	1883-08-17	born_est only - a floor, not an attestation	BIRTH ONLY
+Maria Adelina LERENA LARRIERA	1879-07-06	1879-Jul-06	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Alberto Julian LERENA LARRIERA	1883-08-17	1883-Aug-17	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Carlos Ambrosio Florencio LERENA LARRIERA	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Maria Consuelo LERENA LARRIERA	1892-12-30	1892-12-30	born_est only - a floor, not an attestation	BIRTH ONLY
+Maria Consuelo LERENA LARRIERA	1892-12-30	1892-Dec-30	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Maria Antonieta LERENA LARRIERA	1894-06-08	1894-06-08	born_est only - a floor, not an attestation	BIRTH ONLY
 Angel Miguel Avelino LERENA LARRIERA	1898-08-15	1898-08-15	born_est only - a floor, not an attestation	BIRTH ONLY
 Maria Ines LERENA LARRIERA (de GARDONE)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
@@ -249,23 +258,23 @@ Pedro Alberto Ysabelino LERENA Traibel (the ALBERTO of 1852-1921)	1852-03-16	192
 Mercedes LERENA (godmother, 1880)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Maria Carlota MORATORIO Lerena	1880-02-24	1880-02-24	born_est only - a floor, not an attestation	BIRTH ONLY
 Maria de las Mercedes MORATORIO Lerena	1880-02-24	1880-02-24	born_est only - a floor, not an attestation	BIRTH ONLY
-Francisco AZANOLA	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Manuela OTONDO	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Rafael YEREGUI (priest, 1880)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Fernando MORATORIO (the elder)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Nicolasa TORRES	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+Francisco AZANOLA	-	1880-Mar-08	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Manuela OTONDO	-	1880-Mar-08	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Rafael YEREGUI (priest, 1880)	-	1880-Mar-08	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Fernando MORATORIO (the elder)	-	1880-Mar-08	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Nicolasa TORRES	-	1880-Mar-08	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Alfredo Justiniano LERENA Traibel	1856-10-02	1856-10-02	born_est only - a floor, not an attestation	BIRTH ONLY
 Hermenegilda Carolina GAVAZZO (de LERENA)	c.1862	c.1862	born_est only - a floor, not an attestation	BIRTH ONLY
 Don Geronimo GAVAZZO	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Dona Carolina SUAREZ	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Don Carlos NAVIA	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+Don Carlos NAVIA	-	1892-Feb-03	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Ana Rosario LERENA Traibel	1855-01-14	1855-01-14	born_est only - a floor, not an attestation	BIRTH ONLY
-Don Juan TRAIBEL	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Dona Ysabel CENTENO	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Polonia TRAIBEL	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Justiniano LAVALLEJA	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Constantino LAVALLEJA	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Ana LAVALLEJA	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+Don Juan TRAIBEL	-	1858-Mar-12	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Dona Ysabel CENTENO	-	1858-Mar-12	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Polonia TRAIBEL	-	1858-Mar-12	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Justiniano LAVALLEJA	-	1858-Mar-12	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Constantino LAVALLEJA	-	1858-Mar-12	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Ana LAVALLEJA	-	1858-Mar-12	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Bernabe LERENA (1911 dispensation)	1862	1862	born_est only - a floor, not an attestation	BIRTH ONLY
 Maria LERENA (m. Eliseo CARDOZO)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Custodio LERENA	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
@@ -274,13 +283,13 @@ Florinda CARDOZO	1868	1868	born_est only - a floor, not an attestation	BIRTH ONL
 Eliseo CARDOZO	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Bernabe LERENA (the elder, of the 1911 diagram)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Custodio CARDOZO (the elder, of the 1911 diagram)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Celidonia B. de LERENA	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+Celidonia B. de LERENA	-	1903-Aug-15	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Maria Margarita Luisa ZALDUONDO Lerena	1903-06-21	1903-06-21	born_est only - a floor, not an attestation	BIRTH ONLY
 Eduardo ZALDUONDO	1860-08-15	1913-Aug-22	explicit death date on this person's row	DEATH
 Juan ZALDUONDO	1817	1817	born_est only - a floor, not an attestation	BIRTH ONLY
 Dolores POU de ZALDUONDO	1839	1839	born_est only - a floor, not an attestation	BIRTH ONLY
-Adolfo LERENA (godfather, Pocitos 1903)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Maria Angelica YUBIA	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+Adolfo LERENA (godfather, Pocitos 1903)	-	1903-Aug-15	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Maria Angelica YUBIA	-	1903-Aug-15	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Zelmira Carlota LERENA LARRIERA (m. Adolfo CORDERO)	1880-11-04	1984	explicit death date on this person's row	DEATH
 Justina LERENA (godmother, Trinidad 1891)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Capitan Don Antonio RUIZ [RODRIGUEZ] DE CARVALLO	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
@@ -289,28 +298,28 @@ Dona Juana SUAREZ	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Lucinda Gregoria del Corazon de Jesus RUIZ DE CARVALLO	1827-04-24	1827-04-24	born_est only - a floor, not an attestation	BIRTH ONLY
 Exmo Sr General Don Francisco de Paula MAGGESI	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Dona Carolina Amalia de la CONCEPCION	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Nicolas BENTENO	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+Nicolas BENTENO	-	1789-Jun-30	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Juana BENTENO Correa	1789-06-23	1789-06-23	born_est only - a floor, not an attestation	BIRTH ONLY
-Leonarda CORREA	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Agustin DONCEL (witness, 1789)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Juliana Josefa CORNEJO	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+Leonarda CORREA	-	1789-Jun-30	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Agustin DONCEL (witness, 1789)	-	1789-Jun-30	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Juliana Josefa CORNEJO	-	1789-Jun-30	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Domingo RODRIGUEZ DE CARVALLO	1840-08-04	1840-08-04	born_est only - a floor, not an attestation	BIRTH ONLY
 Don Domingo RODRIGUEZ (the elder, of la Colonia)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Dona Juana del ESPIRITU SANTO	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Juan Agustin LERENA Fernandez	1791	1791	born_est only - a floor, not an attestation	BIRTH ONLY
+Dona Juana del ESPIRITU SANTO	-	1840-Oct-25	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Juan Agustin LERENA Fernandez	1791	1812-May-15	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Agustina Ramona LERENA Fernandez	1795-08-27	1795-08-27	born_est only - a floor, not an attestation	BIRTH ONLY
-Don Fidel REY	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+Don Fidel REY	-	1795-Aug-30	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Fidel LERENA Fernandez	1799	1799	born_est only - a floor, not an attestation	BIRTH ONLY
-Felix LERENA (father of Sancho)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Rosalia AGUILAR (mother of Sancho)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+Felix LERENA (father of Sancho)	-	1811-Feb-10	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Rosalia AGUILAR (mother of Sancho)	-	1811-Feb-10	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Jose Loreto LERENA Fernandez	1806-12-10	1806-12-10	born_est only - a floor, not an attestation	BIRTH ONLY
-Jose MARTINEZ DE LA VEGA	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+Jose MARTINEZ DE LA VEGA	-	1806-Dec-11	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 JUANA (enslaved in Sancho Llerena's household)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 MARIA MERCEDES (daughter of Juana, enslaved)	1812-09-24	1812-09-24	born_est only - a floor, not an attestation	BIRTH ONLY
-Catalina MARTINEZ (madrina, 1812)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+Catalina MARTINEZ (madrina, 1812)	-	1812-Sep-26	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Juan Carlos GONZALEZ LERENA (m. 1920s, Montevideo)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Rafael LLERENA (Buenos Aires, b. c.1881)	1881	1881	born_est only - a floor, not an attestation	BIRTH ONLY
-Juan Carlos LLERENA (b. Buenos Aires 1910)	1910-07-16	1910-07-16	born_est only - a floor, not an attestation	BIRTH ONLY
+Juan Carlos LLERENA (b. Buenos Aires 1910)	1910-07-16	1910-Jul-16	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Maria Carlota AMADEO LASTRA	c.1883	c.1883	born_est only - a floor, not an attestation	BIRTH ONLY
 Alejandrina LLERENA (madrina, Buenos Aires 1910)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Victor LERENA (d.1889, alpargatero)	1861	1861	born_est only - a floor, not an attestation	BIRTH ONLY
@@ -321,7 +330,7 @@ Jose SEGUEIRA	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Ramona (wife of Jose SEGUEIRA)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Mauricio LERENA (of Colla/Rosario, m. Casimira Montano 1837)	c.1815	c.1815	born_est only - a floor, not an attestation	BIRTH ONLY
 Ramon LERENA (of Rosario-Colla, fl. 1794-1820)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Maria Josefa GONZALEZ (wife of Ramon LERENA of Colla)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+Maria Josefa GONZALEZ (wife of Ramon LERENA of Colla)	-	1825-Sep-16	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Dona Casimira MONTANO (wife of Mauricio LERENA)	1821	1821	born_est only - a floor, not an attestation	BIRTH ONLY
 ANTONIO (enslaved in Sancho Lerena's household, 1812)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 JOSE (enslaved in Sancho Lerena's household, 1812)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
@@ -331,14 +340,14 @@ Emilia LERENA Vega (b. c.1815)	c.1815	c.1815	born_est only - a floor, not an att
 Pedro LERENA Vega (b. c.1817)	c.1817	c.1817	born_est only - a floor, not an attestation	BIRTH ONLY
 Vicenta LERENA Vega (b. c.1821)	c.1821	c.1821	born_est only - a floor, not an attestation	BIRTH ONLY
 Maria LLERENA (Espanola, 60, head of Casa 2)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Cipriana SAENZ PENA (indexed also Cepriana Saens Pena)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+Cipriana SAENZ PENA (indexed also Cepriana Saens Pena)	-	1906-May-19	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Justo LERENA (of the Cordon)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Juana QUINTANA (wife of Justo LERENA)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Carmen LERENA (d. 1841, aged three)	1838	1838	born_est only - a floor, not an attestation	BIRTH ONLY
 Carlos LERENA (of Mendoza, m. Adela CAMIGLIA)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Avelino Eduardo LERENA Traibel	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Celedonia VILLADEMOROS (wife of Avelino Eduardo)	1842	1842	born_est only - a floor, not an attestation	BIRTH ONLY
-Avelino Pedro Joaquin Silvestre LERENA Villademoros	1865-12	1865-12	born_est only - a floor, not an attestation	BIRTH ONLY
+Avelino Pedro Joaquin Silvestre LERENA Villademoros	1865-12	1866-Mar-05	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Pedro Segundo LERENA Villademoros	c.1870	c.1870	born_est only - a floor, not an attestation	BIRTH ONLY
 Avelino LERENA Villademoros (d. 1914)	c.1869	c.1869	born_est only - a floor, not an attestation	BIRTH ONLY
 Paulina PRANDO Algar	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
@@ -349,20 +358,20 @@ Alejandro Joaquin Narciso LERENA Villardemoros	1872-10-29	1872-10-29	born_est on
 Sofia CLAVIJO (wife of Pedro LLERENA)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Isabel LLERENA Clavijo	1895-11-14	1895-11-14	born_est only - a floor, not an attestation	BIRTH ONLY
 Celina LLERENA Clavijo	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Telma LLERENA	1900-05-02	1900-05-02	born_est only - a floor, not an attestation	BIRTH ONLY
-Tomasa Cantidia LLERENA	1903-02-12	1903-02-12	born_est only - a floor, not an attestation	BIRTH ONLY
+Telma LLERENA	1900-05-02	1900-May-02	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Tomasa Cantidia LLERENA	1903-02-12	1903-Feb-12	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Emilia ANTELO (wife of Juan Facundo Frutuoso BARROS Lerena)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Alejandro M. LERENA (m.1 Elisa VILLADEMOROS; m.2 Julia BASSANI)	1844	1844	born_est only - a floor, not an attestation	BIRTH ONLY
-Julia BASSANI	1864	1864	born_est only - a floor, not an attestation	BIRTH ONLY
+Julia BASSANI	1864	1886-Nov-06	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Hector Narciso LERENA Bassani	1886-10-29	1886-10-29	born_est only - a floor, not an attestation	BIRTH ONLY
 Emilia Alberta LERENA Bassani	1888-03-16	1888-03-16	born_est only - a floor, not an attestation	BIRTH ONLY
 Julia SALVANACH	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Angelica Maria LERENA Villademoros	1872-04-08	1872-04-08	born_est only - a floor, not an attestation	BIRTH ONLY
 Dona Angelica VILLADEMOROS (godmother 1873)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Jacinta Mercedes Gregoria LERENA Villademoros	1876-09-19	1876-09-19	born_est only - a floor, not an attestation	BIRTH ONLY
-Amalia CASAS (wife of Alejandro Joaquin LERENA)	1880	1880	born_est only - a floor, not an attestation	BIRTH ONLY
-Don Cornelio CASAS	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Dona Raimunda PEREDA	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+Amalia CASAS (wife of Alejandro Joaquin LERENA)	1880	1907-Jun-20	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Don Cornelio CASAS	-	1907-Jun-20	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Dona Raimunda PEREDA	-	1907-Jun-20	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Fernando MORATORIO (the younger)	1847	1847	born_est only - a floor, not an attestation	BIRTH ONLY
 Petrona LOPEZ (wife of Juan LARENA)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Vicenta Mercedes FUENTES (wife of Vicente Antonio LARENA)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
@@ -384,7 +393,7 @@ Kathleen Georgina TAYLOR	1870-11-04	1940-Feb-29	explicit death date on this pers
 William John TAYLOR	1870-11	1951-May-11	explicit death date on this person's row	DEATH
 Horace Archibald TAYLOR	1872-04-01	1934-Jan-18	explicit death date on this person's row	DEATH
 Isabella Temple TAYLOR ("Edie"; m. DALLING)	1874-09-10	1953-Dec	explicit death date on this person's row	DEATH
-Margaret Hellen Walker TAYLOR ("Maggie"; Helen in the baptism register; m. BELL)	1876-10-01	1876-10-01	born_est only - a floor, not an attestation	BIRTH ONLY
+Margaret Hellen Walker TAYLOR ("Maggie"; Helen in the baptism register; m. BELL)	1876-10-01	1903-Nov-22	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Irene TAYLOR ("Rene"; m. BURTON)	1879-02-01	1969-Mar-25	explicit death date on this person's row	DEATH
 Lucy Elizabeth TAYLOR (m. SWEET)	1881-08-04	1957-May-26	explicit death date on this person's row	DEATH
 Agnes Walker TAYLOR ("Aggie"; m. WOOD)	1889-08-03	1974-Apr-29	explicit death date on this person's row	DEATH
@@ -392,19 +401,19 @@ John BRAILEY	1814-08-14	1814-08-14	born_est only - a floor, not an attestation	B
 Georgina TEMPLE	1814-08-23	1814-08-23	born_est only - a floor, not an attestation	BIRTH ONLY
 Isabella BRAILEY	1841-01-01	1841-01-01	born_est only - a floor, not an attestation	BIRTH ONLY
 John Walker BRAILEY	1845-06-22	1900	explicit death date on this person's row	DEATH
-Georgina Margaret BRAILEY	1850-07-01	1850-07-01	born_est only - a floor, not an attestation	BIRTH ONLY
+Georgina Margaret BRAILEY	1850-07-01	1851-Mar-30	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Pierre Frederick LERENA	1948-05-10	1999-Nov-12	explicit death date on this person's row	DEATH
 Gayle LERENA (born PRESTON)	1950	1950	born_est only - a floor, not an attestation	BIRTH ONLY
 Richard LERENA	1986-01-02	1999-Nov-12	explicit death date on this person's row	DEATH
 Jeffrey LERENA	1991-01-02	1991-01-02	born_est only - a floor, not an attestation	BIRTH ONLY
-Mercedes LERENA (m. Luis P. Marquez 1883)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+Mercedes LERENA (m. Luis P. Marquez 1883)	-	1883-Jul-09	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Maria LERENA (of Trinidad, m. Maximo Pelaez 1885)	1869	1869	born_est only - a floor, not an attestation	BIRTH ONLY
-Maria Elena LERENA (m. 1906, mixed religion)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+Maria Elena LERENA (m. 1906, mixed religion)	-	1906-Nov-10	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Florinda Juana LERENA (of Trinidad, m. Vitalino Gregorio Pelaez 1913)	1891	1891	born_est only - a floor, not an attestation	BIRTH ONLY
 Eduardo LERENA (m. Maria Mercedes Razzello 1919)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Adolfo Maximo CORDERO (m. Zelmira Carlota Lerena 1904)	1875	1875	born_est only - a floor, not an attestation	BIRTH ONLY
-Casimira CHAVARRIA (m. Adolfo M. Cordero)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Adolfo M. CORDERO (the elder)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+Adolfo Maximo CORDERO (m. Zelmira Carlota Lerena 1904)	1875	1904-Feb-28	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Casimira CHAVARRIA (m. Adolfo M. Cordero)	-	1904-Feb-28	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Adolfo M. CORDERO (the elder)	-	1904-Feb-28	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Socorro LERENA (m. Serapio Fernandez the elder)	1832	1832	born_est only - a floor, not an attestation	BIRTH ONLY
 Serapio FERNANDEZ (the elder, d. by 1897)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Serapio FERNANDEZ (m. Antonina Lerena 1885)	1856	1856	born_est only - a floor, not an attestation	BIRTH ONLY
@@ -412,10 +421,10 @@ Antonina LERENA (b. c.1862, dau. of Bernabe; m. Serapio Fernandez 1885)	1862	186
 Antonina LERENA (the elder, m. Juan PELAEZ)	1819	1819	born_est only - a floor, not an attestation	BIRTH ONLY
 Maria PELAEZ (m. Rafael Sanchez 1880)	1850	1850	born_est only - a floor, not an attestation	BIRTH ONLY
 Juan PELAEZ (m. Antonina LERENA)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Cayetano Alberto FERNANDEZ (b.1897)	1897-08-07	1897-08-07	born_est only - a floor, not an attestation	BIRTH ONLY
-Vitalino Gregorio PELAEZ (m. Florinda Juana Lerena 1913)	1888	1888	born_est only - a floor, not an attestation	BIRTH ONLY
+Cayetano Alberto FERNANDEZ (b.1897)	1897-08-07	1897-Aug-07	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Vitalino Gregorio PELAEZ (m. Florinda Juana Lerena 1913)	1888	1922-Mar-10	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Maximo PELAEZ (m. Maria Lerena 1885)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Anibal Marino PELAEZ	1922-03-03	1922-03-03	born_est only - a floor, not an attestation	BIRTH ONLY
+Anibal Marino PELAEZ	1922-03-03	1922-Mar-03	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Nepomuceno Teofilo LERENA	1905-10-13	1905-10-13	born_est only - a floor, not an attestation	BIRTH ONLY
 Eduviges PELAEZ (m. Juan Lerena 1894)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Eduviges FLORENCIO (m. Juan PELAEZ)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
@@ -423,35 +432,35 @@ Alejandro LERENA (the elder, m. Margarita Fernandez Alvarez)	-	-	born_est only -
 Margarita FERNANDEZ ALVAREZ (wife of Alejandro LERENA the elder)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Alejandro LERENA (the younger, m.1 Isidora Chourino, m.2 Severa Fernandez 1854)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Isidora CHOURINO (first wife of Alejandro LERENA the younger)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Severa FERNANDEZ (m. Alejandro LERENA the younger, 1854)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+Severa FERNANDEZ (m. Alejandro LERENA the younger, 1854)	-	1854-Dec-02	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Manuel FERNANDEZ ALVAREZ (m. Maria de los Reyes Gonzalez)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Maria de los Reyes GONZALEZ (wife of Manuel FERNANDEZ ALVAREZ)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+Maria de los Reyes GONZALEZ (wife of Manuel FERNANDEZ ALVAREZ)	-	1854-Dec-02	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Malvino PELAEZ (son of Juan PELAEZ and Antonina LERENA)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Antonio Eusebio PELAEZ	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Abdona Ignacia LERENA (d. 1850, aged 7 days)	1850	1850	born_est only - a floor, not an attestation	BIRTH ONLY
 Carmen Donata LERENA Beloqui	1895-02-17	1895-02-17	born_est only - a floor, not an attestation	BIRTH ONLY
-Pedro BELOQUI (father of Lauriana BELOQUI)	1830	1830	born_est only - a floor, not an attestation	BIRTH ONLY
+Pedro BELOQUI (father of Lauriana BELOQUI)	1830	1895-Mar-02	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Dorotea DELGADO (wife of Pedro BELOQUI)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Mauricio LERENA (b. c.1836, of the First Section of Flores)	1836	1836	born_est only - a floor, not an attestation	BIRTH ONLY
-Jose MONTANO (father of Casimira MONTANO)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Ignacia BARREDO (mother of Casimira MONTANO)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Juan FERNANDEZ ALVAREZ (m. Barbara Sotura)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Barbara SOTURA (wife of Juan FERNANDEZ ALVAREZ)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Maria FERNANDEZ ALVAREZ (godmother, 1825)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Marcos de LEON GONZALEZ (godfather, 1825)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Maria Adela LERENA Carniglia	1899	1899	born_est only - a floor, not an attestation	BIRTH ONLY
+Jose MONTANO (father of Casimira MONTANO)	-	1837-Feb-03	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Ignacia BARREDO (mother of Casimira MONTANO)	-	1837-Feb-03	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Juan FERNANDEZ ALVAREZ (m. Barbara Sotura)	-	1825-Sep-16	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Barbara SOTURA (wife of Juan FERNANDEZ ALVAREZ)	-	1825-Sep-16	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Maria FERNANDEZ ALVAREZ (godmother, 1825)	-	1825-Sep-16	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Marcos de LEON GONZALEZ (godfather, 1825)	-	1825-Sep-16	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Maria Adela LERENA Carniglia	1899	1900-Jan-06	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Maria Mercedes LERENA Carniglia	1902-03-10	1902-03-10	born_est only - a floor, not an attestation	BIRTH ONLY
-Mercedes LERENA de MARTINEZ (godmother, Mendoza 1902)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Eduardo CARNIGLIA (godfather, Mendoza 1902)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+Mercedes LERENA de MARTINEZ (godmother, Mendoza 1902)	-	1902-Apr-23	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Eduardo CARNIGLIA (godfather, Mendoza 1902)	-	1902-Apr-23	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Arturo LERENA GARCIA (m. Amalia Diaz)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Amalia DIAZ (wife of Arturo LERENA GARCIA)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Juan Fernando LERENA Diaz (d. 1894, Valparaiso)	1893	1893	born_est only - a floor, not an attestation	BIRTH ONLY
 Antonio LERENA Diaz (m. Clara Henriette Knof 1924)	1896	1896	born_est only - a floor, not an attestation	BIRTH ONLY
 Clara Henriette KNOF (m. Antonio Lerena Diaz 1924)	1909	1909	born_est only - a floor, not an attestation	BIRTH ONLY
 Otto KNOF (d. before 1924)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Ida PONTOPHIDAN (wife of Otto KNOF)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Enrique Carlos LERENA (clase 1899, Distrito Militar 3)	1899	1899	born_est only - a floor, not an attestation	BIRTH ONLY
-Concepcion LERENA (mother of Enrique Carlos, clase 1899)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+Ida PONTOPHIDAN (wife of Otto KNOF)	-	1924-Oct-24	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Enrique Carlos LERENA (clase 1899, Distrito Militar 3)	1899	1917-May-15	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Concepcion LERENA (mother of Enrique Carlos, clase 1899)	-	1917-May-15	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Alejandrina LERENA (m. Balbino PELAEZ)	1852	1852	born_est only - a floor, not an attestation	BIRTH ONLY
 Juan Fabian PELAEZ (son of Juan Pedro PELAEZ and Antonina LERENA)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Amador LERENA Pelaez (d. 1937, Durazno)	1901	1901	born_est only - a floor, not an attestation	BIRTH ONLY
@@ -459,26 +468,26 @@ Luis PELAEZ Lerena (confirmed, Trinidad 1891-1905)	-	-	born_est only - a floor, 
 Aurora PELAEZ Lerena (confirmed, Trinidad 1891-1905)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Margarita LERENA (godmother, Trinidad 1891-1905)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Pedro S. LERENA (of Tejera, Durazno, 1915)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Eugenio Marcos ABELLA (m. Jacinta Lerena Villademoros)	1876	1876	born_est only - a floor, not an attestation	BIRTH ONLY
+Eugenio Marcos ABELLA (m. Jacinta Lerena Villademoros)	1876	1918-Jan-20	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Beatriz Eliza del Corazon de Jesus ABELLA Lerena	1917-11-17	1917-11-17	born_est only - a floor, not an attestation	BIRTH ONLY
 Eduardo Avelino ZALDUANDO Lerena (m. Maria Ester Costa 1927)	1901	1901	born_est only - a floor, not an attestation	BIRTH ONLY
 Maria Ester COSTA (m. Eduardo Avelino Zalduando 1927)	1903	1903	born_est only - a floor, not an attestation	BIRTH ONLY
 Maria Elena ZALDUONDO Lerena	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Agustin RIVA (witness, 1897)	1859	1859	born_est only - a floor, not an attestation	BIRTH ONLY
-Gallo PAREJA (Juez de Paz, 4a seccion, 1897)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Casimira LERENA (m. Juan Basilio CARDOZO 1889)	1869	1869	born_est only - a floor, not an attestation	BIRTH ONLY
-Juan Basilio CARDOZO (m. Casimira Lerena 1889)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+Agustin RIVA (witness, 1897)	1859	1897-Nov-20	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Gallo PAREJA (Juez de Paz, 4a seccion, 1897)	-	1897-Nov-20	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Casimira LERENA (m. Juan Basilio CARDOZO 1889)	1869	1889-Apr-25	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Juan Basilio CARDOZO (m. Casimira Lerena 1889)	-	1889-Apr-25	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Alejandro F. LERENA (m. Natalia LERENA)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Natalia LERENA (m. Alejandro F. LERENA)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+Natalia LERENA (m. Alejandro F. LERENA)	-	1891-Jul-27	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Aurora LERENA Fernandez (m. Manuel VAQUERO)	1868	1868	born_est only - a floor, not an attestation	BIRTH ONLY
 Manuel VAQUERO (m. Aurora Lerena)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Manuel LERENA (son of Mauricio, m. Jacinta Marina 1882)	1856	1856	born_est only - a floor, not an attestation	BIRTH ONLY
 Manuel LERENA Leonard (m. Juana Galarza 1890)	1866	1866	born_est only - a floor, not an attestation	BIRTH ONLY
 Teresa LEONARD (m. Pedro Antonio LERENA)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Juana GALARZA (m. Manuel Lerena Leonard 1890)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Jacinta MERINA Santos (m. Manuel Lerena Montano 1882)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+Jacinta MERINA Santos (m. Manuel Lerena Montano 1882)	-	1882-Apr-01	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Manuel Vicente LERENA Marino (m. 1910, Florida)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Felicia LERENA (dau. of Mauricio, m. 19 Dec 1874 San Jose)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+Felicia LERENA (dau. of Mauricio, m. 19 Dec 1874 San Jose)	-	1874-Dec-19	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Estefania LERENA (m. Servando GONZALEZ)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Servando GONZALEZ (m. Estefania Lerena)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Olegaria LERENA (mother of Juana de las Nieves)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
@@ -487,16 +496,16 @@ Felicia Clementina LERENA (m. 1886, Montevideo)	1868	1868	born_est only - a floo
 Manuela LEMOS (m. Pedro A. LERENA)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Juana FERREIROZ (m. Manuel LERENA)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Felicia LERENA Ferreiroz (b. 6 May 1891)	1891-05-06	1891-05-06	born_est only - a floor, not an attestation	BIRTH ONLY
-Felicia Leoncia LERENA (dau. of Bernabe and Florinda)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+Felicia Leoncia LERENA (dau. of Bernabe and Florinda)	-	1888-Mar-22	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Emilio Isidoro LERENA Recuero (b. 1906)	1906-01-02	1906-01-02	born_est only - a floor, not an attestation	BIRTH ONLY
 Emilio LERENA (m. Paula CASARES)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Paula CASARES (m. Emilio LERENA)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Pedro VILLADEMOROS (d. before Dec 1871)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Angelica MENDEZ de VILLADEMOROS (d. before Dec 1871)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Dr. D. Joaquin REQUENA (witness, 1871)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Eloy LERENA (natural de Espana, m. Felisa LERENA)	1886	1886	born_est only - a floor, not an attestation	BIRTH ONLY
+Dr. D. Joaquin REQUENA (witness, 1871)	-	1871-Dec-28	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Eloy LERENA (natural de Espana, m. Felisa LERENA)	1886	1912-Nov-10	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Juana LERENA (b. 25 June 1912, Buenos Aires)	1912-06-25	1912-06-25	born_est only - a floor, not an attestation	BIRTH ONLY
-Rosa DEFENARI (godmother, Buenos Aires 1912)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+Rosa DEFENARI (godmother, Buenos Aires 1912)	-	1912-Nov-10	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Violeta Blanca LERENA Cardozo	1915-10-29	1915-10-29	born_est only - a floor, not an attestation	BIRTH ONLY
 Carlos Rey LERENA Pelaez	1915-01-18	1915-01-18	born_est only - a floor, not an attestation	BIRTH ONLY
 Elidia Margarita LERENA Cardozo	1897-03-12	1897-03-12	born_est only - a floor, not an attestation	BIRTH ONLY
@@ -516,11 +525,11 @@ Ismael LERENA (father, Trinidad 1917)	-	-	born_est only - a floor, not an attest
 Juan Jose ZALDUANDO Pou (brother of Eduardo)	1864	1864	born_est only - a floor, not an attestation	BIRTH ONLY
 Elisa CARLEVARO (m. Juan Jose Zalduando)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Maria Elisa ZALDUANDO Carlevaro	1912-11-17	1912-11-17	born_est only - a floor, not an attestation	BIRTH ONLY
-Rafael COSTA (father of Maria Ester)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+Rafael COSTA (father of Maria Ester)	-	1927-Dec-20	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Leontina SOASANI (mother of Maria Ester)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Canonigo D. Martin PINERO (officiated 1871)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Jose M. OJEDA (parroco, Cordon 1871)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Presbitero D. Antonio JENARA (baptised 1912)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+Canonigo D. Martin PINERO (officiated 1871)	-	1871-Dec-28	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Jose M. OJEDA (parroco, Cordon 1871)	-	1871-Dec-28	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Presbitero D. Antonio JENARA (baptised 1912)	-	1912-Nov-10	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Joseph del RIOS (Notario Eclesiastico, Canelones)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Dr. BORDONI POSSE (certified a death, 1913)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Eduardo J. MORATORIO (Juez de Paz, 18a seccion)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
@@ -532,12 +541,12 @@ Ana GOMEZ (married Florentino, Canelones)	-	-	born_est only - a floor, not an at
 Don Clemente GARCIA (d. by 1794, Rosario)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Dona Celestina GONZALEZ (widow of Clemente Garcia)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Juan CALMAN (m. Maria Leonor LERENA)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Rosa CASAVALLE (m. Vitalino Yndalecio LERENA)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+Rosa CASAVALLE (m. Vitalino Yndalecio LERENA)	-	1906-Dec-24	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Teodoro SILVA (m. Elena LERENA)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Abel CONTO (m. Amelia LERENA 1920)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Amelia LERENA Cardozo (m. Abel Conto 1920)	1894	1894	born_est only - a floor, not an attestation	BIRTH ONLY
-Honorato GONZALEZ (m. Paula Modesta LERENA 1918)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Miguel MUGULAR (m. Carmen LERENA 1914)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+Abel CONTO (m. Amelia LERENA 1920)	-	1920-Feb-28	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Amelia LERENA Cardozo (m. Abel Conto 1920)	1894	1920-Feb-28	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Honorato GONZALEZ (m. Paula Modesta LERENA 1918)	-	1918-Nov-18	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Miguel MUGULAR (m. Carmen LERENA 1914)	-	1914-Feb-07	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
 Jose RIERA (Juez de Menores, Buenos Aires 1800)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Juan de URDINARAN (witness, Rosario 1800)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Francisco PEREZ DE CEBALLOS (witness, Rosario 1800)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
@@ -552,3 +561,7 @@ Don Geronimo ALONSO de Villagomez (appraiser, 1794)	-	-	born_est only - a floor,
 Lorenzo MARTINEZ de Olalla (named by the widow, 1794)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Guillermo HURTADO de Villagomez (witness, 1794)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Fulgencio de los SANTOS (witness, 1794)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+Juan Jose LERENA y LERENA (of Navarrete, Logrono; Buenos Aires 1900)	1876	1900-Nov-14	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Prudencio Benito LERENA y LERENA (of Navarrete, Logrono; Buenos Aires 1900)	-	1900-Nov-14	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Jose Dolores LERENA y LERENA (of Navarrete, Logrono)	-	1900-Nov-14	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Dona Isabela LERENA y BASARAN (widow, of Navarrete, Logrono)	-	1900-Nov-14	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
