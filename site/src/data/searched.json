@@ -868,5 +868,26 @@
    "marriage-investigations"
   ],
   "note": "HIS DEATH IS STILL NOT FOUND. WHAT WAS FOUND IS HIS VOICE. Four pages of full-text hits for the phrase 'Sancho Llerena', one of them the marriage investigation of FLORENTINO GOMEZ before the Juzgado Eclesiastico of Canelones, where SANCHO LLERENA IS A SWORN WITNESS AND DEPOSES IN THE FIRST PERSON - a role no index had ever shown him in, because the record index catalogues principals and parents and this man was neither. HE STATES THAT HE HAD 'ANDADO EN LA LINEA DE VITORIA ALGUNOS ANOS' and knew the groom there. What that line is is NOT established and is deliberately not guessed: a 'linea' in the Rio de la Plata is usually a military frontier, and Vitoria is also a Basque city and a common Brazilian and Spanish place name. The archive's open question on whether this family is Basque or Extremaduran is NOT advanced by it. HIS AGE IS ON THE NEXT FRAME, which is where a deposition states it and which has not been opened - a cheap, named follow-up. THE GENERAL RESULT IS WORTH MORE THAN THE PARTICULAR ONE: the record index and the full-text corpus are two instruments, and three of this archive's standing nulls were only ever tested in one of them."
+ },
+ {
+  "src": "FamilySearch - Catedral Nuestra Senora de Guadalupe, Canelones: Religious Marriage Investigation Files 1776-1806, DGS 008166573 item 8, images 340-341",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS2Z-W8CY",
+  "film": "008166573",
+  "waypoint": null,
+  "what": "The continuation frame of Sancho Llerena's sworn deposition, opened to look for his age - the named follow-up recorded an hour earlier.",
+  "when": "2026-10-11",
+  "outcome": "yield",
+  "pages": "340-341 of 457 (item 8)",
+  "walked": false,
+  "tags": [
+   "llerena",
+   "lerena",
+   "canelones",
+   "uruguay",
+   "familysearch",
+   "full-text",
+   "marriage-investigations"
+  ],
+  "note": "HIS AGE IS NOT ON IT, AND THAT IS A PROPERTY OF THE DOCUMENT RATHER THAN A FAILED SEARCH. The witness before him closes in the standard form - 'dijo ser mayor de cuarenta y ocho anos' - so this file states ages when it has them and for Sancho it does not. Recorded so nobody opens this frame again hoping. WHAT IT GIVES INSTEAD: SANCHO LLERENA COULD NOT WRITE. His declaration ends 'que dijo NO SABER ESCRIVIR, y la firmo su merced conmigo el presente Notario' - the judge signed in his place. This archive has held him since its first week and had never known anything about the man rather than his relationships. A NAVIGATION TRAP WORTH THE NEXT SESSION'S TIME: an image ark PINS one image and ?i=N is silently IGNORED when an ark is present - three attempts were wasted on it. The route that worked is the viewer's own image-number box. And /search/film/008166573?i=341 would NOT have worked either: this volume is ITEM 8 of that film, and a film query resolves against item 001, which is the trap this archive already recorded in September."
  }
 ]
