@@ -199,9 +199,19 @@
    "antonio-lerena",
    "sabina-lerena",
    "maria-lerena-4",
-   "joaquin-costales"
+   "joaquin-costales",
+   "victorina-lerena",
+   "candido-costales-serena",
+   "luis-costales-serena",
+   "antonio-francisco-costales",
+   "maria-joaquina",
+   "victor-manuel-garcia",
+   "sebastiana-alvarez",
+   "juan-ribero",
+   "eduardo-machiavello",
+   "dona-catalina-g-de-garcia"
   ],
-  "count": 197
+  "count": 207
  },
  {
   "slug": "trinidad-flores",
@@ -510,22 +520,6 @@
   "count": 11
  },
  {
-  "slug": "uruguay",
-  "name": "Uruguay",
-  "people": [
-   "susana-llerena",
-   "sofia-clavijo",
-   "isabel-llerena-clavijo",
-   "celina-llerena-clavijo",
-   "telma-llerena",
-   "tomasa-cantidia-llerena",
-   "florencio-lerena-2",
-   "teresa-lerena",
-   "victorina-lerena"
-  ],
-  "count": 9
- },
- {
   "slug": "canelones",
   "name": "Canelones",
   "people": [
@@ -585,6 +579,19 @@
    "ana-maria-cabalgante"
   ],
   "count": 7
+ },
+ {
+  "slug": "uruguay",
+  "name": "Uruguay",
+  "people": [
+   "susana-llerena",
+   "sofia-clavijo",
+   "isabel-llerena-clavijo",
+   "celina-llerena-clavijo",
+   "telma-llerena",
+   "tomasa-cantidia-llerena"
+  ],
+  "count": 6
  },
  {
   "slug": "cape-town",
@@ -907,6 +914,24 @@
   "people": [
    "ema-justina-felicia-lerena-regules",
    "arturo-mario-lerena-regules"
+  ],
+  "count": 2
+ },
+ {
+  "slug": "cerro-largo-uruguay",
+  "name": "Cerro Largo, Uruguay",
+  "people": [
+   "florencio-lerena-2",
+   "teresa-lerena"
+  ],
+  "count": 2
+ },
+ {
+  "slug": "rivera-uruguay",
+  "name": "Rivera, Uruguay",
+  "people": [
+   "juan-ribero-2",
+   "josefa-ramos"
   ],
   "count": 2
  },

@@ -4095,60 +4095,60 @@
   "tier": "BIRTH ONLY"
  },
  {
-  "name": "Antonio LERENA (m. Sabina LERENA)",
+  "name": "Antonio SERENA/LERENA (father of Maria, m. Costales 1865)",
   "born_est": "-",
   "last_attested_alive": "1865-May-25",
   "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
   "tier": "ALIVE AT"
  },
  {
-  "name": "Sabina LERENA (wife of Antonio LERENA)",
+  "name": "Sabina SERENA (mother of Maria, m. Costales 1865)",
   "born_est": "-",
   "last_attested_alive": "1865-May-25",
   "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
   "tier": "ALIVE AT"
  },
  {
-  "name": "Maria LERENA (m. Joaquin Costales 1865)",
+  "name": "Maria SERENA/LERENA (m. Joaquin Costales 1865)",
   "born_est": "-",
   "last_attested_alive": "1865-May-25",
   "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
   "tier": "ALIVE AT"
  },
  {
-  "name": "Joaquin COSTALES (m. Maria Lerena 1865)",
-  "born_est": "-",
-  "last_attested_alive": "1865-May-25",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
- },
- {
-  "name": "Vitaliano LERENA (m. Andrea LERENA)",
+  "name": "Joaquin COSTALES (brasilero, m. in articulo mortis 1865)",
   "born_est": "-",
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
  {
-  "name": "Andrea LERENA (wife of Vitaliano LERENA)",
+  "name": "Vitaliano LERENA (m. Andrea ETCHEBERSE)",
   "born_est": "-",
-  "last_attested_alive": "-",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "last_attested_alive": "1906-Mar-26",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
  },
  {
-  "name": "Andrea Albina LERENA (b.1874, m. Antonio Echeberse)",
+  "name": "Andrea ETCHEBERSE (wife of Vitaliano LERENA)",
+  "born_est": "-",
+  "last_attested_alive": "1906-Mar-26",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Andrea Albina LERENA (b.1874, m. Antonio ETCHEBERSE 1906)",
   "born_est": "1874",
-  "last_attested_alive": "1874",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "last_attested_alive": "1906-Mar-26",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
  },
  {
-  "name": "Antonio ECHEBERSE (m. Andrea Albina Lerena)",
-  "born_est": "-",
-  "last_attested_alive": "-",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "name": "Antonio ETCHEBERSE (m. Andrea Albina Lerena 1906)",
+  "born_est": "1873",
+  "last_attested_alive": "1906-Mar-26",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
  },
  {
   "name": "Don Alejandro LERENA (of San Jose de Mayo, 1846)",
@@ -4172,24 +4172,129 @@
   "tier": "BIRTH ONLY"
  },
  {
-  "name": "Florencio LERENA (m. Teresa LERENA)",
+  "name": "Florencio SERENA (of Cerro Largo, d. before 1938)",
   "born_est": "-",
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
  {
-  "name": "Teresa LERENA (wife of Florencio LERENA)",
+  "name": "Teresa SERENA (widow, of Cerro Largo)",
   "born_est": "-",
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
  {
-  "name": "Victorina LERENA (dau. of Florencio and Teresa)",
-  "born_est": "-",
-  "last_attested_alive": "-",
+  "name": "Victorina SERENA/LLERENA (b.1908, m. Juan Ribero 1938)",
+  "born_est": "1908",
+  "last_attested_alive": "1908",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Antonio ETCHEBERSE (the elder, father of the groom)",
+  "born_est": "-",
+  "last_attested_alive": "1906-Mar-26",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Dona Frailana VALIENTE (mother of the groom)",
+  "born_est": "-",
+  "last_attested_alive": "1906-Mar-26",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Jose MARTINEZ (witness, Trinidad 1906)",
+  "born_est": "-",
+  "last_attested_alive": "1906-Mar-26",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Bernardo YRIZABAL (witness, Trinidad 1906)",
+  "born_est": "-",
+  "last_attested_alive": "1906-Mar-26",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Candido COSTALES Serena (b. c.1855)",
+  "born_est": "1855",
+  "last_attested_alive": "1865-May-25",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Luis COSTALES Serena (b. c.1861)",
+  "born_est": "1861",
+  "last_attested_alive": "1865-May-25",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Antonio Francisco COSTALES (father of Joaquin)",
+  "born_est": "-",
+  "last_attested_alive": "1865-May-25",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Maria Joaquina (mother of Joaquin Costales)",
+  "born_est": "-",
+  "last_attested_alive": "1865-May-25",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Victor Manuel GARCIA (witness, 1865)",
+  "born_est": "-",
+  "last_attested_alive": "1865-May-25",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Sebastiana ALVAREZ (witness, 1865)",
+  "born_est": "-",
+  "last_attested_alive": "1865-May-25",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Juan RIBERO (m. Victorina 1938)",
+  "born_est": "1912-05-15",
+  "last_attested_alive": "1938-Jan-04",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Juan RIBERO (the elder, of Rivera)",
+  "born_est": "-",
+  "last_attested_alive": "1938-Jan-04",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Josefa RAMOS (wife of Juan RIBERO the elder)",
+  "born_est": "-",
+  "last_attested_alive": "1938-Jan-04",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Eduardo MACHIAVELLO (Oficial del Estado Civil, Montevideo 1938)",
+  "born_est": "-",
+  "last_attested_alive": "1938-Jan-04",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Dona Catalina G. de GARCIA (signed for the bride, 1938)",
+  "born_est": "-",
+  "last_attested_alive": "1938-Jan-04",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
  }
 ]
