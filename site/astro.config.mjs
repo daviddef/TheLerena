@@ -19,6 +19,11 @@ const redirects = {
   '/people/juan-zalsamendi': `${BASE}/people/juan-zalduondo/`,
   '/people/dolores-pou-de-zalsamendi': `${BASE}/people/dolores-pou-de-zalduondo/`,
   '/people/maria-margarita-zalsamendi-lerena': `${BASE}/people/maria-margarita-luisa-zalduondo-lerena/`,
+  /* 11 October 2026, later the same day. Two rows for Eduardo Lerena proved to be one
+     man when the Canelones marriage act named the bride's parents - the same couple who
+     stood godparents to his daughter in Argentina the following year. Merged. */
+  '/people/eduardo-lerena-2': `${BASE}/people/eduardo-lerena/`,
+
   /* 11 October 2026. ROZZETTI is RAZZETTI: the index of the 1921 baptism spells the
      mother one way and the act spells her the other, twice on one line, in a clear hand.
      Both addresses were published. See data/corrections.tsv. */

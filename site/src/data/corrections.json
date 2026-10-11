@@ -1182,5 +1182,13 @@
   "what_is_true": "*** THE PLATE SAYS RAZZETTI. *** Both rows were built from the FamilySearch index of a 1921 baptism. The act itself, at Nuestra Senora de los Desamparados in the partido de Adolfo Alsina, writes the surname twice on one line in a clear hand - *** 'de D.a MARIA MERCEDES RAZZETTI' *** and, four words later, *** 'Padrinos: D. DOMINGO RAZZETTI' *** - so the reading is confirmed by the same scribe in the same sentence. *** THE INDEX ALSO PUTS THE EVENT IN THE WRONG PLACE ***, normalising it to 'Buenos Aires City' while its own original-place field says ADOLFO ALSINA and the act says 'domiciliados en ESTE PARTIDO' - a rural district of the province four hundred kilometres away. Both addresses redirect.",
   "how_it_was_caught": "*** BY CHASING A DUPLICATE, NOT A SPELLING. *** This register holds an EDUARDO LERENA dispensed at Montevideo in December 1919 to marry a MARIA MERCEDES *** RAZZELLO ***, and the two rows had never been compared. Opening the daughter's plate to test that pair produced the correction instead - *** and made the pair stronger, because RAZZELLO and RAZZETTI are one hand read twice while ROZZETTI was never on the page at all. ***",
   "retired": ""
+ },
+ {
+  "date": "2026-10-11",
+  "severity": "minor",
+  "what_was_said": "*** That this register held two men called Eduardo Lerena *** - one married at Montevideo in 1919, one a father at Buenos Aires in 1921 - kept apart that morning with the note that 'no act yet read says this man came from Las Piedras'.",
+  "what_is_true": "*** THEY ARE ONE MAN, and the act that proves it was found the same evening. *** The Canelones civil marriage of *** 11 January 1920 at Santa Lucia *** gives the bride's parents as *** DOMINGO RAZZETTI and JOSEFINA BERTOGLIO *** - and those two stood godparents to his daughter Ana Maria at Adolfo Alsina, Buenos Aires, on 19 January 1921. *** THE SAME FOUR PEOPLE IN TWO COUNTRIES THIRTEEN MONTHS APART. *** The rows are merged and /people/eduardo-lerena-2 redirects. *** THE SEPARATION WAS RIGHT WHEN IT WAS MADE ***, and is recorded here because the archive should be able to see how long one of its NOT MERGED notes survived: about four hours.",
+  "how_it_was_caught": "*** BY FOLLOWING THE PAIR'S OWN 'WHAT WOULD SETTLE IT'. *** That line said: the Montevideo marriage act behind the 1919 dispensation, which will name his parents. It does - *** ARTURO LERENA and EMA REGULES *** - and it also gave him a birth date, 22 April 1886 at Montevideo. *** A PAIR ENTRY THAT SAYS WHAT WOULD SETTLE IT IS A RESEARCH INSTRUCTION, AND THIS ONE WAS FOLLOWED THE SAME DAY IT WAS WRITTEN. ***",
+  "retired": ""
  }
 ]

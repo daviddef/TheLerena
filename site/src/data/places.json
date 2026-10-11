@@ -175,9 +175,11 @@
    "dr-bordoni-posse",
    "eduardo-j-moratorio",
    "agustin-agnese",
-   "conrado-p-abal"
+   "conrado-p-abal",
+   "arturo-lerena",
+   "ema-regules"
   ],
-  "count": 173
+  "count": 175
  },
  {
   "slug": "trinidad-flores",
@@ -334,7 +336,6 @@
    "emilia-lerena",
    "francisco-lerena",
    "paulina-lerena",
-   "eduardo-lerena",
    "avelina-lerena",
    "gilberto-lerena-salvanach",
    "maria-carlota-lerena-salvanach",
@@ -365,7 +366,7 @@
    "don-carlos-maria-escalada",
    "a-ferreyra"
   ],
-  "count": 40
+  "count": 39
  },
  {
   "slug": "san-jose-de-mayo",
@@ -612,8 +613,8 @@
   "name": "Adolfo Alsina, Buenos Aires, Argentina",
   "people": [
    "ana-maria-lerena-razzetti",
-   "domingo-razzetti",
-   "josefina-bertoglio",
+   "domingo-razzetti-2",
+   "josefina-bertoglio-2",
    "fr-jose-serrano-lopez"
   ],
   "count": 4
@@ -744,6 +745,15 @@
   "people": [
    "rosa-maria-eppens",
    "armando-lerena"
+  ],
+  "count": 2
+ },
+ {
+  "slug": "santa-lucia-canelones",
+  "name": "Santa Lucia, Canelones",
+  "people": [
+   "eduardo-lerena",
+   "vicente-telesforo-caputi"
   ],
   "count": 2
  },
@@ -980,14 +990,6 @@
   "name": "London",
   "people": [
    "john-walker-brailey"
-  ],
-  "count": 1
- },
- {
-  "slug": "las-piedras-canelones",
-  "name": "Las Piedras, Canelones",
-  "people": [
-   "eduardo-lerena-2"
   ],
   "count": 1
  },
