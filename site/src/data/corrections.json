@@ -1158,5 +1158,13 @@
   "what_is_true": "*** IT IS THE SIXTH SUCH COUPLE, NOT THE FIRST. *** The register already held two Trinidad couples (1894, 1913), the double-first-cousin dispensation of 1911, Alejandro, and - found the SAME MORNING, written into the SAME TABLE a few hours earlier - *** ELOY LERENA x FELISA LERENA ***, baptising their daughter Juana at San Jose de Flores on 10 November 1912, both 'natural de Espana'. His own row says in capitals that he 'MAKES A FIFTH LERENA-MARRIED-A-LERENA COUPLE'. *** SO THE OBJECTION I CLAIMED TO HAVE WEAKENED HAD ALREADY BEEN ANSWERED, BY ME, BEFORE LUNCH. *** What Navarrete really adds survives the correction and is worth having: the first such household outside South America, the first where the children carry the name doubled as a surname of record, and the first place on a map where the practice can be searched.",
   "how_it_was_caught": "*** BY A TOOL AUDIT THAT HAD NOTHING TO DO WITH IT. *** Rewriting tools/last-alive.py threw up 'Eloy LERENA (natural de Espana, m. Felisa LERENA)' as a row my own audit regex mis-flagged, and reading it to clear the flag showed the phrase 'HIS WIFE IS ALSO A LERENA, which this register has now met five times'. *** NOTHING IN THE GATES COULD HAVE CAUGHT THIS. *** A claim of novelty is not a claim about a person, a date or a link, so no consistency check touches it - the only defence is to search this register for the thing you are about to call new, and I did not.",
   "retired": ""
+ },
+ {
+  "date": "2026-10-11",
+  "severity": "minor",
+  "what_was_said": "*** That Avelino Lerena Fernandez was the GREAT-GRANDFATHER of Angel Miguel Avelino Lerena Larriera ***, published on his person page since 21 September.",
+  "what_is_true": "*** HE IS THE GRANDFATHER. *** Angel's father is Pedro Alberto Ysabelino Lerena Traibel; Avelino is that man's father. One step, not two. *** THE EDGES IN data/relations.tsv WERE RIGHT THE WHOLE TIME *** - father and grandfather are both there and both correct - so the chart on the page disagreed with the prose beneath it, and nothing checked that they agree.",
+  "how_it_was_caught": "*** BY LEARNING THE OTHER GRANDFATHER'S NAME. *** The 1879 christening of his sister names the maternal grandfather MIGUEL LARRIERA, which makes ANGEL MIGUEL AVELINO a child named for BOTH grandfathers - and reading the name that way made the generation count obvious. *** A NAMING PATTERN IS EVIDENCE ONLY WHEN YOU KNOW BOTH SIDES OF IT ***; with one side it is a story.",
+  "retired": ""
  }
 ]
