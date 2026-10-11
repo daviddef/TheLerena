@@ -889,5 +889,28 @@
    "marriage-investigations"
   ],
   "note": "HIS AGE IS NOT ON IT, AND THAT IS A PROPERTY OF THE DOCUMENT RATHER THAN A FAILED SEARCH. The witness before him closes in the standard form - 'dijo ser mayor de cuarenta y ocho anos' - so this file states ages when it has them and for Sancho it does not. Recorded so nobody opens this frame again hoping. WHAT IT GIVES INSTEAD: SANCHO LLERENA COULD NOT WRITE. His declaration ends 'que dijo NO SABER ESCRIVIR, y la firmo su merced conmigo el presente Notario' - the judge signed in his place. This archive has held him since its first week and had never known anything about the man rather than his relationships. A NAVIGATION TRAP WORTH THE NEXT SESSION'S TIME: an image ark PINS one image and ?i=N is silently IGNORED when an ark is present - three attempts were wasted on it. The route that worked is the viewer's own image-number box. And /search/film/008166573?i=341 would NOT have worked either: this volume is ITEM 8 of that film, and a film query resolves against item 001, which is the trap this archive already recorded in September."
+ },
+ {
+  "src": "FamilySearch FULL TEXT - \"Pablo Armando Lerena\", \"Juan Carlos Lerena\", with the control \"Rosario de Santa Fe\"",
+  "url": "https://www.familysearch.org/search/full-text/results?q.text=%22Pablo+Armando+Lerena%22",
+  "film": null,
+  "waypoint": null,
+  "what": "The question this archive exists to answer, put to the full-text corpus after that instrument had cracked two standing nulls the same day: Pablo Armando Lerena's baptism, and his parents Juan Carlos and Maria Lerena.",
+  "when": "2026-10-11",
+  "outcome": "nothing",
+  "pages": null,
+  "walked": false,
+  "tags": [
+   "lerena",
+   "rosario",
+   "santa fe",
+   "argentina",
+   "buenos aires",
+   "montevideo",
+   "uruguay",
+   "familysearch",
+   "full-text"
+  ],
+  "note": "A NULL THAT THE CONTROL EXPLAINED RATHER THAN MERELY VALIDATED, WHICH IS THE USEFUL KIND. 'Pablo Armando Lerena' returns ZERO. 'Juan Carlos Lerena' returns two, both Uruguayan - the Montevideo dispensation this archive already holds, and a Montevideo death of 2001. THE CONTROL WAS RUN AFTER THE NULL: 'Rosario de Santa Fe' returns 245 pages, so the instrument works and it does reach ARGENTINA. BUT THE ARGENTINE HOLDINGS IT SURFACES ARE BUENOS AIRES PROBATE ESTATE CASE FILES, SHIP INSPECTION FILES AND NOTARIAL RECORDS - NOT SANTA FE PARISH REGISTERS. So this is a COVERAGE null, not an absence, and it says nothing about whether the Rosario act exists. Without that control the same zero could have been written up as a third independent confirmation that the baptism is not there. IT ALSO OPENED A RECORD CLASS THIS ARCHIVE HAS NEVER TOUCHED - Buenos Aires probate and ship inspection files, which are indexed by CASE TITLE and so are invisible to the record index and reachable only by full text."
  }
 ]
