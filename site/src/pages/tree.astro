@@ -72,6 +72,15 @@ const root = lineage(bySlug.get("nuno-fernando-lerena"), {
 
 const personHref = (b) => (b.slug ? u(`/people/${b.slug}/`) : null);
 
+/* THE EYEBROW COUNTED AND THE DEK DID NOT. Found by a site-wide audit, 11 October 2026.
+   The eyebrow has always rendered `${drawn} people`; the sentence under the title said
+   "eight people, and then the doors close" in hand-typed words. The chart reached NINE and
+   the sentence stayed at eight, so the page contradicted itself in two lines of the same
+   heading. A number written beside a number that computes itself will always lose. */
+const WORDS = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine",
+               "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen",
+               "seventeen", "eighteen", "nineteen", "twenty"];
+const spell = (n) => (n >= 0 && n < WORDS.length ? WORDS[n] : String(n));
 let drawn = 0, doc = 0, walls = 0, deepest = 0;
 (function count(x, g = 0) {
   if (!x) return;
@@ -83,7 +92,7 @@ let drawn = 0, doc = 0, walls = 0, deepest = 0;
 ---
 <Base title="Our line, drawn"
       eyebrow={`${drawn} people, ${walls} walls`}
-      dek="The smallest chart in the estate, and the shortest answer to how far this line goes back: eight people, and then the doors close.">
+      dek={`The smallest chart in the estate, and the shortest answer to how far this line goes back: ${spell(drawn)} people, and then the doors close.`}>
 
   <section class="blk">
     <p class="prose">This is the whole of it: <strong>{drawn}</strong> people,
