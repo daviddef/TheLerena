@@ -1626,9 +1626,9 @@
  {
   "name": "Maria Adelina LERENA LARRIERA",
   "born_est": "1879-07-06",
-  "last_attested_alive": "1879-Jul-06",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1879-07-06",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Alberto Julian LERENA LARRIERA",
@@ -3890,5 +3890,19 @@
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Miguel LARRIERA (father of Maria Ines)",
+  "born_est": "-",
+  "last_attested_alive": "1879-Oct-13",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Carolina CHAVARRIA (wife of Miguel Larriera)",
+  "born_est": "-",
+  "last_attested_alive": "1879-Oct-13",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
  }
 ]
