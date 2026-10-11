@@ -1268,5 +1268,54 @@
    "baptism"
   ],
   "note": "ONE LERENA ENTRY IN THE VOLUME AND IT IS TWO PEOPLE: 'ADOLFO LERENA' and 'MARIA MERCEDES LERENA' stood godparents together to Balvina Maria, daughter of Manuel Cabrera and Balvina Valdivia. THIS MOVES ADOLFO BACK TWELVE YEARS - this archive had him only as the godfather at Pocitos in August 1903, where it reasoned he was likely a brother of the Lerena woman whose child he stood for. He was an adult at the Cordon by 1891. THE WOMAN IS NEW AND IS NOT MERGED WITH ANY OF THE FOUR MERCEDES ALREADY HERE - Mercedes Micaela Lerena Traibel b.1863, the Catedral godmother of 1880, the Mercedes who married Luis P. Marquez in 1883, and Mercedes Lerena de Martinez of Mendoza 1902. The forename runs through this family too hard to separate anyone, and the names panel gives her no age, no parents and no second surname. THE DATE WITHIN THE VOLUME IS NOT ESTABLISHED: January 1891 to July 1892, read from the names panel rather than the page, so the act itself is still worth opening."
+ },
+ {
+  "src": "FamilySearch - Catedral de la Inmaculada Concepcion y San Felipe y Santiago, Montevideo: Baptism Records 16 Mar 1840 - 18 Dec 1842, film 007713376 image 01689 (deepzoom apid TH-909-52377-68331-65)",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C9B7-YSFY-L",
+  "film": "007713376",
+  "waypoint": null,
+  "what": "Re-reading a plate this archive had already read, because its own page quoted the act with a forename in SQUARE BRACKETS and a second row contradicted it.",
+  "when": "2026-10-11",
+  "outcome": "yield",
+  "pages": "image 01689, the act of 25 October 1840",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "llerena",
+   "rodriguez de carvallo",
+   "ruiz de carvallo",
+   "suarez",
+   "montevideo",
+   "colonia del sacramento",
+   "uruguay",
+   "familysearch",
+   "baptism",
+   "audit"
+  ],
+  "note": "IT DELETED A PERSON. The act was quoted here as 'Nieto pat[erno de D. DOMINGO] RODRIG.z', and a man - DON DOMINGO RODRIGUEZ (the elder, of la Colonia) - had been built from the words inside those brackets, published, charted and given a wife. Read at 4000px off the deepzoom tile the plate says: 'Nieto Pat.o de D. JOAQUIN RODRIG.z y D.a Juana del Espiritu S.to: ambos nat.s de la Colonia del Sacram.to; y por parte Mat.a de D. SANCHO LERENA y D.a Ma FERNANDEZ'. The act's own names panel independently gives 'Pats. Joaquin Rodriguez'. SO THE GRANDFATHER IS MAYOR DON JOAQUIN RUIZ DE CARVALLO, already in this register under its known second spelling of the surname, and the phantom is withdrawn. THE SAME BRACKET HAD SPLIT ONE WOMAN IN TWO: Juana del Espiritu Santo was entered as the phantom's wife while Juana Suarez sat here as Joaquin's; both are the mother of Capitan Antonio, and they are merged. Two further readings: the godfather is 'D. JOAQUIN SOSA DE CRUZ SECO' and the godmother BALVINA SUAREZ."
+ },
+ {
+  "src": "FamilySearch - Catedral de la Inmaculada Concepcion y San Felipe y Santiago, Montevideo: Baptism Records 4 May 1825 - 21 Aug 1828, film 007713376 image 00601",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C9B7-YSFQ-2",
+  "film": "007713376",
+  "waypoint": null,
+  "what": "The control for the read above: the other grandchild's act, to see whether the two acts name the same paternal grandparents.",
+  "when": "2026-10-11",
+  "outcome": "yield",
+  "pages": "image 00601, folio 150, the act of 12 May 1827",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "llerena",
+   "ruiz de carvallo",
+   "suarez",
+   "montevideo",
+   "uruguay",
+   "familysearch",
+   "baptism",
+   "control",
+   "audit"
+  ],
+  "note": "THE CONTROL AGREED, WHICH IS WHAT SETTLED THE MERGE. The names panel of Lucinda Gregoria's baptism gives father Antonio Ruiz de Carvallo, mother Dominga 'Llarena', and the grandparents JOAQUIN RUIZ DE CARVALLO and JUANA SUAREZ beside Sancho Llerena and Maria Fernandez. So BOTH of Antonio's children's baptisms name the same paternal grandfather - Joaquin - and his wife under two names, SUAREZ in 1827 and DEL ESPIRITU SANTO in 1840. One woman, two renderings, one slot. Without this act the merge would have rested on a single reading."
  }
 ]
