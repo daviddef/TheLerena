@@ -3456,5 +3456,152 @@
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Violeta Blanca LERENA Cardozo",
+  "born_est": "1915-10-29",
+  "last_attested_alive": "1915-10-29",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Carlos Rey LERENA Pelaez",
+  "born_est": "1915-01-18",
+  "last_attested_alive": "1915-01-18",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Elidia Margarita LERENA Cardozo",
+  "born_est": "1897-03-12",
+  "last_attested_alive": "1897-03-12",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Pedro Ricardo LERENA Fernandez",
+  "born_est": "1903-05-27",
+  "last_attested_alive": "1903-05-27",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Irma Antonia LERENA Fernandez",
+  "born_est": "1898-09-13",
+  "last_attested_alive": "1898-09-13",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Sara Esmeralda LERENA Fernandez",
+  "born_est": "1900-11-03",
+  "last_attested_alive": "1900-11-03",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Edelma LERENA Recuero",
+  "born_est": "1899-08-20",
+  "last_attested_alive": "1899-08-20",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Elida Pilar LERENA Recuero",
+  "born_est": "1897-10-17",
+  "last_attested_alive": "1897-10-17",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Alejandro Esteban LERENA Alvarez",
+  "born_est": "1901-12-26",
+  "last_attested_alive": "1901-12-26",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maria Josefina LERENA",
+  "born_est": "1918-03-02",
+  "last_attested_alive": "1918-03-02",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Pio C. LERENA",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Isidora CARDOZO (m. Doroteo LERENA)",
+  "born_est": "-",
+  "last_attested_alive": "1910-Jul-23",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
+ },
+ {
+  "name": "Petrona FERNANDEZ (m. Pedro Segundo LERENA)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Rosaura ALVAREZ (m. Gualberto LERENA)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Rodolfo Bernardo LERENA (father, Trinidad 1918)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Ismael LERENA (father, Trinidad 1917)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Juan Jose ZALDUANDO Pou (brother of Eduardo)",
+  "born_est": "1864",
+  "last_attested_alive": "1864",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Elisa CARLEVARO (m. Juan Jose Zalduando)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maria Elisa ZALDUANDO Carlevaro",
+  "born_est": "1912-11-17",
+  "last_attested_alive": "1912-11-17",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Rafael COSTA (father of Maria Ester)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Leontina SOASANI (mother of Maria Ester)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]

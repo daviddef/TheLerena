@@ -40,6 +40,13 @@ FILES = {
     # died on one day in 1999, researched and published on /south-africa/ since September,
     # and not one of them a person. The gate grows by being made to.
     "johannesburg-cemetery-1999.tsv": "person",
+    # Added 11 October 2026, after David asked the same question a THIRD time: "are we
+    # keeping every finding as a person?" The honest answer was no, and the reason this
+    # gate could not see it is that every file it watched was TAYLOR, BRAYLEY or SOUTH
+    # AFRICAN. The Uruguayan side - which is most of this archive - had no gate at all.
+    # A measurement that day found 39 of 45 people named in one session's work had no
+    # row. *** THE GATE WAS BLIND TO THE LARGER HALF OF THE REGISTER. ***
+    "trinidad-flores-sweep-2026-09-27.tsv": "child",
 }
 
 # Cells in those columns that are headings or summary lines, not people. Each is listed

@@ -168,9 +168,12 @@
    "felicia-lerena-ferreiroz",
    "pedro-villademoros",
    "angelica-mendez-de-villademoros",
-   "dr-d-joaquin-requena"
+   "dr-d-joaquin-requena",
+   "juan-jose-zalduando-pou",
+   "elisa-carlevaro",
+   "maria-elisa-zalduando-carlevaro"
   ],
-  "count": 166
+  "count": 169
  },
  {
   "slug": "trinidad-flores",
@@ -238,9 +241,25 @@
    "manuel-lerena",
    "jacinta-merina-santos",
    "felicia-leoncia-lerena",
-   "emilio-isidoro-lerena-recuero"
+   "emilio-isidoro-lerena-recuero",
+   "violeta-blanca-lerena-cardozo",
+   "carlos-rey-lerena-pelaez",
+   "elidia-margarita-lerena-cardozo",
+   "pedro-ricardo-lerena-fernandez",
+   "irma-antonia-lerena-fernandez",
+   "sara-esmeralda-lerena-fernandez",
+   "edelma-lerena-recuero",
+   "elida-pilar-lerena-recuero",
+   "alejandro-esteban-lerena-alvarez",
+   "maria-josefina-lerena",
+   "pio-c-lerena",
+   "isidora-cardozo",
+   "petrona-fernandez",
+   "rosaura-alvarez",
+   "rodolfo-bernardo-lerena",
+   "ismael-lerena"
   ],
-  "count": 63
+  "count": 79
  },
  {
   "slug": "buenos-aires-arrivals",
@@ -558,6 +577,17 @@
   "count": 4
  },
  {
+  "slug": "la-paz-uruguay",
+  "name": "La Paz, Uruguay",
+  "people": [
+   "eduardo-avelino-zalduando-lerena",
+   "maria-ester-costa",
+   "rafael-costa",
+   "leontina-soasani"
+  ],
+  "count": 4
+ },
+ {
   "slug": "south-africa",
   "name": "South Africa",
   "people": [
@@ -741,15 +771,6 @@
   "people": [
    "amador-lerena-pelaez",
    "pedro-s-lerena"
-  ],
-  "count": 2
- },
- {
-  "slug": "la-paz-uruguay",
-  "name": "La Paz, Uruguay",
-  "people": [
-   "eduardo-avelino-zalduando-lerena",
-   "maria-ester-costa"
   ],
   "count": 2
  },
