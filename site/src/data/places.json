@@ -711,6 +711,16 @@
   "count": 3
  },
  {
+  "slug": "cordon-montevideo",
+  "name": "Cordon, Montevideo",
+  "people": [
+   "maria-mercedes-lerena",
+   "eduardo-lerena-3",
+   "ema-lerena"
+  ],
+  "count": 3
+ },
+ {
   "slug": "tucuman",
   "name": "Tucuman",
   "people": [
@@ -1010,14 +1020,6 @@
   "name": "Pueblo Brugo, Entre Rios",
   "people": [
    "vicente-lerena-diaz"
-  ],
-  "count": 1
- },
- {
-  "slug": "cordon-montevideo",
-  "name": "Cordon, Montevideo",
-  "people": [
-   "maria-mercedes-lerena"
   ],
   "count": 1
  }
