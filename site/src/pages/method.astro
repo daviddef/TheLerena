@@ -6,6 +6,7 @@ import { emph } from "../lib/text.js";
 import dgs from "../data/dgs-audit.json";
 import traps from "../data/forename-traps.json";
 import zeros from "../data/false-zeros.json";
+import ftfinds from "../data/fulltext-finds-2026-10-11.json";
 import certs from "../data/1852-aguada-union-certificates.json";
 ---
 <Base title="Method"
@@ -104,6 +105,48 @@ import certs from "../data/1852-aguada-union-certificates.json";
     A removal request is honoured within days, without argument and without requiring a reason.
   </p>
 </section>
+<section class="blk">
+  <h2 id="s-two-indexes">FamilySearch has two indexes, and we were using one</h2>
+  <p class="dek">11 October 2026. Three standing conclusions here said &ldquo;not in the indexed
+    corpus&rdquo;. Each was a properly controlled null. Each was a fact about one of two instruments.</p>
+  <div class="prose">
+    <p><strong>The record index is built by transcribing entries into fields.</strong> It catalogues
+      <em>principals</em> and <em>parents</em>, and it loses everyone else on the page &mdash;
+      witnesses, godparents, deponents, neighbours. <strong>The full-text corpus is built by reading
+      the page image</strong>, so it finds a name anywhere it appears: in a margin, in a witness
+      list, inside a sworn deposition.</p>
+    <p><strong>The difference is not academic.</strong> A marriage this archive had twice sentenced
+      to an image walk was found by a single phrase search. An ancestor the record index said was
+      &ldquo;never a principal&rdquo; across 401 results turns out to have given sworn testimony in
+      his own voice. And a man of this family is signing as a rural magistrate in 1800, inside a
+      probate file filed under somebody else&rsquo;s name entirely.</p>
+  </div>
+  <div class="panel" style="margin-top:18px">
+    <p style="margin:0"><strong>The rule this yields, and it is short.</strong> Before writing
+      <em>&ldquo;not in the indexed corpus&rdquo;</em>, <strong>name which index</strong>. A null in
+      one is not a null in FamilySearch.</p>
+    <p style="margin:12px 0 0"><strong>And a control can do more than validate a null &mdash; it can
+      explain it.</strong> Searching for Pablo Armando Lerena in the full text returns zero. The
+      control returns 245 pages and shows why: the corpus reaches Argentina, but what it holds for
+      Argentina is Buenos Aires probate and shipping, <strong>with no Santa Fe collection in it at
+      all</strong>. That zero is about coverage and says nothing about whether the act exists.
+      Without the control it would have read as a third confirmation that it does not.</p>
+  </div>
+  <dl class="kv" style="margin-top:18px">
+    {ftfinds.filter((r) => r["the find"]).map((r) => (
+      <div><dt set:html={emph(r["the find"])} /><dd>
+        <span set:html={emph(r["what the document says"])} /><br />
+        <span class="cap" set:html={emph(r["what it changes"])} />
+      </dd></div>
+    ))}
+  </dl>
+  <div class="note" style="margin-top:20px">Everything above was read as a <strong>full-text
+    transcript</strong>, which is a machine&rsquo;s reading of a page. The plates themselves are named
+    in each row and most have not been opened. Where a reading is uncertain &mdash; the broken OCR
+    around <em>Oriental</em>, the two candidate Felisas &mdash; it is said so in the row rather than
+    smoothed away. <a href={u("/corrections/")}>Corrections &rarr;</a> &middot; <a href={u("/uruguay/#s-second-index")}>The two Uruguayan acts &rarr;</a> &middot; <a href={u("/argentina/#s-buenos-aires-fulltext")}>The Buenos Aires acts &rarr;</a></div>
+</section>
+
 <section class="blk">
   <h2>A null is not a finding until a control says so</h2>
   <p class="dek">Most of what this archive has established is negative &mdash; that Pablo Armando is

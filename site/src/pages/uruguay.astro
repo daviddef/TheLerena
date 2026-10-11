@@ -49,6 +49,7 @@ import kindred from "../data/trinidad-founding-kindred.json";
 import bridge from "../data/colla-trinidad-bridge.json";
 import fouracts from "../data/lerena-pelaez-four-acts.json";
 import zald from "../data/zalduondo-lerena-three-acts.json";
+import ftf from "../data/fulltext-finds-2026-10-11.json";
 ---
 <Base title="Uruguay"
       eyebrow="Two Lerena families, two Spanish origins, and neither of them is his"
@@ -125,6 +126,40 @@ import zald from "../data/zalduondo-lerena-three-acts.json";
       so about <strong>1819</strong>, eleven years earlier &mdash; and gives her birthplace as
       <strong>Montevideo</strong> where the 1858 expediente says San Jos&eacute;.
       <a href={u("/corrections/")}>Corrections &rarr;</a></p>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-second-index">Two Uruguayan acts a second index found in one afternoon</h2>
+  <p class="dek">11 October 2026. A marriage this archive had sentenced to an image walk, and the
+    first time it has ever heard its oldest ancestor speak.</p>
+  <div class="prose">
+    <p><strong>FamilySearch has two indexes.</strong> One transcribes entries into fields and
+      catalogues principals and parents; the other reads the page image and finds a name wherever it
+      sits &mdash; in a margin, a witness list, a sworn deposition. This archive had been using the
+      first and writing its conclusions as though they were about both.
+      <a href={u("/method/#s-two-indexes")}>Why that matters &rarr;</a></p>
+  </div>
+  <dl class="kv" style="margin-top:18px">
+    {ftf.filter((r) => /Cord|phrase search|apex ancestor/i.test(r["the find"] || "")).map((r) => (
+      <div><dt set:html={emph(r["the find"])} /><dd>
+        <span set:html={emph(r["what the document says"])} /><br />
+        <span class="cap" set:html={emph(r["what it changes"])} />
+      </dd></div>
+    ))}
+  </dl>
+  <div class="prose" style="margin-top:18px">
+    <p><strong>Two brothers married two sisters.</strong> Alejandro M&aacute;ximo and Avelino Eduardo
+      are both sons of Avelino Lerena Fern&aacute;ndez and Ambrosia Traibel; Elisa and Celedonia are
+      both daughters of Pedro Villademoros and Ang&eacute;lica. That makes the Lerena Villademoros
+      cousins <strong>double first cousins</strong> &mdash; the same structure found at Trinidad the
+      same day, a generation earlier and in another department.
+      <a href="#s-trinidad-marriages">The Trinidad double wedding &rarr;</a></p>
+    <p class="cap"><strong>And Sancho could not write.</strong> He had spent years on something the
+      act calls <em>la l&iacute;nea de Vitoria</em>, he was trusted to swear to another man&rsquo;s
+      freedom to marry, and the judge signed in his place. <strong>What that l&iacute;nea was is not
+      established and is not guessed here</strong> &mdash; it does not settle whether this family is
+      Basque or Extremaduran. <a href={u("/open-questions/")}>Open questions &rarr;</a></p>
   </div>
 </section>
 

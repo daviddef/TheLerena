@@ -10,6 +10,7 @@ import Spine from "@daviddef/archive-kit/components/Spine.astro";
 import mza from "../data/mendoza-carlos-lerena-1900.json";
 import arturo from "../data/arturo-lerena-garcia-chile.json";
 import lasttwo from "../data/cajon-985-last-two.json";
+import baft from "../data/fulltext-finds-2026-10-11.json";
 
 /* Every Lerena Argentina can actually produce, and where each one came from.
    Three households, three arrows back across the river — and one man with no
@@ -101,6 +102,7 @@ const hasArt = fs.existsSync(
       <li><a href="#s-mendoza-carlos">One of the four untraced fathers is Uruguayan</a></li>
       <li><a href="#s-arturo-chile">Arturo Lerena Garc&iacute;a, and a country this archive had never opened</a></li>
       <li><a href="#s-cajon-last-two">The last two of Caj&oacute;n 985 &mdash; and a card read three ways wrong</a></li>
+      <li><a href="#s-buenos-aires-fulltext">Buenos Aires: a magistrate of 1800 and a Spanish family of 1912</a></li>
       <li><a href="#s-every-lerena-argentina-can-produce">Every Lerena Argentina can produce, drawn</a></li>
       <li><a href="#s-three-refusals-and-one-direction">Three refusals, and one direction</a></li>
       <li><a href="#s-where-to-go-next">Where to go next</a></li>
@@ -464,6 +466,38 @@ const hasArt = fs.existsSync(
       recorded entry and not a filler. <strong>It still does not decide maiden against married</strong>,
       which is what open question 1 actually asks &mdash; only that the field was filled when known
       and struck out when not.</p>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-buenos-aires-fulltext">Buenos Aires: a magistrate of 1800 and a Spanish family of 1912</h2>
+  <p class="dek">11 October 2026. Two acts out of a record class this archive had never touched &mdash;
+    reached only because a second index reads pages instead of entries.</p>
+  <div class="prose">
+    <p><strong>Argentina&rsquo;s holdings in the full-text corpus are not parish registers.</strong>
+      They are <strong>Buenos Aires probate estate case files, notarial records and ship inspection
+      files</strong> &mdash; 503 of the 700 Argentine hits for <em>Lerena</em> are legal files. These
+      are indexed by <em>case title</em>, so everyone inside them is invisible to a record index and
+      reachable only by reading the page.</p>
+    <p><strong>And there is no Santa Fe collection in it at all</strong>, which is exactly why Pablo
+      Armando&rsquo;s baptism cannot be found here, and why that silence means nothing.
+      <a href={u("/method/#s-two-indexes")}>The two indexes &rarr;</a></p>
+  </div>
+  <dl class="kv" style="margin-top:18px">
+    {baft.filter((r) => /Buenos Aires|Alcalde|San Jos&eacute; de Flores|Flores/i.test(r["the find"] || "")).map((r) => (
+      <div><dt set:html={emph(r["the find"])} /><dd>
+        <span set:html={emph(r["what the document says"])} /><br />
+        <span class="cap" set:html={emph(r["what it changes"])} />
+      </dd></div>
+    ))}
+  </dl>
+  <div class="prose" style="margin-top:18px">
+    <p class="cap"><strong>Both are full-text transcripts, not opened plates</strong>, and both carry
+      an uncertainty this archive is not smoothing away: the OCR around the word <em>Oriental</em> is
+      broken, so the 1800 magistrate&rsquo;s Rosario is <em>indicated</em> and not proved; and the
+      1912 baptism was <strong>not</strong> merged with the passenger-list Felisa and Gregorio,
+      because the ages are two years out and the roles do not line up. <strong>One frame of 249 has
+      been read in the probate file.</strong></p>
   </div>
 </section>
 
