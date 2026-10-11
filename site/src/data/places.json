@@ -195,9 +195,13 @@
    "luis-barbe",
    "carlos-bastos",
    "marcos-s-acuna",
-   "dr-jorge-calvette"
+   "dr-jorge-calvette",
+   "antonio-lerena",
+   "sabina-lerena",
+   "maria-lerena-4",
+   "joaquin-costales"
   ],
-  "count": 193
+  "count": 197
  },
  {
   "slug": "trinidad-flores",
@@ -288,9 +292,13 @@
    "abel-conto",
    "amelia-lerena-cardozo",
    "honorato-gonzalez",
-   "miguel-mugular"
+   "miguel-mugular",
+   "vitaliano-lerena",
+   "andrea-lerena",
+   "andrea-albina-lerena",
+   "antonio-echeberse"
   ],
-  "count": 86
+  "count": 90
  },
  {
   "slug": "buenos-aires-arrivals",
@@ -410,9 +418,12 @@
    "estefania-lerena",
    "servando-gonzalez",
    "olegaria-lerena",
-   "juana-de-las-nieves-lerena"
+   "juana-de-las-nieves-lerena",
+   "alejandro-lerena-3",
+   "barbara-lerena",
+   "carmelo-anselmo-lerena"
   ],
-  "count": 21
+  "count": 24
  },
  {
   "slug": "rosario-santa-fe",
@@ -495,6 +506,22 @@
   "count": 11
  },
  {
+  "slug": "uruguay",
+  "name": "Uruguay",
+  "people": [
+   "susana-llerena",
+   "sofia-clavijo",
+   "isabel-llerena-clavijo",
+   "celina-llerena-clavijo",
+   "telma-llerena",
+   "tomasa-cantidia-llerena",
+   "florencio-lerena-2",
+   "teresa-lerena",
+   "victorina-lerena"
+  ],
+  "count": 9
+ },
+ {
   "slug": "canelones",
   "name": "Canelones",
   "people": [
@@ -554,19 +581,6 @@
    "ana-maria-cabalgante"
   ],
   "count": 7
- },
- {
-  "slug": "uruguay",
-  "name": "Uruguay",
-  "people": [
-   "susana-llerena",
-   "sofia-clavijo",
-   "isabel-llerena-clavijo",
-   "celina-llerena-clavijo",
-   "telma-llerena",
-   "tomasa-cantidia-llerena"
-  ],
-  "count": 6
  },
  {
   "slug": "cape-town",

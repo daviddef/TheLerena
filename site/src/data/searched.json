@@ -1494,5 +1494,32 @@
    "death"
   ],
   "note": "THE BEST DOCUMENT THIS HOUSEHOLD HAS. Arturo Lerena died at TWO IN THE MORNING on 2 MARCH 1936 at TREINTA Y TRES 269, Montevideo, 'de SETENTA Y OCHO ANOS DE EDAD... DE PROFESION ABOGADO... hijo de A[V]ELINO [L]ERENA y de AMBROSIA TR[A]IBEL, AMBOS FALLECIDOS... casado con [E]MA REGULES, de cuyo consorcio quedaron CINCO HIJOS llamados EMA, MARIO, EDUARDO, CORA y ROBERTO'. It confirms his parents a second time and the ABOGADO correction a second time. IT DOES NOT SETTLE THE PAIR, AND THE REASON IS WORTH KEEPING: seventy-eight in March 1936 is a birth of 1857-58, which agrees with twenty-two in June 1880 and sixty-two in January 1920 - three independent statements - against one baptism of a 'JUAN ARTURO' on 16 February 1861. BUT THE DECLARANTS WERE NOT FAMILY, an Italian employee of forty and an oriental of twenty-three, so the age is secondhand like the other two. FAMILYSEARCH'S OWN TREE HAS MERGED THEM ALREADY, attaching this record to 'Juan Arturo Lerena Traibel, 1861-1936'. That is a tree, not a document. THE FIVE SURVIVING CHILDREN NAME ONLY ONE EMA where this register holds two born on 18 May, 1881 and 1885 - which tilts that question without closing it, since five surviving of six is also what the act would say if a sister had died."
+ },
+ {
+  "src": "FamilySearch RECORD INDEX - exact-surname parent-pair query: FATHER surname LERENA with MOTHER surname LERENA, worldwide",
+  "url": "https://www.familysearch.org/search/record/results?q.fatherSurname=Lerena&q.fatherSurname.exact=on&q.motherSurname=Lerena&q.motherSurname.exact=on",
+  "film": null,
+  "waypoint": null,
+  "what": "Asking the record index the one question Pablo Armando's enrolment card asks: which couples were a Lerena father and a Lerena mother?",
+  "when": "2026-10-12",
+  "outcome": "nothing",
+  "pages": "all 38 results",
+  "walked": true,
+  "tags": [
+   "lerena",
+   "juan carlos",
+   "maria lerena",
+   "trinidad",
+   "san jose",
+   "montevideo",
+   "uruguay",
+   "argentina",
+   "familysearch",
+   "index",
+   "parent-pair",
+   "control",
+   "method"
+  ],
+  "note": "THE MOST USEFUL NULL THIS ARCHIVE HAS RUN ON ITS OWN QUESTION, AND IT CARRIES ITS OWN CONTROL. Pablo Armando's 1908 enrolment card names JUAN CARLOS LERENA and MARIA LERENA - a Lerena father and a Lerena mother. Asked of the record index with both surnames EXACT, that configuration returns THIRTY-EIGHT couples in the whole world, and NOT ONE OF THEM IS A JUAN CARLOS. THE CONTROL IS BUILT IN: the same query returns couples this archive already holds - Eloy Lerena and Felisa Lerena at San Jose de Flores in 1912, Alejandro F. Lerena and Natalia Lerena at Trinidad - so the query finds what it should. NOTE WHICH INDEX THIS IS: the earlier nulls on 'Juan Carlos Lerena' were FULL-TEXT phrase searches, which read words on page images; this is the NAME INDEX, which catalogues parents as fields. Two different indexes, now both empty on the same man. AND IT PRODUCED FOUR URUGUAYAN COUPLES THIS ARCHIVE HAD NEVER MET: Antonio Lerena and Sabina Lerena, whose daughter married at San Francisco de Asis in 1865; VITALIANO LERENA and ANDREA LERENA at TRINIDAD, the town this archive has worked hardest; Alejandro Lerena and BARBARA Lerena at San Jose de Mayo in 1846, where the elder Alejandro was living; and Florencio Lerena with a Teresa Lerena, which collides with a Florencio already held here. Seventeen people entered, all index-level."
  }
 ]
