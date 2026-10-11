@@ -3929,9 +3929,9 @@
  {
   "name": "Arturo LERENA (oriental, b. c.1857, father of Eduardo)",
   "born_est": "1857",
-  "last_attested_alive": "1857",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "last_attested_alive": "1936-Mar-2",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
  },
  {
   "name": "Ema REGULES (wife of Arturo LERENA)",
@@ -3985,9 +3985,9 @@
  {
   "name": "Emma LERENA REGULES (m. Fermin Carlos de Yeregui 1909)",
   "born_est": "1885-05-18",
-  "last_attested_alive": "1909-Aug-09",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1885-05-18",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Fermin Carlos de YEREGUI (m. Emma Lerena Regules 1909)",
@@ -4030,5 +4030,68 @@
   "last_attested_alive": "1909-Aug-09",
   "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
   "tier": "ALIVE AT"
+ },
+ {
+  "name": "Ema Justina Felicia LERENA Regules (b.1881)",
+  "born_est": "1881-05-18",
+  "last_attested_alive": "1881-05-18",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Arturo Mario LERENA Regules (1884-1949)",
+  "born_est": "1884-04-09",
+  "last_attested_alive": "1884-04-09",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Cora Maria Avelina LERENA Regules (b.1887)",
+  "born_est": "1887-06-08",
+  "last_attested_alive": "1887-06-08",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Roberto Ambrosio LERENA Regules (b.1896)",
+  "born_est": "1896-11-01",
+  "last_attested_alive": "1896-Nov-01",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Maria Juana (wife of Arturo Mario LERENA Regules)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Luis BARBE (Oficial del Estado Civil, Montevideo 1936)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Carlos BASTOS (declarant, 1936)",
+  "born_est": "1896",
+  "last_attested_alive": "1896",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Marcos S. ACUNA (declarant, 1936)",
+  "born_est": "1913",
+  "last_attested_alive": "1913",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Dr Jorge CALVETTE (physician, Montevideo 1936)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]
