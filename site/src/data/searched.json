@@ -1128,5 +1128,51 @@
    "consular"
   ],
   "note": "A SOURCE CLASS THIS ARCHIVE HAD NEVER TOUCHED: the Spanish consulate in Buenos Aires kept its own notarial register, and Spaniards in the city appear in it with their VILLAGE of origin and a consular roll number - detail no Argentine civil act gives. THE FIND IS A HOUSEHOLD WHO CARRY THE NAME TWICE. Prudencio Benito and Juan Jose LERENA Y LERENA, bachelors and shop-assistants of Navarrete, Logrono, consular numbers 950 and 951, give power over the family property in Spain to their widowed mother ISABELA LERENA Y BASARAN and their married brother JOSE DOLORES LERENA Y LERENA. AND THE FIRST NOTE WRITTEN HERE OVERCLAIMED IT, CORRECTED WITHIN THE HOUR. It said the repeated surname on Pablo Armando's 1908 card had always been the easiest thing to dismiss as a clerical duplication and that this household answered it. THE ANSWER WAS ALREADY HERE FIVE TIMES OVER - two Trinidad couples, the 1911 dispensation, Alejandro, and Eloy x Felisa Lerena at San Jose de Flores in 1912, that last found the same morning. This is the SIXTH, and what it alone adds is a household outside South America, children carrying the name doubled as a surname of record, and a village whose registers can be opened. NO LINK CLAIMED - they are Spanish subjects and every line here is Banda Oriental from the 1790s; recorded on /name/ as a namesake household. IT ALSO PROBABLY IDENTIFIES AN EXISTING ROW: 'Juan Jose LERENA, b.1876, Logrono, soltero, comercio' from CEMLA, landed 1920/1928/1929 - same forenames, province, civil state, trade and city, and 24 years old that November. NOT MERGED: CEMLA records the province, the act records the village. NEXT: the parish registers of Navarrete."
+ },
+ {
+  "src": "FamilySearch FULL TEXT - Escalada, Carlos M.; Lerena, Carlos A.: Buenos Aires City, PROBATE ESTATE CASE FILES 1891, 91 images",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3QHV-V3DS-X934-6",
+  "film": null,
+  "waypoint": null,
+  "what": "Results 61-80 of the Argentina full-text set - a probate case TITLED with a Lerena, so he is a party and not a mention.",
+  "when": "2026-10-11",
+  "outcome": "yield",
+  "pages": "item 11 of 91",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "escalada",
+   "ferreyra",
+   "buenos aires",
+   "argentina",
+   "familysearch",
+   "full-text",
+   "probate",
+   "litigation"
+  ],
+  "note": "CARLOS A. LERENA SUED THE ESTATE OF DON CARLOS MARIA ESCALADA FOR A COMMISSION, February 1890 - 'la demanda entablada por D. Carlos A. Lerena, sobre cobro de pesos', the claim being 'la comision por la compraventa a que se refiere'. The estate's lawyer A. Ferreyra answered that it rests on his bare assertion, that he 'no acompana documento alguno en que conste lo que asevera. NI TAMPOCO PUEDE ACOMPANARLO', and that the succession had concluded no contract. A LERENA WORKING AS A BROKER IN BUENOS AIRES IN 1890 - the right city and the right decade, with nothing tying him to Rosario or to Pablo Armando. Outcome unknown: 91 images, one read. Kept apart from Carlos Lerena of Mendoza in _person-pairs.txt."
+ },
+ {
+  "src": "FamilySearch FULL TEXT - Convento de San Francisco; Segura, Placido; Gallegos, Maria Antonia: Buenos Aires City, PROBATE ESTATE CASE FILES 1795",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3QHK-73TW-43HD",
+  "film": null,
+  "waypoint": null,
+  "what": "Opened because it is from Ramon Lerena's decade - looking for him in a third 1790s Buenos Aires probate.",
+  "when": "2026-10-11",
+  "outcome": "nothing",
+  "pages": "the item the search matched",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "herencia",
+   "buenos aires",
+   "argentina",
+   "familysearch",
+   "full-text",
+   "probate",
+   "false-positive",
+   "method"
+  ],
+  "note": "NOT A LERENA AT ALL, AND THE MOST USEFUL NULL OF THE DAY. The transcript reads 'admitio absolutamente LA LERENA' and 'verificarse LA LERENCIA'. The word is HERENCIA - to accept an inheritance, here without benefit of inventory. IN A CORPUS MADE ENTIRELY OF PROBATE FILES, THE COMMONEST WORD IN THE CORPUS IMPERSONATES THIS SURNAME. So the '700 Argentine full-text hits for Lerena' this archive has been paging through is not 700 appearances of a rare name; the real number is unknown and much smaller. Recorded in data/false-zeros.tsv as the first FALSE POSITIVE in a file that until now held only false zeros. GENERAL RULE: before trusting a full-text count, find out what your surname is a misreading of in that language and that document type."
  }
 ]

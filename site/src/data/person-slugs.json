@@ -55,6 +55,7 @@
   "11 October 2026 - TWO ROW TITLES WERE RENAMED AND NO URL MOVED, which is the first time that has been true here, and it is worth writing down WHY it was safe. 'Don Clemente GARCIA (d. by 1800, Rosario)' became '(d. by 1794)' and 'Ramon LERENA (of Rosario-Colla, fl. c.1800-1820)' became 'fl. 1794-1820', because a 1794 probate proved both dates wrong. slugify() STRIPS PARENTHESES (see tools/build-people.py and the warning above it), so a disambiguator can be corrected without touching the address - don-clemente-garcia and ramon-lerena-2 are unchanged. THE KEY STILL HAD TO BE MOVED BY HAND, because this ledger is keyed on the full name: leaving the old key would have left a published slug attached to a name no file contains, and minting a fresh one for the new name could have handed Ramon 'ramon-lerena' instead of the 'ramon-lerena-2' a collision gave him. SO: A RENAME THAT ONLY TOUCHES TEXT INSIDE PARENTHESES IS FREE; ONE THAT TOUCHES A NAME IS NOT. I first wrote a correction saying his row could not be renamed at all, which was wrong, and I checked slugify() before publishing it."
  ],
  "slugs": {
+  "A. FERREYRA (lawyer for the Escalada estate, 1890)": "a-ferreyra",
   "ANTONIO (enslaved in Sancho Lerena's household, 1812)": "antonio",
   "ARMAND[O] LORENA (as machine-indexed) = Pablo Armando LERENA": "armand-o-lorena-pablo-armando-lerena",
   "Abdona Ignacia LERENA (d. 1850, aged 7 days)": "abdona-ignacia-lerena",
@@ -141,6 +142,7 @@
   "Canonigo D. Martin PINERO (officiated 1871)": "canonigo-d-martin-pinero",
   "Capitan Don Antonio RUIZ [RODRIGUEZ] DE CARVALLO": "capitan-don-antonio-ruiz-rodriguez-de-carvallo",
   "Careen Maria LERENA": "careen-maria-lerena",
+  "Carlos A. LERENA (plaintiff, Buenos Aires 1890)": "carlos-a-lerena",
   "Carlos Alberto FEIN": "carlos-alberto-fein",
   "Carlos Ambrosio Florencio LERENA LARRIERA": "carlos-ambrosio-florencio-lerena-larriera",
   "Carlos Augusto Federico LERENA Salvanach (b. 9 July 1883)": "carlos-augusto-federico-lerena-salvanach",
@@ -184,6 +186,7 @@
   "Dominga Josefa LLERENA Fernandez (b.1804)": "dominga-josefa-llerena-fernandez",
   "Domingo RODRIGUEZ DE CARVALLO": "domingo-rodriguez-de-carvallo",
   "Don Antonio LENGUAS": "don-antonio-lenguas",
+  "Don Carlos Maria ESCALADA (d. by 1890, Buenos Aires)": "don-carlos-maria-escalada",
   "Don Carlos NAVIA": "don-carlos-navia",
   "Don Clemente GARCIA (d. by 1794, Rosario)": "don-clemente-garcia",
   "Don Cornelio CASAS": "don-cornelio-casas",
