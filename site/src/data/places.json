@@ -416,6 +416,27 @@
   "count": 15
  },
  {
+  "slug": "colla",
+  "name": "Colla",
+  "people": [
+   "don-clemente-garcia",
+   "dona-celestina-gonzalez",
+   "juan-de-urdinaran",
+   "francisco-perez-de-ceballos",
+   "andres-pais",
+   "bartolome-partia",
+   "nicolas-yrigoyen",
+   "luis-pochez",
+   "bartholo-garcia",
+   "andres-brivaqui",
+   "don-geronimo-alonso-de-villagomez",
+   "lorenzo-martinez-de-olalla",
+   "guillermo-hurtado-de-villagomez",
+   "fulgencio-de-los-santos"
+  ],
+  "count": 14
+ },
+ {
   "slug": "gualeguaychu-entre-rios",
   "name": "Gualeguaychu, Entre Rios",
   "people": [
@@ -451,23 +472,6 @@
    "georgina-temple"
   ],
   "count": 11
- },
- {
-  "slug": "colla",
-  "name": "Colla",
-  "people": [
-   "don-clemente-garcia",
-   "dona-celestina-gonzalez",
-   "juan-de-urdinaran",
-   "francisco-perez-de-ceballos",
-   "andres-pais",
-   "bartolome-partia",
-   "nicolas-yrigoyen",
-   "luis-pochez",
-   "bartholo-garcia",
-   "andres-brivaqui"
-  ],
-  "count": 10
  },
  {
   "slug": "canelones",

@@ -2219,7 +2219,7 @@
   "tier": "BIRTH ONLY"
  },
  {
-  "name": "Ramon LERENA (of Rosario-Colla, fl. c.1800-1820)",
+  "name": "Ramon LERENA (of Rosario-Colla, fl. 1794-1820)",
   "born_est": "-",
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
@@ -3682,7 +3682,7 @@
   "tier": "BIRTH ONLY"
  },
  {
-  "name": "Don Clemente GARCIA (d. by 1800, Rosario)",
+  "name": "Don Clemente GARCIA (d. by 1794, Rosario)",
   "born_est": "-",
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
@@ -3809,6 +3809,34 @@
  },
  {
   "name": "Vicente LERENA DIAZ (Registro Civil, Pueblo Brugo 1938)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Don Geronimo ALONSO de Villagomez (appraiser, 1794)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Lorenzo MARTINEZ de Olalla (named by the widow, 1794)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Guillermo HURTADO de Villagomez (witness, 1794)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Fulgencio de los SANTOS (witness, 1794)",
   "born_est": "-",
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",

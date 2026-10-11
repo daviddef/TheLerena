@@ -1051,5 +1051,55 @@
    "civil-registration"
   ],
   "note": "HE IS THE JEFE DEL REGISTRO CIVIL OF PUEBLO BRUGO. The acts open and close in his name: 'ante mi VICENTE LERENA DIAZ, de Registro Civil, comparecio...' and 'Ante mi: Vicente Lerena Diaz'. A LERENA HOLDING PUBLIC OFFICE 138 YEARS AFTER RAMON LERENA WAS ALCALDE AT THE ROSARIO - and both men kept records where the state was thin. A STRONG CANDIDACY, NOT MERGED: Arturo Lerena Garcia and Amalia Diaz had sons surnamed LERENA DIAZ, and this register holds two - Juan Fernando, dead at ten months at Valparaiso in 1894, and ANTONIO, who MARRIED AT CRESPO, DEPARTAMENTO DE PARANA, ENTRE RIOS in 1924. Vicente keeps the register of PUEBLO BRUGO in the SAME DEPARTMENT fourteen years later. A rare compound, a small department, the right generation. The act gives him no parents and no age, so it is not merged. AND A HARDER PAIR CAME WITH IT: this register already held a VICENTE ANTONIO LARENA at GUALEGUAYCHU, also Entre Rios, a father in 1906 and 1913. NOT MERGED AND NOT EXCLUDED - the spelling is no separation here and neither is the department. A BOUNDARY WAS ADDED TO YESTERDAY'S RULE BECAUSE OF THIS RECORD. He signed a volume of 113 images of other people's deaths; read literally, 'everyone named on an act we read' would fill this register with strangers a Lerena merely wrote down. The act must be ABOUT one of our people, or our person a party or witness to it. Where he is only the official of record, the office is recorded and the business of the office is not."
+ },
+ {
+  "film": null,
+  "waypoint": null,
+  "when": "2026-10-11",
+  "outcome": "yield",
+  "walked": false,
+  "src": "FamilySearch FULL TEXT - Garcia, Clemente: Buenos Aires City, PROBATE ESTATE CASE FILES 1794 (119 images)",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3QHK-X3TB-H94S-3",
+  "what": "Paging past the first 20 Argentina full-text hits for Lerena - looking for anything older than the 1800 court order.",
+  "pages": "item 11 of 119",
+  "tags": [
+   "lerena",
+   "garcia",
+   "gonzalez",
+   "alonso",
+   "martinez de olalla",
+   "rosario",
+   "colonia",
+   "buenos aires",
+   "argentina",
+   "uruguay",
+   "familysearch",
+   "full-text",
+   "probate"
+  ],
+  "note": "THE OLDEST DATED APPEARANCE OF A LERENA IN THIS ARCHIVE, AND THE ONLY ONE THAT SHOWS A MAN'S STANDING RATHER THAN HIS OFFICE. Don GERONIMO ALONSO and Don RAMON LERENA are 'sujetos NOMBRADOS POR LA VIUDA para contar y tasar el ganado y caballos' of the estancia of the late Don Clemente Garcia; they are sworn separately and sign where there is no notary. SO IN 1794 HE IS NOT THE ALCALDE - he is a man a widow chooses to value her stock, and by 1796 he holds the office. A CAREER, not a date. IT ALSO CORRECTS THIS ARCHIVE: Clemente Garcia is 'EL FINADO' here and Celestina Gonzalez 'LA VIUDA', so he died before 1794, not by 1800, and the 1800 case is a second reckoning of an estate already inventoried once. The estate includes an ESTANCIA with cattle and horses as well as the pulperia, the atahona and the house. FOUR PEOPLE ADMITTED: Geronimo Alonso [de Villagomez], Lorenzo Martinez de Olalla (named by the widow to act for her), Guillermo Hurtado de Villagomez and Fulgencio de los Santos, all witnesses or appraisers to an act Ramon Lerena was a PARTY to."
+ },
+ {
+  "film": null,
+  "waypoint": null,
+  "when": "2026-10-11",
+  "outcome": "yield",
+  "walked": false,
+  "src": "FamilySearch FULL TEXT - Chabo, Manuel; Agaichu, Maria Marta: Buenos Aires City, PROBATE ESTATE CASE FILES 1796",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C3H9-B91P-F",
+  "what": "Same result set - any other case closed by the alcalde of the Partido del Rosario, to date the office rather than the man.",
+  "pages": "the auto of 28 October 1796",
+  "tags": [
+   "lerena",
+   "rosario",
+   "colonia",
+   "buenos aires",
+   "argentina",
+   "uruguay",
+   "familysearch",
+   "full-text",
+   "probate"
+  ],
+  "note": "THE OFFICE IS NOW DATED 1796-1800, NOT ONE YEAR. The auto closes 'lo proveyo, mando y firmo D. RAMON LERENA, ALCALDE DE LA SANTA HERMANDAD DEL PARTIDO DEL ROSARIO... octubre de mil setecientos noventa y seis'. THE PARTIES ARE DELIBERATELY NOT IN THIS REGISTER. Ramon Lerena is the official of record here and nothing more, which is exactly the boundary written into tools/check-people-named.py the previous day; admitting Manuel Chabo and Maria Marta Agaichu would make this a register of everyone a Lerena ever wrote down. WHAT THE CASE IS ABOUT IS RECORDED ON HIS OWN ROW, because it is the only business of his office this archive has read apart from the Garcia estate: a power of attorney challenged on the ground that the wife, raised without instruction beside her Guarani parents, did not understand what she had signed and may have been frightened into it."
  }
 ]
