@@ -1640,11 +1640,11 @@
   },
   {
    "n": 205,
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-10-11",
    "what": "“El Doctor Lerena” in the 1889 Feliciano Aguirre probate, Buenos Aires",
-   "note": "A one-line snippet seen on 11 October 2026 while paging the Argentine full-text results: *“lo hace el Doctor Lerena si la”*. **NOT OPENED.** A Lerena with a professional title in the Buenos Aires courts in 1889 is worth a look, and the same court the following year heard **Carlos A. Lerena** sue the Escalada estate for a broker's commission. **CAUTION BEFORE SPENDING TIME:** in this corpus *lerena* is very often the transcriber's reading of **herencia**, so check the sentence before the name — see data/false-zeros.tsv."
+   "note": "A one-line snippet seen on 11 October 2026 while paging the Argentine full-text results: *“lo hace el Doctor Lerena si la”*. **NOT OPENED.** A Lerena with a professional title in the Buenos Aires courts in 1889 is worth a look, and the same court the following year heard **Carlos A. Lerena** sue the Escalada estate for a broker's commission. **CAUTION BEFORE SPENDING TIME:** in this corpus *lerena* is very often the transcriber's reading of **herencia**, so check the sentence before the name — see data/false-zeros.tsv. **DONE 12 OCTOBER 2026, AND THE WARNING EARNED ITS PLACE.** He is real: the Agente Fiscal's dictamen names him as the **curador** appointed in the Feliciano Aguirre probate, and objects that the court appointed him without consulting the Ministry or inviting the **Spanish consul**. The same passage spells him **LERENA** and **LLERENA**, twice each, in one hand. *Doctor* is again the style of an **abogado**. Three seams opened and not worked: the same Doctor Lerena in the Buenos Aires probates of **1890, 1894 and 1897**; a **physician** of the name signing Montevideo death certificates in **1949 and 1967**; and 'Señores Doctor Lerena' in the student files of the **Universidad de Toledo**, 1790s-1830s."
   }
  ],
  "accounts": [
