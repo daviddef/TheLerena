@@ -361,9 +361,11 @@
    "juana-lerena",
    "rosa-defenari",
    "presbitero-d-antonio-jenara",
-   "jose-riera"
+   "jose-riera",
+   "juan-jose-lerena-y-lerena",
+   "prudencio-benito-lerena-y-lerena"
   ],
-  "count": 36
+  "count": 38
  },
  {
   "slug": "san-jose-de-mayo",
@@ -811,6 +813,15 @@
   "people": [
    "amador-lerena-pelaez",
    "pedro-s-lerena"
+  ],
+  "count": 2
+ },
+ {
+  "slug": "navarrete-logrono-spain",
+  "name": "Navarrete, Logrono, Spain",
+  "people": [
+   "jose-dolores-lerena-y-lerena",
+   "dona-isabela-lerena-y-basaran"
   ],
   "count": 2
  },
