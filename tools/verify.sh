@@ -20,6 +20,16 @@ set -e
 cd "$(dirname "$0")/.."
 python3 tools/build-pages.py  > /dev/null
 python3 tools/build-people.py > /dev/null
+# THE PUBLIC CHANGELOG IS BUILT FROM THE GIT LOG AND WAS BUILT BY NOTHING.
+# Added 11 October 2026 by a site-wide audit. /changes/ was showing five days ending
+# 14 September while the repository had twenty days of commits ending that morning -
+# fifteen days of work, including every find of the day it was found, simply absent
+# from the page that exists to list it. build-changes.py was in tools/ and in no
+# runner: not here, not in package.json, not in CI. A generator nobody runs is a
+# stale page with extra steps.
+# It always lags its own commit by one, which is why the page counts and declares
+# the "Rebuild the changelog" commits instead of hiding them.
+python3 tools/build-changes.py > /dev/null
 python3 tools/consistency.py
 # Build from CLEAN. A half-written dist from a previously FAILED build poisons the next one:
 # on 14 September 2026 astro reported "Cannot find module .../dist/chunks/astro/server_*.mjs"
