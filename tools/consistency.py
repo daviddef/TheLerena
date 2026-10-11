@@ -185,7 +185,17 @@ for p in people:
                 continue
             if len(head.split()) < 2:            # a bare forename needs the child's surname to be a key
                 head += " | " + (_fold(p["name"]).lower().split() or ["?"])[-1]
-            cited[head].append(p)
+            # *** ONE PERSON, ONCE PER PARENT. Added 11 October 2026. ***
+            # A row whose prose quotes "hija legitima de X y de Y" TWICE - because the act is
+            # transcribed once in the source field and again in the note, which is this archive's
+            # ordinary habit - was appended to the same cohort twice. The pairwise loop below then
+            # compared the person with HERSELF, got a gap of zero months, and reported
+            # "Angelica Maria LERENA Villademoros and Angelica Maria LERENA Villademoros are both
+            # recorded as children of ... but are only 0 months apart". Three of the eight things
+            # this gate asked a reader to look at were that, and noise in a soft list is worse than
+            # silence: it teaches the reader to skim it.
+            if all(q["name"] != p["name"] for q in cited[head]):
+                cited[head].append(p)
 for parent, group in cited.items():
     if len(group) < 2:
         continue
@@ -277,6 +287,24 @@ CHECKED_PAIRS = {
     ("Dona Carolina Amalia de la CONCEPCION", "Dona Carolina SUAREZ"):
         "different women sharing only the forename Carolina: the godmother beside General Maggesi at "
         "the Catedral in 1827, and Hermenegilda Gavazzo's mother, named in 1892 and again at her daughter's death in 1940. This entry said JUAREZ until 21 September 2026, when the 1892 plate was opened and gave SUAREZ - and a renamed row silently un-declares its own pair, which is why this list is checked after every rename",
+    # Checked 11 October 2026 during a site-wide audit. The fourth pair this gate was
+    # reporting that day - Dona Juana SUAREZ against Dona Juana del ESPIRITU SANTO - is
+    # absent from this list because it was not a false alarm: they were one woman, and
+    # the rows were merged. A pair that belongs here is one the gate should stop asking
+    # about; a pair that belongs in the register is one somebody has to fix.
+    ("Maria Angelica YUBIA", "Maria Angelica Julia LERENA Salvanach"):
+        "different women: the godmother at Pocitos in August 1903, whose surname is read YUBIA and is "
+        "NOT CERTAIN, and Gilberto's daughter baptised at San Francisco de Asis in October 1886. The "
+        "uncertain surname is why this one is worth re-reading some day - a 17-year-old niece could "
+        "stand godmother - but nothing on the plate says Lerena, and a shared forename is not a merge",
+    ("Maria Carlota AMADEO LASTRA", "Maria Carlota MORATORIO Lerena"):
+        "different women on different continents: Rafael Llerena's wife at San Nicolas, Buenos Aires, "
+        "born about 1883, and Fernando Moratorio's daughter baptised at the Catedral de Montevideo in "
+        "1880. Maria Carlota is simply a common pair of names",
+    ("Ana Maria LERENA Rozzetti", "Ana Maria CABALGANTE"):
+        "different women a century apart: Eduardo Lerena and Maria Mercedes Rozzetti's daughter at "
+        "Buenos Aires, and the Brazilian-born mother of Manuel Zeferino Barros named as a grandmother "
+        "at the Cordon in 1831",
     ("Maria Carlota LERENA Salvanach", "Maria Carlota MORATORIO Lerena"):
         "different children ten years apart: Gilberto and Julia Salvanach's daughter baptised at "
         "Recoleta in 1890, and Fernando Moratorio and Josefa Lerena Traibel's baptised at Union in "

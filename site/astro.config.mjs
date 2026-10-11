@@ -19,6 +19,16 @@ const redirects = {
   '/people/juan-zalsamendi': `${BASE}/people/juan-zalduondo/`,
   '/people/dolores-pou-de-zalsamendi': `${BASE}/people/dolores-pou-de-zalduondo/`,
   '/people/maria-margarita-zalsamendi-lerena': `${BASE}/people/maria-margarita-luisa-zalduondo-lerena/`,
+  /* 11 October 2026, found by a site-wide audit. The 1840 Catedral act was quoted on
+     this archive's own page with the grandfather's forename in SQUARE BRACKETS -
+     "Nieto pat[erno de D. Domingo] RODRIG.z" - supplied by the reader because the CHILD
+     is called Domingo. The plate says JOAQUIN. So a man was published for three weeks
+     who never existed, and his wife was published twice under two names. Both addresses
+     were live and both now land on the people the act actually names.
+     See data/corrections.tsv. */
+  '/people/don-domingo-rodriguez': `${BASE}/people/mayor-don-joaquin-ruiz-de-carvallo/`,
+  '/people/dona-juana-del-espiritu-santo': `${BASE}/people/dona-juana-suarez/`,
+
   /* NOT a rename but a MERGE: she and Angelica are one woman, argued on her row. */
   '/people/amelia-lerena': `${BASE}/people/angelica-maria-lerena-villademoros/`,
 };
