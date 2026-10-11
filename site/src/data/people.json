@@ -266,10 +266,10 @@
   "children": [
    {
     "name": "[infant son] LERENA (unnamed; d. 22 May 1932, Bloemfontein)",
-    "dates": "1932–1932",
+    "dates": "",
     "slug": "infant-son-lerena",
     "via": "register",
-    "note": "SA, Orange Free State, Civil Death - ark 1:1:87XR-S93Z; parent indexed as Louis Lerena"
+    "note": "SA, Orange Free State, Civil Death - ark 1:1:87XR-S93Z; parent indexed as Louis Lerena DIRECTION CORRECTED 11 October 2026: this was written as 'Roque | child | the infant', and build-people.py reverses father/mother edges into children but does NOT reverse child edges into parents - so the infant's own page drew nothing at all. He was the only person in the register in that position; the other 35 child edges sit beside an explicit parent edge."
    },
    {
     "name": "Rieta Maria LERENA",
@@ -3046,15 +3046,23 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Petrona LOPEZ (wife of Juan LARENA)",
+    "dates": "",
+    "slug": "petrona-lopez",
+    "via": "register",
+    "note": "Stated on his register row."
+   }
+  ],
   "children": [],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -3162,7 +3170,15 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Vicenta Mercedes FUENTES (wife of Vicente Antonio LARENA)",
+    "dates": "",
+    "slug": "vicenta-mercedes-fuentes",
+    "via": "register",
+    "note": "Stated on his register row."
+   }
+  ],
   "children": [
    {
     "name": "Aurora Eduarda LARENA Fuentes",
@@ -3184,8 +3200,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 2,
-  "relRegister": 2,
+  "relTotal": 3,
+  "relRegister": 3,
   "relTree": 0,
   "evidence": []
  },
@@ -3211,15 +3227,23 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Florencia Calixta RAMOS (wife of ROQUE LARENA)",
+    "dates": "",
+    "slug": "florencia-calixta-ramos",
+    "via": "register",
+    "note": "Stated on his register row."
+   }
+  ],
   "children": [],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -4048,7 +4072,15 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Antonio MEDERO (husband of Maria LLERENA)",
+    "dates": "",
+    "slug": "antonio-medero",
+    "via": "register",
+    "note": "Stated on her register row."
+   }
+  ],
   "children": [
    {
     "name": "Petrona MEDERO Llerena",
@@ -4063,8 +4095,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 1,
-  "relRegister": 1,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -4090,15 +4122,23 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Carlos Augusto Federico LERENA Salvanach (b. 9 July 1883)",
+    "dates": "",
+    "slug": "carlos-augusto-federico-lerena-salvanach",
+    "via": "register",
+    "note": "Travelling together, Montevideo to Buenos Aires, 27 May 1926 - CEMLA."
+   }
+  ],
   "children": [],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -4170,7 +4210,15 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Carlos LERENA (of Mendoza, m. Adela CAMIGLIA)",
+    "dates": "",
+    "slug": "carlos-lerena",
+    "via": "register",
+    "note": "Named together as the parents in the Mendoza baptism of 1904."
+   }
+  ],
   "children": [
    {
     "name": "Avelino Carlos LERENA (b.1904, Mendoza)",
@@ -4185,8 +4233,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 1,
-  "relRegister": 1,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -4262,7 +4310,15 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Francisco LLERENA (Cordoba, m. Rafaela Daraz)",
+    "dates": "",
+    "slug": "francisco-llerena-2",
+    "via": "register",
+    "note": "Same record."
+   }
+  ],
   "children": [
    {
     "name": "Baldomero LLERENA",
@@ -4277,8 +4333,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 1,
-  "relRegister": 1,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -4358,15 +4414,23 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Baldomero LLERENA",
+    "dates": "",
+    "slug": "baldomero-llerena",
+    "via": "register",
+    "note": "Children Sahara, Carlos and Julia Rosa."
+   }
+  ],
   "children": [],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -4392,15 +4456,23 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Rosario MOYANO (wife of Rafael LLERENA)",
+    "dates": "",
+    "slug": "rosario-moyano",
+    "via": "register",
+    "note": "Stated on his register row - the CORDOBA Rafael."
+   }
+  ],
   "children": [],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -4426,15 +4498,23 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Vicente CAMPELLONE (husband of Lucrecia LLERENA)",
+    "dates": "",
+    "slug": "vicente-campellone",
+    "via": "register",
+    "note": "Stated on her register row."
+   }
+  ],
   "children": [],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -4559,7 +4639,15 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Maria Mercedes ROZZETTI (wife of Eduardo LERENA)",
+    "dates": "",
+    "slug": "maria-mercedes-rozzetti",
+    "via": "register",
+    "note": "Stated on his register row."
+   }
+  ],
   "children": [
    {
     "name": "Ana Maria LERENA Rozzetti",
@@ -4574,8 +4662,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 1,
-  "relRegister": 1,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -4601,7 +4689,15 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Cristobal CANALE (husband of Avelina LERENA)",
+    "dates": "",
+    "slug": "cristobal-canale",
+    "via": "register",
+    "note": "Stated on her register row."
+   }
+  ],
   "children": [
    {
     "name": "Susana Avelina CANALE Lerena",
@@ -4616,8 +4712,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 1,
-  "relRegister": 1,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -4918,6 +5014,12 @@
     "dates": "",
     "slug": "doreen-may-chappell",
     "via": "register"
+   },
+   {
+    "name": "[infant son] LERENA (unnamed; d. 22 May 1932, Bloemfontein)",
+    "dates": "",
+    "slug": "infant-son-lerena",
+    "via": "register"
    }
   ],
   "isLine": false,
@@ -4976,6 +5078,12 @@
     "name": "Rieta Maria LERENA",
     "dates": "",
     "slug": "rieta-maria-lerena",
+    "via": "register"
+   },
+   {
+    "name": "[infant son] LERENA (unnamed; d. 22 May 1932, Bloemfontein)",
+    "dates": "",
+    "slug": "infant-son-lerena",
     "via": "register"
    }
   ],
@@ -5283,7 +5391,15 @@
    "via": "register",
    "note": "Named in Montevideo marriage act 258 (1864)."
   },
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Don Luis Eugenio LERENA LENGUAS",
+    "dates": "",
+    "slug": "don-luis-eugenio-lerena-lenguas",
+    "via": "register",
+    "note": "Married 19 December 1864, San Francisco de Asis, Ciudad Vieja, Montevideo, act 258 - image read."
+   }
+  ],
   "children": [
    {
     "name": "Ema Sixta LERENA Juanico",
@@ -5343,8 +5459,8 @@
   ],
   "aliasOf": null,
   "godchildren": [],
-  "relTotal": 7,
-  "relRegister": 7,
+  "relTotal": 8,
+  "relRegister": 8,
   "relTree": 0,
   "evidence": []
  },
@@ -5378,6 +5494,13 @@
   "mother": null,
   "spouses": [
    {
+    "name": "Dona Carolina ORIBE (1st wife of Don Luis Lerena)",
+    "dates": "",
+    "slug": "dona-carolina-oribe",
+    "via": "register",
+    "note": "Marriage petition of 3 September 1836, Arquidiocesis de Montevideo - IMAGE READ. He remarried 'en segundas nupcias' in 1842 as 'viudo de Dona Carolina'."
+   },
+   {
     "name": "Dona Justiniana LENGUAS Gonzalez",
     "dates": "",
     "slug": "dona-justiniana-lenguas-gonzalez",
@@ -5406,8 +5529,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 4,
-  "relRegister": 3,
+  "relTotal": 5,
+  "relRegister": 4,
   "relTree": 1,
   "evidence": []
  },
@@ -5467,15 +5590,23 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Maria Julia Margarita Josefa Emirena Justiniana LERENA Juanico (m. HERRERA)",
+    "dates": "",
+    "slug": "maria-julia-margarita-josefa-emirena-justiniana-lerena-juanico",
+    "via": "register",
+    "note": "Married 3 November 1886, San Francisco de Asis, Ciudad Vieja, Montevideo, act 1879 - image read."
+   }
+  ],
   "children": [],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -5764,7 +5895,15 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Dr. Don Candido JUANICO",
+    "dates": "",
+    "slug": "dr-don-candido-juanico",
+    "via": "register",
+    "note": "Both named as the bride's parents in Montevideo marriage act 258 (1864)."
+   }
+  ],
   "children": [
    {
     "name": "Dona Julia JUANICO",
@@ -5779,8 +5918,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 1,
-  "relRegister": 1,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -5818,7 +5957,15 @@
    "via": "register",
    "note": "Same."
   },
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Don Luis LERENA (the godfather) = probably Luis LERENA y Fernandez",
+    "dates": "",
+    "slug": "don-luis-lerena-probably-luis-lerena-y-fernandez",
+    "via": "register",
+    "note": "Both named as the groom's parents in Montevideo marriage act 258 (1864)."
+   }
+  ],
   "children": [
    {
     "name": "Don Luis Eugenio LERENA LENGUAS",
@@ -5847,8 +5994,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 4,
-  "relRegister": 4,
+  "relTotal": 5,
+  "relRegister": 5,
   "relTree": 0,
   "evidence": []
  },
@@ -8573,7 +8720,15 @@
    "via": "register",
    "note": "Same act."
   },
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "General Don Pedro LENGUAS",
+    "dates": "",
+    "slug": "general-don-pedro-lenguas",
+    "via": "register",
+    "note": "Parents together of Justiniana and Sixta Lenguas."
+   }
+  ],
   "children": [
    {
     "name": "Dona Justiniana LENGUAS Gonzalez",
@@ -8595,8 +8750,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 4,
-  "relRegister": 4,
+  "relTotal": 5,
+  "relRegister": 5,
   "relTree": 0,
   "evidence": []
  },
@@ -9183,15 +9338,23 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Cipriana SAENZ PENA (indexed also Cepriana Saens Pena)",
+    "dates": "",
+    "slug": "cipriana-saenz-pena",
+    "via": "register",
+    "note": "Nuestra Senora del Pilar, Recoleta, Buenos Aires, 19 May 1906; index read."
+   }
+  ],
   "children": [],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -9945,15 +10108,23 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Dona Bernardina FRAGOSO de Rivera",
+    "dates": "",
+    "slug": "dona-bernardina-fragoso-de-rivera",
+    "via": "register",
+    "note": "Godparents together at the Cordon, 13 December 1831 - IMAGE READ, film 007713392."
+   }
+  ],
   "children": [],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -10608,7 +10779,15 @@
    "via": "register",
    "note": "Her own baptism at San Agustin de la Union, 1852, and her death registration of 1947."
   },
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Fernando MORATORIO (the younger)",
+    "dates": "",
+    "slug": "fernando-moratorio-2",
+    "via": "register",
+    "note": "Parents together of the two girls baptised 8 March 1880."
+   }
+  ],
   "children": [
    {
     "name": "Maria Carlota MORATORIO Lerena",
@@ -10708,8 +10887,8 @@
   ],
   "aliasOf": null,
   "godchildren": [],
-  "relTotal": 4,
-  "relRegister": 4,
+  "relTotal": 5,
+  "relRegister": 5,
   "relTree": 0,
   "evidence": []
  },
@@ -10874,7 +11053,15 @@
    "via": "register",
    "note": "Same acts."
   },
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Avelino LERENA Fernandez (son of Sancho)",
+    "dates": "",
+    "slug": "avelino-lerena-fernandez",
+    "via": "register",
+    "note": "Named together as the parents on every one of their children's acts, 1846 to 1866, and she stood witness at their son's wedding in 1892."
+   }
+  ],
   "children": [
    {
     "name": "Alejandro LERENA TRAIBEL (formerly recorded as LERENA LENGUAS)",
@@ -10959,8 +11146,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 13,
-  "relRegister": 13,
+  "relTotal": 14,
+  "relRegister": 14,
   "relTree": 0,
   "evidence": []
  },
@@ -11223,7 +11410,15 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Maria Adelina LERENA Traibel (de FEIN)",
+    "dates": "",
+    "slug": "maria-adelina-lerena-traibel",
+    "via": "register",
+    "note": "Named as her husband in her Montevideo death registration of 20 November 1946."
+   }
+  ],
   "children": [
    {
     "name": "Jorge FEIN",
@@ -11238,8 +11433,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 1,
-  "relRegister": 1,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -11277,7 +11472,15 @@
    "via": "register",
    "note": "Same act."
   },
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Pedro Alberto Ysabelino LERENA Traibel (the ALBERTO of 1852-1921)",
+    "dates": "",
+    "slug": "pedro-alberto-ysabelino-lerena-traibel",
+    "via": "register",
+    "note": "Named as his wife in his Montevideo death registration of 2 March 1921."
+   }
+  ],
   "children": [
    {
     "name": "Alberto Julian LERENA LARRIERA",
@@ -11348,8 +11551,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 11,
-  "relRegister": 11,
+  "relTotal": 12,
+  "relRegister": 12,
   "relTree": 0,
   "evidence": []
  },
@@ -14620,7 +14823,15 @@
    "via": "register",
    "note": "Named as the paternal grandmother on both acts - 'Juana Suarez' in 1827 and 'Juana del Espiritu Sto' in 1840, one woman under two names; the rows were merged 11 October 2026."
   },
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Dona Dominga CARVALLO",
+    "dates": "",
+    "slug": "dona-dominga-carvallo",
+    "via": "register",
+    "note": "Catedral act of 12 May 1827, naming her as his wife and a daughter of Sancho Llerena."
+   }
+  ],
   "children": [
    {
     "name": "Lucinda Gregoria del Corazon de Jesus RUIZ DE CARVALLO",
@@ -14635,8 +14846,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 3,
-  "relRegister": 3,
+  "relTotal": 4,
+  "relRegister": 4,
   "relTree": 0,
   "evidence": []
  },
@@ -14662,7 +14873,15 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Dona Juana SUAREZ",
+    "dates": "",
+    "slug": "dona-juana-suarez",
+    "via": "register",
+    "note": "Her own row: 'Wife of Mayor Don Joaquin Ruiz de Carvallo; la finada by May 1827'."
+   }
+  ],
   "children": [
    {
     "name": "Capitan Don Antonio RUIZ [RODRIGUEZ] DE CARVALLO",
@@ -14677,8 +14896,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 1,
-  "relRegister": 1,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -14901,15 +15120,23 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Leonarda CORREA",
+    "dates": "",
+    "slug": "leonarda-correa",
+    "via": "register",
+    "note": "Iglesia Matriz de Montevideo, baptism of 30 June 1789 - IMAGE READ, film 007713375 image 00551."
+   }
+  ],
   "children": [],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -15623,15 +15850,23 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Maria Carlota AMADEO LASTRA",
+    "dates": "",
+    "slug": "maria-carlota-amadeo-lastra",
+    "via": "register",
+    "note": "San Nicolas, Buenos Aires, baptism of Juan Carlos Llerena 1910 - IMAGE READ, film 004571164 image 00201. The BUENOS AIRES Rafael, not the Cordoba one."
+   }
+  ],
   "children": [],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -15830,7 +16065,15 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Josefa SEGUEIRA (wife of Pedro LERENA)",
+    "dates": "",
+    "slug": "josefa-segueira",
+    "via": "register",
+    "note": "Named together as the parents of Victor Lerena, both 'finados', in 1889."
+   }
+  ],
   "children": [
    {
     "name": "Victor LERENA (d.1889, alpargatero)",
@@ -15845,8 +16088,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 1,
-  "relRegister": 1,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -16942,7 +17185,15 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Avelino Eduardo LERENA Traibel",
+    "dates": "",
+    "slug": "avelino-eduardo-lerena-traibel",
+    "via": "register",
+    "note": "Named together as the parents on both christenings."
+   }
+  ],
   "children": [
    {
     "name": "Angelica Maria LERENA Villademoros",
@@ -16985,8 +17236,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 5,
-  "relRegister": 5,
+  "relTotal": 6,
+  "relRegister": 6,
   "relTree": 0,
   "evidence": []
  },
@@ -17263,15 +17514,23 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Pedro Segundo LERENA Villademoros",
+    "dates": "",
+    "slug": "pedro-segundo-lerena-villademoros",
+    "via": "register",
+    "note": "Named as his wife at his death in 1936."
+   }
+  ],
   "children": [],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -17297,15 +17556,23 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Avelino LERENA Villademoros (d. 1914)",
+    "dates": "",
+    "slug": "avelino-lerena-villademoros",
+    "via": "register",
+    "note": "Named as his wife at his death in 1914."
+   }
+  ],
   "children": [],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -17402,7 +17669,15 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Alejandro M. LERENA (m.1 Elisa VILLADEMOROS; m.2 Julia BASSANI)",
+    "dates": "",
+    "slug": "alejandro-m-lerena",
+    "via": "register",
+    "note": "Named together as the parents at the Cordon, 29 May 1873."
+   }
+  ],
   "children": [
    {
     "name": "Alejandro Joaquin Narciso LERENA Villardemoros",
@@ -17424,8 +17699,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 2,
-  "relRegister": 2,
+  "relTotal": 3,
+  "relRegister": 3,
   "relTree": 0,
   "evidence": []
  },
@@ -17533,7 +17808,15 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Pedro LLERENA",
+    "dates": "",
+    "slug": "pedro-llerena",
+    "via": "register",
+    "note": "Same record."
+   }
+  ],
   "children": [
    {
     "name": "Celina LLERENA Clavijo",
@@ -17576,8 +17859,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 5,
-  "relRegister": 5,
+  "relTotal": 6,
+  "relRegister": 6,
   "relTree": 0,
   "evidence": []
  },
@@ -17887,15 +18170,23 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Juan Facundo Frutuoso BARROS Lerena",
+    "dates": "",
+    "slug": "juan-facundo-frutuoso-barros-lerena",
+    "via": "register",
+    "note": "Named as surviving spouse on his death registration, Montevideo, 4 May 1915."
+   }
+  ],
   "children": [],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -18252,7 +18543,15 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS)",
+    "dates": "",
+    "slug": "gilberto-lerena",
+    "via": "register",
+    "note": "Named as the mother on five of his sons' army cards"
+   }
+  ],
   "children": [
    {
     "name": "Carlos Augusto Federico LERENA Salvanach (b. 9 July 1883)",
@@ -18302,8 +18601,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 6,
-  "relRegister": 6,
+  "relTotal": 7,
+  "relRegister": 7,
   "relTree": 0,
   "evidence": []
  },
@@ -18558,15 +18857,23 @@
    "via": "register",
    "note": "San Jeronimo, Cordoba, 20 June 1907 - IMAGE READ, film 004484760 image 00123."
   },
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Alejandro Joaquin Narciso LERENA Villardemoros",
+    "dates": "",
+    "slug": "alejandro-joaquin-narciso-lerena-villardemoros",
+    "via": "register",
+    "note": "San Jeronimo, Cordoba, 20 June 1907 - IMAGE READ, film 004484760 image 00123."
+   }
+  ],
   "children": [],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 2,
-  "relRegister": 2,
+  "relTotal": 3,
+  "relRegister": 3,
   "relTree": 0,
   "evidence": []
  },
@@ -19362,17 +19669,36 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
+  "father": {
+   "name": "Roque Luis Armando LERENA",
+   "dates": "1932–1932",
+   "slug": "roque-luis-armando-lerena",
+   "via": "register",
+   "note": "SA, Orange Free State, Civil Death - ark 1:1:87XR-S93Z; parent indexed as Louis Lerena DIRECTION CORRECTED 11 October 2026: this was written as 'Roque | child | the infant', and build-people.py reverses father/mother edges into children but does NOT reverse child edges into parents - so the infant's own page drew nothing at all. He was the only person in the register in that position; the other 35 child edges sit beside an explicit parent edge."
+  },
   "mother": null,
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Antoinette Septima Lynette LERENA",
+    "dates": "",
+    "slug": "antoinette-septima-lynette-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Rieta Maria LERENA",
+    "dates": "",
+    "slug": "rieta-maria-lerena",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -19516,7 +19842,15 @@
    "via": "register",
    "note": "Haddington, East Lothian; alone in the Alms House at Northam in 1891"
   },
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "William TAYLOR",
+    "dates": "",
+    "slug": "william-taylor",
+    "via": "register",
+    "note": "m. Mar quarter 1870, Bideford, 5b/794"
+   }
+  ],
   "children": [
    {
     "name": "Kathleen Georgina TAYLOR",
@@ -19606,8 +19940,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 11,
-  "relRegister": 11,
+  "relTotal": 12,
+  "relRegister": 12,
   "relTree": 0,
   "evidence": []
  },
@@ -20464,7 +20798,15 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "John BRAILEY",
+    "dates": "",
+    "slug": "john-brailey",
+    "via": "register",
+    "note": "m. 9 July 1839, St Martin-in-the-Fields, Westminster"
+   }
+  ],
   "children": [
    {
     "name": "Isabella BRAILEY",
@@ -20500,8 +20842,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 4,
-  "relRegister": 4,
+  "relTotal": 5,
+  "relRegister": 5,
   "relTree": 0,
   "evidence": []
  },
@@ -21313,7 +21655,15 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Socorro LERENA (m. Serapio Fernandez the elder)",
+    "dates": "",
+    "slug": "socorro-lerena",
+    "via": "register",
+    "note": "Flores birth act No. 10 of 1897, which names all four grandparents"
+   }
+  ],
   "children": [
    {
     "name": "Serapio FERNANDEZ (m. Antonina Lerena 1885)",
@@ -21328,8 +21678,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 1,
-  "relRegister": 1,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -23415,15 +23765,23 @@
    "via": "register",
    "note": "Trinidad, Flores - civil registration and parish baptism, the sweep of 27 September 2026 entered as people 11 October 2026. INDEX ONLY; no act opened."
   },
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Eduardo Avelino ZALDUANDO Lerena (m. Maria Ester Costa 1927)",
+    "dates": "",
+    "slug": "eduardo-avelino-zalduando-lerena",
+    "via": "register",
+    "note": "La Paz in Canelones, 20 December 1927, certificate 30 - INDEX ONLY, ark 1:1:X92R-F5N1."
+   }
+  ],
   "children": [],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 2,
-  "relRegister": 2,
+  "relTotal": 3,
+  "relRegister": 3,
   "relTree": 0,
   "evidence": []
  },

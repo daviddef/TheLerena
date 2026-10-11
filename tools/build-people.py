@@ -277,6 +277,32 @@ if REL.exists():
     for p in people:
         p["children"].sort(key=lambda c: (c.get("dates") or "", c["name"]))
 
+    # *** A MARRIAGE IS SYMMETRIC AND WAS BEING READ ONE WAY ONLY. 11 October 2026. ***
+    # Exactly the fault fixed for parent edges above, in the one relationship where the two ends
+    # are interchangeable. "Avelino LERENA Villademoros | spouse | Carmen LORENTE" gave Avelino a
+    # wife and gave Carmen nothing, so /people/carmen-lorente/ told its reader
+    # "No relationships are recorded for this person" while this archive held her marriage.
+    # FIFTEEN PAGES WERE SAYING THAT, found by a site-wide audit and not by any gate:
+    # check-evidence.py guards data/person-evidence.tsv and never looks at relations.tsv, so the
+    # sentence it was written to abolish had come back through a different door.
+    # Mirrored here rather than in the data, because asking every future session to write both
+    # directions of every marriage is asking to be told half of them.
+    for p in list(people):
+        if p.get("aliasOf"):
+            continue
+        for sp in list(p["spouses"]):
+            tgt = by_name.get(sp["name"])
+            if not tgt or tgt.get("aliasOf"):
+                continue
+            if any(x["name"] == p["name"] for x in tgt["spouses"]):
+                continue
+            back = node(p["name"], p.get("born_est", ""), sp.get("via", "register"))
+            back["note"] = sp.get("note", "")
+            tgt["spouses"].append(back)
+    for p in people:
+        p["spouses"].sort(key=lambda c: (c.get("dates") or "", c["name"]))
+
+
     # siblings: anyone sharing a parent, drawn from the same edge list
     kids_of = {}
     for p in people:

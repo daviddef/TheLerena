@@ -108,6 +108,29 @@ def main():
         fails.append("data/relations.tsv names %d person(s) the register does not hold, so their "
                      "edges are silently dropped: %s" % (len(orphan_edges), ", ".join(orphan_edges[:6])))
 
+    # *** AND THE SAME SENTENCE CAME BACK THROUGH A DOOR THIS GATE WAS NOT WATCHING. ***
+    # 11 October 2026, found by a site-wide audit, not by any gate. Everything above guards
+    # data/person-evidence.tsv. Nothing guarded relations.tsv, and FIFTEEN person pages were
+    # printing "No relationships are recorded for this person" while this archive held their
+    # marriage - because a spouse edge was read one way only, so the wife named on her husband's
+    # row got nothing on her own. The data was fine; the build dropped it; nothing refused.
+    # That is word for word why this file was written in the first place, which is the point:
+    # a gate that names one file guards one file.
+    drawn = ("father", "mother", "spouses", "children", "siblings")
+    edged = set()
+    for r in rows(REL):
+        r = r + ["", "", ""]
+        if r[1].strip() in ("father", "mother", "spouse", "sibling", "child"):
+            edged.update(x.strip() for x in (r[0], r[2]) if x.strip())
+    for who in sorted(edged):
+        p = by_name.get(who)
+        if not p or p.get("aliasOf"):
+            continue
+        if any(p.get(k) for k in drawn):
+            continue
+        fails.append(f'"{who}" is named in data/relations.tsv but no relationship is drawn on '
+                     f'/people/{p["slug"]}/ — the edge exists and the page denies it')
+
     if fails:
         print("  FAIL  evidence   %d problem(s):" % len(fails))
         for f in fails:

@@ -2044,20 +2044,6 @@
   "tier": "BIRTH ONLY"
  },
  {
-  "name": "Don Domingo RODRIGUEZ (the elder, of la Colonia)",
-  "born_est": "-",
-  "last_attested_alive": "-",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
- },
- {
-  "name": "Dona Juana del ESPIRITU SANTO",
-  "born_est": "-",
-  "last_attested_alive": "1840-Oct-25",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
- },
- {
   "name": "Juan Agustin LERENA Fernandez",
   "born_est": "1791",
   "last_attested_alive": "1812-May-15",
