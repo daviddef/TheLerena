@@ -56,11 +56,11 @@
   "when": "12 Oct 2026"
  },
  {
-  "what": "*** AND THE SAFE ORDER, WHICH COSTS NOTHING ***",
+  "what": "*** AND THE 'SAFE ORDER' WAS WRONG TOO - THE GAP ONLY MOVES ***",
   "the source": "the same trap, stated as a rule",
-  "result": "*** BIND THE DOMAIN FIRST, PUSH THE BASE CHANGE SECOND ***",
-  "what one would assume": "It feels natural to prepare the repository and then attach the domain, because that is the order the work happens in.",
-  "what is actually true": "*** It is exactly backwards. *** GitHub keeps serving the previous build until the next deploy, so binding the domain BEFORE the config change costs nothing and breaks nothing - the old build still works at both addresses. *** Pushing first guarantees a broken window of unknown length. *** Of the five archives that moved this week, the two whose owner happened to be at the keyboard came through clean and the two that did not were left serving dead navigation. *** Found and owned by the Defranceschi session, whose recipe set the order. ***",
+  "result": "*** BOTH ORDERINGS BREAK ANY SITE WHOSE BASE IS NOT '/' ***",
+  "what one would assume": "This file said, for a few hours, that binding the domain FIRST costs nothing because GitHub keeps serving the previous build until the next deploy.",
+  "what is actually true": "*** THAT IS FALSE, AND IT WAS MEASURED ON FIVE REPOSITORIES. *** Binding a custom domain makes GitHub *** 301-REDIRECT the project-pages URL onto that domain *** - so daviddef.github.io/TheX/ stops being an address at all, and the still-based build it redirects to has every one of its own paths at /TheX/..., which 404 on the new host. Falco, Mazza and Luwinski were live-broken for hours that way. *** PUSH FIRST and the old address serves root-relative links that 404 there; BIND FIRST and the old address 301s to a host where the based build 404s. *** The gap is not eliminated by reordering, only moved. What closes it is the two steps landing within the minute. *** The rule is the Luwinski session's; the measurement and the retraction are the Defranceschi session's, which had told four archives the opposite. ***",
   "when": "12 Oct 2026"
  },
  {
@@ -69,6 +69,14 @@
   "result": "*** 36 AND 113 WERE BOTH TRUE OF THE SAME PAGE ***",
   "what one would assume": "The first count was reported as 'every internal link on the home page'.",
   "what is actually true": "*** It had been piped through sort -u, so it was DISTINCT PATHS, not links *** - and its pattern, href=\"/[a-z-]*/\", silently dropped uppercase, digits, deeper paths and anchors. Narrow twice over. Re-measured: *** Lerena 113, D'Arcy 249, Falco 308 of 308 based and sound. *** The conclusion did not move, because zero based links is zero either way. *** But the failure is the list's own: a measurement that reports what the COMMAND ASKED FOR rather than what is THERE *** - committed by the session that had spent the evening describing that exact fault. *** AND IT IS NOT ONLY A DEPLOYMENT FAULT. *** This archive did the same thing twice the same day: *** 208 records for Artigas and 470 for the Cordon parish *** were both counts of what the query matched, not of what the place holds, and both had to be withdrawn. *** A count is a claim and has to mean what it says. ***",
+  "when": "12 Oct 2026"
+ },
+ {
+  "what": "*** AND THE CONFIRMATION STEP THIS ARCHIVE ADDED CONFIRMED THE BREAKAGE ***",
+  "the source": "the step added here earlier the same evening: after binding, confirm the new host answers with the old build",
+  "result": "*** IT PASSES ON A SITE WHOSE EVERY LINK AND STYLESHEET IS 404ing ***",
+  "what one would assume": "The reasoning was that binding is the only point at which you learn it took, so it should be confirmed rather than assumed - which is right.",
+  "what is actually true": "*** The TEST was wrong. *** Curl the new host's home page after binding and it answers 200, because the 301 lands you on it - while that build's own assets still sit at /TheX/_astro/... and are gone. *** So the check looked at what had been WRITTEN rather than at what was THERE *** - the exact failure this same file names twice above, committed by the step meant to prevent it. *** THE TEST IS NOW: fetch a BASED ASSET - the stylesheet or the favicon at its old path - not the home page. *** On a correctly timed move that 404 is expected and brief; what it must never be is unexamined. *** Checked here after the fact: this archive's stylesheet and favicon both answer 200 at root paths, and /TheLerena/ correctly 404s on the new host, because build and binding agree. ***",
   "when": "12 Oct 2026"
  }
 ]
