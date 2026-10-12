@@ -785,3 +785,13 @@ p,li,td,th,dd,.cap,.txt,.dek,.ab{overflow-wrap:anywhere}
 }
 .ksearch input:focus{outline:none;border-color:var(--accent)}
 .ksearch input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+/* PERSON PAGES: stack "What the record says" over "Where this comes from" below 1060px.
+   Each row of the left column needs about 480px - a label, a value and a right-aligned
+   provenance note that is nowrap on purpose - but the two-column grid gave it 357px at an
+   800px viewport, so the grey notes ("as the record gives it") ran underneath the column
+   beside them. Measured on 13 October 2026: the notes reached x=486 where the next column
+   began at x=400. It happened on every person page at tablet width and not at all at 1280px,
+   which is why a desktop check never showed it. 1060px is where two columns first get 495px. */
+@media (max-width:1060px){.g2.pg2{grid-template-columns:1fr}}
+
