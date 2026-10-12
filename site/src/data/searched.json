@@ -2001,5 +2001,21 @@
    "method"
   ],
   "note": "SETTLED. The catalogue lists the film's items: item 1 = Padrones de habitantes, LIBRO 263, 1843; ITEM 2 = LIBRO 264, 1850; item 3 = libro 257, 1852-1853; libro 267, 1858. Household 229 is in item 2, so the enumeration is the padron of 1850 and this archive's c.1833 is withdrawn. Three derived birth years moved seventeen years later, and the head - entered at forty, so born about 1810 - is not Pedro Antonio Lerena born 31 July 1793; that holds under the 1843 book too, where he would be born about 1803. METHOD NOTE: the old date was inferred from the identification it was then used to support, and a catalogue entry naming the actual register book is what broke the circle - a volume label would not have."
+ },
+ {
+  "src": "FamilySearch catalogue koha:1408224 - film 7499042 read item by item, all six items",
+  "url": "https://www.familysearch.org/en/search/catalog/koha:1408224",
+  "what": "Whether a census 'of about 1833' was ever available on the film household 229 sits on",
+  "when": "2026-10-12",
+  "outcome": "yield",
+  "walked": true,
+  "tags": [
+   "lerena",
+   "montevideo",
+   "uruguay",
+   "familysearch",
+   "method"
+  ],
+  "note": "ALL SIX ITEMS READ. item 1 = libro 263, 1843 | item 2 = LIBRO 264, 1850 | item 3 = libro 257, 1852-1853 | item 4 = libros 265 and 258, 1852-1853 | item 5 = libro 267, 1858 | item 6 = libro 268, 1860. THERE IS NO PADRON EARLIER THAN 1843 ON THIS FILM; the 1836 books (libros 147, 148, 149) are on film 7499043, a different reel. So the c.1833 this archive carried for three weeks was never available to be read there, whatever the ages seemed to say - and the household's own 'Leonarda check' (a child born 1837 absent, therefore the census predates her) is withdrawn as a dating argument and becomes a question instead."
  }
 ]

@@ -34,5 +34,23 @@
   "age": "-",
   "who this is": "This archive already holds one child of this couple: *** LEONARDA MARGARITA LERENA VEGA, b. 20 February 1837. ***",
   "certainty": "*** At a census of about 1833 she is not yet born - and that is the check that makes the reading hold together. *** Three elder children in 1833, a fourth in 1837. *** So this is not a contradiction of what the archive has; it is four years earlier than anything it had for them. ***"
+ },
+ {
+  "as written": "*** THE DATE, AS IT ACTUALLY IS ***",
+  "age": "-",
+  "who this is": "*** Padrones de habitantes, LIBRO 264, the padron of 1850 *** - film 7499042 item 2, confirmed from FamilySearch catalogue koha:1408224.",
+  "certainty": "*** SETTLED. *** Two independent sources agree: the image viewer's own breadcrumb ('Montevideo. Census 1850 - #007499042 > Item 2') and the catalogue, which names the register book. *** The catalogue is the stronger of the two because it names LIBRO 264, which no label does. ***"
+ },
+ {
+  "as written": "*** THE CHILDREN, RE-SUBTRACTED ***",
+  "age": "-",
+  "who this is": "Emilia at 18 is born about *** 1832 ***; Pedro at 16 about *** 1834 ***; Vicenta at 12 about *** 1838. ***",
+  "certainty": "*** The ages on the plate have not changed - only the year they are subtracted from. *** The register rows, data/relations.tsv and the person-pairs declarations were all moved together on 12 October."
+ },
+ {
+  "as written": "*** AND THE LEONARDA CHECK NOW CUTS THE OTHER WAY ***",
+  "age": "-",
+  "who this is": "*** LEONARDA MARGARITA LERENA VEGA, born 20 February 1837 ***, is absent from the household - which this file offered as the check that CONFIRMED a census before 1837.",
+  "certainty": "*** THAT CHECK WAS BUILT ON THE SAME CIRCLE AND IS WITHDRAWN AS A DATING ARGUMENT. *** With no padron earlier than 1843 on the film, her absence cannot date the page; it is now a *** question *** instead. *** At the padron of 1850 she would be thirteen and should be in her parents' house. *** Where she is - dead, married, or living elsewhere - is not known, and is worth an hour."
  }
 ]

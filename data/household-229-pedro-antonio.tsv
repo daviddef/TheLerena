@@ -1,6 +1,32 @@
-# *** HOUSEHOLD 229 - PEDRO ANTONIO LERENA, SON OF SANCHO, WITH THREE CHILDREN NOBODY HERE HAD. ***
+# *** HOUSEHOLD 229 - AND THE DATE THIS FILE PUT ON IT WAS WRONG BY SEVENTEEN YEARS. ***
 # Found 20 September 2026 in Uruguay, Census Records 1726-1858; image ark 3:1:3QS7-99ZP-BBKX.
 # *** Indexed under SERENA; the page writes LERENA. ***
+#
+# *** CORRECTED 12 OCTOBER 2026. THE ENUMERATION IS THE PADRON OF 1850 - libro 264. *** FamilySearch
+# catalogue koha:1408224 lists film 7499042 (physical film 1263686) item by item, and the household
+# sits in item 2:
+#
+#     item 1  libro 263        1843          item 4  libros 265, 258  1852-1853
+#     item 2  LIBRO 264        1850          item 5  libro 267        1858
+#     item 3  libro 257        1852-1853     item 6  libro 268        1860
+#
+# *** THERE IS NO PADRON EARLIER THAN 1843 ON THIS FILM AT ALL *** - the 1836 books, libros 147, 148
+# and 149, are on film 7499043, a different reel. So a census "of about 1833" was never available to
+# be read here, whatever the ages seemed to say.
+#
+# *** WHY THE ERROR STOOD FOR THREE WEEKS: IT WAS CIRCULAR. *** This file dated the page from the
+# head's age - "born 1793 and entered at 40 puts this census at about 1833" - and then used the date
+# to confirm that the head was the man born in 1793. Each half was the other's evidence.
+#
+# *** WHAT THAT COSTS. *** Entered at forty in 1850 the head was born about 1810, so he is NOT Pedro
+# Antonio Lerena, son of Sancho, born 31 July 1793. The correction survives the neighbouring book
+# too: in the 1843 padron he would be born about 1803. The three children's birth years all move
+# seventeen years later. See data/corrections.tsv, 12 October 2026.
+#
+# *** THE ROWS BELOW ARE LEFT AS THEY WERE WRITTEN, with their old inferences visible, because an
+# archive that silently rewrites its reasoning cannot show how it reasoned. *** Read every "implies
+# a birth about 18xx" below as seventeen years too early, and every "SECURE" on the identification
+# as withdrawn.
 as written	age	who this is	certainty
 *** D. Pedro A. Lerena ***	40	*** PEDRO ANTONIO LERENA, SON OF SANCHO ***, b. 31 July 1793 - a documented brother of Don Luis.	*** SECURE, AND HIS AGE DATES THE PAGE. *** Born 1793 and entered at 40 puts this census at about *** 1833 *** - not 1858 - and everything else on the row then fits.
 *** Da Vicenta Vega ***	35	*** HIS WIFE, ALREADY IN THIS REGISTER *** - 'natural de Cerro Largo', daughter of Don Romualdo Vega and Dona Andrea Maestre.	*** SECURE, and it is what identifies the household beyond doubt. *** The index calls her Serena; the page gives her own surname, Vega.
@@ -8,3 +34,6 @@ as written	age	who this is	certainty
 *** Dn Pedro (idem) ***	16	*** A SON THIS ARCHIVE DOES NOT HOLD *** - Pedro Lerena, implying a birth about 1817, named for his father.	*** NEW. *** The index reads him as 'Pedro a. Serena' and it is *** he ***, not his father, that the index entry points at.
 *** Da Vicenta (idem) ***	12	*** A DAUGHTER THIS ARCHIVE DOES NOT HOLD *** - Vicenta Lerena, implying a birth about 1821, named for her mother.	*** NEW. *** Indexed as 'Vicenta Serena', and she is the daughter, not the wife.
 *** WHY THE DATE MATTERS ***	-	This archive already holds one child of this couple: *** LEONARDA MARGARITA LERENA VEGA, b. 20 February 1837. ***	*** At a census of about 1833 she is not yet born - and that is the check that makes the reading hold together. *** Three elder children in 1833, a fourth in 1837. *** So this is not a contradiction of what the archive has; it is four years earlier than anything it had for them. ***
+*** THE DATE, AS IT ACTUALLY IS ***	-	*** Padrones de habitantes, LIBRO 264, the padron of 1850 *** - film 7499042 item 2, confirmed from FamilySearch catalogue koha:1408224.	*** SETTLED. *** Two independent sources agree: the image viewer's own breadcrumb ('Montevideo. Census 1850 - #007499042 > Item 2') and the catalogue, which names the register book. *** The catalogue is the stronger of the two because it names LIBRO 264, which no label does. ***
+*** THE CHILDREN, RE-SUBTRACTED ***	-	Emilia at 18 is born about *** 1832 ***; Pedro at 16 about *** 1834 ***; Vicenta at 12 about *** 1838. ***	*** The ages on the plate have not changed - only the year they are subtracted from. *** The register rows, data/relations.tsv and the person-pairs declarations were all moved together on 12 October.
+*** AND THE LEONARDA CHECK NOW CUTS THE OTHER WAY ***	-	*** LEONARDA MARGARITA LERENA VEGA, born 20 February 1837 ***, is absent from the household - which this file offered as the check that CONFIRMED a census before 1837.	*** THAT CHECK WAS BUILT ON THE SAME CIRCLE AND IS WITHDRAWN AS A DATING ARGUMENT. *** With no padron earlier than 1843 on the film, her absence cannot date the page; it is now a *** question *** instead. *** At the padron of 1850 she would be thirteen and should be in her parents' house. *** Where she is - dead, married, or living elsewhere - is not known, and is worth an hour.

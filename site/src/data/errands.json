@@ -366,5 +366,13 @@
   "status": "done",
   "detail": "SETTLED 12 October 2026 at CATALOGUE level. FamilySearch catalogue koha:1408224, 'Uruguay, Montevideo, censos, 1726-1860', lists film 7499042 item by item: item 1 = Padrones de habitantes, LIBRO 263, 1843; ITEM 2 = LIBRO 264, 1850; item 3 = libro 257, 1852-1853. Household 229 is in item 2, so the enumeration is the PADRON OF 1850. The c.1833 is withdrawn. CONSEQUENCES: the three derived birth years moved seventeen years later (Emilia c.1832, Pedro c.1834, Vicenta c.1838), and the head - entered at forty, so born about 1810 - IS NOT Pedro Antonio Lerena born 31 July 1793. That holds under the neighbouring 1843 book too, where he would be born about 1803. The c.1833 was itself inferred from the identification it was then used to support, which is why it stood. See data/corrections.tsv.",
   "sent_on": ""
+ },
+ {
+  "key": "me-leonarda-1837-after-1850",
+  "what": "Find LEONARDA MARGARITA LERENA VEGA after 1837 - she is not in the 1850 padron",
+  "who": "me",
+  "status": "ready",
+  "detail": "Born 20 February 1837, baptised at the Catedral de la Inmaculada Concepcion on 4 July 1837 (ark 3:1:3Q9M-C9B7-YSKH-H, image read 21 September 2026), daughter of Pedro A. LERENA and Vicenta VEGA. She is ABSENT from Montevideo household 229 in the padron of libro 264, 1850, where she would be thirteen and should be living with her parents. This archive used to offer that absence as proof the census predated her birth; that inference is withdrawn, because film 7499042 carries no padron earlier than 1843. SO WHERE IS SHE: a death before 1850, a marriage, or another household. WHERE TO LOOK: Montevideo parish burials 1837-1850, the Cordon and Catedral registers, and the 1843 padron (libro 263, item 1 of the same film), where she would be six and her presence or absence would narrow it.",
+  "sent_on": ""
  }
 ]
