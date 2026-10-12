@@ -7,6 +7,7 @@ import rows from "../data/errands.json";
 import { emph, plain } from "../lib/text.js";
 import Shotlist from "@daviddef/archive-kit/components/Shotlist.astro";
 import shots from "../data/photograph-these.json";
+import drafts from "../data/letter-drafts.json";
 const LABEL = { sent: ["inf", "Sent, awaiting reply"], replied: ["doc", "Answered"],
                 "waiting-on-david": ["lore", "Needs a person"],
                 ready: ["inf", "Written, not sent"], done: ["doc", "Done"], blocked: ["", "Blocked"] };
@@ -84,6 +85,43 @@ const groups = [
   <div class="note" style="margin-top:20px"><strong>The first one already has a photograph, and it is not enough.</strong> A
     stranger photographed that kerb in 2021 and published it through eGGSA; it shows the surname and no
     more. <a href={u("/south-africa/")}>What the cemetery records say &rarr;</a></div>
+</section>
+
+<section class="blk">
+  <h2 id="s-drafts">Five letters, drafted and not sent</h2>
+  <p class="dek">Written 12 October 2026 and waiting on one person. Copy, change anything that
+    does not sound like you, and send them from your own address.</p>
+  <div class="prose">
+    <p><strong>None of these has been sent, and none of them can be sent by this archive.</strong>
+      Anything that leaves here goes from David&rsquo;s own address, which is the standing rule.</p>
+    <p><strong>Two of the five cannot go yet, and they say so in red.</strong> The Logro&ntilde;o
+      letter has <strong>no verified address</strong> &mdash; this archive does not guess one, and
+      the diocese&rsquo;s own site has to supply it first. The RootsChat message has no email at
+      all: it needs an account and <strong>two forum posts</strong> before the private-message
+      system unlocks. The other three go to addresses already used and already verified.</p>
+  </div>
+  {drafts.letters.map((d) => (
+    <div class="panel" style="margin:20px 0">
+      <p style="margin:0 0 6px"><strong set:html={emph(d.title)} /></p>
+      <dl class="kv" style="margin:0 0 12px">
+        <div><dt>To</dt><dd>{d.to}</dd></div>
+        <div><dt>Address</dt><dd>
+          {d.address_state === "verified"
+            ? <span>{d.address}</span>
+            : <strong style="color:#8A2B16">{d.address}</strong>}
+        </dd></div>
+        <div><dt>Subject</dt><dd><em>{d.subject}</em></dd></div>
+        <div><dt>Written in</dt><dd>{d.lang}</dd></div>
+        <div><dt>Why</dt><dd set:html={emph(d.why)} /></div>
+      </dl>
+      <pre style="white-space:pre-wrap;font-size:.92em;line-height:1.5;margin:0;padding:14px;background:rgba(0,0,0,.03);border-radius:4px;overflow-wrap:break-word">{d.body}</pre>
+    </div>
+  ))}
+  <p class="cap" style="margin-top:14px"><strong>Why three of them are chasers.</strong> The
+    Cancillería and the Ej&eacute;rcito were written to on 9 and 8 September and have not answered
+    in five weeks; the Western Cape letter was answered in part, from David&rsquo;s own files rather
+    than by the archive, so what it asks for now is different &mdash; the will of 6 February 1942
+    and the inventory, not the death notice.</p>
 </section>
 
 <section class="blk">
