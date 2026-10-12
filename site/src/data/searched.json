@@ -1643,15 +1643,15 @@
   "note": "ALL FIFTEEN NOW READ, AND THE SEAM'S REAL SHAPE IS CLEAR. The phrase finds TWO LERENAS STANDING TOGETHER, almost always as GODPARENTS, and the pairs are mostly people this register already holds: Bernabe with Alejandrina (Montevideo 1890-91), Bernabe with Natalia (Montevideo 1901-02), Juan with Margarita (Trinidad 1889-94), Vitaliano with Andrea (Trinidad 1886-88, twice), Alejandro with Clorinda (Uruguay 1917-18). THREE THINGS WORTH MORE THAN THE PAIRS. (1) A 'MONTEVIDEO' VOLUME IS NOT A MONTEVIDEO ACT: the 1890-91 page is the capital's CIVIL register transcribing a parish certificate signed by the Cura Vicario Brana 'en TRINIDAD a catorce de [noviembre] de mil ochocientos noventa' - so a place filter will not separate the two towns, and this archive should stop assuming it does. (2) THE TRINIDAD SWEEP MISSED THE SERENA SPELLING: one volume pair of 1905-09 alone carries SARA SERENA, PIO C. SERENA (also written PERENA), ALEJANDRO SERENA and ALBA LERENA, none of them in a town this archive has swept twice. (3) A THIRD AND FOURTH CHILD for Fernando Moratorio and Josefa Lerena Traibel - MARIA DOLORES and FERNANDO - with the grandparents named on both sides, AVELINO and AMBROSIA TRAIBEL among them. BUT THE VOLUME'S LABEL CANNOT BE TRUSTED FOR A DATE: it is catalogued September 1917 to September 1918 and its own year metadata runs 1871, 1874, 1888, 1918, and Josefa born 1851 cannot bear children in 1917. RECORDED AS A TENSION. Nine people entered, ALL INDEX-LEVEL, NO PLATE OPENED - which after this morning's four collapsed couples is said louder than usual."
  },
  {
-  "src": "FamilySearch RECORD INDEX - exact-surname sweep: SERENA with place FLORES, URUGUAY (290 results; first 100 read)",
+  "src": "FamilySearch RECORD INDEX - exact-surname sweep: SERENA with a FLORES, URUGUAY place preference (290 returned, ~22 actually of Flores; all read)",
   "url": "https://www.familysearch.org/search/record/results?q.surname=Serena&q.surname.exact=on&q.anyPlace=Flores%2C+Uruguay",
   "film": null,
   "waypoint": null,
   "what": "Acting on this morning's finding that the Trinidad sweep was run on LERENA and missed SERENA entirely.",
   "when": "2026-10-12",
   "outcome": "yield",
-  "pages": "first 100 of 290",
-  "walked": false,
+  "pages": "all Flores records in the set; pages 1-3 of 290 walked",
+  "walked": true,
   "tags": [
    "lerena",
    "serena",
@@ -1663,6 +1663,6 @@
    "sweep",
    "method"
   ],
-  "note": "THE SPELLING GAP IS REAL AND IT IS LARGE. SERENA with a Flores place filter returns 290 records where the LERENA sweeps returned none of them. The first hundred alone give CHILDREN OF HOUSEHOLDS THIS ARCHIVE ALREADY HOLDS AND HAD NO CHILDREN FOR: two for CUSTODIO LERENA and EMA CARDOZO - the couple of the 1911 double-first-cousin dispensation, whose knot this archive spent weeks on and whose children it had never found - and two for JUAN BERNARDO LERENA PELAEZ and EDUVIGES PELAEZ, the couple of the 1894 dispensation. It also returns KNOWN EVENTS under the other spelling, which is the control: Cipriano's marriage of 6 March 1875 naming MAURICIO SERENA and CASIMIRA MONTANO, Alejandro the younger's of 24 December 1854 naming ALEJANDRO SERENA and MARGARITA FERNANDEZ, and the 1894 intended marriage of Juan and Eduviges. A FOURTH SPELLING APPEARS: 'SEREÑA' with a tilde, beside Lerena, Serena and Perena, all at Trinidad. TWENTY-ONE PEOPLE ENTERED, ALL INDEX-LEVEL. Two of them carry a birth date LATER than their own christening, which is the index and not the register. 190 RESULTS REMAIN UNREAD."
+  "note": "THE SPELLING GAP IS REAL AND IT IS LARGE. SERENA with a Flores place filter returns 290 records where the LERENA sweeps returned none of them. The first hundred alone give CHILDREN OF HOUSEHOLDS THIS ARCHIVE ALREADY HOLDS AND HAD NO CHILDREN FOR: two for CUSTODIO LERENA and EMA CARDOZO - the couple of the 1911 double-first-cousin dispensation, whose knot this archive spent weeks on and whose children it had never found - and two for JUAN BERNARDO LERENA PELAEZ and EDUVIGES PELAEZ, the couple of the 1894 dispensation. It also returns KNOWN EVENTS under the other spelling, which is the control: Cipriano's marriage of 6 March 1875 naming MAURICIO SERENA and CASIMIRA MONTANO, Alejandro the younger's of 24 December 1854 naming ALEJANDRO SERENA and MARGARITA FERNANDEZ, and the 1894 intended marriage of Juan and Eduviges. A FOURTH SPELLING APPEARS: 'SEREÑA' with a tilde, beside Lerena, Serena and Perena, all at Trinidad. TWENTY-ONE PEOPLE ENTERED, ALL INDEX-LEVEL. Two of them carry a birth date LATER than their own christening, which is the index and not the register. AND THE COUNT IN THE FIRST VERSION OF THIS ROW WAS WRONG. It said 290 records with 190 unread. q.anyPlace RANKS AND DOES NOT FILTER: page one held 22 Flores records, pages two and three held NONE between them. The Flores seam is about twenty-two records and they are all read; the other 268 are Serenas of other departments, an ordinary Italian surname in Uruguay. The FINDINGS are unaffected - every one of them was on page one."
  }
 ]
