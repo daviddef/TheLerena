@@ -26,6 +26,7 @@ const dist = rows
   .sort((a, b) => b[1] - a[1]);
 import dItalyLerenaLerina from "../data/italy-lerena-lerina.json";
 import Lines from "../components/Lines.astro";
+import dVariants from "../data/name-variants.json";
 import lanes from "../data/lerena-lines.json";
 import lanesUnplaced from "../data/lerena-lines-unplaced.json";
 ---
@@ -57,6 +58,35 @@ import lanesUnplaced from "../data/lerena-lines-unplaced.json";
 </section>
 
 <section class="blk">
+<h2 id="s-variants">Every way the name has been written down</h2>
+<p class="dek">Fourteen forms, each one taken from a document this archive has read. Twelve are the
+  same name; one is a different family; one is not a name at all.</p>
+<div class="prose">
+  <p><strong>This is the most practical page in the archive, and it was the last one written.</strong>
+    For a month every sweep here was run on <strong>LERENA</strong>. On 12 October 2026 the same
+    search run on <strong>SERENA</strong> returned children for two couples this archive had worked
+    for weeks and had no children for &mdash; and the only thing that had hidden them was a letter.</p>
+  <p><strong>One act of 1879 writes one family four ways on one page</strong> &mdash; <em>Lere&ntilde;a</em>
+    for the father, <em>Serena</em> for the grandfather, <em>Levena</em> for the godfather,
+    <em>Serena</em> again for the godmother. <strong>One Buenos Aires probate of 1889 writes one man
+    as both <em>Lerena</em> and <em>Llerena</em>, twice each, in a single paragraph.</strong> After
+    that, searching this surname by its letters is not a method.</p>
+</div>
+<dl class="kv" style="margin-top:18px">
+  {dVariants.filter((r) => r["the form"]).map((r) => (
+    <div><dt set:html={emph(r["the form"])} /><dd>
+      <span set:html={emph(r["where this archive has met it"])} /><br />
+      <span class="cap" set:html={emph(r["what it is, and what it cost or gave"])} />
+    </dd></div>
+  ))}
+</dl>
+<div class="prose" style="margin-top:18px">
+  <p class="cap"><strong>What this table is for.</strong> Not completeness &mdash; a name can be
+    mangled in more ways than anyone can list. It is for the next person who runs a search here and
+    gets nothing: <strong>the null may be a letter rather than a fact</strong>, and these are the
+    letters that have done it before. <a href={u("/method/")}>The method &rarr;</a></p>
+</div>
+
 <h2 id="s-how-rare">How rare</h2>
   <p>
     Forebears, accessed 8 September 2026: <strong>2,124 bearers worldwide</strong>, the
@@ -82,6 +112,7 @@ import lanesUnplaced from "../data/lerena-lines-unplaced.json";
   <div class="prose" style="margin-top:14px">
     <ol class="cols2">
       <li><a href="#s-lines">Five lines of one name, drawn side by side</a></li>
+      <li><a href="#s-variants">Every way the name has been written down</a></li>
       <li><a href="#s-how-rare">How rare</a></li>
       <li><a href="#s-where-they-are">Where they are</a></li>
       <li><a href="#s-spain-one-cluster-and-it-is-not-where-you-would-guess">Spain: one cluster, and it is not where you would guess</a></li>
