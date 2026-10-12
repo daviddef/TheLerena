@@ -46,5 +46,21 @@
   "what one would assume": "Every one of the five reported back what was MEANT rather than what was THERE: a pin that named the right commit over the wrong code; a settings page that said the domain was attached while the deploy detached it; an og:site_name that echoed a prop instead of the lookup it was supposed to prove.",
   "what is actually true": "*** So the check is never 'does the SHA say e275c14' but 'is whoami actually in the installed file'. *** Not 'did I set the domain' but 'is CNAME in dist'. *** This is the same rule this archive spent the rest of the day learning in a different language *** - open the plate, not the index; read the act, not the volume label; ask the catalogue, not the breadcrumb. *** The phrasing is the Defranceschi session's, arrived at independently the same hour. ***",
   "when": "12 Oct 2026"
+ },
+ {
+  "what": "*** TRAP SIX: THE ORDER OF OPERATIONS, AND THIS ARCHIVE IS IN IT ***",
+  "the source": "the live old address, measured 12 October 2026 while the new one was still unbound",
+  "result": "*** daviddef.github.io/TheLerena/ IS SERVING A HOME PAGE WHOSE EVERY INTERNAL LINK 404s ***",
+  "what one would assume": "The recipe this move followed said: push the config, then have the repository owner bind the custom domain, and the gap is about ninety seconds.",
+  "what is actually true": "*** The gap is however long it takes a person to click. *** Once base is '/' every link is written site-root - /about/, /tree/ - and under a PROJECT PATH those resolve to daviddef.github.io/about/, which does not exist. *** Thirty-six of them on the home page alone, and a canonical pointing at a domain that does not yet answer. *** The archive is not damaged and nothing is lost; it is simply unreachable by its own navigation until one repository setting is changed.",
+  "when": "12 Oct 2026"
+ },
+ {
+  "what": "*** AND THE SAFE ORDER, WHICH COSTS NOTHING ***",
+  "the source": "the same trap, stated as a rule",
+  "result": "*** BIND THE DOMAIN FIRST, PUSH THE BASE CHANGE SECOND ***",
+  "what one would assume": "It feels natural to prepare the repository and then attach the domain, because that is the order the work happens in.",
+  "what is actually true": "*** It is exactly backwards. *** GitHub keeps serving the previous build until the next deploy, so binding the domain BEFORE the config change costs nothing and breaks nothing - the old build still works at both addresses. *** Pushing first guarantees a broken window of unknown length. *** Of the five archives that moved this week, the two whose owner happened to be at the keyboard came through clean and the two that did not were left serving dead navigation. *** Found and owned by the Defranceschi session, whose recipe set the order. ***",
+  "when": "12 Oct 2026"
  }
 ]
