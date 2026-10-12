@@ -1,0 +1,58 @@
+[
+ {
+  "what": "*** WHY NAVARRETE WAS WORTH A DAY ***",
+  "the query, or the source": "open question 1 has named it since 11 October",
+  "result": "*** THE ONE PLACE THIS ARCHIVE CAN NAME WHERE THE DOUBLED SURNAME WAS SETTLED LOCAL USAGE ***",
+  "what was already known": "On 14 November 1900, at the Spanish consulate in Buenos Aires, the brothers Prudencio Benito and Juan Jose *** LERENA y LERENA ***, naturales de Navarrete, provincia de Logrono, signed escritura 368 with their widowed mother *** Isabela LERENA y BASARAN. *** A Lerena had married a Lerena, in Spain, and the children carried it as a surname of record.",
+  "what it means, or what the act says": "*** The question was never whether the household is real - the escritura is read and transcribed. It was whether Navarrete's own registers would show the usage was ordinary there, and whether a Juan Carlos sits in them. ***",
+  "when": "12 Oct 2026"
+ },
+ {
+  "what": "*** THE CATALOGUE ANSWER, AND IT IS A HARD ONE ***",
+  "the query, or the source": "FamilySearch catalogue, q.place = Navarrete, Logrono, Spain",
+  "result": "*** ONE SUBJECT. ONE ITEM. NO PARISH REGISTERS AT ALL. ***",
+  "what was already known": "The place resolves (SEE: PART OF CASTILLA LA VIEJA, LOGRONO) and returns *** Census (1) *** and nothing else. No baptisms, no marriages, no burials, no diocesan series.",
+  "what it means, or what the act says": "*** SO THE NAVARRETE REGISTERS CANNOT BE READ FROM THIS DESK. *** They are not filmed and they are not in the full-text corpus - a full-text sweep for Lerena against Navarrete returns Llerena of Badajoz over and over and no Navarrete volume of any kind. *** This is a null about FamilySearch's holdings, not about the family, and it is the reason this seam now needs a person rather than a session. ***",
+  "when": "12 Oct 2026"
+ },
+ {
+  "what": "*** WHAT IS FILMED, AND IT IS WORTH HAVING ***",
+  "the query, or the source": "Catastro del Marques de la Ensenada, Navarrete, Logrono, 1752 - Archivo Historico Provincial de Logrono, filmed 2007",
+  "result": "*** DGS 4386870 (vols 481-484) and DGS 4386703 (vol 485) ***",
+  "what was already known": "Vol. 481 Respuestas generales y Raiz de seglares | 482 Raiz de seglares | 483 *** Raiz y Personal de seglares *** | 484 Raiz de eclesiasticos | 485 *** Memoriales de seglares. *** Also in the online collection Spain, Catastro de Ensenada 1749-1756.",
+  "what it means, or what the act says": "*** A HOUSEHOLD-BY-HOUSEHOLD SURVEY OF THE WHOLE TOWN, taken in 1752. *** It will not name a Juan Carlos born in the 1840s, but it will answer the prior question underneath him: *** was LERENA a Navarrete surname at all before the 19th century, and was it already being doubled? *** Vols 483 and 485 are the personal ones. No waypoint established - film numbers only, and they have not been opened.",
+  "when": "12 Oct 2026"
+ },
+ {
+  "what": "*** THE 26 RECORDS THE INDEX CALLS NAVARRETE ***",
+  "the query, or the source": "record index, surname Lerena exact, q.anyPlace = Navarrete, Logrono, Spain",
+  "result": "*** 26 - AND THE PLACE FIELD DOES NOT HOLD ***",
+  "what was already known": "Controlled first: the same query at Reykjavik and at Osaka returns 0, so with m.queryRequireDefault=on the place parameter genuinely FILTERS. Spain holds 375 Lerena records, Logrono 27, Navarrete 26.",
+  "what it means, or what the act says": "*** THE FILTER WORKS AND THE DATA UNDER IT DOES NOT. *** The richest of the 26 - a marriage naming a mother *** Wenceslaa Maria LERENA LERENA *** - was opened at the plate and is *** San Gil de esta ciudad de GUADALAJARA, 21 December 1863 ***, two hundred kilometres from Navarrete. *** A place filter can only be as good as the place field, and here the field is wrong on the one record that mattered. ***",
+  "when": "12 Oct 2026"
+ },
+ {
+  "what": "*** AND THE COMPOUND WAS A MACHINE DOUBLING AFTER ALL ***",
+  "the query, or the source": "the same marriage act, read at the plate",
+  "result": "*** THE ACT WRITES LERENA ONCE. THE INDEX WROTE IT TWICE. ***",
+  "what was already known": "For an hour this looked like the second documented LERENA y LERENA in Spain, independent of the Buenos Aires brothers - which would have made the Navarrete usage look regional rather than one household's.",
+  "what it means, or what the act says": "*** IT IS NOT. *** Margin and body both read *** Wenceslaa Maria Lerena, natural de esta ciudad, e hija de Andres, ya difunto, y de Joaquina Lozano. *** One surname, her father's; her mother is a LOZANO. *** So the archive's own compound test of 14 September - forty-three doublings, and the only genuine compounds Colombian - SURVIVES THIS, and the Navarrete household is still the only Spanish instance. *** The test was right and this was the forty-fourth doubling.",
+  "when": "plate read 12 Oct 2026"
+ },
+ {
+  "what": "*** WHAT THE SWEEP DID TURN UP: A FORENAME ***",
+  "the query, or the source": "the same 26, read for shape rather than for place",
+  "result": "*** THREE SPANISH-BORN PRUDENCIO LERENAS EMIGRATING, b. 1892, 1898 and 1899 ***",
+  "what was already known": "Prudencio Lerena b.1899 of Najera to New Orleans 1931; Prudencio Lerena b.1892 to New Orleans 1939; Prudencio Velazoo [Velasco] Lerena b.1898 to Brownsville 1946. Alongside Restituto Lerena b.1904 (Boston 1921) and Felipe Mauricio Lerena b.1902 of Bilbao (San Francisco 1922).",
+  "what it means, or what the act says": "*** PRUDENCIO is the forename of one of the two Navarrete brothers - Prudencio Benito LERENA y LERENA. *** Three more of them leaving Spain in the next generation is a forename running in a family, and Najera is twenty kilometres from Navarrete. *** Index-level only: not one of these has been opened, and none is tiered. *** It is a direction, not a finding.",
+  "when": "12 Oct 2026"
+ },
+ {
+  "what": "*** AND A SPANISH LERENA HOUSEHOLD IN BUENOS AIRES IN 1895 ***",
+  "the query, or the source": "the same 26 - Argentine National Census of 1895",
+  "result": "*** LEANDRO LERENA, b. 1857 in SPAIN, and EMILIA LERENA, b. 1886 in SPAIN, in one household ***",
+  "what was already known": "Seccion 18, Subdivision 34, Ciudad de Buenos Aires. Both recorded as born in Spain, which is rare in this archive: almost every Argentine Lerena it has traced is Uruguayan-born.",
+  "what it means, or what the act says": "*** THE NAVARRETE BROTHERS WERE DEPENDIENTES IN BUENOS AIRES BY 1900, five years after this census, and this is a Spanish-born Lerena household already in the city. *** Not joined to them, and not opened - the census entry is the whole of it. *** Worth an hour before the Catastro, because it is reachable and the Catastro is a walk. ***",
+  "when": "12 Oct 2026"
+ }
+]

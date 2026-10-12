@@ -4611,5 +4611,68 @@
   "last_attested_alive": "1906-Feb-09",
   "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
   "tier": "ALIVE AT"
+ },
+ {
+  "name": "Benito LERENA",
+  "born_est": "1854c",
+  "last_attested_alive": "1899-Jun-02",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Maria Cristina (LERENA by marriage)",
+  "born_est": "1856c",
+  "last_attested_alive": "1899-Jun-02",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Anastasia LERENA",
+  "born_est": "1877c",
+  "last_attested_alive": "1899-Jun-02",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Honorio ALVAREZ",
+  "born_est": "1867c",
+  "last_attested_alive": "1899-Jun-02",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Juan Ildebel ALVAREZ y LERENA",
+  "born_est": "1899-05-27",
+  "last_attested_alive": "1899-05-27",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Pedro LERENA",
+  "born_est": "1842c",
+  "last_attested_alive": "1910-Sep-14",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Juana CAMACHO (LERENA by marriage)",
+  "born_est": "1853c",
+  "last_attested_alive": "1910-Sep-14",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Ramona LERENA",
+  "born_est": "1886c",
+  "last_attested_alive": "1910-Sep-14",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Antonina LERENA",
+  "born_est": "1910-09-02",
+  "last_attested_alive": "1910-09-02",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]

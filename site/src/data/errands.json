@@ -326,5 +326,29 @@
   "status": "done",
   "detail": "*** THIS IS THE SEARCH THAT ENDS THE TENTH-CHILD QUESTION, and it cannot be run from here. *** *** gro.gov.uk is NOT FreeBMD ***, and the difference is the whole point: the GRO's own online index *** gives the MOTHER'S MAIDEN NAME on every birth from 1837 ***, which FreeBMD does not and never will. *** THE QUERY: births, surname TAYLOR, mother's maiden name BRAYLEY, district BIDEFORD, 1870-1890. *** By definition that returns *** every child of William Taylor and Mary Ann Hellen Brayley ***, with no inference, the missing tenth included. *** WHY IT IS DAVID'S: *** it needs a free GRO account, and this session does not create accounts or sign in. *** WHAT IS ALREADY EXCLUDED, so the result can be read fast: *** the baptism register at Northam holds seven children of this couple and nothing between 31 August 1881 and 30 October 1884 - so the child being looked for is one who left a birth registration and nothing else. *** EDITH (Sep q 1882) and ETHEL (Dec q 1882) are the two names in the Bideford birth index that sit in that window ***; neither is in the register. *** RUN AND ANSWERED THE SAME DAY: David logged this session in and the search was made. *** Nine children, all at Bideford, nothing missing - and the tenth child this archive had been hunting for three weeks does not exist. See /corrections/ and data/gro-taylor-brayley-births.tsv.",
   "sent_on": "8 Oct 2026"
+ },
+ {
+  "key": "archivo-historico-diocesano-logrono-navarrete",
+  "what": "*** The parish registers of Navarrete, Logrono - baptisms and marriages, c.1820-1880 ***",
+  "who": "Archivo Historico Diocesano de Logrono",
+  "status": "ready",
+  "detail": "FamilySearch has NOT filmed them: the catalogue for Navarrete, Logrono returns one subject (Census) and one item (the 1752 Catastro), and the full-text corpus holds no Navarrete volume of any kind. So this needs a letter. WHAT TO ASK FOR: the marriage of the parents of PRUDENCIO BENITO, JUAN JOSE and JOSE DOLORES LERENA y LERENA - a Lerena groom and a Lerena bride, married at Navarrete before about 1876, the bride ISABELA LERENA y BASARAN, widowed by November 1900; and the baptisms of the three sons. Juan Jose was born about 1876. See data/navarrete-logrono.tsv.",
+  "sent_on": ""
+ },
+ {
+  "key": "me-catastro-ensenada-navarrete-1752",
+  "what": "*** Walk the 1752 Catastro de Ensenada for Navarrete - was LERENA a surname there at all? ***",
+  "who": "me",
+  "status": "ready",
+  "detail": "DGS 4386870 (vols 481-484) and DGS 4386703 (vol 485, Memoriales de seglares), filmed from the Archivo Historico Provincial de Logrono; also in the online collection Spain, Catastro de Ensenada 1749-1756. Vol. 483 (Raiz y Personal de seglares) and vol. 485 are the household-by-household ones. This cannot name a Juan Carlos born in the 1840s - it answers the question underneath him: whether the name was at Navarrete before the 19th century, and whether it was already being doubled. No waypoint established; film numbers only.",
+  "sent_on": ""
+ },
+ {
+  "key": "me-leandro-emilia-lerena-1895-buenos-aires",
+  "what": "Open the 1895 Buenos Aires census household of LEANDRO LERENA, b.1857 in SPAIN",
+  "who": "me",
+  "status": "ready",
+  "detail": "Seccion 18, Subdivision 34, Ciudad de Buenos Aires, with EMILIA LERENA b.1886, also born in Spain. Index arks MWW4-GMZ and MWW4-GMD. Almost every Argentine Lerena this archive has traced is Uruguayan-born, so a Spanish-born household in the city FIVE YEARS BEFORE the Navarrete brothers signed at the consulate is worth the hour. Index-level only so far - the census page itself has not been opened, and nothing is tiered.",
+  "sent_on": ""
  }
 ]

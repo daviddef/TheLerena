@@ -28,6 +28,7 @@ import dItalyLerenaLerina from "../data/italy-lerena-lerina.json";
 import Lines from "../components/Lines.astro";
 import dVariants from "../data/name-variants.json";
 import dSweep from "../data/variant-parent-sweep.json";
+import dNavarrete from "../data/navarrete-logrono.json";
 import lanes from "../data/lerena-lines.json";
 import lanesUnplaced from "../data/lerena-lines-unplaced.json";
 ---
@@ -157,6 +158,7 @@ import lanesUnplaced from "../data/lerena-lines-unplaced.json";
       <li><a href="#s-how-rare">How rare</a></li>
       <li><a href="#s-where-they-are">Where they are</a></li>
       <li><a href="#s-spain-one-cluster-and-it-is-not-where-you-would-guess">Spain: one cluster, and it is not where you would guess</a></li>
+      <li><a href="#s-navarrete">Navarrete, Logro&ntilde;o &mdash; the one place the name was doubled</a></li>
       <li><a href="#s-what-the-name-means-the-unresolved-fork">What the name means — the unresolved fork</a></li>
       <li><a href="#s-who-the-lerenas-married-at-trinidad">Who the Lerenas married at Trinidad</a></li>
       <li><a href="#s-italy">Italy, and the Lerina spelling</a></li>
@@ -250,6 +252,51 @@ import lanesUnplaced from "../data/lerena-lines-unplaced.json";
   </p>
 </section>
 <section class="blk">
+<h2 id="s-navarrete">Navarrete, Logro&ntilde;o &mdash; the one place the name was doubled</h2>
+<p class="dek">A seam this archive has been pointing at for a day, worked on 12 October 2026.
+  The registers turn out not to be filmed, and the one promising record turned out to be
+  Guadalajara.</p>
+<div class="prose">
+  <p>At the Spanish consulate in Buenos Aires on 14 November 1900, the brothers
+    <strong>Prudencio Benito</strong> and <strong>Juan Jos&eacute; LERENA y LERENA</strong>,
+    <em>naturales de Navarrete, provincia de Logro&ntilde;o</em>, signed a power of attorney with
+    their widowed mother <strong>Isabela LERENA y Basar&aacute;n</strong>. A Lerena had married a
+    Lerena, in Spain, and the children carried it as <strong>a surname of record rather than as an
+    indexer&rsquo;s slip</strong>. That makes Navarrete the one place this archive can name where
+    the doubling was ordinary &mdash; which is why it was worth a day.</p>
+  <p><strong>The answer is a hard one.</strong> FamilySearch&rsquo;s catalogue for Navarrete,
+    Logro&ntilde;o holds <strong>one subject and one item</strong> &mdash; a census, the
+    <em>Catastro de Ensenada</em> of 1752. <strong>No baptisms, no marriages, no burials.</strong>
+    The full-text corpus has no Navarrete volume of any kind. So the registers cannot be read from
+    this desk, and the seam now needs a letter rather than a session.</p>
+  <p><strong>And the record that looked like a second instance was not one.</strong> The index
+    offers a mother named <em>Wenceslaa Mar&iacute;a Lerena Lerena</em>, which would have made the
+    usage regional rather than one household&rsquo;s. Read at the plate it is a marriage at
+    <strong>San Gil de Guadalajara, 21 December 1863</strong> &mdash; two hundred kilometres away
+    &mdash; and both the margin and the body write <strong>Lerena once</strong>. Her mother was a
+    <em>Lozano</em>. <strong>The archive&rsquo;s own compound test survives it; this was the
+    forty-fourth doubling, not the first Spanish compound.</strong></p>
+</div>
+<dl class="kv" style="margin-top:18px">
+  {dNavarrete.filter((r) => r["what"]).map((r) => (
+    <div><dt set:html={emph(r["what"])} /><dd>
+      <span class="cap" set:html={emph(r["the query, or the source"])} /><br />
+      <strong set:html={emph(r["result"])} /><br />
+      <span set:html={emph(r["what was already known"])} /><br />
+      <span set:html={emph(r["what it means, or what the act says"])} />
+    </dd></div>
+  ))}
+</dl>
+<div class="prose" style="margin-top:18px">
+  <p class="cap"><strong>What is now on the list because of this.</strong> A letter to the
+    <strong>Archivo Hist&oacute;rico Diocesano de Logro&ntilde;o</strong> for the Navarrete
+    marriage and the three baptisms; a walk through the <strong>1752 Catastro</strong>
+    (DGS 4386870 and 4386703), which cannot name a Juan Carlos but can say whether the name was
+    at Navarrete at all before the nineteenth century; and an hour on a <strong>Spanish-born
+    Lerena household living in Buenos Aires in 1895</strong>, five years before the brothers
+    signed. <a href={u("/worklist/")}>The work list &rarr;</a></p>
+</div>
+
 <h2 id="s-what-the-name-means-the-unresolved-fork">What the name means — the unresolved fork</h2>
   <p>There are two candidate origins, and the archive does not yet know which applies here.</p>
 

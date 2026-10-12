@@ -1749,5 +1749,52 @@
    "familysearch"
   ],
   "note": "No waypoint established - image ark and apid TH-909-70122-59400-71 only; volume label 'San Jose. Birth Records 1909-1912', image group M9ZG-H6J. Act reads Pedro LERENA, 68, ITALIANO, labrador of Jesus Maria, and his daughter Ramona LERENA, 24, soltera, registering a natural daughter Antonina. The index dated it 1879 - thirty-one years out - and both this and the Artigas act were dated to the collection's opening year, so date-filtered searches of cc=1837849 measure the index, not the register."
+ },
+ {
+  "src": "FamilySearch catalogue - q.place = Navarrete, Logrono, Spain, and the full-text corpus for the same place",
+  "url": "https://www.familysearch.org/search/catalog/results?q.place=Navarrete%2C%20Logro%C3%B1o%2C%20Spain",
+  "what": "Whether Navarrete's parish registers can be read online - the one place where LERENA y LERENA was settled local usage",
+  "when": "2026-10-12",
+  "outcome": "nothing",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "navarrete",
+   "spain",
+   "familysearch"
+  ],
+  "note": "The catalogue returns ONE subject (Census) and ONE item: Catastro del Marques de la Ensenada, Navarrete, Logrono 1752, filmed from the Archivo Historico Provincial de Logrono as DGS 4386870 (vols 481-484) and DGS 4386703 (vol 485). NO parish registers of any kind, and no Navarrete volume in the full-text corpus. The registers need the Archivo Historico Diocesano de Logrono - a letter, now on the work list."
+ },
+ {
+  "src": "FamilySearch record index - surname Lerena exact, q.anyPlace = Navarrete, Logrono, Spain",
+  "url": "https://www.familysearch.org/search/record/results?q.surname=Lerena&q.surname.exact=on&q.anyPlace=Navarrete%2C%20Logro%C3%B1o%2C%20Spain",
+  "what": "Lerena records indexed to Navarrete",
+  "when": "2026-10-12",
+  "outcome": "yield",
+  "walked": true,
+  "pages": "all 26",
+  "tags": [
+   "lerena",
+   "navarrete",
+   "spain",
+   "familysearch"
+  ],
+  "note": "26 records, all 26 read at index level. Controlled: the same query at Reykjavik and Osaka returns 0, so q.anyPlace DOES filter once m.queryRequireDefault=on is sent - which is the opposite of what this archive recorded before, and explains the earlier 'q.anyPlace ranks, it does not filter' finding. But the place FIELD is unreliable: the richest of the 26 was opened at the plate and is a Guadalajara marriage. Yield is a forename (three Spanish-born Prudencio Lerenas emigrating 1921-1946) and a Spanish-born Lerena household in the 1895 Buenos Aires census."
+ },
+ {
+  "src": "FamilySearch - Spain, Catholic Church Records 1307-2005: San Gil, Guadalajara, marriage of 21 December 1863, read at the plate",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C9Y9-MQ8D-Z",
+  "what": "Whether 'Wenceslaa Maria Lerena Lerena' is a genuine Spanish compound surname",
+  "when": "2026-10-12",
+  "outcome": "yield",
+  "pages": "1",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "guadalajara",
+   "spain",
+   "familysearch"
+  ],
+  "note": "No waypoint established - image ark and apid TH-909-51330-118270-69 only; volume label 'San Gil. Religious Marriage Records 1852-1881', image group M99P-TPR. NOT a compound: margin and body both read 'Wenceslaa Maria Lerena, natural de esta ciudad, e hija de Andres, ya difunto, y de Joaquina Lozano'. One surname; her mother was a LOZANO. Also NOT Navarrete - the act is San Gil de esta ciudad de Guadalajara. The archive's 14 September compound test stands."
  }
 ]
