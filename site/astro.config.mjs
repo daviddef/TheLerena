@@ -12,6 +12,23 @@ const redirects = {
      read at the plate the same day, spells him LERENA - and that act is what proved his
      parents are the 1895 census household. The row was renamed to what the act says, so
      the address it had for a few hours is kept pointing at him. */
+  /* 12 October 2026. *** A SWEEP, NOT A SIGHTING. *** Walking the live site found
+     ONE dead person address; asking the frozen ledger which of its keys no longer
+     name a row in the register found TWENTY-TWO, of which FIVE had neither a page
+     nor a redirect. The ledger is keyed by NAME, so every rename that touches a
+     name strands its key and mints a fresh slug with a -2 suffix - the hazard its
+     own _why calls "the fault this file exists to prevent, merely made rarer".
+     Two of these had been dead since 23 September. No gate could see any of them:
+     check-links only follows links that still exist, and nothing linked here. */
+  '/people/emilia-lerena-vega': `${BASE}/people/emilia-lerena-vega-2/`,
+  '/people/vicenta-lerena-vega': `${BASE}/people/vicenta-lerena-vega-2/`,
+  '/people/domingo-razzetti': `${BASE}/people/domingo-razzetti-2/`,
+  '/people/josefina-bertoglio': `${BASE}/people/josefina-bertoglio-2/`,
+  /* This one was minted and withdrawn inside a single day, when the Artigas
+     death turned out to be a Montevideo death and the row was folded into the
+     man it duplicated. It was deployed in between, so it is a promise too. */
+  '/people/pedro-a-lerena': `${BASE}/people/pedro-lerena-vega-2/`,
+
   /* 12 October 2026, and a smaller version of the same mistake. Pedro LERENA Vega
      was renamed when the census behind him turned out to be the padron of 1850
      rather than c.1833, moving his birth estimate from c.1817 to c.1834. The
