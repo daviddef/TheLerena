@@ -2,6 +2,21 @@
  "mechanical": 53,
  "days": [
   {
+   "date": "2026-10-13",
+   "commits": [
+    {
+     "sha": "9de6098",
+     "subject": "The search index was nine entries behind the register",
+     "body": "Generated after the last commit rather than before it, so the deployed\nsearch could not find the seven people entered from the Cordon death\nregisters - the two Lavina sisters, their father and grandparents, Emilio\nLavina y Goyeneche, and Amelia Lerena - nor the two gazette errands.\nNothing was lost; the pages themselves were live. But a person who is on the\nsite and not in its search is only half published."
+    },
+    {
+     "sha": "0cbc2b4",
+     "subject": "Two sisters died on one day in 1869, and their mother was already dead",
+     "body": "Went to the Cordon's death registers for the four adults of Sarandi 229.\nThey are not there. What is there is a death this archive did not know it\nwas looking for.\nTHE LIST EXISTS NOW, which it never has. Thirteen of the parish's ~95 Lerena\ndocuments sit in its own death and burial books - deaths 1839-1852 and\n1869-1877, burials 1885-1892, 1892-1897, 1897-1901, 1908-1914, 1918-1926.\nTwo read, eleven unread.\nAND THE FIRST ONE OPENED, read at the plate: \"En cinco de Agosto de mil\nochoc.s sesenta y nueve, MURIERON Vicenta Lavina, de cuatro anos, y Manuela\nLavina, de tres anos, hija de D. Xavier (hijo) y de LA FINADA LEONARDA\nLERENA.\" Two sisters, four and three, recorded dead in a single line, their\nmother already gone.\nWHICH WOULD BE A DEATH FOR A WOMAN FOUND THE DAY BEFORE. Leonarda Margarita\nLerena Vega, b. 20 February 1837, was placed on 12 October at casa 229 of\nCalle Sarandi in the padron of 1850 - the only white person in a house of\nfour adults who carried the surname by ditto. The forename is uncommon, the\nparish is hers, the daughters were born about 1865 and 1866 when she would\nhave been twenty-eight, and she would be about thirty-two at death. FILED AS\nA CANDIDATE, NOT MERGED: what would settle it is her own death act or the\ngirls' baptisms, and neither is found - \"Leonarda Lerena\" as a phrase returns\none document in the entire corpus, and it is this one.\nTHE FAMILY SHE MARRIED INTO IS NAMED. Her husband is Xavier Lavina the\nyounger - the act writes \"hijo\", which is only written when an elder of the\nsame name exists. The elder, Don Xavier Lavina, and his wife Dona Manuela\nGoyeneche, are named in the 1861 marriage dispensation of their son Emilio\nLavina y Goyeneche, 24, natural de San Pedro del Durazno, who married Dona\nMaria Eladia Ramona Mendoza.\nAND THAT DISPENSATION TESTED YESTERDAY'S CONCLUSION. The 12 October sweep\nfound no tenth Lerena dispensation using eight compound LERENA forms. This\none arrived under LAVINA and so was invisible to it - and turns out not to be\na Lerena dispensation at all. The conclusion survived a test it was not\ndesigned for, which is worth more than the conclusion was. It also names the\nnext doubt: a Lerena BRIDE whose dispensation is filed under her husband's\nsurname would be missed by every sweep run so far.\nSeven people added. One more death, Amelia Lerena, nine years old, 11\nNovember 1871, entered INDEX-LEVEL only because the transcript runs her\nmargin into the body.\nTHE FORENAME ROUTE TO THE FOUR IS DEAD: \"Estanislada\" with a Cordon place\nfilter returns nine pages. Neither compound surname nor forename is a handle.\nThe eleven unread documents must be read by eye, and the errand says so."
+    }
+   ]
+  },
+  {
    "date": "2026-10-12",
    "commits": [
     {
