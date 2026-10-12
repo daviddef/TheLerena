@@ -3348,9 +3348,9 @@
  {
   "name": "Manuela LEMOS (m. Pedro A. LERENA)",
   "born_est": "-",
-  "last_attested_alive": "-",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "last_attested_alive": "1896-Nov-6",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
  },
  {
   "name": "Juana FERREIROZ (m. Manuel LERENA)",
