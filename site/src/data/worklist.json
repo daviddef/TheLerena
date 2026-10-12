@@ -1711,14 +1711,14 @@
   },
   {
    "n": 212,
-   "what": "Re-date Montevideo household 229 — the c.1833 no longer fits",
+   "what": "Date the enumeration behind household 229 — the volume says 1850, this archive says c.1833",
    "state": "next",
    "owner": "this archive",
    "since": "2026-10-12",
    "covers": [
     "err:me-redate-household-229"
    ],
-   "note": "Pedro LERENA Vega is read as **sixteen** in household 229, which this archive dates **c.1833**, giving a birth about 1817. His death act of 7 November 1896, read at the plate, makes him **sixty-nine** and *nacido en Montevideo* — born about **1827**, which puts him at six in 1833 and sixteen in **1843**. The act names his parents outright, so the attachment is safe; **the census date is not**. If the enumeration is 1843, every age-derived birth year taken from that household needs re-checking — his sister **Emilia LERENA Vega** among them."
+   "note": "**Worked and not closed; the answer is *contested*.** Read at the plate: *229 — D. Pedro A. Lerena, varón, 40 | D.ª Vicenta Vega, muger, 35 | D.ª Emilia Lerena, 18 | D.n Pedro D.º, varón, 16 | D.ª Vicenta D.º*. FamilySearch labels the volume **Montevideo. Census 1850**. This archive dates it **c.1833** — and that is not a loose guess: the head at forty matches **Pedro Antonio Lerena, born 31 July 1793**, husband of a Vicenta Vega of Cerro Largo, attested by a Catedral baptism of 1837 and by both standing godparents at the Aguada in 1852. A man born 1793 is forty in 1833 and **fifty-seven in 1850**. **And a third anchor agrees with neither**: the son's death act makes him sixty-nine in 1896, which wants a census of about 1843. **Until the enumeration is dated, household 229 is undated** and three birth years in the register rest on an assumption."
   }
  ],
  "accounts": [
