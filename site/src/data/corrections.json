@@ -1246,5 +1246,13 @@
   "what_is_true": "*** THEY ARE ON THE 1895 BUENOS AIRES CENSUS, lines 7 to 11 of Seccion 18 Subdivision 34, read at the plate on 12 October: *** LERENA Leandro, 38, espanol, born SEGOVIA, literate, F.te de Aceite; LLANOS Lucia, 32; Emilia 9 (Spain); Francisco 5 (La Plata); Paulina 8 meses (portena). *** The search itself was sound - signed in, constraint binding, eleven Llanos rows returned. A SPOUSE-PAIR QUERY IS STRUCTURALLY BLIND TO A CENSUS, which records no marriage relationship to constrain on; and the card spells him LORENA where the census spells him LERENA. ***",
   "how_it_was_caught": "*** By opening the census sheet, which FOUR of the five people were already in this register from. *** The register called them 'a separate, Spanish-born family' while open question 1 called the same man a true null, and neither row looked at the other. *** The missing link was the wife: LUCIA LLANOS had never been entered, and she is the only name the two records share. ***",
   "retired": "the true-null claim on /open-questions/ question 1, rewritten 12 October 2026"
+ },
+ {
+  "date": "2026-10-12",
+  "severity": "serious",
+  "what_was_said": "*** That the department of ARTIGAS holds 208 LERENA records, against 699 for Flores *** - published this afternoon in data/artigas-opened.tsv, on /uruguay/#s-artigas, in searched.json and in a commit, with the framing that an unworked department held a third as many records of the name as the heartland.",
+  "what_is_true": "*** THE PLACE FILTER FALLS BACK TO THE COUNTRY, so those counts are not departmental. *** q.anyPlace='Nonesuch, Uruguay' - a department that does not exist - returns *** 1,787, which is exactly the whole-country figure. *** Real department names do bind (Artigas 208, Flores 699, Montevideo 891), but a record whose indexed place is only 'Uruguay', or which carries no place at all, *** matches every departmental query. *** Of the first hundred of the 208: *** 15 actually name Artigas, 28 name somewhere else entirely - Montevideo, Buenos Aires, the United States - and 57 carry no place in the index at all. ***",
+  "how_it_was_caught": "*** By opening a record the Artigas query returned and finding it was a MONTEVIDEO death. *** The 1896 death of 'Pedro a Lerena' came back under Artigas; its volume is 'Montevideo. Death Records 1896'. *** The control that was run - Osaka, Japan returning 0 - proved the filter binds on COUNTRY. It never tested whether it binds on DEPARTMENT, which is the thing the claim rested on. A control licenses the shape of a query, not the value it returns. ***",
+  "retired": "the 208-record claim in data/artigas-opened.tsv, on /uruguay/#s-artigas and in searched.json, rewritten 12 October 2026"
  }
 ]

@@ -400,7 +400,7 @@
    "a-ferreyra",
    "dr-llerena",
    "lucia-llanos",
-   "salvador-lorena"
+   "salvador-lerena"
   ],
   "count": 42
  },
@@ -564,6 +564,23 @@
   "count": 11
  },
  {
+  "slug": "uruguay",
+  "name": "Uruguay",
+  "people": [
+   "susana-llerena",
+   "sofia-clavijo",
+   "isabel-llerena-clavijo",
+   "celina-llerena-clavijo",
+   "telma-llerena",
+   "tomasa-cantidia-llerena",
+   "clorinda-lerena",
+   "maria-dolores-moratorio-lerena",
+   "domingo-lerena",
+   "asuncion-lerena"
+  ],
+  "count": 10
+ },
+ {
   "slug": "flores-uruguay",
   "name": "Flores, Uruguay",
   "people": [
@@ -595,21 +612,6 @@
    "ana-gomez"
   ],
   "count": 9
- },
- {
-  "slug": "uruguay",
-  "name": "Uruguay",
-  "people": [
-   "susana-llerena",
-   "sofia-clavijo",
-   "isabel-llerena-clavijo",
-   "celina-llerena-clavijo",
-   "telma-llerena",
-   "tomasa-cantidia-llerena",
-   "clorinda-lerena",
-   "maria-dolores-moratorio-lerena"
-  ],
-  "count": 8
  },
  {
   "slug": "cordoba-argentina",
@@ -743,17 +745,6 @@
   "count": 4
  },
  {
-  "slug": "artigas-uruguay",
-  "name": "Artigas, Uruguay",
-  "people": [
-   "gumersindo-lerena",
-   "idersio-lerena-araujo",
-   "teodoro-alves-lerena",
-   "domingo-lerena"
-  ],
-  "count": 4
- },
- {
   "slug": "south-africa",
   "name": "South Africa",
   "people": [
@@ -830,6 +821,16 @@
    "maria-mercedes-lerena",
    "eduardo-lerena-3",
    "ema-lerena"
+  ],
+  "count": 3
+ },
+ {
+  "slug": "artigas-uruguay",
+  "name": "Artigas, Uruguay",
+  "people": [
+   "gumersindo-lerena",
+   "idersio-lerena-araujo",
+   "teodoro-alves-lerena"
   ],
   "count": 3
  },
@@ -1195,14 +1196,6 @@
   "name": "San Juan Bautista, Brazil",
   "people": [
    "honorio-alvarez"
-  ],
-  "count": 1
- },
- {
-  "slug": "san-francisco-de-asis-ciudad-vieja-montevideo",
-  "name": "San Francisco de Asis, Ciudad Vieja, Montevideo",
-  "people": [
-   "asuncion-lerena"
   ],
   "count": 1
  }

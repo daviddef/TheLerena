@@ -60,20 +60,31 @@ import ftf from "../data/fulltext-finds-2026-10-11.json";
 <section class="blk">
   <h2 id="s-artigas">Artigas, the department nobody had opened</h2>
   <p class="dek">Five hundred kilometres north of everything this archive has worked, on the
-    Brazilian border &mdash; and it holds a third as many records of this name as Flores does.</p>
+    Brazilian border &mdash; and the first thing this section has to do is withdraw its own
+    headline number.</p>
   <div class="prose">
     <p>Artigas appears nowhere in this archive&rsquo;s searched list. Everything here assumes the
       family runs Canelones &rarr; Montevideo &rarr; Trinidad. It arrived this morning by accident,
       when a cross-spelling sweep turned up a birth act at <strong>San Eugenio</strong> and the
       plate gave a Lerena household nobody had met.</p>
-    <p>Asked directly, the department returns <strong>208 Lerena records</strong> &mdash; against
-      <strong>699 for Flores</strong>, the heartland this archive was built on &mdash; plus 103
-      Serena, 99 Perena, 37 Lorena, 32 Llerena, 28 Larena, 21 Gerena. <strong>Not one had been
-      looked at.</strong></p>
+    <p><strong>A count was published here this afternoon and it was wrong.</strong> Asked
+      directly the department appeared to return <strong>208 Lerena records against 699 for
+      Flores</strong>, and that comparison meant nothing: <code>q.anyPlace</code> <strong>falls
+      back to the country</strong>. A department that does not exist &mdash; <em>Nonesuch,
+      Uruguay</em> &mdash; returns 1,787, which is the whole-country figure, and records indexed
+      only to &ldquo;Uruguay&rdquo; satisfy every departmental query. <strong>Of the first hundred
+      hits, fifteen name Artigas, twenty-eight name somewhere else entirely, and fifty-seven carry
+      no place at all.</strong> <a href={u("/corrections/")}>The correction &rarr;</a></p>
+    <p>The control that was run &mdash; Osaka, Japan, returning zero &mdash; proved the filter
+      binds on <em>country</em>, and was read as proving it binds on <em>department</em>.
+      <strong>A control licenses the shape of a query, not the value it returns.</strong> The
+      useful control was a department that does not exist, and it takes one query.</p>
     <p><strong>It does not answer the central question, and that is worth saying plainly.</strong>
       Juan Carlos exact, as subject and as father, inside Artigas: <strong>nothing</strong>. A
-      Lerena father against a Lerena mother inside Artigas: <strong>nothing</strong>. An unworked
-      department is exactly where a reader would otherwise assume we simply had not looked.</p>
+      Lerena father against a Lerena mother inside Artigas: <strong>nothing</strong>.
+      <strong>Those nulls survive the correction above</strong> &mdash; a filter that widens
+      cannot hide a record, so a null from an over-wide query is stronger than one from a tight
+      query, which is the single piece of luck here.</p>
     <p><strong>What it does hold is Benito Lerena&rsquo;s household, and what it cost him.</strong>
       Between 1893 and 1902 he registered <strong>five infant deaths</strong> at Artigas. Gumersindo,
       born 1898, died on 8 March 1899 &mdash; <strong>ten weeks before Benito walked into the

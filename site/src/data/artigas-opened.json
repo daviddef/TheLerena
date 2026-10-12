@@ -2,9 +2,9 @@
  {
   "what": "*** A DEPARTMENT THIS ARCHIVE HAD NEVER OPENED ***",
   "the query": "record index, each of eight spellings exact, q.anyPlace = Artigas, Uruguay",
-  "result": "*** LERENA 208. Serena 103, Perena 99, Lorena 37, Llerena 32, Larena 28, Gerena 21, Lerina 3. ***",
+  "result": "*** THE COUNTS PUBLISHED HERE THIS AFTERNOON WERE WRONG AND ARE WITHDRAWN. ***",
   "what was already known": "Artigas, on the Brazilian border, appears nowhere in this archive's searched list. Everything here assumes the family runs Canelones to Montevideo to Trinidad.",
-  "what it means": "*** 208 against 699 for FLORES, the known heartland - so Artigas holds roughly a third as many records of this name as the department this archive was built on, and not one of them had been looked at. *** Controlled: the same query at Osaka returns 0.",
+  "what it means": "*** q.anyPlace FALLS BACK TO THE COUNTRY. *** 'Nonesuch, Uruguay' - a department that does not exist - returns 1,787, the whole-country figure; and records indexed only to 'Uruguay', or to no place at all, satisfy every departmental query. *** Of the first hundred hits, 15 name Artigas, 28 name somewhere else entirely, and 57 carry no place in the index. *** So '208 against 699 for Flores' compared two inflated numbers and meant nothing. *** The honest statement is that Artigas is a department this archive has never worked and that a Lerena family demonstrably lived there - which is still true, and is still worth a session. *** See data/corrections.tsv, 12 October.",
   "when": "12 Oct 2026"
  },
  {
@@ -12,7 +12,7 @@
   "the query": "Juan Carlos exact as subject and as father, and Lerena father x Lerena mother, all inside Artigas",
   "result": "*** 0, 0 and 0 ***",
   "what was already known": "The department was opened because it was unworked, not because anything pointed a Juan Carlos at it.",
-  "what it means": "*** No Juan Carlos Lerena at Artigas in any role, and no Lerena-Lerena couple there. *** Recorded as a null rather than left unsaid, because an unworked department is exactly where a reader would assume the archive simply had not looked.",
+  "what it means": "*** No Juan Carlos Lerena at Artigas in any role, and no Lerena-Lerena couple there. *** *** AND THESE NULLS SURVIVE THE CORRECTION ABOVE, because a filter that WIDENS cannot hide a record - if anything it should have returned MORE. *** A null from an over-wide query is stronger than a null from a tight one, which is the one piece of luck in this row.",
   "when": "12 Oct 2026"
  },
  {
@@ -40,11 +40,11 @@
   "when": "12 Oct 2026"
  },
  {
-  "what": "*** AND TWO MORE LERENA LINES AT ARTIGAS, NEITHER OPENED ***",
+  "what": "*** AND TWO MORE LERENA LINES - BUT NOT AT ARTIGAS ***",
   "the query": "the same 208",
   "result": "*** DOMINGO LERENA and PEDRO A. LERENA ***",
   "what was already known": "Nothing. Neither name is in this register.",
-  "what it means": "*** DOMINGO LERENA *** with a wife indexed *** Maria Cristina Araujo *** - the same wife-name as Benito's, so either a brother, or one man under two names, or the index conflating two households. Their daughter *** ASUNCION LERENA, b.1884 ***, later living at San Francisco de Asis in Montevideo. And *** PEDRO A. LERENA, born 1827, died 6 November 1896 ***, son of another Pedro A. Lerena and *** Vicenta de la Vega. *** A line running back to the 1790s generation, on the Brazilian frontier. *** All index-level. No act opened, nothing tiered, no connection to this archive's lines shown or claimed. ***",
+  "what it means": "*** DOMINGO LERENA *** with a wife indexed *** Maria Cristina Araujo *** - the same wife-name as Benito's, so either a brother, or one man under two names, or the index conflating two households. Their daughter *** ASUNCION LERENA, b.1884 ***, later at San Francisco de Asis in Montevideo. *** NEITHER IS PLACED AT ARTIGAS: *** the index gives Asuncion's birth as 'Uruguay' with no department, and she reached this row only through the over-wide place filter corrected above. *** And PEDRO A. LERENA, who died 6 November 1896 aged 69, is a MONTEVIDEO death - the volume is 'Montevideo. Death Records 1896' - not an Artigas one. *** His spouse is given as *** MANUELA LEMOS ***, and a second death, of a Pedro Antonio Lerena born 1875, names the same Manuela as his mother. *** Three generations of the name, and the city is Montevideo. ***",
   "when": "12 Oct 2026"
  }
 ]

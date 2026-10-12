@@ -6,6 +6,12 @@ import { defineConfig } from 'astro/config';
    addresses stay alive and land on the section that now holds them. */
 const BASE = '/TheLerena';
 const redirects = {
+  /* 12 October 2026. The army card spells him LORENA; the baptism act of San Cristobal,
+     read at the plate the same day, spells him LERENA - and that act is what proved his
+     parents are the 1895 census household. The row was renamed to what the act says, so
+     the address it had for a few hours is kept pointing at him. */
+  '/people/salvador-lorena': `${BASE}/people/salvador-lerena/`,
+
   '/gaps': `${BASE}/open-questions/#may-never-close`,
   '/photograph-these': `${BASE}/errands/#photographs`,
 

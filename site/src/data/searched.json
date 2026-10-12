@@ -1873,7 +1873,7 @@
    "uruguay",
    "familysearch"
   ],
-  "note": "LERENA 208, Serena 103, Perena 99, Lorena 37, Llerena 32, Larena 28, Gerena 21, Lerina 3 - against 699 Lerena for Flores, the known heartland. Controlled: the same query at Osaka returns 0. NULLS RECORDED: Juan Carlos exact as subject 0, as father 0, and Lerena-father x Lerena-mother 0, all inside Artigas. YIELD: Benito Lerena's household, including FIVE INFANT DEATHS registered 1893-1902; a second son for Anastasia Lerena and Honorio Alves (Teodoro, b. 22 Apr 1907); a Domingo Lerena household; and a candidate death at Artigas in 1896 for Pedro LERENA Vega, the boy counted at Montevideo about 1833 - which if confirmed would tie the Artigas Lerenas to this archive's own trunk. ALL INDEX-LEVEL: one Artigas act has been opened at the plate (act 110 of 1899), none of the rest."
+  "note": "COUNTS WITHDRAWN THE SAME DAY. q.anyPlace FALLS BACK TO THE COUNTRY: 'Nonesuch, Uruguay' - a department that does not exist - returns 1,787, the whole-country figure, and records indexed only to 'Uruguay' satisfy every departmental query. Of the first hundred Artigas hits, 15 name Artigas, 28 name somewhere else, 57 carry no place at all. The Osaka control proved the filter binds on COUNTRY, not on DEPARTMENT. WHAT SURVIVES: the nulls (Juan Carlos as subject 0, as father 0, Lerena x Lerena 0) are if anything strengthened, because an over-wide filter cannot hide a record; and Benito Lerena's Artigas household is real - five infant deaths registered at Artigas 1893-1902, and Teodoro Alves Lerena's birth registered at Artigas in 1907, all explicitly placed there. WITHDRAWN: that Domingo and Asuncion Lerena are of Artigas, and that the 1896 death of Pedro a Lerena is an Artigas death - it is Montevideo. See corrections, 12 October."
  },
  {
   "src": "1895 Argentine National Census, Seccion 18 Subdivision 34, Ciudad de Buenos Aires - the Leandro Lerena household read at the plate",
@@ -1890,5 +1890,36 @@
    "familysearch"
   ],
   "note": "No waypoint established - image ark and apid TH-266-13033-138829-16 only. Lines 7-11: LERENA Leandro, 38, espanol, born SEGOVIA, literate, 'F.te de Aceite'; LLANOS Lucia, 32; Emilia 9 (Spain); Francisco 5 (La Plata); Paulina 8 months (portena). THIS BREAKS A PUBLISHED NULL: the archive recorded on 10 October that Leandro Lorena and his wife Llanos appear in one record on earth, the army card of their son Salvador. The spouse-pair query that produced that null is structurally blind to a census, which records no marriage relationship to constrain on. Four of the five people were already in this register. See corrections, 12 October."
+ },
+ {
+  "src": "FamilySearch - Argentina, Capital Federal, Catholic Church Records: San Cristobal, Buenos Aires, baptism of 20 December 1896, certificate 288, read at the plate",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:9396-XRWL-G",
+  "what": "Whether the 1895 census household and the Cajon 985 army card are one family",
+  "when": "2026-10-12",
+  "outcome": "yield",
+  "pages": "1",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "buenos-aires",
+   "argentina",
+   "familysearch"
+  ],
+  "note": "SETTLED. No waypoint established - image ark and apid TH-1-12145-6052-30 only; volume 'San Cristobal. Baptism Records 1896-1897'. The act: Salvador, born 21 September 1896, baptised 20 December, hijo legitimo de D.n LEANDRO LERENA, 42, natural de Espana, y de D.a LUCIA LLANOS, 34, natural de Espana, domiciliados en Calle Pichincha 929; godparents Salvador Angulo 23 and Catalina Martinez 27, both Spanish. This closes the identification published that morning on a fitted birth year, and breaks the 10 October 'true null' for good: the army card's LORENA is the census's LERENA and its 'Lucio Llanos' is LUCIA."
+ },
+ {
+  "src": "FamilySearch record index - Uruguay Civil Registration: the 1896 death of 'Pedro a Lerena', certificate 353",
+  "url": "https://www.familysearch.org/ark:/61903/1:1:6YDY-GP3T",
+  "what": "A candidate death for Pedro LERENA Vega, the boy counted at Montevideo about 1833",
+  "when": "2026-10-12",
+  "outcome": "yield",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "montevideo",
+   "uruguay",
+   "familysearch"
+  ],
+  "note": "Died 6 November 1896 aged 69, registered the next day; father Pedro A. Lerena, mother VICENTA DE LA VEGA, spouse MANUELA LEMOS. Volunteer-indexed, not machine-indexed. THE VOLUME IS 'Montevideo. Death Records 1896' - NOT Artigas, where a departmental place filter had placed it; that error is corrected the same day. Montevideo is the city the c.1833 census puts Pedro LERENA Vega in, so the fit improves. NOT MERGED: the two birth years disagree by a decade and both are age-derived. The act has not been opened."
  }
 ]
