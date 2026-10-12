@@ -2033,5 +2033,36 @@
    "familysearch"
   ],
   "note": "ANSWERED, AND MORE. No waypoint established - image ark and apid TH-1961-36718-27970-97 only. Leonarda is entered at casa 229 of CALLE SARANDI, blanca, oriental, aged 11 (she was 13). Her parents are at a DIFFERENT casa 229 on another street - two houses of the same number in one padron, so 'household 229' was never an identifier. SHE IS THE ONLY WHITE PERSON IN THAT HOUSE: Estanislada 20 (morena), Sinforiano 19, MANUELA 60 with patria AFRICA and casada, and Rosa 46 (oriental, casada) all carry the surname by ditto. Four people entered in the register in their own right. The census has no column for condition; that the surname reached them as Barbara's reached her son (1846, 'esclava de D.n Alejandro Lerena') is filed as an INFERENCE. A Cordon or Catedral burial would say the word outright - raised as an errand."
+ },
+ {
+  "src": "FamilySearch full text - 'esclava de Alejandro Lerena' as a phrase, and the San Jose de Mayo baptism register 1841-1869 read at the transcript",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKH-D9GN-8",
+  "what": "Whether any parish act names an enslaved person in a Lerena household beyond the one already held",
+  "when": "2026-10-12",
+  "outcome": "yield",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "san-jose",
+   "uruguay",
+   "familysearch"
+  ],
+  "note": "TWO DOCUMENTS, both San Jose de Mayo: the burial of 28 April 1846 (already held) and THE BAPTISM OF 25 APRIL 1846, which this archive did not have. The baptism: 'bautice solemnemente a Car[melo] Anselmo, que nacio el VEINTIUNO del mismo, hijo natural de BARBARA LERENA, NATURAL DE ESTA VILLA, ESCLAVA DE DON ALEJANDRO LERENA: fueron Padrinos Jose Carreras y Petronila Escobar.' It gives her the SURNAME in writing, gives her birthplace as San Jose de Mayo, moves the child's birth from 20 to 21 April, and names two godparents new to this archive. METHOD: the same phrase with the abbreviation - 'esclava de D.n Alejandro Lerena' - returns No Results Found. The abbreviation breaks the match. Two nulls built on that shape were about to be recorded and were caught by running the known phrase as a control."
+ },
+ {
+  "src": "FamilySearch record index and full text - Estanislada, Sinforiano, Manuela and Rosa of Sarandi 229, searched for their own acts",
+  "url": "https://www.familysearch.org/search/full-text/results?count=100&q.text=esclava&q.anyPlace=Cord%C3%B3n%2C%20Montevideo%2C%20Montevideo%2C%20Uruguay",
+  "what": "Whether a parish act states the condition of the four who carry the Lerena surname at Sarandi 229 in 1850",
+  "when": "2026-10-12",
+  "outcome": "nothing",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "montevideo",
+   "cordon",
+   "uruguay",
+   "familysearch"
+  ],
+  "note": "NOT FOUND YET, AND THE NULLS ARE WEAK. The record index holds nothing for Estanislada or Sinforiano under Lerena or Serena. Full text as compound phrases returns nothing - but the compound is the wrong shape, since such people are commonly entered by forename alone, exactly as Barbara is on the 1846 burial. The forename alone is too common to sweep: 'Sinforiano' with a Cordon place filter returns four pages. WHAT IS ESTABLISHED, and it is encouraging: the vocabulary IS searchable - 'esclava' with a Cordon place filter returns 49 pages, concentrated in the baptism registers of 1818-1841 and the death register of 1809-1828. The errand to read the Cordon burials 1839-1852 for these four stands."
  }
 ]

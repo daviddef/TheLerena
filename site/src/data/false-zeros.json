@@ -250,5 +250,12 @@
   "what it actually was": "*** A PARSER THAT FALLS BACK TO THE COUNTRY WHEN THE SUB-PLACE DOES NOT RESOLVE, AND AN INDEX FULL OF PLACE-LESS ROWS. *** q.anyPlace='Nonesuch, Uruguay' returns 1,787 - the whole-country count - so an unresolvable department silently becomes 'Uruguay'; and records indexed only to 'Uruguay' satisfy every departmental query. 57 of the first hundred Artigas hits carry no place at all.",
   "how it was caught": "*** By opening one of the returned records, which turned out to be a Montevideo death. *** The Osaka control proved the filter binds on COUNTRY and was read as proving it binds on DEPARTMENT. *** The useful control would have been a department that does not exist - and it takes one query. ***",
   "when": "12 Oct 2026"
+ },
+ {
+  "disguise": "*** THE ABBREVIATION THAT BROKE A PHRASE SEARCH ***",
+  "what it looked like": "*** 'esclava de D.n Alejandro Lerena' *** - a phrase this archive has READ, word for word, off a plate - returning *** No Results Found *** in full text. A clean, composed empty result on a phrase known to exist.",
+  "what it actually was": "*** THE ABBREVIATION. *** The same search as *** 'esclava de Alejandro Lerena' *** returns the two documents at once - the baptism and the burial. The machine transcript expands or drops 'D.n', so a phrase carrying the abbreviation matches nothing, while the same phrase without it matches both.",
+  "how it was caught": "*** By running the known phrase as a CONTROL before trusting two nulls built on the same shape. *** Those two - 'esclava de Don Pedro Lerena' and 'liberta de Don Pedro Lerena' - were about to be recorded. *** A phrase search is only as good as the transcriber's abbreviations, and this archive's sources are full of D.n, D.a, S.n and V.a. ***",
+  "when": "12 Oct 2026"
  }
 ]

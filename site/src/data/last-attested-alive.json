@@ -4166,8 +4166,8 @@
  },
  {
   "name": "CARMELO ANSELMO (son of Barbara, enslaved; d. 27 April 1846)",
-  "born_est": "1846-04-20",
-  "last_attested_alive": "1846-04-20",
+  "born_est": "1846-04-21",
+  "last_attested_alive": "1846-04-21",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -4779,5 +4779,19 @@
   "last_attested_alive": "1804c",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Jose CARRERAS (godfather, San Jose 1846)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Petronila ESCOBAR (godmother, San Jose 1846)",
+  "born_est": "-",
+  "last_attested_alive": "1846-Apr-25",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
  }
 ]

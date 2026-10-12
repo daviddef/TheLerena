@@ -1270,5 +1270,13 @@
   "what_is_true": "*** THE ENUMERATION IS THE PADRON OF 1850, CONFIRMED AT CATALOGUE LEVEL. *** FamilySearch catalogue koha:1408224, 'Uruguay, Montevideo, censos, 1726-1860', lists film 7499042 item by item: *** item 1 = Padrones de habitantes, LIBRO 263, 1843; item 2 = LIBRO 264, 1850; item 3 = libro 257, 1852-1853. *** The household sits in *** item 2 ***, as the viewer's own breadcrumb says. *** So the three birth years are each seventeen years too early: Emilia is about 1832, Pedro about 1834, Vicenta about 1838. *** And the head, entered at forty, was born about 1810 - *** which is not a man born in 1793. ***",
   "how_it_was_caught": "*** By opening the plate to settle a conflict between the 1896 death act and the census age, and then going to the catalogue rather than stopping at the volume label. *** The c.1833 was itself an inference from the head's age matching Sancho's son, so the error was circular: the date was chosen to fit the identification, and the identification then rested on the date. *** Under EITHER candidate book - 1843 or 1850 - the head is too young to be the man born in 1793, so the identification does not survive the correction whichever way the volume falls. ***",
   "retired": "the c.1833 dating and the three derived birth years in data/lerena-register.tsv, and the reading of household 229 as Sancho's son's household, corrected 12 October 2026"
+ },
+ {
+  "date": "2026-10-12",
+  "severity": "minor",
+  "what_was_said": "*** That CARMELO ANSELMO was born on 20 April 1846. *** Entered from the burial act, which gives only an age at death.",
+  "what_is_true": "*** The baptism act of 25 April 1846 states it: 'que nacio el VEINTIUNO del mismo' - 21 APRIL. *** It also squares with the burial's 'de edad de siete dias' on the 28th.",
+  "how_it_was_caught": "By finding the baptism three days earlier in the same parish's books, through a phrase search that had failed an hour before because of an abbreviation.",
+  "retired": "the birth date of 20 April 1846 in data/lerena-register.tsv, corrected 12 October 2026"
  }
 ]
