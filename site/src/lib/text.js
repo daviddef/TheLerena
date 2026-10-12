@@ -36,3 +36,30 @@ export function emph(s) {
 export function plain(s) {
   return String(s ?? "").replace(/\*\*\*\s*(.+?)\s*\*\*\*/gs, "$1");
 }
+
+/* A SHORT LEAD FROM A LONG NOTE, for the line under a page title.
+   A person page used to pass the WHOLE note as its dek and then print the same note again under
+   "What is known". 588 of 692 people have a note over 160 characters, 112 of them over 1,500 and
+   the longest 21,547, so most pages opened with a wall of unemphasised text that the page then
+   repeated. Found on 13 October 2026 by looking at a rendered page rather than measuring one -
+   no width or overflow check could have seen it.
+   Takes the first sentence if it is a sensible length, else cuts at a word boundary. Notes of
+   160 characters or fewer are returned whole, which is exactly what they were before. The full
+   note is never lost: it is still printed, with its emphasis, in its own section. */
+export function lead(s, max = 230) {
+  const t = plain(s).replace(/\s+/g, " ").trim();
+  if (t.length <= 160) return t;
+  // A full stop is NOT a sentence end after an honorific/abbreviation ("Dr. Bordoni", "D. Pedro",
+  // "No. 353") or after a lone capital, which is an initial ("Pedro A. Lerena"). Without this the
+  // first version cut six pages off mid-name: "...named by the cura Dr."
+  const re = /(?<!\b(?:Dr|Dra|Dn|Dna|D|Sr|Sra|St|Sta|No|Nos|Mr|Mrs|Fr|Don|Dona|Gral|Cap|Exmo|Ilmo|Rev|Vda|vs|cf|ca|c|fl|ff|ark|fol|p|pp|b|d|m|s))(?<!\b[A-Z])[.!?](?=\s+[A-Z"'(\u201c*])/g;
+  let m;
+  while ((m = re.exec(t))) {
+    const end = m.index + 1;
+    if (end > max) break;
+    if (end >= 50) return t.slice(0, end);
+  }
+  const cut = t.slice(0, max);
+  const sp = cut.lastIndexOf(" ");
+  return cut.slice(0, sp > 100 ? sp : max).replace(/[,;:\s]+$/, "") + "\u2026";
+}
