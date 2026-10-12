@@ -62,5 +62,13 @@
   "what one would assume": "It feels natural to prepare the repository and then attach the domain, because that is the order the work happens in.",
   "what is actually true": "*** It is exactly backwards. *** GitHub keeps serving the previous build until the next deploy, so binding the domain BEFORE the config change costs nothing and breaks nothing - the old build still works at both addresses. *** Pushing first guarantees a broken window of unknown length. *** Of the five archives that moved this week, the two whose owner happened to be at the keyboard came through clean and the two that did not were left serving dead navigation. *** Found and owned by the Defranceschi session, whose recipe set the order. ***",
   "when": "12 Oct 2026"
+ },
+ {
+  "what": "*** AND THE RULE CAUGHT ITS OWN AUTHOR, IN A MEASUREMENT ***",
+  "the source": "the counts of broken links on the two stranded archives, taken by the Defranceschi session and re-taken here",
+  "result": "*** 36 AND 113 WERE BOTH TRUE OF THE SAME PAGE ***",
+  "what one would assume": "The first count was reported as 'every internal link on the home page'.",
+  "what is actually true": "*** It had been piped through sort -u, so it was DISTINCT PATHS, not links *** - and its pattern, href=\"/[a-z-]*/\", silently dropped uppercase, digits, deeper paths and anchors. Narrow twice over. Re-measured: *** Lerena 113, D'Arcy 249, Falco 308 of 308 based and sound. *** The conclusion did not move, because zero based links is zero either way. *** But the failure is the list's own: a measurement that reports what the COMMAND ASKED FOR rather than what is THERE *** - committed by the session that had spent the evening describing that exact fault. *** AND IT IS NOT ONLY A DEPLOYMENT FAULT. *** This archive did the same thing twice the same day: *** 208 records for Artigas and 470 for the Cordon parish *** were both counts of what the query matched, not of what the place holds, and both had to be withdrawn. *** A count is a claim and has to mean what it says. ***",
+  "when": "12 Oct 2026"
  }
 ]
