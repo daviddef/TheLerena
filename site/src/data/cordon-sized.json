@@ -1,0 +1,34 @@
+[
+ {
+  "what": "*** THE PARISH IS COMPLETE, AND IT IS MACHINE-READ ***",
+  "the query": "full text, q.text=Lerena, q.anyPlace = Cordon, Montevideo",
+  "result": "*** 42 VOLUMES - baptisms 1828-1923, marriages 1842-1931, burials and deaths 1839-1926 ***",
+  "what was already known": "The errand said only 'search the Iglesia del Cordon'. It had never been established that the registers were filmed, let alone transcribed.",
+  "what it means": "*** Nuestra Senora del Carmen La Mayor is one of the most completely covered parishes this archive has touched *** - a near-unbroken run of a century, every volume in the full-text corpus. The Cordon is also where film 007713392 image 2511 sits, the cemetery act this archive already read to kill a false compound.",
+  "when": "12 Oct 2026"
+ },
+ {
+  "what": "*** AND IT HOLDS 470 LERENA DOCUMENTS ***",
+  "the query": "the same query, counted",
+  "result": "*** 470. NOT SEARCHED - SIZED. ***",
+  "what was already known": "The errand was raised expecting a volume or two to skim.",
+  "what it means": "*** THIS IS THE LARGEST UNWORKED SEAM IN THE ARCHIVE *** and it will not be done in an afternoon. *** Saying so is the point of this row: *** the errand stays OPEN with a real number against it instead of a vague instruction, because an errand that understates its own size is how a seam stays unopened for a month.",
+  "when": "12 Oct 2026"
+ },
+ {
+  "what": "*** THE ONE QUESTION ANSWERED TODAY ***",
+  "the query": "a 'Juan Carlos' appearing beside the name in the Cordon results",
+  "result": "*** IT IS THE JUAN CARLOS GONZALEZ LERENA ALREADY HELD, AND HE IS NOT OURS ***",
+  "what was already known": "A Juan Carlos anywhere near this surname has to be checked - it is the question the archive exists for.",
+  "what it means": "The snippet reads *** 'Blengio Gonzalez Lerena Juan Carlos con' *** - an index line, surname first. Run as a phrase it returns *** exactly one document, in Cordon Religious Marriage Records 1916-1926 *** - the man this register already carries as Juan Carlos GONZALEZ LERENA, married in the 1920s, a Gonzalez by his father and a Lerena by his mother. *** Our Juan Carlos fathered a child in 1882. Forty years and the wrong surname. ***",
+  "when": "12 Oct 2026"
+ },
+ {
+  "what": "*** WHAT WAS VISIBLE IN THE FIRST HUNDRED, AND NOT FOLLOWED ***",
+  "the query": "the snippets returned on the first page of 470",
+  "result": "*** Four leads, none opened, none tiered ***",
+  "what was already known": "Listed so the next session starts somewhere rather than at the top of 470.",
+  "what it means": "*** 'hija legitima de D. Avelino Lerena y de Dona Ambrosia' *** - a Cordon baptism of a daughter of the Avelino x Ambrosia Traibel couple, which is the branch this archive still cannot attach to Sancho. *** 'Padrinos D. Avelino Lerena (hijo)' *** - Avelino the younger as godfather. *** 'D. Manuel Antonio Lerena, araguayo [paraguayo], soltero' *** - a PARAGUAYAN Lerena, a nationality this archive has never met. And a *** CARVALLO LERENA *** household - Enrique and Dominga - at the Cordon in October.",
+  "when": "12 Oct 2026"
+ }
+]

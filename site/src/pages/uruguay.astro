@@ -47,6 +47,7 @@ import cons from "../data/trinidad-consanguinity-explained.json";
 import ans from "../data/dispensations-answered-1894-1913.json";
 import kindred from "../data/trinidad-founding-kindred.json";
 import bridge from "../data/colla-trinidad-bridge.json";
+import dCordon from "../data/cordon-sized.json";
 import fouracts from "../data/lerena-pelaez-four-acts.json";
 import zald from "../data/zalduondo-lerena-three-acts.json";
 import ftf from "../data/fulltext-finds-2026-10-11.json";
@@ -54,6 +55,47 @@ import ftf from "../data/fulltext-finds-2026-10-11.json";
 <Base title="Uruguay"
       eyebrow="Two Lerena families, two Spanish origins, and neither of them is his"
       dek="There are two documented Lerena families in nineteenth-century Uruguay, and on 17 September 2026 a baptism act of 1812 settled what they are to each other: nothing. One came from Córdoba in Andalusia, the other from Valdemoro outside Madrid. The surname entered the Banda Oriental twice, from opposite ends of Spain.">
+
+<section class="blk">
+  <h2 id="s-cordon">The Cord&oacute;n, measured before it is read</h2>
+  <p class="dek">A standing errand said only &ldquo;search the Iglesia del Cord&oacute;n&rdquo;. It
+    turns out to be the largest unworked seam in this archive, and this is the number nobody had.</p>
+  <div class="prose">
+    <p>Nuestra Se&ntilde;ora del Carmen La Mayor, in the Cord&oacute;n of Montevideo, is
+      <strong>filmed to an unusual degree and transcribed by machine throughout</strong> &mdash;
+      <strong>forty-two volumes</strong>, baptisms from 1828 to 1923, marriages from 1842 to 1931,
+      burials and deaths from 1839 to 1926. A near-unbroken century.</p>
+    <p><strong>It holds four hundred and seventy documents mentioning this surname.</strong> That
+      is not a seam to skim between other jobs, which is what the errand assumed, and it has not
+      been searched. <strong>It has been sized.</strong> An errand that understates its own scale
+      is how a thing stays undone for a month, so the number is published and the errand stays
+      open.</p>
+    <p><strong>One question was answered on the way.</strong> A <em>Juan Carlos</em> appears beside
+      the surname in the results, and any Juan Carlos near this name has to be checked. Run as a
+      phrase it returns a single document in the Cord&oacute;n marriage register of 1916&ndash;1926:
+      <strong>Juan Carlos Gonz&aacute;lez Lerena</strong>, a Gonz&aacute;lez by his father and a
+      Lerena by his mother, already in this register. <strong>Ours fathered a child in 1882.</strong>
+      Forty years out, and the wrong surname.</p>
+  </div>
+  <dl class="kv" style="margin-top:18px">
+    {dCordon.filter((r) => r["what"]).map((r) => (
+      <div><dt set:html={emph(r["what"])} /><dd>
+        <span class="cap" set:html={emph(r["the query"])} /><br />
+        <strong set:html={emph(r["result"])} /><br />
+        <span set:html={emph(r["what it means"])} />
+      </dd></div>
+    ))}
+  </dl>
+  <div class="prose" style="margin-top:18px">
+    <p class="cap"><strong>Where the next session should start.</strong> Not at the top of four
+      hundred and seventy. Four things were visible on the first page and none was followed: a
+      Cord&oacute;n baptism of a daughter of <strong>Avelino Lerena and Ambrosia Traibel</strong>
+      &mdash; the branch this archive still cannot attach to Sancho; <strong>Avelino the younger
+      standing godfather</strong>; a <strong>Manuel Antonio Lerena recorded <em>paraguayo</em></strong>,
+      a nationality this archive has never met; and a <strong>Carvallo Lerena</strong> household.
+      <a href={u("/errands/")}>The errands &rarr;</a></p>
+  </div>
+</section>
 
 <section class="blk">
   <h2 id="s-consanguinity">Why the Trinidad Lerenas needed dispensing</h2>
