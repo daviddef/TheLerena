@@ -48,6 +48,7 @@ import ans from "../data/dispensations-answered-1894-1913.json";
 import kindred from "../data/trinidad-founding-kindred.json";
 import bridge from "../data/colla-trinidad-bridge.json";
 import dCordon from "../data/cordon-sized.json";
+import dArtigas from "../data/artigas-opened.json";
 import fouracts from "../data/lerena-pelaez-four-acts.json";
 import zald from "../data/zalduondo-lerena-three-acts.json";
 import ftf from "../data/fulltext-finds-2026-10-11.json";
@@ -55,6 +56,47 @@ import ftf from "../data/fulltext-finds-2026-10-11.json";
 <Base title="Uruguay"
       eyebrow="Two Lerena families, two Spanish origins, and neither of them is his"
       dek="There are two documented Lerena families in nineteenth-century Uruguay, and on 17 September 2026 a baptism act of 1812 settled what they are to each other: nothing. One came from Córdoba in Andalusia, the other from Valdemoro outside Madrid. The surname entered the Banda Oriental twice, from opposite ends of Spain.">
+
+<section class="blk">
+  <h2 id="s-artigas">Artigas, the department nobody had opened</h2>
+  <p class="dek">Five hundred kilometres north of everything this archive has worked, on the
+    Brazilian border &mdash; and it holds a third as many records of this name as Flores does.</p>
+  <div class="prose">
+    <p>Artigas appears nowhere in this archive&rsquo;s searched list. Everything here assumes the
+      family runs Canelones &rarr; Montevideo &rarr; Trinidad. It arrived this morning by accident,
+      when a cross-spelling sweep turned up a birth act at <strong>San Eugenio</strong> and the
+      plate gave a Lerena household nobody had met.</p>
+    <p>Asked directly, the department returns <strong>208 Lerena records</strong> &mdash; against
+      <strong>699 for Flores</strong>, the heartland this archive was built on &mdash; plus 103
+      Serena, 99 Perena, 37 Lorena, 32 Llerena, 28 Larena, 21 Gerena. <strong>Not one had been
+      looked at.</strong></p>
+    <p><strong>It does not answer the central question, and that is worth saying plainly.</strong>
+      Juan Carlos exact, as subject and as father, inside Artigas: <strong>nothing</strong>. A
+      Lerena father against a Lerena mother inside Artigas: <strong>nothing</strong>. An unworked
+      department is exactly where a reader would otherwise assume we simply had not looked.</p>
+    <p><strong>What it does hold is Benito Lerena&rsquo;s household, and what it cost him.</strong>
+      Between 1893 and 1902 he registered <strong>five infant deaths</strong> at Artigas. Gumersindo,
+      born 1898, died on 8 March 1899 &mdash; <strong>ten weeks before Benito walked into the
+      Juzgado de Paz to register a grandson</strong>, the act this archive read at the plate today.
+      He could not sign his name on either occasion.</p>
+  </div>
+  <dl class="kv" style="margin-top:18px">
+    {dArtigas.filter((r) => r["what"]).map((r) => (
+      <div><dt set:html={emph(r["what"])} /><dd>
+        <span class="cap" set:html={emph(r["the query"])} /><br />
+        <strong set:html={emph(r["result"])} /><br />
+        <span set:html={emph(r["what it means"])} />
+      </dd></div>
+    ))}
+  </dl>
+  <div class="prose" style="margin-top:18px">
+    <p class="cap"><strong>Read this as a survey, not a reading.</strong> Every line above comes
+      from the record <em>index</em>. One Artigas act has been opened at the plate. <strong>Nothing
+      here is tiered, and no Artigas line is joined to this family&rsquo;s</strong> &mdash; the
+      honest position is that a department of this size, unopened until today, is a seam rather
+      than an answer. <a href={u("/name/#s-sweep")}>How it was found &rarr;</a></p>
+  </div>
+</section>
 
 <section class="blk">
   <h2 id="s-cordon">The Cord&oacute;n, measured before it is read</h2>

@@ -741,6 +741,17 @@
   "count": 4
  },
  {
+  "slug": "artigas-uruguay",
+  "name": "Artigas, Uruguay",
+  "people": [
+   "gumersindo-lerena",
+   "idersio-lerena-araujo",
+   "teodoro-alves-lerena",
+   "domingo-lerena"
+  ],
+  "count": 4
+ },
+ {
   "slug": "south-africa",
   "name": "South Africa",
   "people": [
@@ -1182,6 +1193,14 @@
   "name": "San Juan Bautista, Brazil",
   "people": [
    "honorio-alvarez"
+  ],
+  "count": 1
+ },
+ {
+  "slug": "san-francisco-de-asis-ciudad-vieja-montevideo",
+  "name": "San Francisco de Asis, Ciudad Vieja, Montevideo",
+  "people": [
+   "asuncion-lerena"
   ],
   "count": 1
  }
