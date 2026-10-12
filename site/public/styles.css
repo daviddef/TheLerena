@@ -46,9 +46,16 @@ img{max-width:100%}
 .lab{font-family:var(--sans);font-size:10.5px;font-weight:600;letter-spacing:.14em;
   text-transform:uppercase;color:var(--ink-3)}
 .mono{font-family:var(--mono);font-size:12.5px;font-variant-numeric:tabular-nums}
-.dek{font-family:var(--sans);font-size:15px;line-height:1.62;color:var(--ink-2);max-width:76ch}
-.cap{font-family:var(--sans);font-size:12.5px;line-height:1.55;color:var(--ink-3);margin-top:12px;max-width:92ch}
-.prose{max-width:80ch}
+.dek{font-family:var(--sans);font-size:15px;line-height:1.62;color:var(--ink-2);max-width:none}
+.cap{font-family:var(--sans);font-size:12.5px;line-height:1.55;color:var(--ink-3);margin-top:12px;max-width:none}
+/* WIDTH. Body text fills the column, 13 October 2026. These four - .dek, .cap, .prose and
+   .note - used to be capped at 76/92/80/82ch, which at this archive's type sizes is 730px or
+   less inside a 1,024px column, so paragraphs ran at about 71% of the width of the headings,
+   tables and panels around them: 179 paragraphs on /uruguay/ alone, measured at a 1600px
+   viewport. David asked for full width. THE TRADE-OFF IS REAL: a line is now up to ~110
+   characters, longer than the usual 75-80 recommendation. Restore a cap on .prose to bring
+   that back. Display type (.lead, the hero and opener headings) is deliberately left capped. */
+.prose{max-width:none}
 /* Spacing belongs between BLOCK children, not between everything. As a flex
    column this class made an inline <a> or <strong> inside a <p class="prose">
    its own flex item, so a sentence came apart one fragment to a line. The
@@ -142,7 +149,7 @@ td.m,th.m{font-family:var(--mono);font-size:12px;font-variant-numeric:tabular-nu
 :root[data-theme="dark"] .tag.place.it{--pc:#A99DC0}
 :root[data-theme="dark"] .tag.place.pe{--pc:#D29A7C}
 .note{border-left:2px solid var(--ochre);padding:2px 0 2px 18px;font-family:var(--sans);
-  font-size:14.5px;line-height:1.62;color:var(--ink-2);max-width:82ch}
+  font-size:14.5px;line-height:1.62;color:var(--ink-2);max-width:none}
 
 /* ---- chrome ---- */
 header.site{border-bottom:1px solid var(--rule-strong);background:var(--panel);

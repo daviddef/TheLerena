@@ -54,6 +54,14 @@ const groups = [
       eyebrow={`${rows.filter(r=>r.status==="replied").length} answered · ${rows.filter(r=>r.status==="sent").length} still out · ${rows.filter(r=>!["sent","replied","done"].includes(r.status)).length} need a person · ${shots.length} places to photograph`}
       dek="What this archive has asked of other archives, and the handful of jobs that need a human being in a particular building. Published so that the waiting is visible rather than invisible.">
 
+<section class="blk" style="margin-top:6px">
+  <div class="note"><strong>Five letters are drafted and waiting for you.</strong> Two of them
+    cannot go yet &mdash; one has no verified address, one needs a forum account &mdash; and three
+    are ready to send. <a href="#s-drafts"><strong>Jump to the letters &darr;</strong></a>
+    <span class="cap" style="display:block;margin-top:6px">They are at the very bottom of this
+      page, below every errand, which is why this pointer is here.</span></div>
+</section>
+
 {groups.map(([title, list]) => list.length > 0 && (
   <>
     <Rule name="arrows" label={title} />
@@ -114,7 +122,7 @@ const groups = [
         <div><dt>Written in</dt><dd>{d.lang}</dd></div>
         <div><dt>Why</dt><dd set:html={emph(d.why)} /></div>
       </dl>
-      <pre style="white-space:pre-wrap;font-size:.92em;line-height:1.5;margin:0;padding:14px;background:rgba(0,0,0,.03);border-radius:4px;overflow-wrap:break-word">{d.body}</pre>
+      <pre style="white-space:pre-wrap;font-family:inherit;font-size:16.5px;line-height:1.6;margin:0;padding:18px 22px;background:rgba(0,0,0,.03);border-radius:4px;overflow-wrap:break-word">{d.body}</pre>
     </div>
   ))}
   <p class="cap" style="margin-top:14px"><strong>Why three of them are chasers.</strong> The
