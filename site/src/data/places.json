@@ -730,6 +730,17 @@
   "count": 4
  },
  {
+  "slug": "san-eugenio-artigas-uruguay",
+  "name": "San Eugenio, Artigas, Uruguay",
+  "people": [
+   "benito-lerena",
+   "maria-cristina",
+   "anastasia-lerena",
+   "juan-ildebel-alvarez-y-lerena"
+  ],
+  "count": 4
+ },
+ {
   "slug": "south-africa",
   "name": "South Africa",
   "people": [
@@ -981,6 +992,24 @@
   "count": 2
  },
  {
+  "slug": "jesus-maria-san-jose-uruguay",
+  "name": "Jesus Maria, San Jose, Uruguay",
+  "people": [
+   "pedro-lerena",
+   "juana-camacho"
+  ],
+  "count": 2
+ },
+ {
+  "slug": "mal-abrigo-san-jose-uruguay",
+  "name": "Mal Abrigo, San Jose, Uruguay",
+  "people": [
+   "ramona-lerena",
+   "antonina-lerena-4"
+  ],
+  "count": 2
+ },
+ {
   "slug": "retiro-buenos-aires",
   "name": "Retiro, Buenos Aires",
   "people": [
@@ -1145,6 +1174,14 @@
   "name": "Union, Montevideo",
   "people": [
    "cora-maria-avelina-lerena-regules"
+  ],
+  "count": 1
+ },
+ {
+  "slug": "san-juan-bautista-brazil",
+  "name": "San Juan Bautista, Brazil",
+  "people": [
+   "honorio-alvarez"
   ],
   "count": 1
  }

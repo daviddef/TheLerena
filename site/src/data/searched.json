@@ -1690,5 +1690,64 @@
    "method"
   ],
   "note": "FOUR SPELLINGS SWEPT, AND EACH HELD PEOPLE THE OTHERS DID NOT. PERENA: 3 Flores records, giving AMABELIA (1880-1899), a fourth child for Cipriano Lerena and Lauriana Beloqui, and ANTONINO (b.1891) for Doroteo Lerena and Isidora Cardozo. GERENA: 7, giving CASTO LINDOLFO (b.1882), a fifth child for Cipriano; VENANCIO, married at Trinidad on 24 April 1885 and THE FIRST CHILD THIS ARCHIVE HAS FOUND OF EITHER MARRIAGE OF ALEJANDRO LERENA THE YOUNGER; and JUAN PEDRO (b.1909), a second child for Buenaventura Olivera and Luisa Lerena whose brother came from the SERENA sweep an hour earlier - ONE HOUSEHOLD, TWO SPELLINGS, TWO SWEEPS. LLERENA: 11, completing the household of FERMIN LERENA and PAULINA BARRAGAN with ISABEL (m. Juan Rodriguez 1902) and a younger FERMIN (m.1924), giving FAUSTINO a wife (VITERBA DE ARRASCAETA), a son (PEDRO, born and dead 1911) and a death (1 June 1914) - and giving BERNABE AND CASIMIRA TWO DAUGHTERS ELEVEN YEARS EARLIER THAN ANYTHING HELD HERE: MARGARITA MEDARDA, christened 1859, a year after their marriage expediente of 15 February 1858, and MARIA, born 13 May 1866. SERENA WITH A TILDE IS NOT A SEPARATE SEAM: 'Sereña' returns the identical 290 records as 'Serena', so FamilySearch normalises the ñ and no tilde variant needs its own sweep. EVERY SET WAS PAGED TO WHERE THE MATCHES STOP, which is the correction this archive made to itself an hour before. Fifteen people entered, all index-level."
+ },
+ {
+  "src": "FamilySearch record index - parent-pair query, 121 cells (13 spellings of the surname as father x as mother), both surnames exact, worldwide, no place or date filter",
+  "url": "https://www.familysearch.org/search/record/results?q.fatherSurname=Lerena&q.fatherSurname.exact=on&q.motherSurname=Lerena&q.motherSurname.exact=on",
+  "what": "Whether the central null on Juan Carlos and Maria Lerena is a fact about the family or about one spelling",
+  "when": "2026-10-12",
+  "outcome": "yield",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "familysearch",
+   "method"
+  ],
+  "note": "24 of 121 cells non-zero; 14 are cross-spelling cells never previously asked, holding 16 records, all of which were opened. Counts valid only with m.queryRequireDefault=on - without it the same query returns 3,405 where the UI shows 38, and a deliberately-failing control returns 17.4 million. Two controls run in-session: Lerena x Lerena = 39, Sancho Lerena x Maria Fernandez = 3."
+ },
+ {
+  "src": "FamilySearch record index - father given name 'Juan Carlos' exact against each of 13 documented spellings of the surname, worldwide",
+  "url": "https://www.familysearch.org/search/record/results?q.fatherGivenName=Juan%20Carlos&q.fatherGivenName.exact=on&q.fatherSurname=Lerena&q.fatherSurname.exact=on",
+  "what": "Juan Carlos Lerena as a father, under every spelling this archive can document",
+  "when": "2026-10-12",
+  "outcome": "nothing",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "familysearch"
+  ],
+  "note": "Lerena 2, Llerena 1, Perena 1, all other spellings 0. The two Lerena hits are a 1983 Montevideo infant death already ruled out and Pablo Armando's own 1908 enrolment card; the Llerena hit is Cartagena, Colombia 2006 and the Perena hit Caracas 2003. The null holds in all thirteen."
+ },
+ {
+  "src": "FamilySearch - Uruguay, Civil Registration 1879-2020: San Eugenio (Artigas) birth act 110 of 2 June 1899, read at the plate",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS2Z-DQC1-2",
+  "what": "A LERENA father indexed against a SERENA mother - whether the pair is real",
+  "when": "2026-10-12",
+  "outcome": "yield",
+  "pages": "1",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "artigas",
+   "uruguay",
+   "familysearch"
+  ],
+  "note": "No waypoint established - this record carries an image ark and a deepzoom apid (TH-909-72312-116990-27) and no wc=/owc= was exposed by the viewer; the volume label is 'Artigas. Birth Records 1899-1900' and the image group is M9ZL-BKM. The act gives a new Lerena household (Benito Lerena and Maria Cristina, daughter Anastasia Lerena m. Honorio Alvarez) and disproves the indexed pair: the 'Lerena father' is the declarant grandfather and the 'Serena mother' is written Lerena in the same hand."
+ },
+ {
+  "src": "FamilySearch - Uruguay, Civil Registration 1879-2020: Mal Abrigo (San Jose) birth act 98 of 14 September 1910, read at the plate",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJY-DSWM-M",
+  "what": "A GERENA father indexed against a SERENA mother at San Jose",
+  "when": "2026-10-12",
+  "outcome": "yield",
+  "pages": "1",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "san-jose",
+   "uruguay",
+   "familysearch"
+  ],
+  "note": "No waypoint established - image ark and apid TH-909-70122-59400-71 only; volume label 'San Jose. Birth Records 1909-1912', image group M9ZG-H6J. Act reads Pedro LERENA, 68, ITALIANO, labrador of Jesus Maria, and his daughter Ramona LERENA, 24, soltera, registering a natural daughter Antonina. The index dated it 1879 - thirty-one years out - and both this and the Artigas act were dated to the collection's opening year, so date-filtered searches of cc=1837849 measure the index, not the register."
  }
 ]

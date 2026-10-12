@@ -27,6 +27,7 @@ const dist = rows
 import dItalyLerenaLerina from "../data/italy-lerena-lerina.json";
 import Lines from "../components/Lines.astro";
 import dVariants from "../data/name-variants.json";
+import dSweep from "../data/variant-parent-sweep.json";
 import lanes from "../data/lerena-lines.json";
 import lanesUnplaced from "../data/lerena-lines-unplaced.json";
 ---
@@ -87,6 +88,45 @@ import lanesUnplaced from "../data/lerena-lines-unplaced.json";
     letters that have done it before. <a href={u("/method/")}>The method &rarr;</a></p>
 </div>
 
+<h2 id="s-sweep">What happened when all fourteen were used at once</h2>
+<p class="dek">The table above was published on 11 October. On 12 October it was turned on the
+  question this archive exists to answer, and the answer held.</p>
+<div class="prose">
+  <p>Every parent-pair search ever run here &mdash; the method that found Sancho&rsquo;s children,
+    and the one that produced the sentence <em>&ldquo;Juan Carlos Lerena exists in exactly one
+    record on earth&rdquo;</em> &mdash; set the surname to <strong>LERENA</strong> and nothing else.
+    Thirteen spellings were available. <strong>So the whole grid was run: each spelling as the
+    father&rsquo;s surname against each spelling as the mother&rsquo;s, 121 cells, both exact, no
+    place filter and no date filter.</strong></p>
+  <p><strong>One hundred and ten of those cells had never been asked.</strong> Twenty-four came
+    back with something in them. Ten are a spelling against itself &mdash; other families&rsquo;
+    pools, 1,346 Serenas and 299 Lorenas and 244 Llerenas. <strong>Fourteen are cells where the
+    father is written one way and the mother another, and those fourteen held sixteen records.
+    All sixteen were opened.</strong></p>
+  <p><strong>Twelve are elsewhere and elsewhen</strong> &mdash; Cartagena, Magangu&eacute;,
+    Houghton in Michigan, Freestone in Texas, Barcelona, Los Santos de Maimona, Torino, Cabugao in
+    the Philippines, Cear&aacute;, Cogollos in Granada, Cusco. <strong>Two are Uruguayan, and both
+    turned out to be real households of this name that nobody here had met.</strong></p>
+</div>
+<dl class="kv" style="margin-top:18px">
+  {dSweep.filter((r) => r["what"]).map((r) => (
+    <div><dt set:html={emph(r["what"])} /><dd>
+      <span class="cap" set:html={emph(r["the query"])} /><br />
+      <strong set:html={emph(r["result"])} /><br />
+      <span set:html={emph(r["what the index said"])} /><br />
+      <span set:html={emph(r["what the act says, or what it means"])} />
+    </dd></div>
+  ))}
+</dl>
+<div class="prose" style="margin-top:18px">
+  <p class="cap"><strong>And the point of it.</strong> The sweep was run to find out whether the
+    central null is a fact about the family or a fact about one spelling. <strong>It is a fact about
+    the family</strong> &mdash; no Juan Carlos and no Mar&iacute;a in any of the thirteen, in either
+    of the two indexes. That is worth more than the null it replaces, because it has now been asked
+    in every way this archive knows how to ask it.
+    <a href={u("/open-questions/")}>The open questions &rarr;</a></p>
+</div>
+
 <h2 id="s-how-rare">How rare</h2>
   <p>
     Forebears, accessed 8 September 2026: <strong>2,124 bearers worldwide</strong>, the
@@ -113,6 +153,7 @@ import lanesUnplaced from "../data/lerena-lines-unplaced.json";
     <ol class="cols2">
       <li><a href="#s-lines">Five lines of one name, drawn side by side</a></li>
       <li><a href="#s-variants">Every way the name has been written down</a></li>
+      <li><a href="#s-sweep">What happened when all fourteen were used at once</a></li>
       <li><a href="#s-how-rare">How rare</a></li>
       <li><a href="#s-where-they-are">Where they are</a></li>
       <li><a href="#s-spain-one-cluster-and-it-is-not-where-you-would-guess">Spain: one cluster, and it is not where you would guess</a></li>
