@@ -1858,7 +1858,7 @@
    "uruguay",
    "familysearch"
   ],
-  "note": "SIZED, NOT SEARCHED, and the distinction is the point. 42 volumes - baptisms 1828-1923, marriages 1842-1931, burials and deaths 1839-1926 - all in the full-text corpus, holding 470 documents mentioning LERENA. One targeted question answered: the Juan Carlos in the results is Juan Carlos GONZALEZ LERENA, a single document in the 1916-1926 marriage register, already held and forty years too late to be Pablo Armando's father. Four leads noted off the first page; none opened, none tiered."
+  "note": "SIZED, THEN RESIZED DOWNWARDS THE SAME DAY. The 470 figure is the NEIGHBOURHOOD: q.anyPlace=Cordon scopes the barrio, 95 of the first 100 hits are Nuestra Senora del Carmen La Mayor volumes, and pages 2 and 3 contain none - the rest are La Union, Pocitos, San Francisco de Asis, the Catedral and the Montevideo civil marriage registers. THE PARISH'S OWN SHARE IS ABOUT 95, across 43 volumes: baptisms 1828-1923, marriages 1842-1931, burials and deaths 1839-1926. Controlled: a fake sub-place, 'Nonesuch, Montevideo', returns 26 pages (the whole department) while Cordon returns 5, so the filter does resolve Cordon. FOUND: a bundled parish volume of Rite Registers / MARRIAGE DISPENSATION RECORDS / Religious Marriages 1895-1898 with 5 Lerena hits - a parish dispensation book previously unknown here; two opened, both civil marriage testimonios copied into the parish book, one signed 'C. Carvallo Lerena', 8 July 1896. Machine transcript only, nothing tiered. See corrections, 12 October."
  },
  {
   "src": "FamilySearch record index - the department of ARTIGAS, Uruguay, surveyed on eight spellings of the surname",

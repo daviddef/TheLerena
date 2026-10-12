@@ -30,5 +30,37 @@
   "what was already known": "Listed so the next session starts somewhere rather than at the top of 470.",
   "what it means": "*** 'hija legitima de D. Avelino Lerena y de Dona Ambrosia' *** - a Cordon baptism of a daughter of the Avelino x Ambrosia Traibel couple, which is the branch this archive still cannot attach to Sancho. *** 'Padrinos D. Avelino Lerena (hijo)' *** - Avelino the younger as godfather. *** 'D. Manuel Antonio Lerena, araguayo [paraguayo], soltero' *** - a PARAGUAYAN Lerena, a nationality this archive has never met. And a *** CARVALLO LERENA *** household - Enrique and Dominga - at the Cordon in October.",
   "when": "12 Oct 2026"
+ },
+ {
+  "what": "*** THE 470 WAS THE BARRIO, NOT THE PARISH - CORRECTED THE SAME DAY ***",
+  "the query": "the 470 hits paged to the end: 95 of the first 100 are Nuestra Senora del Carmen La Mayor volumes, and *** pages 2 and 3 contain NOT ONE ***",
+  "result": "*** THE PARISH'S OWN SHARE IS ABOUT 95, NOT 470 ***",
+  "what was already known": "This file said this morning that the Cordon parish holds 470 documents of this surname, called it the largest unworked seam in the archive, and warned that an errand understating its own size is how a seam stays unopened for a month.",
+  "what it means": "*** IT THEN OVERSTATED ITS OWN SIZE BY FIVE TIMES. *** q.anyPlace=Cordon scopes the *** NEIGHBOURHOOD ***, and most of the 470 are other Montevideo parishes and civil registers whose people simply lived there - La Union, Pocitos, San Francisco de Asis, the Catedral, the Montevideo marriage registers. *** The parish hits are ranked first and are essentially exhausted on page one. *** Controlled properly this time: a fake sub-place, 'Nonesuch, Montevideo', returns 26 pages - the whole department - while Cordon returns 5, so the filter DOES resolve Cordon; what it resolves it to is the barrio.",
+  "when": "12 Oct 2026"
+ },
+ {
+  "what": "*** AND THAT IS GOOD NEWS, WHICH IS THE ODD PART ***",
+  "the query": "the same count, read for what it means for the work",
+  "result": "*** 95 DOCUMENTS ACROSS 43 VOLUMES IS AN AFTERNOON, NOT A CAMPAIGN ***",
+  "what was already known": "The errand was rewritten this morning to say the Cordon 'will not be done in an afternoon' and left open with 470 against it.",
+  "what it means": "*** It can be done in an afternoon, and the errand now says so. *** The volumes with the most hits are *** Religious Marriage Records 1916-1926 (6) ***, *** the bundled Rite Registers / Marriage Dispensation / Religious Marriage Records 1895-1898 (5) ***, and four each in the baptism registers of *** 1869-1872, 1904-1908 and 1908-1910. *** The parish runs baptisms 1828-1923, marriages 1842-1931, burials and deaths 1839-1926, and this archive's surname appears across the whole span.",
+  "when": "12 Oct 2026"
+ },
+ {
+  "what": "*** A SECOND DISPENSATION BOOK, AT PARISH LEVEL ***",
+  "the query": "Nuestra Senora del Carmen La Mayor, bundled volume: *** Religious Rite Registers 1895-1898, MARRIAGE DISPENSATION RECORDS 1895-1898, Religious Marriage Records 1895-1898 *** - five Lerena hits",
+  "result": "*** THE ARQUIDIOCESIS REGISTER IS NOT THE ONLY ONE ***",
+  "what was already known": "This morning's sweep concluded there is no tenth Lerena dispensation, on the Arquidiocesis de Montevideo register of 1856-1932, searched on eight compound forms to the end of every result set.",
+  "what it means": "*** That conclusion is about that book and it stands - but a PARISH kept dispensation records of its own, and this one has five hits. *** Two were opened at the transcript. *** Both turn out to be CIVIL MARRIAGE TESTIMONIOS copied into the parish book rather than dispensations *** - the volume bundles three record types under one title. So it is not yet a tenth dispensation; it is a book nobody here knew existed, and three of its five hits are unread.",
+  "when": "12 Oct 2026"
+ },
+ {
+  "what": "*** AND THE CARVALLO LERENA LEAD IS PARTLY WORKED ***",
+  "the query": "the same volume, ark 3:1:3Q9M-C9B7-5SFD-J, machine transcript read",
+  "result": "*** A CARVALLO LERENA SIGNING AT THE CORDON IN 1896 ***",
+  "what was already known": "Carvallo Lerena was one of four leads written off the Cordon's first page this morning and left untouched.",
+  "what it means": "A civil-marriage testimonio of *** 8 July 1896 ***, expediente 60, filed into the parish book: the parties at *** Calle Chana 61 ***, a Dona Juana Rodriguez among them, and the signature read *** 'C. Carvallo Lerena'. *** A second hit, ark 5SX5-3, gives a *** Don Arturo Rivas Lerena, born 13 August 1872 in this city, son of Maximo Rivas (deceased) and Armela Luna *** - but his parents carry no Lerena between them, so the compound may be the machine's. *** The transcript writes Montevideo as 'Monterdes', so nothing here is tiered and both need the plate. ***",
+  "when": "12 Oct 2026"
  }
 ]
