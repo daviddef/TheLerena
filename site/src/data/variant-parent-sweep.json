@@ -70,5 +70,13 @@
   "what the index said": "The sweep was run to test whether the central null is a fact about the family or a fact about one spelling.",
   "what the act says, or what it means": "*** IT IS A FACT ABOUT THE FAMILY. *** Not one of the sixteen cross-spelling records names a Juan Carlos or carries a couple that could be his parents, and the thirteen-spelling re-run of the Juan Carlos query returns only the card itself. *** The null is now controlled in two directions - two indexes, thirteen spellings - and it still holds. *** What the sweep found instead were two Uruguayan households nobody here had met, which is the ordinary return on this kind of work.",
   "when": "12 Oct 2026"
+ },
+ {
+  "what": "*** THE WARNING ABOVE, AUDITED AND CLOSED ***",
+  "the query": "every register row carrying an 1879 date, checked against its source and its precision",
+  "result": "*** SEVEN ROWS. ONE COMES FROM THE SUSPECT COLLECTION, AND IT IS SAFE. ***",
+  "what the index said": "The row above warned that Uruguay Civil Registration 1879-2020 appears to date unread acts to its OPENING YEAR, so any 1879 date from its machine index could be an artefact. That warning was written without checking what this register actually holds.",
+  "what the act says, or what it means": "*** TWO THINGS CONTAIN IT. *** First, *** Uruguayan civil registration does not begin until 1879 ***, so nothing earlier can be touched. Second, *** the artefact produces MONTH-LEVEL dates *** - 'mayo de 1879', 'septiembre de 1879' - and a day-level date is a real reading. Of the seven 1879 rows, five come from other sources entirely (CEMLA, the GRO, parish and marriage registers), two are bare years from CEMLA passenger lists, and *** exactly one - Maria Adelina LERENA LARRIERA, 6 July 1879 - comes from this collection. It is DAY-LEVEL, and her christening of 13 October 1879 corroborates the year from an independent register. *** *** No held date needed changing. The warning stands for future reads; it cost this archive nothing in the past. ***",
+  "when": "12 Oct 2026"
  }
 ]

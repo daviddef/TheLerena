@@ -34,13 +34,32 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 PEOPLE = ROOT / "site" / "src" / "data" / "people.json"
 DECLARED = ROOT / "data" / "_person-pairs.txt"
 
-VARIANTS = ("llerena", "serena", "gerena", "lorena", "larena", "lerina")
+# *** THIS LIST USED TO BE SIX SPELLINGS, HARD-CODED, while /name/ published fourteen. ***
+# Found 12 October 2026 while building tools/check-nulls.py: the page and the gate had drifted
+# apart, which is the same "two rows that never meet" failure check-nulls exists to catch - so
+# both now read the one list the archive publishes.
+def _variants():
+    f = pathlib.Path(__file__).resolve().parent.parent / "data" / "name-variants.tsv"
+    out = set()
+    if f.exists():
+        for line in f.read_text(encoding="utf-8").splitlines():
+            if line.startswith("#") or not line.strip():
+                continue
+            for part in re.split(r"[/,]", line.split("\t")[0].strip()):
+                part = norm(part).strip()
+                # HERENCIA is a word, not a name; LERENA is the canonical target itself.
+                if part and part not in ("lerena", "herencia") and " " not in part:
+                    out.add(part)
+    return tuple(sorted(out)) or ("llerena", "serena", "gerena", "lorena", "larena", "lerina")
 
 
 def norm(s):
     s = unicodedata.normalize("NFD", str(s or ""))
     s = "".join(c for c in s if unicodedata.category(c) != "Mn").lower()
     return re.sub(r"[^a-z ]+", " ", s)
+
+
+VARIANTS = _variants()
 
 
 def key(name):

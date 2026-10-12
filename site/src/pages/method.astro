@@ -588,6 +588,47 @@ import certs from "../data/1852-aguada-union-certificates.json";
 </section>
 
 <section class="blk">
+  <h2 id="s-agreeing-with-itself">The gate that asks whether the archive agrees with itself</h2>
+  <p class="dek">Built 12 October 2026, after this archive made the same serious mistake twice in
+    one day and no gate could see either.</p>
+  <div class="prose">
+    <p>On 10 October this archive published that <strong>Leandro Lorena and his wife Llanos appear
+      in one record in the index, in any country</strong>, and offered it as the model of a
+      properly controlled null. Four of that household were already in the register, entered from
+      the 1895 Buenos Aires census, <strong>under the spelling LERENA rather than LORENA</strong>.
+      The same day it published a search mechanism as new that another data file had carried for a
+      month.</p>
+    <p><strong>Neither was a retraction, so every gate stayed green.</strong>
+      <a href={u("/corrections/")}>Corrections</a> records what was taken back; the superseded gate
+      checks the site stopped saying it; drift asks whether a page has fallen behind its data.
+      <strong>Nothing asked whether two live claims in two files contradicted each other.</strong></p>
+    <p>So <code>check-nulls.py</code> now reads every data row asserting a blanket null &mdash;
+      <em>true null</em>, <em>only record</em>, <em>in any country</em>, <em>on earth</em> &mdash;
+      pulls the names out, <strong>folds the surname through the fourteen spellings
+      <a href={u("/name/#s-variants")}>/name/</a> publishes</strong>, and compares the claim
+      against that person&rsquo;s register row.</p>
+    <p><strong>It compares sources, not presence, and the first version got that wrong.</strong>
+      Failing on any name the register held reported ninety-one, which is nonsense: half this
+      register is people known from a single document, and <em>&ldquo;the card is the only record
+      of this household&rdquo;</em> does not conflict with the household having a row.
+      <strong>Being in the register is not the same as having records.</strong> The gate now asks
+      whether the register cites <em>the very record the claim concedes</em>. If it cites something
+      else entirely, the archive is holding two answers.</p>
+    <p><strong>And it was tested against the thing it was built for.</strong> Run on the tree as it
+      stood before the error was found, it reports:
+      <em>cajon-985-last-two.tsv says &lsquo;LEANDRO LORENA&rsquo; has no record, but
+      &lsquo;Leandro LERENA&rsquo; is in the register from a source the claim never mentions:
+      1895 census, Secci&oacute;n 18.</em> <strong>A gate that cannot be shown catching its own
+      case is a gate guarding nobody.</strong></p>
+    <p><strong>It found one more thing on the way.</strong> The duplicates gate had its own
+      hard-coded list of <strong>six</strong> spellings while /name/ published fourteen &mdash; the
+      same two-rows-that-never-meet failure, inside the toolchain. Both now read the one published
+      list, and folding PERENA onto LERENA surfaced <strong>eleven same-name pairs the gate had
+      been under-reading for weeks</strong>. All eleven were compared and kept apart by hand.</p>
+  </div>
+</section>
+
+<section class="blk">
   <h2 id="s-adjacency">A phrase search is an adjacency, and a surname can break it</h2>
   <p class="dek">Finished 12 October 2026 &mdash; and the first thing it finished was a mistake
     made the day before.</p>
