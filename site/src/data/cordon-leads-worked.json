@@ -1,0 +1,34 @@
+[
+ {
+  "what": "*** THE PRIZE LEAD WAS ALREADY ANSWERED ***",
+  "the source": "the Cordon's first-page lead: a baptism of a daughter of Avelino Lerena and Ambrosia Traibel",
+  "result": "*** AVELINO IS ATTACHED TO SANCHO, AND HAS BEEN FOR WEEKS ***",
+  "what was already published": "data/compound-surname-sweep.tsv has said since 14 September that *** no record names Avelino's own parents, so he is still not shown to be Sancho's son and the Traibel branch stays unattached. ***",
+  "what it means": "*** HIS REGISTER ROW CITES TWO BAPTISMS OF HIS CHILDREN AT SAN FRANCISCO DE ASIS, 12 MARCH 1858, NAMING HIS PARENTS. *** He is Avelino LERENA Fernandez, son of Sancho, born about 1815, died at Montevideo *** 23 August 1890. *** The note was stale for a month. *** It is scoped - 'no record names his PARENTS' - so the new check-nulls gate does not catch it, and that is worth knowing about the gate as much as about the note. *** Corrected in place rather than deleted.",
+  "when": "12 Oct 2026"
+ },
+ {
+  "what": "*** AND THE SECOND WIFE IS NOT A SECOND WIFE ***",
+  "the source": "Cordon christenings naming Avelino Lerena with CELEDONIA VILLADEMOROS, 1866-1870",
+  "result": "*** ALREADY HELD - THEY BELONG TO HIS SON ***",
+  "what was already published": "Avelino x Ambrosia Traibel have children from 1841 to 1863. A second household with children 1866-1870 looks like a remarriage.",
+  "what it means": "*** It is AVELINO EDUARDO LERENA Traibel, the son, married to Celedonia VILLADEMOROS - both already in this register, with four children and a note on the spellings of her surname. *** Checked before it was written up. *** Three times in one day a thing that looked new was already here, which is the strongest argument this archive has for reading itself first. ***",
+  "when": "12 Oct 2026"
+ },
+ {
+  "what": "*** ONE RECORD THE REGISTER CANNOT ACCOUNT FOR ***",
+  "the source": "Find a Grave Index, ark 1:1:QVKR-45SK",
+  "result": "*** AVELINO LERENA, BURIED 2 JUNE 1860, CEMENTERIO CENTRAL DE MONTEVIDEO ***",
+  "what was already published": "The Avelino this archive holds died 23 August 1890, and his son Avelino Eduardo was fathering children in 1866.",
+  "what it means": "*** So a third Avelino Lerena was buried at the Cementerio Central in 1860, and no person in this register answers to it. *** Most likely an infant son named for his father, which this family does constantly - but that is a guess and it is filed as one. *** FIND A GRAVE IS A DERIVATIVE INDEX, NOT AN ACT ***, and the entry carries a photograph which this archive will cite and not republish. The burial register itself has not been opened.",
+  "when": "12 Oct 2026"
+ },
+ {
+  "what": "*** AND THE CORDON ITSELF IS STILL UNREAD ***",
+  "the source": "470 documents across 42 volumes",
+  "result": "*** FOUR LEADS WORKED, ONE OF 470 PAGES TURNED ***",
+  "what was already published": "The parish was sized this morning and the errand left open with the number against it.",
+  "what it means": "*** Of the four leads named then: the Avelino one is answered and was already answered; the Villademoros one was already held; the PARAGUAYAN Manuel Antonio Lerena and the CARVALLO LERENA household are UNTOUCHED. *** The errand stays open. *** What this session actually bought at the Cordon was three corrections and one unexplained burial, which is a fair afternoon and is not a reading of the parish. ***",
+  "when": "12 Oct 2026"
+ }
+]

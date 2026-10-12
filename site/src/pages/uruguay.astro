@@ -48,6 +48,7 @@ import ans from "../data/dispensations-answered-1894-1913.json";
 import kindred from "../data/trinidad-founding-kindred.json";
 import bridge from "../data/colla-trinidad-bridge.json";
 import dCordon from "../data/cordon-sized.json";
+import dCordonLeads from "../data/cordon-leads-worked.json";
 import dArtigas from "../data/artigas-opened.json";
 import fouracts from "../data/lerena-pelaez-four-acts.json";
 import zald from "../data/zalduondo-lerena-three-acts.json";
@@ -140,12 +141,39 @@ import ftf from "../data/fulltext-finds-2026-10-11.json";
     ))}
   </dl>
   <div class="prose" style="margin-top:18px">
+    <p><strong>Four of those leads were then worked, and three turned into corrections of this
+      archive rather than findings about the family.</strong> The prize &mdash; a Cord&oacute;n
+      baptism that might name <strong>Avelino Lerena&rsquo;s own parents</strong> and attach the
+      Traibel branch &mdash; was already answered: two baptisms of his children at San Francisco
+      de As&iacute;s on 12 March 1858 name them, and his register row has carried them for weeks.
+      <strong>The note saying otherwise had been stale for a month.</strong> A second household
+      that looked like a remarriage belongs to his son. <strong>Three times in one day a thing
+      that looked new was already here</strong>, which is the strongest argument this archive has
+      for reading itself before it writes.</p>
+    <p><strong>One record is genuinely unaccounted for:</strong> an <em>Avelino Lerena</em> buried
+      at the <strong>Cementerio Central de Montevideo on 2 June 1860</strong>. The Avelino held
+      here died in 1890 and his son was fathering children in 1866, so a third man of the name was
+      buried in 1860 and nobody in this register answers to it. Most likely an infant named for his
+      father &mdash; filed as a guess. The entry is a Find a Grave index, not an act.</p>
+  </div>
+  <dl class="kv" style="margin-top:18px">
+    {dCordonLeads.filter((r) => r["what"]).map((r) => (
+      <div><dt set:html={emph(r["what"])} /><dd>
+        <span class="cap" set:html={emph(r["the source"])} /><br />
+        <strong set:html={emph(r["result"])} /><br />
+        <span set:html={emph(r["what it means"])} />
+      </dd></div>
+    ))}
+  </dl>
+  <div class="prose" style="margin-top:18px">
     <p class="cap"><strong>Where the next session should start.</strong> Not at the top of four
       hundred and seventy. Four things were visible on the first page and none was followed: a
       Cord&oacute;n baptism of a daughter of <strong>Avelino Lerena and Ambrosia Traibel</strong>
       &mdash; the branch this archive still cannot attach to Sancho; <strong>Avelino the younger
       standing godfather</strong>; a <strong>Manuel Antonio Lerena recorded <em>paraguayo</em></strong>,
-      a nationality this archive has never met; and a <strong>Carvallo Lerena</strong> household.
+      a nationality this archive has never met; and a <strong>Carvallo Lerena</strong> household
+      &mdash; <strong>those last two are still untouched</strong>, and 469 of the 470 pages are
+      still unturned.
       <a href={u("/errands/")}>The errands &rarr;</a></p>
   </div>
 </section>
