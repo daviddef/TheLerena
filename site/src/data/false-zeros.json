@@ -236,5 +236,12 @@
   "what it actually was": "*** A GEOCODING ERROR IN THE INDEX, NOT A READING OF THE CARD. *** The card is printed `Nacido en` and filled in by hand *** \"Rosario de Santa Fe\" *** - unambiguous, and transcribed in data/enrolment-card-1908.tsv on 10 September. The indexer resolved the bare word \"Rosario\" to the wrong one of Argentina's two.",
   "how it was caught": "Found 12 October while reading the API rows behind a variant sweep - the record came back under a query with no place filter at all, and the place it carried was wrong. *** Any place-filtered null at Rosario de Santa Fe is now suspect for this reason alone. ***",
   "when": "12 Oct 2026"
+ },
+ {
+  "disguise": "*** THE NULL THAT WAS TRUE OF THE QUERY SHAPE ***",
+  "what it looked like": "A signed-in, properly controlled spouse-pair search returning *** exactly one record for a couple *** - the constraint binding, eleven rows of the rare surname coming back across five countries, and only one of them theirs.",
+  "what it actually was": "*** A QUERY THAT CANNOT REACH THE RECORD TYPE THE ANSWER IS IN. *** q.surname + q.spouseSurname constrains on a MARRIAGE RELATIONSHIP. A census has none - it is a list of people in a dwelling, each indexed separately - so no census can ever satisfy a spouse-pair query, however well it binds. The couple were on the 1895 Buenos Aires census the whole time.",
+  "how it was caught": "*** By opening the census sheet for an unrelated reason two days later. *** Every earlier disguise in this file is a search that FAILED and looked like an answer; this one is a search that WORKED and still produced a false null. *** The control proves the query is running. It cannot prove the query can see the record. ***",
+  "when": "12 Oct 2026"
  }
 ]

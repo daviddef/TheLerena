@@ -4709,5 +4709,19 @@
   "last_attested_alive": "1884",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Lucia LLANOS (LERENA by marriage)",
+  "born_est": "1863c",
+  "last_attested_alive": "1863c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Salvador LORENA (b.1896)",
+  "born_est": "1896",
+  "last_attested_alive": "1896",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]

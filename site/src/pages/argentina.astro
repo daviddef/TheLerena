@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import dLeandro from "../data/leandro-llanos-identified.json";
 import { u } from "../lib/url.js";
 import { emph } from "../lib/text.js";
 import routes from "../data/three-routes-walked.json";
@@ -99,6 +100,7 @@ const hasArt = fs.existsSync(
       <li><a href="#s-the-consul-how-it-gets-proved">The consul: how it gets proved</a></li>
       <li><a href="#s-what-this-page-needs-next">What this page needs next</a></li>
       <li><a href="#s-the-1895-census-a-lerena-household-and-it-is-not-his">The 1895 census: a Lerena household, and it is not his</a></li>
+      <li><a href="#s-leandro-llanos">And nine lines of that census break a null this archive published</a></li>
       <li><a href="#s-mendoza-carlos">One of the four untraced fathers is Uruguayan</a></li>
       <li><a href="#s-arturo-chile">Arturo Lerena Garc&iacute;a, and a country this archive had never opened</a></li>
       <li><a href="#s-cajon-last-two">The last two of Caj&oacute;n 985 &mdash; and a card read three ways wrong</a></li>
@@ -367,6 +369,54 @@ const hasArt = fs.existsSync(
     Rosario.</strong> The census Lerenas are Uruguayan in Buenos Aires, Spanish-born in another quarter of
     it, and scattered singles in Tucumán and Entre Ríos.
   </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-leandro-llanos">And nine lines of that census break a null this archive published</h2>
+  <p class="dek">12 October 2026. The search was sound, the control bound, the conclusion was wrong
+    &mdash; and the record that disproves it was already in this register.</p>
+  <div class="prose">
+    <p>On 10 October this archive published a model of a controlled null. <strong>Leandro Lorena and
+      his wife Llanos</strong>, named as the parents on the army card of their son Salvador in
+      Caj&oacute;n 985, were searched signed-in with the spouse-pair form. The constraint bound. It
+      returned eleven LLANOS rows across five countries and matched this couple <strong>exactly
+      once &mdash; on the card itself</strong>. Open question 1 still says it:
+      <em>&ldquo;the army card is their only record in the index, in any country.&rdquo;</em></p>
+    <p><strong>They are on lines 7 to 11 of the sheet above.</strong> <em>LERENA Leandro</em>,
+      var&oacute;n, 38, casado, espa&ntilde;ol, born at <strong>Segovia</strong>; <em>LLANOS
+      Luc&iacute;a</em>, 32; <em>LERENA Emilia</em>, 9, born in Spain; <em>LERENA Francisco</em>, 5,
+      born at <strong>La Plata</strong>; and <em>Paulina</em>, <strong>eight months old</strong>,
+      porte&ntilde;a. He is literate and his trade is written <em>F.<sup>te</sup> de Aceite</em>
+      &mdash; an oil maker.</p>
+    <p><strong>Why the null held is the useful part.</strong> A spouse-pair query is the right tool
+      for a parish or civil register, where a marriage is a recorded relationship between two
+      people. <strong>A census records no such relationship at all</strong> &mdash; it is a list of
+      people in a dwelling, each indexed on their own, with no spouse edge to constrain. The query
+      was structurally blind to the record, and the card spells him <em>Lorena</em> where the census
+      spells him <em>Lerena</em>. <strong>The null was true of the query shape and false of the
+      index.</strong></p>
+    <p><strong>And the archive already held the answer.</strong> Leandro, Emilia, Francisco and
+      Paulina were all four in this register before the null was written, marked
+      <em>&ldquo;Leandro&rsquo;s household&rdquo;</em> and described as <strong>a separate,
+      Spanish-born family</strong>. The one name that would have joined them to the card was the
+      wife&rsquo;s, and <strong>Luc&iacute;a Llanos had never been entered.</strong> An archive does
+      not need a new record to make this mistake. It needs two rows that never meet.</p>
+    <p><strong>Salvador fits the gap exactly.</strong> He was born in 1896 &mdash; the year after
+      this census, in a household complete to an eight-month-old. <strong>This is not proved by a
+      single act</strong>: it rests on a distinctive surname pair, one city, a documented
+      Lerena/Lorena spelling pair and a birth year with nowhere else to go. His 1896 birth
+      registration would settle it.</p>
+  </div>
+  <dl class="kv" style="margin-top:18px">
+    {dLeandro.filter((r) => r["what"]).map((r) => (
+      <div><dt set:html={emph(r["what"])} /><dd>
+        <span class="cap" set:html={emph(r["the source"])} /><br />
+        <strong set:html={emph(r["result"])} /><br />
+        <span set:html={emph(r["what was already published"])} /><br />
+        <span set:html={emph(r["what the plate says"])} />
+      </dd></div>
+    ))}
+  </dl>
 </section>
 
 <section class="blk">

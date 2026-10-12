@@ -1238,5 +1238,13 @@
   "what_is_true": "*** THE ARCHIVE HAD WRITTEN IT DOWN ON 14 SEPTEMBER, IN data/compound-surname-sweep.tsv, IN ALMOST THE SAME WORDS *** - 'its formula was LERENA FELIGRESA and the compound surname sits between the two words.' That file had already run the compound forms, already found the ninth dispensation (Jose Pedro Massera's petition of 19 June 1913 to marry Dona Ema Sixta LERENA JUANICO), and already drew the working rule from it. *** Nothing published yesterday about the mechanism was new, and the errand it was written against was STALE - the work had been done and the errand never closed. ***",
   "how_it_was_caught": "*** By doing the work properly today and walking into the archive's own record of it. *** Opening the 1913 dispensation plate to check whether it was new led to a grep for Massera, which returned the September file. *** The published claim was caught by the only thing that catches this class of error - finishing the job rather than describing it. ***",
   "retired": "the novelty claim on /method/ #s-adjacency and in data/dispensations-compound-sweep.tsv, rewritten 12 October 2026"
+ },
+ {
+  "date": "2026-10-12",
+  "severity": "serious",
+  "what_was_said": "*** That LEANDRO LORENA and his wife LLANOS are a true null - 'the army card is their only record in the index, in any country.' *** Published 10 October on open question 1, in data/cajon-985-last-two.tsv and data/cajon-985-origins.tsv, and offered as this archive's model of what a properly controlled null looks like.",
+  "what_is_true": "*** THEY ARE ON THE 1895 BUENOS AIRES CENSUS, lines 7 to 11 of Seccion 18 Subdivision 34, read at the plate on 12 October: *** LERENA Leandro, 38, espanol, born SEGOVIA, literate, F.te de Aceite; LLANOS Lucia, 32; Emilia 9 (Spain); Francisco 5 (La Plata); Paulina 8 meses (portena). *** The search itself was sound - signed in, constraint binding, eleven Llanos rows returned. A SPOUSE-PAIR QUERY IS STRUCTURALLY BLIND TO A CENSUS, which records no marriage relationship to constrain on; and the card spells him LORENA where the census spells him LERENA. ***",
+  "how_it_was_caught": "*** By opening the census sheet, which FOUR of the five people were already in this register from. *** The register called them 'a separate, Spanish-born family' while open question 1 called the same man a true null, and neither row looked at the other. *** The missing link was the wife: LUCIA LLANOS had never been entered, and she is the only name the two records share. ***",
+  "retired": "the true-null claim on /open-questions/ question 1, rewritten 12 October 2026"
  }
 ]
