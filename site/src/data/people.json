@@ -1128,15 +1128,52 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
-  "children": [],
+  "spouses": [
+   {
+    "name": "Lucia LLANOS (LERENA by marriage)",
+    "dates": "",
+    "slug": "lucia-llanos",
+    "via": "register",
+    "note": "San Cristobal baptism of 20 Dec 1896, cert 288, plate read 12 Oct 2026. Salvador is named as hijo legitimo of both."
+   }
+  ],
+  "children": [
+   {
+    "name": "Emilia LERENA",
+    "dates": "",
+    "slug": "emilia-lerena",
+    "via": "register",
+    "note": "1895 Buenos Aires census, Seccion 18 - a census lists a household and does NOT state kinship, so this edge is read from household composition and ages; the baptism of Salvador states it for him alone. "
+   },
+   {
+    "name": "Francisco LERENA (b.1890, 1895 census)",
+    "dates": "",
+    "slug": "francisco-lerena",
+    "via": "register",
+    "note": "1895 Buenos Aires census, Seccion 18 - a census lists a household and does NOT state kinship, so this edge is read from household composition and ages; the baptism of Salvador states it for him alone. "
+   },
+   {
+    "name": "Paulina LERENA",
+    "dates": "",
+    "slug": "paulina-lerena",
+    "via": "register",
+    "note": "1895 Buenos Aires census, Seccion 18 - a census lists a household and does NOT state kinship, so this edge is read from household composition and ages; the baptism of Salvador states it for him alone. "
+   },
+   {
+    "name": "Salvador LERENA (b.1896)",
+    "dates": "",
+    "slug": "salvador-lerena",
+    "via": "register",
+    "note": "San Cristobal baptism of 20 Dec 1896, cert 288, plate read 12 Oct 2026. "
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 5,
+  "relRegister": 5,
   "relTree": 0,
   "evidence": []
  },
@@ -1160,17 +1197,48 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Leandro LERENA",
+   "dates": "",
+   "slug": "leandro-lerena",
+   "via": "register",
+   "note": "1895 Buenos Aires census, Seccion 18 - a census lists a household and does NOT state kinship, so this edge is read from household composition and ages; the baptism of Salvador states it for him alone. "
+  },
+  "mother": {
+   "name": "Lucia LLANOS (LERENA by marriage)",
+   "dates": "",
+   "slug": "lucia-llanos",
+   "via": "register",
+   "note": "1895 Buenos Aires census, Seccion 18 - a census lists a household and does NOT state kinship, so this edge is read from household composition and ages; the baptism of Salvador states it for him alone. "
+  },
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Francisco LERENA (b.1890, 1895 census)",
+    "dates": "",
+    "slug": "francisco-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Paulina LERENA",
+    "dates": "",
+    "slug": "paulina-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Salvador LERENA (b.1896)",
+    "dates": "",
+    "slug": "salvador-lerena",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -1194,17 +1262,48 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Leandro LERENA",
+   "dates": "",
+   "slug": "leandro-lerena",
+   "via": "register",
+   "note": "1895 Buenos Aires census, Seccion 18 - a census lists a household and does NOT state kinship, so this edge is read from household composition and ages; the baptism of Salvador states it for him alone. "
+  },
+  "mother": {
+   "name": "Lucia LLANOS (LERENA by marriage)",
+   "dates": "",
+   "slug": "lucia-llanos",
+   "via": "register",
+   "note": "1895 Buenos Aires census, Seccion 18 - a census lists a household and does NOT state kinship, so this edge is read from household composition and ages; the baptism of Salvador states it for him alone. "
+  },
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Emilia LERENA",
+    "dates": "",
+    "slug": "emilia-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Paulina LERENA",
+    "dates": "",
+    "slug": "paulina-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Salvador LERENA (b.1896)",
+    "dates": "",
+    "slug": "salvador-lerena",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -1228,17 +1327,48 @@
   "sourceUrl": "",
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Leandro LERENA",
+   "dates": "",
+   "slug": "leandro-lerena",
+   "via": "register",
+   "note": "1895 Buenos Aires census, Seccion 18 - a census lists a household and does NOT state kinship, so this edge is read from household composition and ages; the baptism of Salvador states it for him alone. "
+  },
+  "mother": {
+   "name": "Lucia LLANOS (LERENA by marriage)",
+   "dates": "",
+   "slug": "lucia-llanos",
+   "via": "register",
+   "note": "1895 Buenos Aires census, Seccion 18 - a census lists a household and does NOT state kinship, so this edge is read from household composition and ages; the baptism of Salvador states it for him alone. "
+  },
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Emilia LERENA",
+    "dates": "",
+    "slug": "emilia-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Francisco LERENA (b.1890, 1895 census)",
+    "dates": "",
+    "slug": "francisco-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Salvador LERENA (b.1896)",
+    "dates": "",
+    "slug": "salvador-lerena",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -10753,7 +10883,7 @@
     "dates": "",
     "slug": "emilia-lerena-vega-2",
     "via": "register",
-    "note": "Same household. Uruguay census c.1833, household 229, Montevideo; ark 3:1:3QS7-99ZP-BBKX"
+    "note": "Same household, padron of 1850 (libro 264) - NOT c.1833, withdrawn 12 October 2026. The head's identification as Pedro Antonio son of Sancho is unresolved; the couple's names (Pedro A. Lerena, Vicenta Vega) are what is read. Source: Montevideo padron of 1850, film 7499042 item 2, ark 3:1:3QS7-99ZP-BBKX."
    },
    {
     "name": "Leonarda Margarita LERENA Vega",
@@ -10767,14 +10897,14 @@
     "dates": "",
     "slug": "pedro-lerena-vega-2",
     "via": "register",
-    "note": "Same household. Uruguay census c.1833, household 229, Montevideo; ark 3:1:3QS7-99ZP-BBKX"
+    "note": "Same household, padron of 1850 (libro 264) - NOT c.1833, withdrawn 12 October 2026. The head's identification as Pedro Antonio son of Sancho is unresolved; the couple's names (Pedro A. Lerena, Vicenta Vega) are what is read. Source: Montevideo padron of 1850, film 7499042 item 2, ark 3:1:3QS7-99ZP-BBKX."
    },
    {
     "name": "Vicenta LERENA Vega (b. c.1838)",
     "dates": "",
     "slug": "vicenta-lerena-vega-2",
     "via": "register",
-    "note": "Same household. Uruguay census c.1833, household 229, Montevideo; ark 3:1:3QS7-99ZP-BBKX"
+    "note": "Same household, padron of 1850 (libro 264) - NOT c.1833, withdrawn 12 October 2026. The head's identification as Pedro Antonio son of Sancho is unresolved; the couple's names (Pedro A. Lerena, Vicenta Vega) are what is read. Source: Montevideo padron of 1850, film 7499042 item 2, ark 3:1:3QS7-99ZP-BBKX."
    }
   ],
   "siblings": [],
@@ -10816,21 +10946,21 @@
     "dates": "",
     "slug": "emilia-lerena-vega-2",
     "via": "register",
-    "note": "Same household. Uruguay census c.1833, household 229, Montevideo; ark 3:1:3QS7-99ZP-BBKX"
+    "note": "Same household, padron of 1850 (libro 264) - NOT c.1833, withdrawn 12 October 2026. The head's identification as Pedro Antonio son of Sancho is unresolved; the couple's names (Pedro A. Lerena, Vicenta Vega) are what is read. Source: Montevideo padron of 1850, film 7499042 item 2, ark 3:1:3QS7-99ZP-BBKX."
    },
    {
     "name": "Pedro LERENA Vega (b. c.1834)",
     "dates": "",
     "slug": "pedro-lerena-vega-2",
     "via": "register",
-    "note": "Same household. Uruguay census c.1833, household 229, Montevideo; ark 3:1:3QS7-99ZP-BBKX"
+    "note": "Same household, padron of 1850 (libro 264) - NOT c.1833, withdrawn 12 October 2026. The head's identification as Pedro Antonio son of Sancho is unresolved; the couple's names (Pedro A. Lerena, Vicenta Vega) are what is read. Source: Montevideo padron of 1850, film 7499042 item 2, ark 3:1:3QS7-99ZP-BBKX."
    },
    {
     "name": "Vicenta LERENA Vega (b. c.1838)",
     "dates": "",
     "slug": "vicenta-lerena-vega-2",
     "via": "register",
-    "note": "Same household. Uruguay census c.1833, household 229, Montevideo; ark 3:1:3QS7-99ZP-BBKX"
+    "note": "Same household, padron of 1850 (libro 264) - NOT c.1833, withdrawn 12 October 2026. The head's identification as Pedro Antonio son of Sancho is unresolved; the couple's names (Pedro A. Lerena, Vicenta Vega) are what is read. Source: Montevideo padron of 1850, film 7499042 item 2, ark 3:1:3QS7-99ZP-BBKX."
    }
   ],
   "siblings": [],
@@ -10871,8 +11001,31 @@
    "note": "Stated in this person's own register note; wired 21 September 2026. Source: Catedral de la Inmaculada Concepcion, Montevideo, baptism of 4 July 1837 - FULL-TEXT TRANSCRIPT READ"
   },
   "mother": null,
-  "spouses": [],
-  "children": [],
+  "spouses": [
+   {
+    "name": "Xavier LAVINA (the younger, m. Leonarda LERENA)",
+    "dates": "",
+    "slug": "xavier-lavina",
+    "via": "register",
+    "note": "Cordon death register, 5 Aug 1869, plate read 13 Oct 2026: \"Vicenta Lavina, de cuatro anos, y Manuela Lavina, de tres anos, hija de D. Xavier (hijo) y de la finada Leonarda Lerena\". CANDIDATE, NOT SETTLED: the act names only a Leonarda Lerena and her identification with Leonarda Margarita Lerena Vega is not made. "
+   }
+  ],
+  "children": [
+   {
+    "name": "Manuela LAVINA (1866c - 5 August 1869)",
+    "dates": "",
+    "slug": "manuela-lavina",
+    "via": "register",
+    "note": "Cordon death register, 5 Aug 1869, plate read 13 Oct 2026: \"Vicenta Lavina, de cuatro anos, y Manuela Lavina, de tres anos, hija de D. Xavier (hijo) y de la finada Leonarda Lerena\". CANDIDATE, NOT SETTLED: the act names only a Leonarda Lerena and her identification with Leonarda Margarita Lerena Vega is not made. "
+   },
+   {
+    "name": "Vicenta LAVINA (1865c - 5 August 1869)",
+    "dates": "",
+    "slug": "vicenta-lavina",
+    "via": "register",
+    "note": "Cordon death register, 5 Aug 1869, plate read 13 Oct 2026: \"Vicenta Lavina, de cuatro anos, y Manuela Lavina, de tres anos, hija de D. Xavier (hijo) y de la finada Leonarda Lerena\". CANDIDATE, NOT SETTLED: the act names only a Leonarda Lerena and her identification with Leonarda Margarita Lerena Vega is not made. "
+   }
+  ],
   "siblings": [
    {
     "name": "Emilia LERENA Vega (b. c.1832)",
@@ -10897,8 +11050,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 1,
-  "relRegister": 1,
+  "relTotal": 4,
+  "relRegister": 4,
   "relTree": 0,
   "evidence": []
  },
@@ -16963,14 +17116,14 @@
    "dates": "1793–",
    "slug": "pedro-antonio-lerena",
    "via": "register",
-   "note": "Named in household 229 of the c.1833 census. Uruguay census c.1833, household 229, Montevideo; ark 3:1:3QS7-99ZP-BBKX"
+   "note": "Named in household 229 of the PADRON OF 1850 (libro 264; the catalogue dates it - not c.1833, which was withdrawn 12 October 2026). CANDIDATE, NOT SETTLED: this archive reads the head, 'Pedro A. Lerena', as Pedro Antonio son of Sancho (b.1793), but he is entered at 40, which fits a man born about 1810, so the identification is unresolved. See /corrections/. Source: Montevideo padron of 1850, film 7499042 item 2, ark 3:1:3QS7-99ZP-BBKX."
   },
   "mother": {
    "name": "Dona Vicenta VEGA",
    "dates": "",
    "slug": "dona-vicenta-vega",
    "via": "register",
-   "note": "Same household; the page gives her as 'Da Vicenta Vega'. Uruguay census c.1833, household 229, Montevideo; ark 3:1:3QS7-99ZP-BBKX"
+   "note": "Same household, padron of 1850 (libro 264) - NOT c.1833, withdrawn 12 October 2026. The head's identification as Pedro Antonio son of Sancho is unresolved; the couple's names (Pedro A. Lerena, Vicenta Vega) are what is read. Source: Montevideo padron of 1850, film 7499042 item 2, ark 3:1:3QS7-99ZP-BBKX."
   },
   "spouses": [],
   "children": [],
@@ -17028,17 +17181,47 @@
    "dates": "1793–",
    "slug": "pedro-antonio-lerena",
    "via": "register",
-   "note": "Named in household 229 of the c.1833 census. Uruguay census c.1833, household 229, Montevideo; ark 3:1:3QS7-99ZP-BBKX"
+   "note": "Named in household 229 of the PADRON OF 1850 (libro 264; the catalogue dates it - not c.1833, which was withdrawn 12 October 2026). CANDIDATE, NOT SETTLED: this archive reads the head, 'Pedro A. Lerena', as Pedro Antonio son of Sancho (b.1793), but he is entered at 40, which fits a man born about 1810, so the identification is unresolved. See /corrections/. Source: Montevideo padron of 1850, film 7499042 item 2, ark 3:1:3QS7-99ZP-BBKX."
   },
   "mother": {
    "name": "Dona Vicenta VEGA",
    "dates": "",
    "slug": "dona-vicenta-vega",
    "via": "register",
-   "note": "Same household; the page gives her as 'Da Vicenta Vega'. Uruguay census c.1833, household 229, Montevideo; ark 3:1:3QS7-99ZP-BBKX"
+   "note": "Same household, padron of 1850 (libro 264) - NOT c.1833, withdrawn 12 October 2026. The head's identification as Pedro Antonio son of Sancho is unresolved; the couple's names (Pedro A. Lerena, Vicenta Vega) are what is read. Source: Montevideo padron of 1850, film 7499042 item 2, ark 3:1:3QS7-99ZP-BBKX."
   },
-  "spouses": [],
-  "children": [],
+  "spouses": [
+   {
+    "name": "Manuela LEMOS (m. Pedro A. LERENA)",
+    "dates": "",
+    "slug": "manuela-lemos",
+    "via": "register",
+    "note": "Montevideo death act 353 of 7 Nov 1896, plate read 12 Oct 2026. He died \"casado con Dona Manuela, oriental, de 53 anos\"."
+   }
+  ],
+  "children": [
+   {
+    "name": "Antonio LERENA Lemos",
+    "dates": "",
+    "slug": "antonio-lerena-lemos",
+    "via": "register",
+    "note": "Montevideo death act 353 of 7 Nov 1896, plate read 12 Oct 2026. \"de cuyo matrimonio existen Antonio, Carlos Teodoro, Manuel Antonio\"."
+   },
+   {
+    "name": "Carlos Teodoro LERENA Lemos",
+    "dates": "",
+    "slug": "carlos-teodoro-lerena-lemos",
+    "via": "register",
+    "note": "Montevideo death act 353 of 7 Nov 1896, plate read 12 Oct 2026. \"de cuyo matrimonio existen Antonio, Carlos Teodoro, Manuel Antonio\"."
+   },
+   {
+    "name": "Pedro A. LERENA (the younger, declarant 1896)",
+    "dates": "",
+    "slug": "pedro-a-lerena-2",
+    "via": "register",
+    "note": "Montevideo death act 353 of 7 Nov 1896, plate read 12 Oct 2026. \"el primer declarante es hijo del fallecido\" - the mother is not stated for him."
+   }
+  ],
   "siblings": [
    {
     "name": "Emilia LERENA Vega (b. c.1832)",
@@ -17063,8 +17246,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 2,
-  "relRegister": 2,
+  "relTotal": 6,
+  "relRegister": 6,
   "relTree": 0,
   "evidence": []
  },
@@ -17093,14 +17276,14 @@
    "dates": "1793–",
    "slug": "pedro-antonio-lerena",
    "via": "register",
-   "note": "Named in household 229 of the c.1833 census. Uruguay census c.1833, household 229, Montevideo; ark 3:1:3QS7-99ZP-BBKX"
+   "note": "Named in household 229 of the PADRON OF 1850 (libro 264; the catalogue dates it - not c.1833, which was withdrawn 12 October 2026). CANDIDATE, NOT SETTLED: this archive reads the head, 'Pedro A. Lerena', as Pedro Antonio son of Sancho (b.1793), but he is entered at 40, which fits a man born about 1810, so the identification is unresolved. See /corrections/. Source: Montevideo padron of 1850, film 7499042 item 2, ark 3:1:3QS7-99ZP-BBKX."
   },
   "mother": {
    "name": "Dona Vicenta VEGA",
    "dates": "",
    "slug": "dona-vicenta-vega",
    "via": "register",
-   "note": "Same household; the page gives her as 'Da Vicenta Vega'. Uruguay census c.1833, household 229, Montevideo; ark 3:1:3QS7-99ZP-BBKX"
+   "note": "Same household, padron of 1850 (libro 264) - NOT c.1833, withdrawn 12 October 2026. The head's identification as Pedro Antonio son of Sancho is unresolved; the couple's names (Pedro A. Lerena, Vicenta Vega) are what is read. Source: Montevideo padron of 1850, film 7499042 item 2, ark 3:1:3QS7-99ZP-BBKX."
   },
   "spouses": [],
   "children": [],
@@ -24921,15 +25104,38 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
-  "children": [],
+  "spouses": [
+   {
+    "name": "Pedro LERENA Vega (b. c.1834)",
+    "dates": "",
+    "slug": "pedro-lerena-vega-2",
+    "via": "register",
+    "note": "Montevideo death act 353 of 7 Nov 1896, plate read 12 Oct 2026. He died \"casado con Dona Manuela, oriental, de 53 anos\"."
+   }
+  ],
+  "children": [
+   {
+    "name": "Antonio LERENA Lemos",
+    "dates": "",
+    "slug": "antonio-lerena-lemos",
+    "via": "register",
+    "note": "Montevideo death act 353 of 7 Nov 1896, plate read 12 Oct 2026. \"de cuyo matrimonio existen Antonio, Carlos Teodoro, Manuel Antonio\"."
+   },
+   {
+    "name": "Carlos Teodoro LERENA Lemos",
+    "dates": "",
+    "slug": "carlos-teodoro-lerena-lemos",
+    "via": "register",
+    "note": "Montevideo death act 353 of 7 Nov 1896, plate read 12 Oct 2026. \"de cuyo matrimonio existen Antonio, Carlos Teodoro, Manuel Antonio\"."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 3,
+  "relRegister": 3,
   "relTree": 0,
   "evidence": []
  },
@@ -30052,8 +30258,25 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "godparents": [
+   {
+    "name": "Jose CARRERAS (godfather, San Jose 1846)",
+    "dates": "",
+    "slug": "jose-carreras",
+    "via": "register",
+    "note": "San Jose de Mayo baptism of 25 April 1846: \"fueron Padrinos Jose Carreras y Petronila Escobar\". Plate read 12 Oct 2026.",
+    "role": "godfather"
+   },
+   {
+    "name": "Petronila ESCOBAR (godmother, San Jose 1846)",
+    "dates": "",
+    "slug": "petronila-escobar",
+    "via": "register",
+    "note": "San Jose de Mayo baptism of 25 April 1846: \"fueron Padrinos Jose Carreras y Petronila Escobar\". Plate read 12 Oct 2026.",
+    "role": "godmother"
+   }
+  ],
   "aliasOf": null,
-  "godparents": [],
   "godchildren": [],
   "relTotal": 1,
   "relRegister": 1,
@@ -32984,15 +33207,45 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
-  "children": [],
+  "spouses": [
+   {
+    "name": "Maria Cristina (LERENA by marriage)",
+    "dates": "",
+    "slug": "maria-cristina",
+    "via": "register",
+    "note": "San Eugenio (Artigas) birth act 110 of 2 June 1899, plate read 12 Oct 2026. Benito is \"casado\" and Maria Cristina \"casada\" on the act."
+   }
+  ],
+  "children": [
+   {
+    "name": "Anastasia LERENA",
+    "dates": "",
+    "slug": "anastasia-lerena",
+    "via": "register",
+    "note": "San Eugenio (Artigas) birth act 110 of 2 June 1899, plate read 12 Oct 2026. Benito and Maria Cristina are named as the maternal grandparents of the child, so Anastasia is their daughter."
+   },
+   {
+    "name": "Gumersindo LERENA",
+    "dates": "",
+    "slug": "gumersindo-lerena",
+    "via": "register",
+    "note": "INDEX-LEVEL, no act opened. Death registered at Artigas 8 March 1899, ten weeks before act 110."
+   },
+   {
+    "name": "Idersio LERENA Araujo",
+    "dates": "",
+    "slug": "idersio-lerena-araujo",
+    "via": "register",
+    "note": "INDEX-LEVEL, no act opened. Death registered at Artigas 19 December 1896; the mother is indexed Cristina Araujo and is not linked here."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 4,
+  "relRegister": 4,
   "relTree": 0,
   "evidence": []
  },
@@ -33018,15 +33271,38 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
-  "children": [],
+  "spouses": [
+   {
+    "name": "Benito LERENA",
+    "dates": "",
+    "slug": "benito-lerena",
+    "via": "register",
+    "note": "San Eugenio (Artigas) birth act 110 of 2 June 1899, plate read 12 Oct 2026. Benito is \"casado\" and Maria Cristina \"casada\" on the act."
+   }
+  ],
+  "children": [
+   {
+    "name": "Anastasia LERENA",
+    "dates": "",
+    "slug": "anastasia-lerena",
+    "via": "register",
+    "note": "San Eugenio (Artigas) birth act 110 of 2 June 1899, plate read 12 Oct 2026. Benito and Maria Cristina are named as the maternal grandparents of the child, so Anastasia is their daughter."
+   },
+   {
+    "name": "Gumersindo LERENA",
+    "dates": "",
+    "slug": "gumersindo-lerena",
+    "via": "register",
+    "note": "INDEX-LEVEL, no act opened. Indexed as Maria Cristina."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 3,
+  "relRegister": 3,
   "relTree": 0,
   "evidence": []
  },
@@ -33050,17 +33326,65 @@
   "sourceUrl": "https://www.familysearch.org/ark:/61903/1:1:XSXQ-HX6M",
   "noLink": "",
   "gen": null,
-  "father": null,
-  "mother": null,
-  "spouses": [],
-  "children": [],
-  "siblings": [],
+  "father": {
+   "name": "Benito LERENA",
+   "dates": "",
+   "slug": "benito-lerena",
+   "via": "register",
+   "note": "San Eugenio (Artigas) birth act 110 of 2 June 1899, plate read 12 Oct 2026. Benito and Maria Cristina are named as the maternal grandparents of the child, so Anastasia is their daughter."
+  },
+  "mother": {
+   "name": "Maria Cristina (LERENA by marriage)",
+   "dates": "",
+   "slug": "maria-cristina",
+   "via": "register",
+   "note": "San Eugenio (Artigas) birth act 110 of 2 June 1899, plate read 12 Oct 2026. Benito and Maria Cristina are named as the maternal grandparents of the child, so Anastasia is their daughter."
+  },
+  "spouses": [
+   {
+    "name": "Honorio ALVAREZ",
+    "dates": "",
+    "slug": "honorio-alvarez",
+    "via": "register",
+    "note": "San Eugenio (Artigas) birth act 110 of 2 June 1899, plate read 12 Oct 2026. The child is \"hijo legitimo\" of Honorio Alvarez and Anastasia."
+   }
+  ],
+  "children": [
+   {
+    "name": "Juan Ildebel ALVAREZ y LERENA",
+    "dates": "",
+    "slug": "juan-ildebel-alvarez-y-lerena",
+    "via": "register",
+    "note": "San Eugenio (Artigas) birth act 110 of 2 June 1899, plate read 12 Oct 2026. "
+   },
+   {
+    "name": "Teodoro ALVES LERENA",
+    "dates": "",
+    "slug": "teodoro-alves-lerena",
+    "via": "register",
+    "note": "INDEX-LEVEL, no act opened. Indexed as Anastasia LERENA with the same husband; Teodoro was registered at Artigas on 30 April 1907."
+   }
+  ],
+  "siblings": [
+   {
+    "name": "Gumersindo LERENA",
+    "dates": "",
+    "slug": "gumersindo-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Idersio LERENA Araujo",
+    "dates": "",
+    "slug": "idersio-lerena-araujo",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 5,
+  "relRegister": 5,
   "relTree": 0,
   "evidence": []
  },
@@ -33086,15 +33410,38 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
-  "children": [],
+  "spouses": [
+   {
+    "name": "Anastasia LERENA",
+    "dates": "",
+    "slug": "anastasia-lerena",
+    "via": "register",
+    "note": "San Eugenio (Artigas) birth act 110 of 2 June 1899, plate read 12 Oct 2026. The child is \"hijo legitimo\" of Honorio Alvarez and Anastasia."
+   }
+  ],
+  "children": [
+   {
+    "name": "Juan Ildebel ALVAREZ y LERENA",
+    "dates": "",
+    "slug": "juan-ildebel-alvarez-y-lerena",
+    "via": "register",
+    "note": "San Eugenio (Artigas) birth act 110 of 2 June 1899, plate read 12 Oct 2026. "
+   },
+   {
+    "name": "Teodoro ALVES LERENA",
+    "dates": "",
+    "slug": "teodoro-alves-lerena",
+    "via": "register",
+    "note": "INDEX-LEVEL, no act opened. Indexed as Honorio ALVES; that he is Honorio ALVAREZ of act 110 is inferred from the same couple, eight years on."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 3,
+  "relRegister": 3,
   "relTree": 0,
   "evidence": []
  },
@@ -33118,17 +33465,36 @@
   "sourceUrl": "https://www.familysearch.org/ark:/61903/1:1:XSXQ-HXDB",
   "noLink": "",
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Honorio ALVAREZ",
+   "dates": "",
+   "slug": "honorio-alvarez",
+   "via": "register",
+   "note": "San Eugenio (Artigas) birth act 110 of 2 June 1899, plate read 12 Oct 2026. "
+  },
+  "mother": {
+   "name": "Anastasia LERENA",
+   "dates": "",
+   "slug": "anastasia-lerena",
+   "via": "register",
+   "note": "San Eugenio (Artigas) birth act 110 of 2 June 1899, plate read 12 Oct 2026. "
+  },
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Teodoro ALVES LERENA",
+    "dates": "",
+    "slug": "teodoro-alves-lerena",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -33154,15 +33520,31 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
-  "children": [],
+  "spouses": [
+   {
+    "name": "Juana CAMACHO (LERENA by marriage)",
+    "dates": "",
+    "slug": "juana-camacho",
+    "via": "register",
+    "note": "Mal Abrigo (San Jose) birth act 98 of 14 Sept 1910, plate read 12 Oct 2026. Pedro is \"casado\" and Juana \"casada ... con su esposo\" on the act."
+   }
+  ],
+  "children": [
+   {
+    "name": "Ramona LERENA",
+    "dates": "",
+    "slug": "ramona-lerena",
+    "via": "register",
+    "note": "Mal Abrigo (San Jose) birth act 98 of 14 Sept 1910, plate read 12 Oct 2026. Pedro and Juana are named as the maternal grandparents of the child, so Ramona is their daughter."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -33188,15 +33570,31 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
-  "children": [],
+  "spouses": [
+   {
+    "name": "Pedro LERENA",
+    "dates": "",
+    "slug": "pedro-lerena",
+    "via": "register",
+    "note": "Mal Abrigo (San Jose) birth act 98 of 14 Sept 1910, plate read 12 Oct 2026. Pedro is \"casado\" and Juana \"casada ... con su esposo\" on the act."
+   }
+  ],
+  "children": [
+   {
+    "name": "Ramona LERENA",
+    "dates": "",
+    "slug": "ramona-lerena",
+    "via": "register",
+    "note": "Mal Abrigo (San Jose) birth act 98 of 14 Sept 1910, plate read 12 Oct 2026. Pedro and Juana are named as the maternal grandparents of the child, so Ramona is their daughter."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -33220,17 +33618,37 @@
   "sourceUrl": "https://www.familysearch.org/ark:/61903/-",
   "noLink": "",
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Pedro LERENA",
+   "dates": "",
+   "slug": "pedro-lerena",
+   "via": "register",
+   "note": "Mal Abrigo (San Jose) birth act 98 of 14 Sept 1910, plate read 12 Oct 2026. Pedro and Juana are named as the maternal grandparents of the child, so Ramona is their daughter."
+  },
+  "mother": {
+   "name": "Juana CAMACHO (LERENA by marriage)",
+   "dates": "",
+   "slug": "juana-camacho",
+   "via": "register",
+   "note": "Mal Abrigo (San Jose) birth act 98 of 14 Sept 1910, plate read 12 Oct 2026. Pedro and Juana are named as the maternal grandparents of the child, so Ramona is their daughter."
+  },
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Antonina LERENA",
+    "dates": "",
+    "slug": "antonina-lerena-4",
+    "via": "register",
+    "note": "Mal Abrigo (San Jose) birth act 98 of 14 Sept 1910, plate read 12 Oct 2026. Ramona registered her natural daughter herself; the father is \"desconocido\"."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 3,
+  "relRegister": 3,
   "relTree": 0,
   "evidence": []
  },
@@ -33255,7 +33673,13 @@
   "noLink": "",
   "gen": null,
   "father": null,
-  "mother": null,
+  "mother": {
+   "name": "Ramona LERENA",
+   "dates": "",
+   "slug": "ramona-lerena",
+   "via": "register",
+   "note": "Mal Abrigo (San Jose) birth act 98 of 14 Sept 1910, plate read 12 Oct 2026. Ramona registered her natural daughter herself; the father is \"desconocido\"."
+  },
   "spouses": [],
   "children": [],
   "siblings": [],
@@ -33263,8 +33687,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -33288,17 +33712,42 @@
   "sourceUrl": "https://www.familysearch.org/ark:/61903/-",
   "noLink": "",
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Benito LERENA",
+   "dates": "",
+   "slug": "benito-lerena",
+   "via": "register",
+   "note": "INDEX-LEVEL, no act opened. Death registered at Artigas 8 March 1899, ten weeks before act 110."
+  },
+  "mother": {
+   "name": "Maria Cristina (LERENA by marriage)",
+   "dates": "",
+   "slug": "maria-cristina",
+   "via": "register",
+   "note": "INDEX-LEVEL, no act opened. Indexed as Maria Cristina."
+  },
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Anastasia LERENA",
+    "dates": "",
+    "slug": "anastasia-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Idersio LERENA Araujo",
+    "dates": "",
+    "slug": "idersio-lerena-araujo",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -33322,17 +33771,36 @@
   "sourceUrl": "https://www.familysearch.org/ark:/61903/-",
   "noLink": "",
   "gen": null,
-  "father": null,
+  "father": {
+   "name": "Benito LERENA",
+   "dates": "",
+   "slug": "benito-lerena",
+   "via": "register",
+   "note": "INDEX-LEVEL, no act opened. Death registered at Artigas 19 December 1896; the mother is indexed Cristina Araujo and is not linked here."
+  },
   "mother": null,
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Anastasia LERENA",
+    "dates": "",
+    "slug": "anastasia-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Gumersindo LERENA",
+    "dates": "",
+    "slug": "gumersindo-lerena",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -33356,17 +33824,36 @@
   "sourceUrl": "https://www.familysearch.org/ark:/61903/-",
   "noLink": "",
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Honorio ALVAREZ",
+   "dates": "",
+   "slug": "honorio-alvarez",
+   "via": "register",
+   "note": "INDEX-LEVEL, no act opened. Indexed as Honorio ALVES; that he is Honorio ALVAREZ of act 110 is inferred from the same couple, eight years on."
+  },
+  "mother": {
+   "name": "Anastasia LERENA",
+   "dates": "",
+   "slug": "anastasia-lerena",
+   "via": "register",
+   "note": "INDEX-LEVEL, no act opened. Indexed as Anastasia LERENA with the same husband; Teodoro was registered at Artigas on 30 April 1907."
+  },
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Juan Ildebel ALVAREZ y LERENA",
+    "dates": "",
+    "slug": "juan-ildebel-alvarez-y-lerena",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -33393,14 +33880,22 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Asuncion LERENA",
+    "dates": "",
+    "slug": "asuncion-lerena",
+    "via": "register",
+    "note": "INDEX-LEVEL, no act opened. Indexed as father of Asuncion Lerena b.1884; the mother is indexed Maria Cristina Araujo and is deliberately NOT linked, since that name is also Benito Lerena's wife's."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -33424,7 +33919,13 @@
   "sourceUrl": "https://www.familysearch.org/ark:/61903/-",
   "noLink": "",
   "gen": null,
-  "father": null,
+  "father": {
+   "name": "Domingo LERENA",
+   "dates": "",
+   "slug": "domingo-lerena",
+   "via": "register",
+   "note": "INDEX-LEVEL, no act opened. Indexed as father of Asuncion Lerena b.1884; the mother is indexed Maria Cristina Araujo and is deliberately NOT linked, since that name is also Benito Lerena's wife's."
+  },
   "mother": null,
   "spouses": [],
   "children": [],
@@ -33433,8 +33934,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -33460,15 +33961,52 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
-  "children": [],
+  "spouses": [
+   {
+    "name": "Leandro LERENA",
+    "dates": "",
+    "slug": "leandro-lerena",
+    "via": "register",
+    "note": "San Cristobal baptism of 20 Dec 1896, cert 288, plate read 12 Oct 2026. Salvador is named as hijo legitimo of both."
+   }
+  ],
+  "children": [
+   {
+    "name": "Emilia LERENA",
+    "dates": "",
+    "slug": "emilia-lerena",
+    "via": "register",
+    "note": "1895 Buenos Aires census, Seccion 18 - a census lists a household and does NOT state kinship, so this edge is read from household composition and ages; the baptism of Salvador states it for him alone. "
+   },
+   {
+    "name": "Francisco LERENA (b.1890, 1895 census)",
+    "dates": "",
+    "slug": "francisco-lerena",
+    "via": "register",
+    "note": "1895 Buenos Aires census, Seccion 18 - a census lists a household and does NOT state kinship, so this edge is read from household composition and ages; the baptism of Salvador states it for him alone. "
+   },
+   {
+    "name": "Paulina LERENA",
+    "dates": "",
+    "slug": "paulina-lerena",
+    "via": "register",
+    "note": "1895 Buenos Aires census, Seccion 18 - a census lists a household and does NOT state kinship, so this edge is read from household composition and ages; the baptism of Salvador states it for him alone. "
+   },
+   {
+    "name": "Salvador LERENA (b.1896)",
+    "dates": "",
+    "slug": "salvador-lerena",
+    "via": "register",
+    "note": "San Cristobal baptism of 20 Dec 1896, cert 288, plate read 12 Oct 2026. "
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 5,
+  "relRegister": 5,
   "relTree": 0,
   "evidence": []
  },
@@ -33492,17 +34030,48 @@
   "sourceUrl": "https://www.familysearch.org/ark:/61903/-",
   "noLink": "",
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Leandro LERENA",
+   "dates": "",
+   "slug": "leandro-lerena",
+   "via": "register",
+   "note": "San Cristobal baptism of 20 Dec 1896, cert 288, plate read 12 Oct 2026. "
+  },
+  "mother": {
+   "name": "Lucia LLANOS (LERENA by marriage)",
+   "dates": "",
+   "slug": "lucia-llanos",
+   "via": "register",
+   "note": "San Cristobal baptism of 20 Dec 1896, cert 288, plate read 12 Oct 2026. "
+  },
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Emilia LERENA",
+    "dates": "",
+    "slug": "emilia-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Francisco LERENA (b.1890, 1895 census)",
+    "dates": "",
+    "slug": "francisco-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Paulina LERENA",
+    "dates": "",
+    "slug": "paulina-lerena",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -33526,17 +34095,42 @@
   "sourceUrl": "https://www.familysearch.org/ark:/61903/-",
   "noLink": "",
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Pedro LERENA Vega (b. c.1834)",
+   "dates": "",
+   "slug": "pedro-lerena-vega-2",
+   "via": "register",
+   "note": "Montevideo death act 353 of 7 Nov 1896, plate read 12 Oct 2026. \"de cuyo matrimonio existen Antonio, Carlos Teodoro, Manuel Antonio\"."
+  },
+  "mother": {
+   "name": "Manuela LEMOS (m. Pedro A. LERENA)",
+   "dates": "",
+   "slug": "manuela-lemos",
+   "via": "register",
+   "note": "Montevideo death act 353 of 7 Nov 1896, plate read 12 Oct 2026. \"de cuyo matrimonio existen Antonio, Carlos Teodoro, Manuel Antonio\"."
+  },
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Carlos Teodoro LERENA Lemos",
+    "dates": "",
+    "slug": "carlos-teodoro-lerena-lemos",
+    "via": "register"
+   },
+   {
+    "name": "Pedro A. LERENA (the younger, declarant 1896)",
+    "dates": "",
+    "slug": "pedro-a-lerena-2",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -33560,17 +34154,42 @@
   "sourceUrl": "https://www.familysearch.org/ark:/61903/-",
   "noLink": "",
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Pedro LERENA Vega (b. c.1834)",
+   "dates": "",
+   "slug": "pedro-lerena-vega-2",
+   "via": "register",
+   "note": "Montevideo death act 353 of 7 Nov 1896, plate read 12 Oct 2026. \"de cuyo matrimonio existen Antonio, Carlos Teodoro, Manuel Antonio\"."
+  },
+  "mother": {
+   "name": "Manuela LEMOS (m. Pedro A. LERENA)",
+   "dates": "",
+   "slug": "manuela-lemos",
+   "via": "register",
+   "note": "Montevideo death act 353 of 7 Nov 1896, plate read 12 Oct 2026. \"de cuyo matrimonio existen Antonio, Carlos Teodoro, Manuel Antonio\"."
+  },
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Antonio LERENA Lemos",
+    "dates": "",
+    "slug": "antonio-lerena-lemos",
+    "via": "register"
+   },
+   {
+    "name": "Pedro A. LERENA (the younger, declarant 1896)",
+    "dates": "",
+    "slug": "pedro-a-lerena-2",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -33594,17 +34213,36 @@
   "sourceUrl": "https://www.familysearch.org/ark:/61903/-",
   "noLink": "",
   "gen": null,
-  "father": null,
+  "father": {
+   "name": "Pedro LERENA Vega (b. c.1834)",
+   "dates": "",
+   "slug": "pedro-lerena-vega-2",
+   "via": "register",
+   "note": "Montevideo death act 353 of 7 Nov 1896, plate read 12 Oct 2026. \"el primer declarante es hijo del fallecido\" - the mother is not stated for him."
+  },
   "mother": null,
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Antonio LERENA Lemos",
+    "dates": "",
+    "slug": "antonio-lerena-lemos",
+    "via": "register"
+   },
+   {
+    "name": "Carlos Teodoro LERENA Lemos",
+    "dates": "",
+    "slug": "carlos-teodoro-lerena-lemos",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": []
  },
@@ -33804,9 +34442,17 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "godchildren": [
+   {
+    "name": "CARMELO ANSELMO (son of Barbara, enslaved; d. 27 April 1846)",
+    "dates": "",
+    "slug": "carmelo-anselmo",
+    "via": "register",
+    "role": "godfather"
+   }
+  ],
   "aliasOf": null,
   "godparents": [],
-  "godchildren": [],
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0,
@@ -33838,9 +34484,17 @@
   "children": [],
   "siblings": [],
   "isLine": false,
+  "godchildren": [
+   {
+    "name": "CARMELO ANSELMO (son of Barbara, enslaved; d. 27 April 1846)",
+    "dates": "",
+    "slug": "carmelo-anselmo",
+    "via": "register",
+    "role": "godmother"
+   }
+  ],
   "aliasOf": null,
   "godparents": [],
-  "godchildren": [],
   "relTotal": 0,
   "relRegister": 0,
   "relTree": 0,
@@ -33866,17 +34520,36 @@
   "sourceUrl": "https://www.familysearch.org/ark:/61903/-",
   "noLink": "",
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Xavier LAVINA (the younger, m. Leonarda LERENA)",
+   "dates": "",
+   "slug": "xavier-lavina",
+   "via": "register",
+   "note": "Cordon death register, 5 Aug 1869, plate read 13 Oct 2026: \"Vicenta Lavina, de cuatro anos, y Manuela Lavina, de tres anos, hija de D. Xavier (hijo) y de la finada Leonarda Lerena\". "
+  },
+  "mother": {
+   "name": "Leonarda Margarita LERENA Vega",
+   "dates": "",
+   "slug": "leonarda-margarita-lerena-vega",
+   "via": "register",
+   "note": "Cordon death register, 5 Aug 1869, plate read 13 Oct 2026: \"Vicenta Lavina, de cuatro anos, y Manuela Lavina, de tres anos, hija de D. Xavier (hijo) y de la finada Leonarda Lerena\". CANDIDATE, NOT SETTLED: the act names only a Leonarda Lerena and her identification with Leonarda Margarita Lerena Vega is not made. "
+  },
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Manuela LAVINA (1866c - 5 August 1869)",
+    "dates": "",
+    "slug": "manuela-lavina",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -33900,17 +34573,36 @@
   "sourceUrl": "https://www.familysearch.org/ark:/61903/-",
   "noLink": "",
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Xavier LAVINA (the younger, m. Leonarda LERENA)",
+   "dates": "",
+   "slug": "xavier-lavina",
+   "via": "register",
+   "note": "Cordon death register, 5 Aug 1869, plate read 13 Oct 2026: \"Vicenta Lavina, de cuatro anos, y Manuela Lavina, de tres anos, hija de D. Xavier (hijo) y de la finada Leonarda Lerena\". "
+  },
+  "mother": {
+   "name": "Leonarda Margarita LERENA Vega",
+   "dates": "",
+   "slug": "leonarda-margarita-lerena-vega",
+   "via": "register",
+   "note": "Cordon death register, 5 Aug 1869, plate read 13 Oct 2026: \"Vicenta Lavina, de cuatro anos, y Manuela Lavina, de tres anos, hija de D. Xavier (hijo) y de la finada Leonarda Lerena\". CANDIDATE, NOT SETTLED: the act names only a Leonarda Lerena and her identification with Leonarda Margarita Lerena Vega is not made. "
+  },
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Vicenta LAVINA (1865c - 5 August 1869)",
+    "dates": "",
+    "slug": "vicenta-lavina",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
@@ -33934,17 +34626,59 @@
   "sourceUrl": "https://www.familysearch.org/ark:/61903/-",
   "noLink": "",
   "gen": null,
-  "father": null,
-  "mother": null,
-  "spouses": [],
-  "children": [],
-  "siblings": [],
+  "father": {
+   "name": "Don Xavier LAVINA (the elder, m. Manuela GOYENECHE)",
+   "dates": "",
+   "slug": "don-xavier-lavina",
+   "via": "register",
+   "note": "INFERRED: the 1869 death entry calls the father of the two girls \"D. Xavier (hijo)\", which implies an elder of the same name; the Xavier Lavina named in the 1861 dispensation is the candidate. No act states it."
+  },
+  "mother": {
+   "name": "Dona Manuela GOYENECHE (m. Xavier LAVINA)",
+   "dates": "",
+   "slug": "dona-manuela-goyeneche",
+   "via": "register",
+   "note": "INFERRED, with the father edge above: no act names the younger Xavier's mother."
+  },
+  "spouses": [
+   {
+    "name": "Leonarda Margarita LERENA Vega",
+    "dates": "",
+    "slug": "leonarda-margarita-lerena-vega",
+    "via": "register",
+    "note": "Cordon death register, 5 Aug 1869, plate read 13 Oct 2026: \"Vicenta Lavina, de cuatro anos, y Manuela Lavina, de tres anos, hija de D. Xavier (hijo) y de la finada Leonarda Lerena\". CANDIDATE, NOT SETTLED: the act names only a Leonarda Lerena and her identification with Leonarda Margarita Lerena Vega is not made. "
+   }
+  ],
+  "children": [
+   {
+    "name": "Manuela LAVINA (1866c - 5 August 1869)",
+    "dates": "",
+    "slug": "manuela-lavina",
+    "via": "register",
+    "note": "Cordon death register, 5 Aug 1869, plate read 13 Oct 2026: \"Vicenta Lavina, de cuatro anos, y Manuela Lavina, de tres anos, hija de D. Xavier (hijo) y de la finada Leonarda Lerena\". "
+   },
+   {
+    "name": "Vicenta LAVINA (1865c - 5 August 1869)",
+    "dates": "",
+    "slug": "vicenta-lavina",
+    "via": "register",
+    "note": "Cordon death register, 5 Aug 1869, plate read 13 Oct 2026: \"Vicenta Lavina, de cuatro anos, y Manuela Lavina, de tres anos, hija de D. Xavier (hijo) y de la finada Leonarda Lerena\". "
+   }
+  ],
+  "siblings": [
+   {
+    "name": "Emilio LAVINA y GOYENECHE (b. 1837c, m. 1861)",
+    "dates": "",
+    "slug": "emilio-lavina-y-goyeneche",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 5,
+  "relRegister": 5,
   "relTree": 0,
   "evidence": []
  },
@@ -33970,15 +34704,38 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
-  "children": [],
+  "spouses": [
+   {
+    "name": "Dona Manuela GOYENECHE (m. Xavier LAVINA)",
+    "dates": "",
+    "slug": "dona-manuela-goyeneche",
+    "via": "register",
+    "note": "Marriage dispensation No. 395 of 1861 names them as the parents of Emilio Lavina y Goyeneche. Machine transcript only."
+   }
+  ],
+  "children": [
+   {
+    "name": "Emilio LAVINA y GOYENECHE (b. 1837c, m. 1861)",
+    "dates": "",
+    "slug": "emilio-lavina-y-goyeneche",
+    "via": "register",
+    "note": "Marriage dispensation No. 395 of 1861: \"hijo legitimo de Don Xavier Lavina y Dona Manuela Goyeneche\". Machine transcript only."
+   },
+   {
+    "name": "Xavier LAVINA (the younger, m. Leonarda LERENA)",
+    "dates": "",
+    "slug": "xavier-lavina",
+    "via": "register",
+    "note": "INFERRED: the 1869 death entry calls the father of the two girls \"D. Xavier (hijo)\", which implies an elder of the same name; the Xavier Lavina named in the 1861 dispensation is the candidate. No act states it."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 3,
+  "relRegister": 3,
   "relTree": 0,
   "evidence": []
  },
@@ -34004,15 +34761,38 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
-  "children": [],
+  "spouses": [
+   {
+    "name": "Don Xavier LAVINA (the elder, m. Manuela GOYENECHE)",
+    "dates": "",
+    "slug": "don-xavier-lavina",
+    "via": "register",
+    "note": "Marriage dispensation No. 395 of 1861 names them as the parents of Emilio Lavina y Goyeneche. Machine transcript only."
+   }
+  ],
+  "children": [
+   {
+    "name": "Emilio LAVINA y GOYENECHE (b. 1837c, m. 1861)",
+    "dates": "",
+    "slug": "emilio-lavina-y-goyeneche",
+    "via": "register",
+    "note": "Marriage dispensation No. 395 of 1861: \"hijo legitimo de Don Xavier Lavina y Dona Manuela Goyeneche\". Machine transcript only."
+   },
+   {
+    "name": "Xavier LAVINA (the younger, m. Leonarda LERENA)",
+    "dates": "",
+    "slug": "xavier-lavina",
+    "via": "register",
+    "note": "INFERRED, with the father edge above: no act names the younger Xavier's mother."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 3,
+  "relRegister": 3,
   "relTree": 0,
   "evidence": []
  },
@@ -34036,17 +34816,36 @@
   "sourceUrl": "https://www.familysearch.org/ark:/61903/-",
   "noLink": "",
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Don Xavier LAVINA (the elder, m. Manuela GOYENECHE)",
+   "dates": "",
+   "slug": "don-xavier-lavina",
+   "via": "register",
+   "note": "Marriage dispensation No. 395 of 1861: \"hijo legitimo de Don Xavier Lavina y Dona Manuela Goyeneche\". Machine transcript only."
+  },
+  "mother": {
+   "name": "Dona Manuela GOYENECHE (m. Xavier LAVINA)",
+   "dates": "",
+   "slug": "dona-manuela-goyeneche",
+   "via": "register",
+   "note": "Marriage dispensation No. 395 of 1861: \"hijo legitimo de Don Xavier Lavina y Dona Manuela Goyeneche\". Machine transcript only."
+  },
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Xavier LAVINA (the younger, m. Leonarda LERENA)",
+    "dates": "",
+    "slug": "xavier-lavina",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": []
  },
