@@ -2081,5 +2081,35 @@
    "method"
   ],
   "note": "CONTROLLED NULL, WITH TWO CONTROLS PASSING. Positives: 'esclava de Don Sancho Lerena' returns the Montevideo Catedral baptism register 1811-1813 (the act of 26 Sep 1812, Maria Mercedes daughter of Juana); 'esclava de Don Alejandro Lerena' returns the San Jose de Mayo baptism 1841-1869 and death 1839-1851 registers (Barbara and Carmelo Anselmo, April 1846). Nulls: 'esclava de Don Pedro Antonio Lerena', 'esclava de Pedro Lerena', 'esclava de Luis Lerena', 'esclavo de Don Sancho Lerena', 'liberta de Don Pedro Lerena'. SO THE ONLY TWO LERENA HOUSEHOLDS WITH A SURVIVING TRANSCRIBED ACT NAMING THEM AS HOLDERS ARE THE TWO ALREADY IN THIS REGISTER. The four at Sarandi 229 are not reachable this way - their acts may use 'parda libre' or name no holder, which is how Barbara appears on the burial. METHOD: the abbreviation D.n matches NOTHING; 'Don' matches; dropping the honorific matches."
+ },
+ {
+  "src": "South African Government Gazette via Gazettes.Africa - the surname across all 54,441 South African gazettes, 1910-2026, all five result pages walked",
+  "url": "https://gazettes.africa/search/?q=Lerena&country=za",
+  "what": "Open question 2 - whether Pablo Armando Lerena was ever gazetted as a consul of any rank",
+  "when": "2026-10-12",
+  "outcome": "nothing",
+  "walked": true,
+  "tags": [
+   "lerena",
+   "south-africa",
+   "gazette",
+   "consul"
+  ],
+  "note": "CONTROLLED NULL ON ONE SPELLING. Controls: coverage 1910-2026, 54,441 SA gazettes; 'exequatur' returns 644 documents with pre-1950 hits in 1914, 1932, 1933 and 1937, so the period and the consular vocabulary are both searchable. RESULT: the surname appears in 35 South African documents and the EARLIEST IS 1951 (Gazette 4584, the estate notice already held). Nothing across his Cape Town life, c.1908-1950. The gazette's formula is 'Recognition granted as Consul-General' / 'Vice-Consul', and honorary consuls ARE gazetted ('Withdrawal of the Recognition as Honorary Consul of Finland'), so the honorary reading does not explain the absence. CAVEATS: the site's country= parameter DOES NOT BIND - Mozambique documents appear in a country=za search - so the SA subset was taken by filtering result links on the /akn/za prefix; and the SPELLING VARIANTS HAVE NOT BEEN SWEPT."
+ },
+ {
+  "src": "Gazettes.Africa - two South African gazettes naming Argentine consular recognitions, 1938 and 1950",
+  "url": "https://gazettes.africa/akn/za/officialGazette/government-gazette/1950-05-26/4389/eng@1950-05-26",
+  "what": "Who actually held the Argentine consular post in South Africa in 1938 and 1950",
+  "when": "2026-10-12",
+  "outcome": "blocked",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "south-africa",
+   "gazette",
+   "consul"
+  ],
+  "note": "BLOCKED, NOT SEARCHED. Gazettes 2594 of 30 December 1938 and 4389 of 26 May 1950 both surface on a search for 'Argentine Republic' and consul; both document pages sit behind a Cloudflare bot verification that did not clear on its own. This archive does not work around bot detection, so they are recorded as blocked. They are the single most decisive thing left on open question 2: if either names the Argentine consul of the day and it is not Pablo Armando Lerena, the claim is answered outright. Raised as an errand for an ordinary browser."
  }
 ]

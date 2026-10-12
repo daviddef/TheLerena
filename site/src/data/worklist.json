@@ -1730,6 +1730,28 @@
     "err:me-cordon-burials-1839-1852"
    ],
    "note": "**Estanislada 20, Sinforiano 19, Manuela 60 and Rosa 46** carry the LERENA surname by ditto at casa 229 of Calle Sarandí in the padrón of 1850; **Manuela's *patria* is ÁFRICA**. A census has **no column for condition** — a parish act does, and writes *liberta*, *esclava de* or *parda libre* outright. The Cordón's death register of **1839–1852** is already identified here and unread, and the Catedral covers the same years. Manuela and Rosa are both *casada*, so each has a husband who is not in that house."
+  },
+  {
+   "n": 214,
+   "what": "Sweep the South African Gazette on the spellings, not just LERENA",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-10-12",
+   "covers": [
+    "err:me-gazette-spelling-sweep"
+   ],
+   "note": "The consul test of 12 October found **no LERENA in any South African gazette before 1951**, with both controls passing — coverage 1910–2026, and *exequatur* returning 644 documents with hits in 1914, 1932, 1933 and 1937. **That null is on one spelling.** This archive's own rule is that a null on one spelling is a null on a letter, and 1910s–40s gazette OCR is exactly where a surname breaks. Run **SERENA, LLERENA, LORENA, LARENA, LEVENA, LERINA, GERENA, PERENA**, looking only for pre-1951 hits. **Filter results on the `/akn/za` link prefix** — the site's `country=` parameter does not bind."
+  },
+  {
+   "n": 215,
+   "what": "Open two 1938 and 1950 gazettes that should name the Argentine consuls",
+   "state": "next",
+   "owner": "David",
+   "since": "2026-10-12",
+   "covers": [
+    "err:david-gazette-1938-1950-consuls"
+   ],
+   "note": "Gazettes **2594 of 30 December 1938** and **4389 of 26 May 1950** both surface on a search for *Argentine Republic* and *consul*, and both sit behind a Cloudflare bot check. **This archive does not work around bot detection**, so they are recorded as blocked rather than searched; an ordinary browser should open them. **If either names the Argentine consul of the day and it is not Pablo Armando Lerena, open question 2 is answered outright** — the most decisive thing left on it."
   }
  ],
  "accounts": [

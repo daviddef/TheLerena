@@ -382,5 +382,21 @@
   "status": "ready",
   "detail": "The four adults who carry the LERENA surname at casa 229 of Calle Sarandi in the padron of 1850 - Estanislada 20, Sinforiano 19, Manuela 60 (patria AFRICA) and Rosa 46 - are recorded by a census that has NO COLUMN FOR CONDITION. A parish act would have one: burials and baptisms of this period write 'liberta', 'esclava de' or 'parda libre' outright. Nuestra Senora del Carmen La Mayor, Cordon - Religious Death Records 1839-1852 and Religious Burial Records 1885-1892 onward - are already identified in this archive's hands and unread, and the Catedral registers cover the same years. ALSO WORTH IT FOR ITS OWN SAKE: Manuela and Rosa are both recorded CASADA, so each has a husband who is not in that house. NARROWED 12 October 2026: the holder formula has been swept and it is NOT the route. 'esclava/esclavo/liberta de [holder]' was run as a phrase against every Lerena this archive can name. TWO POSITIVES, both already held: 'esclava de Don Sancho Lerena' returns the Montevideo Catedral act of 1812 (Juana and Maria Mercedes), and 'esclava de Don Alejandro Lerena' returns the San Jose baptism and burial of April 1846 (Barbara and Carmelo Anselmo). NOTHING for Pedro Antonio, Pedro, or Luis Lerena, and nothing for the male or 'liberta' forms. Two controls passed in the same session, so those are real nulls. WHAT SURVIVES: their acts may use 'parda libre' or 'morena libre', or name no holder at all - which is exactly how Barbara appears on the BURIAL even though her baptism names hers. SO IT MUST BE READ BY EYE. NOTE THE ABBREVIATION TRAP: 'D.n' matches nothing in full text; write 'Don' or drop the honorific.",
   "sent_on": ""
+ },
+ {
+  "key": "me-gazette-spelling-sweep",
+  "what": "*** Sweep the South African Gazette on the SPELLINGS, not just LERENA ***",
+  "who": "me",
+  "status": "ready",
+  "detail": "The consul test of 12 October found no LERENA in any South African gazette before 1951, with both controls passing (coverage 1910-2026; 'exequatur' returns 644 documents with hits in 1914, 1932, 1933, 1937). THAT NULL IS ON ONE SPELLING. This archive's own rule says a null on one spelling is a null on a letter - and 1910s-40s gazette OCR is exactly where a surname breaks. RUN: SERENA, LLERENA, LORENA, LARENA, LEVENA, LERINA, GERENA, PERENA against gazettes.africa, filtering results on the /akn/za link prefix because the site's country= parameter DOES NOT BIND. Look only for pre-1951 hits. Search terms that find the right notices: 'Recognition granted as Consul-General', 'Recognition granted as Vice-Consul', 'exequatur'.",
+  "sent_on": ""
+ },
+ {
+  "key": "david-gazette-1938-1950-consuls",
+  "what": "*** Open two gazettes behind a bot check - they should name the Argentine consuls ***",
+  "who": "David",
+  "status": "ready",
+  "detail": "Gazettes.Africa documents /akn/za/officialGazette/government-gazette/1938-12-30/2594/ and /akn/za/officialGazette/government-gazette/1950-05-26/4389/ both surface on a search for 'Argentine Republic' and consul, and both are behind a Cloudflare bot verification. THIS ARCHIVE DOES NOT WORK AROUND BOT DETECTION, so they are recorded as blocked rather than searched. In an ordinary browser they should open without trouble. WHAT TO LOOK FOR: the name of whoever held the Argentine consular post in South Africa in 1938 and in 1950. If the gazette names a consul and it is not Pablo Armando Lerena, open question 2 is answered outright - that is the single most decisive thing left on it.",
+  "sent_on": ""
  }
 ]

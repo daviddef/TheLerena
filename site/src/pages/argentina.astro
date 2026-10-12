@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import dLeandro from "../data/leandro-llanos-identified.json";
+import dConsul from "../data/consul-gazette-test.json";
 import { u } from "../lib/url.js";
 import { emph } from "../lib/text.js";
 import routes from "../data/three-routes-walked.json";
@@ -97,6 +98,7 @@ const hasArt = fs.existsSync(
       <li><a href="#s-why-rosario-is-plausible">Why Rosario is plausible</a></li>
       <li><a href="#s-uruguay-is-not-a-detour">Uruguay is not a detour</a></li>
       <li><a href="#s-where-the-records-are">Where the records are</a></li>
+      <li><a href="#s-consul-tested">The consul claim, tested at last &mdash; and he is not in the Gazette</a></li>
       <li><a href="#s-the-consul-how-it-gets-proved">The consul: how it gets proved</a></li>
       <li><a href="#s-what-this-page-needs-next">What this page needs next</a></li>
       <li><a href="#s-the-1895-census-a-lerena-household-and-it-is-not-his">The 1895 census: a Lerena household, and it is not his</a></li>
@@ -217,6 +219,54 @@ const hasArt = fs.existsSync(
     </div>
   </div>
 </section>
+<section class="blk">
+  <h2 id="s-consul-tested">The consul claim, tested at last &mdash; and he is not in the Gazette</h2>
+  <p class="dek">12 October 2026. Open question 2 has named this test since 8 September and nobody
+    had run it. It is an indication, not an answer, and the limits are published with it.</p>
+  <div class="prose">
+    <p>The decisive document for a consul of any rank is the <strong>exequatur</strong> &mdash; the
+      host state&rsquo;s formal recognition, which is crisp, dated and published. The South African
+      Government Gazette carries them, and <strong>Gazettes.Africa holds 54,441 South African
+      gazettes from 1910</strong>, free and official. This archive had already used that source for
+      estate notices without ever asking it this question.</p>
+    <p><strong>Both controls pass.</strong> The word <em>exequatur</em> returns
+      <strong>644 documents</strong>, with hits in <strong>1914, 1932, 1933 and 1937</strong> &mdash;
+      so the gazettes of his lifetime are digitised, searchable, and carry the consular vocabulary.
+      The formula itself turned up in the process: <em>&ldquo;Recognition granted as
+      Consul-General&rdquo;</em>, <em>&ldquo;Recognition granted as Vice-Consul&rdquo;</em>.</p>
+    <p><strong>The surname appears in thirty-five South African gazette documents, and the earliest
+      is 1951</strong> &mdash; Gazette no. 4584, the estate notice this archive already holds, naming
+      him a <em>racehorse trainer</em>. Everything else is 1971 or later. <strong>Across the whole of
+      his life in South Africa, from about 1908 to his death in 1950, the name is not in the official
+      gazette at all</strong> &mdash; and a consular recognition is exactly the thing that would have
+      put it there.</p>
+    <p><strong>And it sharpens the hypothesis rather than confirming it.</strong> This page&rsquo;s
+      preferred reading has been an <em>honorary</em> consul &mdash; a resident merchant holding the
+      post, which would reconcile a diplomat with a man who bred horses and farmed ostriches, and
+      would keep him out of the career lists. <strong>But honorary consuls are gazetted too</strong>:
+      the same corpus prints <em>&ldquo;Withdrawal of the Recognition as Honorary Consul of
+      Finland&rdquo;</em>. An honorary appointment is not a way of being absent from the Gazette.</p>
+    <p class="cap"><strong>Why this is not a closed null, in three parts.</strong> The
+      <strong>spellings have not been swept</strong> &mdash; and this archive&rsquo;s own rule is that
+      a null on one spelling is a null on a letter, which bites hardest on 1910s newsprint OCR. The
+      site&rsquo;s <strong>country filter does not bind</strong>, so the South African subset had to be
+      taken by filtering result links on their <code>/akn/za</code> prefix. And the two documents that
+      would name the actual Argentine consuls &mdash; gazettes <strong>2594 of 30 December 1938</strong>
+      and <strong>4389 of 26 May 1950</strong> &mdash; sit behind a bot check.
+      <strong>This archive does not work around bot detection</strong>, so they are recorded as
+      blocked, not as searched.</p>
+  </div>
+  <dl class="kv" style="margin-top:18px">
+    {dConsul.filter((r) => r["what"]).map((r) => (
+      <div><dt set:html={emph(r["what"])} /><dd>
+        <span class="cap" set:html={emph(r["the source"])} /><br />
+        <strong set:html={emph(r["result"])} /><br />
+        <span set:html={emph(r["what it means"])} />
+      </dd></div>
+    ))}
+  </dl>
+</section>
+
 <section class="blk">
 <h2 id="s-the-consul-how-it-gets-proved">The consul: how it gets proved</h2>
   <p>
