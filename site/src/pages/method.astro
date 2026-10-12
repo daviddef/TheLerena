@@ -8,6 +8,7 @@ import traps from "../data/forename-traps.json";
 import zeros from "../data/false-zeros.json";
 import ftfinds from "../data/fulltext-finds-2026-10-11.json";
 import dComp from "../data/dispensations-compound-sweep.json";
+import dMove from "../data/domain-migration.json";
 import certs from "../data/1852-aguada-union-certificates.json";
 ---
 <Base title="Method"
@@ -584,6 +585,53 @@ import certs from "../data/1852-aguada-union-certificates.json";
       nine years earlier than anything else held, a birthplace that closed the very question the trip
       was to answer, and a blank line on a consular form that says more about the Rosario search than
       three weeks of reading registers did.</p>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-the-move">The day this archive changed address, and the five traps it took</h2>
+  <p class="dek">12 October 2026. A deployment is evidence too &mdash; and three of the five
+    failures below produce a build that looks entirely correct.</p>
+  <div class="prose">
+    <p>This archive was served from <code>daviddef.github.io/TheLerena/</code> from the start. It now
+      lives at <strong>lerena.defranceski.com</strong>, as four sibling archives moved the same week.
+      A project path cannot inherit a parent domain &mdash; <code>defranceski.com</code> is itself a
+      Pages site served by its own repository, so a subdomain was the only clean route.</p>
+    <p><strong>The traps are the point.</strong> An Actions deploy that does not carry a
+      <code>CNAME</code> <strong>detaches the custom domain</strong>, which would have bitten weeks
+      later. Hand-re-pinning a dependency&rsquo;s commit in <code>package-lock.json</code> updates
+      <code>resolved</code> and leaves <code>integrity</code> as the old tarball&rsquo;s hash, so
+      <strong>npm installs the old code while every pin on display reads correct</strong>. And a
+      shared key stops being a key when everybody uses it: five archives on an empty
+      <code>base</code> meant the lookup returned <em>the first one</em>, so the first green build
+      of this move shipped another archive&rsquo;s accent and <strong>a canonical pointing at its
+      domain, on all 1,500 pages</strong>.</p>
+    <p><strong>And the obvious check does not catch that last one.</strong>
+      <code>og:site_name</code> reads correct on a wholly broken build, because the component takes
+      it from a prop before it looks the archive up. The reliable tells are
+      <strong>canonical, og:url and theme-color</strong>.</p>
+    <p><strong>What the five share is one rule</strong>, and it is the rule this archive spent the
+      rest of the same day learning in a different language: <strong>verify the installed artefact,
+      not the recorded intention</strong>. Never &ldquo;does the pin say the right commit&rdquo; but
+      &ldquo;is the new code actually in the installed file&rdquo;. It is
+      <a href={u("/name/#s-sweep")}>open the plate, not the index</a> &mdash; read the act, not the
+      volume label; ask the catalogue, not the breadcrumb.</p>
+  </div>
+  <dl class="kv" style="margin-top:18px">
+    {dMove.filter((r) => r["what"]).map((r) => (
+      <div><dt set:html={emph(r["what"])} /><dd>
+        <span class="cap" set:html={emph(r["the source"])} /><br />
+        <strong set:html={emph(r["result"])} /><br />
+        <span set:html={emph(r["what is actually true"])} />
+      </dd></div>
+    ))}
+  </dl>
+  <div class="prose" style="margin-top:18px">
+    <p class="cap"><strong>None of this was one session&rsquo;s work.</strong> The kit fix is the
+      Bla&#382;evi&#263; session&rsquo;s; the <code>og:site_name</code> masking was found by
+      D&rsquo;Arcy; the lock-file trap and the instructing-comments point were found here; the
+      recipe, and the correction to it, are the Defranceschi session&rsquo;s. Five archives moving
+      at once is what made two of these visible at all.</p>
   </div>
 </section>
 
