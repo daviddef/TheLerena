@@ -38,10 +38,30 @@ const nav = [
 ];
 
 const here = Astro.url.pathname;
-/* which of the seven this is, worked out the same way the ring does */
-const thisArchive = ring.archives.find(
+/* WHICH OF THE SEVEN THIS IS — AND IT CANNOT BE THE BASE ANY MORE.
+   This used to be ring.archives.find(a => a.base === BASE_URL), which was sound
+   while every archive was a project site at /TheX. Since the custom-domain moves
+   of 12 October 2026 FIVE archives share base "", and find() returns the FIRST of
+   them — the Defranceschi entry. The visible cost here was the ANALYTICS CODE:
+   this archive logged every pageview to thedefranceski.goatcounter.com, and its
+   own counter stood empty, from the move until this was found. Darcy and Blazevic
+   did the same. It is the identical fault the Blazevic session fixed in the kit's
+   SocialHead (whoami(), e275c14) — but Base.astro does not go through SocialHead,
+   so that fix never reached it.
+   THE LOGIC IS INLINED RATHER THAN IMPORTED FROM THE KIT, following TheMazza
+   b558bff: kit/lib/ring.js does `import ring from "../data/archives.json"` with no
+   `with { type: "json" }`, which Node's ESM loader refuses during static
+   generation. SocialHead escapes that only because Vite resolves its relative
+   import. Inlining avoids patching the kit and re-pinning seven archives.
+   IT MATCHES ON ORIGIN, so astro.config's `site` and this archive's `url` in
+   archives.json must agree. Ours do: https://lerena.defranceski.com. */
+const originOf = (x) => { try { return new URL(x).origin; } catch { return ""; } };
+const SITE_ORIGIN = originOf(import.meta.env.SITE || "");
+const onBase = ring.archives.filter(
   (a) => a.base === (import.meta.env.BASE_URL || "/").replace(/\/$/, "")
 );
+const thisArchive =
+  (SITE_ORIGIN && onBase.find((a) => originOf(a.url) === SITE_ORIGIN)) || onBase[0];
 ---
 <html lang="en" data-base={u("")}>
 <head>
