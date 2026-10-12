@@ -34,6 +34,26 @@ import re
 import subprocess
 import sys
 
+
+def _read_base():
+    """The deployment base, read from the build config rather than written here.
+
+    This file hard-coded "/TheLerena" in two places. After the move to lerena.defranceski.com
+    (12 October 2026) the base is "/" and every link is root-relative, so the orphan check built
+    routes as "/TheLerena/name/" and compared them with links that read "/name/": it reported
+    1,519 pages as linked from nowhere - every page on the site. A false alarm on everything is
+    as useless as silence, because it buries a real orphan under 1,518 fakes.
+    """
+    cfg = pathlib.Path("site/astro.config.mjs").read_text(encoding="utf-8")
+    m = re.search(r"\bbase:\s*['\"]([^'\"]*)['\"]", cfg)
+    if not m:
+        sys.exit("audit: cannot find `base:` in site/astro.config.mjs - refusing to guess")
+    return "" if m.group(1) in ("/", "") else m.group(1).rstrip("/")
+
+
+BASE = _read_base()
+REDIRECT_SOURCES = set(re.findall(r"^\s*'(/[^']+)'\s*:", pathlib.Path("site/astro.config.mjs").read_text(encoding="utf-8"), re.M))
+
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DIST = ROOT / "site" / "dist"
 DATA = ROOT / "data"
@@ -178,7 +198,7 @@ def check_assets(r, docs):
             if not path.startswith("/"):
                 continue
             # the site is served under a base; strip it
-            for base in ("/TheLerena/", "/"):
+            for base in ((BASE + "/") if BASE else "/", "/"):
                 if path.startswith(base):
                     stub = path[len(base):]
                     break
@@ -290,9 +310,13 @@ def check_reach(r, docs):
                 linked.add(a.rstrip("/") + "/")
     orphans = []
     for p, _ in docs:
-        route = "/TheLerena" + ("/" + p.relative_to(DIST).parent.as_posix()).replace("/.", "") + "/"
+        route = BASE + ("/" + p.relative_to(DIST).parent.as_posix()).replace("/.", "") + "/"
         route = route.replace("//", "/")
-        if route in ("/TheLerena/",):
+        if route in ((BASE + "/") if BASE else "/",):
+            continue
+        # A redirect stub is unlinked ON PURPOSE: it exists to catch an old address, and nothing
+        # should link to it. 24 of the 24 pages this check reported on 13 October were stubs.
+        if route.rstrip("/") in REDIRECT_SOURCES:
             continue
         if route not in linked:
             orphans.append(route)

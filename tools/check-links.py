@@ -12,7 +12,23 @@ import os, pathlib, re, sys
 from collections import defaultdict
 
 ROOT = "site/dist"
-BASE = "/TheLerena"
+# *** THE BASE IS READ FROM THE BUILD CONFIG, NOT WRITTEN HERE. ***
+# This used to be BASE = "/TheLerena". On 12 October 2026 the archive moved to its own domain with
+# base "/", every link became root-relative (/about/), and `if not h.startswith(BASE): continue`
+# below then skipped ALL OF THEM. Measured on 13 October: 136,414 internal hrefs in the built site,
+# ZERO examined. The checker kept printing "ok" for a day because nothing in it could notice that it
+# had read nothing - it guarded against an EMPTY dist but not against a full one it could not see
+# into. Found by a sibling session (Booyzen's gallery.py failed the same way, silently).
+def _read_base():
+    cfg = pathlib.Path("site/astro.config.mjs").read_text(encoding="utf-8")
+    m = re.search(r"\bbase:\s*['\"]([^'\"]*)['\"]", cfg)
+    if not m:
+        sys.exit("check-links: cannot find `base:` in site/astro.config.mjs - refusing to guess")
+    return "" if m.group(1) in ("/", "") else m.group(1).rstrip("/")
+
+
+BASE = _read_base()
+EXAMINED = 0  # internal links actually tested; a pass over zero is not a pass
 ASSET = (".css", ".js", ".png", ".jpg", ".jpeg", ".svg", ".xml", ".ico", ".webp", ".json", ".pdf")
 
 pages, ids = set(), defaultdict(set)
@@ -45,8 +61,14 @@ for fp in html_files:
             if h[1:] and h[1:] not in ids[here]:
                 bad.append((fp, h, "no such id on this page"))
             continue
-        if not h.startswith(BASE):
+        # INTERNAL means: starts with the base, and when the base is "" that means any root-relative
+        # path - but never a protocol-relative one (//host/...), which is somebody else's server.
+        if BASE:
+            if not h.startswith(BASE):
+                continue
+        elif not h.startswith("/") or h.startswith("//"):
             continue
+        EXAMINED += 1
         target, _, frag = h[len(BASE):].partition("#")
         # Assets carry a ?v=<hash> cache-busting fingerprint; strip it before testing the path.
         target = target.split("?", 1)[0] or "/"
@@ -137,7 +159,15 @@ for fp in sorted(SRC.rglob("*.astro")):
 # and passed - the deploy gate reporting success over a site that did not exist. A checker that
 # cannot fail on nothing is not a gate.
 MIN_PAGES = 50
-print(f"{len(pages)} pages, {len(html_files)} html files, {sum(len(v) for v in ids.values())} ids")
+print(f"{len(pages)} pages, {len(html_files)} html files, {sum(len(v) for v in ids.values())} ids, "
+      f"{EXAMINED:,} internal links examined (base {BASE or '/'!r})")
+# A pass over (almost) no links is the checker being blind, not the site being clean. The floor is
+# deliberately far below the real figure (~136,000) so it never fires on a healthy build.
+MIN_LINKS = 1000
+if EXAMINED < MIN_LINKS:
+    print(f"  FAIL  links      examined only {EXAMINED} internal links (floor {MIN_LINKS}) - the base "
+          f"{BASE!r} probably does not match the built hrefs")
+    sys.exit(1)
 if len(pages) < MIN_PAGES:
     print(f"\nREFUSING TO PASS: only {len(pages)} pages in dist, expected at least {MIN_PAGES}.")
     print("   An empty or near-empty build means `astro build` failed while still exiting 0.")
