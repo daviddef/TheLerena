@@ -1796,5 +1796,36 @@
    "familysearch"
   ],
   "note": "No waypoint established - image ark and apid TH-909-51330-118270-69 only; volume label 'San Gil. Religious Marriage Records 1852-1881', image group M99P-TPR. NOT a compound: margin and body both read 'Wenceslaa Maria Lerena, natural de esta ciudad, e hija de Andres, ya difunto, y de Joaquina Lozano'. One surname; her mother was a LOZANO. Also NOT Navarrete - the act is San Gil de esta ciudad de Guadalajara. The archive's 14 September compound test stands."
+ },
+ {
+  "src": "FamilySearch full text - Lerena-first compound surnames as phrases (Lerena Pelaez, Lerena Lenguas, Lerena Fernandez, Lerena Traibel), corpus-wide",
+  "url": "https://www.familysearch.org/search/full-text/results?q.text=%22Lerena%20Pelaez%22",
+  "what": "The gap in the September dispensation sweep - whether compounds with Lerena FIRST are written at all",
+  "when": "2026-10-12",
+  "outcome": "yield",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "montevideo",
+   "uruguay",
+   "familysearch",
+   "method"
+  ],
+  "note": "Lerena Pelaez returns Trinidad (Flores) confirmations 1891-1905; Lerena Lenguas returns three Montevideo volumes; Lerena Fernandez two more; Lerena Traibel is a true corpus-wide null. Controlled against 'Lerena y Lerena' in the same session, which returns a full page. NOT EXHAUSTIVE: the result sets were not paged, and the Marriage Dispensation Register did not appear in any top-ranked list - suggestive only. The errand stays open with the eight forms written into it."
+ },
+ {
+  "src": "FamilySearch full text - whether the Iglesia del Cordon, Montevideo registers are machine-read",
+  "url": "https://www.familysearch.org/search/full-text/results?q.text=%22Lerena%20y%20Lerena%22",
+  "what": "Whether a standing errand on the Cordon can be run from the desk",
+  "when": "2026-10-12",
+  "outcome": "yield",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "montevideo",
+   "uruguay",
+   "familysearch"
+  ],
+  "note": "Established in passing: 'Nuestra Senora del Carmen La Mayor, Cordon, Montevideo. Baptism Records 1891-1892' and '1900-1902' are both in the full-text corpus. The errand is cheaper than it looked. No Lerena entry in those volumes has yet been opened."
  }
 ]

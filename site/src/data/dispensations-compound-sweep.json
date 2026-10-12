@@ -1,0 +1,34 @@
+[
+ {
+  "what": "*** THE GAP THE OLD FORMULAE COULD NOT REACH ***",
+  "the query": "the two formulae of 13 September - 'Lerena el impedimento' and 'Lerena feligresa'",
+  "result": "*** THEY CATCH LERENA-SECOND COMPOUNDS AND MISS LERENA-FIRST ONES ***",
+  "what was already known": "The sweep that produced eight dispensations in seventy-six years was built on two phrases in which LERENA sits immediately before the next word.",
+  "what it means": "*** A COMPOUND WHERE LERENA COMES SECOND IS STILL CAUGHT *** - 'Gonzalez Lerena el impedimento' contains 'Lerena el impedimento'. *** A COMPOUND WHERE LERENA COMES FIRST IS NOT: *** 'Lerena Pelaez el impedimento' does not contain either phrase, because a surname has been pushed in between. *** That is the whole of the gap, and it is the opposite of the reason the errand was raised. *** The errand's premise was that Lerena is often a MATERNAL surname and so comes second - but it is precisely second-position Lerenas that the old sweep already caught.",
+  "when": "12 Oct 2026"
+ },
+ {
+  "what": "*** AND THE GAP IS NOT EMPTY ***",
+  "the query": "full-text phrase searches for Lerena-first compounds, corpus-wide",
+  "result": "*** LERENA PELAEZ, LERENA LENGUAS and LERENA FERNANDEZ all return records; LERENA TRAIBEL returns none ***",
+  "what was already known": "It was possible that clerks never wrote the compound at all - the archive's own compound test of 14 September found forty-three doublings and no genuine Uruguayan compound.",
+  "what it means": "*** THEY DO WRITE IT. *** 'Lerena Pelaez' appears in *** Santisima Trinidad, Trinidad, Flores. Confirmation Records 1891-1905 ***; 'Lerena Lenguas' in Santiago, Ciudad Vieja death records 1895-1900, La Union marriages 1902-1934 and Montevideo deaths 1910-1914; 'Lerena Fernandez' in Montevideo deaths 1972 and Lavalleja deaths 1924. *** Controlled: 'Lerena y Lerena' in the same form and session returns a full page of volumes, so a zero here is a zero. *** 'Lerena Traibel' is a true null corpus-wide - which is itself worth knowing, because the Traibel branch is the best-documented one in this archive.",
+  "when": "12 Oct 2026"
+ },
+ {
+  "what": "*** WHAT IS NOT DONE, AND SAYING SO ***",
+  "the query": "the dispensation register itself, searched on the compound forms",
+  "result": "*** NOT YET RUN TO EXHAUSTION - THE ERRAND STAYS OPEN ***",
+  "what was already known": "None of the compound searches above put the Marriage Dispensation Register in its top results, which is suggestive and is not proof.",
+  "what it means": "*** A TOP-RANKED LIST IS NOT A SEARCHED VOLUME. *** FamilySearch's full-text results paginate and rank, and this archive has twice recorded what happens when a ranked list is read as a filtered one - once at 290 records and once at *** herencia. *** So the honest position is: *** the gap is identified, the forms to use are now known, and the pages have not been turned. *** What remains is to page every result set for Lerena Pelaez, Lerena Lenguas, Lerena Fernandez, Lerena Villademoros, Lerena Juanico, Lerena Cardozo, Lerena Larriera and Lerena Razzetti, and look for the dispensation volume in each.",
+  "when": "12 Oct 2026"
+ },
+ {
+  "what": "*** AND ONE THING THE CONTROL HANDED OVER FREE ***",
+  "the query": "the 'Lerena y Lerena' control search",
+  "result": "*** THE IGLESIA DEL CORDON REGISTERS ARE IN THE FULL-TEXT CORPUS ***",
+  "what was already known": "A separate errand has stood ready since September: search the Iglesia del Cordon, Montevideo. It had not been established that the volumes were machine-read at all.",
+  "what it means": "*** THEY ARE: Nuestra Senora del Carmen La Mayor, Cordon, Montevideo. Baptism Records 1891-1892 and 1900-1902 *** both surfaced in the control. The Cordon is also where film 007713392 image 2511 sits - the Cementerio del Cordon act this archive already read to kill a false compound. *** The errand is cheaper than it looked and can be run from this desk. ***",
+  "when": "12 Oct 2026"
+ }
+]

@@ -7,6 +7,7 @@ import dgs from "../data/dgs-audit.json";
 import traps from "../data/forename-traps.json";
 import zeros from "../data/false-zeros.json";
 import ftfinds from "../data/fulltext-finds-2026-10-11.json";
+import dComp from "../data/dispensations-compound-sweep.json";
 import certs from "../data/1852-aguada-union-certificates.json";
 ---
 <Base title="Method"
@@ -583,6 +584,49 @@ import certs from "../data/1852-aguada-union-certificates.json";
       nine years earlier than anything else held, a birthplace that closed the very question the trip
       was to answer, and a blank line on a consular form that says more about the Rosario search than
       three weeks of reading registers did.</p>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-adjacency">A phrase search is an adjacency, and a surname can break it</h2>
+  <p class="dek">An unfinished sweep, published while it is unfinished, because the half that is
+    done changes how the other half must be run.</p>
+  <div class="prose">
+    <p>The Montevideo marriage-dispensation register was searched in September by two of the
+      register&rsquo;s own formulae &mdash; <em>&ldquo;Lerena el impedimento&rdquo;</em> for a
+      groom, <em>&ldquo;Lerena feligresa&rdquo;</em> for a bride, who is always named with her
+      parish. It returned <strong>eight Lerena dispensations in seventy-six years</strong>, and an
+      errand was raised to re-run it on compound surnames, on the reasoning that by 1900 Lerena is
+      largely a <strong>maternal</strong> surname in Uruguay and a surname-first sweep under-reads
+      the family.</p>
+    <p><strong>That reasoning was half wrong, and which half matters.</strong> A compound where
+      Lerena comes <em>second</em> is caught already: <em>Gonz&aacute;lez Lerena el impedimento</em>
+      still contains the phrase. <strong>The gap is compounds where Lerena comes first</strong>
+      &mdash; <em>Lerena Pel&aacute;ez el impedimento</em> contains neither formula, because a
+      second surname has been pushed into the middle of the adjacency. <strong>The searches were
+      blind to exactly the opposite of what the errand assumed.</strong></p>
+    <p><strong>And the gap is not empty.</strong> Clerks do write the compound:
+      <em>Lerena Pel&aacute;ez</em> appears in the Trinidad confirmation register of 1891&ndash;1905,
+      <em>Lerena Lenguas</em> in three Montevideo volumes, <em>Lerena Fern&aacute;ndez</em> in two
+      more. <em>Lerena Traibel</em> &mdash; the best-documented branch in this archive &mdash;
+      returns nothing at all, which is its own small fact.</p>
+  </div>
+  <dl class="kv" style="margin-top:18px">
+    {dComp.filter((r) => r["what"]).map((r) => (
+      <div><dt set:html={emph(r["what"])} /><dd>
+        <span class="cap" set:html={emph(r["the query"])} /><br />
+        <strong set:html={emph(r["result"])} /><br />
+        <span set:html={emph(r["what it means"])} />
+      </dd></div>
+    ))}
+  </dl>
+  <div class="prose" style="margin-top:18px">
+    <p class="cap"><strong>And what has not been done.</strong> None of those compound searches put
+      the dispensation register in its top results &mdash; which is suggestive, and is not proof.
+      <strong>A ranked list is not a searched volume</strong>, and this archive has been caught by
+      that twice already, once at &ldquo;290 records&rdquo; and once at <em>herencia</em>. The
+      pages have not been turned. <strong>The errand stays open, with the eight forms to use now
+      written into it.</strong> <a href={u("/errands/")}>The errands &rarr;</a></p>
   </div>
 </section>
 

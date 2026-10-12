@@ -92,7 +92,7 @@ for name in ("corrections", "errands", "gaps", "timeline", "photograph-these",
              "fulltext-finds-2026-10-11",
              "lerena-lines",
              "lerena-lines-unplaced",
-             "name-variants", "variant-parent-sweep", "navarrete-logrono"):
+             "name-variants", "variant-parent-sweep", "navarrete-logrono", "dispensations-compound-sweep"):
     data = rows(name)
     (OUT / f"{name}.json").write_text(json.dumps(data, indent=1, ensure_ascii=False) + "\n",
                                       encoding="utf-8")
