@@ -1985,5 +1985,21 @@
    "familysearch"
   ],
   "note": "CONTESTED, AND THAT IS THE FINDING. No waypoint established - image ark and apid TH-1951-36718-25784-7 only. The household reads: 229 - D. Pedro A. Lerena, varon, 40 | D.a Vicenta Vega, muger, 35 | D.a Emilia Lerena, 18 | D.n Pedro D.o, varon, 16 | D.a Vicenta D.o, muger, age struck. FamilySearch labels the volume 'Montevideo. Census 1850'; this archive dates the household c.1833, inferred from the head at forty matching Pedro Antonio Lerena b. 31 July 1793 - a couple attested independently in 1837 and 1852. A man born 1793 is 40 in 1833 and 57 in 1850. A third anchor, the son's 1896 death act (sixty-nine), wants a census of about 1843. No two agree. The attachment is unaffected - the death act names his parents - but the birth years of Emilia, Pedro and Vicenta LERENA Vega are now marked as resting on an unestablished date."
+ },
+ {
+  "src": "FamilySearch catalogue koha:1408224, 'Uruguay, Montevideo, censos, 1726-1860' - film 7499042 read item by item",
+  "url": "https://www.familysearch.org/en/search/catalog/koha:1408224",
+  "what": "The date of the enumeration behind Montevideo household 229",
+  "when": "2026-10-12",
+  "outcome": "yield",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "montevideo",
+   "uruguay",
+   "familysearch",
+   "method"
+  ],
+  "note": "SETTLED. The catalogue lists the film's items: item 1 = Padrones de habitantes, LIBRO 263, 1843; ITEM 2 = LIBRO 264, 1850; item 3 = libro 257, 1852-1853; libro 267, 1858. Household 229 is in item 2, so the enumeration is the padron of 1850 and this archive's c.1833 is withdrawn. Three derived birth years moved seventeen years later, and the head - entered at forty, so born about 1810 - is not Pedro Antonio Lerena born 31 July 1793; that holds under the 1843 book too, where he would be born about 1803. METHOD NOTE: the old date was inferred from the identification it was then used to support, and a catalogue entry naming the actual register book is what broke the circle - a volume label would not have."
  }
 ]

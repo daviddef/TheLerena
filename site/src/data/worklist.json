@@ -1712,13 +1712,13 @@
   {
    "n": 212,
    "what": "Date the enumeration behind household 229 — the volume says 1850, this archive says c.1833",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-10-12",
    "covers": [
     "err:me-redate-household-229"
    ],
-   "note": "**Worked and not closed; the answer is *contested*.** Read at the plate: *229 — D. Pedro A. Lerena, varón, 40 | D.ª Vicenta Vega, muger, 35 | D.ª Emilia Lerena, 18 | D.n Pedro D.º, varón, 16 | D.ª Vicenta D.º*. FamilySearch labels the volume **Montevideo. Census 1850**. This archive dates it **c.1833** — and that is not a loose guess: the head at forty matches **Pedro Antonio Lerena, born 31 July 1793**, husband of a Vicenta Vega of Cerro Largo, attested by a Catedral baptism of 1837 and by both standing godparents at the Aguada in 1852. A man born 1793 is forty in 1833 and **fifty-seven in 1850**. **And a third anchor agrees with neither**: the son's death act makes him sixty-nine in 1896, which wants a census of about 1843. **Until the enumeration is dated, household 229 is undated** and three birth years in the register rest on an assumption."
+   "note": "**Settled at catalogue level.** FamilySearch catalogue koha:1408224 lists film 7499042 item by item: item 1 = *Padrones de habitantes, libro 263, **1843***; **item 2 = libro 264, 1850**; item 3 = libro 257, 1852–53. Household 229 is in item 2, so the enumeration is **the padrón of 1850** and *c.1833* is withdrawn. **Three birth years moved seventeen years later** — Emilia c.1832, Pedro c.1834, Vicenta c.1838 — and the head, entered at forty, was born about 1810, so **he is not Pedro Antonio Lerena born 1793**. That holds under the 1843 book too. The old date had been inferred from the identification it was then used to support. [The correction](/corrections/)."
   }
  ],
  "accounts": [

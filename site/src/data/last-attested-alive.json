@@ -2254,25 +2254,25 @@
   "tier": "BIRTH ONLY"
  },
  {
-  "name": "Emilia LERENA Vega (b. c.1815)",
-  "born_est": "c.1815",
-  "last_attested_alive": "1793-Jul-31",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "name": "Emilia LERENA Vega (b. c.1832)",
+  "born_est": "1832c",
+  "last_attested_alive": "1832c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
-  "name": "Pedro LERENA Vega (b. c.1817)",
-  "born_est": "c.1817",
+  "name": "Pedro LERENA Vega (b. c.1834)",
+  "born_est": "1834c",
   "last_attested_alive": "1896-Nov-6",
   "basis": "explicit death date on this person's row",
   "tier": "DEATH"
  },
  {
-  "name": "Vicenta LERENA Vega (b. c.1821)",
-  "born_est": "c.1821",
-  "last_attested_alive": "1793-Jul-31",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "name": "Vicenta LERENA Vega (b. c.1838)",
+  "born_est": "1838c",
+  "last_attested_alive": "1838c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Maria LLERENA (Espanola, 60, head of Casa 2)",
