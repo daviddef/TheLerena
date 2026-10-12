@@ -1230,5 +1230,13 @@
   "what_is_true": "*** THE FLORES SET IS ABOUT TWENTY-TWO RECORDS AND THEY WERE ALL READ. *** The URL parameter *** q.anyPlace RANKS RESULTS, IT DOES NOT FILTER THEM ***: the search returns every SERENA in Uruguay - an ordinary Italian surname there - sorted so the Flores ones come first. Page one carried *** 22 *** Flores records; pages two and three carried *** ZERO BETWEEN THEM ***. So '290' is the size of the Serena surname in Uruguay, not the size of the seam, and the 190 'unread' records are other families in other departments. *** THE FINDINGS THEMSELVES ARE UNAFFECTED *** - the children of Custodio and Ema, of Juan Bernardo and Eduviges, and the rest were all on page one and are all still there.",
   "how_it_was_caught": "*** BY PAGING TO THE END INSTEAD OF STOPPING AT A COUNT, WHICH IS THE SAME LESSON AS THE HERENCIA ONE AND WAS LEARNED THE SAME WEEK. *** On 11 October this archive wrote: 'a result count is not a finding... every hit has to be read before it is counted.' *** IT THEN REPORTED A COUNT AS A FINDING THE NEXT DAY. *** The difference is that a place parameter LOOKS like a filter, and the only way to know is to page to where the matches stop.",
   "retired": ""
+ },
+ {
+  "date": "2026-10-12",
+  "severity": "serious",
+  "what_was_said": "*** That the gap in the dispensation sweep was a new finding *** - published yesterday on /method/ as 's-adjacency', in data/dispensations-compound-sweep.tsv and in a commit message, with the framing that the errand's premise was 'half wrong' and that this session had worked out which half.",
+  "what_is_true": "*** THE ARCHIVE HAD WRITTEN IT DOWN ON 14 SEPTEMBER, IN data/compound-surname-sweep.tsv, IN ALMOST THE SAME WORDS *** - 'its formula was LERENA FELIGRESA and the compound surname sits between the two words.' That file had already run the compound forms, already found the ninth dispensation (Jose Pedro Massera's petition of 19 June 1913 to marry Dona Ema Sixta LERENA JUANICO), and already drew the working rule from it. *** Nothing published yesterday about the mechanism was new, and the errand it was written against was STALE - the work had been done and the errand never closed. ***",
+  "how_it_was_caught": "*** By doing the work properly today and walking into the archive's own record of it. *** Opening the 1913 dispensation plate to check whether it was new led to a grep for Massera, which returned the September file. *** The published claim was caught by the only thing that catches this class of error - finishing the job rather than describing it. ***",
+  "retired": "the novelty claim on /method/ #s-adjacency and in data/dispensations-compound-sweep.tsv, rewritten 12 October 2026"
  }
 ]

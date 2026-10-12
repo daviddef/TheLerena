@@ -589,27 +589,33 @@ import certs from "../data/1852-aguada-union-certificates.json";
 
 <section class="blk">
   <h2 id="s-adjacency">A phrase search is an adjacency, and a surname can break it</h2>
-  <p class="dek">An unfinished sweep, published while it is unfinished, because the half that is
-    done changes how the other half must be run.</p>
+  <p class="dek">Finished 12 October 2026 &mdash; and the first thing it finished was a mistake
+    made the day before.</p>
   <div class="prose">
     <p>The Montevideo marriage-dispensation register was searched in September by two of the
       register&rsquo;s own formulae &mdash; <em>&ldquo;Lerena el impedimento&rdquo;</em> for a
       groom, <em>&ldquo;Lerena feligresa&rdquo;</em> for a bride, who is always named with her
-      parish. It returned <strong>eight Lerena dispensations in seventy-six years</strong>, and an
-      errand was raised to re-run it on compound surnames, on the reasoning that by 1900 Lerena is
-      largely a <strong>maternal</strong> surname in Uruguay and a surname-first sweep under-reads
-      the family.</p>
-    <p><strong>That reasoning was half wrong, and which half matters.</strong> A compound where
-      Lerena comes <em>second</em> is caught already: <em>Gonz&aacute;lez Lerena el impedimento</em>
-      still contains the phrase. <strong>The gap is compounds where Lerena comes first</strong>
-      &mdash; <em>Lerena Pel&aacute;ez el impedimento</em> contains neither formula, because a
-      second surname has been pushed into the middle of the adjacency. <strong>The searches were
-      blind to exactly the opposite of what the errand assumed.</strong></p>
-    <p><strong>And the gap is not empty.</strong> Clerks do write the compound:
-      <em>Lerena Pel&aacute;ez</em> appears in the Trinidad confirmation register of 1891&ndash;1905,
-      <em>Lerena Lenguas</em> in three Montevideo volumes, <em>Lerena Fern&aacute;ndez</em> in two
-      more. <em>Lerena Traibel</em> &mdash; the best-documented branch in this archive &mdash;
-      returns nothing at all, which is its own small fact.</p>
+      parish. It returned <strong>eight Lerena dispensations in seventy-six years</strong>. The
+      formulae are adjacencies, and <strong>a compound surname sits down in the middle of one</strong>:
+      <em>Lerena Juanico feligresa</em> does not contain <em>Lerena feligresa</em>, so a woman can
+      be invisible to the search purely because her surname is two words long.</p>
+    <p><strong>This page published that on 11 October as a new finding, and it was not one.</strong>
+      The archive had worked it out on <strong>14 September</strong>, written it down in almost the
+      same words, and used it to find a <strong>ninth</strong> dispensation &mdash; Jos&eacute;
+      Pedro Massera&rsquo;s petition of 19 June 1913 to marry <strong>Do&ntilde;a Ema Sixta Lerena
+      Juanico</strong>, <em>feligresa de la metropolitana</em>. The errand this work was done
+      against had been <strong>stale for a month</strong>: the job was half finished and the errand
+      never closed. <a href={u("/corrections/")}>The correction &rarr;</a></p>
+    <p><strong>What today adds is the other half.</strong> September ran four compound forms. Six
+      had never been run. All eight have now been run <strong>to the end of their result sets</strong>
+      rather than to the end of the first page &mdash; FamilySearch takes <code>count=100</code> in
+      the results URL, and without it this would have been the ranked-list mistake this archive has
+      already made twice.</p>
+    <p><strong>The answer is a null, and a controlled one.</strong> Two of the eight forms reach the
+      dispensation register and <strong>both land on dispensations already held</strong> &mdash;
+      1911 through <em>Lerena Cardozo</em>, 1913 through <em>Lerena Juanico</em>. The queries
+      demonstrably hit the target, and there is nothing else in it. <strong>There is no tenth
+      Lerena dispensation.</strong></p>
   </div>
   <dl class="kv" style="margin-top:18px">
     {dComp.filter((r) => r["what"]).map((r) => (
@@ -621,12 +627,12 @@ import certs from "../data/1852-aguada-union-certificates.json";
     ))}
   </dl>
   <div class="prose" style="margin-top:18px">
-    <p class="cap"><strong>And what has not been done.</strong> None of those compound searches put
-      the dispensation register in its top results &mdash; which is suggestive, and is not proof.
-      <strong>A ranked list is not a searched volume</strong>, and this archive has been caught by
-      that twice already, once at &ldquo;290 records&rdquo; and once at <em>herencia</em>. The
-      pages have not been turned. <strong>The errand stays open, with the eight forms to use now
-      written into it.</strong> <a href={u("/errands/")}>The errands &rarr;</a></p>
+    <p class="cap"><strong>And what it rests on.</strong> No compound form touches
+      the register except the two that land on dispensations already known. <strong>That is what a
+      controlled null looks like</strong>: the method is shown to reach the target before its
+      silence is believed. <strong>The errand is closed.</strong> What would still overturn it is a
+      compound form nobody here has met &mdash; the standing weakness of every surname-based sweep
+      in this archive. <a href={u("/errands/")}>The errands &rarr;</a></p>
   </div>
 </section>
 

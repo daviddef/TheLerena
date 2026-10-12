@@ -211,8 +211,8 @@
   "key": "me-f8f4da",
   "what": "Re-run the Montevideo dispensation sweep on COMPOUND surnames",
   "who": "me",
-  "status": "ready",
-  "detail": "SHARPENED 12 October 2026 - see data/dispensations-compound-sweep.tsv. The premise was half wrong: the old formulae ('Lerena el impedimento', 'Lerena feligresa') DO catch compounds where Lerena comes SECOND, because adjacency survives. What they cannot catch is Lerena FIRST - 'Lerena Pelaez el impedimento' contains neither phrase. That gap is proven non-empty: Lerena Pelaez, Lerena Lenguas and Lerena Fernandez all return full-text records (Lerena Traibel is a true corpus-wide null), controlled against 'Lerena y Lerena' in the same session. WHAT REMAINS: page every result set for Lerena Pelaez, Lerena Lenguas, Lerena Fernandez, Lerena Villademoros, Lerena Juanico, Lerena Cardozo, Lerena Larriera and Lerena Razzetti, looking for the Marriage Dispensation Register in each. A ranked list is not a searched volume, and this archive has been caught by that twice.",
+  "status": "done",
+  "detail": "CLOSED 12 October 2026. *** AND IT WAS ALREADY HALF DONE WHEN IT WAS RAISED *** - data/compound-surname-sweep.tsv ran Lerena Juanico, Lerena Lenguas and Lerena Traibel on 14 September and found the NINTH dispensation through it (Jose Pedro Massera x Ema Sixta LERENA JUANICO, 19 June 1913). The errand stayed open for a month against work that had partly been done. Today the remaining five forms were run - Lerena Pelaez, Lerena Fernandez, Lerena Villademoros, Lerena Cardozo, Lerena Larriera, Lerena Razzetti - each to the END of its result set using count=100 rather than to the end of its first page. RESULT: Lerena Cardozo reaches the 1911 dispensation already held, which makes it a control; no other compound touches the register. *** NO TENTH LERENA DISPENSATION. *** See data/dispensations-compound-sweep.tsv and the correction of 12 October.",
   "sent_on": "-"
  },
  {
