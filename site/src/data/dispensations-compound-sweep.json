@@ -1,7 +1,7 @@
 [
  {
   "what": "*** FIRST, WHAT THIS FILE GOT WRONG ***",
-  "the query": "published 11 October as a new finding, corrected 12 October",
+  "the query": "published at midday on 12 October as a new finding, corrected twenty-six minutes later",
   "result": "*** THE MECHANISM WAS NOT NEW. THE ARCHIVE FOUND IT ON 14 SEPTEMBER. ***",
   "what was already known": "data/compound-surname-sweep.tsv says it in almost these words: the September sweep's formula was LERENA FELIGRESA *** and the compound surname sits between the two words. *** That file had already run Lerena Juanico, Lerena Lenguas and Lerena Traibel, and had already found the NINTH dispensation through it.",
   "what it means": "*** SO THE ERRAND THIS FILE WAS WRITTEN AGAINST WAS STALE - the work was partly done and the errand never closed - and this file announced a known mechanism as a discovery. *** It is kept, rewritten, rather than deleted, because an archive that quietly removes its duplicated findings cannot tell how often it duplicates them. See data/corrections.tsv, 12 October.",

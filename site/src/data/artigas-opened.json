@@ -2,7 +2,7 @@
  {
   "what": "*** A DEPARTMENT THIS ARCHIVE HAD NEVER OPENED ***",
   "the query": "record index, each of eight spellings exact, q.anyPlace = Artigas, Uruguay",
-  "result": "*** THE COUNTS PUBLISHED HERE THIS AFTERNOON WERE WRONG AND ARE WITHDRAWN. ***",
+  "result": "*** THE COUNTS PUBLISHED HERE ON 12 OCTOBER WERE WRONG AND ARE WITHDRAWN. ***",
   "what was already known": "Artigas, on the Brazilian border, appears nowhere in this archive's searched list. Everything here assumes the family runs Canelones to Montevideo to Trinidad.",
   "what it means": "*** q.anyPlace FALLS BACK TO THE COUNTRY. *** 'Nonesuch, Uruguay' - a department that does not exist - returns 1,787, the whole-country figure; and records indexed only to 'Uruguay', or to no place at all, satisfy every departmental query. *** Of the first hundred hits, 15 name Artigas, 28 name somewhere else entirely, and 57 carry no place in the index. *** So '208 against 699 for Flores' compared two inflated numbers and meant nothing. *** The honest statement is that Artigas is a department this archive has never worked and that a Lerena family demonstrably lived there - which is still true, and is still worth a session. *** See data/corrections.tsv, 12 October.",
   "when": "12 Oct 2026"
@@ -19,7 +19,7 @@
   "what": "*** BENITO LERENA'S HOUSEHOLD, AND WHAT IT COST HIM ***",
   "the query": "the 208, read for the man found on act 110 of 1899",
   "result": "*** FIVE INFANT DEATHS REGISTERED AT ARTIGAS BETWEEN 1893 AND 1902 ***",
-  "what was already known": "Benito Lerena was found this morning as the declarant on his grandson's birth act - 45 years old, a jornalero who could not sign his name.",
+  "what was already known": "Benito Lerena was found on 12 October as the declarant on his grandson's birth act - 45 years old, a jornalero who could not sign his name.",
   "what it means": "An unnamed child *** Lerena, died 6 November 1893 ***; another *** died 8 November 1894 ***; *** IDERSIO LERENA ARAUJO, died 19 December 1896 ***; *** GUMERSINDO LERENA, born 1898, died 8 March 1899 ***; and another *** died 25 July 1902. *** Gumersindo died ten weeks before Benito walked into the Juzgado de Paz to register his daughter's son. *** Index-level, every one: no act has been opened. ***",
   "when": "12 Oct 2026"
  },
@@ -27,7 +27,7 @@
   "what": "*** THE MOTHER THE INDEX COULD NOT NAME ***",
   "the query": "the same five deaths, read for the mother's surname",
   "result": "*** ARAUJO, CORDERO, CUESTIMA, ARAUJO CARDOZO - and 'Maria Cristina' with no surname at all ***",
-  "what was already known": "The act of 1899, read at the plate this morning, calls her *** Dona Maria Cristina, 43, brasilera *** and gives her NO SURNAME. That is how the act is written.",
+  "what was already known": "The act of 1899, read at the plate on 12 October, calls her *** Dona Maria Cristina, 43, brasilera *** and gives her NO SURNAME. That is how the act is written.",
   "what it means": "*** FOUR DIFFERENT SURNAMES FOR ONE WOMAN, IN ONE DEPARTMENT, IN NINE YEARS - because the record keeps handing the indexer a woman with one name and the index has a field that must be filled. *** ARAUJO is the likeliest reading: it appears twice, and once as Araujo Cardozo. *** This is the mother-manufacturing failure this archive already documented, caught in the open and five times over. ***",
   "when": "12 Oct 2026"
  },
