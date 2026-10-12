@@ -34,7 +34,7 @@
     "check:arity": "python3 ../tools/check-arity.py"
   },
   "dependencies": {
-    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#3c9214e9be65c2136325f7e35bb0d2544ee14d19",
+    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#e275c14df9ca81a9dcce761fe15bdf5f0f1a14e3",
     "astro": "^5.18.2"
   },
   "devDependencies": {

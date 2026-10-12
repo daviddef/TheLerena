@@ -1,10 +1,12 @@
 import { defineConfig } from 'astro/config';
 
-// GitHub Pages project site. Change `base` to '/' and `site` to the domain
-// if this ever moves to a custom domain.
+// Custom domain, from 12 October 2026: https://lerena.defranceski.com/
+// Served by GitHub Pages from this project repo. `base` is '/' and BASE is ''
+// because every link here is site-root relative; site/public/CNAME is what
+// keeps the domain attached across Actions deploys — see the note there.
 /* 9 October 2026. Two pages folded into pages that do the same job; their published
    addresses stay alive and land on the section that now holds them. */
-const BASE = '/TheLerena';
+const BASE = '';
 const redirects = {
   /* 12 October 2026. The army card spells him LORENA; the baptism act of San Cristobal,
      read at the plate the same day, spells him LERENA - and that act is what proved his
@@ -66,8 +68,8 @@ const redirects = {
 };
 
 export default defineConfig({
-  site: 'https://daviddef.github.io',
-  base: '/TheLerena',
+  site: 'https://lerena.defranceski.com',
+  base: '/',
   /* WHY outDir IS A VARIABLE, and why the default must stay 'dist'.
      Several sessions build this estate at once, and `astro build` EMPTIES its
      outDir before it refills it — so one session's build wipes the tree

@@ -20,8 +20,11 @@
 # `when` is coarse where the prose is coarse. A bare year means the section does not date itself more
 # precisely, and guessing a day to fill a column is how a register starts lying.
 # *** AND THE SAME BASE TRAP AS data/open-questions.tsv, IN A NEW SHAPE. *** `href` is passed
-# through the kit's u(), so a BARE #anchor becomes /TheLerena/#anchor - a link to the home page that
+# through the kit's u(), so a BARE #anchor became /TheLerena/#anchor - a link to the home page that
 # happens to carry a fragment no page there has. Thirty of them, every one caught by the anchor gate.
+# *** Since 12 October 2026 the base is '' and u() adds nothing, so a bare #anchor now resolves to
+# the HOME page rather than to a prefixed one - the same bug with a shorter path. The rule below is
+# unchanged and is still the fix. ***
 # The hrefs below are written /searched/#anchor so u() lands them on this page.
 when	src	what	got	outcome	href
 10 Sep 2026	Ejercito Argentino, Fichas de enrolamiento, Cajon 985 (Lera) — image group 112342450	Pablo Armando's own enrolment card	<strong>His father and mother, named.</strong> The one search on this page that answered the central question	found	/searched/#the-army-enrolment-drawer-the-one-that-worked
