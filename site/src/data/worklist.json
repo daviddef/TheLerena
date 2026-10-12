@@ -1701,13 +1701,24 @@
   {
    "n": 211,
    "what": "Open the 1896 Montevideo death act of Pedro A. Lerena",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-10-12",
    "covers": [
     "err:me-1896-pedro-lerena-death-act"
    ],
-   "note": "**The cheapest act in the archive right now.** Certificate 353, 7 November 1896, ark 1:1:6YDY-GP3T — volunteer-indexed, image unopened. The index already gives his parents as **Pedro A. Lerena and Vicenta de la Vega** and his spouse as **Manuela Lemos**, and those two facts answer two open questions from opposite ends: [Pedro LERENA Vega](/people/pedro-lerena-vega/) has exactly that parentage, and the Manuela Lemos row says in terms that which Pedro she married is not settled. **If the act confirms the index, a whole Montevideo line attaches to the trunk.**"
+   "note": "**Done the same evening it was raised.** The act confirms the index: *hijo legítimo de Don PEDRO A. LERENA, oriental, fallecido, y de Doña VICENTA DE LA VEGA, oriental, fallecida* — so the Pedro who married **Manuela Lemos** is a son of that couple, and the question this register asked on 11 October is answered. It also names three children new to the archive — **Antonio, Carlos Teodoro and Manuel Antonio** — and a fourth son, the declarant. **And it breaks a date:** sixty-nine in 1896 means born about 1827, so he is six in the census this archive dates c.1833, not sixteen. [Re-dating household 229](#) is now its own row."
+  },
+  {
+   "n": 212,
+   "what": "Re-date Montevideo household 229 — the c.1833 no longer fits",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-10-12",
+   "covers": [
+    "err:me-redate-household-229"
+   ],
+   "note": "Pedro LERENA Vega is read as **sixteen** in household 229, which this archive dates **c.1833**, giving a birth about 1817. His death act of 7 November 1896, read at the plate, makes him **sixty-nine** and *nacido en Montevideo* — born about **1827**, which puts him at six in 1833 and sixteen in **1843**. The act names his parents outright, so the attachment is safe; **the census date is not**. If the enumeration is 1843, every age-derived birth year taken from that household needs re-checking — his sister **Emilia LERENA Vega** among them."
   }
  ],
  "accounts": [

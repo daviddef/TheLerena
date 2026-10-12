@@ -355,8 +355,16 @@
   "key": "me-1896-pedro-lerena-death-act",
   "what": "*** Open the Montevideo death act of PEDRO A. LERENA, 6 November 1896, certificate 353 ***",
   "who": "me",
+  "status": "done",
+  "detail": "DONE THE SAME EVENING IT WAS RAISED, 12 October 2026, and the act confirms the index. Acta No. 353, 15a Seccion de la Capital, image ark 3:1:3Q9M-CS2W-H39V-V, PLATE READ at apid TH-909-72188-82458-0. PEDRO LERENA, nacido en Montevideo, 69 years old, casado, died at five in the afternoon of 6 November 1896 at calle Rivera No. 163 of tisis pulmonar, certified by Dr Vitale, before Vicente Carricaonde. 'HIJO LEGITIMO DE DON PEDRO A. LERENA, ORIENTAL, FALLECIDO, Y DE DONA VICENTA DE LA VEGA, ORIENTAL, FALLECIDA.' Wife: Dona Manuela, oriental, 53. Children named: ANTONIO, CARLOS TEODORO and MANUEL ANTONIO, plus the first declarant Don Pedro A. Lerena, soltero, empleado, 'hijo del fallecido'. WHAT IT SETTLES: which Pedro married Manuela Lemos, asked on this register's own row on 11 October. WHAT IT BREAKS: the date of household 229 - 69 in 1896 means born about 1827, and a man born 1827 is six in 1833, not sixteen. Either the census is later than c.1833 or the sixteen-year-old is a different son of the same couple. NEW ERRAND RAISED: re-date household 229.",
+  "sent_on": ""
+ },
+ {
+  "key": "me-redate-household-229",
+  "what": "*** Re-date Montevideo household 229 - the c.1833 no longer fits ***",
+  "who": "me",
   "status": "ready",
-  "detail": "Index ark 1:1:6YDY-GP3T, volume 'Montevideo. Death Records 1896'; volunteer-indexed, image not yet opened. WHY IT IS THE CHEAPEST ACT IN THE ARCHIVE RIGHT NOW: the index already gives his parents as PEDRO A. LERENA and VICENTA DE LA VEGA and his spouse as MANUELA LEMOS. Those two facts meet two separate open questions from opposite ends - PEDRO LERENA VEGA, counted at sixteen in Montevideo household 229 about 1833, has exactly that parentage; and the Manuela LEMOS row entered 11 October says in terms that which Pedro she married is not settled. If the act confirms the index, a whole Montevideo line - Felicia Clementina b. c.1868, Pedro Antonio b.1875, Manuel Antonio b.1883, and Manuel Antonio's sons by Esther Evia - attaches to this archive's trunk. Also worth checking against it: his age, given as 69, against the c.1817 the census age implies.",
+  "detail": "Uruguay census 1726-1858, household 229, ark 3:1:3QS7-99ZP-BBKX. This archive dates it c.1833 and reads Pedro LERENA Vega as sixteen there, giving him a birth about 1817. His death act of 7 November 1896, read at the plate, makes him SIXTY-NINE and nacido en Montevideo - born about 1827, which would put him at six in 1833 and sixteen in 1843. The act names his parents outright, so the attachment is not in doubt; the census date is. WHAT TO DO: open the image again and find what actually dates the enumeration, and re-read his age. If the census is 1843 rather than 1833, every age-derived birth year taken from that household needs re-checking - his sister Emilia LERENA Vega among them.",
   "sent_on": ""
  }
 ]

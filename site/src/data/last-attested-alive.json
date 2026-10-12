@@ -3347,7 +3347,7 @@
  },
  {
   "name": "Manuela LEMOS (m. Pedro A. LERENA)",
-  "born_est": "-",
+  "born_est": "1843c",
   "last_attested_alive": "1896-Nov-6",
   "basis": "explicit death date on this person's row",
   "tier": "DEATH"
@@ -4721,6 +4721,34 @@
   "name": "Salvador LERENA (b.1896)",
   "born_est": "1896-09-21",
   "last_attested_alive": "1896-09-21",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Antonio LERENA Lemos",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Carlos Teodoro LERENA Lemos",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Pedro A. LERENA (the younger, declarant 1896)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Angel V. GARCIA (declarant, 1896)",
+  "born_est": "1871c",
+  "last_attested_alive": "1871c",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  }
