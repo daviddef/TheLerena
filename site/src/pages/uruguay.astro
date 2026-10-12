@@ -51,6 +51,7 @@ import dCordon from "../data/cordon-sized.json";
 import dCordonLeads from "../data/cordon-leads-worked.json";
 import dArtigas from "../data/artigas-opened.json";
 import dSarandi from "../data/sarandi-229-1850.json";
+import dDeaths from "../data/cordon-deaths.json";
 import fouracts from "../data/lerena-pelaez-four-acts.json";
 import zald from "../data/zalduondo-lerena-three-acts.json";
 import ftf from "../data/fulltext-finds-2026-10-11.json";
@@ -58,6 +59,55 @@ import ftf from "../data/fulltext-finds-2026-10-11.json";
 <Base title="Uruguay"
       eyebrow="Two Lerena families, two Spanish origins, and neither of them is his"
       dek="There are two documented Lerena families in nineteenth-century Uruguay, and on 17 September 2026 a baptism act of 1812 settled what they are to each other: nothing. One came from Córdoba in Andalusia, the other from Valdemoro outside Madrid. The surname entered the Banda Oriental twice, from opposite ends of Spain.">
+
+<section class="blk">
+  <h2 id="s-cordon-deaths">The Cord&oacute;n death registers, and a woman found on Monday had been dead since 1869</h2>
+  <p class="dek">13 October 2026. Four people were looked for and none was found &mdash; but the
+    first book opened carried two children, a death, and the family Leonarda married into.</p>
+  <div class="prose">
+    <p>The parish holds about ninety-five documents of this surname, and <strong>thirteen of them
+      sit in its own death and burial books</strong> &mdash; deaths of 1839&ndash;52 and
+      1869&ndash;77, burials of 1885&ndash;92, 1892&ndash;97, 1897&ndash;1901, 1908&ndash;14 and
+      1918&ndash;26. That list is the first this archive has had. <strong>Two were read; eleven are
+      unread.</strong></p>
+    <p><strong>And the first one opened carried this.</strong> <em>&ldquo;En cinco de Agosto de mil
+      ochoc.<sup>s</sup> sesenta y nueve, <strong>murieron</strong> Vicenta Lavi&ntilde;a, de cuatro
+      a&ntilde;os, y Manuela Lavi&ntilde;a, de tres a&ntilde;os, hija de D. Xavier (hijo) y de
+      <strong>la finada Leonarda Lerena</strong>.&rdquo;</em> <strong>Two sisters, four and three,
+      recorded dead in a single line</strong> &mdash; and their mother already gone.</p>
+    <p><strong>Which would make it a death for a woman this archive found the day before.</strong>
+      <a href={u("/uruguay/#s-sarandi")}>Leonarda Margarita Lerena Vega</a>, born 20 February 1837,
+      was placed on Monday at casa 229 of Calle Sarand&iacute; in the padr&oacute;n of 1850. The
+      forename is uncommon, the parish is the one she was living in, her daughters were born about
+      1865 and 1866 when she would have been twenty-eight, and she would be about
+      <strong>thirty-two</strong> at death. <strong>It is a candidate and not a merge</strong> &mdash;
+      what would settle it is her own death act or the girls&rsquo; baptisms, and neither is found.
+      <em>&ldquo;Leonarda Lerena&rdquo;</em> as a phrase returns <strong>one document in the whole
+      corpus</strong>, and it is this one.</p>
+    <p><strong>The family she married into is now named.</strong> Her husband is <em>Xavier
+      Lavi&ntilde;a the younger</em>; his father <strong>Don Xavier Lavi&ntilde;a</strong> and mother
+      <strong>Do&ntilde;a Manuela Goyeneche</strong> are named in the 1861 marriage dispensation of
+      his brother <strong>Emilio Lavi&ntilde;a y Goyeneche</strong>, born about 1837 at San Pedro del
+      Durazno.</p>
+    <p class="cap"><strong>And that dispensation tested a conclusion made the day before.</strong>
+      On 12 October this archive swept the Montevideo dispensation register on eight compound Lerena
+      forms and concluded there is no tenth Lerena dispensation. This one arrived under
+      <em>Lavi&ntilde;a</em> &mdash; invisible to that sweep &mdash; and turns out <strong>not</strong>
+      to be a Lerena dispensation at all. <strong>The conclusion survived a test it was not designed
+      for</strong>, which is worth more than the conclusion was. It also shows the next doubt: a
+      Lerena <em>bride</em> whose dispensation is filed under her husband&rsquo;s surname would be
+      missed by every sweep run so far.</p>
+  </div>
+  <dl class="kv" style="margin-top:18px">
+    {dDeaths.filter((r) => r["what"]).map((r) => (
+      <div><dt set:html={emph(r["what"])} /><dd>
+        <span class="cap" set:html={emph(r["the source"])} /><br />
+        <strong set:html={emph(r["result"])} /><br />
+        <span set:html={emph(r["what the act says"])} />
+      </dd></div>
+    ))}
+  </dl>
+</section>
 
 <section class="blk">
   <h2 id="s-sarandi">Casa 229 of Calle Sarand&iacute;, and four people who carry this name</h2>

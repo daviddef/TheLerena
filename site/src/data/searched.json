@@ -2111,5 +2111,36 @@
    "consul"
   ],
   "note": "BLOCKED, NOT SEARCHED. Gazettes 2594 of 30 December 1938 and 4389 of 26 May 1950 both surface on a search for 'Argentine Republic' and consul; both document pages sit behind a Cloudflare bot verification that did not clear on its own. This archive does not work around bot detection, so they are recorded as blocked. They are the single most decisive thing left on open question 2: if either names the Argentine consul of the day and it is not Pablo Armando Lerena, the claim is answered outright. Raised as an errand for an ordinary browser."
+ },
+ {
+  "src": "FamilySearch full text - Nuestra Senora del Carmen La Mayor, Cordon: the surname filtered to the parish's own DEATH and BURIAL volumes",
+  "url": "https://www.familysearch.org/search/full-text/results?count=100&q.text=Lerena&q.anyPlace=Cord%C3%B3n%2C%20Montevideo%2C%20Montevideo%2C%20Uruguay",
+  "what": "The four adults who carry the Lerena surname at casa 229 of Calle Sarandi in the padron of 1850",
+  "when": "2026-10-13",
+  "outcome": "yield",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "montevideo",
+   "cordon",
+   "uruguay",
+   "familysearch"
+  ],
+  "note": "THIRTEEN documents of the parish's ~95 sit in its death and burial books: Religious Death Records 1839-1852 and 1869-1877; Religious Burial Records 1885-1892, 1892-1897, 1897-1901, 1908-1914, 1918-1926. TWO READ, ELEVEN UNREAD. The four of Sarandi 229 are not in the two read, and the forename route is exhausted - 'Estanislada' with a Cordon filter returns nine pages. YIELD INSTEAD: the death entry of 5 August 1869 (plate read, apid TH-909-52378-67990-19) recording Vicenta Lavina, 4, and Manuela Lavina, 3, dead the same day, 'hija de D. Xavier (hijo) y de la finada LEONARDA LERENA' - a candidate death for Leonarda Margarita Lerena Vega, b. 20 Feb 1837, placed at Sarandi 229 the previous day. Not merged. Also Amelia Lerena, 9, dead 11 Nov 1871, transcript only."
+ },
+ {
+  "src": "FamilySearch full text - Arquidiocesis de Montevideo, Marriage Dispensation Records 1857-1860, dispensation No. 395 of 1861",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C9B7-VWDN-4",
+  "what": "Whether a Lavina dispensation is the marriage of Xavier Lavina to Leonarda Lerena",
+  "when": "2026-10-13",
+  "outcome": "yield",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "montevideo",
+   "uruguay",
+   "familysearch"
+  ],
+  "note": "IT IS NOT, and that is the useful part. No. 395 is Don EMILIO LAVINA Y GOYENECHE, 24, natural de San Pedro del Durazno, son of Don XAVIER LAVINA and Dona MANUELA GOYENECHE, marrying Dona Maria Eladia Ramona MENDOZA. So it names Leonarda's parents-in-law and her husband's brother, but is not a Lerena dispensation. IT ALSO TESTED THE PREVIOUS DAY'S CONCLUSION: the 12 October sweep found no tenth Lerena dispensation using eight compound LERENA forms; this document would have been invisible to that sweep because it is filed under LAVINA, and it turns out not to be a counter-example. The conclusion survives a test it was not designed for - and the next doubt is now named: a Lerena BRIDE whose dispensation is filed under her husband's surname."
  }
 ]

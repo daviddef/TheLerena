@@ -4793,5 +4793,54 @@
   "last_attested_alive": "1846-Apr-25",
   "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
   "tier": "ALIVE AT"
+ },
+ {
+  "name": "Vicenta LAVINA (1865c - 5 August 1869)",
+  "born_est": "1865c",
+  "last_attested_alive": "1865c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Manuela LAVINA (1866c - 5 August 1869)",
+  "born_est": "1866c",
+  "last_attested_alive": "1866c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Xavier LAVINA (the younger, m. Leonarda LERENA)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Don Xavier LAVINA (the elder, m. Manuela GOYENECHE)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Dona Manuela GOYENECHE (m. Xavier LAVINA)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Emilio LAVINA y GOYENECHE (b. 1837c, m. 1861)",
+  "born_est": "1837c",
+  "last_attested_alive": "1837c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Amelia LERENA (d. 11 November 1871, aged 9)",
+  "born_est": "1862c",
+  "last_attested_alive": "1862c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]
