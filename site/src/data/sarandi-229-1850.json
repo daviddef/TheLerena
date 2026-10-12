@@ -22,5 +22,29 @@
   "what was already known": "The padron has no column for condition; it has colour, patria and estado, and it is the combination that speaks.",
   "what the plate says": "*** What is established: four adults recorded with the Lerena surname by ditto, three of them morena and one born in Africa, at Sarandi 229 in 1850. *** What is inferred and *** FILED AS INFERENCE ***: that the surname reached them the way Barbara's reached her son. *** What would settle it: the parish registers for these four names at the Cordon or the Catedral, where a baptism or a burial would say 'liberta' or 'esclava de' outright *** - and the Cordon burial registers of 1839-1852 are already in this archive's hands, unread. *** They are entered as people in their own right, because no role is furniture. ***",
   "when": "12 Oct 2026"
+ },
+ {
+  "what": "*** THE HOLDER FORMULA, SWEPT ACROSS EVERY LERENA THIS ARCHIVE CAN NAME ***",
+  "the source": "full text, the phrase 'esclava/esclavo/liberta de [holder]' run against each holder in turn, 12 October 2026",
+  "result": "*** TWO POSITIVES, AND BOTH ARE HOUSEHOLDS THIS ARCHIVE ALREADY HOLDS ***",
+  "what was already known": "The four adults at Sarandi 229 carry the surname with no act to say how it reached them. The parish formula is the thing that would say it.",
+  "what the plate says": "*** WORKS: 'esclava de Don Sancho Lerena' returns the Montevideo Catedral baptism of 1811-1813 *** - the act of 26 September 1812 for Maria Mercedes, daughter of Juana. *** WORKS: 'esclava de Don Alejandro Lerena' returns the San Jose de Mayo baptism AND burial of April 1846 *** - Barbara and her son Carmelo Anselmo. *** NOTHING: *** 'esclava de Don Pedro Antonio Lerena', 'esclava de Pedro Lerena', 'esclava de Luis Lerena', 'esclavo de Don Sancho Lerena', 'liberta de Don Pedro Lerena'. *** Two controls passing in the same form and session, so the nulls are real ones. ***",
+  "when": "12 Oct 2026"
+ },
+ {
+  "what": "*** AND THE ABBREVIATION IS THE WHOLE OF IT ***",
+  "the source": "the same phrase, written three ways",
+  "result": "*** 'esclava de D.n Alejandro Lerena' = NOTHING. 'esclava de Don Alejandro Lerena' = the two acts. 'esclava de Alejandro Lerena' = the two acts. ***",
+  "what was already known": "The act itself, read at the transcript, says *** 'esclava de Don Alejandro Lerena' ***.",
+  "what the plate says": "*** So the search tolerates a MISSING word and chokes on an ABBREVIATED one. *** D.n matches nothing; Don matches; dropping the honorific entirely matches. *** That is a narrow, exact rule and this archive's sources are full of D.n, D.a, S.n and V.a *** - every one of which will produce a confident empty page. Recorded in data/false-zeros.tsv.",
+  "when": "12 Oct 2026"
+ },
+ {
+  "what": "*** WHAT IT MEANS FOR THE FOUR AT SARANDI 229 ***",
+  "the source": "the sweep, read for what it does not find",
+  "result": "*** NO ACT IN THE SEARCHABLE CORPUS NAMES A LERENA AS THEIR HOLDER ***",
+  "what was already known": "Estanislada, Sinforiano, Manuela and Rosa carry the surname by ditto in the padron of 1850, and the census has no column for condition.",
+  "what the plate says": "*** Three readings survive and the sweep does not choose between them. *** (1) Their acts use other wording - 'parda libre', 'morena libre', or a forename with no holder at all, which is how *** Barbara appears on the BURIAL *** even though the baptism names her holder. (2) They were held by someone else and took the name another way. (3) Their acts are not transcribed. *** What is now excluded is only the narrow thing: that a surviving, transcribed parish act says 'esclava de' and then names a Lerena this archive can name. *** The errand to read the Cordon burials 1839-1852 by eye stands, and is now the only route left.",
+  "when": "12 Oct 2026"
  }
 ]

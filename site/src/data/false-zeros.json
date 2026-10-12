@@ -254,7 +254,7 @@
  {
   "disguise": "*** THE ABBREVIATION THAT BROKE A PHRASE SEARCH ***",
   "what it looked like": "*** 'esclava de D.n Alejandro Lerena' *** - a phrase this archive has READ, word for word, off a plate - returning *** No Results Found *** in full text. A clean, composed empty result on a phrase known to exist.",
-  "what it actually was": "*** THE ABBREVIATION. *** The same search as *** 'esclava de Alejandro Lerena' *** returns the two documents at once - the baptism and the burial. The machine transcript expands or drops 'D.n', so a phrase carrying the abbreviation matches nothing, while the same phrase without it matches both.",
+  "what it actually was": "*** THE ABBREVIATION. *** The same search as *** 'esclava de Alejandro Lerena' *** returns the two documents at once - the baptism and the burial. The rule is exact, and was pinned down the same hour by writing the phrase three ways: *** 'esclava de D.n Alejandro Lerena' matches NOTHING; 'esclava de Don Alejandro Lerena' matches; 'esclava de Alejandro Lerena' matches. *** So the search tolerates a MISSING word and chokes on an ABBREVIATED one.",
   "how it was caught": "*** By running the known phrase as a CONTROL before trusting two nulls built on the same shape. *** Those two - 'esclava de Don Pedro Lerena' and 'liberta de Don Pedro Lerena' - were about to be recorded. *** A phrase search is only as good as the transcriber's abbreviations, and this archive's sources are full of D.n, D.a, S.n and V.a. ***",
   "when": "12 Oct 2026"
  }

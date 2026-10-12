@@ -2064,5 +2064,22 @@
    "familysearch"
   ],
   "note": "NOT FOUND YET, AND THE NULLS ARE WEAK. The record index holds nothing for Estanislada or Sinforiano under Lerena or Serena. Full text as compound phrases returns nothing - but the compound is the wrong shape, since such people are commonly entered by forename alone, exactly as Barbara is on the 1846 burial. The forename alone is too common to sweep: 'Sinforiano' with a Cordon place filter returns four pages. WHAT IS ESTABLISHED, and it is encouraging: the vocabulary IS searchable - 'esclava' with a Cordon place filter returns 49 pages, concentrated in the baptism registers of 1818-1841 and the death register of 1809-1828. The errand to read the Cordon burials 1839-1852 for these four stands."
+ },
+ {
+  "src": "FamilySearch full text - the parish formula 'esclava/esclavo/liberta de [holder]' swept against every Lerena holder this archive can name",
+  "url": "https://www.familysearch.org/search/full-text/results?count=100&q.text=%22esclava%20de%20Don%20Sancho%20Lerena%22",
+  "what": "Whether any transcribed parish act names a Lerena as holder of the four who carry the surname at Sarandi 229 in 1850",
+  "when": "2026-10-12",
+  "outcome": "nothing",
+  "walked": true,
+  "tags": [
+   "lerena",
+   "montevideo",
+   "san-jose",
+   "uruguay",
+   "familysearch",
+   "method"
+  ],
+  "note": "CONTROLLED NULL, WITH TWO CONTROLS PASSING. Positives: 'esclava de Don Sancho Lerena' returns the Montevideo Catedral baptism register 1811-1813 (the act of 26 Sep 1812, Maria Mercedes daughter of Juana); 'esclava de Don Alejandro Lerena' returns the San Jose de Mayo baptism 1841-1869 and death 1839-1851 registers (Barbara and Carmelo Anselmo, April 1846). Nulls: 'esclava de Don Pedro Antonio Lerena', 'esclava de Pedro Lerena', 'esclava de Luis Lerena', 'esclavo de Don Sancho Lerena', 'liberta de Don Pedro Lerena'. SO THE ONLY TWO LERENA HOUSEHOLDS WITH A SURVIVING TRANSCRIBED ACT NAMING THEM AS HOLDERS ARE THE TWO ALREADY IN THIS REGISTER. The four at Sarandi 229 are not reachable this way - their acts may use 'parda libre' or name no holder, which is how Barbara appears on the burial. METHOD: the abbreviation D.n matches NOTHING; 'Don' matches; dropping the honorific matches."
  }
 ]
