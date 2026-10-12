@@ -371,8 +371,16 @@
   "key": "me-leonarda-1837-after-1850",
   "what": "Find LEONARDA MARGARITA LERENA VEGA after 1837 - she is not in the 1850 padron",
   "who": "me",
+  "status": "done",
+  "detail": "ANSWERED THE SAME EVENING, 12 October 2026. She was never missing from the padron of 1850 - only from her parents' house. She is entered at CASA 229 OF CALLE SARANDI (index ark 1:1:XMKF-FR3W, image ark 3:1:3QS7-89ZP-B99S-Z, plate read at apid TH-1961-36718-27970-97), blanca and oriental, aged ELEVEN where thirteen would be right. AND THE NUMBER WAS A TRAP: her parents are at a DIFFERENT casa 229 on another street, so there are at least two houses numbered 229 in one padron and 'household 229' was never an identifier. SHE IS ALSO THE ONLY WHITE PERSON IN THAT HOUSE: Estanislada 20 (morena), Sinforiano 19, Manuela 60 (patria AFRICA, casada) and Rosa 46 (oriental, casada) all carry the surname by ditto. Four people entered in their own right. See data/sarandi-229-1850.tsv.",
+  "sent_on": ""
+ },
+ {
+  "key": "me-cordon-burials-1839-1852",
+  "what": "*** Read the Cordon burial register 1839-1852 for Estanislada, Sinforiano, Manuela and Rosa ***",
+  "who": "me",
   "status": "ready",
-  "detail": "Born 20 February 1837, baptised at the Catedral de la Inmaculada Concepcion on 4 July 1837 (ark 3:1:3Q9M-C9B7-YSKH-H, image read 21 September 2026), daughter of Pedro A. LERENA and Vicenta VEGA. She is ABSENT from Montevideo household 229 in the padron of libro 264, 1850, where she would be thirteen and should be living with her parents. This archive used to offer that absence as proof the census predated her birth; that inference is withdrawn, because film 7499042 carries no padron earlier than 1843. SO WHERE IS SHE: a death before 1850, a marriage, or another household. WHERE TO LOOK: Montevideo parish burials 1837-1850, the Cordon and Catedral registers, and the 1843 padron (libro 263, item 1 of the same film), where she would be six and her presence or absence would narrow it.",
+  "detail": "The four adults who carry the LERENA surname at casa 229 of Calle Sarandi in the padron of 1850 - Estanislada 20, Sinforiano 19, Manuela 60 (patria AFRICA) and Rosa 46 - are recorded by a census that has NO COLUMN FOR CONDITION. A parish act would have one: burials and baptisms of this period write 'liberta', 'esclava de' or 'parda libre' outright. Nuestra Senora del Carmen La Mayor, Cordon - Religious Death Records 1839-1852 and Religious Burial Records 1885-1892 onward - are already identified in this archive's hands and unread, and the Catedral registers cover the same years. ALSO WORTH IT FOR ITS OWN SAKE: Manuela and Rosa are both recorded CASADA, so each has a husband who is not in that house.",
   "sent_on": ""
  }
 ]

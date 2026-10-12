@@ -50,6 +50,7 @@ import bridge from "../data/colla-trinidad-bridge.json";
 import dCordon from "../data/cordon-sized.json";
 import dCordonLeads from "../data/cordon-leads-worked.json";
 import dArtigas from "../data/artigas-opened.json";
+import dSarandi from "../data/sarandi-229-1850.json";
 import fouracts from "../data/lerena-pelaez-four-acts.json";
 import zald from "../data/zalduondo-lerena-three-acts.json";
 import ftf from "../data/fulltext-finds-2026-10-11.json";
@@ -57,6 +58,57 @@ import ftf from "../data/fulltext-finds-2026-10-11.json";
 <Base title="Uruguay"
       eyebrow="Two Lerena families, two Spanish origins, and neither of them is his"
       dek="There are two documented Lerena families in nineteenth-century Uruguay, and on 17 September 2026 a baptism act of 1812 settled what they are to each other: nothing. One came from Córdoba in Andalusia, the other from Valdemoro outside Madrid. The surname entered the Banda Oriental twice, from opposite ends of Spain.">
+
+<section class="blk">
+  <h2 id="s-sarandi">Casa 229 of Calle Sarand&iacute;, and four people who carry this name</h2>
+  <p class="dek">Found on 12 October 2026 while answering a two-hour-old question about one missing
+    child. The child was never missing. Four adults were never named.</p>
+  <div class="prose">
+    <p><strong>Leonarda Lerena, born 20 February 1837, is absent from her parents&rsquo; house in
+      the padr&oacute;n of 1850</strong>, and this archive had used that absence to date the census.
+      She is not absent from the padr&oacute;n. She is entered at <strong>casa 229 of Calle
+      Sarand&iacute;</strong>, <em>blanca</em> and <em>oriental</em>, aged eleven where thirteen
+      would be right.</p>
+    <p><strong>And the number was a trap.</strong> Her parents are at a <em>different</em> casa 229,
+      on another street. <strong>There are at least two houses numbered 229 in one padr&oacute;n</strong>
+      &mdash; so &ldquo;household 229&rdquo;, which this archive has used as a name for weeks and
+      named a file after, was never an identifier at all.</p>
+    <p><strong>She is also the only white person in that house.</strong> The four adults entered
+      with her carry the surname by ditto &mdash; <em>D.&ordm;</em> &mdash; and the other columns
+      say what the names do not:</p>
+    <ul>
+      <li><strong>Estanislada</strong>, 20, <em>morena</em></li>
+      <li><strong>Sinforiano</strong>, 19, the same</li>
+      <li><strong>Manuela</strong>, 60, <em>casada</em>, and her <em>patria</em> is
+        <strong>&Aacute;FRICA</strong></li>
+      <li><strong>Rosa</strong>, 46, <em>oriental</em>, <em>casada</em></li>
+    </ul>
+    <p>This archive has documented five people this family held in slavery &mdash; among them
+      <strong>B&aacute;rbara</strong>, named on an act of 1846 as <em>&ldquo;esclava de D.n
+      Alejandro Lerena&rdquo;</em>, whose son was baptised with no surname of his own. Slavery was
+      abolished in Uruguay in <strong>1842</strong>, so in 1850 these four are legally free, still
+      in the house, still under the name. <strong>Manuela is the first African-born person this
+      archive has been able to name in connection with this family</strong> &mdash; the others are
+      known only as <em>&ldquo;Barbara, esclava&rdquo;</em>, or by a forename on a baptism.</p>
+    <p class="cap"><strong>What is not claimed.</strong> The padr&oacute;n has no column for
+      condition. What is established is four adults recorded with this surname by ditto, three of
+      them <em>morena</em> and one born in Africa, at one address in 1850. That the surname reached
+      them as B&aacute;rbara&rsquo;s reached her son is <strong>an inference, and is filed as
+      one</strong>. What would settle it is a baptism or a burial at the Cord&oacute;n or the
+      Catedral, where the word would be written outright &mdash; and the Cord&oacute;n burial
+      register of 1839&ndash;1852 is already in this archive&rsquo;s hands, unread. <strong>They are
+      entered as people in their own right, because no role is furniture.</strong></p>
+  </div>
+  <dl class="kv" style="margin-top:18px">
+    {dSarandi.filter((r) => r["what"]).map((r) => (
+      <div><dt set:html={emph(r["what"])} /><dd>
+        <span class="cap" set:html={emph(r["the source"])} /><br />
+        <strong set:html={emph(r["result"])} /><br />
+        <span set:html={emph(r["what the plate says"])} />
+      </dd></div>
+    ))}
+  </dl>
+</section>
 
 <section class="blk">
   <h2 id="s-artigas">Artigas, the department nobody had opened</h2>

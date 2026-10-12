@@ -1719,6 +1719,17 @@
     "err:me-redate-household-229"
    ],
    "note": "**Settled at catalogue level.** FamilySearch catalogue koha:1408224 lists film 7499042 item by item: item 1 = *Padrones de habitantes, libro 263, **1843***; **item 2 = libro 264, 1850**; item 3 = libro 257, 1852–53. Household 229 is in item 2, so the enumeration is **the padrón of 1850** and *c.1833* is withdrawn. **Three birth years moved seventeen years later** — Emilia c.1832, Pedro c.1834, Vicenta c.1838 — and the head, entered at forty, was born about 1810, so **he is not Pedro Antonio Lerena born 1793**. That holds under the 1843 book too. The old date had been inferred from the identification it was then used to support. [The correction](/corrections/)."
+  },
+  {
+   "n": 213,
+   "what": "Read the Cordón burials for the four who carry this name at Sarandí 229",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-10-12",
+   "covers": [
+    "err:me-cordon-burials-1839-1852"
+   ],
+   "note": "**Estanislada 20, Sinforiano 19, Manuela 60 and Rosa 46** carry the LERENA surname by ditto at casa 229 of Calle Sarandí in the padrón of 1850; **Manuela's *patria* is ÁFRICA**. A census has **no column for condition** — a parish act does, and writes *liberta*, *esclava de* or *parda libre* outright. The Cordón's death register of **1839–1852** is already identified here and unread, and the Catedral covers the same years. Manuela and Rosa are both *casada*, so each has a husband who is not in that house."
   }
  ],
  "accounts": [

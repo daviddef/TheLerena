@@ -4751,5 +4751,33 @@
   "last_attested_alive": "1871c",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Estanislada LERENA (Sarandi 229, 1850)",
+  "born_est": "1830c",
+  "last_attested_alive": "1830c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Sinforiano LERENA (Sarandi 229, 1850)",
+  "born_est": "1831c",
+  "last_attested_alive": "1831c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Manuela LERENA (b. in AFRICA; Sarandi 229, 1850)",
+  "born_est": "1790c",
+  "last_attested_alive": "1790c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Rosa LERENA (Sarandi 229, 1850)",
+  "born_est": "1804c",
+  "last_attested_alive": "1804c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]
