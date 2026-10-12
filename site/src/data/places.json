@@ -337,9 +337,23 @@
    "nemecio-ramon-lerena",
    "fernando-lerena",
    "alfredo-lerena",
-   "buenaventura-olivera"
+   "buenaventura-olivera",
+   "amabelia-lerena-beloqui",
+   "casto-lindolfo-lerena-beloqui",
+   "venancio-lerena-fernandez",
+   "antonino-lerena-cardozo",
+   "juan-pedro-olivera-lerena",
+   "isabel-lerena-barragan",
+   "juan-rodriguez",
+   "viterba-p-de-arrascaeta",
+   "pedro-lerena-arrascaeta",
+   "margarita-medarda-del-corazon-de-jesus-lerena-pelaez",
+   "maria-lerena-pelaez",
+   "pedro-perena",
+   "angela-francisca-montesdeoca",
+   "antonino-perena"
   ],
-  "count": 121
+  "count": 135
  },
  {
   "slug": "buenos-aires-arrivals",
@@ -548,6 +562,23 @@
   "count": 11
  },
  {
+  "slug": "flores-uruguay",
+  "name": "Flores, Uruguay",
+  "people": [
+   "bernabe-lerena-2",
+   "florinda-cardozo",
+   "vitalino-gregorio-pelaez",
+   "anibal-marino-pelaez",
+   "pedro-beloqui",
+   "dorotea-delgado",
+   "mauricio-lerena-2",
+   "emilio-lerena-2",
+   "paula-casares",
+   "fermin-lerena-barragan"
+  ],
+  "count": 10
+ },
+ {
   "slug": "canelones",
   "name": "Canelones",
   "people": [
@@ -560,22 +591,6 @@
    "francisco-de-los-santos-de-acuna",
    "florentino-gomez",
    "ana-gomez"
-  ],
-  "count": 9
- },
- {
-  "slug": "flores-uruguay",
-  "name": "Flores, Uruguay",
-  "people": [
-   "bernabe-lerena-2",
-   "florinda-cardozo",
-   "vitalino-gregorio-pelaez",
-   "anibal-marino-pelaez",
-   "pedro-beloqui",
-   "dorotea-delgado",
-   "mauricio-lerena-2",
-   "emilio-lerena-2",
-   "paula-casares"
   ],
   "count": 9
  },

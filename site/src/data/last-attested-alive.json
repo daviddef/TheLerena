@@ -4506,5 +4506,110 @@
   "last_attested_alive": "1908-Nov-04",
   "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
   "tier": "ALIVE AT"
+ },
+ {
+  "name": "Amabelia LERENA Beloqui (1880-1899)",
+  "born_est": "1880",
+  "last_attested_alive": "1899-Jan-09",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Casto Lindolfo LERENA Beloqui (b.1882)",
+  "born_est": "1882-07-01",
+  "last_attested_alive": "1882-07-01",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Venancio LERENA Fernandez (m. 1885)",
+  "born_est": "-",
+  "last_attested_alive": "1885-Apr-24",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Antonino LERENA Cardozo (b.1891)",
+  "born_est": "1891-05-10",
+  "last_attested_alive": "1891-05-10",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Juan Pedro OLIVERA Lerena (b.1909)",
+  "born_est": "1909-05-13",
+  "last_attested_alive": "1909-May-13",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Isabel LERENA Barragan (b.1875, m. Juan Rodriguez 1902)",
+  "born_est": "1875",
+  "last_attested_alive": "1902-Jan-29",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Juan RODRIGUEZ (m. Isabel Lerena 1902)",
+  "born_est": "-",
+  "last_attested_alive": "1902-Jan-29",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Fermin LERENA Barragan (the younger, m.1924)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Viterba P. de ARRASCAETA (m. Faustino Lerena)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Pedro LERENA Arrascaeta (b. and d. 1911)",
+  "born_est": "1911",
+  "last_attested_alive": "1911",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Margarita Medarda del Corazon de Jesus LERENA Pelaez (chr.1859)",
+  "born_est": "1859",
+  "last_attested_alive": "1859",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maria LERENA Pelaez (b.1866, dau. of Bernabe)",
+  "born_est": "1866-05-13",
+  "last_attested_alive": "1866-May-13",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Pedro PERENA (m. Angela Francisca Montesdeoca)",
+  "born_est": "-",
+  "last_attested_alive": "1906-Feb-09",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Angela Francisca MONTESDEOCA (m. Pedro Perena)",
+  "born_est": "-",
+  "last_attested_alive": "1906-Feb-09",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Antonino PERENA (b.1883, m.1906)",
+  "born_est": "1883",
+  "last_attested_alive": "1906-Feb-09",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
  }
 ]
