@@ -12,6 +12,16 @@ const redirects = {
      read at the plate the same day, spells him LERENA - and that act is what proved his
      parents are the 1895 census household. The row was renamed to what the act says, so
      the address it had for a few hours is kept pointing at him. */
+  /* 12 October 2026, and a smaller version of the same mistake. Pedro LERENA Vega
+     was renamed when the census behind him turned out to be the padron of 1850
+     rather than c.1833, moving his birth estimate from c.1817 to c.1834. The
+     parenthetical is stripped from the slug, so this should have been a free
+     rename - but the deduped slug moved to pedro-lerena-vega-2 anyway, and
+     /people/pedro-lerena-vega/ had been published and live that morning. Nothing
+     linked to it, so no gate caught it; it was found by walking the new domain
+     page by page. A published address outlives the reason it was minted. */
+  '/people/pedro-lerena-vega': `${BASE}/people/pedro-lerena-vega-2/`,
+
   '/people/salvador-lorena': `${BASE}/people/salvador-lerena/`,
 
   '/gaps': `${BASE}/open-questions/#may-never-close`,
