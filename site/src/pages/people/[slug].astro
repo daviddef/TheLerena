@@ -168,7 +168,7 @@ const relTree = p.relTree || 0;
     &nbsp;·&nbsp; <a href={u("/people/")}>&larr; All the people</a></p>
 </section>
 <style>
-  .pdocs { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,520px)); gap:26px; margin-top:16px; }
+  .pdocs { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,380px),1fr)); gap:26px; margin-top:16px; align-items:start; }
   .pdocs .doc { margin:0; }
   .pdocs .doc img { width:100%; height:auto; display:block; border:1px solid var(--rule,#d8d2c6);
                     background:#fff; border-radius:3px; }

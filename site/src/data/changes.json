@@ -5,6 +5,11 @@
    "date": "2026-10-13",
    "commits": [
     {
+     "sha": "2c1c2c1",
+     "subject": "A 1916 marriage extract says 1905, and Nuno's papers now sit on his page",
+     "body": "David supplied Nuno Fernando's birth, marriage and death certificates, identity\ncard, headstone, wedding invitation and a 1971 notice from 12 Squadron S.A.A.F.,\nand a further set for Pablo Armando and Mary Septima. Person pages can now show\ndocuments (site/src/data/person-documents.json), and /family-papers/ carries two\ntables of what each one reads, adds and does not add.\nThe one to read first: St Dominic's extract certified 7 April 1916 gives the\nmarriage as 3 September 1905; the register has the same day, priest and\nwitnesses and the year 1911. 1911 stands on the ages and Roque's baptism.\nNot published, by rule: the 1971 notice and tennis cutting (name the living), the\n1997 letter (a private address), the UK passenger list (National Archives), two\n2026 photographs (living people). The 1925 'Taylor, Mary S.' passenger is a weak\ncandidate, not an identification. A Queensland marriage certificate and a Croatian\nparish page in the folder belong to other archives and were left out."
+    },
+    {
      "sha": "ecdf446",
      "subject": "Person-page columns collided at tablet width",
      "body": "Found by looking at a rendered page at the pane's width: on every person\npage, the grey provenance notes in \"What the record says\" (\"as the record\ngives it\") ran underneath the \"Where this comes from\" column beside them.\nMEASURED, not eyeballed: at an 800px viewport the grid gives each column\n357px, but a row needs about 480px - a label, a value, and a right-aligned\nprovenance note set nowrap on purpose. The notes reached x=486; the next\ncolumn began at x=400. At 1280px the columns are 505px and nothing crosses,\nwhich is why no desktop check could see it, and below 600px the grid already\ncollapses, which is why a phone check could not either. It lived in the band\nbetween.\nThe two columns now stack below 1060px, the width at which each first gets\n495px. That is the whole fix: the nowrap stays, because a wrapped provenance\nnote is a ragged right-hand column, and a stacked page is simply full width."
