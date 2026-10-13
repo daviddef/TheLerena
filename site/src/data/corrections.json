@@ -1278,5 +1278,13 @@
   "what_is_true": "*** The baptism act of 25 April 1846 states it: 'que nacio el VEINTIUNO del mismo' - 21 APRIL. *** It also squares with the burial's 'de edad de siete dias' on the 28th.",
   "how_it_was_caught": "By finding the baptism three days earlier in the same parish's books, through a phrase search that had failed an hour before because of an abbreviation.",
   "retired": "the birth date of 20 April 1846 in data/lerena-register.tsv, corrected 12 October 2026"
+ },
+ {
+  "date": "2026-10-13",
+  "severity": "minor",
+  "what_was_said": "That the Defence Documentation Centre's address had been 'checked against the Air Force's own page' (the errands page, the letter draft and its brief, published 13 October).",
+  "what_is_true": "*** saairforce.co.za is an UNOFFICIAL enthusiast website *** - its own footer says 'the unofficial website on the South African Air Force'. The postal address (Private Bag X289, Pretoria 0001) is also in the Department of Defence's own, dated, access-to-information manual, so it stands. The EMAIL addresses are not confirmed on any current official page: archive@dod.mil.za is on the unofficial site's contact page, and sandfdoc@mweb.co.za is on its history page and in the dated official manual.",
+  "how_it_was_caught": "Reading the site's footer while looking for an email address for it, before the letter or email had gone anywhere.",
+  "retired": ""
  }
 ]
