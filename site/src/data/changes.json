@@ -5,6 +5,11 @@
    "date": "2026-10-13",
    "commits": [
     {
+     "sha": "53c804a",
+     "subject": "Printed pages now show the archive's own address, not the old github.io one",
+     "body": "Kit pinned to 8fdc6b0, which prints only the path in print.css and emits the full\nrule from the archive's origin. Built output: 1,496 real pages carry the rule with\nlerena.defranceski.com; the other 24 are redirect stubs. daviddef.github.io\nremains only in this archive's own /method/ and /changes/ prose."
+    },
+    {
      "sha": "d09dd29",
      "subject": "Nuno's documents stacked in one column at desktop width",
      "body": "The grid used minmax(280px,520px), which a browser sizes by the 520 maximum, so a\n1,024px column fitted one track and seven scans ran down the page. Now two columns\nfrom about 800px, one below."

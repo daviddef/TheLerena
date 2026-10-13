@@ -406,5 +406,13 @@
   "status": "ready",
   "detail": "A 1997 letter from Gavin Knott says Nuno 'joined the Air Force and served in the Western Desert' after two years at school in Stellenbosch; he was 18 in 1942. A recollection - and a July 1971 'Deaths' notice signed '12th Squadron, S.A.A.F. Friend' now supports the Air Force; neither gives a service record, and the letter also misplaces his marriage. Test: SA Defence Force WWII nominal roll and personal files (Department of Defence Archives, Pretoria), with Nuno Fernando LERENA b. 6 Oct 1924 and service number unknown; and ask whether a 12 Squadron S.A.A.F. association or roll names him. An absence would not disprove it.",
   "sent_on": ""
+ },
+ {
+  "key": "david-sandf-nuno-service-request",
+  "what": "*** Send the Defence Documentation Centre letter for Nuno's service record ***",
+  "who": "David",
+  "status": "waiting-on-david",
+  "detail": "Drafted 13 October 2026 and on this page with the other letters: a request by post to the Documentation Centre, Private Bag X289, Pretoria 0001 (address checked against the Air Force's own page). It needs your postal address and signature, copies of Nuno's death and birth certificates and your ID, and possibly a consent signed by one of Nuno's children. Brief: requests/documentation-centre-nuno-service.md. It answers whether he served, in which unit, and under what number.",
+  "sent_on": ""
  }
 ]

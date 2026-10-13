@@ -1763,6 +1763,18 @@
     "err:me-nuno-war-service"
    ],
    "note": "A 1997 letter from Gavin Knott to Nuno's son says Nuno *joined the Air Force and served in the Western Desert*. A recollection, now with a second witness - a July 1971 *Deaths* notice signed *12th Squadron, S.A.A.F.* - **no service record has been seen**, and the same letter misplaces his marriage, which the certificate puts at Johannesburg on 15 January 1949. The test is the Union Defence Force nominal roll and personal files, and a 12 Squadron roll or association; **an absence there would not disprove it**, since the Western Desert force included army men outside the Air Force."
+  },
+  {
+   "n": 217,
+   "what": "Send the Defence Documentation Centre letter for Nuno's service record",
+   "state": "next",
+   "owner": "David",
+   "since": "2026-10-13",
+   "covers": [
+    "err:david-sandf-nuno-service-request",
+    "letter:documentation-centre-nuno-service.md"
+   ],
+   "note": "Drafted and **not sent**: a postal request to the Documentation Centre in Pretoria for Nuno Fernando's personnel file, to settle the **Air Force and 12 Squadron** statements made by a 1997 letter and a 1971 notice. It needs David's postal address, signature and two certificate copies, and possibly a consent from one of Nuno's children. Nothing leaves this archive except from David's own address."
   }
  ],
  "accounts": [
