@@ -25,6 +25,8 @@ import c1861 from "../data/1861-bideford-brailey.json";
 import marist from "../data/marist-testimonials-1936.json";
 import tgp from "../data/taylor-group-photograph.json";
 import tvc from "../data/taylor-group-vs-census.json";
+import nunoPapers from "../data/nuno-papers.json";
+import pabloPapers from "../data/pablo-papers.json";
 const M = Object.fromEntries(marriage.map((r) => [r.field, r]));
 const N = Object.fromEntries(notices.map((r) => [r.field, r]));
 const D = Object.fromEntries(dn.map((r) => [r.field, r]));
@@ -56,6 +58,28 @@ const DOCS = [
    "Corpus Christi, Wynberg. Born 25 November 1905 — baptised at five and a half, three months before his parents married. Godparents José Bretón and María Luisa Bretón, both by proxy. Later annotations record both his marriages."],
   ["baptism-nuno-1924", "Nuno Fernando, baptised 16 November 1924",
    "Corpus Christi, Wynberg, no. 4540. Born 6 October 1924. Godparents Michael Joseph and Mary Anne Duddy — and against the mother, in the priest’s hand, Mater Anglicana."],
+  ["identity-card-nuno-1958", "Nuno Fernando\u2019s identity card, Pretoria, 1 September 1958",
+   "Persoonskaart / Identity Card, S.A. Burger \u2014 S.A. Citizen, no. 331 406051 W, printed LERENA N F, \u201cPretoria 1-9-58\u201d (read as 1 September 1958), signed by the Director of Census, with his photograph. It gives no birth date, birthplace or parent. Supplied by David, 13 October 2026."],
+  ["birth-certificate-nuno-1924", "Nuno Fernando\u2019s birth certificate, entry 664/24, Wynberg",
+   "A 042921. Born Sixth October 1924 at Wynberg; race of parents \u201cSpanish and European\u201d; certified 8 September 1954, four weeks before his thirtieth birthday. Supplied by David, 13 October 2026."],
+  ["marriage-certificate-nuno-1949", "Nuno Fernando\u2019s marriage, Johannesburg, 15 January 1949",
+   "Abridged certificate no. 616593. To Catherine Mary Sophia Booyzen; he 24, she 19; Catholic; without ante-nuptial contract. Extract stamped 18 March 1971."],
+  ["death-certificate-nuno-1971", "Nuno Fernando\u2019s death certificate, Germiston, 1 July 1971",
+   "A 243689, entry 581/71. Aged 46, salesman, coronary thrombosis after four hours, Dr Lieberberg. Identity number written 331-406057 \u2014 one digit from the card and the death notice."],
+  ["gravestone-nuno-1971", "The headstone: Nuno Fernando (Larry), 6.10.1924 \u2013 1.7.1971",
+   "Shared with his wife Catherine Mary Sophia (1929\u20132013) and two of their children, Paul Raymond (1951\u20132000) and Catherine Tertia (1952\u20131999). The cemetery is not in the photograph."],
+  ["wedding-invitation-nuno-1949", "Nuno Fernando\u2019s wedding invitation, 15 January 1949",
+   "St Joseph\u2019s Catholic Church, Mayfair, Saturday 3.45 p.m. Catherine, second eldest daughter of the late Mr and Mrs G. Booyzen, to Nuno, youngest son of Mr and the late Mrs R. Lerena. English and Afrikaans."],
+  ["saaf-notice-larry-1971", "\u201cLarry \u2026 Remembered by 12th Squadron, S.A.A.F.\u201d, 1971",
+   "A newspaper death notice for Nuno Fernando (Larry). The first document from anyone else to support his air-force service; it names a unit, not a service record."],
+  ["marriage-extract-1905-issued-1916", "The St Dominic\u2019s extract that says 1905",
+   "Certified 7 April 1916: Pablo Armando Lerena and Mary Septima Taylor, married 3rd September 1905 by Rev. B. W. Glynn, witnesses J. B. Worthington and H. Lautenbach. The register says 1911; the day, priest and witnesses agree, the year does not."],
+  ["marriage-church-register-signatures", "A church marriage register: the couple and \u2018Ebenezer Road, Wynberg\u2019",
+   "The two names one above the other, and a residence the civil duplicate does not give (it says Diep River). The register is not identified in the photograph."],
+  ["marriage-roque-1936", "Roque\u2019s marriage, Mayfair, Johannesburg, 21 September 1936",
+   "Duplicate Original Marriage Register no. 14/1936. Luis Roque Armando Lerena, steward, and the widow Rosaline Wilhelmina Chappell, born Forbes, both of 6a Bartlett Road, Mayfair West."],
+  ["mary-septima-colourised-c1890", "Mary Septima as a small girl (colourised)",
+   "David\u2019s colourised crop of the group photograph. The colours are the software\u2019s, not the photograph\u2019s."],
   ["taylor-group-c1890", "The Taylor family group, about 1889–1891",
    "Twelve people and a dog. David identifies Mary Septima as the small girl at the lower right, against the knee of the seated man with full side-whiskers, identified as her father. Nobody else in the group is named here."],
   ["marist-1936-june-november", "Two Marist testimonials, June and November 1936",
@@ -942,8 +966,42 @@ const DOCS = [
 </section>
 
 <section class="blk">
+  <h2 id="s-nuno">Nuno Fernando&rsquo;s own papers, added 13 October 2026</h2>
+  <p class="dek">David put eleven more in the folder for Nuno: a birth, a marriage and a death certificate, an
+    identity card, a headstone, a wedding invitation, an air-force notice, a thank-you card, a tennis-club
+    cutting, a photograph of the 1971 death notice and a letter of 1997. Seven are shown above and on
+    <a href={u("/people/nuno-fernando-lerena/")}>his page</a>; the other four are described here and not shown,
+    because they name living people or carry a family address.</p>
+  <div class="scroll" style="margin-top:14px"><table>
+    <thead><tr><th>Item</th><th>It reads</th><th>What it adds, and what it does not</th><th>Tier</th></tr></thead>
+    <tbody>
+      {nunoPapers.map((r) => (
+        <tr><td><strong>{r.document}</strong></td><td set:html={emph(r["the document reads"])} />
+          <td set:html={emph(r["what it adds, and what it does not"])} /><td>{r.tier}</td></tr>
+      ))}
+    </tbody>
+  </table></div>
+</section>
+
+<section class="blk">
+  <h2 id="s-pablo">Pablo and Mary Septima: more papers, 13 October 2026</h2>
+  <p class="dek">Another set for the founding couple. Much of what David sent was already here &mdash; the
+    1950 death notice, Roque&rsquo;s 1973 notice, the Exeter prize list, the baptism annotations &mdash; and is
+    not repeated. What is new is below. <strong>The extract that says 1905</strong> is the one to read first.</p>
+  <div class="scroll" style="margin-top:14px"><table>
+    <thead><tr><th>Item</th><th>It reads</th><th>What it adds, and what it does not</th><th>Tier</th></tr></thead>
+    <tbody>
+      {pabloPapers.map((r) => (
+        <tr><td><strong>{r.document}</strong></td><td set:html={emph(r["the document reads"])} />
+          <td set:html={emph(r["what it adds, and what it does not"])} /><td>{r.tier}</td></tr>
+      ))}
+    </tbody>
+  </table></div>
+</section>
+
+<section class="blk">
   <h2>The documents themselves</h2>
-  <p class="dek">This archive has been text since it began. These are the nine it can publish: every
+  <p class="dek">This archive has been text since it began. These are the twenty it can publish: every
     person named on them is dead. <strong>The 1971 and 1973 death notices are deliberately not here</strong>
     &mdash; they list living children with their birth dates, and this estate names the living and
     nothing more.</p>

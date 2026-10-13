@@ -4,12 +4,14 @@ import Placement from "../../components/Placement.astro";
 import PersonTree from "../../components/PersonTree.astro";
 import { u } from "../../lib/url.js";
 import people from "../../data/people.json";
+import personDocs from "../../data/person-documents.json";
 import places from "../../data/places.json";
 import { emph, plain, lead } from "../../lib/text.js";
 export function getStaticPaths(){ return people.map(p => ({ params:{ slug:p.slug }, props:{ p } })); }
 const { p } = Astro.props;
 const hasEvidence = Array.isArray(p.evidence) && p.evidence.length > 0;
 const total = people.length;
+const docs = personDocs[p.name] || [];
 const place = places.find(x => x.slug === p.placeSlug);
 const others = place ? people.filter(x => x.placeSlug === p.placeSlug && x.slug !== p.slug) : [];
 
@@ -123,6 +125,20 @@ const relTree = p.relTree || 0;
   <div class="prose" style="margin-top:16px"><p set:html={emph(p.note)} /></div>
 </section>}
 
+{docs.length > 0 && <section class="blk">
+  <h2>{docs.length === 1 ? "The document" : "The documents"}</h2>
+  <div class="pdocs">
+    {docs.map((d) => (
+      <figure class="doc">
+        <a href={u("/docs/" + d.file + ".jpg")}><img src={u("/docs/" + d.file + ".jpg")} alt={d.title} loading="lazy" /></a>
+        <figcaption><strong>{d.title}</strong><br /><span class="cap">{d.caption}</span></figcaption>
+      </figure>
+    ))}
+  </div>
+  <p class="cap">Click the image for the full scan. Every person named on a published document is dead; the
+    others are on <a href={u("/family-papers/")}>the papers page</a>.</p>
+</section>}
+
 {p.status === "connected" && <section class="blk">
   <div class="note"><strong>This person is on the direct line, or married into it.</strong> Their place in
     the descent, with the documents behind it, is set out on <a href={u("/direct-line/")}>the line</a>.</div>
@@ -151,4 +167,11 @@ const relTree = p.relTree || 0;
     chart. <a href={u("/register/")}>All {total} entries &rarr;</a>
     &nbsp;·&nbsp; <a href={u("/people/")}>&larr; All the people</a></p>
 </section>
+<style>
+  .pdocs { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,520px)); gap:26px; margin-top:16px; }
+  .pdocs .doc { margin:0; }
+  .pdocs .doc img { width:100%; height:auto; display:block; border:1px solid var(--rule,#d8d2c6);
+                    background:#fff; border-radius:3px; }
+  .pdocs .doc figcaption { margin-top:9px; font-size:.92rem; line-height:1.45; }
+</style>
 </Base>
