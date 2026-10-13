@@ -5,6 +5,11 @@
    "date": "2026-10-13",
    "commits": [
     {
+     "sha": "d09dd29",
+     "subject": "Nuno's documents stacked in one column at desktop width",
+     "body": "The grid used minmax(280px,520px), which a browser sizes by the 520 maximum, so a\n1,024px column fitted one track and seven scans ran down the page. Now two columns\nfrom about 800px, one below."
+    },
+    {
      "sha": "2c1c2c1",
      "subject": "A 1916 marriage extract says 1905, and Nuno's papers now sit on his page",
      "body": "David supplied Nuno Fernando's birth, marriage and death certificates, identity\ncard, headstone, wedding invitation and a 1971 notice from 12 Squadron S.A.A.F.,\nand a further set for Pablo Armando and Mary Septima. Person pages can now show\ndocuments (site/src/data/person-documents.json), and /family-papers/ carries two\ntables of what each one reads, adds and does not add.\nThe one to read first: St Dominic's extract certified 7 April 1916 gives the\nmarriage as 3 September 1905; the register has the same day, priest and\nwitnesses and the year 1911. 1911 stands on the ages and Roque's baptism.\nNot published, by rule: the 1971 notice and tennis cutting (name the living), the\n1997 letter (a private address), the UK passenger list (National Archives), two\n2026 photographs (living people). The 1925 'Taylor, Mary S.' passenger is a weak\ncandidate, not an identification. A Queensland marriage certificate and a Croatian\nparish page in the folder belong to other archives and were left out."
