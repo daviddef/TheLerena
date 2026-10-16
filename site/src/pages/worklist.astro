@@ -2,7 +2,11 @@
 import Base from "../layouts/Base.astro";
 import WorkList from "@daviddef/archive-kit/components/WorkList.astro";
 import { u } from "../lib/url.js";
-import work from "../data/worklist.json";
+import raw from "../data/worklist.json";
+/* The kit's WorkList prints a row's `what` as plain text, so the **bold** the data carries in two of
+   them printed as asterisks (measured 16 October 2026). Strip the ** markers (and only those: the
+   «quotes» stay); the words are untouched and the data file is unchanged. */
+const work = { ...raw, rows: raw.rows.map((r) => ({ ...r, what: String(r.what ?? "").replace(/\*\*(.+?)\*\*/g, "$1") })) };
 const open = work.rows.filter(r => !["done", "struck"].includes(r.state)).length;
 const mine = work.rows.filter(r => r.owner === "this archive"
   && !["done", "struck"].includes(r.state)).length;

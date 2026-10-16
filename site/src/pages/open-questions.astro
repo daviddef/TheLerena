@@ -20,7 +20,13 @@ import qs from "../data/open-questions.json";
    probability without settling it. All of it is in that row's `tried`. A
    refactor that loses a question's negative evidence is worse than the prose
    it replaced. */
-const rows = qs.filter((r) => r.q);
+/* hrefLabel is plain text that the kit's Questions component escapes, so "&rarr;" in the data was
+   printed as the six characters &rarr; (6 visible entities, measured 16 October 2026). Decode the
+   entity here rather than editing the data. */
+const rows = qs.filter((r) => r.q).map((r) => ({
+  ...r,
+  hrefLabel: String(r.hrefLabel ?? "").replace(/&rarr;/g, "\u2192").replace(/&darr;/g, "\u2193"),
+}));
 /* 9 October 2026. «What we cannot close» folded in here. It said so itself, in its
    own words: "not the same page as the open questions", the places where the work
    has been done properly and the record may simply not exist. That is a STATE of

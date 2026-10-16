@@ -4,6 +4,7 @@ import NameLists from "@daviddef/archive-kit/components/NameLists.astro";
 import { u } from "../lib/url.js";
 import people from "../data/people.json";
 import { emph, plain } from "../lib/text.js";
+import { plain as plainText } from "@daviddef/archive-kit/lib/md.js";
 import Register from "@daviddef/archive-kit/components/Register.astro";
 import nf from "../data/namefold.json";
 import alive from "../data/last-attested-alive.json";
@@ -58,7 +59,9 @@ const regRows = [...enriched]
     kind: p.chip[1],
     chip: p.chip[1],
     detail: emph(p.says) + (p.note ? `<br><span class="cap">${emph(p.note)}</span>` : ""),
-    source: emph(p.source),
+    /* plain text, not HTML: the kit's Register escapes this column itself, so markup here was printed
+       as markup (2,004 visible tags, 156 visible entities, measured 16 October 2026). */
+    source: plainText(p.source),
     sourceHref: p.sourceUrl || "",
     sourceLabel: p.sourceUrl ? "record" : (p.noLink || "no public link"),
   }));

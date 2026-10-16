@@ -5,6 +5,8 @@
    Returns an HTML string, so callers must use set:html. Everything is escaped first, so
    the data can never inject markup - only the *** markers become tags. */
 
+import { md } from "@daviddef/archive-kit/lib/md.js";
+
 const ESC = { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" };
 
 export function esc(s) {
@@ -27,8 +29,13 @@ export function arkify(html) {
   );
 }
 
+/* 16 October 2026: this now renders through the kit's md() instead of its own one rule. The rule
+   handled *** and nothing else, so `code`, **bold** and *italic* in the data printed their markers on
+   eleven pages (/changes/, /corrections/, /method/, /family-papers/, /hypotheses/, /uruguay/ and
+   others). md() escapes first, exactly as before, so data still cannot inject markup; the only
+   change in kind is that a *** span now closes as <strong><em> like every other archive's. */
 export function emph(s) {
-  return arkify(esc(s).replace(/\*\*\*\s*(.+?)\s*\*\*\*/gs, "<strong>$1</strong>"));
+  return arkify(md(s));
 }
 
 /* For places that want the text with no markup at all - a title attribute, a meta

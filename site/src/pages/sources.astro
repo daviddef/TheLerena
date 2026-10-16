@@ -51,10 +51,18 @@ const GLOSS = {
   REFERENCE: "background, consulted for a particular fact",
   [BOTH]: "one source doing two jobs, and the field says both rather than choosing",
 };
+/* Three used_for cells were written with literal <strong> tags, which emph() rightly escapes and the page
+   then printed as text (44 visible tags, measured 16 October 2026). Give back exactly that one tag and
+   nothing else: everything else in the cell stays escaped. */
+const strongOk = (h) => h
+  .replace(/&lt;(\/?)strong&gt;/g, "<$1strong>")
+  // the same cells carry named character references (&ldquo; and the like), which emph() escaped to
+  // &amp;ldquo; and the page printed as text; give back only a plain lower-case name
+  .replace(/&amp;([a-z]{2,8});/g, "&$1;");
 const groups = tiers.map(t => ({
   label: t, note: GLOSS[t],
   rows: consulted.filter(r => split(r.tier)[0] === t).map(r => ({
-    title: emph(r.source), url: r.link, what: emph(r.used_for),
+    title: emph(r.source), url: r.link, what: strongOk(emph(r.used_for)),
     tag: split(r.tier)[1] || null, where: r.accessed,
   })),
 })).filter(g => g.rows.length);

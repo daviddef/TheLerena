@@ -45,7 +45,10 @@ const forRows = llorens.filter((r) => r.field.startsWith("for_"));
 const againstRows = llorens.filter((r) => r.field.startsWith("against_"));
 const just = passport.filter((r) => r.field.startsWith("justificativos") ||
   ["photograph", "signature", "fingerprint"].includes(r.field));
-const em = (t) => (t || "").replace(/\*\*\* (.+?) \*\*\*/g, "<strong>$1</strong>");
+/* Markup stays as written here (these cells hold HTML on purpose); the one thing that was missing is the
+   `code` span, which printed its backticks (4 of them, measured 16 October 2026). */
+const em = (t) => (t || "").replace(/\*\*\* (.+?) \*\*\*/g, "<strong>$1</strong>")
+  .replace(/`([^`\n]+)`/g, "<code>$1</code>");
 const row = (k) => M[k] || { as_written: "", note: "" };
 const DOCS = [
   ["marriage-1911", "The marriage register, Wynberg, 3 September 1911",
