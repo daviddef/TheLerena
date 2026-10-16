@@ -1604,8 +1604,8 @@
  },
  {
   "name": "Carlos Alberto FEIN",
-  "born_est": "-",
-  "last_attested_alive": "-",
+  "born_est": "1844c",
+  "last_attested_alive": "1844c",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -4840,6 +4840,55 @@
   "name": "Amelia LERENA (d. 11 November 1871, aged 9)",
   "born_est": "1862c",
   "last_attested_alive": "1862c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Sara LERENA (d. 18 August 1892, aged 18)",
+  "born_est": "1874c",
+  "last_attested_alive": "1874c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Teresa LERENA (mother of Sara, 1892)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Jose Maria LARRANAGA (buried 2 August 1890, aged 22)",
+  "born_est": "1868c",
+  "last_attested_alive": "1868c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Martina LERENA (m. Benito LARRANAGA)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Benito LARRANAGA (m. Martina Lerena)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Jose Maria REYES (buried 13 June 1920, aged 77)",
+  "born_est": "1843c",
+  "last_attested_alive": "1843c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maria LERENA (m. Jose Maria REYES, Cordon 1920)",
+  "born_est": "-",
+  "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  }

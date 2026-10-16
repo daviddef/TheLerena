@@ -540,6 +540,27 @@
   "count": 14
  },
  {
+  "slug": "cordon-montevideo",
+  "name": "Cordon, Montevideo",
+  "people": [
+   "maria-mercedes-lerena",
+   "eduardo-lerena-3",
+   "ema-lerena",
+   "vicenta-lavina",
+   "manuela-lavina",
+   "xavier-lavina",
+   "amelia-lerena-2",
+   "sara-lerena",
+   "teresa-lerena-2",
+   "jose-maria-larranaga",
+   "martina-lerena",
+   "benito-larranaga",
+   "jose-maria-reyes",
+   "maria-lerena-5"
+  ],
+  "count": 14
+ },
+ {
   "slug": "gualeguaychu-entre-rios",
   "name": "Gualeguaychu, Entre Rios",
   "people": [
@@ -652,20 +673,6 @@
    "dona-bernardina-fragoso-de-rivera",
    "jose-pando-de-barros",
    "ana-maria-cabalgante"
-  ],
-  "count": 7
- },
- {
-  "slug": "cordon-montevideo",
-  "name": "Cordon, Montevideo",
-  "people": [
-   "maria-mercedes-lerena",
-   "eduardo-lerena-3",
-   "ema-lerena",
-   "vicenta-lavina",
-   "manuela-lavina",
-   "xavier-lavina",
-   "amelia-lerena-2"
   ],
   "count": 7
  },

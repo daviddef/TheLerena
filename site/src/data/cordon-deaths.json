@@ -40,19 +40,107 @@
   "when": "13 Oct 2026"
  },
  {
-  "what": "*** AND ONE MORE DEATH, NOT YET AT THE PLATE ***",
-  "the source": "Cordon, Religious Death Records 1869-1877, ark 3:1:3Q9M-C9B7-BS82-4 - machine transcript only",
+  "what": "*** AND ONE MORE DEATH, NOW AT THE PLATE ***",
+  "the source": "Cordon, Religious Death Records 1869-1877, entry 619, ark 3:1:3Q9M-C9B7-BS82-4 - *** PLATE READ *** 17 October 2026",
   "result": "*** AMELIA LERENA, NINE YEARS OLD, DIED 11 NOVEMBER 1871 ***",
   "what was already known": "Nothing; she is new to this register.",
-  "what the act says": "*** 'En once de Noviembre de 1871. Murio Ameli[a] ... oriental, de nueve anos' *** with the margin reading *** 'lia Lerena'. *** Born about 1862. *** The transcript is poor around her - it runs the margin into the body and gives 'Giombalta' alongside - so she is entered INDEX-LEVEL and the plate has NOT been opened. *** She is not merged with any Amelia in this register.",
-  "when": "13 Oct 2026"
+  "what the act says": "*** 'En once de Nov.e de 1871 murio Amelia Lerena, oriental, de nueve anos. Conste.' *** Born about 1862. *** NO PARENTS ARE NAMED. *** The machine transcript had run her margin into the next entry and set 'Giombalta' beside her; that is the entry below, Juan Giombatta de Tomassi. She is not merged with any Amelia in this register.",
+  "when": "17 Oct 2026"
  },
  {
   "what": "*** WHAT WAS LOOKED FOR AND NOT FOUND ***",
   "the source": "the four adults of casa 229 of Calle Sarandi",
   "result": "*** STILL UNFOUND, AND THE FORENAME ROUTE IS TOO WIDE ***",
   "what was already known": "Estanislada, Sinforiano, Manuela and Rosa carry the surname by ditto in 1850; the holder formula was swept on 12 October and does not reach them.",
-  "what the act says": "*** 'Estanislada' alone, with a Cordon place filter, returns NINE PAGES *** - about nine hundred documents - so the forename is not a handle either, and the compound forms return nothing. *** The eleven unread death and burial documents above are now the route, read by eye. *** That is a smaller and more honest job than it looked on 12 October.",
+  "what the act says": "*** 'Estanislada' alone, with a Cordon place filter, returns NINE PAGES *** - about nine hundred documents - so the forename is not a handle either, and the compound forms return nothing. *** ALL THIRTEEN DEATH AND BURIAL PAGES THAT FULL TEXT RETURNS ARE NOW OPENED (17 October 2026) AND NONE OF THE FOUR IS IN THEM. *** That is a limit on the instrument, not a null on the books: each of the thirteen is the one PAGE where full text saw the surname, not the volume it sits in, and a name written without LERENA, or spelled so the machine missed it, is not on that list.",
   "when": "13 Oct 2026"
+ },
+ {
+  "what": "*** ELEVEN MORE PAGES OPENED ON 17 OCTOBER, AND THE FOUR ARE STILL NOT IN THEM ***",
+  "the source": "full text, the parish's DEATH and BURIAL volumes - the other eleven of the thirteen pages, each opened in the signed-in viewer, with the plate read for six",
+  "result": "*** ELEVEN LERENA ACTS, ONE ON EACH PAGE, AND SEVEN OF THE PEOPLE ARE NEW TO THIS ARCHIVE ***",
+  "what was already known": "Two of the thirteen had been read; the rest were a list.",
+  "what the act says": "*** The plate was read for the acts below that say so; the others are the machine transcript and are labelled. *** Estanislada, Sinforiano, Manuela of Africa and Rosa are in none of them. What the pages held instead is below: a man buried under his father's surname, a woman of eighteen born out of wedlock, a married couple and a widow, and the death of a husband who had been dead twenty-seven years when this archive thought him alive.",
+  "when": "17 Oct 2026"
+ },
+ {
+  "what": "*** A YOUNG MAN BURIED AS A LARRANAGA, WHOSE MOTHER WAS A LERENA ***",
+  "the source": "Cordon, Religious Burial Records June 1885 - August 1892, ark 3:1:3Q9M-C9BW-4SWL-D - *** PLATE READ ***",
+  "result": "*** JOSE MARIA LARRANAGA, TWENTY-TWO, BURIED 2 AUGUST 1890 ***",
+  "what was already known": "Nothing. The Lerena is his mother's, so no search on the surname would have reached him.",
+  "what the act says": "*** 'En dos de Agosto del ano mil ochocientos noventa se mando dar sepultura eclesiastica al cadaver de Jose Maria Larranaga, oriental, soltero, de veintidos anos de edad, hijo legitimo de Benito Larranaga y de Martina Lerena. Fallecio ayer.' *** Three people are new: him, his father Benito and his mother MARTINA LERENA. Nothing places her in a Lerena family here, and nothing is merged.",
+  "when": "17 Oct 2026"
+ },
+ {
+  "what": "*** A MARRIED COUPLE FROM SAN JOSE MAY HAVE BEEN IN THE CORDON ***",
+  "the source": "Cordon, Religious Burial Records June 1885 - August 1892, ark 3:1:3Q9M-C9BW-4SW7-N - *** PLATE READ ***",
+  "result": "*** SERVANDO TOMAS GONZALEZ, 'CASADO CON ESTEFANA LERENA', BURIED 25 MAY 1892 ***",
+  "what was already known": "The register holds a Servando Gonzalez and an Estefania Lerena at San Jose de Mayo, with six children indexed GONZALEZ LERENA, found on 11 October.",
+  "what the act says": "*** 'En veinte y cinco de Mayo de mil ochocientos noventa y dos se manda dar sepultura eclesiastica al cadaver de Servando Tomas Gonzalez, oriental, casado con Estefana Lerena, ... cinco anos, de que certifico.' *** The transcript gives sixty-five. *** THIS IS A CANDIDATE AND NOT A MERGE: *** the act gives no birthplace and no child, and San Jose to Montevideo is a move of department.",
+  "when": "17 Oct 2026"
+ },
+ {
+  "what": "*** A WOMAN OF EIGHTEEN, BORN OUT OF WEDLOCK, NAMED FOR HER MOTHER ***",
+  "the source": "Cordon, Religious Burial Records June 1885 - August 1892, image 252 of 255, ark 3:1:3Q9M-C9BW-4S93-D - *** PLATE READ ***",
+  "result": "*** SARA LERENA, 'HIJA NATURAL DE TERESA LERENA', BURIED 18 AUGUST 1892 ***",
+  "what was already known": "Nothing; she and her mother are new.",
+  "what the act says": "*** 'En diez y ocho de Agosto de mil ochocientos noventa y dos se mando dar sepultura eclesiastica al cadaver de Sara Lerena, soltera, hija natural de Teresa Lerena, orientales, que fallecio hoy de diez y ocho anos de edad.' *** *** HER SURNAME IS HER MOTHER'S, because 'natural' means no father is entered. *** Born about 1874. Neither is placed in a Lerena family here.",
+  "when": "17 Oct 2026"
+ },
+ {
+  "what": "*** THE 1896 DEATH OF PEDRO A. LERENA IS ALSO IN THE BURIAL BOOK ***",
+  "the source": "Cordon, Religious Burial Records August 1892 - May 1897, ark 3:1:3Q9M-C9BW-49R4-Y - machine transcript only",
+  "result": "*** BURIED 8 NOVEMBER 1896, AGED SIXTY-NINE, 'CASADO CON MANUELA LEMOS' ***",
+  "what was already known": "His civil death registration of 7 November 1896 (acta 353) was read at the plate on 12 October.",
+  "what the act says": "*** It agrees with the civil act on name, age and wife and adds nothing. *** The burial says 'fallecio ayer' on the 8th; the civil act says he died on the 6th, so the word is not a date.",
+  "when": "17 Oct 2026"
+ },
+ {
+  "what": "*** AN UNKNOWN LERENA WIDOW OF ABOUT SIXTY, AND THE QUESTION OF TERESA LEONARD ***",
+  "the source": "Cordon, Religious Burial Records May 1897 - November 1901, ark 3:1:3Q9M-C9BW-49TQ-6 - *** PLATE READ ***",
+  "result": "*** 'TERESA LEONOR DE LERENA', WIDOW, BURIED 27 AUGUST 1901 ***",
+  "what was already known": "The register holds a Teresa Leonard, wife of Pedro Antonio Lerena and mother of Manuel Lerena Leonard, with no record of her own.",
+  "what the act says": "*** 'Se mando dar sepultura eclesiastica al cadaver de Teresa Leonor de Lerena, oriental, de sesenta [y ...] anos, viuda de [forename left blank] Lerena. Fallecio hoy.' *** It fits, and the plate says LEONOR, a given name, where the other woman's surname is LEONARD. *** A CANDIDATE AND NOT A MERGE. ***",
+  "when": "17 Oct 2026"
+ },
+ {
+  "what": "*** JULIA JUANICO'S BURIAL GIVES HER AGE FIVE YEARS WRONG ***",
+  "the source": "Cordon, Religious Burial Records April 1908 - May 1914, ark 3:1:3Q9M-C9BW-49PS-Q - *** PLATE READ ***",
+  "result": "*** BURIED 12 JULY 1910 AS 'JULIA JUANICO DE LERENA ... DE SESENTA Y DOS', WIDOW OF LUIS LERENA LENGUAS ***",
+  "what was already known": "Her death of 11 July 1910 was read at the plate on 12 October, and her baptism of 1842 on 21 September.",
+  "what the act says": "*** The day and the widowhood agree. The age does not: her baptism makes her sixty-seven. *** A burial entry's age is the priest's, not a second birth year. Her son Enrique's burial of 17 May 1914, aged forty-one, is on a second page of the same book and agrees with his civil act.",
+  "when": "17 Oct 2026"
+ },
+ {
+  "what": "*** MANUELA LEMOS'S BURIAL NAMES THE WRONG HUSBAND ***",
+  "the source": "Cordon, Religious Burial Records February 1918 - October 1926, ark 3:1:3Q9M-C9BW-4S3R-S - machine transcript only",
+  "result": "*** BURIED 24 JULY 1918, AGED SEVENTY-SEVEN, 'VIUDA DE CARLOS LERENA' ***",
+  "what was already known": "Her husband is Pedro A. Lerena, dead in 1896; Carlos Teodoro is one of her sons.",
+  "what the act says": "*** She died about 23 July 1918, born about 1841. *** The entry gives her husband as Carlos, not Pedro; the 1896 civil act is the stronger source and the discrepancy is left standing.",
+  "when": "17 Oct 2026"
+ },
+ {
+  "what": "*** A HUSBAND WHO HAD BEEN DEAD TWENTY-SEVEN YEARS ***",
+  "the source": "Cordon, Religious Burial Records February 1918 - October 1926, ark 3:1:3Q9M-C9BW-4SHT-C - plate read for the date",
+  "result": "*** CARLOS ALBERTO FEIN, SEVENTY-FIVE, 'CASADO CON ADELINA LERENA', BURIED 18 MAY 1919 ***",
+  "what was already known": "He was entered only as the husband named on his wife's death registration of 20 November 1946, and a date-reading tool took that as placing him alive in 1946.",
+  "what the act says": "*** He died about 17 May 1919, born about 1844. *** The 1946 registration names him as her husband without saying he was dead; it is not evidence that he was alive.",
+  "when": "17 Oct 2026"
+ },
+ {
+  "what": "*** A SECOND LERENA WOMAN MARRIED TO A MAN OF SEVENTY-SEVEN ***",
+  "the source": "Cordon, Religious Burial Records February 1918 - October 1926, ark 3:1:3Q9M-C9BW-49BP-V - machine transcript only",
+  "result": "*** JOSE MARIA REYES, 'CASADO CON MARIA LERENA', BURIED 13 JUNE 1920 ***",
+  "what was already known": "Nothing; both are new.",
+  "what the act says": "*** 'Se mando dar sepultura eclesiastica al cadaver de Jose Maria Reyes, oriental, de setenta y siete anos, casado con Maria Lerena; fallecio ayer.' *** The transcript has not been checked at the plate. No tie is claimed to the Maria Lerena of the 1908 enrolment card.",
+  "when": "17 Oct 2026"
+ },
+ {
+  "what": "*** THE EARLIEST BOOK GIVES NOTHING THAT WAS NOT ALREADY HELD ***",
+  "the source": "Cordon, Religious Death Records October 1839 - January 1852, ark 3:1:3Q9M-C9B7-BSXL-R - machine transcript",
+  "result": "*** CARMEN LERENA, THREE, BURIED 14 AUGUST 1841 ***",
+  "what was already known": "Her act was read at the plate on 20 September 2026 off the cemetery's own register, and her father Justo Lerena and mother Juana Quintana are already rows.",
+  "what the act says": "*** This is the same act on a second film, with the same priest. *** The page opened has the Names panel read 'Carmen Lerena Lerena', which is the machine doubling the surname that the earlier plate reading already rejected.",
+  "when": "17 Oct 2026"
  }
 ]

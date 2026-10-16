@@ -666,3 +666,13 @@ Patricia Carmen LERENA	father	Nuno Fernando LERENA		register	Named among his chi
 Patricia Carmen LERENA	mother	Catherine Mary Sophia Booyzen		tree	From the family chart: the notice names the children and not their mother
 Cheryl Anne LERENA	spouse	Lynn Derrick LUWINSKI		register	First marriage; recorded in data/direct-line.tsv
 Cheryl Anne LERENA	spouse	Ivan DEFRANCESKI		register	Second marriage; recorded in data/direct-line.tsv
+Sara LERENA (d. 18 August 1892, aged 18)	mother	Teresa LERENA (mother of Sara, 1892)	-	register	Cordon burial entry of 18 August 1892, plate read 17 Oct 2026: 'hija natural de Teresa Lerena'.
+Teresa LERENA (mother of Sara, 1892)	child	Sara LERENA (d. 18 August 1892, aged 18)	-	register	Cordon burial entry of 18 August 1892, plate read 17 Oct 2026: 'hija natural de Teresa Lerena'.
+Jose Maria LARRANAGA (buried 2 August 1890, aged 22)	father	Benito LARRANAGA (m. Martina Lerena)	-	register	Cordon burial entry of 2 August 1890, plate read 17 Oct 2026: 'hijo legitimo de Benito Larranaga y de Martina Lerena'.
+Jose Maria LARRANAGA (buried 2 August 1890, aged 22)	mother	Martina LERENA (m. Benito LARRANAGA)	-	register	Cordon burial entry of 2 August 1890, plate read 17 Oct 2026: 'hijo legitimo de Benito Larranaga y de Martina Lerena'.
+Benito LARRANAGA (m. Martina Lerena)	child	Jose Maria LARRANAGA (buried 2 August 1890, aged 22)	-	register	Cordon burial entry of 2 August 1890, plate read 17 Oct 2026: 'hijo legitimo de Benito Larranaga y de Martina Lerena'.
+Martina LERENA (m. Benito LARRANAGA)	child	Jose Maria LARRANAGA (buried 2 August 1890, aged 22)	-	register	Cordon burial entry of 2 August 1890, plate read 17 Oct 2026: 'hijo legitimo de Benito Larranaga y de Martina Lerena'.
+Benito LARRANAGA (m. Martina Lerena)	spouse	Martina LERENA (m. Benito LARRANAGA)	-	register	Cordon burial entry of 2 August 1890, plate read 17 Oct 2026: 'hijo legitimo de Benito Larranaga y de Martina Lerena'.
+Martina LERENA (m. Benito LARRANAGA)	spouse	Benito LARRANAGA (m. Martina Lerena)	-	register	Cordon burial entry of 2 August 1890, plate read 17 Oct 2026: 'hijo legitimo de Benito Larranaga y de Martina Lerena'.
+Jose Maria REYES (buried 13 June 1920, aged 77)	spouse	Maria LERENA (m. Jose Maria REYES, Cordon 1920)	-	register	Cordon burial entry of 13 June 1920, machine transcript only: 'casado con Maria Lerena'.
+Maria LERENA (m. Jose Maria REYES, Cordon 1920)	spouse	Jose Maria REYES (buried 13 June 1920, aged 77)	-	register	Cordon burial entry of 13 June 1920, machine transcript only: 'casado con Maria Lerena'.

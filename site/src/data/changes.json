@@ -2,6 +2,16 @@
  "mechanical": 53,
  "days": [
   {
+   "date": "2026-10-17",
+   "commits": [
+    {
+     "sha": "ef79564",
+     "subject": "The Gazette sweep on nine spellings: still not one Lerena before 1951",
+     "body": "Every year 1905 to 1950, through the site's own search and its year filter. The control\nreproduced the earliest LERENA (April 1951). The other eight spellings return places,\ngiven names and OCR debris. Stronger than the one-spelling null of 12 October, still not\na closed one: the 1950 estate notice does not turn up under any spelling either."
+    }
+   ]
+  },
+  {
    "date": "2026-10-16",
    "commits": [
     {
