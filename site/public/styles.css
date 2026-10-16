@@ -81,7 +81,7 @@ p.prose+p.prose{margin-top:16px}
 .g2{grid-template-columns:repeat(2,minmax(0,1fr))}
 .g3{grid-template-columns:repeat(3,minmax(0,1fr))}
 @media (max-width:900px){.g3{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media (max-width:600px){.g2, .g3{grid-template-columns:1fr}}
+@media (max-width:600px){.g2, .g3{grid-template-columns:minmax(0,1fr)}}
 table{border-collapse:collapse;width:100%;font-family:var(--sans);font-size:13.5px}
 th{text-align:left;font-size:10.5px;font-weight:600;letter-spacing:.13em;text-transform:uppercase;
   color:var(--ink-3);padding:0 16px 9px 0;border-bottom:1px solid var(--rule-strong);white-space:nowrap}
@@ -793,5 +793,27 @@ p,li,td,th,dd,.cap,.txt,.dek,.ab{overflow-wrap:anywhere}
    beside them. Measured on 13 October 2026: the notes reached x=486 where the next column
    began at x=400. It happened on every person page at tablet width and not at all at 1280px,
    which is why a desktop check never showed it. 1060px is where two columns first get 495px. */
-@media (max-width:1060px){.g2.pg2{grid-template-columns:1fr}}
+@media (max-width:1060px){.g2.pg2{grid-template-columns:minmax(0,1fr)}}
 
+/* PHONE WIDTH, PERSON PAGES (found 16 October 2026: all 692 /people/ pages scrolled sideways at 390px,
+   a median 81px too wide, the worst 1,332px). The cause was the third column of .rec. The provenance
+   note is nowrap on purpose, and the "Died" note is a 100-character sentence, so the single-column
+   grid track (1fr = minmax(auto,1fr)) grew to the width of that one line and pushed the whole page out.
+   Two fixes, both needed: the tracks may shrink (minmax(0,1fr), above), and on a phone the note drops
+   under its value and wraps instead of sitting in a column of its own. */
+@media (max-width:600px){
+  .rec{grid-template-columns:minmax(96px,auto) minmax(0,1fr)}
+  .rec .w{grid-column:1 / -1;white-space:normal;text-align:left;padding:0 0 9px;margin-top:-1px}
+  .rec .k, .rec .v{border-bottom:0}
+  .rec .v{overflow-wrap:anywhere}
+}
+
+
+/* /sources/: the kit's .sr-tag is nowrap, which suits a two-word label, but a few rows carry a whole
+   sentence there ("index read; THE PLATE WAS BLOCKED. ..."), 1,700px of it on one line, and the page
+   scrolled sideways at 390px (found 16 October 2026). Let a long tag wrap. The extra .sr-row in the
+   selector beats the kit's own rule, which is written inside the page. */
+.sr-row .sr-tag{white-space:normal;overflow-wrap:anywhere}
+/* ...and the same for the unbroken web addresses in a row's meta line (no spaces, so they cannot wrap
+   without being told they may). */
+.sr-meta .mono{min-width:0;overflow-wrap:anywhere}
