@@ -1766,15 +1766,15 @@
   },
   {
    "n": 217,
-   "what": "Send the Defence Documentation Centre letter for Nuno's service record",
-   "state": "next",
+   "what": "Wait for the Defence Documentation Centre to answer the email about Nuno's service record",
+   "state": "blocked",
    "owner": "David",
    "since": "2026-10-13",
    "covers": [
     "err:david-sandf-nuno-service-request",
     "letter:documentation-centre-nuno-service.md"
    ],
-   "note": "Drafted and **not sent**: a postal request to the Documentation Centre in Pretoria for Nuno Fernando's personnel file, to settle the **Air Force and 12 Squadron** statements made by a 1997 letter and a 1971 notice. It needs David's postal address, signature and two certificate copies, and possibly a consent from one of Nuno's children. Nothing leaves this archive except from David's own address."
+   "note": "**Emailed on 16 October 2026** from David's own address to *archive@dod.mil.za* (unconfirmed on any current official page, so watch for a bounce). It asks whether a personnel file exists for Nuno Fernando, how to get a copy and what proof and fee are needed, and has his birth and death certificates with it. The fuller **postal letter stays a draft** on the errands page as a fallback. A reply, if any, is expected by post."
   }
  ],
  "accounts": [

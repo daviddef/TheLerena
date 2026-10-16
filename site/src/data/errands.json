@@ -409,10 +409,10 @@
  },
  {
   "key": "david-sandf-nuno-service-request",
-  "what": "*** Send the Defence Documentation Centre letter for Nuno's service record ***",
+  "what": "*** Nuno's service record: emailed to the Defence Documentation Centre on 16 October 2026 ***",
   "who": "David",
-  "status": "waiting-on-david",
-  "detail": "Drafted 13 October 2026 and on this page with the other letters: a request by post to the Documentation Centre, Private Bag X289, Pretoria 0001 (postal address matches the Defence Department's own access-to-information manual; the email is unconfirmed - see the letter). It needs your postal address and signature, copies of Nuno's death and birth certificates and your ID, and possibly a consent signed by one of Nuno's children. Brief: requests/documentation-centre-nuno-service.md. It answers whether he served, in which unit, and under what number.",
-  "sent_on": ""
+  "status": "sent",
+  "detail": "Sent by email on 16 October 2026 from David's own address to archive@dod.mil.za, in plain family-historian's words, with Nuno's birth and death certificates embedded. It asks whether a personnel file exists, how to get a copy, and what proof and fee they need; it gives both readings of his ID number and says what is not known. THE ADDRESS IS UNCONFIRMED on any current official page, so watch for a bounce: the fallback is sandfdoc@mweb.co.za or the postal letter on this page (Private Bag X289, Pretoria 0001), which has NOT been sent. The Centre says records are not sent electronically; any reply with copies will come by post. Brief: requests/documentation-centre-nuno-service.md.",
+  "sent_on": "2026-10-16"
  }
 ]
