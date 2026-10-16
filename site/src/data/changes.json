@@ -2,6 +2,46 @@
  "mechanical": 53,
  "days": [
   {
+   "date": "2026-10-16",
+   "commits": [
+    {
+     "sha": "8b44812",
+     "subject": "The Documentation Centre email has gone, and the errand now says so",
+     "body": "Sent on 16 October from David's own address, with Nuno's birth and death\ncertificates in the body. Its address is unconfirmed on any current official page,\nso the errand tells David to watch for a bounce; the postal letter stays a draft\nas the fallback."
+    },
+    {
+     "sha": "7ae919b",
+     "subject": "Re-pin the kit to 3efc89e",
+     "body": "Picks up the kit's accessibility defaults: work-list state colours that clear AA in\nboth schemes, person-tree tiles that follow the panel colour, external links in\nnotes, wrapping Sources tags and 11px labels. Built clean through the archive's\nfull gated build at the new pin, with the installed kit checked for the new\nfiles, not only the lockfile."
+    },
+    {
+     "sha": "acfa1e3",
+     "subject": "emph(): keep escaping quotes, so a literal href=\"/x/\" in a note stays text (the link checker read it as a link)",
+     "body": ""
+    },
+    {
+     "sha": "17b7c78",
+     "subject": "Contrast: muted ink and label colours reach 4.5:1 in both schemes; labels under 10px go to 11px",
+     "body": "--ink-3 (and --ochre, four place-tag colours) darkened in the light scheme, --ink-3\nlightened in the dark one; text on accent fills, person-chart nodes (--paper), the\nwork-list state colours, errand tags and Leaflet attribution fixed for dark."
+    },
+    {
+     "sha": "f8c755f",
+     "subject": "Render markdown and entities properly: emph() now goes through the kit's md()",
+     "body": "Backticks, **bold** and *italic* printed their markers on 11 pages; the register\nand /sources/ printed markup as text (double-escaped); the name page's chart\ntooltips and the open-questions arrow labels printed entities. Text is not\nedited: only how it is rendered."
+    },
+    {
+     "sha": "60b1785",
+     "subject": "Phone width: person pages and /sources/ no longer scroll sideways at 390px",
+     "body": "The person pages' provenance column (.rec .w) is nowrap and the one-column grid\ntrack could not shrink below it, so all 692 pages overflowed. Tracks now use\nminmax(0,1fr) and the note wraps under its value on a phone. /sources/: let a\nlong tag and unbroken web addresses wrap."
+    },
+    {
+     "sha": "ad1b6a1",
+     "subject": "Re-pin the archive kit to 9c66e9c (sitemap leaves out pages whose canonical names another page)",
+     "body": ""
+    }
+   ]
+  },
+  {
    "date": "2026-10-13",
    "commits": [
     {
