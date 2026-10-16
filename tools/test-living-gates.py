@@ -56,7 +56,7 @@ def run(gate, root, dist, env=None):
 def scratch(src_dist):
     """A cheap copy of everything the gates read: data, generated data, tools, the kit (linked), dist."""
     t = pathlib.Path(tempfile.mkdtemp(prefix="living-gates-"))
-    for rel in ("data", "tools", "site/src/data"):
+    for rel in ("data", "tools", "notes", "site/src/data"):
         (t / rel).parent.mkdir(parents=True, exist_ok=True)
         subprocess.run(["cp", "-Rc", str(ROOT / rel), str(t / rel)], check=True)
     (t / "site" / "node_modules" / "@daviddef").mkdir(parents=True, exist_ok=True)
@@ -173,7 +173,7 @@ def main():
          put_back("data/lerena-siblings-gen3.tsv", cell), dist)
     case("c  a date put back in notes/compared-with-the-defranceski-archive.md", STD, "compared-with-the-defranceski-archive.md puts a date",
          put_back("notes/compared-with-the-defranceski-archive.md",
-                  lambda s0: s0.replace(f"{C.name}, born", f"{C.name}, b. {CD}, born", 1)), dist)
+                  lambda s0: re.sub(r"(?i)(" + re.escape(C.name) + r"), born", lambda m_: m_.group(1) + ", b. " + CD + ", born", s0, count=1)), dist)
     case("c  a year put back in notes/findings.md", STD, "notes/findings.md puts a date",
          put_back("notes/findings.md", lambda s0: s0.replace(" ".join(C.name.split()[:2]) + " (living", " ".join(C.name.split()[:2]) + " 1799 (living", 1)), dist)
 
@@ -319,9 +319,9 @@ def main():
           not lr.is_living(2005, False, ["FamilySearch Family Tree"], 2026)
           and lr.is_living(2005, False, ["MyHeritage family tree"], 2026))
     check("rule  no birth year is not living", not lr.is_living(None, False, [], 2026))
-    check("rule  under 18 and undated-with-a-living-parent are held out; the dead are not",
-          lr.possible_minor(2015, False, [], False, 2026) and lr.possible_minor(None, False, [], True, 2026)
-          and not lr.possible_minor(2015, True, [], False, 2026))
+    check("rule  an undated person with a living parent is held out; a child with a known year, and the dead, are not",
+          lr.possible_minor(None, False, [], True, 2026) and not lr.possible_minor(2015, False, [], True, 2026)
+          and not lr.possible_minor(None, True, [], True, 2026) and not lr.possible_minor(None, False, [], False, 2026))
 
     # the two people recorded dead only by a burial registration
     by_slug = {p.slug: p for p in people}
