@@ -169,7 +169,7 @@ MARY SOPHIA LERENA."* The estate file and the tree independently confirm each ot
 Afrikaans surname predicted from the MyHeritage tree title before either was read.
 
 Children (gen 3): Jeanette Marie 1949-2021 · Paul Raymond 1951-2000 · Catherine Tersia 1952-1999 ·
-**Cheryl Anne 1955 (living, omitted)** · Patricia Carmen 1958-2023.
+**Cheryl Anne (living, omitted)** · Patricia Carmen 1958-2023.
 
 **Note "Paul Raymond"** — Paul recurs from gen 1. And **"Carmen"** survives as a given name into 1958.
 

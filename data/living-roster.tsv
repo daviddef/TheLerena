@@ -1,0 +1,17 @@
+# THE LIVING ROSTER (16 October 2026). Who is living, recorded by name and slug with NO DATE.
+#
+# Every file in this repository is public, and the estate's standard is that a living person carries no
+# date in any committed file. The rule itself is "born 80 years ago or less, no death recorded"
+# (the kit's living_rule.py), and it needs a birth year to be applied. For a person whose year used to
+# sit in a public working file, this roster is the explicit committed flag instead: the person is living,
+# here is their town and country, and no year is held anywhere in this repository.
+#
+# A roster row is a CLAIM, and tools/check-living-standard.py checks it: the file must hold at least one
+# row, no digit may appear in it, each person must appear in data/relations.tsv with the slug written here,
+# and none may have a recorded death or a public-source citation anywhere in the data. When a person on this
+# roster dies, delete the row and record the death; the build refuses to publish a roster person as living
+# if a death is recorded.
+#
+# town is the town or city, never a street or an institution; country is the country.
+name	slug	town	country	basis
+Cheryl Anne LERENA	cheryl-anne-lerena	Johannesburg	South Africa	Named among the children in her father's death notice; living, as the author confirms

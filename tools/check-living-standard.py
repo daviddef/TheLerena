@@ -13,11 +13,14 @@ files committed with it:
   b  PAGE       every living person has a page, `noindex`, with no table, no image, no Person
                 structured data and no year anywhere in it; and it is in neither the sitemap nor
                 this site's search index.
-  c  DATES      no literal full date of a living person's appears on any built page or served file.
+  c  DATES      no date or year sits against a living person's name in ANY tracked file (data/, notes/,
+                site/src ...) or any built page or served file, and no literal full date of theirs is served.
+                A living person is recorded by data/living-roster.tsv (name, slug, town, country, no date).
+  r  ROSTER     the roster is not empty, holds no digit, and lists nobody the data records as dead.
   d  NAME PAGES a /who/ page whose every bearer is living is noindex and names no canonical elsewhere.
-  e  HELD OUT   a possible minor or a person promised privacy appears nowhere: not in a data file,
+  e  HELD OUT   an undated person with a living parent, or a person promised privacy, appears nowhere: not in a data file,
                 a tsv, a built page or a served file. (This archive's inputs are COMMITTED, so a
-                minor entered in the register is itself a leak: the gate fails on the row.)
+                undated child entered in the register is itself a leak: the gate fails on the row.)
   f  NAMED      every person this archive names in its chart has a person page, and no name in a
                 chart is drawn without a link.
   g  EMPTY      refuses to pass on a build with no pages, or on a reckoning that found nobody.
@@ -39,12 +42,6 @@ import unicodedata
 HERE = pathlib.Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 import livingcheck as L  # noqa: E402
-
-# Committed working files that predate the standard and still hold the one living person's full date.
-# They are INPUTS the generator reads; nothing built reads them to a page. Listed, not hidden: the gate
-# fails on that date in any OTHER tracked file and in every built file.
-PRE_RULE_INPUTS = {"data/direct-line.tsv", "data/lerena-siblings-gen3.tsv",
-                   "notes/compared-with-the-defranceski-archive.md"}
 
 YEAR = re.compile(r"\b(1[0-9]{3}|20[0-9]{2})\b")
 TEXT_EXT = {".html", ".json", ".xml", ".txt", ".js", ".css", ".tsv", ".md", ".astro", ".py", ".webmanifest", ".csv"}
@@ -124,6 +121,19 @@ def main():
     held = [p for p in people if p.held]
     quiet = {p["slug"] for p in pj if p.get("noindex")}
 
+    # r -- the roster: refused when empty, and when it holds a date
+    rrows = L.roster_rows(root)
+    if not rrows:
+        fail("r", "data/living-roster.tsv is empty or missing: the gate refuses to guard nobody")
+    rtext = (root / "data" / "living-roster.tsv")
+    if rtext.exists():
+        for line in rtext.read_text(encoding="utf-8").splitlines():
+            if line.strip() and not line.startswith("#") and re.search(r"\d", line):
+                fail("r", "data/living-roster.tsv holds a digit: the roster records a living person with NO date")
+    for p in people:
+        if getattr(p, "roster_problem", ""):
+            fail("r", f"roster row for /people/{p.slug or '?'}/ is refused: {p.roster_problem}")
+
     # a -- the generator and the rule agree
     for p in people:
         if p.held:
@@ -200,19 +210,26 @@ def main():
                 fail("c", f"{f.relative_to(dist)} contains the full date «{d}», which the data attaches to a "
                           f"living person (/people/{owner}/)")
                 break
-    notes = set()
-    for f in tracked_files(root):
-        rel = f.relative_to(root).as_posix()
-        if f.suffix.lower() not in TEXT_EXT or rel.startswith("tools/") or "/dist" in rel:
-            continue
-        t = read(f)
-        for d, owner in forbidden.items():
-            if d in t:
-                if rel in PRE_RULE_INPUTS:
-                    notes.add(rel)
-                else:
-                    fail("c", f"committed file {rel} contains the full date «{d}» of a living person")
-                break
+    # c, continued -- a date or year against a living person's NAME, in any tracked file or served file.
+    # This is the test that works once the date is gone from the repo: it needs no copy of the date.
+    for p in living:
+        for f in tracked_files(root):
+            rel = f.relative_to(root).as_posix()
+            if f.suffix.lower() not in TEXT_EXT or rel.startswith("tools/") or "/dist" in rel \
+                    or rel.startswith("site/dist") or rel.startswith("site/public/atlas"):
+                continue
+            hits = L.dated_mentions(read(f), p.name, is_tsv=f.suffix.lower() in (".tsv", ".csv"))
+            if hits:
+                fail("c", f"committed file {rel} puts a date against a living person's name («{hits[0].strip()[:40]}»)")
+        for f in served:
+            if f.suffix.lower() not in (".html", ".json", ".txt", ".xml"):
+                continue
+            t = read(f)
+            if f.suffix.lower() == ".html":
+                t = html.unescape(re.sub(r"<[^>]+>", " ", re.sub(r"(?s)<script.*?</script>|<style.*?</style>", " ", t)))
+            hits = L.dated_mentions(t, p.name)
+            if hits:
+                fail("c", f"{f.relative_to(dist)} puts a date against a living person's name («{hits[0].strip()[:40]}»)")
 
     # d -- name pages
     pj_by_name = {}
@@ -277,9 +294,7 @@ def main():
     print(f"  ok    living-std  {len(living)} living, {len(held)} held out, {n_noidx} noindex of {len(pj)} people; "
           f"living pages: noindex, not in sitemap or search, no table/image/Person JSON-LD/year; "
           f"{len(forbidden)} full-date string(s) absent from {len(served)} served files")
-    if notes:
-        print("          NOTE  committed working files that predate the standard still hold a living person's full "
-              f"date (inputs only, reach no page): {', '.join(sorted(notes))}")
+    print(f"          roster: {len(rrows)} living person(s) recorded with no date; no tracked file or served file puts a date against a living name")
     if not living:
         print("          NOTE  the rule found NOBODY living: if that is not expected, the data or the rule changed")
     return 0

@@ -186,16 +186,16 @@ for r in rows:
 #   living  = born 80 years ago or less (by year), with no death or burial recorded, and
 #             no citation from a public record source. No birth year = not living.
 #   shown   = a living person is NAME, RELATIONSHIPS, and FULL TOWN AND COUNTRY. Nothing else.
-#   held out = a possible minor (under 18 by year, or undated with a living parent) or a
-#             person promised privacy by id: not published at all, and not named as anyone's
-#             relative.
+#   held out = an UNDATED person with a living parent (who might be a child), or a person
+#             promised privacy by id: not published at all, and not named as anyone's relative.
+#             A child with a KNOWN birth year follows the standard like any living person.
 #
 # THE GENERATOR SCRUBS AT THE SOURCE. This file is the only reader of a living person's
 # birth year, and it writes none of it: people.json is committed and public, so what a living
 # person carries into it is name, relationships, town, country - and nothing a build could
-# print by mistake. (data/direct-line.tsv and data/lerena-siblings-gen3.tsv, committed
-# before this rule, still hold her dates as the archive's working record; they are inputs
-# here and reach no page, no JSON and no search index.)
+# print by mistake. A living person whose year is not held in any public file is recorded in
+# data/living-roster.tsv (name, slug, town, country, no date); no committed file holds a living
+# person's date.
 # ===========================================================================
 def fold(s):
     """A name as the data spells it, brought to one form: no brackets, no quotes, no case."""
@@ -339,6 +339,10 @@ _HELD_FILE = ROOT / "data" / "held-out-ids.txt"       # promised privacy, by slu
 HELD_IDS = [l.split("#")[0].strip() for l in _HELD_FILE.read_text(encoding="utf-8").splitlines()
             if l.split("#")[0].strip()] if _HELD_FILE.exists() else []
 
+ROSTER = {r["name"].strip(): r for r in tsv_rows(ROOT / "data" / "living-roster.tsv") if r.get("name")}
+_unknown = sorted(set(ROSTER) - {p["name"] for p in people})
+if _unknown:
+    raise SystemExit("build-people: data/living-roster.tsv names %d person(s) the chart does not hold" % len(_unknown))
 _fold_count = {}
 for p in people:
     _fold_count[fold(p["name"])] = _fold_count.get(fold(p["name"]), 0) + 1
@@ -349,6 +353,17 @@ for p in people:
                   or (fold(p["name"]) in DEAD_FOLDED and _fold_count[fold(p["name"])] == 1))
     p["_cit"] = [] if p.get("_supp") else [p["source"], p["sourceUrl"]] + _EV.get(p["name"], [])
     p["living"] = lr.is_living(p["_by"], p["_dead"], p["_cit"], TODAY)
+    # THE ROSTER (data/living-roster.tsv): a living person whose birth year is NOT held in any public
+    # file is recorded as living by name and slug, with their town and country and no date. It cannot
+    # make a dead person living: a recorded death, or a public-source citation, refuses the build.
+    _rr = ROSTER.get(p["name"])
+    if _rr:
+        if p["_dead"] or lr.public_source(p["_cit"]):
+            raise SystemExit("build-people: data/living-roster.tsv lists a person the data records as dead or "
+                             "cites to a public source (%s). Delete the roster row." % p["slug"])
+        if _rr.get("slug") != p["slug"]:
+            raise SystemExit("build-people: living-roster slug %r does not match %r" % (_rr.get("slug"), p["slug"]))
+        p["living"], p["_roster"] = True, _rr
 
 _parents = {}                      # child name -> parent names, from the chart's own edges
 for _who, _rel, _oth, *_ in REL_EDGES:
@@ -651,7 +666,9 @@ EMPTY = {"born": "", "died": "", "birthplace": "", "nationality": "", "occupatio
 no_place = []
 for p in people:
     if p["living"]:
-        town, country = town_country(p["birthplace"], p["where"])
+        _rr = p.get("_roster")
+        town, country = ((_rr["town"].strip(), _rr["country"].strip()) if _rr
+                         else town_country(p["birthplace"], p["where"]))
         for k in list(p):
             if k not in KEEP_LIVING and k not in EMPTY and not k.startswith("_"):
                 del p[k]

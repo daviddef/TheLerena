@@ -59,7 +59,7 @@ unsearchable without it. See `notes/QUEUE.md` § 0.
 **A living person (80 or younger, with no death recorded) is named with their relationships and their town and country, and nothing more.**
 Their page is not indexed. Who is living is decided by one rule shared by the family's archives (the kit's
 `living_rule.py`), applied by `tools/build-people.py` and checked independently by `tools/check-living-places.py`
-and `tools/check-living-standard.py`. A person who might be a child is not published at all. Because this line
+and `tools/check-living-standard.py`. An undated person with a living parent (who might be a child) is not published at all; a child with a known birth year follows the same rule as any living person. Who is living is recorded without any date in `data/living-roster.tsv`. Because this line
 reaches the present within three generations, much of the story stays out of public view. A removal request is
 honoured within days, without argument and without requiring a reason.
 

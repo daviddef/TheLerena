@@ -20,6 +20,11 @@ A RECORDED DEATH OR BURIAL, however this archive records it: last-attested-alive
 beginning DEATH, ceilings included - a ceiling is a death of uncertain year), the Johannesburg
 cemetery register's burial and death rows, the working files' own death columns.
 
+THE ROSTER. A living person whose birth year is held in no public file is recorded in
+data/living-roster.tsv (name, slug, town, country: no date). The gate cannot recompute their age, so it checks
+the roster instead: non-empty, no digit in it, each person in the chart under the slug written there, and none
+with a recorded death or a public-source citation. Everybody else is recomputed from the raw data.
+
 THE NET. The two 1999 deaths of a wife and a younger son were recorded ONLY as burial registrations,
 in a file the old generator did not read, so a rule that looked only at a death column would have
 published them as living. So a person this reckoning calls living whose register `source` or recorded
@@ -140,6 +145,46 @@ def date_variants(s):
     return out
 
 
+def roster_rows(root):
+    rows = [r for r in tsv(pathlib.Path(root) / "data" / "living-roster.tsv") if (r.get("name") or "").strip()]
+    return rows
+
+
+DATE_RX = (r"(?:\d{1,2}\s+[A-Za-z]{3,9}\.?\s+)?(?:1[0-9]{3}|20[0-9]{2})(?:-\d{2}-\d{2})?"
+           r"|\d{1,2}[/.]\d{1,2}[/.](?:1[0-9]{3}|20[0-9]{2})")
+
+
+def name_variants(name):
+    """The forms a file may write a person as: the whole name, and their given names."""
+    base = re.sub(r"\(.*?\)", " ", name).split()
+    out = {" ".join(base)}
+    if len(base) > 2:
+        out.add(" ".join(base[:2]))
+    return {v for v in out if len(v) > 5}
+
+
+def dated_mentions(text, name, is_tsv=False):
+    """Places in `text` where a date or year sits directly against a person's name: «Name, b. DATE»,
+    «Name 1955», or a tab-separated row whose name cell is followed by a cell holding a year. Proximity
+    alone is NOT the test (a row about somebody else's birth may list this person as a child): the date
+    must be the next thing after the name, or in the next two cells of the row the name heads."""
+    hits = []
+    for v in name_variants(name):
+        rx = re.compile(re.escape(v).replace(r"\ ", r"\s+") + r"[\s*,:(\u2013\u2014\-]{0,6}(?:(?:b|born|d|died)\.?\s*)?(" + DATE_RX + ")", re.I)
+        for m in rx.finditer(text):
+            hits.append(m.group(0)[:60])
+    if is_tsv:
+        target = fold(name)
+        for line in text.splitlines():
+            cells = line.split("\t")
+            for i, c in enumerate(cells):
+                if fold(plainmark(c)) == target:
+                    if any(re.search(DATE_RX, x or "") for x in cells[i + 1:i + 3] if len(x or "") < 40):
+                        hits.append(line[:60])
+                    break
+    return hits
+
+
 class P:
     def __init__(self, **kw):
         self.__dict__.update(kw)
@@ -222,9 +267,25 @@ def population(root=ROOT, today=None):
                         raw_places=[d.get("born_place", "")],
                         private_dates=date_variants(pb) | date_variants(pd), born_raw=pb))
 
-    # living, then parents' living-ness for the undated minors
+    # living, then parents' living-ness for the undated children
+    rost = {r["name"].strip(): r for r in roster_rows(root)}
     for p in people:
         p.living = lr.is_living(p.by, p.dead, p.cites, year)
+        p.roster = rost.get(p.name)
+        p.roster_problem = ""
+        if p.roster:
+            if p.dead or lr.public_source(p.cites):
+                p.roster_problem = "a recorded death or a public-source citation"
+            elif (p.roster.get("slug") or "").strip() != p.slug:
+                p.roster_problem = "a slug that is not theirs"
+            else:
+                p.living = True
+    p_names = {p.name for p in people}
+    for n in rost:
+        if n not in p_names:
+            people.append(P(name=n, slug=(rost[n].get("slug") or ""), kind="roster", by=None, dead=False, cites=[],
+                            evtext=[], raw_places=[], private_dates=set(), born_raw="", living=False,
+                            roster=rost[n], roster_problem="a name the chart does not hold"))
     living_names = {p.name for p in people if p.living}
     parents = {}
     for who, rel, oth, *_ in edges(root):
@@ -238,6 +299,8 @@ def population(root=ROOT, today=None):
         if p.held:
             p.living = False
         town, country, raw = expected_place(*p.raw_places)
+        if p.roster and p.living:
+            town, country, raw = (p.roster.get("town") or "").strip(), (p.roster.get("country") or "").strip(), ""
         p.town, p.country, p.raw_place = town, country, raw
         net = re.compile(r"\b(burial|buried|interment|interred|cemetery|died|death|deceased)\b", re.I)
         p.suspect = bool(p.living and any(net.search(t or "") for t in p.evtext))

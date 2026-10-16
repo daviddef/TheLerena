@@ -6,16 +6,19 @@ tools/check-living-places.py has a control here: the unmodified build is checked
 pass (the positive control); then a COPY has one fault planted and the gate must fail on exactly
 that rule. The real files are never touched.
 
-Planted values are ones no living person can have (the year 1799, a name that is nobody's); a
-living person's real dates are never written here as literals: they are read from the data at run
-time, so this file can sit in a public repository.
+Planted values are ones no living person can have (the year 1799, a name that is nobody's). The
+living person's real date is held NOWHERE in this repository (the roster records who is living with
+no date), so this file never contains one and never needs to: faults are planted with the year 1799.
 
 Also proved here, against the generator and the shared rule:
-  - the 80-year bound moves the line (80 is living, 81 is not);
+  - the 80-year bound moves the line (80 is living, 81 is not), in the shared rule and in the generator;
   - a recorded death, and a public-source citation, each make a young person not living;
   - the two people recorded dead only by a burial registration cannot be marked living, and the net
     catches it if the burial rows are ever lost;
-  - a possible minor is held out of people.json, and the standard gate fails if the row is committed;
+  - an undated person with a living parent is held out of people.json, and the standard gate fails if the
+    row is committed; a child with a KNOWN birth year is not held out but is a living person like any other;
+  - the roster: an empty roster, a roster holding a digit, a roster naming a dead person, and a date put back
+    in each of the four files that once held it, are all refused;
   - a planted living person in the register is scrubbed to name, relationships, town, country.
 
 Usage:  python3 tools/test-living-gates.py [--dist site/dist-wt] [--full]
@@ -103,8 +106,7 @@ def main():
         raise SystemExit("the rule finds nobody living: these controls need one living person in the data")
     C = live[0]                                   # the living person the controls are aimed at
     cslug = C.slug
-    cdates = sorted(C.private_dates, key=len)
-    cdate = max(C.private_dates, key=len)         # a full date string, read from the data and never typed here
+    CD = "14 Oct 1799"                            # a date no living person can have
 
     # ---------------- positive controls: the real build passes both gates -------------------------
     case("POSITIVE  real build passes the standard gate", STD, None, lambda t: None, dist, expect_pass=True)
@@ -145,17 +147,49 @@ def main():
     case("b  living page showing a year (1799)", STD, "shows a year (1799)", year_, dist)
 
     def date_elsewhere(t):
-        edit(page(t, "about"), lambda s: s.replace("</main>", f"<p>{cdate}</p></main>", 1))
-    case("c  a living person's full date on another page", STD, "contains the full date", date_elsewhere, dist)
+        edit(page(t, "about"), lambda s: s.replace("</main>", f"<p>{C.name}, b. {CD}</p></main>", 1))
+    case("c  a date against a living person's name on a built page", STD, "puts a date against a living person's name", date_elsewhere, dist)
 
     def date_json(t):
-        (t / "dist" / "leak.json").write_text(json.dumps({"x": cdate}), encoding="utf-8")
-    case("c  ... or in any served file", STD, "leak.json contains the full date", date_json, dist)
+        (t / "dist" / "leak.json").write_text(json.dumps({"x": f"{C.name} {CD}"}), encoding="utf-8")
+    case("c  ... or in any served file", STD, "leak.json puts a date", date_json, dist)
 
     def date_committed(t):
         with open(t / "data" / "relations.tsv", "a", encoding="utf-8") as f:
-            f.write(f"# a planted note {cdate}\n")
-    case("c  ... or in a committed file that is not a known input", STD, "committed file data/relations.tsv", date_committed, dist)
+            f.write(f"# a planted note: {C.name}, b. {CD}\n")
+    case("c  ... or in any committed file", STD, "committed file data/relations.tsv puts a date", date_committed, dist)
+
+    # the four files that once held her full birth date: put a date back in each, expect a refusal
+    def put_back(rel, how):
+        def m(t):
+            f = t / rel
+            s0 = f.read_text(encoding="utf-8")
+            f.write_text(how(s0), encoding="utf-8")
+        return m
+    cell = lambda s0: re.sub(r"(?m)^(.*\t?)(" + re.escape(C.name.split()[0]) + r" Anne[^\t\n]*)\t\t", lambda m_: m_.group(1) + m_.group(2) + "\t" + CD + "\t", s0, count=1)
+    case("c  a date put back in data/direct-line.tsv", STD, "committed file data/direct-line.tsv puts a date",
+         put_back("data/direct-line.tsv", cell), dist)
+    case("c  a date put back in data/lerena-siblings-gen3.tsv", STD, "committed file data/lerena-siblings-gen3.tsv puts a date",
+         put_back("data/lerena-siblings-gen3.tsv", cell), dist)
+    case("c  a date put back in notes/compared-with-the-defranceski-archive.md", STD, "compared-with-the-defranceski-archive.md puts a date",
+         put_back("notes/compared-with-the-defranceski-archive.md",
+                  lambda s0: s0.replace(f"{C.name}, born", f"{C.name}, b. {CD}, born", 1)), dist)
+    case("c  a year put back in notes/findings.md", STD, "notes/findings.md puts a date",
+         put_back("notes/findings.md", lambda s0: s0.replace(" ".join(C.name.split()[:2]) + " (living", " ".join(C.name.split()[:2]) + " 1799 (living", 1)), dist)
+
+    # the roster
+    def roster_empty(t):
+        (t / "data" / "living-roster.tsv").write_text("name\tslug\ttown\tcountry\tbasis\n", encoding="utf-8")
+    case("r  an empty roster", STD, "living-roster.tsv is empty or missing", roster_empty, dist)
+
+    def roster_digit(t):
+        edit(t / "data" / "living-roster.tsv", lambda s: s.rstrip("\n") + " 1799\n")
+    case("r  a date in the roster", STD, "holds a digit", roster_digit, dist)
+
+    def roster_dead(t):
+        with open(t / "data" / "living-roster.tsv", "a", encoding="utf-8") as f:
+            f.write("Gayle LERENA (born PRESTON)\tgayle-lerena\tPlanted\tPlanted\tplanted\n")
+    case("r  a roster row naming a person the data records dead", STD, "refused: a recorded death", roster_dead, dist)
 
     def whocanon(t):
         edit(page(t, f"who/{cslug}"), lambda s: re.sub(r'<meta name="robots"[^>]*noindex[^>]*>', "", s))
@@ -165,24 +199,24 @@ def main():
         edit(page(t, f"who/{cslug}"), lambda s: s.replace("</head>", '<link rel="canonical" href="https://x.invalid/elsewhere/"></head>', 1))
     case("d  name page naming a canonical elsewhere", STD, "names a canonical elsewhere", whocanon2, dist)
 
-    def minor(t):
+    def known_child(t):
         row = "\t".join(["Planted Minor LERENA", "2015", "Montevideo", "Uruguayan", "-", "Montevideo", "planted", "UNPLACED", "", ""])
         with open(t / "data" / "lerena-register.tsv", "a", encoding="utf-8") as f:
             f.write(row + "\n")
-    case("e  a possible minor (born 2015) committed in the register", STD, "HELD-OUT person", minor, dist)
-
-    def minor_page(t):
-        edit(page(t, "about"), lambda s: s.replace("</main>", "<p>Planted Minor LERENA</p></main>", 1))
-    def minor_both(t):
-        minor(t); minor_page(t)
-    case("e  ... and on a built page", STD, "appears in about/index.html", minor_both, dist)
+    case("c  a KNOWN child's year committed in the register (a child is a living person: no date in a public file)",
+         STD, "puts a date against a living person's name", known_child, dist)
 
     def undated_child(t):
         with open(t / "data" / "lerena-register.tsv", "a", encoding="utf-8") as f:
             f.write("\t".join(["Planted Child LERENA", "-", "-", "-", "-", "Montevideo", "planted", "UNPLACED", "", ""]) + "\n")
         with open(t / "data" / "relations.tsv", "a", encoding="utf-8") as f:
             f.write("\t".join([C.name, "child", "Planted Child LERENA", "", "register", "planted"]) + "\n")
-    case("e  an undated person with a living parent (held out)", STD, "HELD-OUT person", undated_child, dist)
+    case("e  an undated person with a living parent (held out), committed", STD, "HELD-OUT person", undated_child, dist)
+
+    def child_page(t):
+        undated_child(t)
+        edit(page(t, "about"), lambda s: s.replace("</main>", "<p>Planted Child LERENA</p></main>", 1))
+    case("e  ... and on a built page", STD, "appears in about/index.html", child_page, dist)
 
     def unbuilt(t):
         shutil.rmtree(t / "dist" / "people" / "paul-raymond-lerena")
@@ -238,11 +272,6 @@ def main():
     def no_register(t):
         (t / "data" / "lerena-register.tsv").write_text("name\tborn_est\n", encoding="utf-8")
     case("g  a reckoning that found nobody", STD, "the register was not read", no_register, dist)
-
-    # 80-year bound: the gate and the generator both reckon at LIVING_TODAY_YEAR
-    ytxt = max(int(x) for x in re.findall(r"\d{4}", " ".join(C.private_dates)) or [0]) if C.private_dates else 0
-    case("a  80-year bound: a year later the rule says she is not living", STD, "by the rule", lambda t: None, dist,
-         env={"LIVING_TODAY_YEAR": str(ytxt + 81)})
 
     # ---------------- check-living-places.py ------------------------------------------------------
     town, country = C.town, C.country
@@ -312,6 +341,9 @@ def main():
              "student", "Plantedville, Uruguay", "A private family tree, planted", "UNPLACED", "a planted note 1799", ""],
             ["Planted Minor LERENA", "2015", "Plantedville, Uruguay", "Uruguayan", "-", "Plantedville, Uruguay",
              "planted", "UNPLACED", "", ""],
+            ["Planted Child LERENA", "-", "-", "-", "-", "Plantedville, Uruguay", "planted", "UNPLACED", "", ""],
+            ["Planted Edge LERENA", "1946", "Plantedville, Uruguay", "Uruguayan", "-", "Plantedville, Uruguay",
+             "planted", "UNPLACED", "", ""],
             ["Planted Public LERENA", "2001", "Plantedville, Uruguay", "Uruguayan", "-", "Plantedville, Uruguay",
              "FamilySearch, planted record", "UNPLACED", "", ""],
         ]
@@ -321,6 +353,7 @@ def main():
         with open(t / "data" / "relations.tsv", "a", encoding="utf-8") as f:
             f.write("\t".join(["Planted Living LERENA", "father", "Nuno Fernando LERENA", "", "register", "planted 1799"]) + "\n")
             f.write("\t".join(["Planted Minor LERENA", "father", "Nuno Fernando LERENA", "", "register", "planted"]) + "\n")
+            f.write("\t".join(["Planted Living LERENA", "child", "Planted Child LERENA", "", "register", "planted"]) + "\n")
         r = gen_in_scratch(t)
         ok = r.returncode == 0
         j = {p["slug"]: p for p in json.loads((t / "site/src/data/people.json").read_text(encoding="utf-8"))} if ok else {}
@@ -337,16 +370,35 @@ def main():
         blob = json.dumps(pl)
         check("generator  ... none of the planted date, note or occupation reaches the JSON",
               not any(x in blob for x in ("2001", "1799", "student", "Hospital", "Street", "private family tree")))
-        check("generator  a planted possible minor is held out of people.json",
-              "planted-minor-lerena" not in j and "Planted Minor" not in json.dumps(j))
-        nuno = j.get("nuno-fernando-lerena", {})
+        check("generator  an undated person with a living parent is held out of people.json",
+              "planted-child-lerena" not in j and "Planted Child" not in json.dumps(j))
         check("generator  ... and is nobody's relative",
-              all("Planted Minor" not in c["name"] for c in nuno.get("children", [])))
+              all("Planted Child" not in c["name"] for p_ in j.values() for c in p_.get("children", [])))
+        pm = j.get("planted-minor-lerena", {})
+        check("generator  a child with a KNOWN birth year (2015) is NOT held out: a living person, noindex, scrubbed",
+              pm.get("living") is True and pm.get("noindex") is True and "2015" not in json.dumps(pm))
+        nuno = j.get("nuno-fernando-lerena", {})
         check("generator  a planted FamilySearch-cited young person is NOT living",
               j.get("planted-public-lerena", {}).get("living") is False)
         code, out = run(STD, t, t / "dist")
-        results.append((code == 1 and "HELD-OUT" in out, "standard gate, on that same scratch tree: the committed minor row fails it",
+        results.append((code == 1 and "HELD-OUT" in out, "standard gate, on that same scratch tree: the committed undated-child row fails it",
                         "caught" if code == 1 and "HELD-OUT" in out else out[:200]))
+        gen_in_scratch(t, {"LIVING_TODAY_YEAR": "2027"})
+        j2 = {p["slug"]: p for p in json.loads((t / "site/src/data/people.json").read_text(encoding="utf-8"))}
+        check("generator  80-year bound: born 80 years ago is living in 2026 and not in 2027",
+              j.get("planted-edge-lerena", {}).get("living") is True and j2.get("planted-edge-lerena", {}).get("living") is False,
+              f"{j.get('planted-edge-lerena', {}).get('living')} / {j2.get('planted-edge-lerena', {}).get('living')}")
+    finally:
+        shutil.rmtree(t, ignore_errors=True)
+
+    # a roster row cannot make a dead person living: the generator itself refuses
+    t = scratch(dist)
+    try:
+        with open(t / "data" / "living-roster.tsv", "a", encoding="utf-8") as f:
+            f.write("Gayle LERENA (born PRESTON)\tgayle-lerena\tPlanted\tPlanted\tplanted\n")
+        r = gen_in_scratch(t)
+        check("roster  the generator refuses a roster row for a person the data records dead",
+              r.returncode != 0 and "living-roster" in (r.stderr + r.stdout), (r.stderr + r.stdout)[-160:])
     finally:
         shutil.rmtree(t, ignore_errors=True)
 
@@ -386,8 +438,10 @@ def full_builds(dist):
             subprocess.run(["rsync", "-a", "--exclude", "dist*", "--exclude", ".git", "--exclude", "node_modules", str(src) + "/", str(t) + "/"], check=True)
             subprocess.run(["cp", "-Rc", str(src / "site" / "node_modules"), str(t / "site" / "node_modules")], check=True)
             with open(t / "data" / "lerena-register.tsv", "a", encoding="utf-8") as f:
-                f.write("\t".join(["Planted Living LERENA", "2001", "Plantedville, Uruguay", "Uruguayan", "-",
+                f.write("\t".join(["Planted Living LERENA", "-", "-", "-", "-",
                                    "Plantedville, Uruguay", "A private family tree, planted", "UNPLACED", "", ""]) + "\n")
+            with open(t / "data" / "living-roster.tsv", "a", encoding="utf-8") as f:
+                f.write("Planted Living LERENA\tplanted-living-lerena\tPlantedville\tUruguay\tplanted\n")
             with open(t / "data" / "relations.tsv", "a", encoding="utf-8") as f:
                 f.write("\t".join(["Planted Living LERENA", "father", "Nuno Fernando LERENA", "", "register", "planted"]) + "\n")
             with open(t / "data" / "_tree-offsite.txt", "a", encoding="utf-8") as f:

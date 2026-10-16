@@ -26,7 +26,7 @@ These are not gaps. They are places where the Lerena site says one thing and doe
 
 Our footer: *"Living people are excluded from this build."*
 
-Our `/direct-line/` publishes **Cheryl Anne Lerena, b. 14 Oct 1955, born Johannesburg, later Brisbane**,
+Our `/direct-line/` publishes **Cheryl Anne Lerena, born Johannesburg, later Brisbane**,
 with **both marriages named**, under a chip that reads **"Omitted"** and a caption that reads *"Details
 withheld under the rule on living people."* That is the opposite of withheld. And `/dna/` now discusses
 her test.
