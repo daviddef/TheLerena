@@ -5,6 +5,11 @@
    "date": "2026-10-16",
    "commits": [
     {
+     "sha": "366d7cd",
+     "subject": "Change log regenerated after merging the kit and page updates",
+     "body": ""
+    },
+    {
      "sha": "8b44812",
      "subject": "The Documentation Centre email has gone, and the errand now says so",
      "body": "Sent on 16 October from David's own address, with Nuno's birth and death\ncertificates in the body. Its address is unconfirmed on any current official page,\nso the errand tells David to watch for a bounce; the postal letter stays a draft\nas the fallback."
