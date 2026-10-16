@@ -5,6 +5,11 @@
    "date": "2026-10-16",
    "commits": [
     {
+     "sha": "12c2de3",
+     "subject": "Twelve Squadron's war diaries are mapped: eight books could cover Nuno",
+     "body": "The National Archives catalogue lists 16 items for No 12 Squadron SAAF in AIR 54;\nthe eight for 1942 to 1945 sit in six digitised pieces. Recorded in searched.json,\nthe war-service errand and the work list. Not opened: the downloads are large and\nneed David's say-so, and an operations record book names aircrew far more than\nground crew, so a miss would not disprove service."
+    },
+    {
      "sha": "9b184ef",
      "subject": "A living man's family history and parentage inference are out of the repository",
      "body": "At David's request, alongside the estate's living standard (which removed the date):\nthe paragraph about her first husband's family and a DNA-based inference about his\nparentage, from her row in data/direct-line.tsv and from notes/findings.md; the\nfamily's movements and marriages from the README and notes; and the paragraph on\n/south-africa/ that named living people moving to Brisbane. Her row keeps what the\nstandard allows (a name, relationships, a town). Whether to go further, to a name\nonly, is David's call.\nNot removed: old values remain in git history on GitHub."

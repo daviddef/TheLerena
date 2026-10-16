@@ -2158,5 +2158,36 @@
    "saaf",
    "national-archives"
   ]
+ },
+ {
+  "src": "SANDF Documentation Centre (Department of Defence Archives), Pretoria - emailed a request for Nuno Fernando LERENA's personnel file",
+  "url": "https://www.dod.mil.za/",
+  "what": "Written to archive@dod.mil.za on 16 October 2026 from David's own address, with his birth and death certificates, asking whether a file exists, how to get a copy and what proof and fee are needed. WAITING: no reply yet and no bounce. The address is confirmed on no current official page (an unofficial site and a dated Defence Department manual give two different ones), so a bounce is possible; the fuller postal letter is the fallback.",
+  "when": "2026-10-16",
+  "outcome": "pending",
+  "pages": null,
+  "walked": false,
+  "tags": [
+   "lerena",
+   "nuno",
+   "saaf",
+   "documentation-centre"
+  ]
+ },
+ {
+  "src": "The SAAF Forum (an unofficial South African Air Force website and forum) - read for a way to find a man in 12 Squadron",
+  "url": "https://www.saairforce.co.za/forum/viewforum.php?f=2",
+  "what": "Read the forum index, the 'The SAAF!' section and its sticky thread on the UK National Archives' AIR 54 operations record books, which led to the AIR 54 search above; read the site's contact page on how to request a service record. A post asking for help finding Nuno Fernando Lerena in 12 Squadron is DRAFTED, NOT POSTED: it needs an account, and this archive does not register or sign in.",
+  "when": "2026-10-16",
+  "outcome": "yield",
+  "pages": null,
+  "walked": false,
+  "tags": [
+   "lerena",
+   "nuno",
+   "saaf",
+   "12-squadron",
+   "forum"
+  ]
  }
 ]
