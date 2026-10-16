@@ -2205,5 +2205,21 @@
    "saaf",
    "national-archives"
   ]
+ },
+ {
+  "src": "Gazettes.Africa - South African Government Gazette, every year 1905-1950, nine spellings of LERENA (LERENA as control, LLERENA, LERINA, LARENA, LEVENA, GERENA, PERENA, SERENA, LORENA)",
+  "url": "https://gazettes.africa/search/?q=Lerina",
+  "what": "The spelling sweep the 12 October consul test said was owed. No Lerena-like surname in any South African gazette before 1951 on any spelling; the control reproduced the earliest LERENA (April 1951, the liquidation account of Robert Paul Lerena). Every hit on the other spellings is a place, a given name or OCR debris (checked in the snippets). Not a closed null: the 1950 estate notice also does not appear, so estate-column OCR is broken beyond these spellings or it is not indexed.",
+  "when": "2026-10-17",
+  "outcome": "nothing",
+  "pages": null,
+  "walked": false,
+  "tags": [
+   "lerena",
+   "pablo",
+   "gazette",
+   "consul",
+   "south-africa"
+  ]
  }
 ]

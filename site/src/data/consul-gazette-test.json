@@ -38,5 +38,13 @@
   "what was already published": "The page's own best hypothesis is that he was an *** honorary *** consul - a resident merchant holding the post - which would explain a diplomat who bred horses and farmed ostriches, and would keep him out of the career foreign-service lists.",
   "what it means": "*** That hypothesis does not survive this test as comfortably as it looks. *** The gazette publishes recognitions of *** honorary *** consuls explicitly - the phrase 'Withdrawal of the Recognition as Honorary Consul of Finland' appears in the same corpus - so an honorary appointment is NOT a way of being absent from the gazette. *** If the exequatur route holds up under the spellings, the claim will have to rest on something other than a South African recognition *** - an Argentine appointment never recognised locally, a courtesy title, or the passport being remembered a generation later as a post.",
   "when": "12 Oct 2026"
+ },
+ {
+  "what": "*** THE SPELLINGS ARE SWEPT, 17 OCTOBER 2026: STILL NOT ONE LERENA BEFORE 1951 ***",
+  "the source": "South African Government Gazette via Gazettes.Africa, the site's own search with its year filter, every year 1905-1950, each spelling",
+  "result": "*** NO LERENA-LIKE SURNAME IN ANY SOUTH AFRICAN GAZETTE 1905-1950, ON ANY OF EIGHT SPELLINGS. *** LERENA 0 (control: its earliest hit is April 1951, the liquidation account of Robert Paul Lerena, which this method reproduced); LLERENA 0; PERENA 0; LERINA 2 (a place name; a Moroccan bulletin); LARENA 1 and GERENA 1 (both Moroccan French bulletins); LEVENA 6 (Afrikaans given names); LORENA 16 (a farm near Bloemhof, and given names); SERENA 80 (70 South African: the Vieira Serena family of Benoni and Rosettenville, house names, and OCR debris).",
+  "what was already published": "The 12 October test searched one spelling and said so. The sweep was run on the other eight, filtering on the /akn/za address because the site's country parameter does not bind.",
+  "what it means": "The null now holds on nine spellings, which is stronger and is still not a closed null: it says no gazette OCR in these years reads as a Lerena-like name, not that no Argentine consul was gazetted. His 1950 estate was surely noticed to creditors in 1950 and no 1950 notice turns up under any spelling, so the OCR of the estate columns is broken beyond these variants or the notice is not indexed. The two documents behind the bot check, which should name the Argentine consuls of 1938 and 1950, are still unopened and are still David's to open in his own browser.",
+  "when": "2026-10-17"
  }
 ]

@@ -1734,13 +1734,13 @@
   {
    "n": 214,
    "what": "Sweep the South African Gazette on the spellings, not just LERENA",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-10-12",
    "covers": [
     "err:me-gazette-spelling-sweep"
    ],
-   "note": "The consul test of 12 October found **no LERENA in any South African gazette before 1951**, with both controls passing — coverage 1910–2026, and *exequatur* returning 644 documents with hits in 1914, 1932, 1933 and 1937. **That null is on one spelling.** This archive's own rule is that a null on one spelling is a null on a letter, and 1910s–40s gazette OCR is exactly where a surname breaks. Run **SERENA, LLERENA, LORENA, LARENA, LEVENA, LERINA, GERENA, PERENA**, looking only for pre-1951 hits. **Filter results on the `/akn/za` link prefix** — the site's `country=` parameter does not bind."
+   "note": "The consul test of 12 October found **no LERENA in any South African gazette before 1951**, with both controls passing — coverage 1910–2026, and *exequatur* returning 644 documents with hits in 1914, 1932, 1933 and 1937. **That null is on one spelling.** This archive's own rule is that a null on one spelling is a null on a letter, and 1910s–40s gazette OCR is exactly where a surname breaks. Run **SERENA, LLERENA, LORENA, LARENA, LEVENA, LERINA, GERENA, PERENA**, looking only for pre-1951 hits. **Filter results on the `/akn/za` link prefix** — the site's `country=` parameter does not bind. **Done 17 October 2026:** nine spellings swept for every year 1905-1950; no Lerena-like surname in any South African gazette, control reproduced."
   },
   {
    "n": 215,
