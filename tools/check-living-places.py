@@ -183,9 +183,11 @@ def reconcile():
 
 
 def main():
+    # REFUSES AT ZERO (16 October 2026 sweep): "no build to read" used to PASS. This gate runs
+    # after the build, so a missing build is a broken gate, not a clean one.
     if not DIST.exists():
-        print("  ok    places    no build to read - run the build first")
-        return 0
+        print("  FAIL  places    no build to read - 0 pages examined")
+        return 1
     people = living_people()
     if not people:
         print("  ok    places    the data marks nobody as living, so there is nothing to guard")

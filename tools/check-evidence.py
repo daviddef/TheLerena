@@ -64,8 +64,10 @@ def rows(path):
 
 def main():
     if not EVID.exists():
-        print("  ok    evidence   no person-evidence.tsv; nothing to check")
-        return 0
+        # REFUSES AT ZERO (16 October 2026 sweep): the file is this archive's, it exists, and
+        # its absence used to print "nothing to check" and pass.
+        print("  FAIL  evidence   data/person-evidence.tsv is missing - 0 records examined")
+        return 1
     if not PEOPLE.exists() or not DIST.exists():
         print("  FAIL  evidence   people.json or dist/people missing — run the build first")
         return 1
@@ -81,6 +83,9 @@ def main():
         named.setdefault(who, 0)
         named[who] += 1
 
+    if not named:
+        print("  FAIL  evidence   0 named people in data/person-evidence.tsv - nothing was examined")
+        return 1
     for who, n in sorted(named.items()):
         p = by_name.get(who)
         if not p:

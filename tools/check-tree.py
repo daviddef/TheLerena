@@ -42,6 +42,9 @@ REL = ROOT / "data" / "relations.tsv"
 OFF = ROOT / "data" / "_tree-offsite.txt"
 
 
+MIN_EDGES = 100         # 628 on 16 October 2026; edges only accumulate
+
+
 def main():
     reg = {l.split("\t")[0] for l in REG.read_text(encoding="utf-8").split("\n")
            if l.strip() and not l.startswith("#")}
@@ -57,6 +60,13 @@ def main():
 
     rows = [l.split("\t") for l in REL.read_text(encoding="utf-8").split("\n")
             if l.strip() and not l.startswith("#")][1:]
+
+    # REFUSES AT ZERO, AND BELOW A FLOOR (16 October 2026 sweep): with no edges at all this
+    # printed "0 edge(s) join 0 named people" and passed.
+    if len(rows) < MIN_EDGES:
+        print(f"  FAIL  tree       {len(rows)} edge(s) in data/relations.tsv, under the floor of "
+              f"{MIN_EDGES} - the relations file has lost rows, and every chart drawn from it with them")
+        return 1
 
     bad, undeclared = [], {}
     for i, r in enumerate(rows, 2):

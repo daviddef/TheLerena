@@ -178,6 +178,12 @@ def main():
         return 1
 
     n = sum(1 for f in FILES if (ROOT / "data" / f).exists())
+    # REFUSES AT ZERO (16 October 2026 sweep): with all six record files gone this printed
+    # "every person named on a record in 0 file(s)" and passed.
+    if n < len(FILES):
+        print(f"  FAIL  named      only {n} of {len(FILES)} record files exist - the people on the "
+              "missing ones were not examined")
+        return 1
     print(f"  ok    named      every person named on a record in {n} file(s) is in the register")
     return 0
 

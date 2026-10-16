@@ -100,10 +100,15 @@ def declared():
 
 
 def main():
+    # REFUSES AT ZERO (16 October 2026 sweep): a missing people.json used to PASS with
+    # "run the build first". The gate runs after the build, so missing means broken.
     if not PEOPLE.exists():
-        print("  ok    duplicates people.json missing - run the build first")
-        return 0
+        print("  FAIL  duplicates site/src/data/people.json is missing - 0 people examined")
+        return 1
     people = json.loads(PEOPLE.read_text(encoding="utf-8"))
+    if len(people) < 100:
+        print(f"  FAIL  duplicates only {len(people)} people examined, under the floor of 100")
+        return 1
     ok = declared()
     baselining = "--baseline" in sys.argv
     buckets = {}

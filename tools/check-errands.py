@@ -49,6 +49,13 @@ def main():
         print("  FAIL  errands    header is not what/who/status/detail/sent_on")
         return 1
 
+    # REFUSES AT ZERO. Added 16 October 2026 by a plant-a-fault sweep: emptied of every row this
+    # printed "0 checked" and passed, and a check that examined nothing has found nothing wrong
+    # only in the sense that it did not look.
+    if len(rows) < 2:
+        print("  FAIL  errands    0 errands examined - data/errands.tsv is empty or has lost its rows")
+        return 1
+
     bad = []
     for n, line in enumerate(rows[1:], start=2):
         f = line.split("\t")
