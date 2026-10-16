@@ -2189,5 +2189,21 @@
    "12-squadron",
    "forum"
   ]
+ },
+ {
+  "src": "UK National Archives Discovery - AIR 54/52, 53, 54 and 185 (South Africa Air Force operations record books, 1942-1944), downloaded and machine-read for the surname LERENA and the other archives' surnames",
+  "url": "https://discovery.nationalarchives.gov.uk/details/r/C2707662",
+  "what": "David's free order 3689478 (four digitised pieces, 2,892 images: AIR 54/52 707, 54/53 708, 54/54 705, 54/185 772, each checked against TNA's listed image ranges) was run through macOS text recognition and searched with fuzzy matching (edit distance 2 for LERENA, LLERENA, LERINA). NO LERENA IN ANY FORM: the only near-misses were checked on the page images and are 'A/Sgt Levin' (twelve pages), 'Mc Laren' and similar. The pieces hold several units' books, not only 12 Squadron's. The scans are typed and the recognition read common names correctly (Levin was recovered on twelve pages) but it is NOT a line-by-line reading, and crew lists, not full nominal rolls, are what most pages hold, so this does not show he was not in 12 Squadron: ground crew are seldom named. Not walked. The other archives' surnames (Booyzen, Defranceski/Franceschi, Falco, Mazza, D'Arcy, Luwinski, Blazevic) and the Pablo-circle names Knott, Kannemeyer, Theys, Higgens and Chappell: nothing but noise (e.g. 'San Francesco', 'Bailey'). Licence: private research; the scans are kept outside the repository and are not republished.",
+  "when": "2026-10-16",
+  "outcome": "nothing",
+  "pages": "AIR 54/52 1-707; 54/53 1-708; 54/54 1-705; 54/185 1-772",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "nuno",
+   "12-squadron",
+   "saaf",
+   "national-archives"
+  ]
  }
 ]

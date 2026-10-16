@@ -5,6 +5,11 @@
    "date": "2026-10-16",
    "commits": [
     {
+     "sha": "361646a",
+     "subject": "The 1943-44 war diaries are in a basket and waiting on David's sign-in",
+     "body": "Four free PDFs, about 1.8 GB (AIR 54/52, 53, 54 and 185). TNA says free downloads\nneed a sign-in or registration, and this archive does not sign in or register, so\nthe order stopped at checkout. Licence: private research only, never republished.\nThe scans have no text layer and this machine has no OCR."
+    },
+    {
      "sha": "6eea74e",
      "subject": "The Documentation Centre email and the SAAF Forum read are recorded as research",
      "body": "Two rows in searched.json, so the atlas importer marks them: the email to the\nSANDF Documentation Centre (written, waiting, no reply) and the forum read (found).\nThe forum post itself is still only a draft."
