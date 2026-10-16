@@ -56,9 +56,12 @@ unsearchable without it. See `notes/QUEUE.md` § 0.
 | **Disputed** | Asserted in the family record but unsupported, or contradicted, by what can be seen. |
 | **Family lore** | Told, remembered, not corroborated. Kept because it is precious; labelled because pretending otherwise is how family myths become family history. |
 
-**Living people are omitted from the build entirely** — not hidden, not gated, not present in the output.
-Because this line reaches the present within three generations, that removes a large part of the story from
-public view. A removal request is honoured within days, without argument and without requiring a reason.
+**A living person (80 or younger, with no death recorded) is named with their relationships and their town and country, and nothing more.**
+Their page is not indexed. Who is living is decided by one rule shared by the family's archives (the kit's
+`living_rule.py`), applied by `tools/build-people.py` and checked independently by `tools/check-living-places.py`
+and `tools/check-living-standard.py`. A person who might be a child is not published at all. Because this line
+reaches the present within three generations, much of the story stays out of public view. A removal request is
+honoured within days, without argument and without requiring a reason.
 
 ## Running it
 

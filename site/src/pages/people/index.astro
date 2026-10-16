@@ -25,6 +25,10 @@ const STATUS = { connected: "Connected to the line", high: "High interest",
 const counted = Object.keys(STATUS)
   .map((k) => [k, people.filter((p) => p.status === k).length]).filter(([, n]) => n > 0);
 const esc = (t) => String(t ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;");
+/* A living person is a name and a town and country: no date, no occupation, no source. */
+const whereOf = (p) => p.living
+  ? [p.town, p.country].filter(Boolean).join(", ")
+  : [p.place, p.nationality].filter(Boolean).join(" \u00b7 ");
 ---
 <Base title="The People" eyebrow={`${n} people of this surname, each with their own page`}
       dek="Every Lerena this archive has met, anywhere, with the record that produced them. Search the list and follow any name through to what is known about that person.">
@@ -51,11 +55,12 @@ const esc = (t) => String(t ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;");
       facets: { status: p.status },
       cells: [
         `<a href="${u(`/people/${p.slug}/`)}"><strong>${esc(p.name)}</strong></a>` +
-          (p.occupation ? `<div class="cap" style="margin-top:3px">${esc(p.occupation)}</div>` : ""),
-        esc(p.born || ""),
-        esc([p.place, p.nationality].filter(Boolean).join(" \u00b7 ")),
-        `<span class="chip">${STATUS[p.status] || p.status}</span>`,
-        emph(p.source || ""),
+          (!p.living && p.occupation ? `<div class="cap" style="margin-top:3px">${esc(p.occupation)}</div>` : ""),
+        esc(p.living ? "" : p.born || ""),
+        esc(whereOf(p)),
+        p.living ? `<span class="chip">Living, named only</span>`
+                 : `<span class="chip">${STATUS[p.status] || p.status}</span>`,
+        p.living ? "" : emph(p.source || ""),
       ],
     }))} />
 </section>

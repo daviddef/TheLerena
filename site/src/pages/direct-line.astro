@@ -11,6 +11,7 @@ import { pills } from "../lib/country.js";
    descent. The shared spine shows an unmarked chain for exactly that. */
 const rows = [
   { gen: "0", name: "Juan Carlos Lerena", spouse: "Mar\u00eda Lerena",
+    href: "/people/juan-carlos-lerena/", spouseHref: "/people/maria-lerena/",
     confidence: "Documented",
     note: `${pills(["ar","za"])}<br /><span class="cap">So written on the card; her maiden name is not yet known. Presumed
       <strong>Rosario de Santa Fe</strong>; nothing else yet known of him. Named as the father on his
@@ -18,6 +19,7 @@ const rows = [
       Corroborated from outside Argentina: Pablo Armando&rsquo;s eldest son was
       <strong>Ricardo <em>Juan Carlos</em> Lerena</strong>, b. 6 Jan 1920, Cape Town.</span>` },
   { gen: "1", name: "Pablo Armando Lerena", spouse: "Mary Septima Taylor",
+    href: "/people/pablo-armando-lerena/", spouseHref: "/people/mary-septima-taylor/",
     born: "22 Feb 1882", bornPlace: "Rosario de Santa Fe, Argentina",
     died: "19 Mar 1950", diedPlace: "Newlands, Cape Town", confidence: "Documented",
     note: `${pills(["ar","za"])}<br /><span class="cap">In South Africa <strong>Robert Paul Lerena</strong>; his wife died
@@ -26,15 +28,14 @@ const rows = [
       Christi baptism of his son Roque.</span>` },
   { gen: "2", name: "Nuno Fernando Lerena",
     spouse: "Catherine Mary Sophia Booyzen (1924\u20132013)",
+    href: "/people/nuno-fernando-lerena/", spouseHref: "/people/catherine-mary-sophia-booyzen/",
     born: "6 Oct 1924", bornPlace: "Cape Town",
     died: "1 Jul 1971", diedPlace: "Germiston, Transvaal", confidence: "Documented",
     note: `${pills(["za"])}<br /><span class="cap">Married at Johannesburg. Named with this exact birth date as a residuary
       heir in his father's 1950 estate; own death notice 6746/71. A salesman.</span>` },
-  { gen: "3", name: "Cheryl Anne Lerena", living: true,
-    note: `<span class="cap">Named among her father&rsquo;s children in his 1971 death notice.
-      <strong>No dates, no places, no photographs</strong>, under this archive&rsquo;s rule on living
-      people. Her DNA test is used on <a href="${u("/dna/")}">the DNA page</a> only for what it says
-      about Pablo Armando, who died in 1950.</span>` },
+  /* A living person: a name, a relationship and a link to her own page, where her town and
+     country are. The kit's Spine draws nothing else for a row flagged `living`, whatever it holds. */
+  { gen: "3", name: "Cheryl Anne Lerena", living: true, href: "/people/cheryl-anne-lerena/" },
 ];
 ---
 <Base title="The Spine"
@@ -44,8 +45,9 @@ const rows = [
 
 <div class="panel" style="margin:1.4rem 0">
     <p style="margin:0">
-      Two things shape this page. <strong>Living people are omitted from the build</strong>, which removes
-      the most recent generations. And the top of the line changed on <strong>10 September 2026</strong>:
+      Two things shape this page. <strong>A living person (80 or younger, with no death recorded) is named
+      with their relationships and their town and country, and nothing more</strong>, which is why the most
+      recent generation is a name and a link. And the top of the line changed on <strong>10 September 2026</strong>:
       an Argentine army enrolment card, filled in at the consulate in <strong>Cape Town</strong>, names
       Pablo Armando&rsquo;s father and mother. For months there was nothing above him. There is now one
       generation, and it is documented rather than inferred.

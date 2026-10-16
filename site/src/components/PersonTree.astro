@@ -9,7 +9,6 @@
 import { u } from "../lib/url.js";
 import PersonTree from "@daviddef/archive-kit/components/PersonTree.astro";
 import RING from "@daviddef/archive-kit/data/archives.json";
-import LIVING from "../data/living.json";
 import "@daviddef/archive-kit/styles/persontree.css";
 
 const { p } = Astro.props;
@@ -92,15 +91,13 @@ const row = (n, showVia = true) => ({
    the raw strings carry what a normalised year would throw away: «c.1815» is an
    estimate and must keep saying so.
 
-   The living rule is applied even though it currently protects nobody: the one
-   living person, Cheryl Anne LERENA, is declared in living.json with a birth
-   date and is NOT in the register at all, so no register row is hers. That is
-   true today and is exactly the kind of fact that stops being true quietly, so
-   the guard is by name and does not depend on it. */
-const LIVING_NAMES = new Set(
-  (Array.isArray(LIVING) ? LIVING : []).filter((x) => x && x.living)
-    .map((x) => String(x.name || "").trim().toLowerCase()));
-const isLiving = LIVING_NAMES.has(String(p.name || "").trim().toLowerCase());
+   A LIVING PERSON'S CHART SHOWS NAME, RELATIONSHIPS, TOWN AND COUNTRY (16 October 2026).
+   Whether a person is living is decided once, in tools/build-people.py, by the estate's
+   shared rule (the kit's living_rule.py), and arrives here as `p.living`. This used to
+   match a NAME against a hand-kept living.json that held one person and her birth date;
+   nothing here knows or tests a date any more, and the self node's line under the name is
+   the town and country. */
+const isLiving = p.living === true;
 /* «-» IS HOW THIS REGISTER WRITES «not known», on 166 of 357 rows, and it is
    truthy. The page's own field table has always filtered it — `v && v !== "-"` —
    and the first version of this did not, so 163 charts rendered «b. -»: a
@@ -132,7 +129,9 @@ const emptyWhy = !nothing ? "" :
 ---
 <PersonTree
   always
-  self={{ name: p.name, dates: lifespan, gen: p.gen != null ? `generation ${p.gen}` : "" }}
+  self={{ name: p.name, dates: lifespan, gen: p.gen != null ? `generation ${p.gen}` : "",
+          note: isLiving ? [p.town, p.country].filter(Boolean).join(", ") : "",
+          noteCls: isLiving ? "living" : "" }}
   parents={parents.map((n) => row(n))}
   spouses={spouses.map((n) => row(n))}
   children={children.map((n) => row(n))}

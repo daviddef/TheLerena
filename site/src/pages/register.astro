@@ -30,6 +30,8 @@ const CHIP = { connected: ["doc", "Connected"], excluded: ["", "Excluded"],
 
 // What the source says: the record's own content, in one line, Falco-style.
 function saysOf(p) {
+  /* A living person: town and country, and nothing else. */
+  if (p.living) return [p.town, p.country].filter(Boolean).join(", ");
   const bits = [];
   if (p.born && p.born !== "-") bits.push(p.born);
   if (p.birthplace && p.birthplace !== "-") bits.push(p.birthplace);
@@ -56,14 +58,14 @@ const regRows = [...enriched]
     name: p.name,
     surname: p.surname,
     href: `/people/${p.slug}/`,
-    kind: p.chip[1],
-    chip: p.chip[1],
-    detail: emph(p.says) + (p.note ? `<br><span class="cap">${emph(p.note)}</span>` : ""),
+    kind: p.living ? "Living, named only" : p.chip[1],
+    chip: p.living ? "Living, named only" : p.chip[1],
+    detail: emph(p.says) + (!p.living && p.note ? `<br><span class="cap">${emph(p.note)}</span>` : ""),
     /* plain text, not HTML: the kit's Register escapes this column itself, so markup here was printed
        as markup (2,004 visible tags, 156 visible entities, measured 16 October 2026). */
-    source: plainText(p.source),
+    source: p.living ? "" : plainText(p.source),
     sourceHref: p.sourceUrl || "",
-    sourceLabel: p.sourceUrl ? "record" : (p.noLink || "no public link"),
+    sourceLabel: p.living ? "" : p.sourceUrl ? "record" : (p.noLink || "no public link"),
   }));
 
 const groups = Object.values(

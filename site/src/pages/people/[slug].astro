@@ -17,8 +17,10 @@ const others = place ? people.filter(x => x.placeSlug === p.placeSlug && x.slug 
 
 // The third column of .rec is the "why" — the Defranceski archive uses it and ours sat empty.
 const WHY = {
-  Born: "as the record gives it",
-  Died: "an explicit death date, matched to this register by hand in "
+  Born: p.datesFrom ? "as the chart draws it, from " + p.datesFrom : "as the record gives it",
+  Died: p.datesFrom
+      ? "as the chart draws it, from " + p.datesFrom
+      : "an explicit death date, matched to this register by hand in "
       + "last-attested-alive.tsv \u2014 never a «by 1950» ceiling",
   Birthplace: "as the record gives it",
   Nationality: "as declared, not as inferred",
@@ -30,7 +32,13 @@ const says = [
   ["Occupation", p.occupation], ["Where found", p.where],
 ].filter(([, v]) => v && v !== "-").map(([k, v]) => [k, v, WHY[k] || ""]);
 
-const eyebrow = p.gen != null
+/* A LIVING PERSON (80 or younger, no death recorded) is a name, relationships, a town and a
+   country, and nothing more: no record table, no sources, no notes, no documents, no dates,
+   and the page is noindex. Decided in tools/build-people.py by the estate's one rule. */
+const living = p.living === true;
+const townCountry = [p.town, p.country].filter(Boolean).join(", ");
+
+const eyebrow = living ? "A living person, named only" : p.gen != null
   ? `Generation ${p.gen} of the direct line`
   : p.status === "excluded" ? "Checked, and not of this family"
   : p.status === "connected" ? "Connected to the line"
@@ -40,15 +48,32 @@ const relTotal = p.relTotal || 0;
 const relReg = p.relRegister || 0;
 const relTree = p.relTree || 0;
 ---
-<Base title={p.name} eyebrow={eyebrow}
-      dek={lead(p.note) || "Everything this archive holds on this person, and the record that produced them."}>
+<Base title={p.name} eyebrow={eyebrow} noindex={p.noindex}
+      dek={living
+        ? "Named here with their relationships and their town and country, and nothing more."
+        : lead(p.note) || (p.relOnly
+            ? "Named in this archive as someone's relative; nothing of their own has been read into it."
+            : "Everything this archive holds on this person, and the record that produced them.")}>
 
 <PersonTree p={p} />
 
-<section class="blk">
+{living && <section class="blk">
+  <h2>Town and country</h2>
+  {townCountry
+    ? <p class="prose" style="margin-top:12px">{townCountry}</p>
+    : <p class="prose" style="margin-top:12px">No town is recorded for this person.</p>}
+  <p class="cap">A living person (80 or younger, with no death recorded) is named with their
+    relationships and their town and country, and nothing more.
+    <a href={u("/method/#living")}>The rule &rarr;</a></p>
+</section>}
+
+{!living && <section class="blk">
   <div class="grid g2 pg2" style="margin-top:6px">
     <div>
       <h2 style="margin-top:0">What the record says</h2>
+      {says.length === 0 && <p class="prose" style="margin-top:16px">{p.relOnly
+        ? "No record of their own has been read into this archive: they are named as a relative, and the chart above is all it holds."
+        : "The record holds a name and a relationship, and nothing more."}</p>}
       <div class="rec" style="margin-top:16px">
         {says.map(([k, v, w]) => (<><div class="k">{k}</div><div class="v" set:html={emph(v)} /><div class="w">{w}</div></>))}
       </div>
@@ -118,14 +143,14 @@ const relTree = p.relTree || 0;
         person&rsquo;s page, not only on the page of the search that found it.</strong></p>
     </div>
   )}
-</section>
+</section>}
 
-{p.note && p.note.length > 160 && <section class="blk">
+{!living && p.note && p.note.length > 160 && <section class="blk">
   <h2>What is known</h2>
   <div class="prose" style="margin-top:16px"><p set:html={emph(p.note)} /></div>
 </section>}
 
-{docs.length > 0 && <section class="blk">
+{!living && docs.length > 0 && <section class="blk">
   <h2>{docs.length === 1 ? "The document" : "The documents"}</h2>
   <div class="pdocs">
     {docs.map((d) => (
@@ -139,18 +164,18 @@ const relTree = p.relTree || 0;
     others are on <a href={u("/family-papers/")}>the papers page</a>.</p>
 </section>}
 
-{p.status === "connected" && <section class="blk">
+{!living && p.status === "connected" && <section class="blk">
   <div class="note"><strong>This person is on the direct line, or married into it.</strong> Their place in
     the descent, with the documents behind it, is set out on <a href={u("/direct-line/")}>the line</a>.</div>
 </section>}
 
-{p.status === "excluded" && <section class="blk">
+{!living && p.status === "excluded" && <section class="blk">
   <div class="note"><strong>Checked and ruled out.</strong> This person carries the surname but has been
     shown not to belong to this family. They are kept here rather than deleted, because knowing which
     candidates were eliminated &mdash; and why &mdash; is worth as much as knowing which survived.</div>
 </section>}
 
-{place && <section class="blk">
+{!living && place && <section class="blk">
   <h2>Where they were found</h2>
   <a class="cardlink" href={u(`/places/${place.slug}/`)} style="max-width:560px">
     <div class="nm">{place.name}</div>
