@@ -80,6 +80,10 @@ def main():
     pj = {p["slug"]: p for p in json.loads((root / "site/src/data/people.json").read_text(encoding="utf-8"))}
     places = json.loads((root / "site/src/data/places.json").read_text(encoding="utf-8"))
     place_names = {pl["name"] for pl in places if pl.get("name") and pl["name"] != "Unrecorded"}
+    if not L.roster_rows(root):
+        print("  FAIL  places    data/living-roster.tsv is empty or missing: 0 living people examined, and this gate "
+              "refuses at zero")
+        return 1
     living = [p for p in people if p.living]
     if not living:
         print("  ok    places    the rule finds nobody living, so there is nobody to show a place "

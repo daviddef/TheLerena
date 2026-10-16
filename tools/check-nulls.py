@@ -74,7 +74,9 @@ RETRACT = re.compile(
 
 # A capitalised word, or an ALL-CAPS word of two or more letters.
 WORD = r"(?:[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+|[A-ZÁÉÍÓÚÑ]{2,})"
-NAME = re.compile(r"\b(%s(?:\s+(?:y|de|del|la)\s+%s|\s+%s){1,2})\b" % (WORD, WORD, WORD))
+# {1,3}, not {1,2}: a FOUR-word register name ("Roque Luis Armando LERENA") was cut to its first
+# three words, never matched its row, and a blanket null about him passed (16 October 2026 sweep).
+NAME = re.compile(r"\b(%s(?:\s+(?:y|de|del|la)\s+%s|\s+%s){1,3})\b" % (WORD, WORD, WORD))
 
 STOP = {"don", "dona", "dn", "da", "sr", "sra", "the", "of", "and", "y", "de", "del",
         "la", "el", "los", "las"}
@@ -223,6 +225,11 @@ def main():
                 if st & ctx:
                     continue              # the register cites what the claim concedes
                 bad.append((f.name, n, cand.strip(), who, src))
+
+    if scanned == 0 or claims == 0:
+        print("  FAIL  nulls      %d file(s) scanned, %d null claim(s) found - a gate that examined "
+              "nothing; the claim pattern or the data folder has been lost" % (scanned, claims))
+        return 1
 
     if bad:
         print("  FAIL  nulls      %d null claim(s) name someone who IS in the register:"

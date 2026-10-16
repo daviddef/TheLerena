@@ -60,6 +60,11 @@ if REGISTER.exists():
                            "- a merged row hides a person, a split row invents one"
                            % (n, got, want, l.split("\t")[0][:48]))
 
+# REFUSES AT ZERO (16 October 2026 sweep): an emptied register printed "0 register row(s)
+# match the header" and passed.
+if rows == 0:
+    bad.append("0 register rows examined - data/lerena-register.tsv is missing or empty")
+
 if bad:
     print("  FAIL  arity     %d problem(s):" % len(bad))
     for b in bad[:15]:

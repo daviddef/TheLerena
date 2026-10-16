@@ -162,13 +162,19 @@ def sources():
         yield "data", p.name, p
 
 
+MIN_PAGES = 100         # 1,520 built on 16 October 2026
+
+
 def main():
     bad = []
+    pages = datafiles = 0
     for kind, name, path in sources():
         if kind == "page" and name.split("/")[0] in EXEMPT:
             continue
         if kind == "data" and name in DATA_EXEMPT:
             continue
+        pages += kind == "page"
+        datafiles += kind == "data"
         raw = path.read_text(errors="ignore")
         text = re.sub(r"<[^>]+>", " ", raw) if kind == "page" else raw
         text = re.sub(r"\s+", " ", text)
@@ -181,6 +187,13 @@ def main():
                 where = f"/{name}/" if kind == "page" else f"data/{name}"
                 bad.append((where, m.group(0)[:60], why))
 
+    # REFUSES AT ZERO, AND BELOW A FLOOR (16 October 2026 sweep): with no built pages this
+    # printed "18 retired claim(s); none asserted" and passed - it had looked at nothing.
+    if pages < MIN_PAGES:
+        print(f"  FAIL  superseded only {pages} built page(s) examined, under the floor of {MIN_PAGES} - "
+              "there is no build to read, so no retired claim was looked for")
+        return 1
+
     if bad:
         print(f"  FAIL  superseded {len(bad)} retired claim(s) still asserted:")
         for name, frag, why in bad:
@@ -190,7 +203,8 @@ def main():
         print("          reader can see the claim is being quoted rather than made.")
         return 1
 
-    print(f"  ok    superseded {len(RETIRED)} retired claim(s); none asserted outside a retraction")
+    print(f"  ok    superseded {len(RETIRED)} retired claim(s) looked for in {pages} pages and "
+          f"{datafiles} data files; none asserted outside a retraction")
     return 0
 
 

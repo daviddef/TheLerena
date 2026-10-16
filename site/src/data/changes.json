@@ -5,6 +5,11 @@
    "date": "2026-10-16",
    "commits": [
     {
+     "sha": "3c8e9d8",
+     "subject": "A SAAF Forum post drafted, and the squadron diaries found",
+     "body": "The forum needs an account to post and this archive does not register or sign in,\nso the post is a draft for David. It names no living person and gives no address.\nThe forum's sticky thread led to the UK National Archives' AIR 54 squadron\noperations record books, the unit-side route for 12 Squadron; added to the\nwar-service errand."
+    },
+    {
      "sha": "366d7cd",
      "subject": "Change log regenerated after merging the kit and page updates",
      "body": ""

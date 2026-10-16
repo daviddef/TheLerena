@@ -33,6 +33,7 @@ import pathlib
 import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
+MIN_KEYS = 100          # 714 on 16 October 2026; the ledger only grows
 LEDGER = ROOT / "site" / "src" / "data" / "person-slugs.json"
 REGISTER = ROOT / "data" / "lerena-register.tsv"
 CONFIG = ROOT / "site" / "astro.config.mjs"
@@ -40,10 +41,17 @@ PAGES = ROOT / "site" / "dist" / "people"
 
 
 def main():
+    # REFUSES AT ZERO, AND BELOW A FLOOR (16 October 2026 sweep). The ledger only ever grows;
+    # emptied, it printed "0 ledger keys" and passed, promising nothing about every address
+    # the site had published.
     if not LEDGER.exists():
-        print("  ok    addresses no slug ledger yet; nothing to promise")
-        return 0
+        print("  FAIL  addresses data: site/src/data/person-slugs.json is missing - 0 addresses examined")
+        return 1
     led = json.loads(LEDGER.read_text(encoding="utf-8")).get("slugs", {})
+    if len(led) < MIN_KEYS:
+        print(f"  FAIL  addresses only {len(led)} ledger key(s), under the floor of {MIN_KEYS} - "
+              "the slug ledger has lost entries, and every address it forgot is no longer promised")
+        return 1
     names = set()
     with REGISTER.open(encoding="utf-8") as fh:
         for row in csv.reader((l for l in fh if not l.startswith("#")), delimiter="\t"):

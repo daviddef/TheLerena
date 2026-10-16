@@ -76,26 +76,28 @@ def quoted(field, at):
 
 def main():
     if not CORR.exists():
-        print("  ok    corrections no corrections.tsv; nothing to check")
-        return 0
+        print("  FAIL  corrections data/corrections.tsv is missing - 0 retracted readings enforced")
+        return 1
 
     rows = list(cells(CORR))
     if not rows:
-        return 0
+        print("  FAIL  corrections data/corrections.tsv is empty - 0 retracted readings enforced")
+        return 1
     head = rows[0][1]
     try:
         col = head.index("retired")
     except ValueError:
-        print("  ok    corrections no `retired` column; nothing is enforced yet")
-        return 0
+        print("  FAIL  corrections no `retired` column - 0 retracted readings enforced")
+        return 1
 
     retired = {}
     for _, r in rows[1:]:
         if len(r) > col and r[col].strip():
             retired[r[col].strip()] = (r[2][:70] if len(r) > 2 else "")
     if not retired:
-        print("  ok    corrections no retracted readings are being enforced yet")
-        return 0
+        print("  FAIL  corrections the `retired` column is empty - 0 retracted readings enforced. "
+              "(It used to pass here as opt-in; 19 were enforced, and emptying the column silently turned the gate off.)")
+        return 1
 
     fails = []
     for f in sorted(ROOT.glob("data/*.tsv")):

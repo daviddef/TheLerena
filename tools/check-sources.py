@@ -76,6 +76,11 @@ def main():
         return film in listed or film.lstrip("0") in listed
 
     missing = {f: who for f, who in used.items() if not seen(f)}
+    # REFUSES AT ZERO (16 October 2026 sweep): an emptied register printed "0 plate(s) read" and passed.
+    if not used:
+        print("  FAIL  sources    0 plates read in the register - the register is empty or its "
+              "IMAGE READ marker has been lost, so nothing was compared with /sources/")
+        return 1
 
     # *** AND A ROW THAT SAYS AN IMAGE WAS READ MUST SAY WHICH IMAGE. *** Added
     # 23 September 2026, after two rows were found claiming a plate without naming one.

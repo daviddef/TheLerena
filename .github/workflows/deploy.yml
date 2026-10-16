@@ -34,6 +34,15 @@ jobs:
       # is gated on it rather than on the build's own exit code.
       - name: Check every link, anchor and contents list
         run: python3 tools/check-links.py
+      # THREE CHECKS THAT RAN ONLY ON THIS MACHINE (found by the 16 October 2026 plant-a-fault
+      # sweep): the local gate ran them and the deploy did not, so a push from anywhere else
+      # could carry a finished-but-open errand, a blanket null about someone the register holds,
+      # or a published address with no page, and ship.
+      - name: Check errands, null claims and published addresses
+        run: |
+          python3 tools/check-errands.py
+          python3 tools/check-nulls.py
+          python3 tools/check-addresses.py
       # The register checked against itself - no external source, only dates and
       # relationships that cannot all be true at once. Contradictions fail; softer
       # observations are printed and do not.
