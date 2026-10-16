@@ -20,7 +20,7 @@ const LABEL = { sent: ["inf", "Sent, awaiting reply"], replied: ["doc", "Answere
    A status LABEL has no entry for used to fall through to "Blocked", which
    quietly relabels an unknown state as a known one. It is counted now. */
 const unlabelled = [...new Set(rows.map(r => r.status).filter(k => k && !LABEL[k]))];
-const COLOUR = { doc: "#12703F", inf: "#8a7f5c", lore: "var(--terra)", "": "var(--rule-strong)" };
+const COLOUR = { doc: "var(--st-doc)", inf: "var(--st-inf)", lore: "var(--terra)", "": "var(--rule-strong)" };
 const toRows = (list) => list.map(r => ({
   what: emph(r.what),
   who: r.who + (r.sent_on && r.sent_on !== "-" ? ` · ${r.sent_on}` : ""),
@@ -117,7 +117,7 @@ const groups = [
         <div><dt>Address</dt><dd>
           {d.address_state === "verified"
             ? <span>{d.address}</span>
-            : <strong style="color:#8A2B16">{d.address}</strong>}
+            : <strong style="color:var(--warn)">{d.address}</strong>}
         </dd></div>
         <div><dt>Subject</dt><dd><em>{d.subject}</em></dd></div>
         <div><dt>Written in</dt><dd>{d.lang}</dd></div>
