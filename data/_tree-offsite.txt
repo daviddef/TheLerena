@@ -19,3 +19,12 @@ William Taylor: data/taylor-line.tsv - the Devon Taylor line, drawn on /taylor/
 Mary Ann Hellen Brayley: data/taylor-line.tsv and data/brayley-ascent.tsv - the Brayley ascent
 Catherine Mary Sophia Booyzen: data/direct-line.tsv and data/gen1-children.tsv - the South African descent, drawn on /direct-line/
 Frederick Christian Chappell: data/racing-dynasty.tsv and data/gen1-children.tsv - the Chappell connection, and see /corrections/ for what was withdrawn about it
+# Added 16 October 2026 with the living-people standard: the third generation of the direct line is published
+# as person pages by tools/build-people.py from these working files, not from the surname register.
+Cheryl Anne LERENA: data/direct-line.tsv and data/lerena-siblings-gen3.tsv - generation 3 of the line; a living person, published as a name, relationships, a town and a country only
+Jeanette Marie LERENA: data/lerena-siblings-gen3.tsv - a child of Nuno Fernando, named on his 1971 death notice
+Paul Raymond LERENA: data/lerena-siblings-gen3.tsv - a child of Nuno Fernando, named on his 1971 death notice
+Catherine Tersia LERENA: data/lerena-siblings-gen3.tsv - a child of Nuno Fernando, named on his 1971 death notice
+Patricia Carmen LERENA: data/lerena-siblings-gen3.tsv - a child of Nuno Fernando, named on his 1971 death notice
+Lynn Derrick LUWINSKI: data/direct-line.tsv - spouse column of generation 3; his own line is the Luwinski archive
+Ivan DEFRANCESKI: data/direct-line.tsv - spouse column of generation 3; his line is the Defranceschi archive

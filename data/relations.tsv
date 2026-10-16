@@ -652,3 +652,19 @@ Manuela LAVINA (1866c - 5 August 1869)	mother	Leonarda Margarita LERENA Vega	-	r
 Leonarda Margarita LERENA Vega	child	Manuela LAVINA (1866c - 5 August 1869)	-	register	Cordon death register, 5 Aug 1869, plate read 13 Oct 2026: "Vicenta Lavina, de cuatro anos, y Manuela Lavina, de tres anos, hija de D. Xavier (hijo) y de la finada Leonarda Lerena". CANDIDATE, NOT SETTLED: the act names only a Leonarda Lerena and her identification with Leonarda Margarita Lerena Vega is not made. 
 CARMELO ANSELMO (son of Barbara, enslaved; d. 27 April 1846)	godfather	Jose CARRERAS (godfather, San Jose 1846)	-	register	San Jose de Mayo baptism of 25 April 1846: "fueron Padrinos Jose Carreras y Petronila Escobar". Plate read 12 Oct 2026.
 CARMELO ANSELMO (son of Barbara, enslaved; d. 27 April 1846)	godmother	Petronila ESCOBAR (godmother, San Jose 1846)	-	register	San Jose de Mayo baptism of 25 April 1846: "fueron Padrinos Jose Carreras y Petronila Escobar". Plate read 12 Oct 2026.
+# --- 16 October 2026: the third generation of the direct line, which the archive named only in prose and in two
+# --- working files. NAMES AND RELATIONSHIPS ONLY, and no dates: one of the five is living, and under the estate's
+# --- living-people standard a living person is a name, relationships, a town and a country. Their dates stay in
+# --- data/lerena-siblings-gen3.tsv, where tools/build-people.py reads them and publishes only what the rule allows.
+Jeanette Marie LERENA	father	Nuno Fernando LERENA		register	Named among his children in the 1971 death notice (estate 6746/71), there written Jeannette Marie
+Jeanette Marie LERENA	mother	Catherine Mary Sophia Booyzen		tree	From the family chart: the 1971 notice names the children and not their mother
+Paul Raymond LERENA	father	Nuno Fernando LERENA		register	Named among his children in the 1971 death notice (estate 6746/71)
+Paul Raymond LERENA	mother	Catherine Mary Sophia Booyzen		tree	From the family chart: the 1971 notice names the children and not their mother
+Catherine Tersia LERENA	father	Nuno Fernando LERENA		register	Named among his children in the 1971 death notice (estate 6746/71), there written Catherine Tertia
+Catherine Tersia LERENA	mother	Catherine Mary Sophia Booyzen		tree	From the family chart: the 1971 notice names the children and not their mother
+Cheryl Anne LERENA	father	Nuno Fernando LERENA		register	Named among his children in the 1971 death notice (estate 6746/71)
+Cheryl Anne LERENA	mother	Catherine Mary Sophia Booyzen		tree	From the family chart: the 1971 notice names the children and not their mother
+Patricia Carmen LERENA	father	Nuno Fernando LERENA		register	Named among his children in the 1971 death notice (estate 6746/71)
+Patricia Carmen LERENA	mother	Catherine Mary Sophia Booyzen		tree	From the family chart: the 1971 notice names the children and not their mother
+Cheryl Anne LERENA	spouse	Lynn Derrick LUWINSKI		register	First marriage; recorded in data/direct-line.tsv
+Cheryl Anne LERENA	spouse	Ivan DEFRANCESKI		register	Second marriage; recorded in data/direct-line.tsv

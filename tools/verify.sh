@@ -18,8 +18,10 @@
 # Never pipe a checker into tail. Run this instead.
 set -e
 cd "$(dirname "$0")/.."
-python3 tools/build-pages.py  > /dev/null
+# people FIRST: build-pages reads people.json for the search index, and a living or noindex person
+# must be left out of it; run the other way round the index is built from the previous run's people.
 python3 tools/build-people.py > /dev/null
+python3 tools/build-pages.py  > /dev/null
 # THE PUBLIC CHANGELOG IS BUILT FROM THE GIT LOG AND WAS BUILT BY NOTHING.
 # Added 11 October 2026 by a site-wide audit. /changes/ was showing five days ending
 # 14 September while the repository had twenty days of commits ending that morning -
