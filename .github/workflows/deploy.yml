@@ -43,6 +43,11 @@ jobs:
           python3 tools/check-errands.py
           python3 tools/check-nulls.py
           python3 tools/check-addresses.py
+      # The living standard on hand-written prose: the kit's checkprose.py plus a given-name supplement. The feed of who is
+      # living is built here from the tracked data and the kit's living_rule.py, and written OUTSIDE the checkout; nothing
+      # about a living person is committed for the gate. Exit 2 (not run) fails the step: a run that could not look is not a pass.
+      - name: Check hand-written prose against the living standard
+        run: python3 tools/check-prose.py
       # The register checked against itself - no external source, only dates and
       # relationships that cannot all be true at once. Contradictions fail; softer
       # observations are printed and do not.

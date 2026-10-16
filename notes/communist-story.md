@@ -1,7 +1,7 @@
 # The story that he fled Argentina as a political refugee
 
 **Family testimony, 9 September 2026.** David reports a story carried in the family and repeated to him by
-his mother, Cheryl Anne Lerena, the night before: that **Pablo Armando "ran away from Argentina because he
+his mother the night before: that **Pablo Armando "ran away from Argentina because he
 was a communist on the run."** Never proven, never documented, but persistent — and it has now survived
 three generations, which is worth something in itself.
 

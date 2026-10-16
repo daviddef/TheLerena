@@ -82,5 +82,8 @@ python3 tools/check-duplicates.py
 python3 tools/check-nulls.py
 python3 tools/check-addresses.py
 python3 tools/check-living-places.py
+# THE LIVING STANDARD ON WHAT SOMEBODY TYPED (16 October 2026). The kit's prose gate plus a given-name supplement; it reads TRACKED
+# files, so `git add` new files first. Exit 2 (not run) stops this script like any failure: a run that could not look is not a pass.
+python3 tools/check-prose.py
 python3 tools/drift.py
 echo "ALL GATES PASSED"

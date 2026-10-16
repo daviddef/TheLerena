@@ -260,6 +260,25 @@ case("check-sources", "the register is empty", PY("check-sources"), SC,
 case("check-arity", "the register is empty", PY("check-arity"), SC,
      lambda P: P.edit(REG, lambda t: "\n".join(l for l in t.split("\n")[:1]) + "\n"), None, "zero")
 
+# ---------------------------------------------------------------- the prose gate (tools/check-prose.py)
+# The living person's name is READ FROM THE ROSTER at run time: no living name is typed into this tracked file.
+def _roster_name():
+    for l in (D / "living-roster.tsv").read_text(encoding="utf-8").split("\n"):
+        if l and not l.startswith("#") and not l.startswith("name\t"):
+            return l.split("\t")[0].strip()
+    raise SystemExit("living-roster.tsv has no row")
+
+PROSE = "LIVING_PROSE_NO_GIT=1 LIVING_FEED=/tmp/plant-faults-feed.json python3 tools/check-prose.py"
+NOTE = SC / "notes" / "findings.md"
+case("check-prose", "the full name of a living person beside the year 1899 in a note", PROSE, SC,
+     lambda P: P.edit(NOTE, lambda t: t.rstrip("\n") + "\n\n" + _roster_name() + " was told in 1899 that it was so.\n"), "checkprose: FAIL")
+case("check-prose", "the GIVEN NAME ALONE of a living person beside a full date in a note", PROSE, SC,
+     lambda P: P.edit(NOTE, lambda t: t.rstrip("\n") + "\n\n" + _roster_name().split()[0] + " wrote on 5 May 1899 that it was so.\n"), "given name|carry a detail")
+case("check-prose", "the full name beside a life-event word in a page", PROSE, SC,
+     lambda P: P.edit(SITE / "src/pages/estate.astro", lambda t: t + "\n<p>" + _roster_name() + " died in the house.</p>\n"), "checkprose: FAIL")
+case("check-prose", "the roster is emptied, so nobody is living and there is nothing to scan for (must be NOT RUN, never a pass)", PROSE, SC,
+     lambda P: P.edit(D / "living-roster.tsv", lambda t: "\n".join(l for l in t.split("\n") if l.startswith("#") or l.startswith("name\t") or not l.strip()) + "\n"), "not run|nobody|living", "zero")
+
 def main():
     only = sys.argv[2] if len(sys.argv) > 2 else None
     results = []

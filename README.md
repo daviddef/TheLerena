@@ -19,7 +19,7 @@ Oudtshoorn feather boom.
 Recorded from David Defranceski, 8 September 2026:
 
 - **Cheryl Anne Lerena** (living — named only) is the family member through whom the line is traced.
-- Cheryl's **grandfather came from Argentina** — **Rosario**.
+- Her **grandfather came from Argentina** — **Rosario**.
 - He was **Consul General** between Argentina and South Africa.
 - He **brought horse breeding and racing to South Africa from Argentina**.
 - He kept an **ostrich farm**.

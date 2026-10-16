@@ -4,7 +4,7 @@ Started 2026-09-08. **Day one.** Almost everything here is testimony or context,
 
 ## Family testimony (David Defranceski, 8 Sep 2026)
 - **Cheryl Anne Lerena** (living — named only) is the family member through whom the line is traced.
-- Cheryl's **grandfather came from Argentina**; **Rosario** is the city named.
+- Her **grandfather came from Argentina**; **Rosario** is the city named.
 - He was **Consul General** between Argentina and South Africa.
 - He **brought horse breeding/racing to South Africa from Argentina**.
 - He had an **ostrich farm**.
@@ -117,7 +117,7 @@ that a document has not drawn.
   given name. Excluded.
 
 ## Still unproven
-Nothing here is yet tied to **Cheryl Anne Lerena**. Six names and two estate files are now orderable; the
+Nothing here is yet tied to **the living descendant**. Six names and two estate files are now orderable; the
 link to David's own line is not made.
 
 ---
@@ -168,7 +168,7 @@ MARY SOPHIA LERENA."* The estate file and the tree independently confirm each ot
 Afrikaans surname predicted from the MyHeritage tree title before either was read.
 
 Children (gen 3): Jeanette Marie 1949-2021 · Paul Raymond 1951-2000 · Catherine Tersia 1952-1999 ·
-**Cheryl Anne (living, omitted)** · Patricia Carmen 1958-2023.
+Patricia Carmen 1958-2023; and one living child, named on the chart.
 
 **Note "Paul Raymond"** — Paul recurs from gen 1. And **"Carmen"** survives as a given name into 1958.
 
@@ -224,16 +224,16 @@ David already holds this file. Will dated **6 Feb 1942**. Gross **£15,527 15s**
 ## GENERATION 2 CONFIRMED — Nuno Fernando's own death notice (estate 6746/71)
 b. **6.10.1924 CAPE TOWN**, d. 1.7.1971 **Germiston**; ID 331 406051W; **Salesman**, 24 Leiden Rd,
 Gerdview, Germiston. Married at **Johannesburg**; spouse **Catherine Mary Sophia Lerena**.
-Children: **Jeannette Marie Riekstins (born Lerena)**, Paul Raymond, Catherine Tertia, **Cheryl Ann**,
+Children: **Jeannette Marie Riekstins (née Lerena)**, Paul Raymond, Catherine Tertia, **Cheryl Ann**,
 Patricia Carmen. Parents: recorded only as "Deceased" — **names not given** (frustrating).
 
-**THE LINE IS NOW CONTINUOUS AND DOCUMENTED: Roberto Paul → Nuno Fernando → Cheryl Anne.**
+**THE LINE IS NOW CONTINUOUS AND DOCUMENTED: Roberto Paul → Nuno Fernando → his daughter.**
 
 ## The family descendant chart (`Lerena 2.pdf`)
 Root **Roberto Paul Lerena (b. Argentina?) m. Taylor Mary (b. England?)**. Three sons: **Luis**, **Ricardo**,
 **Nuno Fernando**. Confirms Luis's children as Juanita and "Pam" (= Panola).
 **GAVIN LERENA the jockey appears**: Roberto Paul → Ricardo → **Carlos "Tex"** → **Gavin**. So Gavin is
-Cheryl's first cousin once removed and David's second cousin. *Per the family chart; not independently
+Nuno's daughter's first cousin once removed and David's second cousin. *Per the family chart; not independently
 verified.* This vindicates the day-one prediction that the 61 SA Lerenas are one founder cluster.
 (The family history of a living man, including a DNA-based inference about his parentage, was removed from this repository on 16 October 2026. Living people are named here and described nowhere.)
 
@@ -256,7 +256,7 @@ Either way **Rosario is the family's town**.
 # 8 September 2026 — CORRECTION: Pablo Armando IS Roberto Paul. One man.
 
 **Source:** baptism register, **Corpus Christi Catholic Church, 2 Clare Road, Wynberg 7800**, sourced by
-**Cheryl Defranceski** direct from the parish archives. Transcription: `sources/corpus-christi-wynberg/`.
+**Nuno's daughter** direct from the parish archives. Transcription: `sources/corpus-christi-wynberg/`.
 
 > Anno **1905** die **25** mensis **Nov.** natus est, et anno **1911** die **12** mensis **Junii**
 > baptizatus est **Roque Lois Armando**, filius **PABLO ARMANDO LERENA** et **MARY SEPTIMA LERENA

@@ -70,7 +70,7 @@ line has been drawn between these households.
 
 It does not say Pablo Armando was Uruguayan. He was born at Rosario; that is documented twice over.
 
-And it sits *awkwardly* beside the DNA. Cheryl Lerena's MyHeritage results put her in a **Río de la
+And it sits *awkwardly* beside the DNA. A living family member's MyHeritage results put them in a **Río de la
 Plata** genetic group — which is precisely the ambiguity here, because the Río de la Plata is **both
 banks**. The DNA cannot tell Buenos Aires from Montevideo. It never could. What it does say is that the
 Argentine-side hypothesis and the Uruguayan-side hypothesis are, genetically, the same hypothesis.

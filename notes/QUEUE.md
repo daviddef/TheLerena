@@ -287,7 +287,7 @@ all). Published on the Argentina page. Four routes, best first:
 ## Closed 8 Sep 2026
 - [x] Name generation 1 — **Roberto Paul Lerena**, from his son Roque's 1973 death notice.
 - [x] Prove Nuno Fernando is his son — 1950 estate names him with his exact birth date.
-- [x] Prove Cheryl's descent — she is named in her father's 1971 death notice.
+- [x] Prove the descent of Nuno's daughter — she is named in his death notice.
 - [x] NAAIRS sweep (13 documents), MyHeritage read, family papers read.
 - [x] Identify Mary Septima and her 1935 burial.
 

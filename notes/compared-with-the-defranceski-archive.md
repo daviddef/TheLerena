@@ -26,10 +26,10 @@ These are not gaps. They are places where the Lerena site says one thing and doe
 
 Our footer: *"Living people are excluded from this build."*
 
-Our `/direct-line/` publishes **Cheryl Anne Lerena, born Johannesburg, later Brisbane**,
-with **both marriages named**, under a chip that reads **"Omitted"** and a caption that reads *"Details
+Our `/direct-line/` published a living person's **town, later residence and both marriages**
+(since reduced to the living standard), under a chip that reads **"Omitted"** and a caption that reads *"Details
 withheld under the rule on living people."* That is the opposite of withheld. And `/dna/` now discusses
-her test.
+the test of a living relative.
 
 **Defranceski's rule is different and workable:** *"Living people appear by name only — no dates, no
 places, no photographs."*
