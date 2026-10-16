@@ -5,6 +5,16 @@
    "date": "2026-10-16",
    "commits": [
     {
+     "sha": "663c8ea",
+     "subject": "The 1942-44 war diaries were read by machine: no Lerena, and it proves little",
+     "body": "2,892 images from four digitised pieces, each checked against TNA's image ranges,\nrun through text recognition and searched with fuzzy matching for the surname and\nfor the other archives' surnames. Near-misses were checked on the page images\n(A/Sgt Levin, Mc Laren). Crew lists name aircrew, not ground crew, so this does\nnot show he was not in 12 Squadron. Scans kept outside the repository."
+    },
+    {
+     "sha": "8bbb008",
+     "subject": "Re-pin the kit to 27af004",
+     "body": "The kit gates now refuse to pass on nothing: a GEDCOM date in capitals is\ncaught, an empty sitemap, a crashed astro check, an empty template root and a\npage floor of 15 all fail instead of passing. Built clean through the full gated build,\nwith the installed kit checked, not only the lockfile."
+    },
+    {
      "sha": "361646a",
      "subject": "The 1943-44 war diaries are in a basket and waiting on David's sign-in",
      "body": "Four free PDFs, about 1.8 GB (AIR 54/52, 53, 54 and 185). TNA says free downloads\nneed a sign-in or registration, and this archive does not sign in or register, so\nthe order stopped at checkout. Licence: private research only, never republished.\nThe scans have no text layer and this machine has no OCR."
