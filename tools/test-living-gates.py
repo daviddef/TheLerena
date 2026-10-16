@@ -93,7 +93,7 @@ def edit(path, fn):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--dist", default=str(ROOT / "site" / "dist-wt"))
+    ap.add_argument("--dist", default=str(ROOT / "site" / "dist"))
     ap.add_argument("--full", action="store_true")
     a = ap.parse_args()
     dist = pathlib.Path(a.dist)
@@ -453,7 +453,7 @@ def full_builds(dist):
                 s = tpl.read_text(encoding="utf-8")
                 s = s.replace("<h2>Town and country</h2>", "<h2>Town and country</h2><p>Born 1799</p>", 1)
                 tpl.write_text(s, encoding="utf-8")
-            env = dict(os.environ, ARCHIVE_OUT="dist-wt")
+            env = {k: v for k, v in os.environ.items() if k != "ARCHIVE_OUT"}   # the repo's own checks read site/dist
             r = subprocess.run(["npm", "run", "build"], cwd=t / "site", capture_output=True, text=True, env=env, stdin=subprocess.DEVNULL)
             out = r.stdout + r.stderr
             if not leak:
