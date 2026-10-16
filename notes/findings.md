@@ -3,7 +3,7 @@
 Started 2026-09-08. **Day one.** Almost everything here is testimony or context, not documentation.
 
 ## Family testimony (David Defranceski, 8 Sep 2026)
-- **Cheryl Anne Lerena** married **Ivan Defranceski**.
+- **Cheryl Anne Lerena** (living — named only) is the family member through whom the line is traced.
 - Cheryl's **grandfather came from Argentina**; **Rosario** is the city named.
 - He was **Consul General** between Argentina and South Africa.
 - He **brought horse breeding/racing to South Africa from Argentina**.
@@ -17,8 +17,7 @@ Status: all **LORE**. No name, no dates, no document for any of it.
   - **Booyzen** is Afrikaans → the Lerena line **married into an Afrikaner family** → settlement, not a posting.
   - **Taylor**, **Barry** — English-language, Cape/Rand. *Barry* were a 19th-c. Overberg merchant house,
     same world as the Karoo ostrich trade. **Suggestive only; common surname; no link established.**
-- Family map export: **Johannesburg** = "David is born, Ivan Moves, Hedviga dies"; then
-  **"David Ivan and Cheryl Move to Brisbane"**. So the Lerena line reaches Australia **via Johannesburg**.
+- (A living family's movements, from a family map export, removed from this repository on 16 October 2026.)
 
 ## Context leads (documented, but about the NAME not yet the FAMILY)
 
@@ -236,23 +235,7 @@ Root **Roberto Paul Lerena (b. Argentina?) m. Taylor Mary (b. England?)**. Three
 **GAVIN LERENA the jockey appears**: Roberto Paul → Ricardo → **Carlos "Tex"** → **Gavin**. So Gavin is
 Cheryl's first cousin once removed and David's second cousin. *Per the family chart; not independently
 verified.* This vindicates the day-one prediction that the 61 SA Lerenas are one founder cluster.
-Also: Cheryl m.1 **Derrick Luwinski**, m.2 Ivan Defranceski; David's other names recorded as
-**David Leonard Luwinski / Luwinski Defranceski**.
-
-> **Corrected 14 September 2026.** His full name is **Lynn Derrick Luwinski**; the given names and
-> the birth year recorded here were both wrong. He is living, and this archive and its siblings now
-> publish his name and nothing else about him — no date of birth, not even a year. His line is worked
-> in the sibling archive **The Luwinski**
-> (`github.com/daviddef/TheLuwinski` · `daviddef.github.io/TheLuwinski`): a Berlin Jewish father of
-> record, **Kurt Israel Luwinski**, who left Germany in 1933 and whose own father **Jacob Leibholz**
-> was deported from Berlin to Auschwitz on **26 February 1943**; and a Portuguese mother,
-> **Ivone Mota Figueiredo**, born at Lourenço Marques in 1924 and buried at Porto.
->
-> That archive also finds, and labels *inferred*, that **Kurt is very probably not Derrick's
-> biological father**: Derrick's DNA carries **0.0% Ashkenazi Jewish** where a quarter is required,
-> and his closest matches are one English family with a branch in **Johannesburg**. Which means the
-> hinge between the Lerena archive and the Defranceski one is real — Cheryl married both men — but
-> the hinge between the Lerena archive and the *Luwinski* one may be a marriage only, and not blood.
+(The family history of a living man, including a DNA-based inference about his parentage, was removed from this repository on 16 October 2026. Living people are named here and described nowhere.)
 
 ## PABLO ARMANDO — DEMOTED, not discarded
 The passport man (b. 22 Feb 1882 Rosario, Trainer, Rugby, widower) **is not** Roberto Paul (b. c.1874,

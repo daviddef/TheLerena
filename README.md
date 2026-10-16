@@ -1,7 +1,7 @@
 # The Lerena Archive
 
 An evidence-first family archive for the **Lerena** family — by family account of **Rosario** on the
-Paraná, then **South Africa**, then **Brisbane**.
+Paraná, then **South Africa**.
 
 > *Lerena* is borne by about **2,124 people in the whole world**. That single fact shapes the method. Where
 > the sibling *Falco* archive must prove that any two Falcos are related, this archive may reasonably
@@ -18,8 +18,7 @@ Oudtshoorn feather boom.
 
 Recorded from David Defranceski, 8 September 2026:
 
-- **Cheryl Anne Lerena** married **Ivan Defranceski**; their son was born at Johannesburg and the family
-  later moved to Brisbane.
+- **Cheryl Anne Lerena** (living — named only) is the family member through whom the line is traced.
 - Cheryl's **grandfather came from Argentina** — **Rosario**.
 - He was **Consul General** between Argentina and South Africa.
 - He **brought horse breeding and racing to South Africa from Argentina**.
@@ -86,8 +85,8 @@ requests/              drafted archive and record requests
 
 ## Sibling archives
 
-**The Defranceski** (Istria) and **The Falco** (Arienzo, Campania) — same method, same author. Cheryl Anne
-Lerena's marriage to Ivan Defranceski is the hinge between this archive and the Defranceski one.
+**The Defranceski** (Istria) and **The Falco** (Arienzo, Campania) — same method, same author. The two
+share a family; how is told in the Defranceski archive.
 
 ## Sources
 

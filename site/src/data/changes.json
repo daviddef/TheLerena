@@ -5,6 +5,66 @@
    "date": "2026-10-16",
    "commits": [
     {
+     "sha": "3291181",
+     "subject": "Re-pin the kit to fcf629a",
+     "body": "User-built trees that MyHeritage files under research (Geni World Family Tree,\nWikiTree, Filae, GenealogieOnline) are no longer counted as public record sources\nby the shared living rule. Built clean through the full gated build at the new pin,\nwith the installed kit checked, not only the lockfile."
+    },
+    {
+     "sha": "d58a740",
+     "subject": "Harness: full builds use the default output the repo's own checks read",
+     "body": ""
+    },
+    {
+     "sha": "2c56897",
+     "subject": "Merge origin/main (aa5057e) into living-v2",
+     "body": "check-living-places keeps the v2 rule and gains the refuse-at-zero behaviour (an empty build,\nan empty roster); tools/plant-faults.py's living cases now plant the v2 faults (living.json\nno longer exists, and no real date is a literal in any tracked file). The new CI steps for\nerrands, nulls and addresses are kept."
+    },
+    {
+     "sha": "4d47aee",
+     "subject": "Harness: copy the notes, and prove the known-child ruling",
+     "body": ""
+    },
+    {
+     "sha": "d70730c",
+     "subject": "Declare the living roster as a generator input, not a page",
+     "body": ""
+    },
+    {
+     "sha": "0b65985",
+     "subject": "Living standard: no living person's date in any public file; a roster records who is living",
+     "body": "The living person's birth date is removed from the three working files that held it (and a\nyear from the findings notes), without touching their research prose. Who is living is\nrecorded in data/living-roster.tsv (name, slug, town, country, no date) and the generator\nrefuses a roster row for anyone the data records dead. The gates fail if a date or year sits\nagainst a living person's name in any tracked file or built file, and refuse an empty or\ndated roster. A known child follows the standard like any living person; only an undated\nperson with a living parent is held out. The harness plants a date back in each of the four\nfiles and a fault for every roster rule."
+    },
+    {
+     "sha": "6e90a44",
+     "subject": "Re-pin the kit to 6cefc79 (a known child follows the standard; the National Archives of Australia)",
+     "body": ""
+    },
+    {
+     "sha": "aa5057e",
+     "subject": "Twelve checks passed when given nothing, and three never ran in CI",
+     "body": "Planted one fault in each of 28 checks (54 faults; tools/plant-faults.py re-runs\nit). First pass: 23 of 42 caught. Twelve repo tools printed \"0 examined\" and\npassed on an empty input; check-nulls could not see a four-word name. Each now\nprints what it examined and refuses at zero, with a floor where the input only\ngrows. check-errands, check-nulls and check-addresses ran only in the local gate;\nthey are now CI steps. Now 50 of 54 caught; the four that are not (last-alive and\ndrift by design, two kit checks) are listed in notes/."
+    },
+    {
+     "sha": "2b071ef",
+     "subject": "Living standard: gates enforce the new rule and are shown to fail",
+     "body": "check-living-places is inverted (a living person must show their town and country,\nand no other place); check-living-standard is new (noindex, sitemap, search index,\nJSON-LD, table, image, year, full dates, held-out people, named people with pages).\nBoth reckon who is living independently of the generator. test-living-gates plants a\nfault for every rule."
+    },
+    {
+     "sha": "4c7c966",
+     "subject": "Living standard: a living person's page is a name, relationships, a town and a country",
+     "body": "Person, name, people, register pages and the chart render the shared rule; the\nspine links every name; the About, method, footer, README and home sentences say\nwhat the archive now does."
+    },
+    {
+     "sha": "00aee6b",
+     "subject": "Living standard: the generator applies the shared rule and scrubs a living person at the source",
+     "body": "Who is living is now the kit's living_rule.py over the register's births, deaths and\ncitations, not a hand-set cell. A living person leaves build-people.py as a name,\nrelationships, town and country; a possible minor is held out. The two people\nrecorded dead only by a burial registration are read as dead. Nine people the chart\nalready named get pages (the third generation, its parents and spouses). The old\nliving.json, which held a living person's birth date, is gone."
+    },
+    {
+     "sha": "a0b264a",
+     "subject": "Re-pin the kit to 0a56c86 (one definition of who is living)",
+     "body": ""
+    },
+    {
      "sha": "3c8e9d8",
      "subject": "A SAAF Forum post drafted, and the squadron diaries found",
      "body": "The forum needs an account to post and this archive does not register or sign in,\nso the post is a draft for David. It names no living person and gives no address.\nThe forum's sticky thread led to the UK National Archives' AIR 54 squadron\noperations record books, the unit-side route for 12 Squadron; added to the\nwar-service errand."
