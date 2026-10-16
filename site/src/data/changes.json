@@ -5,6 +5,16 @@
    "date": "2026-10-16",
    "commits": [
     {
+     "sha": "8222bbc",
+     "subject": "The generated data files now carry the trimmed prose too",
+     "body": "The build regenerated 8 data files from the trimmed data after the last commit; the deploy\nbuilds from these, so they have to travel with it. Same change, no new content."
+    },
+    {
+     "sha": "c0bb77f",
+     "subject": "The living standard now covers what is typed, not just what is built",
+     "body": "Adopts the kit's prose gate (checkprose.py, kit 575409a) through tools/check-prose.py,\nwhich writes the feed of who is living OUTSIDE the repository on every run, from the\nraw data and living_rule.py, and adds one supplement the kit skips by design: a living\nperson's given name alone, beside a date or life-event word. In verify.sh and in CI;\nexit 2 (not run) fails both.\nTrimmed only what went past the standard (name, relationships, town and country): 4 pages\n(/direct-line/, /estate/, /family-papers/, /hypotheses/), 11 data files, 6 notes and the\nREADME. The person is now named by relationship (\"his daughter\") wherever a statement,\nage, date or DNA result sat beside a name; the testimony itself is kept.\nGate result: 110 files read, 5 living phrases, 30 places name a living person, 0 fail, 0\nallowances; supplement 108 files, 24 places, 0 carry a detail. Four planted faults (a name\nbeside a year, a given name beside a full date, a name beside a life-event word, an emptied\nroster) all fail the gate; the emptied roster exits 2, never a pass."
+    },
+    {
      "sha": "3fc190a",
      "subject": "Re-pin the kit to 575409a (the prose gate: checkprose.py)",
      "body": ""

@@ -18,6 +18,11 @@
 # Never pipe a checker into tail. Run this instead.
 set -e
 cd "$(dirname "$0")/.."
+# last-alive.py READS ONLY THE REGISTER and writes data/last-attested-alive.tsv, which build-people.py READS to put a
+# `died` on every page. It used to run near the END of this script, so people.json was always one run behind the
+# register: on 16 October 2026 a mother's page still said she died in 1910 (her daughter's death, lifted out of her
+# note) for a whole run after the note had been fixed. A generator that feeds another runs FIRST.
+python3 tools/last-alive.py > /dev/null
 # people FIRST: build-pages reads people.json for the search index, and a living or noindex person
 # must be left out of it; run the other way round the index is built from the previous run's people.
 python3 tools/build-people.py > /dev/null
