@@ -1,0 +1,90 @@
+---
+/* THE FAMILIES. Every name this archive has a page for, and what the register holds under each.
+ *
+ * Until 17 October 2026 this archive had one family page, the Taylors. It is a project about a NAME, and the families
+ * that matter to it are the ones the name was joined to: the mothers' and wives' families of the direct line, and the
+ * Uruguayan families the research kept meeting. They are here now, one page each, BUILT from the register
+ * (src/lib/families.js) so a count cannot drift from it. data/families.tsv says which spellings are one name and where
+ * the archive already writes each family up; nothing else about a family is typed.
+ *
+ * The card is the kit's `Families`, as Falco's, D'Arcy's and Blazevic's are. */
+import Base from "../layouts/Base.astro";
+import Families from "@daviddef/archive-kit/components/Families.astro";
+import { u } from "../lib/url.js";
+import { buildFamily, families } from "../lib/families.js";
+
+const TAYLOR = { slug: "taylor", name: "Taylor", forms: "Taylor", group: "line", tokens: new Set(["taylor"]) };
+const LERENA = { slug: "lerena", name: "Lerena", forms: "Lerena", group: "line", tokens: new Set(["lerena"]) };
+
+const span = (b) => (b.span ? (b.span[0] === b.span[1] ? `${b.span[0]}` : `${b.span[0]}–${b.span[1]}`) : "");
+const top = (b, k) => b.where.slice(0, k).map((w) => w.name).join(" \u00b7 ");
+const WORD = ["no", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve",
+              "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen"];
+
+const row = (f, over = {}) => {
+  const b = buildFamily(f);
+  const conn = b.byStatus.connected || 0;
+  const facts = [];
+  if (b.spellings.length > 1) facts.push(["Written", b.spellings.join(", ")]);
+  if (b.where.length) facts.push(["Where", top(b, 3)]);
+  facts.push(["Placed", conn ? `${conn} of ${b.bearers.length} connected to the line` : "none connected to the line yet"]);
+  return {
+    label: f.name,
+    slug: f.slug,
+    count: b.bearers.length,
+    countLabel: b.bearers.length === 1 ? "person" : "people",
+    gloss: span(b) ? `<strong>${span(b)}</strong>` : "",
+    facts,
+    href: `/families/${f.slug}/`,
+    hrefLabel: "Everyone of the name",
+    ...over,
+  };
+};
+
+const byGroup = (g) => families.filter((f) => f.group === g).map((f) => row(f));
+
+const groups = [
+  {
+    label: "On the direct line",
+    note: "the name itself, and the families of the people the Spine names",
+    rows: [
+      row(LERENA, {
+        hrefLabel: "The name, its spellings and its lines",
+        href: "/name/",
+        note: "Every spelling of the name has its own count on that page. A shared surname is not a relationship, and this archive exists to find out which Lerenas are one family.",
+      }),
+      row(TAYLOR, { hrefLabel: "Mary Septima Taylor, and the descent drawn", href: "/taylor/" }),
+      ...byGroup("line"),
+    ],
+  },
+  {
+    label: "Families the research has followed",
+    note: "names the register holds in numbers beside the Lerena name",
+    rows: byGroup("research"),
+  },
+];
+const n = groups.reduce((s, g) => s + g.rows.length, 0);
+---
+<Base title="The Families"
+      eyebrow={`${WORD[n] || n} families, not one surname`}
+      dek="A name is not a family, and a family history that follows only one name is half a history. These are the names the register holds in numbers, with the people under each, the years and places they are found in, and how well the archive knows them.">
+
+  <div class="card" style="border-left:3px solid var(--accent)">
+    <p>Each page is built from the register and says only what the register holds: who carries the name (as a first or
+    second surname), where they are filed, between which years, which of them the archive has joined to the line, and which
+    other families they are joined to. <strong>A shared surname is not a relationship</strong> &mdash; a page says so
+    wherever the people under it are gathered by the name alone.</p>
+    <p class="small" style="margin-top:.6rem">The counts are people with a page of their own here. Anyone living, and anyone
+    held out of publication, is left out of every count and every list.
+    <a href={u("/method/#living")}>The rule &rarr;</a></p>
+  </div>
+
+  <section class="blk">
+    <Families groups={groups} u={u} />
+  </section>
+
+  <section class="blk" style="border-bottom:0">
+    <p class="small">Everyone, by name: <a href={u("/who/")}>Every Name</a> &middot; <a href={u("/people/")}>The People</a> &middot;
+    <a href={u("/register/")}>The Register</a> &middot; <a href={u("/marriages/")}>The Marriages</a></p>
+  </section>
+</Base>

@@ -44,7 +44,27 @@ const yr = (p) => String(p.born || "").match(/\d{4}/)?.[0] || "";
 const surnameOf = (p) => (p.surname || "").trim() || "(no surname recorded)";
 const LERENA = /^L[AEO]?[RL]?ENA$/i;
 
-const WRITTEN = { "TAYLOR": ["/taylor/", "the Taylor page"] };
+/* The families that have a page of their own: /taylor/, and /families/<slug>/ built from data/families.tsv (17 October 2026).
+   Keyed by the register's surname field, so each spelling a family page counts as one name points at that page. */
+const WRITTEN = {
+  "TAYLOR": ["/taylor/", "the Taylor page"],
+  "BRAYLEY": ["/families/brayley/", "the Brayley family page"],
+  "BRAILEY": ["/families/brayley/", "the Brayley family page"],
+  "TEMPLE": ["/families/temple/", "the Temple family page"],
+  "BOOYZEN": ["/families/booyzen/", "the Booyzen family page"],
+  "FERNANDEZ": ["/families/fernandez/", "the Fernandez family page"],
+  "FERNANDES": ["/families/fernandez/", "the Fernandez family page"],
+  "PELAEZ": ["/families/pelaez/", "the Pelaez family page"],
+  "GONZALEZ": ["/families/gonzalez/", "the Gonzalez family page"],
+  "GONZALES": ["/families/gonzalez/", "the Gonzalez family page"],
+  "GONSALES": ["/families/gonzalez/", "the Gonzalez family page"],
+  "LENGUAS": ["/families/lenguas/", "the Lenguas family page"],
+  "CARDOZO": ["/families/cardozo/", "the Cardozo family page"],
+  "JUANICO": ["/families/juanico/", "the Juanico family page"],
+  "TRAIBEL": ["/families/traibel/", "the Traibel family page"],
+  "ALVAREZ": ["/families/alvarez/", "the Alvarez family page"],
+  "LARRIERA": ["/families/larriera/", "the Larriera family page"],
+};
 
 const byStatus = {};
 for (const p of people) (byStatus[p.status || "unplaced"] ||= []).push(p);

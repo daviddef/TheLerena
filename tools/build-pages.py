@@ -91,6 +91,7 @@ for name in ("corrections", "errands", "gaps", "timeline", "photograph-these",
              "buenos-aires-fulltext-2026-10-11",
              "fulltext-finds-2026-10-11",
              "lerena-lines",
+             "families",
              "lerena-lines-unplaced",
              "name-variants", "variant-parent-sweep", "navarrete-logrono", "dispensations-compound-sweep", "cordon-sized", "artigas-opened", "leandro-llanos-identified", "cordon-leads-worked", "sarandi-229-1850", "domain-migration", "consul-gazette-test", "cordon-deaths", "nuno-papers", "pablo-papers"):
     data = rows(name)
@@ -144,6 +145,13 @@ for r in rows("photograph-these"):
 for r in rows("sources-consulted"):
     idx.append({"t": plain(r["source"])[:90], "k": "source", "u": "/sources/",
                 "d": plain(r["used_for"])[:180], "s": r["tier"]})
+
+# The family pages are built from data/families.tsv (/families/<slug>/), one search row each.
+for r in rows("families"):
+    idx.append({"t": f"The {r['name']} family", "k": "page", "u": f"/families/{r['slug']}/",
+                "d": f"Everyone in this archive who carries the name {r['name']}, where they are found, and how well the archive knows them", "s": ""})
+idx.append({"t": "The Families", "k": "page", "u": "/families/",
+            "d": "The names this archive has a page for, and what the register holds under each", "s": ""})
 
 PAGES = [
     ("The line", "/direct-line/", "The descent, generation by generation, with a record behind every step"),

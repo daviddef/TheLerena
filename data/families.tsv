@@ -1,0 +1,33 @@
+# *** THE FAMILIES THIS ARCHIVE HAS PAGES FOR, besides the Taylors (their own page is /taylor/). 17 October 2026. ***
+#
+# WHAT A ROW IS. One surname line in the register, and the places in this archive that already tell its story. The
+# page at /families/<slug>/ is BUILT from site/src/data/people.json at build time - who carries the name, where, when,
+# how the archive knows them, which other families they are joined to - so a count on a page cannot drift from the
+# register. Nothing about a family is typed here except which spellings the archive treats as one name and where it
+# has already written the family up.
+#
+# forms   the spellings that count as this name, '|'-separated. Only folds the archive has already made: Fernandez ->
+#         Fernandes and Gonzalez -> Gonzales/Gonsales are in data/namefold.json (kit namefold.py); Brayley/Brailey are one
+#         family because John BRAILEY's daughter is Mary Ann Hellen BRAYLEY in the register's own father edge. Nothing here
+#         is folded by a sound-alike rule, and ZALDUANDO is NOT folded into ZALDUONDO (the archive has not decided it).
+# group   line = the name is on the direct line of descent (the register's `isLine`, or an ancestor of it, or a spouse
+#         of it); research = the archive's own research files and /uruguay/ follow the name, and it has at least eight
+#         published people.
+# read    label~href pairs, '|'-separated: the pages in THIS archive that already write the family up. Labels are the
+#         section headings. Every href is checked by the build (links and anchors).
+#
+# WHO IS LISTED. Never a living person, never a person held out of publication (people.json `noindex`): the template
+# drops them before it counts, so a family page makes nobody easier to find than their own page does.
+slug	name	forms	group	read
+brayley	Brayley	Brayley|Brailey	line	The two questions the Brayley line turns on~/taylor/#s-two-questions|The descent, drawn, with the sisters in it~/taylor/#s-descent|The papers in the house, including the Brayley ascent (7b) and the Brayley convergence (8)~/family-papers/|The naval sweep, and a near miss that is now closed~/national-archives/#s-naval
+temple	Temple	Temple	line	The descent, drawn, with the sisters in it~/taylor/#s-descent|The papers in the house~/family-papers/
+booyzen	Booyzen	Booyzen	line	The direct line~/direct-line/|South Africa~/south-africa/|The DNA~/dna/
+fernandez	Fernandez	Fernandez|Fernandes	research	The other knot, and it is not a Lerena one~/uruguay/#s-fernandez-knot|Sancho’s household — eleven years at Canelones, and four people it owned~/uruguay/#s-household
+pelaez	Pelaez	Pelaez	research	Four acts from one compound search, and the diagram confirmed~/uruguay/#s-four-acts|The head of the Trinidad kindred, drawn by the priest who married them~/uruguay/#s-kindred|Why the Trinidad Lerenas needed dispensing~/uruguay/#s-consanguinity
+gonzalez	Gonzalez	Gonzalez|Gonzales|Gonsales	research	González Lerena — a branch no sweep had ever counted~/uruguay/#s-gonzalez-lerena
+lenguas	Lenguas	Lenguas	research	Gilberto Justiniano Lerena Lenguas~/horses/|Every Lerena Argentina can produce, drawn~/argentina/#s-every-lerena-argentina-can-produce|The two houses~/uruguay/
+cardozo	Cardozo	Cardozo	research	Three weddings in thirteen months, and why 1911 needed a dispensation~/uruguay/#s-trinidad-marriages|The 1894 and 1913 couples, answered by their children~/uruguay/#s-answered
+juanico	Juanico	Juanico	research	Every Lerena Argentina can produce, drawn~/argentina/#s-every-lerena-argentina-can-produce|The two houses~/uruguay/
+traibel	Traibel	Traibel	research	Lerena Villademoros — a fork the archive refused, and then decided~/uruguay/#s-villademoros|Four generations in one evening, and the last of them is Argentine~/uruguay/#s-argentine-branch|Four men called Alejandro — and the one whose parents are now known~/uruguay/#s-alejandros
+alvarez	Alvarez	Alvarez	research	The other knot, and it is not a Lerena one~/uruguay/#s-fernandez-knot|The head of the Trinidad kindred, drawn by the priest who married them~/uruguay/#s-kindred
+larriera	Larriera	Larriera	research	San José — a woman this archive wrote off, and her seven brothers and sisters~/uruguay/#s-san-jose|The act behind one of them~/uruguay/#s-zelmira-act
