@@ -5,6 +5,11 @@
    "date": "2026-10-16",
    "commits": [
     {
+     "sha": "6eea74e",
+     "subject": "The Documentation Centre email and the SAAF Forum read are recorded as research",
+     "body": "Two rows in searched.json, so the atlas importer marks them: the email to the\nSANDF Documentation Centre (written, waiting, no reply) and the forum read (found).\nThe forum post itself is still only a draft."
+    },
+    {
      "sha": "12c2de3",
      "subject": "Twelve Squadron's war diaries are mapped: eight books could cover Nuno",
      "body": "The National Archives catalogue lists 16 items for No 12 Squadron SAAF in AIR 54;\nthe eight for 1942 to 1945 sit in six digitised pieces. Recorded in searched.json,\nthe war-service errand and the work list. Not opened: the downloads are large and\nneed David's say-so, and an operations record book names aircrew far more than\nground crew, so a miss would not disprove service."
