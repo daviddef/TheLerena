@@ -201,7 +201,7 @@ def main():
         victim = sorted(bad)[0]
         mutants = {
             "a link to a living or held-out person": page.replace("</main>", f'<a href="/people/{victim}/">x</a></main>'),
-            "a person dropped from the list": re.sub(r'<tr>\s*<td><a href="/people/[^"]+/">.*?</tr>', "", page, count=1, flags=re.S),
+            "a person dropped from the list": re.sub(r'<tr[^>]*>\s*<td[^>]*><a href="/people/[^"]+/"[^>]*>.*?</tr>', "", page, count=1, flags=re.S),
             "a stranger added to the list": page.replace(
                 "</tbody>", '<tr><td><a href="/people/%s/">x</a></td></tr></tbody>' % sorted(known - exp - bad)[0], 1),
             "a false count in the eyebrow": re.sub(r"\d+ (person|people) of the name", "999 people of the name", page, count=1),
