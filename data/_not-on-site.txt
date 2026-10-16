@@ -83,6 +83,7 @@ lerena-lerena-compound-test
 lerena-pelaez-trinidad
 lerena-register
 lerena-siblings-gen3
+living-roster
 luis-eugenio-death-search
 montevideo-1843-julia-baptism
 montevideo-1846-lerena-baptisms
