@@ -35,7 +35,10 @@ export function arkify(html) {
    others). md() escapes first, exactly as before, so data still cannot inject markup; the only
    change in kind is that a *** span now closes as <strong><em> like every other archive's. */
 export function emph(s) {
-  return arkify(md(s));
+  /* md() leaves " and ' alone and emph() always escaped them. Keep that: a literal href="/x/" in a
+     note must stay text and not read as a link to the link checker (it did, on the first push). md()
+     emits only attribute-free tags, so escaping quotes afterwards cannot touch its markup. */
+  return arkify(md(s).replace(/"/g, "&quot;").replace(/'/g, "&#39;"));
 }
 
 /* For places that want the text with no markup at all - a title attribute, a meta
