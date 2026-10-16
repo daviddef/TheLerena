@@ -5,6 +5,16 @@
    "date": "2026-10-16",
    "commits": [
     {
+     "sha": "3fc190a",
+     "subject": "Re-pin the kit to 575409a (the prose gate: checkprose.py)",
+     "body": ""
+    },
+    {
+     "sha": "0b92e9f",
+     "subject": "Change log regenerated after the kit re-pin",
+     "body": ""
+    },
+    {
      "sha": "663c8ea",
      "subject": "The 1942-44 war diaries were read by machine: no Lerena, and it proves little",
      "body": "2,892 images from four digitised pieces, each checked against TNA's image ranges,\nrun through text recognition and searched with fuzzy matching for the surname and\nfor the other archives' surnames. Near-misses were checked on the page images\n(A/Sgt Levin, Mc Laren). Crew lists name aircrew, not ground crew, so this does\nnot show he was not in 12 Squadron. Scans kept outside the repository."
