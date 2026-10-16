@@ -5,6 +5,11 @@
    "date": "2026-10-16",
    "commits": [
     {
+     "sha": "a75da6e",
+     "subject": "Six findings from the cloud audit, checked on the live pages",
+     "body": "Four were real; one was a lag in this archive's own build; one is not a duplicate.\n- A mother's page said she died in 1910: that is her DAUGHTER's death, lifted out of her note\n  by the death parser. The note is reworded; she has no recorded death.\n- A second woman's page said she died in 1933 (her first husband's death, same cause); she\n  died in 1950, which her note now says.\n- Both of those made children 'born after the mother's death' on three pages.\n- The machine-indexed alias of the founder carried parent edges the parents did not return;\n  an alias is not a child, so the two edges are removed and the alias keeps its pointer.\n- Two ship passengers of the same name and birth year, sixteen years apart, are declared a\n  pair that is not merged and not settled, with the reason.\n- verify.sh ran last-alive.py near the end but build-people.py read its output near the\n  start, so every page's death date was one run behind the register. It now runs first.\nNot changed: the two 'parent over 55' items (a father, labelled father); a man the Booyzen\narchive also holds (the two archives share a marriage on purpose)."
+    },
+    {
      "sha": "8222bbc",
      "subject": "The generated data files now carry the trimmed prose too",
      "body": "The build regenerated 8 data files from the trimmed data after the last commit; the deploy\nbuilds from these, so they have to travel with it. Same change, no new content."

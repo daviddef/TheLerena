@@ -1286,5 +1286,21 @@
   "what_is_true": "*** saairforce.co.za is an UNOFFICIAL enthusiast website *** - its own footer says 'the unofficial website on the South African Air Force'. The postal address (Private Bag X289, Pretoria 0001) is also in the Department of Defence's own, dated, access-to-information manual, so it stands. The EMAIL addresses are not confirmed on any current official page: archive@dod.mil.za is on the unofficial site's contact page, and sandfdoc@mweb.co.za is on its history page and in the dated official manual.",
   "how_it_was_caught": "Reading the site's footer while looking for an email address for it, before the letter or email had gone anywhere.",
   "retired": ""
+ },
+ {
+  "date": "2026-10-16",
+  "severity": "minor",
+  "what_was_said": "That ISIDORA CARDOZO, mother of the Trinidad Cardozo children, died on 23 July 1910 (her page and the death-date file).",
+  "what_is_true": "*** That is her daughter ELIDA's death. *** The register note gave it as 'ELIDA (b. 1897, d. 23 July 1910)' and the death parser took the first 'd.' it met as the mother's. Isidora has no recorded death. It also made a child born in 1934 look born 24 years after his mother died; whether she bore children across forty years or he belongs to a younger Doroteo is still stated as NOT RESOLVED in her row.",
+  "how_it_was_caught": "A cloud audit's 'parent died more than a year before the birth' list, checked on the live page, 16 October 2026.",
+  "retired": ""
+ },
+ {
+  "date": "2026-10-16",
+  "severity": "minor",
+  "what_was_said": "That ROSELINE WILHELMINA FORBES died in 1933 (her page and the death-date file).",
+  "what_is_true": "*** That is her first husband Frederick Christian Chappell's death. *** The register note read 'Widow of Frederick Christian Chappell (d.1933)' and the parser took it as hers. She d. 2 July 1950 (SA death register), which her note now says. It made her two daughters by Roque, born 1936 and 1943, look born after their mother died.",
+  "how_it_was_caught": "The same audit list, 16 October 2026.",
+  "retired": ""
  }
 ]
