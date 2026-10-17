@@ -5,6 +5,16 @@
    "date": "2026-10-17",
    "commits": [
     {
+     "sha": "71be3ef",
+     "subject": "Regenerate the public search index after the Gonzalez rows",
+     "body": ""
+    },
+    {
+     "sha": "50d9328",
+     "subject": "The San Jose couple tested against the 1892 Cordon burial: children 1854-1872, two sons dead at Montevideo",
+     "body": "Index-level: Leopoldo (d. 1922, father of Juan Carlos Gonzalez Lerena) and Servando Cecilio (d. 1911)\nare added with his wife. The candidate survives and is stronger, and is not merged; the 1930-32\nCampana index cards that give the same parents are flagged as unexplained."
+    },
+    {
      "sha": "8c82988",
      "subject": "Regenerate the changes log after the collection-level row",
      "body": ""

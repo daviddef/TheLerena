@@ -4954,5 +4954,19 @@
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Esperanza GONZALEZ (m. Damaso NEGROTTO 1884)",
+  "born_est": "1858c",
+  "last_attested_alive": "1884-Feb-20",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Damaso NEGROTTO (m. Esperanza Gonzalez 1884)",
+  "born_est": "1855c",
+  "last_attested_alive": "1884-Feb-20",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
  }
 ]
