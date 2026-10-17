@@ -781,7 +781,34 @@ details>summary:hover{color:var(--accent)}
    cannot be hyphenated and will push a whole page sideways on a phone. The
    errands page scrolled 412px horizontally because of one 150-character
    FamilySearch URL. Let prose break anywhere it must, rather than overflow. */
-p,li,td,th,dd,.cap,.txt,.dek,.ab{overflow-wrap:anywhere}
+p,li,dd,.cap,.txt,.dek,.ab{overflow-wrap:anywhere}
+
+/* TABLE CELLS (layout fix, 17 October 2026). The rule above gave every cell overflow-wrap:anywhere, and in a
+   table "anywhere" lets a column's minimum width shrink to ONE character: a column the browser had to squeeze
+   (a prose column beside inline rem widths, a table in a narrow box) broke words mid-word and stacked a date
+   three lines high (62px-wide WHY cells 1,000px tall on /uruguay/; 37 such cells on that page, 210 across the
+   70 sampled). break-word keeps a column's minimum at its longest word. An unbroken web address or film
+   reference is the one thing that must still be able to break, so external links, code and mono runs inside a
+   cell keep "anywhere" (the 390px overflow found on /sources/ and the errands page came from exactly these). */
+td,th,td.cap,td.txt,td.ab,td .cap,td .txt,td .ab{overflow-wrap:break-word;word-break:normal;hyphens:manual}
+td a[href^="http"]:not(.ark),td code,td .mono,th code{overflow-wrap:anywhere}
+/* A row header (a <th> inside <tbody>) is often a whole sentence, not a column label, and the th rule near the top of
+   this file is nowrap: /uruguay/ has a "department" table whose first column came out 2,466px wide, so the table was
+   2,833px and the other two columns were squeezed to 180px. Column labels in <thead> stay on one line; a row header
+   may wrap. (td.m / th.m stay nowrap: they are dates and short codes.) */
+tbody th:not(.m){white-space:normal}
+/* Dates and short codes must not wrap inside a cell. td.mono is a date, a year range or a list of page numbers (the
+   longest of 1,779 on the site is 24 characters), and the "When" cell opening a /searched/ row is a date (11 characters).
+   A date in the .mono cells of /searched/ and /taylor/ came out 66-93px wide and three lines high. Desktop only: on a
+   phone a nowrap column would widen the table, and the phone rules above let the content decide. */
+@media (min-width:601px){
+  td.mono,td.small.mono:first-child{white-space:nowrap}
+}
+/* On a phone the column labels may wrap between words (they are nowrap above): with the cells no longer able to shrink
+   to a single character, four nowrap labels on /family-papers/ held a table 18px wider than a 390px screen. */
+@media (max-width:600px){
+  th{white-space:normal}
+}
 
 /* ---- the shared search box -------------------------------------------- */
 .ksearch input{
