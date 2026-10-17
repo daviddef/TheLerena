@@ -54,6 +54,10 @@ const groups = [
         note: "Every spelling of the name has its own count on that page. A shared surname is not a relationship, and this archive exists to find out which Lerenas are one family.",
       }),
       row(TAYLOR, { hrefLabel: "Mary Septima Taylor, and the descent drawn", href: "/taylor/" }),
+      /* The Booyzen line has its own archive: a page here would repeat it for one person. */
+      { label: "Booyzen", slug: "booyzen", count: null, countLabel: "", gloss: "", facts: [],
+        note: "The Booyzen line has its own archive, with its own pages for the name and the families around it.",
+        href: "https://booyzen.defranceski.com/families/booyzen/", hrefLabel: "The Booyzen Archive's Booyzen page" },
       ...byGroup("line"),
     ],
   },
@@ -80,7 +84,7 @@ const n = groups.reduce((s, g) => s + g.rows.length, 0);
   </div>
 
   <section class="blk">
-    <Families groups={groups} u={u} />
+    <Families groups={groups} u={(p) => (/^https?:/.test(p) ? p : u(p))} />
   </section>
 
   <section class="blk" style="border-bottom:0">
