@@ -5,6 +5,11 @@
    "date": "2026-10-17",
    "commits": [
     {
+     "sha": "d95e2c8",
+     "subject": "The 1867 Trinidad godparents Vitalino and Alejandrina Lerena: register candidates entered, not identified",
+     "body": "Alejandrina (b. about 1852, daughter of Alejandro the younger) fits as the baby's first cousin and unmarried (no 'de Pelaez');\nVitalino Lerena of Trinidad (wife Andrea Echeverry) fits as a young man. A godparent line is a name and a role, so both are\ncandidates only. No marriage entry is indexed for Alejandrina and Pelaez 1860-1880 (null, not an exclusion); Vitalino's parents\nare not found."
+    },
+    {
      "sha": "6d2baeb",
      "subject": "Log two index nulls for the Pereyra parents and a full-text outage (not exclusions)",
      "body": ""
