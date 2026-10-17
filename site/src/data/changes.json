@@ -5,6 +5,11 @@
    "date": "2026-10-17",
    "commits": [
     {
+     "sha": "6d2baeb",
+     "subject": "Log two index nulls for the Pereyra parents and a full-text outage (not exclusions)",
+     "body": ""
+    },
+    {
      "sha": "9112dd4",
      "subject": "Log a null: no marriage entry for Pedro Lerena and Teresa Leonor 1855-64 in the Catholic index (not an exclusion)",
      "body": ""
