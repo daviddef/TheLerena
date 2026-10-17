@@ -5,6 +5,26 @@
    "date": "2026-10-17",
    "commits": [
     {
+     "sha": "918f954",
+     "subject": "check-families: tolerate Astro's scoped-style attributes when planting its faults",
+     "body": ""
+    },
+    {
+     "sha": "4f8b94c",
+     "subject": "Merge origin/main into family-pages",
+     "body": ""
+    },
+    {
+     "sha": "693425d",
+     "subject": "Twelve family pages: Brayley, Temple, Booyzen, Fernandez, Pelaez, Gonzalez, Lenguas, Cardozo, Juanico, Traibel, Alvarez, Larriera",
+     "body": "Built from the register (src/lib/families.js, data/families.tsv): who carries each name, where, between which\nyears, how the archive knows them, which other families they are joined to, and where the archive already writes\nthe family up. A /families/ index on the kit's Families card, a The families menu group (the Taylors moved into it),\nthe Marriages page pointing at each, and tools/check-families.py: a second reckoning of who each page may list,\nwith nine planted faults, wired into the build."
+    },
+    {
+     "sha": "23226ec",
+     "subject": "The Cordon death and burial pages are all opened: seven new people, and the four of Sarandi 229 are not in them",
+     "body": "Eleven more of the thirteen pages full text returns for the surname are read, six at the plate.\nNew: Jose Maria Larranaga (buried 1890, son of Benito and Martina Lerena), Sara Lerena (1892, hija\nnatural de Teresa Lerena), Jose Maria Reyes and Maria Lerena (1920). Candidates, not merges:\nServando Gonzalez m. Estefana Lerena (1892) for the San Jose couple, and Teresa Leonor de Lerena\n(1901, the plate says Leonor) for Teresa Leonard. Carlos Alberto Fein was buried 18 May 1919, 27\nyears before the registration that named him. Julia Juanico's burial gives her age 62 against 67.\nAmelia Lerena (1871) upgraded from transcript to plate. The four adults are not found, and the\nerrand says that is a limit on the instrument, not a null on the books."
+    },
+    {
      "sha": "ef79564",
      "subject": "The Gazette sweep on nine spellings: still not one Lerena before 1951",
      "body": "Every year 1905 to 1950, through the site's own search and its year filter. The control\nreproduced the earliest LERENA (April 1951). The other eight spellings return places,\ngiven names and OCR debris. Stronger than the one-spelling null of 12 October, still not\na closed one: the 1950 estate notice does not turn up under any spelling either."
