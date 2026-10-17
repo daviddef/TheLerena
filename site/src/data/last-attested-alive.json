@@ -2261,8 +2261,8 @@
   "tier": "BIRTH ONLY"
  },
  {
-  "name": "Pedro LERENA Vega (b. c.1834)",
-  "born_est": "1834c",
+  "name": "Pedro LERENA Vega (b. 1828)",
+  "born_est": "1828-12-01",
   "last_attested_alive": "1896-Nov-6",
   "basis": "explicit death date on this person's row",
   "tier": "DEATH"
