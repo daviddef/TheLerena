@@ -36387,16 +36387,16 @@
   "nationality": "Oriental",
   "occupation": "-",
   "where": "Cordon, Montevideo",
-  "source": "Nuestra Senora del Carmen La Mayor, Cordon - Religious Burial Records June 1885 - August 1892, the entry of 2 August 1890; image ark 3:1:3Q9M-C9BW-4SWL-D - *** IMAGE READ *** 17 October 2026",
+  "source": "Nuestra Senora del Carmen La Mayor, Cordon - Religious Burial Records June 1885 - August 1892, the entry of 2 August 1890; image ark 3:1:3Q9M-C9BW-4SWL-D - *** IMAGE READ *** 17 October 2026; and Montevideo civil death registration no. 121 of 2 August 1890; image ark 3:1:3Q9M-CS2C-K3NM-S; index ark 1:1:XMZZ-6HQW - *** IMAGE READ *** 17 October 2026",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "*** A LERENA'S SON UNDER HIS FATHER'S NAME, 17 October 2026. *** The plate reads: 'En dos de Agosto del ano mil ochocientos noventa se mando dar sepultura eclesiastica al cadaver de Jose Maria Larranaga [the margin: 'Larranaga'], oriental, soltero, de veintidos anos de edad, hijo legitimo de Benito Larranaga y de Martina Lerena. Fallecio ayer. De que certifica.' Born about 1868. *** THE LERENA IS ON HIS MOTHER'S SIDE *** - a compound-surname search on LERENA would never reach him, because he is a LARRANAGA. Nothing places his mother in a Lerena family here.",
+  "note": "*** A LERENA'S SON UNDER HIS FATHER'S NAME, 17 October 2026. *** The plate reads: 'En dos de Agosto del ano mil ochocientos noventa se mando dar sepultura eclesiastica al cadaver de Jose Maria Larranaga [the margin: 'Larranaga'], oriental, soltero, de veintidos anos de edad, hijo legitimo de Benito Larranaga y de Martina Lerena. Fallecio ayer. De que certifica.' Born about 1868. *** THE LERENA IS ON HIS MOTHER'S SIDE *** - a compound-surname search on LERENA would never reach him, because he is a LARRANAGA. Nothing places his mother in a Lerena family here. *** HIS CIVIL DEATH ACT IS READ, 17 October 2026: *** act 121 of 2 August 1890, Seccion 18a: 'a las diez y media de la manana del dia de ayer [1 August], en la calle 18 de Julio N.o 847 (bajos), ha fallecido Jose Maria Larranaga, de nacionalidad Oriental, de veintidos anos de edad, de estado soltero y de profesion COCHERO, a consecuencia de TISIS PULMONAR, segun consta del certificado del Dr. Lisazo'; 'hijo legitimo de Benito Larranaga y de Martina Lerena'. Declared by Don L. Barbagelata, twenty-five, and Don Fernando Herrera, twenty-one, of calle Paysandu 85. *** So he died on 1 August 1890, was a coachman, and died of consumption. *** FamilySearch's index gives the same date. He was one of seven children named on his father's death act of 1885.",
   "place": "Cordon, Montevideo",
   "placeSlug": "cordon-montevideo",
   "surname": "LARRANAGA",
   "ark": "",
   "sourceUrl": "",
-  "noLink": "no public link",
+  "noLink": "FamilySearch index — ark not recorded for this entry",
   "living": false,
   "gen": null,
   "father": {
@@ -36415,7 +36415,44 @@
   },
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Antonia LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "antonia-larranaga-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Benito LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "benito-larranaga-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Carmen LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "carmen-larranaga-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Donato LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "donato-larranaga-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Doroteo LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "doroteo-larranaga-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Ignacio LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "ignacio-larranaga-lerena",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
@@ -36429,22 +36466,22 @@
  {
   "slug": "martina-lerena",
   "name": "Martina LERENA (m. Benito LARRANAGA)",
-  "born": "-",
+  "born": "1846c",
   "died": "",
   "birthplace": "Uruguay",
   "nationality": "Oriental",
   "occupation": "-",
   "where": "Cordon, Montevideo",
-  "source": "Nuestra Senora del Carmen La Mayor, Cordon - Religious Burial Records June 1885 - August 1892, the entry of 2 August 1890; image ark 3:1:3Q9M-C9BW-4SWL-D - *** IMAGE READ *** 17 October 2026",
+  "source": "Nuestra Senora del Carmen La Mayor, Cordon - Religious Burial Records June 1885 - August 1892, the entry of 2 August 1890; image ark 3:1:3Q9M-C9BW-4SWL-D - *** IMAGE READ *** 17 October 2026; and Montevideo, Death Records 1884-1886, the civil act of 29 March 1885 (Seccion Tres Cruces y Pocitos); image ark 3:1:3Q9M-CS2W-Z9LY-F - *** IMAGE READ *** 17 October 2026",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "*** NAMED ONLY, as the mother of Jose Maria Larranaga on his burial act of 2 August 1890: *** 'hijo legitimo de Benito Larranaga y de Martina Lerena'. Not called dead. Her birth family is not known and she is not merged with any Martina or Lerena woman in this register.",
+  "note": "*** SHE WAS A LERENA BY BIRTH, ORIENTAL, AND THIRTY-NINE IN MARCH 1885 - so born about 1846. *** Named as the wife on her husband's civil death act (see his row) and as the mother on her son's two acts of August 1890. Seven children are named. *** HER OWN PARENTS ARE STILL NOT FOUND: *** the record index holds no baptism of a Martina Lerena for 1840-1852 in Uruguay (searched 17 October 2026 with the forename exact; three results, one of them this family's own civil index entry), and nothing in either act gives a parent or a place of birth. She is not merged with any Lerena woman in this register.",
   "place": "Cordon, Montevideo",
   "placeSlug": "cordon-montevideo",
   "surname": "LERENA",
   "ark": "",
   "sourceUrl": "",
-  "noLink": "no public link",
+  "noLink": "FamilySearch index — ark not recorded for this entry",
   "living": false,
   "gen": null,
   "father": null,
@@ -36460,6 +36497,48 @@
   ],
   "children": [
    {
+    "name": "Antonia LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "antonia-larranaga-lerena",
+    "via": "register",
+    "note": "Montevideo civil death act of 29 March 1885, plate read 17 Oct 2026: children listed under Benito Larranaga and Martina Lerena."
+   },
+   {
+    "name": "Benito LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "benito-larranaga-lerena",
+    "via": "register",
+    "note": "Montevideo civil death act of 29 March 1885, plate read 17 Oct 2026: children listed under Benito Larranaga and Martina Lerena."
+   },
+   {
+    "name": "Carmen LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "carmen-larranaga-lerena",
+    "via": "register",
+    "note": "Montevideo civil death act of 29 March 1885, plate read 17 Oct 2026: children listed under Benito Larranaga and Martina Lerena."
+   },
+   {
+    "name": "Donato LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "donato-larranaga-lerena",
+    "via": "register",
+    "note": "Montevideo civil death act of 29 March 1885, plate read 17 Oct 2026: children listed under Benito Larranaga and Martina Lerena."
+   },
+   {
+    "name": "Doroteo LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "doroteo-larranaga-lerena",
+    "via": "register",
+    "note": "Montevideo civil death act of 29 March 1885, plate read 17 Oct 2026: children listed under Benito Larranaga and Martina Lerena."
+   },
+   {
+    "name": "Ignacio LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "ignacio-larranaga-lerena",
+    "via": "register",
+    "note": "Montevideo civil death act of 29 March 1885, plate read 17 Oct 2026: children listed under Benito Larranaga and Martina Lerena."
+   },
+   {
     "name": "Jose Maria LARRANAGA (buried 2 August 1890, aged 22)",
     "dates": "",
     "slug": "jose-maria-larranaga",
@@ -36472,8 +36551,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 2,
-  "relRegister": 2,
+  "relTotal": 8,
+  "relRegister": 8,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -36481,22 +36560,22 @@
  {
   "slug": "benito-larranaga",
   "name": "Benito LARRANAGA (m. Martina Lerena)",
-  "born": "-",
+  "born": "1815c",
   "died": "",
-  "birthplace": "Uruguay",
-  "nationality": "Oriental",
+  "birthplace": "Spain",
+  "nationality": "Spanish",
   "occupation": "-",
   "where": "Cordon, Montevideo",
-  "source": "Nuestra Senora del Carmen La Mayor, Cordon - Religious Burial Records June 1885 - August 1892, the entry of 2 August 1890; image ark 3:1:3Q9M-C9BW-4SWL-D - *** IMAGE READ *** 17 October 2026",
+  "source": "Nuestra Senora del Carmen La Mayor, Cordon - Religious Burial Records June 1885 - August 1892, the entry of 2 August 1890; image ark 3:1:3Q9M-C9BW-4SWL-D - *** IMAGE READ *** 17 October 2026; and Montevideo, Death Records 1884-1886, the civil act of 29 March 1885 (Seccion Tres Cruces y Pocitos); image ark 3:1:3Q9M-CS2W-Z9LY-F - *** IMAGE READ *** 17 October 2026",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "*** NAMED ONLY, as the father of Jose Maria Larranaga on his burial act of 2 August 1890. *** Nothing else is known of him. He shares a forename with the Benito Lerena of Artigas and is not otherwise connected to him.",
+  "note": "*** HE IS A SPANIARD, AND HE DIED ON 28 MARCH 1885. *** The civil act, read at the plate, has two witnesses declare that 'en el dia de ayer en la Calle Defensa N.o 22, siendo como las tres a.m., ha fallecido Don Benito Larranaga, Espanol, de setenta anos de edad, casado con Dona Martina Lerena, Oriental, de treinta y nueve anos, de cuyo matrimonio resulto la sucesion siguiente: Benito, Carmen, Jose Maria, Ygnacio, Donato, Doroteo y Antonia', and that they know no other particulars. So he was born in Spain about 1815, nearly thirty years older than his wife, and he was dead five years before his son's burial at the Cordon, which names him without 'finado'. *** The first child's name reads Benito at the plate; the machine transcript has Benita. *** His own origin in Spain is not stated beyond the nationality, and he is not tied to the Benito Lerena of Artigas.",
   "place": "Cordon, Montevideo",
   "placeSlug": "cordon-montevideo",
   "surname": "LARRANAGA",
   "ark": "",
   "sourceUrl": "",
-  "noLink": "no public link",
+  "noLink": "FamilySearch index — ark not recorded for this entry",
   "living": false,
   "gen": null,
   "father": null,
@@ -36512,6 +36591,48 @@
   ],
   "children": [
    {
+    "name": "Antonia LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "antonia-larranaga-lerena",
+    "via": "register",
+    "note": "Montevideo civil death act of 29 March 1885, plate read 17 Oct 2026: children listed under Benito Larranaga and Martina Lerena."
+   },
+   {
+    "name": "Benito LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "benito-larranaga-lerena",
+    "via": "register",
+    "note": "Montevideo civil death act of 29 March 1885, plate read 17 Oct 2026: children listed under Benito Larranaga and Martina Lerena."
+   },
+   {
+    "name": "Carmen LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "carmen-larranaga-lerena",
+    "via": "register",
+    "note": "Montevideo civil death act of 29 March 1885, plate read 17 Oct 2026: children listed under Benito Larranaga and Martina Lerena."
+   },
+   {
+    "name": "Donato LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "donato-larranaga-lerena",
+    "via": "register",
+    "note": "Montevideo civil death act of 29 March 1885, plate read 17 Oct 2026: children listed under Benito Larranaga and Martina Lerena."
+   },
+   {
+    "name": "Doroteo LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "doroteo-larranaga-lerena",
+    "via": "register",
+    "note": "Montevideo civil death act of 29 March 1885, plate read 17 Oct 2026: children listed under Benito Larranaga and Martina Lerena."
+   },
+   {
+    "name": "Ignacio LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "ignacio-larranaga-lerena",
+    "via": "register",
+    "note": "Montevideo civil death act of 29 March 1885, plate read 17 Oct 2026: children listed under Benito Larranaga and Martina Lerena."
+   },
+   {
     "name": "Jose Maria LARRANAGA (buried 2 August 1890, aged 22)",
     "dates": "",
     "slug": "jose-maria-larranaga",
@@ -36524,8 +36645,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 2,
-  "relRegister": 2,
+  "relTotal": 8,
+  "relRegister": 8,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -36614,6 +36735,516 @@
   "godchildren": [],
   "relTotal": 1,
   "relRegister": 1,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "benito-larranaga-lerena",
+  "name": "Benito LARRANAGA Lerena (child, named 1885)",
+  "born": "-",
+  "died": "",
+  "birthplace": "Montevideo",
+  "nationality": "Oriental",
+  "occupation": "-",
+  "where": "Montevideo",
+  "source": "Montevideo, Death Records 1884-1886, the civil act of 29 March 1885 (Seccion Tres Cruces y Pocitos); image ark 3:1:3Q9M-CS2W-Z9LY-F - *** IMAGE READ *** 17 October 2026",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** NAMED ONLY, in the list of children on the civil death act of their father Benito Larranaga, 29 March 1885: 'Benito'. *** No date, no place, no act of their own, and the order of the list is not a proven order of birth. A child of Benito Larranaga and Martina Lerena and so a LERENA on the mother's side; nothing else is claimed.",
+  "place": "Montevideo",
+  "placeSlug": "montevideo",
+  "surname": "LARRANAGA",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "living": false,
+  "gen": null,
+  "father": {
+   "name": "Benito LARRANAGA (m. Martina Lerena)",
+   "dates": "",
+   "slug": "benito-larranaga",
+   "via": "register",
+   "note": "Montevideo civil death act of 29 March 1885, plate read 17 Oct 2026: children listed under Benito Larranaga and Martina Lerena."
+  },
+  "mother": {
+   "name": "Martina LERENA (m. Benito LARRANAGA)",
+   "dates": "",
+   "slug": "martina-lerena",
+   "via": "register",
+   "note": "Montevideo civil death act of 29 March 1885, plate read 17 Oct 2026: children listed under Benito Larranaga and Martina Lerena."
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Antonia LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "antonia-larranaga-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Carmen LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "carmen-larranaga-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Donato LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "donato-larranaga-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Doroteo LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "doroteo-larranaga-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Ignacio LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "ignacio-larranaga-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Jose Maria LARRANAGA (buried 2 August 1890, aged 22)",
+    "dates": "",
+    "slug": "jose-maria-larranaga",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "carmen-larranaga-lerena",
+  "name": "Carmen LARRANAGA Lerena (child, named 1885)",
+  "born": "-",
+  "died": "",
+  "birthplace": "Montevideo",
+  "nationality": "Oriental",
+  "occupation": "-",
+  "where": "Montevideo",
+  "source": "Montevideo, Death Records 1884-1886, the civil act of 29 March 1885 (Seccion Tres Cruces y Pocitos); image ark 3:1:3Q9M-CS2W-Z9LY-F - *** IMAGE READ *** 17 October 2026",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** NAMED ONLY, in the list of children on the civil death act of their father Benito Larranaga, 29 March 1885: 'Carmen'. *** No date, no place, no act of their own, and the order of the list is not a proven order of birth. A child of Benito Larranaga and Martina Lerena and so a LERENA on the mother's side; nothing else is claimed.",
+  "place": "Montevideo",
+  "placeSlug": "montevideo",
+  "surname": "LARRANAGA",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "living": false,
+  "gen": null,
+  "father": {
+   "name": "Benito LARRANAGA (m. Martina Lerena)",
+   "dates": "",
+   "slug": "benito-larranaga",
+   "via": "register",
+   "note": "Montevideo civil death act of 29 March 1885, plate read 17 Oct 2026: children listed under Benito Larranaga and Martina Lerena."
+  },
+  "mother": {
+   "name": "Martina LERENA (m. Benito LARRANAGA)",
+   "dates": "",
+   "slug": "martina-lerena",
+   "via": "register",
+   "note": "Montevideo civil death act of 29 March 1885, plate read 17 Oct 2026: children listed under Benito Larranaga and Martina Lerena."
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Antonia LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "antonia-larranaga-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Benito LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "benito-larranaga-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Donato LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "donato-larranaga-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Doroteo LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "doroteo-larranaga-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Ignacio LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "ignacio-larranaga-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Jose Maria LARRANAGA (buried 2 August 1890, aged 22)",
+    "dates": "",
+    "slug": "jose-maria-larranaga",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "ignacio-larranaga-lerena",
+  "name": "Ignacio LARRANAGA Lerena (child, named 1885)",
+  "born": "-",
+  "died": "",
+  "birthplace": "Montevideo",
+  "nationality": "Oriental",
+  "occupation": "-",
+  "where": "Montevideo",
+  "source": "Montevideo, Death Records 1884-1886, the civil act of 29 March 1885 (Seccion Tres Cruces y Pocitos); image ark 3:1:3Q9M-CS2W-Z9LY-F - *** IMAGE READ *** 17 October 2026",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** NAMED ONLY, in the list of children on the civil death act of their father Benito Larranaga, 29 March 1885: 'Ygnacio'. *** No date, no place, no act of their own, and the order of the list is not a proven order of birth. A child of Benito Larranaga and Martina Lerena and so a LERENA on the mother's side; nothing else is claimed.",
+  "place": "Montevideo",
+  "placeSlug": "montevideo",
+  "surname": "LARRANAGA",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "living": false,
+  "gen": null,
+  "father": {
+   "name": "Benito LARRANAGA (m. Martina Lerena)",
+   "dates": "",
+   "slug": "benito-larranaga",
+   "via": "register",
+   "note": "Montevideo civil death act of 29 March 1885, plate read 17 Oct 2026: children listed under Benito Larranaga and Martina Lerena."
+  },
+  "mother": {
+   "name": "Martina LERENA (m. Benito LARRANAGA)",
+   "dates": "",
+   "slug": "martina-lerena",
+   "via": "register",
+   "note": "Montevideo civil death act of 29 March 1885, plate read 17 Oct 2026: children listed under Benito Larranaga and Martina Lerena."
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Antonia LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "antonia-larranaga-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Benito LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "benito-larranaga-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Carmen LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "carmen-larranaga-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Donato LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "donato-larranaga-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Doroteo LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "doroteo-larranaga-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Jose Maria LARRANAGA (buried 2 August 1890, aged 22)",
+    "dates": "",
+    "slug": "jose-maria-larranaga",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "donato-larranaga-lerena",
+  "name": "Donato LARRANAGA Lerena (child, named 1885)",
+  "born": "-",
+  "died": "",
+  "birthplace": "Montevideo",
+  "nationality": "Oriental",
+  "occupation": "-",
+  "where": "Montevideo",
+  "source": "Montevideo, Death Records 1884-1886, the civil act of 29 March 1885 (Seccion Tres Cruces y Pocitos); image ark 3:1:3Q9M-CS2W-Z9LY-F - *** IMAGE READ *** 17 October 2026",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** NAMED ONLY, in the list of children on the civil death act of their father Benito Larranaga, 29 March 1885: 'Donato'. *** No date, no place, no act of their own, and the order of the list is not a proven order of birth. A child of Benito Larranaga and Martina Lerena and so a LERENA on the mother's side; nothing else is claimed.",
+  "place": "Montevideo",
+  "placeSlug": "montevideo",
+  "surname": "LARRANAGA",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "living": false,
+  "gen": null,
+  "father": {
+   "name": "Benito LARRANAGA (m. Martina Lerena)",
+   "dates": "",
+   "slug": "benito-larranaga",
+   "via": "register",
+   "note": "Montevideo civil death act of 29 March 1885, plate read 17 Oct 2026: children listed under Benito Larranaga and Martina Lerena."
+  },
+  "mother": {
+   "name": "Martina LERENA (m. Benito LARRANAGA)",
+   "dates": "",
+   "slug": "martina-lerena",
+   "via": "register",
+   "note": "Montevideo civil death act of 29 March 1885, plate read 17 Oct 2026: children listed under Benito Larranaga and Martina Lerena."
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Antonia LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "antonia-larranaga-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Benito LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "benito-larranaga-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Carmen LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "carmen-larranaga-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Doroteo LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "doroteo-larranaga-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Ignacio LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "ignacio-larranaga-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Jose Maria LARRANAGA (buried 2 August 1890, aged 22)",
+    "dates": "",
+    "slug": "jose-maria-larranaga",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "doroteo-larranaga-lerena",
+  "name": "Doroteo LARRANAGA Lerena (child, named 1885)",
+  "born": "-",
+  "died": "",
+  "birthplace": "Montevideo",
+  "nationality": "Oriental",
+  "occupation": "-",
+  "where": "Montevideo",
+  "source": "Montevideo, Death Records 1884-1886, the civil act of 29 March 1885 (Seccion Tres Cruces y Pocitos); image ark 3:1:3Q9M-CS2W-Z9LY-F - *** IMAGE READ *** 17 October 2026",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** NAMED ONLY, in the list of children on the civil death act of their father Benito Larranaga, 29 March 1885: 'Doroteo'. *** No date, no place, no act of their own, and the order of the list is not a proven order of birth. A child of Benito Larranaga and Martina Lerena and so a LERENA on the mother's side; nothing else is claimed.",
+  "place": "Montevideo",
+  "placeSlug": "montevideo",
+  "surname": "LARRANAGA",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "living": false,
+  "gen": null,
+  "father": {
+   "name": "Benito LARRANAGA (m. Martina Lerena)",
+   "dates": "",
+   "slug": "benito-larranaga",
+   "via": "register",
+   "note": "Montevideo civil death act of 29 March 1885, plate read 17 Oct 2026: children listed under Benito Larranaga and Martina Lerena."
+  },
+  "mother": {
+   "name": "Martina LERENA (m. Benito LARRANAGA)",
+   "dates": "",
+   "slug": "martina-lerena",
+   "via": "register",
+   "note": "Montevideo civil death act of 29 March 1885, plate read 17 Oct 2026: children listed under Benito Larranaga and Martina Lerena."
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Antonia LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "antonia-larranaga-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Benito LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "benito-larranaga-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Carmen LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "carmen-larranaga-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Donato LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "donato-larranaga-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Ignacio LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "ignacio-larranaga-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Jose Maria LARRANAGA (buried 2 August 1890, aged 22)",
+    "dates": "",
+    "slug": "jose-maria-larranaga",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "antonia-larranaga-lerena",
+  "name": "Antonia LARRANAGA Lerena (child, named 1885)",
+  "born": "-",
+  "died": "",
+  "birthplace": "Montevideo",
+  "nationality": "Oriental",
+  "occupation": "-",
+  "where": "Montevideo",
+  "source": "Montevideo, Death Records 1884-1886, the civil act of 29 March 1885 (Seccion Tres Cruces y Pocitos); image ark 3:1:3Q9M-CS2W-Z9LY-F - *** IMAGE READ *** 17 October 2026",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** NAMED ONLY, in the list of children on the civil death act of their father Benito Larranaga, 29 March 1885: 'Antonia'. *** No date, no place, no act of their own, and the order of the list is not a proven order of birth. A child of Benito Larranaga and Martina Lerena and so a LERENA on the mother's side; nothing else is claimed.",
+  "place": "Montevideo",
+  "placeSlug": "montevideo",
+  "surname": "LARRANAGA",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "living": false,
+  "gen": null,
+  "father": {
+   "name": "Benito LARRANAGA (m. Martina Lerena)",
+   "dates": "",
+   "slug": "benito-larranaga",
+   "via": "register",
+   "note": "Montevideo civil death act of 29 March 1885, plate read 17 Oct 2026: children listed under Benito Larranaga and Martina Lerena."
+  },
+  "mother": {
+   "name": "Martina LERENA (m. Benito LARRANAGA)",
+   "dates": "",
+   "slug": "martina-lerena",
+   "via": "register",
+   "note": "Montevideo civil death act of 29 March 1885, plate read 17 Oct 2026: children listed under Benito Larranaga and Martina Lerena."
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Benito LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "benito-larranaga-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Carmen LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "carmen-larranaga-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Donato LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "donato-larranaga-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Doroteo LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "doroteo-larranaga-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Ignacio LARRANAGA Lerena (child, named 1885)",
+    "dates": "",
+    "slug": "ignacio-larranaga-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Jose Maria LARRANAGA (buried 2 August 1890, aged 22)",
+    "dates": "",
+    "slug": "jose-maria-larranaga",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": [],
   "noindex": false

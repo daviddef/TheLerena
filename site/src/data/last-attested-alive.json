@@ -4866,15 +4866,15 @@
  },
  {
   "name": "Martina LERENA (m. Benito LARRANAGA)",
-  "born_est": "-",
-  "last_attested_alive": "-",
+  "born_est": "1846c",
+  "last_attested_alive": "1846c",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
  {
   "name": "Benito LARRANAGA (m. Martina Lerena)",
-  "born_est": "-",
-  "last_attested_alive": "-",
+  "born_est": "1815c",
+  "last_attested_alive": "1815c",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -4887,6 +4887,48 @@
  },
  {
   "name": "Maria LERENA (m. Jose Maria REYES, Cordon 1920)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Benito LARRANAGA Lerena (child, named 1885)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Carmen LARRANAGA Lerena (child, named 1885)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Ignacio LARRANAGA Lerena (child, named 1885)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Donato LARRANAGA Lerena (child, named 1885)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Doroteo LARRANAGA Lerena (child, named 1885)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Antonia LARRANAGA Lerena (child, named 1885)",
   "born_est": "-",
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
