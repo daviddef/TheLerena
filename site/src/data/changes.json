@@ -5,6 +5,11 @@
    "date": "2026-10-17",
    "commits": [
     {
+     "sha": "ab1d5f2",
+     "subject": "Homonym warning on Teresa Leonard: a second Teresa Leonar (wife of Tomas Balinas, mother Manuela Ortin) at Montevideo 1871-74",
+     "body": "Found while searching for Teresa's own baptism (no baptism or sibling indexed: index null, not an exclusion). The La Union christening of Fermin\nRodolfo Balinas, read at the plate, gives a Teresa Leonar with father Antonio and mother Manuela Ortin, where the Lerena household's Teresa has\nmother Manuela Iturriaga. Probably two women, not settled; the register row says do not merge and notes a tree profile already attached to the\n1874 record. No full dates added to the row so its death tier is unchanged."
+    },
+    {
      "sha": "968f9d6",
      "subject": "Eusebio Congenio Lerena, born 14 August 1816 at the Cordon: a new son of Ramon Lerena and Maria Josefa Gonzalez, read at the plate",
      "body": "The same parents-plus-birth-window query one generation up returned Alejandro's marriage (held), Manuel Lorenzo (1812, already read by this archive)\nand Eusebio Congenio, new: 'hijo legitimo de [Ramon] Lerena, natural de Madrid, y de Maria de Leon Gonzalez', grandparents Salvador Lerena and Ana\nde Cubas / Marcial de Leon Gonzalez, agreeing with the 1812 act's Valdemoro and Lanzarote. Rows for Eusebio, Salvador and Ana added with\nparent links; Salvador and Ana carry no dates so the date tool does not mark them alive in 1816, and Maria Josefa's 1825 alive tier is\npreserved. Log notes that the Manuel Lorenzo plate was re-read without checking data/ first."
