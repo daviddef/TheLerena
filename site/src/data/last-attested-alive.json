@@ -4968,5 +4968,12 @@
   "last_attested_alive": "1884-Feb-20",
   "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
   "tier": "ALIVE AT"
+ },
+ {
+  "name": "Corina Francisca GONZALEZ Lerena (b. 24 July 1858)",
+  "born_est": "1858-07-24",
+  "last_attested_alive": "1858-Aug-31",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
  }
 ]

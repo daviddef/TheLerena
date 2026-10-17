@@ -5,6 +5,11 @@
    "date": "2026-10-17",
    "commits": [
     {
+     "sha": "f1935b3",
+     "subject": "Estefania Lerena's daughter married at Trinidad in 1884: the Gonzalez family was there from 1858",
+     "body": "Index-level. Esperanza Gonzalez (26) and Damaso Negrotto added; the parents are entered as\nServando Santa Marina Gonzalez and Estefania Lerena. Estefania's own baptism is not in the index.\nA family-tree user's 'Lerena Fernandez b. 1832' attachment is recorded as unsourced and not used."
+    },
+    {
      "sha": "71be3ef",
      "subject": "Regenerate the public search index after the Gonzalez rows",
      "body": ""
