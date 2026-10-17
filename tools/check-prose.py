@@ -155,7 +155,9 @@ def main():
             t = (root / f).read_text(encoding="utf-8", errors="ignore")
             if any(r.search(t) for r in phrases):
                 includes.append(f)
-    for extra in ("requests/*.md", "site/src/components/*.astro", "site/src/layouts/*.astro"):
+    # book.json (17 October 2026) is hand-edited: every chapter title, blurb and part paragraph is typed. It is a tracked
+    # data file the kit's default file set does not reach, so it is named here, like the components and layouts.
+    for extra in ("requests/*.md", "site/src/components/*.astro", "site/src/layouts/*.astro", "site/src/data/book.json"):
         includes.append(extra)
 
     cmd = [sys.executable, str(kit), "--root", str(root), "--feed", str(fp)]

@@ -78,6 +78,10 @@ else
 fi
 rm -f "$BUILDLOG"
 python3 tools/check-links.py
+# THE BOOK (17 October 2026): every built page is a chapter of site/src/data/book.json, or inherits one, or is outside on purpose;
+# every running head and every Previous/Next matches the book's order. The build runs this too (npm run check:book); run again here
+# so the gate names it. Exit 2 (not run) stops this script like any failure.
+python3 tools/check-book.py
 python3 tools/check-errands.py
 python3 tools/check-evidence.py
 python3 tools/check-corrections.py

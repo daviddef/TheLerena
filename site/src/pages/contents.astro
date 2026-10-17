@@ -1,0 +1,14 @@
+---
+/* THE BOOK'S TABLE OF CONTENTS, 17 October 2026. Every page of the site is one chapter of one book, in the order set
+   out in src/data/book.json (the schema is in the kit's docs/book.md). Nothing is typed here: the list, the parts and
+   each chapter's one line all come from that file. */
+import Base from "../layouts/Base.astro";
+import BookContents from "@daviddef/archive-kit/components/BookContents.astro";
+import { u } from "../lib/url.js";
+import book from "../data/book.json";
+---
+<Base title="Contents"
+      eyebrow="The whole archive, in the order of the story"
+      dek="Every page of this archive is a chapter of one book: where the family came from, the line, the families, the Cape and the Rand, where the lines meet, everyone, and how we know. The menus above stay as shortcuts.">
+  <BookContents book={book} u={u} />
+</Base>

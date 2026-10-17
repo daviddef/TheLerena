@@ -899,3 +899,7 @@ body .leaflet-container .leaflet-control-attribution{background:rgba(255,255,255
 body .leaflet-container .leaflet-control-attribution a{color:#00587A}
 body .dsc-kc, body .dsc-sidelab{font-size:11px}
 body .tl-ours.tl-ours.tl-ours{font-size:11px}
+
+/* THE BOOK (17 October 2026). The kit's running head, foot, Contents and part openers read these tokens; they all exist above.
+   The only thing to set is the width, so the book's head and foot sit in the same column as the page. */
+:root{--bk-width:var(--maxw)}

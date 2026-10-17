@@ -7,6 +7,9 @@ import SkipLink from "@daviddef/archive-kit/components/SkipLink.astro";
 import SocialHead from "@daviddef/archive-kit/components/SocialHead.astro";
 import JsonLd from "@daviddef/archive-kit/components/JsonLd.astro";
 import VisitCount from "@daviddef/archive-kit/components/VisitCount.astro";
+import BookHead from "@daviddef/archive-kit/components/BookHead.astro";
+import BookFoot from "@daviddef/archive-kit/components/BookFoot.astro";
+import book from "../data/book.json";
 import ring from "@daviddef/archive-kit/data/archives.json";
 /* every public asset gets a fingerprint, so a fix is never served stale */
 /* THIS CONST MUST STAY BELOW EVERY IMPORT. A statement that reads import.meta.url, placed above a
@@ -103,6 +106,9 @@ const thisArchive =
   </div>
 </header>
 
+{/* THE BOOK (17 October 2026): every page says where it sits in the order of src/data/book.json */}
+<BookHead book={book} u={u} />
+
 <main id="main" tabindex="-1">
   <div class="wrap">
     {!bare && (
@@ -115,6 +121,8 @@ const thisArchive =
     <slot />
   </div>
 </main>
+
+<BookFoot book={book} u={u} />
 
 <footer class="site">
   <div class="wrap">

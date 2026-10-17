@@ -1,0 +1,329 @@
+{
+ "title": "The Lerena Archive",
+ "front": {
+  "label": "Front matter",
+  "intro": "",
+  "chapters": [
+   {
+    "path": "/",
+    "title": "The cover",
+    "blurb": "A horse-dealer out of Argentina, a stable under Table Mountain, and four family traditions tested against the record."
+   },
+   {
+    "path": "/about/",
+    "title": "About",
+    "blurb": "Every claim carries one of five words, every correction is published, and a living person is named with relationships and place, and nothing more."
+   },
+   {
+    "path": "/method/",
+    "title": "Method",
+    "blurb": "Every claim is tiered, and the tier is shown."
+   }
+  ]
+ },
+ "parts": [
+  {
+   "id": "where-from",
+   "numeral": "I",
+   "title": "Rosario and the River Plate",
+   "flags": "🇦🇷 🇺🇾 🇪🇸",
+   "intro": "Rosario is the place the family names, and its records survive and are reachable. The surname entered the Banda Oriental twice, from opposite ends of Spain, and it is rare enough that it may be two separate names sharing one spelling. The Atlas puts a person in each place the archive can.",
+   "chapters": [
+    {
+     "path": "/atlas/",
+     "title": "The Atlas",
+     "blurb": "Every place this archive can put a person in: the River Plate at one end, the English west country at the other, South Africa where the two met."
+    },
+    {
+     "path": "/argentina/",
+     "title": "Argentina",
+     "blurb": "Rosario is the place the family names, and its records survive and are reachable."
+    },
+    {
+     "path": "/uruguay/",
+     "title": "Uruguay",
+     "blurb": "Two documented Lerena families in nineteenth-century Uruguay, from opposite ends of Spain, and what they are to each other."
+    },
+    {
+     "path": "/name/",
+     "title": "The Name",
+     "blurb": "Lerena is a rare surname, and may be two separate names sharing one spelling."
+    }
+   ]
+  },
+  {
+   "id": "the-line",
+   "numeral": "II",
+   "title": "The line, closed and documented",
+   "intro": "The descent from Pablo Armando is closed and documented, with no inferred link left in it. An Argentine army card names his father and mother, and the line drawn is nine people, and then the doors close.",
+   "chapters": [
+    {
+     "path": "/direct-line/",
+     "title": "The Spine",
+     "blurb": "The descent from Pablo Armando, closed and documented, and the generation above him from an Argentine army card."
+    },
+    {
+     "path": "/tree/",
+     "title": "Our line, drawn",
+     "blurb": "The smallest chart in the estate: nine people, and then the doors close."
+    },
+    {
+     "path": "/trees/",
+     "title": "The trees",
+     "blurb": "The Lerena line and the families it married, each drawn in the form its own evidence supports."
+    },
+    {
+     "path": "/enrolment-card/",
+     "title": "The enrolment card",
+     "blurb": "An Argentine army card: the class of 1882, a birth at Rosario de Santa Fe, an enrolling office at Cape Town, and his father and mother."
+    }
+   ]
+  },
+  {
+   "id": "the-families",
+   "numeral": "III",
+   "title": "The families",
+   "intro": "A name is not a family. These are the names the register holds in numbers, with the people under each, the years and places they are found in, and how well the archive knows them: the Taylors, and eleven names, some connected to the line and some gathered by the name alone.",
+   "chapters": [
+    {
+     "path": "/families/",
+     "title": "The Families",
+     "blurb": "The names the register holds in numbers, with the people under each, the years and places, and how well the archive knows them."
+    },
+    {
+     "path": "/taylor/",
+     "title": "Mary Septima Taylor",
+     "blurb": "Buried in the Roman Catholic ground at Maitland under a Spanish surname she took at about twenty."
+    },
+    {
+     "path": "/families/alvarez/",
+     "title": "The Alvarez family",
+     "blurb": "Eleven people, in records from 1899 to 1901. Three are connected to the line.",
+     "group": "Connected to the line"
+    },
+    {
+     "path": "/families/brayley/",
+     "title": "The Brayley family",
+     "blurb": "Five people, written Brailey and Brayley, in records from 1814 to 1900. All are connected to the line.",
+     "group": "Connected to the line"
+    },
+    {
+     "path": "/families/fernandez/",
+     "title": "The Fernandez family",
+     "blurb": "23 people, in records from 1749 to 1903. Nine are connected to the line.",
+     "group": "Connected to the line"
+    },
+    {
+     "path": "/families/gonzalez/",
+     "title": "The Gonzalez family",
+     "blurb": "25 people, in records from 1816 to 1867. One is connected to the line.",
+     "group": "Connected to the line"
+    },
+    {
+     "path": "/families/pelaez/",
+     "title": "The Pelaez family",
+     "blurb": "22 people, in records from 1841 to 1922. Two are connected to the line.",
+     "group": "Connected to the line"
+    },
+    {
+     "path": "/families/temple/",
+     "title": "The Temple family",
+     "blurb": "One person, in a record of 1814, connected to the line.",
+     "group": "Connected to the line"
+    },
+    {
+     "path": "/families/cardozo/",
+     "title": "The Cardozo family",
+     "blurb": "13 people, in records from 1868 to 1934. None is yet connected to the line.",
+     "group": "Gathered by the name alone"
+    },
+    {
+     "path": "/families/juanico/",
+     "title": "The Juanico family",
+     "blurb": "13 people, in records from 1812 to 1940. None is yet connected to the line.",
+     "group": "Gathered by the name alone"
+    },
+    {
+     "path": "/families/larriera/",
+     "title": "The Larriera family",
+     "blurb": "Eleven people, in records from 1879 to 1984. None is yet connected to the line.",
+     "group": "Gathered by the name alone"
+    },
+    {
+     "path": "/families/lenguas/",
+     "title": "The Lenguas family",
+     "blurb": "14 people, in records from 1807 to 1940. None is yet connected to the line.",
+     "group": "Gathered by the name alone"
+    },
+    {
+     "path": "/families/traibel/",
+     "title": "The Traibel family",
+     "blurb": "13 people, in records from 1843 to 1947. None is yet connected to the line.",
+     "group": "Gathered by the name alone"
+    }
+   ]
+  },
+  {
+   "id": "the-cape",
+   "numeral": "IV",
+   "title": "The Cape and the Rand",
+   "flags": "🇿🇦 🇦🇷",
+   "intro": "A cavalryman in Argentina, a trainer and racehorse owner at the Cape, and four further generations of jockeys and trainers. The passport, the South African archives, the estate and the papers in the house are the documents this part rests on.",
+   "chapters": [
+    {
+     "path": "/horses/",
+     "title": "The horses",
+     "blurb": "A cavalryman in Argentina, a trainer and racehorse owner at the Cape, and four further generations of jockeys and trainers."
+    },
+    {
+     "path": "/passport/",
+     "title": "The passport",
+     "blurb": "An Argentine passport issued at Cape Town: his birthplace, his birth date, and his profession in one word."
+    },
+    {
+     "path": "/south-africa/",
+     "title": "South Africa",
+     "blurb": "Sixty-one Lerenas in a country far from Iberia and the Americas. That is not scatter. That is a family."
+    },
+    {
+     "path": "/naairs/",
+     "title": "The archives answer",
+     "blurb": "The South African National Archives index searched for the surname: thirteen documents, and the first real names."
+    },
+    {
+     "path": "/estate/",
+     "title": "The estate of Pablo Armando Lerena",
+     "blurb": "A death certificate, a will, a liquidation account and a son's death notice, naming the family's head, his wife and his three sons."
+    },
+    {
+     "path": "/family-papers/",
+     "title": "The papers in the house",
+     "blurb": "Death notices, a marriage register, two baptisms and an English cousin's family history, none of it opened until now."
+    }
+   ]
+  },
+  {
+   "id": "where-lines-meet",
+   "numeral": "V",
+   "title": "Where the lines meet",
+   "flags": "🇬🇧",
+   "intro": "A shared surname is not a relationship, and the Marriages page is the record of which ones are. Blood relatives are drawn from any chosen person, the DNA page reads two results against the record, and the British archives answer for the wife's line.",
+   "chapters": [
+    {
+     "path": "/marriages/",
+     "title": "The Marriages",
+     "blurb": "Who married whom, and what this archive has decided about everybody else who carries the name."
+    },
+    {
+     "path": "/bloodline/",
+     "title": "Blood relatives",
+     "blurb": "Choose a person and they go to the middle of the chart: parents above, brothers and sisters beside, children below."
+    },
+    {
+     "path": "/dna/",
+     "title": "The DNA",
+     "blurb": "One result confirms outright what rested on a single passport. The other unsettles an assumption."
+    },
+    {
+     "path": "/national-archives/",
+     "title": "The British archives answer",
+     "blurb": "The surname is absent from Britain; the wife's line is not: the Brayleys fill 639 records."
+    }
+   ]
+  },
+  {
+   "id": "everyone",
+   "numeral": "VI",
+   "title": "Everyone, and everything in order",
+   "intro": "Every Lerena this archive has met, with the record that produced them; every name, and how many different people bore it; the register as the raw catch; the same register arranged by place; and every dated thing, in order. Each person page belongs to the index it comes from and links back to it.",
+   "chapters": [
+    {
+     "path": "/people/",
+     "title": "The People",
+     "blurb": "Every Lerena this archive has met, anywhere, with the record that produced them."
+    },
+    {
+     "path": "/who/",
+     "title": "Every Name",
+     "blurb": "A name is not a person. Every name in the archive, and how many different people bore it."
+    },
+    {
+     "path": "/register/",
+     "title": "The Register",
+     "blurb": "Every person of this surname, and every spouse and parent of one, with the source that names each. The raw catch, not a family tree."
+    },
+    {
+     "path": "/places/",
+     "title": "Places",
+     "blurb": "The same register, arranged by geography rather than by name."
+    },
+    {
+     "path": "/timeline/",
+     "title": "The Timeline",
+     "blurb": "Every dated thing this archive can stand behind, in order, with the record it rests on."
+    }
+   ]
+  },
+  {
+   "id": "how-we-know",
+   "numeral": "VII",
+   "title": "How we know, and what is missing",
+   "intro": "Everything consulted and everything still to consult, every search made and what it cost, the questions not yet answered, what the archive has had to take back, and the work in hand.",
+   "chapters": [
+    {
+     "path": "/sources/",
+     "title": "Sources",
+     "blurb": "Everything consulted so far, and everything identified as needing to be consulted."
+    },
+    {
+     "path": "/searched/",
+     "title": "What Has Been Read",
+     "blurb": "Every search made, what it returned, and what it cost, so a null result can be read as evidence rather than silence."
+    },
+    {
+     "path": "/open-questions/",
+     "title": "Open Questions",
+     "blurb": "Published deliberately: an archive that lists its questions can be helped by strangers."
+    },
+    {
+     "path": "/hypotheses/",
+     "title": "Hypotheses",
+     "blurb": "Every proposition the archive is entertaining but has not proved, with what would settle it."
+    },
+    {
+     "path": "/roadmap/",
+     "title": "Roadmap",
+     "blurb": "What replaced the question this archive was built to answer, and which routes are finished, live, or need a person."
+    },
+    {
+     "path": "/errands/",
+     "title": "Errands",
+     "blurb": "What this archive has asked of other archives, and the jobs that need a person in a particular building."
+    },
+    {
+     "path": "/worklist/",
+     "title": "The work list",
+     "blurb": "What is being done here, as opposed to what is known."
+    },
+    {
+     "path": "/corrections/",
+     "title": "Corrections",
+     "blurb": "Every claim this archive published, or was about to publish, and then had to take back."
+    },
+    {
+     "path": "/changes/",
+     "title": "What changed",
+     "blurb": "The whole history of this archive, newest first, in the words used at the time."
+    }
+   ]
+  }
+ ],
+ "inherit": {
+  "/people/": "/people/",
+  "/who/": "/who/",
+  "/places/": "/places/"
+ },
+ "outside": [
+  "/search/"
+ ]
+}

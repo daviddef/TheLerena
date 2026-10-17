@@ -6,10 +6,11 @@
   "scripts": {
     "dev": "astro dev --port 4323",
     "atlas": "python3 ../tools/atlas.py",
-    "build": "npm run check:pin && npm run atlas && npm run publish:index && astro build && npm run sitemap && npm run check:living && npm run check:kin && npm run check:templates && npm run check:kit && npm run check:worklist && npm run check:covers && npm run check:evidence && npm run check:corrections && npm run check:tree && npm run check:spines && npm run check:sources && npm run check:named && npm run check:superseded && npm run check:onsite && npm run check:duplicates && npm run check:places && npm run check:living-standard && npm run check:pages && npm run check:inline && npm run check:rows && npm run check:arity && npm run check:nav && npm run check:families",
+    "build": "npm run check:pin && npm run atlas && npm run publish:index && astro build && npm run sitemap && npm run check:book && npm run check:living && npm run check:kin && npm run check:templates && npm run check:kit && npm run check:worklist && npm run check:covers && npm run check:evidence && npm run check:corrections && npm run check:tree && npm run check:spines && npm run check:sources && npm run check:named && npm run check:superseded && npm run check:onsite && npm run check:duplicates && npm run check:places && npm run check:living-standard && npm run check:pages && npm run check:inline && npm run check:rows && npm run check:arity && npm run check:nav && npm run check:families",
     "preview": "astro preview --port 4323",
     "sitemap": "python3 node_modules/@daviddef/archive-kit/kit/tools/sitemap.py",
     "publish:index": "node -e \"require('fs').copyFileSync('src/data/searchindex.json','public/searchindex.json')\"",
+    "check:book": "python3 ../tools/check-book.py",
     "check:kit": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkarchive.py --dist dist",
     "check:living": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkliving.py --dist dist --data src/data --policy named-bare",
     "check:worklist": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkworklist.py --root .",

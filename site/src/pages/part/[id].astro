@@ -1,0 +1,16 @@
+---
+/* A PART OPENER, 17 October 2026: one page for each part of the book in src/data/book.json (the kit's docs/book.md).
+   The title, the paragraph and the chapter list all come from that file; nothing is typed here. */
+import Base from "../../layouts/Base.astro";
+import BookPart from "@daviddef/archive-kit/components/BookPart.astro";
+import { u } from "../../lib/url.js";
+import book from "../../data/book.json";
+
+export function getStaticPaths() {
+  return book.parts.map((p) => ({ params: { id: p.id }, props: { id: p.id, title: p.title } }));
+}
+const { id, title } = Astro.props;
+---
+<Base title={title} eyebrow="The Lerena Archive, as a book">
+  <BookPart book={book} id={id} u={u} />
+</Base>
