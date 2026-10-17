@@ -5,6 +5,11 @@
    "date": "2026-10-17",
    "commits": [
     {
+     "sha": "b4ab47a",
+     "subject": "Regenerate the search index and changes log after the Larranaga rows",
+     "body": ""
+    },
+    {
      "sha": "efde2a1",
      "subject": "Martina Lerena's husband was a Spaniard who died in 1885, and her son was a coachman: two civil acts read at the plate",
      "body": "An exact-phrase full-text search on Martina Lerena found the Montevideo civil death act of 29 March 1885:\nBenito Larranaga, Spanish, seventy, married to Martina Lerena, Oriental, thirty-nine (so born about 1846),\nwith seven children named. Her son Jose Maria's own civil act (no. 121, 1 August 1890) gives his trade,\ncochero, and a death of consumption. Six siblings are added as named-only rows. Martina's baptism is not in\nthe index for 1840-1852 and her parents are still unfound; the Sinforiano forename search is recorded as\ntoo wide to be a handle."
