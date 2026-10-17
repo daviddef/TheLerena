@@ -5,6 +5,21 @@
    "date": "2026-10-17",
    "commits": [
     {
+     "sha": "de1c6d5",
+     "subject": "Estefania Lerena's parents named: Alejandro and Margarita Fernandez, at the plate of her daughter Cesarea's San Jose christening",
+     "body": "Folio 198, 30 April 1872: 'hija legitima de Don Servando Gonzalez y Dona Estefania Lerena, natural de esta Villa. Ab. pt. D. Juan y\nDa. Manuela Muniz: mat. Dn. Alejandro y Da. Margarita Fernandez'. The paternal pair matches the 1892 act. Identified with Alejandro\nLerena the elder and Margarita Fernandez Alvarez of Trinidad on surname, forenames, Fernandez and San Jose; no act names Estefania beside\nSocorro, Alejandro the younger and Bernabe, so the tier is probable, not proved. Socorro is the same age (about 1832); twins, a stated age\nout, or a younger sister are all left open. Edges, kindred row, Uruguay-page row and research log added."
+    },
+    {
+     "sha": "324db17",
+     "subject": "Layout: table cells stop breaking mid-word; row headers and dates wrap and hold sensibly",
+     "body": "Cells carried overflow-wrap:anywhere, which lets a table column shrink to one character, so prose columns beside inline rem widths came out 62px wide and 1,000px tall and a long row header (nowrap) made a table 2,833px wide. Cells now use break-word, row headers in tbody may wrap, dates and short codes (td.mono, the When cell) stay on one line, external links and code in a cell can still break, and on a phone column labels wrap. CSS only."
+    },
+    {
+     "sha": "a9a5c5d",
+     "subject": "Re-pin the kit to dabcb63: the DNA-result flag in the prose gate, refuse-on-nothing gates, the optional youngest_child_year/said_living inputs, AlsoIn and the person-page components",
+     "body": ""
+    },
+    {
      "sha": "fb8873a",
      "subject": "Teresa Leonar's husband is not Pedro Lerena Vega: the 1864 christening of their daughter names his parents as Pedro and Maria Pereyra",
      "body": "Catedral, 30 April 1864, read at the plate: Manuela, born 9 April, 'hija legitima de Pedro Lerena y de Teresa Leonar.\nAbuelos Paternos Pedro y Maria Pereyra. Maternos Antonio y Manuela Barriaga'. Pedro Lerena Vega's mother was Vicenta\nVega, so the two Pedros (and the two wives, Manuela Lemos and Teresa Leonar) are two men, which closes the question\nwritten earlier today; every 'open' statement is rewritten and the two older log rows marked superseded. Teresa had\na daughter as well as a son. Three rows added; the index's La Union is the Catedral's volume. The marriage and the\nfather 'Pedro' are still not found."
