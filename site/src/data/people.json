@@ -25688,10 +25688,10 @@
   "nationality": "Uruguayan",
   "occupation": "-",
   "where": "Montevideo",
-  "source": "FamilySearch, Uruguay Catholic Church Records 1726-2000 and Civil Registration 1879-2020 - the MANUEL LERENA sweep, read 11 October 2026 - *** INDEX ONLY, no image opened ***",
+  "source": "FamilySearch, Uruguay Catholic Church Records 1726-2000 and Civil Registration 1879-2020 - the MANUEL LERENA sweep, read 11 October 2026 - *** INDEX ONLY, no image opened ***; and the civil death act of his mother, no. 252 of 27 August 1901, image ark 3:1:3Q9M-CS2W-K9Q8-D - *** IMAGE READ *** 17 October 2026",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "*** HE ANSWERS HALF OF WORK-LIST ROW 187, found 11 October 2026. *** Born about *** 1866 ***, son of *** PEDRO ANTONIO LERENA *** and *** TERESA LEONARD ***, he married *** JUANA GALARZA *** on *** 19 FEBRUARY 1890 *** at *** Nuestra Senora del Carmen La Mayor, CORDON, Montevideo ***, and died at Montevideo on *** 1 APRIL 1926 ***, registered the next day. *** WHY THIS MATTERS TO ROW 187: *** that row holds a findmypast household of *** 'MANUEL x JUANA FERREIROZ', Montevideo 1891 *** - a child baptised the year after this wedding, to a Manuel and a Juana, in the same city. *** THE TWO ARE PROBABLY ONE COUPLE AND 'FERREIROZ' IS PROBABLY A MISREADING OF GALARZA ***, which is the kind of error this archive has catalogued many times. *** NOT MERGED: *** the surnames are not close enough to assert it, the findmypast transcript has not been re-read, and neither act has been opened. *** THE TEST IS CHEAP: open the 1891 baptism and read the mother's surname. *** *** THAT HYPOTHESIS WAS WEAKENED WITHIN THE HOUR AND IS WITHDRAWN AS STATED. *** A search on the forename FELICIA turned up the 1891 child herself - *** FELICIA LERENA, born 6 May 1891 and christened 16 May 1891 at Montevideo *** - in *** TWO SEPARATE COLLECTIONS ***, the civil register and the parish baptisms, and *** BOTH NAME THE MOTHER 'JUANA FERREIROZ' ***. One index mangling a surname is ordinary; two independent records agreeing on it is evidence that the surname IS Ferreiroz. *** SO MANUEL x JUANA FERREIROZ IS PROBABLY A DIFFERENT COUPLE FROM MANUEL LERENA LEONARD x JUANA GALARZA ***, and the resemblance was only the forename Juana and the city. *** THE TEST IS UNCHANGED AND NOW MATTERS MORE: open the 1891 baptism. ***",
+  "note": "*** HE ANSWERS HALF OF WORK-LIST ROW 187, found 11 October 2026. *** Born about *** 1866 ***, son of *** PEDRO ANTONIO LERENA *** and *** TERESA LEONARD ***, he married *** JUANA GALARZA *** on *** 19 FEBRUARY 1890 *** at *** Nuestra Senora del Carmen La Mayor, CORDON, Montevideo ***, and died at Montevideo on *** 1 APRIL 1926 ***, registered the next day. *** WHY THIS MATTERS TO ROW 187: *** that row holds a findmypast household of *** 'MANUEL x JUANA FERREIROZ', Montevideo 1891 *** - a child baptised the year after this wedding, to a Manuel and a Juana, in the same city. *** THE TWO ARE PROBABLY ONE COUPLE AND 'FERREIROZ' IS PROBABLY A MISREADING OF GALARZA ***, which is the kind of error this archive has catalogued many times. *** NOT MERGED: *** the surnames are not close enough to assert it, the findmypast transcript has not been re-read, and neither act has been opened. *** THE TEST IS CHEAP: open the 1891 baptism and read the mother's surname. *** *** THAT HYPOTHESIS WAS WEAKENED WITHIN THE HOUR AND IS WITHDRAWN AS STATED. *** A search on the forename FELICIA turned up the 1891 child herself - *** FELICIA LERENA, born 6 May 1891 and christened 16 May 1891 at Montevideo *** - in *** TWO SEPARATE COLLECTIONS ***, the civil register and the parish baptisms, and *** BOTH NAME THE MOTHER 'JUANA FERREIROZ' ***. One index mangling a surname is ordinary; two independent records agreeing on it is evidence that the surname IS Ferreiroz. *** SO MANUEL x JUANA FERREIROZ IS PROBABLY A DIFFERENT COUPLE FROM MANUEL LERENA LEONARD x JUANA GALARZA ***, and the resemblance was only the forename Juana and the city. *** THE TEST IS UNCHANGED AND NOW MATTERS MORE: open the 1891 baptism. *** *** HE DECLARED HIS MOTHER'S DEATH, 17 October 2026: *** her civil act no. 252 of 27 August 1901 has 'Manuel Lerena, casado, de nacionalidad oriental, militar, vecino de la 8a Seccion', about thirty-eight, as the first declarant, and says she left 'un hijo llamado Manuel'. THAT IS A SOLDIER OF ABOUT 38 IN 1901, so born about 1863, where this row has 1866 - the row's year is unchecked and the act is the nearer source.",
   "place": "Montevideo",
   "placeSlug": "montevideo",
   "surname": "LERENA",
@@ -25700,8 +25700,20 @@
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "living": false,
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Pedro Antonio LERENA (husband of Teresa Leonar, dead by 1901)",
+   "dates": "",
+   "slug": "pedro-antonio-lerena-2",
+   "via": "register",
+   "note": "Civil death act no. 252 of 27 Aug 1901, plate read 17 Oct 2026."
+  },
+  "mother": {
+   "name": "Teresa LEONARD (m. Pedro Antonio LERENA)",
+   "dates": "",
+   "slug": "teresa-leonard",
+   "via": "register",
+   "note": "Civil death act no. 252 of 27 Aug 1901, plate read 17 Oct 2026. 'quedando del matrimonio un hijo llamado: Manuel'."
+  },
   "spouses": [],
   "children": [],
   "siblings": [],
@@ -25709,8 +25721,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -25718,16 +25730,16 @@
  {
   "slug": "teresa-leonard",
   "name": "Teresa LEONARD (m. Pedro Antonio LERENA)",
-  "born": "-",
+  "born": "1841c",
   "died": "",
-  "birthplace": "Uruguay",
+  "birthplace": "Montevideo",
   "nationality": "Uruguayan",
   "occupation": "-",
   "where": "Montevideo",
-  "source": "FamilySearch, Uruguay Catholic Church Records 1726-2000 and Civil Registration 1879-2020 - the MANUEL LERENA sweep, read 11 October 2026 - *** INDEX ONLY, no image opened ***; and the Cordon burial entry of 27 August 1901, Religious Burial Records 1897-1901, image ark 3:1:3Q9M-C9BW-49TQ-6 - *** IMAGE READ *** 17 October 2026",
+  "source": "FamilySearch, Uruguay Catholic Church Records 1726-2000 and Civil Registration 1879-2020 - the MANUEL LERENA sweep, read 11 October 2026 - *** INDEX ONLY, no image opened ***; and the Cordon burial entry of 27 August 1901, Religious Burial Records 1897-1901, image ark 3:1:3Q9M-C9BW-49TQ-6 - *** IMAGE READ *** 17 October 2026; and Montevideo, Death Records 1901, the civil death registration no. 252 of 27 August 1901 (Seccion 7a); image ark 3:1:3Q9M-CS2W-K9Q8-D, index ark 1:1:6KRY-C5KY - *** IMAGE READ *** 17 October 2026",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "*** Mother of MANUEL LERENA LEONARD ***, named with her husband *** PEDRO ANTONIO LERENA *** on their son's 1890 marriage and his 1926 death registration. *** HER SURNAME IS THE SOURCE OF HIS COMPOUND *** and it is not a Spanish or Italian name - LEONARD is English, Irish or French, which would make her the first such woman this register has met in the Uruguayan line. *** THAT IS AN OBSERVATION ABOUT A SURNAME AND NOT A CLAIM ABOUT HER ***; no record of her own has been found. *** INDEX ONLY. *** *** A CANDIDATE FOR HER BURIAL, 17 October 2026, AND NOT A MERGE: *** the Cordon's burial book enters, on 27 August 1901, 'Teresa Leonor de Lerena, oriental, de sesenta [y ...] anos, viuda de [forename left blank] Lerena. Fallecio hoy.' - a Lerena widow of about sixty at the parish of the Cordon, which fits the mother of a son who married in 1890. *** BUT THE PLATE SAYS LEONOR, A GIVEN NAME, NOT LEONARD, A SURNAME, *** and the clerk left the husband's forename blank, so Pedro Antonio is not named. It fits and does not prove.",
+  "note": "*** Mother of MANUEL LERENA LEONARD ***, named with her husband *** PEDRO ANTONIO LERENA *** on their son's 1890 marriage and his 1926 death registration. *** HER SURNAME IS THE SOURCE OF HIS COMPOUND, AND HER OWN CIVIL ACT SPELLS IT LEONAR, 17 October 2026. *** The remark this row made on 11 October - that LEONARD is an English, Irish or French name and she the first such woman in the Uruguayan line - IS WITHDRAWN: it was a guess about a surname read off a son's index, and her own act gives no origin for it. Her father is written Antonio Leonar and she was born in Montevideo. *** CONFIRMED, 17 OCTOBER 2026: SHE IS THE WIDOW BURIED AT THE CORDON ON 27 AUGUST 1901. *** Her CIVIL death registration, no. 252 of the same day, read at the plate: margin 'Teresa Leonar de Lerena'; she died 'a las dos de la manana del dia de hoy' in the house calle Particular 6 (altos), 'de nacionalidad oriental, nacida en esta Ciudad, de sesenta anos de edad, de estado VIUDA', of endocarditis by the certificate of a Dr V. Tagle; 'hija legitima de Antonio Leonar [a word follows that may be 'catalan'], fallecido, y de MANUELA ITURRIAGA, de 82 anos, viuda, oriental, con domicilio en la misma casa del suceso; y que era viuda de Pedro Antonio Lerena, oriental, quedando del matrimonio un hijo llamado: Manuel.' *** SO SHE WAS BORN ABOUT 1841, HER MOTHER WAS STILL ALIVE AT EIGHTY-TWO, HER HUSBAND WAS DEAD BY AUGUST 1901, AND THE CORDON CLERK WROTE HER SURNAME 'LEONOR' - the plate of the burial reads Leonor, which this row had taken for a given name. *** Declared by 'Manuel Lerena', married, oriental, a soldier (militar), of the 8th section, about thirty-eight - her son - and by Eduardo Epifanio Alvarez, single, an employee. *** WHICH PEDRO ANTONIO LERENA IS STILL NOT SETTLED: *** a Pedro A. Lerena died on 6 November 1896 with a wife Manuela Lemos, and this register cannot yet say whether he and Teresa's husband are one man with two households or two men.",
   "place": "Montevideo",
   "placeSlug": "montevideo",
   "surname": "LEONARD",
@@ -25736,17 +25748,45 @@
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "living": false,
   "gen": null,
-  "father": null,
-  "mother": null,
-  "spouses": [],
-  "children": [],
+  "father": {
+   "name": "Antonio LEONAR (father of Teresa)",
+   "dates": "",
+   "slug": "antonio-leonar",
+   "via": "register",
+   "note": "Civil death act no. 252 of 27 Aug 1901, plate read 17 Oct 2026. 'hija legitima de Antonio Leonar ..., fallecido, y de Manuela Iturriaga'."
+  },
+  "mother": {
+   "name": "Manuela ITURRIAGA (m. Antonio Leonar)",
+   "dates": "",
+   "slug": "manuela-iturriaga",
+   "via": "register",
+   "note": "Civil death act no. 252 of 27 Aug 1901, plate read 17 Oct 2026."
+  },
+  "spouses": [
+   {
+    "name": "Pedro Antonio LERENA (husband of Teresa Leonar, dead by 1901)",
+    "dates": "",
+    "slug": "pedro-antonio-lerena-2",
+    "via": "register",
+    "note": "Civil death act no. 252 of 27 Aug 1901, plate read 17 Oct 2026. 'viuda de Pedro Antonio Lerena, oriental'."
+   }
+  ],
+  "children": [
+   {
+    "name": "Manuel LERENA Leonard (m. Juana Galarza 1890)",
+    "dates": "",
+    "slug": "manuel-lerena-leonard",
+    "via": "register",
+    "note": "Civil death act no. 252 of 27 Aug 1901, plate read 17 Oct 2026."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 4,
+  "relRegister": 4,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -38504,6 +38544,162 @@
     "via": "register"
    }
   ],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "antonio-leonar",
+  "name": "Antonio LEONAR (father of Teresa)",
+  "born": "-",
+  "died": "",
+  "birthplace": "-",
+  "nationality": "-",
+  "occupation": "-",
+  "where": "Montevideo",
+  "source": "Montevideo, Death Records 1901, the civil death registration no. 252 of 27 August 1901 (Seccion 7a); image ark 3:1:3Q9M-CS2W-K9Q8-D, index ark 1:1:6KRY-C5KY - *** IMAGE READ *** 17 October 2026",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** NAMED ONLY, as the father of Teresa Leonar de Lerena on her civil death act of 27 August 1901: 'Antonio Leonar [a word follows, perhaps 'catalan'], fallecido'. *** The index reads the surname Leonar; the burial of 1901 and her son's records say Leonor and Leonard. Dead by 1901 and nothing else is known of him.",
+  "place": "Montevideo",
+  "placeSlug": "montevideo",
+  "surname": "LEONAR",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "living": false,
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [
+   {
+    "name": "Manuela ITURRIAGA (m. Antonio Leonar)",
+    "dates": "",
+    "slug": "manuela-iturriaga",
+    "via": "register",
+    "note": "Civil death act no. 252 of 27 Aug 1901, plate read 17 Oct 2026."
+   }
+  ],
+  "children": [
+   {
+    "name": "Teresa LEONARD (m. Pedro Antonio LERENA)",
+    "dates": "",
+    "slug": "teresa-leonard",
+    "via": "register",
+    "note": "Civil death act no. 252 of 27 Aug 1901, plate read 17 Oct 2026."
+   }
+  ],
+  "siblings": [],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "manuela-iturriaga",
+  "name": "Manuela ITURRIAGA (m. Antonio Leonar)",
+  "born": "1819c",
+  "died": "",
+  "birthplace": "Uruguay",
+  "nationality": "Oriental",
+  "occupation": "-",
+  "where": "Montevideo",
+  "source": "Montevideo, Death Records 1901, the civil death registration no. 252 of 27 August 1901 (Seccion 7a); image ark 3:1:3Q9M-CS2W-K9Q8-D, index ark 1:1:6KRY-C5KY - *** IMAGE READ *** 17 October 2026",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** ALIVE ON 27 AUGUST 1901, AGED EIGHTY-TWO, AND LIVING IN THE HOUSE WHERE HER DAUGHTER TERESA'S ACT WAS TAKEN. *** The act names her as 'Manuela Iturriaga, de 82 anos, viuda, oriental, con domicilio en la misma casa del suceso'. A widow, born about 1819. Nothing else is known of her.",
+  "place": "Montevideo",
+  "placeSlug": "montevideo",
+  "surname": "ITURRIAGA",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "living": false,
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [
+   {
+    "name": "Antonio LEONAR (father of Teresa)",
+    "dates": "",
+    "slug": "antonio-leonar",
+    "via": "register",
+    "note": "Civil death act no. 252 of 27 Aug 1901, plate read 17 Oct 2026."
+   }
+  ],
+  "children": [
+   {
+    "name": "Teresa LEONARD (m. Pedro Antonio LERENA)",
+    "dates": "",
+    "slug": "teresa-leonard",
+    "via": "register",
+    "note": "Civil death act no. 252 of 27 Aug 1901, plate read 17 Oct 2026."
+   }
+  ],
+  "siblings": [],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "pedro-antonio-lerena-2",
+  "name": "Pedro Antonio LERENA (husband of Teresa Leonar, dead by 1901)",
+  "born": "-",
+  "died": "",
+  "birthplace": "Uruguay",
+  "nationality": "Oriental",
+  "occupation": "-",
+  "where": "Montevideo",
+  "source": "Montevideo, Death Records 1901, the civil death registration no. 252 of 27 August 1901 (Seccion 7a); image ark 3:1:3Q9M-CS2W-K9Q8-D, index ark 1:1:6KRY-C5KY - *** IMAGE READ *** 17 October 2026",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** NAMED ONLY, as the husband of Teresa Leonar and father of Manuel on her civil death act of 27 August 1901: 'viuda de Pedro Antonio Lerena, oriental, quedando del matrimonio un hijo llamado: Manuel'. *** *** DEAD BY THAT DAY. *** It is not settled whether he is the Pedro A. Lerena who died on 6 November 1896 with a wife Manuela Lemos, or another man of the same name; the two are NOT merged.",
+  "place": "Montevideo",
+  "placeSlug": "montevideo",
+  "surname": "LERENA",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "living": false,
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [
+   {
+    "name": "Teresa LEONARD (m. Pedro Antonio LERENA)",
+    "dates": "",
+    "slug": "teresa-leonard",
+    "via": "register",
+    "note": "Civil death act no. 252 of 27 Aug 1901, plate read 17 Oct 2026."
+   }
+  ],
+  "children": [
+   {
+    "name": "Manuel LERENA Leonard (m. Juana Galarza 1890)",
+    "dates": "",
+    "slug": "manuel-lerena-leonard",
+    "via": "register",
+    "note": "Civil death act no. 252 of 27 Aug 1901, plate read 17 Oct 2026."
+   }
+  ],
+  "siblings": [],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],

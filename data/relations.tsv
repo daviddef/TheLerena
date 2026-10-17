@@ -752,3 +752,15 @@ Maria GONZALEZ Lerena (named 1892)	father	Servando GONZALEZ (m. Estefania Lerena
 Servando GONZALEZ (m. Estefania Lerena)	child	Maria GONZALEZ Lerena (named 1892)	-	register	Civil death act no. 194 of 25 May 1892, plate read 17 Oct 2026. The children are named in the act's list: Servando, Esperanza, Corina, Francisco, Carmen, Leopoldo, Leonidas, Estefania y Maria.
 Maria GONZALEZ Lerena (named 1892)	mother	Estefania LERENA (m. Servando GONZALEZ)	-	register	Civil death act no. 194 of 25 May 1892, plate read 17 Oct 2026. The children are named in the act's list: Servando, Esperanza, Corina, Francisco, Carmen, Leopoldo, Leonidas, Estefania y Maria.
 Estefania LERENA (m. Servando GONZALEZ)	child	Maria GONZALEZ Lerena (named 1892)	-	register	Civil death act no. 194 of 25 May 1892, plate read 17 Oct 2026. The children are named in the act's list: Servando, Esperanza, Corina, Francisco, Carmen, Leopoldo, Leonidas, Estefania y Maria.
+Teresa LEONARD (m. Pedro Antonio LERENA)	father	Antonio LEONAR (father of Teresa)	-	register	Civil death act no. 252 of 27 Aug 1901, plate read 17 Oct 2026. 'hija legitima de Antonio Leonar ..., fallecido, y de Manuela Iturriaga'.
+Antonio LEONAR (father of Teresa)	child	Teresa LEONARD (m. Pedro Antonio LERENA)	-	register	Civil death act no. 252 of 27 Aug 1901, plate read 17 Oct 2026.
+Teresa LEONARD (m. Pedro Antonio LERENA)	mother	Manuela ITURRIAGA (m. Antonio Leonar)	-	register	Civil death act no. 252 of 27 Aug 1901, plate read 17 Oct 2026.
+Manuela ITURRIAGA (m. Antonio Leonar)	child	Teresa LEONARD (m. Pedro Antonio LERENA)	-	register	Civil death act no. 252 of 27 Aug 1901, plate read 17 Oct 2026.
+Antonio LEONAR (father of Teresa)	spouse	Manuela ITURRIAGA (m. Antonio Leonar)	-	register	Civil death act no. 252 of 27 Aug 1901, plate read 17 Oct 2026.
+Manuela ITURRIAGA (m. Antonio Leonar)	spouse	Antonio LEONAR (father of Teresa)	-	register	Civil death act no. 252 of 27 Aug 1901, plate read 17 Oct 2026.
+Teresa LEONARD (m. Pedro Antonio LERENA)	spouse	Pedro Antonio LERENA (husband of Teresa Leonar, dead by 1901)	-	register	Civil death act no. 252 of 27 Aug 1901, plate read 17 Oct 2026. 'viuda de Pedro Antonio Lerena, oriental'.
+Pedro Antonio LERENA (husband of Teresa Leonar, dead by 1901)	spouse	Teresa LEONARD (m. Pedro Antonio LERENA)	-	register	Civil death act no. 252 of 27 Aug 1901, plate read 17 Oct 2026.
+Manuel LERENA Leonard (m. Juana Galarza 1890)	mother	Teresa LEONARD (m. Pedro Antonio LERENA)	-	register	Civil death act no. 252 of 27 Aug 1901, plate read 17 Oct 2026. 'quedando del matrimonio un hijo llamado: Manuel'.
+Teresa LEONARD (m. Pedro Antonio LERENA)	child	Manuel LERENA Leonard (m. Juana Galarza 1890)	-	register	Civil death act no. 252 of 27 Aug 1901, plate read 17 Oct 2026.
+Manuel LERENA Leonard (m. Juana Galarza 1890)	father	Pedro Antonio LERENA (husband of Teresa Leonar, dead by 1901)	-	register	Civil death act no. 252 of 27 Aug 1901, plate read 17 Oct 2026.
+Pedro Antonio LERENA (husband of Teresa Leonar, dead by 1901)	child	Manuel LERENA Leonard (m. Juana Galarza 1890)	-	register	Civil death act no. 252 of 27 Aug 1901, plate read 17 Oct 2026.

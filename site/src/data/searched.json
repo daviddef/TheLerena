@@ -2245,7 +2245,7 @@
    "full-text",
    "parish-registers"
   ],
-  "note": "THE FOUR ARE NOT IN THEM, AND THAT IS A LIMIT ON THE INSTRUMENT. Each of the thirteen death and burial documents is the single page where full text saw the surname, not the volume around it, so a name written without LERENA is not on the list. No waypoint established - image arks only. WHAT THE PAGES GAVE: Jose Maria LARRANAGA, 22, buried 2 Aug 1890, son of Benito Larranaga and Martina LERENA (plate); Sara LERENA, 18, 'hija natural de Teresa Lerena', buried 18 Aug 1892 (plate); Servando Tomas GONZALEZ 'casado con Estefana Lerena', 25 May 1892 (plate) - a CANDIDATE for the San Jose couple, not a merge; 'Teresa Leonor de Lerena', widow, 27 Aug 1901 (plate) - a candidate for Teresa Leonard, but the plate says LEONOR, a given name; Julia Juanico's burial of 12 Jul 1910 (plate) gives her age as 62 where her baptism makes her 67; and from the machine transcript only, Manuela Lemos 24 Jul 1918 as 'viuda de CARLOS Lerena' (her husband died as Pedro in 1896), Carlos Alberto Fein buried 18 May 1919 - dead 27 years before the 1946 registration that named him - and Jose Maria Reyes 'casado con Maria Lerena', 13 Jun 1920. The Amelia Lerena of 11 Nov 1871, previously transcript-only, is now read at the plate: nine, no parents named. Carmen Lerena of 1841 is the same act already read on a second film. [SUPERSEDED 17 October 2026: the civil death act no. 194 of 25 May 1892 confirms this Servando Tomas Gonzalez as the husband of Estefania Lerena; see the later row.]"
+  "note": "THE FOUR ARE NOT IN THEM, AND THAT IS A LIMIT ON THE INSTRUMENT. Each of the thirteen death and burial documents is the single page where full text saw the surname, not the volume around it, so a name written without LERENA is not on the list. No waypoint established - image arks only. WHAT THE PAGES GAVE: Jose Maria LARRANAGA, 22, buried 2 Aug 1890, son of Benito Larranaga and Martina LERENA (plate); Sara LERENA, 18, 'hija natural de Teresa Lerena', buried 18 Aug 1892 (plate); Servando Tomas GONZALEZ 'casado con Estefana Lerena', 25 May 1892 (plate) - a CANDIDATE for the San Jose couple, not a merge; 'Teresa Leonor de Lerena', widow, 27 Aug 1901 (plate) - a candidate for Teresa Leonard, but the plate says LEONOR, a given name; Julia Juanico's burial of 12 Jul 1910 (plate) gives her age as 62 where her baptism makes her 67; and from the machine transcript only, Manuela Lemos 24 Jul 1918 as 'viuda de CARLOS Lerena' (her husband died as Pedro in 1896), Carlos Alberto Fein buried 18 May 1919 - dead 27 years before the 1946 registration that named him - and Jose Maria Reyes 'casado con Maria Lerena', 13 Jun 1920. The Amelia Lerena of 11 Nov 1871, previously transcript-only, is now read at the plate: nine, no parents named. Carmen Lerena of 1841 is the same act already read on a second film. [SUPERSEDED 17 October 2026: the civil death act no. 194 of 25 May 1892 confirms this Servando Tomas Gonzalez as the husband of Estefania Lerena; see the later row.] [SUPERSEDED 17 October 2026: the civil death act no. 252 of 27 August 1901 confirms Teresa Leonor de Lerena as Teresa Leonard, widow of Pedro Antonio Lerena; Leonor is the Cordon clerk's spelling of her surname. See the later row.]"
  },
  {
   "src": "FamilySearch full text - the exact phrase 'Martina Lerena', then the record index for her baptism and the civil acts of the Larranaga family",
@@ -2374,5 +2374,26 @@
    "civil-registration"
   ],
   "note": "CONFIRMED. Searching the index by the COUPLE (Servando Gonzalez + spouse Estefania Lerena) returned a civil death registration the Cordon full-text list could not have: Montevideo Death Records 1892, act 194, which names Estefania Lerena, his parents and nine children, and is signed by his lawyer son Leopoldo Gonzalez Lerena. METHOD NOTE: the index search by spouse found in one query what the surname-only full-text search and a forename route had not. No waypoint established - image ark only. NOT FOUND: Estefania's own parents."
+ },
+ {
+  "src": "FamilySearch record index - Teresa with spouse Pedro Lerena, died 1899-1902, Uruguay; and the civil death act no. 252 of 27 August 1901 it led to",
+  "url": "https://www.familysearch.org/search/collection/1837849",
+  "film": null,
+  "waypoint": null,
+  "what": "Whether the widow 'Teresa Leonor de Lerena' buried at the Cordon on 27 August 1901 was Teresa Leonard, wife of Pedro Antonio Lerena",
+  "when": "2026-10-17",
+  "outcome": "yield",
+  "pages": "one act, read at the plate",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "leonard",
+   "iturriaga",
+   "montevideo",
+   "uruguay",
+   "familysearch",
+   "civil-registration"
+  ],
+  "note": "CONFIRMED, by the same method as the Gonzalez couple earlier the same day: an index search by the spouse pair returned a civil death registration the Cordon list could not give. Act 252 names her parents (Antonio Leonar, dead; Manuela Iturriaga, 82, alive in the same house), her widowhood and her son Manuel. A guess this archive wrote on 11 October - that her surname was English, Irish or French - is withdrawn. NEW QUESTION: her husband was dead by 1901 and a Pedro A. Lerena died in 1896 with another wife, Manuela Lemos. No waypoint established - image ark only."
  }
 ]

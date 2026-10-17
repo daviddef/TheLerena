@@ -3277,8 +3277,8 @@
  },
  {
   "name": "Teresa LEONARD (m. Pedro Antonio LERENA)",
-  "born_est": "-",
-  "last_attested_alive": "-",
+  "born_est": "1841c",
+  "last_attested_alive": "1841c",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -5020,6 +5020,27 @@
  },
  {
   "name": "Maria GONZALEZ Lerena (named 1892)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Antonio LEONAR (father of Teresa)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Manuela ITURRIAGA (m. Antonio Leonar)",
+  "born_est": "1819c",
+  "last_attested_alive": "1819c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Pedro Antonio LERENA (husband of Teresa Leonar, dead by 1901)",
   "born_est": "-",
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
