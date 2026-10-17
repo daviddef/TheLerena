@@ -5045,5 +5045,26 @@
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Manuela LERENA Leonar (b. 9 April 1864)",
+  "born_est": "1864-04-09",
+  "last_attested_alive": "1864-04-09",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maria PEREYRA (m. Pedro, paternal grandmother of Manuela 1864)",
+  "born_est": "-",
+  "last_attested_alive": "1864-Apr-30",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Pedro (father of Pedro Lerena, husband of Teresa Leonar)",
+  "born_est": "-",
+  "last_attested_alive": "1864-Apr-30",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
  }
 ]

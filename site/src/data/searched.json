@@ -2394,7 +2394,7 @@
    "familysearch",
    "civil-registration"
   ],
-  "note": "CONFIRMED, by the same method as the Gonzalez couple earlier the same day: an index search by the spouse pair returned a civil death registration the Cordon list could not give. Act 252 names her parents (Antonio Leonar, dead; Manuela Iturriaga, 82, alive in the same house), her widowhood and her son Manuel. A guess this archive wrote on 11 October - that her surname was English, Irish or French - is withdrawn. NEW QUESTION: her husband was dead by 1901 and a Pedro A. Lerena died in 1896 with another wife, Manuela Lemos. No waypoint established - image ark only."
+  "note": "CONFIRMED, by the same method as the Gonzalez couple earlier the same day: an index search by the spouse pair returned a civil death registration the Cordon list could not give. Act 252 names her parents (Antonio Leonar, dead; Manuela Iturriaga, 82, alive in the same house), her widowhood and her son Manuel. A guess this archive wrote on 11 October - that her surname was English, Irish or French - is withdrawn. NEW QUESTION: her husband was dead by 1901 and a Pedro A. Lerena died in 1896 with another wife, Manuela Lemos. No waypoint established - image ark only. [SUPERSEDED 17 October 2026: the 1864 christening of Manuela (plate read) names Teresa Leonar's husband's parents as Pedro and Maria Pereyra, so he is NOT Pedro Lerena Vega, whose mother was Vicenta Vega. See the later row.]"
  },
  {
   "src": "FamilySearch record index - Pedro Lerena with spouse Teresa, died 1879-1901; and the Cordon baptism of 12 December 1828 it surfaced",
@@ -2416,6 +2416,29 @@
    "baptism",
    "parish-registers"
   ],
-  "note": "NO DEATH ACT FOR TERESA'S HUSBAND IS INDEXED 1879-1901 (the only records naming him are her own death and her son's). WHAT THE SEARCH SURFACED INSTEAD: the Cordon baptism of PEDRO ANTONIO NATALIO, born 1 December 1828, son of Pedro Antonio Llerena (natural de Canelones) and Vicenta Vega - the same man as Pedro LERENA Vega of 1896, whose census age had put him six years late. His full name includes Antonio, so he is a candidate for Teresa's husband, not excluded. No waypoint established - image ark only; the volume is the Cordon Baptism Records November 1828 - December 1836."
+  "note": "NO DEATH ACT FOR TERESA'S HUSBAND IS INDEXED 1879-1901 (the only records naming him are her own death and her son's). WHAT THE SEARCH SURFACED INSTEAD: the Cordon baptism of PEDRO ANTONIO NATALIO, born 1 December 1828, son of Pedro Antonio Llerena (natural de Canelones) and Vicenta Vega - the same man as Pedro LERENA Vega of 1896, whose census age had put him six years late. His full name includes Antonio, so he is a candidate for Teresa's husband, not excluded. No waypoint established - image ark only; the volume is the Cordon Baptism Records November 1828 - December 1836. [SUPERSEDED 17 October 2026: the 1864 christening of Manuela (plate read) names Teresa Leonar's husband's parents as Pedro and Maria Pereyra, so he is NOT Pedro Lerena Vega, whose mother was Vicenta Vega. See the later row.]"
+ },
+ {
+  "src": "FamilySearch record index - Teresa Leonar with spouse Pedro Lerena, marriage 1855-1868; and the Catedral christening of their daughter Manuela, 30 April 1864",
+  "url": "https://www.familysearch.org/search/collection/4134697",
+  "film": null,
+  "waypoint": null,
+  "what": "Who Teresa Leonar's husband Pedro Lerena was, and whether he is the Pedro Lerena Vega of 1896",
+  "when": "2026-10-17",
+  "outcome": "yield",
+  "pages": "one act, read at the plate",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "leonar",
+   "pereyra",
+   "iturriaga",
+   "montevideo",
+   "uruguay",
+   "familysearch",
+   "baptism",
+   "parish-registers"
+  ],
+  "note": "THEY ARE TWO MEN. The marriage-side index search did not return Teresa's marriage, but it returned the christening of her daughter Manuela (born 9 April 1864) at the Catedral - the index places it at La Union, which is its place field, not the volume. The act names the father's parents: Pedro and Maria Pereyra. Teresa's husband is therefore not Pedro Lerena Vega (mother Vicenta Vega), and the open question this archive wrote earlier today is closed in one direction. STILL NOT FOUND: the marriage of Pedro Lerena and Teresa Leonar, and the identity of the father 'Pedro'. No waypoint established - image ark only; the volume is the Catedral Baptism Records Dec 1859 - Dec 1864."
  }
 ]

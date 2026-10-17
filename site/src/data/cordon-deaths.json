@@ -196,7 +196,7 @@
   "the source": "Montevideo, Death Records 1901, act no. 252, Seccion 7a, image ark 3:1:3Q9M-CS2W-K9Q8-D, index ark 1:1:6KRY-C5KY - *** PLATE READ *** - found by the record-index search for the pair Teresa + spouse Pedro Lerena",
   "result": "*** TERESA LEONAR DE LERENA, 60, VIUDA DE PEDRO ANTONIO LERENA, DIED 27 AUGUST 1901 AT CALLE PARTICULAR 6 ***",
   "what was already known": "She was a name on her son's records and nothing else.",
-  "what the act says": "*** 'hija legitima de Antonio Leonar ..., fallecido, y de Manuela Iturriaga, de 82 anos, viuda, oriental, con domicilio en la misma casa del suceso; ... quedando del matrimonio un hijo llamado: Manuel.' *** Of endocarditis. Declared by Manuel Lerena, a soldier of about thirty-eight, and Eduardo Epifanio Alvarez. Three rows are new: her father, her mother and her husband. *** AND A QUESTION OPENS: *** the husband is dead by August 1901 and a Pedro A. Lerena died in November 1896 with a wife Manuela Lemos - one man with two households, or two men, is NOT settled.",
+  "what the act says": "*** 'hija legitima de Antonio Leonar ..., fallecido, y de Manuela Iturriaga, de 82 anos, viuda, oriental, con domicilio en la misma casa del suceso; ... quedando del matrimonio un hijo llamado: Manuel.' *** Of endocarditis. Declared by Manuel Lerena, a soldier of about thirty-eight, and Eduardo Epifanio Alvarez. Three rows are new: her father, her mother and her husband. *** THE HUSBAND IS DEAD BY AUGUST 1901 AND HE IS NOT THE PEDRO OF 1896 - the next row shows it. ***",
   "when": "17 Oct 2026"
  },
  {
@@ -204,7 +204,15 @@
   "the source": "Nuestra Senora del Carmen la Mayor (the Cordon), Baptism Records November 1828 - December 1836, ark 3:1:3Q9M-C9BW-C9YR-D, index ark 1:1:6D3Z-QX4L - *** PLATE READ *** - found as a side result of the index search for Pedro Antonio Lerena with spouse Teresa",
   "result": "*** 'BAUTICE SOLEMNEMENTE A PEDRO ANTONIO NATALIO, QUE NACIO EL DIA PRIMERO DEL CORRIENTE, HIJO LEGITIMO DE DN PEDRO ANTONIO LLERENA, NATURAL DE CANELONES, Y DE DA VICENTA VEGA, NATURAL DE MONTE VIDEO' ***",
   "what was already known": "A son of Pedro Antonio Lerena and Vicenta Vega, entered at sixteen in the 1850 padron, so labelled 'b. c.1834'.",
-  "what the act says": "*** The label is corrected to 1828 (no URL moves). *** The census age was six years late. He carries ANTONIO in his own name, which keeps open whether he, and not only his father, is the 'Pedro Antonio Lerena' of Teresa Leonar's 1901 act. The act also calls his FATHER 'natural de Canelones', where the register has the father born at Montevideo in 1793 - a conflict left standing.",
+  "what the act says": "*** The label is corrected to 1828 (no URL moves). *** The census age was six years late. He carries ANTONIO in his own name, which made him a candidate for Teresa Leonar's husband - and the 1864 christening of her daughter, next row, rules that out. The act also calls his FATHER 'natural de Canelones', where the register has the father born at Montevideo in 1793 - a conflict left standing.",
+  "when": "17 Oct 2026"
+ },
+ {
+  "what": "*** TERESA LEONAR'S DAUGHTER'S BAPTISM SAYS WHO HER HUSBAND'S PARENTS WERE - AND THEY ARE NOT VICENTA VEGA ***",
+  "the source": "Catedral de la Inmaculada Concepcion, Baptism Records Dec 1859 - Dec 1864, the christening of 30 April 1864, ark 3:1:3Q9M-C9B7-Y3CH-R, index ark 1:1:6D7Z-C7WS - *** PLATE READ *** - found from the Teresa + Pedro Lerena marriage-side index search",
+  "result": "*** MANUELA, BORN 9 APRIL 1864, 'HIJA LEGITIMA DE PEDRO LERENA Y DE TERESA LEONAR. ABUELOS PATERNOS PEDRO Y MARIA PEREYRA. MATERNOS ANTONIO Y MANUELA BARRIAGA' ***",
+  "what was already known": "The 1901 civil act gave Teresa one son and a husband Pedro Antonio Lerena; Pedro Lerena Vega, with Manuela Lemos, died in 1896 and carries Antonio in his baptismal name.",
+  "what the act says": "*** THE TWO PEDROS ARE TWO MEN: *** Teresa's husband is the son of Pedro and MARIA PEREYRA, and Pedro Lerena Vega is the son of Pedro Antonio and VICENTA VEGA. *** The index put this christening at La Union; the volume is the Catedral's. *** Teresa had a DAUGHTER, Manuela, named for her own mother, who stood as godmother; the 1901 act does not list her. Three rows are new. Teresa's husband's father 'Pedro' has no surname in the act and is not identified.",
   "when": "17 Oct 2026"
  }
 ]
