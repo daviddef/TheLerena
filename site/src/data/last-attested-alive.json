@@ -3312,15 +3312,15 @@
  },
  {
   "name": "Estefania LERENA (m. Servando GONZALEZ)",
-  "born_est": "-",
-  "last_attested_alive": "-",
+  "born_est": "1832c",
+  "last_attested_alive": "1832c",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
  {
   "name": "Servando GONZALEZ (m. Estefania Lerena)",
-  "born_est": "-",
-  "last_attested_alive": "-",
+  "born_est": "1827c",
+  "last_attested_alive": "1827c",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -4936,8 +4936,8 @@
  },
  {
   "name": "Leopoldo GONZALEZ Lerena (d. 17 June 1922)",
-  "born_est": "1856c",
-  "last_attested_alive": "1856c",
+  "born_est": "1863c",
+  "last_attested_alive": "1863c",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -4965,9 +4965,9 @@
  {
   "name": "Damaso NEGROTTO (m. Esperanza Gonzalez 1884)",
   "born_est": "1855c",
-  "last_attested_alive": "1884-Feb-20",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1855c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Corina Francisca GONZALEZ Lerena (b. 24 July 1858)",
@@ -4975,5 +4975,54 @@
   "last_attested_alive": "1858-Aug-31",
   "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
   "tier": "ALIVE AT"
+ },
+ {
+  "name": "Juan Nepomuceno GONZALEZ (father of Servando)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Manuela MUNIZ (m. Juan Nepomuceno Gonzalez)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Francisco GONZALEZ Lerena (named 1892)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Carmen GONZALEZ Lerena (named 1892)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Leonidas GONZALEZ Lerena (named 1892)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Estefania GONZALEZ Lerena (named 1892)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maria GONZALEZ Lerena (named 1892)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]

@@ -72,12 +72,12 @@
   "when": "17 Oct 2026"
  },
  {
-  "what": "*** A MARRIED COUPLE FROM SAN JOSE MAY HAVE BEEN IN THE CORDON ***",
-  "the source": "Cordon, Religious Burial Records June 1885 - August 1892, ark 3:1:3Q9M-C9BW-4SW7-N - *** PLATE READ ***",
-  "result": "*** SERVANDO TOMAS GONZALEZ, 'CASADO CON ESTEFANA LERENA', BURIED 25 MAY 1892 ***",
-  "what was already known": "The register holds a Servando Gonzalez and an Estefania Lerena at San Jose de Mayo, with six children indexed GONZALEZ LERENA, found on 11 October.",
-  "what the act says": "*** 'En veinte y cinco de Mayo de mil ochocientos noventa y dos se manda dar sepultura eclesiastica al cadaver de Servando Tomas Gonzalez, oriental, casado con Estefana Lerena, ... cinco anos, de que certifico.' *** The transcript gives sixty-five. *** THIS IS A CANDIDATE AND NOT A MERGE: *** the act gives no birthplace and no child, and San Jose to Montevideo is a move of department.",
-  "when": "17 Oct 2026"
+  "what": "*** A MARRIED COUPLE FROM SAN JOSE AND TRINIDAD WAS IN THE CORDON ***",
+  "the source": "Cordon, Religious Burial Records June 1885 - August 1892, ark 3:1:3Q9M-C9BW-4SW7-N - *** PLATE READ ***; confirmed by the civil act, ark 3:1:3Q9M-CS2W-K97X-Z",
+  "result": "*** SERVANDO TOMAS GONZALEZ, 'CASADO CON ESTEFANA LERENA', BURIED 25 MAY 1892 - CONFIRMED AS THE SAN JOSE AND TRINIDAD SERVANDO ***",
+  "what was already known": "The register holds a Servando Gonzalez and an Estefania Lerena at San Jose and Trinidad, with children indexed GONZALEZ LERENA, found on 11 October.",
+  "what the act says": "*** 'En veinte y cinco de Mayo de mil ochocientos noventa y dos se manda dar sepultura eclesiastica al cadaver de Servando Tomas Gonzalez, oriental, casado con Estefana Lerena, ... cinco anos.' *** The first reading of this row called it a candidate. *** THE CIVIL ACT BELOW SETTLES IT. ***",
+  "when": ""
  },
  {
   "what": "*** A WOMAN OF EIGHTEEN, BORN OUT OF WEDLOCK, NAMED FOR HER MOTHER ***",
@@ -160,12 +160,12 @@
   "when": "17 Oct 2026"
  },
  {
-  "what": "*** THE SAN JOSE CANDIDATE, TESTED AGAINST THE INDEX ***",
+  "what": "*** THE SAN JOSE COUPLE'S CHILDREN, FROM THE INDEX - AND THEN THE ACT ***",
   "the source": "FamilySearch record index, surname Gonzalez Lerena with the father's forename Servando, Uruguay - 17 October 2026, *** INDEX ONLY ***",
-  "result": "*** THE CANDIDATE SURVIVES, AND TWO OF THE SONS DIED AT MONTEVIDEO ***",
-  "what was already known": "The 1892 burial was a candidate for the San Jose couple Servando Gonzalez and Estefania Lerena, with nothing to test it.",
-  "what the act says": "*** Children born 1854, about 1856, 1858 (Corina, now read at the plate) and 1872, all before May 1892. *** Servando Cecilio died at Montevideo on 11 October 1911 and Leopoldo, father of Juan Carlos Gonzalez Lerena, on 17 June 1922. A Servando of about sixty-five in 1892 fits. *** STILL NOT MERGED: *** no act names the couple at Montevideo, and some 1930-32 index cards give the same parents for women who would then be fifty or more at marriage. Three people are new rows, index-level.",
-  "when": "17 Oct 2026"
+  "result": "*** CHILDREN BORN 1854 TO 1872, AND TWO SONS DEAD AT MONTEVIDEO ***",
+  "what was already known": "The 1892 burial had been filed as a candidate for the couple, with nothing to test it.",
+  "what the act says": "*** Servando Cecilio died at Montevideo on 11 October 1911 and Leopoldo, father of Juan Carlos Gonzalez Lerena, on 17 June 1922; the index children were born before May 1892. *** The test was then overtaken: the civil act of 25 May 1892, next row, names Estefania Lerena and nine children, and the candidate is confirmed. Three index-level rows from this row remain; the 1930-32 doubt written here is retracted - those cards are the daughters.",
+  "when": ""
  },
  {
   "what": "*** THE SAN JOSE COUPLE WERE AT TRINIDAD, FLORES, IN 1858 AND 1884 ***",
@@ -181,6 +181,14 @@
   "result": "*** CORINA FRANCISCA GONZALEZ, BORN 24 JULY 1858, 'HIJA LEGITIMA DE SERVANDO GONZALEZ Y DE ESTEFANIA LERENA, ORIENTALES' ***",
   "what was already known": "The index gave her mother only as 'Nefania' and she was a probable child of the couple.",
   "what the act says": "*** She is confirmed as theirs, and the surname Lerena is in the act itself. *** It adds no parent for Estefania, and it does not test the 1892 burial; it fixes the household at Trinidad in 1858.",
+  "when": "17 Oct 2026"
+ },
+ {
+  "what": "*** THE CIVIL ACT OF 25 MAY 1892 NAMES HER, AND HIS PARENTS, AND NINE CHILDREN ***",
+  "the source": "Montevideo, Death Records 1892, act no. 194, Seccion 7a, image ark 3:1:3Q9M-CS2W-K97X-Z, index ark 1:1:6KRL-51CG - *** PLATE READ *** - found by the record-index search for the couple, not by the Cordon full-text list",
+  "result": "*** SERVANDO TOMAS GONZALEZ, SIXTY-FIVE, 'CASADO CON DONA ESTEFANIA LERENA, DE 60 ANOS', DIED 24 MAY 1892 AT CALLE 18 DE JULIO 541A ***",
+  "what was already known": "A burial at the Cordon, read earlier the same day, that could only be a candidate.",
+  "what the act says": "*** Of aortic valve disease; 'hijo legitimo de Don Juan Nepomuceno Gonzalez y de Dona Manuela Muniz, ambos orientales y fallecidos'. *** His wife is Estefania Lerena, oriental, born about 1832, and the children are 'Servando, Esperanza, Corina, Francisco, Carmen, Leopoldo, Leonidas, Estefania y Maria'. *** Declared by his son-in-law Damaso Negrotto, thirty-seven, and by his son LEOPOLDO GONZALEZ LERENA, twenty-nine, a lawyer, who signed. *** Seven rows are new: his parents and five of the nine children, three of whom are only probably the people the index calls Eusebio Leonidas, Estefania Fausta Leopoldina and Maria Bernarda. STILL NOT FOUND: Estefania's own parents.",
   "when": "17 Oct 2026"
  }
 ]
