@@ -4933,5 +4933,26 @@
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Leopoldo GONZALEZ Lerena (d. 17 June 1922)",
+  "born_est": "1856c",
+  "last_attested_alive": "1856c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Servando Cecilio GONZALEZ Lerena (d. 11 October 1911)",
+  "born_est": "1854c",
+  "last_attested_alive": "1854c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maria Guillerma GIURIA (m. Leopoldo Gonzalez Lerena)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]

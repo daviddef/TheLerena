@@ -16948,8 +16948,20 @@
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "living": false,
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Leopoldo GONZALEZ Lerena (d. 17 June 1922)",
+   "dates": "",
+   "slug": "leopoldo-gonzalez-lerena",
+   "via": "register",
+   "note": "data/gonzalez-lerena.tsv: his 1922 marriage names Leopoldo Gonzalez Lerena and Maria Guillerma Giuria as his parents (plate read 21 Sept 2026)."
+  },
+  "mother": {
+   "name": "Maria Guillerma GIURIA (m. Leopoldo Gonzalez Lerena)",
+   "dates": "",
+   "slug": "maria-guillerma-giuria",
+   "via": "register",
+   "note": "data/gonzalez-lerena.tsv: his 1922 marriage names Leopoldo Gonzalez Lerena and Maria Guillerma Giuria as his parents (plate read 21 Sept 2026)."
+  },
   "spouses": [],
   "children": [],
   "siblings": [],
@@ -16957,8 +16969,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -25892,10 +25904,10 @@
   "nationality": "Uruguayan",
   "occupation": "-",
   "where": "San Jose de Mayo",
-  "source": "FamilySearch, Uruguay Catholic Church Records 1726-2000, Baptisms 1750-1900 and Civil Registration 1879-2020 - the three San Jose Lerena mothers of work-list row 187, searched by forename 11 October 2026 - *** INDEX ONLY, no image opened ***; and the Cordon burial entry of 25 May 1892, Religious Burial Records 1885-1892, image ark 3:1:3Q9M-C9BW-4SW7-N - *** IMAGE READ *** 17 October 2026",
+  "source": "FamilySearch, Uruguay Catholic Church Records 1726-2000, Baptisms 1750-1900 and Civil Registration 1879-2020 - the three San Jose Lerena mothers of work-list row 187, searched by forename 11 October 2026 - *** INDEX ONLY, no image opened ***; and the Cordon burial entry of 25 May 1892, Religious Burial Records 1885-1892, image ark 3:1:3Q9M-C9BW-4SW7-N - *** IMAGE READ *** 17 October 2026; and the record index for the children (Uruguay, Civil Registration 1879-2020 and Baptisms 1750-1900), read 17 October 2026 - *** INDEX ONLY ***",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "*** THE SECOND OF ROW 187'S THREE SAN JOSE MOTHERS, AND SHE HAS A WHOLE HOUSEHOLD - 11 October 2026. *** She married *** SERVANDO GONZALEZ ***, and their children are indexed *** GONZALEZ LERENA ***: Servando Cecilio, Leopoldo, Francisco, Cesarea, Maria Bernarda, and *** ESTEFANIA FAUSTA LEOPOLDINA ***, who has marriage registrations at *** Campana, Colonia *** in 1930 and 1932 - two entries for what is probably one woman. *** THIS IS THE COMPOUND-SURNAME PRINCIPLE WORKING EXACTLY AS THIS ARCHIVE SAYS IT DOES: *** a father-line search on LERENA cannot see her, because her children are GONZALEZ; only the compound reaches her. *** AND IT MAY JOIN AN EXISTING THREAD: *** this register already holds a *** JUAN CARLOS GONZALEZ LERENA *** and a file data/gonzalez-lerena.tsv. *** WHETHER THESE ARE ONE GONZALEZ LERENA FAMILY IS NOT ESTABLISHED *** and the departments differ - Colonia and Montevideo against San Jose. *** NOT MERGED. *** *** INDEX ONLY. *** *** A CANDIDATE BURIAL, 17 October 2026, AND NOT A MERGE: *** the Cordon's burial book of 25 May 1892 (image ark 3:1:3Q9M-C9BW-4SW7-N, plate read) enters 'Servando Tomas Gonzalez, oriental, casado con Estefana Lerena, ... cinco anos [sixty-five by the transcript]. Fallecio ayer.' So a Servando Gonzalez married to an Estefana Lerena was buried at Montevideo on 25 May 1892. The names match the San Jose couple; the act gives no birthplace and no child, and San Jose to Montevideo is a move of department. It is not established that they are the same couple.",
+  "note": "*** THE SECOND OF ROW 187'S THREE SAN JOSE MOTHERS, AND SHE HAS A WHOLE HOUSEHOLD - 11 October 2026. *** She married *** SERVANDO GONZALEZ ***, and their children are indexed *** GONZALEZ LERENA ***: Servando Cecilio, Leopoldo, Francisco, Cesarea, Maria Bernarda, and *** ESTEFANIA FAUSTA LEOPOLDINA ***, who has marriage registrations at *** Campana, Colonia *** in 1930 and 1932 - two entries for what is probably one woman. *** THIS IS THE COMPOUND-SURNAME PRINCIPLE WORKING EXACTLY AS THIS ARCHIVE SAYS IT DOES: *** a father-line search on LERENA cannot see her, because her children are GONZALEZ; only the compound reaches her. *** AND IT MAY JOIN AN EXISTING THREAD: *** this register already holds a *** JUAN CARLOS GONZALEZ LERENA *** and a file data/gonzalez-lerena.tsv. *** WHETHER THESE ARE ONE GONZALEZ LERENA FAMILY IS NOT ESTABLISHED *** and the departments differ - Colonia and Montevideo against San Jose. *** NOT MERGED. *** *** INDEX ONLY. *** *** A CANDIDATE BURIAL, 17 October 2026, AND NOT A MERGE: *** the Cordon's burial book of 25 May 1892 (image ark 3:1:3Q9M-C9BW-4SW7-N, plate read) enters 'Servando Tomas Gonzalez, oriental, casado con Estefana Lerena, ... cinco anos [sixty-five by the transcript]. Fallecio ayer.' So a Servando Gonzalez married to an Estefana Lerena was buried at Montevideo on 25 May 1892. The names match the San Jose couple; the act gives no birthplace and no child, and San Jose to Montevideo is a move of department. It is not established that they are the same couple. *** THE CANDIDATE IS STRONGER, 17 October 2026, AND STILL NOT A MERGE. *** The record index gives this couple children born in 1854 (Servando Cecilio), about 1856 (Leopoldo), 1872 (Cesarea, christened at San Jose) and possibly Corina Francisca, christened at Trinidad on 31 August 1858 to 'Nefania' and Servando Gonzalez - ALL BEFORE MAY 1892, so none of them rules the man out - and *** TWO OF THE SONS DIED AT MONTEVIDEO: Servando Cecilio on 11 October 1911 and Leopoldo on 17 June 1922 ***, so the family was settled there. A Servando of about sixty-five in 1892, born about 1827, fits as the father of children born from 1854. What would settle it is an act that names both of them at Montevideo, or the Cordon burial's margin sheet. *** ONE THING TO CHECK: *** the index cards for Estefania Fausta Leopoldina, Maria Bernarda and Estanislada Carmela (Campana, Colonia, 1930-32) also give the parents as Servando and Estefania, which for a mother born about 1830 would make those daughters fifty or more at marriage - so they may be a later Servando and Estefania, or granddaughters entered under their grandparents.",
   "place": "San Jose de Mayo",
   "placeSlug": "san-jose-de-mayo",
   "surname": "LERENA",
@@ -25907,14 +25919,29 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Leopoldo GONZALEZ Lerena (d. 17 June 1922)",
+    "dates": "",
+    "slug": "leopoldo-gonzalez-lerena",
+    "via": "register",
+    "note": "Index entry of the Montevideo death registration (read 17 Oct 2026): 'Parents Servando Gonzalez, Estefania Lerena'."
+   },
+   {
+    "name": "Servando Cecilio GONZALEZ Lerena (d. 11 October 1911)",
+    "dates": "",
+    "slug": "servando-cecilio-gonzalez-lerena",
+    "via": "register",
+    "note": "Index entry of the Montevideo death registration (read 17 Oct 2026): 'Parents Servando Gonzalez, Estefania Lerena'."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -25928,10 +25955,10 @@
   "nationality": "Uruguayan",
   "occupation": "-",
   "where": "San Jose de Mayo",
-  "source": "FamilySearch, Uruguay Catholic Church Records 1726-2000, Baptisms 1750-1900 and Civil Registration 1879-2020 - the three San Jose Lerena mothers of work-list row 187, searched by forename 11 October 2026 - *** INDEX ONLY, no image opened ***; and the Cordon burial entry of 25 May 1892, Religious Burial Records 1885-1892, image ark 3:1:3Q9M-C9BW-4SW7-N - *** IMAGE READ *** 17 October 2026",
+  "source": "FamilySearch, Uruguay Catholic Church Records 1726-2000, Baptisms 1750-1900 and Civil Registration 1879-2020 - the three San Jose Lerena mothers of work-list row 187, searched by forename 11 October 2026 - *** INDEX ONLY, no image opened ***; and the Cordon burial entry of 25 May 1892, Religious Burial Records 1885-1892, image ark 3:1:3Q9M-C9BW-4SW7-N - *** IMAGE READ *** 17 October 2026; and the record index for the children (Uruguay, Civil Registration 1879-2020 and Baptisms 1750-1900), read 17 October 2026 - *** INDEX ONLY ***",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "*** Husband of ESTEFANIA LERENA *** and father of the GONZALEZ LERENA children named on her row. Named on every one of their baptisms and registrations and on nothing else found here. *** INDEX ONLY. *** *** A CANDIDATE BURIAL, 17 October 2026, AND NOT A MERGE: *** the Cordon's burial book of 25 May 1892 (image ark 3:1:3Q9M-C9BW-4SW7-N, plate read) enters 'Servando Tomas Gonzalez, oriental, casado con Estefana Lerena, ... cinco anos [sixty-five by the transcript]. Fallecio ayer.' So a Servando Gonzalez married to an Estefana Lerena was buried at Montevideo on 25 May 1892. The names match the San Jose couple; the act gives no birthplace and no child, and San Jose to Montevideo is a move of department. It is not established that they are the same couple.",
+  "note": "*** Husband of ESTEFANIA LERENA *** and father of the GONZALEZ LERENA children named on her row. Named on every one of their baptisms and registrations and on nothing else found here. *** INDEX ONLY. *** *** A CANDIDATE BURIAL, 17 October 2026, AND NOT A MERGE: *** the Cordon's burial book of 25 May 1892 (image ark 3:1:3Q9M-C9BW-4SW7-N, plate read) enters 'Servando Tomas Gonzalez, oriental, casado con Estefana Lerena, ... cinco anos [sixty-five by the transcript]. Fallecio ayer.' So a Servando Gonzalez married to an Estefana Lerena was buried at Montevideo on 25 May 1892. The names match the San Jose couple; the act gives no birthplace and no child, and San Jose to Montevideo is a move of department. It is not established that they are the same couple. *** THE CANDIDATE IS STRONGER, 17 October 2026, AND STILL NOT A MERGE. *** The record index gives this couple children born in 1854 (Servando Cecilio), about 1856 (Leopoldo), 1872 (Cesarea, christened at San Jose) and possibly Corina Francisca, christened at Trinidad on 31 August 1858 to 'Nefania' and Servando Gonzalez - ALL BEFORE MAY 1892, so none of them rules the man out - and *** TWO OF THE SONS DIED AT MONTEVIDEO: Servando Cecilio on 11 October 1911 and Leopoldo on 17 June 1922 ***, so the family was settled there. A Servando of about sixty-five in 1892, born about 1827, fits as the father of children born from 1854. What would settle it is an act that names both of them at Montevideo, or the Cordon burial's margin sheet. *** ONE THING TO CHECK: *** the index cards for Estefania Fausta Leopoldina, Maria Bernarda and Estanislada Carmela (Campana, Colonia, 1930-32) also give the parents as Servando and Estefania, which for a mother born about 1830 would make those daughters fifty or more at marriage - so they may be a later Servando and Estefania, or granddaughters entered under their grandparents.",
   "place": "San Jose de Mayo",
   "placeSlug": "san-jose-de-mayo",
   "surname": "GONZALEZ",
@@ -25943,14 +25970,29 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Leopoldo GONZALEZ Lerena (d. 17 June 1922)",
+    "dates": "",
+    "slug": "leopoldo-gonzalez-lerena",
+    "via": "register",
+    "note": "Index entry of the Montevideo death registration (read 17 Oct 2026): 'Parents Servando Gonzalez, Estefania Lerena'."
+   },
+   {
+    "name": "Servando Cecilio GONZALEZ Lerena (d. 11 October 1911)",
+    "dates": "",
+    "slug": "servando-cecilio-gonzalez-lerena",
+    "via": "register",
+    "note": "Index entry of the Montevideo death registration (read 17 Oct 2026): 'Parents Servando Gonzalez, Estefania Lerena'."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -37239,6 +37281,184 @@
     "via": "register"
    }
   ],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "leopoldo-gonzalez-lerena",
+  "name": "Leopoldo GONZALEZ Lerena (d. 17 June 1922)",
+  "born": "1856c",
+  "died": "",
+  "birthplace": "Uruguay",
+  "nationality": "Uruguayan",
+  "occupation": "-",
+  "where": "Montevideo",
+  "source": "Uruguay, Civil Registration 1879-2020 - the Montevideo death registration of 18 June 1922, *** INDEX ONLY *** read 17 October 2026; index ark 1:1:XSJ9-DNLC; and the Uruguay Civil Registration Index Card of 1922, ark 1:1:QG3L-Z4TP",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** A SON OF THE SAN JOSE COUPLE, DEAD AT MONTEVIDEO 17 JUNE 1922, AGED ABOUT SIXTY-SIX. *** The index gives his parents as SERVANDO GONZALEZ and ESTEFANIA LERENA and his wife as MARIA GUILLERMA GIURIA; his birth year 1856 is derived from his age. *** HE IS THE FATHER OF JUAN CARLOS GONZALEZ LERENA, born 1899, *** whose 1922 marriage is already on file at data/gonzalez-lerena.tsv with these parents named on the plate. INDEX ONLY: his own act has not been opened.",
+  "place": "Montevideo",
+  "placeSlug": "montevideo",
+  "surname": "GONZALEZ",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "living": false,
+  "gen": null,
+  "father": {
+   "name": "Servando GONZALEZ (m. Estefania Lerena)",
+   "dates": "",
+   "slug": "servando-gonzalez",
+   "via": "register",
+   "note": "Index entry of the Montevideo death registration (read 17 Oct 2026): 'Parents Servando Gonzalez, Estefania Lerena'."
+  },
+  "mother": {
+   "name": "Estefania LERENA (m. Servando GONZALEZ)",
+   "dates": "",
+   "slug": "estefania-lerena",
+   "via": "register",
+   "note": "Index entry of the Montevideo death registration (read 17 Oct 2026): 'Parents Servando Gonzalez, Estefania Lerena'."
+  },
+  "spouses": [
+   {
+    "name": "Maria Guillerma GIURIA (m. Leopoldo Gonzalez Lerena)",
+    "dates": "",
+    "slug": "maria-guillerma-giuria",
+    "via": "register",
+    "note": "Index entry of the Montevideo death registration (read 17 Oct 2026): 'Parents Servando Gonzalez, Estefania Lerena'."
+   }
+  ],
+  "children": [
+   {
+    "name": "Juan Carlos GONZALEZ LERENA (m. 1920s, Montevideo)",
+    "dates": "",
+    "slug": "juan-carlos-gonzalez-lerena",
+    "via": "register",
+    "note": "data/gonzalez-lerena.tsv: his 1922 marriage names Leopoldo Gonzalez Lerena and Maria Guillerma Giuria as his parents (plate read 21 Sept 2026)."
+   }
+  ],
+  "siblings": [
+   {
+    "name": "Servando Cecilio GONZALEZ Lerena (d. 11 October 1911)",
+    "dates": "",
+    "slug": "servando-cecilio-gonzalez-lerena",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 4,
+  "relRegister": 4,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "servando-cecilio-gonzalez-lerena",
+  "name": "Servando Cecilio GONZALEZ Lerena (d. 11 October 1911)",
+  "born": "1854c",
+  "died": "",
+  "birthplace": "Uruguay",
+  "nationality": "Uruguayan",
+  "occupation": "-",
+  "where": "Montevideo",
+  "source": "Uruguay, Civil Registration 1879-2020 - the Montevideo death registration of 12 October 1911, *** INDEX ONLY *** read 17 October 2026; index ark 1:1:6N21-LLGH",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** A SECOND SON, DEAD AT MONTEVIDEO 11 OCTOBER 1911, AGED ABOUT FIFTY-SEVEN. *** Named for his father; parents Servando Gonzalez and Estefania Lerena on the index; birth year 1854 derived from his age. INDEX ONLY: his act has not been opened.",
+  "place": "Montevideo",
+  "placeSlug": "montevideo",
+  "surname": "GONZALEZ",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "living": false,
+  "gen": null,
+  "father": {
+   "name": "Servando GONZALEZ (m. Estefania Lerena)",
+   "dates": "",
+   "slug": "servando-gonzalez",
+   "via": "register",
+   "note": "Index entry of the Montevideo death registration (read 17 Oct 2026): 'Parents Servando Gonzalez, Estefania Lerena'."
+  },
+  "mother": {
+   "name": "Estefania LERENA (m. Servando GONZALEZ)",
+   "dates": "",
+   "slug": "estefania-lerena",
+   "via": "register",
+   "note": "Index entry of the Montevideo death registration (read 17 Oct 2026): 'Parents Servando Gonzalez, Estefania Lerena'."
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Leopoldo GONZALEZ Lerena (d. 17 June 1922)",
+    "dates": "",
+    "slug": "leopoldo-gonzalez-lerena",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "maria-guillerma-giuria",
+  "name": "Maria Guillerma GIURIA (m. Leopoldo Gonzalez Lerena)",
+  "born": "-",
+  "died": "",
+  "birthplace": "Uruguay",
+  "nationality": "Uruguayan",
+  "occupation": "-",
+  "where": "Montevideo",
+  "source": "Uruguay, Civil Registration 1879-2020 - named as the wife on the death registration of Leopoldo Gonzalez Lerena, 1922, *** INDEX ONLY *** ; index ark 1:1:XSJ9-DNLC",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** NAMED ONLY, as the wife of Leopoldo Gonzalez Lerena on his death registration, and as the mother of Juan Carlos on his 1922 marriage. *** Nothing else is known of her here.",
+  "place": "Montevideo",
+  "placeSlug": "montevideo",
+  "surname": "GIURIA",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "FamilySearch index — ark not recorded for this entry",
+  "living": false,
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [
+   {
+    "name": "Leopoldo GONZALEZ Lerena (d. 17 June 1922)",
+    "dates": "",
+    "slug": "leopoldo-gonzalez-lerena",
+    "via": "register",
+    "note": "Index entry of the Montevideo death registration (read 17 Oct 2026): 'Parents Servando Gonzalez, Estefania Lerena'."
+   }
+  ],
+  "children": [
+   {
+    "name": "Juan Carlos GONZALEZ LERENA (m. 1920s, Montevideo)",
+    "dates": "",
+    "slug": "juan-carlos-gonzalez-lerena",
+    "via": "register",
+    "note": "data/gonzalez-lerena.tsv: his 1922 marriage names Leopoldo Gonzalez Lerena and Maria Guillerma Giuria as his parents (plate read 21 Sept 2026)."
+   }
+  ],
+  "siblings": [],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],

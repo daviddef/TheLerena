@@ -5,6 +5,16 @@
    "date": "2026-10-17",
    "commits": [
     {
+     "sha": "8c82988",
+     "subject": "Regenerate the changes log after the collection-level row",
+     "body": ""
+    },
+    {
+     "sha": "dc01e21",
+     "subject": "Log the two Larranaga civil acts at collection level, so the atlas can mark them",
+     "body": ""
+    },
+    {
      "sha": "b4ab47a",
      "subject": "Regenerate the search index and changes log after the Larranaga rows",
      "body": ""
