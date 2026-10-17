@@ -5,6 +5,11 @@
    "date": "2026-10-17",
    "commits": [
     {
+     "sha": "2c0e837",
+     "subject": "Alejandro and Margarita Fernandez had five children: the younger Alejandro's 1829 baptism, a new sister Maria (d. 1892), and Socorro's 1921 act naming all four grandparents",
+     "body": "Read at the plate from one parents-plus-birth-window index query: San Jose christening of Alexandro Florencio, born 23 February 1829 (the\nindex mis-keys 1823); Trinidad death act 49 of 3 May 1892 for Maria Lerena de Fernandez, 64, a daughter; Trinidad death act 116 of 8 July 1921\nfor Socorro, 88, born at San Jose, naming Ramon Lerena and Maria and Juan Fernandez and Barbara as grandparents. Estefania (60 in 1892) is\nthe elder of Socorro (88 in 1921) by a year or less, so the twin reading is less likely; not proved. Parent links added for all four\nsiblings; Maria and a godmother Clara Llerena entered; generated same-name pair reasons state where no birth year is held."
+    },
+    {
      "sha": "9b282e4",
      "subject": "Log index nulls for Vitalino Lerena's birth and marriage; full text still down (not exclusions)",
      "body": ""

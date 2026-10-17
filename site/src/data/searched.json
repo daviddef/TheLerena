@@ -2564,5 +2564,29 @@
    "civil-registration"
   ],
   "note": "FIVE RECORDS FROM ONE QUERY, FOUR OF THEM NEW: the 1829 San Jose baptism of Alexandro Florencio (the younger Alejandro, born 23 February 1829; the index mis-keys 1823), the 1892 civil death act of Maria Lerena de Fernandez (a new sister, 64), and the 1921 death act of Socorro (88, born at San Jose, naming all four grandparents). METHOD NOTE: a parents-only query WITH A BIRTH WINDOW (1826-1840) beat the earlier children-of-the-couple query, because it returned the older generation's own records. THE TWIN QUESTION: ages 60 (Estefania, 1892) and 88 (Socorro, 1921) do not overlap, so Estefania would be the elder by a year or less; twins are not shown and not ruled out. NOT FOUND: baptisms of Maria, Estefania or Socorro; Maria's husband. FULL TEXT WAS STILL DOWN. No waypoint established - image arks only."
+ },
+ {
+  "src": "FamilySearch record index - Ramon Lerena and Maria Gonzalez as parents, born 1788-1816, Uruguay; and the Cordon baptism of Eusebio Congenio, 17 August 1816",
+  "url": "https://www.familysearch.org/search/collection/4134697",
+  "film": null,
+  "waypoint": null,
+  "what": "More children of Ramon Lerena and Maria Josefa Gonzalez, by the parents-plus-birth-window query one generation up",
+  "when": "2026-10-17",
+  "outcome": "yield",
+  "pages": "one act, read at the plate",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "gonzalez",
+   "cubas",
+   "leon",
+   "montevideo",
+   "cordon",
+   "madrid",
+   "uruguay",
+   "familysearch",
+   "baptism"
+  ],
+  "note": "ONE NEW BROTHER, AND A CONTROL. The query returned four records: Alejandro's marriage (twice, already held), Manuel Lorenzo (1812, already read by this archive) and EUSEBIO CONGENIO, born 14 August 1816 at the Cordon - new, read at the plate, with 'natural de Madrid' for the father and the same grandparents (Salvador Lerena and Ana de Cubas; Marcial de Leon Gonzalez). THE MANUEL LORENZO PLATE WAS ALSO READ AGAIN WITHOUT KNOWING THE ARCHIVE HELD IT: it agrees on Valdemoro, Lanzarote and the grandparents, which makes it a second independent reading of the same act. THE LESSON: check data/ before re-reading a plate. The act of 1812 was already in data/1812-union-act.tsv; the register's own rows did not carry it. No waypoint established - image arks only."
  }
 ]
