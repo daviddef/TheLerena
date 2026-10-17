@@ -5,6 +5,11 @@
    "date": "2026-10-17",
    "commits": [
     {
+     "sha": "968f9d6",
+     "subject": "Eusebio Congenio Lerena, born 14 August 1816 at the Cordon: a new son of Ramon Lerena and Maria Josefa Gonzalez, read at the plate",
+     "body": "The same parents-plus-birth-window query one generation up returned Alejandro's marriage (held), Manuel Lorenzo (1812, already read by this archive)\nand Eusebio Congenio, new: 'hijo legitimo de [Ramon] Lerena, natural de Madrid, y de Maria de Leon Gonzalez', grandparents Salvador Lerena and Ana\nde Cubas / Marcial de Leon Gonzalez, agreeing with the 1812 act's Valdemoro and Lanzarote. Rows for Eusebio, Salvador and Ana added with\nparent links; Salvador and Ana carry no dates so the date tool does not mark them alive in 1816, and Maria Josefa's 1825 alive tier is\npreserved. Log notes that the Manuel Lorenzo plate was re-read without checking data/ first."
+    },
+    {
      "sha": "2c0e837",
      "subject": "Alejandro and Margarita Fernandez had five children: the younger Alejandro's 1829 baptism, a new sister Maria (d. 1892), and Socorro's 1921 act naming all four grandparents",
      "body": "Read at the plate from one parents-plus-birth-window index query: San Jose christening of Alexandro Florencio, born 23 February 1829 (the\nindex mis-keys 1823); Trinidad death act 49 of 3 May 1892 for Maria Lerena de Fernandez, 64, a daughter; Trinidad death act 116 of 8 July 1921\nfor Socorro, 88, born at San Jose, naming Ramon Lerena and Maria and Juan Fernandez and Barbara as grandparents. Estefania (60 in 1892) is\nthe elder of Socorro (88 in 1921) by a year or less, so the twin reading is less likely; not proved. Parent links added for all four\nsiblings; Maria and a godmother Clara Llerena entered; generated same-name pair reasons state where no birth year is held."

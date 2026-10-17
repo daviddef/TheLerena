@@ -2588,5 +2588,28 @@
    "baptism"
   ],
   "note": "ONE NEW BROTHER, AND A CONTROL. The query returned four records: Alejandro's marriage (twice, already held), Manuel Lorenzo (1812, already read by this archive) and EUSEBIO CONGENIO, born 14 August 1816 at the Cordon - new, read at the plate, with 'natural de Madrid' for the father and the same grandparents (Salvador Lerena and Ana de Cubas; Marcial de Leon Gonzalez). THE MANUEL LORENZO PLATE WAS ALSO READ AGAIN WITHOUT KNOWING THE ARCHIVE HELD IT: it agrees on Valdemoro, Lanzarote and the grandparents, which makes it a second independent reading of the same act. THE LESSON: check data/ before re-reading a plate. The act of 1812 was already in data/1812-union-act.tsv; the register's own rows did not carry it. No waypoint established - image arks only."
+ },
+ {
+  "src": "FamilySearch record index - Teresa, parents Antonio and Manuela, born 1838-1844, Uruguay; and the La Union christening of Fermin Rodolfo Balinas, 1874",
+  "url": "https://www.familysearch.org/search/collection/4134697",
+  "film": null,
+  "waypoint": null,
+  "what": "Teresa Leonar's own baptism and siblings (not found) - and a HOMONYM: a second Teresa Leonar, wife of Tomas Balinas, with a father Antonio and a mother Manuela ORTIN",
+  "when": "2026-10-17",
+  "outcome": "yield",
+  "pages": "one act, read at the plate",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "leonar",
+   "balinas",
+   "ortin",
+   "montevideo",
+   "la union",
+   "uruguay",
+   "familysearch",
+   "baptism"
+  ],
+  "note": "NO BAPTISM OR SIBLING OF TERESA LEONAR (the wife of Pedro Lerena) IS INDEXED under Leonar/Iturriaga for 1830-1852 - only her 1901 death act (index null, not an exclusion; 52 results scanned only on the first page for the loosened query). WHAT THE LOOSENED QUERY SURFACED INSTEAD: a SECOND TERESA LEONAR, wife of Tomas Balinas, mother of Fermin Rodolfo (born July 1871, christened May 1874 at La Union; plate read), whose maternal grandparents the plate gives as 'Antonio y Manuela Ortin'. Probably a different woman from Teresa of the Lerena household (mother Iturriaga) - not settled. The register's Teresa row carries a DO-NOT-MERGE warning. A tree profile 'Teresa Leonar Ortin 1840' is attached to the 1874 record. An earlier search for Salvador Lerena and Ana de Cubas as parents was an index null (0 results, one spelling). No waypoint established - image arks only."
  }
 ]
