@@ -2906,8 +2906,8 @@
  },
  {
   "name": "Alejandro LERENA (the younger, m.1 Isidora Chourino, m.2 Severa Fernandez 1854)",
-  "born_est": "-",
-  "last_attested_alive": "-",
+  "born_est": "1829-02-23",
+  "last_attested_alive": "1829-02-23",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -5064,6 +5064,20 @@
   "name": "Pedro (father of Pedro Lerena, husband of Teresa Leonar)",
   "born_est": "-",
   "last_attested_alive": "1864-Apr-30",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Maria LERENA (m. FERNANDEZ, d. 1892 Trinidad)",
+  "born_est": "1828c",
+  "last_attested_alive": "1828c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Clara LERENA (madrina, San Jose 1829)",
+  "born_est": "-",
+  "last_attested_alive": "1829-Mar-07",
   "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
   "tier": "ALIVE AT"
  }
