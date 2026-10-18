@@ -30,7 +30,7 @@ const whereOf = (p) => p.living
   ? [p.town, p.country].filter(Boolean).join(", ")
   : [p.place, p.nationality].filter(Boolean).join(" \u00b7 ");
 ---
-<Base title="The People" eyebrow={`${n} people of this surname, each with their own page`}
+<Base title="The People" noAutolink eyebrow={`${n} people of this surname, each with their own page`}
       dek="Every Lerena this archive has met, anywhere, with the record that produced them. Search the list and follow any name through to what is known about that person.">
 
 <NameLists here="people" u={u} />

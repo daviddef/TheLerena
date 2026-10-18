@@ -17,7 +17,11 @@ import ring from "@daviddef/archive-kit/data/archives.json";
    reads Unexpected "{" and points at the plain <meta viewport> tag thirty lines down. Diagnosed
    14 September 2026 by bisecting the frontmatter; moving the line is the whole fix. */
 const v = versioner();
-const { title, description = "", dek, eyebrow, bare, noindex } = Astro.props;
+const { title, description = "", dek, eyebrow, bare, noindex, noAutolink } = Astro.props;
+/* noAutolink: the page opts out of the build-time name linker (kit autolink.py, run by tools/run-autolink.py after the
+   build) by putting data-no-autolink on <main>. Used by a person's own page and a name's own page (the linker would link a
+   person to themself), by the two index pages (every row already links its person) and by /changes/ (the commit log, which
+   is machine-made and grows daily). The pages that ARE prose are linked. */
 const SITE = "The Lerena Archive";
 /* "The families" is a group from 17 October 2026. It was left out until then on purpose: this archive had exactly one
    family page, the Taylors, and a menu group of one implies a section that does not exist. There are now thirteen
@@ -109,7 +113,7 @@ const thisArchive =
 {/* THE BOOK (17 October 2026): every page says where it sits in the order of src/data/book.json */}
 <BookHead book={book} u={u} />
 
-<main id="main" tabindex="-1">
+<main id="main" tabindex="-1" data-no-autolink={noAutolink ? "" : undefined}>
   <div class="wrap">
     {!bare && (
       <div class="pagehead">
