@@ -1,0 +1,21 @@
+# Forms of a person's name that the archive's own data states, each with the person it belongs to and where the data says so.
+# Read by tools/run-autolink.py (names index). A form here is a spelling or a short name the data itself records; it is never a guess.
+# It is refused if a living or held-out person bears it, or another person owns it. Spelling variants are NOT merges: a line says only
+# that this archive's text writes the name that way for this person.
+alias	person	basis
+Ambrosia Treibel	Ambrosia TRAIBEL	data/corrections.tsv and data/alberto-lerena-larriera.tsv write her surname Treibel; the acts read Traibel
+Teresa Leonar	Teresa LEONARD (m. Pedro Antonio LERENA)	data/cordon-deaths.tsv: the 1864 baptism act reads 'Teresa Leonar'
+Teresa Leonor	Teresa LEONARD (m. Pedro Antonio LERENA)	data/cordon-deaths.tsv: the Cordon clerk of 1901 wrote her surname Leonor
+Rosaline Wilhelmina Chappell	Roseline Wilhelmina FORBES (m.1 Chappell, m.2 LERENA)	data/gen1-children.tsv: the 1936 register writes her 'Rosaline Wilhermina Forbes CHAPPELL'; Chappell was her first married name
+Eliseo Cardoso	Eliseo CARDOZO	data/lerena-register.tsv writes 'ELISEO CARDOSO' as the index spells him (Cardozo is the register's)
+Florinda Cardoso	Florinda CARDOZO	data/lerena-register.tsv writes 'FLORINDA CARDOSO' as the index spells her (Cardozo is the register's)
+Juan Basilio Cardoso	Juan Basilio CARDOZO (m. Casimira Lerena 1889)	data/lerena-register.tsv writes 'JUAN BASILIO CARDOSO' as the index spells him (Cardozo is the register's)
+Juan Pelaes	Juan PELAEZ (m. Antonina LERENA)	data/sources-consulted.tsv and data/trinidad-founding-kindred.tsv write 'Juan Pelaes' for the act's spelling of the name
+Casimira Montana	Dona Casimira MONTANO (wife of Mauricio LERENA)	data/mauricio-casimira-montano.tsv writes 'Casimira Montana' for the act's spelling of the name
+Roque Lois Armando	Roque Luis Armando LERENA	data/gen1-children.tsv: 'Roque Lois Armando' is how the register of the baptism writes him
+Alejandro Maximo Lerena	Alejandro M. LERENA (m.1 Elisa VILLADEMOROS; m.2 Julia BASSANI)	data/fulltext-finds-2026-10-11.tsv: the M. is MAXIMO, from the act of 28 December 1871 ('D. ALEJANDRO MAXIMO')
+Alejandro Maximo Serena	Alejandro M. LERENA (m.1 Elisa VILLADEMOROS; m.2 Julia BASSANI)	data/lerena-register.tsv: the act of 28 December 1871 reads 'D. ALEJANDRO MAXIMO SERENA'
+Sancho Llerena	Sancho LLERENA Aguilar	data/lerena-register.tsv writes his name Sancho LLERENA throughout (the 1791 marriage act reads Llerena); the cleaned register name carries his mother's surname Aguilar
+Joaquin Ruiz de Carvallo	Mayor Don Joaquin RUIZ DE CARVALLO	data/lerena-register.tsv: the Catedral act of 12 May 1827 names him MAYOR DON JOAQUIN RUIZ DE CARVALLO (the register row carries the rank in front)
+Jacinto Vera	Obispo Jacinto VERA (Bishop of Montevideo)	data/lerena-register.tsv: the row is the Bishop of Montevideo, named in the act as Senor Obispo D. Jacinto Vera
+Gilberto Justiniano Lerena Lenguas	Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS)	data/lerena-register.tsv: the row is headed Gilberto LERENA and names him in full, Gilberto Justiniano LERENA LENGUAS, in its own parenthesis

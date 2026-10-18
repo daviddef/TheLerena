@@ -22,14 +22,26 @@
    "url": "/people/adela-camiglia/"
   },
   {
+   "name": "Adela Crucet",
+   "aliases": [],
+   "url": "/people/adela-crucet/"
+  },
+  {
    "name": "Adolfo Lerena",
    "aliases": [],
    "url": "/people/adolfo-lerena/"
   },
   {
    "name": "Adolfo Maximo Cordero",
-   "aliases": [],
+   "aliases": [
+    "Adolfo Máximo Cordero"
+   ],
    "url": "/people/adolfo-maximo-cordero/"
+  },
+  {
+   "name": "Agnes Harrison",
+   "aliases": [],
+   "url": "/people/agnes-harrison/"
   },
   {
    "name": "Agnes Walker Taylor",
@@ -64,6 +76,7 @@
   {
    "name": "Agustina Ramona Lerena Fernandez",
    "aliases": [
+    "Agustina Ramona Lerena",
     "Agustina Ramona Lerena Fernández"
    ],
    "url": "/people/agustina-ramona-lerena-fernandez/"
@@ -74,18 +87,29 @@
    "url": "/people/alba-lerena/"
   },
   {
-   "name": "Alberto Julian Lerena Larriera",
+   "name": "Alberto Infant Aguiar",
    "aliases": [],
+   "url": "/people/alberto-infant-aguiar/"
+  },
+  {
+   "name": "Alberto Julian Lerena Larriera",
+   "aliases": [
+    "Alberto Julian Lerena"
+   ],
    "url": "/people/alberto-julian-lerena-larriera/"
   },
   {
    "name": "Alberto Octavio Lerena Lenguas",
-   "aliases": [],
+   "aliases": [
+    "Alberto Octavio Lerena"
+   ],
    "url": "/people/alberto-octavio-lerena-lenguas/"
   },
   {
    "name": "Alejandra Raymunda Lerena Gazo",
-   "aliases": [],
+   "aliases": [
+    "Alejandra Raymunda Lerena"
+   ],
    "url": "/people/alejandra-raymunda-lerena-gazo/"
   },
   {
@@ -100,12 +124,16 @@
   },
   {
    "name": "Alejandro Esteban Lerena Alvarez",
-   "aliases": [],
+   "aliases": [
+    "Alejandro Esteban Lerena"
+   ],
    "url": "/people/alejandro-esteban-lerena-alvarez/"
   },
   {
    "name": "Alejandro Joaquin Narciso Lerena Villardemoros",
-   "aliases": [],
+   "aliases": [
+    "Alejandro Joaquin Narciso Lerena"
+   ],
    "url": "/people/alejandro-joaquin-narciso-lerena-villardemoros/"
   },
   {
@@ -114,13 +142,29 @@
    "url": "/people/alejandro-lerena-traibel/"
   },
   {
+   "name": "Alejandro Maximo Lerena",
+   "aliases": [
+    "Alejandro Maximo Serena",
+    "Alejandro Máximo Lerena",
+    "Alejandro Máximo Serena"
+   ],
+   "url": "/people/alejandro-m-lerena/"
+  },
+  {
+   "name": "Alejandro Mechot",
+   "aliases": [],
+   "url": "/people/alejandro-mechot/"
+  },
+  {
    "name": "Alfredo Costa",
    "aliases": [],
    "url": "/people/alfredo-costa/"
   },
   {
    "name": "Alfredo Justiniano Lerena Traibel",
-   "aliases": [],
+   "aliases": [
+    "Alfredo Justiniano Lerena"
+   ],
    "url": "/people/alfredo-justiniano-lerena-traibel/"
   },
   {
@@ -145,12 +189,21 @@
   },
   {
    "name": "Amalia Diaz",
-   "aliases": [],
+   "aliases": [
+    "Amalia Díaz"
+   ],
    "url": "/people/amalia-diaz/"
   },
   {
-   "name": "Ambrosia Traibel",
+   "name": "Amalia Pacheco",
    "aliases": [],
+   "url": "/people/amalia-pacheco/"
+  },
+  {
+   "name": "Ambrosia Traibel",
+   "aliases": [
+    "Ambrosia Treibel"
+   ],
    "url": "/people/ambrosia-traibel/"
   },
   {
@@ -185,17 +238,25 @@
   },
   {
    "name": "Ana Maria Cabalgante",
-   "aliases": [],
+   "aliases": [
+    "Ana María Cabalgante"
+   ],
    "url": "/people/ana-maria-cabalgante/"
   },
   {
    "name": "Ana Maria Lerena Razzetti",
-   "aliases": [],
+   "aliases": [
+    "Ana Maria Lerena",
+    "Ana María Lerena",
+    "Ana María Lerena Razzetti"
+   ],
    "url": "/people/ana-maria-lerena-razzetti/"
   },
   {
    "name": "Ana Rosario Lerena Traibel",
-   "aliases": [],
+   "aliases": [
+    "Ana Rosario Lerena"
+   ],
    "url": "/people/ana-rosario-lerena-traibel/"
   },
   {
@@ -235,7 +296,11 @@
   },
   {
    "name": "Angel Miguel Avelino Lerena Larriera",
-   "aliases": [],
+   "aliases": [
+    "Angel Miguel Avelino Lerena",
+    "Ángel Miguel Avelino Lerena",
+    "Ángel Miguel Avelino Lerena Larriera"
+   ],
    "url": "/people/angel-miguel-avelino-lerena-larriera/"
   },
   {
@@ -245,12 +310,18 @@
   },
   {
    "name": "Angelica Maria Lerena Villademoros",
-   "aliases": [],
+   "aliases": [
+    "Angelica Maria Lerena",
+    "Angelica María Lerena",
+    "Angelica María Lerena Villademoros"
+   ],
    "url": "/people/angelica-maria-lerena-villademoros/"
   },
   {
    "name": "Angelica Mendez de Villademoros",
-   "aliases": [],
+   "aliases": [
+    "Angelica Mendez"
+   ],
    "url": "/people/angelica-mendez-de-villademoros/"
   },
   {
@@ -285,7 +356,9 @@
   },
   {
    "name": "Antonia Larranaga Lerena",
-   "aliases": [],
+   "aliases": [
+    "Antonia Larranaga"
+   ],
    "url": "/people/antonia-larranaga-lerena/"
   },
   {
@@ -315,7 +388,9 @@
   },
   {
    "name": "Antonio Lerena Diaz",
-   "aliases": [],
+   "aliases": [
+    "Antonio Lerena Díaz"
+   ],
    "url": "/people/antonio-lerena-diaz/"
   },
   {
@@ -327,6 +402,11 @@
    "name": "Antonio Medero",
    "aliases": [],
    "url": "/people/antonio-medero/"
+  },
+  {
+   "name": "Antonio Villegas",
+   "aliases": [],
+   "url": "/people/antonio-villegas/"
   },
   {
    "name": "Armando Lerena",
@@ -345,7 +425,9 @@
   },
   {
    "name": "Arturo Mario Lerena Regules",
-   "aliases": [],
+   "aliases": [
+    "Arturo Mario Lerena"
+   ],
    "url": "/people/arturo-mario-lerena-regules/"
   },
   {
@@ -355,12 +437,16 @@
   },
   {
    "name": "Aurelio Eusebio Barros Lerena",
-   "aliases": [],
+   "aliases": [
+    "Aurelio Eusebio Barros"
+   ],
    "url": "/people/aurelio-eusebio-barros-lerena/"
   },
   {
    "name": "Aurora Eduarda Larena Fuentes",
-   "aliases": [],
+   "aliases": [
+    "Aurora Eduarda Larena"
+   ],
    "url": "/people/aurora-eduarda-larena-fuentes/"
   },
   {
@@ -372,7 +458,9 @@
   },
   {
    "name": "Aurora Pelaez Lerena",
-   "aliases": [],
+   "aliases": [
+    "Aurora Pelaez"
+   ],
    "url": "/people/aurora-pelaez-lerena/"
   },
   {
@@ -387,7 +475,9 @@
   },
   {
    "name": "Avelino Eduardo Lerena Traibel",
-   "aliases": [],
+   "aliases": [
+    "Avelino Eduardo Lerena"
+   ],
    "url": "/people/avelino-eduardo-lerena-traibel/"
   },
   {
@@ -404,7 +494,9 @@
   },
   {
    "name": "Avelino Pedro Joaquin Silvestre Lerena Villademoros",
-   "aliases": [],
+   "aliases": [
+    "Avelino Pedro Joaquin Silvestre Lerena"
+   ],
    "url": "/people/avelino-pedro-joaquin-silvestre-lerena-villademoros/"
   },
   {
@@ -424,17 +516,23 @@
   },
   {
    "name": "Bartolome Llerena",
-   "aliases": [],
+   "aliases": [
+    "Bartolomé Llerena"
+   ],
    "url": "/people/bartolome-llerena/"
   },
   {
    "name": "Bartolome Partia",
-   "aliases": [],
+   "aliases": [
+    "Bartolomé Partia"
+   ],
    "url": "/people/bartolome-partia/"
   },
   {
    "name": "Beatriz Eliza del Corazon de Jesus Abella Lerena",
-   "aliases": [],
+   "aliases": [
+    "Beatriz Eliza del Corazon de Jesus Abella"
+   ],
    "url": "/people/beatriz-eliza-del-corazon-de-jesus-abella-lerena/"
   },
   {
@@ -469,17 +567,34 @@
   },
   {
    "name": "Candido Costales Serena",
-   "aliases": [],
+   "aliases": [
+    "Candido Costales",
+    "Cándido Costales",
+    "Cándido Costales Serena"
+   ],
    "url": "/people/candido-costales-serena/"
   },
   {
    "name": "Candido Jaime Lerena Juanico",
-   "aliases": [],
+   "aliases": [
+    "Candido Jaime Lerena",
+    "Candido Jaime Lerena Juanicó",
+    "Cándido Jaime Lerena",
+    "Cándido Jaime Lerena Juanico",
+    "Cándido Jaime Lerena Juanicó"
+   ],
    "url": "/people/candido-jaime-lerena-juanico/"
   },
   {
-   "name": "Careen Maria Lerena",
+   "name": "Antonio Ruiz De Carvallo",
    "aliases": [],
+   "url": "/people/capitan-don-antonio-ruiz-rodriguez-de-carvallo/"
+  },
+  {
+   "name": "Careen Maria Lerena",
+   "aliases": [
+    "Careen María Lerena"
+   ],
    "url": "/people/careen-maria-lerena/"
   },
   {
@@ -489,12 +604,15 @@
   },
   {
    "name": "Carlos Ambrosio Florencio Lerena Larriera",
-   "aliases": [],
+   "aliases": [
+    "Carlos Ambrosio Florencio Lerena"
+   ],
    "url": "/people/carlos-ambrosio-florencio-lerena-larriera/"
   },
   {
    "name": "Carlos Augusto Federico Lerena Salvanach",
    "aliases": [
+    "Carlos Augusto Federico Lerena",
     "Carlos Augusto Federico Lerena Salvañach"
    ],
    "url": "/people/carlos-augusto-federico-lerena-salvanach/"
@@ -511,7 +629,9 @@
   },
   {
    "name": "Carlos Martinez Lerena",
-   "aliases": [],
+   "aliases": [
+    "Carlos Martinez"
+   ],
    "url": "/people/carlos-martinez-lerena/"
   },
   {
@@ -521,12 +641,16 @@
   },
   {
    "name": "Carlos Rey Lerena Pelaez",
-   "aliases": [],
+   "aliases": [
+    "Carlos Rey Lerena"
+   ],
    "url": "/people/carlos-rey-lerena-pelaez/"
   },
   {
    "name": "Carlos Teodoro Lerena Lemos",
-   "aliases": [],
+   "aliases": [
+    "Carlos Teodoro Lerena"
+   ],
    "url": "/people/carlos-teodoro-lerena-lemos/"
   },
   {
@@ -541,7 +665,9 @@
   },
   {
    "name": "Carmen Donata Lerena Beloqui",
-   "aliases": [],
+   "aliases": [
+    "Carmen Donata Lerena"
+   ],
    "url": "/people/carmen-donata-lerena-beloqui/"
   },
   {
@@ -553,7 +679,9 @@
   },
   {
    "name": "Carmen Larranaga Lerena",
-   "aliases": [],
+   "aliases": [
+    "Carmen Larranaga"
+   ],
    "url": "/people/carmen-larranaga-lerena/"
   },
   {
@@ -573,13 +701,20 @@
   },
   {
    "name": "Carmen Roman Lerena",
-   "aliases": [],
+   "aliases": [
+    "Carmen Roman"
+   ],
    "url": "/people/carmen-roman-lerena/"
   },
   {
    "name": "Carolina Chavarria",
    "aliases": [],
    "url": "/people/carolina-chavarria/"
+  },
+  {
+   "name": "Carolina Juarez",
+   "aliases": [],
+   "url": "/people/carolina-juarez/"
   },
   {
    "name": "Carolina Lerena",
@@ -598,13 +733,15 @@
   },
   {
    "name": "Casto Lindolfo Lerena Beloqui",
-   "aliases": [],
+   "aliases": [
+    "Casto Lindolfo Lerena"
+   ],
    "url": "/people/casto-lindolfo-lerena-beloqui/"
   },
   {
-   "name": "Catalina Martinez",
+   "name": "Catalina Ydiarte",
    "aliases": [],
-   "url": "/people/catalina-martinez/"
+   "url": "/people/catalina-ydiarte/"
   },
   {
    "name": "Catherine Mary Sophia Booyzen",
@@ -635,7 +772,11 @@
   },
   {
    "name": "Celia Juanico Lenguas",
-   "aliases": [],
+   "aliases": [
+    "Celia Juanico",
+    "Celia Juanicó",
+    "Celia Juanicó Lenguas"
+   ],
    "url": "/people/celia-juanico-lenguas/"
   },
   {
@@ -646,6 +787,7 @@
   {
    "name": "Cesar Alberto Lerena Salvanach",
    "aliases": [
+    "Cesar Alberto Lerena",
     "Cesar Alberto Lerena Salvañach"
    ],
    "url": "/people/cesar-alberto-lerena-salvanach/"
@@ -656,8 +798,15 @@
    "url": "/people/cesar-schiaffino/"
   },
   {
-   "name": "Cipriana Saenz Pena",
+   "name": "Charles William Bell",
    "aliases": [],
+   "url": "/people/charles-william-bell/"
+  },
+  {
+   "name": "Cipriana Saenz Pena",
+   "aliases": [
+    "Cipriana Saenz"
+   ],
    "url": "/people/cipriana-saenz-pena/"
   },
   {
@@ -669,6 +818,11 @@
    "name": "Clara Henriette Knof",
    "aliases": [],
    "url": "/people/clara-henriette-knof/"
+  },
+  {
+   "name": "Clara Ledena",
+   "aliases": [],
+   "url": "/people/clara-ledena/"
   },
   {
    "name": "Clara Lerena",
@@ -693,18 +847,31 @@
    "url": "/people/concepcion-lerena/"
   },
   {
+   "name": "Concepcion Petrona Urbano",
+   "aliases": [
+    "Concepción Petrona Urbano"
+   ],
+   "url": "/people/concepcion-petrona-urbano/"
+  },
+  {
    "name": "Constantino Lavalleja",
    "aliases": [],
    "url": "/people/constantino-lavalleja/"
   },
   {
    "name": "Cora Maria Avelina Lerena Regules",
-   "aliases": [],
+   "aliases": [
+    "Cora Maria Avelina Lerena",
+    "Cora María Avelina Lerena",
+    "Cora María Avelina Lerena Regules"
+   ],
    "url": "/people/cora-maria-avelina-lerena-regules/"
   },
   {
    "name": "Corina Francisca Gonzalez Lerena",
    "aliases": [
+    "Corina Francisca Gonzalez",
+    "Corina Francisca González",
     "Corina Francisca González Lerena"
    ],
    "url": "/people/corina-francisca-gonzalez-lerena/"
@@ -735,8 +902,22 @@
    "url": "/people/damaso-negrotto/"
   },
   {
-   "name": "Dolores Pou de Zalduondo",
+   "name": "Damaso Perera",
    "aliases": [],
+   "url": "/people/damaso-perera/"
+  },
+  {
+   "name": "Delfina Fernandez",
+   "aliases": [
+    "Delfina Fernández"
+   ],
+   "url": "/people/delfina-fernandez/"
+  },
+  {
+   "name": "Dolores Pou de Zalduondo",
+   "aliases": [
+    "Dolores Pou"
+   ],
    "url": "/people/dolores-pou-de-zalduondo/"
   },
   {
@@ -747,6 +928,7 @@
   {
    "name": "Dominga Josefa Llerena Fernandez",
    "aliases": [
+    "Dominga Josefa Llerena",
     "Dominga Josefa Llerena Fernández"
    ],
    "url": "/people/dominga-josefa-llerena-fernandez/"
@@ -767,13 +949,20 @@
    "url": "/people/domingo-rodriguez-de-carvallo/"
   },
   {
+   "name": "Domingo Simois",
+   "aliases": [],
+   "url": "/people/domingo-simois/"
+  },
+  {
    "name": "Antonio Lenguas",
    "aliases": [],
    "url": "/people/don-antonio-lenguas/"
   },
   {
    "name": "Carlos Maria Escalada",
-   "aliases": [],
+   "aliases": [
+    "Carlos María Escalada"
+   ],
    "url": "/people/don-carlos-maria-escalada/"
   },
   {
@@ -800,7 +989,9 @@
   },
   {
    "name": "Fermin de Yeregui",
-   "aliases": [],
+   "aliases": [
+    "Fermín de Yeregui"
+   ],
    "url": "/people/don-fermin-de-yeregui/"
   },
   {
@@ -815,7 +1006,9 @@
   },
   {
    "name": "Geronimo Alonso de Villagomez",
-   "aliases": [],
+   "aliases": [
+    "Geronimo Alonso"
+   ],
    "url": "/people/don-geronimo-alonso-de-villagomez/"
   },
   {
@@ -835,12 +1028,16 @@
   },
   {
    "name": "Luis Eugenio Lerena Lenguas",
-   "aliases": [],
+   "aliases": [
+    "Luis Eugenio Lerena"
+   ],
    "url": "/people/don-luis-eugenio-lerena-lenguas/"
   },
   {
    "name": "Miguel Carlos Correa de Lemus",
-   "aliases": [],
+   "aliases": [
+    "Miguel Carlos Correa"
+   ],
    "url": "/people/don-miguel-carlos-correa-de-lemus/"
   },
   {
@@ -892,7 +1089,9 @@
   },
   {
    "name": "Bernardina Fragoso de Rivera",
-   "aliases": [],
+   "aliases": [
+    "Bernardina Fragoso"
+   ],
    "url": "/people/dona-bernardina-fragoso-de-rivera/"
   },
   {
@@ -921,7 +1120,10 @@
   },
   {
    "name": "Casimira Montano",
-   "aliases": [],
+   "aliases": [
+    "Casimira Montana",
+    "Casimira Montaño"
+   ],
    "url": "/people/dona-casimira-montano/"
   },
   {
@@ -973,7 +1175,9 @@
   },
   {
    "name": "Julia Juanico",
-   "aliases": [],
+   "aliases": [
+    "Julia Juanicó"
+   ],
    "url": "/people/dona-julia-juanico/"
   },
   {
@@ -986,6 +1190,7 @@
   {
    "name": "Justiniana Lenguas Gonzalez",
    "aliases": [
+    "Justiniana Lenguas",
     "Justiniana Lenguas González"
    ],
    "url": "/people/dona-justiniana-lenguas-gonzalez/"
@@ -1008,7 +1213,9 @@
   {
    "name": "Maria Fernandez Tresguerras",
    "aliases": [
-    "Maria Fernández Tresguerras"
+    "Maria Fernández Tresguerras",
+    "María Fernandez Tresguerras",
+    "María Fernández Tresguerras"
    ],
    "url": "/people/dona-maria-fernandez-tresguerras/"
   },
@@ -1030,6 +1237,7 @@
   {
    "name": "Sixta Lenguas Gonzalez",
    "aliases": [
+    "Sixta Lenguas",
     "Sixta Lenguas González"
    ],
    "url": "/people/dona-sixta-lenguas-gonzalez/"
@@ -1046,7 +1254,9 @@
   },
   {
    "name": "Donato Larranaga Lerena",
-   "aliases": [],
+   "aliases": [
+    "Donato Larranaga"
+   ],
    "url": "/people/donato-larranaga-lerena/"
   },
   {
@@ -1061,12 +1271,16 @@
   },
   {
    "name": "Doroteo Donato Lerena Beloqui",
-   "aliases": [],
+   "aliases": [
+    "Doroteo Donato Lerena"
+   ],
    "url": "/people/doroteo-donato-lerena-beloqui/"
   },
   {
    "name": "Doroteo Larranaga Lerena",
-   "aliases": [],
+   "aliases": [
+    "Doroteo Larranaga"
+   ],
    "url": "/people/doroteo-larranaga-lerena/"
   },
   {
@@ -1086,7 +1300,11 @@
   },
   {
    "name": "Candido Juanico",
-   "aliases": [],
+   "aliases": [
+    "Candido Juanicó",
+    "Cándido Juanico",
+    "Cándido Juanicó"
+   ],
    "url": "/people/dr-don-candido-juanico/"
   },
   {
@@ -1101,13 +1319,25 @@
   },
   {
    "name": "Eduardo Avelino Zalduando Lerena",
-   "aliases": [],
+   "aliases": [
+    "Eduardo Avelino Zalduando"
+   ],
    "url": "/people/eduardo-avelino-zalduando-lerena/"
   },
   {
    "name": "Eduardo Carniglia",
    "aliases": [],
    "url": "/people/eduardo-carniglia/"
+  },
+  {
+   "name": "Eduardo Castagnet",
+   "aliases": [],
+   "url": "/people/eduardo-castagnet/"
+  },
+  {
+   "name": "Eduardo Epifanio Alvarez",
+   "aliases": [],
+   "url": "/people/eduardo-epifanio-alvarez/"
   },
   {
    "name": "Eduardo Machiavello",
@@ -1136,12 +1366,16 @@
   },
   {
    "name": "Elida Pilar Lerena Recuero",
-   "aliases": [],
+   "aliases": [
+    "Elida Pilar Lerena"
+   ],
    "url": "/people/elida-pilar-lerena-recuero/"
   },
   {
    "name": "Elidia Margarita Lerena Cardozo",
-   "aliases": [],
+   "aliases": [
+    "Elidia Margarita Lerena"
+   ],
    "url": "/people/elidia-margarita-lerena-cardozo/"
   },
   {
@@ -1161,7 +1395,9 @@
   },
   {
    "name": "Eliseo Cardozo",
-   "aliases": [],
+   "aliases": [
+    "Eliseo Cardoso"
+   ],
    "url": "/people/eliseo-cardozo/"
   },
   {
@@ -1176,7 +1412,9 @@
   },
   {
    "name": "Ema Justina Felicia Lerena Regules",
-   "aliases": [],
+   "aliases": [
+    "Ema Justina Felicia Lerena"
+   ],
    "url": "/people/ema-justina-felicia-lerena-regules/"
   },
   {
@@ -1191,12 +1429,17 @@
   },
   {
    "name": "Ema Sixta Lerena Juanico",
-   "aliases": [],
+   "aliases": [
+    "Ema Sixta Lerena",
+    "Ema Sixta Lerena Juanicó"
+   ],
    "url": "/people/ema-sixta-lerena-juanico/"
   },
   {
    "name": "Emilia Alberta Lerena Bassani",
-   "aliases": [],
+   "aliases": [
+    "Emilia Alberta Lerena"
+   ],
    "url": "/people/emilia-alberta-lerena-bassani/"
   },
   {
@@ -1216,12 +1459,16 @@
   },
   {
    "name": "Emilio Isidoro Lerena Recuero",
-   "aliases": [],
+   "aliases": [
+    "Emilio Isidoro Lerena"
+   ],
    "url": "/people/emilio-isidoro-lerena-recuero/"
   },
   {
    "name": "Emilio Lavina y Goyeneche",
-   "aliases": [],
+   "aliases": [
+    "Emilio Lavina"
+   ],
    "url": "/people/emilio-lavina-y-goyeneche/"
   },
   {
@@ -1244,13 +1491,19 @@
   {
    "name": "Enrique Juanico Gonzalez",
    "aliases": [
-    "Enrique Juanico González"
+    "Enrique Juanico",
+    "Enrique Juanico González",
+    "Enrique Juanicó",
+    "Enrique Juanicó Gonzalez",
+    "Enrique Juanicó González"
    ],
    "url": "/people/enrique-juanico-gonzalez/"
   },
   {
    "name": "Enrique Lerena Juanico",
-   "aliases": [],
+   "aliases": [
+    "Enrique Lerena Juanicó"
+   ],
    "url": "/people/enrique-lerena-juanico/"
   },
   {
@@ -1266,8 +1519,15 @@
    "url": "/people/estanislada-lerena/"
   },
   {
+   "name": "Esteban Indarte",
+   "aliases": [],
+   "url": "/people/esteban-indarte/"
+  },
+  {
    "name": "Estefania Gonzalez Lerena",
    "aliases": [
+    "Estefania Gonzalez",
+    "Estefania González",
     "Estefania González Lerena"
    ],
    "url": "/people/estefania-gonzalez-lerena/"
@@ -1285,6 +1545,7 @@
   {
    "name": "Eusebio Congenio Lerena Gonzalez",
    "aliases": [
+    "Eusebio Congenio Lerena",
     "Eusebio Congenio Lerena González"
    ],
    "url": "/people/eusebio-congenio-lerena-gonzalez/"
@@ -1321,12 +1582,18 @@
   },
   {
    "name": "Felix Antonio Larena Fuentes",
-   "aliases": [],
+   "aliases": [
+    "Felix Antonio Larena",
+    "Félix Antonio Larena",
+    "Félix Antonio Larena Fuentes"
+   ],
    "url": "/people/felix-antonio-larena-fuentes/"
   },
   {
    "name": "Felix Lerena",
-   "aliases": [],
+   "aliases": [
+    "Félix Lerena"
+   ],
    "url": "/people/felix-lerena/"
   },
   {
@@ -1336,17 +1603,23 @@
   },
   {
    "name": "Fermin Carlos de Yeregui",
-   "aliases": [],
+   "aliases": [
+    "Fermín Carlos de Yeregui"
+   ],
    "url": "/people/fermin-carlos-de-yeregui/"
   },
   {
    "name": "Fermin Lerena Barragan",
-   "aliases": [],
+   "aliases": [
+    "Fermín Lerena Barragan"
+   ],
    "url": "/people/fermin-lerena-barragan/"
   },
   {
    "name": "Fermin Lerena",
-   "aliases": [],
+   "aliases": [
+    "Fermín Lerena"
+   ],
    "url": "/people/fermin-lerena/"
   },
   {
@@ -1383,7 +1656,9 @@
   },
   {
    "name": "Florinda Cardozo",
-   "aliases": [],
+   "aliases": [
+    "Florinda Cardoso"
+   ],
    "url": "/people/florinda-cardozo/"
   },
   {
@@ -1393,8 +1668,21 @@
   },
   {
    "name": "Fr Jose Serrano Lopez",
-   "aliases": [],
+   "aliases": [
+    "Fr Jose Serrano",
+    "Fr Jose Serrano López",
+    "Fr José Serrano",
+    "Fr José Serrano Lopez",
+    "Fr José Serrano López"
+   ],
    "url": "/people/fr-jose-serrano-lopez/"
+  },
+  {
+   "name": "Francisca Fernandez",
+   "aliases": [
+    "Francisca Fernández"
+   ],
+   "url": "/people/francisca-fernandez/"
   },
   {
    "name": "Francisco Azanola",
@@ -1409,6 +1697,8 @@
   {
    "name": "Francisco Gonzalez Lerena",
    "aliases": [
+    "Francisco Gonzalez",
+    "Francisco González",
     "Francisco González Lerena"
    ],
    "url": "/people/francisco-gonzalez-lerena/"
@@ -1471,6 +1761,11 @@
    "url": "/people/gilberto-lerena-salvanach/"
   },
   {
+   "name": "Gilberto Justiniano Lerena Lenguas",
+   "aliases": [],
+   "url": "/people/gilberto-lerena/"
+  },
+  {
    "name": "Gloria Llerena",
    "aliases": [],
    "url": "/people/gloria-llerena/"
@@ -1482,7 +1777,9 @@
   },
   {
    "name": "Guillermo Hurtado de Villagomez",
-   "aliases": [],
+   "aliases": [
+    "Guillermo Hurtado"
+   ],
    "url": "/people/guillermo-hurtado-de-villagomez/"
   },
   {
@@ -1502,7 +1799,9 @@
   },
   {
    "name": "Hector Narciso Lerena Bassani",
-   "aliases": [],
+   "aliases": [
+    "Hector Narciso Lerena"
+   ],
    "url": "/people/hector-narciso-lerena-bassani/"
   },
   {
@@ -1512,7 +1811,9 @@
   },
   {
    "name": "Hilario Barros Llerena",
-   "aliases": [],
+   "aliases": [
+    "Hilario Barros"
+   ],
    "url": "/people/hilario-barros-llerena/"
   },
   {
@@ -1535,6 +1836,7 @@
   {
    "name": "Horacio Alfredo Lerena Salvanach",
    "aliases": [
+    "Horacio Alfredo Lerena",
     "Horacio Alfredo Lerena Salvañach"
    ],
    "url": "/people/horacio-alfredo-lerena-salvanach/"
@@ -1556,7 +1858,9 @@
   },
   {
    "name": "Ignacio Larranaga Lerena",
-   "aliases": [],
+   "aliases": [
+    "Ignacio Larranaga"
+   ],
    "url": "/people/ignacio-larranaga-lerena/"
   },
   {
@@ -1567,6 +1871,7 @@
   {
    "name": "Irma Antonia Lerena Fernandez",
    "aliases": [
+    "Irma Antonia Lerena",
     "Irma Antonia Lerena Fernández"
    ],
    "url": "/people/irma-antonia-lerena-fernandez/"
@@ -1613,12 +1918,16 @@
   },
   {
    "name": "Jacinta Mercedes Gregoria Lerena Villademoros",
-   "aliases": [],
+   "aliases": [
+    "Jacinta Mercedes Gregoria Lerena"
+   ],
    "url": "/people/jacinta-mercedes-gregoria-lerena-villademoros/"
   },
   {
    "name": "Jacinta Merina Santos",
-   "aliases": [],
+   "aliases": [
+    "Jacinta Merina"
+   ],
    "url": "/people/jacinta-merina-santos/"
   },
   {
@@ -1637,6 +1946,11 @@
    "url": "/people/joaquin-lerena/"
   },
   {
+   "name": "Joaquina Lozano",
+   "aliases": [],
+   "url": "/people/joaquina-lozano/"
+  },
+  {
    "name": "John Brailey",
    "aliases": [],
    "url": "/people/john-brailey/"
@@ -1652,80 +1966,179 @@
    "url": "/people/jorge-fein/"
   },
   {
+   "name": "Jose Bertucci",
+   "aliases": [
+    "José Bertucci"
+   ],
+   "url": "/people/jose-bertucci/"
+  },
+  {
+   "name": "Jose Breton",
+   "aliases": [
+    "Jose Bretón",
+    "José Breton",
+    "José Bretón"
+   ],
+   "url": "/people/jose-breton/"
+  },
+  {
    "name": "Jose Carreras",
-   "aliases": [],
+   "aliases": [
+    "José Carreras"
+   ],
    "url": "/people/jose-carreras/"
   },
   {
+   "name": "Jose del Rio",
+   "aliases": [
+    "Jose del Río",
+    "José del Rio",
+    "José del Río"
+   ],
+   "url": "/people/jose-del-rio/"
+  },
+  {
    "name": "Jose Dolores Lerena y Lerena",
-   "aliases": [],
+   "aliases": [
+    "Jose Dolores Lerena",
+    "José Dolores Lerena",
+    "José Dolores Lerena y Lerena"
+   ],
    "url": "/people/jose-dolores-lerena-y-lerena/"
   },
   {
+   "name": "Jose Joaquin Reyna",
+   "aliases": [
+    "José Joaquin Reyna"
+   ],
+   "url": "/people/jose-joaquin-reyna/"
+  },
+  {
    "name": "Jose Julio Lerena Juanico",
-   "aliases": [],
+   "aliases": [
+    "Jose Julio Lerena",
+    "Jose Julio Lerena Juanicó",
+    "José Julio Lerena",
+    "José Julio Lerena Juanico",
+    "José Julio Lerena Juanicó"
+   ],
    "url": "/people/jose-julio-lerena-juanico/"
   },
   {
    "name": "Jose Lerena",
-   "aliases": [],
+   "aliases": [
+    "José Lerena"
+   ],
    "url": "/people/jose-lerena/"
   },
   {
    "name": "Jose Loreto Lerena Fernandez",
    "aliases": [
-    "Jose Loreto Lerena Fernández"
+    "Jose Loreto Lerena",
+    "Jose Loreto Lerena Fernández",
+    "José Loreto Lerena",
+    "José Loreto Lerena Fernandez",
+    "José Loreto Lerena Fernández"
    ],
    "url": "/people/jose-loreto-lerena-fernandez/"
   },
   {
+   "name": "Jose Maria Guerrero",
+   "aliases": [
+    "Jose María Guerrero",
+    "José Maria Guerrero",
+    "José María Guerrero"
+   ],
+   "url": "/people/jose-maria-guerrero/"
+  },
+  {
    "name": "Jose Maria Larranaga",
-   "aliases": [],
+   "aliases": [
+    "Jose María Larranaga",
+    "José Maria Larranaga",
+    "José María Larranaga"
+   ],
    "url": "/people/jose-maria-larranaga/"
   },
   {
    "name": "Jose Maria Lerena",
-   "aliases": [],
+   "aliases": [
+    "Jose María Lerena",
+    "José Maria Lerena",
+    "José María Lerena"
+   ],
    "url": "/people/jose-maria-lerena/"
   },
   {
    "name": "Jose Maria Reyes",
-   "aliases": [],
+   "aliases": [
+    "Jose María Reyes",
+    "José Maria Reyes",
+    "José María Reyes"
+   ],
    "url": "/people/jose-maria-reyes/"
   },
   {
    "name": "Jose Martinez De La Vega",
-   "aliases": [],
+   "aliases": [
+    "José Martinez De La Vega"
+   ],
    "url": "/people/jose-martinez-de-la-vega/"
   },
   {
    "name": "Jose Martinez",
-   "aliases": [],
+   "aliases": [
+    "José Martinez"
+   ],
    "url": "/people/jose-martinez/"
   },
   {
    "name": "Jose Montano",
-   "aliases": [],
+   "aliases": [
+    "Jose Montaño",
+    "José Montano",
+    "José Montaño"
+   ],
    "url": "/people/jose-montano/"
   },
   {
    "name": "Jose Pando de Barros",
-   "aliases": [],
+   "aliases": [
+    "José Pando de Barros"
+   ],
    "url": "/people/jose-pando-de-barros/"
   },
   {
+   "name": "Jose Pedro Massera",
+   "aliases": [
+    "José Pedro Massera"
+   ],
+   "url": "/people/jose-pedro-massera/"
+  },
+  {
    "name": "Jose Riera",
-   "aliases": [],
+   "aliases": [
+    "José Riera"
+   ],
    "url": "/people/jose-riera/"
   },
   {
    "name": "Jose Segueira",
-   "aliases": [],
+   "aliases": [
+    "José Segueira"
+   ],
    "url": "/people/jose-segueira/"
   },
   {
-   "name": "Josefa Corbelle de Lemus",
+   "name": "Josefa Carballo",
    "aliases": [],
+   "url": "/people/josefa-carballo/"
+  },
+  {
+   "name": "Josefa Corbelle de Lemus",
+   "aliases": [
+    "Josefa Corbelle"
+   ],
    "url": "/people/josefa-corbelle-de-lemus/"
   },
   {
@@ -1760,7 +2173,9 @@
   },
   {
    "name": "Joseph del Rios",
-   "aliases": [],
+   "aliases": [
+    "Joseph del Ríos"
+   ],
    "url": "/people/joseph-del-rios/"
   },
   {
@@ -1771,9 +2186,15 @@
   {
    "name": "Juan Agustin Lerena Fernandez",
    "aliases": [
+    "Juan Agustin Lerena",
     "Juan Agustin Lerena Fernández"
    ],
    "url": "/people/juan-agustin-lerena-fernandez/"
+  },
+  {
+   "name": "Juan Anander",
+   "aliases": [],
+   "url": "/people/juan-anander/"
   },
   {
    "name": "Juan Antonio Larena",
@@ -1782,17 +2203,28 @@
   },
   {
    "name": "Juan Arturo Lerena Traibel",
-   "aliases": [],
+   "aliases": [
+    "Juan Arturo Lerena"
+   ],
    "url": "/people/juan-arturo-lerena-traibel/"
   },
   {
    "name": "Juan Basilio Cardozo",
-   "aliases": [],
+   "aliases": [
+    "Juan Basilio Cardoso"
+   ],
    "url": "/people/juan-basilio-cardozo/"
   },
   {
-   "name": "Juan Bernardo Lerena Pelaez",
+   "name": "Juan Berenguer",
    "aliases": [],
+   "url": "/people/juan-berenguer/"
+  },
+  {
+   "name": "Juan Bernardo Lerena Pelaez",
+   "aliases": [
+    "Juan Bernardo Lerena"
+   ],
    "url": "/people/juan-bernardo-lerena-pelaez/"
   },
   {
@@ -1803,6 +2235,8 @@
   {
    "name": "Juan Carlos Gonzalez Lerena",
    "aliases": [
+    "Juan Carlos Gonzalez",
+    "Juan Carlos González",
     "Juan Carlos González Lerena"
    ],
    "url": "/people/juan-carlos-gonzalez-lerena/"
@@ -1829,45 +2263,82 @@
   },
   {
    "name": "Juan Facundo Frutuoso Barros Lerena",
-   "aliases": [],
+   "aliases": [
+    "Juan Facundo Frutuoso Barros"
+   ],
    "url": "/people/juan-facundo-frutuoso-barros-lerena/"
   },
   {
    "name": "Juan Fernandez Alvarez",
    "aliases": [
+    "Juan Fernandez",
+    "Juan Fernández",
     "Juan Fernández Alvarez"
    ],
    "url": "/people/juan-fernandez-alvarez/"
   },
   {
    "name": "Juan Fernando Lerena Diaz",
-   "aliases": [],
+   "aliases": [
+    "Juan Fernando Lerena",
+    "Juan Fernando Lerena Díaz"
+   ],
    "url": "/people/juan-fernando-lerena-diaz/"
   },
   {
-   "name": "Juan Ildebel Alvarez y Lerena",
+   "name": "Juan Francisco Cardoso",
    "aliases": [],
+   "url": "/people/juan-francisco-cardoso/"
+  },
+  {
+   "name": "Juan Ildebel Alvarez y Lerena",
+   "aliases": [
+    "Juan Ildebel Alvarez"
+   ],
    "url": "/people/juan-ildebel-alvarez-y-lerena/"
   },
   {
-   "name": "Juan Jose Lerena y Lerena",
+   "name": "Juan Jordan",
    "aliases": [],
+   "url": "/people/juan-jordan/"
+  },
+  {
+   "name": "Juan Jose Lerena y Lerena",
+   "aliases": [
+    "Juan José Lerena y Lerena"
+   ],
    "url": "/people/juan-jose-lerena-y-lerena/"
   },
   {
    "name": "Juan Jose Lerena",
-   "aliases": [],
+   "aliases": [
+    "Juan José Lerena"
+   ],
    "url": "/people/juan-jose-lerena/"
   },
   {
    "name": "Juan Jose Zalduando Pou",
-   "aliases": [],
+   "aliases": [
+    "Juan Jose Zalduando",
+    "Juan José Zalduando",
+    "Juan José Zalduando Pou"
+   ],
    "url": "/people/juan-jose-zalduando-pou/"
   },
   {
    "name": "Juan Lerena",
    "aliases": [],
    "url": "/people/juan-lerena/"
+  },
+  {
+   "name": "Juan Lloberas",
+   "aliases": [],
+   "url": "/people/juan-lloberas/"
+  },
+  {
+   "name": "Juan Miguel de Laguna",
+   "aliases": [],
+   "url": "/people/juan-miguel-de-laguna/"
   },
   {
    "name": "Juan Nepomuceno Gonzalez",
@@ -1883,12 +2354,16 @@
   },
   {
    "name": "Juan Pedro Olivera Lerena",
-   "aliases": [],
+   "aliases": [
+    "Juan Pedro Olivera"
+   ],
    "url": "/people/juan-pedro-olivera-lerena/"
   },
   {
    "name": "Juan Pelaez",
-   "aliases": [],
+   "aliases": [
+    "Juan Pelaes"
+   ],
    "url": "/people/juan-pelaez/"
   },
   {
@@ -1903,17 +2378,23 @@
   },
   {
    "name": "Juan Zorrilla De San Martin",
-   "aliases": [],
+   "aliases": [
+    "Juan Zorrilla De San"
+   ],
    "url": "/people/juan-zorrilla-de-san-martin/"
   },
   {
    "name": "Juana Alejandra Lerena Echeverry",
-   "aliases": [],
+   "aliases": [
+    "Juana Alejandra Lerena"
+   ],
    "url": "/people/juana-alejandra-lerena-echeverry/"
   },
   {
    "name": "Juana Benteno Correa",
-   "aliases": [],
+   "aliases": [
+    "Juana Benteno"
+   ],
    "url": "/people/juana-benteno-correa/"
   },
   {
@@ -1943,7 +2424,9 @@
   },
   {
    "name": "Juana Maria Lerena",
-   "aliases": [],
+   "aliases": [
+    "Juana María Lerena"
+   ],
    "url": "/people/juana-maria-lerena/"
   },
   {
@@ -1995,7 +2478,9 @@
   },
   {
    "name": "Justiniana Mauricia Maxima Lerena Lenguas",
-   "aliases": [],
+   "aliases": [
+    "Justiniana Mauricia Maxima Lerena"
+   ],
    "url": "/people/justiniana-mauricia-maxima-lerena-lenguas/"
   },
   {
@@ -2015,7 +2500,10 @@
   },
   {
    "name": "Laura Adela Lerena Juanico",
-   "aliases": [],
+   "aliases": [
+    "Laura Adela Lerena",
+    "Laura Adela Lerena Juanicó"
+   ],
    "url": "/people/laura-adela-lerena-juanico/"
   },
   {
@@ -2035,7 +2523,11 @@
   },
   {
    "name": "Leon Jose Lerena",
-   "aliases": [],
+   "aliases": [
+    "Leon José Lerena",
+    "León Jose Lerena",
+    "León José Lerena"
+   ],
    "url": "/people/leon-jose-lerena/"
   },
   {
@@ -2045,12 +2537,16 @@
   },
   {
    "name": "Leonarda Margarita Lerena Vega",
-   "aliases": [],
+   "aliases": [
+    "Leonarda Margarita Lerena"
+   ],
    "url": "/people/leonarda-margarita-lerena-vega/"
   },
   {
    "name": "Leonidas Gonzalez Lerena",
    "aliases": [
+    "Leonidas Gonzalez",
+    "Leonidas González",
     "Leonidas González Lerena"
    ],
    "url": "/people/leonidas-gonzalez-lerena/"
@@ -2063,6 +2559,8 @@
   {
    "name": "Leopoldo Gonzalez Lerena",
    "aliases": [
+    "Leopoldo Gonzalez",
+    "Leopoldo González",
     "Leopoldo González Lerena"
    ],
    "url": "/people/leopoldo-gonzalez-lerena/"
@@ -2074,7 +2572,9 @@
   },
   {
    "name": "Lorenzo Martinez de Olalla",
-   "aliases": [],
+   "aliases": [
+    "Lorenzo Martinez"
+   ],
    "url": "/people/lorenzo-martinez-de-olalla/"
   },
   {
@@ -2083,9 +2583,21 @@
    "url": "/people/lucas-lerena/"
   },
   {
+   "name": "Lucia Lemos de Simois",
+   "aliases": [
+    "Lucia Lemos"
+   ],
+   "url": "/people/lucia-lemos-de-simois/"
+  },
+  {
    "name": "Lucia Llanos",
    "aliases": [],
    "url": "/people/lucia-llanos/"
+  },
+  {
+   "name": "Luciano Bonamino",
+   "aliases": [],
+   "url": "/people/luciano-bonamino/"
   },
   {
    "name": "Luciano Lerena",
@@ -2118,13 +2630,21 @@
    "url": "/people/luis-barbe/"
   },
   {
-   "name": "Luis Costales Serena",
+   "name": "Luis Cincinato Bollo",
    "aliases": [],
+   "url": "/people/luis-cincinato-bollo/"
+  },
+  {
+   "name": "Luis Costales Serena",
+   "aliases": [
+    "Luis Costales"
+   ],
    "url": "/people/luis-costales-serena/"
   },
   {
    "name": "Luis Felipe Lerena Salvanach",
    "aliases": [
+    "Luis Felipe Lerena",
     "Luis Felipe Lerena Salvañach"
    ],
    "url": "/people/luis-felipe-lerena-salvanach/"
@@ -2136,7 +2656,9 @@
   },
   {
    "name": "Luis Pelaez Lerena",
-   "aliases": [],
+   "aliases": [
+    "Luis Pelaez"
+   ],
    "url": "/people/luis-pelaez-lerena/"
   },
   {
@@ -2162,9 +2684,16 @@
   {
    "name": "Manuel Fernandez Alvarez",
    "aliases": [
+    "Manuel Fernandez",
+    "Manuel Fernández",
     "Manuel Fernández Alvarez"
    ],
    "url": "/people/manuel-fernandez-alvarez/"
+  },
+  {
+   "name": "Manuel Ferreyra",
+   "aliases": [],
+   "url": "/people/manuel-ferreyra/"
   },
   {
    "name": "Manuel Lerena Leonard",
@@ -2183,13 +2712,20 @@
   },
   {
    "name": "Manuel Vicente Lerena Marino",
-   "aliases": [],
+   "aliases": [
+    "Manuel Vicente Lerena"
+   ],
    "url": "/people/manuel-vicente-lerena-marino/"
   },
   {
    "name": "Manuel Zeferino Barros",
    "aliases": [],
    "url": "/people/manuel-zeferino-barros/"
+  },
+  {
+   "name": "Manuela Barriaga",
+   "aliases": [],
+   "url": "/people/manuela-barriaga/"
   },
   {
    "name": "Manuela Iturriaga",
@@ -2224,7 +2760,11 @@
   {
    "name": "Marcos de Leon Gonzalez",
    "aliases": [
-    "Marcos de Leon González"
+    "Marcos de Leon",
+    "Marcos de Leon González",
+    "Marcos de León",
+    "Marcos de León Gonzalez",
+    "Marcos de León González"
    ],
    "url": "/people/marcos-de-leon-gonzalez/"
   },
@@ -2241,6 +2781,8 @@
   {
    "name": "Margarita Fernandez Alvarez",
    "aliases": [
+    "Margarita Fernandez",
+    "Margarita Fernández",
     "Margarita Fernández Alvarez"
    ],
    "url": "/people/margarita-fernandez-alvarez/"
@@ -2257,240 +2799,391 @@
   },
   {
    "name": "Margarita Medarda del Corazon de Jesus Lerena Pelaez",
-   "aliases": [],
+   "aliases": [
+    "Margarita Medarda del Corazon de Jesus Lerena"
+   ],
    "url": "/people/margarita-medarda-del-corazon-de-jesus-lerena-pelaez/"
   },
   {
    "name": "Maria Adela Lerena Carniglia",
-   "aliases": [],
+   "aliases": [
+    "Maria Adela Lerena",
+    "María Adela Lerena",
+    "María Adela Lerena Carniglia"
+   ],
    "url": "/people/maria-adela-lerena-carniglia/"
   },
   {
    "name": "Maria Adelina Lerena Larriera",
-   "aliases": [],
+   "aliases": [
+    "María Adelina Lerena Larriera"
+   ],
    "url": "/people/maria-adelina-lerena-larriera/"
   },
   {
    "name": "Maria Adelina Lerena Traibel",
-   "aliases": [],
+   "aliases": [
+    "María Adelina Lerena Traibel"
+   ],
    "url": "/people/maria-adelina-lerena-traibel/"
   },
   {
    "name": "Maria Angelica Julia Lerena Salvanach",
    "aliases": [
-    "Maria Angelica Julia Lerena Salvañach"
+    "Maria Angelica Julia Lerena",
+    "Maria Angelica Julia Lerena Salvañach",
+    "María Angelica Julia Lerena",
+    "María Angelica Julia Lerena Salvanach",
+    "María Angelica Julia Lerena Salvañach"
    ],
    "url": "/people/maria-angelica-julia-lerena-salvanach/"
   },
   {
    "name": "Maria Angelica Yubia",
-   "aliases": [],
+   "aliases": [
+    "María Angelica Yubia"
+   ],
    "url": "/people/maria-angelica-yubia/"
   },
   {
    "name": "Maria Antonieta Lerena Larriera",
-   "aliases": [],
+   "aliases": [
+    "Maria Antonieta Lerena",
+    "María Antonieta Lerena",
+    "María Antonieta Lerena Larriera"
+   ],
    "url": "/people/maria-antonieta-lerena-larriera/"
   },
   {
    "name": "Maria Carlota Amadeo Lastra",
-   "aliases": [],
+   "aliases": [
+    "Maria Carlota Amadeo",
+    "María Carlota Amadeo",
+    "María Carlota Amadeo Lastra"
+   ],
    "url": "/people/maria-carlota-amadeo-lastra/"
   },
   {
    "name": "Maria Carlota Lerena Salvanach",
    "aliases": [
-    "Maria Carlota Lerena Salvañach"
+    "Maria Carlota Lerena",
+    "Maria Carlota Lerena Salvañach",
+    "María Carlota Lerena",
+    "María Carlota Lerena Salvanach",
+    "María Carlota Lerena Salvañach"
    ],
    "url": "/people/maria-carlota-lerena-salvanach/"
   },
   {
    "name": "Maria Carlota Moratorio Lerena",
-   "aliases": [],
+   "aliases": [
+    "Maria Carlota Moratorio",
+    "María Carlota Moratorio",
+    "María Carlota Moratorio Lerena"
+   ],
    "url": "/people/maria-carlota-moratorio-lerena/"
   },
   {
    "name": "Maria Consuelo Lerena Larriera",
-   "aliases": [],
+   "aliases": [
+    "Maria Consuelo Lerena",
+    "María Consuelo Lerena",
+    "María Consuelo Lerena Larriera"
+   ],
    "url": "/people/maria-consuelo-lerena-larriera/"
   },
   {
    "name": "Maria Cristina",
-   "aliases": [],
+   "aliases": [
+    "María Cristina"
+   ],
    "url": "/people/maria-cristina/"
   },
   {
    "name": "Maria de las Mercedes Moratorio Lerena",
-   "aliases": [],
+   "aliases": [
+    "Maria de las Mercedes Moratorio",
+    "María de las Mercedes Moratorio",
+    "María de las Mercedes Moratorio Lerena"
+   ],
    "url": "/people/maria-de-las-mercedes-moratorio-lerena/"
   },
   {
    "name": "Maria de los Reyes Gonzalez",
    "aliases": [
-    "Maria de los Reyes González"
+    "Maria de los Reyes González",
+    "María de los Reyes Gonzalez",
+    "María de los Reyes González"
    ],
    "url": "/people/maria-de-los-reyes-gonzalez/"
   },
   {
    "name": "Maria Dolores Moratorio Lerena",
-   "aliases": [],
+   "aliases": [
+    "Maria Dolores Moratorio",
+    "María Dolores Moratorio",
+    "María Dolores Moratorio Lerena"
+   ],
    "url": "/people/maria-dolores-moratorio-lerena/"
   },
   {
+   "name": "Maria Eladia Ramona Mendoza",
+   "aliases": [
+    "María Eladia Ramona Mendoza"
+   ],
+   "url": "/people/maria-eladia-ramona-mendoza/"
+  },
+  {
    "name": "Maria Elena Lerena Pelaez",
-   "aliases": [],
+   "aliases": [
+    "María Elena Lerena Pelaez"
+   ],
    "url": "/people/maria-elena-lerena-pelaez/"
   },
   {
    "name": "Maria Elena Lerena",
-   "aliases": [],
+   "aliases": [
+    "María Elena Lerena"
+   ],
    "url": "/people/maria-elena-lerena/"
   },
   {
    "name": "Maria Elena Zalduondo Lerena",
-   "aliases": [],
+   "aliases": [
+    "Maria Elena Zalduondo",
+    "María Elena Zalduondo",
+    "María Elena Zalduondo Lerena"
+   ],
    "url": "/people/maria-elena-zalduondo-lerena/"
   },
   {
    "name": "Maria Elisa Zalduando Carlevaro",
-   "aliases": [],
+   "aliases": [
+    "Maria Elisa Zalduando",
+    "María Elisa Zalduando",
+    "María Elisa Zalduando Carlevaro"
+   ],
    "url": "/people/maria-elisa-zalduando-carlevaro/"
   },
   {
    "name": "Maria Ema Lerena Lenguas",
-   "aliases": [],
+   "aliases": [
+    "Maria Ema Lerena",
+    "María Ema Lerena",
+    "María Ema Lerena Lenguas"
+   ],
    "url": "/people/maria-ema-lerena-lenguas/"
   },
   {
    "name": "Maria Ester Costa",
-   "aliases": [],
+   "aliases": [
+    "María Ester Costa"
+   ],
    "url": "/people/maria-ester-costa/"
   },
   {
    "name": "Maria Fernandez Alvarez",
    "aliases": [
-    "Maria Fernández Alvarez"
+    "Maria Fernández Alvarez",
+    "María Fernandez Alvarez",
+    "María Fernández Alvarez"
    ],
    "url": "/people/maria-fernandez-alvarez/"
   },
   {
    "name": "Maria Gonzalez Lerena",
    "aliases": [
-    "Maria González Lerena"
+    "Maria Gonzalez",
+    "Maria González",
+    "Maria González Lerena",
+    "María Gonzalez",
+    "María Gonzalez Lerena",
+    "María González",
+    "María González Lerena"
    ],
    "url": "/people/maria-gonzalez-lerena/"
   },
   {
    "name": "Maria Guillerma Giuria",
-   "aliases": [],
+   "aliases": [
+    "María Guillerma Giuria"
+   ],
    "url": "/people/maria-guillerma-giuria/"
   },
   {
    "name": "Maria Ines Larriera",
-   "aliases": [],
+   "aliases": [
+    "María Ines Larriera"
+   ],
    "url": "/people/maria-ines-larriera/"
   },
   {
    "name": "Maria Ines Lerena Larriera",
-   "aliases": [],
+   "aliases": [
+    "Maria Ines Lerena",
+    "María Ines Lerena",
+    "María Ines Lerena Larriera"
+   ],
    "url": "/people/maria-ines-lerena-larriera/"
   },
   {
    "name": "Maria Joaquina",
-   "aliases": [],
+   "aliases": [
+    "María Joaquina"
+   ],
    "url": "/people/maria-joaquina/"
   },
   {
    "name": "Maria Josefa Gonzalez",
    "aliases": [
-    "Maria Josefa González"
+    "Maria Josefa González",
+    "María Josefa Gonzalez",
+    "María Josefa González"
    ],
    "url": "/people/maria-josefa-gonzalez/"
   },
   {
    "name": "Maria Josefina Lerena",
-   "aliases": [],
+   "aliases": [
+    "María Josefina Lerena"
+   ],
    "url": "/people/maria-josefina-lerena/"
   },
   {
    "name": "Maria Juana",
-   "aliases": [],
+   "aliases": [
+    "María Juana"
+   ],
    "url": "/people/maria-juana/"
   },
   {
    "name": "Maria Julia Margarita Josefa Emirena Justiniana Lerena Juanico",
-   "aliases": [],
+   "aliases": [
+    "Maria Julia Margarita Josefa Emirena Justiniana Lerena",
+    "Maria Julia Margarita Josefa Emirena Justiniana Lerena Juanicó",
+    "María Julia Margarita Josefa Emirena Justiniana Lerena",
+    "María Julia Margarita Josefa Emirena Justiniana Lerena Juanico",
+    "María Julia Margarita Josefa Emirena Justiniana Lerena Juanicó"
+   ],
    "url": "/people/maria-julia-margarita-josefa-emirena-justiniana-lerena-juanico/"
   },
   {
    "name": "Maria Leonor Lerena Beloqui",
-   "aliases": [],
+   "aliases": [
+    "Maria Leonor Lerena",
+    "María Leonor Lerena",
+    "María Leonor Lerena Beloqui"
+   ],
    "url": "/people/maria-leonor-lerena-beloqui/"
   },
   {
    "name": "Maria Lerena Pelaez",
-   "aliases": [],
+   "aliases": [
+    "María Lerena Pelaez"
+   ],
    "url": "/people/maria-lerena-pelaez/"
   },
   {
    "name": "Maria Lorena",
-   "aliases": [],
+   "aliases": [
+    "María Lorena"
+   ],
    "url": "/people/maria-lorena/"
   },
   {
+   "name": "Maria Luisa Breton",
+   "aliases": [
+    "Maria Luisa Bretón",
+    "María Luisa Breton",
+    "María Luisa Bretón"
+   ],
+   "url": "/people/maria-luisa-breton/"
+  },
+  {
    "name": "Maria Luisa Lerena",
-   "aliases": [],
+   "aliases": [
+    "María Luisa Lerena"
+   ],
    "url": "/people/maria-luisa-lerena/"
   },
   {
    "name": "Maria Luisa Lina Lerena Gazo",
-   "aliases": [],
+   "aliases": [
+    "Maria Luisa Lina Lerena",
+    "María Luisa Lina Lerena",
+    "María Luisa Lina Lerena Gazo"
+   ],
    "url": "/people/maria-luisa-lina-lerena-gazo/"
   },
   {
    "name": "Maria Margarita Luisa Zalduondo Lerena",
-   "aliases": [],
+   "aliases": [
+    "Maria Margarita Luisa Zalduondo",
+    "María Margarita Luisa Zalduondo",
+    "María Margarita Luisa Zalduondo Lerena"
+   ],
    "url": "/people/maria-margarita-luisa-zalduondo-lerena/"
   },
   {
    "name": "Maria Mercedes Lerena Carniglia",
-   "aliases": [],
+   "aliases": [
+    "María Mercedes Lerena Carniglia"
+   ],
    "url": "/people/maria-mercedes-lerena-carniglia/"
   },
   {
    "name": "Maria Mercedes Lerena",
-   "aliases": [],
+   "aliases": [
+    "María Mercedes Lerena"
+   ],
    "url": "/people/maria-mercedes-lerena/"
   },
   {
    "name": "Maria Mercedes Razzetti",
-   "aliases": [],
+   "aliases": [
+    "María Mercedes Razzetti"
+   ],
    "url": "/people/maria-mercedes-razzetti/"
   },
   {
    "name": "Maria Mercedes",
-   "aliases": [],
+   "aliases": [
+    "María Mercedes"
+   ],
    "url": "/people/maria-mercedes/"
   },
   {
    "name": "Maria Pelaez",
-   "aliases": [],
+   "aliases": [
+    "María Pelaez"
+   ],
    "url": "/people/maria-pelaez/"
   },
   {
    "name": "Maria Pereyra",
-   "aliases": [],
+   "aliases": [
+    "María Pereyra"
+   ],
    "url": "/people/maria-pereyra/"
   },
   {
    "name": "Maria Regina Lerena Barragan",
-   "aliases": [],
+   "aliases": [
+    "Maria Regina Lerena",
+    "María Regina Lerena",
+    "María Regina Lerena Barragan"
+   ],
    "url": "/people/maria-regina-lerena-barragan/"
   },
   {
    "name": "Martin Lerena",
    "aliases": [],
    "url": "/people/martin-lerena/"
+  },
+  {
+   "name": "Martin Perez",
+   "aliases": [],
+   "url": "/people/martin-perez/"
   },
   {
    "name": "Martina Lerena",
@@ -2503,18 +3196,32 @@
    "url": "/people/mary-ann-hellen-brayley/"
   },
   {
+   "name": "Mary Anne Duddy",
+   "aliases": [],
+   "url": "/people/mary-anne-duddy/"
+  },
+  {
+   "name": "Mary Jane Marshall",
+   "aliases": [],
+   "url": "/people/mary-jane-marshall/"
+  },
+  {
    "name": "Mary Septima Taylor",
    "aliases": [],
    "url": "/people/mary-septima-taylor/"
   },
   {
    "name": "Maximo Pelaez",
-   "aliases": [],
+   "aliases": [
+    "Máximo Pelaez"
+   ],
    "url": "/people/maximo-pelaez/"
   },
   {
    "name": "Mayor Don Joaquin Ruiz De Carvallo",
-   "aliases": [],
+   "aliases": [
+    "Joaquin Ruiz de Carvallo"
+   ],
    "url": "/people/mayor-don-joaquin-ruiz-de-carvallo/"
   },
   {
@@ -2536,8 +3243,15 @@
   },
   {
    "name": "Mercedes Micaela Lerena Traibel",
-   "aliases": [],
+   "aliases": [
+    "Mercedes Micaela Lerena"
+   ],
    "url": "/people/mercedes-micaela-lerena-traibel/"
+  },
+  {
+   "name": "Michael Joseph Duddy",
+   "aliases": [],
+   "url": "/people/michael-joseph-duddy/"
   },
   {
    "name": "Miguel Larriera",
@@ -2550,8 +3264,15 @@
    "url": "/people/miguel-mugular/"
   },
   {
-   "name": "Natalia Elena Lerena Recuero",
+   "name": "Miguel Ramos",
    "aliases": [],
+   "url": "/people/miguel-ramos/"
+  },
+  {
+   "name": "Natalia Elena Lerena Recuero",
+   "aliases": [
+    "Natalia Elena Lerena"
+   ],
    "url": "/people/natalia-elena-lerena-recuero/"
   },
   {
@@ -2561,7 +3282,9 @@
   },
   {
    "name": "Nemecio Ramon Lerena",
-   "aliases": [],
+   "aliases": [
+    "Nemecio Ramón Lerena"
+   ],
    "url": "/people/nemecio-ramon-lerena/"
   },
   {
@@ -2596,7 +3319,9 @@
   },
   {
    "name": "Obispo Jacinto Vera",
-   "aliases": [],
+   "aliases": [
+    "Jacinto Vera"
+   ],
    "url": "/people/obispo-jacinto-vera/"
   },
   {
@@ -2615,6 +3340,11 @@
    "url": "/people/pablo-armando-lerena/"
   },
   {
+   "name": "Pablo Moyano",
+   "aliases": [],
+   "url": "/people/pablo-moyano/"
+  },
+  {
    "name": "Paolo Lerena",
    "aliases": [],
    "url": "/people/paolo-lerena/"
@@ -2626,7 +3356,9 @@
   },
   {
    "name": "Paula Modesta Lerena Pelaez",
-   "aliases": [],
+   "aliases": [
+    "Paula Modesta Lerena"
+   ],
    "url": "/people/paula-modesta-lerena-pelaez/"
   },
   {
@@ -2636,12 +3368,21 @@
   },
   {
    "name": "Paulina Prando Algar",
-   "aliases": [],
+   "aliases": [
+    "Paulina Prando"
+   ],
    "url": "/people/paulina-prando-algar/"
   },
   {
-   "name": "Pedro Alberto Ysabelino Lerena Traibel",
+   "name": "Paulino Larriera",
    "aliases": [],
+   "url": "/people/paulino-larriera/"
+  },
+  {
+   "name": "Pedro Alberto Ysabelino Lerena Traibel",
+   "aliases": [
+    "Pedro Alberto Ysabelino Lerena"
+   ],
    "url": "/people/pedro-alberto-ysabelino-lerena-traibel/"
   },
   {
@@ -2651,7 +3392,9 @@
   },
   {
    "name": "Pedro Gualberto Lerena Villademoros",
-   "aliases": [],
+   "aliases": [
+    "Pedro Gualberto Lerena"
+   ],
    "url": "/people/pedro-gualberto-lerena-villademoros/"
   },
   {
@@ -2687,13 +3430,16 @@
   {
    "name": "Pedro Ricardo Lerena Fernandez",
    "aliases": [
+    "Pedro Ricardo Lerena",
     "Pedro Ricardo Lerena Fernández"
    ],
    "url": "/people/pedro-ricardo-lerena-fernandez/"
   },
   {
    "name": "Pedro Segundo Lerena Villademoros",
-   "aliases": [],
+   "aliases": [
+    "Pedro Segundo Lerena"
+   ],
    "url": "/people/pedro-segundo-lerena-villademoros/"
   },
   {
@@ -2710,12 +3456,16 @@
   },
   {
    "name": "Petrona Lopez",
-   "aliases": [],
+   "aliases": [
+    "Petrona López"
+   ],
    "url": "/people/petrona-lopez/"
   },
   {
    "name": "Petrona Medero Llerena",
-   "aliases": [],
+   "aliases": [
+    "Petrona Medero"
+   ],
    "url": "/people/petrona-medero-llerena/"
   },
   {
@@ -2735,12 +3485,16 @@
   },
   {
    "name": "Presbitero Juan Jose Brid",
-   "aliases": [],
+   "aliases": [
+    "Presbitero Juan José Brid"
+   ],
    "url": "/people/presbitero-juan-jose-brid/"
   },
   {
    "name": "Prudencio Benito Lerena y Lerena",
-   "aliases": [],
+   "aliases": [
+    "Prudencio Benito Lerena"
+   ],
    "url": "/people/prudencio-benito-lerena-y-lerena/"
   },
   {
@@ -2754,6 +3508,11 @@
    "url": "/people/rafael-costa/"
   },
   {
+   "name": "Rafael Sanchez",
+   "aliases": [],
+   "url": "/people/rafael-sanchez/"
+  },
+  {
    "name": "Rafael Yeregui",
    "aliases": [],
    "url": "/people/rafael-yeregui/"
@@ -2765,13 +3524,26 @@
   },
   {
    "name": "Ramon Llerena",
-   "aliases": [],
+   "aliases": [
+    "Ramón Llerena"
+   ],
    "url": "/people/ramon-llerena/"
   },
   {
    "name": "Ramon Paulino Olivera Lerena",
-   "aliases": [],
+   "aliases": [
+    "Ramon Paulino Olivera",
+    "Ramón Paulino Olivera",
+    "Ramón Paulino Olivera Lerena"
+   ],
    "url": "/people/ramon-paulino-olivera-lerena/"
+  },
+  {
+   "name": "Ramon Rivero",
+   "aliases": [
+    "Ramón Rivero"
+   ],
+   "url": "/people/ramon-rivero/"
   },
   {
    "name": "Ramona Lerena",
@@ -2789,6 +3561,11 @@
    "url": "/people/rhena-may-lerena/"
   },
   {
+   "name": "Ricardo Jara",
+   "aliases": [],
+   "url": "/people/ricardo-jara/"
+  },
+  {
    "name": "Ricardo Juan Carlos Lerena",
    "aliases": [],
    "url": "/people/ricardo-juan-carlos-lerena/"
@@ -2800,18 +3577,41 @@
   },
   {
    "name": "Rieta Maria Lerena",
-   "aliases": [],
+   "aliases": [
+    "Rieta María Lerena"
+   ],
    "url": "/people/rieta-maria-lerena/"
   },
   {
    "name": "Risilio Maria Lerena Cardozo",
-   "aliases": [],
+   "aliases": [
+    "Risilio Maria Lerena",
+    "Risilio María Lerena",
+    "Risilio María Lerena Cardozo"
+   ],
    "url": "/people/risilio-maria-lerena-cardozo/"
   },
   {
-   "name": "Roberto Ambrosio Lerena Regules",
+   "name": "Rita Carbajo",
    "aliases": [],
+   "url": "/people/rita-carbajo/"
+  },
+  {
+   "name": "Roberto Ambrosio Lerena Regules",
+   "aliases": [
+    "Roberto Ambrosio Lerena"
+   ],
    "url": "/people/roberto-ambrosio-lerena-regules/"
+  },
+  {
+   "name": "Roberto Juan Roque Llorens",
+   "aliases": [],
+   "url": "/people/roberto-juan-roque-llorens/"
+  },
+  {
+   "name": "Roberto Llorens",
+   "aliases": [],
+   "url": "/people/roberto-llorens/"
   },
   {
    "name": "Rodolfo Bernardo Lerena",
@@ -2832,7 +3632,9 @@
   },
   {
    "name": "Roque Luis Armando Lerena",
-   "aliases": [],
+   "aliases": [
+    "Roque Lois Armando"
+   ],
    "url": "/people/roque-luis-armando-lerena/"
   },
   {
@@ -2859,17 +3661,23 @@
   },
   {
    "name": "Rosa Maria Eppens",
-   "aliases": [],
+   "aliases": [
+    "Rosa María Eppens"
+   ],
    "url": "/people/rosa-maria-eppens/"
   },
   {
    "name": "Rosalia Aguilar",
-   "aliases": [],
+   "aliases": [
+    "Rosalía Aguilar"
+   ],
    "url": "/people/rosalia-aguilar/"
   },
   {
    "name": "Rosario Fulgencia Lerena Echeverry",
-   "aliases": [],
+   "aliases": [
+    "Rosario Fulgencia Lerena"
+   ],
    "url": "/people/rosario-fulgencia-lerena-echeverry/"
   },
   {
@@ -2884,7 +3692,9 @@
   },
   {
    "name": "Roseline Wilhelmina Forbes",
-   "aliases": [],
+   "aliases": [
+    "Rosaline Wilhelmina Chappell"
+   ],
    "url": "/people/roseline-wilhelmina-forbes/"
   },
   {
@@ -2898,20 +3708,32 @@
    "url": "/people/sabina-lerena/"
   },
   {
-   "name": "Sancho Llerena Aguilar",
+   "name": "Salvador Angulo",
    "aliases": [],
+   "url": "/people/salvador-angulo/"
+  },
+  {
+   "name": "Sancho Llerena Aguilar",
+   "aliases": [
+    "Sancho Llerena"
+   ],
    "url": "/people/sancho-llerena-aguilar/"
   },
   {
    "name": "Sara Esmeralda Lerena Fernandez",
    "aliases": [
+    "Sara Esmeralda Lerena",
     "Sara Esmeralda Lerena Fernández"
    ],
    "url": "/people/sara-esmeralda-lerena-fernandez/"
   },
   {
    "name": "Sara Juanico Lenguas",
-   "aliases": [],
+   "aliases": [
+    "Sara Juanico",
+    "Sara Juanicó",
+    "Sara Juanicó Lenguas"
+   ],
    "url": "/people/sara-juanico-lenguas/"
   },
   {
@@ -2942,6 +3764,8 @@
   {
    "name": "Servando Cecilio Gonzalez Lerena",
    "aliases": [
+    "Servando Cecilio Gonzalez",
+    "Servando Cecilio González",
     "Servando Cecilio González Lerena"
    ],
    "url": "/people/servando-cecilio-gonzalez-lerena/"
@@ -2982,7 +3806,9 @@
   },
   {
    "name": "Susana Avelina Canale Lerena",
-   "aliases": [],
+   "aliases": [
+    "Susana Avelina Canale"
+   ],
    "url": "/people/susana-avelina-canale-lerena/"
   },
   {
@@ -3007,7 +3833,9 @@
   },
   {
    "name": "Teodoro Alves Lerena",
-   "aliases": [],
+   "aliases": [
+    "Teodoro Alves"
+   ],
    "url": "/people/teodoro-alves-lerena/"
   },
   {
@@ -3017,7 +3845,10 @@
   },
   {
    "name": "Teresa Leonard",
-   "aliases": [],
+   "aliases": [
+    "Teresa Leonar",
+    "Teresa Leonor"
+   ],
    "url": "/people/teresa-leonard/"
   },
   {
@@ -3037,7 +3868,11 @@
   },
   {
    "name": "Teresa Maria Eva Lerena Pelaez",
-   "aliases": [],
+   "aliases": [
+    "Teresa Maria Eva Lerena",
+    "Teresa María Eva Lerena",
+    "Teresa María Eva Lerena Pelaez"
+   ],
    "url": "/people/teresa-maria-eva-lerena-pelaez/"
   },
   {
@@ -3093,9 +3928,21 @@
    "url": "/people/vicente-campellone/"
   },
   {
-   "name": "Vicente Lerena Diaz",
+   "name": "Vicente Carricaonde",
    "aliases": [],
+   "url": "/people/vicente-carricaonde/"
+  },
+  {
+   "name": "Vicente Lerena Diaz",
+   "aliases": [
+    "Vicente Lerena Díaz"
+   ],
    "url": "/people/vicente-lerena-diaz/"
+  },
+  {
+   "name": "Vicente Muniz",
+   "aliases": [],
+   "url": "/people/vicente-muniz/"
   },
   {
    "name": "Vicente Telesforo Caputi",
@@ -3119,7 +3966,9 @@
   },
   {
    "name": "Violeta Blanca Lerena Cardozo",
-   "aliases": [],
+   "aliases": [
+    "Violeta Blanca Lerena"
+   ],
    "url": "/people/violeta-blanca-lerena-cardozo/"
   },
   {
@@ -3143,6 +3992,11 @@
    "url": "/people/william-john-taylor/"
   },
   {
+   "name": "William Norrish Sweet",
+   "aliases": [],
+   "url": "/people/william-norrish-sweet/"
+  },
+  {
    "name": "William Taylor",
    "aliases": [],
    "url": "/people/william-taylor/"
@@ -3154,17 +4008,25 @@
   },
   {
    "name": "Ysidro Gregorio Lerena Pelaez",
-   "aliases": [],
+   "aliases": [
+    "Ysidro Gregorio Lerena"
+   ],
    "url": "/people/ysidro-gregorio-lerena-pelaez/"
   },
   {
    "name": "Zara Sista Emirena Juanico Lenguas",
-   "aliases": [],
+   "aliases": [
+    "Zara Sista Emirena Juanico",
+    "Zara Sista Emirena Juanicó",
+    "Zara Sista Emirena Juanicó Lenguas"
+   ],
    "url": "/people/zara-sista-emirena-juanico-lenguas/"
   },
   {
    "name": "Zelmira Carlota Lerena Larriera",
-   "aliases": [],
+   "aliases": [
+    "Zelmira Carlota Lerena"
+   ],
    "url": "/people/zelmira-carlota-lerena-larriera/"
   }
  ],
@@ -3188,6 +4050,14 @@
   {
    "name": "Bernabe Lerena",
    "url": "/people/?q=Bernabe%20Lerena"
+  },
+  {
+   "name": "Bernabé Lerena",
+   "url": "/people/?q=Bernabe%20Lerena"
+  },
+  {
+   "name": "Catalina Martinez",
+   "url": "/people/?q=Catalina%20Martinez"
   },
   {
    "name": "Eduardo Lerena",
@@ -3226,6 +4096,10 @@
    "url": "/people/?q=Jose%20Llerena"
   },
   {
+   "name": "José Llerena",
+   "url": "/people/?q=Jose%20Llerena"
+  },
+  {
    "name": "Juan Larena",
    "url": "/people/?q=Juan%20Larena"
   },
@@ -3254,6 +4128,18 @@
    "url": "/people/?q=Maria%20Llerena"
   },
   {
+   "name": "María Larena",
+   "url": "/people/?q=Maria%20Larena"
+  },
+  {
+   "name": "María Lerena",
+   "url": "/people/?q=Maria%20Lerena"
+  },
+  {
+   "name": "María Llerena",
+   "url": "/people/?q=Maria%20Llerena"
+  },
+  {
    "name": "Mauricio Lerena",
    "url": "/people/?q=Mauricio%20Lerena"
   },
@@ -3274,11 +4160,19 @@
    "url": "/people/?q=Ramon%20Lerena"
   },
   {
+   "name": "Ramón Lerena",
+   "url": "/people/?q=Ramon%20Lerena"
+  },
+  {
    "name": "Salvador Lerena",
    "url": "/people/?q=Salvador%20Lerena"
   },
   {
    "name": "Serapio Fernandez",
+   "url": "/people/?q=Serapio%20Fernandez"
+  },
+  {
+   "name": "Serapio Fernández",
    "url": "/people/?q=Serapio%20Fernandez"
   },
   {

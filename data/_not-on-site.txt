@@ -156,3 +156,8 @@ buenos-aires-fulltext-2026-10-11
 # reading; putting these in front of a stranger as findings would be exactly the error made with
 # ZALSAMENDI earlier the same day, where a reading nobody had checked was argued for in public.
 # *** IT BECOMES A PAGE WHEN THE ACTS ARE OPENED *** - the books are named in it so that is cheap.
+
+names-aliases
+# 18 October 2026. NOT A PAGE: the table of spellings and short forms the archive's own data states for a person, read by
+# tools/run-autolink.py when it makes the names index. What it does is visible on every page as a link from that spelling to the person
+# (and the link is the whole of it); a line here says only "this archive writes the name this way for this person", never a merge.

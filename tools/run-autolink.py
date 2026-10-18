@@ -50,6 +50,7 @@ import unicodedata
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parent
 SITE = ROOT / "site"
+ALIASES = ROOT / "data" / "names-aliases.tsv"
 sys.path.insert(0, str(HERE))
 import livingcheck as L  # noqa: E402
 
@@ -78,13 +79,24 @@ def ascii_fold(s):
     return unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
 
 
+def accent_fold(s):
+    """Remove the accents of a word, the n-tilde included (the register writes ASCII: Lavina for the Lavina with a tilde on the n
+    that the pages print), but leave the family's own surname alone: Lerena and Lerena-with-a-tilde are two spellings of that
+    surname which name-variants.tsv records one by one, not one word with an accent."""
+    base = unicodedata.normalize("NFKD", s)
+    base = "".join(c for c in base if not unicodedata.combining(c))
+    if base.casefold() in FAMILY_SURNAMES_ASCII and base != s and "\u00f1" in s.casefold():
+        return s
+    return base
+
+
 def slugify(s):
     return re.sub(r"[^A-Za-z0-9]+", "-", ascii_fold(str(s or ""))).strip("-").lower()
 
 
 def clean(raw):
     """The name a sentence would use for this register string, or "" when no honest name can be made of it."""
-    s = re.sub(r"\(.*?\)", " ", str(raw or ""))
+    s = re.sub(r"\(.*?\)|\[.*?\]", " ", str(raw or ""))
     s = " ".join(s.replace('"', " ").split())
     words = s.split(" ") if s else []
     while len(words) > 1 and words[0].casefold() in HONORIFICS:
@@ -127,6 +139,119 @@ def accent_forms():
         base = ascii_fold(v).casefold()
         if v != base and ascii_fold(v).casefold() == base:
             out.setdefault(base, set()).add(v)
+    return out
+
+
+
+# ---------------------------------------------------------------------------------------------------------------------------
+# ALIASES: three kinds, each one a form THE ARCHIVE'S OWN DATA STATES (nothing is guessed, no letter is ever changed except
+# where the data's own spelling is named in data/names-aliases.tsv).
+#   accent    the same name with the accents the archive's committed text writes it with (Jose -> Jose with an acute, Fernandez
+#             -> Fernandez with an acute). Accent only: removing the accents gives the name back exactly. The accented spellings
+#             are read from data/*.tsv and the page sources, so a form never seen in the archive's own text is never made.
+#   short     the contraction the register's own capital-letter convention marks: the first surname is the ALL-CAPS word, so
+#             "Maria Adela LERENA Carniglia" is also "Maria Adela Lerena" and "Maria Lerena". Made only when that form belongs
+#             to ONE person among everybody the register holds (living and held-out included), is not another person's whole
+#             name, and is not a living person's name.
+#   stated    data/names-aliases.tsv: one line per form, naming the person (their register name), and the file in which the
+#             data writes that form for them. This is how a spelling the data records (Treibel for Traibel, a surname the
+#             machine read) and a person whose register name carries an initial or an editorial bracket get their links.
+# ---------------------------------------------------------------------------------------------------------------------------
+TOKEN = re.compile(r"[^\W\d_]+(?:['\u2019\-][^\W\d_]+)*", re.U)
+
+
+def corpus_accents():
+    """ascii word (lower) -> the accented spellings (lower) that the committed text writes, at least twice each."""
+    counts = {}
+    paths = sorted((ROOT / "data").glob("*.tsv")) + sorted((SITE / "src" / "pages").rglob("*.astro"))
+    for p in paths:
+        try:
+            text = p.read_text(encoding="utf-8")
+        except OSError:
+            continue
+        for m in TOKEN.finditer(text):
+            w = m.group(0)
+            if accent_fold(w) != w and len(w) > 2:
+                lw = w.casefold()
+                counts[lw] = counts.get(lw, 0) + 1
+    out = {}
+    for w, n in counts.items():
+        if n >= 2:
+            out.setdefault(accent_fold(w).casefold(), []).append((n, w))
+    return {k: [w for _n, w in sorted(v, reverse=True)[:2]] for k, v in out.items()}
+
+
+def accent_variants(name, acc):
+    words = name.split(" ")
+    variants = [[]]
+    for w in words:
+        forms = [w]
+        for a in acc.get(accent_fold(w).casefold(), ()):
+            forms.append(a[:1].upper() + a[1:] if w[:1].isupper() else a)
+        variants = [v + [f] for v in variants for f in forms][:64]
+    return sorted({" ".join(v) for v in variants} - {name})
+
+
+# the surname of the family itself, in the spellings this archive meets (name-variants.tsv): "Given Lerena" is not a form that
+# belongs to one person, whoever the register holds under it, so it is never made a short form
+FAMILY_SURNAMES = {"lerena", "llerena", "lerina", "larena", "lorena", "serena", "gerena", "perena", "levena", "leresa", "lerrena",
+                   "ledena", "alerena"}
+FAMILY_SURNAMES_ASCII = FAMILY_SURNAMES
+
+
+def short_forms(raw):
+    """The contractions the register's capital-letter convention marks (see above), as display strings; [] when none.
+    The first surname is the first capital-letter word (a capitalised DE and the word after it stay: RUIZ DE CARVALLO; a lower-case
+    de ends it: POU de ZALDUONDO is Pou, wife of Zalduondo; a second capitalised word, LERENA LARRIERA, is the second surname). The forms are
+      every given name and the first surname   (two or more given names, or any surname that is not the family's own)
+    and never the first given name with the surname alone ("Roberto Lerena", "Horace Taylor", "Mary Taylor" name a dozen people
+    between them, and the archive's own pages use them for people the register does not hold)."""
+    s = re.sub(r"\(.*?\)|\[.*?\]", " ", str(raw or ""))
+    words = " ".join(s.replace('"', " ").split()).split(" ")
+    while len(words) > 1 and words[0].casefold() in HONORIFICS:
+        words.pop(0)
+    if len(words) < 2:
+        return []
+    def is_cap(w):
+        return len(w) >= 2 and w == w.upper() and any(c.isalpha() for c in w)
+    caps = [i for i, w in enumerate(words) if is_cap(w) and w.casefold() not in PARTICLES]
+    if not caps:
+        return []
+    i = caps[0]
+    j = i
+    # the first surname runs on only through a capitalised particle and the capitalised word after it (RUIZ DE CARVALLO); a second
+    # capitalised word with no particle (LERENA LARRIERA) is the second surname
+    while j + 2 < len(words) and is_cap(words[j + 1]) and words[j + 1].casefold() in PARTICLES and is_cap(words[j + 2]):
+        j += 2
+    sur = words[i:j + 1]
+    family = ascii_fold(" ".join(sur)).casefold() in FAMILY_SURNAMES
+    forms = []
+    if i >= 2 or (i == 1 and not family):
+        forms.append(words[:i] + sur)                    # every given name and the first surname
+    out = []
+    for f in forms:
+        c = clean(" ".join(f))
+        if c and len(f) < len(words):
+            out.append(display(c))
+    return out
+
+
+def stated_aliases(rows):
+    """data/names-aliases.tsv -> [(alias, register name, slug, basis)]. A line naming nobody, or with no basis, stops the build."""
+    out = []
+    if not ALIASES.exists():
+        return out
+    by_name = {r["name"]: r for r in rows}
+    for n, line in enumerate(ALIASES.read_text(encoding="utf-8").splitlines(), 1):
+        if not line.strip() or line.startswith("#") or line.startswith("alias\t"):
+            continue
+        cells = (line.split("\t") + ["", "", ""])[:3]
+        alias, who, basis = [c.strip() for c in cells]
+        r = by_name.get(who)
+        if not alias or len(alias.split()) < 2 or r is None or len(basis) < 12:
+            print(f"  FAIL  names      data/names-aliases.tsv line {n}: needs a two-word alias, a register name that exists and a basis")
+            raise SystemExit(2)
+        out.append((alias, who, r["slug"], basis))
     return out
 
 
@@ -240,9 +365,25 @@ def build(write=True):
             needle = display(lst[0][1])
             if all(needle.casefold() in r["name"].casefold() for r, _ in lst):
                 ambiguous.append({"name": needle, "url": "/people/?q=" + needle.replace(" ", "%20"), "_key": k})
-    # accent aliases, and only where nothing else already owns that spelling
     for e in people + ambiguous:
         owned.setdefault(key_of(e["name"]), set()).add(e["url"])
+    prov = {}                          # (address, alias as written) -> "accent" | "short" | "stated" | "fold"
+
+    def add_alias(e, al, kind):
+        """Add one alias to an entry unless a living person, another entry or the entry itself already holds that key."""
+        k = key_of(al)
+        if len(al.split()) < 2 or k in living_keys or k in tainted or k in {key_of(x) for x in nl}:
+            return False
+        if k in owned and owned[k] != {e["url"]}:
+            return False
+        if al == e["name"] or al in e["aliases"]:
+            return False
+        e["aliases"].append(al)
+        owned.setdefault(k, set()).add(e["url"])
+        prov[(e["url"], al)] = kind
+        return True
+
+    # (1) the folds the archive's own namefold.json holds for a word of the name (Fernandez -> Fernandez with an acute)
     for e in people:
         words = e["name"].split(" ")
         variants = [[]]
@@ -253,15 +394,73 @@ def build(write=True):
             variants = [v + [f] for v in variants for f in forms][:64]
         for v in variants:
             al = " ".join(v)
-            if al == e["name"]:
+            if key_of(al) == key_of(e["name"]) and al != e["name"] and not any(
+                    key_of(al) == key_of(o["name"]) and o is not e for o in people + ambiguous):
+                add_alias(e, al, "fold")
+    # (2) short forms: one person's, and nobody else's whole name or short form
+    claims = {}                        # key -> {identity}
+    ident = lambda slug, name: slug or ("name:" + name)
+    for r in rows:
+        who = ident(r.get("slug"), r["name"])
+        c = clean(r["name"])
+        if c:
+            claims.setdefault(key_of(c), set()).add(who)
+        for f in short_forms(r["name"]):
+            claims.setdefault(key_of(f), set()).add(who)
+    for p in pop:
+        who = ident(p.slug, p.name)
+        c = clean(p.name)
+        if c:
+            claims.setdefault(key_of(c), set()).add(who)
+        for f in short_forms(p.name):
+            claims.setdefault(key_of(f), set()).add(who)
+    by_slug_row = {r["slug"]: r for r in rows}
+    n_short = 0
+    for e in people:
+        slug = e["url"].split("/")[2]
+        r = by_slug_row.get(slug)
+        if r is None:
+            continue
+        for f in short_forms(r["name"]):
+            if claims.get(key_of(f)) == {slug} and add_alias(e, f, "short"):
+                n_short += 1
+    # (3) forms the data states for a person, in data/names-aliases.tsv (also gives a person whose register name carries an
+    #     initial or a bracket an entry of their own)
+    n_stated = 0
+    for alias, who, slug, basis in stated_aliases(rows):
+        r = by_slug_row.get(slug)
+        if r is None or r.get("living") or r.get("noindex") or r.get("aliasOf"):
+            continue
+        k = key_of(alias)
+        if k in living_keys or k in tainted:
+            continue
+        e = next((x for x in people if x["url"] == f"/people/{slug}/"), None)
+        if e is None:
+            if k in owned:
                 continue
-            ak = al.casefold()
-            if ak in {x.casefold() for x in nl} or key_of(al) in living_keys:
-                continue
-            # the folded spelling is the person's own name already; an accent form may not be another person's name
-            if any(key_of(al) == key_of(o["name"]) and o is not e for o in people + ambiguous):
-                continue
-            e["aliases"].append(al)
+            e = {"name": alias, "aliases": [], "url": f"/people/{slug}/", "_key": k}
+            people.append(e)
+            owned.setdefault(k, set()).add(e["url"])
+            prov[(e["url"], alias)] = "stated"
+            n_stated += 1
+        elif add_alias(e, alias, "stated"):
+            n_stated += 1
+    # (4) accent forms of every name and alias the archive's committed text writes with accents
+    acc = corpus_accents()
+    for e in people:
+        for base in [e["name"]] + list(e["aliases"]):
+            for v in accent_variants(base, acc):
+                if key_of(v) == key_of(base) and not any(
+                        key_of(v) == key_of(o["name"]) and o["url"] != e["url"] for o in people + ambiguous):
+                    add_alias(e, v, "accent")
+    amb_extra = []
+    for e in ambiguous:
+        for v in accent_variants(e["name"], acc):
+            if key_of(v) == key_of(e["name"]) and key_of(v) not in living_keys:
+                amb_extra.append({"name": v, "url": e["url"]})
+                prov[(e["url"], v)] = "accent"
+    ambiguous += amb_extra
+    for e in people:
         e["aliases"] = sorted(set(e["aliases"]))
     for e in people + ambiguous:
         e.pop("_key", None)
@@ -271,8 +470,12 @@ def build(write=True):
         e.pop("aliases", None)
     index = {"note": "Generated by tools/run-autolink.py from site/src/data/people.json. Names that already have a public page. "
                      "Never edit by hand.", "people": people, "ambiguous": ambiguous}
+    kinds = {}
+    for v in prov.values():
+        kinds[v] = kinds.get(v, 0) + 1
     stats = {"people": len(people), "ambiguous": len(ambiguous), "aliases": sum(len(e["aliases"]) for e in people),
-             "living_terms": len(nl), "living_people": n_liv, "skipped": skipped}
+             "kinds": kinds, "stated": n_stated, "living_terms": len(nl), "living_people": n_liv, "skipped": skipped,
+             "_prov": prov}
     if write:
         INDEX.write_text(json.dumps(index, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
         lp = living_path()
@@ -285,9 +488,11 @@ def build(write=True):
     return index, nl, nladdr, stats
 
 
-def self_check(index, nl, nladdr, rows):
-    """Refuse an index the generator itself cannot stand behind (the kit checks the living overlap again)."""
+def self_check(index, nl, nladdr, rows, prov):
+    """Refuse an index the generator itself cannot stand behind (the kit checks the living overlap again). Every alias must be
+    of a kind the generator may make and must pass that kind's own test, recomputed here from the register."""
     by_slug = {r["slug"]: r for r in rows}
+    stated = {(f"/people/{slug}/", key_of(alias)) for alias, _who, slug, _b in stated_aliases(rows)}
     bad = 0
     lk = {key_of(n) for n in nl}
     la = set(nladdr)
@@ -296,12 +501,19 @@ def self_check(index, nl, nladdr, rows):
         r = by_slug.get(slug)
         if r is None or r.get("living") or r.get("noindex") or r.get("aliasOf"):
             bad += 1
-        elif key_of(clean(r["name"])) != key_of(e["name"]):
+            continue
+        nk = key_of(e["name"])
+        if (e["url"], nk) not in stated and nk != key_of(clean(r["name"])):
             bad += 1
-        if key_of(e["name"]) in lk or e["url"] in la:
+        if nk in lk or e["url"] in la:
             bad += 1
+        shorts = {key_of(f) for f in short_forms(r["name"])}
+        base = {nk} | {key_of(a) for a in e["aliases"] if prov.get((e["url"], a)) in ("short", "stated")}
         for a in e["aliases"]:
-            if key_of(a) != key_of(e["name"]) or key_of(a) in lk:
+            k = key_of(a)
+            kind = prov.get((e["url"], a))
+            ok = {"short": k in shorts, "stated": (e["url"], k) in stated}.get(kind, kind in ("fold", "accent") and k in base)
+            if not ok or k in lk:
                 bad += 1
     for e in index["ambiguous"]:
         if key_of(e["name"]) in lk:
@@ -405,7 +617,8 @@ def beside_a_longer_name(page, a, b):
     m = re.match(r"^[ \t\r\n]+(\S+)(?:[ \t\r\n]+(\S+))?(?:[ \t\r\n]+(\S+))?", after)
     if m:
         t1, t2, t3 = m.group(1), m.group(2), m.group(3)
-        if t1 and t1[0].isalpha():
+        if t1 and t1.lstrip("[(")[:1].isalpha():
+            t1 = t1.lstrip("[(")
             low = ascii_fold(t1).casefold().rstrip(",.;:")
             if low in PARTICLE and t2:                         # "Maria Lerena de Martinez", "del Rio", "de la Cruz"
                 nxt = t3 if (ascii_fold(t2).casefold() in PARTICLE and t3) else t2
@@ -480,9 +693,10 @@ def main():
         return 2
     index, nl, nladdr, st = build(write=True)
     rows = json.loads(PEOPLE.read_text(encoding="utf-8"))
-    bad = self_check(index, nl, nladdr, rows)
+    bad = self_check(index, nl, nladdr, rows, st["_prov"])
     sk = ", ".join(f"{v} {k}" for k, v in st["skipped"].items() if v)
-    print(f"  names: {st['people']} people, {st['ambiguous']} ambiguous, {st['aliases']} aliases; "
+    kinds = ", ".join(f"{v} {k}" for k, v in sorted(st["kinds"].items()))
+    print(f"  names: {st['people']} people, {st['ambiguous']} ambiguous, {st['aliases']} aliases ({kinds}); "
           f"{st['living_people']} living or held-out person(s) in the living list ({st['living_terms']} terms), kept outside the "
           f"repository; rows not indexed: {sk}")
     if bad:

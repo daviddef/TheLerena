@@ -248,9 +248,20 @@
    "ana-de-cubas",
    "amelia-lerena-morales",
    "trinidad-morales",
-   "pedro-a-lerena-3"
+   "pedro-a-lerena-3",
+   "adela-crucet",
+   "carolina-juarez",
+   "martin-perez",
+   "vicente-carricaonde",
+   "concepcion-petrona-urbano",
+   "jose-pedro-massera",
+   "josefa-carballo",
+   "maria-eladia-ramona-mendoza",
+   "manuela-barriaga",
+   "juan-lloberas",
+   "luis-cincinato-bollo"
   ],
-  "count": 246
+  "count": 257
  },
  {
   "slug": "trinidad-flores",
@@ -395,9 +406,20 @@
    "damaso-negrotto",
    "corina-francisca-gonzalez-lerena",
    "maria-lerena-6",
-   "clara-lerena"
+   "clara-lerena",
+   "rafael-sanchez",
+   "juan-anander",
+   "catalina-ydiarte",
+   "luciano-bonamino",
+   "damaso-perera",
+   "miguel-ramos",
+   "jose-maria-guerrero",
+   "manuel-ferreyra",
+   "ramon-rivero",
+   "pablo-moyano",
+   "delfina-fernandez"
   ],
-  "count": 140
+  "count": 151
  },
  {
   "slug": "buenos-aires",
@@ -444,9 +466,18 @@
    "a-ferreyra",
    "dr-llerena",
    "lucia-llanos",
-   "salvador-lerena"
+   "salvador-lerena",
+   "amalia-pacheco",
+   "salvador-angulo",
+   "catalina-martinez-2",
+   "jose-bertucci",
+   "roberto-llorens",
+   "francisca-fernandez",
+   "roberto-juan-roque-llorens",
+   "juan-berenguer",
+   "rita-carbajo"
   ],
-  "count": 42
+  "count": 51
  },
  {
   "slug": "buenos-aires-arrivals",
@@ -525,9 +556,13 @@
    "barbara",
    "carmelo-anselmo",
    "jose-carreras",
-   "petronila-escobar"
+   "petronila-escobar",
+   "jose-joaquin-reyna",
+   "vicente-muniz",
+   "clara-ledena",
+   "paulino-larriera"
   ],
-  "count": 26
+  "count": 30
  },
  {
   "slug": "rosario-santa-fe",
@@ -548,6 +583,28 @@
    "juan-carlos-lerena",
    "don-luis-eugenio-lerena-lenguas",
    "don-luis-lerena-probably-luis-lerena-y-fernandez"
+  ],
+  "count": 15
+ },
+ {
+  "slug": "cordon-montevideo",
+  "name": "Cordon, Montevideo",
+  "people": [
+   "maria-mercedes-lerena",
+   "eduardo-lerena-3",
+   "ema-lerena",
+   "vicenta-lavina",
+   "manuela-lavina",
+   "xavier-lavina",
+   "amelia-lerena-2",
+   "sara-lerena",
+   "teresa-lerena-2",
+   "jose-maria-larranaga",
+   "martina-lerena",
+   "benito-larranaga",
+   "jose-maria-reyes",
+   "maria-lerena-5",
+   "eduardo-epifanio-alvarez"
   ],
   "count": 15
  },
@@ -573,25 +630,44 @@
   "count": 14
  },
  {
-  "slug": "cordon-montevideo",
-  "name": "Cordon, Montevideo",
+  "slug": "canelones",
+  "name": "Canelones",
   "people": [
-   "maria-mercedes-lerena",
-   "eduardo-lerena-3",
-   "ema-lerena",
-   "vicenta-lavina",
-   "manuela-lavina",
-   "xavier-lavina",
-   "amelia-lerena-2",
-   "sara-lerena",
-   "teresa-lerena-2",
-   "jose-maria-larranaga",
-   "martina-lerena",
-   "benito-larranaga",
-   "jose-maria-reyes",
-   "maria-lerena-5"
+   "hilario-barros-llerena",
+   "jose",
+   "joseph-ponteceli",
+   "agueda-rivero",
+   "jose-loreto-lerena-fernandez",
+   "joseph-del-rios",
+   "francisco-de-los-santos-de-acuna",
+   "florentino-gomez",
+   "ana-gomez",
+   "antonio-villegas",
+   "jose-del-rio",
+   "juan-francisco-cardoso",
+   "juan-miguel-de-laguna"
   ],
-  "count": 14
+  "count": 13
+ },
+ {
+  "slug": "northam-devon",
+  "name": "Northam, Devon",
+  "people": [
+   "william-taylor",
+   "mary-ann-hellen-brayley",
+   "kathleen-georgina-taylor",
+   "william-john-taylor",
+   "horace-archibald-taylor",
+   "isabella-temple-taylor",
+   "margaret-hellen-walker-taylor",
+   "irene-taylor",
+   "lucy-elizabeth-taylor",
+   "agnes-walker-taylor",
+   "georgina-temple",
+   "agnes-harrison",
+   "mary-jane-marshall"
+  ],
+  "count": 13
  },
  {
   "slug": "gualeguaychu-entre-rios",
@@ -613,20 +689,20 @@
   "count": 12
  },
  {
-  "slug": "northam-devon",
-  "name": "Northam, Devon",
+  "slug": "flores-uruguay",
+  "name": "Flores, Uruguay",
   "people": [
-   "william-taylor",
-   "mary-ann-hellen-brayley",
-   "kathleen-georgina-taylor",
-   "william-john-taylor",
-   "horace-archibald-taylor",
-   "isabella-temple-taylor",
-   "margaret-hellen-walker-taylor",
-   "irene-taylor",
-   "lucy-elizabeth-taylor",
-   "agnes-walker-taylor",
-   "georgina-temple"
+   "bernabe-lerena-2",
+   "florinda-cardozo",
+   "vitalino-gregorio-pelaez",
+   "anibal-marino-pelaez",
+   "pedro-beloqui",
+   "dorotea-delgado",
+   "mauricio-lerena-2",
+   "emilio-lerena-2",
+   "paula-casares",
+   "fermin-lerena-barragan",
+   "esteban-indarte"
   ],
   "count": 11
  },
@@ -648,35 +724,18 @@
   "count": 10
  },
  {
-  "slug": "flores-uruguay",
-  "name": "Flores, Uruguay",
+  "slug": "cape-town",
+  "name": "Cape Town",
   "people": [
-   "bernabe-lerena-2",
-   "florinda-cardozo",
-   "vitalino-gregorio-pelaez",
-   "anibal-marino-pelaez",
-   "pedro-beloqui",
-   "dorotea-delgado",
-   "mauricio-lerena-2",
-   "emilio-lerena-2",
-   "paula-casares",
-   "fermin-lerena-barragan"
-  ],
-  "count": 10
- },
- {
-  "slug": "canelones",
-  "name": "Canelones",
-  "people": [
-   "hilario-barros-llerena",
-   "jose",
-   "joseph-ponteceli",
-   "agueda-rivero",
-   "jose-loreto-lerena-fernandez",
-   "joseph-del-rios",
-   "francisco-de-los-santos-de-acuna",
-   "florentino-gomez",
-   "ana-gomez"
+   "pablo-armando-lerena",
+   "mary-septima-taylor",
+   "roque-luis-armando-lerena",
+   "ricardo-juan-carlos-lerena",
+   "nuno-fernando-lerena",
+   "jose-breton",
+   "maria-luisa-breton",
+   "michael-joseph-duddy",
+   "mary-anne-duddy"
   ],
   "count": 9
  },
@@ -710,16 +769,17 @@
   "count": 7
  },
  {
-  "slug": "cape-town",
-  "name": "Cape Town",
+  "slug": "mendoza",
+  "name": "Mendoza",
   "people": [
-   "pablo-armando-lerena",
-   "mary-septima-taylor",
-   "roque-luis-armando-lerena",
-   "ricardo-juan-carlos-lerena",
-   "nuno-fernando-lerena"
+   "avelino-carlos-lerena",
+   "adela-camiglia",
+   "carlos-lerena",
+   "domingo-simois",
+   "lucia-lemos-de-simois",
+   "juan-jordan"
   ],
-  "count": 5
+  "count": 6
  },
  {
   "slug": "colonia-uruguay",
@@ -742,6 +802,18 @@
    "hector-narciso-lerena-bassani",
    "emilia-alberta-lerena-bassani",
    "julia-salvanach"
+  ],
+  "count": 5
+ },
+ {
+  "slug": "san-eugenio-artigas-uruguay",
+  "name": "San Eugenio, Artigas, Uruguay",
+  "people": [
+   "benito-lerena",
+   "maria-cristina",
+   "anastasia-lerena",
+   "juan-ildebel-alvarez-y-lerena",
+   "eduardo-castagnet"
   ],
   "count": 5
  },
@@ -779,6 +851,17 @@
   "count": 4
  },
  {
+  "slug": "devon",
+  "name": "Devon",
+  "people": [
+   "john-brailey",
+   "isabella-brailey",
+   "georgina-margaret-brailey",
+   "william-norrish-sweet"
+  ],
+  "count": 4
+ },
+ {
   "slug": "johannesburg",
   "name": "Johannesburg",
   "people": [
@@ -801,33 +884,12 @@
   "count": 4
  },
  {
-  "slug": "san-eugenio-artigas-uruguay",
-  "name": "San Eugenio, Artigas, Uruguay",
-  "people": [
-   "benito-lerena",
-   "maria-cristina",
-   "anastasia-lerena",
-   "juan-ildebel-alvarez-y-lerena"
-  ],
-  "count": 4
- },
- {
   "slug": "south-africa",
   "name": "South Africa",
   "people": [
    "lucas-lerena",
    "hanson-seko-lerena",
    "anton-lerena"
-  ],
-  "count": 3
- },
- {
-  "slug": "mendoza",
-  "name": "Mendoza",
-  "people": [
-   "avelino-carlos-lerena",
-   "adela-camiglia",
-   "carlos-lerena"
   ],
   "count": 3
  },
@@ -852,16 +914,6 @@
   "count": 3
  },
  {
-  "slug": "devon",
-  "name": "Devon",
-  "people": [
-   "john-brailey",
-   "isabella-brailey",
-   "georgina-margaret-brailey"
-  ],
-  "count": 3
- },
- {
   "slug": "cerro-colorado-flores",
   "name": "Cerro Colorado, Flores",
   "people": [
@@ -878,6 +930,26 @@
    "maria-adela-lerena-carniglia",
    "maria-mercedes-lerena-carniglia",
    "eduardo-carniglia"
+  ],
+  "count": 3
+ },
+ {
+  "slug": "navarrete-logrono-spain",
+  "name": "Navarrete, Logrono, Spain",
+  "people": [
+   "jose-dolores-lerena-y-lerena",
+   "dona-isabela-lerena-y-basaran",
+   "joaquina-lozano"
+  ],
+  "count": 3
+ },
+ {
+  "slug": "mal-abrigo-san-jose-uruguay",
+  "name": "Mal Abrigo, San Jose, Uruguay",
+  "people": [
+   "ramona-lerena",
+   "antonina-lerena-4",
+   "alberto-infant-aguiar"
   ],
   "count": 3
  },
@@ -964,6 +1036,15 @@
   "count": 2
  },
  {
+  "slug": "london",
+  "name": "London",
+  "people": [
+   "john-walker-brailey",
+   "charles-william-bell"
+  ],
+  "count": 2
+ },
+ {
   "slug": "argentina-san-jose",
   "name": "Argentina / San Jose",
   "people": [
@@ -978,6 +1059,15 @@
   "people": [
    "malvino-pelaez",
    "antonio-eusebio-pelaez"
+  ],
+  "count": 2
+ },
+ {
+  "slug": "parana-entre-rios",
+  "name": "Parana, Entre Rios",
+  "people": [
+   "arturo-lerena-garcia",
+   "alejandro-mechot"
   ],
   "count": 2
  },
@@ -1018,15 +1108,6 @@
   "count": 2
  },
  {
-  "slug": "navarrete-logrono-spain",
-  "name": "Navarrete, Logrono, Spain",
-  "people": [
-   "jose-dolores-lerena-y-lerena",
-   "dona-isabela-lerena-y-basaran"
-  ],
-  "count": 2
- },
- {
   "slug": "montevideo-or-san-jose",
   "name": "Montevideo or San Jose",
   "people": [
@@ -1041,6 +1122,15 @@
   "people": [
    "ema-justina-felicia-lerena-regules",
    "arturo-mario-lerena-regules"
+  ],
+  "count": 2
+ },
+ {
+  "slug": "union-montevideo",
+  "name": "Union, Montevideo",
+  "people": [
+   "cora-maria-avelina-lerena-regules",
+   "ricardo-jara"
   ],
   "count": 2
  },
@@ -1068,15 +1158,6 @@
   "people": [
    "pedro-lerena",
    "juana-camacho"
-  ],
-  "count": 2
- },
- {
-  "slug": "mal-abrigo-san-jose-uruguay",
-  "name": "Mal Abrigo, San Jose, Uruguay",
-  "people": [
-   "ramona-lerena",
-   "antonina-lerena-4"
   ],
   "count": 2
  },
@@ -1201,26 +1282,10 @@
   "count": 1
  },
  {
-  "slug": "london",
-  "name": "London",
-  "people": [
-   "john-walker-brailey"
-  ],
-  "count": 1
- },
- {
   "slug": "san-jose-uruguay",
   "name": "San Jose, Uruguay",
   "people": [
    "adolfo-maximo-cordero"
-  ],
-  "count": 1
- },
- {
-  "slug": "parana-entre-rios",
-  "name": "Parana, Entre Rios",
-  "people": [
-   "arturo-lerena-garcia"
   ],
   "count": 1
  },
@@ -1237,14 +1302,6 @@
   "name": "Pueblo Brugo, Entre Rios",
   "people": [
    "vicente-lerena-diaz"
-  ],
-  "count": 1
- },
- {
-  "slug": "union-montevideo",
-  "name": "Union, Montevideo",
-  "people": [
-   "cora-maria-avelina-lerena-regules"
   ],
   "count": 1
  },
