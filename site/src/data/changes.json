@@ -5,6 +5,11 @@
    "date": "2026-10-18",
    "commits": [
     {
+     "sha": "039a8c2",
+     "subject": "Log nulls for the 1861 marriage act and Pedro's baptism; the Catedral's marriage volume is absent from full text (not an exclusion)",
+     "body": ""
+    },
+    {
      "sha": "b50767c",
      "subject": "Pedro Antonio Lerena confirmed by the Vicario's own register; a third Pedro A. Lerena household (wife Trinidad Morales) at the Cordon, 1862-63",
      "body": "The clerk's register of dispensations, entry no. 422 under Junio de 1861, reads 'El ocho de Junio de mil ochocientos sesenta y uno, S.S. dispenso a Don Pedro\nAntonio Lerena dos conciliares proclamas ... con Da. Teresa Leonard, parroquiana de la Matriz', which confirms the day and writes out the petition's 'A.'.\nA full-text query rebuilt from those spellings also returned the Cordon christening of 8 February 1863 of Amelia, born 2 May 1862, to 'D. Pedro A. Lerena\ny Da. Trinidad Morales, orientales', with a godmother Amelia LERENA (the index says Serena). He cannot be Teresa's husband; Pedro Lerena Vega is the best\ncandidate and is not merged. The 1871 Cordon death entry of a nine-year-old Amelia Lerena is cross-linked as a candidate for the same girl."
