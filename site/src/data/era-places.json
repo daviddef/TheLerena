@@ -1,0 +1,298 @@
+{
+ "_about": "Built by tools/build-era.py from data/era-ground.tsv and data/era-towns.tsv. Birthplace as printed -> {region, lat, lon}, or null where no Atlas region covers it. Read by kit erasnap.py.",
+ "places": {
+  "Adolfo Alsina, Buenos Aires, Argentina": null,
+  "Africa": null,
+  "Andalusia, Spain (the 1812 padron says \"andaluz\"; CORDOBA comes from the trees, which cite Apolant ficha 355)": null,
+  "Argentina": null,
+  "Artigas, Uruguay": {
+   "lat": -30.4,
+   "lon": -56.47,
+   "region": "uruguay"
+  },
+  "Asturias, Spain": null,
+  "Asturias, Spain (presumed - her daughter is 'natural de Asturias')": null,
+  "Bideford, Devon": {
+   "lat": 51.02,
+   "lon": -4.21,
+   "region": "england"
+  },
+  "Bloemfontein": {
+   "lat": -29.12,
+   "lon": 26.21,
+   "region": "orange-free-state"
+  },
+  "Brazil": null,
+  "Buenos Aires": {
+   "lat": -34.6,
+   "lon": -58.38,
+   "region": "buenos-aires"
+  },
+  "Buenos Aires, Argentina": {
+   "lat": -34.6,
+   "lon": -58.38,
+   "region": "buenos-aires"
+  },
+  "Canelones": {
+   "lat": -34.52,
+   "lon": -56.28,
+   "region": "uruguay"
+  },
+  "Canelones (\"el Canelon\")": {
+   "lat": -34.52,
+   "lon": -56.28,
+   "region": "uruguay"
+  },
+  "Cape Province": null,
+  "Cape Town": {
+   "lat": -33.92,
+   "lon": 18.42,
+   "region": "western-cape"
+  },
+  "Capital Federal, Buenos Aires, Argentina": {
+   "lat": -34.6,
+   "lon": -58.38,
+   "region": "buenos-aires"
+  },
+  "Cayasta, Santa Fe": null,
+  "Cerro Largo": {
+   "lat": -32.37,
+   "lon": -54.17,
+   "region": "uruguay"
+  },
+  "Cerro Largo, Uruguay": {
+   "lat": -32.37,
+   "lon": -54.17,
+   "region": "uruguay"
+  },
+  "Chile": null,
+  "Ciudad de Buenos Aires, Argentina": {
+   "lat": -34.6,
+   "lon": -58.38,
+   "region": "buenos-aires"
+  },
+  "Colla (Rosario, Colonia)": {
+   "lat": -34.32,
+   "lon": -57.35,
+   "region": "uruguay"
+  },
+  "Colon, Montevideo, Uruguay": {
+   "lat": -34.8,
+   "lon": -56.23,
+   "region": "uruguay"
+  },
+  "Colonia del Sacramento, Uruguay": {
+   "lat": -34.47,
+   "lon": -57.84,
+   "region": "uruguay"
+  },
+  "Cordoba": null,
+  "Cordoba, Argentina": null,
+  "Cordon, Montevideo": {
+   "lat": -34.9,
+   "lon": -56.19,
+   "region": "uruguay"
+  },
+  "Crespo, Entre Rios, Argentina": null,
+  "Cuchilla de Villas Boas, Flores, Uruguay": {
+   "lat": -33.6,
+   "lon": -56.85,
+   "region": "uruguay"
+  },
+  "Departamento San Jose, Uruguay": {
+   "lat": -34.34,
+   "lon": -56.71,
+   "region": "uruguay"
+  },
+  "Entre Rios": null,
+  "Estado Oriental del Uruguay": {
+   "region": "uruguay"
+  },
+  "Flores, Uruguay": {
+   "lat": -33.6,
+   "lon": -56.85,
+   "region": "uruguay"
+  },
+  "Gualeguaychu": null,
+  "Haddington, East Lothian": {
+   "lat": 55.96,
+   "lon": -2.78,
+   "region": "scotland"
+  },
+  "Holborn, London": {
+   "lat": 51.52,
+   "lon": -0.12,
+   "region": "england"
+  },
+  "Italy": null,
+  "Johannesburg": {
+   "lat": -26.2,
+   "lon": 28.04,
+   "region": "transvaal"
+  },
+  "La Paz, Uruguay": null,
+  "La Plata, Buenos Aires, Argentina": {
+   "lat": -34.92,
+   "lon": -57.95,
+   "region": "buenos-aires"
+  },
+  "Lima, PERU": null,
+  "Logrono": null,
+  "Madrid": null,
+  "Mal Abrigo, San Jose, Uruguay": null,
+  "Mendoza": null,
+  "Mendoza, Argentina": null,
+  "Montevideo": {
+   "lat": -34.9,
+   "lon": -56.19,
+   "region": "uruguay"
+  },
+  "Montevideo, Uruguay": {
+   "lat": -34.9,
+   "lon": -56.19,
+   "region": "uruguay"
+  },
+  "Montevideo, calle Yi 303": {
+   "lat": -34.9,
+   "lon": -56.19,
+   "region": "uruguay"
+  },
+  "Navarrete, Logrono, Spain": null,
+  "Northam, Devon": {
+   "lat": 51.02,
+   "lon": -4.21,
+   "region": "england"
+  },
+  "Pernambuco, Brazil": null,
+  "Pintos, Flores": {
+   "lat": -33.6,
+   "lon": -56.85,
+   "region": "uruguay"
+  },
+  "Rivera, Uruguay": {
+   "lat": -30.9,
+   "lon": -55.55,
+   "region": "uruguay"
+  },
+  "Rosario": {
+   "lat": -32.95,
+   "lon": -60.65,
+   "region": "santafe"
+  },
+  "Rosario / Colla, Colonia": {
+   "lat": -34.32,
+   "lon": -57.35,
+   "region": "uruguay"
+  },
+  "Rosario, Argentina": {
+   "lat": -32.95,
+   "lon": -60.65,
+   "region": "santafe"
+  },
+  "Rosario, COLONIA, URUGUAY": {
+   "lat": -34.32,
+   "lon": -57.35,
+   "region": "uruguay"
+  },
+  "Rosario, Santa Fe": {
+   "lat": -32.95,
+   "lon": -60.65,
+   "region": "santafe"
+  },
+  "San Cristobal, Buenos Aires, Argentina": {
+   "lat": -34.6,
+   "lon": -58.38,
+   "region": "buenos-aires"
+  },
+  "San Eugenio, Artigas, Uruguay": {
+   "lat": -30.4,
+   "lon": -56.47,
+   "region": "uruguay"
+  },
+  "San Jose de Mayo, San Jose, Uruguay": {
+   "lat": -34.34,
+   "lon": -56.71,
+   "region": "uruguay"
+  },
+  "San Jose de Mayo, Uruguay": {
+   "lat": -34.34,
+   "lon": -56.71,
+   "region": "uruguay"
+  },
+  "San Jose, Uruguay": {
+   "lat": -34.34,
+   "lon": -56.71,
+   "region": "uruguay"
+  },
+  "San Pedro del Durazno, Uruguay": {
+   "lat": -33.38,
+   "lon": -56.52,
+   "region": "uruguay"
+  },
+  "Santa Fe": null,
+  "Santisima Trinidad, Flores, Uruguay": {
+   "lat": -33.54,
+   "lon": -56.9,
+   "region": "uruguay"
+  },
+  "Sarandi, El Tala, Flores, Uruguay": {
+   "lat": -33.6,
+   "lon": -56.85,
+   "region": "uruguay"
+  },
+  "Segovia, Spain": null,
+  "Sexta Seccion, Flores, Uruguay": {
+   "lat": -33.6,
+   "lon": -56.85,
+   "region": "uruguay"
+  },
+  "South Africa": null,
+  "Spain": null,
+  "Spain, presumably Andalusia": null,
+  "Spain, presumably Andalusia (his son is \"natural de Andalucia\"; CORDOBA comes from a tree)": null,
+  "St Andrew, Holborn, London": {
+   "lat": 51.52,
+   "lon": -0.12,
+   "region": "england"
+  },
+  "St Bartholomew's, City of London": {
+   "lat": 51.52,
+   "lon": -0.12,
+   "region": "england"
+  },
+  "Transvaal": {
+   "region": "transvaal"
+  },
+  "Trinidad, Flores": {
+   "lat": -33.54,
+   "lon": -56.9,
+   "region": "uruguay"
+  },
+  "Trinidad, Flores, Uruguay": {
+   "lat": -33.54,
+   "lon": -56.9,
+   "region": "uruguay"
+  },
+  "Tucuman": null,
+  "Uruguay": {
+   "region": "uruguay"
+  },
+  "Uruguay (nationality \"Oriental\" on the manifest)": null,
+  "Villa del Rosario, Colonia, Uruguay": {
+   "lat": -34.32,
+   "lon": -57.35,
+   "region": "uruguay"
+  },
+  "West Leigh by Coldridge, Devon": {
+   "lat": 50.87,
+   "lon": -3.95,
+   "region": "england"
+  },
+  "Worlingworth, Suffolk": {
+   "lat": 52.28,
+   "lon": 1.3,
+   "region": "england"
+  },
+  "Zaragoza": null
+ }
+}

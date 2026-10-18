@@ -7,6 +7,9 @@ import people from "../../data/people.json";
 import personDocs from "../../data/person-documents.json";
 import places from "../../data/places.json";
 import { emph, plain, lead } from "../../lib/text.js";
+import EraNote from "@daviddef/archive-kit/components/EraNote.astro";
+import { birthEra } from "../../lib/eraYear.js";
+import eraSnapshot from "../../data/era-snapshot.json";
 export function getStaticPaths(){ return people.map(p => ({ params:{ slug:p.slug }, props:{ p } })); }
 const { p } = Astro.props;
 const hasEvidence = Array.isArray(p.evidence) && p.evidence.length > 0;
@@ -37,6 +40,18 @@ const says = [
    and the page is noindex. Decided in tools/build-people.py by the estate's one rule. */
 const living = p.living === true;
 const townCountry = [p.town, p.country].filter(Boolean).join(", ");
+
+/* AN «AT THE TIME» NOTE beside the one dated place this page prints: the Birthplace row, with the Born row above it (kit/docs/era-notes.md;
+   David, 18 October 2026). Who held that ground in that year, from the Record Atlas's REGION eras, as this archive committed them
+   (src/data/era-snapshot.json, rebuilt deliberately by tools/build-era.py --snapshot; the place -> region table is data/era-ground.tsv).
+   Context about the ground, never a claim about the family. NEVER on a living, held-out or noindex page: this page decides (noNotes), and
+   the build gate check:era fails any note found on one. Nothing else on the page is a dated place-event: a death has no place here, and
+   «Where found» is the search that produced the person, with no date. The year is the Born row's, and only where it is a plain one
+   («1882-02-22», «1832»): «c.1815» and «1842c» give none. A bare year is often an estimate worked back from an age, so lib/eraYear.js takes
+   it only where no era boundary of the region lies within 5 years of it. The library also gives none for a year on an era's edge (it
+   words that one «From that year»), an approximate, contested or refused era, a place within 15 km of its ring's edge, or no region. */
+const noNotes = living || !!p.noindex;
+const bornEra = noNotes || !p.birthplace || p.birthplace === "-" ? null : birthEra(eraSnapshot, p.birthplace, p.born);
 
 const eyebrow = living ? "A living person, named only" : p.gen != null
   ? `Generation ${p.gen} of the direct line`
@@ -75,7 +90,9 @@ const relTree = p.relTree || 0;
         ? "No record of their own has been read into this archive: they are named as a relative, and the chart above is all it holds."
         : "The record holds a name and a relationship, and nothing more."}</p>}
       <div class="rec" style="margin-top:16px">
-        {says.map(([k, v, w]) => (<><div class="k">{k}</div><div class="v" set:html={emph(v)} /><div class="w">{w}</div></>))}
+        {says.map(([k, v, w]) => (<><div class="k">{k}</div>{k === "Birthplace" && bornEra
+          ? <div class="v"><Fragment set:html={emph(v)} /><EraNote era={bornEra} /></div>
+          : <div class="v" set:html={emph(v)} />}<div class="w">{w}</div></>))}
       </div>
       <div style="margin-top:18px"><Placement c={p.status} /></div>
     </div>

@@ -1,0 +1,30 @@
+# Where each town named in data/era-ground.tsv is, for ONE purpose: tools/build-era.py hands the point to the kit's erasnap.py, which REFUSES a
+# place whose point falls inside a DIFFERENT region's ring than the one it was given, or within 15 km of its own region's ring edge, or outside
+# its own ring (the Atlas's rings are 4-11 vertex shapes, "approximate by design"). It decides nothing else: the region of a place is the row in
+# data/era-ground.tsv. Every point is written by hand to two decimals (the centre of the town or comune, or of the department's capital for a
+# string that names a department or one of its sections); a cross-check against the ring, never a boundary. The shared gazetteer cache is not
+# used: it resolves bare names to homonyms.
+town	lat	lon	how
+Artigas	-30.40	-56.47	hand: the city (San Eugenio del Cuareim is its old name); stands for the department
+Bideford	51.02	-4.21	hand
+Bloemfontein	-29.12	26.21	hand
+Buenos Aires	-34.60	-58.38	hand: the city
+Canelones	-34.52	-56.28	hand: the city (Guadalupe de Canelones); stands for a string that names the department
+Cape Town	-33.92	18.42	hand
+Colon (Montevideo)	-34.80	-56.23	hand: the barrio
+Colonia del Sacramento	-34.47	-57.84	hand
+Durazno	-33.38	-56.52	hand: the city (San Pedro del Durazno)
+Flores	-33.60	-56.85	hand: the middle of the department, which is wholly inland; stands for its sections and localities
+Haddington	55.96	-2.78	hand
+Holborn	51.52	-0.12	hand
+Johannesburg	-26.20	28.04	hand
+La Plata	-34.92	-57.95	hand
+Melo	-32.37	-54.17	hand: the capital of Cerro Largo; stands for the department
+Montevideo	-34.90	-56.19	hand: the city; stands for its barrios and its streets
+Rivera	-30.90	-55.55	hand
+Rosario (Colonia)	-34.32	-57.35	hand: Rosario in the department of Colonia, Uruguay (Colla is in its municipality)
+Rosario (Santa Fe)	-32.95	-60.65	hand: Rosario on the Parana
+San Jose de Mayo	-34.34	-56.71	hand: the capital of San Jose; stands for the department
+Trinidad (Flores)	-33.54	-56.90	hand: Santisima Trinidad, the capital of Flores
+Worlingworth	52.28	1.30	hand
+West Leigh	50.87	-3.95	hand: Coldridge parish

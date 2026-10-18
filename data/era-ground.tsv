@@ -1,0 +1,95 @@
+# Which Record Atlas region (the contract's `regions`, rings in the Atlas's data/regions.json) each BIRTHPLACE this archive prints on a person's page
+# belongs to, for the 'at the time' notes (site/src/pages/people/[slug].astro, kit/docs/era-notes.md). One row per place string AS PRINTED in the
+# Birthplace row of a person who is not living and not noindex (the page offers a dated place-event nowhere else: a death has no place on the page,
+# and a 'where found' is the search that produced the person, with no date). A region of '-' means: looked at, and no Atlas region covers it (or
+# the string is not one place), so no note. A new birthplace in people.json fails tools/build-era.py --check until it is decided here. Mapped by
+# hand against the Atlas's regions; erasnap.py then refuses any town whose point (data/era-towns.tsv, column 4 here names the town) lies within
+# 15 km of its region's ring edge, outside the ring, or in a different region's ring. A place with no town is a country or a region named whole.
+place	region	why	town
+Adolfo Alsina, Buenos Aires, Argentina	-	a partido in the south-west of Buenos Aires province, outside the Atlas's buenos-aires ring	
+Africa	-	a continent	
+Andalusia, Spain (the 1812 padron says "andaluz"; CORDOBA comes from the trees, which cite Apolant ficha 355)	-	Spain, and the page itself says the place is a guess from a tree; the Atlas has no Spanish region	
+Argentina	-	a country; the Atlas has Buenos Aires and Santa Fe regions and no Argentina-wide one	
+Artigas, Uruguay	uruguay	the department of Artigas, inside the Atlas's uruguay region, which is the whole country	Artigas
+Asturias, Spain	-	Spain: the Atlas has no Spanish region	
+Asturias, Spain (presumed - her daughter is 'natural de Asturias')	-	presumed, and the Atlas has no Spanish region	
+Bideford, Devon	england	Bideford, inside the Atlas's england region	Bideford
+Bloemfontein	orange-free-state	Bloemfontein, inside the Atlas's orange-free-state region	Bloemfontein
+Brazil	-	a country; the Atlas has no Brazilian region	
+Buenos Aires	buenos-aires	Buenos Aires, the city or the province: either way inside the Atlas's buenos-aires region	Buenos Aires
+Buenos Aires, Argentina	buenos-aires	Buenos Aires, the city or the province: either way inside the Atlas's buenos-aires region	Buenos Aires
+Canelones	uruguay	Canelones, the city or the department it heads; either way inside the Atlas's uruguay region, which is the whole country	Canelones
+Canelones ("el Canelon")	uruguay	El Canelon, the old name of the town of Canelones, inside the Atlas's uruguay region, which is the whole country	Canelones
+Cape Province	-	a province spanning the Atlas's cape and western-cape regions: not one region	
+Cape Town	western-cape	Cape Town, in the Atlas's western-cape region (a corner of its ring lies close to the city)	Cape Town
+Capital Federal, Buenos Aires, Argentina	buenos-aires	the city of Buenos Aires	Buenos Aires
+Cayasta, Santa Fe	-	in Santa Fe province but outside the Atlas's santafe ring, which holds only the Rosario country	
+Cerro Largo	uruguay	the department of Cerro Largo, inside the Atlas's uruguay region, which is the whole country	Melo
+Cerro Largo, Uruguay	uruguay	the department of Cerro Largo, inside the Atlas's uruguay region, which is the whole country	Melo
+Chile	-	a country; the Atlas has no Chilean region	
+Ciudad de Buenos Aires, Argentina	buenos-aires	the city of Buenos Aires	Buenos Aires
+Colla (Rosario, Colonia)	uruguay	Colla, in the municipality of Rosario, Colonia, inside the Atlas's uruguay region, which is the whole country	Rosario (Colonia)
+Colon, Montevideo, Uruguay	uruguay	the barrio of Colon in Montevideo, inside the Atlas's uruguay region, which is the whole country	Colon (Montevideo)
+Colonia del Sacramento, Uruguay	uruguay	Colonia del Sacramento, inside the Atlas's uruguay region, which is the whole country	Colonia del Sacramento
+Cordoba	-	Cordoba of Argentina or of Spain: not stated, and the Atlas has neither region	
+Cordoba, Argentina	-	Cordoba province: the Atlas has no region there	
+Cordon, Montevideo	uruguay	the barrio of Cordon in Montevideo, inside the Atlas's uruguay region, which is the whole country	Montevideo
+Crespo, Entre Rios, Argentina	-	Entre Rios: the Atlas has no region there	
+Cuchilla de Villas Boas, Flores, Uruguay	uruguay	a locality of the department of Flores, inside the Atlas's uruguay region, which is the whole country	Flores
+Departamento San Jose, Uruguay	uruguay	the department of San Jose, inside the Atlas's uruguay region, which is the whole country	San Jose de Mayo
+Entre Rios	-	Entre Rios: the Atlas has no region there	
+Estado Oriental del Uruguay	uruguay	the old name of the country; the Atlas's uruguay region is the whole country, and a country has no point to check against the ring's edge	
+Flores, Uruguay	uruguay	the department of Flores, inside the Atlas's uruguay region, which is the whole country	Flores
+Gualeguaychu	-	Entre Rios: the Atlas has no region there	
+Haddington, East Lothian	scotland	Haddington, inside the Atlas's scotland region	Haddington
+Holborn, London	england	London, inside the Atlas's england region	Holborn
+Italy	-	a country; the Atlas has only regional Italian regions, none for a bare country	
+Johannesburg	transvaal	Johannesburg, inside the Atlas's transvaal region	Johannesburg
+La Paz, Uruguay	-	the string does not say which La Paz; the one in Canelones lies about 17 km from the Atlas's ring edge, too near to call	
+La Plata, Buenos Aires, Argentina	buenos-aires	La Plata, inside the Atlas's buenos-aires region	La Plata
+Lima, PERU	-	Peru: the Atlas has no region there	
+Logrono	-	Spain: the Atlas has no Spanish region	
+Madrid	-	Spain: the Atlas has no Spanish region	
+Mal Abrigo, San Jose, Uruguay	-	a coastal locality of San Jose; the Atlas's ring runs along that coast and the locality's point cannot be fixed to within the 15 km margin	
+Mendoza	-	Mendoza: the Atlas has no region there	
+Mendoza, Argentina	-	Mendoza: the Atlas has no region there	
+Montevideo	uruguay	Montevideo, inside the Atlas's uruguay region, which is the whole country; the Atlas's ring runs within a few km of the city	Montevideo
+Montevideo, calle Yi 303	uruguay	a street in Montevideo, inside the Atlas's uruguay region, which is the whole country; the Atlas's ring runs within a few km of the city	Montevideo
+Montevideo, Uruguay	uruguay	Montevideo, inside the Atlas's uruguay region, which is the whole country; the Atlas's ring runs within a few km of the city	Montevideo
+Navarrete, Logrono, Spain	-	Spain: the Atlas has no Spanish region	
+Northam, Devon	england	Northam, beside Bideford, inside the Atlas's england region	Bideford
+Pernambuco, Brazil	-	Brazil: the Atlas has no Brazilian region	
+Pintos, Flores	uruguay	a locality of the department of Flores, inside the Atlas's uruguay region, which is the whole country	Flores
+Rivera, Uruguay	uruguay	the city or department of Rivera, inside the Atlas's uruguay region, which is the whole country	Rivera
+Rosario	santafe	Rosario: the pages that say Rosario alone name Santa Rosa de Lima or a Santa Fe record	Rosario (Santa Fe)
+Rosario / Colla, Colonia	uruguay	Rosario and Colla, both in the department of Colonia, inside the Atlas's uruguay region, which is the whole country	Rosario (Colonia)
+Rosario, Argentina	santafe	Rosario on the Parana (the page's own source is an Argentine military record)	Rosario (Santa Fe)
+Rosario, COLONIA, URUGUAY	uruguay	Rosario in the department of Colonia, inside the Atlas's uruguay region, which is the whole country	Rosario (Colonia)
+Rosario, Santa Fe	santafe	Rosario, inside the Atlas's santafe region	Rosario (Santa Fe)
+San Cristobal, Buenos Aires, Argentina	buenos-aires	the barrio of San Cristobal in the city of Buenos Aires	Buenos Aires
+San Eugenio, Artigas, Uruguay	uruguay	San Eugenio, the old name of the city of Artigas, inside the Atlas's uruguay region, which is the whole country	Artigas
+San Jose de Mayo, San Jose, Uruguay	uruguay	San Jose de Mayo, inside the Atlas's uruguay region, which is the whole country	San Jose de Mayo
+San Jose de Mayo, Uruguay	uruguay	San Jose de Mayo, inside the Atlas's uruguay region, which is the whole country	San Jose de Mayo
+San Jose, Uruguay	uruguay	the city or the department of San Jose, inside the Atlas's uruguay region, which is the whole country	San Jose de Mayo
+San Pedro del Durazno, Uruguay	uruguay	San Pedro del Durazno, inside the Atlas's uruguay region, which is the whole country	Durazno
+Santa Fe	-	the city or the province of Santa Fe: not stated, and the city lies on the edge of the Atlas's santafe ring	
+Santisima Trinidad, Flores, Uruguay	uruguay	Santisima Trinidad, the capital of Flores, inside the Atlas's uruguay region, which is the whole country	Trinidad (Flores)
+Sarandi, El Tala, Flores, Uruguay	uruguay	a locality the string places in the department of Flores, inside the Atlas's uruguay region, which is the whole country	Flores
+Segovia, Spain	-	Spain: the Atlas has no Spanish region	
+Sexta Seccion, Flores, Uruguay	uruguay	the sixth section of the department of Flores, inside the Atlas's uruguay region, which is the whole country	Flores
+South Africa	-	a country; the string does not say which of the Atlas's South African regions	
+Spain	-	a country; the Atlas has no Spanish region	
+Spain, presumably Andalusia	-	presumed, and the Atlas has no Spanish region	
+Spain, presumably Andalusia (his son is "natural de Andalucia"; CORDOBA comes from a tree)	-	presumed from a tree, and the Atlas has no Spanish region	
+St Andrew, Holborn, London	england	London, inside the Atlas's england region	Holborn
+St Bartholomew's, City of London	england	London, inside the Atlas's england region	Holborn
+Transvaal	transvaal	the Transvaal itself, which is the Atlas's transvaal region; a region has no point to check against its own ring	
+Trinidad, Flores	uruguay	Trinidad, the capital of Flores, inside the Atlas's uruguay region, which is the whole country	Trinidad (Flores)
+Trinidad, Flores, Uruguay	uruguay	Trinidad, the capital of Flores, inside the Atlas's uruguay region, which is the whole country	Trinidad (Flores)
+Tucuman	-	Tucuman: the Atlas has no region there	
+Uruguay	uruguay	the country: the Atlas's uruguay region is the whole country, and a country has no point to check against the ring's edge	
+Uruguay (nationality "Oriental" on the manifest)	-	a nationality read from a manifest, not a place of birth	
+Villa del Rosario, Colonia, Uruguay	uruguay	Villa del Rosario, the old name of Rosario in Colonia, inside the Atlas's uruguay region, which is the whole country	Rosario (Colonia)
+West Leigh by Coldridge, Devon	england	a Devon parish, inside the Atlas's england region	West Leigh
+Worlingworth, Suffolk	england	a Suffolk parish, inside the Atlas's england region	Worlingworth
+Zaragoza	-	Spain: the Atlas has no Spanish region	

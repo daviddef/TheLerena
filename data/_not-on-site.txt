@@ -166,3 +166,12 @@ record-links
 # 18 October 2026. NOT A PAGE: the editorial table of which words in a passage become the link to the record they cite, and which passages cite
 # no record a reader could be sent to (each with its reason). Read by tools/link-records.py after the build; its effect is the link on the
 # page. See that tool for the format.
+
+era-ground
+# 18 October 2026. NOT A PAGE: which Record Atlas region each birthplace on a person's page belongs to (or '-': no region covers it), with the
+# reason. Read by tools/build-era.py, which writes site/src/data/era-places.json for the kit's snapshot builder; its effect is the quiet
+# "At the time" line under a Birthplace (kit docs/era-notes.md), and the gate check:era-ground refuses a birthplace with no row.
+
+era-towns
+# 18 October 2026. NOT A PAGE: the point (hand-written, two decimals) of each town named in data/era-ground.tsv, used only so the kit can refuse a
+# place within 15 km of its region's ring edge. Read by tools/build-era.py.
