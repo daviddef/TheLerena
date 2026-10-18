@@ -2462,7 +2462,7 @@
    "baptism",
    "parish-registers"
   ],
-  "note": "PROBABLY ALEJANDRO LERENA THE ELDER AND MARGARITA FERNANDEZ ALVAREZ OF TRINIDAD. The index entry for Cesarea listed 'other people' and the plate confirmed them: maternal grandparents 'Dn. Alejandro y Da. Margarita Fernandez', paternal 'D. Juan y Da. Manuela Muniz' (matching the 1892 act). The grandfather has no surname in the act and no act names Estefania beside Socorro and Bernabe, so it is an identification, not a proof. Socorro and Estefania are both about 1832. METHOD NOTE: searching the index by parents (father + mother, no child) listed every baptism of the couple and their 'other people' fields in one query. No waypoint established - image ark only. TESTED AND CONFIRMED THE SAME DAY by a second act: the Trinidad baptism of 1867 (act 303) of Estefania Fausta Leopoldina, born 13 October 1867, names 'Maternos Alejandro y Margarita Fernandez' and a godmother Alejandrina Lerena. NOT NEEDED FURTHER, and the Trinidad entries of 1861 and 1870 name no grandparents in the index. The index holds the 1867 act twice, one copy with the year mis-keyed 1892."
+  "note": "PROBABLY ALEJANDRO LERENA THE ELDER AND MARGARITA FERNANDEZ ALVAREZ OF TRINIDAD. The index entry for Cesarea listed 'other people' and the plate confirmed them: maternal grandparents 'Dn. Alejandro y Da. Margarita Fernandez', paternal 'D. Juan y Da. Manuela Muniz' (matching the 1892 act). The grandfather has no surname in the act and no act names Estefania beside Socorro and Bernabe, so it is an identification, not a proof. Socorro and Estefania are both about 1832. METHOD NOTE: searching the index by parents (father + mother, no child) listed every baptism of the couple and their 'other people' fields in one query. No waypoint established - image ark only. TESTED AND CONFIRMED THE SAME DAY by a second act: the Trinidad baptism of 1867 (act 303) of Estefania Fausta Leopoldina, born 13 October 1867, names 'Maternos Alejandro y Margarita Fernandez' and a godmother Alejandrina Lerena. NOT NEEDED FURTHER, and the Trinidad entries of 1861 and 1870 name no grandparents in the index. The index holds the 1867 act twice, one copy with the year mis-keyed 1892. [UPDATE 18 October 2026: ESTEFANIA'S OWN BAPTISM (San Jose, January 1831, act 149) NAMES ALEJANDRO LERENA AND MARGARITA FERNANDEZ AS HER PARENTS - the 'probable' and the 'twin' readings above are superseded; see the later row.]"
  },
  {
   "src": "FamilySearch record index - Pedro Lerena with spouse Teresa Leonor, marriage 1855-1864, Uruguay Catholic Church Records 1726-2000",
@@ -2563,7 +2563,7 @@
    "baptism",
    "civil-registration"
   ],
-  "note": "FIVE RECORDS FROM ONE QUERY, FOUR OF THEM NEW: the 1829 San Jose baptism of Alexandro Florencio (the younger Alejandro, born 23 February 1829; the index mis-keys 1823), the 1892 civil death act of Maria Lerena de Fernandez (a new sister, 64), and the 1921 death act of Socorro (88, born at San Jose, naming all four grandparents). METHOD NOTE: a parents-only query WITH A BIRTH WINDOW (1826-1840) beat the earlier children-of-the-couple query, because it returned the older generation's own records. THE TWIN QUESTION: ages 60 (Estefania, 1892) and 88 (Socorro, 1921) do not overlap, so Estefania would be the elder by a year or less; twins are not shown and not ruled out. NOT FOUND: baptisms of Maria, Estefania or Socorro; Maria's husband. FULL TEXT WAS STILL DOWN. No waypoint established - image arks only."
+  "note": "FIVE RECORDS FROM ONE QUERY, FOUR OF THEM NEW: the 1829 San Jose baptism of Alexandro Florencio (the younger Alejandro, born 23 February 1829; the index mis-keys 1823), the 1892 civil death act of Maria Lerena de Fernandez (a new sister, 64), and the 1921 death act of Socorro (88, born at San Jose, naming all four grandparents). METHOD NOTE: a parents-only query WITH A BIRTH WINDOW (1826-1840) beat the earlier children-of-the-couple query, because it returned the older generation's own records. THE TWIN QUESTION: ages 60 (Estefania, 1892) and 88 (Socorro, 1921) do not overlap, so Estefania would be the elder by a year or less; twins are not shown and not ruled out. NOT FOUND: baptisms of Maria, Estefania or Socorro; Maria's husband. FULL TEXT WAS STILL DOWN. No waypoint established - image arks only. [UPDATE 18 October 2026: ESTEFANIA'S OWN BAPTISM (San Jose, January 1831, act 149) NAMES ALEJANDRO LERENA AND MARGARITA FERNANDEZ AS HER PARENTS - the 'probable' and the 'twin' readings above are superseded; see the later row.]"
  },
  {
   "src": "FamilySearch record index - Ramon Lerena and Maria Gonzalez as parents, born 1788-1816, Uruguay; and the Cordon baptism of Eusebio Congenio, 17 August 1816",
@@ -2720,5 +2720,28 @@
    "uruguay",
    "familysearch"
   ]
+ },
+ {
+  "src": "FamilySearch image viewer, film 008143327: San Jose de Mayo Baptism Records 1828-1836, images 22-104 stepped through with each image's machine index scanned for Lerena-like names",
+  "url": "https://www.familysearch.org/search/collection/4134697",
+  "film": "008143327",
+  "waypoint": null,
+  "what": "The baptisms of Estefania (born about 1831) and Socorro (born 1832), daughters of Alejandro Lerena and Margarita Fernandez, at San Jose",
+  "when": "2026-10-18",
+  "outcome": "yield",
+  "pages": "images 22-104 scanned; two acts read at the plate",
+  "walked": true,
+  "tags": [
+   "lerena",
+   "fernandez",
+   "gonzalez",
+   "san jose",
+   "uruguay",
+   "familysearch",
+   "baptism",
+   "parish-registers",
+   "hand-read"
+  ],
+  "note": "BOTH FOUND. ESTEFANIA: act 149, image 57 of 801 (ark 3:1:3Q9M-CSKH-D95D-Y), 'Ana Estefania de quince dias de edad, hija legitima de Alejandro Lerena y de Margarita Fernandez', 22 January 1831 - born about 7 January 1831. SOCORRO: act 499, image 102 (ark 3:1:3Q9M-CSKH-D9PY-G), christened 30 October 1832, born late September 1832, with paternal grandparents Ramon Lerena and Maria Gonzalez. ESTEFANIA'S PARENTAGE IS THEREFORE DOCUMENTED BY HER OWN BAPTISM, with the 1867 and 1872 grandparent lines as independent confirmations; SHE IS ABOUT TWENTY MONTHS OLDER THAN SOCORRO - NOT A TWIN. METHOD: when neither the record index nor full text returned a baptism, the viewer's 'Previous Image' button plus a script that read each image's index panel (names and event dates) and reported Lerena-like names scanned about 80 images in under five minutes; two of the three hits were real. The viewer ignores an i= URL parameter but accepts a number typed into its box; the header gives the film number and the image count ('Film # 008143327', 'of 801'). A film holds MANY books (image 400 of this film is 1844). WAYPOINT: film number recorded; no waypoint URL captured. MARIA (about 1827-28) was not looked for - the volume begins in November 1828."
  }
 ]

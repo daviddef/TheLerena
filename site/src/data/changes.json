@@ -5,6 +5,11 @@
    "date": "2026-10-18",
    "commits": [
     {
+     "sha": "61836c2",
+     "subject": "Log index nulls for the Lerena-Morales marriage and Trinidad Morales's death (not exclusions)",
+     "body": ""
+    },
+    {
      "sha": "039a8c2",
      "subject": "Log nulls for the 1861 marriage act and Pedro's baptism; the Catedral's marriage volume is absent from full text (not an exclusion)",
      "body": ""
