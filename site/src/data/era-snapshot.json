@@ -4,7 +4,7 @@
   "rings_sha256": null,
   "rings_source": "contract"
  },
- "built": "2026-10-18",
+ "built": "2026-10-19",
  "contract": {
   "generated": "2026-10-18",
   "name": "recordatlas-context",
@@ -122,6 +122,15 @@
   "margin_years": 5,
   "margins": {},
   "recent_from": 1990,
+  "ruler_polities": {
+   "italy": [
+    "kingdom-of-italy",
+    "italian-republic"
+   ],
+   "twosicilies": [
+    "kingdom-of-the-two-sicilies"
+   ]
+  },
   "unassessed": "allow"
  },
  "quality": {
@@ -745,10 +754,47 @@
    }
   ]
  },
+ "rulers": {
+  "buenos-aires": {
+   "has": false,
+   "reigns": [],
+   "why": "the contract says the region has no rulers"
+  },
+  "england": {
+   "has": false,
+   "reigns": [],
+   "why": "the contract says the region has no rulers"
+  },
+  "orange-free-state": {
+   "has": false,
+   "reigns": [],
+   "why": "the contract says the region has no rulers"
+  },
+  "santafe": {
+   "has": false,
+   "reigns": [],
+   "why": "the contract says the region has no rulers"
+  },
+  "scotland": {
+   "has": false,
+   "reigns": [],
+   "why": "the contract says the region has no rulers"
+  },
+  "transvaal": {
+   "has": false,
+   "reigns": [],
+   "why": "the contract says the region has no rulers"
+  },
+  "uruguay": {
+   "has": false,
+   "reigns": [],
+   "why": "the contract says the region has no rulers"
+  }
+ },
  "unchecked_edge": [
   "estado oriental del uruguay",
   "transvaal",
   "uruguay"
  ],
- "version": 4
+ "version": 5
 }
