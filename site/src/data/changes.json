@@ -5,8 +5,28 @@
    "date": "2026-10-18",
    "commits": [
     {
+     "sha": "25c8f48",
+     "subject": "Estefania Lerena's own baptism names her parents; Socorro's baptism found: both read at the plate at San Jose, 1831 and 1832",
+     "body": "Found by stepping image by image through film 008143327 (San Jose de Mayo Baptism Records 1828-1836) and scanning each image's machine index,\nafter the record index and full text had not returned them. Act 149: 'Ana Estefania, de quince dias de edad, hija legitima de Alejandro Lerena y de\nMargarita Fernandez', 22 January 1831 (born about 7 January). Act 499: Maria del Socorro, christened 30 October 1832, born late September, paternal\ngrandparents Ramon Lerena and Maria Gonzalez. Estefania is the OLDER sister by about twenty months, not a twin; her parentage is no longer a\n'probable'. Every earlier 'probable', 'twin' and 'not proved' statement is marked superseded in the register, edges, kindred page, Uruguay page and log.\nThe film is listed in the sources file."
+    },
+    {
+     "sha": "ad2dd18",
+     "subject": "Re-pin the kit to a4d7b81: every page carries a chapter reference (F.1, I, I.2) in the running head, the foot and the Contents",
+     "body": ""
+    },
+    {
+     "sha": "ab7e4eb",
+     "subject": "Merge origin/main into final",
+     "body": ""
+    },
+    {
      "sha": "61836c2",
      "subject": "Log index nulls for the Lerena-Morales marriage and Trinidad Morales's death (not exclusions)",
+     "body": ""
+    },
+    {
+     "sha": "6efa6a6",
+     "subject": "Merge origin/main (a research log commit) into final",
      "body": ""
     },
     {
@@ -15,9 +35,49 @@
      "body": ""
     },
     {
+     "sha": "f67ba94",
+     "subject": "Re-pin the kit to 1c3fd5e: unique ids and a scoped script per lines figure; the head's Previous reads Prev at every width",
+     "body": ""
+    },
+    {
+     "sha": "05772a0",
+     "subject": "Merge wording (research-wording corrections) into final",
+     "body": ""
+    },
+    {
+     "sha": "26b7cb5",
+     "subject": "Merge repin2 (kit re-pin, head arrows) into final",
+     "body": ""
+    },
+    {
      "sha": "b50767c",
      "subject": "Pedro Antonio Lerena confirmed by the Vicario's own register; a third Pedro A. Lerena household (wife Trinidad Morales) at the Cordon, 1862-63",
      "body": "The clerk's register of dispensations, entry no. 422 under Junio de 1861, reads 'El ocho de Junio de mil ochocientos sesenta y uno, S.S. dispenso a Don Pedro\nAntonio Lerena dos conciliares proclamas ... con Da. Teresa Leonard, parroquiana de la Matriz', which confirms the day and writes out the petition's 'A.'.\nA full-text query rebuilt from those spellings also returned the Cordon christening of 8 February 1863 of Amelia, born 2 May 1862, to 'D. Pedro A. Lerena\ny Da. Trinidad Morales, orientales', with a godmother Amelia LERENA (the index says Serena). He cannot be Teresa's husband; Pedro Lerena Vega is the best\ncandidate and is not merged. The 1871 Cordon death entry of a nine-year-old Amelia Lerena is cross-linked as a candidate for the same girl."
+    },
+    {
+     "sha": "bc68409",
+     "subject": "The Name: caption counts the lanes' beginnings correctly; a list links each household below the rule to the pages that hold it",
+     "body": ""
+    },
+    {
+     "sha": "85a391e",
+     "subject": "Lines data follows the register: Larriera household placed on Sancho's lane, Larena and Lerina counts, Navarrete reason, direct-line link, Newlands label",
+     "body": ""
+    },
+    {
+     "sha": "f2c7f29",
+     "subject": "Larena count: fourteen in the two provinces, not nineteen (the five Buenos Aires arrivals are the difference)",
+     "body": ""
+    },
+    {
+     "sha": "cbf7a1b",
+     "subject": "check:book calls the kit's checkbook directly: the kit sets redirect stubs aside itself, so the local wrapper is retired",
+     "body": "tools/check-book.py moved 24 redirect stubs aside before calling the kit; the kit now does that (and still fails a stub whose target is not built).\nnpm run check:book, verify.sh and the deploy workflow run the kit's tool from site/; the five plant-a-fault cases for the book call it too."
+    },
+    {
+     "sha": "881875c",
+     "subject": "Re-pin the kit to a6ea10c: Previous and Next in the running head; checkbook reads outside before inherit and sets redirect stubs aside itself; the counter check reads linked stylesheets",
+     "body": ""
     },
     {
      "sha": "e3326ac",
