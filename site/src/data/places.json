@@ -263,9 +263,10 @@
    "carlota-munoz",
    "maria-concepcion-magarinos-pittaluga",
    "mateo-magarinos-veira",
-   "amanda-pittaluga"
+   "amanda-pittaluga",
+   "maximo-rivas"
   ],
-  "count": 261
+  "count": 262
  },
  {
   "slug": "trinidad-flores",
@@ -774,6 +775,20 @@
   "count": 7
  },
  {
+  "slug": "san-jose",
+  "name": "San Jose",
+  "people": [
+   "ema-justina-felicia-lerena-regules",
+   "arturo-mario-lerena-regules",
+   "casilda-fernandez-alvarez",
+   "pedro-garcia-de-la-sierra",
+   "tomasa-gonzalez",
+   "jose-paulino-larriera",
+   "dolores-morales"
+  ],
+  "count": 7
+ },
+ {
   "slug": "mendoza",
   "name": "Mendoza",
   "people": [
@@ -1122,15 +1137,6 @@
   "count": 2
  },
  {
-  "slug": "san-jose",
-  "name": "San Jose",
-  "people": [
-   "ema-justina-felicia-lerena-regules",
-   "arturo-mario-lerena-regules"
-  ],
-  "count": 2
- },
- {
   "slug": "union-montevideo",
   "name": "Union, Montevideo",
   "people": [
@@ -1163,6 +1169,15 @@
   "people": [
    "pedro-lerena",
    "juana-camacho"
+  ],
+  "count": 2
+ },
+ {
+  "slug": "canary-islands",
+  "name": "Canary Islands",
+  "people": [
+   "marcial-de-leon-gonzalez",
+   "isabel-lorenzo-araquea"
   ],
   "count": 2
  },

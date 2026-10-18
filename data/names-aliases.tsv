@@ -19,3 +19,14 @@ Sancho Llerena	Sancho LLERENA Aguilar	data/lerena-register.tsv writes his name S
 Joaquin Ruiz de Carvallo	Mayor Don Joaquin RUIZ DE CARVALLO	data/lerena-register.tsv: the Catedral act of 12 May 1827 names him MAYOR DON JOAQUIN RUIZ DE CARVALLO (the register row carries the rank in front)
 Jacinto Vera	Obispo Jacinto VERA (Bishop of Montevideo)	data/lerena-register.tsv: the row is the Bishop of Montevideo, named in the act as Senor Obispo D. Jacinto Vera
 Gilberto Justiniano Lerena Lenguas	Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS)	data/lerena-register.tsv: the row is headed Gilberto LERENA and names him in full, Gilberto Justiniano LERENA LENGUAS, in its own parenthesis
+Marcos Leon Gonzalez	Marcos de LEON GONZALEZ (godfather, 1825)	data/cordon-deaths.tsv: the San Jose marriage act of 1815 writes him 'D. Marcos Leon Gonzalez', without the 'de' of the baptism and wedding acts
+Maria de Leon Gonzalez	Maria Josefa GONZALEZ (wife of Ramon LERENA of Colla)	data/cordon-deaths.tsv: the 1816 Cordon baptism writes the mother 'Maria de Leon Gonzalez'; the 1812 act writes her Maria Josefa Gonzalez, daughter of Marcial de Leon Gonzalez
+Maria de Leon	Maria Josefa GONZALEZ (wife of Ramon LERENA of Colla)	data/cordon-deaths.tsv: the 1827 San Jose baptism of Maria Casilda writes the paternal grandmother 'Maria de Leon'
+Maria Casilda	Maria LERENA (m. FERNANDEZ, d. 1892 Trinidad)	data/cordon-deaths.tsv: her baptism at San Jose in 1827 writes her Maria Casilda; the 1892 death act has Maria Lerena de Fernandez (identified, not proved)
+Ana Estefania	Estefania LERENA (m. Servando GONZALEZ)	data/cordon-deaths.tsv: her own baptism at San Jose in 1831 writes her Ana Estefania
+Estefania Fausta Leopoldina	Estefania GONZALEZ Lerena (named 1892)	data/cordon-deaths.tsv: the Trinidad baptism of 1867 writes the daughter Estefania Fausta Leopoldina
+Maria del Socorro	Socorro LERENA (m. Serapio Fernandez the elder)	data/cordon-deaths.tsv: her baptism at San Jose in 1832 writes her Maria del Socorro
+Maria del Socorro Lerena	Socorro LERENA (m. Serapio Fernandez the elder)	data/cordon-deaths.tsv: the margin of her baptism at San Jose in 1832 writes Maria del Socorro Lerena
+Maria Lerena de Fernandez	Maria LERENA (m. FERNANDEZ, d. 1892 Trinidad)	data/cordon-deaths.tsv: her civil death act of 1892 writes her Maria Lerena de Fernandez
+Maria Fernandez Albarez	Maria FERNANDEZ ALVAREZ (godmother, 1825)	data/cordon-deaths.tsv: the 1827 San Jose baptism writes the godmother's surname Fernandez Albarez
+Clara Llerena	Clara LERENA (madrina, San Jose 1829)	data/cordon-deaths.tsv: the 1829 San Jose baptism writes the godmother Clara Llerena

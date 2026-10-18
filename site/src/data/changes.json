@@ -5,6 +5,11 @@
    "date": "2026-10-18",
    "commits": [
     {
+     "sha": "87a6a33",
+     "subject": "Maria Casilda, baptised at San Jose on 11 April 1827: the eldest of Alejandro and Margarita's five, identified with the Maria of the 1892 death act",
+     "body": "Film 008163861, image 792 of 815 (San Jose de Mayo Baptism Records 1822-1828), read at the plate: 'bautice solemnemente a Maria Casilda, hija legitima de Alexandro\nLerena y Margarita Fernandez. Abuelos paternos Ramon y Maria de Leon. Maternos Juan [y] Barbara Sotura. Padrinos Marcos de Leon Gonzalez y [Maria] Fernandez Albarez'.\nNo birth date is written, so she was born on or before that day; the 1892 age of 64 was about a year low. Identification with the Maria of 1892 is strong and not proved.\nThe godmother is Margarita's own sister; 'Maria de Leon' and 'Maria Gonzalez' are almost certainly one grandmother. Every child of the couple now has a baptism.\nThe film is listed in the sources file; two new same-name pairs are reasoned."
+    },
+    {
      "sha": "db62c1d",
      "subject": "Person pages: a quiet \"at the time\" note under the Birthplace row, from the Record Atlas's region eras (place table, towns and snapshot committed; gates check:era-ground, check:era and check:era-expect in the build chain)",
      "body": "A bare birth year is taken only where no era boundary of the region lies within 5 years of it (the register's born_est is often an estimate); the snapshot is built from contract 1.8.0 with --unassessed allow and --outside-ring refuse."

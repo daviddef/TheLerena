@@ -611,6 +611,15 @@
    "url": "/people/carolina-juarez/"
   },
   {
+   "name": "Casilda Fernandez Alvarez",
+   "aliases": [
+    "Casilda Fernandez",
+    "Casilda Fernández",
+    "Casilda Fernández Alvarez"
+   ],
+   "url": "/people/casilda-fernandez-alvarez/"
+  },
+  {
    "name": "Casimira Chavarria",
    "aliases": [],
    "url": "/people/casimira-chavarria/"
@@ -699,6 +708,11 @@
    "url": "/people/clara-henriette-knof/"
   },
   {
+   "name": "Clara Llerena",
+   "aliases": [],
+   "url": "/people/clara-lerena/"
+  },
+  {
    "name": "Clemente Bueno",
    "aliases": [],
    "url": "/people/clemente-bueno/"
@@ -759,6 +773,11 @@
     "Delfina Fernández"
    ],
    "url": "/people/delfina-fernandez/"
+  },
+  {
+   "name": "Dolores Morales",
+   "aliases": [],
+   "url": "/people/dolores-morales/"
   },
   {
    "name": "Dolores Pou de Zalduondo",
@@ -1321,11 +1340,17 @@
   {
    "name": "Estefania Gonzalez Lerena",
    "aliases": [
+    "Estefania Fausta Leopoldina",
     "Estefania Gonzalez",
     "Estefania González",
     "Estefania González Lerena"
    ],
    "url": "/people/estefania-gonzalez-lerena/"
+  },
+  {
+   "name": "Ana Estefania",
+   "aliases": [],
+   "url": "/people/estefania-lerena/"
   },
   {
    "name": "Eugenio Marcos Abella",
@@ -1608,6 +1633,13 @@
    "url": "/people/isabel-llerena-clavijo/"
   },
   {
+   "name": "Isabel Lorenzo Araquea",
+   "aliases": [
+    "Isabel Lorenzo"
+   ],
+   "url": "/people/isabel-lorenzo-araquea/"
+  },
+  {
    "name": "Isabella Brailey",
    "aliases": [],
    "url": "/people/isabella-brailey/"
@@ -1794,6 +1826,13 @@
     "José Pando de Barros"
    ],
    "url": "/people/jose-pando-de-barros/"
+  },
+  {
+   "name": "Jose Paulino Larriera",
+   "aliases": [
+    "José Paulino Larriera"
+   ],
+   "url": "/people/jose-paulino-larriera/"
   },
   {
    "name": "Jose Pedro Massera",
@@ -2353,8 +2392,23 @@
    "url": "/people/manuela-otondo/"
   },
   {
+   "name": "Marcial de Leon Gonzalez",
+   "aliases": [
+    "Marcial de Leon",
+    "Marcial de Leon González",
+    "Marcial de León",
+    "Marcial de León Gonzalez",
+    "Marcial de León González"
+   ],
+   "url": "/people/marcial-de-leon-gonzalez/"
+  },
+  {
    "name": "Marcos de Leon Gonzalez",
    "aliases": [
+    "Marcos Leon Gonzalez",
+    "Marcos Leon González",
+    "Marcos León Gonzalez",
+    "Marcos León González",
     "Marcos de Leon",
     "Marcos de Leon González",
     "Marcos de León",
@@ -2588,8 +2642,12 @@
   {
    "name": "Maria Fernandez Alvarez",
    "aliases": [
+    "Maria Fernandez Albarez",
+    "Maria Fernández Albarez",
     "Maria Fernández Alvarez",
+    "María Fernandez Albarez",
     "María Fernandez Alvarez",
+    "María Fernández Albarez",
     "María Fernández Alvarez"
    ],
    "url": "/people/maria-fernandez-alvarez/"
@@ -2641,8 +2699,20 @@
    "name": "Maria Josefa Gonzalez",
    "aliases": [
     "Maria Josefa González",
+    "Maria de Leon",
+    "Maria de Leon Gonzalez",
+    "Maria de Leon González",
+    "Maria de León",
+    "Maria de León Gonzalez",
+    "Maria de León González",
     "María Josefa Gonzalez",
-    "María Josefa González"
+    "María Josefa González",
+    "María de Leon",
+    "María de Leon Gonzalez",
+    "María de Leon González",
+    "María de León",
+    "María de León Gonzalez",
+    "María de León González"
    ],
    "url": "/people/maria-josefa-gonzalez/"
   },
@@ -2679,6 +2749,17 @@
     "María Leonor Lerena Beloqui"
    ],
    "url": "/people/maria-leonor-lerena-beloqui/"
+  },
+  {
+   "name": "Maria Casilda",
+   "aliases": [
+    "Maria Lerena de Fernandez",
+    "Maria Lerena de Fernández",
+    "María Casilda",
+    "María Lerena de Fernandez",
+    "María Lerena de Fernández"
+   ],
+   "url": "/people/maria-lerena-6/"
   },
   {
    "name": "Maria Lerena Pelaez",
@@ -2798,6 +2879,13 @@
     "Máximo Pelaez"
    ],
    "url": "/people/maximo-pelaez/"
+  },
+  {
+   "name": "Maximo Rivas",
+   "aliases": [
+    "Máximo Rivas"
+   ],
+   "url": "/people/maximo-rivas/"
   },
   {
    "name": "Mayor Don Joaquin Ruiz De Carvallo",
@@ -2941,6 +3029,13 @@
    "name": "Pedro Beloqui",
    "aliases": [],
    "url": "/people/pedro-beloqui/"
+  },
+  {
+   "name": "Pedro Garcia de la Sierra",
+   "aliases": [
+    "Pedro Garcia"
+   ],
+   "url": "/people/pedro-garcia-de-la-sierra/"
   },
   {
    "name": "Pedro Gualberto Lerena Villademoros",
@@ -3250,6 +3345,15 @@
    "url": "/people/severa-fernandez/"
   },
   {
+   "name": "Maria del Socorro",
+   "aliases": [
+    "Maria del Socorro Lerena",
+    "María del Socorro",
+    "María del Socorro Lerena"
+   ],
+   "url": "/people/socorro-lerena/"
+  },
+  {
    "name": "Sofia Clavijo",
    "aliases": [],
    "url": "/people/sofia-clavijo/"
@@ -3299,6 +3403,13 @@
    "name": "Tomasa Cantidia Llerena",
    "aliases": [],
    "url": "/people/tomasa-cantidia-llerena/"
+  },
+  {
+   "name": "Tomasa Gonzalez",
+   "aliases": [
+    "Tomasa González"
+   ],
+   "url": "/people/tomasa-gonzalez/"
   },
   {
    "name": "Trinidad Morales",
