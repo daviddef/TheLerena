@@ -5,6 +5,11 @@
    "date": "2026-10-17",
    "commits": [
     {
+     "sha": "6ea32a2",
+     "subject": "Log an index null for the Balinas-Leonar marriage (not an exclusion)",
+     "body": ""
+    },
+    {
      "sha": "ab1d5f2",
      "subject": "Homonym warning on Teresa Leonard: a second Teresa Leonar (wife of Tomas Balinas, mother Manuela Ortin) at Montevideo 1871-74",
      "body": "Found while searching for Teresa's own baptism (no baptism or sibling indexed: index null, not an exclusion). The La Union christening of Fermin\nRodolfo Balinas, read at the plate, gives a Teresa Leonar with father Antonio and mother Manuela Ortin, where the Lerena household's Teresa has\nmother Manuela Iturriaga. Probably two women, not settled; the register row says do not merge and notes a tree profile already attached to the\n1874 record. No full dates added to the row so its death tier is unchanged."
