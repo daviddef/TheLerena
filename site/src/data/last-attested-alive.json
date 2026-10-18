@@ -5101,5 +5101,26 @@
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Amelia LERENA Morales (b. 1862, Cordon)",
+  "born_est": "1862-05-02",
+  "last_attested_alive": "1862-05-02",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Trinidad MORALES (m. Pedro A. Lerena)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Pedro A. LERENA (m. Trinidad Morales, Cordon 1863)",
+  "born_est": "-",
+  "last_attested_alive": "1863-Feb-08",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
  }
 ]

@@ -2,8 +2,28 @@
  "mechanical": 53,
  "days": [
   {
+   "date": "2026-10-18",
+   "commits": [
+    {
+     "sha": "e3326ac",
+     "subject": "Teresa Leonard and Pedro A. Lerena's marriage dispensation, June 1861: found by full-text search, read at the plate",
+     "body": "Expediente no. 422 (Libro de Dispensas, f. 110): 'Don Pedro A. Lerena ... habiendo concertado contraer matrimonio ... con Dona Teresa Leonard,\nparroquiana de la Matriz', asking dispensation of two of the three banns because the bride's mother had gone to the country to nurse a sick\ndaughter; granted 8 June 1861. New: the marriage date (June 1861 or soon after) and a sister of Teresa. Not new: Pedro's parentage, and the marriage\nact itself is still not found. The log also corrects the last three rounds: the full-text 'Something Went Wrong' was my own fullTextCountry URL\nparameter; the working place filter and a note on OR-query blowups are recorded."
+    }
+   ]
+  },
+  {
    "date": "2026-10-17",
    "commits": [
+    {
+     "sha": "3c0e6a8",
+     "subject": "The book: every page placed in seven parts on a spine (cover, About and Method in front; Rosario and the River Plate, the line, the families, the Cape and the Rand, where the lines meet, everyone, how we know), with Contents, part openers, a running head and Previous/Next; checkbook wired into the build, verify.sh, CI and the plant-a-fault sweep, book.json read by the prose gate",
+     "body": ""
+    },
+    {
+     "sha": "41e8d05",
+     "subject": "Re-pin the kit to 516fad1: the book (BookHead, BookFoot, BookContents, BookPart, checkbook) and the installed-files manifest check",
+     "body": ""
+    },
     {
      "sha": "6ea32a2",
      "subject": "Log an index null for the Balinas-Leonar marriage (not an exclusion)",

@@ -2653,6 +2653,30 @@
    "full-text",
    "dispensation"
   ],
-  "note": "THE FIRST FULL-TEXT HIT OF THE DAY THAT WAS NOT NOISE. 'Don Pedro A. Lerena' petitions the Vicario to dispense two of the three banns because he has agreed to marry 'Dona Teresa Leonard, parroquiana de la Matriz' and her mother has gone to the country to nurse a sick daughter; granted 8 June 1861. NEW: a SISTER of Teresa; the date of the marriage, within weeks of 8 June 1861. NOT NEW: nothing about Pedro's parentage. METHOD - AND A CORRECTION TO THE LAST THREE ROUNDS: THE FULL-TEXT 'SOMETHING WENT WRONG' ERROR WAS MY OWN URL. The parameter fullTextCountry=Uruguay breaks the page; the working filter is f.recordPlace0=8&f.recordPlace1=8%2CUruguay&c.recordPlace1=on&c.recordPlace2=on (set through the Filters panel), with count=100 for a longer page. Queries that add a common word ('matrimonio') become OR-queries of 130 million results; two QUOTED names give a usable list. The hit was in the Arquidiocesis dispensation series, whose volume title (1857-1860) does not cover its 1861 contents. The expediente's own page is the PREVIOUS image to the hit; the viewer's 'Previous Image' button gave its ark. No waypoint established - image arks only."
+  "note": "THE FIRST FULL-TEXT HIT OF THE DAY THAT WAS NOT NOISE. 'Don Pedro A. Lerena' petitions the Vicario to dispense two of the three banns because he has agreed to marry 'Dona Teresa Leonard, parroquiana de la Matriz' and her mother has gone to the country to nurse a sick daughter; granted 8 June 1861 - THE DAY AND 'PEDRO ANTONIO' CONFIRMED BY THE VICARIO'S OWN REGISTER OF DISPENSATIONS, entry no. 422 (ark 3:1:3Q9M-C9B7-NX28, plate read), where the petition's 'A.' is written out. NEW: a SISTER of Teresa; the date of the marriage, within weeks of 8 June 1861. NOT NEW: nothing about Pedro's parentage. METHOD - AND A CORRECTION TO THE LAST THREE ROUNDS: THE FULL-TEXT 'SOMETHING WENT WRONG' ERROR WAS MY OWN URL. The parameter fullTextCountry=Uruguay breaks the page; the working filter is f.recordPlace0=8&f.recordPlace1=8%2CUruguay&c.recordPlace1=on&c.recordPlace2=on (set through the Filters panel), with count=100 for a longer page. Queries that add a common word ('matrimonio') become OR-queries of 130 million results; two QUOTED names give a usable list. The hit was in the Arquidiocesis dispensation series, whose volume title (1857-1860) does not cover its 1861 contents. The expediente's own page is the PREVIOUS image to the hit; the viewer's 'Previous Image' button gave its ark. No waypoint established - image arks only."
+ },
+ {
+  "src": "FamilySearch full-text search - \"Pedro A. Lerena\" \"Teresa Leonard\", filtered to Uruguay; the Cordon baptism of Amelia, 1863, and the Vicario's register of dispensations",
+  "url": "https://www.familysearch.org/search/full-text",
+  "film": null,
+  "waypoint": null,
+  "what": "The petition's own spellings as a full-text query: a second Pedro A. Lerena (wife Trinidad Morales) at the Cordon in 1863, and the register entry that confirms Pedro Antonio and 8 June 1861",
+  "when": "2026-10-18",
+  "outcome": "yield",
+  "pages": "two acts, plate read",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "morales",
+   "leonard",
+   "cordon",
+   "montevideo",
+   "uruguay",
+   "familysearch",
+   "full-text",
+   "baptism",
+   "dispensation"
+  ],
+  "note": "21 RESULTS, TWO USEFUL. METHOD: after the first dispensation was found, the QUERY WAS REBUILT FROM ITS OWN SPELLINGS ('Pedro A. Lerena', 'Teresa Leonard') and went from 2,982 mostly irrelevant results to 21. It returned the clerk's REGISTER of the same dispensation (entry 422, 'Don Pedro Antonio Lerena', 8 June 1861) - the second copy that removes the loop-day and the 'A.' - and a CORDON BAPTISM OF 8 FEBRUARY 1863 for a daughter Amelia of 'Pedro A. Lerena y Trinidad Morales', which the first query had not reached: a third Pedro A. Lerena household, with a godmother Amelia LERENA (the index says Serena). THE ARCHIVE'S 'PEDRO A.' PROBLEM IS NOW THREE HOUSEHOLDS - Teresa Leonard (Pedro Antonio, 1861-1901), Trinidad Morales (1862-63) and Manuela Lemos (from about 1868) - with Pedro Lerena Vega the candidate for the second and third. THE TRANSCRIPT DATES THIS ACT 1883; the plate and the volume say 1863. No waypoint established - image arks only."
  }
 ]
