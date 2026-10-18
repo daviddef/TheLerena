@@ -279,8 +279,9 @@ case("check-prose", "the full name beside a life-event word in a page", PROSE, S
 case("check-prose", "the roster is emptied, so nobody is living and there is nothing to scan for (must be NOT RUN, never a pass)", PROSE, SC,
      lambda P: P.edit(D / "living-roster.tsv", lambda t: "\n".join(l for l in t.split("\n") if l.startswith("#") or l.startswith("name\t") or not l.strip()) + "\n"), "not run|nobody|living", "zero")
 
-# ---------------------------------------------------------------- the book (tools/check-book.py -> the kit's checkbook.py)
+# ---------------------------------------------------------------- the book (the kit's checkbook.py, run from site/ as npm run check:book does)
 BOOKJ = SITE / "src" / "data" / "book.json"
+CHECKBOOK = KIT("checkbook", "--dist dist --book src/data/book.json")
 def _mkpage(P):
     (DIST / "zz-unplaced").mkdir(exist_ok=True)
     P.create(DIST / "zz-unplaced" / "index.html", (DIST / "about" / "index.html").read_text(encoding="utf-8"))
@@ -289,14 +290,14 @@ def _drop_chapter(t):
     for part in b["parts"]:
         part["chapters"] = [c for c in part["chapters"] if c["path"] != "/horses/"]
     return json.dumps(b, ensure_ascii=False, indent=1)
-case("check-book", "a built page nobody placed in the book", PY("check-book"), SC, _mkpage, "unplaced.*zz-unplaced")
-case("check-book", "a chapter of the book with no built page", PY("check-book"), SC,
+case("check-book", "a built page nobody placed in the book", CHECKBOOK, SITE, _mkpage, "unplaced.*zz-unplaced")
+case("check-book", "a chapter of the book with no built page", CHECKBOOK, SITE,
      lambda P: P.delete(DIST / "horses"), "dead.*horses")
-case("check-book", "a chapter path removed from book.json while its page is still built", PY("check-book"), SC,
+case("check-book", "a chapter path removed from book.json while its page is still built", CHECKBOOK, SITE,
      lambda P: P.edit(BOOKJ, _drop_chapter), "unplaced.*horses|horses")
-case("check-book", "a Previous/Next that differs from the book's order", PY("check-book"), SC,
+case("check-book", "a Previous/Next that differs from the book's order", CHECKBOOK, SITE,
      lambda P: P.edit(DIST / "horses" / "index.html", lambda t: t.replace('data-book-next="/passport/"', 'data-book-next="/estate/"', 1)), "links Next to /estate/")
-case("check-book", "nothing is built, so nothing can be examined (must be NOT RUN, never a pass)", PY("check-book"), SC,
+case("check-book", "nothing is built, so nothing can be examined (must be NOT RUN, never a pass)", CHECKBOOK, SITE,
      lambda P: P.delete(DIST), "not run|not built|nothing", "zero")
 
 def main():

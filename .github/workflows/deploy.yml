@@ -35,10 +35,11 @@ jobs:
       - name: Check every link, anchor and contents list
         run: python3 tools/check-links.py
       # The whole archive is one book (17 October 2026): every built page is placed in site/src/data/book.json, every running head
-      # and Previous/Next matches its order. tools/check-book.py resolves site/ itself, so it runs from the repository root like the
-      # steps around it (the Luwinski deploy once failed on a step that used a path relative to the wrong directory).
+      # and Previous/Next matches its order. The kit's checkbook sets redirect stubs aside itself and reads the built site, so it runs
+      # from site/ like the build (the Luwinski deploy once failed on a step that used a path relative to the wrong directory).
       - name: Check every page is a chapter of the book
-        run: python3 tools/check-book.py
+        run: npm run check:book
+        working-directory: site
       # THREE CHECKS THAT RAN ONLY ON THIS MACHINE (found by the 16 October 2026 plant-a-fault
       # sweep): the local gate ran them and the deploy did not, so a push from anywhere else
       # could carry a finished-but-open errand, a blanket null about someone the register holds,
