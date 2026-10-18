@@ -350,6 +350,7 @@ def build(write=True):
         ok.append((r, c))
 
     people, ambiguous = [], []
+    stats_prefix = []
     by_key = {}
     for r, c in ok:
         by_key.setdefault(key_of(c), []).append((r, c))
@@ -367,6 +368,29 @@ def build(write=True):
             needle = display(lst[0][1])
             if all(needle.casefold() in r["name"].casefold() for r, _ in lst):
                 ambiguous.append({"name": needle, "url": "/people/?q=" + needle.replace(" ", "%20"), "_key": k})
+    # A NAME THAT IS THE START OF ANOTHER PERSON'S LONGER NAME is not one person's: "Arturo Lerena" is the Arturo of the register and
+    # also the first two words of "Arturo Lerena Garcia", and a page that writes "Arturo Lerena" may mean either. It goes to the
+    # people list filtered on the name, like any shared name (found 18 October 2026 by sampling the links: "Arturo Lerena's parents"
+    # on /argentina/ was linked to the wrong Arturo). Living and held-out people count: their longer names make it shared too.
+    longer = set()
+    for k_ in list(bearers):
+        longer.add(k_)
+    def starts_another(k, slug):
+        return any(o.startswith(k + " ") for o in longer)
+    # A GIVEN NAME AND THE FAMILY'S OWN SURNAME, NOTHING ELSE ("Juan Lerena", "Socorro Lerena"), is shared too. The register holds
+    # one row of that name, but the family has a dozen Juans and the pages write "Juan Lerena" for several of them (found by sampling:
+    # the one row, "Child of Felisa, arrived 1923", was being linked from a dispensation of 1894). It goes to the people list filtered
+    # on the name, where a reader sees them all.
+    still = []
+    for e in people:
+        w = e["name"].split()
+        if starts_another(e["_key"], e["url"].split("/")[2]) or (len(w) == 2 and ascii_fold(w[1]).casefold() in FAMILY_SURNAMES):
+            needle = e["name"]
+            ambiguous.append({"name": needle, "url": "/people/?q=" + needle.replace(" ", "%20"), "_key": e["_key"]})
+            stats_prefix.append(e["name"])
+        else:
+            still.append(e)
+    people[:] = still
     for e in people + ambiguous:
         owned.setdefault(key_of(e["name"]), set()).add(e["url"])
     prov = {}                          # (address, alias as written) -> "accent" | "short" | "stated" | "fold"
@@ -424,7 +448,7 @@ def build(write=True):
         if r is None:
             continue
         for f in short_forms(r["name"]):
-            if claims.get(key_of(f)) == {slug} and add_alias(e, f, "short"):
+            if claims.get(key_of(f)) == {slug} and not any(o.startswith(key_of(f) + " ") and o != key_of(e["name"]) and not o.startswith(key_of(e["name"])) for o in longer) and add_alias(e, f, "short"):
                 n_short += 1
     # (3) forms the data states for a person, in data/names-aliases.tsv (also gives a person whose register name carries an
     #     initial or a bracket an entry of their own)
@@ -477,7 +501,7 @@ def build(write=True):
         kinds[v] = kinds.get(v, 0) + 1
     stats = {"people": len(people), "ambiguous": len(ambiguous), "aliases": sum(len(e["aliases"]) for e in people),
              "kinds": kinds, "stated": n_stated, "living_terms": len(nl), "living_people": n_liv, "skipped": skipped,
-             "_prov": prov}
+             "prefix_ambiguous": len(stats_prefix), "_prov": prov}
     if write:
         INDEX.write_text(json.dumps(index, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
         lp = living_path()
@@ -722,7 +746,7 @@ def main():
     bad = self_check(index, nl, nladdr, rows, st["_prov"])
     sk = ", ".join(f"{v} {k}" for k, v in st["skipped"].items() if v)
     kinds = ", ".join(f"{v} {k}" for k, v in sorted(st["kinds"].items()))
-    print(f"  names: {st['people']} people, {st['ambiguous']} ambiguous, {st['aliases']} aliases ({kinds}); "
+    print(f"  names: {st['people']} people, {st['ambiguous']} ambiguous ({st['prefix_ambiguous']} because the name starts a longer one or is a given name and the family surname), {st['aliases']} aliases ({kinds}); "
           f"{st['living_people']} living or held-out person(s) in the living list ({st['living_terms']} terms), kept outside the "
           f"repository; rows not indexed: {sk}")
     if bad:

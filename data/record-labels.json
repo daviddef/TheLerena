@@ -1,0 +1,26 @@
+{
+ "_why": [
+  "Short labels for the arks that data/record-links.tsv links to, where the label the data gives (a dossier title) would mislead.",
+  "tools/build-records.py prefers a label here to one it finds; every one is the archive's own description of the record, taken from its data."
+ ],
+ "arks": {
+  "3:1:S3HT-XS9C-ZL": "Rosario cathedral, baptism at Libro 15 folio 229, act 1541 of 17 February 1866 (Maria Julia Margarita Josefa Lerena Lenguas)",
+  "3:1:3Q9M-C9BW-Z9RM-W": "San Francisco de Asis, Ciudad Vieja, Montevideo, baptism act No. 1447, folio 504, 31 October 1886",
+  "3:1:3Q9M-C9BW-Z9RS-F": "San Francisco de Asis, Ciudad Vieja, Montevideo, baptism act No. 1720, folio 470, 6 July 1886",
+  "3:1:3Q9M-CS2Z-DQC1-2": "San Eugenio, Artigas, act 110 of 2 June 1899 (Lerena x Serena, record 1 of 2)",
+  "3:1:3Q9M-CSJY-DSWM-M": "Mal Abrigo, San Jose, act 98 of 14 September 1910 (Gerena x Serena)",
+  "3:1:3Q9M-C9BW-N7DN-G": "San Francisco de Asis, Ciudad Vieja, Montevideo, marriage act 258 of 19 December 1864 (Luis Lerena Lenguas and Julia Juanico)",
+  "3:1:3Q9M-C9BW-N7HN-1": "San Francisco de Asis, Ciudad Vieja, Montevideo, marriage act No. 1879 of 3 November 1886, folio 364",
+  "3:1:3Q9M-C9BW-CS9Z-2": "Nuestra Senora del Carmen la Mayor, Cordon, Montevideo, baptism of 13 December 1831 (the President of Uruguay as godfather)",
+  "3:1:3Q9M-CS2W-H67P": "Montevideo civil death registration, act 216 of 24 December 1901 (Luis Eugenio Lerena Lenguas)",
+  "3:1:3Q9M-CS27-V1PJ": "Santisima Trinidad, Flores, Religious Marriage Records 1875-1895, act of 6 March 1880",
+  "3:1:3Q9M-CS2W-N35B-M": "Uruguay civil registration, Montevideo 4a seccion, marriage act No. 83 of 20 November 1897",
+  "3:1:3Q9M-CS2C-XSRD-Y": "Canelones, Marriage Records 1917-1924, acta No. 4 of 11 January 1920, Santa Lucia",
+  "3:1:3Q9M-C9BW-X71N-G": "Catedral de Montevideo, baptism of 15 November 1812 (Manuel Lorenzo, son of Ramon Serena)",
+  "3:1:3Q9M-C9BW-ZSZQ-J": "La Union, Montevideo, baptism act 585 of 7 October 1850 (Alberto Octavio Lerena Lenguas)",
+  "3:1:939D-G6VB-K": "San Jose de Flores, Buenos Aires, baptism of 10 November 1912 (Juana, daughter of Eloy Lerena and Felisa Lerena)",
+  "3:1:3Q9M-CS2Z-W2RG": "Canelones, indice de matrimonios 1776-1947, image 2531 (Llerena Sancho con Maria Fernandez, 1791)",
+  "3:1:3QS7-99ZR-NBJF": "Montevideo census of 1836, household 114 (Dominga found in a household)",
+  "1:1:6BR7-8DPW": "Montevideo padron of owners of carts, wagons and coaches: entry 10, Luis Llerena (index entry)"
+ }
+}

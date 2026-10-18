@@ -89,6 +89,10 @@ def build():
         films[n] = what if what and not what.startswith("not yet identified") else ""
     for ark, (f, i) in a2f.items():
         films.setdefault(f, "")
+    old_rolls = set()                  # data/dgs-audit.tsv lists the old microfilm roll numbers that look like DGS numbers: never a film row
+    for r in tsv(DATA / "dgs-audit.tsv"):
+        if "OLD MICROFILM" in " ".join(r.values()).upper():
+            old_rolls |= {n for n in (int(x) for x in re.findall(r"\b0*(\d{6,9})\b", " ".join(r.values()))) if n < 3000000}
     texts = ""
     for p in sorted(DATA.glob("*.tsv")):
         texts += p.read_text(encoding="utf-8") + "\n"
@@ -100,8 +104,12 @@ def build():
     # when the data writes it as DGS, or in the nine-digit form with its leading zeros, or the table already holds it
     for m in FILM_REF.finditer(texts):
         n = int(m.group(1))
+        if n in old_rolls or (n < 3000000 and n not in films):
+            continue                      # an old microfilm roll number (the DGS numbers here run from 4,000,000)
         if re.search(r"\bDGS\s*(?:no\.?\s*)?0*%d\b" % n, texts, re.I) or ("%09d" % n) in texts:
             films.setdefault(n, "")
+    for n in [n for n in films if n in old_rolls]:
+        del films[n]
     for n, what in sorted(films.items()):
         lab = "FamilySearch film %09d" % n + (": " + re.sub(r"\s+", " ", re.sub(r"\*\*\*", "", what)).strip()[:90] if what else "")
         rows.append({"id": "film-%d" % n, "url": "%s/search/film/%09d" % (FS, n), "label": lab, "kind": "film", "key": [str(n)]})
@@ -119,6 +127,8 @@ def build():
     def clean_label(t):
         return re.sub(r"\s+", " ", re.sub(r"\*\*\*", "", t)).strip()
     said = {}
+    for a, lab in (json.loads((DATA / "record-labels.json").read_text(encoding="utf-8")).get("arks") or {}).items() if (DATA / "record-labels.json").exists() else []:
+        said[a] = lab
     for r in tsv(DATA / "sources-consulted.tsv"):
         for a in ARK.findall(r.get("link", "")):
             said.setdefault(a, clean_label(r.get("source", "")))
