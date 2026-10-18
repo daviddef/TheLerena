@@ -21,7 +21,10 @@ After research that adds an ark, a film or a person, `npm run build` is the chec
   in `where_found`, and no `died <date>` or `death` wording about somebody else: `tools/last-alive.py` reads it). Only people the living
   rule shows dead; hold out anyone named only in a post-1946 paper. A spelling the data states for a person goes in
   `data/names-aliases.tsv` with its basis. A name that is a given name and the family surname ("Juan Lerena"), or the start of another
-  person's longer name, is shared and links to the filtered people list: it never links to one person.
+  person's longer name, is shared and links to the filtered people list (a marked, dotted link, `data-autolink="search"`), unless the data decides it:
+  `tools/run-autolink.py` writes `resolve` rules from SPOUSE and CO-PARENT edges only ("a relative of exactly one bearer of this name is named in the
+  same block within 120 characters"), and the link then goes to that bearer (`data-autolink="near"`). Never make a rule from a parent, child or
+  sibling edge (a son is taken for his namesake father); a spouse recorded only in a note or not at all makes no rule, so record the edge.
 - **L3/L4, records.** `tools/build-records.py` makes `site/src/data/records.json` from committed data (every ark the data prints, the films it
   cites, `data/record-plates.json` for the family papers). After the build `tools/link-records.py` links a DGS film or image number in a
   passage, applies `data/record-links.tsv` (the exact words that become the link, or `exempt:` with a reason, or `thumb:` for a held

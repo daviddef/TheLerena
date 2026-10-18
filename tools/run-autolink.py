@@ -28,6 +28,17 @@ THE NAMES INDEX (site/src/data/names-index.json, committed: it holds only names 
   name, a name with a digit, a comma, a slash, an "=" or a bracket, an initial-only ending, or a name the cleaning cannot
   stand behind, is never indexed. A bare given name is never linked (the kit's --min-words 2 as well).
 
+  RESOLVE RULES (19 October 2026; kit docs/autolink.md, "Shared names"). David clicked "Maria Lerena" in the card of her husband and
+  landed on a list of 18 people. An ambiguous entry now carries `resolve: [{near, url}]`: "a relative of exactly one bearer of this name,
+  `near`, is named in the same block within 120 characters, so the name there is that bearer, `url`". They are made by resolve_rules()
+  below from SPOUSE and CO-PARENT edges only (a husband or wife, or the other recorded parent of a child), and only when that relative
+  is related, by ANY recorded kind of relationship (spouse, parent, child, sibling, co-parent, a relative the data writes inside a
+  bearer's own register name or note), to exactly ONE bearer of the name. Parent, child and sibling edges never make a rule: names run
+  down families and the same recipe built from them took a groom, a godfather and a father for the namesake son (the kit's Lerena trial:
+  about 10 of 39 extra links wrong); spouse and co-parent rules read 95 for 95 in their sentences. A relative of a bearer who cannot be
+  linked (living, held out, no page) makes a counter-rule `{near, url: null}`. `bearers` lists the dead, paged bearers who are not in
+  `people`. A link the rules do not decide stays the search link, marked (class lk-shared, title and aria-label from labels.shared).
+
 THE LIVING LIST (written OUTSIDE the repository, $AUTOLINK_LIVING or ~/.local/state/lerena/autolink-living.json).
   Built from tools/livingcheck.py, the independent reckoning every living gate here uses (the register, the relations list,
   the roster, the held-out ids, the estate's one rule in the kit's living_rule.py), plus every row people.json itself marks
@@ -301,6 +312,191 @@ def living_terms(pop, rows):
     return sorted(names), sorted(addrs), len(people) + sum(1 for r in rows if r.get("living"))
 
 
+# ---------------------------------------------------------------------------------------------------------------------------
+# RESOLVE RULES for the shared names (see the docstring). Spouse and co-parent edges make a rule; every kind of relationship (and a
+# relative the data writes into a bearer's own name or note) can stop one.
+# ---------------------------------------------------------------------------------------------------------------------------
+NEAR_WINDOW = 120
+SHARED_LABEL = "Several people share this name: opens the list"
+RULE_KINDS = {"spouse", "coparent"}
+
+
+def tokens_of(raw):
+    s = re.sub(r"\(.*?\)|\[.*?\]", " ", str(raw or "")).replace('"', " ")
+    return [ascii_fold(w).casefold().strip(".,;:") for w in s.split() if w.strip(".,;:")]
+
+
+def is_subseq(needle, hay):
+    """The name's words, in order, among the register name's words, the first word the same: 'Maria Lerena' is borne by 'Maria Josefa
+    LERENA Carniglia' and by 'Maria GONZALEZ Lerena'. Wide on purpose: it can only count more bearers, so fewer rules."""
+    if not hay or not needle or hay[0] != needle[0]:
+        return False
+    it = iter(hay)
+    return all(any(x == w for x in it) for w in needle)
+
+
+def relationship_graph(rows, pop):
+    """slug -> {slug: {kinds}} where kinds are what the OTHER person is to this one: spouse, parent, child, sibling, coparent.
+    Every form the data holds: the father/mother fields, the spouses/children/siblings lists (either direction), two people who
+    are the recorded parents of one child. Also `written`: slug -> {slug} for a relative the data writes inside a bearer's own
+    register name, and the register's own relations list (data/relations.tsv): these cannot make a rule, only stop one. A relative
+    named in a bearer's NOTE is not a relationship and stops nothing (a note that says "aunt of Juan Carlos" would otherwise take
+    the rule from the very couple it names)."""
+    by = {r["slug"]: r for r in rows}
+    kinds = {s: {} for s in by}
+
+    def edge(a, b, a_is_to_b, b_is_to_a):
+        if a == b or a not in by or b not in by:
+            return
+        kinds[b].setdefault(a, set()).add(a_is_to_b)
+        kinds[a].setdefault(b, set()).add(b_is_to_a)
+
+    for r in rows:
+        for k in ("father", "mother"):
+            o = r.get(k)
+            if o and o.get("slug") in by:
+                edge(r["slug"], o["slug"], "child", "parent")
+        for k, (x, y) in (("spouses", ("spouse", "spouse")), ("children", ("parent", "child")), ("siblings", ("sibling", "sibling"))):
+            for o in r.get(k) or []:
+                if o.get("slug") in by:
+                    edge(r["slug"], o["slug"], x, y)
+    for r in rows:
+        f, m = (r.get("father") or {}).get("slug"), (r.get("mother") or {}).get("slug")
+        if f in by and m in by and f != m:
+            kinds[f].setdefault(m, set()).add("coparent")
+            kinds[m].setdefault(f, set()).add("coparent")
+    # a relative the data only writes: the register's relations list (by register name), and a person's cleaned name inside another's
+    # raw name ("Alejandro LERENA (m. Margarita Fernandez)": a wife the data holds only there), either way round
+    written = {s: set() for s in by}
+    slug_of = {r["name"]: r["slug"] for r in rows}
+    for who, rel, oth, *_ in L.edges(ROOT):
+        a, b = slug_of.get(who), slug_of.get(oth)
+        if a and b and a != b:
+            written[a].add(b)
+            written[b].add(a)
+    flat = lambda x: " " + " ".join(tokens_of(re.sub(r"[()\[\]\"]", " ", str(x or "")))) + " "
+    raw_flat = {s: flat(r["name"]) for s, r in by.items()}
+    name_flat = {s: flat(r["name"]) for s, r in by.items()}
+    key = {s: " " + " ".join(tokens_of(clean(r["name"]) or "")) + " " for s, r in by.items()}
+    two = {s for s, k in key.items() if len(k.split()) >= 2}
+    index_of_key = {}
+    for s in two:
+        index_of_key.setdefault(key[s], set()).add(s)
+    for s in by:
+        for k, who in index_of_key.items():
+            if k in raw_flat[s]:
+                for t in who:
+                    if t != s:
+                        written[s].add(t)
+                        written[t].add(s)
+    return kinds, written
+
+
+def resolve_rules(ambiguous, people, rows, pop, year, living_addr):
+    """Add `resolve` and `bearers` to every ambiguous entry (in place). Returns counts."""
+    by = {r["slug"]: r for r in rows}
+    kinds, written = relationship_graph(rows, pop)
+    people_urls = {e["url"] for e in people}
+
+    def eligible(r):
+        if r.get("aliasOf") or r.get("living") or r.get("noindex") or not clean(r["name"]):
+            return False
+        if f"/people/{r['slug']}/" in living_addr:
+            return False
+        by_ = re.search(r"\b(1[0-9]{3}|20[0-9]{2})", str(r.get("born") or ""))
+        if by_ and not str(r.get("died") or "").strip() and int(by_.group(1)) > year - RECENT_YEARS:
+            return False
+        return True
+
+    row_names = {r["name"] for r in rows}
+    stats = {"names": 0, "with_rules": 0, "rules": 0, "counter": 0, "bearers": 0, "unrowed": 0}
+    for e in ambiguous:
+        n = tokens_of(e["name"])
+        bs = {r["slug"] for r in rows if not r.get("aliasOf") and is_subseq(n, tokens_of(r["name"]))}
+        # a bearer the register holds that people.json does not (living and held-out people included): with one, no rule at all
+        unrowed = [p for p in pop if is_subseq(n, tokens_of(p.name)) and p.name not in row_names]
+        stats["names"] += 1
+        stats["unrowed"] += len(unrowed)
+        elig = [by[s] for s in sorted(bs) if eligible(by[s])]
+        bearer_urls = sorted(f"/people/{r['slug']}/" for r in elig if f"/people/{r['slug']}/" not in people_urls)
+        if bearer_urls:
+            e["bearers"] = bearer_urls
+            stats["bearers"] += len(bearer_urls)
+        if unrowed:
+            continue
+        # relative -> the bearers it is related to, by any kind of relationship the data holds
+        cand = {}
+        for b in bs:
+            for rr in kinds[b]:
+                cand.setdefault(rr, set()).add(b)
+            for rr in written[b]:
+                cand.setdefault(rr, set()).add(b)
+        rules = []
+        for rs, bset in sorted(cand.items()):
+            if len(bset) != 1 or rs in bs:
+                continue
+            b = next(iter(bset))
+            if not (kinds[b].get(rs, set()) & RULE_KINDS):
+                continue                                   # a parent, a child, a sibling or a mere mention can stop a rule, never make one
+            ru = f"/people/{rs}/"
+            if ru not in people_urls or ru in living_addr:
+                continue
+            rules.append({"near": ru, "url": f"/people/{b}/" if eligible(by[b]) else None})
+        if rules:
+            e["resolve"] = sorted(rules, key=lambda x: (x["url"] or "", x["near"]))
+            stats["with_rules"] += 1
+            stats["rules"] += len(rules)
+            stats["counter"] += sum(1 for x in rules if x["url"] is None)
+    return stats
+
+
+def check_rules(index, rows, living_addr):
+    """The generator's own test of what it wrote, recomputed from the rows by a second, plainer path: every rule's `near` is an indexed
+    single-bearer person and the husband, wife or co-parent of `url`'s person, and of no other bearer of the name; `url` is indexed
+    or listed in `bearers`, is not living; a counter-rule stands for a bearer who is not eligible. Returns the number of faults."""
+    by = {r["slug"]: r for r in rows}
+    people_urls = {e["url"] for e in index["people"]}
+    slug = lambda u: u.strip("/").split("/")[-1]
+    spouse_or_co = {s: set() for s in by}
+    anyrel = {s: set() for s in by}
+    for r in rows:
+        for o in r.get("spouses") or []:
+            if o.get("slug") in by:
+                spouse_or_co[r["slug"]].add(o["slug"]); spouse_or_co[o["slug"]].add(r["slug"])
+        f, m = (r.get("father") or {}).get("slug"), (r.get("mother") or {}).get("slug")
+        if f in by and m in by:
+            spouse_or_co[f].add(m); spouse_or_co[m].add(f)
+        for k in ("father", "mother"):
+            o = r.get(k)
+            if o and o.get("slug") in by:
+                anyrel[r["slug"]].add(o["slug"]); anyrel[o["slug"]].add(r["slug"])
+        for k in ("spouses", "children", "siblings"):
+            for o in r.get(k) or []:
+                if o.get("slug") in by:
+                    anyrel[r["slug"]].add(o["slug"]); anyrel[o["slug"]].add(r["slug"])
+    bad = 0
+    for e in index["ambiguous"]:
+        n = tokens_of(e["name"])
+        bs = {r["slug"] for r in rows if not r.get("aliasOf") and is_subseq(n, tokens_of(r["name"]))}
+        for u in e.get("bearers") or []:
+            if u in people_urls or u in living_addr or slug(u) not in bs:
+                bad += 1
+        for ru in e.get("resolve") or []:
+            near, url = ru["near"], ru["url"]
+            if near not in people_urls or near in living_addr or slug(near) in bs:
+                bad += 1; continue
+            if url is not None and (url in living_addr or not (url in people_urls or url in (e.get("bearers") or [])) or slug(url) not in bs):
+                bad += 1; continue
+            # the one bearer the relative leads to: through a spouse or co-parent edge, and no other bearer by any edge
+            leads = {b for b in bs if slug(near) in anyrel[b] or slug(near) in spouse_or_co[b]}
+            if url is not None:
+                if slug(url) not in leads or leads != {slug(url)} or slug(near) not in spouse_or_co[slug(url)]:
+                    bad += 1
+            elif len(leads) != 1 or not (slug(near) in spouse_or_co[next(iter(leads))]):
+                bad += 1
+    return bad
+
+
 def build(write=True):
     """Return (index, living_terms_list, living_addresses, stats). Raises SystemExit(2) when it cannot look."""
     try:
@@ -494,14 +690,16 @@ def build(write=True):
     ambiguous.sort(key=lambda e: e["name"].casefold())
     for e in ambiguous:
         e.pop("aliases", None)
+    rstats = resolve_rules(ambiguous, people, rows, pop, year, set(nladdr))
     index = {"note": "Generated by tools/run-autolink.py from site/src/data/people.json. Names that already have a public page. "
-                     "Never edit by hand.", "people": people, "ambiguous": ambiguous}
+                     "Never edit by hand.", "people": people, "ambiguous": ambiguous,
+             "labels": {"shared": SHARED_LABEL}, "nearWindow": NEAR_WINDOW}
     kinds = {}
     for v in prov.values():
         kinds[v] = kinds.get(v, 0) + 1
     stats = {"people": len(people), "ambiguous": len(ambiguous), "aliases": sum(len(e["aliases"]) for e in people),
              "kinds": kinds, "stated": n_stated, "living_terms": len(nl), "living_people": n_liv, "skipped": skipped,
-             "prefix_ambiguous": len(stats_prefix), "_prov": prov}
+             "prefix_ambiguous": len(stats_prefix), "_prov": prov, "resolve": rstats}
     if write:
         INDEX.write_text(json.dumps(index, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
         lp = living_path()
@@ -544,6 +742,7 @@ def self_check(index, nl, nladdr, rows, prov):
     for e in index["ambiguous"]:
         if key_of(e["name"]) in lk:
             bad += 1
+    bad += check_rules(index, rows, la)
     return bad
 
 
@@ -749,6 +948,9 @@ def main():
     print(f"  names: {st['people']} people, {st['ambiguous']} ambiguous ({st['prefix_ambiguous']} because the name starts a longer one or is a given name and the family surname), {st['aliases']} aliases ({kinds}); "
           f"{st['living_people']} living or held-out person(s) in the living list ({st['living_terms']} terms), kept outside the "
           f"repository; rows not indexed: {sk}")
+    rs = st["resolve"]
+    print(f"  names: {rs['rules']} resolve rule(s) on {rs['with_rules']} of {rs['names']} shared names (spouse and co-parent only; {rs['counter']} counter-rule(s)), "
+          f"{rs['bearers']} paged bearer(s) listed")
     if bad:
         print(f"  FAIL  names      {bad} index entr{'y' if bad == 1 else 'ies'} the generator cannot stand behind")
         return 1

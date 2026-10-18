@@ -49,6 +49,9 @@ a{color:var(--accent);text-underline-offset:3px;text-decoration-thickness:.06em}
 /* A name the build-time linker (tools/run-autolink.py) linked. It carries no scoped-style attribute, so it takes this global
    rule: the same colour and underline as every other person link in the prose. */
 a[data-autolink]{color:var(--accent);text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:.06em}
+/* A shared name the data could not decide (the kit marks it class lk-shared): the link opens the filtered list of everyone who bears the
+   name, not a person, so its underline is dotted. A name the data DID decide (data-autolink="near") is an ordinary person link. */
+a.lk-shared{text-decoration-style:dotted}
 a:focus-visible,button:focus-visible{outline:2px solid var(--accent-2);outline-offset:3px;border-radius:2px}
 img{max-width:100%}
 .wrap{max-width:var(--maxw);margin:0 auto;padding:0 28px}

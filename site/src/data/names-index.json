@@ -3563,35 +3563,70 @@
  "ambiguous": [
   {
    "name": "Abelino Lerena",
-   "url": "/people/?q=Abelino%20Lerena"
+   "url": "/people/?q=Abelino%20Lerena",
+   "bearers": [
+    "/people/abelino-lerena/"
+   ]
   },
   {
    "name": "Adolfo Lerena",
-   "url": "/people/?q=Adolfo%20Lerena"
+   "url": "/people/?q=Adolfo%20Lerena",
+   "bearers": [
+    "/people/adolfo-lerena/"
+   ]
   },
   {
    "name": "Agustin Lorena",
-   "url": "/people/?q=Agustin%20Lorena"
+   "url": "/people/?q=Agustin%20Lorena",
+   "bearers": [
+    "/people/agustin-lorena/"
+   ]
   },
   {
    "name": "Alba Lerena",
-   "url": "/people/?q=Alba%20Lerena"
+   "url": "/people/?q=Alba%20Lerena",
+   "bearers": [
+    "/people/alba-lerena/"
+   ]
   },
   {
    "name": "Alejandrina Lerena",
-   "url": "/people/?q=Alejandrina%20Lerena"
+   "url": "/people/?q=Alejandrina%20Lerena",
+   "bearers": [
+    "/people/alejandrina-lerena/"
+   ]
   },
   {
    "name": "Alejandrina Llerena",
-   "url": "/people/?q=Alejandrina%20Llerena"
+   "url": "/people/?q=Alejandrina%20Llerena",
+   "bearers": [
+    "/people/alejandrina-llerena/"
+   ]
   },
   {
    "name": "Alejandro Lerena",
-   "url": "/people/?q=Alejandro%20Lerena"
+   "url": "/people/?q=Alejandro%20Lerena",
+   "bearers": [
+    "/people/alejandro-lerena-2/",
+    "/people/alejandro-lerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/julia-bassani/",
+     "url": null
+    },
+    {
+     "near": "/people/amalia-casas/",
+     "url": "/people/alejandro-joaquin-narciso-lerena-villardemoros/"
+    }
+   ]
   },
   {
    "name": "Alfredo Lerena",
-   "url": "/people/?q=Alfredo%20Lerena"
+   "url": "/people/?q=Alfredo%20Lerena",
+   "bearers": [
+    "/people/alfredo-lerena/"
+   ]
   },
   {
    "name": "Ambrosio Lerena",
@@ -3599,95 +3634,224 @@
   },
   {
    "name": "Amelia Lerena",
-   "url": "/people/?q=Amelia%20Lerena"
+   "url": "/people/?q=Amelia%20Lerena",
+   "bearers": [
+    "/people/amelia-lerena-2/"
+   ]
   },
   {
    "name": "Anastasia Lerena",
-   "url": "/people/?q=Anastasia%20Lerena"
+   "url": "/people/?q=Anastasia%20Lerena",
+   "bearers": [
+    "/people/anastasia-lerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/honorio-alvarez/",
+     "url": "/people/anastasia-lerena/"
+    }
+   ]
   },
   {
    "name": "Anna Lerina",
-   "url": "/people/?q=Anna%20Lerina"
+   "url": "/people/?q=Anna%20Lerina",
+   "bearers": [
+    "/people/anna-lerina/"
+   ]
   },
   {
    "name": "Annunziata Lerina",
-   "url": "/people/?q=Annunziata%20Lerina"
+   "url": "/people/?q=Annunziata%20Lerina",
+   "bearers": [
+    "/people/annunziata-lerina/"
+   ]
   },
   {
    "name": "Anton Lerena",
-   "url": "/people/?q=Anton%20Lerena"
+   "url": "/people/?q=Anton%20Lerena",
+   "bearers": [
+    "/people/anton-lerena/"
+   ]
   },
   {
    "name": "Antonina Lerena",
-   "url": "/people/?q=Antonina%20Lerena"
+   "url": "/people/?q=Antonina%20Lerena",
+   "bearers": [
+    "/people/antonina-lerena-2/",
+    "/people/antonina-lerena-3/",
+    "/people/antonina-lerena-4/"
+   ]
   },
   {
    "name": "Antonino Perena",
-   "url": "/people/?q=Antonino%20Perena"
+   "url": "/people/?q=Antonino%20Perena",
+   "bearers": [
+    "/people/antonino-perena/"
+   ]
   },
   {
    "name": "Antonio Etcheberse",
-   "url": "/people/?q=Antonio%20Etcheberse"
+   "url": "/people/?q=Antonio%20Etcheberse",
+   "bearers": [
+    "/people/antonio-etcheberse-2/",
+    "/people/antonio-etcheberse/"
+   ]
   },
   {
    "name": "Antonio Larena",
-   "url": "/people/?q=Antonio%20Larena"
+   "url": "/people/?q=Antonio%20Larena",
+   "bearers": [
+    "/people/antonio-larena-2/",
+    "/people/antonio-larena/"
+   ]
   },
   {
    "name": "Armando Lerena",
-   "url": "/people/?q=Armando%20Lerena"
+   "url": "/people/?q=Armando%20Lerena",
+   "bearers": [
+    "/people/armando-lerena/"
+   ]
   },
   {
    "name": "Arturo Lerena",
-   "url": "/people/?q=Arturo%20Lerena"
+   "url": "/people/?q=Arturo%20Lerena",
+   "bearers": [
+    "/people/arturo-lerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/maria-juana/",
+     "url": "/people/arturo-mario-lerena-regules/"
+    }
+   ]
   },
   {
    "name": "Asuncion Lerena",
-   "url": "/people/?q=Asuncion%20Lerena"
+   "url": "/people/?q=Asuncion%20Lerena",
+   "bearers": [
+    "/people/asuncion-lerena/"
+   ]
   },
   {
    "name": "Avelina Lerena",
-   "url": "/people/?q=Avelina%20Lerena"
+   "url": "/people/?q=Avelina%20Lerena",
+   "bearers": [
+    "/people/avelina-lerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/cristobal-canale/",
+     "url": "/people/avelina-lerena/"
+    }
+   ]
   },
   {
    "name": "Baldomero Llerena",
-   "url": "/people/?q=Baldomero%20Llerena"
+   "url": "/people/?q=Baldomero%20Llerena",
+   "bearers": [
+    "/people/baldomero-llerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/margarita-correas/",
+     "url": "/people/baldomero-llerena/"
+    }
+   ]
   },
   {
    "name": "Bartolome Llerena",
-   "url": "/people/?q=Bartolome%20Llerena"
+   "url": "/people/?q=Bartolome%20Llerena",
+   "bearers": [
+    "/people/bartolome-llerena/"
+   ]
   },
   {
    "name": "Bartolomé Llerena",
-   "url": "/people/?q=Bartolome%20Llerena"
+   "url": "/people/?q=Bartolome%20Llerena",
+   "bearers": [
+    "/people/bartolome-llerena/"
+   ]
   },
   {
    "name": "Benito Larranaga",
-   "url": "/people/?q=Benito%20Larranaga"
+   "url": "/people/?q=Benito%20Larranaga",
+   "bearers": [
+    "/people/benito-larranaga/"
+   ]
   },
   {
    "name": "Benito Lerena",
-   "url": "/people/?q=Benito%20Lerena"
+   "url": "/people/?q=Benito%20Lerena",
+   "bearers": [
+    "/people/benito-lerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/maria-cristina/",
+     "url": "/people/benito-lerena/"
+    }
+   ]
   },
   {
    "name": "Bernabe Lerena",
-   "url": "/people/?q=Bernabe%20Lerena"
+   "url": "/people/?q=Bernabe%20Lerena",
+   "bearers": [
+    "/people/bernabe-lerena-2/",
+    "/people/bernabe-lerena-3/",
+    "/people/bernabe-lerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/florinda-cardozo/",
+     "url": "/people/bernabe-lerena-2/"
+    }
+   ]
   },
   {
    "name": "Bernabé Lerena",
-   "url": "/people/?q=Bernabe%20Lerena"
+   "url": "/people/?q=Bernabe%20Lerena",
+   "bearers": [
+    "/people/bernabe-lerena-2/",
+    "/people/bernabe-lerena-3/",
+    "/people/bernabe-lerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/florinda-cardozo/",
+     "url": "/people/bernabe-lerena-2/"
+    }
+   ]
   },
   {
    "name": "Camilo Llerena",
-   "url": "/people/?q=Camilo%20Llerena"
+   "url": "/people/?q=Camilo%20Llerena",
+   "bearers": [
+    "/people/camilo-llerena/"
+   ]
   },
   {
    "name": "Carlos Lerena",
-   "url": "/people/?q=Carlos%20Lerena"
+   "url": "/people/?q=Carlos%20Lerena",
+   "bearers": [
+    "/people/carlos-lerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/rosa-maria-eppens/",
+     "url": "/people/carlos-augusto-federico-lerena-salvanach/"
+    },
+    {
+     "near": "/people/adela-camiglia/",
+     "url": "/people/carlos-lerena/"
+    }
+   ]
   },
   {
    "name": "Carmela Larena",
-   "url": "/people/?q=Carmela%20Larena"
+   "url": "/people/?q=Carmela%20Larena",
+   "bearers": [
+    "/people/carmela-larena/"
+   ]
   },
   {
    "name": "Carmen Gonzalez",
@@ -3699,27 +3863,52 @@
   },
   {
    "name": "Carmen Lerena",
-   "url": "/people/?q=Carmen%20Lerena"
+   "url": "/people/?q=Carmen%20Lerena",
+   "bearers": [
+    "/people/carmen-lerena/"
+   ]
   },
   {
    "name": "Carolina Lerena",
-   "url": "/people/?q=Carolina%20Lerena"
+   "url": "/people/?q=Carolina%20Lerena",
+   "bearers": [
+    "/people/carolina-lerena/"
+   ]
   },
   {
    "name": "Casimira Lerena",
-   "url": "/people/?q=Casimira%20Lerena"
+   "url": "/people/?q=Casimira%20Lerena",
+   "bearers": [
+    "/people/casimira-lerena/"
+   ]
   },
   {
    "name": "Catalina Martinez",
-   "url": "/people/?q=Catalina%20Martinez"
+   "url": "/people/?q=Catalina%20Martinez",
+   "bearers": [
+    "/people/catalina-martinez-2/",
+    "/people/catalina-martinez/"
+   ]
   },
   {
    "name": "Cipriano Lerena",
-   "url": "/people/?q=Cipriano%20Lerena"
+   "url": "/people/?q=Cipriano%20Lerena",
+   "bearers": [
+    "/people/cipriano-lerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/dona-lauriana-beloqui/",
+     "url": "/people/cipriano-lerena/"
+    }
+   ]
   },
   {
    "name": "Clara Ledena",
-   "url": "/people/?q=Clara%20Ledena"
+   "url": "/people/?q=Clara%20Ledena",
+   "bearers": [
+    "/people/clara-ledena/"
+   ]
   },
   {
    "name": "Clara Lerena",
@@ -3727,63 +3916,128 @@
   },
   {
    "name": "Clorinda Lerena",
-   "url": "/people/?q=Clorinda%20Lerena"
+   "url": "/people/?q=Clorinda%20Lerena",
+   "bearers": [
+    "/people/clorinda-lerena/"
+   ]
   },
   {
    "name": "Concepcion Lerena",
-   "url": "/people/?q=Concepcion%20Lerena"
+   "url": "/people/?q=Concepcion%20Lerena",
+   "bearers": [
+    "/people/concepcion-lerena/"
+   ]
   },
   {
    "name": "Concepción Lerena",
-   "url": "/people/?q=Concepcion%20Lerena"
+   "url": "/people/?q=Concepcion%20Lerena",
+   "bearers": [
+    "/people/concepcion-lerena/"
+   ]
   },
   {
    "name": "Crecencia Lerena",
-   "url": "/people/?q=Crecencia%20Lerena"
+   "url": "/people/?q=Crecencia%20Lerena",
+   "bearers": [
+    "/people/crecencia-lerena/"
+   ]
   },
   {
    "name": "Custodio Lerena",
-   "url": "/people/?q=Custodio%20Lerena"
+   "url": "/people/?q=Custodio%20Lerena",
+   "bearers": [
+    "/people/custodio-lerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/ema-cardozo/",
+     "url": "/people/custodio-lerena/"
+    }
+   ]
   },
   {
    "name": "Domenico Lerena",
-   "url": "/people/?q=Domenico%20Lerena"
+   "url": "/people/?q=Domenico%20Lerena",
+   "bearers": [
+    "/people/domenico-lerena/"
+   ]
   },
   {
    "name": "Domingo Lerena",
-   "url": "/people/?q=Domingo%20Lerena"
+   "url": "/people/?q=Domingo%20Lerena",
+   "bearers": [
+    "/people/domingo-lerena/"
+   ]
   },
   {
    "name": "Doroteo Lerena",
-   "url": "/people/?q=Doroteo%20Lerena"
+   "url": "/people/?q=Doroteo%20Lerena",
+   "bearers": [
+    "/people/doroteo-lerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/isidora-cardozo/",
+     "url": "/people/doroteo-lerena/"
+    }
+   ]
   },
   {
    "name": "Eduardo Lerena",
-   "url": "/people/?q=Eduardo%20Lerena"
+   "url": "/people/?q=Eduardo%20Lerena",
+   "bearers": [
+    "/people/eduardo-lerena-3/",
+    "/people/eduardo-lerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/maria-ester-costa/",
+     "url": "/people/eduardo-avelino-zalduando-lerena/"
+    }
+   ]
   },
   {
    "name": "Elisa Lerena",
-   "url": "/people/?q=Elisa%20Lerena"
+   "url": "/people/?q=Elisa%20Lerena",
+   "bearers": [
+    "/people/elisa-lerena/"
+   ]
   },
   {
    "name": "Eloy Lerena",
-   "url": "/people/?q=Eloy%20Lerena"
+   "url": "/people/?q=Eloy%20Lerena",
+   "bearers": [
+    "/people/eloy-lerena/"
+   ]
   },
   {
    "name": "Ema Lerena",
-   "url": "/people/?q=Ema%20Lerena"
+   "url": "/people/?q=Ema%20Lerena",
+   "bearers": [
+    "/people/ema-lerena/"
+   ]
   },
   {
    "name": "Emilia Lerena",
-   "url": "/people/?q=Emilia%20Lerena"
+   "url": "/people/?q=Emilia%20Lerena",
+   "bearers": [
+    "/people/emilia-lerena/"
+   ]
   },
   {
    "name": "Emilio Lerena",
-   "url": "/people/?q=Emilio%20Lerena"
+   "url": "/people/?q=Emilio%20Lerena",
+   "bearers": [
+    "/people/emilio-lerena-2/",
+    "/people/emilio-lerena/"
+   ]
   },
   {
    "name": "Estanislada Lerena",
-   "url": "/people/?q=Estanislada%20Lerena"
+   "url": "/people/?q=Estanislada%20Lerena",
+   "bearers": [
+    "/people/estanislada-lerena/"
+   ]
   },
   {
    "name": "Estefania Lerena",
@@ -3791,427 +4045,955 @@
   },
   {
    "name": "Felicia Lerena",
-   "url": "/people/?q=Felicia%20Lerena"
+   "url": "/people/?q=Felicia%20Lerena",
+   "bearers": [
+    "/people/felicia-lerena/"
+   ]
   },
   {
    "name": "Felisa Lerena",
-   "url": "/people/?q=Felisa%20Lerena"
+   "url": "/people/?q=Felisa%20Lerena",
+   "bearers": [
+    "/people/felisa-lerena-2/",
+    "/people/felisa-lerena/"
+   ]
   },
   {
    "name": "Felix Lerena",
-   "url": "/people/?q=Felix%20Lerena"
+   "url": "/people/?q=Felix%20Lerena",
+   "bearers": [
+    "/people/felix-lerena/"
+   ]
   },
   {
    "name": "Feliz Lorena",
-   "url": "/people/?q=Feliz%20Lorena"
+   "url": "/people/?q=Feliz%20Lorena",
+   "bearers": [
+    "/people/feliz-lorena/"
+   ]
   },
   {
    "name": "Fermin Lerena",
-   "url": "/people/?q=Fermin%20Lerena"
+   "url": "/people/?q=Fermin%20Lerena",
+   "bearers": [
+    "/people/fermin-lerena/"
+   ]
   },
   {
    "name": "Fermín Lerena",
-   "url": "/people/?q=Fermin%20Lerena"
+   "url": "/people/?q=Fermin%20Lerena",
+   "bearers": [
+    "/people/fermin-lerena/"
+   ]
   },
   {
    "name": "Fernando Moratorio",
-   "url": "/people/?q=Fernando%20Moratorio"
+   "url": "/people/?q=Fernando%20Moratorio",
+   "bearers": [
+    "/people/fernando-moratorio-2/",
+    "/people/fernando-moratorio/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/josefa-lerena-traibel/",
+     "url": "/people/fernando-moratorio-2/"
+    }
+   ]
   },
   {
    "name": "Fidel Lerena",
-   "url": "/people/?q=Fidel%20Lerena"
+   "url": "/people/?q=Fidel%20Lerena",
+   "bearers": [
+    "/people/fidel-lerena/"
+   ]
   },
   {
    "name": "Florencio Lerena",
-   "url": "/people/?q=Florencio%20Lerena"
+   "url": "/people/?q=Florencio%20Lerena",
+   "bearers": [
+    "/people/florencio-lerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/dona-juana-recuero/",
+     "url": "/people/florencio-lerena/"
+    }
+   ]
   },
   {
    "name": "Florencio Serena",
-   "url": "/people/?q=Florencio%20Serena"
+   "url": "/people/?q=Florencio%20Serena",
+   "bearers": [
+    "/people/florencio-lerena-2/"
+   ]
   },
   {
    "name": "Francisco Lerena",
-   "url": "/people/?q=Francisco%20Lerena"
+   "url": "/people/?q=Francisco%20Lerena",
+   "bearers": [
+    "/people/francisco-lerena-2/",
+    "/people/francisco-lerena-3/",
+    "/people/francisco-lerena/"
+   ]
   },
   {
    "name": "Francisco Llerena",
-   "url": "/people/?q=Francisco%20Llerena"
+   "url": "/people/?q=Francisco%20Llerena",
+   "bearers": [
+    "/people/francisco-llerena-2/",
+    "/people/francisco-llerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/rafaela-daraz/",
+     "url": "/people/francisco-llerena-2/"
+    }
+   ]
   },
   {
    "name": "Fructuoso Serena",
-   "url": "/people/?q=Fructuoso%20Serena"
+   "url": "/people/?q=Fructuoso%20Serena",
+   "bearers": [
+    "/people/fructuoso-serena/"
+   ]
   },
   {
    "name": "Félix Lerena",
-   "url": "/people/?q=Felix%20Lerena"
+   "url": "/people/?q=Felix%20Lerena",
+   "bearers": [
+    "/people/felix-lerena/"
+   ]
   },
   {
    "name": "Geronima Lorena",
-   "url": "/people/?q=Geronima%20Lorena"
+   "url": "/people/?q=Geronima%20Lorena",
+   "bearers": [
+    "/people/geronima-lorena/"
+   ]
   },
   {
    "name": "Gilberto Lerena",
-   "url": "/people/?q=Gilberto%20Lerena"
+   "url": "/people/?q=Gilberto%20Lerena",
+   "bearers": [
+    "/people/gilberto-lerena-2/",
+    "/people/gilberto-lerena-3/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/cipriana-saenz-pena/",
+     "url": "/people/gilberto-lerena-salvanach/"
+    },
+    {
+     "near": "/people/julia-salvanach/",
+     "url": "/people/gilberto-lerena/"
+    }
+   ]
   },
   {
    "name": "Gloria Llerena",
-   "url": "/people/?q=Gloria%20Llerena"
+   "url": "/people/?q=Gloria%20Llerena",
+   "bearers": [
+    "/people/gloria-llerena/"
+   ]
   },
   {
    "name": "Gregorio Larena",
-   "url": "/people/?q=Gregorio%20Larena"
+   "url": "/people/?q=Gregorio%20Larena",
+   "bearers": [
+    "/people/gregorio-larena/"
+   ]
   },
   {
    "name": "Gregorio Lerena",
-   "url": "/people/?q=Gregorio%20Lerena"
+   "url": "/people/?q=Gregorio%20Lerena",
+   "bearers": [
+    "/people/gregorio-lerena-2/",
+    "/people/gregorio-lerena/"
+   ]
   },
   {
    "name": "Guillermo Lorena",
-   "url": "/people/?q=Guillermo%20Lorena"
+   "url": "/people/?q=Guillermo%20Lorena",
+   "bearers": [
+    "/people/guillermo-lorena/"
+   ]
   },
   {
    "name": "Gumersindo Lerena",
-   "url": "/people/?q=Gumersindo%20Lerena"
+   "url": "/people/?q=Gumersindo%20Lerena",
+   "bearers": [
+    "/people/gumersindo-lerena/"
+   ]
   },
   {
    "name": "Ismael Lerena",
-   "url": "/people/?q=Ismael%20Lerena"
+   "url": "/people/?q=Ismael%20Lerena",
+   "bearers": [
+    "/people/ismael-lerena/"
+   ]
   },
   {
    "name": "Jacinta Lerena",
-   "url": "/people/?q=Jacinta%20Lerena"
+   "url": "/people/?q=Jacinta%20Lerena",
+   "bearers": [
+    "/people/jacinta-lerena/"
+   ]
   },
   {
    "name": "Jesus Lerena",
-   "url": "/people/?q=Jesus%20Lerena"
+   "url": "/people/?q=Jesus%20Lerena",
+   "bearers": [
+    "/people/jesus-lerena/"
+   ]
   },
   {
    "name": "Joaquin Lerena",
-   "url": "/people/?q=Joaquin%20Lerena"
+   "url": "/people/?q=Joaquin%20Lerena",
+   "bearers": [
+    "/people/joaquin-lerena/"
+   ]
   },
   {
    "name": "Jose Lerena",
-   "url": "/people/?q=Jose%20Lerena"
+   "url": "/people/?q=Jose%20Lerena",
+   "bearers": [
+    "/people/jose-lerena/"
+   ]
   },
   {
    "name": "Jose Llerena",
-   "url": "/people/?q=Jose%20Llerena"
+   "url": "/people/?q=Jose%20Llerena",
+   "bearers": [
+    "/people/jose-llerena-2/",
+    "/people/jose-llerena-3/",
+    "/people/jose-llerena/"
+   ]
   },
   {
    "name": "Jose Martinez",
-   "url": "/people/?q=Jose%20Martinez"
+   "url": "/people/?q=Jose%20Martinez",
+   "bearers": [
+    "/people/jose-martinez/"
+   ]
   },
   {
    "name": "Josefa Lerena",
-   "url": "/people/?q=Josefa%20Lerena"
+   "url": "/people/?q=Josefa%20Lerena",
+   "bearers": [
+    "/people/josefa-lerena/"
+   ]
   },
   {
    "name": "Josefina Llerena",
-   "url": "/people/?q=Josefina%20Llerena"
+   "url": "/people/?q=Josefina%20Llerena",
+   "bearers": [
+    "/people/josefina-llerena/"
+   ]
   },
   {
    "name": "José Lerena",
-   "url": "/people/?q=Jose%20Lerena"
+   "url": "/people/?q=Jose%20Lerena",
+   "bearers": [
+    "/people/jose-lerena/"
+   ]
   },
   {
    "name": "José Llerena",
-   "url": "/people/?q=Jose%20Llerena"
+   "url": "/people/?q=Jose%20Llerena",
+   "bearers": [
+    "/people/jose-llerena-2/",
+    "/people/jose-llerena-3/",
+    "/people/jose-llerena/"
+   ]
   },
   {
    "name": "José Martinez",
-   "url": "/people/?q=Jose%20Martinez"
+   "url": "/people/?q=Jose%20Martinez",
+   "bearers": [
+    "/people/jose-martinez/"
+   ]
   },
   {
    "name": "Juan Jose Lerena",
-   "url": "/people/?q=Juan%20Jose%20Lerena"
+   "url": "/people/?q=Juan%20Jose%20Lerena",
+   "bearers": [
+    "/people/juan-jose-lerena/"
+   ]
   },
   {
    "name": "Juan José Lerena",
-   "url": "/people/?q=Juan%20Jose%20Lerena"
+   "url": "/people/?q=Juan%20Jose%20Lerena",
+   "bearers": [
+    "/people/juan-jose-lerena/"
+   ]
   },
   {
    "name": "Juan Larena",
-   "url": "/people/?q=Juan%20Larena"
+   "url": "/people/?q=Juan%20Larena",
+   "bearers": [
+    "/people/juan-larena-2/",
+    "/people/juan-larena/"
+   ]
   },
   {
    "name": "Juan Lerena",
-   "url": "/people/?q=Juan%20Lerena"
+   "url": "/people/?q=Juan%20Lerena",
+   "bearers": [
+    "/people/juan-jose-lerena/",
+    "/people/juan-lerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/emilia-antelo/",
+     "url": "/people/juan-facundo-frutuoso-barros-lerena/"
+    }
+   ]
   },
   {
    "name": "Juan Ribero",
-   "url": "/people/?q=Juan%20Ribero"
+   "url": "/people/?q=Juan%20Ribero",
+   "bearers": [
+    "/people/juan-ribero-2/",
+    "/people/juan-ribero/"
+   ]
   },
   {
    "name": "Juana Lerena",
-   "url": "/people/?q=Juana%20Lerena"
+   "url": "/people/?q=Juana%20Lerena",
+   "bearers": [
+    "/people/juana-lerena/"
+   ]
   },
   {
    "name": "Julian Martinez",
-   "url": "/people/?q=Julian%20Martinez"
+   "url": "/people/?q=Julian%20Martinez",
+   "bearers": [
+    "/people/julian-martinez/"
+   ]
   },
   {
    "name": "Justa Lerena",
-   "url": "/people/?q=Justa%20Lerena"
+   "url": "/people/?q=Justa%20Lerena",
+   "bearers": [
+    "/people/justa-lerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/manuel-zeferino-barros/",
+     "url": "/people/justa-pastora-lerena/"
+    }
+   ]
   },
   {
    "name": "Justina Lerena",
-   "url": "/people/?q=Justina%20Lerena"
+   "url": "/people/?q=Justina%20Lerena",
+   "bearers": [
+    "/people/justina-lerena/"
+   ]
   },
   {
    "name": "Justo Lerena",
-   "url": "/people/?q=Justo%20Lerena"
+   "url": "/people/?q=Justo%20Lerena",
+   "bearers": [
+    "/people/justo-lerena/"
+   ]
   },
   {
    "name": "Laurensa Lerina",
-   "url": "/people/?q=Laurensa%20Lerina"
+   "url": "/people/?q=Laurensa%20Lerina",
+   "bearers": [
+    "/people/laurensa-lerina/"
+   ]
   },
   {
    "name": "Leandro Lerena",
-   "url": "/people/?q=Leandro%20Lerena"
+   "url": "/people/?q=Leandro%20Lerena",
+   "bearers": [
+    "/people/leandro-lerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/lucia-llanos/",
+     "url": "/people/leandro-lerena/"
+    }
+   ]
   },
   {
    "name": "Lola Lerena",
-   "url": "/people/?q=Lola%20Lerena"
+   "url": "/people/?q=Lola%20Lerena",
+   "bearers": [
+    "/people/lola-lerena/"
+   ]
   },
   {
    "name": "Lucas Lerena",
-   "url": "/people/?q=Lucas%20Lerena"
+   "url": "/people/?q=Lucas%20Lerena",
+   "bearers": [
+    "/people/lucas-lerena/"
+   ]
   },
   {
    "name": "Luciano Lerena",
-   "url": "/people/?q=Luciano%20Lerena"
+   "url": "/people/?q=Luciano%20Lerena",
+   "bearers": [
+    "/people/luciano-lerena/"
+   ]
   },
   {
    "name": "Lucrecia Llerena",
-   "url": "/people/?q=Lucrecia%20Llerena"
+   "url": "/people/?q=Lucrecia%20Llerena",
+   "bearers": [
+    "/people/lucrecia-llerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/vicente-campellone/",
+     "url": "/people/lucrecia-llerena/"
+    }
+   ]
   },
   {
    "name": "Luis Lerena",
-   "url": "/people/?q=Luis%20Lerena"
+   "url": "/people/?q=Luis%20Lerena",
+   "bearers": [
+    "/people/luis-lerena-2/",
+    "/people/luis-lerena/"
+   ]
   },
   {
    "name": "Luis Llerena",
-   "url": "/people/?q=Luis%20Llerena"
+   "url": "/people/?q=Luis%20Llerena",
+   "bearers": [
+    "/people/luis-llerena/"
+   ]
   },
   {
    "name": "Luisa Serena",
-   "url": "/people/?q=Luisa%20Serena"
+   "url": "/people/?q=Luisa%20Serena",
+   "bearers": [
+    "/people/luisa-serena/"
+   ]
   },
   {
    "name": "Manuel Lerena",
-   "url": "/people/?q=Manuel%20Lerena"
+   "url": "/people/?q=Manuel%20Lerena",
+   "bearers": [
+    "/people/manuel-lerena/"
+   ]
   },
   {
    "name": "Manuela Lerena",
-   "url": "/people/?q=Manuela%20Lerena"
+   "url": "/people/?q=Manuela%20Lerena",
+   "bearers": [
+    "/people/manuela-lerena-2/",
+    "/people/manuela-lerena-3/",
+    "/people/manuela-lerena/"
+   ]
   },
   {
    "name": "Margarita Lerena",
-   "url": "/people/?q=Margarita%20Lerena"
+   "url": "/people/?q=Margarita%20Lerena",
+   "bearers": [
+    "/people/margarita-lerena/"
+   ]
   },
   {
    "name": "Maria Elena Lerena",
-   "url": "/people/?q=Maria%20Elena%20Lerena"
+   "url": "/people/?q=Maria%20Elena%20Lerena",
+   "bearers": [
+    "/people/maria-elena-lerena/"
+   ]
   },
   {
    "name": "Maria Larena",
-   "url": "/people/?q=Maria%20Larena"
+   "url": "/people/?q=Maria%20Larena",
+   "bearers": [
+    "/people/maria-larena-2/",
+    "/people/maria-larena/"
+   ]
   },
   {
    "name": "Maria Lerena",
-   "url": "/people/?q=Maria%20Lerena"
+   "url": "/people/?q=Maria%20Lerena",
+   "bearers": [
+    "/people/maria-elena-lerena/",
+    "/people/maria-lerena-2/",
+    "/people/maria-lerena-3/",
+    "/people/maria-lerena-5/",
+    "/people/maria-lerena/",
+    "/people/maria-mercedes-lerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/carlos-alberto-fein/",
+     "url": "/people/maria-adelina-lerena-traibel/"
+    },
+    {
+     "near": "/people/don-jaime-herrera/",
+     "url": "/people/maria-julia-margarita-josefa-emirena-justiniana-lerena-juanico/"
+    },
+    {
+     "near": "/people/juan-calman/",
+     "url": "/people/maria-leonor-lerena-beloqui/"
+    },
+    {
+     "near": "/people/eliseo-cardozo/",
+     "url": "/people/maria-lerena-2/"
+    },
+    {
+     "near": "/people/jose-maria-reyes/",
+     "url": "/people/maria-lerena-5/"
+    },
+    {
+     "near": "/people/juan-carlos-lerena/",
+     "url": "/people/maria-lerena/"
+    }
+   ]
   },
   {
    "name": "Maria Llerena",
-   "url": "/people/?q=Maria%20Llerena"
+   "url": "/people/?q=Maria%20Llerena",
+   "bearers": [
+    "/people/maria-llerena-2/",
+    "/people/maria-llerena/"
+   ]
   },
   {
    "name": "Maria Lorena",
-   "url": "/people/?q=Maria%20Lorena"
+   "url": "/people/?q=Maria%20Lorena",
+   "bearers": [
+    "/people/maria-lorena/"
+   ]
   },
   {
    "name": "Maria Mercedes",
-   "url": "/people/?q=Maria%20Mercedes"
+   "url": "/people/?q=Maria%20Mercedes",
+   "bearers": [
+    "/people/maria-mercedes-lerena/",
+    "/people/maria-mercedes/"
+   ]
   },
   {
    "name": "Maria Mercedes Lerena",
-   "url": "/people/?q=Maria%20Mercedes%20Lerena"
+   "url": "/people/?q=Maria%20Mercedes%20Lerena",
+   "bearers": [
+    "/people/maria-mercedes-lerena/"
+   ]
   },
   {
    "name": "Martin Lerena",
-   "url": "/people/?q=Martin%20Lerena"
+   "url": "/people/?q=Martin%20Lerena",
+   "bearers": [
+    "/people/martin-lerena/"
+   ]
   },
   {
    "name": "Martina Lerena",
-   "url": "/people/?q=Martina%20Lerena"
+   "url": "/people/?q=Martina%20Lerena",
+   "bearers": [
+    "/people/martina-lerena/"
+   ]
   },
   {
    "name": "María Elena Lerena",
-   "url": "/people/?q=Maria%20Elena%20Lerena"
+   "url": "/people/?q=Maria%20Elena%20Lerena",
+   "bearers": [
+    "/people/maria-elena-lerena/"
+   ]
   },
   {
    "name": "María Larena",
-   "url": "/people/?q=Maria%20Larena"
+   "url": "/people/?q=Maria%20Larena",
+   "bearers": [
+    "/people/maria-larena-2/",
+    "/people/maria-larena/"
+   ]
   },
   {
    "name": "María Lerena",
-   "url": "/people/?q=Maria%20Lerena"
+   "url": "/people/?q=Maria%20Lerena",
+   "bearers": [
+    "/people/maria-elena-lerena/",
+    "/people/maria-lerena-2/",
+    "/people/maria-lerena-3/",
+    "/people/maria-lerena-5/",
+    "/people/maria-lerena/",
+    "/people/maria-mercedes-lerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/carlos-alberto-fein/",
+     "url": "/people/maria-adelina-lerena-traibel/"
+    },
+    {
+     "near": "/people/don-jaime-herrera/",
+     "url": "/people/maria-julia-margarita-josefa-emirena-justiniana-lerena-juanico/"
+    },
+    {
+     "near": "/people/juan-calman/",
+     "url": "/people/maria-leonor-lerena-beloqui/"
+    },
+    {
+     "near": "/people/eliseo-cardozo/",
+     "url": "/people/maria-lerena-2/"
+    },
+    {
+     "near": "/people/jose-maria-reyes/",
+     "url": "/people/maria-lerena-5/"
+    },
+    {
+     "near": "/people/juan-carlos-lerena/",
+     "url": "/people/maria-lerena/"
+    }
+   ]
   },
   {
    "name": "María Llerena",
-   "url": "/people/?q=Maria%20Llerena"
+   "url": "/people/?q=Maria%20Llerena",
+   "bearers": [
+    "/people/maria-llerena-2/",
+    "/people/maria-llerena/"
+   ]
   },
   {
    "name": "María Lorena",
-   "url": "/people/?q=Maria%20Lorena"
+   "url": "/people/?q=Maria%20Lorena",
+   "bearers": [
+    "/people/maria-lorena/"
+   ]
   },
   {
    "name": "María Mercedes",
-   "url": "/people/?q=Maria%20Mercedes"
+   "url": "/people/?q=Maria%20Mercedes",
+   "bearers": [
+    "/people/maria-mercedes-lerena/",
+    "/people/maria-mercedes/"
+   ]
   },
   {
    "name": "María Mercedes Lerena",
-   "url": "/people/?q=Maria%20Mercedes%20Lerena"
+   "url": "/people/?q=Maria%20Mercedes%20Lerena",
+   "bearers": [
+    "/people/maria-mercedes-lerena/"
+   ]
   },
   {
    "name": "Mauricio Lerena",
-   "url": "/people/?q=Mauricio%20Lerena"
+   "url": "/people/?q=Mauricio%20Lerena",
+   "bearers": [
+    "/people/mauricio-lerena-2/",
+    "/people/mauricio-lerena/"
+   ]
   },
   {
    "name": "Mercedes Lerena",
-   "url": "/people/?q=Mercedes%20Lerena"
+   "url": "/people/?q=Mercedes%20Lerena",
+   "bearers": [
+    "/people/mercedes-lerena-2/",
+    "/people/mercedes-lerena/"
+   ]
   },
   {
    "name": "Mercedes Lorena",
-   "url": "/people/?q=Mercedes%20Lorena"
+   "url": "/people/?q=Mercedes%20Lorena",
+   "bearers": [
+    "/people/mercedes-lorena/"
+   ]
   },
   {
    "name": "Natalia Lerena",
-   "url": "/people/?q=Natalia%20Lerena"
+   "url": "/people/?q=Natalia%20Lerena",
+   "bearers": [
+    "/people/natalia-lerena/"
+   ]
   },
   {
    "name": "Nicolas Lerena",
-   "url": "/people/?q=Nicolas%20Lerena"
+   "url": "/people/?q=Nicolas%20Lerena",
+   "bearers": [
+    "/people/nicolas-lerena/"
+   ]
   },
   {
    "name": "Olegaria Lerena",
-   "url": "/people/?q=Olegaria%20Lerena"
+   "url": "/people/?q=Olegaria%20Lerena",
+   "bearers": [
+    "/people/olegaria-lerena/"
+   ]
   },
   {
    "name": "Paolo Lerena",
-   "url": "/people/?q=Paolo%20Lerena"
+   "url": "/people/?q=Paolo%20Lerena",
+   "bearers": [
+    "/people/paolo-lerena/"
+   ]
   },
   {
    "name": "Paulina Lerena",
-   "url": "/people/?q=Paulina%20Lerena"
+   "url": "/people/?q=Paulina%20Lerena",
+   "bearers": [
+    "/people/paulina-lerena/"
+   ]
   },
   {
    "name": "Pedro Antonio Lerena",
-   "url": "/people/?q=Pedro%20Antonio%20Lerena"
+   "url": "/people/?q=Pedro%20Antonio%20Lerena",
+   "bearers": [
+    "/people/pedro-antonio-lerena-2/",
+    "/people/pedro-antonio-lerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/dona-vicenta-vega/",
+     "url": "/people/pedro-antonio-lerena/"
+    }
+   ]
   },
   {
    "name": "Pedro Lerena",
-   "url": "/people/?q=Pedro%20Lerena"
+   "url": "/people/?q=Pedro%20Lerena",
+   "bearers": [
+    "/people/pedro-antonio-lerena-2/",
+    "/people/pedro-antonio-lerena/",
+    "/people/pedro-lerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/trinidad-morales/",
+     "url": null
+    },
+    {
+     "near": "/people/maria-ines-larriera/",
+     "url": "/people/pedro-alberto-ysabelino-lerena-traibel/"
+    },
+    {
+     "near": "/people/rosaura-alvarez/",
+     "url": "/people/pedro-gualberto-lerena-villademoros/"
+    },
+    {
+     "near": "/people/manuela-lemos/",
+     "url": "/people/pedro-lerena-vega-2/"
+    },
+    {
+     "near": "/people/juana-camacho/",
+     "url": "/people/pedro-lerena/"
+    },
+    {
+     "near": "/people/paulina-prando-algar/",
+     "url": "/people/pedro-segundo-lerena-villademoros/"
+    }
+   ]
   },
   {
    "name": "Pedro Llerena",
-   "url": "/people/?q=Pedro%20Llerena"
+   "url": "/people/?q=Pedro%20Llerena",
+   "bearers": [
+    "/people/pedro-llerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/sofia-clavijo/",
+     "url": "/people/pedro-llerena/"
+    }
+   ]
   },
   {
    "name": "Pedro Lorena",
-   "url": "/people/?q=Pedro%20Lorena"
+   "url": "/people/?q=Pedro%20Lorena",
+   "bearers": [
+    "/people/pedro-lorena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/josefa-segueira/",
+     "url": "/people/pedro-lorena/"
+    }
+   ]
   },
   {
    "name": "Pedro Perena",
-   "url": "/people/?q=Pedro%20Perena"
+   "url": "/people/?q=Pedro%20Perena",
+   "bearers": [
+    "/people/pedro-perena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/angela-francisca-montesdeoca/",
+     "url": "/people/pedro-perena/"
+    }
+   ]
   },
   {
    "name": "Prudencio Lerena",
-   "url": "/people/?q=Prudencio%20Lerena"
+   "url": "/people/?q=Prudencio%20Lerena",
+   "bearers": [
+    "/people/prudencio-lerena/"
+   ]
   },
   {
    "name": "Rafael Llerena",
-   "url": "/people/?q=Rafael%20Llerena"
+   "url": "/people/?q=Rafael%20Llerena",
+   "bearers": [
+    "/people/rafael-llerena-2/",
+    "/people/rafael-llerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/maria-carlota-amadeo-lastra/",
+     "url": "/people/rafael-llerena-2/"
+    }
+   ]
   },
   {
    "name": "Ramon Lerena",
-   "url": "/people/?q=Ramon%20Lerena"
+   "url": "/people/?q=Ramon%20Lerena",
+   "bearers": [
+    "/people/ramon-lerena-2/",
+    "/people/ramon-lerena/"
+   ]
   },
   {
    "name": "Ramon Llerena",
-   "url": "/people/?q=Ramon%20Llerena"
+   "url": "/people/?q=Ramon%20Llerena",
+   "bearers": [
+    "/people/ramon-llerena/"
+   ]
   },
   {
    "name": "Ramona Lerena",
-   "url": "/people/?q=Ramona%20Lerena"
+   "url": "/people/?q=Ramona%20Lerena",
+   "bearers": [
+    "/people/ramona-lerena/"
+   ]
   },
   {
    "name": "Ramón Lerena",
-   "url": "/people/?q=Ramon%20Lerena"
+   "url": "/people/?q=Ramon%20Lerena",
+   "bearers": [
+    "/people/ramon-lerena-2/",
+    "/people/ramon-lerena/"
+   ]
   },
   {
    "name": "Ramón Llerena",
-   "url": "/people/?q=Ramon%20Llerena"
+   "url": "/people/?q=Ramon%20Llerena",
+   "bearers": [
+    "/people/ramon-llerena/"
+   ]
   },
   {
    "name": "Raul Lerena",
-   "url": "/people/?q=Raul%20Lerena"
+   "url": "/people/?q=Raul%20Lerena",
+   "bearers": [
+    "/people/raul-lerena/"
+   ]
   },
   {
    "name": "Richard Lerena",
-   "url": "/people/?q=Richard%20Lerena"
+   "url": "/people/?q=Richard%20Lerena",
+   "bearers": [
+    "/people/richard-lerena/"
+   ]
   },
   {
    "name": "Roque Larena",
-   "url": "/people/?q=Roque%20Larena"
+   "url": "/people/?q=Roque%20Larena",
+   "bearers": [
+    "/people/roque-larena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/florencia-calixta-ramos/",
+     "url": "/people/roque-larena/"
+    }
+   ]
   },
   {
    "name": "Rosa Lerena",
-   "url": "/people/?q=Rosa%20Lerena"
+   "url": "/people/?q=Rosa%20Lerena",
+   "bearers": [
+    "/people/rosa-lerena/"
+   ]
   },
   {
    "name": "Rudosindo Larena",
-   "url": "/people/?q=Rudosindo%20Larena"
+   "url": "/people/?q=Rudosindo%20Larena",
+   "bearers": [
+    "/people/rudosindo-larena/"
+   ]
   },
   {
    "name": "Sabina Serena",
-   "url": "/people/?q=Sabina%20Serena"
+   "url": "/people/?q=Sabina%20Serena",
+   "bearers": [
+    "/people/sabina-lerena/"
+   ]
   },
   {
    "name": "Salvador Lerena",
-   "url": "/people/?q=Salvador%20Lerena"
+   "url": "/people/?q=Salvador%20Lerena",
+   "bearers": [
+    "/people/salvador-lerena-2/",
+    "/people/salvador-lerena/"
+   ]
   },
   {
    "name": "Sara Lerena",
-   "url": "/people/?q=Sara%20Lerena"
+   "url": "/people/?q=Sara%20Lerena",
+   "bearers": [
+    "/people/sara-lerena/"
+   ]
   },
   {
    "name": "Sara Serena",
-   "url": "/people/?q=Sara%20Serena"
+   "url": "/people/?q=Sara%20Serena",
+   "bearers": [
+    "/people/sara-serena/"
+   ]
   },
   {
    "name": "Savina Lerina",
-   "url": "/people/?q=Savina%20Lerina"
+   "url": "/people/?q=Savina%20Lerina",
+   "bearers": [
+    "/people/savina-lerina/"
+   ]
   },
   {
    "name": "Sebastiana Lerena",
-   "url": "/people/?q=Sebastiana%20Lerena"
+   "url": "/people/?q=Sebastiana%20Lerena",
+   "bearers": [
+    "/people/sebastiana-lerena/"
+   ]
   },
   {
    "name": "Serapio Fernandez",
-   "url": "/people/?q=Serapio%20Fernandez"
+   "url": "/people/?q=Serapio%20Fernandez",
+   "bearers": [
+    "/people/serapio-fernandez-2/",
+    "/people/serapio-fernandez/"
+   ]
   },
   {
    "name": "Serapio Fernández",
-   "url": "/people/?q=Serapio%20Fernandez"
+   "url": "/people/?q=Serapio%20Fernandez",
+   "bearers": [
+    "/people/serapio-fernandez-2/",
+    "/people/serapio-fernandez/"
+   ]
   },
   {
    "name": "Severa Lerena",
-   "url": "/people/?q=Severa%20Lerena"
+   "url": "/people/?q=Severa%20Lerena",
+   "bearers": [
+    "/people/severa-lerena/"
+   ]
   },
   {
    "name": "Sinforiano Lerena",
-   "url": "/people/?q=Sinforiano%20Lerena"
+   "url": "/people/?q=Sinforiano%20Lerena",
+   "bearers": [
+    "/people/sinforiano-lerena/"
+   ]
   },
   {
    "name": "Socorro Lerena",
@@ -4219,51 +5001,103 @@
   },
   {
    "name": "Susana Llerena",
-   "url": "/people/?q=Susana%20Llerena"
+   "url": "/people/?q=Susana%20Llerena",
+   "bearers": [
+    "/people/susana-llerena/"
+   ]
   },
   {
    "name": "Sytefano Larena",
-   "url": "/people/?q=Sytefano%20Larena"
+   "url": "/people/?q=Sytefano%20Larena",
+   "bearers": [
+    "/people/sytefano-larena/"
+   ]
   },
   {
    "name": "Telma Llerena",
-   "url": "/people/?q=Telma%20Llerena"
+   "url": "/people/?q=Telma%20Llerena",
+   "bearers": [
+    "/people/telma-llerena/"
+   ]
   },
   {
    "name": "Teresa Lerena",
-   "url": "/people/?q=Teresa%20Lerena"
+   "url": "/people/?q=Teresa%20Lerena",
+   "bearers": [
+    "/people/teresa-lerena-2/"
+   ]
   },
   {
    "name": "Teresa Llerena",
-   "url": "/people/?q=Teresa%20Llerena"
+   "url": "/people/?q=Teresa%20Llerena",
+   "bearers": [
+    "/people/teresa-llerena/"
+   ]
   },
   {
    "name": "Teresa Serena",
-   "url": "/people/?q=Teresa%20Serena"
+   "url": "/people/?q=Teresa%20Serena",
+   "bearers": [
+    "/people/teresa-lerena/"
+   ]
   },
   {
    "name": "Tomas Llerena",
-   "url": "/people/?q=Tomas%20Llerena"
+   "url": "/people/?q=Tomas%20Llerena",
+   "bearers": [
+    "/people/tomas-llerena/"
+   ]
   },
   {
    "name": "Victor Lerena",
-   "url": "/people/?q=Victor%20Lerena"
+   "url": "/people/?q=Victor%20Lerena",
+   "bearers": [
+    "/people/victor-lerena/"
+   ]
   },
   {
    "name": "Vitaliano Lerena",
-   "url": "/people/?q=Vitaliano%20Lerena"
+   "url": "/people/?q=Vitaliano%20Lerena",
+   "bearers": [
+    "/people/vitaliano-lerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/andrea-etcheberse/",
+     "url": "/people/vitaliano-lerena/"
+    }
+   ]
   },
   {
    "name": "Vitalino Lerena",
-   "url": "/people/?q=Vitalino%20Lerena"
+   "url": "/people/?q=Vitalino%20Lerena",
+   "bearers": [
+    "/people/vitalino-lerena/"
+   ]
   },
   {
    "name": "Xavier Lavina",
-   "url": "/people/?q=Xavier%20Lavina"
+   "url": "/people/?q=Xavier%20Lavina",
+   "bearers": [
+    "/people/xavier-lavina/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/leonarda-margarita-lerena-vega/",
+     "url": "/people/xavier-lavina/"
+    }
+   ]
   },
   {
    "name": "Ysaac Lerena",
-   "url": "/people/?q=Ysaac%20Lerena"
+   "url": "/people/?q=Ysaac%20Lerena",
+   "bearers": [
+    "/people/ysaac-lerena/"
+   ]
   }
- ]
+ ],
+ "labels": {
+  "shared": "Several people share this name: opens the list"
+ },
+ "nearWindow": 120
 }
