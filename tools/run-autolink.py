@@ -681,6 +681,28 @@ def guard_pass(dist, rows, living_file):
     return wrapped, pages
 
 
+def merged_standard_config(rows):
+    """site/standard.json plus, when it says names.surname_words_from_register, every word the register writes in capitals (its mark
+    of a surname) as names.surname_words. The kit takes every word but the last of an index name for a GIVEN name, so a person
+    named Given SURNAME Surname would otherwise teach the gate that SURNAME is a given name. Made from people.json (committed), written
+    next to standard.json so its relative paths hold, removed after the run."""
+    cfg = json.loads((SITE / "standard.json").read_text(encoding="utf-8"))
+    n = cfg.setdefault("names", {})
+    if n.get("surname_words_from_register"):
+        caps = set(n.get("surname_words") or [])
+        for r in rows:
+            if r.get("living") or r.get("noindex") or r.get("aliasOf"):
+                continue
+            s = re.sub(r"\(.*?\)|\[.*?\]", " ", str(r.get("name") or ""))
+            for w in s.split():
+                if len(w) >= 3 and w == w.upper() and w.casefold() not in PARTICLES and WORD.match(w):
+                    caps.add(ascii_fold(w).casefold())
+        n["surname_words"] = sorted(caps)
+    out = SITE / ".standard-merged.json"
+    out.write_text(json.dumps(cfg, ensure_ascii=False, indent=1), encoding="utf-8")
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--gate", action="store_true")
@@ -710,11 +732,18 @@ def main():
         return 0
     dist = SITE / a.dist
     if a.standard or a.write_standard_floor:
-        cmd = [sys.executable, str(KIT / "checkstandard.py"), "--dist", str(dist), "--index", str(INDEX), "--config", str(SITE / "standard.json"),
+        cfg_path = merged_standard_config(rows)
+        cmd = [sys.executable, str(KIT / "checkstandard.py"), "--dist", str(dist), "--index", str(INDEX), "--config", str(cfg_path),
                "--living", str(living_path()), "--floor", str(SITE / ".standardfloor.json"), "--strict-config"]
         if a.write_standard_floor:
             cmd.append("--write-floor")
-        return subprocess.run(cmd, cwd=SITE).returncode
+        try:
+            return subprocess.run(cmd, cwd=SITE).returncode
+        finally:
+            try:
+                cfg_path.unlink()
+            except OSError:
+                pass
     common = ["--dist", str(dist), "--index", str(INDEX), "--living", str(living_path()),
               "--allow-prefix", "/people/", "--allow-prefix", "/who/"]
     if a.gate or a.write_floor:

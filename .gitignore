@@ -7,3 +7,4 @@ node_modules/
 site/public/atlas-data.json
 dist-*/
 site/given.json
+site/.standard-merged.json

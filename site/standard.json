@@ -219,7 +219,8 @@
    "serena",
    "taylor",
    "trinidad"
-  ]
+  ],
+  "surname_words_from_register": true
  },
  "citations": {
   "blocks": [

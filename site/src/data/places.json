@@ -259,9 +259,13 @@
    "maria-eladia-ramona-mendoza",
    "manuela-barriaga",
    "juan-lloberas",
-   "luis-cincinato-bollo"
+   "luis-cincinato-bollo",
+   "carlota-munoz",
+   "maria-concepcion-magarinos-pittaluga",
+   "mateo-magarinos-veira",
+   "amanda-pittaluga"
   ],
-  "count": 257
+  "count": 261
  },
  {
   "slug": "trinidad-flores",
@@ -609,6 +613,27 @@
   "count": 15
  },
  {
+  "slug": "canelones",
+  "name": "Canelones",
+  "people": [
+   "hilario-barros-llerena",
+   "jose",
+   "joseph-ponteceli",
+   "agueda-rivero",
+   "jose-loreto-lerena-fernandez",
+   "joseph-del-rios",
+   "francisco-de-los-santos-de-acuna",
+   "florentino-gomez",
+   "ana-gomez",
+   "antonio-villegas",
+   "jose-del-rio",
+   "juan-francisco-cardoso",
+   "juan-miguel-de-laguna",
+   "bartolome-munoz"
+  ],
+  "count": 14
+ },
+ {
   "slug": "colla",
   "name": "Colla",
   "people": [
@@ -628,26 +653,6 @@
    "fulgencio-de-los-santos"
   ],
   "count": 14
- },
- {
-  "slug": "canelones",
-  "name": "Canelones",
-  "people": [
-   "hilario-barros-llerena",
-   "jose",
-   "joseph-ponteceli",
-   "agueda-rivero",
-   "jose-loreto-lerena-fernandez",
-   "joseph-del-rios",
-   "francisco-de-los-santos-de-acuna",
-   "florentino-gomez",
-   "ana-gomez",
-   "antonio-villegas",
-   "jose-del-rio",
-   "juan-francisco-cardoso",
-   "juan-miguel-de-laguna"
-  ],
-  "count": 13
  },
  {
   "slug": "northam-devon",

@@ -12,7 +12,7 @@ name the register uses is seen.
 WHERE IT COMES FROM. site/src/data/people.json only, which is committed, so CI builds the same file as the machine that holds the
 rest of the data. A person the register marks `living`, `noindex` or an alias row (and anyone whose name has no clean given name)
 contributes NOTHING: a living person's given name is not written into a file because they bear it. A word is a given name if it is
-not the last word of the cleaned name, is not a particle (de, del, y...), is not an honorific and holds no digit or bracket. Counts
+not the last word of the cleaned name, is not written in capitals (the register's mark of a surname), is not a particle (de, del, y...), is not an honorific and holds no digit or bracket. Counts
 only are printed.
 """
 import io, json, pathlib, re, sys, unicodedata
@@ -42,6 +42,8 @@ def build():
             continue
         for w in words[:-1]:
             if w.casefold() in PARTICLES or not WORD.match(w) or len(w) < 2:
+                continue
+            if len(w) >= 3 and w == w.upper():           # the register writes a surname in capitals: never a given name
                 continue
             got.add(w[:1].upper() + w[1:].lower() if w == w.upper() else w)
     return sorted(got, key=lambda s: unicodedata.normalize("NFKD", s).casefold()), skipped
