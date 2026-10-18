@@ -10,7 +10,7 @@
     "preview": "astro preview --port 4323",
     "sitemap": "python3 node_modules/@daviddef/archive-kit/kit/tools/sitemap.py",
     "publish:index": "node -e \"require('fs').copyFileSync('src/data/searchindex.json','public/searchindex.json')\"",
-    "check:book": "python3 ../tools/check-book.py",
+    "check:book": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkbook.py --dist dist --book src/data/book.json",
     "check:kit": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkarchive.py --dist dist",
     "check:living": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkliving.py --dist dist --data src/data --policy named-bare",
     "check:worklist": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkworklist.py --root .",
@@ -38,7 +38,7 @@
     "check:families": "python3 ../tools/check-families.py"
   },
   "dependencies": {
-    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#516fad1941a9be71e71fb62beddf2595d19fbc93",
+    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#a6ea10cf23b1026e26fffa09e4af3d0e56922898",
     "astro": "^5.18.2"
   },
   "devDependencies": {
