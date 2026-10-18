@@ -54,6 +54,18 @@ jobs:
       # about a living person is committed for the gate. Exit 2 (not run) fails the step: a run that could not look is not a pass.
       - name: Check hand-written prose against the living standard
         run: python3 tools/check-prose.py
+      # THE LINKING STANDARD (18 October 2026): the twelve narrative pages are held to five rules and the number of violations of each may only
+      # go down (site/.standardfloor.json: counts, no name). L1 a name that resolves is linked, L2 a person read from a record has an entry,
+      # L3 a passage that cites a record links to it, L4 a scan the archive may show sits in the section that cites it, L5 the forms the
+      # machine cannot resolve are counted. The gate itself is the LAST step of `npm run build` above (run-autolink.py --standard), so a
+      # page that got worse already failed the build. WHAT CI SEES: only committed data. The records table (src/data/records.json) is
+      # rebuilt by the build from data/ark-to-film.tsv, film-register.tsv, sources-consulted.tsv, record-plates.json and the pages; the
+      # record links come from it and from data/record-links.tsv; the names index and the living list are made from people.json; the
+      # given-name vocabulary is made from people.json. Nothing private is read. This step checks that the gate itself still catches a
+      # planted fault in each rule (the kit's own self-test).
+      - name: Check that the linking-standard gate still catches what it should
+        run: python3 node_modules/@daviddef/archive-kit/kit/tools/checkstandard_selftest.py
+        working-directory: site
       # The register checked against itself - no external source, only dates and
       # relationships that cannot all be true at once. Contradictions fail; softer
       # observations are printed and do not.

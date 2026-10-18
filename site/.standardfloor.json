@@ -1,0 +1,17 @@
+{
+ "version": 1,
+ "note": "Per page, per rule: violations of the linking standard. A number may only go down. Written by checkstandard.py --write-floor; raise one only by hand, in a commit that says why. Counts only: no name.",
+ "pages": {
+  "/argentina/": {"L1": 0, "L2": 39, "L3": 7, "L4": 0, "L5": 35, "EX": 0},
+  "/family-papers/": {"L1": 0, "L2": 30, "L3": 0, "L4": 0, "L5": 53, "EX": 9},
+  "/horses/": {"L1": 0, "L2": 10, "L3": 0, "L4": 0, "L5": 15, "EX": 0},
+  "/hypotheses/": {"L1": 0, "L2": 38, "L3": 1, "L4": 0, "L5": 99, "EX": 2},
+  "/method/": {"L1": 0, "L2": 22, "L3": 0, "L4": 0, "L5": 42, "EX": 6},
+  "/name/": {"L1": 0, "L2": 36, "L3": 2, "L4": 0, "L5": 11, "EX": 0},
+  "/roadmap/": {"L1": 0, "L2": 11, "L3": 1, "L4": 0, "L5": 32, "EX": 2},
+  "/searched/": {"L1": 0, "L2": 22, "L3": 12, "L4": 0, "L5": 91, "EX": 3},
+  "/south-africa/": {"L1": 0, "L2": 15, "L3": 1, "L4": 0, "L5": 18, "EX": 2},
+  "/taylor/": {"L1": 0, "L2": 23, "L3": 8, "L4": 0, "L5": 71, "EX": 13},
+  "/uruguay/": {"L1": 0, "L2": 144, "L3": 1, "L4": 0, "L5": 213, "EX": 4}
+ }
+}

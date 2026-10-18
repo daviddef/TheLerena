@@ -1,0 +1,208 @@
+# The links from a passage's citation to the record it cites, and the passages whose citation has no record to link to (the linking standard, L3 and L4).
+# Read by tools/link-records.py after the build. page: the built page; start: how the passage's text begins (squashed); nth: which passage that begins so;
+# phrase: the exact words that become the link (the author's words, unchanged); target: a record id from site/src/data/records.json,
+# or `exempt:` and the reason, or `thumb:` and a plate id (the held scan placed beside the passage). A row whose passage or words cannot
+# be found changes nothing and is counted by the tool; the standard's ratchet holds the number.
+page	start	nth	phrase	target	note
+/uruguay/	There are two documented Lerena families in nineteenth-century Uruguay	1	baptism act of 1812	ark-3-1-3Q9M-C9BW-X71N-G	
+/uruguay/	Which would make it a death for a woman this archive found the day bef	1	padrón of 1850	ark-3-1-3QS7-99ZP-BBKX	
+/uruguay/	full text, surname against the Cordon parish, filtered to its DEATH an	1		exempt:a summary of a full-text search across several volumes; it cites no one record, and each document it found is cited where it is read	
+/uruguay/	the same act, against the padron of 1850 read on 12 October LEONARDA L	1	padron of 1850	ark-3-1-3QS7-99ZP-BBKX	
+/uruguay/	Leonarda Lerena, born 20 February 1837, is absent from her parents’ ho	1	padrón of 1850	ark-3-1-3QS7-99ZP-BBKX	
+/uruguay/	the 208, read for the man found on act 110 of 1899 FIVE INFANT DEATHS 	1	act 110 of 1899	ark-3-1-3Q9M-CS2Z-DQC1-2	
+/uruguay/	a 'Juan Carlos' appearing beside the name in the Cordon results IT IS 	1		exempt:a summary of a full-text search across several volumes; it cites no one record, and each document it found is cited where it is read	
+/uruguay/	the same count, read for what it means for the work 95 DOCUMENTS ACROS	1		exempt:a summary of a full-text search across several volumes; it cites no one record, and each document it found is cited where it is read	
+/uruguay/	Nuestra Senora del Carmen La Mayor, bundled volume: Religious Rite Reg	1		exempt:a summary of a full-text search across several volumes; it cites no one record, and each document it found is cited where it is read	
+/uruguay/	the act against the c.1833 census of household 229 SETTLED: which Pedr	1	1833 census	ark-3-1-3QS7-99ZP-BBKX	
+/uruguay/	SETTLED AT CATALOGUE LEVEL: THE PADRON OF 1850	1	PADRON OF 1850	film-7499042	
+/uruguay/	the head's age against an attested birth THE HEAD OF HOUSEHOLD 229 IS 	1	1843 padron	film-7499042	
+/uruguay/	the three children of household 229 Emilia c.1815 to c.1832 | Pedro c.	1	1850 padron	ark-3-1-3QS7-99ZP-BBKX	
+/uruguay/	Santisima Trinidad, Religious Marriage Records 1875-1895 , 6 March 188	1	Religious Marriage Records 1875-1895	ark-3-1-3Q9M-CS27-V1PJ	
+/uruguay/	And then the marriage turned up, four hours after it was written down 	1	act 83	ark-3-1-3Q9M-CS2W-N35B-M	
+/uruguay/	Seventy-four in March 1895, a widow , living at Calle Arenal 240, San 	1	image 94	ark-3-1-3Q9M-CS27-J7GH-Y	
+/uruguay/	This register already holds RAMON LERENA of Rosario-Colla and MARIA JO	1	16 September 1825	ark-3-1-3Q9M-CSKH-67T7	
+/uruguay/	And the thing this section called “deliberately not concluded” was con	1	marriage act of 16 September 1825	ark-3-1-3Q9M-CSKH-67T7	
+/uruguay/	Alejandro the elder has two birthplaces, and the plural is the clue. H	1	marriage act of 1825	ark-3-1-3Q9M-CSKH-67T7	
+/uruguay/	The joint here will not bear weight. Named on their son's marriage act	1	marriage act of 1791	fimg-8166578-2687	
+/uruguay/	Documented The count of Sancho’s children has moved twice, and the fil	1	padrón of 1812	ark-3-1-3QS7-99ZR-NKNR	
+/uruguay/	Documented They lived at Canelones; they did not visit it. José Loreto	1	padrón of 1812	ark-3-1-3QS7-99ZR-NKNR	
+/uruguay/	Re-put through the search UI, where a spouse surname genuinely filters	1	marriage act of 19 December 1864	ark-3-1-3Q9M-C9BW-N7DN-G	
+/uruguay/	Documented Four do, and the latest is 1812. He is godfather at the Igl	1	padrón of 1812	ark-3-1-3QS7-99ZR-NKNR	
+/uruguay/	Documented That test was run the same evening and came back empty. Ler	1	marriage act of 19 December 1864	ark-3-1-3Q9M-C9BW-N7DN-G	
+/uruguay/	Then the marriage act settled it, and it was not the names that did it	1	acta No. 4	ark-3-1-3Q9M-CS2C-XSRD-Y	
+/uruguay/	SETTLED. Two independent sources agree: the image viewer's own breadcr	1	LIBRO 264	film-7499042	
+/uruguay/	THAT CHECK WAS BUILT ON THE SAME CIRCLE AND IS WITHDRAWN AS A DATING A	1	padron of 1850	ark-3-1-3QS7-99ZP-BBKX	
+/uruguay/	SANCHO LLERENA, 45, 'Andaluzia' - the 1812 padron. Plus MARIA LLERENA,	1	1812 padron	ark-3-1-3QS7-99ZR-NKNR	
+/uruguay/	DOMINGA LORENA, 28 in the 1836 Montevideo census, born Montevideo. San	1	1812 padron	ark-3-1-3QS7-99ZR-NKNR	
+/uruguay/	DOMINGA LORENA, 28 in the 1836 Montevideo census, born Montevideo. San	1	1836 Montevideo census	ark-3-1-3QS7-99ZR-NBJF	
+/uruguay/	Three distinct censuses have now been seen inside it: the 1812 padron,	1	1812 padron	ark-3-1-3QS7-99ZR-NKNR	
+/uruguay/	Sancho's youngest child was Dominga, aged seven in the 1812 padrón, an	1	1812 padrón	ark-3-1-3QS7-99ZR-NKNR	
+/uruguay/	Sancho's youngest child was Dominga, aged seven in the 1812 padrón, an	1	1836 census	ark-3-1-3QS7-99ZR-NBJF	
+/uruguay/	FOR: Sancho's youngest was DOMINGA, 7 in the 1812 padron , and this ar	1	1812 padron	ark-3-1-3QS7-99ZR-NKNR	
+/uruguay/	SO EVERYTHING I WROTE ABOUT HER AS AN UNATTACHED CANDIDATE WAS WRONG, 	1	1836 census	ark-3-1-3QS7-99ZR-NBJF	
+/uruguay/	The third Llerena in the census collection had an index entry giving a	1	entry 10	ark-1-1-6BR7-8DPW	
+/uruguay/	A numbered list of owners. 10. Luis Llerena - written with the double 	1	Entry	ark-1-1-6BR7-8DPW	
+/uruguay/	Image 00004: volumen 1 = Libros 2 y 334 (filmed 29 Mar 2006). Image 02	1	Image 00004	film-7499043	
+/uruguay/	The scan finds DARK FRAMES , and a target board is only one kind of da	1	Image 00127	film-7499043	
+/uruguay/	So the eighteen are CANDIDATE boundaries, not confirmed ones , and eac	1	image 00004	film-7499043	
+/uruguay/	Libro 246	1	Libro 246	film-7499043	
+/uruguay/	Libro 252	1	Libro 252	film-7499043	
+/uruguay/	Libro 253	1	Libro 253	film-7499043	
+/uruguay/	Libro 261	1	Libro 261	film-7499043	
+/uruguay/	Libro 262	1	Libro 262	film-7499043	
+/uruguay/	Libro 464	1	Libro 464	film-7499043	
+/uruguay/	Libro 147	1	Libro 147	film-7499043	
+/uruguay/	Libro 148	1	Libro 148	film-7499043	
+/uruguay/	Libro 149	1	Libro 149	film-7499043	
+/uruguay/	Libro 107	1	Libro 107	film-7499043	
+/uruguay/	Libro 256	1	Libro 256	film-7499043	
+/uruguay/	Documented And one row on this site was two men. The register carried 	1	marriage act of 25 February 1911	film-4571398	
+/hypotheses/	7. The Llorens baptism	1		exempt:a contents-list entry that links to its own section of this page, where the record is cited and linked	
+/hypotheses/	The 1812 padrón, read from the image	1		exempt:a contents-list entry that links to its own section of this page, where the record is cited and linked	
+/hypotheses/	And it corrects the trees on the bride. The Geneanet note recorded her	1	1812 padrón	ark-3-1-3QS7-99ZR-NKNR	
+/hypotheses/	Four things move at once. Sancho’s parents are on a parish act written	1	1812 padrón	ark-3-1-3QS7-99ZR-NKNR	
+/hypotheses/	The venue is still the best inference available, and now for a better 	1	padrón of 1812	ark-3-1-3QS7-99ZR-NKNR	
+/hypotheses/	An eighth child. Canelones, 11 December 1806: “puso por nombre José Lo	1	1812 padrón	ark-3-1-3QS7-99ZR-NKNR	
+/hypotheses/	The reel was walked by image number. Its filming targets cut it into v	1	image 1459	film-8166573	
+/hypotheses/	January 1791 falls in the seam between two volumes. That is a gap in t	1	image 1461	film-8166573	
+/hypotheses/	The marriage act of 3 November 1830 has now been read rather than inde	1	3 November 1830	ark-3-1-3Q9M-C9B7-B3WZ-8	
+/hypotheses/	Luis Eugenio’s death act was read — 24 December 1901, act 216 — and it	1	act 216	ark-3-1-3Q9M-CS2W-H67P	
+/hypotheses/	The marriage, the seven children and Julia’s own baptism are all now o	1	act 1720 of 1886	ark-3-1-3Q9M-C9BW-Z9RS-F	
+/hypotheses/	For: the 1940 passport is a striking object, embossed, sealed and issu	1	1940 passport	own-passport	
+/hypotheses/	That Pablo Armando descends from the Roberto Llorens and Francisca Fer	1	San Miguel baptism of 1872	plate-baptism-llorens-1872	
+/hypotheses/	What happened when it was tested: the Rosario index has now been read 	1	Llorens baptism	plate-baptism-llorens-1872	
+/hypotheses/	Film 008166435, pages 78 to 81, carries certificates numbered 147 to 1	1	pages 78 to 81	film-8166435	
+/hypotheses/	This archive has quoted the 1812 padrón for weeks from a published tra	1	1812 padrón	ark-3-1-3QS7-99ZR-NKNR	
+/hypotheses/	This archive states, in data and on its pages, that 'the 1812 padron r	1	1812 padron	ark-3-1-3QS7-99ZR-NKNR	
+/hypotheses/	THAT STATEMENT NOW NEEDS RE-EXAMINING. Four people are named immediate	1	baptism act of 26 September 1812	film-7713375	
+/hypotheses/	THE FOUR ENSLAVED PEOPLE ARE NAMED: ANTONIO, JOSE, JUANA AND TERESA. T	1	baptism act of 26 September 1812	film-7713375	
+/method/	So the rule: a null is not written down until a control query, in the 	1		exempt:names the record only as an example of a lesson, relies on nothing in it	
+/method/	Rate limiting. Image 86, re-read after a forty-second pause, gave 2,97	1		exempt:a note on how the search tool or the viewer behaves; it cites no record a reader could be sent to	
+/method/	THE INDEX CARRIES THEM UNDER AN INITIAL. The 1891 census transcription	1		exempt:a British census or civil-registration index read on a subscription or index-only site: the archive holds no public address for the record	
+/method/	The zeros looked like a discovery. A man whose baptism this archive ha	1	act 585 of 7 October 1850	ark-3-1-3Q9M-C9BW-ZSZQ-J	
+/method/	Both had been sitting on David’s own disk, photographed, since Novembe	1	1911 marriage register	plate-marriage-1911	
+/method/	And it was tested against the thing it was built for. Run on the tree 	1		exempt:a note on how the search tool or the viewer behaves; it cites no record a reader could be sent to	
+/method/	full text, complete result sets at count=100 - Lerena Pelaez, Lerena F	1		exempt:a summary of a full-text search across several volumes; it cites no one record, and each document it found is cited where it is read	
+/method/	Access is set PER IMAGE, not per film. A 401 means that page is restri	1		exempt:a note on how the search tool or the viewer behaves; it cites no record a reader could be sent to	
+/method/	Documented And where a census meets a reconstruction, the census wins.	1	padrón of 1812	ark-3-1-3QS7-99ZR-NKNR	
+/searched/	Arquidiocesis de Montevideo, MARRIAGE DISPENSATION RECORDS 1856-1932 (	1	MARRIAGE DISPENSATION RECORDS 1856-1932	film-7713367	
+/searched/	Nuestra Senora del Rosario cathedral, alphabetical index DGS 4530325 n	1		exempt:a cell that already links to this archive's ledger entry for the record; the record itself is cited with its address in the entry	
+/searched/	Rosario marriage index 1860-1904, L section, image 51 unresolved	1		exempt:a cell that already links to this archive's ledger entry for the record; the record itself is cited with its address in the entry	
+/searched/	A line reading “Larena V · Sarmiento A” under Libro 9, 1884	1	Libro 9, 1884	film-4531041	
+/searched/	LERENA LENGUAS, María Julia Margarita Josefa — 1866, Libro 15, folio 2	1	Libro 15, folio 229	ark-3-1-S3HT-XS9C-ZL	
+/searched/	But a baptism at folio 229 has an act, and the act names both parents.	1	folio 229	ark-3-1-S3HT-XS9C-ZL	
+/searched/	San Francisco de Asís, Ciudad Vieja, Montevideo. Folio 364, act 1879.	1	Folio 364, act 1879	ark-3-1-3Q9M-C9BW-N7HN-1	
+/searched/	She is the child of folio 229. Born at Rosario 8 October 1865, baptise	1	folio 229	ark-3-1-S3HT-XS9C-ZL	
+/searched/	Two near misses were logged and resolved rather than passed over. Arma	1	act 546	film-4098792	
+/searched/	Five frames in the stretch are not new openings: three are duplicate e	1	act 862	film-4098792	
+/searched/	So Libro 24 was read act by act. Each opening carries about eight acts	1	Libro 24	film-4098792	
+/searched/	The nearest approaches were checked at 1.4× to be certain: Lercari L. 	1	folio 20	film-4531041	
+/searched/	The matrícula consular of the Cape Town consulate, and the file behind	1	1940 passport	own-passport	
+/searched/	Estate file MOOC 6/9/17017.	1	MOOC 6/9/17017	own-estate	
+/searched/	Presumably the Anton Armando of the 1980 divorce at NAAIRS. Not yet pl	1	NAAIRS	own-naairs	
+/searched/	Pablo Armando himself. Independently corroborates MOOC 6/9/17017 and t	1	MOOC 6/9/17017	own-estate	
+/searched/	Marriage index 1860–1904, L section, image 51	1		exempt:a cell that already links to this archive's ledger entry for the record; the record itself is cited with its address in the entry	
+/searched/	A line reading "Larena V · Sarmiento A · 20" under Libro 9, 1884	1	Libro 9, 1884	film-4531041	
+/searched/	Unresolved Cannot be distinguished from Lavena, a real Rosario surname	1	folio 20	film-4531041	
+/searched/	NAAIRS (South African National Archives)	1	NAAIRS	own-naairs	
+/searched/	NAAIRS	1	NAAIRS	own-naairs	
+/searched/	NAAIRS	2	NAAIRS	own-naairs	
+/searched/	The San Miguel baptisms of 1872 — Roberto Juan Roque Llorens, son of R	1	baptisms of 1872	plate-baptism-llorens-1872	
+/searched/	So it was read. Seventy-six images, end to end — every page from the f	1	image 80	film-4531018	
+/family-papers/	This morning this archive called KAB MOOC 6/9/17017 — Pablo Armando’s 	1	MOOC 6/9/17017	own-estate	
+/family-papers/	Racehorse Trainer Agrees with the 1940 passport. Thirty-nine years aft	1	1940 passport	own-passport	
+/family-papers/	A death notice is filed for the Master. A death certificate is the civ	1	death certificate A 214036	plate-death-certificate-1950	
+/family-papers/	Maitland Cemetery no 1 THIS CONTRADICTS THE FAMILY. Nuno's daughter wa	1	entry 327	ark-3-1-3Q9M-CSVY-JS18	
+/family-papers/	Duplicate Original Register no. 7271, entry 160. This archive did not 	1	entry 160	plate-marriage-1911	
+/family-papers/	Later annotations on the same entry: he married Rosalina Wilhelmina Ch	1	21 September 1936	plate-marriage-roque-1936	
+/family-papers/	Newlands is where he died - No. 7 Forth Road. A photograph of the grav	1	entry 327	ark-3-1-3Q9M-CSVY-JS18	
+/family-papers/	THEY DID NOT MARRY. His death notice of 28 March 1950 says "Widower", 	1	death notice of 28 March 1950	plate-death-notice-1950	
+/family-papers/	The 1911 marriage register gives her age as 27, which would need a bir	1	1911 marriage register	plate-marriage-1911	
+/family-papers/	Both her parents were dead before she left: her mother Mary Ann Hellen	1		exempt:a British census or civil-registration index read on a subscription or index-only site: the archive holds no public address for the record	
+/family-papers/	This is the archive's own Félix. Sancho's marriage act of 8 January 17	1	8 January 1791	fimg-8166578-2687	
+/family-papers/	The tree carries Félix de Llerena, born about 1725 at Córdoba in Andal	1		exempt:a cell that already links to this archive's ledger entry for the record; the record itself is cited with its address in the entry	
+/family-papers/	The entire documentary foundation of this line in the tree: three cita	1		exempt:a British census or civil-registration index read on a subscription or index-only site: the archive holds no public address for the record	
+/family-papers/	CONFIRMED, and the age is exact. A death on 18 January falls in the Ma	1		exempt:a British census or civil-registration index read on a subscription or index-only site: the archive holds no public address for the record	
+/family-papers/	Piece 1895, folio 108, page 8, schedule 34. Four generations in one ho	1		exempt:a British census or civil-registration index read on a subscription or index-only site: the archive holds no public address for the record	
+/family-papers/	Piece 1787, enumeration district 4, folio 42, page 1, schedule 2. The 	1		exempt:a British census or civil-registration index read on a subscription or index-only site: the archive holds no public address for the record	
+/family-papers/	The picture does not prove it after all. Septima means seventh , and t	1		exempt:a British census or civil-registration index read on a subscription or index-only site: the archive holds no public address for the record	
+/family-papers/	David asked for the 1891 census of Northam to be done for the Taylors.	1		exempt:a British census or civil-registration index read on a subscription or index-only site: the archive holds no public address for the record	
+/family-papers/	Birth certificate A 042921 (abridged extract), entry 664/24, District 	1	entry 664/24	plate-birth-certificate-nuno-1924	
+/family-papers/	Abridged death certificate A 243689, BMD 166, entry 581/71, District G	1	entry 581/71	plate-death-certificate-nuno-1971	
+/family-papers/	THE FIRST THING IN THIS ARCHIVE THAT EXPLAINS WHY ROSE THEYS, 'NO RELA	1	Marist testimonials	plate-marist-1936-june-november	
+/family-papers/	Another set for the founding couple. Much of what David sent was alrea	1	1950 death notice	plate-death-notice-1950	
+/family-papers/	THE EXTRACT SAYS 1905; THE REGISTER SAYS 1911. The day, month, priest 	1	EXTRACT SAYS 1905	plate-marriage-extract-1905-issued-1916	
+/family-papers/	Duplicate Original Marriage Register, no. 14/1936: Catholic Church, Ma	1	21 September 1936	plate-marriage-roque-1936	
+/family-papers/	The church's marginal note on Roque's baptism says 21 September 1936 a	1	21 September 1936	plate-marriage-roque-1936	
+/family-papers/	UK incoming passenger list, 'Arundel Castle' (Union-Castle Mail S.S. C	1		exempt:text only: the archive holds no public address for this record	
+/family-papers/	Two disagreements to settle, neither important: the house is captioned	1	1950 death notice	plate-death-notice-1950	
+/taylor/	TWO OF THESE FOUR CHILDREN WERE NEVER REGISTERED, and it is the two el	1		exempt:a British census or civil-registration index read on a subscription or index-only site: the archive holds no public address for the record	
+/taylor/	1845, June quarter, THE HOLBORN UNION - Volume 02, page 149 THE SPELLI	1		exempt:a British census or civil-registration index read on a subscription or index-only site: the archive holds no public address for the record	
+/taylor/	1850, September quarter, THE BIDEFORD UNION - Volume 10, page 52 CONFI	1		exempt:a British census or civil-registration index read on a subscription or index-only site: the archive holds no public address for the record	
+/taylor/	The pattern dates itself. The couple’s two earliest children — Isabell	1		exempt:a British census or civil-registration index read on a subscription or index-only site: the archive holds no public address for the record	
+/taylor/	In the 1891 census, aged six, she was at 2 Crystal Villas, Stanton Roa	1		exempt:a British census or civil-registration index read on a subscription or index-only site: the archive holds no public address for the record	
+/taylor/	Inferred That closes a puzzle this archive had already noticed. Roque'	1	12 June 1911	plate-baptism-roque-1911	
+/taylor/	Set down plainly, because this archive sets things down plainly. It is	1	death certificate in 1950	plate-death-certificate-1950	
+/taylor/	The marriage does not disprove the crossing; they could well have met 	1		exempt:names the record only as an example of a lesson, relies on nothing in it	
+/taylor/	The 1871 census settles it. Both are in the house as infants on 2 Apri	1		exempt:a British census or civil-registration index read on a subscription or index-only site: the archive holds no public address for the record	
+/taylor/	And William John’s wife was not Fanny Ellen Jefferey. The 1901 census 	1		exempt:a British census or civil-registration index read on a subscription or index-only site: the archive holds no public address for the record	
+/taylor/	Still to do: the 1921 census, untouched, and the last before the 1931 	1		exempt:a British census or civil-registration index read on a subscription or index-only site: the archive holds no public address for the record	
+/taylor/	CONFIRMED, and from a census rather than the tree. The 1891 return for	1		exempt:a British census or civil-registration index read on a subscription or index-only site: the archive holds no public address for the record	
+/taylor/	It was not days of work. The 1891 census had already answered it, and 	1		exempt:a British census or civil-registration index read on a subscription or index-only site: the archive holds no public address for the record	
+/taylor/	1891 census, his father's household at 2 Fore Street, Northam: 'Willia	1		exempt:a British census or civil-registration index read on a subscription or index-only site: the archive holds no public address for the record	
+/taylor/	Documented In the 1921 census Lucy Elizabeth Sweet — 39, living at 23 	1		exempt:a British census or civil-registration index read on a subscription or index-only site: the archive holds no public address for the record	
+/roadmap/	The single Lerena baptism in the whole index, folio 229, February 1866	1	folio 229	ark-3-1-S3HT-XS9C-ZL	
+/roadmap/	To be issued an Argentine passport in 1940 he had to prove nationality	1	1940 passport	own-passport	
+/roadmap/	Both younger sons appear in an LDS South African Mission census of 193	1		exempt:text only: the archive holds no public address for this record	
+/roadmap/	The act is on the same reel — and on 15 September 2026 it was read. Ma	1	image 2687	fimg-8166578-2687	
+/roadmap/	Canelones — Matrimonios, Libros 1–3, 1776–1854 the act — FOUND, image 	1	image 2687	fimg-8166578-2687	
+/roadmap/	The series does not cover January 1791. Its filming targets divide it 	1	image 1459	film-8166573	
+/roadmap/	So his own información is not there. That is a seam in the filing, not	1	image 1461	film-8166573	
+/roadmap/	Routes 2 and 3 are already out and can only be waited on. If both come	1		exempt:a search planned and not yet made: there is no record yet to link to	
+/roadmap/	His parents’ own marriage would give four more. The Índice de Matrimon	1	Índice de Matrimonios 1731	film-4531036	
+/roadmap/	Canelones, Catedral de Nuestra Señora de Guadalupe — marriages from 17	1	1812 padrón	ark-3-1-3QS7-99ZR-NKNR	
+/roadmap/	A caution on the date itself: the bride is given as born 1778, which w	1	1812 padrón	ark-3-1-3QS7-99ZR-NKNR	
+/argentina/	Born 8 October 1865, baptised at Rosario 17 February 1866, act 1541. T	1	act 1541	ark-3-1-S3HT-XS9C-ZL	
+/argentina/	Marriage registers, Libro 9	1	Libro 9	film-4531041	
+/argentina/	Marriage registers, Libro 8	1	Libro 8	film-4531040	
+/name/	SAN EUGENIO, ARTIGAS - act 110 of 1899	1	act 110 of 1899	ark-3-1-3Q9M-CS2Z-DQC1-2	
+/name/	act 110 of 1899, San Eugenio - the capital on Anastasia's surname agai	1	act 110 of 1899	ark-3-1-3Q9M-CS2Z-DQC1-2	
+/name/	MAL ABRIGO, SAN JOSE - act 98 of 1910	1	act 98 of 1910	ark-3-1-3Q9M-CSJY-DSWM-M	
+/south-africa/	And the man himself is described by the state. “1847/50/754 — Robert P	1	1940 passport	own-passport	
+/south-africa/	Then the 1950 volume gave up the last of it. Nothing under LERENA had 	1	entry 327	ark-3-1-3Q9M-CSVY-JS18	
+/south-africa/	NAAIRS was 503 all day on 17 September 2026 - genuinely down, not bloc	1		exempt:a note on how the search tool or the viewer behaves; it cites no record a reader could be sent to	
+/south-africa/	Retry NAAIRS for the five names, and sweep KARON alongside LERENA. Not	1		exempt:a search planned and not yet made: there is no record yet to link to	
+/horses/	Union of South Africa death certificate A 214036	1	A 214036	plate-death-certificate-1950	
+/horses/	On the family's own chart that great-grandfather is Pablo Armando Lere	1	passport of 1940	own-passport	
+/horses/	And the same search found Luis Eugenio’s death — 24 December 1901, act	1	act 216	ark-3-1-3Q9M-CS2W-H67P	
+/horses/	San Francisco de Asís, Ciudad Vieja, Montevideo, folio 504, 31 October	1	folio 504	ark-3-1-3Q9M-C9BW-Z9RM-W	
+/horses/	The paternal grandparents are the couple named as Luis Eugenio’s paren	1	marriage act of 1864	ark-3-1-3Q9M-C9BW-N7DN-G	
+/hypotheses/	The test. The Montevideo notarial and succession records of 1896, and 	1	image 02853	film-8166435	
+/searched/	Everything read here until that morning began in 1879 — three years af	1	004530324	film-4530324	
+/searched/	It is where Juan Carlos Lerena’s own baptism would sit if he was born 	1	image 6	film-4530325	
+/method/	"Bautizo solemnemente ... a JUANA, que nacio el dia veinte y cinco de 	1	Bautizo solemnemente	ark-3-1-939D-G6VB-K	
+/argentina/	"Bautizo solemnemente ... a JUANA, que nacio el dia veinte y cinco de 	1	Bautizo solemnemente	ark-3-1-939D-G6VB-K	
+/roadmap/	Montevideo — Libros Castrenses: “del Regimiento de Infantería de Bueno	1	image 623	film-7713373	
+/roadmap/	Montevideo — Índices de bautismos, matrimonios y defunciones, 1726–180	1	images 300	film-7713386	
+/roadmap/	The regiment is named in the priest’s own hand, at image 655: “yo Don 	1	image 655	film-7713373	
+/roadmap/	And the book covers the month he married. Image 656 is headed Año 1790	1	Image 656	film-7713373	
+/roadmap/	The 1789–1791 window has since been read continuously — images 652 to 	1	images 652	film-7713373	
+/roadmap/	That is a negative over eleven images, not over the book, and it is a 	1	Images 663	film-7713373	
+/hypotheses/	7. The Llorens baptism	1		exempt:a contents-list entry that links to its own section of this page, where the record is cited and linked	
+/hypotheses/	That Pablo Armando descends from the Roberto Llorens and Francisca Fer	1		thumb:plate-baptism-llorens-1872	
+/searched/	The San Miguel baptisms of 1872 — Roberto Juan Roque Llorens, son of R	1		thumb:plate-baptism-llorens-1872	
+/method/	Both had been sitting on David’s own disk, photographed, since Novembe	1		thumb:plate-marriage-1911	
+/family-papers/	A death notice is filed for the Master. A death certificate is the civ	1		thumb:plate-death-certificate-1950	
+/family-papers/	Later annotations on the same entry: he married Rosalina Wilhelmina Ch	1		thumb:plate-marriage-roque-1936	
+/family-papers/	Newlands is where he died - No. 7 Forth Road. A photograph of the grav	1		thumb:plate-death-certificate-1950	
+/family-papers/	THEY DID NOT MARRY. His death notice of 28 March 1950 says "Widower", 	1		thumb:plate-death-notice-1950	
+/family-papers/	The 1911 marriage register gives her age as 27, which would need a bir	1		thumb:plate-marriage-1911	
+/family-papers/	Birth certificate A 042921 (abridged extract), entry 664/24, District 	1		thumb:plate-birth-certificate-nuno-1924	
+/family-papers/	THE FIRST THING IN THIS ARCHIVE THAT EXPLAINS WHY ROSE THEYS, 'NO RELA	1		thumb:plate-marist-1936-june-november	
+/family-papers/	Another set for the founding couple. Much of what David sent was alrea	1		thumb:plate-death-notice-1950	
+/family-papers/	Another set for the founding couple. Much of what David sent was alrea	1		thumb:plate-marriage-extract-1905-issued-1916	
+/family-papers/	Duplicate Original Marriage Register, no. 14/1936: Catholic Church, Ma	1		thumb:plate-marriage-roque-1936	
+/taylor/	Inferred That closes a puzzle this archive had already noticed. Roque'	1		thumb:plate-baptism-roque-1911	
+/taylor/	Set down plainly, because this archive sets things down plainly. It is	1		thumb:plate-death-certificate-1950	
+/taylor/	She left three grown sons — Roque, Ricardo and Nuno — and her husband 	1		thumb:plate-death-certificate-1950	
+/horses/	Union of South Africa death certificate A 214036	1		thumb:plate-death-certificate-1950	

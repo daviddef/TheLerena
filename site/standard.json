@@ -1,0 +1,445 @@
+{
+ "version": 1,
+ "scope": "main",
+ "include": [
+  "/uruguay/",
+  "/hypotheses/",
+  "/searched/",
+  "/method/",
+  "/family-papers/",
+  "/taylor/",
+  "/argentina/",
+  "/name/",
+  "/south-africa/",
+  "/roadmap/",
+  "/horses/"
+ ],
+ "exclude": [],
+ "new_page_max": 0,
+ "names": {
+  "entry_prefixes": [
+   "/people/",
+   "/who/"
+  ],
+  "read_blocks": [
+   ".cap",
+   "dd",
+   "figcaption"
+  ],
+  "stop_words": [
+   "Abuelos",
+   "Act",
+   "Acts",
+   "Also",
+   "And",
+   "Ano",
+   "Archive",
+   "Archivo",
+   "Are",
+   "Argentine",
+   "Arquidiocesis",
+   "Attached",
+   "Baptism",
+   "Baptisms",
+   "Baron",
+   "Being",
+   "Both",
+   "Bride",
+   "Burial",
+   "Burials",
+   "But",
+   "Capitan",
+   "Capt",
+   "Captain",
+   "Casado",
+   "Census",
+   "Child",
+   "Children",
+   "Christening",
+   "Civil",
+   "Con",
+   "Convento",
+   "Couple",
+   "Daughter",
+   "De",
+   "Dead",
+   "Death",
+   "Deaths",
+   "Died",
+   "Different",
+   "Dispensation",
+   "Dispensations",
+   "Doctor",
+   "Don",
+   "Dona",
+   "Doña",
+   "Dr",
+   "Elder",
+   "Emigrating",
+   "Estate",
+   "Exact",
+   "Excelentisimo",
+   "Family",
+   "Father",
+   "Film",
+   "Finada",
+   "Finados",
+   "Fits",
+   "Folio",
+   "Found",
+   "Fray",
+   "General",
+   "Groom",
+   "Her",
+   "Herself",
+   "Hija",
+   "Hijo",
+   "His",
+   "Husband",
+   "Iglesia",
+   "Image",
+   "Images",
+   "Is",
+   "Item",
+   "Its",
+   "Juez",
+   "Legitima",
+   "Legitimo",
+   "Ley",
+   "Libro",
+   "Line",
+   "Linea",
+   "Lines",
+   "Looked",
+   "Madre",
+   "Marriage",
+   "Marriages",
+   "Married",
+   "Maternos",
+   "Miss",
+   "Monsenor",
+   "Monseñor",
+   "Mother",
+   "Mr",
+   "Mrs",
+   "Name",
+   "Named",
+   "Names",
+   "Natural",
+   "Naturales",
+   "Neither",
+   "New",
+   "Not",
+   "Nuestra",
+   "Ocho",
+   "Older",
+   "Or",
+   "Oriental",
+   "Own",
+   "Padre",
+   "Padron",
+   "Padrones",
+   "Pairings",
+   "Paraguayan",
+   "Parents",
+   "Parroquia",
+   "Passport",
+   "Paternos",
+   "Paz",
+   "Plate",
+   "Presidente",
+   "Probably",
+   "Probate",
+   "Provincia",
+   "Read",
+   "Record",
+   "Recorded",
+   "Records",
+   "Registro",
+   "Rejistro",
+   "Relatives",
+   "Religious",
+   "Rev",
+   "Seccion",
+   "Senor",
+   "Senora",
+   "Settled",
+   "Sexta",
+   "Señor",
+   "Son",
+   "Spanish",
+   "Spouses",
+   "Stops",
+   "Su",
+   "Surname",
+   "Their",
+   "Three",
+   "Two",
+   "Uruguayan",
+   "Vicario",
+   "Viuda",
+   "Was",
+   "Were",
+   "Whether",
+   "Who",
+   "Widow",
+   "Wife",
+   "Witness",
+   "Witnesses",
+   "Woman",
+   "Younger"
+  ],
+  "not_names": [
+   "(?i)^(Santa|San|Santo|Sant|Santiago|Nuestra|Nuestro|Mount|Monte|Cape|Port|Fort|Lake|New|North|South|East|West|Great|Little|Saint|Holy|Our|Via|Calle|Plaza|Casa|Iglesia|Parroquia|Cathedral|Catedral|Castle|Street|St|Villa|Rio|Rio de|Buenos|Banda|Ciudad)\\b",
+   "(?i)\\b(Island|Street|Road|Church|Parish|Cathedral|Cemetery|Hospital|Ship|Line|Register|Registry|Archive|Archives|Census|Index|Commune|Departamento|Department|Province|Provincia|Republic|Republica|Uruguay|Argentina|Montevideo|Canelones|Cordon|Aguada|Uruguay|Buenos Aires|Africa|Cape Town|Devon|Cornwall|Bideford|Northam|Rosario|Santa Fe|FamilySearch|Ancestry|MyHeritage|National Archives|Index|Records|Collection|Dispensation|Dispensations|Guild|Society|Library|Museum|Council|Bank|Company|Club|Hotel)\\b",
+   "(?i)\\b(Las Piedras|Carmen la Mayor|San Jose de Mayo|de Flores|de Logrono|de Vicaria|de Residencia|de Policia|de Defunciones)\\b",
+   "(?i)^(Rio de la Plata|Roman Catholic|Villa del|Hipodromo|Estacion|Catastro|Historico|Archivo|Naturales|Quince|Octubre)\\b",
+   "(?i)\\b(Mal Abrigo|Jesus Maria|San Eugenio|Carmen la Mayor|Banda Oriental|Valdemoro|Lanzarote|Andalucia|Andalusia|Cordoba|Madrid|Rio de Janeiro|Entre Rios|La Union|La Paz)\\b"
+  ],
+  "given_names_file": "given.json",
+  "surname_words": [
+   "alerena",
+   "brayley",
+   "carmen",
+   "dolores",
+   "fernandez",
+   "gonzalez",
+   "larena",
+   "ledena",
+   "lenguas",
+   "lerena",
+   "lerenas",
+   "lerina",
+   "llerena",
+   "lorena",
+   "mercedes",
+   "pelaez",
+   "pilar",
+   "rosario",
+   "serena",
+   "taylor",
+   "trinidad"
+  ]
+ },
+ "citations": {
+  "blocks": [
+   "p",
+   "li",
+   "dd",
+   "blockquote",
+   "figcaption",
+   "td",
+   "dt"
+  ],
+  "patterns": [
+   {
+    "id": "ark",
+    "regex": "\\b[13]:1:[0-9A-Z]{4}-[0-9A-Z]{3,4}(?:-[0-9A-Z]{3,4}){0,2}(?:-[0-9A-Z]{1,4})?"
+   },
+   {
+    "id": "fs-url",
+    "regex": "familysearch\\.org/ark:"
+   },
+   {
+    "id": "image",
+    "flags": "i",
+    "regex": "\\b(?:images?|img|frames?)\\s+(?:no\\.?\\s*)?\\d+"
+   },
+   {
+    "id": "film",
+    "flags": "i",
+    "regex": "\\b(?:film|DGS|microfilm)\\s*(?:no\\.?\\s*)?\\d{4,}"
+   },
+   {
+    "id": "libro",
+    "flags": "i",
+    "regex": "\\blibro\\s+\\d+"
+   },
+   {
+    "id": "folio",
+    "flags": "i",
+    "regex": "\\b(?:folio|fol\\.|foja|fs\\.)\\s*\\d+"
+   },
+   {
+    "id": "dispensation",
+    "flags": "i",
+    "regex": "\\bdispensation\\s+(?:no\\.?\\s*)?\\d+(?:\\s+of\\s+\\d{4})?|\\bNo\\.?\\s*\\d+\\s+of\\s+\\d{4}"
+   },
+   {
+    "id": "act",
+    "flags": "i",
+    "regex": "(?<!Estates )(?<!under )\\b(?:acta|partida|act|entry)\\s+(?:no\\.?\\s*)?\\d+(?:\\s+of\\s+(?P<y>\\d{4}))?"
+   },
+   {
+    "id": "register",
+    "flags": "i",
+    "regex": "\\bReligious\\s+(?:Baptism|Marriage|Death|Burial)\\s+Records\\s+\\d{4}"
+   },
+   {
+    "id": "dispensation-reg",
+    "flags": "i",
+    "regex": "\\bMarriage\\s+Dispensation\\s+Records\\s+\\d{4}"
+   },
+   {
+    "id": "padron",
+    "flags": "i",
+    "regex": "\\bpadr[oó]n(?:es)?\\s+(?:de\\s+habitantes\\s+)?(?:of\\s+)?(?:18|19)\\d\\d|\\b(?:18|19)\\d\\d\\s+padr[oó]n"
+   },
+   {
+    "id": "census",
+    "flags": "i",
+    "regex": "\\b(?:18|19)\\d\\d\\s+census\\b|\\bcensus\\s+of\\s+(?:18|19)\\d\\d\\b"
+   },
+   {
+    "id": "naairs",
+    "flags": "i",
+    "regex": "\\bNAAIRS\\b|\\bMOOC\\s*\\d"
+   },
+   {
+    "id": "tna",
+    "regex": "\\b(?:BT|WO|HO|ADM|RG|PROB|ASSI|IR)\\s*\\d+/\\d+"
+   },
+   {
+    "id": "manifest",
+    "flags": "i",
+    "regex": "\\b(?:passenger list|crew list|manifest)\\b"
+   },
+   {
+    "id": "passport",
+    "flags": "i",
+    "regex": "\\bpassport\\s+(?:of\\s+)?(?:18|19)\\d\\d|\\b(?:18|19)\\d\\d\\s+passport\\b"
+   },
+   {
+    "id": "baptism-of",
+    "flags": "i",
+    "regex": "\\b(?:baptism|marriage|burial|death)\\s+(?:act|certificate|record)\\s+of\\s+(?:\\d+\\s+\\w+\\s+)?\\d{4}"
+   },
+   {
+    "id": "scan-marriage-1911",
+    "flags": "i",
+    "regex": "\\b(?:1911 marriage (?:register|certificate|act)|marriage register[^.<]{0,60}3 September 1911|3 September 1911 (?:marriage|wedding))",
+    "key": "marriage 1911"
+   },
+   {
+    "id": "scan-death-cert-1950",
+    "flags": "i",
+    "regex": "\\b(?:1950 death certificate|death certificate[^.<]{0,40}1950|A 214036)",
+    "key": "death certificate 1950"
+   },
+   {
+    "id": "scan-death-notice-1950",
+    "flags": "i",
+    "regex": "\\b(?:1950 death notice|death notice[^.<]{0,40}1950|28 March 1950 notice)",
+    "key": "death notice 1950"
+   },
+   {
+    "id": "scan-baptism-roque-1911",
+    "flags": "i",
+    "regex": "\\bRoque[^.<]{0,60}bapti[sz]m[^.<]{0,40}1911|bapti[sz]m[^.<]{0,40}12 June 1911|12 June 1911 bapti[sz]m",
+    "key": "baptism roque 1911"
+   },
+   {
+    "id": "scan-baptism-nuno-1924",
+    "flags": "i",
+    "regex": "\\b16 November 1924 bapti[sz]m|bapti[sz]m[^.<]{0,40}16 November 1924",
+    "key": "baptism nuno 1924"
+   },
+   {
+    "id": "scan-llorens-1872",
+    "flags": "i",
+    "regex": "\\bLlorens[^.<]{0,60}bapti[sz]m|bapti[sz]m[^.<]{0,60}Llorens",
+    "key": "baptism llorens 1872"
+   },
+   {
+    "id": "scan-extract-1905",
+    "flags": "i",
+    "regex": "\\b1905 extract|St Dominic.s extract|extract[^.<]{0,40}1905",
+    "key": "marriage extract 1905 issued 1916"
+   },
+   {
+    "id": "scan-marriage-roque-1936",
+    "flags": "i",
+    "regex": "\\b21 September 1936",
+    "key": "marriage roque 1936"
+   },
+   {
+    "id": "scan-marist-1936",
+    "flags": "i",
+    "regex": "\\bMarist testimonials?",
+    "key": "marist 1936 june november"
+   },
+   {
+    "id": "scan-birth-cert-nuno-1924",
+    "flags": "i",
+    "regex": "\\b664/24",
+    "key": "birth certificate nuno 1924"
+   }
+  ],
+  "record_links": {
+   "prefixes": [
+    "/sources/",
+    "/docs/",
+    "/passport/",
+    "/estate/",
+    "/naairs/",
+    "/national-archives/",
+    "/enrolment-card/"
+   ],
+   "hosts": [
+    "familysearch.org",
+    "familyhistory.bdm.qld.gov.au",
+    "graveswcape.eggsa.org",
+    "nationalarchives.gov.uk",
+    "naa.gov.au"
+   ],
+   "url_contains": [],
+   "fragments": [
+    "#doc-",
+    "#plate-"
+   ]
+  },
+  "next_block_max_chars": 240
+ },
+ "scans": {
+  "image_patterns": [
+   {
+    "regex": "/docs/(?P<k>[a-z0-9-]+)\\.(?:jpg|jpeg|png|webp)",
+    "key": "{k}"
+   }
+  ],
+  "aliases": {
+   "marist 1936 october": "marist 1936 june november"
+  },
+  "link_only": [
+   "ark",
+   "fs-url",
+   "image",
+   "film",
+   "libro",
+   "folio",
+   "dispensation",
+   "act",
+   "register",
+   "dispensation-reg",
+   "padron",
+   "census",
+   "naairs",
+   "tna",
+   "manifest",
+   "passport",
+   "baptism-of"
+  ],
+  "held_keys_file": null
+ },
+ "allow_prefixes": [
+  "/people/",
+  "/who/"
+ ],
+ "tables": "records",
+ "_reasons": {
+  "/dna/ out of scope": "The DNA page names testers and matches, and the estate rule holds the tester out; its names are not claims about people read from records. It is outside the standard until David rules otherwise.",
+  "tables: records": "Lerena puts its record readings in tables (the ledger on /searched/, the household rows on /uruguay/, the document list on /family-papers/): a cell is data about a record, not a sentence about a person, so names in cells are not read for L2 and L5 but a cell that cites a record must link it (L3).",
+  "citations.patterns.act": "Excludes a statute (the Administration of Estates Act 1965, Act 81 of 1963), which is not an act of a register.",
+  "/searched/ negative searches": "Rows that record a search which found nothing are not exempted by pattern: each is either linked to the register it read or left counted; a passage that cites no record at all carries data-cite-exempt with its reason (data/record-links.tsv)."
+ }
+}

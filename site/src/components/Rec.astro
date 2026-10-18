@@ -1,0 +1,16 @@
+---
+/* The archive's own wrapper for the kit's Rec (the linking standard, L3 and L4): it imports the records table once, so a page writes
+ *
+ *   <Rec id="film-7499042">film 007499042</Rec>
+ *   <Rec id="plate-marriage-1911" thumb>the 1911 marriage register</Rec>   (a figure: between paragraphs, not inside one)
+ *
+ * The table is src/data/records.json, which tools/build-records.py makes from the archive's own committed data (the arks it prints,
+ * the films it cites, the family papers it publishes). Plates live in /docs/. The narrative pages mostly get their record links from
+ * tools/link-records.py, which draws the same tag from the same table after the build; use this component for a passage you write
+ * by hand and want to link yourself. See kit/docs/linking-standard.md for what the component draws and refuses.
+ */
+import Rec from "@daviddef/archive-kit/components/Rec.astro";
+import records from "../data/records.json";
+const { plateBase = "/docs/", ...rest } = Astro.props;
+---
+{Astro.slots.has("default") ? <Rec records={records} plateBase={plateBase} {...rest}><slot /></Rec> : <Rec records={records} plateBase={plateBase} {...rest} />}

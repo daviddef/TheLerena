@@ -1,0 +1,201 @@
+{
+ "_why": [
+  "The records table's word on the scans this archive may show (tools/build-records.py reads it).",
+  "A plate is `show: true` only if /family-papers/ already publishes it under that page's own rule (every person named on it is dead).",
+  "FamilySearch plates are never held here (the archive cites them by ark and reads them in the viewer): link only.",
+  "TNA downloads are never republished (cite the reference). Matricula-style or third-party images: link only.",
+  "The `hold` list is what the archive holds and will not show, so no row is ever made for it."
+ ],
+ "plates": [
+  {
+   "file": "marriage-1911.jpg",
+   "id": "plate-marriage-1911",
+   "label": "The marriage register, Wynberg, 3 September 1911",
+   "w": 1500,
+   "h": 978,
+   "show": true,
+   "basis": "published today on /family-papers/, whose rule is that every person named on a document it shows is dead"
+  },
+  {
+   "file": "death-notice-1950.jpg",
+   "id": "plate-death-notice-1950",
+   "label": "The death notice, 28 March 1950",
+   "w": 1125,
+   "h": 1500,
+   "show": true,
+   "basis": "published today on /family-papers/, whose rule is that every person named on a document it shows is dead"
+  },
+  {
+   "file": "death-certificate-1950.jpg",
+   "id": "plate-death-certificate-1950",
+   "label": "The death certificate, A 214036",
+   "w": 1500,
+   "h": 836,
+   "show": true,
+   "basis": "published today on /family-papers/, whose rule is that every person named on a document it shows is dead"
+  },
+  {
+   "file": "baptism-roque-1911.jpg",
+   "id": "plate-baptism-roque-1911",
+   "label": "Roque Luis Armando, baptised 12 June 1911",
+   "w": 1800,
+   "h": 1612,
+   "show": true,
+   "basis": "published today on /family-papers/, whose rule is that every person named on a document it shows is dead"
+  },
+  {
+   "file": "baptism-nuno-1924.jpg",
+   "id": "plate-baptism-nuno-1924",
+   "label": "Nuno Fernando, baptised 16 November 1924",
+   "w": 2400,
+   "h": 337,
+   "show": true,
+   "basis": "published today on /family-papers/, whose rule is that every person named on a document it shows is dead"
+  },
+  {
+   "file": "identity-card-nuno-1958.jpg",
+   "id": "plate-identity-card-nuno-1958",
+   "label": "Nuno Fernando’s identity card, Pretoria, 1 September 1958",
+   "w": 397,
+   "h": 283,
+   "show": true,
+   "basis": "published today on /family-papers/, whose rule is that every person named on a document it shows is dead"
+  },
+  {
+   "file": "birth-certificate-nuno-1924.jpg",
+   "id": "plate-birth-certificate-nuno-1924",
+   "label": "Nuno Fernando’s birth certificate, entry 664/24, Wynberg",
+   "w": 903,
+   "h": 1100,
+   "show": true,
+   "basis": "published today on /family-papers/, whose rule is that every person named on a document it shows is dead"
+  },
+  {
+   "file": "marriage-certificate-nuno-1949.jpg",
+   "id": "plate-marriage-certificate-nuno-1949",
+   "label": "Nuno Fernando’s marriage, Johannesburg, 15 January 1949",
+   "w": 590,
+   "h": 1400,
+   "show": true,
+   "basis": "published today on /family-papers/, whose rule is that every person named on a document it shows is dead"
+  },
+  {
+   "file": "death-certificate-nuno-1971.jpg",
+   "id": "plate-death-certificate-nuno-1971",
+   "label": "Nuno Fernando’s death certificate, Germiston, 1 July 1971",
+   "w": 768,
+   "h": 1024,
+   "show": true,
+   "basis": "published today on /family-papers/, whose rule is that every person named on a document it shows is dead"
+  },
+  {
+   "file": "gravestone-nuno-1971.jpg",
+   "id": "plate-gravestone-nuno-1971",
+   "label": "The headstone: Nuno Fernando (Larry), 6.10.1924 – 1.7.1971",
+   "w": 768,
+   "h": 1024,
+   "show": true,
+   "basis": "published today on /family-papers/, whose rule is that every person named on a document it shows is dead"
+  },
+  {
+   "file": "wedding-invitation-nuno-1949.jpg",
+   "id": "plate-wedding-invitation-nuno-1949",
+   "label": "Nuno Fernando’s wedding invitation, 15 January 1949",
+   "w": 998,
+   "h": 788,
+   "show": true,
+   "basis": "published today on /family-papers/, whose rule is that every person named on a document it shows is dead"
+  },
+  {
+   "file": "saaf-notice-larry-1971.jpg",
+   "id": "plate-saaf-notice-larry-1971",
+   "label": "“Larry … Remembered by 12th Squadron, S.A.A.F.”, 1971",
+   "w": 591,
+   "h": 230,
+   "show": true,
+   "basis": "published today on /family-papers/, whose rule is that every person named on a document it shows is dead"
+  },
+  {
+   "file": "marriage-extract-1905-issued-1916.jpg",
+   "id": "plate-marriage-extract-1905-issued-1916",
+   "label": "The St Dominic’s extract that says 1905",
+   "w": 960,
+   "h": 1280,
+   "show": true,
+   "basis": "published today on /family-papers/, whose rule is that every person named on a document it shows is dead"
+  },
+  {
+   "file": "marriage-church-register-signatures.jpg",
+   "id": "plate-marriage-church-register-signatures",
+   "label": "A church marriage register: the couple and ‘Ebenezer Road, Wynberg’",
+   "w": 1100,
+   "h": 825,
+   "show": true,
+   "basis": "published today on /family-papers/, whose rule is that every person named on a document it shows is dead"
+  },
+  {
+   "file": "marriage-roque-1936.jpg",
+   "id": "plate-marriage-roque-1936",
+   "label": "Roque’s marriage, Mayfair, Johannesburg, 21 September 1936",
+   "w": 1006,
+   "h": 780,
+   "show": true,
+   "basis": "published today on /family-papers/, whose rule is that every person named on a document it shows is dead"
+  },
+  {
+   "file": "mary-septima-colourised-c1890.jpg",
+   "id": "plate-mary-septima-colourised-c1890",
+   "label": "Mary Septima as a small girl (colourised)",
+   "w": 593,
+   "h": 1294,
+   "show": true,
+   "basis": "published today on /family-papers/, whose rule is that every person named on a document it shows is dead"
+  },
+  {
+   "file": "taylor-group-c1890.jpg",
+   "id": "plate-taylor-group-c1890",
+   "label": "The Taylor family group, about 1889–1891",
+   "w": 1800,
+   "h": 1367,
+   "show": true,
+   "basis": "published today on /family-papers/, whose rule is that every person named on a document it shows is dead"
+  },
+  {
+   "file": "marist-1936-june-november.jpg",
+   "id": "plate-marist-1936-june-november",
+   "label": "Two Marist testimonials, June and November 1936",
+   "w": 600,
+   "h": 800,
+   "show": true,
+   "basis": "published today on /family-papers/, whose rule is that every person named on a document it shows is dead"
+  },
+  {
+   "file": "marist-1936-october.jpg",
+   "id": "plate-marist-1936-october",
+   "label": "The October testimonial, 1 October 1936",
+   "w": 600,
+   "h": 800,
+   "show": true,
+   "basis": "published today on /family-papers/, whose rule is that every person named on a document it shows is dead"
+  },
+  {
+   "file": "baptism-llorens-1872.jpg",
+   "id": "plate-baptism-llorens-1872",
+   "label": "The Buenos Aires candidate — not this family",
+   "w": 1500,
+   "h": 1087,
+   "show": true,
+   "basis": "published today on /family-papers/, whose rule is that every person named on a document it shows is dead"
+  }
+ ],
+ "hold": [
+  {
+   "record": "death-notice-1971",
+   "reason": "names living children with their birth dates; /family-papers/ says the 1971 and 1973 death notices are deliberately not shown"
+  },
+  {
+   "record": "death-notice-1973",
+   "reason": "names living children with their birth dates; /family-papers/ says the 1971 and 1973 death notices are deliberately not shown"
+  }
+ ]
+}

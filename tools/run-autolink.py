@@ -6,6 +6,8 @@
     python3 tools/run-autolink.py --write-floor   lock the current counts in as the ceiling (refuses while anything rose)
     python3 tools/run-autolink.py --check         change nothing; exit 1 if a run would
     python3 tools/run-autolink.py --index-only    write site/src/data/names-index.json and the living list, run nothing else
+    python3 tools/run-autolink.py --standard      the kit's checkstandard.py (the linking standard) against site/.standardfloor.json
+    python3 tools/run-autolink.py --write-standard-floor   lock the standard's counts in as the ceiling (refuses while anything rose)
 
 WHY (David, 18 October 2026: "why do so many names on our narrative pages have no link to their person page?"). The audit
 of the same day found 23 of 1,254 resolvable mentions linked on this archive's twelve longest pages (1.8%) and none of the
@@ -685,6 +687,8 @@ def main():
     ap.add_argument("--write-floor", action="store_true")
     ap.add_argument("--check", action="store_true")
     ap.add_argument("--index-only", action="store_true")
+    ap.add_argument("--standard", action="store_true", help="the kit's checkstandard.py against site/.standardfloor.json (the last step of the build)")
+    ap.add_argument("--write-standard-floor", action="store_true", help="lock the standard's current counts in (refuses while anything rose)")
     ap.add_argument("--dist", default="dist", help="relative to site/")
     a = ap.parse_args()
     if not (KIT / "autolink.py").exists():
@@ -705,6 +709,12 @@ def main():
     if a.index_only:
         return 0
     dist = SITE / a.dist
+    if a.standard or a.write_standard_floor:
+        cmd = [sys.executable, str(KIT / "checkstandard.py"), "--dist", str(dist), "--index", str(INDEX), "--config", str(SITE / "standard.json"),
+               "--living", str(living_path()), "--floor", str(SITE / ".standardfloor.json"), "--strict-config"]
+        if a.write_standard_floor:
+            cmd.append("--write-floor")
+        return subprocess.run(cmd, cwd=SITE).returncode
     common = ["--dist", str(dist), "--index", str(INDEX), "--living", str(living_path()),
               "--allow-prefix", "/people/", "--allow-prefix", "/who/"]
     if a.gate or a.write_floor:

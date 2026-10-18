@@ -906,3 +906,12 @@ body .tl-ours.tl-ours.tl-ours{font-size:11px}
 /* THE BOOK (17 October 2026). The kit's running head, foot, Contents and part openers read these tokens; they all exist above.
    The only thing to set is the width, so the book's head and foot sit in the same column as the page. */
 :root{--bk-width:var(--maxw)}
+
+/* THE LINKING STANDARD (18 October 2026): a citation links to its record (a.lk-rec, written by tools/link-records.py from
+   src/data/records.json, or by the kit's Rec component), and a scan the archive may show sits beside the passage that relies on
+   it (figure.rec-fig). The link looks like any other link in the prose; the thumbnail is small and keeps its caption. */
+a.lk-rec{text-decoration-style:dotted;text-underline-offset:2px}
+.rec-fig{margin:.75rem 0;max-width:14rem}
+.rec-fig img{display:block;width:100%;height:auto;border:1px solid var(--rule,#d8d2c6);background:#fff;border-radius:3px}
+.rec-fig figcaption{font-size:.85em;margin-top:.25rem;line-height:1.35}
+td .rec-fig,dd .rec-fig{max-width:11rem}
