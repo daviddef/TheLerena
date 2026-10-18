@@ -5,6 +5,11 @@
    "date": "2026-10-18",
    "commits": [
     {
+     "sha": "b50767c",
+     "subject": "Pedro Antonio Lerena confirmed by the Vicario's own register; a third Pedro A. Lerena household (wife Trinidad Morales) at the Cordon, 1862-63",
+     "body": "The clerk's register of dispensations, entry no. 422 under Junio de 1861, reads 'El ocho de Junio de mil ochocientos sesenta y uno, S.S. dispenso a Don Pedro\nAntonio Lerena dos conciliares proclamas ... con Da. Teresa Leonard, parroquiana de la Matriz', which confirms the day and writes out the petition's 'A.'.\nA full-text query rebuilt from those spellings also returned the Cordon christening of 8 February 1863 of Amelia, born 2 May 1862, to 'D. Pedro A. Lerena\ny Da. Trinidad Morales, orientales', with a godmother Amelia LERENA (the index says Serena). He cannot be Teresa's husband; Pedro Lerena Vega is the best\ncandidate and is not merged. The 1871 Cordon death entry of a nine-year-old Amelia Lerena is cross-linked as a candidate for the same girl."
+    },
+    {
      "sha": "e3326ac",
      "subject": "Teresa Leonard and Pedro A. Lerena's marriage dispensation, June 1861: found by full-text search, read at the plate",
      "body": "Expediente no. 422 (Libro de Dispensas, f. 110): 'Don Pedro A. Lerena ... habiendo concertado contraer matrimonio ... con Dona Teresa Leonard,\nparroquiana de la Matriz', asking dispensation of two of the three banns because the bride's mother had gone to the country to nurse a sick\ndaughter; granted 8 June 1861. New: the marriage date (June 1861 or soon after) and a sister of Teresa. Not new: Pedro's parentage, and the marriage\nact itself is still not found. The log also corrects the last three rounds: the full-text 'Something Went Wrong' was my own fullTextCountry URL\nparameter; the working place filter and a note on OR-query blowups are recorded."
