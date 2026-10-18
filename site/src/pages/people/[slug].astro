@@ -49,7 +49,8 @@ const townCountry = [p.town, p.country].filter(Boolean).join(", ");
    «Where found» is the search that produced the person, with no date. The year is the Born row's, and only where it is a plain one
    («1882-02-22», «1832»): «c.1815» and «1842c» give none. A bare year is often an estimate worked back from an age, so lib/eraYear.js takes
    it only where no era boundary of the region lies within 5 years of it. The library also gives none for a year on an era's edge (it
-   words that one «From that year»), an approximate, contested or refused era, a place within 15 km of its ring's edge, or no region. */
+   words that one «From that year»), a refused era (an approximate or contested one is used only for a year well inside it: kit rule l), a year within the
+   reach of an era's bounds, a place within 15 km of its ring's edge with no agreeing neighbour region, or no region. */
 const noNotes = living || !!p.noindex;
 const bornEra = noNotes || !p.birthplace || p.birthplace === "-" ? null : birthEra(eraSnapshot, p.birthplace, p.born);
 

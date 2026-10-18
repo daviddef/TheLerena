@@ -5,7 +5,7 @@ The kit's gate (checkera.py) holds each note it finds to the snapshot. It cannot
 archive does not trust, because that depends on what this archive prints. This re-derives, from site/src/data/people.json and the committed snapshot
 alone, the note each page should carry (the Born row beside the Birthplace row, only for a person who is neither living nor noindex, only for a
 plain year, a bare year only where no era boundary of the region lies within ESTIMATE_YEARS of it: the same rule as site/src/lib/eraYear.js,
-written again here) and compares it with the built page: the era id, the year, the boundary wording. A note on a page that should have none, a
+written again here) and compares it with the built page: the era id, the year, the boundary wording and the marks the kit puts on a note. A note on a page that should have none, a
 missing note and a differing note each fail. It prints COUNTS ONLY: never a person, a place or a date. Zero pages examined, or an archive with no
 note at all, is exit 2, not a pass.
 
@@ -94,8 +94,13 @@ def main():
             if got:
                 bad += 1
             continue
+        # the era, the year, the boundary wording, and the marks the kit puts on a note (data-era-assessed "1"/"0", and data-era-approx,
+        # -contested, -margin-unsourced, -edge-agree: "1" or absent), each the same as the snapshot says of the era
+        marks = ("data-era-approx", "approx"), ("data-era-contested", "contested"), ("data-era-margin-unsourced", "unsourced"), \
+                ("data-era-edge-agree", "edgeAgree"), ("data-era-boundary", "boundary")
         if len(got) != 1 or got[0].get("data-era") != era["id"] or got[0].get("data-era-year") != str(era["year"]) \
-                or (got[0].get("data-era-boundary") == "1") != (era["boundary"] is True):
+                or got[0].get("data-era-assessed") != ("0" if era["unassessed"] else "1") \
+                or any((got[0].get(attr) == "1") != (era.get(key) is True) for attr, key in marks):
             bad += 1
     if pages == 0:
         print("  --    era-expect  not run: no person page found in %s" % dist)

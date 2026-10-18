@@ -1,4 +1,4 @@
-# Which Record Atlas region (the contract's `regions`, rings in the Atlas's data/regions.json) each BIRTHPLACE this archive prints on a person's page
+# Which Record Atlas region (the contract's `regions`, rings in the contract itself) each BIRTHPLACE this archive prints on a person's page
 # belongs to, for the 'at the time' notes (site/src/pages/people/[slug].astro, kit/docs/era-notes.md). One row per place string AS PRINTED in the
 # Birthplace row of a person who is not living and not noindex (the page offers a dated place-event nowhere else: a death has no place on the page,
 # and a 'where found' is the search that produced the person, with no date). A region of '-' means: looked at, and no Atlas region covers it (or

@@ -1,38 +1,61 @@
 {
  "atlas": {
   "base": "https://recordatlas.org",
-  "rings_sha256": "da1972abcb8b3fee942ad2e123dd9151a3e499a7647a597a9ad96f519e80b338"
+  "rings_sha256": null,
+  "rings_source": "contract"
  },
  "built": "2026-10-18",
  "contract": {
   "generated": "2026-10-18",
   "name": "recordatlas-context",
-  "sha256": "894aa556ba590f37af42b70b7b22c27671d0f7c401a67036bf77cf36d8b444a2",
-  "version": "1.8.0"
+  "sha256": "e649c1c925dbf4da9f54c1ebadf1a10c7c7da45d3d7512b42c7bf3405e7772e3",
+  "version": "1.12.0"
  },
  "dropped": [
   {
    "from": 1580,
    "id": "buenos-aires--era-1580",
-   "reason": "marked approximate (true)",
+   "reason": "a bound whose margin is unknowable (null) or not a whole number of years",
    "region": "buenos-aires",
    "to": 1776
   },
   {
-   "from": 1726,
-   "id": "uruguay--era-1726",
-   "reason": "marked approximate (true)",
-   "region": "uruguay",
-   "to": 1811
+   "from": 1810,
+   "id": "santafe--era-1810",
+   "reason": "contested about its regime or a part, not its bounds only (contestedScope)",
+   "region": "santafe",
+   "to": 1889
+  },
+  {
+   "from": 1889,
+   "id": "santafe--era-1889",
+   "reason": "a bound whose margin is unknowable (null) or not a whole number of years",
+   "region": "santafe",
+   "to": null
+  },
+  {
+   "from": 1553,
+   "id": "scotland--era-1553",
+   "reason": "a bound whose margin is unknowable (null) or not a whole number of years",
+   "region": "scotland",
+   "to": 1855
+  },
+  {
+   "from": 1855,
+   "id": "scotland--era-1855",
+   "reason": "a bound whose margin is unknowable (null) or not a whole number of years",
+   "region": "scotland",
+   "to": null
   },
   {
    "from": 1811,
    "id": "uruguay--era-1811",
-   "reason": "marked contested (true)",
+   "reason": "contested about its regime or a part, not its bounds only (contestedScope)",
    "region": "uruguay",
    "to": 1816
   }
  ],
+ "edge_neighbours": {},
  "places": {
   "artigas uruguay": "uruguay",
   "bideford devon": "england",
@@ -91,8 +114,13 @@
   "montevideo uruguay": "edge"
  },
  "policy": {
+  "approx": "margin",
   "boundary": "newer",
+  "contested": "scope",
+  "edge": "agree",
   "edge_km": 15,
+  "margin_years": 5,
+  "margins": {},
   "recent_from": 1990,
   "unassessed": "allow"
  },
@@ -108,379 +136,612 @@
   "buenos-aires": [
    {
     "approx": false,
+    "assessed": true,
     "basis": "not-recorded",
     "contested": false,
+    "contested_scope": "none",
     "from": 1776,
+    "from_margin": 1,
     "id": "buenos-aires--era-1776",
     "label": "Spanish Empire",
+    "margin_ok": {
+     "first": 1787,
+     "kind": "margin",
+     "last": 1798
+    },
+    "margin_sourced": false,
+    "margin_src": "contract",
     "polity": "Viceroyalty of the Río de la Plata",
     "present": false,
     "regime": "spain",
     "seeded_from_archive": false,
     "to": 1810,
-    "url": "/region/buenos-aires/#era-1776"
+    "to_margin": 6,
+    "url": "/region/buenos-aires/#era-1776",
+    "why": null
    },
    {
     "approx": false,
+    "assessed": true,
     "basis": "not-recorded",
     "contested": false,
+    "contested_scope": "none",
     "from": 1810,
+    "from_margin": 6,
     "id": "buenos-aires--era-1810",
     "label": "Argentina",
+    "margin_ok": {
+     "first": 1817,
+     "kind": "margin",
+     "last": 1846
+    },
+    "margin_sourced": true,
+    "margin_src": "contract",
     "polity": "United Provinces, then the Argentine Confederation under Rosas",
     "present": false,
     "regime": "argentina",
     "seeded_from_archive": false,
     "to": 1852,
-    "url": "/region/buenos-aires/#era-1810"
+    "to_margin": 0,
+    "url": "/region/buenos-aires/#era-1810",
+    "why": null
    },
    {
     "approx": false,
+    "assessed": true,
     "basis": "not-recorded",
     "contested": false,
+    "contested_scope": "none",
     "from": 1852,
+    "from_margin": 0,
     "id": "buenos-aires--era-1852",
     "label": "Argentina",
+    "margin_ok": {
+     "first": 1858,
+     "kind": "margin",
+     "last": 1855
+    },
+    "margin_sourced": true,
+    "margin_src": "contract",
     "polity": "State of Buenos Aires (secessionist)",
     "present": false,
     "regime": "argentina",
     "seeded_from_archive": false,
     "to": 1861,
-    "url": "/region/buenos-aires/#era-1852"
+    "to_margin": 2,
+    "url": "/region/buenos-aires/#era-1852",
+    "why": null
    },
    {
     "approx": false,
+    "assessed": true,
     "basis": "not-recorded",
     "contested": false,
+    "contested_scope": "none",
     "from": 1861,
+    "from_margin": 2,
     "id": "buenos-aires--era-1861",
     "label": "Argentina",
+    "margin_ok": {
+     "first": 1867,
+     "kind": "margin",
+     "last": null
+    },
+    "margin_sourced": true,
+    "margin_src": "contract",
     "polity": "Argentina — Province of Buenos Aires",
     "present": true,
     "regime": "argentina",
     "seeded_from_archive": false,
     "to": null,
-    "url": "/region/buenos-aires/#era-1861"
+    "to_margin": null,
+    "url": "/region/buenos-aires/#era-1861",
+    "why": null
    }
   ],
   "england": [
    {
-    "approx": null,
+    "approx": true,
+    "assessed": true,
     "basis": "not-recorded",
-    "contested": null,
+    "contested": false,
+    "contested_scope": "none",
     "from": 1538,
+    "from_margin": 0,
     "id": "england--era-1538",
     "label": "Britain and its colonies",
+    "margin_ok": {
+     "first": 1544,
+     "kind": "approx",
+     "last": 1831
+    },
+    "margin_sourced": true,
+    "margin_src": "contract",
     "polity": "England — the parish register",
     "present": false,
     "regime": "britain",
     "seeded_from_archive": false,
     "to": 1837,
-    "url": "/region/england/#era-1538"
+    "to_margin": 0,
+    "url": "/region/england/#era-1538",
+    "why": "Cromwell's injunction to keep registers is dated 5 Sept 1538 (Wikipedia), but a search found other sources giving 29 Sept 1538 for publication, compliance was uneven, and it was repeated in 1547 and reaffirmed in 1597; this is a record-keeping start, not a change of sovereignty. England under Henry VIII governed through Cromwell as Vicar General, no rival authority reported."
    },
    {
-    "approx": null,
+    "approx": false,
+    "assessed": true,
     "basis": "not-recorded",
-    "contested": null,
+    "contested": false,
+    "contested_scope": "none",
     "from": 1837,
+    "from_margin": 0,
     "id": "england--era-1837",
     "label": "Britain and its colonies",
+    "margin_ok": {
+     "first": 1843,
+     "kind": "margin",
+     "last": null
+    },
+    "margin_sourced": true,
+    "margin_src": "contract",
     "polity": "England and Wales — civil registration",
     "present": true,
     "regime": "britain",
     "seeded_from_archive": false,
     "to": null,
-    "url": "/region/england/#era-1837"
+    "to_margin": null,
+    "url": "/region/england/#era-1837",
+    "why": "Civil registration began 1 July 1837 (Wikipedia GRO; several family-history sites agree; one source cites 1 March 1837 as the Act's commencement, registration itself started 1 July). Registration became compulsory only in 1874/75 (Wikipedia says 1875, other sources the 1874 Act), which the era note already says. No rival authority."
    }
   ],
   "orange-free-state": [
    {
     "approx": false,
+    "assessed": true,
     "basis": "not-recorded",
     "contested": false,
+    "contested_scope": "none",
     "from": 1848,
+    "from_margin": 0,
     "id": "orange-free-state--era-1848",
     "label": "Britain and its colonies",
+    "margin_ok": {
+     "first": 1854,
+     "kind": "margin",
+     "last": 1848
+    },
+    "margin_sourced": true,
+    "margin_src": "contract",
     "polity": "Orange River Sovereignty",
     "present": false,
     "regime": "britain",
     "seeded_from_archive": false,
     "to": 1854,
-    "url": "/region/orange-free-state/#era-1848"
+    "to_margin": 0,
+    "url": "/region/orange-free-state/#era-1848",
+    "why": null
    },
    {
     "approx": false,
+    "assessed": true,
     "basis": "not-recorded",
     "contested": false,
+    "contested_scope": "none",
     "from": 1854,
+    "from_margin": 0,
     "id": "orange-free-state--era-1854",
     "label": "The Boer republics and the Voortrekker states",
+    "margin_ok": {
+     "first": 1860,
+     "kind": "margin",
+     "last": 1896
+    },
+    "margin_sourced": true,
+    "margin_src": "contract",
     "polity": "Orange Free State",
     "present": false,
     "regime": "boer",
     "seeded_from_archive": false,
     "to": 1902,
-    "url": "/region/orange-free-state/#era-1854"
+    "to_margin": 2,
+    "url": "/region/orange-free-state/#era-1854",
+    "why": null
    },
    {
     "approx": false,
+    "assessed": true,
     "basis": "not-recorded",
     "contested": false,
+    "contested_scope": "none",
     "from": 1902,
+    "from_margin": 2,
     "id": "orange-free-state--era-1902",
     "label": "Britain and its colonies",
+    "margin_ok": {
+     "first": 1908,
+     "kind": "margin",
+     "last": 1904
+    },
+    "margin_sourced": true,
+    "margin_src": "contract",
     "polity": "Orange River Colony",
     "present": false,
     "regime": "britain",
     "seeded_from_archive": false,
     "to": 1910,
-    "url": "/region/orange-free-state/#era-1902"
+    "to_margin": 0,
+    "url": "/region/orange-free-state/#era-1902",
+    "why": null
    },
    {
     "approx": false,
+    "assessed": true,
     "basis": "not-recorded",
     "contested": false,
+    "contested_scope": "none",
     "from": 1910,
+    "from_margin": 0,
     "id": "orange-free-state--era-1910",
     "label": "Britain and its colonies",
+    "margin_ok": {
+     "first": 1916,
+     "kind": "margin",
+     "last": 1955
+    },
+    "margin_sourced": true,
+    "margin_src": "contract",
     "polity": "Union of South Africa — Province of the Orange Free State",
     "present": false,
     "regime": "britain",
     "seeded_from_archive": false,
     "to": 1961,
-    "url": "/region/orange-free-state/#era-1910"
+    "to_margin": 0,
+    "url": "/region/orange-free-state/#era-1910",
+    "why": null
    },
    {
     "approx": false,
+    "assessed": true,
     "basis": "not-recorded",
     "contested": false,
+    "contested_scope": "none",
     "from": 1961,
+    "from_margin": 0,
     "id": "orange-free-state--era-1961",
     "label": "South Africa",
+    "margin_ok": {
+     "first": 1967,
+     "kind": "margin",
+     "last": null
+    },
+    "margin_sourced": true,
+    "margin_src": "contract",
     "polity": "South Africa — Free State",
     "present": true,
     "regime": "southafrica",
     "seeded_from_archive": false,
     "to": null,
-    "url": "/region/orange-free-state/#era-1961"
+    "to_margin": null,
+    "url": "/region/orange-free-state/#era-1961",
+    "why": null
    }
   ],
   "santafe": [
    {
-    "approx": null,
+    "approx": true,
+    "assessed": false,
     "basis": "not-recorded",
     "contested": null,
+    "contested_scope": null,
     "from": 1580,
+    "from_margin": 50,
     "id": "santafe--era-1580",
     "label": "Spanish Empire",
+    "margin_ok": {
+     "first": 1631,
+     "kind": "approx",
+     "last": 1803
+    },
+    "margin_sourced": true,
+    "margin_src": "contract",
     "polity": "Spanish Empire — Viceroyalty of the Río de la Plata",
     "present": false,
     "regime": "spain",
     "seeded_from_archive": false,
     "to": 1810,
-    "url": "/region/santafe/#era-1580"
-   },
-   {
-    "approx": null,
-    "basis": "not-recorded",
-    "contested": null,
-    "from": 1810,
-    "id": "santafe--era-1810",
-    "label": "Argentina",
-    "polity": "Argentina — the Republic",
-    "present": false,
-    "regime": "argentina",
-    "seeded_from_archive": false,
-    "to": 1889,
-    "url": "/region/santafe/#era-1810"
-   },
-   {
-    "approx": null,
-    "basis": "not-recorded",
-    "contested": null,
-    "from": 1889,
-    "id": "santafe--era-1889",
-    "label": "Argentina",
-    "polity": "Argentina — Province of Santa Fe",
-    "present": true,
-    "regime": "argentina",
-    "seeded_from_archive": false,
-    "to": null,
-    "url": "/region/santafe/#era-1889"
+    "to_margin": 6,
+    "url": "/region/santafe/#era-1580",
+    "why": "1580 is not an event: Santa Fe city was founded 15 Nov 1573 by Garay (Wikipedia, es.wikipedia). The 'Viceroyalty of the Rio de la Plata' did not exist until 1 Aug 1776; before that the land belonged to the Viceroyalty of Peru. No source found for conditions on the Rosario ground in 1580, so contested is left unassessed."
    }
   ],
-  "scotland": [
-   {
-    "approx": null,
-    "basis": "not-recorded",
-    "contested": null,
-    "from": 1553,
-    "id": "scotland--era-1553",
-    "label": "Scotland",
-    "polity": "Scotland — the Old Parish Registers",
-    "present": false,
-    "regime": "scotland",
-    "seeded_from_archive": false,
-    "to": 1855,
-    "url": "/region/scotland/#era-1553"
-   },
-   {
-    "approx": null,
-    "basis": "not-recorded",
-    "contested": null,
-    "from": 1855,
-    "id": "scotland--era-1855",
-    "label": "United Kingdom",
-    "polity": "United Kingdom — statutory registration",
-    "present": true,
-    "regime": "uk",
-    "seeded_from_archive": false,
-    "to": null,
-    "url": "/region/scotland/#era-1855"
-   }
-  ],
+  "scotland": [],
   "transvaal": [
    {
     "approx": false,
+    "assessed": true,
     "basis": "not-recorded",
     "contested": false,
+    "contested_scope": "none",
     "from": 1852,
+    "from_margin": 5,
     "id": "transvaal--era-1852",
     "label": "The Boer republics and the Voortrekker states",
+    "margin_ok": {
+     "first": 1863,
+     "kind": "margin",
+     "last": 1866
+    },
+    "margin_sourced": false,
+    "margin_src": "contract",
     "polity": "South African Republic (Transvaal)",
     "present": false,
     "regime": "boer",
     "seeded_from_archive": false,
     "to": 1877,
-    "url": "/region/transvaal/#era-1852"
+    "to_margin": 0,
+    "url": "/region/transvaal/#era-1852",
+    "why": null
    },
    {
     "approx": false,
+    "assessed": true,
     "basis": "not-recorded",
     "contested": false,
+    "contested_scope": "none",
     "from": 1877,
+    "from_margin": 0,
     "id": "transvaal--era-1877",
     "label": "Britain and its colonies",
+    "margin_ok": {
+     "first": 1883,
+     "kind": "margin",
+     "last": 1875
+    },
+    "margin_sourced": true,
+    "margin_src": "contract",
     "polity": "Transvaal — British annexation",
     "present": false,
     "regime": "britain",
     "seeded_from_archive": false,
     "to": 1881,
-    "url": "/region/transvaal/#era-1877"
+    "to_margin": 1,
+    "url": "/region/transvaal/#era-1877",
+    "why": null
    },
    {
     "approx": false,
+    "assessed": true,
     "basis": "not-recorded",
     "contested": false,
+    "contested_scope": "none",
     "from": 1881,
+    "from_margin": 1,
     "id": "transvaal--era-1881",
     "label": "The Boer republics and the Voortrekker states",
+    "margin_ok": {
+     "first": 1887,
+     "kind": "margin",
+     "last": 1896
+    },
+    "margin_sourced": true,
+    "margin_src": "contract",
     "polity": "South African Republic (Transvaal)",
     "present": false,
     "regime": "boer",
     "seeded_from_archive": false,
     "to": 1902,
-    "url": "/region/transvaal/#era-1881"
+    "to_margin": 2,
+    "url": "/region/transvaal/#era-1881",
+    "why": null
    },
    {
     "approx": false,
+    "assessed": true,
     "basis": "not-recorded",
     "contested": false,
+    "contested_scope": "none",
     "from": 1902,
+    "from_margin": 2,
     "id": "transvaal--era-1902",
     "label": "Britain and its colonies",
+    "margin_ok": {
+     "first": 1908,
+     "kind": "margin",
+     "last": 1904
+    },
+    "margin_sourced": true,
+    "margin_src": "contract",
     "polity": "Transvaal Colony",
     "present": false,
     "regime": "britain",
     "seeded_from_archive": false,
     "to": 1910,
-    "url": "/region/transvaal/#era-1902"
+    "to_margin": 0,
+    "url": "/region/transvaal/#era-1902",
+    "why": null
    },
    {
     "approx": false,
+    "assessed": true,
     "basis": "not-recorded",
     "contested": false,
+    "contested_scope": "none",
     "from": 1910,
+    "from_margin": 0,
     "id": "transvaal--era-1910",
     "label": "Britain and its colonies",
+    "margin_ok": {
+     "first": 1916,
+     "kind": "margin",
+     "last": 1955
+    },
+    "margin_sourced": true,
+    "margin_src": "contract",
     "polity": "Union of South Africa — Province of the Transvaal",
     "present": false,
     "regime": "britain",
     "seeded_from_archive": false,
     "to": 1961,
-    "url": "/region/transvaal/#era-1910"
+    "to_margin": 0,
+    "url": "/region/transvaal/#era-1910",
+    "why": null
    },
    {
     "approx": false,
+    "assessed": true,
     "basis": "not-recorded",
     "contested": false,
+    "contested_scope": "none",
     "from": 1961,
+    "from_margin": 0,
     "id": "transvaal--era-1961",
     "label": "South Africa",
+    "margin_ok": {
+     "first": 1967,
+     "kind": "margin",
+     "last": null
+    },
+    "margin_sourced": true,
+    "margin_src": "contract",
     "polity": "South Africa — the former Transvaal",
     "present": true,
     "regime": "southafrica",
     "seeded_from_archive": false,
     "to": null,
-    "url": "/region/transvaal/#era-1961"
+    "to_margin": null,
+    "url": "/region/transvaal/#era-1961",
+    "why": null
    }
   ],
   "uruguay": [
    {
-    "approx": false,
+    "approx": true,
+    "assessed": true,
     "basis": "not-recorded",
     "contested": false,
+    "contested_scope": "none",
+    "from": 1726,
+    "from_margin": 3,
+    "id": "uruguay--era-1726",
+    "label": "Spanish Empire",
+    "margin_ok": {
+     "first": 1737,
+     "kind": "approx",
+     "last": 1800
+    },
+    "margin_sourced": false,
+    "margin_src": "contract",
+    "polity": "Spanish Empire — the Banda Oriental",
+    "present": false,
+    "regime": "spain",
+    "seeded_from_archive": false,
+    "to": 1811,
+    "to_margin": 3,
+    "url": "/region/uruguay/#era-1726",
+    "why": "the founding of Montevideo, not a change of sovereignty"
+   },
+   {
+    "approx": false,
+    "assessed": true,
+    "basis": "not-recorded",
+    "contested": false,
+    "contested_scope": "none",
     "from": 1816,
+    "from_margin": 4,
     "id": "uruguay--era-1816",
     "label": "Portugal",
+    "margin_ok": {
+     "first": 1827,
+     "kind": "margin",
+     "last": 1811
+    },
+    "margin_sourced": false,
+    "margin_src": "contract",
     "polity": "Portuguese-Brazilian rule — Cisplatina province",
     "present": false,
     "regime": "portugal",
     "seeded_from_archive": false,
     "to": 1822,
-    "url": "/region/uruguay/#era-1816"
+    "to_margin": 2,
+    "url": "/region/uruguay/#era-1816",
+    "why": null
    },
    {
     "approx": false,
+    "assessed": true,
     "basis": "not-recorded",
     "contested": false,
+    "contested_scope": "none",
     "from": 1822,
+    "from_margin": 2,
     "id": "uruguay--era-1822",
     "label": "Brazil — the Empire",
+    "margin_ok": {
+     "first": 1828,
+     "kind": "margin",
+     "last": 1822
+    },
+    "margin_sourced": true,
+    "margin_src": "contract",
     "polity": "Empire of Brazil — Cisplatina province",
     "present": false,
     "regime": "brazil",
     "seeded_from_archive": false,
     "to": 1828,
-    "url": "/region/uruguay/#era-1822"
+    "to_margin": 3,
+    "url": "/region/uruguay/#era-1822",
+    "why": null
    },
    {
     "approx": false,
+    "assessed": true,
     "basis": "not-recorded",
     "contested": false,
+    "contested_scope": "none",
     "from": 1828,
+    "from_margin": 3,
     "id": "uruguay--era-1828",
     "label": "Uruguay",
+    "margin_ok": {
+     "first": 1839,
+     "kind": "margin",
+     "last": 1819
+    },
+    "margin_sourced": false,
+    "margin_src": "contract",
     "polity": "Independent buffer state (before the constitution)",
     "present": false,
     "regime": "uruguay",
     "seeded_from_archive": false,
     "to": 1830,
-    "url": "/region/uruguay/#era-1828"
+    "to_margin": 0,
+    "url": "/region/uruguay/#era-1828",
+    "why": null
    },
    {
     "approx": false,
+    "assessed": true,
     "basis": "not-recorded",
     "contested": false,
+    "contested_scope": "none",
     "from": 1830,
+    "from_margin": 0,
     "id": "uruguay--era-1830",
     "label": "Uruguay",
+    "margin_ok": {
+     "first": 1836,
+     "kind": "margin",
+     "last": null
+    },
+    "margin_sourced": true,
+    "margin_src": "contract",
     "polity": "Oriental Republic of Uruguay",
     "present": true,
     "regime": "uruguay",
     "seeded_from_archive": false,
     "to": null,
-    "url": "/region/uruguay/#era-1830"
+    "to_margin": null,
+    "url": "/region/uruguay/#era-1830",
+    "why": null
    }
   ]
  },
@@ -489,5 +750,5 @@
   "transvaal",
   "uruguay"
  ],
- "version": 2
+ "version": 4
 }

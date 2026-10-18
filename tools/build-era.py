@@ -9,10 +9,10 @@ neighbouring region's ring. This tool turns those rows into site/src/data/era-pl
     python3 tools/build-era.py                       write site/src/data/era-places.json
     python3 tools/build-era.py --check               build gate: the file is what the rows build, every birthplace of a non-living, indexed person
                                                      has a row, and no row is stale
-    python3 tools/build-era.py --snapshot <Record Atlas>/site/public/context.json --rings <Record Atlas>/data/regions.json
+    python3 tools/build-era.py --snapshot <a copy of the Record Atlas>/site/public/context.json
                                                      also rebuild site/src/data/era-snapshot.json from the Atlas's versioned contract (the
-                                                     deliberate refresh: nothing in a build ever reads the Atlas). The contract carries no rings;
-                                                     they come from the Atlas's regions.json.
+                                                     deliberate refresh: nothing in a build ever reads the Atlas). The rings and bboxes come from
+                                                     the contract itself (1.8.0 and later); there is no second file.
     python3 tools/build-era.py --living-urls         write the page paths the notes must never appear on (living, held-out and noindex people),
                                                      OUTSIDE the repository ($ERA_LIVING, or $XDG_STATE_HOME/lerena/era-living.json), for check:era
 
@@ -25,11 +25,15 @@ THE REGISTER'S born_est IS OFTEN AN ESTIMATE (a year worked back from an age on 
 it; a BARE YEAR is taken only where no era boundary of the region lies within ESTIMATE_YEARS of it (see site/src/lib/eraYear.js), so the note is true
 for any year the estimate could stand for. That is stricter than the kit, never looser.
 
-THE POLICY ON ERAS THE ATLAS HAS NOT ASSESSED. The contract (1.7.0) carries `contested` and `approx` as null on every region era: nobody has
-assessed them. The kit refuses such an era by default, which leaves no note at all, so this archive builds its snapshot with --unassessed allow
-(David approved allow for now), on the record: the snapshot's policy says so and the gate prints how many notes rest on an unassessed era. Dropping
-that flag below (then rebuilding) is the whole of going strict. --outside-ring refuse is this archive's own, stricter, choice: a place whose point
-is outside its own region's ring is silent.
+THE POLICY ON ERAS THE ATLAS HAS NOT ASSESSED. Some region eras of the contract still carry `contested` and `approx` as null (England, Scotland and
+Santa Fe here): nobody has assessed them. The kit refuses such an era by default, which leaves no note at all, so this archive builds its snapshot
+with --unassessed allow (David approved allow for now), on the record: the snapshot's policy says so, each note says which kind it rests on
+(data-era-assessed), and the gate prints how many notes rest on an unassessed era. Dropping that flag below (then rebuilding) is the whole of going
+strict. --outside-ring refuse is this archive's own, stricter, choice: a place whose point is outside its own region's ring is silent.
+
+THE KIT'S OWN POLICIES, left at their defaults and recorded in the snapshot (kit/docs/era-notes.md, rule l): --approx margin, --contested scope,
+--margin-years 5. An approximate or contested-about-its-bounds era is used only for a year more than max(5, the Atlas's margin) from each bound;
+the near-edge place keeps its note only where the region across the edge has the same regime (--edge agree, the default).
 """
 import argparse
 import json
@@ -148,7 +152,6 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("--check", action="store_true")
     ap.add_argument("--snapshot", default=None, help="a local copy of the Record Atlas's context.json (the versioned contract): also rebuild era-snapshot.json")
-    ap.add_argument("--rings", default=None, help="the Atlas's regions.json (data/regions.json in the Atlas repository), for the ring-edge rule")
     ap.add_argument("--report", default=None, help="with --snapshot: write per-region counts of eras refused, and why, to this JSON file")
     ap.add_argument("--living-path", action="store_true", help="print where --living-urls writes, and stop")
     ap.add_argument("--living-urls", action="store_true", help="write the living / held-out / noindex page paths (JSON list) outside the repository and stop")
@@ -202,10 +205,7 @@ def main():
         print("  WARNING %d birthplace(s) have no row in data/era-ground.tsv" % len(missing))
         return 1
     if a.snapshot:
-        if not a.rings:
-            print("  FAIL  era-ground  --snapshot needs --rings <the Atlas's regions.json>: the contract carries no rings")
-            return 2
-        cmd = [sys.executable, str(KIT_TOOLS / "erasnap.py"), "--contract", a.snapshot, "--rings", a.rings,
+        cmd = [sys.executable, str(KIT_TOOLS / "erasnap.py"), "--contract", a.snapshot,
                "--places", str(OUT), "--out", str(SNAP), "--unassessed", "allow", "--outside-ring", "refuse"]
         if a.report:
             cmd += ["--report", a.report]
