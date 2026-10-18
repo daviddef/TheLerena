@@ -5,6 +5,61 @@
    "date": "2026-10-18",
    "commits": [
     {
+     "sha": "db62c1d",
+     "subject": "Person pages: a quiet \"at the time\" note under the Birthplace row, from the Record Atlas's region eras (place table, towns and snapshot committed; gates check:era-ground, check:era and check:era-expect in the build chain)",
+     "body": "A bare birth year is taken only where no era boundary of the region lies within 5 years of it (the register's born_est is often an estimate); the snapshot is built from contract 1.8.0 with --unassessed allow and --outside-ring refuse."
+    },
+    {
+     "sha": "34d3a0f",
+     "subject": "Pin the kit to 772de52: the era notes read the Record Atlas's context contract (snapshot version 2)",
+     "body": ""
+    },
+    {
+     "sha": "70524ac",
+     "subject": "CLAUDE.md: the linking standard, its gate, the records table and the link-only rule",
+     "body": ""
+    },
+    {
+     "sha": "1cd02a2",
+     "subject": "Sampling the links: a name that starts a longer name, or is a given name and the family surname, goes to the people list; record labels; old roll numbers are not films",
+     "body": "- tools/run-autolink.py: a name that is the start of another person's longer name (Arturo Lerena / Arturo Lerena Garcia) or is a given name\n  and the family's own surname with nothing else (Juan Lerena, Socorro Lerena) is shared, not one person: it links to the people list\n  filtered on the name, like any shared name (126 entries). A sample of 150 links had found four wrong namesake links of exactly these two\n  kinds, all of them already live (the 1894 dispensation's Juan Lerena linked to a one-line row 'child of Felisa, arrived 1923')\n- tools/build-records.py: a number under 3,000,000 is an old microfilm roll number, never a DGS film (film 1091419 is DGS 4531018, and the\n  passage that wrote the old number is linked to the DGS by the archive's own mapping); data/record-labels.json gives the arks that\n  data/record-links.tsv links to a label that describes the record, where the data's own dossier title would mislead"
+    },
+    {
+     "sha": "4b3e66b",
+     "subject": "Five more people read from acts and certificates; the standard's gate no longer takes a register surname for a given name",
+     "body": "- data/lerena-register.tsv: Bartolome Munoz (the regiment's chaplain, 1793), Carlota Munoz (a godmother, 1865), and the bride of\n  Candido Jaime Lerena Juanico with her parents (certificate of 15 February 1922)\n- tools/run-autolink.py --standard builds the config it hands the kit from site/standard.json plus, with names.surname_words_from_register,\n  every word the register writes in capitals (its mark of a surname) as names.surname_words, so a person named Given SURNAME Surname\n  does not teach the gate that SURNAME is a given name; tools/build-given-names.py skips the same words\n- site/.standardfloor.json lowered to the new counts (L2 356, L5 590)"
+    },
+    {
+     "sha": "1bd7177",
+     "subject": "Citations link to their records, held scans sit beside the passage that cites them, and the linking standard's gate holds the numbers",
+     "body": "- site/src/data/records.json (tools/build-records.py): the records table, from data the archive commits (ark-to-film, film-register,\n  sources-consulted, person-evidence, the arks and films its data and pages print, data/record-plates.json for the 20 family papers\n  /family-papers/ publishes); the 1971 and 1973 death notices are held, no row; a FamilySearch plate is never held: link only\n- tools/link-records.py (after the names are linked): a DGS or film number in a passage becomes the link to that film or image;\n  data/record-links.tsv gives the exact words that become the link to a record, the passages that cite no record a reader could be\n  sent to (data-cite-exempt, with a reason) and the scan placed beside a passage; the markup is the kit's Rec (a.lk-rec, data-cite,\n  figure.rec-fig); src/components/Rec.astro is the archive's wrapper for authors\n- site/standard.json (eleven narrative pages; /dna/ out of scope; tables read as records), site/.standardfloor.json (counts only),\n  tools/build-given-names.py; npm run build ends with check:standard (run-autolink.py --standard); CI runs the kit's self-test of the gate"
+    },
+    {
+     "sha": "3d011d2",
+     "subject": "Names read from records get a page and the linker knows their spellings: 57 people from acts the archive read, a table of stated spellings, short forms and accent forms in the names index",
+     "body": "- data/lerena-register.tsv: 57 people named in acts the archive read (parents, witnesses, godparents, priests, officials), status\n  UNPLACED, each with the act and the data file; only people the living rule shows dead (every act is 1946 or earlier); none for\n  a name already in the register under another spelling, a rejected near-miss, or a reading the archive has corrected\n- data/names-aliases.tsv: 16 spellings the data states for a person (Treibel, Leonar, Cardoso...), each with its basis; read by\n  tools/run-autolink.py; declared in data/_not-on-site.txt\n- tools/run-autolink.py: the index also holds, for each person, the accent forms the archive's own text writes, and the short forms\n  its capital-letter convention marks (every given name and the first surname, never given name and surname alone); a bracket in a\n  register name is dropped; each alias is checked again by self_check; the guard also looks past a bracket\n- data/_person-pairs.txt: three new pairs declared different"
+    },
+    {
+     "sha": "e3881f3",
+     "subject": "Re-pin the kit to 09ee040: the linking standard gate (checkstandard.py) and the Rec record link (class lk-rec)",
+     "body": ""
+    },
+    {
+     "sha": "c955174",
+     "subject": "Bernabe Lerena's own baptism: born 10 June 1836 at San Jose, with both sets of grandparents named",
+     "body": "Act 1256 (film 008143327, image 203), read at the plate: 'Bernabe ... que nacio el dia diez del mismo mes, hijo legitimo de D.n Alejandro Lerena y de Da.\nMargarita Fernandez. Abuelos paternos Ramon y Maria Gonzalez. Maternos Juan y Barbara Sotura', godparents Paulino Larriera and Dolores Morales. Corrects his birth\nfrom about 1835 (the 1897 age was a year high) to 1836. All five children of Alejandro and Margarita are now documented, four by their own baptism and Maria by\nher death act; the sibship is spaced about two years until Bernabe, who follows Socorro by nearly four. The film's row in the sources file is updated."
+    },
+    {
+     "sha": "8746fb7",
+     "subject": "Link the names on the narrative pages to their people at build time (kit autolink.py), and gate the number",
+     "body": "tools/run-autolink.py makes the kit tool's two inputs from tracked data: site/src/data/names-index.json (610 people,\n29 shared names sent to /people/?q=, 58 accent aliases from namefold.json) and a living list built from livingcheck.py's\nindependent reckoning, written outside the checkout. It also keeps a name that is the tail or head of a longer name\n(Richardo Juan Carlos Lerena) from linking to the shorter name's person. The build runs it after astro build and\nchecklinks.py last, against site/.linkfloor.json. A person's own page, a name's own page, the two index pages and\n/changes/ opt out with data-no-autolink on <main>."
+    },
+    {
+     "sha": "7084a74",
+     "subject": "Re-pin the kit to fcdfefe: the build-time name linker and its gate (autolink.py, checklinks.py)",
+     "body": ""
+    },
+    {
      "sha": "25c8f48",
      "subject": "Estefania Lerena's own baptism names her parents; Socorro's baptism found: both read at the plate at San Jose, 1831 and 1832",
      "body": "Found by stepping image by image through film 008143327 (San Jose de Mayo Baptism Records 1828-1836) and scanning each image's machine index,\nafter the record index and full text had not returned them. Act 149: 'Ana Estefania, de quince dias de edad, hija legitima de Alejandro Lerena y de\nMargarita Fernandez', 22 January 1831 (born about 7 January). Act 499: Maria del Socorro, christened 30 October 1832, born late September, paternal\ngrandparents Ramon Lerena and Maria Gonzalez. Estefania is the OLDER sister by about twenty months, not a twin; her parentage is no longer a\n'probable'. Every earlier 'probable', 'twin' and 'not proved' statement is marked superseded in the register, edges, kindred page, Uruguay page and log.\nThe film is listed in the sources file."
