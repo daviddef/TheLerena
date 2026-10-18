@@ -5,6 +5,21 @@
    "date": "2026-10-18",
    "commits": [
     {
+     "sha": "57c282a",
+     "subject": "Marcos de Leon Gonzalez: a Canary Islander, Maria Josefa's brother, married to Margarita's sister Casilda at San Jose in 1815",
+     "body": "Found from the index and read at the plate on a certified copy of the San Jose marriage act of 17 December 1815 (the index misdates it): 'D. Marcos Leon Gonzalez,\nnatural de las Islas de Canarias, hijo legitimo de Marcial de Leon Gonzalez y de Da. Isabel Lorenzo Araquea, con Da. Casilda Fernandez Alvarez, natural de esta Villa e hija\nlegitima de Don Juan Fernandez Alvarez y de Dona Barbara Sotura ya difunta'. So Marcos is Alejandro Lerena's maternal uncle AND his wife's brother-in-law, which is why he\nstood godfather in 1825 and 1827, and why the eldest child is Maria CASILDA. Barbara Sotura was already dead in 1815, so her 'alive at 1825' tier is withdrawn. Rows for\nCasilda, Marcial, Isabel and four godparents; aliases for stated spellings (not 'Alexandro Florencio', which raised two pages' name counts); an era-ground row for the\nCanary Islands; the linking-standard floor locked in at the lower counts."
+    },
+    {
+     "sha": "0058dfc",
+     "subject": "Era notes: snapshot version 4 from the Record Atlas contract 1.12.0 (rings from the contract; approximate and contested-about-bounds eras used well inside their bounds; Santa Fe, Scotland and the Montevideo, Colonia and Cape Town places stay silent); the gate also checks the notes' marks",
+     "body": "148 notes (154 before), none resting on an era the Atlas has not assessed (21 before); 3 on an unsourced margin. build-era.py no longer takes --rings."
+    },
+    {
+     "sha": "511c6a8",
+     "subject": "Pin the kit to 3a30314: the era notes' boundary margins, the style only on a page with a note, rings from the contract (snapshot version 4)",
+     "body": ""
+    },
+    {
      "sha": "87a6a33",
      "subject": "Maria Casilda, baptised at San Jose on 11 April 1827: the eldest of Alejandro and Margarita's five, identified with the Maria of the 1892 death act",
      "body": "Film 008163861, image 792 of 815 (San Jose de Mayo Baptism Records 1822-1828), read at the plate: 'bautice solemnemente a Maria Casilda, hija legitima de Alexandro\nLerena y Margarita Fernandez. Abuelos paternos Ramon y Maria de Leon. Maternos Juan [y] Barbara Sotura. Padrinos Marcos de Leon Gonzalez y [Maria] Fernandez Albarez'.\nNo birth date is written, so she was born on or before that day; the 1892 age of 64 was about a year low. Identification with the Maria of 1892 is strong and not proved.\nThe godmother is Margarita's own sister; 'Maria de Leon' and 'Maria Gonzalez' are almost certainly one grandmother. Every child of the couple now has a baptism.\nThe film is listed in the sources file; two new same-name pairs are reasoned."

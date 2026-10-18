@@ -2576,11 +2576,26 @@
   {
    "name": "Maria de los Reyes Gonzalez",
    "aliases": [
+    "Maria de los Reyes Gonzales",
     "Maria de los Reyes González",
+    "María de los Reyes Gonzales",
     "María de los Reyes Gonzalez",
     "María de los Reyes González"
    ],
    "url": "/people/maria-de-los-reyes-gonzalez/"
+  },
+  {
+   "name": "Maria del Carmen Fernandez Lerena",
+   "aliases": [
+    "Maria del Carmen Fernandez",
+    "Maria del Carmen Fernández",
+    "Maria del Carmen Fernández Lerena",
+    "María del Carmen Fernandez",
+    "María del Carmen Fernandez Lerena",
+    "María del Carmen Fernández",
+    "María del Carmen Fernández Lerena"
+   ],
+   "url": "/people/maria-del-carmen-fernandez-lerena/"
   },
   {
    "name": "Maria Dolores Moratorio Lerena",
@@ -3143,6 +3158,15 @@
    "name": "Rafaela Daraz",
    "aliases": [],
    "url": "/people/rafaela-daraz/"
+  },
+  {
+   "name": "Ramon Fernandez",
+   "aliases": [
+    "Ramon Fernández",
+    "Ramón Fernandez",
+    "Ramón Fernández"
+   ],
+   "url": "/people/ramon-fernandez/"
   },
   {
    "name": "Ramon Paulino Olivera Lerena",

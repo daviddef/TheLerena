@@ -5612,5 +5612,19 @@
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Ramon FERNANDEZ (m. Maria Lerena)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maria del Carmen FERNANDEZ Lerena (b. 1857, Trinidad)",
+  "born_est": "1857-07-16",
+  "last_attested_alive": "1857-07-16",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]

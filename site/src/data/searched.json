@@ -2563,7 +2563,7 @@
    "baptism",
    "civil-registration"
   ],
-  "note": "FIVE RECORDS FROM ONE QUERY, FOUR OF THEM NEW: the 1829 San Jose baptism of Alexandro Florencio (the younger Alejandro, born 23 February 1829; the index mis-keys 1823), the 1892 civil death act of Maria Lerena de Fernandez (a new sister, 64), and the 1921 death act of Socorro (88, born at San Jose, naming all four grandparents). METHOD NOTE: a parents-only query WITH A BIRTH WINDOW (1826-1840) beat the earlier children-of-the-couple query, because it returned the older generation's own records. THE TWIN QUESTION: ages 60 (Estefania, 1892) and 88 (Socorro, 1921) do not overlap, so Estefania would be the elder by a year or less; twins are not shown and not ruled out. NOT FOUND: baptisms of Maria, Estefania or Socorro; Maria's husband. FULL TEXT WAS STILL DOWN. No waypoint established - image arks only. [UPDATE 18 October 2026: ESTEFANIA'S OWN BAPTISM (San Jose, January 1831, act 149) NAMES ALEJANDRO LERENA AND MARGARITA FERNANDEZ AS HER PARENTS - the 'probable' and the 'twin' readings above are superseded; see the later row.]"
+  "note": "FIVE RECORDS FROM ONE QUERY, FOUR OF THEM NEW: the 1829 San Jose baptism of Alexandro Florencio (the younger Alejandro, born 23 February 1829; the index mis-keys 1823), the 1892 civil death act of Maria Lerena de Fernandez (a new sister, 64), and the 1921 death act of Socorro (88, born at San Jose, naming all four grandparents). METHOD NOTE: a parents-only query WITH A BIRTH WINDOW (1826-1840) beat the earlier children-of-the-couple query, because it returned the older generation's own records. THE TWIN QUESTION: ages 60 (Estefania, 1892) and 88 (Socorro, 1921) do not overlap, so Estefania would be the elder by a year or less; twins are not shown and not ruled out. NOT FOUND: baptisms of Maria, Estefania or Socorro; Maria's husband. FULL TEXT WAS STILL DOWN. No waypoint established - image arks only. [UPDATE 18 October 2026: ESTEFANIA'S OWN BAPTISM (San Jose, January 1831, act 149) NAMES ALEJANDRO LERENA AND MARGARITA FERNANDEZ AS HER PARENTS - the 'probable' and the 'twin' readings above are superseded; see the later row.] [UPDATE 18 October 2026: MARIA'S HUSBAND IS NOW FOUND - Ramon Fernandez, her first cousin, from the Trinidad baptism of their daughter in July 1857; see the later row.]"
  },
  {
   "src": "FamilySearch record index - Ramon Lerena and Maria Gonzalez as parents, born 1788-1816, Uruguay; and the Cordon baptism of Eusebio Congenio, 17 August 1816",
@@ -2814,5 +2814,28 @@
    "marriage"
   ],
   "note": "THE INDEX HIT WAS A CIVIL-REGISTRATION RECORD (1879-2020), but its content is a certified copy, issued in 1888, of a San Jose parish act of 1815 - the mis-keyed '6 June 1000' hides it from any date search. The act gives Marcos's origin (the Canary Islands), both his parents (the same as Maria Josefa's, so he is her brother and Alejandro's maternal uncle) and his wife Casilda, a sister of Margarita Fernandez Alvarez, daughter of Juan Fernandez Alvarez and the already-dead Barbara Sotura. WHAT IT EXPLAINS: why he stood godfather in 1825 and 1827, and why the first child was named Maria CASILDA. WHAT IT CHANGES: Barbara Sotura was dead by December 1815. NOT FOUND: Marcos's own baptism or marriage in the Canaries, and his children (the index lists a Marcos de Leon Gonzalez with children Juan Inocencio, Petrona Enila, Maria Claudina and Juana Damiana - not read). No waypoint established - image ark only."
+ },
+ {
+  "src": "FamilySearch image viewer, film 008163892: Santisima Trinidad Baptism Records 1848-1857, images 59-235 stepped through (forward) and scanned for Lerena-like names and for Vitalino",
+  "url": "https://www.familysearch.org/search/collection/4134697",
+  "film": "008163892",
+  "waypoint": null,
+  "what": "Vitalino Lerena's own baptism (born about 1845-53): NOT FOUND in images 59-235 (January 1849 to mid-1857) - and a by-catch that placed the Lerena sisters at Trinidad and gave Maria's husband",
+  "when": "2026-10-18",
+  "outcome": "yield",
+  "pages": "images 59-235 scanned; three acts read at the plate",
+  "walked": true,
+  "tags": [
+   "lerena",
+   "fernandez",
+   "trinidad",
+   "flores",
+   "uruguay",
+   "familysearch",
+   "baptism",
+   "hand-read",
+   "vitalino"
+  ],
+  "note": "THE SCAN FOUND NO VITALINO - he was baptised before 1849, outside this volume, or the machine index did not carry him; that is an index-and-scan null, not an exclusion. BUT IT FOUND: (1) IMAGE 229, July 1857: Maria del Carmen, born 16 July 1857, daughter of RAMON FERNANDEZ AND MARIA LERENA (grandparents Manuel Fernandez and Maria de los Reyes Gonzales; Alejandro Lerena and Margarita Fernandez), godparents Serapio Fernandez and Socorro Lerena - MARIA'S HUSBAND AT LAST, her first cousin; (2) IMAGE 82, October 1850: Estefania Lerena godmother beside a Dn. Ramon Fernandez; (3) IMAGE 107, spring 1852: a Da. Clara Lerena godmother. UNREAD HITS, left as leads: image 173 (a 'Serena' female, late 1854 - possibly the first child of Servando and Estefania), image 203 (an 'Antonina Serena', 1856), image 208 ('Alejandro Serena' beside 'Seve...', 1856 - possibly a child of Alejandro the younger and Severa Fernandez). LEAD: the dispensation for Maria Lerena and Ramon Fernandez (first cousins) should be in the Arquidiocesis de Montevideo dispensation series before 1857. No waypoint established - film number recorded."
  }
 ]
