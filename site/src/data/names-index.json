@@ -2855,6 +2855,14 @@
    "url": "/people/maria-regina-lerena-barragan/"
   },
   {
+   "name": "Maria Serna",
+   "aliases": [
+    "Apolinaria Sena",
+    "María Serna"
+   ],
+   "url": "/people/maria-serna/"
+  },
+  {
    "name": "Martin Perez",
    "aliases": [],
    "url": "/people/martin-perez/"
@@ -3160,13 +3168,17 @@
    "url": "/people/rafaela-daraz/"
   },
   {
-   "name": "Ramon Fernandez",
+   "name": "Ramon Maria Fernandez",
    "aliases": [
-    "Ramon Fernández",
-    "Ramón Fernandez",
-    "Ramón Fernández"
+    "Ramon Maria Fernández",
+    "Ramon María Fernandez",
+    "Ramon María Fernández",
+    "Ramón Maria Fernandez",
+    "Ramón Maria Fernández",
+    "Ramón María Fernandez",
+    "Ramón María Fernández"
    ],
-   "url": "/people/ramon-fernandez/"
+   "url": "/people/ramon-maria-fernandez/"
   },
   {
    "name": "Ramon Paulino Olivera Lerena",
@@ -4845,6 +4857,22 @@
    ]
   },
   {
+   "name": "Ramon Fernandez",
+   "url": "/people/?q=Ramon%20Fernandez",
+   "bearers": [
+    "/people/ramon-fernandez-2/",
+    "/people/ramon-fernandez/"
+   ]
+  },
+  {
+   "name": "Ramon Fernández",
+   "url": "/people/?q=Ramon%20Fernandez",
+   "bearers": [
+    "/people/ramon-fernandez-2/",
+    "/people/ramon-fernandez/"
+   ]
+  },
+  {
    "name": "Ramon Lerena",
    "url": "/people/?q=Ramon%20Lerena",
    "bearers": [
@@ -4864,6 +4892,22 @@
    "url": "/people/?q=Ramona%20Lerena",
    "bearers": [
     "/people/ramona-lerena/"
+   ]
+  },
+  {
+   "name": "Ramón Fernandez",
+   "url": "/people/?q=Ramon%20Fernandez",
+   "bearers": [
+    "/people/ramon-fernandez-2/",
+    "/people/ramon-fernandez/"
+   ]
+  },
+  {
+   "name": "Ramón Fernández",
+   "url": "/people/?q=Ramon%20Fernandez",
+   "bearers": [
+    "/people/ramon-fernandez-2/",
+    "/people/ramon-fernandez/"
    ]
   },
   {
