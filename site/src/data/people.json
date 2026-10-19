@@ -23860,8 +23860,20 @@
   "noLink": "",
   "living": false,
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Juan FERNANDEZ ALVAREZ (m. Barbara Sotura)",
+   "dates": "",
+   "slug": "juan-fernandez-alvarez",
+   "via": "register",
+   "note": "Marriage dispensation expediente no. 15 of 1853, Arquidiocesis de Montevideo (film 007713344, image 163, kinship diagram dated 7 September 1853, plate read 19 Oct 2026): Juan Fernandez and Barbara Sotura at the apex, Manuel hijo and Margarita hija, 'hermanos'."
+  },
+  "mother": {
+   "name": "Barbara SOTURA (wife of Juan FERNANDEZ ALVAREZ)",
+   "dates": "",
+   "slug": "barbara-sotura",
+   "via": "register",
+   "note": "Marriage dispensation expediente no. 15 of 1853, Arquidiocesis de Montevideo (film 007713344, image 163, kinship diagram dated 7 September 1853, plate read 19 Oct 2026): Juan Fernandez and Barbara Sotura at the apex, Manuel hijo and Margarita hija, 'hermanos'."
+  },
   "spouses": [],
   "children": [
    {
@@ -23900,13 +23912,26 @@
     "note": "Civil death act no. 116 of 8 July 1921, plate read 17 Oct 2026: 'hija legitima de Alejandro Lerena y de dona Margarita Fern[andez], fallecidos'."
    }
   ],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Casilda FERNANDEZ ALVAREZ (m. Marcos de Leon Gonzalez 1815)",
+    "dates": "",
+    "slug": "casilda-fernandez-alvarez",
+    "via": "register"
+   },
+   {
+    "name": "Manuel FERNANDEZ ALVAREZ (m. Maria de los Reyes Gonzalez)",
+    "dates": "",
+    "slug": "manuel-fernandez-alvarez",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 5,
-  "relRegister": 5,
+  "relTotal": 7,
+  "relRegister": 7,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -24081,10 +24106,10 @@
   "nationality": "Uruguayan",
   "occupation": "-",
   "where": "Trinidad, Flores",
-  "source": "Arquidiocesis de Montevideo, Marriage Dispensation Records 1852-1855 - EXPEDIENTE, Trinidad, 2 December 1854; image 258, ark 3:1:3Q9M-C9B7-T9T9-T - FULL-TEXT read 9 October 2026; and Catedral Basilica San Jose, Religious Marriage Records March 1825-September 1859 - act No. 17 of 16 September 1825, before Don Joseph Andres Salvatierra, Cura y Vicario Interino; DGS film 008143329 (microfilm 625330) image 10 (indexed at 00009), ark 3:1:3Q9M-CSKH-67T7 - PLATE READ 9 October 2026; and Santisima Trinidad, Trinidad, Flores, Baptism Records 1848-1857 (film 008163892, image 229 of 767), the christening of Maria del Carmen, July 1857 (cura Florentino Luis Conde); image ark 3:1:3Q9M-CS27-F34L-N - *** IMAGE READ *** 18 October 2026, found by scanning the volume's machine index for Lerena-like names",
+  "source": "Arquidiocesis de Montevideo, Marriage Dispensation Records 1852-1855 - EXPEDIENTE, Trinidad, 2 December 1854; image 258, ark 3:1:3Q9M-C9B7-T9T9-T - FULL-TEXT read 9 October 2026; and Catedral Basilica San Jose, Religious Marriage Records March 1825-September 1859 - act No. 17 of 16 September 1825, before Don Joseph Andres Salvatierra, Cura y Vicario Interino; DGS film 008143329 (microfilm 625330) image 10 (indexed at 00009), ark 3:1:3Q9M-CSKH-67T7 - PLATE READ 9 October 2026; and Santisima Trinidad, Trinidad, Flores, Baptism Records 1848-1857 (film 008163892, image 229 of 767), the christening of Maria del Carmen, July 1857 (cura Florentino Luis Conde); image ark 3:1:3Q9M-CS27-F34L-N - *** IMAGE READ *** 18 October 2026, found by scanning the volume's machine index for Lerena-like names; and Arquidiocesis de Montevideo, Marriage Dispensation Records 1852-1855 (film 007713344, item 3, images 162-167 of 643), expediente no. 15 of 1853 - his own petition for his son Ramon to marry his niece Maria Lerena; image ark 3:1:3Q9M-C9B7-T9B1-K (the petition, image 164) and 3:1:3Q9M-C9B7-TS33-3 (the kinship diagram, image 163) - *** PETITION, COVER AND DIAGRAM READ AT THE PLATE *** 19 October 2026, the decree and grant (images 165-166) from FamilySearch's machine transcript only; found by a FULL-TEXT search for the two names",
   "status": "connected",
   "statusRaw": "CONNECTED",
-  "note": "*** Father of SERAPIO FERNANDEZ and of SEVERA FERNANDEZ ***, named in both the 1854 and the 1855 Trinidad expedientes - in 1855 simply as 'Don Manuel', in 1854 in full as *** MANUEL FERNANDEZ ALVAREZ ***. *** HIS OWN PARENTS ARE NAMED TOO, IN 1855: Don JUAN and Dona BARBARA SOTURA *** - the grandparents of Serapio, and his own surname is not legible there. *** AND HE IS A BROTHER OF MARGARITA FERNANDEZ ALVAREZ - WRITTEN DOWN FROM 9 OCTOBER 2026, NOT INFERRED ***, which is what makes his children and hers first cousins. *** THIS ROW SAID FOR HALF A DAY THAT THE SIBSHIP WAS 'required by the degree and not written down in either act'; THAT SENTENCE IS WITHDRAWN AND THE REASON FOLLOWS. ***  *** THE THIRD ACT CLOSED IT. *** The 1855 expediente gives his son Serapio's grandparents as *** 'Don JUAN y Dona BARBARA SOTURA' ***; the marriage act of 16 September 1825 gives Margarita Fernandez Alvarez as *** 'hija legitima de JUAN FERNANDEZ ALVAREZ y de BARBARA SOTURA' ***. *** SAME PARENTS, SO SAME SIBSHIP ***, and the second grade of consanguinity dispensed in 1855 between his son and her daughter now has a named path. *** THE SENTENCE ABOVE THAT CALLED IT 'NOT WRITTEN DOWN IN EITHER ACT' WAS TRUE OF THE TWO ACTS THEN READ AND IS SUPERSEDED BY A THIRD. *** *** HIS SON RAMON, 18 October 2026: *** the Trinidad baptism of July 1857 names Ramon Fernandez as the son of Manuel Fernandez and Maria de los Reyes Gonzalez and the husband of Maria Lerena. His sons are now Serapio and Ramon, and Serapio's wife Socorro and Ramon's wife Maria are sisters.",
+  "note": "*** Father of SERAPIO FERNANDEZ and of SEVERA FERNANDEZ ***, named in both the 1854 and the 1855 Trinidad expedientes - in 1855 simply as 'Don Manuel', in 1854 in full as *** MANUEL FERNANDEZ ALVAREZ ***. *** HIS OWN PARENTS ARE NAMED TOO, IN 1855: Don JUAN and Dona BARBARA SOTURA *** - the grandparents of Serapio, and his own surname is not legible there. *** AND HE IS A BROTHER OF MARGARITA FERNANDEZ ALVAREZ - WRITTEN DOWN FROM 9 OCTOBER 2026, NOT INFERRED ***, which is what makes his children and hers first cousins. *** THIS ROW SAID FOR HALF A DAY THAT THE SIBSHIP WAS 'required by the degree and not written down in either act'; THAT SENTENCE IS WITHDRAWN AND THE REASON FOLLOWS. ***  *** THE THIRD ACT CLOSED IT. *** The 1855 expediente gives his son Serapio's grandparents as *** 'Don JUAN y Dona BARBARA SOTURA' ***; the marriage act of 16 September 1825 gives Margarita Fernandez Alvarez as *** 'hija legitima de JUAN FERNANDEZ ALVAREZ y de BARBARA SOTURA' ***. *** SAME PARENTS, SO SAME SIBSHIP ***, and the second grade of consanguinity dispensed in 1855 between his son and her daughter now has a named path. *** THE SENTENCE ABOVE THAT CALLED IT 'NOT WRITTEN DOWN IN EITHER ACT' WAS TRUE OF THE TWO ACTS THEN READ AND IS SUPERSEDED BY A THIRD. *** *** HIS SON RAMON, 18 October 2026: *** the Trinidad baptism of July 1857 names Ramon Fernandez as the son of Manuel Fernandez and Maria de los Reyes Gonzalez and the husband of Maria Lerena. His sons are now Serapio and Ramon, and Serapio's wife Socorro and Ramon's wife Maria are sisters. *** HIS OWN PETITION, 19 October 2026: *** Manuel Fernandez, 'de estado casado', of the Puntas de San Jose district in the Trinidad parish, applied in 1853 for the dispensation of his son Ramon's marriage to 'mi sobrina Maria Lerena', daughter of 'Margarita Fernandez, que es mi hermana' (film 007713344, image 164, plate read), and the diagram of 7 September 1853 (image 163) shows him as the 'hijo' of Juan Fernandez and Barbara Sotura and Margarita as their 'hija', 'hermanos'. So his parents and his sister are written by his own side as well as hers.",
   "place": "Trinidad, Flores",
   "placeSlug": "trinidad-flores",
   "surname": "FERNANDEZ",
@@ -24093,8 +24118,20 @@
   "noLink": "",
   "living": false,
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Juan FERNANDEZ ALVAREZ (m. Barbara Sotura)",
+   "dates": "",
+   "slug": "juan-fernandez-alvarez",
+   "via": "register",
+   "note": "Marriage dispensation expediente no. 15 of 1853, Arquidiocesis de Montevideo (film 007713344, image 163, kinship diagram dated 7 September 1853, plate read 19 Oct 2026): Juan Fernandez and Barbara Sotura at the apex, Manuel hijo and Margarita hija, 'hermanos'."
+  },
+  "mother": {
+   "name": "Barbara SOTURA (wife of Juan FERNANDEZ ALVAREZ)",
+   "dates": "",
+   "slug": "barbara-sotura",
+   "via": "register",
+   "note": "Marriage dispensation expediente no. 15 of 1853, Arquidiocesis de Montevideo (film 007713344, image 163, kinship diagram dated 7 September 1853, plate read 19 Oct 2026): Juan Fernandez and Barbara Sotura at the apex, Manuel hijo and Margarita hija, 'hermanos'."
+  },
   "spouses": [],
   "children": [
    {
@@ -24105,13 +24142,26 @@
     "note": "Trinidad christening of Maria del Carmen, July 1857, plate read 18 Oct 2026."
    }
   ],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Casilda FERNANDEZ ALVAREZ (m. Marcos de Leon Gonzalez 1815)",
+    "dates": "",
+    "slug": "casilda-fernandez-alvarez",
+    "via": "register"
+   },
+   {
+    "name": "Margarita FERNANDEZ ALVAREZ (wife of Alejandro LERENA the elder)",
+    "dates": "",
+    "slug": "margarita-fernandez-alvarez",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 1,
-  "relRegister": 1,
+  "relTotal": 3,
+  "relRegister": 3,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -24515,6 +24565,20 @@
     "slug": "casilda-fernandez-alvarez",
     "via": "register",
     "note": "San Jose marriage act of 17 Dec 1815 (certified copy, plate read 18 Oct 2026)."
+   },
+   {
+    "name": "Manuel FERNANDEZ ALVAREZ (m. Maria de los Reyes Gonzalez)",
+    "dates": "",
+    "slug": "manuel-fernandez-alvarez",
+    "via": "register",
+    "note": "Marriage dispensation expediente no. 15 of 1853, Arquidiocesis de Montevideo (film 007713344, image 163, kinship diagram dated 7 September 1853, plate read 19 Oct 2026): Juan Fernandez and Barbara Sotura at the apex, Manuel hijo and Margarita hija, 'hermanos'."
+   },
+   {
+    "name": "Margarita FERNANDEZ ALVAREZ (wife of Alejandro LERENA the elder)",
+    "dates": "",
+    "slug": "margarita-fernandez-alvarez",
+    "via": "register",
+    "note": "Marriage dispensation expediente no. 15 of 1853, Arquidiocesis de Montevideo (film 007713344, image 163, kinship diagram dated 7 September 1853, plate read 19 Oct 2026): Juan Fernandez and Barbara Sotura at the apex, Manuel hijo and Margarita hija, 'hermanos'."
    }
   ],
   "siblings": [],
@@ -24522,8 +24586,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 1,
-  "relRegister": 1,
+  "relTotal": 3,
+  "relRegister": 3,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -24559,6 +24623,20 @@
     "slug": "casilda-fernandez-alvarez",
     "via": "register",
     "note": "San Jose marriage act of 17 Dec 1815 (certified copy, plate read 18 Oct 2026)."
+   },
+   {
+    "name": "Manuel FERNANDEZ ALVAREZ (m. Maria de los Reyes Gonzalez)",
+    "dates": "",
+    "slug": "manuel-fernandez-alvarez",
+    "via": "register",
+    "note": "Marriage dispensation expediente no. 15 of 1853, Arquidiocesis de Montevideo (film 007713344, image 163, kinship diagram dated 7 September 1853, plate read 19 Oct 2026): Juan Fernandez and Barbara Sotura at the apex, Manuel hijo and Margarita hija, 'hermanos'."
+   },
+   {
+    "name": "Margarita FERNANDEZ ALVAREZ (wife of Alejandro LERENA the elder)",
+    "dates": "",
+    "slug": "margarita-fernandez-alvarez",
+    "via": "register",
+    "note": "Marriage dispensation expediente no. 15 of 1853, Arquidiocesis de Montevideo (film 007713344, image 163, kinship diagram dated 7 September 1853, plate read 19 Oct 2026): Juan Fernandez and Barbara Sotura at the apex, Manuel hijo and Margarita hija, 'hermanos'."
    }
   ],
   "siblings": [],
@@ -24566,8 +24644,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 1,
-  "relRegister": 1,
+  "relTotal": 3,
+  "relRegister": 3,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -39242,10 +39320,10 @@
   "nationality": "Oriental",
   "occupation": "-",
   "where": "Trinidad, Flores",
-  "source": "Trinidad, Flores, Civil Death Records 1892, act no. 49 of 3 May 1892; image ark 3:1:3Q9M-CS24-W748-Y, index ark 1:1:XS6K-3TFL - *** IMAGE READ *** 17 October 2026; and San Jose de Mayo, Baptism Records 1822-1828 (film 008163861, image 792 of 815), the christening of Maria Casilda, April 1827; image ark 3:1:3Q9M-CS27-CS9R-5 - *** IMAGE READ *** 18 October 2026, found by the machine index of the image, which listed 'Alexandro Serena', 'Margari' and 'Maria Casilda Serena'; and Santisima Trinidad, Trinidad, Flores, Baptism Records 1848-1857 (film 008163892, image 229 of 767), the christening of Maria del Carmen, July 1857 (cura Florentino Luis Conde); image ark 3:1:3Q9M-CS27-F34L-N - *** IMAGE READ *** 18 October 2026, found by scanning the volume's machine index for Lerena-like names",
+  "source": "Trinidad, Flores, Civil Death Records 1892, act no. 49 of 3 May 1892; image ark 3:1:3Q9M-CS24-W748-Y, index ark 1:1:XS6K-3TFL - *** IMAGE READ *** 17 October 2026; and San Jose de Mayo, Baptism Records 1822-1828 (film 008163861, image 792 of 815), the christening of Maria Casilda, April 1827; image ark 3:1:3Q9M-CS27-CS9R-5 - *** IMAGE READ *** 18 October 2026, found by the machine index of the image, which listed 'Alexandro Serena', 'Margari' and 'Maria Casilda Serena'; and Santisima Trinidad, Trinidad, Flores, Baptism Records 1848-1857 (film 008163892, image 229 of 767), the christening of Maria del Carmen, July 1857 (cura Florentino Luis Conde); image ark 3:1:3Q9M-CS27-F34L-N - *** IMAGE READ *** 18 October 2026, found by scanning the volume's machine index for Lerena-like names; and Arquidiocesis de Montevideo, Marriage Dispensation Records 1852-1855 (film 007713344, item 3, images 162-167 of 643), expediente no. 15 of 1853 - the petition of Manuel Fernandez for his son Ramon to marry his niece Maria Lerena; image ark 3:1:3Q9M-C9B7-T9B1-K (the petition, image 164) and 3:1:3Q9M-C9B7-TS33-3 (the kinship diagram, image 163) - *** PETITION, COVER AND DIAGRAM READ AT THE PLATE *** 19 October 2026, the decree and grant (images 165-166) from FamilySearch's machine transcript only; found by a FULL-TEXT search for the two names",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "*** A DAUGHTER OF ALEJANDRO LERENA AND MARGARITA FERNANDEZ, NEW TO THIS ARCHIVE, 17 October 2026. *** Her civil death act at Trinidad, read at the plate: 'Maria Lerena de Fernandez, de nacionalidad oriental, de sesenta y cuatro anos de edad, de estado viuda, ... a consecuencia de Cancer del estomago ... Que la finada era hija legitima de don Alejandro Lerena y dona Margarita Fernandez, ambos fallecidos', died at two in the morning, declared by 'Manuel Vaquero' [the signature may read Vazquez], thirty, and Francisco C[...], thirty-one, both procuradores of Trinidad, with a closing line that the first declarant makes it 'como pa[riente]' - cut at the page edge, so read as 'relative' and not as certain. *** SIXTY-FOUR ON 3 MAY 1892 WOULD BE A BIRTH BETWEEN 4 MAY 1827 AND 3 MAY 1828 - BUT HER BAPTISM, BELOW, PUTS IT ON OR BEFORE 11 APRIL 1827, SO THE 1892 AGE WAS ABOUT A YEAR LOW - *** which makes her the eldest of the five known children, born before Alejandro (23 February 1829). [SUPERSEDED 18 October 2026: HER HUSBAND IS RAMON FERNANDEZ, named in the baptism of their daughter below.] *** THE INDEX GIVES TRINIDAD AS HER BIRTHPLACE *** while the family is at San Jose in 1825 and 1829; that is probably where she died, and is unresolved. *** A BAPTISM OF HER OWN IS FOUND AND READ AT THE PLATE, 18 October 2026: MARIA CASILDA, CHRISTENED AT SAN JOSE ON 11 APRIL 1827. *** 'En once de Abril de mil ochocientos veinte y siete, yo el Dr. D.n Feliciano Rodriguez, Cura y Vicario Interino de esta Parroquia, bautice solemnemente a Maria Casilda, hija legitima de Alexandro Lerena y Margarita Fernandez. Abuelos paternos Ramon y Maria de Leon. Maternos Juan [y] Barbara Sotura. Padrinos Marcos de Leon Gonzalez y [Maria] Fernandez Albarez, a quienes instrui y por verdad lo firme'; margin 'Maria Casilda'. NO BIRTH DATE IS WRITTEN, so she was born on or before that day. *** THE IDENTIFICATION: *** the parents are Alexandro Lerena and Margarita Fernandez and the grandparents Ramon and Maria [de Leon / Gonzalez] and Juan and Barbara Sotura - the same four lines as her siblings' baptisms - and she is the ONLY Maria of Alejandro and Margarita known to this register; the 1892 death act names the same parents and no more than 'Maria Lerena de Fernandez', sixty-four. So Maria Casilda is the Maria of 1892 on every particular that can be compared, and nothing contradicts it - STRONG, NOT PROVED: no document names her husband and no baptismal name appears in 1892. *** SHE IS THE ELDEST OF THE FIVE *** and the only one born before Alejandro's baptism volume begins. *** THE GODFATHER IS 'MARCOS DE LEON GONZALEZ', *** carrying the 'de Leon Gonzalez' of her paternal grandmother's family (the 1812 and 1816 acts have Maria Josefa / Maria de Leon Gonzalez, daughter of Marcial de Leon Gonzalez): a kinsman on her father's mother's side, not placed here. The godmother is Maria Fernandez Albarez - the SISTER of Margarita who stood at her wedding in 1825, named on this register as Margarita's sister Maria. The index gave Trinidad as her birthplace; she was baptised at San Jose, and Trinidad is where she died. *** HER NAME: MARIA CASILDA WAS NAMED FOR HER AUNT CASILDA FERNANDEZ ALVAREZ, 18 October 2026, *** the wife of her godfather Marcos de Leon Gonzalez, who is her father's mother's brother. *** HER HUSBAND IS NAMED, 18 October 2026: RAMON FERNANDEZ - AND HE IS HER FIRST COUSIN. *** The Trinidad baptism of their daughter, read at the plate, 'En diez y nueve de Julio de mil ochocientos cincuenta y siete, Yo Florentino Luis Conde, Cura Vicario de la misma, bautice solemnemente a Maria del Carmen [del Corazon de Jesus], que nacio el dia diez y seis del que rige, e hija legitima de Ramon Fernandez y de Maria Lerena, naturales y vecinos de esta Parroquia. Abs. Pat.s Manuel Fernandez y Maria de los Reyes Gonzales, Mat.s D.n Alejandro Lerena y D.a Margarita Fernandez, y fueron los Pad.s Serapio Fernandez y Socorro Lerena, a quienes adverti el parentesco espiritual y demas oblig.s'. *** SO MARIA LERENA, 'DE FERNANDEZ' IN 1892, WAS THE WIFE OF RAMON FERNANDEZ, A SON OF MANUEL FERNANDEZ ALVAREZ - MARGARITA'S BROTHER - AND MARIA DE LOS REYES GONZALEZ, *** so she and Ramon were first cousins on her mother's side, exactly as her sister Socorro and Serapio Fernandez were (Serapio is another son of Manuel). Two sisters married two brothers who were their first cousins. Both couples were 'naturales y vecinos' of Trinidad in 1857. *** THE DAUGHTER MARIA DEL CARMEN WAS BORN 16 JULY 1857 *** and her godparents were her aunt Socorro and uncle Serapio. *** NOT FOUND: *** the dispensation for Maria and Ramon (a second degree of consanguinity needed one, as Socorro's did in 1855), which would fall before 1857 and may name Ramon's age and Maria's own; and Ramon's death before 1892.",
+  "note": "*** A DAUGHTER OF ALEJANDRO LERENA AND MARGARITA FERNANDEZ, NEW TO THIS ARCHIVE, 17 October 2026. *** Her civil death act at Trinidad, read at the plate: 'Maria Lerena de Fernandez, de nacionalidad oriental, de sesenta y cuatro anos de edad, de estado viuda, ... a consecuencia de Cancer del estomago ... Que la finada era hija legitima de don Alejandro Lerena y dona Margarita Fernandez, ambos fallecidos', died at two in the morning, declared by 'Manuel Vaquero' [the signature may read Vazquez], thirty, and Francisco C[...], thirty-one, both procuradores of Trinidad, with a closing line that the first declarant makes it 'como pa[riente]' - cut at the page edge, so read as 'relative' and not as certain. *** SIXTY-FOUR ON 3 MAY 1892 WOULD BE A BIRTH BETWEEN 4 MAY 1827 AND 3 MAY 1828 - BUT HER BAPTISM, BELOW, PUTS IT ON OR BEFORE 11 APRIL 1827, SO THE 1892 AGE WAS ABOUT A YEAR LOW - *** which makes her the eldest of the five known children, born before Alejandro (23 February 1829). [SUPERSEDED 18 October 2026: HER HUSBAND IS RAMON FERNANDEZ, named in the baptism of their daughter below.] *** THE INDEX GIVES TRINIDAD AS HER BIRTHPLACE *** while the family is at San Jose in 1825 and 1829; that is probably where she died, and is unresolved. *** A BAPTISM OF HER OWN IS FOUND AND READ AT THE PLATE, 18 October 2026: MARIA CASILDA, CHRISTENED AT SAN JOSE ON 11 APRIL 1827. *** 'En once de Abril de mil ochocientos veinte y siete, yo el Dr. D.n Feliciano Rodriguez, Cura y Vicario Interino de esta Parroquia, bautice solemnemente a Maria Casilda, hija legitima de Alexandro Lerena y Margarita Fernandez. Abuelos paternos Ramon y Maria de Leon. Maternos Juan [y] Barbara Sotura. Padrinos Marcos de Leon Gonzalez y [Maria] Fernandez Albarez, a quienes instrui y por verdad lo firme'; margin 'Maria Casilda'. NO BIRTH DATE IS WRITTEN, so she was born on or before that day. *** THE IDENTIFICATION: *** the parents are Alexandro Lerena and Margarita Fernandez and the grandparents Ramon and Maria [de Leon / Gonzalez] and Juan and Barbara Sotura - the same four lines as her siblings' baptisms - and she is the ONLY Maria of Alejandro and Margarita known to this register; the 1892 death act names the same parents and no more than 'Maria Lerena de Fernandez', sixty-four. So Maria Casilda is the Maria of 1892 on every particular that can be compared, and nothing contradicts it - STRONG, NOT PROVED: no document names her husband and no baptismal name appears in 1892. *** SHE IS THE ELDEST OF THE FIVE *** and the only one born before Alejandro's baptism volume begins. *** THE GODFATHER IS 'MARCOS DE LEON GONZALEZ', *** carrying the 'de Leon Gonzalez' of her paternal grandmother's family (the 1812 and 1816 acts have Maria Josefa / Maria de Leon Gonzalez, daughter of Marcial de Leon Gonzalez): a kinsman on her father's mother's side, not placed here. The godmother is Maria Fernandez Albarez - the SISTER of Margarita who stood at her wedding in 1825, named on this register as Margarita's sister Maria. The index gave Trinidad as her birthplace; she was baptised at San Jose, and Trinidad is where she died. *** HER NAME: MARIA CASILDA WAS NAMED FOR HER AUNT CASILDA FERNANDEZ ALVAREZ, 18 October 2026, *** the wife of her godfather Marcos de Leon Gonzalez, who is her father's mother's brother. *** HER HUSBAND IS NAMED, 18 October 2026: RAMON FERNANDEZ - AND HE IS HER FIRST COUSIN. *** The Trinidad baptism of their daughter, read at the plate, 'En diez y nueve de Julio de mil ochocientos cincuenta y siete, Yo Florentino Luis Conde, Cura Vicario de la misma, bautice solemnemente a Maria del Carmen [del Corazon de Jesus], que nacio el dia diez y seis del que rige, e hija legitima de Ramon Fernandez y de Maria Lerena, naturales y vecinos de esta Parroquia. Abs. Pat.s Manuel Fernandez y Maria de los Reyes Gonzales, Mat.s D.n Alejandro Lerena y D.a Margarita Fernandez, y fueron los Pad.s Serapio Fernandez y Socorro Lerena, a quienes adverti el parentesco espiritual y demas oblig.s'. *** SO MARIA LERENA, 'DE FERNANDEZ' IN 1892, WAS THE WIFE OF RAMON FERNANDEZ, A SON OF MANUEL FERNANDEZ ALVAREZ - MARGARITA'S BROTHER - AND MARIA DE LOS REYES GONZALEZ, *** so she and Ramon were first cousins on her mother's side, exactly as her sister Socorro and Serapio Fernandez were (Serapio is another son of Manuel). Two sisters married two brothers who were their first cousins. Both couples were 'naturales y vecinos' of Trinidad in 1857. *** THE DAUGHTER MARIA DEL CARMEN WAS BORN 16 JULY 1857 *** and her godparents were her aunt Socorro and uncle Serapio. *** THE DISPENSATION IS FOUND, 19 October 2026 [the sentence that stood here, 'not found', is superseded]. *** Arquidiocesis de Montevideo, Marriage Dispensation Records 1852-1855, film 007713344, item 3 (images 162-167), expediente no. 15 of 1853. The cover (image 162, plate read): 'Don Manuel Fernandez por su hijo Ramon, solicita ... dispensa del impedimento canonico de parentesco en segundo grado de consanguinidad por linea transversal con Maria Lerena: parroquia de Porongos'. THE PETITION (image 164, plate read): Manuel Fernandez, married, of the 'Partido nombrado las Puntas de San Jose', in the parish of the Santisima Trinidad in the Porongos, says that by his marriage to Maria de los Reyes Gonzalez he has a son Ramon, 'soltero, de edad de veinte y un anos, nativo y domiciliado' in that district, who with his father's consent means to marry 'la joven mi sobrina Maria Lerena, de edad de veinte y cuatro anos, natural de San Jose, y domiciliada en la campana del territorio de mi indicada parroquia, hija legitima de Alexandro Lerena y Margarita Fernandez, que es mi hermana', Manuel and Margarita being children of Juan Fernandez and Barbara Sotura: 'primos hermanos, ligados en segundo grado de consanguinidad por linea transversal'. THE CAUSES HE GIVES (machine transcript; the rest of the petition was not read at the plate): she is older than twenty-four; she lives in an unpopulated place where she cannot easily find another man she is not related to; she has no dowry; her parents are burdened with a family - 'nueve hijos, entre estos cuatro mujeres'; and a young woman there is exposed to being carried off. THE GRANT (images 165-166, machine transcript): the Provisor General's decree at Montevideo on 7 September 1853 (notary Sebastian Roso) ordered a genealogical diagram and the same day dispensed 'Ramon Fernandez y Maria Lerena, parroquianos de la ... Iglesia de Porongos', on condition that three witnesses swear before the Cura y Vicario of the parish to the descent from Juan Fernandez and Barbara Sotura, the two marriages, her age, her poverty and the size of her parents' family, with a penance of three pounds of wax each for the lamp of the Blessed Sacrament; the entry is registered at folio 40 of the third book (image 167). THE DIAGRAM (image 163, plate read, 7 September 1853): Juan Fernandez and Barbara Sotura at the apex; below them 'Manuel' (hijo) and 'Margarita' (hija) as 'hermanos, 1.o g.o'; below those Ramon Fernandez and Maria Lerena as 'primos hermanos, 2.o g.o'. *** WHAT IT CHANGES: *** the kinship is no longer worked out here from baptisms; it is stated by the parties' own papers - Maria is the niece of Manuel Fernandez and the first cousin of Ramon, through her mother Margarita, Manuel's sister. *** HER STATED AGE IS A YEAR OR TWO LOW, AS IT WAS IN 1892: *** 'veinte y cuatro' in September 1853 would be a birth in 1828 or 1829, and the baptism puts it on or before 11 April 1827; the petition itself lists 'older than twenty-four' as its first cause, so the figure is a round statement and is not used for her birth. *** NINE CHILDREN, FOUR OF THEM GIRLS, IN 1853, *** where this register holds five by name (Maria, Alejandro, Estefania, Socorro, Bernabe): if the nine count her, one more daughter and three more sons of Alejandro and Margarita are unplaced. *** RAMON'S AGE: *** twenty-one in 1853, so born about 1832 and some five years younger than his wife. *** NOT FOUND: *** the marriage act itself (after 7 September 1853 and before July 1857, at Trinidad), the three witnesses' depositions, and Ramon's death before 1892.",
   "place": "Trinidad, Flores",
   "placeSlug": "trinidad-flores",
   "surname": "LERENA",
@@ -41946,7 +42024,20 @@
    }
   ],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Manuel FERNANDEZ ALVAREZ (m. Maria de los Reyes Gonzalez)",
+    "dates": "",
+    "slug": "manuel-fernandez-alvarez",
+    "via": "register"
+   },
+   {
+    "name": "Margarita FERNANDEZ ALVAREZ (wife of Alejandro LERENA the elder)",
+    "dates": "",
+    "slug": "margarita-fernandez-alvarez",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
@@ -42258,16 +42349,16 @@
  {
   "slug": "ramon-fernandez",
   "name": "Ramon FERNANDEZ (m. Maria Lerena)",
-  "born": "-",
+  "born": "1832c",
   "died": "",
   "birthplace": "Trinidad, Flores, Uruguay",
   "nationality": "Oriental",
   "occupation": "-",
   "where": "Trinidad, Flores",
-  "source": "Santisima Trinidad, Trinidad, Flores, Baptism Records 1848-1857 (film 008163892, image 229 of 767), the christening of Maria del Carmen, July 1857 (cura Florentino Luis Conde); image ark 3:1:3Q9M-CS27-F34L-N - *** IMAGE READ *** 18 October 2026, found by scanning the volume's machine index for Lerena-like names",
+  "source": "Santisima Trinidad, Trinidad, Flores, Baptism Records 1848-1857 (film 008163892, image 229 of 767), the christening of Maria del Carmen, July 1857 (cura Florentino Luis Conde); image ark 3:1:3Q9M-CS27-F34L-N - *** IMAGE READ *** 18 October 2026, found by scanning the volume's machine index for Lerena-like names; and Arquidiocesis de Montevideo, Marriage Dispensation Records 1852-1855 (film 007713344, item 3, images 162-167 of 643), expediente no. 15 of 1853 - the petition of his father Manuel Fernandez for his marriage to his cousin Maria Lerena; image ark 3:1:3Q9M-C9B7-T9B1-K (the petition, image 164) and 3:1:3Q9M-C9B7-TS33-3 (the kinship diagram, image 163) - *** PETITION, COVER AND DIAGRAM READ AT THE PLATE *** 19 October 2026, the decree and grant (images 165-166) from FamilySearch's machine transcript only; found by a FULL-TEXT search for the two names",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "*** THE HUSBAND OF MARIA LERENA, NAMED ONLY ON HIS DAUGHTER'S BAPTISM, 18 October 2026. *** 'hija legitima de Ramon Fernandez y de Maria Lerena, naturales y vecinos de esta Parroquia' of Trinidad; paternal grandparents Manuel Fernandez and Maria de los Reyes Gonzales. He is a son of Manuel Fernandez Alvarez - Margarita's brother - so HE IS HIS WIFE'S FIRST COUSIN, and a brother of Serapio, who married her sister Socorro. He stands godfather at Trinidad with Estefania Lerena in 1850 if the 'Dn. Ramon Fernandez' of that act is he, which is likely and not proved. No age, birth or death is held; he was dead by 1892, when his wife was a widow.",
+  "note": "*** THE HUSBAND OF MARIA LERENA, NAMED ONLY ON HIS DAUGHTER'S BAPTISM, 18 October 2026, AND NOW IN HIS FATHER'S PETITION OF 1853, 18 October 2026. *** 'hija legitima de Ramon Fernandez y de Maria Lerena, naturales y vecinos de esta Parroquia' of Trinidad; paternal grandparents Manuel Fernandez and Maria de los Reyes Gonzales. He is a son of Manuel Fernandez Alvarez - Margarita's brother - so HE IS HIS WIFE'S FIRST COUSIN, and a brother of Serapio, who married her sister Socorro. He stands godfather at Trinidad with Estefania Lerena in 1850 if the 'Dn. Ramon Fernandez' of that act is he, which is likely and not proved. *** HIS AGE AND HIS FATHER'S PETITION, 19 October 2026: *** in the petition of 1853 (film 007713344, image 164, plate read) his father Manuel Fernandez asks the Provisor General to dispense the second degree of consanguinity between 'mi hijo Ramon, soltero, de edad de veinte y un anos, nativo y domiciliado' in the Puntas de San Jose district of the Trinidad parish in the Porongos, and 'mi sobrina Maria Lerena'; the dispensation was granted at Montevideo on 7 September 1853 on condition of witnesses before the parish priest, and the diagram drawn the same day shows him and her as 'primos hermanos, 2.o g.o' under Juan Fernandez and Barbara Sotura. So he was born about 1832, in that district, and was five years or so younger than his wife. His age makes him eighteen in October 1850, when a 'Dn. Ramon Fernandez' stood godfather beside Estefania Lerena - possible, still not proved. No death date is held; he was dead by 1892, when his wife was a widow.",
   "place": "Trinidad, Flores",
   "placeSlug": "trinidad-flores",
   "surname": "FERNANDEZ",
