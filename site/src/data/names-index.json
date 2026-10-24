@@ -1674,6 +1674,16 @@
    "url": "/people/jacinta-merina-santos/"
   },
   {
+   "name": "Jesus Modesto del Carmen Fernandez Lerena",
+   "aliases": [
+    "Jesus Modesto del Carmen",
+    "Jesus Modesto del Carmen Fernandez",
+    "Jesus Modesto del Carmen Fernández",
+    "Jesus Modesto del Carmen Fernández Lerena"
+   ],
+   "url": "/people/jesus-modesto-del-carmen-fernandez-lerena/"
+  },
+  {
    "name": "Joaquin Costales",
    "aliases": [],
    "url": "/people/joaquin-costales/"
@@ -2335,14 +2345,17 @@
    "url": "/people/manuel-ferreyra/"
   },
   {
+   "name": "Manuel Indalecio Vaquero",
+   "aliases": [
+    "Manuel Indalecio",
+    "Manuel Yndalejio Vaquero"
+   ],
+   "url": "/people/manuel-indalecio-vaquero/"
+  },
+  {
    "name": "Manuel Lerena Leonard",
    "aliases": [],
    "url": "/people/manuel-lerena-leonard/"
-  },
-  {
-   "name": "Manuel Vaquero",
-   "aliases": [],
-   "url": "/people/manuel-vaquero/"
   },
   {
    "name": "Manuel Vicente Lerena Marino",
@@ -3166,6 +3179,15 @@
    "name": "Rafaela Daraz",
    "aliases": [],
    "url": "/people/rafaela-daraz/"
+  },
+  {
+   "name": "Ramon de la Asuncion Fernandez",
+   "aliases": [
+    "Ramon de la Asuncion Fernández",
+    "Ramón de la Asuncion Fernandez",
+    "Ramón de la Asuncion Fernández"
+   ],
+   "url": "/people/ramon-fernandez-2/"
   },
   {
    "name": "Ramon Maria Fernandez",
@@ -4494,6 +4516,14 @@
    ]
   },
   {
+   "name": "Manuel Vaquero",
+   "url": "/people/?q=Manuel%20Vaquero",
+   "bearers": [
+    "/people/manuel-vaquero-2/",
+    "/people/manuel-vaquero/"
+   ]
+  },
+  {
    "name": "Manuela Lerena",
    "url": "/people/?q=Manuela%20Lerena",
    "bearers": [
@@ -4716,6 +4746,7 @@
    "name": "Natalia Lerena",
    "url": "/people/?q=Natalia%20Lerena",
    "bearers": [
+    "/people/natalia-lerena-2/",
     "/people/natalia-lerena/"
    ]
   },
@@ -4860,7 +4891,6 @@
    "name": "Ramon Fernandez",
    "url": "/people/?q=Ramon%20Fernandez",
    "bearers": [
-    "/people/ramon-fernandez-2/",
     "/people/ramon-fernandez/"
    ]
   },
@@ -4868,7 +4898,6 @@
    "name": "Ramon Fernández",
    "url": "/people/?q=Ramon%20Fernandez",
    "bearers": [
-    "/people/ramon-fernandez-2/",
     "/people/ramon-fernandez/"
    ]
   },
@@ -4898,7 +4927,6 @@
    "name": "Ramón Fernandez",
    "url": "/people/?q=Ramon%20Fernandez",
    "bearers": [
-    "/people/ramon-fernandez-2/",
     "/people/ramon-fernandez/"
    ]
   },
@@ -4906,7 +4934,6 @@
    "name": "Ramón Fernández",
    "url": "/people/?q=Ramon%20Fernandez",
    "bearers": [
-    "/people/ramon-fernandez-2/",
     "/people/ramon-fernandez/"
    ]
   },

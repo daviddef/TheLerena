@@ -5,6 +5,11 @@
    "date": "2026-10-19",
    "commits": [
     {
+     "sha": "26e18ae",
+     "subject": "Ramon Fernandez died at the Puntas de San Jose on 27 October 1887; their son Ramon married Maria Serna in 1894; a grandson lived 22 days in 1902",
+     "body": "Trinidad civil act no. 93 of 1887 (56, married to Maria Lerena, 58, three grown children, declared by Servando Gonzalez), the Trinidad marriage of 18 October 1894 and the Flores acts of March 1902, all from machine transcripts, plates not opened. A Ramon Fernandez and Maria Lerena also stand as godparents in 1868, 1879 and 1886 and as witnesses in 1877: very likely this couple, not proved. Three new rows (Ramon the younger, Maria Serna, the infant Ramon Maria). Local check:standard reads the same L2 as at the previous commit (123 against floor 122 on this machine); this adds none."
+    },
+    {
      "sha": "47c014e",
      "subject": "Maria Lerena and Ramon Fernandez were dispensed as first cousins at Montevideo on 7 September 1853: his father Manuel petitioned, he was 21, the diagram names Juan Fernandez and Barbara Sotura",
      "body": "Arquidiocesis de Montevideo, Marriage Dispensation Records 1852-1855, film 007713344, item 3, images 162-167. Petition, cover and diagram read at the plate; the grant from the machine transcript. New: Alejandro and Margarita had nine children, four of them girls, in 1853. Local build note: check:standard reads L2 123 against floor 122 on this machine with or without this change (CI built the same HEAD at 352 total); this commit adds none."
