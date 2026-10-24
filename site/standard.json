@@ -19,7 +19,8 @@
  "names": {
   "entry_prefixes": [
    "/people/",
-   "/who/"
+   "/who/",
+   "/same-name/"
   ],
   "read_blocks": [
    ".cap",
@@ -434,7 +435,8 @@
  },
  "allow_prefixes": [
   "/people/",
-  "/who/"
+  "/who/",
+  "/same-name/"
  ],
  "tables": "records",
  "_reasons": {

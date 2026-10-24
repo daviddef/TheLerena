@@ -3617,7 +3617,7 @@
   },
   {
    "name": "Alejandro Lerena",
-   "url": "/people/?q=Alejandro%20Lerena",
+   "url": "/same-name/alejandro-lerena/",
    "bearers": [
     "/people/alejandro-lerena-2/",
     "/people/alejandro-lerena/"
@@ -3687,7 +3687,7 @@
   },
   {
    "name": "Antonina Lerena",
-   "url": "/people/?q=Antonina%20Lerena",
+   "url": "/same-name/antonina-lerena/",
    "bearers": [
     "/people/antonina-lerena-2/",
     "/people/antonina-lerena-3/",
@@ -3726,7 +3726,7 @@
   },
   {
    "name": "Arturo Lerena",
-   "url": "/people/?q=Arturo%20Lerena",
+   "url": "/same-name/arturo-lerena/",
    "bearers": [
     "/people/arturo-lerena/"
    ],
@@ -3806,7 +3806,7 @@
   },
   {
    "name": "Bernabe Lerena",
-   "url": "/people/?q=Bernabe%20Lerena",
+   "url": "/same-name/bernabe-lerena/",
    "bearers": [
     "/people/bernabe-lerena-2/",
     "/people/bernabe-lerena-3/",
@@ -3821,7 +3821,7 @@
   },
   {
    "name": "Bernabé Lerena",
-   "url": "/people/?q=Bernabe%20Lerena",
+   "url": "/same-name/bernabe-lerena/",
    "bearers": [
     "/people/bernabe-lerena-2/",
     "/people/bernabe-lerena-3/",
@@ -4185,7 +4185,7 @@
   },
   {
    "name": "Gilberto Lerena",
-   "url": "/people/?q=Gilberto%20Lerena",
+   "url": "/same-name/gilberto-lerena/",
    "bearers": [
     "/people/gilberto-lerena-2/",
     "/people/gilberto-lerena-3/"
@@ -4466,7 +4466,7 @@
   },
   {
    "name": "Luis Lerena",
-   "url": "/people/?q=Luis%20Lerena",
+   "url": "/same-name/luis-lerena/",
    "bearers": [
     "/people/luis-lerena-2/",
     "/people/luis-lerena/"
@@ -4526,7 +4526,7 @@
   },
   {
    "name": "Maria Lerena",
-   "url": "/people/?q=Maria%20Lerena",
+   "url": "/same-name/maria-lerena/",
    "bearers": [
     "/people/maria-elena-lerena/",
     "/people/maria-lerena-2/",
@@ -4623,7 +4623,7 @@
   },
   {
    "name": "María Lerena",
-   "url": "/people/?q=Maria%20Lerena",
+   "url": "/same-name/maria-lerena/",
    "bearers": [
     "/people/maria-elena-lerena/",
     "/people/maria-lerena-2/",
@@ -4691,7 +4691,7 @@
   },
   {
    "name": "Mauricio Lerena",
-   "url": "/people/?q=Mauricio%20Lerena",
+   "url": "/same-name/mauricio-lerena/",
    "bearers": [
     "/people/mauricio-lerena-2/",
     "/people/mauricio-lerena/"
@@ -4874,7 +4874,7 @@
   },
   {
    "name": "Ramon Lerena",
-   "url": "/people/?q=Ramon%20Lerena",
+   "url": "/same-name/ramon-lerena/",
    "bearers": [
     "/people/ramon-lerena-2/",
     "/people/ramon-lerena/"
@@ -4912,7 +4912,7 @@
   },
   {
    "name": "Ramón Lerena",
-   "url": "/people/?q=Ramon%20Lerena",
+   "url": "/same-name/ramon-lerena/",
    "bearers": [
     "/people/ramon-lerena-2/",
     "/people/ramon-lerena/"
@@ -5011,7 +5011,7 @@
   },
   {
    "name": "Serapio Fernandez",
-   "url": "/people/?q=Serapio%20Fernandez",
+   "url": "/same-name/serapio-fernandez/",
    "bearers": [
     "/people/serapio-fernandez-2/",
     "/people/serapio-fernandez/"
@@ -5019,7 +5019,7 @@
   },
   {
    "name": "Serapio Fernández",
-   "url": "/people/?q=Serapio%20Fernandez",
+   "url": "/same-name/serapio-fernandez/",
    "bearers": [
     "/people/serapio-fernandez-2/",
     "/people/serapio-fernandez/"
@@ -5141,7 +5141,7 @@
   }
  ],
  "labels": {
-  "shared": "Several people share this name: opens the list"
+  "shared": "Several people share this name: opens the page that tells them apart"
  },
  "nearWindow": 120
 }

@@ -1,0 +1,14 @@
+# The shared names that have a /same-name/<slug>/ page: the commonest unresolved shared-name links of the built site.
+# Written by `python3 tools/run-autolink.py --pick-same [--top N]` (N=10); the links column is the count then. The name is the ascii form;
+# the accent forms and every other spelling of the name go to the same page. Edit by hand only to drop a name.
+name	slug	links
+Maria Lerena	maria-lerena	38
+Luis Lerena	luis-lerena	35
+Alejandro Lerena	alejandro-lerena	30
+Ramon Lerena	ramon-lerena	24
+Bernabe Lerena	bernabe-lerena	22
+Arturo Lerena	arturo-lerena	21
+Gilberto Lerena	gilberto-lerena	21
+Serapio Fernandez	serapio-fernandez	18
+Antonina Lerena	antonina-lerena	17
+Mauricio Lerena	mauricio-lerena	17

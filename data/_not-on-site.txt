@@ -175,3 +175,7 @@ era-ground
 era-towns
 # 18 October 2026. NOT A PAGE: the point (hand-written, two decimals) of each town named in data/era-ground.tsv, used only so the kit can refuse a
 # place within 15 km of its region's ring edge. Read by tools/build-era.py.
+same-names
+# 19 October 2026. NOT A PAGE: the shared names that have a /same-name/<slug>/ page and the count of their unresolved links when they were picked.
+# Read by tools/run-autolink.py (the index sends those names' unresolved links to the page; --same-data writes site/src/data/same-name.json, which the
+# pages render).

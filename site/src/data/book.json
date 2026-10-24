@@ -321,6 +321,7 @@
  "inherit": {
   "/people/": "/people/",
   "/who/": "/who/",
+  "/same-name/": "/people/",
   "/places/": "/places/"
  },
  "outside": [

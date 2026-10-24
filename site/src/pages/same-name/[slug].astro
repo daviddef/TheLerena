@@ -1,0 +1,98 @@
+---
+/* ONE PAGE PER SHARED NAME that many links lead to (19 October 2026). A name several people bear, in a sentence the data cannot decide, used to open the
+   people list filtered on the name: a long table. This page opens instead and says which person is which: for every dead person with a page whose
+   register name carries the name, the standing, the born year (or "not dated"), the place, the relatives the data records who are dead and have a page, the
+   line of the record that produced them, and a link to their page. Everything is read from people.json by tools/run-autolink.py --same-data
+   (site/src/data/same-name.json); nothing is added, nothing is said about who is who beyond what a row says.
+
+   WHO IS LISTED. Only a dead person with a page of their own. A living or held-out person, or one born within a hundred years with no death recorded, is
+   never listed, and the generator refuses to make this page's data at all if the name has one (so the count in the first sentence cannot be short by
+   somebody). A relative who is living or held out is not named. The people list shows a living person as a name and a town; this page shows none.
+
+   NO "AT THE TIME" NOTE. This page carries no era notes: it states no dated place-event of one person. The place is where the register FOUND the person
+   (the people list's "Where" column), set beside a born year only as two separate facts; it is not said to be the birthplace.
+
+   INDEXABLE, like the people list: every person on it is dead and public. Not in any menu; the book gives it the chapter of The People (book.json "inherit"). */
+import Base from "../../layouts/Base.astro";
+import { u } from "../../lib/url.js";
+import data from "../../data/same-name.json";
+
+export function getStaticPaths() {
+  return data.pages.map((p) => ({ params: { slug: p.slug }, props: { page: p } }));
+}
+const { page } = Astro.props;
+const { name } = page;
+const exact = page.bearers.filter((b) => b.exact);
+const longer = page.bearers.filter((b) => !b.exact);
+const STATUS = { connected: "Connected to the line", high: "High interest", interest: "Of interest",
+  unplaced: "Unplaced", excluded: "Excluded" };
+const plural = (n, one, many) => (n === 1 ? one : many);
+
+const lead = exact.length === 1
+  ? `1 person in this archive is called ${name}, and ${longer.length} more carry the name inside a longer one. They are not all the same person; here is how to tell them apart.`
+  : `${exact.length} people in this archive are called ${name}. They are not all the same person; here is how to tell them apart.`;
+const groups = [
+  { id: "called", head: `Called ${name}`, list: exact,
+    note: "Their register name reads as this name, with whatever the register adds in brackets to tell them apart." },
+  { id: "inside", head: `Carrying ${name} inside a longer name`, list: longer,
+    note: `A second given name, a second surname or an initial stands between or after the words, so a page that writes just “${name}” may be using it for one of them.` },
+].filter((g) => g.list.length);
+---
+<Base title={`${name}: telling them apart`} noAutolink
+      eyebrow="A name several people share"
+      dek={lead}>
+
+<section class="blk">
+  <p class="prose">This page does not decide which of them a sentence means. It sets out what the archive's data says of each person who bears the name, so a
+    reader can tell them apart; each name opens that person&rsquo;s own page.
+    Ordered by standing, then by year. {page.bearers.length} {plural(page.bearers.length, "person", "people")} in all.</p>
+  <p class="cap">Only people who have died and have a page are listed. A relative is shown where the data records one who has died and has a page.
+    A relationship marked <em>family tree, unverified</em> comes from a user-contributed tree and has not been checked against a record.</p>
+</section>
+
+{groups.map((g) => (
+  <section class="blk" id={g.id}>
+    <h2>{g.head} <span class="cap sn-n">({g.list.length})</span></h2>
+    <p class="cap" style="margin-top:6px">{g.note}</p>
+    <ol class="sn-list">
+      {g.list.map((b) => (
+        <li class="sn-one" id={b.slug}>
+          <h3><a href={u(`/people/${b.slug}/`)}>{b.name}</a></h3>
+          <p class="sn-chips"><span class="chip">{STATUS[b.status] || b.status}</span></p>
+          <dl class="sn-facts">
+            <dt>Born</dt><dd>{b.born || "not dated"}</dd>
+            {b.died && <><dt>Died</dt><dd>{b.died}</dd></>}
+            {b.where && <><dt>Found at</dt><dd>{b.where}</dd></>}
+            {(b.father || b.mother) && <><dt>Parents</dt><dd>{[b.father, b.mother].filter(Boolean).map((r, i) => (
+              <>{i ? "; " : ""}<a href={u(`/people/${r.slug}/`)}>{r.name}</a>{r.tree && <span class="cap sn-t"> (family tree, unverified)</span>}</>))}</dd></>}
+            {b.spouses.length > 0 && <><dt>{b.spouses.length === 1 ? "Spouse" : "Spouses"}</dt><dd>{b.spouses.map((r, i) => (
+              <>{i ? "; " : ""}<a href={u(`/people/${r.slug}/`)}>{r.name}</a>{r.tree && <span class="cap sn-t"> (family tree, unverified)</span>}</>))}</dd></>}
+            {b.children.length > 0 && <><dt>{b.children.length === 1 ? "Child" : "Children"}</dt><dd>{b.children.map((r, i) => (
+              <>{i ? "; " : ""}<a href={u(`/people/${r.slug}/`)}>{r.name}</a>{r.tree && <span class="cap sn-t"> (family tree, unverified)</span>}</>))}</dd></>}
+            {b.source && <><dt>On the word of</dt><dd>{b.source}</dd></>}
+          </dl>
+        </li>
+      ))}
+    </ol>
+  </section>
+))}
+
+<section class="blk">
+  <p class="cap">Every line here is read from the people list, <a href={u("/people/")}>which has the same people in one table</a>;
+    <a href={u(`/people/?q=${encodeURIComponent(name)}`)}>the same list filtered on this name</a> is the longer way round.
+    Nothing on this page is a new claim about anyone. &nbsp;·&nbsp; <a href={u("/people/")}>&larr; All the people</a></p>
+</section>
+
+<style>
+  .sn-n { font-weight: 400; }
+  .sn-list { list-style: none; margin: 18px 0 0; padding: 0; display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); }
+  .sn-one { border: 1px solid var(--rule); border-radius: 4px; padding: 14px 16px; background: var(--panel); min-width: 0; }
+  .sn-one h3 { margin: 0; font-size: 1.05rem; line-height: 1.3; overflow-wrap: anywhere; }
+  .sn-chips { margin: 8px 0 0; }
+  .sn-facts { display: grid; grid-template-columns: max-content 1fr; gap: 4px 14px; margin: 10px 0 0; font-size: .95rem; line-height: 1.45; }
+  .sn-facts dt { color: var(--ink-3); font-family: var(--sans); font-size: 12px; letter-spacing: .04em; padding-top: 2px; }
+  .sn-facts dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
+  .sn-t { display: inline; margin: 0; }
+  @media (max-width: 520px) { .sn-facts { grid-template-columns: 1fr; gap: 0; } .sn-facts dd { margin-bottom: 6px; } }
+</style>
+</Base>

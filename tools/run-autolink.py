@@ -8,6 +8,8 @@
     python3 tools/run-autolink.py --index-only    write site/src/data/names-index.json and the living list, run nothing else
     python3 tools/run-autolink.py --standard      the kit's checkstandard.py (the linking standard) against site/.standardfloor.json
     python3 tools/run-autolink.py --write-standard-floor   lock the standard's counts in as the ceiling (refuses while anything rose)
+    python3 tools/run-autolink.py --pick-same [--top N]   count the unresolved shared-name links in site/dist and write the N commonest (10) to data/same-names.tsv
+    python3 tools/run-autolink.py --same-data     write site/src/data/same-name.json (the pages' bearer lists) from people.json; the build runs it before astro
 
 WHY (David, 18 October 2026: "why do so many names on our narrative pages have no link to their person page?"). The audit
 of the same day found 23 of 1,254 resolvable mentions linked on this archive's twelve longest pages (1.8%) and none of the
@@ -45,6 +47,16 @@ THE LIVING LIST (written OUTSIDE the repository, $AUTOLINK_LIVING or ~/.local/st
   living. Each living or held-out person contributes their name, the forms a sentence might use for them, and their
   addresses. Nothing in it is private DATA: it is derived from tracked files only, so CI can build it, and CI does.
 
+THE SAME-NAME PAGES (19 October 2026; David: "build proper disambiguation pages for the most-shared names"). A shared name no rule decides used to
+  land the reader on the filtered people list, a long table. For the N commonest such names (data/same-names.tsv, written by --pick-same from the
+  count of data-autolink="search" links in the built site) the unresolved target is now /same-name/<slug>/, a page that lists every dead person
+  with a page who bears the name (the resolve rules' own bearer set: is_subseq, so a "Maria Adelina LERENA Traibel" is a bearer of "Maria Lerena"
+  and a rule may send a reader to her), what the data says to tell them apart, and a link to each. Only the url of the index entry changes: the
+  entry is still `ambiguous`, the link is still data-autolink="search", and every resolve rule stands. The page data is site/src/data/same-name.json
+  (--same-data; committed, like the names index). A bearer who is living, held out or undated-and-recent is NEVER listed; if a name has one, the
+  generator stops (exit 2) rather than print a count the page could not stand behind. The kit has one label for every search link
+  (labels.shared), so the cue is the same on every unresolved link.
+
 CI. The deploy runs `npm run build`, which runs this file on the tracked data: nothing here needs a gitignored file. If the
 living list cannot be built (no kit, nobody living found, no people.json) this file exits 2 and the build stops: a linker that
 cannot check the living list does not run. It prints COUNTS only, never a name.
@@ -64,6 +76,10 @@ HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parent
 SITE = ROOT / "site"
 ALIASES = ROOT / "data" / "names-aliases.tsv"
+SAME_PICK = ROOT / "data" / "same-names.tsv"
+SAME_DATA = ROOT / "site" / "src" / "data" / "same-name.json"
+SAME_PREFIX = "/same-name/"
+SAME_TOP = 10
 sys.path.insert(0, str(HERE))
 import livingcheck as L  # noqa: E402
 
@@ -317,7 +333,7 @@ def living_terms(pop, rows):
 # relative the data writes into a bearer's own name or note) can stop one.
 # ---------------------------------------------------------------------------------------------------------------------------
 NEAR_WINDOW = 120
-SHARED_LABEL = "Several people share this name: opens the list"
+SHARED_LABEL = "Several people share this name: opens the page that tells them apart"
 RULE_KINDS = {"spouse", "coparent"}
 
 
@@ -495,6 +511,170 @@ def check_rules(index, rows, living_addr):
             elif len(leads) != 1 or not (slug(near) in spouse_or_co[next(iter(leads))]):
                 bad += 1
     return bad
+
+
+
+# ---------------------------------------------------------------------------------------------------------------------------
+# THE SAME-NAME PAGES (see the docstring). data/same-names.tsv (name, slug, links) names the shared names that have a page; --pick-same
+# writes it from the built site; the index sends those names' unresolved links to /same-name/<slug>/; --same-data writes the pages' data.
+# ---------------------------------------------------------------------------------------------------------------------------
+STANDING_ORDER = {"connected": 0, "high": 1, "interest": 2, "unplaced": 3, "excluded": 4}
+
+
+def read_same_picks():
+    """data/same-names.tsv -> [(name, slug, links)]. A malformed line stops the build."""
+    out = []
+    if not SAME_PICK.exists():
+        return out
+    for n, line in enumerate(SAME_PICK.read_text(encoding="utf-8").splitlines(), 1):
+        if not line.strip() or line.startswith("#") or line.startswith("name\t"):
+            continue
+        cells = (line.split("\t") + ["", "", ""])[:3]
+        name, slug, links = [c.strip() for c in cells]
+        if not name or len(name.split()) < 2 or slug != slugify(name) or not links.isdigit():
+            print(f"  FAIL  same-name  data/same-names.tsv line {n}: needs a two-word name, its slug and a link count")
+            raise SystemExit(2)
+        out.append((name, slug, int(links)))
+    if len({s for _n, s, _l in out}) != len(out):
+        print("  FAIL  same-name  data/same-names.tsv names a slug twice")
+        raise SystemExit(2)
+    return out
+
+
+def same_old_url(name):
+    return "/people/?q=" + name.replace(" ", "%20")
+
+
+def apply_same_urls(ambiguous, picks):
+    """Send the unresolved target of every picked shared name (accent forms included: they share the url) to its page. Returns the count of
+    index entries changed. A pick that is not a shared name stops the run: the file is stale."""
+    n = 0
+    for name, slug, _links in picks:
+        old = same_old_url(name)
+        hit = [e for e in ambiguous if e["url"] == old]
+        if not hit:
+            print(f"  FAIL  same-name  data/same-names.tsv names a name that is not a shared name now (slug {slug}); run --pick-same")
+            raise SystemExit(2)
+        for e in hit:
+            e["url"] = SAME_PREFIX + slug + "/"
+            n += 1
+    return n
+
+
+def listed_bearer(r, year, living_addr):
+    """A dead person with a page of their own, who may be listed: not an alias row, not living, not held out (noindex), not at an address
+    the living list holds, and not born within a hundred years with no death recorded. Unlike `eligible` in resolve_rules this does not
+    need a clean name: Alejandro M. Lerena is a bearer of Alejandro Lerena."""
+    if r.get("aliasOf") or r.get("living") or r.get("noindex") or f"/people/{r['slug']}/" in living_addr:
+        return False
+    by_ = re.search(r"\b(1[0-9]{3}|20[0-9]{2})", str(r.get("born") or ""))
+    return not (by_ and not str(r.get("died") or "").strip() and int(by_.group(1)) > year - RECENT_YEARS)
+
+
+def year_text(raw):
+    """'1865-10-08' -> '1865'; 'c.1877' or '1827c' -> 'about 1877'; no year -> ''."""
+    raw = str(raw or "")
+    m = re.search(r"\b(1[0-9]{3}|20[0-9]{2})", raw)
+    if not m:
+        return ""
+    approx = bool(re.search(r"\bc\.?\s*\d|\d\s*c\b|\bcirca\b|\babout\b|\bby\b|\?", raw))
+    return ("about " if approx else "") + m.group(1)
+
+
+def source_line(raw, limit=170):
+    """A one-line summary of the register's `source` cell: the markers removed, cut at the first ";", " - " or sentence end after 30 characters, or at
+    `limit` characters on a word boundary, with an ellipsis when anything was left out. Only words the cell itself holds."""
+    t = " ".join(re.sub(r"\*+", "", str(raw or "")).split())
+    if len(t) <= 60:
+        return t
+    cut = len(t)
+    for m in re.finditer(r";\s| - |\.\s(?=[A-Z])", t):
+        if m.start() >= 30:
+            cut = m.start()
+            break
+    cut = min(cut, limit)
+    if cut >= len(t):
+        return t
+    head = t[:cut]
+    if cut == limit and cut < len(t) and t[cut] != " " and " " in head:
+        head = head[:head.rfind(" ")]
+    return head.rstrip(" ,;:.") + " \u2026"
+
+
+def same_name_data(rows, pop, year, living_addr, picks):
+    """The data of the pages: for each picked name, every dead person with a page whose register name carries the name (its words, in order,
+    the first word the same: the resolve rules' own bearer set), what the data says of them, and their dead relatives who have a page.
+    Stops (exit 2) when any bearer of the name is living, held out or not asserted dead: the page counts people and must not be
+    able to leave one out unseen."""
+    by = {r["slug"]: r for r in rows}
+    row_names = {r["name"] for r in rows}
+    pages = []
+    for name, slug, links in picks:
+        n, k = tokens_of(name), key_of(name)
+        hits = [r for r in rows if not r.get("aliasOf") and is_subseq(n, tokens_of(r["name"]))]
+        withheld = [r for r in hits if not listed_bearer(r, year, living_addr)]
+        unrowed = [p for p in pop if is_subseq(n, tokens_of(p.name)) and p.name not in row_names]
+        if withheld or unrowed:
+            print(f"  FAIL  same-name  a page for a shared name cannot be made while a bearer is living or held out "
+                  f"({len(withheld)} in the people list, {len(unrowed)} outside it) - for one of the {len(picks)} names")
+            raise SystemExit(2)
+
+        def rel(o):
+            t = by.get((o or {}).get("slug"))
+            if t is None or not listed_bearer(t, year, living_addr) or o.get("living"):
+                return None
+            return {"slug": t["slug"], "name": t["name"], "tree": o.get("via") == "tree"}
+
+        bearers = []
+        for r in hits:
+            c = clean(r["name"])
+            exact = bool(c) and key_of(c) == k
+            bearers.append({
+                "slug": r["slug"], "name": r["name"], "exact": exact, "status": r["status"],
+                "born": year_text(r.get("born")), "died": year_text(r.get("died")),
+                "where": " · ".join(x for x in (r.get("place"), r.get("nationality")) if x and x != "-"),
+                "source": source_line(r.get("source")),
+                "father": rel(r.get("father")), "mother": rel(r.get("mother")),
+                "spouses": [x for x in (rel(o) for o in (r.get("spouses") or [])) if x],
+                "children": [x for x in (rel(o) for o in (r.get("children") or [])) if x],
+            })
+        bearers.sort(key=lambda b: (not b["exact"], STANDING_ORDER.get(b["status"], 9),
+                                    int(b["born"][-4:]) if b["born"] else 9999, b["name"].casefold()))
+        pages.append({"name": name, "slug": slug, "links": links, "exact": sum(1 for b in bearers if b["exact"]),
+                      "bearers": bearers})
+    return {"note": "Generated by tools/run-autolink.py --same-data from site/src/data/people.json and data/same-names.tsv. Never edit by hand.",
+            "pages": pages}
+
+
+def pick_same(index, top):
+    """Count the data-autolink="search" links in the built site by the name they carry (folded: case and accent) and write the `top`
+    commonest to data/same-names.tsv. Counted by link text, so it gives the same answer before and after the links are redirected."""
+    counts = {}
+    for d, ds, fs in os.walk(SITE / "dist"):
+        ds[:] = [x for x in ds if x not in ("node_modules", "_astro")]
+        for f in fs:
+            if not f.endswith(".html"):
+                continue
+            page = (pathlib.Path(d) / f).read_text(encoding="utf-8")
+            for m in re.finditer(r'<a href="[^"]*" data-autolink="search"[^>]*>(.*?)</a>', page, re.S):
+                t = " ".join(_html.unescape(re.sub(r"<[^>]+>", "", m.group(1))).split())
+                counts[key_of(t)] = counts.get(key_of(t), 0) + 1
+    if not counts:
+        print("  --    same-name  not run: no data-autolink=\"search\" link in site/dist (build first)")
+        raise SystemExit(2)
+    names = {}
+    for e in index["ambiguous"]:
+        k = key_of(e["name"])
+        if k not in names or (e["name"] == ascii_fold(e["name"]) and names[k] != ascii_fold(names[k])):
+            names[k] = e["name"]
+    ranked = sorted(((c, names[k]) for k, c in counts.items() if k in names), key=lambda x: (-x[0], x[1].casefold()))[:top]
+    lines = ["# The shared names that have a /same-name/<slug>/ page: the commonest unresolved shared-name links of the built site.",
+             "# Written by `python3 tools/run-autolink.py --pick-same [--top N]` (N=%d); the links column is the count then. The name is the ascii form;" % SAME_TOP,
+             "# the accent forms and every other spelling of the name go to the same page. Edit by hand only to drop a name.",
+             "name\tslug\tlinks"]
+    lines += [f"{nm}\t{slugify(nm)}\t{c}" for c, nm in ranked]
+    SAME_PICK.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    return ranked
 
 
 def build(write=True):
@@ -682,6 +862,7 @@ def build(write=True):
                 amb_extra.append({"name": v, "url": e["url"]})
                 prov[(e["url"], v)] = "accent"
     ambiguous += amb_extra
+    same_n = apply_same_urls(ambiguous, read_same_picks())
     for e in people:
         e["aliases"] = sorted(set(e["aliases"]))
     for e in people + ambiguous:
@@ -699,7 +880,7 @@ def build(write=True):
         kinds[v] = kinds.get(v, 0) + 1
     stats = {"people": len(people), "ambiguous": len(ambiguous), "aliases": sum(len(e["aliases"]) for e in people),
              "kinds": kinds, "stated": n_stated, "living_terms": len(nl), "living_people": n_liv, "skipped": skipped,
-             "prefix_ambiguous": len(stats_prefix), "_prov": prov, "resolve": rstats}
+             "prefix_ambiguous": len(stats_prefix), "_prov": prov, "resolve": rstats, "same": same_n}
     if write:
         INDEX.write_text(json.dumps(index, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
         lp = living_path()
@@ -878,7 +1059,7 @@ def guard_pass(dist, rows, living_file):
         if c:
             GIVEN_NAMES.add(ascii_fold(c.split(" ")[0]).casefold())
     ln, lu = A.load_living(str(living_file))
-    idx = A.load_index(str(INDEX), ln, lu, ["/people/", "/who/"], 2)
+    idx = A.load_index(str(INDEX), ln, lu, ["/people/", "/who/", SAME_PREFIX], 2)
     wrapped = pages = 0
     for rounds in range(8):
         again = False
@@ -934,14 +1115,29 @@ def main():
     ap.add_argument("--index-only", action="store_true")
     ap.add_argument("--standard", action="store_true", help="the kit's checkstandard.py against site/.standardfloor.json (the last step of the build)")
     ap.add_argument("--write-standard-floor", action="store_true", help="lock the standard's current counts in (refuses while anything rose)")
+    ap.add_argument("--pick-same", action="store_true", help="write data/same-names.tsv from the unresolved links of the built site")
+    ap.add_argument("--top", type=int, default=SAME_TOP, help="with --pick-same: how many names (default %d)" % SAME_TOP)
+    ap.add_argument("--same-data", action="store_true", help="write site/src/data/same-name.json (before astro builds the pages)")
     ap.add_argument("--dist", default="dist", help="relative to site/")
     a = ap.parse_args()
     if not (KIT / "autolink.py").exists():
         print("  --    names      not run: the pinned kit has no kit/tools/autolink.py - the pin must be fcdfefe or later "
               "and `npm install` run in site/")
         return 2
-    index, nl, nladdr, st = build(write=True)
+    if a.pick_same:
+        # the index as it stands: the names several people share (a name already sent to a page is found by its folded text)
+        index, _nl, _nladdr, _st = build(write=False)
+        ranked = pick_same(index, a.top)
+        print(f"  same-name: {len(ranked)} names picked, {sum(c for c, _ in ranked)} of the unresolved links: " + ", ".join(str(c) for c, _ in ranked))
+        return 0
+    index, nl, nladdr, st = build(write=not a.same_data)
     rows = json.loads(PEOPLE.read_text(encoding="utf-8"))
+    if a.same_data:
+        pop, _lr, year = L.population(ROOT)
+        data = same_name_data(rows, pop, year, set(nladdr), read_same_picks())
+        SAME_DATA.write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+        print(f"  same-name: {len(data['pages'])} page(s), {sum(len(p['bearers']) for p in data['pages'])} bearer(s) listed")
+        return 0
     bad = self_check(index, nl, nladdr, rows, st["_prov"])
     sk = ", ".join(f"{v} {k}" for k, v in st["skipped"].items() if v)
     kinds = ", ".join(f"{v} {k}" for k, v in sorted(st["kinds"].items()))
@@ -971,7 +1167,7 @@ def main():
             except OSError:
                 pass
     common = ["--dist", str(dist), "--index", str(INDEX), "--living", str(living_path()),
-              "--allow-prefix", "/people/", "--allow-prefix", "/who/"]
+              "--allow-prefix", "/people/", "--allow-prefix", "/who/", "--allow-prefix", SAME_PREFIX]
     if a.gate or a.write_floor:
         cmd = [sys.executable, str(KIT / "checklinks.py")] + common + ["--floor", str(FLOOR)]
         if a.write_floor:
