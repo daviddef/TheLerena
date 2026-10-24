@@ -7,10 +7,11 @@ first class, at item 49, line 5:
 
 > **Carlos Gustavo LERENA**, born **20 January 1915**, married, **nationality Argentine**,
 > **occupation: DIPLOMATIC**, last country of residence Argentina,
-> ***future country of residence: IRAN***, address in Britain: Hotel Cumberland.
+> ***future country of residence: IRAN***, address in Britain: a London hotel.
 
-With him: **Nelly Maria Delvalle Lerena** (b. 1922), **Carlos Gilberto Lerena** (b. 1946) and
-**Eleonora Lerena** (b. 1947) — evidently his wife and two children, in transit to a posting.
+With him: **Nelly Maria Delvalle Lerena** (b. 1922), **Carlos Gilberto Lerena** and
+**Eleonora Lerena** — evidently his wife and two children, in transit to a posting. (The children's
+years are withheld: they are within the eighty-year line.)
 
 ## Why this is worth a note
 

@@ -56,7 +56,7 @@ Wilhelmina Chappell in September 1936, and his daughter appears in the 1973 esta
 *Juanita Ramond Hutson (born Lerena)*. **A Juanita Ramona Lerena born 1937 fits exactly.** Probably ours.
 
 **A family group of four arriving in Great Britain in 1958** — *Carlos Gustavo* b.1915, *Nelly Maria
-Delvalle* b.1922, *Carlos Gilberto* b.1946, *Eleonora* b.1947. Not ours on present evidence, but
+Delvalle* b.1922, *Carlos Gilberto*, *Eleonora* (the children's years are withheld). Not ours on present evidence, but
 ***Carlos Gilberto*** carries **both** of the names that define the Argentine Stud Book family, where
 Gilberto Lerena (b.1854, Uruguay) named a son **Carlos** Augusto Federico (b.1883). The pairing is not a
 coincidence of common names — Gilberto is rare. This is the Gilberto thread surfacing a third time, after

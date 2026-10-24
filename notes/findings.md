@@ -513,9 +513,9 @@ Southampton for the Cape c.1903-05, **both names are on one list.** Roque was bo
   needs re-reading — possibly a prior married name, possibly an error.
 - Roque's 2nd wife: **Rhena May BARICHIEVY, 3 Sep 1913 – 1 Apr 1998**.
 - **Ricardo Juan Carlos Lerena, 6 Jan 1920 – 21 Dec 1994.** Children incl. Roberto Juan Roque (1944-2022),
-  **Ricardo Paul (b. 1945)**, Pierre Frederick (1948-1999), Yvonne Paulette (b. 1950), **Anton Armando
-  (1952-2003)**, Juan Carlos (b. 1955), **Gilberto (1957-2020)** — note *Gilberto*, echoing Gilberto Lerena
-  Lenguas of the Argentine Stud Book. Theresa (b. 1961).
+  **Ricardo Paul (b. 1945)**, Pierre Frederick (1948-1999), Yvonne Paulette, **Anton Armando
+  (1952-2003)**, Juan Carlos, **Gilberto (1957-2020)** — note *Gilberto*, echoing Gilberto Lerena
+  Lenguas of the Argentine Stud Book. Theresa.
 - Infant deaths: Unknown Lerena (17-22 May 1932); Rieta Maria Armando Lerena (Dec 1935 – 28 Aug 1937);
   Ricardo Juan Carlos Lerena (May 1939 – 31 Jan 1940); Antoinette Septima Lynette (3-7 Jan 1943);
   Careen Marie (Jun 1947 – 22 Jun 1947).

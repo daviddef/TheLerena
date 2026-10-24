@@ -43392,7 +43392,8 @@
     "dates": "",
     "slug": "lynn-derrick-luwinski",
     "via": "register",
-    "note": ""
+    "note": "",
+    "living": true
    }
   ],
   "children": [],
@@ -43524,7 +43525,7 @@
   "nationality": "",
   "occupation": "",
   "where": "",
-  "source": "Named as a relative in data/relations.tsv; no record of their own has been read into this register",
+  "source": "",
   "status": "connected",
   "statusRaw": "CONNECTED",
   "note": "",
@@ -43533,10 +43534,8 @@
   "surname": "LUWINSKI",
   "ark": "",
   "sourceUrl": "",
-  "noLink": "no public link",
-  "relOnly": true,
-  "datesFrom": "",
-  "living": false,
+  "noLink": "",
+  "living": true,
   "gen": null,
   "father": null,
   "mother": null,
@@ -43560,6 +43559,8 @@
   "relRegister": 1,
   "relTree": 0,
   "evidence": [],
+  "town": "",
+  "country": "",
   "noindex": true
  },
  {
