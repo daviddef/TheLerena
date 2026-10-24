@@ -534,6 +534,7 @@ def main():
 def full_builds(dist):
     """Two REAL builds in scratch copies: a planted living person, then a planted leak in the template."""
     src = ROOT
+    n_live = sum(1 for p_ in L.population(ROOT)[0] if p_.living) + 1          # the roster's own people, and the planted one
     for label, leak in (("planted living person through the whole build", False),
                         ("planted leak in the person template", True)):
         t = pathlib.Path(tempfile.mkdtemp(prefix="living-full-"))
@@ -561,9 +562,9 @@ def full_builds(dist):
             out = r.stdout + r.stderr
             if not leak:
                 m = re.search(r"ok\s+living-std\s+(.*)", out)
-                ok = r.returncode == 0 and bool(m) and "2 living" in out
-                results.append((ok, f"FULL BUILD  {label}: build exits 0 and both gates see 2 living",
-                                (m.group(1)[:90] if m else out[-200:])))
+                ok = r.returncode == 0 and bool(m) and f"{n_live} living" in out
+                results.append((ok, f"FULL BUILD  {label}: build exits 0 and both gates see {n_live} living",
+                                (m.group(1)[:90] if m and r.returncode == 0 else f"exit {r.returncode}: " + out[-300:])))
             else:
                 ok = r.returncode != 0 and "shows a year (1799)" in out
                 results.append((ok, f"FULL BUILD  {label}: the build FAILS at the standard gate",
