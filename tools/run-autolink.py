@@ -53,9 +53,11 @@ THE SAME-NAME PAGES (19 October 2026; David: "build proper disambiguation pages 
   with a page who bears the name (the resolve rules' own bearer set: is_subseq, so a "Maria Adelina LERENA Traibel" is a bearer of "Maria Lerena"
   and a rule may send a reader to her), what the data says to tell them apart, and a link to each. Only the url of the index entry changes: the
   entry is still `ambiguous`, the link is still data-autolink="search", and every resolve rule stands. The page data is site/src/data/same-name.json
-  (--same-data; committed, like the names index). A bearer who is living, held out or undated-and-recent is NEVER listed; if a name has one, the
-  generator stops (exit 2) rather than print a count the page could not stand behind. The kit has one label for every search link
-  (labels.shared), so the cue is the same on every unresolved link.
+  (--same-data; committed, like the names index). The cue follows the target: the kit stamps labels.shared (the list) on every search link and
+  has no per-link label, so after it runs relabel_same() rewrites the title and aria-label of the links that go to a page, and the kit's own
+  gate is run on a copy of the index with an empty label (which turns off its one-label check) beside check_cues(), which holds each link to the
+  label of its own target. A bearer who is living, held out or undated-and-recent is NEVER listed; if a name has one, the
+  generator stops (exit 2) rather than print a count the page could not stand behind.
 
 CI. The deploy runs `npm run build`, which runs this file on the tracked data: nothing here needs a gitignored file. If the
 living list cannot be built (no kit, nobody living found, no people.json) this file exits 2 and the build stops: a linker that
@@ -333,7 +335,8 @@ def living_terms(pop, rows):
 # relative the data writes into a bearer's own name or note) can stop one.
 # ---------------------------------------------------------------------------------------------------------------------------
 NEAR_WINDOW = 120
-SHARED_LABEL = "Several people share this name: opens the page that tells them apart"
+SHARED_LABEL = "Several people share this name: opens the list"
+SAME_LABEL = "Several people share this name: opens the page that tells them apart"
 RULE_KINDS = {"spouse", "coparent"}
 
 
@@ -559,6 +562,73 @@ def apply_same_urls(ambiguous, picks):
             e["url"] = SAME_PREFIX + slug + "/"
             n += 1
     return n
+
+
+SEARCH_LINK = re.compile(r'<a href="([^"]*)" data-autolink="search"([^>]*)>(.*?)</a>', re.S)
+
+
+def gate_index_file():
+    """A copy of the names index with an empty labels.shared, for the kit's gates (checklinks.py, checkstandard.py): the kit holds every search
+    link to that ONE title, and an empty label turns the check off. check_cues() holds each link to its own target's wording instead. The
+    caller removes the file."""
+    import tempfile
+    idx = json.loads(INDEX.read_text(encoding="utf-8"))
+    idx["labels"] = {"shared": ""}
+    tmp = tempfile.NamedTemporaryFile("w", suffix=".json", delete=False, encoding="utf-8")
+    json.dump(idx, tmp, ensure_ascii=False)
+    tmp.close()
+    return tmp.name
+
+
+def cue_for(href):
+    return SAME_LABEL if href.startswith(SAME_PREFIX) else SHARED_LABEL
+
+
+def relabel_same(dist):
+    """After the kit has linked: a search link to a /same-name/ page says so in its title and aria-label (the kit stamped the list's wording).
+    Only anchors the kit marked data-autolink="search" are touched, and only their two attributes. Returns the number rewritten."""
+    n = 0
+    for path in sorted(pathlib.Path(dist).rglob("*.html")):
+        page = path.read_text(encoding="utf-8")
+        if SAME_PREFIX not in page:
+            continue
+
+        def fix(m):
+            nonlocal n
+            if not m.group(1).startswith(SAME_PREFIX) or SHARED_LABEL not in m.group(2):
+                return m.group(0)
+            n += 1
+            attrs = m.group(2).replace(attr_esc(SHARED_LABEL), attr_esc(SAME_LABEL)).replace(
+                attr_esc(SHARED_LABEL[:1].lower() + SHARED_LABEL[1:]), attr_esc(SAME_LABEL[:1].lower() + SAME_LABEL[1:]))
+            return f'<a href="{m.group(1)}" data-autolink="search"{attrs}>{m.group(3)}</a>'
+        new = SEARCH_LINK.sub(fix, page)
+        if new != page:
+            path.write_text(new, encoding="utf-8")
+    return n
+
+
+def attr_esc(v):
+    return v.replace("&", "&amp;").replace('"', "&quot;").replace("<", "&lt;").replace(">", "&gt;")
+
+
+def check_cues(dist):
+    """Every search link carries the class lk-shared and the title and aria-label of ITS OWN target: the page's wording for /same-name/, the
+    list's for every other. Prints the count of each kind; returns the number that differ (a run that saw no search link is a failure)."""
+    seen = {SAME_LABEL: 0, SHARED_LABEL: 0}
+    bad = 0
+    for path in sorted(pathlib.Path(dist).rglob("*.html")):
+        for m in SEARCH_LINK.finditer(path.read_text(encoding="utf-8")):
+            want = cue_for(m.group(1))
+            seen[want] += 1
+            attrs = m.group(2)
+            t = re.search(r' title="([^"]*)"', attrs)
+            a = re.search(r' aria-label="([^"]*)"', attrs)
+            if ('class="lk-shared"' not in attrs or not t or t.group(1) != attr_esc(want) or not a
+                    or not a.group(1).endswith(attr_esc(", " + want[:1].lower() + want[1:]))):
+                bad += 1
+    print(f"  cues: {seen[SAME_LABEL]} link(s) to a page say \"opens the page that tells them apart\", {seen[SHARED_LABEL]} to the list say "
+          f"\"opens the list\"; {bad} differ from their own target's wording")
+    return bad + (0 if sum(seen.values()) else 1)
 
 
 def listed_bearer(r, year, living_addr):
@@ -1155,28 +1225,46 @@ def main():
     dist = SITE / a.dist
     if a.standard or a.write_standard_floor:
         cfg_path = merged_standard_config(rows)
-        cmd = [sys.executable, str(KIT / "checkstandard.py"), "--dist", str(dist), "--index", str(INDEX), "--config", str(cfg_path),
+        gi = gate_index_file()
+        cmd = [sys.executable, str(KIT / "checkstandard.py"), "--dist", str(dist), "--index", gi, "--config", str(cfg_path),
                "--living", str(living_path()), "--floor", str(SITE / ".standardfloor.json"), "--strict-config"]
         if a.write_standard_floor:
             cmd.append("--write-floor")
         try:
             return subprocess.run(cmd, cwd=SITE).returncode
         finally:
-            try:
-                cfg_path.unlink()
-            except OSError:
-                pass
+            for f_ in (cfg_path, pathlib.Path(gi)):
+                try:
+                    f_.unlink()
+                except OSError:
+                    pass
     common = ["--dist", str(dist), "--index", str(INDEX), "--living", str(living_path()),
               "--allow-prefix", "/people/", "--allow-prefix", "/who/", "--allow-prefix", SAME_PREFIX]
     if a.gate or a.write_floor:
-        cmd = [sys.executable, str(KIT / "checklinks.py")] + common + ["--floor", str(FLOOR)]
+        # the kit's gate holds every search link to ONE title (labels.shared); the two cues differ by target, so the kit's gate reads a copy of
+        # the index with an empty label (its cue check is then off) and check_cues() holds each link to its own target's wording
+        gi = gate_index_file()
+        gcommon = list(common)
+        gcommon[gcommon.index("--index") + 1] = gi
+        cmd = [sys.executable, str(KIT / "checklinks.py")] + gcommon + ["--floor", str(FLOOR)]
         if a.write_floor:
             cmd.append("--write-floor")
+        try:
+            rc = subprocess.run(cmd, cwd=SITE).returncode
+        finally:
+            os.unlink(gi)
+        if rc == 0 and a.gate:
+            rc = 1 if check_cues(dist) else 0
+        return rc
     else:
         if not a.check:
             wrapped, gpages = guard_pass(dist, rows, living_path())
             print(f"  guard: {wrapped} mention(s) beside a longer name left unlinked on {gpages} page(s)")
         cmd = [sys.executable, str(KIT / "autolink.py")] + common + (["--check"] if a.check else [])
+        rc = subprocess.run(cmd, cwd=SITE).returncode
+        if rc == 0 and not a.check:
+            print(f"  cues: {relabel_same(dist)} link(s) to a same-name page relabelled")
+        return rc
     return subprocess.run(cmd, cwd=SITE).returncode
 
 
