@@ -185,12 +185,57 @@ def dated_mentions(text, name, is_tsv=False):
     return hits
 
 
+_WITHHOLD_RX = {}
+
+
+def withhold_dates(text, names):
+    """`text` with every date or year set directly against one of `names` replaced by «[date withheld]».
+    Used where a text cannot be rewritten at its source (a commit message printed word for word on /changes/).
+    The match is dated_mentions' own (the name, then a date as the next thing, with b./born/d./died allowed between),
+    so what this removes and what the gates look for cannot drift apart. Any run of two or more words of the name
+    counts as the name («Derrick Luwinski» for «Lynn Derrick LUWINSKI»)."""
+    for name in names:
+        if name not in _WITHHOLD_RX:
+            toks = re.sub(r"\(.*?\)", " ", name).split()
+            forms = {" ".join(toks[i:j]) for i in range(len(toks)) for j in range(i + 2, len(toks) + 1)}
+            _WITHHOLD_RX[name] = [re.compile("(" + re.escape(f).replace(r"\ ", r"\s+") + r")([\s*,:(\u2013\u2014\-]{0,6}(?:(?:b|born|d|died)\.?\s*)?)("
+                                             + DATE_RX + ")", re.I)
+                                  for f in sorted((f for f in forms if len(f) > 5), key=len, reverse=True)]
+        for rx in _WITHHOLD_RX[name]:
+            def sub(m, _text=text):
+                lead = m.group(2)
+                tail = ")" if "(" in lead and _text[m.end():m.end() + 1] != ")" else ""
+                sp = " " if lead.rstrip().endswith((".", "b", "d")) and not lead.endswith(" ") else ""
+                return m.group(1) + lead + sp + "[date withheld]" + tail
+            text = rx.sub(sub, text)
+    return text
+
+
 class P:
     def __init__(self, **kw):
         self.__dict__.update(kw)
 
     def __repr__(self):
         return f"P({self.slug})"
+
+
+def cites_for_living(birth_year, citations):
+    """The citations the living test may see. The kit's `living_rule.is_living` returns "not living" for ANY
+    person with a public-source citation, whatever the birth year (a FamilySearch link or a passenger-index
+    line made a person aged 78, no death recorded, "not living": Mazza, 25 October 2026). A public source can
+    show somebody was born; it cannot show they are dead. So a person WITH a birth year is judged by the year
+    and the absence of a death alone; an UNDATED person is unchanged. Written here separately from the same
+    function in tools/build-people.py: this file is the gate's own reckoning and imports nothing from it.
+    The kit is not edited; the gap is reported."""
+    return [] if birth_year is not None else citations
+
+
+def current_cutoff(lr=None, today=None):
+    """THE ONE DERIVED CONSTANT: the first birth year the living standard protects. Born in this year or
+    later, with no death recorded, is living (80 or younger). It is derived from the kit's own bound and the
+    calendar, never typed: 2026 - 80 = 1946, 2027 - 80 = 1947."""
+    lr = lr or kit_rule(ROOT)
+    return int(today or os.environ.get("LIVING_TODAY_YEAR") or lr.this_year()) - lr.LIVING_YEARS
 
 
 def population(root=ROOT, today=None):
@@ -270,7 +315,7 @@ def population(root=ROOT, today=None):
     # living, then parents' living-ness for the undated children
     rost = {r["name"].strip(): r for r in roster_rows(root)}
     for p in people:
-        p.living = lr.is_living(p.by, p.dead, p.cites, year)
+        p.living = lr.is_living(p.by, p.dead, cites_for_living(p.by, p.cites), year)
         p.roster = rost.get(p.name)
         p.roster_problem = ""
         if p.roster:
@@ -295,7 +340,7 @@ def population(root=ROOT, today=None):
             parents.setdefault(oth, set()).add(who)
     for p in people:
         pl = any(x in living_names for x in parents.get(p.name, ()))
-        p.held = lr.is_held_out(p.slug, p.by, p.dead, p.cites, pl, held_ids, year)
+        p.held = lr.is_held_out(p.slug, p.by, p.dead, cites_for_living(p.by, p.cites), pl, held_ids, year)
         if p.held:
             p.living = False
         town, country, raw = expected_place(*p.raw_places)

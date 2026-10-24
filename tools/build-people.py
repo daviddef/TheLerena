@@ -183,8 +183,9 @@ for r in rows:
 # her town included. The rule now is the estate's, in the kit, and it is applied to
 # everyone whose birth and death this archive holds:
 #
-#   living  = born 80 years ago or less (by year), with no death or burial recorded, and
-#             no citation from a public record source. No birth year = not living.
+#   living  = born 80 years ago or less (by year), with no death or burial recorded. A public
+#             record source does NOT make a DATED person not living (cites_for_living, 25 Oct 2026;
+#             the kit's rule would). No birth year = not living, unless a roster row says so.
 #   shown   = a living person is NAME, RELATIONSHIPS, and FULL TOWN AND COUNTRY. Nothing else.
 #   held out = an UNDATED person with a living parent (who might be a child), or a person
 #             promised privacy by id: not published at all, and not named as anyone's relative.
@@ -346,13 +347,32 @@ if _unknown:
 _fold_count = {}
 for p in people:
     _fold_count[fold(p["name"])] = _fold_count.get(fold(p["name"]), 0) + 1
+
+def cites_for_living(birth_year, citations):
+    """The citations the LIVING test may see for a person.
+
+    ROOT CAUSE, found 25 October 2026 (Mazza leaked a man born 1948 this way; the same call is made here):
+    the kit's `living_rule.is_living` (and `possible_minor`) return "not living" for ANY person who carries a
+    public-source citation, whatever their birth year, on the reasoning that "what that source says may be
+    shown". A FamilySearch link or a passenger-index line is enough, so a person aged 78 with no death
+    recorded was "not living" and was published with their year, parents and records. A public source can
+    show that somebody was born or arrived; it cannot show that they are dead, and David's rule is "80 or
+    younger with no death recorded".
+
+    So for a person WITH a birth year the citations are not passed: the year and the absence of a death decide,
+    alone. An UNDATED person is unchanged (a public source still releases the recent-child inference, which is
+    only an inference). The kit is NOT edited (its gap is reported); tools/livingcheck.py carries the same
+    function, written separately, because it is the gate's independent reckoning.
+    """
+    return [] if birth_year is not None else citations
+
 for p in people:
     p["_by"] = byear(p.get("_privborn") or p["born"])
     p["_dead"] = (bool(p["died"] or p.get("_privdied")) or p["name"] in DEAD_EXACT
                   or any(a in p["source"] for a in DEAD_ARKS)
                   or (fold(p["name"]) in DEAD_FOLDED and _fold_count[fold(p["name"])] == 1))
     p["_cit"] = [] if p.get("_supp") else [p["source"], p["sourceUrl"]] + _EV.get(p["name"], [])
-    p["living"] = lr.is_living(p["_by"], p["_dead"], p["_cit"], TODAY)
+    p["living"] = lr.is_living(p["_by"], p["_dead"], cites_for_living(p["_by"], p["_cit"]), TODAY)
     # THE ROSTER (data/living-roster.tsv): a living person whose birth year is NOT held in any public
     # file is recorded as living by name and slug, with their town and country and no date. It cannot
     # make a dead person living: a recorded death, or a public-source citation, refuses the build.
@@ -375,7 +395,7 @@ _living_names = {p["name"] for p in people if p["living"]}
 HELD = {}
 for p in people:
     _pl = any(x in _living_names for x in _parents.get(p["name"], ()))
-    if lr.is_held_out(p["slug"], p["_by"], p["_dead"], p["_cit"], _pl, HELD_IDS, TODAY):
+    if lr.is_held_out(p["slug"], p["_by"], p["_dead"], cites_for_living(p["_by"], p["_cit"]), _pl, HELD_IDS, TODAY):
         HELD[p["name"]] = p["slug"]
 people = [p for p in people if p["name"] not in HELD]
 for _p in people:

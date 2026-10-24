@@ -19,7 +19,12 @@ Also proved here, against the generator and the shared rule:
     row is committed; a child with a KNOWN birth year is not held out but is a living person like any other;
   - the roster: an empty roster, a roster holding a digit, a roster naming a dead person, and a date put back
     in each of the four files that once held it, are all refused;
-  - a planted living person in the register is scrubbed to name, relationships, town, country.
+  - a planted living person in the register is scrubbed to name, relationships, town, country;
+  - (25 October 2026) a public-source citation does NOT make a DATED person under 81 "not living" (the kit's rule would);
+    tools/check-living-years.py fails on a birth on or after the living line (this year minus 80) printed anywhere,
+    built or committed, for a person with no death beside it - a year in prose, in a commit message, in a data row,
+    in JSON-LD - and the line moves with the calendar; the registry of unpublished deaths is enforced both ways;
+    and a living person's date is withheld from a commit message before /changes/ prints it.
 
 Usage:  python3 tools/test-living-gates.py [--dist site/dist-wt] [--full]
    --full  also runs two real builds in scratch copies (a planted living person, and a planted leak).
@@ -41,6 +46,7 @@ import livingcheck as L  # noqa: E402
 
 STD = HERE / "check-living-standard.py"
 PLC = HERE / "check-living-places.py"
+YRS = HERE / "check-living-years.py"
 results = []
 
 
@@ -104,13 +110,14 @@ def main():
     live = [p for p in people if p.living]
     if not live:
         raise SystemExit("the rule finds nobody living: these controls need one living person in the data")
-    C = live[0]                                   # the living person the controls are aimed at
+    C = next((p for p in live if p.roster and (p.roster.get("town") or "").strip()), live[0])   # the living person the controls are aimed at (one with a town on the roster)
     cslug = C.slug
     CD = "14 Oct 1799"                            # a date no living person can have
 
     # ---------------- positive controls: the real build passes both gates -------------------------
     case("POSITIVE  real build passes the standard gate", STD, None, lambda t: None, dist, expect_pass=True)
     case("POSITIVE  real build passes the places gate", PLC, None, lambda t: None, dist, expect_pass=True)
+    case("POSITIVE  real build passes the living-years gate", YRS, None, lambda t: None, dist, expect_pass=True)
 
     # ---------------- check-living-standard.py ----------------------------------------------------
     def drop_noindex(t):
@@ -171,11 +178,12 @@ def main():
          put_back("data/direct-line.tsv", cell), dist)
     case("c  a date put back in data/lerena-siblings-gen3.tsv", STD, "committed file data/lerena-siblings-gen3.tsv puts a date",
          put_back("data/lerena-siblings-gen3.tsv", cell), dist)
+    # (These two used to substitute into a sentence that no longer exists in the notes, changed nothing, and so
+    # proved nothing; 25 October 2026 they append, so they always plant.)
     case("c  a date put back in notes/compared-with-the-defranceski-archive.md", STD, "compared-with-the-defranceski-archive.md puts a date",
-         put_back("notes/compared-with-the-defranceski-archive.md",
-                  lambda s0: re.sub(r"(?i)(" + re.escape(C.name) + r"), born", lambda m_: m_.group(1) + ", b. " + CD + ", born", s0, count=1)), dist)
+         put_back("notes/compared-with-the-defranceski-archive.md", lambda s0: s0.rstrip("\n") + f"\n\n{C.name}, born {CD}\n"), dist)
     case("c  a year put back in notes/findings.md", STD, "notes/findings.md puts a date",
-         put_back("notes/findings.md", lambda s0: s0.replace(" ".join(C.name.split()[:2]) + " (living", " ".join(C.name.split()[:2]) + " 1799 (living", 1)), dist)
+         put_back("notes/findings.md", lambda s0: s0.rstrip("\n") + f"\n\n{C.name} 1799 (living)\n"), dist)
 
     # the roster
     def roster_empty(t):
@@ -273,6 +281,83 @@ def main():
         (t / "data" / "lerena-register.tsv").write_text("name\tborn_est\n", encoding="utf-8")
     case("g  a reckoning that found nobody", STD, "the register was not read", no_register, dist)
 
+    # ---------------- check-living-years.py (25 October 2026) --------------------------------------
+    def about_adds(txt):
+        return lambda t: edit(page(t, "about"), lambda s_: s_.replace("</main>", f"<p>{txt}</p></main>", 1))
+    case("Y  a birth year in prose on a built page, no death beside it", YRS, "prints a birth (1990",
+         about_adds("Planted Person, b. 1990, lived in Plantedville."), dist)
+    case("Y  ... a full birth date", YRS, "prints a birth (1990", about_adds("Planted Person was born 24 April 1990."), dist)
+    case("Y  ... an open life span", YRS, "prints a birth (1990", about_adds("Planted Person (1990-) of Plantedville."), dist)
+    case("Y  ... the same birth WITH a death beside it is fine", YRS, None, about_adds("Planted Person, b. 1990, d. 2001."), dist, expect_pass=True)
+    case("Y  ... and 'born and died' is a death", YRS, None, about_adds("A baby, born and died 1990."), dist, expect_pass=True)
+
+    def ld_birth(t):
+        edit(page(t, "about"), lambda s_: s_.replace("</head>", '<script type="application/ld+json">{"@type":"Person","name":"Planted Person","birthDate":"1990-04-24"}</script></head>', 1))
+    case("Y  structured data: a Person birthDate", YRS, "prints a birth (1990", ld_birth, dist)
+
+    def served_json(t):
+        (t / "dist" / "leak.json").write_text(json.dumps({"x": "Planted Person (b. 1991)"}), encoding="utf-8")
+    case("Y  a birth in any served data file", YRS, "leak.json prints a birth (1991", served_json, dist)
+
+    def commit_text(t):
+        f = t / "site" / "src" / "data" / "changes.json"
+        j = json.loads(f.read_text(encoding="utf-8"))
+        j["days"][0]["commits"][0]["body"] += "\nHe recorded Planted Person (b.1947) by mistake."
+        f.write_text(json.dumps(j), encoding="utf-8")
+    case("Y  a birth typed into a commit message (what /changes/ prints, and what once leaked)", YRS,
+         "site/src/data/changes.json prints a birth (1947", commit_text, dist)
+
+    def note_adds(t):
+        with open(t / "notes" / "findings.md", "a", encoding="utf-8") as f:
+            f.write("\nPlanted Person (b. 1992) is a cousin.\n")
+    case("Y  a birth in a research note (the repository is public)", YRS, "committed file notes/findings.md prints a birth (1992", note_adds, dist)
+
+    def tsv_adds(t):
+        with open(t / "data" / "passenger-lists.tsv", "a", encoding="utf-8") as f:
+            f.write("Planted Traveller\tx\tarr. 1 Jan 1999\tx\tx\tx\tb. 1949\tx\tx\tx\n")
+    case("Y  a birth in a committed data row", YRS, "committed file data/passenger-lists.tsv prints a birth (1949", tsv_adds, dist)
+
+    # the line: 1945 is below it, 1946 on it (2026); in 2027 the line is 1947
+    case("Y  the line: a birth in 1945 is below it", YRS, None, about_adds("Planted Person, b. 1945."), dist, expect_pass=True)
+    case("Y  the line: a birth in 1946 is on it (2026 - 80)", YRS, "prints a birth (1946", about_adds("Planted Person, b. 1946."), dist)
+    case("Y  the line moves with the calendar: in 2027 a birth in 1946 is below it", YRS, None, about_adds("Planted Person, b. 1946."), dist,
+         env={"LIVING_TODAY_YEAR": "2027"}, expect_pass=True)
+    case("Y  ... and 1947 is on it in 2027", YRS, "prints a birth (1947", about_adds("Planted Person, b. 1947."), dist,
+         env={"LIVING_TODAY_YEAR": "2027"})
+
+    # a dead person's name excuses a birth only when the year agrees
+    dead_y = [p for p in people if p.dead and p.by is not None and p.by >= L.current_cutoff(lr, year)]
+    if dead_y:
+        D0 = dead_y[0]
+        fn = D0.name.split("(")[0].strip()
+        case(f"Y  a recorded-dead person's name beside their own birth year is excused", YRS, None,
+             about_adds(f"{fn}, b. {D0.by}."), dist, expect_pass=True)
+        case("Y  ... but not beside a year ten years later (a living namesake)", YRS, "prints a birth",
+             about_adds(f"{fn}, b. {D0.by + 10}."), dist)
+
+    def snip(t):
+        edit(t / "data" / "living-year-allow.json", lambda s_: s_.replace('"snippets": [', '"snippets": [{"file": "*", "contains": "Planted Person, b. 1990", "reason": "planted"},', 1))
+    case("Y  the registry's snippet excuses exactly its text", YRS, None,
+         lambda t: (snip(t), about_adds("Planted Person, b. 1990, lived in Plantedville.")(t)), dist, expect_pass=True)
+
+    def reg_edit(fn):
+        def m(t):
+            f = t / "data" / "living-year-allow.json"
+            j = json.loads(f.read_text(encoding="utf-8"))
+            fn(j)
+            f.write_text(json.dumps(j), encoding="utf-8")
+        return m
+    drop_registry = reg_edit(lambda j: j.__setitem__("unpublished_deaths", [e for e in j["unpublished_deaths"] if e["slug"] != "paul-raymond-lerena"]))
+    case("Y  a person the data records dead, whose page prints no death, left out of the registry", YRS, "does not list them", drop_registry, dist)
+
+    stale_registry = reg_edit(lambda j: j["unpublished_deaths"].append({"slug": "cheryl-anne-lerena", "reason": "planted"}))
+    case("Y  a registry entry the data no longer supports (a living woman)", YRS, "delete the entry", stale_registry, dist)
+    no_reason = reg_edit(lambda j: j["unpublished_deaths"].append({"slug": "gayle-lerena", "reason": ""}))
+    case("Y  a registry entry with no reason", YRS, "no slug or no reason", no_reason, dist)
+    case("Y  an empty build (living-years gate)", YRS, "refusing to pass on an empty build", empty_dist, dist)
+    case("Y  a reckoning that found nobody (living-years gate)", YRS, "the register was not read", no_register, dist)
+
+
     # ---------------- check-living-places.py ------------------------------------------------------
     town, country = C.town, C.country
 
@@ -315,9 +400,18 @@ def main():
           lr.is_living(2000, False, [], 2080) and not lr.is_living(2000, False, [], 2081))
     check("rule  a recorded death means not living, however young",
           not lr.is_living(2005, True, [], 2026))
-    check("rule  a FamilySearch citation means not living; a private tree entry does not",
+    check("rule  THE KIT'S GAP, kept visible: its is_living says a FamilySearch citation makes a person born 2005 not living "
+          "(a private tree entry does not); this archive never passes a dated person's citations (cites_for_living)",
           not lr.is_living(2005, False, ["FamilySearch Family Tree"], 2026)
-          and lr.is_living(2005, False, ["MyHeritage family tree"], 2026))
+          and lr.is_living(2005, False, ["MyHeritage family tree"], 2026)
+          and lr.is_living(2005, False, L.cites_for_living(2005, ["FamilySearch Family Tree"]), 2026)
+          and not lr.is_living(None, False, L.cites_for_living(None, ["FamilySearch Family Tree"]), 2026))
+    check("rule  the independent reckoning (livingcheck) and the generator withhold the citation the same way, and a recorded "
+          "death still beats everything",
+          L.cites_for_living(1950, ["FamilySearch"]) == [] and L.cites_for_living(None, ["FamilySearch"]) == ["FamilySearch"]
+          and not lr.is_living(1950, True, L.cites_for_living(1950, ["FamilySearch"]), 2026))
+    check("line  the living line is derived: this year minus 80, 1946 in 2026 and 1947 in 2027",
+          L.current_cutoff(lr, 2026) == 1946 and L.current_cutoff(lr, 2027) == 1947)
     check("rule  no birth year is not living", not lr.is_living(None, False, [], 2026))
     check("rule  an undated person with a living parent is held out; a child with a known year, and the dead, are not",
           lr.possible_minor(None, False, [], True, 2026) and not lr.possible_minor(2015, False, [], True, 2026)
@@ -377,9 +471,10 @@ def main():
         pm = j.get("planted-minor-lerena", {})
         check("generator  a child with a KNOWN birth year (2015) is NOT held out: a living person, noindex, scrubbed",
               pm.get("living") is True and pm.get("noindex") is True and "2015" not in json.dumps(pm))
-        nuno = j.get("nuno-fernando-lerena", {})
-        check("generator  a planted FamilySearch-cited young person is NOT living",
-              j.get("planted-public-lerena", {}).get("living") is False)
+        check("generator  a planted FamilySearch-cited young person (born 2001, no death) IS living: a public source cannot "
+              "make a dated person under 81 not living (the kit's rule would; cites_for_living withholds the citation)",
+              j.get("planted-public-lerena", {}).get("living") is True and j.get("planted-public-lerena", {}).get("noindex") is True
+              and "2001" not in json.dumps(j.get("planted-public-lerena", {})))
         code, out = run(STD, t, t / "dist")
         results.append((code == 1 and "HELD-OUT" in out, "standard gate, on that same scratch tree: the committed undated-child row fails it",
                         "caught" if code == 1 and "HELD-OUT" in out else out[:200]))
@@ -390,6 +485,14 @@ def main():
               f"{j.get('planted-edge-lerena', {}).get('living')} / {j2.get('planted-edge-lerena', {}).get('living')}")
     finally:
         shutil.rmtree(t, ignore_errors=True)
+
+    # a living person's date is withheld from a commit message before /changes/ prints it
+    wnames = ["Planted Living LERENA", "Lynn Derrick LUWINSKI"]
+    w = L.withhold_dates('He is LYNN DERRICK LUWINSKI, born 24 April 1949 - and "Derrick Luwinski (b.1947)". Planted Living LERENA 1799 stays hers.', wnames)
+    check("changes  a date against a roster name in a commit message is replaced by a marker (full date, '(b.1947)', a bare year)",
+          "1949" not in w and "1947" not in w and "1799" not in w and w.count("[date withheld]") == 3, w)
+    check("changes  ... and a date against somebody who is not on the roster is left alone",
+          L.withhold_dates("Pablo Armando LERENA, born 22 February 1882", wnames) == "Pablo Armando LERENA, born 22 February 1882")
 
     # a roster row cannot make a dead person living: the generator itself refuses
     t = scratch(dist)

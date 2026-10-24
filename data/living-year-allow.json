@@ -1,0 +1,51 @@
+{
+ "_why": "The registry of exceptions to tools/check-living-years.py, which fails when a birth year or date on or after the living line (this year minus 80) is printed for a person with no death beside it. Two kinds of entry, nothing else. unpublished_deaths: a person the archive's own data records as dead (a death in the chart's working files, a burial register row, a headstone transcription) whose own page does not print the death. They are NOT living by the rule and their births are not masked, but nobody has confirmed the death for publication, and no tool adds one: David confirms each, and the entry is deleted when the death is recorded on the page (or the person is found to be living and goes on data/living-roster.tsv). snippets: one stated piece of text in one file, with the reason it is not a living person's birth. A name is never added here to silence the gate. also_written: other spellings the sources use for the same registered person (so a birth written under them is recognised as theirs); a form is only honoured when the birth year beside it is within three of the year the data holds.",
+ "unpublished_deaths": [
+  {
+   "slug": "gayle-lerena",
+   "reason": "A burial registration is printed on the person page and a closed life span on the neighbouring pages (one family, registered together); the page itself prints no death line."
+  },
+  {
+   "slug": "jeffrey-lerena",
+   "reason": "A burial registration is printed on the person page and a closed life span on the neighbouring pages (one family, registered together); the page itself prints no death line."
+  },
+  {
+   "slug": "paul-raymond-lerena",
+   "reason": "The chart's working file records a death, the family headstone is transcribed on /family-papers/ with a closed span, and an estate notice and a sibling archive agree; the person page is an undated stub that prints none of it."
+  },
+  {
+   "slug": "catherine-tersia-lerena",
+   "reason": "The chart's working file records a death and the family headstone is transcribed on /family-papers/ with a closed span; the person page is an undated stub that prints none of it.",
+   "also_written": [
+    "Catherine Tertia",
+    "Catherine Tertia KARON",
+    "Catherine Tersia KARON"
+   ]
+  },
+  {
+   "slug": "jeanette-marie-lerena",
+   "reason": "The chart's working file records a death and her dated life with a death is on /family-papers/; the person page is an undated stub that prints none of it."
+  },
+  {
+   "slug": "patricia-carmen-lerena",
+   "reason": "The chart's working file records a death; the person page is an undated stub that prints none of it and no page prints her birth."
+  }
+ ],
+ "snippets": [
+  {
+   "file": "*",
+   "contains": "None is a South African woman born 1952",
+   "reason": "A search for the dead sister whose burial and headstone the archive holds (registered above); it names no living person."
+  },
+  {
+   "file": "*",
+   "contains": "born 5 June 1952 - and his J193",
+   "reason": "Anton Lerena, whose death is printed in the same entry and on his page. A commit message cannot be rewritten."
+  },
+  {
+   "file": "*",
+   "contains": "a sister born Johannesburg 21 May 1952",
+   "reason": "The dead sister whose headstone is transcribed on /family-papers/ (registered above). A commit message cannot be rewritten."
+  }
+ ]
+}

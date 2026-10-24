@@ -4,9 +4,11 @@
 Every commit in this repository is written as a paragraph, not a slug, because the reason
 for a change is the interesting half. So the log IS the changelog; it only needs shaping.
 """
-import json, pathlib, subprocess
+import json, pathlib, re, subprocess, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+import livingcheck as L
 OUT = ROOT / "site" / "src" / "data"
 SEP, FS = "\x1e", "\x1f"
 
@@ -17,6 +19,20 @@ def _balance(text):
         return text
     cut = text.rfind("***")
     return (text[:cut] + text[cut + 3:]).replace("  ", " ").strip()
+
+# *** A COMMIT MESSAGE CANNOT BE REWRITTEN, SO A LIVING PERSON'S DATE MUST BE TAKEN OUT HERE. ***
+# Added 25 October 2026. This page prints every commit body word for word, and a body is the one place
+# the living-people standard never reached: the generators that scrub a living person (build-people.py) read
+# the register and the chart's working files, and a date typed into a commit message is in neither. A 2026-09
+# commit said, of the first husband of a living woman, "born" and a full day, month and year, and "(b." and a
+# second, wrong year; the page had printed both since. So every name on data/living-roster.tsv (the committed
+# list of who is living, which holds no date) has any date or year set directly against it replaced by a
+# marker: «Name, born 24 April 1949» -> «Name, born [date withheld]». The match is the same one the gates use
+# to find a date against a name (livingcheck.dated_mentions), so the generator and the gate cannot drift.
+_LIVING_NAMES = [r["name"] for r in L.roster_rows(ROOT)]
+
+def _withhold(text):
+    return L.withhold_dates(text, _LIVING_NAMES)
 
 raw = subprocess.run(
     ["git", "log", f"--pretty=format:%H{FS}%ad{FS}%s{FS}%b{SEP}", "--date=format:%Y-%m-%d"],
@@ -49,6 +65,7 @@ for chunk in raw.split(SEP):
     # The TSV guard that fails on an odd count stays exactly as it is: there, an unbalanced
     # marker is an author's mistake to fix. Here the author is the past and cannot be asked.
     subject, body = (_balance(subject), _balance(body))
+    subject, body = (_withhold(subject), _withhold(body))
     days.setdefault(date, []).append({"sha": sha[:7], "subject": subject, "body": body.strip()})
 
 data = {"mechanical": mechanical,
