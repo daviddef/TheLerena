@@ -5,6 +5,11 @@
    "date": "2026-10-25",
    "commits": [
     {
+     "sha": "e492d23",
+     "subject": "The family was at Trinidad by 1843: an eighth child of Alejandro and Margarita born there in 1844, and two more children of Manuel Fernandez",
+     "body": "Every image of Santisima Trinidad Baptism Records January 1843 - March 1848 (43 images) read by machine transcript with a spelling set that includes Herena and Ledena: Alejandro and Margarita as godparents in April 1843 and June 1847, their child Eugenio born 26 March 1844 (the machine writes the sex both ways), Juan Crisostomo (27 January 1844) and Margarita Antonia (13 June 1847), children of Manuel Fernandez and Maria de los Reyes Gonzalez. The earlier scans of the neighbouring volumes missed two spellings of the surname; noted in the log. Plates not opened. All gates pass."
+    },
+    {
      "sha": "b6de33a",
      "subject": "Natalia Lerena's own baptism: born 15 May 1834 at San Jose, the fifth child of Alejandro and Margarita",
      "body": "Found by a full-text search with the San Jose place filter in the volume May 1828 - January 1836 (entry no. 825): 'Natalia Isidora que nacio el quince de Mayo del presente ano, hija legitima de Don Alexandro Ledena y Dona Margarita Fernandez Alvarez; abuelos paternos Ramon y Maria Josefa Gonzalez; padrinos Don Jose Bruno Larriera y su esposa Josefa Morales'. The earlier machine-index scan of that volume missed her because the surname is written 'Ledena'. The 'not found' and 'born by 1841' statements of the previous commits are corrected. Machine transcript; plate not opened. All gates pass."
