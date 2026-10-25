@@ -862,6 +862,11 @@
        "tree": false
       },
       {
+       "slug": "ramon-inocencio-lerena-fernandez",
+       "name": "Ramon Inocencio LERENA Fernandez (b. 1838, San Jose)",
+       "tree": false
+      },
+      {
        "slug": "socorro-lerena",
        "name": "Socorro LERENA (m. Serapio Fernandez the elder)",
        "tree": false
@@ -1099,6 +1104,28 @@
      "source": "1895 census, San Miguel de Tucuman",
      "father": null,
      "mother": null,
+     "spouses": [],
+     "children": []
+    },
+    {
+     "slug": "ramon-inocencio-lerena-fernandez",
+     "name": "Ramon Inocencio LERENA Fernandez (b. 1838, San Jose)",
+     "exact": false,
+     "status": "unplaced",
+     "born": "1838",
+     "died": "",
+     "where": "San Jose de Mayo · Oriental",
+     "source": "San Jose de Mayo, Baptism Records 1836 …",
+     "father": {
+      "slug": "alejandro-lerena",
+      "name": "Alejandro LERENA (the elder, m. Margarita Fernandez Alvarez)",
+      "tree": false
+     },
+     "mother": {
+      "slug": "margarita-fernandez-alvarez",
+      "name": "Margarita FERNANDEZ ALVAREZ (wife of Alejandro LERENA the elder)",
+      "tree": false
+     },
      "spouses": [],
      "children": []
     },

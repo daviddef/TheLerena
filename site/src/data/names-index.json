@@ -1017,7 +1017,9 @@
   },
   {
    "name": "Casimira Pelaez",
-   "aliases": [],
+   "aliases": [
+    "Casimira Josefa"
+   ],
    "url": "/people/dona-casimira-pelaez/"
   },
   {
@@ -1373,9 +1375,27 @@
    "url": "/people/esperanza-gonzalez/"
   },
   {
+   "name": "Esteban Fernandez Alvarez",
+   "aliases": [
+    "Esteban Fernandez",
+    "Esteban Fernández",
+    "Esteban Fernández Alvarez"
+   ],
+   "url": "/people/esteban-fernandez-alvarez/"
+  },
+  {
    "name": "Esteban Indarte",
    "aliases": [],
    "url": "/people/esteban-indarte/"
+  },
+  {
+   "name": "Esteban Segundo Fernandez Lac",
+   "aliases": [
+    "Esteban Segundo Fernandez",
+    "Esteban Segundo Fernández",
+    "Esteban Segundo Fernández Lac"
+   ],
+   "url": "/people/esteban-segundo-fernandez-lac/"
   },
   {
    "name": "Estefania Gonzalez Lerena",
@@ -1927,6 +1947,11 @@
    "name": "Josefa Carballo",
    "aliases": [],
    "url": "/people/josefa-carballo/"
+  },
+  {
+   "name": "Josefa Cecilia Lac",
+   "aliases": [],
+   "url": "/people/josefa-cecilia-lac/"
   },
   {
    "name": "Josefa Corbelle de Lemus",
@@ -3306,6 +3331,19 @@
    "url": "/people/ramon-fernandez-2/"
   },
   {
+   "name": "Ramon Inocencio Lerena Fernandez",
+   "aliases": [
+    "Ramon Inocencio",
+    "Ramon Inocencio Lerena",
+    "Ramon Inocencio Lerena Fernández",
+    "Ramón Inocencio",
+    "Ramón Inocencio Lerena",
+    "Ramón Inocencio Lerena Fernandez",
+    "Ramón Inocencio Lerena Fernández"
+   ],
+   "url": "/people/ramon-inocencio-lerena-fernandez/"
+  },
+  {
    "name": "Ramon Maria Fernandez",
    "aliases": [
     "Ramon Maria Fernández",
@@ -4389,6 +4427,13 @@
    "url": "/people/?q=Gumersindo%20Lerena",
    "bearers": [
     "/people/gumersindo-lerena/"
+   ]
+  },
+  {
+   "name": "Isabel Lerena",
+   "url": "/people/?q=Isabel%20Lerena",
+   "bearers": [
+    "/people/isabel-lerena/"
    ]
   },
   {
