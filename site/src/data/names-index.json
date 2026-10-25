@@ -307,6 +307,11 @@
    "url": "/people/antonia-larranaga-lerena/"
   },
   {
+   "name": "Antonina Escolastica Lerena",
+   "aliases": [],
+   "url": "/people/antonina-lerena-2/"
+  },
+  {
    "name": "Antonino Lerena Cardozo",
    "aliases": [],
    "url": "/people/antonino-lerena-cardozo/"
@@ -659,6 +664,15 @@
    "url": "/people/cayetano-alberto-fernandez/"
   },
   {
+   "name": "Cecilia Socorro Fernandez Lerena",
+   "aliases": [
+    "Cecilia Socorro Fernandez",
+    "Cecilia Socorro Fernández",
+    "Cecilia Socorro Fernández Lerena"
+   ],
+   "url": "/people/cecilia-socorro-fernandez-lerena/"
+  },
+  {
    "name": "Celedonia Villademoros",
    "aliases": [],
    "url": "/people/celedonia-villademoros/"
@@ -689,6 +703,15 @@
    "name": "Cesar Schiaffino",
    "aliases": [],
    "url": "/people/cesar-schiaffino/"
+  },
+  {
+   "name": "Cesario Francisco del Carmen Gonzalez Lerena",
+   "aliases": [
+    "Cesario Francisco del Carmen Gonzalez",
+    "Cesario Francisco del Carmen González",
+    "Cesario Francisco del Carmen González Lerena"
+   ],
+   "url": "/people/cesario-francisco-del-carmen-gonzalez-lerena/"
   },
   {
    "name": "Charles William Bell",
@@ -766,6 +789,15 @@
    "name": "Damaso Perera",
    "aliases": [],
    "url": "/people/damaso-perera/"
+  },
+  {
+   "name": "Davilada Carmela Gonzalez Lerena",
+   "aliases": [
+    "Davilada Carmela Gonzalez",
+    "Davilada Carmela González",
+    "Davilada Carmela González Lerena"
+   ],
+   "url": "/people/davilada-carmela-gonzalez-lerena/"
   },
   {
    "name": "Delfina Fernandez",
@@ -1366,6 +1398,15 @@
    "url": "/people/eusebio-congenio-lerena-gonzalez/"
   },
   {
+   "name": "Eusebio Leonidas Gonzalez Lerena",
+   "aliases": [
+    "Eusebio Leonidas Gonzalez",
+    "Eusebio Leonidas González",
+    "Eusebio Leonidas González Lerena"
+   ],
+   "url": "/people/eusebio-leonidas-gonzalez-lerena/"
+  },
+  {
    "name": "Francisco de Paula Maggesi",
    "aliases": [],
    "url": "/people/exmo-sr-general-don-francisco-de-paula-maggesi/"
@@ -1561,6 +1602,15 @@
     "Hilario Barros"
    ],
    "url": "/people/hilario-barros-llerena/"
+  },
+  {
+   "name": "Hipolito Fructuoso Fernandez Lerena",
+   "aliases": [
+    "Hipolito Fructuoso Fernandez",
+    "Hipolito Fructuoso Fernández",
+    "Hipolito Fructuoso Fernández Lerena"
+   ],
+   "url": "/people/hipolito-fructuoso-fernandez-lerena/"
   },
   {
    "name": "Honorato Gonzalez",
@@ -2081,6 +2131,17 @@
    "url": "/people/juan-pelaez/"
   },
   {
+   "name": "Juan Ramon Lerena Fernandez",
+   "aliases": [
+    "Juan Ramon Lerena",
+    "Juan Ramon Lerena Fernández",
+    "Juan Ramón Lerena",
+    "Juan Ramón Lerena Fernandez",
+    "Juan Ramón Lerena Fernández"
+   ],
+   "url": "/people/juan-ramon-lerena-fernandez/"
+  },
+  {
    "name": "Juan Rodriguez",
    "aliases": [],
    "url": "/people/juan-rodriguez/"
@@ -2171,6 +2232,14 @@
    "url": "/people/justa-pastora-lerena/"
   },
   {
+   "name": "Justina Petronila Teresa Lerena Fernandez",
+   "aliases": [
+    "Justina Petronila Teresa Lerena",
+    "Justina Petronila Teresa Lerena Fernández"
+   ],
+   "url": "/people/justina-petronila-teresa-lerena-fernandez/"
+  },
+  {
    "name": "Justiniana Mauricia Maxima Lerena Lenguas",
    "aliases": [
     "Justiniana Mauricia Maxima Lerena"
@@ -2181,6 +2250,13 @@
    "name": "Justiniano Lavalleja",
    "aliases": [],
    "url": "/people/justiniano-lavalleja/"
+  },
+  {
+   "name": "Justino Dorites del Corazon de Jesus Lerena Pelaez",
+   "aliases": [
+    "Justino Dorites del Corazon de Jesus Lerena"
+   ],
+   "url": "/people/justino-dorites-del-corazon-de-jesus-lerena-pelaez/"
   },
   {
    "name": "Kathleen Georgina Taylor",
@@ -2327,7 +2403,9 @@
   },
   {
    "name": "Malvino Pelaez",
-   "aliases": [],
+   "aliases": [
+    "Malbino Hipolito"
+   ],
    "url": "/people/malvino-pelaez/"
   },
   {
@@ -2876,6 +2954,19 @@
    "url": "/people/maria-serna/"
   },
   {
+   "name": "Maria Socorro Fernandez Lerena",
+   "aliases": [
+    "Maria Socorro Fernandez",
+    "Maria Socorro Fernández",
+    "Maria Socorro Fernández Lerena",
+    "María Socorro Fernandez",
+    "María Socorro Fernandez Lerena",
+    "María Socorro Fernández",
+    "María Socorro Fernández Lerena"
+   ],
+   "url": "/people/maria-socorro-fernandez-lerena/"
+  },
+  {
    "name": "Martin Perez",
    "aliases": [],
    "url": "/people/martin-perez/"
@@ -2910,11 +3001,13 @@
    "url": "/people/mateo-magarinos-veira/"
   },
   {
-   "name": "Maximo Pelaez",
+   "name": "Maximo Pelaez Lerena",
    "aliases": [
-    "Máximo Pelaez"
+    "Maximo de la Santisima Trinidad Pelaez",
+    "Máximo Pelaez Lerena",
+    "Máximo de la Santisima Trinidad Pelaez"
    ],
-   "url": "/people/maximo-pelaez/"
+   "url": "/people/maximo-pelaez-lerena/"
   },
   {
    "name": "Maximo Rivas",
@@ -3031,6 +3124,13 @@
    "url": "/people/pablo-moyano/"
   },
   {
+   "name": "Pablo Vaquero Lerena",
+   "aliases": [
+    "Pablo Vaquero"
+   ],
+   "url": "/people/pablo-vaquero-lerena/"
+  },
+  {
    "name": "Paula Casares",
    "aliases": [],
    "url": "/people/paula-casares/"
@@ -3140,6 +3240,14 @@
    "name": "Pierre Frederick Lerena",
    "aliases": [],
    "url": "/people/pierre-frederick-lerena/"
+  },
+  {
+   "name": "Pilar Florencio Lerena Fernandez",
+   "aliases": [
+    "Pilar Florencio Lerena",
+    "Pilar Florencio Lerena Fernández"
+   ],
+   "url": "/people/pilar-florencio-lerena-fernandez/"
   },
   {
    "name": "Polonia Traibel",
@@ -3380,6 +3488,15 @@
    "url": "/people/sebastiana-alvarez/"
   },
   {
+   "name": "Segundo Avelino Fernandez Lerena",
+   "aliases": [
+    "Segundo Avelino Fernandez",
+    "Segundo Avelino Fernández",
+    "Segundo Avelino Fernández Lerena"
+   ],
+   "url": "/people/segundo-avelino-fernandez-lerena/"
+  },
+  {
    "name": "Servando Cecilio Gonzalez Lerena",
    "aliases": [
     "Servando Cecilio Gonzalez",
@@ -3401,6 +3518,14 @@
     "Severa Fernández"
    ],
    "url": "/people/severa-fernandez/"
+  },
+  {
+   "name": "Severa Juliana Lerena Fernandez",
+   "aliases": [
+    "Severa Juliana Lerena",
+    "Severa Juliana Lerena Fernández"
+   ],
+   "url": "/people/severa-juliana-lerena-fernandez/"
   },
   {
    "name": "Maria del Socorro",
@@ -3711,7 +3836,6 @@
    "name": "Antonina Lerena",
    "url": "/same-name/antonina-lerena/",
    "bearers": [
-    "/people/antonina-lerena-2/",
     "/people/antonina-lerena-3/",
     "/people/antonina-lerena-4/"
    ]
@@ -4728,6 +4852,13 @@
    ]
   },
   {
+   "name": "Maximo Pelaez",
+   "url": "/people/?q=Maximo%20Pelaez",
+   "bearers": [
+    "/people/maximo-pelaez/"
+   ]
+  },
+  {
    "name": "Mercedes Lerena",
    "url": "/people/?q=Mercedes%20Lerena",
    "bearers": [
@@ -4740,6 +4871,13 @@
    "url": "/people/?q=Mercedes%20Lorena",
    "bearers": [
     "/people/mercedes-lorena/"
+   ]
+  },
+  {
+   "name": "Máximo Pelaez",
+   "url": "/people/?q=Maximo%20Pelaez",
+   "bearers": [
+    "/people/maximo-pelaez/"
    ]
   },
   {

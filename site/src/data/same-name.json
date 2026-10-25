@@ -75,6 +75,11 @@
      ],
      "children": [
       {
+       "slug": "jesus-modesto-del-carmen-fernandez-lerena",
+       "name": "Jesus Modesto del Carmen FERNANDEZ Lerena (b. 1866, Trinidad)",
+       "tree": false
+      },
+      {
        "slug": "maria-del-carmen-fernandez-lerena",
        "name": "Maria del Carmen FERNANDEZ Lerena (b. 1857, Trinidad)",
        "tree": false
@@ -240,6 +245,28 @@
        "tree": false
       }
      ],
+     "children": []
+    },
+    {
+     "slug": "maria-socorro-fernandez-lerena",
+     "name": "Maria Socorro FERNANDEZ Lerena (chr.1865)",
+     "exact": false,
+     "status": "unplaced",
+     "born": "1865",
+     "died": "",
+     "where": "Trinidad, Flores · Oriental",
+     "source": "Trinidad, Baptism Records October 1857 …",
+     "father": {
+      "slug": "serapio-fernandez",
+      "name": "Serapio FERNANDEZ (the elder, d. by 1897)",
+      "tree": false
+     },
+     "mother": {
+      "slug": "socorro-lerena",
+      "name": "Socorro LERENA (m. Serapio Fernandez the elder)",
+      "tree": false
+     },
+     "spouses": [],
      "children": []
     },
     {
@@ -830,6 +857,11 @@
        "tree": false
       },
       {
+       "slug": "natalia-lerena-2",
+       "name": "Natalia LERENA (m. Manuel Vaquero)",
+       "tree": false
+      },
+      {
        "slug": "socorro-lerena",
        "name": "Socorro LERENA (m. Serapio Fernandez the elder)",
        "tree": false
@@ -857,6 +889,26 @@
      },
      "spouses": [],
      "children": [
+      {
+       "slug": "juan-ramon-lerena-fernandez",
+       "name": "Juan Ramon LERENA Fernandez (chr.1862)",
+       "tree": false
+      },
+      {
+       "slug": "justina-petronila-teresa-lerena-fernandez",
+       "name": "Justina Petronila Teresa LERENA Fernandez (chr.1860)",
+       "tree": false
+      },
+      {
+       "slug": "pilar-florencio-lerena-fernandez",
+       "name": "Pilar Florencio LERENA Fernandez (chr.1863)",
+       "tree": false
+      },
+      {
+       "slug": "severa-juliana-lerena-fernandez",
+       "name": "Severa Juliana LERENA Fernandez (chr.1859)",
+       "tree": false
+      },
       {
        "slug": "venancio-lerena-fernandez",
        "name": "Venancio LERENA Fernandez (m. 1885)",
@@ -1109,6 +1161,11 @@
       {
        "slug": "juan-bernardo-lerena-pelaez",
        "name": "Juan Bernardo LERENA Pelaez",
+       "tree": false
+      },
+      {
+       "slug": "justino-dorites-del-corazon-de-jesus-lerena-pelaez",
+       "name": "Justino Dorites del Corazon de Jesus LERENA Pelaez (chr.1864)",
        "tree": false
       },
       {
@@ -1498,6 +1555,26 @@
      ],
      "children": [
       {
+       "slug": "cecilia-socorro-fernandez-lerena",
+       "name": "Cecilia Socorro FERNANDEZ Lerena (chr.1862)",
+       "tree": false
+      },
+      {
+       "slug": "hipolito-fructuoso-fernandez-lerena",
+       "name": "Hipolito Fructuoso FERNANDEZ Lerena (chr.1858)",
+       "tree": false
+      },
+      {
+       "slug": "maria-socorro-fernandez-lerena",
+       "name": "Maria Socorro FERNANDEZ Lerena (chr.1865)",
+       "tree": false
+      },
+      {
+       "slug": "segundo-avelino-fernandez-lerena",
+       "name": "Segundo Avelino FERNANDEZ Lerena (chr.1860)",
+       "tree": false
+      },
+      {
        "slug": "serapio-fernandez-2",
        "name": "Serapio FERNANDEZ (m. Antonina Lerena 1885)",
        "tree": false
@@ -1531,6 +1608,11 @@
       }
      ],
      "children": [
+      {
+       "slug": "maximo-pelaez-lerena",
+       "name": "Maximo PELAEZ Lerena (chr.1859)",
+       "tree": false
+      },
       {
        "slug": "maria-pelaez",
        "name": "Maria PELAEZ (m. Rafael Sanchez 1880)",

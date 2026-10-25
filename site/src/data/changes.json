@@ -2,6 +2,46 @@
  "mechanical": 53,
  "days": [
   {
+   "date": "2026-10-25",
+   "commits": [
+    {
+     "sha": "42c6b4c",
+     "subject": "test-living-gates: the full-build control counts the roster's people instead of assuming two, and shows a failing build's exit and tail",
+     "body": ""
+    },
+    {
+     "sha": "e91108e",
+     "subject": "Living: the first husband of a living woman goes on the roster; the dates of living-age people come out of /changes/, /taylor/, /uruguay/ and the notes",
+     "body": "The roster now records him (name, relationships; no date). The two dates a 2026-09 commit message\ngave for him are replaced on /changes/ by a marker (the commit cannot be rewritten). On /taylor/\nthe two children of a 1958 arrival lose their years and the hotel address; the findmypast rows\nlose their years; /uruguay/ and its data row lose the birth year of a living, unnamed namesake;\nthree research notes lose the birth years of five people who may be living. No page is added or\nremoved; the sitemap is unchanged."
+    },
+    {
+     "sha": "9456dba",
+     "subject": "Living: a public source no longer makes a dated person \"not living\"; a gate on every birth printed without a death",
+     "body": "ROOT CAUSE. The kit's living_rule.is_living returns \"not living\" for ANY person who carries a\npublic-source citation, whatever the birth year, so a person aged 78 with no death recorded would\nbe published as dead with their year and records (Mazza leaked a man this way). build-people.py\nand livingcheck.py now withhold the citations from the rule for anyone with a birth year\n(cites_for_living); an undated person is unchanged. The kit is not edited; its gap is reported.\nWHY OTHER PAGES PRINTED A DATE THE PERSON PAGE DID NOT. The rule reads a birth year from the\nregister and the chart's working files only. A year typed into a commit message (which /changes/\nprints word for word), a passenger-list transcription or a research note is in neither, so that\nperson had no year, was \"not living\", and the standard gate had no name to look for.\ntools/check-living-years.py starts from the SHAPE of a birth in the text (b. YEAR, born ...,\n(YEAR-), birthDate) and fails when one on or after the living line (this year minus 80, derived\nonce in livingcheck.current_cutoff) has no death beside it, in any built page, data file or\ntracked file. data/living-year-allow.json registers the people the data records dead but no\npage prints (for David to confirm; no tool adds a death). build-changes.py withholds a roster\nperson's dates from a commit message before /changes/ prints it. In the build chain after\ncheck:living-standard; 26 new planted-fault controls in test-living-gates.py (89 in all) and 4\nin plant-faults.py; two older controls that planted nothing now plant. /method/ no longer says\na public source makes a known-year person not living."
+    },
+    {
+     "sha": "0e19cc1",
+     "subject": "The third child of Ramon Fernandez and Maria Lerena, the fourth daughter of the 1853 petition, and the family's baptisms at Trinidad 1858-1866",
+     "body": "Walked all 238 images of Santisima Trinidad Baptism Records October 1857 - August 1866 (film 008163892, item 3) by their machine transcripts: Ramon de la Asuncion Fernandez (born 14 August 1859), Jesus Modesto del Carmen (January 1866, the third of the 'tres hijos mayores de edad' of 1887), Maria's sister Natalia Lerena and her husband Manuel Vaquero, whose son Manuel Indalecio (born 21 May 1862) is very likely the procurador Manuel Vaquero of 1892 and 1902, and about twenty baptisms of the cousins' children (log only). A second Ramon Fernandez, married to a Maria Teresa, is told apart. Ramon the younger's civil record of 4 March 1911 is indexed. Local check:standard still reads L2 123 against floor 122 as at the previous commits; this adds none."
+    },
+    {
+     "sha": "68ac4be",
+     "subject": "Pin the kit to 6df1715: SiblingArchives is one compact line of small cards (the other seven archives, Our Family, Record Atlas, defranceski.com)",
+     "body": ""
+    },
+    {
+     "sha": "9234b1d",
+     "subject": "The cue on a shared-name link follows its target: a link to a same-name page says it opens the page that tells them apart, a link to the filtered list says it opens the list (the kit's gates read an index with an empty label; check_cues holds each link to its own wording)",
+     "body": ""
+    },
+    {
+     "sha": "f306df3",
+     "subject": "Disambiguation pages for the ten most-shared names: /same-name/<slug>/ tells the people of one name apart; their unresolved shared-name links open it (65 bearers, 243 links); the other shared names still open the filtered list",
+     "body": ""
+    }
+   ]
+  },
+  {
    "date": "2026-10-19",
    "commits": [
     {
