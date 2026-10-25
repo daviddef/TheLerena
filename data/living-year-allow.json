@@ -1,41 +1,22 @@
 {
- "_why": "The registry of exceptions to tools/check-living-years.py, which fails when a birth year or date on or after the living line (this year minus 80) is printed for a person with no death beside it. Two kinds of entry, nothing else. unpublished_deaths: a person the archive's own data records as dead (a death in the chart's working files, a burial register row, a headstone transcription) whose own page does not print the death. They are NOT living by the rule and their births are not masked, but nobody has confirmed the death for publication, and no tool adds one: David confirms each, and the entry is deleted when the death is recorded on the page (or the person is found to be living and goes on data/living-roster.tsv). snippets: one stated piece of text in one file, with the reason it is not a living person's birth. A name is never added here to silence the gate. also_written: other spellings the sources use for the same registered person (so a birth written under them is recognised as theirs); a form is only honoured when the birth year beside it is within three of the year the data holds.",
- "unpublished_deaths": [
-  {
-   "slug": "gayle-lerena",
-   "reason": "A burial registration is printed on the person page and a closed life span on the neighbouring pages (one family, registered together); the page itself prints no death line."
-  },
-  {
-   "slug": "jeffrey-lerena",
-   "reason": "A burial registration is printed on the person page and a closed life span on the neighbouring pages (one family, registered together); the page itself prints no death line."
-  },
-  {
-   "slug": "paul-raymond-lerena",
-   "reason": "The chart's working file records a death, the family headstone is transcribed on /family-papers/ with a closed span, and an estate notice and a sibling archive agree; the person page is an undated stub that prints none of it."
-  },
+ "_why": "The registry of exceptions to tools/check-living-years.py, which fails when a birth year or date on or after the living line (this year minus 80) is printed for a person with no death beside it. Three kinds of entry, nothing else. unpublished_deaths: a person the archive's own data records as dead (a death in the chart's working files, a burial register row, a headstone transcription) whose own page does not print the death. They are NOT living by the rule and their births are not masked, but nobody has confirmed the death for publication, and no tool adds one: David confirms each, and the entry is deleted when the death is recorded on the page (or the person is found to be living and goes on data/living-roster.tsv). snippets: one stated piece of text in one file, with the reason it is not a living person's birth. spellings: other forms a dead person's name is written in, so that a birth beside one of them is recognised as theirs (the kit's gate does not read this key; check-living-years.py does). On 25 October 2026 David confirmed the six people the registry held as unpublished deaths (Gayle, Jeffrey, Paul Raymond, Catherine Tersia, Jeanette Marie, Patricia Carmen) as dead; each death is now printed on the person's page and the list is empty. A name is never added here to silence the gate. also_written: other spellings the sources use for the same registered person (so a birth written under them is recognised as theirs); a form is only honoured when the birth year beside it is within three of the year the data holds.",
+ "unpublished_deaths": [],
+ "spellings": [
   {
    "slug": "catherine-tersia-lerena",
-   "reason": "The chart's working file records a death and the family headstone is transcribed on /family-papers/ with a closed span; the person page is an undated stub that prints none of it.",
    "also_written": [
     "Catherine Tertia",
     "Catherine Tertia KARON",
     "Catherine Tersia KARON"
-   ]
-  },
-  {
-   "slug": "jeanette-marie-lerena",
-   "reason": "The chart's working file records a death and her dated life with a death is on /family-papers/; the person page is an undated stub that prints none of it."
-  },
-  {
-   "slug": "patricia-carmen-lerena",
-   "reason": "The chart's working file records a death; the person page is an undated stub that prints none of it and no page prints her birth."
+   ],
+   "reason": "Catherine Tersia Lerena, written Catherine Tertia and Karon (her married name) in the 1971 notice and the commercial index; her page prints her death, so a birth beside any of these forms is hers and is excused only within three years of the one the data holds."
   }
  ],
  "snippets": [
   {
    "file": "*",
    "contains": "None is a South African woman born 1952",
-   "reason": "A search for the dead sister whose burial and headstone the archive holds (registered above); it names no living person."
+   "reason": "A search for Catherine Tersia Lerena, the dead sister whose burial and headstone the archive holds; her page now prints her death (confirmed by the family, 25 October 2026). It names no living person."
   },
   {
    "file": "*",
@@ -45,7 +26,7 @@
   {
    "file": "*",
    "contains": "a sister born Johannesburg 21 May 1952",
-   "reason": "The dead sister whose headstone is transcribed on /family-papers/ (registered above). A commit message cannot be rewritten."
+   "reason": "Catherine Tersia Lerena, whose headstone is transcribed on /family-papers/ and whose page now prints her death (confirmed by the family, 25 October 2026). A commit message cannot be rewritten."
   },
   {
    "file": "*",
@@ -55,22 +36,17 @@
   {
    "file": "*",
    "contains": "Lerena, born 11 March 1951 at Johannesburg",
-   "reason": "Paul Raymond Lerena, registered above under unpublished_deaths (the chart's working file, the family headstone on /family-papers/ and an estate notice agree). The passage is the correction of a wrong Australian birth taken from the withdrawn 2018 backup. A commit message cannot be rewritten."
+   "reason": "Paul Raymond Lerena, whose page now prints his death (the chart's year, the family headstone on /family-papers/, an estate notice, and the family's confirmation of 25 October 2026). The passage is the correction of a wrong Australian birth taken from the withdrawn 2018 backup. A commit message cannot be rewritten."
   },
   {
    "file": "*",
    "contains": "Paul Lerena, born 3 NOVEMBER 1951 at DAPTO",
-   "reason": "The withdrawn 2018-backup birth of Paul Raymond Lerena, registered above under unpublished_deaths, quoted on /family-papers/ in order to strike it."
-  },
-  {
-   "file": "*",
-   "contains": "Paul Raymond Lerena, born 11 MARCH 1951 at JOHANNESBURG",
-   "reason": "Paul Raymond Lerena, registered above under unpublished_deaths; the corrected birth set beside the withdrawn one on /family-papers/."
+   "reason": "The withdrawn 2018-backup birth of Paul Raymond Lerena, whose page prints his death, quoted on /family-papers/ in order to strike it."
   },
   {
    "file": "*",
    "contains": ", b.1952, carrying 1999.",
-   "reason": "Catherine Tersia Lerena (Karon), registered above under unpublished_deaths (the chart's working file and the family headstone on /family-papers/); the passage records that her 1999 rests on one index row and is untested in the gazette."
+   "reason": "Catherine Tersia Lerena (Karon), whose page prints her death (the chart's year, the family headstone on /family-papers/, and the family's confirmation of 25 October 2026); the passage records that her 1999 rests on one index row and is untested in the gazette."
   }
  ]
 }

@@ -2725,9 +2725,9 @@
  {
   "name": "Gayle LERENA (born PRESTON)",
   "born_est": "1950",
-  "last_attested_alive": "1950",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "last_attested_alive": "1999",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
  },
  {
   "name": "Richard LERENA",
@@ -2739,9 +2739,9 @@
  {
   "name": "Jeffrey LERENA",
   "born_est": "1991-01-02",
-  "last_attested_alive": "1991-01-02",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "last_attested_alive": "1999",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
  },
  {
   "name": "Mercedes LERENA (m. Luis P. Marquez 1883)",

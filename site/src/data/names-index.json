@@ -655,6 +655,14 @@
    "url": "/people/catherine-mary-sophia-booyzen/"
   },
   {
+   "name": "Catherine Tersia Lerena",
+   "aliases": [
+    "Catherine Tertia",
+    "Catherine Tertia Lerena"
+   ],
+   "url": "/people/catherine-tersia-lerena/"
+  },
+  {
    "name": "Cayetana Artola",
    "aliases": [],
    "url": "/people/cayetana-artola/"
@@ -1730,6 +1738,11 @@
     "Jacinta Merina"
    ],
    "url": "/people/jacinta-merina-santos/"
+  },
+  {
+   "name": "Jeanette Marie Lerena",
+   "aliases": [],
+   "url": "/people/jeanette-marie-lerena/"
   },
   {
    "name": "Jesus Modesto del Carmen Fernandez Lerena",
@@ -3118,7 +3131,12 @@
   },
   {
    "name": "Pablo Armando Lerena",
-   "aliases": [],
+   "aliases": [
+    "Robert Paul",
+    "Robert Paul Lerena",
+    "Robert Paul Lerina",
+    "Robert Paul Lesina"
+   ],
    "url": "/people/pablo-armando-lerena/"
   },
   {
@@ -3132,6 +3150,18 @@
     "Pablo Vaquero"
    ],
    "url": "/people/pablo-vaquero-lerena/"
+  },
+  {
+   "name": "Patricia Carmen Lerena",
+   "aliases": [],
+   "url": "/people/patricia-carmen-lerena/"
+  },
+  {
+   "name": "Paul Raymond Lerena",
+   "aliases": [
+    "Paul Raymond"
+   ],
+   "url": "/people/paul-raymond-lerena/"
   },
   {
    "name": "Paula Casares",
@@ -4331,6 +4361,19 @@
    ]
   },
   {
+   "name": "Gayle Lerena",
+   "url": "/people/?q=Gayle%20Lerena",
+   "bearers": [
+    "/people/gayle-lerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/pierre-frederick-lerena/",
+     "url": "/people/gayle-lerena/"
+    }
+   ]
+  },
+  {
    "name": "Geronima Lorena",
    "url": "/people/?q=Geronima%20Lorena",
    "bearers": [
@@ -4403,6 +4446,13 @@
    "url": "/people/?q=Jacinta%20Lerena",
    "bearers": [
     "/people/jacinta-lerena/"
+   ]
+  },
+  {
+   "name": "Jeffrey Lerena",
+   "url": "/people/?q=Jeffrey%20Lerena",
+   "bearers": [
+    "/people/jeffrey-lerena/"
    ]
   },
   {

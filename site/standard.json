@@ -445,14 +445,6 @@
  },
  "living_years": {
   "allow_file": "../data/living-year-allow.json",
-  "allow_prefixes": [
-   "/people/gayle-lerena/",
-   "/people/jeffrey-lerena/",
-   "/people/paul-raymond-lerena/",
-   "/people/catherine-tersia-lerena/",
-   "/people/jeanette-marie-lerena/",
-   "/people/patricia-carmen-lerena/"
-  ],
   "data": "src/data"
  },
  "_reasons": {

@@ -158,6 +158,12 @@ def main():
             fails.append(f"{ALLOW}: an unpublished_deaths entry has no slug or no reason")
         else:
             reg[e["slug"]] = e
+    spellings = {}
+    for e in allow.get("spellings", []):
+        if not (e.get("slug") and e.get("also_written") and str(e.get("reason", "")).strip()):
+            fails.append(f"{ALLOW}: a spellings entry needs slug, also_written and reason")
+        else:
+            spellings[e["slug"]] = e
     snippets = [e for e in allow.get("snippets", [])]
     for e in snippets:
         if not (e.get("file") and e.get("contains") and str(e.get("reason", "")).strip()):
@@ -191,7 +197,7 @@ def main():
         forms = {" ".join(toks)}
         if len(toks) >= 2:
             forms |= {" ".join(toks[:2]), toks[0] + " " + toks[-1]}
-        for w in reg.get(p.slug, {}).get("also_written", []):
+        for w in reg.get(p.slug, {}).get("also_written", []) + spellings.get(p.slug, {}).get("also_written", []):
             forms.add(L.fold(w))
         dead_forms += [(f, p.by) for f in forms if len(f) > 5]
 
@@ -256,7 +262,7 @@ def main():
         return 1
     print(f"  ok    living-years  line {cut} (= {year} - {lr.LIVING_YEARS}); {scanned} files read (built and tracked); no birth on or after "
           f"the line without a death beside it; {len(dead_young)} dead-by-the-data people born on or after the line, "
-          f"{len(unpublished)} with no death printed, all registered in {ALLOW} for David to confirm")
+          f"{len(unpublished)} with no death printed" + (f", all registered in {ALLOW} for David to confirm" if unpublished else ""))
     return 0
 
 

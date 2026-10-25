@@ -97,6 +97,23 @@ def edit(path, fn):
     path.write_text(fn(s), encoding="utf-8")
 
 
+BURIAL_ONLY = ("Gayle LERENA (born PRESTON)", "Jeffrey LERENA")
+
+
+def burial_only(t):
+    """Put the two 1999 burials back to what they were before 25 October 2026, when the register recorded no death for either and
+    only the burial registration kept them dead: their last-attested-alive rows go back to BIRTH ONLY. (The register now records
+    'DIED 1999' for both, so on the real data the burial file is no longer the only thing that keeps them dead; this plants the old state.)"""
+    f = t / "data" / "last-attested-alive.tsv"
+    out = []
+    for line in f.read_text(encoding="utf-8").split("\n"):
+        c = line.split("\t")
+        if c[0] in BURIAL_ONLY and len(c) >= 5:
+            c = [c[0], c[1], c[1], "born_est only - a floor, not an attestation", "BIRTH ONLY"]
+        out.append("\t".join(c))
+    f.write_text("\n".join(out), encoding="utf-8")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dist", default=str(ROOT / "site" / "dist"))
@@ -268,6 +285,7 @@ def main():
     case("a  a living person the generator dropped", STD, "has no entry in people.json", hidden, dist)
 
     def lose_burials(t):
+        burial_only(t)
         f = t / "data" / "johannesburg-cemetery-1999.tsv"
         f.write_text("# emptied for the control\nperson\twhat the register gives\tark\twhat it settles\n", encoding="utf-8")
     case("h  the two burial-only deaths lost from the data: marked living", STD, "speaks of a death, burial", lose_burials, dist)
@@ -347,8 +365,19 @@ def main():
             fn(j)
             f.write_text(json.dumps(j), encoding="utf-8")
         return m
-    drop_registry = reg_edit(lambda j: j.__setitem__("unpublished_deaths", [e for e in j["unpublished_deaths"] if e["slug"] != "paul-raymond-lerena"]))
-    case("Y  a person the data records dead, whose page prints no death, left out of the registry", YRS, "does not list them", drop_registry, dist)
+    # (25 October 2026: the registry is empty, every death the data records is printed. The control plants the old state: a death the
+    # data records and no page prints, first unregistered (refused), then registered with a reason (accepted).)
+    def unprint_death(t):
+        f = t / "site" / "src" / "data" / "people.json"
+        j = json.loads(f.read_text(encoding="utf-8"))
+        for p in j:
+            if p["slug"] == "paul-raymond-lerena":
+                p["died"] = ""
+        f.write_text(json.dumps(j), encoding="utf-8")
+    case("Y  a person the data records dead, whose page prints no death, left out of the registry", YRS, "does not list them", unprint_death, dist)
+    case("Y  ... and the same person registered with a reason is accepted", YRS, None,
+         lambda t: (unprint_death(t), reg_edit(lambda j: j["unpublished_deaths"].append({"slug": "paul-raymond-lerena", "reason": "planted for the control"}))(t)),
+         dist, expect_pass=True)
 
     stale_registry = reg_edit(lambda j: j["unpublished_deaths"].append({"slug": "cheryl-anne-lerena", "reason": "planted"}))
     case("Y  a registry entry the data no longer supports (a living woman)", YRS, "delete the entry", stale_registry, dist)
@@ -400,9 +429,10 @@ def main():
           lr.is_living(2000, False, [], 2080) and not lr.is_living(2000, False, [], 2081))
     check("rule  a recorded death means not living, however young",
           not lr.is_living(2005, True, [], 2026))
-    check("rule  THE KIT'S GAP, kept visible: its is_living says a FamilySearch citation makes a person born 2005 not living "
-          "(a private tree entry does not); this archive never passes a dated person's citations (cites_for_living)",
-          not lr.is_living(2005, False, ["FamilySearch Family Tree"], 2026)
+    check("rule  THE KIT'S GAP IS CLOSED (kit 341af33): a FamilySearch citation no longer makes a person born 2005 not living, as a private tree "
+          "entry never did; this archive still never passes a dated person's citations (cites_for_living, a second guard), and an undated "
+          "person's public source still releases the recent-child inference",
+          lr.is_living(2005, False, ["FamilySearch Family Tree"], 2026)
           and lr.is_living(2005, False, ["MyHeritage family tree"], 2026)
           and lr.is_living(2005, False, L.cites_for_living(2005, ["FamilySearch Family Tree"]), 2026)
           and not lr.is_living(None, False, L.cites_for_living(None, ["FamilySearch Family Tree"]), 2026))
@@ -508,6 +538,7 @@ def main():
     # burial-only deaths lost: the generator itself would publish them as living, and the gate net says so
     t = scratch(dist)
     try:
+        burial_only(t)
         (t / "data" / "johannesburg-cemetery-1999.tsv").write_text(
             "# emptied for the control\nperson\twhat the register gives\tark\twhat it settles\n", encoding="utf-8")
         r = gen_in_scratch(t)

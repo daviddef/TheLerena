@@ -172,9 +172,9 @@ case("check-living-standard", "dist is empty", PY("check-living-standard"), SC,
 case("check-living-years", "a birth year (1990) printed on a page with no death beside it (a person nobody's rule calls living)", PY("check-living-years"), SC,
      lambda P: P.edit(DIST / "index.html", lambda t: t.replace("</body>", "<p>Planted Person, b. 1990</p></body>", 1)), "prints a birth .1990")
 case("check-living-years", "a birth typed into a commit message that /changes/ prints (what once leaked)", PY("check-living-years"), SC,
-     lambda P: P.edit(SITE / "src/data/changes.json", lambda t: t.replace('"body": "', '"body": "Planted Person (b.1949) ', 1)), "prints a birth .1949")
-case("check-living-years", "a person the data records dead, whose page prints no death, is dropped from the registry", PY("check-living-years"), SC,
-     lambda P: P.edit(D / "living-year-allow.json", lambda t: t.replace('"slug": "paul-raymond-lerena"', '"slug": "nobody-lerena"', 1)), "does not list them")
+     lambda P: P.edit(SITE / "src/data/changes.json", lambda t: t.replace('"body": "', '"body": "Planted Person (b.1949) is a sentence of plain padding, long enough that no word or span of the real message lies within ninety characters of the year. ', 1)), "prints a birth .1949")
+case("check-living-years", "a person the data records dead, whose page prints no death, is not in the registry", PY("check-living-years"), SC,
+     lambda P: P.edit(SITE / "src/data/people.json", lambda t: re.sub(r'("slug": "paul-raymond-lerena",\s*"name": "Paul Raymond LERENA",\s*"born": "[^"]*",\s*"died": ")[^"]*(")', r'\1\2', t, count=1)), "does not list them")
 case("check-living-years", "dist is empty", PY("check-living-years"), SC,
      lambda P: P.delete(DIST), "empty build", "zero")
 case("check:kin", "a person who would be 200 years old", KIT("checkkin", "--data src/data/people.json --born born --died died --max 0"), SITE,

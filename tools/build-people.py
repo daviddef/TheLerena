@@ -293,7 +293,19 @@ for _n in _supp_names:
     priv_died = (_d.get("died") or _s.get("died") or "").strip()
     bp = (_d.get("born_place") or "").strip()
     born, died = years_of(EDGE_DATES.get(_n, ""))      # dates the chart already prints on a node
-    if _s:
+    # A DEATH THE FAMILY HAS CONFIRMED (25 October 2026). data/lerena-siblings-gen3.tsv carries a `confirmed_dead` cell,
+    # the source in words, for a person David has confirmed dead; only then are the chart's years printed (the year of
+    # birth and the year of death, no day), beside the death. Without it the file's dates still decide who is living and
+    # are never printed. The cell is the confirmation, not the date: the dates are the chart's, and the page says so.
+    _confirmed = (_s.get("confirmed_dead") or "").strip()
+    if _s and _confirmed and not died:
+        _yb, _yd = re.search(r"\b(1[0-9]{3}|20[0-9]{2})\b", priv_born), re.search(r"\b(1[0-9]{3}|20[0-9]{2})\b", priv_died)
+        if _yd:
+            born, died = (_yb.group(1) if _yb else ""), _yd.group(1)
+    if _s and _confirmed:
+        src = ("Named among the children of Nuno Fernando Lerena in his 1971 death notice (estate 6746/71). "
+               "The death: " + _confirmed + " (grade lore). The years are the family chart's and are not sourced here")
+    elif _s:
         src = ("Named among the children of Nuno Fernando Lerena in his 1971 death notice "
                "(estate 6746/71). Their dates are in the family chart, are not sourced here, and are not published")
     elif _d:
@@ -311,7 +323,8 @@ for _n in _supp_names:
         "_supp": True, "_privborn": priv_born, "_privdied": priv_died,
         # a person this archive holds nothing of its own about: named in the chart, and that is all
         "relOnly": not _s and not _d,
-        "datesFrom": "the family chart (data/relations.tsv)" if (born or died) else "",
+        "datesFrom": ("the family chart; the death is confirmed by the family (David Defranceski, 25 October 2026)"
+                      if _confirmed and died else "the family chart (data/relations.tsv)" if (born or died) else ""),
     })
 
 # A supplementary person is "connected" when the person who names them is: the standing is the
