@@ -46,6 +46,31 @@
    "file": "*",
    "contains": "a sister born Johannesburg 21 May 1952",
    "reason": "The dead sister whose headstone is transcribed on /family-papers/ (registered above). A commit message cannot be rewritten."
+  },
+  {
+   "file": "*",
+   "contains": "Belinda Maud (b. 16 January 1957)",
+   "reason": "A Government Gazette estate notice (017114/2024, 2 August 2024, held in data/gazettes-africa-resourced.tsv) names her with a death field of 2024; the day is flagged unreliable in the same entry, the death is not in doubt. A commit message cannot be rewritten."
+  },
+  {
+   "file": "*",
+   "contains": "Lerena, born 11 March 1951 at Johannesburg",
+   "reason": "Paul Raymond Lerena, registered above under unpublished_deaths (the chart's working file, the family headstone on /family-papers/ and an estate notice agree). The passage is the correction of a wrong Australian birth taken from the withdrawn 2018 backup. A commit message cannot be rewritten."
+  },
+  {
+   "file": "*",
+   "contains": "Paul Lerena, born 3 NOVEMBER 1951 at DAPTO",
+   "reason": "The withdrawn 2018-backup birth of Paul Raymond Lerena, registered above under unpublished_deaths, quoted on /family-papers/ in order to strike it."
+  },
+  {
+   "file": "*",
+   "contains": "Paul Raymond Lerena, born 11 MARCH 1951 at JOHANNESBURG",
+   "reason": "Paul Raymond Lerena, registered above under unpublished_deaths; the corrected birth set beside the withdrawn one on /family-papers/."
+  },
+  {
+   "file": "*",
+   "contains": ", b.1952, carrying 1999.",
+   "reason": "Catherine Tersia Lerena (Karon), registered above under unpublished_deaths (the chart's working file and the family headstone on /family-papers/); the passage records that her 1999 rests on one index row and is untested in the gazette."
   }
  ]
 }

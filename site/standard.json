@@ -439,6 +439,18 @@
   "/same-name/"
  ],
  "tables": "records",
+ "living_years": {
+  "allow_file": "../data/living-year-allow.json",
+  "allow_prefixes": [
+   "/people/gayle-lerena/",
+   "/people/jeffrey-lerena/",
+   "/people/paul-raymond-lerena/",
+   "/people/catherine-tersia-lerena/",
+   "/people/jeanette-marie-lerena/",
+   "/people/patricia-carmen-lerena/"
+  ],
+  "data": "src/data"
+ },
  "_reasons": {
   "/dna/ out of scope": "The DNA page names testers and matches, and the estate rule holds the tester out; its names are not claims about people read from records. It is outside the standard until David rules otherwise.",
   "tables: records": "Lerena puts its record readings in tables (the ledger on /searched/, the household rows on /uruguay/, the document list on /family-papers/): a cell is data about a record, not a sentence about a person, so names in cells are not read for L2 and L5 but a cell that cites a record must link it (L3).",
