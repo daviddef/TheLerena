@@ -5,6 +5,11 @@
    "date": "2026-10-25",
    "commits": [
     {
+     "sha": "76b342c",
+     "subject": "Fifteen children of the Trinidad cousins enter the register, from the baptism volume of 1857-1866",
+     "body": "The twenty baptisms of 1858-1866 that the previous commit left in the log are now people: five children of Alejandro the younger and Severa Fernandez (Venancio already held), four of Serapio Fernandez and Socorro Lerena, three of Bernabe Lerena and Casimira Pelaez (the 1859 daughter and Maria of 1866 already held; Antonina Escolastica of 1863 is the Antonina already held as born about 1862, merged), three of Servando Gonzalez and Estefania Lerena (Leopoldo of 1863 likely the lawyer already held), one of Juan Pedro Pelaez, and Pablo Vaquero. Each entry re-read in full from the machine transcript, plates not opened; 48 same-name pairs given reasons. Local check:standard reads this commit at the same counts as HEAD (L2 123 against floor 122 on this machine, L5 589); local check:names stops on the new cue gate and check:era on its snapshot, as at HEAD."
+    },
+    {
      "sha": "42c6b4c",
      "subject": "test-living-gates: the full-build control counts the roster's people instead of assuming two, and shows a failing build's exit and tail",
      "body": ""
