@@ -24150,9 +24150,27 @@
     "via": "register"
    },
    {
+    "name": "Francisco FERNANDEZ ALVAREZ (m. Clara Lerena)",
+    "dates": "",
+    "slug": "francisco-fernandez-alvarez",
+    "via": "register"
+   },
+   {
+    "name": "Josefa FERNANDEZ ALVAREZ (m. Juan Alvarez)",
+    "dates": "",
+    "slug": "josefa-fernandez-alvarez",
+    "via": "register"
+   },
+   {
     "name": "Manuel FERNANDEZ ALVAREZ (m. Maria de los Reyes Gonzalez)",
     "dates": "",
     "slug": "manuel-fernandez-alvarez",
+    "via": "register"
+   },
+   {
+    "name": "Maria FERNANDEZ ALVAREZ (godmother, 1825)",
+    "dates": "",
+    "slug": "maria-fernandez-alvarez",
     "via": "register"
    }
   ],
@@ -24488,9 +24506,27 @@
     "via": "register"
    },
    {
+    "name": "Francisco FERNANDEZ ALVAREZ (m. Clara Lerena)",
+    "dates": "",
+    "slug": "francisco-fernandez-alvarez",
+    "via": "register"
+   },
+   {
+    "name": "Josefa FERNANDEZ ALVAREZ (m. Juan Alvarez)",
+    "dates": "",
+    "slug": "josefa-fernandez-alvarez",
+    "via": "register"
+   },
+   {
     "name": "Margarita FERNANDEZ ALVAREZ (wife of Alejandro LERENA the elder)",
     "dates": "",
     "slug": "margarita-fernandez-alvarez",
+    "via": "register"
+   },
+   {
+    "name": "Maria FERNANDEZ ALVAREZ (godmother, 1825)",
+    "dates": "",
+    "slug": "maria-fernandez-alvarez",
     "via": "register"
    }
   ],
@@ -24926,6 +24962,20 @@
     "note": "San Jose baptism of 26 May 1839 (machine transcript, 19 Oct 2026)."
    },
    {
+    "name": "Francisco FERNANDEZ ALVAREZ (m. Clara Lerena)",
+    "dates": "",
+    "slug": "francisco-fernandez-alvarez",
+    "via": "register",
+    "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+   },
+   {
+    "name": "Josefa FERNANDEZ ALVAREZ (m. Juan Alvarez)",
+    "dates": "",
+    "slug": "josefa-fernandez-alvarez",
+    "via": "register",
+    "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+   },
+   {
     "name": "Manuel FERNANDEZ ALVAREZ (m. Maria de los Reyes Gonzalez)",
     "dates": "",
     "slug": "manuel-fernandez-alvarez",
@@ -24938,6 +24988,13 @@
     "slug": "margarita-fernandez-alvarez",
     "via": "register",
     "note": "Marriage dispensation expediente no. 15 of 1853, Arquidiocesis de Montevideo (film 007713344, image 163, kinship diagram dated 7 September 1853, plate read 19 Oct 2026): Juan Fernandez and Barbara Sotura at the apex, Manuel hijo and Margarita hija, 'hermanos'."
+   },
+   {
+    "name": "Maria FERNANDEZ ALVAREZ (godmother, 1825)",
+    "dates": "",
+    "slug": "maria-fernandez-alvarez",
+    "via": "register",
+    "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
    }
   ],
   "siblings": [],
@@ -24945,8 +25002,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 4,
-  "relRegister": 4,
+  "relTotal": 7,
+  "relRegister": 7,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -24991,6 +25048,20 @@
     "note": "San Jose baptism of 26 May 1839 (machine transcript, 19 Oct 2026)."
    },
    {
+    "name": "Francisco FERNANDEZ ALVAREZ (m. Clara Lerena)",
+    "dates": "",
+    "slug": "francisco-fernandez-alvarez",
+    "via": "register",
+    "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+   },
+   {
+    "name": "Josefa FERNANDEZ ALVAREZ (m. Juan Alvarez)",
+    "dates": "",
+    "slug": "josefa-fernandez-alvarez",
+    "via": "register",
+    "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+   },
+   {
     "name": "Manuel FERNANDEZ ALVAREZ (m. Maria de los Reyes Gonzalez)",
     "dates": "",
     "slug": "manuel-fernandez-alvarez",
@@ -25003,6 +25074,13 @@
     "slug": "margarita-fernandez-alvarez",
     "via": "register",
     "note": "Marriage dispensation expediente no. 15 of 1853, Arquidiocesis de Montevideo (film 007713344, image 163, kinship diagram dated 7 September 1853, plate read 19 Oct 2026): Juan Fernandez and Barbara Sotura at the apex, Manuel hijo and Margarita hija, 'hermanos'."
+   },
+   {
+    "name": "Maria FERNANDEZ ALVAREZ (godmother, 1825)",
+    "dates": "",
+    "slug": "maria-fernandez-alvarez",
+    "via": "register",
+    "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
    }
   ],
   "siblings": [],
@@ -25010,8 +25088,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 4,
-  "relRegister": 4,
+  "relTotal": 7,
+  "relRegister": 7,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -25025,10 +25103,10 @@
   "nationality": "Uruguayan",
   "occupation": "-",
   "where": "San Jose de Mayo",
-  "source": "Catedral Basilica San Jose, Religious Marriage Records March 1825-September 1859 - act No. 17 of 16 September 1825; DGS film 008143329 (microfilm 625330) image 10, ark 3:1:3Q9M-CSKH-67T7 - PLATE READ 9 October 2026",
+  "source": "Catedral Basilica San Jose, Religious Marriage Records March 1825-September 1859 - act No. 17 of 16 September 1825; DGS film 008143329 (microfilm 625330) image 10, ark 3:1:3Q9M-CSKH-67T7 - PLATE READ 9 October 2026; and San Jose de Mayo, Baptism Records May 1828 - January 1836 (191 images, all re-read with the wider spellings), the entries of October 1829 and 1833 (arks 3:1:3Q9M-CSKH-D95Z-F, 3:1:3Q9M-CSKH-D9PB-P) - *** MACHINE TRANSCRIPT *** 19 October 2026",
   "status": "interest",
   "statusRaw": "UNPLACED - INTEREST",
-  "note": "*** Godmother at the marriage of her sister MARGARITA to ALEJANDRO LERENA ***, 16 September 1825 at San Jose. *** A THIRD CHILD OF JUAN FERNANDEZ ALVAREZ AND BARBARA SOTURA ***, named only here. *** NOT THE MARIA FERNANDEZ TRESGUERRAS WHO MARRIED SANCHO LLERENA *** at Canelones in 1791 - a different family entirely, and the two are declared apart in data/_person-pairs.txt rather than left for the gate to find. *** HER SISTER CASILDA, 18 October 2026, MARRIED MARCOS DE LEON GONZALEZ AT SAN JOSE IN 1815: *** the godfather who stood beside Maria at the 1825 wedding and at the 1827 baptism is her own brother-in-law.",
+  "note": "*** Godmother at the marriage of her sister MARGARITA to ALEJANDRO LERENA ***, 16 September 1825 at San Jose. *** A THIRD CHILD OF JUAN FERNANDEZ ALVAREZ AND BARBARA SOTURA ***, named only here. *** NOT THE MARIA FERNANDEZ TRESGUERRAS WHO MARRIED SANCHO LLERENA *** at Canelones in 1791 - a different family entirely, and the two are declared apart in data/_person-pairs.txt rather than left for the gate to find. *** HER SISTER CASILDA, 18 October 2026, MARRIED MARCOS DE LEON GONZALEZ AT SAN JOSE IN 1815: *** the godfather who stood beside Maria at the 1825 wedding and at the 1827 baptism is her own brother-in-law. *** SHE MARRIED FRANCISCO PELAEZ, 19 October 2026: *** the baptism of their daughter Petrona Salonse del Corazon de Jesus, born 22 October 1829, names 'Francisco Pelaes y Maria Fernandez Alvarez; abuelos paternos Juan y Francisca Larriera; maternos Juan y Barbara Sotura', and in 1833 'Dona Maria Fernandez y su hijo Francisco Xavier Pelaes' stand godparents of her niece's child. A son Francisco Xavier is born between. These may be the Francisco Pelaez and Maria Fernandez named as the paternal grandparents of Juan Pedro Pelaez: likely, not proved.",
   "place": "San Jose de Mayo",
   "placeSlug": "san-jose-de-mayo",
   "surname": "FERNANDEZ",
@@ -25037,17 +25115,82 @@
   "noLink": "",
   "living": false,
   "gen": null,
-  "father": null,
-  "mother": null,
-  "spouses": [],
-  "children": [],
-  "siblings": [],
+  "father": {
+   "name": "Juan FERNANDEZ ALVAREZ (m. Barbara Sotura)",
+   "dates": "",
+   "slug": "juan-fernandez-alvarez",
+   "via": "register",
+   "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+  },
+  "mother": {
+   "name": "Barbara SOTURA (wife of Juan FERNANDEZ ALVAREZ)",
+   "dates": "",
+   "slug": "barbara-sotura",
+   "via": "register",
+   "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+  },
+  "spouses": [
+   {
+    "name": "Francisco PELAEZ (m. Maria Fernandez Alvarez)",
+    "dates": "",
+    "slug": "francisco-pelaez",
+    "via": "register",
+    "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+   }
+  ],
+  "children": [
+   {
+    "name": "Petrona Salonse PELAEZ Fernandez (b. 1829, San Jose)",
+    "dates": "",
+    "slug": "petrona-salonse-pelaez-fernandez",
+    "via": "register",
+    "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+   }
+  ],
+  "siblings": [
+   {
+    "name": "Casilda FERNANDEZ ALVAREZ (m. Marcos de Leon Gonzalez 1815)",
+    "dates": "",
+    "slug": "casilda-fernandez-alvarez",
+    "via": "register"
+   },
+   {
+    "name": "Esteban FERNANDEZ ALVAREZ (m. Josefa Cecilia Lac)",
+    "dates": "",
+    "slug": "esteban-fernandez-alvarez",
+    "via": "register"
+   },
+   {
+    "name": "Francisco FERNANDEZ ALVAREZ (m. Clara Lerena)",
+    "dates": "",
+    "slug": "francisco-fernandez-alvarez",
+    "via": "register"
+   },
+   {
+    "name": "Josefa FERNANDEZ ALVAREZ (m. Juan Alvarez)",
+    "dates": "",
+    "slug": "josefa-fernandez-alvarez",
+    "via": "register"
+   },
+   {
+    "name": "Manuel FERNANDEZ ALVAREZ (m. Maria de los Reyes Gonzalez)",
+    "dates": "",
+    "slug": "manuel-fernandez-alvarez",
+    "via": "register"
+   },
+   {
+    "name": "Margarita FERNANDEZ ALVAREZ (wife of Alejandro LERENA the elder)",
+    "dates": "",
+    "slug": "margarita-fernandez-alvarez",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 4,
+  "relRegister": 4,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -25096,7 +25239,29 @@
     "note": "San Jose marriage act of 17 Dec 1815 (certified copy, plate read 18 Oct 2026)."
    }
   ],
-  "children": [],
+  "children": [
+   {
+    "name": "Juan Inocencio de LEON GONZALEZ (b. 1831, San Jose)",
+    "dates": "",
+    "slug": "juan-inocencio-de-leon-gonzalez",
+    "via": "register",
+    "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+   },
+   {
+    "name": "Maria Claudina de la Luz de LEON GONZALEZ (b. 1835, San Jose)",
+    "dates": "",
+    "slug": "maria-claudina-de-la-luz-de-leon-gonzalez",
+    "via": "register",
+    "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+   },
+   {
+    "name": "Tomas Esteban de LEON GONZALEZ (b. 1833, San Jose)",
+    "dates": "",
+    "slug": "tomas-esteban-de-leon-gonzalez",
+    "via": "register",
+    "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+   }
+  ],
   "siblings": [
    {
     "name": "Maria Josefa GONZALEZ (wife of Ramon LERENA of Colla)",
@@ -25109,8 +25274,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 3,
-  "relRegister": 3,
+  "relTotal": 6,
+  "relRegister": 6,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -40231,10 +40396,10 @@
   "nationality": "Oriental",
   "occupation": "-",
   "where": "Trinidad, Flores",
-  "source": "San Jose de Mayo, Baptism Records, the christening of Alexandro Florencio, 7 March 1829; image ark 3:1:3Q9M-CSKH-D95F-H, index ark 1:1:6ZM3-4PGV - *** IMAGE READ *** 17 October 2026; and Santisima Trinidad, Trinidad, Flores, Baptism Records 1848-1857 (film 008163892, image 107 of 767), the christening of Juan Manuel, spring 1852 (Fr. Ramon Rivero); image ark 3:1:3Q9M-CS27-F3HQ-J - *** IMAGE READ *** 18 October 2026",
+  "source": "San Jose de Mayo, Baptism Records, the christening of Alexandro Florencio, 7 March 1829; image ark 3:1:3Q9M-CSKH-D95F-H, index ark 1:1:6ZM3-4PGV - *** IMAGE READ *** 17 October 2026; and Santisima Trinidad, Trinidad, Flores, Baptism Records 1848-1857 (film 008163892, image 107 of 767), the christening of Juan Manuel, spring 1852 (Fr. Ramon Rivero); image ark 3:1:3Q9M-CS27-F3HQ-J - *** IMAGE READ *** 18 October 2026; and San Jose de Mayo, Baptism Records May 1828 - January 1836 (191 images, all re-read with the wider spellings), the entries of 1 May 1828, November 1831, 1833, 1834 and 1835 (arks 3:1:3Q9M-CSKH-D9L5-H, 3:1:3Q9M-CSKH-D95Q-B, 3:1:3Q9M-CSKH-D95Q-9, 3:1:3Q9M-CSKH-D9PY-J, 3:1:3Q9M-CSKH-D9PL-7) - *** MACHINE TRANSCRIPT *** 19 October 2026",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "*** NAMED ONLY, as the godmother of Alexandro Florencio at San Jose on 7 March 1829: 'Madrina Clara Llerena'. *** Perhaps a sister of Alejandro the elder, since the act is silent on how she was related; no age, husband or parents are given, and this register holds no other Clara of the surname before 1900. *** A CLARA LERENA AT TRINIDAD IN 1852, 18 October 2026: *** the baptism of Juan Manuel, natural son of Martina Caceres, by Fr. Ramon Rivero in the spring of that year, read at the plate, has 'Fueron padrinos Dn. Manuel Ferreyra y Da. Clara Lerena'. She may be this woman or a niece or namesake; nothing joins them and she is not entered separately.",
+  "note": "*** NAMED ONLY, as the godmother of Alexandro Florencio at San Jose on 7 March 1829: 'Madrina Clara Llerena'. *** Perhaps a sister of Alejandro the elder, since the act is silent on how she was related; no age, husband or parents are given, and this register holds no other Clara of the surname before 1900. *** A CLARA LERENA AT TRINIDAD IN 1852, 18 October 2026: *** the baptism of Juan Manuel, natural son of Martina Caceres, by Fr. Ramon Rivero in the spring of that year, read at the plate, has 'Fueron padrinos Dn. Manuel Ferreyra y Da. Clara Lerena'. She may be this woman or a niece or namesake; nothing joins them and she is not entered separately. *** SHE IS A SISTER OF ALEJANDRO LERENA THE ELDER AND THE WIFE OF FRANCISCO FERNANDEZ, 19 October 2026. *** The baptism of 1 May 1828 of Pedro Francisco, born 29 April 1828, names his parents as 'Francisco Fernandez y Clara Lerena', his paternal grandparents as 'Juan, y Barbara Solera [Sotura]' and his maternal grandparents as 'Ramon y Maria de Leon Gonzalez' - the grandparents of Alejandro's children too - with Marcos de Leon Gonzalez and Casilda Fernandez as godparents; later entries make 'Don Francisco Fernandez y su esposa Dona Clara Ledena' godparents (1833, 1835) and 'Clara Lerena' godmother again in 1831, 1834, 1835, 1838 and 1859-1862 at Trinidad. So the 'Clara Llerena' who stood godmother to Alejandro the younger in 1829 is his aunt or sister: Alejandro's mother Maria is a de Leon Gonzalez, and Clara, daughter of the same Ramon and Maria, is his father's sister, so his AUNT. She married a brother of her brother's wife.",
   "place": "Trinidad, Flores",
   "placeSlug": "trinidad-flores",
   "surname": "LERENA",
@@ -40245,15 +40410,31 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
-  "children": [],
+  "spouses": [
+   {
+    "name": "Francisco FERNANDEZ ALVAREZ (m. Clara Lerena)",
+    "dates": "",
+    "slug": "francisco-fernandez-alvarez",
+    "via": "register",
+    "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+   }
+  ],
+  "children": [
+   {
+    "name": "Pedro Francisco FERNANDEZ Lerena (b. 1828, San Jose)",
+    "dates": "",
+    "slug": "pedro-francisco-fernandez-lerena",
+    "via": "register",
+    "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -42845,12 +43026,46 @@
     "note": "San Jose marriage act of 17 Dec 1815 (certified copy, plate read 18 Oct 2026)."
    }
   ],
-  "children": [],
+  "children": [
+   {
+    "name": "Juan Inocencio de LEON GONZALEZ (b. 1831, San Jose)",
+    "dates": "",
+    "slug": "juan-inocencio-de-leon-gonzalez",
+    "via": "register",
+    "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+   },
+   {
+    "name": "Maria Claudina de la Luz de LEON GONZALEZ (b. 1835, San Jose)",
+    "dates": "",
+    "slug": "maria-claudina-de-la-luz-de-leon-gonzalez",
+    "via": "register",
+    "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+   },
+   {
+    "name": "Tomas Esteban de LEON GONZALEZ (b. 1833, San Jose)",
+    "dates": "",
+    "slug": "tomas-esteban-de-leon-gonzalez",
+    "via": "register",
+    "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+   }
+  ],
   "siblings": [
    {
     "name": "Esteban FERNANDEZ ALVAREZ (m. Josefa Cecilia Lac)",
     "dates": "",
     "slug": "esteban-fernandez-alvarez",
+    "via": "register"
+   },
+   {
+    "name": "Francisco FERNANDEZ ALVAREZ (m. Clara Lerena)",
+    "dates": "",
+    "slug": "francisco-fernandez-alvarez",
+    "via": "register"
+   },
+   {
+    "name": "Josefa FERNANDEZ ALVAREZ (m. Juan Alvarez)",
+    "dates": "",
+    "slug": "josefa-fernandez-alvarez",
     "via": "register"
    },
    {
@@ -42864,14 +43079,20 @@
     "dates": "",
     "slug": "margarita-fernandez-alvarez",
     "via": "register"
+   },
+   {
+    "name": "Maria FERNANDEZ ALVAREZ (godmother, 1825)",
+    "dates": "",
+    "slug": "maria-fernandez-alvarez",
+    "via": "register"
    }
   ],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 3,
-  "relRegister": 3,
+  "relTotal": 6,
+  "relRegister": 6,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -43977,6 +44198,901 @@
   "noindex": false
  },
  {
+  "slug": "francisco-fernandez-alvarez",
+  "name": "Francisco FERNANDEZ ALVAREZ (m. Clara Lerena)",
+  "born": "-",
+  "died": "",
+  "birthplace": "San Jose de Mayo, Uruguay",
+  "nationality": "Oriental",
+  "occupation": "-",
+  "where": "San Jose de Mayo",
+  "source": "San Jose de Mayo, Baptism Records May 1828 - January 1836 (191 images, all re-read with the wider spellings), the entry of 1 May 1828 (ark 3:1:3Q9M-CSKH-D9L5-H) - *** MACHINE TRANSCRIPT *** 19 October 2026",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** A BROTHER OF MARGARITA FERNANDEZ ALVAREZ AND HUSBAND OF CLARA LERENA, FOUND 19 October 2026. *** 'hijo legitimo de Francisco Fernandez y Clara Lerena: abuelos paternos Juan y Barbara [Sotura]' - so a son of Juan Fernandez and Barbara Sotura, one of at least seven (Maria, Margarita, Casilda, Josefa, Manuel, Francisco and Esteban); godfather in 1833 with 'su esposa Dona Clara Ledena'. Not found afterwards.",
+  "place": "San Jose de Mayo",
+  "placeSlug": "san-jose-de-mayo",
+  "surname": "FERNANDEZ",
+  "ark": "3:1:3Q9M-CSKH-D9L5-H",
+  "sourceUrl": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKH-D9L5-H",
+  "noLink": "",
+  "living": false,
+  "gen": null,
+  "father": {
+   "name": "Juan FERNANDEZ ALVAREZ (m. Barbara Sotura)",
+   "dates": "",
+   "slug": "juan-fernandez-alvarez",
+   "via": "register",
+   "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+  },
+  "mother": {
+   "name": "Barbara SOTURA (wife of Juan FERNANDEZ ALVAREZ)",
+   "dates": "",
+   "slug": "barbara-sotura",
+   "via": "register",
+   "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+  },
+  "spouses": [
+   {
+    "name": "Clara LERENA (madrina, San Jose 1829)",
+    "dates": "",
+    "slug": "clara-lerena",
+    "via": "register",
+    "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+   }
+  ],
+  "children": [
+   {
+    "name": "Pedro Francisco FERNANDEZ Lerena (b. 1828, San Jose)",
+    "dates": "",
+    "slug": "pedro-francisco-fernandez-lerena",
+    "via": "register",
+    "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+   }
+  ],
+  "siblings": [
+   {
+    "name": "Casilda FERNANDEZ ALVAREZ (m. Marcos de Leon Gonzalez 1815)",
+    "dates": "",
+    "slug": "casilda-fernandez-alvarez",
+    "via": "register"
+   },
+   {
+    "name": "Esteban FERNANDEZ ALVAREZ (m. Josefa Cecilia Lac)",
+    "dates": "",
+    "slug": "esteban-fernandez-alvarez",
+    "via": "register"
+   },
+   {
+    "name": "Josefa FERNANDEZ ALVAREZ (m. Juan Alvarez)",
+    "dates": "",
+    "slug": "josefa-fernandez-alvarez",
+    "via": "register"
+   },
+   {
+    "name": "Manuel FERNANDEZ ALVAREZ (m. Maria de los Reyes Gonzalez)",
+    "dates": "",
+    "slug": "manuel-fernandez-alvarez",
+    "via": "register"
+   },
+   {
+    "name": "Margarita FERNANDEZ ALVAREZ (wife of Alejandro LERENA the elder)",
+    "dates": "",
+    "slug": "margarita-fernandez-alvarez",
+    "via": "register"
+   },
+   {
+    "name": "Maria FERNANDEZ ALVAREZ (godmother, 1825)",
+    "dates": "",
+    "slug": "maria-fernandez-alvarez",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 4,
+  "relRegister": 4,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "pedro-francisco-fernandez-lerena",
+  "name": "Pedro Francisco FERNANDEZ Lerena (b. 1828, San Jose)",
+  "born": "1828-04-29",
+  "died": "",
+  "birthplace": "San Jose de Mayo, Uruguay",
+  "nationality": "Oriental",
+  "occupation": "-",
+  "where": "San Jose de Mayo",
+  "source": "San Jose de Mayo, Baptism Records May 1828 - January 1836 (191 images, all re-read with the wider spellings), the entry of 1 May 1828 (ark 3:1:3Q9M-CSKH-D9L5-H) - *** MACHINE TRANSCRIPT *** 19 October 2026",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** A DOUBLE COUSIN OF ALEJANDRO'S CHILDREN, FOUND 19 October 2026. *** Baptised 1 May 1828 by the Dr Don Feliciano Rodriguez, born 29 April: 'Pedro Francisco, hijo legitimo de Francisco Fernandez y Clara Lerena: abuelos paternos Juan, y Barbara Solera; maternos Ramon y Maria de Leon Gonzalez; padrinos Marcos de Leon Gonzalez y Casilda Fernandez'. His father is a brother of Margarita and his mother a sister of Alejandro, so he is a first cousin of Maria Lerena's generation on both sides.",
+  "place": "San Jose de Mayo",
+  "placeSlug": "san-jose-de-mayo",
+  "surname": "FERNANDEZ",
+  "ark": "3:1:3Q9M-CSKH-D9L5-H",
+  "sourceUrl": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKH-D9L5-H",
+  "noLink": "",
+  "living": false,
+  "gen": null,
+  "father": {
+   "name": "Francisco FERNANDEZ ALVAREZ (m. Clara Lerena)",
+   "dates": "",
+   "slug": "francisco-fernandez-alvarez",
+   "via": "register",
+   "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+  },
+  "mother": {
+   "name": "Clara LERENA (madrina, San Jose 1829)",
+   "dates": "",
+   "slug": "clara-lerena",
+   "via": "register",
+   "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "josefa-fernandez-alvarez",
+  "name": "Josefa FERNANDEZ ALVAREZ (m. Juan Alvarez)",
+  "born": "-",
+  "died": "",
+  "birthplace": "San Jose de Mayo, Uruguay",
+  "nationality": "Oriental",
+  "occupation": "-",
+  "where": "San Jose de Mayo",
+  "source": "San Jose de Mayo, Baptism Records May 1828 - January 1836 (191 images, all re-read with the wider spellings), the entries of 1829, February 1832, 1833 and November 1834 (arks 3:1:3Q9M-CSKH-D95N-M, 3:1:3Q9M-CSKH-D957-6, 3:1:3Q9M-CSKH-D9PB-P, 3:1:3Q9M-CSKH-D9PG-T) - *** MACHINE TRANSCRIPT *** 19 October 2026",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** A SISTER OF MARGARITA FERNANDEZ ALVAREZ, FOUND 19 October 2026. *** Named 'Josefa Fernandez' with her husband Juan Alvarez on four baptisms of their children; 'maternos Juan y Barbara Sotura'. A sister of Margarita, Casilda, Maria, Manuel, Francisco and Esteban.",
+  "place": "San Jose de Mayo",
+  "placeSlug": "san-jose-de-mayo",
+  "surname": "FERNANDEZ",
+  "ark": "3:1:3Q9M-CSKH-D95N-M",
+  "sourceUrl": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKH-D95N-M",
+  "noLink": "",
+  "living": false,
+  "gen": null,
+  "father": {
+   "name": "Juan FERNANDEZ ALVAREZ (m. Barbara Sotura)",
+   "dates": "",
+   "slug": "juan-fernandez-alvarez",
+   "via": "register",
+   "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+  },
+  "mother": {
+   "name": "Barbara SOTURA (wife of Juan FERNANDEZ ALVAREZ)",
+   "dates": "",
+   "slug": "barbara-sotura",
+   "via": "register",
+   "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+  },
+  "spouses": [
+   {
+    "name": "Juan ALVAREZ (m. Josefa Fernandez)",
+    "dates": "",
+    "slug": "juan-alvarez",
+    "via": "register",
+    "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+   }
+  ],
+  "children": [
+   {
+    "name": "Francisco Maria de los Angeles ALVAREZ Fernandez (b. 1833, San Jose)",
+    "dates": "",
+    "slug": "francisco-maria-de-los-angeles-alvarez-fernandez",
+    "via": "register",
+    "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+   },
+   {
+    "name": "Jose Severino ALVAREZ Fernandez (b. 1834, San Jose)",
+    "dates": "",
+    "slug": "jose-severino-alvarez-fernandez",
+    "via": "register",
+    "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+   },
+   {
+    "name": "Juan Francisco ALVAREZ Fernandez (b. 1829, San Jose)",
+    "dates": "",
+    "slug": "juan-francisco-alvarez-fernandez",
+    "via": "register",
+    "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+   },
+   {
+    "name": "Juana Benigna ALVAREZ Fernandez (b. 1832, San Jose)",
+    "dates": "",
+    "slug": "juana-benigna-alvarez-fernandez",
+    "via": "register",
+    "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+   }
+  ],
+  "siblings": [
+   {
+    "name": "Casilda FERNANDEZ ALVAREZ (m. Marcos de Leon Gonzalez 1815)",
+    "dates": "",
+    "slug": "casilda-fernandez-alvarez",
+    "via": "register"
+   },
+   {
+    "name": "Esteban FERNANDEZ ALVAREZ (m. Josefa Cecilia Lac)",
+    "dates": "",
+    "slug": "esteban-fernandez-alvarez",
+    "via": "register"
+   },
+   {
+    "name": "Francisco FERNANDEZ ALVAREZ (m. Clara Lerena)",
+    "dates": "",
+    "slug": "francisco-fernandez-alvarez",
+    "via": "register"
+   },
+   {
+    "name": "Manuel FERNANDEZ ALVAREZ (m. Maria de los Reyes Gonzalez)",
+    "dates": "",
+    "slug": "manuel-fernandez-alvarez",
+    "via": "register"
+   },
+   {
+    "name": "Margarita FERNANDEZ ALVAREZ (wife of Alejandro LERENA the elder)",
+    "dates": "",
+    "slug": "margarita-fernandez-alvarez",
+    "via": "register"
+   },
+   {
+    "name": "Maria FERNANDEZ ALVAREZ (godmother, 1825)",
+    "dates": "",
+    "slug": "maria-fernandez-alvarez",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 7,
+  "relRegister": 7,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "juan-alvarez",
+  "name": "Juan ALVAREZ (m. Josefa Fernandez)",
+  "born": "-",
+  "died": "",
+  "birthplace": "San Jose de Mayo, Uruguay",
+  "nationality": "Oriental",
+  "occupation": "-",
+  "where": "San Jose de Mayo",
+  "source": "San Jose de Mayo, Baptism Records May 1828 - January 1836 (191 images, all re-read with the wider spellings), the entries of 1829, February 1832, 1833 and November 1834 (arks 3:1:3Q9M-CSKH-D95N-M, 3:1:3Q9M-CSKH-D957-6, 3:1:3Q9M-CSKH-D9PB-P, 3:1:3Q9M-CSKH-D9PG-T) - *** MACHINE TRANSCRIPT *** 19 October 2026",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** HUSBAND OF JOSEFA FERNANDEZ ALVAREZ, FOUND 19 October 2026. *** 'Don Juan Alvarez y Josefa Fernandez; abuelos paternos Francisco y Maria Martinez'. Nothing else is held.",
+  "place": "San Jose de Mayo",
+  "placeSlug": "san-jose-de-mayo",
+  "surname": "ALVAREZ",
+  "ark": "3:1:3Q9M-CSKH-D95N-M",
+  "sourceUrl": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKH-D95N-M",
+  "noLink": "",
+  "living": false,
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [
+   {
+    "name": "Josefa FERNANDEZ ALVAREZ (m. Juan Alvarez)",
+    "dates": "",
+    "slug": "josefa-fernandez-alvarez",
+    "via": "register",
+    "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+   }
+  ],
+  "children": [
+   {
+    "name": "Francisco Maria de los Angeles ALVAREZ Fernandez (b. 1833, San Jose)",
+    "dates": "",
+    "slug": "francisco-maria-de-los-angeles-alvarez-fernandez",
+    "via": "register",
+    "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+   },
+   {
+    "name": "Jose Severino ALVAREZ Fernandez (b. 1834, San Jose)",
+    "dates": "",
+    "slug": "jose-severino-alvarez-fernandez",
+    "via": "register",
+    "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+   },
+   {
+    "name": "Juan Francisco ALVAREZ Fernandez (b. 1829, San Jose)",
+    "dates": "",
+    "slug": "juan-francisco-alvarez-fernandez",
+    "via": "register",
+    "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+   },
+   {
+    "name": "Juana Benigna ALVAREZ Fernandez (b. 1832, San Jose)",
+    "dates": "",
+    "slug": "juana-benigna-alvarez-fernandez",
+    "via": "register",
+    "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+   }
+  ],
+  "siblings": [],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 5,
+  "relRegister": 5,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "juan-francisco-alvarez-fernandez",
+  "name": "Juan Francisco ALVAREZ Fernandez (b. 1829, San Jose)",
+  "born": "1829",
+  "died": "",
+  "birthplace": "San Jose de Mayo, Uruguay",
+  "nationality": "Oriental",
+  "occupation": "-",
+  "where": "San Jose de Mayo",
+  "source": "San Jose de Mayo, Baptism Records May 1828 - January 1836 (191 images, all re-read with the wider spellings), the entry noted (ark 3:1:3Q9M-CSKH-D95N-M) - *** MACHINE TRANSCRIPT *** 19 October 2026",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** A CHILD OF JUAN ALVAREZ AND JOSEFA FERNANDEZ, FOUND 19 October 2026. *** baptised in the second half of 1829, 'que nacio el ocho' (the month is not read), godparents Pedro Garcia de la Sierra and Francisca Rayo. 'hijo[a] legitimo[a] de Juan Alvarez y Josefa Fernandez; abuelos paternos Francisco y Maria Martinez; maternos Juan y Barbara Sotura'. A first cousin of the children of Alejandro and Margarita.",
+  "place": "San Jose de Mayo",
+  "placeSlug": "san-jose-de-mayo",
+  "surname": "ALVAREZ",
+  "ark": "3:1:3Q9M-CSKH-D95N-M",
+  "sourceUrl": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKH-D95N-M",
+  "noLink": "",
+  "living": false,
+  "gen": null,
+  "father": {
+   "name": "Juan ALVAREZ (m. Josefa Fernandez)",
+   "dates": "",
+   "slug": "juan-alvarez",
+   "via": "register",
+   "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+  },
+  "mother": {
+   "name": "Josefa FERNANDEZ ALVAREZ (m. Juan Alvarez)",
+   "dates": "",
+   "slug": "josefa-fernandez-alvarez",
+   "via": "register",
+   "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Francisco Maria de los Angeles ALVAREZ Fernandez (b. 1833, San Jose)",
+    "dates": "",
+    "slug": "francisco-maria-de-los-angeles-alvarez-fernandez",
+    "via": "register"
+   },
+   {
+    "name": "Jose Severino ALVAREZ Fernandez (b. 1834, San Jose)",
+    "dates": "",
+    "slug": "jose-severino-alvarez-fernandez",
+    "via": "register"
+   },
+   {
+    "name": "Juana Benigna ALVAREZ Fernandez (b. 1832, San Jose)",
+    "dates": "",
+    "slug": "juana-benigna-alvarez-fernandez",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "juana-benigna-alvarez-fernandez",
+  "name": "Juana Benigna ALVAREZ Fernandez (b. 1832, San Jose)",
+  "born": "1832",
+  "died": "",
+  "birthplace": "San Jose de Mayo, Uruguay",
+  "nationality": "Oriental",
+  "occupation": "-",
+  "where": "San Jose de Mayo",
+  "source": "San Jose de Mayo, Baptism Records May 1828 - January 1836 (191 images, all re-read with the wider spellings), the entry noted (ark 3:1:3Q9M-CSKH-D957-6) - *** MACHINE TRANSCRIPT *** 19 October 2026",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** A CHILD OF JUAN ALVAREZ AND JOSEFA FERNANDEZ, FOUND 19 October 2026. *** baptised in February 1832 aged four days, godparents D. Esteban Fernandez and Dona Juana Soleibar - her uncle Esteban. 'hijo[a] legitimo[a] de Juan Alvarez y Josefa Fernandez; abuelos paternos Francisco y Maria Martinez; maternos Juan y Barbara Sotura'. A first cousin of the children of Alejandro and Margarita.",
+  "place": "San Jose de Mayo",
+  "placeSlug": "san-jose-de-mayo",
+  "surname": "ALVAREZ",
+  "ark": "3:1:3Q9M-CSKH-D957-6",
+  "sourceUrl": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKH-D957-6",
+  "noLink": "",
+  "living": false,
+  "gen": null,
+  "father": {
+   "name": "Juan ALVAREZ (m. Josefa Fernandez)",
+   "dates": "",
+   "slug": "juan-alvarez",
+   "via": "register",
+   "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+  },
+  "mother": {
+   "name": "Josefa FERNANDEZ ALVAREZ (m. Juan Alvarez)",
+   "dates": "",
+   "slug": "josefa-fernandez-alvarez",
+   "via": "register",
+   "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Francisco Maria de los Angeles ALVAREZ Fernandez (b. 1833, San Jose)",
+    "dates": "",
+    "slug": "francisco-maria-de-los-angeles-alvarez-fernandez",
+    "via": "register"
+   },
+   {
+    "name": "Jose Severino ALVAREZ Fernandez (b. 1834, San Jose)",
+    "dates": "",
+    "slug": "jose-severino-alvarez-fernandez",
+    "via": "register"
+   },
+   {
+    "name": "Juan Francisco ALVAREZ Fernandez (b. 1829, San Jose)",
+    "dates": "",
+    "slug": "juan-francisco-alvarez-fernandez",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "francisco-maria-de-los-angeles-alvarez-fernandez",
+  "name": "Francisco Maria de los Angeles ALVAREZ Fernandez (b. 1833, San Jose)",
+  "born": "1833",
+  "died": "",
+  "birthplace": "San Jose de Mayo, Uruguay",
+  "nationality": "Oriental",
+  "occupation": "-",
+  "where": "San Jose de Mayo",
+  "source": "San Jose de Mayo, Baptism Records May 1828 - January 1836 (191 images, all re-read with the wider spellings), the entry noted (ark 3:1:3Q9M-CSKH-D9PB-P) - *** MACHINE TRANSCRIPT *** 19 October 2026",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** A CHILD OF JUAN ALVAREZ AND JOSEFA FERNANDEZ, FOUND 19 October 2026. *** baptised in 1833, 'nacio ante ayer' (the date line is cut), godparents Dona Maria Fernandez and her son Francisco Xavier Pelaes - her aunt and cousin. 'hijo[a] legitimo[a] de Juan Alvarez y Josefa Fernandez; abuelos paternos Francisco y Maria Martinez; maternos Juan y Barbara Sotura'. A first cousin of the children of Alejandro and Margarita.",
+  "place": "San Jose de Mayo",
+  "placeSlug": "san-jose-de-mayo",
+  "surname": "ALVAREZ",
+  "ark": "3:1:3Q9M-CSKH-D9PB-P",
+  "sourceUrl": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKH-D9PB-P",
+  "noLink": "",
+  "living": false,
+  "gen": null,
+  "father": {
+   "name": "Juan ALVAREZ (m. Josefa Fernandez)",
+   "dates": "",
+   "slug": "juan-alvarez",
+   "via": "register",
+   "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+  },
+  "mother": {
+   "name": "Josefa FERNANDEZ ALVAREZ (m. Juan Alvarez)",
+   "dates": "",
+   "slug": "josefa-fernandez-alvarez",
+   "via": "register",
+   "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Jose Severino ALVAREZ Fernandez (b. 1834, San Jose)",
+    "dates": "",
+    "slug": "jose-severino-alvarez-fernandez",
+    "via": "register"
+   },
+   {
+    "name": "Juan Francisco ALVAREZ Fernandez (b. 1829, San Jose)",
+    "dates": "",
+    "slug": "juan-francisco-alvarez-fernandez",
+    "via": "register"
+   },
+   {
+    "name": "Juana Benigna ALVAREZ Fernandez (b. 1832, San Jose)",
+    "dates": "",
+    "slug": "juana-benigna-alvarez-fernandez",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "jose-severino-alvarez-fernandez",
+  "name": "Jose Severino ALVAREZ Fernandez (b. 1834, San Jose)",
+  "born": "1834",
+  "died": "",
+  "birthplace": "San Jose de Mayo, Uruguay",
+  "nationality": "Oriental",
+  "occupation": "-",
+  "where": "San Jose de Mayo",
+  "source": "San Jose de Mayo, Baptism Records May 1828 - January 1836 (191 images, all re-read with the wider spellings), the entry noted (ark 3:1:3Q9M-CSKH-D9PG-T) - *** MACHINE TRANSCRIPT *** 19 October 2026",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** A CHILD OF JUAN ALVAREZ AND JOSEFA FERNANDEZ, FOUND 19 October 2026. *** baptised in November 1834, 'nacio ayer', godparents Don Jose Mora and Dona Petrona Blanco; the machine writes the name 'Jose Severina Fran[cisco]'. 'hijo[a] legitimo[a] de Juan Alvarez y Josefa Fernandez; abuelos paternos Francisco y Maria Martinez; maternos Juan y Barbara Sotura'. A first cousin of the children of Alejandro and Margarita.",
+  "place": "San Jose de Mayo",
+  "placeSlug": "san-jose-de-mayo",
+  "surname": "ALVAREZ",
+  "ark": "3:1:3Q9M-CSKH-D9PG-T",
+  "sourceUrl": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKH-D9PG-T",
+  "noLink": "",
+  "living": false,
+  "gen": null,
+  "father": {
+   "name": "Juan ALVAREZ (m. Josefa Fernandez)",
+   "dates": "",
+   "slug": "juan-alvarez",
+   "via": "register",
+   "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+  },
+  "mother": {
+   "name": "Josefa FERNANDEZ ALVAREZ (m. Juan Alvarez)",
+   "dates": "",
+   "slug": "josefa-fernandez-alvarez",
+   "via": "register",
+   "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Francisco Maria de los Angeles ALVAREZ Fernandez (b. 1833, San Jose)",
+    "dates": "",
+    "slug": "francisco-maria-de-los-angeles-alvarez-fernandez",
+    "via": "register"
+   },
+   {
+    "name": "Juan Francisco ALVAREZ Fernandez (b. 1829, San Jose)",
+    "dates": "",
+    "slug": "juan-francisco-alvarez-fernandez",
+    "via": "register"
+   },
+   {
+    "name": "Juana Benigna ALVAREZ Fernandez (b. 1832, San Jose)",
+    "dates": "",
+    "slug": "juana-benigna-alvarez-fernandez",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "francisco-pelaez",
+  "name": "Francisco PELAEZ (m. Maria Fernandez Alvarez)",
+  "born": "-",
+  "died": "",
+  "birthplace": "San Jose de Mayo, Uruguay",
+  "nationality": "Oriental",
+  "occupation": "-",
+  "where": "San Jose de Mayo",
+  "source": "San Jose de Mayo, Baptism Records May 1828 - January 1836 (191 images, all re-read with the wider spellings), the entry of October 1829 (ark 3:1:3Q9M-CSKH-D95Z-F) - *** MACHINE TRANSCRIPT *** 19 October 2026",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** HUSBAND OF MARIA FERNANDEZ ALVAREZ, FOUND 19 October 2026. *** 'Francisco Pelaes y Maria Fernandez Alvarez; abuelos paternos Juan y Francisca Larriera; maternos Juan y Barbara Sotura'. Possibly the Francisco Pelaez of the paternal grandparents of Juan Pedro Pelaez; not proved.",
+  "place": "San Jose de Mayo",
+  "placeSlug": "san-jose-de-mayo",
+  "surname": "PELAEZ",
+  "ark": "3:1:3Q9M-CSKH-D95Z-F",
+  "sourceUrl": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKH-D95Z-F",
+  "noLink": "",
+  "living": false,
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [
+   {
+    "name": "Maria FERNANDEZ ALVAREZ (godmother, 1825)",
+    "dates": "",
+    "slug": "maria-fernandez-alvarez",
+    "via": "register",
+    "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+   }
+  ],
+  "children": [
+   {
+    "name": "Petrona Salonse PELAEZ Fernandez (b. 1829, San Jose)",
+    "dates": "",
+    "slug": "petrona-salonse-pelaez-fernandez",
+    "via": "register",
+    "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+   }
+  ],
+  "siblings": [],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "petrona-salonse-pelaez-fernandez",
+  "name": "Petrona Salonse PELAEZ Fernandez (b. 1829, San Jose)",
+  "born": "1829-10-22",
+  "died": "",
+  "birthplace": "San Jose de Mayo, Uruguay",
+  "nationality": "Oriental",
+  "occupation": "-",
+  "where": "San Jose de Mayo",
+  "source": "San Jose de Mayo, Baptism Records May 1828 - January 1836 (191 images, all re-read with the wider spellings), the entry of October 1829 (ark 3:1:3Q9M-CSKH-D95Z-F) - *** MACHINE TRANSCRIPT *** 19 October 2026",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** A DAUGHTER OF FRANCISCO PELAEZ AND MARIA FERNANDEZ ALVAREZ, FOUND 19 October 2026. *** 'Petrona Salonse del Corazon de Jesus que nacio el veinte y dos [of the month; late October 1829 by the entries around it], hija legitima de Francisco Pelaes y Maria Fernandez Alvarez; padrinos Pedro Garcia y Bonifacia Barredo'.",
+  "place": "San Jose de Mayo",
+  "placeSlug": "san-jose-de-mayo",
+  "surname": "PELAEZ",
+  "ark": "3:1:3Q9M-CSKH-D95Z-F",
+  "sourceUrl": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKH-D95Z-F",
+  "noLink": "",
+  "living": false,
+  "gen": null,
+  "father": {
+   "name": "Francisco PELAEZ (m. Maria Fernandez Alvarez)",
+   "dates": "",
+   "slug": "francisco-pelaez",
+   "via": "register",
+   "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+  },
+  "mother": {
+   "name": "Maria FERNANDEZ ALVAREZ (godmother, 1825)",
+   "dates": "",
+   "slug": "maria-fernandez-alvarez",
+   "via": "register",
+   "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "juan-inocencio-de-leon-gonzalez",
+  "name": "Juan Inocencio de LEON GONZALEZ (b. 1831, San Jose)",
+  "born": "1831",
+  "died": "",
+  "birthplace": "San Jose de Mayo, Uruguay",
+  "nationality": "Oriental",
+  "occupation": "-",
+  "where": "San Jose de Mayo",
+  "source": "San Jose de Mayo, Baptism Records May 1828 - January 1836 (191 images, all re-read with the wider spellings), the entry noted (ark 3:1:3Q9M-CSKH-D95W-Q) - *** MACHINE TRANSCRIPT *** 19 October 2026",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** A CHILD OF MARCOS DE LEON GONZALEZ AND CASILDA FERNANDEZ, FOUND 19 October 2026. *** baptised in the first days of January 1832, aged four days, so born about 29 December 1831; godparents Don Juan Francisco Martinez and Micaela Pelaes. 'hijo[a] legitimo[a] de Don Marcos de Leon Gonzalez y Dona Casilda Fernandez; abuelos paternos Marcial e Isabel [Lorenzo Araquea]; maternos Juan y Barbara Sotura'. A first cousin of Alejandro's children on the Canary and the Fernandez sides.",
+  "place": "San Jose de Mayo",
+  "placeSlug": "san-jose-de-mayo",
+  "surname": "LEON",
+  "ark": "3:1:3Q9M-CSKH-D95W-Q",
+  "sourceUrl": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKH-D95W-Q",
+  "noLink": "",
+  "living": false,
+  "gen": null,
+  "father": {
+   "name": "Marcos de LEON GONZALEZ (godfather, 1825)",
+   "dates": "",
+   "slug": "marcos-de-leon-gonzalez",
+   "via": "register",
+   "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+  },
+  "mother": {
+   "name": "Casilda FERNANDEZ ALVAREZ (m. Marcos de Leon Gonzalez 1815)",
+   "dates": "",
+   "slug": "casilda-fernandez-alvarez",
+   "via": "register",
+   "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Maria Claudina de la Luz de LEON GONZALEZ (b. 1835, San Jose)",
+    "dates": "",
+    "slug": "maria-claudina-de-la-luz-de-leon-gonzalez",
+    "via": "register"
+   },
+   {
+    "name": "Tomas Esteban de LEON GONZALEZ (b. 1833, San Jose)",
+    "dates": "",
+    "slug": "tomas-esteban-de-leon-gonzalez",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "tomas-esteban-de-leon-gonzalez",
+  "name": "Tomas Esteban de LEON GONZALEZ (b. 1833, San Jose)",
+  "born": "1833",
+  "died": "",
+  "birthplace": "San Jose de Mayo, Uruguay",
+  "nationality": "Oriental",
+  "occupation": "-",
+  "where": "San Jose de Mayo",
+  "source": "San Jose de Mayo, Baptism Records May 1828 - January 1836 (191 images, all re-read with the wider spellings), the entry noted (ark 3:1:3Q9M-CSKH-D95Q-9) - *** MACHINE TRANSCRIPT *** 19 October 2026",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** A CHILD OF MARCOS DE LEON GONZALEZ AND CASILDA FERNANDEZ, FOUND 19 October 2026. *** baptised late in 1833 (the month is cut), 'que nacio el vientiuno', godparents Don Francisco Fernandez and his wife Dona Clara Ledena. 'hijo[a] legitimo[a] de Don Marcos de Leon Gonzalez y Dona Casilda Fernandez; abuelos paternos Marcial e Isabel [Lorenzo Araquea]; maternos Juan y Barbara Sotura'. A first cousin of Alejandro's children on the Canary and the Fernandez sides.",
+  "place": "San Jose de Mayo",
+  "placeSlug": "san-jose-de-mayo",
+  "surname": "LEON",
+  "ark": "3:1:3Q9M-CSKH-D95Q-9",
+  "sourceUrl": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKH-D95Q-9",
+  "noLink": "",
+  "living": false,
+  "gen": null,
+  "father": {
+   "name": "Marcos de LEON GONZALEZ (godfather, 1825)",
+   "dates": "",
+   "slug": "marcos-de-leon-gonzalez",
+   "via": "register",
+   "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+  },
+  "mother": {
+   "name": "Casilda FERNANDEZ ALVAREZ (m. Marcos de Leon Gonzalez 1815)",
+   "dates": "",
+   "slug": "casilda-fernandez-alvarez",
+   "via": "register",
+   "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Juan Inocencio de LEON GONZALEZ (b. 1831, San Jose)",
+    "dates": "",
+    "slug": "juan-inocencio-de-leon-gonzalez",
+    "via": "register"
+   },
+   {
+    "name": "Maria Claudina de la Luz de LEON GONZALEZ (b. 1835, San Jose)",
+    "dates": "",
+    "slug": "maria-claudina-de-la-luz-de-leon-gonzalez",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "maria-claudina-de-la-luz-de-leon-gonzalez",
+  "name": "Maria Claudina de la Luz de LEON GONZALEZ (b. 1835, San Jose)",
+  "born": "1835",
+  "died": "",
+  "birthplace": "San Jose de Mayo, Uruguay",
+  "nationality": "Oriental",
+  "occupation": "-",
+  "where": "San Jose de Mayo",
+  "source": "San Jose de Mayo, Baptism Records May 1828 - January 1836 (191 images, all re-read with the wider spellings), the entry noted (ark 3:1:3Q9M-CSKH-D9PN-G) - *** MACHINE TRANSCRIPT *** 19 October 2026",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** A CHILD OF MARCOS DE LEON GONZALEZ AND CASILDA FERNANDEZ, FOUND 19 October 2026. *** baptised about the end of October 1835, aged three days, godparents Don Francisco Fernandez and Dona Clara Ledena. 'hijo[a] legitimo[a] de Don Marcos de Leon Gonzalez y Dona Casilda Fernandez; abuelos paternos Marcial e Isabel [Lorenzo Araquea]; maternos Juan y Barbara Sotura'. A first cousin of Alejandro's children on the Canary and the Fernandez sides.",
+  "place": "San Jose de Mayo",
+  "placeSlug": "san-jose-de-mayo",
+  "surname": "LEON",
+  "ark": "3:1:3Q9M-CSKH-D9PN-G",
+  "sourceUrl": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKH-D9PN-G",
+  "noLink": "",
+  "living": false,
+  "gen": null,
+  "father": {
+   "name": "Marcos de LEON GONZALEZ (godfather, 1825)",
+   "dates": "",
+   "slug": "marcos-de-leon-gonzalez",
+   "via": "register",
+   "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+  },
+  "mother": {
+   "name": "Casilda FERNANDEZ ALVAREZ (m. Marcos de Leon Gonzalez 1815)",
+   "dates": "",
+   "slug": "casilda-fernandez-alvarez",
+   "via": "register",
+   "note": "San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Juan Inocencio de LEON GONZALEZ (b. 1831, San Jose)",
+    "dates": "",
+    "slug": "juan-inocencio-de-leon-gonzalez",
+    "via": "register"
+   },
+   {
+    "name": "Tomas Esteban de LEON GONZALEZ (b. 1833, San Jose)",
+    "dates": "",
+    "slug": "tomas-esteban-de-leon-gonzalez",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
   "slug": "esteban-fernandez-alvarez",
   "name": "Esteban FERNANDEZ ALVAREZ (m. Josefa Cecilia Lac)",
   "born": "-",
@@ -44037,6 +45153,18 @@
     "via": "register"
    },
    {
+    "name": "Francisco FERNANDEZ ALVAREZ (m. Clara Lerena)",
+    "dates": "",
+    "slug": "francisco-fernandez-alvarez",
+    "via": "register"
+   },
+   {
+    "name": "Josefa FERNANDEZ ALVAREZ (m. Juan Alvarez)",
+    "dates": "",
+    "slug": "josefa-fernandez-alvarez",
+    "via": "register"
+   },
+   {
     "name": "Manuel FERNANDEZ ALVAREZ (m. Maria de los Reyes Gonzalez)",
     "dates": "",
     "slug": "manuel-fernandez-alvarez",
@@ -44046,6 +45174,12 @@
     "name": "Margarita FERNANDEZ ALVAREZ (wife of Alejandro LERENA the elder)",
     "dates": "",
     "slug": "margarita-fernandez-alvarez",
+    "via": "register"
+   },
+   {
+    "name": "Maria FERNANDEZ ALVAREZ (godmother, 1825)",
+    "dates": "",
+    "slug": "maria-fernandez-alvarez",
     "via": "register"
    }
   ],

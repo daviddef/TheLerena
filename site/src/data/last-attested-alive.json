@@ -3019,9 +3019,9 @@
  {
   "name": "Maria FERNANDEZ ALVAREZ (godmother, 1825)",
   "born_est": "-",
-  "last_attested_alive": "1825-Sep-16",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Marcos de LEON GONZALEZ (godfather, 1825)",
@@ -5091,9 +5091,9 @@
  {
   "name": "Clara LERENA (madrina, San Jose 1829)",
   "born_est": "-",
-  "last_attested_alive": "1829-Mar-07",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Eusebio Congenio LERENA Gonzalez (b. 1816, Cordon)",
@@ -5701,6 +5701,97 @@
   "name": "Ramon Inocencio LERENA Fernandez (b. 1838, San Jose)",
   "born_est": "1838-07-28",
   "last_attested_alive": "1838-07-28",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Francisco FERNANDEZ ALVAREZ (m. Clara Lerena)",
+  "born_est": "-",
+  "last_attested_alive": "1828-May-01",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Pedro Francisco FERNANDEZ Lerena (b. 1828, San Jose)",
+  "born_est": "1828-04-29",
+  "last_attested_alive": "1828-May-01",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Josefa FERNANDEZ ALVAREZ (m. Juan Alvarez)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Juan ALVAREZ (m. Josefa Fernandez)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Juan Francisco ALVAREZ Fernandez (b. 1829, San Jose)",
+  "born_est": "1829",
+  "last_attested_alive": "1829",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Juana Benigna ALVAREZ Fernandez (b. 1832, San Jose)",
+  "born_est": "1832",
+  "last_attested_alive": "1832",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Francisco Maria de los Angeles ALVAREZ Fernandez (b. 1833, San Jose)",
+  "born_est": "1833",
+  "last_attested_alive": "1833",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Jose Severino ALVAREZ Fernandez (b. 1834, San Jose)",
+  "born_est": "1834",
+  "last_attested_alive": "1834",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Francisco PELAEZ (m. Maria Fernandez Alvarez)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Petrona Salonse PELAEZ Fernandez (b. 1829, San Jose)",
+  "born_est": "1829-10-22",
+  "last_attested_alive": "1829-10-22",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Juan Inocencio de LEON GONZALEZ (b. 1831, San Jose)",
+  "born_est": "1831",
+  "last_attested_alive": "1831-Dec-29",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Tomas Esteban de LEON GONZALEZ (b. 1833, San Jose)",
+  "born_est": "1833",
+  "last_attested_alive": "1833",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maria Claudina de la Luz de LEON GONZALEZ (b. 1835, San Jose)",
+  "born_est": "1835",
+  "last_attested_alive": "1835",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
