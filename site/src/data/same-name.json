@@ -85,8 +85,18 @@
        "tree": false
       },
       {
+       "slug": "maria-josefa-del-carmen-fernandez-lerena",
+       "name": "Maria Josefa del Carmen FERNANDEZ Lerena (chr.1862)",
+       "tree": false
+      },
+      {
        "slug": "maria-del-carmen-fernandez-lerena",
        "name": "Maria del Carmen FERNANDEZ Lerena (b. 1857, Trinidad)",
+       "tree": false
+      },
+      {
+       "slug": "modesta-carmelita-fernandez-lerena",
+       "name": "Modesta Carmelita FERNANDEZ Lerena (b. 1864, Trinidad)",
        "tree": false
       },
       {
@@ -187,6 +197,28 @@
      "source": "Uruguay Catholic Church Records 1726-2000, found by searching the MOTHER, 13 Sep 2026",
      "father": null,
      "mother": null,
+     "spouses": [],
+     "children": []
+    },
+    {
+     "slug": "maria-josefa-del-carmen-fernandez-lerena",
+     "name": "Maria Josefa del Carmen FERNANDEZ Lerena (chr.1862)",
+     "exact": false,
+     "status": "unplaced",
+     "born": "1862",
+     "died": "",
+     "where": "Trinidad, Flores · Oriental",
+     "source": "Santisima Trinidad, Baptism Records October 1857 …",
+     "father": {
+      "slug": "ramon-fernandez",
+      "name": "Ramon FERNANDEZ (m. Maria Lerena)",
+      "tree": false
+     },
+     "mother": {
+      "slug": "maria-lerena-6",
+      "name": "Maria LERENA (m. FERNANDEZ, d. 1892 Trinidad)",
+      "tree": false
+     },
      "spouses": [],
      "children": []
     },
@@ -915,6 +947,11 @@
        "tree": false
       },
       {
+       "slug": "pedro-segundo-gregorio-lerena-fernandez",
+       "name": "Pedro Segundo Gregorio LERENA Fernandez (chr.1865)",
+       "tree": false
+      },
+      {
        "slug": "pilar-florencio-lerena-fernandez",
        "name": "Pilar Florencio LERENA Fernandez (chr.1863)",
        "tree": false
@@ -1218,6 +1255,11 @@
      "spouses": [],
      "children": [
       {
+       "slug": "bernabe-concilo-lerena-pelaez",
+       "name": "Bernabe Concilo LERENA Pelaez (chr.1861)",
+       "tree": false
+      },
+      {
        "slug": "carmen-lerena-pelaez",
        "name": "Carmen LERENA Pelaez",
        "tree": false
@@ -1307,6 +1349,28 @@
        "tree": false
       }
      ]
+    },
+    {
+     "slug": "bernabe-concilo-lerena-pelaez",
+     "name": "Bernabe Concilo LERENA Pelaez (chr.1861)",
+     "exact": false,
+     "status": "unplaced",
+     "born": "1861",
+     "died": "",
+     "where": "Trinidad, Flores · Oriental",
+     "source": "Santisima Trinidad, Baptism Records October 1857 …",
+     "father": {
+      "slug": "bernabe-lerena",
+      "name": "Bernabe LERENA (of Trinidad)",
+      "tree": false
+     },
+     "mother": {
+      "slug": "dona-casimira-pelaez",
+      "name": "Dona Casimira PELAEZ (wife of Bernabe LERENA)",
+      "tree": false
+     },
+     "spouses": [],
+     "children": []
     }
    ]
   },
@@ -1747,7 +1811,7 @@
    "name": "Mauricio Lerena",
    "slug": "mauricio-lerena",
    "links": 17,
-   "exact": 2,
+   "exact": 3,
    "bearers": [
     {
      "slug": "mauricio-lerena",
@@ -1775,7 +1839,13 @@
        "tree": false
       }
      ],
-     "children": []
+     "children": [
+      {
+       "slug": "clemencio-lorenzo-lerena-montano",
+       "name": "Clemencio Lorenzo LERENA Montano (b. 1863, Trinidad)",
+       "tree": false
+      }
+     ]
     },
     {
      "slug": "mauricio-lerena-2",
@@ -1790,6 +1860,32 @@
      "mother": null,
      "spouses": [],
      "children": []
+    },
+    {
+     "slug": "mauricio-lerena-3",
+     "name": "Mauricio LERENA (m. Petrona Aguilar, Trinidad 1866)",
+     "exact": true,
+     "status": "unplaced",
+     "born": "",
+     "died": "",
+     "where": "Trinidad, Flores · Oriental",
+     "source": "Santisima Trinidad, Baptism Records October 1857 …",
+     "father": null,
+     "mother": null,
+     "spouses": [
+      {
+       "slug": "petrona-aguilar",
+       "name": "Petrona AGUILAR (m. Mauricio Lerena, Trinidad 1866)",
+       "tree": false
+      }
+     ],
+     "children": [
+      {
+       "slug": "paula-gregoria-lerena-aguilar",
+       "name": "Paula Gregoria LERENA Aguilar (b. 1866, Trinidad)",
+       "tree": false
+      }
+     ]
     }
    ]
   }

@@ -5649,6 +5649,97 @@
   "tier": "BIRTH ONLY"
  },
  {
+  "name": "Pedro Segundo Gregorio LERENA Fernandez (chr.1865)",
+  "born_est": "1865-05-03",
+  "last_attested_alive": "1865-Jun-15",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Francisco FERNANDEZ (m. Fulgencia Romero)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Fulgencia ROMERO (m. Francisco Fernandez)",
+  "born_est": "-",
+  "last_attested_alive": "1858-Oct-07",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Francisco Remigio FERNANDEZ Romero (chr.1858)",
+  "born_est": "1858-10-01",
+  "last_attested_alive": "1858-Oct-07",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Maria Josefa del Carmen FERNANDEZ Lerena (chr.1862)",
+  "born_est": "1862-05",
+  "last_attested_alive": "1862-May-22",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Modesta Carmelita FERNANDEZ Lerena (b. 1864, Trinidad)",
+  "born_est": "1864-02-24",
+  "last_attested_alive": "1864-Mar-04",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Bernabe Concilo LERENA Pelaez (chr.1861)",
+  "born_est": "1861-07-15",
+  "last_attested_alive": "1861-07-15",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Clemencio Lorenzo LERENA Montano (b. 1863, Trinidad)",
+  "born_est": "1863-11-22",
+  "last_attested_alive": "1863-Dec-09",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Petrona AGUILAR (m. Mauricio Lerena, Trinidad 1866)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Mauricio LERENA (m. Petrona Aguilar, Trinidad 1866)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Paula Gregoria LERENA Aguilar (b. 1866, Trinidad)",
+  "born_est": "1866-06-14",
+  "last_attested_alive": "1866-Jun-21",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Barbara LLERENA (enslaved, Trinidad 1843)",
+  "born_est": "-",
+  "last_attested_alive": "1843-Oct-29",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Fructuosa (daughter of Barbara Llerena, b. 1843)",
+  "born_est": "1843-10-26",
+  "last_attested_alive": "1843-10-26",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
   "name": "Eusebio Ramon FERNANDEZ Lerena (b. 1855, Trinidad)",
   "born_est": "1855-08",
   "last_attested_alive": "1855-Aug-18",

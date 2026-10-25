@@ -479,6 +479,15 @@
    "url": "/people/benito-larranaga-lerena/"
   },
   {
+   "name": "Bernabe Concilo Lerena Pelaez",
+   "aliases": [
+    "Bernabe Concilo Lerena",
+    "Bernabé Concilo Lerena",
+    "Bernabé Concilo Lerena Pelaez"
+   ],
+   "url": "/people/bernabe-concilo-lerena-pelaez/"
+  },
+  {
    "name": "Bernardina Harrison",
    "aliases": [
     "Bernardina Arrison"
@@ -765,6 +774,14 @@
    "name": "Clara Llerena",
    "aliases": [],
    "url": "/people/clara-lerena/"
+  },
+  {
+   "name": "Clemencio Lorenzo Lerena Montano",
+   "aliases": [
+    "Clemencio Lorenzo Lerena",
+    "Clemencio Lorenzo Lerena Montaño"
+   ],
+   "url": "/people/clemencio-lorenzo-lerena-montano/"
   },
   {
    "name": "Clemente Bueno",
@@ -1587,8 +1604,6 @@
   {
    "name": "Francisco Fernandez Alvarez",
    "aliases": [
-    "Francisco Fernandez",
-    "Francisco Fernández",
     "Francisco Fernández Alvarez"
    ],
    "url": "/people/francisco-fernandez-alvarez/"
@@ -1624,9 +1639,23 @@
    "url": "/people/francisco-perez-de-ceballos/"
   },
   {
+   "name": "Francisco Remigio Fernandez Romero",
+   "aliases": [
+    "Francisco Remigio Fernandez",
+    "Francisco Remigio Fernández",
+    "Francisco Remigio Fernández Romero"
+   ],
+   "url": "/people/francisco-remigio-fernandez-romero/"
+  },
+  {
    "name": "Frederick Christian Chappell",
    "aliases": [],
    "url": "/people/frederick-christian-chappell/"
+  },
+  {
+   "name": "Fulgencia Romero",
+   "aliases": [],
+   "url": "/people/fulgencia-romero/"
   },
   {
    "name": "Fulgencio de los Santos",
@@ -2999,6 +3028,21 @@
    "url": "/people/maria-joaquina/"
   },
   {
+   "name": "Maria Josefa del Carmen Fernandez Lerena",
+   "aliases": [
+    "Maria Josefa del Carmen",
+    "Maria Josefa del Carmen Fernandez",
+    "Maria Josefa del Carmen Fernández",
+    "Maria Josefa del Carmen Fernández Lerena",
+    "María Josefa del Carmen",
+    "María Josefa del Carmen Fernandez",
+    "María Josefa del Carmen Fernandez Lerena",
+    "María Josefa del Carmen Fernández",
+    "María Josefa del Carmen Fernández Lerena"
+   ],
+   "url": "/people/maria-josefa-del-carmen-fernandez-lerena/"
+  },
+  {
    "name": "Maria Josefa Gonzalez",
    "aliases": [
     "Maria Josefa González",
@@ -3260,6 +3304,16 @@
    "url": "/people/miguel-ramos/"
   },
   {
+   "name": "Modesta Carmelita Fernandez Lerena",
+   "aliases": [
+    "Modesta Carmelita",
+    "Modesta Carmelita Fernandez",
+    "Modesta Carmelita Fernández",
+    "Modesta Carmelita Fernández Lerena"
+   ],
+   "url": "/people/modesta-carmelita-fernandez-lerena/"
+  },
+  {
    "name": "Natalia Elena Lerena Recuero",
    "aliases": [
     "Natalia Elena Lerena"
@@ -3350,6 +3404,13 @@
    "url": "/people/paula-casares/"
   },
   {
+   "name": "Paula Gregoria Lerena Aguilar",
+   "aliases": [
+    "Paula Gregoria Lerena"
+   ],
+   "url": "/people/paula-gregoria-lerena-aguilar/"
+  },
+  {
    "name": "Paula Modesta Lerena Pelaez",
    "aliases": [
     "Paula Modesta Lerena"
@@ -3423,6 +3484,15 @@
    "url": "/people/pedro-ricardo-lerena-fernandez/"
   },
   {
+   "name": "Pedro Segundo Gregorio Lerena Fernandez",
+   "aliases": [
+    "Pedro Segundo Gregorio",
+    "Pedro Segundo Gregorio Lerena",
+    "Pedro Segundo Gregorio Lerena Fernández"
+   ],
+   "url": "/people/pedro-segundo-gregorio-lerena-fernandez/"
+  },
+  {
    "name": "Pedro Segundo Lerena Villademoros",
    "aliases": [
     "Pedro Segundo Lerena"
@@ -3438,6 +3508,11 @@
    "name": "Pedro Villademoros",
    "aliases": [],
    "url": "/people/pedro-villademoros/"
+  },
+  {
+   "name": "Petrona Aguilar",
+   "aliases": [],
+   "url": "/people/petrona-aguilar/"
   },
   {
    "name": "Petrona Fernandez",
@@ -4190,6 +4265,13 @@
    ]
   },
   {
+   "name": "Barbara Llerena",
+   "url": "/people/?q=Barbara%20Llerena",
+   "bearers": [
+    "/people/barbara-llerena/"
+   ]
+  },
+  {
    "name": "Bartolome Llerena",
    "url": "/people/?q=Bartolome%20Llerena",
    "bearers": [
@@ -4562,6 +4644,32 @@
    "url": "/people/?q=Florencio%20Serena",
    "bearers": [
     "/people/florencio-lerena-2/"
+   ]
+  },
+  {
+   "name": "Francisco Fernandez",
+   "url": "/people/?q=Francisco%20Fernandez",
+   "bearers": [
+    "/people/francisco-fernandez/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/clara-lerena/",
+     "url": "/people/francisco-fernandez-alvarez/"
+    }
+   ]
+  },
+  {
+   "name": "Francisco Fernández",
+   "url": "/people/?q=Francisco%20Fernandez",
+   "bearers": [
+    "/people/francisco-fernandez/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/clara-lerena/",
+     "url": "/people/francisco-fernandez-alvarez/"
+    }
    ]
   },
   {
@@ -5172,6 +5280,7 @@
    "url": "/same-name/mauricio-lerena/",
    "bearers": [
     "/people/mauricio-lerena-2/",
+    "/people/mauricio-lerena-3/",
     "/people/mauricio-lerena/"
    ]
   },
