@@ -2952,5 +2952,25 @@
    "machine-transcript"
   ],
   "note": "FOUND: Ramon Inocencio, born 28 July 1838, son of Alexandro and Margarita Fernandez; Esteban Segundo Fernandez Lac, born 13 May 1839, whose father Esteban Fernandez Alvarez is a son of Juan Fernandez and Barbara Sotura; Juana Antonia, baptised 11 May 1840, daughter of Isabel Lerena (a sister of Alejandro) with Alejandro and Margarita as godparents; Casimira Josefa Pelaez, born 19 March 1841, who is Bernabe's wife. NOT FOUND: Natalia Lerena's own baptism - not by name in the 1836-1840 hits; the volume 'January 1841 - May 1869' is only 152 images and its first 13 images and samples at 30, 45 and 60 are all 1841, so it was not walked; she could be in it, in the 1836-1840 volume under a garbled name, or elsewhere. Leads: walk the January 1841 volume; the 1836-1840 volume image by image for Natalia; Isabel Lerena's husband Francisco. WAYPOINT NOT ESTABLISHED."
+ },
+ {
+  "src": "FamilySearch full text with the San Jose place filter: \"Natalia\" \"Margarita Fernandez\" \"Maria Gonzalez\" (3,285 results) - the 1828-1836 volume hit read",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKH-D9PR-J",
+  "waypoint": null,
+  "what": "Natalia Lerena's own baptism, which the 1836-1840 and 1841 volumes did not hold",
+  "when": "2026-10-19",
+  "outcome": "yield",
+  "pages": "one image opened (machine transcript)",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "fernandez",
+   "san-jose",
+   "uruguay",
+   "familysearch",
+   "baptism",
+   "machine-transcript"
+  ],
+  "note": "FOUND: Natalia Isidora, born 15 May 1834, baptised at San Jose between late May and 9 July 1834 (entry no. 825), daughter of Alexandro 'Ledena' [Lerena] and Margarita Fernandez Alvarez, paternal grandparents Ramon and Maria Josefa Gonzalez, godparents Jose Bruno Larriera and Josefa Morales - in the volume May 1828 - January 1836, which the machine-index scan of film 008143327 (images 22-235, 17-18 October) had read and missed because the surname is spelt 'Ledena'. SUPERSEDES the 'Natalia's baptism NOT FOUND ... could be in the 1841 volume' lines of the entry above and the 'Natalia (born by 1841)' and 'sixth child between Bernabe and Natalia' wording of the register rows, now corrected. LESSON: a Lerena-like regex for these volumes must include 'Ledena', 'Lezama' and 'Lerma'; other children of the family in 1828-1836 may have been missed the same way. WAYPOINT NOT ESTABLISHED."
  }
 ]

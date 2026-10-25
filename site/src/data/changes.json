@@ -5,9 +5,59 @@
    "date": "2026-10-25",
    "commits": [
     {
+     "sha": "80b04d8",
+     "subject": "Catherine Mary Sophia Booyzen was born in 1929 (David confirmed): the Spine page's 1924 corrected, and the resolved conflict note removed from the story",
+     "body": ""
+    },
+    {
+     "sha": "9ca4c28",
+     "subject": "The story: /story/, \"Across the Water\", the line told once as a short book on the kit's StoryBook",
+     "body": "Seven chapters on the home page's own tree, with the joint that is missing left open: Félix Llerena and Rosalía\nAguilar of Córdoba; Sancho Llerena and María Fernández at Canelones and Montevideo (1789-1812); the house in the\nCordón and the 1866 Rosario act, ending where the tree breaks; Juan Carlos and María Lerena on the enrolment card;\nPablo Armando Lerena and Mary Septima Taylor at the Cape; Nuno Fernando at Rondebosch, Johannesburg and Germiston;\nand a closing chapter for the living by relationship and town, with no dates. Every paragraph graded doc, inf or\nlore; world passages marked archive or history (two history notes to approve); seven trees, four maps on the\narchive's era-towns coordinates (Córdoba and Asturias from the Record Atlas); five conflicts between the archive's\nown pages shown as to be confirmed.\nFirst place: front matter after the cover in book.json, a \"Start with the story\" note on the home page, and\n\"The story\" under Start in the menu (shared: site/src/layouts/Base.astro). check:story runs the kit's\ncheckfamilystory.py against the built page with the autolink living list, and its selftest, after check:book\n(shared: site/package.json). The prose gate reads story.json as hand-edited data and allows the living ribbon\ncard's structural fields (chapter, glyph, origin, originGrade, person, spouseLiving)."
+    },
+    {
+     "sha": "23b6616",
+     "subject": "Pin the kit to ed8211c: the family story kit (StoryBook, StoryRibbon, LineTree, StoryMap, story.css, the data contract and its gate checkfamilystory.py)",
+     "body": ""
+    },
+    {
+     "sha": "2050a0c",
+     "subject": "Merge remote-tracking branch 'origin/main' into kit341 (San Jose baptisms of 1838-1841); names-aliases kept from both sides, the search index, lines files and standard floor regenerated",
+     "body": ""
+    },
+    {
+     "sha": "5f713de",
+     "subject": "Six people David confirmed dead are printed dead: Gayle and Jeffrey (1999), Paul Raymond, Catherine Tersia, Jeanette Marie, Patricia Carmen (chart years, the death sourced as family confirmation); the unpublished-death registry is empty; the six names enter the index and the lines",
+     "body": "The register notes for Gayle and Jeffrey now say DIED 1999 (the year of the burial registration and of the spans their families' pages close on; no day is held). The four children of Nuno Fernando carry a confirmed_dead cell in data/lerena-siblings-gen3.tsv, and only then does tools/build-people.py print the chart's two years, with the confirmation as the source (family confirmation, David Defranceski, 25 October 2026; grade lore). Their pages are no longer noindex stubs: 4 person pages and 4 /who/ pages enter the sitemap, and Jeffrey and the four join the direct line's descendants. The kit's printed-year gate no longer needs the six prefixes (standard.json) and data/living-year-allow.json holds no unpublished death; its snippet reasons are reworded and one stale snippet dropped; a spellings key (read by check-living-years.py, not the kit) keeps Catherine Tertia / Karon recognised.\nWith paul, raymond, patricia, jeanette, marie and tersia now given names in the index the standard's counts rose on seven pages; they are brought back by the stated aliases Robert Paul (Lerena, Lerina, Lesina) for Pablo Armando, Paul Raymond and Catherine Tertia (Lerena), full names on /name/, /south-africa/ and the Nuno papers row, and data-no-autolink on one near-miss entry of another man; the floor is lowered where the counts fell. tools/test-living-gates.py plants the burial-only state and the unprinted death itself (90 of 90), and its kit-gap control now states that the pinned kit closed the gap; plant-faults.py plants an unprinted death by blanking the year and pads the commit-message plant so a neighbouring span cannot excuse it."
+    },
+    {
+     "sha": "523bf5b",
+     "subject": "San Jose baptisms of 1838-1841: a sixth child of Alejandro and Margarita, a brother of Margarita, a sister of Alejandro, and Bernabe's wife at her baptism",
+     "body": "Ramon Inocencio (born 28 July 1838); Esteban Fernandez Alvarez, a son of Juan Fernandez and Barbara Sotura, his wife Josefa Cecilia Lac and son Esteban Segundo (13 May 1839); Isabel Lerena, whose daughter Juana Antonia was baptised on 11 May 1840 with Alejandro and Margarita as godparents; and Casimira Josefa Pelaez, born 19 March 1841, who is Bernabe's wife Casimira. Natalia Lerena's own baptism was not found. Machine transcripts; plates not opened. checkstandard reads ok locally on this commit."
+    },
+    {
+     "sha": "946f981",
+     "subject": "Merge remote-tracking branch 'origin/main' into kit341",
+     "body": ""
+    },
+    {
      "sha": "39adffb",
      "subject": "Natalia Lerena's parents are named, and her son Manuel Vaquero is the procurador",
      "body": "The San Jose baptism of 5 March 1864 gives the maternal grandparents of Natalia's daughter Alejandra Justa as Alejandro and Margarita Fernandez; the Montevideo dispensation of the banns of 4 July 1861 lets Manuel Vaquero marry her at Trinidad; his civil act of 11 March 1889 gives his parents, age and trade, names Pio C. Lerena as his nephew by marriage and leaves one son, Manuel; the civil acts of 1891 and 1902 give the procurador as 29 and 40. Luis Pelaez's act of 1902 gives his parents and grandparents. Machine transcripts; plates not opened. The search for a Trinidad marriage book of the 1850s is logged as a null: none turns up in the index or the full text. Local check:standard reads the same counts as HEAD (L2 123 against floor 122 on this machine, L5 589)."
+    },
+    {
+     "sha": "9ae2227",
+     "subject": "Lines: /name/ draws the kit's BranchRivers (Lines.astro deleted); five lanes state a status and span, two pens carry notes and links, 19 nodes link to people, 87 more people stand on the lines through register links; check:lines wired (no legacy allowance)",
+     "body": ""
+    },
+    {
+     "sha": "707ed04",
+     "subject": "Living: the kit's printed-year gate (--years, --strict-allow) runs beside the archive's own; ten first-run hits all deceased persons the archive's data records (registered with reasons, no death added); the six unpublished-death pages exempt by prefix",
+     "body": ""
+    },
+    {
+     "sha": "91be1e9",
+     "subject": "Pin the kit to 341af33: the living rule frees no one born 1946 or later on a citation or a bare death flag; the lines figure states a status, pens and person links",
+     "body": ""
     },
     {
      "sha": "76b342c",
