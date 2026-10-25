@@ -157,10 +157,17 @@ def main():
                 includes.append(f)
     # book.json (17 October 2026) is hand-edited: every chapter title, blurb and part paragraph is typed. It is a tracked
     # data file the kit's default file set does not reach, so it is named here, like the components and layouts.
-    for extra in ("requests/*.md", "site/src/components/*.astro", "site/src/layouts/*.astro", "site/src/data/book.json"):
+    # story.json (25 October 2026) is hand-edited too: the whole text of /story/, and it names the living generation.
+    for extra in ("requests/*.md", "site/src/components/*.astro", "site/src/layouts/*.astro", "site/src/data/book.json",
+                  "site/src/data/story.json"):
         includes.append(extra)
 
     cmd = [sys.executable, str(kit), "--root", str(root), "--feed", str(fp)]
+    # The story's ribbon card for the living generation (kit docs/story.md) carries five structural fields beside the name,
+    # relationships and place the default allows: the card's chapter and glyph, the origin (her town) and its grade, the
+    # page slug as `person`, and the spouse's living flag. None is a detail about the person; a year, a date or a
+    # life-event word in any field still fails, as everywhere else.
+    cmd += ["--allow-keys", "chapter,glyph,origin,originGrade,person,spouseLiving"]
     for f in includes:
         cmd += ["--include", f]
     if (root / ALLOW).exists():

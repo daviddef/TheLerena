@@ -1,0 +1,2198 @@
+{
+  "_note": "The Lerena story (kit docs/story.md). HAND-WRITTEN: every sentence traces to the fact ledger kept with the work (lerena-story-ledger.md) and to the archive page or record in its evidence link. The line is the one the home page draws as its own tree, with the joint that is missing left open. Living people: relationships and towns only, no dates (data/living-roster.tsv). Map coordinates: data/era-towns.tsv (Canelones, Montevideo, Rosario, Buenos Aires, Bideford, Cape Town, Johannesburg), the kit gazetteer (South Africa; Queensland, standing for Australia) and the Record Atlas places file (Córdoba, Asturias).",
+  "title": "Across the Water",
+  "eyebrow": "The story · seven chapters · Córdoba to the Rand, with one joint missing",
+  "dek": "The line this archive follows, told once as a short book: a soldier from Córdoba at Canelones, a house in Montevideo, two names on an army card, a horseman at the Cape, a salesman on the Rand. In the middle there is a gap the papers have not closed, and it is left open on the page.",
+  "cardsNote": "Each chapter rests on papers the archive has read. These are the lines that carry it.",
+  "prologue": {
+    "title": "Start here",
+    "paragraphs": [
+      {
+        "id": "start-1",
+        "grade": "doc",
+        "text": "This is the short version of a long archive: one line of the Lerena family, told in order, from two names written down in Córdoba to a racing yard at the Cape and a family on the Rand. It is meant to be read in one sitting, and [corrections are welcome](/corrections/).",
+        "evidence": [
+          {
+            "href": "/direct-line/",
+            "why": "The Spine: the generations from Pablo Armando down, with the record under each"
+          }
+        ]
+      },
+      {
+        "id": "start-2",
+        "grade": "doc",
+        "text": "Everything said here about a person comes from a paper the archive holds, or is marked when it does not: **doc** where a document says so, **inf** where the archive reasons from documents, **lore** where it rests on family memory, a family tree or a published genealogy nobody here has checked. A paragraph takes the mark of its weakest sentence, and every mark links to the evidence. Passages set in under *In the world around them* describe the place and the years, never these people, and are marked **archive** or **history**.",
+        "evidence": [
+          {
+            "href": "/method/",
+            "why": "Method: how every claim is tiered"
+          }
+        ]
+      },
+      {
+        "id": "start-4",
+        "grade": "doc",
+        "text": "This story has a hole in the middle, and it is told with the hole showing. The papers follow a Spanish soldier's family at Canelones and Montevideo for a hundred years, and a man born at Rosario de Santa Fe from the Cape to his grave. Nothing yet joins the two. Chapter III ends where the archive's own tree breaks; chapter IV begins on the far side.",
+        "evidence": [
+          {
+            "href": "/",
+            "why": "The home page: one tree, and the joint that is missing"
+          }
+        ]
+      },
+      {
+        "id": "start-5",
+        "grade": "doc",
+        "text": "The name moves as the story does: Llerena with a double L in the earliest acts, Lerena in most, Lerina on one death certificate, Lorena and Serena in the machine indexes. In South Africa Pablo Armando Lerena was also Robert Paul. Each chapter ends with *The papers for this chapter*.",
+        "evidence": [
+          {
+            "href": "/name/#s-variants",
+            "why": "Every way the name has been written down"
+          }
+        ]
+      }
+    ]
+  },
+  "ribbon": {
+    "note": "Each card names that generation and where the papers say it came from, with the place a document later finds the household where it differs, and the spouse and where the spouse came from. The outline carries the evidence for 'from': solid documented, dashed inferred, dotted family memory. The third card is a whole generation, because no paper says which of Sancho's children, if any, carries the line on; between it and the fourth card the line is broken.",
+    "cards": [
+      {
+        "name": "Félix Llerena",
+        "years": "named 1791",
+        "origin": "Córdoba",
+        "originGrade": "doc",
+        "spouse": "Rosalía Aguilar",
+        "spouseOrigin": "of Córdoba",
+        "atPlace": "",
+        "atYear": "",
+        "living": false,
+        "chapter": "origins",
+        "person": "felix-lerena",
+        "spousePerson": "rosalia-aguilar",
+        "glyph": "hill",
+        "title": "Named, with his wife, on his son's marriage act of 1791 and a grandson's baptism of 1811; nothing else is known of either"
+      },
+      {
+        "name": "Sancho Llerena",
+        "years": "c.1767–after 1812",
+        "origin": "Córdova la Llana",
+        "originGrade": "doc",
+        "spouse": "María Fernández",
+        "spouseOrigin": "of Asturias",
+        "atPlace": "Canelones",
+        "atYear": "1791",
+        "living": false,
+        "chapter": "dragoon",
+        "person": "sancho-llerena-aguilar",
+        "spousePerson": "dona-maria-fernandez-tresguerras",
+        "glyph": "field",
+        "title": "Married at Canelones in 1791; in the census of Montevideo in 1812"
+      },
+      {
+        "name": "Sancho's children",
+        "years": "1791–1815",
+        "origin": "Canelones",
+        "originGrade": "doc",
+        "spouse": "",
+        "spouseOrigin": "",
+        "atPlace": "Montevideo",
+        "atYear": "1812",
+        "living": false,
+        "chapter": "cordon",
+        "glyph": "gable",
+        "title": "Nine children are named in the papers; no paper says which of them, if any, is the parent of the next card"
+      },
+      {
+        "name": "Juan Carlos Lerena",
+        "years": "by 1882",
+        "origin": "the River Plate",
+        "originGrade": "inf",
+        "spouse": "María Lerena",
+        "spouseOrigin": "place not known",
+        "atPlace": "Rosario",
+        "atYear": "1882",
+        "living": false,
+        "chapter": "card",
+        "person": "juan-carlos-lerena",
+        "spousePerson": "maria-lerena",
+        "glyph": "stone",
+        "title": "Two names on their son's Argentine army card, and no other record of either anywhere"
+      },
+      {
+        "name": "Pablo Armando Lerena",
+        "years": "1882–1950",
+        "origin": "Rosario de Santa Fe",
+        "originGrade": "doc",
+        "spouse": "Mary Septima Taylor",
+        "spouseOrigin": "of Northam, Devon",
+        "atPlace": "Cape Town",
+        "atYear": "1905",
+        "living": false,
+        "chapter": "horseman",
+        "person": "pablo-armando-lerena",
+        "spousePerson": "mary-septima-taylor",
+        "glyph": "ship",
+        "title": "Born at Rosario by his own passport; a horse-dealer, trainer and racehorse owner at the Cape"
+      },
+      {
+        "name": "Nuno Fernando Lerena",
+        "years": "1924–1971",
+        "origin": "Wynberg, Cape Town",
+        "originGrade": "doc",
+        "spouse": "Catherine Mary Sophia Booyzen",
+        "spouseOrigin": "of Brakpan",
+        "atPlace": "Germiston",
+        "atYear": "1971",
+        "living": false,
+        "chapter": "rand",
+        "person": "nuno-fernando-lerena",
+        "spousePerson": "catherine-mary-sophia-booyzen",
+        "glyph": "works",
+        "title": "Born at Wynberg; married at Johannesburg; a salesman at Germiston"
+      },
+      {
+        "name": "Cheryl Anne Lerena",
+        "years": "",
+        "origin": "Johannesburg",
+        "originGrade": "doc",
+        "spouse": "Ivan Defranceski",
+        "spouseOrigin": "",
+        "atPlace": "",
+        "atYear": "",
+        "living": true,
+        "spouseLiving": true,
+        "chapter": "us",
+        "person": "cheryl-anne-lerena",
+        "glyph": "loom",
+        "title": "Living: named with her relationships and her town, and nothing more"
+      }
+    ]
+  },
+  "chapters": [
+    {
+      "id": "origins",
+      "numeral": "I",
+      "title": "Two names from Córdoba",
+      "place": "Córdoba, Andalusia",
+      "years": "before 1791",
+      "paragraphs": [
+        {
+          "id": "o-1",
+          "grade": "doc",
+          "text": "On 8 January 1791 the acting priest of the parish of Our Lady of Guadalupe at Canelones, Juan Francisco Cardoso, married a couple and wrote down where the groom came from. The groom was [Sancho Llerena](person:sancho-llerena-aguilar), «natural de Cordova la Llana», the legitimate son of [Félix Llerena](person:felix-lerena) and [Rosalía Aguilar](person:rosalia-aguilar), «naturales de dicha Cordova». That sentence holds nearly everything the archive knows of the generation before him.",
+          "evidence": [
+            {
+              "href": "/uruguay/#sanchohouse-1",
+              "why": "Canelones, Matrimonios Libro I, 8 January 1791: DGS 8166578, image 2687, read off the image"
+            }
+          ]
+        },
+        {
+          "id": "o-2",
+          "grade": "doc",
+          "text": "Twenty years later, in another parish, it was said again. At the Iglesia Matriz of Montevideo on 10 February 1811 the priest baptised Sancho's son Luis and named the paternal grandparents: «Felix Llerena y Rosalia Aguilar». He spelled the name with a double L, in the same hand that wrote «Sancho Llerena» two lines above and called him «natural de Andalucia». Two acts, two parishes, twenty years apart, agree on both names.",
+          "evidence": [
+            {
+              "href": "person:felix-lerena",
+              "why": "Iglesia Matriz, Montevideo, baptism of Luis Escolástico, 10 February 1811: film 007713375, image 02410, read off the plate"
+            }
+          ]
+        },
+        {
+          "id": "o-3",
+          "grade": "doc",
+          "text": "That is the whole of it. No date of birth, marriage or death is known for Félix or for Rosalía, no other child, no house, no trade. Neither has been found in any Spanish register, and the search that might find them, the two names in the parish books of Córdoba, has not yet been run.",
+          "evidence": [
+            {
+              "href": "/uruguay/#sanchohouse-1",
+              "why": "Sancho's house: 'Not yet found in any Spanish register'"
+            },
+            {
+              "href": "/hypotheses/#h-1-where-the-surname-comes-from",
+              "why": "Hypothesis 1: the Córdoba search not yet run"
+            }
+          ]
+        },
+        {
+          "id": "o-4",
+          "grade": "doc",
+          "text": "Even the town is not quite settled. The priest at Canelones wrote *Cordova* twice, plainly, and after it a second word that reads «la Llana» or «la Llama»: his hand does not separate m from n, and no modern place of either name has been identified. The Montevideo act of 1811 and the census of 1812 both call Sancho Andalusian, so the Córdoba is the Andalusian one; which place in it the second word names is a question for a Spanish archive.",
+          "evidence": [
+            {
+              "href": "/uruguay/#sanchohouse-2",
+              "why": "Sancho Llerena and María Fernández: Córdova la Llana"
+            },
+            {
+              "href": "/hypotheses/#s-padron-image",
+              "why": "The 1812 padrón: 'Andaluzia'"
+            }
+          ],
+          "tbc": "The second word of the place name is not read with certainty, and no place of that name has been found."
+        },
+        {
+          "id": "o-5",
+          "grade": "inf",
+          "text": "The name itself is unsettled. Lerena might be a Basque house-name, the *-ena* meaning 'the house of', or a worn-down Llerena, the name of a town in Badajoz. For this family the papers lean one way. The earliest generation wrote Llerena, and in 1828 a Uruguayan register wrote «Sancho de Llerena», with the *de* of a place-name, which a Basque house-name does not take. The archive reads this house's Lerenas as Llerenas whose double L the clerks of the River Plate wore down, and it says that this is a reading.",
+          "evidence": [
+            {
+              "href": "/name/#s-what-the-name-means-the-unresolved-fork",
+              "why": "What the name means: the unresolved fork, and the 1828 'Sancho de Llerena'"
+            }
+          ]
+        },
+        {
+          "id": "o-6",
+          "grade": "lore",
+          "text": "Family trees on the internet give Sancho a birth at Córdoba about 1767 and a death in 1832, citing a published genealogy. The year of birth agrees with the age the census of 1812 gives him. The death is in no record the archive has read.",
+          "evidence": [
+            {
+              "href": "/uruguay/#s-sancho-alive",
+              "why": "When was Sancho last alive? The trees' 1832 is not a fact"
+            }
+          ]
+        },
+        {
+          "id": "o-7",
+          "grade": "doc",
+          "text": "One more Sancho belongs in this chapter only so that nobody joins him to it later. A Sancho de Lerena y Armenta, born at Córdoba, married at Santa Ana in Granada in 1754. For a day the archive tried him as a forebear of this Sancho, until Sancho's own parents were found to be Félix and Rosalía. Nothing joins him to this family.",
+          "evidence": [
+            {
+              "href": "person:sancho-llerena-aguilar",
+              "why": "The Granada act of 17 November 1754, and why it was set aside"
+            }
+          ]
+        },
+        {
+          "id": "o-8",
+          "register": "world",
+          "worldSource": "archive",
+          "text": "The name is rare everywhere: about 2,124 people in the world carry it. Spain holds the most, about 888, but the name is densest in Uruguay, about one person in 8,000, six times the Spanish rate. The archive reads that as the mark of a few people who crossed the ocean and multiplied.",
+          "evidence": [
+            {
+              "kind": "archive",
+              "href": "/name/#s-how-rare",
+              "why": "How rare, and where they are (Forebears figures)"
+            }
+          ]
+        }
+      ],
+      "tree": {
+        "glyph": "hill",
+        "note": "Both parents are named on two acts, of 1791 and 1811, and nothing else is known of them. Sancho's year of birth is reckoned from his age in the census of 1812.",
+        "thread": "o-sancho",
+        "rows": [
+          {
+            "kind": "couple",
+            "nodes": [
+              {
+                "id": "o-felix",
+                "name": "Félix Llerena",
+                "years": "of Córdova",
+                "grade": "doc",
+                "person": "felix-lerena"
+              },
+              {
+                "id": "o-rosalia",
+                "name": "Rosalía Aguilar",
+                "years": "of Córdova",
+                "grade": "doc",
+                "person": "rosalia-aguilar"
+              }
+            ]
+          },
+          {
+            "kind": "children",
+            "nodes": [
+              {
+                "id": "o-sancho",
+                "name": "Sancho",
+                "years": "c.1767",
+                "grade": "doc",
+                "person": "sancho-llerena-aguilar"
+              }
+            ]
+          }
+        ]
+      },
+      "quote": {
+        "label": "1791 · Canelones",
+        "title": "The groom and his parents",
+        "text": "«Sancho Llerena, natural de Cordova la Llana, hijo legitimo de Felix Llerena, y de Rosalia Aguilar, naturales de dicha Cordova»",
+        "source": "Canelones, Nuestra Señora de Guadalupe, Matrimonios Libro I, 8 January 1791 (DGS 8166578, image 2687)",
+        "hardLimit": "The act gives no age, no trade and no village beyond the doubtful «la Llana». Félix and Rosalía are names and a city, and nothing more."
+      },
+      "plates": [],
+      "papers": [
+        {
+          "title": "Sancho's house, out of Córdoba",
+          "href": "/uruguay/#sanchohouse-1"
+        },
+        {
+          "title": "Félix Llerena",
+          "href": "person:felix-lerena"
+        },
+        {
+          "title": "What the name means",
+          "href": "/name/#s-what-the-name-means-the-unresolved-fork"
+        },
+        {
+          "title": "Where the surname comes from",
+          "href": "/hypotheses/#h-1-where-the-surname-comes-from"
+        }
+      ]
+    },
+    {
+      "id": "dragoon",
+      "numeral": "II",
+      "title": "The dragoon of Canelones",
+      "place": "Canelones · Montevideo",
+      "years": "1789–1812",
+      "paragraphs": [
+        {
+          "id": "d-1",
+          "grade": "doc",
+          "text": "On 9 January 1798, before the church court at Canelones, Sancho Llerena swore an oath and gave evidence that a man named [Florentino Gómez](person:florentino-gomez) was free to marry. He had known him, he said, in the years he himself had spent «en la línea de Vitoria». When the notary, José del Río, reached the end of the statement, the witness «dijo no saber escrivir», said he could not write, and the judge signed in his place. It is the one time the archive hears him speak.",
+          "evidence": [
+            {
+              "href": "/uruguay/#s-sancho-alive",
+              "why": "Canelones, informaciones matrimoniales 1776–1806, expediente of Florentino Gómez: DGS 8166573, read from the image"
+            }
+          ]
+        },
+        {
+          "id": "d-2",
+          "grade": "doc",
+          "text": "What the «línea de Vitoria» was, the archive does not know and does not guess. The deposition does not give his age either, though the one before it does. What it gives is smaller and sharper: a man who had spent years somewhere, who was trusted to swear to another man's freedom to marry, and who could not sign his own name.",
+          "evidence": [
+            {
+              "href": "person:sancho-llerena-aguilar",
+              "why": "The deposition, both frames read, 11 October 2026"
+            }
+          ]
+        },
+        {
+          "id": "d-3",
+          "grade": "inf",
+          "text": "He is in the records earlier than that. On 30 June 1789, at the Iglesia Matriz of Montevideo, «Sancho Llerena y Juliana Josefa Cornejo» stood godparents to Juana, the daughter of [Nicolás Benteno](person:nicolas-benteno), «indio natural de la ciudad del Tucumán», and of Leonarda Correa of Buenos Aires. By the age the census later gave him, Sancho was about twenty-two.",
+          "evidence": [
+            {
+              "href": "/uruguay/#s-sancho-alive",
+              "why": "Iglesia Matriz de Montevideo, baptism of 30 June 1789"
+            }
+          ]
+        },
+        {
+          "id": "d-4",
+          "grade": "doc",
+          "text": "Eighteen months later he married at Canelones. His bride was [María Fernández](person:dona-maria-fernandez-tresguerras), «natural de las Asturias», the daughter of [Rodrigo Fernández](person:rodrigo-fernandez) and Rosa Fernández, Asturians who were «vecinos de Santa Lucía». He came from the south of Spain and she from the north. The marriage was blessed at once: the margin of the register reads «Casados, y Velados», married and veiled, with the fees beside it, six to the priest and three to the church. The witnesses were Antonio Villegas and José del Río, the notary of 1798.",
+          "evidence": [
+            {
+              "href": "/uruguay/#sanchohouse-2",
+              "why": "The marriage act of 8 January 1791, read off the image"
+            }
+          ]
+        },
+        {
+          "id": "d-5",
+          "grade": "inf",
+          "text": "She was young. The census of 1812 gives her thirty-six, which would make her about fifteen at the altar.",
+          "evidence": [
+            {
+              "href": "/uruguay/#s-sancho-alive",
+              "why": "The padrón of 1812: María Fernández, 36"
+            }
+          ]
+        },
+        {
+          "id": "d-6",
+          "grade": "lore",
+          "text": "A published genealogy, Juan Alejandro Apolant's study of the Operativo Patagonia, carries this marriage as its entry 355 and places the bride's family among the Asturian settlers of that enterprise, from the concejo of Morcín. The archive has the entry at second hand and has not seen the settlers' own lists. The marriage act itself calls her María Fernández; her daughter's marriage act of 1830 adds Tresguerras.",
+          "evidence": [
+            {
+              "href": "person:dona-maria-fernandez-tresguerras",
+              "why": "Her page: Apolant, Operativo Patagonia, ficha 355, and the act of 1830"
+            }
+          ],
+          "tbc": "Her family's place among the Patagonia settlers rests on a published genealogy read at second hand."
+        },
+        {
+          "id": "d-w1",
+          "register": "world",
+          "worldSource": "archive",
+          "text": "Canelones in 1791 lay in the Banda Oriental, the eastern bank of the River Plate, part of the Spanish empire. Uruguay would not exist for another thirty-seven years.",
+          "evidence": [
+            {
+              "kind": "archive",
+              "href": "/",
+              "why": "The home page: the country pills and their anachronism"
+            }
+          ]
+        },
+        {
+          "id": "d-w2",
+          "register": "world",
+          "worldSource": "history",
+          "text": "Between 1778 and 1781 the Spanish crown shipped families from the north of Spain across the Atlantic to settle the coast of Patagonia. Many of them never reached it, and were settled instead on the eastern bank of the River Plate.",
+          "evidence": [
+            {
+              "kind": "history",
+              "href": "#world-H1",
+              "why": "General history of the Patagonia settlement"
+            }
+          ]
+        },
+        {
+          "id": "d-7",
+          "grade": "doc",
+          "text": "In 1793, at the baptism of [Pedro Antonio](person:pedro-antonio-lerena) at Canelones, the priest wrote the father down as «el soldado dragón Sancho Lerena», a dragoon. The priest was himself the chaplain of the Regimiento de Infantería de Buenos Aires. No paper names Sancho's own regiment.",
+          "evidence": [
+            {
+              "href": "person:sancho-llerena-aguilar",
+              "why": "Canelones baptism of Pedro Antonio, 1793"
+            }
+          ]
+        },
+        {
+          "id": "d-8",
+          "grade": "doc",
+          "text": "The family lived at Canelones for at least eleven years, and the priests called Sancho and María «vecinos de esta Villa», residents and not visitors. The children are in the registers: [Agustina Ramona](person:agustina-ramona-lerena-fernandez) in 1795, «de tres días nacida», with Don Fidel Rey of Montevideo as her godfather; [Justa Pastora](person:justa-pastora-lerena) in 1800; [Dominga Josefa](person:dominga-josefa-llerena-fernandez) in 1804; [José Loreto](person:jose-loreto-lerena-fernandez) in 1806.",
+          "evidence": [
+            {
+              "href": "/uruguay/#s-household",
+              "why": "Sancho's household: eleven years at Canelones"
+            }
+          ]
+        },
+        {
+          "id": "d-9",
+          "grade": "doc",
+          "text": "Sancho stood at other people's fonts too. At the Canelones confirmations of 1804 he was godfather to two enslaved men: José, «esclavo de Manuel López», and Joseph Jiménez, «esclavo de Don Luis Jiménez».",
+          "evidence": [
+            {
+              "href": "person:sancho-llerena-aguilar",
+              "why": "Canelones confirmation records, 1804"
+            }
+          ]
+        },
+        {
+          "id": "d-10",
+          "grade": "doc",
+          "text": "By 1812 they had moved to Montevideo, to number 60 in the calle San Juan. The census of that year sets the house down under one bracket: Sancho, «andaluz», forty-five; María Fernández, thirty-six; the children Juan Agustín, Pedro Antonio, Fidel, Luis, Agustina, Justa and Dominga; four enslaved people, Antonio, José, Juana and Teresa; and María's father, Rodrigo Fernández, sixty-three, «asturiano».",
+          "evidence": [
+            {
+              "href": "/hypotheses/#s-padron-image",
+              "why": "The 1812 padrón, read from the image: AGN Montevideo, Fondo ex AGA, L 251"
+            }
+          ]
+        },
+        {
+          "id": "d-11",
+          "grade": "doc",
+          "text": "On 26 September 1812, at the cathedral of Montevideo, the priest baptised María Mercedes, born two days before, «hija de Juana, negra esclava de D.n Sancho Lerena y de D.a María Fernández». The act gives Juana no age, no origin and no surname. Nothing more is known of her, or of her daughter.",
+          "evidence": [
+            {
+              "href": "/uruguay/#s-household",
+              "why": "Catedral de Montevideo, 26 September 1812: film 007713375, image 02628"
+            }
+          ]
+        },
+        {
+          "id": "d-12",
+          "grade": "inf",
+          "text": "The census is the last paper that needs Sancho to be alive. Later acts name him as a father or a grandfather until 1850, which shows only that he was remembered; no burial is known. The clerks could not agree on his first name either. Most wrote Sancho and a few wrote Francisco, and the archive's reading is that he carried both. Only his wife's name, María Fernández, is the same in every record.",
+          "evidence": [
+            {
+              "href": "/uruguay/#s-sancho-alive",
+              "why": "Fourteen records, and only four count"
+            },
+            {
+              "href": "person:sancho-llerena-aguilar",
+              "why": "Sancho or Francisco"
+            }
+          ]
+        }
+      ],
+      "tree": {
+        "glyph": "field",
+        "note": "Nine children are named in the papers, Juan Agustín only in the census of 1812. No paper says which of them, if any, is the parent of Juan Carlos Lerena, so no thread is drawn.",
+        "rows": [
+          {
+            "kind": "above",
+            "nodes": [
+              {
+                "id": "d-felix",
+                "name": "Félix Llerena",
+                "years": "of Córdova",
+                "grade": "doc",
+                "person": "felix-lerena"
+              }
+            ]
+          },
+          {
+            "kind": "couple",
+            "nodes": [
+              {
+                "id": "d-sancho",
+                "name": "Sancho Llerena",
+                "years": "c.1767, dragoon",
+                "grade": "doc",
+                "person": "sancho-llerena-aguilar"
+              },
+              {
+                "id": "d-maria",
+                "name": "María Fernández",
+                "years": "c.1776, of Asturias",
+                "grade": "doc",
+                "person": "dona-maria-fernandez-tresguerras"
+              }
+            ]
+          },
+          {
+            "kind": "children",
+            "nodes": [
+              {
+                "id": "d-juanagustin",
+                "name": "Juan Agustín",
+                "years": "c.1791",
+                "grade": "doc",
+                "person": "juan-agustin-lerena-fernandez"
+              },
+              {
+                "id": "d-pedro",
+                "name": "Pedro Antonio",
+                "years": "1793",
+                "grade": "doc",
+                "person": "pedro-antonio-lerena"
+              },
+              {
+                "id": "d-agustina",
+                "name": "Agustina Ramona",
+                "years": "1795",
+                "grade": "doc",
+                "person": "agustina-ramona-lerena-fernandez"
+              },
+              {
+                "id": "d-fidel",
+                "name": "Fidel",
+                "years": "c.1799",
+                "grade": "doc",
+                "person": "fidel-lerena-fernandez"
+              },
+              {
+                "id": "d-justa",
+                "name": "Justa Pastora",
+                "years": "1800",
+                "grade": "doc",
+                "person": "justa-pastora-lerena"
+              },
+              {
+                "id": "d-dominga",
+                "name": "Dominga Josefa",
+                "years": "1804",
+                "grade": "doc",
+                "person": "dominga-josefa-llerena-fernandez"
+              },
+              {
+                "id": "d-joseloreto",
+                "name": "José Loreto",
+                "years": "1806",
+                "grade": "doc",
+                "person": "jose-loreto-lerena-fernandez"
+              },
+              {
+                "id": "d-luis",
+                "name": "Luis",
+                "years": "1811",
+                "grade": "doc",
+                "person": "don-luis-lerena-probably-luis-lerena-y-fernandez"
+              },
+              {
+                "id": "d-avelino",
+                "name": "Avelino",
+                "years": "1815–1890",
+                "grade": "doc",
+                "person": "avelino-lerena-fernandez"
+              }
+            ]
+          }
+        ]
+      },
+      "quote": [
+        {
+          "label": "1798 · Canelones",
+          "title": "A witness who could not write",
+          "text": "«…que dijo no saber escrivir, y la firmo su merced conmigo el presente Notario»",
+          "source": "Canelones, informaciones matrimoniales 1776–1806, expediente of Florentino Gómez, 9 January 1798 (DGS 8166573)",
+          "hardLimit": "The deposition gives no age for him, and does not say what or where the «línea de Vitoria» was."
+        },
+        {
+          "label": "1812 · Montevideo",
+          "title": "The house in the calle San Juan",
+          "text": "«Sancho Llerena / María Fernández su esposa / Juan Agustín / Pedro Ant.º / Fidel / Luis / Agustina / Justa / Dominga / Antonio, negro esclavo / José / Juana / Teresa / Rodrigo Fernández»",
+          "source": "Padrón de Montevideo, 1812: AGN Montevideo, Fondo ex AGA, L 251, house 60, calle San Juan (FamilySearch, Uruguay, Census Records 1726–1858)",
+          "hardLimit": "A census counts the living on one day. It does not say how long the four enslaved people had been in the house or what became of them."
+        }
+      ],
+      "plates": [],
+      "papers": [
+        {
+          "title": "Sancho's household",
+          "href": "/uruguay/#s-household"
+        },
+        {
+          "title": "When was Sancho last alive?",
+          "href": "/uruguay/#s-sancho-alive"
+        },
+        {
+          "title": "The 1812 padrón, read from the image",
+          "href": "/hypotheses/#s-padron-image"
+        },
+        {
+          "title": "Sancho Llerena",
+          "href": "person:sancho-llerena-aguilar"
+        },
+        {
+          "title": "María Fernández",
+          "href": "person:dona-maria-fernandez-tresguerras"
+        }
+      ]
+    },
+    {
+      "id": "cordon",
+      "numeral": "III",
+      "title": "The house in the Cordón",
+      "place": "Montevideo · Rosario",
+      "years": "1811–1901",
+      "paragraphs": [
+        {
+          "id": "c-1",
+          "grade": "doc",
+          "text": "On 13 December 1831, in the church of Nuestra Señora del Carmen in the Cordón at Montevideo, a boy sixteen days old was baptised Juan Facundo Frutuoso. His mother was Sancho's daughter [Justa Pastora](person:justa-pastora-lerena), «natural de Canelones», married the year before to Manuel Zeferino Barros of Pernambuco. The priest wrote: «Fueron Padrinos Don Fructuoso Rivera, Presidente de la República, y su esposa Doña Bernardina Fragoso». His third name, Frutuoso, is the president's.",
+          "evidence": [
+            {
+              "href": "person:juan-facundo-frutuoso-barros-lerena",
+              "why": "The Cordón, baptism of 13 December 1831 (FamilySearch 3:1:3Q9M-C9BW-CS9Z-2)"
+            },
+            {
+              "href": "person:justa-pastora-lerena",
+              "why": "Her marriage at the Cordón, 3 November 1830"
+            }
+          ]
+        },
+        {
+          "id": "c-w1",
+          "register": "world",
+          "worldSource": "archive",
+          "text": "Fructuoso Rivera was the first constitutional President of Uruguay. His wife, Bernardina Fragoso, was the first lady of the new republic.",
+          "evidence": [
+            {
+              "kind": "archive",
+              "href": "/",
+              "why": "The home page: across the river, the family is not obscure at all"
+            }
+          ]
+        },
+        {
+          "id": "c-2",
+          "grade": "doc",
+          "text": "Her brother [Luis](person:don-luis-lerena-probably-luis-lerena-y-fernandez), baptised at the Iglesia Matriz in February 1811, married twice. In 1836 he petitioned, in his own hand, to marry a woman named Carolina; by March 1842 he was a widower, and married [Justiniana Lenguas](person:dona-justiniana-lenguas-gonzalez), a daughter of General Pedro Lenguas. The act of 1842 names his parents as Don Sancho and Doña María Fernández.",
+          "evidence": [
+            {
+              "href": "person:don-luis-lerena-probably-luis-lerena-y-fernandez",
+              "why": "His marriage petition of 3 September 1836 and marriage of 3 March 1842, images read"
+            },
+            {
+              "href": "person:dona-justiniana-lenguas-gonzalez",
+              "why": "Her parents named on the act"
+            }
+          ]
+        },
+        {
+          "id": "c-3",
+          "grade": "doc",
+          "text": "Two of their sons carried the house into the next generation, and across the river. [Luis Eugenio](person:don-luis-eugenio-lerena-lenguas) married [Julia Juanicó](person:dona-julia-juanico) in 1864 and died at Montevideo on 24 December 1901, a «hacendado», a landowner; his mother, then seventy-nine, was staying in the house. His brother [Gilberto](person:gilberto-lerena) was one of the founders of the Argentine Stud Book, and a Group 1 race at Palermo in Buenos Aires has carried his name since 1914. Gilberto's household crossed to Buenos Aires between October 1886 and October 1890: the last of his children baptised at Montevideo, the first at Buenos Aires.",
+          "evidence": [
+            {
+              "href": "/horses/",
+              "why": "Gilberto Justiniano Lerena Lenguas, his household, and Luis Eugenio's death act 216"
+            }
+          ]
+        },
+        {
+          "id": "c-4",
+          "grade": "doc",
+          "text": "Sancho's youngest, [Avelino](person:avelino-lerena-fernandez), born in 1815, married [Ambrosia Traibel](person:ambrosia-traibel); their children are the Lerena Traibel. He died at Montevideo on 22 August 1890, and the registration of his death names his parents, Sancho and María Fernández.",
+          "evidence": [
+            {
+              "href": "/uruguay/#sanchohouse-3",
+              "why": "Avelino Lerena Fernández and Ambrosia Traibel y Centeno"
+            }
+          ]
+        },
+        {
+          "id": "c-5",
+          "grade": "doc",
+          "text": "In February 1866 the family's name was written at a font in Argentina. At Rosario, on the Paraná, a daughter of [Luis Lerena Lenguas](person:don-luis-eugenio-lerena-lenguas) and Julia Juanicó, born the October before, was baptised, and the priest wrote that both parents were «naturales del E. Oriental», natives of Uruguay. The godfather, [Don Luis Lerena](person:don-luis-lerena-probably-luis-lerena-y-fernandez), her grandfather, was represented by another man. She is the only Lerena in the Rosario baptism index from 1731 to 1901. Twenty years later she married at Montevideo.",
+          "evidence": [
+            {
+              "href": "/argentina/#rosario1866-2",
+              "why": "Rosario, Libro 15 de Bautismos, folio 229, act 1541, 17 February 1866"
+            },
+            {
+              "href": "person:maria-julia-margarita-josefa-emirena-justiniana-lerena-juanico",
+              "why": "Her baptism and her marriage at Montevideo, 1886"
+            }
+          ]
+        },
+        {
+          "id": "c-w2",
+          "register": "world",
+          "worldSource": "archive",
+          "text": "The River Plate was one social world with a border through it, and families crossed it constantly.",
+          "evidence": [
+            {
+              "kind": "archive",
+              "href": "/argentina/#s-uruguay-is-not-a-detour",
+              "why": "Uruguay is not a detour"
+            }
+          ]
+        },
+        {
+          "id": "c-6",
+          "grade": "inf",
+          "text": "This is the house the archive believes Pablo Armando Lerena came from, and it says plainly that it is a belief. The reading rests on a rare surname; on the River Plate, where the name is densest; on the act of 1866, which puts this family at Rosario; and on horses, Gilberto's at Palermo and, later, Pablo Armando's at the Cape. No paper names him in this house.",
+          "evidence": [
+            {
+              "href": "/hypotheses/#h-1c-that-the-family-came-from-uruguay-not-argentina",
+              "why": "Hypothesis 1c: that the family came from Uruguay, not Argentina"
+            },
+            {
+              "href": "/",
+              "why": "The home page tree: 'this archive's reading, not a record'"
+            },
+            {
+              "href": "/horses/",
+              "why": "The horses: a lead of real weight, and no relationship"
+            }
+          ]
+        },
+        {
+          "id": "c-7",
+          "grade": "doc",
+          "text": "And here the tree breaks. No record of Juan Carlos Lerena, the name the next chapter begins with, has been found in Argentina or Uruguay: not a baptism, not a marriage, not a burial. He is not among Gilberto's eight children. Everything above this point is documented, and everything below it. Nothing yet joins them.",
+          "evidence": [
+            {
+              "href": "/",
+              "why": "The home page: 'And here the tree breaks'"
+            },
+            {
+              "href": "/direct-line/#s-juan-carlos",
+              "why": "The name above him, tested against every index, 17 September 2026"
+            }
+          ]
+        }
+      ],
+      "tree": {
+        "glyph": "gable",
+        "note": "Luis's household is drawn because it is the one tied to Rosario and to horses. His brother Avelino's, the Lerena Traibel, runs beside it. Under them the line breaks: no paper joins this house to Juan Carlos Lerena.",
+        "rows": [
+          {
+            "kind": "above",
+            "nodes": [
+              {
+                "id": "c-sancho",
+                "name": "Sancho Llerena",
+                "years": "named 1789–1812",
+                "grade": "doc",
+                "person": "sancho-llerena-aguilar"
+              }
+            ]
+          },
+          {
+            "kind": "couple",
+            "nodes": [
+              {
+                "id": "c-luis",
+                "name": "Luis Lerena",
+                "years": "b. 1811",
+                "grade": "doc",
+                "person": "don-luis-lerena-probably-luis-lerena-y-fernandez"
+              },
+              {
+                "id": "c-justiniana",
+                "name": "Justiniana Lenguas",
+                "years": "c.1822",
+                "grade": "doc",
+                "person": "dona-justiniana-lenguas-gonzalez"
+              }
+            ]
+          },
+          {
+            "kind": "children",
+            "nodes": [
+              {
+                "id": "c-luiseugenio",
+                "name": "Luis Eugenio",
+                "years": "† 1901",
+                "grade": "doc",
+                "person": "don-luis-eugenio-lerena-lenguas"
+              },
+              {
+                "id": "c-gilberto",
+                "name": "Gilberto",
+                "years": "1854–1912",
+                "grade": "doc",
+                "person": "gilberto-lerena"
+              }
+            ]
+          },
+          {
+            "kind": "gap",
+            "text": "here the tree breaks"
+          }
+        ]
+      },
+      "quote": [
+        {
+          "label": "1831 · the Cordón",
+          "title": "The president at the font",
+          "text": "«Fueron Padrinos Don Fructuoso Rivera, Presidente de la República, y su esposa Doña Bernardina Fragoso»",
+          "source": "Nuestra Señora del Carmen la Mayor, the Cordón, Montevideo, baptism of Juan Facundo Frutuoso, 13 December 1831"
+        },
+        {
+          "label": "1866 · Rosario",
+          "title": "The only Lerena at Rosario",
+          "text": "«…hija legítima de Don Luis Lerena Lenguas y de Doña Julia Juanicó, naturales del E. Oriental»",
+          "source": "Rosario, Libro 15 de Bautismos, folio 229, act 1541, 17 February 1866",
+          "hardLimit": "Neither act mentions a Juan Carlos, and no act joins this house to Pablo Armando."
+        }
+      ],
+      "plates": [],
+      "papers": [
+        {
+          "title": "The two descents, drawn",
+          "href": "/uruguay/#sanchohouse-3"
+        },
+        {
+          "title": "The horses, and Gilberto",
+          "href": "/horses/"
+        },
+        {
+          "title": "The 1866 baptism at Rosario",
+          "href": "/argentina/#rosario1866-1"
+        },
+        {
+          "title": "Hypothesis 1c",
+          "href": "/hypotheses/#h-1c-that-the-family-came-from-uruguay-not-argentina"
+        },
+        {
+          "title": "The tree, and the joint that is missing",
+          "href": "/"
+        }
+      ]
+    },
+    {
+      "id": "card",
+      "numeral": "IV",
+      "title": "Two names on a card",
+      "place": "Rosario de Santa Fe",
+      "years": "by 1882",
+      "paragraphs": [
+        {
+          "id": "k-1",
+          "grade": "doc",
+          "text": "In a drawer of the Argentine army's enrolment cards, filed by sound under *Lera*, there is a printed card filled in by hand at the consulate in Cape Town. It gives the class of 1882; the name, Lerena, Pablo Armando; a birthplace, «Rosario de Santa Fé»; and a line that no other document in the world supplies: «hijo de Juan Carlos Lerena y de María Lerena».",
+          "evidence": [
+            {
+              "href": "/enrolment-card/",
+              "why": "Ficha de enrolamiento, Cajón 985 (Lera), image group 112342450, image 665"
+            }
+          ]
+        },
+        {
+          "id": "k-2",
+          "grade": "doc",
+          "text": "It is not a record of service. Every field that would place a man in Argentina is blank: the military region, the district, the number, the address. He was not in Argentina. He was enrolling with his consulate from the Cape. The archive calls it the card of 1908, but nothing on its face is dated, and his passport records an enrolment book issued at Cape Town in 1915. Whether these are one enrolment or two is not settled.",
+          "evidence": [
+            {
+              "href": "/enrolment-card/",
+              "why": "What this card actually is, and the caution that it does not date itself"
+            }
+          ],
+          "tbc": "The card's date: 1908 as the archive has called it, or 1915 as the passport's enrolment book suggests."
+        },
+        {
+          "id": "k-3",
+          "grade": "doc",
+          "text": "It was nearly thrown away. The machine index that leads to it reads «Armand Lorena», born at Rosario de Lerma in Salta, a real town far from the one on the card, and it made a second surname, «Serena», out of the printed word SERIE. The archive had written the entry off once before it opened the image.",
+          "evidence": [
+            {
+              "href": "/enrolment-card/",
+              "why": "How nearly this was thrown away"
+            }
+          ]
+        },
+        {
+          "id": "k-4",
+          "grade": "doc",
+          "text": "That is the whole of what is known of [Juan Carlos Lerena](person:juan-carlos-lerena) and [María Lerena](person:maria-lerena): two names, given by their son. No baptism, marriage or burial of either has been found in Argentina or Uruguay. The mother is written with the father's surname. On these cards that usually means her own surname, which would make the marriage one between kin, but some clerks wrote a married woman's name, and the card cannot say which.",
+          "evidence": [
+            {
+              "href": "/direct-line/#s-juan-carlos",
+              "why": "The name above him, tested"
+            },
+            {
+              "href": "/enrolment-card/",
+              "why": "What the card does not settle"
+            }
+          ]
+        },
+        {
+          "id": "k-w1",
+          "register": "world",
+          "worldSource": "archive",
+          "text": "Rosario in those years was Argentina's second city and the great grain port of the Paraná, growing on European immigration and on the trade of the pampas in cattle, grain and horses. Until 1888 its cathedral was the city's only parish.",
+          "evidence": [
+            {
+              "kind": "archive",
+              "href": "/argentina/#s-why-rosario-is-plausible",
+              "why": "Why Rosario is plausible"
+            },
+            {
+              "kind": "archive",
+              "href": "/argentina/#s-the-registers-now-searched-to-the-end",
+              "why": "The registers, now searched to the end"
+            }
+          ]
+        },
+        {
+          "id": "k-w2",
+          "register": "world",
+          "worldSource": "archive",
+          "text": "Argentina made military enrolment compulsory in 1901. Men were enrolled in a *clase* named for the year of their birth, so «Clase de 1882» on a card is a cohort, not a date, and an Argentine living abroad enrolled at his consulate.",
+          "evidence": [
+            {
+              "kind": "archive",
+              "href": "/enrolment-card/",
+              "why": "What this card actually is (the page marks the law as background)"
+            },
+            {
+              "kind": "archive",
+              "href": "/argentina/#s-where-to-go-next",
+              "why": "Ley 4031 of 1901"
+            }
+          ]
+        },
+        {
+          "id": "k-5",
+          "grade": "doc",
+          "text": "Rosario itself has been asked. The cathedral's baptism index for 1881, 1882 and 1883 has been read section by section under every surname, and Pablo Armando is not in it. The marriage registers hold no Lerena from 1868 to 1891, and the national census of 1895 finds no Lerena anywhere in the province of Santa Fe. When he applied for a passport in 1940, the line for a civil birth record or a baptismal certificate was left blank: he did not produce one.",
+          "evidence": [
+            {
+              "href": "/argentina/#s-three-refusals-and-one-direction",
+              "why": "Three refusals, and one direction"
+            },
+            {
+              "href": "/family-papers/",
+              "why": "The page of the passport nobody turned over"
+            }
+          ]
+        },
+        {
+          "id": "k-6",
+          "grade": "inf",
+          "text": "The archive draws a conclusion from all this and labels it: they were not a Rosario family. A household that lives in a parish leaves baptisms, and this one left none. That points the search back across the river, to the house of the last chapter, and no further, because no record yet says so.",
+          "evidence": [
+            {
+              "href": "/",
+              "why": "The home page: they were not a Rosario family"
+            },
+            {
+              "href": "/argentina/#s-every-lerena-argentina-can-produce",
+              "why": "Every Lerena Argentina can produce, drawn"
+            }
+          ]
+        },
+        {
+          "id": "k-7",
+          "grade": "doc",
+          "text": "On the other side of the ocean the name was kept. Pablo Armando's son born at the Cape on 6 January 1920 was named [Ricardo Juan Carlos](person:ricardo-juan-carlos-lerena). An Argentine army card and a South African estate, neither knowing anything of the other, carry the same name.",
+          "evidence": [
+            {
+              "href": "/estate/",
+              "why": "The 1950 estate: Ricardo Juan Carlos Lerena, born 6 January 1920"
+            },
+            {
+              "href": "/enrolment-card/",
+              "why": "And from the other side of the ocean"
+            }
+          ]
+        },
+        {
+          "id": "k-8",
+          "grade": "doc",
+          "text": "When Pablo Armando died in 1950, the woman who filled in his death notice wrote, against the names of his parents: «Father: not known. Mother: not known.» The card is the answer to that, and it is the reason the archive exists.",
+          "evidence": [
+            {
+              "href": "/family-papers/",
+              "why": "The death notice of 28 March 1950, estate 1847/50, item 3"
+            }
+          ]
+        }
+      ],
+      "tree": {
+        "glyph": "stone",
+        "note": "The parents are drawn solid because the card names them, and for no other reason. Above them the line is broken.",
+        "thread": "k-pablo",
+        "rows": [
+          {
+            "kind": "gap",
+            "text": "no paper joins them to the house in the Cordón"
+          },
+          {
+            "kind": "couple",
+            "nodes": [
+              {
+                "id": "k-juancarlos",
+                "name": "Juan Carlos Lerena",
+                "years": "named on the card",
+                "grade": "doc",
+                "person": "juan-carlos-lerena"
+              },
+              {
+                "id": "k-maria",
+                "name": "María Lerena",
+                "years": "maiden name not known",
+                "grade": "doc",
+                "person": "maria-lerena"
+              }
+            ]
+          },
+          {
+            "kind": "children",
+            "nodes": [
+              {
+                "id": "k-pablo",
+                "name": "Pablo Armando",
+                "years": "1882–1950",
+                "grade": "doc",
+                "person": "pablo-armando-lerena"
+              }
+            ]
+          }
+        ]
+      },
+      "quote": {
+        "label": "1882 · Rosario de Santa Fe",
+        "title": "The only paper that names them",
+        "text": "«Clase de 1882 · Lerena, Pablo Armando · hijo de Juan Carlos Lerena y de María Lerena · Nacido en Rosario de Santa Fé · Oficina enroladora de Capetown»",
+        "source": "Ejército Argentino, ficha de enrolamiento, Cajón 985 (Lera), FamilySearch image group 112342450, image 665 (3:1:3QHK-MQL4-NQWN)",
+        "hardLimit": "The card gives no date of its own, no age or place for the parents, and no maiden name for the mother."
+      },
+      "plates": [],
+      "papers": [
+        {
+          "title": "The enrolment card",
+          "href": "/enrolment-card/"
+        },
+        {
+          "title": "The name above him, tested",
+          "href": "/direct-line/#s-juan-carlos"
+        },
+        {
+          "title": "The Rosario registers, searched to the end",
+          "href": "/argentina/#s-the-registers-now-searched-to-the-end"
+        },
+        {
+          "title": "Juan Carlos Lerena",
+          "href": "person:juan-carlos-lerena"
+        }
+      ]
+    },
+    {
+      "id": "horseman",
+      "numeral": "V",
+      "title": "A horseman at the Cape",
+      "place": "Rosario · Cape Town",
+      "years": "1882–1950",
+      "paragraphs": [
+        {
+          "id": "h-1",
+          "grade": "doc",
+          "text": "On Christmas Eve 1940 the Argentine consulate at Cape Town issued a passport to a man of fifty-eight. He was born, it says, at Rosario de Santa Fe on 22 February 1882, and Argentine by birth. He lived at Rugby, Cape Town, and was travelling to Portuguese East Africa. He was a widower. He stood 1.80 metres, with blue eyes, grey hair, a straight nose and a scar on his forehead. Under profession the clerk wrote, in English on a Spanish form, one word: Trainer.",
+          "evidence": [
+            {
+              "href": "/passport/",
+              "why": "Pasaporte Argentino, Série A No. 07962, Cape Town, 24 December 1940"
+            }
+          ]
+        },
+        {
+          "id": "h-2",
+          "grade": "doc",
+          "text": "[Pablo Armando Lerena](person:pablo-armando-lerena) signed it «P. A. Lerena», and it carries his right thumbprint. Under military service it records the Guardia Nacional, 6th Cavalry, 1915. It is the most personal document in the archive.",
+          "evidence": [
+            {
+              "href": "/passport/",
+              "why": "The passport"
+            },
+            {
+              "href": "/family-papers/",
+              "why": "The page of the passport nobody turned over"
+            }
+          ]
+        },
+        {
+          "id": "h-3",
+          "grade": "doc",
+          "text": "Between his birth and the first sign of the family at the Cape there are twenty-three years with nothing in them. How he came, and when, no paper says.",
+          "evidence": [
+            {
+              "href": "/timeline/",
+              "why": "The Timeline: the gap that shapes the page"
+            }
+          ]
+        },
+        {
+          "id": "h-w1",
+          "register": "world",
+          "worldSource": "archive",
+          "text": "In those years the South African War of 1899 to 1902 consumed horses on a scale never seen before. Of some 519,000 used, about 360,000 were shipped into the country, from England, Australia, Canada, New Zealand, Burma and Argentina.",
+          "evidence": [
+            {
+              "kind": "archive",
+              "href": "/taylor/#s-the-ship",
+              "why": "The ship: the horses were already moving that way"
+            }
+          ]
+        },
+        {
+          "id": "h-4",
+          "grade": "lore",
+          "text": "The family says he met [Mary Septima Taylor](person:mary-septima-taylor) aboard a ship bound for South Africa. No passenger list has yet been found to show it.",
+          "evidence": [
+            {
+              "href": "/taylor/#s-the-ship",
+              "why": "The ship: family lore, and what would prove it"
+            }
+          ]
+        },
+        {
+          "id": "h-5",
+          "grade": "doc",
+          "text": "She was born on 17 September 1884, her birth registered at Bideford in north Devon, and she was christened on 30 October at St Margaret's, Northam, in the Anglican church. Her father, [William Taylor](person:william-taylor), born in Suffolk, was by 1891 a cab driver and a retired cavalry sergeant. When her mother died at Northam in April 1900, Mary Septima gave the information, «present at the death». That December, at sixteen, she won a diocesan prize as a monitor and pupil teacher.",
+          "evidence": [
+            {
+              "href": "/taylor/#s-northam-and-bideford-north-devon",
+              "why": "Northam and Bideford: her birth and christening"
+            },
+            {
+              "href": "/taylor/#s-the-taylors-had-horses-too",
+              "why": "The 1891 census of Northam"
+            },
+            {
+              "href": "/family-papers/#s-pablo",
+              "why": "Her mother's death entry, Northam, 1900"
+            }
+          ]
+        },
+        {
+          "id": "h-6",
+          "grade": "inf",
+          "text": "Their first son, [Roque Luis Armando](person:roque-luis-armando-lerena), was born at Cape Town in 1905: on 25 November by his baptism, on 6 December by his death notice. In February 1909 a «Mrs M T Lerena» landed at Southampton, and on the line below her a «Mast. L Lerena», a boy, almost certainly Roque, then three.",
+          "evidence": [
+            {
+              "href": "/family-papers/",
+              "why": "Two death notices, and two baptisms"
+            },
+            {
+              "href": "/taylor/#s-crossings",
+              "why": "SS Guelph, 19 February 1909, BT 26/398/29"
+            }
+          ]
+        },
+        {
+          "id": "h-7",
+          "grade": "doc",
+          "text": "In 1911, at Wynberg, three things happened within six months. On 12 June Roque, five and a half, was baptised at Corpus Christi as the son of Pablo Armando Lerena and «Mary Septima (olim Taylor)», formerly Taylor; his godparents, José and María Luisa Bretón, stood by proxy. On 3 September at St Dominic's, after banns, the same priest, Bertram W. Glynn, married «Pablo Armando Lerena», twenty-nine, bachelor, horse-dealer, of Diep River, and «Mary Septima Taylor», twenty-seven, spinster, of Diep River. Both signed their own names. On 16 December she was herself baptised a Catholic at Corpus Christi.",
+          "evidence": [
+            {
+              "href": "/family-papers/#plate-marriage-1911",
+              "why": "Cape marriage register 7271, entry 160, and the Corpus Christi baptism of 12 June 1911"
+            },
+            {
+              "href": "/taylor/#s-the-marriage-and-it-is-not-where-the-story-expects-it",
+              "why": "The marriage, and she changed her church"
+            }
+          ]
+        },
+        {
+          "id": "h-8",
+          "grade": "doc",
+          "text": "Two more sons followed, [Ricardo Juan Carlos](person:ricardo-juan-carlos-lerena) in January 1920 and [Nuno Fernando](person:nuno-fernando-lerena) in October 1924; at Nuno's baptism the priest wrote against his mother «Mater Anglicana», the mother is Anglican, thirteen years after her own Catholic baptism. In 1931 plans were lodged with the Cape Town council for stables on the Koeberg Road at Rugby, in the name of R. P. Lerena.",
+          "evidence": [
+            {
+              "href": "/estate/",
+              "why": "The sons' birth dates in the 1950 estate"
+            },
+            {
+              "href": "/family-papers/",
+              "why": "Nuno Fernando, baptised 16 November 1924"
+            },
+            {
+              "href": "/horses/",
+              "why": "Cape Town municipal file KAB 3/CT 4/2/1/3/474, B796"
+            }
+          ]
+        },
+        {
+          "id": "h-9",
+          "grade": "doc",
+          "text": "In May 1935 Mary Septima landed at Southampton, giving as her address in England her sister Isabella's house in Fore Street, Northam, and at the end of June she sailed for the Cape again. She died at Observatory on 15 November 1935, aged fifty-one, and was buried the next day in the Roman Catholic ground at Maitland, in grave 7719.",
+          "evidence": [
+            {
+              "href": "/taylor/#s-crossings",
+              "why": "Balmoral Castle, 20 May 1935; Armadale Castle, 28 June 1935"
+            },
+            {
+              "href": "/taylor/#s-her-end",
+              "why": "Her end: Maitland interment register p.3215, entry 163"
+            }
+          ]
+        },
+        {
+          "id": "h-10",
+          "grade": "doc",
+          "text": "He did not marry again. He died on 19 March 1950 at 7 Forth Road, Newlands, of coronary thrombosis. The registrar, given the facts by the undertaker, wrote him down as «Robert Paul Lerina», race horse owner, born in South America, aged seventy-six; he was sixty-eight. He was buried in his wife's grave, in a plot the cemetery register calls his own.",
+          "evidence": [
+            {
+              "href": "/estate/",
+              "why": "Death certificate A 214036, entry W612/50"
+            },
+            {
+              "href": "person:pablo-armando-lerena",
+              "why": "Maitland Record of Interments, p.339 entry 327: 'In Plot of R. P. Lerina'"
+            }
+          ]
+        },
+        {
+          "id": "h-11",
+          "grade": "doc",
+          "text": "His estate came to £15,527 15s. Among the debts, between a garage bill and an insurance premium, was a claim from W. C. Blake for £26 of carrots. His will left half a share to his eldest son, half a share to Rose Lilian Theys, a spinster of the same address and his executrix, and the rest in trust for Ricardo and Nuno.",
+          "evidence": [
+            {
+              "href": "/estate/",
+              "why": "Letters of Administration 1847/50: the will and the liquidation account"
+            }
+          ]
+        },
+        {
+          "id": "h-12",
+          "grade": "lore",
+          "text": "The family remembered four things about him. That he came from Rosario: his own passport says so. That he brought horses: he was a horse-dealer in 1911, a trainer in 1940 and a racehorse owner at his death, though organised racing at the Cape was older than he was. That he was Consul General: nothing supports it, and the consul's signature on his own passport is another man's. That he kept an ostrich farm: no land of his has been found.",
+          "evidence": [
+            {
+              "href": "/",
+              "why": "The home page: what the family remembered, and how it has held up"
+            },
+            {
+              "href": "/horses/",
+              "why": "The claim, and what became of it"
+            }
+          ]
+        }
+      ],
+      "tree": {
+        "glyph": "ship",
+        "note": "Three sons, all born at the Cape. Nuno Fernando, the youngest, carries the line into the next chapter.",
+        "thread": "h-nuno",
+        "rows": [
+          {
+            "kind": "couple",
+            "nodes": [
+              {
+                "id": "h-pablo",
+                "name": "Pablo Armando Lerena",
+                "years": "1882–1950, trainer",
+                "grade": "doc",
+                "person": "pablo-armando-lerena"
+              },
+              {
+                "id": "h-mary",
+                "name": "Mary Septima Taylor",
+                "years": "1884–1935, of Northam",
+                "grade": "doc",
+                "person": "mary-septima-taylor"
+              }
+            ]
+          },
+          {
+            "kind": "children",
+            "nodes": [
+              {
+                "id": "h-roque",
+                "name": "Roque Luis Armando",
+                "years": "1905–1973",
+                "grade": "doc",
+                "person": "roque-luis-armando-lerena"
+              },
+              {
+                "id": "h-ricardo",
+                "name": "Ricardo Juan Carlos",
+                "years": "1920–1994",
+                "grade": "doc",
+                "person": "ricardo-juan-carlos-lerena"
+              },
+              {
+                "id": "h-nuno",
+                "name": "Nuno Fernando",
+                "years": "1924–1971",
+                "grade": "doc",
+                "person": "nuno-fernando-lerena"
+              }
+            ]
+          }
+        ]
+      },
+      "quote": [
+        {
+          "label": "1940 · Cape Town",
+          "title": "In his own passport",
+          "text": "«Nacido en Rosario de Santa Fe, República Argentina · día 22, mes Febrero, año 1882 · Profesión: Trainer»",
+          "source": "Pasaporte Argentino, Série A No. 07962, Oficina Consular Argentina en Cape Town, 24 December 1940 (the family's papers)",
+          "hardLimit": "The birthplace is what he declared. No birth or baptism record for him has been found, and he produced none."
+        },
+        {
+          "label": "1911 · Wynberg",
+          "title": "The marriage register",
+          "text": "«Pablo Armando Lerena, 29, bachelor, horse-dealer, Diep River · Mary Septima Taylor, 27, spinster, Diep River»",
+          "source": "Cape marriage register, Duplicate Original 7271, entry 160, St Dominic's, Wynberg, 3 September 1911",
+          "hardLimit": "The Cape form has no column for the parties' fathers, so it cannot name Juan Carlos."
+        }
+      ],
+      "plates": [
+        "marriage-1911",
+        "taylor-group-c1890",
+        "death-certificate-1950"
+      ],
+      "papers": [
+        {
+          "title": "The passport",
+          "href": "/passport/"
+        },
+        {
+          "title": "The horses",
+          "href": "/horses/"
+        },
+        {
+          "title": "The estate",
+          "href": "/estate/"
+        },
+        {
+          "title": "The Taylors",
+          "href": "/taylor/"
+        },
+        {
+          "title": "The papers in the house",
+          "href": "/family-papers/"
+        }
+      ]
+    },
+    {
+      "id": "rand",
+      "numeral": "VI",
+      "title": "Good marks at Rondebosch",
+      "place": "Cape Town · Johannesburg · Germiston",
+      "years": "1924–1971",
+      "paragraphs": [
+        {
+          "id": "r-1",
+          "grade": "doc",
+          "text": "In June 1936 the Marist Brothers of St Joseph's College at Rondebosch made out a printed testimonial of application and diligence to «Master N. Lerena». It sets his marks beside his opponent's and the highest in the form: 608 good marks against 578, the form's best 690. In October it was 458 against 415; in November, 715 against 708. He was eleven, turning twelve, and his mother had died the November before.",
+          "evidence": [
+            {
+              "href": "/family-papers/#plate-marist-1936-june-november",
+              "why": "Three Marist testimonials, signed Bro. Vital, 1936"
+            }
+          ]
+        },
+        {
+          "id": "r-2",
+          "grade": "doc",
+          "text": "[Nuno Fernando Lerena](person:nuno-fernando-lerena) had been born at Wynberg on 6 October 1924 and baptised at Corpus Christi six weeks later, with Michael Joseph and Mary Anne Duddy as his godparents. His birth certificate gives the race of his parents as «Spanish and European».",
+          "evidence": [
+            {
+              "href": "/family-papers/#plate-birth-certificate-nuno-1924",
+              "why": "Birth certificate, entry 664/24, Wynberg; Corpus Christi baptism no. 4540"
+            }
+          ]
+        },
+        {
+          "id": "r-3",
+          "grade": "lore",
+          "text": "A letter written in 1997 by a family friend remembers more. Nuno and his brother «Cardo» lived at the Newlands house while they were at the Marist school; then Nuno was sent for about two years to the writer's family at Stellenbosch; after school he «joined the Air Force and served in the Western Desert». This is memory, set down more than fifty years later.",
+          "evidence": [
+            {
+              "href": "/family-papers/#s-nuno",
+              "why": "The letter of 21 August 1997, described and not shown"
+            }
+          ]
+        },
+        {
+          "id": "r-4",
+          "grade": "doc",
+          "text": "One paper from outside the family supports part of it. When he died, a newspaper notice read: «LERENA. - Larry. Finally into wide, blue yonder. Deepest sympathy to family. Remembered by 12th Squadron, S.A.A.F.» It names a unit, not a service record, and no record of his service has been seen.",
+          "evidence": [
+            {
+              "href": "/family-papers/#s-nuno",
+              "why": "The 1971 notice from 12th Squadron, S.A.A.F."
+            }
+          ]
+        },
+        {
+          "id": "r-w1",
+          "register": "world",
+          "worldSource": "history",
+          "text": "12 Squadron of the South African Air Force flew bombers in the Western Desert in the early 1940s.",
+          "evidence": [
+            {
+              "kind": "history",
+              "href": "#world-H2",
+              "why": "General history; the archive notes it as such on The papers in the house"
+            }
+          ]
+        },
+        {
+          "id": "r-5",
+          "grade": "doc",
+          "text": "On Saturday 15 January 1949, at a quarter to four, at St Joseph's Catholic Church in Mayfair, Johannesburg, he married [Catherine Mary Sophia Booyzen](person:catherine-mary-sophia-booyzen); he was twenty-four and she nineteen. The printed invitation, in English and in Afrikaans, calls her the second eldest daughter of the late Mr and Mrs G. Booyzen of Brakpan, and him the youngest son of Mr and the late Mrs R. Lerena of Mayfair. His father had fourteen months to live.",
+          "evidence": [
+            {
+              "href": "/family-papers/#s-nuno",
+              "why": "Marriage certificate 616593 and the printed invitation"
+            }
+          ]
+        },
+        {
+          "id": "r-6",
+          "grade": "inf",
+          "text": "Under his father's will, Nuno's share of the capital was payable when he turned thirty, on 6 October 1954. A copy of his birth certificate was certified four weeks before that birthday. The archive thinks, and does not claim, that he needed it to show his age.",
+          "evidence": [
+            {
+              "href": "/estate/",
+              "why": "The will: payable when Nuno Fernando attains the age of thirty years"
+            },
+            {
+              "href": "/family-papers/#s-nuno",
+              "why": "Birth certificate certified 8 September 1954"
+            }
+          ]
+        },
+        {
+          "id": "r-7",
+          "grade": "doc",
+          "text": "His later life is in the Transvaal. The deeds registers give him two suburban plots at Gerdview, Germiston, in the 1950s, and in 1958 he was issued an identity card at Pretoria. In 1959 he started a tennis club at St Joseph's Convent, the Eastleigh Tennis Club, and as its chairman won from the city council three courts and R5,000 for a clubhouse. When ill-health made him give up the game, the club made him an honorary life member.",
+          "evidence": [
+            {
+              "href": "/south-africa/",
+              "why": "The ostrich farm: the only Lerena land found, two plots of Nuno Fernando's"
+            },
+            {
+              "href": "/family-papers/#s-nuno",
+              "why": "Identity card, 1958; the 1971 newspaper cutting, described and not shown"
+            }
+          ]
+        },
+        {
+          "id": "r-8",
+          "grade": "doc",
+          "text": "He died suddenly at his home in Germiston on Thursday 1 July 1971, of coronary thrombosis, aged forty-six. His death notice calls him a salesman, of Gerdview, Germiston, and where it asks for his parents' names it says only «Deceased». His headstone gives the name his friends used: «Nuno Fernando (Larry)».",
+          "evidence": [
+            {
+              "href": "/family-papers/#s-nuno",
+              "why": "Death certificate 581/71, Germiston; death notice MHG 6746/71; the headstone"
+            }
+          ]
+        },
+        {
+          "id": "r-9",
+          "grade": "doc",
+          "text": "He left his wife and five children. Four of them, [Jeanette Marie](person:jeanette-marie-lerena), [Paul Raymond](person:paul-raymond-lerena), [Catherine Tersia](person:catherine-tersia-lerena) and [Patricia Carmen](person:patricia-carmen-lerena), have since died; the fifth is the subject of the last chapter. Catherine Mary Sophia died on Christmas Day 2013 and shares his stone.",
+          "evidence": [
+            {
+              "href": "/family-papers/#s-nuno",
+              "why": "The 1971 death notice (not shown: it names the living) and the headstone"
+            }
+          ]
+        },
+        {
+          "id": "r-10",
+          "grade": "doc",
+          "text": "Neither Roque nor Nuno followed their father onto the turf: one ended his working life a railwayman, the other a salesman.",
+          "evidence": [
+            {
+              "href": "/family-papers/",
+              "why": "Two death notices, and what they really say"
+            }
+          ]
+        },
+        {
+          "id": "r-11",
+          "grade": "lore",
+          "text": "The horses went on in the other branch. The family's own chart and the South African racing press trace trainers and jockeys through Ricardo's line, four generations after the man with the Trainer's passport.",
+          "evidence": [
+            {
+              "href": "/horses/",
+              "why": "Four generations after him"
+            }
+          ]
+        }
+      ],
+      "tree": {
+        "glyph": "works",
+        "note": "Five children are named in the death notice of 1971. Four have since died; the fifth is living, and is drawn filled and without dates.",
+        "thread": "r-cheryl",
+        "rows": [
+          {
+            "kind": "above",
+            "nodes": [
+              {
+                "id": "r-pablo",
+                "name": "Pablo Armando Lerena",
+                "grade": "doc",
+                "person": "pablo-armando-lerena"
+              }
+            ]
+          },
+          {
+            "kind": "couple",
+            "nodes": [
+              {
+                "id": "r-nuno",
+                "name": "Nuno Fernando Lerena",
+                "years": "1924–1971, salesman",
+                "grade": "doc",
+                "person": "nuno-fernando-lerena"
+              },
+              {
+                "id": "r-catherine",
+                "name": "Catherine Mary Sophia Booyzen",
+                "years": "1929–2013, of Brakpan",
+                "grade": "doc",
+                "person": "catherine-mary-sophia-booyzen"
+              }
+            ]
+          },
+          {
+            "kind": "children",
+            "nodes": [
+              {
+                "id": "r-jeanette",
+                "name": "Jeanette Marie",
+                "grade": "doc",
+                "person": "jeanette-marie-lerena"
+              },
+              {
+                "id": "r-paul",
+                "name": "Paul Raymond",
+                "grade": "doc",
+                "person": "paul-raymond-lerena"
+              },
+              {
+                "id": "r-catherinet",
+                "name": "Catherine Tersia",
+                "grade": "doc",
+                "person": "catherine-tersia-lerena"
+              },
+              {
+                "id": "r-cheryl",
+                "name": "Cheryl",
+                "living": true
+              },
+              {
+                "id": "r-patricia",
+                "name": "Patricia Carmen",
+                "grade": "doc",
+                "person": "patricia-carmen-lerena"
+              }
+            ]
+          }
+        ]
+      },
+      "quote": {
+        "label": "1949 · Johannesburg",
+        "title": "The wedding invitation",
+        "text": "«Catherine, second eldest daughter of the late Mr and Mrs G. Booyzen (Brakpan), to Nuno, youngest son of Mr and the late Mrs R. Lerena (Mayfair)»",
+        "source": "Printed invitation, St Joseph's Catholic Church, Mayfair, Saturday 15 January 1949 (the family's papers)",
+        "hardLimit": "Neither the invitation nor the certificate says anything of his war; that rests on a letter of 1997 and a notice of 1971."
+      },
+      "plates": [
+        "marist-1936-june-november",
+        "wedding-invitation-nuno-1949",
+        "saaf-notice-larry-1971"
+      ],
+      "papers": [
+        {
+          "title": "Nuno Fernando's own papers",
+          "href": "/family-papers/#s-nuno"
+        },
+        {
+          "title": "Nuno Fernando Lerena",
+          "href": "person:nuno-fernando-lerena"
+        },
+        {
+          "title": "The estate of 1950",
+          "href": "/estate/"
+        },
+        {
+          "title": "South Africa",
+          "href": "/south-africa/"
+        }
+      ]
+    },
+    {
+      "id": "us",
+      "numeral": "VII",
+      "title": "And then it is us",
+      "place": "Johannesburg · Brisbane",
+      "years": "",
+      "paragraphs": [
+        {
+          "id": "u-1",
+          "grade": "doc",
+          "text": "Nuno Fernando's daughter [Cheryl Anne Lerena](person:cheryl-anne-lerena) lives in Johannesburg, South Africa. She married first Lynn Derrick Luwinski, and then Ivan Defranceski. By this archive's rule the living are named with their relationships and their towns, and nothing more.",
+          "evidence": [
+            {
+              "href": "person:cheryl-anne-lerena",
+              "why": "Her page: town and country, and her marriages"
+            },
+            {
+              "href": "/method/",
+              "why": "The living rule"
+            }
+          ]
+        },
+        {
+          "id": "u-2",
+          "grade": "doc",
+          "text": "Her marriage to Ivan Defranceski is the hinge between this archive and the Defranceski archive, whose line runs back to Gračišće in Istria. Their son David, for whom this archive was built, lives in Brisbane, Australia, and married into the Falco family of Arienzo in Campania. Three archives, from three continents of origin, meet in Brisbane.",
+          "evidence": [
+            {
+              "href": "/direct-line/",
+              "why": "Where it joins the other archives"
+            },
+            {
+              "href": "/",
+              "why": "The home page: built for David Defranceski"
+            }
+          ]
+        },
+        {
+          "id": "u-3",
+          "grade": "inf",
+          "text": "The papers have carried this family from Córdoba to Canelones, from Canelones to the Cordón, and, across a gap that nobody has yet closed, from Rosario to the Cape, the Rand and the far side of the Indian Ocean. The gap is the next thing to find.",
+          "evidence": [
+            {
+              "href": "/open-questions/",
+              "why": "Open questions"
+            }
+          ]
+        }
+      ],
+      "tree": {
+        "glyph": "loom",
+        "note": "The living are drawn filled, by first name, with no dates.",
+        "rows": [
+          {
+            "kind": "above",
+            "nodes": [
+              {
+                "id": "u-nuno",
+                "name": "Nuno Fernando Lerena",
+                "grade": "doc",
+                "person": "nuno-fernando-lerena"
+              }
+            ]
+          },
+          {
+            "kind": "couple",
+            "nodes": [
+              {
+                "id": "u-cheryl",
+                "name": "Cheryl",
+                "living": true
+              },
+              {
+                "id": "u-ivan",
+                "name": "Ivan",
+                "living": true
+              }
+            ]
+          },
+          {
+            "kind": "children",
+            "nodes": [
+              {
+                "id": "u-david",
+                "name": "David",
+                "living": true
+              }
+            ]
+          }
+        ]
+      },
+      "papers": [
+        {
+          "title": "The Spine",
+          "href": "/direct-line/"
+        },
+        {
+          "title": "Our line, drawn",
+          "href": "/tree/"
+        }
+      ]
+    }
+  ],
+  "maps": [
+    {
+      "id": "map-ocean",
+      "title": "Across the Atlantic",
+      "chapter": "dragoon",
+      "extent": {
+        "west": -64,
+        "east": 4,
+        "south": -38,
+        "north": 47,
+        "projection": "equirectangular"
+      },
+      "places": [
+        {
+          "id": "cordoba",
+          "name": "Córdoba",
+          "lat": 37.9134,
+          "lon": -4.7674,
+          "chapter": "origins",
+          "dx": 8,
+          "dy": 14,
+          "note": "Sancho's birthplace and his parents', on the act of 1791"
+        },
+        {
+          "id": "asturias",
+          "name": "Asturias",
+          "lat": 43.4352,
+          "lon": -5.7686,
+          "chapter": "dragoon",
+          "dx": 8,
+          "dy": -8,
+          "note": "María Fernández, «natural de las Asturias»"
+        },
+        {
+          "id": "montevideo",
+          "name": "Montevideo",
+          "lat": -34.9,
+          "lon": -56.19,
+          "chapter": "dragoon",
+          "dx": 8,
+          "dy": 14,
+          "note": "Sancho a godfather there, 1789"
+        },
+        {
+          "id": "canelones",
+          "name": "Canelones",
+          "lat": -34.52,
+          "lon": -56.28,
+          "chapter": "dragoon",
+          "dx": -8,
+          "dy": -8,
+          "anchor": "end",
+          "note": "the marriage, 1791"
+        }
+      ],
+      "legs": [
+        {
+          "from": "cordoba",
+          "to": "montevideo",
+          "grade": "doc",
+          "chapter": "dragoon",
+          "years": "by 1789",
+          "routeKnown": false,
+          "evidence": "/uruguay/#s-sancho-alive"
+        },
+        {
+          "from": "asturias",
+          "to": "canelones",
+          "grade": "doc",
+          "chapter": "dragoon",
+          "years": "by 1791",
+          "routeKnown": false,
+          "evidence": "/uruguay/#sanchohouse-2"
+        }
+      ]
+    },
+    {
+      "id": "map-river",
+      "title": "The river and the estuary",
+      "chapter": "cordon",
+      "extent": {
+        "west": -61.6,
+        "east": -55.4,
+        "south": -35.6,
+        "north": -32.4,
+        "projection": "equirectangular"
+      },
+      "places": [
+        {
+          "id": "canelones",
+          "name": "Canelones",
+          "lat": -34.52,
+          "lon": -56.28,
+          "chapter": "dragoon",
+          "dx": 8,
+          "dy": -8,
+          "note": "the family, 1791–1806"
+        },
+        {
+          "id": "montevideo",
+          "name": "Montevideo",
+          "lat": -34.9,
+          "lon": -56.19,
+          "chapter": "cordon",
+          "dx": 8,
+          "dy": 14,
+          "note": "calle San Juan, 1812; the Cordón, 1830s"
+        },
+        {
+          "id": "rosario",
+          "name": "Rosario",
+          "lat": -32.95,
+          "lon": -60.65,
+          "chapter": "card",
+          "dx": 8,
+          "dy": -8,
+          "note": "a Lerena Lenguas baptism, 1866; Pablo Armando's birthplace, 1882"
+        },
+        {
+          "id": "buenos-aires",
+          "name": "Buenos Aires",
+          "lat": -34.6,
+          "lon": -58.38,
+          "chapter": "cordon",
+          "dx": -8,
+          "dy": 14,
+          "anchor": "end",
+          "note": "Gilberto's household, by 1890"
+        }
+      ],
+      "legs": [
+        {
+          "from": "canelones",
+          "to": "montevideo",
+          "grade": "doc",
+          "chapter": "dragoon",
+          "years": "1806 → 1812",
+          "evidence": "/uruguay/#s-household",
+          "bend": 0.3
+        },
+        {
+          "from": "montevideo",
+          "to": "rosario",
+          "grade": "doc",
+          "chapter": "cordon",
+          "years": "1865–66",
+          "routeKnown": false,
+          "evidence": "/argentina/#rosario1866-1"
+        },
+        {
+          "from": "montevideo",
+          "to": "buenos-aires",
+          "grade": "doc",
+          "chapter": "cordon",
+          "years": "1886–1890",
+          "routeKnown": false,
+          "evidence": "/horses/"
+        }
+      ],
+      "regions": [
+        {
+          "label": "BANDA ORIENTAL",
+          "lat": -33.4,
+          "lon": -56.4,
+          "radius": 0
+        }
+      ]
+    },
+    {
+      "id": "map-cape",
+      "title": "From the River Plate and Devon to the Cape",
+      "chapter": "horseman",
+      "extent": {
+        "west": -66,
+        "east": 34,
+        "south": -42,
+        "north": 55,
+        "projection": "equirectangular"
+      },
+      "places": [
+        {
+          "id": "rosario",
+          "name": "Rosario",
+          "lat": -32.95,
+          "lon": -60.65,
+          "chapter": "card",
+          "dx": 8,
+          "dy": -8,
+          "note": "Pablo Armando's birthplace, 1882"
+        },
+        {
+          "id": "bideford",
+          "name": "Bideford",
+          "lat": 51.02,
+          "lon": -4.21,
+          "chapter": "horseman",
+          "dx": 8,
+          "dy": -8,
+          "note": "Mary Septima's birth registered, 1884; christened at Northam"
+        },
+        {
+          "id": "cape-town",
+          "name": "Cape Town",
+          "lat": -33.92,
+          "lon": 18.42,
+          "chapter": "horseman",
+          "dx": 8,
+          "dy": 14,
+          "note": "their first son born, 1905; married at Wynberg, 1911"
+        }
+      ],
+      "legs": [
+        {
+          "from": "rosario",
+          "to": "cape-town",
+          "grade": "doc",
+          "chapter": "horseman",
+          "years": "1882 → by 1905",
+          "routeKnown": false,
+          "evidence": "/timeline/"
+        },
+        {
+          "from": "bideford",
+          "to": "cape-town",
+          "grade": "doc",
+          "chapter": "horseman",
+          "years": "1884 → by 1905",
+          "routeKnown": false,
+          "evidence": "/taylor/#s-the-ship"
+        }
+      ]
+    },
+    {
+      "id": "map-rand",
+      "title": "North to the Rand, and on",
+      "chapter": "us",
+      "extent": {
+        "west": 10,
+        "east": 156,
+        "south": -42,
+        "north": -10,
+        "projection": "equirectangular"
+      },
+      "places": [
+        {
+          "id": "cape-town",
+          "name": "Cape Town",
+          "lat": -33.92,
+          "lon": 18.42,
+          "chapter": "horseman",
+          "dx": 10,
+          "dy": 14,
+          "note": "Nuno Fernando born at Wynberg, 1924"
+        },
+        {
+          "id": "johannesburg",
+          "name": "Johannesburg",
+          "lat": -26.2,
+          "lon": 28.04,
+          "chapter": "rand",
+          "dx": 10,
+          "dy": -8,
+          "note": "married 1949; Germiston nearby, 1971"
+        },
+        {
+          "id": "south-africa",
+          "name": "South Africa",
+          "lat": -28.81662,
+          "lon": 24.99164,
+          "chapter": "us",
+          "country": true,
+          "living": true,
+          "dx": 10,
+          "dy": 20,
+          "anchor": "start"
+        },
+        {
+          "id": "australia",
+          "name": "Australia",
+          "lat": -22.16468,
+          "lon": 144.58449,
+          "chapter": "us",
+          "country": true,
+          "living": true,
+          "dx": -8,
+          "dy": -10,
+          "anchor": "end"
+        }
+      ],
+      "legs": [
+        {
+          "from": "cape-town",
+          "to": "johannesburg",
+          "grade": "doc",
+          "chapter": "rand",
+          "years": "1924 → by 1949",
+          "routeKnown": false,
+          "evidence": "/family-papers/#s-nuno"
+        },
+        {
+          "from": "south-africa",
+          "to": "australia",
+          "grade": "lore",
+          "chapter": "us",
+          "living": true,
+          "evidence": "/south-africa/",
+          "bend": -0.15
+        }
+      ]
+    }
+  ],
+  "closing": {
+    "unknown": {
+      "title": "What we do not know",
+      "lead": "Every chapter has its silences. These are the ones a single letter or an afternoon in a reading room could break.",
+      "items": [
+        {
+          "text": "**Who Juan Carlos Lerena was, and where.** A marriage record for him would give María her maiden name in a line. The consular file behind the 1940 passport, already asked for, would show what Pablo Armando produced to prove he was Argentine.",
+          "href": "/argentina/#s-where-to-go-next"
+        },
+        {
+          "text": "**Which of Sancho's descendants, if any, is the bridge.** A Montevideo act that puts a Juan Carlos in the house of the Cordón would close the break.",
+          "href": "/hypotheses/#h-1c-that-the-family-came-from-uruguay-not-argentina"
+        },
+        {
+          "text": "**Pablo Armando's baptism.** It is not in the Rosario cathedral index for 1881 to 1883, and the civil registers of Santa Fe for the 1880s are not online; they have to be asked for.",
+          "href": "/argentina/#s-letter"
+        },
+        {
+          "text": "**How and when he reached the Cape, and where they met.** The outward passenger lists from Southampton survive and are indexed by name: hers under Taylor, his under Lerena.",
+          "href": "/taylor/#s-the-ship"
+        },
+        {
+          "text": "**Félix and Rosalía in Córdoba**, and the second word of «Cordova la Llana».",
+          "href": "/uruguay/#sanchohouse-1"
+        },
+        {
+          "text": "**When Sancho died.** The trees say 1832; the last paper that needs him alive is the census of 1812.",
+          "href": "/uruguay/#s-sancho-alive"
+        },
+        {
+          "text": "**Nuno Fernando's war.** A South African Air Force service record would replace a memory of 1997 and a notice of 1971.",
+          "href": "/family-papers/#s-nuno"
+        }
+      ]
+    },
+    "papers": {
+      "title": "Read the papers",
+      "lead": "This book is the front door. The evidence is behind it.",
+      "links": [
+        {
+          "title": "The Spine",
+          "href": "/direct-line/",
+          "why": "the generations from Pablo Armando down, with the record under each"
+        },
+        {
+          "title": "The enrolment card",
+          "href": "/enrolment-card/",
+          "why": "the only paper that names Juan Carlos and María"
+        },
+        {
+          "title": "The passport",
+          "href": "/passport/",
+          "why": "Rosario, 22 February 1882, and one word: Trainer"
+        },
+        {
+          "title": "The estate",
+          "href": "/estate/",
+          "why": "a death certificate, a will, a liquidation account and the carrots"
+        },
+        {
+          "title": "The papers in the house",
+          "href": "/family-papers/",
+          "why": "the marriage of 1911, Nuno Fernando's own papers"
+        },
+        {
+          "title": "Uruguay",
+          "href": "/uruguay/",
+          "why": "Sancho's house and Ramón's house, record by record"
+        },
+        {
+          "title": "Argentina",
+          "href": "/argentina/",
+          "why": "the Rosario registers, read to the end"
+        },
+        {
+          "title": "The Taylors",
+          "href": "/taylor/",
+          "why": "Mary Septima's family in north Devon"
+        },
+        {
+          "title": "Hypotheses",
+          "href": "/hypotheses/",
+          "why": "what is believed and not proved"
+        },
+        {
+          "title": "What has been read",
+          "href": "/searched/",
+          "why": "every register and index searched, and what came back"
+        }
+      ]
+    },
+    "notes": {
+      "title": "Where the world comes from",
+      "lead": "Passages marked history draw on general history and are not on this archive's own pages; these are the claims, and where they can be checked.",
+      "items": [
+        {
+          "key": "H1",
+          "claim": "Between 1778 and 1781 the Spanish crown shipped families from the north of Spain to settle the coast of Patagonia; many never reached it and were settled instead on the eastern bank of the River Plate.",
+          "source": "Juan Alejandro Apolant, Operativo Patagonia (Montevideo, 1970), the work cited on María Fernández's page; general histories of the Spanish settlements in Patagonia."
+        },
+        {
+          "key": "H2",
+          "claim": "12 Squadron of the South African Air Force flew bombers in the Western Desert in the early 1940s.",
+          "source": "General history of the South African Air Force in the Second World War; the archive itself marks the statement as general history on The papers in the house."
+        }
+      ]
+    },
+    "mapNote": "The maps: coastlines and borders from Natural Earth (public domain, naturalearthdata.com), simplified and clipped for this page. Town dots stand at this archive's own coordinates (data/era-towns.tsv) and, for Córdoba and Asturias, at the Record Atlas's; a dot stands only where a document puts the family. Countries, not towns, mark the living generations, with no dates; the square for Australia stands at the gazetteer's point for Queensland. A solid leg has a document at each end; a dashed leg is inferred; a dotted leg is family memory; a leg whose route nobody recorded is listed and not drawn. No leg is drawn across the gap between the house in the Cordón and Juan Carlos Lerena, because no record joins them."
+  },
+  "conflicts": [
+    {
+      "chapter": "dragoon",
+      "note": "Sancho's children: the census of 1812 names a son Juan Agustín, aged twenty-one, whom the home page's list of eight children leaves out, and the reading of the census image lists seven children where the archive's pages say six."
+    },
+    {
+      "chapter": "card",
+      "note": "The enrolment card is called the card of 1908 on the archive's pages, but nothing on it is dated; the passport's enrolment book is of 1915. The card page and the direct-line data also call Ricardo Juan Carlos the eldest son, where the home page, the invitation of 1949 and the birth dates make Roque the eldest."
+    },
+    {
+      "chapter": "horseman",
+      "note": "Roque's birth: 25 November 1905 in the baptism register, 6 December 1905 in his death notice and identity number. The marriage: 3 September 1911 in the register, 3 September 1905 in a St Dominic's extract certified in 1916. The archive keeps 1911 and leaves both readings of Roque's birth standing."
+    },
+    {
+      "chapter": "rand",
+      "note": "Catherine Mary Sophia Booyzen's birth: 25 March 1929 on the headstone, the marriage certificate and the 1971 gazette notice; The Spine page prints her as 1924–2013."
+    },
+    {
+      "chapter": "horseman",
+      "note": "Mary Septima's church: The Taylors page has her baptised a Catholic at Corpus Christi, Wynberg, on 16 December 1911; the priest at Nuno's baptism in 1924 wrote «Mater Anglicana», and The papers in the house reads that as her remaining Anglican."
+    }
+  ]
+}

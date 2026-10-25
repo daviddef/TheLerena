@@ -1,0 +1,21 @@
+---
+/* The story: the line this archive follows, told once as a short book (kit docs/story.md). Everything that is not data is
+   the kit's StoryBook; this page supplies the data (src/data/story.json), where a person's page is, and the six document
+   images it shows, all of them already published on /family-papers/ (every person on them is dead). */
+import Base from "../layouts/Base.astro";
+import StoryBook from "@daviddef/archive-kit/components/StoryBook.astro";
+import book from "../data/story.json";
+import { u } from "../lib/url.js";
+const personHref = (slug) => u(`/people/${slug}/`);
+const plateIndex = {
+  "marriage-1911": { src: "/docs/marriage-1911.jpg", w: 1500, h: 978, title: "The marriage register, St Dominic's, Wynberg, 3 September 1911: Pablo Armando Lerena, 29, horse-dealer; Mary Septima Taylor, 27", holder: "Duplicate Original Register no. 7271, entry 160" },
+  "taylor-group-c1890": { src: "/docs/taylor-group-c1890.jpg", w: 1800, h: 1367, title: "The Taylor family group, about 1889–1891. The family identifies Mary Septima as the small girl at the lower right; nobody else in it is named", holder: "The family's papers" },
+  "death-certificate-1950": { src: "/docs/death-certificate-1950.jpg", w: 1500, h: 836, title: "The death certificate, 19 March 1950: «Robert Paul Lerina», Race Horse Owner, aged 76 (he was 68)", holder: "Union of South Africa, A 214036, entry W612/50" },
+  "marist-1936-june-november": { src: "/docs/marist-1936-june-november.jpg", w: 600, h: 800, title: "Two Marist testimonials to Master N. Lerena, June and November 1936", holder: "St Joseph's College, Rondebosch; the family's papers" },
+  "wedding-invitation-nuno-1949": { src: "/docs/wedding-invitation-nuno-1949.jpg", w: 998, h: 788, title: "The wedding invitation, St Joseph's, Mayfair, 15 January 1949", holder: "The family's papers" },
+  "saaf-notice-larry-1971": { src: "/docs/saaf-notice-larry-1971.jpg", w: 591, h: 230, title: "«Larry … Remembered by 12th Squadron, S.A.A.F.», a newspaper notice of July 1971", holder: "The family's papers" },
+};
+---
+<Base title={book.title} eyebrow={book.eyebrow} dek={book.dek}>
+  <StoryBook book={book} personHref={personHref} u={u} plateIndex={plateIndex} />
+</Base>
