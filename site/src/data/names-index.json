@@ -86,6 +86,14 @@
    "url": "/people/alberto-octavio-lerena-lenguas/"
   },
   {
+   "name": "Alejandra Justa Vaquero Lerena",
+   "aliases": [
+    "Alejandra Justa",
+    "Alejandra Justa Vaquero"
+   ],
+   "url": "/people/alejandra-justa-vaquero-lerena/"
+  },
+  {
    "name": "Alejandra Raymunda Lerena Gazo",
    "aliases": [
     "Alejandra Raymunda Lerena"
@@ -2473,11 +2481,6 @@
    "url": "/people/manuela-lerena-leonar/"
   },
   {
-   "name": "Manuela Muniz",
-   "aliases": [],
-   "url": "/people/manuela-muniz/"
-  },
-  {
    "name": "Manuela Otondo",
    "aliases": [],
    "url": "/people/manuela-otondo/"
@@ -3204,6 +3207,11 @@
     "Pedro Segundo Lerena"
    ],
    "url": "/people/pedro-segundo-lerena-villademoros/"
+  },
+  {
+   "name": "Pedro Vaquero",
+   "aliases": [],
+   "url": "/people/pedro-vaquero/"
   },
   {
    "name": "Pedro Villademoros",
@@ -4654,6 +4662,24 @@
     "/people/manuela-lerena-2/",
     "/people/manuela-lerena-3/",
     "/people/manuela-lerena/"
+   ]
+  },
+  {
+   "name": "Manuela Muniz",
+   "url": "/people/?q=Manuela%20Muniz",
+   "bearers": [
+    "/people/manuela-muniz-2/",
+    "/people/manuela-muniz/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/pedro-vaquero/",
+     "url": "/people/manuela-muniz-2/"
+    },
+    {
+     "near": "/people/juan-nepomuceno-gonzalez/",
+     "url": "/people/manuela-muniz/"
+    }
    ]
   },
   {

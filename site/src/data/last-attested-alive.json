@@ -3509,9 +3509,9 @@
  {
   "name": "Pio C. LERENA",
   "born_est": "-",
-  "last_attested_alive": "-",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "last_attested_alive": "1889-Mar-11",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
  },
  {
   "name": "Isidora CARDOZO (m. Doroteo LERENA)",
@@ -5673,6 +5673,27 @@
   "name": "Manuel Indalecio VAQUERO (b. 1862, Trinidad)",
   "born_est": "1862-05-21",
   "last_attested_alive": "1862-05-21",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Alejandra Justa VAQUERO Lerena (b. 1864, San Jose)",
+  "born_est": "1864-02-26",
+  "last_attested_alive": "1864-Mar-05",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Pedro VAQUERO (father of Manuel Vaquero)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Manuela MUNIZ (wife of Pedro Vaquero)",
+  "born_est": "-",
+  "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
