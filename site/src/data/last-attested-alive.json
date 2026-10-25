@@ -925,8 +925,8 @@
  },
  {
   "name": "Dona Casimira PELAEZ (wife of Bernabe LERENA)",
-  "born_est": "1841",
-  "last_attested_alive": "1841",
+  "born_est": "1841-03-19",
+  "last_attested_alive": "1841-03-19",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -5680,6 +5680,41 @@
   "name": "Alejandra Justa VAQUERO Lerena (b. 1864, San Jose)",
   "born_est": "1864-02-26",
   "last_attested_alive": "1864-Mar-05",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Ramon Inocencio LERENA Fernandez (b. 1838, San Jose)",
+  "born_est": "1838-07-28",
+  "last_attested_alive": "1838-07-28",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Esteban FERNANDEZ ALVAREZ (m. Josefa Cecilia Lac)",
+  "born_est": "-",
+  "last_attested_alive": "1839-May-26",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Josefa Cecilia LAC (wife of Esteban Fernandez Alvarez)",
+  "born_est": "-",
+  "last_attested_alive": "1839-May-26",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Esteban Segundo FERNANDEZ Lac (b. 1839, San Jose)",
+  "born_est": "1839-05-13",
+  "last_attested_alive": "1839-May-26",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Isabel LERENA (sister of Alejandro, m. Francisco, mother of Juana Antonia 1840)",
+  "born_est": "-",
+  "last_attested_alive": "1840-May-11",
   "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
   "tier": "ALIVE AT"
  },
