@@ -5,6 +5,11 @@
    "date": "2026-10-25",
    "commits": [
     {
+     "sha": "a0a1753",
+     "subject": "Log: Trinidad burial register 1844-1860 read for the family (a null of the machine transcript, not an exclusion)",
+     "body": ""
+    },
+    {
      "sha": "3d15fd1",
      "subject": "Eugenio Lerena was buried at Trinidad on 3 March 1844: born 26 February, a few days old, not the eighth of the nine",
      "body": "A full-text search for 'Alejandro Herena' with 'Margarita Fernandez' in Flores found the burial entry (Trinidad Religious Death Records January 1835 - May 1860). The reading of his baptism as born 26 March and the 'eighth of nine' count of the previous commit are corrected in the register, the Uruguay page, the log and the sources. Two of the nine children of 1853 are still not found. Machine transcript; plate not opened. All gates pass."

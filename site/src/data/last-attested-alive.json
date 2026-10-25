@@ -3508,10 +3508,24 @@
  },
  {
   "name": "Pio C. LERENA",
-  "born_est": "-",
-  "last_attested_alive": "1889-Mar-11",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "born_est": "1855-09-16",
+  "last_attested_alive": "1855-09-16",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Bernardina HARRISON (m. Pio C. Lerena 1884)",
+  "born_est": "1866c",
+  "last_attested_alive": "1866c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Sixto Doroteo LERENA (infant, d. 1904, Chamanga)",
+  "born_est": "1904-03-28",
+  "last_attested_alive": "1904-03-28",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Isidora CARDOZO (m. Doroteo LERENA)",
