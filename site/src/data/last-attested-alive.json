@@ -5649,6 +5649,20 @@
   "tier": "BIRTH ONLY"
  },
  {
+  "name": "Eusebio Ramon FERNANDEZ Lerena (b. 1855, Trinidad)",
+  "born_est": "1855-08",
+  "last_attested_alive": "1855-Aug-18",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Alejandro Pablo PELAEZ Lerena (b. 1856, Trinidad)",
+  "born_est": "1856-06-30",
+  "last_attested_alive": "1856-Aug-16",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
   "name": "Maria SERNA (m. Ramon Fernandez the younger 1894)",
   "born_est": "1871c",
   "last_attested_alive": "1871c",

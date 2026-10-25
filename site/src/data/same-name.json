@@ -75,6 +75,11 @@
      ],
      "children": [
       {
+       "slug": "eusebio-ramon-fernandez-lerena",
+       "name": "Eusebio Ramon FERNANDEZ Lerena (b. 1855, Trinidad)",
+       "tree": false
+      },
+      {
        "slug": "jesus-modesto-del-carmen-fernandez-lerena",
        "name": "Jesus Modesto del Carmen FERNANDEZ Lerena (b. 1866, Trinidad)",
        "tree": false
@@ -1003,6 +1008,28 @@
      "children": []
     },
     {
+     "slug": "alejandro-pablo-pelaez-lerena",
+     "name": "Alejandro Pablo PELAEZ Lerena (b. 1856, Trinidad)",
+     "exact": false,
+     "status": "unplaced",
+     "born": "1856",
+     "died": "",
+     "where": "Trinidad, Flores · Oriental",
+     "source": "Santisima Trinidad, Baptism Records 1848-1857 (film 008163892, item 2, 194 images, all re-read with the wider spellings), the entry of 16 August 1856 (image 160, ark …",
+     "father": {
+      "slug": "juan-pelaez",
+      "name": "Juan PELAEZ (m. Antonina LERENA)",
+      "tree": false
+     },
+     "mother": {
+      "slug": "antonina-lerena-3",
+      "name": "Antonina LERENA (the elder, m. Juan PELAEZ)",
+      "tree": false
+     },
+     "spouses": [],
+     "children": []
+    },
+    {
      "slug": "alejandro-joaquin-narciso-lerena-villardemoros",
      "name": "Alejandro Joaquin Narciso LERENA Villardemoros",
      "exact": false,
@@ -1645,6 +1672,11 @@
       }
      ],
      "children": [
+      {
+       "slug": "alejandro-pablo-pelaez-lerena",
+       "name": "Alejandro Pablo PELAEZ Lerena (b. 1856, Trinidad)",
+       "tree": false
+      },
       {
        "slug": "maximo-pelaez-lerena",
        "name": "Maximo PELAEZ Lerena (chr.1859)",
