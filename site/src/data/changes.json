@@ -5,6 +5,11 @@
    "date": "2026-10-25",
    "commits": [
     {
+     "sha": "3d15fd1",
+     "subject": "Eugenio Lerena was buried at Trinidad on 3 March 1844: born 26 February, a few days old, not the eighth of the nine",
+     "body": "A full-text search for 'Alejandro Herena' with 'Margarita Fernandez' in Flores found the burial entry (Trinidad Religious Death Records January 1835 - May 1860). The reading of his baptism as born 26 March and the 'eighth of nine' count of the previous commit are corrected in the register, the Uruguay page, the log and the sources. Two of the nine children of 1853 are still not found. Machine transcript; plate not opened. All gates pass."
+    },
+    {
      "sha": "e492d23",
      "subject": "The family was at Trinidad by 1843: an eighth child of Alejandro and Margarita born there in 1844, and two more children of Manuel Fernandez",
      "body": "Every image of Santisima Trinidad Baptism Records January 1843 - March 1848 (43 images) read by machine transcript with a spelling set that includes Herena and Ledena: Alejandro and Margarita as godparents in April 1843 and June 1847, their child Eugenio born 26 March 1844 (the machine writes the sex both ways), Juan Crisostomo (27 January 1844) and Margarita Antonia (13 June 1847), children of Manuel Fernandez and Maria de los Reyes Gonzalez. The earlier scans of the neighbouring volumes missed two spellings of the surname; noted in the log. Plates not opened. All gates pass."

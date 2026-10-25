@@ -2994,5 +2994,27 @@
    "viewer-scan"
   ],
   "note": "WALKED: all 43 images, so this volume is done for those spellings (garbling in the transcript is a limit). FOUND: the family at Trinidad by April 1843; Eugenio, born 26 March 1844, a child of Alejandro and Margarita (the eighth known of nine); Juan Crisostomo (27 Jan 1844) and Margarita Antonia (13 June 1847), children of Manuel Fernandez and Maria de los Reyes Gonzalez; 'Mariquita Elerena' godmother in 1844 (probably Maria). The surnames written 'Herena' and 'Ledena' are why the earlier machine-index scans of film 008143327 (San Jose, 1828-1836) and film 008163892 (Trinidad, 1848-1857) may have missed children: those two volumes could be re-read with the wider spelling set. WAYPOINT NOT ESTABLISHED. CORRECTED THE SAME DAY (supersedes 'Eugenio, born 26 March 1844 ... the eighth known of nine' above): a full-text search for 'Alejandro Herena' with 'Margarita Fernandez' in Flores found his BURIAL on 3 March 1844 (Trinidad Religious Death Records January 1835 - May 1860, ark 3:1:3Q9M-CS27-23WL-4, machine transcript) - born 26 February 1844, died at a few days old - so he is not one of the nine of 1853, and two of the nine are still unfound. The Trinidad death records of 1835-1860 also hold other entries of the family to look for."
+ },
+ {
+  "src": "FamilySearch, Santisima Trinidad Religious Death Records January 1835 - May 1860 (144 images, ark 3:1:3Q9M-CS27-23WL-4), images 64-144 (March 1844 to May 1860) read by machine transcript with a spelling-tolerant search (Chourino and variants, Lerena, Llerena, Lorena, Herena, Ledena, Elerena, Lezama, Sotura, Margarita Fernandez, Alejandro, Alexandro)",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS27-23WL-4",
+  "waypoint": null,
+  "what": "Burials of Alejandro Lerena's family and of Alejandro the younger's first wife Isidora Chourino at Trinidad, 1844-1860",
+  "when": "2026-10-19",
+  "outcome": "nothing",
+  "pages": "images 64-144",
+  "walked": true,
+  "tags": [
+   "lerena",
+   "chourino",
+   "trinidad",
+   "flores",
+   "uruguay",
+   "familysearch",
+   "burial",
+   "machine-transcript",
+   "viewer-scan"
+  ],
+  "note": "NOTHING NEW beyond the burial of Eugenio on 3 March 1844 (image 65, found earlier by the full-text hit): no burial of Isidora Chourino, Alejandro, Margarita, Ramon Lerena, Juan Fernandez or Barbara Sotura in images 64-144 under these spellings. THIS IS A NULL OF THE MACHINE TRANSCRIPT, NOT AN EXCLUSION: the transcript garbles surnames freely (a margin note reads 'Luis Lorena 1894', a stray), and images 1-63 (1835 to February 1844) were not read. Isidora Chourino may have died at San Jose or before 1844; Alejandro the younger's first marriage is not dated. WAYPOINT NOT ESTABLISHED."
  }
 ]
