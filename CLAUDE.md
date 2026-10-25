@@ -32,3 +32,13 @@ After research that adds an ark, a film or a person, `npm run build` is the chec
   that reason. FamilySearch plates, the Cape estate images and TNA downloads are link-only; only the family papers already on
   `/family-papers/` may be shown (never the 1971 and 1973 death notices). `src/components/Rec.astro` is the wrapper for a hand-written passage.
 - **L5.** A ratchet only. `~/Downloads/audit-briefs/links/lerena-editorial.md` lists what an author can settle.
+
+## The lines of the name (25 October 2026)
+
+The drawing on `/name/` is the kit's `BranchRivers` (kit `docs/lines.md`). `tools/build-lines.py` makes `site/src/data/lerena-lines.json`
+from `data/lerena-lines.tsv` (a lane's status, span, note and node persons: a status is a research decision, written by hand),
+`data/lerena-lines-unplaced.tsv` (the two pens) and `data/people-lines.tsv` (the person-to-lane file; `descendant` rows are derived by the build
+from the register's parent and child links, as `same:data` is). `npm run check:lines` is the kit gate.
+Never type a count of lines in prose: `ledger()` counts them. Living: the kit's `--years` gate runs beside `check-living-years.py`;
+`data/living-year-allow.json` is the registry for both.
+

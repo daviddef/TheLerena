@@ -90,9 +90,8 @@ for name in ("corrections", "errands", "gaps", "timeline", "photograph-these",
              "trinidad-marriages-1882-1911",
              "buenos-aires-fulltext-2026-10-11",
              "fulltext-finds-2026-10-11",
-             "lerena-lines",
+             # the drawing on /name/ (lerena-lines, lerena-lines-unplaced) is made by tools/build-lines.py, in the kit's shape
              "families",
-             "lerena-lines-unplaced",
              "name-variants", "variant-parent-sweep", "navarrete-logrono", "dispensations-compound-sweep", "cordon-sized", "artigas-opened", "leandro-llanos-identified", "cordon-leads-worked", "sarandi-229-1850", "domain-migration", "consul-gazette-test", "cordon-deaths", "nuno-papers", "pablo-papers"):
     data = rows(name)
     (OUT / f"{name}.json").write_text(json.dumps(data, indent=1, ensure_ascii=False) + "\n",

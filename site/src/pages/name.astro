@@ -25,33 +25,44 @@ const dist = rows
   .map(([c, b, i, r]) => [c, rate(i), `${b} \u00b7 ${i.replace(":", " in ")} \u00b7 rank ${r} in country`])
   .sort((a, b) => b[1] - a[1]);
 import dItalyLerenaLerina from "../data/italy-lerena-lerina.json";
-import Lines from "../components/Lines.astro";
+import BranchRivers from "@daviddef/archive-kit/components/BranchRivers.astro";
+import { ledger } from "@daviddef/archive-kit/lib/lines.js";
 import dVariants from "../data/name-variants.json";
 import dSweep from "../data/variant-parent-sweep.json";
 import dNavarrete from "../data/navarrete-logrono.json";
-import lanes from "../data/lerena-lines.json";
-import lanesUnplaced from "../data/lerena-lines-unplaced.json";
+import drawing from "../data/lerena-lines.json";
+import dPeople from "../data/people.json";
+/* THE DRAWING IS THE KIT'S AND ITS NUMBERS COME FROM ITS DATA. tools/build-lines.py makes lerena-lines.json from
+   data/lerena-lines.tsv, data/lerena-lines-unplaced.tsv and data/people-lines.tsv; ledger() counts it. A number of lines
+   typed in this page would be wrong the day a lane is added, so none is. */
+const LED = ledger(drawing);
+const WORD = ["no", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve"];
+const nLines = WORD[LED.lanes] ?? String(LED.lanes);
+const NLines = nLines[0].toUpperCase() + nLines.slice(1);
+const lineNames = Object.fromEntries(dPeople.map((p) => [p.slug, p.name.replace(/\s*\([^)]*\)/g, "").replace(/\s+/g, " ").trim()]));
 ---
 <Base title="The Name"
       eyebrow="2,124 in the world"
       dek="Lerena is a rare surname — rare enough that rarity itself becomes a research tool. It may also be two separate names sharing one spelling. Both facts shape everything else in this archive.">
 <section class="blk">
-  <h2 id="s-lines">Five lines of one name, drawn side by side</h2>
+  <h2 id="s-lines">{NLines} lines of one name, drawn side by side</h2>
   <p class="dek">They may not be one family, and this archive has never been able to say that they
-    are. Five lines that can be documented from a beginning to an end &mdash; and, under the rule,
-    everything the name holds that sits on none of them.</p>
+    are. {NLines} lines, each with the years it can be documented over and a word for how far back its
+    evidence reaches &mdash; and, under the rule, everything the name holds that sits on none of them.</p>
   <div class="prose">
     <p><strong>A lane here has to have both ends.</strong> A beginning that is a document and a
       destination that is a document. Where this archive knows a household is real but cannot say
       which line it belongs to, it goes <em>below</em> the rule rather than onto the nearest lane
-      &mdash; because a picture that places everything is a picture that is lying about something.</p>
+      &mdash; because a picture that places everything is a picture that is lying about something.
+      What lies beyond a lane&rsquo;s beginning is said under its title: <em>origin inferred</em> where
+      the archive has a reason and no document, <em>origin not found</em> where it has neither.</p>
     <p><strong>The red line is drawn broken on purpose.</strong> It is the one the archive exists
       for, and its left end is open: Pablo Armando Lerena&rsquo;s parents are named on an army card
       in 1908 and <strong>appear in no other record anywhere</strong>. Every lane above it is a
       candidate and <strong>not one has been shown to hold them</strong>.</p>
   </div>
-  <Lines lanes={lanes} unplaced={lanesUnplaced}
-         caption={'Hover or tab any dot for what the document behind it actually says. The lanes are coloured only to tell them apart &mdash; no colour means kinship, and no two lanes here have been joined to each other. <strong>Of the five, two begin in a parish register and one begins with a man holding office; the other two begin before any document of their own &mdash; a birth at Rosario whose baptism has never been found, and a birth in Spain in the 1860s known only from later records.</strong>'} />
+  <BranchRivers rivers={drawing} title={drawing.title} names={lineNames}
+         caption={`Hover or tab any dot for what the document behind it actually says; a dot that links to a person opens that person. The lanes are coloured only to tell them apart &mdash; no colour means kinship, and no two lanes here have been joined to each other. <strong>Of the ${nLines}, two begin in a parish register and one begins with a man holding office; the other two begin before any document of their own &mdash; a birth at Rosario whose baptism has never been found, and a birth in Spain in the 1860s known only from later records.</strong> The number under a line is the people this archive has placed on it through the parent and child links it holds, with a birth year before the living line or a death on their page; it is not everyone who descended, and nobody living is listed.`} />
   <div class="note" style="margin-top:18px"><strong>Where each household below the rule is worked.</strong> The reason each one is drawn there is the hover text in the figure; the pages that hold the records are these.
     <ul style="margin:8px 0 0">
       <li>Juan Carlos Lerena and Mar&iacute;a Lerena, named in 1908: <a href={u("/enrolment-card/")}>the enrolment card</a>, <a href={u("/people/juan-carlos-lerena/")}>Juan Carlos</a>, <a href={u("/people/maria-lerena/")}>Mar&iacute;a</a>.</li>
@@ -63,8 +74,8 @@ import lanesUnplaced from "../data/lerena-lines-unplaced.json";
       <li>Leandro Lerena and Luc&iacute;a Llanos, Buenos Aires: <a href={u("/argentina/#s-leandro-llanos")}>the census that broke a null</a>.</li>
       <li>Lerina, Italy: <a href={u("/name/#s-italy")}>Italy, and the Lerina spelling</a>. Lerena of Arequipa: <a href={u("/searched/")}>the full-text sweep</a>. Lerrena, Colombia: <a href={u("/name/#s-variants")}>every way the name has been written</a>. The Lerena y Lerena of Navarrete: <a href={u("/name/#s-navarrete")}>Navarrete, Logro&ntilde;o</a>.</li>
     </ul></div>
-  <div class="note" style="margin-top:18px">What this drawing is <em>not</em>: a claim that the five
-    lanes are five separate families. <strong>Two of them may yet prove to be one</strong> &mdash;
+  <div class="note" style="margin-top:18px">What this drawing is <em>not</em>: a claim that the
+    {nLines} lanes are separate families. <strong>Two of them may yet prove to be one</strong> &mdash;
     whether the Trinidad kindred joins Sancho&rsquo;s house is an open question with no evidence
     either way, which is why no join is drawn between them. <strong>An undrawn line is a statement
     too.</strong> <a href={u("/open-questions/")}>Open questions &rarr;</a></div>
@@ -163,7 +174,7 @@ import lanesUnplaced from "../data/lerena-lines-unplaced.json";
     renamed without appearing here.</p>
   <div class="prose" style="margin-top:14px">
     <ol class="cols2">
-      <li><a href="#s-lines">Five lines of one name, drawn side by side</a></li>
+      <li><a href="#s-lines">{NLines} lines of one name, drawn side by side</a></li>
       <li><a href="#s-variants">Every way the name has been written down</a></li>
       <li><a href="#s-sweep">What happened when all fourteen were used at once</a></li>
       <li><a href="#s-how-rare">How rare</a></li>

@@ -12,8 +12,12 @@ import corrections from "../data/corrections.json";
 import sourcesConsulted from "../data/sources-consulted.json";
 import errands from "../data/errands.json";
 import places from "../data/places.json";
+import linesDrawing from "../data/lerena-lines.json";
+import { ledger as linesLedger } from "@daviddef/archive-kit/lib/lines.js";
 // Derived, not typed. A hand-written count here went stale within the week it was written.
 const WORDS = ["no","One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Eleven","Twelve","Thirteen","Fourteen","Fifteen"];
+// The lines of the name on /name/: counted from the drawing's own data (tools/build-lines.py), never typed.
+const nLines = (WORDS[linesLedger(linesDrawing).lanes] ?? String(linesLedger(linesDrawing).lanes)).toLowerCase();
 /* Six tiles, all of them measures of the work. There were ten, and two of them
    were not numbers at all — "Juan Carlos" and "Uruguayan". Those are two of the
    best findings this archive has made and they deserve better than being shaped
@@ -243,10 +247,10 @@ const stats = [
 <section class="blk">
   <div class="note" style="margin-top:0">
     <strong>The break above is a single joint in one tree. There is a wider version of the same
-    question.</strong> This archive follows <strong>five lines of the name Lerena</strong> that can
-    each be documented from a beginning to an end, and it has never shown that any two of them are
+    question.</strong> This archive follows <strong>{nLines} lines of the name Lerena</strong>, each
+    documented over the years it states, and it has never shown that any two of them are
     the same family. The broken line below is this one.
-    <a href={u("/name/#s-lines")}>The five lines, drawn side by side &rarr;</a>
+    <a href={u("/name/#s-lines")}>The {nLines} lines, drawn side by side &rarr;</a>
   </div>
 </section>
 

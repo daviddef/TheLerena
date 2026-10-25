@@ -1,0 +1,128 @@
+# *** WHO STANDS ON WHICH LINE (the person-to-lane file for the drawing on /name/). 25 October 2026. ***
+#
+# Written for the kit's lines contract (kit/docs/lines.md): a lane may list the people on it, and the kit gate holds the built page to
+# three rules - nobody living is listed (P3), nobody stands on two lines (E1), every link lands (P1).
+#
+# lane      the key of a lane in data/lerena-lines.tsv
+# slug      the person page, /people/<slug>/
+# how       anchor      a person the archive itself puts on the line, with the statement in `basis` (written by hand)
+#           spouse      the wife of an anchor, named as such in the register (written by hand)
+#           descendant  DERIVED by tools/build-lines.py from the anchors through the register's parent and child links (never
+#                       by hand: the build re-derives them whenever the register moves)
+# basis     the archive's own words for why
+#
+# A person is listed only if the register publishes a birth year before the living line or a death. An undated stub, a living
+# person and a person the data records dead but no page prints are left off, whatever their links. The number a reader sees under
+# a lane is the people placed here by these links; it is not everyone who descended.
+lane	slug	how	basis
+sancho	avelino-lerena-fernandez	anchor	register name "son of Sancho"; the register links him to Ambrosia Traibel and to the twelve Lerena Traibel children
+sancho	justa-pastora-lerena	anchor	register name "daughter of Sancho"; node of the lane, 1830
+sancho	pedro-antonio-lerena	anchor	register name "son of Sancho"; node of the lane, 1793 (baptised 31 July 1793)
+sancho	sancho-llerena-aguilar	anchor	node of the lane, 1791: his marriage at Canelones; the lane begins with him
+sancho	ambrosia-traibel	spouse	register link: wife of Avelino Lerena Fernandez; named with him on the 1880 acts at the Union
+sancho	dona-maria-fernandez-tresguerras	spouse	register name "wife of Sancho"
+ramon	alejandro-lerena	anchor	the 1825 marriage act at San Jose names his father Ramon Lerena and mother Maria Josefa Gonzalez (data/ramon-lerena-rosario.tsv)
+ramon	eusebio-congenio-lerena-gonzalez	anchor	the 1816 baptism at the Cordon names his parents Ramon Lerena and Maria Josefa Gonzalez, plate read 17 October 2026
+ramon	mauricio-lerena	anchor	the 1837 marriage act at San Jose names his father Ramon and mother Maria Gonzalez; node of the lane, 1837
+ramon	ramon-lerena-2	anchor	node of the lane, 1800: Alcalde de la Santa Hermandad del Partido del Rosario
+ramon	maria-josefa-gonzalez	spouse	register name "wife of Ramon Lerena of Colla"; named as his wife on the 1816 baptism
+direct	pablo-armando-lerena	anchor	node of the lane, 1882: the line this archive exists for; his descendants are the register's own parent and child links
+spain	eloy-lerena	anchor	node of the lane, 1886: natural de Espana on his daughter's 1912 baptism
+arturo	arturo-lerena-garcia	anchor	node of the lane: named as the father on the Valparaiso death act of 1894
+arturo	amalia-diaz	spouse	named as the mother on the same act
+sancho	alberto-julian-lerena-larriera	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
+sancho	alejandro-joaquin-narciso-lerena-villardemoros	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
+sancho	alejandro-lerena-traibel	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
+sancho	alejandro-m-lerena	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
+sancho	alfredo-justiniano-lerena-traibel	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
+sancho	ana-maria-lerena-razzetti	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
+sancho	ana-rosario-lerena-traibel	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
+sancho	angel-miguel-avelino-lerena-larriera	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
+sancho	angelica-maria-lerena-villademoros	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
+sancho	arturo-lerena	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
+sancho	arturo-mario-lerena-regules	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
+sancho	aurelio-eusebio-barros-lerena	descendant	descendant of justa-pastora-lerena by the register's parent and child links
+sancho	avelino-lerena-villademoros	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
+sancho	avelino-pedro-joaquin-silvestre-lerena-villademoros	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
+sancho	cora-maria-avelina-lerena-regules	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
+sancho	eduardo-avelino-zalduando-lerena	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
+sancho	eduardo-lerena	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
+sancho	ema-justina-felicia-lerena-regules	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
+sancho	emilia-alberta-lerena-bassani	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
+sancho	emilia-lerena-vega-2	descendant	descendant of pedro-antonio-lerena by the register's parent and child links
+sancho	emma-lerena-regules	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
+sancho	hector-narciso-lerena-bassani	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
+sancho	hilario-barros-llerena	descendant	descendant of justa-pastora-lerena by the register's parent and child links
+sancho	irma-antonia-lerena-fernandez	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
+sancho	jacinta-mercedes-gregoria-lerena-villademoros	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
+sancho	josefa-lerena-traibel	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
+sancho	juan-arturo-lerena-traibel	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
+sancho	juan-pedro-olivera-lerena	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
+sancho	leonarda-margarita-lerena-vega	descendant	descendant of pedro-antonio-lerena by the register's parent and child links
+sancho	manuela-lavina	descendant	descendant of pedro-antonio-lerena by the register's parent and child links
+sancho	maria-adelina-lerena-larriera	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
+sancho	maria-adelina-lerena-traibel	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
+sancho	maria-antonieta-lerena-larriera	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
+sancho	maria-carlota-moratorio-lerena	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
+sancho	maria-consuelo-lerena-larriera	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
+sancho	maria-de-las-mercedes-moratorio-lerena	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
+sancho	maria-ines-lerena-larriera	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
+sancho	maria-margarita-luisa-zalduondo-lerena	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
+sancho	mercedes-micaela-lerena-traibel	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
+sancho	pedro-alberto-ysabelino-lerena-traibel	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
+sancho	pedro-gualberto-lerena-villademoros	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
+sancho	pedro-lerena-vega-2	descendant	descendant of pedro-antonio-lerena by the register's parent and child links
+sancho	pedro-ricardo-lerena-fernandez	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
+sancho	pedro-segundo-lerena-villademoros	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
+sancho	ramon-paulino-olivera-lerena	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
+sancho	roberto-ambrosio-lerena-regules	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
+sancho	sara-esmeralda-lerena-fernandez	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
+sancho	vicenta-lavina	descendant	descendant of pedro-antonio-lerena by the register's parent and child links
+sancho	vicenta-lerena-vega-2	descendant	descendant of pedro-antonio-lerena by the register's parent and child links
+sancho	zelmira-carlota-lerena-larriera	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
+ramon	alejandro-lerena-2	descendant	descendant of alejandro-lerena by the register's parent and child links
+ramon	antonina-lerena-2	descendant	descendant of alejandro-lerena by the register's parent and child links
+ramon	bernabe-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
+ramon	carlos-rey-lerena-pelaez	descendant	descendant of alejandro-lerena by the register's parent and child links
+ramon	carmen-lerena-pelaez	descendant	descendant of alejandro-lerena by the register's parent and child links
+ramon	cayetano-alberto-fernandez	descendant	descendant of alejandro-lerena by the register's parent and child links
+ramon	cecilia-socorro-fernandez-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
+ramon	cesario-francisco-del-carmen-gonzalez-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
+ramon	corina-francisca-gonzalez-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
+ramon	davilada-carmela-gonzalez-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
+ramon	esperanza-gonzalez	descendant	descendant of alejandro-lerena by the register's parent and child links
+ramon	estefania-gonzalez-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
+ramon	estefania-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
+ramon	eusebio-leonidas-gonzalez-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
+ramon	hipolito-fructuoso-fernandez-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
+ramon	jesus-modesto-del-carmen-fernandez-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
+ramon	juan-bernardo-lerena-pelaez	descendant	descendant of alejandro-lerena by the register's parent and child links
+ramon	juan-ramon-lerena-fernandez	descendant	descendant of alejandro-lerena by the register's parent and child links
+ramon	justina-petronila-teresa-lerena-fernandez	descendant	descendant of alejandro-lerena by the register's parent and child links
+ramon	justino-dorites-del-corazon-de-jesus-lerena-pelaez	descendant	descendant of alejandro-lerena by the register's parent and child links
+ramon	leopoldo-gonzalez-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
+ramon	manuel-indalecio-vaquero	descendant	descendant of alejandro-lerena by the register's parent and child links
+ramon	margarita-medarda-del-corazon-de-jesus-lerena-pelaez	descendant	descendant of alejandro-lerena by the register's parent and child links
+ramon	maria-del-carmen-fernandez-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
+ramon	maria-lerena-6	descendant	descendant of alejandro-lerena by the register's parent and child links
+ramon	maria-lerena-pelaez	descendant	descendant of alejandro-lerena by the register's parent and child links
+ramon	maria-socorro-fernandez-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
+ramon	pablo-vaquero-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
+ramon	paula-modesta-lerena-pelaez	descendant	descendant of alejandro-lerena by the register's parent and child links
+ramon	pilar-florencio-lerena-fernandez	descendant	descendant of alejandro-lerena by the register's parent and child links
+ramon	ramon-fernandez-2	descendant	descendant of alejandro-lerena by the register's parent and child links
+ramon	ramon-maria-fernandez	descendant	descendant of alejandro-lerena by the register's parent and child links
+ramon	segundo-avelino-fernandez-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
+ramon	serapio-fernandez-2	descendant	descendant of alejandro-lerena by the register's parent and child links
+ramon	servando-cecilio-gonzalez-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
+ramon	severa-juliana-lerena-fernandez	descendant	descendant of alejandro-lerena by the register's parent and child links
+ramon	socorro-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
+ramon	ysidro-gregorio-lerena-pelaez	descendant	descendant of alejandro-lerena by the register's parent and child links
+direct	antoinette-septima-lynette-lerena	descendant	descendant of pablo-armando-lerena by the register's parent and child links
+direct	infant-son-lerena	descendant	descendant of pablo-armando-lerena by the register's parent and child links
+direct	nuno-fernando-lerena	descendant	descendant of pablo-armando-lerena by the register's parent and child links
+direct	pierre-frederick-lerena	descendant	descendant of pablo-armando-lerena by the register's parent and child links
+direct	ricardo-juan-carlos-lerena	descendant	descendant of pablo-armando-lerena by the register's parent and child links
+direct	richard-lerena	descendant	descendant of pablo-armando-lerena by the register's parent and child links
+direct	rieta-maria-lerena	descendant	descendant of pablo-armando-lerena by the register's parent and child links
+direct	roque-luis-armando-lerena	descendant	descendant of pablo-armando-lerena by the register's parent and child links

@@ -1,57 +1,471 @@
-[
- {
-  "key": "sancho",
-  "label": "Out of Canelones, into Montevideo",
-  "status": "DOCUMENTED",
-  "colour": "#2f6f7e",
-  "href": "/uruguay/",
-  "read": "The Montevideo house →",
-  "nodes": "Canelones|1791|SANCHO LLERENA AGUILAR marries at the Catedral Nuestra Senora de Guadalupe, 8 January 1791. He could not write: nine years later he deposes as a witness and the judge signs for him.;;Montevideo|1793|His son PEDRO ANTONIO is baptised 31 July 1793 - the house is in the city within two years.;;Cordon|1830|JUSTA PASTORA marries at Nuestra Senora del Carmen; the Cordon is the family's parish for fifty years.;;Cordon|1871|ALEJANDRO MAXIMO x ELISA VILLADEMOROS, 28 December. His mother signs as a witness.;;Union|1880|Two granddaughters baptised on 8 March, naming AVELINO and AMBROSIA TRAIBEL as grandparents.;;San Jose de Mayo|1880|ZELMIRA CARLOTA LERENA LARRIERA is born 4 November, one of the nine children of ALBERTO LERENA and MARIA INES LARRIERA. This archive first set her aside as 'not ours' on 14 September 2026 and retracted that on 21 September: her father's Montevideo death act of 2 March 1921 names his parents as AVELINO LERENA and AMBROSIA TRAIBEL, so she is a great-granddaughter of Sancho.;;Pocitos|1903|MARIA MARGARITA LUISA ZALDUONDO LERENA baptised - the fourth generation in the city.",
-  "ends": "Montevideo;;La Paz in Canelones;;Buenos Aires;;Mercedes",
-  "note": "Sancho's house. Four generations in and around Montevideo, and the only line here whose first document is a marriage rather than an arrival."
- },
- {
-  "key": "ramon",
-  "label": "Out of Rosario del Colla, into Trinidad",
-  "status": "DOCUMENTED",
-  "colour": "#9a6b2f",
-  "href": "/uruguay/#s-trinidad-marriages",
-  "read": "The Trinidad kindred →",
-  "nodes": "Rosario del Colla|1800|RAMON LERENA, Alcalde de la Santa Hermandad del Partido del Rosario, \"en la otra Banda Oriental\", inventories an estate across five weeks and signs his own name.;;Colla|1837|MAURICIO LERENA x CASIMIRA MONTANO marry - the couple the Trinidad kindred descends from.;;San Jose de Mayo|1874|Their daughter FELICIA marries at the Catedral Basilica, 19 December.;;Trinidad|1882|Their son MANUEL marries in April - a second, independent thread from Colla into Flores.;;Trinidad|1889|TWO LERENA SISTERS MARRY TWO CARDOZO BROTHERS ON ONE DAY, 25 April.;;Trinidad|1911|CUSTODIO x EMA CARDOZO, dispensed as double first cousins - the knot those weddings tied.",
-  "ends": "Trinidad, Flores;;Durazno;;Florida;;San Jose",
-  "note": "Ramon's house. The only lane whose earliest document is a man holding office, and the one that folds back on itself by marriage within two generations."
- },
- {
-  "key": "direct",
-  "label": "Rosario de Santa Fe, to the Cape",
-  "status": "THE JOINT IS MISSING",
-  "colour": "#9c3b3b",
-  "href": "/direct-line/",
-  "read": "The direct line →",
-  "nodes": "Rosario de Santa Fe|1882|PABLO ARMANDO LERENA is born 22 February. His baptism has never been found - the cathedral register was read act by act for February and March.;;Buenos Aires|1908|His army enrolment card names his parents: JUAN CARLOS LERENA and MARIA LERENA. Neither has been found in any record anywhere.;;Cape Town|1915|In South Africa he is ROBERT PAUL LERENA.;;Newlands|1950|He dies at Newlands, 19 March.",
-  "ends": "South Africa;;England;;Australia",
-  "note": "This is the line the archive exists for, and it is drawn broken on purpose. Both ends are documented and the middle is not: NO RECORD HAS EVER BEEN FOUND FOR HIS PARENTS, and no lane above has been shown to contain them."
- },
- {
-  "key": "spain",
-  "label": "Out of Spain, into Buenos Aires",
-  "status": "DOCUMENTED",
-  "colour": "#5b5f9e",
-  "href": "/argentina/#s-buenos-aires-fulltext",
-  "read": "The Buenos Aires acts →",
-  "nodes": "Spain|1886|ELOY LERENA born, \"natural de Espana\" on his daughter's baptism.;;Barcelona|1911|GREGORIO and FELISA LERENA sail on the INDIANA, landing 7 December.;;San Jose de Flores|1912|JUANA baptised 10 November, daughter of ELOY and FELISA, BOTH LERENAS, both Spanish-born.;;Bilbao|1923|A FELISA LERENA arrives with four children.;;Logrono|1930|EMILIO LERENA, born 1900, arrives on the CONTE ROSSO.",
-  "ends": "Buenos Aires;;Argentina",
-  "note": "A Spanish stock arriving three times in twenty years. NOT SHOWN TO BE CONNECTED TO ANY URUGUAYAN LANE, and the passenger-list people are NOT merged into the parish ones - the ages are two years out and the roles do not line up."
- },
- {
-  "key": "arturo",
-  "label": "Arturo Lerena Garcia: Spain, Chile, Entre Rios",
-  "status": "DOCUMENTED",
-  "colour": "#4f7a46",
-  "href": "/argentina/#s-arturo-chile",
-  "read": "The Chile file →",
-  "nodes": "Spain|1860s|ARTURO LERENA GARCIA, Spanish, a journalist - and the man who broke this archive's rule that every Cajon 985 father was Uruguayan.;;Valparaiso|1894|His brother JUAN FERNANDO LERENA DIAZ dies there.;;Buenos Aires|1909|The household is at Villa Crespo.;;Parana, Entre Rios|1938|A VICENTE LERENA DIAZ keeps the civil register at Pueblo Brugo - SNIPPET ONLY, the act is not opened.",
-  "ends": "Chile;;Entre Rios;;Buenos Aires",
-  "note": "The only lane that reaches a fourth country. Its last node is a search-result snippet and is drawn as one."
- }
-]
+{
+ "title": "The documented lines of the name Lerena, side by side, with the households not yet placed on any of them",
+ "lanes": [
+  {
+   "key": "sancho",
+   "colour": "#2f6f7e",
+   "label": "Out of Canelones, into Montevideo",
+   "href": "/uruguay/",
+   "read": "The Montevideo house →",
+   "status": "inferred",
+   "statusNote": "origin inferred Andalucía; the town rests on trees only",
+   "span": [
+    1791,
+    1903
+   ],
+   "nodes": [
+    {
+     "place": "Canelones",
+     "year": "1791",
+     "why": "SANCHO LLERENA AGUILAR marries at the Catedral Nuestra Senora de Guadalupe, 8 January 1791. He could not write: nine years later he deposes as a witness and the judge signs for him.",
+     "person": "sancho-llerena-aguilar"
+    },
+    {
+     "place": "Montevideo",
+     "year": "1793",
+     "why": "His son PEDRO ANTONIO is baptised 31 July 1793 - the house is in the city within two years.",
+     "person": "pedro-antonio-lerena"
+    },
+    {
+     "place": "Cordon",
+     "year": "1830",
+     "why": "JUSTA PASTORA marries at Nuestra Senora del Carmen; the Cordon is the family's parish for fifty years.",
+     "person": "justa-pastora-lerena"
+    },
+    {
+     "place": "Cordon",
+     "year": "1871",
+     "why": "ALEJANDRO MAXIMO x ELISA VILLADEMOROS, 28 December. His mother signs as a witness.",
+     "person": "alejandro-m-lerena"
+    },
+    {
+     "place": "Union",
+     "year": "1880",
+     "why": "Two granddaughters baptised on 8 March, naming AVELINO and AMBROSIA TRAIBEL as grandparents."
+    },
+    {
+     "place": "San Jose de Mayo",
+     "year": "1880",
+     "why": "ZELMIRA CARLOTA LERENA LARRIERA is born 4 November, one of the nine children of ALBERTO LERENA and MARIA INES LARRIERA. This archive first set her aside as 'not ours' on 14 September 2026 and retracted that on 21 September: her father's Montevideo death act of 2 March 1921 names his parents as AVELINO LERENA and AMBROSIA TRAIBEL, so she is a great-granddaughter of Sancho.",
+     "person": "zelmira-carlota-lerena-larriera"
+    },
+    {
+     "place": "Pocitos",
+     "year": "1903",
+     "why": "MARIA MARGARITA LUISA ZALDUONDO LERENA baptised - the fourth generation in the city.",
+     "person": "maria-margarita-luisa-zalduondo-lerena"
+    }
+   ],
+   "ends": [
+    [
+     "Montevideo"
+    ],
+    [
+     "La Paz in Canelones"
+    ],
+    [
+     "Buenos Aires"
+    ],
+    [
+     "Mercedes"
+    ]
+   ],
+   "members": [
+    "avelino-lerena-fernandez",
+    "ambrosia-traibel",
+    "dona-maria-fernandez-tresguerras",
+    "alberto-julian-lerena-larriera",
+    "alejandro-joaquin-narciso-lerena-villardemoros",
+    "alejandro-lerena-traibel",
+    "alfredo-justiniano-lerena-traibel",
+    "ana-maria-lerena-razzetti",
+    "ana-rosario-lerena-traibel",
+    "angel-miguel-avelino-lerena-larriera",
+    "angelica-maria-lerena-villademoros",
+    "arturo-lerena",
+    "arturo-mario-lerena-regules",
+    "aurelio-eusebio-barros-lerena",
+    "avelino-lerena-villademoros",
+    "avelino-pedro-joaquin-silvestre-lerena-villademoros",
+    "cora-maria-avelina-lerena-regules",
+    "eduardo-avelino-zalduando-lerena",
+    "eduardo-lerena",
+    "ema-justina-felicia-lerena-regules",
+    "emilia-alberta-lerena-bassani",
+    "emilia-lerena-vega-2",
+    "emma-lerena-regules",
+    "hector-narciso-lerena-bassani",
+    "hilario-barros-llerena",
+    "irma-antonia-lerena-fernandez",
+    "jacinta-mercedes-gregoria-lerena-villademoros",
+    "josefa-lerena-traibel",
+    "juan-arturo-lerena-traibel",
+    "juan-pedro-olivera-lerena",
+    "leonarda-margarita-lerena-vega",
+    "manuela-lavina",
+    "maria-adelina-lerena-larriera",
+    "maria-adelina-lerena-traibel",
+    "maria-antonieta-lerena-larriera",
+    "maria-carlota-moratorio-lerena",
+    "maria-consuelo-lerena-larriera",
+    "maria-de-las-mercedes-moratorio-lerena",
+    "maria-ines-lerena-larriera",
+    "mercedes-micaela-lerena-traibel",
+    "pedro-alberto-ysabelino-lerena-traibel",
+    "pedro-gualberto-lerena-villademoros",
+    "pedro-lerena-vega-2",
+    "pedro-ricardo-lerena-fernandez",
+    "pedro-segundo-lerena-villademoros",
+    "ramon-paulino-olivera-lerena",
+    "roberto-ambrosio-lerena-regules",
+    "sara-esmeralda-lerena-fernandez",
+    "vicenta-lavina",
+    "vicenta-lerena-vega-2"
+   ]
+  },
+  {
+   "key": "ramon",
+   "colour": "#9a6b2f",
+   "label": "Out of Rosario del Colla, into Trinidad",
+   "href": "/uruguay/#s-trinidad-marriages",
+   "read": "The Trinidad kindred →",
+   "status": "inferred",
+   "statusNote": "origin inferred: natural de Madrid on a son's 1816 baptism",
+   "span": [
+    1800,
+    1911
+   ],
+   "nodes": [
+    {
+     "place": "Rosario del Colla",
+     "year": "1800",
+     "why": "RAMON LERENA, Alcalde de la Santa Hermandad del Partido del Rosario, \"en la otra Banda Oriental\", inventories an estate across five weeks and signs his own name.",
+     "person": "ramon-lerena-2"
+    },
+    {
+     "place": "Colla",
+     "year": "1837",
+     "why": "MAURICIO LERENA x CASIMIRA MONTANO marry - the couple the Trinidad kindred descends from.",
+     "person": "mauricio-lerena"
+    },
+    {
+     "place": "San Jose de Mayo",
+     "year": "1874",
+     "why": "Their daughter FELICIA marries at the Catedral Basilica, 19 December.",
+     "person": "felicia-lerena"
+    },
+    {
+     "place": "Trinidad",
+     "year": "1882",
+     "why": "Their son MANUEL marries in April - a second, independent thread from Colla into Flores.",
+     "person": "manuel-lerena"
+    },
+    {
+     "place": "Trinidad",
+     "year": "1889",
+     "why": "TWO LERENA SISTERS MARRY TWO CARDOZO BROTHERS ON ONE DAY, 25 April."
+    },
+    {
+     "place": "Trinidad",
+     "year": "1911",
+     "why": "CUSTODIO x EMA CARDOZO, dispensed as double first cousins - the knot those weddings tied.",
+     "person": "custodio-lerena"
+    }
+   ],
+   "ends": [
+    [
+     "Trinidad, Flores"
+    ],
+    [
+     "Durazno"
+    ],
+    [
+     "Florida"
+    ],
+    [
+     "San Jose"
+    ]
+   ],
+   "members": [
+    "alejandro-lerena",
+    "eusebio-congenio-lerena-gonzalez",
+    "maria-josefa-gonzalez",
+    "alejandro-lerena-2",
+    "antonina-lerena-2",
+    "bernabe-lerena",
+    "carlos-rey-lerena-pelaez",
+    "carmen-lerena-pelaez",
+    "cayetano-alberto-fernandez",
+    "cecilia-socorro-fernandez-lerena",
+    "cesario-francisco-del-carmen-gonzalez-lerena",
+    "corina-francisca-gonzalez-lerena",
+    "davilada-carmela-gonzalez-lerena",
+    "esperanza-gonzalez",
+    "estefania-gonzalez-lerena",
+    "estefania-lerena",
+    "eusebio-leonidas-gonzalez-lerena",
+    "hipolito-fructuoso-fernandez-lerena",
+    "jesus-modesto-del-carmen-fernandez-lerena",
+    "juan-bernardo-lerena-pelaez",
+    "juan-ramon-lerena-fernandez",
+    "justina-petronila-teresa-lerena-fernandez",
+    "justino-dorites-del-corazon-de-jesus-lerena-pelaez",
+    "leopoldo-gonzalez-lerena",
+    "manuel-indalecio-vaquero",
+    "margarita-medarda-del-corazon-de-jesus-lerena-pelaez",
+    "maria-del-carmen-fernandez-lerena",
+    "maria-lerena-6",
+    "maria-lerena-pelaez",
+    "maria-socorro-fernandez-lerena",
+    "pablo-vaquero-lerena",
+    "paula-modesta-lerena-pelaez",
+    "pilar-florencio-lerena-fernandez",
+    "ramon-fernandez-2",
+    "ramon-maria-fernandez",
+    "segundo-avelino-fernandez-lerena",
+    "serapio-fernandez-2",
+    "servando-cecilio-gonzalez-lerena",
+    "severa-juliana-lerena-fernandez",
+    "socorro-lerena",
+    "ysidro-gregorio-lerena-pelaez"
+   ]
+  },
+  {
+   "key": "direct",
+   "colour": "#9c3b3b",
+   "label": "Rosario de Santa Fe, to the Cape",
+   "href": "/direct-line/",
+   "read": "The direct line →",
+   "status": "origin-unknown",
+   "statusNote": "origin not found: the joint is missing, his parents are on one card only",
+   "span": [
+    1882,
+    1950
+   ],
+   "nodes": [
+    {
+     "place": "Rosario de Santa Fe",
+     "year": "1882",
+     "why": "PABLO ARMANDO LERENA is born 22 February. His baptism has never been found - the cathedral register was read act by act for February and March.",
+     "person": "pablo-armando-lerena"
+    },
+    {
+     "place": "Buenos Aires",
+     "year": "1908",
+     "why": "His army enrolment card names his parents: JUAN CARLOS LERENA and MARIA LERENA. Neither has been found in any record anywhere."
+    },
+    {
+     "place": "Cape Town",
+     "year": "1915",
+     "why": "In South Africa he is ROBERT PAUL LERENA."
+    },
+    {
+     "place": "Newlands",
+     "year": "1950",
+     "why": "He dies at Newlands, 19 March."
+    }
+   ],
+   "ends": [
+    [
+     "South Africa"
+    ],
+    [
+     "England"
+    ],
+    [
+     "Australia"
+    ]
+   ],
+   "members": [
+    "antoinette-septima-lynette-lerena",
+    "infant-son-lerena",
+    "nuno-fernando-lerena",
+    "pierre-frederick-lerena",
+    "ricardo-juan-carlos-lerena",
+    "richard-lerena",
+    "rieta-maria-lerena",
+    "roque-luis-armando-lerena"
+   ]
+  },
+  {
+   "key": "spain",
+   "colour": "#5b5f9e",
+   "label": "Out of Spain, into Buenos Aires",
+   "href": "/argentina/#s-buenos-aires-fulltext",
+   "read": "The Buenos Aires acts →",
+   "status": "documented",
+   "statusNote": "three arrivals, not shown to be connected",
+   "span": [
+    1911,
+    1930
+   ],
+   "nodes": [
+    {
+     "place": "Spain",
+     "year": "1886",
+     "why": "ELOY LERENA born, \"natural de Espana\" on his daughter's baptism.",
+     "person": "eloy-lerena",
+     "evidence": "inferred"
+    },
+    {
+     "place": "Barcelona",
+     "year": "1911",
+     "why": "GREGORIO and FELISA LERENA sail on the INDIANA, landing 7 December."
+    },
+    {
+     "place": "San Jose de Flores",
+     "year": "1912",
+     "why": "JUANA baptised 10 November, daughter of ELOY and FELISA, BOTH LERENAS, both Spanish-born.",
+     "person": "juana-lerena"
+    },
+    {
+     "place": "Bilbao",
+     "year": "1923",
+     "why": "A FELISA LERENA arrives with four children.",
+     "person": "felisa-lerena-2"
+    },
+    {
+     "place": "Logrono",
+     "year": "1930",
+     "why": "EMILIO LERENA, born 1900, arrives on the CONTE ROSSO.",
+     "person": "emilio-lerena"
+    }
+   ],
+   "ends": [
+    [
+     "Buenos Aires"
+    ],
+    [
+     "Argentina"
+    ]
+   ]
+  },
+  {
+   "key": "arturo",
+   "colour": "#4f7a46",
+   "label": "Arturo Lerena Garcia: Spain, Chile, Entre Rios",
+   "href": "/argentina/#s-arturo-chile",
+   "read": "The Chile file →",
+   "status": "origin-unknown",
+   "statusNote": "origin not found: Spanish, a journalist, where in Spain is unknown",
+   "span": [
+    1894,
+    1909
+   ],
+   "nodes": [
+    {
+     "place": "Spain",
+     "year": "1860s",
+     "why": "ARTURO LERENA GARCIA, Spanish, a journalist - and the man who broke this archive's rule that every Cajon 985 father was Uruguayan.",
+     "person": "arturo-lerena-garcia",
+     "evidence": "inferred"
+    },
+    {
+     "place": "Valparaiso",
+     "year": "1894",
+     "why": "His ten-month-old son JUAN FERNANDO LERENA DIAZ dies there (the Valparaiso death act names his parents ARTURO LERENA GARCIA and AMALIA DIAZ).",
+     "person": "juan-fernando-lerena-diaz"
+    },
+    {
+     "place": "Buenos Aires",
+     "year": "1909",
+     "why": "The household is at Villa Crespo."
+    },
+    {
+     "place": "Parana, Entre Rios",
+     "year": "1938",
+     "why": "A VICENTE LERENA DIAZ keeps the civil register at Pueblo Brugo - SNIPPET ONLY, the act is not opened.",
+     "person": "vicente-lerena-diaz",
+     "evidence": "indexed"
+    }
+   ],
+   "ends": [
+    [
+     "Chile"
+    ],
+    [
+     "Entre Rios"
+    ],
+    [
+     "Buenos Aires"
+    ]
+   ],
+   "members": [
+    "amalia-diaz"
+   ]
+  }
+ ],
+ "pens": [
+  {
+   "id": "not-yet-placed",
+   "kind": "not-yet-placed",
+   "head": "Real households of the name — on none of these lines",
+   "note": "Real, documented households of the name that this archive has read and not joined to any line above. They sit below the rule so that the picture cannot imply that everything has been placed. What would move one onto a line is a document that names its parents, or an act that ties it to a household already drawn.",
+   "items": [
+    [
+     "JUAN CARLOS LERENA and MARIA LERENA — named at Buenos Aires, 1908",
+     "/enrolment-card/",
+     "*** THE TWO THIS ARCHIVE EXISTS TO FIND, and the reason the red lane is drawn broken. *** They are named as the parents on Pablo Armando's army enrolment card and appear in NO OTHER RECORD ANYWHERE - not in Rosario, not in Montevideo, not in the full-text corpus. Every lane above is a candidate and none has been shown to hold them."
+    ],
+    [
+     "The LARENA of Cayasta and Gualeguaychu — Santa Fe and Entre Rios, 1837-1913",
+     "/name/#s-variants",
+     "Fourteen people in the register under the A-spelling (three of them wives of a Larena), in the two Argentine provinces either side of the Parana. *** THE SPELLING IS NOT THE PROBLEM - this archive has catalogued LERENA read as SERENA, LORENA, LESINA and six more. *** What is missing is any document joining them to a Uruguayan house."
+    ],
+    [
+     "CARLOS LERENA of Mendoza — Mendoza, 1900-1904",
+     "/argentina/#s-mendoza-carlos",
+     "Married ADELA CAMIGLIA; a son AVELINO CARLOS born 1904. *** The forename AVELINO is the one that runs through Sancho's house ***, which is suggestive and is not evidence. Worked in September and not joined."
+    ],
+    [
+     "The LERENA of Trinidad with no father named — Trinidad, Flores, 1895-1918",
+     "/people/cayetana-faustina-lerena/",
+     "CAYETANA FAUSTINA, whose son Luis was registered in 1895 with no father on the act; RODOLFO BERNARDO and ISMAEL, each a father who appears once. *** Real people on real acts, attached to nobody. ***"
+    ],
+    [
+     "BENITO LERENA and MARIA CRISTINA — San Eugenio, Artigas, Uruguay, 1899",
+     "/uruguay/#s-artigas",
+     "*** A Lerena household on the Brazilian border, found 12 October 2026 and not on any lane. *** Benito, b. about 1854, Oriental, a jornalero who could not sign his name; his wife Maria Cristina, b. about 1856, Brazilian, given no surname by the act; their daughter Anastasia LERENA, b. about 1877, married to the Brazilian soldier Honorio ALVAREZ. Artigas is a department this archive has never worked, and a family of the name sitting on the Brazil frontier with Brazilian-born children is a shape nothing here predicts. *** Found only because a LERENA father was asked against a SERENA mother - and the act turns out to say Lerena both times. ***"
+    ],
+    [
+     "PEDRO LERENA and JUANA CAMACHO — Jesus Maria and Mal Abrigo, San Jose, Uruguay, 1910",
+     "/people/pedro-lerena/",
+     "*** An Italian-born Lerena in the department this archive rests an 1846 couple on. *** Pedro, b. about 1842 in Italy, a labrador; Juana Camacho, b. about 1853, Oriental; their daughter Ramona LERENA, b. about 1886, who registered a natural daughter Antonina at Mal Abrigo in September 1910 with the father's line left as se ignora. *** Kept here rather than on a lane, and kept as UNPLACED rather than as a namesake, because the honest position is that this archive cannot yet tell which stock he belongs to - which is itself the finding. *** /name/ separates an Italian Lerena/Lerina stock from this family; it has always been able to do that by country, and this act is the case where country does not decide."
+    ],
+    [
+     "LEANDRO LERENA and LUCIA LLANOS — Buenos Aires, 1895-1896",
+     "/argentina/#s-leandro-llanos",
+     "*** THE HOUSEHOLD THIS ARCHIVE PUBLISHED AS A TRUE NULL, AND IT WAS NEVER ONE. *** Leandro, born about 1854-57 at SEGOVIA, an oil maker, literate; his wife Lucia Llanos; children Emilia (b. Spain c.1886), Francisco (b. La Plata c.1890), Paulina (b. 1895) and, on the baptism of San Cristobal on 20 December 1896, SALVADOR - the son whose army card spells the surname LORENA. Living at Calle Pichincha 929. *** A FOURTH SPANISH ARRIVAL beside the three the Spain lane already draws, and NOT SHOWN TO BE CONNECTED TO ANY OF THEM. *** Segovia is also outside the one Spanish cluster this archive can point to - La Rioja, at 39.6 times the national rate - which makes kinship with the Navarrete household less likely, not more. See /argentina/#s-leandro-llanos."
+    ]
+   ]
+  },
+  {
+   "id": "different-stock",
+   "kind": "different-stock",
+   "head": "A different stock of the same name — kept apart on purpose",
+   "note": "Names that look like this one and are kept apart on purpose: found while searching, recorded so that nobody has to discover them twice. No connection is claimed between any of them and any line above.",
+   "items": [
+    [
+     "LERINA — Italy, arrived 1889",
+     "/name/#s-italy",
+     "Four people, arrived together in 1889 - Anna, Annunziata, Laurensa, Savina. *** An Italian name that is not a spelling of this one ***, kept in the register so that nobody has to discover them twice. (The register also holds two Italian arrivals written LERENA, Domenico in 1910 and Paolo in 1913, who are unplaced and not excluded.)"
+    ],
+    [
+     "LERENA of Arequipa — Peru, 1797-1825",
+     "/searched/",
+     "Felipa, Pedro and Isidoro Lerena in the parish marriages of Chuquibamba, Condesuyos. *** Found while searching the full-text corpus and recorded because a rare name in a far place is exactly what a careless session would merge. ***"
+    ],
+    [
+     "LERRENA — Colombia",
+     "/name/#s-variants",
+     "One full-text hit in the Colombian Catholic records. *** Not pursued and not ours. ***"
+    ],
+    [
+     "The LERENA y LERENA of Navarrete — Logrono, Spain and Buenos Aires, 1900-1930",
+     "/name/#s-navarrete",
+     "*** A WHOLE HOUSEHOLD WHO CARRY THE NAME TWICE, and the most useful namesake on this page. *** ISABELA LERENA y BASARAN, widow, of Navarrete in La Rioja; her sons JOSE DOLORES, married and the propietario at home, and PRUDENCIO BENITO and JUAN JOSE, bachelors and shop-assistants in Buenos Aires, who in November 1900 signed a power of attorney at the Spanish consulate putting the Spanish property in their mother's hands. *** WHY IT IS DRAWN HERE AND NOT ON A LANE: *** they are Spanish subjects out of Logrono, and the first two lanes above are Banda Oriental stock documented from the 1790s; the other three begin at Rosario, in Spain and in Spain, and no connection is claimed between this household and any of them. *** WHY IT IS DRAWN AT ALL: *** Pablo Armando's enrolment card names a JUAN CARLOS LERENA and a MARIA LERENA, and the easiest way to dismiss that card is to call the repeated surname a clerk's slip. *** AND THEY ARE THE SIXTH SUCH COUPLE THIS ARCHIVE HAS MET, NOT THE FIRST - a correction to what was written here first. *** The two Trinidad couples of 1894 and 1913, the 1911 dispensation, Alejandro, and Eloy x Felisa Lerena at San Jose de Flores in 1912 all came before them. *** SO THE CARD'S DOUBLE SURNAME WAS NEVER IN REAL DOUBT, AND NAVARRETE DOES NOT RESCUE IT. *** What Navarrete adds is different and smaller: it is the *** FIRST SUCH HOUSEHOLD OUTSIDE SOUTH AMERICA ***, the *** FIRST WHERE THE CHILDREN CARRY IT DOUBLED AS A SURNAME OF RECORD *** - 'Lerena y Lerena', in their own signatures, not just a coincidence of two parents - and the *** FIRST TIME THE PRACTICE HAS A PLACE ON A MAP *** that can be searched. It does not make them his - no connection is claimed, and the CEMLA arrivals suggest a steady traffic of young Riojan Lerena men into Buenos Aires shops that has nothing to do with Rosario de Santa Fe in 1882."
+    ]
+   ]
+  }
+ ]
+}
