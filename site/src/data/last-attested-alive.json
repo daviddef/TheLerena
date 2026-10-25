@@ -5712,6 +5712,27 @@
   "tier": "ALIVE AT"
  },
  {
+  "name": "Eugenio LERENA Fernandez (b. 1844, Trinidad)",
+  "born_est": "1844-03-26",
+  "last_attested_alive": "1844-03-26",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Juan Crisostomo FERNANDEZ Gonzalez (b. 1844, Trinidad)",
+  "born_est": "1844-01-27",
+  "last_attested_alive": "1844-Jan-30",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Margarita Antonia FERNANDEZ Gonzalez (b. 1847, Trinidad)",
+  "born_est": "1847-06-13",
+  "last_attested_alive": "1847-Jun-18",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
   "name": "Isabel LERENA (sister of Alejandro, m. Francisco, mother of Juana Antonia 1840)",
   "born_est": "-",
   "last_attested_alive": "1840-May-11",

@@ -2972,5 +2972,27 @@
    "machine-transcript"
   ],
   "note": "FOUND: Natalia Isidora, born 15 May 1834, baptised at San Jose between late May and 9 July 1834 (entry no. 825), daughter of Alexandro 'Ledena' [Lerena] and Margarita Fernandez Alvarez, paternal grandparents Ramon and Maria Josefa Gonzalez, godparents Jose Bruno Larriera and Josefa Morales - in the volume May 1828 - January 1836, which the machine-index scan of film 008143327 (images 22-235, 17-18 October) had read and missed because the surname is spelt 'Ledena'. SUPERSEDES the 'Natalia's baptism NOT FOUND ... could be in the 1841 volume' lines of the entry above and the 'Natalia (born by 1841)' and 'sixth child between Bernabe and Natalia' wording of the register rows, now corrected. LESSON: a Lerena-like regex for these volumes must include 'Ledena', 'Lezama' and 'Lerma'; other children of the family in 1828-1836 may have been missed the same way. WAYPOINT NOT ESTABLISHED."
+ },
+ {
+  "src": "FamilySearch, Santisima Trinidad Baptism Records January 1843 - March 1848 (item of 43 images, ark 3:1:3Q9M-CS27-F3H8-Y), every image read by machine transcript with a spelling-tolerant search (Ledena, Herena, Lezama, Lerma, Serena, Reyes Gonzalez, Margarita Fernandez, Manuel Fernandez, Sotura)",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS27-F3H8-Y",
+  "waypoint": null,
+  "what": "Where Alejandro Lerena's family was between San Jose (to 1840) and Trinidad (1850s), and the children of those years",
+  "when": "2026-10-19",
+  "outcome": "yield",
+  "pages": "images 1-43 (all)",
+  "walked": true,
+  "tags": [
+   "lerena",
+   "fernandez",
+   "trinidad",
+   "flores",
+   "uruguay",
+   "familysearch",
+   "baptism",
+   "machine-transcript",
+   "viewer-scan"
+  ],
+  "note": "WALKED: all 43 images, so this volume is done for those spellings (garbling in the transcript is a limit). FOUND: the family at Trinidad by April 1843; Eugenio, born 26 March 1844, a child of Alejandro and Margarita (the eighth known of nine); Juan Crisostomo (27 Jan 1844) and Margarita Antonia (13 June 1847), children of Manuel Fernandez and Maria de los Reyes Gonzalez; 'Mariquita Elerena' godmother in 1844 (probably Maria). The surnames written 'Herena' and 'Ledena' are why the earlier machine-index scans of film 008143327 (San Jose, 1828-1836) and film 008163892 (Trinidad, 1848-1857) may have missed children: those two volumes could be re-read with the wider spelling set. WAYPOINT NOT ESTABLISHED."
  }
 ]

@@ -5,6 +5,11 @@
    "date": "2026-10-25",
    "commits": [
     {
+     "sha": "b6de33a",
+     "subject": "Natalia Lerena's own baptism: born 15 May 1834 at San Jose, the fifth child of Alejandro and Margarita",
+     "body": "Found by a full-text search with the San Jose place filter in the volume May 1828 - January 1836 (entry no. 825): 'Natalia Isidora que nacio el quince de Mayo del presente ano, hija legitima de Don Alexandro Ledena y Dona Margarita Fernandez Alvarez; abuelos paternos Ramon y Maria Josefa Gonzalez; padrinos Don Jose Bruno Larriera y su esposa Josefa Morales'. The earlier machine-index scan of that volume missed her because the surname is written 'Ledena'. The 'not found' and 'born by 1841' statements of the previous commits are corrected. Machine transcript; plate not opened. All gates pass."
+    },
+    {
      "sha": "80b04d8",
      "subject": "Catherine Mary Sophia Booyzen was born in 1929 (David confirmed): the Spine page's 1924 corrected, and the resolved conflict note removed from the story",
      "body": ""
