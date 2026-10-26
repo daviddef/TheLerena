@@ -7820,6 +7820,13 @@
     "note": "Stated in this person's own register note; wired 21 September 2026. Source: Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 202"
    },
    {
+    "name": "Luisa LERENA Beloqui (b. c.1884, m. Buenaventura Olivera 1906)",
+    "dates": "",
+    "slug": "luisa-lerena-beloqui",
+    "via": "register",
+    "note": "Trinidad marriage entries of 5 January and 1 March 1906 (machine transcripts, 26 Oct 2026)."
+   },
+   {
     "name": "Maria Leonor LERENA Beloqui",
     "dates": "",
     "slug": "maria-leonor-lerena-beloqui",
@@ -7839,8 +7846,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 10,
-  "relRegister": 10,
+  "relTotal": 11,
+  "relRegister": 11,
   "relTree": 0,
   "evidence": [
    {
@@ -7926,6 +7933,13 @@
     "note": "Trinidad baptism of 5 December 1878 (machine transcript, 26 Oct 2026)."
    },
    {
+    "name": "Luisa LERENA Beloqui (b. c.1884, m. Buenaventura Olivera 1906)",
+    "dates": "",
+    "slug": "luisa-lerena-beloqui",
+    "via": "register",
+    "note": "Trinidad marriage entries of 5 January and 1 March 1906 (machine transcripts, 26 Oct 2026)."
+   },
+   {
     "name": "Viviano Eliseo LERENA Beloqui (b. 1880, d. 1912)",
     "dates": "",
     "slug": "viviano-eliseo-lerena-beloqui",
@@ -7938,8 +7952,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 7,
-  "relRegister": 7,
+  "relTotal": 8,
+  "relRegister": 8,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -8022,6 +8036,12 @@
     "name": "Lauriana LERENA Beloqui",
     "dates": "",
     "slug": "lauriana-lerena-beloqui",
+    "via": "register"
+   },
+   {
+    "name": "Luisa LERENA Beloqui (b. c.1884, m. Buenaventura Olivera 1906)",
+    "dates": "",
+    "slug": "luisa-lerena-beloqui",
     "via": "register"
    },
    {
@@ -8134,6 +8154,12 @@
     "via": "register"
    },
    {
+    "name": "Luisa LERENA Beloqui (b. c.1884, m. Buenaventura Olivera 1906)",
+    "dates": "",
+    "slug": "luisa-lerena-beloqui",
+    "via": "register"
+   },
+   {
     "name": "Maria Leonor LERENA Beloqui",
     "dates": "",
     "slug": "maria-leonor-lerena-beloqui",
@@ -8228,6 +8254,12 @@
     "name": "Lauriana LERENA Beloqui",
     "dates": "",
     "slug": "lauriana-lerena-beloqui",
+    "via": "register"
+   },
+   {
+    "name": "Luisa LERENA Beloqui (b. c.1884, m. Buenaventura Olivera 1906)",
+    "dates": "",
+    "slug": "luisa-lerena-beloqui",
     "via": "register"
    },
    {
@@ -8334,6 +8366,12 @@
     "via": "register"
    },
    {
+    "name": "Luisa LERENA Beloqui (b. c.1884, m. Buenaventura Olivera 1906)",
+    "dates": "",
+    "slug": "luisa-lerena-beloqui",
+    "via": "register"
+   },
+   {
     "name": "Maria Leonor LERENA Beloqui",
     "dates": "",
     "slug": "maria-leonor-lerena-beloqui",
@@ -8434,6 +8472,12 @@
     "name": "Lauriana LERENA Beloqui",
     "dates": "",
     "slug": "lauriana-lerena-beloqui",
+    "via": "register"
+   },
+   {
+    "name": "Luisa LERENA Beloqui (b. c.1884, m. Buenaventura Olivera 1906)",
+    "dates": "",
+    "slug": "luisa-lerena-beloqui",
     "via": "register"
    },
    {
@@ -9518,10 +9562,10 @@
   "nationality": "Uruguayan",
   "occupation": "-",
   "where": "Trinidad, Flores",
-  "source": "Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 2026",
+  "source": "Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 2026; and Santisima Trinidad, Religious Marriage Records July 1898 - December 1912 (images 94-95 of the item, arks 3:1:3Q9M-CS27-VYH9 and 3:1:3Q9M-CS27-VY8M), the entries of 5 January and 1 March 1906 - *** MACHINE TRANSCRIPT, THE PLATE NOT OPENED *** 26 October 2026, found by FULL-TEXT search for 'Cipriano Lerena'",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "Child of Cipriano Lerena and Lauriana Beloqui, baptised or registered at Trinidad, Flores. Part of the Trinidad kindred - the densest concentration of the surname on earth. Not ours: there is no Pablo and no Armando in the whole set.",
+  "note": "Child of Cipriano Lerena and Lauriana Beloqui, baptised or registered at Trinidad, Flores. Part of the Trinidad kindred - the densest concentration of the surname on earth. Not ours: there is no Pablo and no Armando in the whole set. *** HIS MARRIAGE, 5 JANUARY 1906, 26 October 2026: *** 'Don Doroteo Donato Lerena, oriental, soltero de treinta anos de edad, hijo legitimo de Cipriano Lerena y de Laureana Belloqui, con Dona Valentina Sena, oriental, soltera de veinte y cinco anos, hija legitima de Gervasio Sena, fallecido, y de Asuncion Segovia' - at thirty, so born December 1875, which the baptism-index date of 12 December 1875 confirms.",
   "place": "Trinidad, Flores",
   "placeSlug": "trinidad-flores",
   "surname": "LERENA",
@@ -9538,7 +9582,15 @@
    "note": "Stated in this person's own register note; wired 21 September 2026. Source: Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 202"
   },
   "mother": null,
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Valentina SENA (m. Doroteo Donato Lerena)",
+    "dates": "",
+    "slug": "valentina-sena",
+    "via": "register",
+    "note": "Trinidad marriage entries of 5 January and 1 March 1906 (machine transcripts, 26 Oct 2026)."
+   }
+  ],
   "children": [],
   "siblings": [
    {
@@ -9584,6 +9636,12 @@
     "via": "register"
    },
    {
+    "name": "Luisa LERENA Beloqui (b. c.1884, m. Buenaventura Olivera 1906)",
+    "dates": "",
+    "slug": "luisa-lerena-beloqui",
+    "via": "register"
+   },
+   {
     "name": "Maria Leonor LERENA Beloqui",
     "dates": "",
     "slug": "maria-leonor-lerena-beloqui",
@@ -9600,8 +9658,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 1,
-  "relRegister": 1,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -9695,6 +9753,12 @@
     "via": "register"
    },
    {
+    "name": "Luisa LERENA Beloqui (b. c.1884, m. Buenaventura Olivera 1906)",
+    "dates": "",
+    "slug": "luisa-lerena-beloqui",
+    "via": "register"
+   },
+   {
     "name": "Viviano Eliseo LERENA Beloqui (b. 1880, d. 1912)",
     "dates": "",
     "slug": "viviano-eliseo-lerena-beloqui",
@@ -9783,6 +9847,12 @@
     "name": "Juan Cipriano LERENA Beloqui (b. 1878, Trinidad)",
     "dates": "",
     "slug": "juan-cipriano-lerena-beloqui",
+    "via": "register"
+   },
+   {
+    "name": "Luisa LERENA Beloqui (b. c.1884, m. Buenaventura Olivera 1906)",
+    "dates": "",
+    "slug": "luisa-lerena-beloqui",
     "via": "register"
    },
    {
@@ -36810,7 +36880,7 @@
   "source": "FamilySearch RECORD INDEX - exact-surname sweep SERENA + place FLORES, URUGUAY, 290 results, first 100 read 12 October 2026 - *** INDEX-LEVEL, NO ACT OPENED ***",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "*** A DAUGHTER OF PEDRO GUALBERTO LERENA VILLADEMOROS AND ROSAURA ALVAREZ ***, both already in this register - the index writes her father 'Gualberto Lorenay'. She married *** CLEMENTE BUENO *** at Trinidad on *** 15 March 1915 ***. *** SHE IS A SISTER OF ALEJANDRO ESTEBAN LERENA ALVAREZ ***, the only child of that couple this archive held. *** AND SHE IS ALMOST CERTAINLY THE 'LUISA SERENA' who stood godmother at Trinidad between 1901 and 1904 *** and the LUISA SERENA whose son RAMON PAULINO was christened in 1908 - *** NONE OF THOSE ARE MERGED HERE. *** *** INDEX-LEVEL. ***",
+  "note": "*** A DAUGHTER OF PEDRO GUALBERTO LERENA VILLADEMOROS AND ROSAURA ALVAREZ ***, both already in this register - the index writes her father 'Gualberto Lorenay'. She married *** CLEMENTE BUENO *** at Trinidad on *** 15 March 1915 ***. *** SHE IS A SISTER OF ALEJANDRO ESTEBAN LERENA ALVAREZ ***, the only child of that couple this archive held. *** AND SHE IS ALMOST CERTAINLY THE 'LUISA SERENA' who stood godmother at Trinidad between 1901 and 1904 *** and the LUISA SERENA whose son RAMON PAULINO was christened in 1908 - *** NONE OF THOSE ARE MERGED HERE. *** *** INDEX-LEVEL. *** *** CORRECTED 26 October 2026: *** this row said she was the daughter of Pedro Gualberto Lerena Villademoros and Rosaura Alvarez and 'almost certainly' the Luisa Serena whose son Ramon Paulino was christened in 1908. Both claims are withdrawn. HER FATHER IS GUALBERTO LERENA (m. Rosaura Alvarez), a son of Alejandro the younger and Severa Fernandez, who married Rosaura on 25 June 1885 - not Pedro Gualberto Villademoros, born at Montevideo in 1869 - and the Luisa of the Olivera children is Luisa Lerena Beloqui, Cipriano's daughter, who married Buenaventura Olivera in 1906.",
   "place": "Trinidad, Flores",
   "placeSlug": "trinidad-flores",
   "surname": "LERENA",
@@ -36842,22 +36912,7 @@
     "note": "Named together in the index entry. SERENA + Flores sweep, FamilySearch record index, 12 October 2026 - index-level, no act opened."
    }
   ],
-  "children": [
-   {
-    "name": "Juan Pedro OLIVERA Lerena (b.1909)",
-    "dates": "",
-    "slug": "juan-pedro-olivera-lerena",
-    "via": "register",
-    "note": "Named as the mother in the same entry. PERENA/GERENA/LLERENA spelling sweeps of Flores, FamilySearch record index, 12 October 2026 - index-level."
-   },
-   {
-    "name": "Ramon Paulino OLIVERA Lerena (b.1908)",
-    "dates": "",
-    "slug": "ramon-paulino-olivera-lerena",
-    "via": "register",
-    "note": "Named as the mother in the index entry. SERENA + Flores sweep, FamilySearch record index, 12 October 2026 - index-level, no act opened."
-   }
-  ],
+  "children": [],
   "siblings": [
    {
     "name": "Alejandro Esteban LERENA Alvarez",
@@ -36876,8 +36931,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 5,
-  "relRegister": 5,
+  "relTotal": 3,
+  "relRegister": 3,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -36938,7 +36993,7 @@
   "source": "FamilySearch RECORD INDEX - exact-surname sweep SERENA + place FLORES, URUGUAY, 290 results, first 100 read 12 October 2026 - *** INDEX-LEVEL, NO ACT OPENED ***",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "*** Born 10 April 1908 and christened at Santisima Trinidad on 4 November 1908 ***, son of *** BUENAVENTURA OLIVERA *** - the index reads 'Buenaventura Olinievera' - and *** LUISA SERENA ***. *** IF THAT LUISA IS THE ONE WHO MARRIED CLEMENTE BUENO IN 1915, THIS CHILD IS SEVEN YEARS EARLIER AND BY A DIFFERENT MAN *** - which is possible and is not asserted. *** INDEX-LEVEL. ***",
+  "note": "*** Born 10 April 1908 and christened at Santisima Trinidad on 4 November 1908 ***, son of *** BUENAVENTURA OLIVERA *** - the index reads 'Buenaventura Olinievera' - and *** LUISA SERENA ***. *** IF THAT LUISA IS THE ONE WHO MARRIED CLEMENTE BUENO IN 1915, THIS CHILD IS SEVEN YEARS EARLIER AND BY A DIFFERENT MAN *** - which is possible and is not asserted. *** INDEX-LEVEL. *** *** CORRECTED 26 October 2026: *** their mother is LUISA LERENA BELOQUI, daughter of Cipriano Lerena and Lauriana Beloqui, who married Buenaventura Olivera on 1 March 1906 - not Luisa Lerena Alvarez, to whom this row had pointed with an 'if'.",
   "place": "Trinidad, Flores",
   "placeSlug": "trinidad-flores",
   "surname": "OLIVERA",
@@ -36955,11 +37010,11 @@
    "note": "Named as the father in the index entry. SERENA + Flores sweep, FamilySearch record index, 12 October 2026 - index-level, no act opened."
   },
   "mother": {
-   "name": "Luisa LERENA Alvarez (m. Clemente Bueno 1915)",
+   "name": "Luisa LERENA Beloqui (b. c.1884, m. Buenaventura Olivera 1906)",
    "dates": "",
-   "slug": "luisa-lerena-alvarez",
+   "slug": "luisa-lerena-beloqui",
    "via": "register",
-   "note": "Named as the mother in the index entry. SERENA + Flores sweep, FamilySearch record index, 12 October 2026 - index-level, no act opened."
+   "note": "Trinidad marriage entries of 5 January and 1 March 1906 (machine transcripts, 26 Oct 2026)."
   },
   "spouses": [],
   "children": [],
@@ -37375,10 +37430,10 @@
   "nationality": "Uruguayan",
   "occupation": "-",
   "where": "Trinidad, Flores",
-  "source": "FamilySearch RECORD INDEX - exact-surname sweep SERENA + place FLORES, URUGUAY, 12 October 2026 - *** INDEX-LEVEL, NO ACT OPENED ***",
+  "source": "FamilySearch RECORD INDEX - exact-surname sweep SERENA + place FLORES, URUGUAY, 12 October 2026 - *** INDEX-LEVEL, NO ACT OPENED ***; and Santisima Trinidad, Religious Marriage Records July 1898 - December 1912 (images 94-95 of the item, arks 3:1:3Q9M-CS27-VYH9 and 3:1:3Q9M-CS27-VY8M), the entries of 5 January and 1 March 1906 - *** MACHINE TRANSCRIPT, THE PLATE NOT OPENED *** 26 October 2026, found by FULL-TEXT search for 'Cipriano Lerena'",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "*** Father of RAMON PAULINO, christened at Santisima Trinidad on 4 November 1908 ***, with LUISA SERENA. The index reads him *** 'Buenaventura Olinievera' ***, which is OLIVERA with a stutter. *** INDEX-LEVEL. ***",
+  "note": "*** Father of RAMON PAULINO, christened at Santisima Trinidad on 4 November 1908 ***, with LUISA SERENA. The index reads him *** 'Buenaventura Olinievera' ***, which is OLIVERA with a stutter. *** INDEX-LEVEL. *** *** HIS MARRIAGE, 1 MARCH 1906, 26 October 2026: *** oriental, soltero, of twenty-four, son of Ramon Olivera and Dominga Perez, married Luisa Lerena Beloqui, daughter of Cipriano Lerena and Lauriana Beloqui - so he is the husband of Cipriano's daughter, and the father of Ramon Paulino and Juan Pedro. The index's 'Olinievera' and the act's 'Rivera' are both Olivera.",
   "place": "Trinidad, Flores",
   "placeSlug": "trinidad-flores",
   "surname": "OLIVERA",
@@ -37387,9 +37442,29 @@
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "living": false,
   "gen": null,
-  "father": null,
-  "mother": null,
-  "spouses": [],
+  "father": {
+   "name": "Ramon OLIVERA (father of Buenaventura Olivera)",
+   "dates": "",
+   "slug": "ramon-olivera",
+   "via": "register",
+   "note": "Trinidad marriage entries of 5 January and 1 March 1906 (machine transcripts, 26 Oct 2026)."
+  },
+  "mother": {
+   "name": "Dominga PEREZ (wife of Ramon Olivera)",
+   "dates": "",
+   "slug": "dominga-perez",
+   "via": "register",
+   "note": "Trinidad marriage entries of 5 January and 1 March 1906 (machine transcripts, 26 Oct 2026)."
+  },
+  "spouses": [
+   {
+    "name": "Luisa LERENA Beloqui (b. c.1884, m. Buenaventura Olivera 1906)",
+    "dates": "",
+    "slug": "luisa-lerena-beloqui",
+    "via": "register",
+    "note": "Trinidad marriage entries of 5 January and 1 March 1906 (machine transcripts, 26 Oct 2026)."
+   }
+  ],
   "children": [
    {
     "name": "Juan Pedro OLIVERA Lerena (b.1909)",
@@ -37404,6 +37479,402 @@
     "slug": "ramon-paulino-olivera-lerena",
     "via": "register",
     "note": "Named as the father in the index entry. SERENA + Flores sweep, FamilySearch record index, 12 October 2026 - index-level, no act opened."
+   }
+  ],
+  "siblings": [],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 5,
+  "relRegister": 5,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "luisa-lerena-beloqui",
+  "name": "Luisa LERENA Beloqui (b. c.1884, m. Buenaventura Olivera 1906)",
+  "born": "1884c",
+  "died": "",
+  "birthplace": "Trinidad, Flores, Uruguay",
+  "nationality": "Oriental",
+  "occupation": "-",
+  "where": "Trinidad, Flores",
+  "source": "Santisima Trinidad, Religious Marriage Records July 1898 - December 1912 (images 94-95 of the item, arks 3:1:3Q9M-CS27-VYH9 and 3:1:3Q9M-CS27-VY8M), the entries of 5 January and 1 March 1906 - *** MACHINE TRANSCRIPT, THE PLATE NOT OPENED *** 26 October 2026, found by FULL-TEXT search for 'Cipriano Lerena'",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** A DAUGHTER OF CIPRIANO LERENA AND LAURIANA BELOQUI, MARRIED ON 1 MARCH 1906, FOUND 26 October 2026 - AND THE MOTHER OF THE OLIVERA CHILDREN OF 1908 AND 1909. *** 'El primero de Marzo de mil novecientos seis ... autorizo el matrimonio que ... contrajo Don Bonaventura Rivera [Olivera], oriental, soltero de veinte y cuatro anos, hijo legitimo de Ramon Olivera y de Dominga Perez, con Dona Luisa Serena [Lerena], oriental, soltera de veintiun anos, hija legitima de Cipriano Serena [Lerena] y de Lauriana Balloqui [Beloqui]; los testigos fueron Martin M. Villagran [y] Liberato Gonzalez'. Born about 1884-85. THE LUISA OF THE OLIVERA CHILDREN (Ramon Paulino, 1908; Juan Pedro, 1909) was held until today as the Luisa Lerena Alvarez who married Clemente Bueno in 1915 - that identification is WITHDRAWN: the mother of those children is this Luisa, whom the act of 1906 places as the wife of Buenaventura Olivera two years before the first birth.",
+  "place": "Trinidad, Flores",
+  "placeSlug": "trinidad-flores",
+  "surname": "LERENA",
+  "ark": "3:1:3Q9M-CS27-VY8M",
+  "sourceUrl": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS27-VY8M",
+  "noLink": "",
+  "living": false,
+  "gen": null,
+  "father": {
+   "name": "Cipriano LERENA (of Trinidad)",
+   "dates": "",
+   "slug": "cipriano-lerena",
+   "via": "register",
+   "note": "Trinidad marriage entries of 5 January and 1 March 1906 (machine transcripts, 26 Oct 2026)."
+  },
+  "mother": {
+   "name": "Dona Lauriana BELOQUI (wife of Cipriano LERENA)",
+   "dates": "",
+   "slug": "dona-lauriana-beloqui",
+   "via": "register",
+   "note": "Trinidad marriage entries of 5 January and 1 March 1906 (machine transcripts, 26 Oct 2026)."
+  },
+  "spouses": [
+   {
+    "name": "Buenaventura OLIVERA (m. Luisa Lerena)",
+    "dates": "",
+    "slug": "buenaventura-olivera",
+    "via": "register",
+    "note": "Trinidad marriage entries of 5 January and 1 March 1906 (machine transcripts, 26 Oct 2026)."
+   }
+  ],
+  "children": [
+   {
+    "name": "Juan Pedro OLIVERA Lerena (b.1909)",
+    "dates": "",
+    "slug": "juan-pedro-olivera-lerena",
+    "via": "register",
+    "note": "Trinidad marriage entries of 5 January and 1 March 1906 (machine transcripts, 26 Oct 2026)."
+   },
+   {
+    "name": "Ramon Paulino OLIVERA Lerena (b.1908)",
+    "dates": "",
+    "slug": "ramon-paulino-olivera-lerena",
+    "via": "register",
+    "note": "Trinidad marriage entries of 5 January and 1 March 1906 (machine transcripts, 26 Oct 2026)."
+   }
+  ],
+  "siblings": [
+   {
+    "name": "Ademar LERENA Beloqui (b. c.1886)",
+    "dates": "",
+    "slug": "ademar-lerena-beloqui",
+    "via": "register"
+   },
+   {
+    "name": "Amabelia LERENA Beloqui (1880-1899)",
+    "dates": "",
+    "slug": "amabelia-lerena-beloqui",
+    "via": "register"
+   },
+   {
+    "name": "Casto Lindolfo LERENA Beloqui (b.1882)",
+    "dates": "",
+    "slug": "casto-lindolfo-lerena-beloqui",
+    "via": "register"
+   },
+   {
+    "name": "Celestino Ismael LERENA Beloqui (b. 1888, Trinidad)",
+    "dates": "",
+    "slug": "celestino-ismael-lerena-beloqui",
+    "via": "register"
+   },
+   {
+    "name": "Donata Natalia LERENA Beloqui (b. 1889, Trinidad)",
+    "dates": "",
+    "slug": "donata-natalia-lerena-beloqui",
+    "via": "register"
+   },
+   {
+    "name": "Doroteo Donato LERENA Beloqui",
+    "dates": "",
+    "slug": "doroteo-donato-lerena-beloqui",
+    "via": "register"
+   },
+   {
+    "name": "Juan Cipriano LERENA Beloqui (b. 1878, Trinidad)",
+    "dates": "",
+    "slug": "juan-cipriano-lerena-beloqui",
+    "via": "register"
+   },
+   {
+    "name": "Lauriana LERENA Beloqui",
+    "dates": "",
+    "slug": "lauriana-lerena-beloqui",
+    "via": "register"
+   },
+   {
+    "name": "Maria Leonor LERENA Beloqui",
+    "dates": "",
+    "slug": "maria-leonor-lerena-beloqui",
+    "via": "register"
+   },
+   {
+    "name": "Viviano Eliseo LERENA Beloqui (b. 1880, d. 1912)",
+    "dates": "",
+    "slug": "viviano-eliseo-lerena-beloqui",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 5,
+  "relRegister": 5,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "valentina-sena",
+  "name": "Valentina SENA (m. Doroteo Donato Lerena)",
+  "born": "1880c",
+  "died": "",
+  "birthplace": "Trinidad, Flores, Uruguay",
+  "nationality": "Oriental",
+  "occupation": "-",
+  "where": "Trinidad, Flores",
+  "source": "Santisima Trinidad, Religious Marriage Records July 1898 - December 1912 (images 94-95 of the item, arks 3:1:3Q9M-CS27-VYH9 and 3:1:3Q9M-CS27-VY8M), the entries of 5 January and 1 March 1906 - *** MACHINE TRANSCRIPT, THE PLATE NOT OPENED *** 26 October 2026, found by FULL-TEXT search for 'Cipriano Lerena'",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** WIFE OF DOROTEO DONATO LERENA, FOUND 26 October 2026. *** 'Dona Valentina Sena [Seña], oriental, soltera de veinte y cinco anos, hija legitima de Gervasio Sena, fallecido, y de Asuncion Segovia', married on 5 January 1906; the witnesses are Ramon A. Fernandez and Arturo Custodia Sena. Born about 1880.",
+  "place": "Trinidad, Flores",
+  "placeSlug": "trinidad-flores",
+  "surname": "SENA",
+  "ark": "3:1:3Q9M-CS27-VYH9",
+  "sourceUrl": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS27-VYH9",
+  "noLink": "",
+  "living": false,
+  "gen": null,
+  "father": {
+   "name": "Gervasio SENA (father of Valentina Sena)",
+   "dates": "",
+   "slug": "gervasio-sena",
+   "via": "register",
+   "note": "Trinidad marriage entries of 5 January and 1 March 1906 (machine transcripts, 26 Oct 2026)."
+  },
+  "mother": {
+   "name": "Asuncion SEGOVIA (wife of Gervasio Sena)",
+   "dates": "",
+   "slug": "asuncion-segovia",
+   "via": "register",
+   "note": "Trinidad marriage entries of 5 January and 1 March 1906 (machine transcripts, 26 Oct 2026)."
+  },
+  "spouses": [
+   {
+    "name": "Doroteo Donato LERENA Beloqui",
+    "dates": "",
+    "slug": "doroteo-donato-lerena-beloqui",
+    "via": "register",
+    "note": "Trinidad marriage entries of 5 January and 1 March 1906 (machine transcripts, 26 Oct 2026)."
+   }
+  ],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 3,
+  "relRegister": 3,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "gervasio-sena",
+  "name": "Gervasio SENA (father of Valentina Sena)",
+  "born": "-",
+  "died": "",
+  "birthplace": "Trinidad, Flores, Uruguay",
+  "nationality": "Oriental",
+  "occupation": "-",
+  "where": "Trinidad, Flores",
+  "source": "Santisima Trinidad, Religious Marriage Records July 1898 - December 1912 (images 94-95 of the item, arks 3:1:3Q9M-CS27-VYH9 and 3:1:3Q9M-CS27-VY8M), the entries of 5 January and 1 March 1906 - *** MACHINE TRANSCRIPT, THE PLATE NOT OPENED *** 26 October 2026, found by FULL-TEXT search for 'Cipriano Lerena'",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** NAMED ONLY, as the late father of Valentina Sena at her marriage of 5 January 1906, FOUND 26 October 2026. *** Husband of Asuncion Segovia; a Gervasio Sena also appears as the paternal grandfather of an Asuncion Sena baptised in 1891 whose godparents are Cipriano Lerena and his wife.",
+  "place": "Trinidad, Flores",
+  "placeSlug": "trinidad-flores",
+  "surname": "SENA",
+  "ark": "3:1:3Q9M-CS27-VYH9",
+  "sourceUrl": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS27-VYH9",
+  "noLink": "",
+  "living": false,
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [
+   {
+    "name": "Asuncion SEGOVIA (wife of Gervasio Sena)",
+    "dates": "",
+    "slug": "asuncion-segovia",
+    "via": "register",
+    "note": "Trinidad marriage entries of 5 January and 1 March 1906 (machine transcripts, 26 Oct 2026)."
+   }
+  ],
+  "children": [
+   {
+    "name": "Valentina SENA (m. Doroteo Donato Lerena)",
+    "dates": "",
+    "slug": "valentina-sena",
+    "via": "register",
+    "note": "Trinidad marriage entries of 5 January and 1 March 1906 (machine transcripts, 26 Oct 2026)."
+   }
+  ],
+  "siblings": [],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "asuncion-segovia",
+  "name": "Asuncion SEGOVIA (wife of Gervasio Sena)",
+  "born": "-",
+  "died": "",
+  "birthplace": "Trinidad, Flores, Uruguay",
+  "nationality": "Oriental",
+  "occupation": "-",
+  "where": "Trinidad, Flores",
+  "source": "Santisima Trinidad, Religious Marriage Records July 1898 - December 1912 (images 94-95 of the item, arks 3:1:3Q9M-CS27-VYH9 and 3:1:3Q9M-CS27-VY8M), the entries of 5 January and 1 March 1906 - *** MACHINE TRANSCRIPT, THE PLATE NOT OPENED *** 26 October 2026, found by FULL-TEXT search for 'Cipriano Lerena'",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** NAMED ONLY, as the mother of Valentina Sena at her marriage of 5 January 1906, FOUND 26 October 2026. *** Wife of Gervasio Sena; the Asuncion Sena who was baptised in 1891 with Cipriano Lerena and Lauriana Beloqui as godparents, 'abuelos maternos Gerbasio Sena y Asuncion Segol', may be Valentina's niece.",
+  "place": "Trinidad, Flores",
+  "placeSlug": "trinidad-flores",
+  "surname": "SEGOVIA",
+  "ark": "3:1:3Q9M-CS27-VYH9",
+  "sourceUrl": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS27-VYH9",
+  "noLink": "",
+  "living": false,
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [
+   {
+    "name": "Gervasio SENA (father of Valentina Sena)",
+    "dates": "",
+    "slug": "gervasio-sena",
+    "via": "register",
+    "note": "Trinidad marriage entries of 5 January and 1 March 1906 (machine transcripts, 26 Oct 2026)."
+   }
+  ],
+  "children": [
+   {
+    "name": "Valentina SENA (m. Doroteo Donato Lerena)",
+    "dates": "",
+    "slug": "valentina-sena",
+    "via": "register",
+    "note": "Trinidad marriage entries of 5 January and 1 March 1906 (machine transcripts, 26 Oct 2026)."
+   }
+  ],
+  "siblings": [],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "ramon-olivera",
+  "name": "Ramon OLIVERA (father of Buenaventura Olivera)",
+  "born": "-",
+  "died": "",
+  "birthplace": "Trinidad, Flores, Uruguay",
+  "nationality": "Oriental",
+  "occupation": "-",
+  "where": "Trinidad, Flores",
+  "source": "Santisima Trinidad, Religious Marriage Records July 1898 - December 1912 (images 94-95 of the item, arks 3:1:3Q9M-CS27-VYH9 and 3:1:3Q9M-CS27-VY8M), the entries of 5 January and 1 March 1906 - *** MACHINE TRANSCRIPT, THE PLATE NOT OPENED *** 26 October 2026, found by FULL-TEXT search for 'Cipriano Lerena'",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** NAMED ONLY, as the father of Buenaventura Olivera at his marriage of 1 March 1906, FOUND 26 October 2026. *** Husband of Dominga Perez.",
+  "place": "Trinidad, Flores",
+  "placeSlug": "trinidad-flores",
+  "surname": "OLIVERA",
+  "ark": "3:1:3Q9M-CS27-VY8M",
+  "sourceUrl": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS27-VY8M",
+  "noLink": "",
+  "living": false,
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [
+   {
+    "name": "Dominga PEREZ (wife of Ramon Olivera)",
+    "dates": "",
+    "slug": "dominga-perez",
+    "via": "register",
+    "note": "Trinidad marriage entries of 5 January and 1 March 1906 (machine transcripts, 26 Oct 2026)."
+   }
+  ],
+  "children": [
+   {
+    "name": "Buenaventura OLIVERA (m. Luisa Lerena)",
+    "dates": "",
+    "slug": "buenaventura-olivera",
+    "via": "register",
+    "note": "Trinidad marriage entries of 5 January and 1 March 1906 (machine transcripts, 26 Oct 2026)."
+   }
+  ],
+  "siblings": [],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "dominga-perez",
+  "name": "Dominga PEREZ (wife of Ramon Olivera)",
+  "born": "-",
+  "died": "",
+  "birthplace": "Trinidad, Flores, Uruguay",
+  "nationality": "Oriental",
+  "occupation": "-",
+  "where": "Trinidad, Flores",
+  "source": "Santisima Trinidad, Religious Marriage Records July 1898 - December 1912 (images 94-95 of the item, arks 3:1:3Q9M-CS27-VYH9 and 3:1:3Q9M-CS27-VY8M), the entries of 5 January and 1 March 1906 - *** MACHINE TRANSCRIPT, THE PLATE NOT OPENED *** 26 October 2026, found by FULL-TEXT search for 'Cipriano Lerena'",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** NAMED ONLY, as the mother of Buenaventura Olivera at his marriage of 1 March 1906, FOUND 26 October 2026. *** Wife of Ramon Olivera.",
+  "place": "Trinidad, Flores",
+  "placeSlug": "trinidad-flores",
+  "surname": "PEREZ",
+  "ark": "3:1:3Q9M-CS27-VY8M",
+  "sourceUrl": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS27-VY8M",
+  "noLink": "",
+  "living": false,
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [
+   {
+    "name": "Ramon OLIVERA (father of Buenaventura Olivera)",
+    "dates": "",
+    "slug": "ramon-olivera",
+    "via": "register",
+    "note": "Trinidad marriage entries of 5 January and 1 March 1906 (machine transcripts, 26 Oct 2026)."
+   }
+  ],
+  "children": [
+   {
+    "name": "Buenaventura OLIVERA (m. Luisa Lerena)",
+    "dates": "",
+    "slug": "buenaventura-olivera",
+    "via": "register",
+    "note": "Trinidad marriage entries of 5 January and 1 March 1906 (machine transcripts, 26 Oct 2026)."
    }
   ],
   "siblings": [],
@@ -37495,6 +37966,12 @@
     "name": "Lauriana LERENA Beloqui",
     "dates": "",
     "slug": "lauriana-lerena-beloqui",
+    "via": "register"
+   },
+   {
+    "name": "Luisa LERENA Beloqui (b. c.1884, m. Buenaventura Olivera 1906)",
+    "dates": "",
+    "slug": "luisa-lerena-beloqui",
     "via": "register"
    },
    {
@@ -37598,6 +38075,12 @@
     "name": "Lauriana LERENA Beloqui",
     "dates": "",
     "slug": "lauriana-lerena-beloqui",
+    "via": "register"
+   },
+   {
+    "name": "Luisa LERENA Beloqui (b. c.1884, m. Buenaventura Olivera 1906)",
+    "dates": "",
+    "slug": "luisa-lerena-beloqui",
     "via": "register"
    },
    {
@@ -37799,7 +38282,7 @@
   "source": "FamilySearch RECORD INDEX - exact-surname sweeps PERENA, GERENA and LLERENA with a FLORES, URUGUAY place preference, 12 October 2026 - *** INDEX-LEVEL, NO ACT OPENED ***",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "*** A SECOND CHILD FOR BUENAVENTURA OLIVERA AND LUISA LERENA ***, born *** 13 May 1909 *** and christened at Santisima Trinidad on 20 November, found under the GERENA spelling. *** THIRTEEN MONTHS AFTER HIS BROTHER RAMON PAULINO ***, who was christened under SERENA. *** ONE HOUSEHOLD, TWO SPELLINGS, TWO SWEEPS. *** *** INDEX-LEVEL. ***",
+  "note": "*** A SECOND CHILD FOR BUENAVENTURA OLIVERA AND LUISA LERENA ***, born *** 13 May 1909 *** and christened at Santisima Trinidad on 20 November, found under the GERENA spelling. *** THIRTEEN MONTHS AFTER HIS BROTHER RAMON PAULINO ***, who was christened under SERENA. *** ONE HOUSEHOLD, TWO SPELLINGS, TWO SWEEPS. *** *** INDEX-LEVEL. *** *** CORRECTED 26 October 2026: *** their mother is LUISA LERENA BELOQUI, daughter of Cipriano Lerena and Lauriana Beloqui, who married Buenaventura Olivera on 1 March 1906 - not Luisa Lerena Alvarez, to whom this row had pointed with an 'if'.",
   "place": "Trinidad, Flores",
   "placeSlug": "trinidad-flores",
   "surname": "OLIVERA",
@@ -37816,11 +38299,11 @@
    "note": "Named as the father in the index entry. PERENA/GERENA/LLERENA spelling sweeps of Flores, FamilySearch record index, 12 October 2026 - index-level."
   },
   "mother": {
-   "name": "Luisa LERENA Alvarez (m. Clemente Bueno 1915)",
+   "name": "Luisa LERENA Beloqui (b. c.1884, m. Buenaventura Olivera 1906)",
    "dates": "",
-   "slug": "luisa-lerena-alvarez",
+   "slug": "luisa-lerena-beloqui",
    "via": "register",
-   "note": "Named as the mother in the same entry. PERENA/GERENA/LLERENA spelling sweeps of Flores, FamilySearch record index, 12 October 2026 - index-level."
+   "note": "Trinidad marriage entries of 5 January and 1 March 1906 (machine transcripts, 26 Oct 2026)."
   },
   "spouses": [],
   "children": [],

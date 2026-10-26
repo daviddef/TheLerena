@@ -4545,9 +4545,9 @@
  {
   "name": "Luisa LERENA Alvarez (m. Clemente Bueno 1915)",
   "born_est": "-",
-  "last_attested_alive": "1915-Mar-15",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Clemente BUENO (m. Luisa Lerena 1915)",
@@ -4629,7 +4629,49 @@
  {
   "name": "Buenaventura OLIVERA (m. Luisa Lerena)",
   "born_est": "-",
-  "last_attested_alive": "1908-Nov-04",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Luisa LERENA Beloqui (b. c.1884, m. Buenaventura Olivera 1906)",
+  "born_est": "1884c",
+  "last_attested_alive": "1906-Mar-01",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Valentina SENA (m. Doroteo Donato Lerena)",
+  "born_est": "1880c",
+  "last_attested_alive": "1880c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Gervasio SENA (father of Valentina Sena)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Asuncion SEGOVIA (wife of Gervasio Sena)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Ramon OLIVERA (father of Buenaventura Olivera)",
+  "born_est": "-",
+  "last_attested_alive": "1906-Mar-01",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Dominga PEREZ (wife of Ramon Olivera)",
+  "born_est": "-",
+  "last_attested_alive": "1906-Mar-01",
   "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
   "tier": "ALIVE AT"
  },

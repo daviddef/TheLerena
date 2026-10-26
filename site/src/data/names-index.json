@@ -417,6 +417,11 @@
    "url": "/people/arturo-mario-lerena-regules/"
   },
   {
+   "name": "Asuncion Segovia",
+   "aliases": [],
+   "url": "/people/asuncion-segovia/"
+  },
+  {
    "name": "Aurelio Eusebio Barros Lerena",
    "aliases": [
     "Aurelio Eusebio Barros"
@@ -960,6 +965,11 @@
     "Dominga Josefa Llerena Fernández"
    ],
    "url": "/people/dominga-josefa-llerena-fernandez/"
+  },
+  {
+   "name": "Dominga Perez",
+   "aliases": [],
+   "url": "/people/dominga-perez/"
   },
   {
    "name": "Domingo Razzetti",
@@ -1815,6 +1825,11 @@
    "name": "Gervasio Lerena Echeverry",
    "aliases": [],
    "url": "/people/gervasio-lerena-echeverry/"
+  },
+  {
+   "name": "Gervasio Sena",
+   "aliases": [],
+   "url": "/people/gervasio-sena/"
   },
   {
    "name": "Gilberto Lerena Salvanach",
@@ -2794,6 +2809,13 @@
    "name": "Luisa Lerena Alvarez",
    "aliases": [],
    "url": "/people/luisa-lerena-alvarez/"
+  },
+  {
+   "name": "Luisa Lerena Beloqui",
+   "aliases": [
+    "Luisa Lerena"
+   ],
+   "url": "/people/luisa-lerena-beloqui/"
   },
   {
    "name": "Malvino Pelaez",
@@ -3908,6 +3930,13 @@
    "url": "/people/ramon-maria-fernandez/"
   },
   {
+   "name": "Ramon Olivera",
+   "aliases": [
+    "Ramón Olivera"
+   ],
+   "url": "/people/ramon-olivera/"
+  },
+  {
    "name": "Ramon Paulino Olivera Lerena",
    "aliases": [
     "Ramon Paulino Olivera",
@@ -4225,6 +4254,11 @@
    "name": "Trinidad Morales",
    "aliases": [],
    "url": "/people/trinidad-morales/"
+  },
+  {
+   "name": "Valentina Sena",
+   "aliases": [],
+   "url": "/people/valentina-sena/"
   },
   {
    "name": "Venancio Lerena Fernandez",
@@ -4788,6 +4822,10 @@
     "/people/doroteo-lerena/"
    ],
    "resolve": [
+    {
+     "near": "/people/valentina-sena/",
+     "url": "/people/doroteo-donato-lerena-beloqui/"
+    },
     {
      "near": "/people/isidora-cardozo/",
      "url": "/people/doroteo-lerena/"
