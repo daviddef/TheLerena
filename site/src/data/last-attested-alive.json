@@ -1015,6 +1015,13 @@
   "tier": "BIRTH ONLY"
  },
  {
+  "name": "Juan Cipriano LERENA Beloqui (b. 1878, Trinidad)",
+  "born_est": "1878-06-24",
+  "last_attested_alive": "1878-06-24",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
   "name": "Fermin LERENA (of Trinidad)",
   "born_est": "-",
   "last_attested_alive": "-",
