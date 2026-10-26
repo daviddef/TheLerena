@@ -975,9 +975,9 @@
  {
   "name": "Jose Gabriel Gustavo LERENA Gazo (b. 1880, Trinidad)",
   "born_est": "1880-03-19",
-  "last_attested_alive": "1880-May-07",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1880-03-19",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Severino GORO (m. Maria Pastorina, Italian, of Trinidad)",
@@ -1094,9 +1094,9 @@
  {
   "name": "Dona Juana RECUERO (wife of Florencio LERENA)",
   "born_est": "-",
-  "last_attested_alive": "1891-Sep-03",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Eliseo RECUERO (father of Juana Recuero)",
@@ -4587,9 +4587,9 @@
  {
   "name": "Margarita LERENA Gazo (b.1873, m. Carlos Patraso 1899)",
   "born_est": "1873",
-  "last_attested_alive": "1899-May-27",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1873",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Carlos PATRASO (m. Margarita Lerena 1899)",
@@ -6527,6 +6527,27 @@
   "name": "Dolores Carmen GONZALEZ (b. 1898, d. 1898)",
   "born_est": "1898",
   "last_attested_alive": "1898",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Herminia VAQUERO Lerena (b. c.1900, d. 1901)",
+  "born_est": "1900c",
+  "last_attested_alive": "1900c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Celerino GAZO (father of Adelaida Gazo)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maria PASTORINO (wife of Celerino Gazo)",
+  "born_est": "-",
+  "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  }

@@ -2,6 +2,16 @@
  "mechanical": 53,
  "days": [
   {
+   "date": "2026-10-27",
+   "commits": [
+    {
+     "sha": "0759b30",
+     "subject": "Flora Vaquero died 30 January 1897 at eleven months; Estefania Lerena was a living widow at Trinidad in June 1898, grandmother of the infant Dolores Carmen Gonzalez",
+     "body": ""
+    }
+   ]
+  },
+  {
    "date": "2026-10-26",
    "commits": [
     {

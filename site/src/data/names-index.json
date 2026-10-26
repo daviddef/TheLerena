@@ -177,7 +177,9 @@
   },
   {
    "name": "Amabelia Lerena Beloqui",
-   "aliases": [],
+   "aliases": [
+    "Amabelia Lerena"
+   ],
    "url": "/people/amabelia-lerena-beloqui/"
   },
   {
@@ -814,6 +816,11 @@
    "url": "/people/celedonia-villademoros/"
   },
   {
+   "name": "Celerino Gazo",
+   "aliases": [],
+   "url": "/people/celerino-gazo/"
+  },
+  {
    "name": "Celestino Ismael Lerena Beloqui",
    "aliases": [
     "Celestino Ismael",
@@ -1394,7 +1401,9 @@
   },
   {
    "name": "Edelma Lerena Recuero",
-   "aliases": [],
+   "aliases": [
+    "Edelma Lerena"
+   ],
    "url": "/people/edelma-lerena-recuero/"
   },
   {
@@ -1974,6 +1983,13 @@
    "name": "Hermenegilda Carolina Gavazzo",
    "aliases": [],
    "url": "/people/hermenegilda-carolina-gavazzo/"
+  },
+  {
+   "name": "Herminia Vaquero Lerena",
+   "aliases": [
+    "Herminia Vaquero"
+   ],
+   "url": "/people/herminia-vaquero-lerena/"
   },
   {
    "name": "Hilario Barros Llerena",
@@ -3545,6 +3561,13 @@
    "url": "/people/maria-mercedes-razzetti/"
   },
   {
+   "name": "Maria Pastorino",
+   "aliases": [
+    "María Pastorino"
+   ],
+   "url": "/people/maria-pastorino/"
+  },
+  {
    "name": "Maria Pelaez",
    "aliases": [
     "María Pelaez"
@@ -3745,6 +3768,11 @@
     "Natalia Elena Lerena"
    ],
    "url": "/people/natalia-elena-lerena-recuero/"
+  },
+  {
+   "name": "Natalia Gerena",
+   "aliases": [],
+   "url": "/people/natalia-lerena-2/"
   },
   {
    "name": "Nemecio Ramon Lerena",
@@ -5888,10 +5916,7 @@
   },
   {
    "name": "Natalia Lerena",
-   "url": "/people/?q=Natalia%20Lerena",
-   "bearers": [
-    "/people/natalia-lerena-2/"
-   ]
+   "url": "/people/?q=Natalia%20Lerena"
   },
   {
    "name": "Nicolas Lerena",
