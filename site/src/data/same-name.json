@@ -894,6 +894,11 @@
        "tree": false
       },
       {
+       "slug": "isaac-filomeno-lerena-fernandez",
+       "name": "Isaac Filomeno LERENA Fernandez (b. 1845, San Jose)",
+       "tree": false
+      },
+      {
        "slug": "maria-lerena-6",
        "name": "Maria LERENA (m. FERNANDEZ, d. 1892 Trinidad)",
        "tree": false
@@ -1841,8 +1846,23 @@
      ],
      "children": [
       {
+       "slug": "carmelo-belisario-lerena-montano",
+       "name": "Carmelo Belisario LERENA Montano (b. 1842, San Jose)",
+       "tree": false
+      },
+      {
        "slug": "clemencio-lorenzo-lerena-montano",
        "name": "Clemencio Lorenzo LERENA Montano (b. 1863, Trinidad)",
+       "tree": false
+      },
+      {
+       "slug": "manuel-mauricio-lerena-montano",
+       "name": "Manuel Mauricio LERENA Montano (b. 1838, San Jose)",
+       "tree": false
+      },
+      {
+       "slug": "tomasa-margarita-lerena-montano",
+       "name": "Tomasa Margarita LERENA Montano (b. 1846, San Jose)",
        "tree": false
       }
      ]

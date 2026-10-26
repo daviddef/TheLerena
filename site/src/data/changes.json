@@ -2,6 +2,16 @@
  "mechanical": 53,
  "days": [
   {
+   "date": "2026-10-26",
+   "commits": [
+    {
+     "sha": "4e842d4",
+     "subject": "The Trinidad baptism volumes of 1843-1848 and 1857-1866 re-read: four more children, an enslaved Barbara Llerena, and Ramon Fernandez and Maria Lerena's sixth child corrected",
+     "body": ""
+    }
+   ]
+  },
+  {
    "date": "2026-10-25",
    "commits": [
     {

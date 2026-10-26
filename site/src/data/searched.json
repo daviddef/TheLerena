@@ -3136,6 +3136,51 @@
    "viewer-scan",
    "enslaved"
   ],
-  "note": "WALKED: all 43 images. FOUND: an enslaved woman, 'Barbara Llerena, esclava', mother of Fructuosa (born 26 October 1843, image 15); Estefania Lerena godmother at fifteen in June 1846 (image 27). Nothing else beyond Eugenio, Juan Crisostomo and Margarita Antonia. WAYPOINT NOT ESTABLISHED."
+  "note": "WALKED: all 43 images. FOUND: an enslaved woman, 'Barbara Llerena, esclava', mother of Fructuosa (probably the Barbara held by Alejandro Lerena, whose son Carmelo Anselmo was buried at San Jose in April 1846 - a likely identification, not proved) (born 26 October 1843, image 15); Estefania Lerena godmother at fifteen in June 1846 (image 27). Nothing else beyond Eugenio, Juan Crisostomo and Margarita Antonia. WAYPOINT NOT ESTABLISHED."
+ },
+ {
+  "src": "FamilySearch, San Jose de Mayo Baptism Records 1836-1840 (123 images, ark 3:1:3Q9M-CSKH-D9PN-8), every image read by machine transcript with a spelling-tolerant search (Lerena, Llerena, Lorena, Herena, Ledena, Lezama, Elerena, Lerma, Perena, Serena, Sotura)",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKH-D9PN-8",
+  "waypoint": null,
+  "what": "The volume between the two San Jose volumes already walked, read for the two missing children of Alejandro and Margarita",
+  "when": "2026-10-26",
+  "outcome": "yield",
+  "pages": "images 1-123 (all)",
+  "walked": true,
+  "tags": [
+   "lerena",
+   "lorena",
+   "montano",
+   "san-jose",
+   "uruguay",
+   "familysearch",
+   "baptism",
+   "machine-transcript",
+   "viewer-scan"
+  ],
+  "note": "WALKED: all 123 images (the volume ends in December 1840). NO NEW CHILD of Alejandro and Margarita: only Bernabe (born 10 June 1836, image 12) and Ramon Inocencio (born 28 July 1838, image 68) - so the two missing of the nine were not baptised at San Jose between January 1828 and December 1840. FOUND: Manuel Mauricio, born 17 June 1838 (image 60), son of Mauricio Lerena and Casimira Montano with Alejandro and Clara Lerena as godparents - possibly the Manuel Mauricio Lerena of Trinidad in 1866; Clara Lerena and Francisco Fernandez as godparents five times in 1836-1839; Isabel Lerena's child of 1840 (image 107, already held). WAYPOINT NOT ESTABLISHED. Leads: (the 1841-1869 volume was read next and holds Isaac Filomeno, 1845); the volume of 1822-1828 for 1826 (the couple married in September 1825); Villa del Rosario."
+ },
+ {
+  "src": "FamilySearch, San Jose de Mayo Baptism Records January 1841 - May 1869 (152 images, ark 3:1:3Q9M-CSKH-D9GN-8), every image read by machine transcript with a spelling-tolerant search (Lerena, Llerena, Lorena, Herena, Ledena, Lezama, Elerena, Lerma, Perena, Serena, Sotura, Margarita Fernandez)",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKH-D9GJ-5",
+  "waypoint": null,
+  "what": "The San Jose volume of 1841 onward, read for the child of Alejandro and Margarita born after Ramon Inocencio",
+  "when": "2026-10-26",
+  "outcome": "yield",
+  "pages": "images 1-152 (all)",
+  "walked": true,
+  "tags": [
+   "lerena",
+   "llerena",
+   "fernandez-alvarez",
+   "montano",
+   "san-jose",
+   "uruguay",
+   "familysearch",
+   "baptism",
+   "machine-transcript",
+   "viewer-scan"
+  ],
+  "note": "WALKED: all 152 images (the entries run from January 1841 to 1847; images 4-7, 9, 10 and 28 were first shown with the previous image's text and read again; 149-152 are not baptisms of the family). FOUND: ISAAC FILOMENO, born 3 June 1845, baptised 27 June 1845 at San Jose (image 110), 'hijo legitimo de Don Alejandro Llerena, y de Dona Margarita Fernandez Alvarez', godparents Jose Bruno Larriera and Josefa Morales - a child of the couple that no earlier reading had, and the answer to part of 'two missing of the nine'. Also Carmelo Belisario (16 July 1842, image 41) and Tomasa Margarita (7 March 1846, image 124), children of Mauricio Lerena and Casimira Montano, and Florencia Tomasa (17 February 1845, image 101), a daughter of Manuel Fernandez and Maria de los Reyes with Maria Lerena as godmother; Alejandro and Margarita as godparents on 6 February 1846; Carmelo Anselmo, son of the enslaved Barbara (April 1846, image 126, already held). Four rows added, besides the Manuel Mauricio of the previous volume. NOTE: nine children of the couple have now been baptised, of whom Eugenio lived days - the petition's nine may include Isaac, so the count of missing children is open, not two. WAYPOINT NOT ESTABLISHED. Leads: whether Isaac lived (the Trinidad and San Jose death registers of 1845-1860); the plates of 110, 41, 124, 101."
  }
 ]
