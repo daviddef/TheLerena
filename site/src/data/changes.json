@@ -5,6 +5,11 @@
    "date": "2026-10-26",
    "commits": [
     {
+     "sha": "43e6fdd",
+     "subject": "Two grandchildren of Alejandro the younger baptised 15 July 1886: Gualberto Lerena given his parents, and Alejandrina's son names hers; record links on each row",
+     "body": ""
+    },
+    {
      "sha": "3aa9071",
      "subject": "Source column: arks cited only in a note are now in the row's source, so the person page links every record it relies on",
      "body": ""
