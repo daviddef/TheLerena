@@ -985,6 +985,17 @@
   "count": 4
  },
  {
+  "slug": "rosario-colla-colonia",
+  "name": "Rosario / Colla, Colonia",
+  "people": [
+   "ramon-lerena-2",
+   "maria-josefa-gonzalez",
+   "margarita-leal",
+   "pedro-cabrera"
+  ],
+  "count": 4
+ },
+ {
   "slug": "adolfo-alsina-buenos-aires-argentina",
   "name": "Adolfo Alsina, Buenos Aires, Argentina",
   "people": [
@@ -1168,15 +1179,6 @@
   "people": [
    "felix-lerena",
    "rosalia-aguilar"
-  ],
-  "count": 2
- },
- {
-  "slug": "rosario-colla-colonia",
-  "name": "Rosario / Colla, Colonia",
-  "people": [
-   "ramon-lerena-2",
-   "maria-josefa-gonzalez"
   ],
   "count": 2
  },

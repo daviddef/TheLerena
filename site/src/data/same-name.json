@@ -1284,7 +1284,13 @@
       "name": "Ana de CUBAS (m. Salvador Lerena)",
       "tree": false
      },
-     "spouses": [],
+     "spouses": [
+      {
+       "slug": "margarita-leal",
+       "name": "Margarita LEAL (widow of Pedro Cabrera, m. Ramon Lerena 1789)",
+       "tree": false
+      }
+     ],
      "children": [
       {
        "slug": "eusebio-congenio-lerena-gonzalez",
