@@ -4741,9 +4741,9 @@
  {
   "name": "Venancio LERENA Fernandez (m. 1885)",
   "born_est": "-",
-  "last_attested_alive": "1885-Apr-24",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Antonino LERENA Cardozo (b.1891)",
@@ -6422,6 +6422,55 @@
   "name": "Luis SENA (m. Margarita Lerena)",
   "born_est": "-",
   "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Socorro LERENA Pelaez (named 1913)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Eduvijes LERENA Pelaez (named 1913)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Isidro LERENA Pelaez (named 1913)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Celestino LERENA Harrison (b. 1890, d. 1890)",
+  "born_est": "1890c",
+  "last_attested_alive": "1890c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Linda Maria LERENA Harrison (b. 1905, d. 1905)",
+  "born_est": "1905c",
+  "last_attested_alive": "1905c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Flora LERENA Harrison (b. c.1887, d. 1909)",
+  "born_est": "1887c",
+  "last_attested_alive": "1887c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Venancia HARRISON (m. Venancio Lerena 1885)",
+  "born_est": "1868c",
+  "last_attested_alive": "1868c",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  }

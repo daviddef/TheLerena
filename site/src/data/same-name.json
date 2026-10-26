@@ -42,8 +42,16 @@
      "died": "",
      "where": "Trinidad, Flores · UY",
      "source": "Arquidiocesis de Montevideo, Marriage Dispensation Records 1856-1932 …",
-     "father": null,
-     "mother": null,
+     "father": {
+      "slug": "vitalino-lerena",
+      "name": "Vitalino LERENA (of Trinidad)",
+      "tree": false
+     },
+     "mother": {
+      "slug": "dona-andrea-echeverry",
+      "name": "Dona Andrea ECHEVERRY (wife of Vitalino LERENA)",
+      "tree": false
+     },
      "spouses": [],
      "children": []
     },
@@ -1408,6 +1416,16 @@
        "tree": false
       },
       {
+       "slug": "eduvijes-lerena-pelaez",
+       "name": "Eduvijes LERENA Pelaez (named 1913)",
+       "tree": false
+      },
+      {
+       "slug": "isidro-lerena-pelaez",
+       "name": "Isidro LERENA Pelaez (named 1913)",
+       "tree": false
+      },
+      {
        "slug": "juan-bernardo-lerena-pelaez",
        "name": "Juan Bernardo LERENA Pelaez",
        "tree": false
@@ -1435,6 +1453,11 @@
       {
        "slug": "paula-modesta-lerena-pelaez",
        "name": "Paula Modesta LERENA Pelaez",
+       "tree": false
+      },
+      {
+       "slug": "socorro-lerena-pelaez",
+       "name": "Socorro LERENA Pelaez (named 1913)",
        "tree": false
       },
       {
