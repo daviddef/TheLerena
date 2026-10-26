@@ -3563,11 +3563,25 @@
   "tier": "BIRTH ONLY"
  },
  {
-  "name": "Gualberto LERENA (m. Rosaura Alvarez)",
+  "name": "Juan Francisco ALVAREZ (father of Rosaura Alvarez)",
   "born_est": "-",
-  "last_attested_alive": "1886-Jul-15",
+  "last_attested_alive": "1885-Jun-25",
   "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
   "tier": "ALIVE AT"
+ },
+ {
+  "name": "Clara PELAEZ (wife of Juan Francisco Alvarez)",
+  "born_est": "-",
+  "last_attested_alive": "1885-Jun-25",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Gualberto LERENA (m. Rosaura Alvarez)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Antonio Amador LERENA Alvarez (b. 1886, Trinidad)",

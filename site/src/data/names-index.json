@@ -831,6 +831,11 @@
    "url": "/people/clara-lerena/"
   },
   {
+   "name": "Clara Pelaez",
+   "aliases": [],
+   "url": "/people/clara-pelaez/"
+  },
+  {
    "name": "Clemencio Lorenzo Lerena Montano",
    "aliases": [
     "Clemencio Lorenzo Lerena",
@@ -1785,6 +1790,11 @@
    "url": "/people/gilberto-lerena/"
   },
   {
+   "name": "Juan Gualberto",
+   "aliases": [],
+   "url": "/people/gualberto-lerena/"
+  },
+  {
    "name": "Guillermo Hurtado de Villagomez",
    "aliases": [
     "Guillermo Hurtado"
@@ -2339,7 +2349,6 @@
   {
    "name": "Juan Francisco Alvarez Fernandez",
    "aliases": [
-    "Juan Francisco Alvarez",
     "Juan Francisco Alvarez Fernández"
    ],
    "url": "/people/juan-francisco-alvarez-fernandez/"
@@ -4990,9 +4999,6 @@
   {
    "name": "Gualberto Lerena",
    "url": "/people/?q=Gualberto%20Lerena",
-   "bearers": [
-    "/people/gualberto-lerena/"
-   ],
    "resolve": [
     {
      "near": "/people/rosaura-alvarez/",
@@ -5114,6 +5120,19 @@
    "url": "/people/?q=Jose%20Martinez",
    "bearers": [
     "/people/jose-martinez/"
+   ]
+  },
+  {
+   "name": "Juan Francisco Alvarez",
+   "url": "/people/?q=Juan%20Francisco%20Alvarez",
+   "bearers": [
+    "/people/juan-francisco-alvarez/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/clara-pelaez/",
+     "url": "/people/juan-francisco-alvarez/"
+    }
    ]
   },
   {
