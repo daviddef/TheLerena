@@ -1036,6 +1036,27 @@
   "tier": "BIRTH ONLY"
  },
  {
+  "name": "Clara A. PLAZA (m. Eliseo Lerena 1911)",
+  "born_est": "1894-08-12",
+  "last_attested_alive": "1894-08-12",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Froilan PLAZA (father of Clara Plaza)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Ezequiela PAVEN (wife of Froilan Plaza)",
+  "born_est": "-",
+  "last_attested_alive": "1911-Mar-01",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
   "name": "Celestino Ismael LERENA Beloqui (b. 1888, Trinidad)",
   "born_est": "1888-04-06",
   "last_attested_alive": "1888-Oct-01",
