@@ -1902,6 +1902,11 @@
    "url": "/people/gervasio-sena/"
   },
   {
+   "name": "Gil Llerena",
+   "aliases": [],
+   "url": "/people/gil-lerena/"
+  },
+  {
    "name": "Gilberto Lerena Salvanach",
    "aliases": [
     "Gilberto Lerena Salvañach"
@@ -5230,9 +5235,6 @@
   {
    "name": "Gil Lerena",
    "url": "/people/?q=Gil%20Lerena",
-   "bearers": [
-    "/people/gil-lerena/"
-   ],
    "resolve": [
     {
      "near": "/people/anastasia-santa-cruz/",
