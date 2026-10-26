@@ -22,6 +22,13 @@
    "url": "/people/adela-crucet/"
   },
   {
+   "name": "Ademar Lerena Beloqui",
+   "aliases": [
+    "Ademar Lerena"
+   ],
+   "url": "/people/ademar-lerena-beloqui/"
+  },
+  {
    "name": "Adolfo Maximo Cordero",
    "aliases": [
     "Adolfo Máximo Cordero"
@@ -785,6 +792,14 @@
    "url": "/people/celedonia-villademoros/"
   },
   {
+   "name": "Celestino Ismael Lerena Beloqui",
+   "aliases": [
+    "Celestino Ismael",
+    "Celestino Ismael Lerena"
+   ],
+   "url": "/people/celestino-ismael-lerena-beloqui/"
+  },
+  {
    "name": "Celia Juanico Lenguas",
    "aliases": [
     "Celia Juanico",
@@ -1205,7 +1220,9 @@
   },
   {
    "name": "Lauriana Beloqui",
-   "aliases": [],
+   "aliases": [
+    "Lauriana Beloque"
+   ],
    "url": "/people/dona-lauriana-beloqui/"
   },
   {
@@ -1254,6 +1271,14 @@
    "name": "Ysabel Centeno",
    "aliases": [],
    "url": "/people/dona-ysabel-centeno/"
+  },
+  {
+   "name": "Donata Natalia Lerena Beloqui",
+   "aliases": [
+    "Donata Natalia",
+    "Donata Natalia Lerena"
+   ],
+   "url": "/people/donata-natalia-lerena-beloqui/"
   },
   {
    "name": "Donato Larranaga Lerena",
@@ -4281,6 +4306,15 @@
    "name": "Vitalino Gregorio Pelaez",
    "aliases": [],
    "url": "/people/vitalino-gregorio-pelaez/"
+  },
+  {
+   "name": "Viviano Eliseo Lerena Beloqui",
+   "aliases": [
+    "Eliseo Lerena",
+    "Viviano Eliseo",
+    "Viviano Eliseo Lerena"
+   ],
+   "url": "/people/viviano-eliseo-lerena-beloqui/"
   },
   {
    "name": "William John Taylor",

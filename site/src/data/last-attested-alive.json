@@ -1022,6 +1022,34 @@
   "tier": "BIRTH ONLY"
  },
  {
+  "name": "Viviano Eliseo LERENA Beloqui (b. 1880, d. 1912)",
+  "born_est": "1880-12-02",
+  "last_attested_alive": "1880-12-02",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Ademar LERENA Beloqui (b. c.1886)",
+  "born_est": "1886c",
+  "last_attested_alive": "1886c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Celestino Ismael LERENA Beloqui (b. 1888, Trinidad)",
+  "born_est": "1888-04-06",
+  "last_attested_alive": "1888-Oct-01",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Donata Natalia LERENA Beloqui (b. 1889, Trinidad)",
+  "born_est": "1889-12-12",
+  "last_attested_alive": "1890-Jan-15",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
   "name": "Fermin LERENA (of Trinidad)",
   "born_est": "-",
   "last_attested_alive": "-",
@@ -4608,9 +4636,9 @@
  {
   "name": "Amabelia LERENA Beloqui (1880-1899)",
   "born_est": "1880",
-  "last_attested_alive": "1899-Jan-09",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1880",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Casto Lindolfo LERENA Beloqui (b.1882)",
