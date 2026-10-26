@@ -5873,6 +5873,34 @@
   "tier": "BIRTH ONLY"
  },
  {
+  "name": "Pascual Maria Cruz LERENA Gonzalez (bapt. 1825, San Jose)",
+  "born_est": "1825",
+  "last_attested_alive": "1825-May-20",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Auristela Josefa Cipriana ALVAREZ Fernandez (b. 1826, San Jose)",
+  "born_est": "1826",
+  "last_attested_alive": "1826",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maria Rosalia GONZALEZ Fernandez (b. 1826, San Jose)",
+  "born_est": "1826",
+  "last_attested_alive": "1826",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Emilia Josefa Catalina ALVAREZ Fernandez (b. 1827, San Jose)",
+  "born_est": "1827-11-25",
+  "last_attested_alive": "1827-Nov-29",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
   "name": "Juan Francisco ALVAREZ Fernandez (b. 1829, San Jose)",
   "born_est": "1829",
   "last_attested_alive": "1829",
