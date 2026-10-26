@@ -263,6 +263,11 @@
    "url": "/people/ana-rosario-lerena-traibel/"
   },
   {
+   "name": "Anastasia Moyano",
+   "aliases": [],
+   "url": "/people/anastasia-moyano/"
+  },
+  {
    "name": "Anastasia Santa Cruz",
    "aliases": [
     "Anastasia Santa"
@@ -5175,6 +5180,19 @@
    "url": "/people/?q=Felix%20Lerena",
    "bearers": [
     "/people/felix-lerena/"
+   ]
+  },
+  {
+   "name": "Gabino Lerena",
+   "url": "/people/?q=Gabino%20Lerena",
+   "bearers": [
+    "/people/gabino-lerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/anastasia-moyano/",
+     "url": "/people/gabino-lerena/"
+    }
    ]
   },
   {

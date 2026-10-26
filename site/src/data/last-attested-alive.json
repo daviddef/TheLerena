@@ -604,9 +604,9 @@
  {
   "name": "Gabino L. LLERENA",
   "born_est": "-",
-  "last_attested_alive": "-",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "last_attested_alive": "1890",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
  },
  {
   "name": "Camilo LLERENA",
@@ -3040,9 +3040,9 @@
  {
   "name": "Maria de los Reyes GONZALEZ (wife of Manuel FERNANDEZ ALVAREZ)",
   "born_est": "-",
-  "last_attested_alive": "1854-Dec-02",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Malvino PELAEZ (son of Juan PELAEZ and Antonina LERENA)",
@@ -6471,6 +6471,20 @@
   "name": "Venancia HARRISON (m. Venancio Lerena 1885)",
   "born_est": "1868c",
   "last_attested_alive": "1868c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Gabino LERENA (of Chamanga, d. 1890)",
+  "born_est": "1807c",
+  "last_attested_alive": "1807c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Anastasia MOYANO (wife of Gabino Lerena, d. 1887)",
+  "born_est": "1823c",
+  "last_attested_alive": "1823c",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  }

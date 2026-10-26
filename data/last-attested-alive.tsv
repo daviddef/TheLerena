@@ -98,7 +98,7 @@ Geronima LORENA	1854	1854	born_est only - a floor, not an attestation	BIRTH ONLY
 Mercedes LORENA	1860	1860	born_est only - a floor, not an attestation	BIRTH ONLY
 Feliz LORENA	1866	1866	born_est only - a floor, not an attestation	BIRTH ONLY
 Maria LORENA	1868	1868	born_est only - a floor, not an attestation	BIRTH ONLY
-Gabino L. LLERENA	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
+Gabino L. LLERENA	-	1890	explicit death date on this person's row	DEATH
 Camilo LLERENA	1842	1842	born_est only - a floor, not an attestation	BIRTH ONLY
 Ramon LLERENA	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Tomas LLERENA	-	1927	explicit death date on this person's row	DEATH
@@ -446,7 +446,7 @@ Alejandro LERENA (the younger, m.1 Isidora Chourino, m.2 Severa Fernandez 1854)	
 Isidora CHOURINO (first wife of Alejandro LERENA the younger)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Severa FERNANDEZ (m. Alejandro LERENA the younger, 1854)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Manuel FERNANDEZ ALVAREZ (m. Maria de los Reyes Gonzalez)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
-Maria de los Reyes GONZALEZ (wife of Manuel FERNANDEZ ALVAREZ)	-	1854-Dec-02	named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died	ALIVE AT
+Maria de los Reyes GONZALEZ (wife of Manuel FERNANDEZ ALVAREZ)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Malvino PELAEZ (son of Juan PELAEZ and Antonina LERENA)	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Antonio Eusebio PELAEZ	-	-	born_est only - a floor, not an attestation	BIRTH ONLY
 Abdona Ignacia LERENA (d. 1850, aged 7 days)	1850	1850	born_est only - a floor, not an attestation	BIRTH ONLY
@@ -937,3 +937,5 @@ Celestino LERENA Harrison (b. 1890, d. 1890)	1890c	1890c	born_est only - a floor
 Linda Maria LERENA Harrison (b. 1905, d. 1905)	1905c	1905c	born_est only - a floor, not an attestation	BIRTH ONLY
 Flora LERENA Harrison (b. c.1887, d. 1909)	1887c	1887c	born_est only - a floor, not an attestation	BIRTH ONLY
 Venancia HARRISON (m. Venancio Lerena 1885)	1868c	1868c	born_est only - a floor, not an attestation	BIRTH ONLY
+Gabino LERENA (of Chamanga, d. 1890)	1807c	1807c	born_est only - a floor, not an attestation	BIRTH ONLY
+Anastasia MOYANO (wife of Gabino Lerena, d. 1887)	1823c	1823c	born_est only - a floor, not an attestation	BIRTH ONLY

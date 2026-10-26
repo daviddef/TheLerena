@@ -4060,7 +4060,7 @@
   "slug": "gabino-l-llerena",
   "name": "Gabino L. LLERENA",
   "born": "-",
-  "died": "",
+  "died": "1890",
   "birthplace": "Rosario, COLONIA, URUGUAY",
   "nationality": "Uruguayan",
   "occupation": "-",
@@ -4068,7 +4068,7 @@
   "source": "Uruguay Catholic Church Records - marriage, soltero",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "*** CORRECTED: his 'Rosario' is ROSARIO, COLONIA, URUGUAY, not Rosario de Santa Fe. Every other person on the record is Uruguayan - Solis Grande, Maldonado, Punta Carretas, Cordon Montevideo. Ramon Llerena appears with him, most likely his father. ***",
+  "note": "*** CORRECTED: his 'Rosario' is ROSARIO, COLONIA, URUGUAY, not Rosario de Santa Fe. Every other person on the record is Uruguayan - Solis Grande, Maldonado, Punta Carretas, Cordon Montevideo. Ramon Llerena appears with him, most likely his father. *** *** PROBABLY THE GABINO OF CHAMANGA WHO DIED ON 9 FEBRUARY 1890, 26 October 2026, NOT MERGED. *** His civil death act calls him a son of Ramon Lerena and Maria Gonzalez, and the indexed marriage names a Ramon Llerena of Rosario, Colonia; but the marriage's date and bride are not read, and 'Gabino L.' carries an initial the death act lacks. See the row of Gabino LERENA (of Chamanga, d. 1890).",
   "place": "Rosario, Colonia, Uruguay",
   "placeSlug": "rosario-colonia-uruguay",
   "surname": "LLERENA",
@@ -19938,6 +19938,12 @@
     "via": "register"
    },
    {
+    "name": "Gabino LERENA (of Chamanga, d. 1890)",
+    "dates": "",
+    "slug": "gabino-lerena",
+    "via": "register"
+   },
+   {
     "name": "Pascual Maria Cruz LERENA Gonzalez (bapt. 1825, San Jose)",
     "dates": "",
     "slug": "pascual-maria-cruz-lerena-gonzalez",
@@ -19999,6 +20005,13 @@
     "note": "Christening of Eusebio Congenio, the Cordon, 17 Aug 1816, plate read 17 Oct 2026."
    },
    {
+    "name": "Gabino LERENA (of Chamanga, d. 1890)",
+    "dates": "",
+    "slug": "gabino-lerena",
+    "via": "register",
+    "note": "Chamanga civil death act of 9 Feb 1890: 'hijo legitimo de Don Ramon Lerena y de dona Maria Gonzalez' (machine transcript, 26 Oct 2026)."
+   },
+   {
     "name": "Mauricio LERENA (of Colla/Rosario, m. Casimira Montano 1837)",
     "dates": "",
     "slug": "mauricio-lerena",
@@ -20018,8 +20031,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 5,
-  "relRegister": 5,
+  "relTotal": 6,
+  "relRegister": 6,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -20069,6 +20082,13 @@
     "note": "Christening of Eusebio Congenio, the Cordon, 17 Aug 1816, plate read 17 Oct 2026."
    },
    {
+    "name": "Gabino LERENA (of Chamanga, d. 1890)",
+    "dates": "",
+    "slug": "gabino-lerena",
+    "via": "register",
+    "note": "Chamanga civil death act of 9 Feb 1890: 'hijo legitimo de Don Ramon Lerena y de dona Maria Gonzalez' (machine transcript, 26 Oct 2026)."
+   },
+   {
     "name": "Mauricio LERENA (of Colla/Rosario, m. Casimira Montano 1837)",
     "dates": "",
     "slug": "mauricio-lerena",
@@ -20095,8 +20115,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 5,
-  "relRegister": 5,
+  "relTotal": 6,
+  "relRegister": 6,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -27068,10 +27088,10 @@
   "nationality": "Uruguayan",
   "occupation": "-",
   "where": "Trinidad, Flores",
-  "source": "Arquidiocesis de Montevideo, Marriage Dispensation Records 1852-1855 - EXPEDIENTE, Trinidad, 2 December 1854; image 258, ark 3:1:3Q9M-C9B7-T9T9-T - FULL-TEXT read 9 October 2026; and Catedral Basilica San Jose, Religious Marriage Records March 1825-September 1859 - act No. 17 of 16 September 1825, before Don Joseph Andres Salvatierra, Cura y Vicario Interino; DGS film 008143329 (microfilm 625330) image 10 (indexed at 00009), ark 3:1:3Q9M-CSKH-67T7 - PLATE READ 9 October 2026; and Santisima Trinidad, Trinidad, Flores, Baptism Records 1848-1857 (film 008163892, image 229 of 767), the christening of Maria del Carmen, July 1857 (cura Florentino Luis Conde); image ark 3:1:3Q9M-CS27-F34L-N - *** IMAGE READ *** 18 October 2026, found by scanning the volume's machine index for Lerena-like names; and Arquidiocesis de Montevideo, Marriage Dispensation Records 1852-1855 (film 007713344, item 3, images 162-167 of 643), expediente no. 15 of 1853 - his own petition for his son Ramon to marry his niece Maria Lerena; image ark 3:1:3Q9M-C9B7-T9B1-K (the petition, image 164) and 3:1:3Q9M-C9B7-TS33-3 (the kinship diagram, image 163) - *** PETITION, COVER AND DIAGRAM READ AT THE PLATE *** 19 October 2026, the decree and grant (images 165-166) from FamilySearch's machine transcript only; found by a FULL-TEXT search for the two names; and Trinidad, Baptism Records January 1843 - March 1848 (item of 43 images), the entries of 30 January 1844 and 18 June 1847 (images 17 and 35) - *** MACHINE TRANSCRIPT *** 19 October 2026, found by a full-text search for Barbara Sotura with Margarita Fernandez in Flores, then every image of the item read",
+  "source": "Arquidiocesis de Montevideo, Marriage Dispensation Records 1852-1855 - EXPEDIENTE, Trinidad, 2 December 1854; image 258, ark 3:1:3Q9M-C9B7-T9T9-T - FULL-TEXT read 9 October 2026; and Catedral Basilica San Jose, Religious Marriage Records March 1825-September 1859 - act No. 17 of 16 September 1825, before Don Joseph Andres Salvatierra, Cura y Vicario Interino; DGS film 008143329 (microfilm 625330) image 10 (indexed at 00009), ark 3:1:3Q9M-CSKH-67T7 - PLATE READ 9 October 2026; and Santisima Trinidad, Trinidad, Flores, Baptism Records 1848-1857 (film 008163892, image 229 of 767), the christening of Maria del Carmen, July 1857 (cura Florentino Luis Conde); image ark 3:1:3Q9M-CS27-F34L-N - *** IMAGE READ *** 18 October 2026, found by scanning the volume's machine index for Lerena-like names; and Arquidiocesis de Montevideo, Marriage Dispensation Records 1852-1855 (film 007713344, item 3, images 162-167 of 643), expediente no. 15 of 1853 - his own petition for his son Ramon to marry his niece Maria Lerena; image ark 3:1:3Q9M-C9B7-T9B1-K (the petition, image 164) and 3:1:3Q9M-C9B7-TS33-3 (the kinship diagram, image 163) - *** PETITION, COVER AND DIAGRAM READ AT THE PLATE *** 19 October 2026, the decree and grant (images 165-166) from FamilySearch's machine transcript only; found by a FULL-TEXT search for the two names; and Trinidad, Baptism Records January 1843 - March 1848 (item of 43 images), the entries of 30 January 1844 and 18 June 1847 (images 17 and 35) - *** MACHINE TRANSCRIPT *** 19 October 2026, found by a full-text search for Barbara Sotura with Margarita Fernandez in Flores, then every image of the item read; and Santisima Trinidad, Religious Death Records January 1873 - July 1888, burial of 21 November 1878, no. 117 (image 90, ark 3:1:3Q9M-CS27-23WH-B) - *** PLATE READ *** 26 October 2026",
   "status": "connected",
   "statusRaw": "CONNECTED",
-  "note": "*** Father of SERAPIO FERNANDEZ and of SEVERA FERNANDEZ ***, named in both the 1854 and the 1855 Trinidad expedientes - in 1855 simply as 'Don Manuel', in 1854 in full as *** MANUEL FERNANDEZ ALVAREZ ***. *** HIS OWN PARENTS ARE NAMED TOO, IN 1855: Don JUAN and Dona BARBARA SOTURA *** - the grandparents of Serapio, and his own surname is not legible there. *** AND HE IS A BROTHER OF MARGARITA FERNANDEZ ALVAREZ - WRITTEN DOWN FROM 9 OCTOBER 2026, NOT INFERRED ***, which is what makes his children and hers first cousins. *** THIS ROW SAID FOR HALF A DAY THAT THE SIBSHIP WAS 'required by the degree and not written down in either act'; THAT SENTENCE IS WITHDRAWN AND THE REASON FOLLOWS. ***  *** THE THIRD ACT CLOSED IT. *** The 1855 expediente gives his son Serapio's grandparents as *** 'Don JUAN y Dona BARBARA SOTURA' ***; the marriage act of 16 September 1825 gives Margarita Fernandez Alvarez as *** 'hija legitima de JUAN FERNANDEZ ALVAREZ y de BARBARA SOTURA' ***. *** SAME PARENTS, SO SAME SIBSHIP ***, and the second grade of consanguinity dispensed in 1855 between his son and her daughter now has a named path. *** THE SENTENCE ABOVE THAT CALLED IT 'NOT WRITTEN DOWN IN EITHER ACT' WAS TRUE OF THE TWO ACTS THEN READ AND IS SUPERSEDED BY A THIRD. *** *** HIS SON RAMON, 18 October 2026: *** the Trinidad baptism of July 1857 names Ramon Fernandez as the son of Manuel Fernandez and Maria de los Reyes Gonzalez and the husband of Maria Lerena. His sons are now Serapio and Ramon, and Serapio's wife Socorro and Ramon's wife Maria are sisters. *** HIS OWN PETITION, 19 October 2026: *** Manuel Fernandez, 'de estado casado', of the Puntas de San Jose district in the Trinidad parish, applied in 1853 for the dispensation of his son Ramon's marriage to 'mi sobrina Maria Lerena', daughter of 'Margarita Fernandez, que es mi hermana' (film 007713344, image 164, plate read), and the diagram of 7 September 1853 (image 163) shows him as the 'hijo' of Juan Fernandez and Barbara Sotura and Margarita as their 'hija', 'hermanos'. So his parents and his sister are written by his own side as well as hers. *** MORE CHILDREN AND HIS ORIGIN, 19 October 2026: *** the baptism of Juan Crisostomo, born 27 January 1844, calls his parents 'Manuel Fernandez y de Maria Reyes, naturales de San Jose y vecinos de este Pueblo' of Trinidad, so the household had left San Jose for Trinidad by 1844; Margarita Antonia, born 13 June 1847, has Alejandro Lerena and Margarita Fernandez as godparents. He and his wife are godparents of Luis Faustino (1843) and Carmen (1846), children of Luis Sena and Valentina Gonzalez; in August 1846 his son Ramon, fifteen, stands in for him.",
+  "note": "*** Father of SERAPIO FERNANDEZ and of SEVERA FERNANDEZ ***, named in both the 1854 and the 1855 Trinidad expedientes - in 1855 simply as 'Don Manuel', in 1854 in full as *** MANUEL FERNANDEZ ALVAREZ ***. *** HIS OWN PARENTS ARE NAMED TOO, IN 1855: Don JUAN and Dona BARBARA SOTURA *** - the grandparents of Serapio, and his own surname is not legible there. *** AND HE IS A BROTHER OF MARGARITA FERNANDEZ ALVAREZ - WRITTEN DOWN FROM 9 OCTOBER 2026, NOT INFERRED ***, which is what makes his children and hers first cousins. *** THIS ROW SAID FOR HALF A DAY THAT THE SIBSHIP WAS 'required by the degree and not written down in either act'; THAT SENTENCE IS WITHDRAWN AND THE REASON FOLLOWS. ***  *** THE THIRD ACT CLOSED IT. *** The 1855 expediente gives his son Serapio's grandparents as *** 'Don JUAN y Dona BARBARA SOTURA' ***; the marriage act of 16 September 1825 gives Margarita Fernandez Alvarez as *** 'hija legitima de JUAN FERNANDEZ ALVAREZ y de BARBARA SOTURA' ***. *** SAME PARENTS, SO SAME SIBSHIP ***, and the second grade of consanguinity dispensed in 1855 between his son and her daughter now has a named path. *** THE SENTENCE ABOVE THAT CALLED IT 'NOT WRITTEN DOWN IN EITHER ACT' WAS TRUE OF THE TWO ACTS THEN READ AND IS SUPERSEDED BY A THIRD. *** *** HIS SON RAMON, 18 October 2026: *** the Trinidad baptism of July 1857 names Ramon Fernandez as the son of Manuel Fernandez and Maria de los Reyes Gonzalez and the husband of Maria Lerena. His sons are now Serapio and Ramon, and Serapio's wife Socorro and Ramon's wife Maria are sisters. *** HIS OWN PETITION, 19 October 2026: *** Manuel Fernandez, 'de estado casado', of the Puntas de San Jose district in the Trinidad parish, applied in 1853 for the dispensation of his son Ramon's marriage to 'mi sobrina Maria Lerena', daughter of 'Margarita Fernandez, que es mi hermana' (film 007713344, image 164, plate read), and the diagram of 7 September 1853 (image 163) shows him as the 'hijo' of Juan Fernandez and Barbara Sotura and Margarita as their 'hija', 'hermanos'. So his parents and his sister are written by his own side as well as hers. *** MORE CHILDREN AND HIS ORIGIN, 19 October 2026: *** the baptism of Juan Crisostomo, born 27 January 1844, calls his parents 'Manuel Fernandez y de Maria Reyes, naturales de San Jose y vecinos de este Pueblo' of Trinidad, so the household had left San Jose for Trinidad by 1844; Margarita Antonia, born 13 June 1847, has Alejandro Lerena and Margarita Fernandez as godparents. He and his wife are godparents of Luis Faustino (1843) and Carmen (1846), children of Luis Sena and Valentina Gonzalez; in August 1846 his son Ramon, fifteen, stands in for him. *** HE DIED ON 21 NOVEMBER 1878 AT SEVENTY-FOUR, 26 October 2026. *** The burial entry, no. 117, folio 170, read at the plate: 'el dia veintiuno de Noviembre de mil ochocientos setenta y ocho, ... mando dar sepultura eclesiastica en el cementerio de esta villa al cadaver de Don Manuel Fernandez y Alvarez, oriental, casado con Dona Maria Reyes Gonzalez. Fallecio hoy, a la edad de setenta y cuatro anos. Se le hizo entierro de tercera clase con acompanamiento con cruz alta. Recibio los Sacramentos', signed Angel Iglesias Santa Maria. So born about 1804, and the husband of the woman buried six years later. He is the brother of Margarita Fernandez Alvarez, who was buried in 1869 - and he outlived her by nine years.",
   "place": "Trinidad, Flores",
   "placeSlug": "trinidad-flores",
   "surname": "FERNANDEZ",
@@ -27094,7 +27114,15 @@
    "via": "register",
    "note": "Marriage dispensation expediente no. 15 of 1853, Arquidiocesis de Montevideo (film 007713344, image 163, kinship diagram dated 7 September 1853, plate read 19 Oct 2026): Juan Fernandez and Barbara Sotura at the apex, Manuel hijo and Margarita hija, 'hermanos'."
   },
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Maria de los Reyes GONZALEZ (wife of Manuel FERNANDEZ ALVAREZ)",
+    "dates": "",
+    "slug": "maria-de-los-reyes-gonzalez",
+    "via": "register",
+    "note": "Trinidad burials of 21 Nov 1878 ('casado con Dona Maria Reyes Gonzalez') and 21 Dec 1884 ('viuda de Don Manuel Fernandez'), plate read 26 Oct 2026."
+   }
+  ],
   "children": [
    {
     "name": "Florencia Tomasa FERNANDEZ Gonzalez (b. 1845, San Jose)",
@@ -27167,8 +27195,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 6,
-  "relRegister": 6,
+  "relTotal": 7,
+  "relRegister": 7,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -27182,10 +27210,10 @@
   "nationality": "Uruguayan",
   "occupation": "-",
   "where": "Trinidad, Flores",
-  "source": "Arquidiocesis de Montevideo, Marriage Dispensation Records 1852-1855 - EXPEDIENTE, Trinidad, 2 December 1854; image 258, ark 3:1:3Q9M-C9B7-T9T9-T - FULL-TEXT read 9 October 2026; and Santisima Trinidad, Trinidad, Flores, Baptism Records 1848-1857 (film 008163892, image 229 of 767), the christening of Maria del Carmen, July 1857 (cura Florentino Luis Conde); image ark 3:1:3Q9M-CS27-F34L-N - *** IMAGE READ *** 18 October 2026, found by scanning the volume's machine index for Lerena-like names",
+  "source": "Arquidiocesis de Montevideo, Marriage Dispensation Records 1852-1855 - EXPEDIENTE, Trinidad, 2 December 1854; image 258, ark 3:1:3Q9M-C9B7-T9T9-T - FULL-TEXT read 9 October 2026; and Santisima Trinidad, Trinidad, Flores, Baptism Records 1848-1857 (film 008163892, image 229 of 767), the christening of Maria del Carmen, July 1857 (cura Florentino Luis Conde); image ark 3:1:3Q9M-CS27-F34L-N - *** IMAGE READ *** 18 October 2026, found by scanning the volume's machine index for Lerena-like names; and Santisima Trinidad, Religious Death Records January 1873 - July 1888, burial of 21 December 1884, no. 108 of the month (image 174, ark 3:1:3Q9M-CS27-23W1-J) - *** PLATE READ *** 26 October 2026",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "*** Mother of SERAPIO and SEVERA FERNANDEZ ***, named in the Trinidad expedientes of 1854 and 1855. *** NOT TO BE CONFUSED WITH MARIA GONZALEZ, THE WIFE OF RAMON LERENA ***, who stands a generation higher on the 1858 schema. *** TWO WOMEN NAMED MARIA GONZALEZ IN ONE PARISH IN ONE DECADE ***, and this archive has declared them apart rather than let the gate find them later. *** HER SON RAMON FERNANDEZ AND HIS WIFE MARIA LERENA, 18 October 2026: *** named as her grandchild's parents in the Trinidad baptism of July 1857.",
+  "note": "*** Mother of SERAPIO and SEVERA FERNANDEZ ***, named in the Trinidad expedientes of 1854 and 1855. *** NOT TO BE CONFUSED WITH MARIA GONZALEZ, THE WIFE OF RAMON LERENA ***, who stands a generation higher on the 1858 schema. *** TWO WOMEN NAMED MARIA GONZALEZ IN ONE PARISH IN ONE DECADE ***, and this archive has declared them apart rather than let the gate find them later. *** HER SON RAMON FERNANDEZ AND HIS WIFE MARIA LERENA, 18 October 2026: *** named as her grandchild's parents in the Trinidad baptism of July 1857. *** SHE DIED ON 20 DECEMBER 1884 AT SEVENTY-EIGHT, A WIDOW, 26 October 2026. *** The burial entry, folio 337, read at the plate: 'que el veinte y uno de Diciembre de mil ochocientos ochenta y cuatro, se le hizo el oficio de sepultura eclesiastica al cadaver de Dona Maria de los Reyes Gonzalez. Fallecio ayer a los setenta y ocho anos de edad, viuda de Don Manuel Fernandez. Recibio los sacramentos de Penitencia y Extrema Uncion'. So born about 1806, six years the widow of Manuel Fernandez Alvarez; her granddaughter Maria de los Reyes Fernandez Lerena, the baby buried in August 1873, bore her name.",
   "place": "Trinidad, Flores",
   "placeSlug": "trinidad-flores",
   "surname": "GONZALEZ",
@@ -27208,7 +27236,15 @@
    "via": "register",
    "note": "Marriage dispensation expediente no. 511 of 17 June 1865 (machine transcript, 26 Oct 2026)."
   },
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Manuel FERNANDEZ ALVAREZ (m. Maria de los Reyes Gonzalez)",
+    "dates": "",
+    "slug": "manuel-fernandez-alvarez",
+    "via": "register",
+    "note": "Trinidad burials of 21 Nov 1878 ('casado con Dona Maria Reyes Gonzalez') and 21 Dec 1884 ('viuda de Don Manuel Fernandez'), plate read 26 Oct 2026."
+   }
+  ],
   "children": [
    {
     "name": "Florencia Tomasa FERNANDEZ Gonzalez (b. 1845, San Jose)",
@@ -27244,8 +27280,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 6,
-  "relRegister": 6,
+  "relTotal": 7,
+  "relRegister": 7,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -31274,7 +31310,7 @@
   "source": "FamilySearch - the Trinidad, Flores birthplace sweep, data/trinidad-flores-sweep-2026-09-27.tsv, entered as people 11 October 2026 - *** INDEX ONLY, no act opened ***; and Trinidad, Baptism Records 1848 - 1857, the entry of 19 September 1855 (image 139, ark 3:1:3Q9M-CS27-F3HM-F) - *** MACHINE TRANSCRIPT *** 19 October 2026, found by stepping through the volume from the date of Pio's birth; and Trinidad, Religious Marriage Records January 1875 - August 1895, the act of 10 January 1884 (ark 3:1:3Q9M-CS27-V1CP, index ark 1:1:XS6J-9G5P) - *** MACHINE TRANSCRIPT *** 19 October 2026, found by the record index (the name Pio with the surname Lerena); and Flores, Death Records 1888-1917, the civil act of 4 April 1904 at Chamanga (ark 3:1:3Q9M-CS24-QC4X) - *** MACHINE TRANSCRIPT *** 19 October 2026, found by a full-text search; and the further records cited in the note below (arks 3:1:3Q9M-CS24-QC2V)",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "[SUPERSEDED 19 October 2026: his birth is found, below.] *** NO BIRTH DATE IS INDEXED. *** Son of an *** ALEJANDRO *** of the Trinidad orbit and *** SEVERA FERNANDEZ *** - the index writes her HERNANDEZ. If that is Alejandro Lerena the younger, who married Severa Fernandez at Trinidad in December 1854, then Pio is a son of that marriage. *** [SUPERSEDED 19 October 2026: established by three acts, below.] *** *** Parents on the record: ALEJANDRO LERENA (the younger) and Severa FERNANDEZ. *** *** INDEX ONLY; no act opened. *** *** HE IS FOUND ON 11 MARCH 1889, 19 October 2026: *** 'Don Pio C. Lerena, de treinta y tres anos de edad, de estado casado, de nacionalidad oriental, de profesion hacendado y vecino de Cerro Colorado' is the first declarant on the civil act of Manuel Vaquero (ark 3:1:3Q9M-CS24-QC2V, machine transcript) and 'sobrino politico' of the man whose act it is - the nephew of Manuel Vaquero's wife Natalia Lerena. A nephew of Natalia, born about 1855 and living at Cerro Colorado, is the son of one of her brothers; with Alejandro the younger's marriage to Severa Fernandez of December 1854 and the index naming this Pio's parents as an Alejandro Lerena and Severa Fernandez, the two fit. STRONG, NOT PROVED: the 1889 act does not name his parents. *** HIS PARENTS ARE NAMED IN THREE ACTS, AND HIS BAPTISM IS FOUND, 19 October 2026. *** (1) BAPTISM, 19 September 1855, Trinidad (machine transcript): 'bautice solemnemente a Cipriano Pio que nacio el diez y seis de este [Septiembre] ano, hijo legitimo de Alejandro Lerena y Severa Fernandez. Padrino Alejandro [Lerena, garbled] y Margarita Fernandez', the cura Miguel Ramos - his grandparents are his godparents, and he is born 16 September 1855, eight months and three weeks after the marriage of December 1854. (2) MARRIAGE, 10 January 1884, Trinidad (machine transcript, ark 3:1:3Q9M-CS27-V1CP): 'Don Pio Lerena, oriental, soltero, de veintinueve anos de edad, hijo legitimo de Don Alejandro y de Dona Severa Fernandez, con Bernardina Arrison, oriental, soltera, de diez y siete anos de edad, hija natural de Don Evaristo Arrison y de dona Petrona Perera'. (3) THE CIVIL ACT OF 4 APRIL 1904 (machine transcript, ark 3:1:3Q9M-CS24-QC4X): 'Dono Pio Cipriano Lerena, de cuarenta y ocho anos de edad, casado, oriental, hacendado y vecino de esta Seccion' declares the end of his seven-day-old son Sixto Doroteo, 'hijo legitimo del primer declarante y de su legitima esposa Dona Bernardina Harrison, de treinta y ocho anos; abuelos paternos Don Alejandro Florencio [Lerena] y Dona Severa Fernandez, ambos orientales, fallecidos; maternos Don Evaristo G. Harrison, Ingles, fallecido y dona Petrona Pereira, de sesenta y dos anos'. So PIO C. IS PIO CIPRIANO, baptised Cipriano Pio, a son of Alejandro Florencio Lerena the younger and Severa Fernandez, and the nephew of Natalia Lerena who is 'sobrino politico' of Manuel Vaquero in 1889: the earlier 'if that is Alejandro the younger' is answered. His own end and his wife's are not found. The Pio C. Serena and Pio C. Perena of the Trinidad volumes of 1905-1909 and the index are very likely him. His children, from the index alone: Marcelino, Eufemia Corina, Romualda Alba, Sara, Mariana, Margarita Dora and Linda, with Sixto Doroteo of 1904. *** TWO CHILDREN OF HIS DIED AT CHAMANGA, 26 October 2026: *** Celestino, three months and twenty-two days, in October 1890 (the act gives Pio thirty-four, a hacendado, and his wife Bernardina twenty-five, and names the paternal grandparents Alejandro F. Lerena and Severa Fernandez, 'ambos fallecidos'), and Linda Maria, an infant, on 11 November 1905 (Pio fifty, Bernardina forty). He is the first declarant on the death of his uncle Gabino on 9 February 1890, 'sobrino del extinto'.",
+  "note": "[SUPERSEDED 19 October 2026: his birth is found, below.] *** NO BIRTH DATE IS INDEXED. *** Son of an *** ALEJANDRO *** of the Trinidad orbit and *** SEVERA FERNANDEZ *** - the index writes her HERNANDEZ. If that is Alejandro Lerena the younger, who married Severa Fernandez at Trinidad in December 1854, then Pio is a son of that marriage. *** [SUPERSEDED 19 October 2026: established by three acts, below.] *** *** Parents on the record: ALEJANDRO LERENA (the younger) and Severa FERNANDEZ. *** *** INDEX ONLY; no act opened. *** *** HE IS FOUND ON 11 MARCH 1889, 19 October 2026: *** 'Don Pio C. Lerena, de treinta y tres anos de edad, de estado casado, de nacionalidad oriental, de profesion hacendado y vecino de Cerro Colorado' is the first declarant on the civil act of Manuel Vaquero (ark 3:1:3Q9M-CS24-QC2V, machine transcript) and 'sobrino politico' of the man whose act it is - the nephew of Manuel Vaquero's wife Natalia Lerena. A nephew of Natalia, born about 1855 and living at Cerro Colorado, is the son of one of her brothers; with Alejandro the younger's marriage to Severa Fernandez of December 1854 and the index naming this Pio's parents as an Alejandro Lerena and Severa Fernandez, the two fit. STRONG, NOT PROVED: the 1889 act does not name his parents. *** HIS PARENTS ARE NAMED IN THREE ACTS, AND HIS BAPTISM IS FOUND, 19 October 2026. *** (1) BAPTISM, 19 September 1855, Trinidad (machine transcript): 'bautice solemnemente a Cipriano Pio que nacio el diez y seis de este [Septiembre] ano, hijo legitimo de Alejandro Lerena y Severa Fernandez. Padrino Alejandro [Lerena, garbled] y Margarita Fernandez', the cura Miguel Ramos - his grandparents are his godparents, and he is born 16 September 1855, eight months and three weeks after the marriage of December 1854. (2) MARRIAGE, 10 January 1884, Trinidad (machine transcript, ark 3:1:3Q9M-CS27-V1CP): 'Don Pio Lerena, oriental, soltero, de veintinueve anos de edad, hijo legitimo de Don Alejandro y de Dona Severa Fernandez, con Bernardina Arrison, oriental, soltera, de diez y siete anos de edad, hija natural de Don Evaristo Arrison y de dona Petrona Perera'. (3) THE CIVIL ACT OF 4 APRIL 1904 (machine transcript, ark 3:1:3Q9M-CS24-QC4X): 'Dono Pio Cipriano Lerena, de cuarenta y ocho anos de edad, casado, oriental, hacendado y vecino de esta Seccion' declares the end of his seven-day-old son Sixto Doroteo, 'hijo legitimo del primer declarante y de su legitima esposa Dona Bernardina Harrison, de treinta y ocho anos; abuelos paternos Don Alejandro Florencio [Lerena] y Dona Severa Fernandez, ambos orientales, fallecidos; maternos Don Evaristo G. Harrison, Ingles, fallecido y dona Petrona Pereira, de sesenta y dos anos'. So PIO C. IS PIO CIPRIANO, baptised Cipriano Pio, a son of Alejandro Florencio Lerena the younger and Severa Fernandez, and the nephew of Natalia Lerena who is 'sobrino politico' of Manuel Vaquero in 1889: the earlier 'if that is Alejandro the younger' is answered. His own end and his wife's are not found. The Pio C. Serena and Pio C. Perena of the Trinidad volumes of 1905-1909 and the index are very likely him. His children, from the index alone: Marcelino, Eufemia Corina, Romualda Alba, Sara, Mariana, Margarita Dora and Linda, with Sixto Doroteo of 1904. *** TWO CHILDREN OF HIS DIED AT CHAMANGA, 26 October 2026: *** Celestino, three months and twenty-two days, in October 1890 (the act gives Pio thirty-four, a hacendado, and his wife Bernardina twenty-five, and names the paternal grandparents Alejandro F. Lerena and Severa Fernandez, 'ambos fallecidos'), and Linda Maria, an infant, on 11 November 1905 (Pio fifty, Bernardina forty). He is the first declarant on the death of his uncle Gabino on 9 February 1890, 'sobrino del extinto'. *** HE DECLARED THE DEATH OF GABINO LERENA, 26 October 2026: *** on 9 February 1890 at Chamanga Pio is the first declarant, 'sobrino del extinto'. Gabino was a son of Ramon Lerena and Maria Gonzalez, so a brother of Alejandro the elder; Pio is a son of Alejandro the younger, who was the elder's son - Gabino's great-nephew, called 'sobrino' in the loose way the clerks used the word.",
   "place": "Trinidad, Flores",
   "placeSlug": "trinidad-flores",
   "surname": "LERENA",
@@ -44963,6 +44999,12 @@
   "children": [],
   "siblings": [
    {
+    "name": "Gabino LERENA (of Chamanga, d. 1890)",
+    "dates": "",
+    "slug": "gabino-lerena",
+    "via": "register"
+   },
+   {
     "name": "Mauricio LERENA (of Colla/Rosario, m. Casimira Montano 1837)",
     "dates": "",
     "slug": "mauricio-lerena",
@@ -50692,6 +50734,12 @@
     "via": "register"
    },
    {
+    "name": "Gabino LERENA (of Chamanga, d. 1890)",
+    "dates": "",
+    "slug": "gabino-lerena",
+    "via": "register"
+   },
+   {
     "name": "Mauricio LERENA (of Colla/Rosario, m. Casimira Montano 1837)",
     "dates": "",
     "slug": "mauricio-lerena",
@@ -54856,6 +54904,125 @@
   "godchildren": [],
   "relTotal": 2,
   "relRegister": 2,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "gabino-lerena",
+  "name": "Gabino LERENA (of Chamanga, d. 1890)",
+  "born": "1807c",
+  "died": "",
+  "birthplace": "Uruguay",
+  "nationality": "Uruguayan",
+  "occupation": "-",
+  "where": "Trinidad, Flores",
+  "source": "Flores, Death Records 1888-1917 (ark 3:1:3Q9M-CS24-Q7PZ), image 26 (ark 3:1:3Q9M-CS24-QC5T), act no. 2 of 9 February 1890 - *** MACHINE TRANSCRIPT *** 26 October 2026; and Santisima Trinidad, Religious Death Records January 1873 - July 1888, the burial of his wife, 10 June 1887 (image 192, ark 3:1:3Q9M-CS27-23WB-V) - *** PLATE READ *** 26 October 2026",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** A THIRD SON OF RAMON LERENA AND MARIA GONZALEZ, FOUND 26 October 2026 IN HIS CIVIL DEATH ACT. *** Act no. 2 of Chamanga (Sexta Seccion de Flores), 9 February 1890, in the machine's text: 'comparecieron Don Pio C. Lerena, de treinta y cuatro anos ... y Don Pedro S. Cantera ... declarando que a las once de la manana del dia de hoy y en su domicilio, sito en Chamanga, ha fallecido Don Gabino Lerena, de nacionalidad oriental, de ochenta y tres anos de edad, de estado casado viudo y de profesion libre, a consecuencia de inanicion ... el finado era hijo legitimo de Don Ramon Lerena y de dona Maria Gonzalez, ambos fallecidos. Que los abuelos paternos y maternos se ignoran sus nombres ... el primer declarante es sobrino del extinto'. So he died at Chamanga on 9 February 1890 of exhaustion at about eighty-three, a widower, and is a brother of Alejandro the elder, Mauricio, Antonina Isabel and Clara - the same Ramon and Maria Gonzalez - and the uncle of Pio C. Lerena, who declared it. His wife is the Anastasia Moyano buried at Trinidad on 10 June 1887. *** MACHINE TRANSCRIPT, THE PLATE NOT OPENED. *** *** NOT MERGED WITH THE ROSARIO-BORN 'GABINO L. LLERENA' OF AN INDEXED MARRIAGE, WHO IS MOST LIKELY HE, *** on the one name and the father Ramon Llerena of Rosario; the marriage's date and its bride are not held here, and the Moyano of Trinidad is not shown to be that bride.",
+  "place": "Trinidad, Flores",
+  "placeSlug": "trinidad-flores",
+  "surname": "LERENA",
+  "ark": "3:1:3Q9M-CS24-QC5T",
+  "sourceUrl": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-QC5T",
+  "noLink": "",
+  "living": false,
+  "gen": null,
+  "father": {
+   "name": "Ramon LERENA (of Rosario-Colla, fl. 1794-1820)",
+   "dates": "",
+   "slug": "ramon-lerena-2",
+   "via": "register",
+   "note": "Chamanga civil death act of 9 Feb 1890: 'hijo legitimo de Don Ramon Lerena y de dona Maria Gonzalez' (machine transcript, 26 Oct 2026)."
+  },
+  "mother": {
+   "name": "Maria Josefa GONZALEZ (wife of Ramon LERENA of Colla)",
+   "dates": "",
+   "slug": "maria-josefa-gonzalez",
+   "via": "register",
+   "note": "Chamanga civil death act of 9 Feb 1890: 'hijo legitimo de Don Ramon Lerena y de dona Maria Gonzalez' (machine transcript, 26 Oct 2026)."
+  },
+  "spouses": [
+   {
+    "name": "Anastasia MOYANO (wife of Gabino Lerena, d. 1887)",
+    "dates": "",
+    "slug": "anastasia-moyano",
+    "via": "register",
+    "note": "Trinidad burial of 10 Jun 1887: 'casada con Gabino Lerena' (plate read 26 Oct 2026)."
+   }
+  ],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Eusebio Congenio LERENA Gonzalez (b. 1816, Cordon)",
+    "dates": "",
+    "slug": "eusebio-congenio-lerena-gonzalez",
+    "via": "register"
+   },
+   {
+    "name": "Mauricio LERENA (of Colla/Rosario, m. Casimira Montano 1837)",
+    "dates": "",
+    "slug": "mauricio-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Pascual Maria Cruz LERENA Gonzalez (bapt. 1825, San Jose)",
+    "dates": "",
+    "slug": "pascual-maria-cruz-lerena-gonzalez",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 3,
+  "relRegister": 3,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "anastasia-moyano",
+  "name": "Anastasia MOYANO (wife of Gabino Lerena, d. 1887)",
+  "born": "1823c",
+  "died": "",
+  "birthplace": "Uruguay",
+  "nationality": "Uruguayan",
+  "occupation": "-",
+  "where": "Trinidad, Flores",
+  "source": "Santisima Trinidad, Religious Death Records January 1873 - July 1888, burial of 10 June 1887 (image 192, ark 3:1:3Q9M-CS27-23WB-V) - *** PLATE READ *** 26 October 2026",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** THE WIFE OF GABINO LERENA, BURIED AT TRINIDAD ON 10 JUNE 1887 AT SIXTY-FOUR, FOUND 26 October 2026. *** The entry, read at the plate: 'El dia diez de Junio de mil ochocientos ochenta y siete, se hizo el oficio de sepultura al cadaver de Ana[stasia] Moyano que fallecio ayer a la edad de sesenta y cuatro anos, casada con Gabino Lerena. Recibio los Santos Sacramentos de la Penitencia y Extremauncion', signed Manuel Brana. So she died on 9 June 1887 and her husband three years after her; born about 1823, sixteen years younger than he. Nothing else is known of her: no parents, no marriage, no children are found.",
+  "place": "Trinidad, Flores",
+  "placeSlug": "trinidad-flores",
+  "surname": "MOYANO",
+  "ark": "3:1:3Q9M-CS27-23WB-V",
+  "sourceUrl": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS27-23WB-V",
+  "noLink": "",
+  "living": false,
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [
+   {
+    "name": "Gabino LERENA (of Chamanga, d. 1890)",
+    "dates": "",
+    "slug": "gabino-lerena",
+    "via": "register",
+    "note": "Trinidad burial of 10 Jun 1887: 'casada con Gabino Lerena' (plate read 26 Oct 2026)."
+   }
+  ],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": [],
   "noindex": false
