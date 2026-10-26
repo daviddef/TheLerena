@@ -275,11 +275,6 @@
    "url": "/people/andrea-albina-lerena/"
   },
   {
-   "name": "Andrea Etcheberse",
-   "aliases": [],
-   "url": "/people/andrea-etcheberse/"
-  },
-  {
    "name": "Andres Brivaqui",
    "aliases": [],
    "url": "/people/andres-brivaqui/"
@@ -1129,7 +1124,10 @@
   },
   {
    "name": "Andrea Echeverry",
-   "aliases": [],
+   "aliases": [
+    "Andrea ETCHEBERSE",
+    "Andrea Echeverre"
+   ],
    "url": "/people/dona-andrea-echeverry/"
   },
   {
@@ -1283,7 +1281,9 @@
   },
   {
    "name": "Paulina Barragan",
-   "aliases": [],
+   "aliases": [
+    "Paulina Barragan Valle"
+   ],
    "url": "/people/dona-paulina-barragan/"
   },
   {
@@ -2860,6 +2860,11 @@
    "url": "/people/luis-pochez/"
   },
   {
+   "name": "Luis Sena",
+   "aliases": [],
+   "url": "/people/luis-sena/"
+  },
+  {
    "name": "Luisa Lerena Alvarez",
    "aliases": [],
    "url": "/people/luisa-lerena-alvarez/"
@@ -3172,6 +3177,19 @@
     "María de las Mercedes Moratorio Lerena"
    ],
    "url": "/people/maria-de-las-mercedes-moratorio-lerena/"
+  },
+  {
+   "name": "Maria de los Reyes Fernandez Lerena",
+   "aliases": [
+    "Maria de los Reyes Fernandez",
+    "Maria de los Reyes Fernández",
+    "Maria de los Reyes Fernández Lerena",
+    "María de los Reyes Fernandez",
+    "María de los Reyes Fernandez Lerena",
+    "María de los Reyes Fernández",
+    "María de los Reyes Fernández Lerena"
+   ],
+   "url": "/people/maria-de-los-reyes-fernandez-lerena/"
   },
   {
    "name": "Maria de los Reyes Gonzalez",
@@ -3641,7 +3659,9 @@
     "Modesta Carmelita",
     "Modesta Carmelita Fernandez",
     "Modesta Carmelita Fernández",
-    "Modesta Carmelita Fernández Lerena"
+    "Modesta Carmelita Fernández Lerena",
+    "Modesta Fernandez",
+    "Modesta Fernández"
    ],
    "url": "/people/modesta-carmelita-fernandez-lerena/"
   },
@@ -4414,6 +4434,11 @@
    "name": "Vitalino Gregorio Pelaez",
    "aliases": [],
    "url": "/people/vitalino-gregorio-pelaez/"
+  },
+  {
+   "name": "Vitaliano LERENA",
+   "aliases": [],
+   "url": "/people/vitalino-lerena/"
   },
   {
    "name": "Viviano Eliseo Lerena Beloqui",
@@ -5528,6 +5553,7 @@
    "name": "Margarita Lerena",
    "url": "/people/?q=Margarita%20Lerena",
    "bearers": [
+    "/people/margarita-lerena-2/",
     "/people/margarita-lerena/"
    ]
   },
@@ -6137,24 +6163,8 @@
    ]
   },
   {
-   "name": "Vitaliano Lerena",
-   "url": "/people/?q=Vitaliano%20Lerena",
-   "bearers": [
-    "/people/vitaliano-lerena/"
-   ],
-   "resolve": [
-    {
-     "near": "/people/andrea-etcheberse/",
-     "url": "/people/vitaliano-lerena/"
-    }
-   ]
-  },
-  {
    "name": "Vitalino Lerena",
    "url": "/people/?q=Vitalino%20Lerena",
-   "bearers": [
-    "/people/vitalino-lerena/"
-   ],
    "resolve": [
     {
      "near": "/people/dona-andrea-echeverry/",

@@ -4284,25 +4284,11 @@
   "tier": "BIRTH ONLY"
  },
  {
-  "name": "Vitaliano LERENA (m. Andrea ETCHEBERSE)",
-  "born_est": "-",
-  "last_attested_alive": "1906-Mar-26",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
- },
- {
-  "name": "Andrea ETCHEBERSE (wife of Vitaliano LERENA)",
-  "born_est": "-",
-  "last_attested_alive": "1906-Mar-26",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
- },
- {
   "name": "Andrea Albina LERENA (b.1874, m. Antonio ETCHEBERSE 1906)",
   "born_est": "1874",
-  "last_attested_alive": "1906-Mar-26",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1874",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Antonio ETCHEBERSE (m. Andrea Albina Lerena 1906)",
@@ -5917,16 +5903,16 @@
  {
   "name": "Maria Josefa del Carmen FERNANDEZ Lerena (chr.1862)",
   "born_est": "1862-05",
-  "last_attested_alive": "1862-May-22",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1862-05",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Modesta Carmelita FERNANDEZ Lerena (b. 1864, Trinidad)",
   "born_est": "1864-02-24",
-  "last_attested_alive": "1864-Mar-04",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1864-02-24",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Bernabe Concilo LERENA Pelaez (chr.1861)",
@@ -6415,6 +6401,27 @@
   "name": "Anastasia SANTA CRUZ (m. Gil Lerena)",
   "born_est": "1825c",
   "last_attested_alive": "1825c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maria de los Reyes FERNANDEZ Lerena (b. c.1872, d. 1873)",
+  "born_est": "1872c",
+  "last_attested_alive": "1872c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Margarita LERENA (m. Luis SENA, d. 1880)",
+  "born_est": "1846c",
+  "last_attested_alive": "1846c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Luis SENA (m. Margarita Lerena)",
+  "born_est": "-",
+  "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  }

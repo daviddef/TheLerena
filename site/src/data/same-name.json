@@ -90,6 +90,11 @@
        "tree": false
       },
       {
+       "slug": "maria-de-los-reyes-fernandez-lerena",
+       "name": "Maria de los Reyes FERNANDEZ Lerena (b. c.1872, d. 1873)",
+       "tree": false
+      },
+      {
        "slug": "maria-del-carmen-fernandez-lerena",
        "name": "Maria del Carmen FERNANDEZ Lerena (b. 1857, Trinidad)",
        "tree": false
@@ -343,6 +348,28 @@
       "tree": false
      },
      "mother": null,
+     "spouses": [],
+     "children": []
+    },
+    {
+     "slug": "maria-de-los-reyes-fernandez-lerena",
+     "name": "Maria de los Reyes FERNANDEZ Lerena (b. c.1872, d. 1873)",
+     "exact": false,
+     "status": "unplaced",
+     "born": "about 1872",
+     "died": "",
+     "where": "Trinidad, Flores · Uruguayan",
+     "source": "Santisima Trinidad, Religious Death Records January 1873 …",
+     "father": {
+      "slug": "ramon-fernandez",
+      "name": "Ramon FERNANDEZ (m. Maria Lerena)",
+      "tree": false
+     },
+     "mother": {
+      "slug": "maria-lerena-6",
+      "name": "Maria LERENA (m. FERNANDEZ, d. 1892 Trinidad)",
+      "tree": false
+     },
      "spouses": [],
      "children": []
     },

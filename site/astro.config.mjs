@@ -66,7 +66,12 @@ const redirects = {
      mother as "Dona ANDREA ETCHEBERSE" - the surname broken across the opening - and the
      index gave her the FATHER'S surname instead. The groom is ETCHEBERSE on the act and
      ECHEBERSE in the index. Both renamed to the act. */
-  '/people/andrea-lerena': `${BASE}/people/andrea-etcheberse/`,
+  '/people/andrea-lerena': `${BASE}/people/dona-andrea-echeverry/`,
+  /* 26 October 2026. The index's Vitaliano Lerena and Andrea Etcheberse (the 1906 marriage act of
+     their daughter) are Vitalino Lerena and Dona Andrea Echeverry, whose burial of 15 May 1883 names
+     the same wife; the two rows were merged. */
+  '/people/vitaliano-lerena': `${BASE}/people/vitalino-lerena/`,
+  '/people/andrea-etcheberse': `${BASE}/people/dona-andrea-echeverry/`,
   '/people/antonio-echeberse': `${BASE}/people/antonio-etcheberse/`,
 
   /* 12 October 2026. An index turned "esclava de D.n Alejandro Lerena" into a marriage.
