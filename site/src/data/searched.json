@@ -3226,5 +3226,47 @@
    "viewer-scan"
   ],
   "note": "WALKED: images 55-126 (May 1824 to April 1828; images 1-54 of 1822-1824 not read - they precede the marriage; 18 images were first shown with the previous image's text and read again). NO CHILD OF ALEJANDRO AND MARGARITA BORN IN 1826: only Maria Casilda (11 April 1827, image 103). FOUND: a daughter of Ramon Lerena and Maria Josefa Gonzalez baptised 20 May 1825 (image 63) with Clara Lerena as godmother - a youngest sister of Alejandro; cousins born 1826-1827: Auristela Josefa Cipriana (image 94) and Emilia Josefa Catalina (images 114-115), daughters of Juan Alvarez and Josefa Fernandez, and Maria Rosalia (image 98), daughter of Marcos de Leon Gonzalez and Casilda. Four rows added. WAYPOINT NOT ESTABLISHED. Leads: whether the girl of 1825 lived and married; the plates of 63, 94, 98."
+ },
+ {
+  "src": "FamilySearch image tiles, San Jose de Mayo Baptism Records January 1841 - May 1869, image 110 (ark 3:1:3Q9M-CSKH-D9GJ-5), the plate of the baptism of Isaac Filomeno, 27 June 1845",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKH-D9GJ-5",
+  "waypoint": null,
+  "what": "The plate of the entry that the machine transcript gave as a child of Alejandro Llerena and Margarita Fernandez Alvarez",
+  "when": "2026-10-26",
+  "outcome": "yield",
+  "pages": "image 110, level 12 tiles",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "llerena",
+   "san-jose",
+   "uruguay",
+   "familysearch",
+   "baptism",
+   "plate",
+   "deepzoom"
+  ],
+  "note": "PLATE READ: the margin has 'Isaac Filomeno Llerena' and the entry names the father 'D.n Alejandro Llerena' and the mother 'D.a Margarita Fernandez Alvarez', the godparents Jose Bruno Larriera and Josefa Morales, baptised 27 June 1845 by Fr. Francisco de Paula Cabrera, born on the third of the month. The machine transcript is confirmed; the child is the couple's. METHOD: the ark of an image is itself the DeepZoom id (no film number is needed): image.xml gives the size, and the level-12 tiles (9 by 6 for a 4209 by 3065 image) laid in a table read clearly at one screenshot. WAYPOINT NOT ESTABLISHED."
+ },
+ {
+  "src": "FamilySearch image tiles, Santisima Trinidad Baptism Records 1848-1857: the plates of the entries of 18 August 1855 (ark 3:1:3Q9M-CS27-F34B-N), 7 June 1855 (ark 3:1:3Q9M-CS27-F3H9-X) and 16 August 1856 (ark 3:1:3Q9M-CS27-F3HS-W)",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS27-F34B-N",
+  "waypoint": null,
+  "what": "The three plates behind the 25 October machine-transcript findings of the 1848-1857 volume",
+  "when": "2026-10-26",
+  "outcome": "yield",
+  "pages": "three images, each a two-page spread",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "trinidad",
+   "flores",
+   "uruguay",
+   "familysearch",
+   "baptism",
+   "plate",
+   "deepzoom"
+  ],
+  "note": "PLATE READ, all three: (1) EUSEBIO RAMON, right-hand page of the spread (folio 127): 'Eusebio Ramon de la V.n del Carmen que nacio el catorce de este mes, hijo legitimo de Ramon Fernandez y Maria Lerena, padrino Eduardo Pelaez y Margarita Fernandez por poder de Laureana Maciel' - born 14 August 1855, the mother's surname written Lerena, not the machine's 'Leiena'. (2) JULIO SERVANDO DEL CARMEN, folio 122: 'hijo legitimo de Servasio Gonzales y Estefania Lerena', born 1 February 1855, baptised 7 June - the machine's 'Morales' and 'Serena' were Gonzales and Lerena; a row was added, and the 25 October guess that he is the Servando Cecilio of 1911 is left open because the second name differs. (3) ALEJANDRO PABLO, folio 151: 'hijo legitimo de Juan Pedro Pelaez y Antonina Lerena, padrino Alejandro Lerena y Margarita Fernandez Alvarez', born 30 June 1856 - confirmed. LESSON: each viewer image is a SPREAD of two pages and the machine transcript covers both, so a hit may sit on the right-hand page, which the first screenshot of the tile table does not show: scroll to scrollX 1100 to 1420. WAYPOINT NOT ESTABLISHED."
  }
 ]
