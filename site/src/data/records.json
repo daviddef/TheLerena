@@ -4024,6 +4024,15 @@
    ]
   },
   {
+   "id": "ark-3-1-3Q9M-CS27-V1YP",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS27-V1YP",
+   "label": "FamilySearch image 3:1:3Q9M-CS27-V1YP",
+   "kind": "ark",
+   "key": [
+    "3:1:3Q9M-CS27-V1YP"
+   ]
+  },
+  {
    "id": "ark-3-1-3Q9M-CS27-VY4T",
    "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS27-VY4T",
    "label": "FamilySearch image 3:1:3Q9M-CS27-VY4T",
@@ -4215,7 +4224,7 @@
   {
    "id": "ark-3-1-3Q9M-CS2Z-Z7CP-G",
    "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS2Z-Z7CP-G",
-   "label": "Uruguay, Marriage Records 1931-1932 (ark 3:1:3Q9M-CS2Z-Z7CP-G, folio 300) - a copy of the Trinidad marriage entry of 14 July 1867",
+   "label": "Uruguay, Marriage Records 1931-1932 (ark 3:1:3Q9M-CS2Z-Z7CP-G, folio 300) - a copy of the Trinidad marriage entry of 14 July 1877",
    "kind": "ark",
    "key": [
     "3:1:3Q9M-CS2Z-Z7CP-G"

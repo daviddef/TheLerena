@@ -5719,16 +5719,16 @@
   "tier": "ALIVE AT"
  },
  {
-  "name": "Laurencia LERENA Fernandez (b. c.1847, m. Francisco Lejeren 1867)",
-  "born_est": "1847c",
-  "last_attested_alive": "1847c",
+  "name": "Laurencia LERENA Fernandez (b. c.1857, m. Francisco Lejeren 1877)",
+  "born_est": "1857c",
+  "last_attested_alive": "1857c",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
  {
-  "name": "Francisco LEJEREN (m. Laurencia Lerena 1867)",
-  "born_est": "1842c",
-  "last_attested_alive": "1842c",
+  "name": "Francisco LEJEREN (m. Laurencia Lerena 1877)",
+  "born_est": "1852c",
+  "last_attested_alive": "1852c",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
