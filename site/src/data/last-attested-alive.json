@@ -946,6 +946,27 @@
  },
  {
   "name": "Ysaac LERENA (of Trinidad)",
+  "born_est": "1845-06-03",
+  "last_attested_alive": "1845-06-03",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Jose Gabriel Gustavo LERENA Gazo (b. 1880, Trinidad)",
+  "born_est": "1880-03-19",
+  "last_attested_alive": "1880-May-07",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Severino GORO (m. Maria Pastorina, Italian, of Trinidad)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maria Magdalena PASTORINA (wife of Severino Goro)",
   "born_est": "-",
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
@@ -5717,13 +5738,6 @@
   "last_attested_alive": "1838-Jul-08",
   "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
   "tier": "ALIVE AT"
- },
- {
-  "name": "Isaac Filomeno LERENA Fernandez (b. 1845, San Jose)",
-  "born_est": "1845-06-03",
-  "last_attested_alive": "1845-06-03",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
  },
  {
   "name": "Carmelo Belisario LERENA Montano (b. 1842, San Jose)",

@@ -3292,5 +3292,27 @@
   "groupId": "M9ZP-9FS",
   "film": "008163892",
   "waypointNote": "No wc=/owc= waypoint was available: the image viewer's URL carries a groupId (and the collection 4134697), not a waypoint, and the atlas holds no Uruguayan volume to check one against. The groupId is recorded as read from the URL and is NOT claimed to be a waypoint."
+ },
+ {
+  "src": "FamilySearch full text (Uruguay filter), \"Isaac Lerena\" - 12 results; the Trinidad baptism of 7 May 1880 (ark 3:1:3Q9M-CSJB-1RMF), the Trinidad civil death act of 2 January 1887 (ark 3:1:3Q9M-CS24-W77Q-4), the Trinidad baptisms of 1886 (arks 3:1:3Q9M-CS27-NQ7T-3 and 3:1:3Q9M-CS27-NQ7B-7) and the Flores marriage of 1899 (ark 3:1:3Q9M-CSKV-F9SV-S)",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJB-1RMF",
+  "waypoint": null,
+  "what": "Whether Isaac Filomeno, baptised at San Jose in 1845, lived - searched by his name in the full text",
+  "when": "2026-10-26",
+  "outcome": "yield",
+  "pages": "five hits opened",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "trinidad",
+   "flores",
+   "uruguay",
+   "familysearch",
+   "full-text",
+   "baptism",
+   "civil-death",
+   "gazo"
+  ],
+  "note": "FOUND: HE LIVED, AND THE REGISTER ALREADY HAD HIM. The Trinidad baptism of 7 May 1880 (Jose Gabriel Gustavo, born 19 March 1880) gives the father as 'Don Isaac Lerena' and the paternal grandparents as 'Don Alejandro y Dona Margarita Fernandez' - so the Ysaac LERENA of Trinidad (husband of Adelaida Gazo; held since 13 September 2026 with no parents) is Isaac Filomeno of 1845. The civil death act of 2 January 1887 has 'Don Isaac Lerena, oriental, de cuarenta y dos anos, casado, criador'; the marriage of his daughter Margarita in 1899 has him a carpenter. MERGED: the row of Isaac Filomeno was folded into Ysaac LERENA (of Trinidad), a redirect kept for the address that was live for a day, and three rows added (a son, and Adelaida's parents, an Italian couple whose daughters' godmothers were Estefania and Socorro Lerena). LESSON: a child found in a baptism book should be searched by name in the later full text before anything is entered - an hour of reading found what one search found. WAYPOINT NOT ESTABLISHED. Leads: the plates of the 1880 baptism, the 1887 act and the 1899 marriage; Isaac's own death; the other children (the Margarita born 26 December 1872 was baptised at Trinidad)."
  }
 ]

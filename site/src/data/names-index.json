@@ -1837,15 +1837,6 @@
    "url": "/people/irma-antonia-lerena-fernandez/"
   },
   {
-   "name": "Isaac Filomeno Lerena Fernandez",
-   "aliases": [
-    "Isaac Filomeno",
-    "Isaac Filomeno Lerena",
-    "Isaac Filomeno Lerena Fernández"
-   ],
-   "url": "/people/isaac-filomeno-lerena-fernandez/"
-  },
-  {
    "name": "Isabel Lerena Barragan",
    "aliases": [],
    "url": "/people/isabel-lerena-barragan/"
@@ -1976,6 +1967,15 @@
     "José Dolores Lerena y Lerena"
    ],
    "url": "/people/jose-dolores-lerena-y-lerena/"
+  },
+  {
+   "name": "Jose Gabriel Gustavo Lerena Gazo",
+   "aliases": [
+    "Jose Gabriel Gustavo Lerena",
+    "José Gabriel Gustavo Lerena",
+    "José Gabriel Gustavo Lerena Gazo"
+   ],
+   "url": "/people/jose-gabriel-gustavo-lerena-gazo/"
   },
   {
    "name": "Jose Joaquin Reyna",
@@ -3206,6 +3206,13 @@
    "url": "/people/maria-luisa-lina-lerena-gazo/"
   },
   {
+   "name": "Maria Magdalena Pastorina",
+   "aliases": [
+    "María Magdalena Pastorina"
+   ],
+   "url": "/people/maria-magdalena-pastorina/"
+  },
+  {
    "name": "Maria Margarita Luisa Zalduondo Lerena",
    "aliases": [
     "Maria Margarita Luisa Zalduondo",
@@ -3969,6 +3976,11 @@
    "url": "/people/severa-juliana-lerena-fernandez/"
   },
   {
+   "name": "Severino Goro",
+   "aliases": [],
+   "url": "/people/severino-goro/"
+  },
+  {
    "name": "Sixto Doroteo Lerena",
    "aliases": [],
    "url": "/people/sixto-doroteo-lerena/"
@@ -4160,6 +4172,13 @@
    "name": "William Taylor",
    "aliases": [],
    "url": "/people/william-taylor/"
+  },
+  {
+   "name": "Isaac Filomeno",
+   "aliases": [
+    "Isaac Lerena"
+   ],
+   "url": "/people/ysaac-lerena/"
   },
   {
    "name": "Ysidro Gregorio Lerena Pelaez",
@@ -5851,8 +5870,11 @@
   {
    "name": "Ysaac Lerena",
    "url": "/people/?q=Ysaac%20Lerena",
-   "bearers": [
-    "/people/ysaac-lerena/"
+   "resolve": [
+    {
+     "near": "/people/dona-adelaida-gazo/",
+     "url": "/people/ysaac-lerena/"
+    }
    ]
   }
  ],

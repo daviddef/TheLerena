@@ -40,6 +40,9 @@ const redirects = {
   '/people/pedro-lerena-vega': `${BASE}/people/pedro-lerena-vega-2/`,
 
   '/people/salvador-lorena': `${BASE}/people/salvador-lerena/`,
+  /* 26 October 2026. Isaac Filomeno LERENA Fernandez, baptised at San Jose in June 1845, was published for a day as a separate person;
+     the Trinidad baptism of his son in 1880 names his parents, and he is the Ysaac LERENA of Trinidad already held. MERGED. */
+  '/people/isaac-filomeno-lerena-fernandez': `${BASE}/people/ysaac-lerena/`,
 
   '/gaps': `${BASE}/open-questions/#may-never-close`,
   '/photograph-these': `${BASE}/errands/#photographs`,
