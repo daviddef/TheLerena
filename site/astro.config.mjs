@@ -40,6 +40,9 @@ const redirects = {
   '/people/pedro-lerena-vega': `${BASE}/people/pedro-lerena-vega-2/`,
 
   '/people/salvador-lorena': `${BASE}/people/salvador-lerena/`,
+  /* 26 October 2026. 'Alejandro F. Lerena' and 'Natalia Lerena', held from the Trinidad index since 11 October as the parents of Aurora Lerena, were not two people: the baptism of 3 September 1891 names her parents Alejandro and Severa Fernandez. The first is Alejandro Florencio, the younger; the second is Natalia Lerena, wife of Manuel Vaquero, who is Aurora's mother-in-law. MERGED. */
+  '/people/alejandro-f-lerena': `${BASE}/people/alejandro-lerena-2/`,
+  '/people/natalia-lerena': `${BASE}/people/natalia-lerena-2/`,
   /* 26 October 2026. The elder Bernabe drawn at the apex of the 1911 dispensation diagram, published since September as a person of his own, is the Bernabe of Trinidad who married Casimira Pelaez: the 1889 double wedding names the father of Maria Lerena, who married Eliseo Cardozo. MERGED. */
   '/people/bernabe-lerena-3': `${BASE}/people/bernabe-lerena/`,
   /* 26 October 2026. Isaac Filomeno LERENA Fernandez, baptised at San Jose in June 1845, was published for a day as a separate person;

@@ -1094,9 +1094,23 @@
  {
   "name": "Dona Juana RECUERO (wife of Florencio LERENA)",
   "born_est": "-",
-  "last_attested_alive": "-",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "last_attested_alive": "1891-Sep-03",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Eliseo RECUERO (father of Juana Recuero)",
+  "born_est": "-",
+  "last_attested_alive": "1891-Sep-03",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Juana SANTAMARTA (wife of Eliseo Recuero)",
+  "born_est": "-",
+  "last_attested_alive": "1891-Sep-03",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
  },
  {
   "name": "Juan Bernardo LERENA Pelaez",
@@ -1199,9 +1213,9 @@
  {
   "name": "Natalia Elena LERENA Recuero",
   "born_est": "1891-07-27",
-  "last_attested_alive": "1891-07-27",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "last_attested_alive": "1891-Sep-03",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
  },
  {
   "name": "Luis LERENA (son of Cayetana Faustina)",
@@ -3325,25 +3339,18 @@
   "tier": "ALIVE AT"
  },
  {
-  "name": "Alejandro F. LERENA (m. Natalia LERENA)",
-  "born_est": "-",
-  "last_attested_alive": "-",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
- },
- {
-  "name": "Natalia LERENA (m. Alejandro F. LERENA)",
-  "born_est": "-",
-  "last_attested_alive": "1891-Jul-27",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
- },
- {
   "name": "Aurora LERENA Fernandez (m. Manuel VAQUERO)",
   "born_est": "1868",
   "last_attested_alive": "1868",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Casto Severino VAQUERO Lerena (b. 1891, Trinidad)",
+  "born_est": "1891-07-06",
+  "last_attested_alive": "1891-Sep-03",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
  },
  {
   "name": "Manuel VAQUERO (m. Aurora Lerena)",

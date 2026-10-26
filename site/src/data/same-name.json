@@ -979,6 +979,16 @@
      "spouses": [],
      "children": [
       {
+       "slug": "aurora-lerena-fernandez",
+       "name": "Aurora LERENA Fernandez (m. Manuel VAQUERO)",
+       "tree": false
+      },
+      {
+       "slug": "florencio-lerena",
+       "name": "Florencio LERENA (of Trinidad)",
+       "tree": false
+      },
+      {
        "slug": "gualberto-lerena",
        "name": "Gualberto LERENA (m. Rosaura Alvarez)",
        "tree": false
@@ -1209,20 +1219,6 @@
       "name": "Rosaura ALVAREZ (m. Gualberto LERENA)",
       "tree": false
      },
-     "spouses": [],
-     "children": []
-    },
-    {
-     "slug": "alejandro-f-lerena",
-     "name": "Alejandro F. LERENA (m. Natalia LERENA)",
-     "exact": false,
-     "status": "unplaced",
-     "born": "",
-     "died": "",
-     "where": "Trinidad, Flores · Uruguayan",
-     "source": "FamilySearch, Uruguay Catholic Church Records 1726-2000 and Civil Registration 1879-2020 …",
-     "father": null,
-     "mother": null,
      "spouses": [],
      "children": []
     }

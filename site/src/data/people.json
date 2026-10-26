@@ -8815,10 +8815,10 @@
   "nationality": "Uruguayan",
   "occupation": "-",
   "where": "Trinidad, Flores",
-  "source": "Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 2026",
+  "source": "Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 2026; and Santisima Trinidad, Baptism Records 1889-1894 (image 110 of the item, ark 3:1:3Q9M-CS27-NQ7C-N), the entries of 3 September 1891 - *** MACHINE TRANSCRIPT, THE PLATE NOT OPENED *** 26 October 2026, found by FULL-TEXT search for 'Florencio Lerena'",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "One of the men fathering Lerena children at Trinidad, Flores in the 1870s and 1880s. Wife: Juana RECUERO. 1 child 1891. *** Six or seven men of a rare surname in one small inland town in a handful of years are almost certainly brothers or first cousins - this looks like the founding kindred of the surname in Uruguay. *** No Pablo and no Armando anywhere in the set.",
+  "note": "One of the men fathering Lerena children at Trinidad, Flores in the 1870s and 1880s. Wife: Juana RECUERO. 1 child 1891. *** Six or seven men of a rare surname in one small inland town in a handful of years are almost certainly brothers or first cousins - this looks like the founding kindred of the surname in Uruguay. *** No Pablo and no Armando anywhere in the set. *** FLORENCIO IS A SON OF ALEJANDRO THE YOUNGER AND SEVERA FERNANDEZ - FOUND 26 October 2026. *** The baptism of his daughter Natalia Elena on 3 September 1891 reads '... bautizo solemnemente a Natalia Elena, que nacio el veinte y siete de Julio del corriente ano, hija legitima de Florencio Lerena y de Juana Recuero, orientales = abuelos paternos Alejandro y Severa Fernandez = maternos Eliseo y Juana Santamarta; fueron padrinos Manuel Vaquero y Aurora Lerena'. So he is a brother of Aurora Lerena (whose own children's baptism, the same day, has the same maternal grandparents) and of the Pio, Venancio and Gualberto of the family, and PROBABLY THE PILAR FLORENCIO baptised on 19 October 1863 (twenty-eight in 1891), the Pilar being the first name he does not use; not merged. 'LERENA FERNANDEZ' is the compound the index gives him and his sister - the surnames of Alejandro and of Severa.",
   "place": "Trinidad, Flores",
   "placeSlug": "trinidad-flores",
   "surname": "LERENA",
@@ -8827,9 +8827,29 @@
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "living": false,
   "gen": null,
-  "father": null,
-  "mother": null,
-  "spouses": [],
+  "father": {
+   "name": "Alejandro LERENA (the younger, m.1 Isidora Chourino, m.2 Severa Fernandez 1854)",
+   "dates": "",
+   "slug": "alejandro-lerena-2",
+   "via": "register",
+   "note": "Trinidad baptisms of 3 September 1891 (machine transcript, 26 Oct 2026)."
+  },
+  "mother": {
+   "name": "Severa FERNANDEZ (m. Alejandro LERENA the younger, 1854)",
+   "dates": "",
+   "slug": "severa-fernandez",
+   "via": "register",
+   "note": "Trinidad baptisms of 3 September 1891 (machine transcript, 26 Oct 2026)."
+  },
+  "spouses": [
+   {
+    "name": "Dona Juana RECUERO (wife of Florencio LERENA)",
+    "dates": "",
+    "slug": "dona-juana-recuero",
+    "via": "register",
+    "note": "Trinidad baptisms of 3 September 1891 (machine transcript, 26 Oct 2026)."
+   }
+  ],
   "children": [
    {
     "name": "Edelma LERENA Recuero",
@@ -8850,16 +8870,77 @@
     "dates": "",
     "slug": "natalia-elena-lerena-recuero",
     "via": "register",
-    "note": "Stated in this person's own register note; wired 21 September 2026. Source: Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 202"
+    "note": "Trinidad baptisms of 3 September 1891 (machine transcript, 26 Oct 2026)."
    }
   ],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Aurora LERENA Fernandez (m. Manuel VAQUERO)",
+    "dates": "",
+    "slug": "aurora-lerena-fernandez",
+    "via": "register"
+   },
+   {
+    "name": "Gualberto LERENA (m. Rosaura Alvarez)",
+    "dates": "",
+    "slug": "gualberto-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Juan Ramon LERENA Fernandez (chr.1862)",
+    "dates": "",
+    "slug": "juan-ramon-lerena-fernandez",
+    "via": "register"
+   },
+   {
+    "name": "Justina Petronila Teresa LERENA Fernandez (chr.1860)",
+    "dates": "",
+    "slug": "justina-petronila-teresa-lerena-fernandez",
+    "via": "register"
+   },
+   {
+    "name": "Laurencia LERENA Fernandez (b. c.1857, m. Francisco Lejeren 1877)",
+    "dates": "",
+    "slug": "laurencia-lerena-fernandez",
+    "via": "register"
+   },
+   {
+    "name": "Pedro Segundo Gregorio LERENA Fernandez (chr.1865)",
+    "dates": "",
+    "slug": "pedro-segundo-gregorio-lerena-fernandez",
+    "via": "register"
+   },
+   {
+    "name": "Pilar Florencio LERENA Fernandez (chr.1863)",
+    "dates": "",
+    "slug": "pilar-florencio-lerena-fernandez",
+    "via": "register"
+   },
+   {
+    "name": "Pio C. LERENA",
+    "dates": "",
+    "slug": "pio-c-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Severa Juliana LERENA Fernandez (chr.1859)",
+    "dates": "",
+    "slug": "severa-juliana-lerena-fernandez",
+    "via": "register"
+   },
+   {
+    "name": "Venancio LERENA Fernandez (m. 1885)",
+    "dates": "",
+    "slug": "venancio-lerena-fernandez",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 3,
-  "relRegister": 3,
+  "relTotal": 6,
+  "relRegister": 6,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -8873,10 +8954,10 @@
   "nationality": "Uruguayan",
   "occupation": "-",
   "where": "Trinidad, Flores",
-  "source": "Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 2026",
+  "source": "Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 2026; and Santisima Trinidad, Baptism Records 1889-1894 (image 110 of the item, ark 3:1:3Q9M-CS27-NQ7C-N), the entries of 3 September 1891 - *** MACHINE TRANSCRIPT, THE PLATE NOT OPENED *** 26 October 2026, found by FULL-TEXT search for 'Florencio Lerena'",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "Married into the Trinidad Lerena kindred. *** BELOQUI, ECHEVERRY and PELAEZ are Basque surnames *** - evidence about the community these Lerenas married into, which bears on the Basque-or-Extremaduran question without settling it.",
+  "note": "Married into the Trinidad Lerena kindred. *** BELOQUI, ECHEVERRY and PELAEZ are Basque surnames *** - evidence about the community these Lerenas married into, which bears on the Basque-or-Extremaduran question without settling it. *** HER PARENTS, 26 October 2026: *** 'maternos Eliseo y Juana Santamarta' at her daughter's baptism of 3 September 1891 - the Recuero father and a mother Santamarta (the machine writes 'Santa Marta').",
   "place": "Trinidad, Flores",
   "placeSlug": "trinidad-flores",
   "surname": "RECUERO",
@@ -8885,9 +8966,29 @@
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "living": false,
   "gen": null,
-  "father": null,
-  "mother": null,
-  "spouses": [],
+  "father": {
+   "name": "Eliseo RECUERO (father of Juana Recuero)",
+   "dates": "",
+   "slug": "eliseo-recuero",
+   "via": "register",
+   "note": "Trinidad baptisms of 3 September 1891 (machine transcript, 26 Oct 2026)."
+  },
+  "mother": {
+   "name": "Juana SANTAMARTA (wife of Eliseo Recuero)",
+   "dates": "",
+   "slug": "juana-santamarta",
+   "via": "register",
+   "note": "Trinidad baptisms of 3 September 1891 (machine transcript, 26 Oct 2026)."
+  },
+  "spouses": [
+   {
+    "name": "Florencio LERENA (of Trinidad)",
+    "dates": "",
+    "slug": "florencio-lerena",
+    "via": "register",
+    "note": "Trinidad baptisms of 3 September 1891 (machine transcript, 26 Oct 2026)."
+   }
+  ],
   "children": [
    {
     "name": "Edelma LERENA Recuero",
@@ -8902,6 +9003,117 @@
     "slug": "elida-pilar-lerena-recuero",
     "via": "register",
     "note": "Trinidad, Flores - civil registration and parish baptism, the sweep of 27 September 2026 entered as people 11 October 2026. INDEX ONLY; no act opened."
+   },
+   {
+    "name": "Natalia Elena LERENA Recuero",
+    "dates": "",
+    "slug": "natalia-elena-lerena-recuero",
+    "via": "register",
+    "note": "Trinidad baptisms of 3 September 1891 (machine transcript, 26 Oct 2026)."
+   }
+  ],
+  "siblings": [],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 6,
+  "relRegister": 6,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "eliseo-recuero",
+  "name": "Eliseo RECUERO (father of Juana Recuero)",
+  "born": "-",
+  "died": "",
+  "birthplace": "Uruguay",
+  "nationality": "Oriental",
+  "occupation": "-",
+  "where": "Trinidad, Flores",
+  "source": "Santisima Trinidad, Baptism Records 1889-1894 (image 110 of the item, ark 3:1:3Q9M-CS27-NQ7C-N), the entries of 3 September 1891 - *** MACHINE TRANSCRIPT, THE PLATE NOT OPENED *** 26 October 2026, found by FULL-TEXT search for 'Florencio Lerena'",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** NAMED ONLY, as the father of Juana Recuero at the baptism of 3 September 1891, FOUND 26 October 2026. *** Husband of Juana Santamarta.",
+  "place": "Trinidad, Flores",
+  "placeSlug": "trinidad-flores",
+  "surname": "RECUERO",
+  "ark": "3:1:3Q9M-CS27-NQ7C-N",
+  "sourceUrl": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS27-NQ7C-N",
+  "noLink": "",
+  "living": false,
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [
+   {
+    "name": "Juana SANTAMARTA (wife of Eliseo Recuero)",
+    "dates": "",
+    "slug": "juana-santamarta",
+    "via": "register",
+    "note": "Trinidad baptisms of 3 September 1891 (machine transcript, 26 Oct 2026)."
+   }
+  ],
+  "children": [
+   {
+    "name": "Dona Juana RECUERO (wife of Florencio LERENA)",
+    "dates": "",
+    "slug": "dona-juana-recuero",
+    "via": "register",
+    "note": "Trinidad baptisms of 3 September 1891 (machine transcript, 26 Oct 2026)."
+   }
+  ],
+  "siblings": [],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "juana-santamarta",
+  "name": "Juana SANTAMARTA (wife of Eliseo Recuero)",
+  "born": "-",
+  "died": "",
+  "birthplace": "Uruguay",
+  "nationality": "Oriental",
+  "occupation": "-",
+  "where": "Trinidad, Flores",
+  "source": "Santisima Trinidad, Baptism Records 1889-1894 (image 110 of the item, ark 3:1:3Q9M-CS27-NQ7C-N), the entries of 3 September 1891 - *** MACHINE TRANSCRIPT, THE PLATE NOT OPENED *** 26 October 2026, found by FULL-TEXT search for 'Florencio Lerena'",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** NAMED ONLY, as the mother of Juana Recuero at the baptism of 3 September 1891, FOUND 26 October 2026. *** The machine writes Santa Marta.",
+  "place": "Trinidad, Flores",
+  "placeSlug": "trinidad-flores",
+  "surname": "SANTAMARTA",
+  "ark": "3:1:3Q9M-CS27-NQ7C-N",
+  "sourceUrl": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS27-NQ7C-N",
+  "noLink": "",
+  "living": false,
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [
+   {
+    "name": "Eliseo RECUERO (father of Juana Recuero)",
+    "dates": "",
+    "slug": "eliseo-recuero",
+    "via": "register",
+    "note": "Trinidad baptisms of 3 September 1891 (machine transcript, 26 Oct 2026)."
+   }
+  ],
+  "children": [
+   {
+    "name": "Dona Juana RECUERO (wife of Florencio LERENA)",
+    "dates": "",
+    "slug": "dona-juana-recuero",
+    "via": "register",
+    "note": "Trinidad baptisms of 3 September 1891 (machine transcript, 26 Oct 2026)."
    }
   ],
   "siblings": [],
@@ -10220,10 +10432,10 @@
   "nationality": "Uruguayan",
   "occupation": "-",
   "where": "Trinidad, Flores",
-  "source": "Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 2026",
+  "source": "Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 2026; and Santisima Trinidad, Baptism Records 1889-1894 (image 110 of the item, ark 3:1:3Q9M-CS27-NQ7C-N), the entries of 3 September 1891 - *** MACHINE TRANSCRIPT, THE PLATE NOT OPENED *** 26 October 2026, found by FULL-TEXT search for 'Florencio Lerena'",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "Child of Florencio Lerena and Juana Recuero, baptised or registered at Trinidad, Flores. Part of the Trinidad kindred - the densest concentration of the surname on earth. Not ours: there is no Pablo and no Armando in the whole set.",
+  "note": "Child of Florencio Lerena and Juana Recuero, baptised or registered at Trinidad, Flores. Part of the Trinidad kindred - the densest concentration of the surname on earth. Not ours: there is no Pablo and no Armando in the whole set. *** HER BAPTISM, 3 SEPTEMBER 1891, 26 October 2026: *** '... bautizo solemnemente a Natalia Elena, que nacio el veinte y siete de Julio del corriente ano, hija legitima de Florencio Lerena y de Juana Recuero, orientales = abuelos paternos Alejandro y Severa Fernandez = maternos Eliseo y Juana Santamarta; fueron padrinos Manuel Vaquero y Aurora Lerena' - her cousin Manuel Vaquero (Natalia's son) and his wife Aurora, her aunt, are her godparents; the note that she is a generation younger than the 'Natalia Lerena' of the Trinidad sweep stands, and that woman has been merged into Natalia Lerena (m. Manuel Vaquero) the same day.",
   "place": "Trinidad, Flores",
   "placeSlug": "trinidad-flores",
   "surname": "LERENA",
@@ -10239,7 +10451,13 @@
    "via": "register",
    "note": "Stated in this person's own register note; wired 21 September 2026. Source: Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 202"
   },
-  "mother": null,
+  "mother": {
+   "name": "Dona Juana RECUERO (wife of Florencio LERENA)",
+   "dates": "",
+   "slug": "dona-juana-recuero",
+   "via": "register",
+   "note": "Trinidad baptisms of 3 September 1891 (machine transcript, 26 Oct 2026)."
+  },
   "spouses": [],
   "children": [],
   "siblings": [
@@ -10260,8 +10478,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 1,
-  "relRegister": 1,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -26190,10 +26408,10 @@
   "nationality": "Uruguayan",
   "occupation": "-",
   "where": "Trinidad, Flores",
-  "source": "Arquidiocesis de Montevideo, Marriage Dispensation Records 1852-1855 - EXPEDIENTE, Trinidad, 2 December 1854; image 258, ark 3:1:3Q9M-C9B7-T9T9-T - FULL-TEXT read 9 October 2026; and FamilySearch RECORD INDEX - spelling sweeps PERENA, GERENA, LLERENA + Flores, 12 October 2026; and San Jose de Mayo, Baptism Records, the christening of Alexandro Florencio, 7 March 1829; image ark 3:1:3Q9M-CSKH-D95F-H, index ark 1:1:6ZM3-4PGV - *** IMAGE READ *** 17 October 2026; and the further records cited in the note below (arks 3:1:3Q9M-CS27-F34Y-Z); and Uruguay, Marriage Records 1931-1932 (image 156 of the item, folio 300, ark 3:1:3Q9M-CS2Z-Z7CP-G), a certified copy issued at Trinidad on 4 February 1932 of the Trinidad marriage entry of 14 July 1877 (the copy's date read 1867 in the machine transcript) - *** PLATE READ *** 26 October 2026, found by FULL-TEXT search for 'Alejandro Florencio' with 'Severa Fernandez'; and Santisima Trinidad, Religious Death Records June 1860 - December 1872 (image 70 of the item, ark 3:1:3Q9M-CS27-23WF-5), the burial entry of 6 March 1867 - *** MACHINE TRANSCRIPT, THE PLATE NOT OPENED *** 26 October 2026, found by FULL-TEXT search for 'Alejandro Florencio' with 'Severa Fernandez'",
+  "source": "Arquidiocesis de Montevideo, Marriage Dispensation Records 1852-1855 - EXPEDIENTE, Trinidad, 2 December 1854; image 258, ark 3:1:3Q9M-C9B7-T9T9-T - FULL-TEXT read 9 October 2026; and FamilySearch RECORD INDEX - spelling sweeps PERENA, GERENA, LLERENA + Flores, 12 October 2026; and San Jose de Mayo, Baptism Records, the christening of Alexandro Florencio, 7 March 1829; image ark 3:1:3Q9M-CSKH-D95F-H, index ark 1:1:6ZM3-4PGV - *** IMAGE READ *** 17 October 2026; and the further records cited in the note below (arks 3:1:3Q9M-CS27-F34Y-Z); and Uruguay, Marriage Records 1931-1932 (image 156 of the item, folio 300, ark 3:1:3Q9M-CS2Z-Z7CP-G), a certified copy issued at Trinidad on 4 February 1932 of the Trinidad marriage entry of 14 July 1877 (the copy's date read 1867 in the machine transcript) - *** PLATE READ *** 26 October 2026, found by FULL-TEXT search for 'Alejandro Florencio' with 'Severa Fernandez'; and Santisima Trinidad, Religious Death Records June 1860 - December 1872 (image 70 of the item, ark 3:1:3Q9M-CS27-23WF-5), the burial entry of 6 March 1867 - *** MACHINE TRANSCRIPT, THE PLATE NOT OPENED *** 26 October 2026, found by FULL-TEXT search for 'Alejandro Florencio' with 'Severa Fernandez'; and Santisima Trinidad, Baptism Records 1889-1894 (image 110 of the item, ark 3:1:3Q9M-CS27-NQ7C-N), the entries of 3 September 1891 - *** MACHINE TRANSCRIPT, THE PLATE NOT OPENED *** 26 October 2026, found by FULL-TEXT search for 'Florencio Lerena'",
   "status": "interest",
   "statusRaw": "UNPLACED - INTEREST",
-  "note": "*** A SECOND ALEJANDRO, AND THE REASON THIS ARCHIVE DID NOT COLLAPSE TWO WIVES INTO ONE. *** On 2 December 1854 at Trinidad he petitions as '*** Don ALEJANDRO LERENA de estado VIUDO de la finada Dona ISIDORA CHOURINO ***' to marry *** Dona SEVERA FERNANDEZ ***, and the witness names his parents as *** Don ALEJANDRO y Dona MARGARITA FERNANDEZ ALVAREZ *** - *** so he is a son of the elder Alejandro, and a brother of Socorro and Bernabe. *** *** HIS BRIDE IS A SISTER OF SOCORRO'S HUSBAND ***, both children of Manuel Fernandez Alvarez and Maria de los Reyes Gonzalez: *** two Lerena siblings married two Fernandez siblings in consecutive years, each pair dispensed. *** *** AND HIS FIRST MARRIAGE LEFT ISSUE: *** a daughter of his by Isidora Chourino married *** MALVINO PELAEZ ***, by a Flores death act of their son. He wished to marry quickly, the petition says, before a journey that would keep him away a long time. *** A SON AT LAST, AND HE CAME FROM THE GERENA SPELLING - 12 October 2026. *** *** VENANCIO ***, married at Santisima Trinidad on *** 24 April 1885 ***, with his parents given as 'Alejandro Lerma' and *** SEVERA FERNANDEZ ***. *** THIS ARCHIVE HAD NO CHILD OF EITHER OF HIS MARRIAGES. *** The same sweep returns his own marriage of 24 December 1854 under SERENA, which is the control. *** INDEX-LEVEL. *** *** HIS BAPTISM IS FOUND AND READ AT THE PLATE, 17 October 2026: BORN 23 FEBRUARY 1829 AT SAN JOSE, AS 'ALEXANDRO FLORENCIO'. *** 'En siete de Marzo de mil ochocientos veinte y nueve yo el Dr. D.n Feliciano Rodriguez, Cura y Vicario de esta Parroquia, bautice solemnemente a Alexandro Florencio, que nacio el veinte y tres del pasado, hijo legitimo de Alexandro Llerena y Margarita Fernandez Albares. Abuelos Paternos Ramon y Maria Gonzalez. Maternos Juan y Bart[...]. Madrina Clara Llerena'. *** THE INDEX HAS THE BIRTH AS 1823, A MIS-KEYED YEAR: *** the act says 'el veinte y tres del pasado' in a christening of 7 March 1829. *** FLORENCIO IS HIS MIDDLE NAME, *** which the index of his daughter Alejandrina's christening of 1852 already carried as 'Alejandro Florencio'. *** HE IS TWENTY-FIVE AT HIS REMARRIAGE IN 1854 *** - the expediente did not give an age - and the paternal grandparents Ramon and Maria Gonzalez are the apex of the 1858 diagram: the baptism, the diagram and Socorro's 1921 act agree. Identified with the Alejandro of the dispensations on both parents' names, the grandparents and San Jose; no other Alejandro and Margarita pair is known to this register. *** MORE CHILDREN, 19 October 2026: *** Pio Cipriano, born 16 September 1855 (a row of his own: 'Pio C. Lerena'), and a daughter born 1 October 1856 whose name the machine transcript garbles ('Sanscuria Remisia'; Trinidad Baptism Records 1848-1857, image 165, ark 3:1:3Q9M-CS27-F34Y-Z) with Ramon Fernandez and Maria Lerena - her uncle and aunt - as godparents. With Venancio (1858), Severa Juliana (1859), Justina Petronila Teresa (1860), Juan Ramon (1862) and Pilar Florencio (1863), the marriage of December 1854 has at least eight children. In 1904 his son Pio calls him 'Alejandro Florencio' and says both parents were dead. *** A DAUGHTER LAURENCIA, BORN ABOUT 1857, 26 October 2026: *** her marriage entry of 14 July 1877 names him 'Don Alejandro Florencio' and his wife 'Dona Severa Fernandez' as her parents; at twenty she was born between July 1856 and July 1857, and is very likely the daughter baptised on 13 October 1856. [An earlier version of this note dated her marriage 1867 and carried a conflict with the dispensation of 1854: withdrawn.] *** HIS BURIAL: HE DIED ON 5 MARCH 1867, AGED THIRTY-EIGHT, 26 October 2026. *** 'En seis de Marzo de mil ochocientos sesenta y siete, se sepulto en este Cementerio publico a Alejandro Florencio Herena que fallecio ayer de aneurisma a la edad de treinta y ocho anos, casado con Dona Severa Fernandez, ... de esta Parroquia en las puestas de San Jose' - the age fits his birth of 23 February 1829 to the month, the wife is Severa, and the entry puts him in the districts of San Jose of the Trinidad parish, where Manuel Fernandez also lived. So he was dead twelve years before the marriage of his daughter Laurencia in 1877 and left Severa a widow with at least eight children, the youngest, Pedro Segundo Gregorio, not two. Isidora Chourino's own death is still not found.",
+  "note": "*** A SECOND ALEJANDRO, AND THE REASON THIS ARCHIVE DID NOT COLLAPSE TWO WIVES INTO ONE. *** On 2 December 1854 at Trinidad he petitions as '*** Don ALEJANDRO LERENA de estado VIUDO de la finada Dona ISIDORA CHOURINO ***' to marry *** Dona SEVERA FERNANDEZ ***, and the witness names his parents as *** Don ALEJANDRO y Dona MARGARITA FERNANDEZ ALVAREZ *** - *** so he is a son of the elder Alejandro, and a brother of Socorro and Bernabe. *** *** HIS BRIDE IS A SISTER OF SOCORRO'S HUSBAND ***, both children of Manuel Fernandez Alvarez and Maria de los Reyes Gonzalez: *** two Lerena siblings married two Fernandez siblings in consecutive years, each pair dispensed. *** *** AND HIS FIRST MARRIAGE LEFT ISSUE: *** a daughter of his by Isidora Chourino married *** MALVINO PELAEZ ***, by a Flores death act of their son. He wished to marry quickly, the petition says, before a journey that would keep him away a long time. *** A SON AT LAST, AND HE CAME FROM THE GERENA SPELLING - 12 October 2026. *** *** VENANCIO ***, married at Santisima Trinidad on *** 24 April 1885 ***, with his parents given as 'Alejandro Lerma' and *** SEVERA FERNANDEZ ***. *** THIS ARCHIVE HAD NO CHILD OF EITHER OF HIS MARRIAGES. *** The same sweep returns his own marriage of 24 December 1854 under SERENA, which is the control. *** INDEX-LEVEL. *** *** HIS BAPTISM IS FOUND AND READ AT THE PLATE, 17 October 2026: BORN 23 FEBRUARY 1829 AT SAN JOSE, AS 'ALEXANDRO FLORENCIO'. *** 'En siete de Marzo de mil ochocientos veinte y nueve yo el Dr. D.n Feliciano Rodriguez, Cura y Vicario de esta Parroquia, bautice solemnemente a Alexandro Florencio, que nacio el veinte y tres del pasado, hijo legitimo de Alexandro Llerena y Margarita Fernandez Albares. Abuelos Paternos Ramon y Maria Gonzalez. Maternos Juan y Bart[...]. Madrina Clara Llerena'. *** THE INDEX HAS THE BIRTH AS 1823, A MIS-KEYED YEAR: *** the act says 'el veinte y tres del pasado' in a christening of 7 March 1829. *** FLORENCIO IS HIS MIDDLE NAME, *** which the index of his daughter Alejandrina's christening of 1852 already carried as 'Alejandro Florencio'. *** HE IS TWENTY-FIVE AT HIS REMARRIAGE IN 1854 *** - the expediente did not give an age - and the paternal grandparents Ramon and Maria Gonzalez are the apex of the 1858 diagram: the baptism, the diagram and Socorro's 1921 act agree. Identified with the Alejandro of the dispensations on both parents' names, the grandparents and San Jose; no other Alejandro and Margarita pair is known to this register. *** MORE CHILDREN, 19 October 2026: *** Pio Cipriano, born 16 September 1855 (a row of his own: 'Pio C. Lerena'), and a daughter born 1 October 1856 whose name the machine transcript garbles ('Sanscuria Remisia'; Trinidad Baptism Records 1848-1857, image 165, ark 3:1:3Q9M-CS27-F34Y-Z) with Ramon Fernandez and Maria Lerena - her uncle and aunt - as godparents. With Venancio (1858), Severa Juliana (1859), Justina Petronila Teresa (1860), Juan Ramon (1862) and Pilar Florencio (1863), the marriage of December 1854 has at least eight children. In 1904 his son Pio calls him 'Alejandro Florencio' and says both parents were dead. *** A DAUGHTER LAURENCIA, BORN ABOUT 1857, 26 October 2026: *** her marriage entry of 14 July 1877 names him 'Don Alejandro Florencio' and his wife 'Dona Severa Fernandez' as her parents; at twenty she was born between July 1856 and July 1857, and is very likely the daughter baptised on 13 October 1856. [An earlier version of this note dated her marriage 1867 and carried a conflict with the dispensation of 1854: withdrawn.] *** HIS BURIAL: HE DIED ON 5 MARCH 1867, AGED THIRTY-EIGHT, 26 October 2026. *** 'En seis de Marzo de mil ochocientos sesenta y siete, se sepulto en este Cementerio publico a Alejandro Florencio Herena que fallecio ayer de aneurisma a la edad de treinta y ocho anos, casado con Dona Severa Fernandez, ... de esta Parroquia en las puestas de San Jose' - the age fits his birth of 23 February 1829 to the month, the wife is Severa, and the entry puts him in the districts of San Jose of the Trinidad parish, where Manuel Fernandez also lived. So he was dead twelve years before the marriage of his daughter Laurencia in 1877 and left Severa a widow with at least eight children, the youngest, Pedro Segundo Gregorio, not two. Isidora Chourino's own death is still not found. *** A DAUGHTER AURORA, AND THE 'ALEJANDRO F. LERENA' OF THE INDEX IS HE - MERGED 26 October 2026: *** the register had held an 'Alejandro F. Lerena (m. Natalia Lerena)' from the Trinidad index as the father of Aurora Lerena, kept apart on arithmetic (a daughter born about 1868) and with the hypothesis that he was a son of the elder Alejandro. The baptism of 3 September 1891 names Aurora's parents as Alejandro and Severa Fernandez; the 'F.' is his second name Florencio; and the arithmetic fails at the other end, because the year 1868 is the index's own estimate. His children held are now Pio, Venancio, Gualberto, Laurencia, Aurora, Juan Ramon (probably Gualberto), Pilar Florencio (probably Florencio), Severa Juliana, Justina Petronila and Pedro Segundo Gregorio.",
   "place": "Trinidad, Flores",
   "placeSlug": "trinidad-flores",
   "surname": "LERENA",
@@ -26218,6 +26436,20 @@
   },
   "spouses": [],
   "children": [
+   {
+    "name": "Aurora LERENA Fernandez (m. Manuel VAQUERO)",
+    "dates": "",
+    "slug": "aurora-lerena-fernandez",
+    "via": "register",
+    "note": "Trinidad baptisms of 3 September 1891 (machine transcript, 26 Oct 2026)."
+   },
+   {
+    "name": "Florencio LERENA (of Trinidad)",
+    "dates": "",
+    "slug": "florencio-lerena",
+    "via": "register",
+    "note": "Trinidad baptisms of 3 September 1891 (machine transcript, 26 Oct 2026)."
+   },
    {
     "name": "Gualberto LERENA (m. Rosaura Alvarez)",
     "dates": "",
@@ -26342,8 +26574,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 11,
-  "relRegister": 11,
+  "relTotal": 13,
+  "relRegister": 13,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -26409,6 +26641,20 @@
   "mother": null,
   "spouses": [],
   "children": [
+   {
+    "name": "Aurora LERENA Fernandez (m. Manuel VAQUERO)",
+    "dates": "",
+    "slug": "aurora-lerena-fernandez",
+    "via": "register",
+    "note": "Trinidad baptisms of 3 September 1891 (machine transcript, 26 Oct 2026)."
+   },
+   {
+    "name": "Florencio LERENA (of Trinidad)",
+    "dates": "",
+    "slug": "florencio-lerena",
+    "via": "register",
+    "note": "Trinidad baptisms of 3 September 1891 (machine transcript, 26 Oct 2026)."
+   },
    {
     "name": "Gualberto LERENA (m. Rosaura Alvarez)",
     "dates": "",
@@ -26478,8 +26724,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 9,
-  "relRegister": 9,
+  "relTotal": 11,
+  "relRegister": 11,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -28604,78 +28850,6 @@
   "noindex": false
  },
  {
-  "slug": "alejandro-f-lerena",
-  "name": "Alejandro F. LERENA (m. Natalia LERENA)",
-  "born": "-",
-  "died": "",
-  "birthplace": "Uruguay",
-  "nationality": "Uruguayan",
-  "occupation": "-",
-  "where": "Trinidad, Flores",
-  "source": "FamilySearch, Uruguay Catholic Church Records 1726-2000 and Civil Registration 1879-2020 - the Trinidad, Flores birthplace sweep, pages 1-4, read 11 October 2026 - *** INDEX ONLY, no image opened ***",
-  "status": "unplaced",
-  "statusRaw": "UNPLACED",
-  "note": "*** Named as the father of AURORA LERENA on her children's civil birth registrations at Trinidad, 11 October 2026 ***, with his wife given as *** NATALIA LERENA ***. *** SO THIS IS A LERENA WHO MARRIED A LERENA *** - the same shape as the 1894, 1911 and 1913 couples, and the fourth such pairing this register has met. *** NO DISPENSATION HAS BEEN FOUND FOR THEM *** and none is claimed; their daughter was born about 1868, which puts the marriage in the 1860s, before the Montevideo dispensation series this archive has worked. *** HE IS ALSO ONE OF THE TWO MEN WORK-LIST ROW 137 CALLS UNWORKED *** - 'Alejandro F. Lerena' - and this is the first record to give him a wife and a child. *** INDEX ONLY. ***",
-  "place": "Trinidad, Flores",
-  "placeSlug": "trinidad-flores",
-  "surname": "LERENA",
-  "ark": "",
-  "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry",
-  "living": false,
-  "gen": null,
-  "father": null,
-  "mother": null,
-  "spouses": [],
-  "children": [],
-  "siblings": [],
-  "isLine": false,
-  "aliasOf": null,
-  "godparents": [],
-  "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
-  "relTree": 0,
-  "evidence": [],
-  "noindex": false
- },
- {
-  "slug": "natalia-lerena",
-  "name": "Natalia LERENA (m. Alejandro F. LERENA)",
-  "born": "-",
-  "died": "",
-  "birthplace": "Uruguay",
-  "nationality": "Uruguayan",
-  "occupation": "-",
-  "where": "Trinidad, Flores",
-  "source": "FamilySearch, Uruguay Catholic Church Records 1726-2000 and Civil Registration 1879-2020 - the Trinidad, Flores birthplace sweep, pages 1-4, read 11 October 2026 - *** INDEX ONLY, no image opened ***",
-  "status": "unplaced",
-  "statusRaw": "UNPLACED",
-  "note": "*** Named with her husband ALEJANDRO F. LERENA as a parent of AURORA LERENA *** on the Trinidad civil registrations of Aurora's children. *** SHE IS A LERENA MARRIED TO A LERENA ***, which is why her daughter is indexed 'Aurora Lerena Lerena'. *** NOTHING ELSE IS KNOWN - no parents, no dates, no act opened. *** *** AND SHE IS NOT TO BE CONFUSED WITH NATALIA ELENA LERENA RECUERO ***, born 27 July 1891 at Trinidad to Florencio and Juana Recuero, who is a generation younger. *** INDEX ONLY. ***",
-  "place": "Trinidad, Flores",
-  "placeSlug": "trinidad-flores",
-  "surname": "LERENA",
-  "ark": "",
-  "sourceUrl": "",
-  "noLink": "FamilySearch index — ark not recorded for this entry",
-  "living": false,
-  "gen": null,
-  "father": null,
-  "mother": null,
-  "spouses": [],
-  "children": [],
-  "siblings": [],
-  "isLine": false,
-  "aliasOf": null,
-  "godparents": [],
-  "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
-  "relTree": 0,
-  "evidence": [],
-  "noindex": false
- },
- {
   "slug": "aurora-lerena-fernandez",
   "name": "Aurora LERENA Fernandez (m. Manuel VAQUERO)",
   "born": "1868",
@@ -28684,10 +28858,10 @@
   "nationality": "Uruguayan",
   "occupation": "-",
   "where": "Trinidad, Flores",
-  "source": "FamilySearch, Uruguay Catholic Church Records 1726-2000 and Civil Registration 1879-2020 - the Trinidad, Flores birthplace sweep, pages 1-4, read 11 October 2026 - *** INDEX ONLY, no image opened ***; and FamilySearch RECORD INDEX - exact-surname parent-pair query, FATHER SURNAME LERENA with MOTHER SURNAME LERENA, 12 October 2026",
+  "source": "FamilySearch, Uruguay Catholic Church Records 1726-2000 and Civil Registration 1879-2020 - the Trinidad, Flores birthplace sweep, pages 1-4, read 11 October 2026 - *** INDEX ONLY, no image opened ***; and FamilySearch RECORD INDEX - exact-surname parent-pair query, FATHER SURNAME LERENA with MOTHER SURNAME LERENA, 12 October 2026; and Santisima Trinidad, Baptism Records 1889-1894 (image 110 of the item, ark 3:1:3Q9M-CS27-NQ7C-N), the entries of 3 September 1891 - *** MACHINE TRANSCRIPT, THE PLATE NOT OPENED *** 26 October 2026, found by FULL-TEXT search for 'Florencio Lerena'",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "*** A FIFTH LERENA WOMAN AT TRINIDAD RECORDED AS A MOTHER, and this one has her parents named - 11 October 2026. *** Born about *** 1868 ***, daughter of *** ALEJANDRO F. LERENA and NATALIA LERENA ***, married *** MANUEL VAQUERO ***. *** AT LEAST FIVE CHILDREN, all registered at Trinidad: *** Casto Ceverino (b. 6 July 1891), Delmira Eugenia (13 November 1892), Flora Ecolastica (10 February 1896), Herminia (16 June 1900) and Gerardo Nicasio (14 December 1900). *** THE LAST TWO CANNOT BOTH BE RIGHT: *** Herminia and Gerardo are six months apart and were christened on the same day, 7 January 1901, so one birth date is misindexed. *** Recorded as a conflict rather than smoothed. *** *** THE INDEX GIVES HER COMPOUND AS 'LERENA FERNANDEZ' on some entries and 'LERENA LERENA' on others ***; her mother is named Natalia LERENA, so the second is the likelier truth and the first may be a confusion with the Lerena Fernandez of the elder generation. *** NOT RESOLVED. *** *** INDEX ONLY. *** *** AND AN INDEPENDENT QUERY RETURNED HER AGAIN, WITH THE SAME PARENTS - 12 October 2026. *** A worldwide search for every couple with a *** LERENA FATHER AND A LERENA MOTHER *** returned thirty-eight, and she is one of them: *** 'Aurora Lerena, born 1868, Trinidad, Flores; parents ALEJANDRO F. LERENA and NATALIA LERENA; spouse MANUEL VAQUERO; child ELMIRA VAQUERO' ***. *** THAT IS THIS ROW EXACTLY ***, found by a different route from the Trinidad birthplace sweep that produced it, which is the nearest thing an index gives to corroboration. *** 'ELMIRA' IS THE DELMIRA EUGENIA ALREADY LISTED HERE ***, born 13 November 1892 - the index drops the D. *** AND THIS ROW ALMOST BECAME TWO. *** Working from the query alone, this archive entered an 'Aurora LERENA (b.1868, dau. of Alejandro F. and Natalia)' and an 'Elmira VAQUERO Lerena' before noticing they were already here. The build refused only because MANUEL VAQUERO collided with himself by exact name; *** the other two would have passed every gate, because a duplicate under a different spelling is not a duplicate to a name check. ***",
+  "note": "*** A FIFTH LERENA WOMAN AT TRINIDAD RECORDED AS A MOTHER, and this one has her parents named - 11 October 2026. *** Born about *** 1868 ***, daughter of *** ALEJANDRO F. LERENA and NATALIA LERENA ***, married *** MANUEL VAQUERO ***. *** AT LEAST FIVE CHILDREN, all registered at Trinidad: *** Casto Ceverino (b. 6 July 1891), Delmira Eugenia (13 November 1892), Flora Ecolastica (10 February 1896), Herminia (16 June 1900) and Gerardo Nicasio (14 December 1900). *** THE LAST TWO CANNOT BOTH BE RIGHT: *** Herminia and Gerardo are six months apart and were christened on the same day, 7 January 1901, so one birth date is misindexed. *** Recorded as a conflict rather than smoothed. *** *** THE INDEX GIVES HER COMPOUND AS 'LERENA FERNANDEZ' on some entries and 'LERENA LERENA' on others ***; her mother is named Natalia LERENA, so the second is the likelier truth and the first may be a confusion with the Lerena Fernandez of the elder generation. *** NOT RESOLVED. *** *** INDEX ONLY. *** *** AND AN INDEPENDENT QUERY RETURNED HER AGAIN, WITH THE SAME PARENTS - 12 October 2026. *** A worldwide search for every couple with a *** LERENA FATHER AND A LERENA MOTHER *** returned thirty-eight, and she is one of them: *** 'Aurora Lerena, born 1868, Trinidad, Flores; parents ALEJANDRO F. LERENA and NATALIA LERENA; spouse MANUEL VAQUERO; child ELMIRA VAQUERO' ***. *** THAT IS THIS ROW EXACTLY ***, found by a different route from the Trinidad birthplace sweep that produced it, which is the nearest thing an index gives to corroboration. *** 'ELMIRA' IS THE DELMIRA EUGENIA ALREADY LISTED HERE ***, born 13 November 1892 - the index drops the D. *** AND THIS ROW ALMOST BECAME TWO. *** Working from the query alone, this archive entered an 'Aurora LERENA (b.1868, dau. of Alejandro F. and Natalia)' and an 'Elmira VAQUERO Lerena' before noticing they were already here. The build refused only because MANUEL VAQUERO collided with himself by exact name; *** the other two would have passed every gate, because a duplicate under a different spelling is not a duplicate to a name check. *** *** HER PARENTS ARE ALEJANDRO LERENA THE YOUNGER AND SEVERA FERNANDEZ - FOUND AND MERGED 26 October 2026. *** The baptism of her son Casto Severino on 3 September 1891 reads '... bautizo solemnemente a Casto Severino, que nacio el seis de Julio del corriente ano, hijo legitimo de Manuel Vaquero y de Aurora Lerena = abuelos paternos Manuel y Natalia Lerena = maternos Alejandro y Severa Fernandez = fueron padrinos Daniel Beratarbide y Julia Lerena'. So 'Alejandro F. Lerena', whom this row named as her father with a wife 'Natalia Lerena', is Alejandro Florencio, the younger, and her mother is SEVERA FERNANDEZ - the 'Natalia Lerena' of the index is her husband's mother, named in the same entry as his paternal grandmother and taken by the indexer for the wife of the maternal grandfather. HER COMPOUND 'LERENA FERNANDEZ' WAS RIGHT AND 'LERENA LERENA' WAS THE CONFUSION, the opposite of what this row guessed. SHE MARRIED HER FIRST COUSIN: Manuel Vaquero is the son of Natalia Lerena, her father's sister. THE BIRTH YEAR 'ABOUT 1868' IS THE INDEX'S ESTIMATE: her father was buried on 6 March 1867, so she was born by the end of 1867 at the latest, or the index is a year out.",
   "place": "Trinidad, Flores",
   "placeSlug": "trinidad-flores",
   "surname": "LERENA",
@@ -28696,8 +28870,145 @@
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "living": false,
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Alejandro LERENA (the younger, m.1 Isidora Chourino, m.2 Severa Fernandez 1854)",
+   "dates": "",
+   "slug": "alejandro-lerena-2",
+   "via": "register",
+   "note": "Trinidad baptisms of 3 September 1891 (machine transcript, 26 Oct 2026)."
+  },
+  "mother": {
+   "name": "Severa FERNANDEZ (m. Alejandro LERENA the younger, 1854)",
+   "dates": "",
+   "slug": "severa-fernandez",
+   "via": "register",
+   "note": "Trinidad baptisms of 3 September 1891 (machine transcript, 26 Oct 2026)."
+  },
+  "spouses": [
+   {
+    "name": "Manuel VAQUERO (m. Aurora Lerena)",
+    "dates": "",
+    "slug": "manuel-vaquero",
+    "via": "register",
+    "note": "Trinidad baptisms of 3 September 1891 (machine transcript, 26 Oct 2026)."
+   }
+  ],
+  "children": [
+   {
+    "name": "Casto Severino VAQUERO Lerena (b. 1891, Trinidad)",
+    "dates": "",
+    "slug": "casto-severino-vaquero-lerena",
+    "via": "register",
+    "note": "Trinidad baptism of 3 September 1891 (machine transcript, 26 Oct 2026)."
+   }
+  ],
+  "siblings": [
+   {
+    "name": "Florencio LERENA (of Trinidad)",
+    "dates": "",
+    "slug": "florencio-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Gualberto LERENA (m. Rosaura Alvarez)",
+    "dates": "",
+    "slug": "gualberto-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Juan Ramon LERENA Fernandez (chr.1862)",
+    "dates": "",
+    "slug": "juan-ramon-lerena-fernandez",
+    "via": "register"
+   },
+   {
+    "name": "Justina Petronila Teresa LERENA Fernandez (chr.1860)",
+    "dates": "",
+    "slug": "justina-petronila-teresa-lerena-fernandez",
+    "via": "register"
+   },
+   {
+    "name": "Laurencia LERENA Fernandez (b. c.1857, m. Francisco Lejeren 1877)",
+    "dates": "",
+    "slug": "laurencia-lerena-fernandez",
+    "via": "register"
+   },
+   {
+    "name": "Pedro Segundo Gregorio LERENA Fernandez (chr.1865)",
+    "dates": "",
+    "slug": "pedro-segundo-gregorio-lerena-fernandez",
+    "via": "register"
+   },
+   {
+    "name": "Pilar Florencio LERENA Fernandez (chr.1863)",
+    "dates": "",
+    "slug": "pilar-florencio-lerena-fernandez",
+    "via": "register"
+   },
+   {
+    "name": "Pio C. LERENA",
+    "dates": "",
+    "slug": "pio-c-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Severa Juliana LERENA Fernandez (chr.1859)",
+    "dates": "",
+    "slug": "severa-juliana-lerena-fernandez",
+    "via": "register"
+   },
+   {
+    "name": "Venancio LERENA Fernandez (m. 1885)",
+    "dates": "",
+    "slug": "venancio-lerena-fernandez",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 4,
+  "relRegister": 4,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "casto-severino-vaquero-lerena",
+  "name": "Casto Severino VAQUERO Lerena (b. 1891, Trinidad)",
+  "born": "1891-07-06",
+  "died": "",
+  "birthplace": "Trinidad, Flores, Uruguay",
+  "nationality": "Oriental",
+  "occupation": "-",
+  "where": "Trinidad, Flores",
+  "source": "Santisima Trinidad, Baptism Records 1889-1894 (image 110 of the item, ark 3:1:3Q9M-CS27-NQ7C-N), the entry of 3 September 1891 - *** MACHINE TRANSCRIPT, THE PLATE NOT OPENED *** 26 October 2026",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** THE ELDEST CHILD HELD OF MANUEL VAQUERO AND AURORA LERENA, FOUND IN HIS BAPTISM 26 October 2026. *** Baptised 3 September 1891, 'Casto Severino, que nacio el seis de Julio del corriente ano, hijo legitimo de Manuel Vaquero y de Aurora Lerena = abuelos paternos Manuel y Natalia Lerena = maternos Alejandro y Severa Fernandez; padrinos Daniel Beratarbide y Julia Lerena' - the entry that gave Aurora her parents. Born when his parents were first cousins at about twenty-four and twenty-three. His godmother Julia Lerena is not placed.",
+  "place": "Trinidad, Flores",
+  "placeSlug": "trinidad-flores",
+  "surname": "VAQUERO",
+  "ark": "3:1:3Q9M-CS27-NQ7C-N",
+  "sourceUrl": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS27-NQ7C-N",
+  "noLink": "",
+  "living": false,
+  "gen": null,
+  "father": {
+   "name": "Manuel VAQUERO (m. Aurora Lerena)",
+   "dates": "",
+   "slug": "manuel-vaquero",
+   "via": "register",
+   "note": "Trinidad baptism of 3 September 1891 (machine transcript, 26 Oct 2026)."
+  },
+  "mother": {
+   "name": "Aurora LERENA Fernandez (m. Manuel VAQUERO)",
+   "dates": "",
+   "slug": "aurora-lerena-fernandez",
+   "via": "register",
+   "note": "Trinidad baptism of 3 September 1891 (machine transcript, 26 Oct 2026)."
+  },
   "spouses": [],
   "children": [],
   "siblings": [],
@@ -28705,8 +29016,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -28734,15 +29045,31 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
-  "children": [],
+  "spouses": [
+   {
+    "name": "Aurora LERENA Fernandez (m. Manuel VAQUERO)",
+    "dates": "",
+    "slug": "aurora-lerena-fernandez",
+    "via": "register",
+    "note": "Trinidad baptisms of 3 September 1891 (machine transcript, 26 Oct 2026)."
+   }
+  ],
+  "children": [
+   {
+    "name": "Casto Severino VAQUERO Lerena (b. 1891, Trinidad)",
+    "dates": "",
+    "slug": "casto-severino-vaquero-lerena",
+    "via": "register",
+    "note": "Trinidad baptism of 3 September 1891 (machine transcript, 26 Oct 2026)."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -30643,6 +30970,18 @@
   ],
   "siblings": [
    {
+    "name": "Aurora LERENA Fernandez (m. Manuel VAQUERO)",
+    "dates": "",
+    "slug": "aurora-lerena-fernandez",
+    "via": "register"
+   },
+   {
+    "name": "Florencio LERENA (of Trinidad)",
+    "dates": "",
+    "slug": "florencio-lerena",
+    "via": "register"
+   },
+   {
     "name": "Gualberto LERENA (m. Rosaura Alvarez)",
     "dates": "",
     "slug": "gualberto-lerena",
@@ -31182,6 +31521,18 @@
    }
   ],
   "siblings": [
+   {
+    "name": "Aurora LERENA Fernandez (m. Manuel VAQUERO)",
+    "dates": "",
+    "slug": "aurora-lerena-fernandez",
+    "via": "register"
+   },
+   {
+    "name": "Florencio LERENA (of Trinidad)",
+    "dates": "",
+    "slug": "florencio-lerena",
+    "via": "register"
+   },
    {
     "name": "Juan Ramon LERENA Fernandez (chr.1862)",
     "dates": "",
@@ -38582,6 +38933,18 @@
   "spouses": [],
   "children": [],
   "siblings": [
+   {
+    "name": "Aurora LERENA Fernandez (m. Manuel VAQUERO)",
+    "dates": "",
+    "slug": "aurora-lerena-fernandez",
+    "via": "register"
+   },
+   {
+    "name": "Florencio LERENA (of Trinidad)",
+    "dates": "",
+    "slug": "florencio-lerena",
+    "via": "register"
+   },
    {
     "name": "Gualberto LERENA (m. Rosaura Alvarez)",
     "dates": "",
@@ -47438,6 +47801,18 @@
   "children": [],
   "siblings": [
    {
+    "name": "Aurora LERENA Fernandez (m. Manuel VAQUERO)",
+    "dates": "",
+    "slug": "aurora-lerena-fernandez",
+    "via": "register"
+   },
+   {
+    "name": "Florencio LERENA (of Trinidad)",
+    "dates": "",
+    "slug": "florencio-lerena",
+    "via": "register"
+   },
+   {
     "name": "Gualberto LERENA (m. Rosaura Alvarez)",
     "dates": "",
     "slug": "gualberto-lerena",
@@ -47542,6 +47917,18 @@
   ],
   "children": [],
   "siblings": [
+   {
+    "name": "Aurora LERENA Fernandez (m. Manuel VAQUERO)",
+    "dates": "",
+    "slug": "aurora-lerena-fernandez",
+    "via": "register"
+   },
+   {
+    "name": "Florencio LERENA (of Trinidad)",
+    "dates": "",
+    "slug": "florencio-lerena",
+    "via": "register"
+   },
    {
     "name": "Gualberto LERENA (m. Rosaura Alvarez)",
     "dates": "",
@@ -48977,10 +49364,10 @@
   "nationality": "Oriental",
   "occupation": "-",
   "where": "Trinidad, Flores",
-  "source": "Trinidad, Baptism Records October 1857 - August 1866 (film 008163892, item 3, 238 images) - the entries of 2 June 1862 and 26 January 1866 (arks 3:1:3Q9M-CS27-F3CR-K and 3:1:3Q9M-CS27-F3CD-N) and the godmother's entry of 21 August 1858 (ark 3:1:3Q9M-CS27-F34P-F) - *** MACHINE TRANSCRIPTS *** 19 October 2026; and San Jose, Baptism Records September 1862 - December 1865 - the entry of 5 March 1864, image ark 3:1:3Q9M-CS27-C9XF-7 - *** MACHINE TRANSCRIPT *** 19 October 2026, found by the same full-text search; and Arquidiocesis de Montevideo, Marriage Dispensation Records 1857-1860 (the volume runs into 1861) - expediente no. 440 of July 1861, image ark 3:1:3Q9M-C9B7-VWH8-N - *** MACHINE TRANSCRIPT *** 19 October 2026, found by the same full-text search; and Flores, Death Records 1888-1917 - the civil death act of 11 March 1889 at Chamanga (Sexta Seccion), image ark 3:1:3Q9M-CS24-QC2V - *** MACHINE TRANSCRIPT *** 19 October 2026, found by a FULL-TEXT search for 'Manuel Vaquero' and 'Natalia Lerena'; and San Jose de Mayo, Baptism Records May 1828 - January 1836, the entry of 1834 (entry no. 825; image ark 3:1:3Q9M-CSKH-D9PR-J) - *** MACHINE TRANSCRIPT *** 19 October 2026, found by a full-text search for 'Natalia' with 'Margarita Fernandez' and 'Maria Gonzalez' in San Jose; and Montevideo, Marriage Records 1898-1899 (image 114 of the item, ark 3:1:3Q9M-CS2Z-HQ9Y-2), a certified copy of the Trinidad marriage entry of 5 August 1861 - *** MACHINE TRANSCRIPT, THE PLATE NOT OPENED *** 26 October 2026",
+  "source": "Trinidad, Baptism Records October 1857 - August 1866 (film 008163892, item 3, 238 images) - the entries of 2 June 1862 and 26 January 1866 (arks 3:1:3Q9M-CS27-F3CR-K and 3:1:3Q9M-CS27-F3CD-N) and the godmother's entry of 21 August 1858 (ark 3:1:3Q9M-CS27-F34P-F) - *** MACHINE TRANSCRIPTS *** 19 October 2026; and San Jose, Baptism Records September 1862 - December 1865 - the entry of 5 March 1864, image ark 3:1:3Q9M-CS27-C9XF-7 - *** MACHINE TRANSCRIPT *** 19 October 2026, found by the same full-text search; and Arquidiocesis de Montevideo, Marriage Dispensation Records 1857-1860 (the volume runs into 1861) - expediente no. 440 of July 1861, image ark 3:1:3Q9M-C9B7-VWH8-N - *** MACHINE TRANSCRIPT *** 19 October 2026, found by the same full-text search; and Flores, Death Records 1888-1917 - the civil death act of 11 March 1889 at Chamanga (Sexta Seccion), image ark 3:1:3Q9M-CS24-QC2V - *** MACHINE TRANSCRIPT *** 19 October 2026, found by a FULL-TEXT search for 'Manuel Vaquero' and 'Natalia Lerena'; and San Jose de Mayo, Baptism Records May 1828 - January 1836, the entry of 1834 (entry no. 825; image ark 3:1:3Q9M-CSKH-D9PR-J) - *** MACHINE TRANSCRIPT *** 19 October 2026, found by a full-text search for 'Natalia' with 'Margarita Fernandez' and 'Maria Gonzalez' in San Jose; and Montevideo, Marriage Records 1898-1899 (image 114 of the item, ark 3:1:3Q9M-CS2Z-HQ9Y-2), a certified copy of the Trinidad marriage entry of 5 August 1861 - *** MACHINE TRANSCRIPT, THE PLATE NOT OPENED *** 26 October 2026; and Santisima Trinidad, Baptism Records 1889-1894 (image 110 of the item, ark 3:1:3Q9M-CS27-NQ7C-N), the entries of 3 September 1891 - *** MACHINE TRANSCRIPT, THE PLATE NOT OPENED *** 26 October 2026, found by FULL-TEXT search for 'Florencio Lerena'",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "*** MARIA LERENA'S SISTER NATALIA, THE FOURTH DAUGHTER OF THE 1853 PETITION, FOUND 19 October 2026. *** 'Natalia Lerena' is godmother with Ramon Fernandez on 21 August 1858; 'Manuel Vaquero y Natalia Lerena', Orientales, are the parents of Manuel Indalecio, born 21 May 1862, whose godparents are Alexandro Lerena and Margarita Fernandez, and of Pablo, born 26 January 1866 ('naturales de San Jose'). The godparents of 1862 are her parents. *** HER PARENTS ARE NOW STATED, 19 October 2026: *** the San Jose baptism of 5 March 1864 (machine transcript) of her daughter Alejandra Justa, born 26 February 1864, 'hija legitima de D. Manuel Vaquero y de Dona Natalia Lerena; abuelos pat. D. Pedro y Dona Manuela Muniz; Mat. D. Alejandro y Dona Margarita Fernandez' - her father and mother are Alejandro Lerena and Margarita Fernandez, the pair of the San Jose acts. *** HER MARRIAGE FALLS IN THE SECOND HALF OF 1861: *** on 4 July 1861 'Manuel Vaquero' petitioned the Montevideo curia to marry 'Dona Natalia Lerena, vecina del Pueblo de la SSma. Trinidad en Porongos' and was granted the dispensation of the three banns (expediente no. 440), the despatch going to the cura of Trinidad; their son Manuel was born on 21 May 1862. *** HER HUSBAND IS NAMED AS HER HUSBAND IN 1889: *** the civil act of 11 March 1889 names her as the wife of Manuel Vaquero and says that of the marriage one son remains, 'llamado Manuel Vaquero'. Her daughter Alejandra Justa and son Pablo (born 1866) are not named as surviving in 1889. This is the daughter the petition's 'nueve hijos, entre estos cuatro mujeres' needed beside Maria, Estefania and Socorro. *** HER OWN BAPTISM IS FOUND, 19 October 2026: NATALIA ISIDORA, BORN 15 MAY 1834 AT SAN JOSE. *** 'y puse los Santos Oleo y Crisma a Natalia Isidora que nacio el quince de Mayo del presente ano, hija legitima de Don Alexandro Ledena [Lerena] y Dona Margarita Fernandez Alvarez: abuelos paternos Ramon y Maria Josefa Gonzalez; fueron padrinos Don Jose Bruno Larriera y su esposa Josefa Morales', the cura Jose Joaquin Reyna; the entry's date line is on the previous image and the next entry is of 10 July 1834, so she was baptised between late May and 9 July 1834. She was twenty-seven at the dispensation of the banns in July 1861 and twenty-eight at her son's birth; she is the fifth of the children (after Estefania 1831 and Socorro 1832), two years before Bernabe. The surname is written 'Ledena', which is why an earlier read of this volume by machine index missed her. Her godparents are the Larriera and Morales couple who stand for Bernabe in 1836. *** HER MARRIAGE ENTRY, FOUND 26 October 2026: *** 5 August 1861 at Trinidad - 'En cinco de Agosto de mil ochocientos sesenta y uno ... Presbitero Jocundo Bonamino Cura Vicario de esta parroquia de la Santisima Trinidad en Porongos con dispensa de las tres conciliares proclamas ... desposé in facie Eclesiae a Manuel Baquero, oriental, soltero, natural de San Jose y vecino de esta parroquia, de la edad de veinte siete anos, hijo legitimo del finado Pedro Baquero, espanol, y de Manuela Muniz, oriental, con Natalia Lerena, soltera, natural de San Jose y vecina de esta parroquia, de la edad de veinte siete anos, hija legitima de Alejandro [Lerena] y de Margarita Fernandez, orientales. Fueron testigos Alejandro Lerena [y] Margarita Fernandez'. So she married at twenty-seven, with the banns dispensed, and her father and mother were the witnesses; the age agrees with her baptism of 15 May 1834. Her first child known, Manuel Indalecio, was born on 21 May 1862, nine months and sixteen days later.",
+  "note": "*** MARIA LERENA'S SISTER NATALIA, THE FOURTH DAUGHTER OF THE 1853 PETITION, FOUND 19 October 2026. *** 'Natalia Lerena' is godmother with Ramon Fernandez on 21 August 1858; 'Manuel Vaquero y Natalia Lerena', Orientales, are the parents of Manuel Indalecio, born 21 May 1862, whose godparents are Alexandro Lerena and Margarita Fernandez, and of Pablo, born 26 January 1866 ('naturales de San Jose'). The godparents of 1862 are her parents. *** HER PARENTS ARE NOW STATED, 19 October 2026: *** the San Jose baptism of 5 March 1864 (machine transcript) of her daughter Alejandra Justa, born 26 February 1864, 'hija legitima de D. Manuel Vaquero y de Dona Natalia Lerena; abuelos pat. D. Pedro y Dona Manuela Muniz; Mat. D. Alejandro y Dona Margarita Fernandez' - her father and mother are Alejandro Lerena and Margarita Fernandez, the pair of the San Jose acts. *** HER MARRIAGE FALLS IN THE SECOND HALF OF 1861: *** on 4 July 1861 'Manuel Vaquero' petitioned the Montevideo curia to marry 'Dona Natalia Lerena, vecina del Pueblo de la SSma. Trinidad en Porongos' and was granted the dispensation of the three banns (expediente no. 440), the despatch going to the cura of Trinidad; their son Manuel was born on 21 May 1862. *** HER HUSBAND IS NAMED AS HER HUSBAND IN 1889: *** the civil act of 11 March 1889 names her as the wife of Manuel Vaquero and says that of the marriage one son remains, 'llamado Manuel Vaquero'. Her daughter Alejandra Justa and son Pablo (born 1866) are not named as surviving in 1889. This is the daughter the petition's 'nueve hijos, entre estos cuatro mujeres' needed beside Maria, Estefania and Socorro. *** HER OWN BAPTISM IS FOUND, 19 October 2026: NATALIA ISIDORA, BORN 15 MAY 1834 AT SAN JOSE. *** 'y puse los Santos Oleo y Crisma a Natalia Isidora que nacio el quince de Mayo del presente ano, hija legitima de Don Alexandro Ledena [Lerena] y Dona Margarita Fernandez Alvarez: abuelos paternos Ramon y Maria Josefa Gonzalez; fueron padrinos Don Jose Bruno Larriera y su esposa Josefa Morales', the cura Jose Joaquin Reyna; the entry's date line is on the previous image and the next entry is of 10 July 1834, so she was baptised between late May and 9 July 1834. She was twenty-seven at the dispensation of the banns in July 1861 and twenty-eight at her son's birth; she is the fifth of the children (after Estefania 1831 and Socorro 1832), two years before Bernabe. The surname is written 'Ledena', which is why an earlier read of this volume by machine index missed her. Her godparents are the Larriera and Morales couple who stand for Bernabe in 1836. *** HER MARRIAGE ENTRY, FOUND 26 October 2026: *** 5 August 1861 at Trinidad - 'En cinco de Agosto de mil ochocientos sesenta y uno ... Presbitero Jocundo Bonamino Cura Vicario de esta parroquia de la Santisima Trinidad en Porongos con dispensa de las tres conciliares proclamas ... desposé in facie Eclesiae a Manuel Baquero, oriental, soltero, natural de San Jose y vecino de esta parroquia, de la edad de veinte siete anos, hijo legitimo del finado Pedro Baquero, espanol, y de Manuela Muniz, oriental, con Natalia Lerena, soltera, natural de San Jose y vecina de esta parroquia, de la edad de veinte siete anos, hija legitima de Alejandro [Lerena] y de Margarita Fernandez, orientales. Fueron testigos Alejandro Lerena [y] Margarita Fernandez'. So she married at twenty-seven, with the banns dispensed, and her father and mother were the witnesses; the age agrees with her baptism of 15 May 1834. Her first child known, Manuel Indalecio, was born on 21 May 1862, nine months and sixteen days later. *** THE 'NATALIA LERENA' OF THE TRINIDAD SWEEP IS SHE - MERGED 26 October 2026. *** The row 'Natalia Lerena (m. Alejandro F. Lerena)', held since 11 October as the mother of Aurora Lerena, was the index's confusion: the baptism of 3 September 1891 puts 'Manuel y Natalia Lerena' as the paternal grandparents and 'Alejandro y Severa Fernandez' as the maternal grandparents of Aurora's son, so the Natalia is Manuel Vaquero's mother, her sister-in-law Aurora's husband's mother, and the wife of Manuel Vaquero; her son Manuel Vaquero married Aurora, her niece.",
   "place": "Trinidad, Flores",
   "placeSlug": "trinidad-flores",
   "surname": "LERENA",
@@ -51552,6 +51939,18 @@
   "children": [],
   "siblings": [
    {
+    "name": "Aurora LERENA Fernandez (m. Manuel VAQUERO)",
+    "dates": "",
+    "slug": "aurora-lerena-fernandez",
+    "via": "register"
+   },
+   {
+    "name": "Florencio LERENA (of Trinidad)",
+    "dates": "",
+    "slug": "florencio-lerena",
+    "via": "register"
+   },
+   {
     "name": "Gualberto LERENA (m. Rosaura Alvarez)",
     "dates": "",
     "slug": "gualberto-lerena",
@@ -51648,6 +52047,18 @@
   "spouses": [],
   "children": [],
   "siblings": [
+   {
+    "name": "Aurora LERENA Fernandez (m. Manuel VAQUERO)",
+    "dates": "",
+    "slug": "aurora-lerena-fernandez",
+    "via": "register"
+   },
+   {
+    "name": "Florencio LERENA (of Trinidad)",
+    "dates": "",
+    "slug": "florencio-lerena",
+    "via": "register"
+   },
    {
     "name": "Gualberto LERENA (m. Rosaura Alvarez)",
     "dates": "",
@@ -51746,6 +52157,18 @@
   "children": [],
   "siblings": [
    {
+    "name": "Aurora LERENA Fernandez (m. Manuel VAQUERO)",
+    "dates": "",
+    "slug": "aurora-lerena-fernandez",
+    "via": "register"
+   },
+   {
+    "name": "Florencio LERENA (of Trinidad)",
+    "dates": "",
+    "slug": "florencio-lerena",
+    "via": "register"
+   },
+   {
     "name": "Gualberto LERENA (m. Rosaura Alvarez)",
     "dates": "",
     "slug": "gualberto-lerena",
@@ -51842,6 +52265,18 @@
   "spouses": [],
   "children": [],
   "siblings": [
+   {
+    "name": "Aurora LERENA Fernandez (m. Manuel VAQUERO)",
+    "dates": "",
+    "slug": "aurora-lerena-fernandez",
+    "via": "register"
+   },
+   {
+    "name": "Florencio LERENA (of Trinidad)",
+    "dates": "",
+    "slug": "florencio-lerena",
+    "via": "register"
+   },
    {
     "name": "Gualberto LERENA (m. Rosaura Alvarez)",
     "dates": "",

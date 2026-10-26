@@ -123,7 +123,9 @@
   },
   {
    "name": "Alejandro Florencio",
-   "aliases": [],
+   "aliases": [
+    "Alejandro F. Lerena"
+   ],
    "url": "/people/alejandro-lerena-2/"
   },
   {
@@ -753,6 +755,14 @@
     "Casto Lindolfo Lerena"
    ],
    "url": "/people/casto-lindolfo-lerena-beloqui/"
+  },
+  {
+   "name": "Casto Severino Vaquero Lerena",
+   "aliases": [
+    "Casto Severino",
+    "Casto Severino Vaquero"
+   ],
+   "url": "/people/casto-severino-vaquero-lerena/"
   },
   {
    "name": "Catalina Ydiarte",
@@ -1439,6 +1449,11 @@
     "Eliseo Cardoso"
    ],
    "url": "/people/eliseo-cardozo/"
+  },
+  {
+   "name": "Eliseo Recuero",
+   "aliases": [],
+   "url": "/people/eliseo-recuero/"
   },
   {
    "name": "Ema Cardozo",
@@ -2630,6 +2645,11 @@
    "url": "/people/juana-quintana/"
   },
   {
+   "name": "Juana Santamarta",
+   "aliases": [],
+   "url": "/people/juana-santamarta/"
+  },
+  {
    "name": "Julia Bassani",
    "aliases": [],
    "url": "/people/julia-bassani/"
@@ -3628,6 +3648,7 @@
   {
    "name": "Natalia Elena Lerena Recuero",
    "aliases": [
+    "Natalia Elena",
     "Natalia Elena Lerena"
    ],
    "url": "/people/natalia-elena-lerena-recuero/"
@@ -5740,8 +5761,7 @@
    "name": "Natalia Lerena",
    "url": "/people/?q=Natalia%20Lerena",
    "bearers": [
-    "/people/natalia-lerena-2/",
-    "/people/natalia-lerena/"
+    "/people/natalia-lerena-2/"
    ]
   },
   {
