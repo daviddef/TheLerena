@@ -679,6 +679,11 @@
    "url": "/people/casimira-chavarria/"
   },
   {
+   "name": "Casimira Facunda",
+   "aliases": [],
+   "url": "/people/casimira-lerena/"
+  },
+  {
    "name": "Casto Lindolfo Lerena Beloqui",
    "aliases": [
     "Casto Lindolfo Lerena"
@@ -4527,10 +4532,7 @@
   },
   {
    "name": "Casimira Lerena",
-   "url": "/people/?q=Casimira%20Lerena",
-   "bearers": [
-    "/people/casimira-lerena/"
-   ]
+   "url": "/people/?q=Casimira%20Lerena"
   },
   {
    "name": "Catalina Martinez",

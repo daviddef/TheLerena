@@ -3242,10 +3242,10 @@
  },
  {
   "name": "Casimira LERENA (m. Juan Basilio CARDOZO 1889)",
-  "born_est": "1869",
-  "last_attested_alive": "1889-Apr-25",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "born_est": "1867-07-29",
+  "last_attested_alive": "1867-07-29",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Juan Basilio CARDOZO (m. Casimira Lerena 1889)",
