@@ -2935,9 +2935,9 @@
  {
   "name": "Severa FERNANDEZ (m. Alejandro LERENA the younger, 1854)",
   "born_est": "-",
-  "last_attested_alive": "1854-Dec-02",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Manuel FERNANDEZ ALVAREZ (m. Maria de los Reyes Gonzalez)",
