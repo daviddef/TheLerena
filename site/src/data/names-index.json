@@ -254,6 +254,13 @@
    "url": "/people/ana-rosario-lerena-traibel/"
   },
   {
+   "name": "Anastasia Santa Cruz",
+   "aliases": [
+    "Anastasia Santa"
+   ],
+   "url": "/people/anastasia-santa-cruz/"
+  },
+  {
    "name": "Andrea Albina Lerena",
    "aliases": [],
    "url": "/people/andrea-albina-lerena/"
@@ -544,6 +551,11 @@
    "name": "Buenaventura Olivera",
    "aliases": [],
    "url": "/people/buenaventura-olivera/"
+  },
+  {
+   "name": "Camila Lerena Pelaez",
+   "aliases": [],
+   "url": "/people/camila-lerena-pelaez/"
   },
   {
    "name": "Candido Costales Serena",
@@ -4792,6 +4804,13 @@
    "url": "/people/?q=Estefania%20Lerena"
   },
   {
+   "name": "Faustino Lerena",
+   "url": "/people/?q=Faustino%20Lerena",
+   "bearers": [
+    "/people/faustino-lerena/"
+   ]
+  },
+  {
    "name": "Felicia Lerena",
    "url": "/people/?q=Felicia%20Lerena",
    "bearers": [
@@ -4956,6 +4975,19 @@
    "url": "/people/?q=Geronima%20Lorena",
    "bearers": [
     "/people/geronima-lorena/"
+   ]
+  },
+  {
+   "name": "Gil Lerena",
+   "url": "/people/?q=Gil%20Lerena",
+   "bearers": [
+    "/people/gil-lerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/anastasia-santa-cruz/",
+     "url": "/people/gil-lerena/"
+    }
    ]
   },
   {

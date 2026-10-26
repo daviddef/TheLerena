@@ -6176,9 +6176,9 @@
  {
   "name": "Cecilia Socorro FERNANDEZ Lerena (chr.1862)",
   "born_est": "1862-11-22",
-  "last_attested_alive": "1862-Nov-29",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1862-11-22",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Maria Socorro FERNANDEZ Lerena (chr.1865)",
@@ -6225,8 +6225,36 @@
  {
   "name": "Pablo VAQUERO Lerena (chr.1866)",
   "born_est": "1866-01-26",
-  "last_attested_alive": "1866-Feb-02",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1866-01-26",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Camila LERENA Pelaez (b. c.1868, buried 1869)",
+  "born_est": "1868c",
+  "last_attested_alive": "1868c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Faustino LERENA (son of Gil, buried 1866)",
+  "born_est": "1844c",
+  "last_attested_alive": "1844c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Gil LERENA (m. Anastasia Santa Cruz)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Anastasia SANTA CRUZ (m. Gil Lerena)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]
