@@ -6344,9 +6344,9 @@
  {
   "name": "Cesario Francisco del Carmen GONZALEZ Lerena (chr.1860)",
   "born_est": "1860-02-07",
-  "last_attested_alive": "1860-May-01",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1860-02-07",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Davilada Carmela GONZALEZ Lerena (chr.1861)",
@@ -6513,6 +6513,20 @@
   "name": "Elmira VAQUERO Lerena (b. c.1894, d. 1896)",
   "born_est": "1894c",
   "last_attested_alive": "1894c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Flora VAQUERO Lerena (b. c.1896, d. 1897)",
+  "born_est": "1896c",
+  "last_attested_alive": "1896c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Dolores Carmen GONZALEZ (b. 1898, d. 1898)",
+  "born_est": "1898",
+  "last_attested_alive": "1898",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  }
