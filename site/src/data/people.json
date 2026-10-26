@@ -19638,15 +19638,7 @@
    "note": "Same act."
   },
   "spouses": [],
-  "children": [
-   {
-    "name": "Luisa LERENA Alvarez (m. Clemente Bueno 1915)",
-    "dates": "",
-    "slug": "luisa-lerena-alvarez",
-    "via": "register",
-    "note": "Named as the father in the index entry. SERENA + Flores sweep, FamilySearch record index, 12 October 2026 - index-level, no act opened."
-   }
-  ],
+  "children": [],
   "siblings": [
    {
     "name": "Angelica Maria LERENA Villademoros",
@@ -19677,8 +19669,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 3,
-  "relRegister": 3,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -24916,6 +24908,13 @@
   "spouses": [],
   "children": [
    {
+    "name": "Gualberto LERENA (m. Rosaura Alvarez)",
+    "dates": "",
+    "slug": "gualberto-lerena",
+    "via": "register",
+    "note": "Trinidad baptisms of 15 July 1886 (machine transcript, 26 Oct 2026)."
+   },
+   {
     "name": "Juan Ramon LERENA Fernandez (chr.1862)",
     "dates": "",
     "slug": "juan-ramon-lerena-fernandez",
@@ -25019,8 +25018,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 9,
-  "relRegister": 9,
+  "relTotal": 10,
+  "relRegister": 10,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -25087,6 +25086,13 @@
   "spouses": [],
   "children": [
    {
+    "name": "Gualberto LERENA (m. Rosaura Alvarez)",
+    "dates": "",
+    "slug": "gualberto-lerena",
+    "via": "register",
+    "note": "Trinidad baptisms of 15 July 1886 (machine transcript, 26 Oct 2026)."
+   },
+   {
     "name": "Juan Ramon LERENA Fernandez (chr.1862)",
     "dates": "",
     "slug": "juan-ramon-lerena-fernandez",
@@ -25141,8 +25147,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 7,
-  "relRegister": 7,
+  "relTotal": 8,
+  "relRegister": 8,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -25361,15 +25367,31 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
-  "children": [],
+  "spouses": [
+   {
+    "name": "Alejandrina LERENA (m. Balbino PELAEZ)",
+    "dates": "",
+    "slug": "alejandrina-lerena",
+    "via": "register",
+    "note": "Trinidad baptisms of 15 July 1886 (machine transcript, 26 Oct 2026)."
+   }
+  ],
+  "children": [
+   {
+    "name": "Alejandro Pedro PELAEZ Lerena (b. 1886, Trinidad)",
+    "dates": "",
+    "slug": "alejandro-pedro-pelaez-lerena",
+    "via": "register",
+    "note": "Trinidad baptisms of 15 July 1886 (machine transcript, 26 Oct 2026)."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -26504,10 +26526,10 @@
   "nationality": "Uruguayan",
   "occupation": "-",
   "where": "Trinidad, Flores",
-  "source": "Flores. Death Records March 1918-January 1919 - acta of 28 January 1926; image 85, ark 3:1:3Q9M-CS24-QNVC - PLATE READ 10 October 2026",
+  "source": "Flores. Death Records March 1918-January 1919 - acta of 28 January 1926; image 85, ark 3:1:3Q9M-CS24-QNVC - PLATE READ 10 October 2026; and Santisima Trinidad, Baptism Records 1886-1888 (image 30 of the item, ark 3:1:3Q9M-CS27-NQ7Y-G), the entries of 15 July 1886 - *** MACHINE TRANSCRIPT, THE PLATE NOT OPENED *** 26 October 2026, found by FULL-TEXT search for 'Alejandro Florencio' with 'Severa Fernandez'",
   "status": "connected",
   "statusRaw": "CONNECTED",
-  "note": "*** THE DAUGHTER OF ALEJANDRO LERENA THE YOUNGER THAT THIS ARCHIVE COULD ONLY INFER UNTIL 10 October 2026. *** Yesterday it wrote 'a daughter of his by Isidora Chourino married MALVINO PELAEZ' and could not name her. Her death act - Estacion Juan Jose Castro, *** 28 January 1926 ***, read off the plate - gives '*** ALEJANDRINA LERENA DE PELAEZ... nacida en esta Seccion, de SETENTA Y CUATRO ANOS, de estado viuda... hija de ALEJANDRO LERENA y de YSIDORA CHOUSINA, ambos fallecidos. Abuelos paternos: ALEJANDRO LERENA y MARGARITA FERNANDEZ. Abuelos maternos: se ignora ***'. *** SO BORN ABOUT 1852 ***, and *** HER GRANDPARENTS CONFIRM THE 1854 EXPEDIENTE FROM A SECOND ACT SEVENTY-TWO YEARS LATER. *** *** HER MOTHER'S SURNAME HAS A THIRD SPELLING HERE - CHOUSINA *** against CHONZENO in 1854 and CHOURINO on the Flores act; none is preferred. *** FOUR CHILDREN: *** Luis, Aurora, Antonio Eusebio and Juan Pedro, who declared her death. *** A CANDIDATE GODMOTHER AT TRINIDAD IN 1867, 17 October 2026, NOT AN IDENTIFICATION: *** the Trinidad baptism of Estefania Fausta Leopoldina Gonzalez (act 303 of 1867, plate read, ark 3:1:3Q9M-CS27-F3C8-R) has 'Padrinos Vitalino y Alejandrina Lerena'. She would have been fifteen and, with no 'de Pelaez', unmarried - which fits a marriage in the late 1860s or the 1870s that this row does not date (no marriage entry is indexed for her). If Estefania is a sister of her father Alejandro the younger, the child was her first cousin; that rests on the 1867 act naming Alejandro and Margarita Fernandez as the child's maternal grandparents. No act says which Alejandrina this was.",
+  "note": "*** THE DAUGHTER OF ALEJANDRO LERENA THE YOUNGER THAT THIS ARCHIVE COULD ONLY INFER UNTIL 10 October 2026. *** Yesterday it wrote 'a daughter of his by Isidora Chourino married MALVINO PELAEZ' and could not name her. Her death act - Estacion Juan Jose Castro, *** 28 January 1926 ***, read off the plate - gives '*** ALEJANDRINA LERENA DE PELAEZ... nacida en esta Seccion, de SETENTA Y CUATRO ANOS, de estado viuda... hija de ALEJANDRO LERENA y de YSIDORA CHOUSINA, ambos fallecidos. Abuelos paternos: ALEJANDRO LERENA y MARGARITA FERNANDEZ. Abuelos maternos: se ignora ***'. *** SO BORN ABOUT 1852 ***, and *** HER GRANDPARENTS CONFIRM THE 1854 EXPEDIENTE FROM A SECOND ACT SEVENTY-TWO YEARS LATER. *** *** HER MOTHER'S SURNAME HAS A THIRD SPELLING HERE - CHOUSINA *** against CHONZENO in 1854 and CHOURINO on the Flores act; none is preferred. *** FOUR CHILDREN: *** Luis, Aurora, Antonio Eusebio and Juan Pedro, who declared her death. *** A CANDIDATE GODMOTHER AT TRINIDAD IN 1867, 17 October 2026, NOT AN IDENTIFICATION: *** the Trinidad baptism of Estefania Fausta Leopoldina Gonzalez (act 303 of 1867, plate read, ark 3:1:3Q9M-CS27-F3C8-R) has 'Padrinos Vitalino y Alejandrina Lerena'. She would have been fifteen and, with no 'de Pelaez', unmarried - which fits a marriage in the late 1860s or the 1870s that this row does not date (no marriage entry is indexed for her). If Estefania is a sister of her father Alejandro the younger, the child was her first cousin; that rests on the 1867 act naming Alejandro and Margarita Fernandez as the child's maternal grandparents. No act says which Alejandrina this was. *** HER SON ALEJANDRO PEDRO, BORN 29 JUNE 1886, NAMES HER PARENTS, 26 October 2026: *** 'maternos Alejandro Florencio e Isidora Chocesino' - a third document for her parentage after the expediente of 1854 and her death act of 1926.",
   "place": "Trinidad, Flores",
   "placeSlug": "trinidad-flores",
   "surname": "LERENA",
@@ -26518,15 +26540,31 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
-  "children": [],
+  "spouses": [
+   {
+    "name": "Malvino PELAEZ (son of Juan PELAEZ and Antonina LERENA)",
+    "dates": "",
+    "slug": "malvino-pelaez",
+    "via": "register",
+    "note": "Trinidad baptisms of 15 July 1886 (machine transcript, 26 Oct 2026)."
+   }
+  ],
+  "children": [
+   {
+    "name": "Alejandro Pedro PELAEZ Lerena (b. 1886, Trinidad)",
+    "dates": "",
+    "slug": "alejandro-pedro-pelaez-lerena",
+    "via": "register",
+    "note": "Trinidad baptisms of 15 July 1886 (machine transcript, 26 Oct 2026)."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -29118,7 +29156,13 @@
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "living": false,
   "gen": null,
-  "father": null,
+  "father": {
+   "name": "Gualberto LERENA (m. Rosaura Alvarez)",
+   "dates": "",
+   "slug": "gualberto-lerena",
+   "via": "register",
+   "note": "Trinidad baptisms of 15 July 1886 (machine transcript, 26 Oct 2026)."
+  },
   "mother": {
    "name": "Rosaura ALVAREZ (m. Gualberto LERENA)",
    "dates": "",
@@ -29130,6 +29174,12 @@
   "children": [],
   "siblings": [
    {
+    "name": "Antonio Amador LERENA Alvarez (b. 1886, Trinidad)",
+    "dates": "",
+    "slug": "antonio-amador-lerena-alvarez",
+    "via": "register"
+   },
+   {
     "name": "Luisa LERENA Alvarez (m. Clemente Bueno 1915)",
     "dates": "",
     "slug": "luisa-lerena-alvarez",
@@ -29140,8 +29190,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 1,
-  "relRegister": 1,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -29242,6 +29292,12 @@
    }
   ],
   "siblings": [
+   {
+    "name": "Gualberto LERENA (m. Rosaura Alvarez)",
+    "dates": "",
+    "slug": "gualberto-lerena",
+    "via": "register"
+   },
    {
     "name": "Juan Ramon LERENA Fernandez (chr.1862)",
     "dates": "",
@@ -29529,10 +29585,10 @@
   "nationality": "Uruguayan",
   "occupation": "-",
   "where": "Trinidad, Flores",
-  "source": "FamilySearch - the Trinidad, Flores sweep and the Zalduando surname sweep, read 11 October 2026 - *** INDEX ONLY, no act opened ***",
+  "source": "FamilySearch - the Trinidad, Flores sweep and the Zalduando surname sweep, read 11 October 2026 - *** INDEX ONLY, no act opened ***; and Santisima Trinidad, Baptism Records 1886-1888 (image 30 of the item, ark 3:1:3Q9M-CS27-NQ7Y-G), the entries of 15 July 1886 - *** MACHINE TRANSCRIPT, THE PLATE NOT OPENED *** 26 October 2026, found by FULL-TEXT search for 'Alejandro Florencio' with 'Severa Fernandez'",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "*** Named as the mother of two children christened at Santisima Trinidad in 1901 and 1902 ***: *** GUALBERTO LERENA ALVAREZ *** (born 2 April 1901) and *** ALEJANDRO ESTEBAN *** (born 26 December 1901). *** THOSE TWO BIRTHS ARE EIGHT MONTHS APART AND CANNOT BOTH BE RIGHT AS INDEXED *** - recorded as a conflict and not smoothed. The index writes her *** ROSANA *** on one entry and *** ROSAURA *** on the other. *** INDEX ONLY. ***",
+  "note": "*** Named as the mother of two children christened at Santisima Trinidad in 1901 and 1902 ***: *** GUALBERTO LERENA ALVAREZ *** (born 2 April 1901) and *** ALEJANDRO ESTEBAN *** (born 26 December 1901). *** THOSE TWO BIRTHS ARE EIGHT MONTHS APART AND CANNOT BOTH BE RIGHT AS INDEXED *** - recorded as a conflict and not smoothed. The index writes her *** ROSANA *** on one entry and *** ROSAURA *** on the other. *** INDEX ONLY. *** *** HER HUSBAND AND HER ELDEST KNOWN SON, FOUND 26 October 2026: *** Gualberto Lerena, a son of Alejandro Lerena the younger and Severa Fernandez, and Antonio Amador, born 13 June 1886 - fifteen years before the births of 1901; her parents are Juan Francisco and Clara Pelaez.",
   "place": "Trinidad, Flores",
   "placeSlug": "trinidad-flores",
   "surname": "ALVAREZ",
@@ -29543,7 +29599,15 @@
   "gen": null,
   "father": null,
   "mother": null,
-  "spouses": [],
+  "spouses": [
+   {
+    "name": "Gualberto LERENA (m. Rosaura Alvarez)",
+    "dates": "",
+    "slug": "gualberto-lerena",
+    "via": "register",
+    "note": "Trinidad baptisms of 15 July 1886 (machine transcript, 26 Oct 2026)."
+   }
+  ],
   "children": [
    {
     "name": "Alejandro Esteban LERENA Alvarez",
@@ -29551,6 +29615,13 @@
     "slug": "alejandro-esteban-lerena-alvarez",
     "via": "register",
     "note": "Trinidad, Flores - civil registration and parish baptism, the sweep of 27 September 2026 entered as people 11 October 2026. INDEX ONLY; no act opened."
+   },
+   {
+    "name": "Antonio Amador LERENA Alvarez (b. 1886, Trinidad)",
+    "dates": "",
+    "slug": "antonio-amador-lerena-alvarez",
+    "via": "register",
+    "note": "Trinidad baptisms of 15 July 1886 (machine transcript, 26 Oct 2026)."
    },
    {
     "name": "Luisa LERENA Alvarez (m. Clemente Bueno 1915)",
@@ -29565,8 +29636,274 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
+  "relTotal": 4,
+  "relRegister": 4,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "gualberto-lerena",
+  "name": "Gualberto LERENA (m. Rosaura Alvarez)",
+  "born": "-",
+  "died": "",
+  "birthplace": "Trinidad, Flores, Uruguay",
+  "nationality": "Oriental",
+  "occupation": "-",
+  "where": "Trinidad, Flores",
+  "source": "Santisima Trinidad, Baptism Records 1886-1888 (image 30 of the item, ark 3:1:3Q9M-CS27-NQ7Y-G), the entries of 15 July 1886 - *** MACHINE TRANSCRIPT, THE PLATE NOT OPENED *** 26 October 2026, found by FULL-TEXT search for 'Alejandro Florencio' with 'Severa Fernandez'",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** A SON OF ALEJANDRO THE YOUNGER AND SEVERA FERNANDEZ THAT THIS ARCHIVE HAD NOT HELD, FOUND 26 October 2026. *** The baptism of his son on 15 July 1886 gives him as 'hijo legitimo de Gualberto Lerena y de Rosaura Alvarez; abuelos paternos Alejandro y Severa Fernandez; maternos Juan Francisco y Clara Pelaez' - so he is a son of Alejandro Lerena the younger by his second wife, and the husband of the Rosaura Alvarez of the Trinidad births of 1901. He is not among the eight children of the couple baptised 1855-1865; he is older than 1886 by about twenty years if he was a man of twenty-five, so born between 1856 and 1865 or not baptised at Trinidad. Whether he is the Pedro Segundo Gregorio of 1865 under another name is not shown. His wife's parents are Juan Francisco and Clara Pelaez.",
+  "place": "Trinidad, Flores",
+  "placeSlug": "trinidad-flores",
+  "surname": "LERENA",
+  "ark": "3:1:3Q9M-CS27-NQ7Y-G",
+  "sourceUrl": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS27-NQ7Y-G",
+  "noLink": "",
+  "living": false,
+  "gen": null,
+  "father": {
+   "name": "Alejandro LERENA (the younger, m.1 Isidora Chourino, m.2 Severa Fernandez 1854)",
+   "dates": "",
+   "slug": "alejandro-lerena-2",
+   "via": "register",
+   "note": "Trinidad baptisms of 15 July 1886 (machine transcript, 26 Oct 2026)."
+  },
+  "mother": {
+   "name": "Severa FERNANDEZ (m. Alejandro LERENA the younger, 1854)",
+   "dates": "",
+   "slug": "severa-fernandez",
+   "via": "register",
+   "note": "Trinidad baptisms of 15 July 1886 (machine transcript, 26 Oct 2026)."
+  },
+  "spouses": [
+   {
+    "name": "Rosaura ALVAREZ (m. Gualberto LERENA)",
+    "dates": "",
+    "slug": "rosaura-alvarez",
+    "via": "register",
+    "note": "Trinidad baptisms of 15 July 1886 (machine transcript, 26 Oct 2026)."
+   }
+  ],
+  "children": [
+   {
+    "name": "Alejandro Esteban LERENA Alvarez",
+    "dates": "",
+    "slug": "alejandro-esteban-lerena-alvarez",
+    "via": "register",
+    "note": "Trinidad baptisms of 15 July 1886 (machine transcript, 26 Oct 2026)."
+   },
+   {
+    "name": "Antonio Amador LERENA Alvarez (b. 1886, Trinidad)",
+    "dates": "",
+    "slug": "antonio-amador-lerena-alvarez",
+    "via": "register",
+    "note": "Trinidad baptisms of 15 July 1886 (machine transcript, 26 Oct 2026)."
+   },
+   {
+    "name": "Luisa LERENA Alvarez (m. Clemente Bueno 1915)",
+    "dates": "",
+    "slug": "luisa-lerena-alvarez",
+    "via": "register",
+    "note": "Trinidad baptisms of 15 July 1886 (machine transcript, 26 Oct 2026)."
+   }
+  ],
+  "siblings": [
+   {
+    "name": "Juan Ramon LERENA Fernandez (chr.1862)",
+    "dates": "",
+    "slug": "juan-ramon-lerena-fernandez",
+    "via": "register"
+   },
+   {
+    "name": "Justina Petronila Teresa LERENA Fernandez (chr.1860)",
+    "dates": "",
+    "slug": "justina-petronila-teresa-lerena-fernandez",
+    "via": "register"
+   },
+   {
+    "name": "Pedro Segundo Gregorio LERENA Fernandez (chr.1865)",
+    "dates": "",
+    "slug": "pedro-segundo-gregorio-lerena-fernandez",
+    "via": "register"
+   },
+   {
+    "name": "Pilar Florencio LERENA Fernandez (chr.1863)",
+    "dates": "",
+    "slug": "pilar-florencio-lerena-fernandez",
+    "via": "register"
+   },
+   {
+    "name": "Pio C. LERENA",
+    "dates": "",
+    "slug": "pio-c-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Severa Juliana LERENA Fernandez (chr.1859)",
+    "dates": "",
+    "slug": "severa-juliana-lerena-fernandez",
+    "via": "register"
+   },
+   {
+    "name": "Venancio LERENA Fernandez (m. 1885)",
+    "dates": "",
+    "slug": "venancio-lerena-fernandez",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 6,
+  "relRegister": 6,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "antonio-amador-lerena-alvarez",
+  "name": "Antonio Amador LERENA Alvarez (b. 1886, Trinidad)",
+  "born": "1886-06-13",
+  "died": "",
+  "birthplace": "Trinidad, Flores, Uruguay",
+  "nationality": "Oriental",
+  "occupation": "-",
+  "where": "Trinidad, Flores",
+  "source": "Santisima Trinidad, Baptism Records 1886-1888 (image 30 of the item, ark 3:1:3Q9M-CS27-NQ7Y-G), the entries of 15 July 1886 - *** MACHINE TRANSCRIPT, THE PLATE NOT OPENED *** 26 October 2026, found by FULL-TEXT search for 'Alejandro Florencio' with 'Severa Fernandez'",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** A SON OF GUALBERTO LERENA AND ROSAURA ALVAREZ, FOUND 26 October 2026. *** Baptised 15 July 1886 by Luis Baronio, 'Antonio Amador, que nacio el trece de Junio de este ano, hijo legitimo de Gualberto Lerena y de Rosaura Alvarez; abuelos paternos Alejandro y Severa Fernandez; maternos Juan Francisco y Clara Pelaez; padrinos Agustin Gomes y Luisa Gonzalez'. The elder brother of the children of 1901.",
+  "place": "Trinidad, Flores",
+  "placeSlug": "trinidad-flores",
+  "surname": "LERENA",
+  "ark": "3:1:3Q9M-CS27-NQ7Y-G",
+  "sourceUrl": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS27-NQ7Y-G",
+  "noLink": "",
+  "living": false,
+  "gen": null,
+  "father": {
+   "name": "Gualberto LERENA (m. Rosaura Alvarez)",
+   "dates": "",
+   "slug": "gualberto-lerena",
+   "via": "register",
+   "note": "Trinidad baptisms of 15 July 1886 (machine transcript, 26 Oct 2026)."
+  },
+  "mother": {
+   "name": "Rosaura ALVAREZ (m. Gualberto LERENA)",
+   "dates": "",
+   "slug": "rosaura-alvarez",
+   "via": "register",
+   "note": "Trinidad baptisms of 15 July 1886 (machine transcript, 26 Oct 2026)."
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Alejandro Esteban LERENA Alvarez",
+    "dates": "",
+    "slug": "alejandro-esteban-lerena-alvarez",
+    "via": "register"
+   },
+   {
+    "name": "Luisa LERENA Alvarez (m. Clemente Bueno 1915)",
+    "dates": "",
+    "slug": "luisa-lerena-alvarez",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
   "relTotal": 2,
   "relRegister": 2,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "alejandro-pedro-pelaez-lerena",
+  "name": "Alejandro Pedro PELAEZ Lerena (b. 1886, Trinidad)",
+  "born": "1886-06-29",
+  "died": "",
+  "birthplace": "Trinidad, Flores, Uruguay",
+  "nationality": "Oriental",
+  "occupation": "-",
+  "where": "Trinidad, Flores",
+  "source": "Santisima Trinidad, Baptism Records 1886-1888 (image 30 of the item, ark 3:1:3Q9M-CS27-NQ7Y-G), the entries of 15 July 1886 - *** MACHINE TRANSCRIPT, THE PLATE NOT OPENED *** 26 October 2026, found by FULL-TEXT search for 'Alejandro Florencio' with 'Severa Fernandez'",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** A SON OF BALBINO PELAEZ AND ALEJANDRINA LERENA, WHO NAMES ALEJANDRINA'S PARENTS, FOUND 26 October 2026. *** Baptised 15 July 1886, 'Alejandro Pedro, que nacio el veinte y nueve de Junio de este ano, hijo legitimo de Balbino Pelaez y Alejandrina Lerena; abuelos paternos Juan Pedro y Antonina Lerena; maternos Alejandro Florencio e Isidora Chocesino [Chourino]; padrinos Bernabe Lerena y Juana Maria Gorzo' - the maternal grandparents are Alejandro the younger and his first wife, the paternal Juan Pedro Pelaez and Antonina Lerena, so the parents are first cousins; the first name of the father is written Balbino, which is the Malvino or Malbino Hipolito of the death act of his father's widow.",
+  "place": "Trinidad, Flores",
+  "placeSlug": "trinidad-flores",
+  "surname": "PELAEZ",
+  "ark": "3:1:3Q9M-CS27-NQ7Y-G",
+  "sourceUrl": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS27-NQ7Y-G",
+  "noLink": "",
+  "living": false,
+  "gen": null,
+  "father": {
+   "name": "Malvino PELAEZ (son of Juan PELAEZ and Antonina LERENA)",
+   "dates": "",
+   "slug": "malvino-pelaez",
+   "via": "register",
+   "note": "Trinidad baptisms of 15 July 1886 (machine transcript, 26 Oct 2026)."
+  },
+  "mother": {
+   "name": "Alejandrina LERENA (m. Balbino PELAEZ)",
+   "dates": "",
+   "slug": "alejandrina-lerena",
+   "via": "register",
+   "note": "Trinidad baptisms of 15 July 1886 (machine transcript, 26 Oct 2026)."
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "juana-maria-gorzo",
+  "name": "Juana Maria GORZO (godmother, Trinidad 1886)",
+  "born": "-",
+  "died": "",
+  "birthplace": "Trinidad, Flores, Uruguay",
+  "nationality": "Oriental",
+  "occupation": "-",
+  "where": "Trinidad, Flores",
+  "source": "Santisima Trinidad, Baptism Records 1886-1888 (image 30 of the item, ark 3:1:3Q9M-CS27-NQ7Y-G), the entries of 15 July 1886 - *** MACHINE TRANSCRIPT, THE PLATE NOT OPENED *** 26 October 2026, found by FULL-TEXT search for 'Alejandro Florencio' with 'Severa Fernandez'",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** A GODMOTHER BESIDE BERNABE LERENA, FOUND 26 October 2026. *** 'Padrinos Bernabe Lerena y Juana Maria Gorzo' to Alejandro Pedro Pelaez on 15 July 1886; the surname is the Gazo of Adelaida, the wife of Isaac Lerena, so she is probably Adelaida's sister. Not merged with anyone; the spelling Gorzo is the machine's.",
+  "place": "Trinidad, Flores",
+  "placeSlug": "trinidad-flores",
+  "surname": "GORZO",
+  "ark": "3:1:3Q9M-CS27-NQ7Y-G",
+  "sourceUrl": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS27-NQ7Y-G",
+  "noLink": "",
+  "living": false,
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 0,
+  "relRegister": 0,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -35277,11 +35614,11 @@
   "living": false,
   "gen": null,
   "father": {
-   "name": "Pedro Gualberto LERENA Villademoros",
+   "name": "Gualberto LERENA (m. Rosaura Alvarez)",
    "dates": "",
-   "slug": "pedro-gualberto-lerena-villademoros",
+   "slug": "gualberto-lerena",
    "via": "register",
-   "note": "Named as the father in the index entry. SERENA + Flores sweep, FamilySearch record index, 12 October 2026 - index-level, no act opened."
+   "note": "Trinidad baptisms of 15 July 1886 (machine transcript, 26 Oct 2026)."
   },
   "mother": {
    "name": "Rosaura ALVAREZ (m. Gualberto LERENA)",
@@ -35320,6 +35657,12 @@
     "name": "Alejandro Esteban LERENA Alvarez",
     "dates": "",
     "slug": "alejandro-esteban-lerena-alvarez",
+    "via": "register"
+   },
+   {
+    "name": "Antonio Amador LERENA Alvarez (b. 1886, Trinidad)",
+    "dates": "",
+    "slug": "antonio-amador-lerena-alvarez",
     "via": "register"
    }
   ],
@@ -36052,6 +36395,12 @@
   "spouses": [],
   "children": [],
   "siblings": [
+   {
+    "name": "Gualberto LERENA (m. Rosaura Alvarez)",
+    "dates": "",
+    "slug": "gualberto-lerena",
+    "via": "register"
+   },
    {
     "name": "Juan Ramon LERENA Fernandez (chr.1862)",
     "dates": "",
@@ -44878,6 +45227,12 @@
   "children": [],
   "siblings": [
    {
+    "name": "Gualberto LERENA (m. Rosaura Alvarez)",
+    "dates": "",
+    "slug": "gualberto-lerena",
+    "via": "register"
+   },
+   {
     "name": "Juan Ramon LERENA Fernandez (chr.1862)",
     "dates": "",
     "slug": "juan-ramon-lerena-fernandez",
@@ -48807,6 +49162,12 @@
   "children": [],
   "siblings": [
    {
+    "name": "Gualberto LERENA (m. Rosaura Alvarez)",
+    "dates": "",
+    "slug": "gualberto-lerena",
+    "via": "register"
+   },
+   {
     "name": "Juan Ramon LERENA Fernandez (chr.1862)",
     "dates": "",
     "slug": "juan-ramon-lerena-fernandez",
@@ -48891,6 +49252,12 @@
   "spouses": [],
   "children": [],
   "siblings": [
+   {
+    "name": "Gualberto LERENA (m. Rosaura Alvarez)",
+    "dates": "",
+    "slug": "gualberto-lerena",
+    "via": "register"
+   },
    {
     "name": "Juan Ramon LERENA Fernandez (chr.1862)",
     "dates": "",
@@ -48977,6 +49344,12 @@
   "children": [],
   "siblings": [
    {
+    "name": "Gualberto LERENA (m. Rosaura Alvarez)",
+    "dates": "",
+    "slug": "gualberto-lerena",
+    "via": "register"
+   },
+   {
     "name": "Justina Petronila Teresa LERENA Fernandez (chr.1860)",
     "dates": "",
     "slug": "justina-petronila-teresa-lerena-fernandez",
@@ -49061,6 +49434,12 @@
   "spouses": [],
   "children": [],
   "siblings": [
+   {
+    "name": "Gualberto LERENA (m. Rosaura Alvarez)",
+    "dates": "",
+    "slug": "gualberto-lerena",
+    "via": "register"
+   },
    {
     "name": "Juan Ramon LERENA Fernandez (chr.1862)",
     "dates": "",

@@ -946,6 +946,11 @@
      "spouses": [],
      "children": [
       {
+       "slug": "gualberto-lerena",
+       "name": "Gualberto LERENA (m. Rosaura Alvarez)",
+       "tree": false
+      },
+      {
        "slug": "juan-ramon-lerena-fernandez",
        "name": "Juan Ramon LERENA Fernandez (chr.1862)",
        "tree": false
@@ -1104,6 +1109,28 @@
      "children": []
     },
     {
+     "slug": "alejandro-pedro-pelaez-lerena",
+     "name": "Alejandro Pedro PELAEZ Lerena (b. 1886, Trinidad)",
+     "exact": false,
+     "status": "unplaced",
+     "born": "1886",
+     "died": "",
+     "where": "Trinidad, Flores · Oriental",
+     "source": "Santisima Trinidad, Baptism Records 1886-1888 (image 30 of the item, ark 3:1:3Q9M-CS27-NQ7Y-G), the entries of 15 July 1886 …",
+     "father": {
+      "slug": "malvino-pelaez",
+      "name": "Malvino PELAEZ (son of Juan PELAEZ and Antonina LERENA)",
+      "tree": false
+     },
+     "mother": {
+      "slug": "alejandrina-lerena",
+      "name": "Alejandrina LERENA (m. Balbino PELAEZ)",
+      "tree": false
+     },
+     "spouses": [],
+     "children": []
+    },
+    {
      "slug": "alejandro-esteban-lerena-alvarez",
      "name": "Alejandro Esteban LERENA Alvarez",
      "exact": false,
@@ -1112,7 +1139,11 @@
      "died": "",
      "where": "Trinidad, Flores · Uruguayan",
      "source": "FamilySearch - the Trinidad, Flores birthplace sweep, data/trinidad-flores-sweep-2026-09-27.tsv, entered as people 11 October 2026 …",
-     "father": null,
+     "father": {
+      "slug": "gualberto-lerena",
+      "name": "Gualberto LERENA (m. Rosaura Alvarez)",
+      "tree": false
+     },
      "mother": {
       "slug": "rosaura-alvarez",
       "name": "Rosaura ALVAREZ (m. Gualberto LERENA)",

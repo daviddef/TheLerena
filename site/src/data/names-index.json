@@ -115,6 +115,11 @@
    "url": "/people/alejandro-joaquin-narciso-lerena-villardemoros/"
   },
   {
+   "name": "Alejandro Florencio",
+   "aliases": [],
+   "url": "/people/alejandro-lerena-2/"
+  },
+  {
    "name": "Alejandro Lerena Traibel",
    "aliases": [],
    "url": "/people/alejandro-lerena-traibel/"
@@ -140,6 +145,14 @@
     "Alejandro Pablo Pelaez"
    ],
    "url": "/people/alejandro-pablo-pelaez-lerena/"
+  },
+  {
+   "name": "Alejandro Pedro Pelaez Lerena",
+   "aliases": [
+    "Alejandro Pedro",
+    "Alejandro Pedro Pelaez"
+   ],
+   "url": "/people/alejandro-pedro-pelaez-lerena/"
   },
   {
    "name": "Alfredo Costa",
@@ -331,6 +344,14 @@
    "name": "Antonino Lerena Cardozo",
    "aliases": [],
    "url": "/people/antonino-lerena-cardozo/"
+  },
+  {
+   "name": "Antonio Amador Lerena Alvarez",
+   "aliases": [
+    "Antonio Amador",
+    "Antonio Amador Lerena"
+   ],
+   "url": "/people/antonio-amador-lerena-alvarez/"
   },
   {
    "name": "Antonio Eusebio Pelaez",
@@ -2475,6 +2496,13 @@
    "url": "/people/juana-galarza/"
   },
   {
+   "name": "Juana Maria Gorzo",
+   "aliases": [
+    "Juana María Gorzo"
+   ],
+   "url": "/people/juana-maria-gorzo/"
+  },
+  {
    "name": "Juana Maria Lerena",
    "aliases": [
     "Juana María Lerena"
@@ -2696,6 +2724,7 @@
   {
    "name": "Malvino Pelaez",
    "aliases": [
+    "Balbino Pelaez",
     "Malbino Hipolito"
    ],
    "url": "/people/malvino-pelaez/"
@@ -4279,6 +4308,12 @@
    "url": "/people/?q=Alejandrina%20Lerena",
    "bearers": [
     "/people/alejandrina-lerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/malvino-pelaez/",
+     "url": "/people/alejandrina-lerena/"
+    }
    ]
   },
   {
@@ -4292,7 +4327,6 @@
    "name": "Alejandro Lerena",
    "url": "/same-name/alejandro-lerena/",
    "bearers": [
-    "/people/alejandro-lerena-2/",
     "/people/alejandro-lerena/"
    ],
    "resolve": [
@@ -4941,6 +4975,19 @@
    ]
   },
   {
+   "name": "Gualberto Lerena",
+   "url": "/people/?q=Gualberto%20Lerena",
+   "bearers": [
+    "/people/gualberto-lerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/rosaura-alvarez/",
+     "url": "/people/gualberto-lerena/"
+    }
+   ]
+  },
+  {
    "name": "Guillermo Lorena",
    "url": "/people/?q=Guillermo%20Lorena",
    "bearers": [
@@ -5550,10 +5597,6 @@
     {
      "near": "/people/maria-ines-larriera/",
      "url": "/people/pedro-alberto-ysabelino-lerena-traibel/"
-    },
-    {
-     "near": "/people/rosaura-alvarez/",
-     "url": "/people/pedro-gualberto-lerena-villademoros/"
     },
     {
      "near": "/people/manuela-lemos/",

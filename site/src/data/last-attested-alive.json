@@ -3563,6 +3563,34 @@
   "tier": "BIRTH ONLY"
  },
  {
+  "name": "Gualberto LERENA (m. Rosaura Alvarez)",
+  "born_est": "-",
+  "last_attested_alive": "1886-Jul-15",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Antonio Amador LERENA Alvarez (b. 1886, Trinidad)",
+  "born_est": "1886-06-13",
+  "last_attested_alive": "1886-Jul-15",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Alejandro Pedro PELAEZ Lerena (b. 1886, Trinidad)",
+  "born_est": "1886-06-29",
+  "last_attested_alive": "1886-06-29",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Juana Maria GORZO (godmother, Trinidad 1886)",
+  "born_est": "-",
+  "last_attested_alive": "1886-Jul-15",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
   "name": "Rodolfo Bernardo LERENA (father, Trinidad 1918)",
   "born_est": "-",
   "last_attested_alive": "-",

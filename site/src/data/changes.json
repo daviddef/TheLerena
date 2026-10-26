@@ -5,6 +5,11 @@
    "date": "2026-10-26",
    "commits": [
     {
+     "sha": "3aa9071",
+     "subject": "Source column: arks cited only in a note are now in the row's source, so the person page links every record it relies on",
+     "body": ""
+    },
+    {
      "sha": "a15ac57",
      "subject": "The elder Bernabe of the 1911 diagram is the Bernabe of Trinidad: the test written for the pair is met, and the eleven people of the 1911 dispensation join the Trinidad family",
      "body": ""
