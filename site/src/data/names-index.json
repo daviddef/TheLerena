@@ -2332,6 +2332,11 @@
    "url": "/people/juan-de-urdinaran/"
   },
   {
+   "name": "Juan Etcheverre",
+   "aliases": [],
+   "url": "/people/juan-etcheverre/"
+  },
+  {
    "name": "Juan Fabian Pelaez",
    "aliases": [],
    "url": "/people/juan-fabian-pelaez/"
@@ -2842,6 +2847,11 @@
    "name": "Manuela Otondo",
    "aliases": [],
    "url": "/people/manuela-otondo/"
+  },
+  {
+   "name": "Marcelina Anibal",
+   "aliases": [],
+   "url": "/people/marcelina-anibal/"
   },
   {
    "name": "Marcial de Leon Gonzalez",
@@ -5995,6 +6005,12 @@
    "url": "/people/?q=Vitalino%20Lerena",
    "bearers": [
     "/people/vitalino-lerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/dona-andrea-echeverry/",
+     "url": "/people/vitalino-lerena/"
+    }
    ]
   },
   {

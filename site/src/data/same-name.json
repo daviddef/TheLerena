@@ -918,6 +918,11 @@
        "tree": false
       },
       {
+       "slug": "vitalino-lerena",
+       "name": "Vitalino LERENA (of Trinidad)",
+       "tree": false
+      },
+      {
        "slug": "ysaac-lerena",
        "name": "Ysaac LERENA (of Trinidad)",
        "tree": false
@@ -1111,6 +1116,28 @@
        "tree": false
       }
      ],
+     "children": []
+    },
+    {
+     "slug": "alejandro-j-lerena-echeverry",
+     "name": "Alejandro J. LERENA Echeverry (b. c.1875, d. 1898)",
+     "exact": false,
+     "status": "unplaced",
+     "born": "about 1875",
+     "died": "",
+     "where": "Trinidad, Flores · Oriental",
+     "source": "Flores, Death Records 1888-1917 (image 125 of the item, act no. 4 of April 1898, Chamanga, ark 3:1:3Q9M-CS24-Q7PZ) …",
+     "father": {
+      "slug": "vitalino-lerena",
+      "name": "Vitalino LERENA (of Trinidad)",
+      "tree": false
+     },
+     "mother": {
+      "slug": "dona-andrea-echeverry",
+      "name": "Dona Andrea ECHEVERRY (wife of Vitalino LERENA)",
+      "tree": false
+     },
+     "spouses": [],
      "children": []
     },
     {
