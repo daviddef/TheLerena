@@ -5,10 +5,8 @@
 # via:      line     = the archive's own direct line, argued on /direct-line/
 #           register = written in a record this archive has read
 #           tree     = from the family chart or a user-contributed tree; UNVERIFIED
-#
 # "person" and "other" are matched to the register by name where possible, so the chart can link.
 # A name with no register entry still appears as a node; it simply carries no link.
-#
 person	relation	other	other_dates	via	note
 Pablo Armando LERENA (Robert Paul; "Bob")	father	Juan Carlos LERENA	-	register	Named on the 1908 ficha de enrolamiento, Cajon 985
 Pablo Armando LERENA (Robert Paul; "Bob")	mother	Maria LERENA	-	register	Named on the same card; written with her husband's surname
@@ -60,10 +58,8 @@ Carlos Augusto Federico LERENA Salvanach (b. 9 July 1883)	father	Gilberto LERENA
 Carlos Augusto Federico LERENA Salvanach (b. 9 July 1883)	mother	Julia SALVANACH	-	register	1895 census
 Raul LERENA	father	Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS)	1855-1912	register	Argentina Military Records 1911-1936
 Raul LERENA	mother	Julia SALVANACH	-	register	Argentina Military Records 1911-1936
-#
 # --- THE MONTEVIDEO HOUSEHOLD, added 13 September 2026. Every edge here rests on an act
 # --- this archive has opened, except where marked "tree".
-#
 Don Luis Eugenio LERENA LENGUAS	spouse	Dona Julia JUANICO	-	register	Married 19 December 1864, San Francisco de Asis, Ciudad Vieja, Montevideo, act 258 - image read.
 Don Luis Eugenio LERENA LENGUAS	father	Don Luis LERENA (the godfather) = probably Luis LERENA y Fernandez	1811-1878	register	"hijo legitimo de Don Luis y de Dona Justiniana Lenguas" - Montevideo marriage act 258 (1864).
 Don Luis Eugenio LERENA LENGUAS	mother	Dona Justiniana LENGUAS Gonzalez	-	register	Named in Montevideo marriage act 258 (1864), and a witness at the wedding.
@@ -82,10 +78,8 @@ Don Luis LERENA (the godfather) = probably Luis LERENA y Fernandez	spouse	Dona J
 Don Luis LERENA (the godfather) = probably Luis LERENA y Fernandez	father	Sancho LLERENA Aguilar	1767-1832	tree	FamilySearch Tree LHJP-D1Y. SECONDARY - the acts have not been opened here.
 Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS)	father	Don Luis LERENA (the godfather) = probably Luis LERENA y Fernandez	1811-1878	register	*** UPGRADED FROM TREE TO DOCUMENTED, 20 September 2026. *** "el matrimonio que por palabras de presente contrajo Don GILBERTO LERENA, Oriental, soltero, hijo legitimo de Don LUIS y de Dona JUSTINIANA LENGUAS: con [Julia] SALVANACH, del propio estado y nacionalidad, e hija de Don CRISTOBAL y de Dona ANGELA ALVAREZ" - padrinos "Don LUIS LERENA y Dona ANGELA ALVAREZ". *** Don Luis is named TWICE in the one act - as Gilberto's father and again as padrino - which is the act corroborating itself. *** Previously: Published Uruguayan genealogy makes Gilberto a brother of Luis Lerena Lenguas. SECONDARY.
 Dr. Don Candido JUANICO	spouse	Dona Juliana Joaquina GONZALEZ	-	register	Both named as the bride's parents in Montevideo marriage act 258 (1864).
-#
 # --- HOUSEHOLDS THAT WERE DOCUMENTED BUT UNCHARTED, added 13 September 2026. These are links this
 # --- archive had already READ and recorded in the register notes, and simply never drew.
-#
 Maria E. C. LERENA	father	Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS)	1855-1912	register	1895 Argentine national census, Seccion 21 Subdivision 15, Buenos Aires - his household.
 Maria Luisa LERENA	father	Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS)	1855-1912	register	Same census household.
 Maria Angelica Julia LERENA Salvanach	father	Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS)	1855-1912	register	Same census household.
@@ -225,8 +219,8 @@ Pedro Segundo LERENA Villademoros	spouse	Paulina PRANDO Algar	-	register	Named a
 Avelino LERENA Villademoros (d. 1914)	spouse	Carmen LORENTE	-	register	Named as his wife at his death in 1914.
 Dona Maria FERNANDEZ TRESGUERRAS (wife of Sancho)	father	Rodrigo FERNANDEZ (father of Maria)	-	register	'id. mat.s RODRIGO FERNANDEZ y ROSA FERNANDEZ' - the 1811 baptism of her son Luis Escolastico, read off film 007713375 image 02410.
 Dona Maria FERNANDEZ TRESGUERRAS (wife of Sancho)	mother	Rosa FERNANDEZ (mother of Maria)	-	register	Same act.
-Bernabe LERENA (1911 dispensation)	father	Bernabe LERENA (the elder, of the 1911 diagram)	-	register	Drawn at the apex of the kinship schema in the 1911 dispensation, film 007713362 image 02473; image read.
-Maria LERENA (m. Eliseo CARDOZO)	father	Bernabe LERENA (the elder, of the 1911 diagram)	-	register	Drawn at the apex of the kinship schema in the 1911 dispensation, film 007713362 image 02473; image read.
+Bernabe LERENA (1911 dispensation)	father	Bernabe LERENA (of Trinidad)	-	register	Drawn at the apex of the kinship schema in the 1911 dispensation, film 007713362 image 02473; image read.
+Maria LERENA (m. Eliseo CARDOZO)	father	Bernabe LERENA (of Trinidad)	-	register	Drawn at the apex of the kinship schema in the 1911 dispensation, film 007713362 image 02473; image read.
 Florinda CARDOZO	father	Custodio CARDOZO (the elder, of the 1911 diagram)	-	register	Drawn at the apex of the kinship schema in the 1911 dispensation, film 007713362 image 02473; image read.
 Eliseo CARDOZO	father	Custodio CARDOZO (the elder, of the 1911 diagram)	-	register	Drawn at the apex of the kinship schema in the 1911 dispensation, film 007713362 image 02473; image read.
 Josefa SEGUEIRA (wife of Pedro LERENA)	father	Jose SEGUEIRA	-	register	'maternos JOSE SEGUEIRA y RAMONA' on her son's Montevideo death registration of 1889; image read.

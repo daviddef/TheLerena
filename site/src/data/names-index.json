@@ -496,6 +496,13 @@
    "url": "/people/bernabe-concilo-lerena-pelaez/"
   },
   {
+   "name": "Bernabe the elder",
+   "aliases": [
+    "Bernabé the elder"
+   ],
+   "url": "/people/bernabe-lerena/"
+  },
+  {
    "name": "Bernardina Harrison",
    "aliases": [
     "Bernardina Arrison"
@@ -4480,9 +4487,7 @@
    "name": "Bernabe Lerena",
    "url": "/same-name/bernabe-lerena/",
    "bearers": [
-    "/people/bernabe-lerena-2/",
-    "/people/bernabe-lerena-3/",
-    "/people/bernabe-lerena/"
+    "/people/bernabe-lerena-2/"
    ],
    "resolve": [
     {
@@ -4495,9 +4500,7 @@
    "name": "Bernabé Lerena",
    "url": "/same-name/bernabe-lerena/",
    "bearers": [
-    "/people/bernabe-lerena-2/",
-    "/people/bernabe-lerena-3/",
-    "/people/bernabe-lerena/"
+    "/people/bernabe-lerena-2/"
    ],
    "resolve": [
     {

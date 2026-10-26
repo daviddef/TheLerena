@@ -116,8 +116,8 @@
      "where": "Montevideo · Uruguayan",
      "source": "Arquidiocesis de Montevideo, Marriage Dispensation Records July-August 1911 …",
      "father": {
-      "slug": "bernabe-lerena-3",
-      "name": "Bernabe LERENA (the elder, of the 1911 diagram)",
+      "slug": "bernabe-lerena",
+      "name": "Bernabe LERENA (of Trinidad)",
       "tree": false
      },
      "mother": null,
@@ -1245,7 +1245,7 @@
    "name": "Bernabe Lerena",
    "slug": "bernabe-lerena",
    "links": 22,
-   "exact": 3,
+   "exact": 2,
    "bearers": [
     {
      "slug": "bernabe-lerena",
@@ -1274,6 +1274,11 @@
        "tree": false
       },
       {
+       "slug": "bernabe-lerena-2",
+       "name": "Bernabe LERENA (1911 dispensation)",
+       "tree": false
+      },
+      {
        "slug": "carmen-lerena-pelaez",
        "name": "Carmen LERENA Pelaez",
        "tree": false
@@ -1296,6 +1301,11 @@
       {
        "slug": "margarita-medarda-del-corazon-de-jesus-lerena-pelaez",
        "name": "Margarita Medarda del Corazon de Jesus LERENA Pelaez (chr.1859)",
+       "tree": false
+      },
+      {
+       "slug": "maria-lerena-2",
+       "name": "Maria LERENA (m. Eliseo CARDOZO)",
        "tree": false
       },
       {
@@ -1330,8 +1340,8 @@
      "where": "Flores, Uruguay · Uruguayan",
      "source": "Arquidiocesis de Montevideo, Marriage Dispensation Records July-August 1911 …",
      "father": {
-      "slug": "bernabe-lerena-3",
-      "name": "Bernabe LERENA (the elder, of the 1911 diagram)",
+      "slug": "bernabe-lerena",
+      "name": "Bernabe LERENA (of Trinidad)",
       "tree": false
      },
      "mother": null,
@@ -1340,31 +1350,6 @@
       {
        "slug": "custodio-lerena",
        "name": "Custodio LERENA",
-       "tree": false
-      }
-     ]
-    },
-    {
-     "slug": "bernabe-lerena-3",
-     "name": "Bernabe LERENA (the elder, of the 1911 diagram)",
-     "exact": true,
-     "status": "unplaced",
-     "born": "",
-     "died": "",
-     "where": "Montevideo · Uruguayan",
-     "source": "Named at the apex of one of the two kinship diagrams in the Lerena-Cardozo dispensation of 1911 …",
-     "father": null,
-     "mother": null,
-     "spouses": [],
-     "children": [
-      {
-       "slug": "bernabe-lerena-2",
-       "name": "Bernabe LERENA (1911 dispensation)",
-       "tree": false
-      },
-      {
-       "slug": "maria-lerena-2",
-       "name": "Maria LERENA (m. Eliseo CARDOZO)",
        "tree": false
       }
      ]
