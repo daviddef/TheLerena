@@ -6022,7 +6022,42 @@
  {
   "name": "Margarita Antonia FERNANDEZ Gonzalez (b. 1847, Trinidad)",
   "born_est": "1847-06-13",
-  "last_attested_alive": "1847-Jun-18",
+  "last_attested_alive": "1847-06-13",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Jose Pedro MACIEL (suitor of Margarita Antonia Fernandez, 1865)",
+  "born_est": "-",
+  "last_attested_alive": "1865-Jun-17",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Eusebio MACIEL (father of Jose Pedro Maciel)",
+  "born_est": "-",
+  "last_attested_alive": "1865-Jun-17",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Bonifacia PELAEZ (wife of Eusebio Maciel)",
+  "born_est": "-",
+  "last_attested_alive": "1865-Jun-17",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Patricio GONZALEZ (father of Maria de los Reyes)",
+  "born_est": "-",
+  "last_attested_alive": "1865-Jun-17",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Juana CABALLERO (wife of Patricio Gonzalez)",
+  "born_est": "-",
+  "last_attested_alive": "1865-Jun-17",
   "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
   "tier": "ALIVE AT"
  },
