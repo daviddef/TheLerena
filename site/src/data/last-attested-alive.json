@@ -6064,16 +6064,16 @@
  {
   "name": "Francisco FERNANDEZ ALVAREZ (m. Clara Lerena)",
   "born_est": "-",
-  "last_attested_alive": "1828-May-01",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Pedro Francisco FERNANDEZ Lerena (b. 1828, San Jose)",
   "born_est": "1828-04-29",
-  "last_attested_alive": "1828-May-01",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1828-04-29",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Josefa FERNANDEZ ALVAREZ (m. Juan Alvarez)",
@@ -6499,6 +6499,20 @@
   "name": "Pedro CABRERA (first husband of Margarita Leal)",
   "born_est": "-",
   "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Dalmira VAQUERO Lerena (b. c.1892, d. 1893)",
+  "born_est": "1892c",
+  "last_attested_alive": "1892c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Elmira VAQUERO Lerena (b. c.1894, d. 1896)",
+  "born_est": "1894c",
+  "last_attested_alive": "1894c",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  }
