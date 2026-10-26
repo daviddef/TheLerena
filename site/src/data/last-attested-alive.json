@@ -1072,8 +1072,8 @@
  },
  {
   "name": "Fermin LERENA (of Trinidad)",
-  "born_est": "-",
-  "last_attested_alive": "-",
+  "born_est": "1853c",
+  "last_attested_alive": "1853c",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -6406,15 +6406,15 @@
  },
  {
   "name": "Gil LERENA (m. Anastasia Santa Cruz)",
-  "born_est": "-",
-  "last_attested_alive": "-",
+  "born_est": "1819c",
+  "last_attested_alive": "1819c",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
  {
   "name": "Anastasia SANTA CRUZ (m. Gil Lerena)",
-  "born_est": "-",
-  "last_attested_alive": "-",
+  "born_est": "1825c",
+  "last_attested_alive": "1825c",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  }
