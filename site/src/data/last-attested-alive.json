@@ -5721,9 +5721,9 @@
  {
   "name": "Carmelo Belisario LERENA Montano (b. 1842, San Jose)",
   "born_est": "1842-07-16",
-  "last_attested_alive": "1842-Jul-24",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1842-07-16",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Tomasa Margarita LERENA Montano (b. 1846, San Jose)",
