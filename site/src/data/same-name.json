@@ -665,6 +665,34 @@
      "children": []
     },
     {
+     "slug": "maria-teresa-lerena-sena",
+     "name": "Maria Teresa LERENA Sena (b. 1915, Trinidad)",
+     "exact": false,
+     "status": "unplaced",
+     "born": "1915",
+     "died": "",
+     "where": "Trinidad, Flores · Oriental",
+     "source": "Flores, Marriage Records 1938-1941 (image 153 of the item, the civil marriage of 20 July 1940 at Trinidad, expediente no. 52, ark 3:1:3Q9M-CS2C-Z91H-B) …",
+     "father": {
+      "slug": "doroteo-donato-lerena-beloqui",
+      "name": "Doroteo Donato LERENA Beloqui",
+      "tree": false
+     },
+     "mother": {
+      "slug": "valentina-sena",
+      "name": "Valentina SENA (m. Doroteo Donato Lerena)",
+      "tree": false
+     },
+     "spouses": [
+      {
+       "slug": "teodoro-luis-bentancor",
+       "name": "Teodoro Luis BENTANCOR (m. Maria Teresa Lerena 1940)",
+       "tree": false
+      }
+     ],
+     "children": []
+    },
+    {
      "slug": "maria-josefina-lerena",
      "name": "Maria Josefina LERENA",
      "exact": false,

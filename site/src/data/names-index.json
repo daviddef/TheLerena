@@ -853,6 +853,11 @@
    "url": "/people/cipriana-saenz-pena/"
   },
   {
+   "name": "Cipriano Lerena Montana",
+   "aliases": [],
+   "url": "/people/cipriano-lerena/"
+  },
+  {
    "name": "Clara Plaza",
    "aliases": [],
    "url": "/people/clara-a-plaza/"
@@ -3492,6 +3497,15 @@
    "url": "/people/maria-socorro-fernandez-lerena/"
   },
   {
+   "name": "Maria Teresa Lerena Sena",
+   "aliases": [
+    "Maria Teresa Lerena",
+    "María Teresa Lerena",
+    "María Teresa Lerena Sena"
+   ],
+   "url": "/people/maria-teresa-lerena-sena/"
+  },
+  {
    "name": "Martin Perez",
    "aliases": [],
    "url": "/people/martin-perez/"
@@ -3810,6 +3824,11 @@
    "name": "Pedro Villademoros",
    "aliases": [],
    "url": "/people/pedro-villademoros/"
+  },
+  {
+   "name": "Pedro Zacarias Beloqui",
+   "aliases": [],
+   "url": "/people/pedro-zacarias-beloqui/"
   },
   {
    "name": "Petrona Aguilar",
@@ -4210,6 +4229,11 @@
     "Teodoro Alves"
    ],
    "url": "/people/teodoro-alves-lerena/"
+  },
+  {
+   "name": "Teodoro Luis Bentancor",
+   "aliases": [],
+   "url": "/people/teodoro-luis-bentancor/"
   },
   {
    "name": "Teodoro Silva",
@@ -4749,13 +4773,7 @@
    "name": "Cipriano Lerena",
    "url": "/people/?q=Cipriano%20Lerena",
    "bearers": [
-    "/people/cipriano-lerena/"
-   ],
-   "resolve": [
-    {
-     "near": "/people/dona-lauriana-beloqui/",
-     "url": "/people/cipriano-lerena/"
-    }
+    "/people/cipriano-lerena-2/"
    ]
   },
   {
@@ -5534,6 +5552,10 @@
     {
      "near": "/people/juan-carlos-lerena/",
      "url": "/people/maria-lerena/"
+    },
+    {
+     "near": "/people/teodoro-luis-bentancor/",
+     "url": "/people/maria-teresa-lerena-sena/"
     }
    ]
   },
@@ -5631,6 +5653,10 @@
     {
      "near": "/people/juan-carlos-lerena/",
      "url": "/people/maria-lerena/"
+    },
+    {
+     "near": "/people/teodoro-luis-bentancor/",
+     "url": "/people/maria-teresa-lerena-sena/"
     }
    ]
   },

@@ -4669,6 +4669,34 @@
   "tier": "BIRTH ONLY"
  },
  {
+  "name": "Maria Teresa LERENA Sena (b. 1915, Trinidad)",
+  "born_est": "1915-10-15",
+  "last_attested_alive": "1915-10-15",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Teodoro Luis BENTANCOR (m. Maria Teresa Lerena 1940)",
+  "born_est": "1910-09-09",
+  "last_attested_alive": "1910-09-09",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Cipriano LERENA (b. c.1908, witness 1940)",
+  "born_est": "1908c",
+  "last_attested_alive": "1940-Jul-20",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Pedro Zacarias BELOQUI (witness, Trinidad 1940)",
+  "born_est": "1904c",
+  "last_attested_alive": "1940-Jul-20",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
   "name": "Gervasio SENA (father of Valentina Sena)",
   "born_est": "-",
   "last_attested_alive": "-",
