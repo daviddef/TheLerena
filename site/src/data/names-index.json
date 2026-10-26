@@ -555,6 +555,13 @@
    "url": "/people/bernardo-yrizabal/"
   },
   {
+   "name": "Blanca Aida Lerena Caballero",
+   "aliases": [
+    "Blanca Aida Lerena"
+   ],
+   "url": "/people/blanca-aida-lerena-caballero/"
+  },
+  {
    "name": "Bonifacia Pelaez",
    "aliases": [],
    "url": "/people/bonifacia-pelaez/"
@@ -1679,6 +1686,13 @@
     "Fermín Lerena Barragan"
    ],
    "url": "/people/fermin-lerena-barragan/"
+  },
+  {
+   "name": "Fermin Llerena",
+   "aliases": [
+    "Fermín Llerena"
+   ],
+   "url": "/people/fermin-lerena/"
   },
   {
    "name": "Fidel Lerena Fernandez",
@@ -4964,17 +4978,11 @@
   },
   {
    "name": "Fermin Lerena",
-   "url": "/people/?q=Fermin%20Lerena",
-   "bearers": [
-    "/people/fermin-lerena/"
-   ]
+   "url": "/people/?q=Fermin%20Lerena"
   },
   {
    "name": "Fermín Lerena",
-   "url": "/people/?q=Fermin%20Lerena",
-   "bearers": [
-    "/people/fermin-lerena/"
-   ]
+   "url": "/people/?q=Fermin%20Lerena"
   },
   {
    "name": "Fernando Moratorio",

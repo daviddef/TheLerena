@@ -3689,6 +3689,13 @@
   "tier": "BIRTH ONLY"
  },
  {
+  "name": "Blanca Aida LERENA Caballero (b. c.1923, buried 1923)",
+  "born_est": "1923c",
+  "last_attested_alive": "1923c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
   "name": "Ismael LERENA (father, Trinidad 1917)",
   "born_est": "-",
   "last_attested_alive": "-",
