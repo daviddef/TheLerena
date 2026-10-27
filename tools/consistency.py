@@ -71,6 +71,11 @@ TWINS = {
     ("Maria Carlota MORATORIO Lerena", "Maria de las Mercedes MORATORIO Lerena"):
         "both acts of 8 March 1880 at the Catedral Basilica read 'que nacio el VEINTE Y CUATRO DE "
         "FEBRERO ultimo' - film 007713378 image 02598, IMAGE READ",
+    ("Clara Natividad PELAEZ (b. 1881, Trinidad)", "Alejandrina Natividad PELAEZ (b. 1881, Trinidad)"):
+        "two entries on one page of Trinidad Baptism Records August 1879 - January 1881 (film 008111100 "
+        "item 3, image 150, ark 3:1:3Q9M-CSJB-15GY), both baptised 6 January 1882 and both 'que nacio "
+        "el veinticinco' of the month before, the second naming December - MACHINE TRANSCRIPT, the plate "
+        "not opened: declared on the strength of two entries each stating the same day, to be read at the plate",
 }
 TWINS = {tuple(sorted(k)): v for k, v in TWINS.items()}
 

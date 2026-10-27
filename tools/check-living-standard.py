@@ -192,6 +192,9 @@ def main():
         if re.search(r"<(img|picture|video|canvas)\b", re.sub(r"(?s)<footer.*?</footer>|<nav.*?</nav>", "", doc), re.I):
             fail("b", f"{url} has an image")
         txt = main_text(doc)
+        # "All 1003 entries" is the size of the register, printed on every person page: a count, not a year
+        # (it began to read as one when the register passed a thousand people, 29 October 2026)
+        txt = re.sub(r"\bAll\s+\d+\s+entries\b", "", txt)
         ys = sorted(set(YEAR.findall(txt)))
         if ys:
             fail("b", f"{url} shows a year ({', '.join(ys)}): a living person has no dates")
