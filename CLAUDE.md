@@ -60,3 +60,16 @@ family and every link the story states that the register does not draw). The tin
 pages of the people in direct-line.json. A mother is on the line only where the story card says `spouseDirect` (the story's own tree
 draws her as the parent of the next card). The line's break (generation 3, Sancho's children, no person) is never bridged: a family
 that married into that generation says so in its not-connected block. `npm run check:familyribbon` is the kit gate.
+
+## The mini flags on the ribbon cards (27 October 2026)
+
+Every card of the story ribbon and of the twelve family ribbons carries the kit's mini flags (kit `docs/ribbon-flags.md`): the state
+that held the place in the card's year where the era snapshot can say it, and today's country flag where it is another flag. Nothing is
+chosen here: `tools/build-ribbon-flags.py` (`npm run flags:data`, after `family:data`) runs the kit's `ribbonflags.py` on the cards
+and writes `site/src/data/ribbon-flags.json` (generated, by card position); `src/lib/ribbon-flags.js` puts them on the cards as
+`/story/` and `FamilyLine.astro` draw them. They are NOT written into story.json or family-lines.json (the kit's story and
+family-ribbon schemas at 1fa6b54 do not know `flags`; story.json is hand-written; family-lines.json is rewritten whole). A place the
+kit will not place by itself gets this archive's own country in `site/src/data/flag-countries.json` (hand-written, each with its
+evidence: Córdoba and Córdova la Llana are Spain by the 1791 and 1811 acts; the River Plate stays without a flag). Never guess a
+country. Gates: `npm run check:ribbonflags` (the kit's data gate, in the build) and `npm run check:flagfit` (the box gate, Chrome:
+no card changes size; in CI after the build).

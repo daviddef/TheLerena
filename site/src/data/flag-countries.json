@@ -1,0 +1,9 @@
+{
+  "_note": "HAND-WRITTEN (27 October 2026). This archive's own answer to 'which country is this place in today' for a ribbon card whose place the kit will not place by itself (kit docs/ribbon-flags.md, the --countries file of ribbonflags.py). {card place text, as the card prints it, without a leading 'of ': ISO country code, or null for no flag}. Only a place this archive's own evidence settles is given a country; a name two countries could hold is null, and says why. It decides today's flag only: no era table of this archive files a Spanish place, so no era flag follows from it.",
+  "_evidence_Córdova la Llana": "Sancho Llerena's marriage act, Canelones, 8 January 1791 (DGS 8166578, image 2687): 'natural de Cordova la Llana'. The baptism of his son Luis Escolástico, Iglesia Matriz, Montevideo, 10 February 1811, calls him 'natural de Andalucia'; the Montevideo census gives his birthplace as 'ANDALUZIA'. So his Córdova is Córdoba in Andalusia, Spain (the story, chapter on the 1791 act; work list: 'la Llana' tells it from Córdoba del Tucumán).",
+  "_evidence_Córdoba": "The same 1791 act calls Félix Llerena and Rosalía Aguilar 'naturales de dicha Cordova': the said Córdova, their son's, which the 1811 act places in Andalusia. The story's card prints it as 'Córdoba' for both. Spain, by the same evidence; the town itself still rests on that one phrase.",
+  "_evidence_the River Plate": "Juan Carlos Lerena's card infers only 'the River Plate' (two names on his son's Argentine army card, no other record); its two banks are Uruguay and Argentina today, so no flag.",
+  "Córdova la Llana": "ES",
+  "Córdoba": "ES",
+  "the River Plate": null
+}

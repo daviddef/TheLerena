@@ -1,0 +1,935 @@
+{
+ "_note": "Made by tools/build-ribbon-flags.py with the kit's ribbonflags.py from era-snapshot.json and flag-countries.json, for the cards of story.json and family-lines.json, by position (null: no flag on that card); do not edit by hand.",
+ "story": [
+  [
+   {
+    "kind": "today",
+    "line": "from",
+    "place": "Córdoba",
+    "svg": "spain-flags--era-1975.svg",
+    "flag": "spain-flags--era-1975",
+    "country": "ES",
+    "year": null,
+    "label": "from Córdoba: Spain today",
+    "grade": "doc"
+   },
+   {
+    "kind": "today",
+    "line": "spouse",
+    "place": "Córdoba",
+    "svg": "spain-flags--era-1975.svg",
+    "flag": "spain-flags--era-1975",
+    "country": "ES",
+    "year": null,
+    "label": "spouse of Córdoba: Spain today",
+    "grade": "doc"
+   }
+  ],
+  [
+   {
+    "kind": "today",
+    "line": "from",
+    "place": "Córdova la Llana",
+    "svg": "spain-flags--era-1975.svg",
+    "flag": "spain-flags--era-1975",
+    "country": "ES",
+    "year": null,
+    "label": "from Córdova la Llana: Spain today",
+    "grade": "doc"
+   },
+   {
+    "kind": "era",
+    "line": "at",
+    "place": "Canelones",
+    "svg": "spain-flags--era-1716.svg",
+    "flag": "spain-flags--era-1716",
+    "era": "uruguay--era-1726",
+    "year": 1791,
+    "label": "at Canelones, 1791: Spanish Empire then",
+    "grade": "doc",
+    "assessed": true
+   },
+   {
+    "kind": "today",
+    "line": "at",
+    "place": "Canelones",
+    "svg": "uruguay-flags--era-1830.svg",
+    "flag": "uruguay-flags--era-1830",
+    "country": "UY",
+    "year": null,
+    "label": "at Canelones: Uruguay today",
+    "grade": "doc"
+   },
+   {
+    "kind": "today",
+    "line": "spouse",
+    "place": "Asturias",
+    "svg": "spain-flags--era-1975.svg",
+    "flag": "spain-flags--era-1975",
+    "country": "ES",
+    "year": null,
+    "label": "spouse of Asturias: Spain today",
+    "grade": "doc"
+   }
+  ],
+  [
+   {
+    "kind": "era",
+    "line": "from",
+    "place": "Canelones",
+    "svg": "spain-flags--era-1716.svg",
+    "flag": "spain-flags--era-1716",
+    "era": "uruguay--era-1726",
+    "year": 1791,
+    "label": "from Canelones, 1791: Spanish Empire then",
+    "grade": "doc",
+    "assessed": true
+   },
+   {
+    "kind": "today",
+    "line": "from",
+    "place": "Canelones",
+    "svg": "uruguay-flags--era-1830.svg",
+    "flag": "uruguay-flags--era-1830",
+    "country": "UY",
+    "year": null,
+    "label": "from Canelones: Uruguay today",
+    "grade": "doc"
+   },
+   {
+    "kind": "today",
+    "line": "at",
+    "place": "Montevideo",
+    "svg": "uruguay-flags--era-1830.svg",
+    "flag": "uruguay-flags--era-1830",
+    "country": "UY",
+    "year": null,
+    "label": "at Montevideo: Uruguay today",
+    "grade": "doc"
+   }
+  ],
+  [
+   {
+    "kind": "today",
+    "line": "at",
+    "place": "Rosario",
+    "svg": "argentina-flags--era-1861.svg",
+    "flag": "argentina-flags--era-1861",
+    "country": "AR",
+    "year": null,
+    "label": "at Rosario: Argentina today",
+    "grade": "inf"
+   }
+  ],
+  [
+   {
+    "kind": "today",
+    "line": "from",
+    "place": "Rosario de Santa Fe",
+    "svg": "argentina-flags--era-1861.svg",
+    "flag": "argentina-flags--era-1861",
+    "country": "AR",
+    "year": null,
+    "label": "from Rosario de Santa Fe: Argentina today",
+    "grade": "doc"
+   },
+   {
+    "kind": "today",
+    "line": "at",
+    "place": "Cape Town",
+    "svg": "south-africa-flags--era-1994.svg",
+    "flag": "south-africa-flags--era-1994",
+    "country": "ZA",
+    "year": null,
+    "label": "at Cape Town: South Africa today",
+    "grade": "doc"
+   },
+   {
+    "kind": "era",
+    "line": "spouse",
+    "place": "Northam, Devon",
+    "svg": "uk-flags--era-1801.svg",
+    "flag": "uk-flags--era-1801",
+    "era": "england--era-1837",
+    "year": 1882,
+    "label": "spouse of Northam, Devon, 1882: Britain and its colonies then",
+    "grade": "doc",
+    "assessed": true
+   }
+  ],
+  [
+   {
+    "kind": "today",
+    "line": "from",
+    "place": "Wynberg, Cape Town",
+    "svg": "south-africa-flags--era-1994.svg",
+    "flag": "south-africa-flags--era-1994",
+    "country": "ZA",
+    "year": null,
+    "label": "from Wynberg, Cape Town: South Africa today",
+    "grade": "doc"
+   },
+   {
+    "kind": "today",
+    "line": "at",
+    "place": "Germiston",
+    "svg": "south-africa-flags--era-1994.svg",
+    "flag": "south-africa-flags--era-1994",
+    "country": "ZA",
+    "year": null,
+    "label": "at Germiston: South Africa today",
+    "grade": "doc"
+   },
+   {
+    "kind": "today",
+    "line": "spouse",
+    "place": "Brakpan",
+    "svg": "south-africa-flags--era-1994.svg",
+    "flag": "south-africa-flags--era-1994",
+    "country": "ZA",
+    "year": null,
+    "label": "spouse of Brakpan: South Africa today",
+    "grade": "doc"
+   }
+  ],
+  [
+   {
+    "kind": "today",
+    "line": "from",
+    "place": "Johannesburg",
+    "svg": "south-africa-flags--era-1994.svg",
+    "flag": "south-africa-flags--era-1994",
+    "country": "ZA",
+    "year": null,
+    "label": "from Johannesburg: South Africa today",
+    "grade": "doc"
+   }
+  ]
+ ],
+ "families": {
+  "brayley": [
+   [
+    {
+     "kind": "today",
+     "line": "from",
+     "place": "West Leigh by Coldridge, Devon",
+     "svg": "uk-flags--era-1922.svg",
+     "flag": "uk-flags--era-1922",
+     "country": "GB",
+     "year": null,
+     "label": "from West Leigh by Coldridge, Devon: the United Kingdom today",
+     "grade": "doc"
+    },
+    {
+     "kind": "today",
+     "line": "spouse",
+     "place": "Haddington, East Lothian",
+     "svg": "uk-flags--era-1922.svg",
+     "flag": "uk-flags--era-1922",
+     "country": "GB",
+     "year": null,
+     "label": "spouse of Haddington, East Lothian: the United Kingdom today",
+     "grade": "doc"
+    }
+   ],
+   [
+    {
+     "kind": "era",
+     "line": "from",
+     "place": "St Bartholomew's, City of London",
+     "svg": "uk-flags--era-1801.svg",
+     "flag": "uk-flags--era-1801",
+     "era": "england--era-1837",
+     "year": 1843,
+     "label": "from St Bartholomew's, City of London, 1843: Britain and its colonies then",
+     "grade": "doc",
+     "assessed": true
+    },
+    {
+     "kind": "era",
+     "line": "spouse",
+     "place": "Worlingworth, Suffolk",
+     "svg": "uk-flags--era-1801.svg",
+     "flag": "uk-flags--era-1801",
+     "era": "england--era-1837",
+     "year": 1843,
+     "label": "spouse of Worlingworth, Suffolk, 1843: Britain and its colonies then",
+     "grade": "doc",
+     "assessed": true
+    }
+   ]
+  ],
+  "temple": [
+   [
+    {
+     "kind": "today",
+     "line": "from",
+     "place": "Haddington, East Lothian",
+     "svg": "uk-flags--era-1922.svg",
+     "flag": "uk-flags--era-1922",
+     "country": "GB",
+     "year": null,
+     "label": "from Haddington, East Lothian: the United Kingdom today",
+     "grade": "doc"
+    },
+    {
+     "kind": "today",
+     "line": "spouse",
+     "place": "West Leigh by Coldridge, Devon",
+     "svg": "uk-flags--era-1922.svg",
+     "flag": "uk-flags--era-1922",
+     "country": "GB",
+     "year": null,
+     "label": "spouse of West Leigh by Coldridge, Devon: the United Kingdom today",
+     "grade": "doc"
+    }
+   ],
+   [
+    {
+     "kind": "era",
+     "line": "from",
+     "place": "St Bartholomew's, City of London",
+     "svg": "uk-flags--era-1801.svg",
+     "flag": "uk-flags--era-1801",
+     "era": "england--era-1837",
+     "year": 1843,
+     "label": "from St Bartholomew's, City of London, 1843: Britain and its colonies then",
+     "grade": "doc",
+     "assessed": true
+    },
+    {
+     "kind": "era",
+     "line": "spouse",
+     "place": "Worlingworth, Suffolk",
+     "svg": "uk-flags--era-1801.svg",
+     "flag": "uk-flags--era-1801",
+     "era": "england--era-1837",
+     "year": 1843,
+     "label": "spouse of Worlingworth, Suffolk, 1843: Britain and its colonies then",
+     "grade": "doc",
+     "assessed": true
+    }
+   ]
+  ],
+  "fernandez": [
+   [
+    {
+     "kind": "today",
+     "line": "from",
+     "place": "Asturias, Spain",
+     "svg": "spain-flags--era-1975.svg",
+     "flag": "spain-flags--era-1975",
+     "country": "ES",
+     "year": null,
+     "label": "from Asturias, Spain: Spain today",
+     "grade": "doc"
+    },
+    {
+     "kind": "today",
+     "line": "spouse",
+     "place": "Asturias, Spain",
+     "svg": "spain-flags--era-1975.svg",
+     "flag": "spain-flags--era-1975",
+     "country": "ES",
+     "year": null,
+     "label": "spouse of Asturias, Spain: Spain today",
+     "grade": "doc"
+    }
+   ],
+   [
+    {
+     "kind": "today",
+     "line": "from",
+     "place": "Asturias, Spain",
+     "svg": "spain-flags--era-1975.svg",
+     "flag": "spain-flags--era-1975",
+     "country": "ES",
+     "year": null,
+     "label": "from Asturias, Spain: Spain today",
+     "grade": "doc"
+    },
+    {
+     "kind": "today",
+     "line": "spouse",
+     "place": "Andalusia, Spain",
+     "svg": "spain-flags--era-1975.svg",
+     "flag": "spain-flags--era-1975",
+     "country": "ES",
+     "year": null,
+     "label": "spouse of Andalusia, Spain: Spain today",
+     "grade": "doc"
+    }
+   ]
+  ],
+  "pelaez": [
+   [
+    {
+     "kind": "today",
+     "line": "from",
+     "place": "Trinidad, Flores, Uruguay",
+     "svg": "uruguay-flags--era-1830.svg",
+     "flag": "uruguay-flags--era-1830",
+     "country": "UY",
+     "year": null,
+     "label": "from Trinidad, Flores, Uruguay: Uruguay today",
+     "grade": "doc"
+    },
+    {
+     "kind": "today",
+     "line": "spouse",
+     "place": "Trinidad, Flores, Uruguay",
+     "svg": "uruguay-flags--era-1830.svg",
+     "flag": "uruguay-flags--era-1830",
+     "country": "UY",
+     "year": null,
+     "label": "spouse of Trinidad, Flores, Uruguay: Uruguay today",
+     "grade": "doc"
+    }
+   ],
+   [
+    {
+     "kind": "today",
+     "line": "from",
+     "place": "Trinidad, Flores, Uruguay",
+     "svg": "uruguay-flags--era-1830.svg",
+     "flag": "uruguay-flags--era-1830",
+     "country": "UY",
+     "year": null,
+     "label": "from Trinidad, Flores, Uruguay: Uruguay today",
+     "grade": "doc"
+    },
+    {
+     "kind": "today",
+     "line": "spouse",
+     "place": "Uruguay",
+     "svg": "uruguay-flags--era-1830.svg",
+     "flag": "uruguay-flags--era-1830",
+     "country": "UY",
+     "year": null,
+     "label": "spouse of Uruguay: Uruguay today",
+     "grade": "doc"
+    }
+   ],
+   [
+    {
+     "kind": "today",
+     "line": "from",
+     "place": "Trinidad, Flores, Uruguay",
+     "svg": "uruguay-flags--era-1830.svg",
+     "flag": "uruguay-flags--era-1830",
+     "country": "UY",
+     "year": null,
+     "label": "from Trinidad, Flores, Uruguay: Uruguay today",
+     "grade": "doc"
+    }
+   ]
+  ],
+  "gonzalez": [
+   [
+    {
+     "kind": "today",
+     "line": "from",
+     "place": "Uruguay",
+     "svg": "uruguay-flags--era-1830.svg",
+     "flag": "uruguay-flags--era-1830",
+     "country": "UY",
+     "year": null,
+     "label": "from Uruguay: Uruguay today",
+     "grade": "doc"
+    },
+    {
+     "kind": "today",
+     "line": "spouse",
+     "place": "Uruguay",
+     "svg": "uruguay-flags--era-1830.svg",
+     "flag": "uruguay-flags--era-1830",
+     "country": "UY",
+     "year": null,
+     "label": "spouse of Uruguay: Uruguay today",
+     "grade": "doc"
+    }
+   ],
+   [
+    {
+     "kind": "today",
+     "line": "from",
+     "place": "Uruguay",
+     "svg": "uruguay-flags--era-1830.svg",
+     "flag": "uruguay-flags--era-1830",
+     "country": "UY",
+     "year": null,
+     "label": "from Uruguay: Uruguay today",
+     "grade": "doc"
+    },
+    {
+     "kind": "today",
+     "line": "spouse",
+     "place": "Uruguay",
+     "svg": "uruguay-flags--era-1830.svg",
+     "flag": "uruguay-flags--era-1830",
+     "country": "UY",
+     "year": null,
+     "label": "spouse of Uruguay: Uruguay today",
+     "grade": "doc"
+    }
+   ],
+   [
+    {
+     "kind": "today",
+     "line": "from",
+     "place": "Uruguay",
+     "svg": "uruguay-flags--era-1830.svg",
+     "flag": "uruguay-flags--era-1830",
+     "country": "UY",
+     "year": null,
+     "label": "from Uruguay: Uruguay today",
+     "grade": "doc"
+    },
+    {
+     "kind": "today",
+     "line": "spouse",
+     "place": "Uruguay",
+     "svg": "uruguay-flags--era-1830.svg",
+     "flag": "uruguay-flags--era-1830",
+     "country": "UY",
+     "year": null,
+     "label": "spouse of Uruguay: Uruguay today",
+     "grade": "doc"
+    }
+   ],
+   null
+  ],
+  "lenguas": [
+   null,
+   [
+    {
+     "kind": "today",
+     "line": "from",
+     "place": "Montevideo",
+     "svg": "uruguay-flags--era-1830.svg",
+     "flag": "uruguay-flags--era-1830",
+     "country": "UY",
+     "year": null,
+     "label": "from Montevideo: Uruguay today",
+     "grade": "doc"
+    },
+    {
+     "kind": "today",
+     "line": "spouse",
+     "place": "Montevideo",
+     "svg": "uruguay-flags--era-1830.svg",
+     "flag": "uruguay-flags--era-1830",
+     "country": "UY",
+     "year": null,
+     "label": "spouse of Montevideo: Uruguay today",
+     "grade": "doc"
+    }
+   ],
+   [
+    {
+     "kind": "today",
+     "line": "from",
+     "place": "Montevideo",
+     "svg": "uruguay-flags--era-1830.svg",
+     "flag": "uruguay-flags--era-1830",
+     "country": "UY",
+     "year": null,
+     "label": "from Montevideo: Uruguay today",
+     "grade": "doc"
+    },
+    {
+     "kind": "today",
+     "line": "spouse",
+     "place": "Montevideo",
+     "svg": "uruguay-flags--era-1830.svg",
+     "flag": "uruguay-flags--era-1830",
+     "country": "UY",
+     "year": null,
+     "label": "spouse of Montevideo: Uruguay today",
+     "grade": "doc"
+    }
+   ],
+   [
+    {
+     "kind": "today",
+     "line": "from",
+     "place": "Estado Oriental del Uruguay",
+     "svg": "uruguay-flags--era-1830.svg",
+     "flag": "uruguay-flags--era-1830",
+     "country": "UY",
+     "year": null,
+     "label": "from Estado Oriental del Uruguay: Uruguay today",
+     "grade": "doc"
+    },
+    {
+     "kind": "today",
+     "line": "spouse",
+     "place": "Montevideo",
+     "svg": "uruguay-flags--era-1830.svg",
+     "flag": "uruguay-flags--era-1830",
+     "country": "UY",
+     "year": null,
+     "label": "spouse of Montevideo: Uruguay today",
+     "grade": "doc"
+    }
+   ]
+  ],
+  "cardozo": [
+   [
+    {
+     "kind": "today",
+     "line": "from",
+     "place": "Uruguay",
+     "svg": "uruguay-flags--era-1830.svg",
+     "flag": "uruguay-flags--era-1830",
+     "country": "UY",
+     "year": null,
+     "label": "from Uruguay: Uruguay today",
+     "grade": "doc"
+    }
+   ],
+   [
+    {
+     "kind": "today",
+     "line": "from",
+     "place": "Uruguay",
+     "svg": "uruguay-flags--era-1830.svg",
+     "flag": "uruguay-flags--era-1830",
+     "country": "UY",
+     "year": null,
+     "label": "from Uruguay: Uruguay today",
+     "grade": "doc"
+    },
+    {
+     "kind": "today",
+     "line": "spouse",
+     "place": "Uruguay",
+     "svg": "uruguay-flags--era-1830.svg",
+     "flag": "uruguay-flags--era-1830",
+     "country": "UY",
+     "year": null,
+     "label": "spouse of Uruguay: Uruguay today",
+     "grade": "doc"
+    }
+   ],
+   [
+    {
+     "kind": "today",
+     "line": "from",
+     "place": "Uruguay",
+     "svg": "uruguay-flags--era-1830.svg",
+     "flag": "uruguay-flags--era-1830",
+     "country": "UY",
+     "year": null,
+     "label": "from Uruguay: Uruguay today",
+     "grade": "doc"
+    },
+    {
+     "kind": "today",
+     "line": "spouse",
+     "place": "Uruguay",
+     "svg": "uruguay-flags--era-1830.svg",
+     "flag": "uruguay-flags--era-1830",
+     "country": "UY",
+     "year": null,
+     "label": "spouse of Uruguay: Uruguay today",
+     "grade": "doc"
+    }
+   ],
+   [
+    {
+     "kind": "today",
+     "line": "from",
+     "place": "Trinidad, Flores, Uruguay",
+     "svg": "uruguay-flags--era-1830.svg",
+     "flag": "uruguay-flags--era-1830",
+     "country": "UY",
+     "year": null,
+     "label": "from Trinidad, Flores, Uruguay: Uruguay today",
+     "grade": "doc"
+    }
+   ]
+  ],
+  "juanico": [
+   [
+    {
+     "kind": "today",
+     "line": "from",
+     "place": "Uruguay",
+     "svg": "uruguay-flags--era-1830.svg",
+     "flag": "uruguay-flags--era-1830",
+     "country": "UY",
+     "year": null,
+     "label": "from Uruguay: Uruguay today",
+     "grade": "doc"
+    }
+   ],
+   [
+    {
+     "kind": "today",
+     "line": "from",
+     "place": "Montevideo",
+     "svg": "uruguay-flags--era-1830.svg",
+     "flag": "uruguay-flags--era-1830",
+     "country": "UY",
+     "year": null,
+     "label": "from Montevideo: Uruguay today",
+     "grade": "doc"
+    },
+    {
+     "kind": "era",
+     "line": "spouse",
+     "place": "Estado Oriental del Uruguay",
+     "svg": "uruguay-flags--era-1830.svg",
+     "flag": "uruguay-flags--era-1830",
+     "era": "uruguay--era-1830",
+     "year": 1842,
+     "label": "spouse of Estado Oriental del Uruguay, 1842: Uruguay then",
+     "grade": "doc",
+     "assessed": true
+    }
+   ],
+   [
+    {
+     "kind": "today",
+     "line": "from",
+     "place": "Rosario, Santa Fe",
+     "svg": "argentina-flags--era-1861.svg",
+     "flag": "argentina-flags--era-1861",
+     "country": "AR",
+     "year": null,
+     "label": "from Rosario, Santa Fe: Argentina today",
+     "grade": "doc"
+    },
+    {
+     "kind": "today",
+     "line": "spouse",
+     "place": "Montevideo",
+     "svg": "uruguay-flags--era-1830.svg",
+     "flag": "uruguay-flags--era-1830",
+     "country": "UY",
+     "year": null,
+     "label": "spouse of Montevideo: Uruguay today",
+     "grade": "doc"
+    }
+   ]
+  ],
+  "traibel": [
+   [
+    {
+     "kind": "today",
+     "line": "from",
+     "place": "Montevideo",
+     "svg": "uruguay-flags--era-1830.svg",
+     "flag": "uruguay-flags--era-1830",
+     "country": "UY",
+     "year": null,
+     "label": "from Montevideo: Uruguay today",
+     "grade": "doc"
+    },
+    {
+     "kind": "today",
+     "line": "spouse",
+     "place": "Montevideo",
+     "svg": "uruguay-flags--era-1830.svg",
+     "flag": "uruguay-flags--era-1830",
+     "country": "UY",
+     "year": null,
+     "label": "spouse of Montevideo: Uruguay today",
+     "grade": "doc"
+    }
+   ],
+   [
+    {
+     "kind": "today",
+     "line": "from",
+     "place": "Uruguay",
+     "svg": "uruguay-flags--era-1830.svg",
+     "flag": "uruguay-flags--era-1830",
+     "country": "UY",
+     "year": null,
+     "label": "from Uruguay: Uruguay today",
+     "grade": "doc"
+    },
+    {
+     "kind": "today",
+     "line": "spouse",
+     "place": "Uruguay",
+     "svg": "uruguay-flags--era-1830.svg",
+     "flag": "uruguay-flags--era-1830",
+     "country": "UY",
+     "year": null,
+     "label": "spouse of Uruguay: Uruguay today",
+     "grade": "doc"
+    }
+   ],
+   [
+    {
+     "kind": "today",
+     "line": "from",
+     "place": "Montevideo",
+     "svg": "uruguay-flags--era-1830.svg",
+     "flag": "uruguay-flags--era-1830",
+     "country": "UY",
+     "year": null,
+     "label": "from Montevideo: Uruguay today",
+     "grade": "doc"
+    }
+   ]
+  ],
+  "alvarez": [
+   [
+    {
+     "kind": "today",
+     "line": "from",
+     "place": "San Jose, Uruguay",
+     "svg": "uruguay-flags--era-1830.svg",
+     "flag": "uruguay-flags--era-1830",
+     "country": "UY",
+     "year": null,
+     "label": "from San Jose, Uruguay: Uruguay today",
+     "grade": "doc"
+    },
+    {
+     "kind": "today",
+     "line": "spouse",
+     "place": "San Jose, Uruguay",
+     "svg": "uruguay-flags--era-1830.svg",
+     "flag": "uruguay-flags--era-1830",
+     "country": "UY",
+     "year": null,
+     "label": "spouse of San Jose, Uruguay: Uruguay today",
+     "grade": "doc"
+    }
+   ],
+   [
+    {
+     "kind": "today",
+     "line": "from",
+     "place": "San Jose de Mayo, Uruguay",
+     "svg": "uruguay-flags--era-1830.svg",
+     "flag": "uruguay-flags--era-1830",
+     "country": "UY",
+     "year": null,
+     "label": "from San Jose de Mayo, Uruguay: Uruguay today",
+     "grade": "doc"
+    },
+    {
+     "kind": "today",
+     "line": "spouse",
+     "place": "San Jose de Mayo, Uruguay",
+     "svg": "uruguay-flags--era-1830.svg",
+     "flag": "uruguay-flags--era-1830",
+     "country": "UY",
+     "year": null,
+     "label": "spouse of San Jose de Mayo, Uruguay: Uruguay today",
+     "grade": "doc"
+    }
+   ],
+   [
+    {
+     "kind": "today",
+     "line": "from",
+     "place": "San Jose de Mayo, Uruguay",
+     "svg": "uruguay-flags--era-1830.svg",
+     "flag": "uruguay-flags--era-1830",
+     "country": "UY",
+     "year": null,
+     "label": "from San Jose de Mayo, Uruguay: Uruguay today",
+     "grade": "doc"
+    }
+   ]
+  ],
+  "larriera": [
+   null,
+   [
+    {
+     "kind": "today",
+     "line": "from",
+     "place": "Uruguay",
+     "svg": "uruguay-flags--era-1830.svg",
+     "flag": "uruguay-flags--era-1830",
+     "country": "UY",
+     "year": null,
+     "label": "from Uruguay: Uruguay today",
+     "grade": "doc"
+    },
+    {
+     "kind": "today",
+     "line": "spouse",
+     "place": "Montevideo",
+     "svg": "uruguay-flags--era-1830.svg",
+     "flag": "uruguay-flags--era-1830",
+     "country": "UY",
+     "year": null,
+     "label": "spouse of Montevideo: Uruguay today",
+     "grade": "doc"
+    }
+   ],
+   [
+    {
+     "kind": "today",
+     "line": "from",
+     "place": "Departamento San Jose, Uruguay",
+     "svg": "uruguay-flags--era-1830.svg",
+     "flag": "uruguay-flags--era-1830",
+     "country": "UY",
+     "year": null,
+     "label": "from Departamento San Jose, Uruguay: Uruguay today",
+     "grade": "doc"
+    }
+   ]
+  ],
+  "taylor": [
+   [
+    {
+     "kind": "today",
+     "line": "from",
+     "place": "Worlingworth, Suffolk",
+     "svg": "uk-flags--era-1922.svg",
+     "flag": "uk-flags--era-1922",
+     "country": "GB",
+     "year": null,
+     "label": "from Worlingworth, Suffolk: the United Kingdom today",
+     "grade": "doc"
+    },
+    {
+     "kind": "today",
+     "line": "spouse",
+     "place": "St Bartholomew's, City of London",
+     "svg": "uk-flags--era-1922.svg",
+     "flag": "uk-flags--era-1922",
+     "country": "GB",
+     "year": null,
+     "label": "spouse of St Bartholomew's, City of London: the United Kingdom today",
+     "grade": "doc"
+    }
+   ],
+   [
+    {
+     "kind": "era",
+     "line": "from",
+     "place": "Bideford, Devon",
+     "svg": "uk-flags--era-1801.svg",
+     "flag": "uk-flags--era-1801",
+     "era": "england--era-1837",
+     "year": 1884,
+     "label": "from Bideford, Devon, 1884: Britain and its colonies then",
+     "grade": "doc",
+     "assessed": true
+    },
+    {
+     "kind": "today",
+     "line": "spouse",
+     "place": "Rosario, Argentina",
+     "svg": "argentina-flags--era-1861.svg",
+     "flag": "argentina-flags--era-1861",
+     "country": "AR",
+     "year": null,
+     "label": "spouse of Rosario, Argentina: Argentina today",
+     "grade": "doc"
+    }
+   ]
+  ]
+ }
+}

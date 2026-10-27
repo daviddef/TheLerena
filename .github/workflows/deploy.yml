@@ -34,6 +34,16 @@ jobs:
       # is gated on it rather than on the build's own exit code.
       - name: Check every link, anchor and contents list
         run: python3 tools/check-links.py
+      # THE RIBBON FLAGS TAKE NO ROOM (27 October 2026; kit docs/ribbon-flags.md). The data gate (check:ribbonflags) ran in the build;
+      # this is the box gate, which needs a browser: Chrome is on the runner, playwright-core is installed without saving it (it
+      # is no dependency of the site, so it goes in the checkout's root node_modules, outside site/, where the kit's script still finds
+      # it and site/'s installed tree is not touched). It serves dist and measures every ribbon card on /story/ and every family page
+      # with and without its flags at 1440, 1100 and 390; one pixel of difference, or a strip on a word, fails. Not run (exit 2) fails.
+      - name: Check that the ribbon flags change no card's size
+        run: |
+          npm i --prefix .. --no-save --no-package-lock --no-audit --no-fund playwright-core@1.63.0
+          npm run check:flagfit
+        working-directory: site
       # The whole archive is one book (17 October 2026): every built page is placed in site/src/data/book.json, every running head
       # and Previous/Next matches its order. The kit's checkbook sets redirect stubs aside itself and reads the built site, so it runs
       # from site/ like the build (the Luwinski deploy once failed on a step that used a path relative to the wrong directory).

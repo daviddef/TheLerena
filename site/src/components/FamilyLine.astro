@@ -6,16 +6,18 @@
 
    The story's own marriages are passed as `derived`, for this family only (a spouse on this family's cards); the file
    already states them, so they add nothing unless the two ever drift, and the kit's gate (check:familyribbon) reads the
-   built page against both. A family the file does not hold (no two documented generations) draws nothing here. */
+   built page against both. A family the file does not hold (no two documented generations) draws nothing here. Each card's mini
+   flags (27 October 2026) come from src/data/ribbon-flags.json (src/lib/ribbon-flags.js), not from family-lines.json. */
 import FamilyRibbon from "@daviddef/archive-kit/components/FamilyRibbon.astro";
 import { marriageConnections } from "@daviddef/archive-kit/lib/familyribbon.js";
 import familyLines from "../data/family-lines.json";
 import directLine from "../data/direct-line.json";
 import story from "../data/story.json";
 import { u } from "../lib/url.js";
+import { familyWithFlags } from "../lib/ribbon-flags.js";
 
 const { id } = Astro.props;
-const fam = familyLines.families.find((f) => f.id === id);
+const fam = familyWithFlags(familyLines.families.find((f) => f.id === id));
 const here = new Set((fam?.cards || []).flatMap((c) => [c.person, c.spousePerson]).filter(Boolean));
 const derived = fam ? (marriageConnections(story.ribbon, (slug) => (here.has(slug) ? fam.id : null))[fam.id] || []) : [];
 ---

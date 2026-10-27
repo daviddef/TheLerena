@@ -158,8 +158,11 @@ def main():
     # book.json (17 October 2026) is hand-edited: every chapter title, blurb and part paragraph is typed. It is a tracked
     # data file the kit's default file set does not reach, so it is named here, like the components and layouts.
     # story.json (25 October 2026) is hand-edited too: the whole text of /story/, and it names the living generation.
+    # flag-countries.json (27 October 2026) is hand-edited: this archive's own country for a ribbon card's place, with the
+    # evidence for each in its words. ribbon-flags.json beside it is GENERATED (tools/build-ribbon-flags.py, with the kit's
+    # ribbonflags.py), names no person, and is held by the kit's gate (check:ribbonflags: no year on a living card's flag).
     for extra in ("requests/*.md", "site/src/components/*.astro", "site/src/layouts/*.astro", "site/src/data/book.json",
-                  "site/src/data/story.json"):
+                  "site/src/data/story.json", "site/src/data/flag-countries.json"):
         includes.append(extra)
 
     cmd = [sys.executable, str(kit), "--root", str(root), "--feed", str(fp)]

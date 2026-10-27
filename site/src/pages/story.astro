@@ -1,12 +1,15 @@
 ---
 /* The story: the line this archive follows, told once as a short book (kit docs/story.md). Everything that is not data is
    the kit's StoryBook; this page supplies the data (src/data/story.json), where a person's page is, and the six document
-   images it shows, all of them already published on /family-papers/ (every person on them is dead). */
+   images it shows, all of them already published on /family-papers/ (every person on them is dead). The ribbon's mini flags
+   (27 October 2026) are put on its cards from src/data/ribbon-flags.json (src/lib/ribbon-flags.js). */
 import Base from "../layouts/Base.astro";
 import StoryBook from "@daviddef/archive-kit/components/StoryBook.astro";
-import book from "../data/story.json";
+import story from "../data/story.json";
+import { storyWithFlags } from "../lib/ribbon-flags.js";
 import directLine from "../data/direct-line.json";
 import { u } from "../lib/url.js";
+const book = storyWithFlags(story);
 const personHref = (slug) => u(`/people/${slug}/`);
 const plateIndex = {
   "marriage-1911": { src: "/docs/marriage-1911.jpg", w: 1500, h: 978, title: "The marriage register, St Dominic's, Wynberg, 3 September 1911: Pablo Armando Lerena, 29, horse-dealer; Mary Septima Taylor, 27", holder: "Duplicate Original Register no. 7271, entry 160" },
