@@ -4165,7 +4165,7 @@
   "what": "The Trinidad baptisms of the Lerena kindred 1886-1889",
   "when": "2026-10-29",
   "outcome": "yield",
-  "pages": "1-211 scanned for the surname; images 1, 4, 5, 54, 140 and 210 returned no transcript and are unread",
+  "pages": "1-211 scanned for the surname; images 1, 4, 5, 54, 140 and 210 returned no transcript and were then read by eye (see the next entry)",
   "walked": false,
   "tags": [
    "lerena",
@@ -4185,5 +4185,24 @@
    "machine-transcript"
   ],
   "note": "FOUND: Doroteo Lerena as a son of Bernabe and Casimira Pelaez; children of Florencio, Mauricio, Cipriano, Gualberto, Venancio, Doroteo and Julia (Beratarbide), the grandparents named in each; Isaac Lerena as godfather in 1886; Aurora Lerena de Vaquero and Natalia Lerena as godmothers. Six images unread. Machine transcript only."
+ },
+ {
+  "src": "FamilySearch image tiles - Santisima Trinidad Baptism Records 1886-1888 (item 1 of DGS film 008164291), the six images with no machine transcript (1, 4, 5, 54, 140, 210), read by eye",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS27-NQ7T-K",
+  "waypoint": null,
+  "what": "The six untranscribed images of the Trinidad baptism book 1886-1888",
+  "when": "2026-10-29",
+  "outcome": "nothing",
+  "pages": "images 1 (filming target), 4 (cover), 5 (title page), 54 (pages 96-97), 140 (pages 264-265), 210 (last folio 592)",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "trinidad",
+   "uruguay",
+   "familysearch",
+   "baptism-records",
+   "plate-read"
+  ],
+  "note": "Not found: the surname in the two spreads (entries 10-17 of January 1887; entries 207-214 of June 1888); the other four frames carry no entries. The book is Libro XI, 1886-1889. Read at about 0.7 magnification."
  }
 ]
