@@ -918,3 +918,6 @@ a.lk-rec{text-decoration-style:dotted;text-underline-offset:2px}
 .rec-fig img{display:block;width:100%;height:auto;border:1px solid var(--rule,#d8d2c6);background:#fff;border-radius:3px}
 .rec-fig figcaption{font-size:.85em;margin-top:.25rem;line-height:1.35}
 td .rec-fig,dd .rec-fig{max-width:11rem}
+/* The ribbon flags' key and credit (27 October 2026): the kit's FamilyRibbon writes "... (hover for which place). <span>Flags: ...",
+   and the build drops that space on the family pages; this puts it back (a doubled space collapses, so a fixed kit is unharmed). */
+.fr-fl .flag-credit::before{content:" "}

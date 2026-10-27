@@ -13,13 +13,15 @@ cd "$(dirname "$0")/../site"
 KIT=node_modules/@daviddef/archive-kit/kit/tools
 DIST="${ARCHIVE_OUT:-dist}"
 [ -f "$DIST/story/index.html" ] || { echo "  --    flagfit    not run: $DIST/story/index.html is missing (build first)"; exit 2; }
-PORT="${FLAGFIT_PORT:-4391}"
+# A free port, and proof that the server answering on it is this one: another archive's check on the same machine once held the
+# port, and its pages were measured instead (they have no /families/brayley/, so every family page came back empty).
+PORT=$(python3 -c "import socket; s = socket.socket(); s.bind(('127.0.0.1', 0)); print(s.getsockname()[1])")
 python3 -m http.server "$PORT" --bind 127.0.0.1 -d "$DIST" > /dev/null 2>&1 &
 SRV=$!
 trap 'kill $SRV 2>/dev/null || true' EXIT INT TERM
 i=0
-until python3 -c "import urllib.request,sys; urllib.request.urlopen('http://127.0.0.1:$PORT/story/')" 2>/dev/null; do
-  i=$((i + 1)); [ $i -gt 50 ] && { echo "  --    flagfit    not run: the local server did not start"; exit 2; }
+until python3 -c "import urllib.request,sys; sys.exit(urllib.request.urlopen('http://127.0.0.1:$PORT/story/').read() != open('$DIST/story/index.html', 'rb').read())" 2>/dev/null; do
+  i=$((i + 1)); [ $i -gt 50 ] && { echo "  --    flagfit    not run: no server of this build's dist answered on port $PORT"; exit 2; }
   sleep 0.2
 done
 URLS=$(python3 -c "
