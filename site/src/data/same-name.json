@@ -2036,7 +2036,7 @@
    "name": "Mauricio Lerena",
    "slug": "mauricio-lerena",
    "links": 17,
-   "exact": 3,
+   "exact": 4,
    "bearers": [
     {
      "slug": "mauricio-lerena",
@@ -2076,8 +2076,18 @@
        "tree": false
       },
       {
+       "slug": "ignacia-lerena",
+       "name": "Ignacia LERENA (m. Gaspar Dolor)",
+       "tree": false
+      },
+      {
        "slug": "manuel-mauricio-lerena-montano",
        "name": "Manuel Mauricio LERENA Montano (b. 1838, San Jose)",
+       "tree": false
+      },
+      {
+       "slug": "mauricio-lerena-4",
+       "name": "Mauricio LERENA (m. Brigida Cespedes, named 1874-1884)",
        "tree": false
       },
       {
@@ -2100,6 +2110,45 @@
      "mother": null,
      "spouses": [],
      "children": []
+    },
+    {
+     "slug": "mauricio-lerena-4",
+     "name": "Mauricio LERENA (m. Brigida Cespedes, named 1874-1884)",
+     "exact": true,
+     "status": "unplaced",
+     "born": "",
+     "died": "",
+     "where": "Trinidad, Flores · Oriental",
+     "source": "Santisima Trinidad, Baptism Records 1881-1885 (item 4 of DGS film 008111100, 255 images), image 28 (ark 3:1:3Q9M-CSJB-15T5), the baptism of 27 April 1882 …",
+     "father": {
+      "slug": "mauricio-lerena",
+      "name": "Mauricio LERENA (of Colla/Rosario, m. Casimira Montano 1837)",
+      "tree": false
+     },
+     "mother": {
+      "slug": "dona-casimira-montano",
+      "name": "Dona Casimira MONTANO (wife of Mauricio LERENA)",
+      "tree": false
+     },
+     "spouses": [
+      {
+       "slug": "brigida-cespedes",
+       "name": "Brigida CESPEDES (wife of Mauricio Lerena)",
+       "tree": false
+      }
+     ],
+     "children": [
+      {
+       "slug": "jacinta-margarita-lerena-cespedes",
+       "name": "Jacinta Margarita LERENA Cespedes (b. 1883, Trinidad)",
+       "tree": false
+      },
+      {
+       "slug": "mauricio-isidro-lerena-cespedes",
+       "name": "Mauricio Isidro LERENA Cespedes (b. 1881, Trinidad)",
+       "tree": false
+      }
+     ]
     },
     {
      "slug": "mauricio-lerena-3",
@@ -2126,6 +2175,28 @@
        "tree": false
       }
      ]
+    },
+    {
+     "slug": "mauricio-isidro-lerena-cespedes",
+     "name": "Mauricio Isidro LERENA Cespedes (b. 1881, Trinidad)",
+     "exact": false,
+     "status": "unplaced",
+     "born": "1881",
+     "died": "",
+     "where": "Trinidad, Flores · Oriental",
+     "source": "Santisima Trinidad, Baptism Records 1881-1885 (item 4 of DGS film 008111100, 255 images), image 28 (ark 3:1:3Q9M-CSJB-15T5), the baptism of 27 April 1882 …",
+     "father": {
+      "slug": "mauricio-lerena-4",
+      "name": "Mauricio LERENA (m. Brigida Cespedes, named 1874-1884)",
+      "tree": false
+     },
+     "mother": {
+      "slug": "brigida-cespedes",
+      "name": "Brigida CESPEDES (wife of Mauricio Lerena)",
+      "tree": false
+     },
+     "spouses": [],
+     "children": []
     }
    ]
   }

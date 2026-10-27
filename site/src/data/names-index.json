@@ -609,6 +609,13 @@
    "url": "/people/bonifacia-pelaez/"
   },
   {
+   "name": "Brigida Cespedes",
+   "aliases": [
+    "Brígida Cespedes"
+   ],
+   "url": "/people/brigida-cespedes/"
+  },
+  {
    "name": "Buenaventura Olivera",
    "aliases": [],
    "url": "/people/buenaventura-olivera/"
@@ -2025,6 +2032,11 @@
    "url": "/people/gallo-pareja/"
   },
   {
+   "name": "Gaspar Dolor",
+   "aliases": [],
+   "url": "/people/gaspar-dolor/"
+  },
+  {
    "name": "Pedro Lenguas",
    "aliases": [],
    "url": "/people/general-don-pedro-lenguas/"
@@ -2197,6 +2209,11 @@
    "url": "/people/ignacio-larranaga-lerena/"
   },
   {
+   "name": "Irene Lerena Harrison",
+   "aliases": [],
+   "url": "/people/irene-lerena-harrison/"
+  },
+  {
    "name": "Irene Taylor",
    "aliases": [],
    "url": "/people/irene-taylor/"
@@ -2271,6 +2288,13 @@
    "name": "Isidro Lerena Pelaez",
    "aliases": [],
    "url": "/people/isidro-lerena-pelaez/"
+  },
+  {
+   "name": "Jacinta Margarita Lerena Cespedes",
+   "aliases": [
+    "Jacinta Margarita Lerena"
+   ],
+   "url": "/people/jacinta-margarita-lerena-cespedes/"
   },
   {
    "name": "Jacinta Mercedes Gregoria Lerena Villademoros",
@@ -2812,6 +2836,11 @@
    "url": "/people/juan-pablo-lerena/"
   },
   {
+   "name": "Juan Pedro Dionisio Pelaez",
+   "aliases": [],
+   "url": "/people/juan-pedro-dionisio-pelaez/"
+  },
+  {
    "name": "Juan Pedro Olivera Lerena",
    "aliases": [
     "Juan Pedro Olivera"
@@ -3177,6 +3206,13 @@
    "name": "Luis Sena",
    "aliases": [],
    "url": "/people/luis-sena/"
+  },
+  {
+   "name": "Luisa Estefania Lerena Echeverry",
+   "aliases": [
+    "Luisa Estefania Lerena"
+   ],
+   "url": "/people/luisa-estefania-lerena-echeverry/"
   },
   {
    "name": "Luisa Lerena Alvarez",
@@ -3948,6 +3984,13 @@
    "url": "/people/mateo-magarinos-veira/"
   },
   {
+   "name": "Mauricio Isidro Lerena Cespedes",
+   "aliases": [
+    "Mauricio Isidro Lerena"
+   ],
+   "url": "/people/mauricio-isidro-lerena-cespedes/"
+  },
+  {
    "name": "Maximo Pelaez Lerena",
    "aliases": [
     "Maximo de la Santisima Trinidad Pelaez",
@@ -4485,6 +4528,11 @@
    "name": "Roberto Llorens",
    "aliases": [],
    "url": "/people/roberto-llorens/"
+  },
+  {
+   "name": "Robustiana Etelbina Dolor",
+   "aliases": [],
+   "url": "/people/robustiana-etelbina-dolor/"
   },
   {
    "name": "Rodolfo Bernardo Lerena",
@@ -5716,6 +5764,19 @@
    ]
   },
   {
+   "name": "Ignacia Lerena",
+   "url": "/people/?q=Ignacia%20Lerena",
+   "bearers": [
+    "/people/ignacia-lerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/gaspar-dolor/",
+     "url": "/people/ignacia-lerena/"
+    }
+   ]
+  },
+  {
    "name": "Isabel Lerena",
    "url": "/people/?q=Isabel%20Lerena",
    "bearers": [
@@ -6364,6 +6425,7 @@
    "bearers": [
     "/people/mauricio-lerena-2/",
     "/people/mauricio-lerena-3/",
+    "/people/mauricio-lerena-4/",
     "/people/mauricio-lerena/"
    ]
   },
