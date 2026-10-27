@@ -6921,5 +6921,12 @@
   "last_attested_alive": "1868-Sep-27",
   "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
   "tier": "ALIVE AT"
+ },
+ {
+  "name": "Juan Baldomero FERNANDEZ (b. 1873, Trinidad)",
+  "born_est": "1872c",
+  "last_attested_alive": "1872c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]
