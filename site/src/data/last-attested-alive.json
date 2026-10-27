@@ -3340,8 +3340,8 @@
  },
  {
   "name": "Aurora LERENA Fernandez (m. Manuel VAQUERO)",
-  "born_est": "1868",
-  "last_attested_alive": "1868",
+  "born_est": "1866-11-26",
+  "last_attested_alive": "1866-11-26",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -4586,8 +4586,8 @@
  },
  {
   "name": "Margarita LERENA Gazo (b.1873, m. Carlos Patraso 1899)",
-  "born_est": "1873",
-  "last_attested_alive": "1873",
+  "born_est": "1871-12-26",
+  "last_attested_alive": "1871-12-26",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -6877,6 +6877,48 @@
   "name": "Ramona Benita PELAEZ (b. 1876, Trinidad)",
   "born_est": "1876-04-03",
   "last_attested_alive": "1876-Apr-21",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Isaac Segundo LERENA Gazo (b. 1869, Trinidad)",
+  "born_est": "1869-06-03",
+  "last_attested_alive": "1869-06-03",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Victoriana del Carmen FERNANDEZ (b. 1868, Trinidad)",
+  "born_est": "1868-03-06",
+  "last_attested_alive": "1868-03-06",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Antonio Isabelino FERNANDEZ (b. 1870, Trinidad)",
+  "born_est": "1870-11-19",
+  "last_attested_alive": "1870-Dec-11",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Eusebio Agapito LERENA Islas (b. 1868, Trinidad)",
+  "born_est": "1868-08-15",
+  "last_attested_alive": "1868-Sep-27",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Velizario LERENA (named 1868)",
+  "born_est": "-",
+  "last_attested_alive": "1868-Sep-27",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Diega ISLAS (wife of Velizario Lerena)",
+  "born_est": "-",
+  "last_attested_alive": "1868-Sep-27",
   "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
   "tier": "ALIVE AT"
  }

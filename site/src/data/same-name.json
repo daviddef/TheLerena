@@ -122,6 +122,11 @@
        "slug": "ramon-fernandez-2",
        "name": "Ramon FERNANDEZ (the younger, m. Maria Serna 1894)",
        "tree": false
+      },
+      {
+       "slug": "victoriana-del-carmen-fernandez",
+       "name": "Victoriana del Carmen FERNANDEZ (b. 1868, Trinidad)",
+       "tree": false
       }
      ]
     },
@@ -1877,6 +1882,11 @@
       }
      ],
      "children": [
+      {
+       "slug": "antonio-isabelino-fernandez",
+       "name": "Antonio Isabelino FERNANDEZ (b. 1870, Trinidad)",
+       "tree": false
+      },
       {
        "slug": "cecilia-socorro-fernandez-lerena",
        "name": "Cecilia Socorro FERNANDEZ Lerena (chr.1862)",

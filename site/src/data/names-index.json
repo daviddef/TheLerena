@@ -392,6 +392,13 @@
    "url": "/people/antonio-francisco-costales/"
   },
   {
+   "name": "Antonio Isabelino Fernandez",
+   "aliases": [
+    "Antonio Isabelino Fernández"
+   ],
+   "url": "/people/antonio-isabelino-fernandez/"
+  },
+  {
    "name": "Antonio Leonar",
    "aliases": [],
    "url": "/people/antonio-leonar/"
@@ -1037,6 +1044,11 @@
     "Delfina Fernández"
    ],
    "url": "/people/delfina-fernandez/"
+  },
+  {
+   "name": "Diega Islas",
+   "aliases": [],
+   "url": "/people/diega-islas/"
   },
   {
    "name": "Dolores Carmen Gonzalez",
@@ -1720,6 +1732,13 @@
    "url": "/people/eugenio-marcos-abella/"
   },
   {
+   "name": "Eusebio Agapito Lerena Islas",
+   "aliases": [
+    "Eusebio Agapito Lerena"
+   ],
+   "url": "/people/eusebio-agapito-lerena-islas/"
+  },
+  {
    "name": "Eusebio Congenio Lerena Gonzalez",
    "aliases": [
     "Eusebio Congenio Lerena",
@@ -2179,6 +2198,13 @@
     "Irma Antonia Lerena Fernández"
    ],
    "url": "/people/irma-antonia-lerena-fernandez/"
+  },
+  {
+   "name": "Isaac Segundo Lerena Gazo",
+   "aliases": [
+    "Isaac Segundo Lerena"
+   ],
+   "url": "/people/isaac-segundo-lerena-gazo/"
   },
   {
    "name": "Isabel Lerena Barragan",
@@ -4814,6 +4840,13 @@
    "url": "/people/victor-manuel-garcia/"
   },
   {
+   "name": "Victoriana del Carmen Fernandez",
+   "aliases": [
+    "Victoriana del Carmen Fernández"
+   ],
+   "url": "/people/victoriana-del-carmen-fernandez/"
+  },
+  {
    "name": "Victorino Severo Larena",
    "aliases": [],
    "url": "/people/victorino-severo-larena/"
@@ -6709,6 +6742,19 @@
    "url": "/people/?q=Tomas%20Llerena",
    "bearers": [
     "/people/tomas-llerena/"
+   ]
+  },
+  {
+   "name": "Velizario Lerena",
+   "url": "/people/?q=Velizario%20Lerena",
+   "bearers": [
+    "/people/velizario-lerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/diega-islas/",
+     "url": "/people/velizario-lerena/"
+    }
    ]
   },
   {
