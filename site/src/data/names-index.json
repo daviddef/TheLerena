@@ -255,6 +255,11 @@
    "url": "/people/amalia-pacheco/"
   },
   {
+   "name": "Amalia Silva",
+   "aliases": [],
+   "url": "/people/amalia-silva/"
+  },
+  {
    "name": "Amanda Pittaluga",
    "aliases": [],
    "url": "/people/amanda-pittaluga/"
@@ -282,6 +287,13 @@
    "name": "Amelia Lerena Morales",
    "aliases": [],
    "url": "/people/amelia-lerena-morales/"
+  },
+  {
+   "name": "Amelia Natalia Lerena Alvarez",
+   "aliases": [
+    "Amelia Natalia Lerena"
+   ],
+   "url": "/people/amelia-natalia-lerena-alvarez/"
   },
   {
    "name": "Amora Juliana Pelaez Lerena",
@@ -537,6 +549,11 @@
     "Auristela Josefa Cipriana Alvarez Fernández"
    ],
    "url": "/people/auristela-josefa-cipriana-alvarez-fernandez/"
+  },
+  {
+   "name": "Aurora Asuncion Cardozo",
+   "aliases": [],
+   "url": "/people/aurora-asuncion-cardozo/"
   },
   {
    "name": "Aurora Eduarda Larena Fuentes",
@@ -848,6 +865,13 @@
    "url": "/people/carmelo-belisario-lerena-montano/"
   },
   {
+   "name": "Carmen Cleta Fernandez",
+   "aliases": [
+    "Carmen Cleta Fernández"
+   ],
+   "url": "/people/carmen-cleta-fernandez/"
+  },
+  {
    "name": "Carmen Donata Lerena Beloqui",
    "aliases": [
     "Carmen Donata Lerena"
@@ -1004,6 +1028,11 @@
    "url": "/people/celerino-gazo/"
   },
   {
+   "name": "Celestino Cadenas",
+   "aliases": [],
+   "url": "/people/celestino-cadenas/"
+  },
+  {
    "name": "Celestino Ismael Lerena Beloqui",
    "aliases": [
     "Celestino Ismael",
@@ -1104,6 +1133,13 @@
    "name": "Clara Henriette Knof",
    "aliases": [],
    "url": "/people/clara-henriette-knof/"
+  },
+  {
+   "name": "Clara Juliana Pelaez Alvarez",
+   "aliases": [
+    "Clara Juliana Pelaez"
+   ],
+   "url": "/people/clara-juliana-pelaez-alvarez/"
   },
   {
    "name": "Clara Lerena Alvarez",
@@ -1697,6 +1733,11 @@
    "url": "/people/eleiza-lerena-larriera/"
   },
   {
+   "name": "Elena Lerena Pelaez",
+   "aliases": [],
+   "url": "/people/elena-lerena-pelaez/"
+  },
+  {
    "name": "Elida Pilar Lerena Recuero",
    "aliases": [
     "Elida Pilar Lerena"
@@ -1808,13 +1849,6 @@
    "name": "Emilia Lerena Vega",
    "aliases": [],
    "url": "/people/emilia-lerena-vega-2/"
-  },
-  {
-   "name": "Emilio Isidoro Lerena Recuero",
-   "aliases": [
-    "Emilio Isidoro Lerena"
-   ],
-   "url": "/people/emilio-isidoro-lerena-recuero/"
   },
   {
    "name": "Emilio Lavina y Goyeneche",
@@ -2407,6 +2441,11 @@
    "url": "/people/horacio-alfredo-lerena-salvanach/"
   },
   {
+   "name": "Hortencio Beratarbide",
+   "aliases": [],
+   "url": "/people/hortencio-beratarbide/"
+  },
+  {
    "name": "Ida Pontophidan",
    "aliases": [],
    "url": "/people/ida-pontophidan/"
@@ -2434,6 +2473,13 @@
     "Ignacio Larranaga"
    ],
    "url": "/people/ignacio-larranaga-lerena/"
+  },
+  {
+   "name": "Indalecia Elvira Lerena Caraballo",
+   "aliases": [
+    "Indalecia Elvira Lerena"
+   ],
+   "url": "/people/indalecia-elvira-lerena-caraballo/"
   },
   {
    "name": "Ines Remigia Pelaez Lerena",
@@ -2486,6 +2532,16 @@
     "Isabel Lorenzo"
    ],
    "url": "/people/isabel-lorenzo-araquea/"
+  },
+  {
+   "name": "Isabel Raymunda Pelaez",
+   "aliases": [],
+   "url": "/people/isabel-raymunda-pelaez/"
+  },
+  {
+   "name": "Isabelino Bravo",
+   "aliases": [],
+   "url": "/people/isabelino-bravo/"
   },
   {
    "name": "Isabella Brailey",
@@ -4677,6 +4733,13 @@
    "url": "/people/pio-c-lerena/"
   },
   {
+   "name": "Policarpio Amador Lerena Pelaez",
+   "aliases": [
+    "Policarpio Amador Lerena"
+   ],
+   "url": "/people/policarpio-amador-lerena-pelaez/"
+  },
+  {
    "name": "Polonia Traibel",
    "aliases": [],
    "url": "/people/polonia-traibel/"
@@ -5648,6 +5711,12 @@
    "url": "/people/?q=Carmen%20Lerena",
    "bearers": [
     "/people/carmen-lerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/isabelino-bravo/",
+     "url": "/people/carmen-donata-lerena-beloqui/"
+    }
    ]
   },
   {
@@ -5827,9 +5896,19 @@
    ]
   },
   {
+   "name": "Emilio Isidoro Lerena Recuero",
+   "url": "/people/?q=Emilio%20Isidoro%20Lerena%20Recuero",
+   "bearers": [
+    "/people/emilio-isidoro-lerena-recuero-2/",
+    "/people/emilio-isidoro-lerena-recuero/"
+   ]
+  },
+  {
    "name": "Emilio Lerena",
    "url": "/people/?q=Emilio%20Lerena",
    "bearers": [
+    "/people/emilio-isidoro-lerena-recuero-2/",
+    "/people/emilio-isidoro-lerena-recuero/",
     "/people/emilio-lerena-2/",
     "/people/emilio-lerena/"
    ]

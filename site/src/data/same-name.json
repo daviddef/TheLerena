@@ -65,6 +65,11 @@
        "tree": false
       },
       {
+       "slug": "isabel-raymunda-pelaez",
+       "name": "Isabel Raymunda PELAEZ (b. 1897, dau. of Maximo and Maria Lerena)",
+       "tree": false
+      },
+      {
        "slug": "rosa-pelaez-lerena",
        "name": "Rosa PELAEZ Lerena (m. Gregorio Reyes 1919)",
        "tree": false
@@ -934,7 +939,7 @@
      "born": "1895",
      "died": "",
      "where": "Trinidad, Flores · Uruguayan",
-     "source": "Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 2026",
+     "source": "Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 2026 …",
      "father": null,
      "mother": null,
      "spouses": [],
@@ -1907,6 +1912,11 @@
        "tree": false
       },
       {
+       "slug": "carmen-cleta-fernandez",
+       "name": "Carmen Cleta FERNANDEZ (b. 1895, dau. of Serapio and Antonina Lerena)",
+       "tree": false
+      },
+      {
        "slug": "maria-gregoria-dolores-fernandez",
        "name": "Maria Gregoria Dolores FERNANDEZ (b. 1886, Trinidad)",
        "tree": false
@@ -2073,6 +2083,11 @@
       {
        "slug": "aurora-fernandez",
        "name": "Aurora FERNANDEZ (b. 1891, dau. of Serapio and Antonina Lerena)",
+       "tree": false
+      },
+      {
+       "slug": "carmen-cleta-fernandez",
+       "name": "Carmen Cleta FERNANDEZ (b. 1895, dau. of Serapio and Antonina Lerena)",
        "tree": false
       },
       {

@@ -3845,9 +3845,9 @@
  {
   "name": "Rosa CASAVALLE (m. Vitalino Yndalecio LERENA)",
   "born_est": "-",
-  "last_attested_alive": "1906-Dec-24",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Teodoro SILVA (m. Elena LERENA)",
@@ -4565,8 +4565,8 @@
  },
  {
   "name": "Luisa LERENA Alvarez (m. Clemente Bueno 1915)",
-  "born_est": "-",
-  "last_attested_alive": "-",
+  "born_est": "1896-08-25",
+  "last_attested_alive": "1896-08-25",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -6518,8 +6518,8 @@
  },
  {
   "name": "Flora VAQUERO Lerena (b. c.1896, d. 1897)",
-  "born_est": "1896c",
-  "last_attested_alive": "1896c",
+  "born_est": "1896-02-10",
+  "last_attested_alive": "1896-02-10",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -7402,6 +7402,104 @@
   "name": "Fermin MARTIN (m. Elbia Elmira Lerena Recuero 1931)",
   "born_est": "-",
   "last_attested_alive": "1893-Sep-19",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Amelia Natalia LERENA Alvarez (b. 1894, Trinidad)",
+  "born_est": "1894-02-23",
+  "last_attested_alive": "1894-02-23",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "M. Mercedes LERENA Alvarez (b. 1895, Trinidad)",
+  "born_est": "1895-09-08",
+  "last_attested_alive": "1895-09-08",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Carmen Cleta FERNANDEZ (b. 1895, dau. of Serapio and Antonina Lerena)",
+  "born_est": "1895-04-26",
+  "last_attested_alive": "1895-04-26",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Hortencio BERATARBIDE (b. 1895, son of Daniel and Julia Lerena)",
+  "born_est": "1895-06-28",
+  "last_attested_alive": "1895-06-28",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Aurora Asuncion CARDOZO (b. 1896, dau. of Juan Basilio and Casimira Lerena)",
+  "born_est": "1896-03-25",
+  "last_attested_alive": "1896-03-25",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Elena LERENA Pelaez (b. 1896, Trinidad)",
+  "born_est": "1896-10-07",
+  "last_attested_alive": "1896-10-07",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Policarpio Amador LERENA Pelaez (b. 1898, Trinidad)",
+  "born_est": "1898-01-26",
+  "last_attested_alive": "1898-01-26",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Isabel Raymunda PELAEZ (b. 1897, dau. of Maximo and Maria Lerena)",
+  "born_est": "1897-01-23",
+  "last_attested_alive": "1897-01-23",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Clara Juliana PELAEZ Alvarez (b. 1898, Trinidad)",
+  "born_est": "1898-01-26",
+  "last_attested_alive": "1898-01-26",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Emilio Isidoro LERENA Recuero (b. 1896, Trinidad)",
+  "born_est": "1896-01-02",
+  "last_attested_alive": "1896-01-02",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Indalecia Elvira LERENA Caraballo (b. 1897, Trinidad)",
+  "born_est": "1897-06-27",
+  "last_attested_alive": "1897-06-27",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Isabelino BRAVO (m. Carmen Donata Lerena Beloqui 1939)",
+  "born_est": "-",
+  "last_attested_alive": "1895-Sep-21",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Celestino CADENAS (m. Elida Pilar Lerena Recuero 1940)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Amalia SILVA (m. Emilio Isidoro Lerena Recuero)",
+  "born_est": "-",
+  "last_attested_alive": "1896-Apr-27",
   "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
   "tier": "ALIVE AT"
  }

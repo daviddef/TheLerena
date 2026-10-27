@@ -185,7 +185,7 @@
    "title": "Pelaez",
    "page": "/families/pelaez/",
    "status": "documented",
-   "statusNote": "the longest chain of parent and child the archive holds among the 56 people of the name, not the whole family",
+   "statusNote": "the longest chain of parent and child the archive holds among the 60 people of the name, not the whole family",
    "span": [
     1841,
     null
@@ -219,8 +219,8 @@
      "title": "Child of the card before: Trinidad, Flores. NOT the 1911-dispensation Bernabe - that man's wife is Florinda Cardozo; these two are declared different men in data/_person-pairs.txt."
     },
     {
-     "name": "Carlos Rey Lerena Pelaez",
-     "years": "b. 1915",
+     "name": "Elena Lerena Pelaez",
+     "years": "b. 1896",
      "origin": "Trinidad, Flores, Uruguay",
      "originGrade": "doc",
      "spouse": "",
@@ -228,12 +228,12 @@
      "atPlace": "",
      "atYear": "",
      "living": false,
-     "person": "carlos-rey-lerena-pelaez",
-     "title": "Child of the card before: Trinidad, Flores - civil registration and parish baptism, the sweep of 27 September 2026 entered as people 11 October 2026. INDEX ONLY; no act opened."
+     "person": "elena-lerena-pelaez",
+     "title": "Child of the card before: Trinidad baptism book 1895-1898 (29 Oct 2026)."
     }
    ],
    "notConnected": {
-    "why": "No parent, child or marriage the register or the story holds joins any of the 56 people of this name to anyone on our line."
+    "why": "No parent, child or marriage the register or the story holds joins any of the 60 people of this name to anyone on our line."
    }
   },
   {
@@ -382,7 +382,7 @@
    "title": "Cardozo",
    "page": "/families/cardozo/",
    "status": "documented",
-   "statusNote": "the longest chain of parent and child the archive holds among the 23 people of the name, not the whole family",
+   "statusNote": "the longest chain of parent and child the archive holds among the 24 people of the name, not the whole family",
    "span": [
     1915,
     null
@@ -443,7 +443,7 @@
     }
    ],
    "notConnected": {
-    "why": "No parent, child or marriage the register or the story holds joins any of the 23 people of this name to anyone on our line."
+    "why": "No parent, child or marriage the register or the story holds joins any of the 24 people of this name to anyone on our line."
    }
   },
   {
@@ -564,7 +564,7 @@
    "title": "Alvarez",
    "page": "/families/alvarez/",
    "status": "documented",
-   "statusNote": "the longest chain of parent and child the archive holds among the 35 people of the name, not the whole family",
+   "statusNote": "the longest chain of parent and child the archive holds among the 38 people of the name, not the whole family",
    "span": [
     1826,
     null
@@ -612,7 +612,7 @@
     }
    ],
    "notConnected": {
-    "why": "No parent, child or marriage the register or the story holds joins any of the 35 people of this name to anyone on our line."
+    "why": "No parent, child or marriage the register or the story holds joins any of the 38 people of this name to anyone on our line."
    }
   },
   {
