@@ -411,9 +411,12 @@
    "marina-cirila-fernandez",
    "maria-elena-gonzalez",
    "zeferino-pelaez",
-   "leopolda-fernandez"
+   "leopolda-fernandez",
+   "esperanza-lucia-lerena-casavalle",
+   "maria-dolores-rodriguez",
+   "juan-francisco-colman"
   ],
-  "count": 409
+  "count": 412
  },
  {
   "slug": "montevideo",
@@ -1066,6 +1069,21 @@
   "count": 8
  },
  {
+  "slug": "san-jose",
+  "name": "San Jose",
+  "people": [
+   "ema-justina-felicia-lerena-regules",
+   "arturo-mario-lerena-regules",
+   "casilda-fernandez-alvarez",
+   "pedro-garcia-de-la-sierra",
+   "tomasa-gonzalez",
+   "jose-paulino-larriera",
+   "dolores-morales",
+   "maria-s-gonzalez"
+  ],
+  "count": 8
+ },
+ {
   "slug": "montevideo-canelones",
   "name": "Montevideo / Canelones",
   "people": [
@@ -1076,20 +1094,6 @@
    "dona-bernardina-fragoso-de-rivera",
    "jose-pando-de-barros",
    "ana-maria-cabalgante"
-  ],
-  "count": 7
- },
- {
-  "slug": "san-jose",
-  "name": "San Jose",
-  "people": [
-   "ema-justina-felicia-lerena-regules",
-   "arturo-mario-lerena-regules",
-   "casilda-fernandez-alvarez",
-   "pedro-garcia-de-la-sierra",
-   "tomasa-gonzalez",
-   "jose-paulino-larriera",
-   "dolores-morales"
   ],
   "count": 7
  },
@@ -1671,6 +1675,14 @@
   "name": "Villa Sarandi, Florida",
   "people": [
    "rosa-elena-ferreira"
+  ],
+  "count": 1
+ },
+ {
+  "slug": "villa-colon-montevideo",
+  "name": "Villa Colon, Montevideo",
+  "people": [
+   "juan-g-olivera"
   ],
   "count": 1
  }

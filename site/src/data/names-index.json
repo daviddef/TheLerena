@@ -1980,6 +1980,13 @@
    "url": "/people/esperanza-gonzalez/"
   },
   {
+   "name": "Esperanza Lucia Lerena Casavalle",
+   "aliases": [
+    "Esperanza Lucia Lerena"
+   ],
+   "url": "/people/esperanza-lucia-lerena-casavalle/"
+  },
+  {
    "name": "Esteban Fernandez Alvarez",
    "aliases": [
     "Esteban Fernandez",
@@ -3168,6 +3175,11 @@
    "url": "/people/juan-francisco-cardoso/"
   },
   {
+   "name": "Juan Francisco Colman",
+   "aliases": [],
+   "url": "/people/juan-francisco-colman/"
+  },
+  {
    "name": "Juan Gregorio Colman",
    "aliases": [],
    "url": "/people/juan-gregorio-colman/"
@@ -4065,6 +4077,13 @@
     "María Dolores Moratorio Lerena"
    ],
    "url": "/people/maria-dolores-moratorio-lerena/"
+  },
+  {
+   "name": "Maria Dolores Rodriguez",
+   "aliases": [
+    "María Dolores Rodriguez"
+   ],
+   "url": "/people/maria-dolores-rodriguez/"
   },
   {
    "name": "Maria Eladia Ramona Mendoza",
@@ -6772,6 +6791,10 @@
    ],
    "resolve": [
     {
+     "near": "/people/juan-francisco-colman/",
+     "url": null
+    },
+    {
      "near": "/people/manuel-fernandez-alvarez/",
      "url": "/people/maria-de-los-reyes-gonzalez/"
     },
@@ -6788,6 +6811,10 @@
     "/people/maria-gonzalez/"
    ],
    "resolve": [
+    {
+     "near": "/people/juan-francisco-colman/",
+     "url": null
+    },
     {
      "near": "/people/manuel-fernandez-alvarez/",
      "url": "/people/maria-de-los-reyes-gonzalez/"
@@ -6932,6 +6959,10 @@
    ],
    "resolve": [
     {
+     "near": "/people/juan-francisco-colman/",
+     "url": null
+    },
+    {
      "near": "/people/manuel-fernandez-alvarez/",
      "url": "/people/maria-de-los-reyes-gonzalez/"
     },
@@ -6948,6 +6979,10 @@
     "/people/maria-gonzalez/"
    ],
    "resolve": [
+    {
+     "near": "/people/juan-francisco-colman/",
+     "url": null
+    },
     {
      "near": "/people/manuel-fernandez-alvarez/",
      "url": "/people/maria-de-los-reyes-gonzalez/"
