@@ -6606,5 +6606,33 @@
   "last_attested_alive": "1900c",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Juan Manuel LERENA Gazo (b. 1876, m. Simona Pereira 1929)",
+  "born_est": "1876c",
+  "last_attested_alive": "1876c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Simona PEREIRA (m. Juan Manuel Lerena 1929)",
+  "born_est": "1883",
+  "last_attested_alive": "1929-Feb-18",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Fructuoso PEREIRA (father of Simona Pereira)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maria ALMEIDA (wife of Fructuoso Pereira)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]

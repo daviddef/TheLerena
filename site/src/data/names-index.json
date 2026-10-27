@@ -1919,6 +1919,11 @@
    "url": "/people/froilan-plaza/"
   },
   {
+   "name": "Fructuoso Pereira",
+   "aliases": [],
+   "url": "/people/fructuoso-pereira/"
+  },
+  {
    "name": "Fulgencia Romero",
    "aliases": [],
    "url": "/people/fulgencia-romero/"
@@ -2632,6 +2637,13 @@
    "url": "/people/juan-lloberas/"
   },
   {
+   "name": "Juan Manuel Lerena Gazo",
+   "aliases": [
+    "Juan Manuel Lerena"
+   ],
+   "url": "/people/juan-manuel-lerena-gazo/"
+  },
+  {
    "name": "Juan Miguel de Laguna",
    "aliases": [],
    "url": "/people/juan-miguel-de-laguna/"
@@ -3185,6 +3197,13 @@
     "María Adelina Lerena Traibel"
    ],
    "url": "/people/maria-adelina-lerena-traibel/"
+  },
+  {
+   "name": "Maria Almeida",
+   "aliases": [
+    "María Almeida"
+   ],
+   "url": "/people/maria-almeida/"
   },
   {
    "name": "Maria Angelica Julia Lerena Salvanach",
@@ -4399,6 +4418,11 @@
    "url": "/people/severino-goro/"
   },
   {
+   "name": "Simona Pereira",
+   "aliases": [],
+   "url": "/people/simona-pereira/"
+  },
+  {
    "name": "Sixto Doroteo Lerena",
    "aliases": [],
    "url": "/people/sixto-doroteo-lerena/"
@@ -4650,7 +4674,9 @@
   {
    "name": "Isaac Filomeno",
    "aliases": [
-    "Isaac Lerena"
+    "Isaac Lerena",
+    "Pedro Isaac",
+    "Pedro Isaac Lerena"
    ],
    "url": "/people/ysaac-lerena/"
   },
@@ -5572,6 +5598,10 @@
     {
      "near": "/people/emilia-antelo/",
      "url": "/people/juan-facundo-frutuoso-barros-lerena/"
+    },
+    {
+     "near": "/people/simona-pereira/",
+     "url": "/people/juan-manuel-lerena-gazo/"
     }
    ]
   },

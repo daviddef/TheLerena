@@ -434,7 +434,7 @@
  {
   "what": "*** A DAUGHTER OF ALEJANDRO THE YOUNGER AND SEVERA FERNANDEZ, MARRIED AT TRINIDAD ON 14 JULY 1877, FOUND IN THE MARRIAGE BOOK AND IN A COPY OF 1932 ***",
   "the source": "Santisima Trinidad Religious Marriage Records 1875-1895, image 25 (ark 3:1:3Q9M-CS27-V1YP) - *** MACHINE TRANSCRIPT ***; and Uruguay Marriage Records 1931-1932, image 156 (folio 300, ark 3:1:3Q9M-CS2Z-Z7CP-G), the certified copy of 1932 - *** PLATE READ for the names, ages and witnesses ***",
-  "result": "The entry of 14 July 1877 marries Don Francisco Lejeron, twenty-five, son of Francisco and Simona Guiteria, to Dona Laurencia Lerena, twenty, daughter of Don Alejandro Florencio and Dona Severa Fernandez, with Serapio Fernandez and Socorro Lerena as witnesses.",
+  "result": "The entry of 14 July 1877 marries Don Francisco Lejeron, twenty-five, son of Francisco and his wife, to Dona Laurencia Lerena, twenty, daughter of Don Alejandro Florencio and Dona Severa Fernandez, with Serapio Fernandez and Socorro Lerena as witnesses.",
   "what was already known": "The eight children of the couple baptised 1855-1865 and a ninth, Gualberto, from a baptism of 1886, were known; a daughter of twenty in 1877 was not, though the baptism of 13 October 1856 held as 'Sanscuria Remisia' may be hers.",
   "what the act says": "Laurencia LERENA Fernandez (b. c.1857, m. Francisco Lejeren 1877) is a daughter of Alejandro LERENA (the younger, m.1 Isidora Chourino, m.2 Severa Fernandez 1854) and Severa FERNANDEZ (m. Alejandro LERENA the younger, 1854), and her husband is Francisco LEJEREN (m. Laurencia Lerena 1877). [Corrected 26 October 2026: the machine transcript of the 1932 copy gave the year 1867, which put her birth seven years before her parents' dispensation of 1854; the original book of 1875-1895 has the entry in 1877, so there is no conflict.]",
   "when": "26 Oct 2026"
@@ -694,5 +694,13 @@
   "what was already known": "Maria Luisa was known from her baptism of 1875 and named among her mother's six children in 1900.",
   "what the act says": "She died of heart failure at Montevideo, on 19 July 1932, a spinster of fifty-five born in Flores; the act does not say whether her father Isaac was still living.",
   "when": "28 October 2026"
+ },
+ {
+  "what": "*** ISAAC LERENA WAS DEAD AT TRINIDAD BEFORE 18 FEBRUARY 1929 ***",
+  "the source": "Salto, Marriage Records 1928-1930 (147 images, ark 3:1:3Q9M-CS24-Z9LG-S, image 50) - civil marriage act no. 5 of Salto, 18 February 1929 - *** PLATE READ ***",
+  "result": "'don Juan Manuel Lerena ... nacido el dia ocho de Marzo de ... mil ochocientos setenta y seis en la Ciudad de Trinidad ... empleado policial ... hijo de Pedro Isaac Lerena ... [fallecido en Trinidad] y de Adelaida Gazo ... [fallecida en Trinidad]'.",
+  "what was already known": "Isaac Lerena was last seen as Adelaida Gazo's widower in June 1900, and his daughter's death act of 1932 did not say whether he was living.",
+  "what the act says": "His son, a police employee at Salto, gave both parents as dead at Trinidad when he married there in extremis on 18 February 1929; Isaac is called Pedro Isaac, and his own death act is still not found.",
+  "when": "29 October 2026"
  }
 ]

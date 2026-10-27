@@ -1377,3 +1377,15 @@ Sofia PABEN Fernandez (b. c.1900, d. 1901)	father	Ramon A. PABEN (m. Sofia Ferna
 Ramon A. PABEN (m. Sofia Fernandez)	child	Sofia PABEN Fernandez (b. c.1900, d. 1901)	-	register	Flores civil act of Pintos, 15 Feb 1901 (machine transcript, 28 Oct 2026).
 Sofia PABEN Fernandez (b. c.1900, d. 1901)	mother	Sofia FERNANDEZ Lerena (m. Ramon A. Paben)	-	register	Flores civil act of Pintos, 15 Feb 1901 (machine transcript, 28 Oct 2026).
 Sofia FERNANDEZ Lerena (m. Ramon A. Paben)	child	Sofia PABEN Fernandez (b. c.1900, d. 1901)	-	register	Flores civil act of Pintos, 15 Feb 1901 (machine transcript, 28 Oct 2026).
+Juan Manuel LERENA Gazo (b. 1876, m. Simona Pereira 1929)	father	Ysaac LERENA (of Trinidad)	-	register	Salto civil marriage act no. 5 of 18 Feb 1929 (plate read 29 Oct 2026).
+Ysaac LERENA (of Trinidad)	child	Juan Manuel LERENA Gazo (b. 1876, m. Simona Pereira 1929)	-	register	Salto civil marriage act no. 5 of 18 Feb 1929 (plate read 29 Oct 2026).
+Juan Manuel LERENA Gazo (b. 1876, m. Simona Pereira 1929)	mother	Dona Adelaida GAZO (wife of Ysaac LERENA)	-	register	Salto civil marriage act no. 5 of 18 Feb 1929 (plate read 29 Oct 2026).
+Dona Adelaida GAZO (wife of Ysaac LERENA)	child	Juan Manuel LERENA Gazo (b. 1876, m. Simona Pereira 1929)	-	register	Salto civil marriage act no. 5 of 18 Feb 1929 (plate read 29 Oct 2026).
+Juan Manuel LERENA Gazo (b. 1876, m. Simona Pereira 1929)	spouse	Simona PEREIRA (m. Juan Manuel Lerena 1929)	-	register	Salto civil marriage act no. 5 of 18 Feb 1929 (plate read 29 Oct 2026).
+Simona PEREIRA (m. Juan Manuel Lerena 1929)	spouse	Juan Manuel LERENA Gazo (b. 1876, m. Simona Pereira 1929)	-	register	Salto civil marriage act no. 5 of 18 Feb 1929 (plate read 29 Oct 2026).
+Simona PEREIRA (m. Juan Manuel Lerena 1929)	father	Fructuoso PEREIRA (father of Simona Pereira)	-	register	Salto civil marriage act no. 5 of 18 Feb 1929 (plate read 29 Oct 2026).
+Fructuoso PEREIRA (father of Simona Pereira)	child	Simona PEREIRA (m. Juan Manuel Lerena 1929)	-	register	Salto civil marriage act no. 5 of 18 Feb 1929 (plate read 29 Oct 2026).
+Simona PEREIRA (m. Juan Manuel Lerena 1929)	mother	Maria ALMEIDA (wife of Fructuoso Pereira)	-	register	Salto civil marriage act no. 5 of 18 Feb 1929 (plate read 29 Oct 2026).
+Maria ALMEIDA (wife of Fructuoso Pereira)	child	Simona PEREIRA (m. Juan Manuel Lerena 1929)	-	register	Salto civil marriage act no. 5 of 18 Feb 1929 (plate read 29 Oct 2026).
+Fructuoso PEREIRA (father of Simona Pereira)	spouse	Maria ALMEIDA (wife of Fructuoso Pereira)	-	register	Salto civil marriage act no. 5 of 18 Feb 1929 (plate read 29 Oct 2026).
+Maria ALMEIDA (wife of Fructuoso Pereira)	spouse	Fructuoso PEREIRA (father of Simona Pereira)	-	register	Salto civil marriage act no. 5 of 18 Feb 1929 (plate read 29 Oct 2026).

@@ -263,9 +263,10 @@
    "maria-concepcion-magarinos-pittaluga",
    "mateo-magarinos-veira",
    "amanda-pittaluga",
-   "maximo-rivas"
+   "maximo-rivas",
+   "fructuoso-pereira"
   ],
-  "count": 261
+  "count": 262
  },
  {
   "slug": "trinidad-flores",
@@ -1138,6 +1139,16 @@
    "gumersindo-lerena",
    "idersio-lerena-araujo",
    "teodoro-alves-lerena"
+  ],
+  "count": 3
+ },
+ {
+  "slug": "salto",
+  "name": "Salto",
+  "people": [
+   "juan-manuel-lerena-gazo",
+   "simona-pereira",
+   "maria-almeida"
   ],
   "count": 3
  },
