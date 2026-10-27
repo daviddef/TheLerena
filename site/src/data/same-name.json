@@ -1071,6 +1071,11 @@
        "tree": false
       },
       {
+       "slug": "julia-lerena",
+       "name": "Julia LERENA (m. D. Beratarbide)",
+       "tree": false
+      },
+      {
        "slug": "justina-petronila-teresa-lerena-fernandez",
        "name": "Justina Petronila Teresa LERENA Fernandez (chr.1860)",
        "tree": false
@@ -1470,6 +1475,11 @@
        "tree": false
       },
       {
+       "slug": "doroteo-lerena",
+       "name": "Doroteo LERENA (m. Isidora Cardozo)",
+       "tree": false
+      },
+      {
        "slug": "eduvijes-lerena-pelaez",
        "name": "Eduvijes LERENA Pelaez (named 1913)",
        "tree": false
@@ -1862,6 +1872,11 @@
      ],
      "children": [
       {
+       "slug": "maria-gregoria-dolores-fernandez",
+       "name": "Maria Gregoria Dolores FERNANDEZ (b. 1886, Trinidad)",
+       "tree": false
+      },
+      {
        "slug": "cayetano-alberto-fernandez",
        "name": "Cayetano Alberto FERNANDEZ (b.1897)",
        "tree": false
@@ -1967,6 +1982,11 @@
        "tree": false
       },
       {
+       "slug": "isidro-pelaez",
+       "name": "Isidro PELAEZ (m. Clara Alvarez)",
+       "tree": false
+      },
+      {
        "slug": "juan-pelaez-2",
        "name": "Juan PELAEZ (son of Juan Pelaez and Antonina Lerena, m. Eduviges Florencio)",
        "tree": false
@@ -2010,6 +2030,11 @@
       }
      ],
      "children": [
+      {
+       "slug": "maria-gregoria-dolores-fernandez",
+       "name": "Maria Gregoria Dolores FERNANDEZ (b. 1886, Trinidad)",
+       "tree": false
+      },
       {
        "slug": "cayetano-alberto-fernandez",
        "name": "Cayetano Alberto FERNANDEZ (b.1897)",
@@ -2151,6 +2176,16 @@
       {
        "slug": "mauricio-isidro-lerena-cespedes",
        "name": "Mauricio Isidro LERENA Cespedes (b. 1881, Trinidad)",
+       "tree": false
+      },
+      {
+       "slug": "petrona-quintina-lerena-cespedes",
+       "name": "Petrona Quintina LERENA Cespedes (b. 1886, Trinidad)",
+       "tree": false
+      },
+      {
+       "slug": "rolando-lerena-cespedes",
+       "name": "Rolando LERENA Cespedes (b. 1885, Trinidad)",
        "tree": false
       }
      ]

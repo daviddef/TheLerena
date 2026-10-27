@@ -1059,9 +1059,9 @@
  {
   "name": "Celestino Ismael LERENA Beloqui (b. 1888, Trinidad)",
   "born_est": "1888-04-06",
-  "last_attested_alive": "1888-Oct-01",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1888-04-06",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Donata Natalia LERENA Beloqui (b. 1889, Trinidad)",
@@ -1968,8 +1968,8 @@
  },
  {
   "name": "Custodio LERENA",
-  "born_est": "-",
-  "last_attested_alive": "-",
+  "born_est": "1889-03-02",
+  "last_attested_alive": "1889-03-02",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -2955,8 +2955,8 @@
  },
  {
   "name": "Vitalino Gregorio PELAEZ (m. Florinda Juana Lerena 1913)",
-  "born_est": "1888",
-  "last_attested_alive": "1888",
+  "born_est": "1887-04-24",
+  "last_attested_alive": "1887-04-24",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -6686,10 +6686,10 @@
  },
  {
   "name": "Alejandrina VAQUERO (m. Leoncio Arrati 1913)",
-  "born_est": "1888c",
-  "last_attested_alive": "1913-Dec-20",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "born_est": "1888-07-17",
+  "last_attested_alive": "1888-07-17",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Leoncio ARRATI (m. Alejandrina Vaquero 1913)",
@@ -6714,10 +6714,10 @@
  },
  {
   "name": "Clara LERENA Alvarez (m. Celestino Munoz 1916)",
-  "born_est": "1887c",
-  "last_attested_alive": "1916-Jan-20",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "born_est": "1887-06-25",
+  "last_attested_alive": "1887-06-25",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Celestino MUNOZ (m. Clara Lerena 1916)",
@@ -6770,10 +6770,10 @@
  },
  {
   "name": "Jose Pedro LERENA Cardozo (m. Luisa Meson 1920)",
-  "born_est": "1887c",
-  "last_attested_alive": "1920-Jul-01",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "born_est": "1886-10-05",
+  "last_attested_alive": "1886-10-05",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Luisa MESON (m. Jose Pedro Lerena 1920)",
@@ -7054,5 +7054,145 @@
   "last_attested_alive": "1884-12-16",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Ignacio Elvido LERENA Recuero (b. 1887, Trinidad)",
+  "born_est": "1887-07-31",
+  "last_attested_alive": "1887-Aug-26",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Emma LERENA Recuero (b. 1889, Trinidad)",
+  "born_est": "1889-04-25",
+  "last_attested_alive": "1889-May-19",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Rolando LERENA Cespedes (b. 1885, Trinidad)",
+  "born_est": "1885-06-29",
+  "last_attested_alive": "1886-Feb-03",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Petrona Quintina LERENA Cespedes (b. 1886, Trinidad)",
+  "born_est": "1886-10-31",
+  "last_attested_alive": "1887-Apr-20",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Miguel Abdemar LERENA Beloqui (b. 1886, Trinidad)",
+  "born_est": "1886-09-29",
+  "last_attested_alive": "1887-Apr-20",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Alfredo German LERENA Alvarez (b. 1888, Trinidad)",
+  "born_est": "1888-10-23",
+  "last_attested_alive": "1888-10-23",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Angela Flora LERENA Harrison (b. 1887, Trinidad)",
+  "born_est": "1887-08-02",
+  "last_attested_alive": "1887-Sep-25",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Ciriaca Severa LERENA Harrison (b. 1889, Trinidad)",
+  "born_est": "1889-05-04",
+  "last_attested_alive": "1889-May-10",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Baudilio Silvestre LERENA Cardozo (b. 1887, Trinidad)",
+  "born_est": "1887-12-31",
+  "last_attested_alive": "1887-12-31",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Julia LERENA (m. D. Beratarbide)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "D. BERATARBIDE (m. Julia Lerena)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Elisa Librada BERATARBIDE (b. 1888, Trinidad)",
+  "born_est": "1888-07-20",
+  "last_attested_alive": "1888-07-20",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Amelia LEJEREN (b. 1886, Trinidad)",
+  "born_est": "1886-06-27",
+  "last_attested_alive": "1887-Mar-16",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Maria Gregoria Dolores FERNANDEZ (b. 1886, Trinidad)",
+  "born_est": "1886-04-24",
+  "last_attested_alive": "1886-May-04",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Luis Braulio PELAEZ (b. 1888, Trinidad)",
+  "born_est": "1888-03-26",
+  "last_attested_alive": "1888-03-26",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Juan Fernando PELAEZ (b. 1887, Trinidad)",
+  "born_est": "1887-05-30",
+  "last_attested_alive": "1887-05-30",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Isidro PELAEZ (m. Clara Alvarez)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Clara ALVAREZ (m. Isidro Pelaez)",
+  "born_est": "-",
+  "last_attested_alive": "1888-Jan-20",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Beltran BIDONDO (m. Victoriana Fernandez)",
+  "born_est": "-",
+  "last_attested_alive": "1887-Jun-16",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Carmen Petronila BIDONDO (b. 1887, Trinidad)",
+  "born_est": "1887-05-31",
+  "last_attested_alive": "1887-Jun-16",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
  }
 ]

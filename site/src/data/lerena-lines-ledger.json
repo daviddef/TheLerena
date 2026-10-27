@@ -8,8 +8,8 @@
   "Anyone on no line and in no household is counted in one of two pens: people of the name with no family recorded here, or people in the acts who are not of the name and are kin to nobody here.",
   "Everybody is counted, and nobody is counted twice. A person is listed by name only when their page publishes a birth year before the living line or a death, and no rule of this archive holds them as living or out of publication; everybody else is a number only."
  ],
- "total": 1017,
- "listed": 541,
+ "total": 1037,
+ "listed": 557,
  "lanes": [
   {
    "key": "sancho",
@@ -106,8 +106,8 @@
     "Florida",
     "San Jose"
    ],
-   "people": 290,
-   "listed": 191
+   "people": 322,
+   "listed": 215
   },
   {
    "key": "direct",
@@ -270,9 +270,9 @@
    "key": "households",
    "kind": "not-yet-placed",
    "head": "Real households of the name — on none of these lines",
-   "households": 36,
-   "people": 168,
-   "listed": 90
+   "households": 35,
+   "people": 156,
+   "listed": 81
   },
   {
    "id": "of-the-name-alone",
@@ -702,29 +702,6 @@
    "written": true,
    "people": 1,
    "listed": 0
-  },
-  {
-   "label": "The household of Jose Pedro LERENA Cardozo — Trinidad, Flores",
-   "pen": "not-yet-placed",
-   "href": "/people/jose-pedro-lerena-cardozo/",
-   "why": "12 people the register joins to one another by its own links and to no line by any. Of the name: Amelia LERENA Cardozo, Angel Custodio LERENA Cardozo, Antonino LERENA Cardozo, Elidia Margarita LERENA Cardozo, Elvira Rita LERENA Cardozo….",
-   "status": "origin-unknown",
-   "statusNote": "",
-   "span": [
-    1887,
-    1934
-   ],
-   "places": [
-    [
-     "Trinidad, Flores",
-     1887,
-     1934
-    ]
-   ],
-   "onLane": [],
-   "written": false,
-   "people": 12,
-   "listed": 9
   },
   {
    "label": "The household of Amelia LERENA Morales — Montevideo",
