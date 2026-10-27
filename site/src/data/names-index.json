@@ -529,6 +529,13 @@
    "url": "/people/bartolome-partia/"
   },
   {
+   "name": "Basilia Maxima Sena Lerena",
+   "aliases": [
+    "Basilia Maxima Sena"
+   ],
+   "url": "/people/basilia-maxima-sena-lerena/"
+  },
+  {
    "name": "Beatriz Eliza del Corazon de Jesus Abella Lerena",
    "aliases": [
     "Beatriz Eliza del Corazon de Jesus Abella"
@@ -1330,6 +1337,8 @@
    "name": "Lauriana Beloqui",
    "aliases": [
     "Ana Laureana Beloqui",
+    "Laureana Belloqui",
+    "Laureana Beloqui",
     "Lauriana Beloque"
    ],
    "url": "/people/dona-lauriana-beloqui/"
@@ -2036,6 +2045,13 @@
    "url": "/people/gregoria-fermina-duran/"
   },
   {
+   "name": "Gregoria Marcelina Lerena Echeverry",
+   "aliases": [
+    "Gregoria Marcelina Lerena"
+   ],
+   "url": "/people/gregoria-marcelina-lerena-echeverry/"
+  },
+  {
    "name": "Gregorio Reyes",
    "aliases": [],
    "url": "/people/gregorio-reyes/"
@@ -2205,6 +2221,15 @@
    "name": "Isidora Chourino",
    "aliases": [],
    "url": "/people/isidora-chourino/"
+  },
+  {
+   "name": "Isidro Bonifacio Fernandez Lerena",
+   "aliases": [
+    "Isidro Bonifacio Fernandez",
+    "Isidro Bonifacio Fernández",
+    "Isidro Bonifacio Fernández Lerena"
+   ],
+   "url": "/people/isidro-bonifacio-fernandez-lerena/"
   },
   {
    "name": "Isidro Lerena Pelaez",
@@ -2751,10 +2776,9 @@
    "url": "/people/juan-pedro-olivera-lerena/"
   },
   {
-   "name": "Juan Pelaez",
+   "name": "Juan Pelaes",
    "aliases": [
-    "Juan Pedro Pelaez",
-    "Juan Pelaes"
+    "Juan Pedro Pelaez"
    ],
    "url": "/people/juan-pelaez/"
   },
@@ -2938,6 +2962,16 @@
     "Laura Adela Lerena Juanicó"
    ],
    "url": "/people/laura-adela-lerena-juanico/"
+  },
+  {
+   "name": "Laureana Maciel",
+   "aliases": [],
+   "url": "/people/laureana-maciel/"
+  },
+  {
+   "name": "Laureana Pelaez",
+   "aliases": [],
+   "url": "/people/laureana-pelaez/"
   },
   {
    "name": "Laurencia Lerena Fernandez",
@@ -3733,13 +3767,6 @@
    "url": "/people/maria-pastorino/"
   },
   {
-   "name": "Maria Pelaez",
-   "aliases": [
-    "María Pelaez"
-   ],
-   "url": "/people/maria-pelaez/"
-  },
-  {
    "name": "Maria Pereyra",
    "aliases": [
     "María Pereyra"
@@ -3917,6 +3944,13 @@
    "name": "Miguel Ramos",
    "aliases": [],
    "url": "/people/miguel-ramos/"
+  },
+  {
+   "name": "Miguel Rodolfo Lejeren Lerena",
+   "aliases": [
+    "Miguel Rodolfo Lejeren"
+   ],
+   "url": "/people/miguel-rodolfo-lejeren-lerena/"
   },
   {
    "name": "Modesta Carmelita Fernandez Lerena",
@@ -4420,6 +4454,11 @@
     "Rosa Fernández"
    ],
    "url": "/people/rosa-fernandez/"
+  },
+  {
+   "name": "Rosa Luisa Sena",
+   "aliases": [],
+   "url": "/people/rosa-luisa-sena/"
   },
   {
    "name": "Rosa Maria Eppens",
@@ -5763,6 +5802,19 @@
    ]
   },
   {
+   "name": "Juan Pelaez",
+   "url": "/people/?q=Juan%20Pelaez",
+   "bearers": [
+    "/people/juan-pelaez-2/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/eduviges-pelaez/",
+     "url": "/people/juan-bernardo-lerena-pelaez/"
+    }
+   ]
+  },
+  {
    "name": "Juan Ribero",
    "url": "/people/?q=Juan%20Ribero",
    "bearers": [
@@ -6067,6 +6119,14 @@
    ]
   },
   {
+   "name": "Maria Pelaez",
+   "url": "/people/?q=Maria%20Pelaez",
+   "bearers": [
+    "/people/maria-pelaez-2/",
+    "/people/maria-pelaez/"
+   ]
+  },
+  {
    "name": "Martin Lerena",
    "url": "/people/?q=Martin%20Lerena",
    "bearers": [
@@ -6207,6 +6267,14 @@
    "url": "/people/?q=Maria%20Mercedes%20Lerena",
    "bearers": [
     "/people/maria-mercedes-lerena/"
+   ]
+  },
+  {
+   "name": "María Pelaez",
+   "url": "/people/?q=Maria%20Pelaez",
+   "bearers": [
+    "/people/maria-pelaez-2/",
+    "/people/maria-pelaez/"
    ]
   },
   {
