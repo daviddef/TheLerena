@@ -571,6 +571,15 @@
    "url": "/people/blanca-aida-lerena-caballero/"
   },
   {
+   "name": "Blas Gil Lerena Barragan",
+   "aliases": [
+    "Blas Gil",
+    "Blas Gil Lerena",
+    "Blas Gil Llerena"
+   ],
+   "url": "/people/blas-gil-lerena-barragan/"
+  },
+  {
    "name": "Bonifacia Pelaez",
    "aliases": [],
    "url": "/people/bonifacia-pelaez/"
@@ -1685,6 +1694,11 @@
    "url": "/people/eusebio-congenio-lerena-gonzalez/"
   },
   {
+   "name": "Eusebio Duran",
+   "aliases": [],
+   "url": "/people/eusebio-duran/"
+  },
+  {
    "name": "Eusebio Leonidas Gonzalez Lerena",
    "aliases": [
     "Eusebio Leonidas Gonzalez",
@@ -1770,8 +1784,12 @@
    "name": "Fermin Llerena",
    "aliases": [
     "Fermin Clerena",
+    "Fermin Tomas Lerena",
     "Fermín Clerena",
-    "Fermín Llerena"
+    "Fermín Llerena",
+    "Fermín Tomas Lerena",
+    "Tomas Fermin Llerena",
+    "Tomas Fermín Llerena"
    ],
    "url": "/people/fermin-lerena/"
   },
@@ -1983,6 +2001,11 @@
    "url": "/people/gilberto-lerena/"
   },
   {
+   "name": "Gregoria Fermina Duran",
+   "aliases": [],
+   "url": "/people/gregoria-fermina-duran/"
+  },
+  {
    "name": "Gregorio Santa Cruz",
    "aliases": [
     "Gregorio Santa"
@@ -2109,7 +2132,8 @@
   {
    "name": "Isabel Lerena Barragan",
    "aliases": [
-    "Isabel Clerena Rodriguez"
+    "Isabel Clerena Rodriguez",
+    "Isabel Llerena"
    ],
    "url": "/people/isabel-lerena-barragan/"
   },
@@ -3654,8 +3678,10 @@
   {
    "name": "Maria Regina Lerena Barragan",
    "aliases": [
+    "Maria Regina",
     "Maria Regina Lerena",
     "Maria Regina Llerena",
+    "María Regina",
     "María Regina Lerena",
     "María Regina Lerena Barragan",
     "María Regina Llerena"
