@@ -1191,8 +1191,8 @@
  },
  {
   "name": "Lauriana LERENA Beloqui",
-  "born_est": "c.1891",
-  "last_attested_alive": "c.1891",
+  "born_est": "1891-09-12",
+  "last_attested_alive": "1891-09-12",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -3264,9 +3264,9 @@
  {
   "name": "Margarita LERENA (godmother, Trinidad 1891-1905)",
   "born_est": "-",
-  "last_attested_alive": "-",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "last_attested_alive": "1891-Jul-15",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
  },
  {
   "name": "Pedro S. LERENA (of Tejera, Durazno, 1915)",
@@ -3334,9 +3334,9 @@
  {
   "name": "Juan Basilio CARDOZO (m. Casimira Lerena 1889)",
   "born_est": "-",
-  "last_attested_alive": "1889-Apr-25",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Aurora LERENA Fernandez (m. Manuel VAQUERO)",
@@ -3865,8 +3865,8 @@
  },
  {
   "name": "Amelia LERENA Cardozo (m. Abel Conto 1920)",
-  "born_est": "1894",
-  "last_attested_alive": "1894",
+  "born_est": "1893-05-22",
+  "last_attested_alive": "1893-05-22",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -6448,8 +6448,8 @@
  },
  {
   "name": "Celestino LERENA Harrison (b. 1890, d. 1890)",
-  "born_est": "1890c",
-  "last_attested_alive": "1890c",
+  "born_est": "1890-05-19",
+  "last_attested_alive": "1890-05-19",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -6504,15 +6504,15 @@
  },
  {
   "name": "Dalmira VAQUERO Lerena (b. c.1892, d. 1893)",
-  "born_est": "1892c",
-  "last_attested_alive": "1892c",
+  "born_est": "1892-11-13",
+  "last_attested_alive": "1892-11-13",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
  {
   "name": "Elmira VAQUERO Lerena (b. c.1894, d. 1896)",
-  "born_est": "1894c",
-  "last_attested_alive": "1894c",
+  "born_est": "1894-06-18",
+  "last_attested_alive": "1894-06-18",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -6728,8 +6728,8 @@
  },
  {
   "name": "Rodolfo B. LERENA Cardozo (m. Maria Luisa Caballero 1917)",
-  "born_est": "1893c",
-  "last_attested_alive": "1893c",
+  "born_est": "1892-08-20",
+  "last_attested_alive": "1892-08-20",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -7030,16 +7030,16 @@
  {
   "name": "Carmen FERNANDEZ (m. Cayetano Gonzalez)",
   "born_est": "-",
-  "last_attested_alive": "1885-Oct-15",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Cayetano GONZALEZ (m. Carmen Fernandez)",
   "born_est": "-",
-  "last_attested_alive": "1885-Oct-15",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Bruno Arsenio GONZALEZ (b. 1885, Trinidad)",
@@ -7177,16 +7177,16 @@
  {
   "name": "Clara ALVAREZ (m. Isidro Pelaez)",
   "born_est": "-",
-  "last_attested_alive": "1888-Jan-20",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Beltran BIDONDO (m. Victoriana Fernandez)",
   "born_est": "-",
-  "last_attested_alive": "1887-Jun-16",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Carmen Petronila BIDONDO (b. 1887, Trinidad)",
@@ -7194,5 +7194,208 @@
   "last_attested_alive": "1887-Jun-16",
   "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
   "tier": "ALIVE AT"
+ },
+ {
+  "name": "Angel Custodio Carmelo LERENA Cardozo (b. 1889, Trinidad)",
+  "born_est": "1889-10-02",
+  "last_attested_alive": "1889-10-02",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Gabriela Alejandrina LERENA Alvarez (b. 1889, Trinidad)",
+  "born_est": "1889-12-03",
+  "last_attested_alive": "1889-12-03",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Manuel Mauricio LERENA Cespedes (b. 1888, Trinidad)",
+  "born_est": "1888-09-22",
+  "last_attested_alive": "1888-09-22",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Juan Basilio CARDOZO (b. 1890, son of Juan Basilio and Casimira Lerena)",
+  "born_est": "1890-03-07",
+  "last_attested_alive": "1890-03-07",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Alejandro CARDOZO (b. 1892, son of Juan Basilio and Casimira Lerena)",
+  "born_est": "1892-03-01",
+  "last_attested_alive": "1892-03-01",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maria Luisa CARDOZO (b. 1890, dau. of Eliseo and Maria Lerena)",
+  "born_est": "1890-03-25",
+  "last_attested_alive": "1890-03-25",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Emma Maria CARDOZO (b. 1893, dau. of Eliseo and Maria Lerena)",
+  "born_est": "1893-07-21",
+  "last_attested_alive": "1893-07-21",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Amora Juliana PELAEZ Lerena (b. 1890, Trinidad)",
+  "born_est": "1890-02-27",
+  "last_attested_alive": "1890-02-27",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Blanca Juana VAQUERO Lerena (b. 1890, Trinidad)",
+  "born_est": "1890-02-08",
+  "last_attested_alive": "1890-02-08",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Gonzalo Eusebio BERATARBIDE Lerena (b. 1890, Trinidad)",
+  "born_est": "1890-08-14",
+  "last_attested_alive": "1890-08-14",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Felicia Rafaela BIDONDO (b. 1890, Trinidad)",
+  "born_est": "1890-10-24",
+  "last_attested_alive": "1890-10-24",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Bernabe Benjamin PELAEZ Alvarez (b. 1890, Trinidad)",
+  "born_est": "1890-03-31",
+  "last_attested_alive": "1890-03-31",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Gregoria Alejandrina PELAEZ Alvarez (b. 1891, Trinidad)",
+  "born_est": "1891-03-12",
+  "last_attested_alive": "1891-03-12",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "F. PELAEZ Alvarez (b. 1892, Trinidad; baptised Filomena)",
+  "born_est": "1892-04-11",
+  "last_attested_alive": "1892-04-11",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Zoa Felicitas PELAEZ Alvarez (b. 1893, Trinidad)",
+  "born_est": "1893-07-05",
+  "last_attested_alive": "1893-07-05",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Alberto Conrado LEJEREN Lerena (b. 1891, Trinidad)",
+  "born_est": "1891-02-19",
+  "last_attested_alive": "1891-02-19",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Juana Sofia LERENA Harrison (b. 1891, Trinidad)",
+  "born_est": "1891-03-08",
+  "last_attested_alive": "1891-03-08",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Aurora FERNANDEZ (b. 1891, dau. of Serapio and Antonina Lerena)",
+  "born_est": "1891-06-03",
+  "last_attested_alive": "1891-06-03",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Adela FERNANDEZ (b. 1893, dau. of Serapio and Antonina Lerena)",
+  "born_est": "1893-04-23",
+  "last_attested_alive": "1893-04-23",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Fidel Bruno PELAEZ Lerena (b. 1889, Trinidad)",
+  "born_est": "1889-10-06",
+  "last_attested_alive": "1889-10-06",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Ines Remigia PELAEZ Lerena (b. 1891, Trinidad)",
+  "born_est": "1891-10-01",
+  "last_attested_alive": "1891-10-01",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Nieves Fernando PELAEZ (b. 1889, Trinidad)",
+  "born_est": "1889-08-05",
+  "last_attested_alive": "1889-08-05",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Feliciano LERENA Alvarez (b. 1892, Trinidad)",
+  "born_est": "1892-01-04",
+  "last_attested_alive": "1892-01-04",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Aurelio Martiniano GONZALEZ Fernandez (b. 1889, Trinidad)",
+  "born_est": "1889-10-16",
+  "last_attested_alive": "1889-Dec-21",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Alberto Facundo GONZALEZ Fernandez (b. 1891, Trinidad)",
+  "born_est": "1891-10-27",
+  "last_attested_alive": "1891-10-27",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Ramon Isidoro GONZALEZ Fernandez (b. 1894, Trinidad)",
+  "born_est": "1894-01-02",
+  "last_attested_alive": "1894-01-02",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Leopoldo Servando GONZALEZ Lerena (b. 1891, Trinidad)",
+  "born_est": "1891-11-27",
+  "last_attested_alive": "1891-11-27",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Elisa Cayetana LERENA Cardozo (b. 1894, Trinidad)",
+  "born_est": "1894-08-07",
+  "last_attested_alive": "1894-08-07",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Elbia Elmira LERENA Recuero (b. 1893, Trinidad)",
+  "born_est": "1893-07-01",
+  "last_attested_alive": "1893-07-01",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]

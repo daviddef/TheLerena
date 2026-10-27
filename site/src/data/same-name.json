@@ -55,6 +55,16 @@
      "spouses": [],
      "children": [
       {
+       "slug": "fidel-bruno-pelaez-lerena",
+       "name": "Fidel Bruno PELAEZ Lerena (b. 1889, Trinidad)",
+       "tree": false
+      },
+      {
+       "slug": "ines-remigia-pelaez-lerena",
+       "name": "Ines Remigia PELAEZ Lerena (b. 1891, Trinidad)",
+       "tree": false
+      },
+      {
        "slug": "rosa-pelaez-lerena",
        "name": "Rosa PELAEZ Lerena (m. Gregorio Reyes 1919)",
        "tree": false
@@ -155,6 +165,16 @@
       {
        "slug": "ema-cardozo",
        "name": "Ema CARDOZO",
+       "tree": false
+      },
+      {
+       "slug": "emma-maria-cardozo",
+       "name": "Emma Maria CARDOZO (b. 1893, dau. of Eliseo and Maria Lerena)",
+       "tree": false
+      },
+      {
+       "slug": "maria-luisa-cardozo",
+       "name": "Maria Luisa CARDOZO (b. 1890, dau. of Eliseo and Maria Lerena)",
        "tree": false
       }
      ]
@@ -1559,6 +1579,11 @@
        "tree": false
       },
       {
+       "slug": "elisa-cayetana-lerena-cardozo",
+       "name": "Elisa Cayetana LERENA Cardozo (b. 1894, Trinidad)",
+       "tree": false
+      },
+      {
        "slug": "rodolfo-b-lerena-cardozo",
        "name": "Rodolfo B. LERENA Cardozo (m. Maria Luisa Caballero 1917)",
        "tree": false
@@ -1872,6 +1897,16 @@
      ],
      "children": [
       {
+       "slug": "adela-fernandez",
+       "name": "Adela FERNANDEZ (b. 1893, dau. of Serapio and Antonina Lerena)",
+       "tree": false
+      },
+      {
+       "slug": "aurora-fernandez",
+       "name": "Aurora FERNANDEZ (b. 1891, dau. of Serapio and Antonina Lerena)",
+       "tree": false
+      },
+      {
        "slug": "maria-gregoria-dolores-fernandez",
        "name": "Maria Gregoria Dolores FERNANDEZ (b. 1886, Trinidad)",
        "tree": false
@@ -2031,6 +2066,16 @@
      ],
      "children": [
       {
+       "slug": "adela-fernandez",
+       "name": "Adela FERNANDEZ (b. 1893, dau. of Serapio and Antonina Lerena)",
+       "tree": false
+      },
+      {
+       "slug": "aurora-fernandez",
+       "name": "Aurora FERNANDEZ (b. 1891, dau. of Serapio and Antonina Lerena)",
+       "tree": false
+      },
+      {
        "slug": "maria-gregoria-dolores-fernandez",
        "name": "Maria Gregoria Dolores FERNANDEZ (b. 1886, Trinidad)",
        "tree": false
@@ -2171,6 +2216,11 @@
       {
        "slug": "jacinta-margarita-lerena-cespedes",
        "name": "Jacinta Margarita LERENA Cespedes (b. 1883, Trinidad)",
+       "tree": false
+      },
+      {
+       "slug": "manuel-mauricio-lerena-cespedes",
+       "name": "Manuel Mauricio LERENA Cespedes (b. 1888, Trinidad)",
        "tree": false
       },
       {

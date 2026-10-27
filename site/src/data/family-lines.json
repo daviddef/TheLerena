@@ -185,7 +185,7 @@
    "title": "Pelaez",
    "page": "/families/pelaez/",
    "status": "documented",
-   "statusNote": "the longest chain of parent and child the archive holds among the 48 people of the name, not the whole family",
+   "statusNote": "the longest chain of parent and child the archive holds among the 56 people of the name, not the whole family",
    "span": [
     1841,
     null
@@ -233,7 +233,7 @@
     }
    ],
    "notConnected": {
-    "why": "No parent, child or marriage the register or the story holds joins any of the 48 people of this name to anyone on our line."
+    "why": "No parent, child or marriage the register or the story holds joins any of the 56 people of this name to anyone on our line."
    }
   },
   {
@@ -241,7 +241,7 @@
    "title": "Gonzalez",
    "page": "/families/gonzalez/",
    "status": "documented",
-   "statusNote": "the longest chain of parent and child the archive holds among the 47 people of the name, not the whole family",
+   "statusNote": "the longest chain of parent and child the archive holds among the 51 people of the name, not the whole family",
    "span": [
     1827,
     null
@@ -289,17 +289,17 @@
      "title": "Child of the card before: Index entry of the Montevideo death registration (read 17 Oct 2026): 'Parents Servando Gonzalez, Estefania Lerena'."
     },
     {
-     "name": "Juan Carlos Gonzalez Lerena",
-     "years": "",
-     "origin": "place not known",
-     "originGrade": "inf",
+     "name": "Leopoldo Servando Gonzalez Lerena",
+     "years": "b. 1891",
+     "origin": "Trinidad, Flores, Uruguay",
+     "originGrade": "doc",
      "spouse": "",
      "spouseOrigin": "",
      "atPlace": "",
      "atYear": "",
      "living": false,
-     "person": "juan-carlos-gonzalez-lerena",
-     "title": "Child of the card before: data/gonzalez-lerena.tsv: his 1922 marriage names Leopoldo Gonzalez Lerena and Maria Guillerma Giuria as his parents (plate read 21 Sept 2026)."
+     "person": "leopoldo-servando-gonzalez-lerena",
+     "title": "Child of the card before: Trinidad baptism book 1889-1894 (machine transcript, 29 Oct 2026)."
     }
    ],
    "notConnected": {
@@ -382,7 +382,7 @@
    "title": "Cardozo",
    "page": "/families/cardozo/",
    "status": "documented",
-   "statusNote": "the longest chain of parent and child the archive holds among the 17 people of the name, not the whole family",
+   "statusNote": "the longest chain of parent and child the archive holds among the 23 people of the name, not the whole family",
    "span": [
     1915,
     null
@@ -443,7 +443,7 @@
     }
    ],
    "notConnected": {
-    "why": "No parent, child or marriage the register or the story holds joins any of the 17 people of this name to anyone on our line."
+    "why": "No parent, child or marriage the register or the story holds joins any of the 23 people of this name to anyone on our line."
    }
   },
   {
@@ -564,7 +564,7 @@
    "title": "Alvarez",
    "page": "/families/alvarez/",
    "status": "documented",
-   "statusNote": "the longest chain of parent and child the archive holds among the 29 people of the name, not the whole family",
+   "statusNote": "the longest chain of parent and child the archive holds among the 35 people of the name, not the whole family",
    "span": [
     1826,
     null
@@ -612,7 +612,7 @@
     }
    ],
    "notConnected": {
-    "why": "No parent, child or marriage the register or the story holds joins any of the 29 people of this name to anyone on our line."
+    "why": "No parent, child or marriage the register or the story holds joins any of the 35 people of this name to anyone on our line."
    }
   },
   {
