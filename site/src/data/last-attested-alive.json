@@ -6532,8 +6532,8 @@
  },
  {
   "name": "Herminia VAQUERO Lerena (b. c.1900, d. 1901)",
-  "born_est": "1900c",
-  "last_attested_alive": "1900c",
+  "born_est": "1900-06-16",
+  "last_attested_alive": "1900-06-16",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -7607,5 +7607,47 @@
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Beatriz Pilar LERENA Harrison (b. 1900, Trinidad)",
+  "born_est": "1900-10-12",
+  "last_attested_alive": "1900-10-12",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Eloy Florencio LERENA Recuero (b. 1900, Trinidad)",
+  "born_est": "1900-10-03",
+  "last_attested_alive": "1900-10-03",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Gualberto LERENA Alvarez (b. 1900, Trinidad)",
+  "born_est": "1900-04-02",
+  "last_attested_alive": "1900-04-02",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Ema COLMAN (b. 1900, dau. of Juan Colman and Maria Leonor Lerena)",
+  "born_est": "1900-12-20",
+  "last_attested_alive": "1900-Dec-20",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Gerardo Nicasio VAQUERO Lerena (b. 1898, Trinidad)",
+  "born_est": "1898-12-14",
+  "last_attested_alive": "1898-12-14",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Evarista Amelia FERNANDEZ (b. 1900, dau. of Segundo and Matilde Cespedes)",
+  "born_est": "1900-10-26",
+  "last_attested_alive": "1900-Oct-26",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
  }
 ]

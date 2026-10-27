@@ -487,6 +487,11 @@
      ],
      "children": [
       {
+       "slug": "ema-colman",
+       "name": "Ema COLMAN (b. 1900, dau. of Juan Colman and Maria Leonor Lerena)",
+       "tree": false
+      },
+      {
        "slug": "juan-colman-2",
        "name": "Juan COLMAN (b. 1899, son of Juan Colman and Maria Leonor Lerena)",
        "tree": false

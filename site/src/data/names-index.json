@@ -676,6 +676,13 @@
    "url": "/people/beatriz-eliza-del-corazon-de-jesus-abella-lerena/"
   },
   {
+   "name": "Beatriz Pilar Lerena Harrison",
+   "aliases": [
+    "Beatriz Pilar Lerena"
+   ],
+   "url": "/people/beatriz-pilar-lerena-harrison/"
+  },
+  {
    "name": "Beltran Bidondo",
    "aliases": [],
    "url": "/people/beltran-bidondo/"
@@ -1826,6 +1833,13 @@
    "url": "/people/elmira-vaquero-lerena/"
   },
   {
+   "name": "Eloy Florencio Lerena Recuero",
+   "aliases": [
+    "Eloy Florencio Lerena"
+   ],
+   "url": "/people/eloy-florencio-lerena-recuero/"
+  },
+  {
    "name": "Elvira Rita Lerena Cardozo",
    "aliases": [
     "Elvira Rita Lerena"
@@ -1836,6 +1850,11 @@
    "name": "Ema Cardozo",
    "aliases": [],
    "url": "/people/ema-cardozo/"
+  },
+  {
+   "name": "Ema Colman",
+   "aliases": [],
+   "url": "/people/ema-colman/"
   },
   {
    "name": "Ema Justina Felicia Lerena Regules",
@@ -2048,6 +2067,13 @@
     "Eusebio Ramón Fernández Lerena"
    ],
    "url": "/people/eusebio-ramon-fernandez-lerena/"
+  },
+  {
+   "name": "Evarista Amelia Fernandez",
+   "aliases": [
+    "Evarista Amelia Fernández"
+   ],
+   "url": "/people/evarista-amelia-fernandez/"
   },
   {
    "name": "Francisco de Paula Maggesi",
@@ -2330,6 +2356,13 @@
    "url": "/people/georgina-temple/"
   },
   {
+   "name": "Gerardo Nicasio Vaquero Lerena",
+   "aliases": [
+    "Gerardo Nicasio Vaquero"
+   ],
+   "url": "/people/gerardo-nicasio-vaquero-lerena/"
+  },
+  {
    "name": "Gervasio Lerena Echeverry",
    "aliases": [
     "Gervasio Lerena"
@@ -2395,6 +2428,11 @@
     "Gregorio Santa"
    ],
    "url": "/people/gregorio-santa-cruz/"
+  },
+  {
+   "name": "Gualberto Lerena Alvarez",
+   "aliases": [],
+   "url": "/people/gualberto-lerena-alvarez/"
   },
   {
    "name": "Juan Gualberto",
@@ -6242,13 +6280,7 @@
   },
   {
    "name": "Gualberto Lerena",
-   "url": "/people/?q=Gualberto%20Lerena",
-   "resolve": [
-    {
-     "near": "/people/rosaura-alvarez/",
-     "url": "/people/gualberto-lerena/"
-    }
-   ]
+   "url": "/people/?q=Gualberto%20Lerena"
   },
   {
    "name": "Guillermo Lorena",
