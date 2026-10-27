@@ -8,8 +8,8 @@
   "Anyone on no line and in no household is counted in one of two pens: people of the name with no family recorded here, or people in the acts who are not of the name and are kin to nobody here.",
   "Everybody is counted, and nobody is counted twice. A person is listed by name only when their page publishes a birth year before the living line or a death, and no rule of this archive holds them as living or out of publication; everybody else is a number only."
  ],
- "total": 1145,
- "listed": 653,
+ "total": 1148,
+ "listed": 655,
  "lanes": [
   {
    "key": "sancho",
@@ -106,8 +106,8 @@
     "Florida",
     "San Jose"
    ],
-   "people": 426,
-   "listed": 306
+   "people": 434,
+   "listed": 311
   },
   {
    "key": "direct",
@@ -270,9 +270,9 @@
    "key": "households",
    "kind": "not-yet-placed",
    "head": "Real households of the name — on none of these lines",
-   "households": 36,
-   "people": 166,
-   "listed": 89
+   "households": 35,
+   "people": 161,
+   "listed": 86
   },
   {
    "id": "of-the-name-alone",
@@ -896,7 +896,7 @@
    "label": "The household of Margarita LERENA — Trinidad, Flores",
    "pen": "not-yet-placed",
    "href": "/people/margarita-lerena-2/",
-   "why": "6 people the register joins to one another by its own links and to no line by any. Of the name: Basilia Maxima SENA Lerena, Margarita LERENA.",
+   "why": "7 people the register joins to one another by its own links and to no line by any. Of the name: Basilia Maxima SENA Lerena, Margarita LERENA.",
    "status": "origin-unknown",
    "statusNote": "",
    "span": [
@@ -912,31 +912,8 @@
    ],
    "onLane": [],
    "written": false,
-   "people": 6,
-   "listed": 5
-  },
-  {
-   "label": "The household of Dolores Deolinda LERENA Casavalle — Trinidad, Flores",
-   "pen": "not-yet-placed",
-   "href": "/people/dolores-deolinda-lerena-casavalle/",
-   "why": "6 people the register joins to one another by its own links and to no line by any. Of the name: Bilfrido LERENA Casavalle, Dolores Deolinda LERENA Casavalle, Esperanza Lucia LERENA Casavalle, L. Martina LERENA Casavalle.",
-   "status": "origin-unknown",
-   "statusNote": "",
-   "span": [
-    1900,
-    1906
-   ],
-   "places": [
-    [
-     "Trinidad, Flores",
-     1900,
-     1906
-    ]
-   ],
-   "onLane": [],
-   "written": false,
-   "people": 6,
-   "listed": 4
+   "people": 7,
+   "listed": 6
   },
   {
    "label": "A household of 4 at Buenos Aires / Mendoza",

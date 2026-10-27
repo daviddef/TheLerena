@@ -2529,6 +2529,11 @@
    "url": "/people/hercilia-pelaez/"
   },
   {
+   "name": "Heriberto Manuel Martinez",
+   "aliases": [],
+   "url": "/people/heriberto-manuel-martinez/"
+  },
+  {
    "name": "Hermenegilda Carolina Gavazzo",
    "aliases": [],
    "url": "/people/hermenegilda-carolina-gavazzo/"
@@ -5554,6 +5559,13 @@
    "url": "/people/trinidad-morales/"
   },
   {
+   "name": "Troilana Sena",
+   "aliases": [
+    "Troilana Seña"
+   ],
+   "url": "/people/troilana-sena/"
+  },
+  {
    "name": "Valentina Sena",
    "aliases": [
     "Valentina Seña"
@@ -5660,6 +5672,11 @@
    "name": "Vitaliano LERENA",
    "aliases": [],
    "url": "/people/vitalino-lerena/"
+  },
+  {
+   "name": "Vitalino Yndalecio Lerena",
+   "aliases": [],
+   "url": "/people/vitalino-yndalecio-lerena/"
   },
   {
    "name": "Viviano Eliseo Lerena Beloqui",
@@ -7671,8 +7688,8 @@
    "url": "/people/?q=Vitalino%20Lerena",
    "resolve": [
     {
-     "near": "/people/dona-andrea-echeverry/",
-     "url": "/people/vitalino-lerena/"
+     "near": "/people/rosa-casavalle/",
+     "url": "/people/vitalino-yndalecio-lerena/"
     }
    ]
   },

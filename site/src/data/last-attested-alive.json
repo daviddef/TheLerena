@@ -1101,16 +1101,16 @@
  {
   "name": "Eliseo RECUERO (father of Juana Recuero)",
   "born_est": "-",
-  "last_attested_alive": "1891-Sep-03",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Juana SANTAMARTA (wife of Eliseo Recuero)",
   "born_est": "-",
-  "last_attested_alive": "1891-Sep-03",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Juan Bernardo LERENA Pelaez",
@@ -1997,9 +1997,9 @@
  {
   "name": "Custodio CARDOZO (the elder, of the 1911 diagram)",
   "born_est": "-",
-  "last_attested_alive": "-",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "last_attested_alive": "1893-Apr-08",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
  },
  {
   "name": "Celidonia B. de LERENA",
@@ -3264,9 +3264,9 @@
  {
   "name": "Margarita LERENA (godmother, Trinidad 1891-1905)",
   "born_est": "-",
-  "last_attested_alive": "1891-Jul-15",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Pedro S. LERENA (of Tejera, Durazno, 1915)",
@@ -5539,16 +5539,16 @@
  {
   "name": "Pablo MOYANO",
   "born_est": "-",
-  "last_attested_alive": "-",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "last_attested_alive": "1877-Aug-08",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
  },
  {
   "name": "Delfina FERNANDEZ",
   "born_est": "-",
-  "last_attested_alive": "-",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "last_attested_alive": "1877-Aug-08",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
  },
  {
   "name": "Jose Joaquin REYNA",
@@ -6288,9 +6288,9 @@
  {
   "name": "Justina Petronila Teresa LERENA Fernandez (chr.1860)",
   "born_est": "1860-10-05",
-  "last_attested_alive": "1860-10-05",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "last_attested_alive": "1885-Jan-31",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
  },
  {
   "name": "Juan Ramon LERENA Fernandez (chr.1862)",
@@ -7948,6 +7948,27 @@
   "name": "Sibila LLERENA (godmother, Trinidad 1905-09)",
   "born_est": "-",
   "last_attested_alive": "1905-Aug-03",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Troilana SENA (m. Luis Sena 1884)",
+  "born_est": "1867c",
+  "last_attested_alive": "1867c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Heriberto Manuel MARTINEZ (m. Justina Lerena 1885)",
+  "born_est": "-",
+  "last_attested_alive": "1885-Jan-31",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Vitalino Yndalecio LERENA (m. Rosa Casavalle 1895)",
+  "born_est": "1870c",
+  "last_attested_alive": "1895-Feb-22",
   "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
   "tier": "ALIVE AT"
  }
