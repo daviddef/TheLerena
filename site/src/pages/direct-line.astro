@@ -4,6 +4,7 @@ import { u } from "../lib/url.js";
 import { emph } from "../lib/text.js";
 import jc from "../data/juan-carlos-lerena-tested.json";
 import Spine from "@daviddef/archive-kit/components/Spine.astro";
+import directLine from "../data/direct-line.json";
 import { pills } from "../lib/country.js";
 
 /* No joint on this line is marked weak, and that is the claim the page makes:
@@ -37,6 +38,9 @@ const rows = [
      country are. The kit's Spine draws nothing else for a row flagged `living`, whatever it holds. */
   { gen: "3", name: "Cheryl Anne Lerena", living: true, href: "/people/cheryl-anne-lerena/" },
 ];
+/* The direct-line tint (kit/docs/family-ribbon.md): a row is tinted when its person is in src/data/direct-line.json. The
+   person is the row's own link, so nothing is matched by name. */
+const lined = rows.map((r) => ({ ...r, person: (String(r.href || "").match(/^\/people\/([^/]+)\/$/) || [])[1] }));
 ---
 <Base title="The Spine"
       eyebrow="The spine, generation by generation"
@@ -58,7 +62,7 @@ const rows = [
 </section>
 <section class="blk">
 <h2>The line</h2>
-  <Spine rows={rows} u={u} archiveKey="lerena" />
+  <Spine rows={lined} u={u} archiveKey="lerena" directLine={directLine} />
   <p>
     <span class="chip doc">Documented</span> <strong>Every step of this line now rests on a record.</strong>
     Nuno Fernando's birth date appears in his father's estate papers and again on his own death notice;

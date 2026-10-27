@@ -8,6 +8,8 @@ import personDocs from "../../data/person-documents.json";
 import places from "../../data/places.json";
 import { emph, plain, lead } from "../../lib/text.js";
 import EraNote from "@daviddef/archive-kit/components/EraNote.astro";
+import OursBand from "@daviddef/archive-kit/components/OursBand.astro";
+import directLine from "../../data/direct-line.json";
 import { birthEra } from "../../lib/eraYear.js";
 import eraSnapshot from "../../data/era-snapshot.json";
 export function getStaticPaths(){ return people.map(p => ({ params:{ slug:p.slug }, props:{ p } })); }
@@ -70,6 +72,9 @@ const relTree = p.relTree || 0;
         : lead(p.note) || (p.relOnly
             ? "Named in this archive as someone's relative; nothing of their own has been read into it."
             : "Everything this archive holds on this person, and the record that produced them.")}>
+
+{/* On our direct line: the kit's quiet band, for the people in src/data/direct-line.json (made from the story) and nobody else */}
+<OursBand directLine={directLine} slug={p.slug} u={u} />
 
 <PersonTree p={p} />
 

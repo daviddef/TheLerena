@@ -69,6 +69,7 @@
         "chapter": "origins",
         "person": "felix-lerena",
         "spousePerson": "rosalia-aguilar",
+        "spouseDirect": true,
         "glyph": "hill",
         "title": "Named, with his wife, on his son's marriage act of 1791 and a grandson's baptism of 1811; nothing else is known of either"
       },
@@ -85,6 +86,7 @@
         "chapter": "dragoon",
         "person": "sancho-llerena-aguilar",
         "spousePerson": "dona-maria-fernandez-tresguerras",
+        "spouseDirect": true,
         "glyph": "field",
         "title": "Married at Canelones in 1791; in the census of Montevideo in 1812"
       },
@@ -115,6 +117,7 @@
         "chapter": "card",
         "person": "juan-carlos-lerena",
         "spousePerson": "maria-lerena",
+        "spouseDirect": true,
         "glyph": "stone",
         "title": "Two names on their son's Argentine army card, and no other record of either anywhere"
       },
@@ -131,6 +134,7 @@
         "chapter": "horseman",
         "person": "pablo-armando-lerena",
         "spousePerson": "mary-septima-taylor",
+        "spouseDirect": true,
         "glyph": "ship",
         "title": "Born at Rosario by his own passport; a horse-dealer, trainer and racehorse owner at the Cape"
       },
@@ -147,6 +151,7 @@
         "chapter": "rand",
         "person": "nuno-fernando-lerena",
         "spousePerson": "catherine-mary-sophia-booyzen",
+        "spouseDirect": true,
         "glyph": "works",
         "title": "Born at Wynberg; married at Johannesburg; a salesman at Germiston"
       },

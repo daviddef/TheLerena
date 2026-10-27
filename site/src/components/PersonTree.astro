@@ -10,6 +10,9 @@ import { u } from "../lib/url.js";
 import PersonTree from "@daviddef/archive-kit/components/PersonTree.astro";
 import RING from "@daviddef/archive-kit/data/archives.json";
 import "@daviddef/archive-kit/styles/persontree.css";
+import "@daviddef/archive-kit/styles/ours.css";
+import { directMap, OURS_LEGEND } from "@daviddef/archive-kit/lib/directline.js";
+import directLine from "../data/direct-line.json";
 
 const { p } = Astro.props;
 
@@ -61,7 +64,12 @@ const cross = (() => {
   };
 })();
 
+/* THE DIRECT-LINE TINT (kit/docs/family-ribbon.md): a relative who is in src/data/direct-line.json (made from the story) is
+   tinted, as the kit's PersonChart tints its family cards, and the key says so. Never on a living person's own chart. */
+const DM = directMap(directLine);
+const oursOf = (n) => (p.living !== true && n.slug && DM.has(String(n.slug)) ? String(n.slug) : undefined);
 const row = (n, showVia = true) => ({
+  ours: oursOf(n),
   name: n.name,
   href: n.slug ? u(`/people/${n.slug}/`) : (cross[n.name] || undefined),
   dates: n.dates,
@@ -114,6 +122,7 @@ const lifespan = isLiving ? ""
   : bornSaid ? `b. ${bornSaid}`
   : "";
 
+const anyOurs = [...parents, ...spouses, ...children, ...siblings].some((n) => oursOf(n));
 const nothing = !parents.length && !spouses.length && !children.length
   && !siblings.length;
 const emptyWhy = !nothing ? "" :
@@ -140,6 +149,7 @@ const emptyWhy = !nothing ? "" :
 >
   {/* three kinds of line, on a chart that draws none, implies it is using them */}
   <Fragment slot="keys">{!nothing && <>
+    {anyOurs && <span class="key"><i class="sw is-ours"></i> {OURS_LEGEND}</span>}
     <span class="key"><i class="sw line"></i> the archive&rsquo;s own line, argued on <a href={u("/direct-line/")}>the line</a></span>
     <span class="key"><i class="sw"></i> from a record this archive has read</span>
     <span class="key"><i class="sw tree"></i> from a family chart or tree, unverified</span>

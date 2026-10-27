@@ -8,6 +8,8 @@ import mauricio from "../data/mauricio-casimira-montano.json";
 import alejandros from "../data/the-three-alejandros.json";
 import Spine from "@daviddef/archive-kit/components/Spine.astro";
 import spines from "../data/descent-spines.json";
+import directLine from "../data/direct-line.json";
+import registerPeople from "../data/people.json";
 import trinidad from "../data/trinidad-flores-sweep-2026-09-27.json";
 import tmarr from "../data/trinidad-marriages-1882-1911.json";
 
@@ -16,12 +18,17 @@ import tmarr from "../data/trinidad-marriages-1882-1911.json";
    never touch. Generation 1 of each is the Spanish couple named on a River
    Plate act; neither has been found in a Spanish register yet, so both are
    marked as the joint that cannot bear weight. */
+/* The direct-line tint (kit/docs/family-ribbon.md): a row names its register row in `register` (the exact name, as
+   tools/check-spines.py compares it); that row's page is the row's `person`, which only the tint reads. A row that names
+   none ("-") is left plain: nothing is matched on a name the row displays. */
+const slugOfRegister = new Map(registerPeople.map((p) => [p.name, p.slug]));
 const spine = (house) => spines
   .filter((r) => r.house === house)
-  .map((r) => Object.fromEntries(
+  .map((r) => ({ ...Object.fromEntries(
     Object.entries(r)
       .filter(([k, v]) => !["house", "register"].includes(k) && v !== "" && v !== "-")
-      .map(([k, v]) => [k, k === "weak" ? v === "yes" : v])));
+      .map(([k, v]) => [k, k === "weak" ? v === "yes" : v])),
+    person: slugOfRegister.get(r.register) }));
 
 const sanchoHouse = spine("sancho");
 const ramonHouse = spine("ramon");
@@ -885,19 +892,19 @@ import ftf from "../data/fulltext-finds-2026-10-11.json";
     <div>
       <h3 style="margin:0 0 .4rem">Sancho&rsquo;s house &mdash; out of <em>Córdoba</em></h3>
       <p class="cap" style="margin:0 0 .6rem">Andalusia &rarr; Canelones 1791 &rarr; Montevideo</p>
-      <Spine rows={sanchoHouse} u={u} archiveKey="lerena" idPrefix="sanchohouse-" />
+      <Spine rows={sanchoHouse} u={u} archiveKey="lerena" idPrefix="sanchohouse-" directLine={directLine} />
     </div>
     <div>
       <h3 style="margin:0 0 .4rem">Ramón&rsquo;s house &mdash; out of <em>Valdemoro</em></h3>
       <p class="cap" style="margin:0 0 .6rem">Castilla la Nueva &rarr; Rosario, Colonia &rarr; the interior</p>
-      <Spine rows={ramonHouse} u={u} archiveKey="lerena" idPrefix="ramonhouse-" />
+      <Spine rows={ramonHouse} u={u} archiveKey="lerena" idPrefix="ramonhouse-" directLine={directLine} />
     </div>
   </div>
   <div class="grid two" style="margin-top:26px;gap:26px">
     <div>
       <h3 style="margin:0 0 .4rem">And the line this archive is looking for</h3>
       <p class="cap" style="margin:0 0 .6rem">Rosario de Santa Fe &rarr; the Cape &rarr; Brisbane</p>
-      <Spine rows={argentineLine} u={u} archiveKey="lerena" idPrefix="argentineline-" />
+      <Spine rows={argentineLine} u={u} archiveKey="lerena" idPrefix="argentineline-" directLine={directLine} />
     </div>
     <div style="align-self:center">
       <div class="panel" style="border-left:3px solid var(--terra);margin:0">

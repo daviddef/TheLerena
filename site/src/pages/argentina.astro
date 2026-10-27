@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import directLine from "../data/direct-line.json";
 import dLeandro from "../data/leandro-llanos-identified.json";
 import dConsul from "../data/consul-gazette-test.json";
 import { u } from "../lib/url.js";
@@ -38,12 +39,13 @@ const alejandroLine = [
   { gen: "2", name: "His sons, in the same drawer", confidence: "Documented",
     note: `<span class="cap">Enrolment cards in <strong>Caj\u00f3n 985</strong>: Hector born <strong>Montevideo 1886</strong>, Roberto Juan <strong>Misiones 1891</strong>, Romer Rosario <strong>Buenos Aires 1895</strong>. <strong>One family, five spellings of the surname</strong> \u2014 and the same drawer that holds Pablo Armando\u2019s card.</span>` },
 ];
+/* `person` is only for the direct-line tint (kit/docs/family-ribbon.md): these two rows are the story's generations 4 and 5. */
 const pabloLine = [
-  { gen: "1", name: "Juan Carlos Lerena", spouse: "Mar\u00eda Lerena",
+  { gen: "1", name: "Juan Carlos Lerena", spouse: "Mar\u00eda Lerena", person: "juan-carlos-lerena",
     bornPlace: "not known", confidence: "Documented",
     weak: true, weakNote: "Named by their son on <a href=\"/enrolment-card/\">his enrolment card</a> and <strong>nowhere else on earth</strong>. No baptism, no marriage, no burial, in Argentina or Uruguay.",
     note: `<span class="cap">No arrow back across the river, because there is no record to draw one from.</span>` },
-  { gen: "2", name: "Pablo Armando Lerena",
+  { gen: "2", name: "Pablo Armando Lerena", person: "pablo-armando-lerena",
     born: "22 February 1882", bornPlace: "Rosario de Santa Fe",
     died: "19 March 1950", diedPlace: "Newlands, Cape Town", confidence: "Documented",
     note: `<span class="cap">His own passport gives the town and the day. <strong>And the Rosario registers, read to exhaustion, do not hold him.</strong></span>` },
@@ -654,7 +656,7 @@ const hasArt = fs.existsSync(
     <div>
       <h3 style="margin:0 0 .4rem">And the one this archive is for</h3>
       <p class="cap" style="margin:0 0 .6rem">Rosario de Santa Fe &rarr; the Cape</p>
-      <Spine rows={pabloLine} u={u} archiveKey="lerena" idPrefix="pabloline-" />
+      <Spine rows={pabloLine} u={u} archiveKey="lerena" idPrefix="pabloline-" directLine={directLine} />
     </div>
   </div>
   <div class="panel" style="border-left:3px solid var(--terra);margin:24px 0">

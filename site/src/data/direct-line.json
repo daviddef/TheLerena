@@ -1,0 +1,86 @@
+{
+ "_note": "Made by kit/tools/directline.py from the story's ribbon; do not edit by hand.",
+ "generationLabel": "generation",
+ "people": [
+  {
+   "slug": "felix-lerena",
+   "generation": 1,
+   "storyChapter": "origins",
+   "name": "Félix Llerena"
+  },
+  {
+   "slug": "sancho-llerena-aguilar",
+   "generation": 2,
+   "storyChapter": "dragoon",
+   "name": "Sancho Llerena"
+  },
+  {
+   "slug": "juan-carlos-lerena",
+   "generation": 4,
+   "storyChapter": "card",
+   "name": "Juan Carlos Lerena"
+  },
+  {
+   "slug": "pablo-armando-lerena",
+   "generation": 5,
+   "storyChapter": "horseman",
+   "name": "Pablo Armando Lerena"
+  },
+  {
+   "slug": "nuno-fernando-lerena",
+   "generation": 6,
+   "storyChapter": "rand",
+   "name": "Nuno Fernando Lerena"
+  },
+  {
+   "slug": "cheryl-anne-lerena",
+   "generation": 7,
+   "storyChapter": "us",
+   "name": "Cheryl Anne Lerena"
+  }
+ ],
+ "partners": [
+  {
+   "slug": "rosalia-aguilar",
+   "generation": 1,
+   "storyChapter": "origins",
+   "partnerOf": "felix-lerena",
+   "name": "Rosalía Aguilar"
+  },
+  {
+   "slug": "dona-maria-fernandez-tresguerras",
+   "generation": 2,
+   "storyChapter": "dragoon",
+   "partnerOf": "sancho-llerena-aguilar",
+   "name": "María Fernández"
+  },
+  {
+   "slug": "maria-lerena",
+   "generation": 4,
+   "storyChapter": "card",
+   "partnerOf": "juan-carlos-lerena",
+   "name": "María Lerena"
+  },
+  {
+   "slug": "mary-septima-taylor",
+   "generation": 5,
+   "storyChapter": "horseman",
+   "partnerOf": "pablo-armando-lerena",
+   "name": "Mary Septima Taylor"
+  },
+  {
+   "slug": "catherine-mary-sophia-booyzen",
+   "generation": 6,
+   "storyChapter": "rand",
+   "partnerOf": "nuno-fernando-lerena",
+   "name": "Catherine Mary Sophia Booyzen"
+  }
+ ],
+ "unlinked": [
+  {
+   "generation": 3,
+   "storyChapter": "cordon",
+   "name": "Sancho's children"
+  }
+ ]
+}

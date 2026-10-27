@@ -31,6 +31,7 @@ import dVariants from "../data/name-variants.json";
 import dSweep from "../data/variant-parent-sweep.json";
 import dNavarrete from "../data/navarrete-logrono.json";
 import drawing from "../data/lerena-lines.json";
+import directLine from "../data/direct-line.json";
 import dPeople from "../data/people.json";
 /* THE DRAWING IS THE KIT'S AND ITS NUMBERS COME FROM ITS DATA. tools/build-lines.py makes lerena-lines.json from
    data/lerena-lines.tsv, data/lerena-lines-unplaced.tsv and data/people-lines.tsv; ledger() counts it. A number of lines
@@ -61,7 +62,7 @@ const lineNames = Object.fromEntries(dPeople.map((p) => [p.slug, p.name.replace(
       in 1908 and <strong>appear in no other record anywhere</strong>. Every lane above it is a
       candidate and <strong>not one has been shown to hold them</strong>.</p>
   </div>
-  <BranchRivers rivers={drawing} title={drawing.title} names={lineNames}
+  <BranchRivers rivers={drawing} title={drawing.title} names={lineNames} directLine={directLine}
          caption={`Hover or tab any dot for what the document behind it actually says; a dot that links to a person opens that person. The lanes are coloured only to tell them apart &mdash; no colour means kinship, and no two lanes here have been joined to each other. <strong>Of the ${nLines}, two begin in a parish register and one begins with a man holding office; the other two begin before any document of their own &mdash; a birth at Rosario whose baptism has never been found, and a birth in Spain in the 1860s known only from later records.</strong> The number under a line is the people this archive has placed on it through the parent and child links it holds, with a birth year before the living line or a death on their page; it is not everyone who descended, and nobody living is listed.`} />
   <div class="note" style="margin-top:18px"><strong>Where each household below the rule is worked.</strong> The reason each one is drawn there is the hover text in the figure; the pages that hold the records are these.
     <ul style="margin:8px 0 0">

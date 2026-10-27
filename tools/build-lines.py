@@ -49,6 +49,8 @@ LANES_TSV = DATA / "lerena-lines.tsv"
 PENS_TSV = DATA / "lerena-lines-unplaced.tsv"
 PEOPLE_TSV = DATA / "people-lines.tsv"
 OUT = SITE / "lerena-lines.json"
+DIRECT = SITE / "direct-line.json"
+OURS = ({p["slug"] for p in json.loads(DIRECT.read_text(encoding="utf-8")).get("people", [])} if DIRECT.exists() else set())
 
 TITLE = "The documented lines of the name Lerena, side by side, with the households not yet placed on any of them"
 STATUSES = ("documented", "inferred", "origin-unknown", "family-lore")
@@ -295,6 +297,13 @@ def main():
             a1, _, b1 = sp.partition("-")
             lane["span"] = [int(a1), int(b1) if b1 else None]
         lane["nodes"] = out_nodes
+        # THE DIRECT-LINE TINT (27 October 2026; kit/docs/family-ribbon.md): a lane is "ours" when every person on its nodes is one
+        # of the story ribbon's generations (site/src/data/direct-line.json, made from the story by the kit's directline.py).
+        # Derived, never typed. Sancho's lane is not ours although he is: it runs on through children and grandchildren whom no
+        # paper puts on our line (the story's break), so only his node is tinted, never the lane.
+        lane_people = [n["person"] for n in out_nodes if n.get("person")]
+        if lane_people and all(s in OURS for s in lane_people):
+            lane["ours"] = True
         lane["ends"] = [[e] for e in r["ends"].split(";;") if e]      # the kit reads an end as [name, href, why]; no href = the lane's own page
         lanes.append(lane)
 
