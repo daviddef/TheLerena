@@ -2,16 +2,56 @@
  "mechanical": 53,
  "days": [
   {
+   "date": "2026-10-28",
+   "commits": [
+    {
+     "sha": "f4c2b8b",
+     "subject": "Trinidad baptisms 1889-1894: Carmen Fernandez (m. Cayetano Gonzalez) is a daughter of Ramon Fernandez and Maria Lerena (three baptisms name them); twenty-nine children of the kindred new to the register, each act naming its grandparents; Justina Lerena's 1891 godmotherhood found; Rodolfo Bernardo (b. 20 Aug 1892); a marginal marriage note at Paso de las Duranas; images 2 and 3 unread; machine transcript",
+     "body": ""
+    }
+   ]
+  },
+  {
    "date": "2026-10-27",
    "commits": [
+    {
+     "sha": "71907c9",
+     "subject": "CI: the ribbon-flag box gate (a browser measure) stays a local check: its planted-fault self-test did not behave on the runner's Chrome and failed the deploy",
+     "body": ""
+    },
+    {
+     "sha": "3dbd27f",
+     "subject": "Merge origin/main into flags1 (the Trinidad baptisms of 1886-1888, the unread images); ribbon-flags.json is still what the data makes",
+     "body": ""
+    },
+    {
+     "sha": "73ca7a7",
+     "subject": "Ribbon flags: the box gate serves this build on a free port and proves it (a run once measured another archive's pages on a shared port, and the kit's checkflagfit passes a page with no cards); the family ribbons' key and credit get back the space the build drops",
+     "body": ""
+    },
     {
      "sha": "e7d87f3",
      "subject": "Trinidad baptisms 1886-1888: the six images with no machine transcript read at the plate - a filming target, the cover, the title page (Libro XI, 1886-1889), two spreads with no Lerena, the last folio; log updated",
      "body": ""
     },
     {
+     "sha": "e52279d",
+     "subject": "Merge origin/main into flags1 (the Trinidad baptisms of 1886-1888); ribbon-flags.json is still what the data makes",
+     "body": ""
+    },
+    {
+     "sha": "7b3edad",
+     "subject": "Ribbon flags: the kit's mini flags on the story ribbon and all twelve family ribbons (74 flags on 39 cards), made by tools/build-ribbon-flags.py with the kit's ribbonflags.py into ribbon-flags.json; Córdoba and Córdova la Llana placed in Spain by the archive's own acts (flag-countries.json), the River Plate left without; check:ribbonflags in the build, the box gate check:flagfit in CI",
+     "body": "The flags are kept in a generated file of their own and put on the cards as the pages draw them, because at kit 1fa6b54 the\nstory and family-ribbon schemas (checkfamilystory S0, checkfamilyribbon F0) do not know a card's `flags`, story.json is\nhand-written, and family-lines.json is rewritten whole by its tool."
+    },
+    {
      "sha": "235222a",
      "subject": "Trinidad baptisms 1886-1888: Doroteo Lerena is a son of Bernabe and Casimira Pelaez (his sons' baptisms); children of Florencio, Mauricio, Cipriano, Gualberto, Venancio, Doroteo and Julia Lerena (Beratarbide), each naming Alejandro the younger and Severa Fernandez or Mauricio and Casimira Montano as grandparents; Isaac godfather in 1886; six images unread; machine transcript",
+     "body": ""
+    },
+    {
+     "sha": "0d5951a",
+     "subject": "Pin the kit to 1fa6b54: ribbon flags (FlagMini, lib/flags.js, the ribbonflags generator, the Flags Atlas flags, the checkribbonflags and checkflagfit gates)",
      "body": ""
     },
     {

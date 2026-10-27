@@ -497,7 +497,19 @@
      "grade": "doc"
     }
    ],
-   null
+   [
+    {
+     "kind": "today",
+     "line": "from",
+     "place": "Trinidad, Flores, Uruguay",
+     "svg": "uruguay-flags--era-1830.svg",
+     "flag": "uruguay-flags--era-1830",
+     "country": "UY",
+     "year": null,
+     "label": "from Trinidad, Flores, Uruguay: Uruguay today",
+     "grade": "doc"
+    }
+   ]
   ],
   "lenguas": [
    null,
