@@ -5,6 +5,16 @@
    "date": "2026-10-27",
    "commits": [
     {
+     "sha": "140c0fc",
+     "subject": "Regenerated names index, records and search index for the Trinidad parish marriages 1898-1912",
+     "body": ""
+    },
+    {
+     "sha": "92dc15b",
+     "subject": "Trinidad parish marriages 1898-1912: Eduviges Fernanda Lerena m. Fausto G. Gutierrez 7 Apr 1900; Margarita Lerena Gazo's parish marriage 27 May 1899 (Isaac and Adelaida alive); Isabel's 29 Jan 1902 (age conflict noted); machine transcript",
+     "body": ""
+    },
+    {
      "sha": "271461b",
      "subject": "Merge origin/main into ribbon1 (the Blas Gil Lerena commit); the family ribbons are unchanged by it",
      "body": ""
