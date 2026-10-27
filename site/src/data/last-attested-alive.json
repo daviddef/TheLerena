@@ -6550,5 +6550,26 @@
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Ciriaca GONZALEZ (d. 1918, aged 103)",
+  "born_est": "1815c",
+  "last_attested_alive": "1815c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Juan CASTILLA (m. Maria Regina Lerena)",
+  "born_est": "1880c",
+  "last_attested_alive": "1880c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Romulo Hugo CASTILLA Lerena (b. c.1921, d. 1922)",
+  "born_est": "1921c",
+  "last_attested_alive": "1921c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]

@@ -519,15 +519,27 @@
      "born": "1882",
      "died": "",
      "where": "Trinidad, Flores · Uruguayan",
-     "source": "Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 2026",
+     "source": "Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 2026 …",
      "father": {
       "slug": "fermin-lerena",
       "name": "Fermin LERENA (of Trinidad)",
       "tree": false
      },
      "mother": null,
-     "spouses": [],
-     "children": []
+     "spouses": [
+      {
+       "slug": "juan-castilla",
+       "name": "Juan CASTILLA (m. Maria Regina Lerena)",
+       "tree": false
+      }
+     ],
+     "children": [
+      {
+       "slug": "romulo-hugo-castilla-lerena",
+       "name": "Romulo Hugo CASTILLA Lerena (b. c.1921, d. 1922)",
+       "tree": false
+      }
+     ]
     },
     {
      "slug": "maria-angelica-julia-lerena-salvanach",

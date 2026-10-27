@@ -1127,6 +1127,16 @@
   "count": 3
  },
  {
+  "slug": "pintos-flores",
+  "name": "Pintos, Flores",
+  "people": [
+   "ciriaca-gonzalez",
+   "juan-castilla",
+   "romulo-hugo-castilla-lerena"
+  ],
+  "count": 3
+ },
+ {
   "slug": "tucuman",
   "name": "Tucuman",
   "people": [

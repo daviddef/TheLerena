@@ -892,6 +892,13 @@
    "url": "/people/cipriano-lerena/"
   },
   {
+   "name": "Ciriaca Gonzalez",
+   "aliases": [
+    "Ciriaca González"
+   ],
+   "url": "/people/ciriaca-gonzalez/"
+  },
+  {
    "name": "Clara Plaza",
    "aliases": [],
    "url": "/people/clara-a-plaza/"
@@ -2487,6 +2494,11 @@
    "url": "/people/juan-carlos-llerena/"
   },
   {
+   "name": "Juan Castilla",
+   "aliases": [],
+   "url": "/people/juan-castilla/"
+  },
+  {
    "name": "Juan Cipriano Lerena Beloqui",
    "aliases": [
     "Juan Cipriano",
@@ -3593,8 +3605,10 @@
    "name": "Maria Regina Lerena Barragan",
    "aliases": [
     "Maria Regina Lerena",
+    "Maria Regina Llerena",
     "María Regina Lerena",
-    "María Regina Lerena Barragan"
+    "María Regina Lerena Barragan",
+    "María Regina Llerena"
    ],
    "url": "/people/maria-regina-lerena-barragan/"
   },
@@ -4221,6 +4235,13 @@
     "Rodrigo Fernández"
    ],
    "url": "/people/rodrigo-fernandez/"
+  },
+  {
+   "name": "Romulo Hugo Castilla Lerena",
+   "aliases": [
+    "Romulo Hugo Castilla"
+   ],
+   "url": "/people/romulo-hugo-castilla-lerena/"
   },
   {
    "name": "Roque Luis Armando Lerena",
@@ -5748,6 +5769,10 @@
      "url": "/people/maria-lerena/"
     },
     {
+     "near": "/people/juan-castilla/",
+     "url": "/people/maria-regina-lerena-barragan/"
+    },
+    {
      "near": "/people/teodoro-luis-bentancor/",
      "url": "/people/maria-teresa-lerena-sena/"
     }
@@ -5847,6 +5872,10 @@
     {
      "near": "/people/juan-carlos-lerena/",
      "url": "/people/maria-lerena/"
+    },
+    {
+     "near": "/people/juan-castilla/",
+     "url": "/people/maria-regina-lerena-barragan/"
     },
     {
      "near": "/people/teodoro-luis-bentancor/",
