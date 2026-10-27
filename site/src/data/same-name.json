@@ -53,7 +53,13 @@
       "tree": false
      },
      "spouses": [],
-     "children": []
+     "children": [
+      {
+       "slug": "rosa-pelaez-lerena",
+       "name": "Rosa PELAEZ Lerena (m. Gregorio Reyes 1919)",
+       "tree": false
+      }
+     ]
     },
     {
      "slug": "maria-lerena-6",
@@ -1253,7 +1259,13 @@
       "name": "Alejandrina LERENA (m. Balbino PELAEZ)",
       "tree": false
      },
-     "spouses": [],
+     "spouses": [
+      {
+       "slug": "felicinda-alvarez",
+       "name": "Felicinda ALVAREZ (m. Alejandro Pedro Pelaez 1915)",
+       "tree": false
+      }
+     ],
      "children": []
     },
     {
@@ -1524,6 +1536,11 @@
       {
        "slug": "custodio-lerena",
        "name": "Custodio LERENA",
+       "tree": false
+      },
+      {
+       "slug": "rodolfo-b-lerena-cardozo",
+       "name": "Rodolfo B. LERENA Cardozo (m. Maria Luisa Caballero 1917)",
        "tree": false
       }
      ]

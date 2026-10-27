@@ -1129,9 +1129,9 @@
  {
   "name": "Carmen LERENA Pelaez",
   "born_est": "c.1877",
-  "last_attested_alive": "c.1877",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "last_attested_alive": "1914-Feb-09",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
  },
  {
   "name": "Ysidro Gregorio LERENA Pelaez",
@@ -2956,9 +2956,9 @@
  {
   "name": "Vitalino Gregorio PELAEZ (m. Florinda Juana Lerena 1913)",
   "born_est": "1888",
-  "last_attested_alive": "1922-Mar-10",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1888",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Maximo PELAEZ (m. Maria Lerena 1885)",
@@ -3348,9 +3348,9 @@
  {
   "name": "Casto Severino VAQUERO Lerena (b. 1891, Trinidad)",
   "born_est": "1891-07-06",
-  "last_attested_alive": "1891-Sep-03",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1891-07-06",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Manuel VAQUERO (m. Aurora Lerena)",
@@ -3859,9 +3859,9 @@
  {
   "name": "Abel CONTO (m. Amelia LERENA 1920)",
   "born_est": "-",
-  "last_attested_alive": "1920-Feb-28",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Amelia LERENA Cardozo (m. Abel Conto 1920)",
@@ -3873,16 +3873,16 @@
  {
   "name": "Honorato GONZALEZ (m. Paula Modesta LERENA 1918)",
   "born_est": "-",
-  "last_attested_alive": "1918-Nov-18",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Miguel MUGULAR (m. Carmen LERENA 1914)",
   "born_est": "-",
-  "last_attested_alive": "1914-Feb-07",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Jose RIERA (Juez de Menores, Buenos Aires 1800)",
@@ -4573,9 +4573,9 @@
  {
   "name": "Clemente BUENO (m. Luisa Lerena 1915)",
   "born_est": "-",
-  "last_attested_alive": "1915-Mar-15",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Ramon Paulino OLIVERA Lerena (b.1908)",
@@ -4797,9 +4797,9 @@
  {
   "name": "Margarita Medarda del Corazon de Jesus LERENA Pelaez (chr.1859)",
   "born_est": "1859",
-  "last_attested_alive": "1859-Jun-27",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1859",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Maria LERENA Pelaez (b.1866, dau. of Bernabe)",
@@ -6666,9 +6666,9 @@
  {
   "name": "Gregoria Fermina DURAN (m. Blas Gil Lerena 1918)",
   "born_est": "1894-11-28",
-  "last_attested_alive": "1918-Mar-20",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1894-11-28",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Eusebio DURAN (father of Gregoria Duran)",
@@ -6681,6 +6681,118 @@
   "name": "Fausto G. GUTIERREZ (m. Eduviges Fernanda Lerena 1900)",
   "born_est": "1875c",
   "last_attested_alive": "1900-Apr-07",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Alejandrina VAQUERO (m. Leoncio Arrati 1913)",
+  "born_est": "1888c",
+  "last_attested_alive": "1913-Dec-20",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Leoncio ARRATI (m. Alejandrina Vaquero 1913)",
+  "born_est": "1883c",
+  "last_attested_alive": "1913-Dec-20",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Juana UMPIERREZ (m. Antonino Lerena 1915)",
+  "born_est": "1887c",
+  "last_attested_alive": "1887c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Felicinda ALVAREZ (m. Alejandro Pedro Pelaez 1915)",
+  "born_est": "1888c",
+  "last_attested_alive": "1915-Jan-28",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Clara LERENA Alvarez (m. Celestino Munoz 1916)",
+  "born_est": "1887c",
+  "last_attested_alive": "1916-Jan-20",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Celestino MUNOZ (m. Clara Lerena 1916)",
+  "born_est": "1862c",
+  "last_attested_alive": "1916-Jan-20",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Rodolfo B. LERENA Cardozo (m. Maria Luisa Caballero 1917)",
+  "born_est": "1893c",
+  "last_attested_alive": "1893c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maria Luisa CABALLERO (m. Rodolfo Lerena 1917)",
+  "born_est": "1898c",
+  "last_attested_alive": "1898c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Casimira PELAEZ (m. Pedro Vicente Gonzalez 1919)",
+  "born_est": "1894c",
+  "last_attested_alive": "1894c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Pedro Vicente GONZALEZ (m. Casimira Pelaez 1919)",
+  "born_est": "1872c",
+  "last_attested_alive": "1919-May-28",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Rosa PELAEZ Lerena (m. Gregorio Reyes 1919)",
+  "born_est": "1898c",
+  "last_attested_alive": "1898c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Gregorio REYES (m. Rosa Pelaez 1919)",
+  "born_est": "1891c",
+  "last_attested_alive": "1919-Dec-18",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Jose Pedro LERENA Cardozo (m. Luisa Meson 1920)",
+  "born_est": "1887c",
+  "last_attested_alive": "1920-Jul-01",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Luisa MESON (m. Jose Pedro Lerena 1920)",
+  "born_est": "1891c",
+  "last_attested_alive": "1920-Jul-01",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Elvira Rita LERENA Cardozo (m. Luis Llanes 1921)",
+  "born_est": "1897c",
+  "last_attested_alive": "1897c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Luis LLANES (m. Elvira Rita Lerena 1921)",
+  "born_est": "1893c",
+  "last_attested_alive": "1921-Jun-15",
   "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
   "tier": "ALIVE AT"
  }

@@ -110,6 +110,11 @@
    "url": "/people/alejandra-raymunda-lerena-gazo/"
   },
   {
+   "name": "Alejandrina Vaquero",
+   "aliases": [],
+   "url": "/people/alejandrina-vaquero/"
+  },
+  {
    "name": "Alejandro Esteban Lerena Alvarez",
    "aliases": [
     "Alejandro Esteban",
@@ -849,6 +854,13 @@
    "url": "/people/celestino-lerena-harrison/"
   },
   {
+   "name": "Celestino Munoz",
+   "aliases": [
+    "Celestino Muñoz"
+   ],
+   "url": "/people/celestino-munoz/"
+  },
+  {
    "name": "Celia Juanico Lenguas",
    "aliases": [
     "Celia Juanico",
@@ -917,6 +929,11 @@
    "name": "Clara Henriette Knof",
    "aliases": [],
    "url": "/people/clara-henriette-knof/"
+  },
+  {
+   "name": "Clara Lerena Alvarez",
+   "aliases": [],
+   "url": "/people/clara-lerena-alvarez/"
   },
   {
    "name": "Clara Llerena",
@@ -1234,9 +1251,8 @@
    "url": "/people/dona-casimira-montano/"
   },
   {
-   "name": "Casimira Pelaez",
+   "name": "Casimira Josefa",
    "aliases": [
-    "Casimira Josefa",
     "Casimira Pelaez de Lerena"
    ],
    "url": "/people/dona-casimira-pelaez/"
@@ -1530,6 +1546,13 @@
    "url": "/people/elmira-vaquero-lerena/"
   },
   {
+   "name": "Elvira Rita Lerena Cardozo",
+   "aliases": [
+    "Elvira Rita Lerena"
+   ],
+   "url": "/people/elvira-rita-lerena-cardozo/"
+  },
+  {
    "name": "Ema Cardozo",
    "aliases": [],
    "url": "/people/ema-cardozo/"
@@ -1758,6 +1781,11 @@
    "name": "Felicia Lerena Ferreiroz",
    "aliases": [],
    "url": "/people/felicia-lerena-ferreiroz/"
+  },
+  {
+   "name": "Felicinda Alvarez",
+   "aliases": [],
+   "url": "/people/felicinda-alvarez/"
   },
   {
    "name": "Felix Antonio Larena Fuentes",
@@ -2006,6 +2034,11 @@
    "name": "Gregoria Fermina Duran",
    "aliases": [],
    "url": "/people/gregoria-fermina-duran/"
+  },
+  {
+   "name": "Gregorio Reyes",
+   "aliases": [],
+   "url": "/people/gregorio-reyes/"
   },
   {
    "name": "Gregorio Santa Cruz",
@@ -2376,6 +2409,15 @@
     "José Paulino Larriera"
    ],
    "url": "/people/jose-paulino-larriera/"
+  },
+  {
+   "name": "Jose Pedro Lerena Cardozo",
+   "aliases": [
+    "Jose Pedro Lerena",
+    "José Pedro Lerena",
+    "José Pedro Lerena Cardozo"
+   ],
+   "url": "/people/jose-pedro-lerena-cardozo/"
   },
   {
    "name": "Jose Pedro Maciel",
@@ -2816,6 +2858,11 @@
    "url": "/people/juana-santamarta/"
   },
   {
+   "name": "Juana Umpierrez",
+   "aliases": [],
+   "url": "/people/juana-umpierrez/"
+  },
+  {
    "name": "Julia Bassani",
    "aliases": [],
    "url": "/people/julia-bassani/"
@@ -2927,6 +2974,11 @@
    "url": "/people/leonarda-margarita-lerena-vega/"
   },
   {
+   "name": "Leoncio Arrati",
+   "aliases": [],
+   "url": "/people/leoncio-arrati/"
+  },
+  {
    "name": "Leonidas Gonzalez Lerena",
    "aliases": [
     "Leonidas Gonzalez",
@@ -3023,6 +3075,11 @@
    "url": "/people/luis-felipe-lerena-salvanach/"
   },
   {
+   "name": "Luis Llanes",
+   "aliases": [],
+   "url": "/people/luis-llanes/"
+  },
+  {
    "name": "Luis Pelaez Lerena",
    "aliases": [
     "Luis Pelaez"
@@ -3050,6 +3107,11 @@
     "Luisa Lerena"
    ],
    "url": "/people/luisa-lerena-beloqui/"
+  },
+  {
+   "name": "Luisa Meson",
+   "aliases": [],
+   "url": "/people/luisa-meson/"
   },
   {
    "name": "Malvino Pelaez",
@@ -3611,6 +3673,13 @@
    "url": "/people/maria-luisa-breton/"
   },
   {
+   "name": "Maria Luisa Caballero",
+   "aliases": [
+    "María Luisa Caballero"
+   ],
+   "url": "/people/maria-luisa-caballero/"
+  },
+  {
    "name": "Maria Luisa Lerena",
    "aliases": [
     "María Luisa Lerena"
@@ -4084,6 +4153,13 @@
    "url": "/people/pedro-vaquero/"
   },
   {
+   "name": "Pedro Vicente Gonzalez",
+   "aliases": [
+    "Pedro Vicente González"
+   ],
+   "url": "/people/pedro-vicente-gonzalez/"
+  },
+  {
    "name": "Pedro Villademoros",
    "aliases": [],
    "url": "/people/pedro-villademoros/"
@@ -4351,6 +4427,13 @@
     "Rosa María Eppens"
    ],
    "url": "/people/rosa-maria-eppens/"
+  },
+  {
+   "name": "Rosa Pelaez Lerena",
+   "aliases": [
+    "Rosa Pelaez"
+   ],
+   "url": "/people/rosa-pelaez-lerena/"
   },
   {
    "name": "Rosalia Aguilar",
@@ -4812,6 +4895,10 @@
     {
      "near": "/people/amalia-casas/",
      "url": "/people/alejandro-joaquin-narciso-lerena-villardemoros/"
+    },
+    {
+     "near": "/people/felicinda-alvarez/",
+     "url": "/people/alejandro-pedro-pelaez-lerena/"
     }
    ]
   },
@@ -5074,6 +5161,19 @@
   {
    "name": "Casimira Lerena",
    "url": "/people/?q=Casimira%20Lerena"
+  },
+  {
+   "name": "Casimira Pelaez",
+   "url": "/people/?q=Casimira%20Pelaez",
+   "bearers": [
+    "/people/casimira-pelaez/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/pedro-vicente-gonzalez/",
+     "url": "/people/casimira-pelaez/"
+    }
+   ]
   },
   {
    "name": "Catalina Martinez",
@@ -5542,6 +5642,12 @@
    "url": "/people/?q=Jose%20Lerena",
    "bearers": [
     "/people/jose-lerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/luisa-meson/",
+     "url": "/people/jose-pedro-lerena-cardozo/"
+    }
    ]
   },
   {
@@ -5579,6 +5685,12 @@
    "url": "/people/?q=Jose%20Lerena",
    "bearers": [
     "/people/jose-lerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/luisa-meson/",
+     "url": "/people/jose-pedro-lerena-cardozo/"
+    }
    ]
   },
   {
@@ -6369,6 +6481,12 @@
    "url": "/people/?q=Rosa%20Lerena",
    "bearers": [
     "/people/rosa-lerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/gregorio-reyes/",
+     "url": "/people/rosa-pelaez-lerena/"
+    }
    ]
   },
   {
