@@ -789,6 +789,27 @@
   "count": 14
  },
  {
+  "slug": "pintos-flores",
+  "name": "Pintos, Flores",
+  "people": [
+   "ciriaca-gonzalez",
+   "juan-castilla",
+   "romulo-hugo-castilla-lerena",
+   "gregorio-santa-cruz",
+   "maria-gonzalez",
+   "sofia-fernandez-lerena",
+   "ramon-a-paben",
+   "sofia-paben-fernandez",
+   "juan-colman",
+   "higinia-osorez",
+   "juan-gregorio-colman",
+   "blas-gil-lerena-barragan",
+   "gregoria-fermina-duran",
+   "eusebio-duran"
+  ],
+  "count": 14
+ },
+ {
   "slug": "northam-devon",
   "name": "Northam, Devon",
   "people": [
@@ -842,24 +863,6 @@
    "paula-casares",
    "fermin-lerena-barragan",
    "esteban-indarte"
-  ],
-  "count": 11
- },
- {
-  "slug": "pintos-flores",
-  "name": "Pintos, Flores",
-  "people": [
-   "ciriaca-gonzalez",
-   "juan-castilla",
-   "romulo-hugo-castilla-lerena",
-   "gregorio-santa-cruz",
-   "maria-gonzalez",
-   "sofia-fernandez-lerena",
-   "ramon-a-paben",
-   "sofia-paben-fernandez",
-   "juan-colman",
-   "higinia-osorez",
-   "juan-gregorio-colman"
   ],
   "count": 11
  },

@@ -4769,9 +4769,9 @@
  {
   "name": "Juan RODRIGUEZ (m. Isabel Lerena 1902)",
   "born_est": "-",
-  "last_attested_alive": "1902-Jan-29",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Fermin LERENA Barragan (the younger, m.1924)",
@@ -6651,6 +6651,27 @@
  },
  {
   "name": "Juan Gregorio COLMAN (father of Juan Colman)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Blas Gil LERENA Barragan (b. 1884, Pintos)",
+  "born_est": "1884-02-03",
+  "last_attested_alive": "1884-02-03",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Gregoria Fermina DURAN (m. Blas Gil Lerena 1918)",
+  "born_est": "1894-11-28",
+  "last_attested_alive": "1918-Mar-20",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Eusebio DURAN (father of Gregoria Duran)",
   "born_est": "-",
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
