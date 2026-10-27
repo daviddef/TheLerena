@@ -55,8 +55,18 @@
      "spouses": [],
      "children": [
       {
+       "slug": "ercilia-antonina-pelaez",
+       "name": "Ercilia Antonina PELAEZ (b. 1900, dau. of Maximo and Maria Lerena)",
+       "tree": false
+      },
+      {
        "slug": "fidel-bruno-pelaez-lerena",
        "name": "Fidel Bruno PELAEZ Lerena (b. 1889, Trinidad)",
+       "tree": false
+      },
+      {
+       "slug": "hercilia-pelaez",
+       "name": "Hercilia PELAEZ (b. 1899, dau. of Maximo and Maria Lerena)",
        "tree": false
       },
       {
@@ -475,7 +485,13 @@
        "tree": false
       }
      ],
-     "children": []
+     "children": [
+      {
+       "slug": "juan-colman-2",
+       "name": "Juan COLMAN (b. 1899, son of Juan Colman and Maria Leonor Lerena)",
+       "tree": false
+      }
+     ]
     },
     {
      "slug": "maria-adelina-lerena-larriera",
@@ -1589,8 +1605,18 @@
        "tree": false
       },
       {
+       "slug": "felicia-leoncia-lerena",
+       "name": "Felicia Leoncia LERENA (dau. of Bernabe and Florinda)",
+       "tree": false
+      },
+      {
        "slug": "rodolfo-b-lerena-cardozo",
        "name": "Rodolfo B. LERENA Cardozo (m. Maria Luisa Caballero 1917)",
+       "tree": false
+      },
+      {
+       "slug": "sofia-catalina-lerena-cardozo",
+       "name": "Sofia Catalina LERENA Cardozo (b. 1900, Trinidad)",
        "tree": false
       }
      ]
@@ -1917,6 +1943,11 @@
        "tree": false
       },
       {
+       "slug": "cristina-alberta-fernandez",
+       "name": "Cristina Alberta FERNANDEZ (b. 1898, dau. of Serapio and Antonina Lerena)",
+       "tree": false
+      },
+      {
        "slug": "maria-gregoria-dolores-fernandez",
        "name": "Maria Gregoria Dolores FERNANDEZ (b. 1886, Trinidad)",
        "tree": false
@@ -2088,6 +2119,11 @@
       {
        "slug": "carmen-cleta-fernandez",
        "name": "Carmen Cleta FERNANDEZ (b. 1895, dau. of Serapio and Antonina Lerena)",
+       "tree": false
+      },
+      {
+       "slug": "cristina-alberta-fernandez",
+       "name": "Cristina Alberta FERNANDEZ (b. 1898, dau. of Serapio and Antonina Lerena)",
        "tree": false
       },
       {

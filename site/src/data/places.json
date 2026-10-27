@@ -377,9 +377,23 @@
    "indalecia-elvira-lerena-caraballo",
    "isabelino-bravo",
    "celestino-cadenas",
-   "amalia-silva"
+   "amalia-silva",
+   "cristina-alberta-fernandez",
+   "justina-lerena-alvarez",
+   "alcides-maria-fernandez",
+   "matilde-cespedes",
+   "hercilia-pelaez",
+   "ercilia-antonina-pelaez",
+   "matilde-feliciana-lerena-harrison",
+   "martina-del-carmen-bidondo",
+   "delmiro-cardozo",
+   "julia-felicia-pelaez",
+   "antonina-perpetua-pelaez",
+   "dolores-deolinda-lerena-casavalle",
+   "sofia-catalina-lerena-cardozo",
+   "juan-colman-2"
   ],
-  "count": 375
+  "count": 389
  },
  {
   "slug": "montevideo",
@@ -1621,6 +1635,14 @@
   "name": "Paso de las Duranas",
   "people": [
    "fermin-martin"
+  ],
+  "count": 1
+ },
+ {
+  "slug": "reducto-montevideo",
+  "name": "Reducto, Montevideo",
+  "people": [
+   "juvenal-santona"
   ],
   "count": 1
  }

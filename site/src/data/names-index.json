@@ -120,6 +120,15 @@
    "url": "/people/alberto-octavio-lerena-lenguas/"
   },
   {
+   "name": "Alcides Maria Fernandez",
+   "aliases": [
+    "Alcides Maria Fernández",
+    "Alcides María Fernandez",
+    "Alcides María Fernández"
+   ],
+   "url": "/people/alcides-maria-fernandez/"
+  },
+  {
    "name": "Alejandra Justa Vaquero Lerena",
    "aliases": [
     "Alejandra Justa",
@@ -449,6 +458,11 @@
    "name": "Antonina Escolastica Lerena",
    "aliases": [],
    "url": "/people/antonina-lerena-2/"
+  },
+  {
+   "name": "Antonina Perpetua Pelaez",
+   "aliases": [],
+   "url": "/people/antonina-perpetua-pelaez/"
   },
   {
    "name": "Antonino Lerena Cardozo",
@@ -1205,6 +1219,13 @@
    "url": "/people/corina-francisca-gonzalez-lerena/"
   },
   {
+   "name": "Cristina Alberta Fernandez",
+   "aliases": [
+    "Cristina Alberta Fernández"
+   ],
+   "url": "/people/cristina-alberta-fernandez/"
+  },
+  {
    "name": "Cristobal Canale",
    "aliases": [],
    "url": "/people/cristobal-canale/"
@@ -1248,6 +1269,11 @@
    "url": "/people/delfina-fernandez/"
   },
   {
+   "name": "Delmiro Cardozo",
+   "aliases": [],
+   "url": "/people/delmiro-cardozo/"
+  },
+  {
    "name": "Diega Islas",
    "aliases": [],
    "url": "/people/diega-islas/"
@@ -1258,6 +1284,13 @@
     "Dolores Carmen González"
    ],
    "url": "/people/dolores-carmen-gonzalez/"
+  },
+  {
+   "name": "Dolores Deolinda Lerena Casavalle",
+   "aliases": [
+    "Dolores Deolinda Lerena"
+   ],
+   "url": "/people/dolores-deolinda-lerena-casavalle/"
   },
   {
    "name": "Dolores Morales",
@@ -1906,6 +1939,11 @@
    "url": "/people/enrique-lerena-juanico/"
   },
   {
+   "name": "Ercilia Antonina Pelaez",
+   "aliases": [],
+   "url": "/people/ercilia-antonina-pelaez/"
+  },
+  {
    "name": "Esperanza Gonzalez",
    "aliases": [
     "Esperanza González"
@@ -2381,6 +2419,11 @@
     "Hector Narciso Lerena"
    ],
    "url": "/people/hector-narciso-lerena-bassani/"
+  },
+  {
+   "name": "Hercilia Pelaez",
+   "aliases": [],
+   "url": "/people/hercilia-pelaez/"
   },
   {
    "name": "Hermenegilda Carolina Gavazzo",
@@ -2988,11 +3031,6 @@
    "url": "/people/juan-cipriano-lerena-beloqui/"
   },
   {
-   "name": "Juan Colman",
-   "aliases": [],
-   "url": "/people/juan-colman/"
-  },
-  {
    "name": "Juan Crisostomo Fernandez Gonzalez",
    "aliases": [
     "Juan Crisostomo",
@@ -3269,6 +3307,11 @@
    "url": "/people/julia-bassani/"
   },
   {
+   "name": "Julia Felicia Pelaez",
+   "aliases": [],
+   "url": "/people/julia-felicia-pelaez/"
+  },
+  {
    "name": "Julia Salvanach",
    "aliases": [
     "Julia Salvañach"
@@ -3301,6 +3344,11 @@
    "url": "/people/justa-pastora-lerena/"
   },
   {
+   "name": "Justina Lerena Alvarez",
+   "aliases": [],
+   "url": "/people/justina-lerena-alvarez/"
+  },
+  {
    "name": "Justina Petronila Teresa Lerena Fernandez",
    "aliases": [
     "Justina Petronila Teresa Lerena",
@@ -3326,6 +3374,11 @@
     "Justino Dorites del Corazon de Jesus Lerena"
    ],
    "url": "/people/justino-dorites-del-corazon-de-jesus-lerena-pelaez/"
+  },
+  {
+   "name": "Juvenal Santona",
+   "aliases": [],
+   "url": "/people/juvenal-santona/"
   },
   {
    "name": "Kathleen Georgina Taylor",
@@ -4294,6 +4347,11 @@
    "url": "/people/martin-perez/"
   },
   {
+   "name": "Martina del Carmen Bidondo",
+   "aliases": [],
+   "url": "/people/martina-del-carmen-bidondo/"
+  },
+  {
    "name": "Mary Ann Hellen Brayley",
    "aliases": [],
    "url": "/people/mary-ann-hellen-brayley/"
@@ -4321,6 +4379,18 @@
     "Mateo Magariños Veira"
    ],
    "url": "/people/mateo-magarinos-veira/"
+  },
+  {
+   "name": "Matilde Cespedes",
+   "aliases": [],
+   "url": "/people/matilde-cespedes/"
+  },
+  {
+   "name": "Matilde Feliciana Lerena Harrison",
+   "aliases": [
+    "Matilde Feliciana Lerena"
+   ],
+   "url": "/people/matilde-feliciana-lerena-harrison/"
   },
   {
    "name": "Mauricio Isidro Lerena Cespedes",
@@ -5117,6 +5187,13 @@
     "Socorro Serena"
    ],
    "url": "/people/socorro-lerena/"
+  },
+  {
+   "name": "Sofia Catalina Lerena Cardozo",
+   "aliases": [
+    "Sofia Catalina Lerena"
+   ],
+   "url": "/people/sofia-catalina-lerena-cardozo/"
   },
   {
    "name": "Sofia Clavijo",
@@ -6316,6 +6393,14 @@
    ]
   },
   {
+   "name": "Juan Colman",
+   "url": "/people/?q=Juan%20Colman",
+   "bearers": [
+    "/people/juan-colman-2/",
+    "/people/juan-colman/"
+   ]
+  },
+  {
    "name": "Juan Francisco Alvarez",
    "url": "/people/?q=Juan%20Francisco%20Alvarez",
    "bearers": [
@@ -6637,10 +6722,6 @@
      "url": "/people/maria-leonor-lerena-beloqui/"
     },
     {
-     "near": "/people/juan-colman/",
-     "url": "/people/maria-leonor-lerena-beloqui/"
-    },
-    {
      "near": "/people/eliseo-cardozo/",
      "url": "/people/maria-lerena-2/"
     },
@@ -6785,10 +6866,6 @@
     },
     {
      "near": "/people/juan-calman/",
-     "url": "/people/maria-leonor-lerena-beloqui/"
-    },
-    {
-     "near": "/people/juan-colman/",
      "url": "/people/maria-leonor-lerena-beloqui/"
     },
     {
