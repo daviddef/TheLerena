@@ -55,6 +55,11 @@
      "spouses": [],
      "children": [
       {
+       "slug": "delfina-luciana-pelaez",
+       "name": "Delfina Luciana PELAEZ (b. 1902, dau. of Maximo and Maria Lerena)",
+       "tree": false
+      },
+      {
        "slug": "ercilia-antonina-pelaez",
        "name": "Ercilia Antonina PELAEZ (b. 1900, dau. of Maximo and Maria Lerena)",
        "tree": false
@@ -82,6 +87,11 @@
       {
        "slug": "rosa-pelaez-lerena",
        "name": "Rosa PELAEZ Lerena (m. Gregorio Reyes 1919)",
+       "tree": false
+      },
+      {
+       "slug": "zeferino-pelaez",
+       "name": "Zeferino PELAEZ (b. 1904, son of Maximo and Maria Lerena)",
        "tree": false
       }
      ]
@@ -1610,6 +1620,11 @@
        "tree": false
       },
       {
+       "slug": "enrique-concepcion-lerena",
+       "name": "Enrique Concepcion LERENA (b.1902, child of Bernabe)",
+       "tree": false
+      },
+      {
        "slug": "felicia-leoncia-lerena",
        "name": "Felicia Leoncia LERENA (dau. of Bernabe and Florinda)",
        "tree": false
@@ -1958,6 +1973,11 @@
        "tree": false
       },
       {
+       "slug": "marina-cirila-fernandez",
+       "name": "Marina Cirila FERNANDEZ (b. 1903, dau. of Serapio and Antonina Lerena)",
+       "tree": false
+      },
+      {
        "slug": "cayetano-alberto-fernandez",
        "name": "Cayetano Alberto FERNANDEZ (b.1897)",
        "tree": false
@@ -2134,6 +2154,11 @@
       {
        "slug": "maria-gregoria-dolores-fernandez",
        "name": "Maria Gregoria Dolores FERNANDEZ (b. 1886, Trinidad)",
+       "tree": false
+      },
+      {
+       "slug": "marina-cirila-fernandez",
+       "name": "Marina Cirila FERNANDEZ (b. 1903, dau. of Serapio and Antonina Lerena)",
        "tree": false
       },
       {

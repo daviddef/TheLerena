@@ -8,8 +8,8 @@
   "Anyone on no line and in no household is counted in one of two pens: people of the name with no family recorded here, or people in the acts who are not of the name and are kin to nobody here.",
   "Everybody is counted, and nobody is counted twice. A person is listed by name only when their page publishes a birth year before the living line or a death, and no rule of this archive holds them as living or out of publication; everybody else is a number only."
  ],
- "total": 1102,
- "listed": 618,
+ "total": 1117,
+ "listed": 631,
  "lanes": [
   {
    "key": "sancho",
@@ -106,8 +106,8 @@
     "Florida",
     "San Jose"
    ],
-   "people": 391,
-   "listed": 277
+   "people": 405,
+   "listed": 289
   },
   {
    "key": "direct",
@@ -271,8 +271,8 @@
    "kind": "not-yet-placed",
    "head": "Real households of the name — on none of these lines",
    "households": 36,
-   "people": 158,
-   "listed": 82
+   "people": 160,
+   "listed": 84
   },
   {
    "id": "of-the-name-alone",
@@ -280,8 +280,8 @@
    "kind": "not-yet-placed",
    "head": "People of the name with no family recorded here — on none of these lines",
    "households": 0,
-   "people": 125,
-   "listed": 85
+   "people": 124,
+   "listed": 84
   },
   {
    "id": "not-of-the-name",
@@ -571,8 +571,8 @@
    ],
    "onLane": [],
    "written": true,
-   "people": 20,
-   "listed": 13
+   "people": 21,
+   "listed": 14
   },
   {
    "label": "MAURICIO LERENA and PETRONA AGUILAR — La Guardia, Trinidad, 1866",
@@ -916,6 +916,29 @@
    "listed": 5
   },
   {
+   "label": "The household of Dolores Deolinda LERENA Casavalle — Trinidad, Flores",
+   "pen": "not-yet-placed",
+   "href": "/people/dolores-deolinda-lerena-casavalle/",
+   "why": "3 people the register joins to one another by its own links and to no line by any. Of the name: Bilfrido LERENA Casavalle, Dolores Deolinda LERENA Casavalle.",
+   "status": "origin-unknown",
+   "statusNote": "",
+   "span": [
+    1900,
+    1901
+   ],
+   "places": [
+    [
+     "Trinidad, Flores",
+     1900,
+     1901
+    ]
+   ],
+   "onLane": [],
+   "written": false,
+   "people": 3,
+   "listed": 2
+  },
+  {
    "label": "A household of 4 at Buenos Aires / Mendoza",
    "pen": "not-yet-placed",
    "href": "/register/",
@@ -1001,29 +1024,6 @@
    "onLane": [],
    "written": false,
    "people": 3,
-   "listed": 1
-  },
-  {
-   "label": "The household of Dolores Deolinda LERENA Casavalle — Trinidad, Flores",
-   "pen": "not-yet-placed",
-   "href": "/people/dolores-deolinda-lerena-casavalle/",
-   "why": "2 people the register joins to one another by its own links and to no line by any. Of the name: Dolores Deolinda LERENA Casavalle.",
-   "status": "origin-unknown",
-   "statusNote": "",
-   "span": [
-    1900,
-    1900
-   ],
-   "places": [
-    [
-     "Trinidad, Flores",
-     1900,
-     1900
-    ]
-   ],
-   "onLane": [],
-   "written": false,
-   "people": 2,
    "listed": 1
   },
   {

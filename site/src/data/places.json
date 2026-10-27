@@ -397,9 +397,23 @@
    "gualberto-lerena-alvarez",
    "ema-colman",
    "gerardo-nicasio-vaquero-lerena",
-   "evarista-amelia-fernandez"
+   "evarista-amelia-fernandez",
+   "pablo-evaristo-lerena-harrison",
+   "maria-celia-gutierrez",
+   "delfina-luciana-pelaez",
+   "jose-maria-paben",
+   "joaquina-margarita-del-carmen-bidondo",
+   "bilfrido-lerena-casavalle",
+   "silvio-cardozo",
+   "isabel-estanislada-fernandez",
+   "maria-juana-rodriguez",
+   "m-luisa-bernarda-lerena-fernandez",
+   "marina-cirila-fernandez",
+   "maria-elena-gonzalez",
+   "zeferino-pelaez",
+   "leopolda-fernandez"
   ],
-  "count": 395
+  "count": 409
  },
  {
   "slug": "montevideo",
@@ -1649,6 +1663,14 @@
   "name": "Reducto, Montevideo",
   "people": [
    "juvenal-santona"
+  ],
+  "count": 1
+ },
+ {
+  "slug": "villa-sarandi-florida",
+  "name": "Villa Sarandi, Florida",
+  "people": [
+   "rosa-elena-ferreira"
   ],
   "count": 1
  }

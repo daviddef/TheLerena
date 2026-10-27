@@ -730,6 +730,11 @@
    "url": "/people/bernardo-yrizabal/"
   },
   {
+   "name": "Bilfrido Lerena Casavalle",
+   "aliases": [],
+   "url": "/people/bilfrido-lerena-casavalle/"
+  },
+  {
    "name": "Blanca Aida Lerena Caballero",
    "aliases": [
     "Blanca Aida Lerena"
@@ -1274,6 +1279,11 @@
     "Delfina Fernández"
    ],
    "url": "/people/delfina-fernandez/"
+  },
+  {
+   "name": "Delfina Luciana Pelaez",
+   "aliases": [],
+   "url": "/people/delfina-luciana-pelaez/"
   },
   {
    "name": "Delmiro Cardozo",
@@ -2595,6 +2605,13 @@
    "url": "/people/isaac-segundo-lerena-gazo/"
   },
   {
+   "name": "Isabel Estanislada Fernandez",
+   "aliases": [
+    "Isabel Estanislada Fernández"
+   ],
+   "url": "/people/isabel-estanislada-fernandez/"
+  },
+  {
    "name": "Isabel Lerena Barragan",
    "aliases": [
     "Isabel Clerena Rodriguez",
@@ -2710,6 +2727,11 @@
    "name": "Joaquina Lozano",
    "aliases": [],
    "url": "/people/joaquina-lozano/"
+  },
+  {
+   "name": "Joaquina Margarita del Carmen Bidondo",
+   "aliases": [],
+   "url": "/people/joaquina-margarita-del-carmen-bidondo/"
   },
   {
    "name": "John Brailey",
@@ -2831,6 +2853,15 @@
     "José María Lerena"
    ],
    "url": "/people/jose-maria-lerena/"
+  },
+  {
+   "name": "Jose Maria Paben",
+   "aliases": [
+    "Jose María Paben",
+    "José Maria Paben",
+    "José María Paben"
+   ],
+   "url": "/people/jose-maria-paben/"
   },
   {
    "name": "Jose Maria Reyes",
@@ -3495,6 +3526,13 @@
    "url": "/people/leontina-soasani/"
   },
   {
+   "name": "Leopolda Fernandez",
+   "aliases": [
+    "Leopolda Fernández"
+   ],
+   "url": "/people/leopolda-fernandez/"
+  },
+  {
    "name": "Leopoldo Gonzalez Lerena",
    "aliases": [
     "Leopoldo Gonzalez",
@@ -3913,6 +3951,13 @@
    "url": "/people/maria-carlota-moratorio-lerena/"
   },
   {
+   "name": "Maria Celia Gutierrez",
+   "aliases": [
+    "María Celia Gutierrez"
+   ],
+   "url": "/people/maria-celia-gutierrez/"
+  },
+  {
    "name": "Maria Claudina de la Luz de Leon Gonzalez",
    "aliases": [
     "Maria Claudina de la Luz de Leon",
@@ -4027,6 +4072,15 @@
     "María Eladia Ramona Mendoza"
    ],
    "url": "/people/maria-eladia-ramona-mendoza/"
+  },
+  {
+   "name": "Maria Elena Gonzalez",
+   "aliases": [
+    "Maria Elena González",
+    "María Elena Gonzalez",
+    "María Elena González"
+   ],
+   "url": "/people/maria-elena-gonzalez/"
   },
   {
    "name": "Maria Elena Lerena Pelaez",
@@ -4174,11 +4228,11 @@
    "url": "/people/maria-josefina-lerena/"
   },
   {
-   "name": "Maria Juana",
+   "name": "Maria Juana Rodriguez",
    "aliases": [
-    "María Juana"
+    "María Juana Rodriguez"
    ],
-   "url": "/people/maria-juana/"
+   "url": "/people/maria-juana-rodriguez/"
   },
   {
    "name": "Maria Julia Margarita Josefa Emirena Justiniana Lerena Juanico",
@@ -4378,6 +4432,13 @@
     "María Teresa Lerena Sena"
    ],
    "url": "/people/maria-teresa-lerena-sena/"
+  },
+  {
+   "name": "Marina Cirila Fernandez",
+   "aliases": [
+    "Marina Cirila Fernández"
+   ],
+   "url": "/people/marina-cirila-fernandez/"
   },
   {
    "name": "Martin Perez",
@@ -4596,6 +4657,13 @@
     "Robert Paul Lesina"
    ],
    "url": "/people/pablo-armando-lerena/"
+  },
+  {
+   "name": "Pablo Evaristo Lerena Harrison",
+   "aliases": [
+    "Pablo Evaristo Lerena"
+   ],
+   "url": "/people/pablo-evaristo-lerena-harrison/"
   },
   {
    "name": "Pablo Moyano",
@@ -5066,6 +5134,11 @@
    "url": "/people/rosa-defenari/"
   },
   {
+   "name": "Rosa Elena Ferreira",
+   "aliases": [],
+   "url": "/people/rosa-elena-ferreira/"
+  },
+  {
    "name": "Rosa Fernandez",
    "aliases": [
     "Rosa Fernández"
@@ -5200,6 +5273,11 @@
    "name": "Severino Goro",
    "aliases": [],
    "url": "/people/severino-goro/"
+  },
+  {
+   "name": "Silvio Cardozo",
+   "aliases": [],
+   "url": "/people/silvio-cardozo/"
   },
   {
    "name": "Simona Pereira",
@@ -5495,6 +5573,11 @@
    "url": "/people/zara-sista-emirena-juanico-lenguas/"
   },
   {
+   "name": "Zeferino Pelaez",
+   "aliases": [],
+   "url": "/people/zeferino-pelaez/"
+  },
+  {
    "name": "Zelmira Carlota Lerena Larriera",
    "aliases": [
     "Zelmira Carlota Lerena"
@@ -5674,12 +5757,6 @@
    "url": "/same-name/arturo-lerena/",
    "bearers": [
     "/people/arturo-lerena/"
-   ],
-   "resolve": [
-    {
-     "near": "/people/maria-juana/",
-     "url": "/people/arturo-mario-lerena-regules/"
-    }
    ]
   },
   {
@@ -6722,6 +6799,19 @@
    ]
   },
   {
+   "name": "Maria Juana",
+   "url": "/people/?q=Maria%20Juana",
+   "bearers": [
+    "/people/maria-juana/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/arturo-mario-lerena-regules/",
+     "url": "/people/maria-juana/"
+    }
+   ]
+  },
+  {
    "name": "Maria Larena",
    "url": "/people/?q=Maria%20Larena",
    "bearers": [
@@ -6865,6 +6955,19 @@
     {
      "near": "/people/gregorio-santa-cruz/",
      "url": "/people/maria-gonzalez/"
+    }
+   ]
+  },
+  {
+   "name": "María Juana",
+   "url": "/people/?q=Maria%20Juana",
+   "bearers": [
+    "/people/maria-juana/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/arturo-mario-lerena-regules/",
+     "url": "/people/maria-juana/"
     }
    ]
   },

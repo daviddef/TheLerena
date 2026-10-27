@@ -1136,9 +1136,9 @@
  {
   "name": "Ysidro Gregorio LERENA Pelaez",
   "born_est": "1885-05-09",
-  "last_attested_alive": "1885-05-09",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "last_attested_alive": "1901-Dec-26",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
  },
  {
   "name": "Juana Alejandra LERENA Echeverry",
@@ -1157,9 +1157,9 @@
  {
   "name": "Rosario Fulgencia LERENA Echeverry",
   "born_est": "c.1877",
-  "last_attested_alive": "c.1877",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "last_attested_alive": "1901-Dec-26",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
  },
  {
   "name": "Alejandra Raymunda LERENA Gazo",
@@ -1213,9 +1213,9 @@
  {
   "name": "Natalia Elena LERENA Recuero",
   "born_est": "1891-07-27",
-  "last_attested_alive": "1891-Sep-03",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1891-07-27",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Luis LERENA (son of Cayetana Faustina)",
@@ -7647,6 +7647,111 @@
   "name": "Evarista Amelia FERNANDEZ (b. 1900, dau. of Segundo and Matilde Cespedes)",
   "born_est": "1900-10-26",
   "last_attested_alive": "1900-Oct-26",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Pablo Evaristo LERENA Harrison (b. 1901, Trinidad)",
+  "born_est": "1901-12-26",
+  "last_attested_alive": "1901-Dec-26",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Rosa Elena FERREIRA (m. Pablo Evaristo Lerena Harrison 1942)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maria Celia GUTIERREZ (b. 1902, dau. of Fausto and Eduviges Lerena)",
+  "born_est": "1902-01-05",
+  "last_attested_alive": "1902-01-05",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Delfina Luciana PELAEZ (b. 1902, dau. of Maximo and Maria Lerena)",
+  "born_est": "1902-01-08",
+  "last_attested_alive": "1902-01-08",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Jose Maria PABEN (b. 1902, son of Ramon Paben and Sofia Fernandez)",
+  "born_est": "1902-02-05",
+  "last_attested_alive": "1902-02-05",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Joaquina Margarita del Carmen BIDONDO (b. 1902, Trinidad)",
+  "born_est": "1902-02-22",
+  "last_attested_alive": "1902-02-22",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Bilfrido LERENA Casavalle (b. 1901, Trinidad; baptised Agustin Bilfrido)",
+  "born_est": "1901-09-06",
+  "last_attested_alive": "1901-09-06",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Silvio CARDOZO (b. 1902, son of Juan Basilio and Casimira Lerena)",
+  "born_est": "1902-09-28",
+  "last_attested_alive": "1902-09-28",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Isabel Estanislada FERNANDEZ (b. 1902, dau. of Segundo and Matilde Cespedes)",
+  "born_est": "1902-11-24",
+  "last_attested_alive": "1902-11-24",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maria Juana RODRIGUEZ (b. 1902, dau. of Juan Rodriguez Cames and Isabel L. Barragan)",
+  "born_est": "1902-11-13",
+  "last_attested_alive": "1902-11-13",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "M. Luisa Bernarda LERENA Fernandez (b. 1903, Trinidad)",
+  "born_est": "1903-08-20",
+  "last_attested_alive": "1903-08-20",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Marina Cirila FERNANDEZ (b. 1903, dau. of Serapio and Antonina Lerena)",
+  "born_est": "1903-07-09",
+  "last_attested_alive": "1903-07-09",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maria Elena GONZALEZ (b. 1904, dau. of Cayetano Gonzalez and Carmen Fernandez)",
+  "born_est": "1904-05-25",
+  "last_attested_alive": "1904-05-25",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Zeferino PELAEZ (b. 1904, son of Maximo and Maria Lerena)",
+  "born_est": "1904-08-22",
+  "last_attested_alive": "1904-08-22",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Leopolda FERNANDEZ (m. Gervasio Lerena)",
+  "born_est": "-",
+  "last_attested_alive": "1903-Oct-14",
   "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
   "tier": "ALIVE AT"
  }
