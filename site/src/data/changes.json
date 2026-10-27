@@ -5,6 +5,11 @@
    "date": "2026-10-27",
    "commits": [
     {
+     "sha": "1239a71",
+     "subject": "Trinidad parish marriages 1911-1923: seventeen marriages of the Lerena kindred read in the machine's text; Bernabe and Casimira Pelaez 'fallecidos' by 9 Feb 1914; a parent named without a death marker is not shown living (acts of 1918 and 1920); sixteen new rows; machine transcript",
+     "body": ""
+    },
+    {
      "sha": "140c0fc",
      "subject": "Regenerated names index, records and search index for the Trinidad parish marriages 1898-1912",
      "body": ""
