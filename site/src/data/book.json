@@ -53,6 +53,11 @@
      "path": "/name/",
      "title": "The Name",
      "blurb": "Lerena is a rare surname, and may be two separate names sharing one spelling."
+    },
+    {
+     "path": "/lines/",
+     "title": "The Lines",
+     "blurb": "Every line of the name side by side, where each begins and where it went; every household and person on none of them, counted; and which lines join, which do not, and which nobody can yet say."
     }
    ]
   },

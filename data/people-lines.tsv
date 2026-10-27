@@ -1,186 +1,328 @@
-# *** WHO STANDS ON WHICH LINE (the person-to-lane file for the drawing on /name/). 25 October 2026. ***
+# *** WHO STANDS ON WHICH LINE (the person-to-lane file for the drawing on /lines/). 25 October 2026; every person placed, 27 October 2026. ***
 #
 # Written for the kit's lines contract (kit/docs/lines.md): a lane may list the people on it, and the kit gate holds the built page to
 # three rules - nobody living is listed (P3), nobody stands on two lines (E1), every link lands (P1).
 #
 # lane      the key of a lane in data/lerena-lines.tsv
 # slug      the person page, /people/<slug>/
-# how       anchor      a person the archive itself puts on the line, with the statement in `basis` (written by hand)
+# how       anchor      a person the archive itself puts on the line, with the statement in `basis` (written by hand): a node of the
+#                       lane, a register name that says "son of Sancho", or an act the register's note quotes that names a parent on
+#                       the line when the register does not yet draw that link
 #           spouse      the wife of an anchor, named as such in the register (written by hand)
-#           descendant  DERIVED by tools/build-lines.py from the anchors through the register's parent and child links (never
-#                       by hand: the build re-derives them whenever the register moves)
+#           kin         DERIVED by tools/build-lines.py: in the same family group as a seed of the lane by the register's own links
+#                       (never by hand: the build re-derives them whenever the register moves)
 # basis     the archive's own words for why
 #
-# A person is listed only if the register publishes a birth year before the living line or a death. An undated stub, a living
-# person and a person the data records dead but no page prints are left off, whatever their links. The number a reader sees under
-# a lane is the people placed here by these links; it is not everyone who descended.
+# A `kin` row is written only for a person who may be listed (a birth year before the living line or a death on their page, and not
+# living or held out); everybody else on the lane is counted and not named. The number a reader sees under a lane is the people
+# placed here by these links; it is not everyone who descended.
 lane	slug	how	basis
+sancho	angelica-mendez-de-villademoros	anchor	mother of Elisa and Celedonia Villademoros: named on her granddaughter's baptism of 29 September 1872 and on Elisa's marriage act of 28 December 1871 (register note)
 sancho	avelino-lerena-fernandez	anchor	register name "son of Sancho"; the register links him to Ambrosia Traibel and to the twelve Lerena Traibel children
+sancho	celia-juanico-lenguas	anchor	a half-sister of Julia Juanico, by Sixta Lenguas (register note)
+sancho	dominga-josefa-llerena-fernandez	anchor	baptised at Canelones, 15 May 1804: "hija legitima de Sancho Llerena y de Maria Fernandez" (register note)
+sancho	domingo-rodriguez-de-carvallo	anchor	baptised at the Catedral de Montevideo, 25 October 1840, son of Antonio Rodriguez de Carballo and Dominga Lerena: read off the plate 21 September 2026 (register note)
+sancho	don-cristobal-salvanach	anchor	father of Julia Salvanach, named as maternal grandfather in act 1447 of 1886 (register note)
+sancho	don-luis-lerena-probably-luis-lerena-y-fernandez	anchor	his baptism (Iglesia Matriz, Montevideo, 10 February 1811), his second marriage (3 March 1842) and his son Alberto Octavio's baptism (7 October 1850) name his parents as Sancho and Maria Fernandez (register note; the register's own link to Sancho is still marked as a tree's)
+sancho	dona-angela-alvarez	anchor	mother of Julia Salvanach, named as maternal grandmother in act 1447 of 1886 (register note)
+sancho	enrique-juanico-gonzalez	anchor	a brother of Julia Juanico, son of Candido Juanico and Juliana Joaquina Gonzalez, found on the image 13 September 2026 (register note)
+sancho	felix-lerena	anchor	register name "father of Sancho"; the 1811 baptism of Sancho's son Luis Escolastico names the paternal grandparents "FELIZ GERENA y ROSALIA AGUILAR" (data/name-variants.tsv)
+sancho	gilberto-lerena-salvanach	anchor	line 6 of the 1895 Buenos Aires census schedule of Gilberto Lerena's house: "Salvanach Lerena, GILBERTO, varon, 17", the eldest son of Gilberto and Julia Salvanach (register note)
+sancho	horacio-alfredo-lerena-salvanach	anchor	baptised 23 April 1898 at Nuestra Senora del Pilar, Recoleta, a child of Gilberto Lerena and Julia Salvanach (register note; index-level)
+sancho	jose-julio-lerena-juanico	anchor	a sixth child of Luis Eugenio Lerena Lenguas and Julia Juanico, born 15 March 1879 and registered in 1908 by his mother: the image opened (register note)
+sancho	jose-loreto-lerena-fernandez	anchor	baptised at Canelones, 11 December 1806: "hijo legitimo de Sancho Lorena y de Maria Fernandez" (register note)
+sancho	juan-facundo-frutuoso-barros-lerena	anchor	his death registration of 3 May 1915 names his mother Justa Lerena and his father Manuel C. Barros: a grandson of Sancho through Justa Pastora (register note)
 sancho	justa-pastora-lerena	anchor	register name "daughter of Sancho"; node of the lane, 1830
+sancho	maria-ema-lerena-lenguas	anchor	a sister of Luis Eugenio Lerena Lenguas, christened 7 October 1857 at San Francisco de Asis: one of the children the search on their mother Justiniana Lenguas returned (register note; /hypotheses/, 1c)
 sancho	pedro-antonio-lerena	anchor	register name "son of Sancho"; node of the lane, 1793 (baptised 31 July 1793)
+sancho	pedro-villademoros	anchor	father of Elisa and Celedonia Villademoros, the wives of two of Avelino's sons: named on Celedonia's daughter's baptism of 1872 and as 'finado' on Elisa's marriage act of 28 December 1871 (register note)
+sancho	rosalia-aguilar	anchor	register name "mother of Sancho"; named with Felix as paternal grandmother on the 1811 baptism of Luis Escolastico
 sancho	sancho-llerena-aguilar	anchor	node of the lane, 1791: his marriage at Canelones; the lane begins with him
+sancho	sara-juanico-lenguas	anchor	a half-sister of Julia Juanico, by Candido Juanico's second wife Sixta Lenguas (register note)
+sancho	zara-sista-emirena-juanico-lenguas	anchor	a half-sister of Julia Juanico, christened 16 February 1870 at San Francisco de Asis (register note)
 sancho	ambrosia-traibel	spouse	register link: wife of Avelino Lerena Fernandez; named with him on the 1880 acts at the Union
 sancho	dona-maria-fernandez-tresguerras	spouse	register name "wife of Sancho"
+ramon	abdona-ignacia-lerena	anchor	buried at San Jose, 7 August 1850: "hija legitima de Don Mauricio Lerena y Dona Casimira Montana" (register note)
+ramon	alejandrina-lerena	anchor	her death act of 28 January 1926 names her parents Alejandro Lerena and Ysidora Chousina and her paternal grandparents Alejandro Lerena and Margarita Fernandez (register note)
 ramon	alejandro-lerena	anchor	the 1825 marriage act at San Jose names his father Ramon Lerena and mother Maria Josefa Gonzalez (data/ramon-lerena-rosario.tsv)
+ramon	antonina-lerena-3	anchor	the kinship schema on the 1858 Bernabe Lerena expediente runs a line from Ramon Lerena and Maria Gonzalez down to Antonina Lerena and Juan Pelaes: a daughter of Ramon and a sister of Alejandro (register note)
+ramon	antonio-eusebio-pelaez	anchor	his death act names his father Malvino Pelaez and his mother a daughter of Alejandro Lerena the younger, and four grandparents (register note)
+ramon	carmen-donata-lerena-beloqui	anchor	the same act of 2 March 1895: a daughter of Cipriano Lerena and Laureana Beloqui and a granddaughter of Mauricio Lerena and Casimira Montano (register note)
+ramon	cipriano-lerena	anchor	the Flores birth act of his daughter Carmen Donata, 2 March 1895, names his parents Mauricio and Casimira Montano (register note, 9 October 2026; /uruguay/#s-bridge)
+ramon	dorotea-delgado	anchor	the mother of Lauriana Beloqui: named, 'fallecida', on her granddaughter's birth act of 2 March 1895 (register note)
 ramon	eusebio-congenio-lerena-gonzalez	anchor	the 1816 baptism at the Cordon names his parents Ramon Lerena and Maria Josefa Gonzalez, plate read 17 October 2026
+ramon	ignacia-barredo	anchor	named as the mother of Casimira Montano on the same act of 3 February 1837 (register note)
+ramon	isabel-lerena	anchor	the baptism of her daughter Juana Antonia, 11 May 1840, names the maternal grandparents Ramon and Maria Gonzalez: a sister of Alejandro the elder (register note)
+ramon	jose-montano	anchor	named as the father of Casimira Montano, Mauricio's wife, on the marriage act of 3 February 1837 at San Jose, read off the plate 9 October 2026 (register note)
 ramon	mauricio-lerena	anchor	the 1837 marriage act at San Jose names his father Ramon and mother Maria Gonzalez; node of the lane, 1837
+ramon	pedro-beloqui	anchor	the father of Lauriana Beloqui, Cipriano's wife: named on his granddaughter's birth act of 2 March 1895 (register note)
 ramon	ramon-lerena-2	anchor	node of the lane, 1800: Alcalde de la Santa Hermandad del Partido del Rosario
 ramon	maria-josefa-gonzalez	spouse	register name "wife of Ramon Lerena of Colla"; named as his wife on the 1816 baptism
 direct	pablo-armando-lerena	anchor	node of the lane, 1882: the line this archive exists for; his descendants are the register's own parent and child links
 spain	eloy-lerena	anchor	node of the lane, 1886: natural de Espana on his daughter's 1912 baptism
 arturo	arturo-lerena-garcia	anchor	node of the lane: named as the father on the Valparaiso death act of 1894
 arturo	amalia-diaz	spouse	named as the mother on the same act
-sancho	alberto-julian-lerena-larriera	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
-sancho	alejandro-joaquin-narciso-lerena-villardemoros	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
-sancho	alejandro-lerena-traibel	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
-sancho	alejandro-m-lerena	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
-sancho	alfredo-justiniano-lerena-traibel	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
-sancho	ana-maria-lerena-razzetti	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
-sancho	ana-rosario-lerena-traibel	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
-sancho	angel-miguel-avelino-lerena-larriera	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
-sancho	angelica-maria-lerena-villademoros	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
-sancho	arturo-lerena	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
-sancho	arturo-mario-lerena-regules	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
-sancho	aurelio-eusebio-barros-lerena	descendant	descendant of justa-pastora-lerena by the register's parent and child links
-sancho	avelino-lerena-villademoros	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
-sancho	avelino-pedro-joaquin-silvestre-lerena-villademoros	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
-sancho	cora-maria-avelina-lerena-regules	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
-sancho	eduardo-avelino-zalduando-lerena	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
-sancho	eduardo-lerena	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
-sancho	ema-justina-felicia-lerena-regules	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
-sancho	emilia-alberta-lerena-bassani	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
-sancho	emilia-lerena-vega-2	descendant	descendant of pedro-antonio-lerena by the register's parent and child links
-sancho	emma-lerena-regules	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
-sancho	hector-narciso-lerena-bassani	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
-sancho	hilario-barros-llerena	descendant	descendant of justa-pastora-lerena by the register's parent and child links
-sancho	irma-antonia-lerena-fernandez	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
-sancho	jacinta-mercedes-gregoria-lerena-villademoros	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
-sancho	josefa-lerena-traibel	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
-sancho	juan-arturo-lerena-traibel	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
-sancho	leonarda-margarita-lerena-vega	descendant	descendant of pedro-antonio-lerena by the register's parent and child links
-sancho	manuela-lavina	descendant	descendant of pedro-antonio-lerena by the register's parent and child links
-sancho	maria-adelina-lerena-larriera	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
-sancho	maria-adelina-lerena-traibel	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
-sancho	maria-antonieta-lerena-larriera	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
-sancho	maria-carlota-moratorio-lerena	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
-sancho	maria-consuelo-lerena-larriera	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
-sancho	maria-de-las-mercedes-moratorio-lerena	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
-sancho	maria-ines-lerena-larriera	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
-sancho	maria-margarita-luisa-zalduondo-lerena	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
-sancho	mercedes-micaela-lerena-traibel	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
-sancho	pedro-alberto-ysabelino-lerena-traibel	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
-sancho	pedro-gualberto-lerena-villademoros	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
-sancho	pedro-lerena-vega-2	descendant	descendant of pedro-antonio-lerena by the register's parent and child links
-sancho	pedro-ricardo-lerena-fernandez	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
-sancho	pedro-segundo-lerena-villademoros	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
-sancho	roberto-ambrosio-lerena-regules	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
-sancho	sara-esmeralda-lerena-fernandez	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
-sancho	vicenta-lavina	descendant	descendant of pedro-antonio-lerena by the register's parent and child links
-sancho	vicenta-lerena-vega-2	descendant	descendant of pedro-antonio-lerena by the register's parent and child links
-sancho	zelmira-carlota-lerena-larriera	descendant	descendant of avelino-lerena-fernandez by the register's parent and child links
-ramon	alejandra-justa-vaquero-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	alejandra-raymunda-lerena-gazo	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	alejandro-esteban-lerena-alvarez	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	alejandro-j-lerena-echeverry	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	alejandro-lerena-2	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	andrea-albina-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	antonina-lerena-2	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	antonio-amador-lerena-alvarez	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	aurora-lerena-fernandez	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	bernabe-concilo-lerena-pelaez	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	bernabe-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	bernabe-lerena-2	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	camila-lerena-pelaez	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	carlos-rey-lerena-pelaez	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	carmelo-belisario-lerena-montano	descendant	descendant of mauricio-lerena by the register's parent and child links
-ramon	carmen-lerena-pelaez	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	casimira-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	casto-severino-vaquero-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	cayetano-alberto-fernandez	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	cecilia-socorro-fernandez-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	celestino-lerena-harrison	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	cesario-francisco-del-carmen-gonzalez-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	clemencio-lorenzo-lerena-montano	descendant	descendant of mauricio-lerena by the register's parent and child links
-ramon	corina-francisca-gonzalez-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	dalmira-vaquero-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	davilada-carmela-gonzalez-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	edelma-lerena-recuero	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	elida-pilar-lerena-recuero	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	elmira-vaquero-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	enrique-rene-lerena-cardozo	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	esperanza-gonzalez	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	estefania-gonzalez-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	estefania-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	eugenio-lerena-fernandez	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	eusebio-leonidas-gonzalez-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	eusebio-ramon-fernandez-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	flora-lerena-harrison	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	flora-vaquero-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	gabino-lerena	descendant	descendant of ramon-lerena-2 by the register's parent and child links
-ramon	gervasio-lerena-echeverry	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	herminia-vaquero-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	hipolito-fructuoso-fernandez-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	jesus-modesto-del-carmen-fernandez-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	jose-gabriel-gustavo-lerena-gazo	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	juan-bernardo-lerena-pelaez	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	juan-manuel-lerena-gazo	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	juan-ramon-lerena-fernandez	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	juana-alejandra-lerena-echeverry	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	julio-servando-del-carmen-gonzalez-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	justina-petronila-teresa-lerena-fernandez	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	justino-dorites-del-corazon-de-jesus-lerena-pelaez	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	laurencia-lerena-fernandez	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	leopoldo-gonzalez-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	linda-maria-lerena-harrison	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	manuel-indalecio-vaquero	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	manuel-mauricio-lerena-montano	descendant	descendant of mauricio-lerena by the register's parent and child links
-ramon	margarita-lerena-gazo	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	margarita-medarda-del-corazon-de-jesus-lerena-pelaez	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	maria-de-los-reyes-fernandez-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	maria-del-carmen-fernandez-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	maria-josefa-del-carmen-fernandez-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	maria-lerena-3	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	maria-lerena-6	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	maria-lerena-pelaez	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	maria-luisa-lina-lerena-gazo	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	maria-socorro-fernandez-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	modesta-carmelita-fernandez-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	natalia-elena-lerena-recuero	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	natalia-lerena-2	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	pablo-vaquero-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	pascual-maria-cruz-lerena-gonzalez	descendant	descendant of ramon-lerena-2 by the register's parent and child links
-ramon	paula-modesta-lerena-pelaez	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	pedro-segundo-gregorio-lerena-fernandez	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	pilar-florencio-lerena-fernandez	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	pio-c-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	ramon-fernandez-2	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	ramon-inocencio-lerena-fernandez	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	ramon-maria-fernandez	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	risilio-maria-lerena-cardozo	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	rosario-fulgencia-lerena-echeverry	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	segundo-avelino-fernandez-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	serapio-fernandez-2	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	servando-cecilio-gonzalez-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	severa-juliana-lerena-fernandez	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	sixto-doroteo-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	socorro-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	sofia-fernandez-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	sofia-paben-fernandez	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	tomasa-margarita-lerena-montano	descendant	descendant of mauricio-lerena by the register's parent and child links
-ramon	violeta-blanca-lerena-cardozo	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	vitalino-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	ysaac-lerena	descendant	descendant of alejandro-lerena by the register's parent and child links
-ramon	ysidro-gregorio-lerena-pelaez	descendant	descendant of alejandro-lerena by the register's parent and child links
-direct	antoinette-septima-lynette-lerena	descendant	descendant of pablo-armando-lerena by the register's parent and child links
-direct	catherine-tersia-lerena	descendant	descendant of pablo-armando-lerena by the register's parent and child links
-direct	infant-son-lerena	descendant	descendant of pablo-armando-lerena by the register's parent and child links
-direct	jeanette-marie-lerena	descendant	descendant of pablo-armando-lerena by the register's parent and child links
-direct	jeffrey-lerena	descendant	descendant of pablo-armando-lerena by the register's parent and child links
-direct	nuno-fernando-lerena	descendant	descendant of pablo-armando-lerena by the register's parent and child links
-direct	patricia-carmen-lerena	descendant	descendant of pablo-armando-lerena by the register's parent and child links
-direct	paul-raymond-lerena	descendant	descendant of pablo-armando-lerena by the register's parent and child links
-direct	pierre-frederick-lerena	descendant	descendant of pablo-armando-lerena by the register's parent and child links
-direct	ricardo-juan-carlos-lerena	descendant	descendant of pablo-armando-lerena by the register's parent and child links
-direct	richard-lerena	descendant	descendant of pablo-armando-lerena by the register's parent and child links
-direct	rieta-maria-lerena	descendant	descendant of pablo-armando-lerena by the register's parent and child links
-direct	roque-luis-armando-lerena	descendant	descendant of pablo-armando-lerena by the register's parent and child links
+sancho	adolfo-maximo-cordero	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	alberto-julian-lerena-larriera	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	alejandro-joaquin-narciso-lerena-villardemoros	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	alejandro-lerena-traibel	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	alfredo-justiniano-lerena-traibel	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	amalia-casas	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	ana-maria-lerena-razzetti	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	ana-rosario-lerena-traibel	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	angel-miguel-avelino-lerena-larriera	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	angelica-maria-lerena-villademoros	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	arturo-lerena	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	arturo-mario-lerena-regules	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	aurelio-eusebio-barros-lerena	kin	in one family group with justa-pastora-lerena by the register's own links
+sancho	avelino-lerena-villademoros	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	avelino-pedro-joaquin-silvestre-lerena-villademoros	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	carlos-alberto-fein	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	carlos-augusto-federico-lerena-salvanach	kin	in one family group with don-luis-lerena-probably-luis-lerena-y-fernandez by the register's own links
+sancho	celedonia-villademoros	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	cesar-alberto-lerena-salvanach	kin	in one family group with don-luis-lerena-probably-luis-lerena-y-fernandez by the register's own links
+sancho	cora-maria-avelina-lerena-regules	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	dolores-pou-de-zalduondo	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	don-antonio-lenguas	kin	in one family group with don-luis-lerena-probably-luis-lerena-y-fernandez by the register's own links
+sancho	don-luis-eugenio-lerena-lenguas	kin	in one family group with don-luis-lerena-probably-luis-lerena-y-fernandez by the register's own links
+sancho	dona-julia-juanico	kin	in one family group with don-luis-lerena-probably-luis-lerena-y-fernandez by the register's own links
+sancho	dona-justiniana-lenguas-gonzalez	kin	in one family group with don-luis-lerena-probably-luis-lerena-y-fernandez by the register's own links
+sancho	dona-sixta-lenguas-gonzalez	kin	in one family group with don-luis-lerena-probably-luis-lerena-y-fernandez by the register's own links
+sancho	dr-don-candido-juanico	kin	in one family group with don-luis-lerena-probably-luis-lerena-y-fernandez by the register's own links
+sancho	eduardo-avelino-zalduando-lerena	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	eduardo-lerena	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	eduardo-zalduondo	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	ema-justina-felicia-lerena-regules	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	ema-regules	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	ema-sixta-lerena-juanico	kin	in one family group with don-luis-lerena-probably-luis-lerena-y-fernandez by the register's own links
+sancho	emilia-alberta-lerena-bassani	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	emilia-lerena-vega-2	kin	in one family group with pedro-antonio-lerena by the register's own links
+sancho	emilio-lavina-y-goyeneche	kin	in one family group with pedro-antonio-lerena by the register's own links
+sancho	emma-lerena-regules	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	enrique-lerena-juanico	kin	in one family group with don-luis-lerena-probably-luis-lerena-y-fernandez by the register's own links
+sancho	fermin-carlos-de-yeregui	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	fernando-moratorio-2	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	gilberto-lerena	kin	in one family group with don-luis-lerena-probably-luis-lerena-y-fernandez by the register's own links
+sancho	hector-narciso-lerena-bassani	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	hilario-barros-llerena	kin	in one family group with justa-pastora-lerena by the register's own links
+sancho	irma-antonia-lerena-fernandez	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	jacinta-mercedes-gregoria-lerena-villademoros	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	josefa-lerena-traibel	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	juan-arturo-lerena-traibel	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	juan-zalduondo	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	julia-bassani	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	laura-adela-lerena-juanico	kin	in one family group with don-luis-lerena-probably-luis-lerena-y-fernandez by the register's own links
+sancho	leonarda-margarita-lerena-vega	kin	in one family group with pedro-antonio-lerena by the register's own links
+sancho	lucinda-gregoria-del-corazon-de-jesus-ruiz-de-carvallo	kin	in one family group with dominga-josefa-llerena-fernandez by the register's own links
+sancho	luis-felipe-lerena-salvanach	kin	in one family group with don-luis-lerena-probably-luis-lerena-y-fernandez by the register's own links
+sancho	luis-lerena	kin	in one family group with don-luis-lerena-probably-luis-lerena-y-fernandez by the register's own links
+sancho	manuela-lavina	kin	in one family group with pedro-antonio-lerena by the register's own links
+sancho	manuela-lemos	kin	in one family group with pedro-antonio-lerena by the register's own links
+sancho	maria-adelina-lerena-larriera	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	maria-adelina-lerena-traibel	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	maria-angelica-julia-lerena-salvanach	kin	in one family group with don-luis-lerena-probably-luis-lerena-y-fernandez by the register's own links
+sancho	maria-antonieta-lerena-larriera	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	maria-carlota-lerena-salvanach	kin	in one family group with don-luis-lerena-probably-luis-lerena-y-fernandez by the register's own links
+sancho	maria-carlota-moratorio-lerena	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	maria-consuelo-lerena-larriera	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	maria-de-las-mercedes-moratorio-lerena	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	maria-e-c-lerena	kin	in one family group with don-luis-lerena-probably-luis-lerena-y-fernandez by the register's own links
+sancho	maria-e-lerena	kin	in one family group with don-luis-lerena-probably-luis-lerena-y-fernandez by the register's own links
+sancho	maria-ester-costa	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	maria-ines-lerena-larriera	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	maria-julia-margarita-josefa-emirena-justiniana-lerena-juanico	kin	in one family group with don-luis-lerena-probably-luis-lerena-y-fernandez by the register's own links
+sancho	maria-luisa-lerena	kin	in one family group with don-luis-lerena-probably-luis-lerena-y-fernandez by the register's own links
+sancho	maria-mercedes-razzetti	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	mercedes-micaela-lerena-traibel	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	pedro-alberto-ysabelino-lerena-traibel	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	pedro-gualberto-lerena-villademoros	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	pedro-lerena-vega-2	kin	in one family group with pedro-antonio-lerena by the register's own links
+sancho	pedro-ricardo-lerena-fernandez	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	pedro-segundo-lerena-villademoros	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	raul-lerena	kin	in one family group with don-luis-lerena-probably-luis-lerena-y-fernandez by the register's own links
+sancho	roberto-ambrosio-lerena-regules	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	rodrigo-fernandez	kin	in one family group with dona-maria-fernandez-tresguerras by the register's own links
+sancho	rosa-maria-eppens	kin	in one family group with don-luis-lerena-probably-luis-lerena-y-fernandez by the register's own links
+sancho	sara-esmeralda-lerena-fernandez	kin	in one family group with alejandro-m-lerena by the register's own links
+sancho	vicenta-lavina	kin	in one family group with pedro-antonio-lerena by the register's own links
+sancho	vicenta-lerena-vega-2	kin	in one family group with pedro-antonio-lerena by the register's own links
+ramon	ademar-lerena-beloqui	kin	in one family group with cipriano-lerena by the register's own links
+ramon	alejandra-justa-vaquero-lerena	kin	in one family group with alejandro-lerena by the register's own links
+ramon	alejandra-raymunda-lerena-gazo	kin	in one family group with alejandro-lerena by the register's own links
+ramon	alejandro-esteban-lerena-alvarez	kin	in one family group with alejandro-lerena by the register's own links
+ramon	alejandro-j-lerena-echeverry	kin	in one family group with alejandro-lerena by the register's own links
+ramon	alejandro-lerena-2	kin	in one family group with alejandro-lerena by the register's own links
+ramon	alejandro-pablo-pelaez-lerena	kin	in one family group with antonina-lerena-3 by the register's own links
+ramon	alejandro-pedro-pelaez-lerena	kin	in one family group with alejandrina-lerena by the register's own links
+ramon	amabelia-lerena-beloqui	kin	in one family group with cipriano-lerena by the register's own links
+ramon	anastasia-moyano	kin	in one family group with alejandro-lerena by the register's own links
+ramon	andrea-albina-lerena	kin	in one family group with alejandro-lerena by the register's own links
+ramon	antonina-lerena-2	kin	in one family group with alejandro-lerena by the register's own links
+ramon	antonio-amador-lerena-alvarez	kin	in one family group with alejandro-lerena by the register's own links
+ramon	antonio-etcheberse	kin	in one family group with alejandro-lerena by the register's own links
+ramon	auristela-josefa-cipriana-alvarez-fernandez	kin	in one family group with alejandro-lerena by the register's own links
+ramon	aurora-lerena-fernandez	kin	in one family group with alejandro-lerena by the register's own links
+ramon	bernabe-concilo-lerena-pelaez	kin	in one family group with alejandro-lerena by the register's own links
+ramon	bernabe-lerena	kin	in one family group with alejandro-lerena by the register's own links
+ramon	bernabe-lerena-2	kin	in one family group with alejandro-lerena by the register's own links
+ramon	bernardina-harrison	kin	in one family group with alejandro-lerena by the register's own links
+ramon	camila-lerena-pelaez	kin	in one family group with alejandro-lerena by the register's own links
+ramon	carlos-rey-lerena-pelaez	kin	in one family group with alejandro-lerena by the register's own links
+ramon	carmelo-belisario-lerena-montano	kin	in one family group with alejandro-lerena by the register's own links
+ramon	carmen-lerena-pelaez	kin	in one family group with alejandro-lerena by the register's own links
+ramon	casimira-lerena	kin	in one family group with alejandro-lerena by the register's own links
+ramon	casto-lindolfo-lerena-beloqui	kin	in one family group with cipriano-lerena by the register's own links
+ramon	casto-severino-vaquero-lerena	kin	in one family group with alejandro-lerena by the register's own links
+ramon	cayetano-alberto-fernandez	kin	in one family group with alejandro-lerena by the register's own links
+ramon	cecilia-socorro-fernandez-lerena	kin	in one family group with alejandro-lerena by the register's own links
+ramon	celestino-ismael-lerena-beloqui	kin	in one family group with cipriano-lerena by the register's own links
+ramon	celestino-lerena-harrison	kin	in one family group with alejandro-lerena by the register's own links
+ramon	cesario-francisco-del-carmen-gonzalez-lerena	kin	in one family group with alejandro-lerena by the register's own links
+ramon	clara-a-plaza	kin	in one family group with cipriano-lerena by the register's own links
+ramon	clemencio-lorenzo-lerena-montano	kin	in one family group with alejandro-lerena by the register's own links
+ramon	corina-francisca-gonzalez-lerena	kin	in one family group with alejandro-lerena by the register's own links
+ramon	dalmira-vaquero-lerena	kin	in one family group with alejandro-lerena by the register's own links
+ramon	damaso-negrotto	kin	in one family group with alejandro-lerena by the register's own links
+ramon	davilada-carmela-gonzalez-lerena	kin	in one family group with alejandro-lerena by the register's own links
+ramon	dona-casimira-montano	kin	in one family group with alejandro-lerena by the register's own links
+ramon	dona-casimira-pelaez	kin	in one family group with alejandro-lerena by the register's own links
+ramon	dona-lauriana-beloqui	kin	in one family group with cipriano-lerena by the register's own links
+ramon	donata-natalia-lerena-beloqui	kin	in one family group with cipriano-lerena by the register's own links
+ramon	doroteo-donato-lerena-beloqui	kin	in one family group with cipriano-lerena by the register's own links
+ramon	edelma-lerena-recuero	kin	in one family group with alejandro-lerena by the register's own links
+ramon	elida-pilar-lerena-recuero	kin	in one family group with alejandro-lerena by the register's own links
+ramon	elmira-vaquero-lerena	kin	in one family group with alejandro-lerena by the register's own links
+ramon	emilia-josefa-catalina-alvarez-fernandez	kin	in one family group with alejandro-lerena by the register's own links
+ramon	enrique-rene-lerena-cardozo	kin	in one family group with alejandro-lerena by the register's own links
+ramon	esperanza-gonzalez	kin	in one family group with alejandro-lerena by the register's own links
+ramon	esteban-segundo-fernandez-lac	kin	in one family group with alejandro-lerena by the register's own links
+ramon	estefania-gonzalez-lerena	kin	in one family group with alejandro-lerena by the register's own links
+ramon	estefania-lerena	kin	in one family group with alejandro-lerena by the register's own links
+ramon	eugenio-lerena-fernandez	kin	in one family group with alejandro-lerena by the register's own links
+ramon	eusebio-leonidas-gonzalez-lerena	kin	in one family group with alejandro-lerena by the register's own links
+ramon	eusebio-ramon-fernandez-lerena	kin	in one family group with alejandro-lerena by the register's own links
+ramon	fausto-g-gutierrez	kin	in one family group with alejandro-lerena by the register's own links
+ramon	flora-lerena-harrison	kin	in one family group with alejandro-lerena by the register's own links
+ramon	flora-vaquero-lerena	kin	in one family group with alejandro-lerena by the register's own links
+ramon	florencia-tomasa-fernandez-gonzalez	kin	in one family group with alejandro-lerena by the register's own links
+ramon	florinda-cardozo	kin	in one family group with alejandro-lerena by the register's own links
+ramon	francisco-lejeren	kin	in one family group with alejandro-lerena by the register's own links
+ramon	francisco-maria-de-los-angeles-alvarez-fernandez	kin	in one family group with alejandro-lerena by the register's own links
+ramon	gabino-lerena	kin	in one family group with alejandro-lerena by the register's own links
+ramon	gervasio-lerena-echeverry	kin	in one family group with alejandro-lerena by the register's own links
+ramon	herminia-vaquero-lerena	kin	in one family group with alejandro-lerena by the register's own links
+ramon	hipolito-fructuoso-fernandez-lerena	kin	in one family group with alejandro-lerena by the register's own links
+ramon	jesus-modesto-del-carmen-fernandez-lerena	kin	in one family group with alejandro-lerena by the register's own links
+ramon	jose-gabriel-gustavo-lerena-gazo	kin	in one family group with alejandro-lerena by the register's own links
+ramon	jose-severino-alvarez-fernandez	kin	in one family group with alejandro-lerena by the register's own links
+ramon	juan-bernardo-lerena-pelaez	kin	in one family group with alejandro-lerena by the register's own links
+ramon	juan-cipriano-lerena-beloqui	kin	in one family group with cipriano-lerena by the register's own links
+ramon	juan-colman	kin	in one family group with cipriano-lerena by the register's own links
+ramon	juan-crisostomo-fernandez-gonzalez	kin	in one family group with alejandro-lerena by the register's own links
+ramon	juan-francisco-alvarez-fernandez	kin	in one family group with alejandro-lerena by the register's own links
+ramon	juan-inocencio-de-leon-gonzalez	kin	in one family group with alejandro-lerena by the register's own links
+ramon	juan-manuel-lerena-gazo	kin	in one family group with alejandro-lerena by the register's own links
+ramon	juan-pedro-olivera-lerena	kin	in one family group with cipriano-lerena by the register's own links
+ramon	juan-ramon-lerena-fernandez	kin	in one family group with alejandro-lerena by the register's own links
+ramon	juana-alejandra-lerena-echeverry	kin	in one family group with alejandro-lerena by the register's own links
+ramon	juana-benigna-alvarez-fernandez	kin	in one family group with alejandro-lerena by the register's own links
+ramon	julio-servando-del-carmen-gonzalez-lerena	kin	in one family group with alejandro-lerena by the register's own links
+ramon	justina-petronila-teresa-lerena-fernandez	kin	in one family group with alejandro-lerena by the register's own links
+ramon	justino-dorites-del-corazon-de-jesus-lerena-pelaez	kin	in one family group with alejandro-lerena by the register's own links
+ramon	laurencia-lerena-fernandez	kin	in one family group with alejandro-lerena by the register's own links
+ramon	lauriana-lerena-beloqui	kin	in one family group with cipriano-lerena by the register's own links
+ramon	leopoldo-gonzalez-lerena	kin	in one family group with alejandro-lerena by the register's own links
+ramon	linda-maria-lerena-harrison	kin	in one family group with alejandro-lerena by the register's own links
+ramon	luisa-lerena-beloqui	kin	in one family group with cipriano-lerena by the register's own links
+ramon	manuel-indalecio-vaquero	kin	in one family group with alejandro-lerena by the register's own links
+ramon	manuel-mauricio-lerena-montano	kin	in one family group with alejandro-lerena by the register's own links
+ramon	margarita-antonia-fernandez-gonzalez	kin	in one family group with alejandro-lerena by the register's own links
+ramon	margarita-lerena-gazo	kin	in one family group with alejandro-lerena by the register's own links
+ramon	margarita-medarda-del-corazon-de-jesus-lerena-pelaez	kin	in one family group with alejandro-lerena by the register's own links
+ramon	maria-claudina-de-la-luz-de-leon-gonzalez	kin	in one family group with alejandro-lerena by the register's own links
+ramon	maria-de-los-reyes-fernandez-lerena	kin	in one family group with alejandro-lerena by the register's own links
+ramon	maria-del-carmen-fernandez-lerena	kin	in one family group with alejandro-lerena by the register's own links
+ramon	maria-josefa-del-carmen-fernandez-lerena	kin	in one family group with alejandro-lerena by the register's own links
+ramon	maria-leonor-lerena-beloqui	kin	in one family group with cipriano-lerena by the register's own links
+ramon	maria-lerena-3	kin	in one family group with alejandro-lerena by the register's own links
+ramon	maria-lerena-6	kin	in one family group with alejandro-lerena by the register's own links
+ramon	maria-lerena-pelaez	kin	in one family group with alejandro-lerena by the register's own links
+ramon	maria-luisa-lina-lerena-gazo	kin	in one family group with alejandro-lerena by the register's own links
+ramon	maria-pelaez	kin	in one family group with antonina-lerena-3 by the register's own links
+ramon	maria-rosalia-gonzalez-fernandez	kin	in one family group with alejandro-lerena by the register's own links
+ramon	maria-serna	kin	in one family group with alejandro-lerena by the register's own links
+ramon	maria-socorro-fernandez-lerena	kin	in one family group with alejandro-lerena by the register's own links
+ramon	maria-teresa-lerena-sena	kin	in one family group with cipriano-lerena by the register's own links
+ramon	maximo-pelaez-lerena	kin	in one family group with antonina-lerena-3 by the register's own links
+ramon	modesta-carmelita-fernandez-lerena	kin	in one family group with alejandro-lerena by the register's own links
+ramon	natalia-elena-lerena-recuero	kin	in one family group with alejandro-lerena by the register's own links
+ramon	natalia-lerena-2	kin	in one family group with alejandro-lerena by the register's own links
+ramon	pablo-vaquero-lerena	kin	in one family group with alejandro-lerena by the register's own links
+ramon	pascual-maria-cruz-lerena-gonzalez	kin	in one family group with alejandro-lerena by the register's own links
+ramon	paula-modesta-lerena-pelaez	kin	in one family group with alejandro-lerena by the register's own links
+ramon	pedro-francisco-fernandez-lerena	kin	in one family group with alejandro-lerena by the register's own links
+ramon	pedro-segundo-gregorio-lerena-fernandez	kin	in one family group with alejandro-lerena by the register's own links
+ramon	petrona-salonse-pelaez-fernandez	kin	in one family group with alejandro-lerena by the register's own links
+ramon	pilar-florencio-lerena-fernandez	kin	in one family group with alejandro-lerena by the register's own links
+ramon	pio-c-lerena	kin	in one family group with alejandro-lerena by the register's own links
+ramon	ramon-a-paben	kin	in one family group with alejandro-lerena by the register's own links
+ramon	ramon-fernandez	kin	in one family group with alejandro-lerena by the register's own links
+ramon	ramon-fernandez-2	kin	in one family group with alejandro-lerena by the register's own links
+ramon	ramon-inocencio-lerena-fernandez	kin	in one family group with alejandro-lerena by the register's own links
+ramon	ramon-maria-fernandez	kin	in one family group with alejandro-lerena by the register's own links
+ramon	ramon-paulino-olivera-lerena	kin	in one family group with cipriano-lerena by the register's own links
+ramon	risilio-maria-lerena-cardozo	kin	in one family group with alejandro-lerena by the register's own links
+ramon	rosario-fulgencia-lerena-echeverry	kin	in one family group with alejandro-lerena by the register's own links
+ramon	segundo-avelino-fernandez-lerena	kin	in one family group with alejandro-lerena by the register's own links
+ramon	serapio-fernandez-2	kin	in one family group with alejandro-lerena by the register's own links
+ramon	servando-cecilio-gonzalez-lerena	kin	in one family group with alejandro-lerena by the register's own links
+ramon	servando-gonzalez	kin	in one family group with alejandro-lerena by the register's own links
+ramon	severa-juliana-lerena-fernandez	kin	in one family group with alejandro-lerena by the register's own links
+ramon	simona-pereira	kin	in one family group with alejandro-lerena by the register's own links
+ramon	sixto-doroteo-lerena	kin	in one family group with alejandro-lerena by the register's own links
+ramon	socorro-lerena	kin	in one family group with alejandro-lerena by the register's own links
+ramon	sofia-fernandez-lerena	kin	in one family group with alejandro-lerena by the register's own links
+ramon	sofia-paben-fernandez	kin	in one family group with alejandro-lerena by the register's own links
+ramon	teodoro-luis-bentancor	kin	in one family group with cipriano-lerena by the register's own links
+ramon	tomas-esteban-de-leon-gonzalez	kin	in one family group with alejandro-lerena by the register's own links
+ramon	tomasa-margarita-lerena-montano	kin	in one family group with alejandro-lerena by the register's own links
+ramon	valentina-sena	kin	in one family group with cipriano-lerena by the register's own links
+ramon	venancia-harrison	kin	in one family group with alejandro-lerena by the register's own links
+ramon	violeta-blanca-lerena-cardozo	kin	in one family group with alejandro-lerena by the register's own links
+ramon	vitalino-lerena	kin	in one family group with alejandro-lerena by the register's own links
+ramon	viviano-eliseo-lerena-beloqui	kin	in one family group with cipriano-lerena by the register's own links
+ramon	ysaac-lerena	kin	in one family group with alejandro-lerena by the register's own links
+ramon	ysidro-gregorio-lerena-pelaez	kin	in one family group with alejandro-lerena by the register's own links
+direct	antoinette-septima-lynette-lerena	kin	in one family group with pablo-armando-lerena by the register's own links
+direct	anton-lerena	kin	in one family group with pablo-armando-lerena by the register's own links
+direct	catherine-mary-sophia-booyzen	kin	in one family group with pablo-armando-lerena by the register's own links
+direct	catherine-tersia-lerena	kin	in one family group with pablo-armando-lerena by the register's own links
+direct	doreen-may-chappell	kin	in one family group with pablo-armando-lerena by the register's own links
+direct	frederick-christian-chappell	kin	in one family group with pablo-armando-lerena by the register's own links
+direct	gayle-lerena	kin	in one family group with pablo-armando-lerena by the register's own links
+direct	infant-son-lerena	kin	in one family group with pablo-armando-lerena by the register's own links
+direct	jeanette-marie-lerena	kin	in one family group with pablo-armando-lerena by the register's own links
+direct	jeffrey-lerena	kin	in one family group with pablo-armando-lerena by the register's own links
+direct	nuno-fernando-lerena	kin	in one family group with pablo-armando-lerena by the register's own links
+direct	patricia-carmen-lerena	kin	in one family group with pablo-armando-lerena by the register's own links
+direct	paul-raymond-lerena	kin	in one family group with pablo-armando-lerena by the register's own links
+direct	pierre-frederick-lerena	kin	in one family group with pablo-armando-lerena by the register's own links
+direct	rhena-may-lerena	kin	in one family group with pablo-armando-lerena by the register's own links
+direct	ricardo-juan-carlos-lerena	kin	in one family group with pablo-armando-lerena by the register's own links
+direct	richard-lerena	kin	in one family group with pablo-armando-lerena by the register's own links
+direct	rieta-maria-lerena	kin	in one family group with pablo-armando-lerena by the register's own links
+direct	roque-luis-armando-lerena	kin	in one family group with pablo-armando-lerena by the register's own links
+direct	roseline-wilhelmina-forbes	kin	in one family group with pablo-armando-lerena by the register's own links
+taylor	agnes-walker-taylor	kin	in one family group with mary-ann-hellen-brayley by the register's own links
+taylor	georgina-margaret-brailey	kin	in one family group with mary-ann-hellen-brayley by the register's own links
+taylor	georgina-temple	kin	in one family group with mary-ann-hellen-brayley by the register's own links
+taylor	horace-archibald-taylor	kin	in one family group with mary-ann-hellen-brayley by the register's own links
+taylor	irene-taylor	kin	in one family group with mary-ann-hellen-brayley by the register's own links
+taylor	isabella-brailey	kin	in one family group with mary-ann-hellen-brayley by the register's own links
+taylor	isabella-temple-taylor	kin	in one family group with mary-ann-hellen-brayley by the register's own links
+taylor	john-brailey	kin	in one family group with mary-ann-hellen-brayley by the register's own links
+taylor	john-walker-brailey	kin	in one family group with mary-ann-hellen-brayley by the register's own links
+taylor	kathleen-georgina-taylor	kin	in one family group with mary-ann-hellen-brayley by the register's own links
+taylor	lucy-elizabeth-taylor	kin	in one family group with mary-ann-hellen-brayley by the register's own links
+taylor	margaret-hellen-walker-taylor	kin	in one family group with mary-ann-hellen-brayley by the register's own links
+taylor	william-john-taylor	kin	in one family group with mary-ann-hellen-brayley by the register's own links

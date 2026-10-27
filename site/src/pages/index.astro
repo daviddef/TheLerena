@@ -16,7 +16,7 @@ import linesDrawing from "../data/lerena-lines.json";
 import { ledger as linesLedger } from "@daviddef/archive-kit/lib/lines.js";
 // Derived, not typed. A hand-written count here went stale within the week it was written.
 const WORDS = ["no","One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Eleven","Twelve","Thirteen","Fourteen","Fifteen"];
-// The lines of the name on /name/: counted from the drawing's own data (tools/build-lines.py), never typed.
+// The lines on /lines/: counted from the drawing's own data (tools/build-lines.py), never typed.
 const nLines = (WORDS[linesLedger(linesDrawing).lanes] ?? String(linesLedger(linesDrawing).lanes)).toLowerCase();
 /* Six tiles, all of them measures of the work. There were ten, and two of them
    were not numbers at all — "Juan Carlos" and "Uruguayan". Those are two of the
@@ -254,10 +254,10 @@ const stats = [
 <section class="blk">
   <div class="note" style="margin-top:0">
     <strong>The break above is a single joint in one tree. There is a wider version of the same
-    question.</strong> This archive follows <strong>{nLines} lines of the name Lerena</strong>, each
-    documented over the years it states, and it has never shown that any two of them are
-    the same family. The broken line below is this one.
-    <a href={u("/name/#s-lines")}>The {nLines} lines, drawn side by side &rarr;</a>
+    question.</strong> This archive draws <strong>{nLines} lines</strong>: the lines of the name Lerena, each
+    documented over the years it states, and the Taylor line that married into ours. It has never shown that any
+    two lines of the name are the same family. The broken line below is this one.
+    <a href={u("/lines/")}>The Lines: every line, every household on none, and how they join &rarr;</a>
   </div>
 </section>
 

@@ -1,0 +1,189 @@
+---
+/* THE LINES (27 October 2026). Every line of the name this archive holds, drawn side by side with the kit's BranchRivers; every
+   household and person on none of them, counted in a pen; and every join between them that the archive has a verdict on.
+
+   NOTHING ON THIS PAGE IS TYPED. tools/build-lines.py makes both files from the archive's own data:
+     lerena-lines.json         the drawing (kit contract, kit/docs/lines.md; gate: npm run check:lines)
+     lerena-lines-ledger.json  the tables: each line and household defined, the joins, the rule, and every count
+   A status, a join's verdict and a household's description are research, written by hand in data/lerena-lines*.tsv; a count is
+   derived; a person who may not be listed (living, held out, or with no year on their page) is a number and never a name. */
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import { emph, esc } from "../lib/text.js";
+import BranchRivers from "@daviddef/archive-kit/components/BranchRivers.astro";
+import { ledger, statusLine } from "@daviddef/archive-kit/lib/lines.js";
+import drawing from "../data/lerena-lines.json";
+import book from "../data/lerena-lines-ledger.json";
+import directLine from "../data/direct-line.json";
+import dPeople from "../data/people.json";
+
+const LED = ledger(drawing);
+const WORD = ["no", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve"];
+const w = (n) => WORD[n] ?? String(n);
+const Cap = (s) => s[0].toUpperCase() + s.slice(1);
+const lineNames = Object.fromEntries(dPeople.map((p) => [p.slug, p.name.replace(/\s*\([^)]*\)/g, "").replace(/\s+/g, " ").trim()]));
+const statusOf = Object.fromEntries(drawing.lanes.map((l) => [l.key, statusLine(l)]));
+const onLines = book.lanes.reduce((n, l) => n + l.people, 0);
+const inPens = book.pens.reduce((n, p) => n + p.people, 0);
+const named = book.lanes.reduce((n, l) => n + l.listed, 0) + book.pens.reduce((n, p) => n + p.listed, 0);
+const pensOrder = book.pens.filter((p) => p.people > 0 || p.households > 0);
+const penHead = Object.fromEntries(book.pens.map((p) => [p.id, p.head]));
+const yrs = (a, b) => (a && b ? (a === b ? String(a) : `${a}–${b}`) : a ? String(a) : "");
+const placeText = (pl) => pl.map(([p, a, b]) => (yrs(a, b) ? `${p} (${yrs(a, b)})` : p)).join(" · ");
+const people = (n) => `${n} ${n === 1 ? "person" : "people"}`;
+/* the four verdicts a join can carry, and the words for each (a vocabulary, not data) */
+const VERDICT = {
+  documented: ["Documented", "doc", "One family: a document joins them."],
+  candidate: ["Candidate", "inf", "Proposed on evidence short of a document; drawn as a dotted bridge."],
+  refused: ["Refused", "no", "Tested, and the archive says the join is false."],
+  open: ["Open", "lore", "The archive says in so many words that it does not know."],
+};
+const joinsBy = (s) => book.joins.filter((j) => j.status === s);
+const side = (e) => (e.href ? `<a href="${u(e.href)}">${esc(e.label)}</a>` : esc(e.label));
+const households = book.households;
+const hhCount = households.filter((h) => h.pen === "not-yet-placed").length;
+const nPensDrawn = pensOrder.length;
+/* the lines of the name, as against the one line that came in by marriage (data/lerena-lines.tsv: the Taylor lane) */
+const NAME_LANES = drawing.lanes.filter((l) => l.key !== "taylor").length;
+const laneLabel = Object.fromEntries(drawing.lanes.map((l) => [l.key, l.label]));
+---
+<Base title="The Lines"
+      eyebrow={`${Cap(w(LED.lanes))} lines · ${hhCount} households on none of them · all ${book.total} people in the register, each in one place`}
+      dek="Which Lerenas are one family, which are not, and which nobody can yet say. Every line the archive holds is drawn here with where it begins, how far its papers reach and where it went; under it, every household and every person on none of them, counted; and after it, every join between them the archive has a verdict on.">
+
+<section class="blk">
+  <h2 id="s-lanes">{Cap(w(LED.lanes))} lines, drawn side by side</h2>
+  <p class="dek">A rare name is not a family. {Cap(w(NAME_LANES))} of these lines carry the name Lerena, and one does not: the Taylor
+    line, which married into the direct one in 1911 and is drawn because this archive keeps it as a line of its own.</p>
+  <div class="prose">
+    <p><strong>Three things are called a line in this archive, and this page is about the widest.</strong> <em>The direct line</em> is
+      one man&rsquo;s descent, from Pablo Armando Lerena to the living generation (<a href={u("/direct-line/")}>The Spine</a>).
+      <em>Connected to the line</em>, in the register, means joined to that one man. <em>A line of the name</em>, here, is a
+      family of Lerenas that the papers follow from a first document to a last &mdash; and the question this page exists to answer is
+      whether any two of them are one family.</p>
+    <p><strong>A lane has to have both ends.</strong> A beginning that is a document and a destination that is a document. What
+      lies beyond a lane&rsquo;s beginning is said under its title: <em>origin inferred</em> where the archive has a reason and no
+      document, <em>origin not found</em> where it has neither. Where the archive knows a household is real but cannot say which line
+      it belongs to, it goes <em>below</em> the rule rather than onto the nearest lane. <strong>The red line is drawn broken on
+      purpose:</strong> Pablo Armando&rsquo;s parents are named on an army card in 1908 and appear in no other record anywhere.</p>
+  </div>
+  <BranchRivers rivers={drawing} title={drawing.title} names={lineNames} directLine={directLine}
+         caption={`Hover or tab any dot for what the document behind it says; a dot that names a person opens that person. The lanes are coloured only to tell them apart &mdash; no colour means kinship. <strong>A dotted curve across the lane heads is a candidate join, on evidence short of a document</strong>; the joins that rest on a document, and the ones the archive has refused, are in the table below the drawing, because a drawn line between two families would claim more than either kind says. The number under a lane is the people this archive has placed on it by the register&rsquo;s own links who may be named; the full count, the named and the not-named, is in the table.`} />
+</section>
+
+<section class="blk">
+  <h2 id="s-defined">Every line, defined</h2>
+  <p class="dek">Where each line begins and how far back its papers reach, the places it can be put in with the year of each, where it
+    went, and how many of the register&rsquo;s people stand on it. The status words are the kit&rsquo;s, the same in every archive:
+    how far back the evidence reaches, not how interesting the line is.</p>
+  <div class="scroll" style="margin-top:16px">
+    <table>
+      <thead><tr><th>Line</th><th>Status</th><th>Places, with the year of each</th><th>Went on to</th><th class="m">People</th></tr></thead>
+      <tbody>{book.lanes.map((l) => (
+        <tr id={`line-${l.key}`}>
+          <td><a href={u(l.href)}>{l.label}</a><br /><span class="cap" set:html={emph(l.note)} /></td>
+          <td><span class={`chip ${l.status === "documented" ? "doc" : l.status === "family-lore" ? "lore" : "inf"}`}>{statusOf[l.key].text}</span></td>
+          <td>{l.places.map(([p, y]) => `${p} ${y}`).join(" · ")}</td>
+          <td>{l.ends.join(" · ")}</td>
+          <td class="m">{l.people} on the line<br />{l.listed} named</td>
+        </tr>
+      ))}</tbody>
+    </table>
+  </div>
+
+  <h3 id="s-households" style="margin-top:34px">Every household on none of them</h3>
+  <p class="dek" style="margin-top:8px">The households under the rule in the drawing, each with where its people are and the years
+    their pages print. {Cap(w(households.filter((h) => h.written).length))} are written up by this archive, in its own words; the rest
+    are family groups the register itself holds together by its links and joins to no line. A household&rsquo;s status is
+    <em>origin not found</em>: real, documented people whose line is not known.</p>
+  <div class="scroll" style="margin-top:16px">
+    <table>
+      <thead><tr><th>Household</th><th>Where, and when</th><th>What the archive says</th><th class="m">People</th></tr></thead>
+      <tbody>{households.map((h) => (
+        <tr>
+          <td>{h.href ? <a href={u(h.href)}>{h.label}</a> : h.label}<br /><span class="cap">{h.pen === "different-stock" ? "a different stock, kept apart" : "origin not found · on no line"}</span></td>
+          <td>{h.places.length ? placeText(h.places) : "—"}</td>
+          <td><span set:html={emph(h.why)} />{h.onLane.length > 0 && <span class="cap"> Its people are counted on the line {h.onLane.map((k) => `«${laneLabel[k]}»`).join(" and ")}, where the record puts them; what is not placed is where they came from.</span>}</td>
+          <td class="m">{h.people}{h.people !== h.listed ? ` (${h.listed} named)` : ""}</td>
+        </tr>
+      ))}</tbody>
+    </table>
+  </div>
+</section>
+
+<section class="blk">
+  <h2 id="s-joins">How they do and do not join</h2>
+  <p class="dek">Every join between two lines, or between a line and a household, that this archive has a verdict on, in its own
+    words. {Cap(w(joinsBy("documented").length))} rest on a document, {w(joinsBy("candidate").length)} are candidates,
+    {w(joinsBy("refused").length)} were tested and refused, and {w(joinsBy("open").length)} the archive says it cannot yet decide.
+    No two lines of the name have been shown to be one family.</p>
+  {Object.entries(VERDICT).map(([s, [word, cls, gloss]]) => joinsBy(s).length > 0 && (
+    <>
+      <h3 id={`s-joins-${s}`} style="margin-top:28px"><span class={`chip ${cls}`}>{word}</span> <span class="cap">{gloss}</span></h3>
+      <div class="scroll" style="margin-top:10px">
+        <table>
+          <thead><tr><th>Between</th><th>And</th><th>What the archive says</th><th>Where</th></tr></thead>
+          <tbody>{joinsBy(s).map((j) => (
+            <tr>
+              <td set:html={side(j.a)} />
+              <td set:html={side(j.b)} />
+              <td set:html={emph(j.says)} />
+              <td><a href={u(j.href)}>read it &rarr;</a></td>
+            </tr>
+          ))}</tbody>
+        </table>
+      </div>
+    </>
+  ))}
+</section>
+
+<section class="blk">
+  <h2 id="s-rule">How every person in the register is placed</h2>
+  <p class="dek">The register holds {book.total} people. {Cap(String(onLines))} stand on a line and {inPens} are in the
+    {w(nPensDrawn)} pens under the rule; nobody is in two places and nobody is left out. {Cap(String(named))} may be named, and are;
+    the rest are counted and not named. The rule is the one <code>tools/build-lines.py</code> applies, in the same words:</p>
+  <ol class="prose" style="margin-top:14px">
+    {book.rule.map((r) => <li>{r}</li>)}
+  </ol>
+  <div class="scroll" style="margin-top:18px">
+    <table>
+      <thead><tr><th>Where</th><th class="m">People</th><th class="m">Named</th><th class="m">Counted, not named</th></tr></thead>
+      <tbody>
+        {book.lanes.map((l) => (
+          <tr><td><a href={`#line-${l.key}`}>{l.label}</a></td><td class="m">{l.people}</td><td class="m">{l.listed}</td><td class="m">{l.people - l.listed}</td></tr>
+        ))}
+        {pensOrder.map((p) => (
+          <tr><td>{p.head}{p.households > 0 ? ` · ${p.households} ${p.kind === "different-stock" ? "kept apart" : "households"}` : ""}</td><td class="m">{p.people}</td><td class="m">{p.listed}</td><td class="m">{p.people - p.listed}</td></tr>
+        ))}
+        <tr><td><strong>The register</strong></td><td class="m"><strong>{onLines + inPens}</strong></td><td class="m"><strong>{named}</strong></td><td class="m"><strong>{onLines + inPens - named}</strong></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="cap">Counted, not named: a person whose page prints no birth year and no death, a person born on or after the living
+    line with no death, and anybody this archive holds as living or out of publication. On a line, the names are the people on its
+    dated stops and the people placed on it who may be named. The people of each line and pen are listed under the drawing.</p>
+  <div class="note" style="margin-top:18px">What would move a household onto a line is a document that names its parents, or an act
+    that ties it to a household already drawn; what would move a person out of the pen of the name alone is one recorded parent,
+    child, spouse, brother or sister. <a href={u("/open-questions/")}>Open questions &rarr;</a> · <a href={u("/name/")}>The Name,
+    its spellings and its rarity &rarr;</a></div>
+</section>
+
+<section class="blk">
+  <h2 id="contents">What is on this page</h2>
+  <p class="dek">The build checks this list against the page, so a section cannot be added or renamed without appearing here.</p>
+  <div class="prose" style="margin-top:14px">
+    <ol class="cols2">
+      <li><a href="#s-lanes">{Cap(w(LED.lanes))} lines, drawn side by side</a></li>
+      <li><a href="#s-defined">Every line, defined</a></li>
+      <li><a href="#s-households">Every household on none of them</a></li>
+      <li><a href="#s-joins">How they do and do not join</a></li>
+      <li><a href="#s-rule">How every person in the register is placed</a></li>
+    </ol>
+  </div>
+</section>
+</Base>
+
+<style>
+  .chip.no{border-color:var(--terra);color:var(--terra)}
+  h3 .chip{vertical-align:middle;margin-right:6px}
+</style>

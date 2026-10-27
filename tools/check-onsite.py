@@ -56,8 +56,9 @@ def imported():
 
 
 # TSVs that a generator OTHER than build-pages.py turns into a JSON a page imports (25 October 2026): tools/build-lines.py makes
-# site/src/data/lerena-lines.json, the drawing on /name/, from these three. The JSON is what the page must import.
-GENERATED = {"lerena-lines": "lerena-lines", "lerena-lines-unplaced": "lerena-lines", "people-lines": "lerena-lines"}
+# site/src/data/lerena-lines.json, the drawing on /lines/, from these four. The JSON is what the page must import.
+GENERATED = {"lerena-lines": "lerena-lines", "lerena-lines-unplaced": "lerena-lines", "people-lines": "lerena-lines",
+             "lerena-lines-joins": "lerena-lines"}
 
 
 def declared():

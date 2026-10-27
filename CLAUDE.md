@@ -33,15 +33,21 @@ After research that adds an ark, a film or a person, `npm run build` is the chec
   `/family-papers/` may be shown (never the 1971 and 1973 death notices). `src/components/Rec.astro` is the wrapper for a hand-written passage.
 - **L5.** A ratchet only. `~/Downloads/audit-briefs/links/lerena-editorial.md` lists what an author can settle.
 
-## The lines of the name (25 October 2026)
+## The lines of the name (25 October 2026; /lines/, 27 October 2026)
 
-The drawing on `/name/` is the kit's `BranchRivers` (kit `docs/lines.md`). `tools/build-lines.py` makes `site/src/data/lerena-lines.json`
-from `data/lerena-lines.tsv` (a lane's status, span, note and node persons: a status is a research decision, written by hand),
-`data/lerena-lines-unplaced.tsv` (the two pens) and `data/people-lines.tsv` (the person-to-lane file; `descendant` rows are derived by the build
-from the register's parent and child links, as `same:data` is). `npm run check:lines` is the kit gate.
-Never type a count of lines in prose: `ledger()` counts them. Living: the kit's `--years` gate runs beside `check-living-years.py`;
-`data/living-year-allow.json` is the registry for both.
-
+The drawing is the kit's `BranchRivers` (kit `docs/lines.md`) on its own page, `/lines/` ("The Lines", Part I after The Name; `/name/` keeps
+a pointer at `#s-lines`). `tools/build-lines.py` makes `site/src/data/lerena-lines.json` (the drawing) and `lerena-lines-ledger.json` (the
+tables) from `data/lerena-lines.tsv` (a lane's status, span, note and node persons: a status is a research decision, written by hand),
+`data/lerena-lines-unplaced.tsv` (the households written up; `people` names their register people), `data/lerena-lines-joins.tsv` (every
+join the archive has a verdict on: documented | candidate | refused | open, in its own words; a candidate is drawn as a bridge) and
+`data/people-lines.tsv` (`anchor`/`spouse` rows by hand, each with the act it rests on; `kin` rows derived). **Every person in people.json
+stands in exactly one place** by the RULE in the tool (printed on the page): the register's own links (not `via: tree`) make family groups;
+a group holding a lane's seeds is on that lane; a group holding two lanes' seeds fails unless the join is documented in the joins file;
+any other group is a household in a pen, and a person alone is in the pen of the name alone or of the acts. A person is named only if a
+page prints a birth year before the living line or a death; the rest are counts. Where a register note quotes an act naming a parent
+the register does not link, record the edge (or an `anchor` row with the act); never decide a join here that the archive has not.
+`npm run check:lines` is the kit gate. Never type a count of lines in prose: `ledger()` counts them. Living: the kit's `--years` gate runs
+beside `check-living-years.py`; `data/living-year-allow.json` is the registry for both.
 
 ## The family ribbons and the direct-line tint (27 October 2026)
 
@@ -50,7 +56,7 @@ Every family page (`/families/<slug>/` and `/taylor/`) opens with the kit's `Fam
 `site/src/data/direct-line.json` (the kit's `directline.py` from `story.json`; `npm run check:directline`) and
 `site/src/data/family-lines.json` (`tools/build-family-lines.py` from people.json, story.json and direct-line.json; `--report` lists each
 family and every link the story states that the register does not draw). The tint (`is-ours`) is on the story ribbon and trees, the
-`/name/` lane whose people are all on the line (derived in `tools/build-lines.py`), the Spines, person-page charts, and the band on the
+`/lines/` lane whose people are all on the line (derived in `tools/build-lines.py`), the Spines, person-page charts, and the band on the
 pages of the people in direct-line.json. A mother is on the line only where the story card says `spouseDirect` (the story's own tree
 draws her as the parent of the next card). The line's break (generation 3, Sancho's children, no person) is never bridged: a family
 that married into that generation says so in its not-connected block. `npm run check:familyribbon` is the kit gate.
