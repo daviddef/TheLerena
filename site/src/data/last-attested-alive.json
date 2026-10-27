@@ -7397,5 +7397,12 @@
   "last_attested_alive": "1893-07-01",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Fermin MARTIN (m. Elbia Elmira Lerena Recuero 1931)",
+  "born_est": "-",
+  "last_attested_alive": "1893-Sep-19",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
  }
 ]
