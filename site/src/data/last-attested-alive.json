@@ -6995,9 +6995,9 @@
  {
   "name": "Gaspar DOLOR (m. Ignacia Lerena)",
   "born_est": "-",
-  "last_attested_alive": "1884-Feb-23",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Robustiana Etelbina DOLOR (b. 1883, Trinidad)",
@@ -7026,5 +7026,33 @@
   "last_attested_alive": "1884-Apr-17",
   "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
   "tier": "ALIVE AT"
+ },
+ {
+  "name": "Carmen FERNANDEZ (m. Cayetano Gonzalez)",
+  "born_est": "-",
+  "last_attested_alive": "1885-Oct-15",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Cayetano GONZALEZ (m. Carmen Fernandez)",
+  "born_est": "-",
+  "last_attested_alive": "1885-Oct-15",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Bruno Arsenio GONZALEZ (b. 1885, Trinidad)",
+  "born_est": "1885",
+  "last_attested_alive": "1885-Oct-15",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Gaspar DOLOR (b. 1884, Trinidad)",
+  "born_est": "1884-12-16",
+  "last_attested_alive": "1884-12-16",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]

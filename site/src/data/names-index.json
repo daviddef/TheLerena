@@ -616,6 +616,13 @@
    "url": "/people/brigida-cespedes/"
   },
   {
+   "name": "Bruno Arsenio Gonzalez",
+   "aliases": [
+    "Bruno Arsenio González"
+   ],
+   "url": "/people/bruno-arsenio-gonzalez/"
+  },
+  {
    "name": "Buenaventura Olivera",
    "aliases": [],
    "url": "/people/buenaventura-olivera/"
@@ -737,6 +744,13 @@
    "url": "/people/carmen-donata-lerena-beloqui/"
   },
   {
+   "name": "Carmen Fernandez",
+   "aliases": [
+    "Carmen Fernández"
+   ],
+   "url": "/people/carmen-fernandez/"
+  },
+  {
    "name": "Carmen Gonzalez Lerena",
    "aliases": [
     "Carmen González Lerena"
@@ -846,6 +860,13 @@
     "Cayetano Alberto Fernández"
    ],
    "url": "/people/cayetano-alberto-fernandez/"
+  },
+  {
+   "name": "Cayetano Gonzalez",
+   "aliases": [
+    "Cayetano González"
+   ],
+   "url": "/people/cayetano-gonzalez/"
   },
   {
    "name": "Cecilia Socorro Fernandez Lerena",
@@ -2030,11 +2051,6 @@
    "name": "Gallo Pareja",
    "aliases": [],
    "url": "/people/gallo-pareja/"
-  },
-  {
-   "name": "Gaspar Dolor",
-   "aliases": [],
-   "url": "/people/gaspar-dolor/"
   },
   {
    "name": "Pedro Lenguas",
@@ -5670,6 +5686,14 @@
    ]
   },
   {
+   "name": "Gaspar Dolor",
+   "url": "/people/?q=Gaspar%20Dolor",
+   "bearers": [
+    "/people/gaspar-dolor-2/",
+    "/people/gaspar-dolor/"
+   ]
+  },
+  {
    "name": "Gayle Lerena",
    "url": "/people/?q=Gayle%20Lerena",
    "bearers": [
@@ -5768,12 +5792,6 @@
    "url": "/people/?q=Ignacia%20Lerena",
    "bearers": [
     "/people/ignacia-lerena/"
-   ],
-   "resolve": [
-    {
-     "near": "/people/gaspar-dolor/",
-     "url": "/people/ignacia-lerena/"
-    }
    ]
   },
   {
