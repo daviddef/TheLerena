@@ -893,6 +893,21 @@
   "count": 8
  },
  {
+  "slug": "pintos-flores",
+  "name": "Pintos, Flores",
+  "people": [
+   "ciriaca-gonzalez",
+   "juan-castilla",
+   "romulo-hugo-castilla-lerena",
+   "gregorio-santa-cruz",
+   "maria-gonzalez",
+   "sofia-fernandez-lerena",
+   "ramon-a-paben",
+   "sofia-paben-fernandez"
+  ],
+  "count": 8
+ },
+ {
   "slug": "montevideo-canelones",
   "name": "Montevideo / Canelones",
   "people": [
@@ -1123,16 +1138,6 @@
    "gumersindo-lerena",
    "idersio-lerena-araujo",
    "teodoro-alves-lerena"
-  ],
-  "count": 3
- },
- {
-  "slug": "pintos-flores",
-  "name": "Pintos, Flores",
-  "people": [
-   "ciriaca-gonzalez",
-   "juan-castilla",
-   "romulo-hugo-castilla-lerena"
   ],
   "count": 3
  },

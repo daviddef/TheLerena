@@ -802,6 +802,7 @@
   {
    "name": "Cayetano Alberto Fernandez",
    "aliases": [
+    "Cayetano Alberto",
     "Cayetano Alberto Fernández"
    ],
    "url": "/people/cayetano-alberto-fernandez/"
@@ -1764,6 +1765,8 @@
   {
    "name": "Fermin Llerena",
    "aliases": [
+    "Fermin Clerena",
+    "Fermín Clerena",
     "Fermín Llerena"
    ],
    "url": "/people/fermin-lerena/"
@@ -1969,6 +1972,13 @@
    "url": "/people/gilberto-lerena/"
   },
   {
+   "name": "Gregorio Santa Cruz",
+   "aliases": [
+    "Gregorio Santa"
+   ],
+   "url": "/people/gregorio-santa-cruz/"
+  },
+  {
    "name": "Juan Gualberto",
    "aliases": [],
    "url": "/people/gualberto-lerena/"
@@ -2082,7 +2092,9 @@
   },
   {
    "name": "Isabel Lerena Barragan",
-   "aliases": [],
+   "aliases": [
+    "Isabel Clerena Rodriguez"
+   ],
    "url": "/people/isabel-lerena-barragan/"
   },
   {
@@ -3397,12 +3409,8 @@
   {
    "name": "Maria Gonzalez Lerena",
    "aliases": [
-    "Maria Gonzalez",
-    "Maria González",
     "Maria González Lerena",
-    "María Gonzalez",
     "María Gonzalez Lerena",
-    "María González",
     "María González Lerena"
    ],
    "url": "/people/maria-gonzalez-lerena/"
@@ -4399,7 +4407,8 @@
    "aliases": [
     "Maria del Socorro Lerena",
     "María del Socorro",
-    "María del Socorro Lerena"
+    "María del Socorro Lerena",
+    "Socorro Serena"
    ],
    "url": "/people/socorro-lerena/"
   },
@@ -4407,6 +4416,24 @@
    "name": "Sofia Clavijo",
    "aliases": [],
    "url": "/people/sofia-clavijo/"
+  },
+  {
+   "name": "Sofia Fernandez Lerena",
+   "aliases": [
+    "Sofia Fernandez",
+    "Sofia Fernández",
+    "Sofia Fernández Lerena"
+   ],
+   "url": "/people/sofia-fernandez-lerena/"
+  },
+  {
+   "name": "Sofia Paben Fernandez",
+   "aliases": [
+    "Sofia Paben",
+    "Sofia Paben Fernández",
+    "Sofia Taben"
+   ],
+   "url": "/people/sofia-paben-fernandez/"
   },
   {
    "name": "Susana Avelina Canale Lerena",
@@ -5725,6 +5752,40 @@
    ]
   },
   {
+   "name": "Maria Gonzalez",
+   "url": "/people/?q=Maria%20Gonzalez",
+   "bearers": [
+    "/people/maria-gonzalez/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/manuel-fernandez-alvarez/",
+     "url": "/people/maria-de-los-reyes-gonzalez/"
+    },
+    {
+     "near": "/people/gregorio-santa-cruz/",
+     "url": "/people/maria-gonzalez/"
+    }
+   ]
+  },
+  {
+   "name": "Maria González",
+   "url": "/people/?q=Maria%20Gonzalez",
+   "bearers": [
+    "/people/maria-gonzalez/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/manuel-fernandez-alvarez/",
+     "url": "/people/maria-de-los-reyes-gonzalez/"
+    },
+    {
+     "near": "/people/gregorio-santa-cruz/",
+     "url": "/people/maria-gonzalez/"
+    }
+   ]
+  },
+  {
    "name": "Maria Larena",
    "url": "/people/?q=Maria%20Larena",
    "bearers": [
@@ -5827,6 +5888,40 @@
    "url": "/people/?q=Maria%20Elena%20Lerena",
    "bearers": [
     "/people/maria-elena-lerena/"
+   ]
+  },
+  {
+   "name": "María Gonzalez",
+   "url": "/people/?q=Maria%20Gonzalez",
+   "bearers": [
+    "/people/maria-gonzalez/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/manuel-fernandez-alvarez/",
+     "url": "/people/maria-de-los-reyes-gonzalez/"
+    },
+    {
+     "near": "/people/gregorio-santa-cruz/",
+     "url": "/people/maria-gonzalez/"
+    }
+   ]
+  },
+  {
+   "name": "María González",
+   "url": "/people/?q=Maria%20Gonzalez",
+   "bearers": [
+    "/people/maria-gonzalez/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/manuel-fernandez-alvarez/",
+     "url": "/people/maria-de-los-reyes-gonzalez/"
+    },
+    {
+     "near": "/people/gregorio-santa-cruz/",
+     "url": "/people/maria-gonzalez/"
+    }
    ]
   },
   {

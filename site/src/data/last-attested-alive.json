@@ -2949,9 +2949,9 @@
  {
   "name": "Cayetano Alberto FERNANDEZ (b.1897)",
   "born_est": "1897-08-07",
-  "last_attested_alive": "1897-Aug-07",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1897-08-07",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Vitalino Gregorio PELAEZ (m. Florinda Juana Lerena 1913)",
@@ -4762,9 +4762,9 @@
  {
   "name": "Isabel LERENA Barragan (b.1875, m. Juan Rodriguez 1902)",
   "born_est": "1875",
-  "last_attested_alive": "1902-Jan-29",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1875",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Juan RODRIGUEZ (m. Isabel Lerena 1902)",
@@ -6569,6 +6569,41 @@
   "name": "Romulo Hugo CASTILLA Lerena (b. c.1921, d. 1922)",
   "born_est": "1921c",
   "last_attested_alive": "1921c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Gregorio SANTA CRUZ (father of Anastasia, a Paraguayan)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maria GONZALEZ (wife of Gregorio Santa Cruz)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Sofia FERNANDEZ Lerena (m. Ramon A. Paben)",
+  "born_est": "1868c",
+  "last_attested_alive": "1868c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Ramon A. PABEN (m. Sofia Fernandez)",
+  "born_est": "1868c",
+  "last_attested_alive": "1868c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Sofia PABEN Fernandez (b. c.1900, d. 1901)",
+  "born_est": "1900c",
+  "last_attested_alive": "1900c",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  }
