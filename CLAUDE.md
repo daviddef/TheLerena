@@ -42,3 +42,15 @@ from the register's parent and child links, as `same:data` is). `npm run check:l
 Never type a count of lines in prose: `ledger()` counts them. Living: the kit's `--years` gate runs beside `check-living-years.py`;
 `data/living-year-allow.json` is the registry for both.
 
+
+## The family ribbons and the direct-line tint (27 October 2026)
+
+Every family page (`/families/<slug>/` and `/taylor/`) opens with the kit's `FamilyRibbon` (kit `docs/family-ribbon.md`), through
+`site/src/components/FamilyLine.astro`: the family's own generations, then **how our line connects**. Two generated files, never typed:
+`site/src/data/direct-line.json` (the kit's `directline.py` from `story.json`; `npm run check:directline`) and
+`site/src/data/family-lines.json` (`tools/build-family-lines.py` from people.json, story.json and direct-line.json; `--report` lists each
+family and every link the story states that the register does not draw). The tint (`is-ours`) is on the story ribbon and trees, the
+`/name/` lane whose people are all on the line (derived in `tools/build-lines.py`), the Spines, person-page charts, and the band on the
+pages of the people in direct-line.json. A mother is on the line only where the story card says `spouseDirect` (the story's own tree
+draws her as the parent of the next card). The line's break (generation 3, Sancho's children, no person) is never bridged: a family
+that married into that generation says so in its not-connected block. `npm run check:familyribbon` is the kit gate.

@@ -1,0 +1,26 @@
+---
+/* ONE FAMILY'S LINE, AND HOW OURS MEETS IT (27 October 2026). The kit's FamilyRibbon (kit/docs/family-ribbon.md), fed from
+   this archive's data: src/data/family-lines.json, which tools/build-family-lines.py makes from people.json, story.json and
+   direct-line.json (nothing in it is typed), and src/data/direct-line.json, which the kit's directline.py makes from the
+   story. Used at the top of every family page: /families/<slug>/ and /taylor/.
+
+   The story's own marriages are passed as `derived`, for this family only (a spouse on this family's cards); the file
+   already states them, so they add nothing unless the two ever drift, and the kit's gate (check:familyribbon) reads the
+   built page against both. A family the file does not hold (no two documented generations) draws nothing here. */
+import FamilyRibbon from "@daviddef/archive-kit/components/FamilyRibbon.astro";
+import { marriageConnections } from "@daviddef/archive-kit/lib/familyribbon.js";
+import familyLines from "../data/family-lines.json";
+import directLine from "../data/direct-line.json";
+import story from "../data/story.json";
+import { u } from "../lib/url.js";
+
+const { id } = Astro.props;
+const fam = familyLines.families.find((f) => f.id === id);
+const here = new Set((fam?.cards || []).flatMap((c) => [c.person, c.spousePerson]).filter(Boolean));
+const derived = fam ? (marriageConnections(story.ribbon, (slug) => (here.has(slug) ? fam.id : null))[fam.id] || []) : [];
+---
+{fam && (
+  <section class="blk" id="s-family-line">
+    <FamilyRibbon family={fam} directLine={directLine} derived={derived} personHref={(s) => u(`/people/${s}/`)} u={u} />
+  </section>
+)}

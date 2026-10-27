@@ -12,6 +12,7 @@ import groB from "../data/gro-brailey-temple-births.json";
 import Descent from "@daviddef/archive-kit/components/Descent.astro";
 import descent from "../data/taylor-descent.json";
 import "@daviddef/archive-kit/styles/persontree.css";
+import FamilyLine from "../components/FamilyLine.astro";
 /* GENERATED FROM data/taylor-line.tsv, not typed here. Until 14 September 2026 this was a
    hardcoded array duplicating that file - and when the TSV gained five husbands' names, the
    page went on saying "m. Dalling". A page and its data must not be able to drift. */
@@ -83,6 +84,8 @@ import dDevonTooling from "../data/devon-tooling.json";
 <Base title="Mary Septima Taylor"
       eyebrow="Bideford, Northam — and a name that does not add up"
       dek="She is buried in the Roman Catholic ground at Maitland under a Spanish surname she took at about twenty. Her own name is a piece of arithmetic that does not come out: Septima means seventh and the registers make her the sixth daughter of nine children.">
+{/* The Taylors' own generations and how our line meets them: the kit's FamilyRibbon, from src/data/family-lines.json */}
+<FamilyLine id="taylor" />
 <section class="blk">
   <h2 id="s-descent">The descent, drawn</h2>
   <p class="dek">8 October 2026. Four generations, with the sisters in it.</p>
@@ -265,6 +268,7 @@ import dDevonTooling from "../data/devon-tooling.json";
     renamed without appearing here.</p>
   <div class="prose" style="margin-top:14px">
     <ol class="cols2">
+      <li><a href="#s-family-line">The Taylors, generation by generation, and how our line meets them</a></li>
       <li><a href="#s-the-chart">The Taylor chart</a></li>
       <li><a href="#s-descent">The descent, drawn</a></li>
       <li><a href="#s-baptisms">The baptism register, Northam &mdash; and her own baptism</a></li>

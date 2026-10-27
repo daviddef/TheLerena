@@ -1,0 +1,749 @@
+{
+ "_note": "Made by tools/build-family-lines.py from people.json, story.json and direct-line.json; do not edit by hand.",
+ "families": [
+  {
+   "id": "brayley",
+   "title": "Brayley",
+   "page": "/families/brayley/",
+   "status": "documented",
+   "statusNote": "2 generations, each the child of the one before by a record this archive holds, down to where our line meets it",
+   "span": [
+    1814,
+    null
+   ],
+   "cards": [
+    {
+     "name": "John Brailey",
+     "years": "b. 1814",
+     "origin": "West Leigh by Coldridge, Devon",
+     "originGrade": "doc",
+     "spouse": "Georgina Temple",
+     "spouseOrigin": "of Haddington, East Lothian",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "john-brailey",
+     "spousePerson": "georgina-temple"
+    },
+    {
+     "name": "Mary Ann Hellen Brayley",
+     "years": "1843–1900",
+     "origin": "St Bartholomew's, City of London",
+     "originGrade": "doc",
+     "spouse": "William Taylor",
+     "spouseOrigin": "of Worlingworth, Suffolk",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "mary-ann-hellen-brayley",
+     "spousePerson": "william-taylor",
+     "title": "Child of the card before: m. Georgina Temple 9 July 1839, St Martin-in-the-Fields"
+    }
+   ],
+   "connections": [
+    {
+     "ourSlug": "mary-septima-taylor",
+     "ourGeneration": 5,
+     "theirSlug": "mary-ann-hellen-brayley",
+     "theirName": "Mary Ann Hellen Brayley",
+     "theirOrigin": "of St Bartholomew's, City of London",
+     "relation": "daughter of",
+     "grade": "doc",
+     "storyHref": "/story/#horseman",
+     "note": "Northam baptism 30 Oct 1884 names the mother; GRO index confirms every sibling via her maiden name"
+    }
+   ]
+  },
+  {
+   "id": "temple",
+   "title": "Temple",
+   "page": "/families/temple/",
+   "status": "documented",
+   "statusNote": "2 generations, each the child of the one before by a record this archive holds, down to where our line meets it",
+   "span": [
+    1814,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Georgina Temple",
+     "years": "b. 1814",
+     "origin": "Haddington, East Lothian",
+     "originGrade": "doc",
+     "spouse": "John Brailey",
+     "spouseOrigin": "of West Leigh by Coldridge, Devon",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "georgina-temple",
+     "spousePerson": "john-brailey"
+    },
+    {
+     "name": "Mary Ann Hellen Brayley",
+     "years": "1843–1900",
+     "origin": "St Bartholomew's, City of London",
+     "originGrade": "doc",
+     "spouse": "William Taylor",
+     "spouseOrigin": "of Worlingworth, Suffolk",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "mary-ann-hellen-brayley",
+     "spousePerson": "william-taylor",
+     "title": "Child of the card before: Haddington, East Lothian; alone in the Alms House at Northam in 1891"
+    }
+   ],
+   "connections": [
+    {
+     "ourSlug": "mary-septima-taylor",
+     "ourGeneration": 5,
+     "theirSlug": "mary-ann-hellen-brayley",
+     "theirName": "Mary Ann Hellen Brayley",
+     "theirOrigin": "of St Bartholomew's, City of London",
+     "relation": "daughter of",
+     "grade": "doc",
+     "storyHref": "/story/#horseman",
+     "note": "Northam baptism 30 Oct 1884 names the mother; GRO index confirms every sibling via her maiden name"
+    }
+   ]
+  },
+  {
+   "id": "fernandez",
+   "title": "Fernandez",
+   "page": "/families/fernandez/",
+   "status": "documented",
+   "statusNote": "2 generations, each the child of the one before by a record this archive holds, down to where our line meets it",
+   "span": [
+    1749,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Rodrigo Fernandez",
+     "years": "b. c.1749",
+     "origin": "Asturias, Spain",
+     "originGrade": "doc",
+     "spouse": "Rosa Fernandez",
+     "spouseOrigin": "of Asturias, Spain",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "rodrigo-fernandez",
+     "spousePerson": "rosa-fernandez"
+    },
+    {
+     "name": "Dona Maria Fernandez Tresguerras",
+     "years": "",
+     "origin": "Asturias, Spain",
+     "originGrade": "doc",
+     "spouse": "Sancho Llerena Aguilar",
+     "spouseOrigin": "of Andalusia, Spain",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "dona-maria-fernandez-tresguerras",
+     "spousePerson": "sancho-llerena-aguilar",
+     "title": "Child of the card before: 'id. mat.s RODRIGO FERNANDEZ y ROSA FERNANDEZ' - the 1811 baptism of her son Luis Escolastico, read off film 007713375 image 02410."
+    }
+   ],
+   "connections": [
+    {
+     "ourSlug": "dona-maria-fernandez-tresguerras",
+     "ourGeneration": 2,
+     "theirSlug": "rodrigo-fernandez",
+     "theirName": "Rodrigo Fernandez",
+     "theirOrigin": "of Asturias, Spain",
+     "relation": "child of",
+     "grade": "doc",
+     "storyHref": "/story/#dragoon"
+    },
+    {
+     "ourSlug": "dona-maria-fernandez-tresguerras",
+     "ourGeneration": 2,
+     "theirSlug": "rosa-fernandez",
+     "theirName": "Rosa Fernandez",
+     "theirOrigin": "of Asturias, Spain",
+     "relation": "child of",
+     "grade": "doc",
+     "storyHref": "/story/#dragoon"
+    },
+    {
+     "ourSlug": "sancho-llerena-aguilar",
+     "ourGeneration": 2,
+     "theirSlug": "dona-maria-fernandez-tresguerras",
+     "theirName": "Dona Maria Fernandez Tresguerras",
+     "theirOrigin": "of Asturias, Spain",
+     "relation": "married",
+     "grade": "doc",
+     "storyHref": "/story/#dragoon",
+     "note": "The story: Married at Canelones in 1791; in the census of Montevideo in 1812"
+    }
+   ]
+  },
+  {
+   "id": "pelaez",
+   "title": "Pelaez",
+   "page": "/families/pelaez/",
+   "status": "documented",
+   "statusNote": "the longest chain of parent and child the archive holds among the 35 people of the name, not the whole family",
+   "span": [
+    1841,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Dona Casimira Pelaez",
+     "years": "b. 1841",
+     "origin": "Trinidad, Flores, Uruguay",
+     "originGrade": "doc",
+     "spouse": "Bernabe Lerena",
+     "spouseOrigin": "of Trinidad, Flores, Uruguay",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "dona-casimira-pelaez",
+     "spousePerson": "bernabe-lerena"
+    },
+    {
+     "name": "Juan Bernardo Lerena Pelaez",
+     "years": "b. 1871",
+     "origin": "Trinidad, Flores, Uruguay",
+     "originGrade": "doc",
+     "spouse": "Eduviges Pelaez",
+     "spouseOrigin": "of Uruguay",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "juan-bernardo-lerena-pelaez",
+     "spousePerson": "eduviges-pelaez",
+     "title": "Child of the card before: Trinidad, Flores. NOT the 1911-dispensation Bernabe - that man's wife is Florinda Cardozo; these two are declared different men in data/_person-pairs.txt."
+    },
+    {
+     "name": "Carlos Rey Lerena Pelaez",
+     "years": "b. 1915",
+     "origin": "Trinidad, Flores, Uruguay",
+     "originGrade": "doc",
+     "spouse": "",
+     "spouseOrigin": "",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "carlos-rey-lerena-pelaez",
+     "title": "Child of the card before: Trinidad, Flores - civil registration and parish baptism, the sweep of 27 September 2026 entered as people 11 October 2026. INDEX ONLY; no act opened."
+    }
+   ],
+   "notConnected": {
+    "why": "No parent, child or marriage the register or the story holds joins any of the 35 people of this name to anyone on our line."
+   }
+  },
+  {
+   "id": "gonzalez",
+   "title": "Gonzalez",
+   "page": "/families/gonzalez/",
+   "status": "documented",
+   "statusNote": "the longest chain of parent and child the archive holds among the 43 people of the name, not the whole family",
+   "span": [
+    1827,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Juan Nepomuceno Gonzalez",
+     "years": "",
+     "origin": "Uruguay",
+     "originGrade": "doc",
+     "spouse": "Manuela Muniz",
+     "spouseOrigin": "of Uruguay",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "juan-nepomuceno-gonzalez",
+     "spousePerson": "manuela-muniz"
+    },
+    {
+     "name": "Servando Gonzalez",
+     "years": "b. 1827",
+     "origin": "Uruguay",
+     "originGrade": "doc",
+     "spouse": "Estefania Lerena",
+     "spouseOrigin": "of Uruguay",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "servando-gonzalez",
+     "spousePerson": "estefania-lerena",
+     "title": "Child of the card before: Civil death act no. 194 of 25 May 1892, plate read 17 Oct 2026. 'hijo legitimo de Don Juan Nepomuceno Gonzalez y de Dona Manuela Muniz'."
+    },
+    {
+     "name": "Leopoldo Gonzalez Lerena",
+     "years": "b. 1863",
+     "origin": "Uruguay",
+     "originGrade": "doc",
+     "spouse": "Maria Guillerma Giuria",
+     "spouseOrigin": "of Uruguay",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "leopoldo-gonzalez-lerena",
+     "spousePerson": "maria-guillerma-giuria",
+     "title": "Child of the card before: Index entry of the Montevideo death registration (read 17 Oct 2026): 'Parents Servando Gonzalez, Estefania Lerena'."
+    },
+    {
+     "name": "Juan Carlos Gonzalez Lerena",
+     "years": "",
+     "origin": "place not known",
+     "originGrade": "inf",
+     "spouse": "",
+     "spouseOrigin": "",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "juan-carlos-gonzalez-lerena",
+     "title": "Child of the card before: data/gonzalez-lerena.tsv: his 1922 marriage names Leopoldo Gonzalez Lerena and Maria Guillerma Giuria as his parents (plate read 21 Sept 2026)."
+    }
+   ],
+   "notConnected": {
+    "why": "Dona Justiniana Lenguas Gonzalez married Don Luis Lerena, one of Sancho Llerena's children (generation 3 of our line). The story draws that generation as one card with nobody named, because no paper says which of Sancho Llerena's children, if any, carries the line on; between it and generation 4 the line is broken."
+   }
+  },
+  {
+   "id": "lenguas",
+   "title": "Lenguas",
+   "page": "/families/lenguas/",
+   "status": "origin-unknown",
+   "statusNote": "the longest chain of parent and child the archive holds among the 14 people of the name, not the whole family",
+   "span": [
+    1807,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Don Antonio Lenguas",
+     "years": "b. 1807",
+     "origin": "place not known",
+     "originGrade": "inf",
+     "spouse": "Dona Juana Grandal",
+     "spouseOrigin": "place not known",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "don-antonio-lenguas",
+     "spousePerson": "dona-juana-grandal"
+    },
+    {
+     "name": "General Don Pedro Lenguas",
+     "years": "",
+     "origin": "Montevideo",
+     "originGrade": "doc",
+     "spouse": "Dona Carmen Gonzalez",
+     "spouseOrigin": "of Montevideo",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "general-don-pedro-lenguas",
+     "spousePerson": "dona-carmen-gonzalez",
+     "title": "Child of the card before: Named on his granddaughter Sixta's death act of 1884, with his wife Juana Grandal."
+    },
+    {
+     "name": "Dona Justiniana Lenguas Gonzalez",
+     "years": "b. c.1822",
+     "origin": "Montevideo",
+     "originGrade": "doc",
+     "spouse": "Don Luis Lerena",
+     "spouseOrigin": "of Montevideo",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "dona-justiniana-lenguas-gonzalez",
+     "spousePerson": "don-luis-lerena-probably-luis-lerena-y-fernandez",
+     "title": "Child of the card before: Stated on both parents' register rows; she married Luis Lerena."
+    },
+    {
+     "name": "Don Luis Eugenio Lerena Lenguas",
+     "years": "b. 1845",
+     "origin": "Estado Oriental del Uruguay",
+     "originGrade": "doc",
+     "spouse": "Dona Julia Juanico",
+     "spouseOrigin": "of Montevideo",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "don-luis-eugenio-lerena-lenguas",
+     "spousePerson": "dona-julia-juanico",
+     "title": "Child of the card before: Named in Montevideo marriage act 258 (1864), and a witness at the wedding."
+    }
+   ],
+   "notConnected": {
+    "why": "Dona Justiniana Lenguas Gonzalez married Don Luis Lerena, one of Sancho Llerena's children (generation 3 of our line). The story draws that generation as one card with nobody named, because no paper says which of Sancho Llerena's children, if any, carries the line on; between it and generation 4 the line is broken."
+   }
+  },
+  {
+   "id": "cardozo",
+   "title": "Cardozo",
+   "page": "/families/cardozo/",
+   "status": "documented",
+   "statusNote": "the longest chain of parent and child the archive holds among the 13 people of the name, not the whole family",
+   "span": [
+    1915,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Custodio Cardozo",
+     "years": "",
+     "origin": "Uruguay",
+     "originGrade": "doc",
+     "spouse": "spouse not named in the records",
+     "spouseOrigin": "",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "custodio-cardozo"
+    },
+    {
+     "name": "Eliseo Cardozo",
+     "years": "",
+     "origin": "Uruguay",
+     "originGrade": "doc",
+     "spouse": "Maria Lerena",
+     "spouseOrigin": "of Uruguay",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "eliseo-cardozo",
+     "spousePerson": "maria-lerena-2",
+     "title": "Child of the card before: Drawn at the apex of the kinship schema in the 1911 dispensation, film 007713362 image 02473; image read."
+    },
+    {
+     "name": "Ema Cardozo",
+     "years": "",
+     "origin": "Uruguay",
+     "originGrade": "doc",
+     "spouse": "Custodio Lerena",
+     "spouseOrigin": "of Uruguay",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "ema-cardozo",
+     "spousePerson": "custodio-lerena",
+     "title": "Child of the card before: The 1911 dispensation diagram; she is a double first cousin of her intended husband Custodio."
+    },
+    {
+     "name": "Violeta Blanca Lerena Cardozo",
+     "years": "b. 1915",
+     "origin": "Trinidad, Flores, Uruguay",
+     "originGrade": "doc",
+     "spouse": "",
+     "spouseOrigin": "",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "violeta-blanca-lerena-cardozo",
+     "title": "Child of the card before: Trinidad, Flores - civil registration and parish baptism, the sweep of 27 September 2026 entered as people 11 October 2026. INDEX ONLY; no act opened."
+    }
+   ],
+   "notConnected": {
+    "why": "No parent, child or marriage the register or the story holds joins any of the 13 people of this name to anyone on our line."
+   }
+  },
+  {
+   "id": "juanico",
+   "title": "Juanico",
+   "page": "/families/juanico/",
+   "status": "documented",
+   "statusNote": "the longest chain of parent and child the archive holds among the 13 people of the name, not the whole family",
+   "span": [
+    1812,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Dr. Don Candido Juanico",
+     "years": "b. c.1812",
+     "origin": "Uruguay",
+     "originGrade": "doc",
+     "spouse": "Dona Juliana Joaquina Gonzalez",
+     "spouseOrigin": "place not known",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "dr-don-candido-juanico",
+     "spousePerson": "dona-juliana-joaquina-gonzalez"
+    },
+    {
+     "name": "Dona Julia Juanico",
+     "years": "1842–1910",
+     "origin": "Montevideo",
+     "originGrade": "doc",
+     "spouse": "Don Luis Eugenio Lerena Lenguas",
+     "spouseOrigin": "of Estado Oriental del Uruguay",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "dona-julia-juanico",
+     "spousePerson": "don-luis-eugenio-lerena-lenguas",
+     "title": "Child of the card before: \"hija legitima del Sr. Don Candido\" - Montevideo marriage act 258 (1864). He was a witness at his daughter's wedding."
+    },
+    {
+     "name": "Maria Julia Margarita Josefa Emirena Justiniana Lerena Juanico",
+     "years": "b. 1865",
+     "origin": "Rosario, Santa Fe",
+     "originGrade": "doc",
+     "spouse": "Don Jaime Herrera",
+     "spouseOrigin": "of Montevideo",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "maria-julia-margarita-josefa-emirena-justiniana-lerena-juanico",
+     "spousePerson": "don-jaime-herrera",
+     "title": "Child of the card before: Rosario baptism act 1541 (1866) and Montevideo marriage act 1879 (1886)."
+    }
+   ],
+   "notConnected": {
+    "why": "No parent, child or marriage the register or the story holds joins any of the 13 people of this name to anyone on our line."
+   }
+  },
+  {
+   "id": "traibel",
+   "title": "Traibel",
+   "page": "/families/traibel/",
+   "status": "documented",
+   "statusNote": "the longest chain of parent and child the archive holds among the 13 people of the name, not the whole family",
+   "span": [
+    1843,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Don Juan Traibel",
+     "years": "",
+     "origin": "Montevideo",
+     "originGrade": "doc",
+     "spouse": "Dona Ysabel Centeno",
+     "spouseOrigin": "of Montevideo",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "don-juan-traibel",
+     "spousePerson": "dona-ysabel-centeno"
+    },
+    {
+     "name": "Ambrosia Traibel",
+     "years": "",
+     "origin": "Uruguay",
+     "originGrade": "doc",
+     "spouse": "Avelino Lerena Fernandez",
+     "spouseOrigin": "of Uruguay",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "ambrosia-traibel",
+     "spousePerson": "avelino-lerena-fernandez",
+     "title": "Child of the card before: Named as maternal grandfather at the two San Francisco de Asis baptisms of 12 March 1858 - IMAGE READ, film 007713686 image 02847."
+    },
+    {
+     "name": "Alejandro Lerena Traibel",
+     "years": "b. 1843",
+     "origin": "Montevideo",
+     "originGrade": "doc",
+     "spouse": "",
+     "spouseOrigin": "",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "alejandro-lerena-traibel",
+     "title": "Child of the card before: La Mauricia, Villa de la Union, baptism of 7 Jan 1846 - 'hijo legitimo de Avelino Serena y Ambrosia Traibel'."
+    }
+   ],
+   "notConnected": {
+    "why": "Ambrosia Traibel married Avelino Lerena Fernandez, one of Sancho Llerena's children (generation 3 of our line). The story draws that generation as one card with nobody named, because no paper says which of Sancho Llerena's children, if any, carries the line on; between it and generation 4 the line is broken."
+   }
+  },
+  {
+   "id": "alvarez",
+   "title": "Alvarez",
+   "page": "/families/alvarez/",
+   "status": "documented",
+   "statusNote": "the longest chain of parent and child the archive holds among the 25 people of the name, not the whole family",
+   "span": [
+    1826,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Juan Fernandez Alvarez",
+     "years": "",
+     "origin": "San Jose, Uruguay",
+     "originGrade": "doc",
+     "spouse": "Barbara Sotura",
+     "spouseOrigin": "of San Jose, Uruguay",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "juan-fernandez-alvarez",
+     "spousePerson": "barbara-sotura"
+    },
+    {
+     "name": "Josefa Fernandez Alvarez",
+     "years": "",
+     "origin": "San Jose de Mayo, Uruguay",
+     "originGrade": "doc",
+     "spouse": "Juan Alvarez",
+     "spouseOrigin": "of San Jose de Mayo, Uruguay",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "josefa-fernandez-alvarez",
+     "spousePerson": "juan-alvarez",
+     "title": "Child of the card before: San Jose baptisms of 1828-1835 (machine transcripts, 19 Oct 2026)."
+    },
+    {
+     "name": "Auristela Josefa Cipriana Alvarez Fernandez",
+     "years": "b. 1826",
+     "origin": "San Jose de Mayo, Uruguay",
+     "originGrade": "doc",
+     "spouse": "",
+     "spouseOrigin": "",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "auristela-josefa-cipriana-alvarez-fernandez",
+     "title": "Child of the card before: San Jose baptisms of 1825-1827 (machine transcripts, 26 Oct 2026)."
+    }
+   ],
+   "notConnected": {
+    "why": "No parent, child or marriage the register or the story holds joins any of the 25 people of this name to anyone on our line."
+   }
+  },
+  {
+   "id": "larriera",
+   "title": "Larriera",
+   "page": "/families/larriera/",
+   "status": "origin-unknown",
+   "statusNote": "the longest chain of parent and child the archive holds among the 13 people of the name, not the whole family",
+   "span": [
+    1879,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Miguel Larriera",
+     "years": "",
+     "origin": "place not known",
+     "originGrade": "inf",
+     "spouse": "Carolina Chavarria",
+     "spouseOrigin": "place not known",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "miguel-larriera",
+     "spousePerson": "carolina-chavarria"
+    },
+    {
+     "name": "Maria Ines Larriera",
+     "years": "",
+     "origin": "Uruguay",
+     "originGrade": "doc",
+     "spouse": "Pedro Alberto Ysabelino Lerena Traibel",
+     "spouseOrigin": "of Montevideo",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "maria-ines-larriera",
+     "spousePerson": "pedro-alberto-ysabelino-lerena-traibel",
+     "title": "Child of the card before: Named as a maternal grandparent on her daughter Maria Adelina's christening, Montevideo cathedral, 13 October 1879."
+    },
+    {
+     "name": "Maria Adelina Lerena Larriera",
+     "years": "b. 1879",
+     "origin": "Departamento San Jose, Uruguay",
+     "originGrade": "doc",
+     "spouse": "",
+     "spouseOrigin": "",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "maria-adelina-lerena-larriera",
+     "title": "Child of the card before: Named as their parents on the Uruguayan civil registration of this child's birth in the Departamento de San Jose; index-level."
+    }
+   ],
+   "notConnected": {
+    "why": "No parent, child or marriage the register or the story holds joins any of the 13 people of this name to anyone on our line."
+   }
+  },
+  {
+   "id": "taylor",
+   "title": "Taylor",
+   "page": "/taylor/",
+   "status": "documented",
+   "statusNote": "2 generations, each the child of the one before by a record this archive holds, down to where our line meets it",
+   "span": [
+    1826,
+    null
+   ],
+   "cards": [
+    {
+     "name": "William Taylor",
+     "years": "b. 1826",
+     "origin": "Worlingworth, Suffolk",
+     "originGrade": "doc",
+     "spouse": "Mary Ann Hellen Brayley",
+     "spouseOrigin": "of St Bartholomew's, City of London",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "william-taylor",
+     "spousePerson": "mary-ann-hellen-brayley"
+    },
+    {
+     "name": "Mary Septima Taylor",
+     "years": "1884–1935",
+     "origin": "Bideford, Devon",
+     "originGrade": "doc",
+     "spouse": "Pablo Armando Lerena",
+     "spouseOrigin": "of Rosario, Argentina",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "mary-septima-taylor",
+     "spousePerson": "pablo-armando-lerena",
+     "title": "Child of the card before: 1891 census, Northam: Head, 65, cab driver and retired army sergeant, b. Worlingworth, Suffolk"
+    }
+   ],
+   "connections": [
+    {
+     "ourSlug": "mary-septima-taylor",
+     "ourGeneration": 5,
+     "theirSlug": "william-taylor",
+     "theirName": "William Taylor",
+     "theirOrigin": "of Worlingworth, Suffolk",
+     "relation": "daughter of",
+     "grade": "doc",
+     "storyHref": "/story/#horseman"
+    },
+    {
+     "ourSlug": "pablo-armando-lerena",
+     "ourGeneration": 5,
+     "theirSlug": "mary-septima-taylor",
+     "theirName": "Mary Septima Taylor",
+     "theirOrigin": "of Bideford, Devon",
+     "relation": "married",
+     "grade": "doc",
+     "storyHref": "/story/#horseman",
+     "note": "m. 3 Sep 1911, St Dominic's, Wynberg"
+    },
+    {
+     "ourSlug": "nuno-fernando-lerena",
+     "ourGeneration": 6,
+     "theirSlug": "mary-septima-taylor",
+     "theirName": "Mary Septima Taylor",
+     "theirOrigin": "of Bideford, Devon",
+     "relation": "son of",
+     "grade": "doc",
+     "storyHref": "/story/#rand",
+     "note": "The family chart and the 1950 estate together"
+    }
+   ]
+  }
+ ]
+}
