@@ -6676,5 +6676,12 @@
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Fausto G. GUTIERREZ (m. Eduviges Fernanda Lerena 1900)",
+  "born_est": "1875c",
+  "last_attested_alive": "1900-Apr-07",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
  }
 ]

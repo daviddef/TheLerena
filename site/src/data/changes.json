@@ -5,6 +5,31 @@
    "date": "2026-10-27",
    "commits": [
     {
+     "sha": "271461b",
+     "subject": "Merge origin/main into ribbon1 (the Blas Gil Lerena commit); the family ribbons are unchanged by it",
+     "body": ""
+    },
+    {
+     "sha": "6723135",
+     "subject": "Family ribbons and how our line connects, on all twelve family pages: family-lines.json made by tools/build-family-lines.py from the register and the story; check:directline and check:familyribbon in the build",
+     "body": "Each page opens with the family's own generations (a documented chain of parent and child) and the blocks\nwhere our line touches it: Taylor (3), Brayley (1), Temple (1, through Mary Ann Hellen Brayley), Fernandez (3).\nThe eight Uruguayan families are not connected, each saying why from the data; three married into the\nstory's unnamed generation 3, and their block says the line is broken there. A note that cites a record the\nblock cannot link is left off (the linking standard), so the /taylor/ counts do not rise."
+    },
+    {
+     "sha": "fe6afd6",
+     "subject": "The direct line, tinted: direct-line.json made from the story by the kit's directline.py, and the indigo tint wherever one of its people is drawn",
+     "body": "The five mothers the story's own trees draw as the parent of the next card (Rosalía Aguilar, María Fernández,\nMaría Lerena, Mary Septima Taylor, Catherine Booyzen) are marked spouseDirect on their ribbon cards; the\nlast card's spouse is not (no later card). Generation 3, Sancho's children, has no person and stays unlinked:\nthe break is not bridged. The tint: the story ribbon and trees, the /name/ lane whose every person is on the\nline (derived in build-lines.py: the direct lane; Sancho's lane runs on past the break, so only his node), the\nSpines (a row's person from its own link or its register name, never a displayed name), person-page charts,\nand the band on the pages of the eleven people in the file."
+    },
+    {
+     "sha": "40acde6",
+     "subject": "Blas Gil Lerena, born 3 February 1884, is a son of Fermin Tomas Lerena and Paulina Barragan; the marriages of Maria Regina (1915), Isabel (1902) and Eliseo Lerena (1911) with their birth dates",
+     "body": ""
+    },
+    {
+     "sha": "6447cdc",
+     "subject": "Pin the kit to d88b11e: the family ribbon (FamilyRibbon, OursBand), the direct-line tint, direct-line.json made from the story, and the checkfamilyribbon gate",
+     "body": ""
+    },
+    {
      "sha": "781f358",
      "subject": "Lauriana Beloqui was dead by 20 June 1898 and Cipriano Lerena a widower at the Sarandi: the marriage of their daughter Maria Leonor to Juan Colman at Pintos",
      "body": ""
