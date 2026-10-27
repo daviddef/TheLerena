@@ -5,6 +5,11 @@
    "date": "2026-10-27",
    "commits": [
     {
+     "sha": "61270d1",
+     "subject": "Retract the 'both alive' readings of the 1899 and 1900 Trinidad marriage acts: a parent named without a death marker is not shown living, and one witness's relationship was never stated",
+     "body": ""
+    },
+    {
      "sha": "1239a71",
      "subject": "Trinidad parish marriages 1911-1923: seventeen marriages of the Lerena kindred read in the machine's text; Bernabe and Casimira Pelaez 'fallecidos' by 9 Feb 1914; a parent named without a death marker is not shown living (acts of 1918 and 1920); sixteen new rows; machine transcript",
      "body": ""

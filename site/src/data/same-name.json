@@ -414,7 +414,7 @@
      "name": "Maria Leonor LERENA Beloqui",
      "exact": false,
      "status": "unplaced",
-     "born": "about 1877",
+     "born": "1877",
      "died": "",
      "where": "Trinidad, Flores · Uruguayan",
      "source": "Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 2026 …",
@@ -1888,6 +1888,11 @@
        "tree": false
       },
       {
+       "slug": "isidro-bonifacio-fernandez-lerena",
+       "name": "Isidro Bonifacio FERNANDEZ Lerena (b. 1879, Trinidad)",
+       "tree": false
+      },
+      {
        "slug": "maria-socorro-fernandez-lerena",
        "name": "Maria Socorro FERNANDEZ Lerena (chr.1865)",
        "tree": false
@@ -1939,6 +1944,11 @@
       {
        "slug": "alejandro-pablo-pelaez-lerena",
        "name": "Alejandro Pablo PELAEZ Lerena (b. 1856, Trinidad)",
+       "tree": false
+      },
+      {
+       "slug": "juan-pelaez-2",
+       "name": "Juan PELAEZ (son of Juan Pelaez and Antonina Lerena, m. Eduviges Florencio)",
        "tree": false
       },
       {
