@@ -4657,9 +4657,9 @@
  {
   "name": "Luisa LERENA Beloqui (b. c.1884, m. Buenaventura Olivera 1906)",
   "born_est": "1884c",
-  "last_attested_alive": "1906-Mar-01",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1884c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Valentina SENA (m. Doroteo Donato Lerena)",
@@ -7485,9 +7485,9 @@
  {
   "name": "Isabelino BRAVO (m. Carmen Donata Lerena Beloqui 1939)",
   "born_est": "-",
-  "last_attested_alive": "1895-Sep-21",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Celestino CADENAS (m. Elida Pilar Lerena Recuero 1940)",
@@ -7789,5 +7789,166 @@
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "G. Eusebio LERENA Harrison (b. 1905, Trinidad)",
+  "born_est": "1905-08-14",
+  "last_attested_alive": "1905-08-14",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Ramon Doroteo Pedro GUTIERREZ (b. 1905, son of Fausto and Eduviges Lerena)",
+  "born_est": "1905-09-09",
+  "last_attested_alive": "1905-09-09",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maria Isabel FERNANDEZ (b. 1905, dau. of Segundo and Matilde Cespedes)",
+  "born_est": "1905-11-05",
+  "last_attested_alive": "1905-11-05",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "J. Maria del Carmen BIDONDO (b. 1906, Trinidad)",
+  "born_est": "1906-05-01",
+  "last_attested_alive": "1906-05-01",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Ema Venceslada PABEN (b. 1906, dau. of Ramon Paben and Sofia Fernandez)",
+  "born_est": "1906-09-28",
+  "last_attested_alive": "1906-09-28",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Juan RODRIGUEZ (b. 1906, son of Juan Rodriguez Cames and Isabel L. Barragan)",
+  "born_est": "1906-04-16",
+  "last_attested_alive": "1906-04-16",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "L. Martina LERENA Casavalle (b. 1906, Trinidad)",
+  "born_est": "1906",
+  "last_attested_alive": "1906-Dec-24",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Raul Salvador LERENA Fernandez (b. 1907, Trinidad)",
+  "born_est": "1907-02-16",
+  "last_attested_alive": "1907-02-16",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "M. Dolores DELGADO (m. Raul Salvador Lerena Fernandez 1941)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maria Sara CARDOZO (b. 1906, dau. of Juan Basilio and Casimira Lerena)",
+  "born_est": "1906-12-14",
+  "last_attested_alive": "1906-12-14",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Alcides LERENA Pelaez (b. 1907, Trinidad; baptised Maria Alcides)",
+  "born_est": "1907-06-18",
+  "last_attested_alive": "1907-06-18",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Alberto LERENA Pelaez (b. 1908, Trinidad)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Eladia LERENA Sena (b. 1907, Trinidad)",
+  "born_est": "1907-08-11",
+  "last_attested_alive": "1907-08-11",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Faustino LERENA Arrascaeta (b. 1907, Trinidad)",
+  "born_est": "1907-06-02",
+  "last_attested_alive": "1907-06-02",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Ernesto Benigno LERENA Cardozo (b. 1908, Trinidad)",
+  "born_est": "1908-04-03",
+  "last_attested_alive": "1908-04-03",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Rene Felix LERENA Fernandez (b. 1908, Trinidad)",
+  "born_est": "1908-03-14",
+  "last_attested_alive": "1908-03-14",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Segundo Maria FERNANDEZ (b. 1908, son of Segundo and Matilde Cespedes)",
+  "born_est": "1908-09-25",
+  "last_attested_alive": "1908-Sep-25",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "A. Leoncia LERENA Harrison (b. 1909, Trinidad)",
+  "born_est": "1909-02-12",
+  "last_attested_alive": "1909-02-12",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Dora LERENA Harrison (b. 1907, Trinidad; baptised Margarita Dora)",
+  "born_est": "1907-06-11",
+  "last_attested_alive": "1907-06-11",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Emilio MARTINI (m. Margarita Dora Lerena Harrison 1928)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Sara Benita OLIVERA (b. 1907, dau. of Buenaventura Olivera and Luisa Lerena Beloqui)",
+  "born_est": "1907-03-21",
+  "last_attested_alive": "1907-Mar-21",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Maximo Mage PELAEZ (b. 1907, son of Maximo and Maria Lerena)",
+  "born_est": "1907-06-03",
+  "last_attested_alive": "1907-06-03",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Sibila LLERENA (godmother, Trinidad 1905-09)",
+  "born_est": "-",
+  "last_attested_alive": "1905-Aug-03",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
  }
 ]

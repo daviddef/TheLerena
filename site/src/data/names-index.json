@@ -113,11 +113,21 @@
    "url": "/people/alberto-julian-lerena-larriera/"
   },
   {
+   "name": "Alberto Lerena Pelaez",
+   "aliases": [],
+   "url": "/people/alberto-lerena-pelaez/"
+  },
+  {
    "name": "Alberto Octavio Lerena Lenguas",
    "aliases": [
     "Alberto Octavio Lerena"
    ],
    "url": "/people/alberto-octavio-lerena-lenguas/"
+  },
+  {
+   "name": "Alcides Lerena Pelaez",
+   "aliases": [],
+   "url": "/people/alcides-lerena-pelaez/"
   },
   {
    "name": "Alcides Maria Fernandez",
@@ -657,7 +667,9 @@
   {
    "name": "Basilia Maxima Sena Lerena",
    "aliases": [
-    "Basilia Maxima Sena"
+    "Basilia Maxima Sena",
+    "Basilia Maxima Seña",
+    "Basilia Maxima Seña Lerena"
    ],
    "url": "/people/basilia-maxima-sena-lerena/"
   },
@@ -1672,6 +1684,11 @@
    "url": "/people/donato-larranaga-lerena/"
   },
   {
+   "name": "Dora Lerena Harrison",
+   "aliases": [],
+   "url": "/people/dora-lerena-harrison/"
+  },
+  {
    "name": "Doreen May Chappell",
    "aliases": [],
    "url": "/people/doreen-may-chappell/"
@@ -1769,6 +1786,13 @@
     "Eduviges Fernanda Lerena"
    ],
    "url": "/people/eduvijes-lerena-pelaez/"
+  },
+  {
+   "name": "Eladia Lerena Sena",
+   "aliases": [
+    "Eladia Lerena Seña"
+   ],
+   "url": "/people/eladia-lerena-sena/"
   },
   {
    "name": "Elbia Elmira Lerena Recuero",
@@ -1887,6 +1911,11 @@
    "url": "/people/ema-sixta-lerena-juanico/"
   },
   {
+   "name": "Ema Venceslada Paben",
+   "aliases": [],
+   "url": "/people/ema-venceslada-paben/"
+  },
+  {
    "name": "Emilia Alberta Lerena Bassani",
    "aliases": [
     "Emilia Alberta Lerena"
@@ -1918,6 +1947,11 @@
     "Emilio Lavina"
    ],
    "url": "/people/emilio-lavina-y-goyeneche/"
+  },
+  {
+   "name": "Emilio Martini",
+   "aliases": [],
+   "url": "/people/emilio-martini/"
   },
   {
    "name": "Emma Lerena Recuero",
@@ -1971,6 +2005,13 @@
    "name": "Ercilia Antonina Pelaez",
    "aliases": [],
    "url": "/people/ercilia-antonina-pelaez/"
+  },
+  {
+   "name": "Ernesto Benigno Lerena Cardozo",
+   "aliases": [
+    "Ernesto Benigno Lerena"
+   ],
+   "url": "/people/ernesto-benigno-lerena-cardozo/"
   },
   {
    "name": "Esperanza Gonzalez",
@@ -2101,6 +2142,11 @@
    "name": "Ezequiela Paven",
    "aliases": [],
    "url": "/people/ezequiela-paven/"
+  },
+  {
+   "name": "Faustino Lerena Arrascaeta",
+   "aliases": [],
+   "url": "/people/faustino-lerena-arrascaeta/"
   },
   {
    "name": "Faustino Lerena Barragan",
@@ -2388,7 +2434,9 @@
   },
   {
    "name": "Gervasio Sena",
-   "aliases": [],
+   "aliases": [
+    "Gervasio Seña"
+   ],
    "url": "/people/gervasio-sena/"
   },
   {
@@ -3283,11 +3331,6 @@
    "url": "/people/juan-ramon-lerena-fernandez/"
   },
   {
-   "name": "Juan Rodriguez",
-   "aliases": [],
-   "url": "/people/juan-rodriguez/"
-  },
-  {
    "name": "Juan Zalduondo",
    "aliases": [],
    "url": "/people/juan-zalduondo/"
@@ -3647,7 +3690,9 @@
   },
   {
    "name": "Luis Lorenzo Sena",
-   "aliases": [],
+   "aliases": [
+    "Luis Lorenzo Seña"
+   ],
    "url": "/people/luis-lorenzo-sena/"
   },
   {
@@ -3664,7 +3709,9 @@
   },
   {
    "name": "Luis Sena",
-   "aliases": [],
+   "aliases": [
+    "Luis Seña"
+   ],
    "url": "/people/luis-sena/"
   },
   {
@@ -4197,6 +4244,15 @@
    "url": "/people/maria-ines-lerena-larriera/"
   },
   {
+   "name": "Maria Isabel Fernandez",
+   "aliases": [
+    "Maria Isabel Fernández",
+    "María Isabel Fernandez",
+    "María Isabel Fernández"
+   ],
+   "url": "/people/maria-isabel-fernandez/"
+  },
+  {
    "name": "Maria Joaquina",
    "aliases": [
     "María Joaquina"
@@ -4423,9 +4479,17 @@
    "url": "/people/maria-rosalia-gonzalez-fernandez/"
   },
   {
+   "name": "Maria Sara Cardozo",
+   "aliases": [
+    "María Sara Cardozo"
+   ],
+   "url": "/people/maria-sara-cardozo/"
+  },
+  {
    "name": "Maria Serna",
    "aliases": [
     "Apolinaria Sena",
+    "Apolinaria Seña",
     "María Serna"
    ],
    "url": "/people/maria-serna/"
@@ -4447,8 +4511,10 @@
    "name": "Maria Teresa Lerena Sena",
    "aliases": [
     "Maria Teresa Lerena",
+    "Maria Teresa Lerena Seña",
     "María Teresa Lerena",
-    "María Teresa Lerena Sena"
+    "María Teresa Lerena Sena",
+    "María Teresa Lerena Seña"
    ],
    "url": "/people/maria-teresa-lerena-sena/"
   },
@@ -4516,6 +4582,13 @@
     "Mauricio Isidro Lerena"
    ],
    "url": "/people/mauricio-isidro-lerena-cespedes/"
+  },
+  {
+   "name": "Maximo Mage Pelaez",
+   "aliases": [
+    "Máximo Mage Pelaez"
+   ],
+   "url": "/people/maximo-mage-pelaez/"
   },
   {
    "name": "Maximo Pelaez Lerena",
@@ -4721,7 +4794,9 @@
   },
   {
    "name": "Patricio Sena",
-   "aliases": [],
+   "aliases": [
+    "Patricio Seña"
+   ],
    "url": "/people/patricio-sena/"
   },
   {
@@ -4974,6 +5049,13 @@
    "url": "/people/rafaela-daraz/"
   },
   {
+   "name": "Ramon Doroteo Pedro Gutierrez",
+   "aliases": [
+    "Ramón Doroteo Pedro Gutierrez"
+   ],
+   "url": "/people/ramon-doroteo-pedro-gutierrez/"
+  },
+  {
    "name": "Ramon de la Asuncion Fernandez",
    "aliases": [
     "Ramon de la Asuncion Fernández",
@@ -5052,6 +5134,25 @@
    "name": "Ramona Benita Pelaez",
    "aliases": [],
    "url": "/people/ramona-benita-pelaez/"
+  },
+  {
+   "name": "Raul Salvador Lerena Fernandez",
+   "aliases": [
+    "Raul Salvador Lerena",
+    "Raul Salvador Lerena Fernández"
+   ],
+   "url": "/people/raul-salvador-lerena-fernandez/"
+  },
+  {
+   "name": "Rene Felix Lerena Fernandez",
+   "aliases": [
+    "Rene Felix Lerena",
+    "Rene Felix Lerena Fernández",
+    "Rene Félix Lerena",
+    "Rene Félix Lerena Fernandez",
+    "Rene Félix Lerena Fernández"
+   ],
+   "url": "/people/rene-felix-lerena-fernandez/"
   },
   {
    "name": "Rhena May Lerena",
@@ -5166,7 +5267,9 @@
   },
   {
    "name": "Rosa Luisa Sena",
-   "aliases": [],
+   "aliases": [
+    "Rosa Luisa Seña"
+   ],
    "url": "/people/rosa-luisa-sena/"
   },
   {
@@ -5227,6 +5330,11 @@
    "url": "/people/sancho-llerena-aguilar/"
   },
   {
+   "name": "Sara Benita Olivera",
+   "aliases": [],
+   "url": "/people/sara-benita-olivera/"
+  },
+  {
    "name": "Sara Esmeralda Lerena Fernandez",
    "aliases": [
     "Sara Esmeralda Lerena",
@@ -5256,6 +5364,15 @@
     "Segundo Avelino Fernández Lerena"
    ],
    "url": "/people/segundo-avelino-fernandez-lerena/"
+  },
+  {
+   "name": "Segundo Maria Fernandez",
+   "aliases": [
+    "Segundo Maria Fernández",
+    "Segundo María Fernandez",
+    "Segundo María Fernández"
+   ],
+   "url": "/people/segundo-maria-fernandez/"
   },
   {
    "name": "Servando Cecilio Gonzalez Lerena",
@@ -5438,7 +5555,9 @@
   },
   {
    "name": "Valentina Sena",
-   "aliases": [],
+   "aliases": [
+    "Valentina Seña"
+   ],
    "url": "/people/valentina-sena/"
   },
   {
@@ -6603,6 +6722,14 @@
    ]
   },
   {
+   "name": "Juan Rodriguez",
+   "url": "/people/?q=Juan%20Rodriguez",
+   "bearers": [
+    "/people/juan-rodriguez-2/",
+    "/people/juan-rodriguez/"
+   ]
+  },
+  {
    "name": "Juana Lerena",
    "url": "/people/?q=Juana%20Lerena",
    "bearers": [
@@ -7450,6 +7577,13 @@
    "url": "/people/?q=Severa%20Lerena",
    "bearers": [
     "/people/severa-lerena/"
+   ]
+  },
+  {
+   "name": "Sibila Llerena",
+   "url": "/people/?q=Sibila%20Llerena",
+   "bearers": [
+    "/people/sibila-llerena/"
    ]
   },
   {

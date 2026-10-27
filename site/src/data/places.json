@@ -414,9 +414,30 @@
    "leopolda-fernandez",
    "esperanza-lucia-lerena-casavalle",
    "maria-dolores-rodriguez",
-   "juan-francisco-colman"
+   "juan-francisco-colman",
+   "g-eusebio-lerena-harrison",
+   "ramon-doroteo-pedro-gutierrez",
+   "maria-isabel-fernandez",
+   "j-maria-del-carmen-bidondo",
+   "ema-venceslada-paben",
+   "juan-rodriguez-2",
+   "l-martina-lerena-casavalle",
+   "raul-salvador-lerena-fernandez",
+   "maria-sara-cardozo",
+   "alcides-lerena-pelaez",
+   "alberto-lerena-pelaez",
+   "eladia-lerena-sena",
+   "faustino-lerena-arrascaeta",
+   "ernesto-benigno-lerena-cardozo",
+   "rene-felix-lerena-fernandez",
+   "segundo-maria-fernandez",
+   "a-leoncia-lerena-harrison",
+   "dora-lerena-harrison",
+   "sara-benita-olivera",
+   "maximo-mage-pelaez",
+   "sibila-llerena"
   ],
-  "count": 412
+  "count": 433
  },
  {
   "slug": "montevideo",
@@ -1683,6 +1704,22 @@
   "name": "Villa Colon, Montevideo",
   "people": [
    "juan-g-olivera"
+  ],
+  "count": 1
+ },
+ {
+  "slug": "maria-auxiliadora",
+  "name": "Maria Auxiliadora",
+  "people": [
+   "m-dolores-delgado"
+  ],
+  "count": 1
+ },
+ {
+  "slug": "santa-cruz-montevideo",
+  "name": "Santa Cruz, Montevideo",
+  "people": [
+   "emilio-martini"
   ],
   "count": 1
  }
