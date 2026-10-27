@@ -2026,6 +2026,11 @@
    "url": "/people/herminia-vaquero-lerena/"
   },
   {
+   "name": "Higinia Osorez",
+   "aliases": [],
+   "url": "/people/higinia-osorez/"
+  },
+  {
    "name": "Hilario Barros Llerena",
    "aliases": [
     "Hilario Barros"
@@ -2530,6 +2535,11 @@
    "url": "/people/juan-cipriano-lerena-beloqui/"
   },
   {
+   "name": "Juan Colman",
+   "aliases": [],
+   "url": "/people/juan-colman/"
+  },
+  {
    "name": "Juan Crisostomo Fernandez Gonzalez",
    "aliases": [
     "Juan Crisostomo",
@@ -2591,6 +2601,11 @@
    "name": "Juan Francisco Cardoso",
    "aliases": [],
    "url": "/people/juan-francisco-cardoso/"
+  },
+  {
+   "name": "Juan Gregorio Colman",
+   "aliases": [],
+   "url": "/people/juan-gregorio-colman/"
   },
   {
    "name": "Juan Ildebel Alvarez y Lerena",
@@ -3534,7 +3549,9 @@
   {
    "name": "Maria Leonor Lerena Beloqui",
    "aliases": [
+    "Maria Leonor",
     "Maria Leonor Lerena",
+    "María Leonor",
     "María Leonor Lerena",
     "María Leonor Lerena Beloqui"
    ],
@@ -5854,6 +5871,10 @@
      "url": "/people/maria-leonor-lerena-beloqui/"
     },
     {
+     "near": "/people/juan-colman/",
+     "url": "/people/maria-leonor-lerena-beloqui/"
+    },
+    {
      "near": "/people/eliseo-cardozo/",
      "url": "/people/maria-lerena-2/"
     },
@@ -5990,6 +6011,10 @@
     },
     {
      "near": "/people/juan-calman/",
+     "url": "/people/maria-leonor-lerena-beloqui/"
+    },
+    {
+     "near": "/people/juan-colman/",
      "url": "/people/maria-leonor-lerena-beloqui/"
     },
     {

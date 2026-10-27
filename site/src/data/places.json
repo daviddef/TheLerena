@@ -846,6 +846,24 @@
   "count": 11
  },
  {
+  "slug": "pintos-flores",
+  "name": "Pintos, Flores",
+  "people": [
+   "ciriaca-gonzalez",
+   "juan-castilla",
+   "romulo-hugo-castilla-lerena",
+   "gregorio-santa-cruz",
+   "maria-gonzalez",
+   "sofia-fernandez-lerena",
+   "ramon-a-paben",
+   "sofia-paben-fernandez",
+   "juan-colman",
+   "higinia-osorez",
+   "juan-gregorio-colman"
+  ],
+  "count": 11
+ },
+ {
   "slug": "uruguay",
   "name": "Uruguay",
   "people": [
@@ -890,21 +908,6 @@
    "lucrecia-llerena",
    "rosario-moyano",
    "vicente-campellone"
-  ],
-  "count": 8
- },
- {
-  "slug": "pintos-flores",
-  "name": "Pintos, Flores",
-  "people": [
-   "ciriaca-gonzalez",
-   "juan-castilla",
-   "romulo-hugo-castilla-lerena",
-   "gregorio-santa-cruz",
-   "maria-gonzalez",
-   "sofia-fernandez-lerena",
-   "ramon-a-paben",
-   "sofia-paben-fernandez"
   ],
   "count": 8
  },

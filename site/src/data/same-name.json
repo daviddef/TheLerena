@@ -411,17 +411,26 @@
      "born": "about 1877",
      "died": "",
      "where": "Trinidad, Flores · Uruguayan",
-     "source": "Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 2026",
+     "source": "Uruguay Baptisms 1750-1900 / Catholic Church Records 1726-2000 / Civil Registration, read 13 Sep 2026 …",
      "father": {
       "slug": "cipriano-lerena",
       "name": "Cipriano LERENA (of Trinidad)",
       "tree": false
      },
-     "mother": null,
+     "mother": {
+      "slug": "dona-lauriana-beloqui",
+      "name": "Dona Lauriana BELOQUI (wife of Cipriano LERENA)",
+      "tree": false
+     },
      "spouses": [
       {
        "slug": "juan-calman",
        "name": "Juan CALMAN (m. Maria Leonor LERENA)",
+       "tree": false
+      },
+      {
+       "slug": "juan-colman",
+       "name": "Juan COLMAN (m. Maria Leonor Lerena 1898)",
        "tree": false
       }
      ],
