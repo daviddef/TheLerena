@@ -1302,5 +1302,13 @@
   "what_is_true": "*** That is her first husband Frederick Christian Chappell's death. *** The register note read 'Widow of Frederick Christian Chappell (d.1933)' and the parser took it as hers. She d. 2 July 1950 (SA death register), which her note now says. It made her two daughters by Roque, born 1936 and 1943, look born after their mother died.",
   "how_it_was_caught": "The same audit list, 16 October 2026.",
   "retired": ""
+ },
+ {
+  "date": "2026-10-29",
+  "severity": "minor",
+  "what_was_said": "That PEDRO LERENA ARRASCAETA was an infant born and dead in 1911 (the register row 'Pedro LERENA Arrascaeta (b. and d. 1911)' and its pages).",
+  "what_is_true": "*** HE WAS A BOY OF FOUR, BORN 16 FEBRUARY 1907 BY THE PLATE, BAPTISED ON 22 FEBRUARY 1911 AND DEAD THE NEXT DAY. *** The index entry gave the death year as the birth year; the baptism (page 164, entry no. 672, Trinidad, read at the plate) gives the age. His birth date is left blank because it is three and a half months before his brother Faustino's 2 June 1907. The row keeps its name because its address is published.",
+  "how_it_was_caught": "The Trinidad baptism book September 1909 - March 1911 was read at the plate (image 86).",
+  "retired": ""
  }
 ]

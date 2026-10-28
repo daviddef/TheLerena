@@ -1997,9 +1997,9 @@
  {
   "name": "Custodio CARDOZO (the elder, of the 1911 diagram)",
   "born_est": "-",
-  "last_attested_alive": "1893-Apr-08",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Celidonia B. de LERENA",
@@ -3649,9 +3649,9 @@
  {
   "name": "Juan Francisco ALVAREZ (father of Rosaura Alvarez)",
   "born_est": "-",
-  "last_attested_alive": "1885-Jun-25",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Clara PELAEZ (wife of Juan Francisco Alvarez)",
@@ -4538,9 +4538,9 @@
  {
   "name": "Maria Elena LERENA Pelaez (b.1910)",
   "born_est": "1910-07-22",
-  "last_attested_alive": "1910-Jul-22",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1910-07-22",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Enrique Concepcion LERENA (b.1902, child of Bernabe)",
@@ -4789,8 +4789,8 @@
  },
  {
   "name": "Pedro LERENA Arrascaeta (b. and d. 1911)",
-  "born_est": "1911",
-  "last_attested_alive": "1911",
+  "born_est": "-",
+  "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -6848,9 +6848,9 @@
  {
   "name": "Gregoria Marcelina LERENA Echeverry (b. 1879, Trinidad)",
   "born_est": "1879-05-09",
-  "last_attested_alive": "1879-May-15",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1879-05-09",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Laureana MACIEL (named 1855, 1865 and 1880)",
@@ -7023,9 +7023,9 @@
  {
   "name": "Juan Pedro Dionisio PELAEZ (b. 1884, Trinidad)",
   "born_est": "1884-04-08",
-  "last_attested_alive": "1884-Apr-17",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1884-04-08",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Carmen FERNANDEZ (m. Cayetano Gonzalez)",
@@ -7135,9 +7135,9 @@
  {
   "name": "Elisa Librada BERATARBIDE (b. 1888, Trinidad)",
   "born_est": "1888-07-20",
-  "last_attested_alive": "1888-07-20",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "last_attested_alive": "1910-Jul-11",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
  },
  {
   "name": "Amelia LEJEREN (b. 1886, Trinidad)",
@@ -7971,5 +7971,68 @@
   "last_attested_alive": "1895-Feb-22",
   "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
   "tier": "ALIVE AT"
+ },
+ {
+  "name": "Francisca Zulema PEDREIRA (m. Juan Pedro Olivera 1940)",
+  "born_est": "-",
+  "last_attested_alive": "1909-Nov-20",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Fermin LERENA Arrascaeta (b. 1909, Trinidad)",
+  "born_est": "1909-10-02",
+  "last_attested_alive": "1909-10-02",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Alfredo ISLA Lerena (b. 1909, Trinidad)",
+  "born_est": "1909-05-10",
+  "last_attested_alive": "1909-May-10",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Gil ISLA (m. Marcelina Lerena)",
+  "born_est": "-",
+  "last_attested_alive": "1909-Dec-15",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Elisa FERNANDEZ Cespedes (b. 1910, Trinidad)",
+  "born_est": "1910-03-15",
+  "last_attested_alive": "1910-03-15",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Luis Juan PELAEZ Beratarbide (b. 1910, Trinidad)",
+  "born_est": "1910-07-11",
+  "last_attested_alive": "1910-Jul-11",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Albina CHAVEZ Cardozo (b. 1910, Trinidad)",
+  "born_est": "1910-06-08",
+  "last_attested_alive": "1910-06-08",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Elvira CARDOZO (m. Albin Chavez)",
+  "born_est": "-",
+  "last_attested_alive": "1910-Dec-24",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Albin CHAVEZ (m. Elvira Cardozo)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]

@@ -125,6 +125,18 @@
    "url": "/people/alberto-octavio-lerena-lenguas/"
   },
   {
+   "name": "Albin Chavez",
+   "aliases": [],
+   "url": "/people/albin-chavez/"
+  },
+  {
+   "name": "Albina Chavez Cardozo",
+   "aliases": [
+    "Albina Chavez"
+   ],
+   "url": "/people/albina-chavez-cardozo/"
+  },
+  {
    "name": "Alcides Lerena Pelaez",
    "aliases": [],
    "url": "/people/alcides-lerena-pelaez/"
@@ -236,6 +248,13 @@
     "Alfredo German Lerena"
    ],
    "url": "/people/alfredo-german-lerena-alvarez/"
+  },
+  {
+   "name": "Alfredo Isla Lerena",
+   "aliases": [
+    "Alfredo Isla"
+   ],
+   "url": "/people/alfredo-isla-lerena/"
   },
   {
    "name": "Alfredo Justiniano Lerena Traibel",
@@ -1838,6 +1857,15 @@
    "url": "/people/elisa-cayetana-lerena-cardozo/"
   },
   {
+   "name": "Elisa Fernandez Cespedes",
+   "aliases": [
+    "Elisa Fernandez",
+    "Elisa Fernández",
+    "Elisa Fernández Cespedes"
+   ],
+   "url": "/people/elisa-fernandez-cespedes/"
+  },
+  {
    "name": "Elisa Librada Beratarbide",
    "aliases": [],
    "url": "/people/elisa-librada-beratarbide/"
@@ -1872,6 +1900,11 @@
     "Eloy Florencio Lerena"
    ],
    "url": "/people/eloy-florencio-lerena-recuero/"
+  },
+  {
+   "name": "Elvira Cardozo",
+   "aliases": [],
+   "url": "/people/elvira-cardozo/"
   },
   {
    "name": "Elvira Rita Lerena Cardozo",
@@ -2200,6 +2233,13 @@
    "url": "/people/fermin-carlos-de-yeregui/"
   },
   {
+   "name": "Fermin Lerena Arrascaeta",
+   "aliases": [
+    "Fermín Lerena Arrascaeta"
+   ],
+   "url": "/people/fermin-lerena-arrascaeta/"
+  },
+  {
    "name": "Fermin Lerena Barragan",
    "aliases": [
     "Fermín Lerena Barragan"
@@ -2302,6 +2342,11 @@
     "Francisca Fernández"
    ],
    "url": "/people/francisca-fernandez/"
+  },
+  {
+   "name": "Francisca Zulema Pedreira",
+   "aliases": [],
+   "url": "/people/francisca-zulema-pedreira/"
   },
   {
    "name": "Francisco Azanola",
@@ -2438,6 +2483,11 @@
     "Gervasio Seña"
    ],
    "url": "/people/gervasio-sena/"
+  },
+  {
+   "name": "Gil Isla",
+   "aliases": [],
+   "url": "/people/gil-isla/"
   },
   {
    "name": "Gil Llerena",
@@ -3689,6 +3739,13 @@
    "url": "/people/luis-felipe-lerena-salvanach/"
   },
   {
+   "name": "Luis Juan Pelaez Beratarbide",
+   "aliases": [
+    "Luis Juan Pelaez"
+   ],
+   "url": "/people/luis-juan-pelaez-beratarbide/"
+  },
+  {
    "name": "Luis Llanes",
    "aliases": [],
    "url": "/people/luis-llanes/"
@@ -4887,7 +4944,10 @@
   },
   {
    "name": "Pedro Lerena Arrascaeta",
-   "aliases": [],
+   "aliases": [
+    "Pedro Fermin Lerena",
+    "Pedro Fermín Lerena"
+   ],
    "url": "/people/pedro-lerena-arrascaeta/"
   },
   {
@@ -6714,6 +6774,10 @@
     {
      "near": "/people/simona-pereira/",
      "url": "/people/juan-manuel-lerena-gazo/"
+    },
+    {
+     "near": "/people/francisca-zulema-pedreira/",
+     "url": "/people/juan-pedro-olivera-lerena/"
     }
    ]
   },
@@ -6727,6 +6791,10 @@
     {
      "near": "/people/eduviges-pelaez/",
      "url": "/people/juan-bernardo-lerena-pelaez/"
+    },
+    {
+     "near": "/people/elisa-librada-beratarbide/",
+     "url": "/people/juan-pedro-dionisio-pelaez/"
     }
    ]
   },
