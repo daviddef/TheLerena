@@ -631,6 +631,11 @@
      ],
      "children": [
       {
+       "slug": "juan-maria-castilla",
+       "name": "Juan Maria CASTILLA (b. 1916, son of Juan Gil and Regina Lerena)",
+       "tree": false
+      },
+      {
        "slug": "romulo-hugo-castilla-lerena",
        "name": "Romulo Hugo CASTILLA Lerena (b. c.1921, d. 1922)",
        "tree": false
@@ -1374,7 +1379,18 @@
        "tree": false
       }
      ],
-     "children": []
+     "children": [
+      {
+       "slug": "maria-felicia-leocadia-pelaez-alvarez",
+       "name": "Maria Felicia Leocadia PELAEZ Alvarez (b. 1916, Trinidad)",
+       "tree": false
+      },
+      {
+       "slug": "pedro-siro-pelaez-alvarez",
+       "name": "Pedro Siro PELAEZ Alvarez (b. 1915, Trinidad)",
+       "tree": false
+      }
+     ]
     },
     {
      "slug": "alejandro-esteban-lerena-alvarez",

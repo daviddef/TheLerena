@@ -68,6 +68,8 @@ for p in people:
 # and when the plate was finally read on 21 September 2026 it turned out to be right after all.
 # Both things had to be read to know which was which.
 TWINS = {
+    ("Mairosa GUTIERREZ (b. 1914, twin, dau. of Fausto and Eduviges Lerena)", "Maridalia GUTIERREZ (b. 1914, twin, dau. of Fausto and Eduviges Lerena)"):
+        "entries no. 83 (9 June 1914) and no. 104 (12 June 1914) of Trinidad Baptism Records April 1914-May 1917 (item 2 of DGS film 008163897, images 17 and 20) both read 'que nacio el primero de Abril de mil novecientos catorce' to Fausto Santos Gutierrez and Eduviges Fernanda, baptised three days apart - MACHINE TRANSCRIPT, the plate not opened: declared on the strength of two entries each stating the same day",
     ("Maria Carlota MORATORIO Lerena", "Maria de las Mercedes MORATORIO Lerena"):
         "both acts of 8 March 1880 at the Catedral Basilica read 'que nacio el VEINTE Y CUATRO DE "
         "FEBRERO ultimo' - film 007713378 image 02598, IMAGE READ",

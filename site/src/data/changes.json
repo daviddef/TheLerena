@@ -2,6 +2,16 @@
  "mechanical": 53,
  "days": [
   {
+   "date": "2026-11-01",
+   "commits": [
+    {
+     "sha": "56780f7",
+     "subject": "Trinidad baptisms March 1911 - April 1914 (Libro XVIII, continued; DGS film 008163897): Eliseo Ismael Lerena Plaza (b. 14 Feb 1912) and Saul Antonio Lerena Cardozo (b. 2 Dec 1912, child of the cousins of the 1911 dispensation) read at the plate; Doroteo Donato's son Ademar (m. Olga Lequio 1937) and Regino Pablo Olivera (m. 1936) in the parents' notes; Francisco Goza, a natural grandson of Julia Lerena; Raul Enrique Gutierrez; Juana Ilma Arrascaeta, whose margin note names a Cipriano Lerena (1941); Pelaez, Fernandez, Cardozo and Colman grandchildren; the film slate, the roll-continuation target and the end target read at the plate",
+     "body": ""
+    }
+   ]
+  },
+  {
    "date": "2026-10-28",
    "commits": [
     {
