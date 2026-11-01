@@ -4594,9 +4594,9 @@
  {
   "name": "Carlos PATRASO (m. Margarita Lerena 1899)",
   "born_est": "-",
-  "last_attested_alive": "1899-May-27",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Joaquin LERENA (1846-1896, of Trinidad)",
