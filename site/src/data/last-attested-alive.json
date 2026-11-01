@@ -7835,9 +7835,9 @@
  {
   "name": "L. Martina LERENA Casavalle (b. 1906, Trinidad)",
   "born_est": "1906",
-  "last_attested_alive": "1906-Dec-24",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1906",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Raul Salvador LERENA Fernandez (b. 1907, Trinidad)",
@@ -8753,6 +8753,27 @@
   "name": "Clara LERENA (widow of Reinaldo Pallares, of Florida)",
   "born_est": "1848c",
   "last_attested_alive": "1848c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Alejandro A. LERENA Harrison (b. 1902; Alejandro Alberto)",
+  "born_est": "1902-08-07",
+  "last_attested_alive": "1902-08-07",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Juan Jose LERENA Harrison (b. 1903, Chamanga)",
+  "born_est": "1903-08-27",
+  "last_attested_alive": "1903-08-27",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Ana P. GUTIERREZ (b. 1903, dau. of Fausto and Eduviges Lerena; Ana Palmira)",
+  "born_est": "1903-07-26",
+  "last_attested_alive": "1903-07-26",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  }

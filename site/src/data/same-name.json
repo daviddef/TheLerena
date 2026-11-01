@@ -1558,6 +1558,28 @@
      },
      "spouses": [],
      "children": []
+    },
+    {
+     "slug": "alejandro-a-lerena-harrison",
+     "name": "Alejandro A. LERENA Harrison (b. 1902; Alejandro Alberto)",
+     "exact": false,
+     "status": "unplaced",
+     "born": "1902",
+     "died": "",
+     "where": "Flores · Oriental",
+     "source": "Flores, Birth Records 1902-1906 (item 4 of DGS film 008165367, 166 images …",
+     "father": {
+      "slug": "venancio-lerena-fernandez",
+      "name": "Venancio LERENA Fernandez (m. 1885)",
+      "tree": false
+     },
+     "mother": {
+      "slug": "venancia-harrison",
+      "name": "Venancia HARRISON (m. Venancio Lerena 1885)",
+      "tree": false
+     },
+     "spouses": [],
+     "children": []
     }
    ]
   },
