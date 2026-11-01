@@ -6694,9 +6694,9 @@
  {
   "name": "Leoncio ARRATI (m. Alejandrina Vaquero 1913)",
   "born_est": "1883c",
-  "last_attested_alive": "1913-Dec-20",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1883c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Juana UMPIERREZ (m. Antonino Lerena 1915)",
@@ -6708,9 +6708,9 @@
  {
   "name": "Felicinda ALVAREZ (m. Alejandro Pedro Pelaez 1915)",
   "born_est": "1888c",
-  "last_attested_alive": "1915-Jan-28",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1888c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Clara LERENA Alvarez (m. Celestino Munoz 1916)",
@@ -8024,9 +8024,9 @@
  {
   "name": "Elvira CARDOZO (m. Albin Chavez)",
   "born_est": "-",
-  "last_attested_alive": "1910-Dec-24",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Albin CHAVEZ (m. Elvira Cardozo)",
@@ -8136,9 +8136,9 @@
  {
   "name": "Amelia E. FERNANDEZ (m. Nemesio B. Cardozo)",
   "born_est": "-",
-  "last_attested_alive": "1913-Mar-22",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Leocadia Amelia CARDOZO Fernandez (b. 1912, Trinidad)",
@@ -8227,9 +8227,9 @@
  {
   "name": "Israel Adolfo PELAEZ Lerena (b. 1916, Trinidad)",
   "born_est": "1916-06-12",
-  "last_attested_alive": "1916-Jun-12",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1916-06-12",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Evidelia Lilia LERENA Casavalle (b. 1914, Trinidad)",
@@ -8307,5 +8307,159 @@
   "last_attested_alive": "1916-09-05",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maria Luisa LERENA (b. 1915, Trinidad; natural dau. of Ismael)",
+  "born_est": "1915-01-04",
+  "last_attested_alive": "1915-01-04",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Juan Pablo RODRIGUEZ Lerena (b. 1916, Trinidad)",
+  "born_est": "1916-06-26",
+  "last_attested_alive": "1916-06-26",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maria Isabel RODRIGUEZ Lerena (b. 1917, Trinidad)",
+  "born_est": "1917-10-13",
+  "last_attested_alive": "1917-Oct-13",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Romulo SILVA Lerena (b. 1917, Trinidad)",
+  "born_est": "1917-07-07",
+  "last_attested_alive": "1917-07-07",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Hector Jose SILVA Lerena (b. 1918, Trinidad)",
+  "born_est": "1918-11-11",
+  "last_attested_alive": "1918-11-11",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maria D. GONZALEZ (b. 1894, baptised 1917; baptised Maria Dejanira)",
+  "born_est": "1894-09-04",
+  "last_attested_alive": "1894-09-04",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Estefania GONZALEZ (b. 1896, baptised 1917; sister of Maria Dejanira)",
+  "born_est": "1896-01-12",
+  "last_attested_alive": "1896-01-12",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Rosa Blanca LERENA Cardozo (b. 1918, Trinidad)",
+  "born_est": "1918-09-06",
+  "last_attested_alive": "1918-09-06",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maria Luisa MUGULAR Lerena (b. 1917, Trinidad)",
+  "born_est": "1917-09-25",
+  "last_attested_alive": "1917-09-25",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Hugo Alberto CASTILLA Lerena (b. 1917, Trinidad)",
+  "born_est": "1917-12-07",
+  "last_attested_alive": "1917-12-07",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Juan Gil CASTILLA Lerena (b. 1919, Trinidad)",
+  "born_est": "1919-05-27",
+  "last_attested_alive": "1919-05-27",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maria Luisa OLIVERA Lerena (b. 1917, Trinidad)",
+  "born_est": "1917-11-13",
+  "last_attested_alive": "1917-11-13",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "O. S. BUENO Lerena (b. 1918; baptised Olga Sila)",
+  "born_est": "1918-07-13",
+  "last_attested_alive": "1918-07-13",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Israel A. PELAEZ Lerena (b. 1918; baptised Israel Albino)",
+  "born_est": "1918-02-05",
+  "last_attested_alive": "1918-02-05",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "O. F. PELAEZ Lerena (b. 1920; baptised Oliva Florinda)",
+  "born_est": "1920-01-06",
+  "last_attested_alive": "1920-Jan-06",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Elvira Maria Felipa PELAEZ Alvarez (b. 1918, Trinidad)",
+  "born_est": "1918-04-11",
+  "last_attested_alive": "1918-04-11",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Antonio Maria Julian PELAEZ Alvarez (b. 1919, Trinidad)",
+  "born_est": "1919-08-12",
+  "last_attested_alive": "1919-08-12",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Elida Benita MELARA Pelaez (b. 1919, Trinidad)",
+  "born_est": "1919-01-13",
+  "last_attested_alive": "1919-01-13",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Carlos Leoncio URRUTI Vaquero (b. 1920, Trinidad)",
+  "born_est": "1920-01-03",
+  "last_attested_alive": "1920-Jan-03",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Alcides Noel LERENA Caballero (b. 1919, Trinidad)",
+  "born_est": "1919-06-28",
+  "last_attested_alive": "1919-06-28",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Elida P. CARDOZO Fernandez (b. 1918; baptised Elida Patricia)",
+  "born_est": "1918-08-25",
+  "last_attested_alive": "1918-08-25",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Rosa Blanca CHAVEZ Cardozo (b. 1919, Trinidad)",
+  "born_est": "1919-09-12",
+  "last_attested_alive": "1919-Sep-12",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
  }
 ]

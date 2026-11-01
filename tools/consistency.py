@@ -282,6 +282,8 @@ def key(nm):
 # Collisions somebody has looked at. Adding a pair here is a claim that someone checked,
 # so it carries the reason. The sibling Blazevic archive keeps its CHECKED_SHARED the same way.
 CHECKED_PAIRS = {
+    ("Maria Luisa MUGULAR Lerena (b. 1917, Trinidad)", "Maria Luisa OLIVERA Lerena (b. 1917, Trinidad)"):
+        "different girls: Maria Luisa Mugular (b. 25 September 1917, daughter of Miguel Mugular and Carmen Lerena) and Maria Luisa Olivera (b. 13 November 1917, daughter of Buenaventura Olivera and Luisa Lerena Beloqui) - Trinidad baptism book March 1917-April 1920, images 47 and 58, machine transcript",
     # RETIRED 11 October 2026: "Bartolome LLERENA - Cordoba origin" is no longer a row - the
     # cross-reference it described was removed when the Cordoba family was written up properly -
     # so this pair excused a person who does not exist. Kept as a comment rather than deleted,

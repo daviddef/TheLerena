@@ -8,8 +8,8 @@
   "Anyone on no line and in no household is counted in one of two pens: people of the name with no family recorded here, or people in the acts who are not of the name and are kin to nobody here.",
   "Everybody is counted, and nobody is counted twice. A person is listed by name only when their page publishes a birth year before the living line or a death, and no rule of this archive holds them as living or out of publication; everybody else is a number only."
  ],
- "total": 1196,
- "listed": 692,
+ "total": 1218,
+ "listed": 714,
  "lanes": [
   {
    "key": "sancho",
@@ -106,8 +106,8 @@
     "Florida",
     "San Jose"
    ],
-   "people": 477,
-   "listed": 344
+   "people": 494,
+   "listed": 360
   },
   {
    "key": "direct",
@@ -270,9 +270,9 @@
    "key": "households",
    "kind": "not-yet-placed",
    "head": "Real households of the name — on none of these lines",
-   "households": 36,
-   "people": 167,
-   "listed": 91
+   "households": 37,
+   "people": 172,
+   "listed": 96
   },
   {
    "id": "of-the-name-alone",
@@ -290,7 +290,7 @@
    "head": "In the acts but not of the name, and kin to nobody on a line",
    "households": 0,
    "people": 201,
-   "listed": 26
+   "listed": 27
   },
   {
    "id": "different-stock",
@@ -373,20 +373,22 @@
    "status": "origin-unknown",
    "statusNote": "",
    "span": [
-    1918,
-    1923
+    1915,
+    1915
    ],
    "places": [
     [
      "Trinidad, Flores",
-     1918,
-     1923
+     1915,
+     1915
     ]
    ],
-   "onLane": [],
+   "onLane": [
+    "ramon"
+   ],
    "written": true,
-   "people": 5,
-   "listed": 2
+   "people": 3,
+   "listed": 1
   },
   {
    "label": "LERINA — Italy, arrived 1889",
@@ -561,7 +563,7 @@
     [
      "Trinidad, Flores",
      1819,
-     1916
+     1919
     ],
     [
      "Pintos, Flores",
@@ -571,8 +573,8 @@
    ],
    "onLane": [],
    "written": true,
-   "people": 26,
-   "listed": 18
+   "people": 28,
+   "listed": 20
   },
   {
    "label": "MAURICIO LERENA and PETRONA AGUILAR — La Guardia, Trinidad, 1866",
@@ -1030,12 +1032,12 @@
    "label": "The household of Florinda Juana LERENA — Flores, Uruguay",
    "pen": "not-yet-placed",
    "href": "/people/florinda-juana-lerena/",
-   "why": "4 people the register joins to one another by its own links and to no line by any. Of the name: Florinda Juana LERENA, Israel Adolfo PELAEZ Lerena, Vitalino Frailan PELAEZ Lerena.",
+   "why": "6 people the register joins to one another by its own links and to no line by any. Of the name: Florinda Juana LERENA, Israel A. PELAEZ Lerena, Israel Adolfo PELAEZ Lerena, O. F. PELAEZ Lerena, Vitalino Frailan PELAEZ Lerena.",
    "status": "origin-unknown",
    "statusNote": "",
    "span": [
     1887,
-    1916
+    1920
    ],
    "places": [
     [
@@ -1046,13 +1048,36 @@
     [
      "Trinidad, Flores",
      1891,
-     1916
+     1920
     ]
    ],
    "onLane": [],
    "written": false,
-   "people": 4,
-   "listed": 4
+   "people": 6,
+   "listed": 6
+  },
+  {
+   "label": "The household of Romulo SILVA Lerena — Trinidad, Flores",
+   "pen": "not-yet-placed",
+   "href": "/people/romulo-silva-lerena/",
+   "why": "3 people the register joins to one another by its own links and to no line by any. Of the name: Hector Jose SILVA Lerena, Romulo SILVA Lerena.",
+   "status": "origin-unknown",
+   "statusNote": "",
+   "span": [
+    1917,
+    1918
+   ],
+   "places": [
+    [
+     "Trinidad, Flores",
+     1917,
+     1918
+    ]
+   ],
+   "onLane": [],
+   "written": false,
+   "people": 3,
+   "listed": 2
   },
   {
    "label": "The household of Jose Maria REYES — Cordon, Montevideo",

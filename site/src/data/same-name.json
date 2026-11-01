@@ -631,6 +631,16 @@
      ],
      "children": [
       {
+       "slug": "hugo-alberto-castilla-lerena",
+       "name": "Hugo Alberto CASTILLA Lerena (b. 1917, Trinidad)",
+       "tree": false
+      },
+      {
+       "slug": "juan-gil-castilla-lerena",
+       "name": "Juan Gil CASTILLA Lerena (b. 1919, Trinidad)",
+       "tree": false
+      },
+      {
        "slug": "juan-maria-castilla",
        "name": "Juan Maria CASTILLA (b. 1916, son of Juan Gil and Regina Lerena)",
        "tree": false
@@ -813,6 +823,24 @@
      "children": []
     },
     {
+     "slug": "maria-luisa-lerena-2",
+     "name": "Maria Luisa LERENA (b. 1915, Trinidad; natural dau. of Ismael)",
+     "exact": false,
+     "status": "unplaced",
+     "born": "1915",
+     "died": "",
+     "where": "Trinidad, Flores · Oriental",
+     "source": "Santisima Trinidad, Baptism Records March 1917-April 1920 (item 3 of DGS film 008163897, 207 images), image 7 (ark 3:1:3Q9M-CS27-FQ86-F), the baptism …",
+     "father": {
+      "slug": "ismael-lerena",
+      "name": "Ismael LERENA (father, Trinidad 1917)",
+      "tree": false
+     },
+     "mother": null,
+     "spouses": [],
+     "children": []
+    },
+    {
      "slug": "maria-teresa-lerena-sena",
      "name": "Maria Teresa LERENA Sena (b. 1915, Trinidad)",
      "exact": false,
@@ -841,6 +869,72 @@
      "children": []
     },
     {
+     "slug": "maria-isabel-rodriguez-lerena",
+     "name": "Maria Isabel RODRIGUEZ Lerena (b. 1917, Trinidad)",
+     "exact": false,
+     "status": "unplaced",
+     "born": "1917",
+     "died": "",
+     "where": "Trinidad, Flores · Oriental",
+     "source": "Santisima Trinidad, Baptism Records March 1917-April 1920 (item 3 of DGS film 008163897, 207 images), image 102 (ark 3:1:3Q9M-CS27-FQ8W-H), the baptism …",
+     "father": {
+      "slug": "doroteo-j-rodriguez",
+      "name": "Doroteo J. RODRIGUEZ (m. Ciriaca Severa Lerena Harrison)",
+      "tree": false
+     },
+     "mother": {
+      "slug": "ciriaca-severa-lerena-harrison",
+      "name": "Ciriaca Severa LERENA Harrison (b. 1889, Trinidad)",
+      "tree": false
+     },
+     "spouses": [],
+     "children": []
+    },
+    {
+     "slug": "maria-luisa-mugular-lerena",
+     "name": "Maria Luisa MUGULAR Lerena (b. 1917, Trinidad)",
+     "exact": false,
+     "status": "unplaced",
+     "born": "1917",
+     "died": "",
+     "where": "Trinidad, Flores · Oriental",
+     "source": "Santisima Trinidad, Baptism Records March 1917-April 1920 (item 3 of DGS film 008163897, 207 images), image 47 (ark 3:1:3Q9M-CS27-FQ8Z-L), the baptism …",
+     "father": {
+      "slug": "miguel-mugular",
+      "name": "Miguel MUGULAR (m. Carmen LERENA 1914)",
+      "tree": false
+     },
+     "mother": {
+      "slug": "carmen-lerena-pelaez",
+      "name": "Carmen LERENA Pelaez",
+      "tree": false
+     },
+     "spouses": [],
+     "children": []
+    },
+    {
+     "slug": "maria-luisa-olivera-lerena",
+     "name": "Maria Luisa OLIVERA Lerena (b. 1917, Trinidad)",
+     "exact": false,
+     "status": "unplaced",
+     "born": "1917",
+     "died": "",
+     "where": "Trinidad, Flores · Oriental",
+     "source": "Santisima Trinidad, Baptism Records March 1917-April 1920 (item 3 of DGS film 008163897, 207 images), image 58 (ark 3:1:3Q9M-CS27-FQ8D-5), the baptism …",
+     "father": {
+      "slug": "buenaventura-olivera",
+      "name": "Buenaventura OLIVERA (m. Luisa Lerena)",
+      "tree": false
+     },
+     "mother": {
+      "slug": "luisa-lerena-beloqui",
+      "name": "Luisa LERENA Beloqui (b. c.1884, m. Buenaventura Olivera 1906)",
+      "tree": false
+     },
+     "spouses": [],
+     "children": []
+    },
+    {
      "slug": "maria-josefina-lerena",
      "name": "Maria Josefina LERENA",
      "exact": false,
@@ -854,7 +948,11 @@
       "name": "Rodolfo Bernardo LERENA (father, Trinidad 1918)",
       "tree": false
      },
-     "mother": null,
+     "mother": {
+      "slug": "maria-luisa-caballero",
+      "name": "Maria Luisa CABALLERO (m. Rodolfo Lerena 1917)",
+      "tree": false
+     },
      "spouses": [],
      "children": []
     },
@@ -1380,6 +1478,16 @@
       }
      ],
      "children": [
+      {
+       "slug": "antonio-maria-julian-pelaez-alvarez",
+       "name": "Antonio Maria Julian PELAEZ Alvarez (b. 1919, Trinidad)",
+       "tree": false
+      },
+      {
+       "slug": "elvira-maria-felipa-pelaez-alvarez",
+       "name": "Elvira Maria Felipa PELAEZ Alvarez (b. 1918, Trinidad)",
+       "tree": false
+      },
       {
        "slug": "maria-felicia-leocadia-pelaez-alvarez",
        "name": "Maria Felicia Leocadia PELAEZ Alvarez (b. 1916, Trinidad)",
