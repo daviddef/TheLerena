@@ -4293,9 +4293,9 @@
  {
   "name": "Antonio ETCHEBERSE (m. Andrea Albina Lerena 1906)",
   "born_est": "1873",
-  "last_attested_alive": "1906-Mar-26",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1873",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Don Alejandro LERENA (of San Jose de Mayo, 1846)",
@@ -7135,9 +7135,9 @@
  {
   "name": "Elisa Librada BERATARBIDE (b. 1888, Trinidad)",
   "born_est": "1888-07-20",
-  "last_attested_alive": "1910-Jul-11",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1888-07-20",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Amelia LEJEREN (b. 1886, Trinidad)",
@@ -8461,5 +8461,103 @@
   "last_attested_alive": "1919-Sep-12",
   "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
   "tier": "ALIVE AT"
+ },
+ {
+  "name": "Violeta Elida LERENA Caballero (b. 1920, Trinidad)",
+  "born_est": "1920-08-14",
+  "last_attested_alive": "1920-08-14",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Elda E. LERENA Caballero (b. 1921; baptised Elda Ester)",
+  "born_est": "1921-12-18",
+  "last_attested_alive": "1921-12-18",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Carlos Heber LERENA Cardozo (b. 1920, Trinidad)",
+  "born_est": "1920-10-06",
+  "last_attested_alive": "1920-10-06",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Blanca M. OLIVERA Lerena (b. 1919; baptised Blanca Margarita)",
+  "born_est": "1919-10-25",
+  "last_attested_alive": "1919-10-25",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Ramon C. OLIVERA Lerena (b. 1922; baptised Ramon Conrado)",
+  "born_est": "1922-02-19",
+  "last_attested_alive": "1922-02-19",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Clemente M. BUENO Lerena (b. 1920; baptised Clemente Modesto)",
+  "born_est": "1920-06-15",
+  "last_attested_alive": "1920-06-15",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "A. A. BUENO Lerena (b. 1922; baptised Antonio Amador Benicio)",
+  "born_est": "1922-08-23",
+  "last_attested_alive": "1922-08-23",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Blanca M. CASTILLA Lerena (b. 1921; baptised Blanca Margarita)",
+  "born_est": "1921-04-01",
+  "last_attested_alive": "1921-04-01",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Alcides N. SILVA Lerena (b. 1920; baptised Alcides Narciso)",
+  "born_est": "1920-11-16",
+  "last_attested_alive": "1920-11-16",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Julio C. LERENA Duran (b. 1922; baptised Julio Cesar)",
+  "born_est": "1922-12-19",
+  "last_attested_alive": "1922-12-19",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Juan Antonio VAQUERO (b. 1910, baptised 1922; son of Manuel Vaquero and Pura Deonato)",
+  "born_est": "1910-01-23",
+  "last_attested_alive": "1922-Jan-23",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "O. J. URRUTI Vaquero (b. 1921; baptised Olga Juana)",
+  "born_est": "1921-06-24",
+  "last_attested_alive": "1921-06-24",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Alcides A. PELAEZ Beratarbide (b. 1922; baptised Alcides Agustin)",
+  "born_est": "1922-05-04",
+  "last_attested_alive": "1922-05-04",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Ricardo O. GONZALEZ Pelaez (b. 1920; baptised Ricardo Omar)",
+  "born_est": "1920-09-30",
+  "last_attested_alive": "1920-09-30",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]

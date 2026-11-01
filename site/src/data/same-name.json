@@ -631,6 +631,11 @@
      ],
      "children": [
       {
+       "slug": "blanca-m-castilla-lerena",
+       "name": "Blanca M. CASTILLA Lerena (b. 1921; baptised Blanca Margarita)",
+       "tree": false
+      },
+      {
        "slug": "hugo-alberto-castilla-lerena",
        "name": "Hugo Alberto CASTILLA Lerena (b. 1917, Trinidad)",
        "tree": false
@@ -1624,6 +1629,28 @@
      "died": "",
      "where": "Trinidad, Flores · Uruguayan",
      "source": "FamilySearch RECORD INDEX - exact-surname sweep SERENA + place FLORES, URUGUAY, 290 results, first 100 read 12 October 2026 …",
+     "father": {
+      "slug": "buenaventura-olivera",
+      "name": "Buenaventura OLIVERA (m. Luisa Lerena)",
+      "tree": false
+     },
+     "mother": {
+      "slug": "luisa-lerena-beloqui",
+      "name": "Luisa LERENA Beloqui (b. c.1884, m. Buenaventura Olivera 1906)",
+      "tree": false
+     },
+     "spouses": [],
+     "children": []
+    },
+    {
+     "slug": "ramon-c-olivera-lerena",
+     "name": "Ramon C. OLIVERA Lerena (b. 1922; baptised Ramon Conrado)",
+     "exact": false,
+     "status": "unplaced",
+     "born": "1922",
+     "died": "",
+     "where": "Trinidad, Flores · Oriental",
+     "source": "Santisima Trinidad, Baptism Records August 1920-April 1923 (item 2 of DGS film 008163898, 177 images …",
      "father": {
       "slug": "buenaventura-olivera",
       "name": "Buenaventura OLIVERA (m. Luisa Lerena)",

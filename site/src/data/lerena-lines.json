@@ -239,12 +239,14 @@
     "cipriano-lerena",
     "eusebio-congenio-lerena-gonzalez",
     "pedro-beloqui",
+    "a-a-bueno-lerena",
     "a-leoncia-lerena-harrison",
     "adela-fernandez",
     "ademar-lerena-beloqui",
     "alberto-conrado-lejeren-lerena",
     "alberto-facundo-gonzalez-fernandez",
     "albina-chavez-cardozo",
+    "alcides-a-pelaez-beratarbide",
     "alcides-lerena-pelaez",
     "alcides-maria-fernandez",
     "alcides-noel-lerena-caballero",
@@ -295,8 +297,10 @@
     "blanca-cardozo-fernandez",
     "blanca-de-lis-mugular-lerena",
     "blanca-juana-vaquero-lerena",
+    "blanca-m-olivera-lerena",
     "bruno-arsenio-gonzalez",
     "camila-lerena-pelaez",
+    "carlos-heber-lerena-cardozo",
     "carlos-leoncio-urruti-vaquero",
     "carlos-rey-lerena-pelaez",
     "carmelo-belisario-lerena-montano",
@@ -318,6 +322,7 @@
     "clara-lerena-alvarez",
     "clara-natividad-pelaez",
     "clemencio-lorenzo-lerena-montano",
+    "clemente-m-bueno-lerena",
     "corina-francisca-gonzalez-lerena",
     "cristina-alberta-fernandez",
     "dalmira-vaquero-lerena",
@@ -337,6 +342,7 @@
     "eduvijes-lerena-pelaez",
     "eladia-lerena-sena",
     "elbia-elmira-lerena-recuero",
+    "elda-e-lerena-caballero",
     "elena-lerena-pelaez",
     "elida-p-cardozo-fernandez",
     "elida-pilar-lerena-recuero",
@@ -520,6 +526,7 @@
     "natalia-elena-lerena-recuero",
     "natalia-lerena-2",
     "nieves-fernando-pelaez",
+    "o-j-urruti-vaquero",
     "o-s-bueno-lerena",
     "oscar-maria-olivera-lerena",
     "pablo-evaristo-lerena-harrison",
@@ -536,6 +543,7 @@
     "pio-c-lerena",
     "policarpio-amador-lerena-pelaez",
     "ramon-a-paben",
+    "ramon-c-olivera-lerena",
     "ramon-doroteo-pedro-gutierrez",
     "ramon-fernandez",
     "ramon-fernandez-2",
@@ -580,6 +588,7 @@
     "venancia-harrison",
     "victoriana-del-carmen-fernandez",
     "violeta-blanca-lerena-cardozo",
+    "violeta-elida-lerena-caballero",
     "vitalino-lerena",
     "vitalino-yndalecio-lerena",
     "viviano-eliseo-lerena-beloqui",
@@ -888,6 +897,11 @@
      "An Argentine-national Lerena born within three years of Pablo Armando, travelling with a son Gilberto of twelve. *** What fits Gilberto LERENA Salvanach, the eldest son of the Stud Book Gilberto: *** a birth year one out, Argentine nationality, Buenos Aires, a marriage of 1906. *** DELIBERATELY NOT MERGED: *** both rows are index-level, and the Argentine military record or the CEMLA entry would settle it."
     ],
     [
+     "The household of Romulo SILVA Lerena — Trinidad, Flores",
+     "/people/romulo-silva-lerena/",
+     "4 people the register joins to one another by its own links and to no line by any. Of the name: Alcides N. SILVA Lerena, Hector Jose SILVA Lerena, Romulo SILVA Lerena."
+    ],
+    [
      "The household of Amelia LERENA Morales — Montevideo",
      "/people/amelia-lerena-morales/",
      "3 people the register joins to one another by its own links and to no line by any. Of the name: Amelia LERENA Morales."
@@ -968,11 +982,6 @@
      "6 people the register joins to one another by its own links and to no line by any. Of the name: Florinda Juana LERENA, Israel A. PELAEZ Lerena, Israel Adolfo PELAEZ Lerena, O. F. PELAEZ Lerena, Vitalino Frailan PELAEZ Lerena."
     ],
     [
-     "The household of Romulo SILVA Lerena — Trinidad, Flores",
-     "/people/romulo-silva-lerena/",
-     "3 people the register joins to one another by its own links and to no line by any. Of the name: Hector Jose SILVA Lerena, Romulo SILVA Lerena."
-    ],
-    [
      "The household of Jose Maria REYES — Cordon, Montevideo",
      "/people/jose-maria-reyes/",
      "2 people the register joins to one another by its own links and to no line by any."
@@ -1019,6 +1028,7 @@
     ]
    ],
    "members": [
+    "alcides-n-silva-lerena",
     "amelia-lerena-morales",
     "anastasia-lerena",
     "anastasia-santa-cruz",
@@ -1032,6 +1042,7 @@
     "basilia-maxima-sena-lerena",
     "benito-larranaga",
     "benito-lerena",
+    "blanca-m-castilla-lerena",
     "blas-gil-lerena-barragan",
     "candido-costales-serena",
     "carmen-roman-lerena",
@@ -1071,6 +1082,7 @@
     "juan-rodriguez-2",
     "juana-camacho",
     "juana-maria-lerena",
+    "julio-c-lerena-duran",
     "leandro-lerena",
     "lucia-llanos",
     "luis-alejandro-llerena",
@@ -1231,6 +1243,7 @@
     "francisco-remigio-fernandez-romero",
     "hermenegilda-carolina-gavazzo",
     "josefa-in-gilberto-s-1895-household",
+    "juan-antonio-vaquero",
     "juan-jose-zalduando-pou",
     "juan-zorrilla-de-san-martin",
     "juana-benteno-correa",
@@ -1240,6 +1253,7 @@
     "maria-mercedes",
     "pedro-vicente-gonzalez",
     "pedro-zacarias-beloqui",
+    "ricardo-o-gonzalez-pelaez",
     "telesforo-lenguas"
    ]
   },
