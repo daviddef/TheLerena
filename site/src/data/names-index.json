@@ -3028,6 +3028,15 @@
    "url": "/people/jose-breton/"
   },
   {
+   "name": "Jose Cardozo Lerena",
+   "aliases": [
+    "Jose Cardozo",
+    "José Cardozo",
+    "José Cardozo Lerena"
+   ],
+   "url": "/people/jose-cardozo-lerena/"
+  },
+  {
    "name": "Jose Carreras",
    "aliases": [
     "José Carreras"
@@ -7146,10 +7155,6 @@
     "/people/juan-pelaez-2/"
    ],
    "resolve": [
-    {
-     "near": "/people/eduviges-pelaez/",
-     "url": "/people/juan-bernardo-lerena-pelaez/"
-    },
     {
      "near": "/people/elisa-librada-beratarbide/",
      "url": "/people/juan-pedro-dionisio-pelaez/"

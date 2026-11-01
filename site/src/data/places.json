@@ -965,6 +965,36 @@
   "count": 41
  },
  {
+  "slug": "flores",
+  "name": "Flores",
+  "people": [
+   "c-e-lerena-cardozo",
+   "valentina-maisonnave",
+   "rogelio-pelaez",
+   "r-j-lerena-harrison",
+   "e-c-lerena-harrison",
+   "ernesto-p-lerena-cardozo",
+   "adelia-b-lerena-cardozo",
+   "r-n-lerena-cardozo",
+   "luis-alberto-lerena-caballero",
+   "blanca-h-lerena-caballero",
+   "ricardo-e-pelaez-lerena",
+   "alberto-m-rodriguez-lerena",
+   "m-pelaez",
+   "gabina-a-lerena-harrison",
+   "nieves-p-lerena-harrison",
+   "carlos-f-lerena-harrison",
+   "e-n-lerena-cardozo",
+   "rosa-s-pelaez-lerena",
+   "v-pelaez-alvarez",
+   "juan-f-lerena-pelaez",
+   "maximo-m-lerena-casavalle",
+   "jose-cardozo-lerena",
+   "f-lerena-harrison"
+  ],
+  "count": 23
+ },
+ {
   "slug": "rosario-santa-fe",
   "name": "Rosario, Santa Fe",
   "people": [
@@ -1088,26 +1118,6 @@
    "georgina-temple",
    "agnes-harrison",
    "mary-jane-marshall"
-  ],
-  "count": 13
- },
- {
-  "slug": "flores",
-  "name": "Flores",
-  "people": [
-   "c-e-lerena-cardozo",
-   "valentina-maisonnave",
-   "rogelio-pelaez",
-   "r-j-lerena-harrison",
-   "e-c-lerena-harrison",
-   "ernesto-p-lerena-cardozo",
-   "adelia-b-lerena-cardozo",
-   "r-n-lerena-cardozo",
-   "luis-alberto-lerena-caballero",
-   "blanca-h-lerena-caballero",
-   "ricardo-e-pelaez-lerena",
-   "alberto-m-rodriguez-lerena",
-   "m-pelaez"
   ],
   "count": 13
  },

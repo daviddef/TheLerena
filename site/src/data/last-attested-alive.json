@@ -6365,9 +6365,9 @@
  {
   "name": "Maximo PELAEZ Lerena (chr.1859)",
   "born_est": "1859-05-29",
-  "last_attested_alive": "1859-Jul-09",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1859-05-29",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Pablo VAQUERO Lerena (chr.1866)",
@@ -8648,6 +8648,76 @@
   "name": "M. PELAEZ (b. 1920, natural daughter of Fidel Bruno Pelaez; Mariana)",
   "born_est": "1920-09-19",
   "last_attested_alive": "1920-09-19",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Gabina A. LERENA Harrison (b. 1893; Gabina Adela)",
+  "born_est": "1893-10-25",
+  "last_attested_alive": "1893-10-25",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Nieves P. LERENA Harrison (b. 1895; Nieves Pio)",
+  "born_est": "1895-08-06",
+  "last_attested_alive": "1895-08-06",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Carlos F. LERENA Harrison (b. 1897; Carlos Fortunato)",
+  "born_est": "1897-10-14",
+  "last_attested_alive": "1897-10-14",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "E. N. LERENA Cardozo (b. 1895; Elcira Natalia)",
+  "born_est": "1895-07-27",
+  "last_attested_alive": "1895-07-27",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Rosa S. PELAEZ Lerena (b. 1894; Rosa Susana)",
+  "born_est": "1894-08-11",
+  "last_attested_alive": "1894-08-11",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "V. PELAEZ Alvarez (b. 1894; Ventura)",
+  "born_est": "1894-07-21",
+  "last_attested_alive": "1894-07-21",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Juan F. LERENA Pelaez (b. 1895; Juan Feliciano)",
+  "born_est": "1895-10-20",
+  "last_attested_alive": "1895-10-20",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maximo M. LERENA Casavalle (b. 1896; Maximo Macedonio)",
+  "born_est": "1896-03-14",
+  "last_attested_alive": "1896-03-14",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Jose CARDOZO Lerena (b. 1896, son of Eliseo and Maria Lerena)",
+  "born_est": "1896-04-12",
+  "last_attested_alive": "1896-04-12",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "F. LERENA Harrison (b. 1896; Felicia)",
+  "born_est": "1896-11-20",
+  "last_attested_alive": "1896-11-20",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  }
