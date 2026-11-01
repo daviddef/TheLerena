@@ -6534,11 +6534,8 @@
   {
    "name": "Clara Lerena",
    "url": "/people/?q=Clara%20Lerena",
-   "resolve": [
-    {
-     "near": "/people/francisco-fernandez-alvarez/",
-     "url": "/people/clara-lerena/"
-    }
+   "bearers": [
+    "/people/clara-lerena-2/"
    ]
   },
   {

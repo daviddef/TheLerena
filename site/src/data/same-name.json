@@ -2178,6 +2178,11 @@
      ],
      "children": [
       {
+       "slug": "a-h-fernandez-lerena",
+       "name": "A. H. FERNANDEZ Lerena (b. 1900; Amado Hilarion, son of Serapio and Antonina Lerena)",
+       "tree": false
+      },
+      {
        "slug": "adela-fernandez",
        "name": "Adela FERNANDEZ (b. 1893, dau. of Serapio and Antonina Lerena)",
        "tree": false
@@ -2361,6 +2366,11 @@
       }
      ],
      "children": [
+      {
+       "slug": "a-h-fernandez-lerena",
+       "name": "A. H. FERNANDEZ Lerena (b. 1900; Amado Hilarion, son of Serapio and Antonina Lerena)",
+       "tree": false
+      },
       {
        "slug": "adela-fernandez",
        "name": "Adela FERNANDEZ (b. 1893, dau. of Serapio and Antonina Lerena)",

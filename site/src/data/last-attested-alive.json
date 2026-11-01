@@ -8720,5 +8720,40 @@
   "last_attested_alive": "1896-11-20",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Antonina F. PELAEZ Alvarez (b. 1899; Antonina Francisca)",
+  "born_est": "1899-03-09",
+  "last_attested_alive": "1899-03-09",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "E. C. LERENA Harrison (b. 1900; Eufemia Corina)",
+  "born_est": "1900-03-20",
+  "last_attested_alive": "1900-03-20",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Elena P. LERENA Pelaez (b. 1900; Elena Pilar)",
+  "born_est": "1900-10-12",
+  "last_attested_alive": "1900-10-12",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "A. H. FERNANDEZ Lerena (b. 1900; Amado Hilarion, son of Serapio and Antonina Lerena)",
+  "born_est": "1900-10-21",
+  "last_attested_alive": "1900-10-21",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Clara LERENA (widow of Reinaldo Pallares, of Florida)",
+  "born_est": "1848c",
+  "last_attested_alive": "1848c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]
