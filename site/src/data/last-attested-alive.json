@@ -7947,9 +7947,9 @@
  {
   "name": "Sibila LLERENA (godmother, Trinidad 1905-09)",
   "born_est": "-",
-  "last_attested_alive": "1905-Aug-03",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Troilana SENA (m. Luis Sena 1884)",
@@ -8816,6 +8816,20 @@
   "name": "Sofia PABEN (b. 1909, dau. of Ramon Paben and Sofia Fernandez)",
   "born_est": "1909-10-14",
   "last_attested_alive": "1909-10-14",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Sibila LERENA (b. 1894, natural dau. of Isabel Lerena Barragan)",
+  "born_est": "1894-01-23",
+  "last_attested_alive": "1913",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
+ },
+ {
+  "name": "A. PABEN (b. 1890, son of Ramon Paben and Sofia Fernandez; Abelino)",
+  "born_est": "1890-10-22",
+  "last_attested_alive": "1890-10-22",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  }

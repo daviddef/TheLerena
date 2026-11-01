@@ -8,8 +8,8 @@
   "Anyone on no line and in no household is counted in one of two pens: people of the name with no family recorded here, or people in the acts who are not of the name and are kin to nobody here.",
   "Everybody is counted, and nobody is counted twice. A person is listed by name only when their page publishes a birth year before the living line or a death, and no rule of this archive holds them as living or out of publication; everybody else is a number only."
  ],
- "total": 1269,
- "listed": 767,
+ "total": 1271,
+ "listed": 769,
  "lanes": [
   {
    "key": "sancho",
@@ -106,8 +106,8 @@
     "Florida",
     "San Jose"
    ],
-   "people": 538,
-   "listed": 406
+   "people": 539,
+   "listed": 407
   },
   {
    "key": "direct",
@@ -271,8 +271,8 @@
    "kind": "not-yet-placed",
    "head": "Real households of the name — on none of these lines",
    "households": 37,
-   "people": 176,
-   "listed": 100
+   "people": 177,
+   "listed": 101
   },
   {
    "id": "of-the-name-alone",
@@ -569,12 +569,17 @@
      "Pintos, Flores",
      1880,
      1921
+    ],
+    [
+     "Flores",
+     1894,
+     1913
     ]
    ],
    "onLane": [],
    "written": true,
-   "people": 30,
-   "listed": 22
+   "people": 31,
+   "listed": 23
   },
   {
    "label": "MAURICIO LERENA and PETRONA AGUILAR — La Guardia, Trinidad, 1866",
