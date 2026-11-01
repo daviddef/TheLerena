@@ -3642,9 +3642,9 @@
  {
   "name": "Rosaura ALVAREZ (m. Gualberto LERENA)",
   "born_est": "-",
-  "last_attested_alive": "-",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "last_attested_alive": "1902-Apr-20",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
  },
  {
   "name": "Juan Francisco ALVAREZ (father of Rosaura Alvarez)",
@@ -3663,9 +3663,9 @@
  {
   "name": "Gualberto LERENA (m. Rosaura Alvarez)",
   "born_est": "-",
-  "last_attested_alive": "-",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "last_attested_alive": "1902-Apr-20",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
  },
  {
   "name": "Antonio Amador LERENA Alvarez (b. 1886, Trinidad)",
@@ -6722,9 +6722,9 @@
  {
   "name": "Celestino MUNOZ (m. Clara Lerena 1916)",
   "born_est": "1862c",
-  "last_attested_alive": "1916-Jan-20",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1862c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Rodolfo B. LERENA Cardozo (m. Maria Luisa Caballero 1917)",
@@ -7058,9 +7058,9 @@
  {
   "name": "Ignacio Elvido LERENA Recuero (b. 1887, Trinidad)",
   "born_est": "1887-07-31",
-  "last_attested_alive": "1887-Aug-26",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1887-07-31",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Emma LERENA Recuero (b. 1889, Trinidad)",

@@ -2,6 +2,16 @@
  "mechanical": 53,
  "days": [
   {
+   "date": "2026-11-02",
+   "commits": [
+    {
+     "sha": "9e64d48",
+     "subject": "Flores civil marriages 1897-1908 (Trinidad, Primera Seccion) and 1886-1913: the civil acts of Carlos Patron and Margarita Lerena (1899, her birth year 1872, her father Isaac a carpenter), Fausto S. Gutierrez and Eduviges Fernanda Lerena (1900, born 30 May 1879), Ramon Fernandez and Apolinaria Sena (8 June 1901, the civil marriage after the church marriage of 1894), Doroteo Donato Lerena and Valentina Sena (5 February 1906, Cipriano a widower), Faustino Llerena and Viterba de Arrascaeta (30 July 1906, naming his parents Fermin Llerena and Paulina Barragan - the Faustino of the Arrascaeta children is settled), Juan Pedro Pelaez and Elisa Beratarbide (1907); Manuel Vaquero a witness at 37 and at 45 (procurador), agreeing with Manuel Indalecio b. 1862; Beltran Bidondo and Victoriana Fernandez (4 August 1886); seven young Lerena witnesses logged as not placed",
+     "body": ""
+    }
+   ]
+  },
+  {
    "date": "2026-11-01",
    "commits": [
     {
