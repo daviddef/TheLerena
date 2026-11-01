@@ -4549,5 +4549,48 @@
    "machine-transcript"
   ],
   "note": "FOUND: two more daughters of Rodolfo Bernardo Lerena and Maria Luisa Caballero; the fourth child of Custodio Lerena; Olivera, Bueno, Castilla (twins), Silva, Lerena-Duran, Urruti and Pelaez-Beratarbide children; Juan Antonio Vaquero, a grandson of Manuel Vaquero and Natalia Lerena baptised at twelve, whose entry joins the two Manuel Vaquero rows without proving them one."
+ },
+ {
+  "src": "FamilySearch - Flores, Marriage Records 1886-1896 (item 6 of DGS film 008152749, 233 images), scanned in the machine transcript for the surname and its wider spellings",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKV-F9SY-R",
+  "waypoint": null,
+  "what": "Flores civil marriages 1886-1896: the Lerena kindred's marriages and witnessings",
+  "when": "2026-11-01",
+  "outcome": "yield",
+  "pages": "1-233 scanned in the transcript; images 2, 31, 123, 124, 169 and 202 returned no transcript and were not read",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "cardozo",
+   "gonzalez",
+   "chavez",
+   "vaquero",
+   "trinidad",
+   "flores",
+   "uruguay",
+   "familysearch",
+   "civil-marriage-records",
+   "machine-transcript"
+  ],
+  "note": "FOUND: the civil act of Bernabe Lerena and Florinda Cardozo (1888) with ages and four sets of grandparents; Pedro Segundo Lerena and Petrona Fernandez (1895); Francisco Gonzalez and Dolores Dominguez (1895, five children legitimated); Albin Chavez and Elvira Cardozo (1896)."
+ },
+ {
+  "src": "FamilySearch - Flores, Birth Records 1888-1892 (item 1, 213 images), scanned in the machine transcript for the surname and its wider spellings",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-8YT",
+  "waypoint": null,
+  "what": "Flores civil births 1888-1892: scanned, not read for names",
+  "when": "2026-11-01",
+  "outcome": "pending",
+  "pages": "1-213 scanned in the transcript; 57 images carry a Lerena-like token but the machine text of these Juez de Paz acts is too garbled (misread names and ages) to enter anything without the plate; images 1, 2, 4 and 125 returned no transcript; nothing was entered from it",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "flores",
+   "uruguay",
+   "familysearch",
+   "civil-birth-records",
+   "machine-transcript"
+  ],
+  "note": "Not done: every act would need the plate. The church baptisms of the same years already name the parents and grandparents."
  }
 ]
