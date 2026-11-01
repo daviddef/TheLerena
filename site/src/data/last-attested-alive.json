@@ -7351,8 +7351,8 @@
  },
  {
   "name": "Feliciano LERENA Alvarez (b. 1892, Trinidad)",
-  "born_est": "1892-01-04",
-  "last_attested_alive": "1892-01-04",
+  "born_est": "1892-01-24",
+  "last_attested_alive": "1892-01-24",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -7632,9 +7632,9 @@
  {
   "name": "Ema COLMAN (b. 1900, dau. of Juan Colman and Maria Leonor Lerena)",
   "born_est": "1900-12-20",
-  "last_attested_alive": "1900-Dec-20",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1900-12-20",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Gerardo Nicasio VAQUERO Lerena (b. 1898, Trinidad)",
@@ -8851,6 +8851,62 @@
   "name": "Eduardo G. PELAEZ (b. 1892, son of Malvino and Alejandrina Lerena; Eduardo Gregorio)",
   "born_est": "1892-03-11",
   "last_attested_alive": "1892-03-11",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Y. FERNANDEZ (b. 1892, son of Segundo and Matilde Cespedes; Ysabelino)",
+  "born_est": "1892-05-21",
+  "last_attested_alive": "1892-05-21",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Mario FERNANDEZ (b. 1893, son of Segundo and Matilde Cespedes)",
+  "born_est": "1893-09-25",
+  "last_attested_alive": "1893-09-25",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Alcides Avelino FERNANDEZ (b. 1894, son of Segundo and Matilde Cespedes)",
+  "born_est": "1894-11-10",
+  "last_attested_alive": "1894-11-10",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Matilde FERNANDEZ (b. 1896, dau. of Segundo and Matilde Cespedes)",
+  "born_est": "1896-01-07",
+  "last_attested_alive": "1896-01-07",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Vicenta E. FERNANDEZ (b. 1897, dau. of Segundo and Matilde Cespedes; Vicenta Elia)",
+  "born_est": "1897-07-19",
+  "last_attested_alive": "1897-07-19",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Margarita BIDONDO (b. 1892, dau. of Beltran Bidondo and Victoriana Fernandez)",
+  "born_est": "1892-10-14",
+  "last_attested_alive": "1892-10-14",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Julia BIDONDO (b. 1895, dau. of Beltran Bidondo and Victoriana Fernandez)",
+  "born_est": "1895-01-28",
+  "last_attested_alive": "1895-01-28",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Beltran BIDONDO (b. 1897, son of Beltran Bidondo and Victoriana Fernandez)",
+  "born_est": "1897-05-22",
+  "last_attested_alive": "1897-05-22",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  }

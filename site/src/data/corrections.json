@@ -1334,5 +1334,13 @@
   "what_is_true": "*** HER CIVIL BIRTH ACT SAYS 12 SEPTEMBER 1907 *** (Flores, Birth Records 1907-1915, image 34, act no. 58, registered 23 September 1907, Venancio Lerena 49 and Venancia Harrison 38). The baptism's date was read by the machine only; the numbering of the civil acts (no. 58 between June and October 1907) supports 1907, and a child born in February 1909 would sit eight months before her brother Rodolfo Justino (7 October 1909). The row keeps its published name and the birth field now reads 1907-09-12; the baptism is to be re-read at the plate.",
   "how_it_was_caught": "Flores, Birth Records 1907-1915 scanned, 2 November 2026; the consistency gate refused two children of one father eight months apart.",
   "retired": "BORN 12 FEBRUARY 1909, FOUND 29 October 2026"
+ },
+ {
+  "date": "2026-11-02",
+  "severity": "minor",
+  "what_was_said": "That FELICIANO LERENA ALVAREZ (the register row 'Feliciano LERENA Alvarez (b. 1892, Trinidad)') was born 4 January 1892, the date of the machine's text of his baptism of 10 May 1892.",
+  "what_is_true": "*** HIS CIVIL BIRTH ACT SAYS 24 JANUARY 1892 *** (Flores, Birth Records 1887-1902, image 100, act no. 7, El Tala, registered 26 January 1892 at eight in the morning; Gualberto Lerena thirty and Rosaura Alvarez thirty; read at the plate: 'el dia veinticuatro del mes de Enero a las tres de la tarde'). An entry two days after the birth, against one of three weeks for the baptism's date as read; the row's birth field now reads 1892-01-24 and its published name is kept; the baptism is to be re-read at the plate.",
+  "how_it_was_caught": "Flores, Birth Records 1887-1902 scanned, 2 November 2026; the plate of the civil act.",
+  "retired": "BORN 4 JANUARY 1892, FOUND 29 October 2026"
  }
 ]

@@ -137,6 +137,13 @@
    "url": "/people/albina-chavez-cardozo/"
   },
   {
+   "name": "Alcides Avelino Fernandez",
+   "aliases": [
+    "Alcides Avelino Fernández"
+   ],
+   "url": "/people/alcides-avelino-fernandez/"
+  },
+  {
    "name": "Alcides Lerena Pelaez",
    "aliases": [],
    "url": "/people/alcides-lerena-pelaez/"
@@ -738,11 +745,6 @@
     "Beatriz Pilar Lerena"
    ],
    "url": "/people/beatriz-pilar-lerena-harrison/"
-  },
-  {
-   "name": "Beltran Bidondo",
-   "aliases": [],
-   "url": "/people/beltran-bidondo/"
   },
   {
    "name": "Benito Larranaga Lerena",
@@ -3724,6 +3726,11 @@
    "url": "/people/julia-bassani/"
   },
   {
+   "name": "Julia Bidondo",
+   "aliases": [],
+   "url": "/people/julia-bidondo/"
+  },
+  {
    "name": "Julia Felicia Pelaez",
    "aliases": [],
    "url": "/people/julia-felicia-pelaez/"
@@ -4195,6 +4202,11 @@
     "Margarita Antonia Fernández González"
    ],
    "url": "/people/margarita-antonia-fernandez-gonzalez/"
+  },
+  {
+   "name": "Margarita Bidondo",
+   "aliases": [],
+   "url": "/people/margarita-bidondo/"
   },
   {
    "name": "Margarita Correas",
@@ -4889,6 +4901,13 @@
    "url": "/people/marina-cirila-fernandez/"
   },
   {
+   "name": "Mario Fernandez",
+   "aliases": [
+    "Mario Fernández"
+   ],
+   "url": "/people/mario-fernandez/"
+  },
+  {
    "name": "Martin Perez",
    "aliases": [],
    "url": "/people/martin-perez/"
@@ -4943,6 +4962,13 @@
     "Matilde Feliciana Lerena"
    ],
    "url": "/people/matilde-feliciana-lerena-harrison/"
+  },
+  {
+   "name": "Matilde Fernandez",
+   "aliases": [
+    "Matilde Fernández"
+   ],
+   "url": "/people/matilde-fernandez/"
   },
   {
    "name": "Mauricio Isidro Lerena Cespedes",
@@ -6404,6 +6430,14 @@
    "url": "/people/?q=Bartolome%20Llerena",
    "bearers": [
     "/people/bartolome-llerena/"
+   ]
+  },
+  {
+   "name": "Beltran Bidondo",
+   "url": "/people/?q=Beltran%20Bidondo",
+   "bearers": [
+    "/people/beltran-bidondo-2/",
+    "/people/beltran-bidondo/"
    ]
   },
   {
