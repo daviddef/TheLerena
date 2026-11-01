@@ -1144,6 +1144,28 @@
      "children": []
     },
     {
+     "slug": "luis-alberto-lerena-caballero",
+     "name": "Luis Alberto LERENA Caballero (b. 1924, Flores)",
+     "exact": false,
+     "status": "unplaced",
+     "born": "1924",
+     "died": "",
+     "where": "Flores · Oriental",
+     "source": "Flores, Birth Records 1916-1925 (item 6 of DGS film 008165367, 290 images …",
+     "father": {
+      "slug": "rodolfo-bernardo-lerena",
+      "name": "Rodolfo Bernardo LERENA (father, Trinidad 1918)",
+      "tree": false
+     },
+     "mother": {
+      "slug": "maria-luisa-caballero",
+      "name": "Maria Luisa CABALLERO (m. Rodolfo Lerena 1917)",
+      "tree": false
+     },
+     "spouses": [],
+     "children": []
+    },
+    {
      "slug": "luis-pelaez-lerena",
      "name": "Luis PELAEZ Lerena (confirmed, Trinidad 1891-1905)",
      "exact": false,

@@ -8594,5 +8594,61 @@
   "last_attested_alive": "1914-03-04",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Ernesto P. LERENA Cardozo (b. 1922; Ernesto Paulo)",
+  "born_est": "1922-05-06",
+  "last_attested_alive": "1922-05-06",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Adelia B. LERENA Cardozo (b. 1923; Adelia Blanca)",
+  "born_est": "1923-05-01",
+  "last_attested_alive": "1923-05-01",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "R. N. LERENA Cardozo (b. 1925; forename read Rosires or Risilio Noe)",
+  "born_est": "1925-07-24",
+  "last_attested_alive": "1925-07-24",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Luis Alberto LERENA Caballero (b. 1924, Flores)",
+  "born_est": "1924-03-23",
+  "last_attested_alive": "1924-03-23",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Blanca H. LERENA Caballero (b. 1925; Blanca Haydee)",
+  "born_est": "1925-05-07",
+  "last_attested_alive": "1925-05-07",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Ricardo E. PELAEZ Lerena (b. 1924; Ricardo Ernesto)",
+  "born_est": "1924-05-31",
+  "last_attested_alive": "1924-05-31",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Alberto M. RODRIGUEZ Lerena (b. 1921; Alberto Madardo)",
+  "born_est": "1921-06-08",
+  "last_attested_alive": "1921-06-08",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "M. PELAEZ (b. 1920, natural daughter of Fidel Bruno Pelaez; Mariana)",
+  "born_est": "1920-09-19",
+  "last_attested_alive": "1920-09-19",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]

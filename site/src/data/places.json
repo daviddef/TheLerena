@@ -1092,6 +1092,26 @@
   "count": 13
  },
  {
+  "slug": "flores",
+  "name": "Flores",
+  "people": [
+   "c-e-lerena-cardozo",
+   "valentina-maisonnave",
+   "rogelio-pelaez",
+   "r-j-lerena-harrison",
+   "e-c-lerena-harrison",
+   "ernesto-p-lerena-cardozo",
+   "adelia-b-lerena-cardozo",
+   "r-n-lerena-cardozo",
+   "luis-alberto-lerena-caballero",
+   "blanca-h-lerena-caballero",
+   "ricardo-e-pelaez-lerena",
+   "alberto-m-rodriguez-lerena",
+   "m-pelaez"
+  ],
+  "count": 13
+ },
+ {
   "slug": "gualeguaychu-entre-rios",
   "name": "Gualeguaychu, Entre Rios",
   "people": [
@@ -1251,18 +1271,6 @@
    "anastasia-lerena",
    "juan-ildebel-alvarez-y-lerena",
    "eduardo-castagnet"
-  ],
-  "count": 5
- },
- {
-  "slug": "flores",
-  "name": "Flores",
-  "people": [
-   "c-e-lerena-cardozo",
-   "valentina-maisonnave",
-   "rogelio-pelaez",
-   "r-j-lerena-harrison",
-   "e-c-lerena-harrison"
   ],
   "count": 5
  },
