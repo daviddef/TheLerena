@@ -1255,6 +1255,18 @@
   "count": 5
  },
  {
+  "slug": "flores",
+  "name": "Flores",
+  "people": [
+   "c-e-lerena-cardozo",
+   "valentina-maisonnave",
+   "rogelio-pelaez",
+   "r-j-lerena-harrison",
+   "e-c-lerena-harrison"
+  ],
+  "count": 5
+ },
+ {
   "slug": "cayasta-garay-santa-fe",
   "name": "Cayasta, Garay, Santa Fe",
   "people": [
@@ -1607,15 +1619,6 @@
   "people": [
    "marcial-de-leon-gonzalez",
    "isabel-lorenzo-araquea"
-  ],
-  "count": 2
- },
- {
-  "slug": "flores",
-  "name": "Flores",
-  "people": [
-   "c-e-lerena-cardozo",
-   "valentina-maisonnave"
   ],
   "count": 2
  },

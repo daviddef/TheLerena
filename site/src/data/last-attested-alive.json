@@ -7911,8 +7911,8 @@
  },
  {
   "name": "A. Leoncia LERENA Harrison (b. 1909, Trinidad)",
-  "born_est": "1909-02-12",
-  "last_attested_alive": "1909-02-12",
+  "born_est": "1907-09-12",
+  "last_attested_alive": "1907-09-12",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -7933,9 +7933,9 @@
  {
   "name": "Sara Benita OLIVERA (b. 1907, dau. of Buenaventura Olivera and Luisa Lerena Beloqui)",
   "born_est": "1907-03-21",
-  "last_attested_alive": "1907-Mar-21",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1907-03-21",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Maximo Mage PELAEZ (b. 1907, son of Maximo and Maria Lerena)",
@@ -7989,9 +7989,9 @@
  {
   "name": "Alfredo ISLA Lerena (b. 1909, Trinidad)",
   "born_est": "1909-05-10",
-  "last_attested_alive": "1909-May-10",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1909-05-10",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Gil ISLA (m. Marcelina Lerena)",
@@ -8010,9 +8010,9 @@
  {
   "name": "Luis Juan PELAEZ Beratarbide (b. 1910, Trinidad)",
   "born_est": "1910-07-11",
-  "last_attested_alive": "1910-Jul-11",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1910-07-11",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Albina CHAVEZ Cardozo (b. 1910, Trinidad)",
@@ -8213,9 +8213,9 @@
  {
   "name": "Hector Juan LERENA Cardozo (b. 1914, Trinidad)",
   "born_est": "1914-07-12",
-  "last_attested_alive": "1914-Jul-12",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1914-07-12",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Vitalino Frailan PELAEZ Lerena (b. 1914, Trinidad)",
@@ -8255,9 +8255,9 @@
  {
   "name": "Doroteo Alejandro RODRIGUEZ Lerena (b. 1915, Trinidad)",
   "born_est": "1915-02-27",
-  "last_attested_alive": "1915-Feb-27",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1915-02-27",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Excelso Moises BUENO Lerena (b. 1916, Trinidad)",
@@ -8573,5 +8573,26 @@
   "last_attested_alive": "1930-Feb-01",
   "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
   "tier": "ALIVE AT"
+ },
+ {
+  "name": "Rogelio PELAEZ (b. 1914, natural son of Fidel Bruno Pelaez)",
+  "born_est": "1914-12-18",
+  "last_attested_alive": "1914-12-18",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "R. J. LERENA Harrison (b. 1909; Rodolfo Justino of the civil act)",
+  "born_est": "1909-10-07",
+  "last_attested_alive": "1909-10-07",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "E. C. LERENA Harrison (b. 1914; Evaristo Casimiro of the civil act)",
+  "born_est": "1914-03-04",
+  "last_attested_alive": "1914-03-04",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]

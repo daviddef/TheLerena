@@ -1326,5 +1326,13 @@
   "what_is_true": "*** SHE WAS A DAUGHTER, ELVIRA IGNACIA, born 31 July 1887, who married Justo German Rios on 26 August 1910. *** The machine's text of the baptism read 'a un nino ... Ignacio Elvido'; the civil act of her marriage (Flores, Marriage Records 1909-1916, image 49, act no. 41) names Dona Elvira Ignacia Lerena, born 31 July 1887, daughter of Florencio P. Lerena and Juana Recuero. The row keeps its published name and is annotated.",
   "how_it_was_caught": "Flores, Marriage Records 1909-1916 scanned, 1 November 2026.",
   "retired": "WHO NAMES HIS GRANDPARENTS, FOUND 29 October 2026"
+ },
+ {
+  "date": "2026-11-02",
+  "severity": "minor",
+  "what_was_said": "That AMELIA LEONCIA LERENA HARRISON (the register row 'A. Leoncia LERENA Harrison (b. 1909, Trinidad)') was born 12 February 1909, the date of the machine's text of her baptism of 28 March 1909.",
+  "what_is_true": "*** HER CIVIL BIRTH ACT SAYS 12 SEPTEMBER 1907 *** (Flores, Birth Records 1907-1915, image 34, act no. 58, registered 23 September 1907, Venancio Lerena 49 and Venancia Harrison 38). The baptism's date was read by the machine only; the numbering of the civil acts (no. 58 between June and October 1907) supports 1907, and a child born in February 1909 would sit eight months before her brother Rodolfo Justino (7 October 1909). The row keeps its published name and the birth field now reads 1907-09-12; the baptism is to be re-read at the plate.",
+  "how_it_was_caught": "Flores, Birth Records 1907-1915 scanned, 2 November 2026; the consistency gate refused two children of one father eight months apart.",
+  "retired": "BORN 12 FEBRUARY 1909, FOUND 29 October 2026"
  }
 ]
