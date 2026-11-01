@@ -515,6 +515,11 @@
        "slug": "juan-francisco-colman",
        "name": "Juan Francisco COLMAN (b. 1904, son of Juan Colman and Maria Leonor Lerena)",
        "tree": false
+      },
+      {
+       "slug": "luis-h-colman-lerena",
+       "name": "Luis H. COLMAN Lerena (b. 1911, Trinidad)",
+       "tree": false
       }
      ]
     },
@@ -1003,6 +1008,28 @@
      "mother": {
       "slug": "julia-salvanach",
       "name": "Julia SALVANACH",
+      "tree": false
+     },
+     "spouses": [],
+     "children": []
+    },
+    {
+     "slug": "luis-h-colman-lerena",
+     "name": "Luis H. COLMAN Lerena (b. 1911, Trinidad)",
+     "exact": false,
+     "status": "unplaced",
+     "born": "1911",
+     "died": "",
+     "where": "Trinidad, Flores · Oriental",
+     "source": "Santisima Trinidad, Baptism Records March 1911-April 1914 (item 1 of DGS film 008163897, 204 images), image 53 (ark 3:1:3Q9M-CS27-FQZL-4), the baptism …",
+     "father": {
+      "slug": "juan-colman",
+      "name": "Juan COLMAN (m. Maria Leonor Lerena 1898)",
+      "tree": false
+     },
+     "mother": {
+      "slug": "maria-leonor-lerena-beloqui",
+      "name": "Maria Leonor LERENA Beloqui",
       "tree": false
      },
      "spouses": [],
