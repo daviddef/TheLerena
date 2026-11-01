@@ -72,6 +72,8 @@ TWINS = {
         "entries no. 83 (9 June 1914) and no. 104 (12 June 1914) of Trinidad Baptism Records April 1914-May 1917 (item 2 of DGS film 008163897, images 17 and 20) both read 'que nacio el primero de Abril de mil novecientos catorce' to Fausto Santos Gutierrez and Eduviges Fernanda, baptised three days apart - MACHINE TRANSCRIPT, the plate not opened: declared on the strength of two entries each stating the same day",
     ("Cipriano LERENA Sena (b. 1909, twin, El Tala)", "Doroteo LERENA Sena (b. 1909, twin, El Tala)"):
         "acts no. 31 (10 p.m.) and no. 32 (10.30 p.m.) of Flores, Birth Records 1903-1913 (item 6 of DGS film 008165366, image 132, ark 3:1:3Q9M-CS24-333K-3), both written on 7 September 1909 and both stating the birth on 28 August 1909 at Manantiales to Doroteo Donato Lerena and Valentina Sena, each adding that another child of the same birth died unnamed - IMAGE READ at the plate, 2 November 2026",
+    ("Maria Isabel RODRIGUEZ (b. 1902, twin, dau. of Juan Rodriguez Cames and Isabel L. Barragan)", "Maria Juana RODRIGUEZ (b. 1902, dau. of Juan Rodriguez Cames and Isabel L. Barragan)"):
+        "acts no. 24 (11 p.m.) and no. 25 (1 p.m.) of Flores, Birth Records 1902-1914 (item 10 of DGS film 008165366, image 17, ark 3:1:3Q9M-CS24-3345-N), both written on 1 December 1902 by Isabel Llerena for Juan Rodriguez Cames and both stating the birth on 13 November 1902, each with the margin 'Del mismo parto nacio otra criatura' - IMAGE READ at the plate, 2 November 2026",
     ("Maria Carlota MORATORIO Lerena", "Maria de las Mercedes MORATORIO Lerena"):
         "both acts of 8 March 1880 at the Catedral Basilica read 'que nacio el VEINTE Y CUATRO DE "
         "FEBRERO ultimo' - film 007713378 image 02598, IMAGE READ",

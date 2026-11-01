@@ -517,6 +517,11 @@
      ],
      "children": [
       {
+       "slug": "celia-colman",
+       "name": "Celia COLMAN (b. 1902, dau. of Juan Colman and Maria Leonor Lerena)",
+       "tree": false
+      },
+      {
        "slug": "ema-colman",
        "name": "Ema COLMAN (b. 1900, dau. of Juan Colman and Maria Leonor Lerena)",
        "tree": false
@@ -529,6 +534,11 @@
       {
        "slug": "juan-francisco-colman",
        "name": "Juan Francisco COLMAN (b. 1904, son of Juan Colman and Maria Leonor Lerena)",
+       "tree": false
+      },
+      {
+       "slug": "justina-colman",
+       "name": "Justina COLMAN (b. 1906, dau. of Juan Colman and Maria Leonor Lerena)",
        "tree": false
       },
       {

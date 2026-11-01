@@ -1167,6 +1167,11 @@
    "url": "/people/celestino-munoz/"
   },
   {
+   "name": "Celia Colman",
+   "aliases": [],
+   "url": "/people/celia-colman/"
+  },
+  {
    "name": "Celia Juanico Lenguas",
    "aliases": [
     "Celia Juanico",
@@ -3768,6 +3773,11 @@
    "url": "/people/justa-pastora-lerena/"
   },
   {
+   "name": "Justina Colman",
+   "aliases": [],
+   "url": "/people/justina-colman/"
+  },
+  {
    "name": "Justina Lerena Alvarez",
    "aliases": [],
    "url": "/people/justina-lerena-alvarez/"
@@ -4605,8 +4615,6 @@
   {
    "name": "Maria Isabel Rodriguez Lerena",
    "aliases": [
-    "Maria Isabel Rodriguez",
-    "María Isabel Rodriguez",
     "María Isabel Rodriguez Lerena"
    ],
    "url": "/people/maria-isabel-rodriguez-lerena/"
@@ -7453,6 +7461,13 @@
    ]
   },
   {
+   "name": "Maria Isabel Rodriguez",
+   "url": "/people/?q=Maria%20Isabel%20Rodriguez",
+   "bearers": [
+    "/people/maria-isabel-rodriguez/"
+   ]
+  },
+  {
    "name": "Maria Juana",
    "url": "/people/?q=Maria%20Juana",
    "bearers": [
@@ -7628,6 +7643,13 @@
      "near": "/people/gregorio-santa-cruz/",
      "url": "/people/maria-gonzalez/"
     }
+   ]
+  },
+  {
+   "name": "María Isabel Rodriguez",
+   "url": "/people/?q=Maria%20Isabel%20Rodriguez",
+   "bearers": [
+    "/people/maria-isabel-rodriguez/"
    ]
   },
   {

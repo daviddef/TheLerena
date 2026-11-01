@@ -6455,8 +6455,8 @@
  },
  {
   "name": "Linda Maria LERENA Harrison (b. 1905, d. 1905)",
-  "born_est": "1905c",
-  "last_attested_alive": "1905c",
+  "born_est": "1905-06-19",
+  "last_attested_alive": "1905-06-19",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -8080,9 +8080,9 @@
  {
   "name": "Eliseo I. LERENA Plaza (b. 1912, Trinidad; baptised Eliseo Ismael)",
   "born_est": "1912-02-14",
-  "last_attested_alive": "1912-Feb-14",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1912-02-14",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Saul A. LERENA Cardozo (b. 1912, Trinidad; baptised Saul Antonio)",
@@ -8907,6 +8907,27 @@
   "name": "Beltran BIDONDO (b. 1897, son of Beltran Bidondo and Victoriana Fernandez)",
   "born_est": "1897-05-22",
   "last_attested_alive": "1897-05-22",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maria Isabel RODRIGUEZ (b. 1902, twin, dau. of Juan Rodriguez Cames and Isabel L. Barragan)",
+  "born_est": "1902-11-13",
+  "last_attested_alive": "1902-11-13",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Celia COLMAN (b. 1902, dau. of Juan Colman and Maria Leonor Lerena)",
+  "born_est": "1902-03-11",
+  "last_attested_alive": "1902-03-11",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Justina COLMAN (b. 1906, dau. of Juan Colman and Maria Leonor Lerena)",
+  "born_est": "1906-04-14",
+  "last_attested_alive": "1906-04-14",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  }
