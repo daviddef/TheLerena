@@ -6974,9 +6974,9 @@
  {
   "name": "Mauricio Isidro LERENA Cespedes (b. 1881, Trinidad)",
   "born_est": "1881",
-  "last_attested_alive": "1882-Apr-27",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1881",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Jacinta Margarita LERENA Cespedes (b. 1883, Trinidad)",
@@ -7569,9 +7569,9 @@
  {
   "name": "Julia Felicia PELAEZ (b. 1900, dau. of Malvino and Alejandrina Lerena)",
   "born_est": "1900-02-25",
-  "last_attested_alive": "1900-02-25",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "last_attested_alive": "1923-Jun-18",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
  },
  {
   "name": "Antonina Perpetua PELAEZ (b. 1900, dau. of Isidro and Clara Alvarez)",
@@ -7996,9 +7996,9 @@
  {
   "name": "Gil ISLA (m. Marcelina Lerena)",
   "born_est": "-",
-  "last_attested_alive": "1909-Dec-15",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Elisa FERNANDEZ Cespedes (b. 1910, Trinidad)",
@@ -8559,5 +8559,19 @@
   "last_attested_alive": "1920-09-30",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "C. E. LERENA Cardozo (b. 1896; Coralio Eustaquio, m. 1930)",
+  "born_est": "1896-10-12",
+  "last_attested_alive": "1896-10-12",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Valentina MAISONNAVE (m. Coralio Eustaquio Lerena 1930)",
+  "born_est": "1901-07-25",
+  "last_attested_alive": "1930-Feb-01",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
  }
 ]

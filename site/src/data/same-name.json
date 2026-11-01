@@ -1798,6 +1798,11 @@
      "spouses": [],
      "children": [
       {
+       "slug": "c-e-lerena-cardozo",
+       "name": "C. E. LERENA Cardozo (b. 1896; Coralio Eustaquio, m. 1930)",
+       "tree": false
+      },
+      {
        "slug": "custodio-lerena",
        "name": "Custodio LERENA",
        "tree": false
