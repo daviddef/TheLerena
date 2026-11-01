@@ -7968,9 +7968,9 @@
  {
   "name": "Vitalino Yndalecio LERENA (m. Rosa Casavalle 1895)",
   "born_est": "1870c",
-  "last_attested_alive": "1895-Feb-22",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1870c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Francisca Zulema PEDREIRA (m. Juan Pedro Olivera 1940)",
