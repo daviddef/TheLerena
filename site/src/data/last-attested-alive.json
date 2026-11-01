@@ -2871,8 +2871,8 @@
  },
  {
   "name": "Florinda Juana LERENA (of Trinidad, m. Vitalino Gregorio Pelaez 1913)",
-  "born_est": "1891",
-  "last_attested_alive": "1891",
+  "born_est": "1890",
+  "last_attested_alive": "1890",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -8830,6 +8830,27 @@
   "name": "A. PABEN (b. 1890, son of Ramon Paben and Sofia Fernandez; Abelino)",
   "born_est": "1890-10-22",
   "last_attested_alive": "1890-10-22",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Jacinta L. LERENA Harrison (b. 1891; Jacinta Lara)",
+  "born_est": "1891-08-16",
+  "last_attested_alive": "1891-08-16",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Matilde CARDOZO (b. 1891, dau. of Eliseo and Maria Lerena)",
+  "born_est": "1891-12-10",
+  "last_attested_alive": "1891-12-10",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Eduardo G. PELAEZ (b. 1892, son of Malvino and Alejandrina Lerena; Eduardo Gregorio)",
+  "born_est": "1892-03-11",
+  "last_attested_alive": "1892-03-11",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  }

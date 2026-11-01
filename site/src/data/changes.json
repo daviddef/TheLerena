@@ -5,6 +5,11 @@
    "date": "2026-11-02",
    "commits": [
     {
+     "sha": "31da790",
+     "subject": "Flores civil births 1887-1901 (Pintos, San Gregorio): Sibila Lerena, the natural daughter of Isabel Lerena Barragan (born 23 January 1894; her grandparents Fermin Lerena, forty-two, and Paulina Barragan, thirty-eight; her brother Faustino signs for her) and Abelino Paben (22 October 1890, a grandson of Socorro Lerena) new to the register, acts read at the plate; the civil act names the baptised Cristina Alberta Fernandez JUSTINA Alberta (row not renamed); Reinaldo Pallares alive in September 1896, Clara Lerena fifty in 1896; ages for Socorro, Bernabe, Casimira, Fermin; images 1-34 (1887-1889) too garbled to read names and left pending, images 2 and 140 untranscribed, volume not claimed walked",
+     "body": ""
+    },
+    {
      "sha": "f8b0cbd",
      "subject": "Flores civil births 1903-1913 (El Tala, Cuarta Seccion): the twins Cipriano and Doroteo Lerena Sena (28 August 1909, sons of Doroteo Donato Lerena and Valentina Sena; a third child of the birth died unnamed; act read at the plate and the twins declared in tools/consistency.py); five grandchildren of Socorro Lerena new to the register (Evaristo Tomas 1904 and Americo Fructuoso 1907 Fernandez; Elio 1904 and Sofia 1909 Paben); Socorro Lerena seventy-two to seventy-eight; the Cipriano Lerena of 1940 noted as a candidate for the twin, not merged; images 2, 79, 163 and 225 untranscribed, volume not claimed walked; the image-ark wording of the earlier Flores birth-book rows corrected",
      "body": ""
