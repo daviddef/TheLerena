@@ -8776,5 +8776,47 @@
   "last_attested_alive": "1903-07-26",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Cipriano LERENA Sena (b. 1909, twin, El Tala)",
+  "born_est": "1909-08-28",
+  "last_attested_alive": "1909-08-28",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Doroteo LERENA Sena (b. 1909, twin, El Tala)",
+  "born_est": "1909-08-28",
+  "last_attested_alive": "1909-08-28",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Evaristo T. FERNANDEZ (b. 1904, son of Segundo and Matilde Cespedes; Evaristo Tomas)",
+  "born_est": "1904-03-07",
+  "last_attested_alive": "1904-03-07",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Americo F. FERNANDEZ (b. 1907, son of Segundo and Matilde Cespedes; Americo Fructuoso)",
+  "born_est": "1907-01-21",
+  "last_attested_alive": "1907-01-21",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "E. PABEN (b. 1904, son of Ramon Paben and Sofia Fernandez; Elio)",
+  "born_est": "1904-08-03",
+  "last_attested_alive": "1904-08-03",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Sofia PABEN (b. 1909, dau. of Ramon Paben and Sofia Fernandez)",
+  "born_est": "1909-10-14",
+  "last_attested_alive": "1909-10-14",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]

@@ -1213,6 +1213,13 @@
    "url": "/people/cipriana-saenz-pena/"
   },
   {
+   "name": "Cipriano Lerena Sena",
+   "aliases": [
+    "Cipriano Lerena Seña"
+   ],
+   "url": "/people/cipriano-lerena-sena/"
+  },
+  {
    "name": "Cipriano Lerena Montana",
    "aliases": [],
    "url": "/people/cipriano-lerena/"
@@ -1792,6 +1799,13 @@
     "Doroteo Larranaga"
    ],
    "url": "/people/doroteo-larranaga-lerena/"
+  },
+  {
+   "name": "Doroteo Lerena Sena",
+   "aliases": [
+    "Doroteo Lerena Seña"
+   ],
+   "url": "/people/doroteo-lerena-sena/"
   },
   {
    "name": "Bordoni Posse",
@@ -5870,7 +5884,6 @@
   {
    "name": "Sofia Paben Fernandez",
    "aliases": [
-    "Sofia Paben",
     "Sofia Paben Fernández",
     "Sofia Taben"
    ],
@@ -6607,10 +6620,6 @@
     "/people/doroteo-lerena/"
    ],
    "resolve": [
-    {
-     "near": "/people/valentina-sena/",
-     "url": "/people/doroteo-donato-lerena-beloqui/"
-    },
     {
      "near": "/people/isidora-cardozo/",
      "url": "/people/doroteo-lerena/"
@@ -8068,6 +8077,13 @@
   {
    "name": "Socorro Lerena",
    "url": "/people/?q=Socorro%20Lerena"
+  },
+  {
+   "name": "Sofia Paben",
+   "url": "/people/?q=Sofia%20Paben",
+   "bearers": [
+    "/people/sofia-paben/"
+   ]
   },
   {
    "name": "Susana Llerena",
