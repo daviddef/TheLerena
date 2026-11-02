@@ -5182,9 +5182,9 @@
  {
   "name": "Esperanza GONZALEZ (m. Damaso NEGROTTO 1884)",
   "born_est": "1858c",
-  "last_attested_alive": "1884-Feb-20",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1858c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Damaso NEGROTTO (m. Esperanza Gonzalez 1884)",
@@ -7191,9 +7191,9 @@
  {
   "name": "Carmen Petronila BIDONDO (b. 1887, Trinidad)",
   "born_est": "1887-05-31",
-  "last_attested_alive": "1887-Jun-16",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1887-05-31",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Angel Custodio Carmelo LERENA Cardozo (b. 1889, Trinidad)",
@@ -8949,6 +8949,34 @@
   "name": "Maria FERNANDEZ (b. 1902, twin, dau. of Ramon Fernandez and Apolinaria Sena)",
   "born_est": "1902-02-27",
   "last_attested_alive": "1902-02-27",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Alberto FERNANDEZ (b. 1887, son of Serapio Fernandez and Antonina Lerena)",
+  "born_est": "1887-09-30",
+  "last_attested_alive": "1887-09-30",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Delfina R. GONZALEZ (b. 1887, dau. of Cayetano Gonzalez and Carmen Fernandez; Delfina Ramona)",
+  "born_est": "1887-12-04",
+  "last_attested_alive": "1887-12-04",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Alejandro BIDONDO (b. 1888, son of Beltran Bidondo and Victoriana Fernandez)",
+  "born_est": "1888-09-21",
+  "last_attested_alive": "1888-09-21",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Mario L. NEGROTTO (b. 1887, son of Damaso Negrotto and Esperanza Gonzalez; Mario Leopoldo Eugenio)",
+  "born_est": "1887-03-18",
+  "last_attested_alive": "1887-03-18",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  }

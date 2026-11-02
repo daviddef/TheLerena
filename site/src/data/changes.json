@@ -5,6 +5,11 @@
    "date": "2026-11-02",
    "commits": [
     {
+     "sha": "7ad6cdf",
+     "subject": "Flores civil births, the 'March-December 1888' volume (Segunda Seccion, El Sarandi, Trinidad; the leaves run 1888-1902): Tolentino (10 September 1895) and Maximo (31 May 1897) Gonzalez, grandchildren of Ramon Fernandez and Maria Lerena by Carmen Fernandez and Cayetano Gonzalez, and Maria Fernandez, the twin sister of the Ramon Maria already held (27 February 1902; both acts read at the plate, the mother written Apolinaria SENA, the twins declared in tools/consistency.py), new to the register; Alberto Facundo Gonzalez was born 27 November 1891, not the 27 October of the baptism's machine text (row and corrections corrected); ages for Carmen Fernandez, Cayetano Gonzalez, Gervasio Sena, Asuncion Segovia and Bernabe Lerena (sixty-three in March 1902 against sixty-six in January); four leaves read at the plate, image 156 untranscribed, volume not claimed walked",
+     "body": ""
+    },
+    {
      "sha": "9c84c4f",
      "subject": "Flores civil births 1902-1914 (Costa de San Jose, Pintos, Chamanga, San Gregorio): Maria Isabel Rodriguez (twin of the held Maria Juana, 13 November 1902, both acts read at the plate and the twins declared in tools/consistency.py), Celia Colman (11 March 1902) and Justina Colman (14 April 1906) new to the register; the plate of 2 July 1905 writes Alejandro F. Lerena (the initial the 1888-91 acts left unsettled between J and F); Linda Lerena born 19 June 1905; the civil names Luis Alberto and Ismael against the baptisms' Luis H. and Eliseo Ismael (rows not renamed); Cipriano Lerena's stated ages 64, 58, 59 and 61 not reconciled; Eliseo Lerena thirty-one and Clara Plaza seventeen in February 1912; three leaves read at the plate, ten leaves name the surname, volume not claimed walked",
      "body": ""
