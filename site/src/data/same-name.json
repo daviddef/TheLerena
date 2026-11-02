@@ -939,7 +939,13 @@
       "name": "Carmen LERENA Pelaez",
       "tree": false
      },
-     "spouses": [],
+     "spouses": [
+      {
+       "slug": "b-j-magallanes",
+       "name": "B. J. MAGALLANES (m. Maria Luisa Mugular 1941; Bautista Julian)",
+       "tree": false
+      }
+     ],
      "children": []
     },
     {
@@ -989,7 +995,13 @@
       "name": "Maria Luisa CABALLERO (m. Rodolfo Lerena 1917)",
       "tree": false
      },
-     "spouses": [],
+     "spouses": [
+      {
+       "slug": "c-d-vallejo",
+       "name": "C. D. VALLEJO (m. Maria Josefina Lerena 1944; Claudio Deiduvino)",
+       "tree": false
+      }
+     ],
      "children": []
     },
     {

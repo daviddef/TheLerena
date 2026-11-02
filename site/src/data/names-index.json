@@ -6074,6 +6074,11 @@
    "url": "/people/tomasa-margarita-lerena-montano/"
   },
   {
+   "name": "Tomasa Rodriguez",
+   "aliases": [],
+   "url": "/people/tomasa-rodriguez/"
+  },
+  {
    "name": "Trinidad Morales",
    "aliases": [],
    "url": "/people/trinidad-morales/"
@@ -7926,6 +7931,19 @@
    "url": "/people/?q=Mercedes%20Lorena",
    "bearers": [
     "/people/mercedes-lorena/"
+   ]
+  },
+  {
+   "name": "Miguel Lerena",
+   "url": "/people/?q=Miguel%20Lerena",
+   "bearers": [
+    "/people/miguel-lerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/tomasa-rodriguez/",
+     "url": "/people/miguel-lerena/"
+    }
    ]
   },
   {

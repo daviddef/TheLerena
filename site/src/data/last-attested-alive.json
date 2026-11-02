@@ -9112,5 +9112,61 @@
   "last_attested_alive": "1916-07-12",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "I. M. LERENA Rodriguez (b. 1902; Ildemaro Manuel)",
+  "born_est": "1902-09-29",
+  "last_attested_alive": "1902-09-29",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Miguel LERENA (of Villa de Sarandi, m. Tomasa Rodriguez)",
+  "born_est": "-",
+  "last_attested_alive": "1937-May-15",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Tomasa RODRIGUEZ (m. Miguel Lerena of Villa de Sarandi)",
+  "born_est": "-",
+  "last_attested_alive": "1937-May-15",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "M. M. LABRAGA (m. Ildemaro Lerena 1937; Maria Mercedes)",
+  "born_est": "1908-05-22",
+  "last_attested_alive": "1908-05-22",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "T. M. CARDOZO (m. Felicia Leoncia Lerena 1931; Teofilo Manuel)",
+  "born_est": "1894-01-08",
+  "last_attested_alive": "1894-01-08",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "C. M. RODRIGUEZ (m. Violeta Blanca Lerena 1934; Claudio Maria)",
+  "born_est": "1903-08-30",
+  "last_attested_alive": "1903-08-30",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "C. D. VALLEJO (m. Maria Josefina Lerena 1944; Claudio Deiduvino)",
+  "born_est": "1909-10-30",
+  "last_attested_alive": "1909-10-30",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "B. J. MAGALLANES (m. Maria Luisa Mugular 1941; Bautista Julian)",
+  "born_est": "1918-03-14",
+  "last_attested_alive": "1918-03-14",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]
