@@ -7975,9 +7975,9 @@
  {
   "name": "Francisca Zulema PEDREIRA (m. Juan Pedro Olivera 1940)",
   "born_est": "-",
-  "last_attested_alive": "1909-Nov-20",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Fermin LERENA Arrascaeta (b. 1909, Trinidad)",
