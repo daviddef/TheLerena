@@ -1199,9 +1199,9 @@
  {
   "name": "Faustino LERENA Barragan",
   "born_est": "1877-03-18",
-  "last_attested_alive": "1877-03-18",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "last_attested_alive": "1913",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
  },
  {
   "name": "Maria Regina LERENA Barragan",
