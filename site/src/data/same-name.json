@@ -961,7 +961,13 @@
       "name": "Luisa LERENA Beloqui (b. c.1884, m. Buenaventura Olivera 1906)",
       "tree": false
      },
-     "spouses": [],
+     "spouses": [
+      {
+       "slug": "juan-jose-camacho",
+       "name": "Juan Jose CAMACHO (m. Maria Luisa Olivera 1933)",
+       "tree": false
+      }
+     ],
      "children": []
     },
     {

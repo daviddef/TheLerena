@@ -9056,5 +9056,40 @@
   "last_attested_alive": "1905c",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Dionisio DELGADO (m. Violeta Elida Lerena 1936)",
+  "born_est": "1915-04-08",
+  "last_attested_alive": "1915-04-08",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Hipolito CANTERA (m. Sara Olivera 1933)",
+  "born_est": "1908-08-13",
+  "last_attested_alive": "1908-08-13",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Juan Jose CAMACHO (m. Maria Luisa Olivera 1933)",
+  "born_est": "1910-05-19",
+  "last_attested_alive": "1910-05-19",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Nicolas PLAZA (m. M. Luisa Bernarda Lerena 1936)",
+  "born_est": "1897-12-06",
+  "last_attested_alive": "1897-12-06",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "R. P. OLIVERA Lerena (b. 1912, Trinidad; baptised Regino Pablo)",
+  "born_est": "1912-01-15",
+  "last_attested_alive": "1912-01-15",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]

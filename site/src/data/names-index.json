@@ -1408,6 +1408,11 @@
    "url": "/people/diega-islas/"
   },
   {
+   "name": "Dionisio Delgado",
+   "aliases": [],
+   "url": "/people/dionisio-delgado/"
+  },
+  {
    "name": "Dolores Carmen Gonzalez",
    "aliases": [
     "Dolores Carmen González"
@@ -2769,6 +2774,11 @@
    "url": "/people/hilario-barros-llerena/"
   },
   {
+   "name": "Hipolito Cantera",
+   "aliases": [],
+   "url": "/people/hipolito-cantera/"
+  },
+  {
    "name": "Hipolito Fructuoso Fernandez Lerena",
    "aliases": [
     "Hipolito Fructuoso Fernandez",
@@ -3533,6 +3543,13 @@
    "name": "Juan Jordan",
    "aliases": [],
    "url": "/people/juan-jordan/"
+  },
+  {
+   "name": "Juan Jose Camacho",
+   "aliases": [
+    "Juan José Camacho"
+   ],
+   "url": "/people/juan-jose-camacho/"
   },
   {
    "name": "Juan Jose Lerena Harrison",
@@ -5147,6 +5164,11 @@
    "name": "Nicolas Benteno",
    "aliases": [],
    "url": "/people/nicolas-benteno/"
+  },
+  {
+   "name": "Nicolas Plaza",
+   "aliases": [],
+   "url": "/people/nicolas-plaza/"
   },
   {
    "name": "Nicolas Yrigoyen",
@@ -7586,6 +7608,10 @@
      "url": "/people/maria-lerena/"
     },
     {
+     "near": "/people/juan-jose-camacho/",
+     "url": "/people/maria-luisa-olivera-lerena/"
+    },
+    {
      "near": "/people/juan-castilla/",
      "url": "/people/maria-regina-lerena-barragan/"
     },
@@ -7616,6 +7642,12 @@
    "bearers": [
     "/people/maria-luisa-lerena-2/",
     "/people/maria-luisa-lerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/juan-jose-camacho/",
+     "url": "/people/maria-luisa-olivera-lerena/"
+    }
    ]
   },
   {
@@ -7785,6 +7817,10 @@
      "url": "/people/maria-lerena/"
     },
     {
+     "near": "/people/juan-jose-camacho/",
+     "url": "/people/maria-luisa-olivera-lerena/"
+    },
+    {
      "near": "/people/juan-castilla/",
      "url": "/people/maria-regina-lerena-barragan/"
     },
@@ -7815,6 +7851,12 @@
    "bearers": [
     "/people/maria-luisa-lerena-2/",
     "/people/maria-luisa-lerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/juan-jose-camacho/",
+     "url": "/people/maria-luisa-olivera-lerena/"
+    }
    ]
   },
   {
