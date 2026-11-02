@@ -4986,6 +4986,15 @@
    "url": "/people/mauricio-isidro-lerena-cespedes/"
   },
   {
+   "name": "Maximo Gonzalez",
+   "aliases": [
+    "Maximo González",
+    "Máximo Gonzalez",
+    "Máximo González"
+   ],
+   "url": "/people/maximo-gonzalez/"
+  },
+  {
    "name": "Maximo Mage Pelaez",
    "aliases": [
     "Máximo Mage Pelaez"
@@ -7419,6 +7428,20 @@
    ]
   },
   {
+   "name": "Maria Fernandez",
+   "url": "/people/?q=Maria%20Fernandez",
+   "bearers": [
+    "/people/maria-fernandez/"
+   ]
+  },
+  {
+   "name": "Maria Fernández",
+   "url": "/people/?q=Maria%20Fernandez",
+   "bearers": [
+    "/people/maria-fernandez/"
+   ]
+  },
+  {
    "name": "Maria Gonzalez",
    "url": "/people/?q=Maria%20Gonzalez",
    "bearers": [
@@ -7601,6 +7624,20 @@
    "url": "/people/?q=Maria%20Elena%20Lerena",
    "bearers": [
     "/people/maria-elena-lerena/"
+   ]
+  },
+  {
+   "name": "María Fernandez",
+   "url": "/people/?q=Maria%20Fernandez",
+   "bearers": [
+    "/people/maria-fernandez/"
+   ]
+  },
+  {
+   "name": "María Fernández",
+   "url": "/people/?q=Maria%20Fernandez",
+   "bearers": [
+    "/people/maria-fernandez/"
    ]
   },
   {

@@ -1342,5 +1342,13 @@
   "what_is_true": "*** HIS CIVIL BIRTH ACT SAYS 24 JANUARY 1892 *** (Flores, Birth Records 1887-1902, image 100, act no. 7, El Tala, registered 26 January 1892 at eight in the morning; Gualberto Lerena thirty and Rosaura Alvarez thirty; read at the plate: 'el dia veinticuatro del mes de Enero a las tres de la tarde'). An entry two days after the birth, against one of three weeks for the baptism's date as read; the row's birth field now reads 1892-01-24 and its published name is kept; the baptism is to be re-read at the plate.",
   "how_it_was_caught": "Flores, Birth Records 1887-1902 scanned, 2 November 2026; the plate of the civil act.",
   "retired": "BORN 4 JANUARY 1892, FOUND 29 October 2026"
+ },
+ {
+  "date": "2026-11-02",
+  "severity": "minor",
+  "what_was_said": "That ALBERTO FACUNDO GONZALEZ FERNANDEZ (the register row 'Alberto Facundo GONZALEZ Fernandez (b. 1891, Trinidad)') was born 27 October 1891, the date of the machine's text of his baptism of 16 December 1891.",
+  "what_is_true": "*** HIS CIVIL BIRTH ACT SAYS 27 NOVEMBER 1891 *** (Flores, Birth Records March 1888-December 1888, image 91, act no. 39, El Sarandi, entered 12 December 1891 at three in the afternoon; Cayetano Gonzalez forty-four and Carmen Fernandez twenty-seven; read at the plate: 'el dia veinte y siete del mes de Noviembre a las cinco de la manana'). An entry fifteen days after the birth against seven weeks for the baptism's date as read; the row's birth field now reads 1891-11-27 and its published name is kept; the baptism is to be re-read at the plate.",
+  "how_it_was_caught": "Flores, Birth Records March 1888-December 1888 scanned, 2 November 2026; the plate of the civil act.",
+  "retired": "BORN 27 OCTOBER 1891, FOUND 29 October 2026"
  }
 ]
