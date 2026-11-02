@@ -721,12 +721,30 @@
    ]
   },
   {
+   "id": "film-8165899",
+   "url": "https://www.familysearch.org/search/film/008165899",
+   "label": "FamilySearch film 008165899",
+   "kind": "film",
+   "key": [
+    "8165899"
+   ]
+  },
+  {
    "id": "film-8165900",
    "url": "https://www.familysearch.org/search/film/008165900",
    "label": "FamilySearch film 008165900",
    "kind": "film",
    "key": [
     "8165900"
+   ]
+  },
+  {
+   "id": "film-8165905",
+   "url": "https://www.familysearch.org/search/film/008165905",
+   "label": "FamilySearch film 008165905",
+   "kind": "film",
+   "key": [
+    "8165905"
    ]
   },
   {
@@ -4339,12 +4357,39 @@
    ]
   },
   {
+   "id": "ark-3-1-3Q9M-CS24-Q413",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-Q413",
+   "label": "Flores, civil death register titled 'Certificates January 1928-January 1929' (item 2 of DGS film 008165905, 292 images; its acts r",
+   "kind": "ark",
+   "key": [
+    "3:1:3Q9M-CS24-Q413"
+   ]
+  },
+  {
+   "id": "ark-3-1-3Q9M-CS24-Q4TQ",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-Q4TQ",
+   "label": "FamilySearch image 3:1:3Q9M-CS24-Q4TQ",
+   "kind": "ark",
+   "key": [
+    "3:1:3Q9M-CS24-Q4TQ"
+   ]
+  },
+  {
    "id": "ark-3-1-3Q9M-CS24-Q4WV",
    "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-Q4WV",
    "label": "Flores, Death Records July 1887 - October 1888 (195 images, which hold acts of the Quinta Seccion, Pintos and San Gregorio, of 189",
    "kind": "ark",
    "key": [
     "3:1:3Q9M-CS24-Q4WV"
+   ]
+  },
+  {
+   "id": "ark-3-1-3Q9M-CS24-Q4X7",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-Q4X7",
+   "label": "Flores, Death Records June 1887-September 1930 (item 6 of DGS film 008165905, 177 images; Cuarta Seccion: La Guardia, El Tala, Cos",
+   "kind": "ark",
+   "key": [
+    "3:1:3Q9M-CS24-Q4X7"
    ]
   },
   {
@@ -4411,6 +4456,15 @@
    ]
   },
   {
+   "id": "ark-3-1-3Q9M-CS24-Q797",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-Q797",
+   "label": "FamilySearch image 3:1:3Q9M-CS24-Q797",
+   "kind": "ark",
+   "key": [
+    "3:1:3Q9M-CS24-Q797"
+   ]
+  },
+  {
    "id": "ark-3-1-3Q9M-CS24-Q7GQ",
    "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-Q7GQ",
    "label": "FamilySearch image 3:1:3Q9M-CS24-Q7GQ",
@@ -4453,6 +4507,42 @@
    "kind": "ark",
    "key": [
     "3:1:3Q9M-CS24-Q7YH"
+   ]
+  },
+  {
+   "id": "ark-3-1-3Q9M-CS24-Q8FX",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-Q8FX",
+   "label": "FamilySearch image 3:1:3Q9M-CS24-Q8FX",
+   "kind": "ark",
+   "key": [
+    "3:1:3Q9M-CS24-Q8FX"
+   ]
+  },
+  {
+   "id": "ark-3-1-3Q9M-CS24-Q8G4",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-Q8G4",
+   "label": "FamilySearch image 3:1:3Q9M-CS24-Q8G4",
+   "kind": "ark",
+   "key": [
+    "3:1:3Q9M-CS24-Q8G4"
+   ]
+  },
+  {
+   "id": "ark-3-1-3Q9M-CS24-Q8GB",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-Q8GB",
+   "label": "FamilySearch image 3:1:3Q9M-CS24-Q8GB",
+   "kind": "ark",
+   "key": [
+    "3:1:3Q9M-CS24-Q8GB"
+   ]
+  },
+  {
+   "id": "ark-3-1-3Q9M-CS24-Q8PQ",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-Q8PQ",
+   "label": "FamilySearch image 3:1:3Q9M-CS24-Q8PQ",
+   "kind": "ark",
+   "key": [
+    "3:1:3Q9M-CS24-Q8PQ"
    ]
   },
   {
@@ -4510,6 +4600,15 @@
    ]
   },
   {
+   "id": "ark-3-1-3Q9M-CS24-QD9Z",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-QD9Z",
+   "label": "FamilySearch image 3:1:3Q9M-CS24-QD9Z",
+   "kind": "ark",
+   "key": [
+    "3:1:3Q9M-CS24-QD9Z"
+   ]
+  },
+  {
    "id": "ark-3-1-3Q9M-CS24-QDG3",
    "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-QDG3",
    "label": "FamilySearch image 3:1:3Q9M-CS24-QDG3",
@@ -4528,12 +4627,48 @@
    ]
   },
   {
+   "id": "ark-3-1-3Q9M-CS24-QF5V",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-QF5V",
+   "label": "FamilySearch image 3:1:3Q9M-CS24-QF5V",
+   "kind": "ark",
+   "key": [
+    "3:1:3Q9M-CS24-QF5V"
+   ]
+  },
+  {
+   "id": "ark-3-1-3Q9M-CS24-QF5X",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-QF5X",
+   "label": "FamilySearch image 3:1:3Q9M-CS24-QF5X",
+   "kind": "ark",
+   "key": [
+    "3:1:3Q9M-CS24-QF5X"
+   ]
+  },
+  {
+   "id": "ark-3-1-3Q9M-CS24-QF6N",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-QF6N",
+   "label": "FamilySearch image 3:1:3Q9M-CS24-QF6N",
+   "kind": "ark",
+   "key": [
+    "3:1:3Q9M-CS24-QF6N"
+   ]
+  },
+  {
    "id": "ark-3-1-3Q9M-CS24-QF9T",
    "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-QF9T",
    "label": "FamilySearch image 3:1:3Q9M-CS24-QF9T",
    "kind": "ark",
    "key": [
     "3:1:3Q9M-CS24-QF9T"
+   ]
+  },
+  {
+   "id": "ark-3-1-3Q9M-CS24-QFJM",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-QFJM",
+   "label": "Flores, Death Records 1926-1927 (item 1 of DGS film 008165905, 227 images; its first acts are of December 1925; Primera Seccion, T",
+   "kind": "ark",
+   "key": [
+    "3:1:3Q9M-CS24-QFJM"
    ]
   },
   {
@@ -4552,6 +4687,69 @@
    "kind": "ark",
    "key": [
     "3:1:3Q9M-CS24-QJ2L"
+   ]
+  },
+  {
+   "id": "ark-3-1-3Q9M-CS24-QKCL",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-QKCL",
+   "label": "FamilySearch image 3:1:3Q9M-CS24-QKCL",
+   "kind": "ark",
+   "key": [
+    "3:1:3Q9M-CS24-QKCL"
+   ]
+  },
+  {
+   "id": "ark-3-1-3Q9M-CS24-QKDH",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-QKDH",
+   "label": "FamilySearch image 3:1:3Q9M-CS24-QKDH",
+   "kind": "ark",
+   "key": [
+    "3:1:3Q9M-CS24-QKDH"
+   ]
+  },
+  {
+   "id": "ark-3-1-3Q9M-CS24-QKQ3",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-QKQ3",
+   "label": "FamilySearch image 3:1:3Q9M-CS24-QKQ3",
+   "kind": "ark",
+   "key": [
+    "3:1:3Q9M-CS24-QKQ3"
+   ]
+  },
+  {
+   "id": "ark-3-1-3Q9M-CS24-QKS3",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-QKS3",
+   "label": "FamilySearch image 3:1:3Q9M-CS24-QKS3",
+   "kind": "ark",
+   "key": [
+    "3:1:3Q9M-CS24-QKS3"
+   ]
+  },
+  {
+   "id": "ark-3-1-3Q9M-CS24-QKWC",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-QKWC",
+   "label": "Flores, Death Records titled 'February 1978-December 1978' (item 5 of DGS film 008165905, 99 images; the acts are of 1918 and afte",
+   "kind": "ark",
+   "key": [
+    "3:1:3Q9M-CS24-QKWC"
+   ]
+  },
+  {
+   "id": "ark-3-1-3Q9M-CS24-QN6T",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-QN6T",
+   "label": "Flores, Death Records 1886-1887 (item 11 of DGS film 008165905, 56 images), entered at the image with ark 3:1:3Q9M-CS24-QN6T",
+   "kind": "ark",
+   "key": [
+    "3:1:3Q9M-CS24-QN6T"
+   ]
+  },
+  {
+   "id": "ark-3-1-3Q9M-CS24-QNLV",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-QNLV",
+   "label": "FamilySearch image 3:1:3Q9M-CS24-QNLV",
+   "kind": "ark",
+   "key": [
+    "3:1:3Q9M-CS24-QNLV"
    ]
   },
   {
@@ -4579,6 +4777,15 @@
    "kind": "ark",
    "key": [
     "3:1:3Q9M-CS24-QQB1"
+   ]
+  },
+  {
+   "id": "ark-3-1-3Q9M-CS24-QVLW",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-QVLW",
+   "label": "FamilySearch image 3:1:3Q9M-CS24-QVLW",
+   "kind": "ark",
+   "key": [
+    "3:1:3Q9M-CS24-QVLW"
    ]
   },
   {
@@ -4627,6 +4834,15 @@
    ]
   },
   {
+   "id": "ark-3-1-3Q9M-CS24-QWXB",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-QWXB",
+   "label": "Flores, Death Records 1888-1917 (item 4 of DGS film 008165905, 327 images; Tercera Seccion, El Arenal and other places, from Novem",
+   "kind": "ark",
+   "key": [
+    "3:1:3Q9M-CS24-QWXB"
+   ]
+  },
+  {
    "id": "ark-3-1-3Q9M-CS24-QX24",
    "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-QX24",
    "label": "FamilySearch image 3:1:3Q9M-CS24-QX24",
@@ -4663,12 +4879,48 @@
    ]
   },
   {
+   "id": "ark-3-1-3Q9M-CS24-W73G-T",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-W73G-T",
+   "label": "FamilySearch image 3:1:3Q9M-CS24-W73G-T",
+   "kind": "ark",
+   "key": [
+    "3:1:3Q9M-CS24-W73G-T"
+   ]
+  },
+  {
    "id": "ark-3-1-3Q9M-CS24-W73J-7",
    "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-W73J-7",
    "label": "FamilySearch image 3:1:3Q9M-CS24-W73J-7",
    "kind": "ark",
    "key": [
     "3:1:3Q9M-CS24-W73J-7"
+   ]
+  },
+  {
+   "id": "ark-3-1-3Q9M-CS24-W73K-3",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-W73K-3",
+   "label": "Trinidad, Flores, Death Records 1888-1891 (item 6 of DGS film 008165899, 263 images; Primera Seccion), entered at the image with a",
+   "kind": "ark",
+   "key": [
+    "3:1:3Q9M-CS24-W73K-3"
+   ]
+  },
+  {
+   "id": "ark-3-1-3Q9M-CS24-W73L-J",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-W73L-J",
+   "label": "FamilySearch image 3:1:3Q9M-CS24-W73L-J",
+   "kind": "ark",
+   "key": [
+    "3:1:3Q9M-CS24-W73L-J"
+   ]
+  },
+  {
+   "id": "ark-3-1-3Q9M-CS24-W73L-K",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-W73L-K",
+   "label": "FamilySearch image 3:1:3Q9M-CS24-W73L-K",
+   "kind": "ark",
+   "key": [
+    "3:1:3Q9M-CS24-W73L-K"
    ]
   },
   {
@@ -4714,6 +4966,15 @@
    "kind": "ark",
    "key": [
     "3:1:3Q9M-CS24-W76T-Y"
+   ]
+  },
+  {
+   "id": "ark-3-1-3Q9M-CS24-W777-3",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-W777-3",
+   "label": "FamilySearch image 3:1:3Q9M-CS24-W777-3",
+   "kind": "ark",
+   "key": [
+    "3:1:3Q9M-CS24-W777-3"
    ]
   },
   {
@@ -4771,6 +5032,15 @@
    ]
   },
   {
+   "id": "ark-3-1-3Q9M-CS24-W79F-G",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-W79F-G",
+   "label": "FamilySearch image 3:1:3Q9M-CS24-W79F-G",
+   "kind": "ark",
+   "key": [
+    "3:1:3Q9M-CS24-W79F-G"
+   ]
+  },
+  {
    "id": "ark-3-1-3Q9M-CS24-W79J-R",
    "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-W79J-R",
    "label": "FamilySearch image 3:1:3Q9M-CS24-W79J-R",
@@ -4795,6 +5065,24 @@
    "kind": "ark",
    "key": [
     "3:1:3Q9M-CS24-W79L-P"
+   ]
+  },
+  {
+   "id": "ark-3-1-3Q9M-CS24-W79N-4",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-W79N-4",
+   "label": "FamilySearch image 3:1:3Q9M-CS24-W79N-4",
+   "kind": "ark",
+   "key": [
+    "3:1:3Q9M-CS24-W79N-4"
+   ]
+  },
+  {
+   "id": "ark-3-1-3Q9M-CS24-W79N-M",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-W79N-M",
+   "label": "FamilySearch image 3:1:3Q9M-CS24-W79N-M",
+   "kind": "ark",
+   "key": [
+    "3:1:3Q9M-CS24-W79N-M"
    ]
   },
   {
@@ -4843,6 +5131,15 @@
    ]
   },
   {
+   "id": "ark-3-1-3Q9M-CS24-W7QF-9",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-W7QF-9",
+   "label": "FamilySearch image 3:1:3Q9M-CS24-W7QF-9",
+   "kind": "ark",
+   "key": [
+    "3:1:3Q9M-CS24-W7QF-9"
+   ]
+  },
+  {
    "id": "ark-3-1-3Q9M-CS24-W7QH-5",
    "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-W7QH-5",
    "label": "FamilySearch image 3:1:3Q9M-CS24-W7QH-5",
@@ -4861,12 +5158,30 @@
    ]
   },
   {
+   "id": "ark-3-1-3Q9M-CS24-W7S8-Q",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-W7S8-Q",
+   "label": "Trinidad, Flores, Death Records 1904 (item 11 of DGS film 008165899, 105 images; Primera Seccion, before Juan A. Bula), entered at",
+   "kind": "ark",
+   "key": [
+    "3:1:3Q9M-CS24-W7S8-Q"
+   ]
+  },
+  {
    "id": "ark-3-1-3Q9M-CS24-W7SP-H",
    "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-W7SP-H",
    "label": "Trinidad, Flores, Civil Death Records 1885-1888 (act no. 93 of 27 October 1887, ark 3:1:3Q9M-CS24-W7SP-H) and the Flores civil act",
    "kind": "ark",
    "key": [
     "3:1:3Q9M-CS24-W7SP-H"
+   ]
+  },
+  {
+   "id": "ark-3-1-3Q9M-CS24-W7SR-9",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS24-W7SR-9",
+   "label": "Trinidad, Flores, Death Records 1885-1888 (item 5 of DGS film 008165899, 207 images; Primera Seccion, before Manuel Sayago), enter",
+   "kind": "ark",
+   "key": [
+    "3:1:3Q9M-CS24-W7SR-9"
    ]
   },
   {

@@ -3485,6 +3485,11 @@
    "url": "/people/juan-francisco-alvarez-fernandez/"
   },
   {
+   "name": "Juan Francisco Bidondo",
+   "aliases": [],
+   "url": "/people/juan-francisco-bidondo/"
+  },
+  {
    "name": "Juan Francisco Cardoso",
    "aliases": [],
    "url": "/people/juan-francisco-cardoso/"
@@ -4996,11 +5001,11 @@
    "url": "/people/matilde-feliciana-lerena-harrison/"
   },
   {
-   "name": "Matilde Fernandez",
+   "name": "Matilde Fernandez Cespedes",
    "aliases": [
-    "Matilde Fernández"
+    "Matilde Fernández Cespedes"
    ],
-   "url": "/people/matilde-fernandez/"
+   "url": "/people/matilde-fernandez-cespedes/"
   },
   {
    "name": "Mauricio Isidro Lerena Cespedes",
@@ -7833,6 +7838,20 @@
    "bearers": [
     "/people/maria-pelaez-2/",
     "/people/maria-pelaez/"
+   ]
+  },
+  {
+   "name": "Matilde Fernandez",
+   "url": "/people/?q=Matilde%20Fernandez",
+   "bearers": [
+    "/people/matilde-fernandez/"
+   ]
+  },
+  {
+   "name": "Matilde Fernández",
+   "url": "/people/?q=Matilde%20Fernandez",
+   "bearers": [
+    "/people/matilde-fernandez/"
    ]
   },
   {

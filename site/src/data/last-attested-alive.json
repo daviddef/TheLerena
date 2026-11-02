@@ -1066,9 +1066,9 @@
  {
   "name": "Donata Natalia LERENA Beloqui (b. 1889, Trinidad)",
   "born_est": "1889-12-12",
-  "last_attested_alive": "1890-Jan-15",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1889-12-12",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Fermin LERENA (of Trinidad)",
@@ -4636,9 +4636,9 @@
  {
   "name": "Fernando LERENA (23 April - 1 May 1930)",
   "born_est": "1930-04-23",
-  "last_attested_alive": "1930-Apr-23",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1930-04-23",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Alfredo LERENA (b.1909)",
@@ -6897,9 +6897,9 @@
  {
   "name": "Antonio Isabelino FERNANDEZ (b. 1870, Trinidad)",
   "born_est": "1870-11-19",
-  "last_attested_alive": "1870-Dec-11",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1870-11-19",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Eusebio Agapito LERENA Islas (b. 1868, Trinidad)",
@@ -7086,9 +7086,9 @@
  {
   "name": "Miguel Abdemar LERENA Beloqui (b. 1886, Trinidad)",
   "born_est": "1886-09-29",
-  "last_attested_alive": "1887-Apr-20",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1886-09-29",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Alfredo German LERENA Alvarez (b. 1888, Trinidad)",
@@ -9026,6 +9026,34 @@
   "name": "L. R. LLANES Lerena (named 1924; Lilia Raquel)",
   "born_est": "1923c",
   "last_attested_alive": "1923c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Alejandro R. LERENA (b. c.1875; named 1904)",
+  "born_est": "1875c",
+  "last_attested_alive": "1875c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Enrique Hugo LERENA Cardozo (b. 1927, d. 24 July 1927)",
+  "born_est": "1927-07-06c",
+  "last_attested_alive": "1927-07-06c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Juan Francisco BIDONDO (b. c.1904, d. 1918)",
+  "born_est": "1904c",
+  "last_attested_alive": "1904c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Matilde FERNANDEZ Cespedes (d. 1923 at 18)",
+  "born_est": "1905c",
+  "last_attested_alive": "1905c",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  }
