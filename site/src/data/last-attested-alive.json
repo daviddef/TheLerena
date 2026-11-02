@@ -9091,5 +9091,26 @@
   "last_attested_alive": "1912-01-15",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "E. S. LERENA Recuero (b. 1886; Elio Severo)",
+  "born_est": "1886c",
+  "last_attested_alive": "1886c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "M. C. TORRES (m. Elio Severo Lerena 1941; Monica Ciriaca)",
+  "born_est": "1895-05-04",
+  "last_attested_alive": "1895-05-04",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "M. B. T. GAU (m. Miguel Lerena 1938; Maria Blanca Tranquilina)",
+  "born_est": "1916-07-12",
+  "last_attested_alive": "1916-07-12",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]
