@@ -9189,5 +9189,19 @@
   "last_attested_alive": "1926-04-28",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "R. R. CABALLERO (m. Matilde Feliciana Lerena 1949; Ramon Ricardo)",
+  "born_est": "1908-01-28",
+  "last_attested_alive": "1908-01-28",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "R. E. RIOS (m. Beatriz Pilar Lerena 1950; Ramon Eduardo)",
+  "born_est": "1903-08-31",
+  "last_attested_alive": "1903-08-31",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]

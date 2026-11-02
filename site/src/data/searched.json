@@ -5643,5 +5643,47 @@
    "harrison"
   ],
   "note": "FOUND: Evaristo Casimiro Lerena (14 May 1949; his parents Venancio Alejandro Lerena and Venancia Harrisson both dead), Holmes Prudencio Bueno (18 Jun 1949, new to the register)."
+ },
+ {
+  "src": "FamilySearch - Flores, Marriage Records 1931-1950 (item 11 of DGS film 008166017, 211 images; Cuarta Seccion, Puntas del Sauce and Estacion Arroyo Grande), every image scanned in the machine's transcript for the surname, the leaves that named it read at the plate",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS2C-Z91V-5",
+  "waypoint": null,
+  "what": "Flores civil marriages 1931-1950, Cuarta Seccion: the Lerena kindred",
+  "when": "2026-11-03",
+  "outcome": "nothing",
+  "pages": "images 131 and 148 read at the plate; images 2-211 scanned",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "flores",
+   "uruguay",
+   "familysearch",
+   "civil-marriage-records",
+   "machine-transcript",
+   "harrison",
+   "caballero"
+  ],
+  "note": "NOTHING COUNTED: no Lerena act in the machine's transcript of images 2-211; the four near-hits are the Serena family of San Jose (Francisco, Isidro, Wenceslao) and the place Lorano - not counted."
+ },
+ {
+  "src": "FamilySearch - Flores, Marriage Records 1931-1950 (item 12 of DGS film 008166017, 101 images; Quinta Seccion, San Gregorio and Tala de Maciel), every image scanned in the machine's transcript for the surname, the leaves that named it read at the plate",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS2C-Z91L-2",
+  "waypoint": null,
+  "what": "Flores civil marriages 1931-1950, Quinta Seccion: the Lerena kindred",
+  "when": "2026-11-03",
+  "outcome": "yield",
+  "pages": "images 92 and 98 read at the plate; images 1-101 scanned",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "flores",
+   "uruguay",
+   "familysearch",
+   "civil-marriage-records",
+   "machine-transcript",
+   "harrison",
+   "caballero"
+  ],
+  "note": "FOUND: Matilde Feliciana Lerena Harrison married Ramon Ricardo Caballero on 2 Sep 1949 and Beatriz Pilar Lerena Harrison married Ramon Eduardo Rios on 18 Nov 1950 (her brother Juan Jose a witness); their parents Venancio Alejandro Lerena and Venancia Catalina Harrison both dead."
  }
 ]

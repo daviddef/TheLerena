@@ -2,8 +2,23 @@
  "mechanical": 53,
  "days": [
   {
+   "date": "2026-11-03",
+   "commits": [
+    {
+     "sha": "9e9d3b4",
+     "subject": "CLAUDE.md: people found in public sources are not held out under the living rule (David, 2 November 2026); replaces the post-1946 hold-out wording",
+     "body": ""
+    }
+   ]
+  },
+  {
    "date": "2026-11-02",
    "commits": [
+    {
+     "sha": "704aead",
+     "subject": "Flores civil marriage books of Trinidad 1946-1948 and 1949-1950 (items 7 and 8 of DGS film 008166017, 200 and 129 images scanned in the machine's transcript, six leaves at the plate; public registers, so no one is held out): Juan Rodriguez Lerena, the son of the dead Juan Rodriguez and Isabel Lerena, married Mercedes Flor de Lis Muniz on 28 June 1946 at forty; Hector Silva's marriage of 7 September 1946 names his mother in full as 'Natalia Elena Lerena, viuda' and his father Teodoro Silva as dead, which makes Teodoro's Elena a Natalia Elena (probably the Recuero daughter, not merged); Carlos Heber Lerena married Adela Mercedes Perez on 8 January 1947, his parents Custodio Lerena and Emma Cardozo both still living, the act's year 1921 against the row's 1920; Rosa Blanca Lerena as a witness of twenty-nine in December 1947; Evaristo Casimiro Lerena married Irma Aurora Caballero on 14 May 1949, his parents Venancio Alejandro Lerena and Venancia Harrisson both dead; Holmes Prudencio Bueno (new), a sixth child of Clemente Bueno and Luisa Lerena, married on 18 June 1949 with both parents living; not claimed walked Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
+     "body": ""
+    },
     {
      "sha": "acdbc96",
      "subject": "Flores civil marriage book of the Sexta Seccion 1931-1950, Juntas del Sauce del Yi and Juan Jose Castro (item 13 of DGS film 008166017, 360 images scanned in the machine's transcript, five leaves at the plate): Felicia Leoncia Lerena married Teofilo Manuel Cardozo on 14 March 1931 (the spouse the index cards left unknown), her parents Bernabe Lerena and Florinda Cardozo both living, the act's birth 1901 against the row's 1898; Violeta Blanca Lerena Cardozo married Claudio M. Rodriguez on 30 May 1934 (dissolved by a judgment of November 1953), her parents Custodio Lerena and Ema Cardozo both living; Ildemaro Manuel Lerena, a bookkeeper of Chamanga born 29 September 1902 in the department of Florida, son of Miguel Lerena and Tomasa Rodriguez of Villa de Sarandi, married Maria Mercedes Labraga on 15 May 1937 (a new household, tied to no row); Maria Luisa Mugular married Bautista Julian Magallanes on 8 October 1941, her parents Miguel Mugular and Carmen Lerena both living; Maria Josefina Lerena married Claudio Deiduvino Vallejo on 11 May 1944, her brother Alcides as witness, her parents Rodolfo Lerena (a tradesman of Cuchilla Villasboas) and Maria Luisa Caballero both living; the later leaves of the book belong to the department of Florida and its Lorena witness is not counted; not claimed walked",
