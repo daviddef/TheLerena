@@ -5,6 +5,11 @@
    "date": "2026-11-02",
    "commits": [
     {
+     "sha": "b954faa",
+     "subject": "Trinidad civil births 1887-1888 (Primera Seccion): Alberto Fernandez (30 September 1887, the first child held of Serapio Fernandez and Antonina Lerena), Delfina Ramona Gonzalez (4 December 1887) and Alejandro Bidondo (21 September 1888), grandchildren of Ramon Fernandez and Maria Lerena, and Mario Leopoldo Eugenio Negrotto (18 March 1887, a grandson of Servando Gonzalez and Estefania Lerena) new to the register, acts read at the plate; the civil act of Baudilio Lerena Cardozo confirms 31 December 1887 (the machine's 'Octubre' for 'Dre. ultimo' is a misreading); Maria Lerena (m. Ramon Fernandez) is not called dead on the plate of 1 October 1888 where the machine wrote 'fallecidos' of the pair in 1887; ages for Doroteo Lerena, Cayetano Gonzalez, Beltran Bidondo and Servando Gonzalez; images 2, 137 and 225 untranscribed, volume not claimed walked",
+     "body": ""
+    },
+    {
      "sha": "7ad6cdf",
      "subject": "Flores civil births, the 'March-December 1888' volume (Segunda Seccion, El Sarandi, Trinidad; the leaves run 1888-1902): Tolentino (10 September 1895) and Maximo (31 May 1897) Gonzalez, grandchildren of Ramon Fernandez and Maria Lerena by Carmen Fernandez and Cayetano Gonzalez, and Maria Fernandez, the twin sister of the Ramon Maria already held (27 February 1902; both acts read at the plate, the mother written Apolinaria SENA, the twins declared in tools/consistency.py), new to the register; Alberto Facundo Gonzalez was born 27 November 1891, not the 27 October of the baptism's machine text (row and corrections corrected); ages for Carmen Fernandez, Cayetano Gonzalez, Gervasio Sena, Asuncion Segovia and Bernabe Lerena (sixty-three in March 1902 against sixty-six in January); four leaves read at the plate, image 156 untranscribed, volume not claimed walked",
      "body": ""
