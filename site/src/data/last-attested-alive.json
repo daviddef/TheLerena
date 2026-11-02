@@ -6792,9 +6792,9 @@
  {
   "name": "Luis LLANES (m. Elvira Rita Lerena 1921)",
   "born_est": "1893c",
-  "last_attested_alive": "1921-Jun-15",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1893c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Maria PELAEZ (b. 1877, Trinidad)",
@@ -9019,6 +9019,13 @@
   "name": "Rene SILVA Lerena (b. c.1917, d. 1917)",
   "born_est": "1917c",
   "last_attested_alive": "1917c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "L. R. LLANES Lerena (named 1924; Lilia Raquel)",
+  "born_est": "1923c",
+  "last_attested_alive": "1923c",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  }
