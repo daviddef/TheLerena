@@ -5464,7 +5464,7 @@
   "what": "Flores civil marriages of Trinidad 1931-1937: the Lerena kindred",
   "when": "2026-11-02",
   "outcome": "yield",
-  "pages": "images 123, 139, 140, 150, 180, 195, 199, 203, 239 and 92 read at the plate; images 1-274 scanned",
+  "pages": "images 123, 139, 140, 150, 180, 195, 199, 203, 239 and 92 read at the plate; images 2-274 scanned",
   "walked": false,
   "tags": [
    "lerena",
@@ -5487,7 +5487,7 @@
   "what": "Flores civil marriages 1931-1950, Arenal Grande (Tercera Seccion): the Lerena kindred",
   "when": "2026-11-02",
   "outcome": "yield",
-  "pages": "image 80 read at the plate; images 1-179 scanned",
+  "pages": "image 80 read at the plate; images 2-179 scanned",
   "walked": false,
   "tags": [
    "lerena",
@@ -5508,7 +5508,7 @@
   "what": "Flores civil marriages 1931-1950, Paso de la Atahona (Segunda Seccion): the Lerena kindred",
   "when": "2026-11-02",
   "outcome": "yield",
-  "pages": "images 32, 96, 121, 135, 146, 165 read at the plate; images 1-217 scanned",
+  "pages": "images 32, 96, 121, 135, 146, 165 read at the plate; images 2-217 scanned",
   "walked": false,
   "tags": [
    "lerena",
@@ -5522,5 +5522,29 @@
    "recuero"
   ],
   "note": "FOUND: Miguel Lerena (24 Dec 1938), Elio Severo Lerena (17 Apr 1941, new to the register), a Cipriano Lerena (25) and an Antonino Lerena (48, 51) as witnesses."
+ },
+ {
+  "src": "FamilySearch - Flores, Marriage Records 1938-1941 (item 5 of DGS film 008166017, 255 images; Primera Seccion, Trinidad, its acts of November 1938 to October 1941), every image scanned in the machine's transcript for the surname, the leaves that named it read at the plate",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS2C-ZSM5-3",
+  "waypoint": null,
+  "what": "Flores civil marriages of Trinidad 1938-1941: the Lerena kindred",
+  "when": "2026-11-02",
+  "outcome": "yield",
+  "pages": "images 58, 89, 133, 139, 153, 158, 162, 185, 192, 202, 210, 228 read at the plate; images 2-255 scanned (image 1's text not captured)",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "flores",
+   "trinidad",
+   "uruguay",
+   "familysearch",
+   "civil-marriage-records",
+   "machine-transcript",
+   "bueno",
+   "olivera",
+   "cardozo",
+   "sena"
+  ],
+  "note": "FOUND: Saul Antonio Lerena (30 Apr 1941), Adelia Blanca (8 Sep 1941), Carmen Lerena and Isabelino Bravo (30 Mar 1939), Olga Bueno (12 Nov 1938), Blanca Margarita Olivera (24 Jan 1941), Cipriano Lerena (7 Jun 1941; born 30 Sep 1908 as he states), Antonino Lerena as witness six times."
  }
 ]
