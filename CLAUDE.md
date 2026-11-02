@@ -19,7 +19,7 @@ After research that adds an ark, a film or a person, `npm run build` is the chec
 - **L1/L2, names.** `tools/run-autolink.py` makes the names index from `people.json` (and the living list, outside the checkout). A person
   read from an act and not yet in the register gets a row in `data/lerena-register.tsv` (UNPLACED, the act in `source`, an existing place
   in `where_found`, and no `died <date>` or `death` wording about somebody else: `tools/last-alive.py` reads it). Only people the living
-  rule shows dead; hold out anyone named only in a post-1946 paper. A spelling the data states for a person goes in
+  rule shows dead; a person found in a public source in the atlas (a FamilySearch civil register, even after 1946) is never held out under the living rule (David, 2 November 2026). A spelling the data states for a person goes in
   `data/names-aliases.tsv` with its basis. A name that is a given name and the family surname ("Juan Lerena"), or the start of another
   person's longer name, is shared and links to the filtered people list (a marked, dotted link, `data-autolink="search"`), unless the data decides it:
   `tools/run-autolink.py` writes `resolve` rules from SPOUSE and CO-PARENT edges only ("a relative of exactly one bearer of this name is named in the
