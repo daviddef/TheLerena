@@ -2907,9 +2907,9 @@
  {
   "name": "Serapio FERNANDEZ (the elder, d. by 1897)",
   "born_est": "-",
-  "last_attested_alive": "-",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "last_attested_alive": "1917-Feb-13",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
  },
  {
   "name": "Serapio FERNANDEZ (m. Antonina Lerena 1885)",
@@ -6330,9 +6330,9 @@
  {
   "name": "Maria Socorro FERNANDEZ Lerena (chr.1865)",
   "born_est": "1865-04-30",
-  "last_attested_alive": "1865-Jun-01",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1865-04-30",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Justino Dorites del Corazon de Jesus LERENA Pelaez (chr.1864)",
@@ -8998,6 +8998,27 @@
   "name": "Julia VAQUERO Lerena (named 1905)",
   "born_est": "-",
   "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "M. C. LERENA Umpierrez (b. c.1915, d. 1915; Maria del Carmen)",
+  "born_est": "1915c",
+  "last_attested_alive": "1915c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "R. PABEN Fernandez (b. c.1892, d. 1916; Rosalia)",
+  "born_est": "1892c",
+  "last_attested_alive": "1892c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Rene SILVA Lerena (b. c.1917, d. 1917)",
+  "born_est": "1917c",
+  "last_attested_alive": "1917c",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  }

@@ -5614,6 +5614,13 @@
    "url": "/people/rene-felix-lerena-fernandez/"
   },
   {
+   "name": "Rene Silva Lerena",
+   "aliases": [
+    "Rene Silva"
+   ],
+   "url": "/people/rene-silva-lerena/"
+  },
+  {
    "name": "Rhena May Lerena",
    "aliases": [],
    "url": "/people/rhena-may-lerena/"
@@ -7869,7 +7876,13 @@
   },
   {
    "name": "Natalia Lerena",
-   "url": "/people/?q=Natalia%20Lerena"
+   "url": "/people/?q=Natalia%20Lerena",
+   "resolve": [
+    {
+     "near": "/people/teodoro-silva/",
+     "url": "/people/natalia-elena-lerena-recuero/"
+    }
+   ]
   },
   {
    "name": "Nicolas Lerena",
