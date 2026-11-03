@@ -9273,5 +9273,47 @@
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "L. B. LERENA Cardozo (b. 1937, d. 1937; Lis Blanca)",
+  "born_est": "1937-06-06",
+  "last_attested_alive": "1937-06-06",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "L. B. LERENA Cardozo (b. c.1930, d. 1938; Lita Blanca)",
+  "born_est": "1930c",
+  "last_attested_alive": "1930c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "A. C. LERENA (m. Blanca Rodriguez; Angel Custodio)",
+  "born_est": "1899c",
+  "last_attested_alive": "1899c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "B. RODRIGUEZ (m. Angel Custodio Lerena; Blanca)",
+  "born_est": "1900c",
+  "last_attested_alive": "1900c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "D. D. LERENA (b. 1942, d. 1942; Doroteo Donato, infant)",
+  "born_est": "1942-07-03",
+  "last_attested_alive": "1948-Jul-30",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
+ },
+ {
+  "name": "O. REQUIO (mother of Doroteo Donato Lerena 1942; Olga)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]

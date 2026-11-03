@@ -8,8 +8,8 @@
   "Anyone on no line and in no household is counted in one of two pens: people of the name with no family recorded here, or people in the acts who are not of the name and are kin to nobody here.",
   "Everybody is counted, and nobody is counted twice. A person is listed by name only when their page publishes a birth year before the living line or a death, and no rule of this archive holds them as living or out of publication; everybody else is a number only."
  ],
- "total": 1334,
- "listed": 823,
+ "total": 1340,
+ "listed": 828,
  "lanes": [
   {
    "key": "sancho",
@@ -106,8 +106,8 @@
     "Florida",
     "San Jose"
    ],
-   "people": 597,
-   "listed": 459
+   "people": 599,
+   "listed": 461
   },
   {
    "key": "direct",
@@ -270,9 +270,9 @@
    "key": "households",
    "kind": "not-yet-placed",
    "head": "Real households of the name — on none of these lines",
-   "households": 38,
-   "people": 181,
-   "listed": 102
+   "households": 40,
+   "people": 185,
+   "listed": 105
   },
   {
    "id": "of-the-name-alone",
@@ -711,6 +711,29 @@
    "listed": 0
   },
   {
+   "label": "The household of A. C. LERENA — Trinidad, Flores",
+   "pen": "not-yet-placed",
+   "href": "/people/a-c-lerena/",
+   "why": "2 people the register joins to one another by its own links and to no line by any. Of the name: A. C. LERENA.",
+   "status": "origin-unknown",
+   "statusNote": "",
+   "span": [
+    1899,
+    1900
+   ],
+   "places": [
+    [
+     "Trinidad, Flores",
+     1899,
+     1900
+    ]
+   ],
+   "onLane": [],
+   "written": false,
+   "people": 2,
+   "listed": 2
+  },
+  {
    "label": "The household of Amelia LERENA Morales — Montevideo",
    "pen": "not-yet-placed",
    "href": "/people/amelia-lerena-morales/",
@@ -986,6 +1009,29 @@
    "written": false,
    "people": 7,
    "listed": 5
+  },
+  {
+   "label": "The household of D. D. LERENA — Trinidad, Flores",
+   "pen": "not-yet-placed",
+   "href": "/people/d-d-lerena/",
+   "why": "2 people the register joins to one another by its own links and to no line by any. Of the name: D. D. LERENA.",
+   "status": "origin-unknown",
+   "statusNote": "",
+   "span": [
+    1942,
+    1948
+   ],
+   "places": [
+    [
+     "Trinidad, Flores",
+     1942,
+     1948
+    ]
+   ],
+   "onLane": [],
+   "written": false,
+   "people": 2,
+   "listed": 1
   },
   {
    "label": "The household of Eusebio Agapito LERENA Islas — Trinidad, Flores",
