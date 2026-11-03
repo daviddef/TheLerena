@@ -2,8 +2,23 @@
  "mechanical": 53,
  "days": [
   {
+   "date": "2026-11-04",
+   "commits": [
+    {
+     "sha": "afe206a",
+     "subject": "Flores civil death registers of Trinidad 1961-1964, the rest of the second group, images 2864-3268 (scanned in the machine's transcript on a second attempt, each transcript checked against its neighbour; hits read at the plate; the group ends at image 3268, 'FIN DEL ROLLO'): Aurora Juliana Pelaez died 8 June 1961 at seventy-one, single, daughter of Malvino Pelaez and Alejandrina Lerena (act no. 67, image 2930; the baptism's 'Amora' was a misreading); Luisa Lerena de Olivera died 31 January 1962 at seventy-seven, a widow, daughter of Cipriano Lerena and Laureana Beloqui, born 21 June 1884 (act no. 19, image 2987); Elisa Pelaez died 26 August 1963 at eighty-five, single, born 27 July 1878, daughter of the same couple (act no. 126, image 3149; new row); Maria Luisa Caballero Recuero de Lerena died 18 August 1964 at sixty-six, born 5 January 1898, married to Rodolfo Lerena, eight children named (act no. 105, image 3233; the surname's capital reads L or S, settled by the couple); four other hits opened and not Lerena (De Armas, Pastorino, Ohenard, Echeverria); the first attempt's stale transcripts stay thrown out; not claimed walked",
+     "body": ""
+    }
+   ]
+  },
+  {
    "date": "2026-11-03",
    "commits": [
+    {
+     "sha": "65fe675",
+     "subject": "Privacy: a /privacy/ page from the kit's shared Privacy component (what is counted, what a reader's browser fetches from elsewhere, no account or advertising), linked from the footer and left outside the book; kit pin to 7e9173f",
+     "body": ""
+    },
     {
      "sha": "b91d02e",
      "subject": "Flores civil death registers of Trinidad 1957-1960, group images 2601-2863 of the second group (scanned in the machine's transcript, hits read at the plate): Carlos Maria Plaza Lerena died 7 October 1957 at twenty-one, a son of Nicolas Plaza and Maria Luisa Lerena (act no. 130, group image 2606; new row; his parents are taken for the couple married 30 January 1936, not named in full by the act; the birth year is written 195? and is carried as about 1936); Victor Bravo Cameto died 27 February 1959 at sixty-six, married to Felicia Lerena (act no. 25, image 2728; two new rows, her parents not known); Luisa Meisson de Lerena died 23 July 1960 at sixty-nine, the widow of Jose Pedro Lerena (act no. 100, image 2861; she is Luisa Meson of the 1920 marriage, her birth date and surname spelling now from the plate; her husband 'fallecido' by then); the Pereira leaf of 2760 opened and not counted; images 2864-3268 were scanned but the viewer returned stale repeated transcripts from about 2864 (and 'Cannot Display Image' from 3082), so they are thrown out and not claimed scanned; not claimed walked",

@@ -4286,9 +4286,9 @@
  {
   "name": "Antonio ETCHEBERSE (m. Andrea Albina Lerena 1906)",
   "born_est": "1873",
-  "last_attested_alive": "1873",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "last_attested_alive": "1937-Dec-30",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
  },
  {
   "name": "Don Alejandro LERENA (of San Jose de Mayo, 1846)",
@@ -6757,9 +6757,9 @@
  {
   "name": "Jose Pedro LERENA Cardozo (m. Luisa Meson 1920)",
   "born_est": "1886-10-05",
-  "last_attested_alive": "1886-10-05",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "last_attested_alive": "1933-Jan-23",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
  },
  {
   "name": "Luisa MESON (m. Jose Pedro Lerena 1920)",
@@ -6834,9 +6834,9 @@
  {
   "name": "Gregoria Marcelina LERENA Echeverry (b. 1879, Trinidad)",
   "born_est": "1879-05-09",
-  "last_attested_alive": "1879-05-09",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "last_attested_alive": "1936-Oct-7",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
  },
  {
   "name": "Laureana MACIEL (named 1855, 1865 and 1880)",
@@ -9383,6 +9383,13 @@
   "name": "Elisa PELAEZ Lerena (b. 1878, d. 1963)",
   "born_est": "1878-07-27",
   "last_attested_alive": "1963-Aug-26",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
+ },
+ {
+  "name": "E. B. LERENA Cardozo (b. c.1932, d. 1938; Eva Blanca)",
+  "born_est": "1932c",
+  "last_attested_alive": "1938-Jan-5",
   "basis": "explicit death date on this person's row",
   "tier": "DEATH"
  }
