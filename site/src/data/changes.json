@@ -5,6 +5,11 @@
    "date": "2026-11-03",
    "commits": [
     {
+     "sha": "310360a",
+     "subject": "Flores civil death registers of Trinidad 1957, group images 2566-2600 of the second group (scanned in the machine's transcript, both hits read at the plate): Luisa Lerena Echeverre died 22 July 1957 at seventy-four, single and retired (act no. 44, group image 2578), her birth date 19 August 1882 and her father Vitalino Lerena those of the 1882 baptism, but the act names her mother Elena where the baptism and the household's acts say Andrea (not reconciled); Casto Severino Vaquero Lerena died 26 August 1957 at sixty-six (act no. 92, group image 2587), born 6 July 1891, son of Manuel Vaquero and Aurora Lerena, married to Germana Santiago (new row, first name read); the machine read both as Lorena; images 2601-3268 not scanned (a hit reported at 2606 was lost with the pane and is not read); not claimed walked",
+     "body": ""
+    },
+    {
      "sha": "3fcdec9",
      "subject": "Flores civil death registers of Trinidad, group images 2301-2565 of the second group (scanned in the machine's transcript, hits read at the plate): the death act of 16 October 1955 (no. 172, group image 2425) names ANGEL CUSTODIO 'SERENA' (Lerena), sixty-five, married to Blanca Rodriguez, son of Doroteo and Isidora Cardozo, both dead, with children Blanca, Luis and Maria Alicia; it settles the index entry read as 'born 1934, dead October 1955' (the index's birth year was wrong, so the conflict kept open in the rows of Isidora Cardozo, Doroteo Lerena and Antonino is resolved and the 'later namesake' claim withdrawn, recorded in corrections.tsv) and proves the father of the 1939-41 stillbirths a son of that couple; the three rows (index row, 'A. C. Lerena m. Blanca Rodriguez', Angel Custodio Carmelo of the 1889 baptism, probable) are merged, the old addresses redirect; Pereyra, Moreira, Massoud, Caceres and Sanabria hits opened and not counted; images 2566-3268 not scanned; not claimed walked",
      "body": ""

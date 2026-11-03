@@ -939,6 +939,15 @@
    "url": "/people/carlos-leoncio-urruti-vaquero/"
   },
   {
+   "name": "Carlos Maria Plaza Lerena",
+   "aliases": [
+    "Carlos Maria Plaza",
+    "Carlos María Plaza",
+    "Carlos María Plaza Lerena"
+   ],
+   "url": "/people/carlos-maria-plaza-lerena/"
+  },
+  {
    "name": "Carlos Martinez Lerena",
    "aliases": [
     "Carlos Martinez"
@@ -4114,7 +4123,9 @@
   },
   {
    "name": "Luisa Meson",
-   "aliases": [],
+   "aliases": [
+    "Luisa Meisson de Lerena"
+   ],
    "url": "/people/luisa-meson/"
   },
   {
@@ -6172,6 +6183,13 @@
    "url": "/people/vicente-telesforo-caputi/"
   },
   {
+   "name": "Victor Bravo Cameto",
+   "aliases": [
+    "Victor Bravo"
+   ],
+   "url": "/people/victor-bravo-cameto/"
+  },
+  {
    "name": "Victor Manuel Garcia",
    "aliases": [],
    "url": "/people/victor-manuel-garcia/"
@@ -6843,7 +6861,14 @@
    "name": "Felicia Lerena",
    "url": "/people/?q=Felicia%20Lerena",
    "bearers": [
+    "/people/felicia-lerena-2/",
     "/people/felicia-lerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/victor-bravo-cameto/",
+     "url": "/people/felicia-lerena-2/"
+    }
    ]
   },
   {

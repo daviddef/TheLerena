@@ -6763,10 +6763,10 @@
  },
  {
   "name": "Luisa MESON (m. Jose Pedro Lerena 1920)",
-  "born_est": "1891c",
-  "last_attested_alive": "1920-Jul-01",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "born_est": "1891-07-23",
+  "last_attested_alive": "1960-Jul-23",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
  },
  {
   "name": "Elvira Rita LERENA Cardozo (m. Luis Llanes 1921)",
@@ -9353,6 +9353,27 @@
  },
  {
   "name": "Germana SANTIAGO (wife of Casto Severino Vaquero; first name read)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Carlos Maria PLAZA Lerena (b. c.1936, d. 1957)",
+  "born_est": "1936c",
+  "last_attested_alive": "1957-Oct-7",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
+ },
+ {
+  "name": "Victor BRAVO Cameto (b. 1892, d. 1959)",
+  "born_est": "1892-10-06",
+  "last_attested_alive": "1959-Feb-27",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
+ },
+ {
+  "name": "Felicia LERENA (wife of Victor Bravo Cameto)",
   "born_est": "-",
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
