@@ -41,6 +41,9 @@ const redirects = {
 
   /* 3 November 2026. 'Ademar' (twenty-six in 1912, the Ademar of his father's death act) and 'Miguel Abdemar' (the baptism of 1886) were one man: his own death act of 30 July 1948 calls him ADEMAR MIGUEL, son of Cipriano Lerena and Laureana Beloqui, husband of Maria Blanca Gau. MERGED. */
   '/people/ademar-lerena-beloqui': `${BASE}/people/miguel-abdemar-lerena-beloqui/`,
+  /* 3 November 2026. 'A. C. Lerena (m. Blanca Rodriguez)' and the index row 'Angel Custodio Lerena Cardozo (1934-1955)' are one man with the Angel Custodio Carmelo of 1889 (probable): his death act of 16 October 1955 names his parents Doroteo and Isidora Cardozo and his wife Blanca Rodriguez; the index's 1934 was a mistake. */
+  '/people/a-c-lerena': `${BASE}/people/angel-custodio-carmelo-lerena-cardozo/`,
+  '/people/angel-custodio-lerena-cardozo': `${BASE}/people/angel-custodio-carmelo-lerena-cardozo/`,
   '/people/salvador-lorena': `${BASE}/people/salvador-lerena/`,
   /* 26 October 2026. 'Alejandro F. Lerena' and 'Natalia Lerena', held from the Trinidad index since 11 October as the parents of Aurora Lerena, were not two people: the baptism of 3 September 1891 names her parents Alejandro and Severa Fernandez. The first is Alejandro Florencio, the younger; the second is Natalia Lerena, wife of Manuel Vaquero, who is Aurora's mother-in-law. MERGED. */
   '/people/alejandro-f-lerena': `${BASE}/people/alejandro-lerena-2/`,

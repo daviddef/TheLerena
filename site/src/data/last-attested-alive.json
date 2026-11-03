@@ -4543,13 +4543,6 @@
   "tier": "BIRTH ONLY"
  },
  {
-  "name": "Angel Custodio LERENA Cardozo (1934-1955)",
-  "born_est": "1934",
-  "last_attested_alive": "1934",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
- },
- {
   "name": "Doroteo LERENA (m. Isidora Cardozo)",
   "born_est": "-",
   "last_attested_alive": "-",
@@ -7191,9 +7184,9 @@
  {
   "name": "Angel Custodio Carmelo LERENA Cardozo (b. 1889, Trinidad)",
   "born_est": "1889-10-02",
-  "last_attested_alive": "1889-10-02",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "last_attested_alive": "1955-Oct-15",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
  },
  {
   "name": "Gabriela Alejandrina LERENA Alvarez (b. 1889, Trinidad)",
@@ -9285,13 +9278,6 @@
   "name": "L. B. LERENA Cardozo (b. c.1930, d. 1938; Lita Blanca)",
   "born_est": "1930c",
   "last_attested_alive": "1930c",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
- },
- {
-  "name": "A. C. LERENA (m. Blanca Rodriguez; Angel Custodio)",
-  "born_est": "1899c",
-  "last_attested_alive": "1899c",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
