@@ -2571,6 +2571,11 @@
        "tree": false
       },
       {
+       "slug": "miguel-lerena",
+       "name": "Miguel LERENA (of Villa de Sarandi, m. Tomasa Rodriguez)",
+       "tree": false
+      },
+      {
        "slug": "tomasa-margarita-lerena-montano",
        "name": "Tomasa Margarita LERENA Montano (b. 1846, San Jose)",
        "tree": false
@@ -2619,8 +2624,18 @@
      ],
      "children": [
       {
+       "slug": "j-j-m-lerena-cespedes",
+       "name": "J. J. M. LERENA Cespedes (b. 1901, Piedras Coloradas; Juan Jose Maria)",
+       "tree": false
+      },
+      {
        "slug": "jacinta-margarita-lerena-cespedes",
        "name": "Jacinta Margarita LERENA Cespedes (b. 1883, Trinidad)",
+       "tree": false
+      },
+      {
+       "slug": "m-j-lerena-cespedes",
+       "name": "M. J. LERENA Cespedes (b. 1900, Piedras Coloradas; Maria Josefa)",
        "tree": false
       },
       {
@@ -2664,6 +2679,16 @@
       }
      ],
      "children": [
+      {
+       "slug": "gregoria-cecilia-lerena-aguilar",
+       "name": "Gregoria Cecilia LERENA Aguilar (b. c.1866, m. Enrique C. Lopez)",
+       "tree": false
+      },
+      {
+       "slug": "julian-lerena-aguilar",
+       "name": "Julian LERENA Aguilar (b. c.1869, Sarandi)",
+       "tree": false
+      },
       {
        "slug": "paula-gregoria-lerena-aguilar",
        "name": "Paula Gregoria LERENA Aguilar (b. 1866, Trinidad)",

@@ -699,6 +699,11 @@
    "url": "/people/avelino-pedro-joaquin-silvestre-lerena-villademoros/"
   },
   {
+   "name": "Balvina Correa",
+   "aliases": [],
+   "url": "/people/balvina-correa/"
+  },
+  {
    "name": "Barbara Sotura",
    "aliases": [],
    "url": "/people/barbara-sotura/"
@@ -748,11 +753,26 @@
    "url": "/people/beatriz-eliza-del-corazon-de-jesus-abella-lerena/"
   },
   {
+   "name": "Beatriz Lerena Rodriguez",
+   "aliases": [],
+   "url": "/people/beatriz-lerena-rodriguez/"
+  },
+  {
    "name": "Beatriz Pilar Lerena Harrison",
    "aliases": [
     "Beatriz Pilar Lerena"
    ],
    "url": "/people/beatriz-pilar-lerena-harrison/"
+  },
+  {
+   "name": "Beatriz Rodriguez",
+   "aliases": [],
+   "url": "/people/beatriz-rodriguez/"
+  },
+  {
+   "name": "Belisario Lerena Correa",
+   "aliases": [],
+   "url": "/people/belisario-lerena-correa/"
   },
   {
    "name": "Benito Larranaga Lerena",
@@ -1247,6 +1267,11 @@
    "name": "Cipriano Lerena Montana",
    "aliases": [],
    "url": "/people/cipriano-lerena/"
+  },
+  {
+   "name": "Ciriaca Cespedes",
+   "aliases": [],
+   "url": "/people/ciriaca-cespedes/"
   },
   {
    "name": "Ciriaca Gonzalez",
@@ -1890,6 +1915,11 @@
    "url": "/people/eduardo-epifanio-alvarez/"
   },
   {
+   "name": "Eduardo Lerena Caceres",
+   "aliases": [],
+   "url": "/people/eduardo-lerena-caceres/"
+  },
+  {
    "name": "Eduardo Machiavello",
    "aliases": [],
    "url": "/people/eduardo-machiavello/"
@@ -2185,6 +2215,13 @@
    "url": "/people/ernesto-benigno-lerena-cardozo/"
   },
   {
+   "name": "Ernesto Nicolas Lerena Rodriguez",
+   "aliases": [
+    "Ernesto Nicolas Lerena"
+   ],
+   "url": "/people/ernesto-nicolas-lerena-rodriguez/"
+  },
+  {
    "name": "Esperanza Gonzalez",
    "aliases": [
     "Esperanza González"
@@ -2459,6 +2496,15 @@
    "url": "/people/florencia-tomasa-fernandez-gonzalez/"
   },
   {
+   "name": "Florentina Lopez Lerena",
+   "aliases": [
+    "Florentina Lopez",
+    "Florentina López",
+    "Florentina López Lerena"
+   ],
+   "url": "/people/florentina-lopez-lerena/"
+  },
+  {
    "name": "Florentino Gomez",
    "aliases": [],
    "url": "/people/florentino-gomez/"
@@ -2694,6 +2740,13 @@
    "url": "/people/gregoria-alejandrina-pelaez-alvarez/"
   },
   {
+   "name": "Gregoria Cecilia Lerena Aguilar",
+   "aliases": [
+    "Gregoria Cecilia Lerena"
+   ],
+   "url": "/people/gregoria-cecilia-lerena-aguilar/"
+  },
+  {
    "name": "Gregoria Fermina Duran",
    "aliases": [],
    "url": "/people/gregoria-fermina-duran/"
@@ -2847,6 +2900,11 @@
     "Hugo Alberto Castilla"
    ],
    "url": "/people/hugo-alberto-castilla-lerena/"
+  },
+  {
+   "name": "Ildemaro Miguel Lerena",
+   "aliases": [],
+   "url": "/people/i-m-lerena-rodriguez/"
   },
   {
    "name": "Ida Pontophidan",
@@ -3818,6 +3876,13 @@
    "url": "/people/julia-vaquero-lerena/"
   },
   {
+   "name": "Julian Lerena Aguilar",
+   "aliases": [
+    "Julian Lerena y Aguilar"
+   ],
+   "url": "/people/julian-lerena-aguilar/"
+  },
+  {
    "name": "Julian Martinez Lerena",
    "aliases": [],
    "url": "/people/julian-martinez-lerena/"
@@ -3841,6 +3906,11 @@
    "name": "Justa Pastora Lerena",
    "aliases": [],
    "url": "/people/justa-pastora-lerena/"
+  },
+  {
+   "name": "Justina Caceres",
+   "aliases": [],
+   "url": "/people/justina-caceres/"
   },
   {
    "name": "Justina Colman",
@@ -4315,6 +4385,15 @@
    "name": "Margarita Lerena Gazo",
    "aliases": [],
    "url": "/people/margarita-lerena-gazo/"
+  },
+  {
+   "name": "Margarita Lopez Lerena",
+   "aliases": [
+    "Margarita Lopez",
+    "Margarita López",
+    "Margarita López Lerena"
+   ],
+   "url": "/people/margarita-lopez-lerena/"
   },
   {
    "name": "Margarita Medarda del Corazon de Jesus Lerena Pelaez",
@@ -4971,6 +5050,11 @@
     "María Teresa Lerena Seña"
    ],
    "url": "/people/maria-teresa-lerena-sena/"
+  },
+  {
+   "name": "Mariana Trujillo",
+   "aliases": [],
+   "url": "/people/mariana-trujillo/"
   },
   {
    "name": "Maridalia Gutierrez",
@@ -6551,6 +6635,13 @@
    ]
   },
   {
+   "name": "Belisario Lerena",
+   "url": "/people/?q=Belisario%20Lerena",
+   "bearers": [
+    "/people/belisario-lerena/"
+   ]
+  },
+  {
    "name": "Beltran Bidondo",
    "url": "/people/?q=Beltran%20Bidondo",
    "bearers": [
@@ -7351,6 +7442,7 @@
    "url": "/people/?q=Juan%20Rodriguez",
    "bearers": [
     "/people/juan-rodriguez-2/",
+    "/people/juan-rodriguez-3/",
     "/people/juan-rodriguez/"
    ]
   },
@@ -7482,6 +7574,7 @@
    "name": "Manuel Lerena",
    "url": "/people/?q=Manuel%20Lerena",
    "bearers": [
+    "/people/manuel-lerena-2/",
     "/people/manuel-lerena/"
    ]
   },
@@ -8266,6 +8359,19 @@
    "bearers": [
     "/people/salvador-lerena-2/",
     "/people/salvador-lerena/"
+   ]
+  },
+  {
+   "name": "Santiago Lerena",
+   "url": "/people/?q=Santiago%20Lerena",
+   "bearers": [
+    "/people/santiago-lerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/beatriz-rodriguez/",
+     "url": "/people/santiago-lerena/"
+    }
    ]
   },
   {

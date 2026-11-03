@@ -1082,6 +1082,35 @@
   "count": 41
  },
  {
+  "slug": "florida-uruguay",
+  "name": "Florida, Uruguay",
+  "people": [
+   "manuel-vicente-lerena-marino",
+   "julian-lerena-aguilar",
+   "justina-caceres",
+   "eduardo-lerena-caceres",
+   "m-a-lerena-caceres",
+   "gregoria-cecilia-lerena-aguilar",
+   "enrique-c-lopez",
+   "florentina-lopez-lerena",
+   "margarita-lopez-lerena",
+   "m-j-lerena-cespedes",
+   "j-j-m-lerena-cespedes",
+   "ernesto-nicolas-lerena-rodriguez",
+   "juan-rodriguez-3",
+   "ciriaca-cespedes",
+   "santiago-lerena",
+   "beatriz-rodriguez",
+   "beatriz-lerena-rodriguez",
+   "belisario-lerena",
+   "balvina-correa",
+   "belisario-lerena-correa",
+   "manuel-lerena-2",
+   "mariana-trujillo"
+  ],
+  "count": 22
+ },
+ {
   "slug": "rosario-santa-fe",
   "name": "Rosario, Santa Fe",
   "people": [
@@ -1882,14 +1911,6 @@
   "name": "San Jose, Uruguay",
   "people": [
    "adolfo-maximo-cordero"
-  ],
-  "count": 1
- },
- {
-  "slug": "florida-uruguay",
-  "name": "Florida, Uruguay",
-  "people": [
-   "manuel-vicente-lerena-marino"
   ],
   "count": 1
  },

@@ -5959,9 +5959,9 @@
  {
   "name": "Paula Gregoria LERENA Aguilar (b. 1866, Trinidad)",
   "born_est": "1866-06-14",
-  "last_attested_alive": "1866-Jun-21",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1866-06-14",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Barbara LLERENA (enslaved, Trinidad 1843)",
@@ -9101,24 +9101,24 @@
  },
  {
   "name": "I. M. LERENA Rodriguez (b. 1902; Ildemaro Manuel)",
-  "born_est": "1902-09-29",
-  "last_attested_alive": "1902-09-29",
+  "born_est": "1902-09-21",
+  "last_attested_alive": "1902-09-21",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
  {
   "name": "Miguel LERENA (of Villa de Sarandi, m. Tomasa Rodriguez)",
   "born_est": "-",
-  "last_attested_alive": "1937-May-15",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Tomasa RODRIGUEZ (m. Miguel Lerena of Villa de Sarandi)",
   "born_est": "-",
-  "last_attested_alive": "1937-May-15",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "M. M. LABRAGA (m. Ildemaro Lerena 1937; Maria Mercedes)",
@@ -9392,5 +9392,152 @@
   "last_attested_alive": "1938-Jan-5",
   "basis": "explicit death date on this person's row",
   "tier": "DEATH"
+ },
+ {
+  "name": "Julian LERENA Aguilar (b. c.1869, Sarandi)",
+  "born_est": "1869c",
+  "last_attested_alive": "1869c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Justina CACERES (m. Julian Lerena Aguilar)",
+  "born_est": "1878c",
+  "last_attested_alive": "1878c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Eduardo LERENA Caceres (b. 1899, Sarandi)",
+  "born_est": "1899-03-11",
+  "last_attested_alive": "1899-03-11",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "M. A. LERENA Caceres (b. 1900, Sarandi; Maria Angelica)",
+  "born_est": "1900-11-08",
+  "last_attested_alive": "1900-11-08",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Gregoria Cecilia LERENA Aguilar (b. c.1866, m. Enrique C. Lopez)",
+  "born_est": "1866c",
+  "last_attested_alive": "1866c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Enrique C. LOPEZ (m. Gregoria Cecilia Lerena)",
+  "born_est": "1860c",
+  "last_attested_alive": "1860c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Florentina LOPEZ Lerena (b. 1902, Piedras Coloradas)",
+  "born_est": "1902-05-20",
+  "last_attested_alive": "1902-05-20",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Margarita LOPEZ Lerena (b. 1903, Piedras Coloradas)",
+  "born_est": "1903-10-18",
+  "last_attested_alive": "1903-10-18",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "M. J. LERENA Cespedes (b. 1900, Piedras Coloradas; Maria Josefa)",
+  "born_est": "1900-07-04",
+  "last_attested_alive": "1900-07-04",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "J. J. M. LERENA Cespedes (b. 1901, Piedras Coloradas; Juan Jose Maria)",
+  "born_est": "1901-12-26",
+  "last_attested_alive": "1901-12-26",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Ernesto Nicolas LERENA Rodriguez (b. 1900, Arrayan del Yi)",
+  "born_est": "1900-12-06",
+  "last_attested_alive": "1900-12-06",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Juan RODRIGUEZ (father of Tomasa and Beatriz Rodriguez)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Ciriaca CESPEDES (m. Juan Rodriguez)",
+  "born_est": "1842c",
+  "last_attested_alive": "1842c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Santiago LERENA (m. Beatriz Rodriguez, of Castro, Florida)",
+  "born_est": "1863c",
+  "last_attested_alive": "1899-Apr-06",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Beatriz RODRIGUEZ (m. Santiago Lerena)",
+  "born_est": "1862c",
+  "last_attested_alive": "1899-Apr-06",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Beatriz LERENA Rodriguez (b. 1899, Castro, Florida)",
+  "born_est": "1899-03-26",
+  "last_attested_alive": "1899-03-26",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Belisario LERENA (m. Balvina Correa, of Castro, Florida)",
+  "born_est": "1873c",
+  "last_attested_alive": "1873c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Balvina CORREA (m. Belisario Lerena)",
+  "born_est": "1878c",
+  "last_attested_alive": "1902-Oct-14",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Belisario LERENA Correa (b. 1902, Castro, Florida)",
+  "born_est": "1902-10-04",
+  "last_attested_alive": "1902-10-04",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Manuel LERENA (m. Mariana Trujillo, 'finado' in 1902)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Mariana TRUJILLO (m. Manuel Lerena)",
+  "born_est": "1839c",
+  "last_attested_alive": "1902-Oct-14",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
  }
 ]
