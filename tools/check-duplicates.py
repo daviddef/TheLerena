@@ -34,22 +34,25 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 PEOPLE = ROOT / "site" / "src" / "data" / "people.json"
 DECLARED = ROOT / "data" / "_person-pairs.txt"
 
-# *** THIS LIST USED TO BE SIX SPELLINGS, HARD-CODED, while /name/ published fourteen. ***
-# Found 12 October 2026 while building tools/check-nulls.py: the page and the gate had drifted
-# apart, which is the same "two rows that never meet" failure check-nulls exists to catch - so
-# both now read the one list the archive publishes.
+def _catalogue_forms():
+    """The Lerena family's forms from the Record Atlas catalogue (../Record Atlas/data/surname-families.json) when it stands beside
+    this checkout; None when it does not (CI), where the fallback below applies. This archive keeps no list of spellings."""
+    f = pathlib.Path(__file__).resolve().parent.parent.parent / "Record Atlas" / "data" / "surname-families.json"
+    try:
+        fam = next(x for x in json.loads(f.read_text(encoding="utf-8"))["families"] if x["id"] == "lerena")
+    except (OSError, ValueError, KeyError, StopIteration):
+        return None
+    return [m["form"] for m in fam["members"] if m["status"] in ("same", "attested", "rule", "case-by-case")]
+
+
+# The spellings come from the Record Atlas catalogue (one list for every archive); the short list is only the fallback when the
+# catalogue is not beside the checkout.
 def _variants():
-    f = pathlib.Path(__file__).resolve().parent.parent / "data" / "name-variants.tsv"
     out = set()
-    if f.exists():
-        for line in f.read_text(encoding="utf-8").splitlines():
-            if line.startswith("#") or not line.strip():
-                continue
-            for part in re.split(r"[/,]", line.split("\t")[0].strip()):
-                part = norm(part).strip()
-                # HERENCIA is a word, not a name; LERENA is the canonical target itself.
-                if part and part not in ("lerena", "herencia") and " " not in part:
-                    out.add(part)
+    for form in _catalogue_forms() or ():
+        part = norm(form).strip()
+        if part and part != "lerena" and " " not in part:
+            out.add(part)
     return tuple(sorted(out)) or ("llerena", "serena", "gerena", "lorena", "larena", "lerina")
 
 

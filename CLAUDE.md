@@ -10,6 +10,12 @@ open a register, write to an archive, or find a source the atlas does
 not list — as you do it, not in a sweep at the end. Record the
 FamilySearch waypoint, not just the film number; the skill explains why.
 
+## Surname spellings (3 November 2026)
+
+Surname spellings come only from the Record Atlas catalogue: run `terms` before searching, `cover` before any nil, `add` for every new spelling, `publish` once at the end. Keep no variants list here.
+(`python3 "../Record Atlas/scripts/surname_variants.py" terms Lerena`; the `surname-variants` skill. `/name/#s-variants` points at the Atlas page; `tools/check-nulls.py`
+and `tools/check-duplicates.py` read the family's forms from the catalogue when it stands beside the checkout. Person-level aliases stay in `data/names-aliases.tsv`.)
+
 ## The linking standard (18 October 2026)
 
 The eleven narrative pages named in `site/standard.json` are held to five rules (kit `docs/linking-standard.md`); the build ends with

@@ -76,7 +76,7 @@ STATUSES = ("documented", "inferred", "origin-unknown", "family-lore")
 EVIDENCE = ("read", "indexed", "scanned", "tree", "inferred", "disputed", "none")
 JOIN_STATUSES = ("documented", "candidate", "refused", "open")
 
-# The spellings this archive has met for the name (data/name-variants.tsv, less HERENCIA, which is not a name at all). A person
+# The spellings this archive has met for the name (the Record Atlas catalogue, family lerena, less its not-same forms). A person
 # "carries the name" when one of these is a word of their register name after the first word, outside brackets.
 SPELLINGS = ("LERENA", "LLERENA", "SERENA", "GERENA", "PERENA", "LORENA", "LEVENA", "LERESA", "LARENA", "LERINA", "LERRENA")
 

@@ -113,7 +113,7 @@ def ascii_fold(s):
 def accent_fold(s):
     """Remove the accents of a word, the n-tilde included (the register writes ASCII: Lavina for the Lavina with a tilde on the n
     that the pages print), but leave the family's own surname alone: Lerena and Lerena-with-a-tilde are two spellings of that
-    surname which name-variants.tsv records one by one, not one word with an accent."""
+    surname which the Record Atlas catalogue records one by one, not one word with an accent."""
     base = unicodedata.normalize("NFKD", s)
     base = "".join(c for c in base if not unicodedata.combining(c))
     if base.casefold() in FAMILY_SURNAMES_ASCII and base != s and "\u00f1" in s.casefold():
@@ -223,7 +223,7 @@ def accent_variants(name, acc):
     return sorted({" ".join(v) for v in variants} - {name})
 
 
-# the surname of the family itself, in the spellings this archive meets (name-variants.tsv): "Given Lerena" is not a form that
+# the surname of the family itself, in the spellings the Record Atlas catalogue holds: "Given Lerena" is not a form that
 # belongs to one person, whoever the register holds under it, so it is never made a short form
 FAMILY_SURNAMES = {"lerena", "llerena", "lerina", "larena", "lorena", "serena", "gerena", "perena", "levena", "leresa", "lerrena",
                    "ledena", "alerena"}

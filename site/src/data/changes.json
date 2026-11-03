@@ -5,6 +5,11 @@
    "date": "2026-11-03",
    "commits": [
     {
+     "sha": "819742f",
+     "subject": "Flores civil death registers of Trinidad 1930s-1940s, first 1,196 of the 3,268 images of the second group (scanned in the machine's transcript, nine leaves at the plate; public registers): Elio Severo Lerena died 8 October 1942 at fifty-six, son of Florencio Lerena and Juana Recuero (which settles his parents); Florinda Cardozo de Lerena, wife of Bernabe, died 28 April 1938 at seventy, daughter of Custodio Cardozo and Isidora Nunez; Custodio Lerena and Emma Cardozo lost two daughters, Lis Blanca (9 November 1937, five months) and Lita Blanca (4 January 1938, seven years); Angel Custodio Lerena and Blanca Rodriguez, new to the register, had three stillborn children 1939-1941; an infant Doroteo Donato Lerena, son of an Ademar Lerena and Olga Requio, died 18 July 1942 (a candidate for Ademar Miguel, not tied); a Juan Feliciano Lerena died 2 January 1936 (not tied to a row); Moreira and Pereira leaves opened and not counted; images 1197-3268 not scanned",
+     "body": ""
+    },
+    {
      "sha": "ae5e4a8",
      "subject": "Merge the rows Ademar LERENA Beloqui and Miguel Abdemar LERENA Beloqui: his death act of 30 July 1948 calls him Ademar Miguel, son of Cipriano Lerena and Laureana Beloqui and husband of Maria Blanca Gau; the old address redirects to the kept row, the relation edges, alias and Cordon-death reference follow",
      "body": ""

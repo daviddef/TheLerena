@@ -26,7 +26,6 @@ const dist = rows
   .sort((a, b) => b[1] - a[1]);
 import dItalyLerenaLerina from "../data/italy-lerena-lerina.json";
 import { ledger } from "@daviddef/archive-kit/lib/lines.js";
-import dVariants from "../data/name-variants.json";
 import dSweep from "../data/variant-parent-sweep.json";
 import dNavarrete from "../data/navarrete-logrono.json";
 import drawing from "../data/lerena-lines.json";
@@ -51,8 +50,8 @@ const nLines = WORD[LED.lanes] ?? String(LED.lanes);
 
 <section class="blk">
 <h2 id="s-variants">Every way the name has been written down</h2>
-<p class="dek">Fourteen forms, each one taken from a document this archive has read. Twelve are the
-  same name; one is a different family; one is not a name at all.</p>
+<p class="dek">The spellings are kept in one place, the Record Atlas&rsquo;s catalogue, each with the document that shows it.
+  Here is why that matters.</p>
 <div class="prose">
   <p><strong>This is the most practical page in the archive, and it was the last one written.</strong>
     For a month every sweep here was run on <strong>LERENA</strong>. On 12 October 2026 the same
@@ -64,23 +63,22 @@ const nLines = WORD[LED.lanes] ?? String(LED.lanes);
     as both <em>Lerena</em> and <em>Llerena</em>, twice each, in a single paragraph.</strong> After
     that, searching this surname by its letters is not a method.</p>
 </div>
-<dl class="kv" style="margin-top:18px">
-  {dVariants.filter((r) => r["the form"]).map((r) => (
-    <div><dt set:html={emph(r["the form"])} /><dd>
-      <span set:html={emph(r["where this archive has met it"])} /><br />
-      <span class="cap" set:html={emph(r["what it is, and what it cost or gave"])} />
-    </dd></div>
-  ))}
-</dl>
 <div class="prose" style="margin-top:18px">
-  <p class="cap"><strong>What this table is for.</strong> Not completeness &mdash; a name can be
+  <p><strong>The list of spellings is not kept here.</strong> Every archive used to keep its own, and nothing
+    shared them. There is now one catalogue, in the Record Atlas, with the document that shows each form, the
+    ones that are a different name, and the ones that are only a lead. Read it on the
+    <a href="https://recordatlas.org/surname/lerena/">Atlas&rsquo;s Lerena surname page</a> and on
+    <a href="https://recordatlas.org/surname-families/">its list of surname families</a>;
+    to search with it, run <code>python3 "../Record Atlas/scripts/surname_variants.py" terms Lerena</code>
+    (and <code>cover</code> before writing a nil).</p>
+  <p class="cap"><strong>What the catalogue is for.</strong> Not completeness &mdash; a name can be
     mangled in more ways than anyone can list. It is for the next person who runs a search here and
     gets nothing: <strong>the null may be a letter rather than a fact</strong>, and these are the
     letters that have done it before. <a href={u("/method/")}>The method &rarr;</a></p>
 </div>
 
-<h2 id="s-sweep">What happened when all fourteen were used at once</h2>
-<p class="dek">The table above was published on the morning of 12 October. Within the hour it was turned on the
+<h2 id="s-sweep">What happened when every spelling was used at once</h2>
+<p class="dek">The table of spellings was published here on the morning of 12 October 2026. Within the hour it was turned on the
   question this archive exists to answer, and the answer held.</p>
 <div class="prose">
   <p>Every parent-pair search ever run here &mdash; the method that found Sancho&rsquo;s children,

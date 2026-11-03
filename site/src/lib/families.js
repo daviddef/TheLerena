@@ -64,7 +64,7 @@ export const STATUS = {
   excluded: "Excluded",
 };
 
-/* the spellings of the surname itself that the archive has seen written (data/name-variants.tsv) */
+/* the spellings of the surname itself that the archive has seen written (the Record Atlas catalogue) */
 const NAME_FORMS = new Set(["lerena", "llerena", "serena", "gerena", "perena", "lorena", "leresa",
   "larena", "lerina", "lerrena", "levena", "herencia"]);
 

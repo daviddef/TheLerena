@@ -36,8 +36,8 @@ register row cited the 1895 Buenos Aires census.
 
 THE FOLD IS THE WHOLE POINT. The card says LORENA and the census says LERENA. A gate that
 compares strings cannot catch this archive's characteristic error, because this archive's
-characteristic error IS the spelling. The variants come from data/name-variants.tsv, which is
-what /name/ publishes, so the gate and the page cannot drift apart.
+characteristic error IS the spelling. The variants come from the Record Atlas catalogue
+(surname_variants.py, family lerena), the one list for every archive, so the gate and the Atlas cannot drift apart.
 
 WHAT IT DOES NOT DO. It is not a word ban. A null claim may legitimately sit beside a
 retraction ("this was wrong", "corrected on", "withdrawn"), and corrections.tsv and
@@ -46,6 +46,7 @@ match within RETRACT_WINDOW characters of a word of retraction is allowed.
 
 It is a GATE. It exits 1.
 """
+import json
 import pathlib
 import re
 import sys
@@ -82,20 +83,24 @@ STOP = {"don", "dona", "dn", "da", "sr", "sra", "the", "of", "and", "y", "de", "
         "la", "el", "los", "las"}
 
 
+def _catalogue_forms():
+    """The Lerena family's forms from the Record Atlas catalogue (../Record Atlas/data/surname-families.json) when it stands beside
+    this checkout; None when it does not (CI), where the fallback below applies. This archive keeps no list of spellings."""
+    f = pathlib.Path(__file__).resolve().parent.parent.parent / "Record Atlas" / "data" / "surname-families.json"
+    try:
+        fam = next(x for x in json.loads(f.read_text(encoding="utf-8"))["families"] if x["id"] == "lerena")
+    except (OSError, ValueError, KeyError, StopIteration):
+        return None
+    return [m["form"] for m in fam["members"] if m["status"] in ("same", "attested", "rule", "case-by-case")]
+
+
 def variants():
-    """The spellings /name/ publishes, so the gate cannot drift from the page."""
-    f = ROOT / "data" / "name-variants.tsv"
+    """The spellings the Record Atlas catalogue holds for the family, so the gate cannot drift from it."""
     out = set()
-    if f.exists():
-        for line in f.read_text(encoding="utf-8").splitlines():
-            if line.startswith("#") or not line.strip():
-                continue
-            form = line.split("\t")[0].strip()
-            for part in re.split(r"[/,]", form):
-                part = norm(part).strip()
-                # HERENCIA is a word, not a name; LERENA is the canonical target.
-                if part and part not in ("lerena", "herencia") and " " not in part:
-                    out.add(part)
+    for form in _catalogue_forms() or ():
+        part = norm(form).strip()
+        if part and part != "lerena" and " " not in part:
+            out.add(part)
     return out or {"llerena", "serena", "gerena", "lorena", "larena", "lerina"}
 
 
@@ -250,7 +255,7 @@ def main():
           " in one is" % (claims, scanned))
     print("                   absent from the register, or held there from the very record"
           " the claim concedes")
-    print("                   (%d spellings folded, from data/name-variants.tsv)" % len(var))
+    print("                   (%d spellings folded, from the Record Atlas catalogue)" % len(var))
     return 0
 
 
