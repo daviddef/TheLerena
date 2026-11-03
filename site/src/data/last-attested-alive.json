@@ -4642,10 +4642,10 @@
  },
  {
   "name": "Luisa LERENA Beloqui (b. c.1884, m. Buenaventura Olivera 1906)",
-  "born_est": "1884c",
-  "last_attested_alive": "1884c",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "born_est": "1884-06-21",
+  "last_attested_alive": "1962-Jan-31",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
  },
  {
   "name": "Valentina SENA (m. Doroteo Donato Lerena)",
@@ -6721,10 +6721,10 @@
  },
  {
   "name": "Maria Luisa CABALLERO (m. Rodolfo Lerena 1917)",
-  "born_est": "1898c",
-  "last_attested_alive": "1898c",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "born_est": "1898-01-05",
+  "last_attested_alive": "1964-Aug-18",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
  },
  {
   "name": "Casimira PELAEZ (m. Pedro Vicente Gonzalez 1919)",
@@ -7233,9 +7233,9 @@
  {
   "name": "Amora Juliana PELAEZ Lerena (b. 1890, Trinidad)",
   "born_est": "1890-02-27",
-  "last_attested_alive": "1890-02-27",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "last_attested_alive": "1961-Jun-8",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
  },
  {
   "name": "Blanca Juana VAQUERO Lerena (b. 1890, Trinidad)",
@@ -9378,5 +9378,12 @@
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Elisa PELAEZ Lerena (b. 1878, d. 1963)",
+  "born_est": "1878-07-27",
+  "last_attested_alive": "1963-Aug-26",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
  }
 ]
