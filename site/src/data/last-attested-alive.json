@@ -3341,9 +3341,9 @@
  {
   "name": "Casto Severino VAQUERO Lerena (b. 1891, Trinidad)",
   "born_est": "1891-07-06",
-  "last_attested_alive": "1891-07-06",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "last_attested_alive": "1957-Aug-26",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
  },
  {
   "name": "Manuel VAQUERO (m. Aurora Lerena)",
@@ -6995,9 +6995,9 @@
  {
   "name": "Luisa Estefania LERENA Echeverry (b. 1882, Trinidad)",
   "born_est": "1882-08-19",
-  "last_attested_alive": "1882-Oct-14",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1957-Jul-22",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
  },
  {
   "name": "Irene LERENA Harrison (b. 1884, Trinidad)",
@@ -9348,6 +9348,13 @@
   "name": "A. LERENA Sena (named 1951; Ademar)",
   "born_est": "1910c",
   "last_attested_alive": "1910c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Germana SANTIAGO (wife of Casto Severino Vaquero; first name read)",
+  "born_est": "-",
+  "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  }
