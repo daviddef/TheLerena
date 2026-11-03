@@ -7247,9 +7247,9 @@
  {
   "name": "Gonzalo Eusebio BERATARBIDE Lerena (b. 1890, Trinidad)",
   "born_est": "1890-08-14",
-  "last_attested_alive": "1890-08-14",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "last_attested_alive": "1941-Feb-23",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
  },
  {
   "name": "Felicia Rafaela BIDONDO (b. 1890, Trinidad)",
