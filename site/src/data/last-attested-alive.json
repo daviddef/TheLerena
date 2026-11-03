@@ -2970,9 +2970,9 @@
  {
   "name": "Anibal Marino PELAEZ",
   "born_est": "1922-03-03",
-  "last_attested_alive": "1922-Mar-03",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1922-03-03",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Nepomuceno Teofilo LERENA",
@@ -8409,9 +8409,9 @@
  {
   "name": "O. F. PELAEZ Lerena (b. 1920; baptised Oliva Florinda)",
   "born_est": "1920-01-06",
-  "last_attested_alive": "1920-Jan-06",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1920-01-06",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Elvira Maria Felipa PELAEZ Alvarez (b. 1918, Trinidad)",
@@ -9201,6 +9201,83 @@
   "name": "R. E. RIOS (m. Beatriz Pilar Lerena 1950; Ramon Eduardo)",
   "born_est": "1903-08-31",
   "last_attested_alive": "1903-08-31",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "C. ETCHISSURE (m. Olga Sita Bueno 1938; Carmelo)",
+  "born_est": "1912-12-26",
+  "last_attested_alive": "1912-12-26",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "M. E. BESSONART (m. Excelso Moises Bueno 1944; Maria Ecilda)",
+  "born_est": "1922-05-29",
+  "last_attested_alive": "1922-05-29",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "N. T. LOPEZ Lerena (b. 1943, d. 1959; Nelly Telor)",
+  "born_est": "1943-03-21",
+  "last_attested_alive": "1943-03-21",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "P. S. LOPEZ (m. Adelia Blanca Lerena 1941; Pedro Selustiano)",
+  "born_est": "1914-10-19",
+  "last_attested_alive": "1914-10-19",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "M. I. COLOMBO Vera (b. 1933, d. 1996; Maria Ines)",
+  "born_est": "1933-10-06",
+  "last_attested_alive": "1933-10-06",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "V. RODRIGUEZ Castro (b. 1915; Victorio)",
+  "born_est": "1915-12-23",
+  "last_attested_alive": "1915-12-23",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "M. A. LERENA (m. Victorio Rodriguez Castro; Maria Alcira)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "J. V. LERENA Harrison (named 1945; Juan Venancio)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "P. A. LERENA Harrison (named 1945; Petrona Alejandrina)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "E. E. LERENA Harrison (named 1945; Elisa Engracia)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "E. A. PELAEZ Lerena (named 1952; Enrique Antonio)",
+  "born_est": "-",
+  "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  }

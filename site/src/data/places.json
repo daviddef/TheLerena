@@ -545,9 +545,13 @@
    "r-p-olivera-lerena",
    "a-m-perez",
    "i-a-caballero",
-   "h-p-bueno-lerena"
+   "h-p-bueno-lerena",
+   "c-etchissure",
+   "m-e-bessonart",
+   "p-s-lopez",
+   "m-i-colombo-vera"
   ],
-  "count": 543
+  "count": 547
  },
  {
   "slug": "montevideo",
@@ -1169,6 +1173,26 @@
   "count": 14
  },
  {
+  "slug": "flores-uruguay",
+  "name": "Flores, Uruguay",
+  "people": [
+   "bernabe-lerena-2",
+   "florinda-cardozo",
+   "vitalino-gregorio-pelaez",
+   "anibal-marino-pelaez",
+   "pedro-beloqui",
+   "dorotea-delgado",
+   "mauricio-lerena-2",
+   "emilio-lerena-2",
+   "paula-casares",
+   "fermin-lerena-barragan",
+   "esteban-indarte",
+   "n-t-lopez-lerena",
+   "e-a-pelaez-lerena"
+  ],
+  "count": 13
+ },
+ {
   "slug": "northam-devon",
   "name": "Northam, Devon",
   "people": [
@@ -1206,24 +1230,6 @@
    "aurora-eduarda-larena-fuentes"
   ],
   "count": 12
- },
- {
-  "slug": "flores-uruguay",
-  "name": "Flores, Uruguay",
-  "people": [
-   "bernabe-lerena-2",
-   "florinda-cardozo",
-   "vitalino-gregorio-pelaez",
-   "anibal-marino-pelaez",
-   "pedro-beloqui",
-   "dorotea-delgado",
-   "mauricio-lerena-2",
-   "emilio-lerena-2",
-   "paula-casares",
-   "fermin-lerena-barragan",
-   "esteban-indarte"
-  ],
-  "count": 11
  },
  {
   "slug": "uruguay",
@@ -1519,6 +1525,16 @@
   "count": 3
  },
  {
+  "slug": "chamanga-flores",
+  "name": "Chamanga, Flores",
+  "people": [
+   "j-v-lerena-harrison",
+   "p-a-lerena-harrison",
+   "e-e-lerena-harrison"
+  ],
+  "count": 3
+ },
+ {
   "slug": "tucuman",
   "name": "Tucuman",
   "people": [
@@ -1713,6 +1729,15 @@
   "people": [
    "r-r-caballero",
    "r-e-rios"
+  ],
+  "count": 2
+ },
+ {
+  "slug": "cuchilla-de-villasboas-flores",
+  "name": "Cuchilla de Villasboas, Flores",
+  "people": [
+   "v-rodriguez-castro",
+   "m-a-lerena"
   ],
   "count": 2
  },
