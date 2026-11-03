@@ -9487,16 +9487,16 @@
  {
   "name": "Santiago LERENA (m. Beatriz Rodriguez, of Castro, Florida)",
   "born_est": "1863c",
-  "last_attested_alive": "1899-Apr-06",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1863c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Beatriz RODRIGUEZ (m. Santiago Lerena)",
   "born_est": "1862c",
-  "last_attested_alive": "1899-Apr-06",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1862c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Beatriz LERENA Rodriguez (b. 1899, Castro, Florida)",
@@ -9539,5 +9539,40 @@
   "last_attested_alive": "1902-Oct-14",
   "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
   "tier": "ALIVE AT"
+ },
+ {
+  "name": "F. S. LERENA Rodriguez (b. 1894, Costa del Tala; Francisco Solano)",
+  "born_est": "1894-07-24",
+  "last_attested_alive": "1894-07-24",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "D. LERENA Rodriguez (b. 1894, Castro, Florida; Dolores)",
+  "born_est": "1894-07-31",
+  "last_attested_alive": "1894-07-31",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "S. LERENA Rodriguez (b. 1893, Castro, Florida; Sulma)",
+  "born_est": "1893",
+  "last_attested_alive": "1893-Aug-03",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "J. LERENA Caceres (b. 1896, Costa del Tala; Julian)",
+  "born_est": "1896-03-22",
+  "last_attested_alive": "1896-03-22",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "A. LERENA Caceres (b. 1897, Sarandi; Andres)",
+  "born_est": "1897-11",
+  "last_attested_alive": "1897-11",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]
