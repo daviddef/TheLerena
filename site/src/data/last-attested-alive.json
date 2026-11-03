@@ -9315,5 +9315,54 @@
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "D. B. LERENA (b. 1946, d. 1946; Delia Beatriz)",
+  "born_est": "1946c",
+  "last_attested_alive": "1946-Jun-5",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
+ },
+ {
+  "name": "E. E. LERENA (b. c.1951, d. 1953; Elsa Estela)",
+  "born_est": "1951c",
+  "last_attested_alive": "1953-Jul-28",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
+ },
+ {
+  "name": "G. A. LERENA (m. Candida Garcia; Gil Antonio)",
+  "born_est": "1920c",
+  "last_attested_alive": "1920c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "C. GARCIA (m. Gil Antonio Lerena; Candida)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "P. N. ANGULO Lerena (b. c.1926; Pio Nelson)",
+  "born_est": "1926c",
+  "last_attested_alive": "1926c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "N. N. LOPEZ Lerena (b. 1947, d. 1947; Nestor Noel)",
+  "born_est": "1947-02c",
+  "last_attested_alive": "1947-Jun",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
+ },
+ {
+  "name": "A. LERENA Sena (named 1951; Ademar)",
+  "born_est": "1910c",
+  "last_attested_alive": "1910c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]
