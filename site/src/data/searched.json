@@ -6004,5 +6004,43 @@
    "full-text"
   ],
   "note": "A COVERAGE NULL: no record of either man in any of twelve spellings (the Atlas cover check passes); every Juan Carlos hit is a modern record of another man or the 1910 Buenos Aires baptism already held. The engine does not hold Santa Fe parish registers, so this says nothing about whether the Rosario act exists. Rosario cathedral baptisms, marriages and confirmations were closed by earlier sessions; Santa Fe civil registration begins 1886; the Registro Civil letter is drafted, not sent."
+ },
+ {
+  "src": "FamilySearch - Rosario cathedral baptisms, Libro 25, DGS film 004098791 (Bautismos 1882-1883), read act by act, 14 August 1882 to 2 January 1883",
+  "url": "https://www.familysearch.org/search/film/004098791?i=22",
+  "film": "004098791",
+  "waypoint": null,
+  "what": "The baptism of Pablo Armando Lerena (b. Rosario de Santa Fe, 22 February 1882) and the Lerena baptisms of the second half of 1882, read in the register itself, not the index",
+  "when": "2026-11-04",
+  "outcome": "nothing",
+  "pages": "film images 23-132 of 543 (pp. 35-250; image 115 repeats 114)",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "rosario",
+   "santa fe",
+   "argentina",
+   "familysearch",
+   "baptisms"
+  ],
+  "note": "642 baptisms of 1882 (acts 963-1604) and the first four of 1883 read at 1500 px, margin names and parents and godparents seen: no Lerena in any spelling of the Atlas catalogue. Not claimed walked: the volume continues past image 132. The waypoint is not established (the film page's label is 'Bautismos 1882-1883'); the film number only."
+ },
+ {
+  "src": "FamilySearch full text - Uruguay, Catholic Church records, the quoted phrase 'Lerena' (912 of 914 entries)",
+  "url": "https://www.familysearch.org/search/full-text/results?q.text=%22Lerena%22",
+  "film": null,
+  "waypoint": null,
+  "what": "A Juan Carlos Lerena (b. about 1840-60) as a possible Uruguayan origin of the parents of Pablo Armando Lerena (b. Rosario 1882)",
+  "when": "2026-11-04",
+  "outcome": "nothing",
+  "pages": null,
+  "walked": false,
+  "tags": [
+   "lerena",
+   "uruguay",
+   "familysearch",
+   "full-text"
+  ],
+  "note": "Not a nil across spellings: only the phrase 'Lerena' was typed in this scan (the catalogue's other spellings were not), the engine holds the transcribed volumes only, two of the 914 entries were not fetched and the civil set was not scanned for the forename. None of the 912 is a Juan Carlos."
  }
 ]
