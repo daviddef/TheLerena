@@ -1129,6 +1129,11 @@
    "url": "/people/casto-severino-vaquero-lerena/"
   },
   {
+   "name": "Catalina Arria",
+   "aliases": [],
+   "url": "/people/catalina-arria/"
+  },
+  {
    "name": "Catalina Ydiarte",
    "aliases": [],
    "url": "/people/catalina-ydiarte/"
@@ -4709,6 +4714,13 @@
    "url": "/people/maria-del-carmen-fernandez-lerena/"
   },
   {
+   "name": "Maria Dolores Dominguez",
+   "aliases": [
+    "María Dolores Dominguez"
+   ],
+   "url": "/people/maria-dolores-dominguez/"
+  },
+  {
    "name": "Maria Dolores Moratorio Lerena",
    "aliases": [
     "Maria Dolores Moratorio",
@@ -7227,6 +7239,19 @@
    ]
   },
   {
+   "name": "Fructuoso Lerena",
+   "url": "/people/?q=Fructuoso%20Lerena",
+   "bearers": [
+    "/people/fructuoso-lerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/catalina-arria/",
+     "url": "/people/fructuoso-lerena/"
+    }
+   ]
+  },
+  {
    "name": "Fructuoso Serena",
    "url": "/people/?q=Fructuoso%20Serena",
    "bearers": [
@@ -7691,6 +7716,7 @@
    "url": "/same-name/luis-lerena/",
    "bearers": [
     "/people/luis-lerena-2/",
+    "/people/luis-lerena-3/",
     "/people/luis-lerena/"
    ]
   },

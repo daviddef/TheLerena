@@ -39,6 +39,9 @@ const redirects = {
      page by page. A published address outlives the reason it was minted. */
   '/people/pedro-lerena-vega': `${BASE}/people/pedro-lerena-vega-2/`,
 
+  /* 5 November 2026. A row for the 1969 death of Alberto Medardo Rodriguez Lerena was minted for a few minutes and withdrawn: he is the Alberto Madardo of the Flores birth act of 8 June 1921 (same birth date, same parents), already held. The death went into that row. */
+  '/people/a-m-rodriguez-lerena': `${BASE}/people/alberto-m-rodriguez-lerena/`,
+
   /* 3 November 2026. 'Ademar' (twenty-six in 1912, the Ademar of his father's death act) and 'Miguel Abdemar' (the baptism of 1886) were one man: his own death act of 30 July 1948 calls him ADEMAR MIGUEL, son of Cipriano Lerena and Laureana Beloqui, husband of Maria Blanca Gau. MERGED. */
   '/people/ademar-lerena-beloqui': `${BASE}/people/miguel-abdemar-lerena-beloqui/`,
   /* 3 November 2026. 'A. C. Lerena (m. Blanca Rodriguez)' and the index row 'Angel Custodio Lerena Cardozo (1934-1955)' are one man with the Angel Custodio Carmelo of 1889 (probable): his death act of 16 October 1955 names his parents Doroteo and Isidora Cardozo and his wife Blanca Rodriguez; the index's 1934 was a mistake. */

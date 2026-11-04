@@ -1104,7 +1104,7 @@
    "name": "Luis Lerena",
    "slug": "luis-lerena",
    "links": 35,
-   "exact": 2,
+   "exact": 3,
    "bearers": [
     {
      "slug": "luis-lerena",
@@ -1141,6 +1141,32 @@
      "mother": null,
      "spouses": [],
      "children": []
+    },
+    {
+     "slug": "luis-lerena-3",
+     "name": "Luis LERENA (father of Luis Socorro Lerena Dominguez, dead by 1995)",
+     "exact": true,
+     "status": "unplaced",
+     "born": "",
+     "died": "",
+     "where": "Florida, Uruguay · Oriental",
+     "source": "Florida, civil death registers, the volume titled 'Death 1995' (Florida city, 1st Section, before Dra …",
+     "father": null,
+     "mother": null,
+     "spouses": [
+      {
+       "slug": "maria-dolores-dominguez",
+       "name": "Maria Dolores DOMINGUEZ (wife of Luis Lerena, dead by 1995)",
+       "tree": false
+      }
+     ],
+     "children": [
+      {
+       "slug": "l-s-lerena-dominguez",
+       "name": "L. S. LERENA Dominguez (b. 1923, Florida; d. 1995; Luis Socorro)",
+       "tree": false
+      }
+     ]
     },
     {
      "slug": "luis-felipe-lerena-salvanach",
