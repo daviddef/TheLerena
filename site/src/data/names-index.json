@@ -2505,6 +2505,11 @@
    "url": "/people/fidel-bruno-pelaez-lerena/"
   },
   {
+   "name": "Fidel Llerena",
+   "aliases": [],
+   "url": "/people/fidel-lerena-2/"
+  },
+  {
    "name": "Fidel Lerena Fernandez",
    "aliases": [
     "Fidel Lerena Fernández"
@@ -2751,7 +2756,9 @@
   },
   {
    "name": "Gil Llerena",
-   "aliases": [],
+   "aliases": [
+    "Gil Serena"
+   ],
    "url": "/people/gil-lerena/"
   },
   {
@@ -3091,6 +3098,13 @@
    "name": "Isidora Chourino",
    "aliases": [],
    "url": "/people/isidora-chourino/"
+  },
+  {
+   "name": "Isidora Ysaurralde",
+   "aliases": [
+    "Isidora Isaurrant"
+   ],
+   "url": "/people/isidora-ysaurralde/"
   },
   {
    "name": "Isidro Bonifacio Fernandez Lerena",

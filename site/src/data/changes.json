@@ -5,6 +5,11 @@
    "date": "2026-11-05",
    "commits": [
     {
+     "sha": "b2c03c0",
+     "subject": "Eleven more parent edges the rows' own notes already quoted: the Pelaez Lerena children of Juan Bernardo and Eduviges, Luis Pelaez, two Paben children, and Blanca Aida's mother",
+     "body": "Nepomuceno Teofilo and Amador Lerena Pelaez get their father Juan Bernardo Lerena Pelaez (the baptism's paternal grandparents Bernabe and Casimira Pelaez are his parents, as for the siblings already linked); Teresa Maria Eva (b. 1911) and Maria Elena (b. 1910) get both parents; Luis Pelaez (d. 1902) gets Malvino/Balbino Pelaez and Alejandrina Lerena; Jose Maria and Ema Venceslada Paben get their father Ramon A. Paben; Blanca Aida Lerena Caballero gets her mother Maria Luisa Caballero. Each edge rests on an act the row's note already quotes; none is a guess."
+    },
+    {
      "sha": "d55ae38",
      "subject": "Merge the rows Rodolfo Bernardo LERENA (father, Trinidad 1918) and Rodolfo B. LERENA Cardozo: the baptisms of 1918 and 1919 (plate read 1 November 2026) write his name Rodolfo Bernardo with his wife Maria Luisa Caballero and his parents Bernabe and Florinda Cardoso",
      "body": "The old address redirects to the kept row; his six children's edges (Maria Josefina, Alcides Noel, Blanca Aida, Elda Ester, Luis Alberto, Blanca Haydee) are drawn on it; the form 'Rodolfo Bernardo Lerena' is an alias; the pair declaration and the unplaced-households entry that named the retired row are removed, and the stale claims of the old row (appears once, not placed, index only) are not carried over."
