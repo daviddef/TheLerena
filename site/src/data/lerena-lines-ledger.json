@@ -106,8 +106,8 @@
     "Florida",
     "San Jose"
    ],
-   "people": 702,
-   "listed": 532
+   "people": 713,
+   "listed": 541
   },
   {
    "key": "direct",
@@ -270,9 +270,9 @@
    "key": "households",
    "kind": "not-yet-placed",
    "head": "Real households of the name — on none of these lines",
-   "households": 41,
-   "people": 183,
-   "listed": 101
+   "households": 40,
+   "people": 175,
+   "listed": 94
   },
   {
    "id": "of-the-name-alone",
@@ -280,8 +280,8 @@
    "kind": "not-yet-placed",
    "head": "People of the name with no family recorded here — on none of these lines",
    "households": 0,
-   "people": 134,
-   "listed": 93
+   "people": 131,
+   "listed": 91
   },
   {
    "id": "not-of-the-name",
@@ -1048,39 +1048,6 @@
    "written": false,
    "people": 3,
    "listed": 1
-  },
-  {
-   "label": "The household of Florinda Juana LERENA — Flores, Uruguay",
-   "pen": "not-yet-placed",
-   "href": "/people/florinda-juana-lerena/",
-   "why": "8 people the register joins to one another by its own links and to no line by any. Of the name: Florinda Juana LERENA, Israel A. PELAEZ Lerena, Israel Adolfo PELAEZ Lerena, O. F. PELAEZ Lerena, Ricardo E. PELAEZ Lerena….",
-   "status": "origin-unknown",
-   "statusNote": "",
-   "span": [
-    1887,
-    1924
-   ],
-   "places": [
-    [
-     "Flores, Uruguay",
-     1887,
-     1887
-    ],
-    [
-     "Trinidad, Flores",
-     1890,
-     1920
-    ],
-    [
-     "Flores",
-     1924,
-     1924
-    ]
-   ],
-   "onLane": [],
-   "written": false,
-   "people": 8,
-   "listed": 7
   },
   {
    "label": "The household of Felicia ZUGASTI Lerena — San Jose de Mayo",

@@ -5,6 +5,11 @@
    "date": "2026-11-05",
    "commits": [
     {
+     "sha": "4616b76",
+     "subject": "Uruguay civil registration full text (collection 1837849), entries before 1900, read for a Juan Carlos beside Lerena: a coverage null only, no nil written",
+     "body": "340 entries (70 marriages) for LERENA and the entries for GERENA, LERESA, LERINA and LEVENA, plus the 600 best-ranked of a 'Juan Carlos' + 'Lerena' query that matched 57,915, read in the machine transcript: no Juan Carlos Lerena (the one 'Juan Carlos' near a Lerena is a witness, Juan Carlos Blanco). LORENA, SERENA, LARENA and LLERENA were not typed as searches, so the catalogue's coverage check does not pass and the row is 'pending', not a nil. Also regenerated: the errands data for the sent Registro Civil letter."
+    },
+    {
      "sha": "f2673f7",
      "subject": "Errand: the Registro Civil (Santa Fe) letter is sent, by email on 5 November 2026 to the Rosario consultation address",
      "body": "Sent from David's Gmail to rcconsultasrosario@santafe.gov.ar (taken from a Santa Fe government page snippet, not confirmed on an official page). The row moves from waiting-on-david to sent; if it bounces, the other address and the province's online records system are noted in the row."

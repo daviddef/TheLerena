@@ -17859,6 +17859,13 @@
     "note": "Trinidad baptism book July 1898 - January 1901 (29 Oct 2026)."
    },
    {
+    "name": "Florinda Juana LERENA (of Trinidad, m. Vitalino Gregorio Pelaez 1913)",
+    "dates": "",
+    "slug": "florinda-juana-lerena",
+    "via": "register",
+    "note": "The Flores birth act of 10 March 1922 (grandparents Don Bernabe Lerena, 60, and Dona Florinda Cardozo, 54, of the 6th Section) and the Trinidad parish marriage of 20 February 1913 ('hija legitima de Don Bernabe Lerena y de dona Florinda Cardozo'), both already quoted in the notes of the rows; the edge was not drawn until 5 November 2026."
+   },
+   {
     "name": "Rodolfo B. LERENA Cardozo (m. Maria Luisa Caballero 1917)",
     "dates": "",
     "slug": "rodolfo-b-lerena-cardozo",
@@ -17975,8 +17982,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 9,
-  "relRegister": 9,
+  "relTotal": 10,
+  "relRegister": 10,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -18324,6 +18331,12 @@
     "via": "register"
    },
    {
+    "name": "Florinda Juana LERENA (of Trinidad, m. Vitalino Gregorio Pelaez 1913)",
+    "dates": "",
+    "slug": "florinda-juana-lerena",
+    "via": "register"
+   },
+   {
     "name": "Rodolfo B. LERENA Cardozo (m. Maria Luisa Caballero 1917)",
     "dates": "",
     "slug": "rodolfo-b-lerena-cardozo",
@@ -18592,6 +18605,13 @@
     "note": "Trinidad baptism book July 1898 - January 1901 (29 Oct 2026)."
    },
    {
+    "name": "Florinda Juana LERENA (of Trinidad, m. Vitalino Gregorio Pelaez 1913)",
+    "dates": "",
+    "slug": "florinda-juana-lerena",
+    "via": "register",
+    "note": "The Flores birth act of 10 March 1922 (grandparents Don Bernabe Lerena, 60, and Dona Florinda Cardozo, 54, of the 6th Section) and the Trinidad parish marriage of 20 February 1913 ('hija legitima de Don Bernabe Lerena y de dona Florinda Cardozo'), both already quoted in the notes of the rows; the edge was not drawn until 5 November 2026."
+   },
+   {
     "name": "Rodolfo B. LERENA Cardozo (m. Maria Luisa Caballero 1917)",
     "dates": "",
     "slug": "rodolfo-b-lerena-cardozo",
@@ -18630,8 +18650,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 9,
-  "relRegister": 9,
+  "relTotal": 10,
+  "relRegister": 10,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -26571,8 +26591,20 @@
   "noLink": "",
   "living": false,
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Bernabe LERENA (1911 dispensation)",
+   "dates": "",
+   "slug": "bernabe-lerena-2",
+   "via": "register",
+   "note": "The Flores birth act of 10 March 1922 (grandparents Don Bernabe Lerena, 60, and Dona Florinda Cardozo, 54, of the 6th Section) and the Trinidad parish marriage of 20 February 1913 ('hija legitima de Don Bernabe Lerena y de dona Florinda Cardozo'), both already quoted in the notes of the rows; the edge was not drawn until 5 November 2026."
+  },
+  "mother": {
+   "name": "Florinda CARDOZO",
+   "dates": "",
+   "slug": "florinda-cardozo",
+   "via": "register",
+   "note": "The Flores birth act of 10 March 1922 (grandparents Don Bernabe Lerena, 60, and Dona Florinda Cardozo, 54, of the 6th Section) and the Trinidad parish marriage of 20 February 1913 ('hija legitima de Don Bernabe Lerena y de dona Florinda Cardozo'), both already quoted in the notes of the rows; the edge was not drawn until 5 November 2026."
+  },
   "spouses": [],
   "children": [
    {
@@ -26611,13 +26643,62 @@
     "note": "Trinidad baptism book April 1914 - May 1917 (1 Nov 2026). Plate read."
    }
   ],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "C. E. LERENA Cardozo (b. 1896; Coralio Eustaquio, m. 1930)",
+    "dates": "",
+    "slug": "c-e-lerena-cardozo",
+    "via": "register"
+   },
+   {
+    "name": "Custodio LERENA",
+    "dates": "",
+    "slug": "custodio-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Elisa Cayetana LERENA Cardozo (b. 1894, Trinidad)",
+    "dates": "",
+    "slug": "elisa-cayetana-lerena-cardozo",
+    "via": "register"
+   },
+   {
+    "name": "Enrique Concepcion LERENA (b.1902, child of Bernabe)",
+    "dates": "",
+    "slug": "enrique-concepcion-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Ernesto Benigno LERENA Cardozo (b. 1908, Trinidad)",
+    "dates": "",
+    "slug": "ernesto-benigno-lerena-cardozo",
+    "via": "register"
+   },
+   {
+    "name": "Felicia Leoncia LERENA (dau. of Bernabe and Florinda)",
+    "dates": "",
+    "slug": "felicia-leoncia-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Rodolfo B. LERENA Cardozo (m. Maria Luisa Caballero 1917)",
+    "dates": "",
+    "slug": "rodolfo-b-lerena-cardozo",
+    "via": "register"
+   },
+   {
+    "name": "Sofia Catalina LERENA Cardozo (b. 1900, Trinidad)",
+    "dates": "",
+    "slug": "sofia-catalina-lerena-cardozo",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 5,
-  "relRegister": 5,
+  "relTotal": 7,
+  "relRegister": 7,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -28029,16 +28110,71 @@
   "living": false,
   "gen": null,
   "father": null,
-  "mother": null,
+  "mother": {
+   "name": "Eduviges PELAEZ (m. Juan Lerena 1894)",
+   "dates": "",
+   "slug": "eduviges-pelaez",
+   "via": "register",
+   "note": "The Trinidad baptism of 26 November 1905 names the mother ('hijo legitimo de Juan Lerena y Eduviges Pelaez', her parents Juan and Eduviges Florencio) and the civil death act of 31 January 1937 for the brother; the edge to her row was not drawn until 5 November 2026. No father edge: no row holds the Juan Lerena of the 1894 dispensation."
+  },
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Alberto LERENA Pelaez (b. 1908, Trinidad)",
+    "dates": "",
+    "slug": "alberto-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Alcides LERENA Pelaez (b. 1907, Trinidad; baptised Maria Alcides)",
+    "dates": "",
+    "slug": "alcides-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Amador LERENA Pelaez (d. 1937, Durazno)",
+    "dates": "",
+    "slug": "amador-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Carlos Rey LERENA Pelaez",
+    "dates": "",
+    "slug": "carlos-rey-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Elena LERENA Pelaez (b. 1896, Trinidad)",
+    "dates": "",
+    "slug": "elena-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Elena P. LERENA Pelaez (b. 1900; Elena Pilar)",
+    "dates": "",
+    "slug": "elena-p-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Juan F. LERENA Pelaez (b. 1895; Juan Feliciano)",
+    "dates": "",
+    "slug": "juan-f-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Policarpio Amador LERENA Pelaez (b. 1898, Trinidad)",
+    "dates": "",
+    "slug": "policarpio-amador-lerena-pelaez",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -28083,6 +28219,13 @@
     "note": "Trinidad baptism book August 1905 - August 1909 (29 Oct 2026)."
    },
    {
+    "name": "Amador LERENA Pelaez (d. 1937, Durazno)",
+    "dates": "",
+    "slug": "amador-lerena-pelaez",
+    "via": "register",
+    "note": "The Trinidad baptism of 26 November 1905 names the mother ('hijo legitimo de Juan Lerena y Eduviges Pelaez', her parents Juan and Eduviges Florencio) and the civil death act of 31 January 1937 for the brother; the edge to her row was not drawn until 5 November 2026. No father edge: no row holds the Juan Lerena of the 1894 dispensation."
+   },
+   {
     "name": "Carlos Rey LERENA Pelaez",
     "dates": "",
     "slug": "carlos-rey-lerena-pelaez",
@@ -28111,6 +28254,13 @@
     "note": "Flores civil birth book 1893-1897 (2 Nov 2026)."
    },
    {
+    "name": "Nepomuceno Teofilo LERENA",
+    "dates": "",
+    "slug": "nepomuceno-teofilo-lerena",
+    "via": "register",
+    "note": "The Trinidad baptism of 26 November 1905 names the mother ('hijo legitimo de Juan Lerena y Eduviges Pelaez', her parents Juan and Eduviges Florencio) and the civil death act of 31 January 1937 for the brother; the edge to her row was not drawn until 5 November 2026. No father edge: no row holds the Juan Lerena of the 1894 dispensation."
+   },
+   {
     "name": "Policarpio Amador LERENA Pelaez (b. 1898, Trinidad)",
     "dates": "",
     "slug": "policarpio-amador-lerena-pelaez",
@@ -28123,8 +28273,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 7,
-  "relRegister": 7,
+  "relTotal": 9,
+  "relRegister": 9,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -30534,16 +30684,71 @@
   "living": false,
   "gen": null,
   "father": null,
-  "mother": null,
+  "mother": {
+   "name": "Eduviges PELAEZ (m. Juan Lerena 1894)",
+   "dates": "",
+   "slug": "eduviges-pelaez",
+   "via": "register",
+   "note": "The Trinidad baptism of 26 November 1905 names the mother ('hijo legitimo de Juan Lerena y Eduviges Pelaez', her parents Juan and Eduviges Florencio) and the civil death act of 31 January 1937 for the brother; the edge to her row was not drawn until 5 November 2026. No father edge: no row holds the Juan Lerena of the 1894 dispensation."
+  },
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Alberto LERENA Pelaez (b. 1908, Trinidad)",
+    "dates": "",
+    "slug": "alberto-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Alcides LERENA Pelaez (b. 1907, Trinidad; baptised Maria Alcides)",
+    "dates": "",
+    "slug": "alcides-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Carlos Rey LERENA Pelaez",
+    "dates": "",
+    "slug": "carlos-rey-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Elena LERENA Pelaez (b. 1896, Trinidad)",
+    "dates": "",
+    "slug": "elena-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Elena P. LERENA Pelaez (b. 1900; Elena Pilar)",
+    "dates": "",
+    "slug": "elena-p-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Juan F. LERENA Pelaez (b. 1895; Juan Feliciano)",
+    "dates": "",
+    "slug": "juan-f-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Nepomuceno Teofilo LERENA",
+    "dates": "",
+    "slug": "nepomuceno-teofilo-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Policarpio Amador LERENA Pelaez (b. 1898, Trinidad)",
+    "dates": "",
+    "slug": "policarpio-amador-lerena-pelaez",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -31828,6 +32033,13 @@
     "slug": "jacinta-telma-lerena-marin",
     "via": "register",
     "note": "Florida civil marriage act no. 6 of 26 April 1913 (Sarandi Grande, read at the plate 4 November 2026): 'hija de Manuel Doroteo Lerena y de Jacinta Marin'."
+   },
+   {
+    "name": "Manuel Vicente LERENA Marino (m. 1910, Florida)",
+    "dates": "",
+    "slug": "manuel-vicente-lerena-marino",
+    "via": "register",
+    "note": "The Uruguayan civil registration index card of 1910 names the parents Manuel Doroteo Lerena and Jacinta [Merina]; taken for the Trinidad couple of 1882 by the two names, the department and the surname Marino, not by an act that names both. Drawn 5 November 2026."
    }
   ],
   "siblings": [],
@@ -31835,8 +32047,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 3,
-  "relRegister": 3,
+  "relTotal": 4,
+  "relRegister": 4,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -32060,17 +32272,42 @@
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "living": false,
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Manuel LERENA (son of Mauricio, m. Jacinta Marina 1882)",
+   "dates": "",
+   "slug": "manuel-lerena",
+   "via": "register",
+   "note": "The Uruguayan civil registration index card of 1910 names the parents Manuel Doroteo Lerena and Jacinta [Merina]; taken for the Trinidad couple of 1882 by the two names, the department and the surname Marino, not by an act that names both. Drawn 5 November 2026."
+  },
+  "mother": {
+   "name": "Jacinta MARIN (m. Manuel Doroteo Lerena; d. before 1913, Montevideo)",
+   "dates": "",
+   "slug": "jacinta-marin",
+   "via": "register",
+   "note": "The Uruguayan civil registration index card of 1910 names the parents Manuel Doroteo Lerena and Jacinta [Merina]; taken for the Trinidad couple of 1882 by the two names, the department and the surname Marino, not by an act that names both. Drawn 5 November 2026."
+  },
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "G. LERENA Marin (b. c.1891; Gerardo, panadero of Sarandi Grande)",
+    "dates": "",
+    "slug": "g-lerena-marin",
+    "via": "register"
+   },
+   {
+    "name": "Jacinta Telma LERENA Marin (b. 1886, La Guardia; m. Umpiano Perdomo 1913)",
+    "dates": "",
+    "slug": "jacinta-telma-lerena-marin",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -32792,6 +33029,12 @@
     "via": "register"
    },
    {
+    "name": "Florinda Juana LERENA (of Trinidad, m. Vitalino Gregorio Pelaez 1913)",
+    "dates": "",
+    "slug": "florinda-juana-lerena",
+    "via": "register"
+   },
+   {
     "name": "Rodolfo B. LERENA Cardozo (m. Maria Luisa Caballero 1917)",
     "dates": "",
     "slug": "rodolfo-b-lerena-cardozo",
@@ -33324,6 +33567,12 @@
     "via": "register"
    },
    {
+    "name": "Amador LERENA Pelaez (d. 1937, Durazno)",
+    "dates": "",
+    "slug": "amador-lerena-pelaez",
+    "via": "register"
+   },
+   {
     "name": "Elena LERENA Pelaez (b. 1896, Trinidad)",
     "dates": "",
     "slug": "elena-lerena-pelaez",
@@ -33339,6 +33588,12 @@
     "name": "Juan F. LERENA Pelaez (b. 1895; Juan Feliciano)",
     "dates": "",
     "slug": "juan-f-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Nepomuceno Teofilo LERENA",
+    "dates": "",
+    "slug": "nepomuceno-teofilo-lerena",
     "via": "register"
    },
    {
@@ -41356,6 +41611,12 @@
     "name": "Felicia Leoncia LERENA (dau. of Bernabe and Florinda)",
     "dates": "",
     "slug": "felicia-leoncia-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Florinda Juana LERENA (of Trinidad, m. Vitalino Gregorio Pelaez 1913)",
+    "dates": "",
+    "slug": "florinda-juana-lerena",
     "via": "register"
    },
    {
@@ -63414,6 +63675,12 @@
     "via": "register"
    },
    {
+    "name": "Florinda Juana LERENA (of Trinidad, m. Vitalino Gregorio Pelaez 1913)",
+    "dates": "",
+    "slug": "florinda-juana-lerena",
+    "via": "register"
+   },
+   {
     "name": "Sofia Catalina LERENA Cardozo (b. 1900, Trinidad)",
     "dates": "",
     "slug": "sofia-catalina-lerena-cardozo",
@@ -72499,6 +72766,12 @@
     "via": "register"
    },
    {
+    "name": "Florinda Juana LERENA (of Trinidad, m. Vitalino Gregorio Pelaez 1913)",
+    "dates": "",
+    "slug": "florinda-juana-lerena",
+    "via": "register"
+   },
+   {
     "name": "Rodolfo B. LERENA Cardozo (m. Maria Luisa Caballero 1917)",
     "dates": "",
     "slug": "rodolfo-b-lerena-cardozo",
@@ -73188,6 +73461,12 @@
     "via": "register"
    },
    {
+    "name": "Amador LERENA Pelaez (d. 1937, Durazno)",
+    "dates": "",
+    "slug": "amador-lerena-pelaez",
+    "via": "register"
+   },
+   {
     "name": "Carlos Rey LERENA Pelaez",
     "dates": "",
     "slug": "carlos-rey-lerena-pelaez",
@@ -73203,6 +73482,12 @@
     "name": "Juan F. LERENA Pelaez (b. 1895; Juan Feliciano)",
     "dates": "",
     "slug": "juan-f-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Nepomuceno Teofilo LERENA",
+    "dates": "",
+    "slug": "nepomuceno-teofilo-lerena",
     "via": "register"
    },
    {
@@ -73273,6 +73558,12 @@
     "via": "register"
    },
    {
+    "name": "Amador LERENA Pelaez (d. 1937, Durazno)",
+    "dates": "",
+    "slug": "amador-lerena-pelaez",
+    "via": "register"
+   },
+   {
     "name": "Carlos Rey LERENA Pelaez",
     "dates": "",
     "slug": "carlos-rey-lerena-pelaez",
@@ -73294,6 +73585,12 @@
     "name": "Juan F. LERENA Pelaez (b. 1895; Juan Feliciano)",
     "dates": "",
     "slug": "juan-f-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Nepomuceno Teofilo LERENA",
+    "dates": "",
+    "slug": "nepomuceno-teofilo-lerena",
     "via": "register"
    }
   ],
@@ -75175,6 +75472,12 @@
     "name": "Felicia Leoncia LERENA (dau. of Bernabe and Florinda)",
     "dates": "",
     "slug": "felicia-leoncia-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Florinda Juana LERENA (of Trinidad, m. Vitalino Gregorio Pelaez 1913)",
+    "dates": "",
+    "slug": "florinda-juana-lerena",
     "via": "register"
    },
    {
@@ -78556,6 +78859,12 @@
     "via": "register"
    },
    {
+    "name": "Amador LERENA Pelaez (d. 1937, Durazno)",
+    "dates": "",
+    "slug": "amador-lerena-pelaez",
+    "via": "register"
+   },
+   {
     "name": "Carlos Rey LERENA Pelaez",
     "dates": "",
     "slug": "carlos-rey-lerena-pelaez",
@@ -78577,6 +78886,12 @@
     "name": "Juan F. LERENA Pelaez (b. 1895; Juan Feliciano)",
     "dates": "",
     "slug": "juan-f-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Nepomuceno Teofilo LERENA",
+    "dates": "",
+    "slug": "nepomuceno-teofilo-lerena",
     "via": "register"
    },
    {
@@ -78641,6 +78956,12 @@
     "via": "register"
    },
    {
+    "name": "Amador LERENA Pelaez (d. 1937, Durazno)",
+    "dates": "",
+    "slug": "amador-lerena-pelaez",
+    "via": "register"
+   },
+   {
     "name": "Carlos Rey LERENA Pelaez",
     "dates": "",
     "slug": "carlos-rey-lerena-pelaez",
@@ -78662,6 +78983,12 @@
     "name": "Juan F. LERENA Pelaez (b. 1895; Juan Feliciano)",
     "dates": "",
     "slug": "juan-f-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Nepomuceno Teofilo LERENA",
+    "dates": "",
+    "slug": "nepomuceno-teofilo-lerena",
     "via": "register"
    },
    {
@@ -78881,6 +79208,12 @@
     "name": "Felicia Leoncia LERENA (dau. of Bernabe and Florinda)",
     "dates": "",
     "slug": "felicia-leoncia-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Florinda Juana LERENA (of Trinidad, m. Vitalino Gregorio Pelaez 1913)",
+    "dates": "",
+    "slug": "florinda-juana-lerena",
     "via": "register"
    },
    {
@@ -85994,6 +86327,12 @@
     "via": "register"
    },
    {
+    "name": "Florinda Juana LERENA (of Trinidad, m. Vitalino Gregorio Pelaez 1913)",
+    "dates": "",
+    "slug": "florinda-juana-lerena",
+    "via": "register"
+   },
+   {
     "name": "Rodolfo B. LERENA Cardozo (m. Maria Luisa Caballero 1917)",
     "dates": "",
     "slug": "rodolfo-b-lerena-cardozo",
@@ -87839,6 +88178,12 @@
     "via": "register"
    },
    {
+    "name": "Amador LERENA Pelaez (d. 1937, Durazno)",
+    "dates": "",
+    "slug": "amador-lerena-pelaez",
+    "via": "register"
+   },
+   {
     "name": "Carlos Rey LERENA Pelaez",
     "dates": "",
     "slug": "carlos-rey-lerena-pelaez",
@@ -87854,6 +88199,12 @@
     "name": "Elena P. LERENA Pelaez (b. 1900; Elena Pilar)",
     "dates": "",
     "slug": "elena-p-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Nepomuceno Teofilo LERENA",
+    "dates": "",
+    "slug": "nepomuceno-teofilo-lerena",
     "via": "register"
    },
    {
@@ -88427,6 +88778,12 @@
     "via": "register"
    },
    {
+    "name": "Amador LERENA Pelaez (d. 1937, Durazno)",
+    "dates": "",
+    "slug": "amador-lerena-pelaez",
+    "via": "register"
+   },
+   {
     "name": "Carlos Rey LERENA Pelaez",
     "dates": "",
     "slug": "carlos-rey-lerena-pelaez",
@@ -88442,6 +88799,12 @@
     "name": "Juan F. LERENA Pelaez (b. 1895; Juan Feliciano)",
     "dates": "",
     "slug": "juan-f-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Nepomuceno Teofilo LERENA",
+    "dates": "",
+    "slug": "nepomuceno-teofilo-lerena",
     "via": "register"
    },
    {
@@ -98232,6 +98595,12 @@
     "dates": "",
     "slug": "g-lerena-marin",
     "via": "register"
+   },
+   {
+    "name": "Manuel Vicente LERENA Marino (m. 1910, Florida)",
+    "dates": "",
+    "slug": "manuel-vicente-lerena-marino",
+    "via": "register"
    }
   ],
   "isLine": false,
@@ -98342,6 +98711,13 @@
     "slug": "jacinta-telma-lerena-marin",
     "via": "register",
     "note": "Florida civil marriage act no. 6 of 26 April 1913 (Sarandi Grande, read at the plate 4 November 2026): 'hija de Manuel Doroteo Lerena y de Jacinta Marin'."
+   },
+   {
+    "name": "Manuel Vicente LERENA Marino (m. 1910, Florida)",
+    "dates": "",
+    "slug": "manuel-vicente-lerena-marino",
+    "via": "register",
+    "note": "The Uruguayan civil registration index card of 1910 names the parents Manuel Doroteo Lerena and Jacinta [Merina]; taken for the Trinidad couple of 1882 by the two names, the department and the surname Marino, not by an act that names both. Drawn 5 November 2026."
    }
   ],
   "siblings": [],
@@ -98349,8 +98725,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 3,
-  "relRegister": 3,
+  "relTotal": 4,
+  "relRegister": 4,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -98575,6 +98951,12 @@
     "name": "Jacinta Telma LERENA Marin (b. 1886, La Guardia; m. Umpiano Perdomo 1913)",
     "dates": "",
     "slug": "jacinta-telma-lerena-marin",
+    "via": "register"
+   },
+   {
+    "name": "Manuel Vicente LERENA Marino (m. 1910, Florida)",
+    "dates": "",
+    "slug": "manuel-vicente-lerena-marino",
     "via": "register"
    }
   ],
