@@ -5931,9 +5931,9 @@
  {
   "name": "Tomasa Margarita LERENA Montano (b. 1846, San Jose)",
   "born_est": "1846-03-07",
-  "last_attested_alive": "1846-Mar-20",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1880",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
  },
  {
   "name": "Florencia Tomasa FERNANDEZ Gonzalez (b. 1845, San Jose)",
@@ -6855,9 +6855,9 @@
  {
   "name": "Patricio SENA (b. 1873, Trinidad)",
   "born_est": "1873-12-09",
-  "last_attested_alive": "1874-Jan-03",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1873-12-09",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Ramona Benita PELAEZ (b. 1876, Trinidad)",
@@ -6967,9 +6967,9 @@
  {
   "name": "Jacinta Margarita LERENA Cespedes (b. 1883, Trinidad)",
   "born_est": "1883-09-11",
-  "last_attested_alive": "1884-Feb-23",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1883-09-11",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Ignacia LERENA (m. Gaspar Dolor)",
@@ -7065,9 +7065,9 @@
  {
   "name": "Petrona Quintina LERENA Cespedes (b. 1886, Trinidad)",
   "born_est": "1886-10-31",
-  "last_attested_alive": "1887-Apr-20",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1886-10-31",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Miguel Abdemar LERENA Beloqui (b. 1886, Trinidad)",
@@ -9572,6 +9572,48 @@
   "name": "A. LERENA Caceres (b. 1897, Sarandi; Andres)",
   "born_est": "1897-11",
   "last_attested_alive": "1897-11",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Jacinta Telma LERENA Marin (b. 1886, La Guardia; m. Umpiano Perdomo 1913)",
+  "born_est": "1886-04-14",
+  "last_attested_alive": "1886-04-14",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Umpiano Manuel PERDOMO (m. Jacinta Telma Lerena 1913)",
+  "born_est": "1890",
+  "last_attested_alive": "1913-Apr-26",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Jacinta MARIN (m. Manuel Doroteo Lerena; d. before 1913, Montevideo)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "J. LERENA (b. c.1881; Jose, empleado of Sarandi Grande, witness 1913)",
+  "born_est": "1881",
+  "last_attested_alive": "1913-Apr-26",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "H. G. LERENA (b. c.1890; Hernando G., empleado at Goni)",
+  "born_est": "1890",
+  "last_attested_alive": "1890",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "J. B. LERENA (b. c.1882; Juan B., carpintero of Piedras Coloradas)",
+  "born_est": "1882",
+  "last_attested_alive": "1882",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  }

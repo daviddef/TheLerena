@@ -3074,6 +3074,11 @@
    "url": "/people/jacinta-margarita-lerena-cespedes/"
   },
   {
+   "name": "Jacinta Marin",
+   "aliases": [],
+   "url": "/people/jacinta-marin/"
+  },
+  {
    "name": "Jacinta Mercedes Gregoria Lerena Villademoros",
    "aliases": [
     "Jacinta Mercedes Gregoria Lerena"
@@ -3086,6 +3091,13 @@
     "Jacinta Merina"
    ],
    "url": "/people/jacinta-merina-santos/"
+  },
+  {
+   "name": "Jacinta Telma Lerena Marin",
+   "aliases": [
+    "Jacinta Telma Lerena"
+   ],
+   "url": "/people/jacinta-telma-lerena-marin/"
   },
   {
    "name": "Jeanette Marie Lerena",
@@ -6206,6 +6218,11 @@
    "url": "/people/troilana-sena/"
   },
   {
+   "name": "Umpiano Manuel Perdomo",
+   "aliases": [],
+   "url": "/people/umpiano-manuel-perdomo/"
+  },
+  {
    "name": "Valentina Maisonnave",
    "aliases": [],
    "url": "/people/valentina-maisonnave/"
@@ -7249,6 +7266,12 @@
    "url": "/people/?q=Jacinta%20Lerena",
    "bearers": [
     "/people/jacinta-lerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/umpiano-manuel-perdomo/",
+     "url": "/people/jacinta-telma-lerena-marin/"
+    }
    ]
   },
   {
@@ -7576,6 +7599,12 @@
    "bearers": [
     "/people/manuel-lerena-2/",
     "/people/manuel-lerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/jacinta-marin/",
+     "url": "/people/manuel-lerena/"
+    }
    ]
   },
   {
