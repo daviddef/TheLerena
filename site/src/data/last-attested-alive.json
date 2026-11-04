@@ -9648,9 +9648,9 @@
  {
   "name": "A. A. LERENA Rodriguez (b. c.1890; Amabilia Asuncion, m. Jose Lerena)",
   "born_est": "1890",
-  "last_attested_alive": "1919-Mar-05",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1890",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "J. D. LERENA Lerena (b. 1919; Josefa Dulcelina)",
@@ -9676,9 +9676,9 @@
  {
   "name": "D. E. LERENA (a natural daughter; Delia Elida)",
   "born_est": "1925-08-03",
-  "last_attested_alive": "1925-Aug-11",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1925-08-03",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "A. RECALDE (named 1941; Aurora, with Manuel Mauricio Lerena)",
@@ -9711,9 +9711,9 @@
  {
   "name": "A. LERENA (b. c.1893; Amador, talabartero of Nico Perez)",
   "born_est": "1893",
-  "last_attested_alive": "1919-Oct-22",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1893",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "M. B. LERENA (b. c.1899; Miguel B., empleado of Sarandi Grande)",
@@ -9726,6 +9726,48 @@
   "name": "E. C. LERENA (b. c.1900; Ernesto C., empleado)",
   "born_est": "1900",
   "last_attested_alive": "1900",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "J. A. LERENA Rodriguez (b. 1893, d. 1962; Julian Amador)",
+  "born_est": "1893-01-09",
+  "last_attested_alive": "1893-01-09",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "M. ABELENDA (m. Julian Amador Lerena; Micaela)",
+  "born_est": "1894",
+  "last_attested_alive": "1894",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "O. G. LERENA (a natural daughter; b. 1920, d. 1920; Olga Gregoria)",
+  "born_est": "1920",
+  "last_attested_alive": "1920",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "J. P. LERENA Trujillo (b. 1881, d. 1953; Jose Pascasio)",
+  "born_est": "1881-02-22",
+  "last_attested_alive": "1881-02-22",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "R. PALLARES Lerena (b. c.1886, Durazno; d. 1951; Reynaldo)",
+  "born_est": "1886",
+  "last_attested_alive": "1886",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "C. RODRIGUEZ (m. Reynaldo Pallares Lerena; Celina)",
+  "born_est": "1888",
+  "last_attested_alive": "1888",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  }
