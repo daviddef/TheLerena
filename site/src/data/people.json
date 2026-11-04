@@ -9468,6 +9468,13 @@
     "note": "Trinidad baptism book August 1905 - August 1909 (29 Oct 2026)."
    },
    {
+    "name": "Amador LERENA Pelaez (d. 1937, Durazno)",
+    "dates": "",
+    "slug": "amador-lerena-pelaez",
+    "via": "register",
+    "note": "The Trinidad baptisms name the parents as Juan [Bernardo] Lerena and Eduviges Pelaez, the paternal grandparents Bernabe and Casimira Pelaez and the maternal Juan and Eduviges Florencio, which are those of the Juan Bernardo Lerena Pelaez and Eduviges Pelaez rows whose other children already carry these edges (drawn 5 November 2026 from what the row's own note already quotes). Taken for that couple by the grandparents' names."
+   },
+   {
     "name": "Carlos Rey LERENA Pelaez",
     "dates": "",
     "slug": "carlos-rey-lerena-pelaez",
@@ -9496,11 +9503,32 @@
     "note": "Flores civil birth book 1893-1897 (2 Nov 2026)."
    },
    {
+    "name": "Maria Elena LERENA Pelaez (b.1910)",
+    "dates": "",
+    "slug": "maria-elena-lerena-pelaez",
+    "via": "register",
+    "note": "The Trinidad baptisms name the parents as Juan [Bernardo] Lerena and Eduviges Pelaez, the paternal grandparents Bernabe and Casimira Pelaez and the maternal Juan and Eduviges Florencio, which are those of the Juan Bernardo Lerena Pelaez and Eduviges Pelaez rows whose other children already carry these edges (drawn 5 November 2026 from what the row's own note already quotes). Taken for that couple by the grandparents' names."
+   },
+   {
+    "name": "Nepomuceno Teofilo LERENA",
+    "dates": "",
+    "slug": "nepomuceno-teofilo-lerena",
+    "via": "register",
+    "note": "The Trinidad baptisms name the parents as Juan [Bernardo] Lerena and Eduviges Pelaez, the paternal grandparents Bernabe and Casimira Pelaez and the maternal Juan and Eduviges Florencio, which are those of the Juan Bernardo Lerena Pelaez and Eduviges Pelaez rows whose other children already carry these edges (drawn 5 November 2026 from what the row's own note already quotes). Taken for that couple by the grandparents' names."
+   },
+   {
     "name": "Policarpio Amador LERENA Pelaez (b. 1898, Trinidad)",
     "dates": "",
     "slug": "policarpio-amador-lerena-pelaez",
     "via": "register",
     "note": "Trinidad baptism book 1895-1898 (29 Oct 2026)."
+   },
+   {
+    "name": "Teresa Maria Eva LERENA Pelaez (b.1911)",
+    "dates": "",
+    "slug": "teresa-maria-eva-lerena-pelaez",
+    "via": "register",
+    "note": "The Trinidad baptisms name the parents as Juan [Bernardo] Lerena and Eduviges Pelaez, the paternal grandparents Bernabe and Casimira Pelaez and the maternal Juan and Eduviges Florencio, which are those of the Juan Bernardo Lerena Pelaez and Eduviges Pelaez rows whose other children already carry these edges (drawn 5 November 2026 from what the row's own note already quotes). Taken for that couple by the grandparents' names."
    }
   ],
   "siblings": [
@@ -9605,8 +9633,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 9,
-  "relRegister": 9,
+  "relTotal": 13,
+  "relRegister": 13,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -28109,7 +28137,13 @@
   "noLink": "",
   "living": false,
   "gen": null,
-  "father": null,
+  "father": {
+   "name": "Juan Bernardo LERENA Pelaez",
+   "dates": "",
+   "slug": "juan-bernardo-lerena-pelaez",
+   "via": "register",
+   "note": "The Trinidad baptisms name the parents as Juan [Bernardo] Lerena and Eduviges Pelaez, the paternal grandparents Bernabe and Casimira Pelaez and the maternal Juan and Eduviges Florencio, which are those of the Juan Bernardo Lerena Pelaez and Eduviges Pelaez rows whose other children already carry these edges (drawn 5 November 2026 from what the row's own note already quotes). Taken for that couple by the grandparents' names."
+  },
   "mother": {
    "name": "Eduviges PELAEZ (m. Juan Lerena 1894)",
    "dates": "",
@@ -28163,9 +28197,21 @@
     "via": "register"
    },
    {
+    "name": "Maria Elena LERENA Pelaez (b.1910)",
+    "dates": "",
+    "slug": "maria-elena-lerena-pelaez",
+    "via": "register"
+   },
+   {
     "name": "Policarpio Amador LERENA Pelaez (b. 1898, Trinidad)",
     "dates": "",
     "slug": "policarpio-amador-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Teresa Maria Eva LERENA Pelaez (b.1911)",
+    "dates": "",
+    "slug": "teresa-maria-eva-lerena-pelaez",
     "via": "register"
    }
   ],
@@ -28173,8 +28219,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 1,
-  "relRegister": 1,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -28254,6 +28300,13 @@
     "note": "Flores civil birth book 1893-1897 (2 Nov 2026)."
    },
    {
+    "name": "Maria Elena LERENA Pelaez (b.1910)",
+    "dates": "",
+    "slug": "maria-elena-lerena-pelaez",
+    "via": "register",
+    "note": "The Trinidad baptisms name the parents as Juan [Bernardo] Lerena and Eduviges Pelaez, the paternal grandparents Bernabe and Casimira Pelaez and the maternal Juan and Eduviges Florencio, which are those of the Juan Bernardo Lerena Pelaez and Eduviges Pelaez rows whose other children already carry these edges (drawn 5 November 2026 from what the row's own note already quotes). Taken for that couple by the grandparents' names."
+   },
+   {
     "name": "Nepomuceno Teofilo LERENA",
     "dates": "",
     "slug": "nepomuceno-teofilo-lerena",
@@ -28266,6 +28319,13 @@
     "slug": "policarpio-amador-lerena-pelaez",
     "via": "register",
     "note": "Trinidad baptism book 1895-1898 (29 Oct 2026)."
+   },
+   {
+    "name": "Teresa Maria Eva LERENA Pelaez (b.1911)",
+    "dates": "",
+    "slug": "teresa-maria-eva-lerena-pelaez",
+    "via": "register",
+    "note": "The Trinidad baptisms name the parents as Juan [Bernardo] Lerena and Eduviges Pelaez, the paternal grandparents Bernabe and Casimira Pelaez and the maternal Juan and Eduviges Florencio, which are those of the Juan Bernardo Lerena Pelaez and Eduviges Pelaez rows whose other children already carry these edges (drawn 5 November 2026 from what the row's own note already quotes). Taken for that couple by the grandparents' names."
    }
   ],
   "siblings": [],
@@ -28273,8 +28333,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 9,
-  "relRegister": 9,
+  "relTotal": 11,
+  "relRegister": 11,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -29278,6 +29338,13 @@
     "note": "Trinidad baptism book 1886-1888 (machine transcript, 29 Oct 2026)."
    },
    {
+    "name": "Luis PELAEZ Lerena (confirmed, Trinidad 1891-1905)",
+    "dates": "",
+    "slug": "luis-pelaez-lerena",
+    "via": "register",
+    "note": "The Trinidad baptism of Luis names Balbino Pelaez and Alejandrina Lerena, and his civil death act of 29 August 1902 names 'don Malvino Pelaez' and 'dona Alejandrina Lerena', the couple of these two rows (drawn 5 November 2026 from what the row's own note already quotes)."
+   },
+   {
     "name": "Maria PELAEZ (b. 1877, Trinidad)",
     "dates": "",
     "slug": "maria-pelaez-2",
@@ -29290,8 +29357,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 12,
-  "relRegister": 12,
+  "relTotal": 13,
+  "relRegister": 13,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -30608,6 +30675,13 @@
     "note": "Trinidad baptism book 1886-1888 (machine transcript, 29 Oct 2026)."
    },
    {
+    "name": "Luis PELAEZ Lerena (confirmed, Trinidad 1891-1905)",
+    "dates": "",
+    "slug": "luis-pelaez-lerena",
+    "via": "register",
+    "note": "The Trinidad baptism of Luis names Balbino Pelaez and Alejandrina Lerena, and his civil death act of 29 August 1902 names 'don Malvino Pelaez' and 'dona Alejandrina Lerena', the couple of these two rows (drawn 5 November 2026 from what the row's own note already quotes)."
+   },
+   {
     "name": "Maria PELAEZ (b. 1877, Trinidad)",
     "dates": "",
     "slug": "maria-pelaez-2",
@@ -30620,8 +30694,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 12,
-  "relRegister": 12,
+  "relTotal": 13,
+  "relRegister": 13,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -30683,7 +30757,13 @@
   "noLink": "",
   "living": false,
   "gen": null,
-  "father": null,
+  "father": {
+   "name": "Juan Bernardo LERENA Pelaez",
+   "dates": "",
+   "slug": "juan-bernardo-lerena-pelaez",
+   "via": "register",
+   "note": "The Trinidad baptisms name the parents as Juan [Bernardo] Lerena and Eduviges Pelaez, the paternal grandparents Bernabe and Casimira Pelaez and the maternal Juan and Eduviges Florencio, which are those of the Juan Bernardo Lerena Pelaez and Eduviges Pelaez rows whose other children already carry these edges (drawn 5 November 2026 from what the row's own note already quotes). Taken for that couple by the grandparents' names."
+  },
   "mother": {
    "name": "Eduviges PELAEZ (m. Juan Lerena 1894)",
    "dates": "",
@@ -30731,6 +30811,12 @@
     "via": "register"
    },
    {
+    "name": "Maria Elena LERENA Pelaez (b.1910)",
+    "dates": "",
+    "slug": "maria-elena-lerena-pelaez",
+    "via": "register"
+   },
+   {
     "name": "Nepomuceno Teofilo LERENA",
     "dates": "",
     "slug": "nepomuceno-teofilo-lerena",
@@ -30741,14 +30827,20 @@
     "dates": "",
     "slug": "policarpio-amador-lerena-pelaez",
     "via": "register"
+   },
+   {
+    "name": "Teresa Maria Eva LERENA Pelaez (b.1911)",
+    "dates": "",
+    "slug": "teresa-maria-eva-lerena-pelaez",
+    "via": "register"
    }
   ],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 1,
-  "relRegister": 1,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -30774,17 +30866,96 @@
   "noLink": "",
   "living": false,
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Malvino PELAEZ (son of Juan PELAEZ and Antonina LERENA)",
+   "dates": "",
+   "slug": "malvino-pelaez",
+   "via": "register",
+   "note": "The Trinidad baptism of Luis names Balbino Pelaez and Alejandrina Lerena, and his civil death act of 29 August 1902 names 'don Malvino Pelaez' and 'dona Alejandrina Lerena', the couple of these two rows (drawn 5 November 2026 from what the row's own note already quotes)."
+  },
+  "mother": {
+   "name": "Alejandrina LERENA (m. Balbino PELAEZ)",
+   "dates": "",
+   "slug": "alejandrina-lerena",
+   "via": "register",
+   "note": "The Trinidad baptism of Luis names Balbino Pelaez and Alejandrina Lerena, and his civil death act of 29 August 1902 names 'don Malvino Pelaez' and 'dona Alejandrina Lerena', the couple of these two rows (drawn 5 November 2026 from what the row's own note already quotes)."
+  },
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Alejandrina Natividad PELAEZ (b. 1881, Trinidad)",
+    "dates": "",
+    "slug": "alejandrina-natividad-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Alejandro Pedro PELAEZ Lerena (b. 1886, Trinidad)",
+    "dates": "",
+    "slug": "alejandro-pedro-pelaez-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Amora Juliana PELAEZ Lerena (b. 1890, Trinidad)",
+    "dates": "",
+    "slug": "amora-juliana-pelaez-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Aurora PELAEZ Lerena (confirmed, Trinidad 1891-1905)",
+    "dates": "",
+    "slug": "aurora-pelaez-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Clara Natividad PELAEZ (b. 1881, Trinidad)",
+    "dates": "",
+    "slug": "clara-natividad-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Eduardo G. PELAEZ (b. 1892, son of Malvino and Alejandrina Lerena; Eduardo Gregorio)",
+    "dates": "",
+    "slug": "eduardo-g-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Elisa PELAEZ Lerena (b. 1878, d. 1963)",
+    "dates": "",
+    "slug": "elisa-pelaez-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Juan Pedro Dionisio PELAEZ (b. 1884, Trinidad)",
+    "dates": "",
+    "slug": "juan-pedro-dionisio-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Julia Felicia PELAEZ (b. 1900, dau. of Malvino and Alejandrina Lerena)",
+    "dates": "",
+    "slug": "julia-felicia-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Luis Braulio PELAEZ (b. 1888, Trinidad)",
+    "dates": "",
+    "slug": "luis-braulio-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Maria PELAEZ (b. 1877, Trinidad)",
+    "dates": "",
+    "slug": "maria-pelaez-2",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -30879,6 +31050,12 @@
     "name": "Luis Braulio PELAEZ (b. 1888, Trinidad)",
     "dates": "",
     "slug": "luis-braulio-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Luis PELAEZ Lerena (confirmed, Trinidad 1891-1905)",
+    "dates": "",
+    "slug": "luis-pelaez-lerena",
     "via": "register"
    },
    {
@@ -33591,6 +33768,12 @@
     "via": "register"
    },
    {
+    "name": "Maria Elena LERENA Pelaez (b.1910)",
+    "dates": "",
+    "slug": "maria-elena-lerena-pelaez",
+    "via": "register"
+   },
+   {
     "name": "Nepomuceno Teofilo LERENA",
     "dates": "",
     "slug": "nepomuceno-teofilo-lerena",
@@ -33600,6 +33783,12 @@
     "name": "Policarpio Amador LERENA Pelaez (b. 1898, Trinidad)",
     "dates": "",
     "slug": "policarpio-amador-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Teresa Maria Eva LERENA Pelaez (b.1911)",
+    "dates": "",
+    "slug": "teresa-maria-eva-lerena-pelaez",
     "via": "register"
    }
   ],
@@ -35631,6 +35820,12 @@
     "via": "register"
    },
    {
+    "name": "Luis PELAEZ Lerena (confirmed, Trinidad 1891-1905)",
+    "dates": "",
+    "slug": "luis-pelaez-lerena",
+    "via": "register"
+   },
+   {
     "name": "Maria PELAEZ (b. 1877, Trinidad)",
     "dates": "",
     "slug": "maria-pelaez-2",
@@ -35711,7 +35906,13 @@
    "via": "register",
    "note": "Trinidad baptism of 17 May 1877 and burial of 28 June 1923 (machine transcripts, 26 Oct 2026)."
   },
-  "mother": null,
+  "mother": {
+   "name": "Maria Luisa CABALLERO (m. Rodolfo Lerena 1917)",
+   "dates": "",
+   "slug": "maria-luisa-caballero",
+   "via": "register",
+   "note": "The note quotes the Trinidad record naming Maria Luisa Caballero as the wife of the father and the mother of the child (drawn 5 November 2026 from what the row's own note already quotes)."
+  },
   "spouses": [],
   "children": [],
   "siblings": [
@@ -35756,8 +35957,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 1,
-  "relRegister": 1,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -41421,17 +41622,90 @@
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "living": false,
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Juan Bernardo LERENA Pelaez",
+   "dates": "",
+   "slug": "juan-bernardo-lerena-pelaez",
+   "via": "register",
+   "note": "The Trinidad baptisms name the parents as Juan [Bernardo] Lerena and Eduviges Pelaez, the paternal grandparents Bernabe and Casimira Pelaez and the maternal Juan and Eduviges Florencio, which are those of the Juan Bernardo Lerena Pelaez and Eduviges Pelaez rows whose other children already carry these edges (drawn 5 November 2026 from what the row's own note already quotes). Taken for that couple by the grandparents' names."
+  },
+  "mother": {
+   "name": "Eduviges PELAEZ (m. Juan Lerena 1894)",
+   "dates": "",
+   "slug": "eduviges-pelaez",
+   "via": "register",
+   "note": "The Trinidad baptisms name the parents as Juan [Bernardo] Lerena and Eduviges Pelaez, the paternal grandparents Bernabe and Casimira Pelaez and the maternal Juan and Eduviges Florencio, which are those of the Juan Bernardo Lerena Pelaez and Eduviges Pelaez rows whose other children already carry these edges (drawn 5 November 2026 from what the row's own note already quotes). Taken for that couple by the grandparents' names."
+  },
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Alberto LERENA Pelaez (b. 1908, Trinidad)",
+    "dates": "",
+    "slug": "alberto-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Alcides LERENA Pelaez (b. 1907, Trinidad; baptised Maria Alcides)",
+    "dates": "",
+    "slug": "alcides-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Amador LERENA Pelaez (d. 1937, Durazno)",
+    "dates": "",
+    "slug": "amador-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Carlos Rey LERENA Pelaez",
+    "dates": "",
+    "slug": "carlos-rey-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Elena LERENA Pelaez (b. 1896, Trinidad)",
+    "dates": "",
+    "slug": "elena-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Elena P. LERENA Pelaez (b. 1900; Elena Pilar)",
+    "dates": "",
+    "slug": "elena-p-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Juan F. LERENA Pelaez (b. 1895; Juan Feliciano)",
+    "dates": "",
+    "slug": "juan-f-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Maria Elena LERENA Pelaez (b.1910)",
+    "dates": "",
+    "slug": "maria-elena-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Nepomuceno Teofilo LERENA",
+    "dates": "",
+    "slug": "nepomuceno-teofilo-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Policarpio Amador LERENA Pelaez (b. 1898, Trinidad)",
+    "dates": "",
+    "slug": "policarpio-amador-lerena-pelaez",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -41457,17 +41731,90 @@
   "noLink": "FamilySearch index — ark not recorded for this entry",
   "living": false,
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Juan Bernardo LERENA Pelaez",
+   "dates": "",
+   "slug": "juan-bernardo-lerena-pelaez",
+   "via": "register",
+   "note": "The Trinidad baptisms name the parents as Juan [Bernardo] Lerena and Eduviges Pelaez, the paternal grandparents Bernabe and Casimira Pelaez and the maternal Juan and Eduviges Florencio, which are those of the Juan Bernardo Lerena Pelaez and Eduviges Pelaez rows whose other children already carry these edges (drawn 5 November 2026 from what the row's own note already quotes). Taken for that couple by the grandparents' names."
+  },
+  "mother": {
+   "name": "Eduviges PELAEZ (m. Juan Lerena 1894)",
+   "dates": "",
+   "slug": "eduviges-pelaez",
+   "via": "register",
+   "note": "The Trinidad baptisms name the parents as Juan [Bernardo] Lerena and Eduviges Pelaez, the paternal grandparents Bernabe and Casimira Pelaez and the maternal Juan and Eduviges Florencio, which are those of the Juan Bernardo Lerena Pelaez and Eduviges Pelaez rows whose other children already carry these edges (drawn 5 November 2026 from what the row's own note already quotes). Taken for that couple by the grandparents' names."
+  },
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Alberto LERENA Pelaez (b. 1908, Trinidad)",
+    "dates": "",
+    "slug": "alberto-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Alcides LERENA Pelaez (b. 1907, Trinidad; baptised Maria Alcides)",
+    "dates": "",
+    "slug": "alcides-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Amador LERENA Pelaez (d. 1937, Durazno)",
+    "dates": "",
+    "slug": "amador-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Carlos Rey LERENA Pelaez",
+    "dates": "",
+    "slug": "carlos-rey-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Elena LERENA Pelaez (b. 1896, Trinidad)",
+    "dates": "",
+    "slug": "elena-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Elena P. LERENA Pelaez (b. 1900; Elena Pilar)",
+    "dates": "",
+    "slug": "elena-p-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Juan F. LERENA Pelaez (b. 1895; Juan Feliciano)",
+    "dates": "",
+    "slug": "juan-f-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Nepomuceno Teofilo LERENA",
+    "dates": "",
+    "slug": "nepomuceno-teofilo-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Policarpio Amador LERENA Pelaez (b. 1898, Trinidad)",
+    "dates": "",
+    "slug": "policarpio-amador-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Teresa Maria Eva LERENA Pelaez (b.1911)",
+    "dates": "",
+    "slug": "teresa-maria-eva-lerena-pelaez",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -62175,6 +62522,20 @@
     "note": "Flores civil birth book 1903-1913 (2 Nov 2026)."
    },
    {
+    "name": "Ema Venceslada PABEN (b. 1906, dau. of Ramon Paben and Sofia Fernandez)",
+    "dates": "",
+    "slug": "ema-venceslada-paben",
+    "via": "register",
+    "note": "The baptisms name the parents Ramon Paben and Sofia Fernandez (the mother's edge was already drawn; drawn 5 November 2026 from what the row's own note already quotes)."
+   },
+   {
+    "name": "Jose Maria PABEN (b. 1902, son of Ramon Paben and Sofia Fernandez)",
+    "dates": "",
+    "slug": "jose-maria-paben",
+    "via": "register",
+    "note": "The baptisms name the parents Ramon Paben and Sofia Fernandez (the mother's edge was already drawn; drawn 5 November 2026 from what the row's own note already quotes)."
+   },
+   {
     "name": "R. PABEN Fernandez (b. c.1892, d. 1916; Rosalia)",
     "dates": "",
     "slug": "r-paben-fernandez",
@@ -62201,8 +62562,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 6,
-  "relRegister": 6,
+  "relTotal": 8,
+  "relRegister": 8,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -63707,6 +64068,13 @@
     "note": "Trinidad baptism book March 1917 - April 1920 (1 Nov 2026). Plate read."
    },
    {
+    "name": "Blanca Aida LERENA Caballero (b. c.1923, buried 1923)",
+    "dates": "",
+    "slug": "blanca-aida-lerena-caballero",
+    "via": "register",
+    "note": "The note quotes the Trinidad record naming Maria Luisa Caballero as the wife of the father and the mother of the child (drawn 5 November 2026 from what the row's own note already quotes)."
+   },
+   {
     "name": "Blanca H. LERENA Caballero (b. 1925; Blanca Haydee)",
     "dates": "",
     "slug": "blanca-h-lerena-caballero",
@@ -63747,8 +64115,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 7,
-  "relRegister": 7,
+  "relTotal": 8,
+  "relRegister": 8,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -64394,6 +64762,12 @@
     "name": "Luis Braulio PELAEZ (b. 1888, Trinidad)",
     "dates": "",
     "slug": "luis-braulio-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Luis PELAEZ Lerena (confirmed, Trinidad 1891-1905)",
+    "dates": "",
+    "slug": "luis-pelaez-lerena",
     "via": "register"
    }
   ],
@@ -66104,6 +66478,12 @@
     "via": "register"
    },
    {
+    "name": "Luis PELAEZ Lerena (confirmed, Trinidad 1891-1905)",
+    "dates": "",
+    "slug": "luis-pelaez-lerena",
+    "via": "register"
+   },
+   {
     "name": "Maria PELAEZ (b. 1877, Trinidad)",
     "dates": "",
     "slug": "maria-pelaez-2",
@@ -66210,6 +66590,12 @@
     "name": "Luis Braulio PELAEZ (b. 1888, Trinidad)",
     "dates": "",
     "slug": "luis-braulio-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Luis PELAEZ Lerena (confirmed, Trinidad 1891-1905)",
+    "dates": "",
+    "slug": "luis-pelaez-lerena",
     "via": "register"
    },
    {
@@ -67465,6 +67851,12 @@
     "name": "Luis Braulio PELAEZ (b. 1888, Trinidad)",
     "dates": "",
     "slug": "luis-braulio-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Luis PELAEZ Lerena (confirmed, Trinidad 1891-1905)",
+    "dates": "",
+    "slug": "luis-pelaez-lerena",
     "via": "register"
    },
    {
@@ -69558,6 +69950,12 @@
     "via": "register"
    },
    {
+    "name": "Luis PELAEZ Lerena (confirmed, Trinidad 1891-1905)",
+    "dates": "",
+    "slug": "luis-pelaez-lerena",
+    "via": "register"
+   },
+   {
     "name": "Maria PELAEZ (b. 1877, Trinidad)",
     "dates": "",
     "slug": "maria-pelaez-2",
@@ -70836,6 +71234,12 @@
     "name": "Luis Braulio PELAEZ (b. 1888, Trinidad)",
     "dates": "",
     "slug": "luis-braulio-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Luis PELAEZ Lerena (confirmed, Trinidad 1891-1905)",
+    "dates": "",
+    "slug": "luis-pelaez-lerena",
     "via": "register"
    },
    {
@@ -73454,6 +73858,12 @@
     "via": "register"
    },
    {
+    "name": "Maria Elena LERENA Pelaez (b.1910)",
+    "dates": "",
+    "slug": "maria-elena-lerena-pelaez",
+    "via": "register"
+   },
+   {
     "name": "Nepomuceno Teofilo LERENA",
     "dates": "",
     "slug": "nepomuceno-teofilo-lerena",
@@ -73463,6 +73873,12 @@
     "name": "Policarpio Amador LERENA Pelaez (b. 1898, Trinidad)",
     "dates": "",
     "slug": "policarpio-amador-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Teresa Maria Eva LERENA Pelaez (b.1911)",
+    "dates": "",
+    "slug": "teresa-maria-eva-lerena-pelaez",
     "via": "register"
    }
   ],
@@ -73557,9 +73973,21 @@
     "via": "register"
    },
    {
+    "name": "Maria Elena LERENA Pelaez (b.1910)",
+    "dates": "",
+    "slug": "maria-elena-lerena-pelaez",
+    "via": "register"
+   },
+   {
     "name": "Nepomuceno Teofilo LERENA",
     "dates": "",
     "slug": "nepomuceno-teofilo-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Teresa Maria Eva LERENA Pelaez (b.1911)",
+    "dates": "",
+    "slug": "teresa-maria-eva-lerena-pelaez",
     "via": "register"
    }
   ],
@@ -75177,6 +75605,12 @@
     "via": "register"
    },
    {
+    "name": "Luis PELAEZ Lerena (confirmed, Trinidad 1891-1905)",
+    "dates": "",
+    "slug": "luis-pelaez-lerena",
+    "via": "register"
+   },
+   {
     "name": "Maria PELAEZ (b. 1877, Trinidad)",
     "dates": "",
     "slug": "maria-pelaez-2",
@@ -76621,7 +77055,13 @@
   "noLink": "",
   "living": false,
   "gen": null,
-  "father": null,
+  "father": {
+   "name": "Ramon A. PABEN (m. Sofia Fernandez)",
+   "dates": "",
+   "slug": "ramon-a-paben",
+   "via": "register",
+   "note": "The baptisms name the parents Ramon Paben and Sofia Fernandez (the mother's edge was already drawn; drawn 5 November 2026 from what the row's own note already quotes)."
+  },
   "mother": {
    "name": "Sofia FERNANDEZ Lerena (m. Ramon A. Paben)",
    "dates": "",
@@ -76673,8 +77113,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 1,
-  "relRegister": 1,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -78369,7 +78809,13 @@
   "noLink": "",
   "living": false,
   "gen": null,
-  "father": null,
+  "father": {
+   "name": "Ramon A. PABEN (m. Sofia Fernandez)",
+   "dates": "",
+   "slug": "ramon-a-paben",
+   "via": "register",
+   "note": "The baptisms name the parents Ramon Paben and Sofia Fernandez (the mother's edge was already drawn; drawn 5 November 2026 from what the row's own note already quotes)."
+  },
   "mother": {
    "name": "Sofia FERNANDEZ Lerena (m. Ramon A. Paben)",
    "dates": "",
@@ -78421,8 +78867,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 1,
-  "relRegister": 1,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -78858,6 +79304,12 @@
     "via": "register"
    },
    {
+    "name": "Maria Elena LERENA Pelaez (b.1910)",
+    "dates": "",
+    "slug": "maria-elena-lerena-pelaez",
+    "via": "register"
+   },
+   {
     "name": "Nepomuceno Teofilo LERENA",
     "dates": "",
     "slug": "nepomuceno-teofilo-lerena",
@@ -78867,6 +79319,12 @@
     "name": "Policarpio Amador LERENA Pelaez (b. 1898, Trinidad)",
     "dates": "",
     "slug": "policarpio-amador-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Teresa Maria Eva LERENA Pelaez (b.1911)",
+    "dates": "",
+    "slug": "teresa-maria-eva-lerena-pelaez",
     "via": "register"
    }
   ],
@@ -78955,6 +79413,12 @@
     "via": "register"
    },
    {
+    "name": "Maria Elena LERENA Pelaez (b.1910)",
+    "dates": "",
+    "slug": "maria-elena-lerena-pelaez",
+    "via": "register"
+   },
+   {
     "name": "Nepomuceno Teofilo LERENA",
     "dates": "",
     "slug": "nepomuceno-teofilo-lerena",
@@ -78964,6 +79428,12 @@
     "name": "Policarpio Amador LERENA Pelaez (b. 1898, Trinidad)",
     "dates": "",
     "slug": "policarpio-amador-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Teresa Maria Eva LERENA Pelaez (b.1911)",
+    "dates": "",
+    "slug": "teresa-maria-eva-lerena-pelaez",
     "via": "register"
    }
   ],
@@ -88177,6 +88647,12 @@
     "via": "register"
    },
    {
+    "name": "Maria Elena LERENA Pelaez (b.1910)",
+    "dates": "",
+    "slug": "maria-elena-lerena-pelaez",
+    "via": "register"
+   },
+   {
     "name": "Nepomuceno Teofilo LERENA",
     "dates": "",
     "slug": "nepomuceno-teofilo-lerena",
@@ -88186,6 +88662,12 @@
     "name": "Policarpio Amador LERENA Pelaez (b. 1898, Trinidad)",
     "dates": "",
     "slug": "policarpio-amador-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Teresa Maria Eva LERENA Pelaez (b.1911)",
+    "dates": "",
+    "slug": "teresa-maria-eva-lerena-pelaez",
     "via": "register"
    }
   ],
@@ -88777,6 +89259,12 @@
     "via": "register"
    },
    {
+    "name": "Maria Elena LERENA Pelaez (b.1910)",
+    "dates": "",
+    "slug": "maria-elena-lerena-pelaez",
+    "via": "register"
+   },
+   {
     "name": "Nepomuceno Teofilo LERENA",
     "dates": "",
     "slug": "nepomuceno-teofilo-lerena",
@@ -88786,6 +89274,12 @@
     "name": "Policarpio Amador LERENA Pelaez (b. 1898, Trinidad)",
     "dates": "",
     "slug": "policarpio-amador-lerena-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Teresa Maria Eva LERENA Pelaez (b.1911)",
+    "dates": "",
+    "slug": "teresa-maria-eva-lerena-pelaez",
     "via": "register"
    }
   ],
@@ -90388,6 +90882,12 @@
     "name": "Luis Braulio PELAEZ (b. 1888, Trinidad)",
     "dates": "",
     "slug": "luis-braulio-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Luis PELAEZ Lerena (confirmed, Trinidad 1891-1905)",
+    "dates": "",
+    "slug": "luis-pelaez-lerena",
     "via": "register"
    },
    {
@@ -96443,6 +96943,12 @@
     "name": "Luis Braulio PELAEZ (b. 1888, Trinidad)",
     "dates": "",
     "slug": "luis-braulio-pelaez",
+    "via": "register"
+   },
+   {
+    "name": "Luis PELAEZ Lerena (confirmed, Trinidad 1891-1905)",
+    "dates": "",
+    "slug": "luis-pelaez-lerena",
     "via": "register"
    },
    {

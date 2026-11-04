@@ -847,8 +847,16 @@
      "died": "",
      "where": "Trinidad, Flores · Uruguayan",
      "source": "FamilySearch RECORD INDEX - exact-surname sweep SERENA + place FLORES, URUGUAY, 290 results, first 100 read 12 October 2026 …",
-     "father": null,
-     "mother": null,
+     "father": {
+      "slug": "juan-bernardo-lerena-pelaez",
+      "name": "Juan Bernardo LERENA Pelaez",
+      "tree": false
+     },
+     "mother": {
+      "slug": "eduviges-pelaez",
+      "name": "Eduviges PELAEZ (m. Juan Lerena 1894)",
+      "tree": false
+     },
      "spouses": [],
      "children": []
     },
@@ -1243,8 +1251,16 @@
      "died": "",
      "where": "Trinidad, Flores · Uruguayan",
      "source": "Santisima Trinidad, Trinidad, Flores …",
-     "father": null,
-     "mother": null,
+     "father": {
+      "slug": "malvino-pelaez",
+      "name": "Malvino PELAEZ (son of Juan PELAEZ and Antonina LERENA)",
+      "tree": false
+     },
+     "mother": {
+      "slug": "alejandrina-lerena",
+      "name": "Alejandrina LERENA (m. Balbino PELAEZ)",
+      "tree": false
+     },
      "spouses": [],
      "children": []
     }
