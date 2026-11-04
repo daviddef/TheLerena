@@ -5,6 +5,16 @@
    "date": "2026-11-04",
    "commits": [
     {
+     "sha": "a51f6ae",
+     "subject": "Rosario cathedral baptisms, Libro 26 (DGS film 004098791, images 293-543, 18 July 1883 to 6 April 1884) read act by act, the whole volume: no Lerena",
+     "body": "For the baptism of Pablo Armando Lerena (b. Rosario, 22 February 1882) and his parents Juan Carlos and Maria Lerena. Pages 1-454 with no gap, acts 993-1897 of 1883 and 1-451 of 1884 by the scribe's numbering (1,356; slips noted on the rows); the book closes at image 541 with Maria Esperanza Esquivel (act 451), 542 is the Volumen 26 target and 543 FIN. Images 310, 321, 345, 356, 379, 386, 465, 475 and 524 are second exposures. Every margin name read at 1500 px, parents and godparents seen: no Lerena in any spelling of the Atlas catalogue; Lavena (act 1438) and Leanes (act 1556) zoomed to 2600-2800 px and not counted. With Libro 25 the register stands read from 14 August 1882 to 6 April 1884, so the child was not baptised late into 1883 or 1884 at the cathedral. Also corrects the closing act of Libro 25 to the scribe's number 992 (a slip of one hundred after 891) in the three data files, and logs the Uruguay 'Juan Carlos X' phrase searches (twelve spellings, three orders) as a coverage null. Not claimed walked: parents were seen, not all transcribed; the waypoint is not established (film number only)."
+    },
+    {
+     "sha": "1ad97db",
+     "subject": "Repin the Archive Kit to e15c942 (person-page-v2, now the kit's main): checkperson no longer reads a link to a sibling archive's page as a missing local page",
+     "body": ""
+    },
+    {
      "sha": "effd038",
      "subject": "Rosario cathedral baptisms, Libro 25 (DGS film 004098791) read act by act to the end of the volume, 1883 acts 5-892 (1 January to 18 July 1883, images 133-290, pp. 251-550): no Lerena",
      "body": "Margin names and parents and godparents read at 1500 px, for the baptism of Pablo Armando Lerena (b. Rosario, 22 February 1882) and his parents Juan Carlos and Maria Lerena: no Lerena in any spelling of the Atlas catalogue (the cover check passes). Near-names seen and not counted are listed in the sources-consulted row. Images 183, 195, 201, 202, 215, 219, 229 and 230 are second exposures of the opening before; image 262 has a pasted 1891 certificate over p. 494 (verso on 263), no act hid. Image 290 (p. 550) closes the book ('Se cierra este libro con la partida de Anacleto Ruiz n. 892'); images 291-292 are the end targets and FIN, 293-294 the targets of Volumen 26 (1883-1884). With earlier sessions the read stands at 1,440 consecutive baptisms of 1882 and 892 of 1883. Not claimed walked: the acts of 1882 before 915 rest on earlier sessions' rows and Libro 26 (images 293-543) is unread; the waypoint is not established (film number only). This answers only whether a late baptism of 1882 or 1883 is among them (it is not). Resume point for Libro 26: film image 295 (?i=294)."
