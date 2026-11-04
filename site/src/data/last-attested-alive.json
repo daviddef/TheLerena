@@ -9833,5 +9833,19 @@
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Juan Carlos DE LEON (m. Juana Sofia Lerena 1929)",
+  "born_est": "1897-08-08",
+  "last_attested_alive": "1929-Oct-17",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Regina DE LEON (mother of Juan Carlos de Leon)",
+  "born_est": "-",
+  "last_attested_alive": "1929-Oct-17",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
  }
 ]

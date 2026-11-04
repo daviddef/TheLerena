@@ -3514,6 +3514,13 @@
    "url": "/people/juan-calman/"
   },
   {
+   "name": "Juan Carlos De Leon",
+   "aliases": [
+    "Juan Carlos De León"
+   ],
+   "url": "/people/juan-carlos-de-leon/"
+  },
+  {
    "name": "Juan Carlos Gonzalez Lerena",
    "aliases": [
     "Juan Carlos Gonzalez",
@@ -5799,6 +5806,13 @@
    "url": "/people/raul-salvador-lerena-fernandez/"
   },
   {
+   "name": "Regina De Leon",
+   "aliases": [
+    "Regina De León"
+   ],
+   "url": "/people/regina-de-leon/"
+  },
+  {
    "name": "Rene Felix Lerena Fernandez",
    "aliases": [
     "Rene Felix Lerena",
@@ -7516,6 +7530,12 @@
    "url": "/people/?q=Juana%20Lerena",
    "bearers": [
     "/people/juana-lerena/"
+   ],
+   "resolve": [
+    {
+     "near": "/people/juan-carlos-de-leon/",
+     "url": "/people/juana-sofia-lerena-harrison/"
+    }
    ]
   },
   {
