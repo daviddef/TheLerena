@@ -565,9 +565,11 @@
    "victor-bravo-cameto",
    "felicia-lerena-2",
    "elisa-pelaez-lerena",
-   "e-b-lerena-cardozo"
+   "e-b-lerena-cardozo",
+   "p-a-lerena",
+   "g-lerena"
   ],
-  "count": 563
+  "count": 565
  },
  {
   "slug": "montevideo",
@@ -991,9 +993,15 @@
    "t-m-cardozo",
    "c-m-rodriguez",
    "c-d-vallejo",
-   "b-j-magallanes"
+   "b-j-magallanes",
+   "j-j-beratarbide",
+   "rufina-bayonez",
+   "pedro-villanueva",
+   "fidelina-bravo",
+   "m-bravo-2",
+   "juliana-mendoza"
   ],
-  "count": 67
+  "count": 73
  },
  {
   "slug": "san-jose-de-mayo",
@@ -1054,9 +1062,15 @@
    "esteban-fernandez-alvarez",
    "josefa-cecilia-lac",
    "esteban-segundo-fernandez-lac",
-   "isabel-lerena"
+   "isabel-lerena",
+   "evaristo-harrison",
+   "petrona-perera",
+   "j-zugasti",
+   "felicia-lerena-3",
+   "felicia-zugasti-lerena",
+   "j-p-barbe"
   ],
-  "count": 56
+  "count": 62
  },
  {
   "slug": "buenos-aires",

@@ -3397,9 +3397,9 @@
  {
   "name": "Felicia LERENA (dau. of Mauricio, m. 19 Dec 1874 San Jose)",
   "born_est": "-",
-  "last_attested_alive": "1874-Dec-19",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Estefania LERENA (m. Servando GONZALEZ)",
@@ -6267,9 +6267,9 @@
  {
   "name": "Severa Juliana LERENA Fernandez (chr.1859)",
   "born_est": "1859-08-17",
-  "last_attested_alive": "1859-Sep-07",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1859-08-17",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Justina Petronila Teresa LERENA Fernandez (chr.1860)",
@@ -6574,15 +6574,15 @@
  },
  {
   "name": "Sofia FERNANDEZ Lerena (m. Ramon A. Paben)",
-  "born_est": "1868c",
-  "last_attested_alive": "1868c",
+  "born_est": "1869-07-28",
+  "last_attested_alive": "1869-07-28",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
  {
   "name": "Ramon A. PABEN (m. Sofia Fernandez)",
-  "born_est": "1868c",
-  "last_attested_alive": "1868c",
+  "born_est": "1868-03-13",
+  "last_attested_alive": "1868-03-13",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -9917,5 +9917,103 @@
   "last_attested_alive": "1909c",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Evaristo HARRISON (written Arrison; father of Bernardina and Venancia Harrison)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Petrona PERERA (mother of Bernardina and Venancia Harrison)",
+  "born_est": "1842c",
+  "last_attested_alive": "1842c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "J. J. BERATARBIDE (m. Rufina Bayonez; d. before 1887; Juan Jose)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Rufina BAYONEZ (m. Juan Jose Beratarbide; d. before 1887)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "J. ZUGASTI (m. Felicia Lerena; Juan)",
+  "born_est": "-",
+  "last_attested_alive": "1895-May-25",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Felicia LERENA (m. Juan Zugasti; mother of Felicia Zugasti 1895)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Felicia ZUGASTI Lerena (b. c.1875; m. Juan Pedro Barbe 1895)",
+  "born_est": "1875c",
+  "last_attested_alive": "1895-May-25",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "J. P. BARBE (m. Felicia Zugasti 1895; Juan Pedro)",
+  "born_est": "1870c",
+  "last_attested_alive": "1895-May-25",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Pedro VILLANUEVA (m. Fidelina Bravo; b. 1854, Navarra)",
+  "born_est": "1854-06-29",
+  "last_attested_alive": "1854-06-29",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Fidelina BRAVO (m. Pedro Villanueva 1894; b. 1858, Chamanga)",
+  "born_est": "1858-04-13",
+  "last_attested_alive": "1858-04-13",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "M. BRAVO (m. Juliana Mendoza; widower 1894; Manuel, of Chamanga)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Juliana MENDOZA (m. Manuel Bravo; d. 1889, Chamanga)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "P. A. LERENA (witness at Trinidad 1900; Pedro A.)",
+  "born_est": "1878c",
+  "last_attested_alive": "1900-Oct-03",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "G. LERENA (witness at Trinidad 1902; Gustavo, tipografo)",
+  "born_est": "1881c",
+  "last_attested_alive": "1902-Apr-18",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
  }
 ]

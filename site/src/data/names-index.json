@@ -2367,6 +2367,11 @@
    "url": "/people/evaristo-cespedes/"
   },
   {
+   "name": "Evaristo Harrison",
+   "aliases": [],
+   "url": "/people/evaristo-harrison/"
+  },
+  {
    "name": "Evidelia Lilia Lerena Casavalle",
    "aliases": [
     "Evidelia Lilia Lerena"
@@ -2419,6 +2424,13 @@
    "name": "Felicia Rafaela Bidondo",
    "aliases": [],
    "url": "/people/felicia-rafaela-bidondo/"
+  },
+  {
+   "name": "Felicia Zugasti Lerena",
+   "aliases": [
+    "Felicia Zugasti"
+   ],
+   "url": "/people/felicia-zugasti-lerena/"
   },
   {
    "name": "Feliciano Lerena Alvarez",
@@ -2493,6 +2505,11 @@
     "Fidel Lerena Fernández"
    ],
    "url": "/people/fidel-lerena-fernandez/"
+  },
+  {
+   "name": "Fidelina Bravo",
+   "aliases": [],
+   "url": "/people/fidelina-bravo/"
   },
   {
    "name": "Flora Lerena Harrison",
@@ -3952,6 +3969,11 @@
    "name": "Juliana Josefa Cornejo",
    "aliases": [],
    "url": "/people/juliana-josefa-cornejo/"
+  },
+  {
+   "name": "Juliana Mendoza",
+   "aliases": [],
+   "url": "/people/juliana-mendoza/"
   },
   {
    "name": "Julio Servando del Carmen Gonzalez Lerena",
@@ -5604,6 +5626,11 @@
    "url": "/people/pedro-villademoros/"
   },
   {
+   "name": "Pedro Villanueva",
+   "aliases": [],
+   "url": "/people/pedro-villanueva/"
+  },
+  {
    "name": "Pedro Zacarias Beloqui",
    "aliases": [],
    "url": "/people/pedro-zacarias-beloqui/"
@@ -5633,6 +5660,11 @@
     "Petrona Medero"
    ],
    "url": "/people/petrona-medero-llerena/"
+  },
+  {
+   "name": "Petrona Perera",
+   "aliases": [],
+   "url": "/people/petrona-perera/"
   },
   {
    "name": "Petrona Quintina Lerena Cespedes",
@@ -6040,6 +6072,11 @@
     "Rosaline Wilhelmina Chappell"
    ],
    "url": "/people/roseline-wilhelmina-forbes/"
+  },
+  {
+   "name": "Rufina Bayonez",
+   "aliases": [],
+   "url": "/people/rufina-bayonez/"
   },
   {
    "name": "Salvador Angulo",
@@ -7059,6 +7096,7 @@
    "url": "/people/?q=Felicia%20Lerena",
    "bearers": [
     "/people/felicia-lerena-2/",
+    "/people/felicia-lerena-3/",
     "/people/felicia-lerena/"
    ],
    "resolve": [
