@@ -39,6 +39,9 @@ const redirects = {
      page by page. A published address outlives the reason it was minted. */
   '/people/pedro-lerena-vega': `${BASE}/people/pedro-lerena-vega-2/`,
 
+  /* 5 November 2026. The row 'Rodolfo Bernardo Lerena (father, Trinidad 1918)' and the row of Rodolfo B. Lerena Cardozo were one man (the baptisms of 1918 and 1919, read at the plate on 1 November 2026, write his name Rodolfo Bernardo Lerena with his wife Maria Luisa Caballero and his parents Bernabe and Florinda Cardoso). MERGED. */
+  '/people/rodolfo-bernardo-lerena': `${BASE}/people/rodolfo-b-lerena-cardozo/`,
+
   /* 5 November 2026. A row for the 1969 death of Alberto Medardo Rodriguez Lerena was minted for a few minutes and withdrawn: he is the Alberto Madardo of the Flores birth act of 8 June 1921 (same birth date, same parents), already held. The death went into that row. */
   '/people/a-m-rodriguez-lerena': `${BASE}/people/alberto-m-rodriguez-lerena/`,
 

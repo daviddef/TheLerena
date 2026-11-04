@@ -5,6 +5,11 @@
    "date": "2026-11-05",
    "commits": [
     {
+     "sha": "7bcfa54",
+     "subject": "Six parent edges the rows' own notes already supported, drawn: Florinda Juana Lerena joins Ramon's line (11 people), and two Pelaez Lerena brothers and Manuel Vicente Lerena Marino get their parents",
+     "body": "Florinda Juana Lerena (b. c.1890-91, m. Vitalino Gregorio Pelaez 1913) was held on no line though her note quotes two acts that name her parents (the Flores birth act of 10 March 1922 and the Trinidad parish marriage of 20 February 1913: Bernabe Lerena and Florinda Cardozo); the register had no edge to them, and Bernabe's father is the Bernabe of Trinidad. Nepomuceno Teofilo (baptism of 1905) and Amador Lerena Pelaez (death act of 1937) get their mother Eduviges Pelaez, named in both acts; no father edge, since no row holds the Juan Lerena of the 1894 dispensation. Manuel Vicente Lerena Marino gets Manuel Lerena (son of Mauricio) and Jacinta Marin, taken for the couple of 1882 by the index card's names.\nRamon's line 702 -> 713; households on no line 41 -> 40 (people 183 -> 175); people of the name alone 134 -> 131. Not done: Rodolfo Bernardo Lerena (father, Trinidad 1918) is probably the Rodolfo B. Lerena Cardozo of 1917 (a son of Bernabe and Florinda Cardoso), but the two rows stay apart until that is decided."
+    },
+    {
      "sha": "4616b76",
      "subject": "Uruguay civil registration full text (collection 1837849), entries before 1900, read for a Juan Carlos beside Lerena: a coverage null only, no nil written",
      "body": "340 entries (70 marriages) for LERENA and the entries for GERENA, LERESA, LERINA and LEVENA, plus the 600 best-ranked of a 'Juan Carlos' + 'Lerena' query that matched 57,915, read in the machine transcript: no Juan Carlos Lerena (the one 'Juan Carlos' near a Lerena is a witness, Juan Carlos Blanco). LORENA, SERENA, LARENA and LLERENA were not typed as searches, so the catalogue's coverage check does not pass and the row is 'pending', not a nil. Also regenerated: the errands data for the sent Registro Civil letter."

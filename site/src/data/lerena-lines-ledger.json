@@ -8,7 +8,7 @@
   "Anyone on no line and in no household is counted in one of two pens: people of the name with no family recorded here, or people in the acts who are not of the name and are kin to nobody here.",
   "Everybody is counted, and nobody is counted twice. A person is listed by name only when their page publishes a birth year before the living line or a death, and no rule of this archive holds them as living or out of publication; everybody else is a number only."
  ],
- "total": 1455,
+ "total": 1454,
  "listed": 907,
  "lanes": [
   {
@@ -106,7 +106,7 @@
     "Florida",
     "San Jose"
    ],
-   "people": 713,
+   "people": 712,
    "listed": 541
   },
   {
@@ -369,7 +369,7 @@
    "label": "The LERENA of Trinidad with no father named — Trinidad, Flores, 1895-1918",
    "pen": "not-yet-placed",
    "href": "/people/cayetana-faustina-lerena/",
-   "why": "CAYETANA FAUSTINA, whose son Luis was registered in 1895 with no father on the act; RODOLFO BERNARDO and ISMAEL, each a father who appears once. *** Real people on real acts, attached to nobody. ***",
+   "why": "CAYETANA FAUSTINA, whose son Luis was registered in 1895 with no father on the act; and ISMAEL, a father who appears once. (RODOLFO BERNARDO, who stood here until 5 November 2026, is the son of Bernabe Lerena and Florinda Cardoso and is on Ramon's line.) *** Real people on real acts, attached to nobody. ***",
    "status": "origin-unknown",
    "statusNote": "",
    "span": [
@@ -383,9 +383,7 @@
      1915
     ]
    ],
-   "onLane": [
-    "ramon"
-   ],
+   "onLane": [],
    "written": true,
    "people": 3,
    "listed": 1
