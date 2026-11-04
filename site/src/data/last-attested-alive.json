@@ -5917,9 +5917,9 @@
  {
   "name": "Manuel Mauricio LERENA Montano (b. 1838, San Jose)",
   "born_est": "1838-06-17",
-  "last_attested_alive": "1838-Jul-08",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1838-06-17",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Carmelo Belisario LERENA Montano (b. 1842, San Jose)",
@@ -9787,6 +9787,48 @@
  },
  {
   "name": "F. LOPEZ (d. 1892; mother of Enrique Eugenio Lopez; Florentina)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Juan BERRUETA (m. Natalia Caceres; militar)",
+  "born_est": "-",
+  "last_attested_alive": "1914-Oct-26",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Natalia CACERES (m. Juan Berrueta)",
+  "born_est": "-",
+  "last_attested_alive": "1914-Oct-26",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Miguel ABELENDA (m. Dolores Cabeza; d. before 1919)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Dolores CABEZA (m. Miguel Abelenda; d. before 1919)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Evaristo CESPEDES (m. Brigida Caballero; father of Brigida Cespedes)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Brigida CABALLERO (m. Evaristo Cespedes; d. before 1878)",
   "born_est": "-",
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",

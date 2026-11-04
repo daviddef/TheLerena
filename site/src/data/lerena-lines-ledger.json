@@ -8,7 +8,7 @@
   "Anyone on no line and in no household is counted in one of two pens: people of the name with no family recorded here, or people in the acts who are not of the name and are kin to nobody here.",
   "Everybody is counted, and nobody is counted twice. A person is listed by name only when their page publishes a birth year before the living line or a death, and no rule of this archive holds them as living or out of publication; everybody else is a number only."
  ],
- "total": 1408,
+ "total": 1414,
  "listed": 886,
  "lanes": [
   {
@@ -106,8 +106,8 @@
     "Florida",
     "San Jose"
    ],
-   "people": 655,
-   "listed": 508
+   "people": 677,
+   "listed": 520
   },
   {
    "key": "direct",
@@ -271,8 +271,8 @@
    "kind": "not-yet-placed",
    "head": "Real households of the name — on none of these lines",
    "households": 39,
-   "people": 191,
-   "listed": 110
+   "people": 175,
+   "listed": 98
   },
   {
    "id": "of-the-name-alone",
@@ -588,26 +588,14 @@
    "why": "A Mauricio Lerena with a wife Petrona Aguilar, godparents in February and March 1866 and the parents of Paula Gregoria, born 14 June 1866. *** He may be the Mauricio of Flores born about 1836, and he is not the Colla Mauricio, who had a wife Casimira. Not merged. ***",
    "status": "origin-unknown",
    "statusNote": "",
-   "span": [
-    1840,
-    1903
+   "span": null,
+   "places": [],
+   "onLane": [
+    "ramon"
    ],
-   "places": [
-    [
-     "Florida, Uruguay",
-     1840,
-     1903
-    ],
-    [
-     "Trinidad, Flores",
-     1866,
-     1866
-    ]
-   ],
-   "onLane": [],
    "written": true,
-   "people": 16,
-   "listed": 12
+   "people": 0,
+   "listed": 0
   },
   {
    "label": "PEDRO ANTONIO LERENA and TERESA LEONARD — Montevideo, 1861-1901",

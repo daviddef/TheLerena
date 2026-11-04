@@ -2576,6 +2576,11 @@
        "tree": false
       },
       {
+       "slug": "mauricio-lerena-3",
+       "name": "Mauricio LERENA (m. Petrona Aguilar, Trinidad 1866)",
+       "tree": false
+      },
+      {
        "slug": "miguel-lerena",
        "name": "Miguel LERENA (of Villa de Sarandi, m. Tomasa Rodriguez)",
        "tree": false
@@ -2674,9 +2679,22 @@
      "died": "",
      "where": "Trinidad, Flores · Oriental",
      "source": "Santisima Trinidad, Baptism Records October 1857 …",
-     "father": null,
-     "mother": null,
+     "father": {
+      "slug": "mauricio-lerena",
+      "name": "Mauricio LERENA (of Colla/Rosario, m. Casimira Montano 1837)",
+      "tree": false
+     },
+     "mother": {
+      "slug": "dona-casimira-montano",
+      "name": "Dona Casimira MONTANO (wife of Mauricio LERENA)",
+      "tree": false
+     },
      "spouses": [
+      {
+       "slug": "brigida-cespedes",
+       "name": "Brigida CESPEDES (wife of Mauricio Lerena)",
+       "tree": false
+      },
       {
        "slug": "petrona-aguilar",
        "name": "Petrona AGUILAR (m. Mauricio Lerena, Trinidad 1866)",
