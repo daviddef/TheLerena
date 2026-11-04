@@ -5984,5 +5984,25 @@
    "civil-marriage-records"
   ],
   "note": "FOUND: the civil act of 18 May 1885 names the parents of Venancio Lerena (Alejandro Lerena and Severa Fernandez) and of Venancia Arrison (Evaristo Arrison and Petrona Perera), the parents of Bernardina Arrison in 1884, so the two brides are sisters; the act of 1887 gives Julia Lerena's birth (27 Aug 1859) and parents; the cathedral entry of 1878 ties Alberto Lerena (son of Avelino Lerena and Ambrosia Traibel) to Maria Ines Larriera. Not walked."
+ },
+ {
+  "src": "FamilySearch full text - \"Juan Carlos\" and \"Pablo Armando\" with twelve spellings of Lerena (Lerena, Llerena, Lorena, Lerina, Gerena, Leresa, Levena, Serena, Sereña, Lereña, Larena, Perena)",
+  "url": "https://www.familysearch.org/search/full-text/results?q.text=%22Juan+Carlos+Llerena%22",
+  "film": null,
+  "waypoint": null,
+  "what": "The parents of Pablo Armando Lerena (b. Rosario de Santa Fe, 1882): Juan Carlos Lerena and Maria Lerena, and his baptism",
+  "when": "2026-11-04",
+  "outcome": "nothing",
+  "pages": null,
+  "walked": false,
+  "tags": [
+   "lerena",
+   "rosario",
+   "santa fe",
+   "argentina",
+   "familysearch",
+   "full-text"
+  ],
+  "note": "A COVERAGE NULL: no record of either man in any of twelve spellings (the Atlas cover check passes); every Juan Carlos hit is a modern record of another man or the 1910 Buenos Aires baptism already held. The engine does not hold Santa Fe parish registers, so this says nothing about whether the Rosario act exists. Rosario cathedral baptisms, marriages and confirmations were closed by earlier sessions; Santa Fe civil registration begins 1886; the Registro Civil letter is drafted, not sent."
  }
 ]
