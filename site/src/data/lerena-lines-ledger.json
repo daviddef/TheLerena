@@ -8,8 +8,8 @@
   "Anyone on no line and in no household is counted in one of two pens: people of the name with no family recorded here, or people in the acts who are not of the name and are kin to nobody here.",
   "Everybody is counted, and nobody is counted twice. A person is listed by name only when their page publishes a birth year before the living line or a death, and no rule of this archive holds them as living or out of publication; everybody else is a number only."
  ],
- "total": 1405,
- "listed": 885,
+ "total": 1408,
+ "listed": 886,
  "lanes": [
   {
    "key": "sancho",
@@ -271,8 +271,8 @@
    "kind": "not-yet-placed",
    "head": "Real households of the name — on none of these lines",
    "households": 39,
-   "people": 188,
-   "listed": 109
+   "people": 191,
+   "listed": 110
   },
   {
    "id": "of-the-name-alone",
@@ -589,13 +589,13 @@
    "status": "origin-unknown",
    "statusNote": "",
    "span": [
-    1860,
+    1840,
     1903
    ],
    "places": [
     [
      "Florida, Uruguay",
-     1860,
+     1840,
      1903
     ],
     [
@@ -606,8 +606,8 @@
    ],
    "onLane": [],
    "written": true,
-   "people": 13,
-   "listed": 11
+   "people": 16,
+   "listed": 12
   },
   {
    "label": "PEDRO ANTONIO LERENA and TERESA LEONARD — Montevideo, 1861-1901",
