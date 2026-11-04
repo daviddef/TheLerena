@@ -6102,5 +6102,23 @@
    "machine-transcript"
   ],
   "note": "FOUND: the death act of the militar Mauricio Lerena (27 January 1917, aged 77, born at San Jose, a son of Mauricio and Casimira Montano) names both his marriages (Petrona Aguilar, then Brigida Cespedes) and the seven children of the second; two children of Mauricio and Brigida dead in 1893 and 1897, a third in 1918; the deaths of Antonina Lerena de Fernandez (1940, a daughter of Bernabe) and Venancia Harrison de Lerena (1941, a daughter of Evaristo Harrison and Petrona Perera). Not a nil of the volumes. Second pass ('open all'): new rows for 1922, 1988, 1995 and a photographer declarant of 1917-1918, and a 1969 death added to a man already held; the Perdomo son of 1988 is taken for the child of the 1913 Sarandi Grande marriage of Jacinta Telma Lerena and Umpiano Manuel Perdomo, by the names and the date. Not a nil of the volumes."
+ },
+ {
+  "src": "FamilySearch - Uruguay, Civil Registration 1879-2020 (collection 1837849), full text, entries before 1900",
+  "url": "https://www.familysearch.org/search/full-text?q.text=%22Lerena%22&f.collectionId=1837849",
+  "waypoint": null,
+  "what": "The civil entries of 1879-1899 that the full text returns for LERENA (340 entries, 70 of them marriages) and for GERENA, LERESA, LERINA and LEVENA, read in the machine transcript for a Juan Carlos beside the name; then the 600 best-ranked entries of a 'Juan Carlos' + 'Lerena' query",
+  "when": "2026-11-05",
+  "outcome": "pending",
+  "pages": "machine transcripts only; no plate opened",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "uruguay",
+   "familysearch",
+   "civil-registration",
+   "machine-transcript"
+  ],
+  "note": "A COVERAGE NULL ONLY, NOT A NIL: no 1879-1899 civil entry in the hits pairs a Juan Carlos with a Lerena (the one 'Juan Carlos' near a Lerena is a witness, Juan Carlos Blanco, beside a witness Antonio Carvalto Lerena), and none of the 600 best-ranked 'Juan Carlos' + 'Lerena' entries of all years is a Juan Carlos Lerena of the right age (the 'Juan Carlos' there are husbands of other surnames, or children). The 'Juan Carlos'+'Lerena' query matched 57,915 entries and was read only for its first 600, which is not a complete scan. LORENA, SERENA, LARENA and LLERENA were NOT typed as searches (they were seen only inside LERENA hits), so the catalogue's coverage check does not pass and no nil is written. The civil register starts in 1879, after a marriage of Pablo Armando's parents is most likely to have happened."
  }
 ]
