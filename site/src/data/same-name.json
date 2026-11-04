@@ -2720,8 +2720,20 @@
       "name": "Brigida CESPEDES (wife of Mauricio Lerena)",
       "tree": false
      },
-     "spouses": [],
-     "children": []
+     "spouses": [
+      {
+       "slug": "l-j-correa",
+       "name": "L. J. CORREA (m. Mauricio Lerena; Lucrecia Juana)",
+       "tree": false
+      }
+     ],
+     "children": [
+      {
+       "slug": "l-a-lerena-correa",
+       "name": "L. A. LERENA Correa (b. 1921; Luis Alberto)",
+       "tree": false
+      }
+     ]
     }
    ]
   }

@@ -9536,9 +9536,9 @@
  {
   "name": "Mariana TRUJILLO (m. Manuel Lerena)",
   "born_est": "1839c",
-  "last_attested_alive": "1902-Oct-14",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1839c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "F. S. LERENA Rodriguez (b. 1894, Costa del Tala; Francisco Solano)",
@@ -9599,9 +9599,9 @@
  {
   "name": "J. LERENA (b. c.1881; Jose, empleado of Sarandi Grande, witness 1913)",
   "born_est": "1881",
-  "last_attested_alive": "1913-Apr-26",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1881",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "H. G. LERENA (b. c.1890; Hernando G., empleado at Goni)",
@@ -9614,6 +9614,118 @@
   "name": "J. B. LERENA (b. c.1882; Juan B., carpintero of Piedras Coloradas)",
   "born_est": "1882",
   "last_attested_alive": "1882",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "G. LERENA Marin (b. c.1891; Gerardo, panadero of Sarandi Grande)",
+  "born_est": "1891",
+  "last_attested_alive": "1891",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "P. M. BERRUETA (m. Gerardo Lerena; Pura Marcelina)",
+  "born_est": "1896",
+  "last_attested_alive": "1896",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "M. A. LERENA Berrueta (b. 1915; Mauer Asuncion)",
+  "born_est": "1915-08-15",
+  "last_attested_alive": "1915-08-15",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "M. I. LERENA Berrueta (b. 1917; Maria Idola)",
+  "born_est": "1917-09-12",
+  "last_attested_alive": "1917-09-12",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "A. A. LERENA Rodriguez (b. c.1890; Amabilia Asuncion, m. Jose Lerena)",
+  "born_est": "1890",
+  "last_attested_alive": "1919-Mar-05",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "J. D. LERENA Lerena (b. 1919; Josefa Dulcelina)",
+  "born_est": "1919-02-21",
+  "last_attested_alive": "1919-02-21",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "L. J. CORREA (m. Mauricio Lerena; Lucrecia Juana)",
+  "born_est": "1888",
+  "last_attested_alive": "1888",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "L. A. LERENA Correa (b. 1921; Luis Alberto)",
+  "born_est": "1921-03-31",
+  "last_attested_alive": "1921-03-31",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "D. E. LERENA (a natural daughter; Delia Elida)",
+  "born_est": "1925-08-03",
+  "last_attested_alive": "1925-Aug-11",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "A. RECALDE (named 1941; Aurora, with Manuel Mauricio Lerena)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "E. F. LERENA (b. c.1894; Eudoro Francisco, hacendado)",
+  "born_est": "1894",
+  "last_attested_alive": "1894",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "M. M. BERNARDI (m. Eudoro Francisco Lerena; Maria Margarita)",
+  "born_est": "-",
+  "last_attested_alive": "1925-Jan-02",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "N. L. LERENA Bernardi (b. 1924; Norma Lucia)",
+  "born_est": "1924-12-13",
+  "last_attested_alive": "1924-12-13",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "A. LERENA (b. c.1893; Amador, talabartero of Nico Perez)",
+  "born_est": "1893",
+  "last_attested_alive": "1919-Oct-22",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "M. B. LERENA (b. c.1899; Miguel B., empleado of Sarandi Grande)",
+  "born_est": "1899",
+  "last_attested_alive": "1920-Mar-18",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "E. C. LERENA (b. c.1900; Ernesto C., empleado)",
+  "born_est": "1900",
+  "last_attested_alive": "1900",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  }
