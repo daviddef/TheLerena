@@ -6042,5 +6042,25 @@
    "full-text"
   ],
   "note": "Not a nil across spellings: only the phrase 'Lerena' was typed in this scan (the catalogue's other spellings were not), the engine holds the transcribed volumes only, two of the 914 entries were not fetched and the civil set was not scanned for the forename. None of the 912 is a Juan Carlos."
+ },
+ {
+  "src": "FamilySearch - Rosario cathedral baptisms, Libro 25, DGS film 004098791 (Bautismos 1882-1883), read act by act, 1 January to 18 July 1883, to the end of the volume",
+  "url": "https://www.familysearch.org/search/film/004098791?i=132",
+  "film": "004098791",
+  "waypoint": null,
+  "what": "The baptism of Pablo Armando Lerena (b. Rosario de Santa Fe, 22 February 1882): a late baptism in 1883, read in the register itself, not the index",
+  "when": "2026-11-04",
+  "outcome": "nothing",
+  "pages": "film images 133-290 of 543 (pp. 251-550, 1883 acts 5-892; images 183, 195, 201, 202, 215, 219, 229, 230 repeat the opening before; the volume ends at image 290, FIN at 292)",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "rosario",
+   "santa fe",
+   "argentina",
+   "familysearch",
+   "baptisms"
+  ],
+  "note": "1883 acts 5-892 read at 1500 px, margin names and parents and godparents seen: no Lerena in any spelling of the Atlas catalogue (Lerena, Llerena, Gerena, Leresa, Lerina, Levena, Lorena, Serena, Sereña, Loreña, Larena, Perena). Libro 25 closes at act 892 (p. 550). Not claimed walked: Libro 26 (images 293-543) is not read. The waypoint is not established; the film number only."
  }
 ]
