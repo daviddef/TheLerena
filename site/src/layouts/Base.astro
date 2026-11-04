@@ -17,7 +17,7 @@ import ring from "@daviddef/archive-kit/data/archives.json";
    reads Unexpected "{" and points at the plain <meta viewport> tag thirty lines down. Diagnosed
    14 September 2026 by bisecting the frontmatter; moving the line is the whole fix. */
 const v = versioner();
-const { title, description = "", dek, eyebrow, bare, noindex, noAutolink } = Astro.props;
+const { title, description = "", dek, eyebrow, bare, noindex, noAutolink, ownHeader } = Astro.props;
 /* noAutolink: the page opts out of the build-time name linker (kit autolink.py, run by tools/run-autolink.py after the
    build) by putting data-no-autolink on <main>. Used by a person's own page and a name's own page (the linker would link a
    person to themself), by the two index pages (every row already links its person) and by /changes/ (the commit log, which
@@ -115,7 +115,7 @@ const thisArchive =
 
 <main id="main" tabindex="-1" data-no-autolink={noAutolink ? "" : undefined}>
   <div class="wrap">
-    {!bare && (
+    {!bare && !ownHeader && (
       <div class="pagehead">
         {eyebrow && <div class="lab">{eyebrow}</div>}
         <h1>{title}</h1>

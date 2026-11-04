@@ -1,14 +1,18 @@
 ---
 import Base from "../../layouts/Base.astro";
 import Placement from "../../components/Placement.astro";
-import PersonTree from "../../components/PersonTree.astro";
 import { u } from "../../lib/url.js";
 import people from "../../data/people.json";
 import personDocs from "../../data/person-documents.json";
 import places from "../../data/places.json";
 import { emph, plain, lead } from "../../lib/text.js";
 import EraNote from "@daviddef/archive-kit/components/EraNote.astro";
-import OursBand from "@daviddef/archive-kit/components/OursBand.astro";
+import PersonPage from "@daviddef/archive-kit/components/PersonPage.astro";
+import PersonSection from "@daviddef/archive-kit/components/PersonSection.astro";
+import "@daviddef/archive-kit/styles/persontree.css";
+import "@daviddef/archive-kit/styles/personpage.css";
+import PS from "@daviddef/archive-kit/data/public-sources.json";
+import { isLiving as isLivingKit, lifespan as kitLifespan } from "@daviddef/archive-kit/lib/person.js";
 import directLine from "../../data/direct-line.json";
 import { birthEra } from "../../lib/eraYear.js";
 import eraSnapshot from "../../data/era-snapshot.json";
@@ -20,13 +24,18 @@ const docs = personDocs[p.name] || [];
 const place = places.find(x => x.slug === p.placeSlug);
 const others = place ? people.filter(x => x.placeSlug === p.placeSlug && x.slug !== p.slug) : [];
 
+/* THE PAGE IS THE KIT'S PersonPage (4 November 2026, people pages v2): the header, the family chart, "What the record says", "Where this comes from",
+   "Photographs and papers" and "Notes and corrections" are the estate's one set of sections, in the estate's order and with the estate's anchors; what
+   this archive adds goes in the slots, or after them as a titled "more" section. The archive decides who is living, once, in tools/build-people.py
+   (p.living); the kit's rule is asked as well, and a page is a living person's if EITHER says so. */
+
 // The third column of .rec is the "why" — the Defranceski archive uses it and ours sat empty.
 const WHY = {
   Born: p.datesFrom ? "as the chart draws it, from " + p.datesFrom : "as the record gives it",
   Died: p.datesFrom
       ? "as the chart draws it, from " + p.datesFrom
       : "an explicit death date, matched to this register by hand in "
-      + "last-attested-alive.tsv \u2014 never a «by 1950» ceiling",
+      + "last-attested-alive.tsv — never a «by 1950» ceiling",
   Birthplace: "as the record gives it",
   Nationality: "as declared, not as inferred",
   Occupation: "the word the document uses",
@@ -37,9 +46,6 @@ const says = [
   ["Occupation", p.occupation], ["Where found", p.where],
 ].filter(([, v]) => v && v !== "-").map(([k, v]) => [k, v, WHY[k] || ""]);
 
-/* A LIVING PERSON (80 or younger, no death recorded) is a name, relationships, a town and a
-   country, and nothing more: no record table, no sources, no notes, no documents, no dates,
-   and the page is noindex. Decided in tools/build-people.py by the estate's one rule. */
 const living = p.living === true;
 const townCountry = [p.town, p.country].filter(Boolean).join(", ");
 
@@ -56,67 +62,132 @@ const townCountry = [p.town, p.country].filter(Boolean).join(", ");
 const noNotes = living || !!p.noindex;
 const bornEra = noNotes || !p.birthplace || p.birthplace === "-" ? null : birthEra(eraSnapshot, p.birthplace, p.born);
 
-const eyebrow = living ? "A living person, named only" : p.gen != null
-  ? `Generation ${p.gen} of the direct line`
-  : p.status === "excluded" ? "Checked, and not of this family"
-  : p.status === "connected" ? "Connected to the line"
-  : "A person of this surname, unplaced";
+/* «-» IS HOW THIS REGISTER WRITES «not known», on 535 rows, and it is truthy. */
+const said = (v) => {
+  const s = String(v == null ? "" : v).trim();
+  return s && s !== "-" && s !== "?" ? s : "";
+};
+/* THE CHART'S DATES. The register writes a birth «1882-02-22», «1950-Mar-19», «1842», «1842c», «c.1815», «1876-10», and the chart draws a day or a
+   year, and «c.» for an estimate. A month with no day is kept to the year; a trailing «c» (an estimate) becomes the «c.» the chart prints. The record
+   table below keeps what the register wrote. */
+const MON = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+const gedYear = (v) => { const m = /\b(1[0-9]\d\d|20\d\d|[5-9]\d\d)\b/.exec(String(v ?? "")); return m ? Number(m[1]) : null; };
+const canonDate = (v) => {
+  const t = said(v);
+  if (!t) return undefined;
+  let m;
+  if (/^\d{4}$/.test(t)) return t;
+  if ((m = /^c\.?\s*(\d{4})$/i.exec(t)) || (m = /^(\d{4})c$/i.exec(t))) return `c. ${m[1]}`;
+  if ((m = /^(\d{4})-(\d{2})-(\d{2})(c?)$/.exec(t))) {
+    const [, y, mo, d, c] = m;
+    return c ? `c. ${y}` : (+mo >= 1 && +mo <= 12 && +d >= 1 && +d <= 31 ? `${+d} ${MON[+mo - 1]} ${y}` : y);
+  }
+  if ((m = /^(\d{4})-(\d{1,2}|[A-Za-z]{3})-(\d{1,2})$/.exec(t)) && /^[A-Za-z]/.test(m[2])) {
+    const mi = MON.findIndex((x) => x.toLowerCase() === m[2].toLowerCase());
+    return mi < 0 ? m[1] : `${+m[3]} ${MON[mi]} ${m[1]}`;
+  }
+  if ((m = /^(\d{4})-(\d{2}|[A-Za-z]{3})(c?)$/.exec(t))) return m[3] ? `c. ${m[1]}` : m[1];
+  return undefined;
+};
+/* a relative's dates arrive as one string, «1905–1973» or «1905–» */
+const spanOf = (s) => { const m = /^\s*(\d{4})?\s*[–-]\s*(\d{4})?\s*$/.exec(String(s || "")); return m ? { born: m[1], died: m[2] } : {}; };
+
+const rawBorn = said(p.born), rawDied = said(p.died);
+const kitDates = { born: canonDate(rawBorn), died: canonDate(rawDied) };
+const KLIVE = !living && isLivingKit({ id: p.slug, ...kitDates, birthYear: gedYear(rawBorn) ?? undefined, deathRecorded: !!rawDied || undefined, citations: [] }, { now: new Date().getFullYear(), sources: PS });
+if (KLIVE) throw new Error(`people/${p.slug}: the kit's living rule says this person is living but people.json does not (born ${rawBorn}, died ${rawDied}); decide it in tools/build-people.py, not here`);
+
+/* THE CHART'S ROWS. This archive marks the LINK: «register» is a record this archive has read, «tree» a family chart or user tree, unverified
+   (edgeLevel, the kit's default). The direct line is the kit's tint, from src/data/direct-line.json. */
+const relRow = (n, extra = {}) => ({
+  slug: n.slug || undefined, name: n.name,
+  href: n.slug ? u(`/people/${n.slug}/`) : undefined,
+  ...(n.living === true ? { saidLiving: true } : (() => { const s = spanOf(n.dates); return { born: s.born, died: s.died, birthYear: s.born ? Number(s.born) : undefined, deathRecorded: s.died ? true : undefined }; })()),
+  source: n.living === true ? "" : n.via === "tree" ? "tree" : "read",
+  ...extra });
+const parents = [p.father, p.mother].filter(Boolean);
+const spouses = p.spouses || [];
+const children = p.children || [];
+// The machine-indexed duplicate of Pablo Armando is the same man, not a brother.
+const siblings = (p.siblings || []).filter((s) => !/= Pablo Armando/.test(s.name));
+const RELATIONS = {
+  parents: parents.map((n) => relRow(n)),
+  spouses: spouses.map((n) => relRow(n, { mar: "married" })),
+  children: children.map((n) => relRow(n)),
+  siblings: siblings.map((n) => relRow(n)),
+};
+const KPERSON = living
+  ? { id: p.slug, slug: p.slug, name: p.name, saidLiving: true, town: p.town || "", country: p.country || "", relations: RELATIONS }
+  : { id: p.slug, slug: p.slug, name: p.name, ...kitDates, birthYear: gedYear(rawBorn) ?? undefined, deathRecorded: !!rawDied || undefined, relations: RELATIONS, citations: [] };
+
+const dupNames = (() => {
+  const seen = {}, dup = new Set();
+  children.concat(siblings).forEach((n) => { if (seen[n.name]) dup.add(n.name); seen[n.name] = 1; });
+  return [...dup];
+})();
+const nothing = !parents.length && !spouses.length && !children.length && !siblings.length;
+/* 195 of this archive's person pages drew no chart at all once, and a page that draws nothing tells a reader this archive knows nobody. What is
+   true is narrower, and this archive has its own word for it in `status`: unplaced, excluded, of interest. So the chart says which. */
+const emptyWhy = !nothing ? null :
+  p.status === "excluded"
+    ? "Nothing is drawn, and that is the finding rather than a gap: this person was checked and is not of this family. The reason is at the top of this page."
+  : p.status === "connected"
+    ? "This person is connected to the line, and no parent, spouse, child or sibling of theirs is named by any record here."
+    : "No record here names a parent, spouse, child or sibling for this person. This archive calls that unplaced: held, named, shown with the record "
+      + "that produced them, and not tied to a household on anything less.";
 
 const relTotal = p.relTotal || 0;
 const relReg = p.relRegister || 0;
 const relTree = p.relTree || 0;
+const slugifyName = (s) => String(s ?? "").normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^A-Za-z0-9]+/g, "-").replace(/^-+|-+$/g, "").toLowerCase();
+const DEK = lead(p.note) || (p.relOnly
+  ? "Named in this archive as someone's relative; nothing of their own has been read into it."
+  : "Everything this archive holds on this person, and the record that produced them.");
 ---
-<Base title={p.name} eyebrow={eyebrow} noindex={p.noindex} noAutolink
-      dek={living
-        ? "Named here with their relationships and their town and country, and nothing more."
-        : lead(p.note) || (p.relOnly
-            ? "Named in this archive as someone's relative; nothing of their own has been read into it."
-            : "Everything this archive holds on this person, and the record that produced them.")}>
+{living ? (
+<Base title={p.name} noindex noAutolink ownHeader dek="Named here with their relationships and their town and country, and nothing more.">
+  <PersonPage person={KPERSON} peopleHref={u("/people/")} nameHref={u(`/who/${slugifyName(p.name)}/`)} directLine={directLine} storyHref={u("/story/")} />
+</Base>
+) : (
+<Base title={p.name} noindex={p.noindex} noAutolink ownHeader dek={DEK}>
+  <PersonPage person={KPERSON} lede={DEK} peopleHref={u("/people/")} nameHref={u(`/who/${slugifyName(p.name)}/`)} registerHref={u("/register/") + "?q=" + encodeURIComponent(p.surname || p.name)}
+              directLine={directLine} storyHref={u("/story/")} emptyText={emptyWhy}>
 
-{/* On our direct line: the kit's quiet band, for the people in src/data/direct-line.json (made from the story) and nobody else */}
-<OursBand directLine={directLine} slug={p.slug} u={u} />
+    {/* THE CHART'S OWN NOTES: the same name twice in one row */}
+    <Fragment slot="chart-notes">
+      {dupNames.length > 0 && (
+        <p class="warn"><strong>More than one person here carries the same name</strong> &mdash; {dupNames.join(", ")}.
+          That is what the source says. <strong>This archive does not merge records on a name</strong>, so they are
+          drawn separately even where one duplicated entry is the likelier explanation.</p>
+      )}
+    </Fragment>
 
-<PersonTree p={p} />
-
-{living && <section class="blk">
-  <h2>Town and country</h2>
-  {townCountry
-    ? <p class="prose" style="margin-top:12px">{townCountry}</p>
-    : <p class="prose" style="margin-top:12px">No town is recorded for this person.</p>}
-  <p class="cap">A living person (80 or younger, with no death recorded) is named with their
-    relationships and their town and country, and nothing more.
-    <a href={u("/method/#living")}>The rule &rarr;</a></p>
-</section>}
-
-{!living && <section class="blk">
-  <div class="grid g2 pg2" style="margin-top:6px">
-    <div>
-      <h2 style="margin-top:0">What the record says</h2>
-      {says.length === 0 && <p class="prose" style="margin-top:16px">{p.relOnly
+    {/* WHAT THE RECORD SAYS */}
+    <Fragment slot="record">
+      {says.length === 0 && <p class="prose">{p.relOnly
         ? "No record of their own has been read into this archive: they are named as a relative, and the chart above is all it holds."
         : "The record holds a name and a relationship, and nothing more."}</p>}
-      <div class="rec" style="margin-top:16px">
+      <div class="rec">
         {says.map(([k, v, w]) => (<><div class="k">{k}</div>{k === "Birthplace" && bornEra
           ? <div class="v"><Fragment set:html={emph(v)} /><EraNote era={bornEra} /></div>
           : <div class="v" set:html={emph(v)} />}<div class="w">{w}</div></>))}
       </div>
       <div style="margin-top:18px"><Placement c={p.status} /></div>
-    </div>
+    </Fragment>
 
-    <div>
-      <h2 style="margin-top:0">Where this comes from</h2>
-      <div class="prose" style="margin-top:16px">
+    {/* WHERE THIS COMES FROM */}
+    <Fragment slot="sources">
+      <div class="prose">
         <p><strong set:html={emph(p.source)} /><br />
           {p.sourceUrl
             ? <a href={p.sourceUrl} rel="noopener">the record &#8599;</a>
             : <span class="cap">{p.noLink}</span>}</p>
         {relTotal > 0 && (
           <p>Of the {relTotal} relationship{relTotal === 1 ? "" : "s"} in the chart above, <strong>{relReg}</strong>
-            {relReg === 1 ? " is" : " are"} written in a record this archive has read
-            {relTree > 0
+            {relReg === 1 ? " is" : " are"} written in a record this archive has read{relTree > 0
               ? <> and <strong>{relTree}</strong> come{relTree === 1 ? "s" : ""} from a family chart or a
                   user-contributed tree, <strong>unverified</strong>.</>
-              : <>.</>}</p>
+              : "."}</p>
         )}
         {(p.godparents?.length || p.godchildren?.length) ? (
           <p><strong>At the font.</strong>
@@ -148,73 +219,73 @@ const relTree = p.relTree || 0;
             about them</strong>, set out below.</p>
         )}
       </div>
-    </div>
-  </div>
 
-  {hasEvidence && (
-    <div class="panel" style="border-left:3px solid var(--accent);margin:1.6rem 0">
-      <div class="lab">What has been read about this person</div>
-      {p.evidence.map((e) => (
-        <p style="margin:.7rem 0 0">
-          <span set:html={emph(e.says)} />
-          <br /><span class="cap">{e.source}{e.readOn ? ` \u00b7 read ${e.readOn}` : ""}</span>
-          {e.ark && <> <span class="cap" set:html={emph(e.ark)} /></>}
-        </p>
-      ))}
-      <p class="cap" style="margin:.9rem 0 0">Kept in <span class="mono">data/person-evidence.tsv</span>,
-        which the build reads and a gate refuses to skip. <strong>A record about a person belongs on that
-        person&rsquo;s page, not only on the page of the search that found it.</strong></p>
-    </div>
-  )}
-</section>}
+      {hasEvidence && (
+        <div class="panel" style="border-left:3px solid var(--accent);margin:1.6rem 0">
+          <div class="lab">What has been read about this person</div>
+          {p.evidence.map((e) => (
+            <p style="margin:.7rem 0 0">
+              <span set:html={emph(e.says)} />
+              <br /><span class="cap">{e.source}{e.readOn ? ` · read ${e.readOn}` : ""}</span>
+              {e.ark && <> <span class="cap" set:html={emph(e.ark)} /></>}
+            </p>
+          ))}
+          <p class="cap" style="margin:.9rem 0 0">Kept in <span class="mono">data/person-evidence.tsv</span>,
+            which the build reads and a gate refuses to skip. <strong>A record about a person belongs on that
+            person&rsquo;s page, not only on the page of the search that found it.</strong></p>
+        </div>
+      )}
+      <p class="cap">This page is generated from <span class="mono">data/lerena-register.tsv</span> and
+        <span class="mono">data/relations.tsv</span>, so it cannot fall out of step with the register or the
+        chart. <a href={u("/register/")}>All {total} entries &rarr;</a></p>
+    </Fragment>
 
-{!living && p.note && p.note.length > 160 && <section class="blk">
-  <h2>What is known</h2>
-  <div class="prose" style="margin-top:16px"><p set:html={emph(p.note)} /></div>
-</section>}
+    {docs.length > 0 && (
+      <Fragment slot="media">
+        <div class="pdocs">
+          {docs.map((d) => (
+            <figure class="doc">
+              <a href={u("/docs/" + d.file + ".jpg")}><img src={u("/docs/" + d.file + ".jpg")} alt={d.title} loading="lazy" /></a>
+              <figcaption><strong>{d.title}</strong><br /><span class="cap">{d.caption}</span></figcaption>
+            </figure>
+          ))}
+        </div>
+        <p class="cap">Click the image for the full scan. Every person named on a published document is dead; the
+          others are on <a href={u("/family-papers/")}>the papers page</a>.</p>
+      </Fragment>
+    )}
 
-{!living && docs.length > 0 && <section class="blk">
-  <h2>{docs.length === 1 ? "The document" : "The documents"}</h2>
-  <div class="pdocs">
-    {docs.map((d) => (
-      <figure class="doc">
-        <a href={u("/docs/" + d.file + ".jpg")}><img src={u("/docs/" + d.file + ".jpg")} alt={d.title} loading="lazy" /></a>
-        <figcaption><strong>{d.title}</strong><br /><span class="cap">{d.caption}</span></figcaption>
-      </figure>
-    ))}
-  </div>
-  <p class="cap">Click the image for the full scan. Every person named on a published document is dead; the
-    others are on <a href={u("/family-papers/")}>the papers page</a>.</p>
-</section>}
+    {(p.note && p.note.length > 160 || p.status === "connected" || p.status === "excluded") && (
+      <Fragment slot="notes">
+        {p.note && p.note.length > 160 && (
+          <div class="prose"><h3>What is known</h3><p set:html={emph(p.note)} /></div>
+        )}
+        {p.status === "connected" && (
+          <div class="note"><strong>This person is on the direct line, or married into it.</strong> Their place in
+            the descent, with the documents behind it, is set out on <a href={u("/direct-line/")}>the line</a>.</div>
+        )}
+        {p.status === "excluded" && (
+          <div class="note"><strong>Checked and ruled out.</strong> This person carries the surname but has been
+            shown not to belong to this family. They are kept here rather than deleted, because knowing which
+            candidates were eliminated &mdash; and why &mdash; is worth as much as knowing which survived.</div>
+        )}
+      </Fragment>
+    )}
 
-{!living && p.status === "connected" && <section class="blk">
-  <div class="note"><strong>This person is on the direct line, or married into it.</strong> Their place in
-    the descent, with the documents behind it, is set out on <a href={u("/direct-line/")}>the line</a>.</div>
-</section>}
-
-{!living && p.status === "excluded" && <section class="blk">
-  <div class="note"><strong>Checked and ruled out.</strong> This person carries the surname but has been
-    shown not to belong to this family. They are kept here rather than deleted, because knowing which
-    candidates were eliminated &mdash; and why &mdash; is worth as much as knowing which survived.</div>
-</section>}
-
-{!living && place && <section class="blk">
-  <h2>Where they were found</h2>
-  <a class="cardlink" href={u(`/places/${place.slug}/`)} style="max-width:560px">
-    <div class="nm">{place.name}</div>
-    <div class="txt">{place.count} {place.count === 1 ? "person" : "people"} of this surname recorded here</div>
-  </a>
-  {others.length > 0 && <p class="dek" style="margin-top:18px">Others recorded in the same place:
-    {others.slice(0, 12).map((o, i) => (<>{i ? " · " : " "}<a href={u(`/people/${o.slug}/`)}>{o.name}</a></>))}
-  </p>}
-</section>}
-
-<section class="blk">
-  <p class="cap">This page is generated from <span class="mono">data/lerena-register.tsv</span> and
-    <span class="mono">data/relations.tsv</span>, so it cannot fall out of step with the register or the
-    chart. <a href={u("/register/")}>All {total} entries &rarr;</a>
-    &nbsp;·&nbsp; <a href={u("/people/")}>&larr; All the people</a></p>
-</section>
+    {place && (
+      <PersonSection kind="more" title="Where they were found">
+        <a class="cardlink" href={u(`/places/${place.slug}/`)} style="max-width:560px">
+          <div class="nm">{place.name}</div>
+          <div class="txt">{place.count} {place.count === 1 ? "person" : "people"} of this surname recorded here</div>
+        </a>
+        {others.length > 0 && <p class="dek" style="margin-top:18px">Others recorded in the same place:
+          {others.slice(0, 12).map((o, i) => (<>{i ? " · " : " "}<a href={u(`/people/${o.slug}/`)}>{o.name}</a></>))}
+        </p>}
+      </PersonSection>
+    )}
+  </PersonPage>
+</Base>
+)}
 <style>
   .pdocs { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,380px),1fr)); gap:26px; margin-top:16px; align-items:start; }
   .pdocs .doc { margin:0; }
@@ -222,4 +293,3 @@ const relTree = p.relTree || 0;
                     background:#fff; border-radius:3px; }
   .pdocs .doc figcaption { margin-top:9px; font-size:.92rem; line-height:1.45; }
 </style>
-</Base>
