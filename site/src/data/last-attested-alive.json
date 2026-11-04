@@ -10015,5 +10015,54 @@
   "last_attested_alive": "1902-Apr-18",
   "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
   "tier": "ALIVE AT"
+ },
+ {
+  "name": "E. LERENA Cespedes (b. c.1880, Flores; d. 1897; Eustaquia)",
+  "born_est": "1880c",
+  "last_attested_alive": "1880c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "I. LERENA Cespedes (b. c.1890, d. 1893; Ireneo)",
+  "born_est": "1890c",
+  "last_attested_alive": "1890c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "J. LERENA Cespedes (b. c.1896, d. 1918; Jose, probably the Jose Esteban of 1917)",
+  "born_est": "1896c",
+  "last_attested_alive": "1917-Jan-27",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
+ },
+ {
+  "name": "C. LERENA Cespedes (named 1917; Casimira)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "I. LERENA Cespedes (named 1917; Irene)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "L. FERNANDEZ Lerena (b. c.1896, d. 1928; Luis)",
+  "born_est": "1896c",
+  "last_attested_alive": "1896c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "E. P. LERENA Rodriguez (b. 1905, d. 1992; Eldevira Petrona)",
+  "born_est": "1905-04-14",
+  "last_attested_alive": "1905-04-14",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]

@@ -2277,6 +2277,11 @@
        "tree": false
       },
       {
+       "slug": "l-fernandez-lerena",
+       "name": "L. FERNANDEZ Lerena (b. c.1896, d. 1928; Luis)",
+       "tree": false
+      },
+      {
        "slug": "maria-gregoria-dolores-fernandez",
        "name": "Maria Gregoria Dolores FERNANDEZ (b. 1886, Trinidad)",
        "tree": false
@@ -2471,6 +2476,11 @@
        "tree": false
       },
       {
+       "slug": "l-fernandez-lerena",
+       "name": "L. FERNANDEZ Lerena (b. c.1896, d. 1928; Luis)",
+       "tree": false
+      },
+      {
        "slug": "maria-gregoria-dolores-fernandez",
        "name": "Maria Gregoria Dolores FERNANDEZ (b. 1886, Trinidad)",
        "tree": false
@@ -2634,8 +2644,33 @@
      ],
      "children": [
       {
+       "slug": "c-lerena-cespedes",
+       "name": "C. LERENA Cespedes (named 1917; Casimira)",
+       "tree": false
+      },
+      {
+       "slug": "e-lerena-cespedes",
+       "name": "E. LERENA Cespedes (b. c.1880, Flores; d. 1897; Eustaquia)",
+       "tree": false
+      },
+      {
+       "slug": "i-lerena-cespedes",
+       "name": "I. LERENA Cespedes (b. c.1890, d. 1893; Ireneo)",
+       "tree": false
+      },
+      {
+       "slug": "i-lerena-cespedes-2",
+       "name": "I. LERENA Cespedes (named 1917; Irene)",
+       "tree": false
+      },
+      {
        "slug": "j-j-m-lerena-cespedes",
        "name": "J. J. M. LERENA Cespedes (b. 1901, Piedras Coloradas; Juan Jose Maria)",
+       "tree": false
+      },
+      {
+       "slug": "j-lerena-cespedes",
+       "name": "J. LERENA Cespedes (b. c.1896, d. 1918; Jose, probably the Jose Esteban of 1917)",
        "tree": false
       },
       {

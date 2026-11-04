@@ -196,6 +196,11 @@
   },
   "Paraguay": null,
   "Pernambuco, Brazil": null,
+  "Piedras Coloradas, Florida, Uruguay": {
+   "lat": -34.1,
+   "lon": -56.21,
+   "region": "uruguay"
+  },
   "Pintos, Flores": {
    "lat": -33.6,
    "lon": -56.85,
