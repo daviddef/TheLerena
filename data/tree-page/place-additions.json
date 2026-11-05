@@ -1,0 +1,41 @@
+{
+ "_about": "Place strings decided by hand, each with its reason and every coordinate taken from the Record Atlas's own place (never typed from memory). Merged over the seeded place map by tools/build-tree-page.py; a string already placed is left alone. Strings not here and not in data/era-ground.tsv are unresolved on purpose: see tree.report.json (unresolved_places).",
+ "places": {
+  "Madrid": {
+   "name": "Madrid",
+   "lat": 40.5,
+   "lon": -3.67,
+   "country": "Spain",
+   "iso": "ES",
+   "atlas_id": "madrid",
+   "how": "the string names no country; the Atlas has exactly one place called Madrid (Spain) and the one person born there is recorded with Spanish nationality in an arrival list (where found: arr. 1940); the Atlas's own point"
+  },
+  "Entre Rios": {
+   "name": "Entre Rios",
+   "lat": -32.12907,
+   "lon": -59.50777,
+   "country": "Argentina",
+   "iso": "AR",
+   "atlas_id": "entre-rios",
+   "how": "the string names a province and no country; the Atlas has exactly one place called Entre Rios (Argentina) and the two people born there are recorded with Argentine nationality and found at Gualeguaychu, Entre Rios; the Atlas's own point, which is the province's, not a town's"
+  },
+  "Transvaal": {
+   "name": "Transvaal",
+   "lat": -25.93634,
+   "lon": 28.08131,
+   "country": "South Africa",
+   "iso": "ZA",
+   "atlas_id": "transvaal",
+   "how": "the string names a region and no country; the Atlas has exactly one place called Transvaal (South Africa) and the four people born there are recorded with South African nationality and found at Johannesburg; the Atlas's own point, which is the region's, not a town's"
+  },
+  "Cape Province": {
+   "name": "Cape Province",
+   "lat": -33.11,
+   "lon": 22.0552,
+   "country": "South Africa",
+   "iso": "ZA",
+   "atlas_id": "cape-province",
+   "how": "the string names a province and no country; the Atlas has exactly one place called Cape Province (South Africa) and the one person born there is recorded with South African nationality, found at Cape Town / Johannesburg; the Atlas's own point, which is the province's, not a town's"
+  }
+ }
+}
