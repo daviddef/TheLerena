@@ -259,6 +259,28 @@
      "children": []
     },
     {
+     "slug": "maria-salome-lerena",
+     "name": "Maria Salome LERENA (b. 1847, Montevideo; daughter of Gil)",
+     "exact": false,
+     "status": "unplaced",
+     "born": "1847",
+     "died": "",
+     "where": "Montevideo · Oriental",
+     "source": "Montevideo, Iglesia Matriz (baptisms by the Cura Vicario del Cordon, coadjutor of the Cura Rector Jose Benito Lamas), baptism of 31 October 1847, ark 3:1:3Q9M-C9B7-YSNT-1 …",
+     "father": {
+      "slug": "gil-lerena",
+      "name": "Gil LERENA (m. Anastasia Santa Cruz)",
+      "tree": false
+     },
+     "mother": {
+      "slug": "anastasia-santa-cruz",
+      "name": "Anastasia SANTA CRUZ (m. Gil Lerena)",
+      "tree": false
+     },
+     "spouses": [],
+     "children": []
+    },
+    {
      "slug": "maria-del-carmen-fernandez-lerena",
      "name": "Maria del Carmen FERNANDEZ Lerena (b. 1857, Trinidad)",
      "exact": false,

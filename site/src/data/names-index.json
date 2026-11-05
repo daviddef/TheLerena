@@ -5126,6 +5126,13 @@
    "url": "/people/maria-rosalia-gonzalez-fernandez/"
   },
   {
+   "name": "Maria Salome Lerena",
+   "aliases": [
+    "María Salome Lerena"
+   ],
+   "url": "/people/maria-salome-lerena/"
+  },
+  {
    "name": "Maria Sara Cardozo",
    "aliases": [
     "María Sara Cardozo"
@@ -8615,6 +8622,13 @@
    "url": "/people/?q=Sibila%20Llerena",
    "bearers": [
     "/people/sibila-llerena/"
+   ]
+  },
+  {
+   "name": "Simon Lerena",
+   "url": "/people/?q=Simon%20Lerena",
+   "bearers": [
+    "/people/simon-lerena/"
    ]
   },
   {

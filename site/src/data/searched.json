@@ -6125,7 +6125,7 @@
   "src": "FamilySearch - Uruguay Catholic Church Records, Montevideo: the marriage of 15 January 1845 (Iglesia Matriz) and a baptism of 29 December 1850 (San Francisco de Asis), found by full-text search and read at the plate",
   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C9B7-R38V-4",
   "waypoint": null,
-  "what": "Lerena: the parents of a Lerena household at Trinidad, Flores, found in the Montevideo acts of his own marriage (1845) and his son's baptism (1850); the other children's baptisms read as machine text only",
+  "what": "Lerena: the parents of a Lerena household at Trinidad, Flores, found in the Montevideo acts of his own marriage (1845) and his son's baptism (1850); the other children's baptisms (1845-1848) are in the next row, read at the plate",
   "when": "2026-11-05",
   "outcome": "yield",
   "pages": "two entries read at the plate; no volume walked",
@@ -6138,5 +6138,23 @@
    "full-text"
   ],
   "note": "A FINDING ABOUT PARENTS, NOT A NIL AND NOT A WALK. The acts name the groom's father (dead by 1845) and mother, and the bride's parents; the groom's birthplace is Montevideo. The full-text searches that found them are not a complete scan of any volume, and no nil is written from them."
+ },
+ {
+  "src": "FamilySearch - full-text and record-index searches for a baptism of Gil Lerena (about 1815-1823) and a marriage of Fidel Lerena and Isidora Ysaurralde",
+  "url": "https://www.familysearch.org/search/full-text?q.text=%22Fidel%20Llerena%22",
+  "waypoint": null,
+  "what": "Lerena: the parents' own acts, which would show whether Gil's father Fidel is Sancho's son",
+  "when": "2026-11-05",
+  "outcome": "pending",
+  "pages": "search results only; no plate opened",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "uruguay",
+   "familysearch",
+   "full-text",
+   "record-index"
+  ],
+  "note": "A COVERAGE NULL ONLY, NOT A NIL. Full text: 'Fidel Llerena', 'Fidel Lerena', 'Fidel Serena', 'Fidel Gerena', 'Isidora Ysaurralde', 'Isidora Izaurralde' and 'Gil Fidel Isidora Llerena', the first 300-600 results of each, read for entries before 1845: no baptism of a Gil, no marriage of Fidel and Isidora; the only Uruguayan hits are a Cordon baptism of 1842 naming grandparents Fidel Lerena and Antolina Rodriguez and a Canelones baptism of January 1820 with a godfather Fidel Gerena and Juana Rios. Record index: the 100 best-ranked persons for Gil with Llerena, Lerena, Serena and Gerena: no Gil with parents Fidel and Isidora (the only match is the 1845 marriage itself, which names them). Larena, Lorena, Leresa, Lerina and Levena were not typed, so the catalogue's coverage check does not pass and no nil is written. The spouse and father parameters of the index endpoint were found to be ignored (the result total did not change), so the index was not narrowed by them."
  }
 ]

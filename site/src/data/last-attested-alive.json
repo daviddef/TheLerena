@@ -6364,8 +6364,8 @@
  },
  {
   "name": "Faustino LERENA (son of Gil, buried 1866)",
-  "born_est": "1844c",
-  "last_attested_alive": "1844c",
+  "born_est": "1845c",
+  "last_attested_alive": "1845c",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
@@ -10125,6 +10125,20 @@
   "name": "Isidora YSAURRALDE (wife of Fidel Lerena)",
   "born_est": "-",
   "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Simon LERENA (b. 1848, Montevideo; son of Gil)",
+  "born_est": "1848-10-28",
+  "last_attested_alive": "1848-10-28",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maria Salome LERENA (b. 1847, Montevideo; daughter of Gil)",
+  "born_est": "1847-10-22",
+  "last_attested_alive": "1847-10-22",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  }
