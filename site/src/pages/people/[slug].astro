@@ -5,7 +5,7 @@ import { u } from "../../lib/url.js";
 import people from "../../data/people.json";
 import personDocs from "../../data/person-documents.json";
 import places from "../../data/places.json";
-import { emph, plain, lead } from "../../lib/text.js";
+import { emph, pairEmph, plain, lead } from "../../lib/text.js";
 import EraNote from "@daviddef/archive-kit/components/EraNote.astro";
 import PersonPage from "@daviddef/archive-kit/components/PersonPage.astro";
 import PersonSection from "@daviddef/archive-kit/components/PersonSection.astro";
@@ -198,7 +198,7 @@ const CHART = STORYMODE ? "the family section above" : "the chart above";
       )}
     </Fragment>
 
-    {STORYMODE && <Fragment slot="story"><PersonStory stages={STORY} md={(x) => `<p>${emph(x)}</p>`} gradeSay={GRADE_SAY} u={u} /></Fragment>}
+    {STORYMODE && <Fragment slot="story"><PersonStory stages={STORY} md={(x) => `<p>${emph(pairEmph(x))}</p>`} gradeSay={GRADE_SAY} u={u} /></Fragment>}
     {STORYMODE && inRoots && <Fragment slot="where"><PersonRootsViews pid={p.slug} u={u} /></Fragment>}
 
     {/* WHAT THE RECORD SAYS */}

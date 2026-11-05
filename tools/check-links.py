@@ -80,7 +80,8 @@ for fp in html_files:
             target += "/"
         if target not in pages:
             bad.append((fp, h, "no such page"))
-        elif frag and frag not in ids[target]:
+        elif frag and "=" not in frag and frag not in ids[target]:
+            # a fragment with = in it (#hourglass&p=<id>) is the Roots & Routes viewer's state, read by its script, not an anchor (the kit's checkarchive treats it the same way)
             bad.append((fp, h, f"no id '{frag}' on {target}"))
 
 # A page that carries an id="contents" list promises to list every section on it.

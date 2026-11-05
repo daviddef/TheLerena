@@ -41,6 +41,19 @@ export function emph(s) {
   return arkify(md(s).replace(/"/g, "&quot;").replace(/'/g, "&#39;"));
 }
 
+/* A note that is one *** ... *** span is cut into paragraphs by the story layer ("Read on" folds), and the opening and closing
+   markers then land in different fragments, so emph() sees a lone *** and leaves it on the page (check-links: "unconverted ***",
+   5 November 2026, 4 pages). Close an opened span at the end of its fragment, and open a closed one at the start; a stray marker in
+   a fragment that neither opens nor closes is dropped. The words are never touched. */
+export function pairEmph(s) {
+  const t = String(s ?? "");
+  const n = (t.match(/\*\*\*/g) || []).length;
+  if (n % 2 === 0) return t;
+  if (/^\s*\*\*\*/.test(t)) return t + " ***";
+  if (/\*\*\*\s*$/.test(t)) return "*** " + t;
+  return t.replace(/\*\*\*/g, "");
+}
+
 /* For places that want the text with no markup at all - a title attribute, a meta
    description, the search index. */
 export function plain(s) {
