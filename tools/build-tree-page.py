@@ -15,9 +15,9 @@ WHAT IS FOLLOWED. A father, mother, spouse or child link is followed unless it r
 tools/build-lines.py do not follow one either. A birth year is the register's (a circa year is flagged as an estimate on the page); a person with no
 birth year is dated only from a parent, child or spouse who has one (the converter flags it) and is not drawn when none has.
 
-SEX is not held by this archive. It is taken from what the archive itself records: a person named as a father or a mother, a title (Don, Dona), or a first
-given name that the archive's own parent links show only as a father's or only as a mother's. Where none applies the viewer, which has two values, draws
-the person as 'm'; tree.report.json (adapter.sex_unknown) says how many that is.
+SEX is not held by this archive, and is never inferred from a given name. It is stated only where the register's own data states or entails it: a person
+named as a father or a mother in a parent link, or a title in the register's name (Don, Dona). Everyone else has no SEX line, the converter says 'u', and the
+viewer uses neutral words (parent, child, spouse, sibling, uncle or aunt); tree.report.json (adapter.sex_unknown_drawn) says how many that is.
 
 COLOUR is the surname of the person's name (the capitalised word of the register, the first when there are two), taken to its family in the Record Atlas
 catalogue (data/surname-families.json, read here, never copied): which spellings are one name is the catalogue's to say (surname-variants skill), and this
@@ -146,20 +146,14 @@ def infer_sex(people, par):
     for c, d in par.items():
         if d.get("father"): male.add(d["father"])
         if d.get("mother"): female.add(d["mother"])
-    # a first given name the archive's own parent links show as only a father's, or only a mother's
-    first = lambda p: (split_name(p["name"])[0].split(" ") or [""])[0].lower()
-    mn = collections.Counter(first(by[s]) for s in male if s in by); fn = collections.Counter(first(by[s]) for s in female if s in by)
     sex, how = {}, collections.Counter()
     for p in people:
         s = p["slug"]
-        if s in male and s not in female: sex[s] = "M"; how["a father in the register"] += 1; continue
-        if s in female and s not in male: sex[s] = "F"; how["a mother in the register"] += 1; continue
+        if s in male and s not in female: sex[s] = "M"; how["named as a father in the register"] += 1; continue
+        if s in female and s not in male: sex[s] = "F"; how["named as a mother in the register"] += 1; continue
         nm = clean_name(p["name"]).split(" ")[0]
-        if nm == "Don": sex[s] = "M"; how["the title Don"] += 1; continue
-        if nm in ("Dona", "Doña"): sex[s] = "F"; how["the title Dona"] += 1; continue
-        f = first(p)
-        if f and mn[f] and not fn[f]: sex[s] = "M"; how["the first given name is only ever a father's here"] += 1; continue
-        if f and fn[f] and not mn[f]: sex[s] = "F"; how["the first given name is only ever a mother's here"] += 1; continue
+        if nm == "Don": sex[s] = "M"; how["the title Don in the register's name"] += 1; continue
+        if nm in ("Dona", "Doña"): sex[s] = "F"; how["the title Dona in the register's name"] += 1; continue
     return sex, how
 
 def write_ged(people, par, spouses, sex, path):
@@ -288,6 +282,7 @@ def build(a):
     t = jl(tree)
     by = {p["slug"]: p for p in people}
     cat = catalogue(atlas)
+    pmap = jl(pm)
     fam_of = {}
     for s, p in by.items():
         w = surname_word(p["name"]); k = unicodedata.normalize("NFC", w).lower()
@@ -301,6 +296,8 @@ def build(a):
         p["line"] = key_i.get(fam_of[p["id"]][0], 7)
         p["page"] = "/people/%s/" % p["id"]
         g, sur = split_name(src["name"]); p["given"] = g; p["sur"] = sur
+        own = pmap.get(src.get("birthplace") or "")
+        if not (own and own.get("lat") is not None and own.get("name")): p["bpe"] = True      # drawn at a relative's birth place; the page marks it with an asterisk
         if circa(src.get("born")): p["bye"] = True
         if circa(src.get("died")) and p.get("dy") is not None: p["dye"] = True
     t["lines"] = [{"sur": label[k], "host": HOST} for k in top] + [{"sur": "Other", "host": HOST}]
@@ -315,7 +312,7 @@ def build(a):
         "not_drawn_possibly_living_or_undated_without_a_death": rep["living"],
         "not_drawn_no_birth_year_even_from_kin": len(people) - rep["living"] - rep["dropped_unplaced"] - rep["kept"],
         "not_drawn_no_place_of_their_own_or_a_relatives": rep["dropped_unplaced"],
-        "drawn_at_a_relatives_birth_place": rep["placed_from_relative"],
+        "drawn_at_a_relatives_birth_place": rep["placed_from_relative"], "bpe_flagged": sum(1 for p in t["people"] if p.get("bpe")),
         "drawn_at_a_country_only": sum(1 for p in t["people"] if p.get("bp") in COUNTRY_ONLY), "sex_from_the_register": len(sex), "sex_unknown_total": len(people) - len(sex),
         "sex_unknown_drawn": sum(1 for p in t["people"] if sex.get(p["id"]) is None), "sex_how": dict(sexhow),
         "people_with_a_circa_birth_year": sum(1 for p in t["people"] if p.get("bye")),

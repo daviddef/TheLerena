@@ -44,17 +44,16 @@
   "not_drawn_no_birth_year_even_from_kin": 3,
   "not_drawn_no_place_of_their_own_or_a_relatives": 74,
   "drawn_at_a_relatives_birth_place": 105,
+  "bpe_flagged": 105,
   "drawn_at_a_country_only": 277,
-  "sex_from_the_register": 1039,
-  "sex_unknown_total": 416,
-  "sex_unknown_drawn": 261,
+  "sex_from_the_register": 443,
+  "sex_unknown_total": 1012,
+  "sex_unknown_drawn": 652,
   "sex_how": {
-   "a father in the register": 209,
-   "a mother in the register": 210,
-   "the first given name is only ever a mother's here": 271,
-   "the first given name is only ever a father's here": 325,
-   "the title Don": 12,
-   "the title Dona": 12
+   "named as a father in the register": 209,
+   "named as a mother in the register": 210,
+   "the title Don in the register's name": 12,
+   "the title Dona in the register's name": 12
   },
   "people_with_a_circa_birth_year": 418,
   "place_strings_standing_in_for_a_department_or_section": [
