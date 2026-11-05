@@ -2,7 +2,7 @@
 
 Ten views of every person in the register who has died and has a page of their own: hourglass, fan, whole-tree and close-family maps, Atlas map, movements,
 kinship, place lanes, eras, lifespans, an Orphans tab, a Surnames view and the five animated views (Night sky, Ink ledger, Household, Generations, Where they
-lived). It is served at `/roots/`, and bare at `/roots/view.html` for frames (the kit's `PersonRootsViews`, which this archive's person page cannot use yet: see below).
+lived). It is served at `/roots/`, and bare at `/roots/view.html` for frames (the kit's `PersonRootsViews`, used by the person pages: see below).
 
 | File | What it is | Edit by hand? |
 |---|---|---|
@@ -36,11 +36,12 @@ Needs the Record Atlas checkout (`RECORD_ATLAS`, default `~/Projects/Family Proj
   itself names. A string the archive qualifies (presumed, probably, from a tree) is never placed. Where era-towns.tsv's point stands for a department or section, the page says the
   department's town or the department (`how` in `place_map.json`). A person whose own place is not resolved is drawn at a parent's, spouse's or child's birth place, or not drawn.
 - **Colour** is the surname family in the Record Atlas catalogue (`data/surname-families.json`, read at build, never copied); a surname the catalogue does not hold is its own colour.
-- **Sex** is not held by the register. It is taken from a father/mother role, a title (Don, Dona), or a first given name that the register's own parent links show only as a father's or only as a mother's; otherwise the viewer's two-value default ('m') is used, and `adapter.sex_unknown_drawn` says how many.
+- **Sex** is not held by the register and is never inferred from a name: it is taken only from a father/mother role or a title (Don, Dona); everyone else is `u` and the viewer uses neutral words. `adapter.sex_unknown_drawn` says how many. A person placed at a relative's birth place has `bpe` and the page marks it with an asterisk.
 - **Two lives that cannot be one** (died before born, or over 110 years) are not drawn and are listed under `conflicts`.
 
 ## The person page
 
-`site/src/pages/people/[slug].astro` is the kit's `PersonPage` in chart mode. The kit's `where` slot (where `PersonRootsViews` goes) is drawn only in story mode, and this
-archive has no person in story mode, so the embed is not wired. When a person gets a story, pass `<PersonRootsViews pid=...>` in the `where` slot for the ids in
-`site/public/roots-links.json` (the people the page draws), as the Blažević archive does.
+`site/src/pages/people/[slug].astro` is the kit's `PersonPage`. A page whose story has anything to tell (a named parent or grandparent, a brother or sister, a child, or a note over 160
+characters) is in **story mode**: the family is the first stop of the story (`site/src/lib/storyfam.js` shapes `people.json` for the kit's `familyOf`), the note is one card, word for
+word, and `PersonRootsViews` ("Where they lived, and what is still missing") is in the `where` slot for every person in `site/public/roots-links.json` (the people this page draws). A page
+with nothing to tell stays a chart; a living page is never in story mode. This archive writes emphasis as `***`, not as a `**bold lead**`, so `chaptersOf` cuts each note into one card.
