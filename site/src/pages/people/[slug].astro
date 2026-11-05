@@ -13,6 +13,11 @@ import "@daviddef/archive-kit/styles/persontree.css";
 import "@daviddef/archive-kit/styles/personpage.css";
 import PS from "@daviddef/archive-kit/data/public-sources.json";
 import { isLiving as isLivingKit, lifespan as kitLifespan } from "@daviddef/archive-kit/lib/person.js";
+import PersonStory from "@daviddef/archive-kit/components/PersonStory.astro";
+import PersonRootsViews from "@daviddef/archive-kit/components/PersonRootsViews.astro";
+import { chaptersOf, familyOf, ancestryOf, famNode, storyOf, hasStory, GRADE_SAY } from "@daviddef/archive-kit/lib/personstory.js";
+import rootsLinks from "../../../public/roots-links.json";
+import { byId } from "../../lib/storyfam.js";
 import directLine from "../../data/direct-line.json";
 import { birthEra } from "../../lib/eraYear.js";
 import eraSnapshot from "../../data/era-snapshot.json";
@@ -143,6 +148,37 @@ const slugifyName = (s) => String(s ?? "").normalize("NFD").replace(/[̀-ͯ]/g, 
 const DEK = lead(p.note) || (p.relOnly
   ? "Named in this archive as someone's relative; nothing of their own has been read into it."
   : "Everything this archive holds on this person, and the record that produced them.");
+
+/* STORY MODE (kit PERSON-PAGE-SPEC.md 2a; David, 5 November 2026: every person page tells the life where there is something to tell). A page is in story
+   mode when its story holds anything beyond «no parent is named»: a named parent or grandparent, a brother or sister, a child, or a note of the
+   archive's own. Then the chart is not drawn and the family is the first stop of the story, «Where they came from» (#family); the brothers and sisters
+   stand in the Birth stop, the children in «What they left behind», and the note, word for word, as the Life (or, where it is about the archive and not
+   the life, the quiet «About this record»). A page with nothing to tell stays a chart. A living person's page is never in story mode.
+   THE FAMILY is read from people.json by the kit's familyOf, through the kit's living rule: a living relative is a name and a relationship and nothing
+   else, a held-out one is not there at all (people.json already leaves them out of every relation). A link that rests only on a family tree is marked as
+   that, as the chart marked it. Spouses are not a stop of the kit's story, so they are rows of «What the record says». The note is the register's own
+   (any note over 160 characters, the same notes «What is known» printed); this archive writes its emphasis as *** and not as a **bold lead**, so
+   chaptersOf finds no lead to cut at and each note is one card, with nothing rewritten. */
+const RULE = { now: new Date().getFullYear(), sources: PS };
+const VIA = {};
+for (const n of [p.father, p.mother, ...spouses, ...children, ...siblings]) if (n && n.slug) VIA[n.slug] = n.via;
+const mark = (n) => { if (n && n.id && VIA[n.id] !== undefined) n.link = { grade: VIA[n.id] === "tree" ? "tree" : "doc" }; };
+const FAM = living ? null : familyOf(byId, p.slug, RULE);
+if (FAM) {
+  // a brother or sister the register names but no shared parent shows: add them, by the same rule
+  const have = new Set(FAM.siblings.map((x) => x.id));
+  for (const sb of siblings) if (sb.slug && byId[sb.slug] && !have.has(sb.slug)) { const nd = famNode(byId, sb.slug, "Brother or sister", "", RULE); if (nd) { FAM.siblings.push(nd); have.add(sb.slug); } }
+  FAM.siblings.sort((a, b) => (byId[a.id].by || 9999) - (byId[b.id].by || 9999));
+  for (const list of [FAM.parents, FAM.siblings, FAM.children, FAM.spouses]) list.forEach(mark);
+}
+const THREADS = FAM ? ancestryOf(byId, p.slug, null, RULE) : [];
+const CHAPTERS = !living && p.note && p.note.length > 160 ? chaptersOf(p.note, "") : [];
+const STORY = FAM ? storyOf(CHAPTERS, FAM, [], { b: kitDates.born || "", d: kitDates.died || "" }, THREADS) : [];
+const STORYMODE = !living && hasStory(STORY);
+const inRoots = !living && (rootsLinks.people || []).includes(p.slug);
+const spouseNodes = STORYMODE ? FAM.spouses : [];
+/* the sentences below point at the family; with no chart on a story page they say so (the only words of this page that change with the mode) */
+const CHART = STORYMODE ? "the family section above" : "the chart above";
 ---
 {living ? (
 <Base title={p.name} noindex noAutolink ownHeader dek="Named here with their relationships and their town and country, and nothing more.">
@@ -162,6 +198,9 @@ const DEK = lead(p.note) || (p.relOnly
       )}
     </Fragment>
 
+    {STORYMODE && <Fragment slot="story"><PersonStory stages={STORY} md={(x) => `<p>${emph(x)}</p>`} gradeSay={GRADE_SAY} u={u} /></Fragment>}
+    {STORYMODE && inRoots && <Fragment slot="where"><PersonRootsViews pid={p.slug} u={u} /></Fragment>}
+
     {/* WHAT THE RECORD SAYS */}
     <Fragment slot="record">
       {says.length === 0 && <p class="prose">{p.relOnly
@@ -172,6 +211,13 @@ const DEK = lead(p.note) || (p.relOnly
           ? <div class="v"><Fragment set:html={emph(v)} /><EraNote era={bornEra} /></div>
           : <div class="v" set:html={emph(v)} />}<div class="w">{w}</div></>))}
       </div>
+      {spouseNodes.length > 0 && (
+        <div class="rec">
+          <div class="k">{spouseNodes.length === 1 ? "Married to" : "Married to (each)"}</div>
+          <div class="v">{spouseNodes.map((n, i) => (<>{i ? "; " : ""}{n.href ? <a href={u(n.href)}>{n.name}</a> : n.name}{n.dates ? ` (${n.dates})` : ""}</>))}</div>
+          <div class="w">{spouseNodes.every((n) => n.link && n.link.grade === "doc") ? "written in a record this archive has read" : spouseNodes.every((n) => n.link && n.link.grade === "tree") ? "from a family chart or user tree, unverified" : "see each: some from a record, some from a tree"}</div>
+        </div>
+      )}
       <div style="margin-top:18px"><Placement c={p.status} /></div>
     </Fragment>
 
@@ -183,7 +229,7 @@ const DEK = lead(p.note) || (p.relOnly
             ? <a href={p.sourceUrl} rel="noopener">the record &#8599;</a>
             : <span class="cap">{p.noLink}</span>}</p>
         {relTotal > 0 && (
-          <p>Of the {relTotal} relationship{relTotal === 1 ? "" : "s"} in the chart above, <strong>{relReg}</strong>
+          <p>Of the {relTotal} relationship{relTotal === 1 ? "" : "s"} in {CHART}, <strong>{relReg}</strong>
             {relReg === 1 ? " is" : " are"} written in a record this archive has read{relTree > 0
               ? <> and <strong>{relTree}</strong> come{relTree === 1 ? "s" : ""} from a family chart or a
                   user-contributed tree, <strong>unverified</strong>.</>
@@ -203,7 +249,7 @@ const DEK = lead(p.note) || (p.relOnly
                   <>{i ? ", " : ""}<a href={u(`/people/${g.slug}/`)}>{g.name}</a></>
                 ))}.</>
             ) : null}
-            {" "}<span class="cap">Godparent ties are not drawn in the chart above &mdash; it shows
+            {" "}<span class="cap">Godparent ties are not drawn in {CHART} &mdash; it shows
             parents, spouses, children and siblings &mdash; but this family chose godparents from inside
             itself often enough that the pattern is evidence in its own right.</span></p>
         ) : null}
@@ -213,7 +259,7 @@ const DEK = lead(p.note) || (p.relOnly
             unplaced.</p>
         )}
         {relTotal === 0 && hasEvidence && (
-          <p><strong>The chart above is empty, and that is not the whole story.</strong> No relationship
+          <p><strong>{STORYMODE ? "No relationship is drawn above" : "The chart above is empty"}, and that is not the whole story.</strong> No relationship
             has been written into the register for this person yet &mdash; but
             <strong>{p.evidence.length} record{p.evidence.length === 1 ? " has" : "s have"} been read
             about them</strong>, set out below.</p>
@@ -255,9 +301,14 @@ const DEK = lead(p.note) || (p.relOnly
       </Fragment>
     )}
 
-    {(p.note && p.note.length > 160 || p.status === "connected" || p.status === "excluded") && (
+    {(p.note && p.note.length > 160 || p.status === "connected" || p.status === "excluded" || (STORYMODE && dupNames.length > 0)) && (
       <Fragment slot="notes">
-        {p.note && p.note.length > 160 && (
+        {STORYMODE && dupNames.length > 0 && (
+          <p class="warn"><strong>More than one person here carries the same name</strong> &mdash; {dupNames.join(", ")}.
+            That is what the source says. <strong>This archive does not merge records on a name</strong>, so they are
+            drawn separately even where one duplicated entry is the likelier explanation.</p>
+        )}
+        {p.note && p.note.length > 160 && !STORYMODE && (
           <div class="prose"><h3>What is known</h3><p set:html={emph(p.note)} /></div>
         )}
         {p.status === "connected" && (

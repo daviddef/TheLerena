@@ -1,0 +1,972 @@
+{
+ "Artigas, Uruguay": {
+  "name": "Artigas",
+  "lat": -30.4,
+  "lon": -56.47,
+  "country": "Uruguay",
+  "iso": "UY",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: the city (San Eugenio del Cuareim is its old name); stands for the department); country by the Atlas's geo.country_of"
+ },
+ "Bideford, Devon": {
+  "name": "Bideford",
+  "lat": 51.02,
+  "lon": -4.21,
+  "country": "United Kingdom",
+  "iso": "GB",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand); country by the Atlas's geo.country_of"
+ },
+ "Bloemfontein": {
+  "name": "Bloemfontein",
+  "lat": -29.12,
+  "lon": 26.21,
+  "country": "South Africa",
+  "iso": "ZA",
+  "atlas_id": "bloemfontein",
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand); country by the Atlas's geo.country_of"
+ },
+ "Buenos Aires": {
+  "name": "Buenos Aires",
+  "lat": -34.6,
+  "lon": -58.38,
+  "country": "Argentina",
+  "iso": "AR",
+  "atlas_id": "buenos-aires",
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: the city); country by the Atlas's geo.country_of"
+ },
+ "Buenos Aires, Argentina": {
+  "name": "Buenos Aires",
+  "lat": -34.6,
+  "lon": -58.38,
+  "country": "Argentina",
+  "iso": "AR",
+  "atlas_id": "buenos-aires",
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: the city); country by the Atlas's geo.country_of"
+ },
+ "Canelones": {
+  "name": "Canelones",
+  "lat": -34.52,
+  "lon": -56.28,
+  "country": "Uruguay",
+  "iso": "UY",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: the city (Guadalupe de Canelones); stands for a string that names the department); country by the Atlas's geo.country_of"
+ },
+ "Canelones (\"el Canelon\")": {
+  "name": "Canelones",
+  "lat": -34.52,
+  "lon": -56.28,
+  "country": "Uruguay",
+  "iso": "UY",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: the city (Guadalupe de Canelones); stands for a string that names the department); country by the Atlas's geo.country_of"
+ },
+ "Cape Town": {
+  "name": "Cape Town",
+  "lat": -33.92,
+  "lon": 18.42,
+  "country": "South Africa",
+  "iso": "ZA",
+  "atlas_id": "cape-town",
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand); country by the Atlas's geo.country_of"
+ },
+ "Capital Federal, Buenos Aires, Argentina": {
+  "name": "Buenos Aires",
+  "lat": -34.6,
+  "lon": -58.38,
+  "country": "Argentina",
+  "iso": "AR",
+  "atlas_id": "buenos-aires",
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: the city); country by the Atlas's geo.country_of"
+ },
+ "Cerro Largo": {
+  "name": "Melo",
+  "lat": -32.37,
+  "lon": -54.17,
+  "country": "Uruguay",
+  "iso": "UY",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: the capital of Cerro Largo; stands for the department); country by the Atlas's geo.country_of"
+ },
+ "Cerro Largo, Uruguay": {
+  "name": "Melo",
+  "lat": -32.37,
+  "lon": -54.17,
+  "country": "Uruguay",
+  "iso": "UY",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: the capital of Cerro Largo; stands for the department); country by the Atlas's geo.country_of"
+ },
+ "Ciudad de Buenos Aires, Argentina": {
+  "name": "Buenos Aires",
+  "lat": -34.6,
+  "lon": -58.38,
+  "country": "Argentina",
+  "iso": "AR",
+  "atlas_id": "buenos-aires",
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: the city); country by the Atlas's geo.country_of"
+ },
+ "Colla (Rosario, Colonia)": {
+  "name": "Rosario (Colonia)",
+  "lat": -34.32,
+  "lon": -57.35,
+  "country": "Uruguay",
+  "iso": "UY",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: Rosario in the department of Colonia, Uruguay (Colla is in its municipality)); country by the Atlas's geo.country_of"
+ },
+ "Colon, Montevideo, Uruguay": {
+  "name": "Colon (Montevideo)",
+  "lat": -34.8,
+  "lon": -56.23,
+  "country": "Uruguay",
+  "iso": "UY",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: the barrio); country by the Atlas's geo.country_of"
+ },
+ "Colonia del Sacramento, Uruguay": {
+  "name": "Colonia del Sacramento",
+  "lat": -34.47,
+  "lon": -57.84,
+  "country": "Uruguay",
+  "iso": "UY",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand); country by the Atlas's geo.country_of"
+ },
+ "Cordon, Montevideo": {
+  "name": "Montevideo",
+  "lat": -34.9,
+  "lon": -56.19,
+  "country": "Uruguay",
+  "iso": "UY",
+  "atlas_id": "montevideo",
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: the city; stands for its barrios and its streets); country by the Atlas's geo.country_of"
+ },
+ "Cuchilla de Villas Boas, Flores, Uruguay": {
+  "name": "Flores",
+  "lat": -33.6,
+  "lon": -56.85,
+  "country": "Uruguay",
+  "iso": "UY",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: the middle of the department, which is wholly inland; stands for its sections and localities); country by the Atlas's geo.country_of"
+ },
+ "Durazno, Uruguay": {
+  "name": "Durazno",
+  "lat": -33.38,
+  "lon": -56.52,
+  "country": "Uruguay",
+  "iso": "UY",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: the city (San Pedro del Durazno)); country by the Atlas's geo.country_of"
+ },
+ "Departamento San Jose, Uruguay": {
+  "name": "San Jose de Mayo",
+  "lat": -34.34,
+  "lon": -56.71,
+  "country": "Uruguay",
+  "iso": "UY",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: the capital of San Jose; stands for the department); country by the Atlas's geo.country_of"
+ },
+ "Flores, Uruguay": {
+  "name": "Flores",
+  "lat": -33.6,
+  "lon": -56.85,
+  "country": "Uruguay",
+  "iso": "UY",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: the middle of the department, which is wholly inland; stands for its sections and localities); country by the Atlas's geo.country_of"
+ },
+ "Haddington, East Lothian": {
+  "name": "Haddington",
+  "lat": 55.96,
+  "lon": -2.78,
+  "country": "United Kingdom",
+  "iso": "GB",
+  "atlas_id": "haddington",
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand); country by the Atlas's geo.country_of"
+ },
+ "Holborn, London": {
+  "name": "Holborn",
+  "lat": 51.52,
+  "lon": -0.12,
+  "country": "United Kingdom",
+  "iso": "GB",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand); country by the Atlas's geo.country_of"
+ },
+ "Johannesburg": {
+  "name": "Johannesburg",
+  "lat": -26.2,
+  "lon": 28.04,
+  "country": "South Africa",
+  "iso": "ZA",
+  "atlas_id": "johannesburg",
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand); country by the Atlas's geo.country_of"
+ },
+ "La Plata, Buenos Aires, Argentina": {
+  "name": "La Plata",
+  "lat": -34.92,
+  "lon": -57.95,
+  "country": "Argentina",
+  "iso": "AR",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand); country by the Atlas's geo.country_of"
+ },
+ "Montevideo": {
+  "name": "Montevideo",
+  "lat": -34.9,
+  "lon": -56.19,
+  "country": "Uruguay",
+  "iso": "UY",
+  "atlas_id": "montevideo",
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: the city; stands for its barrios and its streets); country by the Atlas's geo.country_of"
+ },
+ "Montevideo, calle Yi 303": {
+  "name": "Montevideo",
+  "lat": -34.9,
+  "lon": -56.19,
+  "country": "Uruguay",
+  "iso": "UY",
+  "atlas_id": "montevideo",
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: the city; stands for its barrios and its streets); country by the Atlas's geo.country_of"
+ },
+ "Montevideo, Uruguay": {
+  "name": "Montevideo",
+  "lat": -34.9,
+  "lon": -56.19,
+  "country": "Uruguay",
+  "iso": "UY",
+  "atlas_id": "montevideo",
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: the city; stands for its barrios and its streets); country by the Atlas's geo.country_of"
+ },
+ "Northam, Devon": {
+  "name": "Bideford",
+  "lat": 51.02,
+  "lon": -4.21,
+  "country": "United Kingdom",
+  "iso": "GB",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand); country by the Atlas's geo.country_of"
+ },
+ "Pintos, Flores": {
+  "name": "Flores",
+  "lat": -33.6,
+  "lon": -56.85,
+  "country": "Uruguay",
+  "iso": "UY",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: the middle of the department, which is wholly inland; stands for its sections and localities); country by the Atlas's geo.country_of"
+ },
+ "Rivera, Uruguay": {
+  "name": "Rivera",
+  "lat": -30.9,
+  "lon": -55.55,
+  "country": "Uruguay",
+  "iso": "UY",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand); country by the Atlas's geo.country_of"
+ },
+ "Rosario": {
+  "name": "Rosario (Santa Fe)",
+  "lat": -32.95,
+  "lon": -60.65,
+  "country": "Argentina",
+  "iso": "AR",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: Rosario on the Parana); country by the Atlas's geo.country_of"
+ },
+ "Rosario / Colla, Colonia": {
+  "name": "Rosario (Colonia)",
+  "lat": -34.32,
+  "lon": -57.35,
+  "country": "Uruguay",
+  "iso": "UY",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: Rosario in the department of Colonia, Uruguay (Colla is in its municipality)); country by the Atlas's geo.country_of"
+ },
+ "Rosario, Argentina": {
+  "name": "Rosario (Santa Fe)",
+  "lat": -32.95,
+  "lon": -60.65,
+  "country": "Argentina",
+  "iso": "AR",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: Rosario on the Parana); country by the Atlas's geo.country_of"
+ },
+ "Rosario, COLONIA, URUGUAY": {
+  "name": "Rosario (Colonia)",
+  "lat": -34.32,
+  "lon": -57.35,
+  "country": "Uruguay",
+  "iso": "UY",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: Rosario in the department of Colonia, Uruguay (Colla is in its municipality)); country by the Atlas's geo.country_of"
+ },
+ "Rosario, Santa Fe": {
+  "name": "Rosario (Santa Fe)",
+  "lat": -32.95,
+  "lon": -60.65,
+  "country": "Argentina",
+  "iso": "AR",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: Rosario on the Parana); country by the Atlas's geo.country_of"
+ },
+ "San Cristobal, Buenos Aires, Argentina": {
+  "name": "Buenos Aires",
+  "lat": -34.6,
+  "lon": -58.38,
+  "country": "Argentina",
+  "iso": "AR",
+  "atlas_id": "buenos-aires",
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: the city); country by the Atlas's geo.country_of"
+ },
+ "San Eugenio, Artigas, Uruguay": {
+  "name": "Artigas",
+  "lat": -30.4,
+  "lon": -56.47,
+  "country": "Uruguay",
+  "iso": "UY",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: the city (San Eugenio del Cuareim is its old name); stands for the department); country by the Atlas's geo.country_of"
+ },
+ "San Jose de Mayo, San Jose, Uruguay": {
+  "name": "San Jose de Mayo",
+  "lat": -34.34,
+  "lon": -56.71,
+  "country": "Uruguay",
+  "iso": "UY",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: the capital of San Jose; stands for the department); country by the Atlas's geo.country_of"
+ },
+ "San Jose de Mayo, Uruguay": {
+  "name": "San Jose de Mayo",
+  "lat": -34.34,
+  "lon": -56.71,
+  "country": "Uruguay",
+  "iso": "UY",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: the capital of San Jose; stands for the department); country by the Atlas's geo.country_of"
+ },
+ "San Jose, Uruguay": {
+  "name": "San Jose de Mayo",
+  "lat": -34.34,
+  "lon": -56.71,
+  "country": "Uruguay",
+  "iso": "UY",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: the capital of San Jose; stands for the department); country by the Atlas's geo.country_of"
+ },
+ "San Pedro del Durazno, Uruguay": {
+  "name": "Durazno",
+  "lat": -33.38,
+  "lon": -56.52,
+  "country": "Uruguay",
+  "iso": "UY",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: the city (San Pedro del Durazno)); country by the Atlas's geo.country_of"
+ },
+ "Santisima Trinidad, Flores, Uruguay": {
+  "name": "Trinidad (Flores)",
+  "lat": -33.54,
+  "lon": -56.9,
+  "country": "Uruguay",
+  "iso": "UY",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: Santisima Trinidad, the capital of Flores); country by the Atlas's geo.country_of"
+ },
+ "Sarandi, El Tala, Flores, Uruguay": {
+  "name": "Flores",
+  "lat": -33.6,
+  "lon": -56.85,
+  "country": "Uruguay",
+  "iso": "UY",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: the middle of the department, which is wholly inland; stands for its sections and localities); country by the Atlas's geo.country_of"
+ },
+ "Sexta Seccion, Flores, Uruguay": {
+  "name": "Flores",
+  "lat": -33.6,
+  "lon": -56.85,
+  "country": "Uruguay",
+  "iso": "UY",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: the middle of the department, which is wholly inland; stands for its sections and localities); country by the Atlas's geo.country_of"
+ },
+ "St Andrew, Holborn, London": {
+  "name": "Holborn",
+  "lat": 51.52,
+  "lon": -0.12,
+  "country": "United Kingdom",
+  "iso": "GB",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand); country by the Atlas's geo.country_of"
+ },
+ "St Bartholomew's, City of London": {
+  "name": "Holborn",
+  "lat": 51.52,
+  "lon": -0.12,
+  "country": "United Kingdom",
+  "iso": "GB",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand); country by the Atlas's geo.country_of"
+ },
+ "Trinidad, Flores": {
+  "name": "Trinidad (Flores)",
+  "lat": -33.54,
+  "lon": -56.9,
+  "country": "Uruguay",
+  "iso": "UY",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: Santisima Trinidad, the capital of Flores); country by the Atlas's geo.country_of"
+ },
+ "Trinidad, Flores, Uruguay": {
+  "name": "Trinidad (Flores)",
+  "lat": -33.54,
+  "lon": -56.9,
+  "country": "Uruguay",
+  "iso": "UY",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: Santisima Trinidad, the capital of Flores); country by the Atlas's geo.country_of"
+ },
+ "Villa del Rosario, Colonia, Uruguay": {
+  "name": "Rosario (Colonia)",
+  "lat": -34.32,
+  "lon": -57.35,
+  "country": "Uruguay",
+  "iso": "UY",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: Rosario in the department of Colonia, Uruguay (Colla is in its municipality)); country by the Atlas's geo.country_of"
+ },
+ "West Leigh by Coldridge, Devon": {
+  "name": "West Leigh",
+  "lat": 50.87,
+  "lon": -3.95,
+  "country": "United Kingdom",
+  "iso": "GB",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: Coldridge parish); country by the Atlas's geo.country_of"
+ },
+ "Worlingworth, Suffolk": {
+  "name": "Worlingworth",
+  "lat": 52.28,
+  "lon": 1.3,
+  "country": "United Kingdom",
+  "iso": "GB",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand); country by the Atlas's geo.country_of"
+ },
+ "Canelones, Uruguay": {
+  "name": "Canelones",
+  "lat": -34.52,
+  "lon": -56.28,
+  "country": "Uruguay",
+  "iso": "UY",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: the city (Guadalupe de Canelones); stands for a string that names the department); country by the Atlas's geo.country_of"
+ },
+ "Chamanga, Flores, Uruguay": {
+  "name": "Flores",
+  "lat": -33.6,
+  "lon": -56.85,
+  "country": "Uruguay",
+  "iso": "UY",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: the middle of the department, which is wholly inland; stands for its sections and localities); country by the Atlas's geo.country_of"
+ },
+ "Pintos, Flores, Uruguay": {
+  "name": "Flores",
+  "lat": -33.6,
+  "lon": -56.85,
+  "country": "Uruguay",
+  "iso": "UY",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: the middle of the department, which is wholly inland; stands for its sections and localities); country by the Atlas's geo.country_of"
+ },
+ "Salto, Uruguay": {
+  "name": "Salto",
+  "lat": -31.39,
+  "lon": -57.97,
+  "country": "Uruguay",
+  "iso": "UY",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: the city of Salto, the capital of the department; stands for a string that names the department); country by the Atlas's geo.country_of"
+ },
+ "Florida, Uruguay": {
+  "name": "Florida",
+  "lat": -34.1,
+  "lon": -56.21,
+  "country": "Uruguay",
+  "iso": "UY",
+  "atlas_id": "florida-uy",
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: the city of Florida, the capital of the department; stands for a string that names the department); country by the Atlas's geo.country_of"
+ },
+ "La Guardia, Flores, Uruguay": {
+  "name": "Flores",
+  "lat": -33.6,
+  "lon": -56.85,
+  "country": "Uruguay",
+  "iso": "UY",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: the middle of the department, which is wholly inland; stands for its sections and localities); country by the Atlas's geo.country_of"
+ },
+ "Castro, Florida, Uruguay": {
+  "name": "Florida",
+  "lat": -34.1,
+  "lon": -56.21,
+  "country": "Uruguay",
+  "iso": "UY",
+  "atlas_id": "florida-uy",
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: the city of Florida, the capital of the department; stands for a string that names the department); country by the Atlas's geo.country_of"
+ },
+ "Sarandi Grande, Florida, Uruguay": {
+  "name": "Florida",
+  "lat": -34.1,
+  "lon": -56.21,
+  "country": "Uruguay",
+  "iso": "UY",
+  "atlas_id": "florida-uy",
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: the city of Florida, the capital of the department; stands for a string that names the department); country by the Atlas's geo.country_of"
+ },
+ "Piedras Coloradas, Florida, Uruguay": {
+  "name": "Florida",
+  "lat": -34.1,
+  "lon": -56.21,
+  "country": "Uruguay",
+  "iso": "UY",
+  "atlas_id": "florida-uy",
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: the city of Florida, the capital of the department; stands for a string that names the department); country by the Atlas's geo.country_of"
+ },
+ "Madrid": {
+  "name": "Madrid",
+  "lat": 40.5,
+  "lon": -3.67,
+  "country": "Spain",
+  "iso": "ES",
+  "atlas_id": "madrid",
+  "how": "the string names no country; the Atlas has exactly one place called Madrid (Spain) and the one person born there is recorded with Spanish nationality in an arrival list (where found: arr. 1940); the Atlas's own point"
+ },
+ "Entre Rios": {
+  "name": "Entre Rios",
+  "lat": -32.12907,
+  "lon": -59.50777,
+  "country": "Argentina",
+  "iso": "AR",
+  "atlas_id": "entre-rios",
+  "how": "the string names a province and no country; the Atlas has exactly one place called Entre Rios (Argentina) and the two people born there are recorded with Argentine nationality and found at Gualeguaychu, Entre Rios; the Atlas's own point, which is the province's, not a town's"
+ },
+ "Transvaal": {
+  "name": "Transvaal",
+  "lat": -25.93634,
+  "lon": 28.08131,
+  "country": "South Africa",
+  "iso": "ZA",
+  "atlas_id": "transvaal",
+  "how": "the string names a region and no country; the Atlas has exactly one place called Transvaal (South Africa) and the four people born there are recorded with South African nationality and found at Johannesburg; the Atlas's own point, which is the region's, not a town's"
+ },
+ "Cape Province": {
+  "name": "Cape Province",
+  "lat": -33.11,
+  "lon": 22.0552,
+  "country": "South Africa",
+  "iso": "ZA",
+  "atlas_id": "cape-province",
+  "how": "the string names a province and no country; the Atlas has exactly one place called Cape Province (South Africa) and the one person born there is recorded with South African nationality, found at Cape Town / Johannesburg; the Atlas's own point, which is the province's, not a town's"
+ },
+ "Argentina": {
+  "name": "Argentina",
+  "lat": -34.9965,
+  "lon": -64.96728,
+  "country": "Argentina",
+  "iso": "AR",
+  "atlas_id": "argentina",
+  "how": "the Record Atlas names it once, in the country the string names (the Atlas's own point)"
+ },
+ "Asturias, Spain": {
+  "name": "Asturias",
+  "lat": 43.4352,
+  "lon": -5.7686,
+  "country": "Spain",
+  "iso": "ES",
+  "atlas_id": "asturias",
+  "how": "the Record Atlas names it once, in the country the string names (the Atlas's own point)"
+ },
+ "Cordoba, Argentina": {
+  "name": "Cordoba",
+  "lat": -31.6482,
+  "lon": -64.0247,
+  "country": "Argentina",
+  "iso": "AR",
+  "atlas_id": "cordoba-ar",
+  "how": "the Record Atlas names it once, in the country the string names (the Atlas's own point)"
+ },
+ "Italy": {
+  "name": "Italy",
+  "lat": 42.63843,
+  "lon": 12.6743,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "italy",
+  "how": "the Record Atlas names it once, in the country the string names (the Atlas's own point)"
+ },
+ "Lima, PERU": {
+  "name": "Lima",
+  "lat": -11.9,
+  "lon": -76.8,
+  "country": "Peru",
+  "iso": "PE",
+  "atlas_id": "lima",
+  "how": "the Record Atlas names it once, in the country the string names (the Atlas's own point)"
+ },
+ "Pernambuco, Brazil": {
+  "name": "Pernambuco",
+  "lat": -8.2185,
+  "lon": -36.1084,
+  "country": "Brazil",
+  "iso": "BR",
+  "atlas_id": "pernambuco",
+  "how": "the Record Atlas names it once, in the country the string names (the Atlas's own point)"
+ },
+ "South Africa": {
+  "name": "South Africa",
+  "lat": -28.81662,
+  "lon": 24.99164,
+  "country": "South Africa",
+  "iso": "ZA",
+  "atlas_id": "south-africa",
+  "how": "the Record Atlas names it once, in the country the string names (the Atlas's own point)"
+ },
+ "Tucuman, Argentina": {
+  "name": "Tucuman",
+  "lat": -27.04484,
+  "lon": -65.3658,
+  "country": "Argentina",
+  "iso": "AR",
+  "atlas_id": "tucuman",
+  "how": "the Record Atlas names it once, in the country the string names (the Atlas's own point)"
+ },
+ "Uruguay": {
+  "name": "Uruguay",
+  "lat": -32.87555,
+  "lon": -56.02015,
+  "country": "Uruguay",
+  "iso": "UY",
+  "atlas_id": "uruguay",
+  "how": "the Record Atlas names it once, in the country the string names (the Atlas's own point)"
+ },
+ "Segovia, Spain": {
+  "name": null,
+  "lat": null,
+  "lon": null,
+  "country": null,
+  "iso": null,
+  "atlas_id": null,
+  "note": "TODO: copy one suggestion (or give coordinates) once you have checked the country; never guessed",
+  "suggest": []
+ },
+ "Spain": {
+  "name": null,
+  "lat": null,
+  "lon": null,
+  "country": null,
+  "iso": null,
+  "atlas_id": null,
+  "note": "TODO: copy one suggestion (or give coordinates) once you have checked the country; never guessed",
+  "suggest": []
+ },
+ "Logrono": {
+  "name": null,
+  "lat": null,
+  "lon": null,
+  "country": null,
+  "iso": null,
+  "atlas_id": null,
+  "note": "TODO: copy one suggestion (or give coordinates) once you have checked the country; never guessed",
+  "suggest": []
+ },
+ "Zaragoza": {
+  "name": null,
+  "lat": null,
+  "lon": null,
+  "country": null,
+  "iso": null,
+  "atlas_id": null,
+  "note": "TODO: copy one suggestion (or give coordinates) once you have checked the country; never guessed",
+  "suggest": []
+ },
+ "Cayasta, Santa Fe": {
+  "name": null,
+  "lat": null,
+  "lon": null,
+  "country": null,
+  "iso": null,
+  "atlas_id": null,
+  "note": "TODO: copy one suggestion (or give coordinates) once you have checked the country; never guessed",
+  "suggest": []
+ },
+ "Gualeguaychu": {
+  "name": null,
+  "lat": null,
+  "lon": null,
+  "country": null,
+  "iso": null,
+  "atlas_id": null,
+  "note": "TODO: copy one suggestion (or give coordinates) once you have checked the country; never guessed",
+  "suggest": []
+ },
+ "Cordoba": {
+  "name": null,
+  "lat": null,
+  "lon": null,
+  "country": null,
+  "iso": null,
+  "atlas_id": null,
+  "note": "TODO: copy one suggestion (or give coordinates) once you have checked the country; never guessed",
+  "suggest": [
+   {
+    "atlas_id": "cordoba-ar",
+    "name": "Cordoba",
+    "country": "AR",
+    "lat": -31.6482,
+    "lon": -64.0247
+   },
+   {
+    "atlas_id": "cordoba",
+    "name": "Córdoba",
+    "country": "ES",
+    "lat": 37.9134,
+    "lon": -4.7674
+   },
+   {
+    "atlas_id": "cordoba-co",
+    "name": "Córdoba",
+    "country": "CO",
+    "lat": 8.7278,
+    "lon": -75.7237
+   }
+  ]
+ },
+ "Santa Fe": {
+  "name": null,
+  "lat": null,
+  "lon": null,
+  "country": null,
+  "iso": null,
+  "atlas_id": null,
+  "note": "TODO: copy one suggestion (or give coordinates) once you have checked the country; never guessed",
+  "suggest": [
+   {
+    "atlas_id": "santa-fe",
+    "name": "Santa Fe",
+    "country": "AR",
+    "lat": -31.0,
+    "lon": -61.0
+   },
+   {
+    "atlas_id": "santa-fe-ar",
+    "name": "Santa Fe",
+    "country": "AR",
+    "lat": -32.1892,
+    "lon": -60.7782
+   }
+  ]
+ },
+ "Mendoza": {
+  "name": null,
+  "lat": null,
+  "lon": null,
+  "country": null,
+  "iso": null,
+  "atlas_id": null,
+  "note": "TODO: copy one suggestion (or give coordinates) once you have checked the country; never guessed",
+  "suggest": [
+   {
+    "atlas_id": "mendoza",
+    "name": "Mendoza",
+    "country": "AR",
+    "lat": -34.59703,
+    "lon": -68.73048
+   },
+   {
+    "atlas_id": "mendoza-ar",
+    "name": "Mendoza",
+    "country": "AR",
+    "lat": -33.4209,
+    "lon": -68.6602
+   }
+  ]
+ },
+ "Estado Oriental del Uruguay": {
+  "name": null,
+  "lat": null,
+  "lon": null,
+  "country": null,
+  "iso": null,
+  "atlas_id": null,
+  "note": "TODO: copy one suggestion (or give coordinates) once you have checked the country; never guessed",
+  "suggest": []
+ },
+ "Uruguay (nationality \"Oriental\" on the manifest)": {
+  "name": null,
+  "lat": null,
+  "lon": null,
+  "country": null,
+  "iso": null,
+  "atlas_id": null,
+  "note": "TODO: copy one suggestion (or give coordinates) once you have checked the country; never guessed",
+  "suggest": []
+ },
+ "Andalusia, Spain (the 1812 padron says \"andaluz\"; CORDOBA comes from the trees, which cite Apolant ficha 355)": {
+  "name": null,
+  "lat": null,
+  "lon": null,
+  "country": null,
+  "iso": null,
+  "atlas_id": null,
+  "note": "TODO: copy one suggestion (or give coordinates) once you have checked the country; never guessed",
+  "suggest": [
+   {
+    "atlas_id": "andalusia",
+    "name": "Andalusia",
+    "country": "ES",
+    "lat": 37.0964,
+    "lon": -4.9025
+   }
+  ]
+ },
+ "Asturias, Spain (presumed - her daughter is 'natural de Asturias')": {
+  "name": null,
+  "lat": null,
+  "lon": null,
+  "country": null,
+  "iso": null,
+  "atlas_id": null,
+  "note": "TODO: copy one suggestion (or give coordinates) once you have checked the country; never guessed",
+  "suggest": [
+   {
+    "atlas_id": "asturias",
+    "name": "Asturias",
+    "country": "ES",
+    "lat": 43.4352,
+    "lon": -5.7686
+   }
+  ]
+ },
+ "Brazil": {
+  "name": null,
+  "lat": null,
+  "lon": null,
+  "country": null,
+  "iso": null,
+  "atlas_id": null,
+  "note": "TODO: copy one suggestion (or give coordinates) once you have checked the country; never guessed",
+  "suggest": []
+ },
+ "Islas de Canarias": {
+  "name": null,
+  "lat": null,
+  "lon": null,
+  "country": null,
+  "iso": null,
+  "atlas_id": null,
+  "note": "TODO: copy one suggestion (or give coordinates) once you have checked the country; never guessed",
+  "suggest": []
+ },
+ "Mendoza, Argentina": {
+  "name": null,
+  "lat": null,
+  "lon": null,
+  "country": null,
+  "iso": null,
+  "atlas_id": null,
+  "note": "TODO: copy one suggestion (or give coordinates) once you have checked the country; never guessed",
+  "suggest": [
+   {
+    "atlas_id": "mendoza",
+    "name": "Mendoza",
+    "country": "AR",
+    "lat": -34.59703,
+    "lon": -68.73048
+   },
+   {
+    "atlas_id": "mendoza-ar",
+    "name": "Mendoza",
+    "country": "AR",
+    "lat": -33.4209,
+    "lon": -68.6602
+   }
+  ]
+ },
+ "Chile": {
+  "name": null,
+  "lat": null,
+  "lon": null,
+  "country": null,
+  "iso": null,
+  "atlas_id": null,
+  "note": "TODO: copy one suggestion (or give coordinates) once you have checked the country; never guessed",
+  "suggest": []
+ },
+ "Crespo, Entre Rios, Argentina": {
+  "name": null,
+  "lat": null,
+  "lon": null,
+  "country": null,
+  "iso": null,
+  "atlas_id": null,
+  "note": "TODO: copy one suggestion (or give coordinates) once you have checked the country; never guessed",
+  "suggest": []
+ },
+ "La Paz, Uruguay": {
+  "name": null,
+  "lat": null,
+  "lon": null,
+  "country": null,
+  "iso": null,
+  "atlas_id": null,
+  "note": "TODO: copy one suggestion (or give coordinates) once you have checked the country; never guessed",
+  "suggest": []
+ },
+ "Navarrete, Logrono, Spain": {
+  "name": null,
+  "lat": null,
+  "lon": null,
+  "country": null,
+  "iso": null,
+  "atlas_id": null,
+  "note": "TODO: copy one suggestion (or give coordinates) once you have checked the country; never guessed",
+  "suggest": []
+ },
+ "Mal Abrigo, San Jose, Uruguay": {
+  "name": null,
+  "lat": null,
+  "lon": null,
+  "country": null,
+  "iso": null,
+  "atlas_id": null,
+  "note": "TODO: copy one suggestion (or give coordinates) once you have checked the country; never guessed",
+  "suggest": []
+ },
+ "Africa": {
+  "name": null,
+  "lat": null,
+  "lon": null,
+  "country": null,
+  "iso": null,
+  "atlas_id": null,
+  "note": "TODO: copy one suggestion (or give coordinates) once you have checked the country; never guessed",
+  "suggest": []
+ },
+ "Paraguay": {
+  "name": null,
+  "lat": null,
+  "lon": null,
+  "country": null,
+  "iso": null,
+  "atlas_id": null,
+  "note": "TODO: copy one suggestion (or give coordinates) once you have checked the country; never guessed",
+  "suggest": []
+ }
+}
