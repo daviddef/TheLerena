@@ -6156,5 +6156,22 @@
    "record-index"
   ],
   "note": "A COVERAGE NULL ONLY, NOT A NIL. Full text: 'Fidel Llerena', 'Fidel Lerena', 'Fidel Serena', 'Fidel Gerena', 'Isidora Ysaurralde', 'Isidora Izaurralde' and 'Gil Fidel Isidora Llerena', the first 300-600 results of each, read for entries before 1845: no baptism of a Gil, no marriage of Fidel and Isidora; the only Uruguayan hits are a Cordon baptism of 1842 naming grandparents Fidel Lerena and Antolina Rodriguez and a Canelones baptism of January 1820 with a godfather Fidel Gerena and Juana Rios. Record index: the 100 best-ranked persons for Gil with Llerena, Lerena, Serena and Gerena: no Gil with parents Fidel and Isidora (the only match is the 1845 marriage itself, which names them). Larena, Lorena, Leresa, Lerina and Levena were not typed, so the catalogue's coverage check does not pass and no nil is written. The spouse and father parameters of the index endpoint were found to be ignored (the result total did not change), so the index was not narrowed by them."
+ },
+ {
+  "src": "FamilySearch - Canelones, Catedral Nuestra Senora de Guadalupe, baptisms 1816-1822: the baptism of 26 December 1819 with godfather Fidel Gerena",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS2Z-W9NZ-F",
+  "waypoint": null,
+  "what": "Lerena: the one Fidel of the name met at Canelones in 1819, for the question whether Gil's father is Sancho's son",
+  "when": "2026-11-08",
+  "outcome": "yield",
+  "pages": "one entry read at the plate; no volume walked",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "uruguay",
+   "familysearch",
+   "canelones"
+  ],
+  "note": "One godfather entry read; it gives no parents. Not a walk and no nil."
  }
 ]
