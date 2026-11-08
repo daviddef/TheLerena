@@ -6226,5 +6226,23 @@
    "record-index"
   ],
   "note": "Two entries read, not a walk and no nil. The civil act gives his birth as 19 December 1874 at Porongos, Flores, and Petrona Aguilar's death as 14 December 1876, which disagrees with the 23 July 1873 of another act in the register. The index also lists two daughters born at Salto (1904, 1905) and a death in 1979, not opened."
+ },
+ {
+  "src": "FamilySearch - full-text search 'Petrona Aguilar' with 'Mauricio Lerena': the Trinidad burial entry of 25 July 1872 and the copy certified in 1889, read at the plate",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS27-23WC-T",
+  "waypoint": null,
+  "what": "Lerena: when Petrona Aguilar, wife of Mauricio Lerena, died, three acts giving three dates",
+  "when": "2026-11-08",
+  "outcome": "yield",
+  "pages": "two entries read at the plate; no volume walked",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "uruguay",
+   "trinidad",
+   "familysearch",
+   "full-text"
+  ],
+  "note": "Two copies of one burial entry read; not a walk and no nil. The church entry gives 25 July 1872, against 23 July 1873 and 14 December 1876 in two marriage acts of her children."
  }
 ]
