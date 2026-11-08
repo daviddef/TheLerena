@@ -10239,5 +10239,12 @@
   "last_attested_alive": "1821-08-25",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Angel Fructuoso LERENA Gonzalez (b. 1817, Montevideo)",
+  "born_est": "1817-10-27",
+  "last_attested_alive": "1817-10-27",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]
