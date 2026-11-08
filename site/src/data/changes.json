@@ -5,6 +5,11 @@
    "date": "2026-11-08",
    "commits": [
     {
+     "sha": "3baffd0",
+     "subject": "Ramon (Nemesio Ramon) Lerena at Concordia: his sons Rogelio Vicente (5 April 1907) and Eduardo Isidro (14 May 1908) by Laura Escobite, read at the plate; both acts name Mauricio Lerena and Petrona Aguilar as his parents, and he is probably the Ramon Lerena who died there in 1910; not merged with the Nemecio Ramon christened at Trinidad in 1870 (the declared ages give 1871-1872)",
+     "body": ""
+    },
+    {
      "sha": "cafa7bc",
      "subject": "Ramon Lerena, 35, dead at Concordia (Entre Rios) on 17 November 1910, son of Mauricio Lerena and Petrona Aguilar (death act read at the plate; found by a spouse-pair index query); Gregoria's death at Montevideo, 18 August 1925; whether Ramon is the Nemecio Ramon christened at Trinidad in 1870 is not shown (Petrona died in 1873), so no merge",
      "body": ""

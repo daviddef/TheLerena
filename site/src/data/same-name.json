@@ -861,6 +861,28 @@
      "children": []
     },
     {
+     "slug": "maria-antonia-lerena-escobite",
+     "name": "Maria Antonia LERENA Escobite (b. 1905, Salto)",
+     "exact": false,
+     "status": "unplaced",
+     "born": "1905",
+     "died": "",
+     "where": "Salto, Uruguay · Oriental",
+     "source": "Uruguay, Civil Registration 1879-2020, Salto births (ark 3:1:3Q9M-CS2W-LWMN), and Catholic Church Records, Salto (ark 3:1:3Q9M-CS2Q-R7LV-7) …",
+     "father": {
+      "slug": "ramon-lerena-3",
+      "name": "Ramon LERENA (b. c.1875, d. 1910, Concordia, Entre Rios)",
+      "tree": false
+     },
+     "mother": {
+      "slug": "laura-escobite",
+      "name": "Laura ESCOBITE (wife of Ramon Lerena, Concordia)",
+      "tree": false
+     },
+     "spouses": [],
+     "children": []
+    },
+    {
      "slug": "maria-elena-lerena-pelaez",
      "name": "Maria Elena LERENA Pelaez (b.1910)",
      "exact": false,
@@ -1754,7 +1776,7 @@
      "name": "Ramon LERENA (b. c.1875, d. 1910, Concordia, Entre Rios)",
      "exact": true,
      "status": "unplaced",
-     "born": "about 1875",
+     "born": "1874",
      "died": "",
      "where": "Concordia, Entre Rios · Oriental",
      "source": "Argentina, Entre Rios, Civil Registration 1833-1965 (FamilySearch collection 3006904), Concordia, deaths: act no. 588 of 18 November 1910 (ark 3:1:3Q9M-C3WD-L9X6-R) …",
@@ -1782,8 +1804,18 @@
        "tree": false
       },
       {
+       "slug": "maria-antonia-lerena-escobite",
+       "name": "Maria Antonia LERENA Escobite (b. 1905, Salto)",
+       "tree": false
+      },
+      {
        "slug": "rogelio-vicente-lerena-escobite",
        "name": "Rogelio Vicente LERENA Escobite (b. 1907, Concordia)",
+       "tree": false
+      },
+      {
+       "slug": "rosario-margarita-lerena-escobite",
+       "name": "Rosario Margarita LERENA Escobite (b. 1904, d. 1981, Salto)",
        "tree": false
       }
      ]
