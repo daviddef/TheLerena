@@ -4606,13 +4606,6 @@
   "tier": "BIRTH ONLY"
  },
  {
-  "name": "Nemecio Ramon LERENA (b.1870)",
-  "born_est": "1870-08",
-  "last_attested_alive": "1910",
-  "basis": "explicit death date on this person's row",
-  "tier": "DEATH"
- },
- {
   "name": "Fernando LERENA (23 April - 1 May 1930)",
   "born_est": "1930-04-23",
   "last_attested_alive": "1930-04-23",
@@ -10144,8 +10137,8 @@
  },
  {
   "name": "Ramon LERENA (b. c.1875, d. 1910, Concordia, Entre Rios)",
-  "born_est": "1874-12-19",
-  "last_attested_alive": "1874-12-19",
+  "born_est": "1869-12-19",
+  "last_attested_alive": "1869-12-19",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },

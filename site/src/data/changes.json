@@ -5,6 +5,11 @@
    "date": "2026-11-08",
    "commits": [
     {
+     "sha": "e193320",
+     "subject": "Petrona Aguilar's burial at Trinidad, 25 July 1872 (died of smallpox), read at the plate in two copies, is the church's own entry and disagrees with the 1873 and 1876 of her children's marriage acts; every note that stated 23 July 1873 as fact now attributes it; the son Nemesio Ramon's declared birth of 19 December 1874 cannot be hers, so his identity with the Trinidad christening of 1870 is open again",
+     "body": ""
+    },
+    {
      "sha": "4f9febc",
      "subject": "Nemesio Ramon Lerena and Laura Escobite married at Salto in January 1903 (civil and church acts read at the plate): he was born 19 December 1874 at Porongos, Flores, son of Mauricio Lerena and Petrona Aguilar, and is the man of Concordia (1907, 1908, dead 1910); the act gives Petrona's death as 14 December 1876, against 23 July 1873 in another act, so the two are recorded as disagreeing; two Salto daughters added at index level; not merged with the Trinidad christening of 1870",
      "body": ""

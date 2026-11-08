@@ -116,6 +116,11 @@ const redirects = {
 
   /* NOT a rename but a MERGE: she and Angelica are one woman, argued on her row. */
   '/people/amelia-lerena': `${BASE}/people/angelica-maria-lerena-villademoros/`,
+
+  /* 8 November 2026. A MERGE: the Trinidad christening of 24 April 1870, held from the index
+     alone as 'Nemecio Ramon LERENA (b.1870)', was opened and read at the plate; it gives a birth
+     of 19 December 1869 to the same parents and is the man of Salto and Concordia. */
+  '/people/nemecio-ramon-lerena': `${BASE}/people/ramon-lerena-3/`,
 };
 
 export default defineConfig({

@@ -2304,7 +2304,7 @@
  },
  {
   "source": "Argentina, Entre Rios, Civil Registration 1833-1965 (collection 3006904), Concordia deaths: act no. 588 of 18 November 1910 (ark 3:1:3Q9M-C3WD-L9X6-R)",
-  "used_for": "*** A SON OF MAURICIO LERENA AND PETRONA AGUILAR DEAD AT CONCORDIA, 8 November 2026. *** Found by the record index (a spouse-pair query), then read at the plate: Ramon Lerena, thirty-five, oriental, married, day-labourer, died 17 November 1910 of pulmonary tuberculosis; parents Mauricio Lerena and Petrona Aguilar. Whether he is the Nemecio Ramon christened at Trinidad in 1870 is not shown (Petrona died in 1873; the age gives about 1875).",
+  "used_for": "*** A SON OF MAURICIO LERENA AND PETRONA AGUILAR DEAD AT CONCORDIA, 8 November 2026. *** Found by the record index (a spouse-pair query), then read at the plate: Ramon Lerena, thirty-five, oriental, married, day-labourer, died 17 November 1910 of pulmonary tuberculosis; parents Mauricio Lerena and Petrona Aguilar. He is the Nemecio Ramon christened at Trinidad on 24 April 1870, born 19 December 1869 (the christening read at the plate on 8 November 2026; the declared age gives about 1875).",
   "accessed": "8 November 2026",
   "tier": "PRIMARY",
   "link": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C3WD-L9X6-R"
@@ -2336,5 +2336,12 @@
   "accessed": "8 November 2026",
   "tier": "PRIMARY",
   "link": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS27-23WC-T"
+ },
+ {
+  "source": "Santisima Trinidad (Flores), baptism register, entry no. 85 of 24 April 1870, Nemecio Ramon (ark 3:1:3Q9M-CS27-F3HR-T)",
+  "used_for": "*** THE CHRISTENING OF THE MAN OF SALTO AND CONCORDIA, 8 November 2026. *** Opened to test the identity the notes had left open: 'bautice solemnemente a Nemecio, nacio el dia diez y nueve de Dre. ppo, hijo legitimo de Mauricio [Lerena] y Petrona Aguilar ... Abuelos paternos Mauricio y Casimira Montana; maternos Julian y Gregoria Quintana'; padrinos Santiago Sayago and Baldomera Costa. The birth is 19 December 1869 (the index's August 1870 is a misreading); the day and month are those of his 1903 marriage act. Read at ordinary size and at a zoom of the date line; 'Dre.' is read as Diciembre as the only month beginning with D.",
+  "accessed": "8 November 2026",
+  "tier": "PRIMARY",
+  "link": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS27-F3HR-T"
  }
 ]
