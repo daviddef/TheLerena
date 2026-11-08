@@ -5,6 +5,11 @@
    "date": "2026-11-08",
    "commits": [
     {
+     "sha": "34de38b",
+     "subject": "Petrona Aguilar's own baptism is not in the record index (four queries, a coverage null, not a nil); an index entry gives Julian Aguilar a sister, Petrona Felipa, christened at San Jose in 1823",
+     "body": ""
+    },
+    {
      "sha": "aafe55f",
      "subject": "Petrona Aguilar's parents found: Julian Aguilar (son of Pedro and Fermina Rojas) and Gregoria Quintana (daughter of Jayme and Felipa Estevas) married at San Jose on 1 September 1847, and their son Guzman Aguilar (born in Flores about 1849) died at Montevideo on 16 July 1900 (both acts read at the plate); the identification with Petrona's parents rests on the names, since no act names her with them; six new rows",
      "body": ""

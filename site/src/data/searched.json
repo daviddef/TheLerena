@@ -6297,5 +6297,22 @@
    "familysearch"
   ],
   "note": "COVERAGE NULL, NOT A NIL. Four index queries (Petrona Aguilar, birth 1847-1856, with Uruguay, Flores or San Jose, and with the parents' names) returned no entry naming Petrona with Julian Aguilar and Gregoria Quintana; the index does not cover every register, and no baptism book was walked. Only near-names seen: Petrona Felipa Aguilar, daughter of Pedro Aguilar and Fermina Rojas, christened at San Jose in 1823 (Julian's sister, index only); Petrona Aguilar (b. 1849, Trinidad, Flores) in an entry with Fermina Aguilar and others, whose parents are not Julian and Gregoria; other Petrona and Julian Aguilars of Bolivia, Mexico and Chile."
+ },
+ {
+  "src": "FamilySearch record index (Uruguay Catholic Church Records and Civil Registration), spouse-pair queries for Mauricio Lerena and Petrona Aguilar",
+  "url": "https://www.familysearch.org/search/record/results?q.givenName=Mauricio&q.surname=Lerena&q.spouseGivenName=Petrona&q.spouseSurname=Aguilar",
+  "waypoint": null,
+  "what": "Lerena: a marriage of Mauricio Lerena and Petrona Aguilar, searched as a couple (with and without a marriage window of 1855-1868, from either spouse)",
+  "when": "2026-11-08",
+  "outcome": "nothing",
+  "pages": "record index only; no volume walked",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "uruguay",
+   "trinidad",
+   "familysearch"
+  ],
+  "note": "Coverage null, not a nil. Three spouse-pair queries (surname typed only as Lerena and Aguilar, so the other Atlas spellings were not tried: Mauricio with Petrona, Petrona with Mauricio, Petrona with spouse surname Lerena) returned only the acts of their children already held (Julian, Gregoria Basilia, Ramon/Nemesio, Eduardo Isidro, Rogelio Vicente), and no entry of the couple as bride and groom. The index does not list a marriage; the register for the first child (about 1860) is not walked. The row title 'Trinidad 1866' is the year of the two christenings where they stand as godparents, not a marriage."
  }
 ]
