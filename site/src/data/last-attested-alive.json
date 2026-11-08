@@ -4608,9 +4608,9 @@
  {
   "name": "Nemecio Ramon LERENA (b.1870)",
   "born_est": "1870-08",
-  "last_attested_alive": "1870-Apr-24",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "1910",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
  },
  {
   "name": "Fernando LERENA (23 April - 1 May 1930)",
@@ -10146,6 +10146,27 @@
   "name": "Ramon LERENA (b. c.1875, d. 1910, Concordia, Entre Rios)",
   "born_est": "1875c",
   "last_attested_alive": "1875c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Laura ESCOBITE (wife of Ramon Lerena, Concordia)",
+  "born_est": "1884c",
+  "last_attested_alive": "1884c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Rogelio Vicente LERENA Escobite (b. 1907, Concordia)",
+  "born_est": "1907-04-05",
+  "last_attested_alive": "1907-04-05",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Eduardo Isidro LERENA Escobite (b. 1908, Concordia)",
+  "born_est": "1908-05-14",
+  "last_attested_alive": "1908-05-14",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  }

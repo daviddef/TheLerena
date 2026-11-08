@@ -1768,8 +1768,25 @@
       "name": "Petrona AGUILAR (m. Mauricio Lerena, Trinidad 1866)",
       "tree": false
      },
-     "spouses": [],
-     "children": []
+     "spouses": [
+      {
+       "slug": "laura-escobite",
+       "name": "Laura ESCOBITE (wife of Ramon Lerena, Concordia)",
+       "tree": false
+      }
+     ],
+     "children": [
+      {
+       "slug": "eduardo-isidro-lerena-escobite",
+       "name": "Eduardo Isidro LERENA Escobite (b. 1908, Concordia)",
+       "tree": false
+      },
+      {
+       "slug": "rogelio-vicente-lerena-escobite",
+       "name": "Rogelio Vicente LERENA Escobite (b. 1907, Concordia)",
+       "tree": false
+      }
+     ]
     },
     {
      "slug": "ramon-lerena",
