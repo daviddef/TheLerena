@@ -2,6 +2,16 @@
  "mechanical": 53,
  "days": [
   {
+   "date": "2026-11-09",
+   "commits": [
+    {
+     "sha": "ac6eaa9",
+     "subject": "Gil Lerena's baptism is not in the Montevideo cathedral baptisms of August 1818 to January 1822 by machine transcript (a coverage null, not a nil); the scan finds instead the baptism of 15 September 1821 of Luis Manuel, son of Ramon Lerena and Maria Gonzalez of Lanzarote, read at the plate",
+     "body": ""
+    }
+   ]
+  },
+  {
    "date": "2026-11-08",
    "commits": [
     {

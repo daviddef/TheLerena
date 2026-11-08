@@ -10173,9 +10173,9 @@
  {
   "name": "Rosario Margarita LERENA Escobite (b. 1904, d. 1981, Salto)",
   "born_est": "1904",
-  "last_attested_alive": "1981-Aug-24",
-  "basis": "explicit death date on this person's row",
-  "tier": "DEATH"
+  "last_attested_alive": "1904",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Julian (father of Petrona AGUILAR)",

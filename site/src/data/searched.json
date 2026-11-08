@@ -6348,5 +6348,39 @@
    "familysearch"
   ],
   "note": "A COVERAGE NULL, NOT A NIL. Scanned for Lerena, Llerena, Lorena, Serena, Gerena, Larena, Lerina and other near spellings, and for Fidel, Gil and Isaurralde forms; transcript garbles names; the first item before August 1818 and the second after January 1822 were not scanned. Found instead the baptism of 15 September 1821 of Luis Manuel, son of Ramon Lerena and Maria Gonzalez (plate read)."
+ },
+ {
+  "src": "FamilySearch, Uruguay Civil Registration 1879-2020, Salto deaths 1981, act no. 369 (ark 3:1:3Q9M-CSKJ-17Q9-X), read at the plate",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKJ-17Q9-X",
+  "waypoint": null,
+  "what": "Lerena: the Salto death act of 24 August 1981 (Rosario Margarita, daughter of Nemesio Ramon Lerena and Laura Escobite), opened from the index and read at the plate",
+  "when": "2026-11-09",
+  "outcome": "yield",
+  "pages": "one act (the right-hand page of one opening); no volume walked",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "uruguay",
+   "salto",
+   "familysearch"
+  ],
+  "note": "One act read, not a walk and no nil. It gives her age as seventy-seven, her husband Jose Romeo Roldan, her parents by name and one daughter."
+ },
+ {
+  "src": "FamilySearch, Uruguay Civil Registration 1879-2020, Salto deaths 1979, act no. 360 (ark 3:1:3Q9M-CSKJ-17Z2-N), read at the plate",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKJ-17Z2-N",
+  "waypoint": null,
+  "what": "Lerena: the Salto death act of 16 July 1979 (Eduardo Isidro, son of Ramon Lerena and Laura Escobite, born at Concordia), opened from the index and read at the plate",
+  "when": "2026-11-09",
+  "outcome": "yield",
+  "pages": "one act (the left-hand page of one opening); no volume walked",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "uruguay",
+   "salto",
+   "familysearch"
+  ],
+  "note": "One act read, not a walk and no nil. It gives his birth at Concordia and his age of seventy-one, which agree with the Concordia birth act of 14 May 1908, and names his parents."
  }
 ]
