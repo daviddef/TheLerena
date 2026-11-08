@@ -1221,6 +1221,28 @@
      ]
     },
     {
+     "slug": "luis-manuel-lerena-gonzalez",
+     "name": "Luis Manuel LERENA Gonzalez (b. 1821, Montevideo)",
+     "exact": false,
+     "status": "unplaced",
+     "born": "1821",
+     "died": "",
+     "where": "Montevideo · Uruguayan",
+     "source": "Catedral de la Inmaculada Concepcion y San Felipe y Santiago, Montevideo, Baptism Records May 19, 1819 …",
+     "father": {
+      "slug": "ramon-lerena-2",
+      "name": "Ramon LERENA (of Rosario-Colla, fl. 1794-1820)",
+      "tree": false
+     },
+     "mother": {
+      "slug": "maria-josefa-gonzalez",
+      "name": "Maria Josefa GONZALEZ (wife of Ramon LERENA of Colla)",
+      "tree": false
+     },
+     "spouses": [],
+     "children": []
+    },
+    {
      "slug": "luis-felipe-lerena-salvanach",
      "name": "Luis Felipe LERENA Salvanach",
      "exact": false,
@@ -1757,6 +1779,11 @@
       {
        "slug": "gabino-lerena",
        "name": "Gabino LERENA (of Chamanga, d. 1890)",
+       "tree": false
+      },
+      {
+       "slug": "luis-manuel-lerena-gonzalez",
+       "name": "Luis Manuel LERENA Gonzalez (b. 1821, Montevideo)",
        "tree": false
       },
       {

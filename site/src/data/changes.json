@@ -5,6 +5,11 @@
    "date": "2026-11-08",
    "commits": [
     {
+     "sha": "1cf0b08",
+     "subject": "Maria Antonia Lerena Escobite's Salto birth act (no. 113, 4 July 1905) read at the plate: born 30 June, died 23 July 1905 by a marginal note; the mother declares the grandparents Mauricio Lerena (fifty, a widower, in Montevideo) and Petrona Aguilar (dead at Porongos, Durazno), and Ramon's age as twenty-eight, a fourth declared age that the christening of 1869 overrides",
+     "body": ""
+    },
+    {
      "sha": "dc23cdd",
      "subject": "A marriage of Mauricio Lerena and Petrona Aguilar is not in the record index (three spouse-pair queries returned only their children's acts: a coverage null, not a nil); the 1866 in her row's title is the year of two christenings where they stand as godparents, not a marriage",
      "body": ""

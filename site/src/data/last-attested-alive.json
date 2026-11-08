@@ -10232,5 +10232,12 @@
   "last_attested_alive": "1852",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Luis Manuel LERENA Gonzalez (b. 1821, Montevideo)",
+  "born_est": "1821-08-25",
+  "last_attested_alive": "1821-08-25",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]
