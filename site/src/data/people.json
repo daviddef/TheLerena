@@ -54698,8 +54698,20 @@
   "noLink": "",
   "living": false,
   "gen": null,
-  "father": null,
-  "mother": null,
+  "father": {
+   "name": "Julian (father of Petrona AGUILAR)",
+   "dates": "",
+   "slug": "julian",
+   "via": "register",
+   "note": "Trinidad baptism of 24 April 1870 (ark 3:1:3Q9M-CS27-F3HR-T), plate read 8 November 2026: the boy's maternal grandparents are 'Julian y Gregoria Quintana'; no surname is written for Julian"
+  },
+  "mother": {
+   "name": "Gregoria QUINTANA (mother of Petrona AGUILAR)",
+   "dates": "",
+   "slug": "gregoria-quintana",
+   "via": "register",
+   "note": "Trinidad baptism of 24 April 1870 (ark 3:1:3Q9M-CS27-F3HR-T), plate read 8 November 2026: the boy's maternal grandparents are 'Julian y Gregoria Quintana'; no surname is written for Julian"
+  },
   "spouses": [
    {
     "name": "Mauricio LERENA (m. Petrona Aguilar, Trinidad 1866)",
@@ -54744,8 +54756,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 5,
-  "relRegister": 5,
+  "relTotal": 7,
+  "relRegister": 7,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -104319,6 +104331,110 @@
     "via": "register"
    }
   ],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "julian",
+  "name": "Julian (father of Petrona AGUILAR)",
+  "born": "-",
+  "died": "",
+  "birthplace": "-",
+  "nationality": "Uruguayan",
+  "occupation": "-",
+  "where": "Trinidad, Flores",
+  "source": "Santisima Trinidad (Flores), baptism register, entry no. 85 of 24 April 1870 (ark 3:1:3Q9M-CS27-F3HR-T) - PLATE READ 8 November 2026",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** Named only as the maternal grandfather of Nemecio Ramon Lerena, 8 November 2026: *** the christening of 24 April 1870 gives the boy's maternal grandparents as 'Julian y Gregoria Quintana'. NO SURNAME IS WRITTEN FOR HIM (the act does not say Aguilar; his daughter is Petrona Aguilar, but a surname is not assumed here). Husband of Gregoria Quintana on the act's wording, and father of Petrona, the boy's mother. Read at the plate; nothing else is known of him.",
+  "place": "Trinidad, Flores",
+  "placeSlug": "trinidad-flores",
+  "surname": "AGUILAR",
+  "ark": "3:1:3Q9M-CS27-F3HR-T",
+  "sourceUrl": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS27-F3HR-T",
+  "noLink": "",
+  "living": false,
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [
+   {
+    "name": "Gregoria QUINTANA (mother of Petrona AGUILAR)",
+    "dates": "",
+    "slug": "gregoria-quintana",
+    "via": "register",
+    "note": "Trinidad baptism of 24 April 1870 (ark 3:1:3Q9M-CS27-F3HR-T), plate read 8 November 2026: the boy's maternal grandparents are 'Julian y Gregoria Quintana'; no surname is written for Julian"
+   }
+  ],
+  "children": [
+   {
+    "name": "Petrona AGUILAR (m. Mauricio Lerena, Trinidad 1866)",
+    "dates": "",
+    "slug": "petrona-aguilar",
+    "via": "register",
+    "note": "Trinidad baptism of 24 April 1870 (ark 3:1:3Q9M-CS27-F3HR-T), plate read 8 November 2026: the boy's maternal grandparents are 'Julian y Gregoria Quintana'; no surname is written for Julian"
+   }
+  ],
+  "siblings": [],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "gregoria-quintana",
+  "name": "Gregoria QUINTANA (mother of Petrona AGUILAR)",
+  "born": "-",
+  "died": "",
+  "birthplace": "-",
+  "nationality": "Uruguayan",
+  "occupation": "-",
+  "where": "Trinidad, Flores",
+  "source": "Santisima Trinidad (Flores), baptism register, entry no. 85 of 24 April 1870 (ark 3:1:3Q9M-CS27-F3HR-T) - PLATE READ 8 November 2026",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** Named only as the maternal grandmother of Nemecio Ramon Lerena, 8 November 2026: *** the christening of 24 April 1870 gives the boy's maternal grandparents as 'Julian y Gregoria Quintana'. Mother of Petrona Aguilar, the boy's mother, and wife of Julian (no surname written for him). Read at the plate; nothing else is known of her.",
+  "place": "Trinidad, Flores",
+  "placeSlug": "trinidad-flores",
+  "surname": "QUINTANA",
+  "ark": "3:1:3Q9M-CS27-F3HR-T",
+  "sourceUrl": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS27-F3HR-T",
+  "noLink": "",
+  "living": false,
+  "gen": null,
+  "father": null,
+  "mother": null,
+  "spouses": [
+   {
+    "name": "Julian (father of Petrona AGUILAR)",
+    "dates": "",
+    "slug": "julian",
+    "via": "register",
+    "note": "Trinidad baptism of 24 April 1870 (ark 3:1:3Q9M-CS27-F3HR-T), plate read 8 November 2026: the boy's maternal grandparents are 'Julian y Gregoria Quintana'; no surname is written for Julian"
+   }
+  ],
+  "children": [
+   {
+    "name": "Petrona AGUILAR (m. Mauricio Lerena, Trinidad 1866)",
+    "dates": "",
+    "slug": "petrona-aguilar",
+    "via": "register",
+    "note": "Trinidad baptism of 24 April 1870 (ark 3:1:3Q9M-CS27-F3HR-T), plate read 8 November 2026: the boy's maternal grandparents are 'Julian y Gregoria Quintana'; no surname is written for Julian"
+   }
+  ],
+  "siblings": [],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],

@@ -10176,5 +10176,19 @@
   "last_attested_alive": "1981-Aug-24",
   "basis": "explicit death date on this person's row",
   "tier": "DEATH"
+ },
+ {
+  "name": "Julian (father of Petrona AGUILAR)",
+  "born_est": "-",
+  "last_attested_alive": "1870-Apr-24",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Gregoria QUINTANA (mother of Petrona AGUILAR)",
+  "born_est": "-",
+  "last_attested_alive": "1870-Apr-24",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
  }
 ]
