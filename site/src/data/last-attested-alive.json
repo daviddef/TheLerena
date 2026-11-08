@@ -10180,15 +10180,57 @@
  {
   "name": "Julian (father of Petrona AGUILAR)",
   "born_est": "-",
-  "last_attested_alive": "1870-Apr-24",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Gregoria QUINTANA (mother of Petrona AGUILAR)",
   "born_est": "-",
-  "last_attested_alive": "1870-Apr-24",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Pedro AGUILAR (father of Julian Aguilar)",
+  "born_est": "-",
+  "last_attested_alive": "1847-Sep-01",
   "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
   "tier": "ALIVE AT"
+ },
+ {
+  "name": "Fermina ROJAS (mother of Julian Aguilar)",
+  "born_est": "-",
+  "last_attested_alive": "1847-Sep-01",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Jayme QUINTANA (father of Gregoria Quintana)",
+  "born_est": "-",
+  "last_attested_alive": "1847-Sep-01",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Felipa ESTEVAS (mother of Gregoria Quintana)",
+  "born_est": "-",
+  "last_attested_alive": "1847-Sep-01",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Guzman AGUILAR (b. c.1849, Flores; d. 1900, Montevideo)",
+  "born_est": "1849",
+  "last_attested_alive": "1849",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Cirila BARRIOS (wife of Guzman Aguilar)",
+  "born_est": "1852",
+  "last_attested_alive": "1852",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]

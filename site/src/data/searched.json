@@ -6261,5 +6261,23 @@
    "familysearch"
   ],
   "note": "One entry read, not a walk and no nil. It gives the birth as 19 December 1869 (the index had August 1870), to Mauricio Lerena and Petrona Aguilar, grandparents Mauricio and Casimira Montana and Julian and Gregoria Quintana."
+ },
+ {
+  "src": "FamilySearch record index (Uruguay Catholic Church Records and Civil Registration), the couple Julian Aguilar and Gregoria Quintana, and the two acts it found, read at the plate",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKH-67FM",
+  "waypoint": null,
+  "what": "Lerena: the parents of Petrona Aguilar, named in her son's christening, searched as a couple",
+  "when": "2026-11-08",
+  "outcome": "yield",
+  "pages": "two acts read at the plate; no volume walked",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "uruguay",
+   "san-jose",
+   "montevideo",
+   "familysearch"
+  ],
+  "note": "Two acts read, not a walk and no nil. The San Jose marriage of 1 September 1847 and the 1900 Montevideo death of their son Guzman, whose act names both parents."
  }
 ]
