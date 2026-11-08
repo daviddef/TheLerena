@@ -5,6 +5,11 @@
    "date": "2026-11-08",
    "commits": [
     {
+     "sha": "dc23cdd",
+     "subject": "A marriage of Mauricio Lerena and Petrona Aguilar is not in the record index (three spouse-pair queries returned only their children's acts: a coverage null, not a nil); the 1866 in her row's title is the year of two christenings where they stand as godparents, not a marriage",
+     "body": ""
+    },
+    {
      "sha": "34de38b",
      "subject": "Petrona Aguilar's own baptism is not in the record index (four queries, a coverage null, not a nil); an index entry gives Julian Aguilar a sister, Petrona Felipa, christened at San Jose in 1823",
      "body": ""

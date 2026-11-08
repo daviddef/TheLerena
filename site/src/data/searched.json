@@ -6314,5 +6314,22 @@
    "familysearch"
   ],
   "note": "Coverage null, not a nil. Three spouse-pair queries (surname typed only as Lerena and Aguilar, so the other Atlas spellings were not tried: Mauricio with Petrona, Petrona with Mauricio, Petrona with spouse surname Lerena) returned only the acts of their children already held (Julian, Gregoria Basilia, Ramon/Nemesio, Eduardo Isidro, Rogelio Vicente), and no entry of the couple as bride and groom. The index does not list a marriage; the register for the first child (about 1860) is not walked. The row title 'Trinidad 1866' is the year of the two christenings where they stand as godparents, not a marriage."
+ },
+ {
+  "src": "FamilySearch, Uruguay Civil Registration 1879-2020, Salto births 1905, image of act no. 113 (ark 3:1:3Q9M-CS2W-LWMN), read at the plate",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS2W-LWMN",
+  "waypoint": null,
+  "what": "Lerena: the Salto birth act of 30 June 1905 (Maria Antonia, daughter of Nemesio Ramon Lerena and Laura Escobite), opened from the index and read at the plate",
+  "when": "2026-11-08",
+  "outcome": "yield",
+  "pages": "one act (the right-hand page of one opening); no volume walked",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "uruguay",
+   "salto",
+   "familysearch"
+  ],
+  "note": "One act read, not a walk and no nil. It names the grandparents Mauricio Lerena (fifty, widower, employee, Montevideo) and Petrona Aguilar (dead at Porongos, Durazno), the father at twenty-eight, and by a marginal note the death of the child on 23 July 1905."
  }
 ]
