@@ -5,6 +5,11 @@
    "date": "2026-11-08",
    "commits": [
     {
+     "sha": "fbf994a",
+     "subject": "Fidel Lerena burial search, second pass: the Canelones death and burial volumes, as far as the full-text ranking reaches them, hold no Fidel and no Lerena of his generation; still a coverage null, since only 3 entries of the 1805-1822 volume surfaced",
+     "body": ""
+    },
+    {
      "sha": "3b1d0f1",
      "subject": "Fidel Lerena burial search, 1810-1839: full-text searches in seven spellings find only the Canelones godfather of December 1819; recorded as a coverage null (the Canelones and Montevideo burial registers of 1820-1830 are unsearched, not empty), so the Sancho join stays a candidate",
      "body": ""

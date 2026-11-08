@@ -10141,5 +10141,12 @@
   "last_attested_alive": "1847-10-22",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Ramon LERENA (b. c.1875, d. 1910, Concordia, Entre Rios)",
+  "born_est": "1875c",
+  "last_attested_alive": "1875c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]

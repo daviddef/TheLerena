@@ -6190,5 +6190,23 @@
    "full-text"
   ],
   "note": "A COVERAGE NULL ONLY, NOT A NIL. Full text, first 300 results of each phrase, kept where the record date falls in 1810-1839: 'Fidel Lerena', 'Fidel Llerena', 'Fidel Serena', 'Fidel Gerena', 'Fidel Larena', 'Fidel Lorena', 'Fidel Lerina', with 'difunto' and 'sepultura' added to the first; the only Uruguayan hit is the Canelones baptism of December 1819 (godfather Fidel Gerena, read at the plate). Leresa and Levena not typed. The full text covers only the volumes FamilySearch has transcribed, so the burial registers of Canelones and Montevideo for 1820-1830 are unsearched, not empty. A second pass on 8 November 2026 (six queries, 500 results each, kept where the place is Canelones and the record a death or burial; 610 entries, only 3 of them from the cathedral's 1805-1822 volume and 15 from its 1823-1841 volume) read the machine text for Lerena, Llerena, Gerena, Serena, Larena, Lorena, Lerina and Lerena with a tilde: no Fidel; the one early hit is a Manuel Llerena, husband of a woman buried in 1839 who was born at Montevideo, a different man. The ranking never reached most of the early volume, so this is still not a read of it."
+ },
+ {
+  "src": "FamilySearch - record index, spouse-pair query Mauricio Lerena with Petrona Aguilar; then the Concordia (Entre Rios) death act of 18 November 1910 and the Montevideo death act of 19 August 1925, read at the plate",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C3WD-L9X6-R",
+  "waypoint": null,
+  "what": "Lerena: the children of Mauricio Lerena and Petrona Aguilar (Trinidad 1866), and where they went",
+  "when": "2026-11-08",
+  "outcome": "yield",
+  "pages": "two entries read at the plate; no volume walked",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "uruguay",
+   "argentina",
+   "familysearch",
+   "record-index"
+  ],
+  "note": "Two entries read, not a walk and no nil. Ramon Lerena, 35, died at Concordia, Entre Rios, on 17 November 1910, son of Mauricio Lerena and Petrona Aguilar; Gregoria Lerena de Lopez died at Montevideo on 18 August 1925, daughter of the same couple. The index also lists two Concordia births of 1907 and 1908 to a Ramon or Nemesio Ramon Lerena and Laura Escobite, not opened."
  }
 ]
