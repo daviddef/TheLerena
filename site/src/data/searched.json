@@ -6279,5 +6279,23 @@
    "familysearch"
   ],
   "note": "Two acts read, not a walk and no nil. The San Jose marriage of 1 September 1847 and the 1900 Montevideo death of their son Guzman, whose act names both parents."
+ },
+ {
+  "src": "FamilySearch record index, Uruguay: the baptism of Petrona Aguilar, daughter of Julian Aguilar and Gregoria Quintana, searched by name and birth window 1847-1856 (places Uruguay, Flores, San Jose) and by both parents",
+  "url": "https://www.familysearch.org/search/record/results",
+  "waypoint": null,
+  "what": "Lerena: Petrona Aguilar's own baptism, to turn the name-based link with her parents into an act",
+  "when": "2026-11-08",
+  "outcome": "nothing",
+  "pages": null,
+  "walked": false,
+  "tags": [
+   "lerena",
+   "uruguay",
+   "flores",
+   "san-jose",
+   "familysearch"
+  ],
+  "note": "COVERAGE NULL, NOT A NIL. Four index queries (Petrona Aguilar, birth 1847-1856, with Uruguay, Flores or San Jose, and with the parents' names) returned no entry naming Petrona with Julian Aguilar and Gregoria Quintana; the index does not cover every register, and no baptism book was walked. Only near-names seen: Petrona Felipa Aguilar, daughter of Pedro Aguilar and Fermina Rojas, christened at San Jose in 1823 (Julian's sister, index only); Petrona Aguilar (b. 1849, Trinidad, Flores) in an entry with Fermina Aguilar and others, whose parents are not Julian and Gregoria; other Petrona and Julian Aguilars of Bolivia, Mexico and Chile."
  }
 ]
