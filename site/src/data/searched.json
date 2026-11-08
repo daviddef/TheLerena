@@ -6173,5 +6173,22 @@
    "canelones"
   ],
   "note": "One godfather entry read; it gives no parents. Not a walk and no nil."
+ },
+ {
+  "src": "FamilySearch - full-text searches for a burial of Fidel Lerena (1810-1839)",
+  "url": "https://www.familysearch.org/search/full-text?q.text=%22Fidel%20Lerena%22",
+  "waypoint": null,
+  "what": "Lerena: a death or burial of a Fidel, which would show whether Sancho's son Fidel (tree-only death 1822) is Gil's father",
+  "when": "2026-11-08",
+  "outcome": "pending",
+  "pages": "search results only; no plate opened",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "uruguay",
+   "familysearch",
+   "full-text"
+  ],
+  "note": "A COVERAGE NULL ONLY, NOT A NIL. Full text, first 300 results of each phrase, kept where the record date falls in 1810-1839: 'Fidel Lerena', 'Fidel Llerena', 'Fidel Serena', 'Fidel Gerena', 'Fidel Larena', 'Fidel Lorena', 'Fidel Lerina', with 'difunto' and 'sepultura' added to the first; the only Uruguayan hit is the Canelones baptism of December 1819 (godfather Fidel Gerena, read at the plate). Leresa and Levena not typed. The full text covers only the volumes FamilySearch has transcribed, so the burial registers of Canelones and Montevideo for 1820-1830 are unsearched, not empty."
  }
 ]

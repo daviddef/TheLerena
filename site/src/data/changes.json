@@ -2,8 +2,28 @@
  "mechanical": 53,
  "days": [
   {
+   "date": "2026-11-08",
+   "commits": [
+    {
+     "sha": "d176dc9",
+     "subject": "A Fidel Gerena at Canelones in December 1819 (godfather, plate read): probably Sancho's son Fidel, alive there the winter Gil was born; it neither joins nor separates him from Gil's father, so the join stays a candidate",
+     "body": ""
+    }
+   ]
+  },
+  {
    "date": "2026-11-05",
    "commits": [
+    {
+     "sha": "5e9b0ef",
+     "subject": "Lerena deploy fix: a span cut across story paragraphs is closed at the fragment (pairEmph), and a #viewer&p=<id> fragment is state, not an anchor, for check-links",
+     "body": ""
+    },
+    {
+     "sha": "0d8c371",
+     "subject": "Roots & Routes for the Lerena archive (/roots/) (#1)",
+     "body": "* Roots & Routes for the Lerena archive: /roots/, built from people.json (nobody living, nobody without a page)\ntools/build-tree-page.py turns people.json into a small GEDCOM (never committed) and runs the family-tree-page skill's scripts, vendored in tools/tree-page/.\nEach person is drawn where the register says they were born: places come from data/era-ground.tsv and era-towns.tsv, four hand-decided strings with reasons\n(place-additions.json, at the Atlas's own points) and the Atlas's unique country-confirmed names; qualified strings (presumed, from a tree) are never placed.\nColour is the Record Atlas surname catalogue's family, read at build. /roots/ is in the book (Part VI) and the Start menu; roots/index is exempted from the\nshared-page ratchet in writing. The person page is not touched: its chart mode has no \"where\" slot (story mode only).\n* Roots & Routes: unknown sex is 'u' (skill 1.7.0 re-vendored); a sex only where the register states or entails it (father/mother role, Don/Dona), no name inference; place taken from a relative flagged (bpe) for the 105 people\n* Person pages in story mode where there is something to tell, with Roots & Routes 'Where they lived' for everyone drawn\n1,344 pages tell the life (the family as the first stop, the register's note word for word as a card, the children and brothers and sisters as stops), 112 stay charts\n(nothing to tell), 2 living pages are unchanged. 1,045 carry the kit's PersonRootsViews in the where slot. The family is read from people.json through the kit's\nfamilyOf and living rule (storyfam.js). Spouses are rows of What the record says. The only words that change are 'the chart above', which says 'the family section\nabove' on a story page.\n---------\nCo-authored-by: Claude Sonnet 5.5 <noreply@anthropic.com>"
+    },
     {
      "sha": "fb07b1a",
      "subject": "Gil Lerena's children read at the plate: Faustino (baptised 4 August 1845, born 29 July, not 29 December 1844 as the machine text had it), Maria Salome (b. 22 October 1847) and Simon (b. 28 October 1848) at Montevideo; the 1847 and 1848 baptisms name the grandparents Fidel and Isidora Izaurralde again. Index and full-text searches for Gil's own baptism or his parents' marriage found nothing: a coverage null, no nil",
