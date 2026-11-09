@@ -6657,13 +6657,13 @@
   "waypointNote": "DGS film page; no wc=/owc= waypoint seen for this film, so none is written."
  },
  {
-  "src": "FamilySearch, Catedral de Montevideo, baptisms 19 May 1819-7 December 1822 (DGS film 007713376, item 1, Libro 16), images 3-58 (19 May to 18 December 1819) read at the plate",
+  "src": "FamilySearch, Catedral de Montevideo, baptisms 19 May 1819-7 December 1822 (DGS film 007713376, item 1, Libro 16), images 3-242 (19 May 1819 to 7 December 1822, the whole text) read at the plate",
   "url": "https://www.familysearch.org/search/film/007713376",
   "film": "007713376",
-  "what": "Lerena: where a baptism of Gil (b. about October 1818-1819, a child of Fidel Lerena and Isidora Ysaurralde) or of a Lerena child or godparent would be written in the first 50 pages of Libro 16; images 3-58 read at the plate at 1300 px by the main session; no Lerena, Llerena, Fidel, Gil, Isidora or Ysaurralde as a parent, child or godparent.",
+  "what": "Lerena: where a baptism of Gil (b. about October 1818-1819, a child of Fidel Lerena and Isidora Ysaurralde), of a sibling born about 1820-22, or of a Lerena child or godparent would be written in all of Libro 16; images 3-242 read at the plate at 1300 px by the main session; no baptism of a child of Fidel and Isidora, no Gil, no Ysaurralde; the one Lerena entry in the range (Luis Manuel, a son of Ramon Lerena and Maria Gonzalez, 15 September 1821, image 180) is already held and was re-found as a control.",
   "when": "2026-11-10",
   "outcome": "nothing",
-  "pages": "3-58 (filming card, cover, title page, pages 1-50, 19 May to 18 December 1819; images 7 and 8 are the same opening, the second marked 'Correccion', and images 47 and 57 repeat an opening of the image before); images 59-243 not read",
+  "pages": "3-242 (filming card, cover, title page, pages 1-226, 19 May 1819 to the last entry of 7 December 1822, and a blank opening; images 7 and 8 are the same opening, the second marked 'Correccion', images 47, 57, 94, 98, 103 and 107 repeat an opening of the image before, the last two with a pasted leaf over it, and image 108 shows page 96 uncovered); image 243 (end card) not looked at",
   "walked": false,
   "tags": [
    "lerena",
@@ -6671,7 +6671,7 @@
    "montevideo",
    "familysearch"
   ],
-  "note": "Read for the names in each entry and for parents and godparents, not transcribed and no cell zoomed, so not 'walked'. Terms read for: Lerena, Llerena; the catalogue's other forms were not checked one by one. Together with the row for film 007713375 this closes the cathedral window for Gil's birth (about 3 October 1818 to 2 October 1819, read to 14 October 1819); images 43-58 (to 18 December 1819) were read after that for siblings or a late baptism and also show nothing as a reading null.",
+  "note": "Read for the names in each entry and for parents and godparents, not transcribed and no cell zoomed except the Luis Manuel entry on image 180, so not 'walked'. Terms read for: Lerena, Llerena; the catalogue's other forms were not checked one by one. Together with the row for film 007713375 this closes the cathedral window for Gil's birth (about 3 October 1818 to 2 October 1819, read to 14 October 1819); images 43-242 (to 7 December 1822) were read after that for siblings or a late baptism and show nothing new as a reading null. Control: image 180 re-finds the already-held Luis Manuel Lerena baptism, so the reading does catch a Lerena entry. Near-names not counted: Fidel as an infant's given name (April 1821, 25 April 1822) and a godfather Fidel Mey (26 March 1822).",
   "waypoint": null,
   "waypointNote": "DGS film page; no wc=/owc= waypoint seen for this film, so none is written."
  }
