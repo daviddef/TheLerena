@@ -6496,17 +6496,17 @@
   "transcript": "A machine transcript exists (images 3 and 212 gave no text) but it garbles surnames; a scan gives a coverage null, and every hit needs the plate."
  },
  {
-  "src": "FamilySearch, Montevideo cathedral parish registers (koha 961086), film 007713373: the San Jose vice-parish baptism book from 6 July 1821 (item 7 of 13), every leaf read at the plate",
+  "src": "FamilySearch, Montevideo cathedral parish registers (koha 961086), film 007713373: the San Jose vice-parish baptism, marriage and death books from 1821 (item 7 of 13), every leaf read at the plate",
   "url": "https://www.familysearch.org/search/film/007713373",
   "film": "007713373",
   "groupId": "M985-665",
   "collection": "https://www.familysearch.org/search/collection/4134697",
   "waypoint": null,
   "waypointNote": "DGS film pages and the image viewer for this film carry only the film number and an image-group id (groupId); no wc=/owc= waypoint code appears, so none is written. The groupId changes with the image opened (M985-665, -66B, -6XS, -66R ...): the one written is from image 1.",
-  "what": "Lerena: where a baptism of a child of Fidel Lerena (tree-only death about 1822) and Isidora Ysaurralde, or a Lerena godparent, would be written. Images 1206-1285 read at the plate at 1300 px by the main session (names of each entry and the margin surname read; not a transcription of every entry); no Lerena, Llerena, Fidel or Isidora Ysaurralde seen. The book's parish baptisms run only to about January 1824; the later leaves are the foundlings of the Hospital de Caridad, to No. 849 of 11 October 1843.",
+  "what": "Lerena: where a baptism of a child of Fidel Lerena (tree-only death about 1822) and Isidora Ysaurralde, or a Lerena godparent, would be written. Baptisms (images 1206-1285), marriages 1821-Jan 1824 (1289-1296) and burials 1821-Jan 1824 (1301-1331) read at the plate at 1300 px by the main session (names of each entry and the margin surname read; not a transcription of every entry); no Lerena, Llerena, Fidel, Isidora or Ysaurralde seen in any of the three books. The book's parish baptisms run only to about January 1824; the later leaves are the foundlings of the Hospital de Caridad, to No. 849 of 11 October 1843.",
   "when": "2026-11-09",
   "outcome": "nothing",
-  "pages": "1206-1285 (all read at the plate; 1285 a page marked blank; 1287 on is the San Jose marriage book of 1824, not read)",
+  "pages": "1206-1285 baptisms, 1289-1296 marriages, 1301-1331 deaths (all read at the plate; none transcribed)",
   "walked": false,
   "tags": [
    "lerena",
@@ -6548,7 +6548,7 @@
    {
     "n": 7,
     "images": "1203-1334",
-    "what": "Libro 1 de Bautismos, Vice Parroquia de San Jose, from 6 July 1821 (1204 spine, 1205 title page, entries 1206-1284 (read at the plate): parish baptisms to about January 1824, then the Hospital de Caridad foundlings to October 1843, No. 849; 1285 blank), then Libro 1 de Matrimonios of the same vice-parish begun 30 July 1824 (1287 spine, 1288 title page, entries from 1289; 1332 blank, 1334 end-of-item card), the marriage book not read"
+    "what": "Libro 1 de Bautismos, Vice Parroquia de San Jose, from 6 July 1821 (1204 spine, 1205 title page, entries 1206-1284 read at the plate: parish baptisms to about January 1824, then the Hospital de Caridad foundlings to October 1843, No. 849; 1285 blank); Libro 1 de Matrimonios of the same vice-parish begun 30 July 1821 (1287 spine, 1288 title page, entries 1289-1296, blank 1297-1298, read at the plate); Libro de Difuntos from 30 July 1821 (1299 spine, 1300 title page, burials 1301-1331 to 21 January 1824, read at the plate; 1332-1333 blank, 1334 end-of-item card of volume 7, roll 84). No Lerena in any."
    },
    {
     "n": 8,
@@ -6582,7 +6582,7 @@
    }
   ],
   "transcript": "The machine transcript is empty for most images of this film (none on images 210, 322, 611, 972, 985, 1206 or 1210 on; about 45 of 50 scanned at 232-276 had none), so a transcript scan proves nothing: only plates can show what the books hold.",
-  "note": "No Lerena or Llerena seen on images 1206-1285. All read at the plate by the main session at 1300 px: the margin surname of each entry and the names in its text; the Lema entry of 1210 and the margin of No. 576 on 1257 (Ley or Lay) zoomed. Walked is left false: the entries were read for the name, not transcribed, so the volume is not offered as every-entry walked for other families. An earlier delegated read is not relied on. The parish baptisms of 1824-1836 are not in this item. The army and extramuros registers listed in the catalogue note for this film were not found in the 13 items."
+  "note": "No Lerena or Llerena seen on images 1206-1285. All read at the plate by the main session at 1300 px: the margin surname of each entry and the names in its text; the Lema entry of 1210 and the margin of No. 576 on 1257 (Ley or Lay) zoomed. Walked is left false: the entries were read for the name, not transcribed, so the volume is not offered as every-entry walked for other families. An earlier delegated read is not relied on. The marriage book (1289-1296) and the death book (1301-1331) of the same vice-parish, 1821 to January 1824, were also read at the plate the same way: no Lerena, Llerena, Fidel, Isidora or Ysaurralde. The parish baptisms of 1824-1836 are not in this item. The army and extramuros registers listed in the catalogue note for this film were not found in the 13 items."
  },
  {
   "src": "FamilySearch, Montevideo cathedral parish registers (koha 961086), film 007713387: the index volume, 2,992 images",
