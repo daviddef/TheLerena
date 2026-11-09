@@ -6603,5 +6603,19 @@
    "familysearch"
   ],
   "note": "Images 1-1540 and 1750-1850 are restricted online (checked 9 November 2026 on image 1); only a FamilySearch Center or affiliate library can show them. This is a rough sampled map, not item boundaries from the viewer (the 'items' here are sampled ranges); the 1800-1948 death index was not found; no search of the loadable parts was made. Not worked round. Sampled map of the image ranges (not item boundaries): 1-1540: Restricted images (padlock in the viewer: 'This image is unavailable for online viewing at this time'); also 1750-1850; 1560-1700: Baptism index, S names, from 1821; marriages 1789-98 by groom at 1620-1700; 2000-2200: Marriage index of the 1900s, to letter V, 1988-89; 2300-2450: Baptism index by libro and year (libro 16-24, 1868-1903); 2500-2650: An index of 1921-28 (libro 25); 2750-2992: The 1929-54 Buceo death registers."
+ },
+ {
+  "src": "FamilySearch full-text search, Uruguay filter: Isidora Ysaurralde (and her spellings) and Fidel Lerena or Llerena, the parents of Gil Lerena",
+  "url": "https://www.familysearch.org/en/search/full-text/results",
+  "waypoint": null,
+  "what": "Lerena: any record of Isidora Ysaurralde (Izaurralde, Isaurralde, Yzaurralde, Ysidora forms) or of Fidel Lerena or Llerena other than the 1845 marriage act of Gil. Phrases typed: Isidora Ysaurralde, Isidora Izaurralde, Isidora Isaurralde, Isidora Yzaurralde, Ysidora Ysaurralde, Ysidora Izaurralde, Ysidora Llerena, Fidel Llerena, Fidel Lerena. Machine-text full-text index; the other attested spellings of Lerena were not tried.",
+  "when": "2026-11-09",
+  "outcome": "nothing",
+  "note": "Nothing new for Gil's parents. The one Isidora Ysaurralde hit is a burial of 1779 (a single woman, so not Gil's mother); the two Fidel Lerena hits are a different Fidel, alive in 1889. A coverage null of a partial machine index, not a nil. Registers carrying the bare surname Ysaurralde that were not opened are listed in data/sources-consulted.tsv.",
+  "tags": [
+   "lerena",
+   "uruguay",
+   "familysearch"
+  ]
  }
 ]
