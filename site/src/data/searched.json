@@ -6636,5 +6636,43 @@
   "note": "Read for the name in each entry's margin and text, not transcribed; images 121-345 (December 1790 to about March 1818) and the index images 3-119 are unread, so this is not a Florida nil for Isidora Ysaurralde's own baptism or for Fidel. Two pairs of images (351/353, 352/354) look like second exposures of the same openings. A same-day indexed-record search (Uruguay Catholic Church Records, Isidora with Ysaurralde and the index's folded spellings) found no Isidora baptised to Ysaurralde parents in 1770-1825 and nothing with Florida as the place; the Fidel-and-Isidora hits are Gil's children's baptisms of 1845-1850 (an index null, machine-indexed).",
   "waypoint": null,
   "waypointNote": "DGS film page; no wc=/owc= waypoint seen for this film, so none is written."
+ },
+ {
+  "src": "FamilySearch, Catedral de Montevideo, baptisms 29 September 1816-19 May 1819 (DGS film 007713375, last item), images 3264-3323 (22 September 1818 to the end of the book) read at the plate",
+  "url": "https://www.familysearch.org/search/film/007713375",
+  "film": "007713375",
+  "what": "Lerena: where a baptism of Gil (b. about October 1818-1819, a child of Fidel Lerena and Isidora Ysaurralde) or of a Lerena child or godparent would be written in the cathedral's baptism book; images 3264-3323 read at the plate at 1300 px by the main session; no Lerena, Llerena, Fidel, Gil, Isidora or Ysaurralde as a parent, child or godparent.",
+  "when": "2026-11-10",
+  "outcome": "nothing",
+  "pages": "3264-3323 (22 September 1818 to 19 May 1819, the end of the item); images 3091-3263 (29 September 1816 to 21 September 1818) not read",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "uruguay",
+   "montevideo",
+   "familysearch"
+  ],
+  "note": "Read for the names in each entry and for parents and godparents, not transcribed and no cell zoomed, so not 'walked'. Terms read for: Lerena, Llerena; the catalogue's other forms (Gerena, Lerena with a tilde, Leresa, Lerina, Levena, Lorena, Serena) were not checked one by one. A reading null for Lerena and Llerena in the Gil window of this book, not a nil for Gil's baptism: he may be in another parish or a later entry.",
+  "waypoint": null,
+  "waypointNote": "DGS film page; no wc=/owc= waypoint seen for this film, so none is written."
+ },
+ {
+  "src": "FamilySearch, Catedral de Montevideo, baptisms 19 May 1819-7 December 1822 (DGS film 007713376, item 1, Libro 16), images 3-42 (19 May to 14 October 1819) read at the plate",
+  "url": "https://www.familysearch.org/search/film/007713376",
+  "film": "007713376",
+  "what": "Lerena: where a baptism of Gil (b. about October 1818-1819, a child of Fidel Lerena and Isidora Ysaurralde) or of a Lerena child or godparent would be written in the first 36 pages of Libro 16; images 3-42 read at the plate at 1300 px by the main session; no Lerena, Llerena, Fidel, Gil, Isidora or Ysaurralde as a parent, child or godparent.",
+  "when": "2026-11-10",
+  "outcome": "nothing",
+  "pages": "3-42 (filming card, cover, title page, pages 1-36, 19 May to 14 October 1819; images 7 and 8 are the same opening, the second marked 'Correccion'); images 43-243 not read",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "uruguay",
+   "montevideo",
+   "familysearch"
+  ],
+  "note": "Read for the names in each entry and for parents and godparents, not transcribed and no cell zoomed, so not 'walked'. Terms read for: Lerena, Llerena; the catalogue's other forms were not checked one by one. Together with the row for film 007713375 this closes the cathedral window for Gil's birth (about 3 October 1818 to 2 October 1819, read to 14 October 1819) as a reading null.",
+  "waypoint": null,
+  "waypointNote": "DGS film page; no wc=/owc= waypoint seen for this film, so none is written."
  }
 ]
