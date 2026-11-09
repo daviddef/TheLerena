@@ -6611,7 +6611,7 @@
   "what": "Lerena: any record of Isidora Ysaurralde (Izaurralde, Isaurralde, Yzaurralde, Ysidora forms) or of Fidel Lerena or Llerena other than the 1845 marriage act of Gil. Phrases typed: Isidora Ysaurralde, Isidora Izaurralde, Isidora Isaurralde, Isidora Yzaurralde, Ysidora Ysaurralde, Ysidora Izaurralde, Ysidora Llerena, Fidel Llerena, Fidel Lerena. Machine-text full-text index; the other attested spellings of Lerena were not tried.",
   "when": "2026-11-09",
   "outcome": "nothing",
-  "note": "Nothing new for Gil's parents. The one Isidora Ysaurralde hit is a burial of 1779 (a single woman, so not Gil's mother); the two Fidel Lerena hits are a different Fidel, alive in 1889. A coverage null of a partial machine index, not a nil. Registers carrying the bare surname Ysaurralde that were not opened are listed in data/sources-consulted.tsv.",
+  "note": "Nothing new for Gil's parents. The one Isidora Ysaurralde hit is a burial of 1779 (a single woman, so not Gil's mother); the two Fidel Lerena hits are a different Fidel, alive in 1889. A coverage null of a partial machine index, not a nil. The machine transcripts of 18 of the 129 hits for the bare surname Ysaurralde (Las Viboras, Florida, Canelones, San Jose de Mayo) were read around the name: no Isidora, Lerena or Fidel in any. The Florida baptism book 1791-1819 was not scanned image by image. Details in data/sources-consulted.tsv.",
   "tags": [
    "lerena",
    "uruguay",
