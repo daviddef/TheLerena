@@ -6358,13 +6358,13 @@
   "note": "One act read, not a walk and no nil. It names the grandparents Mauricio Lerena (fifty, widower, employee, Montevideo) and Petrona Aguilar (dead at Porongos, Durazno), the father at twenty-eight, and by a marginal note the death of the child on 23 July 1905."
  },
  {
-  "src": "FamilySearch, Catedral de Montevideo, Baptism Records 29 September 1816 - 19 May 1819 and 19 May 1819 - 7 December 1822 (DGS films 007713375 and 007713376), machine transcript scanned",
+  "src": "FamilySearch, Catedral de Montevideo, Baptism Records 19 May 1819 - 7 December 1822 (DGS film 007713376), machine transcript scanned",
   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C9B7-YSJR-N",
   "waypoint": null,
-  "what": "Lerena: a baptism of Gil, son of Fidel Lerena and Isidora Ysaurralde (born about October 1818 - 1819), in the cathedral baptisms of Montevideo, September 1816 - December 1822",
+  "what": "Lerena: a baptism of Gil, son of Fidel Lerena and Isidora Ysaurralde (born about October 1818 - 1819), in the cathedral baptisms of Montevideo, to December 1822",
   "when": "2026-11-09",
   "outcome": "nothing",
-  "pages": "images 1-228 of the first item and 3-243 of the second (243 is the end-of-item card, 242 blank), machine transcript only; plates not walked",
+  "pages": "3-243 (242 two blank pages, 243 the end-of-item card), machine transcript only; plates not walked",
   "walked": false,
   "tags": [
    "lerena",
@@ -6381,6 +6381,34 @@
     "n": 1,
     "images": "1-243",
     "what": "Baptism records of the cathedral, 19 May 1819 - 7 December 1822 (242 is two blank pages, 243 the end-of-item card)"
+   }
+  ],
+  "transcript": "A machine transcript exists for most images, but it garbles surnames (it read the heading 'Francisco Sotero' as 'Loreno' and Lerena as Perena/Serena/Lorena): a scan gives a coverage null for a name, never a nil, and every hit needs the plate."
+ },
+ {
+  "src": "FamilySearch, Catedral de Montevideo, Baptism Records 29 September 1816 - 19 May 1819 (DGS film 007713375), machine transcript scanned",
+  "url": "https://www.familysearch.org/search/film/007713375",
+  "waypoint": null,
+  "what": "Lerena: a baptism of Gil, son of Fidel Lerena and Isidora Ysaurralde (born about October 1818 - 1819), in the cathedral baptisms of Montevideo from September 1816",
+  "when": "2026-11-09",
+  "outcome": "nothing",
+  "pages": "1-228 of the item's 233 (the last five labels and blanks), machine transcript only; plates not walked",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "uruguay",
+   "montevideo",
+   "familysearch"
+  ],
+  "note": "A COVERAGE NULL, NOT A NIL. Scanned for Lerena, Llerena, Lorena, Serena, Gerena, Larena, Lerina and other near spellings, and for Fidel, Gil and Isaurralde forms; transcript garbles names; the second item was scanned to its end (7 December 1822) on 9 November 2026. One transcript hit there (image 207) is the act of 24 April 1822 for Francisco Sotero del Corazon de Jesus, a machine misreading of the heading, read at the plate. Found instead the baptisms of Angel Fructuoso (29 October 1817) and Luis Manuel (15 September 1821), sons of Ramon Lerena and Maria Gonzalez (plates read).",
+  "film": "007713375",
+  "collection": "https://www.familysearch.org/search/collection/4134697",
+  "waypointNote": "DGS film pages and the image viewer for this film carry only the film number and an image-group id (groupId); no wc=/owc= waypoint code appears, so none is written.",
+  "items": [
+   {
+    "n": 1,
+    "images": "1-233",
+    "what": "Baptism records of the cathedral, 29 September 1816 - 19 May 1819 (images 229-233 labels and blanks)"
    }
   ],
   "transcript": "A machine transcript exists for most images, but it garbles surnames (it read the heading 'Francisco Sotero' as 'Loreno' and Lerena as Perena/Serena/Lorena): a scan gives a coverage null for a name, never a nil, and every hit needs the plate."
