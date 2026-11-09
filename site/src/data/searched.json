@@ -6657,13 +6657,13 @@
   "waypointNote": "DGS film page; no wc=/owc= waypoint seen for this film, so none is written."
  },
  {
-  "src": "FamilySearch, Catedral de Montevideo, baptisms 19 May 1819-7 December 1822 (DGS film 007713376, item 1, Libro 16), images 3-42 (19 May to 14 October 1819) read at the plate",
+  "src": "FamilySearch, Catedral de Montevideo, baptisms 19 May 1819-7 December 1822 (DGS film 007713376, item 1, Libro 16), images 3-58 (19 May to 18 December 1819) read at the plate",
   "url": "https://www.familysearch.org/search/film/007713376",
   "film": "007713376",
-  "what": "Lerena: where a baptism of Gil (b. about October 1818-1819, a child of Fidel Lerena and Isidora Ysaurralde) or of a Lerena child or godparent would be written in the first 36 pages of Libro 16; images 3-42 read at the plate at 1300 px by the main session; no Lerena, Llerena, Fidel, Gil, Isidora or Ysaurralde as a parent, child or godparent.",
+  "what": "Lerena: where a baptism of Gil (b. about October 1818-1819, a child of Fidel Lerena and Isidora Ysaurralde) or of a Lerena child or godparent would be written in the first 50 pages of Libro 16; images 3-58 read at the plate at 1300 px by the main session; no Lerena, Llerena, Fidel, Gil, Isidora or Ysaurralde as a parent, child or godparent.",
   "when": "2026-11-10",
   "outcome": "nothing",
-  "pages": "3-42 (filming card, cover, title page, pages 1-36, 19 May to 14 October 1819; images 7 and 8 are the same opening, the second marked 'Correccion'); images 43-243 not read",
+  "pages": "3-58 (filming card, cover, title page, pages 1-50, 19 May to 18 December 1819; images 7 and 8 are the same opening, the second marked 'Correccion', and images 47 and 57 repeat an opening of the image before); images 59-243 not read",
   "walked": false,
   "tags": [
    "lerena",
@@ -6671,7 +6671,7 @@
    "montevideo",
    "familysearch"
   ],
-  "note": "Read for the names in each entry and for parents and godparents, not transcribed and no cell zoomed, so not 'walked'. Terms read for: Lerena, Llerena; the catalogue's other forms were not checked one by one. Together with the row for film 007713375 this closes the cathedral window for Gil's birth (about 3 October 1818 to 2 October 1819, read to 14 October 1819) as a reading null.",
+  "note": "Read for the names in each entry and for parents and godparents, not transcribed and no cell zoomed, so not 'walked'. Terms read for: Lerena, Llerena; the catalogue's other forms were not checked one by one. Together with the row for film 007713375 this closes the cathedral window for Gil's birth (about 3 October 1818 to 2 October 1819, read to 14 October 1819); images 43-58 (to 18 December 1819) were read after that for siblings or a late baptism and also show nothing as a reading null.",
   "waypoint": null,
   "waypointNote": "DGS film page; no wc=/owc= waypoint seen for this film, so none is written."
  }
