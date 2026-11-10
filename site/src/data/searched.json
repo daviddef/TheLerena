@@ -6625,7 +6625,7 @@
   "what": "Lerena: where a baptism of Gil (b. about October 1818-1819, a child of Fidel Lerena and Isidora Ysaurralde) or of a Lerena child or godparent would be written, in the Florida parish's first baptism book; images 346-367 read at the plate at 1300 px by the main session; no Lerena, Llerena, Fidel, Gil, Isidora or Ysaurralde seen.",
   "when": "2026-11-09",
   "outcome": "nothing",
-  "pages": "346-367 (March 1818 to the last entry of 1 January 1820; 368 a 1868 visitation, 369 end card); images 121-345 of the same book not read",
+  "pages": "346-367 (March 1818 to the last entry of 1 January 1820; 368 a 1868 visitation, 369 end card); images 121-345 of the same book were not read when this row was written (read afterwards, see the 121-345 row)",
   "walked": false,
   "tags": [
    "lerena",
@@ -6644,7 +6644,7 @@
   "what": "Lerena: where a baptism of Gil (b. about October 1818-1819, a child of Fidel Lerena and Isidora Ysaurralde) or of a Lerena child or godparent would be written in the cathedral's baptism book; images 3264-3323 read at the plate at 1300 px by the main session; no Lerena, Llerena, Fidel, Gil, Isidora or Ysaurralde as a parent, child or godparent.",
   "when": "2026-11-10",
   "outcome": "nothing",
-  "pages": "3264-3323 (22 September 1818 to 19 May 1819, the end of the item); images 3091-3263 (29 September 1816 to 21 September 1818) not read",
+  "pages": "3264-3323 (22 September 1818 to 19 May 1819, the end of the item); images 3091-3263 (29 September 1816 to 21 September 1818) were not read when this row was written; see the Libro 15 row",
   "walked": false,
   "tags": [
    "lerena",
@@ -6674,5 +6674,42 @@
   "note": "Read for the names in each entry and for parents and godparents, not transcribed and no cell zoomed except the Luis Manuel entry on image 180, so not 'walked'. Terms read for: Lerena, Llerena; the catalogue's other forms were not checked one by one. Together with the row for film 007713375 this closes the cathedral window for Gil's birth (about 3 October 1818 to 2 October 1819, read to 14 October 1819); images 43-242 (to 7 December 1822) were read after that for siblings or a late baptism and show nothing new as a reading null. Control: image 180 re-finds the already-held Luis Manuel Lerena baptism, so the reading does catch a Lerena entry. Near-names not counted: Fidel as an infant's given name (April 1821, 25 April 1822) and a godfather Fidel Mey (26 March 1822).",
   "waypoint": null,
   "waypointNote": "DGS film page; no wc=/owc= waypoint seen for this film, so none is written."
+ },
+ {
+  "src": "FamilySearch, Catedral de Montevideo, baptisms 29 September 1816-19 May 1819 (DGS film 007713375, last item, Libro 15), images 3097-3263 (29 September 1816 to 21 September 1818) read at the plate",
+  "url": "https://www.familysearch.org/search/film/007713375",
+  "film": "007713375",
+  "what": "Lerena: where a baptism of an older sibling of Gil (a child of Fidel Lerena and Isidora Ysaurralde, born before October 1818), or of a Lerena child or godparent, would be written in Libro 15; images 3097-3263 read at the plate at 1300 px by the main session; no baptism of a child of Fidel and Isidora, no Gil, no Ysaurralde; the one Lerena-family name in the range is a godfather 'Pedro Antonio Llerena' (18 October 1817, page 83, image 3180, zoomed), whose identity is not established.",
+  "when": "2026-11-10",
+  "outcome": "nothing",
+  "pages": "3097-3263 (title page 3096, pages 1-172 and the join with 3264, 29 September 1816 to 21 September 1818; images 3091-3094 are the end of the earlier volume, 3095 the cover)",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "uruguay",
+   "montevideo",
+   "familysearch"
+  ],
+  "note": "Read for the names in each entry and for parents and godparents, not transcribed, and only the one godparent cell zoomed, so not 'walked'. Terms read for: Lerena, Llerena; the catalogue's other forms were not checked one by one. No control available in this range. The godfather Pedro Antonio Llerena is the same name as a held candidate (Pedro Antonio, son of Sancho, b. 1793) but the entry gives no parentage, so no identification is made. With the rows for 3264-3323 and film 007713376 this closes Libro 15 and Libro 16 as reading nulls for Gil's baptism and siblings.",
+  "waypoint": null,
+  "waypointNote": "DGS film page; no wc=/owc= waypoint seen for this film, so none is written."
+ },
+ {
+  "src": "FamilySearch, Florida (Pintado / San Fernando de la Florida) baptisms, Libro 1 January 1791-March 1818 (DGS film 008164275, item 3), images 121-345 read at the plate",
+  "url": "https://www.familysearch.org/search/film/008164275",
+  "film": "008164275",
+  "what": "Lerena: where a baptism of Gil's mother Isidora Ysaurralde, of Fidel Lerena, or of a Lerena child would be written in the Florida parish baptism book; images 121-345 read at the plate at 1300 px by the main session; no Lerena, Llerena, Fidel or Gil; one candidate Ysidora Josefa Yzaurral(de) (baptised 24 January 1798, image 166, zoomed) and an adult Ysidora Yzaurral as madrina in July 1814 (image 300, zoomed) of the Yzaurral(de) family of the Arroyo de la Cruz, recorded as appearances only, not an identification",
+  "when": "2026-11-10",
+  "outcome": "nothing",
+  "pages": "121-345",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "uruguay",
+   "florida",
+   "familysearch"
+  ],
+  "waypoint": null,
+  "waypointNote": "Waypoint not established; film number only (the film page's default waypoint names only the first segment)."
  }
 ]
