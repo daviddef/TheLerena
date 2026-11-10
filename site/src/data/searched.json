@@ -6774,7 +6774,7 @@
   "what": "Lerena: where a baptism of Gil (b. about October 1818-1819, a child of Fidel Lerena and Isidora Ysaurralde) or of a Lerena child would be written in the Canelones cathedral baptism book; frames 1512-1661 read at the plate at 1300 px by the main session (to the last entry of 31 December 1822); no Lerena, Llerena, Fidel, Gil, Isidora or Ysaurralde as a parent or child; one godfather 'Fidel Gerena' (30 December 1819, frame 1549, zoomed).",
   "when": "2026-11-10",
   "outcome": "nothing",
-  "pages": "film frames 1512-1661 of the item (item images about 63-212; 28 August 1818 to 31 December 1822, the end of the book; 1662 is the end-of-item card); frames 1450-1511 (March 1816-August 1818) not read",
+  "pages": "film frames 1512-1661 of the item (item images about 63-212; 28 August 1818 to 31 December 1822, the end of the book; 1662 is the end-of-item card); frames 1450-1511 read in a following entry (10 November 2026)",
   "walked": false,
   "tags": [
    "lerena",
@@ -6850,5 +6850,32 @@
   "waypoint": null,
   "waypointNote": "Waypoint not established; film number only (the film page's default waypoint names only the first segment).",
   "note": "A reading null for every other Lerena-type, Fidel, Isidora and widow-of-Fidel entry: margin names and headings read at the plate two images to a plate, entry text where legible, nothing transcribed, only the Gil act, the Vega and Lerena act and the near-name entries zoomed, so not 'walked'. Terms read for: Lerena, Llerena, Gerena, Serena, Fidel, Gil, Isidora, Ysidora, Izaural, Isaural, Ysaurralde, Izaurralde, Yzaurral; the catalogue's cover check passes for these terms (Lerama, Larena, Perena are cases or leads). Near-names not counted (images 236-379): Lerame / Lerama (p. 121), Llorene and Pellorena (p. 129), Igarzabal / Yrazabal, Larrulet, Lallera, Oyarzabal, Lerrori, Laguerra, Llorfa, Lores (a witness, p. 159), Lecuna (a witness, p. 163: no r). A later 1864 marginal note beside the Llorene entry (p. 129) is not read. In images 380-532 (Libro 9 pp. 33-182) the near-names not counted are Lona (p. 128, natives of Italy), Ledoux (p. 132), Correa (p. 141), Lema (p. 153: Juan Tomas Lema, no r), Lenguas (p. 168), Mena (p. 179) and Basque and French entries beginning Lar-. The book's own index leaves seen (folios 125-146) were not used to search. The cathedral marriages after 10 September 1853 are in a later book, not read."
+ },
+ {
+  "src": "FamilySearch, Catedral Nuestra Senora de Guadalupe, Canelones, baptisms March 1816 - December 1822 (item 7 of DGS film 008166571), frames 1450-1511 (title page and 14 March 1816 to 27 August 1818) read at the plate",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS2Z-W9NZ-F",
+  "film": "008166571",
+  "what": "Lerena: an older child of Fidel Lerena and Isidora Ysaurralde, or any Lerena household, in the first part of the Canelones cathedral baptism book (before Gil's birth window); frames 1450-1511 read at the plate at 1300 px by the main session; no Lerena, Llerena, Gerena, Gil, Isidora or Ysaurralde as parent, godparent or child.",
+  "when": "2026-11-10",
+  "outcome": "nothing",
+  "pages": "film frames 1450-1511 of the item (item images about 1-62; title page at 1453, entries from 1454, p. 1, 14 March 1816, to the baptisms of 27 August 1818); frames 1512-1661 are in the entry before this one",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "uruguay",
+   "canelones",
+   "familysearch"
+  ],
+  "note": "A reading null, not a nil and not walked: margin names, child, parents and godparents read two frames to a plate, nothing transcribed, one entry zoomed. The Atlas cover check for Lerena exited 0 for the forms looked for (Lerena, Llerena, Gerena, Lereña, Leresa, Lerina, Levena, Lorena, Serena, Sereña, Loreña, Larena, Perena, Lerama). Not counted: Pedro Lazella (or Larella) and Maria Burges, parents of Maria Fernanda (baptised 4 June 1816, frame 1458, zoomed); a baby Fidel, son of Luciano Prado and Natividad Figueroa (27 April 1818, frame 1502). Frame 1499 is a second exposure of 1498. With this entry the whole baptism book from its title page to its closing note (frames 1453-1660) has been read at this level.",
+  "waypoint": null,
+  "waypointNote": "DGS film pages and the image viewer for this film carry only the film number and an image-group id (groupId); no wc=/owc= waypoint code appears, so none is written.",
+  "collection": "https://www.familysearch.org/search/collection/4134697",
+  "items": [
+   {
+    "n": 7,
+    "images": "1-213",
+    "what": "Baptisms, Catedral Nuestra Senora de Guadalupe, Canelones, March 1816 - December 1822"
+   }
+  ]
  }
 ]
