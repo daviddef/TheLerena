@@ -6831,5 +6831,24 @@
   "waypoint": null,
   "waypointNote": "Waypoint not established; film number only (the film page's default waypoint names only the first segment).",
   "note": "A reading null for every other Lerena-type name, not a nil: margin names and entry text read at the plate two images to a plate, only the one Lerena entry zoomed, so not 'walked'. Terms read for: Lerena, Llerena, Gerena, Fidel, Gil, Isidora, Ysidora, Ysaurralde, Izaurralde, Yzaurral; the catalogue's other forms were not checked one by one, so no nil across spellings. The surname is written LERENA in the one entry found. In images 159-235 a free family and the people it enslaved appear under a name written Lerama (pp. 49 and 81, three-hump m, zoomed) and in a hand where it can be read Lerena or Lesena (p. 76, zoomed, not settled); whether it is one name or two is not established, and no person is tied to the Lerena archive. Also not counted: Igarzabal (p. 61)."
+ },
+ {
+  "src": "FamilySearch, Montevideo Iglesia Matriz (Catedral) marriages, Libro 8 pp. 82-185 and Libro 9 pp. 1-32 (DGS film 007713383 'Matrimonios, 1826-1902', roll 94), images 236-379 (about 28 August 1840 to about 15 January 1846) read at the plate",
+  "url": "https://www.familysearch.org/search/film/007713383",
+  "film": "007713383",
+  "what": "Lerena: the marriage act of Gil Lerena and Anastasia Santa Cruz, 15 January 1845 (Libro 9 p. 14, image 361), read a second time in the book itself and zoomed: Gil 'natural de este Estado', son of the late Fidel Llerena and of Ysidora Izaural, 'tambien de esta Repca'; the mother's surname is whole, 'Izaural'; witnesses Rafael Quinones and Carmen Presentao. No Fidel Lerena, no Isidora Izaural remarriage, no widow of a Fidel and no marriage of a Lerena child in images 236-379; the Lerama / Lerena-type family name (Lerame on p. 121, image 275) is not settled and not tied to this archive.",
+  "when": "2026-11-10",
+  "outcome": "yield",
+  "pages": "film images 236-379 (Libro 8 pp. 82-185, about 28 August 1840 to 28 October 1843; cards 341-346; Libro 9 pp. 1-32, 1 November 1843 to about 15 January 1846); images 300-301 and 348-349 are second exposures of one opening each; images after 379 unread",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "uruguay",
+   "montevideo",
+   "familysearch"
+  ],
+  "waypoint": null,
+  "waypointNote": "Waypoint not established; film number only (the film page's default waypoint names only the first segment).",
+  "note": "A reading null for every other Lerena-type, Fidel, Isidora and widow-of-Fidel entry: margin names and headings read at the plate two images to a plate, entry text where legible, nothing transcribed, only the Gil act and a few witnesses zoomed, so not 'walked'. Terms read for: Lerena, Llerena, Gerena, Serena, Fidel, Gil, Isidora, Ysidora, Izaural, Isaural, Ysaurralde, Izaurralde, Yzaurral; the catalogue's cover check passes for these terms (Lerama, Larena, Perena are cases or leads). Near-names not counted: Lerame / Lerama (p. 121), Llorene and Pellorena (p. 129), Igarzabal / Yrazabal, Larrulet, Lallera, Oyarzabal, Lerrori, Laguerra, Llorfa, Lores (a witness, p. 159), Lecuna (a witness, p. 163: no r). A later 1864 marginal note beside the Llorene entry (p. 129) is not read."
  }
 ]
