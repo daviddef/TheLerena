@@ -6713,13 +6713,13 @@
   "waypointNote": "Waypoint not established; film number only (the film page's default waypoint names only the first segment)."
  },
  {
-  "src": "FamilySearch, Montevideo Iglesia Matriz (Catedral) marriages, Libro 1726-1826 (DGS film 007713382), images 3100-3187 (22 December 1815 to 1 January 1820) read at the plate",
+  "src": "FamilySearch, Montevideo Iglesia Matriz (Catedral) marriages, Libro 1726-1826 (DGS film 007713382), images 3100-3227 (22 December 1815 to about 28 April 1822) read at the plate",
   "url": "https://www.familysearch.org/search/film/007713382",
   "film": "007713382",
-  "what": "Lerena: one marriage found, Fidel Lerena (native of Canelones, son of Sancho) and an Ysidora whose surname reads Lenoranes, 23 January 1818 (image 3131, zoomed); a candidate for Gil's parents, not an identification (the surname is not read as Ysaurralde); no other Lerena or Llerena, Fidel or Isidora Ysaurralde in the range (frames 3132-3187, 25 January 1818 to 1 January 1820, read at the plate with no hit; frames 3172-3175 are the end of book 6, its volume cards and the title page of Libro 7 de Matrimonios, begun May 1819, whose first entries run from 3 May 1819)",
+  "what": "Lerena: one marriage found, Fidel Lerena (native of Canelones, son of Sancho) and an Ysidora whose surname reads Lenoranes, 23 January 1818 (image 3131, zoomed); a candidate for Gil's parents, not an identification (the surname is not read as Ysaurralde); no other Lerena or Llerena, Fidel or Isidora Ysaurralde in the range (frames 3132-3227, 25 January 1818 to about 28 April 1822, read at the plate with no hit (Libro 7 de Matrimonios pp. 1-52 from 3 May 1819: no Lerena, no Isidora Izaural or Ysidora marriage, no widow of a Fidel); frames 3172-3175 are the end of book 6, its volume cards and the title page of Libro 7 de Matrimonios, begun May 1819, whose first entries run from 3 May 1819)",
   "when": "2026-11-10",
   "outcome": "yield",
-  "pages": "3100-3187",
+  "pages": "3100-3227",
   "walked": false,
   "tags": [
    "lerena",
