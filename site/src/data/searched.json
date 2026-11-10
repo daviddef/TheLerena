@@ -6731,6 +6731,25 @@
   "waypointNote": "Waypoint not established; film number only (the film page's default waypoint names only the first segment)."
  },
  {
+  "src": "FamilySearch, Montevideo Iglesia Matriz (Catedral) marriages, Libro 7 de Matrimonios (DGS film 007713382), images 3228-3286 (late April 1822 to 3 August 1826) read at the plate",
+  "url": "https://www.familysearch.org/search/film/007713382",
+  "film": "007713382",
+  "what": "Lerena: a second Lerena marriage, a marriage of a widow Isidora Izaural[de] (Fidel's widow) or of a Lerena child in the Montevideo cathedral marriages, April 1822 to August 1826; images 3228-3286 read at the plate at 1300 px by the main session; no Lerena, Llerena, Fidel, Gil, Isidora or Ysaurralde as bride, groom, parent or witness.",
+  "when": "2026-11-10",
+  "outcome": "nothing",
+  "pages": "film images 3228-3286 (Libro 7 pp. 53-112; late April 1822 to 3 August 1826, the end of the marriages on this film; 3287 is the continues-on-another-roll card, Volumen 13, roll 93)",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "uruguay",
+   "montevideo",
+   "familysearch"
+  ],
+  "waypoint": null,
+  "waypointNote": "Waypoint not established; film number only (the film page's default waypoint names only the first segment).",
+  "note": "A reading null, not a nil: margin names and entry text read at the plate two images to a plate, nothing transcribed, one entry zoomed, so not 'walked'. Terms read for: Lerena, Llerena, Gerena, Fidel, Gil, Isidora, Ysidora, Ysaurralde, Izaurralde, Yzaurral; the catalogue's other forms were not checked one by one, so no nil across spellings. Images 3250 and 3251 are a second exposure of one opening. Near-names not counted: Paulina Josefa 'Leganes'/'Leonanes' (19 May 1824, image 3253, daughter of Luis and Petrona Concha of Buenos Aires, m. Lorenzo Jose Diaz) and Pedro Cabrera with Joaquina Gil (Nov 1822). The marriages after 3 August 1826 are on another roll, unread; the years before December 1815 are unread."
+ },
+ {
   "src": "FamilySearch, Uruguay Civil Registration 1879-2020, Montevideo certified copy no. 207 (Gil Lerena's marriage of 1845), DGS film 008166534 image 2659, plate read",
   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS2Z-ZQSW-Z",
   "film": "008166534",
