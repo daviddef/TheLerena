@@ -6812,5 +6812,24 @@
   "waypoint": null,
   "waypointNote": "Waypoint not established; film number only (the film page's default waypoint names only the first segment).",
   "note": "A reading null, not a nil: margin names and entry text read at the plate two images to a plate, nothing transcribed, nothing zoomed, so not 'walked'; the 1831-33 hand is looser and harder than 1826-30. Terms read for: Lerena, Llerena, Gerena, Fidel, Gil, Isidora, Ysidora, Ysaurralde, Izaurralde, Yzaurral; the catalogue's other forms were not checked one by one, so no nil across spellings. Near-names not counted: Lucia Barrena (1828), Vicenta Casimira Serena (1828), Manuel Gil (1827), Exerza, Ezcerza, Linan, and Ygnacia Barrena (10 November 1832)."
+ },
+ {
+  "src": "FamilySearch, Montevideo Iglesia Matriz (Catedral) marriages, Libro 7 pp. 216-247 and Libro 8 pp. 1-81 (DGS film 007713383 'Matrimonios, 1826-1902', roll 94), images 109-235 (28 November 1833 to about 28 August 1840) read at the plate",
+  "url": "https://www.familysearch.org/search/film/007713383",
+  "film": "007713383",
+  "what": "Lerena: a marriage of Don Luis Lerena and Dona Carolina Oribe, 4 October 1836 (Libro 8 p. 12, image 158, margin heading and parents' line zoomed): Luis Lerena, son of Sancho Lerena and Maria Fernandez, with Carolina Oribe, daughter of Manuel Oribe; the cathedral act behind the petition of 3 September 1836. No other Lerena-type name, no Isidora Izaural[de] or Ysaurralde remarriage and no widow of a Fidel in images 109-235 (the rest, images 159-235, Libro 8 pp. 13-81, shows none); a Lerama / Lerena-type family name in three 1839-1840 entries (pp. 49, 76, 81) is not settled and not tied to this archive.",
+  "when": "2026-11-10",
+  "outcome": "yield",
+  "pages": "film images 109-235 (Libro 7 pp. 216-247, Libro 8 pp. 1-81; 28 November 1833 to about 28 August 1840; pasted slips over parts of pp. 49-50, 54, 55 and 57, each page read clear in the other exposure); images after 235 unread",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "uruguay",
+   "montevideo",
+   "familysearch"
+  ],
+  "waypoint": null,
+  "waypointNote": "Waypoint not established; film number only (the film page's default waypoint names only the first segment).",
+  "note": "A reading null for every other Lerena-type name, not a nil: margin names and entry text read at the plate two images to a plate, only the one Lerena entry zoomed, so not 'walked'. Terms read for: Lerena, Llerena, Gerena, Fidel, Gil, Isidora, Ysidora, Ysaurralde, Izaurralde, Yzaurral; the catalogue's other forms were not checked one by one, so no nil across spellings. The surname is written LERENA in the one entry found. In images 159-235 a free family and the people it enslaved appear under a name written Lerama (pp. 49 and 81, three-hump m, zoomed) and in a hand where it can be read Lerena or Lesena (p. 76, zoomed, not settled); whether it is one name or two is not established, and no person is tied to the Lerena archive. Also not counted: Igarzabal (p. 61)."
  }
 ]
