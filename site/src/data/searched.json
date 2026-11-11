@@ -6913,5 +6913,25 @@
   ],
   "note": "Not Gil: no baptism of Gil or of a child of Fidel and Isidora turned up. The baptism of Pedro Avelino Amaro Lerena (2 October 1842) names his paternal grandparents Fidel Lerena and Antolina Rodriguez; his father Felix Lerena and mother Juana Roldan. A second Fidel, kept apart from Gil's father (his wife differs and his son was a father by 1842). The FamilySearch index garbled the surname ('Llama', 'Amano').",
   "waypointNote": "The image viewer for this record carries no wc=/owc= waypoint code; none is written."
+ },
+ {
+  "src": "FamilySearch catalogue, Nuestra Senora del Carmen del Cordon, Montevideo, film 007713388, Libro 6o de Bautismos (2 January 1842 to 7 May 1855)",
+  "url": "https://www.familysearch.org/search/film/007713388",
+  "waypoint": null,
+  "what": "Lerena: baptisms of any Lerena, in particular more children of Felix Lerena and Juana Roldan, the family of the second Fidel Lerena, and any baptism of Gil's children, Cordon 1842-55",
+  "when": "2026-11-11",
+  "outcome": "nothing",
+  "pages": "images 1172-1399 of film 007713388, every opening read at the plate (title leaves and pages from image 1174, p. 1, to the closing statement at 1396 and the end-of-item card at 1399; 1397-1398 a loose 1903 note); the book has no entries from February 1843 to December 1846 (Nota on p. 47, image 1220)",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "uruguay",
+   "montevideo",
+   "familysearch"
+  ],
+  "note": "No Lerena-type surname in the margin names, parents, grandparents or godparents read in the book, except the already-held no. 369 of 2 October 1842. A reading null, not a walked book and not a nil for anyone: two openings to a plate at about 1300 px, margin names and entries, a dozen doubtful names zoomed, nothing transcribed. The Atlas cover check for Lerena exited 0 on 11 November 2026 for the forms looked for (Lerena, Llerena, Gerena, Lereña, Leresa, Lerina, Levena, Lorena, Serena, Sereña, Loreña, Larena, Perena, Lerama). Not counted (zoomed): Leira (pp. 136, 154, 191), La Vina and Ledesma (p. 146), Lacroix (p. 194), Larguera (p. 213), Gregoria 'Lelen' (p. 128). The book has a real gap: a Nota on p. 47 says Cordon baptisms of February 1843 to December 1846 are in the Iglesia Matriz books (children born inside the lines) or 'en libro aparte' (outside the lines), so the years 1843-46 are not in this book and not read. Libro 7 (May 1855 to December 1863) follows on the same film from image 1402 and is unread. Layout: one opening per image, p. 1 at image 1174; priests Aramburu (1842-48, 1853 end), Palomar (from September 1848, signed Estrazulas y Lamas), Miralda (from December 1853).",
+  "film": "007713388",
+  "collection": "https://www.familysearch.org/search/collection/4134697",
+  "waypointNote": "DGS film pages and the image viewer for this film carry only the film number and an image-group id (groupId); no wc=/owc= waypoint code appears, so none is written."
  }
 ]
