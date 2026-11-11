@@ -6933,5 +6933,25 @@
   "film": "007713388",
   "collection": "https://www.familysearch.org/search/collection/4134697",
   "waypointNote": "DGS film pages and the image viewer for this film carry only the film number and an image-group id (groupId); no wc=/owc= waypoint code appears, so none is written."
+ },
+ {
+  "src": "FamilySearch catalogue, Montevideo cathedral parish registers (koha 961086), film 007713385, Defunciones, Libros 9, 10 and 11 de Difuntos (1832-1845)",
+  "url": "https://www.familysearch.org/search/film/007713385",
+  "waypoint": null,
+  "what": "Lerena: a burial of Fidel Lerena (dead by 15 January 1845) or any Lerena in the Montevideo cathedral burial books after January 1833, frames 5-726 read for margin names at the plate",
+  "when": "2026-11-11",
+  "outcome": "nothing",
+  "pages": "frames 5-726 (8 February 1832 to 25 March 1845; frames 91-98 a hospital block of 1833; 538 = 539 and 617 = 618 second exposures; 530-534 end-of-item card, filming label, 'Libro grande' card and blanks; Libro 11 title leaf at 535); frames 1-4 labels and charts; frames after 726 not read",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "uruguay",
+   "montevideo",
+   "familysearch"
+  ],
+  "note": "No Fidel Lerena or Llerena, and no other Lerena-type surname, in the margin names of the cathedral burials from 8 February 1832 to 25 March 1845. A reading null, not a walked book and not a nil for Fidel: margin names and dates only, on strips of the left 44% of each frame (frames 5-108 as whole openings); the body of the entries (parents, spouse, owner, witnesses) was not read; Lerena-shaped margin names were zoomed before naming. The Atlas cover check for Lerena exited 0 on 11 November 2026 for the forms looked for (Lerena, Llerena, Gerena, Lereña, Leresa, Lerina, Levena, Lorena, Serena, Sereña, Loreña, Larena, Perena, Lerama), with Fidel as a forename. Not counted: Llera (frame 222, zoomed) and Lecuna (frame 726, zoomed); read at strip size and not zoomed: Larralde, Larrat, Lalandi, Loyarraga. Not excluded: a death between January 1818 and 16 December 1820 (film 007713384, before image 3019, unread); a burial outside this parish; a burial written under another surname or only in the body of an entry; the cathedral index of deaths (film 007713387) is unopened. Layout: Libro 9o from 8 February 1832 (frame 5), Libro 10 from frame 145 (5 March 1836) to frame 529 (30 June 1842), Libro 11 from 1 July 1842 (title leaf 535, entries from 536, one page to a frame).",
+  "film": "007713385",
+  "collection": "https://www.familysearch.org/search/collection/4134697",
+  "waypointNote": "DGS film pages and the image viewer for this film carry only the film number and an image-group id (groupId); no wc=/owc= waypoint code appears, so none is written."
  }
 ]
