@@ -9,6 +9,9 @@ import JsonLd from "@daviddef/archive-kit/components/JsonLd.astro";
 import VisitCount from "@daviddef/archive-kit/components/VisitCount.astro";
 import BookHead from "@daviddef/archive-kit/components/BookHead.astro";
 import BookFoot from "@daviddef/archive-kit/components/BookFoot.astro";
+import PulseRibbon from "@daviddef/archive-kit/components/PulseRibbon.astro";
+import SearchPop from "@daviddef/archive-kit/components/SearchPop.astro";
+import { pulse } from "../lib/pulse.js";
 import book from "../data/book.json";
 import ring from "@daviddef/archive-kit/data/archives.json";
 /* every public asset gets a fingerprint, so a fix is never served stale */
@@ -30,7 +33,7 @@ const SITE = "The Lerena Archive";
    "Our line" rather than appearing in both. The labels are the names themselves: that list is also what the landing
    page at defranceski.com reads to show this archive's family pages, so a label must say which family it is. */
 const nav = [
-  ["Start", [["/", "Home"], ["/story/", "The story"], ["/about/", "About"], ["/trees/", "The trees"], ["/tree/", "Our line, drawn"], ["/roots/", "Roots & Routes"], ["/atlas/", "The Atlas"], ["/timeline/", "The Timeline"], ["/dna/", "The DNA"]]],
+  ["Start", [["/", "Home"], ["/story/", "The story"], ["/about/", "About"], ["/trees/", "The trees"], ["/tree/", "Our line, drawn"], ["/roots/", "Roots & Routes"], ["/atlas/", "The Atlas"], ["/timeline/", "The Timeline"], ["/whats-new/", "What's new"], ["/dna/", "The DNA"]]],
   ["Our line", [["/direct-line/", "The Spine"], ["/estate/", "The Estate"], ["/passport/", "The Passport"], ["/enrolment-card/", "The Enrolment Card"], ["/name/", "The Name"], ["/lines/", "The Lines"]]],
   ["The families", [["/families/", "The Families"], ["/taylor/", "The Taylors"], ["/families/brayley/", "Brayley"], ["/families/temple/", "Temple"], ["/families/fernandez/", "Fernandez"], ["/families/pelaez/", "Pelaez"], ["/families/gonzalez/", "Gonzalez"], ["/families/lenguas/", "Lenguas"], ["/families/cardozo/", "Cardozo"], ["/families/juanico/", "Juanico"], ["/families/traibel/", "Traibel"], ["/families/alvarez/", "Alvarez"], ["/families/larriera/", "Larriera"]]],
   ["The work", [["/naairs/", "The Archives"], ["/national-archives/", "The British Archives"], ["/horses/", "The Horses"], ["/argentina/", "Argentina"], ["/uruguay/", "Uruguay"], ["/south-africa/", "South Africa"]]],
@@ -101,7 +104,7 @@ const thisArchive =
           </div>
         </details>
       ))}
-      <a class="findbtn" href={u("/search/")} aria-label="Search the archive">Search</a>
+      <PulseRibbon pulse={pulse} />
     </nav>
   </div>
   <div class="drawer" id="drawer" hidden>
@@ -112,6 +115,7 @@ const thisArchive =
     ))}</div>
   </div>
 </header>
+<SearchPop tries={["Montevideo", "Lerena", "baptism", "Cordón"]} />
 
 {/* THE BOOK (17 October 2026): every page says where it sits in the order of src/data/book.json */}
 <BookHead book={book} u={u} />
@@ -150,6 +154,7 @@ const thisArchive =
 <script define:vars={{ searchUrl: u("/search/") }}>
   /* "/" opens search from anywhere. Ignored while the caret is in a field, so it never eats a typed slash. */
   document.addEventListener("keydown", function (e) {
+    if (document.getElementById("sdlg")) return; /* the search box (kit SearchPop) answers "/" */
     if (e.key !== "/" || e.metaKey || e.ctrlKey || e.altKey) return;
     var t = e.target;
     if (t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA" || t.isContentEditable)) return;
