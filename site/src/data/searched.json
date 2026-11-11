@@ -6877,5 +6877,23 @@
     "what": "Baptisms, Catedral Nuestra Senora de Guadalupe, Canelones, March 1816 - December 1822"
    }
   ]
+ },
+ {
+  "src": "FamilySearch full text, Uruguay filter, the quoted word 'Lenoranes' (bride's surname in the 1818 Montevideo cathedral marriage act of Fidel Lerena)",
+  "url": "https://www.familysearch.org/search/full-text/results?q.text=%22Lenoranes%22",
+  "waypoint": null,
+  "what": "Lerena: whether the 1818 bride's surname 'Lenoranes' (Ysidora, wife of Fidel Lerena, son of Sancho; DGS film 007713382 image 3131) occurs anywhere else in Uruguayan full-text records",
+  "when": "2026-11-11",
+  "outcome": "nothing",
+  "pages": "one result for the word in the Uruguay-filtered full text (an Artigas death record of 1993-1996, irrelevant)",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "uruguay",
+   "montevideo",
+   "familysearch"
+  ],
+  "note": "A coverage null for one spelling in machine text (partial, lagging, fuzzy), not a nil for the bride: the word 'Lenoranes' does not recur in transcribed Uruguayan Catholic records. The 1818 act was also re-zoomed at the plate (1500 px, whole entry legible); the margin names the groom 'Lerena' with an overwritten first word, read as Jose/Fidel, unsettled; the body says Fidel. The bride is not shown to be Isidora Izaural (Gil's mother, whole as Izaural/Isaural in the 1845 act and the 1895 copy), so the act stays a lead and the join stays candidate.",
+  "waypointNote": "Full-text search results carry no waypoint; none is written."
  }
 ]
