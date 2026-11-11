@@ -7030,5 +7030,45 @@
   "note": "Index nil, not a walked-pages nil: no Lerena, Llerena or any catalogued spelling in the letters read. Frames 100-650 of the film would not load (restricted), not worked round. Not read: other letters.",
   "film": "008166590",
   "waypointNote": "The film page and image viewer carry only the film number; no wc=/owc= waypoint code was seen, so none is written."
+ },
+{
+  "src": "FamilySearch catalogue, Montevideo cathedral parish registers (koha 961086), film 007713384, Defunciones 1729-1833, images 3070-3309 (bodies pass)",
+  "url": "https://www.familysearch.org/search/film/007713384",
+  "waypoint": null,
+  "what": "Lerena: a burial of Fidel Lerena (dead by 15 January 1845), a widow of Fidel, or a child's burial naming Fidel, in the Montevideo cathedral burial book Libro 8o, images 3070-3309, second pass for the bodies of the entries",
+  "when": "2026-11-11",
+  "outcome": "nothing",
+  "pages": "images 3070-3309 of 3,314 (16 May 1822 to January 1833), whole frames four at a time, bodies read where legible; images before 3070 and the hospital continuation not part of this pass",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "uruguay",
+   "montevideo",
+   "familysearch"
+  ],
+  "note": "Second pass at the plate, 11 November 2026: no Lerena, Llerena or any catalogued spelling, and no Fidel, in the margin names or in the entry bodies read, images 3070-3309. A reading null, not a walked book, not a nil for Fidel. Terms typed (the Record Atlas catalogue, cover exit 0): Lerena, Llerena, Gerena, Lereña, Leresa, Lerina, Levena, Lorena, Serena, Sereña, Loreña, Larena, Lerama, Perena. Method: four whole frames at a time; every margin name read; every Lerena-shaped or Fidel-shaped name zoomed before naming; bodies read where legible at that scale (not every body of every page). The first pass of these images (margin names) is the row for images 3019-3310. Not excluded for Fidel: a death before 16 May 1822 outside images 2862-3069 (already read); a burial outside the parish; a burial under another surname or only in a body that was not legible; the hospital continuation ('Libro 9o', from February 1833) is on film 007713385 frames 91-98 only in part; the cathedral index of deaths (film 007713387) is mostly restricted and unread.",
+  "film": "007713384",
+  "collection": "https://www.familysearch.org/search/collection/4134697",
+  "waypointNote": "DGS film pages and the image viewer for this film carry only the film number and an image-group id (groupId); no wc=/owc= waypoint code appears, so none is written."
+ },
+{
+  "src": "FamilySearch catalogue, Montevideo cathedral parish registers (koha 961086), film 007713385, Defunciones, Libros 9, 10 and 11 de Difuntos (1832-1845), bodies pass",
+  "url": "https://www.familysearch.org/search/film/007713385",
+  "waypoint": null,
+  "what": "Lerena: a burial of Fidel Lerena (dead by 15 January 1845) under a mangled surname, a widow of Fidel, or a child's burial naming Fidel as parent, in the Montevideo cathedral burial books, frames 5-726, second pass for the bodies of the entries",
+  "when": "2026-11-11",
+  "outcome": "nothing",
+  "pages": "frames 5-726 (8 February 1832 to 31 March 1845), whole frames four at a time; frame 727 (Abril de 1845) onward not read; legible bodies to about frame 586, partly legible after",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "uruguay",
+   "montevideo",
+   "familysearch"
+  ],
+  "note": "Second pass at the plate, 11 November 2026: no Lerena, Llerena or any catalogued spelling, and no Fidel, in the margin names or in the entry bodies read, frames 5-726. A reading null, not a walked book, not a nil for Fidel. Terms typed (the Record Atlas catalogue, cover exit 0): Lerena, Llerena, Gerena, Lereña, Leresa, Lerina, Levena, Lorena, Serena, Sereña, Loreña, Larena, Lerama, Perena. Method: four whole frames at a time (about 2000 x 2120 pixels, 2 x 2); every margin name read, every Lerena-shaped or Fidel-shaped name zoomed before naming, bodies read where the hand allows. Legibility, said plainly: Carlos Corona's hand (to about frame 586, April 1843) is clear and bodies were read; from frame 587 Santiago Estrazulas y Jalon's small hand, and from frame 593 the stock-worded pauper entries ('de limosna', Cura Vicario del Cordon, coadjutor of Dr Jose Benito Lamas), are only partly legible at this scale, while the margin names are clean. That is why this is a reading null and not a nil. Layout: Libro 11 cover frame 533, title leaf 534, entries from frame 535 (page 1, 1 July 1842) to frame 726 (page 190, 31 March 1845); one page to a frame; frames 538 = 539 and 617 = 618 are second exposures; frame 671 right page is a table of dead of the French Legion's hospital; frame 679 carries a note that some entries are out of place because the chaplain of the Legion de Voluntarios sent them late; month heads: frame 548 31 Aug 1842, 558 23 Oct 1842, 587 Apr 1843, 672 Feb 1844, 708 Sep 1844, 714 Dec 1844, 716 Jan 1845, 723 Mar 1845. The book runs on: frame 727 opens 'Abril de 1845' (page 191), which is after Fidel was 'finado' (by 15 January 1845) and was NOT read. Near-names zoomed at the plate and NOT counted: Lenoble (Adela, 1 month, frame 548), Leira (frame 558), Lucrecia (a given name), Vidal (frame 586), Ferreyra (frame 598), Lesica, Loraco (Luis, 1.5 years, frame 662, parents José Loraco and a Genoese mother), Lacroix (Francisco, 10 months, French parents, frame 667), Feridi (José, an Italian, frame 669), Laserna (Eulalia, frame 676; Manuela, frame 713), Lacapie (Jacobo, French, frame 678), Aguerre (Isabel, French, frame 678), Oncia (Maria, Italian, frame 667), Laredo (Vicente, an African of 70, married to Isabel Juta, frame 703), Lecumberry (Pedro, frame 712), Larriona (Juan, 3 December 1844, frame 714), Socias (Agueda, frame 717), Lecuna (Jose, a Spaniard, 25 March 1845, frame 726). One form to watch: Roman LERAMA or Serama (frame 701, left page, 23 June 1844: aged 22, single, born at Montevideo, a first lieutenant, son of Manuel and Maria del Carmen Carvallido; the surname's first letter is a looped capital that reads L or S; the catalogue holds Lerama as 'search but decide per record'). His parents are not Fidel and Isidora, so he is NOT counted as this family and nothing is added to the register; recorded here as a lead on the form only. One surname lead, not a finding: Miguel IZAURRAL (frame 658, left page, 19 December 1843, about 60, married to Juana Caballero, a native of the Banda Oriental): a surname shaped like Isidora Izaural's; nothing connects him to her and nothing is claimed. Not excluded for Fidel: a death after Matriz frame 726; a burial outside the parish (Cordon, San Jose, Florida, Canelones, the countryside, the army, the Reducto); a burial under another surname or only in a body that was not legible; the cathedral index of deaths (film 007713387) is mostly restricted and unread.",
+  "film": "007713385",
+  "collection": "https://www.familysearch.org/search/collection/4134697",
+  "waypointNote": "DGS film pages and the image viewer for this film carry only the film number and an image-group id (groupId); no wc=/owc= waypoint code appears, so none is written."
  }
 ]
