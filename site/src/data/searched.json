@@ -7070,5 +7070,139 @@
   "film": "007713385",
   "collection": "https://www.familysearch.org/search/collection/4134697",
   "waypointNote": "DGS film pages and the image viewer for this film carry only the film number and an image-group id (groupId); no wc=/owc= waypoint code appears, so none is written."
+ },
+ {
+   "src": "FamilySearch image viewer / full text, film 008163891 item 3: Santisima Trinidad (Flores), Baptism Records December 1821 - April 1835, images 2-151 read by machine transcript (one hit read at the plate)",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS27-PSBV-V",
+   "waypoint": null,
+   "what": "Gil Llerena and Silveria Santa Cruz as godparents, Trinidad, 11 November 1832 (image 104); no Fidel, no Isidora Izaural",
+   "when": "2026-11-11",
+   "outcome": "yield",
+   "pages": "2-151",
+   "walked": false,
+   "tags": [
+     "lerena",
+     "uruguay",
+     "trinidad",
+     "familysearch"
+   ],
+   "note": "A machine-transcript scan (the machine garbles names); not a walked-pages nil. Logged in data/sources-consulted.tsv.",
+   "film": "008163891",
+   "collection": "https://www.familysearch.org/search/collection/4134697",
+   "waypointNote": "No wc=/owc= waypoint code appears on this full-text/viewer page, so none is written."
+ },
+ {
+   "src": "FamilySearch full text, Santisima Trinidad (Flores), Baptism Records 1835 (Libro Tercero, 1835 to January 1843), images 2-126 read by machine transcript",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS27-PSBH-H",
+   "waypoint": null,
+   "what": "Lerena-type names, Fidel, Isidora Izaural",
+   "when": "2026-11-11",
+   "outcome": "nothing",
+   "pages": "2-126",
+   "walked": false,
+   "tags": [
+     "lerena",
+     "uruguay",
+     "trinidad",
+     "familysearch"
+   ],
+   "note": "A machine-transcript scan (the machine garbles names); not a walked-pages nil. Logged in data/sources-consulted.tsv.",
+   "collection": "https://www.familysearch.org/search/collection/4134697",
+   "waypointNote": "No wc=/owc= waypoint code appears on this full-text/viewer page, so none is written."
+ },
+ {
+   "src": "FamilySearch full text, Santisima Trinidad (Flores), Religious Death Records January 1835 - May 1860, images 2-144 read by machine transcript (one hit read at the plate)",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS27-23WL-4",
+   "waypoint": null,
+   "what": "Fidel Lerena's burial, a widow of Fidel, Isidora Izaural; found only a child of Alejandro Lerena the elder (8 October 1842)",
+   "when": "2026-11-11",
+   "outcome": "nothing",
+   "pages": "2-144",
+   "walked": false,
+   "tags": [
+     "lerena",
+     "uruguay",
+     "trinidad",
+     "familysearch"
+   ],
+   "note": "A machine-transcript scan (the machine garbles names); not a walked-pages nil. Logged in data/sources-consulted.tsv.",
+   "collection": "https://www.familysearch.org/search/collection/4134697",
+   "waypointNote": "No wc=/owc= waypoint code appears on this full-text/viewer page, so none is written."
+ },
+ {
+   "src": "FamilySearch full text, San Francisco de Asis (Ciudad Vieja, Montevideo), Religious Burial Records December 1840 - December 1850, images 2-274 read by machine transcript (two hits read at the plate)",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C9BW-N7X2-Q",
+   "waypoint": null,
+   "what": "Fidel Lerena's burial, a widow of Fidel, Isidora Izaural; found only Gil's son Juan (1850, plate-read) and a foundling named Donato Lerena (1846, parents unknown)",
+   "when": "2026-11-11",
+   "outcome": "nothing",
+   "pages": "2-274",
+   "walked": false,
+   "tags": [
+     "lerena",
+     "uruguay",
+     "montevideo",
+     "familysearch"
+   ],
+   "note": "A machine-transcript scan (the machine garbles names); not a walked-pages nil. Logged in data/sources-consulted.tsv.",
+   "collection": "https://www.familysearch.org/search/collection/4134697",
+   "waypointNote": "No wc=/owc= waypoint code appears on this full-text/viewer page, so none is written."
+ },
+ {
+   "src": "FamilySearch full text, San Francisco de Asis (Ciudad Vieja, Montevideo), Religious Burial Records 1851 - 1861, images 1-265 read by machine transcript (one hit read at the plate)",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C9BW-N7B2-B",
+   "waypoint": null,
+   "what": "Fidel Lerena's burial, a widow of Fidel, Isidora Izaural; found only a Maria Avelina Lerena (1859, daughter of Avelino Lerena and Ambrosia Traivel, plate-read, lead only)",
+   "when": "2026-11-11",
+   "outcome": "nothing",
+   "pages": "1-265",
+   "walked": false,
+   "tags": [
+     "lerena",
+     "uruguay",
+     "montevideo",
+     "familysearch"
+   ],
+   "note": "A machine-transcript scan (the machine garbles names); not a walked-pages nil. Logged in data/sources-consulted.tsv.",
+   "collection": "https://www.familysearch.org/search/collection/4134697",
+   "waypointNote": "No wc=/owc= waypoint code appears on this full-text/viewer page, so none is written."
+ },
+ {
+   "src": "FamilySearch full text, Aguada (Montevideo), Religious Burial Records April 1839 - December 1869, 161 images read by machine transcript",
+   "url": "https://www.familysearch.org/search/collection/4134697",
+   "waypoint": null,
+   "what": "Fidel Lerena's burial, a widow of Fidel, Isidora Izaural, any Lerena spelling",
+   "when": "2026-11-11",
+   "outcome": "nothing",
+   "pages": "1-161",
+   "walked": false,
+   "tags": [
+     "lerena",
+     "uruguay",
+     "montevideo",
+     "familysearch"
+   ],
+   "note": "A machine-transcript scan (the machine garbles names); not a walked-pages nil. Logged in data/sources-consulted.tsv.",
+   "collection": "https://www.familysearch.org/search/collection/4134697",
+   "waypointNote": "No wc=/owc= waypoint code appears on this full-text/viewer page, so none is written."
+ },
+ {
+   "src": "FamilySearch full text, Cordon (N.S. del Carmen, Montevideo), Religious Death Records October 1839 - January 1852, 150 images read by machine transcript (hits read at the plate)",
+   "url": "https://www.familysearch.org/search/collection/4134697",
+   "waypoint": null,
+   "what": "Fidel Lerena's burial, a widow of Fidel, Isidora Izaural; found only enslaved Llerena households (Luciano 1841, Rufina Maria Antonia 1842), leads on the form, control Carmen Lerena re-found",
+   "when": "2026-11-11",
+   "outcome": "nothing",
+   "pages": "1-150",
+   "walked": false,
+   "tags": [
+     "lerena",
+     "uruguay",
+     "montevideo",
+     "familysearch"
+   ],
+   "note": "A machine-transcript scan (the machine garbles names); not a walked-pages nil. Logged in data/sources-consulted.tsv.",
+   "collection": "https://www.familysearch.org/search/collection/4134697",
+   "waypointNote": "No wc=/owc= waypoint code appears on this full-text/viewer page, so none is written."
  }
 ]
