@@ -3594,6 +3594,11 @@
    "url": "/people/juan-arturo-lerena-traibel/"
   },
   {
+   "name": "Juan Augustin Llerena",
+   "aliases": [],
+   "url": "/people/juan-augustin-llerena/"
+  },
+  {
    "name": "Juan Baldomero Fernandez",
    "aliases": [
     "Juan Baldomero Fernández"
@@ -3684,6 +3689,11 @@
     "Juan de la Cruz Pelaez"
    ],
    "url": "/people/juan-de-la-cruz-pelaez-sanchez/"
+  },
+  {
+   "name": "Juan de los Santos Llerena",
+   "aliases": [],
+   "url": "/people/juan-de-los-santos-llerena/"
   },
   {
    "name": "Juan de Urdinaran",
@@ -6225,9 +6235,7 @@
   },
   {
    "name": "Sancho Llerena Aguilar",
-   "aliases": [
-    "Sancho Llerena"
-   ],
+   "aliases": [],
    "url": "/people/sancho-llerena-aguilar/"
   },
   {
@@ -8661,6 +8669,13 @@
    "bearers": [
     "/people/salvador-lerena-2/",
     "/people/salvador-lerena/"
+   ]
+  },
+  {
+   "name": "Sancho Llerena",
+   "url": "/people/?q=Sancho%20Llerena",
+   "bearers": [
+    "/people/sancho-llerena/"
    ]
   },
   {

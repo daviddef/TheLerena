@@ -6953,5 +6953,25 @@
   "film": "007713385",
   "collection": "https://www.familysearch.org/search/collection/4134697",
   "waypointNote": "DGS film pages and the image viewer for this film carry only the film number and an image-group id (groupId); no wc=/owc= waypoint code appears, so none is written."
+ },
+ {
+  "src": "FamilySearch catalogue, Montevideo cathedral parish registers (koha 961086), film 007713384, Defunciones 1729-1833, images 2862-3018",
+  "url": "https://www.familysearch.org/search/film/007713384",
+  "waypoint": null,
+  "what": "Lerena: a burial of Fidel Lerena (alive at his marriage in January 1818, dead by January 1845) or any Lerena in the Montevideo cathedral burial book from November 1817 to 17 December 1820, images 2862-3018 read for margin names at the plate",
+  "when": "2026-11-11",
+  "outcome": "yield",
+  "pages": "images 2862-3018 of 3,314 (about 4 November 1817 to 17 December 1820), whole openings read for the margin names and dates; together with the row for images 3019-3310 this covers November 1817 to January 1833; images 2897-2901, 2908-2910, 2916-2917 and 2928-2931 are degraded by ink bleeding through ('Tinta traspasada'); images before 2862 not read",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "uruguay",
+   "montevideo",
+   "familysearch"
+  ],
+  "note": "No Fidel Lerena or Llerena in the margin names from November 1817 to 17 December 1820. A reading null, not a walked book and not a nil for Fidel: margin names and dates only, at about 1,000 px an opening, the bodies of the entries (parents, spouses, owners, witnesses) not read. TWO LERENA-SHAPED BURIALS, both entered in the register as unplaced and not merged: (1) image 2866 (page 86), 12 December 1817, 'Sancho Llerena natural de Cadiz, casado con Maria Fernandez, edad sesenta y nueve anos' - probably the founder Sancho Llerena, with discrepancies of age (about 1748 against the padron's 45) and birthplace (Cadiz against a tree's Cordoba), so probable and not proved; (2) image 2945 (opening with page 165), 8 May 1819, 'Juan Augustin Llerena, hijo de Juan de los Santos Llerena', a soldier dying in the Military Hospital - a candidate for Sancho's eldest son Juan Agustin, against the father's name, the surname's r or n unsettled in that hand. Not counted (zoomed): Lerona or Leona (image 2941, 11 April 1819), Guerrero (image 2986, 17 April 1820). The Atlas cover check for Lerena exited 0 on 11 November 2026 for the forms looked for (Lerena, Llerena, Gerena, Lereña, Leresa, Lerina, Levena, Lorena, Serena, Sereña, Loreña, Larena, Perena, Lerama), with Fidel as a forename. Not excluded for Fidel: a burial outside this parish, under another surname or only in an entry body; the cathedral index of deaths (film 007713387) is unopened.",
+  "film": "007713384",
+  "collection": "https://www.familysearch.org/search/collection/4134697",
+  "waypointNote": "DGS film pages and the image viewer for this film carry only the film number and an image-group id (groupId); no wc=/owc= waypoint code appears, so none is written."
  }
 ]

@@ -8,8 +8,8 @@
   "Anyone on no line and in no household is counted in one of two pens: people of the name with no family recorded here, or people in the acts who are not of the name and are kin to nobody here.",
   "Everybody is counted, and nobody is counted twice. A person is listed by name only when their page publishes a birth year before the living line or a death, and no rule of this archive holds them as living or out of publication; everybody else is a number only."
  ],
- "total": 1481,
- "listed": 919,
+ "total": 1484,
+ "listed": 920,
  "lanes": [
   {
    "key": "sancho",
@@ -280,8 +280,8 @@
    "kind": "not-yet-placed",
    "head": "People of the name with no family recorded here — on none of these lines",
    "households": 0,
-   "people": 131,
-   "listed": 89
+   "people": 134,
+   "listed": 90
   },
   {
    "id": "not-of-the-name",
