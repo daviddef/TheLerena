@@ -83,7 +83,10 @@ RETIRED = [
      "The arithmetic does not come out. Septima means seventh; she is the sixth daughter."),
     (r"unmarked grave at Newlands|buried at Newlands",
      "The grave is at MAITLAND, not Newlands - grave 7719, Cemetery No. 1, read 8 October 2026."),
-    (r"Mauricio[^.]{0,90}(died|d\.)[^.]{0,40}1925|1925[^.]{0,60}Mauricio",
+    # 11 Nov 2026: the second alternative used to be bare "1925...Mauricio", which a birth line (b. 3 Aug 1925 / a natural daughter of
+    # Manuel Mauricio Lerena) and a log heading ("1925: the Sarandi Grande households (..., Mauricio") also match; it passed only while the
+    # nav word "Corrections" sat inside the retraction window. It now needs a death word, as the first alternative does.
+    (r"Mauricio[^.]{0,90}(died|d\.)[^.]{0,40}1925|1925[^.]{0,60}Mauricio[^.]{0,40}(died|dies|death|d\.)",
      "3 March 1925 is his DAUGHTER CLARA's death date. Mauricio was born about 1815, so the "
      "archive was asserting he died at about 110. He has no attested death date at all."),
     (r"knew the name from a completely different direction",
