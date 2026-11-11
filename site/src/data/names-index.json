@@ -520,6 +520,11 @@
    "url": "/people/antoinette-septima-lynette-lerena/"
   },
   {
+   "name": "Antolina Rodriguez",
+   "aliases": [],
+   "url": "/people/antolina-rodriguez/"
+  },
+  {
    "name": "Antonia Larranaga Lerena",
    "aliases": [
     "Antonia Larranaga"
@@ -3985,6 +3990,11 @@
    "url": "/people/juana-quintana/"
   },
   {
+   "name": "Juana Roldan",
+   "aliases": [],
+   "url": "/people/juana-roldan/"
+  },
+  {
    "name": "Juana Santamarta",
    "aliases": [],
    "url": "/people/juana-santamarta/"
@@ -5640,6 +5650,11 @@
    "url": "/people/pedro-alberto-ysabelino-lerena-traibel/"
   },
   {
+   "name": "Pedro Avelino Amaro Lerena",
+   "aliases": [],
+   "url": "/people/pedro-avelino-amaro-lerena/"
+  },
+  {
    "name": "Pedro Beloqui",
    "aliases": [],
    "url": "/people/pedro-beloqui/"
@@ -7248,6 +7263,7 @@
    "name": "Felix Lerena",
    "url": "/people/?q=Felix%20Lerena",
    "bearers": [
+    "/people/felix-lerena-2/",
     "/people/felix-lerena/"
    ]
   },
@@ -7284,6 +7300,7 @@
    "name": "Fidel Lerena",
    "url": "/people/?q=Fidel%20Lerena",
    "bearers": [
+    "/people/fidel-lerena-3/",
     "/people/fidel-lerena/"
    ]
   },
@@ -7380,6 +7397,7 @@
    "name": "Félix Lerena",
    "url": "/people/?q=Felix%20Lerena",
    "bearers": [
+    "/people/felix-lerena-2/",
     "/people/felix-lerena/"
    ]
   },

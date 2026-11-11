@@ -6895,5 +6895,23 @@
   ],
   "note": "A coverage null for one spelling in machine text (partial, lagging, fuzzy), not a nil for the bride: the word 'Lenoranes' does not recur in transcribed Uruguayan Catholic records. The 1818 act was also re-zoomed at the plate (1500 px, whole entry legible); the margin names the groom 'Lerena' with an overwritten first word, read as Jose/Fidel, unsettled; the body says Fidel. The bride is not shown to be Isidora Izaural (Gil's mother, whole as Izaural/Isaural in the 1845 act and the 1895 copy), so the act stays a lead and the join stays candidate.",
   "waypointNote": "Full-text search results carry no waypoint; none is written."
+ },
+ {
+  "src": "FamilySearch, Nuestra Senora del Carmen del Cordon, Montevideo, baptism no. 369 of 2 October 1842, found by a records search of Fidel Lerena as father",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C9BW-C9PK-2",
+  "waypoint": null,
+  "what": "Lerena: Gil's baptism or siblings via 'Fidel Lerena' as a father, 1815-1824; yielded instead a second Fidel Lerena (wife Antolina Rodriguez) named as grandfather in a Cordon baptism of 1842",
+  "when": "2026-11-11",
+  "outcome": "yield",
+  "pages": "one baptism entry (no. 369, page 39), read at the plate and zoomed",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "uruguay",
+   "montevideo",
+   "familysearch"
+  ],
+  "note": "Not Gil: no baptism of Gil or of a child of Fidel and Isidora turned up. The baptism of Pedro Avelino Amaro Lerena (2 October 1842) names his paternal grandparents Fidel Lerena and Antolina Rodriguez; his father Felix Lerena and mother Juana Roldan. A second Fidel, kept apart from Gil's father (his wife differs and his son was a father by 1842). The FamilySearch index garbled the surname ('Llama', 'Amano').",
+  "waypointNote": "The image viewer for this record carries no wc=/owc= waypoint code; none is written."
  }
 ]
