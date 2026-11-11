@@ -6992,5 +6992,43 @@
   "note": "No Fidel Lerena or Llerena in the margin names. A reading null, not a walked book and not a nil for Fidel: margin names only, and the control (Carmen Lerena, 14 August 1841, frame 2511) was legible in the strip but passed over at the first look, so near-names were not all zoomed. Four Llerena entries found (enslaved Luis Llerena 1829; Narciso Saturnino and his father Mariano Llerena 1829; Rufina Llerena 1841; Pedro Avelino Amaro Llerena 1842), none Fidel. Frame 2573 notes that from February 1843 the burials are in a separate book kept at the Reducto, and the army buried most who died between the lines without the priest: the Feb 1843-Jan 1845 years are thin here. Not excluded: other parishes, entry bodies, the cathedral death index (film 007713387).",
   "film": "007713392",
   "waypointNote": "The film page and image viewer carry only the film number; no wc=/owc= waypoint code was seen, so none is written."
+ },
+ {
+  "src": "FamilySearch, Canelones (Nuestra Senora de Guadalupe) parish, alphabetical death index 1776-1928, film 008166579, letters L, G and S",
+  "url": "https://www.familysearch.org/search/film/008166579",
+  "waypoint": null,
+  "what": "Lerena: a death or burial of Fidel Lerena (alive January 1818, dead by January 1845) or any Lerena in the Canelones death index, letters L, G (Gerena) and S (Serena, Sereña)",
+  "when": "2026-11-11",
+  "outcome": "nothing",
+  "pages": "frames 1751-1760 (L), 1719-1725 (G), 1830-1833 (S) of 3,264",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "uruguay",
+   "canelones",
+   "familysearch"
+  ],
+  "note": "Index nil, not a walked-pages nil: no Lerena, Llerena or any catalogued spelling in the letters read. Libro 1 is 1776-1805, Libro 2 1805-1822, Libro 3 1823-1847. Near-names zoomed and not counted: Loran, Genara, Guevara. Not read: other letters; a Fidel under a mangled surname is not excluded.",
+  "film": "008166579",
+  "waypointNote": "The film page and image viewer carry only the film number; no wc=/owc= waypoint code was seen, so none is written."
+ },
+ {
+  "src": "FamilySearch, Pando parish, alphabetical death index 1788-1957 (Pando, Las Piedras and Canelones entries), film 008166590, letters L, Ll, G and S",
+  "url": "https://www.familysearch.org/search/film/008166590",
+  "waypoint": null,
+  "what": "Lerena: a death or burial of Fidel Lerena or any Lerena in the Pando alphabetical death index, letters L, Ll, G and S",
+  "when": "2026-11-11",
+  "outcome": "nothing",
+  "pages": "frames 693-699 (G), 710-715 and 718 (L, Ll), 750-753 (S)",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "uruguay",
+   "canelones",
+   "familysearch"
+  ],
+  "note": "Index nil, not a walked-pages nil: no Lerena, Llerena or any catalogued spelling in the letters read. Frames 100-650 of the film would not load (restricted), not worked round. Not read: other letters.",
+  "film": "008166590",
+  "waypointNote": "The film page and image viewer carry only the film number; no wc=/owc= waypoint code was seen, so none is written."
  }
 ]
