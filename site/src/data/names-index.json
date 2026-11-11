@@ -5477,6 +5477,11 @@
    "url": "/people/modesta-carmelita-fernandez-lerena/"
   },
   {
+   "name": "Narciso Saturnino",
+   "aliases": [],
+   "url": "/people/narciso-saturnino/"
+  },
+  {
    "name": "Natalia Caceres",
    "aliases": [],
    "url": "/people/natalia-caceres/"
@@ -8125,6 +8130,13 @@
    ]
   },
   {
+   "name": "Mariano Llerena",
+   "url": "/people/?q=Mariano%20Llerena",
+   "bearers": [
+    "/people/mariano-llerena/"
+   ]
+  },
+  {
    "name": "Martin Lerena",
    "url": "/people/?q=Martin%20Lerena",
    "bearers": [
@@ -8654,6 +8666,13 @@
    "url": "/people/?q=Rudosindo%20Larena",
    "bearers": [
     "/people/rudosindo-larena/"
+   ]
+  },
+  {
+   "name": "Rufina Llerena",
+   "url": "/people/?q=Rufina%20Llerena",
+   "bearers": [
+    "/people/rufina-llerena/"
    ]
   },
   {

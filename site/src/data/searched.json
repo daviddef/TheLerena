@@ -6973,5 +6973,24 @@
   "film": "007713384",
   "collection": "https://www.familysearch.org/search/collection/4134697",
   "waypointNote": "DGS film pages and the image viewer for this film carry only the film number and an image-group id (groupId); no wc=/owc= waypoint code appears, so none is written."
+ },
+ {
+  "src": "FamilySearch, Montevideo Cordon (N.S. del Carmen) parish registers, film 007713392, burial book, frames 1832-2584",
+  "url": "https://www.familysearch.org/search/film/007713392",
+  "waypoint": null,
+  "what": "Lerena: a burial of Fidel Lerena (alive at his marriage in January 1818, dead by January 1845) or any Lerena in the Cordon burial book from November 1817 to about 1850, frames 1832-2584",
+  "when": "2026-11-11",
+  "outcome": "yield",
+  "pages": "frames 1832-2584 of about 3,2xx (about November 1817 to about 1850), margin names read; entry bodies only where zoomed",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "uruguay",
+   "montevideo",
+   "familysearch"
+  ],
+  "note": "No Fidel Lerena or Llerena in the margin names. A reading null, not a walked book and not a nil for Fidel: margin names only, and the control (Carmen Lerena, 14 August 1841, frame 2511) was legible in the strip but passed over at the first look, so near-names were not all zoomed. Four Llerena entries found (enslaved Luis Llerena 1829; Narciso Saturnino and his father Mariano Llerena 1829; Rufina Llerena 1841; Pedro Avelino Amaro Llerena 1842), none Fidel. Frame 2573 notes that from February 1843 the burials are in a separate book kept at the Reducto, and the army buried most who died between the lines without the priest: the Feb 1843-Jan 1845 years are thin here. Not excluded: other parishes, entry bodies, the cathedral death index (film 007713387).",
+  "film": "007713392",
+  "waypointNote": "The film page and image viewer carry only the film number; no wc=/owc= waypoint code was seen, so none is written."
  }
 ]

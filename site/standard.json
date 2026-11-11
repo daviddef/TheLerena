@@ -195,7 +195,8 @@
    "(?i)\\b(Island|Street|Road|Church|Parish|Cathedral|Cemetery|Hospital|Ship|Line|Register|Registry|Archive|Archives|Census|Index|Commune|Departamento|Department|Province|Provincia|Republic|Republica|Uruguay|Argentina|Montevideo|Canelones|Cordon|Aguada|Uruguay|Buenos Aires|Africa|Cape Town|Devon|Cornwall|Bideford|Northam|Rosario|Santa Fe|FamilySearch|Ancestry|MyHeritage|National Archives|Index|Records|Collection|Dispensation|Dispensations|Guild|Society|Library|Museum|Council|Bank|Company|Club|Hotel)\\b",
    "(?i)\\b(Las Piedras|Carmen la Mayor|San Jose de Mayo|de Flores|de Logrono|de Vicaria|de Residencia|de Policia|de Defunciones)\\b",
    "(?i)^(Rio de la Plata|Roman Catholic|Villa del|Hipodromo|Estacion|Catastro|Historico|Archivo|Naturales|Quince|Octubre)\\b",
-   "(?i)\\b(Mal Abrigo|Jesus Maria|San Eugenio|Carmen la Mayor|Banda Oriental|Valdemoro|Lanzarote|Andalucia|Andalusia|Cordoba|Madrid|Rio de Janeiro|Entre Rios|La Union|La Paz)\\b"
+   "(?i)\\b(Mal Abrigo|Jesus Maria|San Eugenio|Carmen la Mayor|Banda Oriental|Valdemoro|Lanzarote|Andalucia|Andalusia|Cordoba|Madrid|Rio de Janeiro|Entre Rios|La Union|La Paz)\\b",
+   "(?i)^Mariano Soler\\b"
   ],
   "given_names_file": "given.json",
   "surname_words": [
