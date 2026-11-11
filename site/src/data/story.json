@@ -88,7 +88,7 @@
         "spousePerson": "dona-maria-fernandez-tresguerras",
         "spouseDirect": true,
         "glyph": "field",
-        "title": "Married at Canelones in 1791; in the census of Montevideo in 1812"
+        "title": "Married at Canelones in 1791; in the census of Montevideo in 1812; probably the Sancho Llerena buried at the Matriz in Montevideo on 12 December 1817 (age and birthplace differ from the census, so not proved)"
       },
       {
         "name": "Sancho's children",
@@ -248,11 +248,15 @@
         {
           "id": "o-6",
           "grade": "lore",
-          "text": "Family trees on the internet give Sancho a birth at Córdoba about 1767 and a death in 1832, citing a published genealogy. The year of birth agrees with the age the census of 1812 gives him. The death is in no record the archive has read.",
+          "text": "Family trees on the internet give Sancho a birth at Córdoba about 1767 and a death in 1832, citing a published genealogy. The year of birth agrees with the age the census of 1812 gives him. No record the archive has read settles the death: a Sancho Llerena was buried at the Matriz in Montevideo on 12 December 1817, probably this Sancho, but his age and birthplace differ from the census, so it is not proved.",
           "evidence": [
             {
               "href": "/uruguay/#s-sancho-alive",
               "why": "When was Sancho last alive? The trees' 1832 is not a fact"
+            },
+            {
+              "href": "person:sancho-llerena",
+              "why": "The Matriz burial of 12 December 1817: probably Sancho, not proved"
             }
           ]
         },
