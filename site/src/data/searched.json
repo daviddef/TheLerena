@@ -6451,10 +6451,10 @@
   "src": "FamilySearch catalogue, Montevideo cathedral parish registers (koha 961086), film 007713384, Defunciones 1729-1833",
   "url": "https://www.familysearch.org/search/film/007713384",
   "waypoint": null,
-  "what": "Lerena: where a burial of Fidel Lerena (tree-only death about 1822) would be written, the cathedral burial book of Montevideo, located by five sample images",
-  "when": "2026-11-09",
+  "what": "Lerena: a burial of Fidel Lerena (tree-only death about 1822) or any Lerena in the Montevideo cathedral burial book, images 3019-3310 read at the plate to the end of the book",
+  "when": "2026-11-11",
   "outcome": "nothing",
-  "pages": "images 3019-3110 of 3,314, read at the plate (16 December 1820 to 30 May 1824; 3092 a second exposure of 3091; the left page of 3031 smudged); images before 3019 and after 3110 not read",
+  "pages": "images 3019-3310 of 3,314, read at the plate (16 December 1820 to the last burial entry, January 1833, p. 231; 3092 = 3091, 3233 = 3232, 3244 = 3245 and 3307 = 3308 are second exposures; the left page of 3031 smudged); 3310 is a heading leaf for a hospital continuation not on the film, 3311 the end-of-item card, 3312 a resolution chart, 3313-3314 end of roll; images before 3019 not read",
   "walked": false,
   "tags": [
    "lerena",
@@ -6462,7 +6462,7 @@
    "montevideo",
    "familysearch"
   ],
-  "note": "No Fidel Lerena or Llerena (nor a Larena/Lorena/Serena misreading in a margin name) in the burials from 16 December 1820 to 6 January 1824 in the cathedral burial book; a partial walk, not a nil for Fidel: 1820 before 16 December and 1824 after 6 January are unread, the Atlas cover check was not run, and a burial outside the cathedral (Canelones, Las Piedras) would not be here. The volume of 1821-22 ends 15 May 1822 at image 3063 (3064 blank, 3065 end of item); Volumen 12, 'Libro 8o de Finados, empieza en 16 de Mayo de 1822', has its label at 3066, cover and title at 3068-3069 and its entries from 3070. The cathedral index of deaths 1800-1948 (film 007713387) is not opened. Layout read: the 1821-22 volume ends with its last entry of 15 May 1822 at image 3063 (3064 blank, 3065 end-of-item card); 3066 is a label 'Volumen 12', 3068-3069 the cover and title of 'Libro 8 de Finados, empieza en 16 de Mayo de 1822', entries from 3070. The viewer's item numbers for this film were not read.",
+  "note": "No Fidel Lerena or Llerena, and no other Lerena-type surname, in the margin names, entries, parents or witnesses of the cathedral burials from 16 December 1820 to January 1833 (the end of the book on this film). A reading null, not a walked book and not a nil for Fidel: two openings to a plate, margin names and dates, nothing transcribed; the burials before 16 December 1820 are unread; a burial outside the cathedral (Canelones, Las Piedras, Pando, a hospital or military record) would not be here; the cathedral index of deaths (film 007713387) is unopened; and a death after January 1833 is not excluded. The Atlas cover check for Lerena exited 0 on 11 November 2026 for the forms looked for (Lerena, Llerena, Gerena, Lereña, Leresa, Lerina, Levena, Lorena, Serena, Sereña, Loreña, Larena, Perena, Lerama), with Fidel as a forename. Not counted: Lima Cordoso (image 3296, zoomed), Guenechea, Larranaga, Fidel Vinals, Leyra, another Fidel (a Protestant native of North America, image 3178), an infant Fidel Julian (3178), an Arena owning an enslaved woman (3168, not zoomed). Layout: volume 12 'Libro 8o de Finados' from 16 May 1822 (title at 3069, entries from 3070); the book's last burial page is p. 231 (image 3309); 3310 'Siguen las partidas de los finados en el Hospital ... dando principio al mes de Febrero'; 3311 'Fin del item', roll 95, project URUG 1000A.",
   "film": "007713384",
   "collection": "https://www.familysearch.org/search/collection/4134697",
   "waypointNote": "DGS film pages and the image viewer for this film carry only the film number and an image-group id (groupId); no wc=/owc= waypoint code appears, so none is written."
