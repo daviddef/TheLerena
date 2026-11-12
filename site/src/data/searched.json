@@ -8225,5 +8225,25 @@
        "Joaquin Llerena Vega"
      ]
    ]
+ },
+ {
+   "src": "FamilySearch catalogue, Montevideo cathedral parish registers (koha 961086), film 007713385, Defunciones, Libro 13 de Difuntos (1849-1854), frames 944-1247",
+   "url": "https://www.familysearch.org/search/film/007713385",
+   "waypoint": null,
+   "what": "Lerena: a burial of Fidel, of Isidora (Fidel's widow) or of a sibling of Gil in the Montevideo cathedral burial book Libro 13, 27 August 1849 to 11 December 1854, and the book's own index of names (L section read)",
+   "when": "2026-11-13",
+   "outcome": "nothing",
+   "pages": "frames 944-1247 (entries 944-1220; index 1220-1247; 1248-1250 blank)",
+   "walked": false,
+   "tags": [
+     "lerena",
+     "uruguay",
+     "montevideo",
+     "familysearch"
+   ],
+   "film": "007713385",
+   "note": "A reading null at the margin-name level plus the book's own L index, not a walked book. No Lerena-family person in Libro 13. The index slip 'Lerena Salvador' (folio 126) is Salvador Lecuona, 11 months, son of Martin Lecuona and Margarita Cadepo, buried 8 August 1852 (frame 1068, zoomed). Terms typed (cover exit 0): Lerena, Llerena, Lereña, Lerina, Lorena, Loreña, Larena, Lerama, Leresa, Levena, Gerena, Serena, Sereña. Logged in data/sources-consulted.tsv.",
+   "collection": "https://www.familysearch.org/search/collection/4134697",
+   "waypointNote": "DGS film pages and the image viewer for this film carry only the film number and an image-group id (groupId); no wc=/owc= waypoint code appears, so none is written."
  }
 ]
