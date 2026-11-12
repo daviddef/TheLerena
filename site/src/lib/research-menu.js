@@ -30,6 +30,10 @@ export const RESEARCH = [
         items: [
           { href: "/hypotheses/", label: "Hypotheses" },
           { href: "/family-papers/", label: "The papers in the house" },
+          /* 12 Nov 2026 (the menu regroup, PR A): these three left other menus (Start, The work) and are deep dives here */
+          { href: "/dna/", label: "The DNA" },
+          { href: "/naairs/", label: "The Archives" },
+          { href: "/national-archives/", label: "The British Archives" },
         ] },
     ] },
 ];

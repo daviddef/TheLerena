@@ -2,7 +2,7 @@
 import "@daviddef/archive-kit/styles/print.css";
 import { versioner } from "@daviddef/archive-kit/lib/assetv.js";
 import { u } from "../lib/url.js";
-import { navGroups } from "../lib/research-menu.js";
+import { MENU } from "../lib/site-menu.js";
 import SiblingArchives from "@daviddef/archive-kit/components/SiblingArchives.astro";
 import SkipLink from "@daviddef/archive-kit/components/SkipLink.astro";
 import SocialHead from "@daviddef/archive-kit/components/SocialHead.astro";
@@ -27,24 +27,8 @@ const { title, description = "", dek, eyebrow, bare, noindex, noAutolink, ownHea
    person to themself), by the two index pages (every row already links its person) and by /changes/ (the commit log, which
    is machine-made and grows daily). The pages that ARE prose are linked. */
 const SITE = "The Lerena Archive";
-/* "The families" is a group from 17 October 2026. It was left out until then on purpose: this archive had exactly one
-   family page, the Taylors, and a menu group of one implies a section that does not exist. There are now thirteen
-   (the Taylors, and the twelve at /families/<slug>/ built from the register by src/lib/families.js and
-   data/families.tsv), so the group goes in as the other archives have it, after "Our line". The Taylors moved here from
-   "Our line" rather than appearing in both. The labels are the names themselves: that list is also what the landing
-   page at defranceski.com reads to show this archive's family pages, so a label must say which family it is. */
-const nav = [
-  ["Start", [["/", "Home"], ["/story/", "The story"], ["/about/", "About"], ["/trees/", "The trees"], ["/tree/", "Our line, drawn"], ["/roots/", "Roots & Routes"], ["/atlas/", "The Atlas"], ["/timeline/", "The Timeline"], ["/whats-new/", "What's new"], ["/dna/", "The DNA"]]],
-  ["Our line", [["/direct-line/", "The Spine"], ["/estate/", "The Estate"], ["/passport/", "The Passport"], ["/enrolment-card/", "The Enrolment Card"], ["/name/", "The Name"], ["/lines/", "The Lines"]]],
-  ["The families", [["/families/", "The Families"], ["/taylor/", "The Taylors"], ["/families/brayley/", "Brayley"], ["/families/temple/", "Temple"], ["/families/fernandez/", "Fernandez"], ["/families/pelaez/", "Pelaez"], ["/families/gonzalez/", "Gonzalez"], ["/families/lenguas/", "Lenguas"], ["/families/cardozo/", "Cardozo"], ["/families/juanico/", "Juanico"], ["/families/traibel/", "Traibel"], ["/families/alvarez/", "Alvarez"], ["/families/larriera/", "Larriera"]]],
-  ["The work", [["/naairs/", "The Archives"], ["/national-archives/", "The British Archives"], ["/horses/", "The Horses"], ["/argentina/", "Argentina"], ["/uruguay/", "Uruguay"], ["/south-africa/", "South Africa"]]],
-  ["People & places", [["/people/", "The People"], ["/bloodline/", "Blood relatives, drawn"], ["/who/", "Every Name"], ["/register/", "The Register"], ["/marriages/", "The Marriages"], ["/places/", "Places"]]],
-  /* 12 November 2026 (the research-menu trial, wave 2): "Evidence" and "Investigations" are one "Research" menu with three groups.
-     The list is lib/research-menu.js (the header, the drawer and the group pages all read it). A menu is a flat list of [href, label],
-     or a list of groups { head, href, items }, an item being [href, label] or { sub } (a plain sub-label). Every address of the two old
-     menus is still a built page at the address it had; /whats-new/ stays in Start as well. */
-  ["Research", navGroups],
-];
+/* THE MENU is lib/site-menu.js, one list (12 November 2026, the menu regroup, PR A). The header menu and the drawer below both read it. */
+const nav = MENU;
 
 const here = Astro.url.pathname;
 /* WHICH OF THE SEVEN THIS IS — AND IT CANNOT BE THE BASE ANY MORE.
@@ -107,7 +91,7 @@ const thisArchive =
             {links[0] && links[0].items
               ? links.map((g) => (
                   <div class="pg">
-                    <a href={u(g.href)} class={"ph" + (here === u(g.href) ? " on" : "")}>{g.head}</a>
+                    {g.href ? <a href={u(g.href)} class={"ph" + (here === u(g.href) ? " on" : "")}>{g.head}</a> : <span class="ps ph0">{g.head}</span>}
                     {g.items.map((x) => Array.isArray(x)
                       ? <a href={u(x[0])} class={here === u(x[0]) ? "on" : ""}>{x[1]}</a>
                       : <span class="ps">{x.sub}</span>)}
@@ -125,7 +109,7 @@ const thisArchive =
         {links[0] && links[0].items
           ? links.map((g) => (
               <div class="dsub">
-                <a href={u(g.href)} class={"ph" + (here === u(g.href) ? " on" : "")}>{g.head}</a>
+                {g.href ? <a href={u(g.href)} class={"ph" + (here === u(g.href) ? " on" : "")}>{g.head}</a> : <span class="ps ph0">{g.head}</span>}
                 {g.items.map((x) => Array.isArray(x)
                   ? <a href={u(x[0])} class={here === u(x[0]) ? "on" : ""}>{x[1]}</a>
                   : <span class="ps">{x.sub}</span>)}
