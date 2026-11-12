@@ -7705,5 +7705,23 @@
    "note": "A machine-transcript scan (the machine garbles names); not a walked-pages nil. Logged in data/sources-consulted.tsv.",
    "collection": "https://www.familysearch.org/search/collection/4134697",
    "waypointNote": "No wc=/owc= waypoint code appears on this full-text/viewer page, so none is written."
+ },
+ {
+   "src": "FamilySearch full text, Montevideo cathedral (Matriz) Baptism Records April 1836 - March 1840, all 202 images read by machine transcript",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C9B7-YSNN-3",
+   "waypoint": null,
+   "what": "Lerena family found: Juana Llerena, godmother at the Matriz, 1 April 1839 (plate read); control Leonarda Margarita re-found; not found: a child of Fidel Lerena and Isidora Izaural, any sibling of Gil",
+   "when": "2026-11-12",
+   "outcome": "yield",
+   "pages": "1-202",
+   "walked": false,
+   "tags": [
+     "lerena",
+     "uruguay",
+     "familysearch"
+   ],
+   "note": "A machine-transcript scan (the machine garbles names); not a walked-pages nil. Logged in data/sources-consulted.tsv.",
+   "collection": "https://www.familysearch.org/search/collection/4134697",
+   "waypointNote": "No wc=/owc= waypoint code appears on this full-text/viewer page, so none is written."
  }
 ]
