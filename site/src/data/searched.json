@@ -7993,5 +7993,41 @@
    "note": "A machine-transcript scan (the machine garbles names); not a walked-pages nil. Logged in data/sources-consulted.tsv.",
    "collection": "https://www.familysearch.org/search/collection/4134697",
    "waypointNote": "No wc=/owc= waypoint code appears on this full-text/viewer page, so none is written."
+ },
+ {
+   "src": "FamilySearch full text, Colonia del Sacramento basilica Religious Death Records Nov 1818 - Jul 1845, all 169 images read by machine transcript",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS27-9SX2-3",
+   "waypoint": null,
+   "what": "Not found: Fidel Lerena, Isidora Izaural, any Lerena in the catalogue forms (no Lerena-family person found either)",
+   "when": "2026-11-12",
+   "outcome": "nothing",
+   "pages": "1-169",
+   "walked": false,
+   "tags": [
+     "lerena",
+     "uruguay",
+     "familysearch"
+   ],
+   "note": "A machine-transcript scan (the machine garbles names); not a walked-pages nil. Logged in data/sources-consulted.tsv.",
+   "collection": "https://www.familysearch.org/search/collection/4134697",
+   "waypointNote": "No wc=/owc= waypoint code appears on this full-text/viewer page, so none is written."
+ },
+ {
+   "src": "FamilySearch full text, Montevideo cathedral Religious Death Records Aug 1849 - Dec 1854, all 311 images read by machine transcript",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C9B7-B96S-D",
+   "waypoint": null,
+   "what": "Not found: Fidel Lerena, Isidora Izaural, any Lerena in the catalogue forms (no Lerena-family person found either)",
+   "when": "2026-11-12",
+   "outcome": "nothing",
+   "pages": "1-311",
+   "walked": false,
+   "tags": [
+     "lerena",
+     "uruguay",
+     "familysearch"
+   ],
+   "note": "A machine-transcript scan (the machine garbles names); not a walked-pages nil. Logged in data/sources-consulted.tsv.",
+   "collection": "https://www.familysearch.org/search/collection/4134697",
+   "waypointNote": "No wc=/owc= waypoint code appears on this full-text/viewer page, so none is written."
  }
 ]
