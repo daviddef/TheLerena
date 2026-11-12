@@ -1,0 +1,23 @@
+{
+ "token_swaps": [],
+ "accepted": [],
+ "snapshot_pages": {},
+ "site_changes": [
+  {
+   "page": "/part/how-we-know/",
+   "why": "the book's part page lists the three new Research chapters (Research, To do, Sources & method); no existing entry was removed"
+  },
+  {
+   "page": "/contents/",
+   "why": "the contents lists the same three new Research chapters"
+  },
+  {
+   "page": "/sources/",
+   "why": "added at the top: the short Atlas note (what only this archive holds / the Atlas) and the line linking the two deep dives; ids added to four headings; nothing removed"
+  },
+  {
+   "page": "/method/",
+   "why": "added at the top: the short Atlas note; nothing removed"
+  }
+ ]
+}
