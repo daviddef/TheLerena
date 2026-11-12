@@ -1252,6 +1252,28 @@
   "count": 15
  },
  {
+  "slug": "canelones",
+  "name": "Canelones",
+  "people": [
+   "hilario-barros-llerena",
+   "jose",
+   "joseph-ponteceli",
+   "agueda-rivero",
+   "jose-loreto-lerena-fernandez",
+   "joseph-del-rios",
+   "francisco-de-los-santos-de-acuna",
+   "florentino-gomez",
+   "ana-gomez",
+   "antonio-villegas",
+   "jose-del-rio",
+   "juan-francisco-cardoso",
+   "juan-miguel-de-laguna",
+   "bartolome-munoz",
+   "pedro-antonio-llerena"
+  ],
+  "count": 15
+ },
+ {
   "slug": "cordon-montevideo",
   "name": "Cordon, Montevideo",
   "people": [
@@ -1272,27 +1294,6 @@
    "eduardo-epifanio-alvarez"
   ],
   "count": 15
- },
- {
-  "slug": "canelones",
-  "name": "Canelones",
-  "people": [
-   "hilario-barros-llerena",
-   "jose",
-   "joseph-ponteceli",
-   "agueda-rivero",
-   "jose-loreto-lerena-fernandez",
-   "joseph-del-rios",
-   "francisco-de-los-santos-de-acuna",
-   "florentino-gomez",
-   "ana-gomez",
-   "antonio-villegas",
-   "jose-del-rio",
-   "juan-francisco-cardoso",
-   "juan-miguel-de-laguna",
-   "bartolome-munoz"
-  ],
-  "count": 14
  },
  {
   "slug": "colla",
