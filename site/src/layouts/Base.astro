@@ -2,6 +2,7 @@
 import "@daviddef/archive-kit/styles/print.css";
 import { versioner } from "@daviddef/archive-kit/lib/assetv.js";
 import { u } from "../lib/url.js";
+import { navGroups } from "../lib/research-menu.js";
 import SiblingArchives from "@daviddef/archive-kit/components/SiblingArchives.astro";
 import SkipLink from "@daviddef/archive-kit/components/SkipLink.astro";
 import SocialHead from "@daviddef/archive-kit/components/SocialHead.astro";
@@ -38,8 +39,11 @@ const nav = [
   ["The families", [["/families/", "The Families"], ["/taylor/", "The Taylors"], ["/families/brayley/", "Brayley"], ["/families/temple/", "Temple"], ["/families/fernandez/", "Fernandez"], ["/families/pelaez/", "Pelaez"], ["/families/gonzalez/", "Gonzalez"], ["/families/lenguas/", "Lenguas"], ["/families/cardozo/", "Cardozo"], ["/families/juanico/", "Juanico"], ["/families/traibel/", "Traibel"], ["/families/alvarez/", "Alvarez"], ["/families/larriera/", "Larriera"]]],
   ["The work", [["/naairs/", "The Archives"], ["/national-archives/", "The British Archives"], ["/horses/", "The Horses"], ["/argentina/", "Argentina"], ["/uruguay/", "Uruguay"], ["/south-africa/", "South Africa"]]],
   ["People & places", [["/people/", "The People"], ["/bloodline/", "Blood relatives, drawn"], ["/who/", "Every Name"], ["/register/", "The Register"], ["/marriages/", "The Marriages"], ["/places/", "Places"]]],
-  ["Evidence", [["/method/", "Method"], ["/sources/", "Sources"], ["/searched/", "What Has Been Read"], ["/open-questions/", "Open Questions"], ["/errands/", "Errands"], ["/worklist/", "The work list"], ["/corrections/", "Corrections"], ["/changes/", "What changed"]]],
-  ["Investigations", [["/hypotheses/", "Hypotheses"], ["/roadmap/", "Roadmap"], ["/family-papers/", "The papers in the house"]]],
+  /* 12 November 2026 (the research-menu trial, wave 2): "Evidence" and "Investigations" are one "Research" menu with three groups.
+     The list is lib/research-menu.js (the header, the drawer and the group pages all read it). A menu is a flat list of [href, label],
+     or a list of groups { head, href, items }, an item being [href, label] or { sub } (a plain sub-label). Every address of the two old
+     menus is still a built page at the address it had; /whats-new/ stays in Start as well. */
+  ["Research", navGroups],
 ];
 
 const here = Astro.url.pathname;
@@ -99,8 +103,16 @@ const thisArchive =
       {nav.map(([label, links]) => (
         <details class="menu">
           <summary>{label}</summary>
-          <div class="panel">
-            {links.map(([h, l]) => <a href={u(h)} class={here === u(h) ? "on" : ""}>{l}</a>)}
+          <div class={"panel" + (links[0] && links[0].items ? " wide" : "")}>
+            {links[0] && links[0].items
+              ? links.map((g) => (
+                  <div class="pg">
+                    <a href={u(g.href)} class={"ph" + (here === u(g.href) ? " on" : "")}>{g.head}</a>
+                    {g.items.map((x) => Array.isArray(x)
+                      ? <a href={u(x[0])} class={here === u(x[0]) ? "on" : ""}>{x[1]}</a>
+                      : <span class="ps">{x.sub}</span>)}
+                  </div>))
+              : links.map(([h, l]) => <a href={u(h)} class={here === u(h) ? "on" : ""}>{l}</a>)}
           </div>
         </details>
       ))}
@@ -110,7 +122,15 @@ const thisArchive =
   <div class="drawer" id="drawer" hidden>
     <div class="wrap">{nav.map(([label, links]) => (
       <div class="dgrp"><span class="gl">{label}</span>
-        {links.map(([h, l]) => <a href={u(h)} class={here === u(h) ? "on" : ""}>{l}</a>)}
+        {links[0] && links[0].items
+          ? links.map((g) => (
+              <div class="dsub">
+                <a href={u(g.href)} class={"ph" + (here === u(g.href) ? " on" : "")}>{g.head}</a>
+                {g.items.map((x) => Array.isArray(x)
+                  ? <a href={u(x[0])} class={here === u(x[0]) ? "on" : ""}>{x[1]}</a>
+                  : <span class="ps">{x.sub}</span>)}
+              </div>))
+          : links.map(([h, l]) => <a href={u(h)} class={here === u(h) ? "on" : ""}>{l}</a>)}
       </div>
     ))}</div>
   </div>

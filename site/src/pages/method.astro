@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import AtlasNote from "../components/AtlasNote.astro";
 import Evidence from "@daviddef/archive-kit/components/Evidence.astro";
 import { u } from "../lib/url.js";
 import { emph } from "../lib/text.js";
@@ -14,6 +15,18 @@ import certs from "../data/1852-aguada-union-certificates.json";
 <Base title="Method"
       eyebrow="How this archive decides what it will say"
       dek="The same method as the Falco and Defranceski archives. Every claim is tiered, and the tier is shown. An archive that cannot say what it does not know is not an archive.">
+
+  {/* 12 November 2026 (the research-menu trial, wave 2): a short note, added at the top; nothing below it was removed or shortened. */}
+  <AtlasNote
+    only={[["The five words and the tiers", "#ladder", "how every claim here is graded"],
+           ["Living people", "#living", "who is named, and how"],
+           ["FamilySearch has two indexes", "#s-two-indexes", "what this archive learnt reading them"]]}
+    atlasHead="What the Atlas keeps for every archive"
+    atlas={[["Surname spellings (the Lerena family of forms)", "https://recordatlas.org/surname/lerena/"],
+            ["The sources, as the Atlas lists them", "https://recordatlas.org/providers/"],
+            ["What the map does not know", "https://recordatlas.org/coverage/"]]}
+    para="The way a FamilySearch register is read, page by page, is the method every family archive shares; the catalogues of surname spellings and the list of sources are kept on the"
+    tail="and read from there. This page is this archive's own method, in full." />
 
   <section class="blk" id="ladder">
     <h2>The five words</h2>

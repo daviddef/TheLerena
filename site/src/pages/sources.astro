@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import AtlasNote from "../components/AtlasNote.astro";
 import Sources from "@daviddef/archive-kit/components/Sources.astro";
 import { u } from "../lib/url.js";
 import { emph } from "../lib/text.js";
@@ -71,8 +72,21 @@ const reach = consulted.filter(r => r.link).length;
 <Base title="Sources"
       eyebrow="Consulted, and identified but not yet consulted"
       dek="Everything consulted so far, and everything identified as needing to be consulted. The second list is still the longer of the two, and that is the point of publishing it.">
+{/* 12 November 2026 (the research-menu trial, wave 2): a short note and the deep-dive links, added at the top; nothing below was removed. */}
+<AtlasNote
+  only={[["Consulted", "#consulted", "each source with the tier it earned and where it is weak"],
+         ["Identified, not yet consulted", "#not-yet", "the longer list"],
+         ["Every collection searched, with its link", "#collections", "the walk of each collection"],
+         ["What FamilySearch full text does and does not reach", "#fulltext", "what a full-text nil is worth"]]}
+  atlasHead="The sources on the Atlas"
+  atlas={[["The sources, as the Atlas lists them", "https://recordatlas.org/providers/"],
+          ["Surname spellings", "https://recordatlas.org/surname/lerena/"],
+          ["What the map does not know", "https://recordatlas.org/coverage/"]]}
+  para="The Atlas lists these providers and volumes for every family archive; what this archive read in them, and what that was worth, is only here. See the"
+  tail="for the shared list. The page below is this archive's own, in full." />
+<p class="cap" style="margin:-14px 0 26px">Deep dives, two long studies that sit beside the sources: <a href={u("/hypotheses/")}>Hypotheses</a> and <a href={u("/family-papers/")}>The papers in the house</a>. The rest of <a href={u("/research/sources-and-method/")}>Sources &amp; method</a>.</p>
 <section class="blk">
-<h2>Consulted</h2>
+<h2 id="consulted">Consulted</h2>
   <p class="dek">Generated from <span class="m">data/sources-consulted.tsv</span>, so this table cannot
     fall behind the work. It did once: it sat unchanged from 10 to 13 September 2026 while three days of
     reading went unrecorded, under a heading claiming to list everything. <strong>{primary}</strong> of
@@ -90,7 +104,7 @@ const reach = consulted.filter(r => r.link).length;
 </section>
 
 <section class="blk">
-<h2>Identified, not yet consulted</h2>
+<h2 id="not-yet">Identified, not yet consulted</h2>
   <h3>Argentina and Uruguay</h3>
   <ul>
     <li>Civil registration, <strong>Santa Fe</strong> province (Rosario), from the 1880s.</li>
@@ -125,7 +139,7 @@ const reach = consulted.filter(r => r.link).length;
 </section>
 
 <section class="blk">
-  <h2>Every collection searched, with its link</h2>
+  <h2 id="collections">Every collection searched, with its link</h2>
   <p class="dek">So that any claim on this site can be checked, and any search repeated, without guessing
     where it was made.</p>
 
@@ -229,7 +243,7 @@ const reach = consulted.filter(r => r.link).length;
     has been invented.</p>
 </section>
 <section class="blk">
-  <h2>What FamilySearch full text does and does not reach</h2>
+  <h2 id="fulltext">What FamilySearch full text does and does not reach</h2>
   <p class="dek">Recorded 13 September 2026, because it decides which sweeps have to be done by eye.</p>
   <div class="prose" style="margin-top:14px">
     <p>FamilySearch&rsquo;s <strong>full-text search</strong> reads handwriting across images that were

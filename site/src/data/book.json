@@ -286,6 +286,21 @@
    "intro": "Everything consulted and everything still to consult, every search made and what it cost, the questions not yet answered, what the archive has had to take back, and the work in hand.",
    "chapters": [
     {
+     "path": "/research/",
+     "title": "Research",
+     "blurb": "How this archive works in the open: what is to do, what is new, and what it stands on."
+    },
+    {
+     "path": "/research/to-do/",
+     "title": "To do",
+     "blurb": "Open questions, errands, the work list and the roadmap."
+    },
+    {
+     "path": "/research/sources-and-method/",
+     "title": "Sources & method",
+     "blurb": "What this archive stands on, how it reads a register, and the long studies that sit beside them."
+    },
+    {
      "path": "/sources/",
      "title": "Sources",
      "blurb": "Everything consulted so far, and everything identified as needing to be consulted."
