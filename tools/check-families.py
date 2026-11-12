@@ -6,7 +6,7 @@ code. It reckons the same pages a second way - who carries each surname, from da
 tools/livingcheck.py (the estate's one definition of who is living or held out, the kit's living_rule.py) - and then
 reads the BUILT HTML:
 
-  A  PAGE      every family in data/families.tsv has a built page, an entry on /families/, a link in the main menu and a
+  A  PAGE      every family in data/families.tsv has a built page, an entry on /families/, a link in the main menu (or, from 12 Nov 2026, in the /families/ index that the menu links) and a
                line in sitemap.xml. (A family nobody can reach, or that a search engine is not told about, is not a page.)
   B  PEOPLE    the people the page lists are EXACTLY the people the register holds under those spellings, once each: not
                one more (a name page for a stranger), not one fewer (a person missing from their own family).
@@ -95,8 +95,13 @@ def judge(fam, page, expected, bad, known, nav_html, index_html, sitemap, site):
     if not main:
         return [f"{fam['slug']}: the built page has no <main>"]
     # A
-    if f'href="/families/{fam["slug"]}/"' not in nav_html:
-        out.append(f"{fam['slug']}: not linked from the main menu")
+    # 12 Nov 2026 (menu regroup, PR A): the menu names only the index, the line (Taylor) and one more; the other families are reached
+    # through the menu's link to /families/, which lists every one of them. So "in the menu" is: linked from the menu, OR the menu
+    # links /families/ and the /families/ index links the page. The index must still list each (the next rule), and a menu with
+    # no /families/ link still fails (the planted fault "a page missing from the menu" empties the menu).
+    link = f'href="/families/{fam["slug"]}/"'
+    if link not in nav_html and not ('href="/families/"' in nav_html and link in index_html):
+        out.append(f"{fam['slug']}: not linked from the main menu, nor from /families/ through it")
     if f'href="/families/{fam["slug"]}/"' not in index_html:
         out.append(f"{fam['slug']}: not listed on /families/")
     if f"{site}/families/{fam['slug']}/" not in sitemap:
