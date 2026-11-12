@@ -7777,5 +7777,59 @@
    "note": "A machine-transcript scan (the machine garbles names); not a walked-pages nil. Logged in data/sources-consulted.tsv.",
    "collection": "https://www.familysearch.org/search/collection/4134697",
    "waypointNote": "No wc=/owc= waypoint code appears on this full-text/viewer page, so none is written."
+ },
+ {
+   "src": "FamilySearch full text, Montevideo cathedral Religious Death Records Dec 1881 - Jan 1884, all 120 images read by machine transcript",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C9B7-LS9G-K",
+   "waypoint": null,
+   "what": "Fidel Lerena, Isidora Izaural or a sibling of Gil, any Lerena spelling",
+   "when": "2026-11-12",
+   "outcome": "nothing",
+   "pages": "1-120",
+   "walked": false,
+   "tags": [
+     "lerena",
+     "uruguay",
+     "familysearch"
+   ],
+   "note": "A machine-transcript scan (the machine garbles names); not a walked-pages nil. Logged in data/sources-consulted.tsv.",
+   "collection": "https://www.familysearch.org/search/collection/4134697",
+   "waypointNote": "No wc=/owc= waypoint code appears on this full-text/viewer page, so none is written."
+ },
+ {
+   "src": "FamilySearch full text, Montevideo cathedral Religious Death Records Jan 1884 - Dec 1888, all 286 images read by machine transcript",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C9B7-LSS1-K",
+   "waypoint": null,
+   "what": "Lerena family found: the burial of Clorinda Lerena, wife of Enrique Aubriot, 2 September 1886 (plate read); not found: Fidel Lerena, Isidora Izaural",
+   "when": "2026-11-12",
+   "outcome": "yield",
+   "pages": "1-286",
+   "walked": false,
+   "tags": [
+     "lerena",
+     "uruguay",
+     "familysearch"
+   ],
+   "note": "A machine-transcript scan (the machine garbles names); not a walked-pages nil. Logged in data/sources-consulted.tsv.",
+   "collection": "https://www.familysearch.org/search/collection/4134697",
+   "waypointNote": "No wc=/owc= waypoint code appears on this full-text/viewer page, so none is written."
+ },
+ {
+   "src": "FamilySearch full text, Montevideo cathedral Religious Death Records Dec 1888 - Dec 1895, all 292 images read by machine transcript",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C9B7-LS39-J",
+   "waypoint": null,
+   "what": "Lerena family found: the burials of Avelino Lerena (23 August 1890), a child Carlos Fein (30 January 1891) and Carlos Ambrosio, husband of Josefa Lerena (15 May 1893), all plate read; not found: Fidel Lerena, Isidora Izaural",
+   "when": "2026-11-12",
+   "outcome": "yield",
+   "pages": "1-292",
+   "walked": false,
+   "tags": [
+     "lerena",
+     "uruguay",
+     "familysearch"
+   ],
+   "note": "A machine-transcript scan (the machine garbles names); not a walked-pages nil. Logged in data/sources-consulted.tsv.",
+   "collection": "https://www.familysearch.org/search/collection/4134697",
+   "waypointNote": "No wc=/owc= waypoint code appears on this full-text/viewer page, so none is written."
  }
 ]
