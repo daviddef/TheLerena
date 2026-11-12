@@ -8,8 +8,8 @@
   "Anyone on no line and in no household is counted in one of two pens: people of the name with no family recorded here, or people in the acts who are not of the name and are kin to nobody here.",
   "Everybody is counted, and nobody is counted twice. A person is listed by name only when their page publishes a birth year before the living line or a death, and no rule of this archive holds them as living or out of publication; everybody else is a number only."
  ],
- "total": 1502,
- "listed": 929,
+ "total": 1504,
+ "listed": 931,
  "lanes": [
   {
    "key": "sancho",
@@ -280,8 +280,8 @@
    "kind": "not-yet-placed",
    "head": "People of the name with no family recorded here — on none of these lines",
    "households": 0,
-   "people": 142,
-   "listed": 93
+   "people": 144,
+   "listed": 95
   },
   {
    "id": "not-of-the-name",
@@ -550,7 +550,7 @@
    "label": "GIL LERENA and ANASTASIA SANTA CRUZ — Trinidad and Pintos, Flores",
    "pen": "not-yet-placed",
    "href": "/people/gil-lerena/",
-   "why": "*** A SECOND LERENA HOUSE AT TRINIDAD, AND NOT ALEJANDRO'S. *** Gil Lerena was born at Montevideo about 1819, married there on 15 January 1845, was at Trinidad in the 1850s-60s and died in 1883 at sixty-four; his children included Faustino (baptised 1845, buried 1866), Maria Salome (b. 1847), Simon (b. 1848) and Fermin Tomas (b. 1850), whose children run on to Pintos. *** His parents are named, in his marriage act of 1845 (read at the plate): Fidel Lerena, dead by then, and Isidora Izaural (the surname is whole in the act, 'Izaural'; her grandchildren's baptisms write it Izaurralde). He is not placed on a line: nothing ties that Fidel to Alejandro's brothers, and a tie to Sancho's son Fidel Lerena Fernandez (b. about 1800 at Canelones) is only a candidate, so the household stays in its pen. The Florida baptism book (read at the plate) names a family Yzaurral(de) with a daughter Ysidora Josefa; whether she is Gil's mother is open (see the joins file). The Montevideo cathedral marriage book holds the marriage of Fidel Lerena, son of Sancho, to an Ysidora (surname read Lenoranes) on 23 January 1818, the year before Gil's birth window: a lead for Gil's parents (the forename, the groom, the place and the year agree) and not a join, because the bride's surname reads Lenoranes and Gil's mother's reads Isaural (see the joins file). ***",
+   "why": "*** A SECOND LERENA HOUSE AT TRINIDAD, AND NOT ALEJANDRO'S. *** Gil Lerena was born at Montevideo about 1819, married there on 15 January 1845, was at Trinidad in the 1850s-60s and died in 1883 at sixty-four; his children included Faustino (baptised 1845, buried 1866), Maria Salome (b. 22 October 1847, buried nine days old on 1 November 1847), Simon (b. 1848) and Fermin Tomas (b. 1850), whose children run on to Pintos. *** His parents are named, in his marriage act of 1845 (read at the plate): Fidel Lerena, dead by then, and Isidora Izaural (the surname is whole in the act, 'Izaural'; her grandchildren's baptisms write it Izaurralde). He is not placed on a line: nothing ties that Fidel to Alejandro's brothers, and a tie to Sancho's son Fidel Lerena Fernandez (b. about 1800 at Canelones) is only a candidate, so the household stays in its pen. The Florida baptism book (read at the plate) names a family Yzaurral(de) with a daughter Ysidora Josefa; whether she is Gil's mother is open (see the joins file). The Montevideo cathedral marriage book holds the marriage of Fidel Lerena, son of Sancho, to an Ysidora (surname read Lenoranes) on 23 January 1818, the year before Gil's birth window: a lead for Gil's parents (the forename, the groom, the place and the year agree) and not a join, because the bride's surname reads Lenoranes and Gil's mother's reads Isaural (see the joins file). ***",
    "status": "origin-unknown",
    "statusNote": "",
    "span": [

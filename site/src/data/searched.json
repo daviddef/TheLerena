@@ -8191,5 +8191,39 @@
    "note": "A machine-transcript scan (the machine garbles names); not a walked-pages nil. Logged in data/sources-consulted.tsv.",
    "collection": "https://www.familysearch.org/search/collection/4134697",
    "waypointNote": "No wc=/owc= waypoint code appears on this full-text/viewer page, so none is written."
+ },
+ {
+   "src": "FamilySearch catalogue, Montevideo cathedral parish registers (koha 961086), film 007713385, Defunciones, Libro 11 (end) and Libro 12 de Difuntos (1845-1849), frames 727-938",
+   "url": "https://www.familysearch.org/search/film/007713385",
+   "waypoint": null,
+   "what": "Lerena: a burial of Isidora (Fidel's widow) or a sibling of Gil, in the Montevideo cathedral burial book Libro 12, 1845-1849; found instead the burial of Gil's daughter Maria Salome (1 November 1847) and two children of Pedro Antonio Lerena",
+   "when": "2026-11-13",
+   "outcome": "yield",
+   "pages": "frames 727-938 (April 1845 to August 1849; 731-734 a Policia document pasted over a page; 736-741 end-of-item card, filming label, spine, title leaf; 938 last written page, 939 blank)",
+   "walked": false,
+   "tags": [
+     "lerena",
+     "uruguay",
+     "montevideo",
+     "familysearch"
+   ],
+   "film": "007713385",
+   "note": "A reading null at the margin-name level, not a walked book, not a nil for Isidora or Gil's siblings. Found at the plate: Maria Salome Llerena, nine days old, daughter of Gil and Anastasia Santa Cruz, buried 1 November 1847 (frame 856); Marilia and Joaquin Llerena, children of Pedro Antonio Lerena and Vicenta Vega (frames 749, 760). Terms typed (cover exit 0): Lerena, Llerena, Lereña, Lerina, Lorena, Loreña, Larena, Lerama, Leresa, Levena, Gerena, Serena, Sereña. Logged in data/sources-consulted.tsv.",
+   "collection": "https://www.familysearch.org/search/collection/4134697",
+   "waypointNote": "DGS film pages and the image viewer for this film carry only the film number and an image-group id (groupId); no wc=/owc= waypoint code appears, so none is written.",
+   "ev": [
+     [
+       "/people/maria-salome-lerena/",
+       "Maria Salome Lerena"
+     ],
+     [
+       "/people/marilia-lerena-vega/",
+       "Marilia Lerena Vega"
+     ],
+     [
+       "/people/joaquin-llerena-vega/",
+       "Joaquin Llerena Vega"
+     ]
+   ]
  }
 ]
