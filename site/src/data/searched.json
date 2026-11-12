@@ -7831,5 +7831,41 @@
    "note": "A machine-transcript scan (the machine garbles names); not a walked-pages nil. Logged in data/sources-consulted.tsv.",
    "collection": "https://www.familysearch.org/search/collection/4134697",
    "waypointNote": "No wc=/owc= waypoint code appears on this full-text/viewer page, so none is written."
+ },
+ {
+   "src": "FamilySearch full text, Montevideo cathedral Religious Death Records Jan 1909 - Jan 1929, all 396 images read by machine transcript",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C9B7-LS3Z-D",
+   "waypoint": null,
+   "what": "Lerena family found: the burial of Felix Illa, husband of Maria Moratorio Lerena, 21 April 1921 (plate read); not found: Fidel Lerena, Isidora Izaural",
+   "when": "2026-11-12",
+   "outcome": "yield",
+   "pages": "1-396",
+   "walked": false,
+   "tags": [
+     "lerena",
+     "uruguay",
+     "familysearch"
+   ],
+   "note": "A machine-transcript scan (the machine garbles names); not a walked-pages nil. Logged in data/sources-consulted.tsv.",
+   "collection": "https://www.familysearch.org/search/collection/4134697",
+   "waypointNote": "No wc=/owc= waypoint code appears on this full-text/viewer page, so none is written."
+ },
+ {
+   "src": "FamilySearch full text, Montevideo cathedral Religious Death Records Jan 1900 - Dec 1908, all 779 images read by machine transcript",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C9B7-L91K-1",
+   "waypoint": null,
+   "what": "Fidel Lerena, Isidora Izaural or a sibling of Gil, any Lerena spelling",
+   "when": "2026-11-12",
+   "outcome": "nothing",
+   "pages": "1-779",
+   "walked": false,
+   "tags": [
+     "lerena",
+     "uruguay",
+     "familysearch"
+   ],
+   "note": "A machine-transcript scan (the machine garbles names); not a walked-pages nil. Logged in data/sources-consulted.tsv.",
+   "collection": "https://www.familysearch.org/search/collection/4134697",
+   "waypointNote": "No wc=/owc= waypoint code appears on this full-text/viewer page, so none is written."
  }
 ]
