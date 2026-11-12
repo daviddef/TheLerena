@@ -7885,5 +7885,41 @@
    "note": "A machine-transcript scan (the machine garbles names); not a walked-pages nil. Logged in data/sources-consulted.tsv.",
    "collection": "https://www.familysearch.org/search/collection/4134697",
    "waypointNote": "No wc=/owc= waypoint code appears on this full-text/viewer page, so none is written."
+ },
+ {
+   "src": "FamilySearch full text, Cordon (Nuestra Senora del Carmen la Mayor) Religious Burial Records Aug 1892 - May 1897, all 273 images read by machine transcript",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C9BW-49G9-8",
+   "waypoint": null,
+   "what": "Not found: Fidel Lerena, Isidora Izaural, any Lerena in the catalogue forms (no Lerena-family person found either)",
+   "when": "2026-11-12",
+   "outcome": "nothing",
+   "pages": "1-273",
+   "walked": false,
+   "tags": [
+     "lerena",
+     "uruguay",
+     "familysearch"
+   ],
+   "note": "A machine-transcript scan (the machine garbles names); not a walked-pages nil. Logged in data/sources-consulted.tsv.",
+   "collection": "https://www.familysearch.org/search/collection/4134697",
+   "waypointNote": "No wc=/owc= waypoint code appears on this full-text/viewer page, so none is written."
+ },
+ {
+   "src": "FamilySearch full text, San Agustin (Union, Montevideo) Religious Burial Records 1897 - 1912, all 240 images read by machine transcript",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C9BH-JS45-7",
+   "waypoint": null,
+   "what": "Not found: Fidel Lerena, Isidora Izaural, any Lerena in the catalogue forms (no Lerena-family person found either)",
+   "when": "2026-11-12",
+   "outcome": "nothing",
+   "pages": "1-240",
+   "walked": false,
+   "tags": [
+     "lerena",
+     "uruguay",
+     "familysearch"
+   ],
+   "note": "A machine-transcript scan (the machine garbles names); not a walked-pages nil. Logged in data/sources-consulted.tsv.",
+   "collection": "https://www.familysearch.org/search/collection/4134697",
+   "waypointNote": "No wc=/owc= waypoint code appears on this full-text/viewer page, so none is written."
  }
 ]
