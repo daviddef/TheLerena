@@ -1630,7 +1630,9 @@
   {
    "name": "Luis Eugenio Lerena Lenguas",
    "aliases": [
-    "Luis Eugenio Lerena"
+    "Luis Eugenio Lerena",
+    "Luís Eugenio Lerena",
+    "Luís Eugenio Lerena Lenguas"
    ],
    "url": "/people/don-luis-eugenio-lerena-lenguas/"
   },
@@ -4304,34 +4306,46 @@
   {
    "name": "Luis Alberto Lerena Caballero",
    "aliases": [
-    "Luis Alberto Lerena"
+    "Luis Alberto Lerena",
+    "Luís Alberto Lerena",
+    "Luís Alberto Lerena Caballero"
    ],
    "url": "/people/luis-alberto-lerena-caballero/"
   },
   {
    "name": "Luis Alejandro Llerena",
-   "aliases": [],
+   "aliases": [
+    "Luís Alejandro Llerena"
+   ],
    "url": "/people/luis-alejandro-llerena/"
   },
   {
    "name": "Luis Barbe",
-   "aliases": [],
+   "aliases": [
+    "Luís Barbe"
+   ],
    "url": "/people/luis-barbe/"
   },
   {
    "name": "Luis Braulio Pelaez",
-   "aliases": [],
+   "aliases": [
+    "Luís Braulio Pelaez"
+   ],
    "url": "/people/luis-braulio-pelaez/"
   },
   {
    "name": "Luis Cincinato Bollo",
-   "aliases": [],
+   "aliases": [
+    "Luís Cincinato Bollo"
+   ],
    "url": "/people/luis-cincinato-bollo/"
   },
   {
    "name": "Luis Costales Serena",
    "aliases": [
-    "Luis Costales"
+    "Luis Costales",
+    "Luís Costales",
+    "Luís Costales Serena"
    ],
    "url": "/people/luis-costales-serena/"
   },
@@ -4339,26 +4353,35 @@
    "name": "Luis Felipe Lerena Salvanach",
    "aliases": [
     "Luis Felipe Lerena",
-    "Luis Felipe Lerena Salvañach"
+    "Luis Felipe Lerena Salvañach",
+    "Luís Felipe Lerena",
+    "Luís Felipe Lerena Salvanach",
+    "Luís Felipe Lerena Salvañach"
    ],
    "url": "/people/luis-felipe-lerena-salvanach/"
   },
   {
    "name": "Luis Juan Pelaez Beratarbide",
    "aliases": [
-    "Luis Juan Pelaez"
+    "Luis Juan Pelaez",
+    "Luís Juan Pelaez",
+    "Luís Juan Pelaez Beratarbide"
    ],
    "url": "/people/luis-juan-pelaez-beratarbide/"
   },
   {
    "name": "Luis Llanes",
-   "aliases": [],
+   "aliases": [
+    "Luís Llanes"
+   ],
    "url": "/people/luis-llanes/"
   },
   {
    "name": "Luis Lorenzo Sena",
    "aliases": [
-    "Luis Lorenzo Seña"
+    "Luis Lorenzo Seña",
+    "Luís Lorenzo Sena",
+    "Luís Lorenzo Seña"
    ],
    "url": "/people/luis-lorenzo-sena/"
   },
@@ -4366,26 +4389,35 @@
    "name": "Luis Manuel Lerena Gonzalez",
    "aliases": [
     "Luis Manuel Lerena",
-    "Luis Manuel Lerena González"
+    "Luis Manuel Lerena González",
+    "Luís Manuel Lerena",
+    "Luís Manuel Lerena Gonzalez",
+    "Luís Manuel Lerena González"
    ],
    "url": "/people/luis-manuel-lerena-gonzalez/"
   },
   {
    "name": "Luis Pelaez Lerena",
    "aliases": [
-    "Luis Pelaez"
+    "Luis Pelaez",
+    "Luís Pelaez",
+    "Luís Pelaez Lerena"
    ],
    "url": "/people/luis-pelaez-lerena/"
   },
   {
    "name": "Luis Pochez",
-   "aliases": [],
+   "aliases": [
+    "Luís Pochez"
+   ],
    "url": "/people/luis-pochez/"
   },
   {
    "name": "Luis Sena",
    "aliases": [
-    "Luis Seña"
+    "Luis Seña",
+    "Luís Sena",
+    "Luís Seña"
    ],
    "url": "/people/luis-sena/"
   },
@@ -6134,7 +6166,8 @@
   {
    "name": "Roque Luis Armando Lerena",
    "aliases": [
-    "Roque Lois Armando"
+    "Roque Lois Armando",
+    "Roque Luís Armando Lerena"
    ],
    "url": "/people/roque-luis-armando-lerena/"
   },
@@ -6409,7 +6442,9 @@
   },
   {
    "name": "Teodoro Luis Bentancor",
-   "aliases": [],
+   "aliases": [
+    "Teodoro Luís Bentancor"
+   ],
    "url": "/people/teodoro-luis-bentancor/"
   },
   {
@@ -7893,6 +7928,22 @@
    "url": "/people/?q=Luisa%20Serena",
    "bearers": [
     "/people/luisa-serena/"
+   ]
+  },
+  {
+   "name": "Luís Lerena",
+   "url": "/same-name/luis-lerena/",
+   "bearers": [
+    "/people/luis-lerena-2/",
+    "/people/luis-lerena-3/",
+    "/people/luis-lerena/"
+   ]
+  },
+  {
+   "name": "Luís Llerena",
+   "url": "/people/?q=Luis%20Llerena",
+   "bearers": [
+    "/people/luis-llerena/"
    ]
   },
   {
