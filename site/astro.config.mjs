@@ -121,6 +121,12 @@ const redirects = {
      alone as 'Nemecio Ramon LERENA (b.1870)', was opened and read at the plate; it gives a birth
      of 19 December 1869 to the same parents and is the man of Salto and Concordia. */
   '/people/nemecio-ramon-lerena': `${BASE}/people/ramon-lerena-3/`,
+  /* 12 November 2026. Two San Francisco de Asis burial rows (1872 and 1914) were renamed within hours of
+     being minted, so that words describing the act sit inside the brackets (they had been read as given
+     names by the linking standard). The addresses they briefly had point at the same two people. */
+  '/people/dona-dominga-lerena-widow-of-don-antonio-carballo': `${BASE}/people/dona-dominga-lerena/`,
+  '/people/dona-justiniana-written-lenguas-de-lerena': `${BASE}/people/dona-justiniana/`,
+  '/people/justiniana-lenguas-de-lerena': `${BASE}/people/dona-justiniana/`,
 };
 
 export default defineConfig({
