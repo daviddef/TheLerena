@@ -8442,5 +8442,68 @@
    "note": "A reading null at the margin-name level, not a walked book: read by a delegated reading agent from margin strips and zoomed where doubtful, with weak stretches where the margin gives only a given name and a back-filled run at frames 2484-2490 (see data/sources-consulted.tsv). Terms (cover exit 0): Lerena, Llerena, Lerenas, Gerena, Lereña, Leresa, Lerina, Levena, Lorena, Serena, Sereña, Loreña, Larena, Lerama, Perena. Logged in data/sources-consulted.tsv.",
    "waypoint": null,
    "waypointNote": "Waypoint not established; film number only (the film page's default waypoint names only the first segment)."
+ },
+ {
+   "src": "Archivo Diocesano de Getafe, Valdemoro (Ntra. Sra. de la Asuncion) sacramental-book inventory",
+   "url": "https://archivo.diocesisgetafe.es/wp-content/uploads/2023/10/VALDEMORO.pdf",
+   "film": null,
+   "what": "Valdemoro, Spain: where the parish books for Ramon Serena's baptism (about 1775-85) and his parents' marriage are kept; the inventory lists the books and says none is indexed; no name searched.",
+   "when": "2026-11-13",
+   "outcome": "pending",
+   "pages": "inventory sheet, 5 pages",
+   "walked": false,
+   "tags": [
+     "lerena",
+     "spain",
+     "valdemoro",
+     "getafe"
+   ],
+   "note": "Located, not searched: the books are at the diocesan archive of Getafe, not on FamilySearch. Baptism book 17 (1772-1787), marriage books 8-9 and the marriage-index book are the first to ask for. Access, fees and digitisation not established. Logged in data/sources-consulted.tsv.",
+   "waypoint": null,
+   "waypointNote": "No FamilySearch waypoint: the books are not on FamilySearch."
+ },
+ {
+   "src": "Open web (two searches) and archive.org full text: Comandante Pedro Antonio Llerena, Canelones, 1820",
+   "url": "https://pares.cultura.gob.es/",
+   "film": null,
+   "what": "Lerena: any record of the Comandante Pedro Antonio Llerena named in the Canelones burial of 2 April 1820; nothing on the open web.",
+   "when": "2026-11-13",
+   "outcome": "nothing",
+   "pages": "two web searches; one book's full text",
+   "walked": false,
+   "tags": [
+     "lerena",
+     "uruguay",
+     "canelones",
+     "military"
+   ],
+   "note": "A narrow nil: the military and departmental archives that could decide it were not searched (not searchable by name from here). Logged in data/sources-consulted.tsv.",
+   "waypoint": null,
+   "waypointNote": "Not a FamilySearch volume."
+ },
+ {
+   "src": "FamilySearch, Catedral Nuestra Senora de Guadalupe (Canelones), Libro 5 de Bautismos (1823-1829) and Libro 6 (from December 1829), DGS film 008166571, frames 1688-2000",
+   "url": "https://www.familysearch.org/search/film/008166571",
+   "film": "008166571",
+   "what": "Lerena: any Fidel Lerena, Isidora Izaural, Gil's siblings or other Lerenas in the Canelones cathedral baptisms August 1823 to September 1835; one godmother, Santa Llerena (18 August 1835), found.",
+   "when": "2026-11-13",
+   "outcome": "yield",
+   "pages": "film frames 1688-2000 (margin names; doubtful names zoomed); not a walk of every entry body",
+   "ev": [
+    [
+     "/people/santa-llerena/",
+     "Santa Llerena, godmother at the Canelones cathedral baptism of 18 August 1835"
+    ]
+   ],
+   "walked": false,
+   "tags": [
+     "lerena",
+     "uruguay",
+     "canelones",
+     "familysearch"
+   ],
+   "note": "A reading null at the margin-name level apart from one godmother, Santa Llerena, found when a borderline margin was zoomed (frame 1998, 18 August 1835). Weak instrument: most baptism margins give only the child's given name, and frames 1688-1871 were read through narrow strips. Terms (cover exit 0): Lerena, Llerena, Lerenas, Gerena, Lereña, Leresa, Lerina, Levena, Lorena, Serena, Sereña, Loreña, Larena, Lerama, Perena. Logged in data/sources-consulted.tsv.",
+   "waypoint": null,
+   "waypointNote": "Waypoint not established; film number only (the film page's default waypoint names only the first segment)."
  }
 ]

@@ -1261,6 +1261,29 @@
   "count": 19
  },
  {
+  "slug": "canelones",
+  "name": "Canelones",
+  "people": [
+   "hilario-barros-llerena",
+   "jose",
+   "joseph-ponteceli",
+   "agueda-rivero",
+   "jose-loreto-lerena-fernandez",
+   "joseph-del-rios",
+   "francisco-de-los-santos-de-acuna",
+   "florentino-gomez",
+   "ana-gomez",
+   "antonio-villegas",
+   "jose-del-rio",
+   "juan-francisco-cardoso",
+   "juan-miguel-de-laguna",
+   "bartolome-munoz",
+   "pedro-antonio-llerena",
+   "santa-llerena"
+  ],
+  "count": 16
+ },
+ {
   "slug": "rosario-santa-fe",
   "name": "Rosario, Santa Fe",
   "people": [
@@ -1279,28 +1302,6 @@
    "juan-carlos-lerena",
    "don-luis-eugenio-lerena-lenguas",
    "don-luis-lerena-probably-luis-lerena-y-fernandez"
-  ],
-  "count": 15
- },
- {
-  "slug": "canelones",
-  "name": "Canelones",
-  "people": [
-   "hilario-barros-llerena",
-   "jose",
-   "joseph-ponteceli",
-   "agueda-rivero",
-   "jose-loreto-lerena-fernandez",
-   "joseph-del-rios",
-   "francisco-de-los-santos-de-acuna",
-   "florentino-gomez",
-   "ana-gomez",
-   "antonio-villegas",
-   "jose-del-rio",
-   "juan-francisco-cardoso",
-   "juan-miguel-de-laguna",
-   "bartolome-munoz",
-   "pedro-antonio-llerena"
   ],
   "count": 15
  },
