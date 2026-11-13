@@ -1422,5 +1422,21 @@
   "what_is_true": "They are one man. The Matriz marriage book, page 227, entry dated 10 June 1861, names the groom as widower of Vicenta Vega and son of the parents named at the 1793 baptism, and the Cordon burial of 3 February 1866 (aged 73, widower of a Vega, remarried to Teresa Leonard) is his. The register rows made for the Pereyra couple were removed, the two rows for him were joined, and the open join on the lines page was dropped. The 1864 christening keeps its wording, read as a clerk's slip. Pedro Lerena Vega, born 1828, is his son by Vicenta Vega and Teresa's stepson.",
   "how_it_was_caught": "Walking the Matriz marriage book of 1858-1864 by margin name found the entry the index never carried",
   "retired": ""
+ },
+ {
+  "date": "2026-11-13",
+  "severity": "minor",
+  "what_was_said": "On the Uruguay page, in the table that sets Sancho's house beside Ramon's, the row headed 'where from' answered for Ramon: 'NOT KNOWN. This is the open question.'",
+  "what_is_true": "Ramon's origin has been documented since the Rosario del Colla marriage act of 16 May 1789 was read, which calls him and both his parents 'naturales todos tres de la Villa de Valdemoro', and the 1816 Cordon baptism of his son Eusebio Congenio writes him 'natural de Madrid'. The page's own heading already read 'Ramon's house - out of Valdemoro' while that table row went on saying the question was open. The row now states Valdemoro with the two acts behind it, and names what is actually still open: the Spanish end, the parish books at the Archivo Historico Diocesano de Getafe.",
+  "how_it_was_caught": "While adding a newly found child of Ramon to the same table (Antonia Luisa, christened at the Cordon on 12 May 1819, read at the plate on 13 November 2026), the row beneath it was read and contradicted the page around it.",
+  "retired": ""
+ },
+ {
+  "date": "2026-11-13",
+  "severity": "minor",
+  "what_was_said": "On Gilberto Justiniano Lerena Lenguas's register row: that his being a brother of Don Luis Eugenio Lerena Lenguas 'still rests on published genealogy, not on an act, and is marked secondary on the charts'.",
+  "what_is_true": "It has rested on acts since 20 September 2026. Gilberto's own marriage act - San Francisco de Asis, Montevideo, no. 178 of 11 August 1877, image read - calls him 'hijo legitimo de Don LUIS y de Dona JUSTINIANA LENGUAS', and Montevideo marriage act 258 of 1864 gives Luis Eugenio the same parents; two baptisms of Gilberto's children, in two parishes, name the same grandparents. The register and the charts already drew the two men as brothers; only this sentence, inside the very note that records those acts, still said otherwise.",
+  "how_it_was_caught": "Working down the list of open questions, the sentence was read against the rest of its own row and against the sibling link the register already draws.",
+  "retired": ""
  }
 ]

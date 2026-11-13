@@ -8699,5 +8699,42 @@
    "note": "Margin-name pass; frame 237 zoomed; frames 209-303 re-read by me for Gil/Egidio/Gilberto, none. Frames 304+ unread. Not a walked-pages nil.",
    "waypoint": null,
    "waypointNote": "Waypoint not established; film number only."
+ },
+ {
+   "src": "FamilySearch, Florida (Uruguay) marriages 1898-1942 (film 008143360): film mapped, index L pages read",
+   "url": "https://www.familysearch.org/search/film/008143360",
+   "film": "008143360",
+   "what": "The marriage of Fidel Lerena and Isidora Izaural, and any Lerena marriage at Florida: the open marriage film begins in 1898, so the early books are not on it; its index holds no Lerena.",
+   "when": "2026-11-13",
+   "outcome": "nothing",
+   "pages": "frames 1-5, 300, 700, 712, 718-721 (mapping); index L pages 719-720 read",
+   "walked": false,
+   "tags": [
+     "lerena",
+     "uruguay",
+     "florida",
+     "familysearch"
+   ],
+    "note": "Index nil for 1914-1942 only; the books were not walked. Early Florida marriages are on the restricted film 008143358 (403), not worked round.",
+   "waypoint": null,
+   "waypointNote": "Waypoint not established; film number only."
+ },
+ {
+   "src": "Archivo Historico Diocesano de Getafe: the Valdemoro parish inventory and the archive's own rules of use",
+   "url": "https://archivo.diocesisgetafe.es/index.php/fondos/",
+   "what": "Where the Valdemoro books of Salvador Llerena, Ana de Cubas and their son Ramon are, which volumes cover the years wanted, and what it takes to read them.",
+   "when": "2026-11-13",
+   "outcome": "pending",
+   "pages": "the Valdemoro inventory PDF (5 pages) and the archive's home, Fondos and Servicios pages",
+   "walked": false,
+   "tags": [
+     "lerena",
+     "spain",
+     "valdemoro",
+     "getafe"
+   ],
+   "note": "A finding aid, not a register: no images, transcripts or name index are published. Baptism books 16 (1752-1771), 17 (1772-1787) and 18 (1787-1804) and marriage books 8, 9 and 10 with a marriage index 1564-1822 are the volumes to ask for. Reading room free but by appointment, no visitor photography; certificates by telephone or email at unpublished rates. A letter is drafted and not sent.",
+   "waypoint": null,
+   "waypointNote": "Not a FamilySearch volume; the provider is registered in the atlas as es-archivo-diocesano-getafe."
  }
 ]
