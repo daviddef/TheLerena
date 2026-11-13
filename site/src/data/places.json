@@ -1238,6 +1238,32 @@
   "count": 41
  },
  {
+  "slug": "cordon-montevideo",
+  "name": "Cordon, Montevideo",
+  "people": [
+   "maria-mercedes-lerena",
+   "eduardo-lerena-3",
+   "ema-lerena",
+   "vicenta-lavina",
+   "manuela-lavina",
+   "xavier-lavina",
+   "amelia-lerena-2",
+   "sara-lerena",
+   "teresa-lerena-2",
+   "jose-maria-larranaga",
+   "martina-lerena",
+   "benito-larranaga",
+   "jose-maria-reyes",
+   "maria-lerena-5",
+   "eduardo-epifanio-alvarez",
+   "manuela-lerena-4",
+   "cosme-lerena",
+   "ercilia-lerena",
+   "javier-lavina"
+  ],
+  "count": 19
+ },
+ {
   "slug": "rosario-santa-fe",
   "name": "Rosario, Santa Fe",
   "people": [
@@ -1278,28 +1304,6 @@
    "juan-miguel-de-laguna",
    "bartolome-munoz",
    "pedro-antonio-llerena"
-  ],
-  "count": 15
- },
- {
-  "slug": "cordon-montevideo",
-  "name": "Cordon, Montevideo",
-  "people": [
-   "maria-mercedes-lerena",
-   "eduardo-lerena-3",
-   "ema-lerena",
-   "vicenta-lavina",
-   "manuela-lavina",
-   "xavier-lavina",
-   "amelia-lerena-2",
-   "sara-lerena",
-   "teresa-lerena-2",
-   "jose-maria-larranaga",
-   "martina-lerena",
-   "benito-larranaga",
-   "jose-maria-reyes",
-   "maria-lerena-5",
-   "eduardo-epifanio-alvarez"
   ],
   "count": 15
  },

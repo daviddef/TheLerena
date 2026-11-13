@@ -8274,9 +8274,59 @@
      [
        "/people/margarita-lerena-3/",
        "Margarita Lerena(s), wife in the Berrete burial 1868"
+     ],
+     [
+       "/people/leonarda-margarita-lerena-vega/",
+       "Leonarda Margarita Lerena Vega: candidate death act of 14 January 1868"
      ]
    ],
-   "note": "A reading null at the margin-name level, not a walked book. Three Lerena-type acts found (nothing merged): Mariano Lerena, moreno, aged 66 (13 Sep 1861), a new UNPLACED row; D. Pedro Llerena aged 73, widower of N. Vega and married a second time to Teresa Leonard(o) (3 Feb 1866), entered on the existing row of Pedro Antonio Lerena, husband of Teresa Leonar, who therefore died that day (identification with Sancho's son of 1793 left open); Margarita Lerenas, wife of Santiago Berrete (24 Feb 1868), a new UNPLACED row. No Fidel, Isidora, widow or sibling of Gil. Terms typed (cover exit 0): Lerena, Llerena, Lereña, Lerina, Lorena, Loreña, Larena, Lerama, Leresa, Levena, Gerena, Serena, Sereña. Logged in data/sources-consulted.tsv.",
+   "note": "A reading null at the margin-name level, not a walked book. Four Lerena-type acts found (nothing merged): Leonarda Serena, wife of Javier Lavina, buried 14 Jan 1868, entered on the existing row of Leonarda Margarita Lerena Vega as her candidate death act (the 1869 act for her daughters writes Lerena); Mariano Lerena, moreno, aged 66 (13 Sep 1861), a new UNPLACED row; D. Pedro Llerena aged 73, widower of N. Vega and married a second time to Teresa Leonard(o) (3 Feb 1866), entered on the existing row of Pedro Antonio Lerena, husband of Teresa Leonar, who therefore died that day (identification with Sancho's son of 1793 left open); Margarita Lerenas, wife of Santiago Berrete (24 Feb 1868), a new UNPLACED row. No Fidel, Isidora, widow or sibling of Gil. Terms typed (cover exit 0): Lerena, Llerena, Lereña, Lerina, Lorena, Loreña, Larena, Lerama, Leresa, Levena, Gerena, Serena, Sereña. Logged in data/sources-consulted.tsv.",
+   "collection": "https://www.familysearch.org/search/collection/4134697",
+   "waypointNote": "DGS film pages and the image viewer for this film carry only the film number and an image-group id; no wc=/owc= waypoint code appears, so none is written."
+ },
+ {
+   "src": "FamilySearch catalogue, Montevideo parish registers (Cordon, N.S. del Carmen), film 007713392, Defunciones, Libro Octavo (1869-1877), frames 2851-3052",
+   "url": "https://www.familysearch.org/search/film/007713392",
+   "waypoint": null,
+   "what": "Lerena: a burial of Fidel, of Isidora (Fidel's widow) or of a sibling of Gil in the Cordon burial book 24 June 1869 to 20 February 1877; five other Lerena-family acts found",
+   "when": "2026-11-13",
+   "outcome": "yield",
+   "pages": "frames 2851-3052 (Libro Octavo, whole book)",
+   "walked": false,
+   "tags": [
+     "lerena",
+     "uruguay",
+     "montevideo",
+     "familysearch"
+   ],
+   "film": "007713392",
+   "ev": [
+     [
+       "/people/manuela-lerena-4/",
+       "Manuela Lerena, aged 4, Cordon burial 1871"
+     ],
+     [
+       "/people/cosme-lerena/",
+       "Cosme Lerena, aged 7 months, Cordon burial 1871"
+     ],
+     [
+       "/people/amelia-lerena-2/",
+       "Amelia Lerena, aged 9, Cordon burial 1871"
+     ],
+     [
+       "/people/ercilia-lerena/",
+       "Ercilia Lerena, aged 1, Cordon burial 1874"
+     ],
+     [
+       "/people/javier-lavina/",
+       "Javier Lavina, aged 11, son of Javier and Leonarda Serena, Cordon burial 1875"
+     ],
+     [
+       "/people/leonarda-margarita-lerena-vega/",
+       "Leonarda Margarita Lerena Vega: her son's 1875 act strengthens the 1868 identification"
+     ]
+   ],
+   "note": "A reading null at the margin-name level, not a walked book. Five Lerena-family acts found (nothing merged): Manuela (4) and Cosme (7 months) Oct 1871, Amelia (9) 11 Nov 1871 (existing row), Ercilia (1) 14 Mar 1874, Javier Lavina (11) 12 Mar 1875, son of Javier and Leonarda Serena (strengthens the candidate identification of Leonarda Serena with Leonarda Margarita Lerena Vega). Vicente 'Lerena/Serena' of 25 Oct 1871 left unsettled and not entered. No Fidel, Isidora, widow or sibling of Gil. Terms typed (cover exit 0): Lerena, Llerena, Lereña, Lerina, Lorena, Loreña, Larena, Lerama, Leresa, Levena, Gerena, Serena, Sereña, Lerenas, Perena. Logged in data/sources-consulted.tsv.",
    "collection": "https://www.familysearch.org/search/collection/4134697",
    "waypointNote": "DGS film pages and the image viewer for this film carry only the film number and an image-group id; no wc=/owc= waypoint code appears, so none is written."
  }
