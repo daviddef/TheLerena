@@ -79,3 +79,17 @@ kit will not place by itself gets this archive's own country in `site/src/data/f
 evidence: Córdoba and Córdova la Llana are Spain by the 1791 and 1811 acts; the River Plate stays without a flag). Never guess a
 country. Gates: `npm run check:ribbonflags` (the kit's data gate, in the build) and `npm run check:flagfit` (the box gate, Chrome:
 no card changes size; in CI after the build).
+
+## Who a found row is for (rule from 15 November 2026; David's decision, 14 November)
+
+What's new says WHO each found row is for. Every row in `site/src/data/searched.json` that reads as found (outcome yield / hit / found) and is dated
+from 15 November 2026 carries EITHER `"for": [["/people/slug/", "Name"], ...]` OR `"nobody": true`, never both:
+
+- `for`: each path is a BUILT person page of this archive (`/people/<slug>/`, the slug in `site/src/data/people.json`), paired with the name that
+  page uses; a page once per row; only people the finding is really about. The older `ev` list is for the evidence trail and does not replace it.
+- `nobody`: the pages were read and no new person came out (the reason can go in `what`).
+- Living people: only people this archive already publishes can be listed (the gate needs a built page). Never add a page or a name for a living
+  person to satisfy the gate.
+- Old rows are NOT backfilled and no existing row is edited (editing a row changes its Atlas key). `docs/row-pages.json` holds the dates
+  (`from`, `peopleFrom`); the gate is `npm run check:row-pages`.
+- Nothing about the people goes to the Atlas: receipts hold only the row key.
