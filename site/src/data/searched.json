@@ -8268,7 +8268,7 @@
        "Mariano Lerena, moreno, Cordon burial 1861"
      ],
      [
-       "/people/pedro-antonio-lerena-2/",
+       "/people/pedro-antonio-lerena/",
        "Pedro Antonio Lerena, husband of Teresa Leonar: his burial of 3 February 1866"
      ],
      [
@@ -8350,5 +8350,38 @@
    "note": "A reading null at the margin-name level, not a walked book. The only Lerena-family act is the already-held baptism of Faustino, son of Gil (4 Aug 1845, frame 2091), found again as the control. Corrects the machine-scan row of 12 Nov 2026, which had missed him.",
    "collection": "https://www.familysearch.org/search/collection/4134697",
    "waypointNote": "DGS film pages and the image viewer for this film carry only the film number and an image-group id; no wc=/owc= waypoint code appears, so none is written."
+ },
+ {
+   "src": "FamilySearch, Montevideo Iglesia Matriz (Catedral) marriages, Libros 10 and 11 de Matrimonios (DGS film 007713383 'Matrimonios, 1826-1902', roll 94), images 555-949 (September 1853 to December 1864)",
+   "url": "https://www.familysearch.org/search/film/007713383",
+   "film": "007713383",
+   "what": "Lerena: the remarriage of Isidora Izaural (Fidel's widow) or the marriage of a sibling of Gil in the Montevideo cathedral marriages, September 1853 to December 1864; none found. One other Lerena-family act found: the marriage of Pedro Antonio Lerena, son of Sancho and Maria Fernandez and widower of Vicenta Vega, with Teresa Leonard, 10 June 1861 (Libro 11 p. 227, image 866).",
+   "when": "2026-11-13",
+   "outcome": "yield",
+   "pages": "film images 555-949 (Libro 10 whole book, 22 May 1858; Libro 11 whole book to December 1864); margin names, not a walk of every act body; images before 555 read on 10 November; Libro 12 (image 954 onward) unread",
+   "walked": false,
+   "tags": [
+     "lerena",
+     "uruguay",
+     "montevideo",
+     "familysearch"
+   ],
+   "ev": [
+     [
+       "/people/pedro-antonio-lerena/",
+       "Pedro Antonio Lerena, son of Sancho: his marriage to Teresa Leonard, Matriz, 10 June 1861"
+     ],
+     [
+       "/people/teresa-leonard/",
+       "Teresa Leonard: her marriage act, 10 June 1861"
+     ],
+     [
+       "/people/manuela-lerena-leonar/",
+       "Manuela Lerena Leonar, b. 1864: her father is Sancho's son"
+     ]
+   ],
+   "note": "A reading null at the margin-name level, not a walked book: no Isidora Izaural, no remarriage of Fidel's widow, no sibling of Gil in Libros 10-11 (Sep 1853 to Dec 1864; marriages of about Sep 1861 to Jan 1863 are in the San Francisco books and not here). One Lerena-family act found and plate read: Pedro Antonio Lerena (son of Sancho and Maria Fernandez, widower of Vicenta Vega) with Teresa Leonard, 10 June 1861, which settles the identification of her husband and removes the 'Pedro and Maria Pereyra' parents of the 1864 christening (see data/corrections.tsv). Terms (cover exit 0): Lerena, Llerena, Gerena, Lereña, Lerenas, Leresa, Lerina, Levena, Lorena, Serena, Sereña, Loreña, Larena, Lerama, Perena. Logged in data/sources-consulted.tsv.",
+   "waypoint": null,
+   "waypointNote": "Waypoint not established; film number only (the film page's default waypoint names only the first segment)."
  }
 ]

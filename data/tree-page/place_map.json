@@ -968,5 +968,34 @@
   "atlas_id": null,
   "note": "TODO: copy one suggestion (or give coordinates) once you have checked the country; never guessed",
   "suggest": []
+ },
+ "Porongos, Flores, Uruguay": {
+  "name": "Flores",
+  "lat": -33.6,
+  "lon": -56.85,
+  "country": "Uruguay",
+  "iso": "UY",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town and data/era-towns.tsv point (hand: the middle of the department, which is wholly inland; stands for its sections and localities); country by the Atlas's geo.country_of"
+ },
+ "Cadiz, Spain (as the burial writes it: 'natural de Cadiz')": {
+  "name": null,
+  "lat": null,
+  "lon": null,
+  "country": null,
+  "iso": null,
+  "atlas_id": null,
+  "note": "TODO: copy one suggestion (or give coordinates) once you have checked the country; never guessed",
+  "suggest": []
+ },
+ "Tenerife, Canary Islands": {
+  "name": null,
+  "lat": null,
+  "lon": null,
+  "country": null,
+  "iso": null,
+  "atlas_id": null,
+  "note": "TODO: copy one suggestion (or give coordinates) once you have checked the country; never guessed",
+  "suggest": []
  }
 }

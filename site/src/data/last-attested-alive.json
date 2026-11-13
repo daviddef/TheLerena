@@ -1619,16 +1619,16 @@
  {
   "name": "Pedro Antonio LERENA (son of Sancho)",
   "born_est": "1793-07-31",
-  "last_attested_alive": "1793-07-31",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "last_attested_alive": "1866-Feb-3",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
  },
  {
   "name": "Dona Vicenta VEGA",
   "born_est": "-",
-  "last_attested_alive": "1837-Jul-04",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Leonarda Margarita LERENA Vega",
@@ -2354,9 +2354,9 @@
  {
   "name": "Emilia LERENA Vega (b. c.1832)",
   "born_est": "1832c",
-  "last_attested_alive": "1832c",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "last_attested_alive": "1851-Jul-06",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
  },
  {
   "name": "Pedro LERENA Vega (b. 1828)",
@@ -3383,9 +3383,9 @@
  {
   "name": "Jacinta MERINA Santos (m. Manuel Lerena Montano 1882)",
   "born_est": "-",
-  "last_attested_alive": "1882-Apr-01",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Manuel Vicente LERENA Marino (m. 1910, Florida)",
@@ -5236,32 +5236,11 @@
   "tier": "BIRTH ONLY"
  },
  {
-  "name": "Pedro Antonio LERENA (husband of Teresa Leonar, dead by 1901)",
-  "born_est": "-",
-  "last_attested_alive": "-",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
- },
- {
   "name": "Manuela LERENA Leonar (b. 9 April 1864)",
   "born_est": "1864-04-09",
   "last_attested_alive": "1864-04-09",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
- },
- {
-  "name": "Maria PEREYRA (m. Pedro, paternal grandmother of Manuela 1864)",
-  "born_est": "-",
-  "last_attested_alive": "1864-Apr-30",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
- },
- {
-  "name": "Pedro (father of Pedro Lerena, husband of Teresa Leonar)",
-  "born_est": "-",
-  "last_attested_alive": "1864-Apr-30",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
  },
  {
   "name": "Maria LERENA (m. FERNANDEZ, d. 1892 Trinidad)",
@@ -5315,9 +5294,9 @@
  {
   "name": "Pedro A. LERENA (m. Trinidad Morales, Cordon 1863)",
   "born_est": "-",
-  "last_attested_alive": "1863-Feb-08",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Adela CRUCET",
@@ -10122,6 +10101,13 @@
   "tier": "BIRTH ONLY"
  },
  {
+  "name": "Ysidora LENORANES (as read; bride of Fidel Lerena, 1818)",
+  "born_est": "-",
+  "last_attested_alive": "1818-Jan-23",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
   "name": "Simon LERENA (b. 1848, Montevideo; son of Gil)",
   "born_est": "1848-10-28",
   "last_attested_alive": "1848-10-28",
@@ -10244,6 +10230,258 @@
   "name": "Angel Fructuoso LERENA Gonzalez (b. 1817, Montevideo)",
   "born_est": "1817-10-27",
   "last_attested_alive": "1817-10-27",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Amelia LERENA Vega (m. Estanislao Vega, 1851)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Doctor Estanislao VEGA (m. Amelia Lerena, 1851)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Fidel LERENA (husband of Antolina Rodriguez; grandfather of Pedro Avelino Amaro, bapt. 1842)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Antolina RODRIGUEZ (wife of Fidel Lerena; grandmother of Pedro Avelino Amaro, bapt. 1842)",
+  "born_est": "-",
+  "last_attested_alive": "1842-Oct-02",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Felix LERENA (husband of Juana Roldan; son of Fidel Lerena and Antolina Rodriguez)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Juana ROLDAN (wife of Felix Lerena; dau. of Manuel Roldan and Justa Garcia)",
+  "born_est": "-",
+  "last_attested_alive": "1842-Oct-02",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Pedro Avelino Amaro LERENA (b. 1842, son of Felix Lerena and Juana Roldan)",
+  "born_est": "1842",
+  "last_attested_alive": "1842",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Sancho LLERENA (the Matriz burial of 1817; probably Sancho LLERENA Aguilar, the founder)",
+  "born_est": "1748",
+  "last_attested_alive": "1748",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Juan Augustin LLERENA (the Matriz burial of May 1819, a soldier; a candidate for Sancho's eldest son)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Juan de los Santos LLERENA (named as the father of Juan Augustin Llerena in the Matriz burial of May 1819)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Luis (an enslaved man of the Llerena household at the Cordon, nacion Congo; January 1829)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Mariano LLERENA (enslaved of Dn Pedro Llerena; father of Narciso Saturnino; Cordon, September 1829)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Narciso Saturnino (infant of 7 months, son of Mariano Llerena and Manuela Fernandez, both enslaved; Cordon, September 1829)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Rufina LLERENA (infant of one day, daughter of Pedro Llerena and Vicenta Vega; Cordon, July 1841)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Isabel REGALADA (wife of Jose Llerena; Cordon, 1838)",
+  "born_est": "1778c",
+  "last_attested_alive": "1778c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Escolastica LLERENA (wife of Claudio Emmanuel; Matriz, Montevideo, 1874)",
+  "born_est": "1841c",
+  "last_attested_alive": "1841c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Atanacia (an enslaved woman of the household of Dona Maria Llerena; Montevideo, October 1842)",
+  "born_est": "1819c",
+  "last_attested_alive": "1819c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Juana (a godmother written Llerena; Matriz, Montevideo, 1 April 1839)",
+  "born_est": "-",
+  "last_attested_alive": "1839-Apr-01",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Clorinda (a wife written Lerena; Matriz burial, Montevideo, 2 September 1886)",
+  "born_est": "1851",
+  "last_attested_alive": "1851",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Carlos (a child of Carlos Alberto Fein and Adela Lerena; Matriz burial, Montevideo, 30 January 1891)",
+  "born_est": "1886",
+  "last_attested_alive": "1886",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Carlos (a man written Lerena, husband of Josefa Lerena; Matriz burial, Montevideo, 15 May 1893)",
+  "born_est": "1842",
+  "last_attested_alive": "1947",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
+ },
+ {
+  "name": "Felix ILLA (husband of Maria Moratorio Lerena; Metropolitana burial, Montevideo, 21 April 1921)",
+  "born_est": "1869",
+  "last_attested_alive": "1869",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Eugenio LERENA (a child of Ramon Lerena and Maria Gonzalez; Cordon burial, Montevideo, 11 July 1816)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Pedro Antonio LLERENA (a Comandante named in the Canelones burial of a soldier, 2 April 1820)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Dona Justiniana (written 'Lenguas de Lerena'; Montevideo burial, 23 January 1914)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Dominga CARVALHO LERENA (Montevideo burial, 4 February 1915)",
+  "born_est": "c.1827",
+  "last_attested_alive": "c.1827",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Alejandrina CARVALHO LERENA (Montevideo burial, 18 March 1920)",
+  "born_est": "c.1844",
+  "last_attested_alive": "c.1844",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Dona Dominga LERENA (widow of Don Antonio Carballo; Montevideo burial, 26 April 1872)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Marilia LERENA Vega (b. c.1839)",
+  "born_est": "1839c",
+  "last_attested_alive": "1839c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Joaquin LLERENA Vega (b. c.1839)",
+  "born_est": "1839c",
+  "last_attested_alive": "1839c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Mariano LERENA (moreno, widower, aged 66; Cordon burial, 13 September 1861)",
+  "born_est": "1795c",
+  "last_attested_alive": "1795c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Margarita LERENA (written 'Lerenas'; wife of Santiago Berrete; Cordon burial act, 24 February 1868)",
+  "born_est": "-",
+  "last_attested_alive": "1868-Feb-24",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
+ },
+ {
+  "name": "Manuela LERENA (d. 28 October 1871, aged 4)",
+  "born_est": "1867c",
+  "last_attested_alive": "1867c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Cosme LERENA (d. 30 October 1871, aged 7 months)",
+  "born_est": "1871",
+  "last_attested_alive": "1871",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Ercilia LERENA (d. 14 March 1874, aged 1)",
+  "born_est": "1873c",
+  "last_attested_alive": "1873c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Javier LAVINA (d. 12 March 1875, aged 11)",
+  "born_est": "1864c",
+  "last_attested_alive": "1864c",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  }
