@@ -8245,5 +8245,39 @@
    "note": "A reading null at the margin-name level plus the book's own L index, not a walked book. No Lerena-family person in Libro 13. The index slip 'Lerena Salvador' (folio 126) is Salvador Lecuona, 11 months, son of Martin Lecuona and Margarita Cadepo, buried 8 August 1852 (frame 1068, zoomed). Terms typed (cover exit 0): Lerena, Llerena, Lereña, Lerina, Lorena, Loreña, Larena, Lerama, Leresa, Levena, Gerena, Serena, Sereña. Logged in data/sources-consulted.tsv.",
    "collection": "https://www.familysearch.org/search/collection/4134697",
    "waypointNote": "DGS film pages and the image viewer for this film carry only the film number and an image-group id (groupId); no wc=/owc= waypoint code appears, so none is written."
+ },
+ {
+   "src": "FamilySearch catalogue, Montevideo parish registers (Cordon, N.S. del Carmen), film 007713392, Defunciones, Libro 6 and Libro Septimo (1852-1869), frames 2589-2843",
+   "url": "https://www.familysearch.org/search/film/007713392",
+   "waypoint": null,
+   "what": "Lerena: a burial of Fidel, of Isidora (Fidel's widow) or of a sibling of Gil in the Cordon burial books 26 January 1852 to 23 June 1869; three other Lerena-type acts found",
+   "when": "2026-11-13",
+   "outcome": "yield",
+   "pages": "frames 2589-2843 (Libro 6 to frame 2729; Libro Septimo from 2733)",
+   "walked": false,
+   "tags": [
+     "lerena",
+     "uruguay",
+     "montevideo",
+     "familysearch"
+   ],
+   "film": "007713392",
+   "ev": [
+     [
+       "/people/mariano-lerena/",
+       "Mariano Lerena, moreno, Cordon burial 1861"
+     ],
+     [
+       "/people/pedro-antonio-lerena-2/",
+       "Pedro Antonio Lerena, husband of Teresa Leonar: his burial of 3 February 1866"
+     ],
+     [
+       "/people/margarita-lerena-3/",
+       "Margarita Lerena(s), wife in the Berrete burial 1868"
+     ]
+   ],
+   "note": "A reading null at the margin-name level, not a walked book. Three Lerena-type acts found (nothing merged): Mariano Lerena, moreno, aged 66 (13 Sep 1861), a new UNPLACED row; D. Pedro Llerena aged 73, widower of N. Vega and married a second time to Teresa Leonard(o) (3 Feb 1866), entered on the existing row of Pedro Antonio Lerena, husband of Teresa Leonar, who therefore died that day (identification with Sancho's son of 1793 left open); Margarita Lerenas, wife of Santiago Berrete (24 Feb 1868), a new UNPLACED row. No Fidel, Isidora, widow or sibling of Gil. Terms typed (cover exit 0): Lerena, Llerena, Lereña, Lerina, Lorena, Loreña, Larena, Lerama, Leresa, Levena, Gerena, Serena, Sereña. Logged in data/sources-consulted.tsv.",
+   "collection": "https://www.familysearch.org/search/collection/4134697",
+   "waypointNote": "DGS film pages and the image viewer for this film carry only the film number and an image-group id; no wc=/owc= waypoint code appears, so none is written."
  }
 ]
