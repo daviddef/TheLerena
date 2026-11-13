@@ -828,9 +828,9 @@
  {
   "name": "Don Luis LERENA (the godfather) = probably Luis LERENA y Fernandez",
   "born_est": "1811-02-09",
-  "last_attested_alive": "1811-02-09",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "last_attested_alive": "1878-Jan-28",
+  "basis": "explicit death date on this person's row",
+  "tier": "DEATH"
  },
  {
   "name": "Armando LERENA",

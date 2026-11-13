@@ -8812,5 +8812,30 @@
    "note": "Margin pass by a delegated reader, candidates zoomed; the Libro Noveno title page (frame 2291) re-opened and zoomed by me. Pale stretches at frames 2266-2272, 2292-2320 and 2395-2396 were read at the margin only. Frame 2401 onward unread.",
    "waypoint": null,
    "waypointNote": "Waypoint not established; film number only."
+ },
+ {
+   "src": "FamilySearch, Cordon (Nuestra Senora del Carmen) burials Feb 1877 - Jan 1883 (film 007713392, frames 3053-3240, the end of the roll)",
+   "url": "https://www.familysearch.org/search/film/007713392",
+   "film": "007713392",
+   "what": "Isidora Ysaurralde's death and any late Lerena at the Cordon: found instead the burial of Don Luis Lerena, 28 January 1878, aged 67, husband of Justiniana Lenguas.",
+   "when": "2026-11-13",
+   "outcome": "yield",
+   "pages": "frames 3053-3240",
+   "ev": [
+     [
+       "/people/don-luis-lerena-probably-luis-lerena-y-fernandez/",
+       "Don Luis Lerena, buried at the Cordon 28 January 1878, aged 67"
+     ]
+   ],
+   "walked": false,
+   "tags": [
+     "lerena",
+     "uruguay",
+     "cordon",
+     "familysearch"
+   ],
+   "note": "Margin pass by a delegated reader; entry 47 of 1878 (image 3083) re-opened and zoomed three times by me before anything was written. No Isidora in any form. The film ends at image 3240 and the register continues on another roll from 4 January 1883.",
+   "waypoint": null,
+   "waypointNote": "Waypoint not established; film number only (the film's own board calls this item Volumen 13)."
  }
 ]
