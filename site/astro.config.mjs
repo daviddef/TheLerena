@@ -127,6 +127,13 @@ const redirects = {
   '/people/dona-dominga-lerena-widow-of-don-antonio-carballo': `${BASE}/people/dona-dominga-lerena/`,
   '/people/dona-justiniana-written-lenguas-de-lerena': `${BASE}/people/dona-justiniana/`,
   '/people/justiniana-lenguas-de-lerena': `${BASE}/people/dona-justiniana/`,
+  /* 13 November 2026. A MERGE (route 8): the Matriz marriage act of 10 June 1861 names Teresa Leonard's husband
+     Pedro Antonio Lerena as the son of Sancho and Maria Fernandez, so the second Pedro Antonio row, the 'Pedro'
+     row (his supposed father) and the 'Maria Pereyra' row (his supposed mother, a clerk's reading of the 1864
+     christening) were folded into the one man. Their addresses point at him. */
+  '/people/pedro-antonio-lerena-2': `${BASE}/people/pedro-antonio-lerena/`,
+  '/people/pedro': `${BASE}/people/pedro-antonio-lerena/`,
+  '/people/maria-pereyra': `${BASE}/people/pedro-antonio-lerena/`,
 };
 
 export default defineConfig({
