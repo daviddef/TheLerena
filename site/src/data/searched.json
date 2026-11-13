@@ -8383,5 +8383,24 @@
    "note": "A reading null at the margin-name level, not a walked book: no Isidora Izaural, no remarriage of Fidel's widow, no sibling of Gil in Libros 10-11 (Sep 1853 to Dec 1864; marriages of about Sep 1861 to Jan 1863 are in the San Francisco books and not here). One Lerena-family act found and plate read: Pedro Antonio Lerena (son of Sancho and Maria Fernandez, widower of Vicenta Vega) with Teresa Leonard, 10 June 1861, which settles the identification of her husband and removes the 'Pedro and Maria Pereyra' parents of the 1864 christening (see data/corrections.tsv). Terms (cover exit 0): Lerena, Llerena, Gerena, Lereña, Lerenas, Leresa, Lerina, Levena, Lorena, Serena, Sereña, Loreña, Larena, Lerama, Perena. Logged in data/sources-consulted.tsv.",
    "waypoint": null,
    "waypointNote": "Waypoint not established; film number only (the film page's default waypoint names only the first segment)."
+ },
+ {
+   "src": "FamilySearch, Montevideo Libros Castrenses, Libro primero de matrimonios of the first battalion of the Regimiento de Infanteria de Buenos Ayres (DGS film 007713373), images 785-789 (September 1782 start; 1790-91 window)",
+   "url": "https://www.familysearch.org/search/film/007713373",
+   "film": "007713373",
+   "what": "Lerena: Sancho Llerena Aguilar's marriage, 8 January 1791 (Apolant ficha 355), in the Castrense marriage book of the first battalion; no act of 8 January 1791 and none between 5 October 1790 and 14 February 1791 in that book.",
+   "when": "2026-11-13",
+   "outcome": "nothing",
+   "pages": "film images 785-789 (title page and 1790-91 window; act text of image 789 zoomed); rest of the book not read",
+   "walked": false,
+   "tags": [
+     "lerena",
+     "uruguay",
+     "montevideo",
+     "familysearch"
+   ],
+   "note": "A narrow nil: one date window in one book. Not a nil about Sancho, and the Canelones cathedral, the civil Matriz books and the Curia's informaciones are untouched. Film map: baptism book of the first battalion images 640-c.780, marriage book 785-c.814, baptism book of the second battalion 816 on, military burials c.895-930 and 782-783, new Libro de asientos from 1810 at image 935. Terms (cover exit 0): Lerena, Llerena, Gerena, Lereña, Lerenas, Leresa, Lerina, Levena, Lorena, Serena, Sereña, Loreña, Larena, Lerama, Perena. Logged in data/sources-consulted.tsv.",
+   "waypoint": null,
+   "waypointNote": "Waypoint not established; film number only (the film page's default waypoint names only the first segment)."
  }
 ]
