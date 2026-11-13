@@ -10491,5 +10491,12 @@
   "last_attested_alive": "1835-Aug-18",
   "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
   "tier": "ALIVE AT"
+ },
+ {
+  "name": "Antonia Luisa LERENA Gonzalez (b. 1819, Cordon)",
+  "born_est": "1819-05",
+  "last_attested_alive": "1819-May-12",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
  }
 ]

@@ -8648,5 +8648,56 @@
    "note": "Margin names and later-hand surname notes only; the baptism may lie earlier than frame 158, at the Matriz or elsewhere. Control: Eusebio Congenio's entry (frame 185) re-found.",
    "waypoint": null,
    "waypointNote": "Waypoint not established; film number only (the film page's default waypoint names only the first segment)."
+ },
+ {
+   "src": "FamilySearch, San Fernando de la Florida baptisms 1807-1818 (film 008164275, frames 226-345) and burials 1793-1830 (film 008164280, frames 14-127)",
+   "url": "https://www.familysearch.org/search/film/008164275",
+   "film": "008164275",
+   "what": "Isidora Izaural, wife of Fidel Lerena: an adult Ysidora Yzaurral at Florida as godmother on 9 Nov 1812 and 24 Jul 1814 (plate read); the rest of the Ysauzzal family to 1818; not an identification.",
+   "when": "2026-11-13",
+   "outcome": "yield",
+   "pages": "baptisms frames 226-345; burials frames 14-127",
+   "ev": [
+     [
+       "/people/isidora-ysaurralde/",
+       "Isidora Ysaurralde, wife of Fidel Lerena: an Ysidora Yzaurral godmother at Florida, 1812 and 1814"
+     ]
+   ],
+   "walked": false,
+   "tags": [
+     "lerena",
+     "uruguay",
+     "florida",
+     "izaural",
+     "familysearch"
+   ],
+   "note": "Baptism frames 284 and 300 and burial frame 60 zoomed; the rest read by a delegated agent from whole spreads. Not an identification (the 1818 bride is 'natural de esta Ciudad'). Burial frames 128+ unread. Florida marriage film 008143358 restricted (403), not worked round.",
+   "waypoint": null,
+   "waypointNote": "Waypoint not established; film number only (the film page's default waypoint names only the first segment)."
+ },
+ {
+   "src": "FamilySearch, Cordon (Nuestra Senora del Carmen) baptisms 1816-1821 (film 007713388, frames 186-303)",
+   "url": "https://www.familysearch.org/search/film/007713388",
+   "film": "007713388",
+   "what": "Gil, Fidel and Isidora's baptisms sought in the Cordon book; found instead Antonia Luisa Llerena, baptised 12 May 1819, daughter of Ramon Llerena and Maria Josefa Gonzalez, a sister of Eusebio Congenio, Angel Fructuoso and Luis Manuel.",
+   "when": "2026-11-13",
+   "outcome": "yield",
+   "pages": "frames 186-303",
+   "ev": [
+     [
+       "/people/antonia-luisa-lerena-gonzalez/",
+       "Antonia Luisa Llerena, baptised at the Cordon 12 May 1819"
+     ]
+   ],
+   "walked": false,
+   "tags": [
+     "lerena",
+     "uruguay",
+     "cordon",
+     "familysearch"
+   ],
+   "note": "Margin-name pass; frame 237 zoomed; frames 209-303 re-read by me for Gil/Egidio/Gilberto, none. Frames 304+ unread. Not a walked-pages nil.",
+   "waypoint": null,
+   "waypointNote": "Waypoint not established; film number only."
  }
 ]
