@@ -8591,5 +8591,43 @@
    "note": "A candidate origin for Gil Lerena's mother, plate read and zoomed (frames 166 and 212); the family of the Izaural name at Florida is set out in data/sources-consulted.tsv. Not an identification: the 1818 Montevideo bride is 'natural de esta Ciudad'. Florida marriage film 008143358 is restricted (403) and not worked round. Terms (cover exit 0): Lerena, Llerena, Lerenas, Gerena, Lereña, Leresa, Lerina, Levena, Lorena, Serena, Sereña, Loreña, Larena, Lerama, Perena.",
    "waypoint": null,
    "waypointNote": "Waypoint not established; film number only (the film page's default waypoint names only the first segment)."
+ },
+ {
+   "src": "FamilySearch, Montevideo: Paso del Molino burial image 231, cathedral burial image 27 (30 April 1896) and the 4a seccion marriage act of 20 November 1897, re-read at the plate",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C9B7-R33G-8",
+   "film": null,
+   "what": "Two open points settled as far as the plates allow: Luis Eugenio Lerena Lenguas's burial entry says 24 November 1901 (civil act: 24 December; cura's slip likely); Avelino Eduardo's burial entry of 30 April 1896 (wife Elvira) against his widow's statement of 1897 that he died in 1895 (wife Celedonia) - both re-read, both disagreements stand.",
+   "when": "2026-11-13",
+   "outcome": "nothing",
+   "pages": "Paso del Molino image 231; cathedral image 27; marriage act image of 20 Nov 1897",
+   "walked": false,
+   "tags": [
+     "lerena",
+     "uruguay",
+     "montevideo",
+     "familysearch"
+   ],
+   "note": "Re-reads of acts already held; no new person. Register rows updated with the second zoom.",
+   "waypoint": null,
+   "waypointNote": "Waypoint not established; image arks only."
+ },
+ {
+   "src": "FamilySearch, Inmaculada Concepcion (Paso del Molino) burial records 1878-1904, images 224, 102 and 237 opened at the plate",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C9B7-RSYT-G",
+   "film": null,
+   "what": "The three unopened machine hits of the Paso del Molino volume (a 'Serena' of 1901, a 'Lorena' of 1889, a 'Perena' of 1902) read at the plate: Olave's mother (G-surname), Teresa Forena/Torena, Silverio Pereira's widow. None is a Lerena.",
+   "when": "2026-11-13",
+   "outcome": "nothing",
+   "pages": "images 224, 102, 237 of the volume",
+   "walked": false,
+   "tags": [
+     "lerena",
+     "uruguay",
+     "montevideo",
+     "familysearch"
+   ],
+   "note": "Closes route 18. Carolina Llerena de Martinez and Juana Llerena (Matriz 1839) were already plate read and are on their rows.",
+   "waypoint": null,
+   "waypointNote": "Waypoint not established; image arks only."
  }
 ]
