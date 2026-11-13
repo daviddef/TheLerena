@@ -7728,7 +7728,7 @@
    "src": "FamilySearch full text, Montevideo cathedral (Matriz) Baptism Records September 1844 - June 1847, all 190 images read by machine transcript",
    "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C9B7-YSKP-8",
    "waypoint": null,
-   "what": "No Lerena in any spelling, no Fidel Lerena, no Isidora Izaural, no sibling of Gil; no control available (coverage null, not a walked nil)",
+   "what": "Machine scan only; it FAILED its control (the baptism of Faustino, son of Gil, 4 Aug 1845, stands in this book and the machine transcript did not show it), so it is no evidence of absence; the plate walk of 13 Nov 2026 is logged separately",
    "when": "2026-11-12",
    "outcome": "nothing",
    "pages": "1-190",
@@ -8327,6 +8327,27 @@
      ]
    ],
    "note": "A reading null at the margin-name level, not a walked book. Five Lerena-family acts found (nothing merged): Manuela (4) and Cosme (7 months) Oct 1871, Amelia (9) 11 Nov 1871 (existing row), Ercilia (1) 14 Mar 1874, Javier Lavina (11) 12 Mar 1875, son of Javier and Leonarda Serena (strengthens the candidate identification of Leonarda Serena with Leonarda Margarita Lerena Vega). Vicente 'Lerena/Serena' of 25 Oct 1871 left unsettled and not entered. No Fidel, Isidora, widow or sibling of Gil. Terms typed (cover exit 0): Lerena, Llerena, Lereña, Lerina, Lorena, Loreña, Larena, Lerama, Leresa, Levena, Gerena, Serena, Sereña, Lerenas, Perena. Logged in data/sources-consulted.tsv.",
+   "collection": "https://www.familysearch.org/search/collection/4134697",
+   "waypointNote": "DGS film pages and the image viewer for this film carry only the film number and an image-group id; no wc=/owc= waypoint code appears, so none is written."
+ },
+ {
+   "src": "FamilySearch catalogue, Montevideo Matriz (Catedral), Bautismos Libro 25 (1844-1847), film 007713376 item 10, frames 2042-2225",
+   "url": "https://www.familysearch.org/search/film/007713376",
+   "waypoint": null,
+   "what": "Lerena: a baptism of a child of Fidel and Isidora, of Gil's son Juan or of another sibling of Gil in the Matriz Libro 25, September 1844 to June 1847 (control Faustino, 4 Aug 1845, re-found); nothing new",
+   "when": "2026-11-13",
+   "outcome": "nothing",
+   "pages": "frames 2042-2225 (Libro 25, whole book)",
+   "walked": false,
+   "logOnly": true,
+   "tags": [
+     "lerena",
+     "uruguay",
+     "montevideo",
+     "familysearch"
+   ],
+   "film": "007713376",
+   "note": "A reading null at the margin-name level, not a walked book. The only Lerena-family act is the already-held baptism of Faustino, son of Gil (4 Aug 1845, frame 2091), found again as the control. Corrects the machine-scan row of 12 Nov 2026, which had missed him.",
    "collection": "https://www.familysearch.org/search/collection/4134697",
    "waypointNote": "DGS film pages and the image viewer for this film carry only the film number and an image-group id; no wc=/owc= waypoint code appears, so none is written."
  }
