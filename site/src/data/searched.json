@@ -8629,5 +8629,24 @@
    "note": "Closes route 18. Carolina Llerena de Martinez and Juana Llerena (Matriz 1839) were already plate read and are on their rows.",
    "waypoint": null,
    "waypointNote": "Waypoint not established; image arks only."
+ },
+ {
+   "src": "FamilySearch, Cordon (Nuestra Senora del Carmen) baptism book 1815-1816, DGS film 007713388, frames 158-185, margin-read backwards from the christening of Eusebio Congenio Lerena",
+   "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C9BW-CSMM-7",
+   "film": "007713388",
+   "what": "Eugenio, child of Ramon Lerena and Maria Gonzalez (buried at the Cordon 11 July 1816): his baptism looked for in the Cordon baptisms of October 1815 to August 1816; not found (reading null).",
+   "when": "2026-11-13",
+   "outcome": "nothing",
+   "pages": "film frames 158-185",
+   "walked": false,
+   "tags": [
+     "lerena",
+     "uruguay",
+     "montevideo",
+     "familysearch"
+   ],
+   "note": "Margin names and later-hand surname notes only; the baptism may lie earlier than frame 158, at the Matriz or elsewhere. Control: Eusebio Congenio's entry (frame 185) re-found.",
+   "waypoint": null,
+   "waypointNote": "Waypoint not established; film number only (the film page's default waypoint names only the first segment)."
  }
 ]
