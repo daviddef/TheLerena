@@ -8505,5 +8505,91 @@
    "note": "A reading null at the margin-name level apart from one godmother, Santa Llerena, found when a borderline margin was zoomed (frame 1998, 18 August 1835). Weak instrument: most baptism margins give only the child's given name, and frames 1688-1871 were read through narrow strips. Terms (cover exit 0): Lerena, Llerena, Lerenas, Gerena, Lereña, Leresa, Lerina, Levena, Lorena, Serena, Sereña, Loreña, Larena, Lerama, Perena. Logged in data/sources-consulted.tsv.",
    "waypoint": null,
    "waypointNote": "Waypoint not established; film number only (the film page's default waypoint names only the first segment)."
+ },
+ {
+   "src": "FamilySearch, San Fernando de la Florida (Nuestra Senora de Lujan, Florida, Uruguay), death index (Libros 1-6) on DGS film 008143360 and the first burial book of th",
+   "url": "https://www.familysearch.org/search/film/008143360",
+   "film": "008143360",
+   "what": "Isidora Izaural, Fidel or Gil Lerena in the Florida death index and burial book; no Lerena found; an Izaural family (Izaurzaldi) found at the Arroyo de la Virgen in 1796 (a lead).",
+   "when": "2026-11-13",
+   "outcome": "nothing",
+   "pages": "film 008143360 frames 593-600 (index); film 008164280 frames 14-21",
+   "walked": false,
+   "tags": [
+     "lerena",
+     "uruguay",
+     "florida",
+     "izaural",
+     "familysearch"
+   ],
+   "note": "Index nil for Lerena-type names; positive evidence of an Izaural-type family in Florida in 1796 (two burials plate-read), recorded as spelling leads Izaurzaldi and Izaurraldi in the Atlas catalogue (added locally). Not a finding about Isidora. Terms (cover exit 0): Lerena, Llerena, Lerenas, Gerena, Lereña, Leresa, Lerina, Levena, Lorena, Serena, Sereña, Loreña, Larena, Lerama, Perena. Logged in data/sources-consulted.tsv.",
+   "waypoint": null,
+   "waypointNote": "Waypoint not established; film number only (the film page's default waypoint names only the first segment)."
+ },
+ {
+   "src": "FamilySearch, San Antonio de Padua (Sarandi del Yi, Durazno), Indice de defunciones 1877-1958 and Libro 1o de Finados from 1877, DGS film 008111105 (items 4-5)",
+   "url": "https://www.familysearch.org/search/film/008111105",
+   "film": "008111105",
+   "what": "Lerena, Fidel, Gil or Isidora Izaural in the Sarandi del Yi death index 1877-c.1898; none found.",
+   "when": "2026-11-13",
+   "outcome": "nothing",
+   "pages": "film 008111105 frames 417-419 (index); book frames 433, 440, 455-462 opened",
+   "walked": false,
+   "tags": [
+     "lerena",
+     "uruguay",
+     "durazno",
+     "sarandi-del-yi",
+     "familysearch"
+   ],
+   "note": "An index read, not a walk of the book; the parish's books on film begin only in 1877, so this is a long shot for a woman born in the 1790s. Terms (cover exit 0): Lerena, Llerena, Lerenas, Gerena, Lereña, Leresa, Lerina, Levena, Lorena, Serena, Sereña, Loreña, Larena, Lerama, Perena. Logged in data/sources-consulted.tsv.",
+   "waypoint": null,
+   "waypointNote": "Waypoint not established; film number only (the film page's default waypoint names only the first segment)."
+ },
+ {
+   "src": "FamilySearch, Nuestra Senora de los Dolores (Dolores, Soriano)",
+   "url": "https://www.familysearch.org/search/film/008163931",
+   "film": "008163931",
+   "what": "Lerena, Fidel, Gil or Isidora Izaural in the Dolores (Soriano) burial books 1848-1873 and 1873-c.1898; none found in the margin names.",
+   "when": "2026-11-13",
+   "outcome": "nothing",
+   "pages": "film 008163931 frames 10-80; film 008163930 frames 520-722 (margin names; doubtful names zoomed)",
+   "walked": false,
+   "tags": [
+     "lerena",
+     "uruguay",
+     "soriano",
+     "dolores",
+     "familysearch"
+   ],
+   "note": "A reading null at the margin-name level with serious gaps (struck, stained and missing stretches), not a walked book. Terms (cover exit 0): Lerena, Llerena, Lerenas, Gerena, Lereña, Leresa, Lerina, Levena, Lorena, Serena, Sereña, Loreña, Larena, Lerama, Perena. Logged in data/sources-consulted.tsv.",
+   "waypoint": null,
+   "waypointNote": "Waypoint not established; film number only (the film page's default waypoint names only the first segment)."
+ },
+ {
+   "src": "FamilySearch, San Fernando de la Florida (chapel of Pintado), Libro Primero de Bautismos 1791-1807, DGS film 008164275, frames 121-225",
+   "url": "https://www.familysearch.org/search/film/008164275",
+   "film": "008164275",
+   "what": "Isidora Izaural, wife of Fidel Lerena: a candidate baptism, Ysidora Josefa Ysauzzal of 24 January 1798 at Florida, daughter of Francisco Ysauzzal and Magdalena Baez, found; not an identification.",
+   "when": "2026-11-13",
+   "outcome": "yield",
+   "pages": "film frames 121-225 (every spread, entry text read)",
+   "ev": [
+     [
+       "/people/isidora-ysaurralde/",
+       "Isidora Ysaurralde, wife of Fidel Lerena: a candidate baptism at Florida, 24 January 1798"
+     ]
+   ],
+   "walked": false,
+   "tags": [
+     "lerena",
+     "uruguay",
+     "florida",
+     "izaural",
+     "familysearch"
+   ],
+   "note": "A candidate origin for Gil Lerena's mother, plate read and zoomed (frames 166 and 212); the family of the Izaural name at Florida is set out in data/sources-consulted.tsv. Not an identification: the 1818 Montevideo bride is 'natural de esta Ciudad'. Florida marriage film 008143358 is restricted (403) and not worked round. Terms (cover exit 0): Lerena, Llerena, Lerenas, Gerena, Lereña, Leresa, Lerina, Levena, Lorena, Serena, Sereña, Loreña, Larena, Lerama, Perena.",
+   "waypoint": null,
+   "waypointNote": "Waypoint not established; film number only (the film page's default waypoint names only the first segment)."
  }
 ]
