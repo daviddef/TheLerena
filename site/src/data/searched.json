@@ -8402,5 +8402,45 @@
    "note": "A narrow nil: one date window in one book. Not a nil about Sancho, and the Canelones cathedral, the civil Matriz books and the Curia's informaciones are untouched. Film map: baptism book of the first battalion images 640-c.780, marriage book 785-c.814, baptism book of the second battalion 816 on, military burials c.895-930 and 782-783, new Libro de asientos from 1810 at image 935. Terms (cover exit 0): Lerena, Llerena, Gerena, Lereña, Lerenas, Leresa, Lerina, Levena, Lorena, Serena, Sereña, Loreña, Larena, Lerama, Perena. Logged in data/sources-consulted.tsv.",
    "waypoint": null,
    "waypointNote": "Waypoint not established; film number only (the film page's default waypoint names only the first segment)."
+ },
+ {
+   "src": "FamilySearch, San Isidro Labrador (Las Piedras, Canelones), Libro 3 de Defunciones (1874-c.1899) and Libro 4 de Finados (1900-c.1927), DGS film 008153111, frames 2851-3197",
+   "url": "https://www.familysearch.org/search/film/008153111",
+   "film": "008153111",
+   "what": "Lerena: any Fidel Lerena, Isidora Izaural, widow of Fidel or sibling of Gil in the Las Piedras burial register from May 1874 to about 1927; none found in the margin names.",
+   "when": "2026-11-13",
+   "outcome": "nothing",
+   "pages": "film frames 2851-3197 (margin names; about fifteen doubtful names zoomed); not a walk of every entry body",
+   "walked": false,
+   "tags": [
+     "lerena",
+     "uruguay",
+     "canelones",
+     "las-piedras",
+     "familysearch"
+   ],
+   "note": "A reading null at the margin-name level, not a walked book: frames 2851-2884 read by me, 2885-3197 by a delegated reading agent from margin strips, with weak stretches where the margin gives only a given name or the strip cut the surnames (see data/sources-consulted.tsv). Terms (cover exit 0): Lerena, Llerena, Lerenas, Gerena, Lereña, Leresa, Lerina, Levena, Lorena, Serena, Sereña, Loreña, Larena, Lerama, Perena. The Las Piedras death index (film 008153110 item 14) was not usable. Logged in data/sources-consulted.tsv.",
+   "waypoint": null,
+   "waypointNote": "Waypoint not established; film number only (the film page's default waypoint names only the first segment)."
+ },
+ {
+   "src": "FamilySearch, Inmaculada Concepcion de Pando (Canelones), Libro tercero de finados (April 1874-June 1897), DGS film 008166592, frames 2361-2557",
+   "url": "https://www.familysearch.org/search/film/008166592",
+   "film": "008166592",
+   "what": "Lerena: any Fidel Lerena, Isidora Izaural, widow of Fidel or sibling of Gil in the Pando burial book from April 1874 to June 1897; none found in the margin names.",
+   "when": "2026-11-13",
+   "outcome": "nothing",
+   "pages": "film frames 2361-2557 (margin names; twelve doubtful names zoomed); not a walk of every entry body",
+   "walked": false,
+   "tags": [
+     "lerena",
+     "uruguay",
+     "canelones",
+     "pando",
+     "familysearch"
+   ],
+   "note": "A reading null at the margin-name level, not a walked book: read by a delegated reading agent from margin strips and zoomed where doubtful, with weak stretches where the margin gives only a given name and a back-filled run at frames 2484-2490 (see data/sources-consulted.tsv). Terms (cover exit 0): Lerena, Llerena, Lerenas, Gerena, Lereña, Leresa, Lerina, Levena, Lorena, Serena, Sereña, Loreña, Larena, Lerama, Perena. Logged in data/sources-consulted.tsv.",
+   "waypoint": null,
+   "waypointNote": "Waypoint not established; film number only (the film page's default waypoint names only the first segment)."
  }
 ]
