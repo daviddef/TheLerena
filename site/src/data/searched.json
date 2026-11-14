@@ -8856,5 +8856,23 @@
    "note": "A duplicate sweep caused by a stale note in this session's memory; logged for honesty. The three Lerena burials it reported were already rows. New only in structure: the colophon of Libro 11 at frame 735, the title pages of Libro 12 (frame 739) and Libro 13 (frame 943), a police certificate of 1844 pasted across the openings at 731-734, and the reminder that Gil appears in the BODY of his daughter's burial and never in a margin. Next genuinely unread frame: 963.",
    "waypoint": null,
    "waypointNote": "Waypoint not established; film number only."
+ },
+ {
+   "src": "Wikipedia (Cordoba in Spain; Cordoba in Argentina): what the phrase 'Cordova la Llana' names",
+   "url": "https://en.wikipedia.org/wiki/C%C3%B3rdoba,_Spain",
+   "what": "Whether Sancho Llerena's birthplace phrase of 1791, 'Cordova la Llana', is a Spanish address on its own.",
+   "when": "2026-11-15",
+   "outcome": "nothing",
+   "pages": "the two articles, read for the phrase only",
+   "walked": false,
+   "tags": [
+     "lerena",
+     "spain",
+     "argentina",
+     "placename"
+   ],
+   "note": "The phrase is attested as a by-name of the Andalusian city and also appears in versions of the 1573 founding name of Cordoba in Argentina; neither source is scholarly. The Spanish reading for Sancho rests on the 1812 padron ('ANDALUZIA'), his son's 1811 baptism ('natural de Andalucia') and the probable 1817 burial ('natural de Cadiz'), not on the phrase. No person searched.",
+   "waypoint": null,
+   "waypointNote": "Not a FamilySearch volume."
  }
 ]

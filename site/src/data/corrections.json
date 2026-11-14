@@ -1438,5 +1438,13 @@
   "what_is_true": "It has rested on acts since 20 September 2026. Gilberto's own marriage act - San Francisco de Asis, Montevideo, no. 178 of 11 August 1877, image read - calls him 'hijo legitimo de Don LUIS y de Dona JUSTINIANA LENGUAS', and Montevideo marriage act 258 of 1864 gives Luis Eugenio the same parents; two baptisms of Gilberto's children, in two parishes, name the same grandparents. The register and the charts already drew the two men as brothers; only this sentence, inside the very note that records those acts, still said otherwise.",
   "how_it_was_caught": "Working down the list of open questions, the sentence was read against the rest of its own row and against the sibling link the register already draws.",
   "retired": ""
+ },
+ {
+  "date": "2026-11-15",
+  "severity": "moderate",
+  "what_was_said": "Sancho Llerena Aguilar's register row gave his birthplace as 'Andalusia, Spain (the 1812 padron says \"andaluz\"; CORDOBA comes from the trees, which cite Apolant ficha 355)'.",
+  "what_is_true": "Cordoba has been primary since 15 September 2026, when his marriage act of 8 January 1791 was read at Canelones (DGS film 008166578, image 2687): 'Sancho Llerena, natural de Cordova la Llana, hijo legitimo de Felix Llerena y de Rosalia Aguilar, naturales de dicha Cordova'. The act also names his parents and shows that Aguilar is his mother's surname. The data files that argued the question were updated that day and the flag file carries the reasoning, but this row was not touched and went on crediting the trees for two months.",
+  "how_it_was_caught": "Working the open question 'Cordova la Llana - the next country' on 15 November 2026: the row was read to plan a Spanish search and contradicted the act the archive already held. The phrase itself was checked at the same time and is NOT by itself a Spanish address - it is given as a by-name of the Andalusian city and also appears in versions of the 1573 founding name of Cordoba in Argentina - so the row now says what actually settles it: 'andaluz' in the 1812 padron, 'natural de Andalucia' in his son's 1811 baptism, and 'natural de Cadiz' in the probable burial of 1817.",
+  "retired": ""
  }
 ]
