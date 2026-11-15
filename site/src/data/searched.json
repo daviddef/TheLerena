@@ -9921,5 +9921,36 @@
  "note": "A NAMES-COLUMN pass; a Lerena or Ysaurralde named INSIDE an entry is not excluded, and the unnamed entries are not found by surname. The near-names list for frames 2963-2996 was not kept.",
  "waypoint": null,
  "waypointNote": "Waypoint not established; film number and image group only."
+},
+{
+ "src": "FamilySearch, Montevideo cathedral (the Matriz): Libro 19 de finados, about 2 August 1877 to about 6 January 1878 (pages 373-436; DGS film 007713385, frames 3011-3042), read by the names column of every page at the plate",
+ "url": "https://www.familysearch.org/search/film/007713385",
+ "film": "007713385",
+ "what": "The burial of Elisa Villademoros, wife of Alejandro Lerena, 24 September 1877 (Matriz, frame 3021, p.393; 27 years old, born at Montevideo, married to Alejandro Lerena), found inside an entry under her own surname: the register's open burial for the wife of Alejandro M. Lerena. No Lerena, Llerena or Lorena as a surname in any names column of pages 373-436; no Fidel Lerena and no Isidora Izaural/Ysaurralde. Libro 19 continues on the same film from frame 3043, unread.",
+ "when": "2026-11-15",
+ "outcome": "yield",
+ "pages": "frames 3011-3042",
+ "for": [
+  [
+   "/people/elisa-villardemoros/",
+   "Elisa VILLARDEMOROS (m. Alejandro LERENA)"
+  ]
+ ],
+ "ev": [
+  [
+   "/people/elisa-villardemoros/",
+   "Frame 3021, page 393, 24 September 1877: 'Villademoros, Elisa', oriental, 27, 'casada con Alejandro Lerena', buried de limosna, fallecio hoy; zoomed at 2000 px; matches the register's wife of Alejandro M. Lerena by name, native city, age and the window left open by the Cordon act of 26 December 1877"
+  ]
+ ],
+ "walked": false,
+ "tags": [
+  "lerena",
+  "uruguay",
+  "montevideo",
+  "familysearch"
+ ],
+ "note": "A NAMES-COLUMN pass; the find was inside the text of an entry filed under the wife's own surname. A Lerena or Ysaurralde named INSIDE an entry is not excluded elsewhere, and the unnamed entries are not found by surname.",
+ "waypoint": null,
+ "waypointNote": "Waypoint not established; film number and image group only."
 }
 ]
