@@ -9307,5 +9307,24 @@
  "note": "A NAMES-COLUMN pass, three whole leaves to a sheet; a Lerena or Ysaurralde named INSIDE an entry is not excluded, and the unnamed 'parbulo' entries are not found by surname.",
  "waypoint": null,
  "waypointNote": "Waypoint not established; film number and image group only."
+},
+{
+ "src": "FamilySearch, Montevideo cathedral (the Matriz): burial book from February 1863, 7 July 1864 to about 6 January 1865 (DGS film 007713385, frames 1740-1775), read by the names column of every page at the plate",
+ "url": "https://www.familysearch.org/search/film/007713385",
+ "film": "007713385",
+ "what": "Fidel Lerena, Isidora Izaural/Ysaurralde and any Lerena or Llerena in the Matriz burials of July 1864 to early January 1865: none in the names column of any page. One Serena (Aquilino, a Swiss married to a Pedrola, f1774) opened and not tied to the family; near-names Lerna/Lema, Esmela, Leiva and Guerra zoomed and not counted.",
+ "when": "2026-11-15",
+ "outcome": "nothing",
+ "pages": "frames 1740-1775",
+ "walked": false,
+ "tags": [
+  "lerena",
+  "uruguay",
+  "montevideo",
+  "familysearch"
+ ],
+ "note": "A NAMES-COLUMN pass, three whole leaves to a sheet; a Lerena or Ysaurralde named INSIDE an entry is not excluded, and the unnamed 'parbulo' entries are not found by surname. The Serena spelling is not a nil here: one Serena was found and kept apart.",
+ "waypoint": null,
+ "waypointNote": "Waypoint not established; film number and image group only."
 }
 ]
