@@ -10596,5 +10596,12 @@
   "last_attested_alive": "1847c",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "[infant] MORATORIO Lerena (unnamed; d. 4 August 1869, Montevideo)",
+  "born_est": "1869",
+  "last_attested_alive": "1869",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]

@@ -9555,5 +9555,36 @@
  "note": "A NAMES-COLUMN pass, three whole leaves to a sheet; a Lerena or Ysaurralde named INSIDE an entry is not excluded unless it was read in full, and the unnamed entries are not found by surname. The cura's note of 17 January 1868 (many burials missing from mid-December 1867, no end date stated) still limits any nil for that period.",
  "waypoint": null,
  "waypointNote": "Waypoint not established; film number and image group only."
+},
+{
+ "src": "FamilySearch, Montevideo cathedral (the Matriz): Libro 17 de finados, pages 1-22, about 21 July to about late August 1869 (DGS film 007713385, frames 2301-2312), read by the names column of every page at the plate",
+ "url": "https://www.familysearch.org/search/film/007713385",
+ "film": "007713385",
+ "what": "Fidel Lerena, Isidora Izaural/Ysaurralde and any Lerena, Llerena or Serena in the first pages of the Matriz burial book Libro 17 (about 21 July to about late August 1869): no Fidel and no Isidora; one new Lerena entry, a twelve-day-old child buried 4 August 1869, son or daughter of Fernando Maria Moratorio and Josefa Lerena (very probably Josefa Lerena Traibel, born 1851), never named in the book.",
+ "when": "2026-11-15",
+ "outcome": "yield",
+ "pages": "frames 2301-2312",
+ "for": [
+  [
+   "/people/infant-moratorio-lerena/",
+   "[infant] MORATORIO Lerena (unnamed; d. 4 August 1869, Montevideo)"
+  ]
+ ],
+ "ev": [
+  [
+   "/people/infant-moratorio-lerena/",
+   "Frame 2307, page 11, 4 August 1869: 'Moratorio (un parbulo)', twelve days old, legitimate child of 'Don Fernando Maria Moratorio y Dona Josefa Lerena', died that day after emergency baptism; very probably the first child of the couple of the 1880 baptisms (Josefa Lerena Traibel)"
+  ]
+ ],
+ "walked": false,
+ "tags": [
+  "lerena",
+  "uruguay",
+  "montevideo",
+  "familysearch"
+ ],
+ "note": "A NAMES-COLUMN pass, three whole leaves to a sheet, on a book written in a smaller, paler hand than Libro 16; a Lerena or Ysaurralde named INSIDE an entry is not excluded unless it was read in full, and the unnamed entries are not found by surname. That the Josefa of the 1869 entry is Josefa Lerena Traibel is an inference from the names, the city and her age, not a documented identity.",
+ "waypoint": null,
+ "waypointNote": "Waypoint not established; film number and image group only."
 }
 ]
