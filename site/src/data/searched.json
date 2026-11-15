@@ -9845,5 +9845,43 @@
  "note": "A NAMES-COLUMN pass; a Lerena or Ysaurralde named INSIDE an entry is not excluded, and the unnamed entries are not found by surname.",
  "waypoint": null,
  "waypointNote": "Waypoint not established; film number and image group only."
+},
+{
+ "src": "FamilySearch, Montevideo cathedral (the Matriz): Libro 19 de finados, about 30 January 1875 to about 7 September 1875 (pages 1-88; DGS film 007713385, frames 2821-2864), read by the names column of every page at the plate",
+ "url": "https://www.familysearch.org/search/film/007713385",
+ "film": "007713385",
+ "what": "Fidel Lerena, Isidora Izaural/Ysaurralde and any Lerena, Llerena, Serena or Lorena in the Matriz burials of Libro 19, pages 1-88 (about 30 January to about 7 September 1875): none as a surname in the names column of any page. Libro 19 continues on the same film from frame 2865, unread.",
+ "when": "2026-11-15",
+ "outcome": "nothing",
+ "pages": "frames 2821-2864",
+ "walked": false,
+ "tags": [
+  "lerena",
+  "uruguay",
+  "montevideo",
+  "familysearch"
+ ],
+ "note": "A NAMES-COLUMN pass; a Lerena or Ysaurralde named INSIDE an entry is not excluded, and the unnamed entries are not found by surname.",
+ "waypoint": null,
+ "waypointNote": "Waypoint not established; film number and image group only."
+},
+{
+ "src": "FamilySearch, Montevideo cathedral (the Matriz): Libro 19 de finados, 7 September 1875 to about 5 May 1876 (pages 89-182; DGS film 007713385, frames 2865-2914), read by the names column of every page at the plate",
+ "url": "https://www.familysearch.org/search/film/007713385",
+ "film": "007713385",
+ "what": "Fidel Lerena, Isidora Izaural/Ysaurralde and any Lerena, Llerena, Serena or Lorena in the Matriz burials of Libro 19, pages 89-182 (7 September 1875 to about 5 May 1876): none as a surname in the names column of any page. Libro 19 continues on the same film from frame 2915, unread.",
+ "when": "2026-11-15",
+ "outcome": "nothing",
+ "pages": "frames 2865-2914",
+ "walked": false,
+ "tags": [
+  "lerena",
+  "uruguay",
+  "montevideo",
+  "familysearch"
+ ],
+ "note": "A NAMES-COLUMN pass; a Lerena or Ysaurralde named INSIDE an entry is not excluded, and the unnamed entries are not found by surname.",
+ "waypoint": null,
+ "waypointNote": "Waypoint not established; film number and image group only."
 }
 ]
