@@ -1110,6 +1110,11 @@
      "2 people the register joins to one another by its own links and to no line by any. Of the name: Asuncion LERENA, Domingo LERENA."
     ],
     [
+     "A household of 2 at Canelones",
+     "/register/",
+     "2 people the register joins to one another by its own links and to no line by any."
+    ],
+    [
      "A household of 3 at Buenos Aires",
      "/register/",
      "3 people the register joins to one another by its own links and to no line by any."
@@ -1183,6 +1188,11 @@
      "The household of L. S. LERENA Dominguez — Florida, Uruguay",
      "/people/l-s-lerena-dominguez/",
      "3 people the register joins to one another by its own links and to no line by any. Of the name: L. S. LERENA Dominguez."
+    ],
+    [
+     "The household of Lucas LERENA — Montevideo",
+     "/people/lucas-lerena-2/",
+     "2 people the register joins to one another by its own links and to no line by any. Of the name: Lucas LERENA."
     ],
     [
      "A household of 2 at Cordoba, Argentina",
@@ -1285,6 +1295,7 @@
     "julio-c-lerena-duran",
     "l-s-lerena-dominguez",
     "leandro-lerena",
+    "lucas-lerena-2",
     "lucia-llanos",
     "luis-alejandro-llerena",
     "luis-costales-serena",

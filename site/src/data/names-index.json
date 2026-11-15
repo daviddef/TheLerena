@@ -539,6 +539,14 @@
    "url": "/people/antonia-larranaga-lerena/"
   },
   {
+   "name": "Antonia Luisa Lerena Gonzalez",
+   "aliases": [
+    "Antonia Luisa Lerena",
+    "Antonia Luisa Lerena González"
+   ],
+   "url": "/people/antonia-luisa-lerena-gonzalez/"
+  },
+  {
    "name": "Antonina Benita Sanchez",
    "aliases": [],
    "url": "/people/antonina-benita-sanchez/"
@@ -1188,6 +1196,11 @@
    "name": "Cayetana Faustina Lerena",
    "aliases": [],
    "url": "/people/cayetana-faustina-lerena/"
+  },
+  {
+   "name": "Cayetana Micaela Ysaurrali",
+   "aliases": [],
+   "url": "/people/cayetana-micaela-ysaurrali/"
   },
   {
    "name": "Cayetano Alberto Fernandez",
@@ -2743,6 +2756,16 @@
    "url": "/people/francisco-remigio-fernandez-romero/"
   },
   {
+   "name": "Francisco Ysaurralde",
+   "aliases": [],
+   "url": "/people/francisco-ysaurralde/"
+  },
+  {
+   "name": "Francisco Ysaurrali",
+   "aliases": [],
+   "url": "/people/francisco-ysaurrali/"
+  },
+  {
    "name": "Frederick Christian Chappell",
    "aliases": [],
    "url": "/people/frederick-christian-chappell/"
@@ -3257,6 +3280,11 @@
     "Jacinta Telma Lerena"
    ],
    "url": "/people/jacinta-telma-lerena-marin/"
+  },
+  {
+   "name": "Javier Lavina",
+   "aliases": [],
+   "url": "/people/javier-lavina/"
   },
   {
    "name": "Jayme Quintana",
@@ -5199,6 +5227,13 @@
    "url": "/people/maria-luisa-olivera-lerena/"
   },
   {
+   "name": "Maria Magdalena Baez",
+   "aliases": [
+    "María Magdalena Baez"
+   ],
+   "url": "/people/maria-magdalena-baez/"
+  },
+  {
    "name": "Maria Magdalena Pastorina",
    "aliases": [
     "María Magdalena Pastorina"
@@ -5234,13 +5269,6 @@
     "María Pastorino"
    ],
    "url": "/people/maria-pastorino/"
-  },
-  {
-   "name": "Maria Pereyra",
-   "aliases": [
-    "María Pereyra"
-   ],
-   "url": "/people/maria-pereyra/"
   },
   {
    "name": "Maria Regina Lerena Barragan",
@@ -5733,6 +5761,11 @@
    "url": "/people/pedro-alberto-ysabelino-lerena-traibel/"
   },
   {
+   "name": "Pedro Antonio Lerena",
+   "aliases": [],
+   "url": "/people/pedro-antonio-lerena/"
+  },
+  {
    "name": "Pedro Antonio Llerena",
    "aliases": [],
    "url": "/people/pedro-antonio-llerena/"
@@ -5843,6 +5876,11 @@
    "name": "Pedro Villanueva",
    "aliases": [],
    "url": "/people/pedro-villanueva/"
+  },
+  {
+   "name": "Pedro Ysaurralde",
+   "aliases": [],
+   "url": "/people/pedro-ysaurralde/"
   },
   {
    "name": "Pedro Zacarias Beloqui",
@@ -6947,6 +6985,13 @@
    ]
   },
   {
+   "name": "Atanacia Llerena",
+   "url": "/people/?q=Atanacia%20Llerena",
+   "bearers": [
+    "/people/atanacia-llerena/"
+   ]
+  },
+  {
    "name": "Avelina Lerena",
    "url": "/people/?q=Avelina%20Lerena",
    "bearers": [
@@ -7187,6 +7232,13 @@
    ]
   },
   {
+   "name": "Cosme Lerena",
+   "url": "/people/?q=Cosme%20Lerena",
+   "bearers": [
+    "/people/cosme-lerena/"
+   ]
+  },
+  {
    "name": "Crecencia Lerena",
    "url": "/people/?q=Crecencia%20Lerena",
    "bearers": [
@@ -7295,6 +7347,13 @@
     "/people/emilio-isidoro-lerena-recuero/",
     "/people/emilio-lerena-2/",
     "/people/emilio-lerena/"
+   ]
+  },
+  {
+   "name": "Ercilia Lerena",
+   "url": "/people/?q=Ercilia%20Lerena",
+   "bearers": [
+    "/people/ercilia-lerena/"
    ]
   },
   {
@@ -7691,6 +7750,7 @@
    "bearers": [
     "/people/jose-llerena-2/",
     "/people/jose-llerena-3/",
+    "/people/jose-llerena-4/",
     "/people/jose-llerena/"
    ]
   },
@@ -7734,6 +7794,7 @@
    "bearers": [
     "/people/jose-llerena-2/",
     "/people/jose-llerena-3/",
+    "/people/jose-llerena-4/",
     "/people/jose-llerena/"
    ]
   },
@@ -7799,6 +7860,7 @@
    "url": "/people/?q=Juan%20Lerena",
    "bearers": [
     "/people/juan-jose-lerena/",
+    "/people/juan-lerena-2/",
     "/people/juan-lerena/"
    ],
    "resolve": [
@@ -7931,6 +7993,7 @@
    "name": "Lucas Lerena",
    "url": "/people/?q=Lucas%20Lerena",
    "bearers": [
+    "/people/lucas-lerena-2/",
     "/people/lucas-lerena/"
    ]
   },
@@ -8015,6 +8078,7 @@
    "bearers": [
     "/people/manuela-lerena-2/",
     "/people/manuela-lerena-3/",
+    "/people/manuela-lerena-4/",
     "/people/manuela-lerena/"
    ]
   },
@@ -8568,25 +8632,9 @@
    ]
   },
   {
-   "name": "Pedro Antonio Lerena",
-   "url": "/people/?q=Pedro%20Antonio%20Lerena",
-   "bearers": [
-    "/people/pedro-antonio-lerena-2/",
-    "/people/pedro-antonio-lerena/"
-   ],
-   "resolve": [
-    {
-     "near": "/people/dona-vicenta-vega/",
-     "url": "/people/pedro-antonio-lerena/"
-    }
-   ]
-  },
-  {
    "name": "Pedro Lerena",
    "url": "/people/?q=Pedro%20Lerena",
    "bearers": [
-    "/people/pedro-antonio-lerena-2/",
-    "/people/pedro-antonio-lerena/",
     "/people/pedro-lerena/"
    ],
    "resolve": [
@@ -8597,6 +8645,10 @@
     {
      "near": "/people/maria-ines-larriera/",
      "url": "/people/pedro-alberto-ysabelino-lerena-traibel/"
+    },
+    {
+     "near": "/people/teresa-leonard/",
+     "url": "/people/pedro-antonio-lerena/"
     },
     {
      "near": "/people/manuela-lemos/",
@@ -8770,6 +8822,7 @@
    "name": "Rosa Lerena",
    "url": "/people/?q=Rosa%20Lerena",
    "bearers": [
+    "/people/rosa-lerena-2/",
     "/people/rosa-lerena/"
    ],
    "resolve": [
@@ -8813,6 +8866,13 @@
    "url": "/people/?q=Sancho%20Llerena",
    "bearers": [
     "/people/sancho-llerena/"
+   ]
+  },
+  {
+   "name": "Santa Llerena",
+   "url": "/people/?q=Santa%20Llerena",
+   "bearers": [
+    "/people/santa-llerena/"
    ]
   },
   {

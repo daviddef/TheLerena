@@ -9126,5 +9126,52 @@
   "note": "A RE-READ, and the reading was never the missing part: the act was transcribed in full on 15 September 2026 (data/1791-marriage-act.tsv, and a panel of /hypotheses/ that quotes 'el dicho Sancho'), while the same page and the same data folder went on saying for two months that it had never been opened. What was new on 15 November was the COMPARISON, and the zoom.",
   "waypoint": null,
   "waypointNote": "Waypoint not established; film number and image only."
- }
+ },
+{
+ "src": "FamilySearch, Montevideo cathedral (the Matriz): Libro 14 de Difuntos, 11 December 1854 to 23 March 1860 (DGS film 007713385, frames 1253-1496; image group M98M-SSM), read by margin name at the plate",
+ "url": "https://www.familysearch.org/search/film/007713385",
+ "film": "007713385",
+ "what": "Fidel Lerena, Isidora Izaural/Ysaurralde and any widow of Fidel, in the one burial book that follows the one read to its end on 13 November: no Fidel and no Isidora in the margin names of the whole book; the control (Vicenta Lerena, 18 June 1855) passed and exposed a wrong identification in the register; and an infant Lucas, natural son of a Rosa Lerena, morena oriental, 22 January 1855, is new.",
+ "when": "2026-11-15",
+ "outcome": "yield",
+ "pages": "frames 1253-1496",
+ "for": [
+  [
+   "/people/lucas-lerena-2/",
+   "Lucas LERENA (infant, son of Rosa)"
+  ],
+  [
+   "/people/rosa-lerena-2/",
+   "Rosa LERENA (morena oriental, mother of Lucas, 1855)"
+  ],
+  [
+   "/people/vicenta-lerena-vega-2/",
+   "Vicenta LERENA Vega (b. c.1838)"
+  ]
+ ],
+ "ev": [
+  [
+   "/people/lucas-lerena-2/",
+   "Frame 1265, folio 18, 22 January 1855: 'Lucas, edad dos meses, [hijo] natural de Rosa Lerena, morena oriental' - the surname compared with the confirmed Lerena of frame 1291 in the same hand; Serena is also catalogued, so the row stands either way"
+  ],
+  [
+   "/people/rosa-lerena-2/",
+   "Named only as the infant's mother; kept apart from the Rosa Lerena of casa 229, Calle Sarandi (entered at forty-six and married in 1850), and not shown alive by the entry"
+  ],
+  [
+   "/people/vicenta-lerena-vega-2/",
+   "The control: her burial of 18 June 1855 (frame 1291, folio 68) re-found and re-read at the plate; the father's forename is abbreviated 'Pedro Ant.'. The register's 'the girl of the 1837 baptism' is withdrawn - that baptism is Leonarda Margarita's"
+  ]
+ ],
+ "walked": false,
+ "tags": [
+  "lerena",
+  "uruguay",
+  "montevideo",
+  "familysearch"
+ ],
+ "note": "A MARGIN pass: names in the margin column of both pages of every opening, about 320 px a page, each candidate opened at 2000 px - not a reading of the entries. A Lerena or Ysaurralde named INSIDE an entry is not excluded, and the numbered list of the 1857 epidemic (Nos 1-377) was read at strip size only. Two Ysaurra- lines of that list were found and kept as leads, not family: Pedro Yzaurralde, a French boy of fourteen, and Cornelio Ysaurrabal, an Oriental of seventy (the ending reads -bal, a form the catalogue does not hold). The 12 November machine-transcript scan of this book had missed all three of the new entries.",
+ "waypoint": null,
+ "waypointNote": "Waypoint not established; film number and image group only."
+}
 ]

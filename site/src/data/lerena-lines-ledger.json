@@ -8,8 +8,8 @@
   "Anyone on no line and in no household is counted in one of two pens: people of the name with no family recorded here, or people in the acts who are not of the name and are kin to nobody here.",
   "Everybody is counted, and nobody is counted twice. A person is listed by name only when their page publishes a birth year before the living line or a death, and no rule of this archive holds them as living or out of publication; everybody else is a number only."
  ],
- "total": 1515,
- "listed": 941,
+ "total": 1519,
+ "listed": 942,
  "lanes": [
   {
    "key": "sancho",
@@ -59,7 +59,7 @@
     "Buenos Aires",
     "Mercedes"
    ],
-   "people": 169,
+   "people": 171,
    "listed": 105
   },
   {
@@ -270,9 +270,9 @@
    "key": "households",
    "kind": "not-yet-placed",
    "head": "Real households of the name — on none of these lines",
-   "households": 39,
-   "people": 172,
-   "listed": 93
+   "households": 41,
+   "people": 176,
+   "listed": 94
   },
   {
    "id": "of-the-name-alone",
@@ -289,7 +289,7 @@
    "kind": "not-yet-placed",
    "head": "In the acts but not of the name, and kin to nobody on a line",
    "households": 0,
-   "people": 229,
+   "people": 227,
    "listed": 42
   },
   {
@@ -818,6 +818,20 @@
    "listed": 2
   },
   {
+   "label": "A household of 2 at Canelones",
+   "pen": "not-yet-placed",
+   "href": "/register/",
+   "why": "2 people the register joins to one another by its own links and to no line by any.",
+   "status": "origin-unknown",
+   "statusNote": "",
+   "span": null,
+   "places": [],
+   "onLane": [],
+   "written": false,
+   "people": 2,
+   "listed": 0
+  },
+  {
    "label": "A household of 3 at Buenos Aires",
    "pen": "not-yet-placed",
    "href": "/register/",
@@ -1147,6 +1161,29 @@
    "onLane": [],
    "written": false,
    "people": 3,
+   "listed": 1
+  },
+  {
+   "label": "The household of Lucas LERENA — Montevideo",
+   "pen": "not-yet-placed",
+   "href": "/people/lucas-lerena-2/",
+   "why": "2 people the register joins to one another by its own links and to no line by any. Of the name: Lucas LERENA.",
+   "status": "origin-unknown",
+   "statusNote": "",
+   "span": [
+    1854,
+    1854
+   ],
+   "places": [
+    [
+     "Montevideo",
+     1854,
+     1854
+    ]
+   ],
+   "onLane": [],
+   "written": false,
+   "people": 2,
    "listed": 1
   },
   {
