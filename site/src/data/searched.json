@@ -9536,5 +9536,24 @@
  "note": "A NAMES-COLUMN pass, three whole leaves to a sheet; a Lerena or Ysaurralde named INSIDE an entry is not excluded unless it was read in full, and the unnamed entries are not found by surname. The husband in the two entries is NOT merged with Carlos Ambrosio Lerena Traibel (1842-1893): the Geneanet-derived file gives his marriage as to Luisa Lerena Lenguas in 1867, against a Maria here in 1869.",
  "waypoint": null,
  "waypointNote": "Waypoint not established; film number and image group only."
+},
+{
+ "src": "FamilySearch, Montevideo cathedral (the Matriz): Libro 16 de finados, end of the book, about 13 April to about 20 July 1869 (DGS film 007713385, frames 2271-2296; Libro 17 begins at f2300), read by the names column of every page at the plate",
+ "url": "https://www.familysearch.org/search/film/007713385",
+ "film": "007713385",
+ "what": "Fidel Lerena, Isidora Izaural/Ysaurralde and any Lerena, Llerena or Serena in the Matriz burials of about 13 April to about 20 July 1869 (the end of Libro 16, pages 542-592): none in the names column of any page. With this batch all of Libro 16 (6 June 1866 to 20 July 1869) has been read by the names column; its only Lerena entries are the two of March and April 1869 already logged. Near-names Severena, Aguirazabal and Carbone (mother Danero) zoomed and not counted. Libro 17 de finados begins at f2300.",
+ "when": "2026-11-15",
+ "outcome": "nothing",
+ "pages": "frames 2271-2300",
+ "walked": false,
+ "tags": [
+  "lerena",
+  "uruguay",
+  "montevideo",
+  "familysearch"
+ ],
+ "note": "A NAMES-COLUMN pass, three whole leaves to a sheet; a Lerena or Ysaurralde named INSIDE an entry is not excluded unless it was read in full, and the unnamed entries are not found by surname. The cura's note of 17 January 1868 (many burials missing from mid-December 1867, no end date stated) still limits any nil for that period.",
+ "waypoint": null,
+ "waypointNote": "Waypoint not established; film number and image group only."
 }
 ]
