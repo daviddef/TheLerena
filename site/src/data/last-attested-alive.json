@@ -10568,5 +10568,19 @@
   "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Pedro LERENA (moreno oriental, d. 1860)",
+  "born_est": "1830c",
+  "last_attested_alive": "1830c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Pedro SERENA (oriental, m. Maria Serena, d. 1861)",
+  "born_est": "1798c",
+  "last_attested_alive": "1798c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]

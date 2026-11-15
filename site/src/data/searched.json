@@ -9173,5 +9173,44 @@
  "note": "A MARGIN pass: names in the margin column of both pages of every opening, about 320 px a page, each candidate opened at 2000 px - not a reading of the entries. A Lerena or Ysaurralde named INSIDE an entry is not excluded, and the numbered list of the 1857 epidemic (Nos 1-377) was read at strip size only. Two Ysaurra- lines of that list were found and kept as leads, not family: Pedro Yzaurralde, a French boy of fourteen, and Cornelio Ysaurrabal, an Oriental of seventy (the ending reads -bal, a form the catalogue does not hold). The 12 November machine-transcript scan of this book had missed all three of the new entries.",
  "waypoint": null,
  "waypointNote": "Waypoint not established; film number and image group only."
+},
+{
+ "src": "FamilySearch, Montevideo cathedral (the Matriz): Libro 15 de Difuntos, 23 March 1860 to 11 September 1861 (DGS film 007713385, frames 1502-1600), read by the names column of every page at the plate",
+ "url": "https://www.familysearch.org/search/film/007713385",
+ "film": "007713385",
+ "what": "Fidel Lerena, Isidora Izaural/Ysaurralde and any widow of Fidel, in the Matriz burial book that follows Libro 14: no Fidel and no Isidora in the names column of any page; two new entries, Pedro Lerena (a moreno oriental, 1 November 1860) and a Pedro Serena (22 January 1861, a candidate only); and the book's closing note, which sends the Matriz's burials from 11 September 1861 to 1 February 1863 to the books of the parish of San Francisco.",
+ "when": "2026-11-15",
+ "outcome": "yield",
+ "pages": "frames 1502-1600",
+ "for": [
+  [
+   "/people/pedro-lerena-2/",
+   "Pedro LERENA (moreno oriental, d. 1860)"
+  ],
+  [
+   "/people/pedro-serena/",
+   "Pedro SERENA (oriental, m. Maria Serena, d. 1861)"
+  ]
+ ],
+ "ev": [
+  [
+   "/people/pedro-lerena-2/",
+   "Frame 1539, folio 19, 1 November 1860: 'Pedro Lerena', moreno oriental, thirty, single, died 31 October; kept apart from every Pedro Lerena already held"
+  ],
+  [
+   "/people/pedro-serena/",
+   "Frame 1555, folio 27, 22 January 1861: 'Pedro Serena', oriental, sixty-two, married to Maria Serena; a candidate on a catalogued spelling, kept apart"
+  ]
+ ],
+ "walked": false,
+ "tags": [
+  "lerena",
+  "uruguay",
+  "montevideo",
+  "familysearch"
+ ],
+ "note": "A NAMES-COLUMN pass on whole-leaf sheets: not a reading of the entries, so a Lerena or Ysaurralde named INSIDE an entry is not excluded. The first strip reads of frames 1509 and 1511 showed only body text (the photograph is shifted) and are void; the frames were re-read whole. The closing note on frame 1600 puts seventeen months of the cathedral's burials in San Francisco's books.",
+ "waypoint": null,
+ "waypointNote": "Waypoint not established; film number and image group only."
 }
 ]

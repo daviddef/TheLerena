@@ -8635,6 +8635,7 @@
    "name": "Pedro Lerena",
    "url": "/people/?q=Pedro%20Lerena",
    "bearers": [
+    "/people/pedro-lerena-2/",
     "/people/pedro-lerena/"
    ],
    "resolve": [
@@ -8701,6 +8702,13 @@
      "near": "/people/angela-francisca-montesdeoca/",
      "url": "/people/pedro-perena/"
     }
+   ]
+  },
+  {
+   "name": "Pedro Serena",
+   "url": "/people/?q=Pedro%20Serena",
+   "bearers": [
+    "/people/pedro-serena/"
    ]
   },
   {
