@@ -9212,5 +9212,24 @@
  "note": "A NAMES-COLUMN pass on whole-leaf sheets: not a reading of the entries, so a Lerena or Ysaurralde named INSIDE an entry is not excluded. The first strip reads of frames 1509 and 1511 showed only body text (the photograph is shifted) and are void; the frames were re-read whole. The closing note on frame 1600 puts seventeen months of the cathedral's burials in San Francisco's books.",
  "waypoint": null,
  "waypointNote": "Waypoint not established; film number and image group only."
+},
+{
+ "src": "FamilySearch, Montevideo cathedral (the Matriz): Libro 14 de Difuntos, the numbered relation of the 1857 epidemic burials, Nos 1-377, 16 March to 6 June 1857 (DGS film 007713385, frames 1398-1412), every line read at the plate",
+ "url": "https://www.familysearch.org/search/film/007713385",
+ "film": "007713385",
+ "what": "Fidel Lerena, Isidora Izaural/Ysaurralde and any Lerena, Llerena or Serena in the one part of Libro 14 that had no margin column: none in any of the 377 lines. The two Ysaurra- leads already logged (Cornelio Ysaurrabal, an Oriental of seventy; Pedro Ysaurralde, a French boy of fourteen) were re-read and stand.",
+ "when": "2026-11-15",
+ "outcome": "nothing",
+ "pages": "frames 1398-1412",
+ "walked": false,
+ "tags": [
+  "lerena",
+  "uruguay",
+  "montevideo",
+  "familysearch"
+ ],
+ "note": "A line-by-line read of the list only (a number, a name, a nationality, an age, a state); the full entries that follow it on the same pages were covered by the margin pass. A clerk's 'N.' or a forename alone cannot be found by surname.",
+ "waypoint": null,
+ "waypointNote": "Waypoint not established; film number and image group only."
 }
 ]
