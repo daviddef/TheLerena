@@ -22856,6 +22856,13 @@
     "note": "Same act."
    },
    {
+    "name": "Elisa LERENA Villademoros (d. 1888)",
+    "dates": "",
+    "slug": "elisa-lerena-villademoros",
+    "via": "register",
+    "note": "Same entry - the mother's name written Elisa Villademoros; the register's Elisa Villardemoros of the 1871 marriage and the 1877 burial."
+   },
+   {
     "name": "Jacinta Mercedes Gregoria LERENA Villademoros",
     "dates": "",
     "slug": "jacinta-mercedes-gregoria-lerena-villademoros",
@@ -22868,8 +22875,8 @@
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 3,
-  "relRegister": 3,
+  "relTotal": 4,
+  "relRegister": 4,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -22920,6 +22927,12 @@
   ],
   "children": [],
   "siblings": [
+   {
+    "name": "Elisa LERENA Villademoros (d. 1888)",
+    "dates": "",
+    "slug": "elisa-lerena-villademoros",
+    "via": "register"
+   },
    {
     "name": "Emilia Alberta LERENA Bassani",
     "dates": "",
@@ -23427,6 +23440,13 @@
     "note": "Cordon christening, 29 May 1873."
    },
    {
+    "name": "Elisa LERENA Villademoros (d. 1888)",
+    "dates": "",
+    "slug": "elisa-lerena-villademoros",
+    "via": "register",
+    "note": "Matriz burial book, Libro 21, 19 July 1888 (frame 381, pp.511-512) - 'hija legitima de Alejandro Maria Lerena y Elisa Villademoros'; PLATE READ, zoomed. Probable by names and dates, not a named grandparent."
+   },
+   {
     "name": "Emilia Alberta LERENA Bassani",
     "dates": "",
     "slug": "emilia-alberta-lerena-bassani",
@@ -23528,8 +23548,8 @@
   ],
   "aliasOf": null,
   "godparents": [],
-  "relTotal": 7,
-  "relRegister": 7,
+  "relTotal": 8,
+  "relRegister": 8,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -23630,6 +23650,12 @@
     "via": "register"
    },
    {
+    "name": "Elisa LERENA Villademoros (d. 1888)",
+    "dates": "",
+    "slug": "elisa-lerena-villademoros",
+    "via": "register"
+   },
+   {
     "name": "Emilia Alberta LERENA Bassani",
     "dates": "",
     "slug": "emilia-alberta-lerena-bassani",
@@ -23694,6 +23720,12 @@
     "name": "Alejandro Joaquin Narciso LERENA Villardemoros",
     "dates": "",
     "slug": "alejandro-joaquin-narciso-lerena-villardemoros",
+    "via": "register"
+   },
+   {
+    "name": "Elisa LERENA Villademoros (d. 1888)",
+    "dates": "",
+    "slug": "elisa-lerena-villademoros",
     "via": "register"
    },
    {
@@ -24004,6 +24036,12 @@
     "name": "Alejandro Joaquin Narciso LERENA Villardemoros",
     "dates": "",
     "slug": "alejandro-joaquin-narciso-lerena-villardemoros",
+    "via": "register"
+   },
+   {
+    "name": "Elisa LERENA Villademoros (d. 1888)",
+    "dates": "",
+    "slug": "elisa-lerena-villademoros",
     "via": "register"
    },
    {
@@ -107252,6 +107290,79 @@
   "godchildren": [],
   "relTotal": 1,
   "relRegister": 1,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "elisa-lerena-villademoros",
+  "name": "Elisa LERENA Villademoros (d. 1888)",
+  "born": "c.1875",
+  "died": "",
+  "birthplace": "Montevideo",
+  "nationality": "Uruguayan",
+  "occupation": "-",
+  "where": "Montevideo",
+  "source": "Catedral de la Inmaculada Concepcion y San Felipe y Santiago (Montevideo, the Matriz), Libro 21 de defunciones (cover 'Ano de 1884'), DGS film 007713386 item 2, frame 381, pages 511-512, the burial of 19 July 1888 - PLATE READ and zoomed 15 November 2026",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** BURIED 19 JULY 1888 AT THE MATRIZ, AND THE ENTRY IS HEADED 'LERENA ELISA'. *** Read at the plate, zoomed: 'El dia diez y nueve de Julio del ano mil ochocientos ochenta y ocho ... di sepultura eclesiastica al cadaver de ELISA, oriental, soltera, de TRECE anos de edad, hija legitima de ALEJANDRO MARIA LERENA y ELISA VILLADEMOROS: fallecio ayer.' The cura is Rafael Yeregui. So she died on 18 July 1888, aged thirteen, single, born about 1874-75 at Montevideo. *** SHE IS PLACED AS A DAUGHTER OF ALEJANDRO M. LERENA AND ELISA VILLADEMOROS BY THE TWO NAMES IN THE ENTRY, NOT BY A NAMED GRANDPARENT: *** the burial names her parents and no one above them. What agrees is the father's forename and surname, the mother's full name (the Cordon marriage of 28 December 1871 and the Matriz burial of Elisa Villademoros, 'casada con Alejandro Lerena', 24 September 1877), a mother who was dead by the time a thirteen-year-old of 1888 was three, the gap between the two known children (born 1872 and 1876) that a child of 1874-75 fills, and a father written 'viudo' on the Montevideo acts of 1886 and 1888. No other Alejandro Lerena with a wife of that name is held. The middle name does not match word for word: the 1871 act writes MAXIMO and the other acts write 'M.', and this entry writes MARIA at zoom; that is a scribe's expansion of the initial and is stated, not resolved. *** TIER: probable, a match by names and dates, not a documented tie. *** She would be the THIRD child of the couple held (the others are Alejandro Joaquin Narciso, born 1872, and Jacinta Mercedes Gregoria, born 1876; Angelica Maria is the daughter of Avelino Eduardo and Celedonia, not of this couple). Her baptism, about 1874-75, is not found; the Cordon baptism books for those years are the place to look. Not the Elisa LERENA of 1887 who arrived at Buenos Aires in 1913 on the Infanta Isabel (a Spanish passenger, a different person by nationality and birth year). Found by a NAMES-COLUMN pass of Libro 21 (frames 124-401): the only Lerena surname in the whole book apart from Clorinda Lerena on page 298. Plate-read, zoomed; the sheet-size reading had her age as 'tres' and her mother as 'Elvira' before the zoom.",
+  "place": "Montevideo",
+  "placeSlug": "montevideo",
+  "surname": "LERENA",
+  "ark": "",
+  "sourceUrl": "",
+  "noLink": "no public link",
+  "living": false,
+  "gen": null,
+  "father": {
+   "name": "Alejandro M. LERENA (m.1 Elisa VILLADEMOROS; m.2 Julia BASSANI)",
+   "dates": "",
+   "slug": "alejandro-m-lerena",
+   "via": "register",
+   "note": "Matriz burial book, Libro 21, 19 July 1888 (frame 381, pp.511-512) - 'hija legitima de Alejandro Maria Lerena y Elisa Villademoros'; PLATE READ, zoomed. Probable by names and dates, not a named grandparent."
+  },
+  "mother": {
+   "name": "Elisa VILLARDEMOROS (m. Alejandro LERENA)",
+   "dates": "",
+   "slug": "elisa-villardemoros",
+   "via": "register",
+   "note": "Same entry - the mother's name written Elisa Villademoros; the register's Elisa Villardemoros of the 1871 marriage and the 1877 burial."
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Alejandro Joaquin Narciso LERENA Villardemoros",
+    "dates": "",
+    "slug": "alejandro-joaquin-narciso-lerena-villardemoros",
+    "via": "register"
+   },
+   {
+    "name": "Emilia Alberta LERENA Bassani",
+    "dates": "",
+    "slug": "emilia-alberta-lerena-bassani",
+    "via": "register"
+   },
+   {
+    "name": "Hector Narciso LERENA Bassani",
+    "dates": "",
+    "slug": "hector-narciso-lerena-bassani",
+    "via": "register"
+   },
+   {
+    "name": "Jacinta Mercedes Gregoria LERENA Villademoros",
+    "dates": "",
+    "slug": "jacinta-mercedes-gregoria-lerena-villademoros",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": [],
   "noindex": false

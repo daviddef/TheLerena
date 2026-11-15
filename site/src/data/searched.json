@@ -10173,5 +10173,40 @@
  "note": "A NAMES-COLUMN pass; a Lerena or Ysaurralde named INSIDE an entry is not excluded, and the unnamed entries are not found by surname. Most surnames were read at sheet size only. No control entry fell in these pages.",
  "waypoint": null,
  "waypointNote": "Waypoint not established; film number and image group only."
+},
+{
+ "src": "FamilySearch, Montevideo cathedral (the Matriz): Libro 21 de defunciones, about 5 July 1887 to about 20 December 1888 (pages 401-558, the end of the book and of item 2; DGS film 007713386, frames 326-406), read by the names column of every page at the plate",
+ "url": "https://www.familysearch.org/search/film/007713386",
+ "film": "007713386",
+ "what": "Fidel Lerena, Isidora Izaural/Ysaurralde and any Lerena, Llerena or Lorena in the Matriz burials of Libro 21, pages 401-558 (about 5 July 1887 to about 20 December 1888): ONE Lerena found, Elisa, 13, buried 19 July 1888, daughter of Alejandro Maria Lerena and Elisa Villademoros (zoomed, plate read); no Fidel and no Isidora Izaural/Ysaurralde.",
+ "when": "2026-11-16",
+ "outcome": "yield",
+ "pages": "frames 326-406",
+ "walked": false,
+ "tags": [
+  "lerena",
+  "uruguay",
+  "montevideo",
+  "familysearch"
+ ],
+ "ev": [
+  [
+   "/people/elisa-lerena-villademoros/",
+   "Frame 381, pages 511-512, 19 July 1888: 'Lerena Elisa', oriental, soltera, trece anos, 'hija legitima de Alejandro Maria Lerena y Elisa Villademoros', fallecio ayer; zoomed twice; a probable daughter of the couple of the 1871 Cordon marriage by the two names and the dates, the middle name reading Maria where the 1871 act reads Maximo"
+  ],
+  [
+   "/people/elisa-villardemoros/",
+   "Named as the mother; the register's Elisa Villademoros, buried at the Matriz on 24 September 1877"
+  ]
+ ],
+ "for": [
+  [
+   "/people/elisa-lerena-villademoros/",
+   "Elisa LERENA Villademoros (d. 1888)"
+  ]
+ ],
+ "note": "A NAMES-COLUMN pass; the Elisa Lerena entry was zoomed twice. A Lerena or Ysaurralde named INSIDE an entry is not excluded, and most surnames were read at sheet size only. Her tie to Alejandro M. Lerena and Elisa Villademoros is probable (names and dates), not documented.",
+ "waypoint": null,
+ "waypointNote": "Waypoint not established; film number and image group only."
 }
 ]
