@@ -9497,5 +9497,44 @@
  "note": "A NAMES-COLUMN pass, three whole leaves to a sheet; a Lerena or Ysaurralde named INSIDE an entry is not excluded, and the unnamed 'parbulo' and 'un individuo' entries are not found by surname.",
  "waypoint": null,
  "waypointNote": "Waypoint not established; film number and image group only."
+},
+{
+ "src": "FamilySearch, Montevideo cathedral (the Matriz): Libro 16 de finados, about 9 January to about 12 April 1869 (DGS film 007713385, frames 2244-2270), read by the names column of every page at the plate",
+ "url": "https://www.familysearch.org/search/film/007713385",
+ "film": "007713385",
+ "what": "Fidel Lerena, Isidora Izaural/Ysaurralde and any Lerena, Llerena or Serena in the Matriz burials of about 9 January to about 12 April 1869 (Libro 16, pages about 488-541): no Fidel and no Isidora; two new Lerena entries, a three-day-old child buried 29 March 1869 (son or daughter of 'Don Ambrosio Carlos Lerena y Dona Maria Lerena') and the mother, Maria Lerena, twenty-two, 'casada con Don Carlos Ambrosio Lerena', buried 10 April 1869. The husband is a candidate for Carlos Ambrosio Lerena Traibel only, not merged.",
+ "when": "2026-11-15",
+ "outcome": "yield",
+ "pages": "frames 2244-2270",
+ "for": [
+  [
+   "/people/infant-lerena/",
+   "[infant] LERENA (unnamed; d. 28 March 1869, Montevideo)"
+  ],
+  [
+   "/people/maria-lerena-7/",
+   "Maria LERENA (wife of Carlos Ambrosio Lerena; d. 9 April 1869, Montevideo)"
+  ]
+ ],
+ "ev": [
+  [
+   "/people/infant-lerena/",
+   "Frame 2267, page 534, 29 March 1869: 'Lerena (un parbulo)', three days old, legitimate child of 'Don Ambrosio Carlos Lerena y Dona Maria Lerena, Orientales', died the day before"
+  ],
+  [
+   "/people/maria-lerena-7/",
+   "Frame 2269, page 539, 10 April 1869: 'Lerena, Maria', oriental, twenty-two, 'casada con Don Carlos Ambrosio Lerena', died the day before; the mother of the child on page 534"
+  ]
+ ],
+ "walked": false,
+ "tags": [
+  "lerena",
+  "uruguay",
+  "montevideo",
+  "familysearch"
+ ],
+ "note": "A NAMES-COLUMN pass, three whole leaves to a sheet; a Lerena or Ysaurralde named INSIDE an entry is not excluded unless it was read in full, and the unnamed entries are not found by surname. The husband in the two entries is NOT merged with Carlos Ambrosio Lerena Traibel (1842-1893): the Geneanet-derived file gives his marriage as to Luisa Lerena Lenguas in 1867, against a Maria here in 1869.",
+ "waypoint": null,
+ "waypointNote": "Waypoint not established; film number and image group only."
 }
 ]
