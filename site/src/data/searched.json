@@ -9231,5 +9231,24 @@
  "note": "A line-by-line read of the list only (a number, a name, a nationality, an age, a state); the full entries that follow it on the same pages were covered by the margin pass. A clerk's 'N.' or a forename alone cannot be found by surname.",
  "waypoint": null,
  "waypointNote": "Waypoint not established; film number and image group only."
+},
+{
+ "src": "FamilySearch, Montevideo cathedral (the Matriz): burial book from February 1863, 1 February to about 12 July 1863 (DGS film 007713385, frames 1601-1640), read by the names column of every page at the plate",
+ "url": "https://www.familysearch.org/search/film/007713385",
+ "film": "007713385",
+ "what": "Fidel Lerena, Isidora Izaural/Ysaurralde and any Lerena, Llerena or Serena in the Matriz burials of February to mid-July 1863: none in the names column of any page. Near-names Maria Lena and Mariquita Irazabal opened and not counted.",
+ "when": "2026-11-15",
+ "outcome": "nothing",
+ "pages": "frames 1601-1640",
+ "walked": false,
+ "tags": [
+  "lerena",
+  "uruguay",
+  "montevideo",
+  "familysearch"
+ ],
+ "note": "A NAMES-COLUMN pass, four frames to a sheet; a Lerena or Ysaurralde named INSIDE an entry is not excluded. Frames 1641-1648 were seen but not legible enough at that size and are not claimed.",
+ "waypoint": null,
+ "waypointNote": "Waypoint not established; film number and image group only."
 }
 ]
