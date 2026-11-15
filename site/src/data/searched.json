@@ -8914,5 +8914,65 @@
    "note": "An INDEX nil, not a walked-pages nil: the burial books themselves (item 9, from frame 1866) are unread. The three Ysaurralde-shaped entries were re-opened and zoomed by me; the spellings Ysaurraldi and Ysaurrali are added to the Atlas catalogue. Blank-page gaps in the filming include pages 256-267, where an L continuation would have sat.",
    "waypoint": null,
    "waypointNote": "Waypoint not established; film number and item only (the film's own card calls this Volumen 8)."
+ },
+ {
+   "src": "FamilySearch, Canelones burial books: the three Ysaurralde acts (film 008166579, folios 17v, 42v and 187v)",
+   "url": "https://www.familysearch.org/search/film/008166579",
+   "film": "008166579",
+   "what": "The three bearers of Isidora's surname that the Canelones death index names: a child of 1779 whose parents are the Florida couple, a widower of Corrientes buried in 1782, and a captain of Rivera's division buried in 1820.",
+   "when": "2026-11-15",
+   "outcome": "yield",
+   "pages": "frames 1888, 1912-1913, 2211-2212",
+   "for": [
+     [
+       "/people/isidora-ysaurralde/",
+       "Isidora YSAURRALDE (wife of Fidel Lerena)"
+     ],
+     [
+       "/people/cayetana-micaela-ysaurrali/",
+       "Cayetana Micaela YSAURRALI (d. 1779, Canelones)"
+     ],
+     [
+       "/people/francisco-ysaurrali/",
+       "Francisco YSAURRALI (of las Brujas, Canelones; husband of Maria Magdalena Baez)"
+     ],
+     [
+       "/people/maria-magdalena-baez/",
+       "Maria Magdalena BAEZ (of Montevideo; wife of Francisco Ysaurrali)"
+     ],
+     [
+       "/people/francisco-ysaurralde/",
+       "Francisco YSAURRALDE (d. 1782, Canelones; widower of Corrientes)"
+     ],
+     [
+       "/people/pedro-ysaurralde/",
+       "Pedro YSAURRALDE (Captain in Rivera's division, buried 1820)"
+     ]
+   ],
+   "ev": [
+     [
+       "/people/cayetana-micaela-ysaurrali/",
+       "Canelones, Libro 1 de Defunciones, folio 17 vuelta, 23 April 1779"
+     ],
+     [
+       "/people/francisco-ysaurralde/",
+       "Canelones, Libro 1 de Defunciones, folio 42 vuelta, 26 August 1782"
+     ],
+     [
+       "/people/pedro-ysaurralde/",
+       "Canelones, Libro 2 de Defunciones, folio 187 vuelta, 4 April 1820"
+     ]
+   ],
+   "walked": false,
+   "tags": [
+     "lerena",
+     "uruguay",
+     "canelones",
+     "izaural",
+     "familysearch"
+   ],
+   "note": "Each act opened and zoomed by me from the index's folio references. Nothing merged: the Canelones couple of 1779 is not declared to be the Florida couple, and none of the five is tied to Isidora. The folio-to-frame map is in the sources row.",
+   "waypoint": null,
+   "waypointNote": "Waypoint not established; film number and item only."
  }
 ]

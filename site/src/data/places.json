@@ -1236,6 +1236,34 @@
   "count": 41
  },
  {
+  "slug": "canelones",
+  "name": "Canelones",
+  "people": [
+   "hilario-barros-llerena",
+   "jose",
+   "joseph-ponteceli",
+   "agueda-rivero",
+   "jose-loreto-lerena-fernandez",
+   "joseph-del-rios",
+   "francisco-de-los-santos-de-acuna",
+   "florentino-gomez",
+   "ana-gomez",
+   "antonio-villegas",
+   "jose-del-rio",
+   "juan-francisco-cardoso",
+   "juan-miguel-de-laguna",
+   "bartolome-munoz",
+   "pedro-antonio-llerena",
+   "santa-llerena",
+   "cayetana-micaela-ysaurrali",
+   "francisco-ysaurrali",
+   "maria-magdalena-baez",
+   "francisco-ysaurralde",
+   "pedro-ysaurralde"
+  ],
+  "count": 21
+ },
+ {
   "slug": "cordon-montevideo",
   "name": "Cordon, Montevideo",
   "people": [
@@ -1260,29 +1288,6 @@
    "javier-lavina"
   ],
   "count": 19
- },
- {
-  "slug": "canelones",
-  "name": "Canelones",
-  "people": [
-   "hilario-barros-llerena",
-   "jose",
-   "joseph-ponteceli",
-   "agueda-rivero",
-   "jose-loreto-lerena-fernandez",
-   "joseph-del-rios",
-   "francisco-de-los-santos-de-acuna",
-   "florentino-gomez",
-   "ana-gomez",
-   "antonio-villegas",
-   "jose-del-rio",
-   "juan-francisco-cardoso",
-   "juan-miguel-de-laguna",
-   "bartolome-munoz",
-   "pedro-antonio-llerena",
-   "santa-llerena"
-  ],
-  "count": 16
  },
  {
   "slug": "rosario-santa-fe",

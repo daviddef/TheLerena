@@ -10505,5 +10505,40 @@
   "last_attested_alive": "1848c",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Cayetana Micaela YSAURRALI (d. 1779, Canelones)",
+  "born_est": "1776c",
+  "last_attested_alive": "1776c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Francisco YSAURRALI (of las Brujas, Canelones; husband of Maria Magdalena Baez)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maria Magdalena BAEZ (of Montevideo; wife of Francisco Ysaurrali)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Francisco YSAURRALDE (d. 1782, Canelones; widower of Corrientes)",
+  "born_est": "-",
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Pedro YSAURRALDE (Captain in Rivera's division, buried 1820)",
+  "born_est": "1790c",
+  "last_attested_alive": "1790c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  }
 ]

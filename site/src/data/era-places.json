@@ -44,6 +44,9 @@
    "lon": -56.28,
    "region": "uruguay"
   },
+  "Canelones (las Brujas), Uruguay": {
+   "region": "uruguay"
+  },
   "Canelones, Uruguay": {
    "lat": -34.52,
    "lon": -56.28,
@@ -109,6 +112,7 @@
    "lon": -56.19,
    "region": "uruguay"
   },
+  "Corrientes": null,
   "Crespo, Entre Rios, Argentina": null,
   "Cuchilla de Villas Boas, Flores, Uruguay": {
    "lat": -33.6,
