@@ -14697,6 +14697,13 @@
     "note": "Stated in this person's own register note; wired 21 September 2026. Source: Named at the baptisms of Maria Carlota and Maria de las Mercedes Moratorio Lerena, Union, Montevideo"
    },
    {
+    "name": "[infant] MORATORIO Lerena (unnamed; d. 12 March 1873, Montevideo)",
+    "dates": "",
+    "slug": "infant-moratorio-lerena-2",
+    "via": "register",
+    "note": "Named together in the Matriz burial book (Libro 18 de difuntos, page 201): the entry of 13 March 1873 names the parents of a child of a few moments as 'Fernando Moratorio y Josefa Lerena'. That this Josefa is Josefa Lerena Traibel rests on the same two names recurring as the parents of the two Moratorio Lerena baptisms of the Catedral Basilica (maternal grandparents Avelino Lerena and Ambrosia Traibel), in the same city, and on her age (born 1851): very probable, not documented. Plate read 15 November 2026."
+   },
+   {
     "name": "[infant] MORATORIO Lerena (unnamed; d. 4 August 1869, Montevideo)",
     "dates": "",
     "slug": "infant-moratorio-lerena",
@@ -14793,8 +14800,8 @@
   ],
   "aliasOf": null,
   "godchildren": [],
-  "relTotal": 6,
-  "relRegister": 6,
+  "relTotal": 7,
+  "relRegister": 7,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -16912,6 +16919,12 @@
     "via": "register"
    },
    {
+    "name": "[infant] MORATORIO Lerena (unnamed; d. 12 March 1873, Montevideo)",
+    "dates": "",
+    "slug": "infant-moratorio-lerena-2",
+    "via": "register"
+   },
+   {
     "name": "[infant] MORATORIO Lerena (unnamed; d. 4 August 1869, Montevideo)",
     "dates": "",
     "slug": "infant-moratorio-lerena",
@@ -16987,6 +17000,12 @@
     "name": "Maria Carlota MORATORIO Lerena",
     "dates": "",
     "slug": "maria-carlota-moratorio-lerena",
+    "via": "register"
+   },
+   {
+    "name": "[infant] MORATORIO Lerena (unnamed; d. 12 March 1873, Montevideo)",
+    "dates": "",
+    "slug": "infant-moratorio-lerena-2",
     "via": "register"
    },
    {
@@ -107157,6 +107176,73 @@
     "name": "Maria de las Mercedes MORATORIO Lerena",
     "dates": "",
     "slug": "maria-de-las-mercedes-moratorio-lerena",
+    "via": "register"
+   },
+   {
+    "name": "[infant] MORATORIO Lerena (unnamed; d. 12 March 1873, Montevideo)",
+    "dates": "",
+    "slug": "infant-moratorio-lerena-2",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "aliasOf": null,
+  "godparents": [],
+  "godchildren": [],
+  "relTotal": 1,
+  "relRegister": 1,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "infant-moratorio-lerena-2",
+  "name": "[infant] MORATORIO Lerena (unnamed; d. 12 March 1873, Montevideo)",
+  "born": "1873",
+  "died": "",
+  "birthplace": "Montevideo",
+  "nationality": "Oriental",
+  "occupation": "-",
+  "where": "Montevideo",
+  "source": "Montevideo, Iglesia Matriz (Catedral), Religious Death Records, Libro 18 de difuntos (DGS film 007713385 frame 2637 = image 1386, book page 201; no ark held for this frame), the entry of 13 March 1873 - *** PLATE READ *** 15 November 2026 (found in the names column of a whole-leaf sheet as 'Moratorio (un parbulo)', then the entry opened at 2400 px)",
+  "status": "interest",
+  "statusRaw": "UNPLACED - INTEREST",
+  "note": "*** A NEWBORN, BAPTISED ONLY WITH EMERGENCY WATER, SON OR DAUGHTER OF 'FERNANDO MORATORIO Y JOSEFA LERENA', BURIED AT THE MATRIZ ON 13 MARCH 1873 - NEW TO THIS ARCHIVE, FOUND 15 November 2026. *** The entry, under the name 'Moratorio (un parbulo)': 'En trece de Marzo del ano mil ochocientos setenta y tres: Yo el infrascripto Cura Rector de esta Iglesia Matriz de Montevideo, di sepultura eclesiastica al cadaver de un parbulo de pocos momentos que recibio el agua de socorro, hijo de Fernando Moratorio y Josefa Lerena: fallecio ayer. Por verdad lo firmo.' - signed Inocencio M. Yeregui. So the child lived a few moments, was never named in the book, and died on 12 March 1873. Unlike the Matriz entry for the earlier child of the same two names, this one gives no 'Don' or 'Dona', no second forename for the father and no word for legitimate. *** VERY PROBABLY A LATER CHILD OF THE SAME COUPLE, THE PARENTS OF THE TWO MORATORIO LERENA BAPTISMS OF THE CATEDRAL BASILICA (data/1880-moratorio-lerena-baptisms.tsv): *** that act names the mother's parents as Avelino Lerena and Ambrosia Traibel, so Josefa is Josefa Lerena Traibel (born 1851). That the Josefa of this entry is the same woman rests on the same two names, the same city and her age, STRONG BUT NOT DOCUMENTED, and is stated that way on the edges. See the row of the earlier child of the same parents for the first Matriz entry. A child of Avelino's daughter is a grandchild of Avelino Lerena, son of Sancho. Nothing here bears on Gil's parents.",
+  "place": "Montevideo",
+  "placeSlug": "montevideo",
+  "surname": "MORATORIO",
+  "ark": "-",
+  "sourceUrl": "https://www.familysearch.org/ark:/61903/-",
+  "noLink": "",
+  "living": false,
+  "gen": null,
+  "father": null,
+  "mother": {
+   "name": "Josefa LERENA TRAIBEL (1851-1947)",
+   "dates": "",
+   "slug": "josefa-lerena-traibel",
+   "via": "register",
+   "note": "Named together in the Matriz burial book (Libro 18 de difuntos, page 201): the entry of 13 March 1873 names the parents of a child of a few moments as 'Fernando Moratorio y Josefa Lerena'. That this Josefa is Josefa Lerena Traibel rests on the same two names recurring as the parents of the two Moratorio Lerena baptisms of the Catedral Basilica (maternal grandparents Avelino Lerena and Ambrosia Traibel), in the same city, and on her age (born 1851): very probable, not documented. Plate read 15 November 2026."
+  },
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Maria Carlota MORATORIO Lerena",
+    "dates": "",
+    "slug": "maria-carlota-moratorio-lerena",
+    "via": "register"
+   },
+   {
+    "name": "Maria de las Mercedes MORATORIO Lerena",
+    "dates": "",
+    "slug": "maria-de-las-mercedes-moratorio-lerena",
+    "via": "register"
+   },
+   {
+    "name": "[infant] MORATORIO Lerena (unnamed; d. 4 August 1869, Montevideo)",
+    "dates": "",
+    "slug": "infant-moratorio-lerena",
     "via": "register"
    }
   ],
