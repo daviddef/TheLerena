@@ -9769,5 +9769,24 @@
  "note": "A NAMES-COLUMN pass; a Lerena or Ysaurralde named INSIDE an entry is not excluded unless the entry was read in full, and the unnamed entries are not found by surname. That the Josefa of the 1873 entry is Josefa Lerena Traibel is an inference from the names, the city and her age, not a documented identity.",
  "waypoint": null,
  "waypointNote": "Waypoint not established; film number and image group only."
+},
+{
+ "src": "FamilySearch, Montevideo cathedral (the Matriz): Libro 18 de difuntos, about 25 March to about 20 July 1873 (DGS film 007713385, frames 2641-2680), read by the names column of every page at the plate",
+ "url": "https://www.familysearch.org/search/film/007713385",
+ "film": "007713385",
+ "what": "Fidel Lerena, Isidora Izaural/Ysaurralde and any Lerena, Llerena or Serena in the Matriz burials of about 25 March to about 20 July 1873 (Libro 18, pages 209-288): none in the names column of any page. Near-names Lema and Ituralde (zoomed) seen and not counted.",
+ "when": "2026-11-15",
+ "outcome": "nothing",
+ "pages": "frames 2641-2680",
+ "walked": false,
+ "tags": [
+  "lerena",
+  "uruguay",
+  "montevideo",
+  "familysearch"
+ ],
+ "note": "A NAMES-COLUMN pass; a Lerena or Ysaurralde named INSIDE an entry is not excluded, and the unnamed entries are not found by surname.",
+ "waypoint": null,
+ "waypointNote": "Waypoint not established; film number and image group only."
 }
 ]
