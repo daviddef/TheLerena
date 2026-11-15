@@ -10021,5 +10021,24 @@
  "note": "A NAMES-COLUMN pass; the find was inside the text of an entry filed under the father's surname. A Lerena or Ysaurralde named INSIDE an entry is not excluded elsewhere, and the unnamed entries are not found by surname. Near-names zoomed and not counted include a Swiss Constantino Serena (5 July 1879). The near-names list for frames 3110-3134 was not kept.",
  "waypoint": null,
  "waypointNote": "Waypoint not established; film number and image group only."
+},
+{
+ "src": "FamilySearch, Montevideo cathedral (the Matriz): Libro 20 de defunciones, about 22 April 1880 to about 28 May 1881 (pages 145-252; DGS film 007713385, frames 3183-3236), read by the names column of every page at the plate",
+ "url": "https://www.familysearch.org/search/film/007713385",
+ "film": "007713385",
+ "what": "Fidel Lerena, Isidora Izaural/Ysaurralde and any Lerena, Llerena or Lorena in the Matriz burials of Libro 20, pages 145-252 (about 22 April 1880 to about 28 May 1881): none as a surname in the names column of any page; one entry naming a mother Carmen Lenguas zoomed and not counted.",
+ "when": "2026-11-15",
+ "outcome": "nothing",
+ "pages": "frames 3183-3236",
+ "walked": false,
+ "tags": [
+  "lerena",
+  "uruguay",
+  "montevideo",
+  "familysearch"
+ ],
+ "note": "A NAMES-COLUMN pass; a Lerena or Ysaurralde named INSIDE an entry is not excluded, and the unnamed entries are not found by surname. Several near-names were seen at sheet size only and are provisional.",
+ "waypoint": null,
+ "waypointNote": "Waypoint not established; film number and image group only."
 }
 ]
