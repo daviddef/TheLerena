@@ -8874,5 +8874,45 @@
    "note": "The phrase is attested as a by-name of the Andalusian city and also appears in versions of the 1573 founding name of Cordoba in Argentina; neither source is scholarly. The Spanish reading for Sancho rests on the 1812 padron ('ANDALUZIA'), his son's 1811 baptism ('natural de Andalucia') and the probable 1817 burial ('natural de Cadiz'), not on the phrase. No person searched.",
    "waypoint": null,
    "waypointNote": "Not a FamilySearch volume."
+ },
+ {
+   "src": "FamilySearch, Canelones (Nuestra Senora de Guadalupe) death index 1776-1928 (film 008166579 item 8, frames 1646-1861), read in full",
+   "url": "https://www.familysearch.org/search/film/008166579",
+   "film": "008166579",
+   "what": "Fidel Lerena's burial, and any Lerena death at Canelones: the parish's own index to all ten burial books knows none, in any spelling. Found instead three bearers of Isidora's surname.",
+   "when": "2026-11-15",
+   "outcome": "yield",
+   "pages": "frames 1646-1861 (the whole index)",
+  "for": [
+   [
+    "/people/fidel-lerena-2/",
+    "Fidel LERENA (father of Gil Lerena)"
+   ],
+   [
+    "/people/isidora-ysaurralde/",
+    "Isidora YSAURRALDE (wife of Fidel Lerena)"
+   ]
+  ],
+   "ev": [
+     [
+       "/people/fidel-lerena-2/",
+       "Fidel Lerena: no burial of the name in the Canelones death index 1776-1928"
+     ],
+     [
+       "/people/isidora-ysaurralde/",
+       "Isidora Ysaurralde: three bearers of her surname in the same index, folios 17 and 42 of Libro 1 and folio 187 of Libro 2"
+     ]
+   ],
+   "walked": false,
+   "tags": [
+     "lerena",
+     "uruguay",
+     "canelones",
+     "izaural",
+     "familysearch"
+   ],
+   "note": "An INDEX nil, not a walked-pages nil: the burial books themselves (item 9, from frame 1866) are unread. The three Ysaurralde-shaped entries were re-opened and zoomed by me; the spellings Ysaurraldi and Ysaurrali are added to the Atlas catalogue. Blank-page gaps in the filming include pages 256-267, where an L continuation would have sat.",
+   "waypoint": null,
+   "waypointNote": "Waypoint not established; film number and item only (the film's own card calls this Volumen 8)."
  }
 ]
