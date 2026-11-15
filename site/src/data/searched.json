@@ -9826,5 +9826,24 @@
  "note": "A NAMES-COLUMN pass; a Lerena or Ysaurralde named INSIDE an entry is not excluded, and the unnamed entries are not found by surname.",
  "waypoint": null,
  "waypointNote": "Waypoint not established; film number and image group only."
+},
+{
+ "src": "FamilySearch, Montevideo cathedral (the Matriz): Libro 18 de difuntos, about 3 September 1874 to about 29 January 1875, to the end of the book (DGS film 007713385, frames 2777-2815), read by the names column of every page at the plate",
+ "url": "https://www.familysearch.org/search/film/007713385",
+ "film": "007713385",
+ "what": "Fidel Lerena, Isidora Izaural/Ysaurralde and any Lerena, Llerena, Serena or Lorena in the Matriz burials of about 3 September 1874 to the end of Libro 18 (pages 481-554, to late January 1875): none as a surname in the names column of any page. Leads only, not counted: Claudio Emanuel, married to a Maria Escolastica Lorena (frame 2794); Coronel Juan Eugenio Lenguas (frame 2777). Libro 19 follows on the same film from frame 2821, unread.",
+ "when": "2026-11-15",
+ "outcome": "nothing",
+ "pages": "frames 2777-2815",
+ "walked": false,
+ "tags": [
+  "lerena",
+  "uruguay",
+  "montevideo",
+  "familysearch"
+ ],
+ "note": "A NAMES-COLUMN pass; a Lerena or Ysaurralde named INSIDE an entry is not excluded, and the unnamed entries are not found by surname.",
+ "waypoint": null,
+ "waypointNote": "Waypoint not established; film number and image group only."
 }
 ]
