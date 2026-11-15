@@ -9624,5 +9624,24 @@
  "note": "A NAMES-COLUMN pass, three whole leaves to a sheet; a Lerena or Ysaurralde named INSIDE an entry is not excluded, and the unnamed entries are not found by surname.",
  "waypoint": null,
  "waypointNote": "Waypoint not established; film number and image group only."
+},
+{
+ "src": "FamilySearch, Montevideo cathedral (the Matriz): Libro 17 de finados, about 1 November 1870 to about 28 April 1871 (DGS film 007713385, frames 2397-2453), read by the names column of every page at the plate",
+ "url": "https://www.familysearch.org/search/film/007713385",
+ "film": "007713385",
+ "what": "Fidel Lerena, Isidora Izaural/Ysaurralde and any Lerena, Llerena or Serena in the Matriz burials of about 1 November 1870 to about 28 April 1871 (Libro 17, pages 191-304): none in the names column of any page. Near-names Ana Lena, Teresa Lena, Rosa Guerra, Rosa Gini and Maria Gomez (zoomed) seen and not counted. Frames 2397-2411 are in a smaller, paler hand and were read three leaves to a sheet, with less margin.",
+ "when": "2026-11-15",
+ "outcome": "nothing",
+ "pages": "frames 2397-2453",
+ "walked": false,
+ "tags": [
+  "lerena",
+  "uruguay",
+  "montevideo",
+  "familysearch"
+ ],
+ "note": "A NAMES-COLUMN pass; a Lerena or Ysaurralde named INSIDE an entry is not excluded, and the unnamed entries are not found by surname. Frames 2397-2411 were read at lower magnification.",
+ "waypoint": null,
+ "waypointNote": "Waypoint not established; film number and image group only."
 }
 ]
