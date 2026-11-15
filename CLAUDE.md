@@ -93,3 +93,27 @@ from 15 November 2026 carries EITHER `"for": [["/people/slug/", "Name"], ...]` O
 - Old rows are NOT backfilled and no existing row is edited (editing a row changes its Atlas key). `docs/row-pages.json` holds the dates
   (`from`, `peopleFrom`); the gate is `npm run check:row-pages`.
 - Nothing about the people goes to the Atlas: receipts hold only the row key.
+
+## Given names and old place names (15 November 2026)
+
+Given-name forms and a place's name in the year of the record come only from the Record Atlas catalogues, exactly as surnames do
+(the user-level `name-variants` skill has the rule): `terms` before searching, `cover` before any nil, `add` with its evidence for every
+new form, `publish` once at the end. Keep no table of given-name forms or old place names here.
+
+```bash
+ATLAS="../Record Atlas"
+python3 "$ATLAS/scripts/given_name_variants.py" terms Atanasia
+python3 "$ATLAS/scripts/place_names.py" at Canelones 1832
+```
+
+**If those two scripts are not there, the catalogue is not missing - the shared Atlas checkout is on somebody else's branch.** On
+15 November 2026 it sat on `roots-gedcom-page`, 707 commits behind main, carrying neither script nor `data/given-name-families.json`,
+and the error reads like the tooling does not exist. **Do not switch that tree's branch** (another session is working in it). Clone main
+into your own scratchpad and run there; `add` writes to the local catalogue and `publish` pushes from its own temporary clone either way:
+
+```bash
+git clone -q --local --no-hardlinks "$ATLAS" "$SCRATCH/atlasmain" && cd "$SCRATCH/atlasmain" \
+  && git fetch -q "$ATLAS" "refs/remotes/origin/main:refs/heads/realmain" && git checkout -q realmain
+```
+
+(The surname catalogue is unaffected: `surname_variants.py` is old enough to be on every branch.)
