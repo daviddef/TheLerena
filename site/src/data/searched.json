@@ -9990,5 +9990,36 @@
  "note": "A NAMES-COLUMN pass; a Lerena or Ysaurralde named INSIDE an entry is not excluded, and the unnamed entries are not found by surname. No near-names list was kept for these frames beyond Lecuona.",
  "waypoint": null,
  "waypointNote": "Waypoint not established; film number and image group only."
+},
+{
+ "src": "FamilySearch, Montevideo cathedral (the Matriz): Libro 20 de defunciones, 27 December 1878 to about 21 April 1880 (pages 1-144; DGS film 007713385, frames 3110-3182), read by the names column of every page at the plate",
+ "url": "https://www.familysearch.org/search/film/007713385",
+ "film": "007713385",
+ "what": "The burial of Maria Carlota Moratorio, 12 April 1880 (Matriz, frame 3181, p.142; forty-seven days old, daughter of Fernando Moratorio and Josefa Lerena): one of the twins baptised 8 March 1880, found inside an entry filed under her father's surname. It excludes her as the wife of Felix Illa. No other Lerena, Llerena or Lorena as a surname in any names column of pages 1-144; no Fidel Lerena and no Isidora Izaural/Ysaurralde. Libro 20 continues on the same film from frame 3183, unread.",
+ "when": "2026-11-15",
+ "outcome": "yield",
+ "pages": "frames 3110-3182",
+ "for": [
+  [
+   "/people/maria-carlota-moratorio-lerena/",
+   "Maria Carlota MORATORIO Lerena"
+  ]
+ ],
+ "ev": [
+  [
+   "/people/maria-carlota-moratorio-lerena/",
+   "Frame 3181, page 142, 12 April 1880: 'Moratorio, Maria Carlota', oriental, forty-seven days, legitimate daughter of Fernando Moratorio and Josefa Lerena, fallecio hoy; zoomed at 2000 px; the mother's surname reads Lerena against Serena by comparing the hand with the L of 'Lorenzo' and the S of 'Scotto' on the facing page, and agrees with the baptism act of 8 March 1880; 47 days against 48 by the calendar is not explained"
+  ]
+ ],
+ "walked": false,
+ "tags": [
+  "lerena",
+  "uruguay",
+  "montevideo",
+  "familysearch"
+ ],
+ "note": "A NAMES-COLUMN pass; the find was inside the text of an entry filed under the father's surname. A Lerena or Ysaurralde named INSIDE an entry is not excluded elsewhere, and the unnamed entries are not found by surname. Near-names zoomed and not counted include a Swiss Constantino Serena (5 July 1879). The near-names list for frames 3110-3134 was not kept.",
+ "waypoint": null,
+ "waypointNote": "Waypoint not established; film number and image group only."
 }
 ]
