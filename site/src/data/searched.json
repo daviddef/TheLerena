@@ -8974,5 +8974,157 @@
    "note": "Each act opened and zoomed by me from the index's folio references. Nothing merged: the Canelones couple of 1779 is not declared to be the Florida couple, and none of the five is tied to Isidora. The folio-to-frame map is in the sources row.",
    "waypoint": null,
    "waypointNote": "Waypoint not established; film number and item only."
+ },
+{
+  "src": "FamilySearch, Canelones (Nuestra Senora de Guadalupe), marriage film 008166578: the parish's own index of grooms, LETTER L READ END TO END (Libros I-V, 1776-1868), and both Llerena acts of 1832",
+  "url": "https://www.familysearch.org/search/film/008166578",
+  "film": "008166578",
+  "what": "Every marriage at Canelones with a GROOM of this surname that the parish's own index knows, 1776 to 1868 - it is indexed by the groom, so a Lerena BRIDE marrying out of the name is invisible to it. Pages 137-141 (Libros I to V) hold EXACTLY THREE: Sancho with Maria Fernandez (1791, Libro I folio 90), Pedro Antonio with Vicenta Vega (1832, Libro III folio 42v) and the enslaved Jose with Atanacia (1832, Libro III folio 44). Both 1832 acts were then opened and read at the plate.",
+  "when": "2026-11-15",
+  "outcome": "yield",
+  "pages": "index pages 137-141 (frames 2531-2533, every line of the letter L, each page read on its own); 142-143 scanned at spread resolution only; acts at frames 3039 and 3040",
+  "for": [
+   [
+    "/people/pedro-antonio-lerena/",
+    "Pedro Antonio LERENA (son of Sancho)"
+   ],
+   [
+    "/people/dona-vicenta-vega/",
+    "Dona Vicenta VEGA"
+   ],
+   [
+    "/people/sancho-llerena-aguilar/",
+    "Sancho LLERENA Aguilar"
+   ],
+   [
+    "/people/dona-maria-fernandez-tresguerras/",
+    "Dona Maria FERNANDEZ TRESGUERRAS (wife of Sancho)"
+   ],
+   [
+    "/people/don-romualdo-vega/",
+    "Don Romualdo VEGA"
+   ],
+   [
+    "/people/dona-andrea-maestre/",
+    "Dona Andrea MAESTRE"
+   ],
+   [
+    "/people/jose-llerena-4/",
+    "Jose LLERENA (enslaved of Dona Maria Fernandez Llerena; nacion Mozambique; m. Atanacia 1832)"
+   ],
+   [
+    "/people/atanacia-llerena/",
+    "Atanacia LLERENA (enslaved of Dona Maria Fernandez Llerena; negra criolla; m. Jose 1832)"
+   ],
+   [
+    "/people/fidel-lerena-2/",
+    "Fidel LERENA (father of Gil Lerena)"
+   ]
+  ],
+  "ev": [
+   [
+    "/people/pedro-antonio-lerena/",
+    "His first marriage, 19 May 1832: 'hijo legitimo del FINADO FRANCISCO LLERENA y Da Maria Fernandez', and 'natural de esta Parroquia' - Canelones, Libro III folio 42v, act 16"
+   ],
+   [
+    "/people/dona-vicenta-vega/",
+    "Her marriage act names her parents: 'hija legitima del finado Romualdo Vega y Da MARIA ANTONIA MAESTRO', and calls her natural of the same parish"
+   ],
+   [
+    "/people/sancho-llerena-aguilar/",
+    "A fifth FRANCISCO, on an original act in his own parish at his son's wedding - and 'el finado', so dead before 19 May 1832; while the same index enters his own 1791 marriage as 'Llerena Sancho con Maria Fernandez', folio 90"
+   ],
+   [
+    "/people/dona-maria-fernandez-tresguerras/",
+    "Alive at Canelones on 10 September 1832 as 'Da MARIA FERNANDEZ LLERENA, vecina de los Canelones', owner of the two enslaved people married that day"
+   ],
+   [
+    "/people/don-romualdo-vega/",
+    "Dead by 19 May 1832 - 'el finado Romualdo Vega' on his daughter's marriage act"
+   ],
+   [
+    "/people/dona-andrea-maestre/",
+    "The act writes her 'Da Maria Antonia Maestro' and has her standing witness at her daughter's wedding"
+   ],
+   [
+    "/people/jose-llerena-4/",
+    "Canelones, Libro III folio 44, act 25 of 10 September 1832: 'JOSE LLERENA negro de Nacion Mozambique'"
+   ],
+   [
+    "/people/atanacia-llerena/",
+    "The same act: 'con ATANACIA negra criolla, esclavos ambos de Da Maria Fernandez Llerena'"
+   ],
+   [
+    "/people/fidel-lerena-2/",
+    "No marriage of his at Canelones: the parish's own index of grooms holds no Fidel and nothing of the name spelt with one L in Libros I to V, 1776-1868 - and he married in 1818, well inside that span"
+   ]
+  ],
+  "walked": false,
+  "tags": [
+   "lerena",
+   "uruguay",
+   "canelones",
+   "slavery",
+   "familysearch"
+  ],
+  "note": "Pages 137 to 141 were read line by line, EACH PAGE CROPPED ON ITS OWN at about 1,900px, after a first pass at spread resolution; page 136 is blank and page 137 opens the block with Libro I in 1776, and page 141 ends in Libro V at 1868. THE BLOCK DOES NOT END THERE: pages 142-143 carry Libro V to 1878 and Libro VI to 1883 and were seen at SPREAD resolution only, where nothing of the name appears - that is a weaker reading and is not offered here as a nil - and the letter runs on past page 143, unread. Near-names seen in it and NOT counted: Lezica, Leiva, Lopez, Loro, Licorante, Larrea, Leal, Leon, Luna, Lambare, Lencina, Lucano, Lemos, Larranaga, Laguna, Llupe, Ledesma, Latorre, Larreta, Lacoste, Lalinde, Lacuesta, Luque, Larrauri, Luzardo, Lemes, Lasquet, Laso, Lozano, Laporte, Linares, Lencina, Labraga. IT IS AN INDEX NIL, NOT A WALKED-PAGES NIL - the marriage books themselves are unread. TWO MORE LIMITS, BOTH REAL: the alphabet is BY GROOM (every line reads 'Surname Forename con Bride'), so a daughter of the name marrying out does not appear under L at all; and it covers only spellings that file under L, so a Serena or a Yerena would not be in it either. Whether the volume carries a second alphabet for brides was not established. Two new people are entered from the second act, both enslaved and both carrying the owner's surname. Nothing is merged: the Jose of the 1812 padron and this Jose Llerena are a candidate only, and this Atanacia is kept apart from the Atanacia Llerena buried at the Matriz in 1842 because the ages fight it. Libro III folio = frame minus 2996.",
+  "waypoint": null,
+  "waypointNote": "Waypoint not established; film number and item only."
+ },
+{
+  "src": "FamilySearch, Canelones (Nuestra Senora de Guadalupe): the marriage act of Sancho Llerena and Maria Fernandez, 8 January 1791, re-read FOR THE NAMES (DGS film 008166578 image 2687)",
+  "url": "https://www.familysearch.org/search/film/008166578",
+  "film": "008166578",
+  "what": "How his own marriage act names the groom - the document this archive has said since September would settle the Sancho-or-Francisco question.",
+  "when": "2026-11-15",
+  "outcome": "yield",
+  "pages": "frame 2687",
+  "for": [
+   [
+    "/people/sancho-llerena-aguilar/",
+    "Sancho LLERENA Aguilar"
+   ],
+   [
+    "/people/dona-maria-fernandez-tresguerras/",
+    "Dona Maria FERNANDEZ TRESGUERRAS (wife of Sancho)"
+   ],
+   [
+    "/people/rodrigo-fernandez/",
+    "Rodrigo FERNANDEZ (father of Maria)"
+   ],
+   [
+    "/people/rosa-fernandez/",
+    "Rosa FERNANDEZ (mother of Maria)"
+   ]
+  ],
+  "ev": [
+   [
+    "/people/sancho-llerena-aguilar/",
+    "Named SANCHO three times in his own marriage act and FRANCISCO never: margin 'Sancho Llerena, y Maria Fernandes. Casados y Velados'; 'justificacion de livertad de SANCHO LLERENA'; 'el dicho SANCHO'"
+   ],
+   [
+    "/people/dona-maria-fernandez-tresguerras/",
+    "'MARIA FERNANDEZ, nat.l de las ASTURIAS, hija legitima de Rodrigo Fernandez y de Rosa Fernandez' - Asturias now on her own marriage act, not only on her son's baptism"
+   ],
+   [
+    "/people/rodrigo-fernandez/",
+    "Named on his daughter's marriage act of 1791 as a native of Asturias and a VECINO DE SANTA LUCIA - twenty-one years before the padron of 1812"
+   ],
+   [
+    "/people/rosa-fernandez/",
+    "The act's plural 'nat.es de dichas Asturias' covers her too, so her birthplace is stated and no longer presumed; and she is alive and a vecina of Santa Lucia in January 1791"
+   ]
+  ],
+  "walked": false,
+  "tags": [
+   "lerena",
+   "uruguay",
+   "canelones",
+   "spain",
+   "familysearch"
+  ],
+  "note": "A RE-READ, and the reading was never the missing part: the act was transcribed in full on 15 September 2026 (data/1791-marriage-act.tsv, and a panel of /hypotheses/ that quotes 'el dicho Sancho'), while the same page and the same data folder went on saying for two months that it had never been opened. What was new on 15 November was the COMPARISON, and the zoom.",
+  "waypoint": null,
+  "waypointNote": "Waypoint not established; film number and image only."
  }
 ]

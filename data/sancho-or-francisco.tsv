@@ -22,6 +22,8 @@ S. Agustin, pueblo de la Restauracion - baptism of Alberto Octavio	7 Oct 1850	"P
 Catedral de la Inmaculada Concepcion - baptism of Lucinda Gregoria Ruiz de Carvallo	12 May 1827	"Nieta ... Materna de *** SANCHO LLERENA ***, y de Dona Maria Fernandez"	FULL-TEXT TRANSCRIPT READ; ark 3:1:3Q9M-C9B7-YSFQ-2	ORIGINAL parish entry
 *** Cordon, Montevideo - the MARRIAGE ACT of Justa Pastora Llerena ***	3 Nov 1830	"hija legitima de *** SANCHO LLERENA *** y de Maria Fernandez *** TRESGUERRAS ***"	FULL-TEXT TRANSCRIPT READ; ark 3:1:3Q9M-C9B7-B3WZ-8	*** ORIGINAL - and it is his DAUGHTER'S OWN MARRIAGE, so the names were given by the family ***
 La Mauricia - baptism of ALEJANDRO, son of AVELINO Lerena	7 Jan 1846	"Paternos: *** FRANCISCO *** y Maria Fernandez" - a THIRD act on the SAME PAGE, in the same hand, on the same morning	FULL-TEXT TRANSCRIPT READ; ark 3:1:3Q9M-C9BW-ZS62-J	*** NO - a later transcript from a legajo, and the THIRD such on one page ***
+*** Canelones - the MARRIAGE ACT of his son PEDRO ANTONIO LLERENA ***	19 May 1832	*** 'hijo legitimo del FINADO FRANCISCO LLERENA, y Da MARIA FERNANDEZ' - and 'el finado', so dead by that day ***	*** IMAGE READ AND ZOOMED 15 November 2026 - DGS film 008166578 image 3039; Libro III de Matrimonios, folio 42 vuelta, act no. 16; priest Lorenzo F. Fernandez ***	*** ORIGINAL - and it is his SON'S OWN MARRIAGE, in the family's own parish, written by a priest who four months later names the widow 'Da Maria Fernandez Llerena, vecina de los Canelones' ***
+*** Canelones - HIS OWN MARRIAGE ACT, which this file has called the one thing that would settle it ***	8 Jan 1791	*** SANCHO, THREE TIMES AND ONLY *** - margin 'Sancho Llerena, y Maria Fernandes. Casados y Velados'; body 'justificacion de livertad de SANCHO LLERENA, nat.l de Cordova la Llana, hijo legitimo de Felix Llerena y de Rosalia Aguilar'; and 'el dicho SANCHO intentava con Maria Fernandez'. *** NO SECOND FORENAME ANYWHERE IN THE ACT ***	*** IMAGE READ AND ZOOMED 15 November 2026 - DGS film 008166578 image 2687. READ AND PUBLISHED IN FULL ON 15 SEPTEMBER TOO, in data/1791-marriage-act.tsv and on /hypotheses/; this file was never told ***	*** ORIGINAL - his own marriage, and the one place a man's full name is stated on purpose ***
 #
 # *** WHAT IS ACTUALLY CONSTANT: MARIA FERNANDEZ. *** She is the wife in every single record, without
 # exception, across seventy years and both spellings of the forename. Whoever the man was, he was
@@ -144,3 +146,70 @@ La Mauricia - baptism of ALEJANDRO, son of AVELINO Lerena	7 Jan 1846	"Paternos: 
 # claiming "every other record this archive has read off a plate calls him SANCHO", and putting the
 # count at "one act against five". All three were false and this file already said so. The note was
 # written without reading this file. See data/corrections.tsv.
+#
+# ================ *** 15 NOVEMBER 2026: THE FIFTEENTH RECORD, AND THE ONE THAT CHANGES THE ARGUMENT *** ================
+#
+# *** PEDRO ANTONIO LLERENA MARRIED TWICE, AND HIS TWO MARRIAGE ACTS NAME HIS FATHER DIFFERENTLY. ***
+#
+#   Canelones, 19 May 1832  - 'hijo legitimo del FINADO FRANCISCO LLERENA, y Da MARIA FERNANDEZ'
+#   Montevideo (Matriz), 10 June 1861 - 'hijo legitimo de SANCHO y de Maria Fernandez'
+#
+# Both were read at the plate by this archive. Both are originals. Both are the same man's own wedding, where the
+# names are given by the family and not by a clerk copying a legajo. *** AND THE MOTHER IS THE SAME IN BOTH. ***
+#
+# *** WHAT THIS DOES TO THE THREE EXPLANATIONS. ***
+# 1. DOUBLE FORENAME - unchanged as the leading reading, and now it is what the evidence predicts rather than what
+#    rescues it. A man called Sancho Francisco would be written one way at Canelones and the other at the Matriz,
+#    exactly as here.
+# 2. TRANSCRIPTION - weaker again. This is not a machine, not a copy and not a stranger: it is the parish the family
+#    lived in, and the priest, Lorenzo F. Fernandez, demonstrably knew the household (four months later he writes
+#    the widow as 'Da MARIA FERNANDEZ LLERENA, vecina de los Canelones' in the same book, folio 44).
+# 3. TWO MEN - very nearly excluded. Two different men would both have to be PEDRO ANTONIO'S OWN FATHER, and both
+#    married to a Maria Fernandez. That is not a reading; it is a coincidence nobody should buy.
+#
+# *** THE ARITHMETIC THE ARCHIVE PREFERS - INDEPENDENT OCCASIONS, NOT RECORDS - IS NOW NINE SANCHO TO THREE FRANCISCO ***
+# (1833 Catedral; the three 1846 La Mauricia acts, which are one sitting; and this act of 1832). *** BUT THE THIRD
+# OCCASION IS NO LONGER SECOND-HAND, *** which is what the 14 September tally leaned on when it said both Francisco
+# occasions 'describe him at second hand, by clerks who never met him'. One of the three no longer does.
+#
+# *** AND IT GIVES HIS DEATH AN UPPER BOUND FROM A DOCUMENT FOR THE FIRST TIME: 'EL FINADO', SO BEFORE 19 MAY 1832. ***
+# That sits with the probable Matriz burial of 12 December 1817 and with the trees' 1832, and rules out neither.
+#
+# *** AND THEN, THE SAME HOUR, THE THING THIS FILE HAS BEEN WAITING FOR SINCE 14 SEPTEMBER WAS READ. ***
+#
+# His own marriage act of 8 January 1791 is at Canelones on DGS film 008166578 image 2687 - the SAME FILM as the 1832
+# act above. *** AND IT WAS NOT UNREAD. *** It was opened on 15 September, transcribed in full, and published the same
+# day in data/1791-marriage-act.tsv and in a panel of /hypotheses/ that quotes the margin and the words 'el dicho
+# Sancho'. *** WHAT WAS NEVER DONE WAS TO BRING IT TO THIS FILE. *** For two months /hypotheses/ carried the
+# transcription and, a hundred and forty lines further down the same page, the sentence 'Sancho's own marriage act
+# would settle it, and it has never been opened'. Re-read and zoomed on 15 November:
+#
+#   margin:  'Sancho Llerena, y Maria Fernandes. Casados y Velados'
+#   body:    'haviendo precedido justificacion de livertad de SANCHO LLERENA, nat.l de Cordova la Llana, hijo
+#             legitimo de Felix Llerena, y de Rosalia Aguilar, nat.es de dicha Cordova'
+#   body:    'sobre el matrimonio, que EL DICHO SANCHO intentava con Maria Fernandez'
+#
+# *** THREE NAMINGS IN HIS OWN MARRIAGE ACT, ALL SANCHO, AND NO SECOND FORENAME ANYWHERE IN IT. ***
+#
+# *** THIS DOES NOT CONFIRM THE DOUBLE FORENAME. IT TAKES AWAY ITS BEST CHANCE OF BEING CONFIRMED. *** A justificacion
+# de libertad exists to identify the man: it is where the full name goes, on purpose, because the clause has to prove
+# he is free to marry. If he were Sancho Francisco, that is the line that would say so, and it does not.
+#
+# *** IT DOES NOT DISPROVE IT EITHER *** - an act may record only the name a man went by, and this one gives his wife
+# no second forename either, where the trees give her two. So the double forename survives as a reading the evidence
+# PERMITS, and it is no longer a reading the evidence SUPPORTS. This file has called it 'the leading reading' since
+# September on the strength of an act nobody had read; that sentence was always a prediction, and the prediction has
+# now been tested and not met.
+#
+# *** WHERE THE QUESTION ACTUALLY STANDS, 15 NOVEMBER 2026. ***
+#   - His OWN marriage, Canelones 1791, plate read: SANCHO, three times.
+#   - His SON'S own marriage, Canelones 1832, plate read: the finado FRANCISCO.
+#   Same parish, same kind of document, forty-one years apart, both originals, both read by a person at magnification.
+#   Nine independent occasions say Sancho; three say Francisco, and one of those three is no longer second-hand.
+#
+# *** THERE IS NO LONGER AN EXPLANATION THAT COSTS NOBODY ANYTHING, AND THE ARCHIVE SHOULD STOP IMPLYING THERE IS. ***
+#
+# *** WHAT COULD STILL SETTLE IT. *** A burial, will or estate for MARIA FERNANDEZ naming her late husband; the
+# Canelones marriage-investigation file behind the 1791 act (the expediente, not the entry - the same series that
+# holds his sworn deposition); or an act in which the man signs for himself, which the 1806 deposition says he could
+# not do. The expediente is the best of the three and has never been looked for.

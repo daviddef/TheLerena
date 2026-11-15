@@ -1446,5 +1446,29 @@
   "what_is_true": "Cordoba has been primary since 15 September 2026, when his marriage act of 8 January 1791 was read at Canelones (DGS film 008166578, image 2687): 'Sancho Llerena, natural de Cordova la Llana, hijo legitimo de Felix Llerena y de Rosalia Aguilar, naturales de dicha Cordova'. The act also names his parents and shows that Aguilar is his mother's surname. The data files that argued the question were updated that day and the flag file carries the reasoning, but this row was not touched and went on crediting the trees for two months.",
   "how_it_was_caught": "Working the open question 'Cordova la Llana - the next country' on 15 November 2026: the row was read to plan a Spanish search and contradicted the act the archive already held. The phrase itself was checked at the same time and is NOT by itself a Spanish address - it is given as a by-name of the Andalusian city and also appears in versions of the 1573 founding name of Cordoba in Argentina - so the row now says what actually settles it: 'andaluz' in the 1812 padron, 'natural de Andalucia' in his son's 1811 baptism, and 'natural de Cadiz' in the probable burial of 1817.",
   "retired": ""
+ },
+ {
+  "date": "2026-11-15",
+  "severity": "serious",
+  "what_was_said": "*** That A DOUBLE FORENAME, Sancho Francisco, is 'the leading reading' of the Sancho-or-Francisco question, and that 'his own marriage act, never opened, would settle it'. *** Published since 14 September 2026 in data/sancho-or-francisco.tsv, on the Sancho LLERENA Aguilar register row, on the hypotheses page and in half a dozen notes that cite them.",
+  "what_is_true": "*** THE ACT WAS READ, TRANSCRIBED IN FULL AND PUBLISHED ON 15 SEPTEMBER, AND THE FILE HOLDING THE OPEN QUESTION WAS NEVER TOLD. *** data/1791-marriage-act.tsv has carried the whole act since that day, and a panel of /hypotheses/ quotes the margin and the words 'el dicho Sancho' - while a hundred and forty lines further down the SAME PAGE the archive went on saying 'Sancho's own marriage act would settle it, and it has never been opened', and data/sancho-or-francisco.tsv said it four times. *** THE READING WAS NEVER MISSING. THE COMPARISON WAS. *** Re-read and zoomed 15 November: the margin is 'Sancho Llerena, y Maria Fernandes. Casados y Velados', the body is 'justificacion de livertad de SANCHO LLERENA, nat.l de Cordova la Llana' and four lines on 'el dicho SANCHO intentava con Maria Fernandez'. *** THREE NAMINGS, ALL SANCHO, NO SECOND FORENAME. *** A justificacion de libertad is the one place a full name is stated on purpose. So the double forename is not confirmed by the document that was supposed to confirm it: it is now a reading the evidence PERMITS and no longer one it SUPPORTS, and the archive no longer has an explanation that costs nobody anything. Not disproved - an act may give only the name a man went by, and the same act gives his wife no second forename either.",
+  "how_it_was_caught": "Writing up the Canelones marriage of his son Pedro Antonio (19 May 1832, 'hijo legitimo del finado FRANCISCO LLERENA'), which sits on the SAME FILM as the 1791 act. The write-up called the 1791 line 'the cheapest unread line in this archive' and went to read it - which is how the archive discovered it had read it in September, published it, and never carried it the forty feet to the file that was waiting for it.",
+  "retired": "'the leading reading' and 'never opened', in data/sancho-or-francisco.tsv, on the Sancho LLERENA Aguilar row and in two panels of /hypotheses/, all rewritten 15 November 2026"
+ },
+ {
+  "date": "2026-11-15",
+  "severity": "minor",
+  "what_was_said": "That PEDRO ANTONIO LERENA, son of Sancho, was born at MONTEVIDEO - the birthplace field of his register row - with a 'conflict on his birthplace' recorded against it on 17 October 2026 because the Cordon act of 12 December 1828 calls him 'natural de Canelones'.",
+  "what_is_true": "*** HE IS 'NATURAL DE ESTA PARROQUIA' ON HIS OWN MARRIAGE ACT AT CANELONES *** (19 May 1832, Libro III de Matrimonios folio 42 vuelta, film 008166578 image 3039, plate read), his baptism of 1 August 1793 was performed at Canelones, and the 1828 act says Canelones. Three documents to none. The field now reads CANELONES and the conflict is closed.",
+  "how_it_was_caught": "Reading his first marriage act at the plate.",
+  "retired": "the birthplace 'Montevideo' and the open conflict on the Pedro Antonio LERENA (son of Sancho) row, 15 November 2026"
+ },
+ {
+  "date": "2026-11-15",
+  "severity": "minor",
+  "what_was_said": "That Vicenta Vega's mother was DONA ANDREA MAESTRE - the name of her register row, and repeated on the Vicenta VEGA row and in the note that calls Dr Estanislao Vega 'probably her brother'.",
+  "what_is_true": "*** THE ACTS SAY MARIA ANTONIA MAESTRO. *** Vicenta's own marriage act (Canelones, 19 May 1832, plate read) names her 'hija legitima del finado Romualdo Vega y Da MARIA ANTONIA MAESTRO', with the mother standing witness at the wedding; and the plate-read marriage act of her daughter Amelia in 1851 reads 'Da Maria And. or Ant. Maistro', which this archive could not resolve and this act resolves. 'Andrea' rests on ONE MACHINE TRANSCRIPT, the 1837 Catedral baptism. The row is ANNOTATED, NOT RENAMED, so that what is published under it keeps its address.",
+  "how_it_was_caught": "The same act, read for the bride's half of the sentence rather than the groom's.",
+  "retired": ""
  }
 ]

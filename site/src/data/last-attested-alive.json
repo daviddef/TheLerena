@@ -1374,16 +1374,16 @@
  {
   "name": "Rodrigo FERNANDEZ (father of Maria)",
   "born_est": "c.1749",
-  "last_attested_alive": "c.1749",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "last_attested_alive": "1791-Jan-08",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
  },
  {
   "name": "Rosa FERNANDEZ (mother of Maria)",
   "born_est": "-",
-  "last_attested_alive": "-",
-  "basis": "born_est only - a floor, not an attestation",
-  "tier": "BIRTH ONLY"
+  "last_attested_alive": "1791-Jan-08",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
  },
  {
   "name": "D. Juan LENGUAS",
@@ -1640,16 +1640,16 @@
  {
   "name": "Don Romualdo VEGA",
   "born_est": "-",
-  "last_attested_alive": "1837-Jul-04",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Dona Andrea MAESTRE",
   "born_est": "-",
-  "last_attested_alive": "1837-Jul-04",
-  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
-  "tier": "ALIVE AT"
+  "last_attested_alive": "-",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
  },
  {
   "name": "Josefa in Gilberto's 1895 household (b. c.1852)",
@@ -10538,6 +10538,20 @@
   "name": "Pedro YSAURRALDE (Captain in Rivera's division, buried 1820)",
   "born_est": "1790c",
   "last_attested_alive": "1790c",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Jose LLERENA (enslaved of Dona Maria Fernandez Llerena; nacion Mozambique; m. Atanacia 1832)",
+  "born_est": "-",
+  "last_attested_alive": "1832-Sep-10",
+  "basis": "named on an act of that date and not marked as already dead - ALIVE AT, not a death: it is the last day this archive can SHOW the person living, and says nothing about when they died",
+  "tier": "ALIVE AT"
+ },
+ {
+  "name": "Atanacia LLERENA (enslaved of Dona Maria Fernandez Llerena; negra criolla; m. Jose 1832)",
+  "born_est": "-",
+  "last_attested_alive": "-",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  }
