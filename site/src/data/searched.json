@@ -9952,5 +9952,24 @@
  "note": "A NAMES-COLUMN pass; the find was inside the text of an entry filed under the wife's own surname. A Lerena or Ysaurralde named INSIDE an entry is not excluded elsewhere, and the unnamed entries are not found by surname.",
  "waypoint": null,
  "waypointNote": "Waypoint not established; film number and image group only."
+},
+{
+ "src": "FamilySearch, Montevideo cathedral (the Matriz): Libro 19 de finados, about 6 January 1878 to about 9 November 1878 (pages 437-540; DGS film 007713385, frames 3043-3094), read by the names column of every page at the plate",
+ "url": "https://www.familysearch.org/search/film/007713385",
+ "film": "007713385",
+ "what": "Fidel Lerena, Isidora Izaural/Ysaurralde and any Lerena, Llerena or Lorena in the Matriz burials of Libro 19, pages 437-540 (about 6 January to about 9 November 1878): none as a surname in the names column of any page; one near-name (Lecuona, 5 September 1878) zoomed and not counted. Libro 19 continues on the same film from frame 3095, unread.",
+ "when": "2026-11-15",
+ "outcome": "nothing",
+ "pages": "frames 3043-3094",
+ "walked": false,
+ "tags": [
+  "lerena",
+  "uruguay",
+  "montevideo",
+  "familysearch"
+ ],
+ "note": "A NAMES-COLUMN pass; a Lerena or Ysaurralde named INSIDE an entry is not excluded, and the unnamed entries are not found by surname. The near-names list for frames 3043-3062 was not kept; a Nota on p.467 says some 1878 burials are not in this book.",
+ "waypoint": null,
+ "waypointNote": "Waypoint not established; film number and image group only."
 }
 ]
