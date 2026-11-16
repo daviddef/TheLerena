@@ -139,6 +139,13 @@ def main():
         for s, q in tp.items():
             if "cx" in q and q["cx"] != len(cx.get(s, [])):
                 fails.append(f"data/tree-page/tree.json: {s} carries cx={q['cx']} but the corrections name them {len(cx.get(s, []))} time(s)")
+    # A PAGE THAT NAMES A LIVING PERSON IS NEVER INDEXED. tree.json carries name-and-family-only cards for living people (David, 17 November 2026), and the Roots page and its bare
+    # frame embed it, so both must say noindex (the sitemap tool then withholds them by itself).
+    if treej.exists() and any(q.get("living") for q in _tj.get("undrawn", [])):
+        for rel, needle in (("site/src/pages/roots/index.astro", "noindex>"), ("site/src/pages/roots/view.html.js", 'name="robots" content="noindex"')):
+            f = ROOT / rel
+            if not f.exists() or needle not in f.read_text(encoding="utf-8"):
+                fails.append(f"{rel} must be noindex: data/tree-page/tree.json names living people (living-style cards)")
     nwho = sum(len(v) for v in cx.values())
 
     if fails:
