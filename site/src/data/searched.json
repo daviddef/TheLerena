@@ -10274,5 +10274,52 @@
  "note": "A MARGIN-NAME pass; a Lerena or Ysaurralde named INSIDE an entry is not excluded, most surnames were read at strip size, and the entries under ink blots on frames 653-654 are unread. The two finds are enslaved parents of one name; their tie to Sancho's family (through the owners) is a candidate, not documented, and neither child is a child of Fidel Lerena.",
  "waypoint": null,
  "waypointNote": "Waypoint not established; film number and image group only."
+},
+{
+ "src": "FamilySearch, el Cordon (Nuestra Senora del Carmen la Mayor), Montevideo: Baptism Records November 1828 - December 1836, the Libro quarto from about 24 June 1831 to about 20 December 1835 (DGS film 007713388, frames 703-922), read by the margin name of every entry at the plate",
+ "url": "https://www.familysearch.org/search/film/007713388",
+ "film": "007713388",
+ "what": "Fidel Lerena, Isidora Izaural/Ysaurralde and any Lerena, Llerena or Lorena in the Cordon baptisms, June 1831 to December 1835: no Fidel, no Izaural/Ysaurralde; ONE enslaved-family act found (Damasia Maria Llerena, 15 December 1835, 'libre por la ley del 21 de enero de 1830', daughter of Jose Llerena de Nacion Mozambique and Atanasia Llerena, slaves of Da Maria Llerena, probably the Canelones couple of 1832); the control Barros re-found.",
+ "when": "2026-11-16",
+ "outcome": "yield",
+ "pages": "frames 703-922",
+ "walked": false,
+ "tags": [
+  "lerena",
+  "uruguay",
+  "montevideo",
+  "familysearch"
+ ],
+ "ev": [
+  [
+   "/people/damasia-maria-llerena/",
+   "Frame 919, right-hand page, baptised 15 December 1835, born 11 December: legitimate daughter of Jose Llerena de Nacion Mozambique and Atanasia Llerena natural de la Republica, Negros Esclavos de Da Maria Llerena, free by the law of 21 January 1830; zoomed twice; the godfather's surname is cut by the gutter"
+  ],
+  [
+   "/people/jose-llerena-4/",
+   "Named as father in the act of 15 December 1835; probably the Jose Llerena of Mozambique married at Canelones on 10 September 1832, by name, nation and owner; not stated in either act"
+  ],
+  [
+   "/people/atanacia-llerena/",
+   "Named as mother in the act of 15 December 1835 as Atanasia Llerena, natural de la Republica; probably the criolla Atanacia of the 1832 Canelones marriage; not stated in either act"
+  ]
+ ],
+ "for": [
+  [
+   "/people/damasia-maria-llerena/",
+   "Damasia Maria LLERENA (b. 11 December 1835, free by the law of 21 January 1830; daughter of Jose Llerena and Atanasia Llerena, enslaved; Cordon)"
+  ],
+  [
+   "/people/jose-llerena-4/",
+   "Jose LLERENA (enslaved of Dona Maria Fernandez Llerena; nacion Mozambique; m. Atanacia 1832)"
+  ],
+  [
+   "/people/atanacia-llerena/",
+   "Atanacia LLERENA (enslaved of Dona Maria Fernandez Llerena; negra criolla; m. Jose 1832)"
+  ]
+ ],
+ "note": "A MARGIN-NAME pass; a Lerena or Ysaurralde named INSIDE an entry is not excluded, most surnames were read at strip size, and the blotted, cancelled and bleed-through entries listed in the log row are unread. The find is a child of enslaved parents of one name; her tie to the Canelones couple of 1832 is probable by names, nation and owner, and to Sancho's family (through the owner) a candidate, not documented; she is not a child of Fidel Lerena.",
+ "waypoint": null,
+ "waypointNote": "Waypoint not established; film number and image group only."
 }
 ]
