@@ -116,13 +116,35 @@ def main():
                             break
                         at = field.find(token, at + 1)
 
+    # THE `who` COLUMN (which corrections name which person; tools/corrections_who.py). Three readers must agree: the person page's JSON, the Roots
+    # tree's `cx`, and this reading. A slug that is not a built page, or that names a living, held-out or noindex person, is a failure, never a silent drop.
+    import json
+    sys.path.insert(0, str(ROOT / "tools"))
+    import corrections_who
+    cx, bad = corrections_who.by_person()
+    fails.extend(bad)
+    outj = ROOT / "site" / "src" / "data" / "corrections-by-person.json"
+    if not outj.exists() or outj.read_text(encoding="utf-8") != corrections_who.render(cx):
+        fails.append("site/src/data/corrections-by-person.json is not what data/corrections.tsv's `who` column says (run tools/build-people.py)")
+    treej = ROOT / "data" / "tree-page" / "tree.json"
+    if treej.exists():
+        tp = {p["id"]: p for p in json.loads(treej.read_text(encoding="utf-8")).get("people", [])}
+        for s, ds in cx.items():
+            if s in tp and tp[s].get("cx") != len(ds):
+                fails.append(f"data/tree-page/tree.json: {s} has cx={tp[s].get('cx')} but the corrections name them {len(ds)} time(s) (run tools/build-tree-page.py)")
+        for s, q in tp.items():
+            if "cx" in q and q["cx"] != len(cx.get(s, [])):
+                fails.append(f"data/tree-page/tree.json: {s} carries cx={q['cx']} but the corrections name them {len(cx.get(s, []))} time(s)")
+    nwho = sum(len(v) for v in cx.values())
+
     if fails:
         print("  FAIL  corrections %d retracted reading(s) still asserted:" % len(fails))
         for x in fails:
             print("          - " + x)
         return 1
 
-    print(f"  ok    corrections {len(retired)} retracted reading(s) appear only in quotation marks")
+    print(f"  ok    corrections {len(retired)} retracted reading(s) appear only in quotation marks; "
+          f"{nwho} naming(s) of {len(cx)} person(s) in `who`, agreeing with the person pages and the tree's cx")
     return 0
 
 

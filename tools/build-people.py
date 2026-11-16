@@ -732,6 +732,12 @@ if _minted:
 
 (OUT / "people.json").write_text(json.dumps(people, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
 (OUT / "places.json").write_text(json.dumps(places, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
+# Which corrections name which person (the `who` column of data/corrections.tsv): one reading, shared with the person page, the Roots tree's `cx` and the gate.
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+import corrections_who
+_cx, _cxbad = corrections_who.write(people)
+for _x in _cxbad:
+    print("  PROBLEM " + _x)
 ev = sum(len(p["evidence"]) for p in people)
 _liv = [p for p in people if p["living"]]
 print(f"{len(people)} people, {len(places)} places, {ev} record(s) read about a named person")

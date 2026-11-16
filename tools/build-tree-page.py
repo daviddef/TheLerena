@@ -265,9 +265,14 @@ def seed_place_map(atlas, used):
     print("place_map: %d place strings seeded (era-ground.tsv/era-towns.tsv and place-additions.json), %d from the Atlas by a unique, country-confirmed name" % (seeded, atlas_ok))
     return standin
 
+CX = {}   # slug -> [dates of the corrections that name this person]; filled in build() from tools/corrections_who.py
+
 def build(a):
+    global CX
     os.makedirs(OUT, exist_ok=True)
     allp = jl(os.path.join(DATA, "people.json"))
+    sys.path.insert(0, os.path.join(ROOT, "tools")); import corrections_who
+    CX, _cxbad = corrections_who.by_person(allp)
     people = drawable(allp)
     ids = {p["slug"] for p in people}
     par, spouses = edges(people, ids)
@@ -305,6 +310,10 @@ def build(a):
         # approximate date ("1875c", "c.1812") is NOT a full date and gets no field: `by` / `dy` and the `bye` / `dye` flags already carry those.
         if FULLDATE.match(str(src.get("born") or "")): p["bd"] = src["born"]
         if FULLDATE.match(str(src.get("died") or "")): p["dd"] = src["died"]
+        # CORRECTIONS COUNT (cx): how many rows of data/corrections.tsv name this person in their hand-written `who` column. A COUNT ONLY, never
+        # what a correction says; omitted when 0; only for people this loop draws (never living, never noindex). The person page prints the same number
+        # from the same reading (tools/corrections_who.py), and check-corrections.py refuses a tree.json whose cx differs from it.
+        if p["id"] in CX: p["cx"] = len(CX[p["id"]])
         if circa(src.get("born")): p["bye"] = True
         if circa(src.get("died")) and p.get("dy") is not None: p["dye"] = True
     t["lines"] = [{"sur": label[k], "host": HOST} for k in top] + [{"sur": "Other", "host": HOST}]
