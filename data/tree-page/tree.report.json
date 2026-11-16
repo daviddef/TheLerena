@@ -89,6 +89,10 @@
    "Sarandi, El Tala, Flores, Uruguay",
    "Sexta Seccion, Flores, Uruguay"
   ],
-  "conflicts_not_drawn": 0
+  "conflicts_not_drawn": 0,
+  "undrawn_cards": 435,
+  "undrawn_dead_unplaced": 357,
+  "undrawn_living_style": 78,
+  "in_tree_json_total": 1533
  }
 }

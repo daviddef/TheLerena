@@ -314,11 +314,13 @@ def build(a):
         # what a correction says; omitted when 0; only for people this loop draws (never living, never noindex). The person page prints the same number
         # from the same reading (tools/corrections_who.py), and check-corrections.py refuses a tree.json whose cx differs from it.
         if p["id"] in CX: p["cx"] = len(CX[p["id"]])
+        if is_placeholder(src["name"]): p["placeholder"] = True
         if circa(src.get("born")): p["bye"] = True
         if circa(src.get("died")) and p.get("dy") is not None: p["dye"] = True
     t["lines"] = [{"sur": label[k], "host": HOST} for k in top] + [{"sur": "Other", "host": HOST}]
     t["meta"].update({"rowLabel": "Surname family", "lineLabel": "Surname family"})
     conflicts = drop_conflicts(t, tree)
+    t["undrawn"], _und = undrawn_cards(allp, t, key_i, cat)
     rep_path = os.path.splitext(tree)[0] + ".report.json"
     rep = jl(rep_path)
     rep["adapter"] = {
@@ -332,9 +334,80 @@ def build(a):
         "drawn_at_a_country_only": sum(1 for p in t["people"] if p.get("bp") in COUNTRY_ONLY), "sex_from_the_register": len(sex), "sex_unknown_total": len(people) - len(sex),
         "sex_unknown_drawn": sum(1 for p in t["people"] if sex.get(p["id"]) is None), "sex_how": dict(sexhow),
         "people_with_a_circa_birth_year": sum(1 for p in t["people"] if p.get("bye")),
-        "place_strings_standing_in_for_a_department_or_section": sorted(standin), "conflicts_not_drawn": conflicts}
+        "place_strings_standing_in_for_a_department_or_section": sorted(standin), "conflicts_not_drawn": conflicts,
+        "undrawn_cards": len(t["undrawn"]), "undrawn_dead_unplaced": _und["dead, unplaced"], "undrawn_living_style": _und["living-style (name and family only)"],
+        "in_tree_json_total": len(t["people"]) + len(t["undrawn"])}
     io.open(rep_path, "w", encoding="utf-8").write(json.dumps(rep, indent=1, ensure_ascii=False))
     io.open(tree, "w", encoding="utf-8").write(json.dumps(t, ensure_ascii=False, separators=(",", ":")))
+
+def is_placeholder(name):
+    """A record that STANDS FOR somebody rather than naming them: an unnamed infant ("[infant] LERENA (unnamed; ...)"), a person known only by a household ("Josefa in
+    Gilberto's 1895 household"), an "Unknown ..." stub. David (17 November 2026): they are research hotspots, so they are drawn and FLAGGED (`placeholder: true`), never hidden."""
+    n = name or ""
+    base = re.sub(r"\([^)]*\)", " ", n)     # only the NAME decides: a word in a bracketed note ("enslaved ... household") does not make a named person a stand-in
+    return bool(re.match(r"\s*\[", n) or re.search(r"\bunnamed\b|\bunknown\b|\bhousehold\b|\bplaceholder\b", base, re.I))
+
+def undrawn_cards(allp, t, key_i, cat):
+    """EVERYONE THE ARCHIVE NAMES IS ON THE CANVAS (David, 17 November 2026, "if it's in the archive it must be shown"). The ten views draw only the dead people who can be placed
+    and dated; everyone else who has a page of their own goes into tree.json's `undrawn`, which the page's views ignore and the Record Atlas Tree Canvas draws as an unplaced card.
+      - a DEAD person the maps skip: an unplaced card with their details (given, sur, by/dy where the register holds a year, parent/spouse/child links, page, cx);
+      - a LIVING person, and a person with NO DEATH recorded and born in the last 110 years: a living-style card, `living: true`, NAME AND FAMILY LINKS ONLY (no dates, no place,
+        no page link, no cx). Their names are already public on their pages; this adds nothing about them.
+    A `noindex` person is never named. Links follow the register's own (never `via: tree`) and only to people who are themselves in tree.json."""
+    drawn = {p["id"] for p in t["people"]}
+    cand = [p for p in allp if p.get("slug") and not p.get("noindex") and p["slug"] not in drawn]
+    ids = drawn | {p["slug"] for p in cand}
+    allbyid = {p["slug"]: p for p in allp if p.get("slug")}
+    par, kidsof, sp = collections.defaultdict(dict), collections.defaultdict(set), collections.defaultdict(set)
+    def link(parent, child, role=None):
+        if parent not in ids or child not in ids or parent == child: return
+        kidsof[parent].add(child)
+        d = par[child]
+        if role and role not in d: d[role] = parent
+        elif parent not in d.values(): d.setdefault("_free", []).append(parent)
+    for p in allp:
+        s = p.get("slug")
+        if not s or s not in ids: continue
+        for k in ("father", "mother"):
+            n = p.get(k)
+            if n and n.get("slug") and n.get("via") != "tree": link(n["slug"], s, k)
+        for c in p.get("children") or []:
+            if c.get("slug") and c.get("via") != "tree": link(s, c["slug"])
+        for n in p.get("spouses") or []:
+            if n.get("slug") in ids and n.get("via") != "tree" and n["slug"] != s: sp[s].add(n["slug"]); sp[n["slug"]].add(s)
+    fathers = {d["father"] for d in par.values() if d.get("father")}; mothers = {d["mother"] for d in par.values() if d.get("mother")}
+    def yr(v):
+        m = re.search(r"(1[5-9]\d\d|20\d\d)", str(v or "")); return int(m.group(1)) if m else None
+    out, kinds = [], collections.Counter()
+    for p in sorted(cand, key=lambda q: q["slug"]):
+        s = p["slug"]
+        g, sur = split_name(p["name"])
+        w = surname_word(p["name"]); k = unicodedata.normalize("NFC", w).lower()
+        fam = (cat.get(k) or ("w:" + fold(w), w.capitalize()))[0]
+        d = par.get(s, {}); f, m = d.get("father"), d.get("mother")
+        for x in d.get("_free", []):
+            if not f and x not in (m,) and x not in mothers: f = x
+            elif not m and x != f: m = x
+        nm = clean_name(p["name"]).split(" ")[0]
+        sx = "m" if (s in fathers and s not in mothers) or nm == "Don" else "f" if (s in mothers and s not in fathers) or nm in ("Dona", "Doña") else "u"
+        c = {"id": s, "sex": sx, "given": g, "sur": sur, "line": key_i.get(fam, 7),
+             "father": f, "mother": m, "spouse": sorted(sp.get(s, ())), "kids": sorted(kidsof.get(s, ()))}
+        b, dth = yr(p.get("born")), p.get("died")
+        cautious = bool(p.get("living")) or (not dth and b is not None and b >= datetime.date.today().year - 110)
+        if cautious:
+            c["living"] = True
+            kinds["living-style (name and family only)"] += 1
+        else:
+            c["unplaced"] = True
+            if b is not None: c["by"] = b; c["bye"] = bool(circa(p.get("born")))
+            dy = yr(dth)
+            if dy is not None: c["dy"] = dy; c["dye"] = bool(circa(dth))
+            c["slug"] = s; c["page"] = "/people/%s/" % s
+            if s in CX: c["cx"] = len(CX[s])
+            kinds["dead, unplaced"] += 1
+        if is_placeholder(p["name"]): c["placeholder"] = True
+        out.append(c)
+    return out, kinds
 
 def drop_conflicts(t, tree):
     """A person whose recorded death comes before their birth, or more than 110 years after it, is not one life. They are not drawn, they are named in

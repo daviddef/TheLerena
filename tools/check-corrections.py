@@ -128,9 +128,13 @@ def main():
         fails.append("site/src/data/corrections-by-person.json is not what data/corrections.tsv's `who` column says (run tools/build-people.py)")
     treej = ROOT / "data" / "tree-page" / "tree.json"
     if treej.exists():
-        tp = {p["id"]: p for p in json.loads(treej.read_text(encoding="utf-8")).get("people", [])}
+        _tj = json.loads(treej.read_text(encoding="utf-8"))
+        tp = {p["id"]: p for p in _tj.get("people", []) + _tj.get("undrawn", [])}
+        for q in _tj.get("undrawn", []):          # a living-style card carries no dates, no page link and no cx, ever
+            if q.get("living") and any(k in q for k in ("by", "dy", "bye", "dye", "page", "slug", "cx", "bp", "dp")):
+                fails.append(f"data/tree-page/tree.json: the living-style card {q['id']} carries more than name and family links")
         for s, ds in cx.items():
-            if s in tp and tp[s].get("cx") != len(ds):
+            if s in tp and not tp[s].get("living") and tp[s].get("cx") != len(ds):     # a living-style card never carries cx (its page may still print the count)
                 fails.append(f"data/tree-page/tree.json: {s} has cx={tp[s].get('cx')} but the corrections name them {len(ds)} time(s) (run tools/build-tree-page.py)")
         for s, q in tp.items():
             if "cx" in q and q["cx"] != len(cx.get(s, [])):
