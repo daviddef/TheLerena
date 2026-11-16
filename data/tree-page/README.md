@@ -35,6 +35,10 @@ Needs the Record Atlas checkout (`RECORD_ATLAS`, default `~/Projects/Family Proj
   era-ground refused is left unresolved, except where `place-additions.json` decides it (with its reason, at the Atlas's own point) or the Atlas names it once in the country the string
   itself names. A string the archive qualifies (presumed, probably, from a tree) is never placed. Where era-towns.tsv's point stands for a department or section, the page says the
   department's town or the department (`how` in `place_map.json`). A person whose own place is not resolved is drawn at a parent's, spouse's or child's birth place, or not drawn.
+- **Full dates, `bd` and `dd` (added 16 November 2026).** Optional per-person strings in `tree.json`, for the DEAD people the page draws only (a living person is never drawn, so never carries one).
+  The value is `people.json`'s own `born` / `died`, byte for byte, which is the string the person page prints: `"1882-02-22"` (`YYYY-MM-DD`, the register) or `"1950-Mar-19"` / `"1971-Jul-1"`
+  (`YYYY-Mon-D`, English month abbreviation, day not zero-padded, the death file). The field is present only when a day is known: a year alone, a year-month and an approximate date
+  (`1875c`, `c.1812`) get no field, and `by` / `dy` with the `bye` / `dye` flags carry those. So `dd` is rarer than `bd` (most deaths are a year). Regex: `^\d{4}-(?:\d{2}|[A-Z][a-z]{2})-\d{1,2}$`.
 - **Colour** is the surname family in the Record Atlas catalogue (`data/surname-families.json`, read at build, never copied); a surname the catalogue does not hold is its own colour.
 - **Sex** is not held by the register and is never inferred from a name: it is taken only from a father/mother role or a title (Don, Dona); everyone else is `u` and the viewer uses neutral words. `adapter.sex_unknown_drawn` says how many. A person placed at a relative's birth place has `bpe` and the page marks it with an asterisk.
 - **Two lives that cannot be one** (died before born, or over 110 years) are not drawn and are listed under `conflicts`.

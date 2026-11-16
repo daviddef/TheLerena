@@ -43,6 +43,7 @@ ATLAS_CANDIDATES = [os.environ.get("RECORD_ATLAS", ""), os.path.expanduser("~/Pr
                     os.path.join(os.path.dirname(ROOT), "Record Atlas")]
 INPUTS = ["people.json"]
 COUNTRY_ONLY = {"Uruguay", "Argentina", "Italy", "South Africa"}   # drawn at the Atlas's place of that name: a country, not a town
+FULLDATE = re.compile(r"^\d{4}-(?:\d{2}|[A-Z][a-z]{2})-\d{1,2}$")   # 1882-02-22 | 1950-Mar-19 | 1971-Jul-1 : a day is present, no approximation mark
 PARTICLES = {"de", "del", "la", "las", "los", "y", "da", "das", "do", "dos", "van", "von", "di", "le"}
 
 def jl(path): return json.load(io.open(path, encoding="utf-8"))
@@ -298,6 +299,12 @@ def build(a):
         g, sur = split_name(src["name"]); p["given"] = g; p["sur"] = sur
         own = pmap.get(src.get("birthplace") or "")
         if not (own and own.get("lat") is not None and own.get("name")): p["bpe"] = True      # drawn at a relative's birth place; the page marks it with an asterisk
+        # FULL DATES (bd, dd), for DEAD people only: this loop only ever sees the people drawable() let through (never living, never noindex) and the converter's
+        # 110-year floor, so a living person never gets one. The string is people.json's own `born` / `died`, byte for byte, which is what the person page prints:
+        # "1882-02-22" (the register's ISO form) or "1950-Mar-19" / "1971-Jul-1" (the death file's Y-Mon-D form). A year alone, a year-month, or an
+        # approximate date ("1875c", "c.1812") is NOT a full date and gets no field: `by` / `dy` and the `bye` / `dye` flags already carry those.
+        if FULLDATE.match(str(src.get("born") or "")): p["bd"] = src["born"]
+        if FULLDATE.match(str(src.get("died") or "")): p["dd"] = src["died"]
         if circa(src.get("born")): p["bye"] = True
         if circa(src.get("died")) and p.get("dy") is not None: p["dye"] = True
     t["lines"] = [{"sur": label[k], "host": HOST} for k in top] + [{"sur": "Other", "host": HOST}]

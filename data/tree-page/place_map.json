@@ -997,5 +997,33 @@
   "atlas_id": null,
   "note": "TODO: copy one suggestion (or give coordinates) once you have checked the country; never guessed",
   "suggest": []
+ },
+ "Andalusia, Spain (the 1812 padron says \"andaluz\"; CORDOVA LA LLANA is on his marriage act of 8 January 1791, not only on the trees)": {
+  "name": null,
+  "lat": null,
+  "lon": null,
+  "country": null,
+  "iso": null,
+  "atlas_id": null,
+  "note": "TODO: copy one suggestion (or give coordinates) once you have checked the country; never guessed",
+  "suggest": [
+   {
+    "atlas_id": "andalusia",
+    "name": "Andalusia",
+    "country": "ES",
+    "lat": 37.0964,
+    "lon": -4.9025
+   }
+  ]
+ },
+ "Canelones (las Brujas), Uruguay": {
+  "name": null,
+  "lat": null,
+  "lon": null,
+  "country": null,
+  "iso": null,
+  "atlas_id": null,
+  "note": "TODO: copy one suggestion (or give coordinates) once you have checked the country; never guessed",
+  "suggest": []
  }
 }
