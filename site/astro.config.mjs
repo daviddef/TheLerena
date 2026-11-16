@@ -134,6 +134,10 @@ const redirects = {
   '/people/pedro-antonio-lerena-2': `${BASE}/people/pedro-antonio-lerena/`,
   '/people/pedro': `${BASE}/people/pedro-antonio-lerena/`,
   '/people/maria-pereyra': `${BASE}/people/pedro-antonio-lerena/`,
+  /* 16 November 2026. The row 'Josefa LERENA Traibel (1851-1947)' was re-keyed to 'Josefa LERENA TRAIBEL (1851-1947)'
+     (the frozen ledger holds both keys); the slug it had, josefa-lerena-traibel-2, was published and must keep
+     pointing at her. check-addresses found it after the build gate went red on every push since 15 November. */
+  '/people/josefa-lerena-traibel-2': `${BASE}/people/josefa-lerena-traibel/`,
 };
 
 export default defineConfig({
