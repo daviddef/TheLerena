@@ -10227,5 +10227,52 @@
  "note": "A NAMES-COLUMN pass; a Lerena or Ysaurralde named INSIDE an entry is not excluded, and most surnames were read at sheet size only. Gil's 2 October 1883 window checked: no entry dated 3 October.",
  "waypoint": null,
  "waypointNote": "Waypoint not established; film number and image group only."
+},
+{
+ "src": "FamilySearch, el Cordon (Nuestra Senora del Carmen la Mayor), Montevideo: Baptism Records November 1828 - December 1836, from the end of the Libro Tercero and through the Libro quarto, December 1827 to about 24 June 1831 (DGS film 007713388, frames 544-702), read by the margin name of every entry at the plate",
+ "url": "https://www.familysearch.org/search/film/007713388",
+ "film": "007713388",
+ "what": "Fidel Lerena, Isidora Izaural/Ysaurralde and any Lerena, Llerena or Lorena in the Cordon baptisms, December 1827 to June 1831: no Fidel, no Izaural/Ysaurralde; TWO enslaved-family acts found (Saturnino, 14 February 1829, a new source for a person already held, and Maria Rosa Rudesinda, 6 March 1831, 'libre por la ley del 21 de enero de 1830', a new person, daughter of Mariano Llerena de Nacion Mina and Manuela Llerena de Nacion Conga, slaves of Da Maria Fernandez de Llerena); the control Pedro Antonio Natalio Llerena (12 December 1828) re-found.",
+ "when": "2026-11-16",
+ "outcome": "yield",
+ "pages": "frames 544-702",
+ "walked": false,
+ "tags": [
+  "lerena",
+  "uruguay",
+  "montevideo",
+  "familysearch"
+ ],
+ "ev": [
+  [
+   "/people/narciso-saturnino/",
+   "Frame 600, right-hand page, 14 February 1829: Saturnino, son of Mariano Llerena (esclavo de Dn Pedro Llerena) and Manuela Fernandez (esclava de Da Maria Fernandez), godparents Rafael Sipitria and Justa Pastora Llerena; zoomed; the register's Narciso Saturnino by names, owners and age, probable and not stated in either act"
+  ],
+  [
+   "/people/maria-rosa-rudesinda-llerena/",
+   "Frame 687, right-hand page, 6 March 1831: Maria Rosa Rudesinda, born the first of that month, libre por la ley del 21 de enero de 1830, legitimate daughter of Mariano Llerena de Nacion Mina and Manuela Llerena de Nacion Conga, esclavos de Da Maria Fernandez de Llerena; zoomed twice; probably a sister of Narciso Saturnino"
+  ],
+  [
+   "/people/mariano-llerena/",
+   "Named as father in both acts (14 February 1829 and 6 March 1831); the second act adds his nation, Mina, and names no Dn Pedro as owner"
+  ]
+ ],
+ "for": [
+  [
+   "/people/narciso-saturnino/",
+   "Narciso Saturnino (infant of 7 months, son of Mariano Llerena and Manuela Fernandez, both enslaved; Cordon, September 1829)"
+  ],
+  [
+   "/people/maria-rosa-rudesinda-llerena/",
+   "Maria Rosa Rudesinda LLERENA (b. 1 March 1831, free by the law of 21 January 1830; daughter of Mariano Llerena and Manuela Llerena, enslaved; Cordon)"
+  ],
+  [
+   "/people/mariano-llerena/",
+   "Mariano LLERENA (enslaved of Dn Pedro Llerena; father of Narciso Saturnino; Cordon, September 1829)"
+  ]
+ ],
+ "note": "A MARGIN-NAME pass; a Lerena or Ysaurralde named INSIDE an entry is not excluded, most surnames were read at strip size, and the entries under ink blots on frames 653-654 are unread. The two finds are enslaved parents of one name; their tie to Sancho's family (through the owners) is a candidate, not documented, and neither child is a child of Fidel Lerena.",
+ "waypoint": null,
+ "waypointNote": "Waypoint not established; film number and image group only."
 }
 ]

@@ -13543,9 +13543,17 @@
   ],
   "siblings": [],
   "isLine": false,
+  "godchildren": [
+   {
+    "name": "Narciso Saturnino (infant of 7 months, son of Mariano Llerena and Manuela Fernandez, both enslaved; Cordon, September 1829)",
+    "dates": "",
+    "slug": "narciso-saturnino",
+    "via": "register",
+    "role": "godmother"
+   }
+  ],
   "aliasOf": null,
   "godparents": [],
-  "godchildren": [],
   "relTotal": 2,
   "relRegister": 2,
   "relTree": 0,
@@ -105580,10 +105588,10 @@
   "nationality": "-",
   "occupation": "-",
   "where": "Montevideo",
-  "source": "Nuestra Senora del Carmen del Cordon, Montevideo, burial book (Libros de Defunciones, DGS film 007713392), image 02080, left-hand page, the last entry, 4 September 1829 - PLATE READ and zoomed (entry body included) 11 November 2026; no image ark is held",
+  "source": "Nuestra Senora del Carmen del Cordon, Montevideo, burial book (Libros de Defunciones, DGS film 007713392), image 02080, left-hand page, the last entry, 4 September 1829 - PLATE READ and zoomed (entry body included) 11 November 2026; no image ark is held; and named in the baptism of his son Saturnino, 14 February 1829, Cordon, Libro quarto, DGS film 007713388, frame 600, right-hand page - PLATE READ and zoomed 16 November 2026; no image ark is held; and named in the baptism of his daughter Maria Rosa Rudesinda, 6 March 1831, Cordon, Libro quarto, DGS film 007713388, frame 687, right-hand page - PLATE READ and zoomed 16 November 2026; no image ark is held",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "*** AN ENSLAVED MAN NAMED ONLY AS A FATHER, WITH THE OWNER'S SURNAME. *** Named in the burial entry of his legitimate son Narciso Saturnino (see that row) as 'Mariano Llerena, negro esclavo de Dn Pedro Llerena'; the mother is Manuela Fernandez, 'negra esclava de Da Maria Fernandez'. TIER: PRIMARY for what the act says. The owner 'Dn Pedro Llerena' is probably the Don Pedro Antonio of the 1829 entry of Luis Llerena (same parish, same year) but the act does not say Antonio: a candidate only. Nothing is merged.",
+  "note": "*** AN ENSLAVED MAN NAMED ONLY AS A FATHER, WITH THE OWNER'S SURNAME. *** Named in the burial entry of his legitimate son Narciso Saturnino (see that row) as 'Mariano Llerena, negro esclavo de Dn Pedro Llerena'; the mother is Manuela Fernandez, 'negra esclava de Da Maria Fernandez'. TIER: PRIMARY for what the act says. The owner 'Dn Pedro Llerena' is probably the Don Pedro Antonio of the 1829 entry of Luis Llerena (same parish, same year) but the act does not say Antonio: a candidate only. Nothing is merged. *** NAMED AGAIN AT HIS SON'S BAPTISM (14 February 1829): 'Mariano Llerena, Negro, Esclavo de Dn Pedro Llerena', with Manuela Fernandez 'Negra Esclava de Da Maria Fernandez' (see the row of Narciso Saturnino). *** The baptism spells the owner Llerena, as the burial does. Still no 'Antonio' on the owner's name in either act, so the owner is a candidate for Pedro Antonio only, not settled. *** A SECOND CHILD, A DAUGHTER, IS BAPTISED 6 MARCH 1831 (see the row of Maria Rosa Rudesinda Llerena): 'hija legitima de Mariano Llerena de Nacion Mina y de Manuela Llerena de Nacion Conga, Negros Esclavos de Da Maria Fernandez de Llerena', free by the law of 21 January 1830. This act names no Dn Pedro. The 'Nacion Mina' of the father is the act's own word and is new here. ***",
   "place": "Montevideo",
   "placeSlug": "montevideo",
   "surname": "LLERENA",
@@ -105595,14 +105603,29 @@
   "father": null,
   "mother": null,
   "spouses": [],
-  "children": [],
+  "children": [
+   {
+    "name": "Maria Rosa Rudesinda LLERENA (b. 1 March 1831, free by the law of 21 January 1830; daughter of Mariano Llerena and Manuela Llerena, enslaved; Cordon)",
+    "dates": "",
+    "slug": "maria-rosa-rudesinda-llerena",
+    "via": "register",
+    "note": "Cordon, Montevideo, 6 March 1831 (DGS film 007713388, frame 687)."
+   },
+   {
+    "name": "Narciso Saturnino (infant of 7 months, son of Mariano Llerena and Manuela Fernandez, both enslaved; Cordon, September 1829)",
+    "dates": "",
+    "slug": "narciso-saturnino",
+    "via": "register",
+    "note": "Cordon, Montevideo: the baptism of 14 February 1829 (DGS film 007713388, frame 600) and the burial of 4 September 1829."
+   }
+  ],
   "siblings": [],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 2,
+  "relRegister": 2,
   "relTree": 0,
   "evidence": [],
   "noindex": false
@@ -105610,16 +105633,16 @@
  {
   "slug": "narciso-saturnino",
   "name": "Narciso Saturnino (infant of 7 months, son of Mariano Llerena and Manuela Fernandez, both enslaved; Cordon, September 1829)",
-  "born": "-",
+  "born": "1829-02-11",
   "died": "",
   "birthplace": "-",
   "nationality": "-",
   "occupation": "-",
   "where": "Montevideo",
-  "source": "Nuestra Senora del Carmen del Cordon, Montevideo, burial book (Libros de Defunciones, DGS film 007713392), image 02080, left-hand page, the last entry, 4 September 1829 - PLATE READ and zoomed (entry body included) 11 November 2026; no image ark is held",
+  "source": "Nuestra Senora del Carmen del Cordon, Montevideo, burial book (Libros de Defunciones, DGS film 007713392), image 02080, left-hand page, the last entry, 4 September 1829 - PLATE READ and zoomed (entry body included) 11 November 2026; no image ark is held; and the baptism of 14 February 1829, Nuestra Senora del Carmen la Mayor, Cordon, Baptism Records November 1828 - December 1836 (Libro quarto, DGS film 007713388, frame 600, right-hand page, the second entry; margin 'Saturnino Fernandez Negro, Parvulo') - PLATE READ and zoomed (entry body included) 16 November 2026; no image ark is held",
   "status": "unplaced",
   "statusRaw": "UNPLACED",
-  "note": "*** A SEVEN-MONTH-OLD, LEGITIMATE SON OF TWO ENSLAVED PEOPLE, BURIED AT THE CORDON THE DAY AFTER HE DIED (4 September 1829). *** The father Mariano Llerena belongs to Dn Pedro Llerena and the mother Manuela Fernandez to Da Maria Fernandez (the mother's owner, Da Maria Fernandez, is a possible but unproved match for Sancho's widow Maria Fernandez, and is deliberately given no row of her own: a second 'Maria Fernandez' would only blur the register's name links). He carries no surname of his own in the margin. Not a Lerena by family; entered because the owner's names are the family's. Nothing is merged.",
+  "note": "*** A SEVEN-MONTH-OLD, LEGITIMATE SON OF TWO ENSLAVED PEOPLE, BURIED AT THE CORDON THE DAY AFTER HE DIED (4 September 1829). *** The father Mariano Llerena belongs to Dn Pedro Llerena and the mother Manuela Fernandez to Da Maria Fernandez (the mother's owner, Da Maria Fernandez, is a possible but unproved match for Sancho's widow Maria Fernandez, and is deliberately given no row of her own: a second 'Maria Fernandez' would only blur the register's name links). He carries no surname of his own in the margin. Not a Lerena by family; entered because the owner's names are the family's. Nothing is merged. *** HIS BAPTISM IS FOUND AND READ AT THE PLATE, 16 November 2026, IN THE SAME PARISH AS THE BURIAL: BORN 11 FEBRUARY 1829, BAPTISED 14 FEBRUARY 1829. *** 'En catorze de Febrero del ano de mil ochocientos veinte y nueve yo Dn Benito Alonso Covian Teniente Cura en esta Vice Parroquia de Nra Sra del Carmen la Mayor en el Cordon extramuros de Monte Video bautize solemnemente a Saturnino que nacio el dia onze del corriente, hijo legitimo de Mariano Llerena, Negro, Esclavo de Dn Pedro Llerena, y de Manuela Fernandez, Negra, Esclava de Da Maria Fernandez. Fueron padrinos Rafael Sipitria y Justa Pastora Llerena, aquienes instrui y para que conste lo firmo ut supra, Benito Alonso Covian.' The act and the margin write the child's name SATURNINO only; the burial writes NARCISO SATURNINO. *** THE SAME CHILD, PROBABLY: *** the parents are named alike in the two acts (Mariano Llerena and Manuela Fernandez), both are enslaved by the same two owners, and seven months at the burial fits a birth of 11 February. That is a match by names and age, not a statement in either act that the baptised and the buried child are one, so the row says 'probable'. *** THE GODMOTHER JUSTA PASTORA LLERENA IS PROBABLY SANCHO'S DAUGHTER (see her row), NOT PROVED: *** the act gives her no parents; she is a Llerena, in the same parish, and the row of her marriage at the Cordon shows a Justa Pastora Lerena marrying there the next year. The owner Dn Pedro Llerena is probably her brother Pedro Antonio, whose own son was baptised in this same book two months earlier (12 December 1828), but the act says Pedro only, so that stays a candidate and nothing is merged. The godfather Rafael Sipitria (the surname read at the zoom, the first letters of it narrow) has no row: nothing else is known of him. The Gil godparents of other acts in this book are a surname, not a given name. *** A SISTER, PROBABLY: Maria Rosa Rudesinda, baptised at the Cordon on 6 March 1831 as a daughter of Mariano Llerena and Manuela Llerena, 'free by the law of 21 January 1830' (see her row); match by names and owner, nothing merged. ***",
   "place": "Montevideo",
   "placeSlug": "montevideo",
   "surname": "OTHER",
@@ -105628,17 +105651,88 @@
   "noLink": "",
   "living": false,
   "gen": null,
-  "father": null,
+  "father": {
+   "name": "Mariano LLERENA (enslaved of Dn Pedro Llerena; father of Narciso Saturnino; Cordon, September 1829)",
+   "dates": "",
+   "slug": "mariano-llerena",
+   "via": "register",
+   "note": "Cordon, Montevideo: the baptism of 14 February 1829 (DGS film 007713388, frame 600) and the burial of 4 September 1829 both name him 'Mariano Llerena, negro esclavo de Dn Pedro Llerena'."
+  },
   "mother": null,
   "spouses": [],
   "children": [],
-  "siblings": [],
+  "siblings": [
+   {
+    "name": "Maria Rosa Rudesinda LLERENA (b. 1 March 1831, free by the law of 21 January 1830; daughter of Mariano Llerena and Manuela Llerena, enslaved; Cordon)",
+    "dates": "",
+    "slug": "maria-rosa-rudesinda-llerena",
+    "via": "register"
+   }
+  ],
+  "isLine": false,
+  "godparents": [
+   {
+    "name": "Justa Pastora LERENA (daughter of Sancho)",
+    "dates": "",
+    "slug": "justa-pastora-lerena",
+    "via": "register",
+    "note": "Cordon, 14 February 1829, 'Fueron padrinos Rafael Sipitria y Justa Pastora Llerena': PROBABLY Sancho's daughter (a Llerena in the same parish, a Justa Pastora Lerena marries there the next year), but the act names no parents, so this is a candidate and not a merge.",
+    "role": "godmother"
+   }
+  ],
+  "aliasOf": null,
+  "godchildren": [],
+  "relTotal": 1,
+  "relRegister": 1,
+  "relTree": 0,
+  "evidence": [],
+  "noindex": false
+ },
+ {
+  "slug": "maria-rosa-rudesinda-llerena",
+  "name": "Maria Rosa Rudesinda LLERENA (b. 1 March 1831, free by the law of 21 January 1830; daughter of Mariano Llerena and Manuela Llerena, enslaved; Cordon)",
+  "born": "1831-03-01",
+  "died": "",
+  "birthplace": "-",
+  "nationality": "-",
+  "occupation": "-",
+  "where": "Montevideo",
+  "source": "Nuestra Senora del Carmen la Mayor, Cordon, Baptism Records November 1828 - December 1836 (Libro quarto, DGS film 007713388, frame 687, right-hand page, the entry after the 'Marzo de 1831' heading of frame 687 left; margin 'Maria Rosa Rudesinda Llerena Libre por la Ley del 21 de Enero de 183.', Parvula) - PLATE READ and zoomed twice (margin and the whole entry body) 16 November 2026; no image ark is held",
+  "status": "unplaced",
+  "statusRaw": "UNPLACED",
+  "note": "*** A SECOND CHILD OF THE ENSLAVED MARIANO LLERENA, BAPTISED AT THE CORDON ON 6 MARCH 1831, AND NAMED 'FREE BY THE LAW OF 21 JANUARY 1830'. *** 'En seis de Marzo de mil ochocientos treinta y uno yo Dn Benito Alonso Covian Teniente Cura en esta Vice Parroquia de Nra Sra del Carmen la Mayor en el Cordon extramuros de Monte Video bautize solemnemente a Maria Rosa Rudesinda que nacio el dia primero del corriente libre por la ley del veinte y uno de enero de mil ochocientos treinta hija legitima de Mariano Llerena de Nacion Mina y de Manuela Llerena de Nacion Conga Negros Esclavos de Da Maria Fernandez de Llerena. Fueron Padrinos Pedro Martinez y Rosa de la Puente aquien instrui y para que conste lo firmo ut supra, Benito Alonso Covian.' The margin note gives the same words as the body; its last digit of the year is lost under an ink blot (the body reads treinta). TIER: PRIMARY for what the act says. 'El dia primero del corriente' is read as the first of the month of the act, so born 1 March 1831 (an inference from 'corriente', not a month the act names). *** SHE IS PROBABLY THE SISTER OF NARCISO SATURNINO (see his row, the baptism of 14 February 1829): *** the father is 'Mariano Llerena' in both acts, the mother is 'Manuela Fernandez' there and 'Manuela Llerena' here, and in both the owner is a Da Maria Fernandez (here 'Da Maria Fernandez de Llerena'). That is a match by two first names and an owner, not a statement in either act, so the row says 'probable' and nothing is merged. The 1829 acts call the father 'esclavo de Dn Pedro Llerena' and the mother 'esclava de Da Maria Fernandez'; this act gives both parents to Da Maria Fernandez de Llerena and does not name a Pedro. THE OWNER 'DA MARIA FERNANDEZ DE LLERENA' is a candidate for the register's 'Dona Maria FERNANDEZ TRESGUERRAS (wife of Sancho)' (the same forename and surname, 'de Llerena' as a married name, and that woman is on record in 1846 and 1850, so she could be the owner in 1831), but the act gives no husband, no parentage and no word 'viuda': not proved, and no second row is made for her. The mother 'Manuela Llerena de Nacion Conga' may be the African-born Manuela of the 1850 padron (row 'Manuela LERENA (b. in AFRICA; Sarandi 229, 1850)'), and the father the 'Mariano Lerena, moreno' buried at the Cordon in 1861 (see his row): both are candidates by name and colour only, and neither is merged. The godparents Pedro Martinez and Rosa de la Puente have no rows; nothing else is known of them. Found walking the Cordon baptism book (film 007713388) for Fidel Lerena and Isidora Izaural: not a child of that couple and not a relative of Gil.",
+  "place": "Montevideo",
+  "placeSlug": "montevideo",
+  "surname": "LLERENA",
+  "ark": "-",
+  "sourceUrl": "https://www.familysearch.org/ark:/61903/-",
+  "noLink": "",
+  "living": false,
+  "gen": null,
+  "father": {
+   "name": "Mariano LLERENA (enslaved of Dn Pedro Llerena; father of Narciso Saturnino; Cordon, September 1829)",
+   "dates": "",
+   "slug": "mariano-llerena",
+   "via": "register",
+   "note": "Cordon, Montevideo, 6 March 1831 (DGS film 007713388, frame 687): 'hija legitima de Mariano Llerena de Nacion Mina y de Manuela Llerena de Nacion Conga'."
+  },
+  "mother": null,
+  "spouses": [],
+  "children": [],
+  "siblings": [
+   {
+    "name": "Narciso Saturnino (infant of 7 months, son of Mariano Llerena and Manuela Fernandez, both enslaved; Cordon, September 1829)",
+    "dates": "",
+    "slug": "narciso-saturnino",
+    "via": "register"
+   }
+  ],
   "isLine": false,
   "aliasOf": null,
   "godparents": [],
   "godchildren": [],
-  "relTotal": 0,
-  "relRegister": 0,
+  "relTotal": 1,
+  "relRegister": 1,
   "relTree": 0,
   "evidence": [],
   "noindex": false

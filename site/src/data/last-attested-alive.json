@@ -10319,8 +10319,15 @@
  },
  {
   "name": "Narciso Saturnino (infant of 7 months, son of Mariano Llerena and Manuela Fernandez, both enslaved; Cordon, September 1829)",
-  "born_est": "-",
-  "last_attested_alive": "-",
+  "born_est": "1829-02-11",
+  "last_attested_alive": "1829-02-11",
+  "basis": "born_est only - a floor, not an attestation",
+  "tier": "BIRTH ONLY"
+ },
+ {
+  "name": "Maria Rosa Rudesinda LLERENA (b. 1 March 1831, free by the law of 21 January 1830; daughter of Mariano Llerena and Manuela Llerena, enslaved; Cordon)",
+  "born_est": "1831-03-01",
+  "last_attested_alive": "1831-03-01",
   "basis": "born_est only - a floor, not an attestation",
   "tier": "BIRTH ONLY"
  },
