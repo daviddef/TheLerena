@@ -403,6 +403,9 @@ def undrawn_cards(allp, t, key_i, cat):
             dy = yr(dth)
             if dy is not None: c["dy"] = dy; c["dye"] = bool(circa(dth))
             c["slug"] = s; c["page"] = "/people/%s/" % s
+            # what the page's "Not drawn yet" list reads (name, why): why = year (no birth or death year at all) or place (a year but nothing to put on a map). A living-style card has neither.
+            c["name"] = (g + " " + sur).strip() or clean_name(p["name"])
+            c["why"] = "year" if (b is None and dy is None) else "place"
             if s in CX: c["cx"] = len(CX[s])
             kinds["dead, unplaced"] += 1
         if is_placeholder(p["name"]): c["placeholder"] = True
