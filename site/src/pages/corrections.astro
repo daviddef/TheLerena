@@ -21,7 +21,8 @@ const days = [...new Set(rows.map(r => r.date))].sort((a, b) => b.localeCompare(
     return { date: d, rows: mine, first: ids.get(mine[0]) }; });
 /* A place in the prose links to its page with the flag of the state that held it in the year the sentence names (kit placelinks.js; the rows and
    flags are made by tools/build-correction-links.py). Names are NOT linked here: the post-build autolinker does that, with its living rules. */
-const FLAGS = import.meta.glob("../../node_modules/@daviddef/archive-kit/kit/data/flags/*.svg", { eager: true, query: "?url", import: "default" });
+/* ?no-inline: Vite would otherwise write each small SVG into the page as a data: URI at every use (266 of them, 737 KB); this emits each flag once as /_astro/*.svg */
+const FLAGS = import.meta.glob("../../node_modules/@daviddef/archive-kit/kit/data/flags/*.svg", { eager: true, query: "?no-inline", import: "default" });
 const flagUrl = (svg) => { const k = Object.keys(FLAGS).find((x) => x.endsWith("/" + svg)); return k ? FLAGS[k] : ""; };
 const places = placeIndex(placeData.rows.map(r => ({ ...r, href: u(r.href) })), placeData.flags, flagUrl);
 ---
