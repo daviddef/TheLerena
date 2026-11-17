@@ -1,0 +1,482 @@
+{
+ "_note": "Made by tools/build-correction-links.py from places.json, era-snapshot.json and flag-countries.json with the kit's placeflags.py; do not edit by hand.",
+ "rows": [
+  {
+   "name": "Adolfo Alsina",
+   "href": "/places/adolfo-alsina-buenos-aires-argentina/",
+   "flagKey": "Adolfo Alsina, Buenos Aires, Argentina"
+  },
+  {
+   "name": "Artigas",
+   "href": "/places/artigas-uruguay/",
+   "flagKey": "Artigas, Uruguay"
+  },
+  {
+   "name": "Buenos Aires",
+   "href": "/places/buenos-aires/",
+   "flagKey": "Buenos Aires"
+  },
+  {
+   "name": "Canelones",
+   "href": "/places/canelones/",
+   "flagKey": "Canelones"
+  },
+  {
+   "name": "Cape Town",
+   "href": "/places/cape-town/",
+   "flagKey": "Cape Town"
+  },
+  {
+   "name": "Cayasta",
+   "href": "/places/cayasta-garay-santa-fe/",
+   "flagKey": "Cayasta, Garay, Santa Fe"
+  },
+  {
+   "name": "Cerro Colorado",
+   "href": "/places/cerro-colorado-flores/",
+   "flagKey": "Cerro Colorado, Flores"
+  },
+  {
+   "name": "Chamanga",
+   "href": "/places/chamanga-flores/",
+   "flagKey": "Chamanga, Flores"
+  },
+  {
+   "name": "Colla",
+   "href": "/places/colla/",
+   "flagKey": "Colla"
+  },
+  {
+   "name": "Colonia",
+   "href": "/places/colonia-uruguay/",
+   "flagKey": "Colonia, Uruguay"
+  },
+  {
+   "name": "Concordia",
+   "href": "/places/concordia-entre-rios/",
+   "flagKey": "Concordia, Entre Rios"
+  },
+  {
+   "name": "Cordon",
+   "href": "/places/cordon-montevideo/",
+   "flagKey": "Cordon, Montevideo"
+  },
+  {
+   "name": "Devon",
+   "href": "/places/devon/",
+   "flagKey": "Devon"
+  },
+  {
+   "name": "Flores",
+   "href": "/places/flores/",
+   "flagKey": "Flores"
+  },
+  {
+   "name": "Florida",
+   "href": "/places/florida-uruguay/",
+   "flagKey": "Florida, Uruguay"
+  },
+  {
+   "name": "Gualeguaychu",
+   "href": "/places/gualeguaychu-entre-rios/",
+   "flagKey": "Gualeguaychu, Entre Rios"
+  },
+  {
+   "name": "Johannesburg",
+   "href": "/places/johannesburg/",
+   "flagKey": "Johannesburg"
+  },
+  {
+   "name": "La Paz",
+   "href": "/places/la-paz-uruguay/",
+   "flagKey": "La Paz, Uruguay"
+  },
+  {
+   "name": "Mal Abrigo",
+   "href": "/places/mal-abrigo-san-jose-uruguay/",
+   "flagKey": "Mal Abrigo, San Jose, Uruguay"
+  },
+  {
+   "name": "Mendoza",
+   "href": "/places/mendoza/",
+   "flagKey": "Mendoza"
+  },
+  {
+   "name": "Montevideo",
+   "href": "/places/montevideo/",
+   "flagKey": "Montevideo"
+  },
+  {
+   "name": "Navarrete",
+   "href": "/places/navarrete-logrono-spain/",
+   "flagKey": "Navarrete, Logrono, Spain"
+  },
+  {
+   "name": "Northam",
+   "href": "/places/northam-devon/",
+   "flagKey": "Northam, Devon"
+  },
+  {
+   "name": "Pintos",
+   "href": "/places/pintos-flores/",
+   "flagKey": "Pintos, Flores"
+  },
+  {
+   "name": "Salto",
+   "href": "/places/salto/",
+   "flagKey": "Salto"
+  },
+  {
+   "name": "San Eugenio",
+   "href": "/places/san-eugenio-artigas-uruguay/",
+   "flagKey": "San Eugenio, Artigas, Uruguay"
+  },
+  {
+   "name": "San Jeronimo",
+   "href": "/places/san-jeronimo-cordoba/",
+   "flagKey": "San Jeronimo, Cordoba"
+  },
+  {
+   "name": "San Jose",
+   "href": "/places/san-jose/",
+   "flagKey": "San Jose"
+  },
+  {
+   "name": "San Jose de Mayo",
+   "href": "/places/san-jose-de-mayo/",
+   "flagKey": "San Jose de Mayo"
+  },
+  {
+   "name": "South Africa",
+   "href": "/places/south-africa/",
+   "flagKey": "South Africa"
+  },
+  {
+   "name": "Trinidad",
+   "href": "/places/trinidad-flores/",
+   "flagKey": "Trinidad, Flores"
+  },
+  {
+   "name": "Uruguay",
+   "href": "/places/uruguay/",
+   "flagKey": "Uruguay"
+  }
+ ],
+ "flags": {
+  "Adolfo Alsina, Buenos Aires, Argentina": {
+   "today": {
+    "svg": "argentina-flags--era-1861.svg",
+    "label": "Argentina"
+   },
+   "eras": []
+  },
+  "Artigas, Uruguay": {
+   "today": {
+    "svg": "uruguay-flags--era-1830.svg",
+    "label": "Uruguay"
+   },
+   "eras": [
+    [
+     1737,
+     1801,
+     "spain-flags--era-1716.svg",
+     "Spanish Empire"
+    ],
+    [
+     1836,
+     1990,
+     "uruguay-flags--era-1830.svg",
+     "Uruguay"
+    ]
+   ]
+  },
+  "Buenos Aires": {
+   "today": {
+    "svg": "argentina-flags--era-1861.svg",
+    "label": "Argentina"
+   },
+   "eras": [
+    [
+     1787,
+     1799,
+     "spain-flags--era-1716.svg",
+     "Spanish Empire"
+    ],
+    [
+     1817,
+     1820,
+     "argentina-flags--era-1816.svg",
+     "Argentina"
+    ],
+    [
+     1820,
+     1847,
+     "argentina-flags--era-1820.svg",
+     "Argentina"
+    ],
+    [
+     1867,
+     1990,
+     "argentina-flags--era-1861.svg",
+     "Argentina"
+    ]
+   ]
+  },
+  "Canelones": {
+   "today": {
+    "svg": "uruguay-flags--era-1830.svg",
+    "label": "Uruguay"
+   },
+   "eras": [
+    [
+     1737,
+     1801,
+     "spain-flags--era-1716.svg",
+     "Spanish Empire"
+    ],
+    [
+     1836,
+     1990,
+     "uruguay-flags--era-1830.svg",
+     "Uruguay"
+    ]
+   ]
+  },
+  "Cape Town": {
+   "today": {
+    "svg": "south-africa-flags--era-1994.svg",
+    "label": "South Africa"
+   },
+   "eras": []
+  },
+  "Colonia, Uruguay": {
+   "today": {
+    "svg": "uruguay-flags--era-1830.svg",
+    "label": "Uruguay"
+   },
+   "eras": []
+  },
+  "Concordia, Entre Rios": {
+   "today": {
+    "svg": "argentina-flags--era-1861.svg",
+    "label": "Argentina"
+   },
+   "eras": []
+  },
+  "Cordon, Montevideo": {
+   "today": {
+    "svg": "uruguay-flags--era-1830.svg",
+    "label": "Uruguay"
+   },
+   "eras": []
+  },
+  "Devon": {
+   "today": {
+    "svg": "uk-flags--era-1922.svg",
+    "label": "the United Kingdom"
+   },
+   "eras": []
+  },
+  "Florida, Uruguay": {
+   "today": {
+    "svg": "uruguay-flags--era-1830.svg",
+    "label": "Uruguay"
+   },
+   "eras": []
+  },
+  "Gualeguaychu, Entre Rios": {
+   "today": {
+    "svg": "argentina-flags--era-1861.svg",
+    "label": "Argentina"
+   },
+   "eras": []
+  },
+  "Johannesburg": {
+   "today": {
+    "svg": "south-africa-flags--era-1994.svg",
+    "label": "South Africa"
+   },
+   "eras": [
+    [
+     1916,
+     1928,
+     "south-africa-flags--era-1910.svg",
+     "Britain and its colonies"
+    ],
+    [
+     1928,
+     1956,
+     "south-africa-flags--era-1928.svg",
+     "Britain and its colonies"
+    ],
+    [
+     1967,
+     1990,
+     "south-africa-flags--era-1928.svg",
+     "South Africa"
+    ]
+   ]
+  },
+  "La Paz, Uruguay": {
+   "today": {
+    "svg": "uruguay-flags--era-1830.svg",
+    "label": "Uruguay"
+   },
+   "eras": []
+  },
+  "Mal Abrigo, San Jose, Uruguay": {
+   "today": {
+    "svg": "uruguay-flags--era-1830.svg",
+    "label": "Uruguay"
+   },
+   "eras": []
+  },
+  "Mendoza": {
+   "today": {
+    "svg": "argentina-flags--era-1861.svg",
+    "label": "Argentina"
+   },
+   "eras": []
+  },
+  "Montevideo": {
+   "today": {
+    "svg": "uruguay-flags--era-1830.svg",
+    "label": "Uruguay"
+   },
+   "eras": []
+  },
+  "Navarrete, Logrono, Spain": {
+   "today": {
+    "svg": "spain-flags--era-1975.svg",
+    "label": "Spain"
+   },
+   "eras": []
+  },
+  "Northam, Devon": {
+   "today": {
+    "svg": "uk-flags--era-1922.svg",
+    "label": "the United Kingdom"
+   },
+   "eras": [
+    [
+     1707,
+     1801,
+     "uk-flags--era-1707.svg",
+     "Britain and its colonies"
+    ],
+    [
+     1801,
+     1832,
+     "uk-flags--era-1801.svg",
+     "Britain and its colonies"
+    ],
+    [
+     1843,
+     1922,
+     "uk-flags--era-1801.svg",
+     "Britain and its colonies"
+    ],
+    [
+     1922,
+     1990,
+     "uk-flags--era-1922.svg",
+     "Britain and its colonies"
+    ]
+   ]
+  },
+  "Pintos, Flores": {
+   "today": {
+    "svg": "uruguay-flags--era-1830.svg",
+    "label": "Uruguay"
+   },
+   "eras": [
+    [
+     1737,
+     1801,
+     "spain-flags--era-1716.svg",
+     "Spanish Empire"
+    ],
+    [
+     1836,
+     1990,
+     "uruguay-flags--era-1830.svg",
+     "Uruguay"
+    ]
+   ]
+  },
+  "San Eugenio, Artigas, Uruguay": {
+   "today": {
+    "svg": "uruguay-flags--era-1830.svg",
+    "label": "Uruguay"
+   },
+   "eras": [
+    [
+     1737,
+     1801,
+     "spain-flags--era-1716.svg",
+     "Spanish Empire"
+    ],
+    [
+     1836,
+     1990,
+     "uruguay-flags--era-1830.svg",
+     "Uruguay"
+    ]
+   ]
+  },
+  "San Jose de Mayo": {
+   "today": {
+    "svg": "uruguay-flags--era-1830.svg",
+    "label": "Uruguay"
+   },
+   "eras": []
+  },
+  "South Africa": {
+   "today": {
+    "svg": "south-africa-flags--era-1994.svg",
+    "label": "South Africa"
+   },
+   "eras": []
+  },
+  "Trinidad, Flores": {
+   "today": {
+    "svg": "uruguay-flags--era-1830.svg",
+    "label": "Uruguay"
+   },
+   "eras": [
+    [
+     1737,
+     1801,
+     "spain-flags--era-1716.svg",
+     "Spanish Empire"
+    ],
+    [
+     1836,
+     1990,
+     "uruguay-flags--era-1830.svg",
+     "Uruguay"
+    ]
+   ]
+  },
+  "Uruguay": {
+   "today": {
+    "svg": "uruguay-flags--era-1830.svg",
+    "label": "Uruguay"
+   },
+   "eras": [
+    [
+     1737,
+     1801,
+     "spain-flags--era-1716.svg",
+     "Spanish Empire"
+    ],
+    [
+     1836,
+     1990,
+     "uruguay-flags--era-1830.svg",
+     "Uruguay"
+    ]
+   ]
+  }
+ }
+}

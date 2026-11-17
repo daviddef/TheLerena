@@ -7,7 +7,7 @@ the row cannot mean anyone else by). Nothing is derived from the free text.
 
 Three things read it, and they read it through here so they cannot disagree:
   - site/src/data/corrections-by-person.json   (written by build-people.py): {slug: [{"d": date}, ...]}; the person page prints the
-    count and links each date to /corrections/#c-<date>.
+    count and links each date to the day's first entry on /corrections/ (site/src/lib/corrections-ids.js).
   - data/tree-page/tree.json `cx` (tools/build-tree-page.py): the number of correction rows that name the person. A COUNT ONLY,
     never what a correction says. Omitted when 0.
   - tools/check-corrections.py: every slug must be a built person page and not a living, held-out or noindex person; the JSON

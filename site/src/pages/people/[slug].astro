@@ -22,6 +22,7 @@ import directLine from "../../data/direct-line.json";
 import { birthEra } from "../../lib/eraYear.js";
 import eraSnapshot from "../../data/era-snapshot.json";
 import correctionsByPerson from "../../data/corrections-by-person.json";
+import { dayAnchor } from "../../lib/corrections-ids.js";
 export function getStaticPaths(){ return people.map(p => ({ params:{ slug:p.slug }, props:{ p } })); }
 const { p } = Astro.props;
 const hasEvidence = Array.isArray(p.evidence) && p.evidence.length > 0;
@@ -334,7 +335,7 @@ const CHART = STORYMODE ? "the family section above" : "the chart above";
       <PersonSection kind="more" title="Corrections">
         <p class="dek" id="corrections-about">This archive has recorded <strong>{corrDates.length}</strong> {corrDates.length === 1 ? "correction" : "corrections"} about this person. Each is dated and explained on
           <a href={u("/corrections/")}>the corrections page</a>:
-          {corrDays.map((d, i) => (<>{i ? " · " : " "}<a href={u(`/corrections/#c-${d}`)}>{corrPretty(d)}</a></>))}.</p>
+          {corrDays.map((d, i) => (<>{i ? " · " : " "}<a href={u(`/corrections/#${dayAnchor(d)}`)}>{corrPretty(d)}</a></>))}.</p>
       </PersonSection>
     )}
 

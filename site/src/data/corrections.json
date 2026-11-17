@@ -15,7 +15,13 @@
   "what_is_true": "She had been in data/taylor-line.tsv since 8 September, from David's own MyHeritage tree. What findmypast supplied was a citation - the baptism of 30 Oct 1884 at Northam, ref 1843A/PR/1/16 - not the fact.",
   "how_it_was_caught": "David: \"why is her mothers name new? its been in my myheritage tree forever.\"",
   "retired": "",
-  "who": "mary-ann-hellen-brayley"
+  "who": "mary-ann-hellen-brayley",
+  "for": [
+   [
+    "/people/mary-ann-hellen-brayley/",
+    "Mary Ann Hellen BRAYLEY"
+   ]
+  ]
  },
  {
   "date": "2026-09-09",
@@ -51,7 +57,13 @@
   "what_is_true": "Every other person on his record is Uruguayan, so the Rosario in question is Rosario, COLONIA, in Uruguay.",
   "how_it_was_caught": "Caught before it was published, by reading the rest of the record.",
   "retired": "",
-  "who": "gabino-l-llerena"
+  "who": "gabino-l-llerena",
+  "for": [
+   [
+    "/people/gabino-l-llerena/",
+    "Gabino L. LLERENA"
+   ]
+  ]
  },
  {
   "date": "2026-09-09",
@@ -69,7 +81,13 @@
   "what_is_true": "It IS him. The image reads \"Clase de 1882 / LERENA - Pablo Armando / hijo de JUAN CARLOS LERENA y de MARIA LERENA / Nacido en Rosario de Santa Fe / Oficina enroladora de CAPETOWN\". Three of the four objections were artefacts of a machine index that dropped \"Pablo\", moved him 1,400 km, wrote Lerena as Lorena, and invented the surname \"Serena\" out of the printed word SERIE.",
   "how_it_was_caught": "Opening the image. It took two minutes. *** This is the most serious error in the archive: the central finding of the project was nearly discarded. ***",
   "retired": "",
-  "who": "armand-o-lorena-pablo-armando-lerena"
+  "who": "armand-o-lorena-pablo-armando-lerena",
+  "for": [
+   [
+    "/people/armand-o-lorena-pablo-armando-lerena/",
+    "ARMAND[O] LORENA (as machine-indexed) = Pablo Armando LERENA"
+   ]
+  ]
  },
  {
   "date": "2026-09-10",
@@ -78,7 +96,13 @@
   "what_is_true": "CHAPPELL was her MARRIED name. She was Roseline Wilhelmina FORBES, widow of Frederick Christian Chappell. The 1936 register calls her \"Rosaline Wilhermina Forbes Chappell\" because that is what a remarrying widow is called.",
   "how_it_was_caught": "The 1920 Chappell-Forbes marriage, found in BOTH the civil and the Anglican registers, plus Chappell's own estate file.",
   "retired": "Rosalina Wilhelmina CHAPPELL",
-  "who": "roseline-wilhelmina-forbes"
+  "who": "roseline-wilhelmina-forbes",
+  "for": [
+   [
+    "/people/roseline-wilhelmina-forbes/",
+    "Roseline Wilhelmina FORBES (m.1 Chappell, m.2 LERENA)"
+   ]
+  ]
  },
  {
   "date": "2026-09-10",
@@ -141,7 +165,13 @@
   "what_is_true": "Two men. The Uruguayan record relied on gives the wife as EMA REGULES, and Ema Regules married JUAN ARTURO Lerena Traibel (1861-1936), whose children were born at Montevideo 1881-87. The Arturo in the drawer married AMALIA DIAZ and had children in La Pampa, Mendoza and Entre Rios 1889-97. The row is withdrawn and a \"four branches\" claim became three.",
   "how_it_was_caught": "Opening the FamilySearch Tree profile the record was attached to - going to the underlying record, which is the move this archive keeps having to relearn.",
   "retired": "",
-  "who": "juan-arturo-lerena-traibel"
+  "who": "juan-arturo-lerena-traibel",
+  "for": [
+   [
+    "/people/juan-arturo-lerena-traibel/",
+    "Juan Arturo LERENA Traibel"
+   ]
+  ]
  },
  {
   "date": "2026-09-13",
@@ -213,7 +243,17 @@
   "what_is_true": "*** SEVEN. *** Jose Julio, born 15 March 1879, and Candido Jaime, born 13 September 1884, were both missing. The five came from working outward from Julia's 1910 death certificate, which names five - and a death certificate is a list of the children who mattered to whoever registered the death, not a list of the children a woman bore. Found by searching the PARENTS' names directly instead.",
   "how_it_was_caught": "Doing the obvious search that had not been done: both parents' names, in one query, across every Uruguayan collection.",
   "retired": "",
-  "who": "don-luis-eugenio-lerena-lenguas;dona-julia-juanico"
+  "who": "don-luis-eugenio-lerena-lenguas;dona-julia-juanico",
+  "for": [
+   [
+    "/people/don-luis-eugenio-lerena-lenguas/",
+    "Don Luis Eugenio LERENA LENGUAS"
+   ],
+   [
+    "/people/dona-julia-juanico/",
+    "Dona Julia JUANICO"
+   ]
+  ]
  },
  {
   "date": "2026-09-13",
@@ -222,7 +262,17 @@
   "what_is_true": "It did not, and that row linked the Montevideo trunk to the Trinidad kindred when nothing links them. \"Luis x Julia, Emma Liseta 1876\" was read off a findmypast list that gives mothers BY FIRST NAME ONLY, so the Montevideo couple looked like a Trinidad couple. She is *** Emma Sixta Lerena Juanico, born and baptised at Montevideo *** - our own trunk. The note's own prose said eleven Trinidad children while its table showed twelve; nobody had reconciled the two.",
   "how_it_was_caught": "Testing the register's search box with the term its own placeholder suggested - \"Trinidad\" - and getting nothing back.",
   "retired": "",
-  "who": "don-luis-eugenio-lerena-lenguas;dona-julia-juanico"
+  "who": "don-luis-eugenio-lerena-lenguas;dona-julia-juanico",
+  "for": [
+   [
+    "/people/don-luis-eugenio-lerena-lenguas/",
+    "Don Luis Eugenio LERENA LENGUAS"
+   ],
+   [
+    "/people/dona-julia-juanico/",
+    "Dona Julia JUANICO"
+   ]
+  ]
  },
  {
   "date": "2026-09-13",
@@ -231,7 +281,13 @@
   "what_is_true": "*** 21 November 1876. *** Three independent records agree: her civil birth registration of 30 May 1903, the Uruguay Baptisms index, and her christening at the Montevideo Catedral on 8 January 1881. The c.1880 was derived from her stated age at her 1913 marriage, and an age at marriage is the weakest date in genealogy.",
   "how_it_was_caught": "Searching both parents' names, which returned all three records side by side.",
   "retired": "",
-  "who": "ema-sixta-lerena-juanico"
+  "who": "ema-sixta-lerena-juanico",
+  "for": [
+   [
+    "/people/ema-sixta-lerena-juanico/",
+    "Ema Sixta LERENA Juanico"
+   ]
+  ]
  },
  {
   "date": "2026-09-13",
@@ -249,7 +305,13 @@
   "what_is_true": "*** He is, and he died on 24 December 1901. *** Two sweeps were run and reported here as negatives - 1,502 Montevideo Lerena deaths for 1880-1911, and 132 Luis Lerena deaths for 1899-1903 - and this archive went so far as to write up the FamilySearch Tree's date of 1901 as a lead the registers appeared to contradict. The registers did not contradict it. THE INDEX DID: FamilySearch files him as \"Luis SERENA Lenguas\", so every search on the surname missed him. Found within the hour by searching his MOTHER, Justiniana Lenguas, instead.",
   "how_it_was_caught": "Searching on the rarest stable name in the household rather than on a surname that the clerks and the indexers between them spell Lerena, Lorena, Serena and Languas.",
   "retired": "",
-  "who": "don-luis-eugenio-lerena-lenguas"
+  "who": "don-luis-eugenio-lerena-lenguas",
+  "for": [
+   [
+    "/people/don-luis-eugenio-lerena-lenguas/",
+    "Don Luis Eugenio LERENA LENGUAS"
+   ]
+  ]
  },
  {
   "date": "2026-09-13",
@@ -258,7 +320,13 @@
   "what_is_true": "*** 23 November 1842. *** The 1844 was derived from her stated age of 66 on her 1910 death registration; she was 67. Her baptism of 4 October 1843 at San Francisco de Asis gives the date, and gives her mother in full as Juliana JOAQUINA Gonzalez.",
   "how_it_was_caught": "Searching her FATHER rather than her surname - the same move that found her husband's death the same evening.",
   "retired": "",
-  "who": "dona-julia-juanico"
+  "who": "dona-julia-juanico",
+  "for": [
+   [
+    "/people/dona-julia-juanico/",
+    "Dona Julia JUANICO"
+   ]
+  ]
  },
  {
   "date": "2026-09-13",
@@ -285,7 +353,13 @@
   "what_is_true": "*** Born 9 FEBRUARY 1843, on the act of his own baptism *** - the 1845 came from his stated age of 56 on his death registration, and an age at death is an estimate. And his brother is *** ALBERTO OCTAVIO ***, not Alberto Otario; the latter is how FamilySearch indexed a hand that plainly reads Octavio. Their sister, indexed as \"Justinia\", is JUSTINIANA MAURICIA MAXIMA.",
   "how_it_was_caught": "Opening the 1846 and 1850 baptism images instead of trusting the index that summarised them.",
   "retired": "Alberto Otario",
-  "who": "don-luis-eugenio-lerena-lenguas"
+  "who": "don-luis-eugenio-lerena-lenguas",
+  "for": [
+   [
+    "/people/don-luis-eugenio-lerena-lenguas/",
+    "Don Luis Eugenio LERENA LENGUAS"
+   ]
+  ]
  },
  {
   "date": "2026-09-13",
@@ -294,7 +368,13 @@
   "what_is_true": "He would have been *** FIFTEEN. *** All the record says is that she was in his household at the 1895 census; \"daughter\" was this archive's reading of a household, not the census's word. The row is left in place with the contradiction stated against it rather than quietly re-labelled.",
   "how_it_was_caught": "A new near-duplicate check in tools/consistency.py, which flagged her beside another Maria E. Lerena and made somebody read both rows.",
   "retired": "",
-  "who": "maria-e-c-lerena"
+  "who": "maria-e-c-lerena",
+  "for": [
+   [
+    "/people/maria-e-c-lerena/",
+    "Maria E. C. LERENA"
+   ]
+  ]
  },
  {
   "date": "2026-09-14",
@@ -321,7 +401,13 @@
   "what_is_true": "*** REOPENED WITHIN THE HOUR BY AN ORIGINAL ACT THAT SAYS FRANCISCO. *** I argued that Luis Lerena's father is Sancho on three original acts, against two 1846 entries reading Francisco which say of themselves that they are later transcripts - and concluded the conflict was only copies against originals. Then the Catedral baptism of Justa Pastora Lerena's second child, October 1833, turned up naming her parents \"FRANCISCO LERINA y Maria Fernandez\". That is an ORIGINAL. The tidy argument does not survive it. *** What IS constant across every record and both spellings is MARIA FERNANDEZ, the wife. *** A double forename - Sancho Francisco - would explain everything without anyone being wrong, and is now the leading reading. Sancho's own marriage act, never opened, would settle it.",
   "how_it_was_caught": "Following a new sister, Justa Pastora Lerena, to her second child - and reading the grandparents line instead of stopping at the one that agreed with me.",
   "retired": "",
-  "who": "sancho-llerena-aguilar"
+  "who": "sancho-llerena-aguilar",
+  "for": [
+   [
+    "/people/sancho-llerena-aguilar/",
+    "Sancho LLERENA Aguilar"
+   ]
+  ]
  },
  {
   "date": "2026-09-14",
@@ -348,7 +434,13 @@
   "what_is_true": "*** OVERSTATED, AND WITHDRAWN AS EVIDENCE WITHIN THE HOUR. *** The schedule does read \"Lerena de L. Josefa\", and the \"de L.\" is formed exactly as on the two lines above - that part was read correctly. The INFERENCE was too confident: \"de L.\" can equally be the enumerator shorthand for THIS HOUSEHOLD, written against every married woman in the Lerena house. Uruguayan civil registration then turned up a JOSEFA LERENA married to FERNANDO MORATORIO, whom FamilySearch's tree attaches to Josefa Lerena Traibel 1851-1947 - the same candidate. If that is her, she was \"de Moratorio\" and the census tells us nothing about a Lerena-Lerena marriage. *** The claim was published as \"the sharpest question in the project\" on the strength of an abbreviation. ***",
   "how_it_was_caught": "Searching for the marriage I had just said would settle it, instead of stopping at the reading that suited me.",
   "retired": "",
-  "who": "josefa-lerena-traibel"
+  "who": "josefa-lerena-traibel",
+  "for": [
+   [
+    "/people/josefa-lerena-traibel/",
+    "Josefa LERENA TRAIBEL (1851-1947)"
+   ]
+  ]
  },
  {
   "date": "2026-09-14",
@@ -366,7 +458,13 @@
   "what_is_true": "*** He is, and it does - settled the same day on a parish act. *** Two baptisms of 12 March 1858 at San Francisco de Asis name the paternal grandparents of Avelino's children as SANCHO LERENA and MARIA FERNANDEZ, twice on one page. So the whole Lerena Traibel line descends from Sancho - including several people already floating unattached in this register: Mercedes Micaela and Clorinda in the dispensation table, and JUAN ARTURO, the man this archive conflated with another Arturo in its first week and had to retract.",
   "how_it_was_caught": "Searching AVELINO with AMBROSIA - the couple, not the surname.",
   "retired": "",
-  "who": "avelino-lerena-fernandez"
+  "who": "avelino-lerena-fernandez",
+  "for": [
+   [
+    "/people/avelino-lerena-fernandez/",
+    "Avelino LERENA Fernandez (son of Sancho)"
+   ]
+  ]
  },
  {
   "date": "2026-09-14",
@@ -375,7 +473,13 @@
   "what_is_true": "I noticed the echo and flagged it as worth testing. *** It is nothing: he is named for his GODFATHER, JUSTINIANO LAVALLEJA, who is on the same line of the same act. *** A tidy connection between the branches that would have been entirely wrong, and the act that raised it also killed it.",
   "how_it_was_caught": "Reading the whole act instead of stopping at the name.",
   "retired": "",
-  "who": "alfredo-justiniano-lerena-traibel"
+  "who": "alfredo-justiniano-lerena-traibel",
+  "for": [
+   [
+    "/people/alfredo-justiniano-lerena-traibel/",
+    "Alfredo Justiniano LERENA Traibel"
+   ]
+  ]
  },
  {
   "date": "2026-09-14",
@@ -402,7 +506,13 @@
   "what_is_true": "*** 9 FEBRUARY 1845. *** The act is a late copy from a legajo, and it is contradicted twice: his sister Justiniana Mauricia's act, the entry immediately above his in the same hand, gives her birth as 30 July 1843 - five and a half months before him; and his civil death registration of 24 December 1901 gives his age as FIFTY-SIX, putting his birth at about 1845. The clerk wrote \"ano cuarenta y tres\" in the entry above and again in the entry below. A year carried down a column is the ordinary way this happens, and 1845 is the only reading under which all three records stand.",
   "how_it_was_caught": "The consistency checker, once it was fixed to see people without a structured parent field. It flagged the five-month gap on the first run after the fix. *** The archive then went looking for a third record to break the tie rather than choosing between the two. ***",
   "retired": "9 February 1843",
-  "who": "don-luis-eugenio-lerena-lenguas"
+  "who": "don-luis-eugenio-lerena-lenguas",
+  "for": [
+   [
+    "/people/don-luis-eugenio-lerena-lenguas/",
+    "Don Luis Eugenio LERENA LENGUAS"
+   ]
+  ]
  },
  {
   "date": "2026-09-14",
@@ -420,7 +530,17 @@
   "what_is_true": "*** HE IS HORACE ARCHIBALD TAYLOR and she is MARY JANE MARSHALL. *** Banns called at Northam, Devon, on 17 December 1893, when he was twenty-one - the earliest marriage of the ten siblings. The tree had the forenames right and the surname wrong, and the archive's question mark was warranted.",
   "how_it_was_caught": "Searching the Devon parish registers instead of trusting the tree. *** The same pass named five brothers-in-law this archive had recorded only as bare surnames - \"m. Dalling\", \"m. Bell\", \"m. Burton\", \"m. Sweet\", \"m. Wood\" - and it took under an hour. ***",
   "retired": "",
-  "who": "horace-archibald-taylor;mary-jane-marshall"
+  "who": "horace-archibald-taylor;mary-jane-marshall",
+  "for": [
+   [
+    "/people/horace-archibald-taylor/",
+    "Horace Archibald TAYLOR"
+   ],
+   [
+    "/people/mary-jane-marshall/",
+    "Mary Jane MARSHALL"
+   ]
+  ]
  },
  {
   "date": "2026-09-14",
@@ -456,7 +576,17 @@
   "what_is_true": "*** THE BANNS ARE REAL; THE MARRIAGE IS NOT EVIDENCED. *** Banns are an intention to marry. FreeBMD holds NO Horace Taylor marriage in volume 5b - the whole of Devon - between 1893 and 1895. He may have married elsewhere, later, or not to her. *** AND A DECOY NEARLY SETTLED IT THE WRONG WAY: *** a \"Taylor, Horace\" married a MARSHALL in the same quarter at BOSMERE, SUFFOLK (4a 1487), which would have neatly explained his absence from every Devon census - until the page was read directly and gave the bride as LAURA EMILY MARSHALL, not Mary Jane. Two Taylor-Marshall marriages, one quarter, two counties, two brides.",
   "how_it_was_caught": "Reading the volume and page directly instead of trusting the spouse-surname match. *** Before 1912 the GRO index does not print the spouse: FreeBMD infers it from a shared page, so a \"match\" is an inference and two couples of the same surnames in one quarter will produce a false one. *** FreeBMD is also explicitly incomplete, so the Devon null is softer than the others recorded today.",
   "retired": "",
-  "who": "horace-archibald-taylor;mary-jane-marshall"
+  "who": "horace-archibald-taylor;mary-jane-marshall",
+  "for": [
+   [
+    "/people/horace-archibald-taylor/",
+    "Horace Archibald TAYLOR"
+   ],
+   [
+    "/people/mary-jane-marshall/",
+    "Mary Jane MARSHALL"
+   ]
+  ]
  },
  {
   "date": "2026-09-14",
@@ -546,7 +676,13 @@
   "what_is_true": "Written twice this session, and wrong. The 1812 PADRON is later and is an enumeration of the living: it returns him at calle San Juan No 60, household 59, as Sancho 'andaluz', 45. So the last document that shows him alive is 1812, not 1798, and the unaccounted gap before the trees' death date of 1832 is twenty years rather than thirty-four.",
   "how_it_was_caught": "Caught by listing all fourteen records that name him and marking which ones require him to have been standing there.",
   "retired": "",
-  "who": "sancho-llerena-aguilar"
+  "who": "sancho-llerena-aguilar",
+  "for": [
+   [
+    "/people/sancho-llerena-aguilar/",
+    "Sancho LLERENA Aguilar"
+   ]
+  ]
  },
  {
   "date": "2026-09-16",
@@ -609,7 +745,13 @@
   "what_is_true": "*** They do not, and the disagreement is nine years. *** The Argentine passport and the 1908 enrolment card both give 22 February 1882, which makes him 68 when he died on 19 March 1950. *** The death NOTICE says \"77 years - approx\". The death CERTIFICATE says \"76 years\". *** Both South African documents put him in his mid-seventies, and they agree with each other. *** Neither was completed by anyone who knew him: *** the notice by Rose Lilian Theys, no relation, and the certificate by W. Fraser, an undertaker whose stated qualification is \"causing burial\". The simplest reading is that strangers guessed high, which is what strangers do - and it is recorded rather than smoothed, because in the same folder somebody had filed a Buenos Aires baptism of 1872 for a ROBERTO JUAN ROQUE LLORENS, whose age would fit.",
   "how_it_was_caught": "Found on the folder sweep. The archive had transcribed the death notice's other fields this morning and had not stopped at the age.",
   "retired": "",
-  "who": "roberto-juan-roque-llorens"
+  "who": "roberto-juan-roque-llorens",
+  "for": [
+   [
+    "/people/roberto-juan-roque-llorens/",
+    "Roberto Juan Roque LLORENS"
+   ]
+  ]
  },
  {
   "date": "2026-09-16",
@@ -618,7 +760,13 @@
   "what_is_true": "*** Wrong, and it was an inference this archive had no business making. *** The image sat in a folder with no note attached, and this archive wrote that \"somebody pulled that deliberately\". *** David says it arrived unsolicited, in the mail, from a researcher in Argentina, and that he regards it as likely no relation. *** The document is kept and the working is kept, because the archive had already reached the same verdict from the documents before he said so - and because *** the name has leaked into the MyHeritage family tree, where he is entered as \"Roberto Paul (Llorens) Lerena\" ***, so the reading is in circulation and is better refuted in public than left to drift.",
   "how_it_was_caught": "David said so, plainly, when he read the page. *** The lesson is narrow and worth keeping: a file with no note attached tells you nothing about why it is there, and this archive invented a motive to fill the gap. ***",
   "retired": "",
-  "who": "roberto-juan-roque-llorens"
+  "who": "roberto-juan-roque-llorens",
+  "for": [
+   [
+    "/people/roberto-juan-roque-llorens/",
+    "Roberto Juan Roque LLORENS"
+   ]
+  ]
  },
  {
   "date": "2026-09-16",
@@ -762,7 +910,13 @@
   "what_is_true": "*** SHE WAS PROVED ON 14 SEPTEMBER AND I DID NOT LOOK. *** The register already held *** DOMINGA JOSEFA LLERENA FERNANDEZ, b. 13 May 1804 ***, daughter of Sancho, wife of *** CAPITAN DON ANTONIO RUIZ DE CARVALLO ***, on the Catedral act of 12 May 1827 - which names her as 'Dona Dominga Llerena de Carvallo' and baptises the very *** LUCINDA *** who appears beside her in the census. *** The duplicate has been removed and its evidence folded into the existing person. *** *** The sting: one hour earlier I declined to add three children of household 97 precisely because they might duplicate people already here - and then created exactly that duplicate by not checking. *** The census and the 1862 Rio de Janeiro marriage remain genuine additions.",
   "how_it_was_caught": "Caught while chasing which parish register rows 167 and 168 were blocked on.",
   "retired": "",
-  "who": "dominga-josefa-llerena-fernandez"
+  "who": "dominga-josefa-llerena-fernandez",
+  "for": [
+   [
+    "/people/dominga-josefa-llerena-fernandez/",
+    "Dominga Josefa LLERENA Fernandez (b.1804)"
+   ]
+  ]
  },
  {
   "date": "2026-09-20",
@@ -771,7 +925,13 @@
   "what_is_true": "*** HE MAY WELL BE IN IT. *** Line 6 of that schedule reads *** \"Salvanach Lerena, GILBERTO\", varon, 17, soltero, R. Oriental *** - the eldest son, born 1877 or 1878 against the arrival's 1879, already in this register as Gilberto LERENA Salvanach (the younger). The schedule had been read as a household on 14 September and the objection was never checked against it. *** The two rows are now cross-referenced and the test named; they are NOT merged, because both are index-level. ***",
   "how_it_was_caught": "The duplicate gate flagged the pair, and working the backlog meant reading the household file that the objection rested on",
   "retired": "Not in the 1895 census household of Gilberto (1854)",
-  "who": "gilberto-lerena-salvanach"
+  "who": "gilberto-lerena-salvanach",
+  "for": [
+   [
+    "/people/gilberto-lerena-salvanach/",
+    "Gilberto LERENA Salvanach (the younger, b.1878)"
+   ]
+  ]
  },
  {
   "date": "2026-09-20",
@@ -807,7 +967,13 @@
   "what_is_true": "*** BORN 2 OCTOBER 1856, ON THE ACT THIS ARCHIVE HAD ALREADY READ. *** Re-read off the image on 20 September - film 007713686 image 2847 - it says *** \"que nacio el dia DOS de OCTUBRE ... cincuenta y seis\" ***. The baptism date had been written into the birth column. *** AND THE AGE WAS NEVER ODD: *** a man born 2 October 1856 is exactly THIRTY-FIVE on 3 February 1892, which is what he told the priest. The record agreed with itself the whole time.",
   "how_it_was_caught": "A FamilySearch search run for an unrelated reason printed \"Birth 2 October 1856\" beside the christening of 12 March 1858",
   "retired": "1858-03 (baptised 12 March 1858)",
-  "who": "alfredo-justiniano-lerena-traibel"
+  "who": "alfredo-justiniano-lerena-traibel",
+  "for": [
+   [
+    "/people/alfredo-justiniano-lerena-traibel/",
+    "Alfredo Justiniano LERENA Traibel"
+   ]
+  ]
  },
  {
   "date": "2026-09-20",
@@ -816,7 +982,17 @@
   "what_is_true": "*** BORN 14 JANUARY 1855 - and they are twenty-one months apart. *** Her own act, on the same opening, reads *** \"que nacio el dia CATORCE de ENERO ... cincuenta y cinco\" ***. She was carried to the font at THREE YEARS OLD and her brother at seventeen months. *** \"Probably twins\" was an inference from a shared baptism date and the acts refute it *** - this family baptised in batches, years late, and did it at La Mauricia in 1846 as well. The same inference is attached to the two MORATORIO girls of 1880 and is now flagged there as untested.",
   "how_it_was_caught": "Reading the second act on an image already open for the first",
   "retired": "probably twins",
-  "who": "ana-rosario-lerena-traibel;alfredo-justiniano-lerena-traibel"
+  "who": "ana-rosario-lerena-traibel;alfredo-justiniano-lerena-traibel",
+  "for": [
+   [
+    "/people/ana-rosario-lerena-traibel/",
+    "Ana Rosario LERENA Traibel"
+   ],
+   [
+    "/people/alfredo-justiniano-lerena-traibel/",
+    "Alfredo Justiniano LERENA Traibel"
+   ]
+  ]
  },
  {
   "date": "2026-09-20",
@@ -825,7 +1001,21 @@
   "what_is_true": "*** SEVEN ROWS WERE FOUR PEOPLE. *** The archive had done every identification and none of the merges: one note read *** \"two independent sources, same couple\" ***, another *** \"see the CEMLA row for the same man\" ***, a third *** \"the 'Rosa M. E. Lerena' of the CEMLA list\" ***. The arithmetic confirms the hardest of them - the Retiro act of 25 March 1914 calls him *** \"de treinta anos\" ***, and a man born 9 July 1883 is exactly thirty that March. *** AND THE EDGES WERE WORSE THAN THE ROWS: *** relations.tsv made him the husband of ADELA CAMIGLIA and father of AVELINO CARLOS at Mendoza, which the Rosa Maria Eppens row had explicitly denied since 14 September - *** \"two men, one name, and the register now says so on both rows.\" *** It said so on the rows and nothing told the edges. The Mendoza man now has a row of his own, and they point at him.",
   "how_it_was_caught": "Working the duplicate backlog pair by pair, which is what that backlog is for",
   "retired": "",
-  "who": "carlos-augusto-federico-lerena-salvanach;rosa-maria-eppens;avelino-carlos-lerena"
+  "who": "carlos-augusto-federico-lerena-salvanach;rosa-maria-eppens;avelino-carlos-lerena",
+  "for": [
+   [
+    "/people/carlos-augusto-federico-lerena-salvanach/",
+    "Carlos Augusto Federico LERENA Salvanach (b. 9 July 1883)"
+   ],
+   [
+    "/people/rosa-maria-eppens/",
+    "Rosa Maria EPPENS"
+   ],
+   [
+    "/people/avelino-carlos-lerena/",
+    "Avelino Carlos LERENA (b.1904, Mendoza)"
+   ]
+  ]
  },
  {
   "date": "2026-09-20",
@@ -834,7 +1024,13 @@
   "what_is_true": "*** THEY ARE 8, 6, 5, 2. MARIA A. IS EIGHT. *** Read off the image at magnification on 20 September, film 004149111 image 8. *** AND THAT ONE DIGIT SETTLED TWO IDENTIFICATIONS. *** At six, Maria A. could not be MARIA ANGELICA JULIA LERENA SALVANACH, baptised 31 October 1886; at eight she is exactly that. MARIA C., six, is MARIA CARLOTA, baptised at about a year old on 29 October 1890 - and her nacion column reads ARGENTINA, which is what that baptism row has always claimed for her. Both are merged, with LUIS F. and CARLOS A. earlier the same day. *** The enumerator wrote initials and the priest wrote names, and this archive held four of these children twice. ***",
   "how_it_was_caught": "Working the duplicate backlog: two pairs were blocked on a single digit, so the image was opened",
   "retired": "",
-  "who": "maria-angelica-julia-lerena-salvanach"
+  "who": "maria-angelica-julia-lerena-salvanach",
+  "for": [
+   [
+    "/people/maria-angelica-julia-lerena-salvanach/",
+    "Maria Angelica Julia LERENA Salvanach"
+   ]
+  ]
  },
  {
   "date": "2026-09-21",
@@ -843,7 +1039,13 @@
   "what_is_true": "*** BOTH RETURN TWO NOW, AND THE SECOND IS HIM. *** Re-run 21 September while testing the exact-forename trap: *** \"Juan Carlos Lerena, Father, Argentina Military Records 1911-1936, spouse MARIA LERENA, child PABLO ARMANDO LERENA\" *** - ark 1:1:6TH8-DVXH, which is the 1908 enrolment card and a record THIS ARCHIVE HAS CITED SINCE IT FOUND IT. *** NOTHING WAS WRONG WITH THE SEARCHES. *** The Argentina Military Records index has since gained the card; its FamilySearch citation reads 16 September 2026, the day after the test. *** WHAT DOES NOT CHANGE: *** Juan Carlos still has no record of his own - no birth, no marriage, no death - and the new hit is his son's record naming him as a father. *** WHAT DOES: *** he is findable by name now, and the index places him at \"Rosario de Lerma, SALTA\", the error this archive corrected on 13 September.",
   "how_it_was_caught": "Re-running the central null in the fuzzy-forename/exact-surname shape, which is work list row 157 - the trap sweep found the archive's own document instead",
   "retired": "",
-  "who": "juan-carlos-lerena"
+  "who": "juan-carlos-lerena",
+  "for": [
+   [
+    "/people/juan-carlos-lerena/",
+    "Juan Carlos LERENA"
+   ]
+  ]
  },
  {
   "date": "2026-09-21",
@@ -852,7 +1054,17 @@
   "what_is_true": "*** SHE IS OURS, and the candidate was the wrong man. *** Alberto Lerena's own Montevideo death registration of 2 March 1921, certificate 246, names his wife MARIA INES LARRIERA and his parents AVELINO LERENA and AMBROSIA TREIBEL. So Zelmira's father is PEDRO ALBERTO YSABELINO LERENA TRAIBEL, baptised at the Aguada on 21 November 1852, and she is a GREAT-GRANDDAUGHTER OF SANCHO - through Avelino, not through Luis. *** The row was right that the question turned on her father and right to refuse the guess; it was wrong to write off the person while the question was open. *** Seven brothers and sisters of hers were entered the same day. *** THE LINK WAS INDEX-LEVEL FOR ABOUT AN HOUR. *** The 1921 image was opened the same day - film 008165205 image 01604 - and reads 'Que el finado era hijo de AVELINO LERENA, fallecido, y de AMBROSIA TREIBEL, fallecida', and then counts NUEVE HIJOS and names them. So the retraction above stands on an image, and the act supplied a NINTH child the index never showed. See data/alberto-lerena-larriera.tsv.",
   "how_it_was_caught": "",
   "retired": "",
-  "who": "zelmira-carlota-lerena-larriera;alberto-octavio-lerena-lenguas"
+  "who": "zelmira-carlota-lerena-larriera;alberto-octavio-lerena-lenguas",
+  "for": [
+   [
+    "/people/zelmira-carlota-lerena-larriera/",
+    "Zelmira Carlota LERENA LARRIERA (m. Adolfo CORDERO)"
+   ],
+   [
+    "/people/alberto-octavio-lerena-lenguas/",
+    "Alberto Octavio LERENA LENGUAS"
+   ]
+  ]
  },
  {
   "date": "2026-09-21",
@@ -861,7 +1073,25 @@
   "what_is_true": "*** ALL THREE SURNAMES ARE WRONG, AND THE FAULT IS THIS ARCHIVE'S OWN RULE, UNKEPT. *** The 1892 marriage act was recorded as FULL-TEXT TRANSCRIPT READ - a MACHINE transcript - and the image was never opened, which is the one thing this archive says it always does. The image was opened on 21 September 2026: film 007713383, image 02601, folio 340. It reads *** 'hija legitima de Don GERONIMO GAVAZZO y Dona CAROLINA SUAREZ' ***. *** So she is a GAVAZZO and her mother a SUAREZ. *** It is corroborated by a second image forty-eight years later - her own Montevideo death registration of 20 June 1940, which writes her HERMENEGILDA GAVAZZO DE LERENA with the same two parents. Two images against one machine transcript. *** GAVAZZO is a known Montevideo surname and GAVARRO is not, which is exactly the kind of tell that should have prompted the check earlier. ***",
   "how_it_was_caught": "",
   "retired": "Gavarro",
-  "who": "alfredo-justiniano-lerena-traibel;don-geronimo-gavazzo;hermenegilda-carolina-gavazzo;dona-carolina-suarez"
+  "who": "alfredo-justiniano-lerena-traibel;don-geronimo-gavazzo;hermenegilda-carolina-gavazzo;dona-carolina-suarez",
+  "for": [
+   [
+    "/people/alfredo-justiniano-lerena-traibel/",
+    "Alfredo Justiniano LERENA Traibel"
+   ],
+   [
+    "/people/don-geronimo-gavazzo/",
+    "Don Geronimo GAVAZZO"
+   ],
+   [
+    "/people/hermenegilda-carolina-gavazzo/",
+    "Hermenegilda Carolina GAVAZZO (de LERENA)"
+   ],
+   [
+    "/people/dona-carolina-suarez/",
+    "Dona Carolina SUAREZ"
+   ]
+  ]
  },
  {
   "date": "2026-09-21",
@@ -870,7 +1100,13 @@
   "what_is_true": "*** SHE WAS NATURAL DE ASTURIAS, and this archive had known it for a week without changing the row. *** The 1811 baptism of her son Luis Escolastico reads 'y de D.a MARIA [Fernandez] nat.l de ASTURIAS'. data/1811-luis-baptism-act.tsv recorded that on 14 September 2026; the register was never updated, so the correction existed and never propagated - the exact fault this archive has a standing rule about. *** IT ALSO CHANGES THE FAMILY'S SHAPE: both halves of Sancho's household were SPANISH IMMIGRANTS, from opposite ends of Spain *** - Andalusia and Asturias - meeting at Montevideo. And her parents RODRIGO FERNANDEZ and ROSA FERNANDEZ, named on the same act, had never been entered as people either. Read off the plate 21 September 2026: film 007713375 image 02410.",
   "how_it_was_caught": "",
   "retired": "",
-  "who": "dona-maria-fernandez-tresguerras"
+  "who": "dona-maria-fernandez-tresguerras",
+  "for": [
+   [
+    "/people/dona-maria-fernandez-tresguerras/",
+    "Dona Maria FERNANDEZ TRESGUERRAS (wife of Sancho)"
+   ]
+  ]
  },
  {
   "date": "2026-09-21",
@@ -897,7 +1133,13 @@
   "what_is_true": "*** SEGUEIRA, and the sentence says LERENA throughout. *** Read off film 008165116 image 01442: 'el finado era hijo de PEDRO LERENA y JOSEFA SEGUEIRA, orientales, finados. Abuelos [paternos] FIDEL LERENA y MARIA RUEDAS: maternos JOSE SEGUEIRA y RAMONA...'. *** LORENA is the MARGIN HEADING - 'Num. 622 Victor Lorena' - which is the clerk's index entry and not the text. *** This archive read a margin as though it were the sentence, and built a claim about the family's spelling on it. The confusion of L and Ll in this family is real; this instance of it was not. The plate also gave a cause of death the transcript never carried - TUBERCULOSIS PULMONAR - and two people nobody had entered, JOSE SEGUEIRA and RAMONA.",
   "how_it_was_caught": "",
   "retired": "JOSEFA SEGUERA",
-  "who": "victor-lerena"
+  "who": "victor-lerena",
+  "for": [
+   [
+    "/people/victor-lerena/",
+    "Victor LERENA (d.1889, alpargatero)"
+   ]
+  ]
  },
  {
   "date": "2026-09-21",
@@ -906,7 +1148,13 @@
   "what_is_true": "*** THE PLATE SAYS LERENA. *** Film 007713376 images 01176-01177, read 21 September 2026: 'Padrinos ABELINO LERENA y DOMINGA LERENA'. *** The S-for-L was the MACHINE'S, not the record's *** - the third assertion about this family's spelling to turn out that way in one day, after the LORENA of Victor Lerena's 1889 margin and the FRUCTUOSO RIVERA printed over the 1831 act's own FRUTUSO RIBERA. The confusion of L, Ll and S in these registers is real and documented elsewhere; these three instances of it were not in the registers at all.",
   "how_it_was_caught": "",
   "retired": "",
-  "who": "abelino-lerena"
+  "who": "abelino-lerena",
+  "for": [
+   [
+    "/people/abelino-lerena/",
+    "Abelino LERENA (godfather, 1833)"
+   ]
+  ]
  },
  {
   "date": "2026-09-21",
@@ -924,7 +1172,13 @@
   "what_is_true": "*** ALL THREE WERE FALSE, AND THIS ARCHIVE'S OWN FILE AND ITS OWN HYPOTHESES PAGE ALREADY SAID SO. *** The 1846 La Mauricia acts were READ OFF THE IMAGE by this archive and say FRANCISCO; the count is SIX saying Sancho against THREE saying Francisco; and the readings split ACROSS methods rather than along them. *** The note was written without reading data/sancho-or-francisco.tsv, which had settled the question a week earlier and better *** - the position being that a DOUBLE FORENAME is the reading that requires nobody to be wrong. *** WHAT THE DAY ACTUALLY ADDED IS WORTH MORE THAN WHAT IT GOT WRONG: *** the 1833 act was read off the plate - film 007713376 images 01176-01177, 'Fran.co Lerenas y M.a Fernandez' - so the one Francisco-bearing ORIGINAL is no longer possibly a machine artefact, and the double-forename reading is stronger than it was.",
   "how_it_was_caught": "",
   "retired": "",
-  "who": "sancho-llerena-aguilar"
+  "who": "sancho-llerena-aguilar",
+  "for": [
+   [
+    "/people/sancho-llerena-aguilar/",
+    "Sancho LLERENA Aguilar"
+   ]
+  ]
  },
  {
   "date": "2026-09-21",
@@ -942,7 +1196,13 @@
   "what_is_true": "*** NO ARGENTINE RECORD CONFIRMS IT, BECAUSE NONE OF THEM STATES HIS AGE. *** All four Capital Federal records for this man were opened on 22 September 2026 - the baptisms of Elisa Cornelia, Carmen Romualda and Maria Luisa, and the marriage of his son Hector - and *** EVERY ONE OF THEM LEAVES THE FATHER'S AGE BLANK ***, while giving the MOTHER's (Julia Bassani, 40 years in 1905 and 39 in 1907). The 1839 is a FAMILY TREE VALUE carried from PID KZ2N-84J and re-graded as a record on the way in. *** AND IT IS FIVE YEARS OUT. *** Two Montevideo birth acts of his own children, read off the plate the same day, take his age from his own mouth: *** \"de cuarenta y dos anos de edad\" on 6 November 1886 and \"de 43 anos de edad\" on 16 March 1888 ***, which puts his birth between 17 March and 6 November 1844.",
   "how_it_was_caught": "*** BY ASKING WHERE A NUMBER CAME FROM. *** The tier said PRIMARY (indexed), so the index was opened to see the entry - and the field was empty. A tier is a claim about a source and it can be checked by opening the source, which is the only thing that ever checks one.",
   "retired": "",
-  "who": "alejandro-m-lerena"
+  "who": "alejandro-m-lerena",
+  "for": [
+   [
+    "/people/alejandro-m-lerena/",
+    "Alejandro M. LERENA (m.1 Elisa VILLADEMOROS; m.2 Julia BASSANI)"
+   ]
+  ]
  },
  {
   "date": "2026-09-22",
@@ -951,7 +1211,13 @@
   "what_is_true": "*** HE DIED ON 22 AUGUST 1890 AT MONTEVIDEO, AND WAS REGISTERED THE NEXT DAY. *** That is what his own register row says, and data/last-attested-alive.tsv, data/1852-aguada-union-certificates.tsv and data/alberto-lerena-larriera.tsv all say the 22nd. *** THE 23rd IS THE REGISTRATION DATE *** and \"La Paz, Canelones\" appears nowhere in this archive outside one row of data/montevideo-lerena-trunk.tsv - a FamilySearch tree file whose own header reads \"TIER: SECONDARY THROUGHOUT ... no row here may be cited as fact\". The page cited it as fact. *** AND HE IS THE EIGHTH OF EIGHT CHILDREN, not the seventh *** - the reconciled list runs 1793, 1795, 1799, 1800, 1804, 1806, 1811, 1815 - or the seventh of seven if FIDEL, the only one of them attested at second hand, is set aside. There is no count under which \"seventh of eight\" was right.",
   "how_it_was_caught": "*** BY AUDITING THE HAND-WRITTEN LADDERS AFTER A SECOND ONE FAILED THE SAME DAY. *** Gen 4 of this same spine had just been corrected for asserting \"Alejandro Maximo (1839-1903)\". tools/check-inline.py had been reporting all three ladders for days as \"reachable only by editing the page\" and nothing gated them. *** ALL THREE ARE NOW GENERATED FROM data/descent-spines.tsv ***, so the checks that read data can reach them.",
   "retired": "La Paz, Canelones",
-  "who": "avelino-lerena-fernandez"
+  "who": "avelino-lerena-fernandez",
+  "for": [
+   [
+    "/people/avelino-lerena-fernandez/",
+    "Avelino LERENA Fernandez (son of Sancho)"
+   ]
+  ]
  },
  {
   "date": "2026-09-27",
@@ -960,7 +1226,13 @@
   "what_is_true": "*** THE ARGUMENT WAS BACKWARDS AND THE FACT WAS WRONG. *** Being a WIDOWER in 1886 does not separate a man from a wife he had in 1872 - it is precisely what a first marriage leaves behind. The strongest link in the evidence was written down as the objection to it. *** AND A RECORD DOES JOIN THEM: *** the Iglesia Matriz christening of 29 September 1872, read off film 004298263 image 03147 on 27 September 2026, gives the godparents as \"ALEJANDRO M. LERENA y ELISA VILLADEMOROS\". The M. is carried by no other Alejandro in this register. *** THEY ARE STILL NOT MERGED *** - an initial and a wife is not proof, and this archive has merged on less and been wrong - but the pair declaration now says the right thing, and names the two records that would settle it.",
   "how_it_was_caught": "*** BY OPENING A PLATE THE INDEX HAD DATED 1919. *** The record surfaced in a search for a Montevideo marriage and looked like a 1919 christening with Alejandro M. Lerena as a godfather. The act is 1872; the 1919 is the certificate. Had the index date been believed, the record would have been discarded as a man too old to be ours.",
   "retired": "",
-  "who": "alejandro-m-lerena"
+  "who": "alejandro-m-lerena",
+  "for": [
+   [
+    "/people/alejandro-m-lerena/",
+    "Alejandro M. LERENA (m.1 Elisa VILLADEMOROS; m.2 Julia BASSANI)"
+   ]
+  ]
  },
  {
   "date": "2026-10-08",
@@ -969,7 +1241,13 @@
   "what_is_true": "*** TWO OF THE THREE ARE AT MAITLAND ROAD CEMETERY, IN GRAVE 7719. *** The Record of Interments, page 4706 entry 423, puts CAREEN MARIA LERENA, aged two weeks, in Roman Catholic allotment, Cons. No. 1, grave 7719. This archive already held MARY SEPTIMA TAYLOR at \"Maitland Road Cemetery interment register p.3215 entry 163, Nov 1935 ... Cemetery no 1, grave 7719A\". *** Same cemetery, same allotment, same number. *** The likeliest source of the error is that PABLO ARMANDO DIED at Newlands, which is a different Cape Town suburb from Maitland. *** AND LATER THE SAME DAY IT WAS CORRECTED THE REST OF THE WAY. *** This row first said 'what is not corrected: whether he is in that grave. He died in 1950 and this opening is 1947, so this page cannot say.' The 1950 volume was then found and read. *** HE IS IN IT. *** Maitland Road Cemetery, Record of Interments, page 339 entry 327: LERENA, Robert Paul, M.E., 76, of Newlands, 7 Forth Road, Roman Catholic, Cemetery No. 1, *** grave 7719 C ***, 8 feet, Father Plotton, undertaker Goodall & Wms - and in the last column, *** 'In Plot of R. P. Lerina' ***. *** SO THE FAMILY WERE RIGHT ABOUT EVERYTHING EXCEPT THE CEMETERY. *** Three people, one grave, unmarked but for the surname: A, B and C of plot 7719, which was his own. They were told Newlands and it is Maitland.",
   "how_it_was_caught": "*** BY DAVID SENDING THE REGISTER PAGE. *** The archive had the family's account of the grave and its own citation for Mary Septima's burial, and had never put the two side by side - the grave number it already held, 7719A, was sitting in the register beside a cemetery name that contradicted the story.",
   "retired": "",
-  "who": "careen-maria-lerena"
+  "who": "careen-maria-lerena",
+  "for": [
+   [
+    "/people/careen-maria-lerena/",
+    "Careen Maria LERENA"
+   ]
+  ]
  },
  {
   "date": "2026-10-08",
@@ -978,7 +1256,13 @@
   "what_is_true": "*** IT IS 7719 B. *** Read at full resolution the same afternoon - 4,863 pixels across the opening against about 1,100 - the suffix is plainly a B, and the plot has three lettered places: *** 7719 A *** Mary Septima, 1935; *** 7719 B *** Careen Maria, 1947; *** 7719 C *** Robert Paul, 1950. *** THE MORNING'S READING WAS NOT WRONG SO MUCH AS BLIND: *** the digits were right, the suffix was unreadable, and this archive said so at the time rather than guessing. The guess on offer was 'A', to match Mary Septima - and 'A' is the one letter it could not have been.",
   "how_it_was_caught": "*** BY GOING TO THE SOURCE INSTEAD OF THE PHOTOGRAPH OF IT. *** The supplied scan carried the black bars that FamilySearch's Cape cemetery collection puts on its own images, which is what identified the route; signing in gave the same plate at four times the linear resolution.",
   "retired": "",
-  "who": "careen-maria-lerena"
+  "who": "careen-maria-lerena",
+  "for": [
+   [
+    "/people/careen-maria-lerena/",
+    "Careen Maria LERENA"
+   ]
+  ]
  },
  {
   "date": "2026-10-08",
@@ -1032,7 +1316,13 @@
   "what_is_true": "*** THERE ARE NINE, AND NOTHING IS MISSING. *** The GRO's own index, which prints the mother's maiden surname, was searched for TAYLOR births with mother BRAYLEY across *** 1870-1893, both sexes, ten windows ***: *** Kathleen Georgina (1870 D, 05B/490), William John (1870 D, 05B/489), Horace Archibald (1872 J, 05B/507), Isabella Temple (1874 D, 05B/497), Margaret Hellen Walker (1876 D, 05B/481), Irene (1879 M, 05B/524), Lucy Elizabeth (1881 S, 05B/508), MARY SEPTIMA (1884 D, 05B/506) and Agnes Walker (1889 S, 05B/502). *** All at BIDEFORD. Nothing before, nothing between, nothing after.",
   "how_it_was_caught": "*** BY DAVID LOGGING THIS SESSION IN TO gro.gov.uk *** and the search row 128 had named in September being run at last. *** THE INDEX ANSWERS BY DEFINITION RATHER THAN BY INFERENCE: *** FreeBMD's birth index carries no mother's maiden name, so no amount of work there could ever have joined a Bideford Taylor child to this household - which row 128 said in terms and was right about. *** AND THE CRITICAL WINDOW WAS RE-RUN ON LOOSE SPELLING MATCHING *** because this archive has documented BRAILEY as a variant: 28 births across England, the same two at Bideford.",
   "retired": "",
-  "who": "mary-ann-hellen-brayley"
+  "who": "mary-ann-hellen-brayley",
+  "for": [
+   [
+    "/people/mary-ann-hellen-brayley/",
+    "Mary Ann Hellen BRAYLEY"
+   ]
+  ]
  },
  {
   "date": "2026-10-08",
@@ -1068,7 +1358,13 @@
   "what_is_true": "*** SHE WAS ALMOST CERTAINLY NEVER REGISTERED, and the archive should stop looking. *** The GRO's own index was searched on *** her MOTHER's maiden surname, TEMPLE, with the child's surname on loose matching, across 1838-1852, both sexes ***. It returns exactly two children of this couple: *** JOHN WALKER (1845, Holborn) and GEORGINA MARGARET (1850, Bideford) ***. *** THE TWO EARLIEST CHILDREN ARE BOTH ABSENT *** - Isabella, about 1841, and Mary Ann Hellen, 20 May 1843, both born in London - *** and the two later ones are both present. *** Birth registration was not compulsory on parents until the Act of 1874, in force from 1875; under-registration in the 1840s is well attested among the urban poor; and the 1851 census describes this household as *** 'Shoemaker Wife Pauper'. *** The null is now double and arrives from two directions - FreeBMD under her own name, the GRO under her mother's.",
   "how_it_was_caught": "*** BY ASKING A DIFFERENT QUESTION OF A DIFFERENT INDEX. *** Searching for a person who may not be in a book can only ever fail; searching for her PARENTS returns the children who ARE there, and the shape of who is missing. *** AND THE SPELLING CONTROL IS BUILT IN: *** the query said BRAYLEY and the index returned BRAILEY twice, so the nulls are not a spelling artefact.",
   "retired": "",
-  "who": "mary-ann-hellen-brayley"
+  "who": "mary-ann-hellen-brayley",
+  "for": [
+   [
+    "/people/mary-ann-hellen-brayley/",
+    "Mary Ann Hellen BRAYLEY"
+   ]
+  ]
  },
  {
   "date": "2026-10-09",
@@ -1077,7 +1373,13 @@
   "what_is_true": "*** ONE MAN, AND THE MERGE IS DONE. *** He is now *** Alejandro M. LERENA (m.1 Elisa VILLADEMOROS; m.2 Julia BASSANI) ***, carrying both marriages, both families and both sets of evidence. *** WHAT PROVED IT, IN SEPTEMBER: *** the Cordon act of 26 December 1877, film 007713388 image 02455, names *** 'D. ALEJANDRO M. LERENA y ... D.a ELISA [VILLADEMOROS] (hoy finada)' *** as the parents of Jacinta Mercedes Gregoria and gives his own parents as *** 'D. AVELINO y D.a AMBROSIA TRAIBEL'. *** The 1886 act calls him *** viudo *** and Julia Bassani *** soltera ***, which is the second marriage. *** NINE RELATIONSHIP EDGES, a slug, the pair file and the three-Alejandros table all moved with him. ***",
   "how_it_was_caught": "*** IT WAS NOT CAUGHT - IT WAS OWED, AND THE ARCHIVE SAID SO IN WRITING. *** data/_person-pairs.txt carried the line: 'They are kept as two rows ONLY because a merge touches slugs, last-attested-alive.tsv, relations.tsv and the CHECKED_PAIRS in tools/consistency.py, and a half-done merge is worse than an honest pair. *** THIS LINE IS A DEBT, NOT A JUDGEMENT. ***' A debt recorded in those terms is the easiest thing in this archive to leave forever, and the hardest to defend leaving.",
   "retired": "",
-  "who": "alejandro-m-lerena"
+  "who": "alejandro-m-lerena",
+  "for": [
+   [
+    "/people/alejandro-m-lerena/",
+    "Alejandro M. LERENA (m.1 Elisa VILLADEMOROS; m.2 Julia BASSANI)"
+   ]
+  ]
  },
  {
   "date": "2026-10-09",
@@ -1086,7 +1388,13 @@
   "what_is_true": "*** THEY WERE NAMED ON 27 SEPTEMBER 2026 - AVELINO LERENA and AMBROSIA TRAIBEL *** - on the Cordon act of 26 December 1877, read off film 007713388 image 02455. *** The cell went on saying 'STILL NOT NAMED BY ANY RECORD' for twelve days after the answer was found and written into data/_person-pairs.txt. *** The 1888 blank-form reasoning is kept below it, because it was true when written and explains why the question was hard.",
   "how_it_was_caught": "*** BY GOING BACK TO THE MERGE AND READING THE TABLE THAT DESCRIBES IT. *** This is the same failure as the Taylor strikes of 8 October: *** a finding is written where it is MADE and not carried back to every page that states the question. *** check-superseded.py would have caught it if the claim had been on its list; it was not, and a gate only knows what it is told.",
   "retired": "",
-  "who": "alejandro-m-lerena"
+  "who": "alejandro-m-lerena",
+  "for": [
+   [
+    "/people/alejandro-m-lerena/",
+    "Alejandro M. LERENA (m.1 Elisa VILLADEMOROS; m.2 Julia BASSANI)"
+   ]
+  ]
  },
  {
   "date": "2026-10-09",
@@ -1113,7 +1421,13 @@
   "what_is_true": "*** THE ACT SAYS 28 FEBRUARY 1904. *** Same day, same month, three years later. *** THE BOOK DECIDES IT: *** the register is *** La Union, Montevideo, Religious Marriage Records 1902-1934 ***, so a 1901 marriage cannot be in it, and the entry immediately above this one is dated *** May 1902 ***. *** AND IT MAKES SENSE OF THE DISPENSATION: *** the Vicar General lifted their consanguinity impediment on *** 1 February 1901 *** - they were cleared to marry three years before they did. *** A SECOND DISCREPANCY IS RECORDED AND NOT RESOLVED: *** the act makes her *** twenty *** in February 1904, which means born about 1883-84, where this register has her born *** 4 November 1880 ***. Both stand.",
   "how_it_was_caught": "*** BY FULL-TEXT SEARCH ON HER FORENAMES, after the dispensation ledger turned out to name no parents. *** The ledger entry found yesterday gave the impediment and the date it was lifted; *** the act gives four parents, two ages, two nationalities, a profession and an address ***, and confirms the ledger's wording of the impediment word for word.",
   "retired": "",
-  "who": "zelmira-carlota-lerena-larriera"
+  "who": "zelmira-carlota-lerena-larriera",
+  "for": [
+   [
+    "/people/zelmira-carlota-lerena-larriera/",
+    "Zelmira Carlota LERENA LARRIERA (m. Adolfo CORDERO)"
+   ]
+  ]
  },
  {
   "date": "2026-10-09",
@@ -1122,7 +1436,13 @@
   "what_is_true": "*** THEY ARE ONE MAN. *** The baptism of 26 November 1905 at Santisima Trinidad names the parents the dispensation ledger withheld: 'hijo legitimo de Juan Lerena y Eduviges Pelaez. *** Abuelos paternos: BERNABE y CASIMIRA PELAEZ ***'. Juan Bernardo Lerena Pelaez, born 20 August 1871, is the only Juan among the children of Bernabe Lerena and Casimira Pelaez. *** HE WAS TWENTY-TWO WHEN HE WAS DISPENSED. *** The rows are merged.",
   "how_it_was_caught": "Searching the full text for the BRIDE rather than the groom, then looking for a CHILD rather than a marriage - the same method that answered the 1913 couple an hour earlier. *** THE SPLIT WAS NOT BAD REASONING; THE EVIDENCE ARRIVED A DAY LATE. *** What it shows is that 'no parents are recorded' is a statement about a ledger, never about a man.",
   "retired": "",
-  "who": "juan-bernardo-lerena-pelaez"
+  "who": "juan-bernardo-lerena-pelaez",
+  "for": [
+   [
+    "/people/juan-bernardo-lerena-pelaez/",
+    "Juan Bernardo LERENA Pelaez"
+   ]
+  ]
  },
  {
   "date": "2026-10-09",
@@ -1176,7 +1496,13 @@
   "what_is_true": "*** THE PLATE READS 'LENDIN', NOT 'LONDON'. *** At full magnification the second letter is an unmistakable *** e ***, not an o, and there is an *** n *** before the d where London has none; the i-dot sits after the d. *** THE STREET IS NOT CONFIDENTLY READ *** and is now recorded as 'Lendin (so written; not resolved)'. *** IT IS NOT DEMONSTRABLY 'LEIDEN' EITHER ***, although that is the likeliest intended name - Nuno lived at *** 24 Leiden Road *** - because Leiden would put the i before the d and this hand does not.",
   "how_it_was_caught": "*** BY CHECKING THE STREET AGAINST THE PLACE INSTEAD OF ACCEPTING IT. *** Gerdview's streets are named for Dutch and German cities - Leiden, Weert, Cologne - and 'London' did not fit the scheme, which sent the plate back for a harder look. *** THE LESSON IS THE MAGNIFICATION: *** the first read was done at a zoom that resolved 'Lerena' and 'Nuno' perfectly and was still too coarse for a six-letter word in the same hand. *** A READING IS ONLY AS GOOD AS THE SMALLEST THING IT RESTS ON. ***",
   "retired": "",
-  "who": "nuno-fernando-lerena"
+  "who": "nuno-fernando-lerena",
+  "for": [
+   [
+    "/people/nuno-fernando-lerena/",
+    "Nuno Fernando LERENA"
+   ]
+  ]
  },
  {
   "date": "2026-10-09",
@@ -1221,7 +1547,17 @@
   "what_is_true": "*** THE CARD SAYS 'CAP. FEDERAL' - BUENOS AIRES. *** Read off the plate on 10 October 2026: 'LERENA ENRIQUE CARLOS... nacido en *** Cap. Federal ***'. *** THE INDEXER EXPANDED 'CAPITAL' INTO THE WRONG CAPITAL ***, and this archive copied it. *** TWO OTHER THINGS ON THE SAME CARD WERE ALSO INDEXED WRONG: *** the surname is *** LERENA ***, in his own signature, where the index says SERENA; and the index gives him a father, 'Spouses Carlos', where *** THE CARD'S FATHER FIELD IS STRUCK THROUGH WITH A PEN ***, the indexer having taken CARLOS from the son's own forename.",
   "how_it_was_caught": "*** BY OPENING THE CARD INSTEAD OF TRUSTING THE INDEX ROW THAT DESCRIBED IT. *** Three errors in one index entry, and this archive had copied one of them into its own file for four weeks. *** THE CARD IS A FINGERPRINT FICHA IN A DIFFERENT DRAWER FROM CAJON 985 ***, which is why it had never been opened: it was reached through the person, not through the drawer.",
   "retired": "",
-  "who": "enrique-carlos-lerena;concepcion-lerena"
+  "who": "enrique-carlos-lerena;concepcion-lerena",
+  "for": [
+   [
+    "/people/enrique-carlos-lerena/",
+    "Enrique Carlos LERENA (clase 1899, Distrito Militar 3)"
+   ],
+   [
+    "/people/concepcion-lerena/",
+    "Concepcion LERENA (mother of Enrique Carlos, clase 1899)"
+   ]
+  ]
  },
  {
   "date": "2026-10-10",
@@ -1230,7 +1566,13 @@
   "what_is_true": "*** SHE WAS NINETY-TWO WHEN SHE DIED ON 22 JULY 1911, SO BORN ABOUT 1819 *** - eleven years earlier than the inference. And her death act says *** NACIDA EN MONTEVIDEO ***, not San Jose. *** A STATED AGE BEATS AN INFERRED ONE ***, and the Montevideo birth fits her father's own household: three of Ramon Lerena's children were christened at Montevideo between 1812 and 1821. *** THE SAN JOSE READING IS RECORDED AS A CONFLICT RATHER THAN DELETED ***, because the 1858 expediente plainly says it.",
   "how_it_was_caught": "*** BY A COMPOUND-SURNAME SEARCH AIMED AT SOMETHING ELSE. *** Work-list row 87 asked for 'Lerena Pelaez' to be crossed with the DISPENSATION series. It found no dispensations and four death and confirmation acts instead. *** THE INFERENCE WAS SOUND ARITHMETIC ON THE ONLY NUMBER AVAILABLE, AND IT WAS STILL ELEVEN YEARS OUT *** - which is what an inferred birth year is worth beside a stated one.",
   "retired": "",
-  "who": "antonina-lerena-3"
+  "who": "antonina-lerena-3",
+  "for": [
+   [
+    "/people/antonina-lerena-3/",
+    "Antonina LERENA (the elder, m. Juan PELAEZ)"
+   ]
+  ]
  },
  {
   "date": "2026-10-11",
@@ -1239,7 +1581,25 @@
   "what_is_true": "*** THE SURNAME IS ZALDUONDO, AND BOTH PLATES SAY SO. *** Read on 11 October 2026 at full resolution: the 1903 Pocitos act heads the entry *** 'Maria Zalduondo' ***, gives the father as *** 'Eduardo Zalduondo' *** and the paternal grandmother as *** 'Dolores Pou de Zalduondo' ***; the 1913 Montevideo death act, certificate 553, has *** 'ha fallecido Eduardo Zalduando' *** and *** 'era hijo de Juan Zalduondo y de Dolores Pou, fallecidos' ***. *** ZALSAMENDI APPEARS ON NEITHER PLATE. *** It was a misreading of the 1903 hand, and it stood for three weeks.",
   "how_it_was_caught": "*** BY READING THE PLATE INSTEAD OF REASONING ABOUT IT. *** The argument that convicted the index was itself the error: 'a plate outranks an index' is true, but *** THIS SESSION WAS NOT COMPARING A PLATE TO AN INDEX - IT WAS COMPARING ANOTHER SESSION'S READING OF A PLATE TO AN INDEX ***, and treating the two as the same thing. The index had been right all along, and a further tell was ignored: the same index gave the child a fourth name, LUISA, which the 1903 reading had dropped and which the plate does carry. *** THIS IS THE LENDIN LESSON AGAIN *** - a reading is only as good as the smallest thing it rests on - and the archive had even written the warning down, noting that a MACHINE transcript of this same act read 'DEL SUANDO'. Two readers had already failed on this hand; that was evidence the hand was hard, and it was used instead as evidence the index was careless.",
   "retired": "",
-  "who": "dolores-pou-de-zalduondo;eduardo-zalduondo;juan-zalduondo;maria-margarita-luisa-zalduondo-lerena"
+  "who": "dolores-pou-de-zalduondo;eduardo-zalduondo;juan-zalduondo;maria-margarita-luisa-zalduondo-lerena",
+  "for": [
+   [
+    "/people/dolores-pou-de-zalduondo/",
+    "Dolores POU de ZALDUONDO"
+   ],
+   [
+    "/people/eduardo-zalduondo/",
+    "Eduardo ZALDUONDO"
+   ],
+   [
+    "/people/juan-zalduondo/",
+    "Juan ZALDUONDO"
+   ],
+   [
+    "/people/maria-margarita-luisa-zalduondo-lerena/",
+    "Maria Margarita Luisa ZALDUONDO Lerena"
+   ]
+  ]
  },
  {
   "date": "2026-10-11",
@@ -1293,7 +1653,13 @@
   "what_is_true": "*** HE WAS ALREADY DEAD IN 1794. *** The earlier file on the same estate opens *** 'caminamos a la ESTANCIA DEL FINADO Don Clemente Garcia' *** and calls Celestina Gonzalez *** 'LA VIUDA' *** - six years before the case this archive had read. So the 1800 court order is not the settling of a fresh death but *** a SECOND reckoning of an estate already inventoried once ***, reopened because the widow had remarried and there was a minor child. *** THE ROW IS RENAMED TO 'd. by 1794' AND HIS ADDRESS DOES NOT MOVE. *** I nearly published the opposite - that the date was stuck in his URL and the row had to carry a wrong title forever - and then read slugify(), which strips parentheses. *** THE DISAMBIGUATOR IN A ROW TITLE IS NOT PART OF THE ADDRESS ***, so dates in brackets can be corrected freely; only the frozen ledger key has to be moved by hand, and it was.",
   "how_it_was_caught": "*** By paging further into the same full-text result set instead of stopping at the first hit. *** The 1794 file sat 20 results below the 1800 one and no search would have surfaced it as new - it is the same case name, the same court, the same man. *** THE LESSON IS THE CHEAPEST ONE IN THIS WHOLE ARCHIVE: when a result set has 700 entries and you have read 20, the next 20 are not a long shot. *** *** THE SECOND HALF OF IT WAS CAUGHT BY NOT TRUSTING MY OWN REASON FOR GIVING UP. *** Writing 'the row cannot be renamed' took ten seconds; checking whether that was true took one grep of tools/build-people.py and showed it was not.",
   "retired": "",
-  "who": "don-clemente-garcia"
+  "who": "don-clemente-garcia",
+  "for": [
+   [
+    "/people/don-clemente-garcia/",
+    "Don Clemente GARCIA (d. by 1794, Rosario)"
+   ]
+  ]
  },
  {
   "date": "2026-10-11",
@@ -1311,7 +1677,17 @@
   "what_is_true": "*** HE IS THE GRANDFATHER. *** Angel's father is Pedro Alberto Ysabelino Lerena Traibel; Avelino is that man's father. One step, not two. *** THE EDGES IN data/relations.tsv WERE RIGHT THE WHOLE TIME *** - father and grandfather are both there and both correct - so the chart on the page disagreed with the prose beneath it, and nothing checked that they agree.",
   "how_it_was_caught": "*** BY LEARNING THE OTHER GRANDFATHER'S NAME. *** The 1879 christening of his sister names the maternal grandfather MIGUEL LARRIERA, which makes ANGEL MIGUEL AVELINO a child named for BOTH grandfathers - and reading the name that way made the generation count obvious. *** A NAMING PATTERN IS EVIDENCE ONLY WHEN YOU KNOW BOTH SIDES OF IT ***; with one side it is a story.",
   "retired": "",
-  "who": "avelino-lerena-fernandez;angel-miguel-avelino-lerena-larriera"
+  "who": "avelino-lerena-fernandez;angel-miguel-avelino-lerena-larriera",
+  "for": [
+   [
+    "/people/avelino-lerena-fernandez/",
+    "Avelino LERENA Fernandez (son of Sancho)"
+   ],
+   [
+    "/people/angel-miguel-avelino-lerena-larriera/",
+    "Angel Miguel Avelino LERENA LARRIERA"
+   ]
+  ]
  },
  {
   "date": "2026-10-11",
@@ -1329,7 +1705,17 @@
   "what_is_true": "*** THE PLATE SAYS RAZZETTI. *** Both rows were built from the FamilySearch index of a 1921 baptism. The act itself, at Nuestra Senora de los Desamparados in the partido de Adolfo Alsina, writes the surname twice on one line in a clear hand - *** 'de D.a MARIA MERCEDES RAZZETTI' *** and, four words later, *** 'Padrinos: D. DOMINGO RAZZETTI' *** - so the reading is confirmed by the same scribe in the same sentence. *** THE INDEX ALSO PUTS THE EVENT IN THE WRONG PLACE ***, normalising it to 'Buenos Aires City' while its own original-place field says ADOLFO ALSINA and the act says 'domiciliados en ESTE PARTIDO' - a rural district of the province four hundred kilometres away. Both addresses redirect.",
   "how_it_was_caught": "*** BY CHASING A DUPLICATE, NOT A SPELLING. *** This register holds an EDUARDO LERENA dispensed at Montevideo in December 1919 to marry a MARIA MERCEDES *** RAZZELLO ***, and the two rows had never been compared. Opening the daughter's plate to test that pair produced the correction instead - *** and made the pair stronger, because RAZZELLO and RAZZETTI are one hand read twice while ROZZETTI was never on the page at all. ***",
   "retired": "",
-  "who": "maria-mercedes-razzetti;ana-maria-lerena-razzetti"
+  "who": "maria-mercedes-razzetti;ana-maria-lerena-razzetti",
+  "for": [
+   [
+    "/people/maria-mercedes-razzetti/",
+    "Maria Mercedes RAZZETTI (wife of Eduardo LERENA)"
+   ],
+   [
+    "/people/ana-maria-lerena-razzetti/",
+    "Ana Maria LERENA Razzetti"
+   ]
+  ]
  },
  {
   "date": "2026-10-11",
@@ -1428,7 +1814,25 @@
   "what_is_true": "*** THE ENUMERATION IS THE PADRON OF 1850, CONFIRMED AT CATALOGUE LEVEL. *** FamilySearch catalogue koha:1408224, 'Uruguay, Montevideo, censos, 1726-1860', lists film 7499042 item by item: *** item 1 = Padrones de habitantes, LIBRO 263, 1843; item 2 = LIBRO 264, 1850; item 3 = libro 257, 1852-1853. *** The household sits in *** item 2 ***, as the viewer's own breadcrumb says. *** So the three birth years are each seventeen years too early: Emilia is about 1832, Pedro about 1834, Vicenta about 1838. *** And the head, entered at forty, was born about 1810 - *** which is not a man born in 1793. ***",
   "how_it_was_caught": "*** By opening the plate to settle a conflict between the 1896 death act and the census age, and then going to the catalogue rather than stopping at the volume label. *** The c.1833 was itself an inference from the head's age matching Sancho's son, so the error was circular: the date was chosen to fit the identification, and the identification then rested on the date. *** Under EITHER candidate book - 1843 or 1850 - the head is too young to be the man born in 1793, so the identification does not survive the correction whichever way the volume falls. ***",
   "retired": "the c.1833 dating and the three derived birth years in data/lerena-register.tsv, and the reading of household 229 as Sancho's son's household, corrected 12 October 2026",
-  "who": "pedro-antonio-lerena;pedro-lerena-vega-2;emilia-lerena-vega-2;vicenta-lerena-vega-2"
+  "who": "pedro-antonio-lerena;pedro-lerena-vega-2;emilia-lerena-vega-2;vicenta-lerena-vega-2",
+  "for": [
+   [
+    "/people/pedro-antonio-lerena/",
+    "Pedro Antonio LERENA (son of Sancho)"
+   ],
+   [
+    "/people/pedro-lerena-vega-2/",
+    "Pedro LERENA Vega (b. 1828)"
+   ],
+   [
+    "/people/emilia-lerena-vega-2/",
+    "Emilia LERENA Vega (b. c.1832)"
+   ],
+   [
+    "/people/vicenta-lerena-vega-2/",
+    "Vicenta LERENA Vega (b. c.1838)"
+   ]
+  ]
  },
  {
   "date": "2026-10-12",
@@ -1437,7 +1841,13 @@
   "what_is_true": "*** The baptism act of 25 April 1846 states it: 'que nacio el VEINTIUNO del mismo' - 21 APRIL. *** It also squares with the burial's 'de edad de siete dias' on the 28th.",
   "how_it_was_caught": "By finding the baptism three days earlier in the same parish's books, through a phrase search that had failed an hour before because of an abbreviation.",
   "retired": "the birth date of 20 April 1846 in data/lerena-register.tsv, corrected 12 October 2026",
-  "who": "carmelo-anselmo"
+  "who": "carmelo-anselmo",
+  "for": [
+   [
+    "/people/carmelo-anselmo/",
+    "CARMELO ANSELMO (son of Barbara, enslaved; d. 27 April 1846)"
+   ]
+  ]
  },
  {
   "date": "2026-10-13",
@@ -1455,7 +1865,13 @@
   "what_is_true": "*** That is her daughter ELIDA's death. *** The register note gave it as 'ELIDA (b. 1897, d. 23 July 1910)' and the death parser took the first 'd.' it met as the mother's. Isidora has no recorded death. It also made a child born in 1934 look born 24 years after his mother died; whether she bore children across forty years or he belongs to a younger Doroteo is still stated as NOT RESOLVED in her row.",
   "how_it_was_caught": "A cloud audit's 'parent died more than a year before the birth' list, checked on the live page, 16 October 2026.",
   "retired": "",
-  "who": "isidora-cardozo"
+  "who": "isidora-cardozo",
+  "for": [
+   [
+    "/people/isidora-cardozo/",
+    "Isidora CARDOZO (m. Doroteo LERENA)"
+   ]
+  ]
  },
  {
   "date": "2026-10-16",
@@ -1464,7 +1880,17 @@
   "what_is_true": "*** That is her first husband Frederick Christian Chappell's death. *** The register note read 'Widow of Frederick Christian Chappell (d.1933)' and the parser took it as hers. She d. 2 July 1950 (SA death register), which her note now says. It made her two daughters by Roque, born 1936 and 1943, look born after their mother died.",
   "how_it_was_caught": "The same audit list, 16 October 2026.",
   "retired": "",
-  "who": "roseline-wilhelmina-forbes;frederick-christian-chappell"
+  "who": "roseline-wilhelmina-forbes;frederick-christian-chappell",
+  "for": [
+   [
+    "/people/roseline-wilhelmina-forbes/",
+    "Roseline Wilhelmina FORBES (m.1 Chappell, m.2 LERENA)"
+   ],
+   [
+    "/people/frederick-christian-chappell/",
+    "Frederick Christian Chappell"
+   ]
+  ]
  },
  {
   "date": "2026-10-29",
@@ -1473,7 +1899,13 @@
   "what_is_true": "*** HE WAS A BOY OF FOUR, BORN 16 FEBRUARY 1907 BY THE PLATE, BAPTISED ON 22 FEBRUARY 1911 AND DEAD THE NEXT DAY. *** The index entry gave the death year as the birth year; the baptism (page 164, entry no. 672, Trinidad, read at the plate) gives the age. His birth date is left blank because it is three and a half months before his brother Faustino's 2 June 1907. The row keeps its name because its address is published.",
   "how_it_was_caught": "The Trinidad baptism book September 1909 - March 1911 was read at the plate (image 86).",
   "retired": "",
-  "who": "pedro-lerena-arrascaeta"
+  "who": "pedro-lerena-arrascaeta",
+  "for": [
+   [
+    "/people/pedro-lerena-arrascaeta/",
+    "Pedro LERENA Arrascaeta (b. and d. 1911)"
+   ]
+  ]
  },
  {
   "date": "2026-11-01",
@@ -1482,7 +1914,21 @@
   "what_is_true": "*** HER SURNAME IS MENENDEZ: she signs 'Leopolda D. Menendez', daughter of Candido Menendez and Rosaura [Moran], born 12 [month lost] 1878 at Chamanga. *** The plate of the civil marriage act no. 4 of 10 December 1902 (Flores, Marriage Records 1886-1906, image 119) reads Menendez in the text and in her signature; the godparents' entry of December 1904 had already written 'Leopolda Menendez'. The two rows keep their published names and are annotated; their daughter's compound is then Lerena Menendez.",
   "how_it_was_caught": "Flores, Marriage Records 1886-1906 scanned and the act read at the plate, 1 November 2026.",
   "retired": "Leopolda D. Fernandez",
-  "who": "gervasio-lerena-echeverry;m-luisa-bernarda-lerena-fernandez;leopolda-fernandez"
+  "who": "gervasio-lerena-echeverry;m-luisa-bernarda-lerena-fernandez;leopolda-fernandez",
+  "for": [
+   [
+    "/people/gervasio-lerena-echeverry/",
+    "Gervasio LERENA Echeverry"
+   ],
+   [
+    "/people/m-luisa-bernarda-lerena-fernandez/",
+    "M. Luisa Bernarda LERENA Fernandez (b. 1903, Trinidad)"
+   ],
+   [
+    "/people/leopolda-fernandez/",
+    "Leopolda FERNANDEZ (m. Gervasio Lerena)"
+   ]
+  ]
  },
  {
   "date": "2026-11-01",
@@ -1491,7 +1937,13 @@
   "what_is_true": "*** SHE WAS A DAUGHTER, ELVIRA IGNACIA, born 31 July 1887, who married Justo German Rios on 26 August 1910. *** The machine's text of the baptism read 'a un nino ... Ignacio Elvido'; the civil act of her marriage (Flores, Marriage Records 1909-1916, image 49, act no. 41) names Dona Elvira Ignacia Lerena, born 31 July 1887, daughter of Florencio P. Lerena and Juana Recuero. The row keeps its published name and is annotated.",
   "how_it_was_caught": "Flores, Marriage Records 1909-1916 scanned, 1 November 2026.",
   "retired": "WHO NAMES HIS GRANDPARENTS, FOUND 29 October 2026",
-  "who": "ignacio-elvido-lerena-recuero"
+  "who": "ignacio-elvido-lerena-recuero",
+  "for": [
+   [
+    "/people/ignacio-elvido-lerena-recuero/",
+    "Ignacio Elvido LERENA Recuero (b. 1887, Trinidad)"
+   ]
+  ]
  },
  {
   "date": "2026-11-02",
@@ -1500,7 +1952,13 @@
   "what_is_true": "*** HER CIVIL BIRTH ACT SAYS 12 SEPTEMBER 1907 *** (Flores, Birth Records 1907-1915, image 34, act no. 58, registered 23 September 1907, Venancio Lerena 49 and Venancia Harrison 38). The baptism's date was read by the machine only; the numbering of the civil acts (no. 58 between June and October 1907) supports 1907, and a child born in February 1909 would sit eight months before her brother Rodolfo Justino (7 October 1909). The row keeps its published name and the birth field now reads 1907-09-12; the baptism is to be re-read at the plate.",
   "how_it_was_caught": "Flores, Birth Records 1907-1915 scanned, 2 November 2026; the consistency gate refused two children of one father eight months apart.",
   "retired": "BORN 12 FEBRUARY 1909, FOUND 29 October 2026",
-  "who": "a-leoncia-lerena-harrison"
+  "who": "a-leoncia-lerena-harrison",
+  "for": [
+   [
+    "/people/a-leoncia-lerena-harrison/",
+    "A. Leoncia LERENA Harrison (b. 1909, Trinidad)"
+   ]
+  ]
  },
  {
   "date": "2026-11-02",
@@ -1509,7 +1967,13 @@
   "what_is_true": "*** HIS CIVIL BIRTH ACT SAYS 24 JANUARY 1892 *** (Flores, Birth Records 1887-1902, image 100, act no. 7, El Tala, registered 26 January 1892 at eight in the morning; Gualberto Lerena thirty and Rosaura Alvarez thirty; read at the plate: 'el dia veinticuatro del mes de Enero a las tres de la tarde'). An entry two days after the birth, against one of three weeks for the baptism's date as read; the row's birth field now reads 1892-01-24 and its published name is kept; the baptism is to be re-read at the plate.",
   "how_it_was_caught": "Flores, Birth Records 1887-1902 scanned, 2 November 2026; the plate of the civil act.",
   "retired": "BORN 4 JANUARY 1892, FOUND 29 October 2026",
-  "who": "feliciano-lerena-alvarez"
+  "who": "feliciano-lerena-alvarez",
+  "for": [
+   [
+    "/people/feliciano-lerena-alvarez/",
+    "Feliciano LERENA Alvarez (b. 1892, Trinidad)"
+   ]
+  ]
  },
  {
   "date": "2026-11-02",
@@ -1518,7 +1982,13 @@
   "what_is_true": "*** HIS CIVIL BIRTH ACT SAYS 27 NOVEMBER 1891 *** (Flores, Birth Records March 1888-December 1888, image 91, act no. 39, El Sarandi, entered 12 December 1891 at three in the afternoon; Cayetano Gonzalez forty-four and Carmen Fernandez twenty-seven; read at the plate: 'el dia veinte y siete del mes de Noviembre a las cinco de la manana'). An entry fifteen days after the birth against seven weeks for the baptism's date as read; the row's birth field now reads 1891-11-27 and its published name is kept; the baptism is to be re-read at the plate.",
   "how_it_was_caught": "Flores, Birth Records March 1888-December 1888 scanned, 2 November 2026; the plate of the civil act.",
   "retired": "BORN 27 OCTOBER 1891, FOUND 29 October 2026",
-  "who": "alberto-facundo-gonzalez-fernandez"
+  "who": "alberto-facundo-gonzalez-fernandez",
+  "for": [
+   [
+    "/people/alberto-facundo-gonzalez-fernandez/",
+    "Alberto Facundo GONZALEZ Fernandez (b. 1891, Trinidad)"
+   ]
+  ]
  },
  {
   "date": "2026-11-02",
@@ -1527,7 +1997,13 @@
   "what_is_true": "*** THE CIVIL DEATH ACT WRITES A SON *** (Flores, Death Records 1908, image 95, act no. 182, Trinidad, 3 November 1908, read at the plate): 'ALCIDES LERENA, del sexo masculino, nacido en esta ciudad, de un ano y medio de edad', 'hijo legitimo de don Juan Lerena y de dona Eduviges Pelaez', died at eleven at night on 2 November 1908 of tuberculosis. The row keeps its published name and the header of its note now reads a child, a son on his death act; the baptism is to be re-read at the plate.",
   "how_it_was_caught": "Flores, Death Records 1908 read for the surname, 2 November 2026; the plate of the civil act.",
   "retired": "A DAUGHTER OF JUAN LERENA AND EDUVIGES PELAEZ, BORN 18 JUNE 1907, FOUND 29 October 2026",
-  "who": "alcides-lerena-pelaez"
+  "who": "alcides-lerena-pelaez",
+  "for": [
+   [
+    "/people/alcides-lerena-pelaez/",
+    "Alcides LERENA Pelaez (b. 1907, Trinidad; baptised Maria Alcides)"
+   ]
+  ]
  },
  {
   "date": "2026-11-02",
@@ -1545,7 +2021,13 @@
   "what_is_true": "*** HER MOTHER IS SEVERA FERNANDEZ, ALEJANDRO'S SECOND WIFE: *** the civil birth acts of her children (Flores, Birth Records 1888-1892, images 24 and 87, plate read) give 'Alejandro Lerena y Severa Fernandez, ambos fallecidos' as their maternal grandparents, and her own death act (Flores, Death Records January 1905-November 1925, image 17, act no. 23) calls her 'hija legitima de don Alejandro F. Lerena y de dona Severa Fernandez'. Natalia Lerena is Manuel Vaquero's MOTHER and Alejandro F.'s sister, Aurora's aunt; the row's first note of 11 October 2026 had read the Trinidad baptisms' 'Natalia' as her mother.",
   "how_it_was_caught": "Flores civil death book of 1905 read, 2 November 2026; the birth acts of 1888-1890 read the same day.",
   "retired": "daughter of *** ALEJANDRO F. LERENA and NATALIA LERENA ***",
-  "who": "aurora-lerena-fernandez"
+  "who": "aurora-lerena-fernandez",
+  "for": [
+   [
+    "/people/aurora-lerena-fernandez/",
+    "Aurora LERENA Fernandez (m. Manuel VAQUERO)"
+   ]
+  ]
  },
  {
   "date": "2026-11-02",
@@ -1554,16 +2036,28 @@
   "what_is_true": "*** THE ACT ITSELF NAMES THEM *** (Flores, Death Records 1926-1927, image 113, act no. 27, Trinidad, 3 March 1927, read at the plate): Francisco Gonzalez, sixty-seven, died on 2 March 1927, 'hijo de Servando Gonzalez y Estefania Lerena, ambos fallecidos', widower of Dolores Dominguez, leaving Washington and Deyanira.",
   "how_it_was_caught": "Flores, Death Records 1926-1927 (item 1 of DGS film 008165905) read for the surname, 2 November 2026; the plate of the civil act.",
   "retired": "that he is the same man is probable and not proved",
-  "who": "francisco-gonzalez-lerena"
+  "who": "francisco-gonzalez-lerena",
+  "for": [
+   [
+    "/people/francisco-gonzalez-lerena/",
+    "Francisco GONZALEZ Lerena (named 1892)"
+   ]
+  ]
  },
  {
   "date": "2026-11-03",
   "severity": "serious",
-  "what_was_said": "That the Angel Custodio of the Flores death-index entry 'born 1934, dead October 1955' (son of Doroteo Lerena and Isidora Cardozo) was a later namesake born in 1934, a conflict the rows of Isidora Cardozo, Doroteo Lerena and Antonino Lerena Cardozo kept open; and that the Angel Custodio Lerena of the 1939-41 stillbirths, husband of Blanca Rodriguez, had no known parents and was not that man.",
+  "what_was_said": "That the Angel Custodio of the Flores death-index entry 'born 1934; dead October 1955' (son of Doroteo Lerena and Isidora Cardozo) was a later namesake born in 1934, a conflict the rows of Isidora Cardozo, Doroteo Lerena and Antonino Lerena Cardozo kept open; and that the Angel Custodio Lerena of the 1939-41 stillbirths, husband of Blanca Rodriguez, had no known parents and was not that man.",
   "what_is_true": "THE ACT SETTLES IT (Flores civil death register, second group, group image 2425, act no. 172, Trinidad, 16 October 1955, read at the plate and zoomed): Angel Custodio Serena [Lerena], sixty-five, married to Blanca Rodriguez, son of Doroteo and Isidora Cardozo, both dead. The index's birth year 1934 was wrong; the stillbirth father, the index entry and (probably) the Angel Custodio Carmelo of the baptism of 2 October 1889 are one man, now one row.",
   "how_it_was_caught": "The 1955 act was found by scanning the second death group's machine transcript for the surname and opening the plate of each leaf that named it, 3 November 2026.",
   "retired": "",
-  "who": "angel-custodio-carmelo-lerena-cardozo"
+  "who": "angel-custodio-carmelo-lerena-cardozo",
+  "for": [
+   [
+    "/people/angel-custodio-carmelo-lerena-cardozo/",
+    "Angel Custodio Carmelo LERENA Cardozo (b. 1889, Trinidad)"
+   ]
+  ]
  },
  {
   "date": "2026-11-08",
@@ -1581,7 +2075,13 @@
   "what_is_true": "The petition is of 3 September 1836; the cathedral marriage act itself is of 4 October 1836 (Libro 8 p. 12, film 007713383 image 158, read at the plate).",
   "how_it_was_caught": "Walking the cathedral marriage book of 1835-36 for a Lerena marriage found the act.",
   "retired": "",
-  "who": "dona-carolina-oribe"
+  "who": "dona-carolina-oribe",
+  "for": [
+   [
+    "/people/dona-carolina-oribe/",
+    "Dona Carolina ORIBE (1st wife of Don Luis Lerena)"
+   ]
+  ]
  },
  {
   "date": "2026-11-10",
@@ -1590,7 +2090,17 @@
   "what_is_true": "The act writes 'Ysidora Izaural', the word whole with a comma after it (cathedral Libro 9 p. 14, DGS film 007713383 image 361, read and zoomed; the 1895 certified copy writes Isaural). Ysaurralde / Izaurralde is the reading her grandchildren's baptisms point to, not the act's; the earlier row of Isidora already said the surname was cut at the plate edge.",
   "how_it_was_caught": "Walking the cathedral marriage book to January 1845 reached the act in the book itself and the surname was not cut.",
   "retired": "Isidora Ysaurralde, in his own marriage act",
-  "who": "gil-lerena;isidora-ysaurralde"
+  "who": "gil-lerena;isidora-ysaurralde",
+  "for": [
+   [
+    "/people/gil-lerena/",
+    "Gil LERENA (m. Anastasia Santa Cruz)"
+   ],
+   [
+    "/people/isidora-ysaurralde/",
+    "Isidora YSAURRALDE (wife of Fidel Lerena)"
+   ]
+  ]
  },
  {
   "date": "2026-11-13",
@@ -1599,7 +2109,13 @@
   "what_is_true": "They are one man. The Matriz marriage book, page 227, entry dated 10 June 1861, names the groom as widower of Vicenta Vega and son of the parents named at the 1793 baptism, and the Cordon burial of 3 February 1866 (aged 73, widower of a Vega, remarried to Teresa Leonard) is his. The register rows made for the Pereyra couple were removed, the two rows for him were joined, and the open join on the lines page was dropped. The 1864 christening keeps its wording, read as a clerk's slip. Pedro Lerena Vega, born 1828, is his son by Vicenta Vega and Teresa's stepson.",
   "how_it_was_caught": "Walking the Matriz marriage book of 1858-1864 by margin name found the entry the index never carried",
   "retired": "",
-  "who": "pedro-antonio-lerena"
+  "who": "pedro-antonio-lerena",
+  "for": [
+   [
+    "/people/pedro-antonio-lerena/",
+    "Pedro Antonio LERENA (son of Sancho)"
+   ]
+  ]
  },
  {
   "date": "2026-11-13",
@@ -1617,7 +2133,17 @@
   "what_is_true": "It has rested on acts since 20 September 2026. Gilberto's own marriage act - San Francisco de Asis, Montevideo, no. 178 of 11 August 1877, image read - calls him 'hijo legitimo de Don LUIS y de Dona JUSTINIANA LENGUAS', and Montevideo marriage act 258 of 1864 gives Luis Eugenio the same parents; two baptisms of Gilberto's children, in two parishes, name the same grandparents. The register and the charts already drew the two men as brothers; only this sentence, inside the very note that records those acts, still said otherwise.",
   "how_it_was_caught": "Working down the list of open questions, the sentence was read against the rest of its own row and against the sibling link the register already draws.",
   "retired": "",
-  "who": "don-luis-eugenio-lerena-lenguas;gilberto-lerena"
+  "who": "don-luis-eugenio-lerena-lenguas;gilberto-lerena",
+  "for": [
+   [
+    "/people/don-luis-eugenio-lerena-lenguas/",
+    "Don Luis Eugenio LERENA LENGUAS"
+   ],
+   [
+    "/people/gilberto-lerena/",
+    "Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS)"
+   ]
+  ]
  },
  {
   "date": "2026-11-15",
@@ -1626,7 +2152,13 @@
   "what_is_true": "Cordoba has been primary since 15 September 2026, when his marriage act of 8 January 1791 was read at Canelones (DGS film 008166578, image 2687): 'Sancho Llerena, natural de Cordova la Llana, hijo legitimo de Felix Llerena y de Rosalia Aguilar, naturales de dicha Cordova'. The act also names his parents and shows that Aguilar is his mother's surname. The data files that argued the question were updated that day and the flag file carries the reasoning, but this row was not touched and went on crediting the trees for two months.",
   "how_it_was_caught": "Working the open question 'Cordova la Llana - the next country' on 15 November 2026: the row was read to plan a Spanish search and contradicted the act the archive already held. The phrase itself was checked at the same time and is NOT by itself a Spanish address - it is given as a by-name of the Andalusian city and also appears in versions of the 1573 founding name of Cordoba in Argentina - so the row now says what actually settles it: 'andaluz' in the 1812 padron, 'natural de Andalucia' in his son's 1811 baptism, and 'natural de Cadiz' in the probable burial of 1817.",
   "retired": "",
-  "who": "sancho-llerena-aguilar"
+  "who": "sancho-llerena-aguilar",
+  "for": [
+   [
+    "/people/sancho-llerena-aguilar/",
+    "Sancho LLERENA Aguilar"
+   ]
+  ]
  },
  {
   "date": "2026-11-15",
@@ -1635,7 +2167,13 @@
   "what_is_true": "*** THE ACT WAS READ, TRANSCRIBED IN FULL AND PUBLISHED ON 15 SEPTEMBER, AND THE FILE HOLDING THE OPEN QUESTION WAS NEVER TOLD. *** data/1791-marriage-act.tsv has carried the whole act since that day, and a panel of /hypotheses/ quotes the margin and the words 'el dicho Sancho' - while a hundred and forty lines further down the SAME PAGE the archive went on saying 'Sancho's own marriage act would settle it, and it has never been opened', and data/sancho-or-francisco.tsv said it four times. *** THE READING WAS NEVER MISSING. THE COMPARISON WAS. *** Re-read and zoomed 15 November: the margin is 'Sancho Llerena, y Maria Fernandes. Casados y Velados', the body is 'justificacion de livertad de SANCHO LLERENA, nat.l de Cordova la Llana' and four lines on 'el dicho SANCHO intentava con Maria Fernandez'. *** THREE NAMINGS, ALL SANCHO, NO SECOND FORENAME. *** A justificacion de libertad is the one place a full name is stated on purpose. So the double forename is not confirmed by the document that was supposed to confirm it: it is now a reading the evidence PERMITS and no longer one it SUPPORTS, and the archive no longer has an explanation that costs nobody anything. Not disproved - an act may give only the name a man went by, and the same act gives his wife no second forename either.",
   "how_it_was_caught": "Writing up the Canelones marriage of his son Pedro Antonio (19 May 1832, 'hijo legitimo del finado FRANCISCO LLERENA'), which sits on the SAME FILM as the 1791 act. The write-up called the 1791 line 'the cheapest unread line in this archive' and went to read it - which is how the archive discovered it had read it in September, published it, and never carried it the forty feet to the file that was waiting for it.",
   "retired": "'the leading reading' and 'never opened', in data/sancho-or-francisco.tsv, on the Sancho LLERENA Aguilar row and in two panels of /hypotheses/, all rewritten 15 November 2026",
-  "who": "sancho-llerena-aguilar"
+  "who": "sancho-llerena-aguilar",
+  "for": [
+   [
+    "/people/sancho-llerena-aguilar/",
+    "Sancho LLERENA Aguilar"
+   ]
+  ]
  },
  {
   "date": "2026-11-15",
@@ -1644,7 +2182,13 @@
   "what_is_true": "*** HE IS 'NATURAL DE ESTA PARROQUIA' ON HIS OWN MARRIAGE ACT AT CANELONES *** (19 May 1832, Libro III de Matrimonios folio 42 vuelta, film 008166578 image 3039, plate read), his baptism of 1 August 1793 was performed at Canelones, and the 1828 act says Canelones. Three documents to none. The field now reads CANELONES and the conflict is closed.",
   "how_it_was_caught": "Reading his first marriage act at the plate.",
   "retired": "the birthplace 'Montevideo' and the open conflict on the Pedro Antonio LERENA (son of Sancho) row, 15 November 2026",
-  "who": "pedro-antonio-lerena"
+  "who": "pedro-antonio-lerena",
+  "for": [
+   [
+    "/people/pedro-antonio-lerena/",
+    "Pedro Antonio LERENA (son of Sancho)"
+   ]
+  ]
  },
  {
   "date": "2026-11-15",
@@ -1653,7 +2197,17 @@
   "what_is_true": "*** THE ACTS SAY MARIA ANTONIA MAESTRO. *** Vicenta's own marriage act (Canelones, 19 May 1832, plate read) names her 'hija legitima del finado Romualdo Vega y Da MARIA ANTONIA MAESTRO', with the mother standing witness at the wedding; and the plate-read marriage act of her daughter Amelia in 1851 reads 'Da Maria And. or Ant. Maistro', which this archive could not resolve and this act resolves. 'Andrea' rests on ONE MACHINE TRANSCRIPT, the 1837 Catedral baptism. The row is ANNOTATED, NOT RENAMED, so that what is published under it keeps its address.",
   "how_it_was_caught": "The same act, read for the bride's half of the sentence rather than the groom's.",
   "retired": "",
-  "who": "dona-andrea-maestre;dona-vicenta-vega"
+  "who": "dona-andrea-maestre;dona-vicenta-vega",
+  "for": [
+   [
+    "/people/dona-andrea-maestre/",
+    "Dona Andrea MAESTRE"
+   ],
+   [
+    "/people/dona-vicenta-vega/",
+    "Dona Vicenta VEGA"
+   ]
+  ]
  },
  {
   "date": "2026-11-15",
@@ -1662,6 +2216,12 @@
   "what_is_true": "*** THE 1837 BAPTISM IS LEONARDA MARGARITA'S. *** The Catedral baptism of 4 July 1837 is of a girl born 20 February 1837 and named Leonarda Margarita (her own row, plate read 21 September 2026). A girl of nineteen in June 1855 was born in 1835-36, BEFORE her, so Vicenta is a SISTER of Leonarda Margarita and of Amelia, not the child of that act. The act of 18 June 1855, its plate reading and the parents' names stand; only the identification with the 1837 child is withdrawn, from the register row and the sources log.",
   "how_it_was_caught": "Opening the same book again for a plate-read margin pass (15 November 2026), the act turned up as the control, and its row was read against the row of the 1837 baptism.",
   "retired": "",
-  "who": "vicenta-lerena-vega-2"
+  "who": "vicenta-lerena-vega-2",
+  "for": [
+   [
+    "/people/vicenta-lerena-vega-2/",
+    "Vicenta LERENA Vega (b. c.1838)"
+   ]
+  ]
  }
 ]
