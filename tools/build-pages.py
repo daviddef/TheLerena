@@ -116,6 +116,24 @@ if _old_living.exists():
 people = json.loads((OUT / "people.json").read_text(encoding="utf-8"))
 places = json.loads((OUT / "places.json").read_text(encoding="utf-8"))
 
+# ---- who a correction is about (17 November 2026; kit docs/corrections.md) ----------------------------
+# The hand-written `who` column of data/corrections.tsv (person slugs, ';' between) becomes `for`:
+# [["/people/<slug>/", "Name"], ...], the list a search row uses, with the name the person's own page prints. The Corrections page
+# shows it as "About ...", and the What's new card shows it under the headline. Only built pages of people who are not living,
+# held out or noindex (tools/check-corrections.py holds the same line); a slug that is not one stops the build here.
+_P = {p["slug"]: p for p in people}
+_cj = json.loads((OUT / "corrections.json").read_text(encoding="utf-8"))
+for _r in _cj:
+    _s = [x.strip() for x in str(_r.get("who", "")).split(";") if x.strip()]
+    _r.pop("for", None)
+    if not _s:
+        continue
+    _bad = [x for x in _s if x not in _P or _P[x].get("living") or _P[x].get("noindex")]
+    if _bad:
+        raise SystemExit(f"build-pages: data/corrections.tsv `who` names {', '.join(_bad)}, which is not a built page of a person who may be named")
+    _r["for"] = [[f"/people/{x}/", _P[x]["name"]] for x in _s]
+(OUT / "corrections.json").write_text(json.dumps(_cj, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
+
 idx = []
 for p in people:
     # A page that is noindex is not in the search index either: a living person, and a page that
