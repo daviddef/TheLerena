@@ -10440,5 +10440,38 @@
  "note": "A MARGIN-NAME pass; a Lerena or Ysaurralde named INSIDE an entry is not excluded (the Bianco act was found in the body, not the margin), most surnames were read at strip or sheet size, and the right page of frames 973-974 under a pasted letter, the later-hand notes and the bodies of most entries are unread. None of the four finds is a child of Fidel Lerena; the owners of Abdon's mother are probably Sancho's son Pedro Antonio and Vicenta Vega, not stated; the Gavino and Juan Llerena are leads only, nothing merged.",
  "waypoint": null,
  "waypointNote": "Waypoint not established; film number and image group only."
-}
+},
+ {
+  "src": "Western Cape Archives and Records Service: the estate file MOOC 6/9/17017 (1847/50), photographs of the typed will and a death notice supplied by the archive",
+  "url": "https://www.nationalarchives.gov.za",
+  "what": "The WILL of Robert Paul Lerena, 6 February 1942, read from a photograph: he is named Robert Paul Lerina also known as Robert Lerina of Santos Road, Rugby (his address in 1942), signs R. Lerena, leaves a quarter to his son Louis and Rose Lilian Theys and three quarters to Nuno Fernando and Ricardo Juan Carlos until Nuno is thirty, Theys executrix; stamped accepted and registered by the Master, Cape Town, 1 May 1950. It matches the liquidation account; no parent or birthplace is named. The death notice in the same batch is a second copy of the one already held (parents not known). Two witness signatures illegible; no inventory seen.",
+  "when": "2026-11-22",
+  "outcome": "yield",
+  "tags": [
+   "lerena",
+   "south-africa",
+   "cape-town",
+   "will"
+  ],
+  "ev": [
+   [
+    "/estate/",
+    "The will of 6 February 1942, read from the archive's photograph: address, signature, bequests, the Master's stamp"
+   ]
+  ],
+  "for": [
+   [
+    "/people/pablo-armando-lerena/",
+    "Pablo Armando LERENA (Robert Paul; \"Bob\")"
+   ],
+   [
+    "/people/nuno-fernando-lerena/",
+    "Nuno Fernando LERENA"
+   ],
+   [
+    "/people/ricardo-juan-carlos-lerena/",
+    "Ricardo Juan Carlos LERENA"
+   ]
+  ]
+ }
 ]
