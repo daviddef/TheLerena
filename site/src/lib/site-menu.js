@@ -6,7 +6,7 @@
      items     either a flat list of [href, label]            (a short menu: one column)
                or a list of groups { head, href?, items }   (a group is a column; `href` makes its heading a link; an item is [href, label])
    Where the old entries went:
-     Start (10)          -> Home, The story, About stay; The trees, Our line drawn, Roots & Routes, The Timeline -> People > Drawn;
+     Start (10)          -> Home, The story, About stay; The trees, Our line drawn, The Timeline -> People > Drawn (Roots & Routes was in that list until 23 Nov 2026, when the page was removed);
                             The Atlas -> Places & families; What's new -> Research only (its group head, and the pulse button);
                             The DNA -> Research > Deep dives
      Our line (6)        -> The Name -> The name; The Lines -> Places & families; The Horses joins from "The work"
@@ -38,7 +38,7 @@ export const MENU = [
       ["/people/", "The People"], ["/who/", "Every Name"], ["/register/", "The Register"], ["/marriages/", "The Marriages"],
     ] },
     { head: "Drawn", items: [
-      ["/tree/", "Our line, drawn"], ["/trees/", "The trees"], ["/roots/", "Roots & Routes"], ["/timeline/", "The Timeline"],
+      ["/tree/", "Our line, drawn"], ["/trees/", "The trees"], ["/timeline/", "The Timeline"],
       ["/bloodline/", "Blood relatives, drawn"],
     ] },
   ]],
