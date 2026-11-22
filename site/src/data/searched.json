@@ -10607,5 +10607,37 @@
   ],
   "nobody": true,
   "logOnly": true
+ },
+ {
+  "src": "FamilySearch, Montevideo Iglesia Matriz: Marriage Records, Libro 13 de Matrimonios, 29 June 1867 to 12 September 1869 (DGS film 007713383, frames 1141-1325), read by the margin name of every act",
+  "url": "https://www.familysearch.org/search/film/007713383",
+  "film": "007713383",
+  "what": "Fidel, Isidora Izaural/Ysaurralde, Alejandro M. Lerena and Elisa Villademoros, and any Lerena, Llerena, Lorena, Larena, Lerina or Serena in the Matriz marriages of Libro 13: one found - Josefa Lerena, daughter of Avelino and Ambrosia Traival, married Fernando Moratorio on 23 May 1868 (frame 1210, plate read). The marriage of Alejandro M. Lerena and Elisa Villademoros is not in this book. A reading null for the rest (margin names; bodies unread; two nearly inkless pages), not a walked nil.",
+  "when": "2026-11-22",
+  "outcome": "yield",
+  "pages": "frames 1141-1325",
+  "walked": false,
+  "tags": [
+   "lerena",
+   "uruguay",
+   "montevideo",
+   "familysearch"
+  ],
+  "ev": [
+   [
+    "/people/josefa-lerena-traibel/",
+    "Libro 13, page 139, frame 1210: the act of 23 May 1868, zoomed; bride 'hija legitima de Don Avelino y Dona Ambrosia Traival'"
+   ]
+  ],
+  "for": [
+   [
+    "/people/josefa-lerena-traibel/",
+    "Josefa LERENA TRAIBEL (1851-1947)"
+   ],
+   [
+    "/people/fernando-moratorio-2/",
+    "Fernando MORATORIO (the younger)"
+   ]
+  ]
  }
 ]
