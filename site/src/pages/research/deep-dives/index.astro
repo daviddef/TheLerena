@@ -1,0 +1,18 @@
+---
+/* DEEP DIVES: the hub the Research menu's "Deep dives" heading opens (23 November 2026, estate clean-up). Every long study, check and set of papers the
+   archive keeps beside Sources & method, each with what it shows. The list is lib/research-menu.js, the same one that draws the menu, so the menu and this
+   page cannot disagree. */
+import Base from "../../../layouts/Base.astro";
+import ResearchList from "@daviddef/archive-kit/components/ResearchList.astro";
+import { u } from "../../../lib/url.js";
+import { RESEARCH } from "../../../lib/research-menu.js";
+import { blurbOf } from "../../../lib/research-counts.js";
+const dd = RESEARCH.flatMap((g) => g.items).find((x) => x.id === "deep-dives");
+const items = dd.items.map((x) => ({ href: x.href, label: x.label, blurb: x.blurb || blurbOf(x) }));
+---
+<Base title="Deep dives" eyebrow="Research · the long studies" dek={dd.note}>
+  <section class="blk">
+    <ResearchList items={items} />
+    <p class="cap" style="margin-top:22px">The rest of Research: <a href={u("/research/to-do/")}>To do</a> · <a href={u("/whats-new/")}>What's new</a> · <a href={u("/research/sources-and-method/")}>Sources &amp; method</a> · <a href={u("/research/")}>all of it on one page</a>.</p>
+  </section>
+</Base>

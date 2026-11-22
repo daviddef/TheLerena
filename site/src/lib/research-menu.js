@@ -3,7 +3,9 @@
    one "Research" menu with three groups. Nothing is renamed or removed: every item keeps the address it had, and the labels of the
    eight pages the estate's Evidence canon names (kit data/evidence-menu.json) are unchanged. `asks` is the canon's question for
    those pages. This archive's Roadmap goes with the To do group (it ranks the routes still to be worked); Hypotheses and the
-   papers in the house are deep dives under Sources & method. */
+   papers in the house are deep dives under Sources & method. 23 Nov 2026: the "Deep dives" heading is a link to /research/deep-dives/, a hub that lists
+   every one of them with what it shows (pages/research/deep-dives/index.astro reads this same list). The header menu and drawer show the heading
+   ONLY (the estate's rule: Research ends at about twelve to fourteen links, and everything else is on the hub); /research/ and the group pages still list all five. */
 export const RESEARCH = [
   { id: "to-do", head: "To do", href: "/research/to-do/",
     dek: "What is not known yet, what has been asked of other people, what is being worked on, and which routes come next.",
@@ -25,7 +27,7 @@ export const RESEARCH = [
     items: [
       { href: "/sources/", label: "Sources", asks: "What does this stand on, and where do I check?" },
       { href: "/method/", label: "Method", asks: "What would make you believe or not believe this?" },
-      { sub: "Deep dives", id: "deep-dives",
+      { sub: "Deep dives", id: "deep-dives", href: "/research/deep-dives/",
         note: "Long studies, each of one proposition or one set of papers. They are linked from the Sources page too.",
         items: [
           { href: "/hypotheses/", label: "Hypotheses" },
@@ -40,5 +42,5 @@ export const RESEARCH = [
 /* the header menu's shape: [group, ...] with { head, href, items: [[href, label] | { sub }] } */
 export const navGroups = RESEARCH.map((g) => ({
   head: g.head, href: g.href,
-  items: g.items.flatMap((x) => x.sub ? [{ sub: x.sub }, ...x.items.map((y) => [y.href, y.label])] : [[x.href, x.label]]),
+  items: g.items.flatMap((x) => x.sub ? [{ sub: x.sub, href: x.href }] : [[x.href, x.label]]),
 }));

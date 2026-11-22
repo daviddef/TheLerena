@@ -21,6 +21,10 @@
    then the archive's own line, then the other surnames A to Z (accents folded, particles ignored), then pages that are not a surname.
    This archive has no Lerena family page: its own line is TAYLOR (the family of Mary Septima Taylor, listed first at /families/), then Fernandez. The /families/ index itself lists Taylor, Brayley, Temple, Fernandez, Pelaez, Gonzalez,
    Lenguas, Cardozo, Juanico, Traibel, Alvarez, Larriera (not A to Z): reported, not changed.
+   23 NOVEMBER 2026 (estate clean-up, David: "menus, do all"): People > Drawn is ONE link, to the hub /drawn/ (lib/drawn.js lists the five drawn pages with what
+   each shows: Our line drawn, The trees, Blood relatives drawn, The Timeline, The Spine). The families group is "The families", whose first link is the hub
+   "All the families" (/families/), then the archive's own line (Taylor) and Fernandez; every other family page is linked from that hub (docs/menu-reach.md).
+   Roots & Routes is gone (Task A of the same clean-up). Research: its "Deep dives" heading opens /research/deep-dives/ (lib/research-menu.js).
    NOTE for the landing page at defranceski.com: it once read this archive's family labels to show its family pages. The menu now names
    three of them (the index, Taylor, Fernandez); every family page is still built at the address it had. */
 import { navGroups } from "./research-menu.js";
@@ -37,14 +41,11 @@ export const MENU = [
     { head: "Lists", items: [
       ["/people/", "The People"], ["/who/", "Every Name"], ["/register/", "The Register"], ["/marriages/", "The Marriages"],
     ] },
-    { head: "Drawn", items: [
-      ["/tree/", "Our line, drawn"], ["/trees/", "The trees"], ["/timeline/", "The Timeline"],
-      ["/bloodline/", "Blood relatives, drawn"],
-    ] },
+    { head: "Drawn", href: "/drawn/", items: [] },
   ]],
   ["Places & families", [
-    { head: "The families", href: "/families/", items: [
-      ["/taylor/", "Taylor"], ["/families/fernandez/", "Fernandez"],
+    { head: "The families", items: [
+      ["/families/", "All the families"], ["/taylor/", "Taylor"], ["/families/fernandez/", "Fernandez"],
     ] },
     { head: "Places", items: [
       ["/places/", "Places"], ["/atlas/", "The Atlas"], ["/lines/", "The Lines"], ["/argentina/", "Argentina"], ["/uruguay/", "Uruguay"],

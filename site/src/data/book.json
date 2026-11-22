@@ -271,6 +271,11 @@
      "path": "/timeline/",
      "title": "The Timeline",
      "blurb": "Every dated thing this archive can stand behind, in order, with the record it rests on."
+    },
+    {
+     "path": "/drawn/",
+     "title": "Drawn",
+     "blurb": "Every page that draws the people of this archive instead of listing them: the line, the trees, the blood relatives, the years in order and the Spine."
     }
    ]
   },
@@ -294,6 +299,11 @@
      "path": "/research/sources-and-method/",
      "title": "Sources & method",
      "blurb": "What this archive stands on, how it reads a register, and the long studies that sit beside them."
+    },
+    {
+     "path": "/research/deep-dives/",
+     "title": "Deep dives",
+     "blurb": "The long studies, each of one proposition or one set of papers, with what each shows."
     },
     {
      "path": "/sources/",

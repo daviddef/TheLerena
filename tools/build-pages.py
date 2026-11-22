@@ -189,6 +189,8 @@ PAGES = [
     ("Sources", "/sources/", "Consulted, and identified but not yet consulted"),
     ("The archives", "/naairs/", "NAAIRS and the South African depots"),
     ("Roadmap", "/roadmap/", "What is being worked on next"),
+    ("Drawn", "/drawn/", "Every page that draws the people instead of listing them: the line, the trees, the blood relatives, the Timeline, the Spine"),
+    ("Deep dives", "/research/deep-dives/", "The long studies: hypotheses, the papers in the house, the DNA, the two archives"),
 ]
 for t, url, d in PAGES:
     idx.append({"t": t, "k": "page", "u": url, "d": d, "s": ""})
