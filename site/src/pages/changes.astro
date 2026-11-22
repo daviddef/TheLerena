@@ -8,7 +8,6 @@ import { emph } from "../lib/text.js";
 const days = data.days;
 const mechanical = data.mechanical;
 const total = days.reduce((n, d) => n + d.commits.length, 0);
-const REPO = "https://github.com/daviddef/TheLerena/commit/";
 const dayId = (d) => "d-" + d;
 const pretty = (d) => {
   const [y, m, day] = d.split("-");
@@ -34,8 +33,8 @@ const pretty = (d) => {
       reach a particular day. {mechanical} further commits are <strong>omitted</strong>: their whole
       subject is <em>&ldquo;Rebuild the changelog&rdquo;</em>, they are the mechanical consequence of the
       commit before them, and they contain no reasoning. They are counted here rather than quietly
-      dropped. Every commit, mechanical or not, is in
-      <a href="https://github.com/daviddef/TheLerena/commits/main" rel="noopener">the repository &#8599;</a>.</p>
+      dropped. Every commit, mechanical or not, is kept
+      in the archive&rsquo;s own version history.</p>
   </div>
 </section>
 
