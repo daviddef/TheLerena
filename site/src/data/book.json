@@ -263,6 +263,11 @@
      "blurb": "Every person of this surname, and every spouse and parent of one, with the source that names each. The raw catch, not a family tree."
     },
     {
+     "path": "/households/",
+     "title": "Households",
+     "blurb": "Every couple the register can name and the children it records under them, each household with what it stands on."
+    },
+    {
      "path": "/places/",
      "title": "Places",
      "blurb": "The same register, arranged by geography rather than by name."

@@ -1,0 +1,58 @@
+---
+/* HOUSEHOLDS, 23 November 2026 (the estate's shared page, on the kit's Households component; menus.md lists it under People > Lists «where held»).
+ *
+ * A COUPLE AND THE CHILDREN THE REGISTER RECORDS UNDER THEM. Every row is made by tools/build-households.py from the register's own links
+ * (people.json: a child's father and mother, a parent's children and spouses) and nothing is typed here: the counts below are read from the
+ * file the tool wrote. Who is named is the tool's rule (the same list the living gates use): a household with a parent who may not be named is
+ * counted and not shown, and a child who may not be named is not named. This is NOT the 46 «households not yet placed» of /lines/, which are
+ * family groups on no line (a different thing, counted by tools/build-lines.py); the page says so in its first section.
+ */
+import Base from "../layouts/Base.astro";
+import Households from "@daviddef/archive-kit/components/Households.astro";
+import { u } from "../lib/url.js";
+import hh from "../data/households.json";
+import ledger from "../data/lerena-lines-ledger.json";
+
+const c = hh.counts;
+const rows = hh.rows;
+const NUM = ["no", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"];
+const word = (k) => NUM[k] ?? String(k);
+const unplaced = (ledger.pens.find((p) => p.key === "households") || {}).households;
+---
+<Base title="Households" noAutolink
+      eyebrow={`${c.households} couples and parents · ${c.children} children placed under them`}
+      dek="Every couple this archive can name, and every child the register records under them. A household here is a claim with a record behind it, not a box on a chart: the chip on each says what the household stands on.">
+
+<section class="blk">
+  <h2>What counts as a household</h2>
+  <div class="prose">
+    <p>A couple, and the children the register places under them. <strong>{c.marriage}</strong> of the {c.households} stand on a marriage the register
+      records. <strong>{c.together}</strong> are two people the records name together as the parents of the same child, with no marriage recorded between
+      them. <strong>{c.alone}</strong> are a parent named on their own, the other parent unnamed in these records. <strong>{c.tree}</strong> rest on a
+      family tree and not on a record, and say so.</p>
+    <p>{c.withNone} of them have no child recorded under them: a couple with nothing under it is a finding, so it is kept, and drawn last.
+      The register cannot say how many children a couple had, only which it recorded.</p>
+    <p><strong>This is not the count on <a href={u("/lines/")}>The Lines</a>.</strong> That page counts {unplaced} family groups that sit on no line, by
+      following every kin link until a group ends; a household here is one couple and its children, and the same family can be both. Nothing on
+      this page places anybody on a line.</p>
+    <p>Who is named follows the rule the rest of this archive keeps. A household is shown only when each parent is a person this archive publishes and
+      may name; <strong>{c.keptBack}</strong> {c.keptBack === 1 ? "household is" : "households are"} held back because a parent may not be named, and is not
+      drawn here at all. A child who may not be named is not named; the household then says that not every child recorded under it appears. Nobody
+      living is named, dated or counted beside a household.{c.moreThanTwoParents ? ` The register holds ${word(c.moreThanTwoParents)} person whose rows name more than two parents. That is a question, not a household, and ${c.moreThanTwoParents === 1 ? "she is" : "they are"} placed in none.` : ""}</p>
+  </div>
+</section>
+
+<section class="blk">
+  <Households rows={rows} u={u} sort="size"
+    caveat={`A household here is a reconstruction, not a document. It says these people are recorded as the children of this couple. It does not claim they all lived under one roof, or that the list is complete: infant deaths in particular go unrecorded in a register built from indexes, and a child with no birth year is not weighed at all. Where a household rests on the family tree rather than on a record, the chip says so; where one child was placed by something other than the household's own record, that child says so too. <strong>${c.carryTheLine}</strong> child ${c.carryTheLine === 1 ? "is" : "are"} marked as the one the direct line comes through.`} />
+</section>
+
+<section class="blk">
+  <p class="cap">{c.withChildren} of the {c.households} households have a child placed in them.
+    <a href={u("/people/")}>Everyone &rarr;</a> ·
+    <a href={u("/marriages/")}>The marriages &rarr;</a> ·
+    <a href={u("/register/")}>The register &rarr;</a> ·
+    <a href={u("/lines/")}>The lines &rarr;</a></p>
+</section>
+
+</Base>
