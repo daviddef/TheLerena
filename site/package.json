@@ -71,7 +71,7 @@
     "check:families": "python3 ../tools/check-families.py"
   },
   "dependencies": {
-    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#e06b6e4605deb0c6fcc906670d8321abd9419a0b",
+    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#241ca542bd5d298db9a78eae436b14b7794dfcb7",
     "astro": "^5.18.2"
   },
   "devDependencies": {
