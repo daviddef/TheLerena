@@ -1239,7 +1239,7 @@ def main():
                 except OSError:
                     pass
     common = ["--dist", str(dist), "--index", str(INDEX), "--living", str(living_path()),
-              "--allow-prefix", "/people/", "--allow-prefix", "/who/", "--allow-prefix", SAME_PREFIX]
+              "--allow-prefix", "/people/", "--allow-prefix", SAME_PREFIX]
     if a.gate or a.write_floor:
         # the kit's gate holds every search link to ONE title (labels.shared); the two cues differ by target, so the kit's gate reads a copy of
         # the index with an empty label (its cue check is then off) and check_cues() holds each link to its own target's wording

@@ -62,6 +62,20 @@ and `tools/check-living-standard.py`. An undated person with a living parent (wh
 reaches the present within three generations, much of the story stays out of public view. A removal request is
 honoured within days, without argument and without requiring a reason.
 
+### One page per person, and the old name pages
+
+A person has one page, `/people/<slug>/`. When other people in the archive carry the same name (the rule the old name pages used, in
+`site/src/lib/namesets.js`: the slug of the whole register name, accents and case folded), the page carries an "Others of the same name" section
+(`#namesakes`, the list inside it at `#others-of-this-name`): one link to each other person's page, with the life span and the birthplace the name
+page showed (a living person is a name and a town). On 23 November 2026 no two rows of `people.json` read the same, because the register writes a
+different whole name for every person, so no page has the section yet; it is built, and gated, for the day two do.
+
+The old name addresses `/who/<name>/` are static redirects made by `astro.config.mjs` from `people.json` (a name one person bears goes to that
+person's page; a name several bear goes to its first bearer's page at `#others-of-this-name`: not living first, then earliest born, then slug order).
+`/who/` ("Every Name") is still an alphabetical list of names and links each to the person page(s). `npm run check:namesakes`
+(`tools/checknamesakes.py`, with its own planted faults) derives the sets again from the built person pages and fails when a page's list is not exactly
+the other bearers of its name, when an old address lands nowhere or on the wrong section, or when `/who/` links an old address.
+
 ## Running it
 
 ```bash

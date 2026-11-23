@@ -221,7 +221,7 @@ def main():
     case("d  name page of only-living bearers, not noindex", STD, "names only living people and is not noindex", whocanon, dist)
 
     def whocanon2(t):
-        edit(page(t, f"who/{cslug}"), lambda s: s.replace("</head>", '<link rel="canonical" href="https://x.invalid/elsewhere/"></head>', 1))
+        edit(page(t, f"who/{cslug}"), lambda s: re.sub(r'(rel="canonical" href=")[^"]+', r'\1https://x.invalid/elsewhere/', s, count=1))
     case("d  name page naming a canonical elsewhere", STD, "names a canonical elsewhere", whocanon2, dist)
 
     def known_child(t):

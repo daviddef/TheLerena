@@ -1,6 +1,8 @@
 ---
 import Base from "../../layouts/Base.astro";
 import Placement from "../../components/Placement.astro";
+import OthersOfThisName from "../../components/OthersOfThisName.astro";
+import { othersFor, SECTION_ID } from "../../lib/namesakes.js";
 import { u } from "../../lib/url.js";
 import people from "../../data/people.json";
 import personDocs from "../../data/person-documents.json";
@@ -25,6 +27,9 @@ import correctionsByPerson from "../../data/corrections-by-person.json";
 import { dayAnchor } from "../../lib/corrections-ids.js";
 export function getStaticPaths(){ return people.map(p => ({ params:{ slug:p.slug }, props:{ p } })); }
 const { p } = Astro.props;
+/* THE OTHER PEOPLE OF THIS NAME (one page per person, 23 November 2026): the people the old /who/<name>/ page listed besides this one, each a
+   link to their own page; none when nobody shares the name (lib/namesets.js says who shares a name). */
+const namesakes = othersFor(p);
 const hasEvidence = Array.isArray(p.evidence) && p.evidence.length > 0;
 const total = people.length;
 const docs = personDocs[p.name] || [];
@@ -152,7 +157,6 @@ const emptyWhy = !nothing ? null :
 const relTotal = p.relTotal || 0;
 const relReg = p.relRegister || 0;
 const relTree = p.relTree || 0;
-const slugifyName = (s) => String(s ?? "").normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^A-Za-z0-9]+/g, "-").replace(/^-+|-+$/g, "").toLowerCase();
 const DEK = lead(p.note) || (p.relOnly
   ? "Named in this archive as someone's relative; nothing of their own has been read into it."
   : "Everything this archive holds on this person, and the record that produced them.");
@@ -190,11 +194,11 @@ const CHART = STORYMODE ? "the family section above" : "the chart above";
 ---
 {living ? (
 <Base title={p.name} noindex noAutolink ownHeader dek="Named here with their relationships and their town and country, and nothing more.">
-  <PersonPage person={KPERSON} peopleHref={u("/people/")} nameHref={u(`/who/${slugifyName(p.name)}/`)} directLine={directLine} storyHref={u("/story/")} />
+  <PersonPage person={KPERSON} peopleHref={u("/people/")} directLine={directLine} storyHref={u("/story/")} />
 </Base>
 ) : (
 <Base title={p.name} noindex={p.noindex} noAutolink ownHeader dek={DEK}>
-  <PersonPage person={KPERSON} lede={DEK} peopleHref={u("/people/")} nameHref={u(`/who/${slugifyName(p.name)}/`)} registerHref={u("/register/") + "?q=" + encodeURIComponent(p.surname || p.name)}
+  <PersonPage person={KPERSON} lede={DEK} peopleHref={u("/people/")} registerHref={u("/register/") + "?q=" + encodeURIComponent(p.surname || p.name)}
               directLine={directLine} storyHref={u("/story/")} emptyText={emptyWhy}>
 
     {/* THE CHART'S OWN NOTES: the same name twice in one row */}
@@ -293,6 +297,10 @@ const CHART = STORYMODE ? "the family section above" : "the chart above";
         <span class="mono">data/relations.tsv</span>, so it cannot fall out of step with the register or the
         chart. <a href={u("/register/")}>All {total} entries &rarr;</a></p>
     </Fragment>
+
+    {namesakes.length > 0 && (
+      <Fragment slot="namesakes"><div id={SECTION_ID} style="scroll-margin-top:8.5rem"><OthersOfThisName others={namesakes} /></div></Fragment>
+    )}
 
     {docs.length > 0 && (
       <Fragment slot="media">

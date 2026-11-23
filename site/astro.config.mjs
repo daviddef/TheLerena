@@ -1,4 +1,6 @@
 import { defineConfig } from 'astro/config';
+import { readFileSync } from 'node:fs';
+import { whoRedirects } from './src/lib/namesets.js';
 
 // Custom domain, from 12 October 2026: https://lerena.defranceski.com/
 // Served by GitHub Pages from this project repo. `base` is '/' and BASE is ''
@@ -143,6 +145,13 @@ const redirects = {
      pointing at her. check-addresses found it after the build gate went red on every push since 15 November. */
   '/people/josefa-lerena-traibel-2': `${BASE}/people/josefa-lerena-traibel/`,
 };
+
+/* ONE PAGE PER PERSON (23 November 2026). A name used to have a page, /who/<name>/, beside the person's page. It does not any more: every one
+   of those addresses is a static redirect (a meta refresh and a canonical, noindex, not in the sitemap). A name one person bears goes to that
+   person's page; a name several bear goes to its first bearer's page at #others-of-this-name, the section that lists the others (lib/namesets.js:
+   the earliest born who is not living, else slug order). Made from people.json, the file the name pages were made from; the /who/ index stays. */
+const people = JSON.parse(readFileSync(new URL('./src/data/people.json', import.meta.url), 'utf8'));
+Object.assign(redirects, whoRedirects(people, BASE));
 
 export default defineConfig({
   site: 'https://lerena.defranceski.com',
