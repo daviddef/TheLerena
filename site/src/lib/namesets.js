@@ -5,31 +5,40 @@
  * each person's page links to the other people who carry the same name. The name pages are gone; their addresses redirect
  * (astro.config.mjs reads whoRedirects below) and this file is the one place that says which people share a name.
  *
- * THE SET IS THE ONE THE NAME PAGES USED, moved here unchanged in what it counts: every row of people.json with a name and a slug,
- * keyed on the slug of its whole register name (accents and case folded, the editorial bracket and all: "Pedro LERENA (b.1834)" and
- * "Pedro LERENA (b.1875)" are two names, as they were two name pages). So the people listed under "Others of the same name" are
- * exactly the people /who/ listed. On 23 November 2026 that is NOBODY: the register writes a different whole name for every person
- * (a bracket, a second given name, an initial tells two Pedros apart), so no name is borne by two of its rows. The section, the
- * redirects and the gate are all in place for the day two rows read the same. If David wants "same name" to mean the name before the
- * bracket, `nameKey` is the one line to change (the gate, the index and the redirects all read it).
+ * WHAT "THE SAME NAME" MEANS (David, 23 November 2026, second step). The register writes a bracket after a name to tell its people
+ * apart or to say what it knows of them ("Gilberto LERENA (b.1879, arr. 1928)", "Eduardo LERENA (godfather, Cordon 1900-02)",
+ * "Gilberto LERENA (Gilberto Justiniano LERENA LENGUAS)"). Two rows whose names are the same once the bracket is dropped are
+ * namesakes: `nameKey` is the slug of the name before its first "(", accents and case folded, so 1,537 people fall in 1,458 names and
+ * 60 of those are borne by more than one row (139 people). A square bracket "[infant]" is part of the name and stays. A bracket
+ * can say that two rows are two people (the elder / the younger) or leave it open that they are one man (a godfather and a groom): the
+ * page says "They are different people: this archive does not join two of them without a record that says to", and joins none.
+ *
+ * THE OLD ADDRESSES. /who/<name>/ was keyed on the WHOLE register name, bracket and all (`oldKey`), so all 1,537 of those keys still
+ * answer. A key that carries a bracket named one row, so it goes to that person's page (at #others-of-this-name when the page
+ * lists others). A key that is the bare name of a shared set (nobody wrote a bracket) is a shared name's address: it goes to the
+ * FIRST bearer's page at #others-of-this-name (not living, earliest born, then slug order).
  *
  * PURE: no imports, so astro.config.mjs can use it (it reads the JSON itself) and so can the pages.
  */
 export const slugify = (s) => String(s ?? "").normalize("NFD").replace(/[̀-ͯ]/g, "")
   .replace(/[^A-Za-z0-9]+/g, "-").replace(/^-+|-+$/g, "").toLowerCase();
 
-/* the key a name page had: the slug of the whole register name */
-export const nameKey = (p) => slugify(p.name);
+/* the key an old name page had: the slug of the whole register name, bracket and all */
+export const oldKey = (p) => slugify(p.name);
+
+/* the key of the NAME: the register name before its first "(" (a name that is only a bracket keeps the whole), accents and case folded */
+export const bareName = (p) => String(p.name ?? "").replace(/\s*\(.*$/s, "").trim() || String(p.name ?? "");
+export const nameKey = (p) => slugify(bareName(p)) || oldKey(p);
 
 /* @param people  people.json (an array of rows)
-   @returns Map key -> { key, name, people } in people.json order, only for rows that had a name page (a name and a slug). */
+   @returns Map key -> { key, name, people } in people.json order, only for rows that had a name page (a name and a slug); `name` is the first bearer's register name, `bare` the same before its bracket. */
 export function nameSets(people) {
   const by = new Map();
   for (const p of people) {
     if (!p || !p.name || !p.slug) continue;
     const k = nameKey(p);
     if (!k) continue;
-    if (!by.has(k)) by.set(k, { key: k, name: p.name, people: [] });
+    if (!by.has(k)) by.set(k, { key: k, name: p.name, bare: bareName(p), people: [] });
     by.get(k).people.push(p);
   }
   return by;
@@ -52,18 +61,21 @@ export function firstBearer(set) {
   })[0];
 }
 
-/* a set is SHARED when more than one person bears the name */
+/* a set is SHARED when more than one person bears the name (before the bracket) */
 export const isShared = (set) => set.people.length > 1;
 
 export const SECTION_ID = "others-of-this-name";
 
-/* the old address of every name page -> where it goes now
-   a name one person bears -> that person's page; a shared name -> its first bearer's page at the "Others of this name" section */
+/* the old address of every name page -> where it goes now (see the head of this file). One entry per old key (the whole register name). */
 export function whoRedirects(people, base = "") {
+  const sets = nameSets(people);
   const out = {};
-  for (const [key, set] of nameSets(people)) {
-    const to = firstBearer(set);
-    out[`/who/${key}`] = `${base}/people/${to.slug}/` + (isShared(set) ? `#${SECTION_ID}` : "");
+  for (const p of people) {
+    if (!p || !p.name || !p.slug) continue;
+    const key = oldKey(p), set = sets.get(nameKey(p));
+    const bare = key === set.key && isShared(set);          // the address of a shared NAME, written without a bracket
+    const to = bare ? firstBearer(set) : p;
+    out[`/who/${key}`] = `${base}/people/${to.slug}/` + (isShared(set) && to.living !== true ? `#${SECTION_ID}` : "");
   }
   return out;
 }

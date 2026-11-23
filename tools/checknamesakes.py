@@ -10,23 +10,25 @@ page lists the other people who carry the same name (#others-of-this-name), and 
 This archive had no name-page gate (the kit's checknamepages.py is not wired here), so this one is new, and it checks the NEW rule from the
 BUILD and from nothing the page generator used:
 
-  sets      The sets are derived here from the <title> of every built person page (/people/<slug>/): the register name, accents and case
-            folded (the key the old name pages had). The others of a page are the rest of its set.
+  sets      The sets are derived here from the <title> of every built person page (/people/<slug>/): the register name BEFORE ITS BRACKET
+            ("Gilberto LERENA (b.1879, arr. 1928)" is a Gilberto LERENA; David, 23 November 2026), accents and case folded. The others
+            of a page are the rest of its set.
   missing   a page's "Others of this name" list lacks a person of its name.
   extra     it lists a page that does not carry the name, or itself.
   absent    a name is shared and the page has no list, or the page has a list and nobody shares its name
             (a living person's page is a name and a town and carries no list, as the kit draws it).
-  stub      /who/<name>/ must be a redirect for EVERY name a person page carries; one that is a page still drawn, a redirect whose
-            target is not built or is not a page of that name, whose #fragment is not on the target (a shared name lands on the
-            section; a name one person bears on no fragment), that is not noindex, or that is in the sitemap.
+  stub      /who/<name>/ must be a redirect for EVERY whole register name a person page carries (that was the old address's key);
+            one that is a page still drawn, a redirect whose target is not built or is not a page of that name (an address that
+            carries a bracket lands on the page that has that whole name; the bare name of a shared set lands on a bearer of it),
+            whose #fragment is not on the target (a page that lists others is landed on at the section; a page that lists none, on
+            no fragment), that is not noindex, or that is in the sitemap.
   index     /who/ links to a /who/<name>/ page, or does not link a person page of the archive.
 
 A living person is never named in a message (their slug can carry a year): their page is reported as "a living person's page"
 (any page the kit marks data-living). Exit 0 clean, 1 findings, 2 it could not see what it checks (no build, no person page, no stub).
 
-On 23 November 2026 no name is shared (the register writes a different whole name for every person), so the real build has no list to
-check; the self-test therefore MAKES a shared pair in memory (two unshared pages given one name, the redirects and the lists to match),
-shows that this pair is clean, and plants each fault on it.
+The self-test MAKES one more shared pair in memory (two unshared pages given one name, the redirects and the lists to match), shows
+that the pair is clean, and plants each fault on it, whatever the real build holds.
 """
 import argparse
 import html
@@ -67,6 +69,11 @@ def stub_target(raw):
     return html.unescape(m.group(1)) if m else None
 
 
+def bare(t):
+    """a register name before its first '(' (a name that is only a bracket keeps the whole)"""
+    return re.sub(r"\s*\(.*$", "", t, flags=re.S).strip() or t
+
+
 def title_of(raw):
     m = re.search(r"<title>(.*?)</title>", raw, re.S)
     t = html.unescape(m.group(1)).strip() if m else ""
@@ -90,7 +97,7 @@ def check(pages, sitemap):
     persons = {}
     for route, raw in pages.items():
         if route.startswith("/people/") and route != "/people/" and "data-person-page" in raw and not is_stub(raw):
-            persons[route] = {"key": fold(title_of(raw)), "living": 'data-living="1"' in raw}
+            persons[route] = {"fkey": fold(title_of(raw)), "key": fold(bare(title_of(raw))), "living": 'data-living="1"' in raw}
     stubs = {r: s for r, s in pages.items() if r.startswith("/who/") and r != "/who/" and is_stub(s)}
     named = {r: s for r, s in pages.items() if r.startswith("/who/") and r != "/who/" and not is_stub(s)}
     if not persons or "/who/" not in pages:
@@ -123,10 +130,11 @@ def check(pages, sitemap):
         if extra:
             findings.append("extra: %s lists %d that do not carry its name: %s" % (label(r), len(extra), ", ".join(label(x) for x in extra)))
 
-    # ---- the old addresses: one for every name a person page carries
-    for k in sorted(group):
+    # ---- the old addresses: one for every whole register name a person page carries
+    for r, p in sorted(persons.items()):
+        k = p["fkey"]
         if "/who/%s/" % k not in stubs and "/who/%s/" % k not in named:
-            findings.append("stub: the name of %s has no /who/%s/ address at all (it was published)" % (label(group[k][0]), k))
+            findings.append("stub: the name of %s has no /who/%s/ address at all (it was published)" % (label(r), k))
     for r, raw in sorted(stubs.items()):
         key = r[len("/who/"):-1]
         tgt = stub_target(raw)
@@ -137,13 +145,17 @@ def check(pages, sitemap):
         if path not in persons:
             findings.append("stub: %s lands on %s, which is not a built person page" % (r, path))
             continue
-        if persons[path]["key"] != key:
+        tp = persons[path]
+        if key in shared:          # the bare name of a shared set: any bearer of it
+            if tp["key"] != key:
+                findings.append("stub: %s lands on %s, which is not a page of that name" % (r, label(path)))
+        elif tp["fkey"] != key:    # a name written with its bracket: the page that has that whole name
             findings.append("stub: %s lands on %s, which is not a page of that name" % (r, label(path)))
-        must = key in shared and not persons[path]["living"]
+        must = bool(setof.get(path)) and not tp["living"]
         if frag and frag != SECTION:
             findings.append("stub: %s lands on #%s, which is not the section" % (r, frag))
         elif must and not frag:
-            findings.append("stub: %s is a name %d people carry and has no #%s fragment" % (r, len(group[key]), SECTION))
+            findings.append("stub: %s lands on a page that lists others of its name and has no #%s fragment" % (r, SECTION))
         elif frag and not must:
             findings.append("stub: %s has a #%s fragment and its page has no list to land on" % (r, SECTION))
         elif frag and 'id="%s"' % SECTION not in pages[path]:
@@ -166,6 +178,16 @@ def check(pages, sitemap):
     counts = {"person pages": len(persons), "with a list": with_section, "shared names": len(shared),
               "old name addresses (redirects)": len(stubs), "name pages left": len(named)}
     return findings, counts, setof
+
+
+def shared_keys(pages):
+    """the bare names (before the bracket) that more than one built person page carries"""
+    n = {}
+    for r, raw in pages.items():
+        if r.startswith("/people/") and r != "/people/" and "data-person-page" in raw and not is_stub(raw):
+            k = fold(bare(title_of(raw)))
+            n[k] = n.get(k, 0) + 1
+    return {k for k, c in n.items() if c > 1}
 
 
 def make_shared_pair(pages, setof):
@@ -237,6 +259,11 @@ def selftest(pages, sitemap):
     own = stub_target(base[stub]).partition("#")[0]
     elsewhere = next(r for r in solo if r != own)
     planted("a redirect to a page of another name", lambda v: v.__setitem__(stub, re.sub(r"url=/people/[^\"#]+/", "url=" + elsewhere, v[stub], count=1)), "stub")
+    bare_stubs = sorted(r for r in base if r.startswith("/who/") and r != "/who/" and is_stub(base[r]) and r[len("/who/"):-1] in shared_keys(base))
+    if bare_stubs:
+        bs = bare_stubs[0]
+        planted("a shared name's redirect landing on another name", lambda v: v.__setitem__(bs, re.sub(r"url=/people/[^\"#]+/", "url=" + elsewhere, v[bs], count=1)), "stub")
+        planted("a shared name's redirect with no fragment", lambda v: v.__setitem__(bs, v[bs].replace("#" + SECTION, "")), "stub")
     planted("a redirect that can be indexed", lambda v: v.__setitem__(stub, v[stub].replace('name="robots" content="noindex"', 'name="robots" content="index"')), "stub")
     planted("a name page drawn again (no redirect)", lambda v: v.__setitem__(stub, v[solo[0]]), "stub")
     planted("a name with no old address", lambda v: v.pop(stub), "stub")

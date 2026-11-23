@@ -12,15 +12,18 @@ import { SETS, firstOf, isShared, byAge, SECTION_ID } from "../../lib/namesakes.
 const esc = (s) => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/"/g, "&quot;");
 const names = [...SETS.values()].map((s) => {
   const first = firstOf(s);
+  const many = isShared(s);
   return {
-    slug: s.key, name: s.name, n: s.people.length,
-    href: u(`/people/${first.slug}/`) + (isShared(s) && first.living !== true ? `#${SECTION_ID}` : ""),
-    /* every bearer of a shared name, each a link to that person's own page, with the year born where the register gives one (the names read
-       alike, so the year is what tells the links apart); a living person is "a living person" and nothing more */
-    detail: isShared(s)
+    slug: s.key,
+    /* a name several rows bear is shown without its bracket (each bearer is listed below it with the bracket); one row keeps the name it has */
+    name: many ? s.bare : s.name, n: s.people.length,
+    href: u(`/people/${first.slug}/`) + (many && first.living !== true ? `#${SECTION_ID}` : ""),
+    /* every bearer of a shared name, each a link to that person's own page, with the name as the register writes it (its bracket tells them
+       apart) and the year born where the register gives one; a living person is "a living person" and nothing more */
+    detail: many
       ? s.people.slice().sort(byAge).map((b) => {
           const yr = yearIn(b.born);
-          return `<a href="${esc(u(`/people/${b.slug}/`))}">${b.living === true ? "a living person" : esc(b.name) + (yr ? ` (b. ${yr})` : "")}</a>`;
+          return `<a href="${esc(u(`/people/${b.slug}/`))}">${b.living === true ? "a living person" : esc(b.name) + (yr && !String(b.name).includes(String(yr)) ? ` (b. ${yr})` : "")}</a>`;
         }).join("<br>")
       : "",
   };
