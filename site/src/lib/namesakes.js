@@ -8,9 +8,12 @@ import { u } from "./url.js";
 export const SETS = nameSets(people);
 export { SECTION_ID, slugify, isShared, nameKey, byAge };
 
+/* this register writes «-» for «not known» */
+const said = (v) => { const t = String(v ?? "").trim(); return t && t !== "-" && t !== "?" ? t : ""; };
+
 export const entry = (q) => q.living === true
   ? { name: q.name, slug: q.slug, href: u(`/people/${q.slug}/`), life: "", where: [q.town, q.country].filter(Boolean).join(", "), living: true }
-  : { name: q.name, slug: q.slug, href: u(`/people/${q.slug}/`), life: [q.born, q.died].filter(Boolean).join(" – "), where: q.birthplace || "", living: false };
+  : { name: q.name, slug: q.slug, href: u(`/people/${q.slug}/`), life: [said(q.born), said(q.died)].filter(Boolean).join(" – "), where: said(q.birthplace), living: false };
 
 /* the other people of p's name, oldest first: [] when nobody shares it */
 export const othersFor = (p) => othersOf(p, SETS).map(entry);
