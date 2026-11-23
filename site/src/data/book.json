@@ -55,6 +55,11 @@
      "blurb": "Lerena is a rare surname, and may be two separate names sharing one spelling."
     },
     {
+     "path": "/forenames/",
+     "title": "The forenames",
+     "blurb": "The given names of these records, and every form a clerk in another language or century would have entered each under."
+    },
+    {
      "path": "/lines/",
      "title": "The Lines",
      "blurb": "Every line of the name side by side, where each begins and where it went; every household and person on none of them, counted; and which lines join, which do not, and which nobody can yet say."
@@ -261,6 +266,11 @@
      "path": "/register/",
      "title": "The Register",
      "blurb": "Every person of this surname, and every spouse and parent of one, with the source that names each. The raw catch, not a family tree."
+    },
+    {
+     "path": "/households/",
+     "title": "Households",
+     "blurb": "Every couple the register can name and the children it records under them, each household with what it stands on."
     },
     {
      "path": "/places/",
