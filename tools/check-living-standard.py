@@ -17,7 +17,7 @@ files committed with it:
                 site/src ...) or any built page or served file, and no literal full date of theirs is served.
                 A living person is recorded by data/living-roster.tsv (name, slug, town, country, no date).
   r  ROSTER     the roster is not empty, holds no digit, and lists nobody the data records as dead.
-  d  NAME PAGES a /who/ page whose every bearer is living is noindex and names no canonical elsewhere.
+  d  NAME PAGES a /who/ address whose every bearer is living is noindex and names no canonical but its person's own page (it is a redirect stub since 23 Nov 2026).
   e  HELD OUT   an undated person with a living parent, or a person promised privacy, appears nowhere: not in a data file,
                 a tsv, a built page or a served file. (This archive's inputs are COMMITTED, so a
                 undated child entered in the register is itself a leak: the gate fails on the row.)
@@ -244,8 +244,11 @@ def main():
             doc = read(wdir)
             if not re.search(r'name=["\']robots["\'][^>]*noindex', doc[:6000], re.I):
                 fail("d", f"/who/{wdir.parent.name}/ names only living people and is not noindex")
+            # ONE PAGE PER PERSON (23 November 2026): /who/<name>/ is a redirect stub to the person's page, and a stub carries a canonical
+            # to its target by construction. That target is the one canonical it may name: the /people/ page of a bearer of the name.
+            targets = {f"/people/{b['slug']}/" for b in bearers}
             for c in re.findall(r'<link[^>]+rel=["\']canonical["\'][^>]*href=["\']([^"\']+)', doc):
-                if f"/who/{wdir.parent.name}" not in c:
+                if re.sub(r"^https?://[^/]+", "", c) not in targets:
                     fail("d", f"/who/{wdir.parent.name}/ names a canonical elsewhere ({c})")
         elif bearers and all(b.get("noindex") for b in bearers):
             if not re.search(r'name=["\']robots["\'][^>]*noindex', read(wdir)[:6000], re.I):
