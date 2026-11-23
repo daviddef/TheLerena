@@ -1,0 +1,15 @@
+---
+/* DRAWN: the hub for the pages that draw this archive's people rather than list them. The People menu has one link, "Drawn", to here
+   (23 November 2026, estate clean-up). The list is lib/drawn.js. */
+import Base from "../layouts/Base.astro";
+import ResearchList from "@daviddef/archive-kit/components/ResearchList.astro";
+import { u } from "../lib/url.js";
+import { DRAWN } from "../lib/drawn.js";
+---
+<Base title="Drawn" eyebrow="People, as pictures rather than lists"
+      dek="Every page that draws the people of this archive instead of listing them: the line, the trees, the blood relatives, the years in order and the Spine.">
+  <section class="blk">
+    <ResearchList items={DRAWN} />
+    <p class="cap" style="margin-top:22px">The lists are under People: <a href={u("/people/")}>The People</a> · <a href={u("/who/")}>Every Name</a> · <a href={u("/register/")}>The Register</a> · <a href={u("/marriages/")}>The Marriages</a>.</p>
+  </section>
+</Base>

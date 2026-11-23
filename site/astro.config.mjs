@@ -8,6 +8,10 @@ import { defineConfig } from 'astro/config';
    addresses stay alive and land on the section that now holds them. */
 const BASE = '';
 const redirects = {
+  /* 23 November 2026 (estate clean-up; David: "roots and routes, remove it"). The archive's own Roots & Routes page was removed; its address was
+     published, so it stays alive and lands on the drawn trees. /roots/view.html is NOT a page of that kind: it is the bare viewer the person pages
+     frame (their "In Roots & Routes" panel), and it stays, noindex, at its own address. */
+  '/roots': `${BASE}/trees/`,
   /* 12 October 2026. The army card spells him LORENA; the baptism act of San Cristobal,
      read at the plate the same day, spells him LERENA - and that act is what proved his
      parents are the 1895 census household. The row was renamed to what the act says, so

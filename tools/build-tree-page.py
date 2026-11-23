@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """Roots & Routes: the tree page for this archive, built from this archive's own committed data.
 
-    python3 tools/build-tree-page.py            # rebuild data/tree-page/ (tree.json, atlas-data.json, roots.html, roots.embed.html) and site/public/roots-links.json
+    python3 tools/build-tree-page.py            # rebuild data/tree-page/ (tree.json, atlas-data.json, roots.html) and site/public/roots-links.json
     python3 tools/build-tree-page.py --check    # exit 1 if the page is older than the data it was built from
 
 WHERE THE PEOPLE COME FROM. There is no committed GEDCOM. The people are the ones site/src/data/people.json holds (written from data/lerena-register.tsv by
@@ -353,7 +353,7 @@ def undrawn_cards(allp, t, key_i, cat):
       - a DEAD person the maps skip: an unplaced card with their details (given, sur, by/dy where the register holds a year, parent/spouse/child links, page, cx);
       - a LIVING person, and a person with NO DEATH recorded and born in the last 110 years: a living-style card, `living: true`, NAME AND FAMILY LINKS ONLY (no dates, no place,
         no page link, no cx). Their names are already public on their pages; this adds nothing about them.
-    Even a `noindex` person is a living-style card (David, 17 November 2026, option A: everyone is shown, and /roots/ and /roots/view.html are noindex so a living name there is not findable). Links follow the register's own (never `via: tree`) and only to people who are themselves in tree.json."""
+    Even a `noindex` person is a living-style card (David, 17 November 2026, option A: everyone is shown, and /roots/view.html is noindex so a living name there is not findable). Links follow the register's own (never `via: tree`) and only to people who are themselves in tree.json."""
     drawn = {p["id"] for p in t["people"]}
     cand = [p for p in allp if p.get("slug") and p["slug"] not in drawn]
     ids = drawn | {p["slug"] for p in cand}
@@ -453,9 +453,6 @@ def main():
     write_roots_links(tree)
     tpl = os.path.join(TP, "tree-views.template.html")
     run([sys.executable, os.path.join(TP, "build_page.py"), "--template", tpl, "--tree", tree, "--atlas-data", ad, "--out", page, "--ext", EXT])
-    embed = os.path.join(OUT, "roots.embed.html")
-    run([sys.executable, os.path.join(TP, "build_page.py"), "--template", tpl, "--tree", tree, "--atlas-data", ad, "--out", embed, "--embed", "--ext", EXT])
     run([sys.executable, os.path.join(TP, "check_tree_page.py"), "--tree", tree, "--atlas-data", ad, "--page", page])
-    run([sys.executable, os.path.join(TP, "check_tree_page.py"), "--tree", tree, "--atlas-data", ad, "--page", embed])
 
 if __name__ == "__main__": main()

@@ -940,3 +940,4 @@ td .rec-fig,dd .rec-fig{max-width:11rem}
 /* The ribbon flags' key and credit (27 October 2026): the kit's FamilyRibbon writes "... (hover for which place). <span>Flags: ...",
    and the build drops that space on the family pages; this puts it back (a doubled space collapses, so a fixed kit is unharmed). */
 .fr-fl .flag-credit::before{content:" "}
+.topnav .panel a.ps,.drawer a.ps{text-decoration:none}.topnav .panel a.ps:hover,.drawer a.ps:hover,.topnav .panel a.ps.on,.drawer a.ps.on{text-decoration:underline;background:none}

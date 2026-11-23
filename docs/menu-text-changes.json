@@ -1,5 +1,5 @@
 {
- "note": "PR A, the menu regroup (12 November 2026): what was changed ON PURPOSE, read by scripts/menu-inventory-kit.py. The research-trial's declarations are kept in docs/menu-text-changes-research-trial.json.",
+ "note": "PR A, the menu regroup (12 November 2026): what was changed ON PURPOSE, read by scripts/menu-inventory-kit.py. The research-trial's declarations are kept in docs/menu-text-changes-research-trial.json. (The /changes/ block is not listed under `accepted`: the kit's compare reads hashed blocks, which `accepted` cannot match.) Further declarations from the estate clean-up of 23 November 2026 (no Roots & Routes, no GitHub links, simpler menus) are in the same lists, each with its reason.",
  "token_swaps": [],
  "accepted": [],
  "snapshot_pages": {},
@@ -11,6 +11,42 @@
   {
    "page": "/research/sources-and-method/",
    "why": "the same: the Deep dives list on the Sources & method page gains The DNA, The Archives and The British Archives; nothing removed"
+  },
+  {
+   "page": "/changes/",
+   "why": "23 Nov 2026: the one paragraph above loses its GitHub link ('the repository'); the sentence stays, without the link"
+  },
+  {
+   "page": "/people/*",
+   "why": "23 Nov 2026: a person page's Roots & Routes panel no longer ends with 'Open Roots & Routes on this person', because /roots/ was removed (it redirects to /trees/); the frames above it are unchanged"
+  },
+  {
+   "page": "/research/",
+   "why": "23 Nov 2026: the Deep dives heading is now a link to /research/deep-dives/ (the same words)"
+  },
+  {
+   "page": "/research/sources-and-method/",
+   "why": "23 Nov 2026: the Deep dives heading is now a link to /research/deep-dives/ (the same words)"
+  },
+  {
+   "page": "/roots/",
+   "why": "23 Nov 2026: the Roots & Routes page was removed on purpose (David: 'roots and routes, remove it'); the address is a redirect to /trees/. Its 71 text blocks are the removed page's own"
+  },
+  {
+   "page": "/contents/",
+   "why": "23 Nov 2026: the book's contents lose the Roots & Routes chapter and gain Drawn (the hub) and Deep dives (the hub)"
+  },
+  {
+   "page": "/part/how-we-know/",
+   "why": "23 Nov 2026: the part lists the new Deep dives hub (chapter numbers after it move up one)"
+  },
+  {
+   "page": "/part/everyone/",
+   "why": "23 Nov 2026: the part loses Roots & Routes and gains the Drawn hub in its place at the end"
+  },
+  {
+   "page": "/search/",
+   "why": "23 Nov 2026: two more things in the search box (the Drawn and Deep dives hubs), 2,454 to 2,456"
   }
  ]
 }
