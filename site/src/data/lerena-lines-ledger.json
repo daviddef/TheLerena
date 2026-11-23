@@ -8,8 +8,8 @@
   "Anyone on no line and in no household is counted in one of two pens: people of the name with no family recorded here, or people in the acts who are not of the name and are kin to nobody here.",
   "Everybody is counted, and nobody is counted twice. A person is listed by name only when their page publishes a birth year before the living line or a death, and no rule of this archive holds them as living or out of publication; everybody else is a number only."
  ],
- "total": 1521,
- "listed": 944,
+ "total": 1537,
+ "listed": 955,
  "lanes": [
   {
    "key": "sancho",
@@ -59,8 +59,8 @@
     "Buenos Aires",
     "Mercedes"
    ],
-   "people": 171,
-   "listed": 105
+   "people": 174,
+   "listed": 108
   },
   {
    "key": "ramon",
@@ -270,9 +270,9 @@
    "key": "households",
    "kind": "not-yet-placed",
    "head": "Real households of the name — on none of these lines",
-   "households": 41,
-   "people": 176,
-   "listed": 94
+   "households": 46,
+   "people": 190,
+   "listed": 102
   },
   {
    "id": "of-the-name-alone",
@@ -289,7 +289,7 @@
    "kind": "not-yet-placed",
    "head": "In the acts but not of the name, and kin to nobody on a line",
    "households": 0,
-   "people": 227,
+   "people": 226,
    "listed": 42
   },
   {
@@ -689,6 +689,29 @@
    "listed": 0
   },
   {
+   "label": "The household of Abdon Eustaquio LLERENA — Montevideo",
+   "pen": "not-yet-placed",
+   "href": "/people/abdon-eustaquio-llerena/",
+   "why": "2 people the register joins to one another by its own links and to no line by any. Of the name: Abdon Eustaquio LLERENA.",
+   "status": "origin-unknown",
+   "statusNote": "",
+   "span": [
+    1837,
+    1837
+   ],
+   "places": [
+    [
+     "Montevideo",
+     1837,
+     1837
+    ]
+   ],
+   "onLane": [],
+   "written": false,
+   "people": 2,
+   "listed": 1
+  },
+  {
    "label": "The household of Amelia LERENA Morales — Montevideo",
    "pen": "not-yet-placed",
    "href": "/people/amelia-lerena-morales/",
@@ -704,6 +727,29 @@
      "Montevideo",
      1862,
      1862
+    ]
+   ],
+   "onLane": [],
+   "written": false,
+   "people": 3,
+   "listed": 1
+  },
+  {
+   "label": "The household of Ana Maria Rosa BIANCO — Montevideo",
+   "pen": "not-yet-placed",
+   "href": "/people/ana-maria-rosa-bianco/",
+   "why": "3 people the register joins to one another by its own links and to no line by any.",
+   "status": "origin-unknown",
+   "statusNote": "",
+   "span": [
+    1840,
+    1840
+   ],
+   "places": [
+    [
+     "Montevideo",
+     1840,
+     1840
     ]
    ],
    "onLane": [],
@@ -818,18 +864,27 @@
    "listed": 2
   },
   {
-   "label": "A household of 2 at Canelones",
+   "label": "The household of Damasia Maria LLERENA — Montevideo",
    "pen": "not-yet-placed",
-   "href": "/register/",
-   "why": "2 people the register joins to one another by its own links and to no line by any.",
+   "href": "/people/damasia-maria-llerena/",
+   "why": "3 people the register joins to one another by its own links and to no line by any. Of the name: Damasia Maria LLERENA.",
    "status": "origin-unknown",
    "statusNote": "",
-   "span": null,
-   "places": [],
+   "span": [
+    1835,
+    1835
+   ],
+   "places": [
+    [
+     "Montevideo",
+     1835,
+     1835
+    ]
+   ],
    "onLane": [],
    "written": false,
-   "people": 2,
-   "listed": 0
+   "people": 3,
+   "listed": 1
   },
   {
    "label": "A household of 3 at Buenos Aires",
@@ -1095,6 +1150,29 @@
    "listed": 2
   },
   {
+   "label": "The household of Maria LERENA — Montevideo",
+   "pen": "not-yet-placed",
+   "href": "/people/maria-lerena-7/",
+   "why": "2 people the register joins to one another by its own links and to no line by any. Of the name: [infant] LERENA, Maria LERENA.",
+   "status": "origin-unknown",
+   "statusNote": "",
+   "span": [
+    1847,
+    1869
+   ],
+   "places": [
+    [
+     "Montevideo",
+     1847,
+     1869
+    ]
+   ],
+   "onLane": [],
+   "written": false,
+   "people": 2,
+   "listed": 2
+  },
+  {
    "label": "The household of Jose Maria REYES — Cordon, Montevideo",
    "pen": "not-yet-placed",
    "href": "/people/jose-maria-reyes/",
@@ -1138,6 +1216,29 @@
    "onLane": [],
    "written": false,
    "people": 5,
+   "listed": 1
+  },
+  {
+   "label": "The household of Maria Benita LLERENA — Montevideo",
+   "pen": "not-yet-placed",
+   "href": "/people/maria-benita-llerena/",
+   "why": "3 people the register joins to one another by its own links and to no line by any. Of the name: Maria Benita LLERENA.",
+   "status": "origin-unknown",
+   "statusNote": "",
+   "span": [
+    1841,
+    1841
+   ],
+   "places": [
+    [
+     "Montevideo",
+     1841,
+     1841
+    ]
+   ],
+   "onLane": [],
+   "written": false,
+   "people": 3,
    "listed": 1
   },
   {
@@ -1295,6 +1396,29 @@
    "onLane": [],
    "written": false,
    "people": 2,
+   "listed": 2
+  },
+  {
+   "label": "The household of Maria Rosa Rudesinda LLERENA — Montevideo",
+   "pen": "not-yet-placed",
+   "href": "/people/maria-rosa-rudesinda-llerena/",
+   "why": "3 people the register joins to one another by its own links and to no line by any. Of the name: Maria Rosa Rudesinda LLERENA.",
+   "status": "origin-unknown",
+   "statusNote": "",
+   "span": [
+    1829,
+    1831
+   ],
+   "places": [
+    [
+     "Montevideo",
+     1829,
+     1831
+    ]
+   ],
+   "onLane": [],
+   "written": false,
+   "people": 3,
    "listed": 2
   },
   {

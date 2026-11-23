@@ -273,15 +273,16 @@
      "grade": "doc"
     },
     {
-     "kind": "today",
+     "kind": "era",
      "line": "spouse",
      "place": "West Leigh by Coldridge, Devon",
-     "svg": "uk-flags--era-1922.svg",
-     "flag": "uk-flags--era-1922",
-     "country": "GB",
-     "year": null,
-     "label": "spouse of West Leigh by Coldridge, Devon: the United Kingdom today",
-     "grade": "doc"
+     "svg": "uk-flags--era-1801.svg",
+     "flag": "uk-flags--era-1801",
+     "era": "england--era-1538",
+     "year": 1814,
+     "label": "spouse of West Leigh by Coldridge, Devon, 1814: Britain and its colonies then",
+     "grade": "doc",
+     "assessed": true
     }
    ],
    [

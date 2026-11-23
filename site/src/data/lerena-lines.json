@@ -115,6 +115,7 @@
     "eduardo-avelino-zalduando-lerena",
     "eduardo-lerena",
     "eduardo-zalduondo",
+    "elisa-lerena-villademoros",
     "ema-justina-felicia-lerena-regules",
     "ema-regules",
     "ema-sixta-lerena-juanico",
@@ -128,6 +129,8 @@
     "gilberto-lerena",
     "hector-narciso-lerena-bassani",
     "hilario-barros-llerena",
+    "infant-moratorio-lerena",
+    "infant-moratorio-lerena-2",
     "jacinta-mercedes-gregoria-lerena-villademoros",
     "josefa-lerena-traibel",
     "juan-arturo-lerena-traibel",
@@ -1080,9 +1083,19 @@
      "An Argentine-national Lerena born within three years of Pablo Armando, travelling with a son Gilberto of twelve. *** What fits Gilberto LERENA Salvanach, the eldest son of the Stud Book Gilberto: *** a birth year one out, Argentine nationality, Buenos Aires, a marriage of 1906. *** DELIBERATELY NOT MERGED: *** both rows are index-level, and the Argentine military record or the CEMLA entry would settle it."
     ],
     [
+     "The household of Abdon Eustaquio LLERENA — Montevideo",
+     "/people/abdon-eustaquio-llerena/",
+     "2 people the register joins to one another by its own links and to no line by any. Of the name: Abdon Eustaquio LLERENA."
+    ],
+    [
      "The household of Amelia LERENA Morales — Montevideo",
      "/people/amelia-lerena-morales/",
      "3 people the register joins to one another by its own links and to no line by any. Of the name: Amelia LERENA Morales."
+    ],
+    [
+     "The household of Ana Maria Rosa BIANCO — Montevideo",
+     "/people/ana-maria-rosa-bianco/",
+     "3 people the register joins to one another by its own links and to no line by any."
     ],
     [
      "The household of Antonino PERENA — Trinidad, Flores",
@@ -1110,9 +1123,9 @@
      "2 people the register joins to one another by its own links and to no line by any. Of the name: Asuncion LERENA, Domingo LERENA."
     ],
     [
-     "A household of 2 at Canelones",
-     "/register/",
-     "2 people the register joins to one another by its own links and to no line by any."
+     "The household of Damasia Maria LLERENA — Montevideo",
+     "/people/damasia-maria-llerena/",
+     "3 people the register joins to one another by its own links and to no line by any. Of the name: Damasia Maria LLERENA."
     ],
     [
      "A household of 3 at Buenos Aires",
@@ -1175,6 +1188,11 @@
      "6 people the register joins to one another by its own links and to no line by any. Of the name: Victorina SERENA/LLERENA."
     ],
     [
+     "The household of Maria LERENA — Montevideo",
+     "/people/maria-lerena-7/",
+     "2 people the register joins to one another by its own links and to no line by any. Of the name: [infant] LERENA, Maria LERENA."
+    ],
+    [
      "The household of Jose Maria REYES — Cordon, Montevideo",
      "/people/jose-maria-reyes/",
      "2 people the register joins to one another by its own links and to no line by any."
@@ -1183,6 +1201,11 @@
      "The household of Victor LERENA — Montevideo, calle Corrales 36",
      "/people/victor-lerena/",
      "5 people the register joins to one another by its own links and to no line by any. Of the name: Victor LERENA."
+    ],
+    [
+     "The household of Maria Benita LLERENA — Montevideo",
+     "/people/maria-benita-llerena/",
+     "3 people the register joins to one another by its own links and to no line by any. Of the name: Maria Benita LLERENA."
     ],
     [
      "The household of L. S. LERENA Dominguez — Florida, Uruguay",
@@ -1220,6 +1243,11 @@
      "2 people the register joins to one another by its own links and to no line by any. Of the name: Rafael LLERENA."
     ],
     [
+     "The household of Maria Rosa Rudesinda LLERENA — Montevideo",
+     "/people/maria-rosa-rudesinda-llerena/",
+     "3 people the register joins to one another by its own links and to no line by any. Of the name: Maria Rosa Rudesinda LLERENA."
+    ],
+    [
      "A household of 2 at Cordoba, Argentina (2)",
      "/register/",
      "2 people the register joins to one another by its own links and to no line by any."
@@ -1236,7 +1264,9 @@
     ]
    ],
    "members": [
+    "abdon-eustaquio-llerena",
     "amelia-lerena-morales",
+    "ana-maria-rosa-bianco",
     "anastasia-lerena",
     "anastasia-santa-cruz",
     "antonina-lerena-4",
@@ -1254,6 +1284,7 @@
     "carmen-roman-lerena",
     "d-b-lerena",
     "d-d-lerena",
+    "damasia-maria-llerena",
     "domingo-lerena",
     "e-e-lerena",
     "e-lerena",
@@ -1277,6 +1308,7 @@
     "honorio-alvarez",
     "hugo-alberto-castilla-lerena",
     "idersio-lerena-araujo",
+    "infant-lerena",
     "isabel-lerena-barragan",
     "isabel-llerena-clavijo",
     "j-p-barbe",
@@ -1299,15 +1331,19 @@
     "lucia-llanos",
     "luis-alejandro-llerena",
     "luis-costales-serena",
+    "maria-benita-llerena",
     "maria-carlota-amadeo-lastra",
     "maria-cristina",
     "maria-dolores-rodriguez",
     "maria-isabel-rodriguez",
     "maria-juana-rodriguez",
+    "maria-lerena-7",
     "maria-luisa-lerena-2",
     "maria-regina-lerena-barragan",
+    "maria-rosa-rudesinda-llerena",
     "maria-salome-lerena",
     "martina-lerena",
+    "narciso-saturnino",
     "nicolas-lerena",
     "paulina-lerena",
     "pedro-lerena",
