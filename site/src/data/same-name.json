@@ -5,7 +5,7 @@
    "name": "Maria Lerena",
    "slug": "maria-lerena",
    "links": 38,
-   "exact": 5,
+   "exact": 6,
    "bearers": [
     {
      "slug": "maria-lerena",
@@ -102,6 +102,26 @@
       {
        "slug": "zeferino-pelaez",
        "name": "Zeferino PELAEZ (b. 1904, son of Maximo and Maria Lerena)",
+       "tree": false
+      }
+     ]
+    },
+    {
+     "slug": "maria-lerena-7",
+     "name": "Maria LERENA (wife of Carlos Ambrosio Lerena; d. 9 April 1869, Montevideo)",
+     "exact": true,
+     "status": "interest",
+     "born": "about 1847",
+     "died": "",
+     "where": "Montevideo · Oriental",
+     "source": "Montevideo, Iglesia Matriz (Catedral), Religious Death Records, Libro 16 de finados (DGS film 007713385 frame 2269 = image 1018, book page 539 …",
+     "father": null,
+     "mother": null,
+     "spouses": [],
+     "children": [
+      {
+       "slug": "infant-lerena",
+       "name": "[infant] LERENA (unnamed; d. 28 March 1869, Montevideo)",
        "tree": false
       }
      ]
@@ -598,7 +618,7 @@
      "exact": false,
      "status": "unplaced",
      "born": "1880",
-     "died": "",
+     "died": "1880",
      "where": "Montevideo · Uruguayan",
      "source": "Named at the baptisms of Maria Carlota and Maria de las Mercedes Moratorio Lerena, Catedral Basilica de Montevideo, 8 Mar 1880 (this archive placed it at the UNION until …",
      "father": {
@@ -1516,6 +1536,11 @@
       {
        "slug": "alejandro-joaquin-narciso-lerena-villardemoros",
        "name": "Alejandro Joaquin Narciso LERENA Villardemoros",
+       "tree": false
+      },
+      {
+       "slug": "elisa-lerena-villademoros",
+       "name": "Elisa LERENA Villademoros (d. 1888)",
        "tree": false
       },
       {
