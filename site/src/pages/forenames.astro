@@ -1,0 +1,96 @@
+---
+/* THE FORENAMES, 23 November 2026 (the estate's «The forenames» in the menu group The name; menus.md). The kit's SayYourName, reading Record Atlas's given-name catalogue.
+ *
+ * THE FORMS ARE NOT KEPT HERE. Every form of a given name, by language, and whether a family archive has met it on a record, is kept ONCE, in Record Atlas
+ * (data/given-name-families.json, written only through scripts/given_name_variants.py), and fetched into src/data/given-names.json by the Archive Kit's
+ * tools/atlas_given_names.py with --seen src/data/given-forms-seen.json (this archive's own count of every form in its records; tools/build-given-forms-seen.py)
+ * and --strict (it exits 2 for a form of ours the Atlas lacks). `npm run given:atlas` does it; `npm run check:forenames` is the offline gate. A form met in a record
+ * here is added to the Atlas with its evidence, never to this page.
+ *
+ * WHAT THIS PAGE CHOOSES, AND SAYS. The Atlas holds the name in ~60 languages; a page for a Uruguayan and Argentine register with an English branch shows the eight
+ * that bear on these records (LANGS below), and the rows in which this archive has met a form in one of them. The Atlas's `seen` is set from a form's spelling
+ * alone, so a form written the same in several languages («Maria», «Anna») would be «attested here» in each. Here a form met in these records is attributed to the
+ * FIRST of these languages (in this order) that writes it, and to no other; the Atlas's own count across archives stays as `seenAll`.
+ */
+import Base from "../layouts/Base.astro";
+import SayYourName from "@daviddef/archive-kit/components/SayYourName.astro";
+import { u } from "../lib/url.js";
+import G from "../data/given-names.json";
+import seenFile from "../data/given-forms-seen.json";
+
+/* Spanish and Latin are the languages of the registers; English is the Taylor and Brayley line and the South African records; Italian, Portuguese, Catalan,
+   Galician and Basque are the neighbours a Spanish or River Plate clerk's name could have come from or been written in. */
+const LANGS = ["spanish", "latin", "english", "italian", "portuguese", "catalan", "galician", "basque"];
+const fold = (s) => String(s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").trim().replace(/\?+$/, "");
+
+const langs = LANGS.map((k) => G.languages.find((l) => l.key === k)).filter(Boolean);
+const rows = [];
+for (const r of G.rows) {
+  const claimed = new Set();
+  const out = {};
+  let here = 0;
+  for (const k of LANGS) {
+    out[k] = (r.langs?.[k] || []).map((f) => {
+      const key = fold(f.form);
+      const mine = f.seen > 0 && !claimed.has(key);
+      if (mine) { claimed.add(key); here++; }
+      return { ...f, seen: mine ? f.seen : 0 };
+    });
+  }
+  if (here > 0) rows.push({ ...r, langs: out });
+}
+rows.sort((a, b) => a.canon.localeCompare(b.canon, "es"));
+
+const heldRows = new Set(G.rows.flatMap((r) => Object.values(r.langs || {}).flat().map((f) => fold(f.form))));
+const heldNotSame = new Set(G.rows.flatMap((r) => (r.notSame || []).map((f) => fold(f.form))));
+const observed = seenFile.observed || {};
+const forms = Object.keys(observed);
+const total = rows.reduce((a, r) => a + Object.values(r.langs).reduce((b, f) => b + f.length, 0), 0);
+const met = rows.reduce((a, r) => a + Object.values(r.langs).reduce((b, f) => b + f.filter((x) => x.seen > 0).length, 0), 0);
+const inCatalogue = forms.filter((f) => heldRows.has(fold(f))).length;
+const differentName = forms.filter((f) => !heldRows.has(fold(f)) && heldNotSame.has(fold(f)));
+---
+<Base title="The forenames"
+      eyebrow={`${forms.length} forms of given names met in these records · ${rows.length} names`}
+      dek="A person is written down by clerks in different languages and different centuries, and a given name is where it shows first: Juan, Joannes, John and Giovanni are one name. Type one and see every form the same name would have been entered under.">
+
+  <section class="prose">
+    <p>This archive's registers are in Spanish and in the Latin of the church, its English branch in English, and the clerks did not agree. <em>Joaquin</em> is
+      written <em>Joaquín</em> or <em>Joachim</em> or <em>Joaquim</em>; <em>Isabel</em> is <em>Ysabel</em>; a Juan in a Montevideo register is Joannes in the
+      Latin of the entry and John on an English one. A search typed from a family tree finds one of those and misses the rest, and a nil from that search is only a
+      nil about the one spelling.</p>
+    <p><strong>A name you have looked up is a link you can send.</strong> The address bar follows the search, so <span class="mono" style="font-size:13px">?n=Joaquin</span> opens on
+      exactly what you were looking at.</p>
+    <p><strong>Two kinds of cell.</strong> A form printed plainly is one this archive has met in its own records: <strong>{met}</strong> of the {total} below. A form marked
+      <span class="aid">like this<sup>°</sup></span> is a <strong>lookup aid</strong>: the right form in that language, and the right thing to type into an index tomorrow, but not
+      something these records have yet shown. The difference between «we have read this» and «this is what to look for» is the difference between a record and a lead, and the page
+      never merges the two.</p>
+    <p><strong>Nothing here is decided on this page.</strong> The forms are kept once, with the evidence that each was met, in <a href="https://recordatlas.org/your-name/">Record Atlas</a>,
+      and this page is read from that catalogue. Of the {forms.length} forms of given names this archive has met, <strong>{inCatalogue}</strong> are held in it as forms of a name. {forms.length - inCatalogue - differentName.length > 0 ? `${forms.length - inCatalogue - differentName.length} are not yet; ` : ""}The Atlas
+      keeps the name in many more languages than the eight shown here (the ones these records bear on: Spanish, Latin, English, Italian, Portuguese, Catalan, Galician and Basque), and every
+      one of them is on the Atlas's own page.</p>
+    <p>The register writes names without accents (<em>Joaquin</em>, <em>Concepcion</em>), and a search here ignores them too. A form met in several of these languages is counted as met in the first of
+      them in the order above; the others stay as lookup aids.</p>
+    {differentName.length > 0 && (
+      <p><strong>{differentName.length === 1 ? "One form" : `${differentName.length} forms`} in these records the Atlas holds as a different name from the one it files near it:</strong>
+        {" "}{differentName.map((f) => f[0].toUpperCase() + f.slice(1)).join(", ")}. The Atlas's page for the name each could be taken for says so (&laquo;Look alike, but a different name&raquo;), and this archive does not file them under that name either. They are not searchable here, because the Atlas keeps one family for a form.</p>
+    )}
+  </section>
+
+  <SayYourName rows={rows} u={u} langs={langs}
+    chips={["Juan", "Joannes", "Joaquin", "Jose", "Ysabel", "Maria", "Eduviges", "Bernabe"]} />
+
+  <section class="prose" style="margin-top:48px">
+    <h3>The forms this does not cover</h3>
+    <p>Diminutives and household names (<em>Pepe</em>, <em>Paco</em>, <em>Nene</em>) appear in speech and rarely in a register. A person who bore two or three forenames is counted once under each:
+      the register's «Maria Luisa» is one Maria and one Luisa. A given name that a record gives to a person who is not of the name, such as a witness, a godparent or an official, is counted
+      too; <em>what</em> a form was met in is the Atlas's evidence line, and nothing about who bore it is kept anywhere.</p>
+    <h3>And the surname does the same thing</h3>
+    <p>The spellings of the surname move with the clerk and the place, not with the bloodline, and they are kept the same way: once, in Record Atlas, not here. See <a href={u("/name/")}>The Name</a>.</p>
+  </section>
+</Base>
+
+<style is:global>
+  p .aid { color: var(--ink-3); font-style: italic; }
+  p .aid sup { color: var(--terra); font-style: normal; }
+</style>

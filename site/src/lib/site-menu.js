@@ -28,6 +28,8 @@
    23 NOVEMBER 2026 (Households, the page the other archives carry): People > Lists gains "Households" (/households/), after The Register and before The Marriages
    (menus.md: People lists «People, Every Name, The Register, Households where held, Marriages»). The page is the kit's Households on the register's own links
    (tools/build-households.py); it is not the 46 «households not yet placed» of /lines/, which are family groups on no line.
+   23 NOVEMBER 2026 (The forenames): the group The name gains "The forenames" (/forenames/), the kit's SayYourName reading Record Atlas's given-name catalogue
+   (menus.md: «The name: The Name, The forenames. Every archive has this group»). Nothing is kept here: the forms are the Atlas's.
    NOTE for the landing page at defranceski.com: it once read this archive's family labels to show its family pages. The menu now names
    three of them (the index, Taylor, Fernandez); every family page is still built at the address it had. */
 import { navGroups } from "./research-menu.js";
@@ -56,7 +58,7 @@ export const MENU = [
     ] },
   ]],
   ["The name", [
-    ["/name/", "The Name"],
+    ["/name/", "The Name"], ["/forenames/", "The forenames"],
   ]],
   ["Research", navGroups],
 ];

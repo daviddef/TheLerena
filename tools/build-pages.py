@@ -190,6 +190,7 @@ PAGES = [
     ("The archives", "/naairs/", "NAAIRS and the South African depots"),
     ("Roadmap", "/roadmap/", "What is being worked on next"),
     ("Households", "/households/", "Every couple the register can name, and the children it records under them, each with what the household stands on"),
+    ("The forenames", "/forenames/", "Type a given name and see every form the same name would have been entered under: Juan, Joannes, John"),
     ("Drawn", "/drawn/", "Every page that draws the people instead of listing them: the line, the trees, the blood relatives, the Timeline, the Spine"),
     ("Deep dives", "/research/deep-dives/", "The long studies: hypotheses, the papers in the house, the DNA, the two archives"),
 ]
