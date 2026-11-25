@@ -1,9 +1,9 @@
 {
- "individuals": 1533,
+ "individuals": 1534,
  "kept": 1098,
- "living": 338,
+ "living": 339,
  "living_policy": "omit",
- "undated_dropped": 265,
+ "undated_dropped": 266,
  "birth_year_estimated": 283,
  "death_year_estimated": 1147,
  "placed_from_relative": 115,
@@ -37,19 +37,19 @@
  },
  "focus": "mauricio-lerena",
  "adapter": {
-  "people_in_register": 1536,
+  "people_in_register": 1537,
   "living_not_drawn": 2,
   "noindex_not_drawn": 1,
-  "offered_to_converter": 1533,
+  "offered_to_converter": 1534,
   "drawn": 1098,
-  "not_drawn_possibly_living_or_undated_without_a_death": 338,
+  "not_drawn_possibly_living_or_undated_without_a_death": 339,
   "not_drawn_no_birth_year_even_from_kin": 4,
   "not_drawn_no_place_of_their_own_or_a_relatives": 93,
   "drawn_at_a_relatives_birth_place": 115,
   "bpe_flagged": 115,
   "drawn_at_a_country_only": 286,
   "sex_from_the_register": 462,
-  "sex_unknown_total": 1071,
+  "sex_unknown_total": 1072,
   "sex_unknown_drawn": 683,
   "sex_how": {
    "named as a father in the register": 217,
@@ -90,9 +90,9 @@
    "Sexta Seccion, Flores, Uruguay"
   ],
   "conflicts_not_drawn": 0,
-  "undrawn_cards": 438,
-  "undrawn_dead_unplaced": 357,
+  "undrawn_cards": 439,
+  "undrawn_dead_unplaced": 358,
   "undrawn_living_style": 81,
-  "in_tree_json_total": 1536
+  "in_tree_json_total": 1537
  }
 }
