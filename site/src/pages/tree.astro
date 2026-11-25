@@ -1,7 +1,12 @@
 ---
 /* Our line, drawn.
 
-   The smallest chart in the estate, and the one where that is the point. Eight
+   25 NOVEMBER 2026 (David: "Do the four simplifications and the button"): the ancestor chart is no longer drawn on this page. The Tree
+   Canvas (Record Atlas) draws this line, and more, on demand, and the button below opens this archive there. What stays here is the
+   list the chart carried: where each branch ends, and why. `lineage()` still walks the line, so the counts and the walls are read off
+   the same tree as before; AncChart gets `draw={false}`. The page's address, title, menu label and book position are unchanged.
+
+   The smallest line in the estate, and the one where that is the point. Eight
    people. Two of the four grandparent branches stop at the first generation
    above the line, because Argentine civil registration is not open and the
    1908 enrolment card names Juan Carlos and Maria and then says nothing more.
@@ -11,10 +16,11 @@
    has James Taylor as William's father in plain text. Reading a link the
    archive has already made is not a new claim.
 
-   The chart runs BACK from Nuno, born 1924, so it holds ancestors and nobody living; his
+   The line runs BACK from Nuno, born 1924, so it holds ancestors and nobody living; his
    descendants have their own pages. */
 import Base from "../layouts/Base.astro";
 import AncChart from "@daviddef/archive-kit/components/AncChart.astro";
+import CanvasLink from "@daviddef/archive-kit/components/CanvasLink.astro";
 import { lineage } from "@daviddef/archive-kit/lib/ahnen.js";
 import { u } from "../lib/url.js";
 import people from "../data/people.json";
@@ -92,13 +98,14 @@ let drawn = 0, doc = 0, walls = 0, deepest = 0;
 ---
 <Base title="Our line, drawn"
       eyebrow={`${drawn} people, ${walls} walls`}
-      dek={`The smallest chart in the estate, and the shortest answer to how far this line goes back: ${spell(drawn)} people, and then the doors close.`}>
+      dek={`The shortest answer to how far this line goes back: ${spell(drawn)} people, and then the doors close. The drawing is on the Tree Canvas; what is here is where each branch ends.`}>
 
   <section class="blk">
     <p class="prose">This is the whole of it: <strong>{drawn}</strong> people,
     <strong>{deepest + 1}</strong> generations at the deepest point, and <strong>{walls}</strong>
     branches that stop dead — and the stopping is the finding. Argentine civil registration is not open to the public, so the line runs into a
-    wall the moment it crosses back over the Atlantic.</p>
+    wall the moment it crosses back over the Atlantic. The picture of the line is drawn on the
+    Tree Canvas (the button below); what is on this page is where each branch ends, and why.</p>
 
     <p class="prose">What holds the Argentine side up at all is one document: the 1908
     <a href={u("/enrolment-card/")}>ficha de enrolamiento</a>, which names Pablo's father and
@@ -111,17 +118,19 @@ let drawn = 0, doc = 0, walls = 0, deepest = 0;
     on that page, not this one.</p>
   </section>
 
-  <AncChart root={root} personHref={personHref} />
+  <CanvasLink archive="lerena" person="nuno-fernando-lerena" />
+
+  <AncChart root={root} personHref={personHref} draw={false} />
 
   <section class="blk">
-    <p class="prose dim">Each box names the country after the place, in <strong>today&rsquo;s
+    <p class="prose dim">Where this archive names the country after a place, it is in <strong>today&rsquo;s
     borders</strong> &mdash; an anachronism this archive would rather admit than hide, since
     Canelones in 1791 was the <em>Banda Oriental</em> of the Spanish empire. Where a place
     cannot be assigned it is left alone: bare <em>Rosario</em> is Santa Fe in Argentina or
     Colonia in Uruguay and this register holds both, and bare <em>C&oacute;rdoba</em> is the
     open question of whether Sancho came from Andalusia or Argentina.</p>
 
-    <p class="prose dim">This chart runs back from Nuno Fernando Lerena, born 1924, so it holds ancestors
+    <p class="prose dim">This line runs back from Nuno Fernando Lerena, born 1924, so it holds ancestors
     only; his descendants, the living among them, are on their own person pages, each a name with
     relationships and a town and country. What it would take to get past each of these walls is on
     <a href={u("/open-questions/")}>Open Questions</a>; the lines this family marries into are
