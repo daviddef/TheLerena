@@ -8,17 +8,13 @@ import { corrections as rows, ids } from "../lib/corrections-ids.js";
 import placeData from "../data/correction-places.json";
 import { emph, plain } from "../lib/text.js";
 const serious = rows.filter(r => r.severity === "serious").length;
-const minor = rows.length - serious;
 const MONTHS = ["January","February","March","April","May","June",
                 "July","August","September","October","November","December"];
 const pretty = (d) => { const [y, m, day] = d.split("-");
   return `${Number(day)} ${MONTHS[Number(m) - 1]} ${y}`; };
-/* No sort of our own (kit docs/corrections.md): the component puts the entries newest first by `when`, one sticky heading per day, and keeps the
-   file's order within a day. The contents list below is a list of DAYS, newest first, each linking to that day's first entry (the day heading
-   carries no id; every entry carries c-<day>-<hash>, from corrIdMap over these same rows in file order, the rows /whats-new/ is built from). */
-const days = [...new Set(rows.map(r => r.date))].sort((a, b) => b.localeCompare(a))
-  .map(d => { const mine = rows.filter(r => r.date === d);
-    return { date: d, rows: mine, first: ids.get(mine[0]) }; });
+/* No sort of our own (kit docs/corrections.md): the component puts the entries newest first by `when` and keeps the file's order within a day.
+   Its strip of days is the way in by date, and its grade buttons carry the counts, so this page keeps neither a list of days nor tally panels.
+   Every entry carries c-<day>-<hash> (corrIdMap over these same rows in file order, the rows /whats-new/ is built from). */
 /* A place in the prose links to its page with the flag of the state that held it in the year the sentence names (kit placelinks.js; the rows and
    flags are made by tools/build-correction-links.py). Names are NOT linked here: the post-build autolinker does that, with its living rules. */
 /* ?no-inline: Vite would otherwise write each small SVG into the page as a data: URI at every use (266 of them, 737 KB); this emits each flag once as /_astro/*.svg */
@@ -38,24 +34,6 @@ const places = placeIndex(placeData.rows.map(r => ({ ...r, href: u(r.href) })), 
     <p><strong>Nothing here has been quietly edited away.</strong> Where a page elsewhere on this site
       once said something different, it now says the corrected thing <em>and</em> says that it used to say
       something else.</p>
-  </div>
-  <div class="grid g3" style="margin-top:22px">
-    <div class="panel"><div class="nm">{rows.length}</div><div class="txt">corrections recorded</div></div>
-    <div class="panel"><div class="nm">{serious}</div><div class="txt">serious &mdash; changed a conclusion</div></div>
-    <div class="panel"><div class="nm">{minor}</div><div class="txt">minor &mdash; a slip, corrected</div></div>
-  </div>
-</section>
-
-<section class="blk">
-  <h2 id="contents">Every one of them, by the day it was caught</h2>
-  <div class="prose" style="margin-top:12px">
-    <ol class="cols2">
-      {days.map(d => (
-        <li><a href={"#" + d.first}>{pretty(d.date)}</a>
-          <span class="cap"> &mdash; {d.rows.length} {d.rows.length === 1 ? "correction" : "corrections"},
-            {" "}{d.rows.filter(r => r.severity === "serious").length} serious</span></li>
-      ))}
-    </ol>
   </div>
 </section>
 
